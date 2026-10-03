@@ -45,7 +45,7 @@ const PRODUCT_FIELDS = `
   id handle title description descriptionHtml productType
   seo { title description }
   featuredImage { url altText width height }
-  images(first: 60) { nodes { url altText width height } }
+  images(first: 120) { nodes { url altText width height } }
   priceRange { minVariantPrice { amount currencyCode } }
   options { name values }
   variants(first: 100) { nodes { id title availableForSale price { amount currencyCode } selectedOptions { name value } image { url } } }

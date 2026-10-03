@@ -73,6 +73,17 @@ const colorSlugs = [...colors].sort((a, b) => b.length - a.length).map((c) => [c
 const colorOf = (url: string): string => colorSlugs.find(([, slug]) => url.toLowerCase().includes(`-${slug}-`))?.[0] ?? '';
 const heroColor = images[0] ? colorOf(images[0].url) : '';
 if (heroColor) { colors.splice(colors.indexOf(heroColor), 1); colors.unshift(heroColor); }
+// Alt text: keep a hand-written one; otherwise build it from the title + the color/angle in Printful's filename
+const designName = (p.title.split(/\s[–-]\s/).pop() ?? p.title).replace(/\s+(tee|t-shirt|hoodie)$/i, '');
+const niche = (p.title.split(/\s[–-]\s/)[0] ?? '').toLowerCase();
+const VIEWS: [string, string][] = [['left-front', 'three-quarter view'], ['right-front', 'three-quarter view'], ['front', 'front view'], ['back', 'back view'], ['left', 'side view'], ['right', 'side view']];
+const altFor = (img: { url: string; altText?: string | null }) => {
+  if (img.altText && !/^product mockup$/i.test(img.altText.trim())) return img.altText;
+  const file = img.url.split('/').pop()?.split('?')[0] ?? '';
+  const view = VIEWS.find(([k]) => file.includes(`-${k}-`))?.[1];
+  const color = colorOf(img.url).toLowerCase();
+  return [`${designName} ${niche} graphic ${isHoodie ? 'hoodie' : 'tee'}`.replace(/\s+/g, ' '), color, view].filter(Boolean).join(', ');
+};
 ---
 <Base title={p.seo?.title || `${p.title} — ${isHoodie ? 'Graphic Hoodie' : 'Graphic Tee'}`} description={p.seo?.description || p.description.slice(0, 155)}
   image={p.featuredImage?.url}
@@ -89,7 +100,7 @@ if (heroColor) { colors.splice(colors.indexOf(heroColor), 1); colors.unshift(her
       <div class="relative">
         <div data-track class="flex overflow-x-auto snap-x snap-mandatory rounded-[20px] bg-white border-2 border-[var(--color-ink)] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden" aria-label="Product photos" tabindex="0">
           {images.length ? images.map((img, i) => (
-            <img src={`${img.url}&width=1100`} alt={img.altText ?? p.title} width="1100" height="1100"
+            <img src={`${img.url}&width=1100`} alt={altFor(img)} width="1100" height="1100"
               loading={i < 4 ? 'eager' : 'lazy'} fetchpriority={i === 0 ? 'high' : undefined} data-src={img.url} data-color={colorOf(img.url)}
               class="w-full shrink-0 snap-center aspect-square object-contain" />
           )) : <div class="w-full aspect-square grain"></div>}

@@ -24,7 +24,8 @@ Style words (Oversized, Cropped, Heavyweight, Zip-Up) may appear anywhere in the
    (the site turns them into drawers, so the headings must match):
    - `<h3>The Story</h3>` — 2–3 short paragraphs in the brand voice: start with the feeling or moment the art is about,
      then describe the art, then how/where to wear it. Weave in 4–6 chosen long-tail phrases naturally
-     (never a list of keywords). End with one line: "Original art, drawn for Graphic Tees Co. and printed the day you order it."
+     (never a list of keywords). End with one line: "Original art, drawn for Graphic Tees Co. and printed the day you order it." — for AI-generated
+     designs (tag `ai-art`) use "Original art, made for Graphic Tees Co. and printed the day you order it." instead.
      No superlatives, no invented backstory about people or places.
    - `<h3>Details &amp; Fit</h3>` — a clean `<ul>` rewritten from Printful's spec bullets: fit + neck, fabric (note blends
      only for colors actually offered), weight/pre-shrunk/side-seamed, size range, colors offered, blank origin.
