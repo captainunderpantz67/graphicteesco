@@ -17,6 +17,13 @@ export async function getStaticPaths() {
 }
 const { product: p, twin } = Astro.props as { product: Product; twin?: Product };
 const sizes = p.variants;
+// Option values in the order the variants list them (Printful's order), sizes sorted small → large.
+const SIZE_ORDER = ['XXS', 'XS', 'S', 'M', 'L', 'XL', '2XL', 'XXL', '3XL', '4XL', '5XL'];
+const optionValues = (name: string) => {
+  const vals = [...new Set(p.variants.flatMap((v) => v.selectedOptions.filter((o) => o.name === name).map((o) => o.value)))];
+  return /size/i.test(name) ? vals.sort((a, b) => (SIZE_ORDER.indexOf(a) + 99) % 99 - (SIZE_ORDER.indexOf(b) + 99) % 99) : vals;
+};
+const opts = p.options.map((o) => ({ name: o.name, values: optionValues(o.name) }));
 const isHoodie = /hood/i.test(p.productType) || /hood/i.test(p.title);
 const item = isHoodie ? 'hoodie' : 'graphic tee';
 // Product FAQs: long-tail care/fit/shipping questions. Fact-dependent ones hide until confirmed.
@@ -48,7 +55,7 @@ const parents = all.filter((c) => p.collections?.includes(c.shopifyHandle));
       <p class="mt-3 text-xl" data-price>{formatPrice(p.priceRange.minVariantPrice)}</p>
       <form data-add-to-cart class="mt-6 grid gap-5" data-variants={JSON.stringify(p.variants.map((v) => ({ id: v.id, ok: v.availableForSale, price: formatPrice(v.price), img: v.image?.url ?? null, opts: Object.fromEntries(v.selectedOptions.map((o) => [o.name, o.value])) })))}>
         <input type="hidden" name="variant" value={p.variants.find((v) => v.availableForSale)?.id ?? ''} />
-        {p.options.filter((o) => o.values.length > 1 || p.options.length === 1).map((o) => (
+        {opts.filter((o) => o.values.length > 1 || opts.length === 1).map((o) => (
           <fieldset data-option={o.name}>
             <legend class="text-sm font-bold uppercase tracking-[.12em] mb-2">{o.name}: <span data-chosen class="font-normal normal-case tracking-normal">{o.values[0]}</span></legend>
             <div class="flex flex-wrap gap-2">
