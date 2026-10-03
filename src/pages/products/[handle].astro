@@ -1,9 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
 import { getAllProducts, formatPrice, type Product } from '../../lib/shopify';
-import Faq from '../../components/Faq.astro';
 import { productSchema, breadcrumbs, faqPage } from '../../lib/schema';
-import { resolveFaqs } from '../../data/site';
 import { all, pathFor } from '../../data/collections';
 
 export async function getStaticPaths() {
@@ -12,96 +11,263 @@ export async function getStaticPaths() {
   const base = (t: string) => t.replace(/\s+(tee|t-shirt|shirt|hoodie)$/i, '').trim().toLowerCase();
   return products.map((p) => ({
     params: { handle: p.handle },
-    props: { product: p, twin: products.find((o) => o.handle !== p.handle && base(o.title) === base(p.title)) },
+    props: {
+      product: p,
+      twin: products.find((o) => o.handle !== p.handle && base(o.title) === base(p.title)),
+      related: products.filter((o) => o.handle !== p.handle && o.collections?.some((c) => p.collections?.includes(c))).slice(0, 8),
+    },
   }));
 }
-const { product: p, twin } = Astro.props as { product: Product; twin?: Product };
-const sizes = p.variants;
-// Option values in the order the variants list them (Printful's order), sizes sorted small → large.
+const { product: p, twin, related } = Astro.props as { product: Product; twin?: Product; related: Product[] };
+
+const isHoodie = /hood/i.test(p.productType) || /hood/i.test(p.title);
 const SIZE_ORDER = ['XXS', 'XS', 'S', 'M', 'L', 'XL', '2XL', 'XXL', '3XL', '4XL', '5XL'];
 const optionValues = (name: string) => {
   const vals = [...new Set(p.variants.flatMap((v) => v.selectedOptions.filter((o) => o.name === name).map((o) => o.value)))];
   return /size/i.test(name) ? vals.sort((a, b) => (SIZE_ORDER.indexOf(a) + 99) % 99 - (SIZE_ORDER.indexOf(b) + 99) % 99) : vals;
 };
-const opts = p.options.map((o) => ({ name: o.name, values: optionValues(o.name) }));
-const isHoodie = /hood/i.test(p.productType) || /hood/i.test(p.title);
-const item = isHoodie ? 'hoodie' : 'graphic tee';
-// Product FAQs: long-tail care/fit/shipping questions. Fact-dependent ones hide until confirmed.
-const faqs = resolveFaqs([
-  { q: `Is the ${p.title} design original?`, a: 'Yes. It was drawn for this shop — no licensed characters or stock art.' },
-  { q: `How do I wash this ${item}?`, a: 'Turn it inside out, wash cold on gentle, skip bleach and fabric softener, and hang dry or tumble dry low. Never iron directly on the print.' },
-  { q: `How is this ${item} made?`, a: 'It is printed after you order it, then shipped to you.' },
-  { q: 'How long until it ships?', a: (f) => `Printing takes ${f.productionDays}, then it ships. Delivery estimates show at checkout.`, needs: 'productionDays' },
-  { q: 'What sizes does it come in?', a: (f) => `Sizes run ${f.sizeRange}.`, needs: 'sizeRange' },
-  { q: `What is this ${item} made of?`, a: (f) => `${isHoodie ? f.hoodieBlank : f.teeBlank}.`, needs: isHoodie ? 'hoodieBlank' : 'teeBlank' },
-  { q: 'Can I return it?', a: (f) => f.returnsPolicy!, needs: 'returnsPolicy' },
-]);
-// Collections this product belongs to (by Shopify collection handles) — internal links back up.
+const colorOpt = p.options.find((o) => /colou?r/i.test(o.name));
+const sizeOpt = p.options.find((o) => /size/i.test(o.name));
+const colors = colorOpt ? optionValues(colorOpt.name) : [];
+const sizes = sizeOpt ? optionValues(sizeOpt.name) : [];
+
+// Swatch colors for common Printful blank colors; unknown names fall back to a text chip.
+const SWATCH: Record<string, string> = {
+  Black: '#141414', White: '#ffffff', Natural: '#efe6d4', Maroon: '#5e1d27', 'Military Green': '#5a5d3a',
+  'Heather Stone': '#b7ab96', Navy: '#1f2a44', 'Dark Grey Heather': '#4b4b4d', 'Athletic Heather': '#b9b9b9',
+  'Heather Prism Lilac': '#c9b6d6', 'Heather Prism Natural': '#e6dcc7', Sand: '#d9c7a4', 'Forest Green': '#23402f',
+  Red: '#a3261e', Brown: '#5a3a28', Pink: '#f2b8c6', 'Light Blue': '#a9c6e2', 'Carbon Grey': '#5b5b5b',
+};
+
+// Description from intake: <h3>Story</h3>…<h3>Details &amp; Fit</h3>…<h3>Questions</h3>…
+// Split into drawers. Anything before the first <h3> counts as the story.
+const sections: Record<string, string> = {};
+{
+  const parts = p.descriptionHtml.split(/<h3[^>]*>(.*?)<\/h3>/i);
+  sections.story = parts[0].trim();
+  for (let i = 1; i < parts.length; i += 2) sections[parts[i].replace(/&amp;/g, '&').trim().toLowerCase()] = parts[i + 1].trim();
+}
+const story = sections['the story'] || sections.story || '';
+const details = sections['details & fit'] || sections['details'] || '';
+const questionsHtml = sections['questions'] || '';
+const qa = [...questionsHtml.matchAll(/<p><strong>(.*?)<\/strong><br>(.*?)<\/p>/gi)].map((m) => ({
+  q: m[1].replace(/<[^>]+>/g, ''), a: m[2].replace(/<[^>]+>/g, ''),
+}));
+const careQ = { q: `How do I wash this ${isHoodie ? 'hoodie' : 'graphic tee'}?`, a: 'Inside out, cold water, gentle cycle. Skip bleach and fabric softener, then hang dry or tumble dry low. Never iron directly on the print.' };
+const faqs = [...qa, careQ];
+const hook = (story.match(/<p>(.*?)<\/p>/i)?.[1] ?? '').replace(/<[^>]+>/g, '').split(/(?<=\.)\s/)[0];
+
 const parents = all.filter((c) => p.collections?.includes(c.shopifyHandle));
+// Primary collection = the one whose niche word appears in the title (e.g. "Women's Western – …" → Western).
+const titleLead = p.title.split('–')[0].toLowerCase();
+const primary = parents.find((c) => !/graphic-tees-for-(men|women)/.test(c.slug) && titleLead.includes(c.slug.split('-')[0]))
+  ?? parents.find((c) => !/graphic-tees-for-(men|women)/.test(c.slug)) ?? parents[0];
+const variantData = p.variants.map((v) => ({ id: v.id, ok: v.availableForSale, price: formatPrice(v.price), img: v.image?.url ?? null, opts: Object.fromEntries(v.selectedOptions.map((o) => [o.name, o.value])) }));
+const images = p.images.length ? p.images : [];
 ---
 <Base title={p.seo?.title || `${p.title} — ${isHoodie ? 'Graphic Hoodie' : 'Graphic Tee'}`} description={p.seo?.description || p.description.slice(0, 155)}
   image={p.featuredImage?.url}
-  schema={[productSchema(p), faqPage(faqs), breadcrumbs([{ name: 'Home', path: '/' }, ...(parents[0] ? [{ name: parents[0].h1, path: pathFor(parents[0]) }] : []), { name: p.title, path: `/products/${p.handle}/` }])]}>
-  <section class="container-x pt-8 grid md:grid-cols-2 gap-10">
-    <div class="grid gap-3">
-      {p.images.length > 0
-        ? p.images.map((img, i) => <img data-main={i === 0 ? '' : undefined} src={`${img.url}&width=1000`} alt={img.altText ?? p.title} width="1000" height="1250"
-            loading={i === 0 ? 'eager' : 'lazy'} class="w-full bg-[var(--color-paper-2)]" />)
-        : <div class="aspect-[4/5] bg-[var(--color-paper-2)] grain"></div>}
+  schema={[productSchema(p), faqPage(faqs), breadcrumbs([{ name: 'Home', path: '/' }, ...(primary ? [{ name: primary.h1, path: pathFor(primary) }] : []), { name: p.title, path: `/products/${p.handle}/` }])]}>
+
+  <nav aria-label="Breadcrumb" class="container-x pt-5 text-xs text-[var(--color-ink-2)]">
+    <a href="/" class="hover:underline">Home</a>
+    {primary && <> / <a href={pathFor(primary)} class="hover:underline">{primary.h1}</a></>}
+  </nav>
+
+  <section class="container-x pt-4 grid lg:grid-cols-[1.1fr_1fr] gap-8 lg:gap-14 items-start">
+    <!-- GALLERY: swipeable carousel + thumbnails -->
+    <div class="min-w-0 lg:sticky lg:top-24">
+      <div class="relative">
+        <div data-track class="flex overflow-x-auto snap-x snap-mandatory rounded-[20px] bg-white border-2 border-[var(--color-ink)] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden" aria-label="Product photos" tabindex="0">
+          {images.length ? images.map((img, i) => (
+            <img src={`${img.url}&width=1100`} alt={img.altText ?? p.title} width="1100" height="1100"
+              loading={i === 0 ? 'eager' : 'lazy'} fetchpriority={i === 0 ? 'high' : undefined} data-src={img.url}
+              class="w-full shrink-0 snap-center aspect-square object-contain" />
+          )) : <div class="w-full aspect-square grain"></div>}
+        </div>
+        {images.length > 1 && (
+          <>
+            <button type="button" data-prev aria-label="Previous photo" class="hidden md:grid absolute left-3 top-1/2 -translate-y-1/2 w-11 h-11 place-items-center rounded-full bg-[var(--color-cream)] border-2 border-[var(--color-ink)] shadow-[2px_2px_0_var(--color-ink)]">‹</button>
+            <button type="button" data-next aria-label="Next photo" class="hidden md:grid absolute right-3 top-1/2 -translate-y-1/2 w-11 h-11 place-items-center rounded-full bg-[var(--color-cream)] border-2 border-[var(--color-ink)] shadow-[2px_2px_0_var(--color-ink)]">›</button>
+            <p data-count class="absolute bottom-3 right-3 text-xs font-bold bg-[var(--color-ink)] text-[var(--color-cream)] rounded-full px-2.5 py-1 tabular-nums">1 / {images.length}</p>
+          </>
+        )}
+      </div>
+      {images.length > 1 && (
+        <div class="mt-3 flex gap-2 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden" data-thumbs>
+          {images.map((img, i) => (
+            <button type="button" data-thumb={i} aria-label={`Photo ${i + 1}`} class:list={['shrink-0 w-16 h-16 rounded-xl overflow-hidden border-2 bg-white', i === 0 ? 'border-[var(--color-ink)]' : 'border-transparent']}>
+              <img src={`${img.url}&width=160`} alt="" width="64" height="64" decoding="async" class="w-full h-full object-contain" />
+            </button>
+          ))}
+        </div>
+      )}
     </div>
-    <div class="md:sticky md:top-24 self-start">
-      <p class="eyebrow">{isHoodie ? 'Graphic hoodie' : 'Graphic tee'}</p>
-      <h1 class="display text-5xl mt-2">{p.title}</h1>
-      <p class="mt-3 text-xl" data-price>{formatPrice(p.priceRange.minVariantPrice)}</p>
-      <form data-add-to-cart class="mt-6 grid gap-5" data-variants={JSON.stringify(p.variants.map((v) => ({ id: v.id, ok: v.availableForSale, price: formatPrice(v.price), img: v.image?.url ?? null, opts: Object.fromEntries(v.selectedOptions.map((o) => [o.name, o.value])) })))}>
+
+    <!-- BUY BOX: short and clean -->
+    <div class="min-w-0">
+      <p class="eyebrow">{primary?.h1 ?? (isHoodie ? 'Graphic hoodie' : 'Graphic tee')}</p>
+      <h1 class="display text-[clamp(2.6rem,6vw,4.2rem)] mt-2 leading-[.9]">{p.title.replace(/^.*?–\s*/, '')}</h1>
+      <p class="mt-1 text-sm font-semibold uppercase tracking-[.12em] text-[var(--color-ink-2)]">{p.title.split('–')[0].trim()}</p>
+      <p class="mt-4 text-2xl font-bold" data-price>{formatPrice(p.priceRange.minVariantPrice)}</p>
+      {hook && <p class="mt-3 text-[var(--color-ink-2)] max-w-md">{hook}</p>}
+
+      <form data-add-to-cart class="mt-6 grid gap-5" data-variants={JSON.stringify(variantData)}>
         <input type="hidden" name="variant" value={p.variants.find((v) => v.availableForSale)?.id ?? ''} />
-        {opts.filter((o) => o.values.length > 1 || opts.length === 1).map((o) => (
-          <fieldset data-option={o.name}>
-            <legend class="text-sm font-bold uppercase tracking-[.12em] mb-2">{o.name}: <span data-chosen class="font-normal normal-case tracking-normal">{o.values[0]}</span></legend>
-            <div class="flex flex-wrap gap-2">
-              {o.values.map((val, i) => (
-                <label class="cursor-pointer">
-                  <input type="radio" name={`opt-${o.name}`} value={val} class="peer sr-only" checked={i === 0} />
-                  <span class="block border-2 border-[var(--color-ink)] rounded-full px-4 py-1.5 text-sm font-semibold peer-checked:bg-[var(--color-ink)] peer-checked:text-[var(--color-cream)] peer-focus-visible:outline peer-focus-visible:outline-3 peer-focus-visible:outline-[var(--color-mustard)] peer-disabled:opacity-35 peer-disabled:line-through">{val}</span>
+        {colorOpt && colors.length > 0 && (
+          <fieldset data-option={colorOpt.name}>
+            <legend class="text-xs font-extrabold uppercase tracking-[.14em] mb-2">Color · <span data-chosen class="font-semibold normal-case tracking-normal text-[var(--color-ink-2)]">{colors[0]}</span></legend>
+            <div class="flex flex-wrap gap-2.5">
+              {colors.map((c, i) => (
+                <label class="cursor-pointer" title={c}>
+                  <input type="radio" name={`opt-${colorOpt.name}`} value={c} class="peer sr-only" checked={i === 0} />
+                  {SWATCH[c]
+                    ? <span class="block w-9 h-9 rounded-full border border-black/20 ring-2 ring-transparent ring-offset-2 ring-offset-[var(--color-paper)] peer-checked:ring-[var(--color-ink)] peer-focus-visible:ring-[var(--color-mustard)]" style={`background:${SWATCH[c]}`}><span class="sr-only">{c}</span></span>
+                    : <span class="block border-2 border-[var(--color-ink)] rounded-full px-3 py-1.5 text-sm font-semibold peer-checked:bg-[var(--color-ink)] peer-checked:text-[var(--color-cream)]">{c}</span>}
                 </label>
               ))}
             </div>
           </fieldset>
-        ))}
-        <p class="text-sm text-[var(--color-ink-2)]" data-stock></p>
-        <button type="submit" class="btn btn-rust w-full">Add to cart</button>
+        )}
+        {sizeOpt && sizes.length > 0 && (
+          <fieldset data-option={sizeOpt.name}>
+            <legend class="w-full flex justify-between text-xs font-extrabold uppercase tracking-[.14em] mb-2">
+              <span>Size · <span data-chosen class="font-semibold normal-case tracking-normal text-[var(--color-ink-2)]">{sizes[0]}</span></span>
+              <button type="button" data-open-drawer="details" class="normal-case tracking-normal font-semibold underline underline-offset-4">Size & fit</button>
+            </legend>
+            <div class="grid grid-cols-6 gap-2">
+              {sizes.map((s, i) => (
+                <label class="cursor-pointer">
+                  <input type="radio" name={`opt-${sizeOpt.name}`} value={s} class="peer sr-only" checked={i === 0} />
+                  <span class="grid place-items-center h-11 rounded-xl border-2 border-[var(--color-ink)] text-sm font-bold peer-checked:bg-[var(--color-ink)] peer-checked:text-[var(--color-cream)] peer-focus-visible:outline peer-focus-visible:outline-3 peer-focus-visible:outline-[var(--color-mustard)]">{s}</span>
+                </label>
+              ))}
+            </div>
+          </fieldset>
+        )}
+        <button type="submit" class="btn btn-rust w-full !py-4 !text-sm">Add to cart</button>
       </form>
+
+      <ul class="mt-5 grid grid-cols-3 gap-2 text-[11px] font-bold uppercase tracking-[.08em] text-[var(--color-ink-2)] text-center">
+        <li class="flex flex-col items-center gap-1.5"><Icon name="star" class="w-5 h-5 text-[var(--color-rust)]" />Original art</li>
+        <li class="flex flex-col items-center gap-1.5"><Icon name="tee" class="w-5 h-5 text-[var(--color-rust)]" />Printed to order</li>
+        <li class="flex flex-col items-center gap-1.5"><Icon name="sun" class="w-5 h-5 text-[var(--color-rust)]" />Misprints replaced</li>
+      </ul>
+
       {twin && (
-        <a href={`/products/${twin.handle}/`} class="mt-4 inline-flex items-center gap-2 font-bold underline decoration-[var(--color-rust)] decoration-2 underline-offset-4">
-          Also on a {/hood/i.test(twin.productType) || /hood/i.test(twin.title) ? 'hoodie' : 'tee'}: {twin.title} →
+        <a href={`/products/${twin.handle}/`} class="mt-6 flex items-center gap-4 rounded-2xl border-2 border-[var(--color-ink)] bg-[var(--color-cream)] p-3 hover:bg-[var(--color-mustard)] transition-colors">
+          {twin.featuredImage && <img src={`${twin.featuredImage.url}&width=160`} alt="" width="56" height="56" class="w-14 h-14 rounded-lg object-contain bg-white" loading="lazy" />}
+          <span class="text-sm"><span class="block font-extrabold uppercase tracking-[.1em] text-xs text-[var(--color-rust-2)]">Same design</span>Also as a {/hood/i.test(twin.productType) || /hood/i.test(twin.title) ? 'hoodie' : 'tee'} →</span>
         </a>
       )}
-      <div class="prose-copy mt-8" set:html={p.descriptionHtml} />
-      {parents.length > 0 && <p class="mt-6 text-sm">In: {parents.map((c, i) => <>{i > 0 && ', '}<a href={pathFor(c)} class="underline">{c.h1}</a></>)}</p>}
-      <div class="mt-8"><Faq faqs={faqs} /></div>
+
+      <!-- DRAWERS -->
+      <div class="mt-8 border-t-2 border-[var(--color-ink)]">
+        {story && (
+          <details class="group border-b border-[var(--color-line)]" open>
+            <summary class="flex justify-between items-center py-4 cursor-pointer list-none font-extrabold uppercase tracking-[.12em] text-sm">The story<span class="text-xl text-[var(--color-rust)] group-open:rotate-45 transition-transform">+</span></summary>
+            <div class="prose-copy pb-5 -mt-2" set:html={story} />
+          </details>
+        )}
+        {details && (
+          <details class="group border-b border-[var(--color-line)]" data-drawer="details">
+            <summary class="flex justify-between items-center py-4 cursor-pointer list-none font-extrabold uppercase tracking-[.12em] text-sm">Details & fit<span class="text-xl text-[var(--color-rust)] group-open:rotate-45 transition-transform">+</span></summary>
+            <div class="prose-copy pb-5 -mt-2 [&_ul]:grid [&_ul]:gap-1.5 [&_ul]:list-disc [&_ul]:pl-5 [&_li]:text-[var(--color-ink-2)]" set:html={details} />
+          </details>
+        )}
+        <details class="group border-b border-[var(--color-line)]">
+          <summary class="flex justify-between items-center py-4 cursor-pointer list-none font-extrabold uppercase tracking-[.12em] text-sm">Shipping & returns<span class="text-xl text-[var(--color-rust)] group-open:rotate-45 transition-transform">+</span></summary>
+          <div class="prose-copy pb-5 -mt-2">
+            <p>Printed to order and shipped straight to you. Shipping cost and delivery estimate show at checkout, and you'll get tracking by email.</p>
+            <p>Misprinted or damaged? Send us a photo within 30 days and we'll replace it or refund you. <a href="/shipping-returns/" class="underline">Full policy</a></p>
+          </div>
+        </details>
+        <details class="group border-b border-[var(--color-line)]">
+          <summary class="flex justify-between items-center py-4 cursor-pointer list-none font-extrabold uppercase tracking-[.12em] text-sm">Questions<span class="text-xl text-[var(--color-rust)] group-open:rotate-45 transition-transform">+</span></summary>
+          <dl class="pb-5 grid gap-4">
+            {faqs.map((f) => <div><dt class="font-bold">{f.q}</dt><dd class="mt-1 text-[var(--color-ink-2)]">{f.a}</dd></div>)}
+          </dl>
+        </details>
+      </div>
+
+      {parents.length > 0 && (
+        <div class="mt-6 flex flex-wrap gap-2">
+          {parents.map((c) => <a href={pathFor(c)} class="text-xs font-bold uppercase tracking-[.08em] rounded-full border border-[var(--color-ink)] px-3 py-1.5 hover:bg-[var(--color-ink)] hover:text-[var(--color-cream)]">{c.h1}</a>)}
+        </div>
+      )}
     </div>
   </section>
+
+  {related.length > 0 && (
+    <section class="container-x mt-20">
+      <h2 class="display text-4xl">More like this</h2>
+      <div class="mt-6 flex gap-4 overflow-x-auto snap-x pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        {related.map((r) => (
+          <a href={`/products/${r.handle}/`} class="snap-start shrink-0 w-[46%] md:w-[23%] group">
+            <div class="aspect-square bg-white rounded-2xl overflow-hidden border border-[var(--color-line)]">
+              {r.featuredImage && <img src={`${r.featuredImage.url}&width=500`} alt={r.featuredImage.altText ?? r.title} loading="lazy" width="500" height="500" class="w-full h-full object-contain group-hover:scale-[1.03] transition-transform" />}
+            </div>
+            <p class="mt-2 text-sm font-semibold">{r.title.replace(/^.*?–\s*/, '')}</p>
+            <p class="text-sm text-[var(--color-ink-2)]">{formatPrice(r.priceRange.minVariantPrice)}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
 <script>
+  // Carousel
+  const track = document.querySelector<HTMLElement>('[data-track]');
+  if (track) {
+    const slides = [...track.querySelectorAll<HTMLImageElement>('img')];
+    const thumbs = [...document.querySelectorAll<HTMLButtonElement>('[data-thumb]')];
+    const count = document.querySelector('[data-count]');
+    const go = (i: number) => {
+      const target = i * track.clientWidth;
+      track.scrollTo({ left: target, behavior: 'smooth' });
+      // Some browsers/tabs skip smooth scrolling with snap; make sure we land on the slide.
+      setTimeout(() => { if (Math.abs(track.scrollLeft - target) > 4) { track.style.scrollBehavior = 'auto'; track.scrollLeft = target; track.style.scrollBehavior = ''; sync(); } }, 450);
+    };
+    const current = () => Math.round(track.scrollLeft / track.clientWidth);
+    const sync = () => {
+      const i = current();
+      thumbs.forEach((t, j) => t.classList.toggle('border-[var(--color-ink)]', j === i));
+      thumbs.forEach((t, j) => t.classList.toggle('border-transparent', j !== i));
+      if (count) count.textContent = `${i + 1} / ${slides.length}`;
+    };
+    track.addEventListener('scroll', () => requestAnimationFrame(sync), { passive: true });
+    thumbs.forEach((t) => t.addEventListener('click', () => go(Number(t.dataset.thumb))));
+    document.querySelector('[data-prev]')?.addEventListener('click', () => go(Math.max(0, current() - 1)));
+    document.querySelector('[data-next]')?.addEventListener('click', () => go(Math.min(slides.length - 1, current() + 1)));
+    (window as any).__gtcGoToImage = (url: string) => {
+      const i = slides.findIndex((s) => s.dataset.src && url.split('?')[0] === s.dataset.src.split('?')[0]);
+      if (i >= 0) go(i);
+    };
+  }
+  // Size & fit link opens the details drawer
+  document.querySelectorAll('[data-open-drawer]').forEach((b) => b.addEventListener('click', () => {
+    const d = document.querySelector<HTMLDetailsElement>(`[data-drawer="${(b as HTMLElement).dataset.openDrawer}"]`);
+    if (d) { d.open = true; d.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  }));
+  // Variant selection
   const form = document.querySelector<HTMLFormElement>('form[data-add-to-cart][data-variants]');
   if (form) {
     const variants: { id: string; ok: boolean; price: string; img: string | null; opts: Record<string, string> }[] = JSON.parse(form.dataset.variants!);
     const hidden = form.querySelector<HTMLInputElement>('input[name=variant]')!;
     const btn = form.querySelector<HTMLButtonElement>('button[type=submit]')!;
-    const main = document.querySelector<HTMLImageElement>('img[data-main]');
     const priceEl = document.querySelector('[data-price]');
-    const stock = form.querySelector('[data-stock]')!;
     const sets = [...form.querySelectorAll<HTMLFieldSetElement>('fieldset[data-option]')];
-    const chosen = () => Object.fromEntries(sets.map((f) => [f.dataset.option!, (f.querySelector<HTMLInputElement>('input:checked')?.value) ?? '']));
+    const chosen = () => Object.fromEntries(sets.map((f) => [f.dataset.option!, f.querySelector<HTMLInputElement>('input:checked')?.value ?? '']));
+    let lastImg = '';
     const update = () => {
       const c = chosen();
-      sets.forEach((f) => { f.querySelector('[data-chosen]')!.textContent = c[f.dataset.option!]; });
+      sets.forEach((f) => { const el = f.querySelector('[data-chosen]'); if (el) el.textContent = c[f.dataset.option!]; });
       const v = variants.find((x) => Object.entries(c).every(([k, val]) => x.opts[k] === val));
       hidden.value = v?.ok ? v.id : '';
       btn.disabled = !v?.ok;
       btn.textContent = v?.ok ? 'Add to cart' : 'Sold out';
-      stock.textContent = '';
       if (v && priceEl) priceEl.textContent = v.price;
-      if (v?.img && main) main.src = v.img + (v.img.includes('?') ? '&' : '?') + 'width=1000';
+      if (v?.img && v.img !== lastImg) { lastImg = v.img; (window as any).__gtcGoToImage?.(v.img); }
     };
     form.addEventListener('change', update);
     update();

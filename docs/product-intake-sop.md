@@ -20,12 +20,18 @@ Style words (Oversized, Cropped, Heavyweight, Zip-Up) may appear anywhere in the
    Choose **10–15 phrases that truly describe this design** (audience, theme, style, occasion). Prefer phrases with
    low `kd` (or null — unmeasured long-tails are the point) and skip anything that names another brand, a licensed
    character, or something the product isn't (performance/UPF gear, kids sizes unless offered).
-5. **Write the product copy** (Content Monster rules — facts only, no superlatives):
-   - **Keep Printful's spec bullets** (fabric, fit, care) exactly as they arrived — they're the only source of product facts.
-   - Above them: 2 short paragraphs describing the art and who it's for, using 4–6 of the chosen phrases naturally.
-   - Below them: a **"Questions"** block — 3 Q&As written from 3–4 more chosen phrases
-     (e.g. "Is this a good hunting shirt for women?"). Answers ≤ 2 sentences, true to the product.
+5. **Write the product copy** — this is a brand, not a Printful listing. Exactly three `<h3>` sections, in this order
+   (the site turns them into drawers, so the headings must match):
+   - `<h3>The Story</h3>` — 2–3 short paragraphs in the brand voice: start with the feeling or moment the art is about,
+     then describe the art, then how/where to wear it. Weave in 4–6 chosen long-tail phrases naturally
+     (never a list of keywords). End with one line: "Original art, drawn for Graphic Tees Co. and printed the day you order it."
+     No superlatives, no invented backstory about people or places.
+   - `<h3>Details &amp; Fit</h3>` — a clean `<ul>` rewritten from Printful's spec bullets: fit + neck, fabric (note blends
+     only for colors actually offered), weight/pre-shrunk/side-seamed, size range, colors offered, blank origin.
+     Facts must match Printful's data exactly; only the wording changes. Drop Printful's marketing sentence.
+   - `<h3>Questions</h3>` — 3 Q&As built from 3–4 more chosen phrases, as `<p><strong>Q?</strong><br>A.</p>`. Answers ≤ 2 sentences.
    - Never claim sizes, materials, shipping times or personalization unless they're in Printful's data.
+   - Reference example: product "Women's Western – Desert Bloom Tee".
 6. **Update the product** (`update-product` or Admin GraphQL `productUpdate`):
    - Title: if Printful left a blank name (e.g. "Women's Relaxed T-Shirt"), rename to the convention using the design you see in the mockup.
    - Handle (URL): `<audience>-<niche>-<design>-graphic-<tee|hoodie>`, e.g. `womens-western-desert-bloom-graphic-tee`.
