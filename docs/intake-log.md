@@ -1,3 +1,9 @@
+## 2026-10-03 06:50 UTC — 1 product (manual run from Sam's Mac)
+- **Women's Halloween – Witchy Season Tee** → womens-halloween-witchy-season-graphic-tee · tags graphic-tees-for-women, halloween-shirts · black cat asleep on a witch hat under a crescent moon · model shots moved first (Black hero) · alt text on all 35 images
+  - phrases: cute halloween shirts women, retro halloween shirts women, womens halloween shirts, cute halloween shirts for adults, halloween shirts women plus size
+  - ⚠️ back logo reads "Graphic Design Co." (same as Plate Club) — designer to fix in Printful
+- **Dirt Road Radio**: swapped to Printful model mockups; re-save reset prices to 29.91/31.91/33.91 → restored to 26.00/28.50/31.50; alt text re-applied (48 images)
+
 ## 2026-10-03 06:35 UTC — 3 products (manual run from Sam's Mac — mockups identified by eye)
 - **Men's Gym – Plate Club Tee** (was "Unisex classic tee") → mens-gym-plate-club-graphic-tee · tags graphic-tees-for-men, mens-gym-shirts · fronts moved first · ⚠️ back logo reads "Graphic Design Co." — designer to fix in Printful
 - **Women's Country – Dirt Road Radio Tee** (was "Women's Relaxed T-Shirt") → womens-country-dirt-road-radio-graphic-tee · tags graphic-tees-for-women, country-graphic-tees, vintage-graphic-tees
