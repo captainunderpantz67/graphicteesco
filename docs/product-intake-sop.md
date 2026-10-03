@@ -13,7 +13,12 @@ Style words (Oversized, Cropped, Heavyweight, Zip-Up) may appear anywhere in the
 ## Run
 1. **Find new products:** Shopify `search_products` with `search_query: "tag_not:intake-done"`, newest first, up to 50.
    None → write "no new products" to the log and stop.
-2. **Classify** each with (if the title is a blank name, look at the featured mockup image to identify the design and niche) `src/data/intake-map.json`: audience + niche + style words + type (tee/hoodie from the title
+2. **Design notes (read these first).** Products Claude designs in Google Flow arrive with a first line in the description like
+   `DESIGN NOTES: <what the art shows, colors, style, any text on the shirt> | AUDIENCE: men's|women's|unisex | NICHE: fishing | EXTRA TAGS: vintage-graphic-tees | AI-ART`.
+   Treat that line as your eyes: it replaces looking at the mockup. Use it for the story copy and tags, add tag `ai-art` when it
+   says AI-ART (and use the "made for" closing line), then **remove the notes line** from the final description.
+   Photos, back logo and prices are already set in Printful — don't reorder media or touch prices.
+   **Classify** each with (if the title is a blank name, look at the featured mockup image to identify the design and niche) `src/data/intake-map.json`: audience + niche + style words + type (tee/hoodie from the title
    or the Printful product type). Collect the union of tags. Unknown niche → add tag `needs-review`, skip copy, report it.
 3. **Pair twins:** same `<Design Name>` → tee ↔ hoodie. (The site links twins automatically by name.)
 4. **Pick keywords:** from `src/data/keyword-bank.json`, take the entries for this product's collections.
