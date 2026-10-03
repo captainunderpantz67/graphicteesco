@@ -14,7 +14,7 @@ export interface Facts {
   returnsPolicy: string | null;
 }
 
-const NAME = 'Graphic Tees Co.'; // TODO(Sam): confirm brand name
+const NAME = 'Graphic Tees Co.'; // confirmed by Sam 2026-10-02 (also the Shopify store name)
 
 export const site = {
   name: NAME,
