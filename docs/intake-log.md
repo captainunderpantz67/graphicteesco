@@ -1,3 +1,10 @@
+## 2026-10-03 08:00 UTC — 0 processed, 1 flagged needs-review (scheduled run)
+- **"Unisex classic tee"** (gid://shopify/Product/15330398830896, handle `unisex-classic-tee`)
+  - tagged `needs-review` (no copy written, no title/handle/collection changes made)
+  - why: title is Printful's generic blank name (doesn't follow the `<Audience> <Niche> – <Design Name> <Tee|Hoodie>` convention) and the description is 100% stock Printful blank copy with zero mention of a design/graphic. Per SOP step 2, tried to identify the design from the featured mockup image, but this run's environment blocks egress to `cdn.shopify.com` (WebFetch and curl both returned EGRESS_BLOCKED / 403 from the proxy) — the mockup images could not be viewed.
+  - couldn't classify audience/niche or write any copy without inventing facts, so left it tagged `needs-review` only (not `intake-done`) — it will surface again next run. A human should either (a) view the mockup and rename/describe the product so niche is clear, or (b) confirm this is a stray test product from Printful with no real design, since a "unisex classic tee" with no graphic mentioned anywhere is unusual for this catalog.
+  - flagging separately: the CDN egress block looks like an environment/network policy issue, not a one-off — it will block mockup-based identification for any future blank-titled product too.
+
 ## 2026-10-03 05:55 UTC — 1 product (manual run, first design)
 - **Women's Western – Desert Bloom Tee** (was Printful default "Women's Relaxed T-Shirt"; identified from mockup)
   - handle: womens-western-desert-bloom-graphic-tee
