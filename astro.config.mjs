@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   site: 'https://graphicteesco.com',
   trailingSlash: 'always',
+  build: { inlineStylesheets: 'always' },
   integrations: [sitemap({ filter: (page) => !page.includes('/cart/') })],
   vite: { plugins: [tailwindcss()] },
 });

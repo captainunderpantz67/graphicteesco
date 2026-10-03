@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+/* Self-hosted fonts (no Google Fonts round-trip). Latin subset only. */
+@font-face { font-family: "Big Shoulders Display"; font-style: normal; font-weight: 900; font-display: swap; src: url("/fonts/big-shoulders-display-latin-900-normal.woff2") format("woff2"); }
+@font-face { font-family: "Big Shoulders Display"; font-style: normal; font-weight: 800; font-display: swap; src: url("/fonts/big-shoulders-display-latin-800-normal.woff2") format("woff2"); }
+@font-face { font-family: "Yellowtail"; font-style: normal; font-weight: 400; font-display: swap; src: url("/fonts/yellowtail-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Archivo"; font-style: normal; font-weight: 400; font-display: swap; src: url("/fonts/archivo-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Archivo"; font-style: normal; font-weight: 600; font-display: swap; src: url("/fonts/archivo-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Archivo"; font-style: normal; font-weight: 700; font-display: swap; src: url("/fonts/archivo-latin-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Archivo"; font-style: normal; font-weight: 800; font-display: swap; src: url("/fonts/archivo-latin-800-normal.woff2") format("woff2"); }
+
 /* Brand tokens — "screen-print shop": kraft paper, two-ink prints, halftone.
    Swap these to restyle the whole site. */
 @theme {
@@ -23,10 +32,10 @@ html { background: var(--color-paper); color: var(--color-ink); font-family: var
 body { min-height: 100vh; display: flex; flex-direction: column; }
 main { flex: 1; }
 
-/* Paper grain over everything — subtle, print-shop feel */
-body::before {
-  content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 60; opacity: .35; mix-blend-mode: multiply;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .3 0 0 0 0 .25 0 0 0 0 .2 0 0 0 .18 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+/* Paper grain: a static tiled background (cheap to paint; no fixed overlay or blend mode) */
+body {
+  background-color: var(--color-paper);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .3 0 0 0 0 .25 0 0 0 0 .2 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
 .display { font-family: var(--font-display); font-weight: 900; letter-spacing: .005em; text-transform: uppercase; line-height: .9; }
