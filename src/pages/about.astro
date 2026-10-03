@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+import { site } from '../data/site';
+---
+<Base title={`About | ${site.name}`} description={`${site.name} makes original graphic tees and hoodies, with a new collection every month.`}>
+  <section class="container-x pt-10 max-w-3xl prose-copy">
+    <h1 class="display text-6xl">About</h1>
+    <p>{site.name} makes original graphic tees and hoodies built around what people actually do — fishing, hunting, ranch life, the gym — plus a new seasonal drop every month.</p>
+    <p>Every piece is printed when you order it. That keeps waste down and lets us keep adding designs.</p>
+    <!-- TODO(Sam): founder story, where you're based, link to Instagram -->
+  </section>
+</Base>

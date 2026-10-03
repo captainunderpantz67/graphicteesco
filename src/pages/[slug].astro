@@ -1,0 +1,9 @@
+---
+import CollectionView from '../components/CollectionView.astro';
+import { tees } from '../data/collections';
+export function getStaticPaths() {
+  return tees.map((c) => ({ params: { slug: c.slug }, props: { collection: c } }));
+}
+const { collection } = Astro.props;
+---
+<CollectionView collection={collection} />

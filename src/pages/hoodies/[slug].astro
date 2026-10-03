@@ -1,0 +1,9 @@
+---
+import CollectionView from '../../components/CollectionView.astro';
+import { hoodies } from '../../data/collections';
+export function getStaticPaths() {
+  return hoodies.map((c) => ({ params: { slug: c.slug }, props: { collection: c } }));
+}
+const { collection } = Astro.props;
+---
+<CollectionView collection={collection} />

@@ -1,0 +1,34 @@
+---
+import Base from '../../layouts/Base.astro';
+import { hoodies, pathFor } from '../../data/collections';
+import { breadcrumbs, faqPage } from '../../lib/schema';
+import { site } from '../../data/site';
+
+const faqs = [
+  { q: 'Are these the same designs as your graphic tees?', a: 'Yes. Most tee designs are also printed on hoodies, so you can wear the same art all year.' },
+  { q: 'What hoodie styles do you carry?', a: 'Pullover, zip-up, heavyweight and oversized styles, depending on the design.' },
+  { q: 'Are the designs original?', a: 'Yes. Every design is made for this shop — no licensed characters or resold stock art.' },
+];
+---
+<Base title={`Graphic Hoodies — Original Designs | ${site.name}`}
+  description="Original graphic hoodies: fishing, hunting, western, gym and seasonal designs on pullover, zip-up, heavyweight and oversized hoodies."
+  schema={[breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Hoodies', path: '/hoodies/' }]), faqPage(faqs)]}>
+  <section class="container-x pt-10 pb-8">
+    <p class="eyebrow">Same designs, warmer</p>
+    <h1 class="display text-5xl md:text-7xl mt-2">Graphic Hoodies</h1>
+    <p class="mt-4 max-w-2xl text-lg text-[var(--color-ink-2)]">Original graphic hoodies — the same fishing, hunting, western and gym designs as our tees, on pullover, zip-up, heavyweight and oversized hoodies.</p>
+  </section>
+  <section class="container-x grid grid-cols-2 md:grid-cols-3 gap-4">
+    {hoodies.map((c) => (
+      <a href={pathFor(c)} class="group border border-[var(--color-line)] p-6 hover:border-[var(--color-ink)]">
+        <p class="eyebrow">{c.seasonal ? 'Seasonal' : 'Collection'}</p>
+        <p class="display text-3xl mt-2 group-hover:text-[var(--color-rust)]">{c.h1}</p>
+        <p class="mt-2 text-sm text-[var(--color-ink-2)] line-clamp-2">{c.intro}</p>
+      </a>
+    ))}
+  </section>
+  <section class="container-x mt-16 max-w-3xl prose-copy">
+    <h2>FAQ</h2>
+    <dl class="grid gap-4 mt-4">{faqs.map((f) => <div><dt class="font-semibold">{f.q}</dt><dd class="mt-1 text-[var(--color-ink-2)]">{f.a}</dd></div>)}</dl>
+  </section>
+</Base>

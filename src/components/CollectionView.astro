@@ -1,0 +1,65 @@
+---
+import Base from '../layouts/Base.astro';
+import ProductCard from './ProductCard.astro';
+import type { Collection } from '../data/collections';
+import { bySlug, pathFor, all } from '../data/collections';
+import { getCollectionProducts, shopifyConnected } from '../lib/shopify';
+import { breadcrumbs, faqPage, collectionPage } from '../lib/schema';
+
+interface Props { collection: Collection }
+const { collection: c } = Astro.props;
+const products = await getCollectionProducts(c.shopifyHandle);
+const twin = c.twin ? bySlug(c.twin) : undefined;
+const crumbs = [
+  { name: 'Home', path: '/' },
+  ...(c.section === 'hoodies' ? [{ name: 'Hoodies', path: '/hoodies/' }] : []),
+  { name: c.h1, path: pathFor(c) },
+];
+const related = all.filter((x) => x.section === c.section && x.slug !== c.slug && !!x.seasonal === !!c.seasonal).slice(0, 6);
+// Pre-launch: an empty collection shouldn't be indexed as a thin page.
+const noindex = shopifyConnected && products.length === 0;
+---
+<Base title={c.title} description={c.description} noindex={noindex}
+  schema={[breadcrumbs(crumbs), faqPage(c.faqs), collectionPage(c, products)]}>
+  <nav aria-label="Breadcrumb" class="container-x pt-6 text-xs text-[var(--color-ink-2)]">
+    {crumbs.map((b, i) => <>{i > 0 && ' / '}{i < crumbs.length - 1 ? <a href={b.path} class="hover:underline">{b.name}</a> : <span>{b.name}</span>}</>)}
+  </nav>
+
+  <section class="container-x pt-6 pb-8">
+    <p class="eyebrow">{c.seasonal ? 'Seasonal drop' : c.section === 'hoodies' ? 'Graphic hoodies' : 'Graphic tees'}</p>
+    <h1 class="display text-5xl md:text-7xl mt-2">{c.h1}</h1>
+    <p class="mt-4 max-w-2xl text-lg text-[var(--color-ink-2)]">{c.intro}</p>
+    {twin && <a href={pathFor(twin)} class="inline-block mt-4 font-semibold underline decoration-[var(--color-rust)] underline-offset-4">Also on a {twin.section === 'hoodies' ? 'hoodie' : 'tee'} → {twin.h1}</a>}
+  </section>
+
+  <section class="container-x" aria-label="Products">
+    {products.length > 0 ? (
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-8">
+        {products.map((p) => <ProductCard product={p} />)}
+      </div>
+    ) : (
+      <p class="py-12 text-center text-[var(--color-ink-2)]">New designs are dropping here soon.</p>
+    )}
+    {products.some((p) => p.sample) && <p class="mt-6 text-xs text-[var(--color-ink-2)]">Preview: sample products shown until the Shopify store is connected.</p>}
+  </section>
+
+  <section class="container-x mt-16 grid md:grid-cols-[2fr_1fr] gap-12">
+    <div class="prose-copy">
+      {c.sections.map((s) => <><h2>{s.h2}</h2><p>{s.body}</p></>)}
+      <h2>FAQ</h2>
+      <dl class="grid gap-4 mt-4">
+        {c.faqs.map((f) => (
+          <div><dt class="font-semibold">{f.q}</dt><dd class="text-[var(--color-ink-2)] mt-1">{f.a}</dd></div>
+        ))}
+      </dl>
+    </div>
+    <aside>
+      <p class="eyebrow mb-3">More collections</p>
+      <ul class="grid gap-2">
+        {related.map((r) => <li><a href={pathFor(r)} class="font-semibold hover:text-[var(--color-rust)]">{r.h1} →</a></li>)}
+        {c.section === 'tees' ? <li><a href="/hoodies/" class="font-semibold hover:text-[var(--color-rust)]">Graphic hoodies →</a></li>
+          : <li><a href="/graphic-tees-for-men/" class="font-semibold hover:text-[var(--color-rust)]">Graphic tees →</a></li>}
+      </ul>
+    </aside>
+  </section>
+</Base>

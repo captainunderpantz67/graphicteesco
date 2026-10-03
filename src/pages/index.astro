@@ -1,0 +1,74 @@
+---
+import Base from '../layouts/Base.astro';
+import { site } from '../data/site';
+import { tees, hoodies, pathFor } from '../data/collections';
+import { faqPage } from '../lib/schema';
+
+const evergreen = tees.filter((c) => !c.seasonal && !c.slug.startsWith('graphic-tees-for'));
+const drop = tees.find((c) => c.seasonal === 'halloween')!;
+const faqs = [
+  { q: 'What kind of graphic tees do you sell?', a: 'Original graphic tees built around what people do: fishing, hunting, western, gym, plus seasonal drops like Halloween and Christmas.' },
+  { q: 'Are your graphic tees original designs?', a: 'Yes. Every design is made for this shop — no licensed characters or resold stock art.' },
+  { q: 'Do the designs come on hoodies?', a: 'Yes. Most tee designs are also printed on hoodies, so you can wear the same art year-round.' },
+  { q: 'How often do new designs come out?', a: 'A new collection drops every month.' },
+];
+---
+<Base title={`Graphic Tees — Original Designs, New Drops Monthly | ${site.name}`}
+  description="Original graphic tees for men and women: fishing, hunting, western, gym and seasonal designs. Every design also comes on a hoodie. New drops every month."
+  schema={[faqPage(faqs)]}>
+  <section class="grain border-b border-[var(--color-line)]">
+    <div class="container-x py-16 md:py-24 grid md:grid-cols-[1.3fr_1fr] gap-10 items-center">
+      <div>
+        <p class="eyebrow">Original designs · New drop every month</p>
+        <h1 class="display text-6xl md:text-8xl mt-3">Graphic Tees<br /><span class="text-[var(--color-rust)]">for what you do.</span></h1>
+        <p class="mt-5 text-lg max-w-xl text-[var(--color-ink-2)]">
+          Original graphic tees for the lake, the deer stand, the gym and the ranch. Every design also comes on a hoodie.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="/graphic-tees-for-men/" class="btn">Shop men's tees</a>
+          <a href="/graphic-tees-for-women/" class="btn">Shop women's tees</a>
+          <a href="/hoodies/" class="btn btn-rust">Shop hoodies</a>
+        </div>
+      </div>
+      <a href={pathFor(drop)} class="block bg-[var(--color-ink)] text-[var(--color-paper)] p-8 md:p-10 hover:bg-[var(--color-rust)] transition-colors">
+        <p class="eyebrow !text-[var(--color-paper)] opacity-80">This month's drop</p>
+        <p class="display text-5xl mt-3">{drop.h1}</p>
+        <p class="mt-3 opacity-80">{drop.intro}</p>
+        <p class="mt-6 font-semibold uppercase tracking-wide text-sm">Shop the drop →</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="container-x mt-16">
+    <h2 class="display text-4xl">Shop graphic tees by collection</h2>
+    <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
+      {evergreen.map((c) => (
+        <a href={pathFor(c)} class="group border border-[var(--color-line)] p-5 hover:border-[var(--color-ink)] bg-[var(--color-paper)]">
+          <p class="display text-2xl group-hover:text-[var(--color-rust)]">{c.name}</p>
+          <p class="mt-2 text-sm text-[var(--color-ink-2)] line-clamp-2">{c.intro}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="container-x mt-16">
+    <div class="flex items-end justify-between gap-4">
+      <h2 class="display text-4xl">Same designs. Now on hoodies.</h2>
+      <a href="/hoodies/" class="font-semibold underline underline-offset-4 whitespace-nowrap">All hoodies →</a>
+    </div>
+    <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
+      {hoodies.filter((c) => !c.seasonal).slice(0, 8).map((c) => (
+        <a href={pathFor(c)} class="group bg-[var(--color-paper-2)] p-5 hover:bg-[var(--color-ink)] hover:text-[var(--color-paper)] transition-colors">
+          <p class="display text-2xl">{c.name}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="container-x mt-16 max-w-3xl prose-copy">
+    <h2>Graphic tees, explained</h2>
+    <p>Graphic tees are T-shirts printed with art or text. Ours are original designs grouped by what you're into — fishing, hunting, western, gym — with a new seasonal collection every month.</p>
+    <h2>FAQ</h2>
+    <dl class="grid gap-4 mt-4">{faqs.map((f) => <div><dt class="font-semibold">{f.q}</dt><dd class="mt-1 text-[var(--color-ink-2)]">{f.a}</dd></div>)}</dl>
+  </section>
+</Base>

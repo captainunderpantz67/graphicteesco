@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import { site } from '../data/site';
+import { faqPage } from '../lib/schema';
+const faqs = [
+  { q: 'Are your designs original?', a: 'Yes. Every design is made for this shop — no licensed characters or resold stock art.' },
+  { q: 'How are orders made?', a: 'Each item is printed after you order it, then shipped to you.' },
+  { q: 'Do your tee designs come on hoodies?', a: 'Yes. Most designs are available on both tees and hoodies.' },
+  { q: 'How often do you release new designs?', a: 'A new collection drops every month.' },
+  { q: 'How does checkout work?', a: 'Checkout runs on Shopify\'s secure checkout. Shipping and taxes are calculated there.' },
+];
+---
+<Base title={`FAQ | ${site.name}`} description="Answers about our original graphic tees and hoodies: designs, printing, checkout and new drops." schema={[faqPage(faqs)]}>
+  <section class="container-x pt-10 max-w-3xl prose-copy">
+    <h1 class="display text-6xl">FAQ</h1>
+    <dl class="grid gap-5 mt-6">{faqs.map((f) => <div><dt class="font-semibold">{f.q}</dt><dd class="mt-1 text-[var(--color-ink-2)]">{f.a}</dd></div>)}</dl>
+  </section>
+</Base>

@@ -1,0 +1,46 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getAllProducts, formatPrice, type Product } from '../../lib/shopify';
+import { productSchema, breadcrumbs } from '../../lib/schema';
+
+export async function getStaticPaths() {
+  const products = await getAllProducts();
+  return products.map((p) => ({ params: { handle: p.handle }, props: { product: p } }));
+}
+const { product: p } = Astro.props as { product: Product };
+const sizes = p.variants;
+const isHoodie = /hood/i.test(p.productType) || /hood/i.test(p.title);
+---
+<Base title={`${p.title} — ${isHoodie ? 'Graphic Hoodie' : 'Graphic Tee'}`} description={p.description.slice(0, 155)}
+  image={p.featuredImage?.url}
+  schema={[productSchema(p), breadcrumbs([{ name: 'Home', path: '/' }, { name: p.title, path: `/products/${p.handle}/` }])]}>
+  <section class="container-x pt-8 grid md:grid-cols-2 gap-10">
+    <div class="grid gap-3">
+      {p.images.length > 0
+        ? p.images.map((img, i) => <img src={`${img.url}&width=1000`} alt={img.altText ?? p.title} width="1000" height="1250"
+            loading={i === 0 ? 'eager' : 'lazy'} class="w-full bg-[var(--color-paper-2)]" />)
+        : <div class="aspect-[4/5] bg-[var(--color-paper-2)] grain"></div>}
+    </div>
+    <div class="md:sticky md:top-24 self-start">
+      <p class="eyebrow">{isHoodie ? 'Graphic hoodie' : 'Graphic tee'}</p>
+      <h1 class="display text-5xl mt-2">{p.title}</h1>
+      <p class="mt-3 text-xl">{formatPrice(p.priceRange.minVariantPrice)}</p>
+      <form data-add-to-cart class="mt-6 grid gap-4">
+        <fieldset>
+          <legend class="text-sm font-semibold uppercase tracking-wide mb-2">Choose</legend>
+          <div class="flex flex-wrap gap-2">
+            {sizes.map((v, i) => (
+              <label class:list={['border px-3 py-2 text-sm cursor-pointer has-[:checked]:bg-[var(--color-ink)] has-[:checked]:text-[var(--color-paper)]',
+                v.availableForSale ? 'border-[var(--color-ink)]' : 'border-[var(--color-line)] opacity-40 cursor-not-allowed']}>
+                <input type="radio" name="variant" value={v.id} class="sr-only" disabled={!v.availableForSale} checked={i === 0 && v.availableForSale} />
+                {v.title}
+              </label>
+            ))}
+          </div>
+        </fieldset>
+        <button type="submit" class="btn btn-rust w-full">Add to cart</button>
+      </form>
+      <div class="prose-copy mt-8" set:html={p.descriptionHtml} />
+    </div>
+  </section>
+</Base>

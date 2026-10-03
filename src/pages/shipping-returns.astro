@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+import { site } from '../data/site';
+---
+<Base title={`Shipping & Returns | ${site.name}`} description="Shipping and return information for orders." noindex={!site.facts.returnsPolicy}>
+  <section class="container-x pt-10 max-w-3xl prose-copy">
+    <h1 class="display text-6xl">Shipping &amp; Returns</h1>
+    <p>Every item is printed after you order it, then shipped. Shipping costs and delivery estimates are shown at checkout.</p>
+    {site.facts.productionDays && <p>Production time: {site.facts.productionDays}.</p>}
+    {site.facts.returnsPolicy ? <p>{site.facts.returnsPolicy}</p> : <p><!-- TODO(Sam): returns policy (match Shopify + Printful policy) --></p>}
+  </section>
+</Base>
