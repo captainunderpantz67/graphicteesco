@@ -25,6 +25,7 @@ export interface Product {
   options: { name: string; values: string[] }[];
   variants: Variant[];
   collections?: string[]; // collection handles
+  seo?: { title: string | null; description: string | null };
   sample?: boolean;
 }
 
@@ -42,6 +43,7 @@ export async function storefront<T>(query: string, variables: Record<string, unk
 
 const PRODUCT_FIELDS = `
   id handle title description descriptionHtml productType
+  seo { title description }
   featuredImage { url altText width height }
   images(first: 10) { nodes { url altText width height } }
   priceRange { minVariantPrice { amount currencyCode } }

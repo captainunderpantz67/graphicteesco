@@ -32,7 +32,7 @@ const faqs = resolveFaqs([
 // Collections this product belongs to (by Shopify collection handles) — internal links back up.
 const parents = all.filter((c) => p.collections?.includes(c.shopifyHandle));
 ---
-<Base title={`${p.title} — ${isHoodie ? 'Graphic Hoodie' : 'Graphic Tee'}`} description={p.description.slice(0, 155)}
+<Base title={p.seo?.title || `${p.title} — ${isHoodie ? 'Graphic Hoodie' : 'Graphic Tee'}`} description={p.seo?.description || p.description.slice(0, 155)}
   image={p.featuredImage?.url}
   schema={[productSchema(p), faqPage(faqs), breadcrumbs([{ name: 'Home', path: '/' }, ...(parents[0] ? [{ name: parents[0].h1, path: pathFor(parents[0]) }] : []), { name: p.title, path: `/products/${p.handle}/` }])]}>
   <section class="container-x pt-8 grid md:grid-cols-2 gap-10">

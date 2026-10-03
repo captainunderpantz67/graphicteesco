@@ -13,7 +13,7 @@ Style words (Oversized, Cropped, Heavyweight, Zip-Up) may appear anywhere in the
 ## Run
 1. **Find new products:** Shopify `search_products` with `search_query: "tag_not:intake-done"`, newest first, up to 50.
    None → write "no new products" to the log and stop.
-2. **Classify** each with `src/data/intake-map.json`: audience + niche + style words + type (tee/hoodie from the title
+2. **Classify** each with (if the title is a blank name, look at the featured mockup image to identify the design and niche) `src/data/intake-map.json`: audience + niche + style words + type (tee/hoodie from the title
    or the Printful product type). Collect the union of tags. Unknown niche → add tag `needs-review`, skip copy, report it.
 3. **Pair twins:** same `<Design Name>` → tee ↔ hoodie. (The site links twins automatically by name.)
 4. **Pick keywords:** from `src/data/keyword-bank.json`, take the entries for this product's collections.
@@ -27,7 +27,8 @@ Style words (Oversized, Cropped, Heavyweight, Zip-Up) may appear anywhere in the
      (e.g. "Is this a good hunting shirt for women?"). Answers ≤ 2 sentences, true to the product.
    - Never claim sizes, materials, shipping times or personalization unless they're in Printful's data.
 6. **Update the product** (`update-product` or Admin GraphQL `productUpdate`):
-   - Title unchanged.
+   - Title: if Printful left a blank name (e.g. "Women's Relaxed T-Shirt"), rename to the convention using the design you see in the mockup.
+   - Handle (URL): `<audience>-<niche>-<design>-graphic-<tee|hoodie>`, e.g. `womens-western-desert-bloom-graphic-tee`.
    - `productType`: `T-Shirt` or `Hoodie`.
    - `tags`: the collection tags + `intake-done` (keep any existing tags).
    - SEO title ≤ 60 chars: `<Design> <Niche> <Tee|Hoodie> | Graphic Tees Co.`; SEO description ≤ 155 chars with the top phrase.
