@@ -32,3 +32,8 @@ rgb = im.convert('RGB').filter(ImageFilter.UnsharpMask(radius=2, percent=60, thr
 out = rgb.convert('RGBA'); out.putalpha(im.getchannel('A'))
 out.save(a.dst, dpi=(300, 300), optimize=True)
 print(f'{a.dst}: {out.width}x{out.height}px  (src art {x1-x0}x{y1-y0}, upscale x{scale:.2f})')
+# Printful's browser upload (and our upload path) caps files near 10 MB: quantize big ones (screen-print art survives 256 colors fine)
+import os
+if os.path.getsize(a.dst) > 9_000_000:
+    out.quantize(colors=256, method=Image.FASTOCTREE, dither=Image.NONE).save(a.dst, dpi=(300, 300), optimize=True)
+    print(f'  quantized → {os.path.getsize(a.dst)/1e6:.1f} MB')
