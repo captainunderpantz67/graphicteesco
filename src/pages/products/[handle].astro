@@ -8,9 +8,14 @@ import { all, pathFor } from '../../data/collections';
 
 export async function getStaticPaths() {
   const products = await getAllProducts();
-  return products.map((p) => ({ params: { handle: p.handle }, props: { product: p } }));
+  // Twin = same design name on the other blank ("Bass at Dawn Tee" <-> "Bass at Dawn Hoodie").
+  const base = (t: string) => t.replace(/\s+(tee|t-shirt|shirt|hoodie)$/i, '').trim().toLowerCase();
+  return products.map((p) => ({
+    params: { handle: p.handle },
+    props: { product: p, twin: products.find((o) => o.handle !== p.handle && base(o.title) === base(p.title)) },
+  }));
 }
-const { product: p } = Astro.props as { product: Product };
+const { product: p, twin } = Astro.props as { product: Product; twin?: Product };
 const sizes = p.variants;
 const isHoodie = /hood/i.test(p.productType) || /hood/i.test(p.title);
 const item = isHoodie ? 'hoodie' : 'graphic tee';
@@ -56,6 +61,11 @@ const parents = all.filter((c) => p.collections?.includes(c.shopifyHandle));
         </fieldset>
         <button type="submit" class="btn btn-rust w-full">Add to cart</button>
       </form>
+      {twin && (
+        <a href={`/products/${twin.handle}/`} class="mt-4 inline-flex items-center gap-2 font-bold underline decoration-[var(--color-rust)] decoration-2 underline-offset-4">
+          Also on a {/hood/i.test(twin.productType) || /hood/i.test(twin.title) ? 'hoodie' : 'tee'}: {twin.title} →
+        </a>
+      )}
       <div class="prose-copy mt-8" set:html={p.descriptionHtml} />
       {parents.length > 0 && <p class="mt-6 text-sm">In: {parents.map((c, i) => <>{i > 0 && ', '}<a href={pathFor(c)} class="underline">{c.h1}</a></>)}</p>}
       <div class="mt-8"><Faq faqs={faqs} /></div>
