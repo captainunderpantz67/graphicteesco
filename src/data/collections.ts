@@ -169,7 +169,7 @@ const N: Record<string, Niche> = {
   },
 };
 
-const titleCase = (s: string) => s.replace(/\b\w/g, (c) => c.toUpperCase());
+const titleCase = (s: string) => s.replace(/(^|[\s-])(\w)/g, (_m, pre, c) => pre + c.toUpperCase());
 
 function niche(
   n: Niche,

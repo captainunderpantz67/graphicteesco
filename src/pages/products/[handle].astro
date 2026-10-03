@@ -28,7 +28,7 @@ const optionValues = (name: string) => {
 };
 const colorOpt = p.options.find((o) => /colou?r/i.test(o.name));
 const sizeOpt = p.options.find((o) => /size/i.test(o.name));
-const colors = colorOpt ? optionValues(colorOpt.name) : [];
+const colors: string[] = colorOpt ? optionValues(colorOpt.name) : [];
 const sizes = sizeOpt ? optionValues(sizeOpt.name) : [];
 
 // Swatch colors for common Printful blank colors; unknown names fall back to a text chip.
@@ -37,6 +37,8 @@ const SWATCH: Record<string, string> = {
   'Heather Stone': '#b7ab96', Navy: '#1f2a44', 'Dark Grey Heather': '#4b4b4d', 'Athletic Heather': '#b9b9b9',
   'Heather Prism Lilac': '#c9b6d6', 'Heather Prism Natural': '#e6dcc7', Sand: '#d9c7a4', 'Forest Green': '#23402f',
   Red: '#a3261e', Brown: '#5a3a28', Pink: '#f2b8c6', 'Light Blue': '#a9c6e2', 'Carbon Grey': '#5b5b5b',
+  Cardinal: '#8a1c2b', Royal: '#2747a8', Charcoal: '#3d3e42', 'Graphite Heather': '#6b6b6e', 'Sport Grey': '#a8a9ab',
+  'Ash Grey': '#d5d6d3', 'Dark Heather': '#46484d', 'Heather Grey': '#b9b9b9', Olive: '#5c5a33', Gold: '#e2a83a', Orange: '#e0661f', Purple: '#4b2a6e', Mauve: '#b08a93', 'Pebble Brown': '#8a7462',
 };
 
 // Description from intake: <h3>Story</h3>…<h3>Details &amp; Fit</h3>…<h3>Questions</h3>…
@@ -55,7 +57,7 @@ const qa = [...questionsHtml.matchAll(/<p><strong>(.*?)<\/strong><br>(.*?)<\/p>/
 }));
 const careQ = { q: `How do I wash this ${isHoodie ? 'hoodie' : 'graphic tee'}?`, a: 'Inside out, cold water, gentle cycle. Skip bleach and fabric softener, then hang dry or tumble dry low. Never iron directly on the print.' };
 const faqs = [...qa, careQ];
-const hook = (story.match(/<p>(.*?)<\/p>/i)?.[1] ?? '').replace(/<[^>]+>/g, '').split(/(?<=\.)\s/)[0];
+const hook = (story.match(/<p>(.*?)<\/p>/i)?.[1] ?? '').replace(/<[^>]+>/g, '').split(/(?<=\.)\s/).slice(0, 2).join(' ');
 
 const parents = all.filter((c) => p.collections?.includes(c.shopifyHandle));
 // Primary collection = the one whose niche word appears in the title (e.g. "Women's Western – …" → Western).
@@ -64,6 +66,13 @@ const primary = parents.find((c) => !/graphic-tees-for-(men|women)/.test(c.slug)
   ?? parents.find((c) => !/graphic-tees-for-(men|women)/.test(c.slug)) ?? parents[0];
 const variantData = p.variants.map((v) => ({ id: v.id, ok: v.availableForSale, price: formatPrice(v.price), img: v.image?.url ?? null, opts: Object.fromEntries(v.selectedOptions.map((o) => [o.name, o.value])) }));
 const images = p.images.length ? p.images : [];
+const firstColor = '' as string;
+// Which color each photo shows (Printful file names carry the color slug). Longest names first so
+// "graphite-heather" wins over "heather".
+const colorSlugs = [...colors].sort((a, b) => b.length - a.length).map((c) => [c, c.toLowerCase().replace(/[^a-z0-9]+/g, '-')] as const);
+const colorOf = (url: string): string => colorSlugs.find(([, slug]) => url.toLowerCase().includes(`-${slug}-`))?.[0] ?? '';
+const heroColor = images[0] ? colorOf(images[0].url) : '';
+if (heroColor) { colors.splice(colors.indexOf(heroColor), 1); colors.unshift(heroColor); }
 ---
 <Base title={p.seo?.title || `${p.title} — ${isHoodie ? 'Graphic Hoodie' : 'Graphic Tee'}`} description={p.seo?.description || p.description.slice(0, 155)}
   image={p.featuredImage?.url}
@@ -81,7 +90,7 @@ const images = p.images.length ? p.images : [];
         <div data-track class="flex overflow-x-auto snap-x snap-mandatory rounded-[20px] bg-white border-2 border-[var(--color-ink)] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden" aria-label="Product photos" tabindex="0">
           {images.length ? images.map((img, i) => (
             <img src={`${img.url}&width=1100`} alt={img.altText ?? p.title} width="1100" height="1100"
-              loading={i === 0 ? 'eager' : 'lazy'} fetchpriority={i === 0 ? 'high' : undefined} data-src={img.url}
+              loading={i < 4 ? 'eager' : 'lazy'} fetchpriority={i === 0 ? 'high' : undefined} data-src={img.url} data-color={colorOf(img.url)}
               class="w-full shrink-0 snap-center aspect-square object-contain" />
           )) : <div class="w-full aspect-square grain"></div>}
         </div>
@@ -96,7 +105,7 @@ const images = p.images.length ? p.images : [];
       {images.length > 1 && (
         <div class="mt-3 flex gap-2 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden" data-thumbs>
           {images.map((img, i) => (
-            <button type="button" data-thumb={i} aria-label={`Photo ${i + 1}`} class:list={['shrink-0 w-16 h-16 rounded-xl overflow-hidden border-2 bg-white', i === 0 ? 'border-[var(--color-ink)]' : 'border-transparent']}>
+            <button type="button" data-thumb={i} data-color={colorOf(img.url)} aria-label={`Photo ${i + 1}`} class:list={['shrink-0 w-16 h-16 rounded-xl overflow-hidden border-2 bg-white', i === 0 ? 'border-[var(--color-ink)]' : 'border-transparent']}>
               <img src={`${img.url}&width=160`} alt="" width="64" height="64" decoding="async" class="w-full h-full object-contain" />
             </button>
           ))}
@@ -216,32 +225,35 @@ const images = p.images.length ? p.images : [];
   )}
 
 <script>
-  // Carousel
+  // Carousel (only the selected color's photos are shown when the photos are tagged by color)
   const track = document.querySelector<HTMLElement>('[data-track]');
   if (track) {
     const slides = [...track.querySelectorAll<HTMLImageElement>('img')];
     const thumbs = [...document.querySelectorAll<HTMLButtonElement>('[data-thumb]')];
     const count = document.querySelector('[data-count]');
+    const visible = () => slides.filter((s) => !s.hidden);
+    const current = () => Math.round(track.scrollLeft / track.clientWidth);
+    const sync = () => {
+      const vis = visible(); const i = current();
+      thumbs.forEach((t) => { const on = slides[Number(t.dataset.thumb)] === vis[i]; t.classList.toggle('border-[var(--color-ink)]', on); t.classList.toggle('border-transparent', !on); });
+      if (count) count.textContent = `${Math.min(i + 1, vis.length)} / ${vis.length}`;
+    };
     const go = (i: number) => {
       const target = i * track.clientWidth;
       track.scrollTo({ left: target, behavior: 'smooth' });
-      // Some browsers/tabs skip smooth scrolling with snap; make sure we land on the slide.
-      setTimeout(() => { if (Math.abs(track.scrollLeft - target) > 4) { track.style.scrollBehavior = 'auto'; track.scrollLeft = target; track.style.scrollBehavior = ''; sync(); } }, 450);
-    };
-    const current = () => Math.round(track.scrollLeft / track.clientWidth);
-    const sync = () => {
-      const i = current();
-      thumbs.forEach((t, j) => t.classList.toggle('border-[var(--color-ink)]', j === i));
-      thumbs.forEach((t, j) => t.classList.toggle('border-transparent', j !== i));
-      if (count) count.textContent = `${i + 1} / ${slides.length}`;
+      setTimeout(() => { if (Math.abs(track.scrollLeft - target) > 4) { track.style.scrollBehavior = 'auto'; track.scrollLeft = target; track.style.scrollBehavior = ''; } sync(); }, 450);
     };
     track.addEventListener('scroll', () => requestAnimationFrame(sync), { passive: true });
-    thumbs.forEach((t) => t.addEventListener('click', () => go(Number(t.dataset.thumb))));
+    thumbs.forEach((t) => t.addEventListener('click', () => go(visible().indexOf(slides[Number(t.dataset.thumb)]))));
     document.querySelector('[data-prev]')?.addEventListener('click', () => go(Math.max(0, current() - 1)));
-    document.querySelector('[data-next]')?.addEventListener('click', () => go(Math.min(slides.length - 1, current() + 1)));
-    (window as any).__gtcGoToImage = (url: string) => {
-      const i = slides.findIndex((s) => s.dataset.src && url.split('?')[0] === s.dataset.src.split('?')[0]);
-      if (i >= 0) go(i);
+    document.querySelector('[data-next]')?.addEventListener('click', () => go(Math.min(visible().length - 1, current() + 1)));
+    (window as any).__gtcShowColor = (color: string) => {
+      const tagged = slides.some((s) => s.dataset.color);
+      const match = (el: HTMLElement) => !tagged || !color || el.dataset.color === color || !slides.some((s) => s.dataset.color === color);
+      slides.forEach((s) => { s.hidden = !match(s); if (!s.hidden) s.loading = 'eager'; });
+      thumbs.forEach((t) => { t.hidden = !match(t); });
+      track.style.scrollBehavior = 'auto'; track.scrollLeft = 0; track.style.scrollBehavior = '';
+      sync();
     };
   }
   // Size & fit link opens the details drawer
@@ -258,7 +270,8 @@ const images = p.images.length ? p.images : [];
     const priceEl = document.querySelector('[data-price]');
     const sets = [...form.querySelectorAll<HTMLFieldSetElement>('fieldset[data-option]')];
     const chosen = () => Object.fromEntries(sets.map((f) => [f.dataset.option!, f.querySelector<HTMLInputElement>('input:checked')?.value ?? '']));
-    let lastImg = '';
+    let lastColor = '';
+    const colorKey = sets.find((f) => /colou?r/i.test(f.dataset.option!))?.dataset.option;
     const update = () => {
       const c = chosen();
       sets.forEach((f) => { const el = f.querySelector('[data-chosen]'); if (el) el.textContent = c[f.dataset.option!]; });
@@ -267,7 +280,8 @@ const images = p.images.length ? p.images : [];
       btn.disabled = !v?.ok;
       btn.textContent = v?.ok ? 'Add to cart' : 'Sold out';
       if (v && priceEl) priceEl.textContent = v.price;
-      if (v?.img && v.img !== lastImg) { lastImg = v.img; (window as any).__gtcGoToImage?.(v.img); }
+      const col = colorKey ? c[colorKey] : '';
+      if (col !== lastColor) { lastColor = col; (window as any).__gtcShowColor?.(col); }
     };
     form.addEventListener('change', update);
     update();
