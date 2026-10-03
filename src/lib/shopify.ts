@@ -11,7 +11,7 @@ const API_VERSION = '2026-01';
 export const shopifyConnected = Boolean(DOMAIN && TOKEN);
 
 export interface Money { amount: string; currencyCode: string }
-export interface Variant { id: string; title: string; availableForSale: boolean; price: Money; selectedOptions: { name: string; value: string }[] }
+export interface Variant { id: string; title: string; availableForSale: boolean; price: Money; selectedOptions: { name: string; value: string }[]; image?: { url: string } | null }
 export interface Product {
   id: string;
   handle: string;
@@ -48,7 +48,7 @@ const PRODUCT_FIELDS = `
   images(first: 10) { nodes { url altText width height } }
   priceRange { minVariantPrice { amount currencyCode } }
   options { name values }
-  variants(first: 100) { nodes { id title availableForSale price { amount currencyCode } selectedOptions { name value } } }
+  variants(first: 100) { nodes { id title availableForSale price { amount currencyCode } selectedOptions { name value } image { url } } }
   collections(first: 20) { nodes { handle } }
 `;
 

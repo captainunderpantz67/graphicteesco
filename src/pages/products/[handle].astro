@@ -38,27 +38,30 @@ const parents = all.filter((c) => p.collections?.includes(c.shopifyHandle));
   <section class="container-x pt-8 grid md:grid-cols-2 gap-10">
     <div class="grid gap-3">
       {p.images.length > 0
-        ? p.images.map((img, i) => <img src={`${img.url}&width=1000`} alt={img.altText ?? p.title} width="1000" height="1250"
+        ? p.images.map((img, i) => <img data-main={i === 0 ? '' : undefined} src={`${img.url}&width=1000`} alt={img.altText ?? p.title} width="1000" height="1250"
             loading={i === 0 ? 'eager' : 'lazy'} class="w-full bg-[var(--color-paper-2)]" />)
         : <div class="aspect-[4/5] bg-[var(--color-paper-2)] grain"></div>}
     </div>
     <div class="md:sticky md:top-24 self-start">
       <p class="eyebrow">{isHoodie ? 'Graphic hoodie' : 'Graphic tee'}</p>
       <h1 class="display text-5xl mt-2">{p.title}</h1>
-      <p class="mt-3 text-xl">{formatPrice(p.priceRange.minVariantPrice)}</p>
-      <form data-add-to-cart class="mt-6 grid gap-4">
-        <fieldset>
-          <legend class="text-sm font-semibold uppercase tracking-wide mb-2">Choose</legend>
-          <div class="flex flex-wrap gap-2">
-            {sizes.map((v, i) => (
-              <label class:list={['border px-3 py-2 text-sm cursor-pointer has-[:checked]:bg-[var(--color-ink)] has-[:checked]:text-[var(--color-paper)]',
-                v.availableForSale ? 'border-[var(--color-ink)]' : 'border-[var(--color-line)] opacity-40 cursor-not-allowed']}>
-                <input type="radio" name="variant" value={v.id} class="sr-only" disabled={!v.availableForSale} checked={i === 0 && v.availableForSale} />
-                {v.title}
-              </label>
-            ))}
-          </div>
-        </fieldset>
+      <p class="mt-3 text-xl" data-price>{formatPrice(p.priceRange.minVariantPrice)}</p>
+      <form data-add-to-cart class="mt-6 grid gap-5" data-variants={JSON.stringify(p.variants.map((v) => ({ id: v.id, ok: v.availableForSale, price: formatPrice(v.price), img: v.image?.url ?? null, opts: Object.fromEntries(v.selectedOptions.map((o) => [o.name, o.value])) })))}>
+        <input type="hidden" name="variant" value={p.variants.find((v) => v.availableForSale)?.id ?? ''} />
+        {p.options.filter((o) => o.values.length > 1 || p.options.length === 1).map((o) => (
+          <fieldset data-option={o.name}>
+            <legend class="text-sm font-bold uppercase tracking-[.12em] mb-2">{o.name}: <span data-chosen class="font-normal normal-case tracking-normal">{o.values[0]}</span></legend>
+            <div class="flex flex-wrap gap-2">
+              {o.values.map((val, i) => (
+                <label class="cursor-pointer">
+                  <input type="radio" name={`opt-${o.name}`} value={val} class="peer sr-only" checked={i === 0} />
+                  <span class="block border-2 border-[var(--color-ink)] rounded-full px-4 py-1.5 text-sm font-semibold peer-checked:bg-[var(--color-ink)] peer-checked:text-[var(--color-cream)] peer-focus-visible:outline peer-focus-visible:outline-3 peer-focus-visible:outline-[var(--color-mustard)] peer-disabled:opacity-35 peer-disabled:line-through">{val}</span>
+                </label>
+              ))}
+            </div>
+          </fieldset>
+        ))}
+        <p class="text-sm text-[var(--color-ink-2)]" data-stock></p>
         <button type="submit" class="btn btn-rust w-full">Add to cart</button>
       </form>
       {twin && (
@@ -71,4 +74,30 @@ const parents = all.filter((c) => p.collections?.includes(c.shopifyHandle));
       <div class="mt-8"><Faq faqs={faqs} /></div>
     </div>
   </section>
+<script>
+  const form = document.querySelector<HTMLFormElement>('form[data-add-to-cart][data-variants]');
+  if (form) {
+    const variants: { id: string; ok: boolean; price: string; img: string | null; opts: Record<string, string> }[] = JSON.parse(form.dataset.variants!);
+    const hidden = form.querySelector<HTMLInputElement>('input[name=variant]')!;
+    const btn = form.querySelector<HTMLButtonElement>('button[type=submit]')!;
+    const main = document.querySelector<HTMLImageElement>('img[data-main]');
+    const priceEl = document.querySelector('[data-price]');
+    const stock = form.querySelector('[data-stock]')!;
+    const sets = [...form.querySelectorAll<HTMLFieldSetElement>('fieldset[data-option]')];
+    const chosen = () => Object.fromEntries(sets.map((f) => [f.dataset.option!, (f.querySelector<HTMLInputElement>('input:checked')?.value) ?? '']));
+    const update = () => {
+      const c = chosen();
+      sets.forEach((f) => { f.querySelector('[data-chosen]')!.textContent = c[f.dataset.option!]; });
+      const v = variants.find((x) => Object.entries(c).every(([k, val]) => x.opts[k] === val));
+      hidden.value = v?.ok ? v.id : '';
+      btn.disabled = !v?.ok;
+      btn.textContent = v?.ok ? 'Add to cart' : 'Sold out';
+      stock.textContent = '';
+      if (v && priceEl) priceEl.textContent = v.price;
+      if (v?.img && main) main.src = v.img + (v.img.includes('?') ? '&' : '?') + 'width=1000';
+    };
+    form.addEventListener('change', update);
+    update();
+  }
+</script>
 </Base>
