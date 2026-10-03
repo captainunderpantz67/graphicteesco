@@ -27,7 +27,7 @@ export interface Collection {
   twin?: string;
 }
 
-type Niche = { label: string; who: string; themes: string; faqs?: (P: string, section: Section) => Faq[] };
+type Niche = { label: string; who: string; themes: string; style?: string; faqs?: (P: string, section: Section) => Faq[] };
 
 // Questions every product-type page can carry, phrased from autocomplete ("for men", "for women", "for kids", "3xl"…)
 const audienceFaqs = (P: string): Faq[] => [
@@ -38,6 +38,7 @@ const audienceFaqs = (P: string): Faq[] => [
 
 const N: Record<string, Niche> = {
   fishing: {
+    style: "How to wear a fishing t-shirt: on the boat with board shorts and a cap, at the bait shop with jeans, or layered under an open flannel when the morning's cold. Because they're cotton graphic tees rather than performance shirts, they work just as well at a cookout as on the water.",
     label: 'Fishing', who: 'anglers who fish lakes, rivers and the coast', themes: 'bass, catfish and redfish art, lake-life humor and early-morning-on-the-water scenes',
     faqs: (_P, s) => [
       { q: s === 'hoodies' ? 'Are these UPF sun-protection fishing hoodies?' : 'Are these UPF or performance fishing shirts?',
@@ -47,6 +48,7 @@ const N: Record<string, Niche> = {
     ],
   },
   hunting: {
+    style: 'Hunting tees are for everything around the hunt — the drive to the lease, deer camp, the processor and the diner after. Wear one under a flannel or a hoodie on cold mornings, and with jeans and boots in town.',
     label: 'Hunting', who: 'hunters who spend opening weekend in a blind or a stand', themes: 'whitetail, duck and turkey art, deer-camp humor and dawn-in-the-field scenes',
     faqs: (_P, s) => [
       { q: s === 'hoodies' ? 'Are these camo hunting hoodies with a face mask?' : 'Are these camo hunting shirts for the field?',
@@ -55,6 +57,7 @@ const N: Record<string, Niche> = {
     ],
   },
   western: {
+    style: 'Western graphic tees pair best with denim and boots. Tuck the front into a belted pair of jeans for a rodeo or a concert, or wear it loose with a trucker cap for an everyday ranch look.',
     label: 'Western', who: 'people who grew up around ranches, rodeos and dirt roads', themes: 'cowboy, desert and rodeo art with a worn-in, vintage feel',
     faqs: () => [
       { q: 'Do you have cowboy graphic tees?', a: 'Yes. This collection covers cowboy, rodeo, ranch and desert designs.' },
@@ -62,6 +65,7 @@ const N: Record<string, Niche> = {
     ],
   },
   gym: {
+    style: 'A gym tee should move with you: wear it with joggers or shorts on lifting days and over a hoodie on the walk in. Size up for a looser pump-cover fit.',
     label: 'Gym', who: 'lifters who train early and train often', themes: 'barbell, plate and grind-culture art with gym humor',
     faqs: (_P, s) => [
       { q: s === 'hoodies' ? 'Are these gym hoodies oversized?' : 'Are these graphic gym shirts or performance shirts?',
@@ -69,29 +73,38 @@ const N: Record<string, Niche> = {
     ],
   },
   football: {
+    style: 'Game-day tees go with jeans and sneakers in the stands, or under a hoodie or quarter-zip once the sun drops on a Friday night.',
     label: 'Football', who: 'fans who plan their weekends around kickoff', themes: 'game-day, tailgate and Friday-night-lights art — original designs, no team marks',
     faqs: () => [
       { q: 'Do you have football shirts for moms?', a: 'Yes — see our football mom shirts collection.' },
       { q: 'Do your football shirts have team logos?', a: 'No. Every design is original game-day art with no team or league marks.' },
     ],
   },
-  soccer: {
-    label: 'Soccer', who: 'players and fans of the beautiful game', themes: 'pitch, boot and match-day art — original designs, no club marks',
-    faqs: () => [{ q: 'Are these soccer jerseys?', a: 'No. They are graphic tees with original soccer art, not club or national-team jerseys.' }],
+  soccermom: {
+    style: 'Soccer mom tees are made for the sideline: pair one with leggings or shorts, sneakers and a folding chair. Layer a zip-up hoodie for early-morning games.',
+    label: 'Soccer Mom', who: 'moms who spend Saturdays on the sideline', themes: 'sideline, cleat and orange-slice art for game day',
+    faqs: () => [
+      { q: 'Can I put my player’s number on a soccer mom shirt?', a: 'Yes. Add your player’s number and name before checkout.', needs: 'personalization' },
+      { q: 'Are these soccer jerseys?', a: 'No. They are graphic tees for the sideline, not team jerseys.' },
+    ],
   },
   anime: {
+    style: 'Anime-style tees work with wide-leg jeans, cargo pants or shorts and chunky sneakers. Layer one under an open overshirt for a streetwear look.',
     label: 'Anime-Style', who: 'fans of anime and manga art styles', themes: 'original anime-style characters and scenes — no licensed characters',
     faqs: () => [{ q: 'Do you sell licensed anime characters?', a: 'No. Every design is original anime-style art made for this shop.' }],
   },
   y2k: {
+    style: 'Y2K tees are meant to be fitted or cropped: pair them with low-rise or wide-leg jeans, a mini skirt or cargo pants, and platform sneakers.',
     label: 'Y2K', who: 'anyone into early-2000s style', themes: 'chrome type, bubble letters and baby-tee-era graphics',
     faqs: () => [{ q: 'What is Y2K fashion?', a: 'Y2K fashion borrows from late-1990s and early-2000s style: bold logos, bubble lettering, chrome effects and fitted or cropped tees.' }],
   },
   vintage: {
+    style: 'Vintage-inspired tees look best a little lived-in: wear one with straight-leg jeans, a denim jacket and worn-in boots or sneakers.',
     label: 'Vintage', who: 'people who dig through thrift racks for the perfect worn-in tee', themes: 'retro type, faded colorways and 70s–90s-inspired art',
     faqs: () => [{ q: 'Are these real vintage tees?', a: 'No. They are new tees with vintage-inspired designs — the look of a thrifted find, printed to order.' }],
   },
   heavyweight: {
+    style: "Heavyweight hoodies hold their shape, so they work as an outer layer on cool days. Pair one with jeans or joggers, or layer it under a jacket when it's cold.",
     label: 'Heavyweight', who: 'anyone who wants a thick hoodie that holds its shape', themes: 'our original designs printed on a heavier blank',
     faqs: () => [
       { q: 'What does heavyweight hoodie mean?', a: 'A heavyweight hoodie is made from thicker fleece than a standard hoodie, so it feels warmer and holds its shape.' },
@@ -99,14 +112,17 @@ const N: Record<string, Niche> = {
     ],
   },
   zipup: {
+    style: 'A zip-up hoodie layers over anything: wear it open over a graphic tee so the design shows, or zipped up on cold mornings.',
     label: 'Zip-Up', who: 'anyone who wants a hoodie they can throw on over anything', themes: 'our original designs on full-zip hoodies',
     faqs: () => [{ q: 'Where is the design on a zip-up hoodie?', a: 'Zip-ups split down the front, so designs sit on the back or as a smaller chest print.' }],
   },
   cropped: {
+    style: 'Cropped graphic tees pair with high-rise jeans, skirts and shorts so the hem meets the waistband. Add a denim jacket or an oversized flannel as a layer.',
     label: 'Cropped', who: 'anyone who wants a shorter, fitted graphic tee', themes: 'our original designs on a cropped cut that pairs with high-rise jeans and skirts',
     faqs: () => [{ q: 'What is a cropped tee?', a: 'A cropped tee is cut shorter than a standard tee, so the hem lands at or just above the waist. It pairs well with high-rise jeans, skirts and shorts.' }],
   },
   country: {
+    style: 'Country graphic tees go with jeans or a denim skirt and boots. For a country concert, knot or tuck the hem, add a belt and a hat.',
     label: 'Country', who: 'women who grew up on country radio, dirt roads and rodeo weekends', themes: 'boots, desert florals, cowgirl humor and rodeo art',
     faqs: () => [
       { q: 'What graphic tee should I wear to a country concert?', a: 'A country or western graphic tee with jeans or a denim skirt and boots is the go-to. Tie or tuck the hem to fit the outfit.' },
@@ -114,6 +130,7 @@ const N: Record<string, Niche> = {
     ],
   },
   footballmom: {
+    style: 'Wear your football mom tee with jeans or leggings and sneakers in the bleachers, and layer a hoodie or puffer vest for night games.',
     label: 'Football Mom', who: 'moms who spend Friday nights in the bleachers', themes: "game-day art for the bleachers",
     faqs: () => [
       { q: 'Can I put my player’s number and name on a football mom shirt?', a: 'Yes. Add your player’s number and name before checkout.', needs: 'personalization' },
@@ -121,6 +138,7 @@ const N: Record<string, Niche> = {
     ],
   },
   baseballmom: {
+    style: 'Baseball mom tees go with shorts or jeans, sneakers and a cap for long days at the ballpark. Bring a light layer for night games.',
     label: 'Baseball Mom', who: 'moms who live at the ballpark all spring', themes: 'diamond, bat and bleacher art',
     faqs: () => [
       { q: 'Can I put my player’s number on a baseball mom shirt?', a: 'Yes. Add your player’s number and name before checkout.', needs: 'personalization' },
@@ -128,6 +146,7 @@ const N: Record<string, Niche> = {
     ],
   },
   nurse: {
+    style: 'Nurse tees are for off the clock: wear one with jeans or joggers on days off, at a Nurses Week event or a hospital fundraiser.',
     label: 'Nurse', who: 'nurses who want something to wear off the clock', themes: 'nurse humor and appreciation designs',
     faqs: () => [
       { q: 'Can I wear these nurse shirts to work?', a: 'They are graphic tees, not scrubs. Many nurses wear them on days off, at events and for Nurses Week — check your workplace dress code before wearing one on shift.' },
@@ -135,10 +154,12 @@ const N: Record<string, Niche> = {
     ],
   },
   christian: {
+    style: 'Christian graphic tees work everywhere — church events, youth group, mission trips or everyday wear with jeans and sneakers.',
     label: 'Christian', who: 'people who want to wear their faith', themes: 'faith and scripture-inspired original art',
     faqs: () => [{ q: 'Are your Christian shirts original designs?', a: 'Yes. Every faith design is original art made for this shop.' }],
   },
   oversized: {
+    style: 'Oversized graphic tees balance best with slimmer bottoms: bike shorts, leggings or straight-leg jeans. Tuck one side of the front for shape.',
     label: 'Oversized', who: 'anyone who wants a relaxed, boxy fit', themes: 'big front and back prints made for a roomy fit',
     faqs: (_P, s) => [
       { q: s === 'hoodies' ? 'How should an oversized hoodie fit?' : 'How should an oversized graphic tee fit?',
@@ -174,6 +195,7 @@ function niche(
       section === 'hoodies'
         ? { h2: `Same designs as our ${n.label.toLowerCase()} tees`, body: 'Every design here started as a tee. Grab the tee for warm days and the hoodie when it turns cold.' }
         : { h2: 'Want it warmer? It comes as a hoodie too', body: 'Most designs in this collection are also printed on hoodies, so the same art works when the weather turns.' },
+      ...(n.style ? [{ h2: `How to wear ${P}`, body: n.style }] : []),
     ],
     faqs: [
       ...(n.faqs?.(P, section) ?? []),
@@ -267,9 +289,9 @@ export const tees: Collection[] = [
   niche(N.christian, 'tees', { slug: 'christian-shirts', keyword: 'christian shirts', volume: 12100, kd: 58, product: 'Christian shirts', audience: 'women', name: 'Christian Shirts' }),
   niche(N.gym, 'tees', { slug: 'mens-gym-shirts', keyword: 'mens gym shirts', volume: 18100, kd: 10, product: "men's gym shirts", twin: 'gym-hoodies', audience: 'men', name: "Men's Gym Shirts" }),
   niche(N.western, 'tees', { slug: 'western-graphic-tees', keyword: 'western graphic tees', volume: 2400, kd: 16, product: 'western graphic tees', twin: 'western-hoodies' }),
-  niche(N.fishing, 'tees', { slug: 'fishing-shirts', keyword: 'fishing shirts', volume: 40500, kd: 44, product: 'fishing shirts', twin: 'fishing-hoodies' }),
-  niche(N.hunting, 'tees', { slug: 'hunting-shirts', keyword: 'hunting shirts', volume: 14800, kd: 44, product: 'hunting shirts', twin: 'hunting-hoodies' }),
-  niche(N.soccer, 'tees', { slug: 'soccer-shirts', keyword: 'soccer shirts', volume: 14800, kd: 46, product: 'soccer shirts' }),
+  niche(N.fishing, 'tees', { slug: 'fishing-t-shirts', keyword: 'fishing t shirts', volume: 6600, kd: 46, product: 'fishing t-shirts', twin: 'fishing-hoodies' }),
+  niche(N.hunting, 'tees', { slug: 'hunting-t-shirts', keyword: 'hunting t shirts', volume: 0, kd: 0, product: 'hunting t-shirts', twin: 'hunting-hoodies' }) /* volume n/a; SERP = small tee brands (2026-10-02) */,
+  niche(N.soccermom, 'tees', { slug: 'soccer-mom-shirts', keyword: 'soccer mom shirts', volume: 2900, kd: 42, product: 'soccer mom shirts', audience: 'women', name: 'Soccer Mom Shirts' }),
   niche(N.oversized, 'tees', { slug: 'oversized-graphic-tees', keyword: 'oversized graphic tee', volume: 27100, kd: 48, product: 'oversized graphic tees', twin: 'oversized-hoodies' }),
   niche(N.football, 'tees', { slug: 'football-shirts', keyword: 'football shirts', volume: 74000, kd: 51, product: 'football shirts' }),
   niche(N.anime, 'tees', { slug: 'anime-shirts', keyword: 'anime shirts', volume: 18100, kd: 51, product: 'anime-style shirts', twin: 'anime-hoodies' }),
@@ -309,9 +331,9 @@ export const tees: Collection[] = [
 export const hoodies: Collection[] = [
   niche(N.heavyweight, 'hoodies', { slug: 'heavyweight-hoodies', keyword: 'heavyweight hoodie', volume: 14800, kd: 20, product: 'heavyweight hoodies' }),
   niche(N.zipup, 'hoodies', { slug: 'zip-up-hoodies', keyword: 'zip-up hoodie', volume: 135000, kd: 28, product: 'zip-up hoodies' }),
-  niche(N.fishing, 'hoodies', { slug: 'fishing-hoodies', keyword: 'fishing hoodie', volume: 6600, kd: 30, product: 'fishing hoodies', twin: 'fishing-shirts' }),
+  niche(N.fishing, 'hoodies', { slug: 'fishing-hoodies', keyword: 'fishing hoodie', volume: 6600, kd: 30, product: 'fishing hoodies', twin: 'fishing-t-shirts' }),
   niche(N.gym, 'hoodies', { slug: 'gym-hoodies', keyword: 'gym hoodie', volume: 18100, kd: 30, product: 'gym hoodies', twin: 'mens-gym-shirts' }),
-  niche(N.hunting, 'hoodies', { slug: 'hunting-hoodies', keyword: 'hunting hoodie', volume: 3600, kd: 32, product: 'hunting hoodies', twin: 'hunting-shirts' }),
+  niche(N.hunting, 'hoodies', { slug: 'hunting-hoodies', keyword: 'hunting hoodie', volume: 3600, kd: 32, product: 'hunting hoodies', twin: 'hunting-t-shirts' }),
   niche(N.y2k, 'hoodies', { slug: 'y2k-hoodies', keyword: 'y2k hoodie', volume: 14800, kd: 35, product: 'Y2K hoodies', twin: 'y2k-graphic-tees' }),
   niche(N.western, 'hoodies', { slug: 'western-hoodies', keyword: 'western hoodie', volume: 3600, kd: 36, product: 'western hoodies', twin: 'western-graphic-tees' }),
   niche(N.oversized, 'hoodies', { slug: 'oversized-hoodies', keyword: 'oversized hoodie', volume: 165000, kd: 38, product: 'oversized hoodies', twin: 'oversized-graphic-tees' }),

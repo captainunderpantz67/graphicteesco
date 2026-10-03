@@ -8,7 +8,7 @@ import { tees, hoodies, pathFor, bySlug } from '../data/collections';
 import { faqPage, itemListOfCollections } from '../lib/schema';
 
 const womens = tees.filter((c) => c.audience === 'women' && c.slug !== 'graphic-tees-for-women');
-const outdoors = ['fishing-shirts', 'hunting-shirts', 'western-graphic-tees', 'mens-gym-shirts', 'football-shirts', 'soccer-shirts'].map((s) => bySlug(s)!);
+const outdoors = ['fishing-t-shirts', 'hunting-t-shirts', 'western-graphic-tees', 'mens-gym-shirts', 'football-shirts', 'soccer-mom-shirts'].map((s) => bySlug(s)!);
 const styles = ['oversized-graphic-tees', 'vintage-graphic-tees', 'y2k-graphic-tees', 'anime-shirts'].map((s) => bySlug(s)!);
 const drop = tees.find((c) => c.seasonal === 'halloween')!;
 
@@ -54,13 +54,13 @@ const faqs = resolveFaqs([
 ]);
 
 const icons: Record<string, string> = {
-  'fishing-shirts': 'fish', 'hunting-shirts': 'antlers', 'western-graphic-tees': 'hat', 'mens-gym-shirts': 'barbell',
-  'football-shirts': 'football', 'soccer-shirts': 'star', 'country-graphic-tees': 'boot', 'cropped-graphic-tees': 'crop',
+  'fishing-t-shirts': 'fish', 'hunting-t-shirts': 'antlers', 'western-graphic-tees': 'hat', 'mens-gym-shirts': 'barbell',
+  'football-shirts': 'football', 'soccer-mom-shirts': 'star', 'country-graphic-tees': 'boot', 'cropped-graphic-tees': 'crop',
   'graphic-tees-for-women-over-40': 'sun', 'football-mom-shirts': 'football', 'baseball-mom-shirts': 'baseball',
   'nurse-shirts': 'nurse', 'christian-shirts': 'cross', 'oversized-graphic-tees': 'tee', 'vintage-graphic-tees': 'sun',
   'y2k-graphic-tees': 'bolt', 'anime-shirts': 'star',
 };
-const bubbles = ['fishing-shirts', 'hunting-shirts', 'western-graphic-tees', 'country-graphic-tees', 'mens-gym-shirts', 'football-mom-shirts', 'christian-shirts', 'nurse-shirts'].map((s) => bySlug(s)!);
+const bubbles = ['fishing-t-shirts', 'hunting-t-shirts', 'western-graphic-tees', 'country-graphic-tees', 'mens-gym-shirts', 'football-mom-shirts', 'christian-shirts', 'nurse-shirts'].map((s) => bySlug(s)!);
 // Poster-card palettes for the women's row (bg, ink, accent)
 const tones = [
   ['var(--color-rust)', 'var(--color-cream)', 'var(--color-mustard)'],

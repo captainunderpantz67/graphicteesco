@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview"
+    "build": "astro build && node scripts/prune-sitemap.mjs",
+    "preview": "astro preview",
+    "audit": "python3 scripts/seo-audit.py"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",

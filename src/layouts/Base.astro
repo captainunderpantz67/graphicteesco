@@ -13,6 +13,7 @@ interface Props {
   noindex?: boolean;
 }
 const { title, description, schema = [], image, noindex = false } = Astro.props;
+const ogImage = image ?? `${site.url}/og-default.png`;
 const canonical = new URL(Astro.url.pathname, site.url).href;
 const evergreenTees = tees.filter((c) => !c.seasonal);
 const seasonal = [...tees, ...hoodies].filter((c) => c.seasonal);
@@ -32,9 +33,13 @@ const ld = [organization(), website(), ...schema];
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
-    {image && <meta property="og:image" content={image} />}
+    <meta property="og:image" content={ogImage} />
+    {!image && <><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="630" /></>}
+    <meta name="twitter:image" content={ogImage} />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#1c1b19" />
     <link rel="preload" href="/fonts/big-shoulders-display-latin-900-normal.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/fonts/archivo-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
     {ld.map((s) => <script type="application/ld+json" set:html={JSON.stringify(s)} />)}
