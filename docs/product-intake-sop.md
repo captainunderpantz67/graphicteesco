@@ -37,6 +37,12 @@ Style words (Oversized, Cropped, Heavyweight, Zip-Up) may appear anywhere in the
      Facts must match Printful's data exactly; only the wording changes. Drop Printful's marketing sentence.
    - `<h3>Questions</h3>` — 3 Q&As built from 3–4 more chosen phrases, as `<p><strong>Q?</strong><br>A.</p>`. Answers ≤ 2 sentences.
    - Never claim sizes, materials, shipping times or personalization unless they're in Printful's data.
+   - **Read like a person wrote it.** Keyword phrases are topics, not strings to paste: use the natural, grammatical form
+     ("a vintage fishing T-shirt", "fly fishing shirts for men") — never word-salad exact matches like "fishing t shirts
+     vintage anglers would recognize" or "mens vintage fishing t shirts fans". If a phrase can't fit a normal sentence, skip it.
+     Each phrase at most once. Questions must be ones a real shopper would type, not keyword strings with a question mark.
+   - SEO description: one plain, human sentence (≤155 chars) that says what the shirt shows and who it's for.
+   - Fabric wording: Bella+Canvas 3001 and 6400 are *lightweight* 4.2 oz — never "midweight" or "heavyweight".
    - Reference example: product "Women's Western – Desert Bloom Tee".
 6. **Update the product** (`update-product` or Admin GraphQL `productUpdate`):
    - Title: if Printful left a blank name (e.g. "Women's Relaxed T-Shirt"), rename to the convention using the design you see in the mockup.
