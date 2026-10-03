@@ -5,11 +5,13 @@ import type { Collection } from '../data/collections';
 import { bySlug, pathFor, all } from '../data/collections';
 import { getCollectionProducts, shopifyConnected } from '../lib/shopify';
 import { breadcrumbs, faqPage, collectionPage } from '../lib/schema';
+import { resolveFaqs } from '../data/site';
 
 interface Props { collection: Collection }
 const { collection: c } = Astro.props;
 const products = await getCollectionProducts(c.shopifyHandle);
 const twin = c.twin ? bySlug(c.twin) : undefined;
+const faqs = resolveFaqs(c.faqs);
 const crumbs = [
   { name: 'Home', path: '/' },
   ...(c.section === 'hoodies' ? [{ name: 'Hoodies', path: '/hoodies/' }] : []),
@@ -20,7 +22,7 @@ const related = all.filter((x) => x.section === c.section && x.slug !== c.slug &
 const noindex = shopifyConnected && products.length === 0;
 ---
 <Base title={c.title} description={c.description} noindex={noindex}
-  schema={[breadcrumbs(crumbs), faqPage(c.faqs), collectionPage(c, products)]}>
+  schema={[breadcrumbs(crumbs), faqPage(faqs), collectionPage(c, products)]}>
   <nav aria-label="Breadcrumb" class="container-x pt-6 text-xs text-[var(--color-ink-2)]">
     {crumbs.map((b, i) => <>{i > 0 && ' / '}{i < crumbs.length - 1 ? <a href={b.path} class="hover:underline">{b.name}</a> : <span>{b.name}</span>}</>)}
   </nav>
@@ -48,7 +50,7 @@ const noindex = shopifyConnected && products.length === 0;
       {c.sections.map((s) => <><h2>{s.h2}</h2><p>{s.body}</p></>)}
       <h2>FAQ</h2>
       <dl class="grid gap-4 mt-4">
-        {c.faqs.map((f) => (
+        {faqs.map((f) => (
           <div><dt class="font-semibold">{f.q}</dt><dd class="text-[var(--color-ink-2)] mt-1">{f.a}</dd></div>
         ))}
       </dl>

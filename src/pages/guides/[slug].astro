@@ -1,0 +1,42 @@
+---
+import Base from '../../layouts/Base.astro';
+import Faq from '../../components/Faq.astro';
+import { guides, type Guide } from '../../data/guides';
+import { article, faqPage, howTo, breadcrumbs } from '../../lib/schema';
+
+export function getStaticPaths() {
+  return guides.map((g) => ({ params: { slug: g.slug }, props: { guide: g } }));
+}
+const { guide: g } = Astro.props as { guide: Guide };
+const path = `/guides/${g.slug}/`;
+const schema = [
+  article({ title: g.h1, description: g.description, path, date: g.date }),
+  faqPage(g.faqs),
+  breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Guides', path: '/guides/' }, { name: g.h1, path }]),
+  ...(g.howTo ? [howTo(g.howTo.name, g.answer, g.howTo.steps)] : []),
+];
+---
+<Base title={g.title} description={g.description} schema={schema}>
+  <article class="container-x pt-10 max-w-3xl prose-copy">
+    <p class="eyebrow">Graphic tee guide</p>
+    <h1 class="display text-5xl md:text-6xl mt-2">{g.h1}</h1>
+    <p class="!text-lg !text-[var(--color-ink)] mt-4 border-l-4 border-[var(--color-rust)] pl-4">{g.answer}</p>
+    {g.howTo && (
+      <>
+        <h2>{g.howTo.name}: step by step</h2>
+        <ol class="list-decimal pl-5 grid gap-3 mt-3">
+          {g.howTo.steps.map((s) => <li><strong>{s.name}.</strong> <span class="text-[var(--color-ink-2)]">{s.text}</span></li>)}
+        </ol>
+      </>
+    )}
+    {g.sections.map((s) => (
+      <>
+        <h2>{s.h2}</h2>
+        {s.body.map((b) => <p>{b}</p>)}
+        {s.links && <p class="flex flex-wrap gap-x-4">{s.links.map((l) => <a href={l.href} class="font-semibold underline decoration-[var(--color-rust)] underline-offset-4">{l.text} →</a>)}</p>}
+      </>
+    ))}
+    <div class="mt-12"><Faq faqs={g.faqs} /></div>
+    <p class="mt-10"><a href="/" class="btn">Shop original graphic tees</a></p>
+  </article>
+</Base>

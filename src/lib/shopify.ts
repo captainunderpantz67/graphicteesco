@@ -24,6 +24,7 @@ export interface Product {
   priceRange: { minVariantPrice: Money };
   options: { name: string; values: string[] }[];
   variants: Variant[];
+  collections?: string[]; // collection handles
   sample?: boolean;
 }
 
@@ -46,10 +47,11 @@ const PRODUCT_FIELDS = `
   priceRange { minVariantPrice { amount currencyCode } }
   options { name values }
   variants(first: 100) { nodes { id title availableForSale price { amount currencyCode } selectedOptions { name value } } }
+  collections(first: 20) { nodes { handle } }
 `;
 
-type RawProduct = Omit<Product, 'images' | 'variants'> & { images: { nodes: Product['images'] }; variants: { nodes: Variant[] } };
-const flat = (p: RawProduct): Product => ({ ...p, images: p.images.nodes, variants: p.variants.nodes });
+type RawProduct = Omit<Product, 'images' | 'variants' | 'collections'> & { images: { nodes: Product['images'] }; variants: { nodes: Variant[] }; collections: { nodes: { handle: string }[] } };
+const flat = (p: RawProduct): Product => ({ ...p, images: p.images.nodes, variants: p.variants.nodes, collections: p.collections.nodes.map((c) => c.handle) });
 
 export async function getCollectionProducts(handle: string, first = 48): Promise<Product[]> {
   if (!shopifyConnected) return sampleProducts(handle);

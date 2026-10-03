@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import { site } from '../../data/site';
+import { guides } from '../../data/guides';
+import { breadcrumbs } from '../../lib/schema';
+---
+<Base title={`Graphic Tee Guides: Styling, Care & Trends`}
+  description="How to style, wash and wear graphic tees — plus what's in style in 2026."
+  schema={[breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Guides', path: '/guides/' }])]}>
+  <section class="container-x pt-10 max-w-3xl">
+    <h1 class="display text-6xl">Graphic Tee Guides</h1>
+    <ul class="mt-8 grid gap-6">
+      {guides.map((g) => (
+        <li><a href={`/guides/${g.slug}/`} class="group block border-b border-[var(--color-line)] pb-6">
+          <p class="display text-3xl group-hover:text-[var(--color-rust)]">{g.h1}</p>
+          <p class="mt-2 text-[var(--color-ink-2)]">{g.answer}</p>
+        </a></li>
+      ))}
+    </ul>
+  </section>
+</Base>

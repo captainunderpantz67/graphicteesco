@@ -1,0 +1,20 @@
+---
+// Visible FAQ block. Pair every use with faqPage() schema from the same array.
+interface Props { faqs: { q: string; a: string }[]; heading?: string }
+const { faqs, heading = 'FAQ' } = Astro.props;
+---
+{faqs.length > 0 && (
+  <section class="prose-copy">
+    <h2>{heading}</h2>
+    <div class="mt-4 divide-y divide-[var(--color-line)] border-y border-[var(--color-line)]">
+      {faqs.map((f) => (
+        <details class="group py-4">
+          <summary class="cursor-pointer list-none flex justify-between gap-4 font-semibold">
+            <span>{f.q}</span><span class="text-[var(--color-rust)] group-open:rotate-45 transition-transform">+</span>
+          </summary>
+          <p class="!mt-2">{f.a}</p>
+        </details>
+      ))}
+    </div>
+  </section>
+)}

@@ -1,33 +1,70 @@
 ---
 import Base from '../layouts/Base.astro';
-import { site } from '../data/site';
-import { tees, hoodies, pathFor } from '../data/collections';
-import { faqPage } from '../lib/schema';
+import Faq from '../components/Faq.astro';
+import { site, resolveFaqs } from '../data/site';
+import { tees, hoodies, pathFor, bySlug } from '../data/collections';
+import { faqPage, itemListOfCollections } from '../lib/schema';
 
-const evergreen = tees.filter((c) => !c.seasonal && !c.slug.startsWith('graphic-tees-for'));
+const womens = tees.filter((c) => c.audience === 'women' && c.slug !== 'graphic-tees-for-women');
+const outdoors = ['fishing-shirts', 'hunting-shirts', 'western-graphic-tees', 'mens-gym-shirts', 'football-shirts', 'soccer-shirts'].map((s) => bySlug(s)!);
+const styles = ['oversized-graphic-tees', 'vintage-graphic-tees', 'y2k-graphic-tees', 'anime-shirts'].map((s) => bySlug(s)!);
 const drop = tees.find((c) => c.seasonal === 'halloween')!;
-const faqs = [
-  { q: 'What kind of graphic tees do you sell?', a: 'Original graphic tees built around what people do: fishing, hunting, western, gym, plus seasonal drops like Halloween and Christmas.' },
-  { q: 'Are your graphic tees original designs?', a: 'Yes. Every design is made for this shop — no licensed characters or resold stock art.' },
-  { q: 'Do the designs come on hoodies?', a: 'Yes. Most tee designs are also printed on hoodies, so you can wear the same art year-round.' },
-  { q: 'How often do new designs come out?', a: 'A new collection drops every month.' },
+
+// Answer blocks: questions from Google autocomplete for "graphic tees" (2026-10-02).
+// Each answers in the first sentence (snippet / AI-overview extraction), then links deeper.
+const answers = [
+  {
+    q: 'What are graphic tees?',
+    a: 'Graphic tees are T-shirts printed with artwork, text or both. They range from band and slogan tees to original illustrated designs like ours, which are organized by what people do — fishing, hunting, western, gym — rather than by trend.',
+  },
+  {
+    q: 'Are graphic tees still in style in 2026?',
+    a: 'Yes. "Graphic tees" averages about 301,000 US Google searches a month, and interest peaked in July 2026. The current looks are vintage-inspired prints, oversized and cropped fits, and western designs.',
+    link: { href: '/guides/are-graphic-tees-in-style/', text: 'What’s in style for graphic tees' },
+  },
+  {
+    q: 'How do you style a graphic tee?',
+    a: 'Let the tee be the focal point and keep everything else simple: straight-leg jeans and sneakers for every day, a blazer or denim jacket to dress it up, and a front tuck to add shape. The same rules work for men, women and every age.',
+    link: { href: '/guides/how-to-style-graphic-tees/', text: 'How to style graphic tees' },
+  },
+  {
+    q: 'How do you wash graphic tees without cracking or fading?',
+    a: 'Turn the tee inside out, wash it cold on a gentle cycle, skip bleach and fabric softener, and hang it dry or tumble dry on low. Never iron directly on the print.',
+    link: { href: '/guides/how-to-wash-graphic-tees/', text: 'Full graphic tee care guide' },
+  },
+  {
+    q: 'Graphic tees vs plain tees — which should you buy?',
+    a: 'Plain tees are layering basics; graphic tees carry the outfit on their own. Most closets need both. A graphic tee says something about what you’re into, which is why we build collections around hobbies.',
+  },
+  {
+    q: 'Where can you buy original graphic tees online?',
+    a: `${site.name} sells original graphic tees and hoodies online, printed to order, with a new collection every month. Shop by collection below or start with men's or women's graphic tees.`,
+  },
 ];
+
+const faqs = resolveFaqs([
+  { q: 'Are your graphic tees original designs?', a: 'Yes. Every design is made for this shop — no licensed characters or resold stock art.' },
+  { q: 'Do your graphic tee designs come on hoodies?', a: 'Yes. Most tee designs are also printed on hoodies, so you can wear the same art all year.' },
+  { q: 'How often do you release new graphic tees?', a: 'A new collection drops every month, timed to the season.' },
+  { q: 'How are your graphic tees made?', a: 'Each one is printed after you order it, then shipped to you. Nothing sits in a warehouse.' },
+  { q: 'How long does shipping take?', a: (f) => `Printing takes ${f.productionDays}, then your order ships. Delivery estimates show at checkout.`, needs: 'productionDays' },
+  { q: 'What sizes do your graphic tees come in?', a: (f) => `Sizes run ${f.sizeRange}. Every product has a size chart.`, needs: 'sizeRange' },
+]);
 ---
-<Base title={`Graphic Tees — Original Designs, New Drops Monthly | ${site.name}`}
-  description="Original graphic tees for men and women: fishing, hunting, western, gym and seasonal designs. Every design also comes on a hoodie. New drops every month."
-  schema={[faqPage(faqs)]}>
+<Base title={`Graphic Tees for Men & Women — Original Designs`}
+  description="Original graphic tees for men and women: fishing, hunting, western, country and gym designs. Every design also on a hoodie. New collection every month."
+  schema={[faqPage([...answers, ...faqs]), itemListOfCollections([...tees, ...hoodies], 'Graphic tee and hoodie collections')]}>
+
   <section class="grain border-b border-[var(--color-line)]">
-    <div class="container-x py-16 md:py-24 grid md:grid-cols-[1.3fr_1fr] gap-10 items-center">
+    <div class="container-x py-14 md:py-24 grid md:grid-cols-[1.3fr_1fr] gap-10 items-center">
       <div>
         <p class="eyebrow">Original designs · New drop every month</p>
         <h1 class="display text-6xl md:text-8xl mt-3">Graphic Tees<br /><span class="text-[var(--color-rust)]">for what you do.</span></h1>
-        <p class="mt-5 text-lg max-w-xl text-[var(--color-ink-2)]">
-          Original graphic tees for the lake, the deer stand, the gym and the ranch. Every design also comes on a hoodie.
-        </p>
+        <p class="mt-5 text-lg max-w-xl text-[var(--color-ink-2)]">{site.entity}</p>
         <div class="mt-8 flex flex-wrap gap-3">
-          <a href="/graphic-tees-for-men/" class="btn">Shop men's tees</a>
-          <a href="/graphic-tees-for-women/" class="btn">Shop women's tees</a>
-          <a href="/hoodies/" class="btn btn-rust">Shop hoodies</a>
+          <a href="/graphic-tees-for-men/" class="btn">Men's graphic tees</a>
+          <a href="/graphic-tees-for-women/" class="btn">Women's graphic tees</a>
+          <a href="/hoodies/" class="btn btn-rust">Graphic hoodies</a>
         </div>
       </div>
       <a href={pathFor(drop)} class="block bg-[var(--color-ink)] text-[var(--color-paper)] p-8 md:p-10 hover:bg-[var(--color-rust)] transition-colors">
@@ -40,11 +77,12 @@ const faqs = [
   </section>
 
   <section class="container-x mt-16">
-    <h2 class="display text-4xl">Shop graphic tees by collection</h2>
-    <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
-      {evergreen.map((c) => (
-        <a href={pathFor(c)} class="group border border-[var(--color-line)] p-5 hover:border-[var(--color-ink)] bg-[var(--color-paper)]">
-          <p class="display text-2xl group-hover:text-[var(--color-rust)]">{c.name}</p>
+    <h2 class="display text-4xl md:text-5xl">Graphic tees for what you do</h2>
+    <p class="mt-2 text-[var(--color-ink-2)]">Fishing, hunting, ranch life, the gym and game day — original art for each.</p>
+    <div class="mt-6 grid grid-cols-2 md:grid-cols-3 gap-4">
+      {outdoors.map((c) => (
+        <a href={pathFor(c)} class="group border border-[var(--color-line)] p-5 hover:border-[var(--color-ink)]">
+          <p class="display text-2xl group-hover:text-[var(--color-rust)]">{c.h1}</p>
           <p class="mt-2 text-sm text-[var(--color-ink-2)] line-clamp-2">{c.intro}</p>
         </a>
       ))}
@@ -53,22 +91,66 @@ const faqs = [
 
   <section class="container-x mt-16">
     <div class="flex items-end justify-between gap-4">
-      <h2 class="display text-4xl">Same designs. Now on hoodies.</h2>
-      <a href="/hoodies/" class="font-semibold underline underline-offset-4 whitespace-nowrap">All hoodies →</a>
+      <h2 class="display text-4xl md:text-5xl">Graphic tees for women</h2>
+      <a href="/graphic-tees-for-women/" class="font-semibold underline underline-offset-4 whitespace-nowrap">Shop all →</a>
     </div>
     <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
-      {hoodies.filter((c) => !c.seasonal).slice(0, 8).map((c) => (
+      {womens.map((c) => (
         <a href={pathFor(c)} class="group bg-[var(--color-paper-2)] p-5 hover:bg-[var(--color-ink)] hover:text-[var(--color-paper)] transition-colors">
-          <p class="display text-2xl">{c.name}</p>
+          <p class="display text-2xl">{c.h1}</p>
         </a>
       ))}
     </div>
   </section>
 
-  <section class="container-x mt-16 max-w-3xl prose-copy">
-    <h2>Graphic tees, explained</h2>
-    <p>Graphic tees are T-shirts printed with art or text. Ours are original designs grouped by what you're into — fishing, hunting, western, gym — with a new seasonal collection every month.</p>
-    <h2>FAQ</h2>
-    <dl class="grid gap-4 mt-4">{faqs.map((f) => <div><dt class="font-semibold">{f.q}</dt><dd class="mt-1 text-[var(--color-ink-2)]">{f.a}</dd></div>)}</dl>
+  <section class="container-x mt-16">
+    <h2 class="display text-4xl md:text-5xl">Shop by style</h2>
+    <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
+      {styles.map((c) => (
+        <a href={pathFor(c)} class="group border border-[var(--color-line)] p-5 hover:border-[var(--color-ink)]">
+          <p class="display text-2xl group-hover:text-[var(--color-rust)]">{c.h1}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="container-x mt-16">
+    <div class="flex items-end justify-between gap-4">
+      <h2 class="display text-4xl md:text-5xl">Same designs. On graphic hoodies.</h2>
+      <a href="/hoodies/" class="font-semibold underline underline-offset-4 whitespace-nowrap">All hoodies →</a>
+    </div>
+    <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
+      {hoodies.filter((c) => !c.seasonal).slice(0, 8).map((c) => (
+        <a href={pathFor(c)} class="group bg-[var(--color-ink)] text-[var(--color-paper)] p-5 hover:bg-[var(--color-rust)] transition-colors">
+          <p class="display text-2xl">{c.h1}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="container-x mt-20 grid md:grid-cols-[2fr_1fr] gap-12">
+    <div class="prose-copy">
+      <p class="eyebrow">Graphic tees, answered</p>
+      {answers.map((x) => (
+        <>
+          <h2>{x.q}</h2>
+          <p>{x.a}</p>
+          {x.link && <p><a href={x.link.href} class="font-semibold underline decoration-[var(--color-rust)] underline-offset-4">{x.link.text} →</a></p>}
+        </>
+      ))}
+      <div class="mt-12"><Faq faqs={faqs} heading="Graphic tee FAQ" /></div>
+    </div>
+    <aside class="self-start md:sticky md:top-24 border border-[var(--color-line)] p-6">
+      <p class="eyebrow">Seasonal drops</p>
+      <ul class="mt-3 grid gap-2">
+        {[...tees, ...hoodies].filter((c) => c.seasonal).map((c) => <li><a href={pathFor(c)} class="font-semibold hover:text-[var(--color-rust)]">{c.h1} →</a></li>)}
+      </ul>
+      <p class="eyebrow mt-6">Graphic tee guides</p>
+      <ul class="mt-3 grid gap-2">
+        <li><a href="/guides/how-to-style-graphic-tees/" class="font-semibold hover:text-[var(--color-rust)]">How to style graphic tees →</a></li>
+        <li><a href="/guides/how-to-wash-graphic-tees/" class="font-semibold hover:text-[var(--color-rust)]">How to wash graphic tees →</a></li>
+        <li><a href="/guides/are-graphic-tees-in-style/" class="font-semibold hover:text-[var(--color-rust)]">Are graphic tees in style? →</a></li>
+      </ul>
+    </aside>
   </section>
 </Base>

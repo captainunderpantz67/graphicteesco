@@ -1,6 +1,7 @@
 import type { APIRoute } from 'astro';
 import { site } from '../data/site';
 import { tees, hoodies, pathFor } from '../data/collections';
+import { guides } from '../data/guides';
 
 // llms.txt — a plain map of the site for AI assistants (Content Monster / AEO).
 export const GET: APIRoute = () => {
@@ -8,7 +9,7 @@ export const GET: APIRoute = () => {
   const body = [
     `# ${site.name}`,
     '',
-    `> ${site.tagline} Original designs, printed to order, with a new collection every month. Most tee designs also come on hoodies.`,
+    `> ${site.entity}`,
     '',
     '## Graphic tees',
     ...tees.map(line),
@@ -16,6 +17,9 @@ export const GET: APIRoute = () => {
     '## Graphic hoodies',
     `- [Graphic Hoodies](${site.url}/hoodies/): Every hoodie collection.`,
     ...hoodies.map(line),
+    '',
+    '## Guides',
+    ...guides.map((g) => `- [${g.h1}](${site.url}/guides/${g.slug}/): ${g.answer}`),
     '',
     '## Help',
     `- [FAQ](${site.url}/faq/)`,

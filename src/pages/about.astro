@@ -1,12 +1,62 @@
 ---
 import Base from '../layouts/Base.astro';
-import { site } from '../data/site';
+import Faq from '../components/Faq.astro';
+import { site, resolveFaqs } from '../data/site';
+import { tees, hoodies, pathFor } from '../data/collections';
+import { aboutPage, faqPage, breadcrumbs } from '../lib/schema';
+
+const faqs = resolveFaqs([
+  { q: `Who designs ${site.name} shirts?`, a: 'Every design is drawn in-house by our designer — one of the two brothers who run the shop. We don’t buy stock art.' },
+  { q: `Is ${site.name} a print-on-demand shop?`, a: 'Yes. Each tee and hoodie is printed after you order it by our print partner, then shipped to you. That lets us release new designs every month without a warehouse of leftovers.' },
+  { q: 'Do you sell licensed characters or team logos?', a: 'No. Every design is original. No characters, team marks, show names or logos.' },
+  { q: 'How often do you release new designs?', a: 'A new collection drops every month, timed to the season — Halloween in October, Thanksgiving in November, Christmas in December.' },
+  { q: 'Why are your collections organized by hobby?', a: 'Because that’s how people actually shop for a graphic tee — they want one about the lake, the deer stand, the ranch or the gym.' },
+]);
+
+const evergreen = [...tees, ...hoodies].filter((c) => !c.seasonal);
 ---
-<Base title={`About | ${site.name}`} description={`${site.name} makes original graphic tees and hoodies, with a new collection every month.`}>
-  <section class="container-x pt-10 max-w-3xl prose-copy">
-    <h1 class="display text-6xl">About</h1>
-    <p>{site.name} makes original graphic tees and hoodies built around what people actually do — fishing, hunting, ranch life, the gym — plus a new seasonal drop every month.</p>
-    <p>Every piece is printed when you order it. That keeps waste down and lets us keep adding designs.</p>
-    <!-- TODO(Sam): founder story, where you're based, link to Instagram -->
+<Base title={`About ${site.name} — Two Brothers, Original Designs`}
+  description={`${site.name} is two brothers making original graphic tees and hoodies — one draws every design, the other runs the shop. New collection every month.`}
+  schema={[aboutPage(), faqPage(faqs), breadcrumbs([{ name: 'Home', path: '/' }, { name: 'About', path: '/about/' }])]}>
+  <section class="grain border-b border-[var(--color-line)]">
+    <div class="container-x py-14 max-w-3xl">
+      <p class="eyebrow">About us</p>
+      <h1 class="display text-6xl md:text-7xl mt-2">About {site.name}</h1>
+      <p class="mt-5 text-lg text-[var(--color-ink-2)]">{site.entity}</p>
+    </div>
+  </section>
+
+  <section class="container-x mt-12 grid md:grid-cols-[2fr_1fr] gap-12">
+    <div class="prose-copy">
+      <h2>Two brothers, one shop</h2>
+      <p>{site.name} is run by two brothers. One draws every design. The other runs the shop and gets the designs in front of the people who’ll love them.</p>
+      {site.founders.length > 0 && <p>{site.founders.map((f) => `${f.name} (${f.role})`).join(' and ')}.</p>}
+      <!-- TODO(Sam): 2–3 sentences of real story — where you're from, why your brother started drawing, the first design. Real details are what earn trust with Google and AI answer engines. -->
+
+      <h2>How our graphic tees are made</h2>
+      <p>Every tee and hoodie is printed after you order it, then shipped straight to you. Nothing sits in a warehouse, which is how we can release a new collection every month.</p>
+      {site.facts.teeBlank && <p>Our tees are printed on {site.facts.teeBlank}.</p>}
+      {site.facts.hoodieBlank && <p>Our hoodies are printed on {site.facts.hoodieBlank}.</p>}
+
+      <h2>Our rules</h2>
+      <ul class="list-disc pl-5 grid gap-2 text-[var(--color-ink-2)]">
+        <li><strong>Original art only.</strong> No licensed characters, team logos or stock graphics.</li>
+        <li><strong>Built around what you do.</strong> Collections are organized by hobby and season, not trend.</li>
+        <li><strong>Tee and hoodie.</strong> Most designs come on both, so the art works year-round.</li>
+        <li><strong>Something new every month.</strong> A seasonal collection drops monthly.</li>
+      </ul>
+
+      <div class="mt-12"><Faq faqs={faqs} heading={`${site.name} FAQ`} /></div>
+    </div>
+    <aside class="self-start border border-[var(--color-line)] p-6">
+      <p class="eyebrow">What we make</p>
+      <ul class="mt-3 grid gap-2">
+        <li><a href="/graphic-tees-for-men/" class="font-semibold hover:text-[var(--color-rust)]">Graphic tees for men →</a></li>
+        <li><a href="/graphic-tees-for-women/" class="font-semibold hover:text-[var(--color-rust)]">Graphic tees for women →</a></li>
+        <li><a href="/hoodies/" class="font-semibold hover:text-[var(--color-rust)]">Graphic hoodies →</a></li>
+        {evergreen.filter((c) => !c.slug.startsWith('graphic-tees-for')).slice(0, 10).map((c) => <li><a href={pathFor(c)} class="hover:text-[var(--color-rust)]">{c.h1}</a></li>)}
+      </ul>
+      {site.instagram && <p class="mt-6"><a href={`https://instagram.com/${site.instagram}`} class="font-semibold underline">Follow us on Instagram →</a></p>}
+    </aside>
   </section>
 </Base>

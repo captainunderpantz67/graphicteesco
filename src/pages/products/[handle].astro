@@ -1,7 +1,10 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { getAllProducts, formatPrice, type Product } from '../../lib/shopify';
-import { productSchema, breadcrumbs } from '../../lib/schema';
+import Faq from '../../components/Faq.astro';
+import { productSchema, breadcrumbs, faqPage } from '../../lib/schema';
+import { resolveFaqs } from '../../data/site';
+import { all, pathFor } from '../../data/collections';
 
 export async function getStaticPaths() {
   const products = await getAllProducts();
@@ -10,10 +13,23 @@ export async function getStaticPaths() {
 const { product: p } = Astro.props as { product: Product };
 const sizes = p.variants;
 const isHoodie = /hood/i.test(p.productType) || /hood/i.test(p.title);
+const item = isHoodie ? 'hoodie' : 'graphic tee';
+// Product FAQs: long-tail care/fit/shipping questions. Fact-dependent ones hide until confirmed.
+const faqs = resolveFaqs([
+  { q: `Is the ${p.title} design original?`, a: 'Yes. It was drawn for this shop — no licensed characters or stock art.' },
+  { q: `How do I wash this ${item}?`, a: 'Turn it inside out, wash cold on gentle, skip bleach and fabric softener, and hang dry or tumble dry low. Never iron directly on the print.' },
+  { q: `How is this ${item} made?`, a: 'It is printed after you order it, then shipped to you.' },
+  { q: 'How long until it ships?', a: (f) => `Printing takes ${f.productionDays}, then it ships. Delivery estimates show at checkout.`, needs: 'productionDays' },
+  { q: 'What sizes does it come in?', a: (f) => `Sizes run ${f.sizeRange}.`, needs: 'sizeRange' },
+  { q: `What is this ${item} made of?`, a: (f) => `${isHoodie ? f.hoodieBlank : f.teeBlank}.`, needs: isHoodie ? 'hoodieBlank' : 'teeBlank' },
+  { q: 'Can I return it?', a: (f) => f.returnsPolicy!, needs: 'returnsPolicy' },
+]);
+// Collections this product belongs to (by Shopify collection handles) — internal links back up.
+const parents = all.filter((c) => p.collections?.includes(c.shopifyHandle));
 ---
 <Base title={`${p.title} — ${isHoodie ? 'Graphic Hoodie' : 'Graphic Tee'}`} description={p.description.slice(0, 155)}
   image={p.featuredImage?.url}
-  schema={[productSchema(p), breadcrumbs([{ name: 'Home', path: '/' }, { name: p.title, path: `/products/${p.handle}/` }])]}>
+  schema={[productSchema(p), faqPage(faqs), breadcrumbs([{ name: 'Home', path: '/' }, ...(parents[0] ? [{ name: parents[0].h1, path: pathFor(parents[0]) }] : []), { name: p.title, path: `/products/${p.handle}/` }])]}>
   <section class="container-x pt-8 grid md:grid-cols-2 gap-10">
     <div class="grid gap-3">
       {p.images.length > 0
@@ -41,6 +57,8 @@ const isHoodie = /hood/i.test(p.productType) || /hood/i.test(p.title);
         <button type="submit" class="btn btn-rust w-full">Add to cart</button>
       </form>
       <div class="prose-copy mt-8" set:html={p.descriptionHtml} />
+      {parents.length > 0 && <p class="mt-6 text-sm">In: {parents.map((c, i) => <>{i > 0 && ', '}<a href={pathFor(c)} class="underline">{c.h1}</a></>)}</p>}
+      <div class="mt-8"><Faq faqs={faqs} /></div>
     </div>
   </section>
 </Base>
