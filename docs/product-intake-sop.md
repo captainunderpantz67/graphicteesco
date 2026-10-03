@@ -38,6 +38,8 @@ Style words (Oversized, Cropped, Heavyweight, Zip-Up) may appear anywhere in the
    - `productType`: `T-Shirt` or `Hoodie`.
    - `tags`: the collection tags + `intake-done` (keep any existing tags).
    - SEO title ≤ 60 chars: `<Design> <Niche> <Tee|Hoodie> | Graphic Tees Co.`; SEO description ≤ 155 chars with the top phrase.
+   - Media order: if any image shows a person wearing the product (lifestyle/model shot), move it to the front
+     (Admin GraphQL `productReorderMedia`). Flat mockups follow, grouped by color.
    - Image alt text on every image: `<Design Name> <niche> graphic <tee|hoodie>` (+ color if obvious).
 7. **Log** to `docs/intake-log.md` (newest on top): date/time, each product, tags applied, phrases used, anything needing review.
    Commit and push: `intake: <n> products (<date>)`.
