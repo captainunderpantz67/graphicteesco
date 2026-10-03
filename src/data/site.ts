@@ -28,6 +28,8 @@ export const site = {
   instagram: '', // TODO(Sam)
   email: '', // TODO(Sam)
   founders: [] as { name: string; role: string }[], // TODO(Sam): your brother (designer) + you
+  // Hero mockup (Printful PNG of a model in a tee). Drop the file in /public and set the path.
+  heroImage: null as { src: string; alt: string } | null,
   facts: {
     printedOnDemand: true,
     productionDays: null,

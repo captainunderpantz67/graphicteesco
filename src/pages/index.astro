@@ -1,6 +1,8 @@
 ---
 import Base from '../layouts/Base.astro';
 import Faq from '../components/Faq.astro';
+import Icon from '../components/Icon.astro';
+import HeroArt from '../components/HeroArt.astro';
 import { site, resolveFaqs } from '../data/site';
 import { tees, hoodies, pathFor, bySlug } from '../data/collections';
 import { faqPage, itemListOfCollections } from '../lib/schema';
@@ -50,106 +52,195 @@ const faqs = resolveFaqs([
   { q: 'How long does shipping take?', a: (f) => `Printing takes ${f.productionDays}, then your order ships. Delivery estimates show at checkout.`, needs: 'productionDays' },
   { q: 'What sizes do your graphic tees come in?', a: (f) => `Sizes run ${f.sizeRange}. Every product has a size chart.`, needs: 'sizeRange' },
 ]);
+
+const icons: Record<string, string> = {
+  'fishing-shirts': 'fish', 'hunting-shirts': 'antlers', 'western-graphic-tees': 'hat', 'mens-gym-shirts': 'barbell',
+  'football-shirts': 'football', 'soccer-shirts': 'star', 'country-graphic-tees': 'boot', 'cropped-graphic-tees': 'crop',
+  'graphic-tees-for-women-over-40': 'sun', 'football-mom-shirts': 'football', 'baseball-mom-shirts': 'baseball',
+  'nurse-shirts': 'nurse', 'christian-shirts': 'cross', 'oversized-graphic-tees': 'tee', 'vintage-graphic-tees': 'sun',
+  'y2k-graphic-tees': 'bolt', 'anime-shirts': 'star',
+};
+const bubbles = ['fishing-shirts', 'hunting-shirts', 'western-graphic-tees', 'country-graphic-tees', 'mens-gym-shirts', 'football-mom-shirts', 'christian-shirts', 'nurse-shirts'].map((s) => bySlug(s)!);
+// Poster-card palettes for the women's row (bg, ink, accent)
+const tones = [
+  ['var(--color-rust)', 'var(--color-cream)', 'var(--color-mustard)'],
+  ['var(--color-navy)', 'var(--color-cream)', 'var(--color-rust)'],
+  ['var(--color-mustard)', 'var(--color-ink)', 'var(--color-rust)'],
+  ['var(--color-moss)', 'var(--color-cream)', 'var(--color-mustard)'],
+];
+const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom', 'Faith', 'Nurse', 'Vintage', 'Halloween'];
 ---
 <Base title={`Graphic Tees for Men & Women — Original Designs`}
   description="Original graphic tees for men and women: fishing, hunting, western, country and gym designs. Every design also on a hoodie. New collection every month."
   schema={[faqPage([...answers, ...faqs]), itemListOfCollections([...tees, ...hoodies], 'Graphic tee and hoodie collections')]}>
 
-  <section class="grain border-b border-[var(--color-line)]">
-    <div class="container-x py-14 md:py-24 grid md:grid-cols-[1.3fr_1fr] gap-10 items-center">
+  <!-- HERO -->
+  <section class="relative overflow-hidden border-b-2 border-[var(--color-ink)]">
+    <div class="absolute -left-24 -bottom-24 w-[420px] h-[420px] rounded-full halftone opacity-70" aria-hidden="true"></div>
+    <div class="container-x relative py-12 md:py-20 grid lg:grid-cols-[1.15fr_1fr] gap-10 lg:gap-6 items-center">
       <div>
-        <p class="eyebrow">Original designs · New drop every month</p>
-        <h1 class="display text-6xl md:text-8xl mt-3">Graphic Tees<br /><span class="text-[var(--color-rust)]">for what you do.</span></h1>
-        <p class="mt-5 text-lg max-w-xl text-[var(--color-ink-2)]">{site.entity}</p>
-        <div class="mt-8 flex flex-wrap gap-3">
+        <p class="eyebrow rise" style="animation-delay:.05s">Original art · Printed to order · New drop every month</p>
+        <h1 class="mt-4 rise" style="animation-delay:.15s">
+          <span class="display misprint block text-[clamp(4.2rem,13vw,10.5rem)]">Graphic Tees</span>
+          <span class="script block text-[var(--color-rust)] text-[clamp(2.4rem,6vw,4.4rem)] -mt-2 md:-mt-4 ml-1 -rotate-3 origin-left">for what you do.</span>
+        </h1>
+        <p class="mt-6 text-lg max-w-xl text-[var(--color-ink-2)] rise" style="animation-delay:.3s">{site.entity}</p>
+        <div class="mt-8 flex flex-wrap gap-3 rise" style="animation-delay:.42s">
           <a href="/graphic-tees-for-men/" class="btn">Men's graphic tees</a>
           <a href="/graphic-tees-for-women/" class="btn">Women's graphic tees</a>
           <a href="/hoodies/" class="btn btn-rust">Graphic hoodies</a>
         </div>
+        <ul class="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-xs font-bold uppercase tracking-[.14em] text-[var(--color-ink-2)] rise" style="animation-delay:.55s">
+          <li class="flex items-center gap-2"><Icon name="star" class="w-4 h-4 text-[var(--color-rust)]" />Original designs</li>
+          <li class="flex items-center gap-2"><Icon name="tee" class="w-4 h-4 text-[var(--color-rust)]" />Tees + hoodies</li>
+          <li class="flex items-center gap-2"><Icon name="sun" class="w-4 h-4 text-[var(--color-rust)]" />New drop monthly</li>
+        </ul>
       </div>
-      <a href={pathFor(drop)} class="block bg-[var(--color-ink)] text-[var(--color-paper)] p-8 md:p-10 hover:bg-[var(--color-rust)] transition-colors">
-        <p class="eyebrow !text-[var(--color-paper)] opacity-80">This month's drop</p>
-        <p class="display text-5xl mt-3">{drop.h1}</p>
-        <p class="mt-3 opacity-80">{drop.intro}</p>
-        <p class="mt-6 font-semibold uppercase tracking-wide text-sm">Shop the drop →</p>
+      <HeroArt image={site.heroImage ?? undefined} />
+    </div>
+  </section>
+
+  <!-- TICKER (decorative) -->
+  <div class="bg-[var(--color-navy)] text-[var(--color-cream)] overflow-hidden py-3 border-b-2 border-[var(--color-ink)]" aria-hidden="true">
+    <div class="marquee-track">
+      {[0, 1].map(() => ticker.map((t) => <span class="display text-2xl px-6 flex items-center gap-6">{t}<span class="text-[var(--color-mustard)]">✦</span></span>))}
+    </div>
+  </div>
+
+  <!-- SHOP BY WHAT YOU DO (theme bubbles) -->
+  <section class="container-x mt-16">
+    <div class="flex items-end justify-between gap-4">
+      <h2 class="display text-5xl md:text-6xl">Graphic tees for <span class="text-[var(--color-rust)]">what you do</span></h2>
+    </div>
+    <ul class="mt-8 grid grid-cols-4 md:grid-cols-8 gap-x-3 gap-y-6">
+      {bubbles.map((c) => (
+        <li>
+          <a href={pathFor(c)} class="group flex flex-col items-center text-center gap-3">
+            <span class="w-[clamp(64px,10vw,104px)] aspect-square rounded-full grid place-items-center bg-[var(--color-cream)] border-2 border-[var(--color-ink)] shadow-[3px_3px_0_var(--color-ink)] group-hover:bg-[var(--color-rust)] group-hover:text-[var(--color-cream)] group-hover:-translate-y-1 transition-all">
+              <Icon name={icons[c.slug]} class="w-1/2 h-1/2" />
+            </span>
+            <span class="text-[11px] md:text-xs font-extrabold uppercase tracking-[.1em] leading-tight">{c.name}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <!-- MEN / WOMEN split (Tillys pattern) -->
+  <section class="container-x mt-16 grid md:grid-cols-2 gap-5">
+    <a href="/graphic-tees-for-men/" class="group relative overflow-hidden rounded-[22px] bg-[var(--color-ink)] text-[var(--color-cream)] p-8 md:p-10 min-h-[300px] flex flex-col justify-end border-2 border-[var(--color-ink)]">
+      <div class="absolute inset-0 halftone-rust opacity-40" aria-hidden="true"></div>
+      <Icon name="antlers" class="absolute -right-6 -top-6 w-64 h-64 text-[var(--color-rust)] opacity-70 group-hover:rotate-6 transition-transform" />
+      <p class="eyebrow !text-[var(--color-mustard)] relative">Fishing · Hunting · Western · Gym</p>
+      <h2 class="display misprint-light text-6xl md:text-7xl relative mt-2">Graphic Tees<br />for Men</h2>
+      <span class="relative mt-5 font-bold uppercase tracking-[.12em] text-sm">Shop men's →</span>
+    </a>
+    <a href="/graphic-tees-for-women/" class="group relative overflow-hidden rounded-[22px] bg-[var(--color-rust)] text-[var(--color-cream)] p-8 md:p-10 min-h-[300px] flex flex-col justify-end border-2 border-[var(--color-ink)]">
+      <div class="absolute inset-0 halftone opacity-50" aria-hidden="true"></div>
+      <Icon name="boot" class="absolute -right-4 -top-4 w-60 h-60 text-[var(--color-mustard)] opacity-80 group-hover:-rotate-6 transition-transform" />
+      <p class="eyebrow !text-[var(--color-ink)] relative">Country · Cropped · Faith · Game day</p>
+      <h2 class="display text-6xl md:text-7xl relative mt-2" style="text-shadow:.05em .05em 0 var(--color-ink)">Graphic Tees<br />for Women</h2>
+      <span class="relative mt-5 font-bold uppercase tracking-[.12em] text-sm">Shop women's →</span>
+    </a>
+  </section>
+
+  <!-- WOMEN'S POSTER CARDS -->
+  <section class="container-x mt-16">
+    <div class="flex items-end justify-between gap-4">
+      <h2 class="display text-5xl md:text-6xl">Women's graphic tee collections</h2>
+      <a href="/graphic-tees-for-women/" class="hidden md:inline font-bold uppercase tracking-[.12em] text-sm underline underline-offset-4">Shop all →</a>
+    </div>
+    <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+      {womens.map((c, i) => {
+        const [bg, fg, ac] = tones[i % tones.length];
+        return (
+          <a href={pathFor(c)} class="group relative overflow-hidden rounded-[18px] border-2 border-[var(--color-ink)] aspect-[4/5] p-5 flex flex-col justify-between shadow-[4px_4px_0_var(--color-ink)] hover:-translate-y-1 hover:shadow-[6px_8px_0_var(--color-ink)] transition-all" style={`background:${bg};color:${fg}`}>
+            <span class="absolute inset-0 halftone opacity-30" aria-hidden="true"></span>
+            <span class="relative w-14 h-14 rounded-full grid place-items-center border-2" style={`border-color:${fg};color:${ac}`}><Icon name={icons[c.slug]} class="w-7 h-7" /></span>
+            <span class="relative">
+              <span class="display block text-[clamp(1.8rem,3.4vw,2.6rem)] leading-[.88]">{c.h1}</span>
+              <span class="mt-2 block text-xs font-bold uppercase tracking-[.14em] opacity-80">Shop →</span>
+            </span>
+          </a>
+        );
+      })}
+      <a href="/graphic-tees-for-women/" class="group relative overflow-hidden rounded-[18px] border-2 border-dashed border-[var(--color-ink)] aspect-[4/5] p-5 flex flex-col justify-end bg-[var(--color-cream)] hover:bg-[var(--color-mustard)] transition-colors">
+        <span class="display block text-[clamp(1.8rem,3.4vw,2.6rem)] leading-[.88]">All Women's<br />Graphic Tees</span>
+        <span class="mt-2 block text-xs font-bold uppercase tracking-[.14em] text-[var(--color-rust)]">Shop all →</span>
       </a>
     </div>
   </section>
 
-  <section class="container-x mt-16">
-    <h2 class="display text-4xl md:text-5xl">Graphic tees for what you do</h2>
-    <p class="mt-2 text-[var(--color-ink-2)]">Fishing, hunting, ranch life, the gym and game day — original art for each.</p>
-    <div class="mt-6 grid grid-cols-2 md:grid-cols-3 gap-4">
-      {outdoors.map((c) => (
-        <a href={pathFor(c)} class="group border border-[var(--color-line)] p-5 hover:border-[var(--color-ink)]">
-          <p class="display text-2xl group-hover:text-[var(--color-rust)]">{c.h1}</p>
-          <p class="mt-2 text-sm text-[var(--color-ink-2)] line-clamp-2">{c.intro}</p>
-        </a>
-      ))}
+  <!-- THIS MONTH'S DROP -->
+  <section class="mt-20 bg-[var(--color-rust)] text-[var(--color-cream)] border-y-2 border-[var(--color-ink)] relative overflow-hidden">
+    <div class="absolute inset-0 halftone opacity-30" aria-hidden="true"></div>
+    <div class="container-x relative py-12 md:py-16 grid md:grid-cols-[1fr_auto] gap-8 items-center">
+      <div>
+        <p class="eyebrow !text-[var(--color-mustard)]">This month's drop</p>
+        <h2 class="display text-6xl md:text-8xl mt-2" style="text-shadow:.05em .05em 0 var(--color-ink)">{drop.h1}</h2>
+        <p class="mt-3 max-w-xl text-lg opacity-90">{drop.intro}</p>
+      </div>
+      <div class="flex flex-wrap gap-3">
+        <a href={pathFor(drop)} class="btn">Shop the drop</a>
+        <a href="/hoodies/halloween-hoodies/" class="btn btn-ghost !text-[var(--color-cream)] !border-[var(--color-cream)]">Halloween hoodies</a>
+      </div>
+      <Icon name="pumpkin" class="hidden md:block absolute right-[38%] -bottom-10 w-48 h-48 text-[var(--color-mustard)] opacity-40" />
     </div>
   </section>
 
-  <section class="container-x mt-16">
-    <div class="flex items-end justify-between gap-4">
-      <h2 class="display text-4xl md:text-5xl">Graphic tees for women</h2>
-      <a href="/graphic-tees-for-women/" class="font-semibold underline underline-offset-4 whitespace-nowrap">Shop all →</a>
-    </div>
-    <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
-      {womens.map((c) => (
-        <a href={pathFor(c)} class="group bg-[var(--color-paper-2)] p-5 hover:bg-[var(--color-ink)] hover:text-[var(--color-paper)] transition-colors">
-          <p class="display text-2xl">{c.h1}</p>
-        </a>
-      ))}
+  <!-- HOODIES -->
+  <section class="bg-[var(--color-ink)] text-[var(--color-cream)]">
+    <div class="container-x py-16">
+      <div class="flex items-end justify-between gap-4">
+        <h2 class="display text-5xl md:text-6xl">Same designs. <span class="text-[var(--color-mustard)]">On graphic hoodies.</span></h2>
+        <a href="/hoodies/" class="hidden md:inline font-bold uppercase tracking-[.12em] text-sm underline underline-offset-4">All hoodies →</a>
+      </div>
+      <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+        {hoodies.filter((c) => !c.seasonal).slice(0, 8).map((c) => (
+          <a href={pathFor(c)} class="group relative overflow-hidden rounded-[16px] border-2 border-[var(--color-cream)]/25 p-5 min-h-[140px] flex flex-col justify-between hover:bg-[var(--color-rust)] hover:border-[var(--color-rust)] transition-colors">
+            <Icon name="hoodie" class="w-8 h-8 text-[var(--color-mustard)] group-hover:text-[var(--color-cream)]" />
+            <span class="display text-3xl leading-none">{c.h1}</span>
+          </a>
+        ))}
+      </div>
     </div>
   </section>
 
+  <!-- SHOP BY STYLE -->
   <section class="container-x mt-16">
-    <h2 class="display text-4xl md:text-5xl">Shop by style</h2>
-    <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
+    <h2 class="display text-5xl md:text-6xl">Shop by style</h2>
+    <div class="mt-6 flex flex-wrap gap-3">
       {styles.map((c) => (
-        <a href={pathFor(c)} class="group border border-[var(--color-line)] p-5 hover:border-[var(--color-ink)]">
-          <p class="display text-2xl group-hover:text-[var(--color-rust)]">{c.h1}</p>
+        <a href={pathFor(c)} class="inline-flex items-center gap-3 rounded-full border-2 border-[var(--color-ink)] bg-[var(--color-cream)] pl-3 pr-5 py-2 font-extrabold uppercase tracking-[.08em] text-sm shadow-[3px_3px_0_var(--color-ink)] hover:bg-[var(--color-mustard)] transition-colors">
+          <Icon name={icons[c.slug]} class="w-6 h-6 text-[var(--color-rust)]" />{c.h1}
         </a>
       ))}
     </div>
   </section>
 
-  <section class="container-x mt-16">
-    <div class="flex items-end justify-between gap-4">
-      <h2 class="display text-4xl md:text-5xl">Same designs. On graphic hoodies.</h2>
-      <a href="/hoodies/" class="font-semibold underline underline-offset-4 whitespace-nowrap">All hoodies →</a>
-    </div>
-    <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
-      {hoodies.filter((c) => !c.seasonal).slice(0, 8).map((c) => (
-        <a href={pathFor(c)} class="group bg-[var(--color-ink)] text-[var(--color-paper)] p-5 hover:bg-[var(--color-rust)] transition-colors">
-          <p class="display text-2xl">{c.h1}</p>
-        </a>
-      ))}
-    </div>
-  </section>
-
-  <section class="container-x mt-20 grid md:grid-cols-[2fr_1fr] gap-12">
+  <!-- ANSWERS + FAQ (SEO engine) -->
+  <section class="container-x mt-20 grid lg:grid-cols-[2fr_1fr] gap-12">
     <div class="prose-copy">
       <p class="eyebrow">Graphic tees, answered</p>
       {answers.map((x) => (
         <>
           <h2>{x.q}</h2>
           <p>{x.a}</p>
-          {x.link && <p><a href={x.link.href} class="font-semibold underline decoration-[var(--color-rust)] underline-offset-4">{x.link.text} →</a></p>}
+          {x.link && <p><a href={x.link.href} class="font-bold underline decoration-[var(--color-rust)] decoration-2 underline-offset-4">{x.link.text} →</a></p>}
         </>
       ))}
       <div class="mt-12"><Faq faqs={faqs} heading="Graphic tee FAQ" /></div>
     </div>
-    <aside class="self-start md:sticky md:top-24 border border-[var(--color-line)] p-6">
+    <aside class="self-start lg:sticky lg:top-24 rounded-[18px] border-2 border-[var(--color-ink)] bg-[var(--color-cream)] p-6 shadow-[4px_4px_0_var(--color-ink)]">
       <p class="eyebrow">Seasonal drops</p>
       <ul class="mt-3 grid gap-2">
-        {[...tees, ...hoodies].filter((c) => c.seasonal).map((c) => <li><a href={pathFor(c)} class="font-semibold hover:text-[var(--color-rust)]">{c.h1} →</a></li>)}
+        {[...tees, ...hoodies].filter((c) => c.seasonal).map((c) => <li><a href={pathFor(c)} class="font-bold hover:text-[var(--color-rust)]">{c.h1} →</a></li>)}
       </ul>
       <p class="eyebrow mt-6">Graphic tee guides</p>
       <ul class="mt-3 grid gap-2">
-        <li><a href="/guides/how-to-style-graphic-tees/" class="font-semibold hover:text-[var(--color-rust)]">How to style graphic tees →</a></li>
-        <li><a href="/guides/how-to-wash-graphic-tees/" class="font-semibold hover:text-[var(--color-rust)]">How to wash graphic tees →</a></li>
-        <li><a href="/guides/are-graphic-tees-in-style/" class="font-semibold hover:text-[var(--color-rust)]">Are graphic tees in style? →</a></li>
+        <li><a href="/guides/how-to-style-graphic-tees/" class="font-bold hover:text-[var(--color-rust)]">How to style graphic tees →</a></li>
+        <li><a href="/guides/how-to-wash-graphic-tees/" class="font-bold hover:text-[var(--color-rust)]">How to wash graphic tees →</a></li>
+        <li><a href="/guides/are-graphic-tees-in-style/" class="font-bold hover:text-[var(--color-rust)]">Are graphic tees in style? →</a></li>
       </ul>
     </aside>
   </section>

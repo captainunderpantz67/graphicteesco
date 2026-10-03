@@ -37,17 +37,17 @@ const ld = [organization(), website(), ...schema];
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800&family=Big+Shoulders+Display:wght@800;900&family=Yellowtail&display=swap" rel="stylesheet" />
     {ld.map((s) => <script type="application/ld+json" set:html={JSON.stringify(s)} />)}
   </head>
   <body>
     <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:p-2 focus:bg-[var(--color-ink)] focus:text-white">Skip to content</a>
-    <div class="bg-[var(--color-ink)] text-[var(--color-paper)] text-center text-xs py-2 tracking-wide">
+    <div class="bg-[var(--color-ink)] text-[var(--color-cream)] text-center text-[11px] font-bold uppercase py-2 tracking-[.16em]">
       New designs drop every month · Every design also comes on a hoodie
     </div>
-    <header class="border-b border-[var(--color-line)] bg-[var(--color-paper)] sticky top-0 z-30">
+    <header class="border-b-2 border-[var(--color-ink)] bg-[var(--color-paper)]/95 backdrop-blur sticky top-0 z-30">
       <div class="container-x flex items-center justify-between h-16 gap-4">
-        <a href="/" class="display text-2xl tracking-tight">{site.name}</a>
+        <a href="/" class="display misprint text-3xl tracking-tight">{site.name}</a>
         <nav aria-label="Main" class="hidden md:flex items-center gap-6 text-sm font-semibold uppercase tracking-wide">
           <a href="/graphic-tees-for-men/" class="hover:text-[var(--color-rust)]">Men</a>
           <a href="/graphic-tees-for-women/" class="hover:text-[var(--color-rust)]">Women</a>
