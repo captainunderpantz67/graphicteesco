@@ -1,3 +1,16 @@
+## 2026-10-03 16:10 UTC — 3 products (scheduled run)
+- **Men's Fishing – High Country Trout Tee** → mens-fishing-high-country-trout-graphic-tee · tags graphic-tees-for-men, fishing-t-shirts, vintage-graphic-tees, ai-art · rainbow trout leaping at a dry fly in a rocky mountain stream, vintage navy/mustard/rust/cream badge · no back logo/model shots set yet (all flat mockups, no lifestyle shots to reorder) · alt text on all 29 images
+  - phrases: fly fishing t shirts for men, vintage fly fishing t shirts, fishing graphic t shirt for men, vintage graphic tees for men, best fly fishing t shirts
+  - facts (Printful): classic unisex fit, 100% combed ring-spun cotton (heather = + polyester), 4.2 oz/yd², pre-shrunk, side-seamed, Black/Navy/Dark Grey Heather/Military Green/Heather Forest/Soft Cream/White, XS–5XL (Military Green/Heather Forest/Soft Cream run XS–4XL only)
+- **Men's Gym – Barbell Club Tee** → mens-gym-barbell-club-graphic-tee · tags graphic-tees-for-men, mens-gym-shirts, vintage-graphic-tees, ai-art · 1960s strongman badge, crossed barbells + kettlebells + laurel wreath, navy/rust/black on cream · no back logo/model shots set yet (flat mockups only) · alt text on all 25 images
+  - phrases: mens gym graphic tees, graphic t shirts for men gym, mens retro gym shirts, vintage mens gym shirts, vintage graphic tees for men
+  - facts (Printful): classic unisex fit, 100% combed ring-spun cotton (heather = + polyester), 4.2 oz/yd², pre-shrunk, side-seamed, Black/Navy/Dark Grey Heather/Army/Soft Cream/White, XS–5XL (Army/Soft Cream run XS–4XL only)
+- **Men's Thanksgiving – Turkey Bowl Tee** → mens-thanksgiving-turkey-bowl-graphic-tee · tags graphic-tees-for-men, thanksgiving-shirts, football-shirts, vintage-graphic-tees, ai-art · cartoon turkey mascot in leather helmet/jersey #50, 1950s college-mascot shield badge, burnt orange/mustard/navy/cream, no real team/league · no back logo/model shots set yet (flat mockups only) · alt text on all 25 images
+  - phrases: men's thanksgiving shirts, thanksgiving shirts for men, football shirts for men, mens thanksgiving tops, funny thanksgiving shirts for men, vintage graphic tees for men
+  - facts (Printful): classic unisex fit, 100% combed ring-spun cotton (heather = + polyester), 4.2 oz/yd², pre-shrunk, side-seamed, Black/Navy/Dark Grey Heather/Autumn/Soft Cream/White, XS–5XL (Autumn/Soft Cream run XS–4XL only)
+  - note: no hoodie twin for any of the 3 — tee-only designs
+  - ⚠️ none of the 3 have back-logo or model/lifestyle mockups set in Printful yet (all images are flat front/back color mockups) — designers should add back-logo placement and model shots per the SOP's mockup rules; alt text was still applied to the existing flat images
+
 ## 2026-10-03 06:50 UTC — 1 product (manual run from Sam's Mac)
 - **Women's Halloween – Witchy Season Tee** → womens-halloween-witchy-season-graphic-tee · tags graphic-tees-for-women, halloween-shirts · black cat asleep on a witch hat under a crescent moon · model shots moved first (Black hero) · alt text on all 35 images
   - phrases: cute halloween shirts women, retro halloween shirts women, womens halloween shirts, cute halloween shirts for adults, halloween shirts women plus size
