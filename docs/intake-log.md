@@ -1,3 +1,10 @@
+## 2026-10-03 19:11 UTC — 1 product (scheduled run)
+- **Unisex Christmas – Fresh Cut Christmas Trees Tee** → unisex-christmas-fresh-cut-christmas-trees-graphic-tee · tags graphic-tees-for-men, graphic-tees-for-women, christmas-shirts, vintage-graphic-tees, ai-art · AI-ART design notes: vintage 1950s red pickup truck hauling a fresh-cut Christmas tree down a snowy country road past a pine forest, circle badge "FRESH CUT CHRISTMAS TREES," deep red/forest green/cream/mustard · title already followed convention (no rename) · no hoodie twin exists for this design · alt text applied to all 25 images (6 colors × flat front mockups + 1 Black back)
+  - phrases: classic vintage graphic tees, vintage christmas shirts, christmas shirt for women, christmas shirt for men, unisex christmas shirt, mens christmas shirts, classic christmas shirts
+  - facts (Printful): classic unisex fit, 100% combed ring-spun cotton (Dark Grey Heather = + polyester), 4.2 oz/yd² (lightweight), pre-shrunk, side-seamed, shoulder-to-shoulder taping, Black/Cardinal/Forest/Dark Grey Heather/Soft Cream/White, XS–5XL (Cardinal runs XS–2XL only; Forest/Soft Cream run XS–4XL only), flat $29.99 across all variants
+  - note: all 25 images are flat front/back color mockups — no back logo or model/lifestyle shots set in Printful yet; designer should add per SOP mockup rules
+  - no needs-review flags this run
+
 ## 2026-10-03 16:25 UTC — correction: concurrent scheduled run overlapped the 16:10 entry below
 A second scheduled run (this one) started before the 16:10 entry's git push landed and independently processed
 the same 3 products. Both runs wrote to Shopify; this run's writes landed last, so the **live Shopify state now
