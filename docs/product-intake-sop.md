@@ -40,7 +40,9 @@ Style words (Oversized, Cropped, Heavyweight, Zip-Up) may appear anywhere in the
    - SEO title ≤ 60 chars: `<Design> <Niche> <Tee|Hoodie> | Graphic Tees Co.`; SEO description ≤ 155 chars with the top phrase.
    - Model shots: Printful's "Basic mockups" step offers model photos (a person wearing the shirt, design visible) for many blanks —
      designers should pick those as the Main Mockup. Avoid lifestyle templates where the shirt renders blank (no design).
-     Re-saving mockups in Printful REPLACES all Shopify images and resets alt text to "Product mockup" (title/description are kept) → re-run alt text.
+     Re-saving mockups in Printful REPLACES all Shopify images, resets alt text to "Product mockup" AND RESETS RETAIL PRICES to Printful's
+     defaults (title/description are kept). Before re-saving, note every variant price; after, restore prices + alt text. Better: pick model
+     mockups when the product is first created.
    - Media order: if any image shows a person wearing the product (lifestyle/model shot), move it to the front
      (Admin GraphQL `productReorderMedia`). Flat mockups follow, grouped by color.
    - Image alt text on every image: `<Design Name> <niche> graphic <tee|hoodie>` (+ color if obvious).
