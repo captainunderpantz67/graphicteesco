@@ -1,4 +1,18 @@
-## 2026-10-03 16:10 UTC — 3 products (scheduled run)
+## 2026-10-03 16:25 UTC — correction: concurrent scheduled run overlapped the 16:10 entry below
+A second scheduled run (this one) started before the 16:10 entry's git push landed and independently processed
+the same 3 products. Both runs wrote to Shopify; this run's writes landed last, so the **live Shopify state now
+matches this entry, not the one below it** (verified via get-product after pushing). Keeping the 16:10 entry
+for the record, but treat this one as current for these 3 products.
+
+- **Men's Thanksgiving – Turkey Bowl Tee** → mens-thanksgiving-turkey-bowl-graphic-tee · tags graphic-tees-for-men, thanksgiving-shirts, football-shirts, vintage-graphic-tees, ai-art · AI-ART design notes: cartoon turkey mascot in leather football helmet/jersey #50, 1950s college-mascot shield badge · alt text on all 26 images (6 colors + back)
+  - phrases: men's thanksgiving shirts, vintage football shirts, thanksgiving shirts for men, retro graphic tees for men, thanksgiving day shirts, classic vintage graphic tees, best graphic tees for men
+- **Men's Gym – Barbell Club Tee** → mens-gym-barbell-club-graphic-tee · tags graphic-tees-for-men, mens-gym-shirts, vintage-graphic-tees, ai-art · AI-ART design notes: 1960s strongman badge, crossed barbells + laurel wreath + kettlebells · alt text on all 26 images (6 colors + back)
+  - phrases: classic mens gym wear, mens retro gym shirts, mens vintage gym shirts, mens gym graphic tees, vintage graphic gym tees, mens vintage athletic shirts, best graphic tees for men, cool graphic tees for men
+- **Men's Fishing – High Country Trout Tee** → mens-fishing-high-country-trout-graphic-tee · tags graphic-tees-for-men, fishing-t-shirts, vintage-graphic-tees, ai-art · AI-ART design notes: rainbow trout leaping at a dry fly, mountain stream badge, no text on shirt · alt text on all 29 images (7 colors + back)
+  - phrases: vintage fishing t shirt design, retro fishing t shirts, vintage fly fishing t shirts, mens vintage fishing t shirts, fly fishing t shirts for men, best fly fishing t shirts, fishing t shirts vintage, mens vintage graphic tees
+- All three titles already followed convention (no rename needed); no hoodie twins exist yet for any of the three designs; facts (fabric, fit, sizing, blank origin) taken verbatim from each product's Printful spec bullets. No needs-review flags this run.
+
+## 2026-10-03 16:10 UTC — 3 products (scheduled run, superseded above)
 - **Men's Fishing – High Country Trout Tee** → mens-fishing-high-country-trout-graphic-tee · tags graphic-tees-for-men, fishing-t-shirts, vintage-graphic-tees, ai-art · rainbow trout leaping at a dry fly in a rocky mountain stream, vintage navy/mustard/rust/cream badge · no back logo/model shots set yet (all flat mockups, no lifestyle shots to reorder) · alt text on all 29 images
   - phrases: fly fishing t shirts for men, vintage fly fishing t shirts, fishing graphic t shirt for men, vintage graphic tees for men, best fly fishing t shirts
   - facts (Printful): classic unisex fit, 100% combed ring-spun cotton (heather = + polyester), 4.2 oz/yd², pre-shrunk, side-seamed, Black/Navy/Dark Grey Heather/Military Green/Heather Forest/Soft Cream/White, XS–5XL (Military Green/Heather Forest/Soft Cream run XS–4XL only)
