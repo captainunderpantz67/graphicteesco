@@ -44,6 +44,12 @@ Style words (Oversized, Cropped, Heavyweight, Zip-Up) may appear anywhere in the
      Re-saving mockups in Printful REPLACES all Shopify images, resets alt text to "Product mockup" AND RESETS RETAIL PRICES to Printful's
      defaults (title/description are kept). Before re-saving, note every variant price; after, restore prices + alt text. Better: pick model
      mockups when the product is first created.
+   - Back logo + model photos (set in Printful, Sam's rules 2026-10-03):
+     Edit design → Back → Uploads → `back-logo-rust.png` → Transform width 3 → Position: align top + center horizontally.
+     Proceed to mockups → Basic → **Main Mockup first** (choose it, keep placements Front + Back only), **then** Additional
+     (each pick = 1 extra photo). Picking the main after the additional ones wipes the additional picks.
+     Men's products: 4+ different men. Women's: 4+ different women. Unisex: men AND women, different ethnicities
+     (the 3001 "couple" mockup is a good unisex main). Never one model for a whole product.
    - Media order: if any image shows a person wearing the product (lifestyle/model shot), move it to the front
      (Admin GraphQL `productReorderMedia`). Flat mockups follow, grouped by color.
    - Image alt text on every image: `<Design Name> <niche> graphic <tee|hoodie>` (+ color if obvious).
