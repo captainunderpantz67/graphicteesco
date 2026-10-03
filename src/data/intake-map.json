@@ -1,0 +1,40 @@
+{
+  "_doc": "Title convention for designers: '<Audience> <Niche> – <Design Name> <Tee|Hoodie>'. Example: 'Women's Hunting – Doe Season Tee'. The intake agent maps Audience + Niche + product type to collection tags below. Unknown niche → leave 'needs-review' tag and report it.",
+  "audience": {
+    "men's": { "tee": ["graphic-tees-for-men"], "hoodie": [] },
+    "mens": { "tee": ["graphic-tees-for-men"], "hoodie": [] },
+    "women's": { "tee": ["graphic-tees-for-women"], "hoodie": [] },
+    "womens": { "tee": ["graphic-tees-for-women"], "hoodie": [] },
+    "unisex": { "tee": ["graphic-tees-for-men", "graphic-tees-for-women"], "hoodie": [] }
+  },
+  "niche": {
+    "fishing": { "tee": ["fishing-t-shirts"], "hoodie": ["fishing-hoodies"] },
+    "hunting": { "tee": ["hunting-t-shirts"], "hoodie": ["hunting-hoodies"] },
+    "western": { "tee": ["western-graphic-tees"], "hoodie": ["western-hoodies"] },
+    "cowboy": { "tee": ["western-graphic-tees"], "hoodie": ["western-hoodies"] },
+    "country": { "tee": ["country-graphic-tees"], "hoodie": ["western-hoodies"] },
+    "gym": { "tee": ["mens-gym-shirts"], "hoodie": ["gym-hoodies"] },
+    "football": { "tee": ["football-shirts"], "hoodie": [] },
+    "football mom": { "tee": ["football-mom-shirts"], "hoodie": [] },
+    "baseball mom": { "tee": ["baseball-mom-shirts"], "hoodie": [] },
+    "soccer mom": { "tee": ["soccer-mom-shirts"], "hoodie": [] },
+    "nurse": { "tee": ["nurse-shirts"], "hoodie": [] },
+    "christian": { "tee": ["christian-shirts"], "hoodie": [] },
+    "faith": { "tee": ["christian-shirts"], "hoodie": [] },
+    "anime": { "tee": ["anime-shirts"], "hoodie": ["anime-hoodies"] },
+    "y2k": { "tee": ["y2k-graphic-tees"], "hoodie": ["y2k-hoodies"] },
+    "vintage": { "tee": ["vintage-graphic-tees"], "hoodie": [] },
+    "retro": { "tee": ["vintage-graphic-tees"], "hoodie": [] },
+    "halloween": { "tee": ["halloween-shirts"], "hoodie": ["halloween-hoodies"] },
+    "thanksgiving": { "tee": ["thanksgiving-shirts"], "hoodie": [] },
+    "christmas": { "tee": ["christmas-shirts"], "hoodie": ["christmas-hoodies"] }
+  },
+  "style_words": {
+    "oversized": { "tee": ["oversized-graphic-tees"], "hoodie": ["oversized-hoodies"] },
+    "cropped": { "tee": ["cropped-graphic-tees"], "hoodie": [] },
+    "heavyweight": { "tee": [], "hoodie": ["heavyweight-hoodies"] },
+    "zip": { "tee": [], "hoodie": ["zip-up-hoodies"] },
+    "zip-up": { "tee": [], "hoodie": ["zip-up-hoodies"] }
+  },
+  "_women_gym_note": "Women's + Gym tee: tag graphic-tees-for-women + mens-gym-shirts is wrong — use graphic-tees-for-women only until a women's gym collection exists (opportunity: 'gym tops women' 33,100/mo KD 8)."
+}
