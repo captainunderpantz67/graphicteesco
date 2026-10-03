@@ -67,7 +67,7 @@ const ld = [organization(), website(), ...schema];
           <a href={pathFor(seasonal[0])} class="text-[var(--color-rust)]">{seasonal[0].name}</a>
         </nav>
         <div class="flex items-center gap-3">
-          <button type="button" data-cart-open class="relative font-semibold uppercase text-sm tracking-wide" aria-label="Open cart">
+          <button type="button" data-cart-open class="relative font-semibold uppercase text-sm tracking-wide">
             Cart (<span data-cart-count>0</span>)
           </button>
           <details class="md:hidden">
@@ -93,18 +93,18 @@ const ld = [organization(), website(), ...schema];
           <p class="mt-3 opacity-80">{site.tagline}</p>
         </div>
         <div>
-          <p class="eyebrow mb-3">Graphic Tees</p>
+          <p class="eyebrow !text-[var(--color-mustard)] mb-3">Graphic Tees</p>
           <ul class="grid gap-1.5 opacity-90">{tees.map((c) => <li><a href={pathFor(c)} class="hover:underline">{c.name}</a></li>)}</ul>
         </div>
         <div>
-          <p class="eyebrow mb-3">Graphic Hoodies</p>
+          <p class="eyebrow !text-[var(--color-mustard)] mb-3">Graphic Hoodies</p>
           <ul class="grid gap-1.5 opacity-90">
             <li><a href="/hoodies/" class="hover:underline">All hoodies</a></li>
             {hoodies.map((c) => <li><a href={pathFor(c)} class="hover:underline">{c.name}</a></li>)}
           </ul>
         </div>
         <div>
-          <p class="eyebrow mb-3">Help</p>
+          <p class="eyebrow !text-[var(--color-mustard)] mb-3">Help</p>
           <ul class="grid gap-1.5 opacity-90">
             <li><a href="/about/" class="hover:underline">About</a></li>
             <li><a href="/faq/" class="hover:underline">FAQ</a></li>
