@@ -1,3 +1,9 @@
+## 2026-10-03 06:35 UTC — 3 products (manual run from Sam's Mac — mockups identified by eye)
+- **Men's Gym – Plate Club Tee** (was "Unisex classic tee") → mens-gym-plate-club-graphic-tee · tags graphic-tees-for-men, mens-gym-shirts · fronts moved first · ⚠️ back logo reads "Graphic Design Co." — designer to fix in Printful
+- **Women's Country – Dirt Road Radio Tee** (was "Women's Relaxed T-Shirt") → womens-country-dirt-road-radio-graphic-tee · tags graphic-tees-for-women, country-graphic-tees, vintage-graphic-tees
+- **Unisex Halloween – Night Shift Tee** → unisex-halloween-night-shift-graphic-tee · tags halloween-shirts, graphic-tees-for-men, graphic-tees-for-women · note: print placed small on the front
+- Cloud runs can't fetch cdn.shopify.com (egress blocked), so blank-named products need a local run or a proper title.
+
 ## 2026-10-03 08:00 UTC — 0 processed, 1 flagged needs-review (scheduled run)
 - **"Unisex classic tee"** (gid://shopify/Product/15330398830896, handle `unisex-classic-tee`)
   - tagged `needs-review` (no copy written, no title/handle/collection changes made)
