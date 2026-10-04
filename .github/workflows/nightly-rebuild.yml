@@ -1,0 +1,12 @@
+# Rebuild the live site every night so new/edited Shopify products show up by morning.
+# Free GitHub Actions cron → pings the Netlify build hook (stored as a repo secret).
+name: Nightly site rebuild
+on:
+  schedule:
+    - cron: "0 9 * * *"   # 9:00 UTC = 4:00 AM Central
+  workflow_dispatch:
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl -fsS -X POST -d '{}' "${{ secrets.NETLIFY_BUILD_HOOK }}"
