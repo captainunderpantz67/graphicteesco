@@ -29,7 +29,10 @@ export const site = {
   email: '', // TODO(Sam)
   founders: [] as { name: string; role: string }[], // TODO(Sam): your brother (designer) + you
   // Hero mockup (Printful PNG of a model in a tee). Drop the file in /public and set the path.
-  heroImage: null as { src: string; alt: string } | null,
+  heroImage: {
+    src: '/hero/friends-tailgate-1040.webp', srcSmall: '/hero/friends-tailgate-640.webp',
+    alt: 'Three friends laughing on a pickup tailgate at golden hour, wearing Graphic Tees Co. graphic tees',
+  } as { src: string; alt: string; srcSmall?: string } | null,
   facts: {
     printedOnDemand: true,
     productionDays: null,

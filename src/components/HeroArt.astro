@@ -2,7 +2,7 @@
 // Hero visual. If a Printful mockup PNG is provided (site.heroImage), it renders the
 // model shot on a printed "poster" backdrop. Until then: original artwork — a tee
 // carrying a two-ink screen print (sunburst, mesa, lake, jumping bass).
-interface Props { image?: { src: string; alt: string } }
+interface Props { image?: { src: string; alt: string; srcSmall?: string } }
 const { image } = Astro.props;
 ---
 <div class="relative aspect-[4/5] w-full max-w-[520px] mx-auto">
@@ -19,8 +19,11 @@ const { image } = Astro.props;
   </div>
 
   {image ? (
-    <img src={image.src} alt={image.alt} width="1040" height="1300" fetchpriority="high"
-      class="drop absolute inset-0 w-full h-full object-contain drop-shadow-[0_20px_30px_rgba(0,0,0,.35)]" />
+    <div class="absolute inset-[6%] rounded-[28px] overflow-hidden rotate-2 border-2 border-[var(--color-ink)]">
+      <img src={image.src} srcset={image.srcSmall ? `${image.srcSmall} 640w, ${image.src} 1040w` : undefined}
+        sizes="(min-width: 1024px) 480px, 92vw" alt={image.alt} width="1040" height="1393" fetchpriority="high"
+        class="w-full h-full object-cover" />
+    </div>
   ) : (
     <svg viewBox="0 0 400 500" class="drop absolute inset-0 w-full h-full" role="img" aria-label="Original screen-printed graphic tee artwork: a bass jumping over a lake under a desert sunburst">
       <defs>
@@ -67,6 +70,10 @@ const { image } = Astro.props;
     </svg>
   )}
 
+  {image && (
+    <img src="/hero/logo-badge.png" alt="Graphic Tees Co. badge" width="180" height="180" loading="eager"
+      class="absolute -bottom-3 -left-2 md:-left-4 w-28 h-28 md:w-36 md:h-36 -rotate-12 rounded-full shadow-[4px_5px_0_var(--color-ink)]" />
+  )}
   <!-- Spinning sticker -->
   <div class="absolute -top-2 -right-1 md:right-2 w-28 h-28 md:w-32 md:h-32">
     <svg viewBox="0 0 120 120" class="spin-slow w-full h-full" aria-hidden="true">

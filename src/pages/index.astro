@@ -84,6 +84,8 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
           <span class="display misprint block text-[clamp(4.2rem,13vw,10.5rem)]">Graphic Tees</span>
           <span class="script block text-[var(--color-rust)] text-[clamp(2.4rem,6vw,4.4rem)] -mt-2 md:-mt-4 ml-1 -rotate-3 origin-left">for what you do.</span>
         </h1>
+        <!-- Phones: hero picture sits right under the headline, before the intro copy -->
+        <div class="lg:hidden mt-6 -mx-2"><HeroArt image={site.heroImage ?? undefined} /></div>
         <p class="mt-6 text-lg max-w-xl text-[var(--color-ink-2)] rise" style="animation-delay:.3s">{site.entity}</p>
         <div class="mt-8 flex flex-wrap gap-3 rise" style="animation-delay:.42s">
           <a href="/graphic-tees-for-men/" class="btn">Men's graphic tees</a>
@@ -96,7 +98,7 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
           <li class="flex items-center gap-2"><Icon name="sun" class="w-4 h-4 text-[var(--color-rust)]" />New drop monthly</li>
         </ul>
       </div>
-      <HeroArt image={site.heroImage ?? undefined} />
+      <div class="hidden lg:block"><HeroArt image={site.heroImage ?? undefined} /></div>
     </div>
   </section>
 
