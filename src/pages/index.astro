@@ -143,7 +143,7 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
     <a href="/graphic-tees-for-men/" class="group relative overflow-hidden rounded-[22px] bg-[var(--color-ink)] text-[var(--color-cream)] p-8 md:p-10 min-h-[380px] flex flex-col justify-end border-[5px] border-[var(--color-rust)] shadow-[5px_5px_0_var(--color-navy)]">
       {menPhoto ? <>
         <img src={img(menPhoto.url, 900)} alt="" loading="lazy" width="900" height="900" class="absolute inset-0 w-full h-full object-cover object-[50%_25%] group-hover:scale-[1.03] transition-transform duration-500" />
-        <div class="absolute inset-0 bg-gradient-to-t from-[var(--color-ink)] via-[var(--color-ink)]/70 to-[var(--color-navy)]/40" aria-hidden="true"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-[var(--color-ink)] via-[var(--color-ink)]/55 to-[var(--color-navy)]/10" aria-hidden="true"></div>
         <div class="absolute inset-0 halftone-rust opacity-25" aria-hidden="true"></div>
       </> : <>
         <div class="absolute inset-0 halftone-rust opacity-40" aria-hidden="true"></div>
@@ -211,17 +211,26 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
   <!-- THIS MONTH'S DROP -->
   <section class="mt-20 bg-[var(--color-rust)] text-[var(--color-cream)] border-y-2 border-[var(--color-ink)] relative overflow-hidden">
     <div class="absolute inset-0 halftone opacity-30" aria-hidden="true"></div>
-    <div class="container-x relative py-12 md:py-16 grid md:grid-cols-[1fr_auto] gap-8 items-center">
-      <div>
+    <div class="container-x relative py-12 md:py-16 grid lg:grid-cols-[1fr_1.1fr] gap-10 items-center">
+      <figure class="relative lg:order-2">
+        <div class="relative rotate-[-1.5deg] rounded-[22px] overflow-hidden border-[5px] border-[var(--color-mustard)] shadow-[8px_10px_0_var(--color-ink)]">
+          <img src="/hero/halloween-porch-1400.webp" srcset="/hero/halloween-porch-800.webp 800w, /hero/halloween-porch-1400.webp 1400w"
+            sizes="(min-width: 1024px) 600px, 92vw" width="1400" height="781" loading="lazy"
+            alt="Three friends laughing on a front porch with glowing jack-o'-lanterns, wearing Graphic Tees Co. Halloween shirts and a hoodie"
+            class="w-full h-auto block" />
+          <span class="absolute inset-0 bg-gradient-to-t from-black/35 to-transparent" aria-hidden="true"></span>
+        </div>
+        <Icon name="pumpkin" class="absolute -bottom-6 -left-4 w-20 h-20 text-[var(--color-mustard)] drop-shadow-[3px_3px_0_var(--color-ink)]" />
+      </figure>
+      <div class="lg:order-1">
         <p class="eyebrow !text-[var(--color-mustard)]">This month's drop</p>
         <h2 class="display text-6xl md:text-8xl mt-2" style="text-shadow:.05em .05em 0 var(--color-ink)">{drop.h1}</h2>
         <p class="mt-3 max-w-xl text-lg opacity-90">{drop.intro}</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href={pathFor(drop)} class="btn">Shop the drop</a>
+          <a href="/hoodies/halloween-hoodies/" class="btn btn-ghost !text-[var(--color-cream)] !border-[var(--color-cream)]">Halloween hoodies</a>
+        </div>
       </div>
-      <div class="flex flex-wrap gap-3">
-        <a href={pathFor(drop)} class="btn">Shop the drop</a>
-        <a href="/hoodies/halloween-hoodies/" class="btn btn-ghost !text-[var(--color-cream)] !border-[var(--color-cream)]">Halloween hoodies</a>
-      </div>
-      <Icon name="pumpkin" class="hidden md:block absolute right-[38%] -bottom-10 w-48 h-48 text-[var(--color-mustard)] opacity-40" />
     </div>
   </section>
 
