@@ -6,6 +6,16 @@ import HeroArt from '../components/HeroArt.astro';
 import { site, resolveFaqs } from '../data/site';
 import { tees, hoodies, pathFor, bySlug } from '../data/collections';
 import { faqPage, itemListOfCollections } from '../lib/schema';
+import { getAllProducts } from '../lib/shopify';
+
+// Real product photos for cards: the main (model/lifestyle) mockup of the newest product in each collection.
+const allProducts = (await getAllProducts()).filter((p) => !p.sample && p.images.length);
+const photoFor = (slug: string) => allProducts.find((p) => p.collections?.includes(slug))?.images[0] ?? null;
+const photoOf = (handle: string, fallbackSlug: string) =>
+  allProducts.find((p) => p.handle === handle)?.images[0] ?? photoFor(fallbackSlug);
+const menPhoto = photoOf('mens-fishing-high-country-trout-graphic-tee', 'graphic-tees-for-men');
+const womenPhoto = photoOf('womens-christmas-merry-bright-graphic-tee', 'graphic-tees-for-women');
+const img = (u: string, w: number) => `${u}${u.includes('?') ? '&' : '?'}width=${w}`;
 
 const womens = tees.filter((c) => c.audience === 'women' && c.slug !== 'graphic-tees-for-women');
 const outdoors = ['fishing-t-shirts', 'hunting-t-shirts', 'western-graphic-tees', 'mens-gym-shirts', 'football-shirts', 'soccer-mom-shirts'].map((s) => bySlug(s)!);
@@ -130,16 +140,28 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
 
   <!-- MEN / WOMEN split (Tillys pattern) -->
   <section class="container-x mt-16 grid md:grid-cols-2 gap-5">
-    <a href="/graphic-tees-for-men/" class="group relative overflow-hidden rounded-[22px] bg-[var(--color-ink)] text-[var(--color-cream)] p-8 md:p-10 min-h-[300px] flex flex-col justify-end border-2 border-[var(--color-ink)]">
-      <div class="absolute inset-0 halftone-rust opacity-40" aria-hidden="true"></div>
-      <Icon name="antlers" class="absolute -right-6 -top-6 w-64 h-64 text-[var(--color-rust)] opacity-70 group-hover:rotate-6 transition-transform" />
+    <a href="/graphic-tees-for-men/" class="group relative overflow-hidden rounded-[22px] bg-[var(--color-ink)] text-[var(--color-cream)] p-8 md:p-10 min-h-[380px] flex flex-col justify-end border-[5px] border-[var(--color-rust)] shadow-[5px_5px_0_var(--color-navy)]">
+      {menPhoto ? <>
+        <img src={img(menPhoto.url, 900)} alt="" loading="lazy" width="900" height="900" class="absolute inset-0 w-full h-full object-cover object-[50%_25%] group-hover:scale-[1.03] transition-transform duration-500" />
+        <div class="absolute inset-0 bg-gradient-to-t from-[var(--color-ink)] via-[var(--color-ink)]/70 to-[var(--color-navy)]/40" aria-hidden="true"></div>
+        <div class="absolute inset-0 halftone-rust opacity-25" aria-hidden="true"></div>
+      </> : <>
+        <div class="absolute inset-0 halftone-rust opacity-40" aria-hidden="true"></div>
+        <Icon name="antlers" class="absolute -right-6 -top-6 w-64 h-64 text-[var(--color-rust)] opacity-70 group-hover:rotate-6 transition-transform" />
+      </>}
       <p class="eyebrow !text-[var(--color-mustard)] relative">Fishing · Hunting · Western · Gym</p>
       <h2 class="display misprint-light text-6xl md:text-7xl relative mt-2">Graphic Tees<br />for Men</h2>
       <span class="relative mt-5 font-bold uppercase tracking-[.12em] text-sm">Shop men's →</span>
     </a>
-    <a href="/graphic-tees-for-women/" class="group relative overflow-hidden rounded-[22px] bg-[var(--color-rust)] text-[var(--color-cream)] p-8 md:p-10 min-h-[300px] flex flex-col justify-end border-2 border-[var(--color-ink)]">
-      <div class="absolute inset-0 halftone opacity-50" aria-hidden="true"></div>
-      <Icon name="boot" class="absolute -right-4 -top-4 w-60 h-60 text-[var(--color-mustard)] opacity-80 group-hover:-rotate-6 transition-transform" />
+    <a href="/graphic-tees-for-women/" class="group relative overflow-hidden rounded-[22px] bg-[var(--color-rust)] text-[var(--color-cream)] p-8 md:p-10 min-h-[380px] flex flex-col justify-end border-[5px] border-[var(--color-mustard)] shadow-[5px_5px_0_var(--color-ink)]">
+      {womenPhoto ? <>
+        <img src={img(womenPhoto.url, 900)} alt="" loading="lazy" width="900" height="900" class="absolute inset-0 w-full h-full object-cover object-[50%_25%] group-hover:scale-[1.03] transition-transform duration-500" />
+        <div class="absolute inset-0 bg-gradient-to-t from-[var(--color-rust)] via-[var(--color-rust)]/70 to-[var(--color-mustard)]/35" aria-hidden="true"></div>
+        <div class="absolute inset-0 halftone opacity-25" aria-hidden="true"></div>
+      </> : <>
+        <div class="absolute inset-0 halftone opacity-50" aria-hidden="true"></div>
+        <Icon name="boot" class="absolute -right-4 -top-4 w-60 h-60 text-[var(--color-mustard)] opacity-80 group-hover:-rotate-6 transition-transform" />
+      </>}
       <p class="eyebrow !text-[var(--color-ink)] relative">Country · Cropped · Faith · Game day</p>
       <h2 class="display text-6xl md:text-7xl relative mt-2" style="text-shadow:.05em .05em 0 var(--color-ink)">Graphic Tees<br />for Women</h2>
       <span class="relative mt-5 font-bold uppercase tracking-[.12em] text-sm">Shop women's →</span>
@@ -155,7 +177,20 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
     <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
       {womens.map((c, i) => {
         const [bg, fg, ac] = tones[i % tones.length];
-        return (
+        const ph = photoFor(c.slug);
+        return ph ? (
+          <a href={pathFor(c)} class="group relative overflow-hidden rounded-[18px] border-2 border-[var(--color-ink)] aspect-[4/5] p-[7px] flex shadow-[4px_4px_0_var(--color-ink)] hover:-translate-y-1 hover:shadow-[6px_8px_0_var(--color-ink)] transition-all" style={`background:${bg};color:${fg}`}>
+            <span class="relative flex-1 overflow-hidden rounded-[12px]">
+              <img src={img(ph.url, 600)} alt={ph.altText ?? c.h1} loading="lazy" width="600" height="750" class="absolute inset-0 w-full h-full object-cover object-[50%_20%] group-hover:scale-[1.04] transition-transform duration-500" />
+              <span class="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-black/85 via-black/45 to-transparent" aria-hidden="true"></span>
+              <span class="absolute top-3 left-3 w-11 h-11 rounded-full grid place-items-center border-2 bg-black/30 backdrop-blur-[2px]" style={`border-color:${bg};color:${bg}`}><Icon name={icons[c.slug]} class="w-6 h-6" /></span>
+              <span class="absolute inset-x-4 bottom-4 text-[var(--color-cream)]">
+                <span class="display block text-[clamp(1.6rem,3.2vw,2.4rem)] leading-[.88]">{c.h1}</span>
+                <span class="mt-2 block text-xs font-bold uppercase tracking-[.14em]" style={`color:${bg === 'var(--color-navy)' || bg === 'var(--color-moss)' ? 'var(--color-mustard)' : bg}`}>Shop →</span>
+              </span>
+            </span>
+          </a>
+        ) : (
           <a href={pathFor(c)} class="group relative overflow-hidden rounded-[18px] border-2 border-[var(--color-ink)] aspect-[4/5] p-5 flex flex-col justify-between shadow-[4px_4px_0_var(--color-ink)] hover:-translate-y-1 hover:shadow-[6px_8px_0_var(--color-ink)] transition-all" style={`background:${bg};color:${fg}`}>
             <span class="absolute inset-0 halftone opacity-30" aria-hidden="true"></span>
             <span class="relative w-14 h-14 rounded-full grid place-items-center border-2" style={`border-color:${fg};color:${ac}`}><Icon name={icons[c.slug]} class="w-7 h-7" /></span>

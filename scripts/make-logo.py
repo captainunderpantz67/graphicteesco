@@ -3,9 +3,10 @@
 import math, sys
 from PIL import Image, ImageDraw, ImageFont
 F = 'designs/brand/fonts/'
-SCRIPT = ImageFont.truetype(F + 'yellowtail-latin-400-normal.ttf', 430)
+SCRIPT = ImageFont.truetype(F + 'yellowtail-latin-400-normal.ttf', 380)
 CAPS = ImageFont.truetype(F + 'big-shoulders-display-latin-800-normal.ttf', 150)
 SMALL = ImageFont.truetype(F + 'big-shoulders-display-latin-800-normal.ttf', 118)
+COMPANY = ImageFont.truetype(F + 'big-shoulders-display-latin-800-normal.ttf', 132)
 
 def badge(color, S=2000):
     im = Image.new('RGBA', (S, S), (0, 0, 0, 0)); d = ImageDraw.Draw(im); c = S / 2
@@ -32,14 +33,24 @@ def badge(color, S=2000):
     for sx in (c - 770, c + 770):                                          # side stars on the track
         r = 26; d.regular_polygon((sx, c, r), 4, rotation=45, fill=color)
 
-    # script wordmark, two lines, with a swash underline
-    d.text((c, c - 150), 'Graphic', font=SCRIPT, fill=color, anchor='mm')
-    d.text((c + 20, c + 170), 'Tees', font=SCRIPT, fill=color, anchor='mm')
-    d.arc((c - 430, c + 230, c + 470, c + 420), start=15, end=165, fill=color, width=14)
-    # "CO." with rules
-    d.text((c, c + 470), 'CO.', font=CAPS, fill=color, anchor='mm')
-    d.line((c - 330, c + 470, c - 130, c + 470), fill=color, width=10)
-    d.line((c + 130, c + 470, c + 330, c + 470), fill=color, width=10)
+    # Wordmark block, vertically centered as one unit:
+    #   Graphic (script) / Tees (script) / ——— COMPANY ——— (caps)
+    g_box = d.textbbox((0, 0), 'Graphic', font=SCRIPT); t_box = d.textbbox((0, 0), 'Tees', font=SCRIPT)
+    gh = g_box[3] - g_box[1]; th = t_box[3] - t_box[1]
+    gap1, gap2 = -60, 40                       # script lines overlap a little (ascenders); caps line sits clear
+    ch = d.textbbox((0, 0), 'COMPANY', font=COMPANY)[3]
+    total = gh + gap1 + th + gap2 + ch
+    y = c - total / 2
+    d.text((c, y - g_box[1]), 'Graphic', font=SCRIPT, fill=color, anchor='lt' if False else None) if False else None
+    gw = g_box[2] - g_box[0]; d.text((c - gw / 2 - g_box[0], y - g_box[1]), 'Graphic', font=SCRIPT, fill=color, stroke_width=5, stroke_fill=color)
+    y += gh + gap1
+    tw = t_box[2] - t_box[0]; d.text((c - tw / 2 - t_box[0] + 40, y - t_box[1]), 'Tees', font=SCRIPT, fill=color, stroke_width=5, stroke_fill=color)
+    y += th + gap2
+    cw = d.textlength('COMPANY', font=COMPANY)
+    d.text((c - cw / 2, y), 'COMPANY', font=COMPANY, fill=color)
+    ly = y + ch * 0.55
+    d.line((c - cw / 2 - 210, ly, c - cw / 2 - 40, ly), fill=color, width=10)
+    d.line((c + cw / 2 + 40, ly, c + cw / 2 + 210, ly), fill=color, width=10)
     return im
 
 if __name__ == '__main__':
