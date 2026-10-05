@@ -1,3 +1,15 @@
+## 2026-10-05 — 7 card products built (Claude, manual — copy pending)
+Built so every women's homepage card has a lifestyle photo. Published from Printful with back-logo-company.png (3" top center), 4+ different women + a back shot, $29.99 flat, DESIGN NOTES line in the description. Collection tags added by hand so the cards show now; **not** tagged `intake-done`, so the next sweep still writes the copy, handle, SEO and alt text.
+- Women's Football Mom – Game Day Football Mom Tee (6400) · football-mom-shirts
+- Women's Baseball Mom – Diamond Days Tee (6400) · baseball-mom-shirts
+- Women's Soccer Mom – Sideline Bloom Tee (6400) · soccer-mom-shirts
+- Women's Christian – Grace Wins Tee (6400) · christian-shirts
+- Women's Vintage Cropped – Wildflower Club Tee (AS Colour 4062 crop top, XS–2XL, margin $3–5) · cropped-graphic-tees, vintage-graphic-tees
+- Women's Nurse – Nurse Life Coffee Tee (6400) · nurse-shirts
+- Women's Country – Sweet Tea & Sunsets Tee (6400) · country-graphic-tees, graphic-tees-for-women-over-40
+- New Shopify smart collection `graphic-tees-for-women-over-40` (tag rule), published to Online Store + headless.
+- Lead image re-ordered per product so neighboring cards show different models.
+
 ## 2026-10-03 20:11 UTC — 8 products (scheduled run)
 - **Men's Gym – Iron & Sweat Tee** → mens-gym-iron-sweat-graphic-tee · tags graphic-tees-for-men, mens-gym-shirts, vintage-graphic-tees, ai-art · AI-ART design notes: crossed dumbbells + lightning bolt 1970s gym-poster shield badge, "IRON & SWEAT" gold banner, burnt orange/mustard/navy/cream/black · title already followed convention · no hoodie twin exists · alt text applied to all 29 images (6 colors × flat front mockups + 1 Black back)
   - phrases: mens gym shirts, classic mens gym wear, vintage graphic gym tees, mens gym graphic tees, cool graphic tees for men, mens retro gym shirts, mens vintage athletic shirts, classic vintage graphic tees, best graphic tees for men, mens vintage gym shirts

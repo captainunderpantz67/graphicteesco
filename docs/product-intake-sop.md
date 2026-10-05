@@ -43,6 +43,8 @@ Style words (Oversized, Cropped, Heavyweight, Zip-Up) may appear anywhere in the
      Each phrase at most once. Questions must be ones a real shopper would type, not keyword strings with a question mark.
    - SEO description: one plain, human sentence (≤155 chars) that says what the shirt shows and who it's for.
    - Fabric wording: Bella+Canvas 3001 and 6400 are *lightweight* 4.2 oz — never "midweight" or "heavyweight".
+   - Cropped designs use the AS Colour 4062 women's crop top (XS–2XL; Bella+Canvas 6882GD only stocks L–2XL). Take its facts from Printful's spec bullets, not the 6400's.
+   - Women-over-40 picks: a DESIGN NOTES line with EXTRA TAGS `graphic-tees-for-women-over-40` puts the product in that collection.
    - Reference example: product "Women's Western – Desert Bloom Tee".
 6. **Update the product** (`update-product` or Admin GraphQL `productUpdate`):
    - Title: if Printful left a blank name (e.g. "Women's Relaxed T-Shirt"), rename to the convention using the design you see in the mockup.
@@ -56,7 +58,7 @@ Style words (Oversized, Cropped, Heavyweight, Zip-Up) may appear anywhere in the
      defaults (title/description are kept). Before re-saving, note every variant price; after, restore prices + alt text. Better: pick model
      mockups when the product is first created.
    - Back logo + model photos (set in Printful, Sam's rules 2026-10-03):
-     Edit design → Back → Uploads → `back-logo-rust.png` → Transform width 3 → Position: align top + center horizontally.
+     Edit design → Back → Uploads → `back-logo-company.png` (the "Graphic Tees Company" badge; older products still carry `back-logo-rust.png`) → Transform width 3 → Position: align top + center horizontally.
      Proceed to mockups → Basic → **Main Mockup first** (choose it, keep placements Front + Back only), **then** Additional
      (each pick = 1 extra photo). Picking the main after the additional ones wipes the additional picks.
      Men's products: 4+ different men. Women's: 4+ different women. Unisex: men AND women, different ethnicities

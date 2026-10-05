@@ -7,6 +7,7 @@ import sys, argparse, numpy as np, cv2
 from PIL import Image, ImageFilter
 ap = argparse.ArgumentParser(); ap.add_argument('src'); ap.add_argument('dst')
 ap.add_argument('--width', type=int, default=3600); ap.add_argument('--tol', type=int, default=28)
+ap.add_argument('--solid', action='store_true', help='badge art: keep everything inside the outer outline (fills white sky/highlights the flood leaked into)')
 a = ap.parse_args()
 img = cv2.imread(a.src, cv2.IMREAD_COLOR); h, w = img.shape[:2]
 # pixels "close to white"
@@ -19,6 +20,12 @@ n, lab = cv2.connectedComponents(near | thin, connectivity=4)
 border = set(np.unique(np.concatenate([lab[0], lab[-1], lab[:, 0], lab[:, -1]]))) - {0}
 bg = np.isin(lab, list(border)) & (near == 1)
 alpha = np.where(bg, 0, 255).astype(np.uint8)
+if a.solid:
+    # fill the largest outer contour so interior whites stay opaque
+    cnts, _ = cv2.findContours((alpha > 0).astype(np.uint8), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
+    big = max(cnts, key=cv2.contourArea)
+    solid = np.zeros_like(alpha); cv2.drawContours(solid, [big], -1, 255, thickness=cv2.FILLED)
+    alpha = np.maximum(alpha, solid); bg = alpha == 0
 # soften the edge: fade alpha by whiteness in a 2px ring
 ring = cv2.dilate(bg.astype(np.uint8), np.ones((5, 5), np.uint8)) & (~bg).astype(np.uint8)
 white = np.min(img, axis=2).astype(np.float32)
