@@ -5,6 +5,9 @@ Designers (Sam's brother + others on the Printful account) publish from Printful
 that is this SOP — run by the scheduled cloud agent, or by any Claude session when Sam says
 "new designs are up".
 
+## Keyword gate (read first)
+Sam's strategy is **buy the bottom**: low-difficulty keywords with real, measured volume. Full rules: `docs/store-rules.md` → "Keyword gate". When picking phrases from the keyword bank, prefer entries with measured volume and low KD; never build copy around an unmeasured head term, and never target a collection's head keyword from a product page.
+
 ## Title convention (designers)
 `<Audience> <Niche> – <Design Name> <Tee|Hoodie>` — e.g. `Women's Hunting – Doe Season Tee`,
 `Men's Fishing – Bass at Dawn Hoodie`, `Unisex Halloween Oversized – Night Shift Tee`.

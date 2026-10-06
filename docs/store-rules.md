@@ -2,6 +2,13 @@
 
 Rules Sam has locked in while building Graphic Tees Co. Each one is a requirement for every future page, product and automated run. Add new rules as they're set; this file becomes the skill.
 
+## Keyword gate — buy the bottom (Sam's core strategy; applies before ANY page, collection or product is built)
+1. Every collection, page and product needs a **measured** primary keyword: monthly volume + KD from a real source (RankHero / DataForSEO / Search Console). An autocomplete phrase alone is not demand. No measurement → don't build it.
+2. **Priority order:** KD ≤ 20 with volume ≥ 500 first ("the bottom"). KD 21–35 next. KD 36–50 only with depth (6+ designs, 400+ words). KD > 50 = hub pages only, never a build target on its own.
+3. Prefer the easier modifier of a hard head term: "christmas shirts for women" (5,400 / KD 14) over "christmas shirts" (33,100 / KD 58); "christian shirts men" (KD 12) over "christian shirts" (KD 58).
+4. Record volume, KD, source and date next to every target (collections.ts / intake log). Re-verify any target older than 90 days before building on it.
+5. Every new design idea starts from the bottom list, not from "popular niches". The question is always: what are people searching that nobody strong is serving?
+
 ## Process
 - Preview before publish: build locally, send a phone screenshot, wait for a yes, then push. No side-quest rebuilds.
 - If a note is ambiguous, ask one short question instead of guessing and shipping.
