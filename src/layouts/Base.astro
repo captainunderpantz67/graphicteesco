@@ -23,7 +23,7 @@ const liveHoodies = hoodies.filter((c) => live.has(c.slug));
 const showHoodies = hoodiesHubLive() && liveHoodies.length > 0;
 const evergreenTees = liveTees.filter((c) => !c.seasonal);
 const seasonal = [...liveTees, ...liveHoodies].filter((c) => c.seasonal);
-const ld = [organization(), website(), ...schema];
+const ld = [organization(live), website(), ...schema];
 ---
 <!doctype html>
 <html lang="en">

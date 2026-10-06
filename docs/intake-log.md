@@ -1,3 +1,22 @@
+## 2026-10-06 — Design briefs (33) + product schema (scheduled run)
+Shopify was read-only this run: collection counts read live, nothing edited.
+
+**Design queue — `docs/design-briefs.md`** (fills the three lowest-KD collections to 14 products each)
+- Christmas shirts for women (5,400 / KD 14): 4 live, **10 briefs, build first**: Cookie Swap, Hot Cocoa Club, Nutcracker March, Glass Ornaments, Home for the Holidays, Retro Santa, All Lit Up, Oh Deer, Christmas Movie Night, O Holy Night. All on women's 6400.
+- Men's gym shirts (18,100 / KD 10): 3 live, 11 briefs: Deadlift Society, Garage Gym, Swing Heavy, Before Sunrise, Old School Strength, Bench Press Club, Heavy Bag Dept., Leg Day Survivor, Rest Day Champion, Squat Bench Deadlift, Gym Rat. All on 3001.
+- Western graphic tees (2,400 / KD 16): 2 live, 12 briefs. Women's 6400: Barrel Racer, Hold On Tight, Steer Skull & Wildflowers, Kick Up Dust, Run Free, Howdy, Saturday Night Rodeo. Unisex 3001: Lucky Horseshoe, Hat on the Post, Ranch Hand, Hold On Eight, Cowboy Coffee.
+- **Keyword gate, needs review:** the keyword bank has no measured design-level long-tails for these collections; only the head terms are measured. All 33 primaries (e.g. "Christmas cookie shirt", "deadlift shirt", "barrel racing shirt") are marked *unmeasured - verify*. Run them through RankHero before building. No primary repeats one already used on a live product, and every variant is a bank phrase assigned to one product.
+- Shirt colors in the briefs are targets. Confirm each one on the blank in Printful.
+- `docs/model-registry.md`: rows 11–43 are reserved for the 33 cover models. Each is a new person: women 20s–60s for Christmas, men only for gym, a mix for western. None repeats rows 1–10.
+
+**Product JSON-LD (`src/lib/schema.ts`, `src/data/site.ts`)**
+- Offers: the per-variant Offer list is replaced by one `AggregateOffer` (lowPrice/highPrice/priceCurrency/offerCount/availability) with `itemCondition: NewCondition`.
+- `hasMerchantReturnPolicy` is built from `site.facts.returnsPolicy` plus new structured facts `returnWindowDays: 30` and `returnCountry: 'US'`. It uses MerchantReturnFiniteReturnWindow, 30 days, ReturnByMail, FreeReturn, refundType FullRefund + ExchangeRefund (refund or free reprint) and itemCondition DamagedCondition (misprint/damage only; no size or change-of-mind returns).
+- **Needs review:** the real process is "send a photo", not mailing the shirt back. `ReturnByMail` was used because the run spec asked for it and schema.org has no "no return needed" method. Change it if Google flags it.
+- Product `description` is now the Story section only, as plain text. Details & Fit and Questions are no longer included.
+- Organization `knowsAbout` now lists only linkable collections. `organization(live)` gets `linkableSlugs()` from Base.astro.
+- Checks: `npm ci` and `npm run build` pass (44 pages; no Shopify env in the cloud, so product pages weren't rendered). I bundled a sample product through `productSchema` and checked its output. `scripts/seo-audit.py` passes.
+
 ## 2026-10-06 — SEO overnight fix run (scheduled; executes docs/seo-audit-2026-10-06.md)
 Shop confirmed as Graphic Tees Co. (uqz0cg-vq.myshopify.com) before starting. Shopify edits were limited to descriptionHtml, SEO title/description and image alt text. No prices, variants, inventory, handles, media order, status or tags were touched, and nothing was deleted.
 

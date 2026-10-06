@@ -12,6 +12,9 @@ export interface Facts {
   hoodieBlank: string | null;
   freeShippingThreshold: number | null;
   returnsPolicy: string | null;
+  // Structured form of returnsPolicy for schema.org MerchantReturnPolicy (null = no policy markup).
+  returnWindowDays: number | null; // days after delivery to report a misprint/damage
+  returnCountry: string | null; // ISO 3166-1 country the policy applies to
   hoodiesLive: boolean; // at least one hoodie is for sale — gates every "also on a hoodie" claim
 }
 
@@ -46,6 +49,8 @@ export const site = {
     hoodieBlank: null,
     freeShippingThreshold: null,
     returnsPolicy: 'Every tee is printed to order, so we can’t take returns for size or change of mind. If your order arrives misprinted, damaged or defective, send us a photo within 30 days of delivery and we’ll reprint it free or refund you. Lost packages are covered the same way within 30 days of the estimated delivery date.', // Printful policy, confirmed by Sam 2026-10-06
+    returnWindowDays: 30, // from returnsPolicy: "within 30 days of delivery"
+    returnCountry: 'US',
     hoodiesLive: false, // 2026-10-06: 0 hoodies in the store. Flip to true when the first one ships.
   } satisfies Facts as Facts,
 };
