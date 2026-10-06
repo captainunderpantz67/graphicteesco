@@ -1,14 +1,19 @@
 ---
 import type { Product } from '../lib/shopify';
 import { formatPrice } from '../lib/shopify';
+import { coverFor } from '../data/covers';
 interface Props { product: Product }
 const { product: p } = Astro.props;
 const href = p.sample ? undefined : `/products/${p.handle}/`;
 const Tag = href ? 'a' : 'div';
+const cover = coverFor(p.handle);
 ---
 <Tag href={href} class="group block">
   <div class="aspect-[4/5] bg-[var(--color-paper-2)] grain overflow-hidden flex items-center justify-center">
-    {p.featuredImage ? (
+    {cover ? (
+      <img src={cover.src} alt={cover.alt} width="600" height="750" loading="lazy" decoding="async"
+        class="w-full h-full object-cover object-[50%_25%] group-hover:scale-[1.03] transition-transform duration-300" />
+    ) : p.featuredImage ? (
       <img
         src={`${p.featuredImage.url}&width=600`}
         alt={p.featuredImage.altText && !/^product mockup$/i.test(p.featuredImage.altText.trim()) ? p.featuredImage.altText : `${p.title.replace(/^.*?–\s*/, '')} graphic tee, ${p.title.split('–')[0].trim()}`}

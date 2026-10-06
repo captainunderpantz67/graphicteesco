@@ -260,12 +260,12 @@ export const tees: Collection[] = [
     intro: 'Original graphic tees for women — country and western, fishing, faith, football-mom and seasonal designs, with a new collection every month.',
     sections: [
       { h2: 'Shop by what you love', body: 'Country, western, fishing, nurse, faith and seasonal drops — every collection is original art, not stock graphics.' },
-      { h2: 'Graphic tees for women over 40 and over 50', body: 'Graphic tees aren’t an age thing. Pick a design you like and a fit you’re comfortable in — see our graphic tees for women over 40 for styling ideas.' },
+      { h2: 'Graphic tees for every age', body: 'Graphic tees aren’t an age thing. Pick a design about something you love and a fit you’re comfortable in.' },
       { h2: 'Printed when you order', body: 'Each tee is printed after you order it, so the catalog keeps growing without leftovers.' },
     ],
     faqs: [
       { q: 'Are these graphic tees original designs?', a: 'Yes. Every design is made for this shop — no licensed characters or resold stock art.' },
-      { q: 'Do you have graphic tees for women over 40 or over 50?', a: 'Yes. Our designs aren’t made for one age group. See our graphic tees for women over 40 page for fit and styling ideas.' },
+      { q: 'Do you have graphic tees for women over 40 or over 50?', a: 'Yes. Our designs aren’t made for one age group — they’re about what you love, from country and faith to game day and the holidays.' },
       { q: 'Do you have cropped graphic tees for women?', a: 'Yes — see our cropped graphic tees collection.' },
       { q: 'Do you have plus size graphic tees for women?', a: (f) => `Sizes run ${f.sizeRange}. Check the size chart on each product.`, needs: 'sizeRange' },
       { q: 'Do the designs come on hoodies too?', a: 'Yes. Most designs are also printed on hoodies.', needs: 'hoodiesLive' },
@@ -301,7 +301,7 @@ export const tees: Collection[] = [
   niche(N.gym, 'tees', { slug: 'mens-gym-shirts', keyword: 'mens gym shirts', volume: 18100, kd: 10, product: "men's gym shirts", twin: 'gym-hoodies', audience: 'men', name: "Men's Gym Shirts" }),
   niche(N.western, 'tees', { slug: 'western-graphic-tees', keyword: 'western graphic tees', volume: 2400, kd: 16, product: 'western graphic tees', twin: 'western-hoodies' }),
   niche(N.fishing, 'tees', { slug: 'fishing-t-shirts', keyword: 'fishing t shirts', volume: 6600, kd: 46, product: 'fishing t-shirts', twin: 'fishing-hoodies' }),
-  niche(N.hunting, 'tees', { slug: 'hunting-t-shirts', keyword: 'hunting t shirts', volume: 0, kd: 0, product: 'hunting t-shirts', twin: 'hunting-hoodies' }) /* volume n/a; SERP = small tee brands (2026-10-02) */,
+  niche(N.hunting, 'tees', { slug: 'hunting-t-shirts', keyword: 'hunting shirts', volume: 14800, kd: 44, product: 'hunting shirts', twin: 'hunting-hoodies' }) /* RankHero 2026-10-06: "hunting shirts" 14,800 / KD 44; "hunting t shirts" unmeasured */,
   niche(N.soccermom, 'tees', { slug: 'soccer-mom-shirts', keyword: 'soccer mom shirts', volume: 2900, kd: 42, product: 'soccer mom shirts', audience: 'women', name: 'Soccer Mom Shirts' }),
   niche(N.oversized, 'tees', { slug: 'oversized-graphic-tees', keyword: 'oversized graphic tee', volume: 27100, kd: 48, product: 'oversized graphic tees', twin: 'oversized-hoodies' }),
   niche(N.football, 'tees', { slug: 'football-shirts', keyword: 'football shirts', volume: 74000, kd: 51, product: 'football shirts' }),
@@ -332,6 +332,29 @@ export const tees: Collection[] = [
     extra: [{ q: 'Do you have horror movie shirts?', a: 'We make original horror-inspired designs. We don’t use movie names, characters or logos.' }] }),
   seasonal('thanksgiving', 'tees', { slug: 'thanksgiving-shirts', keyword: 'thanksgiving shirts', volume: 8100, kd: 57, product: 'Thanksgiving shirts', blurb: 'fall, football-and-turkey and family-table designs.',
     extra: [{ q: 'Do you have matching Thanksgiving shirts for family?', a: 'Yes. Any design can be ordered in several sizes so the whole family matches.' }] }),
+  // Buy-the-bottom build #1 (RankHero 2026-10-06): "christmas shirts for women" 5,400 / KD 14 — the easy modifier of "christmas shirts" (33,100 / KD 58).
+  {
+    slug: 'christmas-shirts-for-women', section: 'tees', audience: 'women', name: "Women's Christmas Shirts", seasonal: 'christmas',
+    keyword: 'christmas shirts for women', volume: 5400, kd: 14,
+    title: 'Christmas Shirts for Women — Original Holiday Graphic Tees',
+    description: 'Original Christmas shirts for women: vintage holiday art for the party, the cookie swap and the family photo. Printed to order, $29.99.',
+    h1: 'Christmas Shirts for Women',
+    intro: 'Christmas shirts for women that look like the season you actually live: gingerbread-house afternoons, tree-lot trips and lights on the porch. Every design is original holiday art, printed when you order it.',
+    sections: [
+      { h2: 'Holiday art, not ugly-sweater gags', body: 'These are vintage-style illustrations — a gingerbread street, a red truck hauling a fresh-cut tree, a snowed-in cabin, "Merry & Bright" lettering — the kind of Christmas graphic tee you can wear all December, not just to one party. Soft cotton tees in relaxed women’s and unisex fits.' },
+      { h2: 'Where to wear a Christmas shirt', body: 'Cookie swaps, the school holiday program, a Christmas-movie night, the tree farm, a white-elephant exchange or the family photo. Layer one under an open flannel or a cardigan with jeans; tuck the front of a relaxed fit into high-rise denim to dress it up.' },
+      { h2: 'Matching for the family photo', body: 'Every design comes in a full run of sizes, so you can order the same Christmas shirt for the whole family, a group of friends or your coworkers. The unisex designs fit men too.' },
+      { h2: 'When to order', body: 'Each shirt is printed after you order it, then shipped. Order early in December so it arrives before your plans — delivery estimates show at checkout.' },
+    ],
+    faqs: [
+      { q: 'What do you wear to a Christmas party if you don’t want an ugly sweater?', a: 'A Christmas graphic tee under an open flannel or cardigan with jeans is festive without being a costume.' },
+      { q: 'Do you have matching Christmas shirts for family?', a: 'Yes. Any design can be ordered in several sizes, and the unisex designs fit men and women.' },
+      { q: 'Are these licensed Christmas characters?', a: 'No. Every design is original holiday art made for this shop.' },
+      { q: 'Can I return a Christmas shirt if the size is wrong?', a: 'Each shirt is printed to order, so returns are for misprints or damage only. Check the size chart before you order.' },
+      ...audienceFaqs('Christmas shirts'),
+    ],
+    shopifyHandle: 'christmas-shirts-for-women',
+  },
   seasonal('christmas', 'tees', { slug: 'christmas-shirts', keyword: 'christmas shirts', volume: 33100, kd: 58, product: 'Christmas shirts', twin: 'christmas-hoodies', blurb: 'holiday designs that work for the party, the family photo and the gift exchange.',
     extra: [
       { q: 'Do you have matching Christmas shirts for family or couples?', a: 'Yes. Any design can be ordered in several sizes so the whole family — or the two of you — match.' },
