@@ -1,3 +1,76 @@
+## 2026-10-06 — SEO overnight fix run (scheduled; executes docs/seo-audit-2026-10-06.md)
+Shop confirmed as Graphic Tees Co. (uqz0cg-vq.myshopify.com) before starting. Shopify edits were limited to descriptionHtml, SEO title/description and image alt text. No prices, variants, inventory, handles, media order, status or tags were touched, and nothing was deleted.
+
+**Shopify: stuffed pages rewritten (Story, Questions, SEO description; audit C5/C6, P0 #3–4)**, one design primary + 2–3 natural variants each:
+- High Country Trout: primary "fly fishing t-shirt" (variants: trout fishing shirt). "Midweight" changed to "Lightweight 4.2 oz" in Details.
+- Barbell Club: primary "vintage gym shirt" (old-school gym tee / lifting look). "Midweight" ×3 changed to lightweight.
+- Turkey Bowl: primary "Turkey Bowl shirt" (Thanksgiving football shirt). "Midweight" ×2 changed to lightweight.
+- Iron & Sweat: primary "retro gym shirt".
+- Fresh Cut Christmas Trees: primary "Christmas tree truck shirt" (unisex Christmas shirt). SEO title "Fresh Cut Christmas Trees Christmas Tee" changed to "Fresh Cut Christmas Trees Truck Tee | Graphic Tees Co.".
+- Cabin Christmas: primary "cabin Christmas shirt".
+
+**Shopify: light de-stuff (P1 #16)**, removing "one of our/your", superlatives and keyword questions, fixing capitalization, and leading the SEO description with the design primary:
+- Desert Rider: primary "vintage cowboy graphic tee".
+- Witchy Season: primary "black cat Halloween shirt". Fixed the "4.2 oz/y²" typo. Replaced the Q&As it shared with Pumpkin Patch Ghost.
+- Gingerbread Lane: primary "gingerbread Christmas shirt".
+- Merry & Bright: primary "Merry and Bright shirt". Dropped the unverified "screen-print" claim.
+- Give Thanks: primary "Give Thanks shirt".
+- First Light Buck: primary "whitetail deer hunting shirt".
+- Marsh Morning: primary "duck hunting t-shirt". The Q&A it shared word-for-word with First Light Buck is gone.
+
+**Shopify: 7 newest women's products de-templated (P1 #13)**. Every page now has its own 3 questions and its own sizes answer. Removed "…shirt idea for a gift" and the keyword-string questions.
+- Game Day: primary "retro football mom shirt". New SEO description.
+- Diamond Days: primary "retro baseball mom shirt". New SEO description.
+- Sideline Bloom: keeps "retro soccer mom graphic tee". Q&As only; SEO left as is.
+- Grace Wins: "Christian" is now capitalized. Primary "Christian shirt for women" (+ faith tee). New SEO description.
+- Wildflower Club: keeps "vintage cropped graphic tee". Q&As only, using AS Colour 4062 facts (XS–2XL, 2XL Black only, 5.3 oz).
+- Nurse Life Coffee: removed "with scrubs underneath". Primary "cute nurse shirt" (390/KD31). SEO title changed to "Nurse Life Coffee Tee | Graphic Tees Co.".
+- Sweet Tea & Sunsets: primary "sweet tea shirt". It no longer shares the "country concert graphic tee" question with Desert Bloom.
+
+**Shopify: extra copy fixes found by the new lint or the hard limits (not on the task list):**
+- Desert Bloom: "Is this one of your cowboy graphic tees for women?" changed to "Is it cut for women?". Nothing else changed.
+- Plate Club: the "Is there a matching gym hoodie?" Q&A was a hoodie claim (0 hoodies), so it's now a colors Q&A. "Midweight 5.0–5.3 oz" was left as is because Plate Club uses a different, heavier blank.
+- Pumpkin Patch Ghost: "Do you have plus-size Halloween shirts for women?" changed to "Does it come in plus sizes?". It was a bank phrase used twice on the page.
+- Side effect, fixed right away: on High Country Trout, sending seo.description alone cleared seo.title. I restored it immediately to "High Country Trout Fishing Tee | Graphic Tees Co.". Every later update sent both fields.
+
+**Shopify: alt text (audit Images / P1 #11).** 182 images on 10 products changed from "Product mockup" to "<Design> <niche> graphic tee, <Color>, <view>", via fileUpdate:
+- Desert Bloom (15), Witchy Season (25), Ghost Club (17), Pumpkin Patch Ghost (17), Dirt Road Radio (28), Plate Club (21), Sunrise Strike (33), Haunted Hollow (11), Midnight Feature (11), Night Shift (6).
+- Extra Printful shots are labelled "alternate view". Their exact angle can't be read from the file name.
+
+**Site code**
+- `src/lib/linkable.ts` (new): a collection is linkable only if it has products, isn't on HOLD (football-shirts) and, for hoodie collections, `hoodiesLive` is true.
+- `src/layouts/Base.astro`: the header, mobile menu and footer link only to linkable collections. The Hoodies menu, the footer hoodie column and the /hoodies/ links are hidden until hoodies ship (P1 #15).
+- `src/pages/guides/[slug].astro`: guide links to empty or noindexed collections are dropped.
+- `src/components/CollectionView.astro`: the "More collections" sidebar, the twin "Also on a hoodie" link and the "Graphic hoodies →" link now follow the same rule.
+- `src/pages/about.astro`: same rule for its links.
+- `src/pages/index.astro`:
+  - `<title>` is now "Original Graphic Tees for What You Do | Graphic Tees Co." (H1 kept).
+  - The hero hoodie button, the hoodies section, the Halloween-hoodies button, the "Shop by style" chips and the outdoors cards only link to linkable collections. The ItemList schema only lists linkable collections.
+  - The answer card says "tees and hoodies" only once hoodiesLive is true.
+- `src/data/collections.ts`:
+  - Each niche now has its own `about`, `original` and `made` lines. These replace the 4 boilerplate sentences that repeated on 25 collection pages (the "no warehouse of leftovers" body, the stock-art answer and the printed-then-shipped answer).
+  - The FAQ questions "Are these original designs?" and "How are they made?" no longer repeat the keyword.
+  - Seasonal copy is thicker, with intro + sections at 300–400 words: Halloween 321, Thanksgiving 307, Christmas 305. Every design mentioned is in that collection, and sizes come from product facts.
+  - The Christmas FAQ "Do you have funny Christmas shirts? Yes…" was false (every design is a classic scene). It now says not right now.
+- `src/data/keyword-bank.json`: removed 98 brand, competitor, licensed-character and mockup entries (Kanye, Patagonia, Bass Pro, Boot Barn, Decathlon, Vuori, Kohl's, Hellstar, Snoopy/Peanuts, Mickey, Chucky/Jason/Scream, Hocus Pocus, Christian Dior, Academy, Costco, Cabela's, "*mockup", and others). "graphic tees men" (110,000/55) and "graphic tees for men" (90,500/64) moved out of the women's bucket into graphic-tees-for-men.
+- `docs/product-intake-sop.md`: new guardrails. One primary per product, never a collection head term, and no two products in a collection may share a primary. Each bank phrase is used at most once and on one product only. Banned phrasing and superlatives listed. Capitalization rules. Varied sizes answers. A lint step before logging. Phrase counts reduced (5–8 shortlisted; 1 primary + 2–3 variants).
+- `scripts/seo-audit.py`: a new copy lint on product Story and Q&A that fails on:
+  - "midweight" with a 3001/6400 (4.2 oz) blank
+  - an exact bank phrase used more than once on a page, or on more than one product
+  - "one of our/your"
+  - lowercase christmas/christian/mens/womens
+
+  Tested against synthetic pages, and simulated against the live Shopify copy, which is clean after the fixes above.
+
+**Build / checks:** `npm ci` and `npm run build` pass, and `astro check` is clean. PUBLIC_SHOPIFY_* is not set in the cloud, so the build used sample data (44 pages, no product pages). `python3 scripts/seo-audit.py` PASSes on that build. The product-copy lint will run for real on the Netlify build with live data.
+
+**Skipped / for Sam:**
+- About-page FAQ "Each tee and hoodie is printed…" and the Organization `knowsAbout` hoodie terms were left as is. They're entity text, not on the task list.
+- Pumpkin Patch Ghost still says "one of the easiest cute Halloween shirts". It wasn't on the list.
+- Ghost Club, Haunted Hollow, Midnight Feature, Night Shift, Sunrise Strike, Dirt Road Radio and Desert Bloom stories were not rewritten. Only alt text, plus the one Desert Bloom question.
+- Product-level primaries are still unmeasured (audit #21: measuring needs paid DataForSEO).
+- store-rules.md says "preview before publish". This run pushed straight to main because the scheduled task said to.
+
 ## 2026-10-06 02:14 UTC — 7 products (scheduled run — copy for the 2026-10-05 batch)
 Wrote the SEO copy, tags, handles and alt text for the 7 women's homepage-card products built manually on 2026-10-05 (collection tags were already applied by hand that day; this run added the rest per the SOP). No new Printful products were published since. Shop confirmed as Graphic Tees Co. (uqz0cg-vq.myshopify.com) before starting. Did not touch prices, variants, inventory, or publish status; media order/back-logo/model-mockup work from 2026-10-05 was left as-is (no lifestyle images to reorder — all flat mockups).
 

@@ -6,21 +6,23 @@ import { bySlug, pathFor, all } from '../data/collections';
 import { getCollectionProducts, shopifyConnected } from '../lib/shopify';
 import { breadcrumbs, faqPage, collectionPage } from '../lib/schema';
 import { resolveFaqs } from '../data/site';
+import { HOLD, linkableSlugs, hoodiesHubLive } from '../lib/linkable';
 
 interface Props { collection: Collection }
 const { collection: c } = Astro.props;
 const products = await getCollectionProducts(c.shopifyHandle);
-const twin = c.twin ? bySlug(c.twin) : undefined;
+const live = await linkableSlugs();
+const twinC = c.twin ? bySlug(c.twin) : undefined;
+const twin = twinC && live.has(twinC.slug) ? twinC : undefined;
 const faqs = resolveFaqs(c.faqs);
 const crumbs = [
   { name: 'Home', path: '/' },
   ...(c.section === 'hoodies' ? [{ name: 'Hoodies', path: '/hoodies/' }] : []),
   { name: c.h1, path: pathFor(c) },
 ];
-const related = all.filter((x) => x.section === c.section && x.slug !== c.slug && !!x.seasonal === !!c.seasonal).slice(0, 6);
+const related = all.filter((x) => x.section === c.section && x.slug !== c.slug && !!x.seasonal === !!c.seasonal && live.has(x.slug)).slice(0, 6);
 // Pre-launch: an empty collection shouldn't be indexed as a thin page.
-// Off-target head terms we can't serve yet stay out of the index (SEO audit 2026-10-06).
-const HOLD = new Set(['football-shirts']);
+// Off-target head terms we can't serve yet stay out of the index (HOLD, src/lib/linkable.ts).
 const noindex = (shopifyConnected && products.length === 0) || HOLD.has(c.slug);
 ---
 <Base title={c.title} description={c.description} noindex={noindex}
@@ -61,7 +63,7 @@ const noindex = (shopifyConnected && products.length === 0) || HOLD.has(c.slug);
       <p class="eyebrow mb-3">More collections</p>
       <ul class="grid gap-2">
         {related.map((r) => <li><a href={pathFor(r)} class="font-semibold hover:text-[var(--color-rust)]">{r.h1} →</a></li>)}
-        {c.section === 'tees' ? <li><a href="/hoodies/" class="font-semibold hover:text-[var(--color-rust)]">Graphic hoodies →</a></li>
+        {c.section === 'tees' ? hoodiesHubLive() && <li><a href="/hoodies/" class="font-semibold hover:text-[var(--color-rust)]">Graphic hoodies →</a></li>
           : <li><a href="/graphic-tees-for-men/" class="font-semibold hover:text-[var(--color-rust)]">Graphic tees →</a></li>}
       </ul>
     </aside>

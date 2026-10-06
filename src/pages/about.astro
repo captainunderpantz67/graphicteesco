@@ -4,6 +4,9 @@ import Faq from '../components/Faq.astro';
 import { site, resolveFaqs } from '../data/site';
 import { tees, hoodies, pathFor } from '../data/collections';
 import { aboutPage, faqPage, breadcrumbs } from '../lib/schema';
+import { linkableSlugs, hoodiesHubLive } from '../lib/linkable';
+
+const live = await linkableSlugs();
 
 const faqs = resolveFaqs([
   { q: `Who designs ${site.name} shirts?`, a: 'Every design is drawn in-house by our designer — one of the two brothers who run the shop. We don’t buy stock art.' },
@@ -53,8 +56,8 @@ const evergreen = [...tees, ...hoodies].filter((c) => !c.seasonal);
       <ul class="mt-3 grid gap-2">
         <li><a href="/graphic-tees-for-men/" class="font-semibold hover:text-[var(--color-rust)]">Graphic tees for men →</a></li>
         <li><a href="/graphic-tees-for-women/" class="font-semibold hover:text-[var(--color-rust)]">Graphic tees for women →</a></li>
-        <li><a href="/hoodies/" class="font-semibold hover:text-[var(--color-rust)]">Graphic hoodies →</a></li>
-        {evergreen.filter((c) => !c.slug.startsWith('graphic-tees-for')).slice(0, 10).map((c) => <li><a href={pathFor(c)} class="hover:text-[var(--color-rust)]">{c.h1}</a></li>)}
+        {hoodiesHubLive() && <li><a href="/hoodies/" class="font-semibold hover:text-[var(--color-rust)]">Graphic hoodies →</a></li>}
+        {evergreen.filter((c) => !c.slug.startsWith('graphic-tees-for') && live.has(c.slug)).slice(0, 10).map((c) => <li><a href={pathFor(c)} class="hover:text-[var(--color-rust)]">{c.h1}</a></li>)}
       </ul>
       {site.instagram && <p class="mt-6"><a href={`https://instagram.com/${site.instagram}`} class="font-semibold underline">Follow us on Instagram →</a></p>}
     </aside>

@@ -7,6 +7,7 @@ import { site, resolveFaqs } from '../data/site';
 import { tees, hoodies, pathFor, bySlug } from '../data/collections';
 import { faqPage, itemListOfCollections } from '../lib/schema';
 import { getAllProducts } from '../lib/shopify';
+import { linkableSlugs, hoodiesHubLive } from '../lib/linkable';
 
 // Real product photos for cards: the main (model/lifestyle) mockup of the newest product in each collection.
 const allProducts = (await getAllProducts()).filter((p) => !p.sample && p.images.length);
@@ -17,10 +18,13 @@ const menPhoto = photoOf('mens-gym-iron-sweat-graphic-tee', 'graphic-tees-for-me
 const womenPhoto = photoOf('womens-christmas-merry-bright-graphic-tee', 'graphic-tees-for-women');
 const img = (u: string, w: number) => `${u}${u.includes('?') ? '&' : '?'}width=${w}`;
 
+// Only linkable collections (products + indexable) get a card or link.
+const live = await linkableSlugs();
+const showHoodies = hoodiesHubLive();
 // Only collections that actually have products get a card (an empty page is a dead end and won't be indexed).
 const womens = tees.filter((c) => c.audience === 'women' && c.slug !== 'graphic-tees-for-women' && allProducts.some((p) => p.collections?.includes(c.shopifyHandle)));
-const outdoors = ['fishing-t-shirts', 'hunting-t-shirts', 'western-graphic-tees', 'mens-gym-shirts', 'football-shirts', 'soccer-mom-shirts'].map((s) => bySlug(s)!);
-const styles = ['oversized-graphic-tees', 'vintage-graphic-tees', 'y2k-graphic-tees', 'anime-shirts'].map((s) => bySlug(s)!);
+const outdoors = ['fishing-t-shirts', 'hunting-t-shirts', 'western-graphic-tees', 'mens-gym-shirts', 'football-shirts', 'soccer-mom-shirts'].map((s) => bySlug(s)!).filter((c) => live.has(c.slug));
+const styles = ['oversized-graphic-tees', 'vintage-graphic-tees', 'y2k-graphic-tees', 'anime-shirts'].map((s) => bySlug(s)!).filter((c) => live.has(c.slug));
 const drop = tees.find((c) => c.seasonal === 'halloween')!;
 
 // Answer blocks: questions from Google autocomplete for "graphic tees" (2026-10-02).
@@ -51,7 +55,7 @@ const answers = [
   },
   {
     q: 'Where can you buy original graphic tees online?',
-    a: `${site.name} sells original graphic tees and hoodies online, printed to order, with a new collection every month. Shop by collection below or start with men's or women's graphic tees.`,
+    a: `${site.name} sells original graphic tees${site.facts.hoodiesLive ? ' and hoodies' : ''} online, printed to order, with a new collection every month. Shop by collection below or start with men's or women's graphic tees.`,
   },
 ];
 
@@ -92,9 +96,9 @@ const tones = [
 ];
 const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom', 'Faith', 'Nurse', 'Vintage', 'Halloween'];
 ---
-<Base title={`Graphic Tees for Men & Women — Original Designs`}
+<Base title={`Original Graphic Tees for What You Do | Graphic Tees Co.`}
   description="Original graphic tees for men and women: fishing, hunting, western, country and gym designs, printed to order. New collection every month."
-  schema={[faqPage([...answers, ...faqs]), itemListOfCollections([...tees, ...hoodies], 'Graphic tee and hoodie collections')]}>
+  schema={[faqPage([...answers, ...faqs]), itemListOfCollections([...tees, ...hoodies].filter((c) => live.has(c.slug)), showHoodies ? 'Graphic tee and hoodie collections' : 'Graphic tee collections')]}>
 
   <!-- HERO -->
   <section class="relative overflow-hidden border-b-2 border-[var(--color-ink)]">
@@ -112,11 +116,11 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
         <div class="mt-8 flex flex-wrap gap-3 rise" style="animation-delay:.42s">
           <a href="/graphic-tees-for-men/" class="btn">Men's graphic tees</a>
           <a href="/graphic-tees-for-women/" class="btn">Women's graphic tees</a>
-          <a href="/hoodies/" class="btn btn-rust">Graphic hoodies</a>
+          {showHoodies && <a href="/hoodies/" class="btn btn-rust">Graphic hoodies</a>}
         </div>
         <ul class="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-xs font-bold uppercase tracking-[.14em] text-[var(--color-ink-2)] rise" style="animation-delay:.55s">
           <li class="flex items-center gap-2"><Icon name="star" class="w-4 h-4 text-[var(--color-rust)]" />Original designs</li>
-          <li class="flex items-center gap-2"><Icon name="tee" class="w-4 h-4 text-[var(--color-rust)]" />Tees + hoodies</li>
+          <li class="flex items-center gap-2"><Icon name="tee" class="w-4 h-4 text-[var(--color-rust)]" />{showHoodies ? 'Tees + hoodies' : 'Printed to order'}</li>
           <li class="flex items-center gap-2"><Icon name="sun" class="w-4 h-4 text-[var(--color-rust)]" />New drop monthly</li>
         </ul>
       </div>
@@ -246,21 +250,21 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
         <p class="mt-3 max-w-xl text-lg opacity-90">{drop.intro}</p>
         <div class="mt-6 flex flex-wrap gap-3">
           <a href={pathFor(drop)} class="btn">Shop the drop</a>
-          <a href="/hoodies/halloween-hoodies/" class="btn btn-ghost !text-[var(--color-cream)] !border-[var(--color-cream)]">Halloween hoodies</a>
+          {live.has('halloween-hoodies') && <a href="/hoodies/halloween-hoodies/" class="btn btn-ghost !text-[var(--color-cream)] !border-[var(--color-cream)]">Halloween hoodies</a>}
         </div>
       </div>
     </div>
   </section>
 
-  <!-- HOODIES -->
-  <section class="bg-[var(--color-ink)] text-[var(--color-cream)]">
+  <!-- HOODIES (hidden until the first hoodie ships) -->
+  {showHoodies && <section class="bg-[var(--color-ink)] text-[var(--color-cream)]">
     <div class="container-x py-16">
       <div class="flex items-end justify-between gap-4">
         <h2 class="display text-5xl md:text-6xl">Same designs. <span class="text-[var(--color-mustard)]">On graphic hoodies.</span></h2>
         <a href="/hoodies/" class="hidden md:inline font-bold uppercase tracking-[.12em] text-sm underline underline-offset-4">All hoodies →</a>
       </div>
       <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
-        {hoodies.filter((c) => !c.seasonal).slice(0, 8).map((c) => (
+        {hoodies.filter((c) => !c.seasonal && live.has(c.slug)).slice(0, 8).map((c) => (
           <a href={pathFor(c)} class="group relative overflow-hidden rounded-[16px] border-2 border-[var(--color-cream)]/25 p-5 min-h-[140px] flex flex-col justify-between hover:bg-[var(--color-rust)] hover:border-[var(--color-rust)] transition-colors">
             <Icon name="hoodie" class="w-8 h-8 text-[var(--color-mustard)] group-hover:text-[var(--color-cream)]" />
             <span class="display text-3xl leading-none">{c.h1}</span>
@@ -268,7 +272,7 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
         ))}
       </div>
     </div>
-  </section>
+  </section>}
 
   <!-- SHOP BY STYLE -->
   <section class="container-x mt-16">
@@ -316,7 +320,7 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
     <aside class="self-start lg:sticky lg:top-24 rounded-[18px] border-2 border-[var(--color-ink)] bg-[var(--color-cream)] p-6 shadow-[4px_4px_0_var(--color-ink)]">
       <p class="eyebrow">Seasonal drops</p>
       <ul class="mt-3 grid gap-2">
-        {[...tees, ...hoodies].filter((c) => c.seasonal).map((c) => <li><a href={pathFor(c)} class="font-bold hover:text-[var(--color-rust)]">{c.h1} →</a></li>)}
+        {[...tees, ...hoodies].filter((c) => c.seasonal && live.has(c.slug)).map((c) => <li><a href={pathFor(c)} class="font-bold hover:text-[var(--color-rust)]">{c.h1} →</a></li>)}
       </ul>
       <p class="eyebrow mt-6">Graphic tee guides</p>
       <ul class="mt-3 grid gap-2">

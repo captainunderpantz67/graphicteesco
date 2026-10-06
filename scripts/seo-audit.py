@@ -27,6 +27,32 @@ for f in pages:
         if href.endswith(('.svg', '.png', '.txt', '.xml', '.woff2')): continue
         if href not in all_paths: issues['broken internal link'].append(f'{path} -> {href}')
     if not noindex and path not in sm_urls and f != 'dist/404.html': issues['indexable page missing from sitemap'].append(path)
+# ---- Copy lint (SEO audit 2026-10-06, P2 #20): product Story + Q&A only ----
+bank = json.load(open('src/data/keyword-bank.json'))
+norm = lambda t: ' ' + re.sub(r'\s+', ' ', re.sub(r"[^a-z0-9]+", ' ', t.lower())).strip() + ' '
+phrases = {norm(e['phrase']).strip() for v in bank.values() for e in v if len(e['phrase'].split()) >= 3}
+strip = lambda h: re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', h)).replace('&amp;', '&').replace('&#39;', "'").strip()
+copy = {}
+for f in glob.glob('dist/products/*/index.html'):
+    h = open(f).read(); path = f.replace('dist', '').replace('index.html', '')
+    story = re.search(r'>The story<.*?summary>(.*?)</details>', h, re.S)
+    qa = re.search(r'>Questions<.*?summary>(.*?)</dl>', h, re.S)
+    items = re.findall(r'<div><dt[^>]*>(.*?)</dt><dd[^>]*>(.*?)</dd></div>', qa.group(1), re.S) if qa else []
+    copy[path] = (strip(story.group(1)) if story else '', [strip(q) + ' ' + strip(a) for q, a in items], h)
+shared = collections.Counter(x for _, qas, _ in copy.values() for x in set(qas))  # site-wide template Q&As (wash etc.)
+uses = collections.defaultdict(set)
+for path, (story, qas, h) in copy.items():
+    text = ' '.join([story] + [x for x in qas if shared[x] < 3])
+    if re.search(r'midweight', h, re.I) and re.search(r'\b(3001|6400)\b|4\.2 ?oz', h): issues['midweight on a 3001/6400 (4.2 oz) blank'].append(path)
+    if re.search(r'\bone of (our|your)\b', text, re.I): issues['banned phrasing "one of our/your"'].append(path)
+    if re.search(r'\b(christmas|christian|mens|womens)\b', text): issues['lowercase proper noun (Christmas/Christian/men\'s/women\'s)'].append(path)
+    t = norm(text)
+    for ph in phrases:
+        n = t.count(' ' + ph + ' ')
+        if n > 1: issues['bank phrase used more than once on a page'].append(f'{path} "{ph}" x{n}')
+        if n: uses[ph].add(path)
+for ph, ps in uses.items():
+    if len(ps) > 1: issues['bank phrase used on more than one product'].append(f'"{ph}": ' + ', '.join(sorted(ps)))
 for t, c in titles.items():
     if c > 1: issues['duplicate title'].append(t)
 for d, c in descs.items():

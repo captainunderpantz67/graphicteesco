@@ -4,6 +4,7 @@ import { site } from '../data/site';
 import { tees, hoodies, pathFor } from '../data/collections';
 import { organization, website } from '../lib/schema';
 import CartDrawer from '../components/CartDrawer.astro';
+import { linkableSlugs, hoodiesHubLive } from '../lib/linkable';
 
 interface Props {
   title: string;
@@ -15,8 +16,13 @@ interface Props {
 const { title, description, schema = [], image, noindex = false } = Astro.props;
 const ogImage = image ?? `${site.url}/og-default.png`;
 const canonical = new URL(Astro.url.pathname, site.url).href;
-const evergreenTees = tees.filter((c) => !c.seasonal);
-const seasonal = [...tees, ...hoodies].filter((c) => c.seasonal);
+// Nav and footer only link to collections that have products and are indexable.
+const live = await linkableSlugs();
+const liveTees = tees.filter((c) => live.has(c.slug));
+const liveHoodies = hoodies.filter((c) => live.has(c.slug));
+const showHoodies = hoodiesHubLive() && liveHoodies.length > 0;
+const evergreenTees = liveTees.filter((c) => !c.seasonal);
+const seasonal = [...liveTees, ...liveHoodies].filter((c) => c.seasonal);
 const ld = [organization(), website(), ...schema];
 ---
 <!doctype html>
@@ -61,14 +67,14 @@ const ld = [organization(), website(), ...schema];
               {evergreenTees.map((c) => <a class="px-2 py-1 hover:bg-[var(--color-paper-2)]" href={pathFor(c)}>{c.name}</a>)}
             </div>
           </details>
-          <details class="relative group">
+          {showHoodies && <details class="relative group">
             <summary class="cursor-pointer list-none hover:text-[var(--color-rust)]">Hoodies ▾</summary>
             <div class="absolute left-0 mt-3 w-60 bg-[var(--color-paper)] border border-[var(--color-line)] shadow-lg p-3 grid gap-1 normal-case tracking-normal font-medium">
               <a class="px-2 py-1 font-bold hover:bg-[var(--color-paper-2)]" href="/hoodies/">All graphic hoodies</a>
-              {hoodies.filter((c) => !c.seasonal).map((c) => <a class="px-2 py-1 hover:bg-[var(--color-paper-2)]" href={pathFor(c)}>{c.name}</a>)}
+              {liveHoodies.filter((c) => !c.seasonal).map((c) => <a class="px-2 py-1 hover:bg-[var(--color-paper-2)]" href={pathFor(c)}>{c.name}</a>)}
             </div>
-          </details>
-          <a href={pathFor(seasonal[0])} class="text-[var(--color-rust)]">{seasonal[0].name}</a>
+          </details>}
+          {seasonal[0] && <a href={pathFor(seasonal[0])} class="text-[var(--color-rust)]">{seasonal[0].name}</a>}
         </nav>
         <div class="flex items-center gap-3">
           <button type="button" data-cart-open class="relative font-semibold uppercase text-sm tracking-wide">
@@ -79,8 +85,8 @@ const ld = [organization(), website(), ...schema];
             <div class="absolute left-0 right-0 top-16 bg-[var(--color-paper)] border-b border-[var(--color-line)] p-4 grid gap-2 z-40">
               <a href="/graphic-tees-for-men/">Men's graphic tees</a>
               <a href="/graphic-tees-for-women/">Women's graphic tees</a>
-              <a href="/hoodies/">Graphic hoodies</a>
-              {evergreenTees.slice(1).map((c) => <a href={pathFor(c)}>{c.name}</a>)}
+              {showHoodies && <a href="/hoodies/">Graphic hoodies</a>}
+              {evergreenTees.filter((c) => c.slug !== 'graphic-tees-for-men' && c.slug !== 'graphic-tees-for-women').map((c) => <a href={pathFor(c)}>{c.name}</a>)}
               {seasonal.map((c) => <a href={pathFor(c)} class="text-[var(--color-rust)]">{c.name}</a>)}
             </div>
           </details>
@@ -98,15 +104,15 @@ const ld = [organization(), website(), ...schema];
         </div>
         <div>
           <p class="eyebrow !text-[var(--color-mustard)] mb-3">Graphic Tees</p>
-          <ul class="grid gap-1.5 opacity-90">{tees.map((c) => <li><a href={pathFor(c)} class="hover:underline">{c.name}</a></li>)}</ul>
+          <ul class="grid gap-1.5 opacity-90">{liveTees.map((c) => <li><a href={pathFor(c)} class="hover:underline">{c.name}</a></li>)}</ul>
         </div>
-        <div>
+        {showHoodies ? <div>
           <p class="eyebrow !text-[var(--color-mustard)] mb-3">Graphic Hoodies</p>
           <ul class="grid gap-1.5 opacity-90">
             <li><a href="/hoodies/" class="hover:underline">All hoodies</a></li>
-            {hoodies.map((c) => <li><a href={pathFor(c)} class="hover:underline">{c.name}</a></li>)}
+            {liveHoodies.map((c) => <li><a href={pathFor(c)} class="hover:underline">{c.name}</a></li>)}
           </ul>
-        </div>
+        </div> : <div />}
         <div>
           <p class="eyebrow !text-[var(--color-mustard)] mb-3">Help</p>
           <ul class="grid gap-1.5 opacity-90">

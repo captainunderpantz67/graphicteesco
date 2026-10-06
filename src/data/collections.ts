@@ -28,7 +28,13 @@ export interface Collection {
   twin?: string;
 }
 
-type Niche = { label: string; who: string; themes: string; style?: string; faqs?: (P: string, section: Section) => Faq[] };
+// about/original/made replace the boilerplate that used to repeat on every niche page (SEO audit 2026-10-06, P1 #10).
+type Niche = {
+  label: string; who: string; themes: string; style?: string; faqs?: (P: string, section: Section) => Faq[];
+  about: (item: string) => string; // "What makes these different?" body
+  original: string; // answer to "Are these original designs?"
+  made: string; // answer to "How are they made?"
+};
 
 // Questions every product-type page can carry, phrased from autocomplete ("for men", "for women", "for kids", "3xl"…)
 const audienceFaqs = (P: string): Faq[] => [
@@ -39,6 +45,9 @@ const audienceFaqs = (P: string): Faq[] => [
 
 const N: Record<string, Niche> = {
   fishing: {
+    about: (item) => `Every design here starts on the water: a bass hitting a lure at sunrise, a trout rising to a dry fly under the peaks. Each ${item} is printed after you order it, in colors picked to look right at the ramp and the bait shop.`,
+    original: 'Yes. The fish, lures and lake scenes are drawn for this shop, with no tackle-brand logos or licensed marks.',
+    made: 'Each one is printed after you order it, then shipped straight to you, so nothing sits on a rack from last season.',
     style: "How to wear a fishing t-shirt: on the boat with board shorts and a cap, at the bait shop with jeans, or layered under an open flannel when the morning's cold. Because they're cotton graphic tees rather than performance shirts, they work just as well at a cookout as on the water.",
     label: 'Fishing', who: 'anglers who fish lakes, rivers and the coast', themes: 'bass, catfish and redfish art, lake-life humor and early-morning-on-the-water scenes',
     faqs: (_P, s) => [
@@ -49,6 +58,9 @@ const N: Record<string, Niche> = {
     ],
   },
   hunting: {
+    about: (item) => `These designs come from the hours before shooting light: a whitetail buck in a frosty clearing, mallards low over the cattails. Each ${item} is printed to order in faded field colors, not camouflage.`,
+    original: 'Yes. The deer, ducks and marsh scenes are original illustrations, with no outfitter or ammo-brand logos.',
+    made: 'Printed when you order it and shipped from there. Nothing sits in a warehouse waiting for opening day.',
     style: 'Hunting tees are for everything around the hunt — the drive to the lease, deer camp, the processor and the diner after. Wear one under a flannel or a hoodie on cold mornings, and with jeans and boots in town.',
     label: 'Hunting', who: 'hunters who spend opening weekend in a blind or a stand', themes: 'whitetail, duck and turkey art, deer-camp humor and dawn-in-the-field scenes',
     faqs: (_P, s) => [
@@ -58,6 +70,9 @@ const N: Record<string, Niche> = {
     ],
   },
   western: {
+    about: (item) => `Western art here is drawn like an old roadside sign: a lone rider crossing a desert sunset, a cowgirl boot full of blooming prickly pear. Each ${item} is printed after you order it.`,
+    original: 'Yes. The cowboys, boots and desert scenes are drawn for this shop. No rodeo association or western-wear brand marks.',
+    made: 'Each one is printed to order with the art on the front, then shipped to you.',
     style: 'Western graphic tees pair best with denim and boots. Tuck the front into a belted pair of jeans for a rodeo or a concert, or wear it loose with a trucker cap for an everyday ranch look.',
     label: 'Western', who: 'people who grew up around ranches, rodeos and dirt roads', themes: 'cowboy, desert and rodeo art with a worn-in, vintage feel',
     faqs: () => [
@@ -66,6 +81,9 @@ const N: Record<string, Niche> = {
     ],
   },
   gym: {
+    about: (item) => `The gym art borrows from old strongman badges and cinderblock-wall posters: crossed barbells, stacked plates, a dumbbell-and-lightning-bolt shield. Each ${item} is printed when you order it.`,
+    original: 'Yes. Every gym badge is drawn in-house. No supplement brands, gym chains or federation logos.',
+    made: 'Printed after you order it, then shipped. The art is the same old-school badge style on every color.',
     style: 'A gym tee should move with you: wear it with joggers or shorts on lifting days and over a hoodie on the walk in. Size up for a looser pump-cover fit.',
     label: 'Gym', who: 'lifters who train early and train often', themes: 'barbell, plate and grind-culture art with gym humor',
     faqs: (_P, s) => [
@@ -74,6 +92,9 @@ const N: Record<string, Niche> = {
     ],
   },
   football: {
+    about: (item) => `Football art here is about the game around the game: backyard kickoffs, mascots and Friday nights, drawn with no team or league marks. Each ${item} is printed when you order it.`,
+    original: 'Yes. Mascots and game-day scenes are invented for this shop, so there are no NFL, college or school logos.',
+    made: 'Each one is printed to order and shipped to you.',
     style: 'Game-day tees go with jeans and sneakers in the stands, or under a hoodie or quarter-zip once the sun drops on a Friday night.',
     label: 'Football', who: 'fans who plan their weekends around kickoff', themes: 'game-day, tailgate and Friday-night-lights art — original designs, no team marks',
     faqs: () => [
@@ -82,6 +103,9 @@ const N: Record<string, Niche> = {
     ],
   },
   soccermom: {
+    about: (item) => `Sideline designs built around the soccer ball, daisies and bubbly retro lettering, made for Saturday-morning games. Each ${item} is printed after you order it.`,
+    original: 'Yes. The soccer-mom art is drawn for this shop, with no club, league or jersey branding.',
+    made: 'Printed when you order it, then shipped, so the design is fresh off the press for the season.',
     style: 'Soccer mom tees are made for the sideline: pair one with leggings or shorts, sneakers and a folding chair. Layer a zip-up hoodie for early-morning games.',
     label: 'Soccer Mom', who: 'moms who spend Saturdays on the sideline', themes: 'sideline, cleat and orange-slice art for game day',
     faqs: () => [
@@ -90,21 +114,33 @@ const N: Record<string, Niche> = {
     ],
   },
   anime: {
+    about: (item) => `Original anime-style characters and scenes, drawn in-house rather than licensed. Each ${item} is printed when you order it.`,
+    original: 'Yes. Characters here are original anime-style art; nothing is taken from a show or manga.',
+    made: 'Each one is printed to order and shipped from there.',
     style: 'Anime-style tees work with wide-leg jeans, cargo pants or shorts and chunky sneakers. Layer one under an open overshirt for a streetwear look.',
     label: 'Anime-Style', who: 'fans of anime and manga art styles', themes: 'original anime-style characters and scenes — no licensed characters',
     faqs: () => [{ q: 'Do you sell licensed anime characters?', a: 'No. Every design is original anime-style art made for this shop.' }],
   },
   y2k: {
+    about: (item) => `Early-2000s graphics redrawn from scratch: chrome type, bubble letters and baby-tee-era shapes. Each ${item} is printed after you order it.`,
+    original: 'Yes. The Y2K lettering and graphics are drawn for this shop, not copied from old brand logos.',
+    made: 'Printed to order, then shipped to you.',
     style: 'Y2K tees are meant to be fitted or cropped: pair them with low-rise or wide-leg jeans, a mini skirt or cargo pants, and platform sneakers.',
     label: 'Y2K', who: 'anyone into early-2000s style', themes: 'chrome type, bubble letters and baby-tee-era graphics',
     faqs: () => [{ q: 'What is Y2K fashion?', a: 'Y2K fashion borrows from late-1990s and early-2000s style: bold logos, bubble lettering, chrome effects and fitted or cropped tees.' }],
   },
   vintage: {
+    about: (item) => `These are new shirts drawn to look like thrift-rack finds: faded colorways, distressed texture, badge layouts from the 1950s to the 1990s. Each ${item} is printed when you order it, so the worn look is in the art, not the fabric.`,
+    original: 'Yes. Every vintage-style badge and scene is original art. Nothing is a reprint of an old logo or a licensed character.',
+    made: 'Each one is printed new after you order it, then shipped. The vintage look comes from the illustration.',
     style: 'Vintage-inspired tees look best a little lived-in: wear one with straight-leg jeans, a denim jacket and worn-in boots or sneakers.',
     label: 'Vintage', who: 'people who dig through thrift racks for the perfect worn-in tee', themes: 'retro type, faded colorways and 70s–90s-inspired art',
     faqs: () => [{ q: 'Are these real vintage tees?', a: 'No. They are new tees with vintage-inspired designs — the look of a thrifted find, printed to order.' }],
   },
   heavyweight: {
+    about: (item) => `Our original designs on a thicker hoodie blank that holds its shape. Each ${item} is printed after you order it.`,
+    original: 'Yes. The art is the same original work as our tees, drawn for this shop.',
+    made: 'Printed to order on the heavyweight blank, then shipped.',
     style: "Heavyweight hoodies hold their shape, so they work as an outer layer on cool days. Pair one with jeans or joggers, or layer it under a jacket when it's cold.",
     label: 'Heavyweight', who: 'anyone who wants a thick hoodie that holds its shape', themes: 'our original designs printed on a heavier blank',
     faqs: () => [
@@ -113,16 +149,25 @@ const N: Record<string, Niche> = {
     ],
   },
   zipup: {
+    about: (item) => `Our original designs on full-zip hoodies, placed to show with the zipper open or closed. Each ${item} is printed when you order it.`,
+    original: 'Yes. Zip-up designs use the same original art as our tees.',
+    made: 'Printed to order, then shipped to you.',
     style: 'A zip-up hoodie layers over anything: wear it open over a graphic tee so the design shows, or zipped up on cold mornings.',
     label: 'Zip-Up', who: 'anyone who wants a hoodie they can throw on over anything', themes: 'our original designs on full-zip hoodies',
     faqs: () => [{ q: 'Where is the design on a zip-up hoodie?', a: 'Zip-ups split down the front, so designs sit on the back or as a smaller chest print.' }],
   },
   cropped: {
+    about: (item) => `Original art on a cropped cut that meets high-rise jeans and skirts, like a hand-drawn wildflower bouquet in a scalloped varsity patch. Each ${item} is printed after you order it.`,
+    original: 'Yes. The cropped designs are drawn for this shop. No brand logos or licensed characters.',
+    made: 'Each one is printed to order on a cropped blank, then shipped.',
     style: 'Cropped graphic tees pair with high-rise jeans, skirts and shorts so the hem meets the waistband. Add a denim jacket or an oversized flannel as a layer.',
     label: 'Cropped', who: 'anyone who wants a shorter, fitted graphic tee', themes: 'our original designs on a cropped cut that pairs with high-rise jeans and skirts',
     faqs: () => [{ q: 'What is a cropped tee?', a: 'A cropped tee is cut shorter than a standard tee, so the hem lands at or just above the waist. It pairs well with high-rise jeans, skirts and shorts.' }],
   },
   country: {
+    about: (item) => `Country designs here sound like the radio on a gravel road: a truck dial over the hills at sunset, a porch with sweet tea and fireflies, a boot full of desert blooms. Each ${item} is printed when you order it.`,
+    original: 'Yes. The porches, back roads and boots are original illustrations. No artist names, song lyrics or tour logos.',
+    made: 'Printed after you order it and shipped, so the design is ready for concert season.',
     style: 'Country graphic tees go with jeans or a denim skirt and boots. For a country concert, knot or tuck the hem, add a belt and a hat.',
     label: 'Country', who: 'women who grew up on country radio, dirt roads and rodeo weekends', themes: 'boots, desert florals, cowgirl humor and rodeo art',
     faqs: () => [
@@ -131,6 +176,9 @@ const N: Record<string, Niche> = {
     ],
   },
   footballmom: {
+    about: (item) => `Bleacher-ready art in 1970s screen-print style, with lightning bolts, stars and varsity lettering and no team marks. Each ${item} is printed after you order it.`,
+    original: 'Yes. The football-mom badges are drawn in-house and work for any team because they carry no school or league logos.',
+    made: 'Each one is printed to order, then shipped.',
     style: 'Wear your football mom tee with jeans or leggings and sneakers in the bleachers, and layer a hoodie or puffer vest for night games.',
     label: 'Football Mom', who: 'moms who spend Friday nights in the bleachers', themes: "game-day art for the bleachers",
     faqs: () => [
@@ -139,6 +187,9 @@ const N: Record<string, Niche> = {
     ],
   },
   baseballmom: {
+    about: (item) => `Ballpark art built around the stitched baseball: hearts, stars, daisies and distressed varsity letters. Each ${item} is printed when you order it.`,
+    original: 'Yes. The baseball-mom designs are drawn for this shop, with no MLB, travel-ball or school logos.',
+    made: 'Printed after you order it and shipped to you.',
     style: 'Baseball mom tees go with shorts or jeans, sneakers and a cap for long days at the ballpark. Bring a light layer for night games.',
     label: 'Baseball Mom', who: 'moms who live at the ballpark all spring', themes: 'diamond, bat and bleacher art',
     faqs: () => [
@@ -147,6 +198,9 @@ const N: Record<string, Niche> = {
     ],
   },
   nurse: {
+    about: (item) => `Nurse designs about the life around the shift: coffee, a stethoscope looped into a heart, 70s bubble lettering. Each ${item} is printed when you order it.`,
+    original: 'Yes. The nurse art is original. No hospital, school or scrub-brand logos.',
+    made: 'Each one is printed to order, then shipped. They\'re graphic tees, not scrubs.',
     style: 'Nurse tees are for off the clock: wear one with jeans or joggers on days off, at a Nurses Week event or a hospital fundraiser.',
     label: 'Nurse', who: 'nurses who want something to wear off the clock', themes: 'nurse humor and appreciation designs',
     faqs: () => [
@@ -155,11 +209,17 @@ const N: Record<string, Niche> = {
     ],
   },
   christian: {
+    about: (item) => `Faith designs drawn as quiet scenes rather than slogans: a sunrise and a small cross over a wildflower field. Each ${item} is printed after you order it.`,
+    original: 'Yes. Every faith design is original art made for this shop.',
+    made: 'Printed to order, then shipped to you.',
     style: 'Christian graphic tees work everywhere — church events, youth group, mission trips or everyday wear with jeans and sneakers.',
     label: 'Christian', who: 'people who want to wear their faith', themes: 'faith and scripture-inspired original art',
     faqs: () => [{ q: 'Are your Christian shirts original designs?', a: 'Yes. Every faith design is original art made for this shop.' }],
   },
   oversized: {
+    about: (item) => `Big front and back prints sized for a roomy fit, using our original art. Each ${item} is printed when you order it.`,
+    original: 'Yes. The oversized designs are original art, not stock graphics.',
+    made: 'Each one is printed to order, then shipped.',
     style: 'Oversized graphic tees balance best with slimmer bottoms: bike shorts, leggings or straight-leg jeans. Tuck one side of the front for shape.',
     label: 'Oversized', who: 'anyone who wants a relaxed, boxy fit', themes: 'big front and back prints made for a roomy fit',
     faqs: (_P, s) => [
@@ -202,7 +262,7 @@ function niche(
     h1: titleCase(P),
     intro: `Our ${P} are original graphic designs for ${n.who}. Expect ${n.themes}.`,
     sections: [
-      { h2: `What makes these ${P} different?`, body: `Every ${item} in this collection is an original design, printed when you order it. That means no warehouse of leftovers — and new designs added every month.` },
+      { h2: `What makes these ${P} different?`, body: n.about(item) },
       section === 'hoodies'
         ? { h2: `Same designs as our ${n.label.toLowerCase()} tees`, body: 'Every design here started as a tee. Grab the tee for warm days and the hoodie when it turns cold.' }
         : site.facts.hoodiesLive ? { h2: 'Want it warmer? It comes as a hoodie too', body: 'Most designs in this collection are also printed on hoodies, so the same art works when the weather turns.' } : null,
@@ -210,8 +270,8 @@ function niche(
     ].filter(Boolean) as { h2: string; body: string }[],
     faqs: [
       ...(n.faqs?.(P, section) ?? []),
-      { q: `Are these ${P} original designs?`, a: "Yes. Every design is drawn for this shop. We don't resell stock art or use licensed characters." },
-      { q: `How are the ${P} made?`, a: 'Each one is printed when you order it, then shipped to you.' },
+      { q: 'Are these original designs?', a: n.original },
+      { q: 'How are they made?', a: n.made },
       { q: `How long do ${P} take to ship?`, a: (f) => `Printing takes ${f.productionDays}, then your order ships. Delivery estimates are shown at checkout.`, needs: 'productionDays' },
       ...audienceFaqs(P),
     ],
@@ -223,7 +283,7 @@ function niche(
 function seasonal(
   season: 'halloween' | 'thanksgiving' | 'christmas',
   section: Section,
-  o: { slug: string; keyword: string; volume: number; kd: number; product: string; twin?: string; blurb: string; extra?: Faq[] },
+  o: { slug: string; keyword: string; volume: number; kd: number; product: string; twin?: string; blurb: string; extra?: Faq[]; intro?: string; sections?: { h2: string; body: string }[] },
 ): Collection {
   const label = titleCase(season);
   return {
@@ -237,8 +297,8 @@ function seasonal(
     title: `${titleCase(o.product)} — Original ${label} Designs`,
     description: `Original ${o.product}: ${o.blurb} Printed to order — new designs every season.`.slice(0, 158),
     h1: titleCase(o.product),
-    intro: `Our ${o.product} are original designs: ${o.blurb}`,
-    sections: [{ h2: `A new ${label} drop every year`, body: 'This collection gets new designs each season. Order early — printed-to-order items take time to make and ship.' }],
+    intro: o.intro ?? `Our ${o.product} are original designs: ${o.blurb}`,
+    sections: o.sections ?? [{ h2: `A new ${label} drop every year`, body: 'This collection gets new designs each season. Order early — printed-to-order items take time to make and ship.' }],
     faqs: [
       { q: `When should I order ${o.product}?`, a: (f) => `Order at least two weeks before you need it. Printing takes ${f.productionDays} before shipping.`, needs: 'productionDays' },
       { q: `Are your ${o.product} licensed characters?`, a: 'No. Every design is original art made for this shop.' },
@@ -329,9 +389,27 @@ export const tees: Collection[] = [
     shopifyHandle: 'graphic-tees-for-men',
   },
   seasonal('halloween', 'tees', { slug: 'halloween-shirts', keyword: 'halloween shirts', volume: 22200, kd: 58, product: 'Halloween shirts', twin: 'halloween-hoodies', blurb: 'horror-movie-night, spooky-season and costume-optional designs.',
-    extra: [{ q: 'Do you have horror movie shirts?', a: 'We make original horror-inspired designs. We don’t use movie names, characters or logos.' }] }),
+    extra: [{ q: 'Do you have horror movie shirts?', a: 'We make original horror-inspired designs. We don’t use movie names, characters or logos.' }],
+    // Facts only: every line below describes a design that's in the Shopify collection (2026-10-06).
+    intro: 'Our Halloween shirts are original designs for people who plan October around scary movies, pumpkin patches and porch-light trick-or-treat nights. Some lean spooky, some lean cute, and none of them use a movie name or a licensed character.',
+    sections: [
+      { h2: 'Spooky, retro and cute Halloween designs', body: 'The collection runs from horror-movie-night art to soft, playful prints. On the spooky side there’s a crooked haunted house under a full moon, a drive-in screen showing a moon and a bat, and a beat-up VHS cover with a glowing jack-o’-lantern. On the cute side there are groovy ghosts in sunglasses, a little ghost hugging a pumpkin, and a black cat asleep on a witch hat. Everything is drawn in a vintage screen-print style, so it reads like a thrift-store find rather than a costume.' },
+      { h2: 'Unisex and women’s fits', body: 'The haunted-house, drive-in and VHS designs are printed on unisex tees, so they work for men and women. The ghost, pumpkin-patch and black-cat designs come on a relaxed women’s cut. Sizes and colors are listed on each product, and every shirt is printed after you order it.' },
+      { h2: 'Where to wear a Halloween shirt', body: 'A horror double feature, a haunted hayride, the pumpkin patch, a costume-optional party, handing out candy on the porch, or the office on October 31st when you don’t want a full costume. Layer one under a flannel or a denim jacket once the nights get cold. Most of these designs still look right in November. Pair the cute designs with a cardigan for a pumpkin-patch photo; the horror ones go with jeans and a dark flannel.' },
+      { h2: 'Matching shirts for a group', body: 'Haunted house for one friend, ghosts for another: because the designs share the same vintage look, a group can each pick a different shirt and still look like they planned it. Or order one design in several sizes for the whole family.' },
+      { h2: 'Order early for October', body: 'Each shirt is printed to order and then shipped, so give yourself time before the party or the 31st. Delivery estimates show at checkout, and new Halloween designs are added as they’re drawn.' },
+    ] }),
   seasonal('thanksgiving', 'tees', { slug: 'thanksgiving-shirts', keyword: 'thanksgiving shirts', volume: 8100, kd: 57, product: 'Thanksgiving shirts', blurb: 'fall, football-and-turkey and family-table designs.',
-    extra: [{ q: 'Do you have matching Thanksgiving shirts for family?', a: 'Yes. Any design can be ordered in several sizes so the whole family matches.' }] }),
+    extra: [{ q: 'Do you have matching Thanksgiving shirts for family?', a: 'Yes. Any design can be ordered in several sizes so the whole family matches.' }],
+    intro: 'Our Thanksgiving shirts are original designs for the day itself: the backyard football game, the parade on TV and the long table that follows. Vintage-style art in warm fall colors, printed when you order it.',
+    sections: [
+      { h2: 'Football, turkey and the family table', body: 'There are two sides to the collection. For the game, a helmeted turkey mascot runs the ball inside a 1950s-style shield badge marked TURKEY BOWL. For the table, GIVE THANKS sits in chunky 1970s lettering over a cornucopia of pumpkins, apples, corn and sunflowers. Both are printed in burnt orange, mustard, rust, navy and cream, so they look right from October through the end of November.' },
+      { h2: 'Fits for everyone at the table', body: 'The Turkey Bowl design is printed on a unisex classic tee in sizes XS–5XL. Give Thanks comes on a relaxed women’s cut in S–3XL. Both are printed on soft, lightweight cotton, so they’re comfortable through a long afternoon of football and food. Each product page lists its colors.' },
+      { h2: 'What to wear on Thanksgiving', body: 'Something you can play a down of backyard football in and still sit through dinner. A soft cotton graphic tee with jeans does both. Add a flannel or a quarter-zip for the cold walk out to the yard, and take it off before the pie.' },
+      { h2: 'Why vintage-style Thanksgiving art', body: 'A lot of holiday shirts are a pun and a clip-art turkey. These are illustrations instead: a mascot badge that could have come from an old high-school program, and a harvest still life in 1970s type. They’re made to come out of the drawer every November, not once.' },
+      { h2: 'Matching shirts for the family', body: 'Order one design in several sizes and the whole family matches in the photo, or split it: Turkey Bowl for the players, Give Thanks for the hosts. They share the same vintage look, so they sit well side by side.' },
+      { h2: 'When to order', body: 'Every shirt is printed after you order it, then shipped. Order early in November so it arrives before the holiday; delivery estimates show at checkout.' },
+    ] }),
   // Buy-the-bottom build #1 (RankHero 2026-10-06): "christmas shirts for women" 5,400 / KD 14 — the easy modifier of "christmas shirts" (33,100 / KD 58).
   {
     slug: 'christmas-shirts-for-women', section: 'tees', audience: 'women', name: "Women's Christmas Shirts", seasonal: 'christmas',
@@ -358,7 +436,16 @@ export const tees: Collection[] = [
   seasonal('christmas', 'tees', { slug: 'christmas-shirts', keyword: 'christmas shirts', volume: 33100, kd: 58, product: 'Christmas shirts', twin: 'christmas-hoodies', blurb: 'holiday designs that work for the party, the family photo and the gift exchange.',
     extra: [
       { q: 'Do you have matching Christmas shirts for family or couples?', a: 'Yes. Any design can be ordered in several sizes so the whole family — or the two of you — match.' },
-      { q: 'Do you have funny Christmas shirts?', a: 'Yes. The collection mixes funny and classic holiday designs.' },
+      { q: 'Do you have funny Christmas shirts?', a: 'Not right now. The current designs are illustrated holiday scenes rather than jokes or puns.' },
+    ],
+    intro: 'Our Christmas shirts are original holiday designs for the tree farm, the cabin weekend and the family photo. Vintage-style illustrations instead of ugly-sweater gags, printed when you order them.',
+    sections: [
+      { h2: 'Four kinds of Christmas', body: 'A red pickup hauling a fresh-cut tree down a snowy back road. A log cabin glowing under a crescent moon with a deer nearby. A gingerbread house with candy-cane trim and two waving gingerbread people. MERRY & BRIGHT in groovy 1970s bubble letters, ringed with vintage ornaments. Each one is drawn as its own scene, so you can pick the December that looks like yours.' },
+      { h2: 'Unisex and women’s Christmas shirts', body: 'The tree-truck and cabin designs are printed on unisex classic tees in sizes up to 5XL, so they fit men and women. Gingerbread Lane and Merry & Bright come on a relaxed women’s cut in S–3XL; those two also live on our Christmas shirts for women page.' },
+      { h2: 'Where to wear them', body: 'A cabin weekend, a holiday open house, decorating the tree, a neighborhood lights walk, the office party or Christmas morning itself. On a tree-farm trip the red-truck design is the obvious pick; for a quiet night in, the cabin. Layer one under a flannel, or over a long-sleeve thermal when it’s cold out.' },
+      { h2: 'Not an ugly sweater', body: 'These are soft cotton tees with illustrated art, not novelty knits or light-up gags. They’re meant to be worn all December and pulled out again next year. Lightweight cotton also means you won’t overheat in a crowded living room with the fire going.' },
+      { h2: 'Matching Christmas shirts', body: 'Pick one design in several sizes for the family photo, or let everyone choose their own scene and let the shared vintage style tie them together. The unisex designs make it easy for couples to match.' },
+      { h2: 'Order before December gets busy', body: 'Each shirt is printed after you order it and then shipped, so order early in the season. Delivery estimates show at checkout, and new holiday designs join the collection as they’re drawn.' },
     ] }),
 ];
 

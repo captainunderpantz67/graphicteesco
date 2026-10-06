@@ -25,26 +25,43 @@ Style words (Oversized, Cropped, Heavyweight, Zip-Up) may appear anywhere in the
    or the Printful product type). Collect the union of tags. Unknown niche → add tag `needs-review`, skip copy, report it.
 3. **Pair twins:** same `<Design Name>` → tee ↔ hoodie. (The site links twins automatically by name.)
 4. **Pick keywords:** from `src/data/keyword-bank.json`, take the entries for this product's collections.
-   Choose **10–15 phrases that truly describe this design** (audience, theme, style, occasion). Prefer phrases with
+   Shortlist **5–8 phrases that truly describe this design** (you'll use one primary + 2–3 variants, see step 5) (audience, theme, style, occasion). Prefer phrases with
    low `kd` (or null — unmeasured long-tails are the point) and skip anything that names another brand, a licensed
    character, or something the product isn't (performance/UPF gear, kids sizes unless offered).
 5. **Write the product copy** — this is a brand, not a Printful listing. Exactly three `<h3>` sections, in this order
    (the site turns them into drawers, so the headings must match):
    - `<h3>The Story</h3>` — 2–3 short paragraphs in the brand voice: start with the feeling or moment the art is about,
-     then describe the art, then how/where to wear it. Weave in 4–6 chosen long-tail phrases naturally
-     (never a list of keywords). End with one line: "Original art, drawn for Graphic Tees Co. and printed the day you order it." — for AI-generated
+     then describe the art, then how/where to wear it. Weave in the one primary long-tail and 2–3 natural
+     variants (never a list of keywords). End with one line: "Original art, drawn for Graphic Tees Co. and printed the day you order it." — for AI-generated
      designs (tag `ai-art`) use "Original art, made for Graphic Tees Co. and printed the day you order it." instead.
      No superlatives, no invented backstory about people or places.
    - `<h3>Details &amp; Fit</h3>` — a clean `<ul>` rewritten from Printful's spec bullets: fit + neck, fabric (note blends
      only for colors actually offered), weight/pre-shrunk/side-seamed, size range, colors offered, blank origin.
      Facts must match Printful's data exactly; only the wording changes. Drop Printful's marketing sentence.
-   - `<h3>Questions</h3>` — 3 Q&As built from 3–4 more chosen phrases, as `<p><strong>Q?</strong><br>A.</p>`. Answers ≤ 2 sentences.
+   - `<h3>Questions</h3>` — 3 Q&As about this design (a variant phrase may appear in an answer, never as the question itself), as `<p><strong>Q?</strong><br>A.</p>`. Answers ≤ 2 sentences.
    - Never claim sizes, materials, shipping times or personalization unless they're in Printful's data.
    - **Read like a person wrote it.** Keyword phrases are topics, not strings to paste: use the natural, grammatical form
      ("a vintage fishing T-shirt", "fly fishing shirts for men") — never word-salad exact matches like "fishing t shirts
      vintage anglers would recognize" or "mens vintage fishing t shirts fans". If a phrase can't fit a normal sentence, skip it.
      Each phrase at most once. Questions must be ones a real shopper would type, not keyword strings with a question mark.
    - SEO description: one plain, human sentence (≤155 chars) that says what the shirt shows and who it's for.
+   - **One primary per product.** Pick ONE design-specific long-tail as the primary ("turkey bowl shirt", "black cat Halloween shirt",
+     "Christmas tree truck shirt"), plus 2–3 natural variants. Never use a collection's head term ("christmas shirts for women",
+     "mens gym shirts") as a product primary, and no two products in the same collection may share a primary. Record the primary in the log.
+     The SEO description leads with the primary.
+   - **Each exact keyword-bank phrase at most once per page, and on one product only.** If a sibling product already uses a phrase, pick another.
+   - **Banned phrasing:** "one of our ___ shirts", "one of your ___", "this is the one"; superlatives ("best", "favorite", "cool",
+     "perfect", "ultimate"); keyword strings as questions ("Is this a good football mom shirt idea for a gift?", "Do you make this as
+     a mens christmas shirts style?"); "...shirt idea for a gift". Write questions a shopper would ask about *this* design
+     (what's on it, how it fits, what to wear it with) and don't reuse another product's question wording.
+   - **Capitalization and apostrophes:** Christmas, Christian, Halloween, Thanksgiving, men's, women's. Never paste lowercase
+     autocomplete strings ("christmas shirts for women", "mens", "womens") into copy.
+   - **Vary the sizes answer.** Don't paste "S through 3XL in a relaxed fit." on every page; pair the size range with a real
+     detail of that product (colors with a restricted size run, how the cut fits).
+   - **Don't put work-wear claims on nurse/scrubs designs** ("with scrubs underneath"); they're graphic tees, not scrubs.
+   - **Lint before logging:** after the build, `python3 scripts/seo-audit.py` fails on "midweight" with a 3001/6400 (4.2 oz) blank,
+     any exact bank phrase used twice on a page or on two products, "one of our/your", and lowercase christmas/christian/mens/womens.
+     Fix the copy until it passes.
    - Fabric wording: Bella+Canvas 3001 and 6400 are *lightweight* 4.2 oz — never "midweight" or "heavyweight".
    - Cropped designs use the AS Colour 4062 women's crop top (XS–2XL; Bella+Canvas 6882GD only stocks L–2XL). Take its facts from Printful's spec bullets, not the 6400's.
    - Women-over-40 picks: a DESIGN NOTES line with EXTRA TAGS `graphic-tees-for-women-over-40` puts the product in that collection.

@@ -3,12 +3,15 @@ import Base from '../../layouts/Base.astro';
 import Faq from '../../components/Faq.astro';
 import { guides, type Guide } from '../../data/guides';
 import { article, faqPage, howTo, breadcrumbs } from '../../lib/schema';
+import { linkableSlugs, filterHrefs } from '../../lib/linkable';
 
 export function getStaticPaths() {
   return guides.map((g) => ({ params: { slug: g.slug }, props: { guide: g } }));
 }
 const { guide: g } = Astro.props as { guide: Guide };
 const path = `/guides/${g.slug}/`;
+// Only link to collections that have products and are indexable.
+const live = await linkableSlugs();
 const schema = [
   article({ title: g.h1, description: g.description, path, date: g.date }),
   faqPage(g.faqs),
@@ -33,7 +36,7 @@ const schema = [
       <>
         <h2>{s.h2}</h2>
         {s.body.map((b) => <p>{b}</p>)}
-        {s.links && <p class="flex flex-wrap gap-x-4">{s.links.map((l) => <a href={l.href} class="font-semibold underline decoration-[var(--color-rust)] underline-offset-4">{l.text} →</a>)}</p>}
+        {s.links && filterHrefs(s.links, live).length > 0 && <p class="flex flex-wrap gap-x-4">{filterHrefs(s.links, live).map((l) => <a href={l.href} class="font-semibold underline decoration-[var(--color-rust)] underline-offset-4">{l.text} →</a>)}</p>}
       </>
     ))}
     <div class="mt-12"><Faq faqs={g.faqs} /></div>
