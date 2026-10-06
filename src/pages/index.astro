@@ -70,6 +70,8 @@ const icons: Record<string, string> = {
   'nurse-shirts': 'nurse', 'christian-shirts': 'cross', 'oversized-graphic-tees': 'tee', 'vintage-graphic-tees': 'sun',
   'y2k-graphic-tees': 'bolt', 'anime-shirts': 'star',
 };
+// Close-up photos of a real print from each collection (public/bubbles/<slug>.webp); falls back to the icon.
+const bubbleImgs = new Set(['fishing-t-shirts', 'hunting-t-shirts', 'western-graphic-tees', 'country-graphic-tees', 'mens-gym-shirts', 'football-mom-shirts', 'christian-shirts', 'nurse-shirts']);
 const bubbles = ['fishing-t-shirts', 'hunting-t-shirts', 'western-graphic-tees', 'country-graphic-tees', 'mens-gym-shirts', 'football-mom-shirts', 'christian-shirts', 'nurse-shirts'].map((s) => bySlug(s)!);
 // Poster-card palettes for the women's row (bg, ink, accent)
 const tones = [
@@ -128,9 +130,15 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
       {bubbles.map((c) => (
         <li>
           <a href={pathFor(c)} class="group flex flex-col items-center text-center gap-3">
-            <span class="w-[clamp(64px,10vw,104px)] aspect-square rounded-full grid place-items-center bg-[var(--color-cream)] border-2 border-[var(--color-ink)] shadow-[3px_3px_0_var(--color-ink)] group-hover:bg-[var(--color-rust)] group-hover:text-[var(--color-cream)] group-hover:-translate-y-1 transition-all">
-              <Icon name={icons[c.slug]} class="w-1/2 h-1/2" />
-            </span>
+            {bubbleImgs.has(c.slug) ? (
+              <span class="w-[clamp(72px,11vw,112px)] aspect-square rounded-full overflow-hidden bg-[var(--color-ink)] border-2 border-[var(--color-ink)] shadow-[3px_3px_0_var(--color-ink)] group-hover:border-[var(--color-rust)] group-hover:shadow-[3px_3px_0_var(--color-rust)] group-hover:-translate-y-1 transition-all">
+                <img src={`/bubbles/${c.slug}.webp`} alt="" width="112" height="112" loading="lazy" class="w-full h-full object-cover group-hover:scale-[1.06] transition-transform duration-300" />
+              </span>
+            ) : (
+              <span class="w-[clamp(64px,10vw,104px)] aspect-square rounded-full grid place-items-center bg-[var(--color-cream)] border-2 border-[var(--color-ink)] shadow-[3px_3px_0_var(--color-ink)] group-hover:bg-[var(--color-rust)] group-hover:text-[var(--color-cream)] group-hover:-translate-y-1 transition-all">
+                <Icon name={icons[c.slug]} class="w-1/2 h-1/2" />
+              </span>
+            )}
             <span class="text-[11px] md:text-xs font-extrabold uppercase tracking-[.1em] leading-tight">{c.name}</span>
           </a>
         </li>
