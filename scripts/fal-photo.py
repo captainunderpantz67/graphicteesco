@@ -54,9 +54,18 @@ def fal_key() -> str:
     return k
 
 
-def data_uri(path: pathlib.Path) -> str:
-    mime = 'image/png' if path.suffix.lower() == '.png' else 'image/jpeg'
-    return f'data:{mime};base64,' + base64.b64encode(path.read_bytes()).decode()
+def data_uri(path: pathlib.Path, max_side: int = 1536) -> str:
+    # Print masters are 3600px / ~9MB — far too big to post. A 1536px copy is plenty for a reference.
+    import io
+    from PIL import Image
+    im = Image.open(path)
+    im.thumbnail((max_side, max_side), Image.LANCZOS)
+    buf = io.BytesIO()
+    if im.mode in ('RGBA', 'LA', 'P'):
+        im.convert('RGBA').save(buf, 'PNG', optimize=True); mime = 'image/png'
+    else:
+        im.convert('RGB').save(buf, 'JPEG', quality=90); mime = 'image/jpeg'
+    return f'data:{mime};base64,' + base64.b64encode(buf.getvalue()).decode()
 
 
 def call(model_id: str, payload: dict, key: str) -> dict:

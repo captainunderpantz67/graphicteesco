@@ -10,6 +10,27 @@ Goal: fill each of the three lowest-KD collections to **14 products**. Counts re
 
 **Order:** Christmas briefs 1–10 first — they need to be live and indexed before December. Then gym (highest volume, lowest KD), then western.
 
+
+## Keyword check — RankHero, measured 2026-10-06 (supersedes the "unmeasured" marks below)
+
+**Keep (measured demand):** bull riding shirt 720/KD30 · vintage rodeo shirt 320/32 · deadlift shirt 210/33 · strongman shirt 170/34 · kettlebell shirt 140/36 · wild horse shirt 140/36 · barrel racing shirt 390/38 · boxing gym shirt 210/40 · leg day shirt 260/42 · horseshoe shirt 210/42 · gym rat shirt 720/43 · cow skull shirt 480/46 · cowboy boots shirt 590/48 · howdy shirt 480/53 · cowgirl graphic tee 480/56 · Christmas cookie shirt 210/56 · Christmas movie shirt 480/60 · retro Santa shirt 390/60 · Christmas lights shirt 320/60 · ranch hand shirt 30/50 (weak)
+Christmas long-tails are all KD 56+: those products exist to deepen `/christmas-shirts-for-women/` (KD 14), not to rank alone.
+
+**Swap (no measurable demand) → replacement primary:**
+| Brief | Old primary (dead) | New primary | Vol / KD |
+|---|---|---|---|
+| Hot Cocoa Club | hot cocoa Christmas shirt | snowman shirt (redesign around a vintage snowman) | 1,600 / 46 |
+| Vintage ornament | vintage ornament Christmas shirt | Christmas tree shirt (a decorated vintage tree) | 27,100 / 46 |
+| Wreath | Christmas wreath shirt | Christmas cat shirt (cat in the wreath) | 880 / 56 |
+| Reindeer | reindeer Christmas shirt | Christmas dog shirt (dog in reindeer antlers) | 880 / 63 |
+| Garage gym | garage gym shirt | **pump cover** (oversized gym tee) | **22,200 / 28** |
+| Early morning workout | early morning workout shirt | lifting shirt | 1,900 / 40 |
+| Rest day | rest day shirt | bodybuilding shirt | 1,600 / 36 |
+| Cowboy hat | cowboy hat graphic tee | **rodeo t shirt** | **5,400 / 32** |
+| Cowboy coffee | cowboy coffee shirt | cactus shirt | 720 / 50 |
+
+**New collection-level opportunities found:** `pump cover` 22,200 / KD 28 (oversized gym shirts — candidate collection `/pump-covers/` on an oversized blank) · `rodeo t shirt` 5,400 / KD 32 (candidate collection or western sub-page) · `christmas tree shirt` 27,100 / KD 46 · `bodybuilding shirt` 1,600 / 36 · `lifting shirt` 1,900 / 40.
+
 ## Rules every brief follows
 - **Art:** original, vintage screen-print look, 3–4 ink limited palette (burnt orange, mustard, navy, cream, plus a seasonal accent). No licensed characters, brands, sports teams, associations, gym chains, film/song titles or real places' trademarks. Designs that echo an existing product (barbell/plate crests, desert scenes, dirt roads, gingerbread, cabins, tree trucks, "Merry & Bright") were left out.
 - **Title / handle:** SOP convention `<Audience> <Niche> – <Design> Tee`; handle `<audience>-<niche>-<design>-graphic-tee`. $29.99 flat.
