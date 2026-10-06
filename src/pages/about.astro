@@ -10,7 +10,7 @@ const live = await linkableSlugs();
 
 const faqs = resolveFaqs([
   { q: `Who designs ${site.name} shirts?`, a: 'Every design is drawn in-house by our designer — one of the two brothers who run the shop. We don’t buy stock art.' },
-  { q: `Is ${site.name} a print-on-demand shop?`, a: 'Yes. Each tee and hoodie is printed after you order it by our print partner, then shipped to you. That lets us release new designs every month without a warehouse of leftovers.' },
+  { q: `Is ${site.name} a print-on-demand shop?`, a: `Yes. Each ${site.facts.hoodiesLive ? 'tee and hoodie' : 'tee'} is printed after you order it by our print partner, then shipped to you. That lets us release new designs every month without a warehouse of leftovers.` },
   { q: 'Do you sell licensed characters or team logos?', a: 'No. Every design is original. No characters, team marks, show names or logos.' },
   { q: 'How often do you release new designs?', a: 'A new collection drops every month, timed to the season — Halloween in October, Thanksgiving in November, Christmas in December.' },
   { q: 'Why are your collections organized by hobby?', a: 'Because that’s how people actually shop for a graphic tee — they want one about the lake, the deer stand, the ranch or the gym.' },
@@ -19,7 +19,7 @@ const faqs = resolveFaqs([
 const evergreen = [...tees, ...hoodies].filter((c) => !c.seasonal);
 ---
 <Base title={`About ${site.name} — Two Brothers, Original Designs`}
-  description={`${site.name} is two brothers making original graphic tees and hoodies — one draws every design, the other runs the shop. New collection every month.`}
+  description={`${site.name} is two brothers making original graphic tees${site.facts.hoodiesLive ? ' and hoodies' : ''} — one draws designs, the other runs the shop. New collection every month.`}
   schema={[aboutPage(), faqPage(faqs), breadcrumbs([{ name: 'Home', path: '/' }, { name: 'About', path: '/about/' }])]}>
   <section class="grain border-b border-[var(--color-line)]">
     <div class="container-x py-14 max-w-3xl">
@@ -37,7 +37,7 @@ const evergreen = [...tees, ...hoodies].filter((c) => !c.seasonal);
       <!-- TODO(Sam): 2–3 sentences of real story — where you're from, why your brother started drawing, the first design. Real details are what earn trust with Google and AI answer engines. -->
 
       <h2>How our graphic tees are made</h2>
-      <p>Every tee and hoodie is printed after you order it, then shipped straight to you. Nothing sits in a warehouse, which is how we can release a new collection every month.</p>
+      <p>Every {site.facts.hoodiesLive ? 'tee and hoodie' : 'tee'} is printed after you order it, then shipped straight to you. Nothing sits in a warehouse, which is how we can release a new collection every month.</p>
       {site.facts.teeBlank && <p>Our tees are printed on {site.facts.teeBlank}.</p>}
       {site.facts.hoodieBlank && <p>Our hoodies are printed on {site.facts.hoodieBlank}.</p>}
 
@@ -45,7 +45,7 @@ const evergreen = [...tees, ...hoodies].filter((c) => !c.seasonal);
       <ul class="list-disc pl-5 grid gap-2 text-[var(--color-ink-2)]">
         <li><strong>Original art only.</strong> No licensed characters, team logos or stock graphics.</li>
         <li><strong>Built around what you do.</strong> Collections are organized by hobby and season, not trend.</li>
-        <li><strong>Tee and hoodie.</strong> Most designs come on both, so the art works year-round.</li>
+        {site.facts.hoodiesLive && <li><strong>Tee and hoodie.</strong> Most designs come on both, so the art works year-round.</li>}
         <li><strong>Something new every month.</strong> A seasonal collection drops monthly.</li>
       </ul>
 

@@ -17,7 +17,7 @@ export const organization = () => ({
   image: `${site.url}/og-default.png`,
   description: site.entity,
   slogan: site.tagline,
-  knowsAbout: ['graphic tees', 'graphic hoodies', ...all.filter((c) => !c.seasonal).map((c) => c.keyword)],
+  knowsAbout: ['graphic tees', ...(site.facts.hoodiesLive ? ['graphic hoodies'] : []), ...all.filter((c) => !c.seasonal).map((c) => c.keyword)],
   ...(site.instagram ? { sameAs: [`https://instagram.com/${site.instagram}`] } : {}),
   ...(site.email ? { contactPoint: { '@type': 'ContactPoint', contactType: 'customer support', email: site.email } } : {}),
   ...(site.founders.length ? { founder: site.founders.map((f) => ({ '@type': 'Person', name: f.name, jobTitle: f.role })) } : {}),
