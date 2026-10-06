@@ -71,6 +71,16 @@ const icons: Record<string, string> = {
   'y2k-graphic-tees': 'bolt', 'anime-shirts': 'star',
 };
 // Photo-real icon images (public/bubbles/<slug>.webp) when listed here; otherwise the line icon.
+// Hand-made lifestyle photos for the women's collection cards (public/cards/<slug>.webp): each one shot in the shirt's own world.
+const cardImgs: Record<string, { src: string; alt: string }> = {
+  'football-mom-shirts': { src: '/cards/football-mom-shirts.webp', alt: 'Mom sitting in the home bleachers at a Friday night football game in a navy Football Mom graphic tee' },
+  'baseball-mom-shirts': { src: '/cards/baseball-mom-shirts.webp', alt: 'Mom on the ballpark bleachers at golden hour in a navy Baseball Mom graphic tee' },
+  'soccer-mom-shirts': { src: '/cards/soccer-mom-shirts.webp', alt: 'Mom on the youth soccer sideline in a navy Soccer Mom graphic tee' },
+  'nurse-shirts': { src: '/cards/nurse-shirts.webp', alt: 'Nurse with coffee outside the hospital after a night shift in a black Nurse Life graphic tee' },
+  'christian-shirts': { src: '/cards/christian-shirts.webp', alt: 'Woman outside a white country church on Sunday morning in a Grace Wins Christian graphic tee' },
+  'graphic-tees-for-women-over-40': { src: '/cards/graphic-tees-for-women-over-40.webp', alt: 'Woman in her fifties on a front porch with sweet tea in a Sweet Tea & Sunsets graphic tee' },
+  'cropped-graphic-tees': { src: '/cards/cropped-graphic-tees.webp', alt: 'Young woman in a wildflower meadow wearing a black Wildflower Club cropped graphic tee' },
+};
 const bubbleImgs = new Set<string>(['fishing-t-shirts', 'hunting-t-shirts', 'western-graphic-tees', 'country-graphic-tees', 'mens-gym-shirts', 'football-mom-shirts', 'christian-shirts', 'nurse-shirts']);
 const bubbles = ['fishing-t-shirts', 'hunting-t-shirts', 'western-graphic-tees', 'country-graphic-tees', 'mens-gym-shirts', 'football-mom-shirts', 'christian-shirts', 'nurse-shirts'].map((s) => bySlug(s)!);
 // Poster-card palettes for the women's row (bg, ink, accent)
@@ -185,11 +195,11 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
     <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
       {womens.map((c, i) => {
         const [bg, fg, ac] = tones[i % tones.length];
-        const ph = photoFor(c.slug);
+        const ph = cardImgs[c.slug] ? { url: cardImgs[c.slug].src, altText: cardImgs[c.slug].alt, local: true } : photoFor(c.slug);
         return ph ? (
           <a href={pathFor(c)} class="group relative overflow-hidden rounded-[18px] border-2 border-[var(--color-ink)] aspect-[4/5] p-[7px] flex shadow-[4px_4px_0_var(--color-ink)] hover:-translate-y-1 hover:shadow-[6px_8px_0_var(--color-ink)] transition-all" style={`background:${bg};color:${fg}`}>
             <span class="relative flex-1 overflow-hidden rounded-[12px]">
-              <img src={img(ph.url, 600)} alt={ph.altText ?? c.h1} loading="lazy" width="600" height="750" class="absolute inset-0 w-full h-full object-cover object-[50%_20%] group-hover:scale-[1.04] transition-transform duration-500" />
+              <img src={(ph as any).local ? ph.url : img(ph.url, 600)} alt={ph.altText ?? c.h1} loading="lazy" width="600" height="750" class="absolute inset-0 w-full h-full object-cover object-[50%_20%] group-hover:scale-[1.04] transition-transform duration-500" />
               <span class="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-black/85 via-black/45 to-transparent" aria-hidden="true"></span>
               <span class="absolute top-3 left-3 w-11 h-11 rounded-full grid place-items-center border-2 bg-black/30 backdrop-blur-[2px]" style={`border-color:${bg};color:${bg}`}><Icon name={icons[c.slug]} class="w-6 h-6" /></span>
               <span class="absolute inset-x-4 bottom-4 text-[var(--color-cream)]">
@@ -274,15 +284,33 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
 
   <!-- ANSWERS + FAQ (SEO engine) -->
   <section class="container-x mt-20 grid lg:grid-cols-[2fr_1fr] gap-12">
-    <div class="prose-copy">
-      <p class="eyebrow">Graphic tees, answered</p>
-      {answers.map((x) => (
-        <>
-          <h2>{x.q}</h2>
-          <p>{x.a}</p>
-          {x.link && <p><a href={x.link.href} class="font-bold underline decoration-[var(--color-rust)] decoration-2 underline-offset-4">{x.link.text} →</a></p>}
-        </>
-      ))}
+    <div class="prose-copy min-w-0">
+      <!-- Answer cards: a swipeable row. Every question/answer stays in the HTML (h2 + p) for search. -->
+      <div class="not-prose flex items-end justify-between gap-4">
+        <p class="display text-[clamp(2.4rem,9vw,3.75rem)] leading-[.9]" style="color:var(--color-ink)">Graphic tees, <span class="text-[var(--color-rust)]">answered</span></p>
+        <div class="hidden sm:flex gap-2 shrink-0" data-answers-nav>
+          <button type="button" aria-label="Previous answer" data-dir="-1" class="w-11 h-11 rounded-full border-2 border-[var(--color-ink)] bg-[var(--color-cream)] shadow-[2px_2px_0_var(--color-ink)] font-bold hover:bg-[var(--color-rust)] hover:text-[var(--color-cream)]">←</button>
+          <button type="button" aria-label="Next answer" data-dir="1" class="w-11 h-11 rounded-full border-2 border-[var(--color-ink)] bg-[var(--color-cream)] shadow-[2px_2px_0_var(--color-ink)] font-bold hover:bg-[var(--color-rust)] hover:text-[var(--color-cream)]">→</button>
+        </div>
+      </div>
+      <div data-answers class="not-prose mt-6 -mx-4 px-4 flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        {answers.map((x, i) => {
+          const [bg, fg, ac] = tones[i % tones.length];
+          return (
+            <article class="snap-start shrink-0 w-[84%] sm:w-[60%] md:w-[46%] rounded-[18px] border-2 border-[var(--color-ink)] shadow-[4px_4px_0_var(--color-ink)] p-6 flex flex-col" style={`background:${bg};color:${fg}`}>
+              <span class="display text-5xl leading-none" style={`color:${ac}`}>{String(i + 1).padStart(2, '0')}</span>
+              <h2 class="display mt-3 text-[1.9rem] leading-[.95]" style={`color:${fg}`}>{x.q}</h2>
+              <p class="mt-3 text-[15px] leading-relaxed" style={`color:${fg};opacity:.92`}>{x.a}</p>
+              {x.link && <a href={x.link.href} class="mt-auto pt-4 font-bold uppercase tracking-[.12em] text-xs" style={`color:${bg === 'var(--color-navy)' ? 'var(--color-mustard)' : ac}`}>{x.link.text} →</a>}
+            </article>
+          );
+        })}
+      </div>
+      <script>
+        const track = document.querySelector<HTMLElement>('[data-answers]');
+        document.querySelectorAll<HTMLButtonElement>('[data-answers-nav] button').forEach((b) =>
+          b.addEventListener('click', () => track?.scrollBy({ left: Number(b.dataset.dir) * track.clientWidth * 0.8, behavior: 'smooth' })));
+      </script>
       <div class="mt-12"><Faq faqs={faqs} heading="Graphic tee FAQ" /></div>
     </div>
     <aside class="self-start lg:sticky lg:top-24 rounded-[18px] border-2 border-[var(--color-ink)] bg-[var(--color-cream)] p-6 shadow-[4px_4px_0_var(--color-ink)]">
