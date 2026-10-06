@@ -71,7 +71,7 @@ const icons: Record<string, string> = {
   'y2k-graphic-tees': 'bolt', 'anime-shirts': 'star',
 };
 // Photo-real icon images (public/bubbles/<slug>.webp) when listed here; otherwise the line icon.
-const bubbleImgs = new Set<string>([]);
+const bubbleImgs = new Set<string>(['fishing-t-shirts', 'hunting-t-shirts', 'western-graphic-tees', 'country-graphic-tees', 'mens-gym-shirts', 'football-mom-shirts', 'christian-shirts', 'nurse-shirts']);
 const bubbles = ['fishing-t-shirts', 'hunting-t-shirts', 'western-graphic-tees', 'country-graphic-tees', 'mens-gym-shirts', 'football-mom-shirts', 'christian-shirts', 'nurse-shirts'].map((s) => bySlug(s)!);
 // Poster-card palettes for the women's row (bg, ink, accent)
 const tones = [
@@ -126,13 +126,13 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
     <div class="flex items-end justify-between gap-4">
       <h2 class="display text-5xl md:text-6xl">Graphic tees for <span class="text-[var(--color-rust)]">what you do</span></h2>
     </div>
-    <ul class="mt-8 grid grid-cols-4 md:grid-cols-8 gap-x-3 gap-y-6">
+    <ul class="mt-8 grid grid-cols-4 md:grid-cols-8 gap-x-2 md:gap-x-4 gap-y-6">
       {bubbles.map((c) => (
         <li>
           <a href={pathFor(c)} class="group flex flex-col items-center text-center gap-3">
             {bubbleImgs.has(c.slug) ? (
-              <span class="w-[clamp(72px,11vw,112px)] aspect-square rounded-full overflow-hidden bg-[var(--color-ink)] border-2 border-[var(--color-ink)] shadow-[3px_3px_0_var(--color-ink)] group-hover:border-[var(--color-rust)] group-hover:shadow-[3px_3px_0_var(--color-rust)] group-hover:-translate-y-1 transition-all">
-                <img src={`/bubbles/${c.slug}.webp`} alt="" width="112" height="112" loading="lazy" class="w-full h-full object-cover group-hover:scale-[1.06] transition-transform duration-300" />
+              <span class="w-full max-w-[140px] aspect-[5/4] rounded-[50%] overflow-hidden bg-[#efe6d2] border-2 border-[var(--color-ink)] shadow-[3px_3px_0_var(--color-ink)] group-hover:border-[var(--color-rust)] group-hover:shadow-[3px_3px_0_var(--color-rust)] group-hover:-translate-y-1 transition-all">
+                <img src={`/bubbles/${c.slug}.webp`} alt="" width="140" height="112" loading="lazy" class="w-full h-full object-cover group-hover:scale-[1.06] transition-transform duration-300" />
               </span>
             ) : (
               <span class="w-[clamp(64px,10vw,104px)] aspect-square rounded-full grid place-items-center bg-[var(--color-cream)] border-2 border-[var(--color-ink)] shadow-[3px_3px_0_var(--color-ink)] group-hover:bg-[var(--color-rust)] group-hover:text-[var(--color-cream)] group-hover:-translate-y-1 transition-all">
