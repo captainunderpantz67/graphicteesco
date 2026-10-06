@@ -6,3 +6,4 @@ dist/
 
 # print files live in the Printful library; keep only brand assets in git
 designs/*.png
+designs/fal/
