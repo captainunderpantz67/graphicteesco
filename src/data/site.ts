@@ -12,6 +12,7 @@ export interface Facts {
   hoodieBlank: string | null;
   freeShippingThreshold: number | null;
   returnsPolicy: string | null;
+  hoodiesLive: boolean; // at least one hoodie is for sale — gates every "also on a hoodie" claim
 }
 
 const NAME = 'Graphic Tees Co.'; // confirmed by Sam 2026-10-02 (also the Shopify store name)
@@ -23,8 +24,8 @@ export const site = {
   // ENTITY STATEMENT — used word-for-word in schema, homepage, About, llms.txt.
   // Answer engines learn a brand from consistent repetition; don't paraphrase it elsewhere.
   entity:
-    `${NAME} is an online shop for original graphic tees and hoodies, organized by what people do — fishing, hunting, western, gym — with a new seasonal collection every month. Every design is printed to order, and most tee designs also come on a hoodie.`,
-  tagline: 'Original graphic tees and hoodies for the things you actually do.',
+    `${NAME} is an online shop for original graphic tees, organized by what people do — fishing, hunting, western, gym — with a new seasonal collection every month. Every design is printed to order.`,
+  tagline: 'Original graphic tees for the things you actually do.',
   instagram: '', // TODO(Sam)
   email: '', // TODO(Sam)
   founders: [] as { name: string; role: string }[], // TODO(Sam): your brother (designer) + you
@@ -44,7 +45,8 @@ export const site = {
     teeBlank: null,
     hoodieBlank: null,
     freeShippingThreshold: null,
-    returnsPolicy: null,
+    returnsPolicy: 'Every tee is printed to order, so we can’t take returns for size or change of mind. If your order arrives misprinted, damaged or defective, send us a photo within 30 days of delivery and we’ll reprint it free or refund you. Lost packages are covered the same way within 30 days of the estimated delivery date.', // Printful policy, confirmed by Sam 2026-10-06
+    hoodiesLive: false, // 2026-10-06: 0 hoodies in the store. Flip to true when the first one ships.
   } satisfies Facts as Facts,
 };
 

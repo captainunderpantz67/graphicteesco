@@ -5,6 +5,7 @@
 // and stays hidden until that fact is set in site.ts.
 // Order within each section = easiest to rank first (build order).
 import type { Faq } from './site';
+import { site } from './site';
 
 export type Section = 'tees' | 'hoodies';
 
@@ -171,6 +172,16 @@ const N: Record<string, Niche> = {
 
 const titleCase = (s: string) => s.replace(/(^|[\s-])(\w)/g, (_m, pre, c) => pre + c.toUpperCase());
 
+// Meta descriptions: keep whole sentences under 155 chars, never cut a word in half.
+function metaTrim(text: string, max = 155): string {
+  if (text.length <= max) return text;
+  const sentences = text.match(/[^.!?]+[.!?]+/g) ?? [text];
+  let out = '';
+  for (const s of sentences) { if ((out + s).trim().length > max) break; out += s; }
+  if (out.trim()) return out.trim();
+  return text.slice(0, max).replace(/\s+\S*$/, '').replace(/[,;:—–-]\s*$/, '') + '…';
+}
+
 function niche(
   n: Niche,
   section: Section,
@@ -187,16 +198,16 @@ function niche(
     volume: o.volume,
     kd: o.kd,
     title: `${titleCase(P)} — Original Graphic Designs`,
-    description: `Original ${P} for ${n.who}. ${n.themes.charAt(0).toUpperCase() + n.themes.slice(1)}. Printed to order.`.slice(0, 158),
+    description: metaTrim(`${titleCase(P)} for ${n.who}. ${n.themes.charAt(0).toUpperCase() + n.themes.slice(1)}. Printed to order.`),
     h1: titleCase(P),
     intro: `Our ${P} are original graphic designs for ${n.who}. Expect ${n.themes}.`,
     sections: [
       { h2: `What makes these ${P} different?`, body: `Every ${item} in this collection is an original design, printed when you order it. That means no warehouse of leftovers — and new designs added every month.` },
       section === 'hoodies'
         ? { h2: `Same designs as our ${n.label.toLowerCase()} tees`, body: 'Every design here started as a tee. Grab the tee for warm days and the hoodie when it turns cold.' }
-        : { h2: 'Want it warmer? It comes as a hoodie too', body: 'Most designs in this collection are also printed on hoodies, so the same art works when the weather turns.' },
+        : site.facts.hoodiesLive ? { h2: 'Want it warmer? It comes as a hoodie too', body: 'Most designs in this collection are also printed on hoodies, so the same art works when the weather turns.' } : null,
       ...(n.style ? [{ h2: `How to wear ${P}`, body: n.style }] : []),
-    ],
+    ].filter(Boolean) as { h2: string; body: string }[],
     faqs: [
       ...(n.faqs?.(P, section) ?? []),
       { q: `Are these ${P} original designs?`, a: "Yes. Every design is drawn for this shop. We don't resell stock art or use licensed characters." },
@@ -255,9 +266,9 @@ export const tees: Collection[] = [
     faqs: [
       { q: 'Are these graphic tees original designs?', a: 'Yes. Every design is made for this shop — no licensed characters or resold stock art.' },
       { q: 'Do you have graphic tees for women over 40 or over 50?', a: 'Yes. Our designs aren’t made for one age group. See our graphic tees for women over 40 page for fit and styling ideas.' },
-      { q: 'Do you have oversized or cropped graphic tees for women?', a: 'Yes — see our oversized graphic tees and cropped graphic tees collections.' },
+      { q: 'Do you have cropped graphic tees for women?', a: 'Yes — see our cropped graphic tees collection.' },
       { q: 'Do you have plus size graphic tees for women?', a: (f) => `Sizes run ${f.sizeRange}. Check the size chart on each product.`, needs: 'sizeRange' },
-      { q: 'Do the designs come on hoodies too?', a: 'Yes. Most designs are also printed on hoodies.' },
+      { q: 'Do the designs come on hoodies too?', a: 'Yes. Most designs are also printed on hoodies.', needs: 'hoodiesLive' },
     ],
     shopifyHandle: 'graphic-tees-for-women',
   },
@@ -281,7 +292,7 @@ export const tees: Collection[] = [
       { q: 'Are graphic tees age-appropriate after 60?', a: 'They can be. Pick designs that reflect your interests and a fit that skims rather than clings.' },
       ...audienceFaqs('graphic tees'),
     ],
-    shopifyHandle: 'graphic-tees-for-women',
+    shopifyHandle: 'graphic-tees-for-women-over-40',
   },
   niche(N.footballmom, 'tees', { slug: 'football-mom-shirts', keyword: 'football mom shirts', volume: 3600, kd: 50, product: 'football mom shirts', audience: 'women', name: 'Football Mom Shirts' }),
   niche(N.baseballmom, 'tees', { slug: 'baseball-mom-shirts', keyword: 'baseball mom shirts', volume: 3600, kd: 50, product: 'baseball mom shirts', audience: 'women', name: 'Baseball Mom Shirts' }),
@@ -313,7 +324,7 @@ export const tees: Collection[] = [
       { q: 'Are these graphic tees original designs?', a: 'Yes. Every design is made for this shop — no licensed characters or resold stock art.' },
       { q: 'Do you have graphic tees for men over 40 or over 50?', a: 'Yes. Fishing, hunting, western and gym designs are made for grown men with real hobbies, not one age group.' },
       { q: 'Do you have big and tall or 3XL graphic tees?', a: (f) => `Sizes run ${f.sizeRange}. Check the size chart on each product.`, needs: 'sizeRange' },
-      { q: 'Do the designs come on hoodies too?', a: 'Yes. Most designs are also printed on hoodies.' },
+      { q: 'Do the designs come on hoodies too?', a: 'Yes. Most designs are also printed on hoodies.', needs: 'hoodiesLive' },
     ],
     shopifyHandle: 'graphic-tees-for-men',
   },

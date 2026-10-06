@@ -17,7 +17,8 @@ const menPhoto = photoOf('mens-gym-iron-sweat-graphic-tee', 'graphic-tees-for-me
 const womenPhoto = photoOf('womens-christmas-merry-bright-graphic-tee', 'graphic-tees-for-women');
 const img = (u: string, w: number) => `${u}${u.includes('?') ? '&' : '?'}width=${w}`;
 
-const womens = tees.filter((c) => c.audience === 'women' && c.slug !== 'graphic-tees-for-women');
+// Only collections that actually have products get a card (an empty page is a dead end and won't be indexed).
+const womens = tees.filter((c) => c.audience === 'women' && c.slug !== 'graphic-tees-for-women' && allProducts.some((p) => p.collections?.includes(c.shopifyHandle)));
 const outdoors = ['fishing-t-shirts', 'hunting-t-shirts', 'western-graphic-tees', 'mens-gym-shirts', 'football-shirts', 'soccer-mom-shirts'].map((s) => bySlug(s)!);
 const styles = ['oversized-graphic-tees', 'vintage-graphic-tees', 'y2k-graphic-tees', 'anime-shirts'].map((s) => bySlug(s)!);
 const drop = tees.find((c) => c.seasonal === 'halloween')!;
@@ -56,7 +57,7 @@ const answers = [
 
 const faqs = resolveFaqs([
   { q: 'Are your graphic tees original designs?', a: 'Yes. Every design is made for this shop — no licensed characters or resold stock art.' },
-  { q: 'Do your graphic tee designs come on hoodies?', a: 'Yes. Most tee designs are also printed on hoodies, so you can wear the same art all year.' },
+  { q: 'Do your graphic tee designs come on hoodies?', a: 'Yes. Most tee designs are also printed on hoodies, so you can wear the same art all year.', needs: 'hoodiesLive' },
   { q: 'How often do you release new graphic tees?', a: 'A new collection drops every month, timed to the season.' },
   { q: 'How are your graphic tees made?', a: 'Each one is printed after you order it, then shipped to you. Nothing sits in a warehouse.' },
   { q: 'How long does shipping take?', a: (f) => `Printing takes ${f.productionDays}, then your order ships. Delivery estimates show at checkout.`, needs: 'productionDays' },
@@ -78,7 +79,6 @@ const cardImgs: Record<string, { src: string; alt: string }> = {
   'soccer-mom-shirts': { src: '/cards/soccer-mom-shirts.webp', alt: 'Mom on the youth soccer sideline in a navy Soccer Mom graphic tee' },
   'nurse-shirts': { src: '/cards/nurse-shirts.webp', alt: 'Nurse with coffee outside the hospital after a night shift in a black Nurse Life graphic tee' },
   'christian-shirts': { src: '/cards/christian-shirts.webp', alt: 'Woman outside a white country church on Sunday morning in a Grace Wins Christian graphic tee' },
-  'graphic-tees-for-women-over-40': { src: '/cards/graphic-tees-for-women-over-40.webp', alt: 'Woman in her fifties on a front porch with sweet tea in a Sweet Tea & Sunsets graphic tee' },
   'cropped-graphic-tees': { src: '/cards/cropped-graphic-tees.webp', alt: 'Young woman in a wildflower meadow wearing a black Wildflower Club cropped graphic tee' },
 };
 const bubbleImgs = new Set<string>(['fishing-t-shirts', 'hunting-t-shirts', 'western-graphic-tees', 'country-graphic-tees', 'mens-gym-shirts', 'football-mom-shirts', 'christian-shirts', 'nurse-shirts']);
@@ -93,7 +93,7 @@ const tones = [
 const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom', 'Faith', 'Nurse', 'Vintage', 'Halloween'];
 ---
 <Base title={`Graphic Tees for Men & Women — Original Designs`}
-  description="Original graphic tees for men and women: fishing, hunting, western, country and gym designs. Every design also on a hoodie. New collection every month."
+  description="Original graphic tees for men and women: fishing, hunting, western, country and gym designs, printed to order. New collection every month."
   schema={[faqPage([...answers, ...faqs]), itemListOfCollections([...tees, ...hoodies], 'Graphic tee and hoodie collections')]}>
 
   <!-- HERO -->
@@ -103,7 +103,7 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
       <div>
         <p class="eyebrow rise" style="animation-delay:.05s">Original art · Printed to order · New drop every month</p>
         <h1 class="mt-4 rise" style="animation-delay:.15s">
-          <span class="display misprint block text-[clamp(4.2rem,13vw,10.5rem)]">Graphic Tees</span>
+          <span class="display misprint block text-[clamp(4.2rem,13vw,10.5rem)]">Graphic Tees</span>{" "}
           <span class="script block text-[var(--color-rust)] text-[clamp(2.4rem,6vw,4.4rem)] -mt-2 md:-mt-4 ml-1 -rotate-3 origin-left">for what you do.</span>
         </h1>
         <!-- Phones: hero picture sits right under the headline, before the intro copy -->

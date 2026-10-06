@@ -10,7 +10,7 @@ const faqs = [
   { q: 'Are the designs original?', a: 'Yes. Every design is made for this shop — no licensed characters or resold stock art.' },
 ];
 ---
-<Base title={`Graphic Hoodies — Original Designs | ${site.name}`}
+<Base title={`Graphic Hoodies — Original Designs | ${site.name}`} noindex={!site.facts.hoodiesLive}
   description="Original graphic hoodies: fishing, hunting, western, gym and seasonal designs on pullover, zip-up, heavyweight and oversized hoodies."
   schema={[breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Hoodies', path: '/hoodies/' }]), faqPage(faqs)]}>
   <section class="container-x pt-10 pb-8">

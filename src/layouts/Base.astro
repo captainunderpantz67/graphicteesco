@@ -47,7 +47,7 @@ const ld = [organization(), website(), ...schema];
   <body>
     <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:p-2 focus:bg-[var(--color-ink)] focus:text-white">Skip to content</a>
     <div class="bg-[var(--color-ink)] text-[var(--color-cream)] text-center text-[11px] font-bold uppercase py-2 tracking-[.16em]">
-      New designs drop every month · Every design also comes on a hoodie
+      New designs drop every month · {site.facts.hoodiesLive ? 'Every design also comes on a hoodie' : 'Original art, printed to order'}
     </div>
     <header class="border-b-2 border-[var(--color-ink)] bg-[var(--color-paper)]/95 backdrop-blur sticky top-0 z-30">
       <div class="container-x flex items-center justify-between h-16 gap-4">

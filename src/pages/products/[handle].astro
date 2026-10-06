@@ -77,6 +77,11 @@ if (heroColor) { colors.splice(colors.indexOf(heroColor), 1); colors.unshift(her
 // Alt text: keep a hand-written one; otherwise build it from the title + the color/angle in Printful's filename
 const designName = (p.title.split(/\s[–-]\s/).pop() ?? p.title).replace(/\s+(tee|t-shirt|hoodie)$/i, '');
 const niche = (p.title.split(/\s[–-]\s/)[0] ?? '').toLowerCase();
+// H1 carries the keyword: "Diamond Days" + "Baseball Mom Tee" (audience word dropped; niche not repeated if the design already says it).
+const typeWord = isHoodie ? 'Hoodie' : 'Tee';
+const h1Design = designName;
+const nicheLabel = (p.title.split(/\s[–-]\s/)[0] ?? '').replace(/^(women's|men's|unisex)\s+/i, '').trim();
+const h1Niche = (designName.toLowerCase().includes(nicheLabel.toLowerCase()) ? '' : nicheLabel + ' ') + typeWord;
 const VIEWS: [string, string][] = [['left-front', 'three-quarter view'], ['right-front', 'three-quarter view'], ['front', 'front view'], ['back', 'back view'], ['left', 'side view'], ['right', 'side view']];
 const altFor = (img: { url: string; altText?: string | null }) => {
   if (img.altText && !/^product mockup$/i.test(img.altText.trim())) return img.altText;
@@ -128,8 +133,10 @@ const altFor = (img: { url: string; altText?: string | null }) => {
     <!-- BUY BOX: short and clean -->
     <div class="min-w-0">
       <p class="eyebrow">{primary?.h1 ?? (isHoodie ? 'Graphic hoodie' : 'Graphic tee')}</p>
-      <h1 class="display text-[clamp(2.6rem,6vw,4.2rem)] mt-2 leading-[.9]">{p.title.replace(/^.*?–\s*/, '')}</h1>
-      <p class="mt-1 text-sm font-semibold uppercase tracking-[.12em] text-[var(--color-ink-2)]">{p.title.split('–')[0].trim()}</p>
+      <h1 class="mt-2">
+        <span class="display block text-[clamp(2.6rem,6vw,4.2rem)] leading-[.9]">{h1Design}</span>{' '}
+        <span class="mt-1 block text-sm font-semibold uppercase tracking-[.12em] text-[var(--color-ink-2)]">{h1Niche}</span>
+      </h1>
       <p class="mt-4 text-2xl font-bold" data-price>{formatPrice(p.priceRange.minVariantPrice)}</p>
       {hook && <p class="mt-3 text-[var(--color-ink-2)] max-w-md">{hook}</p>}
 
@@ -226,7 +233,7 @@ const altFor = (img: { url: string; altText?: string | null }) => {
         {related.map((r) => (
           <a href={`/products/${r.handle}/`} class="snap-start shrink-0 w-[46%] md:w-[23%] group">
             <div class="aspect-square bg-white rounded-2xl overflow-hidden border border-[var(--color-line)]">
-              {r.featuredImage && <img src={`${r.featuredImage.url}&width=500`} alt={r.featuredImage.altText ?? r.title} loading="lazy" width="500" height="500" class="w-full h-full object-contain group-hover:scale-[1.03] transition-transform" />}
+              {r.featuredImage && <img src={`${r.featuredImage.url}&width=500`} alt={r.featuredImage.altText && !/^product mockup$/i.test(r.featuredImage.altText.trim()) ? r.featuredImage.altText : r.title} loading="lazy" width="500" height="500" class="w-full h-full object-contain group-hover:scale-[1.03] transition-transform" />}
             </div>
             <p class="mt-2 text-sm font-semibold">{r.title.replace(/^.*?–\s*/, '')}</p>
             <p class="text-sm text-[var(--color-ink-2)]">{formatPrice(r.priceRange.minVariantPrice)}</p>

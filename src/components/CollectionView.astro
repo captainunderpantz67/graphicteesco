@@ -19,7 +19,9 @@ const crumbs = [
 ];
 const related = all.filter((x) => x.section === c.section && x.slug !== c.slug && !!x.seasonal === !!c.seasonal).slice(0, 6);
 // Pre-launch: an empty collection shouldn't be indexed as a thin page.
-const noindex = shopifyConnected && products.length === 0;
+// Off-target head terms we can't serve yet stay out of the index (SEO audit 2026-10-06).
+const HOLD = new Set(['football-shirts']);
+const noindex = (shopifyConnected && products.length === 0) || HOLD.has(c.slug);
 ---
 <Base title={c.title} description={c.description} noindex={noindex}
   schema={[breadcrumbs(crumbs), faqPage(faqs), collectionPage(c, products)]}>
