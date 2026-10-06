@@ -70,8 +70,8 @@ const icons: Record<string, string> = {
   'nurse-shirts': 'nurse', 'christian-shirts': 'cross', 'oversized-graphic-tees': 'tee', 'vintage-graphic-tees': 'sun',
   'y2k-graphic-tees': 'bolt', 'anime-shirts': 'star',
 };
-// Close-up photos of a real print from each collection (public/bubbles/<slug>.webp); falls back to the icon.
-const bubbleImgs = new Set(['fishing-t-shirts', 'hunting-t-shirts', 'western-graphic-tees', 'country-graphic-tees', 'mens-gym-shirts', 'football-mom-shirts', 'christian-shirts', 'nurse-shirts']);
+// Photo-real icon images (public/bubbles/<slug>.webp) when listed here; otherwise the line icon.
+const bubbleImgs = new Set<string>([]);
 const bubbles = ['fishing-t-shirts', 'hunting-t-shirts', 'western-graphic-tees', 'country-graphic-tees', 'mens-gym-shirts', 'football-mom-shirts', 'christian-shirts', 'nurse-shirts'].map((s) => bySlug(s)!);
 // Poster-card palettes for the women's row (bg, ink, accent)
 const tones = [
