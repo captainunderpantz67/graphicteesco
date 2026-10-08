@@ -48,3 +48,24 @@ Each row is one person. Before generating a new photo, pick a description that d
 | 43 | Japanese-American man in his late 30s, medium-length black hair swept back, short stubble, medium build | RESERVED — cover for Unisex Western – Cowboy Coffee Tee (docs/design-briefs.md #33) |
 
 Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/design-briefs.md). When a cover is generated and approved, change RESERVED to the final "Used for"; if a brief is dropped, free its row.
+| 44 | Black woman, late 40s, short natural silver-grey curls, gold hoops | Merry & Bright cover (fal Seedream 4, 2026-10-08) |
+| 45 | An Afro-Latina woman in her early 30s with big curly dark hair tied back with a red bandana, bright smile | Desert Bloom cover (fal Seedream 4, 2026-10-08) |
+| 46 | A Pakistani-American man in his late 40s with a short salt-and-pepper beard and solid strong build | Plate Club cover (fal Seedream 4, 2026-10-08) |
+| 47 | A white woman in her late 30s with long brunette waves and a straw cowboy hat pushed back, relaxed smile | Dirt Road Radio cover (fal Seedream 4, 2026-10-08) |
+| 48 | A Thai-American woman in her late 20s with long dark hair in a messy bun, playful smile | Witchy Season cover (fal Seedream 4, 2026-10-08) |
+| 49 | A Black man in his early 30s with short twists and a slim build, easy grin | Sunrise Strike cover (fal Seedream 4, 2026-10-08) |
+| 50 | A Mexican-American man in his mid-20s with curly black hair and a thin build, grinning | Haunted Hollow cover (fal Seedream 4, 2026-10-08) |
+| 51 | A white woman in her early 30s with short wavy platinum hair and red lipstick, retro look | Midnight Feature cover (fal Seedream 4, 2026-10-08) |
+| 52 | A Black woman in her mid-20s with a natural afro puff and petite build, cheerful | Pumpkin Patch Ghost cover (fal Seedream 4, 2026-10-08) |
+| 53 | A white woman around 20 with long wavy light-brown hair and an open oversized cardigan that does not cover the shirt front, laughing | Ghost Club cover (fal Seedream 4, 2026-10-08) |
+| 54 | A Native American man in his early 40s with long black hair in a single braid, calm smile | High Country Trout cover (fal Seedream 4, 2026-10-08) |
+| 55 | A Black man in his early 40s, bald with a full salt-and-pepper beard and very muscular build | Barbell Club cover (fal Seedream 4, 2026-10-08) |
+| 56 | A white man in his mid-20s with short brown hair and an athletic build, grinning, holding a football at his hip | Turkey Bowl cover (fal Seedream 4, 2026-10-08) |
+| 57 | A Korean-American man in his mid-30s with short black hair and round glasses, warm smile | Fresh Cut Christmas Trees cover (fal Seedream 4, 2026-10-08) |
+| 58 | A Black man in his early 50s with short grey-flecked hair and a knit beanie, an unbuttoned flannel worn wide open so the whole shirt front shows, warm smile | Cabin Christmas cover (fal Seedream 4, 2026-10-08) |
+| 59 | A white woman in her late 50s with a chestnut bob, warm smile | Give Thanks cover (fal Seedream 4, 2026-10-08) |
+| 60 | A stocky white man in his early 50s with short grey hair and a grey beard, no hat, quiet smile | First Light Buck cover (fal Seedream 4, 2026-10-08) |
+| 61 | A Black man in his late 30s with a short beard and medium build, calm smile | Marsh Morning cover (fal Seedream 4, 2026-10-08) |
+| 62 | A Mexican-American woman in her early 30s with long dark hair and a tan felt cowboy hat, confident smile | Desert Rider cover (fal Seedream 4, 2026-10-08) |
+| 63 | A white man in his early 40s with a blond buzz cut, thick strong build and tattooed forearms | Iron Sweat cover (fal Seedream 4, 2026-10-08) |
+| 64 | Indian-American woman, early 40s, shoulder-length wavy black hair, glasses | Gingerbread Lane cover (fal Seedream 4, 2026-10-08) |

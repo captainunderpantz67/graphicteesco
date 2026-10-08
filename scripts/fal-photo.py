@@ -98,7 +98,14 @@ def main():
     a = ap.parse_args()
 
     key = fal_key()
-    design = (ROOT / a.design) if not pathlib.Path(a.design).is_absolute() else pathlib.Path(a.design)
+    if a.design.startswith('http'):  # e.g. the Shopify front photo for designs we don't have the print file for
+        tmp = ROOT / 'designs' / 'fal' / a.name / 'reference.jpg'
+        tmp.parent.mkdir(parents=True, exist_ok=True)
+        with urllib.request.urlopen(a.design.split('?')[0] + '?width=1500', timeout=60) as r:
+            tmp.write_bytes(r.read())
+        design = tmp
+    else:
+        design = (ROOT / a.design) if not pathlib.Path(a.design).is_absolute() else pathlib.Path(a.design)
     ref = data_uri(design)
     prompt = f"Realistic lifestyle photo, 3:4 vertical. {a.person}, {a.scene}. They wear a {a.shirt} {a.fit}. {RULES}"
     out_dir = ROOT / 'designs' / 'fal' / a.name

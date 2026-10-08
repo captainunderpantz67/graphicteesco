@@ -4,6 +4,7 @@ import Icon from '../../components/Icon.astro';
 import { getAllProducts, formatPrice, type Product } from '../../lib/shopify';
 import { productSchema, breadcrumbs, faqPage } from '../../lib/schema';
 import { all, pathFor } from '../../data/collections';
+import { coverFor } from '../../data/covers';
 
 export async function getStaticPaths() {
   const products = await getAllProducts();
@@ -67,6 +68,9 @@ const primary = parents.find((c) => !/graphic-tees-for-(men|women)/.test(c.slug)
   ?? parents.find((c) => !/graphic-tees-for-(men|women)/.test(c.slug)) ?? parents[0];
 const variantData = p.variants.map((v) => ({ id: v.id, ok: v.availableForSale, price: formatPrice(v.price), img: v.image?.url ?? null, opts: Object.fromEntries(v.selectedOptions.map((o) => [o.name, o.value])) }));
 const images = p.images.length ? p.images : [];
+// Slide 1 = the product's fal lifestyle cover (the only human on the page, store-rules image standard v2).
+const cover = coverFor(p.handle);
+const slideCount = images.length + (cover ? 1 : 0);
 const firstColor = '' as string;
 // Which color each photo shows (Printful file names carry the color slug). Longest names first so
 // "graphite-heather" wins over "heather".
@@ -105,27 +109,34 @@ const altFor = (img: { url: string; altText?: string | null }) => {
     <div class="min-w-0 lg:sticky lg:top-24">
       <div class="relative">
         <div data-track class="flex overflow-x-auto snap-x snap-mandatory rounded-[20px] bg-white border-2 border-[var(--color-ink)] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden" aria-label="Product photos" tabindex="0">
+          {cover && <img src={cover.src} alt={cover.alt} width="600" height="800" loading="eager" fetchpriority="high" data-always="1"
+              class="w-full shrink-0 snap-center aspect-square object-cover object-[50%_25%]" />}
           {images.length ? images.map((img, i) => (
             <img src={`${img.url}&width=1100`} alt={altFor(img)} width="1100" height="1100"
-              loading={i < 4 ? 'eager' : 'lazy'} fetchpriority={i === 0 ? 'high' : undefined} data-src={img.url} data-color={colorOf(img.url)}
+              loading={i < (cover ? 3 : 4) ? 'eager' : 'lazy'} fetchpriority={!cover && i === 0 ? 'high' : undefined} data-src={img.url} data-color={colorOf(img.url)}
               class="w-full shrink-0 snap-center aspect-square object-contain" />
           )) : <div class="w-full aspect-square grain"></div>}
         </div>
-        {images.length > 1 && (
+        {slideCount > 1 && (
           <>
             <button type="button" data-prev aria-label="Previous photo" class="hidden md:grid absolute left-3 top-1/2 -translate-y-1/2 w-11 h-11 place-items-center rounded-full bg-[var(--color-cream)] border-2 border-[var(--color-ink)] shadow-[2px_2px_0_var(--color-ink)]">‹</button>
             <button type="button" data-next aria-label="Next photo" class="hidden md:grid absolute right-3 top-1/2 -translate-y-1/2 w-11 h-11 place-items-center rounded-full bg-[var(--color-cream)] border-2 border-[var(--color-ink)] shadow-[2px_2px_0_var(--color-ink)]">›</button>
-            <p data-count class="absolute bottom-3 right-3 text-xs font-bold bg-[var(--color-ink)] text-[var(--color-cream)] rounded-full px-2.5 py-1 tabular-nums">1 / {images.length}</p>
+            <p data-count class="absolute bottom-3 right-3 text-xs font-bold bg-[var(--color-ink)] text-[var(--color-cream)] rounded-full px-2.5 py-1 tabular-nums">1 / {slideCount}</p>
           </>
         )}
       </div>
-      {images.length > 1 && (
+      {slideCount > 1 && (
         <div class="mt-3 flex gap-2 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden" data-thumbs>
-          {images.map((img, i) => (
+          {cover && (
+            <button type="button" data-thumb={0} data-always="1" aria-label="Photo 1" class="shrink-0 w-16 h-16 rounded-xl overflow-hidden border-2 bg-white border-[var(--color-ink)]">
+              <img src={cover.src} alt="" width="64" height="64" loading="lazy" decoding="async" class="w-full h-full object-cover object-[50%_25%]" />
+            </button>
+          )}
+          {images.map((img, j) => { const i = j + (cover ? 1 : 0); return (
             <button type="button" data-thumb={i} data-color={colorOf(img.url)} aria-label={`Photo ${i + 1}`} class:list={['shrink-0 w-16 h-16 rounded-xl overflow-hidden border-2 bg-white', i === 0 ? 'border-[var(--color-ink)]' : 'border-transparent']}>
               <img src={`${img.url}&width=160`} alt="" width="64" height="64" decoding="async" class="w-full h-full object-contain" />
             </button>
-          ))}
+          ); })}
         </div>
       )}
     </div>
@@ -268,7 +279,7 @@ const altFor = (img: { url: string; altText?: string | null }) => {
     document.querySelector('[data-next]')?.addEventListener('click', () => go(Math.min(visible().length - 1, current() + 1)));
     (window as any).__gtcShowColor = (color: string) => {
       const tagged = slides.some((s) => s.dataset.color);
-      const match = (el: HTMLElement) => !tagged || !color || el.dataset.color === color || !slides.some((s) => s.dataset.color === color);
+      const match = (el: HTMLElement) => !!el.dataset.always || !tagged || !color || el.dataset.color === color || !slides.some((s) => s.dataset.color === color);
       slides.forEach((s) => { s.hidden = !match(s); if (!s.hidden) s.loading = 'eager'; });
       thumbs.forEach((t) => { t.hidden = !match(t); });
       track.style.scrollBehavior = 'auto'; track.scrollLeft = 0; track.style.scrollBehavior = '';
