@@ -25,6 +25,8 @@ Rules Sam has locked in while building Graphic Tees Co. Each one is a requiremen
 7. **Product page carousel — slide 1 is that product's fal cover (the only human). The other ~5 slides are the product alone, no people: Printful flat / ghost shots on white — front, back (shows the logo), 2–3 color options, a print close-up.** Printful's stock models are no longer used anywhere: they repeat across every product and make the catalog look templated.
 8. Guides + social share (OG) images — a lifestyle photo each.
 
+- **Image budget:** exactly two generated images per product — the design art and one lifestyle cover (grid card + carousel slide 1). Everything else in the carousel is the product alone in different colors (Printful mockups), no humans. Applies retroactively to every existing product.
+
 **Photo rules (every generated person)**
 - Scene = the shirt's world (stadium, ballpark, river, deer camp, ranch, gym, church, porch); never a studio or couch.
 - Whole face + hair in frame with headroom; candid, natural skin, no glamour retouching.
