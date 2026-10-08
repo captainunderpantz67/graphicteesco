@@ -1,3 +1,5 @@
+2026-10-08 21:57 UTC — no new products
+
 ## 2026-10-06 — Design briefs (33) + product schema (scheduled run)
 Shopify was read-only this run: collection counts read live, nothing edited.
 
