@@ -1,134 +1,53 @@
-# Design briefs — build queue for the three bottom-KD collections (2026-10-06)
+# Design briefs: build queue for the three bottom-KD collections (2026-10-06, re-ordered from market research 2026-10-08)
 
 Goal: fill each of the three lowest-KD collections to **14 products**. Counts read live from Shopify (read-only) on 2026-10-06:
 
 | Collection | Keyword (vol / KD, RankHero 2026-10-02/06) | Live now | Briefs here | Blank |
 |---|---|---|---|---|
-| Christmas shirts for women | christmas shirts for women — 5,400 / KD 14 | 4 (Gingerbread Lane, Merry & Bright, Cabin Christmas, Fresh Cut Christmas Trees) | **10 — build first (season)** | Bella+Canvas 6400 women's relaxed |
-| Men's gym shirts | mens gym shirts — 18,100 / KD 10 | 3 (Iron & Sweat, Barbell Club, Plate Club) | 11 | Bella+Canvas 3001 |
+| Christmas shirts for women | christmas shirts for women — 5,400 / KD 14 | 4 (Gingerbread Lane, Merry & Bright, Cabin Christmas, Fresh Cut Christmas Trees) | **11 — build first (season)** | Bella+Canvas 6400 women's relaxed |
+| Men's gym shirts | mens gym shirts — 18,100 / KD 10 | 3 (Iron & Sweat, Barbell Club, Plate Club) | 12 | Bella+Canvas 3001; #12 on an oversized garment-dyed blank (pump cover) |
 | Western graphic tees | western graphic tees — 2,400 / KD 16 | 2 (Desert Rider, Desert Bloom) | 12 (7 women's 6400, 5 unisex 3001) | 6400 / 3001 |
 
-**Order:** Christmas briefs 1–10 first — they need to be live and indexed before December. Then gym (highest volume, lowest KD), then western.
+**Order:** Christmas first. Search volume goes 6,600 (Oct) → 22,200 (Nov) → 40,500 (Dec), so these need to be live and indexed by early November. Gym next (highest volume, lowest KD), then western.
 
+**Queue order = physical order in this file.** Brief numbers are stable IDs: `docs/model-registry.md` rows point at them, so they were **not** renumbered when the queue was re-ordered. New briefs take the next free numbers (#34, #35).
 
-## Keyword check — RankHero, measured 2026-10-06 (supersedes the "unmeasured" marks below)
+## Market research pass (2026-10-08)
+Evidence for every brief is in **`docs/market-research.md`**: winning themes per niche, Etsy favorites/views from RankHero's top-listing samples, Amazon "bought in past month", and Google/Etsy shelf scans. In this pass:
+- **Christmas:** 6 confirmed (#3, #5, #6, #7, #8, #10, some restyled), 4 replaced (#1 → Candy Cane Club, #2 → Vintage Snowman, #4 → Pink Christmas Trees, #9 → Holly Jolly), 1 new (#34 Ho Ho Howdy).
+- **Gym:** 6 replaced (#12 → Uphill pump cover, #13 → Iron Sharpens Iron, #14 → Marble Statue Curl, #16 → Golden Era Pose, #19 → Strong & Courageous, #20 → The Lifter Card), #11 restyled to Deadlift Skeleton, 1 new (#35 Knight Lifting). #15, #17, #18 and #21 were kept and moved down the queue.
+- **Western:** 4 replaced (#23 → Wild West Rider, #30 → Saddle Blanket Steer, #31 → Desert Rattler, #33 → Vintage Bison), #28's primary upgraded to `rodeo t shirt`, and the queue re-ordered (#24 cow skull first).
 
-**Keep (measured demand):** bull riding shirt 720/KD30 · vintage rodeo shirt 320/32 · deadlift shirt 210/33 · strongman shirt 170/34 · kettlebell shirt 140/36 · wild horse shirt 140/36 · barrel racing shirt 390/38 · boxing gym shirt 210/40 · leg day shirt 260/42 · horseshoe shirt 210/42 · gym rat shirt 720/43 · cow skull shirt 480/46 · cowboy boots shirt 590/48 · howdy shirt 480/53 · cowgirl graphic tee 480/56 · Christmas cookie shirt 210/56 · Christmas movie shirt 480/60 · retro Santa shirt 390/60 · Christmas lights shirt 320/60 · ranch hand shirt 30/50 (weak)
-Christmas long-tails are all KD 56+: those products exist to deepen `/christmas-shirts-for-women/` (KD 14), not to rank alone.
+## Keyword check: RankHero, re-measured 2026-10-08 (supersedes the 2026-10-06 table and every "unmeasured" mark)
+Every primary below now carries its measured Etsy-search volume / KD from `https://www.rankhero.com/keywords/<slug>`, fetched 2026-10-08. The full list is in `docs/market-research.md`.
 
-**Swap (no measurable demand) → replacement primary:**
-| Brief | Old primary (dead) | New primary | Vol / KD |
-|---|---|---|---|
-| Hot Cocoa Club | hot cocoa Christmas shirt | snowman shirt (redesign around a vintage snowman) | 1,600 / 46 |
-| Vintage ornament | vintage ornament Christmas shirt | Christmas tree shirt (a decorated vintage tree) | 27,100 / 46 |
-| Wreath | Christmas wreath shirt | Christmas cat shirt (cat in the wreath) | 880 / 56 |
-| Reindeer | reindeer Christmas shirt | Christmas dog shirt (dog in reindeer antlers) | 880 / 63 |
-| Garage gym | garage gym shirt | **pump cover** (oversized gym tee) | **22,200 / 28** |
-| Early morning workout | early morning workout shirt | lifting shirt | 1,900 / 40 |
-| Rest day | rest day shirt | bodybuilding shirt | 1,600 / 36 |
-| Cowboy hat | cowboy hat graphic tee | **rodeo t shirt** | **5,400 / 32** |
-| Cowboy coffee | cowboy coffee shirt | cactus shirt | 720 / 50 |
+**Christmas long-tails are KD 33–60.** They exist to deepen `/christmas-shirts-for-women/` (KD 14), not to rank alone. Lowest-KD Christmas finds: **candy cane shirt 1,900 / 34**, holly jolly shirt 210 / 33, nutcracker shirt 1,000 / 42.
 
-**New collection-level opportunities found:** `pump cover` 22,200 / KD 28 (oversized gym shirts — candidate collection `/pump-covers/` on an oversized blank) · `rodeo t shirt` 5,400 / KD 32 (candidate collection or western sub-page) · `christmas tree shirt` 27,100 / KD 46 · `bodybuilding shirt` 1,600 / 36 · `lifting shirt` 1,900 / 40.
+**Gym:** pump cover **22,200 / 28** · oversized gym shirt 5,400 / 30 · **iron sharpens iron shirt 720 / 27** · vintage gym shirt 480 / 30 · jesus gym shirt 320 / 32 · deadlift 210 / 33 · bodybuilding 1,600 / 36 · powerlifting 880 / 42 · funny gym shirt 3,600 / 45 (KD 36–50 is fine here: the collection has 6+ designs and 400+ words).
+
+**Western:** **rodeo t shirt 5,400 / 32** · **bison shirt 1,900 / 34** · aztec shirt 1,300 / 38 · bull riding 720 / 30 · rattlesnake 260 / 35 · cow skull 480 / 46 · howdy 480 / 53 (KD > 50: kept only as depth for the KD 16 hub, because its proof is the strongest in the niche).
+
+**Dropped for no measurable demand or weak proof:** Christmas cookie (210 / 56), hot cocoa (170 / 51), Christmas movie (licensed-dominated), garage gym, early-morning workout, rest day, kettlebell (140 / 36, no standout seller), bench press (no volume), ranch hand (30 / 50), cowboy hat graphic tee (110 / 58), cactus (720 / 50, weak proof).
 
 ## Rules every brief follows
-- **Art:** original, vintage screen-print look, 3–4 ink limited palette (burnt orange, mustard, navy, cream, plus a seasonal accent). No licensed characters, brands, sports teams, associations, gym chains, film/song titles or real places' trademarks. Designs that echo an existing product (barbell/plate crests, desert scenes, dirt roads, gingerbread, cabins, tree trucks, "Merry & Bright") were left out.
+- **Art:** original, vintage screen-print look, 3–4 ink limited palette. **Recreate the winning theme, never a listing's art** (store-rules "Design art"). No licensed characters, brands, sports teams, associations, gym chains, film/song titles or real places' trademarks. Excluded on purpose: Disney/Toy Story, Grinch, Home Alone, "Save a Horse", "Long Live Cowgirls", "Two Dozen Roses", "Cowboy Carter", "Cowboy Killer", "Candy Cane Lane" (a film title), the "holly jolly Christmas" lyric line, Spartan-helmet crests, and real athletes' likenesses. Designs that echo an existing product (barbell/plate crests, desert scenes, dirt roads, gingerbread, cabins, tree trucks, "Merry & Bright") were left out.
 - **Title / handle:** SOP convention `<Audience> <Niche> – <Design> Tee`; handle `<audience>-<niche>-<design>-graphic-tee`. $29.99 flat.
-- **Blank facts:** Bella+Canvas 3001 and 6400 are lightweight 4.2 oz. Shirt colors listed are targets; confirm each is stocked on that blank in Printful before publishing, and only list colors actually offered.
-- **Keyword gate:** the bank (`src/data/keyword-bank.json`) has **no measured design-level long-tails** for these three collections (only the head terms are measured). So every primary below is marked *unmeasured - verify*: run it through RankHero/DataForSEO before the product is built and swap it if it comes back at zero volume or KD > 35 (store-rules Keyword gate #1). Variants are real bank phrases (also unmeasured), each assigned to one product only. No primary repeats a primary already used on a live product.
-- **Cover photo:** one `scripts/fal-photo.py` run per product, `--model seedream`, design file at `designs/<slug>.png` (the exact print file). Each person is new and is reserved in `docs/model-registry.md` (rows 11–43). Eyeball every result against the imagery rules (whole face + headroom, print unchanged and unobstructed, real ink on fabric, props at the hip) before adding it to `src/data/covers.ts`.
-- **Product photos (Printful):** men's products 4+ different men; women's 4+ different women; unisex men and women of different ethnicities.
+- **Blank facts:** Bella+Canvas 3001 and 6400 are lightweight 4.2 oz. Shirt colors listed are targets; confirm each is stocked on that blank in Printful before publishing, and only list colors actually offered. **Pump-cover blank (#12):** the market sells pump covers on oversized, garment-dyed or acid-washed heavyweight tees (Etsy winners are on Comfort Colors; Amazon's top "pump cover" sellers are washed oversized blanks). Pick the Printful oversized/garment-dyed option, copy its real spec (weight, fabric) from Printful, and check the margin at $29.99 before building. If it works, move #11, #21 and #35 onto it too.
+- **Keyword gate:** every primary is measured (RankHero, 2026-10-08). Variants are measured where a number is shown; otherwise they are bank phrases (`src/data/keyword-bank.json`, unmeasured). Each variant is assigned to one product only. No primary repeats a primary already used on a live product.
+- **Cover photo:** one `scripts/fal-photo.py` run per product, `--model seedream`, design file at `designs/<slug>.png` (the exact print file). Each person is new and is reserved in `docs/model-registry.md` (rows 11–43, 65–66). Eyeball every result against the imagery rules (whole face + headroom, print unchanged and unobstructed, real ink on fabric, props at the hip) before adding it to `src/data/covers.ts`.
+- **Product photos (Printful flats per image standard v2):** front, back logo, 2–3 colors, print close-up. No Printful stock models.
 
 
-## Christmas shirts for women — 10 briefs (list these first)
-
-### 1. Women's Christmas – Cookie Swap Tee
-- **Handle:** `womens-christmas-cookie-swap-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
-- **Art:** A round vintage cookie tin, lid off, packed with iced sugar cookies (star, stocking, mitten, tree shapes) and a rolling pin crossed behind it. 1950s cookbook-illustration feel, flat screen-print shading with halftone dots. Palette: cherry red, pine green, cream, mustard.
-- **Text on shirt:** COOKIE SWAP (arched above, chunky retro serif) / "Bring a Dozen" (small script below)
-- **Shirt colors:** Heather Mauve, Black, White (confirm on the 6400 in Printful)
-- **Primary keyword:** Christmas cookie shirt — unmeasured - verify
-- **Variants (bank):** cute christmas shirts for women — unmeasured - verify
-- **Cover model:** registry #11 (reserved)
-```bash
-python3 scripts/fal-photo.py --design designs/cookie-swap.png --name cookie-swap --model seedream \
-    --person "Black woman in her late 50s, grey locs pinned up in a high bun, warm round face, reading glasses on a beaded chain" \
-    --scene "in a warm home kitchen during a Christmas cookie swap, cooling racks of iced cookies on the counter behind her, flour on the counter, afternoon window light" \
-    --shirt "heather mauve" --fit "relaxed-fit women's cotton t-shirt" \
-    --cover womens-christmas-cookie-swap-graphic-tee
-```
-
-### 2. Women's Christmas – Hot Cocoa Club Tee
-- **Handle:** `womens-christmas-hot-cocoa-club-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
-- **Art:** An oversized enamel camp mug of cocoa piled with marshmallows, a candy-cane stir stick and a curl of steam forming a loose snowflake. Badge layout like a 1960s ski-lodge patch. Palette: cocoa brown, cream, cranberry, navy.
-- **Text on shirt:** HOT COCOA CLUB (around the badge) / "Members Since December" (bottom banner)
-- **Shirt colors:** Black, Heather Navy, Athletic Heather (confirm)
-- **Primary keyword:** hot cocoa Christmas shirt — unmeasured - verify
-- **Variants (bank):** christmas shirts cute — unmeasured - verify
-- **Cover model:** registry #12 (reserved)
-```bash
-python3 scripts/fal-photo.py --design designs/hot-cocoa-club.png --name hot-cocoa-club --model seedream \
-    --person "Vietnamese-American woman in her early 40s, shoulder-length layered dark hair with caramel highlights, slim build" \
-    --scene "at an outdoor Christmas market cocoa stand at dusk, wooden stalls with pine garland and warm string lights blurred behind her" \
-    --shirt "black" --fit "relaxed-fit women's cotton t-shirt" \
-    --cover womens-christmas-hot-cocoa-club-graphic-tee
-```
-
-### 3. Women's Christmas – Nutcracker March Tee
-- **Handle:** `womens-christmas-nutcracker-march-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
-- **Art:** An original toy-soldier nutcracker in a tall shako hat and red coat, mid-march, drawn like a 1940s storybook plate; a ring of tiny holly berries and a sugar-plum swirl behind. No ballet company names or film references. Palette: cranberry, navy, mustard gold, cream.
-- **Text on shirt:** none (art only)
-- **Shirt colors:** White, Heather Red, Black (confirm)
-- **Primary keyword:** nutcracker Christmas shirt — unmeasured - verify
-- **Variants (bank):** vintage christmas shirts for women — unmeasured - verify
-- **Cover model:** registry #13 (reserved)
-```bash
-python3 scripts/fal-photo.py --design designs/nutcracker-march.png --name nutcracker-march --model seedream \
-    --person "White woman in her early 60s, short white pixie cut, slim build, light smile lines, small gold hoop earrings" \
-    --scene "browsing a Christmas market stall lined with wooden nutcrackers and ornaments, late afternoon, cold air, warm stall lights" \
-    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
-    --cover womens-christmas-nutcracker-march-graphic-tee
-```
-
-### 4. Women's Christmas – Glass Ornaments Tee
-- **Handle:** `womens-christmas-glass-ornaments-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
-- **Art:** Five mid-century glass ornaments (striped, indented, teardrop) hanging at staggered heights from thin ribbons, with soft star glints. Retro 1950s department-store ad style, no brand names. Palette: teal, pink, mustard, cream on dark.
-- **Text on shirt:** 'TIS THE SEASON (small caps under the ornaments)
-- **Shirt colors:** Black, Heather Forest (confirm both on 6400)
-- **Primary keyword:** vintage ornament Christmas shirt — unmeasured - verify
-- **Variants (bank):** christmas shirts vintage — unmeasured - verify
-- **Cover model:** registry #14 (reserved)
-```bash
-python3 scripts/fal-photo.py --design designs/glass-ornaments.png --name glass-ornaments --model seedream \
-    --person "Latina woman in her late 20s, long straight black hair with blunt bangs, petite build" \
-    --scene "on a farmhouse front porch at blue hour hanging the last glass ornament on a small potted Christmas tree, porch light glowing" \
-    --shirt "black" --fit "relaxed-fit women's cotton t-shirt" \
-    --cover womens-christmas-glass-ornaments-graphic-tee
-```
-
-### 5. Women's Christmas – Home for the Holidays Tee
-- **Handle:** `womens-christmas-home-for-the-holidays-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
-- **Art:** A red farmhouse door with a big evergreen wreath and plaid bow, a pair of rubber boots and a stack of firewood on the stoop, snow on the step. Linocut-style lines. Palette: barn red, pine green, cream, navy.
-- **Text on shirt:** Home for the Holidays (hand-lettered script under the door)
-- **Shirt colors:** Athletic Heather, White, Heather Mauve (confirm)
-- **Primary keyword:** Christmas wreath shirt — unmeasured - verify
-- **Variants (bank):** christmas shirts country — unmeasured - verify
-- **Cover model:** registry #15 (reserved)
-```bash
-python3 scripts/fal-photo.py --design designs/home-for-the-holidays.png --name home-for-the-holidays --model seedream \
-    --person "Native American woman in her mid-30s, long straight black hair worn down past her shoulders, medium build, small silver stud earrings" \
-    --scene "stepping onto a farmhouse front porch with a fresh evergreen wreath on the door and a snowy yard behind her, overcast winter daylight" \
-    --shirt "athletic heather" --fit "relaxed-fit women's cotton t-shirt" \
-    --cover womens-christmas-home-for-the-holidays-graphic-tee
-```
+## Christmas shirts for women — 11 briefs (list these first, in this order)
 
 ### 6. Women's Christmas – Retro Santa Tee
 - **Handle:** `womens-christmas-retro-santa-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
-- **Art:** An original round-faced 1950s-style Santa (not any soda or brand mascot), waving, with a sack of wrapped gifts, drawn like a mid-century greeting card with off-register print texture. Palette: tomato red, cream, mint, black.
+- **Art:** An original round-faced 1950s-style Santa (not any soda or brand mascot), mid-wink, with a sack of wrapped gifts, drawn like a mid-century greeting card with off-register print texture and a few tiny stars. Restyled to the winning pink-and-red retro look. Palette: tomato red, bubblegum pink, cream, black.
 - **Text on shirt:** HO HO HO (stacked retro script)
-- **Shirt colors:** White, Heather Red (confirm)
-- **Primary keyword:** retro Santa shirt — unmeasured - verify
-- **Variants (bank):** christmas shirt ho ho ho — unmeasured - verify
+- **Shirt colors:** White, Heather Peach or Pink (whichever 6400 offers), Heather Red (confirm)
+- **Primary keyword:** retro Santa shirt — 390 / KD 60 (RankHero 2026-10-08)
+- **Variants:** vintage Santa shirt — 390 / 60; christmas shirt ho ho ho (bank)
+- **Proof:** top Etsy listing 3,509 favs / 89,812 views; 568 / 14,494; most frequent motif on Etsy Google Shopping results (market-research.md, Christmas #1)
 - **Cover model:** registry #16 (reserved)
 ```bash
 python3 scripts/fal-photo.py --design designs/retro-santa.png --name retro-santa --model seedream \
@@ -138,29 +57,82 @@ python3 scripts/fal-photo.py --design designs/retro-santa.png --name retro-santa
     --cover womens-christmas-retro-santa-graphic-tee
 ```
 
-### 7. Women's Christmas – All Lit Up Tee
-- **Handle:** `womens-christmas-all-lit-up-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
-- **Art:** A loose strand of oversized vintage C9 bulbs looping across the chest, each bulb a different color with glow rays, cord drawn as a single flowing line. Palette: red, green, mustard, blue, cream on dark.
-- **Text on shirt:** ALL LIT UP (bold condensed caps under the strand)
-- **Shirt colors:** Black, Heather Navy (confirm)
-- **Primary keyword:** Christmas lights shirt — unmeasured - verify
-- **Variants (bank):** christmas shirts lights — unmeasured - verify
-- **Cover model:** registry #17 (reserved)
+### 1. Women's Christmas – Candy Cane Club Tee  *(replaces Cookie Swap)*
+- **Handle:** `womens-christmas-candy-cane-club-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** A bundle of five striped candy canes tied with a big floppy satin bow, round peppermint swirls scattered around, a few sparkle stars. Coquette-meets-1950s-candy-shop print, flat inks with a soft halftone. Palette: cherry red, soft pink, cream, pine green.
+- **Text on shirt:** CANDY CANE CLUB (arched retro serif above) / "Est. December" (small below)
+- **Shirt colors:** White, Heather Mauve, Black (confirm on the 6400 in Printful)
+- **Primary keyword:** candy cane shirt — 1,900 / KD 34 (RankHero 2026-10-08)
+- **Variants:** peppermint shirt — 170 / 34; cute christmas shirts for women (bank)
+- **Proof:** Etsy candy-cane sellers show 4.9 (9,674) and 4.8 (11,983) ratings on Google; "Peppermint/Candy Cane coquette" tees all over Etsy Shopping (market-research.md, Christmas #4)
+- **Cover model:** registry #11 (reserved)
 ```bash
-python3 scripts/fal-photo.py --design designs/all-lit-up.png --name all-lit-up --model seedream \
-    --person "Middle Eastern woman in her early 30s, long dark wavy hair worn down, medium build" \
-    --scene "on a front porch at dusk, eaves and railings wrapped in big colored string lights, a wreath on the porch post, cold evening air" \
-    --shirt "black" --fit "relaxed-fit women's cotton t-shirt" \
-    --cover womens-christmas-all-lit-up-graphic-tee
+python3 scripts/fal-photo.py --design designs/candy-cane-club.png --name candy-cane-club --model seedream \
+    --person "Black woman in her late 50s, grey locs pinned up in a high bun, warm round face, reading glasses on a beaded chain" \
+    --scene "in a warm home kitchen during a Christmas cookie swap, jars of peppermint candy and cooling racks of iced cookies on the counter behind her, afternoon window light" \
+    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-christmas-candy-cane-club-graphic-tee
+```
+
+### 3. Women's Christmas – Nutcracker Bow Tee
+- **Handle:** `womens-christmas-nutcracker-bow-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** An original toy-soldier nutcracker in a tall shako hat with a pink bow tied on it, red coat, standing at attention, drawn as preppy watercolor translated to flat screen-print shapes; small holly sprigs either side. Restyled from "march" to the winning preppy-pink nutcracker look. No ballet company names or film references. Palette: cranberry, blush pink, pine green, mustard gold.
+- **Text on shirt:** none (art only)
+- **Shirt colors:** White, Heather Mauve, Black (confirm)
+- **Primary keyword:** nutcracker shirt — 1,000 / KD 42 (RankHero 2026-10-08)
+- **Variants:** vintage christmas shirts for women (bank)
+- **Proof:** 482 / 17,781 and 311 / 12,863 favs/views; Etsy nutcracker shops at 4.9 (4,603), 4.8 (6,534) and 4.9 (5,338) on Google (market-research.md, Christmas #3)
+- **Cover model:** registry #13 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/nutcracker-bow.png --name nutcracker-bow --model seedream \
+    --person "White woman in her early 60s, short white pixie cut, slim build, light smile lines, small gold hoop earrings" \
+    --scene "browsing a Christmas market stall lined with wooden nutcrackers and ornaments, late afternoon, cold air, warm stall lights" \
+    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-christmas-nutcracker-bow-graphic-tee
+```
+
+### 2. Women's Christmas – Vintage Snowman Tee  *(replaces Hot Cocoa Club)*
+- **Handle:** `womens-christmas-vintage-snowman-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** A 1950s storybook snowman with coal buttons, a plaid scarf and a knit cap, holding a steaming mug of cocoa piled with marshmallows; simple 6-point snowflakes around. Flat screen-print shading with a little halftone. Palette: cherry red, pine green, cream, cocoa brown.
+- **Text on shirt:** SNOW DAY (small arched caps over the hat)
+- **Shirt colors:** Athletic Heather, Heather Navy, White (confirm)
+- **Primary keyword:** snowman shirt — 1,600 / KD 46 (RankHero 2026-10-08)
+- **Variants:** hot chocolate shirt — 170 / 34; christmas shirts cute (bank)
+- **Proof:** snowman listing 6,460 favs / 494,443 views (sweatshirt; same art sells as a tee); Amazon "snowman shirt women" ~1,100 bought/mo (market-research.md, Christmas #2)
+- **Cover model:** registry #12 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/vintage-snowman.png --name vintage-snowman --model seedream \
+    --person "Vietnamese-American woman in her early 40s, shoulder-length layered dark hair with caramel highlights, slim build" \
+    --scene "at an outdoor Christmas market cocoa stand at dusk, wooden stalls with pine garland and warm string lights blurred behind her, a paper cocoa cup held at her side" \
+    --shirt "athletic heather" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-christmas-vintage-snowman-graphic-tee
+```
+
+### 4. Women's Christmas – Pink Christmas Trees Tee  *(replaces Glass Ornaments)*
+- **Handle:** `womens-christmas-pink-christmas-trees-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** Three hand-brushed Christmas trees in a row, one pink-and-cream striped, one solid red, one pine green, each topped with a tiny bow instead of a star; dry-brush texture kept in the screen-print. No truck, no cabin (live products already cover those). Palette: bubblegum pink, cherry red, pine green, cream.
+- **Text on shirt:** 'TIS THE SEASON (small caps under the trees)
+- **Shirt colors:** White, Heather Mauve, Black (confirm)
+- **Primary keyword:** Christmas tree shirt — 27,100 / KD 46 (RankHero 2026-10-08)
+- **Variants:** pink christmas shirt — 590 / 66; christmas shirts vintage (bank)
+- **Proof:** pink/leopard/brushstroke tree tees lead the tree shelf (82 / 3,355; 67 / 2,361); Amazon "christmas tree shirt women" ~300 bought/mo (market-research.md, Christmas #6)
+- **Cover model:** registry #14 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/pink-christmas-trees.png --name pink-christmas-trees --model seedream \
+    --person "Latina woman in her late 20s, long straight black hair with blunt bangs, petite build" \
+    --scene "on a farmhouse front porch at blue hour beside a small potted Christmas tree with pink and red ornaments, porch light glowing" \
+    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-christmas-pink-christmas-trees-graphic-tee
 ```
 
 ### 8. Women's Christmas – Oh Deer Tee
 - **Handle:** `womens-christmas-oh-deer-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
-- **Art:** A vintage reindeer standing in a snowy pine wood with a small wreath around its neck and a red scarf, woodcut texture, snowflakes as simple 6-point stars. Palette: brown, cranberry, pine, cream.
+- **Art:** A cute vintage reindeer with a red bow tied on one antler and a sprig of holly, standing in light snow, woodcut texture with simple 6-point snowflakes. Restyled toward the winning cute/pink reindeer. Palette: warm brown, blush pink, cranberry, cream.
 - **Text on shirt:** Oh Deer (playful retro script under the reindeer)
 - **Shirt colors:** Heather Forest, Athletic Heather, White (confirm)
-- **Primary keyword:** reindeer Christmas shirt — unmeasured - verify
-- **Variants (bank):** christmas shirts reindeer — unmeasured - verify
+- **Primary keyword:** reindeer shirt — 1,300 / KD 52 (RankHero 2026-10-08; better than the 10-06 swap to "Christmas dog shirt" 880 / 63)
+- **Variants:** christmas shirts reindeer (bank)
+- **Proof:** funny reindeer 876 / 36,644 and 237 / 11,630; "pink bubble-gum reindeer" coquette tees on Etsy Shopping (market-research.md, Christmas #7)
 - **Cover model:** registry #18 (reserved)
 ```bash
 python3 scripts/fal-photo.py --design designs/oh-deer.png --name oh-deer --model seedream \
@@ -170,29 +142,65 @@ python3 scripts/fal-photo.py --design designs/oh-deer.png --name oh-deer --model
     --cover womens-christmas-oh-deer-graphic-tee
 ```
 
-### 9. Women's Christmas – Christmas Movie Night Tee
-- **Handle:** `womens-christmas-christmas-movie-night-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
-- **Art:** A 1960s wood-cabinet TV with snowflakes on the screen, a bowl of popcorn, a knitted blanket and two mugs in front. No film titles or characters. Palette: mustard, teal, red, cream.
-- **Text on shirt:** CHRISTMAS MOVIES & BLANKETS (curved over the TV)
-- **Shirt colors:** White, Heather Mauve, Black (confirm)
-- **Primary keyword:** Christmas movie shirt — unmeasured - verify
-- **Variants (bank):** christmas shirts sayings — unmeasured - verify
+### 9. Women's Christmas – Holly Jolly Tee  *(replaces Christmas Movie Night)*
+- **Handle:** `womens-christmas-holly-jolly-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** Big stacked groovy 1970s lettering "HOLLY / JOLLY" with a holly sprig and berries tucked into the letters, set on a little felt-pennant shape with stitched edge. Only the two words, never the song's lyric line. Palette: cherry red, pine green, pink, cream.
+- **Text on shirt:** HOLLY JOLLY
+- **Shirt colors:** White, Heather Mauve, Athletic Heather (confirm)
+- **Primary keyword:** holly jolly shirt — 210 / KD 33 (RankHero 2026-10-08)
+- **Variants:** jolly shirt — 140 / 36; christmas shirts sayings (bank)
+- **Proof:** Etsy "Holly Jolly" sellers at 4.8 (7,338) and 4.9 (394) on Google; retro, patchwork and pennant Holly Jolly tees all over Etsy Shopping (market-research.md, Christmas #10)
 - **Cover model:** registry #19 (reserved)
 ```bash
-python3 scripts/fal-photo.py --design designs/christmas-movie-night.png --name christmas-movie-night --model seedream \
+python3 scripts/fal-photo.py --design designs/holly-jolly.png --name holly-jolly --model seedream \
     --person "White woman in her early 50s, long straight grey-blonde hair, reading glasses pushed up on her head, soft build" \
-    --scene "in a cozy kitchen popping popcorn on the stovetop on a December evening, a plate of cookies and two mugs on the counter, warm lamp light" \
+    --scene "at a small-town Christmas parade on a main street at dusk, bundled crowd and lit garland on the lampposts behind her, a cup of cocoa at her side" \
     --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
-    --cover womens-christmas-christmas-movie-night-graphic-tee
+    --cover womens-christmas-holly-jolly-graphic-tee
+```
+
+### 5. Women's Christmas – Christmas Cats Tee  *(confirms the 10-06 swap)*
+- **Handle:** `womens-christmas-christmas-cats-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** Two cats (one orange tabby, one tuxedo) tangled in a strand of colored bulbs inside a round evergreen wreath with a plaid bow, one batting an ornament. Flat cartoon screen-print. Palette: pine green, cranberry, mustard, cream.
+- **Text on shirt:** none (art only)
+- **Shirt colors:** Athletic Heather, White, Heather Mauve (confirm)
+- **Primary keyword:** Christmas cat shirt — 880 / KD 56 (RankHero 2026-10-08)
+- **Variants:** christmas shirts country (bank)
+- **Proof:** Christmas cats 215 / 4,442; Amazon "christmas cat shirt women" ~150 bought/mo (market-research.md, Christmas #9)
+- **Cover model:** registry #15 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/christmas-cats.png --name christmas-cats --model seedream \
+    --person "Native American woman in her mid-30s, long straight black hair worn down past her shoulders, medium build, small silver stud earrings" \
+    --scene "in a cozy living room decorated for Christmas, a lit tree and a cat curled on an armchair behind her, warm lamp light, snow outside the window" \
+    --shirt "athletic heather" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-christmas-christmas-cats-graphic-tee
+```
+
+### 7. Women's Christmas – Lit Up Bow Tee
+- **Handle:** `womens-christmas-lit-up-bow-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** A strand of oversized vintage C9 bulbs tied into one big coquette bow, each bulb a different color with glow rays, cord drawn as a single flowing line. Restyled from a loose strand to the trending bow shape. Palette: red, green, mustard, pink, cream on dark.
+- **Text on shirt:** 'Tis the Season (small script under the bow; never "Merry & Bright", which is a live product)
+- **Shirt colors:** Black, Heather Navy (confirm)
+- **Primary keyword:** Christmas lights shirt — 320 / KD 60 (RankHero 2026-10-08)
+- **Variants:** christmas bow shirt — 210 / 70; christmas shirts lights (bank)
+- **Proof:** lights tee 200 / 7,234; lights-bow coquette tees across Etsy and Walmart; Amazon "christmas lights shirt women" ~200 bought/mo (market-research.md, Christmas #5 + #11)
+- **Cover model:** registry #17 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/lit-up-bow.png --name lit-up-bow --model seedream \
+    --person "Middle Eastern woman in her early 30s, long dark wavy hair worn down, medium build" \
+    --scene "on a front porch at dusk, eaves and railings wrapped in big colored string lights, a wreath on the porch post, cold evening air" \
+    --shirt "black" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-christmas-lit-up-bow-graphic-tee
 ```
 
 ### 10. Women's Christmas – O Holy Night Tee
 - **Handle:** `womens-christmas-o-holy-night-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
-- **Art:** A single bright star over a simple wooden stable on a hill, rays fanning down, a few sheep in silhouette, night sky in deep navy. Reverent, vintage Christmas-card linocut. Palette: navy, gold, cream.
+- **Art:** A single bright star over a simple wooden stable on a hill, rays fanning down, a few sheep in silhouette, night sky in deep navy. Reverent, vintage Christmas-card linocut. ("O Holy Night" is a public-domain 1847 carol title.) Palette: navy, gold, cream.
 - **Text on shirt:** O Holy Night (elegant serif) / "Luke 2:11" (small)
 - **Shirt colors:** Heather Navy, Black, White (confirm)
-- **Primary keyword:** religious Christmas shirt — unmeasured - verify
-- **Variants (bank):** christmas shirts christian — unmeasured - verify
+- **Primary keyword:** Christian Christmas shirt — 880 / KD 60 (RankHero 2026-10-08; replaces "religious Christmas shirt", vol -- / KD 84)
+- **Variants:** nativity shirt — 140 / 54; christmas shirts christian (bank)
+- **Proof:** Christian Christmas tees 65 / 2,922 and 56 / 3,040; steady 880/mo demand (market-research.md, Christmas #14)
 - **Cover model:** registry #20 (reserved)
 ```bash
 python3 scripts/fal-photo.py --design designs/o-holy-night.png --name o-holy-night --model seedream \
@@ -202,176 +210,170 @@ python3 scripts/fal-photo.py --design designs/o-holy-night.png --name o-holy-nig
     --cover womens-christmas-o-holy-night-graphic-tee
 ```
 
+### 34. Women's Christmas – Ho Ho Howdy Tee  *(new)*
+- **Handle:** `womens-christmas-ho-ho-howdy-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** An original cowboy Santa tipping a red felt cowboy hat, white beard, swinging a lasso made of a string of Christmas lights; a pair of tooled boots and a sprig of holly below. Retro western print with a rope-border frame. No brand or song references. Palette: cherry red, tan, turquoise, cream.
+- **Text on shirt:** HO HO HOWDY (western slab serif, arched)
+- **Shirt colors:** White, Heather Mauve, Athletic Heather (confirm)
+- **Primary keyword:** country Christmas shirt — 170 / KD 56 (RankHero 2026-10-08)
+- **Variants:** cowboy santa shirt — 90 / 57
+- **Proof:** retro cowboy-Christmas "Howdy" tee 182 / 2,377; "Howdy Hos Santa Cowboy", "Western Santa", "Merry Christmas Y'all Cowboy" all on Etsy Shopping; cross-links the Western collection (market-research.md, Christmas #13)
+- **Cover model:** registry #65 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/ho-ho-howdy.png --name ho-ho-howdy --model seedream \
+    --person "Greek-American woman in her early 50s, short dark curly hair cropped close, olive skin, soft build, small gold stud earrings" \
+    --scene "at a ranch Christmas party in a decorated wooden barn, hay bales with red bows and strings of warm lights behind her, a horse looking over a stall door in the background" \
+    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-christmas-ho-ho-howdy-graphic-tee
+```
 
-## Men's gym shirts — 11 briefs
 
-### 11. Men's Gym – Deadlift Society Tee
-- **Handle:** `mens-gym-deadlift-society-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee, listed as men's)
-- **Art:** A loaded barbell mid-lift from the floor, bent slightly under the plates, framed in a 1930s athletic-club crest with laurel sprigs and chalk dust. Distressed screen-print texture. Palette: burnt orange, cream, navy.
-- **Text on shirt:** DEADLIFT SOCIETY (crest banner) / "Pick It Up, Put It Down" (small)
+## Men's gym shirts + pump covers — 12 briefs (in this order)
+
+### 12. Men's Gym – Uphill Pump Cover Tee  *(replaces Garage Gym)*
+- **Handle:** `mens-gym-uphill-pump-cover-graphic-tee` · **Blank:** oversized garment-dyed heavyweight tee (pump cover). Pick the Printful option and confirm its spec and margin before building; see Rules.
+- **Art:** An original engraved Greek figure in a short tunic rolling a giant cast-iron weight plate up a steep rocky mountain, laurel border, cracked-marble texture, like an old book engraving. Our own take on the myth; no copied composition. Palette: black, bone cream, faded terracotta.
+- **Text on shirt:** KEEP PUSHING (small serif caps under the scene)
+- **Shirt colors:** garment-dyed Black/Pepper, Ivory, Sand (confirm on the chosen blank)
+- **Primary keyword:** pump cover — 22,200 / KD 28 (RankHero 2026-10-08)
+- **Variants:** oversized gym shirt — 5,400 / 30; sisyphus shirt — 110 / 40
+- **Proof:** "Sisyphus Gym Pump Cover" 1,583 favs / 18,480 views at $41; pump-cover winners are on Comfort Colors; Amazon washed oversized tees 2K–3K+ bought/mo (market-research.md, Gym #2 + format finding)
+- **Cover model:** registry #22 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/uphill-pump-cover.png --name uphill-pump-cover --model seedream \
+    --person "White man in his mid-50s, shaved head, short grey goatee, stocky barrel-chested build" \
+    --scene "in a gritty warehouse strength gym between sets, chalk on his hands, a loaded barbell on the floor and plate racks behind him, roll-up door light" \
+    --shirt "black garment-dyed" --fit "oversized boxy heavyweight cotton t-shirt" \
+    --cover mens-gym-uphill-pump-cover-graphic-tee
+```
+
+### 13. Men's Gym – Iron Sharpens Iron Tee  *(replaces Swing Heavy)*
+- **Handle:** `mens-gym-iron-sharpens-iron-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee, listed as men's)
+- **Art:** Two vintage barbells crossed over a blacksmith's anvil, sparks flying from the contact point, hammer resting at the side; heavy woodcut lines. Verse reference only, no church or ministry names. Palette: charcoal, burnt orange, bone cream.
+- **Text on shirt:** IRON SHARPENS IRON (arched slab serif) / "Proverbs 27:17" (small)
 - **Shirt colors:** Black, Heather Navy, Vintage White (confirm)
-- **Primary keyword:** deadlift shirt — unmeasured - verify
-- **Variants (bank):** mens vintage gym t shirts — unmeasured - verify
+- **Primary keyword:** iron sharpens iron shirt — 720 / KD 27 (RankHero 2026-10-08)
+- **Variants:** christian gym shirt — 480 / 45
+- **Proof:** "Iron Sharpens Iron Christian Gym Shirt" 836 favs / 15,998 views (market-research.md, Gym #4)
+- **Cover model:** registry #23 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/iron-sharpens-iron.png --name iron-sharpens-iron --model seedream \
+    --person "Korean-American man in his early 30s, short black undercut hair, lean athletic build, clean-shaven" \
+    --scene "in a small church-run community gym after an early morning session, squat racks and a hand-painted wall verse blurred behind him, window daylight" \
+    --shirt "black" --fit "classic-fit cotton t-shirt" \
+    --cover mens-gym-iron-sharpens-iron-graphic-tee
+```
+
+### 11. Men's Gym – Deadlift Skeleton Tee  *(Deadlift Society restyled)*
+- **Handle:** `mens-gym-deadlift-skeleton-graphic-tee` · **Blank:** Bella+Canvas 3001 (move to the pump-cover blank if #12's blank is approved)
+- **Art:** An original 1930s rubber-hose-cartoon skeleton in a headband, mid-deadlift, the bar bending under huge plates, sweat drops and chalk puff. Our own character, distressed print. Palette: bone cream, black, burnt orange.
+- **Text on shirt:** DEAD LIFT (bold retro caps under the skeleton)
+- **Shirt colors:** Black, Vintage White, Heather Navy (confirm)
+- **Primary keyword:** deadlift shirt — 210 / KD 33 (RankHero 2026-10-08)
+- **Variants:** mens vintage gym t shirts (bank)
+- **Proof:** "Dead Lift Skeleton Pump Cover" 1,338 favs / 15,163 views at $47.99 (market-research.md, Gym #3)
 - **Cover model:** registry #21 (reserved)
 ```bash
-python3 scripts/fal-photo.py --design designs/deadlift-society.png --name deadlift-society --model seedream \
+python3 scripts/fal-photo.py --design designs/deadlift-skeleton.png --name deadlift-skeleton --model seedream \
     --person "Black man in his late 20s, close-cropped fade haircut, clean-shaven, heavy muscular build" \
     --scene "on a deadlift platform in a no-frills powerlifting gym, chalk bucket and loaded bar on the floor beside him, rubber flooring, overhead fluorescent light" \
     --shirt "black" --fit "classic-fit cotton t-shirt" \
-    --cover mens-gym-deadlift-society-graphic-tee
+    --cover mens-gym-deadlift-skeleton-graphic-tee
 ```
 
-### 12. Men's Gym – Garage Gym Tee
-- **Handle:** `mens-gym-garage-gym-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee, listed as men's)
-- **Art:** A home garage with the roll-up door half open: squat rack, plate tree, a radio on the workbench and a pickup bumper peeking in. Drawn like a 1970s hardware-store ad. Palette: mustard, rust, navy, cream.
-- **Text on shirt:** GARAGE GYM (bold slab) / "Open 24 Hours · Members Only" (small)
-- **Shirt colors:** Heather Navy, Military Green, Black (confirm)
-- **Primary keyword:** garage gym shirt — unmeasured - verify
-- **Variants (bank):** mens gym shirts cotton — unmeasured - verify
-- **Cover model:** registry #22 (reserved)
-```bash
-python3 scripts/fal-photo.py --design designs/garage-gym.png --name garage-gym --model seedream \
-    --person "White man in his mid-50s, shaved head, short grey goatee, stocky barrel-chested build" \
-    --scene "in his home garage gym with the roll-up door open on an autumn morning, squat rack and plate tree behind him, pegboard tools on the wall" \
-    --shirt "heather navy" --fit "classic-fit cotton t-shirt" \
-    --cover mens-gym-garage-gym-graphic-tee
-```
-
-### 13. Men's Gym – Swing Heavy Tee
-- **Handle:** `mens-gym-swing-heavy-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee, listed as men's)
-- **Art:** A cast-iron kettlebell with motion arcs showing the swing, inside a round hand-painted sign shape with speed lines. 1960s physical-culture poster style. Palette: rust, cream, charcoal.
-- **Text on shirt:** SWING HEAVY (around the circle)
-- **Shirt colors:** Black, Athletic Heather (confirm)
-- **Primary keyword:** kettlebell shirt — unmeasured - verify
-- **Variants (bank):** mens workout shirts graphic — unmeasured - verify
-- **Cover model:** registry #23 (reserved)
-```bash
-python3 scripts/fal-photo.py --design designs/swing-heavy.png --name swing-heavy --model seedream \
-    --person "Korean-American man in his early 30s, short black undercut hair, lean athletic build, clean-shaven" \
-    --scene "in a functional-fitness warehouse gym with rows of kettlebells on the floor and climbing ropes hanging behind him, large roll-up door letting in daylight" \
-    --shirt "black" --fit "classic-fit cotton t-shirt" \
-    --cover mens-gym-swing-heavy-graphic-tee
-```
-
-### 14. Men's Gym – Before Sunrise Tee
-- **Handle:** `mens-gym-before-sunrise-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee, listed as men's)
-- **Art:** A dumbbell rack silhouetted in front of a huge rising sun with horizon stripes, a coffee thermos on the end of the rack. Retro 1980s sunset-stripe style. Palette: burnt orange, mustard, navy, cream.
-- **Text on shirt:** BEFORE SUNRISE LIFTING (arched) / "Doors Open at 4:30" (small)
-- **Shirt colors:** Heather Navy, Black (confirm)
-- **Primary keyword:** early morning workout shirt — unmeasured - verify
-- **Variants (bank):** vintage mens workout shirts — unmeasured - verify
+### 14. Men's Gym – Marble Statue Curl Tee  *(replaces Before Sunrise)*
+- **Handle:** `mens-gym-marble-statue-curl-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee, listed as men's)
+- **Art:** An original classical marble statue (no specific real artwork) mid-dumbbell-curl on a museum plinth, cracked-stone texture, museum-placard type underneath. Palette: marble grey, bone cream, black, faded gold.
+- **Text on shirt:** "Study in Hypertrophy, c. 400 B.C." (small museum-placard serif)
+- **Shirt colors:** Vintage White, Black, Athletic Heather (confirm)
+- **Primary keyword:** vintage gym shirt — 480 / KD 30 (RankHero 2026-10-08)
+- **Variants:** retro gym shirt — 210 / 33
+- **Proof:** classical-art gym parody "Mona Lifta" 374 / 5,903; Greek-myth gym 1,583 favs; Amazon "vintage gym shirt men" ~1,350 bought/mo (market-research.md, Gym #6)
 - **Cover model:** registry #24 (reserved)
 ```bash
-python3 scripts/fal-photo.py --design designs/before-sunrise.png --name before-sunrise --model seedream \
+python3 scripts/fal-photo.py --design designs/marble-statue-curl.png --name marble-statue-curl --model seedream \
     --person "Mexican-American man in his early 40s, slicked-back black hair with grey temples, broad build, short trimmed mustache" \
-    --scene "inside a commercial gym before dawn, the big front windows still dark blue, rows of dumbbells and benches lit by overhead lights" \
-    --shirt "heather navy" --fit "classic-fit cotton t-shirt" \
-    --cover mens-gym-before-sunrise-graphic-tee
-```
-
-### 15. Men's Gym – Old School Strength Tee
-- **Handle:** `mens-gym-old-school-strength-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee, listed as men's)
-- **Art:** An original turn-of-the-century strongman with a handlebar mustache and leopard-print singlet hoisting a globe barbell overhead, drawn like a 1900s circus-poster engraving. Palette: rust, mustard, cream, black.
-- **Text on shirt:** OLD SCHOOL STRENGTH (curved banner) / "Est. Long Before Machines" (small)
-- **Shirt colors:** Vintage White, Black, Military Green (confirm)
-- **Primary keyword:** strongman shirt — unmeasured - verify
-- **Variants (bank):** mens retro gym shirts — unmeasured - verify
-- **Cover model:** registry #25 (reserved)
-```bash
-python3 scripts/fal-photo.py --design designs/old-school-strength.png --name old-school-strength --model seedream \
-    --person "Samoan man in his mid-30s, long black hair tied in a bun, big powerful build, broad smile" \
-    --scene "in an outdoor strongman training yard with atlas stones, a log bar and a tire on the gravel behind him, late afternoon sun" \
+    --scene "in a classic old-school iron gym with chrome dumbbell racks, worn leather benches and big mirrors, warm overhead light" \
     --shirt "vintage white" --fit "classic-fit cotton t-shirt" \
-    --cover mens-gym-old-school-strength-graphic-tee
+    --cover mens-gym-marble-statue-curl-graphic-tee
 ```
 
-### 16. Men's Gym – Bench Press Club Tee
-- **Handle:** `mens-gym-bench-press-club-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee, listed as men's)
-- **Art:** A flat bench and loaded bar on J-hooks seen from the side, with a pair of spotter hands drawn as a simple badge icon above. 1950s bowling-shirt-patch layout. Palette: navy, cream, burnt orange.
-- **Text on shirt:** BENCH PRESS CLUB (patch) / "Monday Is Chest Day" (small)
-- **Shirt colors:** Athletic Heather, Black, Heather Navy (confirm)
-- **Primary keyword:** bench press shirt — unmeasured - verify
-- **Variants (bank):** mens gym shirts graphic — unmeasured - verify
-- **Cover model:** registry #26 (reserved)
+### 35. Men's Gym – Knight Lifting Tee  *(new)*
+- **Handle:** `mens-gym-knight-lifting-graphic-tee` · **Blank:** Bella+Canvas 3001 (move to the pump-cover blank if #12's blank is approved)
+- **Art:** An original armored knight overhead-pressing a barbell, drawn like a medieval woodcut / illuminated-manuscript marginal doodle, with a little snail and a banner. Our own mock-Old-English line, not the meme phrase other sellers use. Palette: parchment cream, black, oxblood, faded gold.
+- **Text on shirt:** "Lifteth Heavy, Complaineth Not" (blackletter on a banner)
+- **Shirt colors:** Vintage White, Black, Military Green (confirm)
+- **Primary keyword:** funny gym shirt — 3,600 / KD 45 (RankHero 2026-10-08)
+- **Variants:** gym bro shirt — 260 / 32; funny mens gym shirts (bank)
+- **Proof:** medieval-knight gym tee 1,670 favs / 23,458 views; a copy at 257 / 2,073 (market-research.md, Gym #1)
+- **Cover model:** registry #66 (reserved)
 ```bash
-python3 scripts/fal-photo.py --design designs/bench-press-club.png --name bench-press-club --model seedream \
-    --person "Indian man in his late 20s, short wavy black hair, clean-shaven, lean muscular build" \
-    --scene "beside a bench press station in a busy commercial gym, plates stacked on the bar, mirrors and racks softly blurred behind" \
-    --shirt "athletic heather" --fit "classic-fit cotton t-shirt" \
-    --cover mens-gym-bench-press-club-graphic-tee
+python3 scripts/fal-photo.py --design designs/knight-lifting.png --name knight-lifting --model seedream \
+    --person "Brazilian man in his early 30s, shoulder-length wavy brown hair, short stubble, tall athletic build" \
+    --scene "in a stone-walled basement strength gym with iron plates on wooden pegs and a power rack behind him, warm Edison-bulb light" \
+    --shirt "vintage white" --fit "classic-fit cotton t-shirt" \
+    --cover mens-gym-knight-lifting-graphic-tee
 ```
 
-### 17. Men's Gym – Heavy Bag Dept. Tee
-- **Handle:** `mens-gym-heavy-bag-dept-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee, listed as men's)
-- **Art:** A worn leather heavy bag hanging on a chain with a pair of laced vintage gloves draped on the hook, drawn like a 1940s fight-gym poster. No promotions, belts or fighter names. Palette: oxblood, mustard, cream, black.
-- **Text on shirt:** BOXING CLUB / HEAVY BAG DEPT. (stacked condensed caps)
+### 20. Men's Gym – The Lifter Card Tee  *(replaces Squat Bench Deadlift)*
+- **Handle:** `mens-gym-the-lifter-card-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee, listed as men's)
+- **Art:** An original tarot-style card: a robed figure holding a loaded barbell overhead under a radiant sun, stars and moon in the corners, ornate card border, roman numeral "XXI" at the top. Our own card, not a copy of any deck. Palette: black, mustard gold, bone cream, oxblood.
+- **Text on shirt:** THE LIFTER (card footer)
 - **Shirt colors:** Black, Vintage White (confirm)
-- **Primary keyword:** boxing gym shirt — unmeasured - verify
-- **Variants (bank):** mens vintage gym shirts — unmeasured - verify
-- **Cover model:** registry #27 (reserved)
-```bash
-python3 scripts/fal-photo.py --design designs/heavy-bag-dept.png --name heavy-bag-dept --model seedream \
-    --person "Black man in his early 60s, short grey hair, neatly trimmed grey mustache, wiry fit build" \
-    --scene "in an old boxing gym with a row of heavy bags on chains, a ring rope corner in the background, brick walls and window light" \
-    --shirt "black" --fit "classic-fit cotton t-shirt" \
-    --cover mens-gym-heavy-bag-dept-graphic-tee
-```
-
-### 18. Men's Gym – Leg Day Survivor Tee
-- **Handle:** `mens-gym-leg-day-survivor-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee, listed as men's)
-- **Art:** A cartoon pair of wobbly legs in tube socks walking away from a squat rack, sweat drops and stars, drawn in a 1970s comic-strip style. Palette: mustard, navy, red, cream.
-- **Text on shirt:** I SURVIVED LEG DAY (bold retro caps) / "Barely" (small script)
-- **Shirt colors:** Heather Navy, Athletic Heather (confirm)
-- **Primary keyword:** leg day shirt — unmeasured - verify
-- **Variants (bank):** funny mens gym shirts — unmeasured - verify
-- **Cover model:** registry #28 (reserved)
-```bash
-python3 scripts/fal-photo.py --design designs/leg-day-survivor.png --name leg-day-survivor --model seedream \
-    --person "White man in his early 20s, shaggy blond hair, clean-shaven, tall lanky build" \
-    --scene "sitting on a weight bench next to a squat rack in a college-town gym after leg day, catching his breath, rubber floor and racks behind him" \
-    --shirt "heather navy" --fit "classic-fit cotton t-shirt" \
-    --cover mens-gym-leg-day-survivor-graphic-tee
-```
-
-### 19. Men's Gym – Rest Day Champion Tee
-- **Handle:** `mens-gym-rest-day-champion-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee, listed as men's)
-- **Art:** A vintage trophy cup with a tiny recliner and a TV remote on top instead of a lifter, ribbon banner and laurels. Mock-serious 1960s award-plaque style. Palette: gold, navy, cream, rust.
-- **Text on shirt:** REST DAY CHAMPION (ribbon banner)
-- **Shirt colors:** Black, Heather Navy (confirm)
-- **Primary keyword:** rest day shirt — unmeasured - verify
-- **Variants (bank):** mens funny gym t shirts — unmeasured - verify
-- **Cover model:** registry #29 (reserved)
-```bash
-python3 scripts/fal-photo.py --design designs/rest-day-champion.png --name rest-day-champion --model seedream \
-    --person "Filipino man in his late 30s, buzz cut, compact stocky build, clean-shaven, easy grin" \
-    --scene "doing light mobility work on a foam roller area of a gym, sitting on a plyo box with a water bottle beside him, stretching mats behind" \
-    --shirt "black" --fit "classic-fit cotton t-shirt" \
-    --cover mens-gym-rest-day-champion-graphic-tee
-```
-
-### 20. Men's Gym – Squat Bench Deadlift Tee
-- **Handle:** `mens-gym-squat-bench-deadlift-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee, listed as men's)
-- **Art:** Three simple athletic pictograms (squat, bench, deadlift) in a row inside a long horizontal 1960s meet-program frame with stars. No federation logos. Palette: navy, burnt orange, cream.
-- **Text on shirt:** SQUAT · BENCH · DEADLIFT (under the pictograms) / "The Big Three" (small)
-- **Shirt colors:** Vintage White, Black, Athletic Heather (confirm)
-- **Primary keyword:** powerlifting t-shirt — unmeasured - verify
-- **Variants (bank):** mens gym t shirts graphic — unmeasured - verify
+- **Primary keyword:** powerlifting shirt — 880 / KD 42 (RankHero 2026-10-08)
+- **Variants:** weightlifting shirt — 880 / 47
+- **Proof:** "The Deadlift Tarot Card" 683 favs / 9,512 views; Amazon "powerlifting shirt" ~1,600 bought/mo (market-research.md, Gym #5)
 - **Cover model:** registry #30 (reserved)
 ```bash
-python3 scripts/fal-photo.py --design designs/squat-bench-deadlift.png --name squat-bench-deadlift --model seedream \
+python3 scripts/fal-photo.py --design designs/the-lifter-card.png --name the-lifter-card --model seedream \
     --person "Middle Eastern man in his mid-40s, thick dark hair, full dark beard, no hat, barrel-chested heavy build" \
     --scene "in a powerlifting meet warm-up room, monolift and chalk bowl behind him, other lifters blurred in the background" \
+    --shirt "black" --fit "classic-fit cotton t-shirt" \
+    --cover mens-gym-the-lifter-card-graphic-tee
+```
+
+### 19. Men's Gym – Strong & Courageous Tee  *(replaces Rest Day Champion)*
+- **Handle:** `mens-gym-strong-and-courageous-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee, listed as men's)
+- **Art:** A roaring lion head in bold vintage engraving set above a horizontal loaded barbell, a small cross in the lion's mane highlights, simple badge frame. Palette: mustard gold, black, bone cream.
+- **Text on shirt:** STRONG & COURAGEOUS (badge) / "Joshua 1:9" (small)
+- **Shirt colors:** Black, Military Green, Vintage White (confirm)
+- **Primary keyword:** jesus gym shirt — 320 / KD 32 (RankHero 2026-10-08)
+- **Variants:** mens workout shirts graphic (bank)
+- **Proof:** "Strong and Courageous Christian Pump Cover" 455 / 7,830; Christian gym tees 201 / 3,886 (market-research.md, Gym #4)
+- **Cover model:** registry #29 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/strong-and-courageous.png --name strong-and-courageous --model seedream \
+    --person "Filipino man in his late 30s, buzz cut, compact stocky build, clean-shaven, easy grin" \
+    --scene "in a busy commercial gym at lunchtime, cable machines and dumbbell racks blurred behind him, a water bottle in his hand at his side" \
+    --shirt "black" --fit "classic-fit cotton t-shirt" \
+    --cover mens-gym-strong-and-courageous-graphic-tee
+```
+
+### 16. Men's Gym – Golden Era Pose Tee  *(replaces Bench Press Club)*
+- **Handle:** `mens-gym-golden-era-pose-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee, listed as men's)
+- **Art:** An anonymous 1970s-style bodybuilder silhouette hitting a double-biceps pose on a beach stage, halftone sunset with horizon stripes and palm shapes. No real athlete's likeness, no named beach or gym. Palette: burnt orange, mustard, sepia brown, cream.
+- **Text on shirt:** GOLDEN ERA (retro 70s script) / "Built the Old Way" (small)
+- **Shirt colors:** Vintage White, Heather Navy, Black (confirm)
+- **Primary keyword:** bodybuilding shirt — 1,600 / KD 36 (RankHero 2026-10-08)
+- **Variants:** lifting shirt — 1,900 / 40
+- **Proof:** Amazon "bodybuilding shirt men" ~3,050 bought/mo; bodybuilding-parody tee 374 / 5,903 (market-research.md, Gym #10)
+- **Cover model:** registry #26 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/golden-era-pose.png --name golden-era-pose --model seedream \
+    --person "Indian man in his late 20s, short wavy black hair, clean-shaven, lean muscular build" \
+    --scene "at an outdoor beach-side workout pen with iron weights on sand and palm trees behind him, late afternoon golden light" \
     --shirt "vintage white" --fit "classic-fit cotton t-shirt" \
-    --cover mens-gym-squat-bench-deadlift-graphic-tee
+    --cover mens-gym-golden-era-pose-graphic-tee
 ```
 
 ### 21. Men's Gym – Gym Rat Tee
-- **Handle:** `mens-gym-gym-rat-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee, listed as men's)
-- **Art:** An original cartoon rat in a sweatband and tank top curling a tiny dumbbell, drawn like a 1950s rubber-hose cartoon. No studio characters. Palette: grey, rust, mustard, cream.
+- **Handle:** `mens-gym-gym-rat-graphic-tee` · **Blank:** Bella+Canvas 3001 (move to the pump-cover blank if #12's blank is approved)
+- **Art:** An original cartoon rat in a sweatband and tank top curling a tiny dumbbell, drawn like a 1950s rubber-hose cartoon, laid out like a faded 90s bootleg tee (the winning look). No studio characters. Palette: grey, rust, mustard, cream.
 - **Text on shirt:** GYM RAT (bubbly retro caps)
 - **Shirt colors:** Athletic Heather, Black, Military Green (confirm)
-- **Primary keyword:** gym rat shirt — unmeasured - verify
-- **Variants (bank):** fun mens gym shirts — unmeasured - verify
+- **Primary keyword:** gym rat shirt — 720 / KD 43 (RankHero 2026-10-08)
+- **Variants:** fun mens gym shirts (bank)
+- **Proof:** "Gym Rat Vintage 90s" pump cover 102 / 864; washed 90s gym graphics 219 / 2,770 (market-research.md, Gym #11)
 - **Cover model:** registry #31 (reserved)
 ```bash
 python3 scripts/fal-photo.py --design designs/gym-rat.png --name gym-rat --model seedream \
@@ -381,103 +383,75 @@ python3 scripts/fal-photo.py --design designs/gym-rat.png --name gym-rat --model
     --cover mens-gym-gym-rat-graphic-tee
 ```
 
-
-## Western graphic tees — 12 briefs
-
-### 22. Women's Western – Barrel Racer Tee
-- **Handle:** `womens-western-barrel-racer-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
-- **Art:** A cowgirl and her quarter horse cutting tight around a barrel, dirt spraying, drawn as a 1950s rodeo-program illustration with halftone shading. No association logos. Palette: burnt orange, mustard, navy, cream.
-- **Text on shirt:** BARREL RACER (arched slab serif)
-- **Shirt colors:** White, Heather Mauve, Black (confirm)
-- **Primary keyword:** barrel racing shirt — unmeasured - verify
-- **Variants (bank):** western cowgirl graphic tee — unmeasured - verify
-- **Cover model:** registry #32 (reserved)
+### 15. Men's Gym – Old School Strength Tee
+- **Handle:** `mens-gym-old-school-strength-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee, listed as men's)
+- **Art:** An original turn-of-the-century strongman with a handlebar mustache and leopard-print singlet hoisting a globe barbell overhead, drawn like a 1900s circus-poster engraving, printed faded. Palette: rust, mustard, cream, black.
+- **Text on shirt:** OLD SCHOOL STRENGTH (curved banner) / "Est. Long Before Machines" (small)
+- **Shirt colors:** Vintage White, Black, Military Green (confirm)
+- **Primary keyword:** strongman shirt — 170 / KD 34 (RankHero 2026-10-06)
+- **Variants:** mens retro gym shirts (bank)
+- **Proof:** weak (no standout listing); kept lower in the queue for depth
+- **Cover model:** registry #25 (reserved)
 ```bash
-python3 scripts/fal-photo.py --design designs/barrel-racer.png --name barrel-racer --model seedream \
-    --person "White woman in her late 20s, long sandy-blonde waves, athletic build, sun-tanned" \
-    --scene "leaning on the rail of a dirt rodeo arena at a barrel racing practice, barrels and a horse and rider blurred behind her, late afternoon dust in the light" \
-    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
-    --cover womens-western-barrel-racer-graphic-tee
+python3 scripts/fal-photo.py --design designs/old-school-strength.png --name old-school-strength --model seedream \
+    --person "Samoan man in his mid-30s, long black hair tied in a bun, big powerful build, broad smile" \
+    --scene "in an outdoor strongman training yard with atlas stones, a log bar and a tire on the gravel behind him, late afternoon sun" \
+    --shirt "vintage white" --fit "classic-fit cotton t-shirt" \
+    --cover mens-gym-old-school-strength-graphic-tee
 ```
 
-### 23. Women's Western – Hold On Tight Tee
-- **Handle:** `womens-western-hold-on-tight-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
-- **Art:** A cowgirl on a bucking bronc, hat flying, one arm up, framed by a horseshoe-shaped rope border. 1940s pulp-western cover style. Palette: rust, mustard, turquoise, cream.
-- **Text on shirt:** Hold On Tight (rope-style script)
-- **Shirt colors:** Black, Heather Mauve (confirm)
-- **Primary keyword:** cowgirl graphic tee — unmeasured - verify
-- **Variants (bank):** women's cowgirl graphic tees — unmeasured - verify
-- **Cover model:** registry #33 (reserved)
+### 18. Men's Gym – Leg Day Survivor Tee
+- **Handle:** `mens-gym-leg-day-survivor-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee, listed as men's)
+- **Art:** A cartoon pair of wobbly legs in tube socks walking away from a squat rack, sweat drops and stars, drawn in a 1970s comic-strip style. Palette: mustard, navy, red, cream.
+- **Text on shirt:** I SURVIVED LEG DAY (bold retro caps) / "Barely" (small script)
+- **Shirt colors:** Heather Navy, Athletic Heather (confirm)
+- **Primary keyword:** leg day shirt — 260 / KD 42 (RankHero 2026-10-08)
+- **Variants:** mens gym shirts cotton (bank)
+- **Proof:** weak ("Leg Day pump cover" 56 / 768); lower in the queue
+- **Cover model:** registry #28 (reserved)
 ```bash
-python3 scripts/fal-photo.py --design designs/hold-on-tight.png --name hold-on-tight --model seedream \
-    --person "Black woman in her early 40s, long box braids pulled back, medium build" \
-    --scene "in the bleachers of a small-town rodeo at dusk, arena lights coming on, bucking chutes blurred in the background" \
-    --shirt "black" --fit "relaxed-fit women's cotton t-shirt" \
-    --cover womens-western-hold-on-tight-graphic-tee
+python3 scripts/fal-photo.py --design designs/leg-day-survivor.png --name leg-day-survivor --model seedream \
+    --person "White man in his early 20s, shaggy blond hair, clean-shaven, tall lanky build" \
+    --scene "sitting on a weight bench next to a squat rack in a college-town gym after leg day, catching his breath, rubber floor and racks behind him" \
+    --shirt "heather navy" --fit "classic-fit cotton t-shirt" \
+    --cover mens-gym-leg-day-survivor-graphic-tee
 ```
+
+### 17. Men's Gym – Heavy Bag Dept. Tee
+- **Handle:** `mens-gym-heavy-bag-dept-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee, listed as men's)
+- **Art:** A worn leather heavy bag hanging on a chain with a pair of laced vintage gloves draped on the hook, drawn like a 1940s fight-gym poster. No promotions, belts or fighter names. Palette: oxblood, mustard, cream, black.
+- **Text on shirt:** BOXING CLUB / HEAVY BAG DEPT. (stacked condensed caps)
+- **Shirt colors:** Black, Vintage White (confirm)
+- **Primary keyword:** boxing gym shirt — 210 / KD 40 (RankHero 2026-10-06)
+- **Variants:** mens vintage gym shirts (bank)
+- **Proof:** weak; last in the queue
+- **Cover model:** registry #27 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/heavy-bag-dept.png --name heavy-bag-dept --model seedream \
+    --person "Black man in his early 60s, short grey hair, neatly trimmed grey mustache, wiry fit build" \
+    --scene "in an old boxing gym with a row of heavy bags on chains, a ring rope corner in the background, brick walls and window light" \
+    --shirt "black" --fit "classic-fit cotton t-shirt" \
+    --cover mens-gym-heavy-bag-dept-graphic-tee
+```
+
+
+## Western graphic tees + rodeo — 12 briefs (in this order)
 
 ### 24. Women's Western – Steer Skull & Wildflowers Tee
 - **Handle:** `womens-western-steer-skull-wildflowers-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
-- **Art:** A sun-bleached steer skull with long curved horns resting on a bed of prairie wildflowers (paintbrush, coneflower, sage). Woodcut texture. Palette: mustard, navy, dusty rose, cream (not orange-and-white, so it reads as no team).
+- **Art:** A sun-bleached steer skull with long curved horns resting on a bed of prairie wildflowers (paintbrush, coneflower, sage), boho fine-line mixed with woodcut texture, which is the niche's winning look. Palette: terracotta, sage, dusty rose, cream (never orange-and-white, so it reads as no team).
 - **Text on shirt:** none (art only)
-- **Shirt colors:** Heather Mauve, White, Black (confirm)
-- **Primary keyword:** cow skull shirt — unmeasured - verify
-- **Variants (bank):** retro western graphic tees — unmeasured - verify
+- **Shirt colors:** White, Heather Mauve, Black (confirm)
+- **Primary keyword:** cow skull shirt — 480 / KD 46 (RankHero 2026-10-08)
+- **Variants:** bull skull shirt — 390 / 44; retro western graphic tees (bank)
+- **Proof:** boho cow/bull skull tees 2,803 / 85,483 · 2,240 / 32,660 · 1,831 / 18,683 · 1,503 / 36,502 favs/views; Amazon "cow skull shirt women" ~900 bought/mo (market-research.md, Western #1)
 - **Cover model:** registry #34 (reserved)
 ```bash
 python3 scripts/fal-photo.py --design designs/steer-skull-wildflowers.png --name steer-skull-wildflowers --model seedream \
     --person "Mexican-American woman in her mid-50s, dark hair in a low chignon, laugh lines, sturdy build, turquoise earrings" \
     --scene "on the porch of a working ranch house, a wooden corral and cattle in the pasture behind her, golden late-day light" \
-    --shirt "heather mauve" --fit "relaxed-fit women's cotton t-shirt" \
+    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
     --cover womens-western-steer-skull-wildflowers-graphic-tee
-```
-
-### 25. Women's Western – Kick Up Dust Tee
-- **Handle:** `womens-western-kick-up-dust-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
-- **Art:** A pair of tall stitched cowgirl boots with spurs mid-step, kicking up a cloud of dust shaped into little stars. 1970s iron-on transfer look. Palette: tan, burnt orange, turquoise, cream.
-- **Text on shirt:** KICK UP DUST (wavy 1970s caps)
-- **Shirt colors:** White, Black (confirm)
-- **Primary keyword:** cowboy boots shirt — unmeasured - verify
-- **Variants (bank):** cute western graphic tees — unmeasured - verify
-- **Cover model:** registry #35 (reserved)
-```bash
-python3 scripts/fal-photo.py --design designs/kick-up-dust.png --name kick-up-dust --model seedream \
-    --person "White woman in her early 20s, long dark brown hair worn straight, petite build" \
-    --scene "on a ranch gravel road beside an old pickup and a barbed-wire fence at golden hour, hay bales in the field behind" \
-    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
-    --cover womens-western-kick-up-dust-graphic-tee
-```
-
-### 26. Women's Western – Run Free Tee
-- **Handle:** `womens-western-run-free-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
-- **Art:** Three wild horses running across open range, manes streaming, mesas faint behind, drawn as a two-color 1960s screen print with a sun circle. Palette: navy, burnt orange, cream.
-- **Text on shirt:** Run Free (loose brush script)
-- **Shirt colors:** Heather Mauve, Athletic Heather, White (confirm)
-- **Primary keyword:** wild horse shirt — unmeasured - verify
-- **Variants (bank):** womens western graphic tees — unmeasured - verify
-- **Cover model:** registry #36 (reserved)
-```bash
-python3 scripts/fal-photo.py --design designs/run-free.png --name run-free --model seedream \
-    --person "Mixed-race Black and white woman in her late 20s, sleek high ponytail, light freckles, tall athletic build" \
-    --scene "standing at a weathered wooden fence on open rangeland at sunset with horses grazing in the distance" \
-    --shirt "heather mauve" --fit "relaxed-fit women's cotton t-shirt" \
-    --cover womens-western-run-free-graphic-tee
-```
-
-### 27. Women's Western – Howdy Tee
-- **Handle:** `womens-western-howdy-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
-- **Art:** A pink-and-tan cowgirl hat tipped over puffy 1970s bubble letters, sparkles and tiny stars around it. Fun but still screen-print flat. Palette: dusty pink, mustard, tan, cream.
-- **Text on shirt:** HOWDY (bubble letters)
-- **Shirt colors:** White, Heather Mauve (confirm)
-- **Primary keyword:** howdy shirt — unmeasured - verify
-- **Variants (bank):** punchy western graphic tees — unmeasured - verify
-- **Cover model:** registry #37 (reserved)
-```bash
-python3 scripts/fal-photo.py --design designs/howdy.png --name howdy --model seedream \
-    --person "Korean woman in her mid-30s, shoulder-length straight hair with curtain bangs, slim build" \
-    --scene "by the ticket gate of a county rodeo at dusk, wooden grandstand and arena lights behind her, a paper ticket held at her hip" \
-    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
-    --cover womens-western-howdy-graphic-tee
 ```
 
 ### 28. Women's Western – Saturday Night Rodeo Tee
@@ -485,8 +459,9 @@ python3 scripts/fal-photo.py --design designs/howdy.png --name howdy --model see
 - **Art:** A vintage letterpress rodeo poster: saddle-bronc rider in silhouette, woodtype headlines, star rules and a worn paper texture. No real towns or associations named. Palette: red, navy, mustard, cream.
 - **Text on shirt:** SATURDAY NIGHT RODEO / "Gates Open at Six" (woodtype poster type)
 - **Shirt colors:** White, Athletic Heather (confirm)
-- **Primary keyword:** vintage rodeo shirt — unmeasured - verify
-- **Variants (bank):** women's vintage western graphic tees — unmeasured - verify
+- **Primary keyword:** rodeo t shirt — 5,400 / KD 32 (RankHero 2026-10-08; moved here from #30)
+- **Variants:** vintage rodeo shirt — 320 / 32; women's vintage western graphic tees (bank)
+- **Proof:** "Vintage Western Graphic Tee: American Rodeo" 239 / 4,398; Amazon "rodeo t shirt women" ~1,850 and "vintage rodeo shirt" ~1,200 bought/mo; Boot Barn's shelf leads with "Retro Rodeo" and "American Rodeo" (market-research.md, Western #4)
 - **Cover model:** registry #38 (reserved)
 ```bash
 python3 scripts/fal-photo.py --design designs/saturday-night-rodeo.png --name saturday-night-rodeo --model seedream \
@@ -496,61 +471,14 @@ python3 scripts/fal-photo.py --design designs/saturday-night-rodeo.png --name sa
     --cover womens-western-saturday-night-rodeo-graphic-tee
 ```
 
-### 29. Unisex Western – Lucky Horseshoe Tee
-- **Handle:** `unisex-western-lucky-horseshoe-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee)
-- **Art:** A worn iron horseshoe, open end up, with a rope loop and two crossed branding irons behind, inside a ranch-gate arch. 1950s feed-sack print style. Palette: rust, mustard, navy, cream.
-- **Text on shirt:** LUCKY HORSESHOE RANCH (gate arch)
-- **Shirt colors:** Vintage White, Black, Heather Clay (confirm)
-- **Primary keyword:** horseshoe shirt — unmeasured - verify
-- **Variants (bank):** vintage western graphic tees — unmeasured - verify
-- **Cover model:** registry #39 (reserved)
-```bash
-python3 scripts/fal-photo.py --design designs/lucky-horseshoe.png --name lucky-horseshoe --model seedream \
-    --person "Black man in his mid-40s, shaved head, neat short beard, broad build, straw cowboy hat pushed back off his face" \
-    --scene "inside a weathered wooden horse barn, tack hanging on the wall and a horse looking over a stall door behind him, warm afternoon light through the slats" \
-    --shirt "vintage white" --fit "unisex classic-fit cotton t-shirt" \
-    --cover unisex-western-lucky-horseshoe-graphic-tee
-```
-
-### 30. Unisex Western – Hat on the Post Tee
-- **Handle:** `unisex-western-hat-on-the-post-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee)
-- **Art:** A sweat-stained felt cowboy hat hung on a fence post with a coiled rope, wide prairie and a low sun behind. Quiet, painterly two-tone screen print. Palette: navy, mustard, burnt orange, cream.
-- **Text on shirt:** none (art only)
-- **Shirt colors:** Heather Navy, Vintage White (confirm)
-- **Primary keyword:** cowboy hat graphic tee — unmeasured - verify
-- **Variants (bank):** cowboy graphic tees women — unmeasured - verify
-- **Cover model:** registry #40 (reserved)
-```bash
-python3 scripts/fal-photo.py --design designs/hat-on-the-post.png --name hat-on-the-post --model seedream \
-    --person "Puerto Rican woman in her early 20s, shoulder-length wavy dark hair, medium build" \
-    --scene "leaning on a split-rail fence at a ranch at golden hour, pasture and a red barn behind her" \
-    --shirt "heather navy" --fit "unisex classic-fit cotton t-shirt" \
-    --cover unisex-western-hat-on-the-post-graphic-tee
-```
-
-### 31. Unisex Western – Ranch Hand Tee
-- **Handle:** `unisex-western-ranch-hand-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee)
-- **Art:** A cowboy on horseback swinging a loop over a running calf, drawn like a 1950s ranch-supply catalog plate. Palette: brown, mustard, navy, cream.
-- **Text on shirt:** RANCH HAND (slab serif) / "Up Before the Rooster" (small)
-- **Shirt colors:** Black, Military Green, Vintage White (confirm)
-- **Primary keyword:** ranch hand shirt — unmeasured - verify
-- **Variants (bank):** mens western graphic tees — unmeasured - verify
-- **Cover model:** registry #41 (reserved)
-```bash
-python3 scripts/fal-photo.py --design designs/ranch-hand.png --name ranch-hand --model seedream \
-    --person "White man in his early 60s, white mustache, weathered sun-lined face, lean wiry build, felt cowboy hat pushed back off his forehead" \
-    --scene "at the cattle pens of a working ranch at dawn, steers and wooden gates behind him, cold morning mist" \
-    --shirt "black" --fit "unisex classic-fit cotton t-shirt" \
-    --cover unisex-western-ranch-hand-graphic-tee
-```
-
 ### 32. Unisex Western – Hold On Eight Tee
 - **Handle:** `unisex-western-hold-on-eight-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee)
 - **Art:** A bull rider on a spinning bull, free hand high, framed by a circular chute-gate border with rivets. Gritty 1970s rodeo-flyer texture. No association logos. Palette: rust, cream, navy.
 - **Text on shirt:** HOLD ON EIGHT (around the circle)
 - **Shirt colors:** Vintage White, Heather Navy (confirm)
-- **Primary keyword:** bull riding shirt — unmeasured - verify
-- **Variants (bank):** cowboy graphic tee vintage — unmeasured - verify
+- **Primary keyword:** bull riding shirt — 720 / KD 30 (RankHero 2026-10-08)
+- **Variants:** cowboy graphic tee vintage (bank)
+- **Proof:** Amazon "bull riding shirt" ~1,300 bought/mo; thin Etsy competition (1,009 listings) (market-research.md, Western #11)
 - **Cover model:** registry #42 (reserved)
 ```bash
 python3 scripts/fal-photo.py --design designs/hold-on-eight.png --name hold-on-eight --model seedream \
@@ -560,18 +488,155 @@ python3 scripts/fal-photo.py --design designs/hold-on-eight.png --name hold-on-e
     --cover unisex-western-hold-on-eight-graphic-tee
 ```
 
-### 33. Unisex Western – Cowboy Coffee Tee
-- **Handle:** `unisex-western-cowboy-coffee-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee)
-- **Art:** A blue enamel coffee pot on a campfire grate with two tin cups, smoke curling into a horseshoe shape, under a big night sky. Camp-cook-book illustration style. Palette: navy, burnt orange, mustard, cream.
-- **Text on shirt:** COWBOY COFFEE (arched) / "Strong Enough to Float a Horseshoe" (small)
-- **Shirt colors:** Black, Heather Navy (confirm)
-- **Primary keyword:** cowboy coffee shirt — unmeasured - verify
-- **Variants (bank):** funny western graphic tees — unmeasured - verify
+### 33. Unisex Western – Vintage Bison Tee  *(replaces Cowboy Coffee)*
+- **Handle:** `unisex-western-vintage-bison-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee)
+- **Art:** A lone bison standing in tall prairie grass, a big setting sun and layered hills behind, drawn as a 1960s park-poster screen print (flat shapes, 3 inks, light grain). No park names or agency marks. Palette: rust, mustard, brown, cream.
+- **Text on shirt:** ROAM (small spaced caps under the scene)
+- **Shirt colors:** Vintage White, Black, Heather Clay (confirm)
+- **Primary keyword:** bison shirt — 1,900 / KD 34 (RankHero 2026-10-08)
+- **Variants:** buffalo shirt — 2,900 / 42
+- **Proof:** vintage bison tee 248 / 2,857; "Wild West Buffalo" 203 / 4,780; buffalo 153 / 2,047 (market-research.md, Western #8)
 - **Cover model:** registry #43 (reserved)
 ```bash
-python3 scripts/fal-photo.py --design designs/cowboy-coffee.png --name cowboy-coffee --model seedream \
+python3 scripts/fal-photo.py --design designs/vintage-bison.png --name vintage-bison --model seedream \
     --person "Japanese-American man in his late 30s, medium-length black hair swept back, short stubble, medium build" \
-    --scene "at a ranch cow camp at dawn crouched by a campfire with an enamel coffee pot, saddles and a horse tied up in the background" \
+    --scene "at a pull-off on an open prairie road at golden hour, tall grass and rolling hills behind him, a pickup parked to the side" \
+    --shirt "vintage white" --fit "unisex classic-fit cotton t-shirt" \
+    --cover unisex-western-vintage-bison-graphic-tee
+```
+
+### 30. Unisex Western – Saddle Blanket Steer Tee  *(replaces Hat on the Post)*
+- **Handle:** `unisex-western-saddle-blanket-steer-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee)
+- **Art:** A steer head centered on a wide woven saddle-blanket band of stepped diamonds and stripes (trade-blanket geometry only: no thunderbirds, feathers or other sacred symbols), soft distressing. Palette: turquoise, rust, cream, black.
+- **Text on shirt:** none (art only)
+- **Shirt colors:** Vintage White, Heather Navy, Black (confirm)
+- **Primary keyword:** aztec shirt — 1,300 / KD 38 (RankHero 2026-10-08)
+- **Variants:** cowboy graphic tees women (bank)
+- **Proof:** "Aztec Shirt, Women's Country Shirt" 1,540 favs / 31,809 views; southwest geometric tees across the shelf (market-research.md, Western #5)
+- **Cover model:** registry #40 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/saddle-blanket-steer.png --name saddle-blanket-steer --model seedream \
+    --person "Puerto Rican woman in her early 20s, shoulder-length wavy dark hair, medium build" \
+    --scene "in a ranch tack room with saddle blankets folded over wooden racks and saddles on the wall behind her, warm afternoon light through the door" \
+    --shirt "vintage white" --fit "unisex classic-fit cotton t-shirt" \
+    --cover unisex-western-saddle-blanket-steer-graphic-tee
+```
+
+### 27. Women's Western – Howdy Tee
+- **Handle:** `womens-western-howdy-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** A pink-and-tan cowgirl hat tipped over puffy 1970s bubble letters, sparkles and tiny stars around it, a small steer-skull-and-daisy accent tucked under the "Y" (the top Howdy listing pairs it with a skull). Fun but still screen-print flat. Palette: dusty pink, mustard, tan, cream.
+- **Text on shirt:** HOWDY (bubble letters)
+- **Shirt colors:** White, Heather Mauve (confirm)
+- **Primary keyword:** howdy shirt — 480 / KD 53 (RankHero 2026-10-08; KD > 50, so this is depth for the KD 16 hub, kept because the proof is strong)
+- **Variants:** punchy western graphic tees (bank)
+- **Proof:** "Boho Cow Skull … Howdy" 2,803 / 85,483; Howdy tees 435 / 9,083 · 376 / 8,434 · 364 / 5,848 · 361 / 4,256 (market-research.md, Western #2)
+- **Cover model:** registry #37 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/howdy.png --name howdy --model seedream \
+    --person "Korean woman in her mid-30s, shoulder-length straight hair with curtain bangs, slim build" \
+    --scene "by the ticket gate of a county rodeo at dusk, wooden grandstand and arena lights behind her, a paper ticket held at her hip" \
+    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-western-howdy-graphic-tee
+```
+
+### 25. Women's Western – Kick Up Dust Tee
+- **Handle:** `womens-western-kick-up-dust-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** A pair of tall cowgirl boots mid-step, the shafts covered in ornate boot-stitch scrollwork drawn large (the winning motif), kicking up a cloud of dust shaped into little stars. 1970s iron-on transfer look. Palette: tan, burnt orange, turquoise, cream.
+- **Text on shirt:** KICK UP DUST (wavy 1970s caps)
+- **Shirt colors:** White, Black (confirm)
+- **Primary keyword:** cowboy boots shirt — 590 / KD 48 (RankHero 2026-10-08)
+- **Variants:** boot stitch shirt — 110 / 40; cute western graphic tees (bank)
+- **Proof:** embroidered boot-stitch tee 1,390 / 23,615; Amazon "cowboy boots shirt women" ~1,600 bought/mo (market-research.md, Western #6)
+- **Cover model:** registry #35 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/kick-up-dust.png --name kick-up-dust --model seedream \
+    --person "White woman in her early 20s, long dark brown hair worn straight, petite build" \
+    --scene "on a ranch gravel road beside an old pickup and a barbed-wire fence at golden hour, hay bales in the field behind" \
+    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-western-kick-up-dust-graphic-tee
+```
+
+### 23. Women's Western – Wild West Rider Tee  *(replaces Hold On Tight)*
+- **Handle:** `womens-western-wild-west-rider-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** An original cowgirl at full gallop on a paint horse, hat brim up, scarf flying, against a huge striped 1970s sun and a mesa line, framed like a faded concert-tee/poster. Our own rider and composition. Palette: rust, mustard, turquoise, cream.
+- **Text on shirt:** WILD WEST (big retro serif, arched)
+- **Shirt colors:** Vintage White, Black, Heather Mauve (confirm)
+- **Primary keyword:** wild west shirt — 590 / KD 49 (RankHero 2026-10-08; replaces cowgirl graphic tee, 480 / 56)
+- **Variants:** women's cowgirl graphic tees (bank)
+- **Proof:** "Retro Wild West Shirt" 904 / 10,295 and 843 / 9,649; "Wild West … Bull Skull" 810 / 16,715; Amazon "cowgirl shirt women" ~5,850 bought/mo (market-research.md, Western #3)
+- **Cover model:** registry #33 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/wild-west-rider.png --name wild-west-rider --model seedream \
+    --person "Black woman in her early 40s, long box braids pulled back, medium build" \
+    --scene "in the bleachers of a small-town rodeo at dusk, arena lights coming on, bucking chutes blurred in the background" \
+    --shirt "vintage white" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-western-wild-west-rider-graphic-tee
+```
+
+### 22. Women's Western – Barrel Racer Tee
+- **Handle:** `womens-western-barrel-racer-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** A cowgirl and her quarter horse cutting tight around a barrel, dirt spraying, drawn as a 1950s rodeo-program illustration with halftone shading. No association logos. Palette: burnt orange, mustard, navy, cream.
+- **Text on shirt:** BARREL RACER (arched slab serif)
+- **Shirt colors:** White, Heather Mauve, Black (confirm)
+- **Primary keyword:** barrel racing shirt — 390 / KD 38 (RankHero 2026-10-08)
+- **Variants:** western cowgirl graphic tee (bank)
+- **Proof:** steady niche (106 / 750; 78 / 555) (market-research.md, Western #12)
+- **Cover model:** registry #32 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/barrel-racer.png --name barrel-racer --model seedream \
+    --person "White woman in her late 20s, long sandy-blonde waves, athletic build, sun-tanned" \
+    --scene "leaning on the rail of a dirt rodeo arena at a barrel racing practice, barrels and a horse and rider blurred behind her, late afternoon dust in the light" \
+    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-western-barrel-racer-graphic-tee
+```
+
+### 31. Unisex Western – Desert Rattler Tee  *(replaces Ranch Hand)*
+- **Handle:** `unisex-western-desert-rattler-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee)
+- **Art:** A coiled diamondback rattlesnake wrapped around a worn cowboy boot, desert marigolds and a small prickly pear around the base, drawn like a faded 90s bootleg tee print. No flags or slogans. Palette: tan, olive, rust, cream.
+- **Text on shirt:** none (art only)
+- **Shirt colors:** Black, Vintage White, Military Green (confirm)
+- **Primary keyword:** rattlesnake shirt — 260 / KD 35 (RankHero 2026-10-08)
+- **Variants:** mens western graphic tees (bank); funny western graphic tees (bank)
+- **Proof:** low competition (777 listings); vintage-rattlesnake tees present but small (7–27 favs); fills the unisex/men's gap (market-research.md, Western #13)
+- **Cover model:** registry #41 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/desert-rattler.png --name desert-rattler --model seedream \
+    --person "White man in his early 60s, white mustache, weathered sun-lined face, lean wiry build, felt cowboy hat pushed back off his forehead" \
+    --scene "at the cattle pens of a working ranch in dry desert country at dawn, steers and wooden gates behind him, mesquite and cold morning light" \
     --shirt "black" --fit "unisex classic-fit cotton t-shirt" \
-    --cover unisex-western-cowboy-coffee-graphic-tee
+    --cover unisex-western-desert-rattler-graphic-tee
+```
+
+### 26. Women's Western – Run Free Tee
+- **Handle:** `womens-western-run-free-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** Three wild horses running across open range, manes streaming, mesas faint behind, drawn as a two-color 1960s screen print with a sun circle. Palette: navy, burnt orange, cream.
+- **Text on shirt:** Run Free (loose brush script)
+- **Shirt colors:** Heather Mauve, Athletic Heather, White (confirm)
+- **Primary keyword:** wild horse shirt — 140 / KD 36 (RankHero 2026-10-08)
+- **Variants:** womens western graphic tees (bank)
+- **Proof:** horse tees are a big shelf (Amazon "horse shirt women western" ~1,400 bought/mo; Etsy horse tees 1,850 / 23,381 and 483 / 5,205), but horse shirt itself is KD 51 (market-research.md, Western #7)
+- **Cover model:** registry #36 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/run-free.png --name run-free --model seedream \
+    --person "Mixed-race Black and white woman in her late 20s, sleek high ponytail, light freckles, tall athletic build" \
+    --scene "standing at a weathered wooden fence on open rangeland at sunset with horses grazing in the distance" \
+    --shirt "heather mauve" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-western-run-free-graphic-tee
+```
+
+### 29. Unisex Western – Lucky Horseshoe Tee
+- **Handle:** `unisex-western-lucky-horseshoe-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee)
+- **Art:** A worn iron horseshoe, open end up, with a rope loop and two crossed branding irons behind, inside a ranch-gate arch; a few retro motel-sign stars nod to the "Lady Luck" look. 1950s feed-sack print style. Palette: rust, mustard, navy, cream.
+- **Text on shirt:** LUCKY HORSESHOE RANCH (gate arch)
+- **Shirt colors:** Vintage White, Black, Heather Clay (confirm)
+- **Primary keyword:** horseshoe shirt — 210 / KD 42 (RankHero 2026-10-08)
+- **Variants:** vintage western graphic tees (bank)
+- **Proof:** small ("Lady Luck" retro cowgirl 47 / 677); last in the queue (market-research.md, Western #14)
+- **Cover model:** registry #39 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/lucky-horseshoe.png --name lucky-horseshoe --model seedream \
+    --person "Black man in his mid-40s, shaved head, neat short beard, broad build, straw cowboy hat pushed back off his face" \
+    --scene "inside a weathered wooden horse barn, tack hanging on the wall and a horse looking over a stall door behind him, warm afternoon light through the slats" \
+    --shirt "vintage white" --fit "unisex classic-fit cotton t-shirt" \
+    --cover unisex-western-lucky-horseshoe-graphic-tee
 ```
