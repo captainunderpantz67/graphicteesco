@@ -34,6 +34,9 @@ Rules Sam has locked in while building Graphic Tees Co. Each one is a requiremen
 - QC reject list: warped hands, garbled text, changed print, background logos/brands, a repeated face. Model: fal Seedream 4 (proven 2026-10-08); test Seedream 5 Pro once.
 
 **Design art (new shirts)**
+- **Market research first (Sam, 2026-10-08):** before designing for a collection, research what's actually selling in that niche — Etsy bestsellers (bestseller badges, review counts, "in N carts"), Amazon Merch best-seller rank, Pinterest/TikTok trend searches, Google Trends, RankHero competing-listing counts. Build each collection's designs from the proven winners until we own the niche.
+- **Recreate the proven idea, never the art:** reuse the winning *theme, motif, phrase, layout style, palette and format* — redrawn as our own original artwork. Never trace, copy or near-duplicate a specific seller's design, and never use trademarked phrases, brands or characters. (Copying gets the Shopify / Printful / Etsy accounts pulled.)
+- Record the evidence per design in `docs/market-research.md` (what's winning, where, how we know) so every brief traces to both demand (keyword) and proof (sales).
 - Original vintage screen-print art, limited 3–4 ink palette; lettering spelled right and legible; no licensed characters, brands or teams.
 - Print-ready: transparent background, 3600px / 300 DPI; back logo `back-logo-company.png` 3" top center.
 - Every design traces to a measured keyword in `docs/design-briefs.md`.
