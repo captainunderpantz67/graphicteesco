@@ -1,6 +1,5 @@
 # Rebuild the live site every night so new/edited Shopify products show up by morning.
 # Free GitHub Actions cron → pings the Cloudflare Pages deploy hook (stored as a repo secret).
-# NETLIFY_BUILD_HOOK stays as a fallback until graphicteesco.com DNS moves to Cloudflare.
 name: Nightly site rebuild
 on:
   schedule:
@@ -15,7 +14,3 @@ jobs:
       - name: Cloudflare Pages
         if: ${{ env.CF_HOOK != '' }}
         run: curl -fsS -X POST "$CF_HOOK"
-      - name: Netlify (until DNS moves)
-        env:
-          NETLIFY_HOOK: ${{ secrets.NETLIFY_BUILD_HOOK }}
-        run: curl -fsS -X POST -d '{}' "$NETLIFY_HOOK" || true

@@ -1,4 +1,8 @@
-# STATUS 2026-10-09 ~10:45 AM CT — Cloudflare Pages is LIVE
+# STATUS 2026-10-09 ~12:30 PM CT — graphicteesco.com is LIVE on Cloudflare Pages (migration done)
+- Nameservers eva/joaquin.ns.cloudflare.com (Reverend changed at Porkbun). Pages custom domains: graphicteesco.com + www. Redirect rule www → apex (301, query kept). Porkbun email forwarding MX + SPF copied over. Netlify no longer pinged by nightly-rebuild; Netlify site can be deleted whenever.
+- Still to do: Search Console domain verification via Cloudflare DNS TXT (needs Sam's GSC login).
+
+# (earlier) STATUS 2026-10-09 ~10:45 AM CT — Cloudflare Pages is LIVE
 - https://graphicteesco.pages.dev serves all 30 products (server: cloudflare; sitemap 30 product URLs; _redirects 301s work).
 - Done: GitHub app (repo-only) · build npm run build → dist · NODE_VERSION 22 + both PUBLIC_SHOPIFY_* vars · watch paths exclude docs/*, scripts/*, designs/* · deploy hook "nightly-rebuild" created.
 - Nightly hook secret added + test run rebuilt Pages (2026-10-09). Left: (b) DNS at Porkbun (step 6) — needs Porkbun login. (c) After DNS: add custom domain in Pages, verify, then lock Netlify deploys + drop the Netlify step from nightly-rebuild.yml.
