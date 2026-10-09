@@ -32,7 +32,7 @@ Every primary below now carries its measured Etsy-search volume / KD from `https
 ## Rules every brief follows
 - **Art:** original, vintage screen-print look, 3–4 ink limited palette. **Recreate the winning theme, never a listing's art** (store-rules "Design art"). No licensed characters, brands, sports teams, associations, gym chains, film/song titles or real places' trademarks. Excluded on purpose: Disney/Toy Story, Grinch, Home Alone, "Save a Horse", "Long Live Cowgirls", "Two Dozen Roses", "Cowboy Carter", "Cowboy Killer", "Candy Cane Lane" (a film title), the "holly jolly Christmas" lyric line, Spartan-helmet crests, and real athletes' likenesses. Designs that echo an existing product (barbell/plate crests, desert scenes, dirt roads, gingerbread, cabins, tree trucks, "Merry & Bright") were left out.
 - **Title / handle:** SOP convention `<Audience> <Niche> – <Design> Tee`; handle `<audience>-<niche>-<design>-graphic-tee`. $29.99 flat.
-- **Blank facts:** Bella+Canvas 3001 and 6400 are lightweight 4.2 oz. Shirt colors listed are targets; confirm each is stocked on that blank in Printful before publishing, and only list colors actually offered. **Pump-cover blank (#12):** the market sells pump covers on oversized, garment-dyed or acid-washed heavyweight tees (Etsy winners are on Comfort Colors; Amazon's top "pump cover" sellers are washed oversized blanks). Pick the Printful oversized/garment-dyed option, copy its real spec (weight, fabric) from Printful, and check the margin at $29.99 before building. If it works, move #11, #21 and #35 onto it too.
+- **Blank facts:** Bella+Canvas 3001 and 6400 are lightweight 4.2 oz. Shirt colors listed are targets; confirm each is stocked on that blank in Printful before publishing, and only list colors actually offered. **Pump-cover blank — DECIDED (Sam, 2026-10-09):** Printful #1482 All-Over Print Oversized Cotton T-Shirt (pump cover, $39.99). Heavyweight 8.85 oz, 95% cotton / 5% elastane, oversized boxy fit, all-over print (the art + background wrap the whole shirt, so there are no blank colors: the design's own background IS the shirt color — options are Size only, 2XS–5XL). $39.99 flat on every size. #12, #11, #21 and #35 are all pump covers on this blank. Make them special: full-bleed art front, a back panel design (not just the neck logo), and the colorway written into the art (e.g. washed black, bone, sand).
 - **Keyword gate:** every primary is measured (RankHero, 2026-10-08). Variants are measured where a number is shown; otherwise they are bank phrases (`src/data/keyword-bank.json`, unmeasured). Each variant is assigned to one product only. No primary repeats a primary already used on a live product.
 - **Cover photo:** one `scripts/fal-photo.py` run per product, `--model seedream`, design file at `designs/<slug>.png` (the exact print file). Each person is new and is reserved in `docs/model-registry.md` (rows 11–43, 65–66). Eyeball every result against the imagery rules (whole face + headroom, print unchanged and unobstructed, real ink on fabric, props at the hip) before adding it to `src/data/covers.ts`.
 - **Product photos (Printful flats per image standard v2):** front, back logo, 2–3 colors, print close-up. No Printful stock models.
@@ -231,10 +231,10 @@ python3 scripts/fal-photo.py --design designs/ho-ho-howdy.png --name ho-ho-howdy
 ## Men's gym shirts + pump covers — 12 briefs (in this order)
 
 ### 12. Men's Gym – Uphill Pump Cover Tee  *(replaces Garage Gym)*
-- **Handle:** `mens-gym-uphill-pump-cover-graphic-tee` · **Blank:** oversized garment-dyed heavyweight tee (pump cover). Pick the Printful option and confirm its spec and margin before building; see Rules.
+- **Handle:** `mens-gym-uphill-pump-cover-graphic-tee` · **Blank:** Printful #1482 All-Over Print Oversized Cotton T-Shirt (pump cover, $39.99) — see Rules
 - **Art:** An original engraved Greek figure in a short tunic rolling a giant cast-iron weight plate up a steep rocky mountain, laurel border, cracked-marble texture, like an old book engraving. Our own take on the myth; no copied composition. Palette: black, bone cream, faded terracotta.
 - **Text on shirt:** KEEP PUSHING (small serif caps under the scene)
-- **Shirt colors:** garment-dyed Black/Pepper, Ivory, Sand (confirm on the chosen blank)
+- **Shirt colors:** none (all-over print) — print the art on a washed-black background; back panel: a large cracked plate + KEEP PUSHING
 - **Primary keyword:** pump cover — 22,200 / KD 28 (RankHero 2026-10-08)
 - **Variants:** oversized gym shirt — 5,400 / 30; sisyphus shirt — 110 / 40
 - **Proof:** "Sisyphus Gym Pump Cover" 1,583 favs / 18,480 views at $41; pump-cover winners are on Comfort Colors; Amazon washed oversized tees 2K–3K+ bought/mo (market-research.md, Gym #2 + format finding)
@@ -265,7 +265,7 @@ python3 scripts/fal-photo.py --design designs/iron-sharpens-iron.png --name iron
 ```
 
 ### 11. Men's Gym – Deadlift Skeleton Tee  *(Deadlift Society restyled)*
-- **Handle:** `mens-gym-deadlift-skeleton-graphic-tee` · **Blank:** Bella+Canvas 3001 (move to the pump-cover blank if #12's blank is approved)
+- **Handle:** `mens-gym-deadlift-skeleton-graphic-tee` · **Blank:** Printful #1482 All-Over Print Oversized Cotton T-Shirt (pump cover, $39.99) — see Rules
 - **Art:** An original 1930s rubber-hose-cartoon skeleton in a headband, mid-deadlift, the bar bending under huge plates, sweat drops and chalk puff. Our own character, distressed print. Palette: bone cream, black, burnt orange.
 - **Text on shirt:** DEAD LIFT (bold retro caps under the skeleton)
 - **Shirt colors:** Black, Vintage White, Heather Navy (confirm)
@@ -299,7 +299,7 @@ python3 scripts/fal-photo.py --design designs/marble-statue-curl.png --name marb
 ```
 
 ### 35. Men's Gym – Knight Lifting Tee  *(new)*
-- **Handle:** `mens-gym-knight-lifting-graphic-tee` · **Blank:** Bella+Canvas 3001 (move to the pump-cover blank if #12's blank is approved)
+- **Handle:** `mens-gym-knight-lifting-graphic-tee` · **Blank:** Printful #1482 All-Over Print Oversized Cotton T-Shirt (pump cover, $39.99) — see Rules
 - **Art:** An original armored knight overhead-pressing a barbell, drawn like a medieval woodcut / illuminated-manuscript marginal doodle, with a little snail and a banner. Our own mock-Old-English line, not the meme phrase other sellers use. Palette: parchment cream, black, oxblood, faded gold.
 - **Text on shirt:** "Lifteth Heavy, Complaineth Not" (blackletter on a banner)
 - **Shirt colors:** Vintage White, Black, Military Green (confirm)
@@ -367,7 +367,7 @@ python3 scripts/fal-photo.py --design designs/golden-era-pose.png --name golden-
 ```
 
 ### 21. Men's Gym – Gym Rat Tee
-- **Handle:** `mens-gym-gym-rat-graphic-tee` · **Blank:** Bella+Canvas 3001 (move to the pump-cover blank if #12's blank is approved)
+- **Handle:** `mens-gym-gym-rat-graphic-tee` · **Blank:** Printful #1482 All-Over Print Oversized Cotton T-Shirt (pump cover, $39.99) — see Rules
 - **Art:** An original cartoon rat in a sweatband and tank top curling a tiny dumbbell, drawn like a 1950s rubber-hose cartoon, laid out like a faded 90s bootleg tee (the winning look). No studio characters. Palette: grey, rust, mustard, cream.
 - **Text on shirt:** GYM RAT (bubbly retro caps)
 - **Shirt colors:** Athletic Heather, Black, Military Green (confirm)

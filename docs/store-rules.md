@@ -68,6 +68,6 @@ Rules Sam has locked in while building Graphic Tees Co. Each one is a requiremen
 - Proper nouns capitalised (Christian, Christmas, men's, women's).
 - Facts only from the supplier spec (Bella+Canvas 3001/6400 = lightweight 4.2 oz; never "midweight").
 - Never claim something the store doesn't have (e.g. hoodies before hoodies exist).
-- $29.99 flat on every size and product.
+- $29.99 flat on every size and product, **except pump covers: $39.99 flat** (Sam, 2026-10-09) on Printful #1482 All-Over Print Oversized Cotton T-Shirt — heavyweight 8.85 oz (300 g/m²), 95% cotton / 5% elastane, oversized boxy fit, cut-and-sew all-over print. Printful cost $24.89 (2XS–XL) → $32.89 (5XL); sell 2XS–5XL only (6XL leaves ~$4).
 - Product H1 includes the niche keyword; meta descriptions hand-written ≤155 chars, never truncated mid-word.
 - Every product targets its own design long-tail, not the collection's head term.
