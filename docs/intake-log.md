@@ -1,4 +1,5 @@
 RUNNING since 2026-10-09 00:56 UTC
+2026-10-09 01:36 UTC — Backfill: product-only carousels for Plate Club, Marsh Morning, Dirt Road Radio. 13/29 done.
 2026-10-09 01:33 UTC — Backfill: product-only carousels for Diamond Days, Desert Bloom, Game Day, Iron & Sweat, Desert Rider (stock-model shots deleted, color variants linked). 10/29 done.
 2026-10-09 01:23 UTC — Backfill: product-only carousels for Grace Wins and Sideline Bloom (4 colors front + back, variants linked, 25 stock-model shots deleted each). 5/29 done.
 2026-10-09 01:21 UTC — Backfill (image standard v2): Night Shift cover added (fal Seedream 4, new registry #67, retro video store; try 1 rejected for dropping the VHS spine). Product-only carousels done so far: Sweet Tea & Sunsets, Nurse Life Coffee, Wildflower Club (Printful v2 ghost mockups, 4 colors front + 1 back, color variants linked, 25 stock-model shots deleted from each).
