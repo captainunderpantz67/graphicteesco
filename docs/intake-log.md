@@ -1,3 +1,4 @@
+RUNNING since 2026-10-09 16:57 UTC
 2026-10-09 14:57 UTC — Check only: Printful still has not imported Retro Santa (sync/products status=all = 29, none with external_id 15343859597616). No reply from Sam on flow choice; new briefs stay PAUSED (32 queued). No changes.
 2026-10-09 12:57 UTC — Check only: Printful still has not imported Retro Santa (sync/products status=all = 29, none with external_id 15343859597616). No reply from Sam on flow choice; new briefs stay PAUSED (32 queued). No changes.
 2026-10-09 10:57 UTC — Check only: Printful still has not imported Retro Santa (sync/products status=all = 29, none with external_id 15343859597616). No reply from Sam on flow choice; new briefs stay PAUSED (32 queued). No changes.
