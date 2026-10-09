@@ -1,7 +1,7 @@
 # STATUS 2026-10-09 ~10:45 AM CT — Cloudflare Pages is LIVE
 - https://graphicteesco.pages.dev serves all 30 products (server: cloudflare; sitemap 30 product URLs; _redirects 301s work).
 - Done: GitHub app (repo-only) · build npm run build → dist · NODE_VERSION 22 + both PUBLIC_SHOPIFY_* vars · watch paths exclude docs/*, scripts/*, designs/* · deploy hook "nightly-rebuild" created.
-- Left: (a) Sam adds repo secret CLOUDFLARE_DEPLOY_HOOK (copy the hook URL from Pages → Settings → Deploy hooks); workflow already reads it. (b) DNS at Porkbun (step 6) — needs Porkbun login. (c) After DNS: add custom domain in Pages, verify, then lock Netlify deploys + drop the Netlify step from nightly-rebuild.yml.
+- Nightly hook secret added + test run rebuilt Pages (2026-10-09). Left: (b) DNS at Porkbun (step 6) — needs Porkbun login. (c) After DNS: add custom domain in Pages, verify, then lock Netlify deploys + drop the Netlify step from nightly-rebuild.yml.
 
 # START HERE (handoff, 2026-10-09 ~9 AM CT) — new session
 1. Builder: Printful import toggle is ON (Sam flipped it). Builder unpaused via docs/cloud-build-loop.md; next 2h run links Retro Santa then resumes the 32-brief queue. Check docs/intake-log.md top.
