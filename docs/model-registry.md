@@ -13,7 +13,7 @@ Each row is one person. Before generating a new photo, pick a description that d
 | 6 | White woman, early 20s, wavy strawberry-blonde hair, freckles | Cropped card + Wildflower Club cover |
 | 7 | White woman, early 40s, shoulder-length light brown hair | Football Mom card + Game Day cover |
 | 8–10 | Hero tailgate: curly-haired woman, Asian woman with bob, bearded man in cap | homepage hero |
-| 11 | Black woman in her late 50s, grey locs pinned up in a high bun, warm round face, reading glasses on a beaded chain | RESERVED — cover for Women's Christmas – Candy Cane Club Tee (docs/design-briefs.md #1; was Cookie Swap) |
+| 11 | Black woman in her late 50s, grey locs pinned up in a high bun, warm round face, reading glasses on a beaded chain | USED 2026-10-09 — Candy Cane Club cover (fal Seedream 4, cookie-swap kitchen; tries 1–2 rejected for garbled small text) |
 | 12 | Vietnamese-American woman in her early 40s, shoulder-length layered dark hair with caramel highlights, slim build | RESERVED — cover for Women's Christmas – Vintage Snowman Tee (docs/design-briefs.md #2; was Hot Cocoa Club) |
 | 13 | White woman in her early 60s, short white pixie cut, slim build, light smile lines, small gold hoop earrings | RESERVED — cover for Women's Christmas – Nutcracker Bow Tee (docs/design-briefs.md #3) |
 | 14 | Latina woman in her late 20s, long straight black hair with blunt bangs, petite build | RESERVED — cover for Women's Christmas – Pink Christmas Trees Tee (docs/design-briefs.md #4; was Glass Ornaments) |
