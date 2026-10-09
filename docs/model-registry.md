@@ -18,7 +18,7 @@ Each row is one person. Before generating a new photo, pick a description that d
 | 13 | White woman in her early 60s, short white pixie cut, slim build, light smile lines, small gold hoop earrings | RESERVED — cover for Women's Christmas – Nutcracker Bow Tee (docs/design-briefs.md #3) |
 | 14 | Latina woman in her late 20s, long straight black hair with blunt bangs, petite build | RESERVED — cover for Women's Christmas – Pink Christmas Trees Tee (docs/design-briefs.md #4; was Glass Ornaments) |
 | 15 | Native American woman in her mid-30s, long straight black hair worn down past her shoulders, medium build, small silver stud earrings | RESERVED — cover for Women's Christmas – Christmas Cats Tee (docs/design-briefs.md #5; was Home for the Holidays) |
-| 16 | White woman in her mid-40s, chin-length auburn hair with a side part, light freckles, average build | RESERVED — cover for Women's Christmas – Retro Santa Tee (docs/design-briefs.md #6) |
+| 16 | White woman in her mid-40s, chin-length auburn hair with a side part, light freckles, average build | USED 2026-10-09 — Retro Santa cover (fal Seedream 4, tree farm; 2nd try, 1st had no headroom) |
 | 17 | Middle Eastern woman in her early 30s, long dark wavy hair worn down, medium build | RESERVED — cover for Women's Christmas – Lit Up Bow Tee (docs/design-briefs.md #7) |
 | 18 | Black woman in her mid-20s, short platinum-dyed buzz cut, tall slim build, small gold nose stud | RESERVED — cover for Women's Christmas – Oh Deer Tee (docs/design-briefs.md #8) |
 | 19 | White woman in her early 50s, long straight grey-blonde hair, reading glasses pushed up on her head, soft build | RESERVED — cover for Women's Christmas – Holly Jolly Tee (docs/design-briefs.md #9; was Christmas Movie Night) |

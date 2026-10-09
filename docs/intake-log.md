@@ -1,4 +1,5 @@
 RUNNING since 2026-10-09 00:56 UTC
+2026-10-09 01:07 UTC — Women's Christmas – Retro Santa Tee (womens-christmas-retro-santa-graphic-tee): finished leftovers from the 2026-10-08 run. Shopify ACTIVE, $29.99 ×24, Online Store + Headless, 7 product-only media OK. Cover added (fal Seedream 4, registry #16; try 1 failed headroom QC). Primary retro Santa shirt 390/KD60. Art: Recraft v4 (2026-10-08 run). **TEST FAILED — Printful NOT linked:** Printful never imported the Shopify product (GET /sync/products status=all: 29 products, none with external_id 15343859597616; two productUpdate pokes + 5 min poll did nothing; /store/products is Manual/API-stores only). Unfulfillable until Sam syncs it in the Printful dashboard. New briefs paused; Sam notified.
 2026-10-08 21:57 UTC — no new products
 
 ## 2026-10-06 — Design briefs (33) + product schema (scheduled run)
