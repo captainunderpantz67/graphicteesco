@@ -911,6 +911,23 @@
     "western santa shirt"
    ],
    "gaps_measured": []
+  },
+  "mens-gym-uphill-pump-cover-graphic-tee": {
+   "claimed": [
+    "pump cover",
+    "pump cover shirt",
+    "oversized gym shirt",
+    "sisyphus shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pump cover t shirt",
+     "volume": 880,
+     "kd": 38,
+     "competition": 4002,
+     "gap": 9.15
+    }
+   ]
   }
  }
 }
