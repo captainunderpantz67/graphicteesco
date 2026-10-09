@@ -26,13 +26,13 @@ Each row is one person. Before generating a new photo, pick a description that d
 | 21 | Black man in his late 20s, close-cropped fade haircut, clean-shaven, heavy muscular build | USED 2026-10-09 — Deadlift Skeleton cover (fal Seedream 4, powerlifting platform; try 1 rejected: bar passed through his body, eyes down) |
 | 22 | White man in his mid-50s, shaved head, short grey goatee, stocky barrel-chested build | USED 2026-10-09 — Uphill Pump Cover cover (fal Seedream 4, warehouse strength gym; try 1 kept) |
 | 23 | Korean-American man in his early 30s, short black undercut hair, lean athletic build, clean-shaven | RESERVED — cover for Men's Gym – Iron Sharpens Iron Tee (docs/design-briefs.md #13; was Swing Heavy) |
-| 24 | Mexican-American man in his early 40s, slicked-back black hair with grey temples, broad build, short trimmed mustache | RESERVED — cover for Men's Gym – Marble Statue Curl Tee (docs/design-briefs.md #14; was Before Sunrise) |
+| 24 | Mexican-American man in his early 40s, slicked-back black hair with grey temples, broad build, short trimmed mustache | USED 2026-10-09 — Marble Statue Curl cover (fal Seedream 4, old-school iron gym; try 1 kept; cover made 2026-10-10 by the recovery run) |
 | 25 | Samoan man in his mid-30s, long black hair tied in a bun, big powerful build, broad smile | RESERVED — cover for Men's Gym – Old School Strength Tee (docs/design-briefs.md #15) |
 | 26 | Indian man in his late 20s, short wavy black hair, clean-shaven, lean muscular build | RESERVED — cover for Men's Gym – Golden Era Pose Tee (docs/design-briefs.md #16; was Bench Press Club) |
 | 27 | Black man in his early 60s, short grey hair, neatly trimmed grey mustache, wiry fit build | RESERVED — cover for Men's Gym – Heavy Bag Dept. Tee (docs/design-briefs.md #17) |
 | 28 | White man in his early 20s, shaggy blond hair, clean-shaven, tall lanky build | RESERVED — cover for Men's Gym – Leg Day Survivor Tee (docs/design-briefs.md #18) |
-| 29 | Filipino man in his late 30s, buzz cut, compact stocky build, clean-shaven, easy grin | RESERVED — cover for Men's Gym – Strong & Courageous Tee (docs/design-briefs.md #19; was Rest Day Champion) |
-| 30 | Middle Eastern man in his mid-40s, thick dark hair, full dark beard, no hat, barrel-chested heavy build | RESERVED — cover for Men's Gym – The Lifter Card Tee (docs/design-briefs.md #20; was Squat Bench Deadlift) |
+| 29 | Filipino man in his late 30s, buzz cut, compact stocky build, clean-shaven, easy grin | USED 2026-10-09 — Strong & Courageous cover (fal Seedream 4, commercial gym at lunch; try 1 kept) |
+| 30 | Middle Eastern man in his mid-40s, thick dark hair, full dark beard, no hat, barrel-chested heavy build | USED 2026-10-09 — The Lifter Card cover (fal Seedream 4, meet warm-up room; try 1 rejected: print redrawn as a block logo) |
 | 31 | Irish-American white man in his early 30s, short red hair, short trimmed red beard, freckles, medium build | RESERVED — cover for Men's Gym – Gym Rat Tee (docs/design-briefs.md #21) |
 | 32 | White woman in her late 20s, long sandy-blonde waves, athletic build, sun-tanned | RESERVED — cover for Women's Western – Barrel Racer Tee (docs/design-briefs.md #22) |
 | 33 | Black woman in her early 40s, long box braids pulled back, medium build | RESERVED — cover for Women's Western – Wild West Rider Tee (docs/design-briefs.md #23; was Hold On Tight) |
@@ -70,7 +70,7 @@ Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/desig
 | 63 | A white man in his early 40s with a blond buzz cut, thick strong build and tattooed forearms | Iron Sweat cover (fal Seedream 4, 2026-10-08) |
 | 64 | Indian-American woman, early 40s, shoulder-length wavy black hair, glasses | Gingerbread Lane cover (fal Seedream 4, 2026-10-08) |
 | 65 | Greek-American woman in her early 50s, short dark curly hair cropped close, olive skin, soft build, small gold stud earrings | USED 2026-10-09 — Ho Ho Howdy cover (fal Seedream 4, ranch Christmas party in a barn; try 1 kept) |
-| 66 | Brazilian man in his early 30s, shoulder-length wavy brown hair, short stubble, tall athletic build | RESERVED — cover for Men's Gym – Knight Lifting Tee (docs/design-briefs.md #35) |
+| 66 | Brazilian man in his early 30s, shoulder-length wavy brown hair, short stubble, tall athletic build | USED 2026-10-09 — Knight Lifting cover (fal Seedream 4, stone basement gym; try 1 kept with the banner lettering restored from the print file — Seedream garbled it, try 2 worse) |
 | 67 | Vietnamese-American man in his early 30s, short side-parted black haircut, light stubble, medium build | Night Shift cover (fal Seedream 4, 2026-10-09; retro video store; 2nd try, 1st dropped the VHS spine) |
 
 Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from docs/market-research.md (same person, new design where noted). Rows 65–66 were added for the two new briefs (#34, #35).

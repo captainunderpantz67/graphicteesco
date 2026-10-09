@@ -44,6 +44,10 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-christmas-ho-ho-howdy-graphic-tee': { src: '/covers/womens-christmas-ho-ho-howdy-graphic-tee.webp', alt: 'Woman at a ranch Christmas party in a decorated barn with a horse behind her wearing the Ho Ho Howdy tee' },
   'mens-gym-uphill-pump-cover-graphic-tee': { src: '/covers/mens-gym-uphill-pump-cover-graphic-tee.webp', alt: 'Man in a warehouse strength gym with chalked hands between sets wearing the Uphill pump cover' },
   'mens-gym-deadlift-skeleton-graphic-tee': { src: '/covers/mens-gym-deadlift-skeleton-graphic-tee.webp', alt: 'Man standing on a deadlift platform in a powerlifting gym wearing the Deadlift Skeleton pump cover' },
+  'mens-gym-marble-statue-curl-graphic-tee': { src: '/covers/mens-gym-marble-statue-curl-graphic-tee.webp', alt: 'Man in a classic old-school iron gym with chrome dumbbell racks wearing the Marble Statue Curl tee' },
+  'mens-gym-knight-lifting-graphic-tee': { src: '/covers/mens-gym-knight-lifting-graphic-tee.webp', alt: 'Man in a stone-walled basement strength gym with plates on wooden pegs wearing the Knight Lifting pump cover' },
+  'mens-gym-the-lifter-card-graphic-tee': { src: '/covers/mens-gym-the-lifter-card-graphic-tee.webp', alt: 'Man in a powerlifting meet warm-up room beside a chalk bowl wearing The Lifter Card tee' },
+  'mens-gym-strong-and-courageous-graphic-tee': { src: '/covers/mens-gym-strong-and-courageous-graphic-tee.webp', alt: 'Man in a busy commercial gym at lunchtime holding a water bottle at his side wearing the Strong & Courageous tee' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

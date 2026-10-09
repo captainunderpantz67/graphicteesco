@@ -942,6 +942,44 @@
     "skeleton gym shirt"
    ],
    "gaps_measured": []
+  },
+  "mens-gym-marble-statue-curl-graphic-tee": {
+   "claimed": [
+    "greek statue shirt"
+   ],
+   "gaps_measured": []
+  },
+  "mens-gym-knight-lifting-graphic-tee": {
+   "claimed": [
+    "funny gym shirt",
+    "gym bro shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "medieval shirt",
+     "volume": 5400,
+     "kd": 39
+    }
+   ]
+  },
+  "mens-gym-the-lifter-card-graphic-tee": {
+   "claimed": [
+    "tarot card shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "weightlifting shirt",
+     "volume": 880,
+     "kd": 47
+    }
+   ]
+  },
+  "mens-gym-strong-and-courageous-graphic-tee": {
+   "claimed": [
+    "jesus gym shirt",
+    "christian lion shirt"
+   ],
+   "gaps_measured": []
   }
  }
 }
