@@ -21,6 +21,8 @@ RETRO SANTA COVER REDO (Sam approved 2026-10-08): regenerate the cover for women
 
 COVER QC (every cover, Sam 2026-10-08): reject props that don't fit the brand or the scene — no alcohol, no tools/weapons, nothing odd in hand. Hot cocoa, coffee, a pumpkin, a fishing rod at the side are fine.
 
+PRINTFUL IMPORT IS ON (Sam, 2026-10-09): Printful "Import not synced products from Shopify" is now enabled, so Shopify-created products appear in Printful (GET /sync/products?status=all). New briefs are UNPAUSED. First link Retro Santa (Shopify 15343859597616) — map each variant to its 6400 catalog variant, front = its print file, back = back-logo-company.png 3in top center — confirm synced, then resume the queue. If a product still has not imported after ~10 min, log it, skip it and continue.
+
 FOR EACH BRIEF, in queue order:
 1. DESIGN ART (fal.ai, text-to-image): generate the print graphic. Use Recraft v4 (already chosen over Ideogram 4.5 on 2026-10-08). Art rules: lettering spelled exactly right and legible, vintage screen-print look, 3-4 ink palette, plain white or transparent background, centered, no mockup/shirt, no licensed characters/brands/teams. Use the winner for every later design; record which in docs/intake-log.md. Generate ONE image per brief with Recraft v4; regenerate (max 2 retries) only if text is misspelled or the art looks generic.
 2. PRINT FILE: run scripts/print-prep.py on the chosen art → transparent PNG, 3600px, 300 DPI, under 10 MB. Save to designs/<slug>.png (designs/*.png is gitignored — that's fine).

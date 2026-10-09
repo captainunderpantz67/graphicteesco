@@ -1,3 +1,9 @@
+# START HERE (handoff, 2026-10-09 ~9 AM CT) — new session
+1. Builder: Printful import toggle is ON (Sam flipped it). Builder unpaused via docs/cloud-build-loop.md; next 2h run links Retro Santa then resumes the 32-brief queue. Check docs/intake-log.md top.
+2. Cloudflare Pages migration (Priority 2 below). Sam is logged into Cloudflare in Chrome. Notify Sam and open the page when his clicks are needed (GitHub app grant; pasting the 2 PUBLIC_SHOPIFY_* env values — open the local .env in TextEdit for him, never in chat).
+3. Build Sam a morning dashboard artifact: everything built for graphicteesco.com (30 products, covers, carousels, Christmas-women page, SEO fixes, keyword gate, market research, builder status) + a full LOCAL TUESDAY build list: brand-new server built right — 8x RTX 3090 (used ~$1.2–1.45k each, Oct 2026), server/workstation board (EPYC/Threadripper class, enough PCIe lanes for 8 GPUs), 128–256GB RAM, open GPU rack + risers, 2–3 PSUs / 240V circuit, cooling, storage (Sam has 18x30TB drives), software (vLLM/llama.cpp, Agent SDK, job queue, tunnel), and the M5Paper ESP32 always-on device Reverend is building that streams live audio to Tuesday at home. Sam is coming into money: build it right, 8 cards to start, 10 if needed.
+Keep it efficient: Sam dislikes slow, credit-heavy browser fiddling — use APIs/CLI where possible.
+
 # Next steps (written 2026-10-08 ~9:20 PM CT — Sam's usage at 93%, resets in ~3h45m)
 
 ## Priority 1 — keep the cloud builder building (no action needed)
