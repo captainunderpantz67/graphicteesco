@@ -283,7 +283,7 @@ function niche(
 function seasonal(
   season: 'halloween' | 'thanksgiving' | 'christmas',
   section: Section,
-  o: { slug: string; keyword: string; volume: number; kd: number; product: string; twin?: string; blurb: string; extra?: Faq[]; intro?: string; sections?: { h2: string; body: string }[] },
+  o: { slug: string; keyword: string; volume: number; kd: number; product: string; twin?: string; blurb: string; extra?: Faq[]; intro?: string; sections?: { h2: string; body: string }[]; title?: string; description?: string },
 ): Collection {
   const label = titleCase(season);
   return {
@@ -294,8 +294,8 @@ function seasonal(
     volume: o.volume,
     kd: o.kd,
     seasonal: season,
-    title: `${titleCase(o.product)} — Original ${label} Designs`,
-    description: `Original ${o.product}: ${o.blurb} Printed to order — new designs every season.`.slice(0, 158),
+    title: o.title ?? `${titleCase(o.product)} — Original ${label} Designs`,
+    description: o.description ?? `Original ${o.product}: ${o.blurb} Printed to order — new designs every season.`.slice(0, 158),
     h1: titleCase(o.product),
     intro: o.intro ?? `Our ${o.product} are original designs: ${o.blurb}`,
     sections: o.sections ?? [{ h2: `A new ${label} drop every year`, body: 'This collection gets new designs each season. Order early — printed-to-order items take time to make and ship.' }],
@@ -390,10 +390,17 @@ export const tees: Collection[] = [
   },
   seasonal('halloween', 'tees', { slug: 'halloween-shirts', keyword: 'halloween shirts', volume: 22200, kd: 58, product: 'Halloween shirts', twin: 'halloween-hoodies', blurb: 'horror-movie-night, spooky-season and costume-optional designs.',
     extra: [{ q: 'Do you have horror movie shirts?', a: 'We make original horror-inspired designs. We don’t use movie names, characters or logos.' }],
-    // Facts only: every line below describes a design that's in the Shopify collection (2026-10-06).
-    intro: 'Our Halloween shirts are original designs for people who plan October around scary movies, pumpkin patches and porch-light trick-or-treat nights. Some lean spooky, some lean cute, and none of them use a movie name or a licensed character.',
+    // Facts only: every line below describes a design that's in the Shopify collection (2026-10-09, 6 designs).
+    // Phrases claimed (RankHero/Etsy, 2026-10-09): halloween shirts 22,200/58 · horror movie shirt 6,600/43 · ghost shirt 2,900/60 ·
+    // vintage halloween shirt 1,600/60 · retro halloween shirt 1,600/61 · halloween graphic tee 1,300/64 · witchy shirt 1,000/65 ·
+    // pumpkin patch shirt 390/65 · haunted house shirt 320/53 · cute ghost shirt 320/76 · spooky season shirt 320/76.
+    title: 'Halloween Shirts — Vintage & Retro Halloween Graphic Tees',
+    description: 'Original Halloween shirts: retro horror-movie art, cute ghost and witchy designs, a pumpkin patch tee and a haunted house. Printed to order, $29.99.',
+    intro: 'Our Halloween shirts are original vintage-style designs for people who plan October around scary movies, pumpkin patches and porch-light trick-or-treat nights. Some lean spooky, some lean cute, and none of them use a movie name or a licensed character.',
     sections: [
-      { h2: 'Spooky, retro and cute Halloween designs', body: 'The collection runs from horror-movie-night art to soft, playful prints. On the spooky side there’s a crooked haunted house under a full moon, a drive-in screen showing a moon and a bat, and a beat-up VHS cover with a glowing jack-o’-lantern. On the cute side there are groovy ghosts in sunglasses, a little ghost hugging a pumpkin, and a black cat asleep on a witch hat. Everything is drawn in a vintage screen-print style, so it reads like a thrift-store find rather than a costume.' },
+      { h2: 'Spooky, retro and cute Halloween designs', body: 'The collection runs from horror-movie-night art to soft, playful prints. On the spooky side there’s a crooked haunted house under a full moon, a drive-in screen showing a moon and a bat, and a beat-up VHS cover with a glowing jack-o’-lantern. On the cute side there are groovy ghosts in sunglasses, a little ghost hugging a pumpkin, and a black cat asleep on a witch hat. Everything is drawn in a vintage screen-print style, so each Halloween graphic tee reads like a thrift-store find rather than a costume.' },
+      { h2: 'For horror movie night', body: 'If your October is a stack of slashers and a bowl of popcorn, start with the two retro horror designs. Night Shift is a worn video-store VHS cover with a jack-o’-lantern glowing on the box, and Midnight Feature puts a bat and a full moon on a drive-in screen. They’re horror movie shirts without the movie: original art, no titles, no famous masks, so they work for anyone who loves the genre rather than one franchise. Haunted Hollow, the crooked haunted house shirt, fits the same double-feature mood.' },
+      { h2: 'Ghosts, witches and the pumpkin patch', body: 'Ghost Club is a group of groovy ghosts in sunglasses, the most retro Halloween shirt in the lineup, and Pumpkin Patch Ghost is a small ghost hugging a pumpkin: a cute ghost shirt for the patch, the hayride or a fall photo. For the witchy crowd, Witchy Season has a black cat curled up asleep on a witch hat. All three are drawn for spooky season but soft enough to keep wearing into November.' },
       { h2: 'Unisex and women’s fits', body: 'The haunted-house, drive-in and VHS designs are printed on unisex tees, so they work for men and women. The ghost, pumpkin-patch and black-cat designs come on a relaxed women’s cut. Sizes and colors are listed on each product, and every shirt is printed after you order it.' },
       { h2: 'Where to wear a Halloween shirt', body: 'A horror double feature, a haunted hayride, the pumpkin patch, a costume-optional party, handing out candy on the porch, or the office on October 31st when you don’t want a full costume. Layer one under a flannel or a denim jacket once the nights get cold. Most of these designs still look right in November. Pair the cute designs with a cardigan for a pumpkin-patch photo; the horror ones go with jeans and a dark flannel.' },
       { h2: 'Matching shirts for a group', body: 'Haunted house for one friend, ghosts for another: because the designs share the same vintage look, a group can each pick a different shirt and still look like they planned it. Or order one design in several sizes for the whole family.' },
@@ -401,9 +408,15 @@ export const tees: Collection[] = [
     ] }),
   seasonal('thanksgiving', 'tees', { slug: 'thanksgiving-shirts', keyword: 'thanksgiving shirts', volume: 8100, kd: 57, product: 'Thanksgiving shirts', blurb: 'fall, football-and-turkey and family-table designs.',
     extra: [{ q: 'Do you have matching Thanksgiving shirts for family?', a: 'Yes. Any design can be ordered in several sizes so the whole family matches.' }],
+    // Phrases claimed (RankHero/Etsy, 2026-10-09): thanksgiving shirts 8,100/57 · turkey shirt 2,900/48 · thanksgiving shirts for women 2,400/58 ·
+    // give thanks shirt 170/52 · turkey bowl shirt 110/40 · fall graphic tee 390/75.
+    title: 'Thanksgiving Shirts — Turkey Bowl & Give Thanks Graphic Tees',
+    description: 'Original Thanksgiving shirts: a Turkey Bowl football turkey for the backyard game and a Give Thanks harvest tee for women. Printed to order, $29.99.',
     intro: 'Our Thanksgiving shirts are original designs for the day itself: the backyard football game, the parade on TV and the long table that follows. Vintage-style art in warm fall colors, printed when you order it.',
     sections: [
       { h2: 'Football, turkey and the family table', body: 'There are two sides to the collection. For the game, a helmeted turkey mascot runs the ball inside a 1950s-style shield badge marked TURKEY BOWL. For the table, GIVE THANKS sits in chunky 1970s lettering over a cornucopia of pumpkins, apples, corn and sunflowers. Both are printed in burnt orange, mustard, rust, navy and cream, so they look right from October through the end of November.' },
+      { h2: 'A turkey shirt for the backyard game', body: 'Turkey Bowl is the turkey shirt for the people who play before they eat: the cousins’ flag-football game, the Thanksgiving-morning turkey trot or the couch for the afternoon football on TV. The turkey wears a helmet and carries the ball, drawn like an old team crest, so it reads as a Thanksgiving football shirt rather than a cartoon gag.' },
+      { h2: 'Thanksgiving shirts for women', body: 'Give Thanks is the Thanksgiving shirt for women in the collection: a relaxed women’s cut with a harvest cornucopia under 1970s GIVE THANKS lettering. It’s a fall graphic tee you can wear to Friendsgiving, a pumpkin-pie bake, the kids’ school feast or the long table itself, then keep wearing through the season.' },
       { h2: 'Fits for everyone at the table', body: 'The Turkey Bowl design is printed on a unisex classic tee in sizes XS–5XL. Give Thanks comes on a relaxed women’s cut in S–3XL. Both are printed on soft, lightweight cotton, so they’re comfortable through a long afternoon of football and food. Each product page lists its colors.' },
       { h2: 'What to wear on Thanksgiving', body: 'Something you can play a down of backyard football in and still sit through dinner. A soft cotton graphic tee with jeans does both. Add a flannel or a quarter-zip for the cold walk out to the yard, and take it off before the pie.' },
       { h2: 'Why vintage-style Thanksgiving art', body: 'A lot of holiday shirts are a pun and a clip-art turkey. These are illustrations instead: a mascot badge that could have come from an old high-school program, and a harvest still life in 1970s type. They’re made to come out of the drawer every November, not once.' },
@@ -417,9 +430,12 @@ export const tees: Collection[] = [
     title: 'Christmas Shirts for Women — Original Holiday Graphic Tees',
     description: 'Original Christmas shirts for women: vintage holiday art for the party, the cookie swap and the family photo. Printed to order, $29.99.',
     h1: 'Christmas Shirts for Women',
-    intro: 'Christmas shirts for women that look like the season you actually live: gingerbread-house afternoons, tree-lot trips and lights on the porch. Every design is original holiday art, printed when you order it.',
+    // Also claimed (RankHero/Etsy, 2026-10-09): christmas tree shirt 27,100/46 · gingerbread shirt 1,900/46 · retro santa shirt 390/60 ·
+    // vintage santa shirt 390/60 · retro christmas shirt 260/75.
+    intro: 'Christmas shirts for women that look like the season you actually live: gingerbread-house afternoons, tree-lot trips, a retro Santa on the mantel and lights on the porch. Every design is original holiday art, printed when you order it.',
     sections: [
-      { h2: 'Holiday art, not ugly-sweater gags', body: 'These are vintage-style illustrations — a gingerbread street, a red truck hauling a fresh-cut tree, a snowed-in cabin, "Merry & Bright" lettering — the kind of Christmas graphic tee you can wear all December, not just to one party. Soft cotton tees in relaxed women’s and unisex fits.' },
+      { h2: 'Holiday art, not ugly-sweater gags', body: 'These are vintage-style illustrations — a laughing 1950s Santa, a gingerbread street, a red truck hauling a fresh-cut tree, a snowed-in cabin, "Merry & Bright" lettering — the kind of Christmas graphic tee you can wear all December, not just to one party. Soft cotton tees in relaxed women’s and unisex fits.' },
+      { h2: 'Find your Christmas shirt', body: 'Retro Santa is a round-faced, mid-century Santa mid-laugh with a sack of pink-wrapped gifts under bubbly HO HO HO letters: a retro Santa shirt in red, pink and cream that looks lifted from an old greeting card. Gingerbread Lane is the gingerbread shirt, a candy-cane-trimmed house with two waving gingerbread people. Fresh Cut Christmas Trees is the Christmas tree shirt, a red pickup hauling a tree down a snowy road, and Cabin Christmas is a log cabin glowing under a crescent moon. Merry & Bright spells it out in 1970s bubble letters ringed with vintage ornaments, the most retro Christmas shirt of the five.' },
       { h2: 'Where to wear a Christmas shirt', body: 'Cookie swaps, the school holiday program, a Christmas-movie night, the tree farm, a white-elephant exchange or the family photo. Layer one under an open flannel or a cardigan with jeans; tuck the front of a relaxed fit into high-rise denim to dress it up.' },
       { h2: 'Matching for the family photo', body: 'Every design comes in a full run of sizes, so you can order the same Christmas shirt for the whole family, a group of friends or your coworkers. The unisex designs fit men too.' },
       { h2: 'When to order', body: 'Each shirt is printed after you order it, then shipped. Order early in December so it arrives before your plans — delivery estimates show at checkout.' },
@@ -438,10 +454,15 @@ export const tees: Collection[] = [
       { q: 'Do you have matching Christmas shirts for family or couples?', a: 'Yes. Any design can be ordered in several sizes so the whole family — or the two of you — match.' },
       { q: 'Do you have funny Christmas shirts?', a: 'Not right now. The current designs are illustrated holiday scenes rather than jokes or puns.' },
     ],
+    // Phrases claimed (RankHero/Etsy, 2026-10-09): christmas shirts 33,100/58 · christmas tree shirt 27,100/46 · christmas tee shirts 27,100/59 ·
+    // gingerbread shirt 1,900/46 · vintage/retro santa shirt 390/60 · retro christmas shirt 260/75. Women's modifier lives on the child page.
+    title: 'Christmas Shirts — Vintage Santa, Tree & Gingerbread Tees',
+    description: 'Original Christmas shirts: a retro Santa, a Christmas tree truck, a gingerbread house, a snowy cabin and Merry & Bright. Printed to order, $29.99.',
     intro: 'Our Christmas shirts are original holiday designs for the tree farm, the cabin weekend and the family photo. Vintage-style illustrations instead of ugly-sweater gags, printed when you order them.',
     sections: [
-      { h2: 'Four kinds of Christmas', body: 'A red pickup hauling a fresh-cut tree down a snowy back road. A log cabin glowing under a crescent moon with a deer nearby. A gingerbread house with candy-cane trim and two waving gingerbread people. MERRY & BRIGHT in groovy 1970s bubble letters, ringed with vintage ornaments. Each one is drawn as its own scene, so you can pick the December that looks like yours.' },
-      { h2: 'Unisex and women’s Christmas shirts', body: 'The tree-truck and cabin designs are printed on unisex classic tees in sizes up to 5XL, so they fit men and women. Gingerbread Lane and Merry & Bright come on a relaxed women’s cut in S–3XL; those two also live on our Christmas shirts for women page.' },
+      { h2: 'Five kinds of Christmas', body: 'A red pickup hauling a fresh-cut tree down a snowy back road. A log cabin glowing under a crescent moon with a deer nearby. A gingerbread house with candy-cane trim and two waving gingerbread people. MERRY & BRIGHT in groovy 1970s bubble letters, ringed with vintage ornaments. And a round, rosy 1950s Santa laughing HO HO HO with a sack of pink-wrapped gifts. Each one is drawn as its own scene, so you can pick the December that looks like yours.' },
+      { h2: 'Christmas tree, gingerbread or Santa', body: 'If you want a Christmas tree shirt, Fresh Cut Christmas Trees is the one: the truck, the tree and the snowy road, heading home for the living room. Gingerbread Lane is the gingerbread shirt for cookie-decorating season. Retro Santa is the vintage Santa shirt, a mid-century greeting-card Santa in red, pink and cream. These Christmas tee shirts share one vintage style, so they look good side by side in a photo.' },
+      { h2: 'Unisex and women’s Christmas shirts', body: 'The tree-truck and cabin designs are printed on unisex classic tees in sizes up to 5XL, so they fit men and women. Retro Santa, Gingerbread Lane and Merry & Bright come on a relaxed women’s cut in S–3XL; all five also live on our Christmas shirts for women page.' },
       { h2: 'Where to wear them', body: 'A cabin weekend, a holiday open house, decorating the tree, a neighborhood lights walk, the office party or Christmas morning itself. On a tree-farm trip the red-truck design is the obvious pick; for a quiet night in, the cabin. Layer one under a flannel, or over a long-sleeve thermal when it’s cold out.' },
       { h2: 'Not an ugly sweater', body: 'These are soft cotton tees with illustrated art, not novelty knits or light-up gags. They’re meant to be worn all December and pulled out again next year. Lightweight cotton also means you won’t overheat in a crowded living room with the fire going.' },
       { h2: 'Matching Christmas shirts', body: 'Pick one design in several sizes for the family photo, or let everyone choose their own scene and let the shared vintage style tie them together. The unisex designs make it easy for couples to match.' },
