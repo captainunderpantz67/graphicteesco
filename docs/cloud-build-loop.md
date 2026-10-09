@@ -17,6 +17,10 @@ BACKFILL THE EXISTING CATALOG (do this before new briefs, it's cheap): every pro
 
 CAROUSEL FIX (2026-10-09, do first): a trim pass wrongly removed the back views. Sam wants ONE back shot (shows the neck logo). For every product that has no back-view mockup, generate one back view with the Printful mockup generator (flat/ghost, same template style as its color shots) and add it as the LAST image, alt "<Design> graphic tee, back view with Graphic Tees Co. neck logo". Final carousel per product: fal cover + 4 color fronts + 1 back. Log "back view restored N/30".
 
+RETRO SANTA COVER REDO (Sam approved 2026-10-08): regenerate the cover for womens-christmas-retro-santa-graphic-tee — same person (registry row used for it), same snowy tree-farm scene, but holding a mug of hot cocoa at her side, NO beer and NO saw or tools. Replace public/covers/<handle>.webp and the slide-1 image.
+
+COVER QC (every cover, Sam 2026-10-08): reject props that don't fit the brand or the scene — no alcohol, no tools/weapons, nothing odd in hand. Hot cocoa, coffee, a pumpkin, a fishing rod at the side are fine.
+
 FOR EACH BRIEF, in queue order:
 1. DESIGN ART (fal.ai, text-to-image): generate the print graphic. Use Recraft v4 (already chosen over Ideogram 4.5 on 2026-10-08). Art rules: lettering spelled exactly right and legible, vintage screen-print look, 3-4 ink palette, plain white or transparent background, centered, no mockup/shirt, no licensed characters/brands/teams. Use the winner for every later design; record which in docs/intake-log.md. Generate ONE image per brief with Recraft v4; regenerate (max 2 retries) only if text is misspelled or the art looks generic.
 2. PRINT FILE: run scripts/print-prep.py on the chosen art → transparent PNG, 3600px, 300 DPI, under 10 MB. Save to designs/<slug>.png (designs/*.png is gitignored — that's fine).
