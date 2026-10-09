@@ -1,4 +1,5 @@
 RUNNING since 2026-10-09 00:56 UTC
+2026-10-09 01:44 UTC — Backfill: product-only carousels for Give Thanks, Sunrise Strike, Gingerbread Lane, Haunted Hollow. 20/29 done.
 2026-10-09 01:39 UTC — Backfill: product-only carousels for First Light Buck and Witchy Season; Night Shift already had product-only flats (no stock models), left as is. 16/29 done.
 2026-10-09 01:36 UTC — Backfill: product-only carousels for Plate Club, Marsh Morning, Dirt Road Radio. 13/29 done.
 2026-10-09 01:33 UTC — Backfill: product-only carousels for Diamond Days, Desert Bloom, Game Day, Iron & Sweat, Desert Rider (stock-model shots deleted, color variants linked). 10/29 done.
