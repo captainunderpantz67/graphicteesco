@@ -69,7 +69,7 @@ Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/desig
 | 62 | A Mexican-American woman in her early 30s with long dark hair and a tan felt cowboy hat, confident smile | Desert Rider cover (fal Seedream 4, 2026-10-08) |
 | 63 | A white man in his early 40s with a blond buzz cut, thick strong build and tattooed forearms | Iron Sweat cover (fal Seedream 4, 2026-10-08) |
 | 64 | Indian-American woman, early 40s, shoulder-length wavy black hair, glasses | Gingerbread Lane cover (fal Seedream 4, 2026-10-08) |
-| 65 | Greek-American woman in her early 50s, short dark curly hair cropped close, olive skin, soft build, small gold stud earrings | RESERVED — cover for Women's Christmas – Ho Ho Howdy Tee (docs/design-briefs.md #34) |
+| 65 | Greek-American woman in her early 50s, short dark curly hair cropped close, olive skin, soft build, small gold stud earrings | USED 2026-10-09 — Ho Ho Howdy cover (fal Seedream 4, ranch Christmas party in a barn; try 1 kept) |
 | 66 | Brazilian man in his early 30s, shoulder-length wavy brown hair, short stubble, tall athletic build | RESERVED — cover for Men's Gym – Knight Lifting Tee (docs/design-briefs.md #35) |
 | 67 | Vietnamese-American man in his early 30s, short side-parted black haircut, light stubble, medium build | Night Shift cover (fal Seedream 4, 2026-10-09; retro video store; 2nd try, 1st dropped the VHS spine) |
 
