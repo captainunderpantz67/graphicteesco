@@ -1,3 +1,16 @@
+# Morning report — 2026-10-09 (update from 06:57–07:21 UTC run)
+
+## Still blocked: Printful link for new products
+- Printful **still** hasn't imported Women's Christmas – Retro Santa Tee (Shopify 15343859597616). `GET /sync/products?status=all` lists the same 29 products. **It can't be fulfilled until you sync it in the Printful dashboard** (Stores → Graphic Tees Co.; 6400 variants; front art + `back-logo-company.png` 3in top center).
+- New briefs are still paused, and 32 are queued. Tell me which flow to use: (a) you sync Retro Santa by hand and the loop keeps creating products in Shopify first, or (b) products get created in the Printful dashboard first and the loop does the rest.
+
+## Done this run
+- **Back views restored, 30/30.** Each product got one Printful ghost back mockup showing the neck logo, added as the last image. Carousels are now: fal cover + 4 color fronts + 1 back. Night Shift has 3 fronts, because its blank only comes in 3 colors.
+- **Retro Santa cover redone.** Same person (#16), same snowy tree farm. She now holds a mug of hot cocoa at her side, with no beer and no saw. Cost: 2 Seedream generations, about $0.06. I kept try 1; try 2 changed her hairstyle.
+- Prices, copy, tags, status and variants were not touched.
+
+---
+
 # Morning report — 2026-10-09 (scheduled build-loop run, 00:56–01:57 UTC)
 
 ## Blocker: new products can't be linked to Printful
