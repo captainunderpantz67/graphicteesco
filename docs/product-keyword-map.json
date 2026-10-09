@@ -1,0 +1,867 @@
+{
+ "_note": "Measured (RankHero/Etsy) phrases per product, 2026-10-09. claimed = already in copy; gaps_measured = measured but not yet in copy (off-niche/trademark ones were skipped by hand: batman, porsche, cabin crew, retro soccer/football jersey terms, generic t shirt). One phrase = one product. Run scripts/keyword-gap.py for new products.",
+ "products": {
+  "womens-western-desert-bloom-graphic-tee": {
+   "claimed": [
+    "cowgirl boot shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "western shirt women",
+     "volume": 14800,
+     "kd": 51,
+     "competition": 175032,
+     "gap": 19.92
+    },
+    {
+     "phrase": "cowboy boot shirt",
+     "volume": 590,
+     "kd": 46,
+     "competition": 6864,
+     "gap": 4.13
+    },
+    {
+     "phrase": "cactus shirt",
+     "volume": 720,
+     "kd": 50,
+     "competition": 24726,
+     "gap": 2.58
+    }
+   ]
+  },
+  "mens-gym-plate-club-graphic-tee": {
+   "claimed": [
+    "powerlifting shirt"
+   ],
+   "gaps_measured": []
+  },
+  "womens-country-dirt-road-radio-graphic-tee": {
+   "claimed": [
+    "country music shirts",
+    "country music shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "country road shirt",
+     "volume": 4400,
+     "kd": 26,
+     "competition": 4065,
+     "gap": 63.07
+    },
+    {
+     "phrase": "off road shirts",
+     "volume": 1000,
+     "kd": 42,
+     "competition": 10305,
+     "gap": 6.33
+    },
+    {
+     "phrase": "country concert shirt",
+     "volume": 1000,
+     "kd": 49,
+     "competition": 28181,
+     "gap": 3.43
+    }
+   ]
+  },
+  "unisex-halloween-night-shift-graphic-tee": {
+   "claimed": [
+    "horror movie shirt",
+    "horror movie shirts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "retro horror shirt",
+     "volume": 1000,
+     "kd": 53,
+     "competition": 38992,
+     "gap": 2.73
+    },
+    {
+     "phrase": "vhs shirt",
+     "volume": 170,
+     "kd": 44,
+     "competition": 3663,
+     "gap": 1.61
+    },
+    {
+     "phrase": "halloween vhs shirt",
+     "volume": 50,
+     "kd": 45,
+     "competition": 0,
+     "gap": 1.0
+    },
+    {
+     "phrase": "vhs tape shirt",
+     "volume": 20,
+     "kd": 51,
+     "competition": 970,
+     "gap": 0.25
+    }
+   ]
+  },
+  "womens-halloween-witchy-season-graphic-tee": {
+   "claimed": [
+    "black cat halloween",
+    "black cat shirt",
+    "black cat halloween shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "witchy shirt",
+     "volume": 1000,
+     "kd": 65,
+     "competition": 202485,
+     "gap": 1.0
+    },
+    {
+     "phrase": "witchy shirts",
+     "volume": 1000,
+     "kd": 66,
+     "competition": 206876,
+     "gap": 0.98
+    },
+    {
+     "phrase": "witch shirt",
+     "volume": 1000,
+     "kd": 66,
+     "competition": 248580,
+     "gap": 0.89
+    },
+    {
+     "phrase": "witch hat shirt",
+     "volume": 110,
+     "kd": 65,
+     "competition": 29860,
+     "gap": 0.28
+    },
+    {
+     "phrase": "witch shirt women",
+     "volume": 260,
+     "kd": 73,
+     "competition": 179744,
+     "gap": 0.25
+    },
+    {
+     "phrase": "witchy woman shirt",
+     "volume": 90,
+     "kd": 74,
+     "competition": 51227,
+     "gap": 0.16
+    }
+   ]
+  },
+  "mens-fishing-sunrise-strike-graphic-tee": {
+   "claimed": [
+    "bass fishing shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fishing shirt men",
+     "volume": 12100,
+     "kd": 12,
+     "competition": 0,
+     "gap": 711.41
+    },
+    {
+     "phrase": "largemouth bass shirt",
+     "volume": 140,
+     "kd": 36,
+     "competition": null,
+     "gap": 3.41
+    }
+   ]
+  },
+  "unisex-halloween-haunted-hollow-graphic-tee": {
+   "claimed": [
+    "vintage halloween shirt",
+    "haunted house shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "haunted shirt",
+     "volume": 210,
+     "kd": 68,
+     "competition": 68284,
+     "gap": 0.35
+    }
+   ]
+  },
+  "unisex-halloween-midnight-feature-graphic-tee": {
+   "claimed": [
+    "retro halloween shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "batman shirt",
+     "volume": 12100,
+     "kd": 20,
+     "competition": 2589,
+     "gap": 255.48
+    },
+    {
+     "phrase": "bat shirt for women",
+     "volume": 170,
+     "kd": 34,
+     "competition": 0,
+     "gap": 4.36
+    },
+    {
+     "phrase": "bat shirt",
+     "volume": 1300,
+     "kd": 54,
+     "competition": 50756,
+     "gap": 3.06
+    }
+   ]
+  },
+  "womens-halloween-pumpkin-patch-ghost-graphic-tee": {
+   "claimed": [
+    "pumpkin patch shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pumpkin shirt women",
+     "volume": 480,
+     "kd": 30,
+     "competition": 0,
+     "gap": 13.71
+    },
+    {
+     "phrase": "cute ghost shirt",
+     "volume": 320,
+     "kd": 76,
+     "competition": 286703,
+     "gap": 0.23
+    },
+    {
+     "phrase": "cute ghost t shirt",
+     "volume": 110,
+     "kd": 77,
+     "competition": 107513,
+     "gap": 0.13
+    },
+    {
+     "phrase": "ghost pumpkin shirt",
+     "volume": 10,
+     "kd": 75,
+     "competition": 31344,
+     "gap": 0.02
+    }
+   ]
+  },
+  "womens-halloween-ghost-club-graphic-tee": {
+   "claimed": [
+    "ghost shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "ghost shirt women",
+     "volume": 110,
+     "kd": 40,
+     "competition": 0,
+     "gap": 2.44
+    },
+    {
+     "phrase": "vintage ghost shirt",
+     "volume": 20,
+     "kd": 82,
+     "competition": 62693,
+     "gap": 0.03
+    }
+   ]
+  },
+  "mens-fishing-high-country-trout-graphic-tee": {
+   "claimed": [
+    "fly fishing shirt",
+    "trout fishing shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "rainbow trout shirt",
+     "volume": 210,
+     "kd": 33,
+     "competition": 0,
+     "gap": 5.52
+    },
+    {
+     "phrase": "trout shirt",
+     "volume": 590,
+     "kd": 46,
+     "competition": 7676,
+     "gap": 3.93
+    }
+   ]
+  },
+  "mens-gym-barbell-club-graphic-tee": {
+   "claimed": [
+    "vintage gym shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "strongman shirt",
+     "volume": 170,
+     "kd": 34,
+     "competition": 0,
+     "gap": 4.36
+    },
+    {
+     "phrase": "barbell shirt",
+     "volume": 260,
+     "kd": 40,
+     "competition": 2691,
+     "gap": 3.01
+    }
+   ]
+  },
+  "mens-thanksgiving-turkey-bowl-graphic-tee": {
+   "claimed": [
+    "turkey shirt",
+    "turkey bowl shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "turkey trot shirts",
+     "volume": 720,
+     "kd": 27,
+     "competition": 0,
+     "gap": 22.49
+    },
+    {
+     "phrase": "turkey trot shirt",
+     "volume": 720,
+     "kd": 32,
+     "competition": 1631,
+     "gap": 12.0
+    }
+   ]
+  },
+  "unisex-christmas-fresh-cut-christmas-trees-graphic-tee": {
+   "claimed": [
+    "christmas tree shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "red truck christmas",
+     "volume": 1900,
+     "kd": 42,
+     "competition": 30156,
+     "gap": 7.24
+    }
+   ]
+  },
+  "unisex-christmas-cabin-christmas-graphic-tee": {
+   "claimed": [
+    "cabin shirts",
+    "cabin shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas cabin",
+     "volume": 4400,
+     "kd": 14,
+     "competition": 0,
+     "gap": 231.46
+    },
+    {
+     "phrase": "cabin crew shirts",
+     "volume": 210,
+     "kd": 33,
+     "competition": 0,
+     "gap": 5.52
+    }
+   ]
+  },
+  "womens-christmas-merry-bright-graphic-tee": {
+   "claimed": [
+    "retro christmas shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "70s christmas shirt",
+     "volume": 10,
+     "kd": 49,
+     "competition": null,
+     "gap": 0.19
+    }
+   ]
+  },
+  "womens-christmas-gingerbread-lane-graphic-tee": {
+   "claimed": [
+    "gingerbread shirt"
+   ],
+   "gaps_measured": []
+  },
+  "womens-thanksgiving-give-thanks-graphic-tee": {
+   "claimed": [
+    "give thanks shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "thanksgiving shirt women",
+     "volume": 2400,
+     "kd": 16,
+     "competition": null,
+     "gap": 114.23
+    },
+    {
+     "phrase": "autumn shirt women",
+     "volume": 210,
+     "kd": 33,
+     "competition": 0,
+     "gap": 5.52
+    },
+    {
+     "phrase": "fall shirt for women",
+     "volume": 2900,
+     "kd": 52,
+     "competition": 95881,
+     "gap": 5.17
+    },
+    {
+     "phrase": "fall shirt women",
+     "volume": 2900,
+     "kd": 52,
+     "competition": 97146,
+     "gap": 5.14
+    },
+    {
+     "phrase": "thankful shirt women",
+     "volume": 110,
+     "kd": 40,
+     "competition": 0,
+     "gap": 2.44
+    },
+    {
+     "phrase": "thankful t shirt",
+     "volume": 90,
+     "kd": 42,
+     "competition": 0,
+     "gap": 1.91
+    },
+    {
+     "phrase": "thankful shirt",
+     "volume": 260,
+     "kd": 68,
+     "competition": 72213,
+     "gap": 0.42
+    }
+   ]
+  },
+  "mens-hunting-first-light-buck-graphic-tee": {
+   "claimed": [
+    "deer shirt",
+    "deer hunting shirts",
+    "whitetail deer shirt",
+    "deer hunting shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "whitetail shirt",
+     "volume": 320,
+     "kd": 32,
+     "competition": 0,
+     "gap": 8.64
+    },
+    {
+     "phrase": "deer shirt men",
+     "volume": 260,
+     "kd": 32,
+     "competition": null,
+     "gap": 7.02
+    },
+    {
+     "phrase": "buck shirt",
+     "volume": 720,
+     "kd": 46,
+     "competition": 11332,
+     "gap": 4.02
+    },
+    {
+     "phrase": "deer hunter shirt",
+     "volume": 320,
+     "kd": 51,
+     "competition": 12282,
+     "gap": 1.57
+    }
+   ]
+  },
+  "mens-hunting-marsh-morning-graphic-tee": {
+   "claimed": [
+    "duck hunting shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "mallard shirt",
+     "volume": 260,
+     "kd": 32,
+     "competition": 0,
+     "gap": 7.02
+    },
+    {
+     "phrase": "duck shirt",
+     "volume": 3600,
+     "kd": 52,
+     "competition": 96598,
+     "gap": 6.39
+    },
+    {
+     "phrase": "waterfowl shirt",
+     "volume": 320,
+     "kd": 44,
+     "competition": 4173,
+     "gap": 2.87
+    },
+    {
+     "phrase": "mallard duck shirt",
+     "volume": 480,
+     "kd": 49,
+     "competition": 12097,
+     "gap": 2.46
+    }
+   ]
+  },
+  "unisex-western-desert-rider-graphic-tee": {
+   "claimed": [
+    "cowboy shirt",
+    "vintage cowboy shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "desert shirt",
+     "volume": 590,
+     "kd": 60,
+     "competition": 44788,
+     "gap": 1.34
+    }
+   ]
+  },
+  "mens-gym-iron-sweat-graphic-tee": {
+   "claimed": [
+    "retro gym shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "workout shirt men",
+     "volume": 1300,
+     "kd": 20,
+     "competition": 0,
+     "gap": 51.97
+    },
+    {
+     "phrase": "weightlifting shirt",
+     "volume": 880,
+     "kd": 47,
+     "competition": 19013,
+     "gap": 3.78
+    },
+    {
+     "phrase": "weightlifting shirts",
+     "volume": 880,
+     "kd": 48,
+     "competition": 20082,
+     "gap": 3.62
+    },
+    {
+     "phrase": "dumbbell shirt",
+     "volume": 70,
+     "kd": 43,
+     "competition": 0,
+     "gap": 1.46
+    }
+   ]
+  },
+  "womens-football-mom-game-day-graphic-tee": {
+   "claimed": [
+    "football mama shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "retro football shirt",
+     "volume": 40500,
+     "kd": 44,
+     "competition": 88129,
+     "gap": 87.55
+    },
+    {
+     "phrase": "game day shirt",
+     "volume": 3600,
+     "kd": 60,
+     "competition": 408804,
+     "gap": 2.74
+    }
+   ]
+  },
+  "womens-baseball-mom-diamond-days-graphic-tee": {
+   "claimed": [
+    "baseball mama shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "baseball shirt women",
+     "volume": 6600,
+     "kd": 13,
+     "competition": 0,
+     "gap": 366.48
+    },
+    {
+     "phrase": "t shirt for women",
+     "volume": 301000,
+     "kd": 52,
+     "competition": 8270055,
+     "gap": 58.06
+    },
+    {
+     "phrase": "baseball shirt for women",
+     "volume": 6600,
+     "kd": 54,
+     "competition": 173428,
+     "gap": 8.47
+    },
+    {
+     "phrase": "t shirt women",
+     "volume": 40500,
+     "kd": 58,
+     "competition": 8001789,
+     "gap": 7.19
+    },
+    {
+     "phrase": "retro baseball shirt",
+     "volume": 590,
+     "kd": 52,
+     "competition": 22805,
+     "gap": 2.12
+    }
+   ]
+  },
+  "womens-soccer-mom-sideline-bloom-graphic-tee": {
+   "claimed": [],
+   "gaps_measured": [
+    {
+     "phrase": "retro soccer shirt",
+     "volume": 40500,
+     "kd": 8,
+     "competition": 0,
+     "gap": 3113.83
+    },
+    {
+     "phrase": "soccer shirt for mom",
+     "volume": 2900,
+     "kd": 16,
+     "competition": 0,
+     "gap": 138.03
+    },
+    {
+     "phrase": "soccer shirt women",
+     "volume": 320,
+     "kd": 32,
+     "competition": 0,
+     "gap": 8.64
+    },
+    {
+     "phrase": "soccer mama shirt",
+     "volume": 70,
+     "kd": 62,
+     "competition": 13452,
+     "gap": 0.27
+    }
+   ]
+  },
+  "womens-christian-grace-wins-graphic-tee": {
+   "claimed": [
+    "faith shirts",
+    "faith shirt",
+    "grace shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christian shirt women",
+     "volume": 210,
+     "kd": 78,
+     "competition": 435403,
+     "gap": 0.12
+    }
+   ]
+  },
+  "womens-vintage-cropped-wildflower-club-graphic-tee": {
+   "claimed": [
+    "wildflower t shirt",
+    "wildflower shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "flower graphic tee",
+     "volume": 880,
+     "kd": 52,
+     "competition": 33997,
+     "gap": 2.61
+    },
+    {
+     "phrase": "flower shirt women",
+     "volume": 590,
+     "kd": 71,
+     "competition": 250373,
+     "gap": 0.49
+    }
+   ]
+  },
+  "womens-nurse-nurse-life-coffee-graphic-tee": {
+   "claimed": [
+    "cute nurse shirts",
+    "cute nurse shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "nursing t shirt",
+     "volume": 5400,
+     "kd": 48,
+     "competition": 68966,
+     "gap": 12.18
+    },
+    {
+     "phrase": "cute t shirts",
+     "volume": 9900,
+     "kd": 62,
+     "competition": 1420487,
+     "gap": 3.92
+    },
+    {
+     "phrase": "nurse life shirts",
+     "volume": 140,
+     "kd": 68,
+     "competition": 47601,
+     "gap": 0.28
+    },
+    {
+     "phrase": "nurse life shirt",
+     "volume": 140,
+     "kd": 71,
+     "competition": 64592,
+     "gap": 0.23
+    },
+    {
+     "phrase": "nurse shirt women",
+     "volume": 10,
+     "kd": 89,
+     "competition": 164458,
+     "gap": 0.01
+    }
+   ]
+  },
+  "womens-country-sweet-tea-sunsets-graphic-tee": {
+   "claimed": [
+    "sweet tea shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "porsche shirt",
+     "volume": 4400,
+     "kd": 20,
+     "competition": 1990,
+     "gap": 101.78
+    },
+    {
+     "phrase": "southern shirt",
+     "volume": 2900,
+     "kd": 48,
+     "competition": 50132,
+     "gap": 7.65
+    }
+   ]
+  },
+  "womens-christmas-retro-santa-graphic-tee": {
+   "claimed": [
+    "santa t shirt",
+    "retro santa shirt",
+    "vintage santa shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pink xmas shirt",
+     "volume": 20,
+     "kd": 48,
+     "competition": 0,
+     "gap": 0.38
+    },
+    {
+     "phrase": "pink santa shirt",
+     "volume": 70,
+     "kd": 64,
+     "competition": 16204,
+     "gap": 0.24
+    },
+    {
+     "phrase": "classic santa shirt",
+     "volume": 10,
+     "kd": 49,
+     "competition": 0,
+     "gap": 0.19
+    }
+   ]
+  },
+  "womens-christmas-candy-cane-club-graphic-tee": {
+   "claimed": [
+    "candy cane shirt",
+    "peppermint shirt"
+   ],
+   "gaps_measured": []
+  },
+  "womens-christmas-nutcracker-bow-graphic-tee": {
+   "claimed": [
+    "nutcracker shirt"
+   ],
+   "gaps_measured": []
+  },
+  "womens-christmas-vintage-snowman-graphic-tee": {
+   "claimed": [
+    "snowman shirt",
+    "hot chocolate shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "hot cocoa shirt",
+     "volume": 170,
+     "kd": 51,
+     "competition": 8126,
+     "gap": 1.0
+    }
+   ]
+  },
+  "womens-christmas-pink-christmas-trees-graphic-tee": {
+   "claimed": [
+    "pink christmas shirt"
+   ],
+   "gaps_measured": []
+  },
+  "womens-christmas-oh-deer-graphic-tee": {
+   "claimed": [
+    "reindeer shirt",
+    "deer christmas shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "oh deer shirt",
+     "volume": 140,
+     "kd": 36,
+     "competition": 0,
+     "gap": 3.41
+    }
+   ]
+  },
+  "womens-christmas-holly-jolly-graphic-tee": {
+   "claimed": [
+    "holly jolly shirt",
+    "holly jolly tshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "holly jolly christmas shirt",
+     "volume": 70,
+     "kd": 63,
+     "competition": 14910,
+     "gap": 0.26
+    }
+   ]
+  }
+ }
+}
