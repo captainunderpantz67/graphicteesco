@@ -11,7 +11,7 @@ Rules Sam has locked in while building Graphic Tees Co. Each one is a requiremen
 5. Every new design idea starts from the bottom list, not from "popular niches". The question is always: what are people searching that nobody strong is serving?
 
 ## Process
-- Preview before publish: build locally, send a phone screenshot, wait for a yes, then push. No side-quest rebuilds.
+- Ship, then test (Sam, 2026-10-09): copy, SEO and templated changes go straight live; verify the live pages (build, seo-audit, curl) and fix forward. Screenshot first only for brand-new visual directions. No side-quest rebuilds.
 - If a note is ambiguous, ask one short question instead of guessing and shipping.
 - Be credit-conscious: one good attempt, checked, beats several fast ones.
 

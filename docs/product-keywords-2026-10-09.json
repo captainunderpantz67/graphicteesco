@@ -1,0 +1,575 @@
+{
+ "High Country Trout": [
+  [
+   "trout shirt",
+   590,
+   46
+  ],
+  [
+   "fly fishing shirt",
+   1300,
+   37
+  ],
+  [
+   "trout fishing shirt",
+   170,
+   46
+  ],
+  [
+   "fly fishing t shirt",
+   null,
+   50
+  ]
+ ],
+ "Sunrise Strike": [
+  [
+   "bass fishing shirt",
+   720,
+   48
+  ],
+  [
+   "vintage fishing shirt",
+   null,
+   null
+  ],
+  [
+   "bass shirt",
+   720,
+   52
+  ],
+  [
+   "fishing graphic tee",
+   880,
+   46
+  ]
+ ],
+ "Barbell Club": [
+  [
+   "vintage gym shirt",
+   480,
+   30
+  ],
+  [
+   "barbell shirt",
+   260,
+   40
+  ],
+  [
+   "barbell club shirt",
+   null,
+   null
+  ]
+ ],
+ "Iron & Sweat": [
+  [
+   "retro gym shirt",
+   210,
+   33
+  ],
+  [
+   "iron shirt",
+   null,
+   null
+  ],
+  [
+   "weightlifting shirt",
+   880,
+   47
+  ]
+ ],
+ "Plate Club": [
+  [
+   "powerlifting shirt",
+   880,
+   42
+  ],
+  [
+   "gym shirt",
+   33100,
+   46
+  ],
+  [
+   "5am gym shirt",
+   null,
+   null
+  ],
+  [
+   "plate shirt",
+   null,
+   50
+  ]
+ ],
+ "First Light Buck": [
+  [
+   "deer hunting shirt",
+   320,
+   54
+  ],
+  [
+   "deer shirt",
+   1900,
+   43
+  ],
+  [
+   "whitetail shirt",
+   320,
+   32
+  ],
+  [
+   "hunting graphic tee",
+   260,
+   32
+  ]
+ ],
+ "Marsh Morning": [
+  [
+   "duck hunting shirt",
+   720,
+   46
+  ],
+  [
+   "duck shirt",
+   3600,
+   52
+  ],
+  [
+   "waterfowl shirt",
+   320,
+   44
+  ]
+ ],
+ "Cabin Christmas": [
+  [
+   "cabin shirt",
+   170,
+   60
+  ],
+  [
+   "cabin christmas shirt",
+   null,
+   null
+  ],
+  [
+   "christmas cabin shirt",
+   0,
+   62
+  ],
+  [
+   "log cabin shirt",
+   0,
+   50
+  ]
+ ],
+ "Fresh Cut Christmas Trees": [
+  [
+   "christmas tree truck shirt",
+   null,
+   null
+  ],
+  [
+   "red truck christmas shirt",
+   null,
+   null
+  ],
+  [
+   "christmas truck shirt",
+   null,
+   50
+  ],
+  [
+   "christmas tree shirt",
+   27100,
+   46
+  ]
+ ],
+ "Gingerbread Lane": [
+  [
+   "gingerbread shirt",
+   1900,
+   46
+  ],
+  [
+   "gingerbread house shirt",
+   null,
+   50
+  ],
+  [
+   "gingerbread christmas shirt",
+   null,
+   84
+  ]
+ ],
+ "Merry & Bright": [
+  [
+   "merry and bright shirt",
+   null,
+   84
+  ],
+  [
+   "retro christmas shirt",
+   260,
+   75
+  ],
+  [
+   "groovy christmas shirt",
+   null,
+   null
+  ]
+ ],
+ "Haunted Hollow": [
+  [
+   "haunted house shirt",
+   320,
+   53
+  ],
+  [
+   "haunted shirt",
+   210,
+   68
+  ],
+  [
+   "vintage halloween shirt",
+   1600,
+   60
+  ]
+ ],
+ "Midnight Feature": [
+  [
+   "drive in shirt",
+   null,
+   50
+  ],
+  [
+   "drive in movie shirt",
+   null,
+   null
+  ],
+  [
+   "bat shirt",
+   1300,
+   54
+  ]
+ ],
+ "Night Shift": [
+  [
+   "horror movie shirt",
+   6600,
+   43
+  ],
+  [
+   "vhs shirt",
+   170,
+   44
+  ],
+  [
+   "horror shirt",
+   4400,
+   54
+  ],
+  [
+   "video store shirt",
+   0,
+   50
+  ]
+ ],
+ "Ghost Club": [
+  [
+   "ghost shirt",
+   2900,
+   60
+  ],
+  [
+   "retro ghost shirt",
+   0,
+   88
+  ],
+  [
+   "groovy ghost shirt",
+   0,
+   69
+  ],
+  [
+   "retro halloween shirt",
+   1600,
+   61
+  ]
+ ],
+ "Pumpkin Patch Ghost": [
+  [
+   "cute ghost shirt",
+   320,
+   76
+  ],
+  [
+   "pumpkin patch shirt",
+   390,
+   65
+  ],
+  [
+   "ghost pumpkin shirt",
+   10,
+   75
+  ]
+ ],
+ "Witchy Season": [
+  [
+   "black cat halloween shirt",
+   170,
+   70
+  ],
+  [
+   "black cat shirt",
+   2900,
+   53
+  ],
+  [
+   "witchy shirt",
+   1000,
+   65
+  ],
+  [
+   "witch hat shirt",
+   110,
+   65
+  ]
+ ],
+ "Desert Rider": [
+  [
+   "cowboy shirt",
+   27100,
+   50
+  ],
+  [
+   "vintage cowboy shirt",
+   1300,
+   41
+  ],
+  [
+   "western graphic tee",
+   2400,
+   54
+  ],
+  [
+   "cowboy graphic tee",
+   1000,
+   56
+  ]
+ ],
+ "Desert Bloom": [
+  [
+   "cowgirl shirt",
+   8100,
+   52
+  ],
+  [
+   "cowgirl boot shirt",
+   590,
+   41
+  ],
+  [
+   "western shirts for women",
+   null,
+   null
+  ],
+  [
+   "cowgirl boots shirt",
+   590,
+   50
+  ]
+ ],
+ "Dirt Road Radio": [
+  [
+   "country music shirt",
+   1300,
+   54
+  ],
+  [
+   "country music shirts",
+   1300,
+   52
+  ],
+  [
+   "dirt road shirt",
+   0,
+   50
+  ],
+  [
+   "country graphic tee",
+   880,
+   60
+  ]
+ ],
+ "Sweet Tea & Sunsets": [
+  [
+   "sweet tea shirt",
+   1900,
+   22
+  ],
+  [
+   "southern shirt",
+   2900,
+   48
+  ],
+  [
+   "country girl shirt",
+   0,
+   84
+  ]
+ ],
+ "Give Thanks": [
+  [
+   "give thanks shirt",
+   170,
+   52
+  ],
+  [
+   "thanksgiving shirts for women",
+   2400,
+   58
+  ],
+  [
+   "thankful shirt",
+   260,
+   68
+  ]
+ ],
+ "Turkey Bowl": [
+  [
+   "turkey shirt",
+   2900,
+   48
+  ],
+  [
+   "turkey bowl shirt",
+   110,
+   40
+  ],
+  [
+   "thanksgiving football shirt",
+   null,
+   50
+  ]
+ ],
+ "Game Day": [
+  [
+   "football mom shirt",
+   3600,
+   52
+  ],
+  [
+   "retro football mom shirt",
+   null,
+   null
+  ],
+  [
+   "game day shirt",
+   3600,
+   60
+  ],
+  [
+   "football mama shirt",
+   3600,
+   42
+  ]
+ ],
+ "Diamond Days": [
+  [
+   "baseball mom shirt",
+   1000,
+   61
+  ],
+  [
+   "retro baseball mom shirt",
+   null,
+   null
+  ],
+  [
+   "baseball mama shirt",
+   320,
+   60
+  ]
+ ],
+ "Sideline Bloom": [
+  [
+   "soccer mom shirt",
+   2900,
+   42
+  ],
+  [
+   "soccer mama shirt",
+   70,
+   62
+  ],
+  [
+   "retro soccer mom shirt",
+   null,
+   null
+  ]
+ ],
+ "Grace Wins": [
+  [
+   "grace shirt",
+   320,
+   62
+  ],
+  [
+   "christian shirt",
+   12100,
+   58
+  ],
+  [
+   "faith shirt",
+   1600,
+   63
+  ],
+  [
+   "christian shirts for women",
+   1900,
+   62
+  ]
+ ],
+ "Nurse Life Coffee": [
+  [
+   "cute nurse shirts",
+   390,
+   31
+  ],
+  [
+   "nurse coffee shirt",
+   0,
+   67
+  ],
+  [
+   "nurse shirt",
+   9900,
+   55
+  ],
+  [
+   "nurse life shirt",
+   140,
+   71
+  ]
+ ],
+ "Wildflower Club": [
+  [
+   "wildflower shirt",
+   260,
+   70
+  ],
+  [
+   "vintage cropped tee",
+   null,
+   50
+  ],
+  [
+   "cropped graphic tee",
+   6600,
+   38
+  ],
+  [
+   "wildflower graphic tee",
+   null,
+   74
+  ]
+ ]
+}

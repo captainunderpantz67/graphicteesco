@@ -1,0 +1,308 @@
+{
+ "christmas": [
+  {
+   "phrase": "christmas shirts for women",
+   "volume": 5400,
+   "kd": 14,
+   "updated": null
+  },
+  {
+   "phrase": "christmas shirts for men",
+   "volume": null,
+   "kd": null,
+   "updated": null
+  },
+  {
+   "phrase": "womens christmas shirts",
+   "volume": null,
+   "kd": null,
+   "updated": null
+  },
+  {
+   "phrase": "christmas t shirts for women",
+   "volume": null,
+   "kd": null,
+   "updated": null
+  },
+  {
+   "phrase": "christmas graphic tee",
+   "volume": null,
+   "kd": 94,
+   "updated": null
+  },
+  {
+   "phrase": "christmas tee shirts",
+   "volume": 27100,
+   "kd": 59,
+   "updated": null
+  },
+  {
+   "phrase": "vintage christmas shirt",
+   "volume": null,
+   "kd": 94,
+   "updated": null
+  },
+  {
+   "phrase": "retro christmas shirt",
+   "volume": 260,
+   "kd": 75,
+   "updated": "Oct 04, 2026"
+  },
+  {
+   "phrase": "cute christmas shirts",
+   "volume": null,
+   "kd": null,
+   "updated": null
+  },
+  {
+   "phrase": "christmas tree farm shirt",
+   "volume": null,
+   "kd": 72,
+   "updated": null
+  },
+  {
+   "phrase": "christmas tree shirt",
+   "volume": 27100,
+   "kd": 46,
+   "updated": "Aug 05, 2026"
+  },
+  {
+   "phrase": "gingerbread shirt",
+   "volume": 1900,
+   "kd": 46,
+   "updated": "Oct 02, 2026"
+  },
+  {
+   "phrase": "merry and bright shirt",
+   "volume": null,
+   "kd": 84,
+   "updated": null
+  },
+  {
+   "phrase": "retro santa shirt",
+   "volume": 390,
+   "kd": 60,
+   "updated": "May 26, 2026"
+  },
+  {
+   "phrase": "vintage santa shirt",
+   "volume": 390,
+   "kd": 60,
+   "updated": null
+  },
+  {
+   "phrase": "cabin christmas shirt",
+   "volume": null,
+   "kd": null,
+   "updated": null
+  },
+  {
+   "phrase": "holiday shirts for women",
+   "volume": null,
+   "kd": null,
+   "updated": null
+  },
+  {
+   "phrase": "christmas shirt",
+   "volume": 33100,
+   "kd": 58,
+   "updated": "Aug 21, 2026"
+  },
+  {
+   "phrase": "christmas shirts",
+   "volume": 33100,
+   "kd": 58,
+   "updated": "Sep 25, 2026"
+  }
+ ],
+ "halloween": [
+  {
+   "phrase": "halloween shirts for women",
+   "volume": null,
+   "kd": null,
+   "updated": null
+  },
+  {
+   "phrase": "halloween shirts for men",
+   "volume": null,
+   "kd": null,
+   "updated": null
+  },
+  {
+   "phrase": "halloween graphic tee",
+   "volume": 1300,
+   "kd": 64,
+   "updated": "Aug 17, 2026"
+  },
+  {
+   "phrase": "halloween t shirts",
+   "volume": 12100,
+   "kd": 62,
+   "updated": null
+  },
+  {
+   "phrase": "vintage halloween shirt",
+   "volume": 1600,
+   "kd": 60,
+   "updated": "Sep 20, 2026"
+  },
+  {
+   "phrase": "retro halloween shirt",
+   "volume": 1600,
+   "kd": 61,
+   "updated": "Sep 27, 2026"
+  },
+  {
+   "phrase": "ghost shirt",
+   "volume": 2900,
+   "kd": 60,
+   "updated": "Aug 06, 2026"
+  },
+  {
+   "phrase": "cute ghost shirt",
+   "volume": 320,
+   "kd": 76,
+   "updated": "Sep 27, 2026"
+  },
+  {
+   "phrase": "witchy shirt",
+   "volume": 1000,
+   "kd": 65,
+   "updated": "Sep 15, 2026"
+  },
+  {
+   "phrase": "witch shirt",
+   "volume": 1000,
+   "kd": 66,
+   "updated": "Sep 15, 2026"
+  },
+  {
+   "phrase": "pumpkin patch shirt",
+   "volume": 390,
+   "kd": 65,
+   "updated": "Aug 21, 2026"
+  },
+  {
+   "phrase": "spooky season shirt",
+   "volume": 320,
+   "kd": 76,
+   "updated": "Jul 27, 2026"
+  },
+  {
+   "phrase": "horror movie shirt",
+   "volume": 6600,
+   "kd": 43,
+   "updated": "Jul 14, 2026"
+  },
+  {
+   "phrase": "haunted house shirt",
+   "volume": 320,
+   "kd": 53,
+   "updated": null
+  },
+  {
+   "phrase": "ghost club shirt",
+   "volume": null,
+   "kd": 50,
+   "updated": null
+  },
+  {
+   "phrase": "halloween shirt",
+   "volume": 22200,
+   "kd": 60,
+   "updated": "Jul 25, 2026"
+  },
+  {
+   "phrase": "halloween shirts",
+   "volume": 22200,
+   "kd": 58,
+   "updated": "Jul 06, 2026"
+  }
+ ],
+ "thanksgiving": [
+  {
+   "phrase": "thanksgiving shirts for women",
+   "volume": 2400,
+   "kd": 58,
+   "updated": "Oct 06, 2026"
+  },
+  {
+   "phrase": "thanksgiving shirts for men",
+   "volume": null,
+   "kd": null,
+   "updated": null
+  },
+  {
+   "phrase": "thanksgiving shirt",
+   "volume": 8100,
+   "kd": 54,
+   "updated": "Aug 17, 2026"
+  },
+  {
+   "phrase": "thanksgiving shirts",
+   "volume": 8100,
+   "kd": 57,
+   "updated": null
+  },
+  {
+   "phrase": "thanksgiving t shirts",
+   "volume": null,
+   "kd": null,
+   "updated": null
+  },
+  {
+   "phrase": "give thanks shirt",
+   "volume": 170,
+   "kd": 52,
+   "updated": "Oct 06, 2026"
+  },
+  {
+   "phrase": "thankful shirt",
+   "volume": 260,
+   "kd": 68,
+   "updated": "Oct 06, 2026"
+  },
+  {
+   "phrase": "turkey shirt",
+   "volume": 2900,
+   "kd": 48,
+   "updated": "Aug 18, 2026"
+  },
+  {
+   "phrase": "turkey bowl shirt",
+   "volume": 110,
+   "kd": 40,
+   "updated": null
+  },
+  {
+   "phrase": "thanksgiving football shirt",
+   "volume": null,
+   "kd": 50,
+   "updated": null
+  },
+  {
+   "phrase": "fall shirts for women",
+   "volume": null,
+   "kd": 50,
+   "updated": null
+  },
+  {
+   "phrase": "grateful shirt",
+   "volume": 170,
+   "kd": 66,
+   "updated": null
+  },
+  {
+   "phrase": "thanksgiving graphic tee",
+   "volume": null,
+   "kd": 84,
+   "updated": null
+  },
+  {
+   "phrase": "fall graphic tee",
+   "volume": 390,
+   "kd": 75,
+   "updated": "Oct 06, 2026"
+  }
+ ]
+}
