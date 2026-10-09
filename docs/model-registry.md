@@ -14,7 +14,7 @@ Each row is one person. Before generating a new photo, pick a description that d
 | 7 | White woman, early 40s, shoulder-length light brown hair | Football Mom card + Game Day cover |
 | 8–10 | Hero tailgate: curly-haired woman, Asian woman with bob, bearded man in cap | homepage hero |
 | 11 | Black woman in her late 50s, grey locs pinned up in a high bun, warm round face, reading glasses on a beaded chain | USED 2026-10-09 — Candy Cane Club cover (fal Seedream 4, cookie-swap kitchen; tries 1–2 rejected for garbled small text) |
-| 12 | Vietnamese-American woman in her early 40s, shoulder-length layered dark hair with caramel highlights, slim build | RESERVED — cover for Women's Christmas – Vintage Snowman Tee (docs/design-briefs.md #2; was Hot Cocoa Club) |
+| 12 | Vietnamese-American woman in her early 40s, shoulder-length layered dark hair with caramel highlights, slim build | USED 2026-10-09 — Vintage Snowman cover (fal Seedream 4, Christmas market cocoa stand; tries 1–2 rejected: black box behind print, garbled SNOW DAY) |
 | 13 | White woman in her early 60s, short white pixie cut, slim build, light smile lines, small gold hoop earrings | USED 2026-10-09 — Nutcracker Bow cover (fal Seedream 4, Christmas market nutcracker stall; try 1 kept) |
 | 14 | Latina woman in her late 20s, long straight black hair with blunt bangs, petite build | RESERVED — cover for Women's Christmas – Pink Christmas Trees Tee (docs/design-briefs.md #4; was Glass Ornaments) |
 | 15 | Native American woman in her mid-30s, long straight black hair worn down past her shoulders, medium build, small silver stud earrings | RESERVED — cover for Women's Christmas – Christmas Cats Tee (docs/design-briefs.md #5; was Home for the Holidays) |
