@@ -865,6 +865,29 @@
      "gap": 0.26
     }
    ]
+  },
+  "womens-christmas-christmas-cats-graphic-tee": {
+   "claimed": [
+    "christmas cat shirt",
+    "orange cat shirt",
+    "tuxedo cat shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "ginger cat shirt",
+     "volume": 170,
+     "kd": 34,
+     "competition": 0,
+     "gap": 4.36
+    },
+    {
+     "phrase": "cat christmas shirt",
+     "volume": 880,
+     "kd": 60,
+     "competition": 58716,
+     "gap": 1.75
+    }
+   ]
   }
  }
 }
