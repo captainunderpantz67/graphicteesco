@@ -1,3 +1,4 @@
+RUNNING since 2026-10-09 06:57 UTC
 2026-10-09 01:57 UTC — Trim pass 30/30 (new rule 88d1f1f): deleted 28 back-view mockups (one per backfilled product), plus Retro Santa's 2 back views and print close-up and Night Shift's 3 back views. Every product now carries exactly 4 product-only front color shots, behind the fal cover. Night Shift has 3: the blank only offers Black/Navy/White. No stock-model images remain.
 2026-10-09 01:56 UTC — Backfill COMPLETE: 28/29 products now have product-only carousels (Turkey Bowl, Ghost Club, Fresh Cut Christmas Trees, High Country Trout, Barbell Club in this last batch); Night Shift already flat-only. Run ended: new briefs still blocked on the Printful link for Retro Santa (see docs/morning-report.md). Run lock released.
 2026-10-09 01:49 UTC — Backfill: product-only carousels for Merry & Bright, Midnight Feature, Cabin Christmas, Pumpkin Patch Ghost. 24/29 done.
