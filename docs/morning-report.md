@@ -8,12 +8,13 @@
 ## What shipped
 - **Retro Santa cover:** fal Seedream 4, registry #16, cut-your-own tree farm. Try 1 was rejected for no headroom. It's in `src/data/covers.ts`.
 - **Night Shift cover** (was missing): fal Seedream 4, new registry #67, retro video store on Halloween night. Try 1 was rejected for dropping the VHS spine.
-- **Carousel backfill (image standard v2), done for all 29 existing products:**
-  - 28 products now have 4 product-only front views in 4 colors plus 1 back view. These are Printful v2 ghost mockups built from each product's own print files and placements.
+- **Carousel backfill + trim pass, done for all 30 products (29 existing + Retro Santa), following Sam's 2026-10-09 rule (cover + exactly 4 colors, no back view):**
+  - Every product now has exactly 4 product-only front views in 4 colors. These are Printful v2 ghost mockups built from each product's own print files and placements.
+  - The back views added earlier in this run were deleted under the new rule, along with Retro Santa's 2 back views and print close-up.
+  - Night Shift has 3 shots because the blank only comes in 3 colors; its 3 back views were deleted.
   - Alt text follows "<Design> <niche> graphic tee, <color>, <front|back> view".
   - Every variant of those 4 colors points at its color shot, so the site's color switcher works.
   - All Printful stock-model photos were deleted from those 28 products (about 700 images).
-  - Night Shift already had flat-only images, so it was left as is.
   - The fal cover is still slide 1 through `covers.ts`.
 - Nothing else changed: no prices, copy, tags, status or variants.
 
