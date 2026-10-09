@@ -15,7 +15,7 @@ BACKFILL THE EXISTING CATALOG (do this before new briefs, it's cheap): every pro
 - Unisex Halloween – Night Shift Tee has no cover yet: make one (fal, Seedream, new person in docs/model-registry.md, a scene in its world) and add it to src/data/covers.ts.
 - Log each backfilled product in docs/intake-log.md and commit/push in batches of ~5.
 
-CAROUSEL CHECK (2026-10-09): the backfill's "4 colors + 1 back view" layout is CORRECT — Sam wants one back shot to show the logo. Only fix a product if it has more than 4 front color shots, more than one back shot, or any Printful stock-model image left.
+CAROUSEL FIX (2026-10-09, do first): a trim pass wrongly removed the back views. Sam wants ONE back shot (shows the neck logo). For every product that has no back-view mockup, generate one back view with the Printful mockup generator (flat/ghost, same template style as its color shots) and add it as the LAST image, alt "<Design> graphic tee, back view with Graphic Tees Co. neck logo". Final carousel per product: fal cover + 4 color fronts + 1 back. Log "back view restored N/30".
 
 FOR EACH BRIEF, in queue order:
 1. DESIGN ART (fal.ai, text-to-image): generate the print graphic. Use Recraft v4 (already chosen over Ideogram 4.5 on 2026-10-08). Art rules: lettering spelled exactly right and legible, vintage screen-print look, 3-4 ink palette, plain white or transparent background, centered, no mockup/shirt, no licensed characters/brands/teams. Use the winner for every later design; record which in docs/intake-log.md. Generate ONE image per brief with Recraft v4; regenerate (max 2 retries) only if text is misspelled or the art looks generic.
