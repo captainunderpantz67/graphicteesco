@@ -71,5 +71,6 @@ Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/desig
 | 64 | Indian-American woman, early 40s, shoulder-length wavy black hair, glasses | Gingerbread Lane cover (fal Seedream 4, 2026-10-08) |
 | 65 | Greek-American woman in her early 50s, short dark curly hair cropped close, olive skin, soft build, small gold stud earrings | RESERVED — cover for Women's Christmas – Ho Ho Howdy Tee (docs/design-briefs.md #34) |
 | 66 | Brazilian man in his early 30s, shoulder-length wavy brown hair, short stubble, tall athletic build | RESERVED — cover for Men's Gym – Knight Lifting Tee (docs/design-briefs.md #35) |
+| 67 | Vietnamese-American man in his early 30s, short side-parted black haircut, light stubble, medium build | Night Shift cover (fal Seedream 4, 2026-10-09; retro video store; 2nd try, 1st dropped the VHS spine) |
 
 Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from docs/market-research.md (same person, new design where noted). Rows 65–66 were added for the two new briefs (#34, #35).
