@@ -1,4 +1,5 @@
 RUNNING since 2026-10-09 16:57 UTC
+2026-10-09 17:02 UTC — Retro Santa LINKED in Printful: product imported (sync 479774287); art recovered from fal request history (Recraft v4, the variant on the live mockups), print-prepped 3600x4349 → Printful file 1083071375; all 24 variants mapped to 6400 catalog ids (from SKU), front 10in centered top, back = back-logo-company.png (1080398177) 3in top center. **TEST PASSED** — synced 24/24, files ok, $29.99. Queue resumed.
 2026-10-09 14:57 UTC — Check only: Printful still has not imported Retro Santa (sync/products status=all = 29, none with external_id 15343859597616). No reply from Sam on flow choice; new briefs stay PAUSED (32 queued). No changes.
 2026-10-09 12:57 UTC — Check only: Printful still has not imported Retro Santa (sync/products status=all = 29, none with external_id 15343859597616). No reply from Sam on flow choice; new briefs stay PAUSED (32 queued). No changes.
 2026-10-09 10:57 UTC — Check only: Printful still has not imported Retro Santa (sync/products status=all = 29, none with external_id 15343859597616). No reply from Sam on flow choice; new briefs stay PAUSED (32 queued). No changes.
