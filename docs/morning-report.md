@@ -1,3 +1,32 @@
+# Morning report — 2026-10-09 (cloud build loop)
+
+**What shipped**
+- 1 product live on Shopify: **Women's Christmas – Retro Santa Tee** (`womens-christmas-retro-santa-graphic-tee`). $29.99, 24 variants, 7 product-only photos, fal lifestyle cover on the collection grid.
+- **TEST FAILED: not fulfillable yet.** Printful never imported the new Shopify product, so its variants aren't linked to a blank or print file. Fix: turn on Printful's automatic import for new Shopify products, or click "Import products" in Printful, then link the variants. File ids and placements are in `docs/intake-log.md`. Until then, an order for this product won't go to production.
+- The rest of the queue was **not built**. Every later product would hit the same blocker, so going on would have spent fal credits on more listings that can't ship.
+
+**Collection counts (live, vs targets of 14 / 28)**
+| Collection | Live | vs 14 | vs 28 |
+|---|---|---|---|
+| Christmas shirts for women | 5 (+1) | 36% | 18% |
+| Men's gym shirts | 3 | 21% | 11% |
+| Western graphic tees | 2 | 14% | 7% |
+
+**Skipped / needs a decision**
+- Briefs #1–5, #7–35 not started (blocked on Printful import).
+- Retro Santa on Heather Red: the pink lettering washes out. Consider removing that color (I didn't, because the run rules forbid edits beyond media).
+- Art model decision: **Recraft v4** beat Ideogram 4.5 on lettering accuracy and screen-print look. Use it from here on.
+
+**New tooling (committed)**
+- `scripts/fal-art.py`: text-to-image print art (Recraft v4 / Ideogram 4.5).
+- `scripts/print-clean.py`: second pass after print-prep (clears enclosed white counters and specks).
+- `scripts/fal-upload.py`: hosts a local file on fal storage and prints its public URL (used for Printful files and Shopify media).
+- `scripts/fal-photo.py`: `--ref-bg` flattens transparent print files so Seedream doesn't draw a black box behind the print.
+
+**fal spend (estimate):** about $0.50: 2 Ideogram 4.5 high-quality images, 2 Recraft v4 images, 4 Seedream 4 edits, plus storage uploads.
+
+---
+
 # Morning report — 2026-10-06
 
 **Status**

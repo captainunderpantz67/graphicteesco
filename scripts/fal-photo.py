@@ -54,14 +54,18 @@ def fal_key() -> str:
     return k
 
 
-def data_uri(path: pathlib.Path, max_side: int = 1536) -> str:
+def data_uri(path: pathlib.Path, max_side: int = 1536, bg: str | None = None) -> str:
     # Print masters are 3600px / ~9MB — far too big to post. A 1536px copy is plenty for a reference.
     import io
     from PIL import Image
     im = Image.open(path)
     im.thumbnail((max_side, max_side), Image.LANCZOS)
     buf = io.BytesIO()
-    if im.mode in ('RGBA', 'LA', 'P'):
+    if bg and im.mode in ('RGBA', 'LA', 'P'):
+        # transparent print files: Seedream renders alpha as a black box, so flatten onto the shirt color
+        flat = Image.new('RGB', im.size, bg); flat.paste(im.convert('RGBA'), mask=im.convert('RGBA').getchannel('A'))
+        flat.save(buf, 'JPEG', quality=92); mime = 'image/jpeg'
+    elif im.mode in ('RGBA', 'LA', 'P'):
         im.convert('RGBA').save(buf, 'PNG', optimize=True); mime = 'image/png'
     else:
         im.convert('RGB').save(buf, 'JPEG', quality=90); mime = 'image/jpeg'
@@ -93,6 +97,7 @@ def main():
     ap.add_argument('--scene', required=True, help="where, in the shirt's own world")
     ap.add_argument('--shirt', default='black', help='shirt color, e.g. navy, heather stone, natural')
     ap.add_argument('--fit', default='relaxed-fit cotton t-shirt', help='e.g. "black cropped boxy cotton t-shirt"')
+    ap.add_argument('--ref-bg', default='#ffffff', help='flatten a transparent print onto this color (match the shirt), or "none"')
     ap.add_argument('--n', type=int, default=1, help='images per model')
     ap.add_argument('--cover', help='product handle: also write public/covers/<handle>.webp from the first image')
     a = ap.parse_args()
@@ -106,7 +111,7 @@ def main():
         design = tmp
     else:
         design = (ROOT / a.design) if not pathlib.Path(a.design).is_absolute() else pathlib.Path(a.design)
-    ref = data_uri(design)
+    ref = data_uri(design, bg=None if a.ref_bg == 'none' else a.ref_bg)
     prompt = f"Realistic lifestyle photo, 3:4 vertical. {a.person}, {a.scene}. They wear a {a.shirt} {a.fit}. {RULES}"
     out_dir = ROOT / 'designs' / 'fal' / a.name
     out_dir.mkdir(parents=True, exist_ok=True)
