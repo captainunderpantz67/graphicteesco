@@ -30,6 +30,24 @@ Without `.env` the site builds with sample products (flagged on the page).
 ## Before launch
 - [ ] Brand name, Instagram, support email in `site.ts`
 - [ ] Returns policy + production time (match Printful)
-- [ ] Domain bought (graphicteesco.com) + Cloudflare Pages project
-- [ ] Shopify deploy hook → rebuild on product changes
+- [x] Domain bought (graphicteesco.com)
+- [ ] Cloudflare Pages migration (see below)
 - [ ] Empty collections auto-`noindex` once Shopify is connected — fill them first
+
+## Hosting: Cloudflare Pages (moving off Netlify)
+`.github/workflows/deploy-cloudflare.yml` builds with live Shopify data and runs `wrangler pages deploy`
+on every push to `main`, nightly at 4 AM Central, and on demand (Actions → Run workflow).
+`public/_redirects` and `public/_headers` are Cloudflare-native. `netlify.toml` stays until DNS is cut over.
+
+One-time setup (Sam):
+1. Cloudflare dashboard → Workers & Pages → Create → Pages → **Direct Upload**, project name `graphicteesco`
+   (or let the first workflow run create it).
+2. My Profile → API Tokens → Create token → template "Edit Cloudflare Workers" (includes Pages: Edit).
+   Copy the token and your Account ID (right sidebar on the account home page).
+3. GitHub repo → Settings → Secrets and variables → Actions → add `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`,
+   `PUBLIC_SHOPIFY_STORE_DOMAIN` (uqz0cg-vq.myshopify.com) and `PUBLIC_SHOPIFY_STOREFRONT_TOKEN`
+   (copy it from Netlify → Site settings → Environment variables).
+4. Run the workflow once, check `graphicteesco.pages.dev`.
+5. Pages project → Custom domains → add `graphicteesco.com` and `www`. Easiest if the domain's DNS is on Cloudflare
+   (add the site to Cloudflare and switch nameservers at the registrar); otherwise point a CNAME at `graphicteesco.pages.dev`.
+6. Once the custom domain is live on Cloudflare, delete the Netlify site and `netlify.toml`.

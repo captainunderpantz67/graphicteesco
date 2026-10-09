@@ -1,0 +1,40 @@
+# Build the site with live Shopify data and deploy it to Cloudflare Pages.
+# Runs on every push to main, nightly (so new/edited Shopify products show up by morning), and on demand.
+# Repo secrets needed: CLOUDFLARE_API_TOKEN (Pages: Edit), CLOUDFLARE_ACCOUNT_ID,
+#   PUBLIC_SHOPIFY_STORE_DOMAIN, PUBLIC_SHOPIFY_STOREFRONT_TOKEN.
+name: Deploy to Cloudflare Pages
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 9 * * *"   # 9:00 UTC = 4:00 AM Central
+  workflow_dispatch:
+concurrency:
+  group: cloudflare-pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+        env:
+          PUBLIC_SHOPIFY_STORE_DOMAIN: ${{ secrets.PUBLIC_SHOPIFY_STORE_DOMAIN }}
+          PUBLIC_SHOPIFY_STOREFRONT_TOKEN: ${{ secrets.PUBLIC_SHOPIFY_STOREFRONT_TOKEN }}
+      - name: Copy-lint the live build
+        run: python3 scripts/seo-audit.py
+        continue-on-error: true
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=graphicteesco --branch=main
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
