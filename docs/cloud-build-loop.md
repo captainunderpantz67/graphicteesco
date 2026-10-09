@@ -15,6 +15,8 @@ BACKFILL THE EXISTING CATALOG (do this before new briefs, it's cheap): every pro
 - Unisex Halloween – Night Shift Tee has no cover yet: make one (fal, Seedream, new person in docs/model-registry.md, a scene in its world) and add it to src/data/covers.ts.
 - Log each backfilled product in docs/intake-log.md and commit/push in batches of ~5.
 
+CAROUSEL TRIM PASS (added 2026-10-09): earlier backfill runs added 4 colors + a back view to each product. Sam's rule is exactly 4 product-only color shots (no back view) after the cover. For every product: delete any back-view mockup and any product-only shots beyond 4 colors (keep one front shot each for 4 colors), make sure no Printful stock-model images remain, and keep variant images pointing at the remaining color shots (variants of other colors may fall back to the product's first color shot). Do this before building new briefs. Log "trim pass N/29" in docs/intake-log.md.
+
 FOR EACH BRIEF, in queue order:
 1. DESIGN ART (fal.ai, text-to-image): generate the print graphic. Use Recraft v4 (already chosen over Ideogram 4.5 on 2026-10-08). Art rules: lettering spelled exactly right and legible, vintage screen-print look, 3-4 ink palette, plain white or transparent background, centered, no mockup/shirt, no licensed characters/brands/teams. Use the winner for every later design; record which in docs/intake-log.md. Generate ONE image per brief with Recraft v4; regenerate (max 2 retries) only if text is misspelled or the art looks generic.
 2. PRINT FILE: run scripts/print-prep.py on the chosen art → transparent PNG, 3600px, 300 DPI, under 10 MB. Save to designs/<slug>.png (designs/*.png is gitignored — that's fine).
