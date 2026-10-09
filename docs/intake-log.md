@@ -1,4 +1,4 @@
-RUNNING since 2026-10-09 00:56 UTC
+2026-10-09 01:56 UTC — Backfill COMPLETE: 28/29 products now have product-only carousels (Turkey Bowl, Ghost Club, Fresh Cut Christmas Trees, High Country Trout, Barbell Club in this last batch); Night Shift already flat-only. Run ended: new briefs still blocked on the Printful link for Retro Santa (see docs/morning-report.md). Run lock released.
 2026-10-09 01:49 UTC — Backfill: product-only carousels for Merry & Bright, Midnight Feature, Cabin Christmas, Pumpkin Patch Ghost. 24/29 done.
 2026-10-09 01:44 UTC — Backfill: product-only carousels for Give Thanks, Sunrise Strike, Gingerbread Lane, Haunted Hollow. 20/29 done.
 2026-10-09 01:39 UTC — Backfill: product-only carousels for First Light Buck and Witchy Season; Night Shift already had product-only flats (no stock models), left as is. 16/29 done.
