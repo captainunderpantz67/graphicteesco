@@ -1,4 +1,5 @@
 RUNNING since 2026-10-09 00:56 UTC
+2026-10-09 01:49 UTC — Backfill: product-only carousels for Merry & Bright, Midnight Feature, Cabin Christmas, Pumpkin Patch Ghost. 24/29 done.
 2026-10-09 01:44 UTC — Backfill: product-only carousels for Give Thanks, Sunrise Strike, Gingerbread Lane, Haunted Hollow. 20/29 done.
 2026-10-09 01:39 UTC — Backfill: product-only carousels for First Light Buck and Witchy Season; Night Shift already had product-only flats (no stock models), left as is. 16/29 done.
 2026-10-09 01:36 UTC — Backfill: product-only carousels for Plate Club, Marsh Morning, Dirt Road Radio. 13/29 done.
