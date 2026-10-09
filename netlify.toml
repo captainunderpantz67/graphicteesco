@@ -1,5 +1,8 @@
 # Netlify: build the static site from this repo
 [build]
+  # Only build when the site itself changed (src/, public/, package files, config). Commits that only touch
+  # docs/ or scripts/ (logs, briefs, reports) skip the build so we don't burn Netlify build credits.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- src public package.json package-lock.json astro.config.mjs netlify.toml"
   command = "npm run build"
   publish = "dist"
 
