@@ -1,6 +1,7 @@
 # STATUS 2026-10-09 ~12:30 PM CT — graphicteesco.com is LIVE on Cloudflare Pages (migration done)
 - Nameservers eva/joaquin.ns.cloudflare.com (Reverend changed at Porkbun). Pages custom domains: graphicteesco.com + www. Redirect rule www → apex (301, query kept). Porkbun email forwarding MX + SPF copied over. Netlify no longer pinged by nightly-rebuild; Netlify site can be deleted whenever.
-- Still to do: Search Console domain verification via Cloudflare DNS TXT (needs Sam's GSC login).
+- Search Console: domain property sc-domain:graphicteesco.com verified (Cloudflare auto-TXT, Sam's samuel@pricklypearmarketingco.com login) + sitemap-index.xml submitted 2026-10-09. Manual 'Request indexing' done for 7 priority URLs (women's Christmas, Christmas, Retro Santa, Snowman, Nutcracker, Candy Cane, Pink Trees). Don't hand-request every page: sitemap + IndexNow cover the rest; manual requests only for new priority pages (~10/day quota).
+- IndexNow: key file in public/, scripts/indexnow.mjs, .github/workflows/indexnow.yml pings all sitemap URLs after each site push + nightly rebuild (first run: 62 URLs, HTTP 202).
 
 # (earlier) STATUS 2026-10-09 ~10:45 AM CT — Cloudflare Pages is LIVE
 - https://graphicteesco.pages.dev serves all 30 products (server: cloudflare; sitemap 30 product URLs; _redirects 301s work).
