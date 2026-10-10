@@ -1079,6 +1079,27 @@
      "note": "ambiguous with buffalo plaid / Bills"
     }
    ]
+  },
+  "unisex-western-saddle-blanket-steer-graphic-tee": {
+   "claimed": [
+    "aztec shirt",
+    "western aztec shirt",
+    "southwestern shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "longhorn shirts",
+     "volume": 1000,
+     "kd": 24,
+     "note": "skipped: overlaps UT Longhorns team intent"
+    },
+    {
+     "phrase": "longhorn shirt",
+     "volume": 880,
+     "kd": 42,
+     "note": "same"
+    }
+   ]
   }
  }
 }
