@@ -1275,6 +1275,24 @@
     "fa la la shirt"
    ],
    "gaps_measured": []
+  },
+  "womens-christmas-peace-on-earth-graphic-tee": {
+   "claimed": [
+    "peace on earth shirt",
+    "dove shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "peace on earth shirt",
+     "volume": 260,
+     "kd": 39
+    },
+    {
+     "phrase": "dove shirt",
+     "volume": 320,
+     "kd": 32
+    }
+   ]
   }
  }
 }
