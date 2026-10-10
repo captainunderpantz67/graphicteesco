@@ -43,6 +43,20 @@ FOR EACH BRIEF, in queue order:
 
 PUMP COVERS (briefs whose Blank is Printful #1482, Sam 2026-10-09): all-over-print oversized cotton tee, $39.99 on every variant (not $29.99), options Size only 2XS–5XL (no Color option), Printful catalog product 1482 variant ids from GET https://api.printful.com/products/1482. Print files are full panels (front, back, both sleeves) from GET https://api.printful.com/mockup-generator/printfiles/1482 — art full-bleed on the front panel over the brief's background color, a back-panel design per the brief, small neck logo, sleeves in the background color. Carousel for pump covers = fal cover + front + back + 2 angle/detail mockups (no color fronts). Copy facts: heavyweight 8.85 oz, 95% cotton / 5% elastane, oversized boxy fit, all-over print — never "garment-dyed" or "Comfort Colors". Tag pump-cover + mens-gym-shirts.
 
+ROLLING QUEUE — build big collections (Sam, 2026-10-10). The goal is 28 designs in EVERY measured niche collection, not just the 33 original briefs. Do NOT write QUEUE COMPLETE until every collection below is at its target.
+- Order (finish the current brief queue first, then work top to bottom; check live counts with Shopify collectionByHandle productsCount):
+  1. christmas-shirts-for-women → 28 (seasonal surge peaks Nov–Dec; must be live by early Nov)
+  2. thanksgiving-shirts → 14 (seasonal; stop adding after Nov 15)
+  3. mens-gym-shirts → 28 (pump covers welcome, $39.99 blank per PUMP COVERS)
+  4. western-graphic-tees → 28
+  5. country-graphic-tees → 28
+  6. soccer-mom-shirts → 28 · 7. hunting-t-shirts → 28 · 8. fishing-t-shirts → 28 · 9. cropped-graphic-tees → 28
+  10. football-mom-shirts → 28 · 11. baseball-mom-shirts → 28 · 12. y2k-graphic-tees → 28 · 13. anime-shirts → 28 (ORIGINAL anime-style art only: no real characters, series names, logos or lookalikes)
+  14. nurse-shirts → 28 · 15. christian-shirts → 28
+  Skip: halloween-shirts (season ends Oct 31 — resume Aug 2027), graphic-tees-for-women-over-40 (no measured demand), football-shirts (noindexed/off-intent). Hub pages (graphic tees for women/men, vintage, oversized, christmas-shirts) fill themselves from the niche designs' tags.
+- WRITING NEW BRIEFS when docs/design-briefs.md has no unbuilt brief for the current target collection: write 6 at a time, appended under a dated heading, in the SAME format as the existing briefs (handle, blank, art, text on shirt, shirt colors, primary keyword with RankHero volume/KD, variants, proof, cover-model registry row, fal command). Method = docs/market-research.md: find what's actually selling in that niche (RankHero keyword pages incl. top-listing favorites/views; Etsy is bot-blocked, don't bypass), apply the brand-safety filter (no licensed characters, song/movie titles, team marks, trademarked phrases), and give every design its own MEASURED primary via scripts/keyword-gap.py that no other product or collection owns (docs/product-keyword-map.json). Small measured long-tails are welcome (store-rules #7: small volume ≠ small intent). Vary motifs, palettes and audiences inside the niche; no near-duplicates of live designs. Commit the briefs, then build them.
+- Budget guard: fal spend about $0.15/product is fine. If a run's fal spend passes $5, stop generating art, log it and Telegram Sam.
+
 HARD LIMITS: never change price from $29.99 (pump covers: $39.99); never delete or unpublish products; on existing products only add the new product-only media, add covers, and delete Printful stock-model images (backfill step) — nothing else; never copy another seller's artwork, trademarked phrases, brands, characters, teams; no hoodie claims (store has 0 hoodies). If a step fails 3 times for a product, log it with the error, skip that product, and move to the next. If the fal balance runs out (HTTP 403 "Exhausted balance"), stop, log it, push, and end.
 
 
