@@ -161,3 +161,14 @@ Gym: pump cover 22,200 / 28 · mens gym shirts 18,100 / 10 · gym shirt 33,100 /
 Western: western shirt 27,100 / 52 · western tshirt 27,100 / 50 · cowboy shirt 27,100 / 50 · cowgirl shirt 8,100 / 52 · rodeo t shirt 5,400 / 32 · rodeo shirt 5,400 / 50 · turquoise shirt 4,400 / 34 · vintage western shirt 3,600 / 52 · horse shirt 2,900 / 51 · buffalo shirt 2,900 / 42 · western graphic tees 2,400 / 16 · western graphic tee 2,400 / 54 · bison shirt 1,900 / 34 · aztec shirt 1,300 / 38 · country music shirt 1,300 / 54 · longhorn shirt 880 / 42 · bull riding shirt 720 / 30 · cactus shirt 720 / 50 · ranch shirt 720 / 52 · wild west shirt 590 / 49 · cowboy boots shirt 590 / 48 · cow skull shirt 480 / 46 · howdy shirt 480 / 53 · cowgirl graphic tee 480 / 56 · bull skull shirt 390 / 44 · barrel racing shirt 390 / 38 · vintage rodeo shirt 320 / 32 · rattlesnake shirt 260 / 35 · horseshoe shirt 210 / 42 · wild horse shirt 140 / 36 · boot stitch shirt 110 / 40 · coastal cowgirl shirt 110 / 58.
 
 No RankHero page (404) or no volume: christmas tree truck shirt, red truck christmas shirt, christmas ornament shirt, christmas wreath shirt, bench press shirt, tarot gym shirt, greek gym shirt.
+
+## Christmas rolling-queue research (2026-10-10, builder)
+RankHero keyword pages, measured 2026-10-10 (volume / KD / competing listings; Oct → Nov → Dec 2025 monthly searches):
+- christmas dog shirt 880 / 63 / 107K; 1,300 → 4,400 → 4,400 → brief #36
+- christmas nurse shirt 880 / 56 / 44K; 1,600 → 4,400 → 3,600 → brief #37
+- christmas teacher shirt 720 / 62 / 75K; 1,300 → 4,400 → 2,900 → brief #38
+- mrs claus shirt 140 / 36; 210 → 480 → 880 → brief #39
+- sleigh shirt 140 / 36; 170 → 590 → 720; santa shirt 8,100 / 55 (6,600 → 12,100 → 18,100) → brief #40
+- polar bear shirt 720 / 38 / 3.4K listings (thin); 720 → 880 → 880 → brief #41
+- Not used: christmas pajama shirt 720 / 50 (off-intent, pajamas), merry christmas shirt 880 / 73 (saturated, 581K listings), winter shirt 6,600 / 58 (generic), christmas gnome / cardinal / penguin / stamp / village / wreath (no volume), christmas mama / mom (KD 82–83), north pole shirt 90 / 60 (thin).
+- Brand-safety: no song titles or lyric lines ('Up on the Rooftop', 'Let It Snow', 'Jingle Bell Rock' avoided), no licensed characters.

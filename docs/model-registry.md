@@ -72,5 +72,11 @@ Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/desig
 | 65 | Greek-American woman in her early 50s, short dark curly hair cropped close, olive skin, soft build, small gold stud earrings | USED 2026-10-09 — Ho Ho Howdy cover (fal Seedream 4, ranch Christmas party in a barn; try 1 kept) |
 | 66 | Brazilian man in his early 30s, shoulder-length wavy brown hair, short stubble, tall athletic build | USED 2026-10-09 — Knight Lifting cover (fal Seedream 4, stone basement gym; try 1 kept with the banner lettering restored from the print file — Seedream garbled it, try 2 worse) |
 | 67 | Vietnamese-American man in his early 30s, short side-parted black haircut, light stubble, medium build | Night Shift cover (fal Seedream 4, 2026-10-09; retro video store; 2nd try, 1st dropped the VHS spine) |
+| 68 | Sri Lankan-American woman in her late 30s, short wavy black bob, petite build | RESERVED — cover for Women's Christmas – Christmas Dogs Tee (docs/design-briefs.md #36) |
+| 69 | Black woman in her early 50s, short tapered grey natural hair, round tortoiseshell glasses, soft build | RESERVED — cover for Women's Christmas – Christmas Nurse Tee (docs/design-briefs.md #37) |
+| 70 | White woman in her late 30s, red curly hair in a low ponytail, freckles, medium build | RESERVED — cover for Women's Christmas – Christmas Teacher Tee (docs/design-briefs.md #38) |
+| 71 | Japanese-American woman in her early 60s, silver bob with blunt bangs, slim build, small pearl earrings | RESERVED — cover for Women's Christmas – Mrs. Claus Bakery Tee (docs/design-briefs.md #39) |
+| 72 | Latina woman in her mid-40s, long dark hair with grey streaks in a side braid, medium build | RESERVED — cover for Women's Christmas – Santa's Sleigh Tee (docs/design-briefs.md #40) |
+| 73 | Ukrainian-American woman in her mid-20s, long straight light-blonde hair, tall slim build | RESERVED — cover for Women's Christmas – Polar Bear Cocoa Tee (docs/design-briefs.md #41) |
 
 Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from docs/market-research.md (same person, new design where noted). Rows 65–66 were added for the two new briefs (#34, #35).

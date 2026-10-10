@@ -640,3 +640,108 @@ python3 scripts/fal-photo.py --design designs/lucky-horseshoe.png --name lucky-h
     --shirt "vintage white" --fit "unisex classic-fit cotton t-shirt" \
     --cover unisex-western-lucky-horseshoe-graphic-tee
 ```
+
+## Christmas shirts for women — rolling queue batch 1 (2026-10-10, toward 28)
+Written by the builder from RankHero measurements (2026-10-10). Proof = RankHero monthly series and competing-listing counts (top-listing samples weren't available on these pages; Etsy is bot-blocked). All on Bella+Canvas 6400, $29.99. Shirt colors are targets; the builder drops colors the art can't read on.
+
+### 36. Women's Christmas – Christmas Dogs Tee  *(new)*
+- **Handle:** `womens-christmas-christmas-dogs-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** Three happy mixed-breed dogs (a scruffy terrier, a floppy-eared hound, a curly doodle) in Santa hats and knit scarves, piled together with a string of vintage bulbs tangled around them. Our own dogs, cartoon-vintage linework. Palette: cranberry red, pine green, tan, cream.
+- **Text on shirt:** MERRY WOOFMAS (retro rounded caps)
+- **Shirt colors:** White, Natural, Heather Stone, Athletic Heather
+- **Primary keyword:** christmas dog shirt — 880 / KD 63 (Nov–Dec peak 4,400/mo)
+- **Variants:** dog mom christmas shirt, christmas dog lover shirt (measure via keyword-gap)
+- **Proof:** Christmas cats proved the pet-Christmas angle (Christmas cats 215 / 4,442); christmas dog shirt peaks at 4,400/mo in Nov–Dec with 107K listings (RankHero monthly series, 2026-10-10)
+- **Cover model:** registry #68 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/christmas-dogs-art.jpg --name christmas-dogs --model seedream \
+    --person "Sri Lankan-American woman in her late 30s, short wavy black bob, petite build" \
+    --scene "on a snowy suburban sidewalk at dusk walking a scruffy terrier on a leash at her side, houses with Christmas lights behind her" \
+    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-christmas-christmas-dogs-graphic-tee
+```
+
+### 37. Women's Christmas – Christmas Nurse Tee  *(new)*
+- **Handle:** `womens-christmas-christmas-nurse-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** A vintage nurse cap with a holly sprig tucked in the band, a stethoscope looped into a wreath shape with red bulbs on it, small candy-cane and star accents. Clean retro illustration. Palette: red, pine green, cream, navy.
+- **Text on shirt:** MERRY & MEDICAL? no — use 'NURSING THE HOLIDAYS' is clunky; final: 'JINGLE ALL THE SHIFT' (playful caps)
+- **Shirt colors:** White, Natural, Heather Mauve, Athletic Heather
+- **Primary keyword:** christmas nurse shirt — 880 / KD 56 (Nov peak 4,400/mo)
+- **Variants:** nurse christmas shirt (measure)
+- **Proof:** christmas nurse shirt 880 / 56, Nov 4,400 / Dec 3,600; cross-sells /nurse-shirts/ (RankHero 2026-10-10)
+- **Cover model:** registry #69 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/christmas-nurse-art.jpg --name christmas-nurse --model seedream \
+    --person "Black woman in her early 50s, short tapered grey natural hair, round tortoiseshell glasses, soft build" \
+    --scene "outside a small-town hospital entrance at dusk after a shift, a lit Christmas wreath on the glass doors behind her, a travel mug at her side" \
+    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-christmas-christmas-nurse-graphic-tee
+```
+
+### 38. Women's Christmas – Christmas Teacher Tee  *(new)*
+- **Handle:** `womens-christmas-christmas-teacher-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** A vintage chalkboard framed in pine garland with a red apple wearing a tiny Santa hat, pencils tied with a bow, little stars. Retro school-supply illustration. Palette: red, green, chalkboard black, cream.
+- **Text on shirt:** MERRY TEACHER (chalk-style caps)
+- **Shirt colors:** White, Natural, Heather Stone, Athletic Heather
+- **Primary keyword:** christmas teacher shirt — 720 / KD 62 (Nov peak 4,400/mo)
+- **Variants:** teacher christmas shirt (measure)
+- **Proof:** christmas teacher shirt Nov 4,400 / Dec 2,900, 75K listings (RankHero 2026-10-10); teachers buy for class parties and dress-up days
+- **Cover model:** registry #70 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/christmas-teacher-art.jpg --name christmas-teacher --model seedream \
+    --person "White woman in her late 30s, red curly hair in a low ponytail, freckles, medium build" \
+    --scene "in an elementary classroom decorated for Christmas, paper snowflakes on the windows and a small tree in the corner, afternoon light" \
+    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-christmas-christmas-teacher-graphic-tee
+```
+
+### 39. Women's Christmas – Mrs. Claus Bakery Tee  *(new)*
+- **Handle:** `womens-christmas-mrs-claus-bakery-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** An original rosy-cheeked Mrs. Claus in a vintage apron and round glasses, holding up a tray of fresh cookies, steam swirls, drawn like a 1950s kitchen ad. No real brand. Palette: cherry red, mint green, cream, warm brown.
+- **Text on shirt:** MRS. CLAUS BAKERY / 'Est. North Pole' (retro script + small caps)
+- **Shirt colors:** White, Natural, Pink, Heather Mauve
+- **Primary keyword:** mrs claus shirt — 140 / KD 36 (Dec peak 880/mo)
+- **Variants:** christmas baking shirt — 50 / 66
+- **Proof:** mrs claus shirt Dec 880/mo, KD 36 (lowest-KD unclaimed Christmas term found, RankHero 2026-10-10); baking/cookie motifs sell in coquette kitchen looks (market-research #1)
+- **Cover model:** registry #71 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/mrs-claus-bakery-art.jpg --name mrs-claus-bakery --model seedream \
+    --person "Japanese-American woman in her early 60s, silver bob with blunt bangs, slim build, small pearl earrings" \
+    --scene "in a warm home kitchen during Christmas baking, cooling racks of cookies on the counter behind her, flour on the counter, window light" \
+    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-christmas-mrs-claus-bakery-graphic-tee
+```
+
+### 40. Women's Christmas – Santa's Sleigh Tee  *(new)*
+- **Handle:** `womens-christmas-santas-sleigh-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** A vintage silhouette of Santa's sleigh pulled by reindeer flying across a huge full moon over snowy rooftops and pine trees, starry sky, 1940s Christmas-card style. Palette: midnight navy, gold, cream, red.
+- **Text on shirt:** none (art only) — or small 'Up on the Rooftop'? no (song); keep art only
+- **Shirt colors:** White, Natural, Athletic Heather, Heather Stone
+- **Primary keyword:** sleigh shirt — 140 / KD 36 (Dec peak 720/mo)
+- **Variants:** santa shirt — 8,100 / 55 (hub depth)
+- **Proof:** sleigh shirt KD 36 with Dec 720/mo; santa shirt 18,100/mo in Dec (RankHero 2026-10-10); vintage Christmas-card art is a steady Etsy shelf (market-research #8)
+- **Cover model:** registry #72 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/santas-sleigh-art.jpg --name santas-sleigh --model seedream \
+    --person "Latina woman in her mid-40s, long dark hair with grey streaks in a side braid, medium build" \
+    --scene "on a snowy front porch at night under a full moon, rooftops dusted with snow and string lights behind her, a mug of cocoa at her side" \
+    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-christmas-santas-sleigh-graphic-tee
+```
+
+### 41. Women's Christmas – Polar Bear Cocoa Tee  *(new)*
+- **Handle:** `womens-christmas-polar-bear-cocoa-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** A cuddly polar bear in a red knit scarf and earmuffs holding a mug of hot cocoa with marshmallows, snowflakes falling, vintage winter-card style. Palette: icy blue, cherry red, cream, navy.
+- **Text on shirt:** none, or small 'Cozy Season'
+- **Shirt colors:** White, Natural, Athletic Heather, Light Violet? (confirm) → use White, Natural, Athletic Heather, Heather Blue Lagoon
+- **Primary keyword:** polar bear shirt — 720 / KD 38 (Nov–Dec 880/mo)
+- **Variants:** (measure via keyword-gap)
+- **Proof:** polar bear shirt KD 38 with only 3,394 competing listings (RankHero 2026-10-10) — thin competition
+- **Cover model:** registry #73 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/polar-bear-cocoa-art.jpg --name polar-bear-cocoa --model seedream \
+    --person "Ukrainian-American woman in her mid-20s, long straight light-blonde hair, tall slim build" \
+    --scene "at an outdoor ice rink at dusk with string lights and a small Christmas tree behind her, skates slung at her side" \
+    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-christmas-polar-bear-cocoa-graphic-tee
+```
