@@ -76,7 +76,7 @@ Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/desig
 | 69 | Woman in her early 60s, short silver hair, large dark round glasses, soft build (Kontext drew her older than the reserved early-50s look) | USED 2026-10-10 — Christmas Nurse cover (fal Kontext Pro, hospital entrance with a Christmas wreath; try 1 kept) |
 | 70 | White woman in her late 30s, red curly hair in a low ponytail, freckles, medium build | USED 2026-10-10 — Christmas Teacher cover (fal Kontext Pro, Christmas classroom; try 1 kept) |
 | 71 | White woman in her early 70s, chin-length grey bob, slim build, small pearl earrings (Kontext drew her instead of the reserved Japanese-American woman; that description is free for a later cover) | USED 2026-10-10 — Mrs. Claus Bakery cover (fal Kontext Pro, home kitchen on a baking day; try 1 kept) |
-| 72 | Latina woman in her mid-40s, long dark hair with grey streaks in a side braid, medium build | RESERVED — cover for Women's Christmas – Santa's Sleigh Tee (docs/design-briefs.md #40) |
+| 72 | Latina woman in her mid-40s, long dark wavy hair worn down, soft build (Kontext dropped the reserved braid and grey streaks) | USED 2026-10-10 — Santa’s Sleigh cover (fal Kontext Pro, snowy porch under a full moon; try 1 kept) |
 | 73 | Ukrainian-American woman in her mid-20s, long straight light-blonde hair, tall slim build | RESERVED — cover for Women's Christmas – Polar Bear Cocoa Tee (docs/design-briefs.md #41) |
 
 Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from docs/market-research.md (same person, new design where noted). Rows 65–66 were added for the two new briefs (#34, #35).
