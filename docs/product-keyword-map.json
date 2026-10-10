@@ -1064,6 +1064,21 @@
     "bull riding shirt"
    ],
    "gaps_measured": []
+  },
+  "unisex-western-vintage-bison-graphic-tee": {
+   "claimed": [
+    "bison shirt",
+    "buffalo shirt",
+    "buffalo shirt men"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "buffalo shirts",
+     "volume": 2900,
+     "kd": 16,
+     "note": "ambiguous with buffalo plaid / Bills"
+    }
+   ]
   }
  }
 }

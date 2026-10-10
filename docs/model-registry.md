@@ -45,7 +45,7 @@ Each row is one person. Before generating a new photo, pick a description that d
 | 40 | Puerto Rican woman in her early 20s, shoulder-length wavy dark hair, medium build | RESERVED — cover for Unisex Western – Saddle Blanket Steer Tee (docs/design-briefs.md #30; was Hat on the Post) |
 | 41 | White man in his early 60s, white mustache, weathered sun-lined face, lean wiry build, felt cowboy hat pushed back off his forehead | RESERVED — cover for Unisex Western – Desert Rattler Tee (docs/design-briefs.md #31; was Ranch Hand) |
 | 42 | Mexican-American man in his mid-20s, short black hair, thin mustache, wiry build | USED 2026-10-10 — Hold On Eight cover (fal Seedream 4, behind the bucking chutes at night; try 1 kept) |
-| 43 | Japanese-American man in his late 30s, medium-length black hair swept back, short stubble, medium build | RESERVED — cover for Unisex Western – Vintage Bison Tee (docs/design-briefs.md #33; was Cowboy Coffee) |
+| 43 | Japanese-American man in his late 30s, medium-length black hair swept back, short stubble, medium build | USED 2026-10-10 — Vintage Bison cover (fal Seedream 4, prairie road pull-off at golden hour; try 1 rejected: bison redrawn side-on without the badge) |
 
 Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/design-briefs.md). When a cover is generated and approved, change RESERVED to the final "Used for"; if a brief is dropped, free its row.
 | 44 | Black woman, late 40s, short natural silver-grey curls, gold hoops | Merry & Bright cover (fal Seedream 4, 2026-10-08) |
