@@ -1238,6 +1238,20 @@
     "teacher shirt"
    ],
    "gaps_measured": []
+  },
+  "womens-christmas-mrs-claus-bakery-graphic-tee": {
+   "claimed": [
+    "mrs claus shirt",
+    "christmas cookie shirt",
+    "christmas baking shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "mrs santa shirt",
+     "volume": 10,
+     "kd": 49
+    }
+   ]
   }
  }
 }
