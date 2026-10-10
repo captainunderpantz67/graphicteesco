@@ -1213,6 +1213,22 @@
      "kd": 56
     }
    ]
+  },
+  "womens-christmas-christmas-nurse-graphic-tee": {
+   "claimed": [
+    "christmas nurse shirt",
+    "nurse christmas shirt",
+    "stethoscope shirt",
+    "rn christmas shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "nursing shirt",
+     "volume": 9900,
+     "kd": 50,
+     "note": "skipped: breastfeeding intent"
+    }
+   ]
   }
  }
 }
