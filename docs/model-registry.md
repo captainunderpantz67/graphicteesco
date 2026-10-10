@@ -74,7 +74,7 @@ Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/desig
 | 67 | Vietnamese-American man in his early 30s, short side-parted black haircut, light stubble, medium build | Night Shift cover (fal Seedream 4, 2026-10-09; retro video store; 2nd try, 1st dropped the VHS spine) |
 | 68 | Sri Lankan-American woman in her late 30s, short wavy black bob, petite build | USED 2026-10-10 — Christmas Dogs cover (fal Kontext Pro, snowy sidewalk at dusk with a dog; try 1 kept) |
 | 69 | Woman in her early 60s, short silver hair, large dark round glasses, soft build (Kontext drew her older than the reserved early-50s look) | USED 2026-10-10 — Christmas Nurse cover (fal Kontext Pro, hospital entrance with a Christmas wreath; try 1 kept) |
-| 70 | White woman in her late 30s, red curly hair in a low ponytail, freckles, medium build | RESERVED — cover for Women's Christmas – Christmas Teacher Tee (docs/design-briefs.md #38) |
+| 70 | White woman in her late 30s, red curly hair in a low ponytail, freckles, medium build | USED 2026-10-10 — Christmas Teacher cover (fal Kontext Pro, Christmas classroom; try 1 kept) |
 | 71 | Japanese-American woman in her early 60s, silver bob with blunt bangs, slim build, small pearl earrings | RESERVED — cover for Women's Christmas – Mrs. Claus Bakery Tee (docs/design-briefs.md #39) |
 | 72 | Latina woman in her mid-40s, long dark hair with grey streaks in a side braid, medium build | RESERVED — cover for Women's Christmas – Santa's Sleigh Tee (docs/design-briefs.md #40) |
 | 73 | Ukrainian-American woman in her mid-20s, long straight light-blonde hair, tall slim build | RESERVED — cover for Women's Christmas – Polar Bear Cocoa Tee (docs/design-briefs.md #41) |
