@@ -36,7 +36,7 @@ Each row is one person. Before generating a new photo, pick a description that d
 | 31 | Irish-American white man in his early 30s, short red hair, short trimmed red beard, freckles, medium build | USED 2026-10-10 — Gym Rat cover (fal Seedream 4, basement gym with lift chalkboard; try 1 rejected: dropped the rat, garbled GYM RAT) |
 | 32 | White woman in her late 20s, long sandy-blonde waves, athletic build, sun-tanned | RESERVED — cover for Women's Western – Barrel Racer Tee (docs/design-briefs.md #22) |
 | 33 | Black woman in her early 40s, long box braids pulled back, medium build | RESERVED — cover for Women's Western – Wild West Rider Tee (docs/design-briefs.md #23; was Hold On Tight) |
-| 34 | Mexican-American woman in her mid-50s, dark hair in a low chignon, laugh lines, sturdy build, turquoise earrings | RESERVED — cover for Women's Western – Steer Skull & Wildflowers Tee (docs/design-briefs.md #24) |
+| 34 | Mexican-American woman in her mid-50s, dark hair in a low chignon, laugh lines, sturdy build, turquoise earrings | USED 2026-10-10 — Steer Skull & Wildflowers cover (fal Seedream 4, ranch-house porch at golden hour; try 1 kept) |
 | 35 | White woman in her early 20s, long dark brown hair worn straight, petite build | RESERVED — cover for Women's Western – Kick Up Dust Tee (docs/design-briefs.md #25) |
 | 36 | Mixed-race Black and white woman in her late 20s, sleek high ponytail, light freckles, tall athletic build | RESERVED — cover for Women's Western – Run Free Tee (docs/design-briefs.md #26) |
 | 37 | Korean woman in her mid-30s, shoulder-length straight hair with curtain bangs, slim build | RESERVED — cover for Women's Western – Howdy Tee (docs/design-briefs.md #27) |
