@@ -52,6 +52,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-gym-gym-rat-graphic-tee': { src: '/covers/mens-gym-gym-rat-graphic-tee.webp', alt: 'Man in an old-school basement gym with a chalkboard of lifts behind him wearing the Gym Rat pump cover' },
   'mens-gym-old-school-strength-graphic-tee': { src: '/covers/mens-gym-old-school-strength-graphic-tee.webp', alt: 'Man in an outdoor strongman training yard with atlas stones and a tire behind him wearing the Old School Strength tee' },
   'mens-gym-leg-day-survivor-graphic-tee': { src: '/covers/mens-gym-leg-day-survivor-graphic-tee.webp', alt: 'Man sitting on a weight bench in front of a squat rack after leg day wearing the Leg Day Survivor tee' },
+  'mens-gym-heavy-bag-dept-graphic-tee': { src: '/covers/mens-gym-heavy-bag-dept-graphic-tee.webp', alt: 'Man in an old brick boxing gym with a row of heavy bags on chains wearing the Heavy Bag Dept. tee' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

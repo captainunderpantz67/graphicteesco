@@ -1019,6 +1019,20 @@
     "squat shirt"
    ],
    "gaps_measured": []
+  },
+  "mens-gym-heavy-bag-dept-graphic-tee": {
+   "claimed": [
+    "vintage boxing shirt",
+    "boxing gym shirt",
+    "boxing shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "boxing shirt men",
+     "volume": 1600,
+     "kd": 36
+    }
+   ]
   }
  }
 }
