@@ -172,3 +172,7 @@ RankHero keyword pages, measured 2026-10-10 (volume / KD / competing listings; O
 - polar bear shirt 720 / 38 / 3.4K listings (thin); 720 → 880 → 880 → brief #41
 - Not used: christmas pajama shirt 720 / 50 (off-intent, pajamas), merry christmas shirt 880 / 73 (saturated, 581K listings), winter shirt 6,600 / 58 (generic), christmas gnome / cardinal / penguin / stamp / village / wreath (no volume), christmas mama / mom (KD 82–83), north pole shirt 90 / 60 (thin).
 - Brand-safety: no song titles or lyric lines ('Up on the Rooftop', 'Let It Snow', 'Jingle Bell Rock' avoided), no licensed characters.
+
+## Christmas rolling-queue research, batch 2 (2026-10-10, builder)
+- fa la la shirt 210 / 44 / 3.7K → #42 · peace on earth shirt 260 / 39 / 2.2K → #43 · snowflake shirt 480 / 52 / 19K → #44 · joy shirt 320 / 60 / 38K → #45 · deck the halls shirt 70 / 54 / 3.7K → #46 · christmas golf shirt 720 / 27 / ~0 listings → #47
+- Not used: believe shirt 390 / 64 (tied to a film's merch), nana christmas shirt 50 / 64 (thin), christmas book shirt 50 / 70, christmas morning shirt 10 / 66, jingle bell / noel (no volume); christmas coquette / leopard / snow globe / stocking / village (no RankHero data).

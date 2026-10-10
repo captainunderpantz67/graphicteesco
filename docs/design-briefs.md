@@ -745,3 +745,108 @@ python3 scripts/fal-photo.py --design designs/polar-bear-cocoa-art.jpg --name po
     --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
     --cover womens-christmas-polar-bear-cocoa-graphic-tee
 ```
+
+## Christmas shirts for women — rolling queue batch 2 (2026-10-10, toward 28)
+Same method as batch 1. Public-domain carol titles only (Deck the Halls 1862; 'Peace on Earth' from Luke 2:14). No song titles still in copyright ('Let It Snow', 'Jingle Bell Rock', 'Holly Jolly Christmas').
+
+### 42. Women's Christmas – Fa La La Tee  *(new)*
+- **Handle:** `womens-christmas-fa-la-la-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** Groovy 1970s bubble lettering 'Fa La La La La' with vintage glass ornaments, a holly sprig and little sparkles bouncing between the words. Deck the Halls is an 1862 public-domain carol; only the refrain syllables are used. Palette: cherry red, pine green, pink, cream.
+- **Text on shirt:** FA LA LA LA LA (groovy bubble letters)
+- **Shirt colors:** White, Natural, Pink, Heather Mauve
+- **Primary keyword:** fa la la shirt — 210 / KD 44
+- **Variants:** deck the halls shirt 70 / 54 is its own brief (#46)
+- **Proof:** fa la la shirt 210 / 44 with only 3.7K competing listings (RankHero 2026-10-10)
+- **Cover model:** registry #74 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/fa-la-la-art.jpg --name fa-la-la --model kontext \
+    --person "Filipino-American woman in her early 30s, long straight black hair with a center part, petite build" \
+    --scene "at a holiday house party by a decorated tree with friends blurred behind her, warm lamp light" \
+    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-christmas-fa-la-la-graphic-tee
+```
+
+### 43. Women's Christmas – Peace on Earth Tee  *(new)*
+- **Handle:** `womens-christmas-peace-on-earth-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** A white dove carrying an olive branch with a sprig of holly, flying over a quiet snowy village and a single star, drawn like a vintage linocut Christmas card. Palette: navy, gold, cream, deep red.
+- **Text on shirt:** PEACE ON EARTH (classic serif caps; Luke 2:14 phrase, public domain)
+- **Shirt colors:** White, Natural, Athletic Heather, Heather Stone
+- **Primary keyword:** peace on earth shirt — 260 / KD 39
+- **Variants:** (measure via keyword-gap)
+- **Proof:** peace on earth shirt 260 / 39, 2.2K listings; faith Christmas proved by O Holy Night (christian christmas shirt 880 / 60)
+- **Cover model:** registry #75 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/peace-on-earth-art.jpg --name peace-on-earth --model kontext \
+    --person "Ethiopian-American woman in her late 30s, short natural curls, slim build, small gold hoops" \
+    --scene "outside a small stone church on a snowy evening with candlelit windows behind her" \
+    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-christmas-peace-on-earth-graphic-tee
+```
+
+### 44. Women's Christmas – Hello Winter Snowflakes Tee  *(new)*
+- **Handle:** `womens-christmas-hello-winter-snowflakes-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** Three big vintage-style snowflakes of different sizes, intricate and geometric, with a scatter of tiny flakes, over a soft icy-blue circle. Clean winter-card look. Palette: icy blue, navy, cream, silver-grey.
+- **Text on shirt:** HELLO WINTER (small spaced caps under the snowflakes; avoids the 'Let It Snow' song title)
+- **Shirt colors:** White, Natural, Athletic Heather, Heather Blue Lagoon
+- **Primary keyword:** snowflake shirt — 480 / KD 52
+- **Variants:** (measure via keyword-gap)
+- **Proof:** snowflake shirt 480 / 52 (RankHero 2026-10-10); snow motifs proved by the snowman (6,460 favs, market-research #2)
+- **Cover model:** registry #76 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/hello-winter-snowflakes-art.jpg --name hello-winter-snowflakes --model kontext \
+    --person "Scandinavian-American woman in her early 40s, long straight ash-blonde hair, tall slim build, light freckles" \
+    --scene "on a snowy forest trail at midday with snow falling and evergreens behind her" \
+    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-christmas-hello-winter-snowflakes-graphic-tee
+```
+
+### 45. Women's Christmas – Joy Tee  *(new)*
+- **Handle:** `womens-christmas-joy-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** Big vintage JOY lettering where the O is a glass Christmas ornament, wrapped in pine garland with red berries and a ribbon, little stars. Palette: red, pine green, gold, cream.
+- **Text on shirt:** JOY (ornament O)
+- **Shirt colors:** White, Natural, Heather Stone, Athletic Heather
+- **Primary keyword:** joy shirt — 320 / KD 60
+- **Variants:** (measure via keyword-gap)
+- **Proof:** joy shirt 320 / 60 (RankHero 2026-10-10); single-word Christmas lettering is a steady shelf
+- **Cover model:** registry #77 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/joy-art.jpg --name joy --model kontext \
+    --person "Haitian-American woman in her mid-50s, short silver natural hair, soft build, red lipstick" \
+    --scene "at a Christmas tree lot at night under string lights, rows of trees behind her" \
+    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-christmas-joy-graphic-tee
+```
+
+### 46. Women's Christmas – Deck the Halls Tee  *(new)*
+- **Handle:** `womens-christmas-deck-the-halls-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** A vintage garland of holly, pine and berries swagged across a fireplace mantel with three stockings and brass candlesticks, drawn like a 1950s greeting card. Public-domain carol title. Palette: holly green, cherry red, cream, gold.
+- **Text on shirt:** DECK THE HALLS (retro script)
+- **Shirt colors:** White, Natural, Heather Mauve, Athletic Heather
+- **Primary keyword:** deck the halls shirt — 70 / KD 54
+- **Variants:** (measure via keyword-gap)
+- **Proof:** deck the halls shirt 70 / 54, 3.7K listings (RankHero 2026-10-10)
+- **Cover model:** registry #78 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/deck-the-halls-art.jpg --name deck-the-halls --model kontext \
+    --person "Puerto Rican woman in her late 50s, shoulder-length dyed burgundy hair, round face, medium build" \
+    --scene "in a living room decorated with garland on the mantel and stockings, fire glowing behind her" \
+    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-christmas-deck-the-halls-graphic-tee
+```
+
+### 47. Women's Christmas – Christmas Golf Tee  *(new)*
+- **Handle:** `womens-christmas-christmas-golf-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** A golf ball wearing a tiny Santa hat on a tee, a candy-cane-striped golf flag and a small Christmas tree in the putting green hole, snowflakes. Original, no brands or tournaments. Palette: kelly green, red, cream, navy.
+- **Text on shirt:** HOLIDAY GOLF CLUB (retro collegiate caps)
+- **Shirt colors:** White, Natural, Athletic Heather, Pink
+- **Primary keyword:** christmas golf shirt — 720 / KD 27 (near-zero listings)
+- **Variants:** golf shirt women (measure)
+- **Proof:** christmas golf shirt 720 / 27 with almost no competing listings (RankHero 2026-10-10) — a gap; women golfers buy for holiday scrambles
+- **Cover model:** registry #79 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/christmas-golf-art.jpg --name christmas-golf --model kontext \
+    --person "Korean-American woman in her mid-40s, sleek chin-length bob, athletic build" \
+    --scene "on a golf course putting green on a crisp winter morning with a decorated clubhouse behind her, a putter at her side" \
+    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-christmas-christmas-golf-graphic-tee
+```

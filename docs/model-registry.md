@@ -78,5 +78,11 @@ Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/desig
 | 71 | White woman in her early 70s, chin-length grey bob, slim build, small pearl earrings (Kontext drew her instead of the reserved Japanese-American woman; that description is free for a later cover) | USED 2026-10-10 — Mrs. Claus Bakery cover (fal Kontext Pro, home kitchen on a baking day; try 1 kept) |
 | 72 | Latina woman in her mid-40s, long dark wavy hair worn down, soft build (Kontext dropped the reserved braid and grey streaks) | USED 2026-10-10 — Santa’s Sleigh cover (fal Kontext Pro, snowy porch under a full moon; try 1 kept) |
 | 73 | Ukrainian-American woman in her mid-20s, long straight light-blonde hair, tall slim build | USED 2026-10-10 — Polar Bear Cocoa cover (fal Kontext Pro, outdoor ice rink at dusk; try 1 rejected: bag strap along the print) |
+| 74 | Filipino-American woman in her early 30s, long straight black hair with a center part, petite build | RESERVED — cover for Women's Christmas – Fa La La Tee (docs/design-briefs.md #42) |
+| 75 | Ethiopian-American woman in her late 30s, short natural curls, slim build, small gold hoops | RESERVED — cover for Women's Christmas – Peace on Earth Tee (docs/design-briefs.md #43) |
+| 76 | Scandinavian-American woman in her early 40s, long straight ash-blonde hair, tall slim build, light freckles | RESERVED — cover for Women's Christmas – Hello Winter Snowflakes Tee (docs/design-briefs.md #44) |
+| 77 | Haitian-American woman in her mid-50s, short silver natural hair, soft build, red lipstick | RESERVED — cover for Women's Christmas – Joy Tee (docs/design-briefs.md #45) |
+| 78 | Puerto Rican woman in her late 50s, shoulder-length dyed burgundy hair, round face, medium build | RESERVED — cover for Women's Christmas – Deck the Halls Tee (docs/design-briefs.md #46) |
+| 79 | Korean-American woman in her mid-40s, sleek chin-length bob, athletic build | RESERVED — cover for Women's Christmas – Christmas Golf Tee (docs/design-briefs.md #47) |
 
 Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from docs/market-research.md (same person, new design where noted). Rows 65–66 were added for the two new briefs (#34, #35).
