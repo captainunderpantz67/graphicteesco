@@ -1122,6 +1122,20 @@
      "note": "skipped: Desert Bloom owns cowgirl boot shirt"
     }
    ]
+  },
+  "womens-western-wild-west-rider-graphic-tee": {
+   "claimed": [
+    "wild west shirt",
+    "cowgirl shirt",
+    "horse riding shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cowgirl shirt women",
+     "volume": 2900,
+     "kd": 52
+    }
+   ]
   }
  }
 }
