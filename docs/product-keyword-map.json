@@ -1145,6 +1145,21 @@
     "womens horse shirt"
    ],
    "gaps_measured": []
+  },
+  "unisex-western-desert-rattler-graphic-tee": {
+   "claimed": [
+    "rattlesnake shirt",
+    "rattlesnake t shirt",
+    "snake shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cowboy boot shirt",
+     "volume": 590,
+     "kd": 46,
+     "note": "skipped: too close to Kick Up Dust cowboy boots shirt"
+    }
+   ]
   }
  }
 }

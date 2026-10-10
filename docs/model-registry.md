@@ -43,7 +43,7 @@ Each row is one person. Before generating a new photo, pick a description that d
 | 38 | White woman in her early 60s, short silver hair, tanned weathered skin, lean build | USED 2026-10-10 — Saturday Night Rodeo cover (fal Seedream 4, evening rodeo grandstand; try 1 kept) |
 | 39 | Black man in his mid-40s, shaved head, neat short beard, broad build, straw cowboy hat pushed back off his face | RESERVED — cover for Unisex Western – Lucky Horseshoe Tee (docs/design-briefs.md #29) |
 | 40 | Puerto Rican woman in her early 20s, shoulder-length wavy dark hair, medium build | USED 2026-10-10 — Saddle Blanket Steer cover (fal Seedream 4, ranch tack room; try 1 kept) |
-| 41 | White man in his early 60s, white mustache, weathered sun-lined face, lean wiry build, felt cowboy hat pushed back off his forehead | RESERVED — cover for Unisex Western – Desert Rattler Tee (docs/design-briefs.md #31; was Ranch Hand) |
+| 41 | White man in his early 60s, white mustache, weathered sun-lined face, lean wiry build, felt cowboy hat pushed back off his forehead | USED 2026-10-10 — Desert Rattler cover (fal Seedream 4, desert ranch cattle pens at dawn; try 1 kept) |
 | 42 | Mexican-American man in his mid-20s, short black hair, thin mustache, wiry build | USED 2026-10-10 — Hold On Eight cover (fal Seedream 4, behind the bucking chutes at night; try 1 kept) |
 | 43 | Japanese-American man in his late 30s, medium-length black hair swept back, short stubble, medium build | USED 2026-10-10 — Vintage Bison cover (fal Seedream 4, prairie road pull-off at golden hour; try 1 rejected: bison redrawn side-on without the badge) |
 
