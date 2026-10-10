@@ -850,3 +850,128 @@ python3 scripts/fal-photo.py --design designs/christmas-golf-art.jpg --name chri
     --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
     --cover womens-christmas-christmas-golf-graphic-tee
 ```
+
+## Christmas shirts for women — rolling queue batch 3 (2026-10-10, toward 28)
+One brief closes the collection at 28. Measured on RankHero 2026-10-10; Christmas pickleball / tennis / camping / reading / choir and cardinal / wreath had no volume.
+
+### 48. Women's Christmas – Highland Cow Christmas Tee  *(new)*
+- **Handle:** `womens-christmas-highland-cow-christmas-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** A shaggy highland cow with long bangs over its eyes wearing a knit red scarf and a sprig of holly between its horns, standing in front of a snowy farm fence with a small wreath on the post. Vintage farmhouse Christmas-card style. Palette: rust-orange, pine green, cream, deep red.
+- **Text on shirt:** MOOEY CHRISTMAS (retro rounded caps; original pun, no song title)
+- **Shirt colors:** White, Natural, Heather Stone, Athletic Heather
+- **Primary keyword:** cow christmas shirt — 140 / KD 36 (0 competing listings)
+- **Variants:** highland cow shirt 1,600 / 44 · christmas cow shirt 140 / 55
+- **Proof:** highland cow shirt 1,600 / 44 with 34K listings shows steady demand; the Christmas version has no listings on RankHero (a gap)
+- **Cover model:** registry #80 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/highland-cow-christmas-art.jpg --name highland-cow-christmas --model kontext \
+    --person "Mexican-American woman in her early 30s, long dark wavy hair in a low braid, medium build, small stud earrings" \
+    --scene "at a snowy farm fence with a red barn and a wreath on the gate behind her, overcast winter afternoon" \
+    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-christmas-highland-cow-christmas-graphic-tee
+```
+
+## Thanksgiving shirts — rolling queue batch 1 (2026-10-10, toward 14)
+Written by the builder from RankHero measurements (2026-10-10, volume / KD / competing listings). Seasonal: stop adding after Nov 15. Collection head (thanksgiving shirts 8,100/57, turkey shirt, thanksgiving shirts for women) stays on the collection page; each design gets its own long-tail. Avoided: phrases with likely trademark filings ('Gobble Till You Wobble', 'Thankful Grateful Blessed'), any NFL/parade marks.
+
+### 49. Unisex Thanksgiving – Turkey Trot Tee  *(new)*
+- **Handle:** `unisex-thanksgiving-turkey-trot-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee)
+- **Art:** A determined turkey in running shoes and a sweatband, mid-stride, wearing a race bib numbered 5K, with fall leaves kicking up behind. Vintage 1970s race-poster style. Palette: burnt orange, mustard, brown, cream.
+- **Text on shirt:** TURKEY TROT (retro athletic arch) · THANKSGIVING MORNING 5K (small)
+- **Shirt colors:** Natural, Vintage White, Athletic Heather, Heather Dust
+- **Primary keyword:** turkey trot shirt — 720 / KD 32 (only 1.6K listings)
+- **Variants:** (measure via keyword-gap)
+- **Proof:** turkey trot shirt 720 / 32 with thin competition; Turkey Bowl proved the sporty-turkey angle
+- **Cover model:** registry #81 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/turkey-trot-art.jpg --name turkey-trot --model seedream \
+    --person "Nigerian-American man in his late 20s, short twists, lean runner's build" \
+    --scene "at the start area of a small-town Thanksgiving morning fun run, runners and fall trees blurred behind him, crisp morning light" \
+    --shirt "natural" --fit "unisex classic-fit cotton t-shirt" \
+    --cover unisex-thanksgiving-turkey-trot-graphic-tee
+```
+
+### 50. Unisex Thanksgiving – Leftovers Club Tee  *(new)*
+- **Handle:** `unisex-thanksgiving-leftovers-club-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee)
+- **Art:** A retro diner-sign badge: a turkey sandwich stacked high with a toothpick flag, a slice of pie and a gravy boat, inside a 1950s starburst sign. Palette: tomato red, mustard, teal, cream.
+- **Text on shirt:** LEFTOVERS CLUB (diner script) · OPEN ALL WEEKEND (small caps)
+- **Shirt colors:** Natural, Vintage White, Athletic Heather, Ash
+- **Primary keyword:** funny thanksgiving shirt — 4,400 / KD 48
+- **Variants:** leftovers shirt 50 / 47
+- **Proof:** funny thanksgiving shirt 4,400 / 48 — the largest measured design-level Thanksgiving phrase
+- **Cover model:** registry #82 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/leftovers-club-art.jpg --name leftovers-club --model seedream \
+    --person "Irish-American man in his late 30s, short red hair, full ginger beard, stocky build" \
+    --scene "in a home kitchen the day after Thanksgiving, foil-covered dishes on the counter behind him, warm window light" \
+    --shirt "natural" --fit "unisex classic-fit cotton t-shirt" \
+    --cover unisex-thanksgiving-leftovers-club-graphic-tee
+```
+
+### 51. Women's Thanksgiving – Pumpkin Pie Tee  *(new)*
+- **Handle:** `womens-thanksgiving-pumpkin-pie-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** A vintage pumpkin pie with a crimped crust and a swirl of whipped cream, one slice lifted out on a server, with cinnamon sticks and small autumn leaves around it. 1960s recipe-card illustration. Palette: pumpkin orange, golden brown, cream, rust.
+- **Text on shirt:** PIE SEASON (retro rounded script)
+- **Shirt colors:** White, Natural, Heather Stone, Athletic Heather
+- **Primary keyword:** pumpkin pie shirt — 110 / KD 58
+- **Variants:** pie shirt 260 / 52
+- **Proof:** pie shirt 260 / 52 and pumpkin pie shirt 110 / 58 (RankHero 2026-10-10); bakers buy for Thanksgiving and Friendsgiving
+- **Cover model:** registry #83 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/pumpkin-pie-art.jpg --name pumpkin-pie --model kontext \
+    --person "Vietnamese-American woman in her late 40s, shoulder-length straight black hair with bangs, slim build, thin gold glasses" \
+    --scene "in a warm home kitchen with pies cooling on the counter and fall leaves outside the window behind her" \
+    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-thanksgiving-pumpkin-pie-graphic-tee
+```
+
+### 52. Women's Thanksgiving – Friendsgiving Tee  *(new)*
+- **Handle:** `womens-thanksgiving-friendsgiving-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** A long table seen from above with mismatched plates, a roast turkey, a pie, candles and wine-free mugs of cider, framed by an oval of autumn leaves. 1970s groovy illustration. Palette: burnt orange, olive, mustard, cream.
+- **Text on shirt:** FRIENDSGIVING (groovy 70s letters)
+- **Shirt colors:** White, Natural, Heather Stone, Athletic Heather
+- **Primary keyword:** friendsgiving shirt — 480 / KD 54
+- **Variants:** (measure via keyword-gap)
+- **Proof:** friendsgiving shirt 480 / 54 (RankHero 2026-10-10); groovy 70s lettering proved by Give Thanks
+- **Cover model:** registry #84 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/friendsgiving-art.jpg --name friendsgiving --model kontext \
+    --person "Black woman in her mid-20s, long box braids pulled half up, slim build, small gold nose stud" \
+    --scene "at a candlelit Friendsgiving dinner table in a small apartment with friends blurred behind her" \
+    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-thanksgiving-friendsgiving-graphic-tee
+```
+
+### 53. Women's Thanksgiving – Gobble Gobble Tee  *(new)*
+- **Handle:** `womens-thanksgiving-gobble-gobble-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
+- **Art:** A cute retro turkey with a fanned tail of rainbow-striped feathers (orange, mustard, rust, olive), standing among small daisies and acorns. 1970s sticker style. Palette: burnt orange, mustard, olive, cream.
+- **Text on shirt:** GOBBLE GOBBLE (chunky bubble letters)
+- **Shirt colors:** White, Natural, Heather Mauve, Athletic Heather
+- **Primary keyword:** gobble gobble shirt — 210 / KD 54
+- **Variants:** (measure via keyword-gap)
+- **Proof:** gobble gobble shirt 210 / 54 (RankHero 2026-10-10)
+- **Cover model:** registry #85 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/gobble-gobble-art.jpg --name gobble-gobble --model kontext \
+    --person "Indian-American woman in her mid-30s, long wavy dark-brown hair, medium build, small gold hoops" \
+    --scene "at a farm stand with pumpkins, hay bales and gourds behind her on a sunny fall afternoon" \
+    --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-thanksgiving-gobble-gobble-graphic-tee
+```
+
+### 54. Unisex Thanksgiving – Turkey Day Crew Tee  *(new)*
+- **Handle:** `unisex-thanksgiving-turkey-day-crew-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee)
+- **Art:** A vintage roast turkey on a platter with sprigs of rosemary, cranberries and a carving fork, inside a scalloped badge with wheat stalks. Reads as a matching family shirt. 1950s menu style. Palette: rust, mustard, brown, cream.
+- **Text on shirt:** TURKEY DAY CREW (arched collegiate caps) · EST. AT GRANDMA'S (small)
+- **Shirt colors:** Natural, Vintage White, Athletic Heather, Heather Dust
+- **Primary keyword:** family thanksgiving shirt — 1,600 / KD 51
+- **Variants:** (measure via keyword-gap)
+- **Proof:** family thanksgiving shirt 1,600 / 51 (RankHero 2026-10-10); matching-family buys are the Thanksgiving collection's FAQ
+- **Cover model:** registry #86 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/turkey-day-crew-art.jpg --name turkey-day-crew --model seedream \
+    --person "Filipino-American man in his early 50s, short salt-and-pepper hair, round glasses, medium build" \
+    --scene "in a backyard on Thanksgiving afternoon with family blurred around a long table under fall trees behind him" \
+    --shirt "natural" --fit "unisex classic-fit cotton t-shirt" \
+    --cover unisex-thanksgiving-turkey-day-crew-graphic-tee
+```

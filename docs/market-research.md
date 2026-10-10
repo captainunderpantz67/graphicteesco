@@ -176,3 +176,9 @@ RankHero keyword pages, measured 2026-10-10 (volume / KD / competing listings; O
 ## Christmas rolling-queue research, batch 2 (2026-10-10, builder)
 - fa la la shirt 210 / 44 / 3.7K → #42 · peace on earth shirt 260 / 39 / 2.2K → #43 · snowflake shirt 480 / 52 / 19K → #44 · joy shirt 320 / 60 / 38K → #45 · deck the halls shirt 70 / 54 / 3.7K → #46 · christmas golf shirt 720 / 27 / ~0 listings → #47
 - Not used: believe shirt 390 / 64 (tied to a film's merch), nana christmas shirt 50 / 64 (thin), christmas book shirt 50 / 70, christmas morning shirt 10 / 66, jingle bell / noel (no volume); christmas coquette / leopard / snow globe / stocking / village (no RankHero data).
+
+## Christmas batch 3 + Thanksgiving batch 1 research (2026-10-10, builder)
+RankHero keyword pages, measured 2026-10-10 (volume / KD / competing listings):
+- Christmas: cow christmas shirt 140 / 36 / 0 → #48 (highland cow shirt 1,600 / 44 / 34K; christmas cow shirt 140 / 55 / 10K). No volume: christmas pickleball, tennis, camping, reading, hiking, mushroom, choir, wreath, cocoa, bunny. Saturated/off: retro christmas shirt 260 / 75 / 258K, christmas coffee shirt KD 80, christmas mama 40 / 83.
+- Thanksgiving: turkey trot shirt 720 / 32 / 1.6K → #49 · funny thanksgiving shirt 4,400 / 48 / 54K → #50 (leftovers shirt 50 / 47) · pumpkin pie shirt 110 / 58, pie shirt 260 / 52 → #51 · friendsgiving shirt 480 / 54 / 25K → #52 · gobble gobble shirt 210 / 54 / 17K → #53 · family thanksgiving shirt 1,600 / 51 / 60K → #54.
+- Not used: fall shirt 5,400 / 64 (1M listings), pumpkin shirt 2,900 / 61 (404K), autumn shirt 590 / 69, pumpkin patch shirt 390 / 65, thankful shirt 260 / 68, grateful shirt 170 / 66, fall vibes 70 / 82, harvest shirt 140 / 70 (all saturated); thankful grateful blessed (likely trademark filings); mens thanksgiving shirt KD 92.

@@ -84,5 +84,12 @@ Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/desig
 | 77 | Haitian-American woman in her mid-50s, short silver natural hair, soft build, red lipstick | USED 2026-10-10 — Joy cover (fal Seedream 4, Christmas tree lot at night; try 1 Kontext rejected: drew an older white woman too close to rows 13/38/69/71) |
 | 78 | Puerto Rican woman in her late 50s, shoulder-length dyed burgundy hair, round face, medium build | USED 2026-10-10 — Deck the Halls cover (fal Kontext Pro, living room by the fireplace; try 1 kept) |
 | 79 | Korean-American woman in her mid-40s, sleek chin-length bob, athletic build | USED 2026-10-10 — Christmas Golf cover (fal Kontext Pro, golf course with clubhouse behind; try 1 kept) |
+| 80 | Mexican-American woman in her early 30s, long dark wavy hair in a low braid, medium build, small stud earrings | RESERVED — cover for Highland Cow Christmas Tee (docs/design-briefs.md #48) |
+| 81 | Nigerian-American man in his late 20s, short twists, lean runner's build | RESERVED — cover for Turkey Trot Tee (docs/design-briefs.md #49) |
+| 82 | Irish-American man in his late 30s, short red hair, full ginger beard, stocky build | RESERVED — cover for Leftovers Club Tee (docs/design-briefs.md #50) |
+| 83 | Vietnamese-American woman in her late 40s, shoulder-length straight black hair with bangs, slim build, thin gold glasses | RESERVED — cover for Pumpkin Pie Tee (docs/design-briefs.md #51) |
+| 84 | Black woman in her mid-20s, long box braids pulled half up, slim build, small gold nose stud | RESERVED — cover for Friendsgiving Tee (docs/design-briefs.md #52) |
+| 85 | Indian-American woman in her mid-30s, long wavy dark-brown hair, medium build, small gold hoops | RESERVED — cover for Gobble Gobble Tee (docs/design-briefs.md #53) |
+| 86 | Filipino-American man in his early 50s, short salt-and-pepper hair, round glasses, medium build | RESERVED — cover for Turkey Day Crew Tee (docs/design-briefs.md #54) |
 
 Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from docs/market-research.md (same person, new design where noted). Rows 65–66 were added for the two new briefs (#34, #35).
