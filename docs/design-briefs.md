@@ -664,7 +664,7 @@ python3 scripts/fal-photo.py --design designs/christmas-dogs-art.jpg --name chri
 ### 37. Women's Christmas – Christmas Nurse Tee  *(new)*
 - **Handle:** `womens-christmas-christmas-nurse-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
 - **Art:** A vintage nurse cap with a holly sprig tucked in the band, a stethoscope looped into a wreath shape with red bulbs on it, small candy-cane and star accents. Clean retro illustration. Palette: red, pine green, cream, navy.
-- **Text on shirt:** MERRY & MEDICAL? no — use 'NURSING THE HOLIDAYS' is clunky; final: 'JINGLE ALL THE SHIFT' (playful caps)
+- **Text on shirt:** NICE LIST NURSE (playful retro caps; avoids the 'Jingle All the Way' film title)
 - **Shirt colors:** White, Natural, Heather Mauve, Athletic Heather
 - **Primary keyword:** christmas nurse shirt — 880 / KD 56 (Nov peak 4,400/mo)
 - **Variants:** nurse christmas shirt (measure)
@@ -715,7 +715,7 @@ python3 scripts/fal-photo.py --design designs/mrs-claus-bakery-art.jpg --name mr
 ### 40. Women's Christmas – Santa's Sleigh Tee  *(new)*
 - **Handle:** `womens-christmas-santas-sleigh-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
 - **Art:** A vintage silhouette of Santa's sleigh pulled by reindeer flying across a huge full moon over snowy rooftops and pine trees, starry sky, 1940s Christmas-card style. Palette: midnight navy, gold, cream, red.
-- **Text on shirt:** none (art only) — or small 'Up on the Rooftop'? no (song); keep art only
+- **Text on shirt:** none (art only; no song lines)
 - **Shirt colors:** White, Natural, Athletic Heather, Heather Stone
 - **Primary keyword:** sleigh shirt — 140 / KD 36 (Dec peak 720/mo)
 - **Variants:** santa shirt — 8,100 / 55 (hub depth)
@@ -733,7 +733,7 @@ python3 scripts/fal-photo.py --design designs/santas-sleigh-art.jpg --name santa
 - **Handle:** `womens-christmas-polar-bear-cocoa-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
 - **Art:** A cuddly polar bear in a red knit scarf and earmuffs holding a mug of hot cocoa with marshmallows, snowflakes falling, vintage winter-card style. Palette: icy blue, cherry red, cream, navy.
 - **Text on shirt:** none, or small 'Cozy Season'
-- **Shirt colors:** White, Natural, Athletic Heather, Light Violet? (confirm) → use White, Natural, Athletic Heather, Heather Blue Lagoon
+- **Shirt colors:** White, Natural, Athletic Heather, Heather Blue Lagoon
 - **Primary keyword:** polar bear shirt — 720 / KD 38 (Nov–Dec 880/mo)
 - **Variants:** (measure via keyword-gap)
 - **Proof:** polar bear shirt KD 38 with only 3,394 competing listings (RankHero 2026-10-10) — thin competition
