@@ -885,7 +885,7 @@ Written by the builder from RankHero measurements (2026-10-10, volume / KD / com
 - **Cover model:** registry #81 (reserved)
 ```bash
 python3 scripts/fal-photo.py --design designs/turkey-trot-art.jpg --name turkey-trot --model seedream \
-    --person "Nigerian-American man in his late 20s, short twists, lean runner's build" \
+    --person "Nigerian-American man in his late 20s, close-cropped fade with a thin mustache, lean runner's build" \
     --scene "at the start area of a small-town Thanksgiving morning fun run, runners and fall trees blurred behind him, crisp morning light" \
     --shirt "natural" --fit "unisex classic-fit cotton t-shirt" \
     --cover unisex-thanksgiving-turkey-trot-graphic-tee
@@ -902,7 +902,7 @@ python3 scripts/fal-photo.py --design designs/turkey-trot-art.jpg --name turkey-
 - **Cover model:** registry #82 (reserved)
 ```bash
 python3 scripts/fal-photo.py --design designs/leftovers-club-art.jpg --name leftovers-club --model seedream \
-    --person "Irish-American man in his late 30s, short red hair, full ginger beard, stocky build" \
+    --person "Greek-American man in his late 30s, thick dark curly hair, full dark beard, stocky build" \
     --scene "in a home kitchen the day after Thanksgiving, foil-covered dishes on the counter behind him, warm window light" \
     --shirt "natural" --fit "unisex classic-fit cotton t-shirt" \
     --cover unisex-thanksgiving-leftovers-club-graphic-tee
@@ -936,7 +936,7 @@ python3 scripts/fal-photo.py --design designs/pumpkin-pie-art.jpg --name pumpkin
 - **Cover model:** registry #84 (reserved)
 ```bash
 python3 scripts/fal-photo.py --design designs/friendsgiving-art.jpg --name friendsgiving --model kontext \
-    --person "Black woman in her mid-20s, long box braids pulled half up, slim build, small gold nose stud" \
+    --person "Black woman in her mid-20s, shoulder-length locs, slim build, small gold nose stud" \
     --scene "at a candlelit Friendsgiving dinner table in a small apartment with friends blurred behind her" \
     --shirt "white" --fit "relaxed-fit women's cotton t-shirt" \
     --cover womens-thanksgiving-friendsgiving-graphic-tee
