@@ -1431,6 +1431,24 @@
      "kd": 47
     }
    ]
+  },
+  "womens-thanksgiving-pumpkin-pie-graphic-tee": {
+   "claimed": [
+    "pumpkin pie shirt",
+    "pie shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pumpkin pie shirt",
+     "volume": 110,
+     "kd": 58
+    },
+    {
+     "phrase": "pie shirt",
+     "volume": 260,
+     "kd": 52
+    }
+   ]
   }
  }
 }
