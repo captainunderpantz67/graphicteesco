@@ -1194,6 +1194,25 @@
      "note": "skipped: Yellowstone trademark"
     }
    ]
+  },
+  "womens-christmas-christmas-dogs-graphic-tee": {
+   "claimed": [
+    "christmas dog shirt",
+    "dog mom shirt",
+    "doodle shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dog christmas shirt",
+     "volume": 880,
+     "kd": 61
+    },
+    {
+     "phrase": "merry woofmas shirt",
+     "volume": 30,
+     "kd": 56
+    }
+   ]
   }
  }
 }
