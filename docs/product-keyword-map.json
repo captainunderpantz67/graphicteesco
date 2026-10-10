@@ -1353,6 +1353,24 @@
      "kd": 40
     }
    ]
+  },
+  "womens-christmas-christmas-golf-graphic-tee": {
+   "claimed": [
+    "christmas golf shirt",
+    "golf shirt for women"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas golf shirt",
+     "volume": 720,
+     "kd": 27
+    },
+    {
+     "phrase": "golf shirt for women",
+     "volume": 8100,
+     "kd": 12
+    }
+   ]
   }
  }
 }
