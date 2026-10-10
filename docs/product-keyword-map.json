@@ -1389,6 +1389,30 @@
      "kd": 44
     }
    ]
+  },
+  "unisex-thanksgiving-turkey-trot-graphic-tee": {
+   "claimed": [
+    "turkey trot shirt",
+    "5k shirt",
+    "thanksgiving running shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "turkey trot shirt",
+     "volume": 720,
+     "kd": 32
+    },
+    {
+     "phrase": "5k shirt",
+     "volume": 480,
+     "kd": 36
+    },
+    {
+     "phrase": "thanksgiving running shirt",
+     "volume": 70,
+     "kd": 46
+    }
+   ]
   }
  }
 }
