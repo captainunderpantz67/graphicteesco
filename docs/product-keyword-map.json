@@ -1180,6 +1180,20 @@
      "kd": 27
     }
    ]
+  },
+  "unisex-western-lucky-horseshoe-graphic-tee": {
+   "claimed": [
+    "horseshoe shirt",
+    "ranch shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dutton ranch shirt",
+     "volume": 210,
+     "kd": 34,
+     "note": "skipped: Yellowstone trademark"
+    }
+   ]
   }
  }
 }

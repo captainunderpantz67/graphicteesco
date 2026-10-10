@@ -41,7 +41,7 @@ Each row is one person. Before generating a new photo, pick a description that d
 | 36 | Mixed-race Black and white woman in her late 20s, sleek high ponytail, light freckles, tall athletic build | USED 2026-10-10 — Run Free cover (fal Seedream 4, rangeland fence at sunset with horses; try 1 kept) |
 | 37 | Korean woman in her mid-30s, shoulder-length straight hair with curtain bangs, slim build | USED 2026-10-10 — Howdy cover (fal Seedream 4, county rodeo gate at dusk; try 1 kept) |
 | 38 | White woman in her early 60s, short silver hair, tanned weathered skin, lean build | USED 2026-10-10 — Saturday Night Rodeo cover (fal Seedream 4, evening rodeo grandstand; try 1 kept) |
-| 39 | Black man in his mid-40s, shaved head, neat short beard, broad build, straw cowboy hat pushed back off his face | RESERVED — cover for Unisex Western – Lucky Horseshoe Tee (docs/design-briefs.md #29) |
+| 39 | Black man in his mid-40s, shaved head, neat short beard, broad build, straw cowboy hat pushed back off his face | USED 2026-10-10 — Lucky Horseshoe cover (fal Seedream 4, wooden horse barn; try 1 kept) |
 | 40 | Puerto Rican woman in her early 20s, shoulder-length wavy dark hair, medium build | USED 2026-10-10 — Saddle Blanket Steer cover (fal Seedream 4, ranch tack room; try 1 kept) |
 | 41 | White man in his early 60s, white mustache, weathered sun-lined face, lean wiry build, felt cowboy hat pushed back off his forehead | USED 2026-10-10 — Desert Rattler cover (fal Seedream 4, desert ranch cattle pens at dawn; try 1 kept) |
 | 42 | Mexican-American man in his mid-20s, short black hair, thin mustache, wiry build | USED 2026-10-10 — Hold On Eight cover (fal Seedream 4, behind the bucking chutes at night; try 1 kept) |
