@@ -1160,6 +1160,26 @@
      "note": "skipped: too close to Kick Up Dust cowboy boots shirt"
     }
    ]
+  },
+  "womens-western-run-free-graphic-tee": {
+   "claimed": [
+    "wild horse shirt",
+    "horse shirt",
+    "western horse shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "mustang shirt",
+     "volume": 5400,
+     "kd": 32,
+     "note": "skipped: Ford Mustang intent"
+    },
+    {
+     "phrase": "horse shirt for men",
+     "volume": 720,
+     "kd": 27
+    }
+   ]
   }
  }
 }

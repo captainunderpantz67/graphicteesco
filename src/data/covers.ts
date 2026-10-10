@@ -63,6 +63,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-western-wild-west-rider-graphic-tee': { src: '/covers/womens-western-wild-west-rider-graphic-tee.webp', alt: 'Woman by the arena fence of a small-town rodeo at night under the lights wearing the Wild West Rider tee' },
   'womens-western-barrel-racer-graphic-tee': { src: '/covers/womens-western-barrel-racer-graphic-tee.webp', alt: 'Woman leaning on the rail of a dirt arena at barrel racing practice with riders behind her wearing the Barrel Racer tee' },
   'unisex-western-desert-rattler-graphic-tee': { src: '/covers/unisex-western-desert-rattler-graphic-tee.webp', alt: 'Man at the cattle pens of a desert ranch at dawn with steers behind him wearing the Desert Rattler tee' },
+  'womens-western-run-free-graphic-tee': { src: '/covers/womens-western-run-free-graphic-tee.webp', alt: 'Woman leaning on a weathered wooden fence on open rangeland at sunset with horses grazing behind her wearing the Run Free tee' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
