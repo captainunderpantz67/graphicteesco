@@ -1371,6 +1371,24 @@
      "kd": 12
     }
    ]
+  },
+  "womens-christmas-highland-cow-christmas-graphic-tee": {
+   "claimed": [
+    "cow christmas shirt",
+    "highland cow shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cow christmas shirt",
+     "volume": 140,
+     "kd": 36
+    },
+    {
+     "phrase": "highland cow shirt",
+     "volume": 1600,
+     "kd": 44
+    }
+   ]
   }
  }
 }
