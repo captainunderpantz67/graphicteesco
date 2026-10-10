@@ -27,7 +27,7 @@ Each row is one person. Before generating a new photo, pick a description that d
 | 22 | White man in his mid-50s, shaved head, short grey goatee, stocky barrel-chested build | USED 2026-10-09 — Uphill Pump Cover cover (fal Seedream 4, warehouse strength gym; try 1 kept) |
 | 23 | Korean-American man in his early 30s, short black undercut hair, lean athletic build, clean-shaven | RESERVED — cover for Men's Gym – Iron Sharpens Iron Tee (docs/design-briefs.md #13; was Swing Heavy) |
 | 24 | Mexican-American man in his early 40s, slicked-back black hair with grey temples, broad build, short trimmed mustache | USED 2026-10-09 — Marble Statue Curl cover (fal Seedream 4, old-school iron gym; try 1 kept; cover made 2026-10-10 by the recovery run) |
-| 25 | Samoan man in his mid-30s, long black hair tied in a bun, big powerful build, broad smile | RESERVED — cover for Men's Gym – Old School Strength Tee (docs/design-briefs.md #15) |
+| 25 | Samoan man in his mid-30s, long black hair tied in a bun, big powerful build, broad smile | USED 2026-10-10 — Old School Strength cover (fal Seedream 4, strongman training yard at sunset; try 1 kept) |
 | 26 | Indian man in his late 20s, short wavy black hair, clean-shaven, lean muscular build | USED 2026-10-10 — Golden Era Pose cover (fal Seedream 4, beach-side workout pen at golden hour; try 1 kept) |
 | 27 | Black man in his early 60s, short grey hair, neatly trimmed grey mustache, wiry fit build | RESERVED — cover for Men's Gym – Heavy Bag Dept. Tee (docs/design-briefs.md #17) |
 | 28 | White man in his early 20s, shaggy blond hair, clean-shaven, tall lanky build | RESERVED — cover for Men's Gym – Leg Day Survivor Tee (docs/design-briefs.md #18) |
