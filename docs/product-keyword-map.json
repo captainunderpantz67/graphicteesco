@@ -1042,6 +1042,21 @@
     "steer skull shirt"
    ],
    "gaps_measured": []
+  },
+  "womens-western-saturday-night-rodeo-graphic-tee": {
+   "claimed": [
+    "rodeo t shirt",
+    "vintage rodeo shirt",
+    "rodeo shirt",
+    "western rodeo shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bucking horse shirt",
+     "volume": 20,
+     "kd": 48
+    }
+   ]
   }
  }
 }
