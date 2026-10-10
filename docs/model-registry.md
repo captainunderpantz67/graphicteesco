@@ -82,7 +82,7 @@ Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/desig
 | 75 | South Asian-American woman in her late 30s, short dark curls, slim build, small gold hoops (Kontext drew her instead of the reserved Ethiopian-American description) | USED 2026-10-10 — Peace on Earth cover (fal Kontext Pro, outside a stone church at dusk; try 1 kept) |
 | 76 | Scandinavian-American woman in her early 40s, long straight ash-blonde hair, tall slim build, light freckles | USED 2026-10-10 — Hello Winter Snowflakes cover (fal Kontext Pro, snowy forest trail; try 1 rejected: made from the pre-fix art with pale lettering) |
 | 77 | Haitian-American woman in her mid-50s, short silver natural hair, soft build, red lipstick | USED 2026-10-10 — Joy cover (fal Seedream 4, Christmas tree lot at night; try 1 Kontext rejected: drew an older white woman too close to rows 13/38/69/71) |
-| 78 | Puerto Rican woman in her late 50s, shoulder-length dyed burgundy hair, round face, medium build | RESERVED — cover for Women's Christmas – Deck the Halls Tee (docs/design-briefs.md #46) |
+| 78 | Puerto Rican woman in her late 50s, shoulder-length dyed burgundy hair, round face, medium build | USED 2026-10-10 — Deck the Halls cover (fal Kontext Pro, living room by the fireplace; try 1 kept) |
 | 79 | Korean-American woman in her mid-40s, sleek chin-length bob, athletic build | RESERVED — cover for Women's Christmas – Christmas Golf Tee (docs/design-briefs.md #47) |
 
 Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from docs/market-research.md (same person, new design where noted). Rows 65–66 were added for the two new briefs (#34, #35).

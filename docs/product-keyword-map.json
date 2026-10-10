@@ -1335,6 +1335,24 @@
      "kd": 40
     }
    ]
+  },
+  "womens-christmas-deck-the-halls-graphic-tee": {
+   "claimed": [
+    "deck the halls shirt",
+    "stocking shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "deck the halls shirt",
+     "volume": 70,
+     "kd": 54
+    },
+    {
+     "phrase": "stocking shirt",
+     "volume": 110,
+     "kd": 40
+    }
+   ]
   }
  }
 }
