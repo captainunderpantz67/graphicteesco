@@ -33,7 +33,7 @@ Each row is one person. Before generating a new photo, pick a description that d
 | 28 | White man in his early 20s, shaggy blond hair, clean-shaven, tall lanky build | RESERVED — cover for Men's Gym – Leg Day Survivor Tee (docs/design-briefs.md #18) |
 | 29 | Filipino man in his late 30s, buzz cut, compact stocky build, clean-shaven, easy grin | USED 2026-10-09 — Strong & Courageous cover (fal Seedream 4, commercial gym at lunch; try 1 kept) |
 | 30 | Middle Eastern man in his mid-40s, thick dark hair, full dark beard, no hat, barrel-chested heavy build | USED 2026-10-09 — The Lifter Card cover (fal Seedream 4, meet warm-up room; try 1 rejected: print redrawn as a block logo) |
-| 31 | Irish-American white man in his early 30s, short red hair, short trimmed red beard, freckles, medium build | RESERVED — cover for Men's Gym – Gym Rat Tee (docs/design-briefs.md #21) |
+| 31 | Irish-American white man in his early 30s, short red hair, short trimmed red beard, freckles, medium build | USED 2026-10-10 — Gym Rat cover (fal Seedream 4, basement gym with lift chalkboard; try 1 rejected: dropped the rat, garbled GYM RAT) |
 | 32 | White woman in her late 20s, long sandy-blonde waves, athletic build, sun-tanned | RESERVED — cover for Women's Western – Barrel Racer Tee (docs/design-briefs.md #22) |
 | 33 | Black woman in her early 40s, long box braids pulled back, medium build | RESERVED — cover for Women's Western – Wild West Rider Tee (docs/design-briefs.md #23; was Hold On Tight) |
 | 34 | Mexican-American woman in her mid-50s, dark hair in a low chignon, laugh lines, sturdy build, turquoise earrings | RESERVED — cover for Women's Western – Steer Skull & Wildflowers Tee (docs/design-briefs.md #24) |
