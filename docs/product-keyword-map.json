@@ -980,6 +980,21 @@
     "christian lion shirt"
    ],
    "gaps_measured": []
+  },
+  "mens-gym-golden-era-pose-graphic-tee": {
+   "claimed": [
+    "bodybuilding shirt",
+    "bodybuilder shirt",
+    "lifting shirts",
+    "retro sunset t shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "lifting shirt",
+     "volume": 1900,
+     "kd": 40
+    }
+   ]
   }
  }
 }
