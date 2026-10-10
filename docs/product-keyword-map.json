@@ -1449,6 +1449,18 @@
      "kd": 52
     }
    ]
+  },
+  "womens-thanksgiving-friendsgiving-graphic-tee": {
+   "claimed": [
+    "friendsgiving shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "friendsgiving shirt",
+     "volume": 480,
+     "kd": 54
+    }
+   ]
   }
  }
 }
