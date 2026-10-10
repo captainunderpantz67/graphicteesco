@@ -1413,6 +1413,24 @@
      "kd": 46
     }
    ]
+  },
+  "unisex-thanksgiving-leftovers-club-graphic-tee": {
+   "claimed": [
+    "funny thanksgiving shirt",
+    "leftovers shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny thanksgiving shirt",
+     "volume": 4400,
+     "kd": 48
+    },
+    {
+     "phrase": "leftovers shirt",
+     "volume": 50,
+     "kd": 47
+    }
+   ]
   }
  }
 }
