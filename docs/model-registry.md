@@ -39,7 +39,7 @@ Each row is one person. Before generating a new photo, pick a description that d
 | 34 | Mexican-American woman in her mid-50s, dark hair in a low chignon, laugh lines, sturdy build, turquoise earrings | USED 2026-10-10 — Steer Skull & Wildflowers cover (fal Seedream 4, ranch-house porch at golden hour; try 1 kept) |
 | 35 | White woman in her early 20s, long dark brown hair worn straight, petite build | RESERVED — cover for Women's Western – Kick Up Dust Tee (docs/design-briefs.md #25) |
 | 36 | Mixed-race Black and white woman in her late 20s, sleek high ponytail, light freckles, tall athletic build | RESERVED — cover for Women's Western – Run Free Tee (docs/design-briefs.md #26) |
-| 37 | Korean woman in her mid-30s, shoulder-length straight hair with curtain bangs, slim build | RESERVED — cover for Women's Western – Howdy Tee (docs/design-briefs.md #27) |
+| 37 | Korean woman in her mid-30s, shoulder-length straight hair with curtain bangs, slim build | USED 2026-10-10 — Howdy cover (fal Seedream 4, county rodeo gate at dusk; try 1 kept) |
 | 38 | White woman in her early 60s, short silver hair, tanned weathered skin, lean build | USED 2026-10-10 — Saturday Night Rodeo cover (fal Seedream 4, evening rodeo grandstand; try 1 kept) |
 | 39 | Black man in his mid-40s, shaved head, neat short beard, broad build, straw cowboy hat pushed back off his face | RESERVED — cover for Unisex Western – Lucky Horseshoe Tee (docs/design-briefs.md #29) |
 | 40 | Puerto Rican woman in her early 20s, shoulder-length wavy dark hair, medium build | USED 2026-10-10 — Saddle Blanket Steer cover (fal Seedream 4, ranch tack room; try 1 kept) |
