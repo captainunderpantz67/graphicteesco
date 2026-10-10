@@ -1293,6 +1293,24 @@
      "kd": 32
     }
    ]
+  },
+  "womens-christmas-hello-winter-snowflakes-graphic-tee": {
+   "claimed": [
+    "snowflake shirt",
+    "winter shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "snowflake shirt",
+     "volume": 480,
+     "kd": 52
+    },
+    {
+     "phrase": "winter shirt",
+     "volume": 6600,
+     "kd": 58
+    }
+   ]
   }
  }
 }
