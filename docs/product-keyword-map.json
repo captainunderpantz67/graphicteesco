@@ -1311,6 +1311,30 @@
      "kd": 58
     }
    ]
+  },
+  "womens-christmas-joy-graphic-tee": {
+   "claimed": [
+    "joy t shirt",
+    "joy shirt",
+    "ornament shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "joy t shirt",
+     "volume": 590,
+     "kd": 28
+    },
+    {
+     "phrase": "joy shirt",
+     "volume": 320,
+     "kd": 60
+    },
+    {
+     "phrase": "ornament shirt",
+     "volume": 110,
+     "kd": 40
+    }
+   ]
   }
  }
 }

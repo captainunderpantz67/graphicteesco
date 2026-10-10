@@ -81,7 +81,7 @@ Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/desig
 | 74 | Filipino-American woman in her early 30s, long straight black hair with a center part, petite build | USED 2026-10-10 — Fa La La cover (fal Kontext Pro, holiday house party by the tree; try 1 kept) |
 | 75 | South Asian-American woman in her late 30s, short dark curls, slim build, small gold hoops (Kontext drew her instead of the reserved Ethiopian-American description) | USED 2026-10-10 — Peace on Earth cover (fal Kontext Pro, outside a stone church at dusk; try 1 kept) |
 | 76 | Scandinavian-American woman in her early 40s, long straight ash-blonde hair, tall slim build, light freckles | USED 2026-10-10 — Hello Winter Snowflakes cover (fal Kontext Pro, snowy forest trail; try 1 rejected: made from the pre-fix art with pale lettering) |
-| 77 | Haitian-American woman in her mid-50s, short silver natural hair, soft build, red lipstick | RESERVED — cover for Women's Christmas – Joy Tee (docs/design-briefs.md #45) |
+| 77 | Haitian-American woman in her mid-50s, short silver natural hair, soft build, red lipstick | USED 2026-10-10 — Joy cover (fal Seedream 4, Christmas tree lot at night; try 1 Kontext rejected: drew an older white woman too close to rows 13/38/69/71) |
 | 78 | Puerto Rican woman in her late 50s, shoulder-length dyed burgundy hair, round face, medium build | RESERVED — cover for Women's Christmas – Deck the Halls Tee (docs/design-briefs.md #46) |
 | 79 | Korean-American woman in her mid-40s, sleek chin-length bob, athletic build | RESERVED — cover for Women's Christmas – Christmas Golf Tee (docs/design-briefs.md #47) |
 
