@@ -1761,6 +1761,24 @@
      "kd": 55
     }
    ]
+  },
+  "womens-christmas-cardinal-christmas-graphic-tee": {
+   "claimed": [
+    "cardinal t shirt",
+    "cardinal shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cardinal t shirt",
+     "volume": 880,
+     "kd": 26
+    },
+    {
+     "phrase": "cardinal shirt",
+     "volume": 880,
+     "kd": 46
+    }
+   ]
   }
  }
 }

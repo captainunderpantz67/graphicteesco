@@ -1197,7 +1197,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 
 ## Christmas — autopilot batch B (2026-10-13; women's + men's pairs, style v3)
 
-### 69. Women's Christmas – Cardinal Christmas Tee  *(new)*
+### 69. Women's Christmas – Cardinal Christmas Tee  *(built 2026-10-13)*
 - **Handle:** `womens-christmas-cardinal-christmas-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee), $29.99
 - **Art:** Plump red cardinal on a snow-covered pine branch with red winterberries and two pinecones, soft snow; "Season's Greetings" in one vintage serif script line above. Style v3 A (no frame, edges break up). Recraft v4 try 1 (https://v3b.fal.media/files/b/0aae45a4/jTONp4VMtbd2at2TvaB7e_JrvFnz6R.webp) → designs/cardinal.png
 - **Text on shirt:** Season's Greetings

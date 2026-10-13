@@ -105,7 +105,7 @@ Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/desig
 | 98 | Ethiopian-American man in his early 30s, close-cropped hair, neat short beard, lean build | USED 2026-10-13 — Deer Camp Christmas crewneck cover (fal Seedream 4, cabin interior by the wood stove and tree; try 1 kept) |
 | 99 | Hawaiian man in his late 30s, short black hair, broad friendly face, stocky build | USED 2026-10-13 — Christmas Tree Farm tee cover (fal Seedream 4, snowy tree farm with red barn; try 1 kept) |
 | 100 | Iranian-American woman in her early 30s, long dark wavy hair, medium build | USED 2026-10-13 — Christmas Tree Farm crewneck cover (fal Kontext Pro, farmhouse kitchen with a lit tree; try 1 Seedream rejected (garbled sign, flattened arch), try 2 Kontext kept) |
-| 101 | Filipino-American woman in her late 20s, shoulder-length straight black hair with bangs, petite build | RESERVED — cover for Cardinal Christmas Tee (docs/design-briefs.md #69) |
+| 101 | Filipino-American woman in her late 20s, shoulder-length straight black hair with bangs, petite build | USED 2026-10-13 — Cardinal Christmas tee cover (fal Seedream 4, snowy backyard with a bird feeder; try 1 kept) |
 | 102 | Scottish-American woman in her mid 50s, short silver-blonde bob, freckles, medium build | RESERVED — cover for Cardinal Christmas Crewneck Sweatshirt (#70) |
 | 103 | Peruvian-American man in his late 20s, short wavy black hair, light stubble, athletic build | RESERVED — cover for Christmas Ski Lodge Tee (#71) |
 | 104 | Norwegian-American man in his mid 40s, sandy hair, short reddish beard, tall build | RESERVED — cover for Christmas Ski Lodge Crewneck Sweatshirt (#72) |
