@@ -449,6 +449,30 @@ export const tees: Collection[] = [
     ],
     shopifyHandle: 'christmas-shirts-for-women',
   },
+  // Sam, 2026-10-13: men need a real Christmas selection (half of the new Christmas designs are men's/unisex on the 3001).
+  // RankHero 2026-10-13: mens christmas shirt 18,100 / KD 60 — hub keyword; products target their own long-tails.
+  {
+    slug: 'christmas-shirts-for-men', section: 'tees', audience: 'men', name: "Men's Christmas Shirts", seasonal: 'christmas',
+    keyword: 'mens christmas shirt', volume: 18100, kd: 60,
+    title: "Christmas Shirts for Men — Vintage Holiday Graphic Tees",
+    description: "Original Christmas shirts for men: a cracked-paint vintage Santa and rugged holiday art on soft unisex tees and crewnecks. Printed to order.",
+    h1: 'Christmas Shirts for Men',
+    intro: "Christmas shirts for men that skip the light-up gags: vintage holiday art for the tree lot, the cabin and the family photo, printed on a classic unisex tee or a crewneck when it is cold out.",
+    sections: [
+      { h2: 'Holiday art with an old-school look', body: 'The lead design is a vintage Santa face with rosy cheeks and a full beard finished in fine cracks, like paint on an old sign, over MERRY CHRISTMAS in faded red block letters. No badge or box sits behind it. New men’s designs join through the season: tree-lot trips, trucks, cabins and deer-camp Christmas.' },
+      { h2: 'Fit and fabric', body: 'The tees are a classic unisex cut in soft, lightweight cotton, sizes XS–4XL, so they fit the way a men’s tee should. The same Santa also comes on a crewneck sweatshirt in cotton-polyester fleece for colder days.' },
+      { h2: 'Where to wear one', body: 'The office party, the tree farm, a hockey game in December, the drive to the in-laws or Christmas morning. Wear it on its own, or open a flannel over it.' },
+      { h2: 'Matching for the family photo', body: 'Every design comes in a wide size run, so the whole family can match. Most men’s designs also live on our main Christmas shirts page beside the women’s designs.' },
+      { h2: 'When to order', body: 'Each shirt is printed after you order it, then shipped. Order early in December so it arrives in time; delivery estimates show at checkout.' },
+    ],
+    faqs: [
+      { q: 'Are these Christmas shirts cut for men?', a: 'They are printed on a classic unisex tee, which fits like a standard men’s crew-neck tee.' },
+      { q: 'Do you have a Christmas sweatshirt for men?', a: 'Yes. The vintage Santa design also comes on a unisex crewneck sweatshirt.' },
+      { q: 'Are these licensed Christmas characters?', a: 'No. Every design is original holiday art made for this shop.' },
+      ...audienceFaqs('Christmas shirts'),
+    ],
+    shopifyHandle: 'christmas-shirts-for-men',
+  },
   seasonal('christmas', 'tees', { slug: 'christmas-shirts', keyword: 'christmas shirts', volume: 33100, kd: 58, product: 'Christmas shirts', twin: 'christmas-hoodies', blurb: 'holiday designs that work for the party, the family photo and the gift exchange.',
     extra: [
       { q: 'Do you have matching Christmas shirts for family or couples?', a: 'Yes. Any design can be ordered in several sizes so the whole family — or the two of you — match.' },
