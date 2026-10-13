@@ -1215,9 +1215,9 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Variants:** vintage christmas sweatshirt 5,400 / 52
 - **Cover model:** registry #102 (reserved)
 
-### 71. Unisex Christmas – Christmas Ski Lodge Tee  *(new)*
+### 71. Unisex Christmas – Christmas Ski Lodge Tee  *(built 2026-10-13)*
 - **Handle:** `unisex-christmas-christmas-ski-lodge-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee, men's cut), $29.99
-- **Art:** 1960s retro skier carrying a fresh-cut Christmas tree on one shoulder past a snowy A-frame ski lodge with a wreath, snowy pines and mountains behind; SKI LODGE in faded red block caps, small "Christmas" script. Style v3 A.
+- **Art:** 1960s retro skier in knit cap and sweater carving past a snowy A-frame lodge with a wreath, snowy pines and peaks; SKI LODGE in faded red block caps, small "Christmas" script. Style v3 A. Recraft v4 try 1 (https://v3b.fal.media/files/b/0aae4636/q-9GbmqK938siXNf7dArO_2nER5PLq.webp) → designs/ski-lodge.png
 - **Shirt colors:** every legible light/mid 3001 color (≤100 variants)
 - **Primary keyword:** vintage ski shirt — 590 / KD 41
 - **Variants:** ski shirt 3,600 / 33

@@ -1797,6 +1797,24 @@
      "kd": 52
     }
    ]
+  },
+  "unisex-christmas-christmas-ski-lodge-graphic-tee": {
+   "claimed": [
+    "vintage ski shirt",
+    "ski shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "vintage ski shirt",
+     "volume": 590,
+     "kd": 41
+    },
+    {
+     "phrase": "ski shirt",
+     "volume": 3600,
+     "kd": 33
+    }
+   ]
   }
  }
 }
