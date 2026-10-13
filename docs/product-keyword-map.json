@@ -1461,6 +1461,24 @@
      "kd": 54
     }
    ]
+  },
+  "unisex-christmas-vintage-santa-graphic-tee": {
+   "claimed": [
+    "merry christmas shirt",
+    "santa face shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "merry christmas shirt",
+     "volume": 880,
+     "kd": 73
+    },
+    {
+     "phrase": "santa face shirt",
+     "volume": 70,
+     "kd": 60
+    }
+   ]
   }
  }
 }
