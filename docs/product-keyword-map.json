@@ -1533,6 +1533,48 @@
      "kd": 52
     }
    ]
+  },
+  "womens-christmas-merry-bright-trees-crewneck-sweatshirt": {
+   "claimed": [
+    "christmas tree sweatshirt",
+    "christmas sweatshirt women"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas tree sweatshirt",
+     "volume": 390,
+     "kd": 70
+    },
+    {
+     "phrase": "christmas sweatshirt women",
+     "volume": 5400,
+     "kd": 62
+    }
+   ]
+  },
+  "unisex-thanksgiving-give-thanks-harvest-graphic-tee": {
+   "claimed": [
+    "harvest t shirt",
+    "thankful t shirt",
+    "pumpkin shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "harvest t shirt",
+     "volume": 170,
+     "kd": 34
+    },
+    {
+     "phrase": "thankful t shirt",
+     "volume": 90,
+     "kd": 42
+    },
+    {
+     "phrase": "pumpkin shirt",
+     "volume": 2900,
+     "kd": 61
+    }
+   ]
   }
  }
 }

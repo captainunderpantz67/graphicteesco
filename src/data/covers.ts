@@ -86,6 +86,8 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-christmas-vintage-santa-graphic-tee': { src: '/covers/womens-christmas-vintage-santa-graphic-tee.webp', alt: 'Woman at an outdoor Christmas market at night with wooden stalls and string lights behind her wearing the Vintage Santa tee' },
   'unisex-christmas-vintage-santa-crewneck-sweatshirt': { src: '/covers/unisex-christmas-vintage-santa-crewneck-sweatshirt.webp', alt: 'Woman in a cabin living room with a lit Christmas tree and a fireplace behind her wearing the Vintage Santa crewneck sweatshirt' },
   'womens-christmas-merry-bright-trees-graphic-tee': { src: '/covers/womens-christmas-merry-bright-trees-graphic-tee.webp', alt: 'Woman at the edge of a snowy pine forest beside a small wooden cabin wearing the Merry & Bright Trees tee' },
+  'womens-christmas-merry-bright-trees-crewneck-sweatshirt': { src: '/covers/womens-christmas-merry-bright-trees-crewneck-sweatshirt.webp', alt: 'Woman at a Christmas tree farm at dusk with rows of trees and string lights behind her wearing the Merry & Bright Trees crewneck sweatshirt' },
+  'unisex-thanksgiving-give-thanks-harvest-graphic-tee': { src: '/covers/unisex-thanksgiving-give-thanks-harvest-graphic-tee.webp', alt: 'Man at a farm stand on a fall afternoon with pumpkins and hay bales behind him wearing the Give Thanks Harvest tee' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
