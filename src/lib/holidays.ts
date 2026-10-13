@@ -26,9 +26,23 @@ export const daysUntil = (h: Holiday, now = new Date()) =>
 export const byUpcoming = <T extends Pick<Collection, 'seasonal'>>(cs: T[], now = new Date()) =>
   [...cs].sort((a, b) => daysUntil(a.seasonal!, now) - daysUntil(b.seasonal!, now));
 
-// The holiday the homepage leads with: Halloween through Oct 31, then Christmas
-// (gift buying starts Nov 1 and dwarfs Thanksgiving), Halloween again after Dec 25.
+// Print-on-demand lead time: a holiday is still worth selling only while there's time to
+// print and ship before the day (about 2 weeks).
+export const LEAD_DAYS = 14;
+export const sellable = (h: Holiday, now = new Date()) => daysUntil(h, now) >= LEAD_DAYS;
+
+// The holiday the homepage leads with. Christmas gift buying runs Oct 1 → Dec 25 and dwarfs
+// the others (Sam, 2026-10-13: holidays come before the evergreen shirts); Halloween otherwise.
 export function featuredHoliday(now = new Date()): Holiday {
   const m = now.getUTCMonth();
-  return m >= 10 && daysUntil('christmas', now) <= 55 ? 'christmas' : 'halloween';
+  return m >= 9 && daysUntil('christmas', now) <= 85 ? 'christmas' : 'halloween';
 }
+
+// Homepage order: featured holiday first, then the rest soonest-first; drop holidays that can
+// no longer be delivered in time.
+export const homepageOrder = <T extends Pick<Collection, 'seasonal'>>(cs: T[], now = new Date()) => {
+  const f = featuredHoliday(now);
+  // While Christmas leads, Halloween leaves the homepage (still in the Holidays menu).
+  const live = cs.filter((c) => sellable(c.seasonal!, now) && !(f === 'christmas' && c.seasonal === 'halloween'));
+  return [...live.filter((c) => c.seasonal === f), ...byUpcoming(live.filter((c) => c.seasonal !== f), now)];
+};

@@ -48,7 +48,7 @@ const PRODUCT_FIELDS = `
   images(first: 120) { nodes { url altText width height } }
   priceRange { minVariantPrice { amount currencyCode } }
   options { name values }
-  variants(first: 100) { nodes { id title availableForSale price { amount currencyCode } selectedOptions { name value } image { url } } }
+  variants(first: 250) { nodes { id title availableForSale price { amount currencyCode } selectedOptions { name value } image { url } } }
   collections(first: 20) { nodes { handle } }
 `;
 
