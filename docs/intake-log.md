@@ -1,3 +1,4 @@
+RUNNING since 2026-10-13 18:21 UTC
 APPROVED BATCH 1 2026-10-13 (Sam, in session) — build batch 1 from docs/cloud-build-loop.md, then autopilot.
 2026-10-10 06:05 UTC — PAUSED by Sam (Telegram "Pause build"). Run stopped after Friendsgiving (#52); #53 Gobble Gobble and #54 Turkey Day Crew briefed, not built. This run shipped 10 products (#43–52); christmas-shirts-for-women at 28. Pause recorded at the top of docs/cloud-build-loop.md. Lock released.
 2026-10-10 04:57 UTC — Stale lock from 2026-10-09 23:52 run released (last product logged 02:43; run cut off). New run took over.
