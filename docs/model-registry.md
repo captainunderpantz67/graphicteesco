@@ -92,7 +92,7 @@ Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/desig
 | 85 | Indian-American woman in her mid-30s, long wavy dark-brown hair, medium build, small gold hoops | RESERVED — cover for Gobble Gobble Tee (docs/design-briefs.md #53) |
 | 86 | Filipino-American man in his early 50s, short salt-and-pepper hair, round glasses, medium build | RESERVED — cover for Turkey Day Crew Tee (docs/design-briefs.md #54) |
 | 87 | Cuban-American man in his early 40s, short black hair and a neat salt-and-pepper beard, medium build | USED 2026-10-13 — Vintage Santa tee cover (fal Seedream 4, small-town main street at dusk; tries 1–2 (Seedream, Kontext) rejected: dark box behind the print from the transparent reference — fixed by compositing the art on the shirt color, try 3 kept) |
-| 88 | Irish-American woman in her early 30s, shoulder-length wavy auburn hair, light freckles, slim build | RESERVED — cover for Vintage Santa Tee (docs/design-briefs.md #56) |
+| 88 | Irish-American woman in her early 30s, shoulder-length wavy auburn hair, light freckles, slim build | USED 2026-10-13 — Vintage Santa tee cover (fal Seedream 4, outdoor Christmas market at night; try 1 kept) |
 | 89 | Japanese-American woman in her late 20s, straight black hair in a low ponytail, slim build | RESERVED — cover for Vintage Santa Crewneck Sweatshirt (docs/design-briefs.md #57) |
 | 90 | Lebanese-American woman in her mid-30s, long dark-brown hair with soft waves worn behind her shoulders, medium build | RESERVED — cover for Merry & Bright Trees Tee (docs/design-briefs.md #58) |
 | 91 | Samoan-American woman in her early 40s, thick wavy black hair pulled into a low bun, broad build | RESERVED — cover for Merry & Bright Trees Crewneck Sweatshirt (docs/design-briefs.md #59) |

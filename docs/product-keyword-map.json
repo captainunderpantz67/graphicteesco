@@ -1479,6 +1479,24 @@
      "kd": 60
     }
    ]
+  },
+  "womens-christmas-vintage-santa-graphic-tee": {
+   "claimed": [
+    "vintage christmas shirt",
+    "classic santa shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "vintage christmas shirt",
+     "volume": 1000,
+     "kd": 68
+    },
+    {
+     "phrase": "classic santa shirt",
+     "volume": 10,
+     "kd": 49
+    }
+   ]
   }
  }
 }
