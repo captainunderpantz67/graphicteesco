@@ -1194,3 +1194,38 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Variants:** winter sweatshirt 2,900 / 55
 - **Proof:** style study 2026-10-13 (winter scene + red truck motifs in Etsy top listings); Sam's approval
 - **Cover model:** registry #100 (reserved)
+
+## Christmas — autopilot batch B (2026-10-13; women's + men's pairs, style v3)
+
+### 69. Women's Christmas – Cardinal Christmas Tee  *(new)*
+- **Handle:** `womens-christmas-cardinal-christmas-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee), $29.99
+- **Art:** Plump red cardinal on a snow-covered pine branch with red winterberries and two pinecones, soft snow; "Season's Greetings" in one vintage serif script line above. Style v3 A (no frame, edges break up). Recraft v4 try 1 (https://v3b.fal.media/files/b/0aae45a4/jTONp4VMtbd2at2TvaB7e_JrvFnz6R.webp) → designs/cardinal.png
+- **Text on shirt:** Season's Greetings
+- **Shirt colors (all legible — black lettering + red bird on light blanks):** White, Natural, Vintage White, Heather Stone, Athletic Heather, Pink, Light Violet, Heather Blue Lagoon
+- **Primary keyword:** cardinal t shirt — 880 / KD 26 (RankHero 2026-10-13)
+- **Variants:** cardinal shirt 880 / 46
+- **Proof:** winter-bird / cardinal Christmas art is a long-running Etsy staple (cardinal sweatshirt 480 searches, 5,014 listings); muted vintage Christmas-card look from the 2026-10-13 style study
+- **Cover model:** registry #101 (reserved)
+
+### 70. Women's Christmas – Cardinal Christmas Crewneck Sweatshirt  *(new)*
+- **Handle:** `womens-christmas-cardinal-christmas-crewneck-sweatshirt` · **Blank:** Gildan 18000 crewneck sweatshirt (Printful #145), $39.99
+- **Art:** same file as #69 (no new generation)
+- **Shirt colors:** White, Ash, Sport Grey, Sand, Light Pink, Light Blue
+- **Primary keyword:** cardinal sweatshirt — 480 / KD 46
+- **Variants:** vintage christmas sweatshirt 5,400 / 52
+- **Cover model:** registry #102 (reserved)
+
+### 71. Unisex Christmas – Christmas Ski Lodge Tee  *(new)*
+- **Handle:** `unisex-christmas-christmas-ski-lodge-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee, men's cut), $29.99
+- **Art:** 1960s retro skier carrying a fresh-cut Christmas tree on one shoulder past a snowy A-frame ski lodge with a wreath, snowy pines and mountains behind; SKI LODGE in faded red block caps, small "Christmas" script. Style v3 A.
+- **Shirt colors:** every legible light/mid 3001 color (≤100 variants)
+- **Primary keyword:** vintage ski shirt — 590 / KD 41
+- **Variants:** ski shirt 3,600 / 33
+- **Proof:** vintage ski-resort tees are a steady Etsy/Amazon winter seller (ski sweatshirt 1,600 searches); rugged men's winter theme per Sam's list
+- **Cover model:** registry #103 (reserved)
+
+### 72. Unisex Christmas – Christmas Ski Lodge Crewneck Sweatshirt  *(new)*
+- **Handle:** `unisex-christmas-christmas-ski-lodge-crewneck-sweatshirt` · **Blank:** Gildan 18000 (Printful #145), $39.99
+- **Art:** same file as #71
+- **Primary keyword:** ski sweatshirt — 1,600 / KD 38
+- **Cover model:** registry #104 (reserved)
