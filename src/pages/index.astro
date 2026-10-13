@@ -34,7 +34,9 @@ const holidayTees = homepageOrder(tees.filter((c) => c.seasonal && live.has(c.sl
 const usedCovers = new Set<string>();
 const coverFor = (c: (typeof tees)[number]) => {
   // Newest first (higher Shopify id = newer) so cards show the current art style, not the old badge designs.
-  const pool = allProducts.filter((x) => x.collections?.includes(c.shopifyHandle) && covers[x.handle] && !usedCovers.has(x.handle))
+  // Shirt cards show a tee, sweatshirt cards show a crewneck (Sam, 2026-10-13).
+  const wantSweat = /sweatshirt/.test(c.slug);
+  const pool = allProducts.filter((x) => x.collections?.includes(c.shopifyHandle) && covers[x.handle] && !usedCovers.has(x.handle) && /sweatshirt/.test(x.handle) === wantSweat)
     .sort((a, b) => Number(b.id.split('/').pop()) - Number(a.id.split('/').pop()));
   const p = (c.audience ? pool.find((x) => x.handle.startsWith(c.audience === 'women' ? 'womens-' : 'mens-')) : undefined) ?? pool[0];
   if (!p) return null;
