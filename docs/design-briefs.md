@@ -1148,3 +1148,27 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
     --shirt "black" --fit "relaxed-fit women's cotton t-shirt" \
     --cover womens-christian-amazing-grace-graphic-tee
 ```
+
+## Christmas men's/unisex — autopilot batch A (2026-10-13; Sam: half of the 14 new Christmas designs men's/unisex)
+
+### 65. Unisex Christmas – Deer Camp Christmas Tee  *(new)*
+- **Handle:** `unisex-christmas-deer-camp-christmas-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee, men's cut), $29.99
+- **Art:** Snowed-in log hunting cabin at dusk in dark pines, wreath with red bow on the door, antlers over it, glowing windows, chimney smoke, whitetail buck by the porch; DEER CAMP CHRISTMAS in faded red distressed block caps. Style v3 A. Recraft v4 (1 gen, QC v3 pass): https://v3b.fal.media/files/b/0aae404a/exom9ETN8yQI9769l1kaz_vPTbk0cy.webp → designs/deer-camp.png (--solid)
+- **Text on shirt:** DEER CAMP CHRISTMAS
+- **Shirt colors:** Natural, Heather Dust, Athletic Heather, Forest
+- **Primary keyword:** deer camp shirt — 90 / KD 42
+- **Variants:** hunting season shirt 40 / 64
+- **Proof:** style study 2026-10-13 (winter cabin/village scenes in Etsy top listings); Sam's rugged men's themes list (hunting-camp Christmas, cabin)
+- **Cover model:** registry #97 (reserved)
+
+### 66. Unisex Christmas – Deer Camp Christmas Crewneck Sweatshirt  *(new)*
+- **Handle:** `unisex-christmas-deer-camp-christmas-crewneck-sweatshirt` · **Blank:** Gildan 18000 crewneck sweatshirt (Printful #145), $39.99
+- **Art:** Snowed-in log hunting cabin at dusk in dark pines, wreath with red bow on the door, antlers over it, glowing windows, chimney smoke, whitetail buck by the porch; DEER CAMP CHRISTMAS in faded red distressed block caps. Style v3 A. Recraft v4 (1 gen, QC v3 pass): https://v3b.fal.media/files/b/0aae404a/exom9ETN8yQI9769l1kaz_vPTbk0cy.webp → designs/deer-camp.png (--solid)
+- **Text on shirt:** DEER CAMP CHRISTMAS
+- **Shirt colors:** Forest Green, Sand, White, Sport Grey
+- **Primary keyword:** buck sweatshirt — 1,000 / KD 24
+- **Variants:** hunting sweatshirt 3,600 / 34, deer sweatshirt 590 / 47
+- **Proof:** style study 2026-10-13 (winter cabin/village scenes in Etsy top listings); Sam's rugged men's themes list (hunting-camp Christmas, cabin)
+- **Cover model:** registry #98 (reserved)
+
+*Christmas Tree Farm (brief A2) was dropped after 3 failed art generations (truck too close to Fresh Cut Christmas Trees; ornamental lettering; wheeled sled). Sam asked on Telegram.*
