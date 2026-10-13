@@ -1575,6 +1575,30 @@
      "kd": 61
     }
    ]
+  },
+  "unisex-thanksgiving-give-thanks-harvest-crewneck-sweatshirt": {
+   "claimed": [
+    "thankful sweatshirt",
+    "pumpkin sweatshirt",
+    "fall sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "thankful sweatshirt",
+     "volume": 390,
+     "kd": 60
+    },
+    {
+     "phrase": "pumpkin sweatshirt",
+     "volume": 1000,
+     "kd": 62
+    },
+    {
+     "phrase": "fall sweatshirt",
+     "volume": 1900,
+     "kd": 61
+    }
+   ]
   }
  }
 }
