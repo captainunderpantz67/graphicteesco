@@ -1497,6 +1497,24 @@
      "kd": 49
     }
    ]
+  },
+  "unisex-christmas-vintage-santa-crewneck-sweatshirt": {
+   "claimed": [
+    "merry christmas sweatshirt",
+    "santa sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "merry christmas sweatshirt",
+     "volume": 2400,
+     "kd": 56
+    },
+    {
+     "phrase": "santa sweatshirt",
+     "volume": 880,
+     "kd": 66
+    }
+   ]
   }
  }
 }
