@@ -48,12 +48,11 @@ const featured = featuredHoliday();
 const dropSeason = holidayTees.find((c) => c.seasonal !== featured)?.seasonal ?? featured;
 const drop = tees.find((c) => c.seasonal === dropSeason && !c.audience) ?? tees.find((c) => c.seasonal === dropSeason)!;
 const holidayCards = holidayTees.map((c) => ({ c, ph: coverFor(c) }));
-// New-style art (approved batch 1, 2026-10-13) for the holiday hero — the designs, not people.
-const holidayArt = [
-  { src: '/holiday/vintage-santa.webp', bg: 'var(--color-cream)', multiply: true },
-  { src: '/holiday/merry-bright-trees.webp', bg: '#123423', multiply: false },
-  { src: '/holiday/give-thanks.webp', bg: 'var(--color-cream)', multiply: true },
-];
+// One hero: holiday version while a holiday collection is still deliverable (homepageOrder handles lead time).
+const inSeason = holidayTees.length > 0;
+const heroPhoto = inSeason
+  ? { src: '/hero/holiday-tailgate-1040.webp', srcSmall: '/hero/holiday-tailgate-640.webp', alt: 'Three friends laughing on an old pickup tailgate on a frosty farm at dusk, pumpkins and a small Christmas tree in the truck bed, wearing Graphic Tees Co. vintage holiday crewnecks and tees' }
+  : site.heroImage ?? undefined;
 const dropCover = dropSeason === 'halloween' ? null : coverFor(drop);
 const dropTwin = drop.twin ? bySlug(drop.twin) : undefined;
 
@@ -130,33 +129,45 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
   description="Original graphic tees for men and women: fishing, hunting, western, country and gym designs, printed to order. New collection every month."
   schema={[faqPage([...answers, ...faqs]), itemListOfCollections([...tees, ...hoodies].filter((c) => live.has(c.slug)), showHoodies ? 'Graphic tee and hoodie collections' : 'Graphic tee collections')]}>
 
-  <!-- HOLIDAY HERO: holidays come before the evergreen shirts in season (Sam, 2026-10-13).
-       Shows the new-style art itself (no people/mockups); buttons let shoppers pick a holiday. -->
-  {holidayTees.length > 0 && <section class="relative overflow-hidden border-b-2 border-[var(--color-ink)] bg-[var(--color-moss)] text-[var(--color-cream)]" aria-labelledby="holiday-hero-h">
-    <div class="absolute inset-0 halftone opacity-20" aria-hidden="true"></div>
-    <div class="container-x relative py-10 md:py-16 grid lg:grid-cols-[1fr_1.05fr] gap-8 lg:gap-10 items-center">
+  <!-- HERO — one cohesive hero (Sam, 2026-10-13). In holiday season: green background, cream text,
+       holiday buttons where Men's/Women's were, and the holiday truck photo. Off-season: the evergreen version. -->
+  <section class={`relative overflow-hidden border-b-2 border-[var(--color-ink)] ${inSeason ? 'bg-[var(--color-moss)] text-[var(--color-cream)]' : ''}`}>
+    <div class={`absolute -left-24 -bottom-24 w-[420px] h-[420px] rounded-full halftone ${inSeason ? 'opacity-20' : 'opacity-70'}`} aria-hidden="true"></div>
+    <div class="container-x relative py-12 md:py-20 grid lg:grid-cols-[1.15fr_1fr] gap-10 lg:gap-6 items-center">
       <div>
-        <p class="eyebrow !text-[var(--color-mustard)]">The holiday shop is open · {daysUntil('christmas')} days to Christmas</p>
-        <h2 id="holiday-hero-h" class="display text-[clamp(3rem,9vw,6.5rem)] leading-[.9] mt-3" style="text-shadow:.05em .05em 0 var(--color-ink)">Vintage Holiday Shirts</h2>
-        <p class="mt-4 max-w-xl text-lg opacity-90">Old-school Christmas and Thanksgiving designs that look like a print you've loved for years. Original art, printed when you order it.</p>
-        <p class="mt-6 text-xs font-bold uppercase tracking-[.16em] text-[var(--color-mustard)]">Pick your holiday</p>
-        <div class="mt-3 flex flex-wrap gap-3">
-          {holidayTees.map((c, i) => <a href={pathFor(c)} class={i === 0 ? 'btn' : 'btn btn-ghost !text-[var(--color-cream)] !border-[var(--color-cream)]'}>{c.h1}</a>)}
-        </div>
-        <p class="mt-5 text-xs opacity-75">Printed to order. Order at least 2 weeks before you need it.</p>
+        <p class={`eyebrow rise ${inSeason ? '!text-[var(--color-mustard)]' : ''}`} style="animation-delay:.05s">{inSeason ? `The holiday shop is open · ${daysUntil('christmas')} days to Christmas` : 'Original art · Printed to order · New drop every month'}</p>
+        <h1 class="mt-4 rise" style="animation-delay:.15s">
+          <span class={`display block text-[clamp(4.2rem,13vw,10.5rem)] ${inSeason ? 'misprint-light' : 'misprint'}`}>Graphic Tees</span>{" "}
+          <span class={`script block text-[clamp(2.4rem,6vw,4.4rem)] -mt-2 md:-mt-4 ml-1 -rotate-3 origin-left ${inSeason ? 'text-[var(--color-mustard)]' : 'text-[var(--color-rust)]'}`}>{inSeason ? 'for the holidays.' : 'for what you do.'}</span>
+        </h1>
+        <!-- Phones: hero picture sits right under the headline, before the intro copy -->
+        <div class="lg:hidden mt-6 -mx-2"><HeroArt image={heroPhoto} /></div>
+        <p class={`mt-6 text-lg max-w-xl rise ${inSeason ? 'opacity-90' : 'text-[var(--color-ink-2)]'}`} style="animation-delay:.3s">{inSeason ? 'Vintage Christmas and Thanksgiving tees and crewneck sweatshirts — original art that looks like a print you’ve loved for years, printed when you order it.' : site.entity}</p>
+        {inSeason ? (<>
+          <p class="mt-7 text-xs font-bold uppercase tracking-[.16em] text-[var(--color-mustard)]">Pick your holiday</p>
+          <div class="mt-3 flex flex-wrap gap-3 rise" style="animation-delay:.42s">
+            {holidayTees.map((c, i) => <a href={pathFor(c)} class={i === 0 ? 'btn' : 'btn btn-ghost !text-[var(--color-cream)] !border-[var(--color-cream)]'}>{c.h1}</a>)}
+          </div>
+          <p class="mt-5 text-sm font-semibold">Year-round: <a href="/graphic-tees-for-men/" class="underline underline-offset-4 hover:text-[var(--color-mustard)]">men's graphic tees</a> · <a href="/graphic-tees-for-women/" class="underline underline-offset-4 hover:text-[var(--color-mustard)]">women's graphic tees</a></p>
+        </>) : (
+          <div class="mt-8 flex flex-wrap gap-3 rise" style="animation-delay:.42s">
+            <a href="/graphic-tees-for-men/" class="btn">Men's graphic tees</a>
+            <a href="/graphic-tees-for-women/" class="btn">Women's graphic tees</a>
+            {showHoodies && <a href="/hoodies/" class="btn btn-rust">Graphic hoodies</a>}
+          </div>
+        )}
+        <ul class={`mt-8 flex flex-wrap gap-x-6 gap-y-2 text-xs font-bold uppercase tracking-[.14em] rise ${inSeason ? 'opacity-90' : 'text-[var(--color-ink-2)]'}`} style="animation-delay:.55s">
+          <li class="flex items-center gap-2"><Icon name="star" class={`w-4 h-4 ${inSeason ? 'text-[var(--color-mustard)]' : 'text-[var(--color-rust)]'}`} />Original designs</li>
+          <li class="flex items-center gap-2"><Icon name="tee" class={`w-4 h-4 ${inSeason ? 'text-[var(--color-mustard)]' : 'text-[var(--color-rust)]'}`} />{inSeason ? 'Tees + crewnecks' : showHoodies ? 'Tees + hoodies' : 'Printed to order'}</li>
+          <li class="flex items-center gap-2"><Icon name="sun" class={`w-4 h-4 ${inSeason ? 'text-[var(--color-mustard)]' : 'text-[var(--color-rust)]'}`} />{inSeason ? 'Order 2 weeks ahead' : 'New drop monthly'}</li>
+        </ul>
       </div>
-      <div class="grid grid-cols-3 gap-3 md:gap-4" aria-hidden="true">
-        {holidayArt.map((a, i) => (
-          <span class={`relative overflow-hidden rounded-[16px] border-[3px] border-[var(--color-cream)] shadow-[6px_8px_0_var(--color-ink)] aspect-[4/5] grid place-items-center ${i === 1 ? 'translate-y-6' : ''}`} style={`background:${a.bg}`}>
-            <img src={a.src} alt="" width="800" height="800" loading="eager" fetchpriority={i === 0 ? 'high' : 'auto'} class={`absolute inset-0 w-full h-full ${a.multiply ? 'object-contain scale-[1.12] mix-blend-multiply' : 'object-cover scale-[1.35]'}`} />
-          </span>
-        ))}
-      </div>
+      <div class="hidden lg:block"><HeroArt image={heroPhoto} /></div>
     </div>
-  </section>}
+  </section>
 
   <!-- HOLIDAY SHELF: holiday collections are the season's search volume, so they sit right under the hero -->
-  {holidayTees.length > 0 && <section class="container-x mt-12 mb-16" aria-labelledby="holidays-h">
+  {holidayTees.length > 0 && <section class="container-x mt-14" aria-labelledby="holidays-h">
     <div class="flex items-end justify-between gap-4">
       <h2 id="holidays-h" class="display text-5xl md:text-6xl">Holiday shirts</h2>
       <p class="hidden md:block text-sm font-bold uppercase tracking-[.12em] text-[var(--color-rust)]">Printed to order · order 2 weeks ahead</p>
@@ -178,34 +189,6 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
       })}
     </div>
   </section>}
-
-  <!-- HERO -->
-  <section class="relative overflow-hidden border-b-2 border-[var(--color-ink)]">
-    <div class="absolute -left-24 -bottom-24 w-[420px] h-[420px] rounded-full halftone opacity-70" aria-hidden="true"></div>
-    <div class="container-x relative py-12 md:py-20 grid lg:grid-cols-[1.15fr_1fr] gap-10 lg:gap-6 items-center">
-      <div>
-        <p class="eyebrow rise" style="animation-delay:.05s">Original art · Printed to order · New drop every month</p>
-        <h1 class="mt-4 rise" style="animation-delay:.15s">
-          <span class="display misprint block text-[clamp(4.2rem,13vw,10.5rem)]">Graphic Tees</span>{" "}
-          <span class="script block text-[var(--color-rust)] text-[clamp(2.4rem,6vw,4.4rem)] -mt-2 md:-mt-4 ml-1 -rotate-3 origin-left">for what you do.</span>
-        </h1>
-        <!-- Phones: hero picture sits right under the headline, before the intro copy -->
-        <div class="lg:hidden mt-6 -mx-2"><HeroArt image={site.heroImage ?? undefined} /></div>
-        <p class="mt-6 text-lg max-w-xl text-[var(--color-ink-2)] rise" style="animation-delay:.3s">{site.entity}</p>
-        <div class="mt-8 flex flex-wrap gap-3 rise" style="animation-delay:.42s">
-          <a href="/graphic-tees-for-men/" class="btn">Men's graphic tees</a>
-          <a href="/graphic-tees-for-women/" class="btn">Women's graphic tees</a>
-          {showHoodies && <a href="/hoodies/" class="btn btn-rust">Graphic hoodies</a>}
-        </div>
-        <ul class="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-xs font-bold uppercase tracking-[.14em] text-[var(--color-ink-2)] rise" style="animation-delay:.55s">
-          <li class="flex items-center gap-2"><Icon name="star" class="w-4 h-4 text-[var(--color-rust)]" />Original designs</li>
-          <li class="flex items-center gap-2"><Icon name="tee" class="w-4 h-4 text-[var(--color-rust)]" />{showHoodies ? 'Tees + hoodies' : 'Printed to order'}</li>
-          <li class="flex items-center gap-2"><Icon name="sun" class="w-4 h-4 text-[var(--color-rust)]" />New drop monthly</li>
-        </ul>
-      </div>
-      <div class="hidden lg:block"><HeroArt image={site.heroImage ?? undefined} /></div>
-    </div>
-  </section>
 
   <!-- TICKER (decorative) -->
   <div class="bg-[var(--color-navy)] text-[var(--color-cream)] overflow-hidden py-3 border-b-2 border-[var(--color-ink)]" aria-hidden="true">
