@@ -1599,6 +1599,36 @@
      "kd": 61
     }
    ]
+  },
+  "unisex-fishing-lake-life-graphic-tee": {
+   "claimed": [
+    "lake shirt",
+    "lake life shirt",
+    "bass shirt",
+    "largemouth bass shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "lake shirt",
+     "volume": 1300,
+     "kd": 55
+    },
+    {
+     "phrase": "lake life shirt",
+     "volume": 260,
+     "kd": 63
+    },
+    {
+     "phrase": "bass shirt",
+     "volume": 720,
+     "kd": 52
+    },
+    {
+     "phrase": "largemouth bass shirt",
+     "volume": 140,
+     "kd": 36
+    }
+   ]
   }
  }
 }
