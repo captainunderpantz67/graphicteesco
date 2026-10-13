@@ -1725,6 +1725,24 @@
      "kd": 47
     }
    ]
+  },
+  "unisex-christmas-christmas-tree-farm-graphic-tee": {
+   "claimed": [
+    "christmas tree farm shirt",
+    "tree farm shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas tree farm shirt",
+     "volume": 90,
+     "kd": 61
+    },
+    {
+     "phrase": "tree farm shirt",
+     "volume": 30,
+     "kd": 72
+    }
+   ]
   }
  }
 }
