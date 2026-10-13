@@ -144,7 +144,7 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
       <div class="grid grid-cols-3 gap-3 md:gap-4" aria-hidden="true">
         {holidayArt.map((a, i) => (
           <span class={`relative overflow-hidden rounded-[16px] border-[3px] border-[var(--color-cream)] shadow-[6px_8px_0_var(--color-ink)] aspect-[4/5] grid place-items-center ${i === 1 ? 'translate-y-6' : ''}`} style={`background:${a.bg}`}>
-            <img src={a.src} alt="" width="800" height="800" loading={i === 0 ? 'eager' : 'lazy'} class={`absolute inset-0 w-full h-full ${a.multiply ? 'object-contain scale-[1.12] mix-blend-multiply' : 'object-cover scale-[1.35]'}`} />
+            <img src={a.src} alt="" width="800" height="800" loading="eager" fetchpriority={i === 0 ? 'high' : 'auto'} class={`absolute inset-0 w-full h-full ${a.multiply ? 'object-contain scale-[1.12] mix-blend-multiply' : 'object-cover scale-[1.35]'}`} />
           </span>
         ))}
       </div>
