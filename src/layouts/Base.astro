@@ -5,6 +5,7 @@ import { tees, hoodies, pathFor } from '../data/collections';
 import { organization, website } from '../lib/schema';
 import CartDrawer from '../components/CartDrawer.astro';
 import { linkableSlugs, hoodiesHubLive } from '../lib/linkable';
+import { byUpcoming } from '../lib/holidays';
 
 interface Props {
   title: string;
@@ -22,7 +23,8 @@ const liveTees = tees.filter((c) => live.has(c.slug));
 const liveHoodies = hoodies.filter((c) => live.has(c.slug));
 const showHoodies = hoodiesHubLive() && liveHoodies.length > 0;
 const evergreenTees = liveTees.filter((c) => !c.seasonal);
-const seasonal = [...liveTees, ...liveHoodies].filter((c) => c.seasonal);
+// Holiday collections, soonest holiday first (tees before hoodies within a holiday).
+const seasonal = byUpcoming([...liveTees, ...liveHoodies].filter((c) => c.seasonal));
 const ld = [organization(live), website(), ...schema];
 ---
 <!doctype html>
@@ -61,6 +63,12 @@ const ld = [organization(live), website(), ...schema];
         <nav aria-label="Main" class="hidden md:flex items-center gap-6 text-sm font-semibold uppercase tracking-wide">
           <a href="/graphic-tees-for-men/" class="hover:text-[var(--color-rust)]">Men</a>
           <a href="/graphic-tees-for-women/" class="hover:text-[var(--color-rust)]">Women</a>
+          {seasonal.length > 0 && <details class="relative group">
+            <summary class="cursor-pointer list-none text-[var(--color-rust)] hover:text-[var(--color-ink)]">Holidays ▾</summary>
+            <div class="absolute left-0 mt-3 w-64 bg-[var(--color-paper)] border border-[var(--color-line)] shadow-lg p-3 grid gap-1 normal-case tracking-normal font-medium">
+              {seasonal.map((c) => <a class="px-2 py-1 hover:bg-[var(--color-paper-2)]" href={pathFor(c)}>{c.h1}</a>)}
+            </div>
+          </details>}
           <details class="relative group">
             <summary class="cursor-pointer list-none hover:text-[var(--color-rust)]">Tees ▾</summary>
             <div class="absolute left-0 mt-3 w-60 bg-[var(--color-paper)] border border-[var(--color-line)] shadow-lg p-3 grid gap-1 normal-case tracking-normal font-medium">
@@ -74,7 +82,6 @@ const ld = [organization(live), website(), ...schema];
               {liveHoodies.filter((c) => !c.seasonal).map((c) => <a class="px-2 py-1 hover:bg-[var(--color-paper-2)]" href={pathFor(c)}>{c.name}</a>)}
             </div>
           </details>}
-          {seasonal[0] && <a href={pathFor(seasonal[0])} class="text-[var(--color-rust)]">{seasonal[0].name}</a>}
         </nav>
         <div class="flex items-center gap-3">
           <button type="button" data-cart-open class="relative font-semibold uppercase text-sm tracking-wide">
@@ -83,11 +90,13 @@ const ld = [organization(live), website(), ...schema];
           <details class="md:hidden">
             <summary class="list-none cursor-pointer font-semibold uppercase text-sm" aria-label="Menu">Menu</summary>
             <div class="absolute left-0 right-0 top-16 bg-[var(--color-paper)] border-b border-[var(--color-line)] p-4 grid gap-2 z-40">
+              {seasonal.length > 0 && <p class="text-xs font-bold uppercase tracking-[.14em] text-[var(--color-rust)]">Holidays</p>}
+              {seasonal.map((c) => <a href={pathFor(c)} class="font-semibold text-[var(--color-rust)]">{c.h1}</a>)}
+              {seasonal.length > 0 && <p class="mt-2 text-xs font-bold uppercase tracking-[.14em] text-[var(--color-ink-2)]">Shop</p>}
               <a href="/graphic-tees-for-men/">Men's graphic tees</a>
               <a href="/graphic-tees-for-women/">Women's graphic tees</a>
               {showHoodies && <a href="/hoodies/">Graphic hoodies</a>}
               {evergreenTees.filter((c) => c.slug !== 'graphic-tees-for-men' && c.slug !== 'graphic-tees-for-women').map((c) => <a href={pathFor(c)}>{c.name}</a>)}
-              {seasonal.map((c) => <a href={pathFor(c)} class="text-[var(--color-rust)]">{c.name}</a>)}
             </div>
           </details>
         </div>
