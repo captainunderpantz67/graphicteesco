@@ -20,7 +20,9 @@ Source: docs/style-study-2026-10-13.md (Etsy top sellers) + Sam's direction: sim
 - Proven themes may be recreated as ORIGINAL art (stacked words, vintage Santa, tree row are common tropes), never another seller's composition.
 
 ## Art QC v3 — rigid, every design (Sam, 2026-10-13: "take that level of standard and then increase as we go")
-Batch 1 (approved 2026-10-13) is the MINIMUM bar; each batch should beat the last. Reject and regenerate (max 2 retries, then skip + Telegram Sam) unless ALL pass:
+Batch 1 (approved 2026-10-13 — Sam: "leaps and bounds better… this is the bottom of the bar") is the FLOOR. Its product sheets live in docs/reference/batch-1/ — before approving any new design, open 2–3 of them and compare side by side; if the new one is weaker in polish, coverage, legibility or vintage finish, regenerate. Each batch must raise the bar in BOTH quality and popularity:
+- **Quality:** when a new design clearly beats the floor, add its sheet to docs/reference/best/ — that folder becomes the bar to beat.
+- **Popularity:** every design's theme must be backed by demand evidence before art is made — a measured keyword (RankHero volume/KD) AND proof people buy it (top-listing favorites/views on RankHero, or the Etsy style study). Prefer the themes that repeat across bestsellers (tree row, vintage Santa, leaping bass, whitetail at dawn…); no art for themes with no buying signal. Reject and regenerate (max 2 retries, then skip + Telegram Sam) unless ALL pass:
 1. **Etsy-bestseller test:** set beside the top "Popular now" Etsy listings for that niche, it looks like it belongs on page 1 — same tier of polish, subject matter people actually buy, not generic clip art. Still our own composition.
 2. **Full coverage:** the art fills the chest print area (tall/square scene, not a small emblem). Style B line art is the only exception and must still be sized as a real chest print.
 3. **No badge look:** no circle, shield, banner frame, border, outline box or dark patch/splotch behind the art.
