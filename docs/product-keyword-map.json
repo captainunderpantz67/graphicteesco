@@ -1743,6 +1743,24 @@
      "kd": 72
     }
    ]
+  },
+  "unisex-christmas-christmas-tree-farm-crewneck-sweatshirt": {
+   "claimed": [
+    "christmas crewneck",
+    "winter sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas crewneck",
+     "volume": 1900,
+     "kd": 60
+    },
+    {
+     "phrase": "winter sweatshirt",
+     "volume": 2900,
+     "kd": 55
+    }
+   ]
   }
  }
 }
