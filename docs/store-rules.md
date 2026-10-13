@@ -11,6 +11,19 @@ Rules Sam has locked in while building Graphic Tees Co. Each one is a requiremen
 6. **Niche-true + surge-timed (Sam, 2026-10-09):** the bottom means the low-KD, low-volume measured phrases under a head term that genuinely describe the page's niche, timed to the seasonal surge (holiday terms spike Oct→Dec). Off-niche or junk long-tails don't qualify even if KD is low. Work them in naturally, never stuffed. **Also claim the medium/high-KD niche-true phrases** (Sam, 2026-10-09): the bottom gets built first, but on-page copy still stakes a claim on every relevant measured phrase at any KD, because the strategy ranks on those too over time.
 5. Every new design idea starts from the bottom list, not from "popular niches". The question is always: what are people searching that nobody strong is serving?
 
+## Holiday art style v3 (Sam, 2026-10-13) — replaces the badge look for all new holiday designs
+Source: docs/style-study-2026-10-13.md (Etsy top sellers) + Sam's direction: simple and vintage.
+- **No badges, circles, banners, frames, borders or dark patches/splotches behind the art.** The art sits straight on the shirt.
+- **Style A, vintage art to the edges:** the subject (a scene or a character) is the shape; its edges fade, crack or break up into worn screen-print texture, like a print washed 100 times. Muted palette: faded red, cream, sage, navy, soft black linework. 1950s–60s holiday-advertising feel.
+- **Style B, simple embroidery look:** thin single-weight line art in one ink (white/cream on dark), small and centered, often a row of 4–5 different trees or a snowflake trio + a small script line. Real embroidery on crewnecks when Printful allows.
+- Approved references (2026-10-13): winter village at dusk with sleigh over the moon ("okay"); vintage Santa face with cracked texture, no backing shape (round 2). Round-1 Santa with a dark patch behind = rejected.
+- Proven themes may be recreated as ORIGINAL art (stacked words, vintage Santa, tree row are common tropes), never another seller's composition.
+
+## Holiday crewnecks (Sam, 2026-10-13)
+- Every new Halloween / Thanksgiving / Christmas design ships as a tee AND a crewneck sweatshirt (separate products, each its own page).
+- Keyword-gate exception (Sam): holiday sweatshirt collections go ahead above KD 20 — "you'd be surprised how quickly I rank with this system." Measured: christmas sweatshirt 22,200/KD57, halloween sweatshirt 8,100/57, thanksgiving sweatshirt 1,300/56, christmas crewneck 1,900/60.
+- Proposed blanks/prices (awaiting Sam's yes): tee Comfort Colors 1717 ($15.60 base) at $34.99; crewneck Gildan 18000 ($19.17 base) at $39.99. Comfort Colors 1566 crew is $30.59 base — premium option only.
+
 ## Process
 - Ship, then test (Sam, 2026-10-09): copy, SEO and templated changes go straight live; verify the live pages (build, seo-audit, curl) and fix forward. Screenshot first only for brand-new visual directions. No side-quest rebuilds.
 - If a note is ambiguous, ask one short question instead of guessing and shipping.
