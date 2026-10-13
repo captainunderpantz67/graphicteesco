@@ -19,6 +19,17 @@ Source: docs/style-study-2026-10-13.md (Etsy top sellers) + Sam's direction: sim
 - Approved references (2026-10-13): winter village at dusk with sleigh over the moon ("okay"); vintage Santa face with cracked texture, no backing shape (round 2). Round-1 Santa with a dark patch behind = rejected.
 - Proven themes may be recreated as ORIGINAL art (stacked words, vintage Santa, tree row are common tropes), never another seller's composition.
 
+## Art QC v3 — rigid, every design (Sam, 2026-10-13: "take that level of standard and then increase as we go")
+Batch 1 (approved 2026-10-13) is the MINIMUM bar; each batch should beat the last. Reject and regenerate (max 2 retries, then skip + Telegram Sam) unless ALL pass:
+1. **Etsy-bestseller test:** set beside the top "Popular now" Etsy listings for that niche, it looks like it belongs on page 1 — same tier of polish, subject matter people actually buy, not generic clip art. Still our own composition.
+2. **Full coverage:** the art fills the chest print area (tall/square scene, not a small emblem). Style B line art is the only exception and must still be sized as a real chest print.
+3. **No badge look:** no circle, shield, banner frame, border, outline box or dark patch/splotch behind the art.
+4. **Every element reads instantly:** no scribbles, blobs, abstract shapes or half-formed objects (e.g. a "tree" that is a scribbled ball = reject). Animals and people have correct anatomy (fins, antlers, hands, legs).
+5. **Lettering:** spelled exactly right, plain and readable at phone size; vintage block or serif caps, or one clean script line. No fussy flourishes or ornamental letterforms that hurt legibility.
+6. **Vintage finish:** worn/cracked/sun-faded screen-print texture, edges that fade or break up; muted 3–5 ink palette.
+7. **Brand-safe + original:** no licensed characters, logos, team marks, song/movie titles or trademarked phrases; no near-copy of any single seller's composition.
+8. **Prints clean:** after print-prep the background is fully removed; light art goes on dark blanks, dark art on light blanks; nothing important prints as shirt color by accident.
+
 ## Holiday crewnecks (Sam, 2026-10-13)
 - Every new Halloween / Thanksgiving / Christmas design ships as a tee AND a crewneck sweatshirt (separate products, each its own page).
 - Keyword-gate exception (Sam): holiday sweatshirt collections go ahead above KD 20 — "you'd be surprised how quickly I rank with this system." Measured: christmas sweatshirt 22,200/KD57, halloween sweatshirt 8,100/57, thanksgiving sweatshirt 1,300/56, christmas crewneck 1,900/60.
