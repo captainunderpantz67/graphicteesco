@@ -1659,6 +1659,30 @@
      "kd": 48
     }
    ]
+  },
+  "womens-christian-amazing-grace-graphic-tee": {
+   "claimed": [
+    "amazing grace shirt",
+    "cross shirt",
+    "minimalist christian shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "amazing grace shirt",
+     "volume": 70,
+     "kd": 49
+    },
+    {
+     "phrase": "cross shirt",
+     "volume": 3600,
+     "kd": 51
+    },
+    {
+     "phrase": "minimalist christian shirt",
+     "volume": 140,
+     "kd": 68
+    }
+   ]
   }
  }
 }
