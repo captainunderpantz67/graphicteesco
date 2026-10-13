@@ -99,7 +99,7 @@ Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/desig
 | 92 | Black man in his mid-50s, short grey hair and a trimmed grey beard, broad build | USED 2026-10-13 — Give Thanks Harvest tee cover (fal Seedream 4, farm stand with pumpkins and corn; try 1 kept) |
 | 93 | Polish-American woman in her early 60s, short spiky white hair, soft build, red-framed glasses | USED 2026-10-13 — Give Thanks Harvest crewneck cover (fal Seedream 4, farmhouse porch with pumpkins; try 1 kept; 3 colors (Sand/White/Sport Grey) — the brown linework disappears on the dark list colors, so 3 fronts) |
 | 94 | White man in his early 30s, short sandy-blond hair, light stubble, lean build | USED 2026-10-13 — Lake Life tee cover (fal Seedream 4, lake dock at sunrise; try 1 kept) |
-| 95 | Salvadoran-American man in his late 40s, shaved head, short black goatee, stocky build | RESERVED — cover for Opening Day Tee (docs/design-briefs.md #63) |
+| 95 | Salvadoran-American man in his late 40s, shaved head, short black goatee, stocky build | USED 2026-10-13 — Opening Day tee cover (fal Seedream 4, hunting cabin by a frosty field at dawn; try 1 kept) |
 | 96 | Ghanaian-American woman in her late 20s, short natural curls, slim build, small gold stud earrings | RESERVED — cover for Amazing Grace Tee (docs/design-briefs.md #64) |
 
 Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from docs/market-research.md (same person, new design where noted). Rows 65–66 were added for the two new briefs (#34, #35).

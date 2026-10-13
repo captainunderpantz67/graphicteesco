@@ -90,6 +90,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-thanksgiving-give-thanks-harvest-graphic-tee': { src: '/covers/unisex-thanksgiving-give-thanks-harvest-graphic-tee.webp', alt: 'Man at a farm stand on a fall afternoon with pumpkins and hay bales behind him wearing the Give Thanks Harvest tee' },
   'unisex-thanksgiving-give-thanks-harvest-crewneck-sweatshirt': { src: '/covers/unisex-thanksgiving-give-thanks-harvest-crewneck-sweatshirt.webp', alt: 'Woman on a farmhouse porch in late fall with pumpkins on the steps wearing the Give Thanks Harvest crewneck sweatshirt' },
   'unisex-fishing-lake-life-graphic-tee': { src: '/covers/unisex-fishing-lake-life-graphic-tee.webp', alt: 'Man on a wooden dock at a lake at sunrise with pines on the far shore behind him wearing the Lake Life tee' },
+  'mens-hunting-opening-day-graphic-tee': { src: '/covers/mens-hunting-opening-day-graphic-tee.webp', alt: 'Man outside a rustic hunting cabin at dawn by a frosty field with fall trees behind him wearing the Opening Day tee' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

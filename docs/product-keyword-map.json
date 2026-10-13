@@ -1629,6 +1629,36 @@
      "kd": 36
     }
    ]
+  },
+  "mens-hunting-opening-day-graphic-tee": {
+   "claimed": [
+    "whitetail shirt",
+    "deer shirt men",
+    "buck shirt",
+    "opening day shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "whitetail shirt",
+     "volume": 320,
+     "kd": 32
+    },
+    {
+     "phrase": "deer shirt men",
+     "volume": 260,
+     "kd": 32
+    },
+    {
+     "phrase": "buck shirt",
+     "volume": 720,
+     "kd": 46
+    },
+    {
+     "phrase": "opening day shirt",
+     "volume": 20,
+     "kd": 48
+    }
+   ]
   }
  }
 }
