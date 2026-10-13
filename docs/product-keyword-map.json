@@ -1515,6 +1515,24 @@
      "kd": 66
     }
    ]
+  },
+  "womens-christmas-merry-bright-trees-graphic-tee": {
+   "claimed": [
+    "evergreen shirt",
+    "pine tree shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "evergreen shirt",
+     "volume": 390,
+     "kd": 31
+    },
+    {
+     "phrase": "pine tree shirt",
+     "volume": 170,
+     "kd": 52
+    }
+   ]
   }
  }
 }
