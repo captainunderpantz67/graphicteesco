@@ -1701,6 +1701,30 @@
      "kd": 64
     }
    ]
+  },
+  "unisex-christmas-deer-camp-christmas-crewneck-sweatshirt": {
+   "claimed": [
+    "buck sweatshirt",
+    "hunting sweatshirt",
+    "deer sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "buck sweatshirt",
+     "volume": 1000,
+     "kd": 24
+    },
+    {
+     "phrase": "hunting sweatshirt",
+     "volume": 3600,
+     "kd": 34
+    },
+    {
+     "phrase": "deer sweatshirt",
+     "volume": 590,
+     "kd": 47
+    }
+   ]
   }
  }
 }
