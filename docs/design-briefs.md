@@ -1207,7 +1207,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Proof:** winter-bird / cardinal Christmas art is a long-running Etsy staple (cardinal sweatshirt 480 searches, 5,014 listings); muted vintage Christmas-card look from the 2026-10-13 style study
 - **Cover model:** registry #101 (reserved)
 
-### 70. Women's Christmas – Cardinal Christmas Crewneck Sweatshirt  *(new)*
+### 70. Women's Christmas – Cardinal Christmas Crewneck Sweatshirt  *(built 2026-10-13)*
 - **Handle:** `womens-christmas-cardinal-christmas-crewneck-sweatshirt` · **Blank:** Gildan 18000 crewneck sweatshirt (Printful #145), $39.99
 - **Art:** same file as #69 (no new generation)
 - **Shirt colors:** White, Ash, Sport Grey, Sand, Light Pink, Light Blue

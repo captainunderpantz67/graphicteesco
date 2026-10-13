@@ -1779,6 +1779,24 @@
      "kd": 46
     }
    ]
+  },
+  "womens-christmas-cardinal-christmas-crewneck-sweatshirt": {
+   "claimed": [
+    "cardinal sweatshirt",
+    "vintage christmas sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cardinal sweatshirt",
+     "volume": 480,
+     "kd": 46
+    },
+    {
+     "phrase": "vintage christmas sweatshirt",
+     "volume": 5400,
+     "kd": 52
+    }
+   ]
   }
  }
 }
