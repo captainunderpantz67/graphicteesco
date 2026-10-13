@@ -975,3 +975,176 @@ python3 scripts/fal-photo.py --design designs/turkey-day-crew-art.jpg --name tur
     --shirt "natural" --fit "unisex classic-fit cotton t-shirt" \
     --cover unisex-thanksgiving-turkey-day-crew-graphic-tee
 ```
+
+## Approved batch 1 — style v3 (Sam approved in session 2026-10-13; art supplied, no new art generation)
+Art QC v3: batch 1 is the minimum bar. Keywords measured with scripts/keyword-gap.py + RankHero on 2026-10-13.
+
+### 55. Unisex Christmas – Vintage Santa Tee  *(batch 1)*
+- **Handle:** `unisex-christmas-vintage-santa-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee), $29.99
+- **Art:** Vintage Santa face, rosy cheeks, red cap, full beard with crackled worn-paint texture, no backing shape; MERRY CHRISTMAS in faded red distressed block caps. Style v3 A (vintage to the edges). Source: https://v3b.fal.media/files/b/0aae3bd4/DR4Z7WNpuNoDoRgzryr4A_BZ3b6G2r.webp → designs/vintage-santa.png
+- **Text on shirt:** MERRY CHRISTMAS
+- **Shirt colors:** Natural, Soft Cream, Heather Dust, Athletic Heather
+- **Primary keyword:** merry christmas shirt — 880 / KD 73
+- **Variants:** santa face shirt 70 / 60
+- **Proof:** approved by Sam 2026-10-13 against the Etsy style study (docs/style-study-2026-10-13.md)
+- **Cover model:** registry #87 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/vintage-santa.png --name santa-u --model seedream \
+    --person "Cuban-American man in his early 40s, short black hair and a neat salt-and-pepper beard, medium build" \
+    --scene "on a small-town main street at dusk with wreaths on the lampposts and shop windows lit for Christmas behind him" \
+    --shirt "natural" --fit "unisex classic-fit cotton t-shirt" \
+    --cover unisex-christmas-vintage-santa-graphic-tee
+```
+
+### 56. Women's Christmas – Vintage Santa Tee  *(batch 1)*
+- **Handle:** `womens-christmas-vintage-santa-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee), $29.99
+- **Art:** Vintage Santa face, rosy cheeks, red cap, full beard with crackled worn-paint texture, no backing shape; MERRY CHRISTMAS in faded red distressed block caps. Style v3 A (vintage to the edges). Source: https://v3b.fal.media/files/b/0aae3bd4/DR4Z7WNpuNoDoRgzryr4A_BZ3b6G2r.webp → designs/vintage-santa.png
+- **Text on shirt:** MERRY CHRISTMAS
+- **Shirt colors:** White, Natural, Heather Stone, Athletic Heather
+- **Primary keyword:** vintage christmas shirt — 1,000 / KD 68
+- **Variants:** classic santa shirt 10 / 49
+- **Proof:** approved by Sam 2026-10-13 against the Etsy style study (docs/style-study-2026-10-13.md)
+- **Cover model:** registry #88 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/vintage-santa.png --name santa-w --model seedream \
+    --person "Irish-American woman in her early 30s, shoulder-length wavy auburn hair, light freckles, slim build" \
+    --scene "at an outdoor Christmas market at night with wooden stalls, string lights and pine garlands behind her" \
+    --shirt "natural" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-christmas-vintage-santa-graphic-tee
+```
+
+### 57. Unisex Christmas – Vintage Santa Crewneck Sweatshirt  *(batch 1)*
+- **Handle:** `unisex-christmas-vintage-santa-crewneck-sweatshirt` · **Blank:** Gildan 18000 crewneck sweatshirt (Printful #145), $39.99
+- **Art:** Vintage Santa face, rosy cheeks, red cap, full beard with crackled worn-paint texture, no backing shape; MERRY CHRISTMAS in faded red distressed block caps. Style v3 A (vintage to the edges). Source: https://v3b.fal.media/files/b/0aae3bd4/DR4Z7WNpuNoDoRgzryr4A_BZ3b6G2r.webp → designs/vintage-santa.png
+- **Text on shirt:** MERRY CHRISTMAS
+- **Shirt colors:** Sand, White, Sport Grey
+- **Primary keyword:** merry christmas sweatshirt — 2,400 / KD 56
+- **Variants:** santa sweatshirt 880 / 66
+- **Proof:** approved by Sam 2026-10-13 against the Etsy style study (docs/style-study-2026-10-13.md)
+- **Cover model:** registry #89 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/vintage-santa.png --name santa-c --model seedream \
+    --person "Japanese-American woman in her late 20s, straight black hair in a low ponytail, slim build" \
+    --scene "in a cabin living room with a lit Christmas tree and a stone fireplace behind her, holding a mug of hot cocoa at her side" \
+    --shirt "sand-colored" --fit "unisex crewneck sweatshirt" \
+    --cover unisex-christmas-vintage-santa-crewneck-sweatshirt
+```
+
+### 58. Women's Christmas – Merry & Bright Trees Tee  *(batch 1)*
+- **Handle:** `womens-christmas-merry-bright-trees-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee), $29.99
+- **Art:** Row of five thin-line evergreen trees, small star and snowflakes above, single-weight cream line (embroidery look). Style v3 B. Green preview background keyed out to cream-on-transparent. Source: https://v3b.fal.media/files/b/0aae3f0a/dUNz9PsVnYRNuxb1OHBBW_np13dVx7.webp → designs/merry-bright-trees.png
+- **Text on shirt:** Merry & Bright (script)
+- **Shirt colors:** Military Green, Maroon, Navy, Black
+- **Primary keyword:** evergreen shirt — 390 / KD 31
+- **Variants:** pine tree shirt 170 / 52
+- **Proof:** approved by Sam 2026-10-13 against the Etsy style study (docs/style-study-2026-10-13.md)
+- **Cover model:** registry #90 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/merry-bright-trees.png --name trees-w --model seedream \
+    --person "Lebanese-American woman in her mid-30s, long dark-brown hair with soft waves worn behind her shoulders, medium build" \
+    --scene "at the edge of a snowy pine forest beside a small wooden cabin with smoke rising from the chimney" \
+    --shirt "military green" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-christmas-merry-bright-trees-graphic-tee
+```
+
+### 59. Women's Christmas – Merry & Bright Trees Crewneck Sweatshirt  *(batch 1)*
+- **Handle:** `womens-christmas-merry-bright-trees-crewneck-sweatshirt` · **Blank:** Gildan 18000 crewneck sweatshirt (Printful #145), $39.99
+- **Art:** Row of five thin-line evergreen trees, small star and snowflakes above, single-weight cream line (embroidery look). Style v3 B. Green preview background keyed out to cream-on-transparent. Source: https://v3b.fal.media/files/b/0aae3f0a/dUNz9PsVnYRNuxb1OHBBW_np13dVx7.webp → designs/merry-bright-trees.png
+- **Text on shirt:** Merry & Bright (script)
+- **Shirt colors:** Forest Green, Military Green, Maroon, Navy
+- **Primary keyword:** christmas tree sweatshirt — 390 / KD 70
+- **Variants:** christmas sweatshirt women 5,400 / 62
+- **Proof:** approved by Sam 2026-10-13 against the Etsy style study (docs/style-study-2026-10-13.md)
+- **Cover model:** registry #91 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/merry-bright-trees.png --name trees-c --model seedream \
+    --person "Samoan-American woman in her early 40s, thick wavy black hair pulled into a low bun, broad build" \
+    --scene "at a Christmas tree farm at dusk with rows of trees and string lights behind her, holding a mug of hot cocoa at her side" \
+    --shirt "maroon" --fit "crewneck sweatshirt" \
+    --cover womens-christmas-merry-bright-trees-crewneck-sweatshirt
+```
+
+### 60. Unisex Thanksgiving – Give Thanks Harvest Tee  *(batch 1)*
+- **Handle:** `unisex-thanksgiving-give-thanks-harvest-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee), $29.99
+- **Art:** Woven harvest basket of pumpkins, gourds, berries, leaves and wheat; GIVE THANKS in sun-faded distressed block letters. Style v3 A. Source: https://v3b.fal.media/files/b/0aae3edf/iJaFc_0m2VATBuBVyXjb9_HBBA4J1b.webp → designs/give-thanks-harvest.png
+- **Text on shirt:** GIVE THANKS
+- **Shirt colors:** Natural, Soft Cream, Heather Dust, Athletic Heather
+- **Primary keyword:** harvest t shirt — 170 / KD 34
+- **Variants:** thankful t shirt 90 / 42, pumpkin shirt 2,900 / 61
+- **Proof:** approved by Sam 2026-10-13 against the Etsy style study (docs/style-study-2026-10-13.md)
+- **Cover model:** registry #92 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/give-thanks-harvest.png --name thanks-u --model seedream \
+    --person "Black man in his mid-50s, short grey hair and a trimmed grey beard, broad build" \
+    --scene "at a farm stand on a sunny fall afternoon with crates of pumpkins, hay bales and corn stalks behind him" \
+    --shirt "natural" --fit "unisex classic-fit cotton t-shirt" \
+    --cover unisex-thanksgiving-give-thanks-harvest-graphic-tee
+```
+
+### 61. Unisex Thanksgiving – Give Thanks Harvest Crewneck Sweatshirt  *(batch 1)*
+- **Handle:** `unisex-thanksgiving-give-thanks-harvest-crewneck-sweatshirt` · **Blank:** Gildan 18000 crewneck sweatshirt (Printful #145), $39.99
+- **Art:** Woven harvest basket of pumpkins, gourds, berries, leaves and wheat; GIVE THANKS in sun-faded distressed block letters. Style v3 A. Source: https://v3b.fal.media/files/b/0aae3edf/iJaFc_0m2VATBuBVyXjb9_HBBA4J1b.webp → designs/give-thanks-harvest.png
+- **Text on shirt:** GIVE THANKS
+- **Shirt colors:** Sand, White, Sport Grey
+- **Primary keyword:** thankful sweatshirt — 390 / KD 60
+- **Variants:** pumpkin sweatshirt 1,000 / 62, fall sweatshirt 1,900 / 61
+- **Proof:** approved by Sam 2026-10-13 against the Etsy style study (docs/style-study-2026-10-13.md)
+- **Cover model:** registry #93 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/give-thanks-harvest.png --name thanks-c --model seedream \
+    --person "Polish-American woman in her early 60s, short spiky white hair, soft build, red-framed glasses" \
+    --scene "on a farmhouse porch in late fall with pumpkins on the steps and bare trees behind her, holding a mug of coffee at her side" \
+    --shirt "sand-colored" --fit "unisex crewneck sweatshirt" \
+    --cover unisex-thanksgiving-give-thanks-harvest-crewneck-sweatshirt
+```
+
+### 62. Unisex Fishing – Lake Life Tee  *(batch 1)*
+- **Handle:** `unisex-fishing-lake-life-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee), $29.99
+- **Art:** Largemouth bass leaping from a splash, dock, cabin and pines behind under a hazy sun; LAKE LIFE in heavy worn block caps. Style v3 A. Source: https://v3b.fal.media/files/b/0aae3f0b/8UGpjsi97M-YJ0BhRU_EJ_eDYIg10r.webp → designs/lake-life.png
+- **Text on shirt:** LAKE LIFE
+- **Shirt colors:** White, Natural, Athletic Heather, Ash
+- **Primary keyword:** lake shirt — 1,300 / KD 55
+- **Variants:** lake life shirt 260 / 63, bass shirt 720 / 52, largemouth bass shirt 140 / 36
+- **Proof:** approved by Sam 2026-10-13 against the Etsy style study (docs/style-study-2026-10-13.md)
+- **Cover model:** registry #94 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/lake-life.png --name bass --model seedream \
+    --person "white man in his early 30s, short sandy-blond hair, light stubble, lean build" \
+    --scene "on a wooden dock at a lake at sunrise with pines on the far shore behind him and a fishing rod leaning against the dock post at his side" \
+    --shirt "white" --fit "unisex classic-fit cotton t-shirt" \
+    --cover unisex-fishing-lake-life-graphic-tee
+```
+
+### 63. Men's Hunting – Opening Day Tee  *(batch 1)*
+- **Handle:** `mens-hunting-opening-day-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee), $29.99
+- **Art:** Whitetail buck with a heavy rack standing in a fall meadow with wildflowers, hills and bare trees fading out; OPENING DAY in sun-faded orange block caps. Style v3 A. Source: https://v3b.fal.media/files/b/0aae3ee2/P0OpWshK8zVs_dNu-MXzB_tOkORWBk.webp → designs/opening-day.png
+- **Text on shirt:** OPENING DAY
+- **Shirt colors:** Natural, Vintage White, Heather Dust, Athletic Heather
+- **Primary keyword:** whitetail shirt — 320 / KD 32
+- **Variants:** deer shirt men 260 / 32, buck shirt 720 / 46, opening day shirt 20 / 48
+- **Proof:** approved by Sam 2026-10-13 against the Etsy style study (docs/style-study-2026-10-13.md)
+- **Cover model:** registry #95 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/opening-day.png --name buck --model seedream \
+    --person "Salvadoran-American man in his late 40s, shaved head, short black goatee, stocky build" \
+    --scene "outside a rustic hunting cabin at dawn at the edge of a frosty field with fall trees behind him, holding a thermos cup of coffee at his side" \
+    --shirt "natural" --fit "unisex classic-fit cotton t-shirt" \
+    --cover mens-hunting-opening-day-graphic-tee
+```
+
+### 64. Women's Christian – Amazing Grace Tee  *(batch 1)*
+- **Handle:** `womens-christian-amazing-grace-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee), $29.99
+- **Art:** Wooden cross on a wildflower hill with fine rays of light, single-weight cream line (embroidery look). Style v3 B. Sage preview background keyed out. Source: https://v3b.fal.media/files/b/0aae3ee3/8BPkoRZUZMceoeAaxm0rR_p8HMwl1K.webp → designs/amazing-grace.png
+- **Text on shirt:** Amazing Grace (script)
+- **Shirt colors:** Black, Navy, Maroon, Military Green
+- **Primary keyword:** amazing grace shirt — 70 / KD 49
+- **Variants:** cross shirt 3,600 / 51, minimalist christian shirt 140 / 68
+- **Proof:** approved by Sam 2026-10-13 against the Etsy style study (docs/style-study-2026-10-13.md)
+- **Cover model:** registry #96 (reserved)
+```bash
+python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --model seedream \
+    --person "Ghanaian-American woman in her late 20s, short natural curls, slim build, small gold stud earrings" \
+    --scene "outside a small white country church on a sunny fall morning with a gravel path and maple trees behind her" \
+    --shirt "black" --fit "relaxed-fit women's cotton t-shirt" \
+    --cover womens-christian-amazing-grace-graphic-tee
+```

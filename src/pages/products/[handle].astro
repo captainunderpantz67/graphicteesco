@@ -9,7 +9,7 @@ import { coverFor } from '../../data/covers';
 export async function getStaticPaths() {
   const products = await getAllProducts();
   // Twin = same design name on the other blank ("Bass at Dawn Tee" <-> "Bass at Dawn Hoodie").
-  const base = (t: string) => t.replace(/\s+(tee|t-shirt|shirt|hoodie)$/i, '').trim().toLowerCase();
+  const base = (t: string) => t.replace(/\s+(tee|t-shirt|shirt|hoodie|crewneck sweatshirt)$/i, '').trim().toLowerCase();
   return products.map((p) => ({
     params: { handle: p.handle },
     props: {
@@ -22,6 +22,8 @@ export async function getStaticPaths() {
 const { product: p, twin, related } = Astro.props as { product: Product; twin?: Product; related: Product[] };
 
 const isHoodie = /hood/i.test(p.productType) || /hood/i.test(p.title);
+const isSweat = !isHoodie && /sweatshirt|crewneck/i.test(p.productType + ' ' + p.title);
+const garment = isHoodie ? 'hoodie' : isSweat ? 'crewneck sweatshirt' : 'tee';
 const SIZE_ORDER = ['XXS', 'XS', 'S', 'M', 'L', 'XL', '2XL', 'XXL', '3XL', '4XL', '5XL'];
 const optionValues = (name: string) => {
   const vals = [...new Set(p.variants.flatMap((v) => v.selectedOptions.filter((o) => o.name === name).map((o) => o.value)))];
@@ -57,7 +59,7 @@ const questionsHtml = sections['questions'] || '';
 const qa = [...questionsHtml.matchAll(/<p><strong>(.*?)<\/strong><br>(.*?)<\/p>/gi)].map((m) => ({
   q: m[1].replace(/<[^>]+>/g, ''), a: m[2].replace(/<[^>]+>/g, ''),
 }));
-const careQ = { q: `How do I wash this ${isHoodie ? 'hoodie' : 'graphic tee'}?`, a: 'Inside out, cold water, gentle cycle. Skip bleach and fabric softener, then hang dry or tumble dry low. Never iron directly on the print.' };
+const careQ = { q: `How do I wash this ${isHoodie ? 'hoodie' : isSweat ? 'sweatshirt' : 'graphic tee'}?`, a: 'Inside out, cold water, gentle cycle. Skip bleach and fabric softener, then hang dry or tumble dry low. Never iron directly on the print.' };
 const faqs = [...qa, careQ];
 const hook = (story.match(/<p>(.*?)<\/p>/i)?.[1] ?? '').replace(/<[^>]+>/g, '').split(/(?<=\.)\s/).slice(0, 2).join(' ');
 
@@ -79,10 +81,10 @@ const colorOf = (url: string): string => colorSlugs.find(([, slug]) => url.toLow
 const heroColor = images[0] ? colorOf(images[0].url) : '';
 if (heroColor) { colors.splice(colors.indexOf(heroColor), 1); colors.unshift(heroColor); }
 // Alt text: keep a hand-written one; otherwise build it from the title + the color/angle in Printful's filename
-const designName = (p.title.split(/\s[–-]\s/).pop() ?? p.title).replace(/\s+(tee|t-shirt|hoodie)$/i, '');
+const designName = (p.title.split(/\s[–-]\s/).pop() ?? p.title).replace(/\s+(tee|t-shirt|hoodie|crewneck sweatshirt)$/i, '');
 const niche = (p.title.split(/\s[–-]\s/)[0] ?? '').toLowerCase();
 // H1 carries the keyword: "Diamond Days" + "Baseball Mom Tee" (audience word dropped; niche not repeated if the design already says it).
-const typeWord = isHoodie ? 'Hoodie' : 'Tee';
+const typeWord = isHoodie ? 'Hoodie' : isSweat ? 'Crewneck Sweatshirt' : 'Tee';
 const h1Design = designName;
 const nicheLabel = (p.title.split(/\s[–-]\s/)[0] ?? '').replace(/^(women's|men's|unisex)\s+/i, '').trim();
 const h1Niche = (designName.toLowerCase().includes(nicheLabel.toLowerCase()) ? '' : nicheLabel + ' ') + typeWord;
@@ -92,10 +94,10 @@ const altFor = (img: { url: string; altText?: string | null }) => {
   const file = img.url.split('/').pop()?.split('?')[0] ?? '';
   const view = VIEWS.find(([k]) => file.includes(`-${k}-`))?.[1];
   const color = colorOf(img.url).toLowerCase();
-  return [`${designName} ${niche} graphic ${isHoodie ? 'hoodie' : 'tee'}`.replace(/\s+/g, ' '), color, view].filter(Boolean).join(', ');
+  return [`${designName} ${niche} graphic ${garment}`.replace(/\s+/g, ' '), color, view].filter(Boolean).join(', ');
 };
 ---
-<Base title={p.seo?.title || `${p.title} — ${isHoodie ? 'Graphic Hoodie' : 'Graphic Tee'}`} description={p.seo?.description || p.description.slice(0, 155)}
+<Base title={p.seo?.title || `${p.title} — ${isHoodie ? 'Graphic Hoodie' : isSweat ? 'Crewneck Sweatshirt' : 'Graphic Tee'}`} description={p.seo?.description || p.description.slice(0, 155)}
   image={p.featuredImage?.url}
   schema={[productSchema(p), faqPage(faqs), breadcrumbs([{ name: 'Home', path: '/' }, ...(primary ? [{ name: primary.h1, path: pathFor(primary) }] : []), { name: p.title, path: `/products/${p.handle}/` }])]}>
 
@@ -143,7 +145,7 @@ const altFor = (img: { url: string; altText?: string | null }) => {
 
     <!-- BUY BOX: short and clean -->
     <div class="min-w-0">
-      <p class="eyebrow">{primary?.h1 ?? (isHoodie ? 'Graphic hoodie' : 'Graphic tee')}</p>
+      <p class="eyebrow">{primary?.h1 ?? (isHoodie ? 'Graphic hoodie' : isSweat ? 'Crewneck sweatshirt' : 'Graphic tee')}</p>
       <h1 class="mt-2">
         <span class="display block text-[clamp(2.6rem,6vw,4.2rem)] leading-[.9]">{h1Design}</span>{' '}
         <span class="mt-1 block text-sm font-semibold uppercase tracking-[.12em] text-[var(--color-ink-2)]">{h1Niche}</span>
@@ -196,7 +198,7 @@ const altFor = (img: { url: string; altText?: string | null }) => {
       {twin && (
         <a href={`/products/${twin.handle}/`} class="mt-6 flex items-center gap-4 rounded-2xl border-2 border-[var(--color-ink)] bg-[var(--color-cream)] p-3 hover:bg-[var(--color-mustard)] transition-colors">
           {twin.featuredImage && <img src={`${twin.featuredImage.url}&width=160`} alt="" width="56" height="56" class="w-14 h-14 rounded-lg object-contain bg-white" loading="lazy" />}
-          <span class="text-sm"><span class="block font-extrabold uppercase tracking-[.1em] text-xs text-[var(--color-rust-2)]">Same design</span>Also as a {/hood/i.test(twin.productType) || /hood/i.test(twin.title) ? 'hoodie' : 'tee'} →</span>
+          <span class="text-sm"><span class="block font-extrabold uppercase tracking-[.1em] text-xs text-[var(--color-rust-2)]">Same design</span>Also as a {/hood/i.test(twin.productType) || /hood/i.test(twin.title) ? 'hoodie' : /sweatshirt|crewneck/i.test(twin.title) ? 'crewneck sweatshirt' : 'tee'} →</span>
         </a>
       )}
 

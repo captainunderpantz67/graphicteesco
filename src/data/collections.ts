@@ -283,13 +283,13 @@ function niche(
 function seasonal(
   season: 'halloween' | 'thanksgiving' | 'christmas',
   section: Section,
-  o: { slug: string; keyword: string; volume: number; kd: number; product: string; twin?: string; blurb: string; extra?: Faq[]; intro?: string; sections?: { h2: string; body: string }[]; title?: string; description?: string },
+  o: { slug: string; keyword: string; volume: number; kd: number; product: string; twin?: string; blurb: string; extra?: Faq[]; intro?: string; sections?: { h2: string; body: string }[]; title?: string; description?: string; name?: string },
 ): Collection {
   const label = titleCase(season);
   return {
     slug: o.slug,
     section,
-    name: `${label} ${section === 'hoodies' ? 'Hoodies' : 'Tees'}`,
+    name: o.name ?? `${label} ${section === 'hoodies' ? 'Hoodies' : 'Tees'}`,
     keyword: o.keyword,
     volume: o.volume,
     kd: o.kd,
@@ -467,6 +467,38 @@ export const tees: Collection[] = [
       { h2: 'Not an ugly sweater', body: 'These are soft cotton tees with illustrated art, not novelty knits or light-up gags. They’re meant to be worn all December and pulled out again next year. Lightweight cotton also means you won’t overheat in a crowded living room with the fire going.' },
       { h2: 'Matching Christmas shirts', body: 'Pick one design in several sizes for the family photo, or let everyone choose their own scene and let the shared vintage style tie them together. The unisex designs make it easy for couples to match.' },
       { h2: 'Order before December gets busy', body: 'Each shirt is printed after you order it and then shipped, so order early in the season. Delivery estimates show at checkout, and new holiday designs join the collection as they’re drawn.' },
+    ] }),
+  // Holiday crewnecks (Sam, 2026-10-13; KD exception approved): Gildan 18000 crewneck sweatshirts, $39.99. RankHero 2026-10-13:
+  // christmas sweatshirt 22,200/57 · merry christmas sweatshirt 2,400/56 · christmas crewneck 1,900/60 · christmas tree sweatshirt 390/70.
+  seasonal('christmas', 'tees', { slug: 'christmas-sweatshirts', name: 'Christmas Sweatshirts', keyword: 'christmas sweatshirt', volume: 22200, kd: 57, product: 'Christmas sweatshirts', blurb: 'vintage holiday art on soft crewneck fleece, for the tree farm, the cabin and the family photo.',
+    title: 'Christmas Sweatshirts — Vintage Santa & Tree Crewnecks',
+    description: 'Original Christmas sweatshirts: a cracked-paint vintage Santa and a row of hand-drawn trees on soft crewneck fleece. Printed to order, $39.99.',
+    intro: 'Our Christmas sweatshirts carry the same original holiday art as the tees, printed on a soft, warm crewneck for the cold half of December. Vintage illustration and simple line art, no ugly-sweater gags.',
+    sections: [
+      { h2: 'Two kinds of Christmas art', body: 'One side of the collection is vintage illustration: a 1950s-style Santa face with rosy cheeks and a cracked, worn finish over MERRY CHRISTMAS in faded red type. The other is quiet line art: a row of five thin evergreen trees under a star and a few snowflakes, with Merry & Bright in a small script line. Both sit straight on the fabric with no badge or box behind them.' },
+      { h2: 'What the crewneck is like', body: 'Each one is printed on a classic-fit crewneck sweatshirt: 50% cotton, 50% polyester fleece with air-jet spun yarn, pre-shrunk, with a ribbed collar, cuffs and hem. It is a sweatshirt, not a hoodie, so it layers under a coat or over a collared shirt.' },
+      { h2: 'Where to wear a Christmas crewneck', body: 'The tree farm, a cold walk to see the neighborhood lights, a cabin weekend, the school concert or Christmas morning on the couch. The light Santa design reads well in the family photo; the tree line art on forest green or maroon is the one to wear all winter.' },
+      { h2: 'Matching sweatshirts', body: 'Every design comes in a wide size run, so a family or a group of friends can order the same Christmas crewneck. The same art also comes on tees if someone at the table runs warm.' },
+      { h2: 'When to order', body: 'Each sweatshirt is printed after you order it, then shipped. Order early in December so it arrives before your plans; delivery estimates show at checkout.' },
+    ],
+    extra: [
+      { q: 'Are these sweatshirts or hoodies?', a: 'Crewneck sweatshirts, with no hood. They are cotton-polyester fleece with a ribbed collar, cuffs and hem.' },
+      { q: 'Do the Christmas sweatshirts match your Christmas tees?', a: 'Yes. Each sweatshirt uses the same art as one of our Christmas tees, so you can mix the two in a family photo.' },
+    ] }),
+  // RankHero 2026-10-13: thanksgiving sweatshirt 1,300/56 · thankful sweatshirt 390/60 · pumpkin sweatshirt 1,000/62 · fall sweatshirt 1,900/61.
+  seasonal('thanksgiving', 'tees', { slug: 'thanksgiving-sweatshirts', name: 'Thanksgiving Sweatshirts', keyword: 'thanksgiving sweatshirt', volume: 1300, kd: 56, product: 'Thanksgiving sweatshirts', blurb: 'harvest art on soft crewneck fleece for cold November mornings and the long table.',
+    title: 'Thanksgiving Sweatshirts — Vintage Harvest Crewnecks',
+    description: 'Original Thanksgiving sweatshirts: a vintage harvest basket of pumpkins and wheat under GIVE THANKS on a soft crewneck. Printed to order, $39.99.',
+    intro: 'Our Thanksgiving sweatshirts put original harvest art on a warm crewneck: something soft for the cold morning walk, the parade on TV and the long table that follows.',
+    sections: [
+      { h2: 'Harvest art, drawn like an old print', body: 'GIVE THANKS sits in worn, sun-faded block letters over a woven basket piled with pumpkins, gourds, wheat and autumn leaves. The edges break up like a screen print that has been through the wash a hundred times, so it reads as vintage rather than clip art.' },
+      { h2: 'What the crewneck is like', body: 'Classic-fit crewneck sweatshirt in 50% cotton, 50% polyester fleece with air-jet spun yarn, pre-shrunk, with a ribbed collar, cuffs and hem. It is a sweatshirt, not a hoodie.' },
+      { h2: 'Where to wear it', body: 'The turkey trot warm-up, the drive to the in-laws, the backyard football game, the pumpkin patch or the couch for the afternoon game. It keeps working as a fall sweatshirt well past the holiday.' },
+      { h2: 'When to order', body: 'Each sweatshirt is printed after you order it, then shipped. Order in early November so it arrives before the holiday; delivery estimates show at checkout.' },
+    ],
+    extra: [
+      { q: 'Are these sweatshirts or hoodies?', a: 'Crewneck sweatshirts, with no hood, in cotton-polyester fleece.' },
+      { q: 'Does the design also come on a tee?', a: 'Yes. The harvest basket art is also printed on a unisex tee in our Thanksgiving shirts collection.' },
     ] }),
 ];
 

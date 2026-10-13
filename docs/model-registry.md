@@ -91,5 +91,15 @@ Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/desig
 | 84 | Black woman in her mid-20s, shoulder-length locs, slim build, small gold nose stud | USED 2026-10-10 — Friendsgiving cover (fal Kontext Pro, candlelit apartment dinner; try 1 kept) |
 | 85 | Indian-American woman in her mid-30s, long wavy dark-brown hair, medium build, small gold hoops | RESERVED — cover for Gobble Gobble Tee (docs/design-briefs.md #53) |
 | 86 | Filipino-American man in his early 50s, short salt-and-pepper hair, round glasses, medium build | RESERVED — cover for Turkey Day Crew Tee (docs/design-briefs.md #54) |
+| 87 | Cuban-American man in his early 40s, short black hair and a neat salt-and-pepper beard, medium build | RESERVED — cover for Vintage Santa Tee (docs/design-briefs.md #55) |
+| 88 | Irish-American woman in her early 30s, shoulder-length wavy auburn hair, light freckles, slim build | RESERVED — cover for Vintage Santa Tee (docs/design-briefs.md #56) |
+| 89 | Japanese-American woman in her late 20s, straight black hair in a low ponytail, slim build | RESERVED — cover for Vintage Santa Crewneck Sweatshirt (docs/design-briefs.md #57) |
+| 90 | Lebanese-American woman in her mid-30s, long dark-brown hair with soft waves worn behind her shoulders, medium build | RESERVED — cover for Merry & Bright Trees Tee (docs/design-briefs.md #58) |
+| 91 | Samoan-American woman in her early 40s, thick wavy black hair pulled into a low bun, broad build | RESERVED — cover for Merry & Bright Trees Crewneck Sweatshirt (docs/design-briefs.md #59) |
+| 92 | Black man in his mid-50s, short grey hair and a trimmed grey beard, broad build | RESERVED — cover for Give Thanks Harvest Tee (docs/design-briefs.md #60) |
+| 93 | Polish-American woman in her early 60s, short spiky white hair, soft build, red-framed glasses | RESERVED — cover for Give Thanks Harvest Crewneck Sweatshirt (docs/design-briefs.md #61) |
+| 94 | White man in his early 30s, short sandy-blond hair, light stubble, lean build | RESERVED — cover for Lake Life Tee (docs/design-briefs.md #62) |
+| 95 | Salvadoran-American man in his late 40s, shaved head, short black goatee, stocky build | RESERVED — cover for Opening Day Tee (docs/design-briefs.md #63) |
+| 96 | Ghanaian-American woman in her late 20s, short natural curls, slim build, small gold stud earrings | RESERVED — cover for Amazing Grace Tee (docs/design-briefs.md #64) |
 
 Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from docs/market-research.md (same person, new design where noted). Rows 65–66 were added for the two new briefs (#34, #35).
