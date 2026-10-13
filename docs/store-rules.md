@@ -30,6 +30,9 @@ Batch 1 (approved 2026-10-13) is the MINIMUM bar; each batch should beat the las
 7. **Brand-safe + original:** no licensed characters, logos, team marks, song/movie titles or trademarked phrases; no near-copy of any single seller's composition.
 8. **Prints clean:** after print-prep the background is fully removed; light art goes on dark blanks, dark art on light blanks; nothing important prints as shirt color by accident.
 
+## Colors (Sam, 2026-10-13)
+Offer every Printful color the art prints legibly on (not a fixed 4). ≤250 variants per product. One front mockup per color; the product page shows only the selected color's photos.
+
 ## Holiday crewnecks (Sam, 2026-10-13)
 - Every new Halloween / Thanksgiving / Christmas design ships as a tee AND a crewneck sweatshirt (separate products, each its own page).
 - Keyword-gate exception (Sam): holiday sweatshirt collections go ahead above KD 20 — "you'd be surprised how quickly I rank with this system." Measured: christmas sweatshirt 22,200/KD57, halloween sweatshirt 8,100/57, thanksgiving sweatshirt 1,300/56, christmas crewneck 1,900/60.
