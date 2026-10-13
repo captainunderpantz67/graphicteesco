@@ -1172,3 +1172,25 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Cover model:** registry #98 (reserved)
 
 *Christmas Tree Farm (brief A2) was dropped after 3 failed art generations (truck too close to Fresh Cut Christmas Trees; ornamental lettering; wheeled sled). Sam asked on Telegram.*
+
+## Christmas men's/unisex — batch A, design 2 (Sam approved the truck version on Telegram 2026-10-13)
+
+### 67. Unisex Christmas – Christmas Tree Farm Tee  *(new)*
+- **Handle:** `unisex-christmas-christmas-tree-farm-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee), $29.99
+- **Art:** Snowy Christmas tree farm: red barn with a wreath, snow-heavy pines, vintage red pickup with a cut tree in the bed, OPEN FOR CUTTING sign; CHRISTMAS TREE FARM arched in faded red block caps. Style v3 A. Recraft v4 try 1 (https://v3b.fal.media/files/b/0aae404a/uBytZTCXf_ArUAROi8cn__kt92MpGz.webp) — QC flagged the truck as close to Fresh Cut Christmas Trees; Sam reviewed and approved it → designs/tree-farm.png
+- **Text on shirt:** CHRISTMAS TREE FARM · OPEN FOR CUTTING
+- **Shirt colors (all legible, Sam's all-colors rule):** Natural, White, Vintage White, Soft Cream, Heather Natural, Heather Dust, Tan, Ash, Silver, Athletic Heather, Solid White Blend, Heather Ice Blue, Heather Prism Ice Blue, Light Blue, Baby Blue, Soft Pink
+- **Primary keyword:** christmas tree farm shirt — 90 / KD 61
+- **Variants:** tree farm shirt 30 / 72
+- **Proof:** style study 2026-10-13 (winter scene + red truck motifs in Etsy top listings); Sam's approval
+- **Cover model:** registry #99 (reserved)
+
+### 68. Unisex Christmas – Christmas Tree Farm Crewneck Sweatshirt  *(new)*
+- **Handle:** `unisex-christmas-christmas-tree-farm-crewneck-sweatshirt` · **Blank:** Gildan 18000 crewneck sweatshirt (Printful #145), $39.99
+- **Art:** Snowy Christmas tree farm: red barn with a wreath, snow-heavy pines, vintage red pickup with a cut tree in the bed, OPEN FOR CUTTING sign; CHRISTMAS TREE FARM arched in faded red block caps. Style v3 A. Recraft v4 try 1 (https://v3b.fal.media/files/b/0aae404a/uBytZTCXf_ArUAROi8cn__kt92MpGz.webp) — QC flagged the truck as close to Fresh Cut Christmas Trees; Sam reviewed and approved it → designs/tree-farm.png
+- **Text on shirt:** CHRISTMAS TREE FARM · OPEN FOR CUTTING
+- **Shirt colors (all legible, Sam's all-colors rule):** White, Sand, Ash, Sport Grey, Light Blue, Light Pink
+- **Primary keyword:** christmas crewneck — 1,900 / KD 60
+- **Variants:** winter sweatshirt 2,900 / 55
+- **Proof:** style study 2026-10-13 (winter scene + red truck motifs in Etsy top listings); Sam's approval
+- **Cover model:** registry #100 (reserved)

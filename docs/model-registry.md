@@ -103,5 +103,7 @@ Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/desig
 | 96 | Ghanaian-American woman in her late 20s, short natural curls, slim build, small gold stud earrings | USED 2026-10-13 — Amazing Grace tee cover (fal Seedream 4, white country church in fall; try 1 kept) |
 | 97 | Scottish-American man in his mid-50s, full grey-and-ginger beard, weathered face, broad build | USED 2026-10-13 — Deer Camp Christmas tee cover (fal Kontext Pro, snowy log cabin at dusk; try 1 Seedream rejected (rearranged the print), try 2 Kontext kept — it drew the shirt in a dark pine green close to our Forest) |
 | 98 | Ethiopian-American man in his early 30s, close-cropped hair, neat short beard, lean build | USED 2026-10-13 — Deer Camp Christmas crewneck cover (fal Seedream 4, cabin interior by the wood stove and tree; try 1 kept) |
+| 99 | Hawaiian man in his late 30s, short black hair, broad friendly face, stocky build | RESERVED — cover for Christmas Tree Farm Tee (docs/design-briefs.md #67) |
+| 100 | Iranian-American woman in her early 30s, long dark wavy hair, medium build | RESERVED — cover for Christmas Tree Farm Crewneck Sweatshirt (docs/design-briefs.md #68) |
 
 Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from docs/market-research.md (same person, new design where noted). Rows 65–66 were added for the two new briefs (#34, #35).
