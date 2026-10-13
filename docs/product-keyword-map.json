@@ -1683,6 +1683,24 @@
      "kd": 68
     }
    ]
+  },
+  "unisex-christmas-deer-camp-christmas-graphic-tee": {
+   "claimed": [
+    "deer camp shirt",
+    "hunting season shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "deer camp shirt",
+     "volume": 90,
+     "kd": 42
+    },
+    {
+     "phrase": "hunting season shirt",
+     "volume": 40,
+     "kd": 64
+    }
+   ]
   }
  }
 }
