@@ -109,5 +109,9 @@ Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/desig
 | 102 | Scottish-American woman in her mid 50s, short silver-blonde bob, freckles, medium build | USED 2026-10-13 — Cardinal Christmas crewneck cover (fal Seedream 4, farmhouse sunroom with bird feeder and tree; try 1 kept) |
 | 103 | Peruvian-American man in his late 20s, short wavy black hair, light stubble, athletic build | USED 2026-10-13 — Christmas Ski Lodge tee cover (fal Seedream 4, ski lodge deck at sunset; try 1 kept) |
 | 104 | Norwegian-American man in his mid 40s, sandy hair, short reddish beard, tall build | RESERVED — cover for Christmas Ski Lodge Crewneck Sweatshirt (#72) |
+| 105 | Navajo man in his late 30s, long black hair tied back, broad shoulders | RESERVED — cover for North Woods Moose Tee (#73) |
+| 106 | Polish-American man in his early 60s, white crew cut, clean-shaven, sturdy build | RESERVED — cover for North Woods Moose Crewneck Sweatshirt (#74) |
+| 107 | Black woman in her early 30s, natural curly hair in a high puff, slim build | RESERVED — cover for Winter Woods Fox Tee (#75) |
+| 108 | Korean-American woman in her early 40s, long straight black hair with a center part, medium build | RESERVED — cover for Winter Woods Fox Crewneck Sweatshirt (#76) |
 
 Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from docs/market-research.md (same person, new design where noted). Rows 65–66 were added for the two new briefs (#34, #35).

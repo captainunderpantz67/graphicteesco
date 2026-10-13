@@ -1229,3 +1229,30 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Art:** same file as #71
 - **Primary keyword:** ski sweatshirt — 1,600 / KD 38
 - **Cover model:** registry #104 (reserved)
+
+### 73. Unisex Christmas – North Woods Moose Tee  *(new)*
+- **Handle:** `unisex-christmas-north-woods-moose-graphic-tee` · **Blank:** Bella+Canvas 3001 (men's cut), $29.99
+- **Art:** Bull moose in deep snow by a frozen lake with a small wreath hanging from one antler, snowy pines, log cabin with chimney smoke, mountains; NORTH WOODS CHRISTMAS arched in faded red block caps. Style v3 A. Recraft v4 try 1 (https://v3b.fal.media/files/b/0aae46ca/Fk1tjUkyeyJTPZP1snAs5_H1OQzU9o.webp) → designs/moose.png
+- **Shirt colors:** every legible light 3001 color (dark moose + red lettering), ≤100 variants
+- **Primary keyword:** moose t shirt — 1,600 / KD 31 (RankHero 2026-10-13)
+- **Variants:** moose shirt 590 / 46
+- **Proof:** north-woods wildlife tees are a steady men's seller (moose sweatshirt 590 searches, KD 28); Sam's rugged men's Christmas list (cabin, hunting camp)
+- **Cover model:** registry #105 (reserved)
+
+### 74. Unisex Christmas – North Woods Moose Crewneck Sweatshirt  *(new)*
+- **Handle:** `unisex-christmas-north-woods-moose-crewneck-sweatshirt` · **Blank:** Gildan 18000 (#145), $39.99 · art = #73
+- **Primary keyword:** moose sweatshirt — 590 / KD 28
+- **Cover model:** registry #106 (reserved)
+
+### 75. Women's Christmas – Winter Woods Fox Tee  *(new)*
+- **Handle:** `womens-christmas-winter-woods-fox-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99
+- **Art:** Red fox curled asleep in fresh snow under snowy pine boughs with holly and red berries, snowflakes, tracks; "Winter Woods" in vintage serif above. Style v3 A. Recraft v4 try 1 (https://v3b.fal.media/files/b/0aae46ca/vQgJOtLyTL7xSYzKjyQ53_8WJbmTet.webp) → designs/fox.png
+- **Shirt colors:** every legible light 6400 color
+- **Primary keyword:** fox t shirt — 5,400 / KD 34
+- **Proof:** fox sweatshirt 9,900 searches / KD 29 with only 6,782 listings — strong winter-animal demand; woodland-animal Christmas art in the 2026-10-13 style study
+- **Cover model:** registry #107 (reserved)
+
+### 76. Women's Christmas – Winter Woods Fox Crewneck Sweatshirt  *(new)*
+- **Handle:** `womens-christmas-winter-woods-fox-crewneck-sweatshirt` · **Blank:** Gildan 18000 (#145), $39.99 · art = #75
+- **Primary keyword:** fox sweatshirt — 9,900 / KD 29
+- **Cover model:** registry #108 (reserved)
