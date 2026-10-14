@@ -1239,7 +1239,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Proof:** north-woods wildlife tees are a steady men's seller (moose sweatshirt 590 searches, KD 28); Sam's rugged men's Christmas list (cabin, hunting camp)
 - **Cover model:** registry #105 (reserved)
 
-### 74. Unisex Christmas – North Woods Moose Crewneck Sweatshirt  *(new)*
+### 74. Unisex Christmas – North Woods Moose Crewneck Sweatshirt  *(built 2026-10-14)*
 - **Handle:** `unisex-christmas-north-woods-moose-crewneck-sweatshirt` · **Blank:** Gildan 18000 (#145), $39.99 · art = #73
 - **Primary keyword:** moose sweatshirt — 590 / KD 28
 - **Cover model:** registry #106 (reserved)
@@ -1252,7 +1252,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Proof:** fox sweatshirt 9,900 searches / KD 29 with only 6,782 listings — strong winter-animal demand; woodland-animal Christmas art in the 2026-10-13 style study
 - **Cover model:** registry #107 (reserved)
 
-### 76. Women's Christmas – Winter Woods Fox Crewneck Sweatshirt  *(new)*
+### 76. Women's Christmas – Winter Woods Fox Crewneck Sweatshirt  *(built 2026-10-14)*
 - **Handle:** `womens-christmas-winter-woods-fox-crewneck-sweatshirt` · **Blank:** Gildan 18000 (#145), $39.99 · art = #75
 - **Primary keyword:** fox sweatshirt — 9,900 / KD 29
 - **Cover model:** registry #108 (reserved)

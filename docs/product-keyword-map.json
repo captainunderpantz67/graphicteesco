@@ -1857,6 +1857,30 @@
      "kd": 34
     }
    ]
+  },
+  "unisex-christmas-north-woods-moose-crewneck-sweatshirt": {
+   "claimed": [
+    "moose sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "moose sweatshirt",
+     "volume": 590,
+     "kd": 28
+    }
+   ]
+  },
+  "womens-christmas-winter-woods-fox-crewneck-sweatshirt": {
+   "claimed": [
+    "fox sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fox sweatshirt",
+     "volume": 9900,
+     "kd": 29
+    }
+   ]
   }
  }
 }
