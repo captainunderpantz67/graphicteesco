@@ -1282,7 +1282,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Primary keyword:** golden retriever sweatshirt — 1,300 / KD 38
 - **Cover model:** registry #112 (reserved)
 
-### 81. Unisex Christmas – Christmas on the Lake Tee  *(new)*
+### 81. Unisex Christmas – Christmas on the Lake Tee  *(built 2026-10-14)*
 - **Handle:** `unisex-christmas-christmas-on-the-lake-graphic-tee` · **Blank:** Bella+Canvas 3001 (men's cut), $29.99
 - **Art:** Fisherman in a red plaid wool jacket standing in a wooden rowboat, rod bent as a largemouth bass leaps; a fresh-cut Christmas tree in the bow; snowy shore with pines and a cabin; CHRISTMAS ON THE LAKE arched in faded red block caps. Style v3 A. Recraft v4 try 1 (https://v3b.fal.media/files/b/0aae47ad/vm1u1rKZnKBvB8fF38m2f_xNcbOHAi.webp) → designs/xfish.png
 - **Primary keyword:** christmas fishing — 1,900 / KD 16 (RankHero 2026-10-14)
