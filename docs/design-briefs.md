@@ -1289,7 +1289,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Proof:** leaping-bass art is a proven seller (batch-1 Lake Life); fishing-gift Christmas searches with low KD
 - **Cover model:** registry #113 (reserved)
 
-### 82. Unisex Christmas – Christmas on the Lake Crewneck Sweatshirt  *(new)*
+### 82. Unisex Christmas – Christmas on the Lake Crewneck Sweatshirt  *(built 2026-10-14)*
 - **Handle:** `unisex-christmas-christmas-on-the-lake-crewneck-sweatshirt` · **Blank:** Gildan 18000 (#145), $39.99 · art = #81
 - **Primary keyword:** fishing sweatshirt — 390 / KD 50
 - **Cover model:** registry #114 (reserved)

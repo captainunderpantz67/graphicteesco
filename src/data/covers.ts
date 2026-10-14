@@ -109,6 +109,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-christmas-golden-retriever-christmas-graphic-tee': { src: '/covers/womens-christmas-golden-retriever-christmas-graphic-tee.webp', alt: 'Woman on a snowy front porch with a wreath and string lights beside a golden retriever wearing the Golden Retriever Christmas tee' },
   'womens-christmas-golden-retriever-christmas-crewneck-sweatshirt': { src: '/covers/womens-christmas-golden-retriever-christmas-crewneck-sweatshirt.webp', alt: 'Woman in a cozy living room by a lit tree with a golden retriever on the rug wearing the Golden Retriever Christmas crewneck sweatshirt' },
   'unisex-christmas-christmas-on-the-lake-graphic-tee': { src: '/covers/unisex-christmas-christmas-on-the-lake-graphic-tee.webp', alt: 'Man on a wooden lake dock with a rowboat and fishing rod wearing the Christmas on the Lake tee' },
+  'unisex-christmas-christmas-on-the-lake-crewneck-sweatshirt': { src: '/covers/unisex-christmas-christmas-on-the-lake-crewneck-sweatshirt.webp', alt: 'Man in a lakeside cabin with fishing rods on the wall and a small Christmas tree wearing the Christmas on the Lake crewneck sweatshirt' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
