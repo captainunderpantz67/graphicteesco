@@ -1959,6 +1959,24 @@
      "kd": 50
     }
    ]
+  },
+  "womens-christmas-winter-skate-club-penguins-graphic-tee": {
+   "claimed": [
+    "penguin t shirt",
+    "skating shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "penguin t shirt",
+     "volume": 5400,
+     "kd": 32
+    },
+    {
+     "phrase": "skating shirt",
+     "volume": 5400,
+     "kd": 40
+    }
+   ]
   }
  }
 }

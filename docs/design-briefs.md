@@ -1294,7 +1294,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Primary keyword:** fishing sweatshirt — 390 / KD 50
 - **Cover model:** registry #114 (reserved)
 
-### 83. Women's Christmas – Winter Skate Club Penguins Tee  *(new)*
+### 83. Women's Christmas – Winter Skate Club Penguins Tee  *(built 2026-10-14)*
 - **Handle:** `womens-christmas-winter-skate-club-penguins-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99
 - **Art:** Two penguins ice skating on a frozen pond in red and green knit scarves (one in a bobble hat), snowy pines, snowflakes; "Winter Skate Club" in vintage serif above. Style v3 A. Recraft v4 try 1 (https://v3b.fal.media/files/b/0aae47ad/54pRLS1suAaEs7uYmZjIK_mOkhoE7k.webp) → designs/penguin.png
 - **Primary keyword:** penguin t shirt — 5,400 / KD 32
