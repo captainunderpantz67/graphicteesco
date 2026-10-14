@@ -1,5 +1,3 @@
-BUILD STOPPED (Sam, hard stop — saving his last credits): do NOT build. Any run reading this: if mid-product, finish only the current step so nothing is half-built, commit + push, release the run lock and exit. A new run: exit right after reading this. Sam will resume manually.
-
 HARD STOP 6:00 AM CENTRAL (Sam, 2026-10-13 — he needs his credits in the morning). Building is allowed only overnight, 00:00–10:59 UTC (7 PM–5:59 AM CT). Check the clock (`date -u`) before starting EVERY product or backfill:
 - If it is 10:15 UTC or later, do not start anything new: finish the step you are on so nothing is half-built, commit + push, release the run lock, send Sam one Telegram line with links to what shipped tonight, and STOP.
 - If it is 10:55 UTC or later, stop immediately after the current command (log what is unfinished in docs/intake-log.md so the next night finishes it first).
