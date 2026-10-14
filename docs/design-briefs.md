@@ -1257,7 +1257,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Primary keyword:** fox sweatshirt — 9,900 / KD 29
 - **Cover model:** registry #108 (reserved)
 
-### 77. Unisex Christmas – Mountain Christmas Bear Tee  *(new)*
+### 77. Unisex Christmas – Mountain Christmas Bear Tee  *(built 2026-10-14)*
 - **Handle:** `unisex-christmas-mountain-christmas-bear-graphic-tee` · **Blank:** Bella+Canvas 3001 (men's cut), $29.99
 - **Art:** Black bear walking through deep snow toward the viewer between snow-heavy pines, log cabin with a wreath and lit windows behind, jagged peaks; MOUNTAIN CHRISTMAS in faded red block caps. Style v3 A. Recraft v4 try 2 (try 1 rejected: rounded sky dome read as a badge) (https://v3b.fal.media/files/b/0aae4726/xS59LcBdhavL09JYO_Cvn_BW5skmEy.webp) → designs/bear.png
 - **Primary keyword:** bear t shirt — 4,400 / KD 50

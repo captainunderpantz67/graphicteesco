@@ -113,7 +113,7 @@ Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/desig
 | 106 | Polish-American man in his early 60s, white crew cut, clean-shaven, sturdy build | USED 2026-10-14 — North Woods Moose crewneck cover (fal Seedream 4, lakeside cabin by the wood stove; try 1 kept) |
 | 107 | Black woman in her early 30s, natural curly hair in a high puff, slim build | USED 2026-10-14 — Winter Woods Fox tee cover (fal Kontext Pro, snowy forest trail; try 1 Seedream rejected (bare legs, looked pants-less), try 2 Seedream rejected (print replaced), try 3 Kontext kept) |
 | 108 | Korean-American woman in her early 40s, long straight black hair with a center part, medium build | USED 2026-10-14 — Winter Woods Fox crewneck cover (fal Kontext Pro, reading nook by a frosty window; try 1 Seedream rejected (hair covered the W), try 2 Kontext kept) |
-| 109 | Samoan-American man in his early 30s, short curly black hair, full beard, large build | RESERVED — cover for Mountain Christmas Bear Tee (#77) |
+| 109 | Samoan-American man in his early 30s, short curly black hair, full beard, large build | USED 2026-10-14 — Mountain Christmas Bear tee cover (fal Seedream 4, snowy mountain cabin; try 1 kept) |
 | 110 | Mexican-American man in his early 50s, salt-and-pepper mustache, short grey hair, medium build | RESERVED — cover for Mountain Christmas Bear Crewneck Sweatshirt (#78) |
 | 111 | White woman in her late 20s, long strawberry-blonde wavy hair, freckles, slim build | RESERVED — cover for Golden Retriever Christmas Tee (#79) |
 | 112 | Indian-American woman in her late 30s, shoulder-length black hair, glasses, medium build | RESERVED — cover for Golden Retriever Christmas Crewneck Sweatshirt (#80) |

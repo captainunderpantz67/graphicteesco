@@ -1881,6 +1881,24 @@
      "kd": 29
     }
    ]
+  },
+  "unisex-christmas-mountain-christmas-bear-graphic-tee": {
+   "claimed": [
+    "bear t shirt",
+    "vintage bear shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bear t shirt",
+     "volume": 4400,
+     "kd": 50
+    },
+    {
+     "phrase": "vintage bear shirt",
+     "volume": 720,
+     "kd": 52
+    }
+   ]
   }
  }
 }
