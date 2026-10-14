@@ -1827,6 +1827,24 @@
      "kd": 38
     }
    ]
+  },
+  "unisex-christmas-north-woods-moose-graphic-tee": {
+   "claimed": [
+    "moose t shirt",
+    "moose shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "moose t shirt",
+     "volume": 1600,
+     "kd": 31
+    },
+    {
+     "phrase": "moose shirt",
+     "volume": 590,
+     "kd": 46
+    }
+   ]
   }
  }
 }

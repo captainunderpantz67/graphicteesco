@@ -1230,7 +1230,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Primary keyword:** ski sweatshirt — 1,600 / KD 38
 - **Cover model:** registry #104 (reserved)
 
-### 73. Unisex Christmas – North Woods Moose Tee  *(new)*
+### 73. Unisex Christmas – North Woods Moose Tee  *(built 2026-10-14)*
 - **Handle:** `unisex-christmas-north-woods-moose-graphic-tee` · **Blank:** Bella+Canvas 3001 (men's cut), $29.99
 - **Art:** Bull moose in deep snow by a frozen lake with a small wreath hanging from one antler, snowy pines, log cabin with chimney smoke, mountains; NORTH WOODS CHRISTMAS arched in faded red block caps. Style v3 A. Recraft v4 try 1 (https://v3b.fal.media/files/b/0aae46ca/Fk1tjUkyeyJTPZP1snAs5_H1OQzU9o.webp) → designs/moose.png
 - **Shirt colors:** every legible light 3001 color (dark moose + red lettering), ≤100 variants
