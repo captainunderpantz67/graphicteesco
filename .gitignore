@@ -9,3 +9,5 @@ designs/*.png
 designs/fal/
 designs/*.jpg
 __pycache__/
+designs/*.webp
+designs/b1/
