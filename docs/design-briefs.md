@@ -1224,7 +1224,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Proof:** vintage ski-resort tees are a steady Etsy/Amazon winter seller (ski sweatshirt 1,600 searches); rugged men's winter theme per Sam's list
 - **Cover model:** registry #103 (reserved)
 
-### 72. Unisex Christmas – Christmas Ski Lodge Crewneck Sweatshirt  *(new)*
+### 72. Unisex Christmas – Christmas Ski Lodge Crewneck Sweatshirt  *(built 2026-10-14)*
 - **Handle:** `unisex-christmas-christmas-ski-lodge-crewneck-sweatshirt` · **Blank:** Gildan 18000 (Printful #145), $39.99
 - **Art:** same file as #71
 - **Primary keyword:** ski sweatshirt — 1,600 / KD 38
