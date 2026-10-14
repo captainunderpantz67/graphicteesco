@@ -117,5 +117,9 @@ Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/desig
 | 110 | Mexican-American man in his early 50s, salt-and-pepper mustache, short grey hair, medium build | RESERVED — cover for Mountain Christmas Bear Crewneck Sweatshirt (#78) |
 | 111 | White woman in her late 20s, long strawberry-blonde wavy hair, freckles, slim build | RESERVED — cover for Golden Retriever Christmas Tee (#79) |
 | 112 | Indian-American woman in her late 30s, shoulder-length black hair, glasses, medium build | RESERVED — cover for Golden Retriever Christmas Crewneck Sweatshirt (#80) |
+| 113 | Cajun white man in his mid 40s, dark brown hair, thick mustache, weathered tan, stocky build | RESERVED — cover for Christmas on the Lake Tee (#81) |
+| 114 | Black man in his early 60s, short grey hair, neat grey beard, tall lean build | RESERVED — cover for Christmas on the Lake Crewneck (#82) |
+| 115 | Puerto Rican woman in her mid 20s, long dark curly hair, medium build | RESERVED — cover for Winter Skate Club Penguins Tee (#83) |
+| 116 | Swedish-American woman in her late 40s, platinum blonde shoulder-length hair, slim build | RESERVED — cover for Winter Skate Club Penguins Crewneck (#84) |
 
 Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from docs/market-research.md (same person, new design where noted). Rows 65–66 were added for the two new briefs (#34, #35).

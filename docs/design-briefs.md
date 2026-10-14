@@ -1281,3 +1281,28 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Handle:** `womens-christmas-golden-retriever-christmas-crewneck-sweatshirt` · **Blank:** Gildan 18000 (#145), $39.99 · art = #79
 - **Primary keyword:** golden retriever sweatshirt — 1,300 / KD 38
 - **Cover model:** registry #112 (reserved)
+
+### 81. Unisex Christmas – Christmas on the Lake Tee  *(new)*
+- **Handle:** `unisex-christmas-christmas-on-the-lake-graphic-tee` · **Blank:** Bella+Canvas 3001 (men's cut), $29.99
+- **Art:** Fisherman in a red plaid wool jacket standing in a wooden rowboat, rod bent as a largemouth bass leaps; a fresh-cut Christmas tree in the bow; snowy shore with pines and a cabin; CHRISTMAS ON THE LAKE arched in faded red block caps. Style v3 A. Recraft v4 try 1 (https://v3b.fal.media/files/b/0aae47ad/vm1u1rKZnKBvB8fF38m2f_xNcbOHAi.webp) → designs/xfish.png
+- **Primary keyword:** christmas fishing — 1,900 / KD 16 (RankHero 2026-10-14)
+- **Proof:** leaping-bass art is a proven seller (batch-1 Lake Life); fishing-gift Christmas searches with low KD
+- **Cover model:** registry #113 (reserved)
+
+### 82. Unisex Christmas – Christmas on the Lake Crewneck Sweatshirt  *(new)*
+- **Handle:** `unisex-christmas-christmas-on-the-lake-crewneck-sweatshirt` · **Blank:** Gildan 18000 (#145), $39.99 · art = #81
+- **Primary keyword:** fishing sweatshirt — 390 / KD 50
+- **Cover model:** registry #114 (reserved)
+
+### 83. Women's Christmas – Winter Skate Club Penguins Tee  *(new)*
+- **Handle:** `womens-christmas-winter-skate-club-penguins-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99
+- **Art:** Two penguins ice skating on a frozen pond in red and green knit scarves (one in a bobble hat), snowy pines, snowflakes; "Winter Skate Club" in vintage serif above. Style v3 A. Recraft v4 try 1 (https://v3b.fal.media/files/b/0aae47ad/54pRLS1suAaEs7uYmZjIK_mOkhoE7k.webp) → designs/penguin.png
+- **Primary keyword:** penguin t shirt — 5,400 / KD 32
+- **Variants:** skating shirt 5,400 / 40
+- **Proof:** penguin shirt 6,600 searches / KD 32; cute winter animals are a top women's Christmas motif (style study)
+- **Cover model:** registry #115 (reserved)
+
+### 84. Women's Christmas – Winter Skate Club Penguins Crewneck Sweatshirt  *(new)*
+- **Handle:** `womens-christmas-winter-skate-club-penguins-crewneck-sweatshirt` · **Blank:** Gildan 18000 (#145), $39.99 · art = #83
+- **Primary keyword:** penguin sweatshirt — 880 / KD 42
+- **Cover model:** registry #116 (reserved)
