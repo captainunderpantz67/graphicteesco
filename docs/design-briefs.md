@@ -1277,7 +1277,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Proof:** golden retriever sweatshirt 1,300 / KD 38 with 6,095 listings; breed-specific Christmas dog art is a top Etsy gift category (distinct from the existing mixed-breed Christmas Dogs tee)
 - **Cover model:** registry #111 (reserved)
 
-### 80. Women's Christmas – Golden Retriever Christmas Crewneck Sweatshirt  *(new)*
+### 80. Women's Christmas – Golden Retriever Christmas Crewneck Sweatshirt  *(built 2026-10-14)*
 - **Handle:** `womens-christmas-golden-retriever-christmas-crewneck-sweatshirt` · **Blank:** Gildan 18000 (#145), $39.99 · art = #79
 - **Primary keyword:** golden retriever sweatshirt — 1,300 / KD 38
 - **Cover model:** registry #112 (reserved)

@@ -116,7 +116,7 @@ Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/desig
 | 109 | Samoan-American man in his early 30s, short curly black hair, full beard, large build | USED 2026-10-14 — Mountain Christmas Bear tee cover (fal Seedream 4, snowy mountain cabin; try 1 kept) |
 | 110 | Mexican-American man in his early 50s, salt-and-pepper mustache, short grey hair, medium build | USED 2026-10-14 — Mountain Christmas Bear crewneck cover (fal Kontext Pro, mountain cabin interior; try 1 Seedream rejected (cabin dropped from print), try 2 Kontext kept — rendered the person older/lighter than described) |
 | 111 | White woman in her late 20s, long strawberry-blonde wavy hair, freckles, slim build | USED 2026-10-14 — Golden Retriever Christmas tee cover (fal Seedream 4, snowy front porch with a golden retriever; try 1 kept) |
-| 112 | Indian-American woman in her late 30s, shoulder-length black hair, glasses, medium build | RESERVED — cover for Golden Retriever Christmas Crewneck Sweatshirt (#80) |
+| 112 | Indian-American woman in her late 30s, shoulder-length black hair, glasses, medium build | USED 2026-10-14 — Golden Retriever Christmas crewneck cover (fal Seedream 4, living room with tree and golden retriever; try 1 kept) |
 | 113 | Cajun white man in his mid 40s, dark brown hair, thick mustache, weathered tan, stocky build | RESERVED — cover for Christmas on the Lake Tee (#81) |
 | 114 | Black man in his early 60s, short grey hair, neat grey beard, tall lean build | RESERVED — cover for Christmas on the Lake Crewneck (#82) |
 | 115 | Puerto Rican woman in her mid 20s, long dark curly hair, medium build | RESERVED — cover for Winter Skate Club Penguins Tee (#83) |
