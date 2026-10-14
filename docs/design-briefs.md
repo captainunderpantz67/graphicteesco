@@ -1302,7 +1302,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Proof:** penguin shirt 6,600 searches / KD 32; cute winter animals are a top women's Christmas motif (style study)
 - **Cover model:** registry #115 (reserved)
 
-### 84. Women's Christmas – Winter Skate Club Penguins Crewneck Sweatshirt  *(new)*
+### 84. Women's Christmas – Winter Skate Club Penguins Crewneck Sweatshirt  *(built 2026-10-14)*
 - **Handle:** `womens-christmas-winter-skate-club-penguins-crewneck-sweatshirt` · **Blank:** Gildan 18000 (#145), $39.99 · art = #83
 - **Primary keyword:** penguin sweatshirt — 880 / KD 42
 - **Cover model:** registry #116 (reserved)
