@@ -113,5 +113,9 @@ Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/desig
 | 106 | Polish-American man in his early 60s, white crew cut, clean-shaven, sturdy build | RESERVED — cover for North Woods Moose Crewneck Sweatshirt (#74) |
 | 107 | Black woman in her early 30s, natural curly hair in a high puff, slim build | RESERVED — cover for Winter Woods Fox Tee (#75) |
 | 108 | Korean-American woman in her early 40s, long straight black hair with a center part, medium build | RESERVED — cover for Winter Woods Fox Crewneck Sweatshirt (#76) |
+| 109 | Samoan-American man in his early 30s, short curly black hair, full beard, large build | RESERVED — cover for Mountain Christmas Bear Tee (#77) |
+| 110 | Mexican-American man in his early 50s, salt-and-pepper mustache, short grey hair, medium build | RESERVED — cover for Mountain Christmas Bear Crewneck Sweatshirt (#78) |
+| 111 | White woman in her late 20s, long strawberry-blonde wavy hair, freckles, slim build | RESERVED — cover for Golden Retriever Christmas Tee (#79) |
+| 112 | Indian-American woman in her late 30s, shoulder-length black hair, glasses, medium build | RESERVED — cover for Golden Retriever Christmas Crewneck Sweatshirt (#80) |
 
 Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from docs/market-research.md (same person, new design where noted). Rows 65–66 were added for the two new briefs (#34, #35).

@@ -1256,3 +1256,28 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Handle:** `womens-christmas-winter-woods-fox-crewneck-sweatshirt` · **Blank:** Gildan 18000 (#145), $39.99 · art = #75
 - **Primary keyword:** fox sweatshirt — 9,900 / KD 29
 - **Cover model:** registry #108 (reserved)
+
+### 77. Unisex Christmas – Mountain Christmas Bear Tee  *(new)*
+- **Handle:** `unisex-christmas-mountain-christmas-bear-graphic-tee` · **Blank:** Bella+Canvas 3001 (men's cut), $29.99
+- **Art:** Black bear walking through deep snow toward the viewer between snow-heavy pines, log cabin with a wreath and lit windows behind, jagged peaks; MOUNTAIN CHRISTMAS in faded red block caps. Style v3 A. Recraft v4 try 2 (try 1 rejected: rounded sky dome read as a badge) (https://v3b.fal.media/files/b/0aae4726/xS59LcBdhavL09JYO_Cvn_BW5skmEy.webp) → designs/bear.png
+- **Primary keyword:** bear t shirt — 4,400 / KD 50
+- **Variants:** vintage bear shirt 720 / 52
+- **Proof:** bear sweatshirt 8,100 searches / KD 40; wildlife-cabin winter art repeats across top Etsy listings (style study 2026-10-13)
+- **Cover model:** registry #109 (reserved)
+
+### 78. Unisex Christmas – Mountain Christmas Bear Crewneck Sweatshirt  *(new)*
+- **Handle:** `unisex-christmas-mountain-christmas-bear-crewneck-sweatshirt` · **Blank:** Gildan 18000 (#145), $39.99 · art = #77
+- **Primary keyword:** bear sweatshirt — 8,100 / KD 40
+- **Cover model:** registry #110 (reserved)
+
+### 79. Women's Christmas – Golden Retriever Christmas Tee  *(new)*
+- **Handle:** `womens-christmas-golden-retriever-christmas-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99
+- **Art:** Golden retriever sitting in snow in a red plaid scarf beside a wreath with a red bow, pine and holly with berries; "Merry Christmas" in vintage serif above. Style v3 A. Recraft v4 try 1 (https://v3b.fal.media/files/b/0aae4722/J-lnKmqonWvl9W5llkN6v_HTI5szUM.webp) → designs/golden.png
+- **Primary keyword:** golden retriever shirt — 2,400 / KD 42
+- **Proof:** golden retriever sweatshirt 1,300 / KD 38 with 6,095 listings; breed-specific Christmas dog art is a top Etsy gift category (distinct from the existing mixed-breed Christmas Dogs tee)
+- **Cover model:** registry #111 (reserved)
+
+### 80. Women's Christmas – Golden Retriever Christmas Crewneck Sweatshirt  *(new)*
+- **Handle:** `womens-christmas-golden-retriever-christmas-crewneck-sweatshirt` · **Blank:** Gildan 18000 (#145), $39.99 · art = #79
+- **Primary keyword:** golden retriever sweatshirt — 1,300 / KD 38
+- **Cover model:** registry #112 (reserved)
