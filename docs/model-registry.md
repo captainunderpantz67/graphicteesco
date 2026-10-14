@@ -121,5 +121,9 @@ Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/desig
 | 114 | Black man in his early 60s, short grey hair, neat grey beard, tall lean build | RESERVED — cover for Christmas on the Lake Crewneck (#82) |
 | 115 | Puerto Rican woman in her mid 20s, long dark curly hair, medium build | RESERVED — cover for Winter Skate Club Penguins Tee (#83) |
 | 116 | Swedish-American woman in her late 40s, platinum blonde shoulder-length hair, slim build | RESERVED — cover for Winter Skate Club Penguins Crewneck (#84) |
+| 117 | Lebanese-American man in his late 30s, short dark hair, close beard, medium build | RESERVED — cover for Upland Christmas Pheasant Tee (#85) |
+| 118 | White man in his late 60s, white hair, clean-shaven, ruddy cheeks, medium build | RESERVED — cover for Upland Christmas Pheasant Crewneck (#86) |
+| 119 | Native Hawaiian woman in her early 30s, long straight black hair, medium build | RESERVED — cover for Christmas on the Farm Horse Tee (#87) |
+| 120 | Irish-American woman in her mid 50s, auburn shoulder-length hair, freckles, medium build | RESERVED — cover for Christmas on the Farm Horse Crewneck (#88) |
 
 Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from docs/market-research.md (same person, new design where noted). Rows 65–66 were added for the two new briefs (#34, #35).

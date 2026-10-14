@@ -1306,3 +1306,28 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Handle:** `womens-christmas-winter-skate-club-penguins-crewneck-sweatshirt` · **Blank:** Gildan 18000 (#145), $39.99 · art = #83
 - **Primary keyword:** penguin sweatshirt — 880 / KD 42
 - **Cover model:** registry #116 (reserved)
+
+### 85. Unisex Christmas – Upland Christmas Pheasant Tee  *(new)*
+- **Handle:** `unisex-christmas-upland-christmas-pheasant-graphic-tee` · **Blank:** Bella+Canvas 3001 (men's cut), $29.99
+- **Art:** Ringneck rooster pheasant flushing from a snowy cornfield, English setter below, red barn and bare trees; UPLAND CHRISTMAS arched in faded red block caps. Style v3 A. Recraft v4 try 1 (https://v3b.fal.media/files/b/0aae47f3/uDUIWJT49vVFXs4A3o2Bx_d67uRho7.webp) → designs/pheasant.png
+- **Primary keyword:** pheasant shirt — 390 / KD 34
+- **Variants:** bird hunting shirt 260 / 32
+- **Proof:** upland/bird-dog art is a steady men's hunting seller; Sam's hunting-camp Christmas theme
+- **Cover model:** registry #117 (reserved)
+
+### 86. Unisex Christmas – Upland Christmas Pheasant Crewneck Sweatshirt  *(new)*
+- **Handle:** `unisex-christmas-upland-christmas-pheasant-crewneck-sweatshirt` · Gildan 18000 (#145), $39.99 · art = #85
+- **Primary keyword:** pheasant sweatshirt — 210 / KD 33
+- **Cover model:** registry #118 (reserved)
+
+### 87. Women's Christmas – Christmas on the Farm Horse Tee  *(new)*
+- **Handle:** `womens-christmas-christmas-on-the-farm-horse-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99
+- **Art:** Chestnut horse with a flaxen mane in a snowy pasture, wreath with a red bow on the split-rail fence, red barn and snowy pines; "Christmas on the Farm" in vintage serif above. Style v3 A. Recraft v4 try 1 (https://v3b.fal.media/files/b/0aae47f4/tfuuED0WZoRwTL7EwfNoS_Rao042Mc.webp) → designs/horse.png
+- **Primary keyword:** horse t shirt — 3,600 / KD 46
+- **Proof:** christmas horse 4,400 searches; horse sweatshirt 1,600 / KD 38; farm Christmas scenes in the 2026-10-13 style study (distinct from the western Run Free tee)
+- **Cover model:** registry #119 (reserved)
+
+### 88. Women's Christmas – Christmas on the Farm Horse Crewneck Sweatshirt  *(new)*
+- **Handle:** `womens-christmas-christmas-on-the-farm-horse-crewneck-sweatshirt` · Gildan 18000 (#145), $39.99 · art = #87
+- **Primary keyword:** horse sweatshirt — 1,600 / KD 38
+- **Cover model:** registry #120 (reserved)
