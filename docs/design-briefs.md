@@ -1244,7 +1244,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Primary keyword:** moose sweatshirt — 590 / KD 28
 - **Cover model:** registry #106 (reserved)
 
-### 75. Women's Christmas – Winter Woods Fox Tee  *(new)*
+### 75. Women's Christmas – Winter Woods Fox Tee  *(built 2026-10-14)*
 - **Handle:** `womens-christmas-winter-woods-fox-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99
 - **Art:** Red fox curled asleep in fresh snow under snowy pine boughs with holly and red berries, snowflakes, tracks; "Winter Woods" in vintage serif above. Style v3 A. Recraft v4 try 1 (https://v3b.fal.media/files/b/0aae46ca/vQgJOtLyTL7xSYzKjyQ53_8WJbmTet.webp) → designs/fox.png
 - **Shirt colors:** every legible light 6400 color

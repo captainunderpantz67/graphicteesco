@@ -111,7 +111,7 @@ Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/desig
 | 104 | Norwegian-American man in his mid 40s, sandy hair, short reddish beard, tall build | USED 2026-10-14 — Christmas Ski Lodge crewneck cover (fal Seedream 4, ski lodge fireplace; try 1 kept) |
 | 105 | Navajo man in his late 30s, long black hair tied back, broad shoulders | USED 2026-10-14 — North Woods Moose tee cover (fal Seedream 4, cabin porch by a frozen lake; try 1 kept) |
 | 106 | Polish-American man in his early 60s, white crew cut, clean-shaven, sturdy build | RESERVED — cover for North Woods Moose Crewneck Sweatshirt (#74) |
-| 107 | Black woman in her early 30s, natural curly hair in a high puff, slim build | RESERVED — cover for Winter Woods Fox Tee (#75) |
+| 107 | Black woman in her early 30s, natural curly hair in a high puff, slim build | USED 2026-10-14 — Winter Woods Fox tee cover (fal Kontext Pro, snowy forest trail; try 1 Seedream rejected (bare legs, looked pants-less), try 2 Seedream rejected (print replaced), try 3 Kontext kept) |
 | 108 | Korean-American woman in her early 40s, long straight black hair with a center part, medium build | RESERVED — cover for Winter Woods Fox Crewneck Sweatshirt (#76) |
 | 109 | Samoan-American man in his early 30s, short curly black hair, full beard, large build | RESERVED — cover for Mountain Christmas Bear Tee (#77) |
 | 110 | Mexican-American man in his early 50s, salt-and-pepper mustache, short grey hair, medium build | RESERVED — cover for Mountain Christmas Bear Crewneck Sweatshirt (#78) |
