@@ -1270,7 +1270,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Primary keyword:** bear sweatshirt — 8,100 / KD 40
 - **Cover model:** registry #110 (reserved)
 
-### 79. Women's Christmas – Golden Retriever Christmas Tee  *(new)*
+### 79. Women's Christmas – Golden Retriever Christmas Tee  *(built 2026-10-14)*
 - **Handle:** `womens-christmas-golden-retriever-christmas-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99
 - **Art:** Golden retriever sitting in snow in a red plaid scarf beside a wreath with a red bow, pine and holly with berries; "Merry Christmas" in vintage serif above. Style v3 A. Recraft v4 try 1 (https://v3b.fal.media/files/b/0aae4722/J-lnKmqonWvl9W5llkN6v_HTI5szUM.webp) → designs/golden.png
 - **Primary keyword:** golden retriever shirt — 2,400 / KD 42

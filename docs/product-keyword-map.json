@@ -1911,6 +1911,18 @@
      "kd": 40
     }
    ]
+  },
+  "womens-christmas-golden-retriever-christmas-graphic-tee": {
+   "claimed": [
+    "golden retriever shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "golden retriever shirt",
+     "volume": 2400,
+     "kd": 42
+    }
+   ]
   }
  }
 }
