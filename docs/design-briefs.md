@@ -1265,7 +1265,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Proof:** bear sweatshirt 8,100 searches / KD 40; wildlife-cabin winter art repeats across top Etsy listings (style study 2026-10-13)
 - **Cover model:** registry #109 (reserved)
 
-### 78. Unisex Christmas – Mountain Christmas Bear Crewneck Sweatshirt  *(new)*
+### 78. Unisex Christmas – Mountain Christmas Bear Crewneck Sweatshirt  *(built 2026-10-14)*
 - **Handle:** `unisex-christmas-mountain-christmas-bear-crewneck-sweatshirt` · **Blank:** Gildan 18000 (#145), $39.99 · art = #77
 - **Primary keyword:** bear sweatshirt — 8,100 / KD 40
 - **Cover model:** registry #110 (reserved)
