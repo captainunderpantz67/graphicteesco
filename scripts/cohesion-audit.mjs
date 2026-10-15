@@ -39,7 +39,7 @@ async function sf(query, variables = {}) {
 }
 const FIELDS = `handle title productType tags seo { title description } description
   images(first: 100) { nodes { url altText } }
-  variants(first: 250) { nodes { price { amount } selectedOptions { name value } image { url } } }
+  variants(first: 250) { nodes { price { amount } compareAtPrice { amount } selectedOptions { name value } image { url } } }
   collections(first: 30) { nodes { handle } }`;
 let products = [];
 if (onlyHandle) {
@@ -119,9 +119,14 @@ for (const p of products) {
   if (wrongWord.length) add('WARN', p, `${wrongWord.length} photo alt text(s) name the wrong garment ("${wrongWord[0].altText.slice(0, 60)}").`, 'Rewrite alts as "<Design> <niche> <graphic tee|crewneck sweatshirt>, <color>, front view".');
 
   // Price.
-  const want = kind === 'sweatshirt' || /pump[- ]cover/i.test(p.title + ' ' + p.tags.join(' ')) ? '39.99' : '29.99';
-  const prices = [...new Set(p.variants.nodes.map((v) => Number(v.price.amount).toFixed(2)))];
-  if (prices.some((x) => x !== want)) add('ERROR', p, `Price ${prices.join('/')} — should be $${want} on every variant.`, `Set every variant to ${want}.`);
+  // Pricing v2 (2026-10-15): holiday sale through 2026-11-30 — tees 24.99 (was 29.99), crewnecks 34.99 (was 39.99);
+  // pump covers stay 39.99 with no compare-at. From 2026-12-01 back to 29.99 / 39.99 with no compare-at.
+  const pump = /pump[- ]cover/i.test(p.title + ' ' + p.tags.join(' ')) || p.variants.nodes.every((v) => v.price.amount.startsWith('39') && !v.compareAtPrice) && kind !== 'sweatshirt';
+  const onSale = Date.now() < Date.parse('2026-12-01T06:00:00Z');
+  const [want, wantCmp] = pump ? ['39.99', null] : kind === 'sweatshirt' ? (onSale ? ['34.99', '39.99'] : ['39.99', null]) : (onSale ? ['24.99', '29.99'] : ['29.99', null]);
+  const prices = [...new Set(p.variants.nodes.map((v) => Number(v.price.amount).toFixed(2) + '/' + (v.compareAtPrice ? Number(v.compareAtPrice.amount).toFixed(2) : '-')))];
+  const wantKey = want + '/' + (wantCmp ?? '-');
+  if (prices.some((x) => x !== wantKey)) add('ERROR', p, `Price ${prices.join(', ')} (price/compare-at) — should be ${wantKey} on every variant.`, `Set every variant to price ${want}${wantCmp ? `, compare-at ${wantCmp}` : ', no compare-at'}.`);
 
   // SEO basics Google reads.
   const st = p.seo?.title ?? '', sd = p.seo?.description ?? '';
