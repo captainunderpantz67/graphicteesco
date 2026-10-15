@@ -32,6 +32,9 @@ Batch 1 (approved 2026-10-13 — Sam: "leaps and bounds better… this is the bo
 7. **Brand-safe + original:** no licensed characters, logos, team marks, song/movie titles or trademarked phrases; no near-copy of any single seller's composition.
 8. **Prints clean:** after print-prep the background is fully removed; light art goes on dark blanks, dark art on light blanks; nothing important prints as shirt color by accident.
 
+## Cohesion (Sam, 2026-10-15)
+Every product must look hand-merchandised: right person in the photo for the audience (unisex = man + woman), crewnecks only in sweatshirt collections, holiday designs only in their holiday, one measured keyword per page, no AI-sounding copy. `node scripts/cohesion-audit.mjs` checks the whole store; `--handle <h>` must PASS before a product goes live.
+
 ## Colors (Sam, 2026-10-13)
 Offer every Printful color the art prints legibly on (not a fixed 4). ≤250 variants per product. One front mockup per color; the product page shows only the selected color's photos.
 
