@@ -11,3 +11,4 @@ designs/*.jpg
 __pycache__/
 designs/*.webp
 designs/b1/
+designs/src/

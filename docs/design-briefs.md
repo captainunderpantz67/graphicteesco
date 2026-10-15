@@ -1356,3 +1356,11 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Hook:** "Sleigh Queen" (same joke, fleece edition)
 - **Primary keyword:** sleigh sweatshirt — 590 / KD 28 (also claims funny christmas sweater 18,100 / 52)
 - **Cover model:** registry #130
+
+### 93. Women's Thanksgiving – Nap Queen Tee  *(built 2026-10-15)*
+- **Handle:** `womens-thanksgiving-nap-queen-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99
+- **Hook:** "Nap Queen" — whoever claims the good chair after Thanksgiving dinner
+- **Art:** Wingback armchair with a knitted throw, sleeping tabby, pie on a side table, steaming mug, fall leaves; NAP QUEEN in faded block caps. Style v3 A, Recraft v4 try 1.
+- **Primary keyword:** nap queen shirt — 140 / KD 40
+- **Cover model:** registry #131
+- **Next:** crewneck version (not built yet)

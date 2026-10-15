@@ -137,3 +137,4 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 128 | Pair: man in his mid 40s, short grey beard + woman in her early 40s, long blonde hair | USED 2026-10-15 — Turkey Day Crew crewneck cover (man + woman, fal Seedream 4, porch with pumpkins; try 1 Kontext rejected for garbled extra text, try 2 kept) |
 | 129 | Woman in her late 20s, long honey-blonde wavy hair | USED 2026-10-15 — Sleigh Queen tee cover (fal Seedream 4, snowy Christmas market at dusk; try 1 kept) |
 | 130 | Woman in her mid 50s, chin-length grey bob, red reading glasses | USED 2026-10-15 — Sleigh Queen crewneck cover (fal Seedream 4, living room with a lit tree; try 1 kept) |
+| 131 | Woman in her early 40s, shoulder-length curly dark hair | USED 2026-10-15 — Nap Queen tee cover (fal; try 1 Seedream rejected — it replaced the print with a badge, try 2 Kontext kept; Kontext rendered her older) |

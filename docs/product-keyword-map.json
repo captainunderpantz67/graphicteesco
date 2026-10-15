@@ -2151,6 +2151,18 @@
      "kd": 52
     }
    ]
+  },
+  "womens-thanksgiving-nap-queen-graphic-tee": {
+   "claimed": [
+    "nap queen shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "nap queen shirt",
+     "volume": 140,
+     "kd": 40
+    }
+   ]
   }
  }
 }
