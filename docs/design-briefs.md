@@ -1382,7 +1382,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Primary keyword:** mashed potato shirt — 320 / KD 32 (also potato shirt 880 / 42)
 - **Cover model:** registry #166 (man + woman)
 
-### 96. Unisex Thanksgiving – Mash Hour Crewneck Sweatshirt  *(BUILDING [A])*
+### 96. Unisex Thanksgiving – Mash Hour Crewneck Sweatshirt  *(built 2026-10-15)*
 - **Handle:** `unisex-thanksgiving-mash-hour-crewneck-sweatshirt` · Gildan 18000 (#145), $39.99 · art = #95
 - **Cover model:** registry #167 (man + woman)
 
