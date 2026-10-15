@@ -1989,6 +1989,24 @@
      "kd": 42
     }
    ]
+  },
+  "unisex-christmas-upland-christmas-pheasant-graphic-tee": {
+   "claimed": [
+    "pheasant shirt",
+    "bird hunting shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pheasant shirt",
+     "volume": 390,
+     "kd": 34
+    },
+    {
+     "phrase": "bird hunting shirt",
+     "volume": 260,
+     "kd": 32
+    }
+   ]
   }
  }
 }

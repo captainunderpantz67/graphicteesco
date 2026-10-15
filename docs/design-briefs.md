@@ -1307,7 +1307,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Primary keyword:** penguin sweatshirt — 880 / KD 42
 - **Cover model:** registry #116 (reserved)
 
-### 85. Unisex Christmas – Upland Christmas Pheasant Tee  *(new)*
+### 85. Unisex Christmas – Upland Christmas Pheasant Tee  *(built 2026-10-15)*
 - **Handle:** `unisex-christmas-upland-christmas-pheasant-graphic-tee` · **Blank:** Bella+Canvas 3001 (men's cut), $29.99
 - **Art:** Ringneck rooster pheasant flushing from a snowy cornfield, English setter below, red barn and bare trees; UPLAND CHRISTMAS arched in faded red block caps. Style v3 A. Recraft v4 try 1 (https://v3b.fal.media/files/b/0aae47f3/uDUIWJT49vVFXs4A3o2Bx_d67uRho7.webp) → designs/pheasant.png
 - **Primary keyword:** pheasant shirt — 390 / KD 34
