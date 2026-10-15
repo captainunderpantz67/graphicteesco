@@ -2133,6 +2133,24 @@
      "kd": 58
     }
    ]
+  },
+  "womens-christmas-sleigh-queen-crewneck-sweatshirt": {
+   "claimed": [
+    "sleigh sweatshirt",
+    "funny christmas sweater"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "sleigh sweatshirt",
+     "volume": 590,
+     "kd": 28
+    },
+    {
+     "phrase": "funny christmas sweater",
+     "volume": 18100,
+     "kd": 52
+    }
+   ]
   }
  }
 }

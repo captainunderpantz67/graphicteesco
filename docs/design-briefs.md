@@ -1350,3 +1350,9 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Art:** Vintage sleigh with curled runners, plaid blanket and a stack of gifts in falling snow, holly and stars above, SLEIGH QUEEN in faded red + sage. Style v3 A, Recraft v4 try 1.
 - **Primary keyword:** sleigh all day shirt — 110 / KD 42 (also claims funny christmas shirt 8,100 / 58)
 - **Cover model:** registry #129
+
+### 92. Women's Christmas – Sleigh Queen Crewneck Sweatshirt  *(built 2026-10-15)*
+- **Handle:** `womens-christmas-sleigh-queen-crewneck-sweatshirt` · Gildan 18000 (#145), $39.99 · art = #91
+- **Hook:** "Sleigh Queen" (same joke, fleece edition)
+- **Primary keyword:** sleigh sweatshirt — 590 / KD 28 (also claims funny christmas sweater 18,100 / 52)
+- **Cover model:** registry #130
