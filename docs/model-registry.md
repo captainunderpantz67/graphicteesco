@@ -127,3 +127,7 @@ Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/desig
 | 120 | Irish-American woman in her mid 50s, auburn shoulder-length hair, freckles, medium build | USED 2026-10-15 — Christmas on the Farm Horse crewneck cover (fal Seedream 4, snowy pasture fence at sunset; try 3 kept) |
 
 Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from docs/market-research.md (same person, new design where noted). Rows 65–66 were added for the two new briefs (#34, #35).
+| 121 | Pair: man in his early 30s, short dark hair, trimmed beard + woman in her late 20s, long wavy brown hair | USED 2026-10-15 — Vintage Santa unisex cover redo (man + woman, fal Seedream 4, main street at dusk; try 1 kept) |
+| 122 | Pair: man in his mid 40s, sandy blond hair + woman in her early 40s, dark hair in a low ponytail | USED 2026-10-15 — Christmas Tree Farm unisex cover redo (man + woman, fal Seedream 4, snowy tree farm; try 1 kept) |
+| 123 | Pair: man in his late 20s, curly red hair, short beard + woman in her late 30s, straight black hair | USED 2026-10-15 — Christmas Ski Lodge unisex cover redo (man + woman, fal Seedream 4, lodge deck; try 1 kept) |
+| 124 | Pair: man in his early 50s, grey hair, glasses + woman in her late 40s, shoulder-length auburn hair | USED 2026-10-15 — Cabin Christmas unisex cover redo (man + woman, fal Seedream 4, log cabin at dusk; try 1 kept) |
