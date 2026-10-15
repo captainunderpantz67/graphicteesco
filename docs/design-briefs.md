@@ -1315,7 +1315,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Proof:** upland/bird-dog art is a steady men's hunting seller; Sam's hunting-camp Christmas theme
 - **Cover model:** registry #117 (reserved)
 
-### 86. Unisex Christmas – Upland Christmas Pheasant Crewneck Sweatshirt  *(new)*
+### 86. Unisex Christmas – Upland Christmas Pheasant Crewneck Sweatshirt  *(built 2026-10-15)*
 - **Handle:** `unisex-christmas-upland-christmas-pheasant-crewneck-sweatshirt` · Gildan 18000 (#145), $39.99 · art = #85
 - **Primary keyword:** pheasant sweatshirt — 210 / KD 33
 - **Cover model:** registry #118 (reserved)
