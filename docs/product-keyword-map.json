@@ -2043,6 +2043,36 @@
      "kd": 38
     }
    ]
+  },
+  "womens-thanksgiving-gobble-gobble-graphic-tee": {
+   "claimed": [
+    "turkey t shirt",
+    "gobble gobble shirt",
+    "cute turkey shirt",
+    "turkey day shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "turkey t shirt",
+     "volume": 3600,
+     "kd": 14
+    },
+    {
+     "phrase": "gobble gobble shirt",
+     "volume": 210,
+     "kd": 54
+    },
+    {
+     "phrase": "cute turkey shirt",
+     "volume": 70,
+     "kd": 62
+    },
+    {
+     "phrase": "turkey day shirt",
+     "volume": 70,
+     "kd": 64
+    }
+   ]
   }
  }
 }

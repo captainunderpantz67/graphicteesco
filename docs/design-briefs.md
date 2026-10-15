@@ -942,7 +942,7 @@ python3 scripts/fal-photo.py --design designs/friendsgiving-art.jpg --name frien
     --cover womens-thanksgiving-friendsgiving-graphic-tee
 ```
 
-### 53. Women's Thanksgiving – Gobble Gobble Tee  *(new)*
+### 53. Women's Thanksgiving – Gobble Gobble Turkey Tee  *(built 2026-10-15, style v3; primary changed to turkey t shirt 3,600/KD14)*
 - **Handle:** `womens-thanksgiving-gobble-gobble-graphic-tee` · **Blank:** Bella+Canvas 6400 (women's relaxed tee)
 - **Art:** A cute retro turkey with a fanned tail of rainbow-striped feathers (orange, mustard, rust, olive), standing among small daisies and acorns. 1970s sticker style. Palette: burnt orange, mustard, olive, cream.
 - **Text on shirt:** GOBBLE GOBBLE (chunky bubble letters)
