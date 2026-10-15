@@ -1456,7 +1456,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Primary keyword:** funny nurse shirt — 1,300 / KD 56
 - **Cover model:** registry #183
 
-### 114. Men's Fishing – Reel Talk Tee  *(BUILDING [B])*
+### 114. Men's Fishing – Reel Talk Tee  *(built 2026-10-15)*
 - **Handle:** `mens-fishing-reel-talk-graphic-tee` · **Blank:** Bella+Canvas 3001, $29.99 · tags fishing-t-shirts, graphic-tees-for-men, vintage-graphic-tees
 - **Hook:** "Reel Talk" — real talk, from the guy who only wants to talk fishing. Dry, dad-friendly.
 - **Why it's not taken:** Etsy "reel" puns are mostly "reel cool dad"; REEL TALK with a vintage bass/reel scene isn't there.

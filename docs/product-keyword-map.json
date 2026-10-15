@@ -2354,6 +2354,24 @@
      "kd": 64
     }
    ]
+  },
+  "mens-fishing-reel-talk-graphic-tee": {
+   "claimed": [
+    "funny fishing shirt",
+    "funny fishing shirts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny fishing shirt",
+     "volume": 3600,
+     "kd": 40
+    },
+    {
+     "phrase": "funny fishing shirts",
+     "volume": 3600,
+     "kd": 37
+    }
+   ]
   }
  }
 }

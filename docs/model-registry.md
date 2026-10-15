@@ -167,7 +167,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 181 | Woman in her early 40s, straight blonde lob, small hoops | USED 2026-10-15 — Hut Hut Hooray football mom tee cover (fal Seedream 4, Friday-night stadium bleachers; try 1 kept) |
 | 182 | Woman in her mid 30s, long dark-brown hair in a low braid, ball cap | USED 2026-10-15 — Pitch Please baseball mom tee cover (fal Seedream 4, youth ballpark backstop; try 1 kept) |
 | 183 | Woman in her early 30s, short natural curls, glasses | USED 2026-10-15 — Charting Is My Cardio nurse tee cover (fal Seedream 4, hospital entrance at sunrise; try 1 kept) |
-| 184 | Man in his early 50s, sun-weathered, grey stubble, faded cap | BUILDING [B] — Reel Talk fishing tee cover |
+| 184 | Man in his early 50s, sun-weathered, grey stubble, faded cap | USED 2026-10-15 — Reel Talk fishing tee cover (fal Seedream 4, lake dock at dawn; try 1 kept) |
 | 185 | Man in his late 30s, dark beard, brown hair, flannel over shoulder | BUILDING [B] — Deer Diary hunting tee cover |
 | 186 | Woman in her early 50s, silver pixie cut, pearl studs | BUILDING [B] — Back Pew Crew christian tee cover |
 | 187 | Man in his mid 60s, white mustache, bucket hat | BUILDING [B] — Fisher of Men fishing tee cover |
