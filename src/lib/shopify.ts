@@ -19,6 +19,7 @@ export interface Product {
   description: string;
   descriptionHtml: string;
   productType: string;
+  createdAt?: string;
   featuredImage: { url: string; altText: string | null; width: number; height: number } | null;
   images: { url: string; altText: string | null; width: number; height: number }[];
   priceRange: { minVariantPrice: Money };
@@ -42,7 +43,7 @@ export async function storefront<T>(query: string, variables: Record<string, unk
 }
 
 const PRODUCT_FIELDS = `
-  id handle title description descriptionHtml productType
+  id handle title description descriptionHtml productType createdAt
   seo { title description }
   featuredImage { url altText width height }
   images(first: 120) { nodes { url altText width height } }
