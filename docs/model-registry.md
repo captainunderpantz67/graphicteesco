@@ -139,3 +139,19 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 130 | Woman in her mid 50s, chin-length grey bob, red reading glasses | USED 2026-10-15 — Sleigh Queen crewneck cover (fal Seedream 4, living room with a lit tree; try 1 kept) |
 | 131 | Woman in her early 40s, shoulder-length curly dark hair | USED 2026-10-15 — Nap Queen tee cover (fal; try 1 Seedream rejected — it replaced the print with a badge, try 2 Kontext kept; Kontext rendered her older) |
 | 132 | Woman in her early 30s, straight black hair in a low ponytail, small stud earrings | USED 2026-10-15 — Nap Queen crewneck cover (fal Seedream 4, cozy den on Thanksgiving evening with a sleeping tabby; try 1 kept) |
+| 150 | Pair: man in his late 20s, short black hair with an undercut + woman in her mid 20s, chin-length pink-dyed bob | BUILDING [B] — Night Shift unisex cover redo (man + woman) |
+| 151 | Pair: man in his early 20s, shaggy brown hair + woman in her early 20s, long black braids | BUILDING [B] — Haunted Hollow unisex cover redo (man + woman) |
+| 152 | Pair: man in his early 30s, slicked-back dark hair, light stubble + woman in her early 30s, platinum pin curls | BUILDING [B] — Midnight Feature unisex cover redo (man + woman) |
+| 153 | Pair: man in his mid 30s, buzz cut, full brown beard + woman in her mid 30s, strawberry-blonde hair in a braid | BUILDING [B] — Fresh Cut Christmas Trees unisex cover redo (man + woman) |
+| 154 | Pair: man in his late 30s, dark wavy hair, mustache + woman in her early 30s, long sun-streaked light-brown hair | BUILDING [B] — Desert Rider unisex cover redo (man + woman) |
+| 155 | Pair: man in his mid 20s, sandy hair under a felt cowboy hat + woman in her mid 20s, dark curly hair in a high ponytail | BUILDING [B] — Hold On Eight unisex cover redo (man + woman) |
+| 156 | Pair: man in his early 40s, long black hair tied back + woman in her late 30s, short grey-streaked brown pixie cut | BUILDING [B] — Vintage Bison unisex cover redo (man + woman) |
+| 157 | Pair: man in his early 50s, white-blond hair, weathered face + woman in her late 20s, dark hair in two low braids | BUILDING [B] — Saddle Blanket Steer unisex cover redo (man + woman) |
+| 158 | Pair: man in his mid 30s, red-brown beard, ball cap + woman in her mid 40s, silver-blonde shoulder-length hair | BUILDING [B] — Desert Rattler unisex cover redo (man + woman) |
+| 159 | Pair: man in his late 20s, tight black curls, clean-shaven + woman in her early 30s, long straight auburn hair | BUILDING [B] — Lucky Horseshoe unisex cover redo (man + woman) |
+| 160 | Pair: man in his early 40s, shaved head, short beard + woman in her late 30s, dark ponytail and running headband | BUILDING [B] — Turkey Trot unisex cover redo (man + woman) |
+| 161 | Pair: man in his mid 50s, salt-and-pepper hair, glasses + woman in her early 50s, curly dark-blonde hair | BUILDING [B] — Leftovers Club unisex cover redo (man + woman) |
+| 162 | Pair: man in his early 60s, white beard + woman in her late 50s, short auburn hair | BUILDING [B] — Give Thanks Harvest unisex cover redo (man + woman) |
+| 163 | Pair: man in his early 30s, light-brown hair, sunglasses pushed up + woman in her early 30s, dark wavy hair in a messy bun | BUILDING [B] — Lake Life unisex cover redo (man + woman) |
+| 164 | Pair: man in his late 40s, dark beard flecked with grey, knit beanie in hand + woman in her mid 40s, long red hair | BUILDING [B] — North Woods Moose unisex cover redo (man + woman) |
+| 165 | Pair: man in his mid 20s, blond curly hair + woman in her mid 20s, sleek black bob | BUILDING [B] — Mountain Christmas Bear unisex cover redo (man + woman) |
