@@ -1421,3 +1421,53 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 ### 102. Women's Thanksgiving – Pie Oh My Crewneck Sweatshirt  *(BUILDING [A])*
 - **Handle:** `womens-thanksgiving-pie-oh-my-crewneck-sweatshirt` · Gildan 18000 (#145), $39.99 · art = #101
 - **Cover model:** registry #173
+
+## Evergreen whimsy batch — lane B (2026-10-15; emptiest collections first: soccer mom 1, football mom 1, baseball mom 1, nurse 2, fishing 4, hunting 5)
+
+### 110. Women's Soccer Mom – Goal Digger Tee  *(BUILDING [B])*
+- **Handle:** `womens-soccer-mom-goal-digger-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags soccer-mom-shirts, graphic-tees-for-women, vintage-graphic-tees
+- **Hook:** "Professional Goal Digger" — the gold-digger wink, but she's only after goals. Every sideline mom grins.
+- **Why it's not taken:** Etsy "goal digger" listings are plain text in trendy fonts; no vintage scene print with the line.
+- **Art:** Style v3 A — a scuffed vintage leather soccer ball resting in grass with daisies and a cooler of orange slices, PROFESSIONAL GOAL DIGGER in faded retro caps. Faded orange, sage, cream, navy linework.
+- **Primary keyword:** soccer shirt for mom — 2,900 / KD 16 (also funny soccer shirt 390 / 48)
+- **Cover model:** registry #180
+
+### 111. Women's Football Mom – Hut Hut Hooray Tee  *(BUILDING [B])*
+- **Handle:** `womens-football-mom-hut-hut-hooray-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags football-mom-shirts, graphic-tees-for-women, vintage-graphic-tees
+- **Hook:** "Hut Hut Hooray" — hip hip hooray with a snap count. Reads in a second from the bleachers.
+- **Why it's not taken:** Etsy football mom shirts are "Football Mom" + number/leopard text; the line shows on a few text-only listings, none with a vintage scene.
+- **Art:** Style v3 A — a vintage leather football on a kicking tee with pennant flags and a megaphone, HUT HUT HOORAY in faded collegiate caps. Faded red, mustard, cream, brown linework.
+- **Primary keyword:** game day shirt women — 880 / KD 26 (also funny football shirt 880 / 54)
+- **Cover model:** registry #181
+
+### 112. Women's Baseball Mom – Pitch Please Tee  *(BUILDING [B])*
+- **Handle:** `womens-baseball-mom-pitch-please-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags baseball-mom-shirts, graphic-tees-for-women, vintage-graphic-tees
+- **Hook:** "Pitch, Please" — sass at the umpire, aimed at the pitch. Bleacher moms laugh.
+- **Why it's not taken:** Etsy shows it as script text only; no vintage ballpark print.
+- **Art:** Style v3 A — a scuffed vintage baseball with red stitches, crossed wooden bats, a bag of sunflower seeds and a mitt, PITCH, PLEASE in faded varsity script/caps. Faded red, navy, cream, tan.
+- **Primary keyword:** funny baseball shirt — 880 / KD 49
+- **Cover model:** registry #182
+
+### 113. Women's Nurse – Charting Is My Cardio Tee  *(BUILDING [B])*
+- **Handle:** `womens-nurse-charting-is-my-cardio-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags nurse-shirts, graphic-tees-for-women, vintage-graphic-tees
+- **Hook:** "Charting Is My Cardio" — every nurse who's typed notes for an hour after shift laughs.
+- **Why it's not taken:** Etsy nurse humor leans on "nurse life"/coffee lines; this line is rare and never with a vintage scene.
+- **Art:** Style v3 A — a vintage clipboard chart with a heart-rate line running off it like a jogging track, a stethoscope and running sneakers, CHARTING IS MY CARDIO in faded retro caps. Faded teal, coral, cream, navy.
+- **Primary keyword:** funny nurse shirt — 1,300 / KD 56
+- **Cover model:** registry #183
+
+### 114. Men's Fishing – Reel Talk Tee  *(BUILDING [B])*
+- **Handle:** `mens-fishing-reel-talk-graphic-tee` · **Blank:** Bella+Canvas 3001, $29.99 · tags fishing-t-shirts, graphic-tees-for-men, vintage-graphic-tees
+- **Hook:** "Reel Talk" — real talk, from the guy who only wants to talk fishing. Dry, dad-friendly.
+- **Why it's not taken:** Etsy "reel" puns are mostly "reel cool dad"; REEL TALK with a vintage bass/reel scene isn't there.
+- **Art:** Style v3 A — a vintage baitcasting reel and rod with a largemouth bass leaping beside it, lily pads and splash, REEL TALK in faded 70s caps. Sage, rust, cream, navy.
+- **Primary keyword:** funny fishing shirt — 3,600 / KD 40
+- **Cover model:** registry #184
+
+### 115. Men's Hunting – Deer Diary Tee  *(BUILDING [B])*
+- **Handle:** `mens-hunting-deer-diary-graphic-tee` · **Blank:** Bella+Canvas 3001, $29.99 · tags hunting-t-shirts, graphic-tees-for-men, vintage-graphic-tees
+- **Hook:** "Deer Diary" — the hunting log as a teenage diary. Deer camp chuckles.
+- **Why it's not taken:** Etsy has "dear diary" girl shirts; a whitetail field-journal version is not there.
+- **Art:** Style v3 A — an open vintage field journal with a whitetail buck stepping out of the page, a pencil and oak leaves, DEER DIARY in faded block caps. Forest green, rust, cream, brown.
+- **Primary keyword:** funny hunting shirt — 590 / KD 48
+- **Cover model:** registry #185
