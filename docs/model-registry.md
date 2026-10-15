@@ -124,6 +124,6 @@ Rows 11–43 were reserved on 2026-10-06 for the design-brief covers (docs/desig
 | 117 | Lebanese-American man in his late 30s, short dark hair, close beard, medium build | USED 2026-10-15 — Upland Christmas Pheasant tee cover (fal Seedream 4, snowy cornfield by a red barn; try 2 kept) |
 | 118 | White man in his late 60s, white hair, clean-shaven, ruddy cheeks, medium build | USED 2026-10-15 — Upland Christmas Pheasant crewneck cover (fal Kontext Pro, log cabin entryway with a lit tree; try 1 kept) |
 | 119 | Native Hawaiian woman in her early 30s, long straight black hair, medium build | USED 2026-10-15 — Christmas on the Farm Horse tee cover (fal Kontext Pro, snowy farm fence with a horse and red barn; try 1 kept) |
-| 120 | Irish-American woman in her mid 50s, auburn shoulder-length hair, freckles, medium build | RESERVED — cover for Christmas on the Farm Horse Crewneck (#88) |
+| 120 | Irish-American woman in her mid 50s, auburn shoulder-length hair, freckles, medium build | USED 2026-10-15 — Christmas on the Farm Horse crewneck cover (fal Seedream 4, snowy pasture fence at sunset; try 3 kept) |
 
 Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from docs/market-research.md (same person, new design where noted). Rows 65–66 were added for the two new briefs (#34, #35).

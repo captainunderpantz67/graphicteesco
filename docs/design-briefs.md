@@ -1327,7 +1327,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Proof:** christmas horse 4,400 searches; horse sweatshirt 1,600 / KD 38; farm Christmas scenes in the 2026-10-13 style study (distinct from the western Run Free tee)
 - **Cover model:** registry #119 (reserved)
 
-### 88. Women's Christmas – Christmas on the Farm Horse Crewneck Sweatshirt  *(new)*
+### 88. Women's Christmas – Christmas on the Farm Horse Crewneck Sweatshirt  *(built 2026-10-15)*
 - **Handle:** `womens-christmas-christmas-on-the-farm-horse-crewneck-sweatshirt` · Gildan 18000 (#145), $39.99 · art = #87
 - **Primary keyword:** horse sweatshirt — 1,600 / KD 38
 - **Cover model:** registry #120 (reserved)
