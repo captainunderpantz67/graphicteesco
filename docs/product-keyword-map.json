@@ -2395,6 +2395,29 @@
      "kd": 51
     }
    ]
+  },
+  "womens-christian-back-pew-crew-graphic-tee": {
+   "claimed": [
+    "funny christian shirt",
+    "church shirts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny christian shirt",
+     "volume": 1600,
+     "kd": 50
+    },
+    {
+     "phrase": "church shirts",
+     "volume": 2400,
+     "kd": 41
+    },
+    {
+     "phrase": "church shirt",
+     "volume": 2400,
+     "kd": 57
+    }
+   ]
   }
  }
 }

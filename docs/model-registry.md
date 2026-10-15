@@ -169,7 +169,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 183 | Woman in her early 30s, short natural curls, glasses | USED 2026-10-15 — Charting Is My Cardio nurse tee cover (fal Seedream 4, hospital entrance at sunrise; try 1 kept) |
 | 184 | Man in his early 50s, sun-weathered, grey stubble, faded cap | USED 2026-10-15 — Reel Talk fishing tee cover (fal Seedream 4, lake dock at dawn; try 1 kept) |
 | 185 | Man in his late 30s, dark beard, brown hair, flannel over shoulder | USED 2026-10-15 — Deer Diary hunting tee cover (fal Seedream 4, deer camp cabin in late fall; try 1 kept) |
-| 186 | Woman in her early 50s, silver pixie cut, pearl studs | BUILDING [B] — Back Pew Crew christian tee cover |
+| 186 | Woman in her early 50s, silver pixie cut, pearl studs | USED 2026-10-15 — Back Pew Crew christian tee cover (fal Seedream 4, country church steps; try 1 kept) |
 | 187 | Man in his mid 60s, white mustache, bucket hat | BUILDING [B] — Fisher of Men fishing tee cover |
 | 188 | Woman in her early 20s, long box braids, small nose stud | BUILDING [B] — IV League nurse tee cover |
 | 189 | Woman in her mid 40s, wavy auburn hair in a claw clip | BUILDING [B] — Down, Set, Snacks football mom tee cover |

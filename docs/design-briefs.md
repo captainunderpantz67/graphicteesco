@@ -1474,7 +1474,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 
 ## Evergreen whimsy batch 2 — lane B (2026-10-15; anime 0, christian 2, football mom 2, nurse 3, fishing 5)
 
-### 116. Women's Christian – Back Pew Crew Tee  *(BUILDING [B])*
+### 116. Women's Christian – Back Pew Crew Tee  *(built 2026-10-15)*
 - **Handle:** `womens-christian-back-pew-crew-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags christian-shirts, graphic-tees-for-women, vintage-graphic-tees
 - **Hook:** "Back Pew Crew" — the family that slides in at 10:02 every Sunday. Church ladies laugh, nobody's offended.
 - **Why it's not taken:** Etsy has a handful of plain-text "back pew" shirts; none with a vintage country-church scene.
