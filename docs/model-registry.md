@@ -155,14 +155,14 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 163 | Pair: man in his early 30s, light-brown hair, sunglasses pushed up + woman in her early 30s, dark wavy hair in a messy bun | USED 2026-10-15 — Lake Life unisex cover redo (man + woman, fal Seedream 4, lake dock at sunrise; try 1 kept) |
 | 164 | Woman in her 50s–60s, auburn hair (Kontext rendered her older than the mid-40s asked; added beside the original cover man) | USED 2026-10-15 — North Woods Moose unisex cover redo (man + woman; Kontext Pro edit of the existing cover; two full Seedream tries rejected — prints differed between the two shirts) |
 | 165 | Woman in her mid 20s, short black bob (added beside the original cover man) | USED 2026-10-15 — Mountain Christmas Bear unisex cover redo (man + woman; Kontext Pro edit of the existing cover; two full Seedream tries rejected — the bear was dropped, then the art spilled into the background) |
-| 166 | Pair: man in his early 40s, short black hair, trimmed beard + woman in her late 30s, red hair in a messy bun | RESERVED [A] — Mash Hour tee cover |
-| 167 | Pair: man in his late 50s, bald, white goatee + woman in her mid 50s, short grey pixie cut | RESERVED [A] — Mash Hour crewneck cover |
-| 168 | Pair: man in his mid 30s, wavy light-brown hair, glasses + woman in her early 30s, long straight black hair | RESERVED [A] — Totally a Pilgrim tee cover |
-| 169 | Pair: man in his late 20s, curly dark hair + woman in her late 20s, braids | RESERVED [A] — Totally a Pilgrim crewneck cover |
-| 170 | Woman in her late 30s, shoulder-length blonde hair, freckles | RESERVED [A] — Here for the Scraps tee cover (with a beagle) |
-| 171 | Woman in her late 40s, long dark wavy hair with a few grey streaks | RESERVED [A] — Here for the Scraps crewneck cover (with a beagle) |
-| 172 | Woman in her mid 20s, short auburn bob | RESERVED [A] — Pie Oh My tee cover |
-| 173 | Woman in her early 60s, white hair in a low bun, round glasses | RESERVED [A] — Pie Oh My crewneck cover |
+| 166 | Pair: man in his early 40s, short black hair, trimmed beard + woman in her late 30s, red hair in a messy bun | USED 2026-10-15 — Mash Hour tee cover (fal Seedream 4, family kitchen; try 1 rejected — stray MASH HOUR headline in the scene; try 2 kept) |
+| 167 | Pair: man in his late 50s, bald, white goatee + woman in her mid 50s, short grey pixie cut | USED 2026-10-15 — Mash Hour crewneck cover (fal Seedream 4, candlelit Thanksgiving dining room; try 1 kept) |
+| 168 | Pair: man in his mid 30s, wavy light-brown hair, glasses + woman in her early 30s, long straight black hair | USED 2026-10-15 — Totally a Pilgrim tee cover (fal Seedream 4, backyard; tries 1–2 rejected — her hair covered the lettering / his turkey mirrored; Seedream edit of try 2 kept) |
+| 169 | Pair: man in his late 20s, curly dark hair + woman in her late 20s, braids | USED 2026-10-15 — Totally a Pilgrim crewneck cover (fal Seedream 4, fall farm market; try 1 rejected — lettering missing on her print; try 2 kept) |
+| 170 | Woman in her late 30s, shoulder-length blonde hair, freckles | USED 2026-10-15 — Here for the Scraps tee cover (fal Seedream 4, Thanksgiving dining room with a beagle; try 1 kept) |
+| 171 | Woman in her late 40s, long dark wavy hair with a few grey streaks | USED 2026-10-15 — Here for the Scraps crewneck cover (fal Seedream 4, fall porch with a beagle; try 1 rejected — dark patch behind the print; try 2 with the art flattened on sand kept) |
+| 172 | Woman in her mid 20s, short auburn bob | USED 2026-10-15 — Pie Oh My tee cover (fal Seedream 4, farmhouse kitchen with pies; try 1 kept) |
+| 173 | Woman in her early 60s, white hair in a low bun, round glasses | USED 2026-10-15 — Pie Oh My crewneck cover (fal Seedream 4, fall bake sale; try 1 rejected — dark patch behind the print; try 2 with the art flattened on pink kept) |
 | 180 | Woman in her late 30s, dark curly hair in a ponytail, light freckles | USED 2026-10-15 — Goal Digger soccer mom tee cover (fal Seedream 4, youth soccer sideline; try 1 kept) |
 | 181 | Woman in her early 40s, straight blonde lob, small hoops | USED 2026-10-15 — Hut Hut Hooray football mom tee cover (fal Seedream 4, Friday-night stadium bleachers; try 1 kept) |
 | 182 | Woman in her mid 30s, long dark-brown hair in a low braid, ball cap | USED 2026-10-15 — Pitch Please baseball mom tee cover (fal Seedream 4, youth ballpark backstop; try 1 kept) |

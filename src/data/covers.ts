@@ -128,6 +128,14 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-football-mom-hut-hut-hooray-graphic-tee': { src: '/covers/womens-football-mom-hut-hut-hooray-graphic-tee.webp', alt: 'Woman in the bleachers of a high school football stadium under Friday night lights wearing the Hut Hut Hooray tee' },
   'womens-baseball-mom-pitch-please-graphic-tee': { src: '/covers/womens-baseball-mom-pitch-please-graphic-tee.webp', alt: 'Woman in a ball cap behind the backstop of a youth baseball field wearing the Pitch, Please tee' },
   'womens-nurse-charting-is-my-cardio-graphic-tee': { src: '/covers/womens-nurse-charting-is-my-cardio-graphic-tee.webp', alt: 'Woman outside a hospital staff entrance at sunrise after a night shift wearing the Charting Is My Cardio tee' },
+  'unisex-thanksgiving-mash-hour-graphic-tee': { src: '/covers/unisex-thanksgiving-mash-hour-graphic-tee.webp', alt: 'Man and woman laughing in a family kitchen on Thanksgiving afternoon with a bowl of mashed potatoes on the counter wearing the Mash Hour tee' },
+  'unisex-thanksgiving-mash-hour-crewneck-sweatshirt': { src: '/covers/unisex-thanksgiving-mash-hour-crewneck-sweatshirt.webp', alt: 'Man and woman beside a candlelit Thanksgiving table with fall trees through the window wearing the Mash Hour crewneck sweatshirt' },
+  'unisex-thanksgiving-totally-a-pilgrim-graphic-tee': { src: '/covers/unisex-thanksgiving-totally-a-pilgrim-graphic-tee.webp', alt: 'Man and woman in a leafy backyard on Thanksgiving afternoon with a picnic table behind them wearing the Totally a Pilgrim tee' },
+  'unisex-thanksgiving-totally-a-pilgrim-crewneck-sweatshirt': { src: '/covers/unisex-thanksgiving-totally-a-pilgrim-crewneck-sweatshirt.webp', alt: 'Man and woman at a fall farm market with hay bales, apple crates and pumpkins wearing the Totally a Pilgrim crewneck sweatshirt' },
+  'womens-thanksgiving-here-for-the-scraps-graphic-tee': { src: '/covers/womens-thanksgiving-here-for-the-scraps-graphic-tee.webp', alt: 'Woman in a dining room set for Thanksgiving with a beagle looking up at her wearing the Here for the Scraps tee' },
+  'womens-thanksgiving-here-for-the-scraps-crewneck-sweatshirt': { src: '/covers/womens-thanksgiving-here-for-the-scraps-crewneck-sweatshirt.webp', alt: 'Woman on a fall front porch with pumpkins and her beagle on a leash wearing the Here for the Scraps crewneck sweatshirt' },
+  'womens-thanksgiving-pie-oh-my-graphic-tee': { src: '/covers/womens-thanksgiving-pie-oh-my-graphic-tee.webp', alt: 'Woman in a farmhouse kitchen with three pies cooling on the butcher block wearing the Pie Oh My tee' },
+  'womens-thanksgiving-pie-oh-my-crewneck-sweatshirt': { src: '/covers/womens-thanksgiving-pie-oh-my-crewneck-sweatshirt.webp', alt: 'Woman at a small-town fall bake sale with pies on gingham cloths wearing the Pie Oh My crewneck sweatshirt' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

@@ -2246,6 +2246,114 @@
      "kd": 55
     }
    ]
+  },
+  "unisex-thanksgiving-mash-hour-graphic-tee": {
+   "claimed": [
+    "mashed potato shirt",
+    "potato shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "mashed potato shirt",
+     "volume": 320,
+     "kd": 32
+    },
+    {
+     "phrase": "potato shirt",
+     "volume": 880,
+     "kd": 42
+    }
+   ]
+  },
+  "unisex-thanksgiving-mash-hour-crewneck-sweatshirt": {
+   "claimed": [
+    "potato sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "potato sweatshirt",
+     "volume": 140,
+     "kd": 36
+    }
+   ]
+  },
+  "unisex-thanksgiving-totally-a-pilgrim-graphic-tee": {
+   "claimed": [
+    "pilgrim shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pilgrim shirt",
+     "volume": 480,
+     "kd": 30
+    }
+   ]
+  },
+  "unisex-thanksgiving-totally-a-pilgrim-crewneck-sweatshirt": {
+   "claimed": [
+    "turkey crewneck"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "turkey crewneck",
+     "volume": 10,
+     "kd": 49
+    }
+   ]
+  },
+  "womens-thanksgiving-here-for-the-scraps-graphic-tee": {
+   "claimed": [
+    "thanksgiving dog shirt",
+    "beagle shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "thanksgiving dog shirt",
+     "volume": 170,
+     "kd": 34
+    },
+    {
+     "phrase": "beagle shirt",
+     "volume": 880,
+     "kd": 43
+    }
+   ]
+  },
+  "womens-thanksgiving-here-for-the-scraps-crewneck-sweatshirt": {
+   "claimed": [
+    "dog sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dog sweatshirt",
+     "volume": 4400,
+     "kd": 55
+    }
+   ]
+  },
+  "womens-thanksgiving-pie-oh-my-graphic-tee": {
+   "claimed": [
+    "funny pie shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny pie shirt",
+     "volume": 20,
+     "kd": 48
+    }
+   ]
+  },
+  "womens-thanksgiving-pie-oh-my-crewneck-sweatshirt": {
+   "claimed": [
+    "pie sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pie sweatshirt",
+     "volume": 20,
+     "kd": 64
+    }
+   ]
   }
  }
 }
