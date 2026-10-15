@@ -57,3 +57,67 @@ They show $29 crossed out to $20.30 everywhere. Options:
 
 ## Still blocking revenue
 **The Shopify store password.** Checkout redirects to /password, so no one can buy. To fix it: Shopify Admin → Online Store → Preferences → Password protection → uncheck → Save.
+
+---
+
+# Part 2: Threadheads (threadheads.com/collections/popular-now)
+
+## What they are
+A streetwear-humor brand that ranks across almost every "funny shirt" search. Their 237 "Popular Now" products win on **one formula: cute or wholesome art + a deadpan, slightly unhinged line.** Examples from the page:
+- a kitten in roses under "ALPHA MALE"
+- a child's crayon doodle that says "I'm Dead Inside"
+- a horse riding an orca with "undiagnosed, but something isn't right"
+- a bass labeled "Fih"
+- snowy mountains captioned "I love Big Naturals"
+
+Other things they do:
+- **Clean product-first photos:** plain white studio walls, the shirt is the hero, real-looking models, flat oversized fit.
+- **"Custom Bootleg Tee":** upload your dog, cat or photo and they make a 90s rap-tee style collage. This is their #1 product.
+- **Grid badges:** color dots, plus "NEW", "RESTOCKED", "BUNDLE & SAVE UP TO 43%" and "+ CUSTOMIZE".
+- **Blank multi-packs** with crossed-out bundle pricing.
+
+## Measured demand (RankHero, 2026-10-15)
+| Phrase | Volume/mo | KD | Note |
+|---|---|---|---|
+| oversized t shirt | 246,000 | 46 | huge; we'd need an oversized blank |
+| funny shirts | 40,500 | 58 | hub page candidate |
+| oversized graphic tee | 27,100 | 48 | |
+| funny shirts for men | 22,200 | 60 | |
+| custom photo shirt | 9,900 | 48 | needs personalization |
+| custom dog shirt | 8,100 | 49 | needs personalization |
+| funny graphic tees | 5,400 | 58 | |
+| funny fishing shirts | 3,600 | **37** | fits our fishing niche, best KD here |
+| funny gym shirts | 3,600 | **41** | fits our gym niche |
+| weird shirts | 3,600 | 45 | |
+| ironic shirts | 1,000 | **24** | lowest KD, matches the formula |
+
+## Recommendations from Threadheads
+### 10. The "contrast joke" formula, applied to our style (high impact, no cost)
+Our vintage art is already sweet and nostalgic, which is the perfect setup for a deadpan line. Add to the whimsy rule: **wholesome vintage image + a dry, slightly unhinged caption.** Examples:
+- **Christmas:** a 1950s storybook Santa reading his list, captioned "Define Naughty".
+- **Thanksgiving:** a Norman Rockwell-style family dinner, captioned "I'm Only Here For The Pie".
+- **Fishing:** a serene vintage lake scene with "Mentally Fishing".
+- **Gym:** a cute 1960s cartoon kitten lifting a dumbbell with "Leg Day Survivor".
+
+Stay family-clean: no "Big Naturals"-style innuendo. That works for their edgy crowd, not ours.
+
+### 11. Two new "funny" hub pages (high impact)
+- **"Funny Fishing Shirts"** (3,600/KD 37) and **"Funny Gym Shirts"** (3,600/KD 41) as collections built from contrast-joke designs. Both sit on niches we already have, and both keywords pass our gate.
+- **Later:** a "Funny Shirts" hub (40,500/KD 58) once we have 28+ funny designs.
+
+### 12. Custom pet / photo bootleg tee (big upside, NEEDS YOUR YES)
+"custom dog shirt" (8,100) and "custom photo shirt" (9,900) are real demand, and this is Threadheads' top seller.
+- **What it needs:** a personalization app (Printful's personalization tool or a Shopify upload app), plus a manual or semi-auto art step per order.
+- **Recommendation:** park it until checkout is open and the first orders come in, then test one "Custom Pet Bootleg Tee" product.
+
+### 13. Badges on product cards (quick site change)
+Show "NEW" for products under 14 days old, and "MATCHING SET" where a tee and crewneck pair exists, alongside the color dots (#5).
+
+### 14. Oversized fit (later, needs research)
+"oversized graphic tee" (27,100) and "oversized t shirt" (246,000) are huge. Printful carries oversized and heavyweight blanks. Worth a test of 5–10 bestsellers on an oversized blank after launch, priced $34.99.
+
+## If you approve everything, this is the combined first move
+- **Lane A:** builds women's holiday in the **boutique style + puns** (#1–3).
+- **Lane B:** builds **contrast-joke fishing and gym designs** and stands up the two funny hub pages (#10–11).
+- **Site:** color dots, NEW and matching-set badges, and a "New" menu link in one push (#5, #6, #13).
+- **Parked until checkout opens:** sale pricing (#7), email capture (#8), custom pet tee (#12), oversized fit (#14).
