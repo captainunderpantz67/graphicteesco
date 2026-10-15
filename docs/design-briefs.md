@@ -1341,3 +1341,12 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Handle:** `unisex-thanksgiving-turkey-day-crew-crewneck-sweatshirt` · Gildan 18000 (#145), $39.99 · art = #54
 - **Primary keyword:** turkey day sweatshirt — 10 / KD 49 (+ fall sweatshirt 1,900 / 61)
 - **Cover model:** registry #128 (man + woman)
+
+## Whimsy-first batch (Sam, 2026-10-15)
+
+### 91. Women's Christmas – Sleigh Queen Tee  *(built 2026-10-15)*
+- **Handle:** `womens-christmas-sleigh-queen-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99
+- **Hook:** "Sleigh Queen" — slay/sleigh wordplay, 2-second read, family-table clean, no trademark
+- **Art:** Vintage sleigh with curled runners, plaid blanket and a stack of gifts in falling snow, holly and stars above, SLEIGH QUEEN in faded red + sage. Style v3 A, Recraft v4 try 1.
+- **Primary keyword:** sleigh all day shirt — 110 / KD 42 (also claims funny christmas shirt 8,100 / 58)
+- **Cover model:** registry #129

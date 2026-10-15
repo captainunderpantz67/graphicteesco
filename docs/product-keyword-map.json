@@ -2115,6 +2115,24 @@
      "kd": 61
     }
    ]
+  },
+  "womens-christmas-sleigh-queen-graphic-tee": {
+   "claimed": [
+    "sleigh all day shirt",
+    "funny christmas shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "sleigh all day shirt",
+     "volume": 110,
+     "kd": 42
+    },
+    {
+     "phrase": "funny christmas shirt",
+     "volume": 8100,
+     "kd": 58
+    }
+   ]
   }
  }
 }
