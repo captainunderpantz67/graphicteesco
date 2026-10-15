@@ -1464,7 +1464,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Primary keyword:** funny fishing shirt — 3,600 / KD 40
 - **Cover model:** registry #184
 
-### 115. Men's Hunting – Deer Diary Tee  *(BUILDING [B])*
+### 115. Men's Hunting – Deer Diary Tee  *(built 2026-10-15)*
 - **Handle:** `mens-hunting-deer-diary-graphic-tee` · **Blank:** Bella+Canvas 3001, $29.99 · tags hunting-t-shirts, graphic-tees-for-men, vintage-graphic-tees
 - **Hook:** "Deer Diary" — the hunting log as a teenage diary. Deer camp chuckles.
 - **Why it's not taken:** Etsy has "dear diary" girl shirts; a whitetail field-journal version is not there.

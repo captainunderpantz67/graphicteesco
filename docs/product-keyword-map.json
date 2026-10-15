@@ -2372,6 +2372,29 @@
      "kd": 37
     }
    ]
+  },
+  "mens-hunting-deer-diary-graphic-tee": {
+   "claimed": [
+    "funny hunting shirt",
+    "funny hunting shirts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny hunting shirt",
+     "volume": 590,
+     "kd": 48
+    },
+    {
+     "phrase": "funny hunting shirts",
+     "volume": 590,
+     "kd": 48
+    },
+    {
+     "phrase": "deer hunter shirt",
+     "volume": 320,
+     "kd": 51
+    }
+   ]
   }
  }
 }
