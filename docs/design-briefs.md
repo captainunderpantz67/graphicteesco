@@ -1471,3 +1471,53 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Art:** Style v3 A — an open vintage field journal with a whitetail buck stepping out of the page, a pencil and oak leaves, DEER DIARY in faded block caps. Forest green, rust, cream, brown.
 - **Primary keyword:** funny hunting shirt — 590 / KD 48
 - **Cover model:** registry #185
+
+## Evergreen whimsy batch 2 — lane B (2026-10-15; anime 0, christian 2, football mom 2, nurse 3, fishing 5)
+
+### 116. Women's Christian – Back Pew Crew Tee  *(BUILDING [B])*
+- **Handle:** `womens-christian-back-pew-crew-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags christian-shirts, graphic-tees-for-women, vintage-graphic-tees
+- **Hook:** "Back Pew Crew" — the family that slides in at 10:02 every Sunday. Church ladies laugh, nobody's offended.
+- **Why it's not taken:** Etsy has a handful of plain-text "back pew" shirts; none with a vintage country-church scene.
+- **Art:** Style v3 A — little white country church with open doors, the last wooden pew with a hymnal, church fan and reading glasses, wildflowers; BACK PEW CREW in faded navy block caps. Navy, dusty rose, cream. Recraft v4 try 1 (QC v3 pass).
+- **Primary keyword:** funny christian shirt — 1,600 / KD 50 (also church shirts 2,400 / 41)
+- **Cover model:** registry #186
+
+### 117. Men's Fishing – Fisher of Men (Mostly Bass) Tee  *(BUILDING [B])*
+- **Handle:** `mens-fishing-fisher-of-men-graphic-tee` · **Blank:** Bella+Canvas 3001, $29.99 · tags fishing-t-shirts, graphic-tees-for-men, vintage-graphic-tees
+- **Hook:** "Fisher of Men (Mostly Bass)" — the verse, with an honest footnote. Church-going fishermen grin.
+- **Why it's not taken:** Etsy "fishers of men" shirts are the verse in script over a cross; nobody adds the bass punchline.
+- **Art:** Style v3 A — wooden rowboat on a calm lake, rod bent over the side, largemouth bass leaping at the line, cattails and pines; FISHER OF MEN in faded block caps, (MOSTLY BASS) below. Sage, rust, cream, navy. Recraft v4 try 2 (try 1 rejected: sunburst read as a badge, footnote too thin).
+- **Primary keyword:** fishers of men shirt — 390 / KD 31
+- **Cover model:** registry #187
+
+### 118. Women's Nurse – IV League Tee  *(BUILDING [B])*
+- **Handle:** `womens-nurse-iv-league-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags nurse-shirts, graphic-tees-for-women, vintage-graphic-tees
+- **Hook:** "IV League" — Ivy League varsity lettering, but the only drip is from the IV bag. Nursing students and new grads get it instantly.
+- **Why it's not taken:** a few text-only listings use the pun; none in a vintage varsity print with the IV pole.
+- **Art:** vintage collegiate varsity — IV bag on a pole with a drip line, stethoscope looped on the pole, laurel sprigs; IV LEAGUE arched in navy/crimson varsity caps. Recraft v4 try 1 (QC v3 pass).
+- **Primary keyword:** funny nursing shirt — 1,300 / KD 44 (also nursing school shirt 880 / 58)
+- **Cover model:** registry #188
+
+### 119. Women's Football Mom – Down, Set, Snacks Tee  *(BUILDING [B])*
+- **Handle:** `womens-football-mom-down-set-snacks-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags football-mom-shirts, graphic-tees-for-women, vintage-graphic-tees
+- **Hook:** "Down, Set, Snacks" — the snap count, as heard by the mom running the snack cooler.
+- **Why it's not taken:** Etsy football mom shirts are "Football Mom" + number/leopard; this line isn't there.
+- **Art:** Style v3 A — leather football on a bleacher with popcorn, a juice box, orange slices, a small cooler and a pennant; DOWN, SET, SNACKS in faded red/mustard collegiate caps. Recraft v4 try 1 (QC v3 pass).
+- **Primary keyword:** snack shirt — 140 / KD 65 (small, measured, describes the art; football mom terms are owned by the collection)
+- **Cover model:** registry #189
+
+### 120. Men's Fishing – Cheaper Than Therapy (Barely) Tee  *(BUILDING [B])*
+- **Handle:** `mens-fishing-cheaper-than-therapy-graphic-tee` · **Blank:** Bella+Canvas 3001, $29.99 · tags fishing-t-shirts, graphic-tees-for-men, vintage-graphic-tees
+- **Hook:** "Cheaper Than Therapy (Barely)" — the classic line plus the footnote every spouse who has seen the tackle receipts adds.
+- **Why it's not taken:** "cheaper than therapy" is common; the "(barely)" twist with an overflowing tackle box is not.
+- **Art:** Style v3 A — open tackle box overflowing with lures, two rods, a reel and a very long receipt, bass jumping behind; CHEAPER THAN THERAPY in faded caps, (BARELY) below. Forest green, rust, cream, navy.
+- **Primary keyword:** daddy fishing shirt — 140 / KD 36
+- **Cover model:** registry #190
+
+### 121. Unisex Anime – Slurp Responsibly Tee  *(BUILDING [B])*
+- **Handle:** `unisex-anime-slurp-responsibly-graphic-tee` · **Blank:** Bella+Canvas 3001, $29.99 · tags anime-shirts, graphic-tees-for-men, graphic-tees-for-women
+- **Hook:** "Slurp Responsibly" — a drink-responsibly warning for ramen, from an original calico cat chef mid-slurp.
+- **Why it's not taken:** ramen-cat shirts exist, but as cute kawaii art without a line; this one is a retro 90s cel-style print with the joke. Original character only.
+- **Art:** retro 90s anime cel style — chubby calico cat chef in a headband slurping a huge bowl of ramen, noodles flying, lantern and steam; SLURP RESPONSIBLY in faded retro caps. Coral, mustard, teal, cream.
+- **Primary keyword:** ramen t shirt — 1,300 / KD 38 (also ramen shirt 1,000 / 42, noodle shirt 320 / 50)
+- **Cover model:** registry #191 (unisex: man AND woman together)

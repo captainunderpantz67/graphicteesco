@@ -169,3 +169,9 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 183 | Woman in her early 30s, short natural curls, glasses | BUILDING [B] — Charting Is My Cardio nurse tee cover |
 | 184 | Man in his early 50s, sun-weathered, grey stubble, faded cap | BUILDING [B] — Reel Talk fishing tee cover |
 | 185 | Man in his late 30s, dark beard, brown hair, flannel over shoulder | BUILDING [B] — Deer Diary hunting tee cover |
+| 186 | Woman in her early 50s, silver pixie cut, pearl studs | BUILDING [B] — Back Pew Crew christian tee cover |
+| 187 | Man in his mid 60s, white mustache, bucket hat | BUILDING [B] — Fisher of Men fishing tee cover |
+| 188 | Woman in her early 20s, long box braids, small nose stud | BUILDING [B] — IV League nurse tee cover |
+| 189 | Woman in her mid 40s, wavy auburn hair in a claw clip | BUILDING [B] — Down, Set, Snacks football mom tee cover |
+| 190 | Man in his early 40s, shaved head, short red beard | BUILDING [B] — Cheaper Than Therapy fishing tee cover |
+| 191 | Man in his late 20s, black undercut, round glasses + woman in her late 20s, blunt bangs, dyed teal ends | BUILDING [B] — Slurp Responsibly anime tee cover (unisex pair) |
