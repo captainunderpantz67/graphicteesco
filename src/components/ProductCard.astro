@@ -2,11 +2,15 @@
 import type { Product } from '../lib/shopify';
 import { formatPrice } from '../lib/shopify';
 import { coverFor } from '../data/covers';
-interface Props { product: Product }
-const { product: p } = Astro.props;
+interface Props { product: Product; audience?: 'women' | 'men' }
+const { product: p, audience } = Astro.props;
 const href = p.sample ? undefined : `/products/${p.handle}/`;
 const Tag = href ? 'a' : 'div';
-const cover = coverFor(p.handle);
+// On a women's/men's page, never lead with a lifestyle photo of the other audience
+// (Sam, 2026-10-15: "that's a man in the women section") — fall back to the product shot.
+const rawCover = coverFor(p.handle);
+const wrongAudience = rawCover && ((audience === 'women' && /^(man|men)\b/i.test(rawCover.alt)) || (audience === 'men' && /^(woman|women)\b/i.test(rawCover.alt)));
+const cover = wrongAudience ? null : rawCover;
 ---
 <Tag href={href} class="group block">
   <div class="aspect-[4/5] bg-[var(--color-paper-2)] grain overflow-hidden flex items-center justify-center">

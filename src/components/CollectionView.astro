@@ -10,7 +10,8 @@ import { HOLD, linkableSlugs, hoodiesHubLive } from '../lib/linkable';
 
 interface Props { collection: Collection }
 const { collection: c } = Astro.props;
-const products = await getCollectionProducts(c.shopifyHandle);
+// Products still being built (no photos yet) stay off the grid until they're finished.
+const products = (await getCollectionProducts(c.shopifyHandle)).filter((p) => p.sample || p.images.length > 0);
 const live = await linkableSlugs();
 const twinC = c.twin ? bySlug(c.twin) : undefined;
 const twin = twinC && live.has(twinC.slug) ? twinC : undefined;
@@ -41,7 +42,7 @@ const noindex = (shopifyConnected && products.length === 0) || HOLD.has(c.slug);
   <section class="container-x" aria-label="Products">
     {products.length > 0 ? (
       <div class="grid grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-8">
-        {products.map((p) => <ProductCard product={p} />)}
+        {products.map((p) => <ProductCard product={p} audience={c.audience} />)}
       </div>
     ) : (
       <p class="py-12 text-center text-[var(--color-ink-2)]">New designs are dropping here soon.</p>
