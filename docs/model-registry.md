@@ -175,3 +175,9 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 189 | Woman in her mid 40s, wavy auburn hair in a claw clip | BUILDING [B] — Down, Set, Snacks football mom tee cover |
 | 190 | Man in his early 40s, shaved head, short red beard | BUILDING [B] — Cheaper Than Therapy fishing tee cover |
 | 191 | Man in his late 20s, black undercut, round glasses + woman in her late 20s, blunt bangs, dyed teal ends | BUILDING [B] — Slurp Responsibly anime tee cover (unisex pair) |
+| 192 | Woman in her early 20s, curly blonde hair, freckles | BUILDING [B] — Matcha Made in Heaven cropped tee cover |
+| 193 | Woman in her mid 20s, long wavy pink-dyed hair, hoop earrings | BUILDING [B] — Low Battery, High Standards y2k tee cover |
+| 194 | Man in his early 30s, curly dark hair, wire glasses + woman in her early 30s, high bun, freckles | BUILDING [B] — Mecha Mondays anime tee cover (unisex pair) |
+| 195 | Woman in her late 30s, sandy blonde ponytail, sunglasses pushed up | BUILDING [B] — Bases Loaded baseball mom tee cover |
+| 196 | Woman in her early 40s, short dark curly hair | BUILDING [B] — Orange Slice Supplier soccer mom tee cover |
+| 197 | Woman in her late 60s, short white curls, cardigan | BUILDING [B] — Casserole Ministry christian tee cover |

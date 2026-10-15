@@ -1521,3 +1521,53 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Art:** retro 90s anime cel style — chubby calico cat chef in a headband slurping a huge bowl of ramen, noodles flying, lantern and steam; SLURP RESPONSIBLY in faded retro caps. Coral, mustard, teal, cream.
 - **Primary keyword:** ramen t shirt — 1,300 / KD 38 (also ramen shirt 1,000 / 42, noodle shirt 320 / 50)
 - **Cover model:** registry #191 (unisex: man AND woman together)
+
+## Evergreen whimsy batch 3 — lane B (2026-10-15; y2k 0, cropped 1, anime 1, christian 3, baseball mom 3, soccer mom 3)
+
+### 122. Women's Cropped – Matcha Made in Heaven Tee  *(BUILDING [B])*
+- **Handle:** `womens-cropped-matcha-made-in-heaven-graphic-tee` · **Blank:** AS Colour 4062 crop top (Printful #636), $29.99 · tags cropped-graphic-tees, graphic-tees-for-women
+- **Hook:** "Matcha Made in Heaven" — match made in heaven, for the girl whose love story is with her oat-milk matcha.
+- **Why it's not taken:** the pun shows on a few kawaii-cartoon listings; none as a vintage cafe illustration.
+- **Art:** vintage cafe illustration — a whisked matcha latte in a ceramic cup with a bamboo whisk, a little cloud and sunrays above, MATCHA MADE IN HEAVEN in faded retro script/caps. Sage, cream, soft pink.
+- **Primary keyword:** matcha shirt — 3,600 / KD 32 (also matcha t shirt 3,600 / 31)
+- **Cover model:** registry #192
+
+### 123. Women's Y2K – Low Battery, High Standards Tee  *(BUILDING [B])*
+- **Handle:** `womens-y2k-low-battery-high-standards-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags y2k-graphic-tees, graphic-tees-for-women
+- **Hook:** "Low Battery, High Standards" — a flip phone at 1 bar, still not texting him back.
+- **Why it's not taken:** "low battery" shirts are generic battery icons; the flip-phone + standards twist isn't there.
+- **Art:** Y2K look — a glittery flip phone with a low-battery bar, butterflies and sparkles, LOW BATTERY / HIGH STANDARDS in chrome bubble letters. Pink, lilac, silver.
+- **Primary keyword:** low battery shirt — 90 / KD 54 (y2k shirt 22,200/50 is the collection's)
+- **Cover model:** registry #193
+
+### 124. Unisex Anime – Mecha Mondays Tee  *(BUILDING [B])*
+- **Handle:** `unisex-anime-mecha-mondays-graphic-tee` · **Blank:** Bella+Canvas 3001, $29.99 · tags anime-shirts, graphic-tees-for-men, graphic-tees-for-women
+- **Hook:** "Mecha Mondays" — a giant battle robot slumped at a tiny office desk with a coffee. Everyone has piloted that Monday.
+- **Why it's not taken:** mecha shirts are action poses; no tired office-robot joke. Original robot, no known designs.
+- **Art:** retro 80s anime cel style — big original mecha hunched over a small desk with a steaming mug and a stack of papers, city skyline at sunset behind; MECHA MONDAYS in faded retro caps. Teal, coral, mustard, cream.
+- **Primary keyword:** retro anime shirt — 1,600 / KD 37 (also robot shirt 720 / 46)
+- **Cover model:** registry #194 (unisex: man AND woman)
+
+### 125. Women's Baseball Mom – Bases Loaded, Mom Exhausted Tee  *(BUILDING [B])*
+- **Handle:** `womens-baseball-mom-bases-loaded-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags baseball-mom-shirts, graphic-tees-for-women, vintage-graphic-tees
+- **Hook:** "Bases Loaded, Mom Exhausted" — three games this weekend, two fields, one mom.
+- **Why it's not taken:** Etsy baseball mom shirts are leopard/number text; this line isn't there.
+- **Art:** Style v3 A — a vintage ballpark diamond with a ball on every base, a folding stadium chair holding a coffee thermos, a mitt and sunflower seeds; BASES LOADED / MOM EXHAUSTED in faded red/navy varsity caps.
+- **Primary keyword:** baseball mom tshirt — 880 / KD 60
+- **Cover model:** registry #195
+
+### 126. Women's Soccer Mom – Official Orange Slice Supplier Tee  *(BUILDING [B])*
+- **Handle:** `womens-soccer-mom-orange-slice-supplier-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags soccer-mom-shirts, graphic-tees-for-women, vintage-graphic-tees
+- **Hook:** "Official Orange Slice Supplier" — her real position on the team.
+- **Why it's not taken:** halftime orange slices show up as clip art, not as a vintage print with a job title.
+- **Art:** Style v3 A — a vintage cooler overflowing with orange slices beside a scuffed soccer ball and a whistle; OFFICIAL ORANGE SLICE SUPPLIER in faded orange/navy caps.
+- **Primary keyword:** soccer mom tshirt — 2,900 / KD 38
+- **Cover model:** registry #196
+
+### 127. Women's Christian – Casserole Ministry Tee  *(BUILDING [B])*
+- **Handle:** `womens-christian-casserole-ministry-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags christian-shirts, graphic-tees-for-women, vintage-graphic-tees
+- **Hook:** "Casserole Ministry" — the church ladies who show up with a 9×13 for every birth, funeral and move.
+- **Why it's not taken:** no vintage casserole/potluck Christian print with this line on Etsy.
+- **Art:** Style v3 A — a vintage casserole dish in quilted oven mitts with a wooden spoon, a little steeple and wildflowers behind; CASSEROLE MINISTRY in faded 1950s script/caps. Dusty rose, sage, cream, navy.
+- **Primary keyword:** casserole shirt — 20 / KD 48 (small, measured, describes the art)
+- **Cover model:** registry #197
