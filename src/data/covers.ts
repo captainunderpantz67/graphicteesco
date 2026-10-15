@@ -114,6 +114,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-christmas-winter-skate-club-penguins-crewneck-sweatshirt': { src: '/covers/womens-christmas-winter-skate-club-penguins-crewneck-sweatshirt.webp', alt: 'Woman beside a frozen pond in a snowy park wearing the Winter Skate Club Penguins crewneck sweatshirt' },
   'unisex-christmas-upland-christmas-pheasant-graphic-tee': { src: '/covers/unisex-christmas-upland-christmas-pheasant-graphic-tee.webp', alt: 'Man in a snowy cornfield beside a red barn wearing the Upland Christmas Pheasant tee' },
   'unisex-christmas-upland-christmas-pheasant-crewneck-sweatshirt': { src: '/covers/unisex-christmas-upland-christmas-pheasant-crewneck-sweatshirt.webp', alt: 'Man in a log cabin entryway with a lit Christmas tree wearing the Upland Christmas Pheasant crewneck sweatshirt' },
+  'womens-christmas-christmas-on-the-farm-horse-graphic-tee': { src: '/covers/womens-christmas-christmas-on-the-farm-horse-graphic-tee.webp', alt: 'Woman at a snowy farm fence with a horse and a red barn behind her wearing the Christmas on the Farm Horse tee' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

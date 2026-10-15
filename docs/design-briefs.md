@@ -1320,7 +1320,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Primary keyword:** pheasant sweatshirt — 210 / KD 33
 - **Cover model:** registry #118 (reserved)
 
-### 87. Women's Christmas – Christmas on the Farm Horse Tee  *(new)*
+### 87. Women's Christmas – Christmas on the Farm Horse Tee  *(built 2026-10-15)*
 - **Handle:** `womens-christmas-christmas-on-the-farm-horse-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99
 - **Art:** Chestnut horse with a flaxen mane in a snowy pasture, wreath with a red bow on the split-rail fence, red barn and snowy pines; "Christmas on the Farm" in vintage serif above. Style v3 A. Recraft v4 try 1 (https://v3b.fal.media/files/b/0aae47f4/tfuuED0WZoRwTL7EwfNoS_Rao042Mc.webp) → designs/horse.png
 - **Primary keyword:** horse t shirt — 3,600 / KD 46
