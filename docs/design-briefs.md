@@ -1432,7 +1432,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Primary keyword:** soccer shirt for mom — 2,900 / KD 16 (also funny soccer shirt 390 / 48)
 - **Cover model:** registry #180
 
-### 111. Women's Football Mom – Hut Hut Hooray Tee  *(BUILDING [B])*
+### 111. Women's Football Mom – Hut Hut Hooray Tee  *(built 2026-10-15)*
 - **Handle:** `womens-football-mom-hut-hut-hooray-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags football-mom-shirts, graphic-tees-for-women, vintage-graphic-tees
 - **Hook:** "Hut Hut Hooray" — hip hip hooray with a snap count. Reads in a second from the bleachers.
 - **Why it's not taken:** Etsy football mom shirts are "Football Mom" + number/leopard text; the line shows on a few text-only listings, none with a vintage scene.

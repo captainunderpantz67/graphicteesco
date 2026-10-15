@@ -164,7 +164,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 172 | Woman in her mid 20s, short auburn bob | RESERVED [A] — Pie Oh My tee cover |
 | 173 | Woman in her early 60s, white hair in a low bun, round glasses | RESERVED [A] — Pie Oh My crewneck cover |
 | 180 | Woman in her late 30s, dark curly hair in a ponytail, light freckles | USED 2026-10-15 — Goal Digger soccer mom tee cover (fal Seedream 4, youth soccer sideline; try 1 kept) |
-| 181 | Woman in her early 40s, straight blonde lob, small hoops | BUILDING [B] — Hut Hut Hooray football mom tee cover |
+| 181 | Woman in her early 40s, straight blonde lob, small hoops | USED 2026-10-15 — Hut Hut Hooray football mom tee cover (fal Seedream 4, Friday-night stadium bleachers; try 1 kept) |
 | 182 | Woman in her mid 30s, long dark-brown hair in a low braid, ball cap | BUILDING [B] — Pitch Please baseball mom tee cover |
 | 183 | Woman in her early 30s, short natural curls, glasses | BUILDING [B] — Charting Is My Cardio nurse tee cover |
 | 184 | Man in his early 50s, sun-weathered, grey stubble, faded cap | BUILDING [B] — Reel Talk fishing tee cover |

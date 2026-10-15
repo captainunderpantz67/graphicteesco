@@ -2198,6 +2198,24 @@
      "kd": 48
     }
    ]
+  },
+  "womens-football-mom-hut-hut-hooray-graphic-tee": {
+   "claimed": [
+    "game day shirt women",
+    "funny football shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "game day shirt women",
+     "volume": 880,
+     "kd": 26
+    },
+    {
+     "phrase": "funny football shirt",
+     "volume": 880,
+     "kd": 54
+    }
+   ]
   }
  }
 }
