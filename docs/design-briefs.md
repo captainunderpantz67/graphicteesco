@@ -1331,3 +1331,8 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Handle:** `womens-christmas-christmas-on-the-farm-horse-crewneck-sweatshirt` · Gildan 18000 (#145), $39.99 · art = #87
 - **Primary keyword:** horse sweatshirt — 1,600 / KD 38
 - **Cover model:** registry #120 (reserved)
+
+### 89. Women's Thanksgiving – Gobble Gobble Turkey Crewneck Sweatshirt  *(built 2026-10-15)*
+- **Handle:** `womens-thanksgiving-gobble-gobble-crewneck-sweatshirt` · Gildan 18000 (#145), $39.99 · art = #53
+- **Primary keyword:** turkey sweatshirt — 390 / KD 56
+- **Cover model:** registry #126

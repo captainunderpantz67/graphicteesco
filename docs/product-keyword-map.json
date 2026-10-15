@@ -2073,6 +2073,18 @@
      "kd": 64
     }
    ]
+  },
+  "womens-thanksgiving-gobble-gobble-crewneck-sweatshirt": {
+   "claimed": [
+    "turkey sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "turkey sweatshirt",
+     "volume": 390,
+     "kd": 56
+    }
+   ]
   }
  }
 }
