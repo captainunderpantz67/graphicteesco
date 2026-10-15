@@ -1490,7 +1490,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Primary keyword:** fishers of men shirt — 390 / KD 31
 - **Cover model:** registry #187
 
-### 118. Women's Nurse – IV League Tee  *(BUILDING [B])*
+### 118. Women's Nurse – IV League Tee  *(built 2026-10-15)*
 - **Handle:** `womens-nurse-iv-league-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags nurse-shirts, graphic-tees-for-women, vintage-graphic-tees
 - **Hook:** "IV League" — Ivy League varsity lettering, but the only drip is from the IV bag. Nursing students and new grads get it instantly.
 - **Why it's not taken:** a few text-only listings use the pun; none in a vintage varsity print with the IV pole.

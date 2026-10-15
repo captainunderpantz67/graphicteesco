@@ -2418,6 +2418,24 @@
      "kd": 57
     }
    ]
+  },
+  "womens-nurse-iv-league-graphic-tee": {
+   "claimed": [
+    "funny nursing shirt",
+    "nursing school shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny nursing shirt",
+     "volume": 1300,
+     "kd": 44
+    },
+    {
+     "phrase": "nursing school shirt",
+     "volume": 880,
+     "kd": 58
+    }
+   ]
   }
  }
 }
