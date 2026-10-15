@@ -1,64 +1,21 @@
-# Cohesion audit — 2026-10-15 15:41 UTC
+# Cohesion audit — 2026-10-15 18:07 UTC
 
-115 live products checked · **47 errors** · 24 warnings · 44 products with findings
+122 live products checked · **18 errors** · 17 warnings · 29 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
-- 23 × Crewneck sweatshirt listed in the tee collection .
-- 9 × Unisex product in a Women's Graphic Tees page, but the cover shows onl
-- 4 × Unisex product in a Women's Graphic Tees, Women's Christmas Shirts pag
+- 8 × Unisex product in a Women's Graphic Tees page, but the cover shows onl
 - 4 × Unisex product in a Women's Graphic Tees, Country Graphic Tees page, b
-- 4 × No product photos — page shows a blank placeholder.
 - 3 × Unisex product in a Men's Graphic Tees page, but the cover shows only 
+- 1 × Unisex product in a Women's Graphic Tees, Women's Christmas Shirts pag
+- 1 × Crewneck copy calls it a tee/t-shirt.
+- 1 × Claims , already claimed by unisex-thanksgiving-give-thanks-harvest-cr
 
 ## By product (errors first)
-### Unisex Christmas – Upland Christmas Pheasant Crewneck Sweatshirt `unisex-christmas-upland-christmas-pheasant-crewneck-sweatshirt`
-- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Men's Graphic Tees". → Remove the tag that puts it in graphic-tees-for-men; it belongs in the matching *-sweatshirts collection.
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Hunting Tees". → Remove the tag that puts it in hunting-t-shirts; it belongs in the matching *-sweatshirts collection.
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Christmas Tees". → Remove the tag that puts it in christmas-shirts; it belongs in the matching *-sweatshirts collection.
-- **ERROR** No product photos — page shows a blank placeholder. → Finish Printful mockups, or set the product to DRAFT until done.
-- **WARN** No entry in docs/product-keyword-map.json (no measured primary keyword recorded). → Run scripts/keyword-gap.py and record its phrases.
-
-### Women's Christmas – Christmas on the Farm Horse Crewneck Sweatshirt `womens-christmas-christmas-on-the-farm-horse-crewneck-sweatshirt`
-- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Christmas Tees". → Remove the tag that puts it in christmas-shirts; it belongs in the matching *-sweatshirts collection.
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Women's Christmas Shirts". → Remove the tag that puts it in christmas-shirts-for-women; it belongs in the matching *-sweatshirts collection.
-- **ERROR** No product photos — page shows a blank placeholder. → Finish Printful mockups, or set the product to DRAFT until done.
-- **WARN** No entry in docs/product-keyword-map.json (no measured primary keyword recorded). → Run scripts/keyword-gap.py and record its phrases.
-
-### Women's Christmas – Merry & Bright Trees Crewneck Sweatshirt `womens-christmas-merry-bright-trees-crewneck-sweatshirt`
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Christmas Tees". → Remove the tag that puts it in christmas-shirts; it belongs in the matching *-sweatshirts collection.
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Women's Christmas Shirts". → Remove the tag that puts it in christmas-shirts-for-women; it belongs in the matching *-sweatshirts collection.
-
-### Unisex Christmas – Christmas Tree Farm Crewneck Sweatshirt `unisex-christmas-christmas-tree-farm-crewneck-sweatshirt`
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Christmas Tees". → Remove the tag that puts it in christmas-shirts; it belongs in the matching *-sweatshirts collection.
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Women's Christmas Shirts". → Remove the tag that puts it in christmas-shirts-for-women; it belongs in the matching *-sweatshirts collection.
-
-### Women's Christmas – Cardinal Christmas Crewneck Sweatshirt `womens-christmas-cardinal-christmas-crewneck-sweatshirt`
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Christmas Tees". → Remove the tag that puts it in christmas-shirts; it belongs in the matching *-sweatshirts collection.
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Women's Christmas Shirts". → Remove the tag that puts it in christmas-shirts-for-women; it belongs in the matching *-sweatshirts collection.
-
-### Unisex Christmas – Christmas Ski Lodge Crewneck Sweatshirt `unisex-christmas-christmas-ski-lodge-crewneck-sweatshirt`
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Men's Graphic Tees". → Remove the tag that puts it in graphic-tees-for-men; it belongs in the matching *-sweatshirts collection.
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Christmas Tees". → Remove the tag that puts it in christmas-shirts; it belongs in the matching *-sweatshirts collection.
-
-### Unisex Christmas – North Woods Moose Crewneck Sweatshirt `unisex-christmas-north-woods-moose-crewneck-sweatshirt`
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Men's Graphic Tees". → Remove the tag that puts it in graphic-tees-for-men; it belongs in the matching *-sweatshirts collection.
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Christmas Tees". → Remove the tag that puts it in christmas-shirts; it belongs in the matching *-sweatshirts collection.
-
-### Women's Christmas – Winter Woods Fox Crewneck Sweatshirt `womens-christmas-winter-woods-fox-crewneck-sweatshirt`
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Christmas Tees". → Remove the tag that puts it in christmas-shirts; it belongs in the matching *-sweatshirts collection.
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Women's Christmas Shirts". → Remove the tag that puts it in christmas-shirts-for-women; it belongs in the matching *-sweatshirts collection.
-
-### Unisex Christmas – Mountain Christmas Bear Crewneck Sweatshirt `unisex-christmas-mountain-christmas-bear-crewneck-sweatshirt`
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Men's Graphic Tees". → Remove the tag that puts it in graphic-tees-for-men; it belongs in the matching *-sweatshirts collection.
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Christmas Tees". → Remove the tag that puts it in christmas-shirts; it belongs in the matching *-sweatshirts collection.
-
-### Women's Christmas – Golden Retriever Christmas Crewneck Sweatshirt `womens-christmas-golden-retriever-christmas-crewneck-sweatshirt`
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Christmas Tees". → Remove the tag that puts it in christmas-shirts; it belongs in the matching *-sweatshirts collection.
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Women's Christmas Shirts". → Remove the tag that puts it in christmas-shirts-for-women; it belongs in the matching *-sweatshirts collection.
+### Unisex Thanksgiving – Turkey Day Crew Crewneck Sweatshirt `unisex-thanksgiving-turkey-day-crew-crewneck-sweatshirt`
+- **ERROR** Crewneck copy calls it a tee/t-shirt. → Fix the product description.
+- **ERROR** Claims "fall sweatshirt", already claimed by unisex-thanksgiving-give-thanks-harvest-crewneck-sweatshirt (two pages fighting for one keyword). → Give one of them a different measured phrase.
 
 ### Unisex Halloween – Night Shift Tee `unisex-halloween-night-shift-graphic-tee`
 - **ERROR** Unisex product in a Women's Graphic Tees page, but the cover shows only a man. → Regenerate the cover with a man AND a woman (unisex rule).
@@ -73,11 +30,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Unisex Christmas – Fresh Cut Christmas Trees Tee `unisex-christmas-fresh-cut-christmas-trees-graphic-tee`
 - **ERROR** Unisex product in a Women's Graphic Tees, Women's Christmas Shirts page, but the cover shows only a man. → Regenerate the cover with a man AND a woman (unisex rule).
 - **WARN** SEO title is 67 chars (> 60). → Trim to ≤ 60.
-
-### Unisex Christmas – Cabin Christmas Tee `unisex-christmas-cabin-christmas-graphic-tee`
-- **ERROR** Unisex product in a Women's Graphic Tees, Women's Christmas Shirts page, but the cover shows only a man. → Regenerate the cover with a man AND a woman (unisex rule).
-- **WARN** SEO title is 64 chars (> 60). → Trim to ≤ 60.
-- **WARN** No meta description. → Write one ≤ 155 chars.
 
 ### Unisex Western – Desert Rider Tee `unisex-western-desert-rider-graphic-tee`
 - **ERROR** Unisex product in a Men's Graphic Tees page, but the cover shows only a woman. → Regenerate the cover with a man AND a woman (unisex rule).
@@ -103,25 +55,10 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Unisex Thanksgiving – Leftovers Club Tee `unisex-thanksgiving-leftovers-club-graphic-tee`
 - **ERROR** Unisex product in a Women's Graphic Tees page, but the cover shows only a man. → Regenerate the cover with a man AND a woman (unisex rule).
 
-### Unisex Christmas – Vintage Santa Tee `unisex-christmas-vintage-santa-graphic-tee`
-- **ERROR** Unisex product in a Women's Graphic Tees, Women's Christmas Shirts page, but the cover shows only a man. → Regenerate the cover with a man AND a woman (unisex rule).
-
 ### Unisex Thanksgiving – Give Thanks Harvest Tee `unisex-thanksgiving-give-thanks-harvest-graphic-tee`
 - **ERROR** Unisex product in a Women's Graphic Tees page, but the cover shows only a man. → Regenerate the cover with a man AND a woman (unisex rule).
 
-### Unisex Thanksgiving – Give Thanks Harvest Crewneck Sweatshirt `unisex-thanksgiving-give-thanks-harvest-crewneck-sweatshirt`
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Thanksgiving Tees". → Remove the tag that puts it in thanksgiving-shirts; it belongs in the matching *-sweatshirts collection.
-
 ### Unisex Fishing – Lake Life Tee `unisex-fishing-lake-life-graphic-tee`
-- **ERROR** Unisex product in a Women's Graphic Tees page, but the cover shows only a man. → Regenerate the cover with a man AND a woman (unisex rule).
-
-### Unisex Christmas – Deer Camp Christmas Crewneck Sweatshirt `unisex-christmas-deer-camp-christmas-crewneck-sweatshirt`
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Christmas Tees". → Remove the tag that puts it in christmas-shirts; it belongs in the matching *-sweatshirts collection.
-
-### Unisex Christmas – Christmas Tree Farm Tee `unisex-christmas-christmas-tree-farm-graphic-tee`
-- **ERROR** Unisex product in a Women's Graphic Tees, Women's Christmas Shirts page, but the cover shows only a man. → Regenerate the cover with a man AND a woman (unisex rule).
-
-### Unisex Christmas – Christmas Ski Lodge Tee `unisex-christmas-christmas-ski-lodge-graphic-tee`
 - **ERROR** Unisex product in a Women's Graphic Tees page, but the cover shows only a man. → Regenerate the cover with a man AND a woman (unisex rule).
 
 ### Unisex Christmas – North Woods Moose Tee `unisex-christmas-north-woods-moose-graphic-tee`
@@ -130,20 +67,14 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Unisex Christmas – Mountain Christmas Bear Tee `unisex-christmas-mountain-christmas-bear-graphic-tee`
 - **ERROR** Unisex product in a Women's Graphic Tees page, but the cover shows only a man. → Regenerate the cover with a man AND a woman (unisex rule).
 
-### Unisex Christmas – Upland Christmas Pheasant Tee `unisex-christmas-upland-christmas-pheasant-graphic-tee`
-- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
-- **ERROR** No product photos — page shows a blank placeholder. → Finish Printful mockups, or set the product to DRAFT until done.
-- **WARN** No entry in docs/product-keyword-map.json (no measured primary keyword recorded). → Run scripts/keyword-gap.py and record its phrases.
-
-### Women's Christmas – Christmas on the Farm Horse Tee `womens-christmas-christmas-on-the-farm-horse-graphic-tee`
-- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
-- **ERROR** No product photos — page shows a blank placeholder. → Finish Printful mockups, or set the product to DRAFT until done.
-- **WARN** No entry in docs/product-keyword-map.json (no measured primary keyword recorded). → Run scripts/keyword-gap.py and record its phrases.
-
 ### Men's Fishing – Sunrise Strike Tee `mens-fishing-sunrise-strike-graphic-tee`
 - **WARN** No meta description. → Write one ≤ 155 chars.
 
 ### Men's Gym – Barbell Club Tee `mens-gym-barbell-club-graphic-tee`
+- **WARN** No meta description. → Write one ≤ 155 chars.
+
+### Unisex Christmas – Cabin Christmas Tee `unisex-christmas-cabin-christmas-graphic-tee`
+- **WARN** SEO title is 64 chars (> 60). → Trim to ≤ 60.
 - **WARN** No meta description. → Write one ≤ 155 chars.
 
 ### Women's Thanksgiving – Give Thanks Tee `womens-thanksgiving-give-thanks-graphic-tee`
@@ -171,3 +102,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Men's Gym – Iron Sharpens Iron Tee `mens-gym-iron-sharpens-iron-graphic-tee`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Thanksgiving – Gobble Gobble Turkey Crewneck Sweatshirt `womens-thanksgiving-gobble-gobble-crewneck-sweatshirt`
+- **WARN** SEO title is 61 chars (> 60). → Trim to ≤ 60.
