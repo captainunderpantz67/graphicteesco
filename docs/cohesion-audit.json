@@ -1,0 +1,503 @@
+{
+ "at": "2026-10-15T15:41:00.850Z",
+ "products": 115,
+ "findings": [
+  {
+   "level": "ERROR",
+   "handle": "unisex-halloween-night-shift-graphic-tee",
+   "title": "Unisex Halloween – Night Shift Tee",
+   "msg": "Unisex product in a Women's Graphic Tees page, but the cover shows only a man.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-fishing-sunrise-strike-graphic-tee",
+   "title": "Men's Fishing – Sunrise Strike Tee",
+   "msg": "No meta description.",
+   "fix": "Write one ≤ 155 chars."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-halloween-haunted-hollow-graphic-tee",
+   "title": "Unisex Halloween – Haunted Hollow Tee",
+   "msg": "Unisex product in a Women's Graphic Tees page, but the cover shows only a man.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-halloween-midnight-feature-graphic-tee",
+   "title": "Unisex Halloween – Midnight Feature Tee",
+   "msg": "Unisex product in a Men's Graphic Tees page, but the cover shows only a woman.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-halloween-midnight-feature-graphic-tee",
+   "title": "Unisex Halloween – Midnight Feature Tee",
+   "msg": "No meta description.",
+   "fix": "Write one ≤ 155 chars."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-gym-barbell-club-graphic-tee",
+   "title": "Men's Gym – Barbell Club Tee",
+   "msg": "No meta description.",
+   "fix": "Write one ≤ 155 chars."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-fresh-cut-christmas-trees-graphic-tee",
+   "title": "Unisex Christmas – Fresh Cut Christmas Trees Tee",
+   "msg": "Unisex product in a Women's Graphic Tees, Women's Christmas Shirts page, but the cover shows only a man.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-christmas-fresh-cut-christmas-trees-graphic-tee",
+   "title": "Unisex Christmas – Fresh Cut Christmas Trees Tee",
+   "msg": "SEO title is 67 chars (> 60).",
+   "fix": "Trim to ≤ 60."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-cabin-christmas-graphic-tee",
+   "title": "Unisex Christmas – Cabin Christmas Tee",
+   "msg": "Unisex product in a Women's Graphic Tees, Women's Christmas Shirts page, but the cover shows only a man.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-christmas-cabin-christmas-graphic-tee",
+   "title": "Unisex Christmas – Cabin Christmas Tee",
+   "msg": "SEO title is 64 chars (> 60).",
+   "fix": "Trim to ≤ 60."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-christmas-cabin-christmas-graphic-tee",
+   "title": "Unisex Christmas – Cabin Christmas Tee",
+   "msg": "No meta description.",
+   "fix": "Write one ≤ 155 chars."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-thanksgiving-give-thanks-graphic-tee",
+   "title": "Women's Thanksgiving – Give Thanks Tee",
+   "msg": "SEO title is 63 chars (> 60).",
+   "fix": "Trim to ≤ 60."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-thanksgiving-give-thanks-graphic-tee",
+   "title": "Women's Thanksgiving – Give Thanks Tee",
+   "msg": "No meta description.",
+   "fix": "Write one ≤ 155 chars."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-hunting-first-light-buck-graphic-tee",
+   "title": "Men's Hunting – First Light Buck Tee",
+   "msg": "No meta description.",
+   "fix": "Write one ≤ 155 chars."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-hunting-marsh-morning-graphic-tee",
+   "title": "Men's Hunting – Marsh Morning Tee",
+   "msg": "No meta description.",
+   "fix": "Write one ≤ 155 chars."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-western-desert-rider-graphic-tee",
+   "title": "Unisex Western – Desert Rider Tee",
+   "msg": "Unisex product in a Men's Graphic Tees page, but the cover shows only a woman.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-gym-iron-sweat-graphic-tee",
+   "title": "Men's Gym – Iron & Sweat Tee",
+   "msg": "No meta description.",
+   "fix": "Write one ≤ 155 chars."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-nurse-nurse-life-coffee-graphic-tee",
+   "title": "Women's Nurse – Nurse Life Coffee Tee",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-nurse-nurse-life-coffee-graphic-tee",
+   "title": "Women's Nurse – Nurse Life Coffee Tee",
+   "msg": "No meta description.",
+   "fix": "Write one ≤ 155 chars."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-country-sweet-tea-sunsets-graphic-tee",
+   "title": "Women's Country – Sweet Tea & Sunsets Tee",
+   "msg": "No meta description.",
+   "fix": "Write one ≤ 155 chars."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-retro-santa-graphic-tee",
+   "title": "Women's Christmas – Retro Santa Tee",
+   "msg": "No meta description.",
+   "fix": "Write one ≤ 155 chars."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-gym-iron-sharpens-iron-graphic-tee",
+   "title": "Men's Gym – Iron Sharpens Iron Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-western-hold-on-eight-graphic-tee",
+   "title": "Unisex Western – Hold On Eight Tee",
+   "msg": "Unisex product in a Women's Graphic Tees, Country Graphic Tees page, but the cover shows only a man.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-western-vintage-bison-graphic-tee",
+   "title": "Unisex Western – Vintage Bison Tee",
+   "msg": "Unisex product in a Women's Graphic Tees, Country Graphic Tees page, but the cover shows only a man.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-western-saddle-blanket-steer-graphic-tee",
+   "title": "Unisex Western – Saddle Blanket Steer Tee",
+   "msg": "Unisex product in a Men's Graphic Tees page, but the cover shows only a woman.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-western-desert-rattler-graphic-tee",
+   "title": "Unisex Western – Desert Rattler Tee",
+   "msg": "Unisex product in a Women's Graphic Tees, Country Graphic Tees page, but the cover shows only a man.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-western-lucky-horseshoe-graphic-tee",
+   "title": "Unisex Western – Lucky Horseshoe Tee",
+   "msg": "Unisex product in a Women's Graphic Tees, Country Graphic Tees page, but the cover shows only a man.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-thanksgiving-turkey-trot-graphic-tee",
+   "title": "Unisex Thanksgiving – Turkey Trot Tee",
+   "msg": "Unisex product in a Women's Graphic Tees page, but the cover shows only a man.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-thanksgiving-leftovers-club-graphic-tee",
+   "title": "Unisex Thanksgiving – Leftovers Club Tee",
+   "msg": "Unisex product in a Women's Graphic Tees page, but the cover shows only a man.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-vintage-santa-graphic-tee",
+   "title": "Unisex Christmas – Vintage Santa Tee",
+   "msg": "Unisex product in a Women's Graphic Tees, Women's Christmas Shirts page, but the cover shows only a man.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-merry-bright-trees-crewneck-sweatshirt",
+   "title": "Women's Christmas – Merry & Bright Trees Crewneck Sweatshirt",
+   "msg": "Crewneck sweatshirt listed in the tee collection \"Christmas Tees\".",
+   "fix": "Remove the tag that puts it in christmas-shirts; it belongs in the matching *-sweatshirts collection."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-merry-bright-trees-crewneck-sweatshirt",
+   "title": "Women's Christmas – Merry & Bright Trees Crewneck Sweatshirt",
+   "msg": "Crewneck sweatshirt listed in the tee collection \"Women's Christmas Shirts\".",
+   "fix": "Remove the tag that puts it in christmas-shirts-for-women; it belongs in the matching *-sweatshirts collection."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-thanksgiving-give-thanks-harvest-graphic-tee",
+   "title": "Unisex Thanksgiving – Give Thanks Harvest Tee",
+   "msg": "Unisex product in a Women's Graphic Tees page, but the cover shows only a man.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-thanksgiving-give-thanks-harvest-crewneck-sweatshirt",
+   "title": "Unisex Thanksgiving – Give Thanks Harvest Crewneck Sweatshirt",
+   "msg": "Crewneck sweatshirt listed in the tee collection \"Thanksgiving Tees\".",
+   "fix": "Remove the tag that puts it in thanksgiving-shirts; it belongs in the matching *-sweatshirts collection."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-fishing-lake-life-graphic-tee",
+   "title": "Unisex Fishing – Lake Life Tee",
+   "msg": "Unisex product in a Women's Graphic Tees page, but the cover shows only a man.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-deer-camp-christmas-crewneck-sweatshirt",
+   "title": "Unisex Christmas – Deer Camp Christmas Crewneck Sweatshirt",
+   "msg": "Crewneck sweatshirt listed in the tee collection \"Christmas Tees\".",
+   "fix": "Remove the tag that puts it in christmas-shirts; it belongs in the matching *-sweatshirts collection."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-christmas-tree-farm-graphic-tee",
+   "title": "Unisex Christmas – Christmas Tree Farm Tee",
+   "msg": "Unisex product in a Women's Graphic Tees, Women's Christmas Shirts page, but the cover shows only a man.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-christmas-tree-farm-crewneck-sweatshirt",
+   "title": "Unisex Christmas – Christmas Tree Farm Crewneck Sweatshirt",
+   "msg": "Crewneck sweatshirt listed in the tee collection \"Christmas Tees\".",
+   "fix": "Remove the tag that puts it in christmas-shirts; it belongs in the matching *-sweatshirts collection."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-christmas-tree-farm-crewneck-sweatshirt",
+   "title": "Unisex Christmas – Christmas Tree Farm Crewneck Sweatshirt",
+   "msg": "Crewneck sweatshirt listed in the tee collection \"Women's Christmas Shirts\".",
+   "fix": "Remove the tag that puts it in christmas-shirts-for-women; it belongs in the matching *-sweatshirts collection."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-cardinal-christmas-crewneck-sweatshirt",
+   "title": "Women's Christmas – Cardinal Christmas Crewneck Sweatshirt",
+   "msg": "Crewneck sweatshirt listed in the tee collection \"Christmas Tees\".",
+   "fix": "Remove the tag that puts it in christmas-shirts; it belongs in the matching *-sweatshirts collection."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-cardinal-christmas-crewneck-sweatshirt",
+   "title": "Women's Christmas – Cardinal Christmas Crewneck Sweatshirt",
+   "msg": "Crewneck sweatshirt listed in the tee collection \"Women's Christmas Shirts\".",
+   "fix": "Remove the tag that puts it in christmas-shirts-for-women; it belongs in the matching *-sweatshirts collection."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-christmas-ski-lodge-graphic-tee",
+   "title": "Unisex Christmas – Christmas Ski Lodge Tee",
+   "msg": "Unisex product in a Women's Graphic Tees page, but the cover shows only a man.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-christmas-ski-lodge-crewneck-sweatshirt",
+   "title": "Unisex Christmas – Christmas Ski Lodge Crewneck Sweatshirt",
+   "msg": "Crewneck sweatshirt listed in the tee collection \"Men's Graphic Tees\".",
+   "fix": "Remove the tag that puts it in graphic-tees-for-men; it belongs in the matching *-sweatshirts collection."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-christmas-ski-lodge-crewneck-sweatshirt",
+   "title": "Unisex Christmas – Christmas Ski Lodge Crewneck Sweatshirt",
+   "msg": "Crewneck sweatshirt listed in the tee collection \"Christmas Tees\".",
+   "fix": "Remove the tag that puts it in christmas-shirts; it belongs in the matching *-sweatshirts collection."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-north-woods-moose-graphic-tee",
+   "title": "Unisex Christmas – North Woods Moose Tee",
+   "msg": "Unisex product in a Women's Graphic Tees page, but the cover shows only a man.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-north-woods-moose-crewneck-sweatshirt",
+   "title": "Unisex Christmas – North Woods Moose Crewneck Sweatshirt",
+   "msg": "Crewneck sweatshirt listed in the tee collection \"Men's Graphic Tees\".",
+   "fix": "Remove the tag that puts it in graphic-tees-for-men; it belongs in the matching *-sweatshirts collection."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-north-woods-moose-crewneck-sweatshirt",
+   "title": "Unisex Christmas – North Woods Moose Crewneck Sweatshirt",
+   "msg": "Crewneck sweatshirt listed in the tee collection \"Christmas Tees\".",
+   "fix": "Remove the tag that puts it in christmas-shirts; it belongs in the matching *-sweatshirts collection."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-winter-woods-fox-crewneck-sweatshirt",
+   "title": "Women's Christmas – Winter Woods Fox Crewneck Sweatshirt",
+   "msg": "Crewneck sweatshirt listed in the tee collection \"Christmas Tees\".",
+   "fix": "Remove the tag that puts it in christmas-shirts; it belongs in the matching *-sweatshirts collection."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-winter-woods-fox-crewneck-sweatshirt",
+   "title": "Women's Christmas – Winter Woods Fox Crewneck Sweatshirt",
+   "msg": "Crewneck sweatshirt listed in the tee collection \"Women's Christmas Shirts\".",
+   "fix": "Remove the tag that puts it in christmas-shirts-for-women; it belongs in the matching *-sweatshirts collection."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-mountain-christmas-bear-graphic-tee",
+   "title": "Unisex Christmas – Mountain Christmas Bear Tee",
+   "msg": "Unisex product in a Women's Graphic Tees page, but the cover shows only a man.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-mountain-christmas-bear-crewneck-sweatshirt",
+   "title": "Unisex Christmas – Mountain Christmas Bear Crewneck Sweatshirt",
+   "msg": "Crewneck sweatshirt listed in the tee collection \"Men's Graphic Tees\".",
+   "fix": "Remove the tag that puts it in graphic-tees-for-men; it belongs in the matching *-sweatshirts collection."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-mountain-christmas-bear-crewneck-sweatshirt",
+   "title": "Unisex Christmas – Mountain Christmas Bear Crewneck Sweatshirt",
+   "msg": "Crewneck sweatshirt listed in the tee collection \"Christmas Tees\".",
+   "fix": "Remove the tag that puts it in christmas-shirts; it belongs in the matching *-sweatshirts collection."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-golden-retriever-christmas-crewneck-sweatshirt",
+   "title": "Women's Christmas – Golden Retriever Christmas Crewneck Sweatshirt",
+   "msg": "Crewneck sweatshirt listed in the tee collection \"Christmas Tees\".",
+   "fix": "Remove the tag that puts it in christmas-shirts; it belongs in the matching *-sweatshirts collection."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-golden-retriever-christmas-crewneck-sweatshirt",
+   "title": "Women's Christmas – Golden Retriever Christmas Crewneck Sweatshirt",
+   "msg": "Crewneck sweatshirt listed in the tee collection \"Women's Christmas Shirts\".",
+   "fix": "Remove the tag that puts it in christmas-shirts-for-women; it belongs in the matching *-sweatshirts collection."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-christmas-upland-christmas-pheasant-graphic-tee",
+   "title": "Unisex Christmas – Upland Christmas Pheasant Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-upland-christmas-pheasant-graphic-tee",
+   "title": "Unisex Christmas – Upland Christmas Pheasant Tee",
+   "msg": "No product photos — page shows a blank placeholder.",
+   "fix": "Finish Printful mockups, or set the product to DRAFT until done."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-christmas-upland-christmas-pheasant-graphic-tee",
+   "title": "Unisex Christmas – Upland Christmas Pheasant Tee",
+   "msg": "No entry in docs/product-keyword-map.json (no measured primary keyword recorded).",
+   "fix": "Run scripts/keyword-gap.py and record its phrases."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-christmas-upland-christmas-pheasant-crewneck-sweatshirt",
+   "title": "Unisex Christmas – Upland Christmas Pheasant Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-upland-christmas-pheasant-crewneck-sweatshirt",
+   "title": "Unisex Christmas – Upland Christmas Pheasant Crewneck Sweatshirt",
+   "msg": "Crewneck sweatshirt listed in the tee collection \"Men's Graphic Tees\".",
+   "fix": "Remove the tag that puts it in graphic-tees-for-men; it belongs in the matching *-sweatshirts collection."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-upland-christmas-pheasant-crewneck-sweatshirt",
+   "title": "Unisex Christmas – Upland Christmas Pheasant Crewneck Sweatshirt",
+   "msg": "Crewneck sweatshirt listed in the tee collection \"Hunting Tees\".",
+   "fix": "Remove the tag that puts it in hunting-t-shirts; it belongs in the matching *-sweatshirts collection."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-upland-christmas-pheasant-crewneck-sweatshirt",
+   "title": "Unisex Christmas – Upland Christmas Pheasant Crewneck Sweatshirt",
+   "msg": "Crewneck sweatshirt listed in the tee collection \"Christmas Tees\".",
+   "fix": "Remove the tag that puts it in christmas-shirts; it belongs in the matching *-sweatshirts collection."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-upland-christmas-pheasant-crewneck-sweatshirt",
+   "title": "Unisex Christmas – Upland Christmas Pheasant Crewneck Sweatshirt",
+   "msg": "No product photos — page shows a blank placeholder.",
+   "fix": "Finish Printful mockups, or set the product to DRAFT until done."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-christmas-upland-christmas-pheasant-crewneck-sweatshirt",
+   "title": "Unisex Christmas – Upland Christmas Pheasant Crewneck Sweatshirt",
+   "msg": "No entry in docs/product-keyword-map.json (no measured primary keyword recorded).",
+   "fix": "Run scripts/keyword-gap.py and record its phrases."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-christmas-on-the-farm-horse-graphic-tee",
+   "title": "Women's Christmas – Christmas on the Farm Horse Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-christmas-on-the-farm-horse-graphic-tee",
+   "title": "Women's Christmas – Christmas on the Farm Horse Tee",
+   "msg": "No product photos — page shows a blank placeholder.",
+   "fix": "Finish Printful mockups, or set the product to DRAFT until done."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-christmas-on-the-farm-horse-graphic-tee",
+   "title": "Women's Christmas – Christmas on the Farm Horse Tee",
+   "msg": "No entry in docs/product-keyword-map.json (no measured primary keyword recorded).",
+   "fix": "Run scripts/keyword-gap.py and record its phrases."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-christmas-on-the-farm-horse-crewneck-sweatshirt",
+   "title": "Women's Christmas – Christmas on the Farm Horse Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-christmas-on-the-farm-horse-crewneck-sweatshirt",
+   "title": "Women's Christmas – Christmas on the Farm Horse Crewneck Sweatshirt",
+   "msg": "Crewneck sweatshirt listed in the tee collection \"Christmas Tees\".",
+   "fix": "Remove the tag that puts it in christmas-shirts; it belongs in the matching *-sweatshirts collection."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-christmas-on-the-farm-horse-crewneck-sweatshirt",
+   "title": "Women's Christmas – Christmas on the Farm Horse Crewneck Sweatshirt",
+   "msg": "Crewneck sweatshirt listed in the tee collection \"Women's Christmas Shirts\".",
+   "fix": "Remove the tag that puts it in christmas-shirts-for-women; it belongs in the matching *-sweatshirts collection."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-christmas-on-the-farm-horse-crewneck-sweatshirt",
+   "title": "Women's Christmas – Christmas on the Farm Horse Crewneck Sweatshirt",
+   "msg": "No product photos — page shows a blank placeholder.",
+   "fix": "Finish Printful mockups, or set the product to DRAFT until done."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-christmas-on-the-farm-horse-crewneck-sweatshirt",
+   "title": "Women's Christmas – Christmas on the Farm Horse Crewneck Sweatshirt",
+   "msg": "No entry in docs/product-keyword-map.json (no measured primary keyword recorded).",
+   "fix": "Run scripts/keyword-gap.py and record its phrases."
+  }
+ ]
+}
