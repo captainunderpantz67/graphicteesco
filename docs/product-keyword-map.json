@@ -2157,6 +2157,29 @@
      "kd": 40
     }
    ]
+  },
+  "womens-thanksgiving-nap-queen-crewneck-sweatshirt": {
+   "claimed": [
+    "nap sweatshirt",
+    "nap queen sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "nap sweatshirt",
+     "volume": 720,
+     "kd": 27
+    },
+    {
+     "phrase": "nap queen sweatshirt",
+     "volume": 110,
+     "kd": 40
+    },
+    {
+     "phrase": "cat sweatshirt",
+     "volume": 3600,
+     "kd": 52
+    }
+   ]
   }
  }
 }

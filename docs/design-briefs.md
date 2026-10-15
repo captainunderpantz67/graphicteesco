@@ -1363,4 +1363,11 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Art:** Wingback armchair with a knitted throw, sleeping tabby, pie on a side table, steaming mug, fall leaves; NAP QUEEN in faded block caps. Style v3 A, Recraft v4 try 1.
 - **Primary keyword:** nap queen shirt — 140 / KD 40
 - **Cover model:** registry #131
-- **Next:** crewneck version (not built yet)
+- **Next:** crewneck version built as #94
+
+### 94. Women's Thanksgiving – Nap Queen Crewneck Sweatshirt  *(built 2026-10-15)*
+- **Handle:** `womens-thanksgiving-nap-queen-crewneck-sweatshirt` · Gildan 18000 (#145), $39.99 · art = #93
+- **Hook:** "Nap Queen" (same joke, fleece edition)
+- **Colors:** White, Sand, Ash, Sport Grey, Light Pink, Light Blue
+- **Primary keyword:** nap sweatshirt — 720 / KD 27 (also claims nap queen sweatshirt 110 / 40)
+- **Cover model:** registry #132
