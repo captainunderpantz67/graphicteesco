@@ -1371,3 +1371,53 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Colors:** White, Sand, Ash, Sport Grey, Light Pink, Light Blue
 - **Primary keyword:** nap sweatshirt — 720 / KD 27 (also claims nap queen sweatshirt 110 / 40)
 - **Cover model:** registry #132
+
+## Thanksgiving whimsy batch — lane A (2026-10-15; thanksgiving-shirts 10 → 14, each tee + crewneck)
+
+### 95. Unisex Thanksgiving – Mash Hour Tee  *(BUILDING [A])*
+- **Handle:** `unisex-thanksgiving-mash-hour-graphic-tee` · **Blank:** Bella+Canvas 3001, $29.99
+- **Hook:** "Mash Hour" — happy hour, but it's the mashed potatoes. Whoever guards the potato bowl laughs.
+- **Why it's not taken:** Etsy mashed-potato shirts are "mashed potato enthusiast"/"potato queen" text-only; no MASH HOUR scene print.
+- **Art:** Style v3 A — an overflowing vintage bowl of mashed potatoes with a melting butter pat, a gravy boat pouring, a wooden spoon, steam curls; MASH HOUR in faded retro diner caps. Burnt orange, butter yellow, cream, soft brown linework.
+- **Primary keyword:** mashed potato shirt — 320 / KD 32 (also potato shirt 880 / 42)
+- **Cover model:** registry #166 (man + woman)
+
+### 96. Unisex Thanksgiving – Mash Hour Crewneck Sweatshirt  *(BUILDING [A])*
+- **Handle:** `unisex-thanksgiving-mash-hour-crewneck-sweatshirt` · Gildan 18000 (#145), $39.99 · art = #95
+- **Cover model:** registry #167 (man + woman)
+
+### 97. Unisex Thanksgiving – Totally a Pilgrim Tee  *(BUILDING [A])*
+- **Handle:** `unisex-thanksgiving-totally-a-pilgrim-graphic-tee` · **Blank:** Bella+Canvas 3001, $29.99
+- **Hook:** "Totally a Pilgrim" — a turkey in a too-big pilgrim hat and buckle collar, hoping nobody checks. Dads and kids both get it in a second.
+- **Why it's not taken:** turkey-in-disguise is a classroom craft theme, but Etsy shirts are cartoon clip-art; no vintage engraved version with this line.
+- **Art:** Style v3 A — a vintage engraved turkey standing proud in a black pilgrim hat with a buckle and a white collar, fall leaves at its feet; TOTALLY A PILGRIM in faded slab caps. Faded red, mustard, cream, soft black linework.
+- **Primary keyword:** pilgrim shirt — 480 / KD 30
+- **Cover model:** registry #168 (man + woman)
+
+### 98. Unisex Thanksgiving – Totally a Pilgrim Crewneck Sweatshirt  *(BUILDING [A])*
+- **Handle:** `unisex-thanksgiving-totally-a-pilgrim-crewneck-sweatshirt` · Gildan 18000 (#145), $39.99 · art = #97
+- **Cover model:** registry #169 (man + woman)
+
+### 99. Women's Thanksgiving – Here for the Scraps Tee  *(BUILDING [A])*
+- **Handle:** `womens-thanksgiving-here-for-the-scraps-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99
+- **Hook:** "Here for the Scraps" — the dog under the Thanksgiving table, chin on the tablecloth. Every dog mom has this dog.
+- **Why it's not taken:** Etsy dog-Thanksgiving shirts are paw-print text; no vintage illustrated begging dog with this line.
+- **Art:** Style v3 A — a hopeful beagle peeking over the edge of a table with a roast turkey, a pie and fall leaves, paws on the tablecloth; HERE FOR THE SCRAPS in faded retro script + caps. Burnt orange, sage, cream, brown linework.
+- **Primary keyword:** thanksgiving dog shirt — 170 / KD 34
+- **Cover model:** registry #170
+
+### 100. Women's Thanksgiving – Here for the Scraps Crewneck Sweatshirt  *(BUILDING [A])*
+- **Handle:** `womens-thanksgiving-here-for-the-scraps-crewneck-sweatshirt` · Gildan 18000 (#145), $39.99 · art = #99
+- **Cover model:** registry #171
+
+### 101. Women's Thanksgiving – Pie Oh My Tee  *(BUILDING [A])*
+- **Handle:** `womens-thanksgiving-pie-oh-my-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99
+- **Hook:** "Pie Oh My" — the house pun (pie / oh my) for whoever brings three pies.
+- **Why it's not taken:** "oh my pie" exists as text; no vintage windowsill-pies scene print.
+- **Art:** Style v3 A — three vintage pies cooling on a windowsill (lattice cherry, pumpkin, pecan) with a gingham cloth and falling leaves; PIE OH MY in faded rounded retro letters. Faded red, pumpkin, cream, brown linework.
+- **Primary keyword:** funny pie shirt — 20 / KD 48 (small but measured and unclaimed)
+- **Cover model:** registry #172
+
+### 102. Women's Thanksgiving – Pie Oh My Crewneck Sweatshirt  *(BUILDING [A])*
+- **Handle:** `womens-thanksgiving-pie-oh-my-crewneck-sweatshirt` · Gildan 18000 (#145), $39.99 · art = #101
+- **Cover model:** registry #173

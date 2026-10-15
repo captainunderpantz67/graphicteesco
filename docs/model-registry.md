@@ -155,3 +155,11 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 163 | Pair: man in his early 30s, light-brown hair, sunglasses pushed up + woman in her early 30s, dark wavy hair in a messy bun | BUILDING [B] — Lake Life unisex cover redo (man + woman) |
 | 164 | Pair: man in his late 40s, dark beard flecked with grey, knit beanie in hand + woman in her mid 40s, long red hair | BUILDING [B] — North Woods Moose unisex cover redo (man + woman) |
 | 165 | Pair: man in his mid 20s, blond curly hair + woman in her mid 20s, sleek black bob | BUILDING [B] — Mountain Christmas Bear unisex cover redo (man + woman) |
+| 166 | Pair: man in his early 40s, short black hair, trimmed beard + woman in her late 30s, red hair in a messy bun | RESERVED [A] — Mash Hour tee cover |
+| 167 | Pair: man in his late 50s, bald, white goatee + woman in her mid 50s, short grey pixie cut | RESERVED [A] — Mash Hour crewneck cover |
+| 168 | Pair: man in his mid 30s, wavy light-brown hair, glasses + woman in her early 30s, long straight black hair | RESERVED [A] — Totally a Pilgrim tee cover |
+| 169 | Pair: man in his late 20s, curly dark hair + woman in her late 20s, braids | RESERVED [A] — Totally a Pilgrim crewneck cover |
+| 170 | Woman in her late 30s, shoulder-length blonde hair, freckles | RESERVED [A] — Here for the Scraps tee cover (with a beagle) |
+| 171 | Woman in her late 40s, long dark wavy hair with a few grey streaks | RESERVED [A] — Here for the Scraps crewneck cover (with a beagle) |
+| 172 | Woman in her mid 20s, short auburn bob | RESERVED [A] — Pie Oh My tee cover |
+| 173 | Woman in her early 60s, white hair in a low bun, round glasses | RESERVED [A] — Pie Oh My crewneck cover |
