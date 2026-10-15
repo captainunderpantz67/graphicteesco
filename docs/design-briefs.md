@@ -959,7 +959,7 @@ python3 scripts/fal-photo.py --design designs/gobble-gobble-art.jpg --name gobbl
     --cover womens-thanksgiving-gobble-gobble-graphic-tee
 ```
 
-### 54. Unisex Thanksgiving – Turkey Day Crew Tee  *(new)*
+### 54. Unisex Thanksgiving – Turkey Day Crew Tee  *(built 2026-10-15, style v3)*
 - **Handle:** `unisex-thanksgiving-turkey-day-crew-graphic-tee` · **Blank:** Bella+Canvas 3001 (unisex classic tee)
 - **Art:** A vintage roast turkey on a platter with sprigs of rosemary, cranberries and a carving fork, inside a scalloped badge with wheat stalks. Reads as a matching family shirt. 1950s menu style. Palette: rust, mustard, brown, cream.
 - **Text on shirt:** TURKEY DAY CREW (arched collegiate caps) · EST. AT GRANDMA'S (small)
