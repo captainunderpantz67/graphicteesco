@@ -2216,6 +2216,36 @@
      "kd": 54
     }
    ]
+  },
+  "womens-baseball-mom-pitch-please-graphic-tee": {
+   "claimed": [
+    "funny baseball shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny baseball shirt",
+     "volume": 880,
+     "kd": 49
+    }
+   ]
+  },
+  "womens-nurse-charting-is-my-cardio-graphic-tee": {
+   "claimed": [
+    "funny nurse shirt",
+    "funny nurse shirts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny nurse shirt",
+     "volume": 1300,
+     "kd": 56
+    },
+    {
+     "phrase": "funny nurse shirts",
+     "volume": 1300,
+     "kd": 55
+    }
+   ]
   }
  }
 }

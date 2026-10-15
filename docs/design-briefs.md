@@ -1440,7 +1440,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Primary keyword:** game day shirt women — 880 / KD 26 (also funny football shirt 880 / 54)
 - **Cover model:** registry #181
 
-### 112. Women's Baseball Mom – Pitch Please Tee  *(BUILDING [B])*
+### 112. Women's Baseball Mom – Pitch Please Tee  *(built 2026-10-15)*
 - **Handle:** `womens-baseball-mom-pitch-please-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags baseball-mom-shirts, graphic-tees-for-women, vintage-graphic-tees
 - **Hook:** "Pitch, Please" — sass at the umpire, aimed at the pitch. Bleacher moms laugh.
 - **Why it's not taken:** Etsy shows it as script text only; no vintage ballpark print.
@@ -1448,7 +1448,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Primary keyword:** funny baseball shirt — 880 / KD 49
 - **Cover model:** registry #182
 
-### 113. Women's Nurse – Charting Is My Cardio Tee  *(BUILDING [B])*
+### 113. Women's Nurse – Charting Is My Cardio Tee  *(built 2026-10-15)*
 - **Handle:** `womens-nurse-charting-is-my-cardio-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags nurse-shirts, graphic-tees-for-women, vintage-graphic-tees
 - **Hook:** "Charting Is My Cardio" — every nurse who's typed notes for an hour after shift laughs.
 - **Why it's not taken:** Etsy nurse humor leans on "nurse life"/coffee lines; this line is rare and never with a vintage scene.
