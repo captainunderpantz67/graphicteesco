@@ -2100,19 +2100,13 @@
   },
   "unisex-thanksgiving-turkey-day-crew-crewneck-sweatshirt": {
    "claimed": [
-    "turkey day sweatshirt",
-    "fall sweatshirt"
+    "turkey day sweatshirt"
    ],
    "gaps_measured": [
     {
      "phrase": "turkey day sweatshirt",
      "volume": 10,
      "kd": 49
-    },
-    {
-     "phrase": "fall sweatshirt",
-     "volume": 1900,
-     "kd": 61
     }
    ]
   },
