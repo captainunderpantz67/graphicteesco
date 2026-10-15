@@ -1336,3 +1336,8 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Handle:** `womens-thanksgiving-gobble-gobble-crewneck-sweatshirt` · Gildan 18000 (#145), $39.99 · art = #53
 - **Primary keyword:** turkey sweatshirt — 390 / KD 56
 - **Cover model:** registry #126
+
+### 90. Unisex Thanksgiving – Turkey Day Crew Crewneck Sweatshirt  *(built 2026-10-15)*
+- **Handle:** `unisex-thanksgiving-turkey-day-crew-crewneck-sweatshirt` · Gildan 18000 (#145), $39.99 · art = #54
+- **Primary keyword:** turkey day sweatshirt — 10 / KD 49 (+ fall sweatshirt 1,900 / 61)
+- **Cover model:** registry #128 (man + woman)
