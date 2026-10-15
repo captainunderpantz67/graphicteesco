@@ -1424,7 +1424,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 
 ## Evergreen whimsy batch — lane B (2026-10-15; emptiest collections first: soccer mom 1, football mom 1, baseball mom 1, nurse 2, fishing 4, hunting 5)
 
-### 110. Women's Soccer Mom – Goal Digger Tee  *(BUILDING [B])*
+### 110. Women's Soccer Mom – Goal Digger Tee  *(built 2026-10-15)*
 - **Handle:** `womens-soccer-mom-goal-digger-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags soccer-mom-shirts, graphic-tees-for-women, vintage-graphic-tees
 - **Hook:** "Professional Goal Digger" — the gold-digger wink, but she's only after goals. Every sideline mom grins.
 - **Why it's not taken:** Etsy "goal digger" listings are plain text in trendy fonts; no vintage scene print with the line.

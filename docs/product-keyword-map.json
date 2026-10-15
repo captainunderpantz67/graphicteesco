@@ -2180,6 +2180,24 @@
      "kd": 52
     }
    ]
+  },
+  "womens-soccer-mom-goal-digger-graphic-tee": {
+   "claimed": [
+    "soccer shirt for mom",
+    "funny soccer shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "soccer shirt for mom",
+     "volume": 2900,
+     "kd": 16
+    },
+    {
+     "phrase": "funny soccer shirt",
+     "volume": 390,
+     "kd": 48
+    }
+   ]
   }
  }
 }
