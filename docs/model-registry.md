@@ -181,3 +181,9 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 195 | Woman in her late 30s, sandy blonde ponytail, sunglasses pushed up | BUILDING [B] — Bases Loaded baseball mom tee cover |
 | 196 | Woman in her early 40s, short dark curly hair | BUILDING [B] — Orange Slice Supplier soccer mom tee cover |
 | 197 | Woman in her late 60s, short white curls, cardigan | BUILDING [B] — Casserole Ministry christian tee cover |
+| 198 | Woman in her late 20s, sleek black high ponytail, butterfly clips | BUILDING [B] — Still Loading y2k tee cover |
+| 199 | Woman in her early 20s, curly red hair in space buns | BUILDING [B] — Hot Mess Express y2k tee cover |
+| 200 | Woman in her mid 20s, straight brown hair with curtain bangs, gold necklace | BUILDING [B] — Espresso Yourself cropped tee cover |
+| 201 | Man in his mid 40s, salt-and-pepper beard, camo cap | BUILDING [B] — Professional Tree Sitter hunting tee cover |
+| 202 | Woman in her late 30s, dark hair in a messy bun, navy scrub pants | BUILDING [B] — Don't Say the Q Word nurse tee cover |
+| 203 | Man in his mid 20s, bleached short hair + woman in her mid 20s, long black braid, septum ring | BUILDING [B] — Kaiju Naps anime tee cover (unisex pair) |
