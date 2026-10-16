@@ -1,0 +1,22 @@
+status: READY
+lane: B
+type: redo
+id: 164
+handle: mens-gym-old-school-strength-graphic-tee
+---
+## Men's Gym – Old School Strength Tee — men's redo (R11.4)
+- **Existing product:** gid://shopify/Product/15346015994160. Same product, handle, URL, title and collections. Replace: front art, Printful print file on every variant, flat mockups + variant images, cover, copy line one (the hook). Keep the back logo.
+- **Why:** a curved banner over the strongman (R4.1) and a generic line, "Old School Strength" (R3.1). Director looked at the current front mockup 2026-10-16.
+- **Text on shirt:** PEAKED IN 1898 — exactly those three words, circus-poster caps under the figure.
+- **Hook:** "Peaked in 1898": the Victorian mustached strongman with the globe barbell, plus a dry line that every lifter over 35 feels in his knees. Contrast joke (R3.3).
+- **Why it's not taken:** strongman tees are plain circus-poster art with "Strongman" or a gym name; the deadpan 'peaked' line isn't on page 1. Not re-checked live on Etsy this run.
+- **Style:** A, vintage to the edges (R4.2).
+- **Art prompt (Recraft v4):** "Vintage 1890s circus engraving of a mustached strongman in a leopard-print singlet holding a round globe barbell overhead, standing on a small wooden stage plank. Hand-lettered circus-poster capitals under him reading exactly 'PEAKED IN 1898', no banner, no ribbon. Palette: rust red, mustard, cream, soft black engraving lines. Worn screen-print texture; the figure is the shape and its edges break up into texture. Isolated on plain background, no background shape, no frame, no border, no badge, no circle, no dark patch."
+- **Colors:** keep the product's current colors; drop any where the new art loses legibility (R7.2) and log it.
+- **Keyword:** keep the claimed set (strongman shirt, weightlifter shirt, mustache shirt). Keep the existing primary; refresh copy line one with the hook in the men's dry voice (R3.4).
+- **Popularity evidence (R5.2):** Boxing gym / strongman engraving theme (docs/market-research.md Gym #15, weak); funny gym one-liners 417 / 10,096 (Gym #9) carry it.
+- **Cover:** registry #234 — Man; an old brick weightlifting gym with chalk dust and iron plates, morning light, chalk on his hands. Replace the old cover in covers.ts.
+- **Price (R12.1):** $24.99, compare-at $29.99 (set it while you're in there).
+---
+## Log
+- 2026-10-16 10:24 UTC director: brief written, READY.

@@ -212,3 +212,13 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 226 | Japanese-American man in his mid 30s, short tousled hair, light stubble | USED 2026-10-16 — Casting Doubt redo cover (fal Seedream 4, mountain river; try 1 kept: try 2 had a chest pack covering the print) |
 | 227 | Native American man in his mid 40s, long black braid, blaze-orange cap | USED 2026-10-16 — No Deer Today redo cover (fal Seedream 4, frosty deer camp; try 2 kept: try 1 redrew the print as a badge. Hunter figure is dropped from the printed scene in the photo; the print file itself is complete) |
 | 228 | Black man in his early 60s, white close-cropped beard, waxed canvas jacket | USED 2026-10-16 — Quack of Dawn redo cover (fal Seedream 4, marsh edge at dawn; try 2 kept: try 1 had a jacket cutting off the print) |
+| 229 | Black woman in her early 30s, long box braids in a high ponytail, gold statement earrings | RESERVED — #159 Sleigh Queen tee cover (director 2026-10-16) |
+| 230 | White woman in her late 40s, chestnut lob haircut, tortoiseshell glasses | RESERVED — #160 Sleigh Queen crewneck cover |
+| 231 | South Asian man in his early 30s, neat side-part, clean-shaven, slim build | RESERVED — #161 Technically a Sweater tee cover |
+| 232 | Pair: white man in his late 20s, red beard, beanie + Vietnamese-American woman in her late 20s, straight black hair with bangs | RESERVED — #162 Technically a Sweater crewneck cover (man + woman) |
+| 233 | Puerto Rican man in his early 30s, curly black hair, muscular build | RESERVED — #163 Beach Body Pending redo cover |
+| 234 | White man in his late 40s, ginger handlebar mustache, shaved head | RESERVED — #164 Peaked in 1898 redo cover |
+| 235 | Black man in his mid 30s, short twists, athletic build | RESERVED — #165 Conflict Resolution redo cover |
+| 236 | White man in his late 60s, white beard, bucket hat | RESERVED — #166 Professional Line Untangler cover |
+| 237 | Arab-American man in his early 40s, dark short hair, trimmed beard, stocky build | RESERVED — #167 Rest Day Enthusiast cover |
+| 238 | Chinese-American man in his mid 50s, grey-streaked hair, sunglasses pushed up on his head | RESERVED — #168 Knot Today cover |
