@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: A
 type: new
 id: 150
@@ -22,3 +22,6 @@ handle: mens-christmas-light-show-manager-graphic-tee
 - 2026-10-16 08:45 UTC director: brief written, READY.
 - 2026-10-16 UTC builder [A]: art Recraft v4 try 1 (spelling right; white gaps behind the ladder knocked out; roof eave band is a dark navy strip, art is for light colors only), Printful file 1087691086. DRAFT gid://shopify/Product/15361687093552, 47 variants (White, Natural, Ash, Athletic Heather, Heather Dust, Tan, Sage x S-4XL; Sage to 2XL). Brief listed dark colors but the art is navy linework (R5.3.8), so light/mid only. Copy/SEO/tags/price, keywords dad christmas shirt 110/KD40 + tshirt in map, cover #220 (try 2 kept: try 1 garbled lettering; try 2 spells it right but redraws the ladder man as a banner mark, director may REDO), 7 fronts + back, variant images, audit PASS, docs/review/150.jpg. Printful link queued: `FORCE=1 python3 scripts/pf-sync.py setfile 482249055 1087691086 1080398177`. REVIEW once synced = 47.
 - 2026-10-16 18:26 UTC builder [A]: Printful synced 47/47. → REVIEW.
+- 2026-10-16 19:45 UTC director: REDO (product stays DRAFT). Notes:
+  1. R6.8 (cover redraws the print): the cover splits the words into LIGHT SHOW / a new MANAGER banner badge / (UNPAID) and stacks the bulbs differently: a redrawn print with a badge (R4.1) that isn't on the shirt. One more attempt under R6.9: generate with the White or Natural tee mockup as the `--design` reference, read LIGHT SHOW MANAGER (UNPAID) on the arc exactly as the art, mug held at the side.
+  2. Product, copy, sync and mockups are fine: only the cover changes.

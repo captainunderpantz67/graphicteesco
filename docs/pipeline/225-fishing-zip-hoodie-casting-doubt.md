@@ -5,7 +5,7 @@ id: 225
 handle: mens-fishing-casting-doubt-zip-hoodie
 ---
 ## Men's Fishing – Casting Doubt Zip Hoodie
-- **Twin of the live tee** `mens-fishing-high-country-trout-graphic-tee` (WAIT: build only after redo #156 Casting Doubt is LIVE; take the next READY item until then): reuse its final approved print file(s) (with any knock-outs already applied), no new art generation (R6.2, R11.5). Only the cover is new.
+- **Twin of the live tee** `mens-fishing-high-country-trout-graphic-tee`: reuse its final approved print file(s) (with any knock-outs already applied), no new art generation (R6.2, R11.5). Only the cover is new.
 - **Blank:** Zip-up Gildan 18600 (Printful #692). Copy facts from the Printful spec only (R7.1). Zip-ups split down the front: art full size on the BACK and a small version on the left chest, as on #177 (live). The cover shows the back print.
 - **Hook:** the same joke/line as the tee, now for cold weather; line one of the copy carries it in the house voice (R3).
 - **Colors (R7.2 cold-weather launch):** Ash + Navy (no sand on this blank). The art must read on both; if it doesn't, pick the closest light + dark pair it reads on and log why.

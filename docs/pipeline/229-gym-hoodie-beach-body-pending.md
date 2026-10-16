@@ -5,7 +5,7 @@ id: 229
 handle: mens-gym-beach-body-pending-hoodie
 ---
 ## Men's Gym – Beach Body Pending Hoodie
-- **Twin of the live tee** `mens-gym-golden-era-pose-graphic-tee` (WAIT: build only after redo #163 Beach Body Pending is LIVE; take the next READY item until then): reuse its final approved print file(s), no new art generation (R6.2, R11.5). Only the cover is new.
+- **Twin of the live tee** `mens-gym-golden-era-pose-graphic-tee`: reuse its final approved print file(s), no new art generation (R6.2, R11.5). Only the cover is new.
 - **Blank:** Pullover Gildan 18500 (Printful #146). Copy facts from the Printful spec only (R7.1). Front print sized to the blank's area; every word clear of the pocket seam.
 - **Hook:** the same joke/line as the tee, now for cold weather; line one of the copy carries it (R3).
 - **Colors (R7.2 cold-weather launch):** Sand + Navy (use the redo's two ink files if it has them: light-ink for Navy, dark-ink for Sand).
