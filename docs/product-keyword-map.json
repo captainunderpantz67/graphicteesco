@@ -3073,6 +3073,19 @@
    ],
    "gaps_measured": [],
    "measured": "powerlifting hoodie 210/KD33 (RankHero 2026-10-16)"
+  },
+  "mens-christmas-technically-a-sweater-graphic-tee": {
+   "claimed": [
+    "ugly christmas shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "ugly christmas shirt",
+     "volume": 2900,
+     "kd": 52
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
