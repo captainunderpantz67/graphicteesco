@@ -7,12 +7,7 @@ for i in 1 2 3; do
     for f in $(git diff --name-only --diff-filter=U); do sed -i '/^<<<<<<< /d;/^=======$/d;/^>>>>>>> /d' "$f"; git add "$f"; done
     GIT_EDITOR=true git rebase --continue >/dev/null 2>&1 || break
   done
-  python3 - <<'P'
-import re
-p='docs/product-keyword-map.json'; s=open(p).read()
-s=re.sub(r'("\n)(  "[a-z0-9-]+": \{)',r'\1  },\n\2',s); open(p,'w').write(s)
-import json; json.load(open(p))
-P
+  python3 scripts/kwmap-repair.py || exit 1
   python3 -c "import json;json.load(open('docs/product-keyword-map.json'))" || { echo "keyword map JSON broken, fix by hand"; exit 1; }
   if ! git diff --quiet; then git add -A; git commit -qm "[A] merge fixups"; fi
   git push -q origin main 2>/dev/null && { echo pushed; exit 0; }
