@@ -30,7 +30,7 @@ export const site = {
     `${NAME} is an online shop for original graphic tees, organized by what people do — fishing, hunting, western, gym — with a new seasonal collection every month. Every design is printed to order.`,
   tagline: 'Original graphic tees for the things you actually do.',
   instagram: '', // TODO(Sam)
-  email: '', // TODO(Sam)
+  email: 'samuel@pricklypearmarketingco.com', // same contact email as the Shopify policies (Sam, 2026-10-16)
   founders: [] as { name: string; role: string }[], // TODO(Sam): your brother (designer) + you
   // Hero mockup (Printful PNG of a model in a tee). Drop the file in /public and set the path.
   heroImage: {
