@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16
+status: REVIEW
 lane: B
 type: twin
 id: 224
@@ -18,3 +18,4 @@ handle: mens-hunting-quack-of-dawn-camo-hoodie
 ---
 ## Log
 - 2026-10-16 20:00 UTC director: brief written, READY (lane B cold-weather sweep, R11.5 added 2026-10-16).
+- 2026-10-16 21:13 UTC [B]: finished by lane B resume: DRAFT in Shopify (14 variants, 2 colors, prices per R12.1), Printful synced 14/14, cover + 2 mockups + back, review sheet docs/review/224.jpg, copy checked (no frame/badge wording).
