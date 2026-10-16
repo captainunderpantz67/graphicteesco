@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [B] 2026-10-16 22:09
 note: embroidery pilot passed 5/5 (director, 2026-10-16); free to build. Price: crewneck $34.99 + $5 chest = $39.99 / $44.99 (R12.1 embroidered).
 lane: B
 type: new
