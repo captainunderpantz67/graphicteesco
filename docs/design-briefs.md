@@ -1621,3 +1621,41 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Art:** retro 80s anime cel style — a chubby original green kaiju napping curled around a skyscraper top under a crescent moon, little "z z z"; DESTROYER OF CITIES / LOVER OF NAPS in faded retro caps. Green, coral, mustard, cream.
 - **Primary keyword:** kaiju t shirt — 260 / KD 32 (also vintage anime shirt 1,600 / 40, kaiju shirt 110 / 40)
 - **Cover model:** registry #203 (unisex: man AND woman)
+
+## Thanksgiving crewneck twins — lane A (2026-10-16; competitor lesson 6: every holiday tee gets its crewneck twin; Gildan 18000 #145, same art as the tee, no new art generation)
+
+### 134. Unisex Thanksgiving – Turkey Trot Crewneck Sweatshirt  *(BUILDING [A])*
+- **Handle:** `unisex-thanksgiving-turkey-trot-crewneck-sweatshirt` · Gildan 18000 (#145) · art = the Turkey Trot tee's print file
+- **Hook:** the race-morning turkey, now in fleece for the cold start line
+- **Primary keyword:** running sweatshirt — 1,300 / KD 39
+- **Cover model:** registry #204 (man + woman)
+
+### 135. Men's Thanksgiving – Turkey Bowl Crewneck Sweatshirt  *(BUILDING [A])*
+- **Handle:** `mens-thanksgiving-turkey-bowl-crewneck-sweatshirt` · Gildan 18000 (#145) · art = the Turkey Bowl tee's print file
+- **Hook:** backyard Turkey Bowl, sideline-weather edition
+- **Primary keyword:** football sweatshirt — 3,600 / KD 52
+- **Cover model:** registry #205 (man)
+
+### 136. Unisex Thanksgiving – Leftovers Club Crewneck Sweatshirt  *(BUILDING [A])*
+- **Handle:** `unisex-thanksgiving-leftovers-club-crewneck-sweatshirt` · Gildan 18000 (#145) · art = the Leftovers Club tee's print file
+- **Hook:** the club that meets at the fridge at 10 pm
+- **Primary keyword:** thanksgiving sweater — 3,600 / KD 48
+- **Cover model:** registry #206 (man + woman)
+
+### 137. Women's Thanksgiving – Pumpkin Pie Crewneck Sweatshirt  *(BUILDING [A])*
+- **Handle:** `womens-thanksgiving-pumpkin-pie-crewneck-sweatshirt` · Gildan 18000 (#145) · art = the Pumpkin Pie tee's print file
+- **Hook:** for the one who bakes the pie and gets the first slice
+- **Primary keyword:** baker sweatshirt — 260 / KD 50
+- **Cover model:** registry #207 (woman)
+
+### 138. Women's Thanksgiving – Friendsgiving Crewneck Sweatshirt  *(BUILDING [A])*
+- **Handle:** `womens-thanksgiving-friendsgiving-crewneck-sweatshirt` · Gildan 18000 (#145) · art = the Friendsgiving tee's print file
+- **Hook:** the chosen-family dinner, cozy edition
+- **Primary keyword:** friends sweatshirt — 1,000 / KD 58
+- **Cover model:** registry #208 (woman)
+
+### 139. Women's Thanksgiving – Give Thanks Crewneck Sweatshirt  *(BUILDING [A])*
+- **Handle:** `womens-thanksgiving-give-thanks-crewneck-sweatshirt` · Gildan 18000 (#145) · art = the Give Thanks tee's print file
+- **Hook:** the gratitude shirt for cold-weather Thanksgiving mornings
+- **Primary keyword:** grateful sweatshirt — 140 / KD 57
+- **Cover model:** registry #209 (woman)

@@ -187,3 +187,9 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 201 | Man in his mid 40s, salt-and-pepper beard, camo cap | BUILDING [B] — Professional Tree Sitter hunting tee cover |
 | 202 | Woman in her late 30s, dark hair in a messy bun, navy scrub pants | BUILDING [B] — Don't Say the Q Word nurse tee cover |
 | 203 | Man in his mid 20s, bleached short hair + woman in her mid 20s, long black braid, septum ring | BUILDING [B] — Kaiju Naps anime tee cover (unisex pair) |
+| 204 | Pair: man in his early 50s, close-cropped grey hair, runner's build + woman in her late 40s, dark ponytail, headband | BUILDING [A] — Turkey Trot crewneck cover |
+| 205 | Man in his mid 30s, sandy blond hair, short beard | BUILDING [A] — Turkey Bowl crewneck cover |
+| 206 | Pair: man in his late 30s, shaved head, full dark beard + woman in her mid 30s, curly shoulder-length hair | BUILDING [A] — Leftovers Club crewneck cover |
+| 207 | Woman in her early 50s, chin-length silver bob, red-framed glasses | BUILDING [A] — Pumpkin Pie crewneck cover |
+| 208 | Woman in her late 20s, long honey-brown waves, gold hoop earrings | BUILDING [A] — Friendsgiving crewneck cover |
+| 209 | Woman in her mid 40s, short dark pixie cut, freckles | BUILDING [A] — Give Thanks crewneck cover |
