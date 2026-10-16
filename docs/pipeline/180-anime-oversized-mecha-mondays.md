@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16
+status: REVIEW
 lane: B
 type: twin
 id: 180
@@ -18,3 +18,4 @@ handle: unisex-anime-mecha-mondays-oversized-hoodie
 ---
 ## Log
 - 2026-10-16 14:28 UTC director: brief written, READY (cold-weather push, Sam 2026-10-16).
+- 2026-10-16 17:03 UTC [B]: built as DRAFT; twin of tee, file 1087363194 front 11 x 10 in + back logo, Dust + Athletic Heather (dark navy linework sinks into Navy), 12/12 synced, $54.99/$59.99, vintage anime hoodie 110/40. Cover note: try 2 kept, the man's print drew a dark rectangle frame (the woman's print is clean); try 1 had the same frame plus cups over the print. Review sheet docs/review/180.jpg.
