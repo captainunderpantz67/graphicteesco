@@ -1398,7 +1398,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Handle:** `unisex-thanksgiving-totally-a-pilgrim-crewneck-sweatshirt` · Gildan 18000 (#145), $39.99 · art = #97
 - **Cover model:** registry #169 (man + woman)
 
-### 99. Women's Thanksgiving – Here for the Scraps Tee  *(BUILDING [A])*
+### 99. Women's Thanksgiving – Here for the Scraps Tee  *(built 2026-10-16)*
 - **Handle:** `womens-thanksgiving-here-for-the-scraps-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99
 - **Hook:** "Here for the Scraps" — the dog under the Thanksgiving table, chin on the tablecloth. Every dog mom has this dog.
 - **Why it's not taken:** Etsy dog-Thanksgiving shirts are paw-print text; no vintage illustrated begging dog with this line.

@@ -2436,6 +2436,40 @@
      "kd": 58
     }
    ]
+  },
+  "unisex-thanksgiving-turkey-trot-crewneck-sweatshirt": {
+   "claimed": [
+    "running sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "running sweatshirt",
+     "volume": 1300,
+     "kd": 39
+    },
+    {
+     "phrase": "runner sweatshirt",
+     "volume": 110,
+     "kd": 40
+    }
+   ]
+  },
+  "mens-thanksgiving-turkey-bowl-crewneck-sweatshirt": {
+   "claimed": [
+    "football sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "football sweatshirt",
+     "volume": 3600,
+     "kd": 52
+    },
+    {
+     "phrase": "football crewneck",
+     "volume": 170,
+     "kd": 60
+    }
+   ]
   }
  }
 }
