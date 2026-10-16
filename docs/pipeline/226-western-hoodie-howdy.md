@@ -18,3 +18,4 @@ handle: womens-western-howdy-hoodie
 ---
 ## Log
 - 2026-10-16 19:05 UTC director: brief written, READY (lane B cold-weather, R11.5).
+- 2026-10-16 21:24 UTC [B]: resumed the 19:28 draft (product 15362004058416, copy ok): sync product 482283762 relinked to the tee's print file 1083339634 at FW=1650 TOP=0 (bg sync running, REVIEW at 14/14), new mockups (Sand+Navy+back) replaced in place with alts, variants linked, cover registry #299 (try 1, image 2 of 3), covers.ts, keyword map (cowgirl hoodie 390/48), review sheet docs/review/226.jpg.

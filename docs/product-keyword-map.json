@@ -3522,6 +3522,14 @@
     {
      "phrase": "pink christmas sweatshirt",
      "volume": 3600,
+  "womens-western-howdy-hoodie": {
+   "claimed": [
+    "cowgirl hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cowgirl hoodie",
+     "volume": 390,
      "kd": 48
     }
    ],
