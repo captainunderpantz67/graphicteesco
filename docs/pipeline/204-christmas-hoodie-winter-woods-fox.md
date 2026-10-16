@@ -18,3 +18,4 @@ handle: womens-christmas-winter-woods-fox-hoodie
 ---
 ## Log
 - 2026-10-16 17:20 UTC director: brief written, READY (lane A Christmas hoodie twins, R11.5).
+- 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361809875248 (18500; Sand + Navy x S-3XL = 12), tee file 1085864198 at 10 in wide / 9.9 in tall at the top of the area (FW=1500 TOP=0), Printful sync 482261190. Copy/SEO/tags/price, fox hoodie 12,100/KD22 in map, cover #274 (try 1; hood visible, thermos at the hip), 2 fronts + back, variant images, audit PASS, docs/review/204.jpg. Printful link queued (runner): `FORCE=1 FW=1500 TOP=0 python3 scripts/pf-sync.py setfile 482261190 1085864198 1080398177`. REVIEW once synced = 12.

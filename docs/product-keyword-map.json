@@ -3296,6 +3296,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-winter-woods-fox-hoodie": {
+   "claimed": [
+    "fox hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fox hoodie",
+     "volume": 12100,
+     "kd": 22
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

@@ -257,7 +257,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 271 | Filipino-American woman around 20, long hair with curtain bangs | USED 2026-10-16 — #197 Bow Before Me cropped hoodie cover (fal Seedream 4, campus coffee shop; try 1 kept) |
 | 272 | White man in his mid 40s, salt-and-pepper beard, stocky build | USED 2026-10-16 — #198 Out of Office deer hoodie cover (fal Seedream 4, cabin porch; try 1 kept) |
 | 273 | Middle Eastern woman in her early 30s, long dark wavy hair, gold studs | USED 2026-10-16 — #199 Extra Marshmallows embroidered crewneck cover (fal Seedream 4, Christmas market; try 1 kept) |
-| 274 | Native American woman in her late 20s, long straight black hair, center part | RESERVED — #204 Winter Woods Fox hoodie cover |
+| 274 | Native American woman in her late 20s, long straight black hair, center part | USED 2026-10-16 — #204 Winter Woods Fox hoodie cover (fal Seedream 4, snowy pine trail; try 1 kept) |
 | 275 | Black man in his early 30s, short twists, trimmed beard | RESERVED — #205 North Woods Moose hoodie cover (with #276) |
 | 276 | White woman in her early 30s, strawberry-blonde waves, freckles | RESERVED — #205 North Woods Moose hoodie cover (with #275) |
 | 277 | Japanese-American woman in her mid 30s, sleek low bun, small hoops | RESERVED — #206 Christmas Cats hoodie cover |
