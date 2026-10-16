@@ -1639,7 +1639,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Primary keyword:** football sweatshirt — 3,600 / KD 52
 - **Cover model:** registry #205 (man)
 
-### 136. Unisex Thanksgiving – Leftovers Club Crewneck Sweatshirt  *(BUILDING [A])*
+### 136. Unisex Thanksgiving – Leftovers Club Crewneck Sweatshirt  *(built 2026-10-16)*
 - **Handle:** `unisex-thanksgiving-leftovers-club-crewneck-sweatshirt` · Gildan 18000 (#145) · art = the Leftovers Club tee's print file
 - **Hook:** the club that meets at the fridge at 10 pm
 - **Primary keyword:** thanksgiving sweater — 3,600 / KD 48
