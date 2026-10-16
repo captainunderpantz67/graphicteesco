@@ -17,3 +17,4 @@ handle: womens-christmas-sleighping-in-crewneck-sweatshirt
 ---
 ## Log
 - 2026-10-16 14:24 UTC director: brief written, READY.
+- 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361768685872 (Gildan 18000; White, Sand, Ash, Sport Grey, Light Pink, Light Blue x S-3XL = 36), twin file 1087707679, Printful sync 482256346. Copy/SEO/tags/price 34.99/39.99, keyword sleepy sweatshirt 260/KD32 in map, cover #242 (try 1), 6 fronts + back, variant images, audit PASS, docs/review/172.jpg. Printful link queued: `FORCE=1 python3 scripts/pf-sync.py setfile 482256346 1087707679 1080398177`. REVIEW once synced = 36.
