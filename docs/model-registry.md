@@ -189,7 +189,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 203 | Man in his mid 20s, bleached short hair + woman in her mid 20s, long black braid, septum ring | BUILDING [B] — Kaiju Naps anime tee cover (unisex pair) |
 | 204 | Pair: man in his early 50s, close-cropped grey hair, runner's build + woman in her late 40s, dark ponytail, headband | USED 2026-10-16 — Turkey Trot crewneck cover (fal Seedream 4, try 2 kept: try 1 dropped the TURKEY TROT lettering on her print; 5K start area) |
 | 205 | Man in his mid 30s, sandy blond hair, short beard | USED 2026-10-16 — Turkey Bowl crewneck cover (fal Seedream 4, try 1; backyard touch football) |
-| 206 | Pair: man in his late 30s, shaved head, full dark beard + woman in her mid 30s, curly shoulder-length hair | BUILDING [A] — Leftovers Club crewneck cover |
-| 207 | Woman in her early 50s, chin-length silver bob, red-framed glasses | BUILDING [A] — Pumpkin Pie crewneck cover |
-| 208 | Woman in her late 20s, long honey-brown waves, gold hoop earrings | BUILDING [A] — Friendsgiving crewneck cover |
-| 209 | Woman in her mid 40s, short dark pixie cut, freckles | BUILDING [A] — Give Thanks crewneck cover |
+| 206 | Pair: man in his late 30s, shaved head, full dark beard + woman in her mid 30s, curly shoulder-length hair | USED 2026-10-16 — Leftovers Club crewneck cover (fal Seedream 4, try 1; late-night fridge raid) |
+| 207 | Woman in her early 50s, chin-length silver bob, red-framed glasses | USED 2026-10-16 — Pumpkin Pie crewneck cover (fal Seedream 4, try 1; decorated farmhouse kitchen, coffee mug) |
+| 208 | Woman in her late 20s, long honey-brown waves, gold hoop earrings | USED 2026-10-16 — Friendsgiving crewneck cover (fal Seedream 4, try 2 kept: try 1 hair hid the F and the mug covered the print) |
+| 209 | Woman in her mid 40s, short dark pixie cut, freckles | USED 2026-10-16 — Give Thanks crewneck cover (fal Seedream 4, try 1; decorated living room, parade on TV) |

@@ -2470,6 +2470,69 @@
      "kd": 60
     }
    ]
+  },
+  "unisex-thanksgiving-leftovers-club-crewneck-sweatshirt": {
+   "claimed": [
+    "thanksgiving sweater"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "thanksgiving sweater",
+     "volume": 3600,
+     "kd": 48
+    },
+    {
+     "phrase": "foodie sweatshirt",
+     "volume": 170,
+     "kd": 54
+    }
+   ]
+  },
+  "womens-thanksgiving-pumpkin-pie-crewneck-sweatshirt": {
+   "claimed": [
+    "baker sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "baker sweatshirt",
+     "volume": 260,
+     "kd": 50
+    },
+    {
+     "phrase": "baking sweatshirt",
+     "volume": 90,
+     "kd": 62
+    }
+   ]
+  },
+  "womens-thanksgiving-friendsgiving-crewneck-sweatshirt": {
+   "claimed": [
+    "friends sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "friends sweatshirt",
+     "volume": 1000,
+     "kd": 58
+    }
+   ]
+  },
+  "womens-thanksgiving-give-thanks-crewneck-sweatshirt": {
+   "claimed": [
+    "grateful sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "grateful sweatshirt",
+     "volume": 140,
+     "kd": 57
+    },
+    {
+     "phrase": "blessed sweatshirt",
+     "volume": 320,
+     "kd": 52
+    }
+   ]
   }
  }
 }

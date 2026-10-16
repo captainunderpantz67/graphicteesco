@@ -1406,7 +1406,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Primary keyword:** thanksgiving dog shirt — 170 / KD 34
 - **Cover model:** registry #170
 
-### 100. Women's Thanksgiving – Here for the Scraps Crewneck Sweatshirt  *(BUILDING [A])*
+### 100. Women's Thanksgiving – Here for the Scraps Crewneck Sweatshirt  *(built 2026-10-16)*
 - **Handle:** `womens-thanksgiving-here-for-the-scraps-crewneck-sweatshirt` · Gildan 18000 (#145), $39.99 · art = #99
 - **Cover model:** registry #171
 
