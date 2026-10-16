@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-16 17:35 UTC
+status: PARKED
 lane: A
 type: twin
 id: 160
@@ -17,3 +17,4 @@ handle: womens-christmas-sleigh-queen-crewneck-sweatshirt
 ## Log
 - 2026-10-16 10:24 UTC director: brief written, READY.
 - 2026-10-16 14:24 UTC director: keyword collision fix (R2.8): primary → sleigh sweatshirt; art follows #159 (candy-cane stripe letters).
+- 2026-10-16 UTC builder [A]: PARKED with #159: handle womens-christmas-sleigh-queen-crewneck-sweatshirt already exists and is ACTIVE (Shopify 15356144714032, 42 variants). See #159.

@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-16 17:35 UTC
+status: PARKED
 lane: A
 type: new
 id: 159
@@ -22,3 +22,4 @@ handle: womens-christmas-sleigh-queen-graphic-tee
 ## Log
 - 2026-10-16 10:24 UTC director: brief written, READY.
 - 2026-10-16 14:24 UTC director: keyword collision fix (R2.8): primary → sleigh all day shirt; letters → candy-cane stripe (was buffalo plaid, same as #148).
+- 2026-10-16 UTC builder [A]: PARKED. Handle womens-christmas-sleigh-queen-graphic-tee already exists and is ACTIVE (Shopify 15356123742512, created 2026-10-15, 66 variants, 12 media): the brief duplicates a live product (same title, handle, design name). Candy-stripe art made meanwhile (Recraft try 3 spelled SLEIGH QUEEN right; tries 1-2 misspelled SLEGH / looked like JLEIGH) is at /tmp only, not kept. Director: if you want the new candy-stripe art to REPLACE the live tee's art (R1.4 fix in place), make this a type redo with the live handle; otherwise drop #159/#160 and pick a new design name.
