@@ -108,6 +108,7 @@ for (const p of products) {
   for (const c of cols) {
     if (c.audience === 'men' && aud === 'women') add('ERROR', p, `Women's product listed in "${c.name}".`, `Remove the tag that puts it in ${c.slug}.`);
     if (c.audience === 'women' && aud === 'men') add('ERROR', p, `Men's product listed in "${c.name}".`, `Remove the tag that puts it in ${c.slug}.`);
+    if (kind === 'hoodie' && !/hoodie/.test(c.slug)) add('ERROR', p, `Hoodie listed in the non-hoodie collection "${c.name}".`, `Remove the tag that puts it in ${c.slug}; hoodies go only in *-hoodies collections.`);
     if (kind === 'sweatshirt' && !/sweatshirt|hoodie/.test(c.slug)) add('ERROR', p, `Crewneck sweatshirt listed in the tee collection "${c.name}".`, `Remove the tag that puts it in ${c.slug}; it belongs in the matching *-sweatshirts collection.`);
     if (kind === 'tee' && /sweatshirt/.test(c.slug)) add('ERROR', p, `Tee listed in "${c.name}".`, `Remove the tag that puts it in ${c.slug}.`);
     if (c.seasonal && SEASONS.includes(niche) && c.seasonal !== niche) add('ERROR', p, `${niche} design listed in "${c.name}".`, `Remove the tag that puts it in ${c.slug}.`);
@@ -130,7 +131,10 @@ for (const p of products) {
   // pump covers stay 39.99 with no compare-at. From 2026-12-01 back to 29.99 / 39.99 with no compare-at.
   const pump = /pump[- ]cover/i.test(p.title + ' ' + p.tags.join(' ')) || p.variants.nodes.every((v) => v.price.amount.startsWith('39') && !v.compareAtPrice) && kind !== 'sweatshirt';
   const onSale = Date.now() < Date.parse('2026-12-01T06:00:00Z');
-  const [want, wantCmp] = pump ? ['39.99', null] : kind === 'sweatshirt' ? (onSale ? ['34.99', '39.99'] : ['39.99', null]) : (onSale ? ['24.99', '29.99'] : ['29.99', null]);
+  // Hoodie prices by blank (rulebook R12.1): handle suffix names the blank.
+  const HOODIE = [[/-cropped-hoodie$/, '44.99', '49.99'], [/-oversized-hoodie$/, '54.99', '59.99'], [/-heavyweight-hoodie$/, '49.99', '54.99'], [/-zip-hoodie$/, '44.99', '49.99'], [/-hoodie$/, '39.99', '44.99']];
+  const hp = kind === 'hoodie' ? HOODIE.find(([re]) => re.test(p.handle)) : null;
+  const [want, wantCmp] = pump ? ['39.99', null] : hp ? (onSale ? [hp[1], hp[2]] : [hp[2], null]) : kind === 'sweatshirt' ? (onSale ? ['34.99', '39.99'] : ['39.99', null]) : (onSale ? ['24.99', '29.99'] : ['29.99', null]);
   const prices = [...new Set(p.variants.nodes.map((v) => Number(v.price.amount).toFixed(2) + '/' + (v.compareAtPrice ? Number(v.compareAtPrice.amount).toFixed(2) : '-')))];
   const wantKey = want + '/' + (wantCmp ?? '-');
   if (prices.some((x) => x !== wantKey)) add('ERROR', p, `Price ${prices.join(', ')} (price/compare-at) — should be ${wantKey} on every variant.`, `Set every variant to price ${want}${wantCmp ? `, compare-at ${wantCmp}` : ', no compare-at'}.`);

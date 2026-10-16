@@ -147,8 +147,19 @@ Sections are numbered so role cards and review notes can point at them ("fails R
    - **Women's relaxed tee:** Bella+Canvas 6400.
    - **Crewneck:** Gildan 18000 (Printful #145), 8 oz, 50/50 cotton-poly fleece. Never "garment-dyed" or "Comfort Colors".
    - **Pump cover:** Printful #1482 all-over-print oversized tee: heavyweight 8.85 oz, 95% cotton / 5% elastane, boxy fit, sizes 2XS–5XL, Size option only.
-   - **Hoodies and crop tops:** per docs/roles/builder.md once Lane C/D start (blanks chosen 2026-10-16+). Never claim hoodies on a page until hoodie products exist.
-2. **Colors:**
+   - **Hoodies (chosen 2026-10-16).** Handle suffix names the blank, and the audit prices by it. Copy facts from the Printful spec only.
+
+     | Blank | Printful # | Handle ends | Launch colors |
+     |---|---|---|---|
+     | Pullover Gildan 18500 | 146 | -hoodie | Sand + Navy |
+     | Zip-up Gildan 18600 | 692 | -zip-hoodie | Ash + Navy (no sand) |
+     | Heavyweight Independent Trading IND4000 | 1543 | -heavyweight-hoodie | Sandstone + Storm Blue; camo options for hunting |
+     | Oversized heavyweight Bella+Canvas 4719 | 892 | -oversized-hoodie | Dust + Navy |
+     | Women's cropped hoodie Bella+Canvas 7502 | 317 | -cropped-hoodie | Peach + Storm (only 4 colors exist) |
+
+     Crop sweatshirts: pick a Printful cropped crewneck when briefing (verify it exists; else use Bella+Canvas 7502 hoodie only). Never claim hoodies on a page until hoodie products exist.
+2. **COLD-WEATHER LAUNCH COLORS (Sam, 2026-10-16), overrides the bullets below for hoodies and cold-weather items until the store is fully built:** launch each product in just 2 colors, Sand + Navy (or the blank's nearest light + dark, per the table in R7.1), so Printful sync is fast and every searched product gets a page sooner. The art must read on both; if it can't, pick the closest pair it reads on. A full-color backfill comes after the build (R11.6).
+   **Colors (normal rule):**
    - Offer every Printful color the art prints legibly on (light art → dark and mid colors; dark linework → light and mid). Legibility beats count. Skip out-of-stock colors.
    - Women's products include at least 2 bold colors (hot pink, kelly green, red, chocolate, light pink) when the blank has them.
    - **Printful imports max 100 variants per product,** so count colors × sizes before productSet (3001 at 8 sizes → max 12 colors).
@@ -223,15 +234,47 @@ Goal: ChatGPT, Perplexity, Google AI Overviews / AI Mode, Gemini, Copilot and Cl
    - New front art, Printful file, mockups and cover; refreshed copy line one.
    - Candidates are listed in docs/mens-redo.md first.
    - Products built after 2026-10-15 are not redone.
-5. **Coming (Sam upgrading 2026-10-19):** hoodie pages (zip-up 135,000/KD28, heavyweight 14,800/KD20, oversized hoodie 165,000/KD38, plus niche hoodies); crop tops and cropped sweatshirts; custom "___ shirt" configurator pages (pets first, then football mom name/number; max 2 regenerations; order handoff tested with a 100% discount code + Printful draft orders only).
+5. **BUILD ORDER (Sam, 2026-10-16), target: everything done by Sunday 2026-10-18 evening, leaving credits for the configurator, UI fixes, AEO and Google Shopping:**
+   - **Lane A:** finish holiday (men's/unisex Christmas pairs, Thanksgiving to its cap) plus Christmas hoodies (9,900/52) as twins of the best holiday designs. When holiday is done, join cold-weather.
+   - **Lane B: COLD-WEATHER NOW.** Every measured cold-weather search gets a product, no matter how many types.
+
+     | Collection | Volume / KD |
+     |---|---|
+     | zip-up hoodie | 135,000 / 28 |
+     | oversized hoodie | 165,000 / 38 |
+     | cropped hoodie | 40,500 / 30 |
+     | anime hoodie | 22,200 / 38 |
+     | gym hoodie | 18,100 / 30 |
+     | heavyweight hoodie | 14,800 / 20 |
+     | y2k hoodie | 14,800 / 35 |
+     | embroidered sweatshirt | 12,100 / 56 |
+     | cropped sweatshirt | 8,100 / 41 |
+     | fishing hoodie | 6,600 / 30 |
+     | hunting hoodie | 3,600 / 32 |
+     | western hoodie | 3,600 / 36 |
+
+     Each to 14, highest volume ÷ difficulty first. Hoodie twins of strong existing designs reuse approved art (no new art generation).
+   - Evergreen tees pause until cold-weather reaches 14 each.
+   - The director creates missing collections first (cropped-hoodies, cropped-sweatshirts, embroidered-sweatshirts: Shopify smart collection by tag + collections.ts with hand-written copy and FAQs) and switches each hoodie collection on (hoodiesLive / the collection's flag) the run its first product goes LIVE.
+   - Director reviews hourly-equivalent: when 6+ items wait in REVIEW, review them before writing briefs.
+6. **After the build: color backfill** on every hoodie and cold-weather product to the full legible range (≤100 variants), then evergreen tees to 28.
+7. **Coming (Sam upgrading to Max 2026-10-16):** hoodie pages (zip-up 135,000/KD28, heavyweight 14,800/KD20, oversized hoodie 165,000/KD38, plus niche hoodies); crop tops and cropped sweatshirts; custom "___ shirt" configurator pages (pets first, then football mom name/number; max 2 regenerations; order handoff tested with a 100% discount code + Printful draft orders only).
 
 ## R12. Pricing and shipping
 1. **PRICING v2:** holiday sale through Nov 30, 2026.
    - Tees $24.99, compare-at $29.99.
    - Crewnecks $34.99, compare-at $39.99.
    - Pump covers $39.99, no compare-at.
-   - Hoodies (when live) $39.99, compare-at $44.99.
-   - From Dec 1: tees $29.99, crewnecks $39.99, hoodies $44.99, no compare-at. The audit flips automatically.
+   - Hoodies, sale / regular (compare-at), by blank (margins after Printful base and fees about $12–15):
+
+     | Blank | Sale | Regular |
+     |---|---|---|
+     | Pullover | $39.99 | $44.99 |
+     | Zip-up | $44.99 | $49.99 |
+     | Heavyweight | $49.99 | $54.99 |
+     | Oversized | $54.99 | $59.99 |
+     | Cropped | $44.99 | $49.99 |
+   - From Dec 1: tees $29.99, crewnecks $39.99, hoodies at their regular price above, no compare-at. The audit flips automatically.
 2. **Free US shipping on $45+** (automatic Shopify discount). Under $45, the Printful profile rates apply (tees $4.95 flat).
 3. The announcement bar says "Holiday sale: tees $24.99 · Free US shipping on $45+" only once the audit shows zero price errors. Until then it says the shipping line only.
 4. **fal budget:** about $0.15 per product is normal. If a run passes $5, stop generating, log it and Telegram Sam.
