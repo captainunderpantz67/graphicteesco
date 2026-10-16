@@ -325,7 +325,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 426 | Armenian-American woman in her early 40s, long thick dark hair in a sleek low ponytail, bold arched brows, small diamond studs | USED 2026-10-16 — #250 Spill the Gravy crewneck cover try 1 (from the Sand mockup) |
 | 427 | Italian-American woman in her mid 40s, dark brown hair in a messy top knot, small pearl earrings | USED 2026-10-16 — #251 The Turkey Is Fine tee cover try 1 (from the White mockup) |
 | 428 | Jamaican-American woman in her early 40s, chin-length relaxed bob with side-swept bangs, small gold studs | USED 2026-10-16 — #252 The Turkey Is Fine crewneck cover try 1 (from the Sand mockup) |
-| 429 | Taiwanese-American woman in her early 30s, long straight dark hair with soft curtain bangs, delicate gold necklace | RESERVED — #253 Cute But Corny tee cover |
+| 429 | Taiwanese-American woman in her early 30s, long straight dark hair with soft curtain bangs, delicate gold necklace | USED 2026-10-16 — #253 Cute But Corny tee cover try 1 (from the White mockup; kept #3 of 3, the only one where hair stayed off the print, cropped off its white bars) |
 | 430 | Colombian-American woman in her late 20s, long dark-brown hair in two loose braids, light freckles, small silver hoops | RESERVED — #254 Cute But Corny crewneck cover |
 | 431 | Indian-American man in his mid 40s, short side-parted black hair greying at the temples, clean-shaven, rectangular glasses | RESERVED — #255 Technically a Vegetable tee cover |
 | 432 | Egyptian-American man in his early 50s, thick wavy grey hair, short salt-and-pepper beard, sturdy build | RESERVED — #256 Technically a Vegetable crewneck cover |
