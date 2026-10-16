@@ -299,3 +299,13 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 412 | White woman in her mid 40s, chin-length auburn bob, freckles | RESERVED — #238 Oh Deer hoodie cover |
 | 413 | Mexican-American man in his early 50s, salt-and-pepper mustache, receding hairline, stocky build | RESERVED — #239 Resting My Eyes tee cover |
 | 414 | Black man in his late 50s, short grey hair, neat grey beard, glasses | RESERVED — #240 Resting My Eyes crewneck cover |
+| 415 | Puerto Rican woman in her late 20s, big curly dark hair worn half up, gold hoop earrings | RESERVED — #241 Sleigh Queen hoodie cover |
+| 416 | White man in his mid 30s, red-brown full beard, man bun | RESERVED — #242 Define Naughty hoodie cover (with #417) |
+| 417 | Vietnamese-American woman in her early 30s, long straight black hair with blunt bangs | RESERVED — #242 Define Naughty hoodie cover (with #416) |
+| 418 | Native American man in his mid 40s, short cropped black hair, thin goatee, broad build | RESERVED — #243 Light Show Manager hoodie cover |
+| 419 | Black man in his early 40s, shaved head, full black beard, lean | RESERVED — #246 Totally a Pilgrim hoodie cover (with #420) |
+| 420 | White woman in her late 30s, platinum blonde lob, red lipstick | RESERVED — #246 Totally a Pilgrim hoodie cover (with #419) |
+| 421 | White woman in her early 60s, white hair in a soft low bun, reading glasses on a beaded chain | RESERVED — #244 Nana's Cookies crewneck cover |
+| 422 | Japanese-American woman in her late 50s, salt-and-pepper hair in a short layered cut, soft smile lines | RESERVED — #245 Nana's Cookies tee cover |
+| 423 | Black woman in her early 30s, natural afro puff, gold statement earrings | RESERVED — #247 Snow Problem tee cover |
+| 424 | South Asian woman in her mid 20s, long wavy dark hair in a side part, nose stud | RESERVED — #248 Snow Problem crewneck cover |
