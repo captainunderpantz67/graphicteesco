@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: new
 id: 130
@@ -17,3 +17,7 @@ handle: womens-cropped-espresso-yourself-graphic-tee
 ## Log
 - 2026-10-16 08:40 UTC director: moved from docs/design-briefs.md (was BUILDING there; that lane's run ended without finishing). READY to resume.
 - 2026-10-16 10:13 UTC [B]: finished from resume: Printful synced 40/40 (file 1087368551), cover checked + registered, price 24.99/29.99, mockups regenerated from the new print file (the earlier ones came from the first-run art), variant images linked, keyword map, review sheet docs/review/130.jpg. Audit script needs a Storefront token: cohesion checked by hand.
+- 2026-10-16 10:17 UTC director: REDO (product stays DRAFT). Art, cover and hook are good; two print-file fixes, no new art generation:
+  1. R5.3.8 (letter fills): the last O in ESPRESSO has a solid white counter, and the O in YOURSELF carries a white oval highlight. On Pale Pink, Hazy Pink, Bubblegum and Mineral these print as white dots in the word. Knock the counters out to transparent in print-prep (keep the cream letters cream), preview on grey and on Mineral.
+  2. R5.3.2 (fills the print area): the print is only 7.3 in wide; on the mockups it reads small next to Matcha Made in Heaven (8.5 in on the same 4062 blank). Re-place at 8.5 in wide, top 0, centered.
+  Then re-upload, re-sync the 40 variants to the new file, regenerate mockups + variant images, new review sheet. Cover can stay (the print on it is the same art).
