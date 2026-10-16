@@ -217,7 +217,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 231 | South Asian man in his early 30s, neat side-part, clean-shaven, slim build | USED 2026-10-16 — #161 Technically a Sweater tee cover (fal Seedream 4, office holiday party; try 2 kept: try 1 repeated A SWEATER and used the wrong face) |
 | 232 | Pair: white man in his late 20s, red beard, beanie + Vietnamese-American woman in her late 20s, straight black hair with bangs | USED 2026-10-16 — #162 Technically a Sweater crewneck cover (fal Seedream 4, ugly-sweater party living room; try 1 kept) |
 | 233 | Puerto Rican man in his early 30s, curly black hair, muscular build | RESERVED — #163 Beach Body Pending redo cover |
-| 234 | White man in his late 40s, ginger handlebar mustache, shaved head | RESERVED — #164 Peaked in 1898 redo cover |
+| 234 | White man in his late 40s, ginger handlebar mustache, shaved head | USED 2026-10-16 — #164 Peaked in 1898 redo cover (try 1 of 3 images, #2 kept) |
 | 235 | Black man in his mid 30s, short twists, athletic build | RESERVED — #165 Conflict Resolution redo cover |
 | 236 | White man in his late 60s, white beard, bucket hat | RESERVED — #166 Professional Line Untangler cover |
 | 237 | Arab-American man in his early 40s, dark short hair, trimmed beard, stocky build | RESERVED — #167 Rest Day Enthusiast cover |
