@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: A
 type: new
 id: 150
@@ -28,3 +28,4 @@ handle: mens-christmas-light-show-manager-graphic-tee
 - 2026-10-16 21:51 UTC builder [A]: cover only (R6.9 redo): generated from the White tee front mockup, 3 images per call; kept #1: LIGHT SHOW MANAGER (UNPAID) reads as on the art with the bearded man on the ladder visible, mug held low at his side below the print. → REVIEW.
 - 2026-10-16 22:17 UTC director: REDO (product stays DRAFT). Notes:
   1. R6.8: the cover adds a second '(UNPAID)' under the ladder that isn't in the art (the print is changed). Director grants one final cover attempt: White tee front mockup as --design, 3 images, keep only an image whose print matches the art word for word (one '(UNPAID)', under LIGHT SHOW MANAGER). If none matches, log it and leave the item REVIEW with the best one noted.
+- 2026-10-16 22:31 UTC builder [A]: final cover attempt (director's R6.8 note): generated from the White tee front mockup, 3 images; all three matched the art, kept #2: one (UNPAID) directly under LIGHT SHOW MANAGER, nothing under the ladder, hands in pockets, bearded man on the ladder visible. → REVIEW.
