@@ -261,4 +261,4 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 275 | Black man in his early 30s, short twists, trimmed beard | USED 2026-10-16 — #205 North Woods Moose hoodie cover (fal Seedream 4, couple; REDO candidate: try 2 kept, print correct on both but the man's top shows no hood and the background echoes the print; try 1 dropped the lettering into the sky) |
 | 276 | White woman in her early 30s, strawberry-blonde waves, freckles | USED 2026-10-16 — #205 North Woods Moose hoodie cover (with #275, fal Seedream 4) |
 | 277 | Japanese-American woman in her mid 30s, sleek low bun, small hoops | USED 2026-10-16 — #206 Christmas Cats hoodie cover (fal Seedream 4, decorated living room with a real cat; try 1 kept) |
-| 278 | Brazilian woman in her early 40s, voluminous dark curls, red lipstick | RESERVED — #207 Vintage Snowman hoodie cover |
+| 278 | Brazilian woman in her early 40s, voluminous dark curls, red lipstick | USED 2026-10-16 — #207 Vintage Snowman hoodie cover (fal Seedream 4, snowy main street; try 2 kept: try 1 showed a lighter panel behind the print, so the art was flattened on a darker navy) |

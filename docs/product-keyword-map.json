@@ -3335,6 +3335,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-vintage-snowman-hoodie": {
+   "claimed": [
+    "snowman hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "snowman hoodie",
+     "volume": 260,
+     "kd": 40
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
