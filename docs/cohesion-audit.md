@@ -1,12 +1,16 @@
-# Cohesion audit — 2026-10-16 18:43 UTC
+# Cohesion audit — 2026-10-16 21:14 UTC
 
-184 live products checked · **0 errors** · 7 warnings · 7 products with findings
+191 live products checked · **1 errors** · 8 warnings · 9 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
+- 1 × Claims , already claimed by womens-embroidered-bow-before-me-cropped-h
 
 ## By product (errors first)
+### Men's Embroidered – Out of Office Deer Hoodie `mens-embroidered-out-of-office-deer-hoodie`
+- **ERROR** Claims "embroidered hoodie", already claimed by womens-embroidered-bow-before-me-cropped-hoodie (two pages fighting for one keyword). → Give one of them a different measured phrase.
+
 ### Unisex Halloween – Midnight Feature Tee `unisex-halloween-midnight-feature-graphic-tee`
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
 
@@ -27,3 +31,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Women's Thanksgiving – Gobble Gobble Turkey Crewneck Sweatshirt `womens-thanksgiving-gobble-gobble-crewneck-sweatshirt`
 - **WARN** No meta description. → Write one ≤ 155 chars.
+
+### Unisex Christmas – Mountain Christmas Bear Hoodie `unisex-christmas-mountain-christmas-bear-hoodie`
+- **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.

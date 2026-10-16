@@ -1,6 +1,6 @@
 {
- "at": "2026-10-16T18:43:43.595Z",
- "products": 184,
+ "at": "2026-10-16T21:14:20.646Z",
+ "products": 191,
  "findings": [
   {
    "level": "WARN",
@@ -50,6 +50,20 @@
    "title": "Women's Thanksgiving – Gobble Gobble Turkey Crewneck Sweatshirt",
    "msg": "No meta description.",
    "fix": "Write one ≤ 155 chars."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-embroidered-out-of-office-deer-hoodie",
+   "title": "Men's Embroidered – Out of Office Deer Hoodie",
+   "msg": "Claims \"embroidered hoodie\", already claimed by womens-embroidered-bow-before-me-cropped-hoodie (two pages fighting for one keyword).",
+   "fix": "Give one of them a different measured phrase."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-christmas-mountain-christmas-bear-hoodie",
+   "title": "Unisex Christmas – Mountain Christmas Bear Hoodie",
+   "msg": "No SEO title.",
+   "fix": "Write one ≤ 60 chars with the primary keyword."
   }
  ]
 }
