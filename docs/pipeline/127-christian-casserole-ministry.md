@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16T08:35Z
+status: REVIEW
 lane: B
 type: new
 id: 127
@@ -16,3 +16,4 @@ handle: womens-christian-casserole-ministry-graphic-tee
 ---
 ## Log
 - 2026-10-16 08:40 UTC director: moved from docs/design-briefs.md (was BUILDING there; that lane's run ended without finishing). READY to resume.
+- 2026-10-16 09:36 UTC [B]: finished from resume: Printful synced 54/54 (file 1087368524), cover checked + registered, price 24.99/29.99, mockups regenerated from the new print file (the earlier ones came from the first-run art), variant images linked, keyword map, review sheet docs/review/127.jpg. Audit script needs a Storefront token: cohesion checked by hand.
