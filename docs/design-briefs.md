@@ -1374,7 +1374,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 
 ## Thanksgiving whimsy batch — lane A (2026-10-15; thanksgiving-shirts 10 → 14, each tee + crewneck)
 
-### 95. Unisex Thanksgiving – Mash Hour Tee  *(BUILDING [A])*
+### 95. Unisex Thanksgiving – Mash Hour Tee  *(built 2026-10-16)*
 - **Handle:** `unisex-thanksgiving-mash-hour-graphic-tee` · **Blank:** Bella+Canvas 3001, $29.99
 - **Hook:** "Mash Hour" — happy hour, but it's the mashed potatoes. Whoever guards the potato bowl laughs.
 - **Why it's not taken:** Etsy mashed-potato shirts are "mashed potato enthusiast"/"potato queen" text-only; no MASH HOUR scene print.
@@ -1394,7 +1394,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Primary keyword:** pilgrim shirt — 480 / KD 30
 - **Cover model:** registry #168 (man + woman)
 
-### 98. Unisex Thanksgiving – Totally a Pilgrim Crewneck Sweatshirt  *(BUILDING [A])*
+### 98. Unisex Thanksgiving – Totally a Pilgrim Crewneck Sweatshirt  *(built 2026-10-16)*
 - **Handle:** `unisex-thanksgiving-totally-a-pilgrim-crewneck-sweatshirt` · Gildan 18000 (#145), $39.99 · art = #97
 - **Cover model:** registry #169 (man + woman)
 
