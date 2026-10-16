@@ -259,6 +259,7 @@ Goal: ChatGPT, Perplexity, Google AI Overviews / AI Mode, Gemini, Copilot and Cl
    - Evergreen tees pause until cold-weather reaches 14 each.
    - The director creates missing collections first (cropped-hoodies, cropped-sweatshirts, embroidered-sweatshirts: Shopify smart collection by tag + collections.ts with hand-written copy and FAQs) and switches each hoodie collection on (hoodiesLive / the collection's flag) the run its first product goes LIVE.
    - Director reviews hourly-equivalent: when 6+ items wait in REVIEW, review them before writing briefs.
+   - **Collections added 2026-10-16 (director):** cropped-hoodies, cropped-sweatshirts, embroidered-sweatshirts, christian-hoodies (christian hoodie 18,100 / KD 44). Printful has no cropped crewneck, so cropped-sweatshirts carries the cropped hoodies (tag both cropped-hoodies and cropped-sweatshirts; copy says they have a hood). Embroidered sweatshirts use Printful embroidery on Gildan 18000 with new Style B line art (R4.3), not a reused print file.
 6. **After the build: color backfill** on every hoodie and cold-weather product to the full legible range (≤100 variants), then evergreen tees to 28.
 7. **Coming (Sam upgrading to Max 2026-10-16):** hoodie pages (zip-up 135,000/KD28, heavyweight 14,800/KD20, oversized hoodie 165,000/KD38, plus niche hoodies); crop tops and cropped sweatshirts; custom "___ shirt" configurator pages (pets first, then football mom name/number; max 2 regenerations; order handoff tested with a 100% discount code + Printful draft orders only).
 

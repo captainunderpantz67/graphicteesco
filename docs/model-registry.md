@@ -230,3 +230,18 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 244 | Black man in his early 50s, grey goatee, broad build, ball cap | RESERVED — #174 Ugly But Delicious catfish cover |
 | 245 | White man in his mid 40s, blond buzz cut, ruddy cheeks, heavyset | RESERVED — #175 Eyes on the Prize walleye cover |
 | 246 | Latino man in his late 20s, short fade haircut, thin mustache, athletic build | RESERVED — #176 Swing Shift kettlebell cover |
+| 247 | White man in his late 30s, dark brown hair under a blaze-orange beanie, short beard | RESERVED — #177 Opening Day zip hoodie cover (director 2026-10-16) |
+| 248 | Cherokee man in his early 60s, grey ponytail, weathered face | RESERVED — #178 Deer Diary zip hoodie cover |
+| 249 | Pair: Thai-American man in his early 20s, bleached tips + Black woman in her early 20s, short curly fro | RESERVED — #179 Kaiju Naps oversized hoodie cover (man + woman) |
+| 250 | Pair: Vietnamese-American man in his mid 20s, round glasses + white woman in her mid 20s, pink-dyed bob | RESERVED — #180 Mecha Mondays oversized hoodie cover (man + woman) |
+| 251 | Indian-American woman in her early 20s, long wavy hair, small nose stud | RESERVED — #181 Matcha cropped hoodie cover |
+| 252 | Mixed-race woman in her mid 20s, curly honey-brown hair in a claw clip | RESERVED — #182 Espresso cropped hoodie cover |
+| 253 | Pair: Black man in his late 50s, grey temples + Black woman in her mid 50s, silver locs | RESERVED — #183 Amazing Grace heavyweight hoodie cover (man + woman) |
+| 254 | Tongan man in his late 20s, very broad build, short black hair | RESERVED — #184 Clean Plate Club heavyweight hoodie cover |
+| 255 | White man in his early 40s, red hair, freckles, lean runner build | RESERVED — #185 Leg Day Survivor hoodie cover |
+| 256 | Pair: Japanese-American woman in her late 20s, sleek bob + Mexican-American man in his late 20s, wavy hair | RESERVED — #186 Slurp Responsibly hoodie cover (man + woman) |
+| 257 | White woman in her early 20s, platinum blonde space buns, glitter eyeliner | RESERVED — #187 Low Battery hoodie cover |
+| 258 | Pair: white man in his mid 60s, white mustache + white woman in her early 60s, silver bob | RESERVED — #188 Lake Life hoodie cover (man + woman) |
+| 259 | Pair: Puerto Rican woman in her early 40s, dark curls + Irish-American man in his early 40s, ginger beard | RESERVED — #189 Vintage Santa hoodie cover (man + woman) |
+| 260 | White woman in her late 20s, long strawberry-blonde braid, freckles | RESERVED — #190 Highland Cow hoodie cover |
+| 261 | Persian-American woman in her mid 30s, glossy dark waves, red lipstick | RESERVED — #191 Nutcracker Bow hoodie cover |
