@@ -1386,7 +1386,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Handle:** `unisex-thanksgiving-mash-hour-crewneck-sweatshirt` · Gildan 18000 (#145), $39.99 · art = #95
 - **Cover model:** registry #167 (man + woman)
 
-### 97. Unisex Thanksgiving – Totally a Pilgrim Tee  *(BUILDING [A])*
+### 97. Unisex Thanksgiving – Totally a Pilgrim Tee  *(built 2026-10-16)*
 - **Handle:** `unisex-thanksgiving-totally-a-pilgrim-graphic-tee` · **Blank:** Bella+Canvas 3001, $29.99
 - **Hook:** "Totally a Pilgrim" — a turkey in a too-big pilgrim hat and buckle collar, hoping nobody checks. Dads and kids both get it in a second.
 - **Why it's not taken:** turkey-in-disguise is a classroom craft theme, but Etsy shirts are cartoon clip-art; no vintage engraved version with this line.
