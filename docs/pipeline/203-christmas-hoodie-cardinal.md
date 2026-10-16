@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-16 18:30 UTC
+status: REVIEW
 lane: A
 type: twin
 id: 203
@@ -19,3 +19,4 @@ handle: womens-christmas-cardinal-christmas-hoodie
 ## Log
 - 2026-10-16 17:18 UTC director: brief written, READY (lane A Christmas hoodie twins, R11.5).
 - 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361806205232 (18500; Sand + Sport Grey x S-3XL = 12). Navy swapped for Sport Grey: the black Season's Greetings script vanishes on Navy. Tee file 1085837133 at 9.7 in wide / 10.5 in tall at the top of the area (FW=1459 TOP=0), Printful sync 482260495. Copy/SEO (meta trimmed to 150), tags/price, cardinal hoodie 210/KD33 in map, cover #270 (try 1), 2 fronts + back, variant images, audit PASS, docs/review/203.jpg. Printful link queued (runner): `FORCE=1 FW=1459 TOP=0 python3 scripts/pf-sync.py setfile 482260495 1085837133 1080398177`. REVIEW once synced = 12.
+- 2026-10-16 22:47 UTC builder [A]: Printful sync complete; REVIEW.
