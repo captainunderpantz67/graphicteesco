@@ -3013,6 +3013,24 @@
    ],
    "gaps_measured": [],
    "measured": "matcha hoodie 590/KD30 (RankHero 2026-10-16)"
+  "mens-christmas-light-show-manager-graphic-tee": {
+   "claimed": [
+    "dad christmas shirt",
+    "dad christmas tshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dad christmas shirt",
+     "volume": 110,
+     "kd": 40
+    },
+    {
+     "phrase": "dad christmas tshirt",
+     "volume": 110,
+     "kd": 40
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

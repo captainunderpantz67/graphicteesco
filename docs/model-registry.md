@@ -203,7 +203,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 217 | Pair: Filipino man in his early 30s, side-parted black hair + white woman in her early 30s, copper-red shoulder-length hair | USED 2026-10-16 — #147 Define Naughty crewneck cover (fal Seedream 4, office holiday party; try 2 kept: try 1 had a coffee cup over the print; her cup still clips the end of NAUGHTY, his print is complete) |
 | 218 | Latina woman in her early 30s, long dark curls, red lipstick, gold statement earrings | USED 2026-10-16 — #148 Jolly-ish tee cover (fal Seedream 4, Christmas market at dusk; try 1 kept) |
 | 219 | Korean-American woman in her late 30s, shoulder-length straight hair with face-framing layers | RESERVED — #149 Jolly-ish crewneck cover |
-| 220 | White man in his mid 40s, sandy-brown hair, wire-rim glasses, stubble | RESERVED — #150 Light Show Manager tee cover |
+| 220 | White man in his mid 40s, sandy-brown hair, wire-rim glasses, stubble | USED 2026-10-16 — #150 Light Show Manager tee cover (fal Seedream 4, front yard at dusk; try 2 kept: try 1 garbled the lettering, try 2 spells LIGHT SHOW MANAGER (UNPAID) right but redraws the ladder man as a banner mark: director may REDO) |
 | 221 | Pair: Black man in his mid 40s, salt-and-pepper short hair + Black woman in her early 40s, shoulder-length twists | RESERVED — #151 Light Show Manager crewneck cover (man + woman) |
 | 222 | Samoan man in his late 20s, long dark hair tied back, heavy build | USED 2026-10-16 — Clean Plate Club redo cover (fal Seedream 4, garage gym at dawn; try 1 kept) |
 | 223 | White man in his early 60s, bald, thick grey handlebar mustache | USED 2026-10-16 — Retired From Cardio redo cover (fal Seedream 4, brick-gym porch at morning; try 1 kept) |

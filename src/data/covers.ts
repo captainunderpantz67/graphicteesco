@@ -179,6 +179,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-anime-mecha-mondays-oversized-hoodie': { src: '/covers/unisex-anime-mecha-mondays-oversized-hoodie.webp', alt: 'Man and woman in matching beige oversized hoodies outside a neon-lit ramen shop at night, holding takeaway coffee, wearing the Mecha Mondays hoodie' },
   'unisex-christmas-define-naughty-crewneck-sweatshirt': { src: '/covers/unisex-christmas-define-naughty-crewneck-sweatshirt.webp', alt: 'Man and woman standing together at an office holiday party with paper snowflakes and a lit tree, holding coffee cups and wearing the navy Define Naughty crewneck sweatshirt' },
   'womens-cropped-matcha-made-in-heaven-cropped-hoodie': { src: '/covers/womens-cropped-matcha-made-in-heaven-cropped-hoodie.webp', alt: 'Woman at a bright cafe counter holding an iced matcha, wearing the Matcha Made in Heaven cropped hoodie in Storm' },
+  'mens-christmas-light-show-manager-graphic-tee': { src: '/covers/mens-christmas-light-show-manager-graphic-tee.webp', alt: 'Man with sandy-brown hair and wire-rim glasses in his front yard at dusk under string lights with a ladder behind him, holding a coffee mug and wearing the Light Show Manager (Unpaid) Christmas tee' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
