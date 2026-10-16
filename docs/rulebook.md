@@ -105,6 +105,7 @@ Sections are numbered so role cards and review notes can point at them ("fails R
    7. Brand-safe and original.
    8. Prints clean: background fully removed, light art on dark blanks, dark art on light blanks.
       - **Letter and shape fills (director, 2026-10-16):** before Printful upload, preview the print on mid grey AND on the darkest offered color. Any white-filled letter counter (an O, A, P), white blob, or white disc inside a wreath/frame that isn't meant to be ink gets knocked out in print-prep. Recurring: Pitch Please, Casserole Ministry, Christmas Cats.
+      - **Self-check before REVIEW (director, 2026-10-16, 5th hit: Espresso Yourself, Professional Tree Sitter):** zoom the grey ART panel of your own review sheet to 200%. Any pure white that is not a planned cream ink (sky gaps between branches, behind ladder rungs, inside letters, highlights) means the item is not ready. Also check every held object is attached to a hand or a surface (a floating bow sent Tree Sitter back).
 4. **Max 2 regenerations,** then skip and Telegram Sam.
 
 ## R6. Photos and covers
@@ -289,7 +290,7 @@ Goal: ChatGPT, Perplexity, Google AI Overviews / AI Mode, Gemini, Copilot and Cl
    - SEO lengths;
    - keyword collisions;
    - AI tells and stuffing.
-2. ERRORs get fixed before new building. `--handle <h>` must PASS before ACTIVE. While the Storefront token is missing from a run's environment, export the product from the Admin API (Shopify MCP: handle title productType tags seo description images variants collections, prices as {amount}) to a JSON file and run `--handle <h> --admin-json <file>`; same checks, works on DRAFTs (director, 2026-10-16).
+2. ERRORs get fixed before new building. `--handle <h>` must PASS before ACTIVE. While the Storefront token is missing from a run's environment, export the product from the Admin API (Shopify MCP: handle title productType tags seo description images variants collections, prices as {amount}) to a JSON file and run `--handle <h> --admin-json <file>`; same checks, works on DRAFTs (director, 2026-10-16). For ACTIVE products the plain `--handle <h>` run works again: the script reads the public Storefront token from shopify.public.json, so no env token is needed (director, 2026-10-16 14:40).
 3. **Final eye:** read the page as a shopper on a phone. Would a careful human merchandiser have put this exact photo, title, price and copy here? If anything feels off or AI-made, it doesn't ship.
 
 ## R14. Telegram and reporting

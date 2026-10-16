@@ -1,14 +1,7 @@
 {
- "at": "2026-10-16T13:58:08.722Z",
- "products": 158,
+ "at": "2026-10-16T14:18:13.664Z",
+ "products": 163,
  "findings": [
-  {
-   "level": "WARN",
-   "handle": "mens-gym-plate-club-graphic-tee",
-   "title": "Men's Gym – Plate Club Tee",
-   "msg": "Cover alt text doesn't say who is in the photo.",
-   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
-  },
   {
    "level": "WARN",
    "handle": "mens-fishing-sunrise-strike-graphic-tee",
@@ -67,129 +60,10 @@
   },
   {
    "level": "ERROR",
-   "handle": "unisex-thanksgiving-leftovers-club-graphic-tee",
-   "title": "Unisex Thanksgiving – Leftovers Club Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-thanksgiving-pumpkin-pie-graphic-tee",
-   "title": "Women's Thanksgiving – Pumpkin Pie Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-thanksgiving-friendsgiving-graphic-tee",
-   "title": "Women's Thanksgiving – Friendsgiving Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-christmas-vintage-santa-graphic-tee",
-   "title": "Unisex Christmas – Vintage Santa Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-vintage-santa-graphic-tee",
-   "title": "Women's Christmas – Vintage Santa Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-christmas-vintage-santa-crewneck-sweatshirt",
-   "title": "Unisex Christmas – Vintage Santa Crewneck Sweatshirt",
-   "msg": "Price 39.99/- (price/compare-at) — should be 34.99/39.99 on every variant.",
-   "fix": "Set every variant to price 34.99, compare-at 39.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-merry-bright-trees-graphic-tee",
-   "title": "Women's Christmas – Merry & Bright Trees Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-merry-bright-trees-crewneck-sweatshirt",
-   "title": "Women's Christmas – Merry & Bright Trees Crewneck Sweatshirt",
-   "msg": "Price 39.99/- (price/compare-at) — should be 34.99/39.99 on every variant.",
-   "fix": "Set every variant to price 34.99, compare-at 39.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-thanksgiving-give-thanks-harvest-graphic-tee",
-   "title": "Unisex Thanksgiving – Give Thanks Harvest Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-thanksgiving-give-thanks-harvest-crewneck-sweatshirt",
-   "title": "Unisex Thanksgiving – Give Thanks Harvest Crewneck Sweatshirt",
-   "msg": "Price 39.99/- (price/compare-at) — should be 34.99/39.99 on every variant.",
-   "fix": "Set every variant to price 34.99, compare-at 39.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-christmas-deer-camp-christmas-graphic-tee",
-   "title": "Unisex Christmas – Deer Camp Christmas Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-christmas-deer-camp-christmas-crewneck-sweatshirt",
-   "title": "Unisex Christmas – Deer Camp Christmas Crewneck Sweatshirt",
-   "msg": "Price 39.99/- (price/compare-at) — should be 34.99/39.99 on every variant.",
-   "fix": "Set every variant to price 34.99, compare-at 39.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-christmas-christmas-tree-farm-graphic-tee",
-   "title": "Unisex Christmas – Christmas Tree Farm Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-christmas-christmas-tree-farm-crewneck-sweatshirt",
-   "title": "Unisex Christmas – Christmas Tree Farm Crewneck Sweatshirt",
-   "msg": "Price 39.99/- (price/compare-at) — should be 34.99/39.99 on every variant.",
-   "fix": "Set every variant to price 34.99, compare-at 39.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-cardinal-christmas-graphic-tee",
-   "title": "Women's Christmas – Cardinal Christmas Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-cardinal-christmas-crewneck-sweatshirt",
-   "title": "Women's Christmas – Cardinal Christmas Crewneck Sweatshirt",
-   "msg": "Price 39.99/- (price/compare-at) — should be 34.99/39.99 on every variant.",
-   "fix": "Set every variant to price 34.99, compare-at 39.99."
-  },
-  {
-   "level": "ERROR",
    "handle": "unisex-christmas-christmas-ski-lodge-graphic-tee",
    "title": "Unisex Christmas – Christmas Ski Lodge Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-christmas-christmas-ski-lodge-crewneck-sweatshirt",
-   "title": "Unisex Christmas – Christmas Ski Lodge Crewneck Sweatshirt",
-   "msg": "Price 39.99/- (price/compare-at) — should be 34.99/39.99 on every variant.",
-   "fix": "Set every variant to price 34.99, compare-at 39.99."
   },
   {
    "level": "ERROR",
@@ -207,31 +81,10 @@
   },
   {
    "level": "ERROR",
-   "handle": "unisex-christmas-north-woods-moose-crewneck-sweatshirt",
-   "title": "Unisex Christmas – North Woods Moose Crewneck Sweatshirt",
-   "msg": "Price 39.99/- (price/compare-at) — should be 34.99/39.99 on every variant.",
-   "fix": "Set every variant to price 34.99, compare-at 39.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-winter-woods-fox-crewneck-sweatshirt",
-   "title": "Women's Christmas – Winter Woods Fox Crewneck Sweatshirt",
-   "msg": "Price 39.99/- (price/compare-at) — should be 34.99/39.99 on every variant.",
-   "fix": "Set every variant to price 34.99, compare-at 39.99."
-  },
-  {
-   "level": "ERROR",
    "handle": "unisex-christmas-mountain-christmas-bear-graphic-tee",
    "title": "Unisex Christmas – Mountain Christmas Bear Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-christmas-mountain-christmas-bear-crewneck-sweatshirt",
-   "title": "Unisex Christmas – Mountain Christmas Bear Crewneck Sweatshirt",
-   "msg": "Price 39.99/- (price/compare-at) — should be 34.99/39.99 on every variant.",
-   "fix": "Set every variant to price 34.99, compare-at 39.99."
   },
   {
    "level": "ERROR",
@@ -242,24 +95,10 @@
   },
   {
    "level": "ERROR",
-   "handle": "womens-christmas-golden-retriever-christmas-crewneck-sweatshirt",
-   "title": "Women's Christmas – Golden Retriever Christmas Crewneck Sweatshirt",
-   "msg": "Price 39.99/- (price/compare-at) — should be 34.99/39.99 on every variant.",
-   "fix": "Set every variant to price 34.99, compare-at 39.99."
-  },
-  {
-   "level": "ERROR",
    "handle": "unisex-christmas-christmas-on-the-lake-graphic-tee",
    "title": "Unisex Christmas – Christmas on the Lake Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-christmas-christmas-on-the-lake-crewneck-sweatshirt",
-   "title": "Unisex Christmas – Christmas on the Lake Crewneck Sweatshirt",
-   "msg": "Price 39.99/- (price/compare-at) — should be 34.99/39.99 on every variant.",
-   "fix": "Set every variant to price 34.99, compare-at 39.99."
   },
   {
    "level": "ERROR",
@@ -270,13 +109,6 @@
   },
   {
    "level": "ERROR",
-   "handle": "womens-christmas-winter-skate-club-penguins-crewneck-sweatshirt",
-   "title": "Women's Christmas – Winter Skate Club Penguins Crewneck Sweatshirt",
-   "msg": "Price 39.99/- (price/compare-at) — should be 34.99/39.99 on every variant.",
-   "fix": "Set every variant to price 34.99, compare-at 39.99."
-  },
-  {
-   "level": "ERROR",
    "handle": "unisex-christmas-upland-christmas-pheasant-graphic-tee",
    "title": "Unisex Christmas – Upland Christmas Pheasant Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
@@ -284,24 +116,10 @@
   },
   {
    "level": "ERROR",
-   "handle": "unisex-christmas-upland-christmas-pheasant-crewneck-sweatshirt",
-   "title": "Unisex Christmas – Upland Christmas Pheasant Crewneck Sweatshirt",
-   "msg": "Price 39.99/- (price/compare-at) — should be 34.99/39.99 on every variant.",
-   "fix": "Set every variant to price 34.99, compare-at 39.99."
-  },
-  {
-   "level": "ERROR",
    "handle": "womens-christmas-christmas-on-the-farm-horse-graphic-tee",
    "title": "Women's Christmas – Christmas on the Farm Horse Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-christmas-on-the-farm-horse-crewneck-sweatshirt",
-   "title": "Women's Christmas – Christmas on the Farm Horse Crewneck Sweatshirt",
-   "msg": "Price 39.99/- (price/compare-at) — should be 34.99/39.99 on every variant.",
-   "fix": "Set every variant to price 34.99, compare-at 39.99."
   },
   {
    "level": "ERROR",
