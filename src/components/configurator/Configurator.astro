@@ -497,14 +497,25 @@ const config = {
       const mean = sum / k; return Math.sqrt(sq / k - mean * mean);
     }
     async function previewFor(url: string): Promise<string> {
-      // The cutout can be a 2000 px PNG; a 1000 px copy keeps the preview light on 4G.
+      // The cutout can be a 2000 px PNG; a 1000 px copy keeps the preview light on 4G. While it is on a canvas,
+      // measure the subject's box so the print fills the space (answers.photoCrop, in source pixels).
       try {
         const bmp = await createImageBitmap(await (await fetch(url)).blob());
-        const scale = Math.min(1, 1000 / Math.max(bmp.width, bmp.height));
-        const c = document.createElement('canvas'); c.width = Math.round(bmp.width * scale); c.height = Math.round(bmp.height * scale);
-        c.getContext('2d')!.drawImage(bmp, 0, 0, c.width, c.height); bmp.close();
+        const W = bmp.width, H = bmp.height;
+        const scale = Math.min(1, 1000 / Math.max(W, H));
+        const c = document.createElement('canvas'); c.width = Math.round(W * scale); c.height = Math.round(H * scale);
+        const ctx = c.getContext('2d')!; ctx.drawImage(bmp, 0, 0, c.width, c.height); bmp.close();
+        const px = ctx.getImageData(0, 0, c.width, c.height).data;
+        let x0 = c.width, y0 = c.height, x1 = -1, y1 = -1;
+        for (let y = 0; y < c.height; y++) for (let x = 0; x < c.width; x++) if (px[(y * c.width + x) * 4 + 3]! > 12) { if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y; }
+        if (x1 > x0 && y1 > y0) {
+          const pad = 0.02, s = 1 / scale;
+          const bx = Math.max(0, Math.floor((x0 - c.width * pad) * s)), by = Math.max(0, Math.floor((y0 - c.height * pad) * s));
+          const bw = Math.min(W - bx, Math.ceil((x1 - x0 + 1 + c.width * pad * 2) * s)), bh = Math.min(H - by, Math.ceil((y1 - y0 + 1 + c.height * pad * 2) * s));
+          answers.photoCrop = `${bx} ${by} ${bw} ${bh} ${W} ${H}`;
+        } else delete answers.photoCrop;
         return c.toDataURL('image/png');
-      } catch { return url; }
+      } catch { delete answers.photoCrop; return url; }
     }
 
     show();

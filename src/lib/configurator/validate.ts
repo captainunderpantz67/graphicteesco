@@ -53,6 +53,7 @@ function checkStep(s: Step, a: Record<string, string>, clean: Record<string, str
     const style = a.style ?? 'none';
     if (!s.styles.some((x) => x.value === style)) return problems.push({ key: 'style', message: 'Pick a photo style.' });
     clean.photo = id; clean.style = style;
+    if (a.photoCrop && /^\d{1,5} \d{1,5} \d{1,5} \d{1,5} \d{1,5} \d{1,5}$/.test(a.photoCrop.trim())) clean.photoCrop = a.photoCrop.trim();
   }
 }
 

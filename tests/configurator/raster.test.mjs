@@ -47,6 +47,14 @@ test('raster: a photo design pulls the cutout from storage by asset id', async (
   assert.equal(out.width, 3600);
   assert.ok(opaqueFraction(out.png) > 0.1);
   await assert.rejects(() => rasterise(r.front, fonts, async () => null), /missing image asset/);
+  // photoCrop zooms to the subject's box: more ink in the same print box
+  const cropped = renderDesign({ template: 'photo-bootleg', blank: 'bc3001', shirtColor: 'Black', size: 'M', colors: { primary: '#f8f3e8', secondary: '#c8102e' }, answers: { photo: 'abcdefghijklmnopqrstuvwx', style: 'none', caption: 'BUDDY', photoCrop: '140 130 520 400 800 600' } }, { template: templateById('photo-bootleg'), blank, imageHref: assetHref });
+  assert.match(cropped.front.svg, /viewBox="140 130 520 400"/);
+  const out2 = await rasterise(cropped.front, fonts, async () => blob);
+  assert.ok(opaqueFraction(out2.png) > opaqueFraction(out.png));
+  // a bad crop string is ignored, never an error
+  const bad = renderDesign({ template: 'photo-bootleg', blank: 'bc3001', shirtColor: 'Black', size: 'M', colors: { primary: '#f8f3e8', secondary: '#c8102e' }, answers: { photo: 'abcdefghijklmnopqrstuvwx', style: 'none', photoCrop: '900 0 100 100 800 600' } }, { template: templateById('photo-bootleg'), blank, imageHref: assetHref });
+  assert.ok(!bad.front.svg.includes('viewBox="900'));
 });
 
 test('image: header sniffing reads PNG and JPEG sizes and refuses tiny photos', () => {

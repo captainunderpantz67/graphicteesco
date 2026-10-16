@@ -34,6 +34,15 @@ function bindText(text: string, answers: Record<string, string>): string | null 
 }
 
 // A layer's fill is the first ink, or the readable second ink (`accent`). Its outline is always the other ink.
+export function parseCrop(v: string | undefined): { x: number; y: number; w: number; h: number; W: number; H: number } | null {
+  if (!v) return null;
+  const n = v.trim().split(/\s+/).map(Number);
+  if (n.length !== 6 || n.some((x) => !Number.isInteger(x) || x < 0)) return null;
+  const [x, y, w, h, W, H] = n as [number, number, number, number, number, number];
+  if (w < 1 || h < 1 || W < 1 || H < 1 || x + w > W || y + h > H) return null;
+  return { x, y, w, h, W, H };
+}
+
 const inkHex = (ink: 'primary' | 'secondary' | 'auto' | undefined, inks: ResolvedInks) => (ink === 'secondary' ? inks.accent : inks.fill);
 const outlineFor = (fill: string, inks: ResolvedInks) => (fill === inks.fill ? inks.stroke : inks.fill);
 
@@ -84,7 +93,13 @@ function renderSide(side: Side, input: DesignInput, o: RenderOptions, inks: Reso
       if (!id) return;
       const href = o.imageHref ? o.imageHref(id) : `asset:${id}`;
       images.push({ href, assetId: id });
-      parts.push(`<image href="${esc(href)}" xlink:href="${esc(href)}" x="${num(l.x - l.wIn / 2)}" y="${num(l.y)}" width="${num(l.wIn)}" height="${num(l.hIn)}" preserveAspectRatio="xMidYMid meet"/>`);
+      // photoCrop = "x y w h W H" (source pixels): the subject's box inside the cutout, measured by the browser, so
+      // the subject fills the print box instead of the transparent margins around it. Without it, the whole file.
+      const crop = parseCrop(input.answers.photoCrop);
+      const box = `x="${num(l.x - l.wIn / 2)}" y="${num(l.y)}" width="${num(l.wIn)}" height="${num(l.hIn)}" preserveAspectRatio="xMidYMid meet"`;
+      parts.push(crop
+        ? `<svg ${box} viewBox="${crop.x} ${crop.y} ${crop.w} ${crop.h}" overflow="hidden"><image href="${esc(href)}" xlink:href="${esc(href)}" x="0" y="0" width="${crop.W}" height="${crop.H}" preserveAspectRatio="none"/></svg>`
+        : `<image href="${esc(href)}" xlink:href="${esc(href)}" ${box}/>`);
     } else if (l.kind === 'icon') {
       const sport = sportByValue(input.answers.sport ?? '');
       if (!sport) return;
