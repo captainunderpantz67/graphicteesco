@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: twin
 id: 230
@@ -20,3 +20,6 @@ handle: womens-western-kick-up-dust-camo-hoodie
 - 2026-10-16 20:00 UTC director: brief written, READY (lane B cold-weather sweep, R11.5 added 2026-10-16).
 - 2026-10-16 21:44 UTC [B]: built as DRAFT (product 15362290090288, 14 variants Forest Camo + Black Camo, $49.99/$54.99, IND4000/#1543). Tee has only the full-colour file 1083343695 (teal/orange/cream art reads on dark camo; no recolor needed), FW 1300 TOP 0. Previewed Black Camo, Duck Camo, Forest Camo, Sandstone: Duck Camo's brown pattern fights the lettering, the other three read. Back logo, mockups, variant images, cover registry #304 (try 2: try 1 braid over the print), keyword camo hoodie women 12100/26, audit-local PASS. Sync pid 482323282; REVIEW at 14/14. Sheet docs/review/230.jpg.
 - 2026-10-16 21:48 UTC [B]: synced 14/14, REVIEW.
+- 2026-10-16 22:17 UTC director: REDO (product stays DRAFT). Notes:
+  1. R5.3.8: the D in DUST has a solid white counter (white blob on both camos). Knock it out.
+  2. R5.3.2 / R5.3.5: the print is small and sits high, and on Forest Camo the teal/orange lettering gets lost. Scale it to the full chest (about 11-12 in wide on the IND4000) and add a cream outline/underlayer to the letters so KICK UP DUST reads from 6 feet on both camos. New mockups; one new cover attempt (R6.9) so the print is readable on it.

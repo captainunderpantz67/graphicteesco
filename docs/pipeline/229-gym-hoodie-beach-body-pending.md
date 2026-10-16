@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 229
@@ -20,3 +20,4 @@ handle: mens-gym-beach-body-pending-hoodie
 - 2026-10-16 19:30 UTC director: brief written, READY (lane B cold-weather, R11.5).
 - 2026-10-16 21:40 UTC [B]: built as DRAFT (product 15362283077936, 14 variants Sand + Navy, $39.99/$44.99, pullover 18500). Twin of #163's light-ink file 1087730069 (only one ink file: orange/brown reads on Sand and Navy, palms a little dim on Navy), FW 1320 TOP 0. Back logo, mockups, variant images, cover registry #303 (try 1), keyword bodybuilder hoodie 1000/26, audit-local PASS. Sync pid 482322621 running; REVIEW at 14/14. Sheet docs/review/229.jpg.
 - 2026-10-16 21:44 UTC [B]: synced 14/14, REVIEW.
+- 2026-10-16 22:17 UTC director: LIVE (ACTIVE + Online Store + Headless, audit --handle PASS). approved.

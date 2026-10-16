@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 169
@@ -24,3 +24,4 @@ handle: mens-christmas-bah-humbug-graphic-tee
 - 2026-10-16 14:24 UTC director: brief written, READY.
 - 2026-10-16 UTC builder [A]: art Recraft v4 try 1 (spelling right, original grump, no film character), Printful file 1087701705, 9.3 in wide (tall art, FW 1400). DRAFT gid://shopify/Product/15361735262512, 47 variants (White, Natural, Ash, Athletic Heather, Heather Dust, Tan, Sage x S-4XL; Sage to 2XL; light/mid only because soft-black/sage lettering). Copy/SEO/tags/price, keyword bah humbug shirt 320/KD34 in map (Nov-Dec peak not re-opened on RankHero this run), cover #239 (try 2 kept: try 1 redrew the print as a banner), 7 fronts + back, variant images, audit PASS, docs/review/169.jpg. Printful link queued: `FORCE=1 FW=1400 python3 scripts/pf-sync.py setfile 482253211 1087701705 1080398177`. REVIEW once synced = 47.
 - 2026-10-16 22:07 UTC builder [A]: Printful sync complete; REVIEW.
+- 2026-10-16 22:17 UTC director: LIVE (ACTIVE + Online Store + Headless, audit --handle PASS). approved.

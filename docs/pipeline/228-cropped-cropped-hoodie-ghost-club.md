@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: twin
 id: 228
@@ -20,3 +20,6 @@ handle: womens-cropped-ghost-club-cropped-hoodie
 - 2026-10-16 19:30 UTC director: brief written, READY (lane B cold-weather, R11.5).
 - 2026-10-16 21:35 UTC [B]: built as DRAFT (product 15362271609136, 10 variants Black + Military Green, $44.99/$49.99, 7502/#317). Print = preview crop of the tee file (748x800, original expired) 3x Lanczos to 2244x2400, file 1087838540, FW 1100 TOP 0. Mockups + back + variant images, cover registry #302 (try 1), keyword ghost hoodie 3600/40, audit-local PASS. Printful sync pid 482320933 running; set REVIEW at 10/10. Sheet docs/review/228.jpg.
 - 2026-10-16 21:36 UTC [B]: synced 10/10, REVIEW.
+- 2026-10-16 22:17 UTC director: REDO (product stays DRAFT). Notes:
+  1. R4.1: GHOST CLUB sits inside a scalloped cream badge with a black outline: badge look, never allowed, twins included.
+  2. Redraw frameless (one Recraft generation, max 2): the same three ghosts in sunglasses (mustard dots, orange swirls, navy stars) with GHOST CLUB arched above in hand-drawn retro letters, small stars and waves below, nothing behind them. Check the white sheet shapes print as cream ink, not blank fabric holes (R5.3.8). Copy: drop 'inside a scalloped cream badge'.

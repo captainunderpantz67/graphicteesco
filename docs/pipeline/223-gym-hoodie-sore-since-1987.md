@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: twin
 id: 223
@@ -19,3 +19,6 @@ handle: mens-gym-sore-since-1987-hoodie
 ## Log
 - 2026-10-16 19:05 UTC director: brief written, READY (lane B cold-weather, R11.5).
 - 2026-10-16 21:13 UTC [B]: finished by lane B resume: DRAFT in Shopify (14 variants, 2 colors, prices per R12.1), Printful synced 14/14, cover + 2 mockups + back, review sheet docs/review/223.jpg, copy checked (no frame/badge wording).
+- 2026-10-16 22:17 UTC director: REDO (product stays DRAFT). Notes:
+  1. R3.7.6 / R4: the small line 'Iron & Sweat Dept.' is a default sans-serif font. Erase that line from the art in print-prep (no new generation needed), re-upload the Printful file, resync, new mockups and cover if the line shows on it.
+  2. R8.3: remove 'with Iron & Sweat Dept. in small type beneath' from the Story once the line is gone.

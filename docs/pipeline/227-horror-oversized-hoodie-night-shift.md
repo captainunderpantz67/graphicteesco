@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: twin
 id: 227
@@ -19,3 +19,7 @@ handle: unisex-horror-night-shift-oversized-hoodie
 ## Log
 - 2026-10-16 19:30 UTC director: brief written, READY (lane B cold-weather, R11.5).
 - 2026-10-16 21:31 UTC [B]: built as DRAFT (product 15362257748272, 12 variants Black+Navy, $54.99/$59.99, oversized 4719/#892): twin of the tee, print = Printful preview of the tee's file (the original hosted file has expired; cropped to the art, 2x Lanczos, 7.3 in wide x 10 in tall, FW 1100 TOP 0, so about 125 dpi native: director check sharpness), file 1087835250, synced 12/12, back logo, mockups + variant images, cover registry #300+#301 (try 2: first attempt had crewnecks), keyword horror movie hoodie 2900/30, audit-local PASS. Note: the tee art reads MIDNIGHT SHOWING, copy says so. Review sheet docs/review/227.jpg.
+- 2026-10-16 22:17 UTC director: REDO (product stays DRAFT). Notes:
+  1. R4.1: the whole print is a rectangular VHS case with a border and spine, a box/frame look, and it prints as a small rectangle on the oversized hoodie (R5.3.2).
+  2. Redraw (one new Recraft v4 generation, max 2): the glowing jack-o'-lantern under a full moon with the haunted house behind, MIDNIGHT SHOWING in dripping hand-drawn letters, edges breaking up into worn print texture, no box, no spine, no border. Size it to fill the chest (about 12 in wide on the 4719).
+  3. Keep the handle; the Story describes only what the new art shows (no 'VHS cover' wording unless the art still shows a tape). New mockups and cover (man AND woman, R6.3).

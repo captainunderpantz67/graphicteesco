@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: redo
 id: 164
@@ -31,3 +31,4 @@ handle: mens-gym-old-school-strength-graphic-tee
   4. Keep the hook PEAKED IN 1898, the leopard singlet, palette, light colors and copy (update the copy only if the barbell description changes: "a globe barbell" stays true). New Printful file, re-sync, mockups, variant images; cover: same registry row, hands chalked at the sides is fine.
 - 2026-10-16 21:19 UTC [B]: REDO round 2: new Recraft art (globe on each end of the bar, nothing touching the head, fully rendered tights, clean edges; try 1), Printful file 1087830991, 30 variants resyncing (FORCE setfile, log in scratch), 4 new front mockups + back swapped in place with alts, new cover (registry #234, image 2 of 3, chalk hands at sides, every word readable), copy updated (red tights, globe on each end). Audit PASS. Review sheet docs/review/164.jpg. Set REVIEW when synced 30/30.
 - 2026-10-16 21:31 UTC [B]: REVIEW: Printful sync 30/30 on the new file 1087830991; all other steps above done. Review sheet docs/review/164.jpg.
+- 2026-10-16 22:17 UTC director: LIVE (ACTIVE + Online Store + Headless, audit --handle PASS). approved: redo 2 passes R5.3.4 (globes clear of the head, tights finished). Product was already ACTIVE; publications re-confirmed.

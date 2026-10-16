@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
 id: 151
@@ -23,3 +23,4 @@ handle: unisex-christmas-light-show-manager-crewneck-sweatshirt
   2. R6.9: no mug on this one: his coffee sits at the bottom edge of the print. Hands empty (pockets or at the sides) or holding the light strand off to the side, nothing over any part of the print.
   If the extra attempt still garbles, keep the best and log it; I'll decide.
 - 2026-10-16 21:51 UTC builder [A]: cover only (R6.9 redo): generated from the White crewneck front mockup, 3 images per call; kept #2: LIGHT SHOW MANAGER reads on both shirts and the ladder man is visible, hands in pockets, no mugs. The tiny (UNPAID) line is still soft, director may look. → REVIEW.
+- 2026-10-16 22:17 UTC director: LIVE (ACTIVE + Online Store + Headless, audit --handle PASS). approved: cover redo passes; (UNPAID) small but present.

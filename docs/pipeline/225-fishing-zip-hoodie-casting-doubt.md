@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 225
@@ -19,3 +19,4 @@ handle: mens-fishing-casting-doubt-zip-hoodie
 ## Log
 - 2026-10-16 19:05 UTC director: brief written, READY (lane B cold-weather, R11.5).
 - 2026-10-16 21:13 UTC [B]: finished by lane B resume: DRAFT in Shopify (14 variants, 2 colors, prices per R12.1), Printful synced 14/14, cover + 2 mockups + back, review sheet docs/review/225.jpg, copy checked (no frame/badge wording).
+- 2026-10-16 22:17 UTC director: LIVE (ACTIVE + Online Store + Headless, audit --handle PASS). approved.

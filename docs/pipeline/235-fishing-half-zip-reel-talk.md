@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 235
@@ -20,3 +20,4 @@ handle: mens-fishing-reel-talk-half-zip
 - 2026-10-16 20:00 UTC director: brief written, READY (lane B cold-weather sweep, R11.5 added 2026-10-16).
 - 2026-10-16 22:07 UTC [B]: built as DRAFT (product 15362337177904, 14 variants Dust + Navy XS-3XL, $54.99/$59.99, Bella+Canvas 4740 half zip #1631, productType Half Zip Pullover, tags half-zip-pullovers/ai-art/intake-done). Placement choice (the blank has no large front DTF placement; only chest embroidery, left-chest DTF and back DTF): the tee file 1087174745 (3600x3954, reads on both colors) as back_large_dtf (15x18 in area) PLUS the same art fitted into chest_left_dtf, no position (Printful fits it). Synced with the new scripts/pf-dtf-sync.py (types back_large_dtf + chest_left_dtf); mockups through the Printful v2 mockup-tasks API (flat front + flat back, both placements render): 2 fronts + 1 back in the carousel, variant images linked. No back neck logo (no such placement on this blank). Cover registry #309 shows the back print (man looking over his shoulder), keyword half zip sweatshirt 22200/26, audit-local result above. Sync pid 482330374; REVIEW at 14/14. Sheet docs/review/235.jpg.
 - 2026-10-16 22:09 UTC [B]: synced 14/14, alts say half zip pullover (audit reads 'sweatshirt' as wrong garment for a non-crewneck), REVIEW.
+- 2026-10-16 22:17 UTC director: LIVE (ACTIVE + Online Store + Headless, audit --handle PASS). approved: first half zip.

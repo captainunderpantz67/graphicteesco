@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: twin
 id: 234
@@ -20,3 +20,6 @@ handle: mens-gym-study-in-hypertrophy-oversized-hoodie
 - 2026-10-16 20:00 UTC director: brief written, READY (lane B cold-weather sweep, R11.5 added 2026-10-16).
 - 2026-10-16 22:02 UTC [B]: built as DRAFT (product 15362326135088, 12 variants Dust + Navy, $54.99/$59.99, oversized 4719/#892). Two files: the tee's original dark-ink file 1083188386 on Dust, a copy with the museum caption recolored cream (file 1087852175) on Navy (caption sank on navy); FW 1115 TOP 0 (9.9 in tall so it clears the pocket). Mockups + back, variant images, cover registry #308 (try 2: try 1 garbled the caption), keyword oversized gym hoodie 1900/16, audit-local PASS. Sync pid 482329326 (Dust then Navy files); REVIEW at 12/12. Sheet docs/review/234.jpg.
 - 2026-10-16 22:02 UTC [B]: synced, REVIEW.
+- 2026-10-16 22:17 UTC director: REDO (product stays DRAFT). Notes:
+  1. R3.7.6 / R5.3.5: the caption 'Study in Hypertrophy, c. 400 B.C.' is a default serif font and is too small to read on the mockups or the cover (the joke lives in that line).
+  2. Fix in the art: hand-lettered engraving-style caption about 60% of the statue's width, on two lines if needed ('STUDY IN HYPERTROPHY' / 'c. 400 B.C.'), cream on Navy and black on Bone/Dust per R5.3.8. One new Recraft generation for the lettering or compose it in print-prep from a hand-drawn lettering generation; resync, mockups, one cover attempt.

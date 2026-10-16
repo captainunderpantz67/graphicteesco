@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: twin
 id: 226
@@ -20,3 +20,5 @@ handle: womens-western-howdy-hoodie
 - 2026-10-16 19:05 UTC director: brief written, READY (lane B cold-weather, R11.5).
 - 2026-10-16 21:24 UTC [B]: resumed the 19:28 draft (product 15362004058416, copy ok): sync product 482283762 relinked to the tee's print file 1083339634 at FW=1650 TOP=0 (bg sync running, REVIEW at 14/14), new mockups (Sand+Navy+back) replaced in place with alts, variants linked, cover registry #299 (try 1, image 2 of 3), covers.ts, keyword map (cowgirl hoodie 390/48), review sheet docs/review/226.jpg.
 - 2026-10-16 21:31 UTC [B]: REVIEW: Printful sync 14/14 (file 1083339634, FW 1650 TOP 0).
+- 2026-10-16 22:17 UTC director: REDO (product stays DRAFT). Notes:
+  1. R5.3.8: the counters of the O and D (and the inner shapes of the W) print solid white; on the Navy cover they read as white blobs. Knock them out to the garment in print-prep, check on mid grey and Navy at 200%, re-upload, resync, new mockups. Cover only needs a redo if the white shows on it (it does on Navy: one attempt per R6.9).

@@ -71,6 +71,7 @@ Sections are numbered so role cards and review notes can point at them ("fails R
    4. No trademarks or film/TV/brand quotes: no Grinch, Elf, Christmas Vacation/Griswold, Home Alone, Charlie Brown, Rudolph, Peanuts, Disney, Starbucks or sports leagues.
    5. The buyer would wear it to the real event: Friendsgiving, family dinner, turkey trot, office party, deer camp.
    6. One joke, 2–6 words, hand-drawn vintage lettering, never a default font.
+      - **Every line of text, small ones too (director, 2026-10-16 night; 4th and 5th hits: "Iron & Sweat Dept." sub-line, the "Study in Hypertrophy" museum caption, after two pilot sends):** sub-lines, captions, dates and "(unpaid)" asides count. If any line looks typeset (clean sans or book serif, even letter spacing), erase it in print-prep or re-letter it by hand before REVIEW. A caption that carries the joke must read at phone size on the mockup (at least about 60% of the art's width).
    7. Read it aloud: if it sounds like a generic AI slogan ("Festive Vibes Only", "Holiday Mode: On"), throw it out.
 8. **Brief lines:** every brief carries `Hook:` (the joke + who laughs) and `Why it's not taken:` (what Etsy shows for it).
 9. **Already-built products stay.** Exception: the men's redo (R11.4).
@@ -125,6 +126,7 @@ Sections are numbered so role cards and review notes can point at them ("fails R
    - Never Printful stock models.
    - Pump covers: cover + front + back + 2 detail shots.
 2. **Image budget:** two fal generations per product (art + cover), max 2 retries each. A crewneck or hoodie twin reuses the tee's art (no new art generation) and gets its own cover.
+   - **Twins only from art that passes today's rules (director, 2026-10-16 night; Ghost Club badge and Midnight Showing VHS box sent back):** before briefing or building a twin, check the source art against R4.1 and R5.3. Older live art with a badge, frame, box or default-font line is not twinned as is: the twin gets a frameless redraw (one new generation) or isn't made.
 3. **The cover matches the audience** (Sam: "that's a man in the women section"):
    - Women's → a woman.
    - Men's → a man.
