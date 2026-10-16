@@ -18,5 +18,5 @@ handle: womens-christmas-o-holy-night-crewneck-sweatshirt
 ---
 ## Log
 - 2026-10-16 19:05 UTC director: brief written, READY (R7.3 holiday pair: this tee had no crewneck twin).
-- 2026-10-16 22:00 UTC builder [A]: DRAFT gid://shopify/Product/15362251882800 (Gildan 18000; Black, Navy, Sand, White, Sport Grey x S-3XL = 30; $34.99/$39.99), tee file 1083165335 (no new art; FW=1400 so the tall print stays inside the 2400 px area), Printful sync 482318671 queued (runner; FORCE=1 FW=1400 setfile 482318671 1083165335 1080398177). Primary christian christmas sweatshirt 880/KD52 in map. Cover #292 (try 1), 5 fronts + back, variant images, audit PASS, docs/review/219.jpg. REVIEW once synced = 30.
+- 2026-10-16 21:25 UTC builder [A]: DRAFT gid://shopify/Product/15362251882800 (Gildan 18000; Black, Navy, Sand, White, Sport Grey x S-3XL = 30; $34.99/$39.99), tee file 1083165335 (no new art; FW=1400 so the tall print stays inside the 2400 px area), Printful sync 482318671 queued (runner; FORCE=1 FW=1400 setfile 482318671 1083165335 1080398177). Primary christian christmas sweatshirt 880/KD52 in map. Cover #292 (try 1), 5 fronts + back, variant images, audit PASS, docs/review/219.jpg. REVIEW once synced = 30.
 - NOTE for director: the reused tee art is an arched scene (R4.1 arch look), unchanged from the live tee; the print is the same file.
