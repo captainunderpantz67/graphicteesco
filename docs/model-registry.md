@@ -317,7 +317,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 442 | Czech-American man in his early 40s, curly light-brown hair, full brown beard with a grey patch at the chin | USED 2026-10-16 — #266 Eau de Campfire embroidered hoodie cover (try 1, image 2 of 3; lettering slightly soft) |
 | 443 | Ghanaian-American woman in her mid 40s, short tapered natural hair, small pearl studs | USED 2026-10-16 — #267 Be Still crewneck cover (try 1, image 2 of 3; the small PSALM 46:10 line is soft on the cover) |
 | 444 | Italian-American woman in her late 50s, shoulder-length salt-and-pepper waves, small gold cross necklace | USED 2026-10-16 — try 1, image 1 of 3 |
-| 445 | Ukrainian-American woman in her late 20s, long light-blonde hair in a single fishtail braid | RESERVED — #269 Ewe Are Loved crewneck cover |
+| 445 | Ukrainian-American woman in her late 20s, long light-blonde hair in a single fishtail braid | USED 2026-10-16 — try 1, image 2 of 3 |
 | 446 | Dominican-American woman in her late 60s, soft white waves to the chin, coral lipstick | RESERVED — #270 Casserole Ministry crewneck cover |
 | 447 | Haitian-American woman in her late 30s, short sculpted finger waves, small gold studs | RESERVED — #271 Q Word crewneck cover |
 | 448 | Pakistani-American woman in her mid 30s, long dark hair in a loose side braid, thin gold bangles | RESERVED — #272 I Have Followers crewneck cover |

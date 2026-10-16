@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16 23:55
+status: REVIEW
 lane: B
 type: new
 id: 269
@@ -24,3 +24,4 @@ handle: womens-christian-ewe-are-loved-lamb-crewneck-sweatshirt
 ---
 ## Log
 - 2026-10-16 22:30 UTC director: brief written, READY (lane B christian-sweatshirts, R11.5 / R9.11 depth).
+- 2026-10-17 00:15 UTC [B]: built as DRAFT (product 15362563408176, 12 variants Sand + Light Pink S-3XL, $34.99/$39.99, Gildan 18000 #145). New art: Recraft v4 try 1 (spelling checked EWE ARE / LOVED / JOHN 10:11), print-prep 3600 x 4551, knock-white for the letter counters only, lamb region restored and its enclosed gaps filled cream so the fleece stays solid, Printful file 1087908638, FW 1300 TOP 0. Mockups, variant images, back logo, cover registry #445 (try 1, image 2 of 3), keyword lamb sweatshirt 170/34, audit-local PASS. Sync pid 482353782, 12/12. Sheet docs/review/269.jpg.

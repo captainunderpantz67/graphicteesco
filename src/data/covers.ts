@@ -273,6 +273,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-embroidered-eau-de-campfire-hoodie': { src: '/covers/mens-embroidered-eau-de-campfire-hoodie.webp', alt: 'Man with a full beard in a Sand embroidered Eau de Campfire hoodie at a lakeside campsite at dusk with a campfire ring and a canvas tent behind him holding an enamel camp mug' },
   'womens-christian-be-still-crewneck-sweatshirt': { src: '/covers/womens-christian-be-still-crewneck-sweatshirt.webp', alt: 'Woman with short natural hair in a Sand Be Still scripture crewneck sweatshirt on a wooden lake dock at sunrise with mist on the water holding a small Bible' },
   'womens-christian-light-of-the-world-jesus-crewneck-sweatshirt': { src: '/covers/womens-christian-light-of-the-world-jesus-crewneck-sweatshirt.webp', alt: 'Woman in her late 50s in a Sand Light of the World Jesus crewneck sweatshirt on the steps of a small white church at dusk with a glowing brass lantern' },
+  'womens-christian-ewe-are-loved-lamb-crewneck-sweatshirt': { src: '/covers/womens-christian-ewe-are-loved-lamb-crewneck-sweatshirt.webp', alt: 'Woman in her late 20s with a blonde fishtail braid in a Sand Ewe Are Loved lamb crewneck sweatshirt leaning on a wooden fence in a spring pasture with sheep grazing' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

@@ -3984,12 +3984,16 @@
   },
   "womens-christian-ewe-are-loved-lamb-crewneck-sweatshirt": {
    "claimed": [
-    "lamb sweatshirt",
-    "sheep sweatshirt",
-    "lamb shirt"
+    "lamb sweatshirt"
    ],
-   "gaps_measured": [],
-   "measured": "lamb sweatshirt 170/KD34; sheep sweatshirt 170/KD42; lamb shirt 170/KD50 (RankHero 2026-10-16)"
+   "gaps_measured": [
+    {
+     "phrase": "lamb sweatshirt",
+     "volume": 170,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
   },
   "womens-christian-casserole-ministry-crewneck-sweatshirt": {
    "claimed": [
