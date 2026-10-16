@@ -353,3 +353,4 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 465 | Mexican-American woman in her early 40s, long dark hair in a thick side braid, small silver earrings | RESERVED — #284 Deck the Stalls crewneck cover |
 | 466 | Swedish-American woman in her early 30s, platinum-blonde low bun, no makeup, angular face | RESERVED — #285 Morel Support hoodie cover |
 | 467 | Indian-American woman in her mid 20s, short black bob with blunt bangs, nose ring | RESERVED — #286 Purrsonal Space hoodie cover |
+| 468 | Ghanaian-American man in his mid 20s, shaved head, clean-shaven, very muscular build | RESERVED — #287 Sore Since 1987 oversized hoodie cover |
