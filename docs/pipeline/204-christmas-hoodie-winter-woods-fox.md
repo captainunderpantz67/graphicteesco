@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: A
 type: twin
 id: 204
@@ -20,3 +20,7 @@ handle: womens-christmas-winter-woods-fox-hoodie
 - 2026-10-16 17:20 UTC director: brief written, READY (lane A Christmas hoodie twins, R11.5).
 - 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361809875248 (18500; Sand + Navy x S-3XL = 12), tee file 1085864198 at 10 in wide / 9.9 in tall at the top of the area (FW=1500 TOP=0), Printful sync 482261190. Copy/SEO/tags/price, fox hoodie 12,100/KD22 in map, cover #274 (try 1; hood visible, thermos at the hip), 2 fronts + back, variant images, audit PASS, docs/review/204.jpg. Printful link queued (runner): `FORCE=1 FW=1500 TOP=0 python3 scripts/pf-sync.py setfile 482261190 1085864198 1080398177`. REVIEW once synced = 12.
 - 2026-10-16 22:47 UTC builder [A]: Printful sync complete; REVIEW.
+- 2026-10-16 23:40 UTC director: REDO (product stays DRAFT). Notes:
+  1. R3.7.6 / R6.2: 'Winter Woods' is a typeset book serif (even spacing). Erase it in print-prep (the sleeping fox in the holly reads alone) or re-letter it by hand (one Recraft lettering-only generation, composed in print-prep). Check on Sand and Navy, resync, new mockups.
+  2. R6.8 / R6.9: one new cover (shows the old line now): product's Navy mockup as --design, thermos away from the print or none, hood visible.
+  3. R8.3: copy and meta describe only the new print.

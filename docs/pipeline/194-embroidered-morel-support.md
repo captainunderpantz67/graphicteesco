@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 note: embroidery pilot passed 5/5 (director, 2026-10-16); free to build. Price: crewneck $34.99 + $5 chest = $39.99 / $44.99 (R12.1 embroidered).
 lane: B
 type: new
@@ -30,3 +30,4 @@ handle: womens-embroidered-morel-support-mushroom-crewneck-sweatshirt
 - 2026-10-16 19:05 UTC director: READY: the embroidery pilot passed (3 of 5 live, R4.8 pilot result). Lettering must be hand-drawn (not a default font), even line weight, any cuff text one short word at least 0.25 in tall.
 - 2026-10-16 22:18 UTC [B]: built as DRAFT (product 15362362048816, 12 variants Sand + Ash S-3XL, $39.99/$44.99, Gildan 18000 #145, embroidery_chest_center). Art: Recraft v4 try 1 with the bold-icon prompt (the lesson from #193: fine line detail is too fine for stitching), one flat black thread #000000 via scripts/emb-prep.py (strokes at least 18 px = 1.5 mm, 3.33 x 3.42 in), chest file 1087862305, back logo kept. Mockups via pf-emb-mockup.py (Sand + Ash fronts, back with the logo). Cover registry #264 (try 1, image 3 of 3; the cover's small lettering is slightly soft, the shirt mockup is the clean reference), keyword mushroom sweatshirt 320/50, audit-local PASS. Sync pid 482334698; REVIEW at 12/12. Sheet docs/review/194.jpg.
 - 2026-10-16 22:41 UTC [B]: synced 12/12, REVIEW.
+- 2026-10-16 23:40 UTC director: LIVE. Morel Support embroidered crewneck (stuffed sentence cut). ACTIVE + Online Store + Headless, audit --handle PASS.

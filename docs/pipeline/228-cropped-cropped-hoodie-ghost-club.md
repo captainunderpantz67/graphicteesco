@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 228
@@ -25,3 +25,4 @@ handle: womens-cropped-ghost-club-cropped-hoodie
   2. Redraw frameless (one Recraft generation, max 2): the same three ghosts in sunglasses (mustard dots, orange swirls, navy stars) with GHOST CLUB arched above in hand-drawn retro letters, small stars and waves below, nothing behind them. Check the white sheet shapes print as cream ink, not blank fabric holes (R5.3.8). Copy: drop 'inside a scalloped cream badge'.
 - 2026-10-16 22:55 UTC [B]: REDO fix (round 1): redrawn frameless: Recraft v4 try 1 (three ghosts in sunglasses on plain white, GHOST CLUB arched in orange 70s bubble letters, stars + waves, no badge/panel), print-prep 3600 x 3800, Printful file 1087879144, FW 1150 TOP 0, cream sheet stripes/stars print as cream ink (checked on Black and Military Green), mockups replaced in place, copy rewritten (badge wording gone, matching tee line now says 'same three ghosts'), new cover (registry #302, image 3 of 3). Set REVIEW at 10/10. Sheet docs/review/228.jpg.
 - 2026-10-16 22:59 UTC [B]: synced 10/10, REVIEW.
+- 2026-10-16 23:40 UTC director: LIVE. Ghost Club cropped hoodie. ACTIVE + Online Store + Headless, audit --handle PASS.

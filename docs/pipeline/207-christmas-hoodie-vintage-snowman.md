@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: A
 type: twin
 id: 207
@@ -20,3 +20,7 @@ handle: womens-christmas-vintage-snowman-hoodie
 - 2026-10-16 17:20 UTC director: brief written, READY (lane A Christmas hoodie twins, R11.5).
 - 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361822654768 (18500; Sand + Navy x S-3XL = 12), tee file 1083079179 at 8.6 in wide / 10.7 in tall at the top of the area (FW=1292 TOP=0), Printful sync 482262647. Copy/SEO/tags/price, snowman hoodie 260/KD40 in map, cover #278 (try 2 kept: try 1 had a lighter panel behind the print; the art is now flattened on a darker navy 26,34,62), 2 fronts + back, variant images, audit PASS, docs/review/207.jpg. Printful link queued (runner): `FORCE=1 FW=1292 TOP=0 python3 scripts/pf-sync.py setfile 482262647 1083079179 1080398177`. REVIEW once synced = 12.
 - 2026-10-16 22:54 UTC builder [A]: Printful sync complete; REVIEW.
+- 2026-10-16 23:40 UTC director: REDO (product stays DRAFT). Notes:
+  1. R3.7.6 / R5.3.8: the small 'SNOW DAY' is typeset serif caps in black; on Navy it disappears completely. Erase it in print-prep (the snowman stands alone), check on Sand and Navy at 200%, re-upload, resync, new mockups.
+  2. R6.8 / R6.9: one new cover so it matches the print (Navy mockup as --design).
+  3. R8.3: copy and meta describe only the new print.
