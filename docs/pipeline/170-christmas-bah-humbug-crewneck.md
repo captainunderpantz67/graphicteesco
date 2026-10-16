@@ -17,3 +17,4 @@ handle: unisex-christmas-bah-humbug-crewneck-sweatshirt
 ---
 ## Log
 - 2026-10-16 14:24 UTC director: brief written, READY.
+- 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361742995760 (Gildan 18000; White, Sand, Ash, Sport Grey, Light Pink, Light Blue x S-3XL = 36), twin file 1087701705 (9.3 in wide), Printful sync 482253711. Copy/SEO/tags/price 34.99/39.99, keyword funny christmas sweatshirt 1,000/KD65 in map, cover #240 (try 2 kept: try 1 shrank the figure to a banner mark), 6 fronts + back, variant images, audit PASS, docs/review/170.jpg. Printful link queued: `FORCE=1 FW=1400 python3 scripts/pf-sync.py setfile 482253711 1087701705 1080398177`. REVIEW once synced = 36.

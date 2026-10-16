@@ -223,7 +223,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 237 | Arab-American man in his early 40s, dark short hair, trimmed beard, stocky build | RESERVED — #167 Rest Day Enthusiast cover |
 | 238 | Chinese-American man in his mid 50s, grey-streaked hair, sunglasses pushed up on his head | RESERVED — #168 Knot Today cover |
 | 239 | Filipino-American man in his late 50s, salt-and-pepper side part, reading glasses on a cord | USED 2026-10-16 — #169 Bah Humbug tee cover (fal Seedream 4, Christmas Eve living room; try 2 kept: try 1 redrew the print as a banner and a glasses cord crossed it) |
-| 240 | Pair: Black man in his early 40s, shaved head, full beard + white woman in her late 30s, auburn shoulder-length waves | RESERVED — #170 Bah Humbug crewneck cover (man + woman) |
+| 240 | Pair: Black man in his early 40s, shaved head, full beard + white woman in her late 30s, auburn shoulder-length waves | USED 2026-10-16 — #170 Bah Humbug crewneck cover (fal Seedream 4, snowy porch; try 2 kept: try 1 shrank the figure into a banner mark) |
 | 241 | Korean-American woman in her mid 30s, long dark hair in a messy bun, light freckles | RESERVED — #171 Sleighping In tee cover |
 | 242 | White woman in her early 50s, silver pixie cut, rosy cheeks | RESERVED — #172 Sleighping In crewneck cover |
 | 243 | White man in his early 30s, sandy hair, short boxed beard, lean build | RESERVED — #173 Outsmarted by a Bird cover |
