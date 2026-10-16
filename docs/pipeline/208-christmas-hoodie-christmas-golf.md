@@ -13,7 +13,7 @@ handle: womens-christmas-golf-hoodie
 - **Popularity evidence (R5.2):** Christmas Golf tee + crewneck LIVE; golf hoodie 14,800/22 is the best volume ÷ KD of any hoodie phrase measured this run; christmas golf shirt 720/27 shows the gift niche.
 - **Cover:** registry #279. Scene: a frosty golf course clubhouse patio with a wreath on the door, a golf bag leaning at her side. Real pullover hoodie with the hood visible, the blank's real color, generated with the product's own Printful mockup in that color as the `--design` reference; hands empty or at the sides, nothing over any part of the print; read every word against the art before saving (R6.7, R6.8, R6.9).
 - **Title / handle:** "Women's Christmas – Christmas Golf Hoodie" / `womens-christmas-golf-hoodie` (R7.4; handle suffix sets the audit price, R12.1).
-- **Tags:** christmas-hoodies, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
+- **Tags:** christmas-hoodies, graphic-hoodies-for-women, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
 - **Price (R12.1):** $39.99, compare-at $44.99.
 ---
 ## Log

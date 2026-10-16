@@ -13,7 +13,7 @@ handle: womens-christmas-dough-ho-ho-hoodie
 - **Popularity evidence (R5.2):** see #213.
 - **Cover:** registry #288 — woman (R6.3). Scene: a holiday bake sale table outside a small-town church hall in the snow, cookie boxes tied with string. Real pullover hoodie with the hood visible, generated with the Sand mockup as the `--design` reference; hands empty or at the sides, nothing over the print (R6.8, R6.9).
 - **Title / handle:** "Women's Christmas – Dough Ho Ho Hoodie" / `womens-christmas-dough-ho-ho-hoodie`.
-- **Tags:** christmas-hoodies, hoodie, ai-art, intake-done.
+- **Tags:** christmas-hoodies, graphic-hoodies-for-women, hoodie, ai-art, intake-done.
 - **Price (R12.1):** $39.99, compare-at $44.99.
 ---
 ## Log

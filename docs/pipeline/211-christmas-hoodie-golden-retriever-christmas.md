@@ -13,7 +13,7 @@ handle: womens-christmas-golden-retriever-christmas-hoodie
 - **Popularity evidence (R5.2):** Golden Retriever tee + crewneck LIVE (golden retriever sweatshirt 1,300/38 owned by the crewneck).
 - **Cover:** registry #284. Scene: a snowy front yard with a wreathed door, a real golden retriever sitting at her side. Real pullover hoodie with the hood visible, the blank's real color, generated with the product's own Printful mockup in that color as the `--design` reference; hands empty or at the sides, nothing over any part of the print; read every word against the art before saving (R6.7, R6.8, R6.9).
 - **Title / handle:** "Women's Christmas – Golden Retriever Christmas Hoodie" / `womens-christmas-golden-retriever-christmas-hoodie` (R7.4; handle suffix sets the audit price, R12.1).
-- **Tags:** christmas-hoodies, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
+- **Tags:** christmas-hoodies, graphic-hoodies-for-women, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
 - **Price (R12.1):** $39.99, compare-at $44.99.
 ---
 ## Log

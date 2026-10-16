@@ -13,7 +13,7 @@ handle: mens-gym-beach-body-pending-hoodie
 - **Popularity evidence (R5.2):** Beach Body Pending is a men's redo (#163); bodybuilder hoodie measured this run.
 - **Cover:** registry #303. Scene: a 70s-style outdoor muscle-beach gym in winter, palm trees and an empty bench behind him. Real hoodie of this blank with the hood visible, the blank's real color, generated with the product's own Printful mockup in that color as the `--design` reference; hands empty or at the sides, nothing over any part of the print; read every word against the art before saving (R6.7–R6.9).
 - **Title / handle:** "Men's Gym – Beach Body Pending Hoodie" / `mens-gym-beach-body-pending-hoodie` (R7.4; handle suffix sets the audit price, R12.1).
-- **Tags:** gym-hoodies, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
+- **Tags:** gym-hoodies, gym-hoodies-for-men, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
 - **Price (R12.1):** $39.99, compare-at $44.99.
 ---
 ## Log

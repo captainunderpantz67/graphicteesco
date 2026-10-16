@@ -287,4 +287,9 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 301 | White woman in her mid 20s, black curtain-bang shag, nose ring | RESERVED — #227 Night Shift hoodie (with #300) cover |
 | 302 | Chinese-American woman in her early 20s, long hair in a half-up claw clip | RESERVED — #228 Ghost Club cropped hoodie cover |
 | 303 | Samoan man in his early 30s, curly hair tied back, broad build | RESERVED — #229 Beach Body Pending hoodie cover |
-| 304 | White woman in her early 30s, long sandy-blonde braid, light tan | RESERVED — #230 Kick Up Dust hoodie cover |
+| 304 | White woman in her early 30s, long sandy-blonde braid, light tan | RESERVED — #230 Kick Up Dust camo hoodie cover |
+| 305 | White man in his mid 30s, dark brown beard, blaze-orange cap | RESERVED — #231 Opening Day camo hoodie cover |
+| 306 | Black man in his early 50s, grey goatee, bald, broad shoulders | RESERVED — #232 No Deer Today camo hoodie cover |
+| 307 | Hmong-American man in his early 30s, short spiky black hair | RESERVED — #233 Tree Sitter camo hoodie cover |
+| 308 | Greek-American man in his late 20s, dark wavy hair, trimmed beard, muscular | RESERVED — #234 Study in Hypertrophy oversized hoodie cover |
+| 309 | White man in his mid 50s, grey crew cut, sunglasses pushed up on his head | RESERVED — #235 Reel Talk half zip cover |

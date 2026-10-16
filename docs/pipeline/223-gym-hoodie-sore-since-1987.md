@@ -13,7 +13,7 @@ handle: mens-gym-sore-since-1987-hoodie
 - **Popularity evidence (R5.2):** Sore Since 1987 passed review today (#154); retro 80s gym art is a proven Etsy gym theme.
 - **Cover:** registry #296. Scene: an old-school neighborhood gym stairwell with a chalked handrail. Real pullover hoodie with the hood visible, the blank's real color, generated with the product's own Printful mockup in that color as the `--design` reference; hands empty or at the sides, nothing over any part of the print; read every word against the art before saving (R6.7, R6.8, R6.9).
 - **Title / handle:** "Men's Gym – Sore Since 1987 Hoodie" / `mens-gym-sore-since-1987-hoodie` (R7.4; handle suffix sets the audit price, R12.1).
-- **Tags:** gym-hoodies, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
+- **Tags:** gym-hoodies, gym-hoodies-for-men, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
 - **Price (R12.1):** $39.99, compare-at $44.99.
 ---
 ## Log

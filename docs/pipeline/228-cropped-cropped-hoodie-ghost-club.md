@@ -13,7 +13,7 @@ handle: womens-cropped-ghost-club-cropped-hoodie
 - **Popularity evidence (R5.2):** Ghost Club tee LIVE (retro); ghost hoodie measured this run; cropped hoodie 40,500/30 collection needs 14 (R11.5).
 - **Cover:** registry #302 — woman, college age (R6.6). Scene: a cozy campus coffee shop with fall leaves outside the window. Real hoodie of this blank with the hood visible, the blank's real color, generated with the product's own Printful mockup in that color as the `--design` reference; hands empty or at the sides, nothing over any part of the print; read every word against the art before saving (R6.7–R6.9).
 - **Title / handle:** "Women's Cropped – Ghost Club Cropped Hoodie" / `womens-cropped-ghost-club-cropped-hoodie` (R7.4; handle suffix sets the audit price, R12.1).
-- **Tags:** cropped-hoodies, cropped-sweatshirts, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
+- **Tags:** cropped-hoodies, cropped-sweatshirts, graphic-hoodies-for-women, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
 - **Price (R12.1):** $44.99, compare-at $49.99.
 ---
 ## Log

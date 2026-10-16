@@ -320,6 +320,7 @@ Goal: ChatGPT, Perplexity, Google AI Overviews / AI Mode, Gemini, Copilot and Cl
      | Oversized | $54.99 | $59.99 |
      | Cropped | $44.99 | $49.99 |
 
+   - **New blanks (director, 2026-10-16, R11.5 sweep):** camo hoodies on IND4000 camo colors use the heavyweight price ($49.99 / $54.99) with handle ending -camo-hoodie; half zip pullovers (Bella+Canvas 4740, Printful #1631, base about $39) $54.99 / $59.99 with handle ending -half-zip; oversized sweatshirts (Bella+Canvas 4711, Printful #897, base about $33) $49.99 / $54.99, handle ending -oversized-sweatshirt (audit support to add with the first one).
    - **Embroidered items:** the garment's price above + $5 for a chest piece, + $3 more for each cuff detail (covers Printful's $2.95 per placement). Same sale/regular split.
    - From Dec 1: tees $29.99, crewnecks $39.99, hoodies at their regular price above, no compare-at. The audit flips automatically.
 2. **Returns (Sam, 2026-10-16, best practice):** one free size exchange within 30 days of delivery (we print the new size; nothing to mail back); misprints/damage reprinted or refunded within 30 days. Site copy, schema (src/lib/schema.ts), Shopify refund policy and Search Console settings must all say the same thing.

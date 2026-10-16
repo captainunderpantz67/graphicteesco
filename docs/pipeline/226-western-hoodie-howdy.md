@@ -13,7 +13,7 @@ handle: womens-western-howdy-hoodie
 - **Popularity evidence (R5.2):** Howdy tee LIVE; western is a top women's Etsy theme and western-hoodies is in the cold-weather table (R11.5).
 - **Cover:** registry #299. Scene: a rodeo arena fence at sunset, cowgirl hat on, string lights over the stands. Real pullover hoodie with the hood visible, the blank's real color, generated with the product's own Printful mockup in that color as the `--design` reference; hands empty or at the sides, nothing over any part of the print; read every word against the art before saving (R6.7, R6.8, R6.9).
 - **Title / handle:** "Women's Western – Howdy Hoodie" / `womens-western-howdy-hoodie` (R7.4; handle suffix sets the audit price, R12.1).
-- **Tags:** western-hoodies, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
+- **Tags:** western-hoodies, graphic-hoodies-for-women, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
 - **Price (R12.1):** $39.99, compare-at $44.99.
 ---
 ## Log

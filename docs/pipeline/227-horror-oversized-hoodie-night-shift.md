@@ -13,7 +13,7 @@ handle: unisex-horror-night-shift-oversized-hoodie
 - **Popularity evidence (R5.2):** Night Shift tee LIVE; horror movie hoodie measured this run; oversized hoodie 165,000/38 is the biggest cold-weather collection (R11.5).
 - **Cover:** registry #300 + #301 — man AND woman together, alt starts "Man and woman …" (R6.3). Scene: outside an old neon-lit small-town movie theater at night, popcorn bags held at the side. Real hoodie of this blank with the hood visible, the blank's real color, generated with the product's own Printful mockup in that color as the `--design` reference; hands empty or at the sides, nothing over any part of the print; read every word against the art before saving (R6.7–R6.9).
 - **Title / handle:** "Unisex Horror – Night Shift Oversized Hoodie" / `unisex-horror-night-shift-oversized-hoodie` (R7.4; handle suffix sets the audit price, R12.1).
-- **Tags:** oversized-hoodies, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
+- **Tags:** oversized-hoodies, oversized-hoodies-for-men, graphic-hoodies-for-women, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
 - **Price (R12.1):** $54.99, compare-at $59.99.
 ---
 ## Log

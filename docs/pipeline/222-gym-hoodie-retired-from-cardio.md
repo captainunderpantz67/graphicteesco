@@ -13,7 +13,7 @@ handle: mens-gym-retired-from-cardio-hoodie
 - **Popularity evidence (R5.2):** Retired From Cardio passed review today (#153); funny gym shirts 3,600/37 is a measured anchor (R3.6).
 - **Cover:** registry #295. Scene: a garage gym at dawn with a squat rack and plates behind him. Real pullover hoodie with the hood visible, the blank's real color, generated with the product's own Printful mockup in that color as the `--design` reference; hands empty or at the sides, nothing over any part of the print; read every word against the art before saving (R6.7, R6.8, R6.9).
 - **Title / handle:** "Men's Gym – Retired From Cardio Hoodie" / `mens-gym-retired-from-cardio-hoodie` (R7.4; handle suffix sets the audit price, R12.1).
-- **Tags:** gym-hoodies, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
+- **Tags:** gym-hoodies, gym-hoodies-for-men, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
 - **Price (R12.1):** $39.99, compare-at $44.99.
 ---
 ## Log

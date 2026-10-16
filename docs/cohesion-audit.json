@@ -1,14 +1,7 @@
 {
- "at": "2026-10-16T18:27:55.894Z",
+ "at": "2026-10-16T18:34:51.001Z",
  "products": 184,
  "findings": [
-  {
-   "level": "WARN",
-   "handle": "mens-fishing-sunrise-strike-graphic-tee",
-   "title": "Men's Fishing – Sunrise Strike Tee",
-   "msg": "Cover alt text doesn't say who is in the photo.",
-   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
-  },
   {
    "level": "WARN",
    "handle": "unisex-halloween-midnight-feature-graphic-tee",

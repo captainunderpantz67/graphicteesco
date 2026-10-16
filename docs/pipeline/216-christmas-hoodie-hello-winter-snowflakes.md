@@ -13,7 +13,7 @@ handle: womens-christmas-hello-winter-snowflakes-hoodie
 - **Popularity evidence (R5.2):** Hello Winter tee LIVE; winter sweatshirt 2,900/55 is owned by the tee line.
 - **Cover:** registry #289. Scene: a snowy small-town sidewalk at dusk with string lights, mittens in hand at her side. Real pullover hoodie with the hood visible, the blank's real color, generated with the product's own Printful mockup in that color as the `--design` reference; hands empty or at the sides, nothing over any part of the print; read every word against the art before saving (R6.7, R6.8, R6.9).
 - **Title / handle:** "Women's Christmas – Hello Winter Snowflakes Hoodie" / `womens-christmas-hello-winter-snowflakes-hoodie` (R7.4; handle suffix sets the audit price, R12.1).
-- **Tags:** christmas-hoodies, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
+- **Tags:** christmas-hoodies, graphic-hoodies-for-women, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
 - **Price (R12.1):** $39.99, compare-at $44.99.
 ---
 ## Log

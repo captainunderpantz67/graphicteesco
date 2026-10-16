@@ -13,7 +13,7 @@ handle: mens-fishing-casting-doubt-zip-hoodie
 - **Popularity evidence (R5.2):** Casting Doubt is a live men's redo design; zip-up hoodie 135,000/28 is the biggest cold-weather collection (R11.5).
 - **Cover:** registry #298. Scene: a mountain trout stream at first light, fly rod leaning on a boulder beside him, back to the camera so the back print shows. Real zip-up hooded sweatshirt with the hood visible, the blank's real color, generated with the product's own Printful mockup in that color as the `--design` reference; hands empty or at the sides, nothing over any part of the print; read every word against the art before saving (R6.7, R6.8, R6.9).
 - **Title / handle:** "Men's Fishing – Casting Doubt Zip Hoodie" / `mens-fishing-casting-doubt-zip-hoodie` (R7.4; handle suffix sets the audit price, R12.1).
-- **Tags:** zip-up-hoodies, fishing-hoodies, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
+- **Tags:** zip-up-hoodies, zip-up-hoodies-for-men, fishing-hoodies, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
 - **Price (R12.1):** $44.99, compare-at $49.99.
 ---
 ## Log

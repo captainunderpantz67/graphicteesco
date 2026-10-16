@@ -13,7 +13,7 @@ handle: unisex-christmas-mountain-christmas-bear-hoodie
 - **Popularity evidence (R5.2):** Mountain Christmas Bear tee + crewneck LIVE; bear sweatshirt 8,100/40 is owned by the crewneck, so the hoodie takes the hoodie phrase.
 - **Cover:** registry #280 + #281 — man AND woman together, alt starts "Man and woman …" (R6.3). Scene: a snowy mountain cabin porch with a wreath and pines behind them. Real pullover hoodie with the hood visible, the blank's real color, generated with the product's own Printful mockup in that color as the `--design` reference; hands empty or at the sides, nothing over any part of the print; read every word against the art before saving (R6.7, R6.8, R6.9).
 - **Title / handle:** "Unisex Christmas – Mountain Christmas Bear Hoodie" / `unisex-christmas-mountain-christmas-bear-hoodie` (R7.4; handle suffix sets the audit price, R12.1).
-- **Tags:** christmas-hoodies, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
+- **Tags:** christmas-hoodies, graphic-hoodies-for-women, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
 - **Price (R12.1):** $39.99, compare-at $44.99.
 ---
 ## Log

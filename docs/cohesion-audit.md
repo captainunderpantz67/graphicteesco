@@ -1,15 +1,12 @@
-# Cohesion audit — 2026-10-16 18:27 UTC
+# Cohesion audit — 2026-10-16 18:34 UTC
 
-184 live products checked · **0 errors** · 8 warnings · 8 products with findings
+184 live products checked · **0 errors** · 7 warnings · 7 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
 
 ## By product (errors first)
-### Men's Fishing – Sunrise Strike Tee `mens-fishing-sunrise-strike-graphic-tee`
-- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
-
 ### Unisex Halloween – Midnight Feature Tee `unisex-halloween-midnight-feature-graphic-tee`
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
 
