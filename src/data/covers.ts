@@ -198,6 +198,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-christian-embroidered-rooted-in-jesus-hoodie': { src: '/covers/womens-christian-embroidered-rooted-in-jesus-hoodie.webp', alt: 'Woman holding a small Bible on the steps of a white country church on a fall Sunday morning, wearing the Rooted in Jesus embroidered hoodie in sand' },
   'womens-christmas-sleighping-in-crewneck-sweatshirt': { src: '/covers/womens-christmas-sleighping-in-crewneck-sweatshirt.webp', alt: 'Woman with a silver pixie cut smiling on a cabin window seat on a snowy morning with a quilt over her knees and cocoa beside her, wearing the light grey Sleighping In crewneck sweatshirt' },
   'womens-embroidered-bow-before-me-cropped-hoodie': { src: '/covers/womens-embroidered-bow-before-me-cropped-hoodie.webp', alt: 'Woman raising an iced coffee at a campus coffee shop window in fall, wearing the Bow Before Me embroidered cropped hoodie in black with a pink stitched bow' },
+  'womens-christmas-winter-skate-club-penguins-hoodie': { src: '/covers/womens-christmas-winter-skate-club-penguins-hoodie.webp', alt: 'Woman with a chin-length bob and blunt bangs smiling at an outdoor ice rink at dusk under string lights, holding cocoa and wearing the sand Winter Skate Club Penguins hoodie' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

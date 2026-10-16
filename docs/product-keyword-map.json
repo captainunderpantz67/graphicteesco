@@ -3229,6 +3229,19 @@
    ],
    "gaps_measured": [],
    "measured": "bow hoodie 2,400/KD38; embroidered hoodie 14,800/KD49 (RankHero 2026-10-16)"
+  },
+  "womens-christmas-winter-skate-club-penguins-hoodie": {
+   "claimed": [
+    "penguin hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "penguin hoodie",
+     "volume": 1900,
+     "kd": 20
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
