@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""hoodie-spec.py <out.json> <title> <handle> <slug> "<primary keyword>" "<seo title>" "<seo description>" "<hook line>" "<art paragraph>" "<wear paragraph>" "<q1|a1>" "<q2|a2>" [colors=Sand,Sport Grey]
+"""hoodie-spec.py <out.json> <title> <handle> <slug> "<primary keyword>" "<seo title>" "<seo description>" "<hook line>" "<art paragraph>" "<wear paragraph>" "<q1|a1>" "<q2|a2>" (or one "<q1|a1#q2|a2>") [colors=Sand,Sport Grey]
 Builds the standard Pullover Gildan 18500 (#146) spec (S-3XL, $39.99/$44.99, tags christmas-hoodies + hoodie) for scripts/mkvars.py."""
 import json, sys
-o, title, handle, slug, kw, st, sd, hook, art, wear, q1, q2 = sys.argv[1:13]
-cols = sys.argv[13].split(',') if len(sys.argv) > 13 else ['Sand', 'Sport Grey']
+A = sys.argv[1:]; qs_in = A[10].split('#') if '#' in A[10] else A[10:12]
+o, title, handle, slug, kw, st, sd, hook, art, wear = A[:10]; q1, q2 = qs_in
+nxt = 11 if '#' in A[10] else 12
+cols = A[nxt].split(',') if len(A) > nxt else ['Sand', 'Sport Grey']
 qs = ''.join(f"<p><strong>{q.split('|')[0]}</strong><br>{q.split('|')[1]}</p>" for q in (q1, q2))
 size_q = f"<p><strong>How does it fit?</strong><br>It is a classic unisex cut in S through 3XL. Order your usual size, or go up one for a roomier fit over layers.</p>"
 h = (f"<h3>The Story</h3>\n<p>{hook}</p>\n<p>{art}</p>\n<p>{wear} Original art, made for Graphic Tees Co. and printed the day you order it.</p>\n"
