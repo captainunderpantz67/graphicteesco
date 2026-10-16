@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16T10:46Z
+status: REVIEW
 lane: B
 type: redo
 id: 152
@@ -20,3 +20,4 @@ handle: mens-gym-plate-club-graphic-tee
 ---
 ## Log
 - 2026-10-16 08:50 UTC director: redo brief written, READY.
+- 2026-10-16 12:56 UTC [B]: REDO built: new Recraft art (CLEAN PLATE CLUB, plates on china), print file 1087554531 synced to all 80 variants (11 in wide, top 0), 10 front mockups + back swapped in place (variant images stay linked), new cover #222 (attempt 2; attempt 1 garbled PLATE), copy line one + art details fixed (no steam). Sheet docs/review/152.jpg.

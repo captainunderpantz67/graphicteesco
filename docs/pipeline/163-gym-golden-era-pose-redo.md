@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16T10:58Z
+status: PARKED
 lane: B
 type: redo
 id: 163
@@ -20,3 +20,4 @@ handle: mens-gym-golden-era-pose-graphic-tee
 ---
 ## Log
 - 2026-10-16 10:24 UTC director: brief written, READY.
+- 2026-10-16 12:53 UTC [B]: fal.ai account locked (TOP_UP) after art + cover attempt 1/2 failed print-fidelity (cover redrew/boxed the print); needs fal top-up for a new cover. Fresh art is lost with the container; regenerate on resume. Product untouched (still old art live). Alert sent to Sam.

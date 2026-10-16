@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16T10:46Z
+status: PARKED
 lane: B
 type: redo
 id: 155
@@ -20,3 +20,4 @@ handle: mens-fishing-sunrise-strike-graphic-tee
 ---
 ## Log
 - 2026-10-16 08:50 UTC director: redo brief written, READY.
+- 2026-10-16 12:53 UTC [B]: fal.ai account locked (TOP_UP) after art + cover attempt 1/2 failed print-fidelity (cover redrew/boxed the print); needs fal top-up for a new cover. Fresh art is lost with the container; regenerate on resume. Product untouched (still old art live). Alert sent to Sam.
