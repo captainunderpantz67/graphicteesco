@@ -1,0 +1,502 @@
+---
+// The fill-in-the-blanks configurator. Server renders the shell and the example shirt (no blank shirt, no
+// layout shift); the script below runs the one-question-per-step flow, the live preview, the photo upload,
+// the "Does this look right?" check and the add-to-cart. Templates and blanks are data (src/data/configurator).
+import type { CustomPage } from '../../data/configurator/pages';
+import type { CustomVariant } from '../../lib/configurator/storefront';
+import { templateById } from '../../data/configurator/templates';
+import { blanks } from '../../data/configurator/blanks';
+import { renderDesign } from '../../lib/configurator/render';
+import { shirtSvg } from '../../lib/configurator/preview';
+import { SAMPLE_IMAGES } from '../../lib/configurator/samples';
+
+interface Props { page: CustomPage; variants: CustomVariant[]; price: string; compareAt: string | null }
+const { page, variants, price, compareAt } = Astro.props;
+const template = templateById(page.example.template)!;
+const blank = blanks.find((b) => b.id === page.example.blank)!;
+const shirt = blank.colors.find((c) => c.name === page.example.shirtColor)!;
+const example = renderDesign(page.example, { template, blank, imageHref: (id) => SAMPLE_IMAGES[id] ?? id });
+const fmt = (n: string) => `$${Number(n).toFixed(2)}`;
+const config = {
+  pageSlug: page.slug, templates: page.templates, example: page.example, blank: blank.id,
+  variants: variants.map((v) => ({ id: v.id, sku: v.sku, color: v.color, size: v.size, available: v.available })),
+  price: fmt(price), priceRaw: price,
+};
+---
+<section class="container-x mt-8" data-configurator data-config={JSON.stringify(config)} aria-label="Design your shirt">
+  <div class="grid lg:grid-cols-[1fr_1fr] gap-6 lg:gap-12 items-start">
+    <!-- PREVIEW: fixed-ratio box so nothing jumps while she types -->
+    <div class="lg:sticky lg:top-24">
+      <div class="relative rounded-[20px] border-2 border-[var(--color-ink)] bg-white overflow-hidden" style="aspect-ratio: 6 / 7;">
+        <div data-preview class="absolute inset-0 p-3 [&_svg]:w-full [&_svg]:h-full" set:html={shirtSvg(example.front, shirt.hex, { label: 'Front of your shirt' })} />
+        <div class="absolute left-3 top-3 flex rounded-full border-2 border-[var(--color-ink)] bg-[var(--color-cream)] text-xs font-extrabold uppercase tracking-[.1em] overflow-hidden" role="group" aria-label="Which side to show">
+          <button type="button" data-side="front" aria-pressed="true" class="px-3 py-2 aria-pressed:bg-[var(--color-ink)] aria-pressed:text-[var(--color-cream)]">Front</button>
+          <button type="button" data-side="back" aria-pressed="false" class="px-3 py-2 aria-pressed:bg-[var(--color-ink)] aria-pressed:text-[var(--color-cream)]">Back</button>
+        </div>
+        <p data-preview-note class="absolute right-3 bottom-3 max-w-[70%] text-right text-[11px] font-semibold text-[var(--color-ink-2)] bg-[var(--color-cream)]/90 rounded-lg px-2 py-1" hidden></p>
+      </div>
+      <p class="mt-2 text-xs text-[var(--color-ink-2)]">The preview is made from the same file we print. Long names shrink to fit on their own.</p>
+    </div>
+
+    <!-- STEP CARD -->
+    <div class="min-w-0">
+      <div class="flex items-baseline justify-between gap-4">
+        <p class="text-2xl font-bold">{fmt(price)}{compareAt && Number(compareAt) > Number(price) && <s class="ml-2 text-lg font-normal text-[var(--color-ink-2)]">{fmt(compareAt)}</s>} <span class="text-sm font-semibold text-[var(--color-ink-2)]">per shirt</span></p>
+        <p data-progress class="text-xs font-extrabold uppercase tracking-[.14em] text-[var(--color-ink-2)]">Step 1</p>
+      </div>
+      <div data-card class="mt-3 rounded-2xl border-2 border-[var(--color-ink)] bg-[var(--color-cream)] p-5 md:p-6 grid gap-5 min-h-[420px] content-start" aria-live="polite">
+        <noscript><p>Turn on JavaScript to design your shirt.</p></noscript>
+        <p class="text-[var(--color-ink-2)]">Loading your design…</p>
+      </div>
+      <p data-status class="mt-3 text-sm font-semibold text-[var(--color-ink-2)] min-h-[1.5rem]" role="status" aria-live="polite"></p>
+    </div>
+  </div>
+</section>
+
+<style is:global>
+  /* Configurator controls: big tap targets, visible focus, no layout shift */
+  .cfg-q { font-size: 1.45rem; line-height: 1.2; font-weight: 800; letter-spacing: -.01em; }
+  .cfg-help { color: var(--color-ink-2); font-size: .95rem; }
+  .cfg-input { width: 100%; min-height: 60px; border: 2px solid var(--color-ink); border-radius: 14px; background: #fff; padding: .7rem 1rem; font-size: 1.5rem; font-weight: 700; }
+  .cfg-input:focus-visible { outline: 3px solid var(--color-mustard); outline-offset: 2px; }
+  .cfg-input[aria-invalid="true"] { border-color: var(--color-rust); }
+  .cfg-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .6rem; }
+  .cfg-tile { display: flex; align-items: center; gap: .7rem; min-height: 60px; padding: .7rem .9rem; border: 2px solid var(--color-ink); border-radius: 14px; background: #fff; font-weight: 700; cursor: pointer; text-align: left; }
+  .cfg-tile svg { width: 28px; height: 28px; flex: none; }
+  .cfg-tile[aria-pressed="true"], .cfg-tile.is-on { background: var(--color-ink); color: var(--color-cream); }
+  .cfg-tile:focus-visible { outline: 3px solid var(--color-mustard); outline-offset: 2px; }
+  .cfg-swatches { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .6rem; }
+  @media (min-width: 480px) { .cfg-swatches { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
+  .cfg-swatch { position: relative; display: grid; place-items: center; aspect-ratio: 1; border-radius: 999px; border: 2px solid rgba(0,0,0,.18); cursor: pointer; min-width: 52px; }
+  .cfg-swatch:focus-visible { outline: 3px solid var(--color-mustard); outline-offset: 3px; }
+  .cfg-swatch .n { position: absolute; right: -4px; top: -4px; width: 24px; height: 24px; border-radius: 999px; background: var(--color-ink); color: var(--color-cream); font-size: 12px; font-weight: 800; display: grid; place-items: center; border: 2px solid var(--color-cream); }
+  .cfg-swatch[aria-pressed="true"] { box-shadow: 0 0 0 3px var(--color-cream), 0 0 0 6px var(--color-ink); }
+  .cfg-sizes { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .5rem; }
+  .cfg-size { min-height: 52px; border: 2px solid var(--color-ink); border-radius: 12px; background: #fff; font-weight: 800; cursor: pointer; }
+  .cfg-size[aria-pressed="true"] { background: var(--color-ink); color: var(--color-cream); }
+  .cfg-size:focus-visible { outline: 3px solid var(--color-mustard); outline-offset: 2px; }
+  .cfg-size[disabled] { opacity: .35; cursor: not-allowed; }
+  .cfg-err { color: var(--color-rust-2); font-weight: 700; font-size: .95rem; min-height: 1.4rem; }
+  .cfg-actions { display: grid; gap: .6rem; margin-top: .25rem; }
+  .cfg-back { justify-self: start; font-weight: 700; text-decoration: underline; text-underline-offset: 4px; min-height: 44px; padding: .5rem 0; }
+  .cfg-row { display: grid; grid-template-columns: 1fr 5.5rem auto; gap: .5rem; align-items: start; }
+  .cfg-row .cfg-input { font-size: 1.2rem; min-height: 56px; }
+  .cfg-x { min-width: 44px; min-height: 56px; font-size: 1.4rem; font-weight: 800; color: var(--color-ink-2); }
+  .cfg-chip { display: inline-flex; align-items: center; min-height: 44px; padding: .4rem 1rem; border-radius: 999px; border: 2px solid var(--color-ink); background: #fff; font-weight: 700; font-size: .9rem; cursor: pointer; }
+  .cfg-chip[aria-pressed="true"] { background: var(--color-rust); border-color: var(--color-rust); color: #fff; }
+  .cfg-chip:focus-visible { outline: 3px solid var(--color-mustard); outline-offset: 2px; }
+  .cfg-check { display: flex; gap: .8rem; align-items: flex-start; padding: 1rem; border: 2px solid var(--color-ink); border-radius: 14px; background: #fff; cursor: pointer; font-weight: 700; }
+  .cfg-check input { width: 26px; height: 26px; flex: none; accent-color: var(--color-rust); margin-top: 2px; }
+  .cfg-proof { display: grid; grid-template-columns: 1fr 1fr; gap: .6rem; }
+  .cfg-proof img { width: 100%; aspect-ratio: 1; object-fit: contain; border-radius: 12px; border: 1px solid var(--color-line); }
+  .cfg-readback { display: grid; gap: .35rem; font-size: .95rem; }
+  .cfg-readback dt { font-weight: 800; font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--color-ink-2); }
+  .cfg-readback dd { margin: 0 0 .4rem; font-size: 1.05rem; }
+  .cfg-spin { display: inline-block; width: 18px; height: 18px; border: 3px solid var(--color-line); border-top-color: var(--color-rust); border-radius: 999px; animation: spin .8s linear infinite; vertical-align: -4px; margin-right: .4rem; }
+</style>
+
+<script>
+  import { templateById } from '../../data/configurator/templates';
+  import { blanks } from '../../data/configurator/blanks';
+  import { sportByValue } from '../../data/configurator/sports';
+  import { TEAM_COLORS, colorName } from '../../lib/configurator/colors';
+  import { renderDesign } from '../../lib/configurator/render';
+  import { shirtSvg } from '../../lib/configurator/preview';
+  import { validateDesign, cleanText } from '../../lib/configurator/validate';
+  import { SAMPLE_IMAGES } from '../../lib/configurator/samples';
+  import { addCustomLines, cartEnabled } from '../../lib/configurator/cart';
+  import { MAX_STYLE_RUNS } from '../../lib/configurator/pricing';
+  import type { DesignInput, Side, Step, Template } from '../../lib/configurator/types';
+
+  const root = document.querySelector<HTMLElement>('[data-configurator]');
+  if (root) {
+    const cfg = JSON.parse(root.dataset.config!) as { pageSlug: string; templates: string[]; example: DesignInput; blank: string; variants: { id: string; sku: string; color: string; size: string; available: boolean }[]; price: string; priceRaw: string };
+    const blank = blanks.find((b) => b.id === cfg.blank)!;
+    const card = root.querySelector<HTMLElement>('[data-card]')!;
+    const previewEl = root.querySelector<HTMLElement>('[data-preview]')!;
+    const noteEl = root.querySelector<HTMLElement>('[data-preview-note]')!;
+    const statusEl = root.querySelector<HTMLElement>('[data-status]')!;
+    const progressEl = root.querySelector<HTMLElement>('[data-progress]')!;
+    const esc = (s: string) => s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!);
+
+    // ---- state ----
+    interface Player { name: string; number: string; size: string }
+    interface Photo { uploadId: string; assetId: string; previewUrl: string; style: string; runsLeft: number; cache: Record<string, { assetId: string; previewUrl: string }> }
+    let template: Template = templateById(cfg.example.template)!;
+    let answers: Record<string, string> = { ...cfg.example.answers };
+    let players: Player[] = answers.playerName ? [{ name: '', number: '', size: '' }] : [];
+    let colors = { ...cfg.example.colors };
+    let shirtColor = cfg.example.shirtColor;
+    let size = '';
+    let photo: Photo | null = null;
+    let side: Side = 'front';
+    let stepIndex = 0;
+    let activePlayer = 0;
+    let busy = false;
+    // The example only seeds the preview; her own answers start empty.
+    const exampleAnswers = { ...answers };
+    for (const k of Object.keys(answers)) if (!['sport', 'style'].includes(k)) delete answers[k];
+    if (template.id !== 'photo-bootleg') delete answers.style;
+    const exampleColors = { ...colors };
+
+    type StepDef = { kind: 'template' } | { kind: 'step'; step: Step } | { kind: 'shirt' } | { kind: 'size' } | { kind: 'review' } | { kind: 'done' };
+    const steps = (): StepDef[] => [
+      ...(cfg.templates.length > 1 ? [{ kind: 'template' } as StepDef] : []),
+      ...template.steps.map((step) => ({ kind: 'step', step }) as StepDef),
+      { kind: 'shirt' }, { kind: 'size' }, { kind: 'review' }, { kind: 'done' },
+    ];
+
+    // ---- preview ----
+    const previewImage = (id: string) => SAMPLE_IMAGES[id] ?? (photo && photo.assetId === id ? photo.previewUrl : `/api/custom/asset/${id}`);
+    const hasOwnContent = () => Object.keys(answers).some((k) => !['sport', 'style'].includes(k) && answers[k]) || players.some((p) => p.name);
+    function currentDesign(forPlayer = activePlayer): DesignInput {
+      const p = players[forPlayer];
+      const a: Record<string, string> = { ...answers };
+      if (template.perShirt.length) { a.playerName = cleanText(p?.name, true); a.playerNumber = cleanText(p?.number, true); }
+      for (const s of template.steps) if (s.type === 'text') a[s.key] = cleanText(a[s.key], !!s.upper);
+      if (photo) a.photo = photo.assetId;
+      // Before she has typed anything, show the example so the shirt is never blank.
+      const own = hasOwnContent() || photo;
+      return { template: template.id, blank: blank.id, shirtColor, size: p?.size || size || 'M', colors: own ? colors : exampleColors, answers: own ? a : { ...exampleAnswers, ...(answers.sport ? { sport: answers.sport } : {}), ...(a.style ? { style: a.style } : {}) } };
+    }
+    function paint() {
+      const d = currentDesign();
+      const r = renderDesign(d, { template, blank, imageHref: previewImage });
+      const shirt = blank.colors.find((c) => c.name === shirtColor)!;
+      const s = side === 'back' && r.back.empty ? r.front : r[side];
+      previewEl.innerHTML = shirtSvg(s, shirt.hex, { label: `${s.side === 'back' ? 'Back' : 'Front'} of your shirt` });
+      root!.querySelectorAll<HTMLButtonElement>('[data-side]').forEach((b) => { b.setAttribute('aria-pressed', String(b.dataset.side === s.side)); b.disabled = b.dataset.side === 'back' && r.back.empty; });
+      noteEl.hidden = !r.inks.note || !hasOwnContent();
+      noteEl.textContent = r.inks.note;
+    }
+    root.querySelectorAll<HTMLButtonElement>('[data-side]').forEach((b) => b.addEventListener('click', () => { side = b.dataset.side as Side; paint(); }));
+
+    // ---- helpers ----
+    const setStatus = (msg: string, spinning = false) => { statusEl.innerHTML = (spinning ? '<span class="cfg-spin" aria-hidden="true"></span>' : '') + esc(msg); };
+    const setError = (msg: string) => { const e = card.querySelector('[data-err]'); if (e) e.textContent = msg; };
+    const sizesFor = (color: string) => Object.keys(blank.colors.find((c) => c.name === color)?.sizes ?? {});
+    const variantFor = (color: string, sz: string) => cfg.variants.find((v) => v.color === color && v.size === sz);
+    const frame = (q: string, help: string | undefined, control: string, next = 'Next', showBack = true) => `
+      <h2 class="cfg-q">${esc(q)}</h2>${help ? `<p class="cfg-help">${esc(help)}</p>` : ''}
+      <div data-control class="grid gap-3">${control}</div>
+      <p data-err class="cfg-err" role="alert"></p>
+      <div class="cfg-actions">
+        <button type="button" data-next class="btn btn-rust w-full !py-4 !text-sm">${esc(next)}</button>
+        ${showBack ? '<button type="button" data-back class="cfg-back">← Back</button>' : ''}
+      </div>`;
+
+    // ---- step renderers ----
+    function renderTemplatePicker() {
+      card.innerHTML = frame('Pick a design', 'You fill in the blanks; the design takes care of itself.', cfg.templates.map((id) => { const t = templateById(id)!; return `<button type="button" class="cfg-tile" data-pick="${id}" aria-pressed="${t.id === template.id}"><span><span class="block">${esc(t.name)}</span><span class="block text-sm font-medium opacity-80">${esc(t.blurb)}</span></span></button>`; }).join(''), 'Next', false);
+      card.querySelectorAll<HTMLButtonElement>('[data-pick]').forEach((b) => b.addEventListener('click', () => {
+        template = templateById(b.dataset.pick!)!;
+        players = template.perShirt.length ? players.length ? players : [{ name: '', number: '', size: '' }] : [];
+        card.querySelectorAll('[data-pick]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+        paint();
+      }));
+    }
+    function renderChoice(step: Extract<Step, { type: 'choice' }>) {
+      card.innerHTML = frame(step.question, step.help, `<div class="cfg-grid" role="group" aria-label="${esc(step.label)}">${step.options.map((o) => `<button type="button" class="cfg-tile" data-opt="${esc(o.value)}" aria-pressed="${answers[step.key] === o.value}">${step.key === 'sport' ? sportByValue(o.value)?.icon ?? '' : ''}<span>${esc(o.label)}</span></button>`).join('')}</div>`);
+      card.querySelectorAll<HTMLButtonElement>('[data-opt]').forEach((b) => b.addEventListener('click', () => {
+        answers[step.key] = b.dataset.opt!;
+        card.querySelectorAll('[data-opt]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+        setError(''); paint();
+      }));
+    }
+    function renderText(step: Extract<Step, { type: 'text' }>) {
+      const id = `cfg-${step.key}`;
+      card.innerHTML = frame(step.question, step.help, `<label for="${id}" class="sr-only">${esc(step.label)}</label><input id="${id}" class="cfg-input" type="text" inputmode="text" autocomplete="off" ${step.upper ? 'autocapitalize="characters" style="text-transform:uppercase"' : ''} maxlength="${step.max}" placeholder="${esc(step.placeholder ?? '')}" value="${esc(answers[step.key] ?? '')}" enterkeyhint="next"><p class="text-xs text-[var(--color-ink-2)]"><span data-count>${(answers[step.key] ?? '').length}</span>/${step.max}</p>`, step.optional && !answers[step.key] ? 'Skip' : 'Next');
+      const input = card.querySelector<HTMLInputElement>('input')!;
+      input.addEventListener('input', () => {
+        answers[step.key] = input.value;
+        card.querySelector('[data-count]')!.textContent = String(input.value.length);
+        card.querySelector('[data-next]')!.textContent = step.optional && !input.value.trim() ? 'Skip' : 'Next';
+        setError(''); paint();
+      });
+      input.addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); go(1); } });
+      setTimeout(() => input.focus({ preventScroll: true }), 50);
+    }
+    function renderPlayers(step: Extract<Step, { type: 'players' }>) {
+      if (!players.length && step.min > 0) players = [{ name: '', number: '', size: '' }];
+      const rows = players.map((p, i) => `
+        <div class="cfg-row" data-row="${i}">
+          <div><label class="sr-only" for="pn${i}">Player ${i + 1} name</label><input id="pn${i}" class="cfg-input" type="text" autocapitalize="characters" style="text-transform:uppercase" autocomplete="off" maxlength="14" placeholder="Name" value="${esc(p.name)}" data-f="name"></div>
+          ${step.number ? `<div><label class="sr-only" for="pm${i}">Player ${i + 1} number</label><input id="pm${i}" class="cfg-input" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="3" placeholder="#" value="${esc(p.number)}" data-f="number"></div>` : '<div></div>'}
+          <button type="button" class="cfg-x" data-remove="${i}" aria-label="Remove player ${i + 1}" ${players.length <= step.min ? 'hidden' : ''}>×</button>
+        </div>`).join('');
+      card.innerHTML = frame(step.question, step.help, `<div class="grid gap-2" data-rows>${rows || '<p class="cfg-help">No names on the back.</p>'}</div>${players.length < step.max ? '<button type="button" data-add class="cfg-chip justify-self-start">+ Add another player</button>' : ''}`, players.length || step.min ? 'Next' : 'Skip');
+      side = 'back';
+      card.querySelectorAll<HTMLInputElement>('[data-row] input').forEach((inp) => {
+        const i = Number(inp.closest<HTMLElement>('[data-row]')!.dataset.row);
+        inp.addEventListener('focus', () => { activePlayer = i; paint(); });
+        inp.addEventListener('input', () => { (players[i] as any)[inp.dataset.f!] = inp.value; activePlayer = i; setError(''); paint(); });
+        inp.addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); go(1); } });
+      });
+      card.querySelector('[data-add]')?.addEventListener('click', () => { players.push({ name: '', number: '', size: '' }); renderPlayers(step); setTimeout(() => card.querySelector<HTMLInputElement>(`#pn${players.length - 1}`)?.focus(), 30); });
+      card.querySelectorAll<HTMLButtonElement>('[data-remove]').forEach((b) => b.addEventListener('click', () => { players.splice(Number(b.dataset.remove), 1); activePlayer = 0; renderPlayers(step); }));
+      if (!players.length) paint();
+    }
+    function renderColors(step: Extract<Step, { type: 'colors' }>) {
+      const picked = () => [colors.primary, colors.secondary].filter(Boolean);
+      const draw = () => TEAM_COLORS.map((c) => { const n = picked().indexOf(c.hex) + 1; return `<button type="button" class="cfg-swatch" data-hex="${c.hex}" style="background:${c.hex}" aria-label="${esc(c.name)}${n ? `, color ${n}` : ''}" aria-pressed="${n > 0}" title="${esc(c.name)}">${n ? `<span class="n">${n}</span>` : ''}</button>`; }).join('');
+      card.innerHTML = frame(step.question, step.help, `<div class="cfg-swatches" role="group" aria-label="Team colors">${draw()}</div><p class="cfg-help" data-colors-text></p>`);
+      const text = () => { const el = card.querySelector('[data-colors-text]')!; el.textContent = colors.primary && colors.secondary ? `Letters: ${colorName(colors.primary)}. Outline: ${colorName(colors.secondary)}.` : colors.primary ? `Letters: ${colorName(colors.primary)}. Now tap the outline color.` : 'Tap the letter color first.'; };
+      const bind = () => card.querySelectorAll<HTMLButtonElement>('[data-hex]').forEach((b) => b.addEventListener('click', () => {
+        const hex = b.dataset.hex!;
+        if (colors.primary === hex) colors = { primary: colors.secondary, secondary: '' };
+        else if (colors.secondary === hex) colors.secondary = '';
+        else if (!colors.primary) colors.primary = hex;
+        else if (!colors.secondary) colors.secondary = hex;
+        else colors = { primary: colors.secondary, secondary: hex };
+        card.querySelector('.cfg-swatches')!.innerHTML = draw(); bind(); text(); setError(''); paint();
+      }));
+      bind(); text();
+    }
+    function renderPhoto(step: Extract<Step, { type: 'photo' }>) {
+      const style = answers.style ?? 'none';
+      const styles = step.styles.map((s) => `<button type="button" class="cfg-chip" data-style="${s.value}" aria-pressed="${style === s.value}" title="${esc(s.blurb)}">${esc(s.label)}</button>`).join('');
+      card.innerHTML = frame(step.question, step.help, `
+        <label class="btn w-full !py-4 !text-sm cursor-pointer"><input type="file" accept="image/*" class="sr-only" data-file>${photo ? 'Pick a different photo' : 'Pick a photo'}</label>
+        <p class="cfg-help" data-photo-state>${photo ? 'Background removed. Pick a look:' : 'From your camera roll. We take the background out.'}</p>
+        <div class="flex flex-wrap gap-2" data-styles ${photo ? '' : 'hidden'}>${styles}</div>
+        <div class="flex flex-wrap items-center gap-3" data-regen ${photo && style !== 'none' ? '' : 'hidden'}><button type="button" class="cfg-chip" data-again>Try another version</button><span class="text-sm text-[var(--color-ink-2)]" data-runs></span></div>
+        <div data-blur hidden class="grid gap-2 rounded-xl border-2 border-[var(--color-mustard)] bg-white p-3"><p class="font-bold">This photo looks a little blurry.</p><p class="cfg-help">It may print soft. Use it anyway, or pick a sharper one.</p><div class="flex gap-2"><button type="button" class="cfg-chip" data-blur-ok>Use it anyway</button><button type="button" class="cfg-chip" data-blur-no>Pick another</button></div></div>`,
+        photo ? 'Next' : step.optional ? 'Skip' : 'Next');
+      side = 'front';
+      const fileInput = card.querySelector<HTMLInputElement>('[data-file]')!;
+      const runsText = () => { const el = card.querySelector('[data-runs]'); if (el && photo) el.textContent = photo.runsLeft > 0 ? `${photo.runsLeft} redo${photo.runsLeft === 1 ? '' : 's'} left` : 'No redos left for this photo'; const again = card.querySelector<HTMLButtonElement>('[data-again]'); if (again && photo) again.disabled = photo.runsLeft <= 0; };
+      runsText();
+      let pending: { blob: Blob; w: number; h: number } | null = null;
+      fileInput.addEventListener('change', async () => {
+        const f = fileInput.files?.[0]; if (!f) return;
+        setError(''); setStatus('Reading your photo…', true);
+        try {
+          const prepared = await prepareUpload(f);
+          if (!prepared) return;
+          card.querySelector<HTMLElement>('[data-blur]')!.hidden = !prepared.blurry;
+          if (prepared.blurry) { pending = prepared; setStatus(''); return; }
+          await upload(prepared.blob);
+        } catch (e) { setStatus(''); setError((e as Error).message || 'That photo did not work. Please try another.'); }
+        finally { fileInput.value = ''; }
+      });
+      card.querySelector('[data-blur-ok]')?.addEventListener('click', async () => { card.querySelector<HTMLElement>('[data-blur]')!.hidden = true; if (pending) await upload(pending.blob); pending = null; });
+      card.querySelector('[data-blur-no]')?.addEventListener('click', () => { card.querySelector<HTMLElement>('[data-blur]')!.hidden = true; pending = null; fileInput.click(); });
+      async function upload(blob: Blob) {
+        setStatus('Taking the background out… about 20 seconds.', true); busy = true;
+        try {
+          const fd = new FormData(); fd.append('photo', blob, 'photo.jpg'); fd.append('style', answers.style ?? 'none');
+          const r = await api('/api/custom/photo', { method: 'POST', body: fd });
+          photo = { uploadId: r.uploadId, assetId: r.assetId, previewUrl: '', style: r.style, runsLeft: r.runsLeft, cache: {} };
+          photo.previewUrl = await previewFor(r.previewUrl);
+          photo.cache[r.style] = { assetId: r.assetId, previewUrl: photo.previewUrl };
+          setStatus('Background removed.'); renderPhoto(step); paint();
+        } catch (e) { setStatus(''); setError((e as Error).message); }
+        finally { busy = false; }
+      }
+      card.querySelectorAll<HTMLButtonElement>('[data-style]').forEach((b) => b.addEventListener('click', async () => {
+        if (!photo || busy) return;
+        const want = b.dataset.style!;
+        answers.style = want;
+        card.querySelectorAll('[data-style]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+        const cached = photo.cache[want];
+        if (cached) { photo.assetId = cached.assetId; photo.previewUrl = cached.previewUrl; photo.style = want; card.querySelector<HTMLElement>('[data-regen]')!.hidden = want === 'none'; paint(); return; }
+        await restyle(want, false);
+      }));
+      card.querySelector('[data-again]')?.addEventListener('click', () => restyle(answers.style ?? 'none', true));
+      async function restyle(want: string, again: boolean) {
+        if (!photo || busy) return;
+        if (want !== 'none' && photo.runsLeft <= 0) { setError("You've used both redos for this photo."); return; }
+        busy = true; setStatus(want === 'none' ? 'Going back to the plain photo…' : `Making the ${want} version… about 30 seconds.`, true); setError('');
+        try {
+          const r = await api('/api/custom/style', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ uploadId: photo.uploadId, style: want }) });
+          photo.assetId = r.assetId; photo.style = r.style; photo.runsLeft = r.runsLeft;
+          photo.previewUrl = await previewFor(r.previewUrl);
+          photo.cache[want] = { assetId: r.assetId, previewUrl: photo.previewUrl };
+          card.querySelector<HTMLElement>('[data-regen]')!.hidden = want === 'none';
+          runsText(); setStatus(again ? 'Here is another version.' : 'Done.'); paint();
+        } catch (e) { setStatus(''); setError((e as Error).message); }
+        finally { busy = false; }
+      }
+    }
+    function renderShirt() {
+      card.innerHTML = frame('Which shirt color?', 'Bella+Canvas 3001, a soft lightweight cotton tee.', `<div class="cfg-swatches" role="group" aria-label="Shirt color">${blank.colors.map((c) => `<button type="button" class="cfg-swatch" data-shirt="${esc(c.name)}" style="background:${c.hex}" aria-label="${esc(c.name)}" aria-pressed="${c.name === shirtColor}" title="${esc(c.name)}"></button>`).join('')}</div><p class="cfg-help" data-shirt-name>${esc(shirtColor)}</p>`);
+      card.querySelectorAll<HTMLButtonElement>('[data-shirt]').forEach((b) => b.addEventListener('click', () => {
+        shirtColor = b.dataset.shirt!;
+        card.querySelectorAll('[data-shirt]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+        card.querySelector('[data-shirt-name]')!.textContent = shirtColor;
+        paint();
+      }));
+    }
+    function renderSize() {
+      const sizes = sizesFor(shirtColor);
+      const pills = (chosen: string, idx: number | null) => `<div class="cfg-sizes" role="group" aria-label="Size">${sizes.map((s) => { const v = variantFor(shirtColor, s); const sold = cfg.variants.length > 0 && !v?.available; return `<button type="button" class="cfg-size" data-size="${s}" data-idx="${idx ?? ''}" aria-pressed="${chosen === s}" ${sold ? 'disabled title="Sold out"' : ''}>${s}</button>`; }).join('')}</div>`;
+      const multi = template.perShirt.length > 0 && players.length > 0;
+      const control = multi
+        ? players.map((p, i) => `<div class="grid gap-2"><p class="font-bold">${esc(cleanText(p.name, true) || `Player ${i + 1}`)}${p.number ? ` #${esc(p.number)}` : ''}</p>${pills(p.size, i)}</div>`).join('')
+        : pills(size, null);
+      card.innerHTML = frame(multi ? 'What size for each?' : 'What size?', 'Unisex sizing. Women usually take one size down from their usual. Chest, laid flat: S 18 in · M 20 · L 22 · XL 24 · 2XL 26 · 3XL 28.', control);
+      card.querySelectorAll<HTMLButtonElement>('[data-size]').forEach((b) => b.addEventListener('click', () => {
+        const s = b.dataset.size!, idx = b.dataset.idx;
+        if (idx === '') size = s; else players[Number(idx)]!.size = s;
+        const group = b.closest('.cfg-sizes')!; group.querySelectorAll('[data-size]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+        setError(''); if (idx !== '') { activePlayer = Number(idx); paint(); }
+      }));
+    }
+
+    // ---- review: real print files + exact read-back + explicit confirm ----
+    interface Final { designId: string; summary: string; readback: { label: string; value: string }[]; sides: Record<string, { url: string }>; sku: string; shaShort: string; size: string }
+    let finals: Final[] = [];
+    async function renderReview() {
+      const designs = template.perShirt.length ? players.map((_, i) => currentDesign(i)) : [currentDesign()];
+      card.innerHTML = `<h2 class="cfg-q">Does this look right?</h2><p class="cfg-help">We are making your print files now. Check every letter and number below; this is exactly what prints.</p><div data-proofs class="grid gap-5"></div><p data-err class="cfg-err" role="alert"></p><div class="cfg-actions"><button type="button" data-back class="cfg-back">← Back</button></div>`;
+      progressEl.textContent = 'Last check';
+      const proofs = card.querySelector<HTMLElement>('[data-proofs]')!;
+      finals = [];
+      busy = true;
+      try {
+        for (let i = 0; i < designs.length; i++) {
+          setStatus(`Making print files${designs.length > 1 ? ` (${i + 1} of ${designs.length})` : ''}…`, true);
+          const r = (await api('/api/custom/finalize', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ design: designs[i] }) })) as Final;
+          r.size = designs[i]!.size;
+          finals.push(r);
+          proofs.insertAdjacentHTML('beforeend', `
+            <div class="grid gap-3 rounded-2xl border border-[var(--color-line)] bg-white p-3">
+              ${designs.length > 1 ? `<p class="eyebrow">Shirt ${i + 1} of ${designs.length}</p>` : ''}
+              <div class="cfg-proof">${['front', 'back'].filter((s) => r.sides[s]).map((s) => `<figure><img src="${esc(r.sides[s]!.url)}" alt="${s} print file" loading="lazy" style="background:${esc(blank.colors.find((c) => c.name === shirtColor)!.hex)}"><figcaption class="text-xs font-bold uppercase tracking-[.12em] text-center mt-1">${s}</figcaption></figure>`).join('')}</div>
+              <dl class="cfg-readback">${r.readback.map((x) => `<div><dt>${esc(x.label)}</dt><dd>${esc(x.value)}</dd></div>`).join('')}</dl>
+            </div>`);
+        }
+        setStatus('');
+        const v = cfg.variants.length ? finals.map((f) => variantFor(shirtColor, f.size)) : [];
+        const canBuy = cartEnabled && cfg.variants.length > 0 && v.every((x) => x?.available);
+        card.querySelector('.cfg-actions')!.insertAdjacentHTML('afterbegin', `
+          <label class="cfg-check"><input type="checkbox" data-confirm><span>Yes, the spelling, numbers and colors are right. I understand this shirt is made just for me.</span></label>
+          <button type="button" data-buy class="btn btn-rust w-full !py-4 !text-sm" disabled>${canBuy ? `Add ${finals.length > 1 ? `${finals.length} shirts` : 'to cart'} · ${cfg.price}${finals.length > 1 ? ` each` : ''}` : 'Checkout for custom shirts opens soon'}</button>`);
+        const check = card.querySelector<HTMLInputElement>('[data-confirm]')!, buy = card.querySelector<HTMLButtonElement>('[data-buy]')!;
+        check.addEventListener('change', () => { buy.disabled = !(check.checked && canBuy); });
+        buy.addEventListener('click', async () => {
+          if (buy.disabled || busy) return; // double-tap guard
+          busy = true; buy.disabled = true; setStatus('Adding to your cart…', true);
+          try {
+            const cart = await addCustomLines(finals.map((f) => ({
+              merchandiseId: variantFor(shirtColor, f.size)!.id, quantity: 1,
+              attributes: [{ key: 'Design', value: f.summary.slice(0, 250) }, { key: '_design_id', value: f.designId }, { key: '_design_sha', value: f.shaShort }],
+            })));
+            document.querySelectorAll('[data-cart-count]').forEach((el) => (el.textContent = String(cart.totalQuantity)));
+            setStatus(''); stepIndex = steps().length - 1; renderDone(cart.checkoutUrl);
+          } catch (e) { setStatus(''); setError('We could not add that to your cart. Please try again.'); buy.disabled = false; }
+          finally { busy = false; }
+        });
+      } catch (e) {
+        setStatus(''); setError((e as Error).message);
+        card.querySelector('.cfg-actions')!.insertAdjacentHTML('afterbegin', '<button type="button" data-retry class="btn w-full !py-4 !text-sm">Try again</button>');
+        card.querySelector('[data-retry]')?.addEventListener('click', () => renderReview());
+      } finally { busy = false; }
+      card.querySelector('[data-back]')?.addEventListener('click', () => go(-1));
+    }
+    function renderDone(checkoutUrl: string) {
+      progressEl.textContent = 'Done';
+      card.innerHTML = `<h2 class="cfg-q">${finals.length > 1 ? `${finals.length} shirts are in your cart` : 'It is in your cart'}</h2><p class="cfg-help">Shipping and tax are worked out at checkout. Free US shipping on orders of $45 or more.</p>
+        <div class="cfg-actions"><a href="${esc(checkoutUrl)}" class="btn btn-rust w-full !py-4 !text-sm">Checkout</a><a href="${location.pathname}" class="btn btn-ghost w-full !py-4 !text-sm">Make another</a></div>`;
+    }
+
+    // ---- navigation ----
+    function validateCurrent(def: StepDef): string | null {
+      if (def.kind === 'step') {
+        const step = def.step;
+        if (step.type === 'players') {
+          if (!players.length) return step.min > 0 ? "Add at least one player." : null;
+          for (const p of players) {
+            const v = validateDesign({ ...currentDesign(), answers: { ...answers, playerName: p.name, playerNumber: p.number } }, template, blank);
+            const prob = v.problems.find((x) => x.key === 'playerName' || x.key === 'playerNumber');
+            if (prob) return `${cleanText(p.name, true) || 'A player'}: ${prob.message}`;
+          }
+          return null;
+        }
+        if (step.type === 'photo') return photo || step.optional ? null : 'Pick a photo to go on.';
+        const v = validateDesign(currentDesign(), template, blank);
+        return v.problems.find((x) => x.key === step.key || (step.type === 'colors' && x.key === 'colors'))?.message ?? null;
+      }
+      if (def.kind === 'size') {
+        if (template.perShirt.length && players.length) { const missing = players.findIndex((p) => !p.size); return missing >= 0 ? `Pick a size for ${cleanText(players[missing]!.name, true) || `player ${missing + 1}`}.` : null; }
+        return size ? null : 'Pick a size.';
+      }
+      return null;
+    }
+    function go(delta: number) {
+      if (busy) return;
+      const list = steps();
+      if (delta > 0) { const err = validateCurrent(list[stepIndex]!); if (err) { setError(err); return; } }
+      stepIndex = Math.max(0, Math.min(list.length - 1, stepIndex + delta));
+      show();
+    }
+    function show() {
+      const list = steps();
+      const def = list[stepIndex]!;
+      const total = list.length - 1; // "done" is not a step
+      progressEl.textContent = def.kind === 'review' ? 'Last check' : `Step ${stepIndex + 1} of ${total}`;
+      setStatus('');
+      if (def.kind !== 'step' || def.step.type !== 'players') { activePlayer = 0; if (def.kind !== 'review') side = def.kind === 'step' && def.step.type === 'players' ? 'back' : side; }
+      if (def.kind === 'template') renderTemplatePicker();
+      else if (def.kind === 'shirt') renderShirt();
+      else if (def.kind === 'size') renderSize();
+      else if (def.kind === 'review') { renderReview(); return; }
+      else if (def.kind === 'step') {
+        const s = def.step;
+        if (s.type === 'choice') { side = 'front'; renderChoice(s); }
+        else if (s.type === 'text') { side = 'front'; renderText(s); }
+        else if (s.type === 'players') renderPlayers(s);
+        else if (s.type === 'colors') renderColors(s);
+        else if (s.type === 'photo') renderPhoto(s);
+      }
+      card.querySelector('[data-next]')?.addEventListener('click', () => go(1));
+      card.querySelector('[data-back]')?.addEventListener('click', () => go(-1));
+      paint();
+      if (stepIndex > 0) card.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    }
+
+    // ---- network ----
+    async function api(url: string, init: RequestInit): Promise<any> {
+      let res: Response;
+      try { res = await fetch(url, { ...init, signal: AbortSignal.timeout(180_000) }); }
+      catch (e) { throw new Error((e as Error).name === 'TimeoutError' ? 'That took too long. Please check your connection and try again.' : 'We could not reach the shop. Please check your connection and try again.'); }
+      const ct = res.headers.get('content-type') ?? '';
+      const data = ct.includes('json') ? await res.json() : null;
+      if (!res.ok) throw new Error(data?.error ?? (res.status === 404 ? 'The custom shop is offline right now. Please try again later.' : 'Something went wrong. Please try again.'));
+      return data;
+    }
+    // Shrink before upload (phones shoot 12 MP; 2400 px is plenty for a 10 in print) and do a cheap blur check.
+    async function prepareUpload(file: File): Promise<{ blob: Blob; w: number; h: number; blurry: boolean } | null> {
+      let bmp: ImageBitmap;
+      try { bmp = await createImageBitmap(file); } catch { throw new Error("We can't read that file. A JPEG or PNG from your camera roll works best."); }
+      const { width: w, height: h } = bmp;
+      if (Math.min(w, h) < 700) { bmp.close(); throw new Error('This photo is a little small to print well. A photo straight from your camera roll (not a screenshot or one sent by text) usually works.'); }
+      const scale = Math.min(1, 2400 / Math.max(w, h));
+      const c = document.createElement('canvas'); c.width = Math.round(w * scale); c.height = Math.round(h * scale);
+      const ctx = c.getContext('2d')!; ctx.drawImage(bmp, 0, 0, c.width, c.height); bmp.close();
+      const blob: Blob = await new Promise((res, rej) => c.toBlob((b) => (b ? res(b) : rej(new Error('Could not prepare the photo.'))), 'image/jpeg', 0.92));
+      return { blob, w: c.width, h: c.height, blurry: blurScore(c) < 18 };
+    }
+    function blurScore(src: HTMLCanvasElement): number {
+      const n = 256, c = document.createElement('canvas'); c.width = n; c.height = Math.round((n * src.height) / src.width) || 1;
+      const ctx = c.getContext('2d')!; ctx.drawImage(src, 0, 0, c.width, c.height);
+      const d = ctx.getImageData(0, 0, c.width, c.height).data, W = c.width, H = c.height, g = new Float32Array(W * H);
+      for (let i = 0; i < W * H; i++) g[i] = 0.299 * d[i * 4]! + 0.587 * d[i * 4 + 1]! + 0.114 * d[i * 4 + 2]!;
+      let sum = 0, sq = 0, k = 0;
+      for (let y = 1; y < H - 1; y++) for (let x = 1; x < W - 1; x++) { const i = y * W + x; const v = 4 * g[i]! - g[i - 1]! - g[i + 1]! - g[i - W]! - g[i + W]!; sum += v; sq += v * v; k++; }
+      const mean = sum / k; return Math.sqrt(sq / k - mean * mean);
+    }
+    async function previewFor(url: string): Promise<string> {
+      // The cutout can be a 2000 px PNG; a 1000 px copy keeps the preview light on 4G.
+      try {
+        const bmp = await createImageBitmap(await (await fetch(url)).blob());
+        const scale = Math.min(1, 1000 / Math.max(bmp.width, bmp.height));
+        const c = document.createElement('canvas'); c.width = Math.round(bmp.width * scale); c.height = Math.round(bmp.height * scale);
+        c.getContext('2d')!.drawImage(bmp, 0, 0, c.width, c.height); bmp.close();
+        return c.toDataURL('image/png');
+      } catch { return url; }
+    }
+
+    show();
+  }
+</script>

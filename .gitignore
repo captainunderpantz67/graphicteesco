@@ -12,3 +12,8 @@ __pycache__/
 designs/*.webp
 designs/b1/
 designs/src/
+
+# configurator local dev (secrets + wrangler state), never committed
+.dev.vars
+.wrangler/
+.test-out/

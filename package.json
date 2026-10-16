@@ -6,7 +6,9 @@
     "dev": "astro dev",
     "build": "astro build && node scripts/prune-sitemap.mjs",
     "preview": "astro preview",
-    "audit": "python3 scripts/seo-audit.py"
+    "audit": "python3 scripts/seo-audit.py",
+    "test": "node --test \"tests/**/*.test.mjs\"",
+    "dev:functions": "npm run build && wrangler pages dev dist --kv CUSTOM_KV --r2 PRINT_FILES --port 8788 --compatibility-date 2026-10-01"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
