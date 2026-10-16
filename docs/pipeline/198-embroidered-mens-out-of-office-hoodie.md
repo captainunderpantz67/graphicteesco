@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: new
 id: 198
@@ -24,3 +24,4 @@ handle: mens-embroidered-out-of-office-deer-hoodie
 ---
 ## Log
 - 2026-10-16 17:18 UTC director: brief written, READY (embroidery pilot, Sam 2026-10-16).
+- 2026-10-16 17:52 UTC [B]: built as DRAFT; new Style B art (try 1 kept), one rust orange thread #E25C27 (file 1087711937, left chest 3.5 in), Sand + Navy, 14/14 synced (check verify before publish), $44.99/$49.99, deer hoodie 1900/29. Tag note: embroidered-sweatshirts omitted (audit rejects hoodies in that collection); hunting-hoodies kept. Review sheet docs/review/198.jpg.

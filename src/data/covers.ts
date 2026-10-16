@@ -199,6 +199,8 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-christmas-sleighping-in-crewneck-sweatshirt': { src: '/covers/womens-christmas-sleighping-in-crewneck-sweatshirt.webp', alt: 'Woman with a silver pixie cut smiling on a cabin window seat on a snowy morning with a quilt over her knees and cocoa beside her, wearing the light grey Sleighping In crewneck sweatshirt' },
   'womens-embroidered-bow-before-me-cropped-hoodie': { src: '/covers/womens-embroidered-bow-before-me-cropped-hoodie.webp', alt: 'Woman raising an iced coffee at a campus coffee shop window in fall, wearing the Bow Before Me embroidered cropped hoodie in black with a pink stitched bow' },
   'womens-christmas-winter-skate-club-penguins-hoodie': { src: '/covers/womens-christmas-winter-skate-club-penguins-hoodie.webp', alt: 'Woman with a chin-length bob and blunt bangs smiling at an outdoor ice rink at dusk under string lights, holding cocoa and wearing the sand Winter Skate Club Penguins hoodie' },
+  'mens-embroidered-out-of-office-deer-hoodie': { src: '/covers/mens-embroidered-out-of-office-deer-hoodie.webp', alt: 'Man with a salt-and-pepper beard on a deer camp cabin porch at first light, holding a thermos, wearing the Out of Office embroidered deer hoodie in sand' },
+  'womens-christmas-embroidered-extra-marshmallows-crewneck-sweatshirt': { src: '/covers/womens-christmas-embroidered-extra-marshmallows-crewneck-sweatshirt.webp', alt: 'Woman holding a mug of cocoa with marshmallows at a Christmas market stand at dusk, wearing the Extra Marshmallows embroidered crewneck sweatshirt in sand' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
