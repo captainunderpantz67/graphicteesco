@@ -3665,6 +3665,27 @@
      "phrase": "camo hoodie women",
      "volume": 12100,
      "kd": 26
+  "mens-christmas-resting-my-eyes-graphic-tee": {
+   "claimed": [
+    "dad christmas shirt",
+    "nap shirt",
+    "cat nap shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dad christmas shirt",
+     "volume": 110,
+     "kd": 40
+    },
+    {
+     "phrase": "nap shirt",
+     "volume": 170,
+     "kd": 52
+    },
+    {
+     "phrase": "cat nap shirt",
+     "volume": 260,
+     "kd": 37
     }
    ],
    "measured": "2026-10-16"
