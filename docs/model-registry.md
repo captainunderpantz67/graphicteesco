@@ -205,7 +205,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 219 | Korean-American woman in her late 30s, shoulder-length straight hair with face-framing layers | RESERVED — #149 Jolly-ish crewneck cover |
 | 220 | White man in his mid 40s, sandy-brown hair, wire-rim glasses, stubble | RESERVED — #150 Light Show Manager tee cover |
 | 221 | Pair: Black man in his mid 40s, salt-and-pepper short hair + Black woman in her early 40s, shoulder-length twists | RESERVED — #151 Light Show Manager crewneck cover (man + woman) |
-| 222 | Samoan man in his late 20s, long dark hair tied back, heavy build | RESERVED — #152 Clean Plate Club redo cover |
+| 222 | Samoan man in his late 20s, long dark hair tied back, heavy build | USED 2026-10-16 — Clean Plate Club redo cover (fal Seedream 4, garage gym at dawn; try 1 kept) |
 | 223 | White man in his early 60s, bald, thick grey handlebar mustache | RESERVED — #153 Retired From Cardio redo cover |
 | 224 | Mexican-American man in his early 40s, short black hair, trimmed goatee | RESERVED — #154 Sore Since 1987 redo cover |
 | 225 | White man in his mid 50s, grey crew cut, sunburned cheeks | RESERVED — #155 Technically Still Fishing redo cover |

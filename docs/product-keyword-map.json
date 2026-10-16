@@ -33,7 +33,15 @@
    "claimed": [
     "powerlifting shirt"
    ],
-   "gaps_measured": []
+   "gaps_measured": [
+    {
+     "phrase": "funny gym shirts",
+     "volume": 3600,
+     "kd": 41,
+     "competition": null,
+     "gap": null
+    }
+   ]
   },
   "womens-country-dirt-road-radio-graphic-tee": {
    "claimed": [
