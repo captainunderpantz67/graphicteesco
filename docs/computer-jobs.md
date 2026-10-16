@@ -12,4 +12,4 @@ Things that need Sam's laptop and Chrome. Sam opens the computer about once a da
 - Search Console → Settings: set shipping (free US on $45+, else $4.95 tees / $8.79 crewnecks + hoodies) and returns (no returns; misprints reprinted or refunded) so they match the site markup (backtrack 2026-10-16).
 - Shopify admin: check Shopify Catalog / Agentic Storefronts (feeds ChatGPT, Copilot, Perplexity). Turn it on if it's off, and make sure product links point to graphicteesco.com, not the myshopify address.
 - Merchant Center: once connected, fill the conversational attributes (question_and_answer, related_product for tee/crewneck/hoodie twins) and check the price-competitiveness report.
-
+- Shopify Admin → Settings → Policies: paste the new Refund and Shipping policies from docs/policies/shopify-policies-2026-10-16.md (connector lacks permission). Then Search Console return settings to match: 30-day free size exchange.
