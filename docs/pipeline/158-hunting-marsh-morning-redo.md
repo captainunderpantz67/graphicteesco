@@ -1,4 +1,5 @@
-status: READY
+status: PARKED
+reason: paused for cold-weather, resume after (Sam, 2026-10-16: evergreen tees wait until every cold-weather collection reaches 14, R11.5).
 lane: B
 type: redo
 id: 158
@@ -21,3 +22,4 @@ handle: mens-hunting-marsh-morning-graphic-tee
 ## Log
 - 2026-10-16 08:50 UTC director: redo brief written, READY.
 - 2026-10-16 12:53 UTC [B]: run stopped by fal.ai lock (TOP_UP): file hosting + cover generation blocked. Nothing changed on the live product. Note: Shopify draft products for 167 (15360931430704) and 168 (15360933036336) already exist with copy and no media; Printful sync products 482163651 / 482163786 exist (168 variants unmapped, needs catalog variant mapping).
+- 2026-10-16 14:26 UTC director: PARKED for the cold-weather push (R11.5).

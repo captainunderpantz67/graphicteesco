@@ -1,4 +1,5 @@
-status: READY
+status: PARKED
+reason: paused for cold-weather, resume after (Sam, 2026-10-16: evergreen tees wait until every cold-weather collection reaches 14, R11.5).
 lane: B
 type: new
 id: 175
@@ -21,3 +22,4 @@ handle: mens-fishing-eyes-on-the-prize-walleye-graphic-tee
 ---
 ## Log
 - 2026-10-16 14:24 UTC director: brief written, READY.
+- 2026-10-16 14:26 UTC director: PARKED for the cold-weather push (R11.5).

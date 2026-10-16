@@ -500,9 +500,72 @@ export const tees: Collection[] = [
       { q: 'Are these sweatshirts or hoodies?', a: 'Crewneck sweatshirts, with no hood, in cotton-polyester fleece.' },
       { q: 'Does the design also come on a tee?', a: 'Yes. The harvest basket art is also printed on a unisex tee in our Thanksgiving shirts collection.' },
     ] }),
+  // Cold-weather push (Sam, 2026-10-16). Hand-written copy; empty pages stay noindex until products exist.
+  {
+    slug: 'cropped-sweatshirts', section: 'tees', audience: 'women', name: 'Cropped Sweatshirts',
+    keyword: 'cropped sweatshirt', volume: 8100, kd: 41,
+    title: 'Cropped Sweatshirts — Original Graphic Designs',
+    description: 'Cropped sweatshirts with original graphic art, cut to meet high-rise jeans. Printed to order in soft fleece.',
+    h1: 'Cropped Sweatshirts',
+    intro: 'Cropped sweatshirts with original art on the front, cut short so the hem meets high-rise jeans, leggings and skirts.',
+    sections: [
+      { h2: 'What makes these cropped sweatshirts different?', body: 'Every design is drawn for this shop: retro coffee machines, kaiju naps, wildflowers and holiday art, never a stock graphic. Right now the cropped fleece we print on is a cropped hoodie, so every piece here has a hood.' },
+      { h2: 'How to wear a cropped sweatshirt', body: 'Pair it with high-rise jeans, wide-leg pants or a pleated skirt so the hem lands at the waistband. Layer a long tank underneath on cold days.' },
+    ],
+    faqs: [
+      { q: 'Are these cropped crewnecks or cropped hoodies?', a: 'They are cropped hoodies: a short fleece sweatshirt with a hood. We do not sell a cropped crewneck yet.' },
+      { q: 'How cropped is a cropped sweatshirt?', a: 'The hem sits around the natural waist, so it meets high-rise jeans and skirts without showing much midriff.' },
+      { q: 'Are these original designs?', a: 'Yes. Every design is original art made for this shop. No brand logos or licensed characters.' },
+      { q: 'How are they made?', a: 'Each one is printed after you order it, then shipped to you.' },
+      { q: 'How long do cropped sweatshirts take to ship?', a: (f) => `Printing takes ${f.productionDays}, then your order ships. Delivery estimates are shown at checkout.`, needs: 'productionDays' },
+    ],
+    shopifyHandle: 'cropped-sweatshirts',
+    twin: 'cropped-hoodies',
+  },
+  {
+    slug: 'embroidered-sweatshirts', section: 'tees', name: 'Embroidered Sweatshirts',
+    keyword: 'embroidered sweatshirt', volume: 12100, kd: 56,
+    title: 'Embroidered Sweatshirts — Original Stitched Designs',
+    description: 'Embroidered crewneck sweatshirts with small original designs stitched in thread on the chest. Made to order in soft fleece.',
+    h1: 'Embroidered Sweatshirts',
+    intro: 'Embroidered sweatshirts with a small original design stitched on the chest: simple line art in thread, the kind of piece you wear all winter.',
+    sections: [
+      { h2: 'What makes these embroidered sweatshirts different?', body: 'The designs are drawn for this shop as clean single-line art, then stitched in thread instead of printed, so the design has a raised, textured feel. They sit small on the chest, about the size of a hand.' },
+      { h2: 'What the sweatshirt is like', body: 'A classic-fit crewneck in 50% cotton, 50% polyester fleece, 8 oz, pre-shrunk, with a ribbed collar, cuffs and hem.' },
+      { h2: 'How to care for embroidery', body: 'Wash inside out on cold and tumble dry low or hang to dry. Do not iron directly on the stitching.' },
+    ],
+    faqs: [
+      { q: 'Is the design stitched or printed?', a: 'Stitched. Each design is embroidered in thread on the chest, not printed.' },
+      { q: 'Are embroidered sweatshirts warm?', a: 'Yes. They are made from 8 oz cotton-polyester fleece, warm on their own indoors and easy to layer under a coat.' },
+      { q: 'Are these original designs?', a: 'Yes. Every design is original art made for this shop, with no brand logos or licensed characters.' },
+      { q: 'How long do embroidered sweatshirts take to ship?', a: (f) => `Making one takes ${f.productionDays}, then your order ships. Delivery estimates are shown at checkout.`, needs: 'productionDays' },
+    ],
+    shopifyHandle: 'embroidered-sweatshirts',
+  },
 ];
 
 export const hoodies: Collection[] = [
+  {
+    slug: 'cropped-hoodies', section: 'hoodies', audience: 'women', name: 'Cropped Hoodies',
+    keyword: 'cropped hoodie', volume: 40500, kd: 30,
+    title: 'Cropped Hoodies — Original Graphic Designs for Women',
+    description: 'Cropped hoodies for women with original graphic art. Cut to meet high-rise jeans and skirts, printed to order.',
+    h1: 'Cropped Hoodies',
+    intro: 'Cropped hoodies for women with original art on the front: the same designs as our cropped tees, on a short fleece hoodie for cold days.',
+    sections: [
+      { h2: 'What makes these cropped hoodies different?', body: 'Every design is drawn for this shop, never stock art. Each hoodie is printed after you order it on a women\'s cropped fleece hoodie.' },
+      { h2: 'Same designs as our cropped tees', body: 'Most cropped hoodie designs started as a cropped tee. Grab the tee for warm days and the hoodie when it turns cold.' },
+      { h2: 'How to wear a cropped hoodie', body: 'Wear it with high-rise jeans, joggers or a pleated skirt so the hem meets the waistband. Add a long tank underneath when it is cold out.' },
+    ],
+    faqs: [
+      { q: 'How cropped are these hoodies?', a: 'The hem sits around the natural waist, so it meets high-rise jeans and skirts.' },
+      { q: 'Do cropped hoodies run small?', a: 'They are a women\'s fit. Take your usual size for the intended look, or size up for a roomier hoodie. Check the size chart on each product.' },
+      { q: 'Are these original designs?', a: 'Yes. Every design is original art made for this shop. No brand logos or licensed characters.' },
+      { q: 'How long do cropped hoodies take to ship?', a: (f) => `Printing takes ${f.productionDays}, then your order ships. Delivery estimates are shown at checkout.`, needs: 'productionDays' },
+    ],
+    shopifyHandle: 'cropped-hoodies',
+    twin: 'cropped-sweatshirts',
+  },
   niche(N.heavyweight, 'hoodies', { slug: 'heavyweight-hoodies', keyword: 'heavyweight hoodie', volume: 14800, kd: 20, product: 'heavyweight hoodies' }),
   niche(N.zipup, 'hoodies', { slug: 'zip-up-hoodies', keyword: 'zip-up hoodie', volume: 135000, kd: 28, product: 'zip-up hoodies' }),
   niche(N.fishing, 'hoodies', { slug: 'fishing-hoodies', keyword: 'fishing hoodie', volume: 6600, kd: 30, product: 'fishing hoodies', twin: 'fishing-t-shirts' }),
