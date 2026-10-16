@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [A] 2026-10-16 19:20 UTC
 lane: A
 type: new
 id: 213
