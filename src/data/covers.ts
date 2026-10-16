@@ -213,6 +213,9 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-christmas-ski-lodge-hoodie': { src: '/covers/unisex-christmas-ski-lodge-hoodie.webp', alt: 'Man and woman in matching navy Ski Lodge hoodies outside a snowy A-frame lodge with skis propped beside them' },
   'womens-christmas-golden-retriever-christmas-hoodie': { src: '/covers/womens-christmas-golden-retriever-christmas-hoodie.webp', alt: 'Woman in her early 50s with a silver pixie cut in a Sand Golden Retriever Christmas hoodie in a snowy front yard beside a golden retriever' },
   'womens-christmas-on-the-farm-horse-hoodie': { src: '/covers/womens-christmas-on-the-farm-horse-hoodie.webp', alt: 'Woman with long box braids in a Sport Grey Christmas on the Farm horse hoodie in a snowy barn aisle with a horse at the stall door' },
+  'womens-christmas-dough-ho-ho-graphic-tee': { src: '/covers/womens-christmas-dough-ho-ho-graphic-tee.webp', alt: 'Woman with shoulder-length black hair and bangs in a heather grey Dough Ho Ho Christmas tee in a warm kitchen with cookies cooling behind her' },
+  'womens-christmas-dough-ho-ho-crewneck-sweatshirt': { src: '/covers/womens-christmas-dough-ho-ho-crewneck-sweatshirt.webp', alt: 'Woman with red curly hair in a messy bun in a sand Dough Ho Ho crewneck sweatshirt at a cookie swap table with tins of cookies and a lit tree' },
+  'womens-christmas-dough-ho-ho-hoodie': { src: '/covers/womens-christmas-dough-ho-ho-hoodie.webp', alt: 'Woman with a dark sleek bun and gold hoops in a sand Dough Ho Ho hoodie at a snowy church bake sale table' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
