@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16
+status: REVIEW
 lane: B
 type: new
 id: 196
@@ -26,3 +26,4 @@ handle: womens-christian-embroidered-rooted-in-jesus-hoodie
 - 2026-10-16 15:30 UTC director: brief written, READY (embroidered-sweatshirts, cold-weather push R11.5).
 
 - 2026-10-16 17:19 UTC director: converted to the embroidery pilot's hoodie chest-center piece (Sam 2026-10-16): Gildan 18500, jesus hoodie 14,800/44, christian-hoodies, price per R12.1 embroidered.
+- 2026-10-16 17:40 UTC [B]: built as DRAFT; new Style B art (try 1 kept, spelling exact incl. COLOSSIANS 2:7), thickened to one navy thread #333366 (file 1087706969, 4 x 2.9 in, small caps are close to the embroidery minimum: check the mockup), Sand + Light Blue, 14/14 synced, $44.99/$49.99, jesus hoodie 14800/44. Tag note: I removed embroidered-sweatshirts from this hoodie because the audit errors 'Hoodie listed in the non-hoodie collection Embroidered Sweatshirts' (R4.8 says embroidered hoodies may carry it); the director can re-tag once the audit has an exception. Review sheet docs/review/196.jpg.

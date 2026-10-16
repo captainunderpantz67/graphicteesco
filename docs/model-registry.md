@@ -249,7 +249,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 263 | Vietnamese-American woman in her mid 20s, long straight black hair, round glasses | RESERVED — #193 Whisk Taker embroidered crewneck cover |
 | 264 | White woman in her early 30s, auburn shag haircut, freckles | RESERVED — #194 Morel Support embroidered crewneck cover |
 | 265 | South Asian woman in her late 30s, long dark braid, nose stud | RESERVED — #195 Purrsonal Space embroidered crewneck cover |
-| 266 | Mexican-American woman in her mid 40s, shoulder-length wavy brown hair | RESERVED — #196 Rooted in Jesus embroidered crewneck cover |
+| 266 | Mexican-American woman in her mid 40s, shoulder-length wavy brown hair | USED 2026-10-16 — #196 Rooted in Jesus embroidered hoodie cover (fal Seedream 4, church steps; try 1 kept) |
 | 267 | Korean-American woman in her late 20s, chin-length bob with blunt bangs | RESERVED — #200 Skate Club Penguins hoodie cover |
 | 268 | Black woman in her mid 30s, long box braids in a high bun | RESERVED — #201 Polar Bear Cocoa hoodie cover |
 | 269 | White woman in her early 40s, blonde pixie cut, tortoiseshell glasses | RESERVED — #202 Christmas Dogs hoodie cover |
