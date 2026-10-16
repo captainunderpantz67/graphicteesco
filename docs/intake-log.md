@@ -1,3 +1,4 @@
+2026-10-16 16:56 UTC — [B] REVIEW #178 Deer Diary Zip Hoodie: twin of tee, file 1087174753 (back full + left chest, no neck logo), Ash + Sport Grey (sage/dark art), 14/14 synced, $44.99/$49.99, deer hunting hoodie 170/34. Cover note: try 1 kept (faithful print) but the model shows a zipper line down the back; try 2 garbled the print.
 2026-10-16 16:54 UTC — [B] REVIEW #177 Opening Day Zip Hoodie: twin of tee, file 1085707777 (back full 11in + left chest 3.5in; no neck logo on zip-up), Ash + Sport Grey (navy hides the dark buck linework), 14/14 synced, $44.99/$49.99, hunting hoodie men 880/26.
 2026-10-16 16:54 UTC — [B] REVIEW #131 Professional Tree Sitter (redo): R5.3.4/R5.3.8 redo: new art (hunter holds the bow across his lap), all non-ink white knocked out (checked on grey + dark), file 1087674825 re-synced 40/40, new cover (art-faithful, try 2), mockups + variant images swapped.
 RUNNING helper since 2026-10-16 16:42 UTC

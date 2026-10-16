@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16
+status: REVIEW
 lane: B
 type: twin
 id: 178
@@ -18,3 +18,4 @@ handle: mens-hunting-deer-diary-zip-hoodie
 ---
 ## Log
 - 2026-10-16 14:28 UTC director: brief written, READY (cold-weather push, Sam 2026-10-16).
+- 2026-10-16 16:56 UTC [B]: built as DRAFT; twin of tee, file 1087174753 (back full + left chest, no neck logo), Ash + Sport Grey (sage/dark art), 14/14 synced, $44.99/$49.99, deer hunting hoodie 170/34. Cover note: try 1 kept (faithful print) but the model shows a zipper line down the back; try 2 garbled the print. Review sheet docs/review/178.jpg.
