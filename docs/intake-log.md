@@ -19,7 +19,7 @@
 2026-10-16 17:04 UTC — [A] REVIEW #140 (REDO fixed: wreath disc knocked out, new cover, mockups; live tee mockups swapped, file swap queued). Built drafts: #148 Jolly-ish tee, #189/#190/#191 Christmas hoodies, #147 Define Naughty crewneck (Printful links finishing in background; items go REVIEW when synced).
 2026-10-16 16:54 UTC — [B] REVIEW #177 Opening Day Zip Hoodie: twin of tee, file 1085707777 (back full 11in + left chest 3.5in; no neck logo on zip-up), Ash + Sport Grey (navy hides the dark buck linework), 14/14 synced, $44.99/$49.99, hunting hoodie men 880/26.
 2026-10-16 16:54 UTC — [B] REVIEW #131 Professional Tree Sitter (redo): R5.3.4/R5.3.8 redo: new art (hunter holds the bow across his lap), all non-ink white knocked out (checked on grey + dark), file 1087674825 re-synced 40/40, new cover (art-faithful, try 2), mockups + variant images swapped.
-RUNNING helper since 2026-10-16 16:42 UTC
+RUNNING helper since 2026-10-16 17:41 UTC
 2026-10-16 16:48 UTC — [A] REVIEW #148 Jolly-ish tee (DRAFT 15361607074096): art, cover #218, mockups, audit PASS; Printful link of 36 variants in progress. #140 REDO fixed art (wreath disc knocked out), re-sync running.
 RUNNING lane B since 2026-10-16 16:36 UTC
 RUNNING lane A since 2026-10-16 16:36 UTC
