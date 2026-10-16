@@ -18,6 +18,13 @@ def call(method, path, body=None):
                 time.sleep(int(e.headers.get('Retry-After', 30)) + 1); continue
             raise Exception(f'{e.code} {e.read()[:300]}')
     raise Exception('429 loop')
+def front_pos(variant_id, w, h):
+    # same geometry as pf-mockup.py: 10 in wide (150 dpi), 0.5 in below the top of the print area
+    pid = call('GET', f'/products/variant/{variant_id}')['product']['id']
+    pf = call('GET', f'/mockup-generator/printfiles/{pid}')
+    vp = next(x for x in pf['variant_printfiles'] if x['variant_id'] == variant_id)['placements']['front']
+    a = next(x for x in pf['printfiles'] if x['printfile_id'] == vp); fw = min(a['width'], 1500)
+    return {'area_width': a['width'], 'area_height': a['height'], 'width': fw, 'height': round(fw * h / w), 'top': 75, 'left': (a['width'] - fw) // 2}
 cmd = sys.argv[1]
 if cmd == 'upload':
     print(call('POST', '/files', {'url': sys.argv[2], 'filename': sys.argv[3], 'visible': True})['id'])
@@ -26,15 +33,17 @@ elif cmd == 'status':
     print(d['sync_product']['name'], d['sync_product']['variants'], d['sync_product']['synced'])
 elif cmd == 'setfile':
     pid, front = sys.argv[2], int(sys.argv[3]); back = int(sys.argv[4]) if len(sys.argv) > 4 else None
-    FT = 'default'
+    FT = 'default'; FORCE = os.environ.get('FORCE') == '1'
     vs = call('GET', f'/sync/products/{pid}')['sync_variants']
+    ff = call('GET', f'/files/{front}'); POS = None
     for i, v in enumerate(vs):
         cur = {f['type']: f['id'] for f in v['files']}
-        if v['synced'] and cur.get('default') == front and (back is None or cur.get('back') == back): continue
+        if POS is None: POS = front_pos(v['variant_id'] or int(v['sku'].split('-')[-1]), ff['width'], ff['height'])
+        if v['synced'] and cur.get('default') == front and (back is None or cur.get('back') == back) and not FORCE: continue
         bk = back or cur.get('back')
         for ft in (FT, 'front' if FT == 'default' else 'default'):
             try:
-                files = [{'type': ft, 'id': front}] + ([{'type': 'back', 'id': bk}] if bk else [])
+                files = [{'type': ft, 'id': front, 'position': POS}] + ([{'type': 'back', 'id': bk}] if bk else [])
                 body = {'files': files}
                 if not v['synced']: body['variant_id'] = int(v['sku'].split('-')[-1])
                 call('PUT', f'/sync/variant/{v["id"]}', body); FT = ft; break

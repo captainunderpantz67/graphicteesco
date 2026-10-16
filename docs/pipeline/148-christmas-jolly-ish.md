@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-16 16:55 UTC
+status: REVIEW
 lane: A
 type: new
 id: 148
@@ -22,3 +22,4 @@ handle: womens-christmas-jolly-ish-graphic-tee
 ## Log
 - 2026-10-16 08:45 UTC director: brief written, READY.
 - 2026-10-16 UTC builder [A]: art Recraft v4 try 1 (kept; hyphen small but legible), print-prep 3600x1850, Printful file 1087677264. Shopify DRAFT gid://shopify/Product/15361607074096 (36 variants: White, Natural, Pink, Athletic Heather, Heather Stone, Light Violet x S-3XL), copy/SEO/tags/price done. Primary plaid christmas shirt 1,000/KD47. Still to do: Printful link (scripts/pf-sync.py setfile <sync id> 1087677264 1080398177), cover #218, mockups + variant images, review sheet.
+- 2026-10-16 UTC builder [A]: O counter + ornament body knocked out to transparent (R5.3.8), Printful file 1087679332 (front) + back 1080398177; positioned 10 in wide, 0.5 in below print-area top. Cover #218 (try 1) in covers.ts; 6 front mockups + 1 back on the product, variant images linked, alts per R7.8; keyword map done; audit (scripts/audit-local.py, DRAFT) PASS 0 warn; docs/review/148.jpg. Printful variant link (36) is running in the background via scripts/pf-sync.py (queued behind #140); if the product shows synced<36, run `python3 scripts/pf-sync.py setfile 482240679 1087679332 1080398177`. → REVIEW.

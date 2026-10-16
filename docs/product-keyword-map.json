@@ -2876,6 +2876,19 @@
      "gap": 2.44
     }
    ]
+  },
+  "womens-christmas-jolly-ish-graphic-tee": {
+   "claimed": [
+    "plaid christmas shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "plaid christmas shirt",
+     "volume": 1000,
+     "kd": 47
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
