@@ -1,3 +1,4 @@
+2026-10-16 17:19 UTC — [B] REVIEW #184 Clean Plate Club Heavyweight Hoodie: twin of tee, file 1087554531 front 11.7 in + back logo, Storm Blue + Black (cream/gold art needs dark), 14/14 synced, $49.99/$54.99, powerlifting hoodie 210/33.
 RUNNING director since 2026-10-16 17:12 UTC
 2026-10-16 17:12 UTC — [A] REVIEW #191 Nutcracker Bow hoodie (synced 12/12, audit PASS, docs/review/191.jpg). Also built (DRAFT, Printful links finishing): #150 + #151 Light Show Manager tee/crewneck (covers garble lettering, see logs), #147, #148.
 2026-10-16 17:13 UTC — [B] REVIEW #183 Amazing Grace Heavyweight Hoodie: twin of tee, file 1085667871 front 11.8 x 14 in max fit + back logo, Storm Blue + Black (cream line art vanishes on Sandstone), 14/14 synced, $49.99/$54.99, cross hoodie 3600/33 + grace hoodie 140/36.
