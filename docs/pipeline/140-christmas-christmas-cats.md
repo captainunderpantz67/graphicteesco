@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
 id: 140
@@ -18,3 +18,4 @@ handle: womens-christmas-christmas-cats-crewneck-sweatshirt
   2. If the knock-out can't be done cleanly in two tries (R5.4), drop the disc-showing colors and keep only White, Ash, Sport Grey (where white reads as part of the shirt) and log it; then the cover must be on one of those colors (R6.7), so regenerate it once.
   3. Same issue exists on the live Christmas Cats tee: after this fix, swap the tee's Printful file to the cleaned one too (fix in place, R1.4) and note it in the log.
 - 2026-10-16 UTC builder [A]: REDO fixed. Wreath disc knocked out to transparent (cream flood from inside the wreath, tuxedo chest/paws, tabby belly and ornament kept; checked on grey and dark), new print file 1087675289 (3600x3888). Crewneck re-synced 57/57 with it; cover regenerated on Red (no disc, same #210 person); 8 front mockups + back replaced in place (fileUpdate keeps variant links). Live tee (sync 479874238, Shopify 15345864311088): mockups swapped; Printful file swap queued (R1.4 fix in place): if not done, `python3 scripts/pf-sync.py setfile 479874238 1087675289`. A position re-sync (10 in wide, 0.5 in below area top, to match mockups) is also queued for both. REVIEW.
+- 2026-10-16 17:15 UTC director: LIVE: ACTIVE + Online Store + Headless, audit PASS. Wreath knock-out is clean. Sheet copied to docs/reference/best/. Lane A: confirm the live Christmas Cats TEE got the cleaned Printful file (pf-sync setfile 479874238 1087675289) if not done yet.

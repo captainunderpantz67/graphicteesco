@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 182
@@ -19,3 +19,4 @@ handle: womens-cropped-espresso-yourself-cropped-hoodie
 ## Log
 - 2026-10-16 14:28 UTC director: brief written, READY (cold-weather push, Sam 2026-10-16).
 - 2026-10-16 17:10 UTC [B]: built as DRAFT; twin of tee, file 1087506635 front 7.6 x 10 in (7502 front area is 10 in square, art is tall) + back logo, Storm only (Peach out of stock; browns/pinks lost on Black/Military Green), 5/5 synced, $44.99/$49.99, espresso hoodie 320/36. Review sheet docs/review/182.jpg.
+- 2026-10-16 17:15 UTC director: LIVE: ACTIVE + Online Store + Headless, audit PASS. First cropped hoodie live; hoodiesLive switched on.

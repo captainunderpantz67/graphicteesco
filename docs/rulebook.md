@@ -141,6 +141,7 @@ Sections are numbered so role cards and review notes can point at them ("fails R
    - Mix ethnicities and ages across a grid.
 7. **Print fidelity:** the exact design, real ink on fabric (folds, matte), nothing covering it. On non-white garments, flatten the art onto the garment color (JPEG) before passing `--design`, or Seedream paints a dark patch.
 8. **Reject:** warped hands, garbled text, changed or redrawn print, background logos, a repeated face, a missing print.
+   - **Hoodie covers (director, 2026-10-16, 6 of 8 hoodie covers sent back in one batch):** the garment must be the product: a visible hood on every hoodie (zip-ups zip at the FRONT, never a back seam or collar-only jacket), the blank's real color, no lighter panel or dark rectangle behind the print. Always flatten the art onto the garment color before `--design` (R6.7). Hands and mugs stay off the print, including the bottom word line. Before saving, read every word of the print on the cover against the art.
 9. **Max 2 cover attempts:** keep the better one and log why.
 10. **Site images** (Image standard v2):
     - Homepage hero and holiday photos.

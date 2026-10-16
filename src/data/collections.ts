@@ -265,7 +265,7 @@ function niche(
       { h2: `What makes these ${P} different?`, body: n.about(item) },
       section === 'hoodies'
         ? { h2: `Same designs as our ${n.label.toLowerCase()} tees`, body: 'Every design here started as a tee. Grab the tee for warm days and the hoodie when it turns cold.' }
-        : site.facts.hoodiesLive ? { h2: 'Want it warmer? It comes as a hoodie too', body: 'Most designs in this collection are also printed on hoodies, so the same art works when the weather turns.' } : null,
+        : site.facts.hoodiesLive ? { h2: 'Want it warmer? Look for the hoodie', body: 'A growing number of our designs are also printed on hoodies with the same art, so it still works when the weather turns. Hoodie versions live in our hoodie collections.' } : null,
       ...(n.style ? [{ h2: `How to wear ${P}`, body: n.style }] : []),
     ].filter(Boolean) as { h2: string; body: string }[],
     faqs: [
@@ -328,7 +328,7 @@ export const tees: Collection[] = [
       { q: 'Do you have graphic tees for women over 40 or over 50?', a: 'Yes. Our designs aren’t made for one age group — they’re about what you love, from country and faith to game day and the holidays.' },
       { q: 'Do you have cropped graphic tees for women?', a: 'Yes — see our cropped graphic tees collection.' },
       { q: 'Do you have plus size graphic tees for women?', a: (f) => `Sizes run ${f.sizeRange}. Check the size chart on each product.`, needs: 'sizeRange' },
-      { q: 'Do the designs come on hoodies too?', a: 'Yes. Most designs are also printed on hoodies.', needs: 'hoodiesLive' },
+      { q: 'Do the designs come on hoodies too?', a: 'Some do, and more are added every week. Hoodie versions use the same art and are listed in our hoodie collections.', needs: 'hoodiesLive' },
     ],
     shopifyHandle: 'graphic-tees-for-women',
   },
@@ -384,7 +384,7 @@ export const tees: Collection[] = [
       { q: 'Are these graphic tees original designs?', a: 'Yes. Every design is made for this shop — no licensed characters or resold stock art.' },
       { q: 'Do you have graphic tees for men over 40 or over 50?', a: 'Yes. Fishing, hunting, western and gym designs are made for grown men with real hobbies, not one age group.' },
       { q: 'Do you have big and tall or 3XL graphic tees?', a: (f) => `Sizes run ${f.sizeRange}. Check the size chart on each product.`, needs: 'sizeRange' },
-      { q: 'Do the designs come on hoodies too?', a: 'Yes. Most designs are also printed on hoodies.', needs: 'hoodiesLive' },
+      { q: 'Do the designs come on hoodies too?', a: 'Some do, and more are added every week. Hoodie versions use the same art and are listed in our hoodie collections.', needs: 'hoodiesLive' },
     ],
     shopifyHandle: 'graphic-tees-for-men',
   },
