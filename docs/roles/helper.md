@@ -10,7 +10,7 @@ You do the scripted, rule-based chores so the expensive roles don't. You never j
    - Anything else → append to docs/inbox.md (date + paraphrase, never raw text) and reply "Got it, passing it to the director (next run about <time>)."
    - Then consume the updates (offset = highest update_id + 1).
 3. **Audit:** `node scripts/cohesion-audit.mjs`. Commit docs/cohesion-audit.md.
-   - Fix scripted ERRORs only: wrong price/compare-at (productVariantsBulkUpdate: id, price, compareAtPrice), missing or over-long meta descriptions and SEO titles (rewrite to length without changing meaning, keep the primary keyword), wrong collection tags on crewnecks (R7.5). Up to 40 products per run.
+   - Fix scripted ERRORs only (prices are the builders' job): missing or over-long meta descriptions and SEO titles (rewrite to length without changing meaning, keep the primary keyword), wrong collection tags on crewnecks (R7.5). Up to 40 products per run.
    - Leave visual or creative ERRORs (wrong person on a cover, art problems) for the director: add a one-line note to docs/inbox.md.
    - When price ERRORs reach zero, switch the announcement bar per R12.3, build, commit, push.
 4. **Stuck work:** any pipeline item BUILDING for over 3 hours with no commit from its lane, or a lane lock older than 2 hours → Telegram one alert.

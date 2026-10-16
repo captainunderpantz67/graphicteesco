@@ -19,7 +19,8 @@ if (existsSync(join(root, '.env'))) {
     const m = l.match(/^([A-Z_]+)=(.*)$/); if (m && !process.env[m[1]]) process.env[m[1]] = m[2].trim();
   }
 }
-const DOMAIN = process.env.PUBLIC_SHOPIFY_STORE_DOMAIN, TOKEN = process.env.PUBLIC_SHOPIFY_STOREFRONT_TOKEN;
+let pub = {}; try { pub = JSON.parse(readFileSync(new URL('../shopify.public.json', import.meta.url), 'utf8')); } catch {}
+const DOMAIN = process.env.PUBLIC_SHOPIFY_STORE_DOMAIN || pub.domain, TOKEN = process.env.PUBLIC_SHOPIFY_STOREFRONT_TOKEN || pub.storefrontToken;
 // --admin-json <file>: run the same checks on products exported from the Admin API (Shopify MCP) as
 // { "<handle>": { handle title productType tags seo description images{nodes} variants{nodes: price{amount}
 // compareAtPrice{amount} …} collections{nodes} } } — works for DRAFTs and when the Storefront token is missing.
