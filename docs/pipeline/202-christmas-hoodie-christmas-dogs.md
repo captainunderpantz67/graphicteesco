@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-16 18:30 UTC
+status: REVIEW
 lane: A
 type: twin
 id: 202
@@ -19,3 +19,4 @@ handle: womens-christmas-christmas-dogs-hoodie
 ## Log
 - 2026-10-16 17:18 UTC director: brief written, READY (lane A Christmas hoodie twins, R11.5).
 - 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361799389488 (18500; Sand + Navy x S-3XL = 12), tee file 1083363616 at 7.5 in wide / 10.7 in tall, top of area (FW=1122 TOP=0), Printful sync 482259368. Copy/SEO/tags/price, dog christmas hoodie 320/KD32 in map, cover #269 (try 2 kept: try 1 pushed the lettering under a mug; no props in try 2 so nothing touches the print), 2 fronts + back, variant images, audit PASS, docs/review/202.jpg. Printful link queued (runner): `FORCE=1 FW=1122 TOP=0 python3 scripts/pf-sync.py setfile 482259368 1083363616 1080398177`. REVIEW once synced = 12. Note: the tee art has a white snow-drift shape behind the dogs (approved on the live tee).
+- 2026-10-16 22:39 UTC builder [A]: Printful sync complete; REVIEW.
