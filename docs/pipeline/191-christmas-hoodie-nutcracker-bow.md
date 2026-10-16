@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
 id: 191
@@ -20,3 +20,4 @@ handle: womens-christmas-nutcracker-bow-hoodie
 - 2026-10-16 14:29 UTC director: brief written, READY (Christmas hoodie twin, R11.5 lane A).
 - 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361632698672 (18500, Sand + Navy x S-3XL = 12), tee print file 1083077550 (Printful sync 482244917), 9.9 in wide (art is 3600x5624, tall). Copy/SEO/tags/price, keyword nutcracker hoodie 90/KD42 in map, cover #261 (try 1), 2 fronts + back, variant images, audit PASS, docs/review/191.jpg. Printful link queued: `FORCE=1 FW=1480 python3 scripts/pf-sync.py setfile 482244917 1083077550 1080398177`. REVIEW once synced = 12.
 - 2026-10-16 UTC builder [A]: Printful synced 12/12. → REVIEW.
+- 2026-10-16 17:21 UTC director: LIVE: ACTIVE + Online Store + Headless, audit PASS. Copy fix: removed "no frame or shape around it" (R8.3).
