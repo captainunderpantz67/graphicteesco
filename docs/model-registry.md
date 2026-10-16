@@ -331,8 +331,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 432 | Egyptian-American man in his early 50s, thick wavy grey hair, short salt-and-pepper beard, sturdy build | USED 2026-10-16 — #256 Technically a Vegetable crewneck cover try 1 (from the Sand mockup) |
 | 433 | Somali-American man in his late 30s, close-cropped hair, neat full beard, tall lean build | USED 2026-10-16 — #257 Wishbone Champion tee cover try 1 (from the Natural mockup) |
 | 434 | Ukrainian-American man in his early 40s, sandy-blond crew cut, light stubble, stocky build | USED 2026-10-16 — #258 Wishbone Champion crewneck cover |
-| 435 | Guatemalan-American man in his late 20s, short black hair in a textured crop with a low fade, clean-shaven | RESERVED — #259 Kids Table Alumni tee cover (with #449) |
+| 435 | Guatemalan-American man in his late 20s, short black hair in a textured crop with a low fade, clean-shaven | USED 2026-10-16 — #259 Kids Table Alumni tee cover (man; woman is #449) |
 | 436 | Samoan woman in her early 30s, long thick wavy black hair worn loose, warm wide smile | RESERVED — #260 Kids Table Alumni crewneck cover (with #450) |
-| 449 | Cambodian-American woman in her late 20s, blunt shoulder-length black hair tucked behind her ears, dimples | RESERVED — #259 Kids Table Alumni tee cover (with #435) |
+| 449 | Cambodian-American woman in her late 20s, blunt shoulder-length black hair tucked behind her ears, dimples | USED 2026-10-16 — #259 Kids Table Alumni tee cover (with #435) |
 | 450 | Trinidadian-American man in his early 30s, short dreadlocks tied up, thin mustache and chin beard | RESERVED — #260 Kids Table Alumni crewneck cover (with #436) |
 | 424 | South Asian woman in her mid 20s, long wavy dark hair in a side part, nose stud | USED 2026-10-16 — #248 Snow Problem crewneck cover try 1 (from the White mockup) |
