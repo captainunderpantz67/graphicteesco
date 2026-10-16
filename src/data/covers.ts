@@ -156,6 +156,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-fishing-cheaper-than-therapy-graphic-tee': { src: '/covers/mens-fishing-cheaper-than-therapy-graphic-tee.webp', alt: 'Man with a short red beard on a riverbank at golden hour beside a pickup with a tackle box on the tailgate wearing the Cheaper Than Therapy tee' },
   'womens-football-mom-down-set-snacks-graphic-tee': { src: '/covers/womens-football-mom-down-set-snacks-graphic-tee.webp', alt: 'Woman with wavy auburn hair on high school football bleachers under Friday night lights holding popcorn wearing the Down, Set, Snacks tee' },
   'unisex-anime-slurp-responsibly-graphic-tee': { src: '/covers/unisex-anime-slurp-responsibly-graphic-tee.webp', alt: 'Man and woman standing at a neon-lit ramen shop counter at night with steaming bowls behind them, both wearing the Slurp Responsibly tee' },
+  'womens-cropped-matcha-made-in-heaven-graphic-tee': { src: '/covers/womens-cropped-matcha-made-in-heaven-graphic-tee.webp', alt: 'Woman with curly blonde hair sitting in a sunny cafe booth with a matcha latte, wearing the Matcha Made in Heaven cropped tee' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

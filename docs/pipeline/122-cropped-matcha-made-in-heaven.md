@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16T08:27Z
+status: REVIEW
 lane: B
 type: new
 id: 122
@@ -16,3 +16,4 @@ handle: womens-cropped-matcha-made-in-heaven-graphic-tee
 ---
 ## Log
 - 2026-10-16 08:40 UTC director: moved from docs/design-briefs.md (was BUILDING there; that lane's run ended without finishing). READY to resume.
+- 2026-10-16 08:31 UTC [B]: resumed draft 15356822716720. Synced last 5 Mineral variants (40/40; Printful wants placement type 'front' for crop 4062), cover kept (woman, cafe, R6 ok), covers.ts + registry #192 USED, keyword map, price 24.99/29.99, variant images already linked, review sheet. Audit needs Storefront env: checked by hand.

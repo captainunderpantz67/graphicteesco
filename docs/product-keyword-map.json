@@ -2673,6 +2673,27 @@
      "kd": 50
     }
    ]
+  },
+  "womens-cropped-matcha-made-in-heaven-graphic-tee": {
+   "claimed": [
+    "matcha shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "matcha latte shirt",
+     "volume": 140,
+     "kd": 36,
+     "competition": null,
+     "gap": 3.41
+    },
+    {
+     "phrase": "cafe shirt",
+     "volume": 320,
+     "kd": 32,
+     "competition": null,
+     "gap": 8.64
+    }
+   ]
   }
  }
 }
