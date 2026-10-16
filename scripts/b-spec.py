@@ -15,6 +15,7 @@ B = {
 }
 b = B[i['blank']]; cols = i['colors']
 if i.get('details_extra'): b = dict(b, details=b['details'][:-1] + i['details_extra'] + b['details'][-1:])
+if i.get('details'): b = dict(b, details=i['details'])
 if i.get('price'): b = dict(b, price=i['price'], compare=i['compare'])
 lis = ''.join(f'<li>{d}</li>\n' for d in b['details'])
 qs = ''.join(f'<p><strong>{q}</strong><br>{a}</p>\n' for q, a in i['faq'])

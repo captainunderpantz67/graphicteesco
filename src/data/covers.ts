@@ -269,6 +269,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-thanksgiving-kids-table-alumni-graphic-tee': { src: '/covers/unisex-thanksgiving-kids-table-alumni-graphic-tee.webp', alt: 'Man and woman in matching Tan Kids Table Alumni tees beside a little folding kids table in a Thanksgiving dining room' },
   'unisex-thanksgiving-kids-table-alumni-crewneck-sweatshirt': { src: '/covers/unisex-thanksgiving-kids-table-alumni-crewneck-sweatshirt.webp', alt: 'Man and woman in matching Sand Kids Table Alumni crewneck sweatshirts on a farmhouse porch at golden hour' },
   'womens-y2k-hot-mess-express-zip-hoodie': { src: '/covers/womens-y2k-hot-mess-express-zip-hoodie.webp', alt: 'Woman with a lavender bob glancing over her shoulder in a navy Hot Mess Express Y2K zip hoodie showing the large back print on a city sidewalk outside a corner coffee bar with an iced coffee' },
+  'womens-embroidered-on-my-own-time-snail-hoodie': { src: '/covers/womens-embroidered-on-my-own-time-snail-hoodie.webp', alt: 'Woman in a Sand embroidered On My Own Time snail hoodie in a garden-center greenhouse aisle with potted ferns and terracotta pots' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

@@ -3932,11 +3932,16 @@
   },
   "womens-embroidered-on-my-own-time-snail-hoodie": {
    "claimed": [
-    "embroidered snail",
-    "snail hoodie"
+    "embroidered snail"
    ],
-   "gaps_measured": [],
-   "measured": "embroidered snail 390/KD31; snail hoodie 70/KD43 (RankHero 2026-10-16)"
+   "gaps_measured": [
+    {
+     "phrase": "embroidered snail",
+     "volume": 390,
+     "kd": 31
+    }
+   ],
+   "measured": "2026-10-16"
   },
   "mens-embroidered-eau-de-campfire-hoodie": {
    "claimed": [
