@@ -1,3 +1,4 @@
+RUNNING helper since 2026-10-16 16:42 UTC
 RUNNING lane B since 2026-10-16 16:36 UTC
 RUNNING lane A since 2026-10-16 16:36 UTC
 2026-10-16 16:14 UTC — [D] Director run 5: no REVIEW items (builders still blocked on fal top-up; #146 BUILDING [A], #131/#140 REDO). Inbox: nothing new. Queue already full: READY lane A 17, lane B 17 (lane C starts 2026-10-19). No new briefs, no Telegram ping (nothing reviewed). Lock released.
