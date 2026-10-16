@@ -267,6 +267,32 @@ Goal: ChatGPT, Perplexity, Google AI Overviews / AI Mode, Gemini, Copilot and Cl
      | hunting hoodie | 3,600 / 32 |
      | western hoodie | 3,600 / 36 |
 
+     **Added 2026-10-16 (cold-weather search sweep, Sam: "build for the search, leave no stone unturned"):**
+
+     | New page | Volume / KD |
+     |---|---|
+     | camo hoodies (IND4000 camo colors: Duck, Forest, Darkwood/Deadwood Tree, Black Camo) | 74,000 / 23 |
+     | graphic hoodies (hub) | 60,500 / 49 |
+     | graphic hoodies for women | 8,100 / 12 |
+     | oversized sweatshirts (Bella+Canvas 4711, Printful #897) | 40,500 / 47 |
+     | oversized hoodies for men (subset of oversized) | 18,100 / 10 |
+     | quarter zip sweatshirts / pullovers (Comfort Colors 1580 #1591, Lane Seven LS14014 #1473 or Sport-Tek ST357 #903) | 14,800/30 + 9,900/31 |
+     | half zip pullovers (Bella+Canvas 4740, Printful #1631) | 5,400 / 14 |
+     | zip up hoodies for women | 14,800 / 32 |
+     | zip up hoodies for men | 5,400 / 14 |
+     | embroidered hoodies (real embroidery, R4.8) | 14,800 / 49 |
+     | vintage hoodies | 12,100 / 53 |
+     | vintage sweatshirts | 9,900 / 60 |
+     | comfort colors sweatshirts (Comfort Colors 1566, Printful #839; say "Comfort Colors" only on these) | 12,100 / 56 |
+     | mama sweatshirts | 6,600 / 55 |
+     | christian sweatshirts | 6,600 / 52 |
+     | nurse sweatshirts | 5,400 / 51 |
+     | christmas sweatshirts for women | 5,400 / 62 |
+     | heavyweight sweatshirts | 2,900 / 34 |
+     | gym hoodies for men | 1,000 / 24 |
+
+     Order: volume ÷ difficulty (camo hoodies, graphic hoodie women, oversized hoodie men, half zip and men's zip-up first). Subset pages (men's/women's) can fill from tagging the parent's products plus their own designs. Price new blanks per R12.1's pattern: about $14–16 profit after Printful base and fees, regular price ending .99, sale $5 lower with that compare-at.
+     **Beanies: waiting on Sam's yes** (embroidered via Printful): custom beanie 8,100/36, cuffed beanie 5,400/34, pom pom beanie 5,400/42, embroidered beanie 2,400/43, christmas beanie 2,400/51, hunting beanie 880/26. "beanie" 450,000/45 is a hub only.
      Each to 14, highest volume ÷ difficulty first. Hoodie twins of strong existing designs reuse approved art (no new art generation).
    - Evergreen tees pause until cold-weather reaches 14 each.
    - The director creates missing collections first (cropped-hoodies, cropped-sweatshirts, embroidered-sweatshirts: Shopify smart collection by tag + collections.ts with hand-written copy and FAQs) and switches each hoodie collection on (hoodiesLive / the collection's flag) the run its first product goes LIVE.
