@@ -2533,6 +2533,88 @@
      "kd": 52
     }
    ]
+  },
+  "womens-christmas-christmas-cats-crewneck-sweatshirt": {
+   "claimed": [
+    "cat christmas sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cat christmas sweatshirt",
+     "volume": 2400,
+     "kd": 40
+    },
+    {
+     "phrase": "christmas cat sweatshirt",
+     "volume": 260,
+     "kd": 54
+    }
+   ]
+  },
+  "womens-christmas-christmas-golf-crewneck-sweatshirt": {
+   "claimed": [
+    "golf sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "golf sweatshirt",
+     "volume": 2900,
+     "kd": 34
+    }
+   ]
+  },
+  "womens-christmas-nutcracker-bow-crewneck-sweatshirt": {
+   "claimed": [
+    "nutcracker sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "nutcracker sweatshirt",
+     "volume": 1000,
+     "kd": 41
+    }
+   ]
+  },
+  "womens-christmas-highland-cow-christmas-crewneck-sweatshirt": {
+   "claimed": [
+    "highland cow sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "highland cow sweatshirt",
+     "volume": 880,
+     "kd": 43
+    }
+   ]
+  },
+  "womens-christmas-gingerbread-lane-crewneck-sweatshirt": {
+   "claimed": [
+    "gingerbread sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "gingerbread sweatshirt",
+     "volume": 880,
+     "kd": 47
+    }
+   ]
+  },
+  "womens-christmas-vintage-snowman-crewneck-sweatshirt": {
+   "claimed": [
+    "snowman sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "snowman sweatshirt",
+     "volume": 590,
+     "kd": 48
+    },
+    {
+     "phrase": "cocoa sweatshirt",
+     "volume": 390,
+     "kd": 31
+    }
+   ]
   }
  }
 }

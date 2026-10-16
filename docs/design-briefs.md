@@ -1418,7 +1418,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Primary keyword:** funny pie shirt — 20 / KD 48 (small but measured and unclaimed)
 - **Cover model:** registry #172
 
-### 102. Women's Thanksgiving – Pie Oh My Crewneck Sweatshirt  *(BUILDING [A])*
+### 102. Women's Thanksgiving – Pie Oh My Crewneck Sweatshirt  *(built 2026-10-16)*
 - **Handle:** `womens-thanksgiving-pie-oh-my-crewneck-sweatshirt` · Gildan 18000 (#145), $39.99 · art = #101
 - **Cover model:** registry #173
 

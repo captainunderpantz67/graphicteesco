@@ -193,9 +193,9 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 207 | Woman in her early 50s, chin-length silver bob, red-framed glasses | USED 2026-10-16 — Pumpkin Pie crewneck cover (fal Seedream 4, try 1; decorated farmhouse kitchen, coffee mug) |
 | 208 | Woman in her late 20s, long honey-brown waves, gold hoop earrings | USED 2026-10-16 — Friendsgiving crewneck cover (fal Seedream 4, try 2 kept: try 1 hair hid the F and the mug covered the print) |
 | 209 | Woman in her mid 40s, short dark pixie cut, freckles | USED 2026-10-16 — Give Thanks crewneck cover (fal Seedream 4, try 1; decorated living room, parade on TV) |
-| 210 | Woman in her early 30s, glossy black bob with bangs, cat-eye glasses | BUILDING [A] — Christmas Cats crewneck cover |
-| 211 | Woman in her late 50s, sun-kissed skin, short ash-blonde waves | BUILDING [A] — Christmas Golf crewneck cover |
-| 212 | Woman in her mid 20s, long dark hair in a sleek low ponytail with a velvet bow | BUILDING [A] — Nutcracker Bow crewneck cover |
-| 213 | Woman in her late 30s, strawberry-blonde braid over one shoulder | BUILDING [A] — Highland Cow Christmas crewneck cover |
-| 214 | Woman in her early 40s, short natural curls, warm brown eyes | BUILDING [A] — Gingerbread Lane crewneck cover |
-| 215 | Woman in her late 60s, white shoulder-length hair, rosy cheeks | BUILDING [A] — Vintage Snowman crewneck cover |
+| 210 | Woman in her early 30s, glossy black bob with bangs, cat-eye glasses | USED 2026-10-16 — Christmas Cats crewneck cover (fal Seedream 4, try 1; decorated living room, tabby on the sofa) |
+| 211 | Woman in her late 50s, sun-kissed skin, short ash-blonde waves | USED 2026-10-16 — Christmas Golf crewneck cover (fal Seedream 4, try 1; clubhouse at Christmas) |
+| 212 | Woman in her mid 20s, long dark hair in a sleek low ponytail with a velvet bow | USED 2026-10-16 — Nutcracker Bow crewneck cover (fal Seedream 4, try 1; nutcracker mantel) |
+| 213 | Woman in her late 30s, strawberry-blonde braid over one shoulder | USED 2026-10-16 — Highland Cow Christmas crewneck cover (fal Seedream 4, try 1; farm Christmas market) |
+| 214 | Woman in her early 40s, short natural curls, warm brown eyes | USED 2026-10-16 — Gingerbread Lane crewneck cover (fal Seedream 4, try 1; cookie-decorating kitchen) |
+| 215 | Woman in her late 60s, white shoulder-length hair, rosy cheeks | USED 2026-10-16 — Vintage Snowman crewneck cover (fal Seedream 4, try 1; snow-day cabin) |
