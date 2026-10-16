@@ -3591,15 +3591,15 @@
    ],
    "measured": "2026-10-16"
   },
-  "unisex-horror-night-shift-oversized-hoodie": {
+  "womens-cropped-ghost-club-cropped-hoodie": {
    "claimed": [
-    "horror movie hoodie"
+    "ghost hoodie"
    ],
    "gaps_measured": [
     {
-     "phrase": "horror movie hoodie",
-     "volume": 2900,
-     "kd": 30
+     "phrase": "ghost hoodie",
+     "volume": 3600,
+     "kd": 40
     }
    ],
    "measured": "2026-10-16"

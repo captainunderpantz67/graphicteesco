@@ -228,6 +228,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-christmas-lit-up-bow-crewneck-sweatshirt': { src: '/covers/womens-christmas-lit-up-bow-crewneck-sweatshirt.webp', alt: 'Woman in her mid 20s with long dark curls and a gold necklace in a navy All Lit Up bow crewneck sweatshirt in a living room with a lit Christmas tree and bow-topped gifts, hands in her pockets' },
   'unisex-horror-night-shift-oversized-hoodie': { src: '/covers/unisex-horror-night-shift-oversized-hoodie.webp', alt: 'Man and woman in matching black Night Shift oversized hoodies outside a neon-lit small-town movie theater at night' },
   'womens-christmas-christmas-nurse-crewneck-sweatshirt': { src: '/covers/womens-christmas-christmas-nurse-crewneck-sweatshirt.webp', alt: 'Woman in her mid 30s with brown hair in a high ponytail and stud earrings in a cream Nice List Nurse Christmas crewneck sweatshirt in a hospital break room decorated with paper snowflakes and a small tree' },
+  'womens-cropped-ghost-club-cropped-hoodie': { src: '/covers/womens-cropped-ghost-club-cropped-hoodie.webp', alt: 'Young woman in a black Ghost Club cropped hoodie in a campus coffee shop with fall leaves outside the window' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

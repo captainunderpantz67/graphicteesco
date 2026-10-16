@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16 21:31
+status: BUILDING [B] building done, REVIEW at 10/10 sync
 lane: B
 type: twin
 id: 228
@@ -18,3 +18,4 @@ handle: womens-cropped-ghost-club-cropped-hoodie
 ---
 ## Log
 - 2026-10-16 19:30 UTC director: brief written, READY (lane B cold-weather, R11.5).
+- 2026-10-16 21:35 UTC [B]: built as DRAFT (product 15362271609136, 10 variants Black + Military Green, $44.99/$49.99, 7502/#317). Print = preview crop of the tee file (748x800, original expired) 3x Lanczos to 2244x2400, file 1087838540, FW 1100 TOP 0. Mockups + back + variant images, cover registry #302 (try 1), keyword ghost hoodie 3600/40, audit-local PASS. Printful sync pid 482320933 running; set REVIEW at 10/10. Sheet docs/review/228.jpg.
