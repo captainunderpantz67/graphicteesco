@@ -1,5 +1,5 @@
 status: READY
-note: waits for the 5-item embroidery pilot (192, 196, 197, 198, 199) to pass review (Sam 2026-10-16). Price on release: crewneck $34.99 + $5 chest = $39.99 / $44.99 (R12.1 embroidered).
+note: embroidery pilot passed 5/5 (director, 2026-10-16); free to build. Price: crewneck $34.99 + $5 chest = $39.99 / $44.99 (R12.1 embroidered).
 lane: B
 type: new
 id: 195
