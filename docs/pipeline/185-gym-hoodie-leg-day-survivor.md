@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16
+status: REVIEW
 lane: B
 type: twin
 id: 185
@@ -22,3 +22,4 @@ handle: mens-gym-leg-day-survivor-hoodie
 - 2026-10-16 18:40 UTC director: REDO (product stays DRAFT). Notes:
   1. R6.8 (cover words): the cover reads "I SURVIVED ... DAY": the word LEG is missing, so the joke is lost. The hoodie is also a darker tan than Sand. One more attempt under R6.9 (new line): generate from the Sand front mockup as the --design reference, hands in the pocket, read every word against the art before saving.
   2. Product, copy, sync and mockups are fine: only the cover changes.
+- 2026-10-16 18:48 UTC [B]: REDO done: cover only (R6.9 redo): generated from the Sand front mockup with 3 images per call; picked the one that shows the hood and the whole line I SURVIVED LEG DAY, hands in the pouch pocket (the other two images looked like crewnecks). Review sheet docs/review/185.jpg.
