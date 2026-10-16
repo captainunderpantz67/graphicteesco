@@ -3574,6 +3574,15 @@
      "phrase": "horror movie hoodie",
      "volume": 2900,
      "kd": 30
+  "womens-christmas-christmas-nurse-crewneck-sweatshirt": {
+   "claimed": [
+    "nurse christmas sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "nurse christmas sweatshirt",
+     "volume": 480,
+     "kd": 54
     }
    ],
    "measured": "2026-10-16"

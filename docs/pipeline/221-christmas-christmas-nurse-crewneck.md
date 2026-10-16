@@ -18,3 +18,4 @@ handle: womens-christmas-christmas-nurse-crewneck-sweatshirt
 ---
 ## Log
 - 2026-10-16 19:05 UTC director: brief written, READY (R7.3 holiday pair: this tee had no crewneck twin).
+- 2026-10-16 22:50 UTC builder [A]: DRAFT gid://shopify/Product/15362265743664 (Gildan 18000; White, Sand, Light Pink, Light Blue, Sport Grey x S-3XL = 30; $34.99/$39.99), tee file 1083366642 (no new art), Printful sync 482320237 queued (runner; FORCE=1 FW=1500 setfile 482320237 1083366642 1080398177). Primary nurse christmas sweatshirt 480/KD54 in map. Cover #294 (try 1; no stethoscope on her so nothing crosses the print), 5 fronts + back, variant images, audit PASS, docs/review/221.jpg. REVIEW once synced = 30.

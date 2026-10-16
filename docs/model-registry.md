@@ -277,7 +277,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 291 | Vietnamese-American woman in her early 20s, long straight hair with a pink bow clip | USED 2026-10-16 — #218 Pink Christmas Trees crewneck cover try 2 (try 1 had a lighter panel behind the small line) |
 | 292 | Black woman in her late 50s, short grey natural hair, reading glasses on a chain | USED 2026-10-16 — #219 O Holy Night crewneck cover try 1 |
 | 293 | Puerto Rican woman in her mid 20s, long dark curls, gold necklace | USED 2026-10-16 — #220 Lit-Up Bow crewneck cover try 1 |
-| 294 | White woman in her mid 30s, brown hair in a high ponytail, small stud earrings | RESERVED — #221 Christmas Nurse crewneck cover |
+| 294 | White woman in her mid 30s, brown hair in a high ponytail, small stud earrings | USED 2026-10-16 — #221 Christmas Nurse crewneck cover try 1 |
 | 295 | White man in his early 60s, white flat-top haircut, heavyset | USED 2026-10-16 — #222 Retired From Cardio hoodie cover (fal Seedream 4, garage gym; try 1 kept) |
 | 296 | Middle Eastern man in his mid 40s, salt-and-pepper beard, short dark hair | USED 2026-10-16 — #223 Sore Since 1987 hoodie cover (fal Seedream 4, gym stairwell; try 1 kept) |
 | 297 | Native American man in his late 30s, long black hair in a single braid | USED 2026-10-16 — #224 Quack of Dawn camo hoodie cover (fal Seedream 4, duck marsh at sunrise; try 1 kept) |
