@@ -309,7 +309,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 422 | Japanese-American woman in her late 50s, salt-and-pepper hair in a short layered cut, soft smile lines | USED 2026-10-16 — #245 Nana's Cookies tee cover try 1 (from the Athletic Heather mockup) |
 | 423 | Black woman in her early 30s, natural afro puff, gold statement earrings | USED 2026-10-16 — #247 Snow Problem tee cover try 1 (from the White mockup) |
 | 424 | South Asian woman in her mid 20s, long wavy dark hair in a side part, nose stud | RESERVED — #248 Snow Problem crewneck cover |
-| 437 | Ethiopian-American man in his late 20s, close-cropped hair, thin mustache, wiry boxer's build | RESERVED — #261 Conflict Resolution oversized sweatshirt cover |
+| 437 | Ethiopian-American man in his late 20s, close-cropped hair, thin mustache, wiry boxer's build | USED 2026-10-16 — #261 Conflict Resolution oversized sweatshirt cover (try 1, image 3 of 3) |
 | 438 | Guatemalan-American woman in her late 20s, wavy dark hair in a loose half-up twist, gold-rimmed glasses | RESERVED — #262 Plot Twist oversized sweatshirt cover |
 | 439 | Cuban-American woman in her early 20s, dark curly hair in two puff buns, tiny gold huggie earrings | RESERVED — #263 Not Toad-ay zip hoodie cover |
 | 440 | Chinese-American woman in her mid 20s, chin-length bob dyed lavender, silver hoops | RESERVED — #264 Hot Mess Express zip hoodie cover |

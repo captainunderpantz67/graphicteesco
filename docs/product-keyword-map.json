@@ -3895,11 +3895,16 @@
   },
   "mens-gym-conflict-resolution-oversized-sweatshirt": {
    "claimed": [
-    "boxing sweatshirt",
-    "gym sweatshirt"
+    "boxing sweatshirt"
    ],
-   "gaps_measured": [],
-   "measured": "boxing sweatshirt 480/KD30; gym sweatshirt 3,600/KD36 (RankHero 2026-10-16)"
+   "gaps_measured": [
+    {
+     "phrase": "boxing sweatshirt",
+     "volume": 480,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-16"
   },
   "womens-bookish-plot-twist-oversized-sweatshirt": {
    "claimed": [
