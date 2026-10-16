@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16T08:35Z
+status: REVIEW
 lane: B
 type: new
 id: 124
@@ -16,3 +16,4 @@ handle: unisex-anime-mecha-mondays-graphic-tee
 ---
 ## Log
 - 2026-10-16 08:40 UTC director: moved from docs/design-briefs.md (was BUILDING there; that lane's run ended without finishing). READY to resume.
+- 2026-10-16 08:52 UTC [B]: finished from resume: Printful synced 54/54 (file 1087363194), cover checked and registered, price 24.99/29.99, variant images linked, keyword map, review sheet docs/review/124.jpg. Audit script needs a Storefront token: cohesion checked by hand.
