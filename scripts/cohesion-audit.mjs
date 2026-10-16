@@ -136,8 +136,11 @@ for (const p of products) {
   const hp = kind === 'hoodie' ? HOODIE.find(([re]) => re.test(p.handle)) : null;
   const [want, wantCmp] = pump ? ['39.99', null] : hp ? (onSale ? [hp[1], hp[2]] : [hp[2], null]) : kind === 'sweatshirt' ? (onSale ? ['34.99', '39.99'] : ['39.99', null]) : (onSale ? ['24.99', '29.99'] : ['29.99', null]);
   const prices = [...new Set(p.variants.nodes.map((v) => Number(v.price.amount).toFixed(2) + '/' + (v.compareAtPrice ? Number(v.compareAtPrice.amount).toFixed(2) : '-')))];
-  const wantKey = want + '/' + (wantCmp ?? '-');
-  if (prices.some((x) => x !== wantKey)) add('ERROR', p, `Price ${prices.join(', ')} (price/compare-at) — should be ${wantKey} on every variant.`, `Set every variant to price ${want}${wantCmp ? `, compare-at ${wantCmp}` : ', no compare-at'}.`);
+  // Embroidered (R12.1): +$5 chest, +$3 per cuff detail, so +5, +8 or +11 on both price and compare-at.
+  const bump = (x, d) => (x === null ? null : (Number(x) + d).toFixed(2));
+  const okKeys = /embroider/i.test(p.title) ? [5, 8, 11, 3, 6].map((d) => bump(want, d) + '/' + (bump(wantCmp, d) ?? '-')) : [want + '/' + (wantCmp ?? '-')];
+  const wantKey = okKeys[0];
+  if (prices.some((x) => !okKeys.includes(x))) add('ERROR', p, `Price ${prices.join(', ')} (price/compare-at) — should be ${wantKey} on every variant.`, `Set every variant to price ${want}${wantCmp ? `, compare-at ${wantCmp}` : ', no compare-at'}.`);
 
   // SEO basics Google reads.
   const st = p.seo?.title ?? '', sd = p.seo?.description ?? '';
