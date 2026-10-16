@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-16 17:12 UTC
+status: REVIEW
 lane: A
 type: twin
 id: 190
@@ -19,3 +19,4 @@ handle: womens-christmas-highland-cow-christmas-hoodie
 ## Log
 - 2026-10-16 14:29 UTC director: brief written, READY (Christmas hoodie twin, R11.5 lane A).
 - 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361632338224 (18500, Sand + Navy x S-3XL = 12), tee print file 1083449429 (Printful sync 482244765), 11 in wide. Copy/SEO/tags/price, keyword highland cow hoodie 1,300/KD28 in map, cover #260 (try 1), 2 fronts + back, variant images, audit PASS, docs/review/190.jpg. Printful link queued: `FORCE=1 FW=1650 python3 scripts/pf-sync.py setfile 482244765 1083449429 1080398177`. REVIEW once synced = 12.
+- 2026-10-16 UTC builder [A]: Printful synced 12/12. → REVIEW.
