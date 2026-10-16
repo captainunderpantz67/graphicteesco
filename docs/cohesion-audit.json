@@ -1,5 +1,5 @@
 {
- "at": "2026-10-16T13:28:31.341Z",
+ "at": "2026-10-16T13:43:32.017Z",
  "products": 158,
  "findings": [
   {
@@ -64,90 +64,6 @@
    "title": "Men's Gym – Iron Sharpens Iron Tee",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-western-steer-skull-wildflowers-graphic-tee",
-   "title": "Women's Western – Steer Skull & Wildflowers Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-western-saturday-night-rodeo-graphic-tee",
-   "title": "Women's Western – Saturday Night Rodeo Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-western-hold-on-eight-graphic-tee",
-   "title": "Unisex Western – Hold On Eight Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-western-vintage-bison-graphic-tee",
-   "title": "Unisex Western – Vintage Bison Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-western-saddle-blanket-steer-graphic-tee",
-   "title": "Unisex Western – Saddle Blanket Steer Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-western-howdy-graphic-tee",
-   "title": "Women's Western – Howdy Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-western-kick-up-dust-graphic-tee",
-   "title": "Women's Western – Kick Up Dust Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-western-wild-west-rider-graphic-tee",
-   "title": "Women's Western – Wild West Rider Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-western-barrel-racer-graphic-tee",
-   "title": "Women's Western – Barrel Racer Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-western-desert-rattler-graphic-tee",
-   "title": "Unisex Western – Desert Rattler Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-western-run-free-graphic-tee",
-   "title": "Women's Western – Run Free Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-western-lucky-horseshoe-graphic-tee",
-   "title": "Unisex Western – Lucky Horseshoe Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
    "level": "ERROR",
@@ -477,90 +393,6 @@
    "title": "Unisex Thanksgiving – Totally a Pilgrim Crewneck Sweatshirt",
    "msg": "Price 39.99/- (price/compare-at) — should be 34.99/39.99 on every variant.",
    "fix": "Set every variant to price 34.99, compare-at 39.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-soccer-mom-goal-digger-graphic-tee",
-   "title": "Women's Soccer Mom – Goal Digger Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-football-mom-hut-hut-hooray-graphic-tee",
-   "title": "Women's Football Mom – Hut Hut Hooray Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-baseball-mom-pitch-please-graphic-tee",
-   "title": "Women's Baseball Mom – Pitch Please Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-nurse-charting-is-my-cardio-graphic-tee",
-   "title": "Women's Nurse – Charting Is My Cardio Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-fishing-reel-talk-graphic-tee",
-   "title": "Men's Fishing – Reel Talk Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-hunting-deer-diary-graphic-tee",
-   "title": "Men's Hunting – Deer Diary Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christian-back-pew-crew-graphic-tee",
-   "title": "Women's Christian – Back Pew Crew Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-nurse-iv-league-graphic-tee",
-   "title": "Women's Nurse – IV League Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-football-mom-down-set-snacks-graphic-tee",
-   "title": "Women's Football Mom – Down, Set, Snacks Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-fishing-fisher-of-men-graphic-tee",
-   "title": "Men's Fishing – Fisher of Men (Mostly Bass) Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-anime-slurp-responsibly-graphic-tee",
-   "title": "Unisex Anime – Slurp Responsibly Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-fishing-cheaper-than-therapy-graphic-tee",
-   "title": "Men's Fishing – Cheaper Than Therapy (Barely) Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
    "level": "ERROR",

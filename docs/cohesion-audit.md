@@ -1,49 +1,13 @@
-# Cohesion audit — 2026-10-16 13:28 UTC
+# Cohesion audit — 2026-10-16 13:43 UTC
 
-158 live products checked · **74 errors** · 10 warnings · 83 products with findings
+158 live products checked · **50 errors** · 10 warnings · 59 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
-- 74 × Price ./- — should be ./. on every variant.
+- 50 × Price ./- — should be ./. on every variant.
 
 ## By product (errors first)
-### Women's Western – Steer Skull & Wildflowers Tee `womens-western-steer-skull-wildflowers-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Western – Saturday Night Rodeo Tee `womens-western-saturday-night-rodeo-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Unisex Western – Hold On Eight Tee `unisex-western-hold-on-eight-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Unisex Western – Vintage Bison Tee `unisex-western-vintage-bison-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Unisex Western – Saddle Blanket Steer Tee `unisex-western-saddle-blanket-steer-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Western – Howdy Tee `womens-western-howdy-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Western – Kick Up Dust Tee `womens-western-kick-up-dust-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Western – Wild West Rider Tee `womens-western-wild-west-rider-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Western – Barrel Racer Tee `womens-western-barrel-racer-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Unisex Western – Desert Rattler Tee `unisex-western-desert-rattler-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Western – Run Free Tee `womens-western-run-free-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Unisex Western – Lucky Horseshoe Tee `unisex-western-lucky-horseshoe-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
 ### Unisex Thanksgiving – Leftovers Club Tee `unisex-thanksgiving-leftovers-club-graphic-tee`
 - **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
 
@@ -182,42 +146,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Unisex Thanksgiving – Totally a Pilgrim Crewneck Sweatshirt `unisex-thanksgiving-totally-a-pilgrim-crewneck-sweatshirt`
 - **ERROR** Price 39.99/- (price/compare-at) — should be 34.99/39.99 on every variant. → Set every variant to price 34.99, compare-at 39.99.
-
-### Women's Soccer Mom – Goal Digger Tee `womens-soccer-mom-goal-digger-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Football Mom – Hut Hut Hooray Tee `womens-football-mom-hut-hut-hooray-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Baseball Mom – Pitch Please Tee `womens-baseball-mom-pitch-please-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Nurse – Charting Is My Cardio Tee `womens-nurse-charting-is-my-cardio-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Men's Fishing – Reel Talk Tee `mens-fishing-reel-talk-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Men's Hunting – Deer Diary Tee `mens-hunting-deer-diary-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Christian – Back Pew Crew Tee `womens-christian-back-pew-crew-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Nurse – IV League Tee `womens-nurse-iv-league-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Football Mom – Down, Set, Snacks Tee `womens-football-mom-down-set-snacks-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Men's Fishing – Fisher of Men (Mostly Bass) Tee `mens-fishing-fisher-of-men-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Unisex Anime – Slurp Responsibly Tee `unisex-anime-slurp-responsibly-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Men's Fishing – Cheaper Than Therapy (Barely) Tee `mens-fishing-cheaper-than-therapy-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
 
 ### Women's Thanksgiving – Here for the Scraps Tee `womens-thanksgiving-here-for-the-scraps-graphic-tee`
 - **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
