@@ -1,4 +1,4 @@
-RUNNING director since 2026-10-16 21:11 UTC
+2026-10-16 21:22 UTC — [D] Director run 9: 4 REVIEW items. LIVE (ACTIVE + Online Store + Headless, audit --handle PASS): #209 Mountain Christmas Bear hoodie (meta fixed), #222 Retired From Cardio hoodie. REDO: #151 Light Show Manager crewneck (cover garbles the lettering, mug at the print; R6.9 extra attempt), #210 Ski Lodge hoodie (filled O/D counters on Navy R5.3.8; hair over the print on the cover R6.9). Rulebook: R5.3.8 twins re-check counters. Queue: lane A 13 READY (new #241 Sleigh Queen, #242 Define Naughty, #243 Light Show Manager, #246 Totally a Pilgrim hoodies; #244/#245 Nana's Cookies crewneck + tee; #247/#248 Snow Problem tee + crewneck), lane B 13 READY. Registry #415-424 reserved. Inbox: nothing new (R11.5 OPEN list from 20:05 still for a later run; lane B queue is full). Telegram: 1 ping. Lock released.
 RUNNING lane A since 2026-10-16 21:15 UTC
 RUNNING lane B since 2026-10-16 21:12 UTC
 2026-10-16 21:14 UTC — [B] REVIEW #223 Sore Since 1987 hoodie, #224 Quack of Dawn camo hoodie, #225 Casting Doubt zip hoodie (drafts, synced 14/14, covers, mockups).
