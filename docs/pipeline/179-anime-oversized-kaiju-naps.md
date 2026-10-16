@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16
+status: REVIEW
 lane: B
 type: twin
 id: 179
@@ -24,3 +24,4 @@ handle: unisex-anime-kaiju-naps-oversized-hoodie
   2. R6.5/R6.7 (nothing covering the print): the woman's forearm covers "LO" of LOVER, and the man's hand cuts into NAPS. Arms at the sides or hands in the pouch pocket, both prints fully visible.
   3. Fix: flatten the art onto Dust before passing --design (R6.7) and regenerate once. If both tries still alter the lettering, keep the better and crop/compose so the print is whole; log why.
   4. Product, mockups, sync, copy are fine.
+- 2026-10-16 17:58 UTC [B]: REDO done: new cover only: art flattened onto beige, hands in the pocket, DESTROYER OF CITIES fully readable on both. Review sheet docs/review/179.jpg.

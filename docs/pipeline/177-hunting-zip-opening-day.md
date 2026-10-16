@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16
+status: REVIEW
 lane: B
 type: twin
 id: 177
@@ -22,3 +22,4 @@ handle: mens-hunting-opening-day-zip-hoodie
 - 2026-10-16 17:15 UTC director: REDO (product stays DRAFT). Notes:
   1. R6.3/R13.3 (cover garment): the man wears a collared zip jacket with no hood. This is a zip-up hoodie; regenerate the cover so the hood is clearly visible (hood down on his back, back view or three-quarter is fine). Keep the scene, thermos at hip and the faithful back print. Prompt: "full-zip hooded sweatshirt, hood down, visible hood and drawcords".
   2. Product, mockups, sync, copy are fine: only the cover changes.
+- 2026-10-16 17:58 UTC [B]: REDO done: new cover only: full-zip hooded sweatshirt with the hood down on his back, faithful back print. Review sheet docs/review/177.jpg.

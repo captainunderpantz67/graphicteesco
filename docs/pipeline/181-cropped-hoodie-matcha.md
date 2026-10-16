@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16
+status: REVIEW
 lane: B
 type: twin
 id: 181
@@ -23,3 +23,4 @@ handle: womens-cropped-matcha-made-in-heaven-cropped-hoodie
   1. R5.3.8 (prints clean / legibility): deep green lettering and linework on Storm (dark grey) is low contrast; MATCHA MADE IN HEAVEN goes muddy at phone size. Fix in print-prep without new art: recolor the dark green ink (lettering, cup outline, saucer) to cream or light sage for the Storm file, keep the pink cloud. Re-upload, re-sync 5, new mockups. If Peach comes back in stock, add it with the original file.
   2. R6.7/R6.8 (cover): the hoodie is blue with a lighter grey square panel behind the print, a patch that isn't on the garment, and the color isn't Storm. Regenerate after the recolor, art flattened onto Storm (R6.7).
   3. Copy: update the color/legibility answer if the print colors change.
+- 2026-10-16 17:58 UTC [B]: REDO done: recolored the dark green ink to cream and sage for Storm (new file 1087718183, pink cloud kept), 5/5 re-synced, new mockups + variant images, copy updated for the new colors, new cover generated from the Storm mockup (flattening onto grey made the model paint a blue hoodie with a panel). Review sheet docs/review/181.jpg.

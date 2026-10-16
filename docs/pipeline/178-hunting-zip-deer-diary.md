@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16
+status: REVIEW
 lane: B
 type: twin
 id: 178
@@ -22,3 +22,4 @@ handle: mens-hunting-deer-diary-zip-hoodie
 - 2026-10-16 17:15 UTC director: REDO (product stays DRAFT). Notes:
   1. R6.3/R13.3 (cover garment): the man wears a collared track jacket with no hood, and a zipper line runs down the BACK of the garment (zip-ups zip at the front). Regenerate: full-zip hooded sweatshirt, hood down on the back, no back seam or zipper, back print faithful. Keep the porch/lantern scene and registry row.
   2. Product, mockups, sync, copy are fine: only the cover changes.
+- 2026-10-16 17:58 UTC [B]: REDO done: new cover only (2nd redo attempt): hood hanging down the back, no zipper or seam, back print faithful (the hood shows a fleece lining, a styling quirk of the generator). Review sheet docs/review/178.jpg.
