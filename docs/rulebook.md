@@ -224,6 +224,14 @@ Goal: ChatGPT, Perplexity, Google AI Overviews / AI Mode, Gemini, Copilot and Cl
 10. **Standing research (Sam, 2026-10-16: "leave no stone unturned"):** every 3 days, alongside the citation check, scan for anything new: Google Search Central blog and "What's new" docs changelog, Merchant Center announcements, product structured-data docs, Microsoft/Bing webmaster + Merchant, OpenAI and Perplexity merchant docs, schema.org Product changes. Anything that applies to ecommerce becomes a dated rulebook line and a fix ticket. One-time backlog: a 2-year backtrack of all of the above (since Oct 2024), written to docs/research/ecom-search-backtrack.md as a gap checklist against our site (done in a session with Claude, not by the builders).
 9. **Measure (Sam: every 3 days):** a citation check every 3 days asks the main AIs our target questions and logs whether we're named and linked (planned; see the Content Monster AEO method).
 
+11. **What wins in AI answers for our queries (research 2026-10-16, docs/research/aeo-landscape-2026-10-16.md):**
+    - AI Overviews quote **slogans word for word and name the store** on funny-occasion queries. Every product title and the first sentence of its description name the joke and the occasion ("Sleigh All Day – Funny Christmas Tee for Women"; "Stuffed Since 1621 – Funny Thanksgiving Shirt"). AI Mode writes "The Joke:" / "Best For:" from that text.
+    - **Depth wins:** small brands get cited by catalog size and price ("27 designs at $34.95"). Funny and niche pages need 12+ designs before they're pushed.
+    - **Slogan-first funny collections:** /funny-thanksgiving-shirts/, /funny-christmas-shirts/, /funny-fishing-shirts/ (exact-match H1, price line, 12+ designs, joke on every card).
+    - **Brand-owned queries we deprioritize for new pages** (Hollister/AE/Gap/Nike/Amazon own them): custom photo shirt, quarter zip, zip up hoodie women, oversized hoodie men, head term "cropped hoodie". We still list products there, but don't spend new-page effort.
+    - **Empty collections stay noindex until stocked** (camo, half-zip, etc.).
+    - **Content that gets cited:** gift guides and "best of" roundups (including a few outside picks), fit/size guides, comparisons, direct PAA answers, plus short vertical videos. The plan is in the research doc, section 4.
+
 ## R10. Technical SEO and site
 1. **Ship, then test:** copy, SEO and template changes go straight live. Verify with build, the cohesion audit and curl, then fix forward. Screenshot first only for brand-new visual directions.
 2. **Speed:** keep Lighthouse 100s; static HTML; lazy images below the fold; eager hero.
