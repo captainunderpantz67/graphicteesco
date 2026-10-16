@@ -1,6 +1,6 @@
 # Computer jobs
 
-Things that need Sam's laptop and Chrome. Sam opens the computer about once a day and says go; Claude works this list top to bottom, then clears what's done.
+Things that need Sam's laptop and Chrome. Sam opens the computer about once a day and greets Tuesday ("Good morning Tuesday, it's time to save the world" or similar). That is the go signal: Claude works this list top to bottom, then clears what's done.
 
 ## TikToks to review
 (none yet; Sam sends links to Tuesday on Telegram)
