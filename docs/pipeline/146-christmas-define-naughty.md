@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 146
@@ -24,3 +24,4 @@ handle: mens-christmas-define-naughty-graphic-tee
 - 2026-10-16 UTC builder [A]: art done (Recraft try 2, scratchpad), Printful file 1087518142 (https://v3b.fal.media/files/b/0aae99f2/g2SAFIk-j6yWAk0ExeZBY_define-naughty.png). Shopify DRAFT created gid://shopify/Product/15360929661232, 56 variants (8 colors S-4XL), copy/SEO/tags/price done. Primary naughty christmas shirt 720/KD27. Still to do: Printful sync (tee 3001), keyword map, cover (#216), mockups + variant images, review sheet.
 - 2026-10-16 UTC builder [A]: resumed. Media (8 colors + back) and variant images were already on the draft; keyword map entry added; audit (scripts/audit-local.py, DRAFT) PASS 0 warn; docs/review/146.jpg. Printful variant link (56, FORCE so all share the 10 in / 0.5 in-below-top position) queued behind #140 and #148: `FORCE=1 python3 scripts/pf-sync.py setfile 482163454 1087518142 1080398177`. Set to REVIEW once synced = 56.
 - 2026-10-16 18:09 UTC builder [A]: Printful synced (all variants). → REVIEW.
+- 2026-10-16 18:40 UTC director: LIVE: ACTIVE + Online Store + Headless, audit --handle PASS.

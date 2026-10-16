@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 188
@@ -19,3 +19,4 @@ handle: unisex-fishing-lake-life-hoodie
 ## Log
 - 2026-10-16 14:28 UTC director: brief written, READY (cold-weather push, Sam 2026-10-16).
 - 2026-10-16 17:59 UTC [B]: built as DRAFT; twin of tee, file 1085667846 front 12.5 in + back logo, Sand + Sport Grey (black lettering vanishes on Navy), 14/14 synced, $39.99/$44.99, lake hoodie 210/33 + bass fishing hoodie 110/40. Cover try 2 kept (try 1 had a boxed print). Review sheet docs/review/188.jpg.
+- 2026-10-16 18:40 UTC director: LIVE: ACTIVE + Online Store + Headless, audit --handle PASS.

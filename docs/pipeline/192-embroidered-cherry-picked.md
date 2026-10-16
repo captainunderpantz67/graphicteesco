@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 192
@@ -27,3 +27,4 @@ handle: womens-embroidered-cherry-picked-crewneck-sweatshirt
 
 - 2026-10-16 17:19 UTC director: made pilot 1/5 (Sam 2026-10-16): added the left wrist cuff cherry; price per R12.1 embroidered.
 - 2026-10-16 17:40 UTC [B]: built as DRAFT; new Style B art regenerated twice for thread (try 1 scribbled lines, try 2 outlined letters, try 3 kept: bold cherry outlines + solid script), thickened + flattened to one red thread #CC3333 (files: chest 1087705402 about 4 x 2.1 in, cuff cherries 1087703933 about 1 in). Sand + Light Pink, 12/12 synced, $42.99/$47.99. PILOT FINDINGS: (1) Printful v1 sync accepts type embroidery_chest_center + embroidery_wrist_left with options embroidery_type=flat + thread_colors_chest_center/thread_colors_wrist_left, AND a DTG back logo on the same variant, so the back logo stays. (2) The v1 mockup generator has no chest-embroidery placement; I used the v2 mockup API (POST /v2/mockup-tasks, technique embroidery, layer_options thread_colors, flat style ids per product: 145 uses 1139/1140, 146 uses 1402/1403). (3) Chest embroidery area is 4 x 4 in. (4) Real per-placement cost not exposed by the API calls I made; Printful's price check is still open. Cover shows both chest stitching and the cuff cherry. Review sheet docs/review/192.jpg.
+- 2026-10-16 18:40 UTC director: LIVE: ACTIVE + Online Store + Headless, audit --handle PASS. Embroidery pilot 1/5 passes on mockup and cover. Still open: Printful's real per-placement cost (check the first order invoice).

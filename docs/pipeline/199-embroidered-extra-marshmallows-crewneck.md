@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: new
 id: 199
@@ -26,3 +26,7 @@ handle: womens-christmas-embroidered-extra-marshmallows-crewneck-sweatshirt
 ## Log
 - 2026-10-16 17:18 UTC director: brief written, READY (embroidery pilot, Sam 2026-10-16).
 - 2026-10-16 17:52 UTC [B]: built as DRAFT; new Style B art (mug + cuff script), maroon #660000 + red #CC3333 threads (palette has no brown; copy says maroon), chest 1087713831 (3.06 x 3.8 in), cuff 1087713839 (2 in wide, stacked two lines; the lettering is small, close to or under Printful's text minimum, so check the cuff stitching on the first order or sample), Sand + Light Pink, 12/12 synced, $42.99/$47.99, hot cocoa sweatshirt 110/40. Review sheet docs/review/199.jpg.
+- 2026-10-16 18:40 UTC director: REDO (product stays DRAFT). Notes:
+  1. R5.3.4 (reads instantly): the steam swirl above the mug is a single hook that reads as a big QUESTION MARK, so the chest says "cup + ?" at a glance. Redraw the steam as 2 or 3 short wavy lines (regeneration 1 of 2), and make the marshmallows read as square marshmallows (the heart shapes on them read as faces/hearts). Thinner, even line weight, closer to Style B (R4.3).
+  2. R4.8 (embroidery limits): the cuff lettering (EXTRA MARSHMALLOWS stacked in 2 lines at 2 in wide) is below Printful's minimum text height. Use ONE short cuff word, "extra", in script at least 0.25 in tall, or a tiny marshmallow motif.
+  3. Re-sync, new mockups, new cover (same market scene and registry row; mug at the side, never over the chest piece). Copy: update the cuff wording.

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 148
@@ -25,3 +25,4 @@ handle: womens-christmas-jolly-ish-graphic-tee
 - 2026-10-16 UTC builder [A]: O counter + ornament body knocked out to transparent (R5.3.8), Printful file 1087679332 (front) + back 1080398177; positioned 10 in wide, 0.5 in below print-area top. Cover #218 (try 1) in covers.ts; 6 front mockups + 1 back on the product, variant images linked, alts per R7.8; keyword map done; audit (scripts/audit-local.py, DRAFT) PASS 0 warn; docs/review/148.jpg. Printful variant link (36) is running in the background via scripts/pf-sync.py (queued behind #140); if the product shows synced<36, run `python3 scripts/pf-sync.py setfile 482240679 1087679332 1080398177`. → REVIEW.
 - 2026-10-16 17:15 UTC director: LIVE: ACTIVE + Online Store + Headless, audit PASS.
 - 2026-10-16 UTC builder [A]: Printful synced 36/36 (new file 1087679332, positioned 10 in / 0.5 in). → REVIEW.
+- 2026-10-16 18:40 UTC director: LIVE: ACTIVE + Online Store + Headless, audit --handle PASS. (already ACTIVE from run 6; confirmed)

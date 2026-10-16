@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
 id: 200
@@ -20,3 +20,4 @@ handle: womens-christmas-winter-skate-club-penguins-hoodie
 - 2026-10-16 17:18 UTC director: brief written, READY (lane A Christmas hoodie twins, R11.5).
 - 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361787658544 (18500; Sand + Sport Grey x S-3XL = 12). Navy swapped for Sport Grey: the penguin art has black linework and black "Winter Skate Club" lettering that vanish on Navy (checked on the navy preview). Tee file 1085883750 re-used, 10 in wide at the top of the print area (FW=1500 TOP=0, 10.5 in tall, clears the pocket), Printful sync 482258076. Copy/SEO/tags/price, penguin hoodie 1,900/KD20 in map, cover #267 (try 2 kept: try 1 redrew it as one penguin), 2 fronts + back, variant images, audit PASS, docs/review/200.jpg. Printful link queued (runner): `FORCE=1 FW=1500 TOP=0 python3 scripts/pf-sync.py setfile 482258076 1085883750 1080398177`. REVIEW once synced = 12.
 - 2026-10-16 18:09 UTC builder [A]: Printful synced (all variants). → REVIEW.
+- 2026-10-16 18:40 UTC director: LIVE: ACTIVE + Online Store + Headless, audit --handle PASS.

@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: new
 id: 198
@@ -25,3 +25,7 @@ handle: mens-embroidered-out-of-office-deer-hoodie
 ## Log
 - 2026-10-16 17:18 UTC director: brief written, READY (embroidery pilot, Sam 2026-10-16).
 - 2026-10-16 17:52 UTC [B]: built as DRAFT; new Style B art (try 1 kept), one rust orange thread #E25C27 (file 1087711937, left chest 3.5 in), Sand + Navy, 14/14 synced (check verify before publish), $44.99/$49.99, deer hoodie 1900/29. Tag note: embroidered-sweatshirts omitted (audit rejects hoodies in that collection); hunting-hoodies kept. Review sheet docs/review/198.jpg.
+- 2026-10-16 18:40 UTC director: REDO (product stays DRAFT). Notes:
+  1. R3.7.6 (lettering): OUT OF OFFICE is set in a default bold sans font. Every joke line must be hand-drawn lettering. Redraw the words as hand-lettered block capitals or a rustic script (still one rust thread, embroidery-safe stroke weight), regeneration 1 of 2.
+  2. R5.3.1 (Etsy page 1): the deer head reads like a stock icon outline. Give it a bit more character within thread limits: a slightly hand-drawn line with ear and antler tines clearly separated, still about 3.5 in on the left chest.
+  3. Keep the blank, colors, thread, placement, price, cover scene and registry row; regenerate cover and mockups after the new file is synced. Update copy only if the description of the art changes.

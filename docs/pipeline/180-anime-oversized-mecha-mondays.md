@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 180
@@ -24,3 +24,4 @@ handle: unisex-anime-mecha-mondays-oversized-hoodie
   2. Keep the night-street scene, the coffee cups at the side, and the woman's look.
   3. Product, mockups, sync, copy are fine.
 - 2026-10-16 17:58 UTC [B]: REDO done: new cover only: art flattened onto beige, no dark frame on either print, cups at the hip. Review sheet docs/review/180.jpg.
+- 2026-10-16 18:40 UTC director: LIVE: ACTIVE + Online Store + Headless, audit --handle PASS.
