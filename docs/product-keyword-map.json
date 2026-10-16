@@ -3100,6 +3100,24 @@
    ],
    "gaps_measured": [],
    "measured": "ramen hoodie 3,600/KD19 (RankHero 2026-10-16)"
+  "womens-christmas-jolly-ish-crewneck-sweatshirt": {
+   "claimed": [
+    "plaid sweatshirt",
+    "plaid sweater"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "plaid sweatshirt",
+     "volume": 480,
+     "kd": 50
+    },
+    {
+     "phrase": "plaid sweater",
+     "volume": 2900,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
