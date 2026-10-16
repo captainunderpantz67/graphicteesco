@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16 16:36Z
+status: REVIEW
 lane: B
 type: new
 id: 131
@@ -23,3 +23,4 @@ handle: mens-hunting-professional-tree-sitter-graphic-tee
   2. R5.3.8 (prints clean): white sky patches between the branches (left of the trunk at the first fork, and behind the ladder rungs) are filled white instead of transparent. On Natural/Soft Cream they print as white blobs. Knock every non-ink white area out in print-prep and preview on grey + the darkest offered color.
   3. Keep everything that works: PROFESSIONAL / TREE SITTER lettering, the buck below the stand (that is the joke), orange/green palette, the cover (regenerate the cover only if the print changes visibly; registry row may be reused for this product).
   Then re-upload, re-sync the 40 variants, regenerate mockups + variant images, new review sheet.
+- 2026-10-16 16:54 UTC [B]: built as DRAFT; R5.3.4/R5.3.8 redo: new art (hunter holds the bow across his lap), all non-ink white knocked out (checked on grey + dark), file 1087674825 re-synced 40/40, new cover (art-faithful, try 2), mockups + variant images swapped. Review sheet docs/review/131.jpg.

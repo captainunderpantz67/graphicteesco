@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: twin
 id: 177
@@ -18,3 +18,4 @@ handle: mens-hunting-opening-day-zip-hoodie
 ---
 ## Log
 - 2026-10-16 14:28 UTC director: brief written, READY (cold-weather push, Sam 2026-10-16).
+- 2026-10-16 16:54 UTC [B]: built as DRAFT; twin of tee, file 1085707777 (back full 11in + left chest 3.5in; no neck logo on zip-up), Ash + Sport Grey (navy hides the dark buck linework), 14/14 synced, $44.99/$49.99, hunting hoodie men 880/26. Review sheet docs/review/177.jpg.
