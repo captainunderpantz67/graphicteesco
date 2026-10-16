@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16 22:48
+status: REVIEW
 lane: B
 type: twin
 id: 227
@@ -24,3 +24,4 @@ handle: unisex-horror-night-shift-oversized-hoodie
   2. Redraw (one new Recraft v4 generation, max 2): the glowing jack-o'-lantern under a full moon with the haunted house behind, MIDNIGHT SHOWING in dripping hand-drawn letters, edges breaking up into worn print texture, no box, no spine, no border. Size it to fill the chest (about 12 in wide on the 4719).
   3. Keep the handle; the Story describes only what the new art shows (no 'VHS cover' wording unless the art still shows a tape). New mockups and cover (man AND woman, R6.3).
 - 2026-10-16 22:51 UTC [B]: REDO fix (round 1): redrawn without the case: Recraft v4 try 1 (jack-o'-lantern under a full moon, haunted house with a lit window, bats, MIDNIGHT SHOWING in dripping red hand-drawn letters, no frame/spine/border), print-prep to 3600 px (3600 x 3830), Printful file 1087876776, sized 10 in wide x 10.6 in tall (FW 1500 TOP 0; the front print area is 11 in square, 1650 px), reads on Black and Navy. Mockups replaced in place, copy rewritten (poster / art words only, the matching-tee FAQ dropped because the tee still has the old case art), new cover (registry #300 + #301, image 2 of 3). Set REVIEW at 12/12. Sheet docs/review/227.jpg.
+- 2026-10-16 22:55 UTC [B]: synced 12/12, REVIEW.

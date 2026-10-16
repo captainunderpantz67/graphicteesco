@@ -6,6 +6,7 @@
 2026-10-16 21:38 UTC — [A] BUILDING #218 Pink Christmas Trees, #219 O Holy Night, #220 Lit-Up Bow, #221 Christmas Nurse crewnecks (drafts, covers #291-294, mockups, audit PASS; syncs queued). Printful sync is the bottleneck (~1 variant/min shared with lane B): 23 lane A items wait at 0 to 57 variants synced; the runner dies with each container, rerun the setfile commands in each item's log (FORCE=1 only for items not yet synced).
 RUNNING lane A since 2026-10-16 21:15 UTC
 RUNNING lane B since 2026-10-16 21:12 UTC
+2026-10-16 22:55 UTC — [B] #227 redone -> REVIEW; #228 redrawn (sync running).
 2026-10-16 22:52 UTC — [B] REDO fixes: #223 (line erased), #226 (counters knocked out) -> REVIEW; #227 redrawn (sync running).
 2026-10-16 22:41 UTC — [B] REVIEW #194 Morel Support and #195 Purrsonal Space embroidered crewnecks (synced).
 2026-10-16 22:36 UTC — [B] BUILDING #194 Morel Support (REVIEW at sync) and #195 Purrsonal Space embroidered crewnecks; #193 Whisk Taker in REVIEW.
