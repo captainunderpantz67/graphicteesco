@@ -3755,6 +3755,15 @@
      "phrase": "queen hoodie",
      "volume": 1000,
      "kd": 24
+  "mens-gym-study-in-hypertrophy-oversized-hoodie": {
+   "claimed": [
+    "oversized gym hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "oversized gym hoodie",
+     "volume": 1900,
+     "kd": 16
     }
    ],
    "measured": "2026-10-16"

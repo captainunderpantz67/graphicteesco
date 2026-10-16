@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Printful sync helper (no secrets: reads PRINTFUL_TOKEN from the environment).
   pf-sync.py upload <url> <filename>                    -> prints Printful file id
+  (env ONLY=<text in the variant name> limits setfile to those variants, e.g. one color)
   pf-sync.py setfile <sync_product_id> <front_file_id> [<back_file_id>]
         sets front (default) + back files on every variant (links unsynced ones via the catalog id at the end of their SKU) of an existing sync product (paced 6 s, honors 429)
   pf-sync.py status <sync_product_id>                   -> variants / synced counts"""
@@ -37,6 +38,7 @@ elif cmd == 'setfile':
     vs = call('GET', f'/sync/products/{pid}')['sync_variants']
     ff = call('GET', f'/files/{front}'); POS = None
     for i, v in enumerate(vs):
+        if os.environ.get('ONLY') and os.environ['ONLY'] not in v['name']: continue
         cur = {f['type']: f['id'] for f in v['files']}
         if POS is None: POS = front_pos(v['variant_id'] or int(v['sku'].split('-')[-1]), ff['width'], ff['height'])
         if v['synced'] and cur.get('default') == front and (back is None or cur.get('back') == back) and not FORCE: continue

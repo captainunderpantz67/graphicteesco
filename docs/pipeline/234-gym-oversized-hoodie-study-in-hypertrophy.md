@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16 21:57
+status: REVIEW
 lane: B
 type: twin
 id: 234
@@ -18,3 +18,5 @@ handle: mens-gym-study-in-hypertrophy-oversized-hoodie
 ---
 ## Log
 - 2026-10-16 20:00 UTC director: brief written, READY (lane B cold-weather sweep, R11.5 added 2026-10-16).
+- 2026-10-16 22:02 UTC [B]: built as DRAFT (product 15362326135088, 12 variants Dust + Navy, $54.99/$59.99, oversized 4719/#892). Two files: the tee's original dark-ink file 1083188386 on Dust, a copy with the museum caption recolored cream (file 1087852175) on Navy (caption sank on navy); FW 1115 TOP 0 (9.9 in tall so it clears the pocket). Mockups + back, variant images, cover registry #308 (try 2: try 1 garbled the caption), keyword oversized gym hoodie 1900/16, audit-local PASS. Sync pid 482329326 (Dust then Navy files); REVIEW at 12/12. Sheet docs/review/234.jpg.
+- 2026-10-16 22:02 UTC [B]: synced, REVIEW.

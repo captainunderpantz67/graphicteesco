@@ -241,6 +241,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-hunting-no-deer-today-camo-hoodie': { src: '/covers/mens-hunting-no-deer-today-camo-hoodie.webp', alt: 'Man in a Black Camo No Deer Today hoodie on a deer camp cabin porch at dawn with a thermos on the rail' },
   'mens-hunting-professional-tree-sitter-camo-hoodie': { src: '/covers/mens-hunting-professional-tree-sitter-camo-hoodie.webp', alt: 'Man in a Forest Camo Professional Tree Sitter hoodie at the base of an autumn oak with a ladder stand above and a bow case on the trunk' },
   'womens-christmas-sleigh-queen-hoodie': { src: '/covers/womens-christmas-sleigh-queen-hoodie.webp', alt: 'Woman in her late 20s with big curly dark hair worn half up and gold hoop earrings in a sand Sleigh Queen Christmas hoodie with the hood visible at a snowy Christmas market at dusk, shopping bag at her hip' },
+  'mens-gym-study-in-hypertrophy-oversized-hoodie': { src: '/covers/mens-gym-study-in-hypertrophy-oversized-hoodie.webp', alt: 'Man in a navy Study in Hypertrophy oversized hoodie in a sunlit museum hallway turned gym with marble statues behind him' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
