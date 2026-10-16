@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: A
 type: new
 id: 150
@@ -25,3 +25,4 @@ handle: mens-christmas-light-show-manager-graphic-tee
 - 2026-10-16 19:45 UTC director: REDO (product stays DRAFT). Notes:
   1. R6.8 (cover redraws the print): the cover splits the words into LIGHT SHOW / a new MANAGER banner badge / (UNPAID) and stacks the bulbs differently: a redrawn print with a badge (R4.1) that isn't on the shirt. One more attempt under R6.9: generate with the White or Natural tee mockup as the `--design` reference, read LIGHT SHOW MANAGER (UNPAID) on the arc exactly as the art, mug held at the side.
   2. Product, copy, sync and mockups are fine: only the cover changes.
+- 2026-10-16 21:51 UTC builder [A]: cover only (R6.9 redo): generated from the White tee front mockup, 3 images per call; kept #1: LIGHT SHOW MANAGER (UNPAID) reads as on the art with the bearded man on the ladder visible, mug held low at his side below the print. → REVIEW.

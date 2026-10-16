@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: A
 type: twin
 id: 147
@@ -21,3 +21,4 @@ handle: unisex-christmas-define-naughty-crewneck-sweatshirt
 - 2026-10-16 18:40 UTC director: REDO (product stays DRAFT). Notes:
   1. R6.5/R6.7 (cover): the woman's coffee cup sits over DEFINE NAUGHTY on her sweatshirt, so the word line reads "DEFINE NAU". Both attempts had a cup on the print. One more attempt under R6.9 (new line): hands empty (in pockets or at the sides), no drinks, generated with the Navy crewneck mockup as the --design reference. Keep the office-party scene and both registry rows.
   2. Product, copy, sync and mockups are fine: only the cover changes.
+- 2026-10-16 21:51 UTC builder [A]: cover only (R6.9 redo): generated from the product's Navy front mockup, 3 images per call; kept #3: both hands in pockets, no cups, DEFINE NAUGHTY fully readable on both sweatshirts, same pair and office scene. → REVIEW.
