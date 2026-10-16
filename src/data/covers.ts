@@ -165,11 +165,12 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-y2k-still-loading-graphic-tee': { src: '/covers/womens-y2k-still-loading-graphic-tee.webp', alt: 'Woman with a sleek black ponytail and butterfly clips standing in a bedroom with a vintage computer and posters, wearing the Still Loading Since 1999 tee' },
   'womens-y2k-hot-mess-express-graphic-tee': { src: '/covers/womens-y2k-hot-mess-express-graphic-tee.webp', alt: 'Woman with curly red hair in space buns walking on a city sidewalk outside a coffee shop, wearing the Hot Mess Express tee' },
   'womens-cropped-espresso-yourself-graphic-tee': { src: '/covers/womens-cropped-espresso-yourself-graphic-tee.webp', alt: 'Woman with long brown hair and bangs leaning on a cafe espresso bar, wearing the Espresso Yourself cropped tee' },
-  'mens-hunting-professional-tree-sitter-graphic-tee': { src: '/covers/mens-hunting-professional-tree-sitter-graphic-tee.webp', alt: 'Bearded man in a camo cap standing in autumn woods beside a tree stand ladder, wearing the Professional Tree Sitter tee' },
+  'mens-hunting-professional-tree-sitter-graphic-tee': { src: '/covers/mens-hunting-professional-tree-sitter-graphic-tee.webp', alt: 'Bearded man in a camo cap standing in autumn woods beside a tree stand ladder, wearing the Professional Tree Sitter bowhunting tee' },
   'womens-nurse-dont-say-the-q-word-graphic-tee': { src: '/covers/womens-nurse-dont-say-the-q-word-graphic-tee.webp', alt: 'Woman in navy scrub pants with a messy bun standing outside a hospital emergency entrance at sunset, wearing the Don\'t Say the Q Word tee' },
   'unisex-anime-kaiju-naps-graphic-tee': { src: '/covers/unisex-anime-kaiju-naps-graphic-tee.webp', alt: 'Man and woman standing together on a city rooftop at sunset, both wearing the Destroyer of Cities, Lover of Naps tee' },
   'mens-christmas-define-naughty-graphic-tee': { src: '/covers/mens-christmas-define-naughty-graphic-tee.webp', alt: 'Man in a decorated living room on Christmas morning, torn wrapping paper on the floor, wearing the Define Naughty Santa tee in navy' },
   'womens-christmas-jolly-ish-graphic-tee': { src: '/covers/womens-christmas-jolly-ish-graphic-tee.webp', alt: 'Woman with long dark curls and gold hoop earrings at a Christmas market at dusk under string lights, holding a paper shopping bag, wearing the Jolly-ish plaid Christmas shirt' },
+  'mens-hunting-opening-day-zip-hoodie': { src: '/covers/mens-hunting-opening-day-zip-hoodie.webp', alt: 'Man in a blaze-orange beanie looking over his shoulder at a frosty field at first light, wearing the Opening Day zip hoodie with the buck print on the back' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

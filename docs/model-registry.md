@@ -230,7 +230,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 244 | Black man in his early 50s, grey goatee, broad build, ball cap | RESERVED — #174 Ugly But Delicious catfish cover |
 | 245 | White man in his mid 40s, blond buzz cut, ruddy cheeks, heavyset | RESERVED — #175 Eyes on the Prize walleye cover |
 | 246 | Latino man in his late 20s, short fade haircut, thin mustache, athletic build | RESERVED — #176 Swing Shift kettlebell cover |
-| 247 | White man in his late 30s, dark brown hair under a blaze-orange beanie, short beard | RESERVED — #177 Opening Day zip hoodie cover (director 2026-10-16) |
+| 247 | White man in his late 30s, dark brown hair under a blaze-orange beanie, short beard | USED 2026-10-16 — #177 Opening Day zip hoodie cover (fal Seedream 4, frosty field, back view; try 1 kept) |
 | 248 | Cherokee man in his early 60s, grey ponytail, weathered face | RESERVED — #178 Deer Diary zip hoodie cover |
 | 249 | Pair: Thai-American man in his early 20s, bleached tips + Black woman in her early 20s, short curly fro | RESERVED — #179 Kaiju Naps oversized hoodie cover (man + woman) |
 | 250 | Pair: Vietnamese-American man in his mid 20s, round glasses + white woman in her mid 20s, pink-dyed bob | RESERVED — #180 Mecha Mondays oversized hoodie cover (man + woman) |
