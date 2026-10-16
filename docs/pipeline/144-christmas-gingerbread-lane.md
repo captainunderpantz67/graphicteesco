@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: A
 type: twin
 id: 144
@@ -12,3 +12,5 @@ handle: womens-christmas-gingerbread-lane-crewneck-sweatshirt
 ---
 ## Log
 - 2026-10-16 08:40 UTC director: moved from docs/design-briefs.md (was BUILDING there; that lane's run ended without finishing). READY to resume.
+- 2026-10-16 UTC builder [A]: Printful 482109764 synced 57/57 (file 1078953530, front+back); Shopify draft 15360179863856 already had copy, price, tags, 6+ flat fronts + back, variant images; cover #214; review sheet docs/review/144.jpg. Audit needs Storefront token: cohesion checked by hand. → REVIEW.
+- NOTE for director: the reused tee art is an arched framed emblem (R4.1 badge look); built before the rule, twin reuses it unchanged.
