@@ -246,6 +246,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-christmas-light-show-manager-hoodie': { src: '/covers/mens-christmas-light-show-manager-hoodie.webp', alt: 'Man in his mid 40s with short cropped black hair and a thin goatee in a sand Light Show Manager Christmas hoodie with the hood visible in a suburban front yard at dusk, a ladder against the gutter behind him' },
   'mens-fishing-reel-talk-half-zip': { src: '/covers/mens-fishing-reel-talk-half-zip.webp', alt: 'Man looking over his shoulder in a navy Reel Talk half zip showing the large bass print on the back at a boat ramp at dawn with a bass boat on its trailer' },
   'womens-christmas-nanas-cookies-crewneck-sweatshirt': { src: '/covers/womens-christmas-nanas-cookies-crewneck-sweatshirt.webp', alt: 'Woman in her early 60s with white hair in a soft low bun and glasses on a beaded chain in a sand Nana's Cookies Christmas crewneck sweatshirt in a farmhouse kitchen with cookie trays on the counter and a lit tree in the doorway' },
+  'womens-embroidered-whisk-taker-matcha-crewneck-sweatshirt': { src: '/covers/womens-embroidered-whisk-taker-matcha-crewneck-sweatshirt.webp', alt: 'Woman in glasses wearing a Sand embroidered Whisk Taker matcha crewneck sweatshirt at a bright neighborhood café counter beside a matcha latte' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

@@ -3820,6 +3820,15 @@
      "phrase": "nana sweatshirt",
      "volume": 2400,
      "kd": 44
+  "womens-embroidered-whisk-taker-matcha-crewneck-sweatshirt": {
+   "claimed": [
+    "matcha sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "matcha sweatshirt",
+     "volume": 480,
+     "kd": 36
     }
    ],
    "measured": "2026-10-16"
