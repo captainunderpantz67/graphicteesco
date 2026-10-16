@@ -262,3 +262,34 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 276 | White woman in her early 30s, strawberry-blonde waves, freckles | USED 2026-10-16 — #205 North Woods Moose hoodie cover (with #275, fal Seedream 4) |
 | 277 | Japanese-American woman in her mid 30s, sleek low bun, small hoops | USED 2026-10-16 — #206 Christmas Cats hoodie cover (fal Seedream 4, decorated living room with a real cat; try 1 kept) |
 | 278 | Brazilian woman in her early 40s, voluminous dark curls, red lipstick | USED 2026-10-16 — #207 Vintage Snowman hoodie cover (fal Seedream 4, snowy main street; try 2 kept: try 1 showed a lighter panel behind the print, so the art was flattened on a darker navy) |
+| 279 | White woman in her late 40s, silver-blonde chin-length bob, golf visor | RESERVED — #208 Christmas Golf hoodie cover |
+| 280 | Black man in his late 30s, close-cropped hair, full beard, broad build | RESERVED — #209 Mountain Christmas Bear hoodie (with #281) cover |
+| 281 | White woman in her early 40s, long chestnut hair under a cream knit beanie | RESERVED — #209 Mountain Christmas Bear hoodie (with #280) cover |
+| 282 | Korean-American man in his late 20s, swept-back black hair, clean-shaven | RESERVED — #210 Ski Lodge hoodie (with #283) cover |
+| 283 | Latina woman in her late 20s, honey-brown balayage waves | RESERVED — #210 Ski Lodge hoodie (with #282) cover |
+| 284 | White woman in her early 50s, short silver pixie cut, laugh lines | RESERVED — #211 Golden Retriever hoodie cover |
+| 285 | Black woman in her mid 30s, long box braids in a low ponytail | RESERVED — #212 Christmas on the Farm horse hoodie cover |
+| 286 | Filipino-American woman in her early 30s, shoulder-length black hair with bangs | RESERVED — #213 Dough Ho Ho tee cover |
+| 287 | White woman in her late 30s, red curly hair in a messy bun | RESERVED — #214 Dough Ho Ho crewneck cover |
+| 288 | Mexican-American woman in her mid 40s, dark hair in a sleek bun, gold hoops | RESERVED — #215 Dough Ho Ho hoodie cover |
+| 289 | White woman in her late 20s, platinum straight shoulder-length hair, light freckles | RESERVED — #216 Hello Winter hoodie cover |
+| 290 | Black woman in her early 40s, shoulder-length twist-out, cowboy hat | RESERVED — #217 Ho Ho Howdy hoodie cover |
+| 291 | Vietnamese-American woman in her early 20s, long straight hair with a pink bow clip | RESERVED — #218 Pink Christmas Trees crewneck cover |
+| 292 | Black woman in her late 50s, short grey natural hair, reading glasses on a chain | RESERVED — #219 O Holy Night crewneck cover |
+| 293 | Puerto Rican woman in her mid 20s, long dark curls, gold necklace | RESERVED — #220 Lit-Up Bow crewneck cover |
+| 294 | White woman in her mid 30s, brown hair in a high ponytail, small stud earrings | RESERVED — #221 Christmas Nurse crewneck cover |
+| 295 | White man in his early 60s, white flat-top haircut, heavyset | RESERVED — #222 Retired From Cardio hoodie cover |
+| 296 | Middle Eastern man in his mid 40s, salt-and-pepper beard, short dark hair | RESERVED — #223 Sore Since 1987 hoodie cover |
+| 297 | Native American man in his late 30s, long black hair in a single braid | RESERVED — #224 Quack of Dawn heavyweight hoodie cover |
+| 298 | White man in his late 40s, ginger beard, bucket hat | RESERVED — #225 Casting Doubt zip hoodie cover |
+| 299 | Latina woman in her early 20s, long dark hair, tan cowgirl hat | RESERVED — #226 Howdy hoodie cover |
+| 300 | Black man in his mid 20s, high-top fade, small silver chain | RESERVED — #227 Night Shift hoodie (with #301) cover |
+| 301 | White woman in her mid 20s, black curtain-bang shag, nose ring | RESERVED — #227 Night Shift hoodie (with #300) cover |
+| 302 | Chinese-American woman in her early 20s, long hair in a half-up claw clip | RESERVED — #228 Ghost Club cropped hoodie cover |
+| 303 | Samoan man in his early 30s, curly hair tied back, broad build | RESERVED — #229 Beach Body Pending hoodie cover |
+| 304 | White woman in her early 30s, long sandy-blonde braid, light tan | RESERVED — #230 Kick Up Dust camo hoodie cover |
+| 305 | White man in his mid 30s, dark brown beard, blaze-orange cap | RESERVED — #231 Opening Day camo hoodie cover |
+| 306 | Black man in his early 50s, grey goatee, bald, broad shoulders | RESERVED — #232 No Deer Today camo hoodie cover |
+| 307 | Hmong-American man in his early 30s, short spiky black hair | RESERVED — #233 Tree Sitter camo hoodie cover |
+| 308 | Greek-American man in his late 20s, dark wavy hair, trimmed beard, muscular | RESERVED — #234 Study in Hypertrophy oversized hoodie cover |
+| 309 | White man in his mid 50s, grey crew cut, sunglasses pushed up on his head | RESERVED — #235 Reel Talk half zip cover |

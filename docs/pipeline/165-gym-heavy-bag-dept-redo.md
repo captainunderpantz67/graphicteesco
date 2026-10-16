@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 reason: paused for cold-weather, resume after (Sam, 2026-10-16: evergreen tees wait until every cold-weather collection reaches 14, R11.5).
 lane: B
 type: redo
@@ -24,3 +24,4 @@ handle: mens-gym-heavy-bag-dept-graphic-tee
 - 2026-10-16 12:53 UTC [B]: run stopped by fal.ai lock (TOP_UP): file hosting + cover generation blocked. Nothing changed on the live product. Note: Shopify draft products for 167 (15360931430704) and 168 (15360933036336) already exist with copy and no media; Printful sync products 482163651 / 482163786 exist (168 variants unmapped, needs catalog variant mapping).
 - 2026-10-16 14:26 UTC director: PARKED for the cold-weather push (R11.5).
 - 2026-10-16 16:39 UTC Claude: Sam wants every weak men's shirt redone now; READY for lane B alongside cold-weather.
+- 2026-10-16 18:41 UTC [B]: REDO done: in-place redo of the ACTIVE product: new Recraft art (Conflict Resolution, try 1), single original-ink file for all 4 light colors, 30 variants re-syncing, new mockups + variant images + cover (#235, 3 images per call, best kept), copy unchanged (still accurate). Review sheet docs/review/165.jpg.

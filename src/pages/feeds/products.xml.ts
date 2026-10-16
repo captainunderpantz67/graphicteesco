@@ -15,12 +15,20 @@ const num = (gid: string) => gid.split('/').pop()!;
 const gender = (h: string) => (h.startsWith('womens-') ? 'female' : h.startsWith('mens-') ? 'male' : 'unisex');
 const abs = (u: string) => (u.startsWith('http') ? u : `${site.url}${u}`);
 
-export const GET: APIRoute = async () => {
-  const products = (await getAllProducts()).filter((p) => !p.sample && p.images.length && p.variants.length);
+// Split into pages of FEED_PAGE_SIZE products so no file nears Cloudflare's 25 MiB cap as the catalog grows.
+// products.xml = page 1; products-2.xml, products-3.xml… hold the rest. Register every page in Merchant Center / Pinterest.
+export const FEED_PAGE_SIZE = 60;
+export const feedProducts = async () => (await getAllProducts()).filter((p) => !p.sample && p.images.length && p.variants.length);
+
+export const GET: APIRoute = async () => renderFeed((await feedProducts()).slice(0, FEED_PAGE_SIZE));
+
+export const renderFeed = (products: Awaited<ReturnType<typeof feedProducts>>) => {
   const items: string[] = [];
   for (const p of products) {
     const link = `${site.url}/products/${p.handle}/`;
-    const desc = text(p.descriptionHtml || p.description).slice(0, 4900);
+    // Kept short: the description repeats on every variant row, and Cloudflare Pages caps a file at 25 MiB
+    // (the full-length feed hit 29.6 MiB on 2026-10-16 and blocked every deploy). Google needs no more than this.
+    const desc = text(p.descriptionHtml || p.description).slice(0, 900).replace(/\s+\S*$/, '');
     const col = all.find((c) => p.collections?.includes(c.shopifyHandle) && c.slug !== 'graphic-tees-for-men' && c.slug !== 'graphic-tees-for-women');
     const isSweat = /sweatshirt|crewneck|hood/i.test(p.title + ' ' + p.productType);
     const cover = covers[p.handle] ? abs(covers[p.handle].src) : null;
@@ -29,7 +37,7 @@ export const GET: APIRoute = async () => {
     for (const v of p.variants) {
       const o = Object.fromEntries(v.selectedOptions.map((x) => [x.name.toLowerCase(), x.value]));
       const main = v.image?.url ?? p.featuredImage?.url ?? p.images[0].url;
-      const extra = p.images.map((i) => i.url).filter((u) => u !== main).slice(0, 10);
+      const extra = p.images.map((i) => i.url).filter((u) => u !== main).slice(0, 4);
       const cmp = v.compareAtPrice && Number(v.compareAtPrice.amount) > Number(v.price.amount) ? Number(v.compareAtPrice.amount) : null;
       items.push(`    <item>
       <g:id>${num(v.id)}</g:id>

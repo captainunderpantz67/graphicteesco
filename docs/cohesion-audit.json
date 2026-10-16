@@ -1,27 +1,13 @@
 {
- "at": "2026-10-16T18:09:15.473Z",
- "products": 171,
+ "at": "2026-10-16T18:34:51.001Z",
+ "products": 184,
  "findings": [
-  {
-   "level": "WARN",
-   "handle": "mens-fishing-sunrise-strike-graphic-tee",
-   "title": "Men's Fishing – Sunrise Strike Tee",
-   "msg": "Cover alt text doesn't say who is in the photo.",
-   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
-  },
   {
    "level": "WARN",
    "handle": "unisex-halloween-midnight-feature-graphic-tee",
    "title": "Unisex Halloween – Midnight Feature Tee",
    "msg": "No SEO title.",
    "fix": "Write one ≤ 60 chars with the primary keyword."
-  },
-  {
-   "level": "WARN",
-   "handle": "mens-gym-barbell-club-graphic-tee",
-   "title": "Men's Gym – Barbell Club Tee",
-   "msg": "Cover alt text doesn't say who is in the photo.",
-   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
   },
   {
    "level": "WARN",

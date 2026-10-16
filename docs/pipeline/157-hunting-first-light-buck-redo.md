@@ -1,4 +1,4 @@
-status: READY
+status: REDO
 reason: paused for cold-weather, resume after (Sam, 2026-10-16: evergreen tees wait until every cold-weather collection reaches 14, R11.5).
 lane: B
 type: redo
@@ -24,3 +24,7 @@ handle: mens-hunting-first-light-buck-graphic-tee
 - 2026-10-16 12:53 UTC [B]: run stopped by fal.ai lock (TOP_UP): file hosting + cover generation blocked. Nothing changed on the live product. Note: Shopify draft products for 167 (15360931430704) and 168 (15360933036336) already exist with copy and no media; Printful sync products 482163651 / 482163786 exist (168 variants unmapped, needs catalog variant mapping).
 - 2026-10-16 14:26 UTC director: PARKED for the cold-weather push (R11.5).
 - 2026-10-16 16:39 UTC Claude: Sam wants every weak men's shirt redone now; READY for lane B alongside cold-weather.
+- 2026-10-16 18:25 UTC [B]: REDO done: in-place redo of the ACTIVE product: new Recraft art (No Deer Today; gen 2 had DEEER misspelled, gen 3 kept, spelling checked), cream-ink dark file 1087735820 for the 5 dark colors and original-ink file 1087735805 for Soft Cream/White, variants re-syncing, new mockups + variant images + cover (#227), copy already matched. Also re-cropped the #155 and #177 covers (the crop trimmed the sky and clipped the top of the head). Review sheet docs/review/157.jpg.
+- 2026-10-16 19:45 UTC director: REDO (product stays ACTIVE, cover only). Notes:
+  1. R6.9 (cover overlap): the man's long braid lies over the left edge of the print, so the line reads "O DEER TODAY". The product is ACTIVE with this cover, so fix it soon: one more attempt (R6.9) with the Black tee mockup as the `--design` reference, hair behind the shoulder or a different registry person with short hair (log the row), thermos at his side.
+  2. Art, files, sync, mockups and copy are approved: only the cover changes. Status goes back to REVIEW with the new cover.

@@ -13,9 +13,10 @@ You do the scripted, rule-based chores so the expensive roles don't. You never j
    - Fix scripted ERRORs only (prices are the builders' job): missing or over-long meta descriptions and SEO titles (rewrite to length without changing meaning, keep the primary keyword), wrong collection tags on crewnecks (R7.5). Up to 40 products per run.
    - Leave visual or creative ERRORs (wrong person on a cover, art problems) for the director: add a one-line note to docs/inbox.md.
    - When price ERRORs reach zero, switch the announcement bar per R12.3, build, commit, push.
-4. **Stuck work:** any pipeline item BUILDING for over 3 hours with no commit from its lane, or a lane lock older than 2 hours → Telegram one alert.
-5. **Daily, first run after 12:00 UTC:** one Telegram summary: products live (total and today), items in REVIEW / READY per lane, audit error count, anything waiting on Sam (docs/computer-jobs.md count). Plain words, links to the homepage and the newest product.
-6. Release the lock, commit, push.
+4. **Site freshness (added 2026-10-16 after a 5-hour silent deploy failure):** pick the 3 most recent pipeline items marked LIVE more than 20 minutes ago and curl https://graphicteesco.com/products/<handle>/. If any returns 404, the Cloudflare deploy is failing: Telegram Sam one alert ("Site isn't updating: new products 404 since <time>") and note it in docs/inbox.md.
+5. **Stuck work:** any pipeline item BUILDING for over 3 hours with no commit from its lane, or a lane lock older than 2 hours → Telegram one alert.
+6. **Daily, first run after 12:00 UTC:** one Telegram summary: products live (total and today), items in REVIEW / READY per lane, audit error count, anything waiting on Sam (docs/computer-jobs.md count). Plain words, links to the homepage and the newest product.
+7. Release the lock, commit, push.
 
 ## Never
 Create products, art or covers; approve or publish; edit the rulebook; change prices outside R12.

@@ -186,6 +186,7 @@ Sections are numbered so role cards and review notes can point at them ("fails R
    - Crewnecks: only the *-sweatshirts collection tag + "sweatshirt" + the holiday tag. NEVER christmas-shirts, christmas-shirts-for-women, thanksgiving-shirts, graphic-tees-for-men/women or niche *-t-shirts tags (those are tee pages).
    - Unisex tees may carry both graphic-tees-for-men and graphic-tees-for-women, so their cover MUST show a man and a woman.
    - Men's holiday designs: christmas-shirts + graphic-tees-for-men only.
+   - **Style tags (director, 2026-10-16):** every tee whose print carries a joke (R3 hook) also gets funny-graphic-tees; every tee drawn in a specific decade's look (70s bubble letters, 80s gym/VHS, 90s anime, Y2K) also gets retro-graphic-tees. Both collections are hubs fed by these tags.
 6. **Never half-visible:** create the Shopify product as DRAFT. It goes ACTIVE only after review approval (docs/pipeline/README.md) and a PASS from `node scripts/cohesion-audit.mjs --handle <h>`.
 7. **Printful link:**
    - Map every variant to its catalog variant: front = print file, back = logo file.
@@ -267,12 +268,39 @@ Goal: ChatGPT, Perplexity, Google AI Overviews / AI Mode, Gemini, Copilot and Cl
      | hunting hoodie | 3,600 / 32 |
      | western hoodie | 3,600 / 36 |
 
+     **Added 2026-10-16 (cold-weather search sweep, Sam: "build for the search, leave no stone unturned"):**
+
+     | New page | Volume / KD |
+     |---|---|
+     | camo hoodies (IND4000 camo colors: Duck, Forest, Darkwood/Deadwood Tree, Black Camo) | 74,000 / 23 |
+     | graphic hoodies (hub) | 60,500 / 49 |
+     | graphic hoodies for women | 8,100 / 12 |
+     | oversized sweatshirts (Bella+Canvas 4711, Printful #897) | 40,500 / 47 |
+     | oversized hoodies for men (subset of oversized) | 18,100 / 10 |
+     | quarter zip sweatshirts / pullovers (Comfort Colors 1580 #1591, Lane Seven LS14014 #1473 or Sport-Tek ST357 #903) | 14,800/30 + 9,900/31 |
+     | half zip pullovers (Bella+Canvas 4740, Printful #1631) | 5,400 / 14 |
+     | zip up hoodies for women | 14,800 / 32 |
+     | zip up hoodies for men | 5,400 / 14 |
+     | embroidered hoodies (real embroidery, R4.8) | 14,800 / 49 |
+     | vintage hoodies | 12,100 / 53 |
+     | vintage sweatshirts | 9,900 / 60 |
+     | comfort colors sweatshirts (Comfort Colors 1566, Printful #839; say "Comfort Colors" only on these) | 12,100 / 56 |
+     | mama sweatshirts | 6,600 / 55 |
+     | christian sweatshirts | 6,600 / 52 |
+     | nurse sweatshirts | 5,400 / 51 |
+     | christmas sweatshirts for women | 5,400 / 62 |
+     | heavyweight sweatshirts | 2,900 / 34 |
+     | gym hoodies for men | 1,000 / 24 |
+
+     Order: volume ÷ difficulty (camo hoodies, graphic hoodie women, oversized hoodie men, half zip and men's zip-up first). Subset pages (men's/women's) can fill from tagging the parent's products plus their own designs. Price new blanks per R12.1's pattern: about $14–16 profit after Printful base and fees, regular price ending .99, sale $5 lower with that compare-at.
+     **Beanies: waiting on Sam's yes** (embroidered via Printful): custom beanie 8,100/36, cuffed beanie 5,400/34, pom pom beanie 5,400/42, embroidered beanie 2,400/43, christmas beanie 2,400/51, hunting beanie 880/26. "beanie" 450,000/45 is a hub only.
      Each to 14, highest volume ÷ difficulty first. Hoodie twins of strong existing designs reuse approved art (no new art generation).
    - Evergreen tees pause until cold-weather reaches 14 each.
    - The director creates missing collections first (cropped-hoodies, cropped-sweatshirts, embroidered-sweatshirts: Shopify smart collection by tag + collections.ts with hand-written copy and FAQs) and switches each hoodie collection on (hoodiesLive / the collection's flag) the run its first product goes LIVE.
    - Director reviews hourly-equivalent: when 6+ items wait in REVIEW, review them before writing briefs.
    - **Collections added 2026-10-16 (director):** cropped-hoodies, cropped-sweatshirts, embroidered-sweatshirts, christian-hoodies (christian hoodie 18,100 / KD 44). Printful has no cropped crewneck, so cropped-sweatshirts carries the cropped hoodies (tag both cropped-hoodies and cropped-sweatshirts; copy says they have a hood). Embroidered sweatshirts use Printful embroidery on Gildan 18000 with new Style B line art (R4.3), not a reused print file.
 6. **Styles (Sam, 2026-10-16):** the shop-by-style section gets every style with measured volume and low enough KD to claim quickly (retro 22,200/54, embroidered 12,100/56, funny 5,400/58, boho 260/32, plus any the director measures), each as its own collection with hand-written copy and FAQs. Vintage stays.
+   - **Built (director, 2026-10-16):** retro-graphic-tees (22,200/54, 27 tees tagged) and funny-graphic-tees (5,400/58, 51 tees tagged) are live hubs on the homepage style row, with embroidered-sweatshirts. Boho (boho graphic tees 260/32) waits until we have 6+ boho designs; minimalist graphic tee (1,000/24) is the next style to brief (Style B line art fits it).
 7. **Men's redo (Sam, 2026-10-16: "redo all the lame men's shirts"):** every older men's design with a weak or generic line gets redone in place (R11.4), alongside cold-weather in lane B.
 8. **After the build: color backfill** on every hoodie and cold-weather product to the full legible range (≤100 variants), then evergreen tees to 28.
 9. **Coming:** hoodie pages (zip-up 135,000/KD28, heavyweight 14,800/KD20, oversized hoodie 165,000/KD38, plus niche hoodies); crop tops and cropped sweatshirts; custom "___ shirt" configurator pages (pets first, then football mom name/number; max 2 regenerations; order handoff tested with a 100% discount code + Printful draft orders only).
@@ -292,6 +320,7 @@ Goal: ChatGPT, Perplexity, Google AI Overviews / AI Mode, Gemini, Copilot and Cl
      | Oversized | $54.99 | $59.99 |
      | Cropped | $44.99 | $49.99 |
 
+   - **New blanks (director, 2026-10-16, R11.5 sweep):** camo hoodies on IND4000 camo colors use the heavyweight price ($49.99 / $54.99) with handle ending -camo-hoodie; half zip pullovers (Bella+Canvas 4740, Printful #1631, base about $39) $54.99 / $59.99 with handle ending -half-zip; oversized sweatshirts (Bella+Canvas 4711, Printful #897, base about $33) $49.99 / $54.99, handle ending -oversized-sweatshirt (audit support to add with the first one).
    - **Embroidered items:** the garment's price above + $5 for a chest piece, + $3 more for each cuff detail (covers Printful's $2.95 per placement). Same sale/regular split.
    - From Dec 1: tees $29.99, crewnecks $39.99, hoodies at their regular price above, no compare-at. The audit flips automatically.
 2. **Returns (Sam, 2026-10-16, best practice):** one free size exchange within 30 days of delivery (we print the new size; nothing to mail back); misprints/damage reprinted or refunded within 30 days. Site copy, schema (src/lib/schema.ts), Shopify refund policy and Search Console settings must all say the same thing.

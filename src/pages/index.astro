@@ -26,7 +26,7 @@ const showHoodies = hoodiesHubLive();
 // Only collections that actually have products get a card (an empty page is a dead end and won't be indexed).
 const womens = tees.filter((c) => c.audience === 'women' && c.slug !== 'graphic-tees-for-women' && allProducts.some((p) => p.collections?.includes(c.shopifyHandle)));
 const outdoors = ['fishing-t-shirts', 'hunting-t-shirts', 'western-graphic-tees', 'mens-gym-shirts', 'football-shirts', 'soccer-mom-shirts'].map((s) => bySlug(s)!).filter((c) => live.has(c.slug));
-const styles = ['oversized-graphic-tees', 'vintage-graphic-tees', 'y2k-graphic-tees', 'anime-shirts'].map((s) => bySlug(s)!).filter((c) => live.has(c.slug));
+const styles = ['oversized-graphic-tees', 'vintage-graphic-tees', 'retro-graphic-tees', 'funny-graphic-tees', 'y2k-graphic-tees', 'anime-shirts', 'embroidered-sweatshirts'].map((s) => bySlug(s)!).filter((c) => live.has(c.slug));
 // Holiday shelf: every live holiday tee collection, soonest holiday first.
 const holidayTees = homepageOrder(tees.filter((c) => c.seasonal && live.has(c.slug)));
 // Cover photo per card: match the collection's audience (women's card → a women's tee)
@@ -102,7 +102,7 @@ const icons: Record<string, string> = {
   'football-shirts': 'football', 'soccer-mom-shirts': 'star', 'country-graphic-tees': 'boot', 'cropped-graphic-tees': 'crop',
   'graphic-tees-for-women-over-40': 'sun', 'football-mom-shirts': 'football', 'baseball-mom-shirts': 'baseball',
   'nurse-shirts': 'nurse', 'christian-shirts': 'cross', 'oversized-graphic-tees': 'tee', 'vintage-graphic-tees': 'sun',
-  'y2k-graphic-tees': 'bolt', 'anime-shirts': 'star',
+  'y2k-graphic-tees': 'bolt', 'anime-shirts': 'star', 'retro-graphic-tees': 'bolt', 'funny-graphic-tees': 'star', 'embroidered-sweatshirts': 'tee',
 };
 // Photo-real icon images (public/bubbles/<slug>.webp) when listed here; otherwise the line icon.
 // Hand-made lifestyle photos for the women's collection cards (public/cards/<slug>.webp): each one shot in the shirt's own world.
