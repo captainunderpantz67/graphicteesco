@@ -12,7 +12,7 @@ def call(m, p, b=None):
             raise Exception(f'{e.code} {e.read()[:400]}')
 cat, url, thread, fs, bs, vids, out = sys.argv[1:8]; cuff = sys.argv[8] if len(sys.argv) > 8 else None
 def pl(name, u): return {'placement': name, 'technique': 'embroidery', 'layers': [{'type': 'file', 'url': u, 'layer_options': [{'name': 'thread_colors', 'value': [thread]}]}]}
-placements = [pl('embroidery_chest_center', url)] + ([pl('embroidery_wrist_left', cuff)] if cuff else [])
+placements = [pl('embroidery_chest_' + os.environ.get('CHEST', 'center'), url)] + ([pl('embroidery_wrist_left', cuff)] if cuff else [])
 LOGO = os.environ.get('BACKLOGO', 'https://files.cdn.printful.com/files/51f/51f0c46f739b8b79665a0cb5158e8e73_preview.png')
 placements.append({'placement': 'back', 'technique': 'dtg', 'layers': [{'type': 'file', 'url': LOGO, 'position': {'width': 3, 'height': 3, 'top': 0, 'left': 4.5}}]})  # back logo, 3 in wide, top center (12 in print area)
 ids = [int(x) for x in vids.split(',')]

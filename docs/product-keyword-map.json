@@ -3945,11 +3945,16 @@
   },
   "mens-embroidered-eau-de-campfire-hoodie": {
    "claimed": [
-    "outdoorsy hoodie",
-    "camping hoodie"
+    "outdoorsy hoodie"
    ],
-   "gaps_measured": [],
-   "measured": "outdoorsy hoodie 1,600/KD25; camping hoodie 1,900/KD39 (RankHero 2026-10-16)"
+   "gaps_measured": [
+    {
+     "phrase": "outdoorsy hoodie",
+     "volume": 1600,
+     "kd": 25
+    }
+   ],
+   "measured": "2026-10-16"
   },
   "womens-christian-be-still-crewneck-sweatshirt": {
    "claimed": [
