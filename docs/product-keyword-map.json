@@ -3703,6 +3703,15 @@
      "phrase": "dad sweatshirt",
      "volume": 1600,
      "kd": 57
+  "mens-hunting-opening-day-camo-hoodie": {
+   "claimed": [
+    "camouflage hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "camouflage hoodie",
+     "volume": 74000,
+     "kd": 6
     }
    ],
    "measured": "2026-10-16"

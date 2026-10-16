@@ -3,6 +3,7 @@
 2026-10-16 22:50 UTC — [A] BUILDING #218 Pink Christmas Trees, #219 O Holy Night, #220 Lit-Up Bow, #221 Christmas Nurse crewnecks (drafts, covers #291-294, mockups, audit PASS; syncs queued). Printful sync is the bottleneck (~1 variant/min shared with lane B): 23 lane A items wait at 0 to 57 variants synced; the runner dies with each container, rerun the setfile commands in each item's log (FORCE=1 only for items not yet synced).
 RUNNING lane A since 2026-10-16 21:15 UTC
 RUNNING lane B since 2026-10-16 21:12 UTC
+2026-10-16 21:48 UTC — [B] REVIEW #230 Kick Up Dust camo hoodie; BUILDING #231 Opening Day camo hoodie (sync running).
 2026-10-16 21:44 UTC — [B] REVIEW #229 Beach Body Pending hoodie; BUILDING #230 Kick Up Dust camo hoodie (draft, cover, mockups; sync running).
 2026-10-16 21:36 UTC — [B] REVIEW #228 Ghost Club cropped hoodie (synced 10/10).
 2026-10-16 21:31 UTC — [B] REVIEW #164 Peaked in 1898 (redo 2, ACTIVE product, new art/cover/mockups), #226 Howdy hoodie, #227 Night Shift oversized hoodie (synced).

@@ -11,10 +11,11 @@ while True:
     off += 100
     if off >= d['paging']['total']: break
 for p in hits: print('sync', p['id'], p['name'], p['variants'])
-p = hits[0]; files = {}
-for v in g(f'/sync/products/{p["id"]}')['result']['sync_variants']:
+files = {}
+for p in hits:
+  for v in g(f'/sync/products/{p["id"]}')['result']['sync_variants']:
     f = [x for x in v['files'] if x['type'] == 'default']
-    if f: files.setdefault(f[0]['id'], []).append(v['name'].split('/')[-2].strip())
+    if f: files.setdefault(f[0]['id'], []).append(p['name'][:28] + ':' + v['name'].split('/')[-2].strip())
 for fid, cols in files.items():
     d = g(f'/files/{fid}')['result']; u = d['url']; full = bool(u); u = u or d['preview_url']
     im = Image.open(io.BytesIO(urllib.request.urlopen(urllib.request.Request(u, headers={'User-Agent': 'x'})).read())).convert('RGBA')
