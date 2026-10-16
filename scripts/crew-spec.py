@@ -9,5 +9,5 @@ h = (f"<h3>The Story</h3>\n<p>{hook}</p>\n<p>{art}</p>\n<p>{wear} Original art, 
      "<h3>Details &amp; Fit</h3>\n<ul>\n<li>Classic unisex crewneck sweatshirt fit</li>\n<li>50% cotton, 50% polyester fleece</li>\n<li>Fabric weight: 8 oz/yd²</li>\n<li>Ribbed crew neck, cuffs and waistband; no hood, no pockets</li>\n<li>Sizes S–3XL</li>\n"
      f"<li>{len(cols)} colors: {', '.join(cols)}</li>\n</ul>\n<h3>Questions</h3>\n{qs}").rstrip('\n')
 s = {"title": title, "handle": handle, "slug": slug, "catalog": 145, "colors": cols, "sizes": ["S", "M", "L", "XL", "2XL", "3XL"], "price": "34.99", "compare": "39.99",
-     "productType": "Sweatshirt", "tags": ["christmas-sweatshirts", "sweatshirt", "ai-art", "intake-done"], "seo": {"title": st, "description": sd}, "descriptionHtml": h}
+     "productType": "Sweatshirt", "tags": ["christmas-sweatshirts", "sweatshirt", "christmas", "ai-art", "intake-done"], "seo": {"title": st, "description": sd}, "descriptionHtml": h}
 json.dump(s, open(o, 'w'))

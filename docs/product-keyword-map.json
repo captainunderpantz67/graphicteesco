@@ -3600,6 +3600,28 @@
      "phrase": "ghost hoodie",
      "volume": 3600,
      "kd": 40
+  "womens-christmas-merry-woofmas-crewneck-sweatshirt": {
+   "claimed": [
+    "dog christmas sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dog christmas sweatshirt",
+     "volume": 12100,
+     "kd": 44
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-christmas-candy-cane-club-crewneck-sweatshirt": {
+   "claimed": [
+    "cute christmas sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cute christmas sweatshirt",
+     "volume": 8100,
+     "kd": 54
     }
    ],
    "measured": "2026-10-16"
