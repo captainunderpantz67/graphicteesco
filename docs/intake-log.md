@@ -5,6 +5,7 @@ RUNNING director since 2026-10-16 22:11 UTC
 2026-10-16 21:38 UTC — [A] BUILDING #218 Pink Christmas Trees, #219 O Holy Night, #220 Lit-Up Bow, #221 Christmas Nurse crewnecks (drafts, covers #291-294, mockups, audit PASS; syncs queued). Printful sync is the bottleneck (~1 variant/min shared with lane B): 23 lane A items wait at 0 to 57 variants synced; the runner dies with each container, rerun the setfile commands in each item's log (FORCE=1 only for items not yet synced).
 RUNNING lane A since 2026-10-16 21:15 UTC
 RUNNING lane B since 2026-10-16 21:12 UTC
+2026-10-16 22:15 UTC — [B] REVIEW #193 Whisk Taker embroidered crewneck (embroidery scripts added); BUILDING #194.
 2026-10-16 22:09 UTC — [B] REVIEW #235 Reel Talk half zip (new blank: back large + left chest DTF via scripts/pf-dtf-sync.py).
 2026-10-16 22:02 UTC — [B] REVIEW #233 Tree Sitter camo hoodie, #234 Study in Hypertrophy oversized hoodie; claimed #235.
 2026-10-16 21:57 UTC — [B] REVIEW #232 No Deer Today camo hoodie; BUILDING #233 Tree Sitter camo hoodie (sync running), claimed #234.

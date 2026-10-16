@@ -248,6 +248,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-christmas-nanas-cookies-crewneck-sweatshirt': { src: '/covers/womens-christmas-nanas-cookies-crewneck-sweatshirt.webp', alt: 'Woman in her early 60s with white hair in a soft low bun and glasses on a beaded chain in a sand Nana's Cookies Christmas crewneck sweatshirt in a farmhouse kitchen with cookie trays on the counter and a lit tree in the doorway' },
   'womens-embroidered-whisk-taker-matcha-crewneck-sweatshirt': { src: '/covers/womens-embroidered-whisk-taker-matcha-crewneck-sweatshirt.webp', alt: 'Woman in glasses wearing a Sand embroidered Whisk Taker matcha crewneck sweatshirt at a bright neighborhood café counter beside a matcha latte' },
   'womens-christmas-nanas-cookies-graphic-tee': { src: '/covers/womens-christmas-nanas-cookies-graphic-tee.webp', alt: 'Woman in her late 50s with salt-and-pepper hair in a short layered cut in a heather grey Nana's Cookies Christmas graphic tee at a holiday cookie exchange table with cookie tins and garland behind her' },
+  'womens-embroidered-morel-support-mushroom-crewneck-sweatshirt': { src: '/covers/womens-embroidered-morel-support-mushroom-crewneck-sweatshirt.webp', alt: 'Woman with an auburn shag wearing a Sand embroidered Morel Support mushroom crewneck sweatshirt at an autumn wooded trailhead with a woven basket at her side' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

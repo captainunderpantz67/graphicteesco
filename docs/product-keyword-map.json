@@ -3844,6 +3844,15 @@
      "phrase": "nana shirt",
      "volume": 2900,
      "kd": 51
+  "womens-embroidered-morel-support-mushroom-crewneck-sweatshirt": {
+   "claimed": [
+    "mushroom sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "mushroom sweatshirt",
+     "volume": 320,
+     "kd": 50
     }
    ],
    "measured": "2026-10-16"
