@@ -181,12 +181,12 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 195 | Woman in her late 30s, sandy blonde ponytail, sunglasses pushed up | USED 2026-10-16 — Bases Loaded baseball mom tee cover (fal Seedream 4, ballpark bleachers; try 1 kept) |
 | 196 | Woman in her early 40s, short dark curly hair | USED 2026-10-16 — Orange Slice Supplier soccer mom tee cover (fal Seedream 4, sideline at dusk; try 1 kept) |
 | 197 | Woman in her late 60s, short white curls, cardigan | USED 2026-10-16 — Casserole Ministry christian tee cover (fal Seedream 4, church fellowship hall potluck; try 1 kept) |
-| 198 | Woman in her late 20s, sleek black high ponytail, butterfly clips | BUILDING [B] — Still Loading y2k tee cover |
-| 199 | Woman in her early 20s, curly red hair in space buns | BUILDING [B] — Hot Mess Express y2k tee cover |
-| 200 | Woman in her mid 20s, straight brown hair with curtain bangs, gold necklace | BUILDING [B] — Espresso Yourself cropped tee cover |
-| 201 | Man in his mid 40s, salt-and-pepper beard, camo cap | BUILDING [B] — Professional Tree Sitter hunting tee cover |
-| 202 | Woman in her late 30s, dark hair in a messy bun, navy scrub pants | BUILDING [B] — Don't Say the Q Word nurse tee cover |
-| 203 | Man in his mid 20s, bleached short hair + woman in her mid 20s, long black braid, septum ring | BUILDING [B] — Kaiju Naps anime tee cover (unisex pair) |
+| 198 | Woman in her late 20s, sleek black high ponytail, butterfly clips | USED 2026-10-16 — Still Loading y2k tee cover (fal Seedream 4, 90s bedroom with a CRT; try 1 kept) |
+| 199 | Woman in her early 20s, curly red hair in space buns | USED 2026-10-16 — Hot Mess Express y2k tee cover (fal Seedream 4, city sidewalk outside a coffee shop; try 1 kept) |
+| 200 | Woman in her mid 20s, straight brown hair with curtain bangs, gold necklace | USED 2026-10-16 — Espresso Yourself cropped tee cover (fal Seedream 4, cafe espresso bar; try 1 kept) |
+| 201 | Man in his mid 40s, salt-and-pepper beard, camo cap | USED 2026-10-16 — Professional Tree Sitter hunting tee cover (fal Seedream 4, autumn woods by a tree stand; try 1 kept) |
+| 202 | Woman in her late 30s, dark hair in a messy bun, navy scrub pants | USED 2026-10-16 — Don't Say the Q Word nurse tee cover (fal Seedream 4, ER ambulance bay at sunset; try 1 kept) |
+| 203 | Man in his mid 20s, bleached short hair + woman in her mid 20s, long black braid, septum ring | USED 2026-10-16 — Destroyer of Cities, Lover of Naps anime tee cover, man + woman (fal Seedream 4, rooftop at dusk; try 1 kept) |
 | 204 | Pair: man in his early 50s, close-cropped grey hair, runner's build + woman in her late 40s, dark ponytail, headband | USED 2026-10-16 — Turkey Trot crewneck cover (fal Seedream 4, try 2 kept: try 1 dropped the TURKEY TROT lettering on her print; 5K start area) |
 | 205 | Man in his mid 30s, sandy blond hair, short beard | USED 2026-10-16 — Turkey Bowl crewneck cover (fal Seedream 4, try 1; backyard touch football) |
 | 206 | Pair: man in his late 30s, shaved head, full dark beard + woman in her mid 30s, curly shoulder-length hair | USED 2026-10-16 — Leftovers Club crewneck cover (fal Seedream 4, try 1; late-night fridge raid) |

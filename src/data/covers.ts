@@ -162,6 +162,12 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-baseball-mom-bases-loaded-graphic-tee': { src: '/covers/womens-baseball-mom-bases-loaded-graphic-tee.webp', alt: 'Woman with a blonde ponytail and sunglasses on her head sitting on ballpark bleachers, wearing the Bases Loaded, Mom Exhausted tee' },
   'womens-soccer-mom-orange-slice-supplier-graphic-tee': { src: '/covers/womens-soccer-mom-orange-slice-supplier-graphic-tee.webp', alt: 'Woman with short dark curly hair standing on a soccer field sideline at dusk beside a camp chair and cooler, wearing the Official Orange Slice Supplier tee' },
   'womens-christian-casserole-ministry-graphic-tee': { src: '/covers/womens-christian-casserole-ministry-graphic-tee.webp', alt: 'Older woman with short white curls and a cardigan standing at a church potluck table in a fellowship hall, wearing the Casserole Ministry tee' },
+  'womens-y2k-still-loading-graphic-tee': { src: '/covers/womens-y2k-still-loading-graphic-tee.webp', alt: 'Woman with a sleek black ponytail and butterfly clips standing in a bedroom with a vintage computer and posters, wearing the Still Loading Since 1999 tee' },
+  'womens-y2k-hot-mess-express-graphic-tee': { src: '/covers/womens-y2k-hot-mess-express-graphic-tee.webp', alt: 'Woman with curly red hair in space buns walking on a city sidewalk outside a coffee shop, wearing the Hot Mess Express tee' },
+  'womens-cropped-espresso-yourself-graphic-tee': { src: '/covers/womens-cropped-espresso-yourself-graphic-tee.webp', alt: 'Woman with long brown hair and bangs leaning on a cafe espresso bar, wearing the Espresso Yourself cropped tee' },
+  'mens-hunting-professional-tree-sitter-graphic-tee': { src: '/covers/mens-hunting-professional-tree-sitter-graphic-tee.webp', alt: 'Bearded man in a camo cap standing in autumn woods beside a tree stand ladder, wearing the Professional Tree Sitter tee' },
+  'womens-nurse-dont-say-the-q-word-graphic-tee': { src: '/covers/womens-nurse-dont-say-the-q-word-graphic-tee.webp', alt: 'Woman in navy scrub pants with a messy bun standing outside a hospital emergency entrance at sunset, wearing the Don\'t Say the Q Word tee' },
+  'unisex-anime-kaiju-naps-graphic-tee': { src: '/covers/unisex-anime-kaiju-naps-graphic-tee.webp', alt: 'Man and woman standing together on a city rooftop at sunset, both wearing the Destroyer of Cities, Lover of Naps tee' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

@@ -2763,6 +2763,111 @@
     "casserole shirt"
    ],
    "gaps_measured": []
+  },
+  "womens-y2k-still-loading-graphic-tee": {
+   "claimed": [
+    "computer shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "loading shirt",
+     "volume": 140,
+     "kd": 54,
+     "competition": 7602,
+     "gap": 0.81
+    }
+   ]
+  },
+  "womens-y2k-hot-mess-express-graphic-tee": {
+   "claimed": [
+    "hot mess shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "train shirt",
+     "volume": 880,
+     "kd": 47,
+     "competition": 18756,
+     "gap": 3.81
+    }
+   ]
+  },
+  "womens-cropped-espresso-yourself-graphic-tee": {
+   "claimed": [
+    "espresso yourself shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "espresso shirt",
+     "volume": 390,
+     "kd": 56,
+     "competition": 30400,
+     "gap": 1.14
+    },
+    {
+     "phrase": "coffee crop top",
+     "volume": 50,
+     "kd": 45,
+     "competition": null,
+     "gap": 1.0
+    }
+   ]
+  },
+  "mens-hunting-professional-tree-sitter-graphic-tee": {
+   "claimed": [
+    "bowhunting shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bow hunting shirt",
+     "volume": 260,
+     "kd": 38,
+     "competition": 1866,
+     "gap": 3.57
+    },
+    {
+     "phrase": "deer hunting shirts",
+     "volume": 590,
+     "kd": 48,
+     "competition": 13193,
+     "gap": 2.95
+    }
+   ]
+  },
+  "womens-nurse-dont-say-the-q-word-graphic-tee": {
+   "claimed": [
+    "er nurse shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "emergency nurse shirt",
+     "volume": 720,
+     "kd": 48,
+     "competition": 18959,
+     "gap": 3.04
+    }
+   ]
+  },
+  "unisex-anime-kaiju-naps-graphic-tee": {
+   "claimed": [
+    "kaiju t shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "vintage anime shirt",
+     "volume": 1600,
+     "kd": 40,
+     "competition": 25028,
+     "gap": 6.97
+    },
+    {
+     "phrase": "kaiju shirt",
+     "volume": 110,
+     "kd": 40,
+     "competition": null,
+     "gap": 2.44
+    }
+   ]
   }
  }
 }
