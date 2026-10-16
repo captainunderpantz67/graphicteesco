@@ -196,7 +196,7 @@ Goal: ChatGPT, Perplexity, Google AI Overviews / AI Mode, Gemini, Copilot and Cl
 6. **Conversational feed attributes** (Google Merchant Center, 2026): question_and_answer, related_product (tee ↔ crewneck twin), item_group_title, variant_option, popularity_rank. Fill them once Merchant Center is connected.
 7. **Bing matters:** ChatGPT search and Copilot lean on Bing. Use Bing Webmaster Tools + IndexNow so new pages are pushed the moment they publish.
 8. **Third-party proof:** reviews, Reddit, gift guides, roundups and creators. AIs trust brands other sites talk about. Plan these after launch; never fake them.
-9. **Measure:** a weekly citation check asks the main AIs our target questions and logs whether we're named and linked (planned; see the Content Monster AEO method).
+9. **Measure (Sam: every 3 days):** a citation check every 3 days asks the main AIs our target questions and logs whether we're named and linked (planned; see the Content Monster AEO method).
 
 ## R10. Technical SEO and site
 1. **Ship, then test:** copy, SEO and template changes go straight live. Verify with build, the cohesion audit and curl, then fix forward. Screenshot first only for brand-new visual directions.
