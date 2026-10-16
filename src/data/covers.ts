@@ -251,6 +251,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-embroidered-morel-support-mushroom-crewneck-sweatshirt': { src: '/covers/womens-embroidered-morel-support-mushroom-crewneck-sweatshirt.webp', alt: 'Woman with an auburn shag wearing a Sand embroidered Morel Support mushroom crewneck sweatshirt at an autumn wooded trailhead with a woven basket at her side' },
   'unisex-thanksgiving-totally-a-pilgrim-hoodie': { src: '/covers/unisex-thanksgiving-totally-a-pilgrim-hoodie.webp', alt: 'Man and woman in matching navy Totally a Pilgrim turkey hoodies with the hoods visible on a farmhouse porch in late fall with pumpkins and corn stalks at golden hour, hands in their pockets' },
   'womens-christmas-snow-problem-graphic-tee': { src: '/covers/womens-christmas-snow-problem-graphic-tee.webp', alt: 'Woman in her early 30s with a natural afro puff and gold statement earrings in a white Snow Problem plaid Christmas graphic tee on a snowy small-town main street with lit shop windows, shopping bags at her hip' },
+  'womens-christmas-snow-problem-crewneck-sweatshirt': { src: '/covers/womens-christmas-snow-problem-crewneck-sweatshirt.webp', alt: 'Woman in her mid 20s with long wavy dark hair in a side part and a nose stud in a white Snow Problem plaid Christmas crewneck sweatshirt at an outdoor ice rink at dusk with string lights and a big tree, hands in her pockets' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

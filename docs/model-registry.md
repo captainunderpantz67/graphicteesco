@@ -335,3 +335,4 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 436 | Samoan woman in her early 30s, long thick wavy black hair worn loose, warm wide smile | RESERVED — #260 Kids Table Alumni crewneck cover (with #450) |
 | 449 | Cambodian-American woman in her late 20s, blunt shoulder-length black hair tucked behind her ears, dimples | RESERVED — #259 Kids Table Alumni tee cover (with #435) |
 | 450 | Trinidadian-American man in his early 30s, short dreadlocks tied up, thin mustache and chin beard | RESERVED — #260 Kids Table Alumni crewneck cover (with #436) |
+| 424 | South Asian woman in her mid 20s, long wavy dark hair in a side part, nose stud | USED 2026-10-16 — #248 Snow Problem crewneck cover try 1 (from the White mockup) |
