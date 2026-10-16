@@ -3639,6 +3639,15 @@
      "phrase": "reindeer hoodie",
      "volume": 260,
      "kd": 48
+  "mens-gym-beach-body-pending-hoodie": {
+   "claimed": [
+    "bodybuilder hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bodybuilder hoodie",
+     "volume": 1000,
+     "kd": 26
     }
    ],
    "measured": "2026-10-16"

@@ -286,7 +286,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 300 | Black man in his mid 20s, high-top fade, small silver chain | USED 2026-10-16 — #227 Night Shift hoodie cover (with #301; try 2, image 1 of 3) |
 | 301 | White woman in her mid 20s, black curtain-bang shag, nose ring | USED 2026-10-16 — #227 Night Shift hoodie cover (with #300; try 2) |
 | 302 | Chinese-American woman in her early 20s, long hair in a half-up claw clip | USED 2026-10-16 — #228 Ghost Club cropped hoodie cover (try 1, image 2 of 3) |
-| 303 | Samoan man in his early 30s, curly hair tied back, broad build | RESERVED — #229 Beach Body Pending hoodie cover |
+| 303 | Samoan man in his early 30s, curly hair tied back, broad build | USED 2026-10-16 — #229 Beach Body Pending hoodie cover (try 1, image 3 of 3) |
 | 304 | White woman in her early 30s, long sandy-blonde braid, light tan | RESERVED — #230 Kick Up Dust camo hoodie cover |
 | 305 | White man in his mid 30s, dark brown beard, blaze-orange cap | RESERVED — #231 Opening Day camo hoodie cover |
 | 306 | Black man in his early 50s, grey goatee, bald, broad shoulders | RESERVED — #232 No Deer Today camo hoodie cover |
