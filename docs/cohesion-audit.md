@@ -1,24 +1,13 @@
-# Cohesion audit — 2026-10-16 12:43 UTC
+# Cohesion audit — 2026-10-16 12:59 UTC
 
-158 live products checked · **110 errors** · 10 warnings · 115 products with findings
+158 live products checked · **99 errors** · 10 warnings · 107 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
-- 110 × Price ./- — should be ./. on every variant.
+- 99 × Price ./- — should be ./. on every variant.
 
 ## By product (errors first)
-### Women's Vintage Cropped – Wildflower Club Tee `womens-vintage-cropped-wildflower-club-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Nurse – Nurse Life Coffee Tee `womens-nurse-nurse-life-coffee-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-- **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
-
-### Women's Country – Sweet Tea & Sunsets Tee `womens-country-sweet-tea-sunsets-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-- **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
-
 ### Women's Christmas – Retro Santa Tee `womens-christmas-retro-santa-graphic-tee`
 - **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
@@ -51,22 +40,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
 
 ### Women's Christmas – Ho Ho Howdy Tee `womens-christmas-ho-ho-howdy-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Men's Gym – Iron Sharpens Iron Tee `mens-gym-iron-sharpens-iron-graphic-tee`
-- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Men's Gym – Marble Statue Curl Tee `mens-gym-marble-statue-curl-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Men's Gym – The Lifter Card Tee `mens-gym-the-lifter-card-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Men's Gym – Strong & Courageous Tee `mens-gym-strong-and-courageous-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Men's Gym – Leg Day Survivor Tee `mens-gym-leg-day-survivor-graphic-tee`
 - **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
 
 ### Women's Western – Steer Skull & Wildflowers Tee `womens-western-steer-skull-wildflowers-graphic-tee`
@@ -176,15 +149,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Unisex Thanksgiving – Give Thanks Harvest Crewneck Sweatshirt `unisex-thanksgiving-give-thanks-harvest-crewneck-sweatshirt`
 - **ERROR** Price 39.99/- (price/compare-at) — should be 34.99/39.99 on every variant. → Set every variant to price 34.99, compare-at 39.99.
-
-### Unisex Fishing – Lake Life Tee `unisex-fishing-lake-life-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Men's Hunting – Opening Day Tee `mens-hunting-opening-day-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Christian – Amazing Grace Tee `womens-christian-amazing-grace-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
 
 ### Unisex Christmas – Deer Camp Christmas Tee `unisex-christmas-deer-camp-christmas-graphic-tee`
 - **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
@@ -357,3 +321,12 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Unisex Christmas – Fresh Cut Christmas Trees Tee `unisex-christmas-fresh-cut-christmas-trees-graphic-tee`
 - **WARN** No meta description. → Write one ≤ 155 chars.
+
+### Women's Nurse – Nurse Life Coffee Tee `womens-nurse-nurse-life-coffee-graphic-tee`
+- **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
+
+### Women's Country – Sweet Tea & Sunsets Tee `womens-country-sweet-tea-sunsets-graphic-tee`
+- **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
+
+### Men's Gym – Iron Sharpens Iron Tee `mens-gym-iron-sharpens-iron-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.

@@ -1,5 +1,5 @@
 {
- "at": "2026-10-16T12:43:11.280Z",
+ "at": "2026-10-16T12:59:02.127Z",
  "products": 158,
  "findings": [
   {
@@ -38,32 +38,11 @@
    "fix": "Write one ≤ 155 chars."
   },
   {
-   "level": "ERROR",
-   "handle": "womens-vintage-cropped-wildflower-club-graphic-tee",
-   "title": "Women's Vintage Cropped – Wildflower Club Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-nurse-nurse-life-coffee-graphic-tee",
-   "title": "Women's Nurse – Nurse Life Coffee Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
    "level": "WARN",
    "handle": "womens-nurse-nurse-life-coffee-graphic-tee",
    "title": "Women's Nurse – Nurse Life Coffee Tee",
    "msg": "No SEO title.",
    "fix": "Write one ≤ 60 chars with the primary keyword."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-country-sweet-tea-sunsets-graphic-tee",
-   "title": "Women's Country – Sweet Tea & Sunsets Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
    "level": "WARN",
@@ -162,41 +141,6 @@
    "title": "Men's Gym – Iron Sharpens Iron Tee",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-gym-iron-sharpens-iron-graphic-tee",
-   "title": "Men's Gym – Iron Sharpens Iron Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-gym-marble-statue-curl-graphic-tee",
-   "title": "Men's Gym – Marble Statue Curl Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-gym-the-lifter-card-graphic-tee",
-   "title": "Men's Gym – The Lifter Card Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-gym-strong-and-courageous-graphic-tee",
-   "title": "Men's Gym – Strong & Courageous Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-gym-leg-day-survivor-graphic-tee",
-   "title": "Men's Gym – Leg Day Survivor Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
    "level": "ERROR",
@@ -449,27 +393,6 @@
    "title": "Unisex Thanksgiving – Give Thanks Harvest Crewneck Sweatshirt",
    "msg": "Price 39.99/- (price/compare-at) — should be 34.99/39.99 on every variant.",
    "fix": "Set every variant to price 34.99, compare-at 39.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-fishing-lake-life-graphic-tee",
-   "title": "Unisex Fishing – Lake Life Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-hunting-opening-day-graphic-tee",
-   "title": "Men's Hunting – Opening Day Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christian-amazing-grace-graphic-tee",
-   "title": "Women's Christian – Amazing Grace Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
    "level": "ERROR",
