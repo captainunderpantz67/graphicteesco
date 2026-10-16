@@ -182,6 +182,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-christmas-light-show-manager-graphic-tee': { src: '/covers/mens-christmas-light-show-manager-graphic-tee.webp', alt: 'Man with sandy-brown hair and wire-rim glasses in his front yard at dusk under string lights with a ladder behind him, holding a coffee mug and wearing the Light Show Manager (Unpaid) Christmas tee' },
   'womens-cropped-espresso-yourself-cropped-hoodie': { src: '/covers/womens-cropped-espresso-yourself-cropped-hoodie.webp', alt: 'Woman with curly honey-brown hair in a claw clip at a moody coffee bar, wearing the Espresso Yourself cropped hoodie in Storm' },
   'unisex-christian-amazing-grace-heavyweight-hoodie': { src: '/covers/unisex-christian-amazing-grace-heavyweight-hoodie.webp', alt: 'Man and woman in matching navy hoodies outside a small white country church at golden hour, holding coffee, wearing the Amazing Grace cross hoodie' },
+  'unisex-christmas-light-show-manager-crewneck-sweatshirt': { src: '/covers/unisex-christmas-light-show-manager-crewneck-sweatshirt.webp', alt: 'Man and woman standing together on a snowy porch at dusk beside a railing strung with Christmas lights, he holds a coffee mug, both wearing the white Light Show Manager (Unpaid) crewneck sweatshirt' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
