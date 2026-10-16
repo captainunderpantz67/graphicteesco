@@ -258,7 +258,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 272 | White man in his mid 40s, salt-and-pepper beard, stocky build | USED 2026-10-16 — #198 Out of Office deer hoodie cover (fal Seedream 4, cabin porch; try 1 kept) |
 | 273 | Middle Eastern woman in her early 30s, long dark wavy hair, gold studs | USED 2026-10-16 — #199 Extra Marshmallows embroidered crewneck cover (fal Seedream 4, Christmas market; try 1 kept) |
 | 274 | Native American woman in her late 20s, long straight black hair, center part | USED 2026-10-16 — #204 Winter Woods Fox hoodie cover (fal Seedream 4, snowy pine trail; try 1 kept) |
-| 275 | Black man in his early 30s, short twists, trimmed beard | RESERVED — #205 North Woods Moose hoodie cover (with #276) |
-| 276 | White woman in her early 30s, strawberry-blonde waves, freckles | RESERVED — #205 North Woods Moose hoodie cover (with #275) |
+| 275 | Black man in his early 30s, short twists, trimmed beard | USED 2026-10-16 — #205 North Woods Moose hoodie cover (fal Seedream 4, couple; REDO candidate: try 2 kept, print correct on both but the man's top shows no hood and the background echoes the print; try 1 dropped the lettering into the sky) |
+| 276 | White woman in her early 30s, strawberry-blonde waves, freckles | USED 2026-10-16 — #205 North Woods Moose hoodie cover (with #275, fal Seedream 4) |
 | 277 | Japanese-American woman in her mid 30s, sleek low bun, small hoops | RESERVED — #206 Christmas Cats hoodie cover |
 | 278 | Brazilian woman in her early 40s, voluminous dark curls, red lipstick | RESERVED — #207 Vintage Snowman hoodie cover |

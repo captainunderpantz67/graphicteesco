@@ -18,3 +18,4 @@ handle: unisex-christmas-north-woods-moose-hoodie
 ---
 ## Log
 - 2026-10-16 17:20 UTC director: brief written, READY (lane A Christmas hoodie twins, R11.5).
+- 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361813414192 (18500; Sand + Navy x S-3XL = 12), tee file 1085864180 at 10 in wide / 10.1 in tall at the top of the area (FW=1500 TOP=0), Printful sync 482261698. Copy/SEO/tags/price, moose hoodie 590/KD28 in map, covers #275 + #276 pair, 2 fronts + back, variant images, audit PASS, docs/review/205.jpg. COVER NEEDS A LOOK: try 2 kept (try 1 dropped the lettering into the sky); the print is right on both hoodies, but the man's top shows no hood and the photo background echoes the print. Director: REDO if it fails R6.8 / the hoodie-cover line. Printful link queued (runner): `FORCE=1 FW=1500 TOP=0 python3 scripts/pf-sync.py setfile 482261698 1085864180 1080398177`. REVIEW once synced = 12.

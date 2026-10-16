@@ -3309,6 +3309,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-christmas-north-woods-moose-hoodie": {
+   "claimed": [
+    "moose hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "moose hoodie",
+     "volume": 590,
+     "kd": 28
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
