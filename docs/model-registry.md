@@ -329,7 +329,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 430 | Colombian-American woman in her late 20s, long dark-brown hair in two loose braids, light freckles, small silver hoops | USED 2026-10-16 — #254 Cute But Corny crewneck cover try 1 (from the Sand mockup) |
 | 431 | Indian-American man in his mid 40s, short side-parted black hair greying at the temples, clean-shaven, rectangular glasses | USED 2026-10-16 — #255 Technically a Vegetable tee cover try 1 (from the Athletic Heather mockup) |
 | 432 | Egyptian-American man in his early 50s, thick wavy grey hair, short salt-and-pepper beard, sturdy build | USED 2026-10-16 — #256 Technically a Vegetable crewneck cover try 1 (from the Sand mockup) |
-| 433 | Somali-American man in his late 30s, close-cropped hair, neat full beard, tall lean build | RESERVED — #257 Wishbone Champion tee cover |
+| 433 | Somali-American man in his late 30s, close-cropped hair, neat full beard, tall lean build | USED 2026-10-16 — #257 Wishbone Champion tee cover try 1 (from the Natural mockup) |
 | 434 | Ukrainian-American man in his early 40s, sandy-blond crew cut, light stubble, stocky build | RESERVED — #258 Wishbone Champion crewneck cover |
 | 435 | Guatemalan-American man in his late 20s, short black hair in a textured crop with a low fade, clean-shaven | RESERVED — #259 Kids Table Alumni tee cover (with #449) |
 | 436 | Samoan woman in her early 30s, long thick wavy black hair worn loose, warm wide smile | RESERVED — #260 Kids Table Alumni crewneck cover (with #450) |
