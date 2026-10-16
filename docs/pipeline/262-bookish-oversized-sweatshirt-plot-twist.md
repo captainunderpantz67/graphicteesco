@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16 23:06
+status: REVIEW
 lane: B
 type: new
 id: 262
@@ -25,3 +25,4 @@ handle: womens-bookish-plot-twist-oversized-sweatshirt
 ## Log
 - 2026-10-16 22:30 UTC director: brief written, READY (lane B oversized-sweatshirts, R11.5).
 - 2026-10-16 23:11 UTC [B]: built as DRAFT (product 15362476278064, 12 variants Dust + Navy S-3XL, $49.99/$54.99, 4711 oversized sweatshirt #897). New art: Recraft v4 try 1, spelling checked (PLOT TWIST: / I STAYED IN), print-prep 3600 x 2999 + knock-white 3 passes (letter counters and the A counter out; the cat and mug interiors go to the garment color on Navy, outlines stay), Printful file 1087888035, FW 1700 TOP 0 (11.3 x 9.4 in). Reads on Dust and Navy. Mockups, variant images, back logo, cover registry #438 (try 1, image 2 of 3), keyword bookish sweatshirt 1600/54, audit-local result above. Sync pid 482346921; REVIEW at 12/12. Sheet docs/review/262.jpg.
+- 2026-10-16 23:21 UTC [B]: synced 12/12, REVIEW.

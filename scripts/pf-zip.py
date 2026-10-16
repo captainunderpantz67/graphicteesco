@@ -22,9 +22,13 @@ if cmd == 'sync':
     pid, fid, w, h = sys.argv[2], int(sys.argv[3]), int(sys.argv[4]), int(sys.argv[5]); front, back = pos(w, h)
     for i, v in enumerate(vs := call('GET', f'/sync/products/{pid}')['sync_variants']):
         if os.environ.get('ONLY') and os.environ['ONLY'] not in v['name']: continue
-        body = {'files': [{'type': 'default', 'id': fid, 'position': front}, {'type': 'back', 'id': fid, 'position': back}]}
-        if not v['synced']: body['variant_id'] = int(v['sku'].split('-')[-1])
-        call('PUT', f'/sync/variant/{v["id"]}', body); print(f'{i + 1}/{len(vs)} {v["name"]}', flush=True); time.sleep(6)
+        for ft in ('default', 'front'):  # the front placement type is 'default' on most blanks, 'front' on some
+            body = {'files': [{'type': ft, 'id': fid, 'position': front}, {'type': 'back', 'id': fid, 'position': back}]}
+            if not v['synced']: body['variant_id'] = int(v['sku'].split('-')[-1])
+            try: call('PUT', f'/sync/variant/{v["id"]}', body); break
+            except Exception as e:
+                if 'placements' not in str(e) or ft == 'front': raise
+        print(f'{i + 1}/{len(vs)} {v["name"]}', flush=True); time.sleep(6)
 elif cmd == 'mockup':
     cat, url, w, h, vids, out = sys.argv[2:8]; front, back = pos(int(w), int(h)); res = {}
     ids = [int(x) for x in vids.split(',')]

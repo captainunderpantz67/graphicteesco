@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [B] 2026-10-16 23:21
 lane: B
 type: twin
 id: 264
@@ -20,3 +20,4 @@ handle: womens-y2k-hot-mess-express-zip-hoodie
 ---
 ## Log
 - 2026-10-16 22:30 UTC director: brief written, READY (lane B zip-up-hoodies-for-women, R11.5).
+- 2026-10-16 23:27 UTC [B]: built as DRAFT (product 15362504360240, 14 variants Ash S-3XL + Navy S-5XL, $44.99/$49.99, zip-up 18600 #692). Twin of the tee file 1087368545 (3600 x 3814), the planned white counters knocked out: the O in HOT and the P and R counters in EXPRESS (only components in the lettering rows; the train windows and cup keep their white), new Printful file 1087895604, checked on Navy. Back (11 in wide) + small left-chest copy via scripts/pf-zip.py, mockups Ash front, Navy front, Navy back, variant images linked, no neck logo. Cover registry #440 (try 2, image 2 of 3: try 1 hid the hood), keyword y2k zip up hoodie 2900/16, audit-local result above. Sync pid 482349087; REVIEW at 14/14. Sheet docs/review/264.jpg.
