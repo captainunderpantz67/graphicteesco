@@ -197,7 +197,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 211 | Woman in her late 50s, sun-kissed skin, short ash-blonde waves | USED 2026-10-16 — Christmas Golf crewneck cover (fal Seedream 4, try 1; clubhouse at Christmas) |
 | 212 | Woman in her mid 20s, long dark hair in a sleek low ponytail with a velvet bow | USED 2026-10-16 — Nutcracker Bow crewneck cover (fal Seedream 4, try 1; nutcracker mantel) |
 | 213 | Woman in her late 30s, strawberry-blonde braid over one shoulder | USED 2026-10-16 — Highland Cow Christmas crewneck cover (fal Seedream 4, try 1; farm Christmas market) |
-| 214 | Woman in her early 40s, short natural curls, warm brown eyes | USED 2026-10-16 — Gingerbread Lane crewneck cover (fal Seedream 4, try 1; cookie-decorating kitchen) |
+| 214 | Woman in her early 40s, short natural curls, warm brown eyes | USED 2026-10-16 — Gingerbread Lane crewneck cover (fal Seedream 4, try 1; cookie-decorating kitchen); REDO 2026-10-16: regenerated for the redrawn frameless art (try 1 kept) |
 | 215 | Woman in her late 60s, white shoulder-length hair, rosy cheeks | USED 2026-10-16 — Vintage Snowman crewneck cover (fal Seedream 4, try 1; snow-day cabin) |
 | 216 | Black man in his late 30s, short fade, neat full beard, broad build | USED 2026-10-16 — Define Naughty tee cover (fal Seedream 4, try 2: try 1 mug covered the print; living room, Christmas morning) |
 | 217 | Pair: Filipino man in his early 30s, side-parted black hair + white woman in her early 30s, copper-red shoulder-length hair | USED 2026-10-16 — #147 Define Naughty crewneck cover (fal Seedream 4, office holiday party; try 2 kept: try 1 had a coffee cup over the print; her cup still clips the end of NAUGHTY, his print is complete) |
