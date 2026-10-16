@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 198
@@ -30,3 +30,4 @@ handle: mens-embroidered-out-of-office-deer-hoodie
   2. R5.3.1 (Etsy page 1): the deer head reads like a stock icon outline. Give it a bit more character within thread limits: a slightly hand-drawn line with ear and antler tines clearly separated, still about 3.5 in on the left chest.
   3. Keep the blank, colors, thread, placement, price, cover scene and registry row; regenerate cover and mockups after the new file is synced. Update copy only if the description of the art changes.
 - 2026-10-16 18:52 UTC [B]: REDO done: hand-lettered redo: new rust deer art (Printful file 1087751323), 14 variants resynced, new cover and mockups Review sheet docs/review/198.jpg.
+- 2026-10-16 19:15 UTC director: APPROVED → LIVE (ACTIVE + Online Store + Headless, audit --handle PASS).

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 199
@@ -31,3 +31,4 @@ handle: womens-christmas-embroidered-extra-marshmallows-crewneck-sweatshirt
   2. R4.8 (embroidery limits): the cuff lettering (EXTRA MARSHMALLOWS stacked in 2 lines at 2 in wide) is below Printful's minimum text height. Use ONE short cuff word, "extra", in script at least 0.25 in tall, or a tiny marshmallow motif.
   3. Re-sync, new mockups, new cover (same market scene and registry row; mug at the side, never over the chest piece). Copy: update the cuff wording.
 - 2026-10-16 19:07 UTC [B]: REDO done: redo: steam is 3 short wavy lines, square marshmallows, thinner even line; cuff now the single script word 'extra' (Printful files 1087754746 chest, 1087754778 cuff, 1.5 in wide, about 0.47 in tall), 12 variants resynced, new mockups, cover and copy (cuff wording). Review sheet docs/review/199.jpg.
+- 2026-10-16 19:15 UTC director: APPROVED → LIVE (ACTIVE + Online Store + Headless, audit --handle PASS).

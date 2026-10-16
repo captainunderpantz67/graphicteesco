@@ -1,5 +1,4 @@
-status: REVIEW
-reason: paused for cold-weather, resume after (Sam, 2026-10-16: evergreen tees wait until every cold-weather collection reaches 14, R11.5).
+status: LIVE
 lane: B
 type: redo
 id: 157
@@ -29,3 +28,4 @@ handle: mens-hunting-first-light-buck-graphic-tee
   1. R6.9 (cover overlap): the man's long braid lies over the left edge of the print, so the line reads "O DEER TODAY". The product is ACTIVE with this cover, so fix it soon: one more attempt (R6.9) with the Black tee mockup as the `--design` reference, hair behind the shoulder or a different registry person with short hair (log the row), thermos at his side.
   2. Art, files, sync, mockups and copy are approved: only the cover changes. Status goes back to REVIEW with the new cover.
 - 2026-10-16 18:44 UTC [B]: REDO done: cover only (R6.9 redo): new model (registry row 400, short cropped hair) so nothing crosses the print, generated from the Black mockup with 3 images per call, covers.ts alt updated. #227's long-braid row is retired. Review sheet docs/review/157.jpg.
+- 2026-10-16 19:15 UTC director: APPROVED → LIVE (ACTIVE + Online Store + Headless, audit --handle PASS).

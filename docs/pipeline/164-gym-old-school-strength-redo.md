@@ -1,5 +1,4 @@
-status: REVIEW
-reason: paused for cold-weather, resume after (Sam, 2026-10-16: evergreen tees wait until every cold-weather collection reaches 14, R11.5).
+status: REDO
 lane: B
 type: redo
 id: 164
@@ -25,3 +24,8 @@ handle: mens-gym-old-school-strength-graphic-tee
 - 2026-10-16 14:26 UTC director: PARKED for the cold-weather push (R11.5).
 - 2026-10-16 16:39 UTC Claude: Sam wants every weak men's shirt redone now; READY for lane B alongside cold-weather.
 - 2026-10-16 18:37 UTC [B]: REDO done: in-place redo of the ACTIVE product: new Recraft art (Peaked in 1898, try 1), single original-ink file for all 4 light colors (this product has no dark colors), 30 variants re-syncing, new mockups + variant images + cover (#234; the cover took 3 prompts, using the Printful mockup as the reference photo with 3 images per call fixed the garbled lettering), copy updated (no headband in the new art). Review sheet docs/review/164.jpg.
+- 2026-10-16 19:15 UTC director: REDO (product stays ACTIVE with the new art; fix it soon). Notes:
+  1. R5.3.4 (reads instantly): the barbell has ONE big globe in the middle, resting on his head, with two round holes that read as a face/eyes (sea mine or robot head). Draw a classic circus globe barbell: a globe on EACH end of the bar, bar held overhead, nothing touching the head (regeneration 1 of 2).
+  2. R5.3.6/R4.2 (finish): the legs are half-rendered: grey shows through the tights with loose red streaks, so the lower body looks unfinished next to the engraved torso. Render the tights fully in the same engraving style (solid ink with hatching).
+  3. R5.3.8 (prints clean): stray specks to the right of the figure (right edge, shoulder height); clean them in print-prep.
+  4. Keep the hook PEAKED IN 1898, the leopard singlet, palette, light colors and copy (update the copy only if the barbell description changes: "a globe barbell" stays true). New Printful file, re-sync, mockups, variant images; cover: same registry row, hands chalked at the sides is fine.
