@@ -18,3 +18,4 @@ handle: womens-thanksgiving-the-turkey-is-fine-crewneck-sweatshirt
 ---
 ## Log
 - 2026-10-16 22:25 UTC director: brief written, READY (lane A funny Thanksgiving pair for /funny-thanksgiving-shirts/, R9.11).
+- 2026-10-16 22:47 UTC builder [A]: DRAFT gid://shopify/Product/15362427519280 (Gildan 18000; White, Sand, Light Pink, Ash, Sport Grey x S-3XL = 30; $34.99/$39.99; tags thanksgiving-sweatshirts, sweatshirt, thanksgiving), #251's file 1087872888 (no new art), Printful sync 482340765 queued (FORCE=1 FW=1500 setfile 482340765 1087872888 1080398177). Keywords (turkey sweater, chef sweatshirt) already in the map under this handle. Cover #428 from the Sand mockup (try 1, kept #2 of 3; print fully readable), 5 fronts + back, variant images, audit above, docs/review/252.jpg. REVIEW once synced = 30.
