@@ -2,7 +2,7 @@
 """Printful sync helper (no secrets: reads PRINTFUL_TOKEN from the environment).
   pf-sync.py upload <url> <filename>                    -> prints Printful file id
   pf-sync.py setfile <sync_product_id> <front_file_id> [<back_file_id>]
-        sets front (default) + back files on every variant of an existing sync product (paced 6 s, honors 429)
+        sets front (default) + back files on every variant (links unsynced ones via the catalog id at the end of their SKU) of an existing sync product (paced 6 s, honors 429)
   pf-sync.py status <sync_product_id>                   -> variants / synced counts"""
 import os, sys, json, time, urllib.request, urllib.error
 T = os.environ['PRINTFUL_TOKEN']
@@ -30,12 +30,14 @@ elif cmd == 'setfile':
     vs = call('GET', f'/sync/products/{pid}')['sync_variants']
     for i, v in enumerate(vs):
         cur = {f['type']: f['id'] for f in v['files']}
-        if cur.get('default') == front and (back is None or cur.get('back') == back): continue
+        if v['synced'] and cur.get('default') == front and (back is None or cur.get('back') == back): continue
         bk = back or cur.get('back')
         for ft in (FT, 'front' if FT == 'default' else 'default'):
             try:
                 files = [{'type': ft, 'id': front}] + ([{'type': 'back', 'id': bk}] if bk else [])
-                call('PUT', f'/sync/variant/{v["id"]}', {'files': files}); FT = ft; break
+                body = {'files': files}
+                if not v['synced']: body['variant_id'] = int(v['sku'].split('-')[-1])
+                call('PUT', f'/sync/variant/{v["id"]}', body); FT = ft; break
             except Exception as e:
                 if 'placements' not in str(e): raise
         print(f'{i+1}/{len(vs)} {v["name"]}', flush=True); time.sleep(6)

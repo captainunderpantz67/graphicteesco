@@ -21,3 +21,4 @@ handle: womens-christmas-jolly-ish-graphic-tee
 ---
 ## Log
 - 2026-10-16 08:45 UTC director: brief written, READY.
+- 2026-10-16 UTC builder [A]: art Recraft v4 try 1 (kept; hyphen small but legible), print-prep 3600x1850, Printful file 1087677264. Shopify DRAFT gid://shopify/Product/15361607074096 (36 variants: White, Natural, Pink, Athletic Heather, Heather Stone, Light Violet x S-3XL), copy/SEO/tags/price done. Primary plaid christmas shirt 1,000/KD47. Still to do: Printful link (scripts/pf-sync.py setfile <sync id> 1087677264 1080398177), cover #218, mockups + variant images, review sheet.
