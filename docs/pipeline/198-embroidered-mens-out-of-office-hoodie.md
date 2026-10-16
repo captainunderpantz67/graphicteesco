@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16
+status: REVIEW
 lane: B
 type: new
 id: 198
@@ -29,3 +29,4 @@ handle: mens-embroidered-out-of-office-deer-hoodie
   1. R3.7.6 (lettering): OUT OF OFFICE is set in a default bold sans font. Every joke line must be hand-drawn lettering. Redraw the words as hand-lettered block capitals or a rustic script (still one rust thread, embroidery-safe stroke weight), regeneration 1 of 2.
   2. R5.3.1 (Etsy page 1): the deer head reads like a stock icon outline. Give it a bit more character within thread limits: a slightly hand-drawn line with ear and antler tines clearly separated, still about 3.5 in on the left chest.
   3. Keep the blank, colors, thread, placement, price, cover scene and registry row; regenerate cover and mockups after the new file is synced. Update copy only if the description of the art changes.
+- 2026-10-16 18:52 UTC [B]: REDO done: hand-lettered redo: new rust deer art (Printful file 1087751323), 14 variants resynced, new cover and mockups Review sheet docs/review/198.jpg.
