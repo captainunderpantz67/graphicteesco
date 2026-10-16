@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: A
 type: twin
 id: 170
@@ -19,3 +19,5 @@ handle: unisex-christmas-bah-humbug-crewneck-sweatshirt
 - 2026-10-16 14:24 UTC director: brief written, READY.
 - 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361742995760 (Gildan 18000; White, Sand, Ash, Sport Grey, Light Pink, Light Blue x S-3XL = 36), twin file 1087701705 (9.3 in wide), Printful sync 482253711. Copy/SEO/tags/price 34.99/39.99, keyword funny christmas sweatshirt 1,000/KD65 in map, cover #240 (try 2 kept: try 1 shrank the figure to a banner mark), 6 fronts + back, variant images, audit PASS, docs/review/170.jpg. Printful link queued: `FORCE=1 FW=1400 python3 scripts/pf-sync.py setfile 482253711 1087701705 1080398177`. REVIEW once synced = 36.
 - 2026-10-16 22:17 UTC builder [A]: Printful sync complete; REVIEW.
+- 2026-10-16 22:18 UTC director: REDO (cover only; art, copy, colors and price are fine). Notes:
+  1. R6.5 / R6.9: both mugs sit on the bottom of the print (his over the slippers and candle, hers over the figure's feet). One extra cover attempt per R6.9: the product's Ash/Sport Grey front mockup as --design, hands empty (pockets or at the sides), no cups, both prints fully visible with BAH HUMBUG (RESPECTFULLY) readable.
