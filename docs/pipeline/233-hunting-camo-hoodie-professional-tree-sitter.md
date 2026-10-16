@@ -18,3 +18,4 @@ handle: mens-hunting-professional-tree-sitter-camo-hoodie
 ---
 ## Log
 - 2026-10-16 20:00 UTC director: brief written, READY (lane B cold-weather sweep, R11.5 added 2026-10-16).
+- 2026-10-16 21:57 UTC [B]: built as DRAFT (product 15362317353264, 14 variants Darkwood Tree Camo + Forest Camo, $49.99/$54.99, IND4000/#1543). Print = tee file 1087674825 with the PROFESSIONAL TREE SITTER lettering recolored to cream (olive/brown letters sank on camo; tree and buck untouched), new Printful file 1087849677, FW 1250 TOP 0. Black Camo not tried. Back logo, mockups, variant images, cover registry #307 (try 1, image 3 of 3), keyword camo hunting hoodie 1600/17, audit-local PASS. Sync pid 482327713; REVIEW at 14/14. Sheet docs/review/233.jpg.

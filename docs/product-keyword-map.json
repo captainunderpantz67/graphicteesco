@@ -3732,6 +3732,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-hunting-professional-tree-sitter-camo-hoodie": {
+   "claimed": [
+    "camo hunting hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "camo hunting hoodie",
+     "volume": 1600,
+     "kd": 17
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

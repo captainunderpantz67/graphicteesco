@@ -239,6 +239,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-christmas-resting-my-eyes-crewneck-sweatshirt': { src: '/covers/mens-christmas-resting-my-eyes-crewneck-sweatshirt.webp', alt: 'Man in his late 50s with short grey hair, a neat grey beard and glasses in a cream Resting My Eyes Christmas crewneck sweatshirt on a front porch with a wreath on the door behind him' },
   'mens-hunting-opening-day-camo-hoodie': { src: '/covers/mens-hunting-opening-day-camo-hoodie.webp', alt: 'Man in a blaze-orange cap and a Forest Camo Opening Day hoodie beside a pickup at a frosty tree line at first light' },
   'mens-hunting-no-deer-today-camo-hoodie': { src: '/covers/mens-hunting-no-deer-today-camo-hoodie.webp', alt: 'Man in a Black Camo No Deer Today hoodie on a deer camp cabin porch at dawn with a thermos on the rail' },
+  'mens-hunting-professional-tree-sitter-camo-hoodie': { src: '/covers/mens-hunting-professional-tree-sitter-camo-hoodie.webp', alt: 'Man in a Forest Camo Professional Tree Sitter hoodie at the base of an autumn oak with a ladder stand above and a bow case on the trunk' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

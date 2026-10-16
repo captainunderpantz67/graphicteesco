@@ -290,7 +290,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 304 | White woman in her early 30s, long sandy-blonde braid, light tan | USED 2026-10-16 — #230 Kick Up Dust camo hoodie cover (try 2, image 1 of 3; try 1 had the braid over the print) |
 | 305 | White man in his mid 30s, dark brown beard, blaze-orange cap | USED 2026-10-16 — #231 Opening Day camo hoodie cover (try 1, image 1 of 3) |
 | 306 | Black man in his early 50s, grey goatee, bald, broad shoulders | USED 2026-10-16 — #232 No Deer Today camo hoodie cover (try 1, image 3 of 3) |
-| 307 | Hmong-American man in his early 30s, short spiky black hair | RESERVED — #233 Tree Sitter camo hoodie cover |
+| 307 | Hmong-American man in his early 30s, short spiky black hair | USED 2026-10-16 — #233 Professional Tree Sitter camo hoodie cover (try 1, image 3 of 3) |
 | 308 | Greek-American man in his late 20s, dark wavy hair, trimmed beard, muscular | RESERVED — #234 Study in Hypertrophy oversized hoodie cover |
 | 309 | White man in his mid 50s, grey crew cut, sunglasses pushed up on his head | RESERVED — #235 Reel Talk half zip cover |
 | 400 | Native American man in his mid 40s, short cropped black hair, blaze-orange cap | USED 2026-10-16 — #157 No Deer Today cover redo (replaces #227's long-braid model whose braid covered the print; fal Seedream 4 from the Black tee mockup, 3 images, best kept) |
