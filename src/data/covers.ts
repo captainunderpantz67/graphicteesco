@@ -168,6 +168,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-hunting-professional-tree-sitter-graphic-tee': { src: '/covers/mens-hunting-professional-tree-sitter-graphic-tee.webp', alt: 'Bearded man in a camo cap standing in autumn woods beside a tree stand ladder, wearing the Professional Tree Sitter tee' },
   'womens-nurse-dont-say-the-q-word-graphic-tee': { src: '/covers/womens-nurse-dont-say-the-q-word-graphic-tee.webp', alt: 'Woman in navy scrub pants with a messy bun standing outside a hospital emergency entrance at sunset, wearing the Don\'t Say the Q Word tee' },
   'unisex-anime-kaiju-naps-graphic-tee': { src: '/covers/unisex-anime-kaiju-naps-graphic-tee.webp', alt: 'Man and woman standing together on a city rooftop at sunset, both wearing the Destroyer of Cities, Lover of Naps tee' },
+  'mens-christmas-define-naughty-graphic-tee': { src: '/covers/mens-christmas-define-naughty-graphic-tee.webp', alt: 'Man in a decorated living room on Christmas morning, torn wrapping paper on the floor, wearing the Define Naughty Santa tee in navy' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

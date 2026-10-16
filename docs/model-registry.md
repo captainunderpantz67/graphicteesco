@@ -199,7 +199,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 213 | Woman in her late 30s, strawberry-blonde braid over one shoulder | USED 2026-10-16 — Highland Cow Christmas crewneck cover (fal Seedream 4, try 1; farm Christmas market) |
 | 214 | Woman in her early 40s, short natural curls, warm brown eyes | USED 2026-10-16 — Gingerbread Lane crewneck cover (fal Seedream 4, try 1; cookie-decorating kitchen) |
 | 215 | Woman in her late 60s, white shoulder-length hair, rosy cheeks | USED 2026-10-16 — Vintage Snowman crewneck cover (fal Seedream 4, try 1; snow-day cabin) |
-| 216 | Black man in his late 30s, short fade, neat full beard, broad build | RESERVED — #146 Define Naughty tee cover (director 2026-10-16) |
+| 216 | Black man in his late 30s, short fade, neat full beard, broad build | USED 2026-10-16 — Define Naughty tee cover (fal Seedream 4, try 2: try 1 mug covered the print; living room, Christmas morning) |
 | 217 | Pair: Filipino man in his early 30s, side-parted black hair + white woman in her early 30s, copper-red shoulder-length hair | RESERVED — #147 Define Naughty crewneck cover (man + woman) |
 | 218 | Latina woman in her early 30s, long dark curls, red lipstick, gold statement earrings | RESERVED — #148 Jolly-ish tee cover |
 | 219 | Korean-American woman in her late 30s, shoulder-length straight hair with face-framing layers | RESERVED — #149 Jolly-ish crewneck cover |
