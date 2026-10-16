@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16T10:46Z
+status: REVIEW
 lane: B
 type: new
 id: 130
@@ -21,3 +21,4 @@ handle: womens-cropped-espresso-yourself-graphic-tee
   1. R5.3.8 (letter fills): the last O in ESPRESSO has a solid white counter, and the O in YOURSELF carries a white oval highlight. On Pale Pink, Hazy Pink, Bubblegum and Mineral these print as white dots in the word. Knock the counters out to transparent in print-prep (keep the cream letters cream), preview on grey and on Mineral.
   2. R5.3.2 (fills the print area): the print is only 7.3 in wide; on the mockups it reads small next to Matcha Made in Heaven (8.5 in on the same 4062 blank). Re-place at 8.5 in wide, top 0, centered.
   Then re-upload, re-sync the 40 variants to the new file, regenerate mockups + variant images, new review sheet. Cover can stay (the print on it is the same art).
+- 2026-10-16 12:41 UTC [B]: REDO fix done: counters knocked out (art130fixed, file 1087506635), re-placed at the full print height (7.6 in wide x 10 in tall, the 4062 print area is 10x10; 8.5 in wide would clip the bottom word), all 40 variants re-synced, mockups regenerated and swapped in place (variant images stay linked), print-size line in copy corrected. Sheet docs/review/130.jpg.
