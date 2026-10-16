@@ -52,7 +52,15 @@ export const itemListOfCollections = (cs: Collection[], name: string) => ({
   itemListElement: cs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.h1, url: site.url + pathFor(c) })),
 });
 
-export const collectionPage = (c: Collection, products: Product[]) => ({
+// Product roundup on a guide page: only live products (the caller filters against Shopify).
+export const itemListOfProducts = (name: string, items: { name: string; handle: string }[]) => ({
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name,
+  itemListElement: items.map((p, i) => ({ '@type': 'ListItem', position: i + 1, name: p.name, url: `${site.url}/products/${p.handle}/` })),
+});
+
+export const collectionPage =(c: Collection, products: Product[]) => ({
   '@context': 'https://schema.org',
   '@type': 'CollectionPage',
   name: c.h1,
