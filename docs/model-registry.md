@@ -307,5 +307,5 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 420 | White woman in her late 30s, platinum blonde lob, red lipstick | USED 2026-10-16 — #246 Totally a Pilgrim hoodie cover (with #419) |
 | 421 | White woman in her early 60s, white hair in a soft low bun, reading glasses on a beaded chain | USED 2026-10-16 — #244 Nana's Cookies crewneck cover try 1 (from the Sand mockup) |
 | 422 | Japanese-American woman in her late 50s, salt-and-pepper hair in a short layered cut, soft smile lines | USED 2026-10-16 — #245 Nana's Cookies tee cover try 1 (from the Athletic Heather mockup) |
-| 423 | Black woman in her early 30s, natural afro puff, gold statement earrings | RESERVED — #247 Snow Problem tee cover |
+| 423 | Black woman in her early 30s, natural afro puff, gold statement earrings | USED 2026-10-16 — #247 Snow Problem tee cover try 1 (from the White mockup) |
 | 424 | South Asian woman in her mid 20s, long wavy dark hair in a side part, nose stud | RESERVED — #248 Snow Problem crewneck cover |

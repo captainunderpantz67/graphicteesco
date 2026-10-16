@@ -3873,6 +3873,25 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-snow-problem-graphic-tee": {
+   "claimed": [
+    "winter tshirt",
+    "snow day shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "winter tshirt",
+     "volume": 4400,
+     "kd": 50
+    },
+    {
+     "phrase": "snow day shirt",
+     "volume": 170,
+     "kd": 42
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
