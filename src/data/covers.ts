@@ -231,6 +231,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-cropped-ghost-club-cropped-hoodie': { src: '/covers/womens-cropped-ghost-club-cropped-hoodie.webp', alt: 'Young woman in a black Ghost Club cropped hoodie in a campus coffee shop with fall leaves outside the window' },
   'womens-christmas-merry-woofmas-crewneck-sweatshirt': { src: '/covers/womens-christmas-merry-woofmas-crewneck-sweatshirt.webp', alt: 'Woman in her late 30s with shoulder-length dark hair and a side part in a cream Merry Woofmas crewneck sweatshirt beside a lit Christmas tree with a golden doodle at her feet' },
   'womens-christmas-candy-cane-club-crewneck-sweatshirt': { src: '/covers/womens-christmas-candy-cane-club-crewneck-sweatshirt.webp', alt: 'Woman in her early 30s with a long high ponytail and a red velvet bow in a cream Candy Cane Club crewneck sweatshirt at a Christmas market candy stall, shopping bag at her hip' },
+  'womens-cropped-ghost-club-cropped-hoodie': { src: '/covers/womens-cropped-ghost-club-cropped-hoodie.webp', alt: 'Woman in a black Ghost Club cropped hoodie in a campus coffee shop with fall leaves outside the window' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
