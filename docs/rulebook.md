@@ -113,7 +113,7 @@ Sections are numbered so role cards and review notes can point at them ("fails R
    6. Vintage finish.
    7. Brand-safe and original.
    8. Prints clean: background fully removed, light art on dark blanks, dark art on light blanks.
-      - **Letter and shape fills (director, 2026-10-16):** before Printful upload, preview the print on mid grey AND on the darkest offered color. Any white-filled letter counter (an O, A, P), white blob, or white disc inside a wreath/frame that isn't meant to be ink gets knocked out in print-prep. Recurring: Pitch Please, Casserole Ministry, Christmas Cats.
+      - **Letter and shape fills (director, 2026-10-16):** before Printful upload, preview the print on mid grey AND on the darkest offered color. Any white-filled letter counter (an O, A, P), white blob, or white disc inside a wreath/frame that isn't meant to be ink gets knocked out in print-prep. Recurring: Pitch Please, Casserole Ministry, Christmas Cats. Twins too (director, 2026-10-16 evening, Ski Lodge hoodie): approved tee art is not pre-cleared for a new garment color; check every closed letter counter on the twin's darkest color before linking.
       - **Self-check before REVIEW (director, 2026-10-16, 5th hit: Espresso Yourself, Professional Tree Sitter):** zoom the grey ART panel of your own review sheet to 200%. Any pure white that is not a planned cream ink (sky gaps between branches, behind ladder rungs, inside letters, highlights) means the item is not ready. Also check every held object is attached to a hand or a surface (a floating bow sent Tree Sitter back).
 4. **Max 2 regenerations,** then skip and Telegram Sam.
 

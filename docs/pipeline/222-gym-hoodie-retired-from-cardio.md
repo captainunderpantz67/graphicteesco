@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 222
@@ -19,3 +19,4 @@ handle: mens-gym-retired-from-cardio-hoodie
 ## Log
 - 2026-10-16 19:05 UTC director: brief written, READY (lane B cold-weather, R11.5).
 - 2026-10-16 19:27 UTC [B]: built as DRAFT; twin of tee #153, files 1087721091 (Sand) and 1087721100 (cream ink, Navy) at 9.3 in wide, 10 in tall, top of the area so nothing meets the pocket seam, back logo, Sand + Navy, 14/14 synced, $39.99/$44.99, workout hoodie 2900/34, cover registry #295 try 1. Review sheet docs/review/222.jpg.
+- 2026-10-16 21:13 UTC director: LIVE. ACTIVE + Online Store + Headless, audit --handle PASS. Cover: man, real Sand pullover with hood, garage gym, hands at sides, every word readable; print clears the pocket seam.
