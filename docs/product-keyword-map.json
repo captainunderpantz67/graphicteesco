@@ -2729,6 +2729,40 @@
      "gap": 4.08
     }
    ]
+  },
+  "womens-baseball-mom-bases-loaded-graphic-tee": {
+   "claimed": [
+    "baseball mom tshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "baseball mom shirt",
+     "volume": 1000,
+     "kd": 61,
+     "competition": 102719,
+     "gap": 1.49
+    }
+   ]
+  },
+  "womens-soccer-mom-orange-slice-supplier-graphic-tee": {
+   "claimed": [
+    "soccer mom tshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "soccer mom shirts",
+     "volume": 2900,
+     "kd": 42,
+     "competition": 32981,
+     "gap": 10.58
+    }
+   ]
+  },
+  "womens-christian-casserole-ministry-graphic-tee": {
+   "claimed": [
+    "casserole shirt"
+   ],
+   "gaps_measured": []
   }
  }
 }

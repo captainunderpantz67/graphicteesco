@@ -178,9 +178,9 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 192 | Woman in her early 20s, curly blonde hair, freckles | USED 2026-10-16 — Matcha Made in Heaven cropped tee cover (fal Seedream 4, sunny cafe booth; try 1 kept) |
 | 193 | Woman in her mid 20s, long wavy pink-dyed hair, hoop earrings | USED 2026-10-16 — Low Battery, High Standards y2k tee cover (fal Seedream 4, mall with fountain; try 1 kept) |
 | 194 | Man in his early 30s, curly dark hair, wire glasses + woman in her early 30s, high bun, freckles | USED 2026-10-16 — Mecha Mondays anime tee cover, man + woman (fal Seedream 4, anime/comic shop; try 2 kept: try 1 garbled the title with an apostrophe, MONDAY'S) |
-| 195 | Woman in her late 30s, sandy blonde ponytail, sunglasses pushed up | BUILDING [B] — Bases Loaded baseball mom tee cover |
-| 196 | Woman in her early 40s, short dark curly hair | BUILDING [B] — Orange Slice Supplier soccer mom tee cover |
-| 197 | Woman in her late 60s, short white curls, cardigan | BUILDING [B] — Casserole Ministry christian tee cover |
+| 195 | Woman in her late 30s, sandy blonde ponytail, sunglasses pushed up | USED 2026-10-16 — Bases Loaded baseball mom tee cover (fal Seedream 4, ballpark bleachers; try 1 kept) |
+| 196 | Woman in her early 40s, short dark curly hair | USED 2026-10-16 — Orange Slice Supplier soccer mom tee cover (fal Seedream 4, sideline at dusk; try 1 kept) |
+| 197 | Woman in her late 60s, short white curls, cardigan | USED 2026-10-16 — Casserole Ministry christian tee cover (fal Seedream 4, church fellowship hall potluck; try 1 kept) |
 | 198 | Woman in her late 20s, sleek black high ponytail, butterfly clips | BUILDING [B] — Still Loading y2k tee cover |
 | 199 | Woman in her early 20s, curly red hair in space buns | BUILDING [B] — Hot Mess Express y2k tee cover |
 | 200 | Woman in her mid 20s, straight brown hair with curtain bangs, gold necklace | BUILDING [B] — Espresso Yourself cropped tee cover |

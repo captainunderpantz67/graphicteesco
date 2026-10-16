@@ -159,6 +159,9 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-cropped-matcha-made-in-heaven-graphic-tee': { src: '/covers/womens-cropped-matcha-made-in-heaven-graphic-tee.webp', alt: 'Woman with curly blonde hair sitting in a sunny cafe booth with a matcha latte, wearing the Matcha Made in Heaven cropped tee' },
   'womens-y2k-low-battery-high-standards-graphic-tee': { src: '/covers/womens-y2k-low-battery-high-standards-graphic-tee.webp', alt: 'Woman with long pink wavy hair and hoop earrings standing in a bright shopping mall with a fountain, wearing the Low Battery, High Standards tee' },
   'unisex-anime-mecha-mondays-graphic-tee': { src: '/covers/unisex-anime-mecha-mondays-graphic-tee.webp', alt: 'Man and woman smiling side by side in a retro anime and comic shop, both wearing the Mecha Mondays tee' },
+  'womens-baseball-mom-bases-loaded-graphic-tee': { src: '/covers/womens-baseball-mom-bases-loaded-graphic-tee.webp', alt: 'Woman with a blonde ponytail and sunglasses on her head sitting on ballpark bleachers, wearing the Bases Loaded, Mom Exhausted tee' },
+  'womens-soccer-mom-orange-slice-supplier-graphic-tee': { src: '/covers/womens-soccer-mom-orange-slice-supplier-graphic-tee.webp', alt: 'Woman with short dark curly hair standing on a soccer field sideline at dusk beside a camp chair and cooler, wearing the Official Orange Slice Supplier tee' },
+  'womens-christian-casserole-ministry-graphic-tee': { src: '/covers/womens-christian-casserole-ministry-graphic-tee.webp', alt: 'Older woman with short white curls and a cardigan standing at a church potluck table in a fellowship hall, wearing the Casserole Ministry tee' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
