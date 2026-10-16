@@ -3187,6 +3187,18 @@
    ],
    "gaps_measured": [],
    "measured": "cherry sweatshirt 1,000/KD42; cherry crewneck 170/KD34 (RankHero 2026-10-16)"
+  "womens-christmas-sleighping-in-graphic-tee": {
+   "claimed": [
+    "christmas pajama shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas pajama shirt",
+     "volume": 720,
+     "kd": 50
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

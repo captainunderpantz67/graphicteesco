@@ -21,3 +21,4 @@ handle: womens-christmas-sleighping-in-graphic-tee
 ---
 ## Log
 - 2026-10-16 14:24 UTC director: brief written, READY.
+- 2026-10-16 UTC builder [A]: art Recraft v4 (first prompt 422'd at fal, shortened; spelling right, original reindeer), gaps between the sleigh runners knocked out, Printful file 1087707679. DRAFT gid://shopify/Product/15361760395568 (6400; White, Natural, Pink, Athletic Heather, Heather Stone x S-3XL = 30; no Heather Mauve, the faded-red lettering sinks into it), sync 482255520. Copy/SEO/tags/price, keyword christmas pajama shirt 720/KD50 in map (Dec peak not re-opened on RankHero), cover #241 (try 1), 5 fronts + back, variant images, audit PASS, docs/review/171.jpg. Printful link queued: `FORCE=1 python3 scripts/pf-sync.py setfile 482255520 1087707679 1080398177`. REVIEW once synced = 30.
