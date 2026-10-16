@@ -311,7 +311,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 424 | South Asian woman in her mid 20s, long wavy dark hair in a side part, nose stud | RESERVED — #248 Snow Problem crewneck cover |
 | 437 | Ethiopian-American man in his late 20s, close-cropped hair, thin mustache, wiry boxer's build | USED 2026-10-16 — #261 Conflict Resolution oversized sweatshirt cover (try 1, image 3 of 3) |
 | 438 | Guatemalan-American woman in her late 20s, wavy dark hair in a loose half-up twist, gold-rimmed glasses | USED 2026-10-16 — #262 Plot Twist oversized sweatshirt cover (try 1, image 2 of 3) |
-| 439 | Cuban-American woman in her early 20s, dark curly hair in two puff buns, tiny gold huggie earrings | RESERVED — #263 Not Toad-ay zip hoodie cover |
+| 439 | Cuban-American woman in her early 20s, dark curly hair in two puff buns, tiny gold huggie earrings | USED 2026-10-16 — #263 Not Toad-ay zip hoodie cover (try 1, image 2 of 3; back view) |
 | 440 | Chinese-American woman in her mid 20s, chin-length bob dyed lavender, silver hoops | RESERVED — #264 Hot Mess Express zip hoodie cover |
 | 441 | Colombian-American woman in her mid 30s, long dark hair in a low twisted bun, silver ear cuffs | RESERVED — #265 On My Own Time snail embroidered hoodie cover |
 | 442 | Czech-American man in his early 40s, curly light-brown hair, full brown beard with a grey patch at the chin | RESERVED — #266 Eau de Campfire embroidered hoodie cover |
