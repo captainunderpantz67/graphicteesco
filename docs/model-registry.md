@@ -234,7 +234,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 248 | Cherokee man in his early 60s, grey ponytail, weathered face | USED 2026-10-16 — #178 Deer Diary zip hoodie cover (fal Seedream 4, cabin porch, back view; try 1 kept: try 2 garbled the print) |
 | 249 | Pair: Thai-American man in his early 20s, bleached tips + Black woman in her early 20s, short curly fro | USED 2026-10-16 — #179 Kaiju Naps oversized hoodie cover (fal Seedream 4, rooftop, try 1 kept, white bars cropped) |
 | 250 | Pair: Vietnamese-American man in his mid 20s, round glasses + white woman in her mid 20s, pink-dyed bob | USED 2026-10-16 — #180 Mecha Mondays oversized hoodie cover (fal Seedream 4, ramen street; try 2 kept, man's print drew a dark frame) |
-| 251 | Indian-American woman in her early 20s, long wavy hair, small nose stud | RESERVED — #181 Matcha cropped hoodie cover |
+| 251 | Indian-American woman in her early 20s, long wavy hair, small nose stud | USED 2026-10-16 — #181 Matcha cropped hoodie cover (fal Seedream 4, cafe counter; try 1 kept) |
 | 252 | Mixed-race woman in her mid 20s, curly honey-brown hair in a claw clip | RESERVED — #182 Espresso cropped hoodie cover |
 | 253 | Pair: Black man in his late 50s, grey temples + Black woman in her mid 50s, silver locs | RESERVED — #183 Amazing Grace heavyweight hoodie cover (man + woman) |
 | 254 | Tongan man in his late 20s, very broad build, short black hair | RESERVED — #184 Clean Plate Club heavyweight hoodie cover |

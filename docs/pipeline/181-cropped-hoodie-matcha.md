@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16
+status: REVIEW
 lane: B
 type: twin
 id: 181
@@ -18,3 +18,4 @@ handle: womens-cropped-matcha-made-in-heaven-cropped-hoodie
 ---
 ## Log
 - 2026-10-16 14:28 UTC director: brief written, READY (cold-weather push, Sam 2026-10-16).
+- 2026-10-16 17:05 UTC [B]: built as DRAFT; twin of tee, file 1087363169 front 9 x 10 in + back logo, Storm only (7502 has just Black/Military Green/Storm/Peach; Peach has only an out-of-stock XL, and the deep green print vanishes on Black and Military Green), 5/5 synced, $44.99/$49.99, matcha hoodie 590/30. Review sheet docs/review/181.jpg.
