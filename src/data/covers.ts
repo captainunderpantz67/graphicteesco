@@ -190,6 +190,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-christmas-jolly-ish-crewneck-sweatshirt': { src: '/covers/womens-christmas-jolly-ish-crewneck-sweatshirt.webp', alt: 'Woman with shoulder-length dark hair smiling in a home kitchen at a Christmas cookie exchange, holding cocoa and wearing the light pink Jolly-ish plaid crewneck sweatshirt' },
   'unisex-christmas-technically-a-sweater-crewneck-sweatshirt': { src: '/covers/unisex-christmas-technically-a-sweater-crewneck-sweatshirt.webp', alt: 'Man in a beanie and woman with bangs standing together at an ugly-sweater party in a living room with a lit tree, holding coffee mugs and wearing the light grey Technically a Sweater crewneck sweatshirt' },
   'womens-y2k-low-battery-high-standards-hoodie': { src: '/covers/womens-y2k-low-battery-high-standards-hoodie.webp', alt: 'Woman with platinum blonde space buns and glitter eyeliner sitting on a bed with fairy lights behind her, wearing the Low Battery High Standards Y2K hoodie in sand' },
+  'unisex-fishing-lake-life-hoodie': { src: '/covers/unisex-fishing-lake-life-hoodie.webp', alt: 'Man and woman on a wooden lake dock at sunset in matching sand pullover hoodies, holding thermos cups, wearing the Lake Life bass hoodie' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
