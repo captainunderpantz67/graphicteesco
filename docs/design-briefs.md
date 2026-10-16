@@ -1558,6 +1558,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Art:** Style v3 A — a vintage ballpark diamond with a ball on every base, a folding stadium chair holding a coffee thermos, a mitt and sunflower seeds; BASES LOADED / MOM EXHAUSTED in faded red/navy varsity caps.
 - **Primary keyword:** baseball mom tshirt — 880 / KD 60
 - **Cover model:** registry #195
+- **Print file:** art regenerated 2026-10-16 (Recraft v4; the first run's file id was never recorded) → Printful file 1087368506, front 9.0in wide on 1500×1800, top 0, left 75.
 
 ### 126. Women's Soccer Mom – Official Orange Slice Supplier Tee  *(BUILDING [B])*
 - **Handle:** `womens-soccer-mom-orange-slice-supplier-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags soccer-mom-shirts, graphic-tees-for-women, vintage-graphic-tees
@@ -1566,6 +1567,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Art:** Style v3 A — a vintage cooler overflowing with orange slices beside a scuffed soccer ball and a whistle; OFFICIAL ORANGE SLICE SUPPLIER in faded orange/navy caps.
 - **Primary keyword:** soccer mom tshirt — 2,900 / KD 38
 - **Cover model:** registry #196
+- **Print file:** art regenerated 2026-10-16 (Recraft v4; the first run's file id was never recorded) → Printful file 1087368515, front 9.0in wide on 1500×1800, top 0, left 75.
 
 ### 127. Women's Christian – Casserole Ministry Tee  *(BUILDING [B])*
 - **Handle:** `womens-christian-casserole-ministry-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags christian-shirts, graphic-tees-for-women, vintage-graphic-tees
@@ -1574,6 +1576,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Art:** Style v3 A — a vintage casserole dish in quilted oven mitts with a wooden spoon, a little steeple and wildflowers behind; CASSEROLE MINISTRY in faded 1950s script/caps. Dusty rose, sage, cream, navy.
 - **Primary keyword:** casserole shirt — 20 / KD 48 (small, measured, describes the art)
 - **Cover model:** registry #197
+- **Print file:** art regenerated 2026-10-16 (Recraft v4; the first run's file id was never recorded) → Printful file 1087368524, front 9.0in wide on 1500×1800, top 0, left 75.
 
 ## Evergreen whimsy batch 4 — lane B (2026-10-15; y2k 1, cropped 2, anime 3, hunting 6, nurse 5)
 
@@ -1584,6 +1587,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Art:** Y2K — a translucent teal desktop computer with a CRT screen showing a loading bar and hourglass, a floppy disk and sparkles; STILL LOADING / SINCE 1999 in chrome bubble letters. Teal, lilac, silver.
 - **Primary keyword:** computer shirt — 390 / KD 50 (also loading shirt 140 / 54)
 - **Cover model:** registry #198
+- **Print file:** art regenerated 2026-10-16 (Recraft v4; the first run's file id was never recorded) → Printful file 1087368544, front 9.0in wide on 1500×1800, top 0, left 75.
 
 ### 129. Women's Y2K – Hot Mess Express Tee  *(BUILDING [B])*
 - **Handle:** `womens-y2k-hot-mess-express-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags y2k-graphic-tees, graphic-tees-for-women
@@ -1592,6 +1596,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Art:** Y2K — a sparkly pink retro toy train puffing heart-shaped smoke, an iced coffee sloshing in the coal car, butterflies; HOT MESS EXPRESS in chrome bubble letters. Pink, lilac, silver.
 - **Primary keyword:** hot mess shirt — 320 / KD 42
 - **Cover model:** registry #199
+- **Print file:** art regenerated 2026-10-16 (Recraft v4; the first run's file id was never recorded) → Printful file 1087368545, front 9.0in wide on 1500×1800, top 0, left 75.
 
 ### 130. Women's Cropped – Espresso Yourself Tee  *(BUILDING [B])*
 - **Handle:** `womens-cropped-espresso-yourself-graphic-tee` · **Blank:** AS Colour 4062 crop top (Printful #636), $29.99 · tags cropped-graphic-tees, graphic-tees-for-women
@@ -1600,6 +1605,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Art:** vintage cafe illustration — a little retro espresso machine pulling a shot into a tiny cup with steam hearts, coffee beans; ESPRESSO YOURSELF in chunky retro letters. Brown, cream, terracotta.
 - **Primary keyword:** espresso yourself shirt — 90 / KD 44 (also espresso shirt 390 / 56, coffee crop top 50 / 45)
 - **Cover model:** registry #200
+- **Print file:** art regenerated 2026-10-16 (Recraft v4; the first run's file id was never recorded) → Printful file 1087368551, front 7.3in wide on 1500×1500, top 0, left 201.
 
 ### 131. Men's Hunting – Professional Tree Sitter Tee  *(BUILDING [B])*
 - **Handle:** `mens-hunting-professional-tree-sitter-graphic-tee` · **Blank:** Bella+Canvas 3001, $29.99 · tags hunting-t-shirts, graphic-tees-for-men, vintage-graphic-tees
@@ -1608,6 +1614,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Art:** Style v3 A — a hunter with a compound bow sitting in a ladder tree stand high in an oak, a whitetail far below, fall leaves; PROFESSIONAL TREE SITTER in faded block caps. Forest green, rust, cream, brown.
 - **Primary keyword:** bowhunting shirt — 260 / KD 32 (also bow hunting shirt 260 / 38)
 - **Cover model:** registry #201
+- **Print file:** art regenerated 2026-10-16 (Recraft v4; the first run's file id was never recorded) → Printful file 1087368555, front 10.0in wide on 1800×2400, top 0, left 150.
 
 ### 132. Women's Nurse – Don't Say the Q Word Tee  *(BUILDING [B])*
 - **Handle:** `womens-nurse-dont-say-the-q-word-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags nurse-shirts, graphic-tees-for-women, vintage-graphic-tees
@@ -1616,6 +1623,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Art:** Style v3 A — a vintage ambulance with lights flashing, a coffee cup and a stethoscope, a little "shh" finger sign; DON'T SAY THE Q WORD in faded retro caps. Red, teal, cream, navy.
 - **Primary keyword:** er nurse shirt — 720 / KD 53
 - **Cover model:** registry #202
+- **Print file:** art regenerated 2026-10-16 (Recraft v4; the first run's file id was never recorded) → Printful file 1087368565, front 9.0in wide on 1500×1800, top 0, left 75.
 
 ### 133. Unisex Anime – Destroyer of Cities, Lover of Naps Tee  *(BUILDING [B])*
 - **Handle:** `unisex-anime-kaiju-naps-graphic-tee` · **Blank:** Bella+Canvas 3001, $29.99 · tags anime-shirts, graphic-tees-for-men, graphic-tees-for-women
@@ -1624,6 +1632,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Art:** retro 80s anime cel style — a chubby original green kaiju napping curled around a skyscraper top under a crescent moon, little "z z z"; DESTROYER OF CITIES / LOVER OF NAPS in faded retro caps. Green, coral, mustard, cream.
 - **Primary keyword:** kaiju t shirt — 260 / KD 32 (also vintage anime shirt 1,600 / 40, kaiju shirt 110 / 40)
 - **Cover model:** registry #203 (unisex: man AND woman)
+- **Print file:** art regenerated 2026-10-16 (Recraft v4; the first run's file id was never recorded) → Printful file 1087368594, front 10.0in wide on 1800×2400, top 0, left 150.
 
 ## Thanksgiving crewneck twins — lane A (2026-10-16; competitor lesson 6: every holiday tee gets its crewneck twin; Gildan 18000 #145, same art as the tee, no new art generation)
 
