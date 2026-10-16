@@ -248,7 +248,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 262 | Black woman in her late 20s, short natural curls, gold hoops | USED 2026-10-16 — #192 Cherry Picked embroidered crewneck cover (fal Seedream 4, farmers market; try 1 kept, stitched chest + cuff cherries visible) |
 | 263 | Vietnamese-American woman in her mid 20s, long straight black hair, round glasses | USED 2026-10-16 — #193 Whisk Taker embroidered crewneck cover (try 1, image 2 of 3) |
 | 264 | White woman in her early 30s, auburn shag haircut, freckles | USED 2026-10-16 — #194 Morel Support embroidered crewneck cover (try 1, image 3 of 3) |
-| 265 | South Asian woman in her late 30s, long dark braid, nose stud | RESERVED — #195 Purrsonal Space embroidered crewneck cover |
+| 265 | South Asian woman in her late 30s, long dark braid, nose stud | USED 2026-10-16 — #195 Purrsonal Space embroidered crewneck cover (try 1, image 2 of 3) |
 | 266 | Mexican-American woman in her mid 40s, shoulder-length wavy brown hair | USED 2026-10-16 — #196 Rooted in Jesus embroidered hoodie cover (fal Seedream 4, church steps; try 1 kept) |
 | 267 | Korean-American woman in her late 20s, chin-length bob with blunt bangs | USED 2026-10-16 — #200 Skate Club Penguins hoodie cover (fal Seedream 4, ice rink at dusk; try 2 kept: try 1 redrew the print as one penguin) |
 | 268 | Black woman in her mid 30s, long box braids in a high bun | USED 2026-10-16 — #201 Polar Bear Cocoa hoodie cover (fal Seedream 4, snowy tree lot; try 1 kept) |
