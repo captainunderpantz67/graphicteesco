@@ -292,7 +292,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 306 | Black man in his early 50s, grey goatee, bald, broad shoulders | USED 2026-10-16 — #232 No Deer Today camo hoodie cover (try 1, image 3 of 3) |
 | 307 | Hmong-American man in his early 30s, short spiky black hair | USED 2026-10-16 — #233 Professional Tree Sitter camo hoodie cover (try 1, image 3 of 3) |
 | 308 | Greek-American man in his late 20s, dark wavy hair, trimmed beard, muscular | USED 2026-10-16 — #234 Study in Hypertrophy oversized hoodie cover (try 2, image 2 of 3; caption reads slightly soft at cover size) |
-| 309 | White man in his mid 50s, grey crew cut, sunglasses pushed up on his head | RESERVED — #235 Reel Talk half zip cover |
+| 309 | White man in his mid 50s, grey crew cut, sunglasses pushed up on his head | USED 2026-10-16 — #235 Reel Talk half zip cover (try 1, image 3 of 3; back view because the big print is on the back) |
 | 400 | Native American man in his mid 40s, short cropped black hair, blaze-orange cap | USED 2026-10-16 — #157 No Deer Today cover redo (replaces #227's long-braid model whose braid covered the print; fal Seedream 4 from the Black tee mockup, 3 images, best kept) |
 | 410 | Filipina woman in her late 30s, shoulder-length dark hair with a side part | USED 2026-10-16 — #236 Merry Woofmas crewneck cover try 1 |
 | 411 | Korean-American woman in her early 30s, long hair in a high ponytail with a red velvet bow | USED 2026-10-16 — #237 Candy Cane Club crewneck cover try 2 (try 1 garbled the small Est. December line) |

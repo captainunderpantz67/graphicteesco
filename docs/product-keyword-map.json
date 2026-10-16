@@ -3794,6 +3794,15 @@
      "phrase": "dad hoodie",
      "volume": 1900,
      "kd": 52
+  "mens-fishing-reel-talk-half-zip": {
+   "claimed": [
+    "half zip sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "half zip sweatshirt",
+     "volume": 22200,
+     "kd": 26
     }
    ],
    "measured": "2026-10-16"
