@@ -16,3 +16,4 @@ handle: unisex-christmas-define-naughty-crewneck-sweatshirt
 ---
 ## Log
 - 2026-10-16 08:45 UTC director: brief written, READY.
+- 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361639285040 (Gildan 18000, Navy, Dark Heather, Forest Green, Military Green, Dark Chocolate, Maroon x S-3XL = 35; no Black, linework disappears), reused file 1087518142 (Printful sync 482246597), copy/SEO/tags/price 34.99/39.99, keywords naughty sweater 90/42 + santa sweater 1,900/56, cover #217 (try 2 kept, try 1 cup over print), 6 fronts + back, variant images, audit PASS, docs/review/147.jpg. Printful link queued: `FORCE=1 python3 scripts/pf-sync.py setfile 482246597 1087518142 1080398177`. REVIEW once synced = 35.

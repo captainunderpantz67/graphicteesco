@@ -2987,6 +2987,24 @@
    ],
    "gaps_measured": [],
    "measured": "vintage anime hoodie 110/KD40 (RankHero 2026-10-16)"
+  "unisex-christmas-define-naughty-crewneck-sweatshirt": {
+   "claimed": [
+    "naughty sweater",
+    "santa sweater"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "naughty sweater",
+     "volume": 90,
+     "kd": 42
+    },
+    {
+     "phrase": "santa sweater",
+     "volume": 1900,
+     "kd": 56
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

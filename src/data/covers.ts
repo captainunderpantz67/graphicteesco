@@ -177,6 +177,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-christmas-nutcracker-bow-hoodie': { src: '/covers/womens-christmas-nutcracker-bow-hoodie.webp', alt: 'Woman with dark waves and statement earrings at a night holiday market with a nutcracker display behind her, wearing the navy Nutcracker Bow hoodie' },
   'unisex-anime-kaiju-naps-oversized-hoodie': { src: '/covers/unisex-anime-kaiju-naps-oversized-hoodie.webp', alt: 'Man and woman on a city rooftop at dusk, side by side in matching beige oversized hoodies with the Destroyer of Cities, Lover of Naps kaiju print' },
   'unisex-anime-mecha-mondays-oversized-hoodie': { src: '/covers/unisex-anime-mecha-mondays-oversized-hoodie.webp', alt: 'Man and woman in matching beige oversized hoodies outside a neon-lit ramen shop at night, holding takeaway coffee, wearing the Mecha Mondays hoodie' },
+  'unisex-christmas-define-naughty-crewneck-sweatshirt': { src: '/covers/unisex-christmas-define-naughty-crewneck-sweatshirt.webp', alt: 'Man and woman standing together at an office holiday party with paper snowflakes and a lit tree, holding coffee cups and wearing the navy Define Naughty crewneck sweatshirt' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

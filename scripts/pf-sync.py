@@ -10,7 +10,7 @@ def call(method, path, body=None):
     for _ in range(8):
         r = urllib.request.Request('https://api.printful.com' + path, method=method,
             data=json.dumps(body).encode() if body is not None else None,
-            headers={'Authorization': 'Bearer ' + T, 'Content-Type': 'application/json'})
+            headers={'Authorization': 'Bearer ' + T, 'Content-Type': 'application/json', 'User-Agent': 'gtc-builder'})
         try:
             return json.load(urllib.request.urlopen(r, timeout=60))['result']
         except urllib.error.HTTPError as e:
