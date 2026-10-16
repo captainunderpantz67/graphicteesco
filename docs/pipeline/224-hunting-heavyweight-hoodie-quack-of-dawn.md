@@ -5,7 +5,7 @@ id: 224
 handle: mens-hunting-quack-of-dawn-heavyweight-hoodie
 ---
 ## Men's Hunting – Quack of Dawn Heavyweight Hoodie
-- **Twin of the live tee** `mens-hunting-marsh-morning-graphic-tee`: reuse its final approved print file(s) (with any knock-outs already applied), no new art generation (R6.2, R11.5). Only the cover is new.
+- **Twin of the live tee** `mens-hunting-marsh-morning-graphic-tee` (WAIT: build only after redo #158 Quack of Dawn is LIVE, so the hoodie gets the new art; take the next READY item until then): reuse its final approved print file(s) (with any knock-outs already applied), no new art generation (R6.2, R11.5). Only the cover is new.
 - **Blank:** Heavyweight Independent Trading IND4000 (Printful #1543). Copy facts from the Printful spec only (R7.1). Front print about 11–12 in wide, placed so every word and the bottom of the art clear the pouch pocket seam (sent-back #189).
 - **Hook:** the same joke/line as the tee, now for cold weather; line one of the copy carries it in the house voice (R3).
 - **Colors (R7.2 cold-weather launch):** Sandstone + Storm Blue (R7.1 table). Also check IND4000's camo color: if the art (cream-ink file) reads on it, add it and put camo hoodie 74,000/KD 23 in the copy once. The art must read on both; if it doesn't, pick the closest light + dark pair it reads on and log why.

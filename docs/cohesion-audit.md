@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-16 18:09 UTC
+# Cohesion audit — 2026-10-16 18:27 UTC
 
-171 live products checked · **0 errors** · 9 warnings · 9 products with findings
+184 live products checked · **0 errors** · 8 warnings · 8 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -12,9 +12,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Unisex Halloween – Midnight Feature Tee `unisex-halloween-midnight-feature-graphic-tee`
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
-
-### Men's Gym – Barbell Club Tee `mens-gym-barbell-club-graphic-tee`
-- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 
 ### Unisex Christmas – Fresh Cut Christmas Trees Tee `unisex-christmas-fresh-cut-christmas-trees-graphic-tee`
 - **WARN** No meta description. → Write one ≤ 155 chars.

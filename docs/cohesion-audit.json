@@ -1,6 +1,6 @@
 {
- "at": "2026-10-16T18:09:15.473Z",
- "products": 171,
+ "at": "2026-10-16T18:27:55.894Z",
+ "products": 184,
  "findings": [
   {
    "level": "WARN",
@@ -15,13 +15,6 @@
    "title": "Unisex Halloween – Midnight Feature Tee",
    "msg": "No SEO title.",
    "fix": "Write one ≤ 60 chars with the primary keyword."
-  },
-  {
-   "level": "WARN",
-   "handle": "mens-gym-barbell-club-graphic-tee",
-   "title": "Men's Gym – Barbell Club Tee",
-   "msg": "Cover alt text doesn't say who is in the photo.",
-   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
   },
   {
    "level": "WARN",

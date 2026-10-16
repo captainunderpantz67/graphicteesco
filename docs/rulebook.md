@@ -186,6 +186,7 @@ Sections are numbered so role cards and review notes can point at them ("fails R
    - Crewnecks: only the *-sweatshirts collection tag + "sweatshirt" + the holiday tag. NEVER christmas-shirts, christmas-shirts-for-women, thanksgiving-shirts, graphic-tees-for-men/women or niche *-t-shirts tags (those are tee pages).
    - Unisex tees may carry both graphic-tees-for-men and graphic-tees-for-women, so their cover MUST show a man and a woman.
    - Men's holiday designs: christmas-shirts + graphic-tees-for-men only.
+   - **Style tags (director, 2026-10-16):** every tee whose print carries a joke (R3 hook) also gets funny-graphic-tees; every tee drawn in a specific decade's look (70s bubble letters, 80s gym/VHS, 90s anime, Y2K) also gets retro-graphic-tees. Both collections are hubs fed by these tags.
 6. **Never half-visible:** create the Shopify product as DRAFT. It goes ACTIVE only after review approval (docs/pipeline/README.md) and a PASS from `node scripts/cohesion-audit.mjs --handle <h>`.
 7. **Printful link:**
    - Map every variant to its catalog variant: front = print file, back = logo file.
@@ -299,6 +300,7 @@ Goal: ChatGPT, Perplexity, Google AI Overviews / AI Mode, Gemini, Copilot and Cl
    - Director reviews hourly-equivalent: when 6+ items wait in REVIEW, review them before writing briefs.
    - **Collections added 2026-10-16 (director):** cropped-hoodies, cropped-sweatshirts, embroidered-sweatshirts, christian-hoodies (christian hoodie 18,100 / KD 44). Printful has no cropped crewneck, so cropped-sweatshirts carries the cropped hoodies (tag both cropped-hoodies and cropped-sweatshirts; copy says they have a hood). Embroidered sweatshirts use Printful embroidery on Gildan 18000 with new Style B line art (R4.3), not a reused print file.
 6. **Styles (Sam, 2026-10-16):** the shop-by-style section gets every style with measured volume and low enough KD to claim quickly (retro 22,200/54, embroidered 12,100/56, funny 5,400/58, boho 260/32, plus any the director measures), each as its own collection with hand-written copy and FAQs. Vintage stays.
+   - **Built (director, 2026-10-16):** retro-graphic-tees (22,200/54, 27 tees tagged) and funny-graphic-tees (5,400/58, 51 tees tagged) are live hubs on the homepage style row, with embroidered-sweatshirts. Boho (boho graphic tees 260/32) waits until we have 6+ boho designs; minimalist graphic tee (1,000/24) is the next style to brief (Style B line art fits it).
 7. **Men's redo (Sam, 2026-10-16: "redo all the lame men's shirts"):** every older men's design with a weak or generic line gets redone in place (R11.4), alongside cold-weather in lane B.
 8. **After the build: color backfill** on every hoodie and cold-weather product to the full legible range (≤100 variants), then evergreen tees to 28.
 9. **Coming:** hoodie pages (zip-up 135,000/KD28, heavyweight 14,800/KD20, oversized hoodie 165,000/KD38, plus niche hoodies); crop tops and cropped sweatshirts; custom "___ shirt" configurator pages (pets first, then football mom name/number; max 2 regenerations; order handoff tested with a 100% discount code + Printful draft orders only).

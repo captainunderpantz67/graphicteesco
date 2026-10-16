@@ -216,6 +216,28 @@ const N: Record<string, Niche> = {
     label: 'Christian', who: 'people who want to wear their faith', themes: 'faith and scripture-inspired original art',
     faqs: () => [{ q: 'Are your Christian shirts original designs?', a: 'Yes. Every faith design is original art made for this shop.' }],
   },
+  retro: {
+    about: (item) => `Retro here means the look of a specific decade: 70s bubble letters and striped sunsets, 80s gym and VHS art, 90s cel anime and Y2K flip phones. Each ${item} is printed when you order it, so the throwback is in the drawing, not a faded blank.`,
+    original: 'Yes. Every retro design is original art drawn for this shop. No reprinted old logos, brands or licensed characters.',
+    made: 'Printed to order on a new tee, then shipped. The worn, retro look comes from the illustration.',
+    style: 'Retro tees look right with straight-leg or mom jeans, a denim jacket and clean sneakers. Tuck the front for a 70s look, or wear it loose with cargo pants for 90s.',
+    label: 'Retro', who: 'anyone who loves a 70s, 80s, 90s or Y2K throwback', themes: '70s bubble type, 80s gym and VHS art, 90s anime and Y2K sparkle',
+    faqs: () => [
+      { q: 'What is the difference between retro and vintage tees?', a: 'In this shop, vintage tees have a worn, old-print finish from any era. Retro tees copy the look of a specific decade, like 70s bubble letters or Y2K chrome.' },
+      { q: 'Which decades do your retro tees cover?', a: 'Mostly the 1970s through the early 2000s: groovy 70s lettering, 80s gym and horror-movie art, 90s anime and Y2K designs.' },
+    ],
+  },
+  funny: {
+    about: (item) => `Every design here is built around one joke you get in two seconds: a pun, a deadpan line or a funny picture, drawn as real vintage-style art instead of plain text on a shirt. Each ${item} is printed when you order it.`,
+    original: 'Yes. The jokes and the art are original to this shop. No movie quotes, brand slogans or licensed characters.',
+    made: 'Printed to order, then shipped to you.',
+    style: 'A funny tee does the talking, so keep the rest simple: jeans or joggers and sneakers. Wear it to the event the joke is about, from leg day to the cookie swap.',
+    label: 'Funny', who: 'people who want a shirt that gets a laugh from across the room', themes: 'puns and deadpan one-liners for the gym, the lake, the deer stand, the holidays and the sideline',
+    faqs: () => [
+      { q: 'Are your funny shirts family-friendly?', a: 'Yes. Every joke is clean enough for the family table: no profanity and no put-downs.' },
+      { q: 'Do funny graphic tees make good gifts?', a: 'Yes. Pick the joke that matches their hobby, like fishing, lifting, nursing or Thanksgiving dinner, and it is a gift they will actually wear.' },
+    ],
+  },
   oversized: {
     about: (item) => `Big front and back prints sized for a roomy fit, using our original art. Each ${item} is printed when you order it.`,
     original: 'Yes. The oversized designs are original art, not stock graphics.',
@@ -368,6 +390,8 @@ export const tees: Collection[] = [
   niche(N.anime, 'tees', { slug: 'anime-shirts', keyword: 'anime shirts', volume: 18100, kd: 51, product: 'anime-style shirts', twin: 'anime-hoodies' }),
   niche(N.y2k, 'tees', { slug: 'y2k-graphic-tees', keyword: 'y2k graphic tees', volume: 4400, kd: 52, product: 'Y2K graphic tees', twin: 'y2k-hoodies' }),
   niche(N.vintage, 'tees', { slug: 'vintage-graphic-tees', keyword: 'vintage graphic tees', volume: 22200, kd: 57, product: 'vintage graphic tees' }),
+  niche(N.retro, 'tees', { slug: 'retro-graphic-tees', keyword: 'retro graphic tees', volume: 22200, kd: 54, product: 'retro graphic tees' }) /* RankHero 2026-10-16; R11.6 style collection, hub fed by the retro-graphic-tees tag */,
+  niche(N.funny, 'tees', { slug: 'funny-graphic-tees', keyword: 'funny graphic tees', volume: 5400, kd: 58, product: 'funny graphic tees' }) /* RankHero 2026-10-16; R11.6 style collection, hub fed by the funny-graphic-tees tag */,
   {
     slug: 'graphic-tees-for-men', section: 'tees', audience: 'men', name: "Men's Graphic Tees",
     keyword: 'graphic tees for men', volume: 90500, kd: 64,
