@@ -12,7 +12,7 @@ s = re.sub(rf'(\| {reg} \|[^\n]*?\| )RESERVED[^\n]*', lambda m: m.group(1) + f'U
 if kws: 
     import subprocess; subprocess.run(['python3', 'scripts/kwmap-add.py', h] + kws, check=True)
 d = json.load(open(mk)); pairs = [x.split(':') for x in vc.split(',')]
-noun = {'hoodie': 'hoodie', 'tee': 'Christmas graphic tee', 'crew': 'crewneck sweatshirt'}[kind]
+noun = {'hoodie': 'hoodie', 'tee': ('Thanksgiving' if 'thanksgiving' in h else 'Christmas') + ' graphic tee', 'crew': 'crewneck sweatshirt'}[kind]
 m = [{"originalSource": d[v]['front:main'], "mediaContentType": "IMAGE", "alt": f"{name} {noun}, {c}, front view"} for v, c in pairs]
 back = d[pairs[0][0]].get(bk) or d[pairs[0][0]].get('back:main')
 m.append({"originalSource": back, "mediaContentType": "IMAGE", "alt": f"{name} {noun}, {pairs[0][1]}, back view with Graphic Tees Co. neck logo"})

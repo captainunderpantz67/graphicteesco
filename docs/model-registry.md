@@ -321,7 +321,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 446 | Dominican-American woman in her late 60s, soft white waves to the chin, coral lipstick | RESERVED — #270 Casserole Ministry crewneck cover |
 | 447 | Haitian-American woman in her late 30s, short sculpted finger waves, small gold studs | RESERVED — #271 Q Word crewneck cover |
 | 448 | Pakistani-American woman in her mid 30s, long dark hair in a loose side braid, thin gold bangles | RESERVED — #272 I Have Followers crewneck cover |
-| 425 | Dominican-American woman in her late 30s, big shoulder-length curls with honey-brown highlights, stacked gold bangles | RESERVED — #249 Spill the Gravy tee cover |
+| 425 | Dominican-American woman in her late 30s, big shoulder-length curls with honey-brown highlights, stacked gold bangles | USED 2026-10-16 — #249 Spill the Gravy tee cover try 1 (from the Athletic Heather mockup) |
 | 426 | Armenian-American woman in her early 40s, long thick dark hair in a sleek low ponytail, bold arched brows, small diamond studs | RESERVED — #250 Spill the Gravy crewneck cover |
 | 427 | Italian-American woman in her mid 40s, dark brown hair in a messy top knot, small pearl earrings | RESERVED — #251 The Turkey Is Fine tee cover |
 | 428 | Jamaican-American woman in her early 40s, chin-length relaxed bob with side-swept bangs, small gold studs | RESERVED — #252 The Turkey Is Fine crewneck cover |
