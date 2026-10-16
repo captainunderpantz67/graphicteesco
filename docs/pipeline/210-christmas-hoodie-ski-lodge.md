@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-16 19:05 UTC
+status: REVIEW
 lane: A
 type: twin
 id: 210
@@ -19,3 +19,4 @@ handle: unisex-christmas-ski-lodge-hoodie
 ## Log
 - 2026-10-16 19:05 UTC director: brief written, READY (lane A holiday hoodie twin, R11.5).
 - 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361954054448 (18500; Sand + Navy x S-3XL = 12), tee file 1085848768 at FW=1401 TOP=0, Printful sync 482276514. Copy/SEO/tags/price, keyword in map, cover (unisex pair; 210: try 1 redrew the print and lost the skier, try 2 from the Printful mockup kept), 2 fronts + back, variant images, audit PASS, docs/review/210.jpg. Printful link queued (runner): `FORCE=1 FW=1401 TOP=0 python3 scripts/pf-sync.py setfile 482276514 1085848768 1080398177`. REVIEW once synced = 12.
+- 2026-10-16 19:25 UTC builder [A]: Printful synced = variant count → REVIEW.
