@@ -1410,7 +1410,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Handle:** `womens-thanksgiving-here-for-the-scraps-crewneck-sweatshirt` · Gildan 18000 (#145), $39.99 · art = #99
 - **Cover model:** registry #171
 
-### 101. Women's Thanksgiving – Pie Oh My Tee  *(BUILDING [A])*
+### 101. Women's Thanksgiving – Pie Oh My Tee  *(built 2026-10-16)*
 - **Handle:** `womens-thanksgiving-pie-oh-my-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99
 - **Hook:** "Pie Oh My" — the house pun (pie / oh my) for whoever brings three pies.
 - **Why it's not taken:** "oh my pie" exists as text; no vintage windowsill-pies scene print.
