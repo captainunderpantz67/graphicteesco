@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-16 09:01 UTC
+status: REVIEW
 lane: A
 type: twin
 id: 137
@@ -13,3 +13,4 @@ handle: womens-thanksgiving-pumpkin-pie-crewneck-sweatshirt
 ---
 ## Log
 - 2026-10-16 08:40 UTC director: moved from docs/design-briefs.md (was BUILDING there; that lane's run ended without finishing). READY to resume.
+- 2026-10-16 09:05 UTC builder [A]: verified existing DRAFT 15360175997232: Printful 482106172 synced 42/42 (file 1083454882), $34.99/$39.99, tags sweatshirt + thanksgiving-sweatshirts, 6 flat fronts + 1 back with variant images linked, cover #207 in covers.ts. Review sheet docs/review/137.jpg. Audit script needs a Storefront token: cohesion checked by hand (SEO title 59, meta 140). → REVIEW.
