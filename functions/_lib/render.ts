@@ -26,10 +26,11 @@ export const assetIdFromHref = (href: string) => (href.startsWith(ASSET_HREF_PRE
 
 export interface Raster { png: Uint8Array; width: number; height: number }
 
-export async function rasterise(side: RenderedSide, fonts: Uint8Array[], resolveAsset: (id: string) => Promise<Uint8Array | null>): Promise<Raster> {
+// previewWidth: render a small copy (for the check-screen) instead of the full 300 dpi file.
+export async function rasterise(side: RenderedSide, fonts: Uint8Array[], resolveAsset: (id: string) => Promise<Uint8Array | null>, previewWidth?: number): Promise<Raster> {
   if (!wasmReady) throw new Error('renderer not initialised');
   await wasmReady;
-  const r = new Resvg(side.svg, { font: { fontBuffers: fonts, loadSystemFonts: false, defaultFontFamily: metrics.display!.family }, imageRendering: 0, shapeRendering: 2, textRendering: 2 });
+  const r = new Resvg(side.svg, { font: { fontBuffers: fonts, loadSystemFonts: false, defaultFontFamily: metrics.display!.family }, imageRendering: 0, shapeRendering: 2, textRendering: 2, ...(previewWidth ? { fitTo: { mode: 'width', value: previewWidth } } : {}) });
   try {
     for (const href of r.imagesToResolve() as string[]) {
       const id = assetIdFromHref(href);

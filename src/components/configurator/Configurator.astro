@@ -187,7 +187,7 @@ const config = {
       <p data-err class="cfg-err" role="alert"></p>
       <div class="cfg-actions">
         <button type="button" data-next class="btn btn-rust w-full !py-4 !text-sm">${esc(next)}</button>
-        ${showBack ? '<button type="button" data-back class="cfg-back">← Back</button>' : ''}
+        ${showBack && stepIndex > 0 ? '<button type="button" data-back class="cfg-back">← Back</button>' : ''}
       </div>`;
 
     // ---- step renderers ----
@@ -349,7 +349,7 @@ const config = {
     }
 
     // ---- review: real print files + exact read-back + explicit confirm ----
-    interface Final { designId: string; summary: string; readback: { label: string; value: string }[]; sides: Record<string, { url: string }>; sku: string; shaShort: string; size: string }
+    interface Final { designId: string; summary: string; readback: { label: string; value: string }[]; sides: Record<string, { url: string; preview?: string }>; sku: string; shaShort: string; size: string }
     let finals: Final[] = [];
     async function renderReview() {
       const designs = template.perShirt.length ? players.map((_, i) => currentDesign(i)) : [currentDesign()];
@@ -367,7 +367,7 @@ const config = {
           proofs.insertAdjacentHTML('beforeend', `
             <div class="grid gap-3 rounded-2xl border border-[var(--color-line)] bg-white p-3">
               ${designs.length > 1 ? `<p class="eyebrow">Shirt ${i + 1} of ${designs.length}</p>` : ''}
-              <div class="cfg-proof">${['front', 'back'].filter((s) => r.sides[s]).map((s) => `<figure><img src="${esc(r.sides[s]!.url)}" alt="${s} print file" loading="lazy" style="background:${esc(blank.colors.find((c) => c.name === shirtColor)!.hex)}"><figcaption class="text-xs font-bold uppercase tracking-[.12em] text-center mt-1">${s}</figcaption></figure>`).join('')}</div>
+              <div class="cfg-proof">${['front', 'back'].filter((s) => r.sides[s]).map((s) => `<figure><img src="${esc(r.sides[s]!.preview ?? r.sides[s]!.url)}" alt="${s} print file" width="900" style="background:${esc(blank.colors.find((c) => c.name === shirtColor)!.hex)}"><figcaption class="text-xs font-bold uppercase tracking-[.12em] text-center mt-1">${s}</figcaption></figure>`).join('')}</div>
               <dl class="cfg-readback">${r.readback.map((x) => `<div><dt>${esc(x.label)}</dt><dd>${esc(x.value)}</dd></div>`).join('')}</dl>
             </div>`);
         }

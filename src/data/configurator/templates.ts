@@ -43,7 +43,7 @@ export const templates: Template[] = [
     name: 'Team name varsity',
     blurb: 'Your team name in a varsity arch over a sport mark. Add each player\'s name and number on the back if you like.',
     steps: [
-      { key: 'teamName', label: 'Team name', type: 'text', question: "What's the team called?", placeholder: 'Wildcats', max: 18, upper: true, pattern: 'name' },
+      { key: 'teamName', label: 'Team name', type: 'text', question: "What's the team called?", placeholder: 'Wildcats', max: 22, upper: true, pattern: 'name' },
       sportStep('Which sport?'),
       { key: 'tagline', label: 'Line under the mark', type: 'text', question: 'A short line under the mark? (optional)', help: 'Like "EST. 2024", "STATE BOUND" or the town name.', placeholder: 'EST. 2024', max: 20, upper: true, optional: true, pattern: 'free' },
       colorsStep,

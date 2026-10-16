@@ -6,6 +6,7 @@ import type { Env } from './env.ts';
 export const KEYS = {
   asset: (id: string) => `assets/${id}`,
   print: (designId: string, side: 'front' | 'back') => `designs/${designId}/${side}.png`,
+  preview: (designId: string, side: 'front' | 'back') => `designs/${designId}/${side}-preview.png`,
   svg: (designId: string, side: 'front' | 'back') => `designs/${designId}/${side}.svg`,
   designJson: (designId: string) => `designs/${designId}/design.json`,
 };

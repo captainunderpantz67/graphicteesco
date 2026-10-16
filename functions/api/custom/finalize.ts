@@ -41,7 +41,7 @@ export const onRequestPost = async ({ request, env }: Ctx) => {
 
     const designId = newId();
     const sides: DesignRecord['sides'] = {} as DesignRecord['sides'];
-    const urls: Record<string, { url: string; width: number; height: number; sha: string }> = {};
+    const urls: Record<string, { url: string; preview: string; width: number; height: number; sha: string }> = {};
     for (const side of ['front', 'back'] as const) {
       const r = rendered[side];
       if (r.empty) continue;
@@ -53,9 +53,12 @@ export const onRequestPost = async ({ request, env }: Ctx) => {
         customMetadata: { sha, designId, side, width: String(out.width), height: String(out.height) },
       });
       await env.PRINT_FILES.put(KEYS.svg(designId, side), r.svg, { httpMetadata: { contentType: 'image/svg+xml' } });
+      // A 900 px copy for the check-screen (the full file can be several MB on a photo shirt).
+      const small = await rasterise(r, fonts, resolveAsset, 900);
+      await env.PRINT_FILES.put(KEYS.preview(designId, side), small.png, { httpMetadata: { contentType: 'image/png', cacheControl: 'public, max-age=31536000, immutable' } });
       const file: SideFile = { sha, bytes: out.png.length, width: out.width, height: out.height, topIn: r.topIn, heightIn: r.heightIn, widthIn: r.widthIn };
       sides[side] = file;
-      urls[side] = { url: `/api/custom/file/${designId}/${side}.png`, width: out.width, height: out.height, sha };
+      urls[side] = { url: `/api/custom/file/${designId}/${side}.png`, preview: `/api/custom/file/${designId}/${side}-preview.png`, width: out.width, height: out.height, sha };
       log('finalize.side', { designId, side, ms: Date.now() - t0, width: out.width, height: out.height, bytes: out.png.length });
     }
     if (!sides.front) throw new HttpError(422, 'There is nothing to print on the front yet.', 'empty');
