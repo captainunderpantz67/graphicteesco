@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 127
@@ -23,3 +23,4 @@ handle: womens-christian-casserole-ministry-graphic-tee
   3. R8 copy: the mitts are argyle/diamond quilted, not floral: change "quilted floral oven mitts" (description) and "floral oven mitts" (meta) to "quilted oven mitts". Also drop "No badge or frame," from paragraph two (R8.3 builder jargon, see rulebook).
 - 2026-10-16 10:44 UTC [B]: REDO notes 1–3 done: print file fixed (both white counter patches of the O in CASSEROLE knocked out to transparent, art otherwise untouched), new Printful file 1087506568, 54 variants re-syncing to it, mockups regenerated + Shopify media replaced in place, cover regenerated once from the fixed art flattened on white (registry #197 reused), copy fixed (quilted oven mitts in description + meta, dropped 'No badge or frame,', print size line corrected to 9 x 10.5 in). Status → REVIEW once the re-sync finishes.
 - 2026-10-16 11:06 UTC [B]: REDO complete, all 54 variants re-synced to file 1087506568; review sheet docs/review/127.jpg regenerated (Heather Mauve + Pink mockups to check the counter).
+- 2026-10-16 14:17 UTC director: approved from docs/review/127.jpg; ACTIVE + published (Online Store, Headless); cohesion audit --handle PASS (live Storefront). LIVE.

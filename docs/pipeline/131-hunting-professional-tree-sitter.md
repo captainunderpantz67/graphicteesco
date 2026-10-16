@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: new
 id: 131
@@ -18,3 +18,8 @@ handle: mens-hunting-professional-tree-sitter-graphic-tee
 - 2026-10-16 08:40 UTC director: moved from docs/design-briefs.md (was BUILDING there; that lane's run ended without finishing). READY to resume.
 - 2026-10-16 10:25 UTC [B]: finished from resume: Printful synced 40/40 (file 1087368555), cover checked + registered, price 24.99/29.99, mockups regenerated from the new print file (the earlier ones came from the first-run art), variant images linked, keyword map, review sheet docs/review/131.jpg. Audit script needs a Storefront token: cohesion checked by hand.
 - 2026-10-16 10:50 UTC [B]: finished from resume: Printful synced 40/40 (file 1087368555), cover checked once + registered, price 24.99/29.99, mockups + variant images linked, keyword map, review sheet docs/review/131.jpg. Copy: dropped "no badge or frame" (R8.3). Audit needs Storefront token: cohesion checked by hand.
+- 2026-10-16 14:17 UTC director: REDO (art regeneration 1 of 2 allowed by R5.4):
+  1. R5.3.4 (every element reads instantly): the compound bow floats in mid-air in front of the hunter; his hands rest on his knees and nothing holds it. Regenerate so the hunter holds the bow in his lap or it hangs from a hook on the stand, clearly attached.
+  2. R5.3.8 (prints clean): white sky patches between the branches (left of the trunk at the first fork, and behind the ladder rungs) are filled white instead of transparent. On Natural/Soft Cream they print as white blobs. Knock every non-ink white area out in print-prep and preview on grey + the darkest offered color.
+  3. Keep everything that works: PROFESSIONAL / TREE SITTER lettering, the buck below the stand (that is the joke), orange/green palette, the cover (regenerate the cover only if the print changes visibly; registry row may be reused for this product).
+  Then re-upload, re-sync the 40 variants, regenerate mockups + variant images, new review sheet.

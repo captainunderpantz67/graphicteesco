@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 132
@@ -18,3 +18,4 @@ handle: womens-nurse-dont-say-the-q-word-graphic-tee
 - 2026-10-16 08:40 UTC director: moved from docs/design-briefs.md (was BUILDING there; that lane's run ended without finishing). READY to resume.
 - 2026-10-16 10:50 UTC [B]: finished from resume: knocked out the white letter counters (R5.3.8) in print-prep, new Printful file 1087506488 (9.0in on 1500×1800), all 54 variants re-synced, mockups + variant images regenerated, cover registered, price 24.99/29.99, keyword map, new review sheet. Copy tidied (R8.3). Audit needs Storefront token: cohesion checked by hand.
 - 2026-10-16 10:46 UTC [B]: finished from resume: Printful synced 54/54 (file 1087368565), cover checked + registered, price 24.99/29.99, mockups regenerated from the new print file (the earlier ones came from the first-run art), variant images linked, keyword map, review sheet docs/review/132.jpg. Audit script needs a Storefront token: cohesion checked by hand.
+- 2026-10-16 14:17 UTC director: approved from docs/review/132.jpg; ACTIVE + published (Online Store, Headless); cohesion audit --handle PASS (live Storefront). LIVE.

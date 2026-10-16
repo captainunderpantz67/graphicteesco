@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
 id: 145
@@ -14,3 +14,4 @@ handle: womens-christmas-vintage-snowman-crewneck-sweatshirt
 - 2026-10-16 08:40 UTC director: moved from docs/design-briefs.md (was BUILDING there; that lane's run ended without finishing). READY to resume.
 - 2026-10-16 UTC builder [A]: Printful 482109961 synced 42/42 (file 1083079179, front+back); Shopify draft 15360180093232 already had copy, price, tags, 6+ flat fronts + back, variant images; cover #215; review sheet docs/review/145.jpg. Audit needs Storefront token: cohesion checked by hand. → REVIEW.
 - NOTE: cover shows a mug in each hand (props at hip are allowed, but director may want a look).
+- 2026-10-16 14:17 UTC director: approved from docs/review/145.jpg; ACTIVE + published (Online Store, Headless); cohesion audit --handle PASS (live Storefront). LIVE.
