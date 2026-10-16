@@ -3924,16 +3924,11 @@
   },
   "womens-y2k-hot-mess-express-zip-hoodie": {
    "claimed": [
-    "y2k zip up hoodie"
+    "y2k zip up hoodie",
+    "hot mess hoodie"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "y2k zip up hoodie",
-     "volume": 2900,
-     "kd": 16
-    }
-   ],
-   "measured": "2026-10-16"
+   "gaps_measured": [],
+   "measured": "y2k zip up hoodie 2,900/KD16; hot mess hoodie 50/KD45 (RankHero 2026-10-16)"
   },
   "womens-embroidered-on-my-own-time-snail-hoodie": {
    "claimed": [

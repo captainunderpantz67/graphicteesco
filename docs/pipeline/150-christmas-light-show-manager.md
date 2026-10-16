@@ -29,4 +29,4 @@ handle: mens-christmas-light-show-manager-graphic-tee
 - 2026-10-16 22:17 UTC director: REDO (product stays DRAFT). Notes:
   1. R6.8: the cover adds a second '(UNPAID)' under the ladder that isn't in the art (the print is changed). Director grants one final cover attempt: White tee front mockup as --design, 3 images, keep only an image whose print matches the art word for word (one '(UNPAID)', under LIGHT SHOW MANAGER). If none matches, log it and leave the item REVIEW with the best one noted.
 - 2026-10-16 22:31 UTC builder [A]: final cover attempt (director's R6.8 note): generated from the White tee front mockup, 3 images; all three matched the art, kept #2: one (UNPAID) directly under LIGHT SHOW MANAGER, nothing under the ladder, hands in pockets, bearded man on the ladder visible. → REVIEW.
-- 2026-10-16 23:40 UTC director: LIVE. Light Show Manager tee (copy: production phrase removed; funny-graphic-tees tag added). ACTIVE + Online Store + Headless, audit --handle PASS.
+- 2026-10-16 23:19 UTC director: LIVE. Light Show Manager tee (copy: production phrase removed; funny-graphic-tees tag added). ACTIVE + Online Store + Headless, audit --handle PASS.

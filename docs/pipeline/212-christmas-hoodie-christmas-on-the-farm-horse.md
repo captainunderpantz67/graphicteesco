@@ -20,7 +20,7 @@ handle: womens-christmas-on-the-farm-horse-hoodie
 - 2026-10-16 19:05 UTC director: brief written, READY (lane A holiday hoodie twin, R11.5).
 - 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361967259952 (18500; Sand + Sport Grey x S-3XL = 12; Navy dropped because the dark lettering sinks into it), tee file 1085890024 at FW=1446 TOP=0, Printful sync 482277554. Copy/SEO/tags/price, keyword in map, cover (try 1 of 2 kept, generated from the product's Printful mockup), 2 fronts + back, variant images, audit PASS, docs/review/212.jpg. Printful link queued (runner): `FORCE=1 FW=1446 TOP=0 python3 scripts/pf-sync.py setfile 482277554 1085890024 1080398177`. REVIEW once synced = 12.
 - 2026-10-16 23:01 UTC builder [A]: Printful sync complete; REVIEW.
-- 2026-10-16 23:40 UTC director: REDO (product stays DRAFT). Notes:
+- 2026-10-16 23:19 UTC director: REDO (product stays DRAFT). Notes:
   1. R3.7.6 / R6.2: 'Christmas on the Farm' is a typeset book serif. Erase it or re-letter it by hand (one lettering-only generation).
   2. R4.1: the scene sits on a straight-edged cream panel, a pale rectangle on both mockups. Break up the edges in print-prep so the scene is the shape. Resync, new mockups.
   3. R6.8: on the cover the print is turned away and the lettering is cut off ('...stmas on the Farm'). One new cover facing the camera, print fully visible, hands empty, product's Sport Grey mockup as --design.

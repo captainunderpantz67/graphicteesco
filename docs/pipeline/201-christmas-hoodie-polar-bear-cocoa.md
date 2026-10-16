@@ -20,4 +20,4 @@ handle: womens-christmas-polar-bear-cocoa-hoodie
 - 2026-10-16 17:18 UTC director: brief written, READY (lane A Christmas hoodie twins, R11.5).
 - 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361795555632 (18500; Sand + Navy x S-3XL = 12), tee file 1083377171 at 9 in wide / 10.7 in tall at the top of the area (FW=1342 TOP=0, clears the pocket), Printful sync 482258927. Copy/SEO/tags/price, polar bear hoodie 720/KD27 in map, cover #268 (try 1; hooded, mug at the hip), 2 fronts + back, variant images, audit PASS, docs/review/201.jpg. Printful link queued (runner): `FORCE=1 FW=1342 TOP=0 python3 scripts/pf-sync.py setfile 482258927 1083377171 1080398177`. REVIEW once synced = 12.
 - 2026-10-16 22:39 UTC builder [A]: Printful sync complete; REVIEW.
-- 2026-10-16 23:40 UTC director: LIVE. Polar Bear Cocoa hoodie. ACTIVE + Online Store + Headless, audit --handle PASS.
+- 2026-10-16 23:19 UTC director: LIVE. Polar Bear Cocoa hoodie. ACTIVE + Online Store + Headless, audit --handle PASS.

@@ -331,8 +331,26 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 432 | Egyptian-American man in his early 50s, thick wavy grey hair, short salt-and-pepper beard, sturdy build | USED 2026-10-16 — #256 Technically a Vegetable crewneck cover try 1 (from the Sand mockup) |
 | 433 | Somali-American man in his late 30s, close-cropped hair, neat full beard, tall lean build | USED 2026-10-16 — #257 Wishbone Champion tee cover try 1 (from the Natural mockup) |
 | 434 | Ukrainian-American man in his early 40s, sandy-blond crew cut, light stubble, stocky build | USED 2026-10-16 — #258 Wishbone Champion crewneck cover |
-| 435 | Guatemalan-American man in his late 20s, short black hair in a textured crop with a low fade, clean-shaven | RESERVED — #259 Kids Table Alumni tee cover (with #449) |
-| 436 | Samoan woman in her early 30s, long thick wavy black hair worn loose, warm wide smile | RESERVED — #260 Kids Table Alumni crewneck cover (with #450) |
-| 449 | Cambodian-American woman in her late 20s, blunt shoulder-length black hair tucked behind her ears, dimples | RESERVED — #259 Kids Table Alumni tee cover (with #435) |
-| 450 | Trinidadian-American man in his early 30s, short dreadlocks tied up, thin mustache and chin beard | RESERVED — #260 Kids Table Alumni crewneck cover (with #436) |
+| 435 | Guatemalan-American man in his late 20s, short black hair in a textured crop with a low fade, clean-shaven | USED 2026-10-16 — #259 Kids Table Alumni tee cover (man; woman is #449) |
+| 436 | Samoan woman in her early 30s, long thick wavy black hair worn loose, warm wide smile | USED 2026-10-16 — #260 Kids Table Alumni crewneck cover (woman; man is #450) |
+| 449 | Cambodian-American woman in her late 20s, blunt shoulder-length black hair tucked behind her ears, dimples | USED 2026-10-16 — #259 Kids Table Alumni tee cover (with #435) |
+| 450 | Trinidadian-American man in his early 30s, short dreadlocks tied up, thin mustache and chin beard | USED 2026-10-16 — #260 Kids Table Alumni crewneck cover (with #436) |
 | 424 | South Asian woman in her mid 20s, long wavy dark hair in a side part, nose stud | USED 2026-10-16 — #248 Snow Problem crewneck cover try 1 (from the White mockup) |
+| 451 | Lebanese-American man in his late 30s, thick dark wavy hair swept back, trimmed beard, broad shoulders | RESERVED — #273 Card Photo Survivor tee cover (with #452) |
+| 452 | Irish-American woman in her mid 30s, auburn pixie cut, light freckles, small gold hoops | RESERVED — #273 Card Photo Survivor tee cover (with #451) |
+| 453 | Nigerian-American woman in her early 40s, short tapered natural hair, round tortoiseshell glasses | RESERVED — #274 Card Photo Survivor crewneck cover (with #454) |
+| 454 | Korean-American man in his early 40s, short side-parted black hair, clean-shaven, slim build | RESERVED — #274 Card Photo Survivor crewneck cover (with #453) |
+| 455 | Italian-American man in his mid 50s, salt-and-pepper hair, thick grey mustache, stocky build | RESERVED — #275 White Elephant Champion tee cover |
+| 456 | Navajo man in his late 30s, long black hair in a low ponytail, clean-shaven, tall build | RESERVED — #276 White Elephant Champion crewneck cover |
+| 457 | Filipino-American woman in her late 30s, shoulder-length layered black hair with caramel highlights | RESERVED — #277 Gingerbread Lane hoodie cover |
+| 458 | Scottish-American man in his early 60s, white hair, neat white beard, wire glasses | RESERVED — #278 Bah Humbug hoodie cover (with #459) |
+| 459 | Afro-Caribbean woman in her late 50s, grey locs pinned up, wide smile | RESERVED — #278 Bah Humbug hoodie cover (with #458) |
+| 460 | Brazilian woman in her early 30s, long dark curly hair in a half-up clip, warm brown eyes | RESERVED — #279 Friendsgiving hoodie cover |
+| 461 | Polish-American woman in her mid 40s, straight ash-blonde bob, light crow's feet | RESERVED — #280 Pie Season hoodie cover |
+| 462 | Vietnamese-American woman in her late 20s, long straight black hair with curtain bangs | RESERVED — #281 Doorbusters tee cover |
+| 463 | Puerto Rican man in his early 30s, short curly black hair with a fade, goatee, muscular build | RESERVED — #282 Bulking Season tee cover |
+| 464 | Texan white woman in her late 20s, long honey-blonde waves, freckles, light tan | RESERVED — #283 Deck the Stalls tee cover |
+| 465 | Mexican-American woman in her early 40s, long dark hair in a thick side braid, small silver earrings | RESERVED — #284 Deck the Stalls crewneck cover |
+| 466 | Swedish-American woman in her early 30s, platinum-blonde low bun, no makeup, angular face | RESERVED — #285 Morel Support hoodie cover |
+| 467 | Indian-American woman in her mid 20s, short black bob with blunt bangs, nose ring | RESERVED — #286 Purrsonal Space hoodie cover |
+| 468 | Ghanaian-American man in his mid 20s, shaved head, clean-shaven, very muscular build | RESERVED — #287 Sore Since 1987 oversized hoodie cover |

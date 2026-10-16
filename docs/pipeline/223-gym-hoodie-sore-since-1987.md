@@ -24,4 +24,4 @@ handle: mens-gym-sore-since-1987-hoodie
   2. R8.3: remove 'with Iron & Sweat Dept. in small type beneath' from the Story once the line is gone.
 - 2026-10-16 22:48 UTC [B]: REDO fix (round 1): erased the small 'Iron & Sweat Dept.' line from both ink files (light file 1087873843, dark file 1087873854) in print-prep, resync (FW 1120 TOP 0, Sand light file, Navy dark file), new mockups replaced in place, copy sentence removed, new cover (registry #296, image 3 of 3). Set REVIEW at 14/14. Sheet docs/review/223.jpg.
 - 2026-10-16 22:52 UTC [B]: synced 14/14, REVIEW.
-- 2026-10-16 23:40 UTC director: LIVE. Sore Since 1987 hoodie. ACTIVE + Online Store + Headless, audit --handle PASS.
+- 2026-10-16 23:19 UTC director: LIVE. Sore Since 1987 hoodie. ACTIVE + Online Store + Headless, audit --handle PASS.
