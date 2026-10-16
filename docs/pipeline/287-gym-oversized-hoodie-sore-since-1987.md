@@ -17,4 +17,4 @@ handle: mens-gym-sore-since-1987-oversized-hoodie
 - **Price (R12.1):** oversized $54.99, compare-at $59.99.
 ---
 ## Log
-- 2026-10-17 00:05 UTC director: brief written, READY (lane B cold-weather, director run 11).
+- 2026-10-16 23:25 UTC director: brief written, READY (lane B cold-weather, director run 11).

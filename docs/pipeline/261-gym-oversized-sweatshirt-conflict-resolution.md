@@ -22,6 +22,6 @@ handle: mens-gym-conflict-resolution-oversized-sweatshirt
 - 2026-10-16 22:30 UTC director: brief written, READY (lane B oversized-sweatshirts, R11.5).
 - 2026-10-16 23:06 UTC [B]: built as DRAFT (product 15362467692848, 12 variants Dust + Navy S-3XL, $49.99/$54.99, Bella+Canvas 4711 oversized sweatshirt #897). Twin of the tee's full-resolution file 1087745608 (3600 x 5060, hosted copy re-exported from the Printful file), reads on Dust and Navy (dark outline lettering a little soft on Navy, still legible), FW 1400 TOP 0 (9.3 x 13.1 in inside the 12 x 16 in area, no pocket). Mockups + variant images + back logo, cover registry #437 (try 1, image 3 of 3), keyword boxing sweatshirt 480/30, audit-local result above. Sync pid 482345865; REVIEW at 12/12. Sheet docs/review/261.jpg.
 - 2026-10-16 23:11 UTC [B]: synced, REVIEW.
-- 2026-10-16 23:40 UTC director: REDO (product stays DRAFT). Notes:
+- 2026-10-16 23:19 UTC director: REDO (product stays DRAFT). Notes:
   1. R3.7.6 / R6.2: CONFLICT / RESOLUTION is a clean geometric sans with even spacing (typeset). Re-letter both words by hand (one Recraft lettering-only generation, composed in print-prep like #234), check on Dust and Navy, re-upload, resync, new mockups. The live tee stays as it is (R3.9).
   2. R6.8: one new cover after the art change; the garment must be the 4711's dropped shoulder (this cover shows raglan seams).

@@ -17,4 +17,4 @@ handle: womens-thanksgiving-friendsgiving-hoodie
 - **Price (R12.1):** $39.99, compare-at $44.99.
 ---
 ## Log
-- 2026-10-16 23:58 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).
+- 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).

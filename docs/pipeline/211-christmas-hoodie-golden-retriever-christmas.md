@@ -20,7 +20,7 @@ handle: womens-christmas-golden-retriever-christmas-hoodie
 - 2026-10-16 19:05 UTC director: brief written, READY (lane A holiday hoodie twin, R11.5).
 - 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361966735664 (18500; Sand + Sport Grey x S-3XL = 12; Navy dropped because the dark lettering sinks into it), tee file 1085871853 at FW=1307 TOP=0, Printful sync 482277467. Copy/SEO/tags/price, keyword in map, cover (try 1 of 2 kept, generated from the product's Printful mockup), 2 fronts + back, variant images, audit PASS, docs/review/211.jpg. Printful link queued (runner): `FORCE=1 FW=1307 TOP=0 python3 scripts/pf-sync.py setfile 482277467 1085871853 1080398177`. REVIEW once synced = 12.
 - 2026-10-16 22:54 UTC builder [A]: Printful sync complete; REVIEW.
-- 2026-10-16 23:40 UTC director: REDO (product stays DRAFT). Notes:
+- 2026-10-16 23:19 UTC director: REDO (product stays DRAFT). Notes:
   1. R3.7.6 / R6.2: 'Merry Christmas' is a typeset book serif. Erase it in print-prep or re-letter by hand (one lettering-only generation).
   2. R4.1: the cream snow ground ends in a straight-edged rectangle, a pale block on both Sand and Sport Grey mockups. Break the bottom and side edges up into worn texture (or crop the ground) in print-prep so the scene is the shape. Resync, new mockups.
   3. R6.8: one new cover after the art change (the dog beside her is fine).

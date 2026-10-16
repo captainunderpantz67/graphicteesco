@@ -17,4 +17,4 @@ handle: womens-embroidered-purrsonal-space-cat-hoodie
 - **Price (R12.1 embroidered):** pullover $39.99 + $5 chest = $44.99, compare-at $49.99.
 ---
 ## Log
-- 2026-10-16 23:58 UTC director: brief written, READY (lane B cold-weather, director run 11).
+- 2026-10-16 23:24 UTC director: brief written, READY (lane B cold-weather, director run 11).

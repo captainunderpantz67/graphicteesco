@@ -20,4 +20,4 @@ handle: womens-black-friday-in-it-for-the-doorbusters-graphic-tee
 - **Price (R12.1):** $24.99, compare-at $29.99. Build before Nov 1 (the surge starts in October).
 ---
 ## Log
-- 2026-10-16 23:58 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).
+- 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).
