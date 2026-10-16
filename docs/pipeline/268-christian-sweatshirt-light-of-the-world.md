@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: new
 id: 268
@@ -24,3 +24,4 @@ handle: womens-christian-light-of-the-world-jesus-crewneck-sweatshirt
 ---
 ## Log
 - 2026-10-16 22:30 UTC director: brief written, READY (lane B christian-sweatshirts, R11.5 / R9.11 depth).
+- 2026-10-16 23:52 UTC [B]: built as DRAFT (product 15362549907760, 12 variants Sand + Light Blue S-3XL, $34.99/$39.99, Gildan 18000 #145). New art: Recraft v4 lantern + Jesus script + wildflowers (frameless), separate hand-lettered LIGHT OF THE WORLD / JOHN 8:12 composited in (no typeset lines), print-prep 3600 x 4109 + knock-white over 3000 px, Printful file 1087905478, FW 1400 TOP 0. Brown lettering sinks on Navy so the light + light pair. Mockups, variant images, back logo, cover registry #444 (try 1, image 1 of 3), keyword jesus sweatshirt 14800/47, audit-local PASS. Sync pid 482352602, 12/12. Sheet docs/review/268.jpg.

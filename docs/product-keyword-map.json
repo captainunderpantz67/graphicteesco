@@ -3971,11 +3971,16 @@
   },
   "womens-christian-light-of-the-world-jesus-crewneck-sweatshirt": {
    "claimed": [
-    "jesus sweatshirt",
-    "jesus crewneck"
+    "jesus sweatshirt"
    ],
-   "gaps_measured": [],
-   "measured": "jesus sweatshirt 14,800/KD47; jesus crewneck 480/KD56 (RankHero 2026-10-16)"
+   "gaps_measured": [
+    {
+     "phrase": "jesus sweatshirt",
+     "volume": 14800,
+     "kd": 47
+    }
+   ],
+   "measured": "2026-10-16"
   },
   "womens-christian-ewe-are-loved-lamb-crewneck-sweatshirt": {
    "claimed": [

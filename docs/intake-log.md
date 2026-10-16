@@ -7,6 +7,7 @@
 2026-10-16 21:38 UTC — [A] BUILDING #218 Pink Christmas Trees, #219 O Holy Night, #220 Lit-Up Bow, #221 Christmas Nurse crewnecks (drafts, covers #291-294, mockups, audit PASS; syncs queued). Printful sync is the bottleneck (~1 variant/min shared with lane B): 23 lane A items wait at 0 to 57 variants synced; the runner dies with each container, rerun the setfile commands in each item's log (FORCE=1 only for items not yet synced).
 RUNNING lane A since 2026-10-16 21:15 UTC
 RUNNING lane B since 2026-10-16 21:12 UTC
+2026-10-16 23:39 UTC — [B] REVIEW #265 snail hoodie, #266 Eau de Campfire hoodie (embroidery); BUILDING #267 Be Still crewneck (sync running), #268.
 2026-10-16 23:32 UTC — [B] REVIEW #262 Plot Twist sweatshirt, #263 Not Toad-ay zip hoodie, #264 Hot Mess Express zip hoodie; BUILDING #265 snail hoodie (sync running), #266.
 2026-10-16 23:11 UTC — [B] REVIEW #234 (redo), #261 Conflict Resolution oversized sweatshirt; BUILDING #262 Plot Twist.
 2026-10-16 23:03 UTC — [B] REDO fixes: #228 and #230 -> REVIEW; #234 redone (sync running). All six director REDOs now rebuilt.
