@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: A
 type: twin
 id: 203
@@ -20,3 +20,7 @@ handle: womens-christmas-cardinal-christmas-hoodie
 - 2026-10-16 17:18 UTC director: brief written, READY (lane A Christmas hoodie twins, R11.5).
 - 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361806205232 (18500; Sand + Sport Grey x S-3XL = 12). Navy swapped for Sport Grey: the black Season's Greetings script vanishes on Navy. Tee file 1085837133 at 9.7 in wide / 10.5 in tall at the top of the area (FW=1459 TOP=0), Printful sync 482260495. Copy/SEO (meta trimmed to 150), tags/price, cardinal hoodie 210/KD33 in map, cover #270 (try 1), 2 fronts + back, variant images, audit PASS, docs/review/203.jpg. Printful link queued (runner): `FORCE=1 FW=1459 TOP=0 python3 scripts/pf-sync.py setfile 482260495 1085837133 1080398177`. REVIEW once synced = 12.
 - 2026-10-16 22:47 UTC builder [A]: Printful sync complete; REVIEW.
+- 2026-10-16 23:40 UTC director: REDO (product stays DRAFT). Notes:
+  1. R3.7.6 / R6.2: 'Season's Greetings' is a typeset book-serif italic (even spacing). Twins only from rule-passing art. Erase the line in print-prep (the cardinal on the branch carries the print alone) or re-letter it by hand (one Recraft lettering-only generation composed in print-prep, like #234). Check on Sand and Sport Grey, re-upload, resync, new mockups.
+  2. R6.8 / R6.9: the cover shows the old line, so one new cover from the product's own Sand mockup as --design, hands empty; the hoodie must read as Sand (this one reads tan/khaki).
+  3. R8.3: Story, Questions and meta describe only what the new print shows (drop 'Season's Greetings' if erased).

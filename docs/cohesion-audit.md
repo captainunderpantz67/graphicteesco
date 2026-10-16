@@ -1,16 +1,12 @@
-# Cohesion audit — 2026-10-16 22:42 UTC
+# Cohesion audit — 2026-10-16 23:16 UTC
 
-205 live products checked · **1 errors** · 8 warnings · 9 products with findings
+220 live products checked · **0 errors** · 8 warnings · 8 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
-- 1 × Claims , already claimed by mens-hunting-quack-of-dawn-camo-hoodie .
 
 ## By product (errors first)
-### Men's Hunting – Opening Day Camo Hoodie `mens-hunting-opening-day-camo-hoodie`
-- **ERROR** Claims "camouflage hoodie", already claimed by mens-hunting-quack-of-dawn-camo-hoodie (two pages fighting for one keyword). → Give one of them a different measured phrase.
-
 ### Unisex Halloween – Midnight Feature Tee `unisex-halloween-midnight-feature-graphic-tee`
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
 

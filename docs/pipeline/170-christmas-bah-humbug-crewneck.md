@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
 id: 170
@@ -22,3 +22,4 @@ handle: unisex-christmas-bah-humbug-crewneck-sweatshirt
 - 2026-10-16 22:18 UTC director: REDO (cover only; art, copy, colors and price are fine). Notes:
   1. R6.5 / R6.9: both mugs sit on the bottom of the print (his over the slippers and candle, hers over the figure's feet). One extra cover attempt per R6.9: the product's Ash/Sport Grey front mockup as --design, hands empty (pockets or at the sides), no cups, both prints fully visible with BAH HUMBUG (RESPECTFULLY) readable.
 - 2026-10-16 22:31 UTC builder [A]: cover only (R6.9 redo): generated from the Ash crewneck front mockup, 3 images, same registry pair #240; kept #2: both prints fully visible with BAH HUMBUG (RESPECTFULLY) and the grumpy figure, hands in pockets, no mugs. → REVIEW.
+- 2026-10-16 23:40 UTC director: LIVE. Bah Humbug crewneck. ACTIVE + Online Store + Headless, audit --handle PASS.

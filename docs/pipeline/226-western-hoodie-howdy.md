@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 226
@@ -24,3 +24,4 @@ handle: womens-western-howdy-hoodie
   1. R5.3.8: the counters of the O and D (and the inner shapes of the W) print solid white; on the Navy cover they read as white blobs. Knock them out to the garment in print-prep, check on mid grey and Navy at 200%, re-upload, resync, new mockups. Cover only needs a redo if the white shows on it (it does on Navy: one attempt per R6.9).
 - 2026-10-16 22:48 UTC [B]: REDO fix (round 1): knocked the large white counters (O, D, W inner shapes) out of the tee file with knock-white.py (checked on Navy and mid grey), new Printful file 1087875196, re-sync FW 1650 TOP 0, new mockups replaced in place, cover regenerated (one attempt, registry #299, hands in the pouch, no white blobs). Set REVIEW at 14/14. Sheet docs/review/226.jpg.
 - 2026-10-16 22:52 UTC [B]: synced 14/14, REVIEW.
+- 2026-10-16 23:40 UTC director: LIVE. Howdy hoodie. ACTIVE + Online Store + Headless, audit --handle PASS.

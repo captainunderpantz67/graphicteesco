@@ -264,6 +264,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-gym-conflict-resolution-oversized-sweatshirt': { src: '/covers/mens-gym-conflict-resolution-oversized-sweatshirt.webp', alt: 'Man with taped hands in a navy Conflict Resolution oversized sweatshirt in an old brick boxing gym with heavy bags and ring ropes in morning light' },
   'mens-thanksgiving-wishbone-champion-graphic-tee': { src: '/covers/mens-thanksgiving-wishbone-champion-graphic-tee.webp', alt: 'Man in his late 30s with close-cropped hair and a neat full beard in a natural cream Wishbone Champion Thanksgiving graphic tee in a backyard with a long family Thanksgiving table under fall trees and string lights, hands in his pockets' },
   'womens-bookish-plot-twist-oversized-sweatshirt': { src: '/covers/womens-bookish-plot-twist-oversized-sweatshirt.webp', alt: 'Woman in gold-rimmed glasses wearing a navy Plot Twist I Stayed In bookish oversized sweatshirt in a cozy used bookstore corner with a book held at her side' },
+  'mens-thanksgiving-wishbone-champion-crewneck-sweatshirt': { src: '/covers/mens-thanksgiving-wishbone-champion-crewneck-sweatshirt.webp', alt: 'Man in a Sand Wishbone Champion crewneck sweatshirt in a fall front yard on Thanksgiving morning' },
   'womens-frog-not-toad-ay-zip-hoodie': { src: '/covers/womens-frog-not-toad-ay-zip-hoodie.webp', alt: 'Woman with curly puff buns glancing over her shoulder in a navy Not Toad-ay frog zip hoodie showing the large back print on a college-town coffee shop patio beside an iced latte' },
 };
 
