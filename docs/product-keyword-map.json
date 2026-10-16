@@ -3551,6 +3551,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-lit-up-bow-crewneck-sweatshirt": {
+   "claimed": [
+    "bow christmas sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bow christmas sweatshirt",
+     "volume": 720,
+     "kd": 54
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
