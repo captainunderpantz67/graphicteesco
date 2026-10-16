@@ -283,8 +283,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 297 | Native American man in his late 30s, long black hair in a single braid | USED 2026-10-16 — #224 Quack of Dawn camo hoodie cover (fal Seedream 4, duck marsh at sunrise; try 1 kept) |
 | 298 | White man in his late 40s, ginger beard, bucket hat | USED 2026-10-16 — #225 Casting Doubt zip hoodie cover (fal Seedream 4, trout stream, back view; try 2 kept, try 1 replaced the art with plain text) |
 | 299 | Latina woman in her early 20s, long dark hair, tan cowgirl hat | USED 2026-10-16 — #226 Howdy hoodie cover (try 1, image 2 of 3) |
-| 300 | Black man in his mid 20s, high-top fade, small silver chain | RESERVED — #227 Night Shift hoodie (with #301) cover |
-| 301 | White woman in her mid 20s, black curtain-bang shag, nose ring | RESERVED — #227 Night Shift hoodie (with #300) cover |
+| 300 | Black man in his mid 20s, high-top fade, small silver chain | USED 2026-10-16 — #227 Night Shift hoodie cover (with #301; try 2, image 1 of 3) |
+| 301 | White woman in her mid 20s, black curtain-bang shag, nose ring | USED 2026-10-16 — #227 Night Shift hoodie cover (with #300; try 2) |
 | 302 | Chinese-American woman in her early 20s, long hair in a half-up claw clip | RESERVED — #228 Ghost Club cropped hoodie cover |
 | 303 | Samoan man in his early 30s, curly hair tied back, broad build | RESERVED — #229 Beach Body Pending hoodie cover |
 | 304 | White woman in her early 30s, long sandy-blonde braid, light tan | RESERVED — #230 Kick Up Dust camo hoodie cover |

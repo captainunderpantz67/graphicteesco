@@ -226,6 +226,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-western-howdy-hoodie': { src: '/covers/womens-western-howdy-hoodie.webp', alt: 'Woman in a tan cowgirl hat at a rodeo arena fence at sunset wearing the Howdy navy hoodie with the pink cowgirl hat and steer skull print' },
   'womens-christmas-o-holy-night-crewneck-sweatshirt': { src: '/covers/womens-christmas-o-holy-night-crewneck-sweatshirt.webp', alt: 'Woman in her late 50s with short grey natural hair and glasses on a chain in a navy O Holy Night crewneck sweatshirt on the snowy steps of a small white church at night, service program in her hand at her side' },
   'womens-christmas-lit-up-bow-crewneck-sweatshirt': { src: '/covers/womens-christmas-lit-up-bow-crewneck-sweatshirt.webp', alt: 'Woman in her mid 20s with long dark curls and a gold necklace in a navy All Lit Up bow crewneck sweatshirt in a living room with a lit Christmas tree and bow-topped gifts, hands in her pockets' },
+  'unisex-horror-night-shift-oversized-hoodie': { src: '/covers/unisex-horror-night-shift-oversized-hoodie.webp', alt: 'Man and woman in matching black Night Shift oversized hoodies outside a neon-lit small-town movie theater at night' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

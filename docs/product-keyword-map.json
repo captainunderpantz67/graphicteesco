@@ -3564,6 +3564,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-horror-night-shift-oversized-hoodie": {
+   "claimed": [
+    "horror movie hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "horror movie hoodie",
+     "volume": 2900,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
