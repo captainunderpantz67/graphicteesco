@@ -1,34 +1,13 @@
 {
- "at": "2026-10-16T10:43:44.815Z",
- "products": 167,
+ "at": "2026-10-16T12:43:11.280Z",
+ "products": 158,
  "findings": [
-  {
-   "level": "WARN",
-   "handle": "womens-western-desert-bloom-graphic-tee",
-   "title": "Women's Western – Desert Bloom Tee",
-   "msg": "2 of 6 colors have no photo (Maroon, Military Green).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
   {
    "level": "WARN",
    "handle": "mens-gym-plate-club-graphic-tee",
    "title": "Men's Gym – Plate Club Tee",
    "msg": "Cover alt text doesn't say who is in the photo.",
    "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-country-dirt-road-radio-graphic-tee",
-   "title": "Women's Country – Dirt Road Radio Tee",
-   "msg": "4 of 8 colors have no photo (Navy, Maroon, Heather Navy, Military Green).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-halloween-witchy-season-graphic-tee",
-   "title": "Women's Halloween – Witchy Season Tee",
-   "msg": "3 of 7 colors have no photo (Forest Green, Sage, Vintage White).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "WARN",
@@ -39,38 +18,10 @@
   },
   {
    "level": "WARN",
-   "handle": "unisex-halloween-haunted-hollow-graphic-tee",
-   "title": "Unisex Halloween – Haunted Hollow Tee",
-   "msg": "2 of 6 colors have no photo (Dark Grey Heather, Army).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
-   "level": "WARN",
-   "handle": "unisex-halloween-midnight-feature-graphic-tee",
-   "title": "Unisex Halloween – Midnight Feature Tee",
-   "msg": "2 of 6 colors have no photo (Heather Clay, Army).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
-   "level": "WARN",
    "handle": "unisex-halloween-midnight-feature-graphic-tee",
    "title": "Unisex Halloween – Midnight Feature Tee",
    "msg": "No SEO title.",
    "fix": "Write one ≤ 60 chars with the primary keyword."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-halloween-pumpkin-patch-ghost-graphic-tee",
-   "title": "Women's Halloween – Pumpkin Patch Ghost Tee",
-   "msg": "3 of 7 colors have no photo (Navy, Maroon, Forest Green).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-halloween-ghost-club-graphic-tee",
-   "title": "Women's Halloween – Ghost Club Tee",
-   "msg": "3 of 7 colors have no photo (Maroon, Heather Mauve, Pink).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "WARN",
@@ -81,96 +32,12 @@
   },
   {
    "level": "WARN",
-   "handle": "mens-thanksgiving-turkey-bowl-graphic-tee",
-   "title": "Men's Thanksgiving – Turkey Bowl Tee",
-   "msg": "2 of 6 colors have no photo (Dark Grey Heather, Autumn).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
-   "level": "WARN",
-   "handle": "unisex-christmas-fresh-cut-christmas-trees-graphic-tee",
-   "title": "Unisex Christmas – Fresh Cut Christmas Trees Tee",
-   "msg": "2 of 6 colors have no photo (Cardinal, Dark Grey Heather).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
-   "level": "WARN",
    "handle": "unisex-christmas-fresh-cut-christmas-trees-graphic-tee",
    "title": "Unisex Christmas – Fresh Cut Christmas Trees Tee",
    "msg": "No meta description.",
    "fix": "Write one ≤ 155 chars."
   },
   {
-   "level": "WARN",
-   "handle": "unisex-christmas-cabin-christmas-graphic-tee",
-   "title": "Unisex Christmas – Cabin Christmas Tee",
-   "msg": "2 of 6 colors have no photo (Maroon, Forest).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-christmas-merry-bright-graphic-tee",
-   "title": "Women's Christmas – Merry & Bright Tee",
-   "msg": "3 of 7 colors have no photo (Maroon, Forest Green, Heather Red).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-christmas-gingerbread-lane-graphic-tee",
-   "title": "Women's Christmas – Gingerbread Lane Tee",
-   "msg": "3 of 7 colors have no photo (Maroon, Forest Green, Pink).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-thanksgiving-give-thanks-graphic-tee",
-   "title": "Women's Thanksgiving – Give Thanks Tee",
-   "msg": "3 of 7 colors have no photo (Maroon, Forest Green, Military Green).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
-   "level": "WARN",
-   "handle": "unisex-western-desert-rider-graphic-tee",
-   "title": "Unisex Western – Desert Rider Tee",
-   "msg": "2 of 6 colors have no photo (Heather Clay, Army).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-football-mom-game-day-graphic-tee",
-   "title": "Women's Football Mom – Game Day Tee",
-   "msg": "2 of 6 colors have no photo (Navy, Maroon).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-baseball-mom-diamond-days-graphic-tee",
-   "title": "Women's Baseball Mom – Diamond Days Tee",
-   "msg": "2 of 6 colors have no photo (Navy, Pink).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-soccer-mom-sideline-bloom-graphic-tee",
-   "title": "Women's Soccer Mom – Sideline Bloom Tee",
-   "msg": "2 of 6 colors have no photo (Navy, Pink).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-christian-grace-wins-graphic-tee",
-   "title": "Women's Christian – Grace Wins Tee",
-   "msg": "2 of 6 colors have no photo (Navy, Pink).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-vintage-cropped-wildflower-club-graphic-tee",
-   "title": "Women's Vintage Cropped – Wildflower Club Tee",
-   "msg": "2 of 6 colors have no photo (Mineral, Ecru).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "womens-vintage-cropped-wildflower-club-graphic-tee",
    "title": "Women's Vintage Cropped – Wildflower Club Tee",
@@ -178,13 +45,6 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "womens-nurse-nurse-life-coffee-graphic-tee",
-   "title": "Women's Nurse – Nurse Life Coffee Tee",
-   "msg": "2 of 6 colors have no photo (Navy, Pink).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "womens-nurse-nurse-life-coffee-graphic-tee",
    "title": "Women's Nurse – Nurse Life Coffee Tee",
@@ -197,13 +57,6 @@
    "title": "Women's Nurse – Nurse Life Coffee Tee",
    "msg": "No SEO title.",
    "fix": "Write one ≤ 60 chars with the primary keyword."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-country-sweet-tea-sunsets-graphic-tee",
-   "title": "Women's Country – Sweet Tea & Sunsets Tee",
-   "msg": "2 of 6 colors have no photo (Navy, Pink).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -220,13 +73,6 @@
    "fix": "Write one ≤ 60 chars with the primary keyword."
   },
   {
-   "level": "WARN",
-   "handle": "womens-christmas-retro-santa-graphic-tee",
-   "title": "Women's Christmas – Retro Santa Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Heather Red, Black).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "womens-christmas-retro-santa-graphic-tee",
    "title": "Women's Christmas – Retro Santa Tee",
@@ -239,13 +85,6 @@
    "title": "Women's Christmas – Retro Santa Tee",
    "msg": "No SEO title.",
    "fix": "Write one ≤ 60 chars with the primary keyword."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-christmas-candy-cane-club-graphic-tee",
-   "title": "Women's Christmas – Candy Cane Club Tee",
-   "msg": "4 of 4 colors have no photo (White, Pink, Heather Mauve, Natural).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -255,25 +94,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "womens-christmas-nutcracker-bow-graphic-tee",
-   "title": "Women's Christmas – Nutcracker Bow Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Heather Mauve, Athletic Heather).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "womens-christmas-nutcracker-bow-graphic-tee",
    "title": "Women's Christmas – Nutcracker Bow Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-christmas-vintage-snowman-graphic-tee",
-   "title": "Women's Christmas – Vintage Snowman Tee",
-   "msg": "4 of 4 colors have no photo (Athletic Heather, White, Natural, Heather Stone).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -283,25 +108,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "womens-christmas-pink-christmas-trees-graphic-tee",
-   "title": "Women's Christmas – Pink Christmas Trees Tee",
-   "msg": "4 of 4 colors have no photo (White, Black, Heather Mauve, Athletic Heather).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "womens-christmas-pink-christmas-trees-graphic-tee",
    "title": "Women's Christmas – Pink Christmas Trees Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-christmas-oh-deer-graphic-tee",
-   "title": "Women's Christmas – Oh Deer Tee",
-   "msg": "4 of 4 colors have no photo (White, Athletic Heather, Natural, Heather Stone).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -311,25 +122,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "womens-christmas-holly-jolly-graphic-tee",
-   "title": "Women's Christmas – Holly Jolly Tee",
-   "msg": "4 of 4 colors have no photo (White, Heather Mauve, Athletic Heather, Black).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "womens-christmas-holly-jolly-graphic-tee",
    "title": "Women's Christmas – Holly Jolly Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-christmas-christmas-cats-graphic-tee",
-   "title": "Women's Christmas – Christmas Cats Tee",
-   "msg": "4 of 4 colors have no photo (White, Athletic Heather, Heather Mauve, Heather Stone).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -339,13 +136,6 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "womens-christmas-lit-up-bow-graphic-tee",
-   "title": "Women's Christmas – Lit Up Bow Tee",
-   "msg": "4 of 4 colors have no photo (Black, Heather Navy, Dark Grey Heather, Forest Green).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "womens-christmas-lit-up-bow-graphic-tee",
    "title": "Women's Christmas – Lit Up Bow Tee",
@@ -353,25 +143,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "womens-christmas-o-holy-night-graphic-tee",
-   "title": "Women's Christmas – O Holy Night Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Black, Heather Navy).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "womens-christmas-o-holy-night-graphic-tee",
    "title": "Women's Christmas – O Holy Night Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-christmas-ho-ho-howdy-graphic-tee",
-   "title": "Women's Christmas – Ho Ho Howdy Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Athletic Heather, Heather Mauve).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -388,25 +164,11 @@
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
-   "level": "WARN",
-   "handle": "mens-gym-iron-sharpens-iron-graphic-tee",
-   "title": "Men's Gym – Iron Sharpens Iron Tee",
-   "msg": "4 of 4 colors have no photo (White, Athletic Heather, Soft Cream, Ash).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "mens-gym-iron-sharpens-iron-graphic-tee",
    "title": "Men's Gym – Iron Sharpens Iron Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "mens-gym-marble-statue-curl-graphic-tee",
-   "title": "Men's Gym – Marble Statue Curl Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Athletic Heather, Silver).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -416,25 +178,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "mens-gym-the-lifter-card-graphic-tee",
-   "title": "Men's Gym – The Lifter Card Tee",
-   "msg": "4 of 4 colors have no photo (Black, Navy, Dark Grey Heather, Military Green).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "mens-gym-the-lifter-card-graphic-tee",
    "title": "Men's Gym – The Lifter Card Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "mens-gym-strong-and-courageous-graphic-tee",
-   "title": "Men's Gym – Strong & Courageous Tee",
-   "msg": "4 of 4 colors have no photo (Black, Military Green, Navy, Athletic Heather).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -444,67 +192,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "mens-gym-golden-era-pose-graphic-tee",
-   "title": "Men's Gym – Golden Era Pose Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Soft Cream, Athletic Heather).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-gym-golden-era-pose-graphic-tee",
-   "title": "Men's Gym – Golden Era Pose Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "mens-gym-old-school-strength-graphic-tee",
-   "title": "Men's Gym – Old School Strength Tee",
-   "msg": "4 of 4 colors have no photo (Vintage White, White, Athletic Heather, Heather Dust).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-gym-old-school-strength-graphic-tee",
-   "title": "Men's Gym – Old School Strength Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "mens-gym-leg-day-survivor-graphic-tee",
-   "title": "Men's Gym – Leg Day Survivor Tee",
-   "msg": "4 of 4 colors have no photo (White, Athletic Heather, Ash, Soft Cream).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "mens-gym-leg-day-survivor-graphic-tee",
    "title": "Men's Gym – Leg Day Survivor Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "mens-gym-heavy-bag-dept-graphic-tee",
-   "title": "Men's Gym – Heavy Bag Dept. Tee",
-   "msg": "4 of 4 colors have no photo (Vintage White, Natural, Athletic Heather, Silver).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-gym-heavy-bag-dept-graphic-tee",
-   "title": "Men's Gym – Heavy Bag Dept. Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-western-steer-skull-wildflowers-graphic-tee",
-   "title": "Women's Western – Steer Skull & Wildflowers Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Heather Mauve, Heather Stone).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -514,25 +206,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "womens-western-saturday-night-rodeo-graphic-tee",
-   "title": "Women's Western – Saturday Night Rodeo Tee",
-   "msg": "4 of 4 colors have no photo (White, Vintage White, Athletic Heather, Heather Stone).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "womens-western-saturday-night-rodeo-graphic-tee",
    "title": "Women's Western – Saturday Night Rodeo Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "unisex-western-hold-on-eight-graphic-tee",
-   "title": "Unisex Western – Hold On Eight Tee",
-   "msg": "4 of 4 colors have no photo (Vintage White, Natural, Athletic Heather, Heather Dust).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -542,25 +220,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "unisex-western-vintage-bison-graphic-tee",
-   "title": "Unisex Western – Vintage Bison Tee",
-   "msg": "4 of 4 colors have no photo (Vintage White, Natural, Athletic Heather, Heather Clay).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "unisex-western-vintage-bison-graphic-tee",
    "title": "Unisex Western – Vintage Bison Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "unisex-western-saddle-blanket-steer-graphic-tee",
-   "title": "Unisex Western – Saddle Blanket Steer Tee",
-   "msg": "4 of 4 colors have no photo (Vintage White, Natural, Athletic Heather, Ash).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -570,25 +234,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "womens-western-howdy-graphic-tee",
-   "title": "Women's Western – Howdy Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Heather Mauve, Athletic Heather).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "womens-western-howdy-graphic-tee",
    "title": "Women's Western – Howdy Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-western-kick-up-dust-graphic-tee",
-   "title": "Women's Western – Kick Up Dust Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Heather Stone, Athletic Heather).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -598,25 +248,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "womens-western-wild-west-rider-graphic-tee",
-   "title": "Women's Western – Wild West Rider Tee",
-   "msg": "4 of 4 colors have no photo (White, Vintage White, Natural, Heather Mauve).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "womens-western-wild-west-rider-graphic-tee",
    "title": "Women's Western – Wild West Rider Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-western-barrel-racer-graphic-tee",
-   "title": "Women's Western – Barrel Racer Tee",
-   "msg": "4 of 4 colors have no photo (White, Vintage White, Heather Stone, Athletic Heather).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -626,25 +262,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "unisex-western-desert-rattler-graphic-tee",
-   "title": "Unisex Western – Desert Rattler Tee",
-   "msg": "4 of 4 colors have no photo (Vintage White, Natural, Black, Military Green).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "unisex-western-desert-rattler-graphic-tee",
    "title": "Unisex Western – Desert Rattler Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-western-run-free-graphic-tee",
-   "title": "Women's Western – Run Free Tee",
-   "msg": "4 of 4 colors have no photo (White, Vintage White, Natural, Athletic Heather).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -654,25 +276,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "unisex-western-lucky-horseshoe-graphic-tee",
-   "title": "Unisex Western – Lucky Horseshoe Tee",
-   "msg": "4 of 4 colors have no photo (Vintage White, Natural, Heather Dust, Heather Clay).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "unisex-western-lucky-horseshoe-graphic-tee",
    "title": "Unisex Western – Lucky Horseshoe Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-christmas-christmas-dogs-graphic-tee",
-   "title": "Women's Christmas – Christmas Dogs Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Heather Stone, Athletic Heather).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -682,25 +290,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "womens-christmas-christmas-nurse-graphic-tee",
-   "title": "Women's Christmas – Christmas Nurse Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Heather Mauve, Athletic Heather).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "womens-christmas-christmas-nurse-graphic-tee",
    "title": "Women's Christmas – Christmas Nurse Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-christmas-christmas-teacher-graphic-tee",
-   "title": "Women's Christmas – Christmas Teacher Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Heather Stone, Athletic Heather).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -710,25 +304,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "womens-christmas-mrs-claus-bakery-graphic-tee",
-   "title": "Women's Christmas – Mrs. Claus Bakery Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Pink, Heather Mauve).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "womens-christmas-mrs-claus-bakery-graphic-tee",
    "title": "Women's Christmas – Mrs. Claus Bakery Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-christmas-santas-sleigh-graphic-tee",
-   "title": "Women's Christmas – Santa's Sleigh Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Athletic Heather, Heather Stone).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -738,25 +318,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "womens-christmas-polar-bear-cocoa-graphic-tee",
-   "title": "Women's Christmas – Polar Bear Cocoa Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Athletic Heather, Heather Blue Lagoon).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "womens-christmas-polar-bear-cocoa-graphic-tee",
    "title": "Women's Christmas – Polar Bear Cocoa Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-christmas-fa-la-la-graphic-tee",
-   "title": "Women's Christmas – Fa La La Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Athletic Heather, Heather Stone).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -766,25 +332,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "womens-christmas-peace-on-earth-graphic-tee",
-   "title": "Women's Christmas – Peace on Earth Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Athletic Heather, Heather Stone).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "womens-christmas-peace-on-earth-graphic-tee",
    "title": "Women's Christmas – Peace on Earth Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-christmas-hello-winter-snowflakes-graphic-tee",
-   "title": "Women's Christmas – Hello Winter Snowflakes Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Vintage White, Athletic Heather).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -794,25 +346,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "womens-christmas-joy-graphic-tee",
-   "title": "Women's Christmas – Joy Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Heather Stone, Athletic Heather).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "womens-christmas-joy-graphic-tee",
    "title": "Women's Christmas – Joy Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-christmas-deck-the-halls-graphic-tee",
-   "title": "Women's Christmas – Deck the Halls Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Heather Mauve, Athletic Heather).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -822,25 +360,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "womens-christmas-christmas-golf-graphic-tee",
-   "title": "Women's Christmas – Christmas Golf Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Athletic Heather, Pink).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "womens-christmas-christmas-golf-graphic-tee",
    "title": "Women's Christmas – Christmas Golf Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-christmas-highland-cow-christmas-graphic-tee",
-   "title": "Women's Christmas – Highland Cow Christmas Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Heather Stone, Athletic Heather).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -850,25 +374,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "unisex-thanksgiving-turkey-trot-graphic-tee",
-   "title": "Unisex Thanksgiving – Turkey Trot Tee",
-   "msg": "4 of 4 colors have no photo (Natural, Vintage White, Athletic Heather, Heather Dust).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "unisex-thanksgiving-turkey-trot-graphic-tee",
    "title": "Unisex Thanksgiving – Turkey Trot Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "unisex-thanksgiving-leftovers-club-graphic-tee",
-   "title": "Unisex Thanksgiving – Leftovers Club Tee",
-   "msg": "4 of 4 colors have no photo (Natural, Vintage White, Athletic Heather, Ash).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -878,25 +388,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "womens-thanksgiving-pumpkin-pie-graphic-tee",
-   "title": "Women's Thanksgiving – Pumpkin Pie Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Heather Stone, Athletic Heather).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "womens-thanksgiving-pumpkin-pie-graphic-tee",
    "title": "Women's Thanksgiving – Pumpkin Pie Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-thanksgiving-friendsgiving-graphic-tee",
-   "title": "Women's Thanksgiving – Friendsgiving Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Heather Stone, Athletic Heather).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -906,25 +402,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "unisex-christmas-vintage-santa-graphic-tee",
-   "title": "Unisex Christmas – Vintage Santa Tee",
-   "msg": "4 of 12 colors have no photo (Natural, Soft Cream, Heather Dust, Athletic Heather).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "unisex-christmas-vintage-santa-graphic-tee",
    "title": "Unisex Christmas – Vintage Santa Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-christmas-vintage-santa-graphic-tee",
-   "title": "Women's Christmas – Vintage Santa Tee",
-   "msg": "4 of 8 colors have no photo (White, Natural, Heather Stone, Athletic Heather).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -934,25 +416,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "unisex-christmas-vintage-santa-crewneck-sweatshirt",
-   "title": "Unisex Christmas – Vintage Santa Crewneck Sweatshirt",
-   "msg": "3 of 3 colors have no photo (Sand, White, Sport Grey).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "unisex-christmas-vintage-santa-crewneck-sweatshirt",
    "title": "Unisex Christmas – Vintage Santa Crewneck Sweatshirt",
    "msg": "Price 39.99/- (price/compare-at) — should be 34.99/39.99 on every variant.",
    "fix": "Set every variant to price 34.99, compare-at 39.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-christmas-merry-bright-trees-graphic-tee",
-   "title": "Women's Christmas – Merry & Bright Trees Tee",
-   "msg": "4 of 4 colors have no photo (Military Green, Maroon, Navy, Black).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -962,25 +430,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "womens-christmas-merry-bright-trees-crewneck-sweatshirt",
-   "title": "Women's Christmas – Merry & Bright Trees Crewneck Sweatshirt",
-   "msg": "4 of 4 colors have no photo (Forest Green, Military Green, Maroon, Navy).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "womens-christmas-merry-bright-trees-crewneck-sweatshirt",
    "title": "Women's Christmas – Merry & Bright Trees Crewneck Sweatshirt",
    "msg": "Price 39.99/- (price/compare-at) — should be 34.99/39.99 on every variant.",
    "fix": "Set every variant to price 34.99, compare-at 39.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "unisex-thanksgiving-give-thanks-harvest-graphic-tee",
-   "title": "Unisex Thanksgiving – Give Thanks Harvest Tee",
-   "msg": "4 of 10 colors have no photo (Natural, Soft Cream, Heather Dust, Athletic Heather).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -990,25 +444,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "unisex-thanksgiving-give-thanks-harvest-crewneck-sweatshirt",
-   "title": "Unisex Thanksgiving – Give Thanks Harvest Crewneck Sweatshirt",
-   "msg": "3 of 3 colors have no photo (Sand, White, Sport Grey).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "unisex-thanksgiving-give-thanks-harvest-crewneck-sweatshirt",
    "title": "Unisex Thanksgiving – Give Thanks Harvest Crewneck Sweatshirt",
    "msg": "Price 39.99/- (price/compare-at) — should be 34.99/39.99 on every variant.",
    "fix": "Set every variant to price 34.99, compare-at 39.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "unisex-fishing-lake-life-graphic-tee",
-   "title": "Unisex Fishing – Lake Life Tee",
-   "msg": "4 of 4 colors have no photo (White, Natural, Athletic Heather, Ash).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -1018,25 +458,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "mens-hunting-opening-day-graphic-tee",
-   "title": "Men's Hunting – Opening Day Tee",
-   "msg": "4 of 4 colors have no photo (Natural, Vintage White, Heather Dust, Athletic Heather).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "mens-hunting-opening-day-graphic-tee",
    "title": "Men's Hunting – Opening Day Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-christian-amazing-grace-graphic-tee",
-   "title": "Women's Christian – Amazing Grace Tee",
-   "msg": "4 of 4 colors have no photo (Black, Navy, Maroon, Military Green).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -1046,25 +472,11 @@
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
-   "level": "WARN",
-   "handle": "unisex-christmas-deer-camp-christmas-graphic-tee",
-   "title": "Unisex Christmas – Deer Camp Christmas Tee",
-   "msg": "4 of 4 colors have no photo (Natural, Heather Dust, Athletic Heather, Forest).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
-  },
-  {
    "level": "ERROR",
    "handle": "unisex-christmas-deer-camp-christmas-graphic-tee",
    "title": "Unisex Christmas – Deer Camp Christmas Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "unisex-christmas-deer-camp-christmas-crewneck-sweatshirt",
-   "title": "Unisex Christmas – Deer Camp Christmas Crewneck Sweatshirt",
-   "msg": "4 of 4 colors have no photo (Forest Green, Sand, White, Sport Grey).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -1072,13 +484,6 @@
    "title": "Unisex Christmas – Deer Camp Christmas Crewneck Sweatshirt",
    "msg": "Price 39.99/- (price/compare-at) — should be 34.99/39.99 on every variant.",
    "fix": "Set every variant to price 34.99, compare-at 39.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "unisex-christmas-christmas-tree-farm-graphic-tee",
-   "title": "Unisex Christmas – Christmas Tree Farm Tee",
-   "msg": "13 of 13 colors have no photo (Natural, White, Vintage White, Soft Cream…).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   },
   {
    "level": "ERROR",
@@ -1436,27 +841,6 @@
    "title": "Women's Thanksgiving – Pie Oh My Crewneck Sweatshirt",
    "msg": "Price 39.99/- (price/compare-at) — should be 34.99/39.99 on every variant.",
    "fix": "Set every variant to price 34.99, compare-at 39.99."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-christian-casserole-ministry-graphic-tee",
-   "title": "Women's Christian – Casserole Ministry Tee",
-   "msg": "Cover alt text doesn't say who is in the photo.",
-   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
-  },
-  {
-   "level": "WARN",
-   "handle": "mens-hunting-professional-tree-sitter-graphic-tee",
-   "title": "Men's Hunting – Professional Tree Sitter Tee",
-   "msg": "Cover alt text doesn't say who is in the photo.",
-   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
-  },
-  {
-   "level": "WARN",
-   "handle": "unisex-anime-kaiju-naps-graphic-tee",
-   "title": "Unisex Anime – Destroyer of Cities, Lover of Naps Tee",
-   "msg": "10 of 10 colors have no photo (White, Natural, Vintage White, Soft Cream…).",
-   "fix": "Add a Printful front mockup for each color and link it to the variants."
   }
  ]
 }
