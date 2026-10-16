@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-16 18:30 UTC
+status: REVIEW
 lane: A
 type: new
 id: 161
@@ -22,3 +22,4 @@ handle: mens-christmas-technically-a-sweater-graphic-tee
 ## Log
 - 2026-10-16 10:24 UTC director: brief written, READY.
 - 2026-10-16 UTC builder [A]: art Recraft v4 try 1 (spelling right; the black knit field is part of the art, no badge outline; light/mid colors only because lettering is soft black: White, Natural, Ash, Athletic Heather, Heather Dust, Tan, Sage x S-4XL = 47, brief listed dark colors), Printful file 1087696327, DRAFT gid://shopify/Product/15361710227760, sync 482250671. Copy/SEO/tags/price, keyword ugly christmas shirt 2,900/KD52 in map, cover #231 (try 2 kept: try 1 repeated A SWEATER), 7 fronts + back, variant images, audit PASS, docs/review/161.jpg. Printful link queued: `FORCE=1 python3 scripts/pf-sync.py setfile 482250671 1087696327 1080398177`. REVIEW once synced = 47.
+- 2026-10-16 21:45 UTC builder [A]: Printful sync complete; REVIEW.
