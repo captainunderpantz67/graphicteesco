@@ -18,3 +18,4 @@ handle: womens-christmas-pink-christmas-trees-crewneck-sweatshirt
 ---
 ## Log
 - 2026-10-16 19:05 UTC director: brief written, READY (R7.3 holiday pair: this tee had no crewneck twin).
+- 2026-10-16 21:40 UTC builder [A]: DRAFT gid://shopify/Product/15362233860400 (Gildan 18000; White, Sand, Light Pink, Sport Grey, Ash x S-3XL = 30; $34.99/$39.99), tee file 1083081402 (no new art), Printful sync 482317020 queued (runner; FORCE=1 FW=1500 setfile 482317020 1083081402 1080398177). Primary pink christmas sweatshirt 3,600/KD48 in map. Cover #291 (try 2; try 1 showed a lighter panel behind the small line), 5 fronts + back, variant images, audit PASS, docs/review/218.jpg. REVIEW once synced = 30.

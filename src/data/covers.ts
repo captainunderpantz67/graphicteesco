@@ -222,6 +222,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-fishing-casting-doubt-zip-hoodie': { src: '/covers/mens-fishing-casting-doubt-zip-hoodie.webp', alt: 'Man in his late 40s with a ginger beard and a bucket hat seen from behind beside a mountain trout stream at first light, wearing the Casting Doubt zip hoodie in ash with the full back print' },
   'womens-christmas-hello-winter-snowflakes-hoodie': { src: '/covers/womens-christmas-hello-winter-snowflakes-hoodie.webp', alt: 'Woman with platinum shoulder-length hair and freckles in a Sport Grey Hello Winter snowflakes hoodie on a snowy small-town sidewalk with string lights' },
   'womens-christmas-ho-ho-howdy-hoodie': { src: '/covers/womens-christmas-ho-ho-howdy-hoodie.webp', alt: 'Woman in a cowboy hat with a twist-out in a Sand Ho Ho Howdy cowboy Santa hoodie on a ranch porch with a wreath and hay bales' },
+  'womens-christmas-pink-christmas-trees-crewneck-sweatshirt': { src: '/covers/womens-christmas-pink-christmas-trees-crewneck-sweatshirt.webp', alt: 'Woman in her early 20s with long straight black hair and a pink bow clip in a cream Pink Christmas Trees crewneck sweatshirt at a pink-and-white Christmas market stall at dusk, shopping bag at her hip' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

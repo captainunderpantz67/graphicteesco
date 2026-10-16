@@ -3513,6 +3513,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-pink-christmas-trees-crewneck-sweatshirt": {
+   "claimed": [
+    "pink christmas sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pink christmas sweatshirt",
+     "volume": 3600,
+     "kd": 48
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
