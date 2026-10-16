@@ -12,6 +12,8 @@ Goal: fill each of the three lowest-KD collections to **14 products**. Counts re
 
 **Queue order = physical order in this file.** Brief numbers are stable IDs: `docs/model-registry.md` rows point at them, so they were **not** renumbered when the queue was re-ordered. New briefs take the next free numbers (#34, #35).
 
+> **2026-10-16 (director):** new briefs now live in docs/pipeline/ (one file per product). Every unbuilt brief here (#122–133, #137–145) was moved there and marked "moved to pipeline". This file is history only; don't add briefs to it.
+
 ## Market research pass (2026-10-08)
 Evidence for every brief is in **`docs/market-research.md`**: winning themes per niche, Etsy favorites/views from RankHero's top-listing samples, Amazon "bought in past month", and Google/Etsy shelf scans. In this pass:
 - **Christmas:** 6 confirmed (#3, #5, #6, #7, #8, #10, some restyled), 4 replaced (#1 → Candy Cane Club, #2 → Vintage Snowman, #4 → Pink Christmas Trees, #9 → Holly Jolly), 1 new (#34 Ho Ho Howdy).
@@ -1524,7 +1526,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 
 ## Evergreen whimsy batch 3 — lane B (2026-10-15; y2k 0, cropped 1, anime 1, christian 3, baseball mom 3, soccer mom 3)
 
-### 122. Women's Cropped – Matcha Made in Heaven Tee  *(BUILDING [B])*
+### 122. Women's Cropped – Matcha Made in Heaven Tee  *(moved to pipeline 2026-10-16)*
 - **Handle:** `womens-cropped-matcha-made-in-heaven-graphic-tee` · **Blank:** AS Colour 4062 crop top (Printful #636), $29.99 · tags cropped-graphic-tees, graphic-tees-for-women
 - **Hook:** "Matcha Made in Heaven" — match made in heaven, for the girl whose love story is with her oat-milk matcha.
 - **Why it's not taken:** the pun shows on a few kawaii-cartoon listings; none as a vintage cafe illustration.
@@ -1533,7 +1535,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Cover model:** registry #192
 - **Print file:** art regenerated 2026-10-16 (Recraft v4; the first run's file id was never recorded) → Printful file 1087363169, front 8.5in wide on 1500×1500, top 0, left 112.
 
-### 123. Women's Y2K – Low Battery, High Standards Tee  *(BUILDING [B])*
+### 123. Women's Y2K – Low Battery, High Standards Tee  *(moved to pipeline 2026-10-16)*
 - **Handle:** `womens-y2k-low-battery-high-standards-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags y2k-graphic-tees, graphic-tees-for-women
 - **Hook:** "Low Battery, High Standards" — a flip phone at 1 bar, still not texting him back.
 - **Why it's not taken:** "low battery" shirts are generic battery icons; the flip-phone + standards twist isn't there.
@@ -1542,7 +1544,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Cover model:** registry #193
 - **Print file:** art regenerated 2026-10-16 (Recraft v4; the first run's file id was never recorded) → Printful file 1087363185, front 9.0in wide on 1500×1800, top 0, left 75.
 
-### 124. Unisex Anime – Mecha Mondays Tee  *(BUILDING [B])*
+### 124. Unisex Anime – Mecha Mondays Tee  *(moved to pipeline 2026-10-16)*
 - **Handle:** `unisex-anime-mecha-mondays-graphic-tee` · **Blank:** Bella+Canvas 3001, $29.99 · tags anime-shirts, graphic-tees-for-men, graphic-tees-for-women
 - **Hook:** "Mecha Mondays" — a giant battle robot slumped at a tiny office desk with a coffee. Everyone has piloted that Monday.
 - **Why it's not taken:** mecha shirts are action poses; no tired office-robot joke. Original robot, no known designs.
@@ -1551,7 +1553,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Cover model:** registry #194 (unisex: man AND woman)
 - **Print file:** art regenerated 2026-10-16 (Recraft v4; the first run's file id was never recorded) → Printful file 1087363194, front 11.0in wide on 1800×2400, top 0, left 75.
 
-### 125. Women's Baseball Mom – Bases Loaded, Mom Exhausted Tee  *(BUILDING [B])*
+### 125. Women's Baseball Mom – Bases Loaded, Mom Exhausted Tee  *(moved to pipeline 2026-10-16)*
 - **Handle:** `womens-baseball-mom-bases-loaded-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags baseball-mom-shirts, graphic-tees-for-women, vintage-graphic-tees
 - **Hook:** "Bases Loaded, Mom Exhausted" — three games this weekend, two fields, one mom.
 - **Why it's not taken:** Etsy baseball mom shirts are leopard/number text; this line isn't there.
@@ -1560,7 +1562,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Cover model:** registry #195
 - **Print file:** art regenerated 2026-10-16 (Recraft v4; the first run's file id was never recorded) → Printful file 1087368506, front 9.0in wide on 1500×1800, top 0, left 75.
 
-### 126. Women's Soccer Mom – Official Orange Slice Supplier Tee  *(BUILDING [B])*
+### 126. Women's Soccer Mom – Official Orange Slice Supplier Tee  *(moved to pipeline 2026-10-16)*
 - **Handle:** `womens-soccer-mom-orange-slice-supplier-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags soccer-mom-shirts, graphic-tees-for-women, vintage-graphic-tees
 - **Hook:** "Official Orange Slice Supplier" — her real position on the team.
 - **Why it's not taken:** halftime orange slices show up as clip art, not as a vintage print with a job title.
@@ -1569,7 +1571,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Cover model:** registry #196
 - **Print file:** art regenerated 2026-10-16 (Recraft v4; the first run's file id was never recorded) → Printful file 1087368515, front 9.0in wide on 1500×1800, top 0, left 75.
 
-### 127. Women's Christian – Casserole Ministry Tee  *(BUILDING [B])*
+### 127. Women's Christian – Casserole Ministry Tee  *(moved to pipeline 2026-10-16)*
 - **Handle:** `womens-christian-casserole-ministry-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags christian-shirts, graphic-tees-for-women, vintage-graphic-tees
 - **Hook:** "Casserole Ministry" — the church ladies who show up with a 9×13 for every birth, funeral and move.
 - **Why it's not taken:** no vintage casserole/potluck Christian print with this line on Etsy.
@@ -1580,7 +1582,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 
 ## Evergreen whimsy batch 4 — lane B (2026-10-15; y2k 1, cropped 2, anime 3, hunting 6, nurse 5)
 
-### 128. Women's Y2K – Still Loading Since 1999 Tee  *(BUILDING [B])*
+### 128. Women's Y2K – Still Loading Since 1999 Tee  *(moved to pipeline 2026-10-16)*
 - **Handle:** `womens-y2k-still-loading-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags y2k-graphic-tees, graphic-tees-for-women
 - **Hook:** "Still Loading Since 1999" — a translucent candy-colored desktop computer with an hourglass cursor; anyone who heard dial-up laughs.
 - **Why it's not taken:** Etsy y2k tees are butterflies and slogans; the dial-up computer joke isn't there.
@@ -1589,7 +1591,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Cover model:** registry #198
 - **Print file:** art regenerated 2026-10-16 (Recraft v4; the first run's file id was never recorded) → Printful file 1087368544, front 9.0in wide on 1500×1800, top 0, left 75.
 
-### 129. Women's Y2K – Hot Mess Express Tee  *(BUILDING [B])*
+### 129. Women's Y2K – Hot Mess Express Tee  *(moved to pipeline 2026-10-16)*
 - **Handle:** `womens-y2k-hot-mess-express-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags y2k-graphic-tees, graphic-tees-for-women
 - **Hook:** "Hot Mess Express" — a glittery pink toy train running late, iced coffee spilling. Self-roast, cheerful.
 - **Why it's not taken:** text-only "hot mess" listings everywhere; a Y2K glitter-train illustration isn't.
@@ -1598,7 +1600,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Cover model:** registry #199
 - **Print file:** art regenerated 2026-10-16 (Recraft v4; the first run's file id was never recorded) → Printful file 1087368545, front 9.0in wide on 1500×1800, top 0, left 75.
 
-### 130. Women's Cropped – Espresso Yourself Tee  *(BUILDING [B])*
+### 130. Women's Cropped – Espresso Yourself Tee  *(moved to pipeline 2026-10-16)*
 - **Handle:** `womens-cropped-espresso-yourself-graphic-tee` · **Blank:** AS Colour 4062 crop top (Printful #636), $29.99 · tags cropped-graphic-tees, graphic-tees-for-women
 - **Hook:** "Espresso Yourself" — express yourself, one shot at a time.
 - **Why it's not taken:** a handful of text listings; no vintage espresso-machine illustration with the line.
@@ -1607,7 +1609,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Cover model:** registry #200
 - **Print file:** art regenerated 2026-10-16 (Recraft v4; the first run's file id was never recorded) → Printful file 1087368551, front 7.3in wide on 1500×1500, top 0, left 201.
 
-### 131. Men's Hunting – Professional Tree Sitter Tee  *(BUILDING [B])*
+### 131. Men's Hunting – Professional Tree Sitter Tee  *(moved to pipeline 2026-10-16)*
 - **Handle:** `mens-hunting-professional-tree-sitter-graphic-tee` · **Blank:** Bella+Canvas 3001, $29.99 · tags hunting-t-shirts, graphic-tees-for-men, vintage-graphic-tees
 - **Hook:** "Professional Tree Sitter" — the bowhunter's actual job description: sit in a tree, don't move, for hours.
 - **Why it's not taken:** tree stand humor exists as text; a vintage bowhunter-in-the-stand scene with the job title isn't.
@@ -1616,7 +1618,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Cover model:** registry #201
 - **Print file:** art regenerated 2026-10-16 (Recraft v4; the first run's file id was never recorded) → Printful file 1087368555, front 10.0in wide on 1800×2400, top 0, left 150.
 
-### 132. Women's Nurse – Don't Say the Q Word Tee  *(BUILDING [B])*
+### 132. Women's Nurse – Don't Say the Q Word Tee  *(moved to pipeline 2026-10-16)*
 - **Handle:** `womens-nurse-dont-say-the-q-word-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags nurse-shirts, graphic-tees-for-women, vintage-graphic-tees
 - **Hook:** "Don't Say the Q Word" — every ER nurse knows saying "quiet" summons chaos.
 - **Why it's not taken:** the superstition shows on a few text tees; none with a vintage ER illustration.
@@ -1625,7 +1627,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Cover model:** registry #202
 - **Print file:** art regenerated 2026-10-16 (Recraft v4; the first run's file id was never recorded) → Printful file 1087368565, front 9.0in wide on 1500×1800, top 0, left 75.
 
-### 133. Unisex Anime – Destroyer of Cities, Lover of Naps Tee  *(BUILDING [B])*
+### 133. Unisex Anime – Destroyer of Cities, Lover of Naps Tee  *(moved to pipeline 2026-10-16)*
 - **Handle:** `unisex-anime-kaiju-naps-graphic-tee` · **Blank:** Bella+Canvas 3001, $29.99 · tags anime-shirts, graphic-tees-for-men, graphic-tees-for-women
 - **Hook:** "Destroyer of Cities, Lover of Naps" — an original chubby kaiju curled up asleep on a skyscraper.
 - **Why it's not taken:** kaiju tees are rampage poses; this soft-monster joke isn't there. Original creature, no known monsters.
@@ -1654,19 +1656,19 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Primary keyword:** thanksgiving sweater — 3,600 / KD 48
 - **Cover model:** registry #206 (man + woman)
 
-### 137. Women's Thanksgiving – Pumpkin Pie Crewneck Sweatshirt  *(BUILDING [A])*
+### 137. Women's Thanksgiving – Pumpkin Pie Crewneck Sweatshirt  *(moved to pipeline 2026-10-16)*
 - **Handle:** `womens-thanksgiving-pumpkin-pie-crewneck-sweatshirt` · Gildan 18000 (#145) · art = the Pumpkin Pie tee's print file
 - **Hook:** for the one who bakes the pie and gets the first slice
 - **Primary keyword:** baker sweatshirt — 260 / KD 50
 - **Cover model:** registry #207 (woman)
 
-### 138. Women's Thanksgiving – Friendsgiving Crewneck Sweatshirt  *(BUILDING [A])*
+### 138. Women's Thanksgiving – Friendsgiving Crewneck Sweatshirt  *(moved to pipeline 2026-10-16)*
 - **Handle:** `womens-thanksgiving-friendsgiving-crewneck-sweatshirt` · Gildan 18000 (#145) · art = the Friendsgiving tee's print file
 - **Hook:** the chosen-family dinner, cozy edition
 - **Primary keyword:** friends sweatshirt — 1,000 / KD 58
 - **Cover model:** registry #208 (woman)
 
-### 139. Women's Thanksgiving – Give Thanks Crewneck Sweatshirt  *(BUILDING [A])*
+### 139. Women's Thanksgiving – Give Thanks Crewneck Sweatshirt  *(moved to pipeline 2026-10-16)*
 - **Handle:** `womens-thanksgiving-give-thanks-crewneck-sweatshirt` · Gildan 18000 (#145) · art = the Give Thanks tee's print file
 - **Hook:** the gratitude shirt for cold-weather Thanksgiving mornings
 - **Primary keyword:** grateful sweatshirt — 140 / KD 57
@@ -1674,32 +1676,32 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 
 ## Christmas crewneck twins — lane A (2026-10-16; competitor lesson 6, Gildan 18000 #145, same art as the tee, no new art generation)
 
-### 140. Women's Christmas – Christmas Cats Crewneck Sweatshirt  *(BUILDING [A])*
+### 140. Women's Christmas – Christmas Cats Crewneck Sweatshirt  *(moved to pipeline 2026-10-16)*
 - **Handle:** `womens-christmas-christmas-cats-crewneck-sweatshirt` · art = the Christmas Cats tee's print file
 - **Primary keyword:** cat christmas sweatshirt — 2,400 / KD 40
 - **Cover model:** registry #210 (woman)
 
-### 141. Women's Christmas – Christmas Golf Crewneck Sweatshirt  *(BUILDING [A])*
+### 141. Women's Christmas – Christmas Golf Crewneck Sweatshirt  *(moved to pipeline 2026-10-16)*
 - **Handle:** `womens-christmas-christmas-golf-crewneck-sweatshirt` · art = the Christmas Golf tee's print file
 - **Primary keyword:** golf sweatshirt — 2,900 / KD 34
 - **Cover model:** registry #211 (woman)
 
-### 142. Women's Christmas – Nutcracker Bow Crewneck Sweatshirt  *(BUILDING [A])*
+### 142. Women's Christmas – Nutcracker Bow Crewneck Sweatshirt  *(moved to pipeline 2026-10-16)*
 - **Handle:** `womens-christmas-nutcracker-bow-crewneck-sweatshirt` · art = the Nutcracker Bow tee's print file
 - **Primary keyword:** nutcracker sweatshirt — 1,000 / KD 41
 - **Cover model:** registry #212 (woman)
 
-### 143. Women's Christmas – Highland Cow Christmas Crewneck Sweatshirt  *(BUILDING [A])*
+### 143. Women's Christmas – Highland Cow Christmas Crewneck Sweatshirt  *(moved to pipeline 2026-10-16)*
 - **Handle:** `womens-christmas-highland-cow-christmas-crewneck-sweatshirt` · art = the Highland Cow Christmas tee's print file
 - **Primary keyword:** highland cow sweatshirt — 880 / KD 43
 - **Cover model:** registry #213 (woman)
 
-### 144. Women's Christmas – Gingerbread Lane Crewneck Sweatshirt  *(BUILDING [A])*
+### 144. Women's Christmas – Gingerbread Lane Crewneck Sweatshirt  *(moved to pipeline 2026-10-16)*
 - **Handle:** `womens-christmas-gingerbread-lane-crewneck-sweatshirt` · art = the Gingerbread Lane tee's print file
 - **Primary keyword:** gingerbread sweatshirt — 880 / KD 47
 - **Cover model:** registry #214 (woman)
 
-### 145. Women's Christmas – Vintage Snowman Crewneck Sweatshirt  *(BUILDING [A])*
+### 145. Women's Christmas – Vintage Snowman Crewneck Sweatshirt  *(moved to pipeline 2026-10-16)*
 - **Handle:** `womens-christmas-vintage-snowman-crewneck-sweatshirt` · art = the Vintage Snowman tee's print file
 - **Primary keyword:** snowman sweatshirt — 590 / KD 48
 - **Cover model:** registry #215 (woman)
