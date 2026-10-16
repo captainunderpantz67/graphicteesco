@@ -1,6 +1,6 @@
 {
- "at": "2026-10-16T21:50:50.377Z",
- "products": 191,
+ "at": "2026-10-16T22:42:42.389Z",
+ "products": 205,
  "findings": [
   {
    "level": "WARN",
@@ -52,18 +52,18 @@
    "fix": "Write one ≤ 155 chars."
   },
   {
-   "level": "ERROR",
-   "handle": "mens-embroidered-out-of-office-deer-hoodie",
-   "title": "Men's Embroidered – Out of Office Deer Hoodie",
-   "msg": "Claims \"embroidered hoodie\", already claimed by womens-embroidered-bow-before-me-cropped-hoodie (two pages fighting for one keyword).",
-   "fix": "Give one of them a different measured phrase."
-  },
-  {
    "level": "WARN",
    "handle": "unisex-christmas-mountain-christmas-bear-hoodie",
    "title": "Unisex Christmas – Mountain Christmas Bear Hoodie",
    "msg": "No SEO title.",
    "fix": "Write one ≤ 60 chars with the primary keyword."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-hunting-opening-day-camo-hoodie",
+   "title": "Men's Hunting – Opening Day Camo Hoodie",
+   "msg": "Claims \"camouflage hoodie\", already claimed by mens-hunting-quack-of-dawn-camo-hoodie (two pages fighting for one keyword).",
+   "fix": "Give one of them a different measured phrase."
   }
  ]
 }
