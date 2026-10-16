@@ -323,8 +323,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 448 | Pakistani-American woman in her mid 30s, long dark hair in a loose side braid, thin gold bangles | RESERVED — #272 I Have Followers crewneck cover |
 | 425 | Dominican-American woman in her late 30s, big shoulder-length curls with honey-brown highlights, stacked gold bangles | USED 2026-10-16 — #249 Spill the Gravy tee cover try 1 (from the Athletic Heather mockup) |
 | 426 | Armenian-American woman in her early 40s, long thick dark hair in a sleek low ponytail, bold arched brows, small diamond studs | USED 2026-10-16 — #250 Spill the Gravy crewneck cover try 1 (from the Sand mockup) |
-| 427 | Italian-American woman in her mid 40s, dark brown hair in a messy top knot, small pearl earrings | RESERVED — #251 The Turkey Is Fine tee cover |
-| 428 | Jamaican-American woman in her early 40s, chin-length relaxed bob with side-swept bangs, small gold studs | RESERVED — #252 The Turkey Is Fine crewneck cover |
+| 427 | Italian-American woman in her mid 40s, dark brown hair in a messy top knot, small pearl earrings | USED 2026-10-16 — #251 The Turkey Is Fine tee cover try 1 (from the White mockup) |
+| 428 | Jamaican-American woman in her early 40s, chin-length relaxed bob with side-swept bangs, small gold studs | USED 2026-10-16 — #252 The Turkey Is Fine crewneck cover try 1 (from the Sand mockup) |
 | 429 | Taiwanese-American woman in her early 30s, long straight dark hair with soft curtain bangs, delicate gold necklace | RESERVED — #253 Cute But Corny tee cover |
 | 430 | Colombian-American woman in her late 20s, long dark-brown hair in two loose braids, light freckles, small silver hoops | RESERVED — #254 Cute But Corny crewneck cover |
 | 431 | Indian-American man in his mid 40s, short side-parted black hair greying at the temples, clean-shaven, rectangular glasses | RESERVED — #255 Technically a Vegetable tee cover |

@@ -1,15 +1,15 @@
-# Cohesion audit — 2026-10-16 21:50 UTC
+# Cohesion audit — 2026-10-16 22:42 UTC
 
-191 live products checked · **1 errors** · 8 warnings · 9 products with findings
+205 live products checked · **1 errors** · 8 warnings · 9 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
-- 1 × Claims , already claimed by womens-embroidered-bow-before-me-cropped-h
+- 1 × Claims , already claimed by mens-hunting-quack-of-dawn-camo-hoodie .
 
 ## By product (errors first)
-### Men's Embroidered – Out of Office Deer Hoodie `mens-embroidered-out-of-office-deer-hoodie`
-- **ERROR** Claims "embroidered hoodie", already claimed by womens-embroidered-bow-before-me-cropped-hoodie (two pages fighting for one keyword). → Give one of them a different measured phrase.
+### Men's Hunting – Opening Day Camo Hoodie `mens-hunting-opening-day-camo-hoodie`
+- **ERROR** Claims "camouflage hoodie", already claimed by mens-hunting-quack-of-dawn-camo-hoodie (two pages fighting for one keyword). → Give one of them a different measured phrase.
 
 ### Unisex Halloween – Midnight Feature Tee `unisex-halloween-midnight-feature-graphic-tee`
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.

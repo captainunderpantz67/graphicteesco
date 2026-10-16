@@ -1,0 +1,13 @@
+---
+import Base from '../layouts/Base.astro';
+import { site } from '../data/site';
+---
+<Base title={`Contact Us | ${site.name}`} description={`How to reach ${site.name}: email us about an order, a size exchange, a misprint or a custom request. We answer within one business day.`}>
+  <section class="container-x pt-10 max-w-3xl prose-copy">
+    <h1 class="display text-6xl">Contact us</h1>
+    <p>Questions about an order, a size exchange, a misprint or a custom shirt? Email us and a real person answers within one business day.</p>
+    <p><strong>Email:</strong> <a href={`mailto:${site.email}`}>{site.email}</a></p>
+    <p><strong>Business:</strong> {site.name}, an online store based in North Texas. Every item is printed to order and shipped from our print partner.</p>
+    <p>Please include your order number if you have one. For a misprint or damaged item, a clear photo helps us fix it fast. See <a href="/shipping-returns/">shipping &amp; returns</a> for exchange and refund details.</p>
+  </section>
+</Base>
