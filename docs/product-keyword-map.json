@@ -3857,6 +3857,15 @@
      "phrase": "mushroom sweatshirt",
      "volume": 320,
      "kd": 50
+  "unisex-thanksgiving-totally-a-pilgrim-hoodie": {
+   "claimed": [
+    "turkey hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "turkey hoodie",
+     "volume": 390,
+     "kd": 31
     }
    ],
    "measured": "2026-10-16"

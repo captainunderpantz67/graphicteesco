@@ -303,8 +303,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 416 | White man in his mid 30s, red-brown full beard, man bun | USED 2026-10-16 — #242 Define Naughty hoodie cover try 1 (with #417, from the Navy mockup) |
 | 417 | Vietnamese-American woman in her early 30s, long straight black hair with blunt bangs | USED 2026-10-16 — #242 Define Naughty hoodie cover (with #416) |
 | 418 | Native American man in his mid 40s, short cropped black hair, thin goatee, broad build | USED 2026-10-16 — #243 Light Show Manager hoodie cover try 1 (from the Sand mockup) |
-| 419 | Black man in his early 40s, shaved head, full black beard, lean | RESERVED — #246 Totally a Pilgrim hoodie cover (with #420) |
-| 420 | White woman in her late 30s, platinum blonde lob, red lipstick | RESERVED — #246 Totally a Pilgrim hoodie cover (with #419) |
+| 419 | Black man in his early 40s, shaved head, full black beard, lean | USED 2026-10-16 — #246 Totally a Pilgrim hoodie cover try 1 (with #420, from the Navy mockup) |
+| 420 | White woman in her late 30s, platinum blonde lob, red lipstick | USED 2026-10-16 — #246 Totally a Pilgrim hoodie cover (with #419) |
 | 421 | White woman in her early 60s, white hair in a soft low bun, reading glasses on a beaded chain | USED 2026-10-16 — #244 Nana's Cookies crewneck cover try 1 (from the Sand mockup) |
 | 422 | Japanese-American woman in her late 50s, salt-and-pepper hair in a short layered cut, soft smile lines | USED 2026-10-16 — #245 Nana's Cookies tee cover try 1 (from the Athletic Heather mockup) |
 | 423 | Black woman in her early 30s, natural afro puff, gold statement earrings | RESERVED — #247 Snow Problem tee cover |
