@@ -12,7 +12,7 @@ handle: womens-christmas-sleigh-queen-graphic-tee
 - **Style:** C, boutique (R4.4): one big pun in pattern-filled letters, about 10 in wide, centered. Alternates with the vintage women's items in the queue (#144 Gingerbread, #145 Snowman).
 - **Art prompt (Recraft v4):** "Boutique Christmas t-shirt lettering: the words 'SLEIGH QUEEN' in two stacked lines of chunky rounded retro capitals, every letter filled with a red and forest-green candy-cane stripe pattern with a thin cream outline inside each letter, a soft pink satin ribbon bow tied at the top left of the S, three tiny gold stars scattered around. Slight worn screen-print texture, soft edges. Spelled exactly 'SLEIGH QUEEN'. Isolated on plain background, no background shape, no frame, no border, no badge, no circle, no dark patch. Never claim glitter or chenille."
 - **Colors (6400, ≤100 variants):** White, Natural, Vintage White, Heather Stone, Light Pink/Pink, Athletic Heather (stripes read on light). Add Kelly or Red only if the striped letters stay legible with their cream outline (R7.2 wants 2 bold colors; Pink counts).
-- **Primary keyword:** sleigh all day shirt — 110 / KD 42 (R3.6 anchor, RankHero 2026-10-15). Already recorded for this handle in docs/product-keyword-map.json. Changed 2026-10-16 14:50 by director: "plaid christmas shirt" belongs to #148 Jolly-ish (R2.8, one phrase per page), and the letter fill moved from plaid to candy stripe so the two boutique designs don't look alike.
+- **Primary keyword:** sleigh all day shirt — 110 / KD 42 (R3.6 anchor, RankHero 2026-10-15). Already recorded for this handle in docs/product-keyword-map.json. Changed 2026-10-16 by director: "plaid christmas shirt" belongs to #148 Jolly-ish (R2.8, one phrase per page), and the letter fill moved from plaid to candy stripe so the two boutique designs don't look alike.
 - **Supporting (measured):** sleigh all day shirt 110 / 42 (R3.6) if unowned, funny christmas shirt once in the Story only. Not "sleigh shirt" (owned by Santa's Sleigh).
 - **Popularity evidence (R5.2):** coquette-bow Christmas is mainstream (Walmart full of bow tees; docs/market-research.md Christmas #5); Born To Be Sassy boutique study (docs/style-study-2026-10-13.md); plaid Christmas search peaks 6,600/month in Dec.
 - **Cover:** registry #229 — woman. Scene: a decorated holiday market at dusk, string lights, she holds a cocoa cup at her hip with shopping bags on her other arm, statement earrings (R6.5). Print fully visible.
@@ -21,4 +21,4 @@ handle: womens-christmas-sleigh-queen-graphic-tee
 ---
 ## Log
 - 2026-10-16 10:24 UTC director: brief written, READY.
-- 2026-10-16 14:50 UTC director: keyword collision fix (R2.8): primary → sleigh all day shirt; letters → candy-cane stripe (was buffalo plaid, same as #148).
+- 2026-10-16 14:24 UTC director: keyword collision fix (R2.8): primary → sleigh all day shirt; letters → candy-cane stripe (was buffalo plaid, same as #148).

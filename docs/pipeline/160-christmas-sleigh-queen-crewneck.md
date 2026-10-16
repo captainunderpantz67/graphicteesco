@@ -16,4 +16,4 @@ handle: womens-christmas-sleigh-queen-crewneck-sweatshirt
 ---
 ## Log
 - 2026-10-16 10:24 UTC director: brief written, READY.
-- 2026-10-16 14:50 UTC director: keyword collision fix (R2.8): primary → sleigh sweatshirt; art follows #159 (candy-cane stripe letters).
+- 2026-10-16 14:24 UTC director: keyword collision fix (R2.8): primary → sleigh sweatshirt; art follows #159 (candy-cane stripe letters).

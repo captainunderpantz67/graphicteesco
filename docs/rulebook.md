@@ -290,7 +290,7 @@ Goal: ChatGPT, Perplexity, Google AI Overviews / AI Mode, Gemini, Copilot and Cl
    - SEO lengths;
    - keyword collisions;
    - AI tells and stuffing.
-2. ERRORs get fixed before new building. `--handle <h>` must PASS before ACTIVE. While the Storefront token is missing from a run's environment, export the product from the Admin API (Shopify MCP: handle title productType tags seo description images variants collections, prices as {amount}) to a JSON file and run `--handle <h> --admin-json <file>`; same checks, works on DRAFTs (director, 2026-10-16). For ACTIVE products the plain `--handle <h>` run works again: the script reads the public Storefront token from shopify.public.json, so no env token is needed (director, 2026-10-16 14:40).
+2. ERRORs get fixed before new building. `--handle <h>` must PASS before ACTIVE. While the Storefront token is missing from a run's environment, export the product from the Admin API (Shopify MCP: handle title productType tags seo description images variants collections, prices as {amount}) to a JSON file and run `--handle <h> --admin-json <file>`; same checks, works on DRAFTs (director, 2026-10-16). For ACTIVE products the plain `--handle <h>` run works again: the script reads the public Storefront token from shopify.public.json, so no env token is needed (director, 2026-10-16).
 3. **Final eye:** read the page as a shopper on a phone. Would a careful human merchandiser have put this exact photo, title, price and copy here? If anything feels off or AI-made, it doesn't ship.
 
 ## R14. Telegram and reporting
