@@ -1,4 +1,4 @@
-status: REDO
+status: BUILDING [A] 2026-10-16 17:55 UTC
 lane: A
 type: twin
 id: 189
@@ -24,3 +24,4 @@ handle: unisex-christmas-vintage-santa-hoodie
   1. R5.3.5 (lettering readable): MERRY CHRISTMAS sits across the top of the pouch pocket on both mockups and its lower half is cut off ("MFRRY CHRISTMAS"). Re-place the file higher and slightly smaller so the whole word line clears the pocket seam (check the 18500 front print area against the pocket), re-sync 12, regenerate mockups.
   2. R6.5 (props over print): both mugs sit on top of MERRY CHRISTMAS on the cover. Regenerate the cover after the re-place, mugs held at the hip or to the side, print fully visible.
   3. Copy and price are fine.
+- 2026-10-16 UTC builder [A]: REDO handled. Print re-placed higher and smaller: 8.3 in wide, top of print area (FW=1250 TOP=0), so MERRY CHRISTMAS clears the pocket seam (checked on the new Navy mockup). New mockups swapped in place (fileUpdate), new cover (REDO try 3 kept: hood visible on both, mugs at the belt, whole line visible; tries 1-2 had a hoodless man / a mug over the word), re-sync of all 12 running: `FORCE=1 FW=1250 TOP=0 python3 scripts/pf-sync.py setfile 482242707 1085667808 1080398177`. Set to REVIEW once 12/12. Lesson for all 18500 pullovers: keep the print about 10 in tall max with TOP=0 so nothing meets the pocket (#190/#191 were re-placed the same way: FW=1500 and FW=1020 TOP=0, re-sync queued).
