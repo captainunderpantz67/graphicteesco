@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: A
 type: twin
 id: 143
@@ -12,3 +12,4 @@ handle: womens-christmas-highland-cow-christmas-crewneck-sweatshirt
 ---
 ## Log
 - 2026-10-16 08:40 UTC director: moved from docs/design-briefs.md (was BUILDING there; that lane's run ended without finishing). READY to resume.
+- 2026-10-16 UTC builder [A]: Printful 482109239 synced 36/36 (file 1083449429, front+back); Shopify draft 15360179634480 already had copy, price, tags, 6+ flat fronts + back, variant images; cover #213; review sheet docs/review/143.jpg. Audit needs Storefront token: cohesion checked by hand. → REVIEW.
