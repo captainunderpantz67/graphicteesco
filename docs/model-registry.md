@@ -206,9 +206,9 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 220 | White man in his mid 40s, sandy-brown hair, wire-rim glasses, stubble | RESERVED — #150 Light Show Manager tee cover |
 | 221 | Pair: Black man in his mid 40s, salt-and-pepper short hair + Black woman in her early 40s, shoulder-length twists | RESERVED — #151 Light Show Manager crewneck cover (man + woman) |
 | 222 | Samoan man in his late 20s, long dark hair tied back, heavy build | USED 2026-10-16 — Clean Plate Club redo cover (fal Seedream 4, garage gym at dawn; try 1 kept) |
-| 223 | White man in his early 60s, bald, thick grey handlebar mustache | RESERVED — #153 Retired From Cardio redo cover |
-| 224 | Mexican-American man in his early 40s, short black hair, trimmed goatee | RESERVED — #154 Sore Since 1987 redo cover |
-| 225 | White man in his mid 50s, grey crew cut, sunburned cheeks | RESERVED — #155 Technically Still Fishing redo cover |
-| 226 | Japanese-American man in his mid 30s, short tousled hair, light stubble | RESERVED — #156 Casting Doubt redo cover |
-| 227 | Native American man in his mid 40s, long black braid, blaze-orange cap | RESERVED — #157 No Deer Today redo cover |
-| 228 | Black man in his early 60s, white close-cropped beard, waxed canvas jacket | RESERVED — #158 Quack of Dawn redo cover |
+| 223 | White man in his early 60s, bald, thick grey handlebar mustache | USED 2026-10-16 — Retired From Cardio redo cover (fal Seedream 4, brick-gym porch at morning; try 1 kept) |
+| 224 | Mexican-American man in his early 40s, short black hair, trimmed goatee | USED 2026-10-16 — Sore Since 1987 redo cover (fal Seedream 4, retro neighborhood gym; try 1 kept) |
+| 225 | White man in his mid 50s, grey crew cut, sunburned cheeks | USED 2026-10-16 — Technically Still Fishing redo cover (fal Seedream 4, lake dock at sunrise; try 1 kept) |
+| 226 | Japanese-American man in his mid 30s, short tousled hair, light stubble | USED 2026-10-16 — Casting Doubt redo cover (fal Seedream 4, mountain river; try 1 kept: try 2 had a chest pack covering the print) |
+| 227 | Native American man in his mid 40s, long black braid, blaze-orange cap | USED 2026-10-16 — No Deer Today redo cover (fal Seedream 4, frosty deer camp; try 2 kept: try 1 redrew the print as a badge. Hunter figure is dropped from the printed scene in the photo; the print file itself is complete) |
+| 228 | Black man in his early 60s, white close-cropped beard, waxed canvas jacket | USED 2026-10-16 — Quack of Dawn redo cover (fal Seedream 4, marsh edge at dawn; try 2 kept: try 1 had a jacket cutting off the print) |
