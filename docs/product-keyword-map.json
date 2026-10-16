@@ -3270,6 +3270,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-christmas-dogs-hoodie": {
+   "claimed": [
+    "dog christmas hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dog christmas hoodie",
+     "volume": 320,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
