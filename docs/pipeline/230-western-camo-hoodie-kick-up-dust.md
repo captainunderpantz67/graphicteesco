@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16 22:55
+status: REVIEW
 lane: B
 type: twin
 id: 230
@@ -24,3 +24,4 @@ handle: womens-western-kick-up-dust-camo-hoodie
   1. R5.3.8: the D in DUST has a solid white counter (white blob on both camos). Knock it out.
   2. R5.3.2 / R5.3.5: the print is small and sits high, and on Forest Camo the teal/orange lettering gets lost. Scale it to the full chest (about 11-12 in wide on the IND4000) and add a cream outline/underlayer to the letters so KICK UP DUST reads from 6 feet on both camos. New mockups; one new cover attempt (R6.9) so the print is readable on it.
 - 2026-10-16 22:59 UTC [B]: REDO fix (round 1): D counter (and the P counter) knocked out with knock-white.py (8000 px minimum so the dust cloud stays), a cream outline underlayer (about 30 px) added behind the KICK UP DUST lettering only, new Printful file 1087881771, re-sync at 11.3 in wide (FW 1700 of the 2100 px / 14 in area, TOP 0; about 10.1 in tall, clear of the pocket), mockups replaced in place, new cover (registry #304, the one extra attempt: the braid hangs behind her back but still touches the left edge of the K in the kept image 3, no better one of the 3). Set REVIEW at 14/14. Sheet docs/review/230.jpg.
+- 2026-10-16 23:03 UTC [B]: synced 14/14, REVIEW.
