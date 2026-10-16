@@ -243,6 +243,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-christmas-sleigh-queen-hoodie': { src: '/covers/womens-christmas-sleigh-queen-hoodie.webp', alt: 'Woman in her late 20s with big curly dark hair worn half up and gold hoop earrings in a sand Sleigh Queen Christmas hoodie with the hood visible at a snowy Christmas market at dusk, shopping bag at her hip' },
   'mens-gym-study-in-hypertrophy-oversized-hoodie': { src: '/covers/mens-gym-study-in-hypertrophy-oversized-hoodie.webp', alt: 'Man in a navy Study in Hypertrophy oversized hoodie in a sunlit museum hallway turned gym with marble statues behind him' },
   'unisex-christmas-define-naughty-hoodie': { src: '/covers/unisex-christmas-define-naughty-hoodie.webp', alt: 'Man and woman in matching navy Define Naughty hoodies with the hoods visible on a snowy front porch at night with a lit wreath and garland, hands in their pockets' },
+  'mens-christmas-light-show-manager-hoodie': { src: '/covers/mens-christmas-light-show-manager-hoodie.webp', alt: 'Man in his mid 40s with short cropped black hair and a thin goatee in a sand Light Show Manager Christmas hoodie with the hood visible in a suburban front yard at dusk, a ladder against the gutter behind him' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
