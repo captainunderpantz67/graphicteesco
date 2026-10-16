@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16
+status: REVIEW
 lane: B
 type: twin
 id: 179
@@ -18,3 +18,4 @@ handle: unisex-anime-kaiju-naps-oversized-hoodie
 ---
 ## Log
 - 2026-10-16 14:28 UTC director: brief written, READY (cold-weather push, Sam 2026-10-16).
+- 2026-10-16 16:59 UTC [B]: built as DRAFT; twin of tee, file 1087506516 front (max fit 7.1 x 11 in: the 4719 front area is 11 in square and the art is tall) + back logo, Dust + Athletic Heather (navy shadows vanish on Navy), 12/12 synced, $54.99/$59.99, monster hoodie 6600/13. Review sheet docs/review/179.jpg.

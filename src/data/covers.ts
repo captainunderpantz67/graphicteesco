@@ -175,6 +175,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-hunting-deer-diary-zip-hoodie': { src: '/covers/mens-hunting-deer-diary-zip-hoodie.webp', alt: 'Man with a grey ponytail on a deer camp cabin porch at dusk, lantern on the rail, seen from behind wearing the Deer Diary zip hoodie with the buck-on-a-journal print on the back' },
   'womens-christmas-highland-cow-christmas-hoodie': { src: '/covers/womens-christmas-highland-cow-christmas-hoodie.webp', alt: 'Woman with a long strawberry-blonde braid and a knit beanie at a snowy farm fence with a red barn behind her, holding cocoa and wearing the navy Highland Cow Christmas hoodie' },
   'womens-christmas-nutcracker-bow-hoodie': { src: '/covers/womens-christmas-nutcracker-bow-hoodie.webp', alt: 'Woman with dark waves and statement earrings at a night holiday market with a nutcracker display behind her, wearing the navy Nutcracker Bow hoodie' },
+  'unisex-anime-kaiju-naps-oversized-hoodie': { src: '/covers/unisex-anime-kaiju-naps-oversized-hoodie.webp', alt: 'Man and woman on a city rooftop at dusk, side by side in matching beige oversized hoodies with the Destroyer of Cities, Lover of Naps kaiju print' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
