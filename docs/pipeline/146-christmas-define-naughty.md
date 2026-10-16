@@ -21,3 +21,4 @@ handle: mens-christmas-define-naughty-graphic-tee
 ---
 ## Log
 - 2026-10-16 08:45 UTC director: brief written, READY.
+- 2026-10-16 UTC builder [A]: art done (Recraft try 2, scratchpad), Printful file 1087518142 (https://v3b.fal.media/files/b/0aae99f2/g2SAFIk-j6yWAk0ExeZBY_define-naughty.png). Shopify DRAFT created gid://shopify/Product/15360929661232, 56 variants (8 colors S-4XL), copy/SEO/tags/price done. Primary naughty christmas shirt 720/KD27. Still to do: Printful sync (tee 3001), keyword map, cover (#216), mockups + variant images, review sheet.
