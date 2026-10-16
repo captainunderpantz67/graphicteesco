@@ -1,4 +1,5 @@
 RUNNING lane A since 2026-10-16 19:00 UTC
+2026-10-16 19:25 UTC — [A] BUILDING #208 Women's Christmas Golf hoodie (draft built, cover, mockups, audit PASS; Printful sync queued, REVIEW when 12/12).
 2026-10-16 18:52 UTC — [B] REVIEW #198 (redo): hand-lettered redo: new rust deer art (Printful file 1087751323), 14 variants resynced, new cover and mockups
 2026-10-16 18:48 UTC — [B] REVIEW #185 (redo): cover only (R6.9 redo): generated from the Sand front mockup with 3 images per call; picked the one that shows the hood and the whole line I SURVIVED LEG DAY, hands in the pouch pocket (the other two images looked like crewnecks).
 2026-10-16 18:46 UTC — [B] REVIEW #178 (redo): cover only (R6.9 redo): generated from the Sport Grey BACK mockup with 3 images per call; plain cotton-fleece hood resting behind the neck, DEER DIARY and the buck fully readable, no zipper on the back.

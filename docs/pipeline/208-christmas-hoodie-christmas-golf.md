@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [A] 2026-10-16 19:00 UTC
 lane: A
 type: twin
 id: 208
@@ -18,3 +18,4 @@ handle: womens-christmas-golf-hoodie
 ---
 ## Log
 - 2026-10-16 19:05 UTC director: brief written, READY (lane A holiday hoodie twin, R11.5).
+- 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361944518960 (18500; Sand + Navy x S-3XL = 12), tee file 1083447384 at FW=1389 TOP=0, Printful sync 482275735. Copy/SEO/tags/price, golf hoodie 14,800/KD22 in map, cover #279 (try 1), 2 fronts + back, variant images, audit PASS, docs/review/208.jpg. Printful link queued (runner): `FORCE=1 FW=1389 TOP=0 python3 scripts/pf-sync.py setfile 482275735 1083447384 1080398177`. REVIEW once synced = 12.

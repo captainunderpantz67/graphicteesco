@@ -3348,6 +3348,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-golf-hoodie": {
+   "claimed": [
+    "golf hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "golf hoodie",
+     "volume": 14800,
+     "kd": 22
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
