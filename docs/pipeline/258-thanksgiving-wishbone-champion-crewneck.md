@@ -1,0 +1,20 @@
+status: READY
+lane: A
+type: twin
+id: 258
+handle: mens-thanksgiving-wishbone-champion-crewneck-sweatshirt
+---
+## Men's Thanksgiving – Wishbone Champion Crewneck Sweatshirt
+- **Twin of #257:** same art and print files; build after #257's art passes the self-check (R5.3.8, R6.2, R7.3). No new art generation.
+- **Blank:** Gildan 18000 crewneck (Printful #145), 8 oz, 50/50 cotton-poly fleece (R7.1).
+- **Hook:** UNDEFEATED WISHBONE CHAMPION: the uncle who has never lost the pull (R3.4 men's deadpan). Line one of the copy carries it.
+- **Colors (≤100 variants):** White, Sand, Ash, Sport Grey; Navy, Maroon or Forest Green only with the cream-ink file and every word readable (R5.3.8, twins too).
+- **Primary keyword:** wishbone sweatshirt — 30 / KD 47 (RankHero 2026-10-16; small but measured and niche-true, like turkey crewneck 10/49 on Totally a Pilgrim). Unowned; record it. Copy also names Thanksgiving sweatshirts naturally (collection head, not claimed).
+- **Popularity evidence (R5.2):** as #257; turkey sweater 1,000/24 (#252) shows the November crewneck surge.
+- **Cover:** registry #434 (Ukrainian-American man in his early 40s, sandy-blond crew cut, light stubble, stocky build) — man (R6.3). Scene: a front yard touch-football game on Thanksgiving morning, fall leaves on the lawn and family blurred behind; hands empty at his sides, no football in hand over the print (R6.4, R6.5, R6.9).
+- **Title / handle:** "Men's Thanksgiving – Wishbone Champion Crewneck Sweatshirt" / `mens-thanksgiving-wishbone-champion-crewneck-sweatshirt` (R7.3, R7.4).
+- **Tags (R7.5):** thanksgiving-sweatshirts, sweatshirt, thanksgiving. No tee tags.
+- **Price (R12.1):** $34.99, compare-at $39.99.
+---
+## Log
+- 2026-10-16 22:25 UTC director: brief written, READY (lane A funny Thanksgiving pair for /funny-thanksgiving-shirts/, R9.11).

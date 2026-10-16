@@ -321,3 +321,17 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 446 | Dominican-American woman in her late 60s, soft white waves to the chin, coral lipstick | RESERVED — #270 Casserole Ministry crewneck cover |
 | 447 | Haitian-American woman in her late 30s, short sculpted finger waves, small gold studs | RESERVED — #271 Q Word crewneck cover |
 | 448 | Pakistani-American woman in her mid 30s, long dark hair in a loose side braid, thin gold bangles | RESERVED — #272 I Have Followers crewneck cover |
+| 425 | Dominican-American woman in her late 30s, big shoulder-length curls with honey-brown highlights, stacked gold bangles | RESERVED — #249 Spill the Gravy tee cover |
+| 426 | Armenian-American woman in her early 40s, long thick dark hair in a sleek low ponytail, bold arched brows, small diamond studs | RESERVED — #250 Spill the Gravy crewneck cover |
+| 427 | Italian-American woman in her mid 40s, dark brown hair in a messy top knot, small pearl earrings | RESERVED — #251 The Turkey Is Fine tee cover |
+| 428 | Jamaican-American woman in her early 40s, chin-length relaxed bob with side-swept bangs, small gold studs | RESERVED — #252 The Turkey Is Fine crewneck cover |
+| 429 | Taiwanese-American woman in her early 30s, long straight dark hair with soft curtain bangs, delicate gold necklace | RESERVED — #253 Cute But Corny tee cover |
+| 430 | Colombian-American woman in her late 20s, long dark-brown hair in two loose braids, light freckles, small silver hoops | RESERVED — #254 Cute But Corny crewneck cover |
+| 431 | Indian-American man in his mid 40s, short side-parted black hair greying at the temples, clean-shaven, rectangular glasses | RESERVED — #255 Technically a Vegetable tee cover |
+| 432 | Egyptian-American man in his early 50s, thick wavy grey hair, short salt-and-pepper beard, sturdy build | RESERVED — #256 Technically a Vegetable crewneck cover |
+| 433 | Somali-American man in his late 30s, close-cropped hair, neat full beard, tall lean build | RESERVED — #257 Wishbone Champion tee cover |
+| 434 | Ukrainian-American man in his early 40s, sandy-blond crew cut, light stubble, stocky build | RESERVED — #258 Wishbone Champion crewneck cover |
+| 435 | Guatemalan-American man in his late 20s, short black hair in a textured crop with a low fade, clean-shaven | RESERVED — #259 Kids Table Alumni tee cover (with #449) |
+| 436 | Samoan woman in her early 30s, long thick wavy black hair worn loose, warm wide smile | RESERVED — #260 Kids Table Alumni crewneck cover (with #450) |
+| 449 | Cambodian-American woman in her late 20s, blunt shoulder-length black hair tucked behind her ears, dimples | RESERVED — #259 Kids Table Alumni tee cover (with #435) |
+| 450 | Trinidadian-American man in his early 30s, short dreadlocks tied up, thin mustache and chin beard | RESERVED — #260 Kids Table Alumni crewneck cover (with #436) |

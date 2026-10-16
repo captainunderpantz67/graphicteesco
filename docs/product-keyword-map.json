@@ -3991,6 +3991,228 @@
    ],
    "gaps_measured": [],
    "measured": "mama duck 3,600/KD14; duck sweatshirt 1,300/KD44 (RankHero 2026-10-16)"
+  },
+  "womens-thanksgiving-spill-the-gravy-graphic-tee": {
+   "claimed": [
+    "auntie shirt",
+    "funny aunt shirt",
+    "drama shirt",
+    "spill the tea shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "auntie shirt",
+     "volume": 2900,
+     "kd": 46
+    },
+    {
+     "phrase": "funny aunt shirt",
+     "volume": 590,
+     "kd": 51
+    },
+    {
+     "phrase": "drama shirt",
+     "volume": 390,
+     "kd": 49
+    },
+    {
+     "phrase": "spill the tea shirt",
+     "volume": 110,
+     "kd": 40
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-thanksgiving-spill-the-gravy-crewneck-sweatshirt": {
+   "claimed": [
+    "auntie sweatshirt",
+    "drama sweatshirt",
+    "auntie crewneck"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "auntie sweatshirt",
+     "volume": 880,
+     "kd": 46
+    },
+    {
+     "phrase": "drama sweatshirt",
+     "volume": 70,
+     "kd": 43
+    },
+    {
+     "phrase": "auntie crewneck",
+     "volume": 110,
+     "kd": 48
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-thanksgiving-the-turkey-is-fine-graphic-tee": {
+   "claimed": [
+    "cooking shirt",
+    "its fine shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cooking shirt",
+     "volume": 880,
+     "kd": 47
+    },
+    {
+     "phrase": "its fine shirt",
+     "volume": 90,
+     "kd": 46
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-thanksgiving-the-turkey-is-fine-crewneck-sweatshirt": {
+   "claimed": [
+    "turkey sweater",
+    "chef sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "turkey sweater",
+     "volume": 1000,
+     "kd": 24
+    },
+    {
+     "phrase": "chef sweatshirt",
+     "volume": 70,
+     "kd": 47
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-thanksgiving-cute-but-corny-graphic-tee": {
+   "claimed": [
+    "corny shirt",
+    "corn shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "corny shirt",
+     "volume": 880,
+     "kd": 28
+    },
+    {
+     "phrase": "corn shirt",
+     "volume": 1300,
+     "kd": 38
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-thanksgiving-cute-but-corny-crewneck-sweatshirt": {
+   "claimed": [
+    "fall crewneck"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fall crewneck",
+     "volume": 320,
+     "kd": 68
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-thanksgiving-technically-a-vegetable-graphic-tee": {
+   "claimed": [
+    "sweet potato shirt",
+    "vegetable shirt",
+    "marshmallow shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "sweet potato shirt",
+     "volume": 320,
+     "kd": 32
+    },
+    {
+     "phrase": "vegetable shirt",
+     "volume": 590,
+     "kd": 48
+    },
+    {
+     "phrase": "marshmallow shirt",
+     "volume": 210,
+     "kd": 41
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-thanksgiving-technically-a-vegetable-crewneck-sweatshirt": {
+   "claimed": [
+    "dad crewneck"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dad crewneck",
+     "volume": 140,
+     "kd": 36
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-thanksgiving-wishbone-champion-graphic-tee": {
+   "claimed": [
+    "wishbone shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "wishbone shirt",
+     "volume": 390,
+     "kd": 31
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-thanksgiving-wishbone-champion-crewneck-sweatshirt": {
+   "claimed": [
+    "wishbone sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "wishbone sweatshirt",
+     "volume": 30,
+     "kd": 47
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "unisex-thanksgiving-kids-table-alumni-graphic-tee": {
+   "claimed": [
+    "cousin crew shirt",
+    "cousins shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cousin crew shirt",
+     "volume": 4400,
+     "kd": 40
+    },
+    {
+     "phrase": "cousins shirt",
+     "volume": 1600,
+     "kd": 44
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "unisex-thanksgiving-kids-table-alumni-crewneck-sweatshirt": {
+   "claimed": [
+    "cousins sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cousins sweatshirt",
+     "volume": 210,
+     "kd": 33
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

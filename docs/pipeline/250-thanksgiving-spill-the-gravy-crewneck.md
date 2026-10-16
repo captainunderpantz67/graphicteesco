@@ -1,0 +1,20 @@
+status: READY
+lane: A
+type: twin
+id: 250
+handle: womens-thanksgiving-spill-the-gravy-crewneck-sweatshirt
+---
+## Women's Thanksgiving – Spill the Gravy Crewneck Sweatshirt
+- **Twin of #249:** same art and print files; build after #249's art passes the self-check (R5.3.8, R6.2, R7.3). No new art generation.
+- **Blank:** Gildan 18000 crewneck (Printful #145), 8 oz, 50/50 cotton-poly fleece (R7.1).
+- **Hook:** "auntie's here to SPILL THE GRAVY": the aunt with all the family news (R3.4). Line one of the copy carries it.
+- **Colors (≤100 variants):** White, Sand, Light Pink, Ash, Sport Grey; Forest Green or Maroon only if the rust plaid and brown outlines read. Preview the darkest offered color and knock out every closed counter (R5.3.8, twins too).
+- **Primary keyword:** auntie sweatshirt — 880 / KD 46 (RankHero 2026-10-16; trend Oct 1,000 → Dec 2,400, 82% US). Unowned; record it. Supporting: drama sweatshirt 70/43 (Nov peak), auntie crewneck 110/48, each once and never the tee's phrases.
+- **Popularity evidence (R5.2):** as #249; auntie sweatshirt more than doubles from October to December.
+- **Cover:** registry #426 (Armenian-American woman in her early 40s, long thick dark hair in a sleek low ponytail, bold arched brows, small diamond studs) — woman (R6.3). Scene: a warm family kitchen on Thanksgiving afternoon, pies cooling on the counter and relatives blurred behind; she stands by the counter with a coffee mug held at her side, nothing over the print (R6.4, R6.5, R6.9).
+- **Title / handle:** "Women's Thanksgiving – Spill the Gravy Crewneck Sweatshirt" / `womens-thanksgiving-spill-the-gravy-crewneck-sweatshirt` (R7.3, R7.4).
+- **Tags (R7.5):** thanksgiving-sweatshirts, sweatshirt, thanksgiving. No tee tags.
+- **Price (R12.1):** $34.99, compare-at $39.99.
+---
+## Log
+- 2026-10-16 22:25 UTC director: brief written, READY (lane A funny Thanksgiving pair for /funny-thanksgiving-shirts/, R9.11).
