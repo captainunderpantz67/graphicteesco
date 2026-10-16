@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: A
 type: twin
 id: 141
@@ -12,3 +12,4 @@ handle: womens-christmas-christmas-golf-crewneck-sweatshirt
 ---
 ## Log
 - 2026-10-16 08:40 UTC director: moved from docs/design-briefs.md (was BUILDING there; that lane's run ended without finishing). READY to resume.
+- 2026-10-16 UTC builder [A]: Printful 482108168 synced 42/42 (file 1083447384, front+back); Shopify draft 15360179306800 already had copy, price, tags, 6+ flat fronts + back, variant images; cover #211; review sheet docs/review/141.jpg. Audit needs Storefront token: cohesion checked by hand. → REVIEW.
