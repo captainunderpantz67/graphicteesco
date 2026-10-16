@@ -3892,6 +3892,105 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-gym-conflict-resolution-oversized-sweatshirt": {
+   "claimed": [
+    "boxing sweatshirt",
+    "gym sweatshirt"
+   ],
+   "gaps_measured": [],
+   "measured": "boxing sweatshirt 480/KD30; gym sweatshirt 3,600/KD36 (RankHero 2026-10-16)"
+  },
+  "womens-bookish-plot-twist-oversized-sweatshirt": {
+   "claimed": [
+    "bookish sweatshirt",
+    "book sweatshirt",
+    "book club sweatshirt"
+   ],
+   "gaps_measured": [],
+   "measured": "bookish sweatshirt 1,600/KD54; book sweatshirt 1,600/KD54; book club sweatshirt 590/KD56 (RankHero 2026-10-16)"
+  },
+  "womens-frog-not-toad-ay-zip-hoodie": {
+   "claimed": [
+    "frog hoodie",
+    "toad hoodie"
+   ],
+   "gaps_measured": [],
+   "measured": "frog hoodie 1,900/KD33; toad hoodie 70/KD43 (RankHero 2026-10-16)"
+  },
+  "womens-y2k-hot-mess-express-zip-hoodie": {
+   "claimed": [
+    "y2k zip up hoodie",
+    "hot mess hoodie"
+   ],
+   "gaps_measured": [],
+   "measured": "y2k zip up hoodie 2,900/KD16; hot mess hoodie 50/KD45 (RankHero 2026-10-16)"
+  },
+  "womens-embroidered-on-my-own-time-snail-hoodie": {
+   "claimed": [
+    "embroidered snail",
+    "snail hoodie"
+   ],
+   "gaps_measured": [],
+   "measured": "embroidered snail 390/KD31; snail hoodie 70/KD43 (RankHero 2026-10-16)"
+  },
+  "mens-embroidered-eau-de-campfire-hoodie": {
+   "claimed": [
+    "outdoorsy hoodie",
+    "camping hoodie"
+   ],
+   "gaps_measured": [],
+   "measured": "outdoorsy hoodie 1,600/KD25; camping hoodie 1,900/KD39 (RankHero 2026-10-16)"
+  },
+  "womens-christian-be-still-crewneck-sweatshirt": {
+   "claimed": [
+    "scripture sweatshirt",
+    "be still shirt",
+    "prayer sweatshirt"
+   ],
+   "gaps_measured": [],
+   "measured": "scripture sweatshirt 1,900/KD37; be still shirt 320/KD56; prayer sweatshirt 320/KD50 (RankHero 2026-10-16)"
+  },
+  "womens-christian-light-of-the-world-jesus-crewneck-sweatshirt": {
+   "claimed": [
+    "jesus sweatshirt",
+    "jesus crewneck"
+   ],
+   "gaps_measured": [],
+   "measured": "jesus sweatshirt 14,800/KD47; jesus crewneck 480/KD56 (RankHero 2026-10-16)"
+  },
+  "womens-christian-ewe-are-loved-lamb-crewneck-sweatshirt": {
+   "claimed": [
+    "lamb sweatshirt",
+    "sheep sweatshirt",
+    "lamb shirt"
+   ],
+   "gaps_measured": [],
+   "measured": "lamb sweatshirt 170/KD34; sheep sweatshirt 170/KD42; lamb shirt 170/KD50 (RankHero 2026-10-16)"
+  },
+  "womens-christian-casserole-ministry-crewneck-sweatshirt": {
+   "claimed": [
+    "christian crewneck",
+    "church shirt"
+   ],
+   "gaps_measured": [],
+   "measured": "christian crewneck 480/KD63; church shirt 2,400/KD57 (RankHero 2026-10-16)"
+  },
+  "womens-nurse-dont-say-the-q-word-crewneck-sweatshirt": {
+   "claimed": [
+    "er nurse sweatshirt",
+    "nurse crewneck"
+   ],
+   "gaps_measured": [],
+   "measured": "er nurse sweatshirt 320/KD52; nurse crewneck 720/KD60 (RankHero 2026-10-16)"
+  },
+  "womens-mama-i-have-followers-duck-crewneck-sweatshirt": {
+   "claimed": [
+    "mama duck",
+    "duck sweatshirt"
+   ],
+   "gaps_measured": [],
+   "measured": "mama duck 3,600/KD14; duck sweatshirt 1,300/KD44 (RankHero 2026-10-16)"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

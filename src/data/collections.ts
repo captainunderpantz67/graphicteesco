@@ -473,6 +473,24 @@ export const tees: Collection[] = [
       { h2: 'Matching shirts for the family', body: 'Order one design in several sizes and the whole family matches in the photo, or split it: Turkey Bowl for the players, Give Thanks for the hosts. They share the same vintage look, so they sit well side by side.' },
       { h2: 'When to order', body: 'Every shirt is printed after you order it, then shipped. Order early in November so it arrives before the holiday; delivery estimates show at checkout.' },
     ] }),
+  // AEO slogan-first page (rulebook R9.11, director 2026-10-16): "funny thanksgiving shirt" 4,400 / KD 48 (RankHero 2026-10-16).
+  // Fed by the funny-thanksgiving-shirts tag (tees only; crewnecks stay in thanksgiving-sweatshirts). Exact-match H1, price line, joke first.
+  seasonal('thanksgiving', 'tees', { slug: 'funny-thanksgiving-shirts', name: 'Funny Thanksgiving Shirts', keyword: 'funny thanksgiving shirt', volume: 4400, kd: 48, product: 'funny Thanksgiving shirts', twin: 'thanksgiving-shirts', blurb: 'one clean joke per shirt for the turkey trot, Friendsgiving and the long table.',
+    title: 'Funny Thanksgiving Shirts — Here for the Scraps & More',
+    description: 'Funny Thanksgiving shirts with one clean joke each: Here for the Scraps, Mash Hour, Totally a Pilgrim, Pie Oh My. Tees $24.99 through Nov 30.',
+    intro: 'Funny Thanksgiving shirts, joke first: Here for the Scraps, Mash Hour, Totally a Pilgrim, Pie Oh My, Nap Queen, Leftovers Club and Turkey Trot. Every tee is $24.99 (regular $29.99) through November 30, drawn as vintage-style art and printed when you order it.',
+    sections: [
+      { h2: 'The jokes', body: 'Here for the Scraps is for the guest who only came for the leftovers. Mash Hour turns the potato course into happy hour. Totally a Pilgrim is for the cousin who has never once dressed up. Pie Oh My is the dessert-table shirt, Nap Queen is for the couch after dinner, Leftovers Club is for the Friday sandwich crowd, and Turkey Trot is for the people who run before they eat.' },
+      { h2: 'Funny, but clean enough for the family table', body: 'Every line here gets a laugh from across the room without making anyone at the table wince: no profanity, no put-downs, no movie quotes. They are made to be worn at Grandma’s, not just at Friendsgiving.' },
+      { h2: 'Price and fit', body: 'Tees are $24.99 during the holiday sale (regular $29.99), through November 30. Unisex designs are printed on a soft lightweight cotton tee in a classic fit; women’s designs come on a relaxed women’s cut. Each product page lists its sizes and colors.' },
+      { h2: 'Matching funny shirts for the family', body: 'Give everyone a different joke: Mash Hour for the cook, Here for the Scraps for the dog person, Totally a Pilgrim for the uncle. They share the same vintage look, so they still read as a set in the photo.' },
+      { h2: 'When to order', body: 'Each shirt is printed after you order it, then shipped. Order in early November so it arrives before the holiday; delivery estimates show at checkout.' },
+    ],
+    extra: [
+      { q: 'What is a good funny Thanksgiving shirt for family dinner?', a: 'Pick a clean one-liner about the food: Mash Hour, Pie Oh My or Here for the Scraps all get a laugh at the table without offending anyone.' },
+      { q: 'How much are your funny Thanksgiving shirts?', a: 'Tees are $24.99 (regular $29.99) during the holiday sale through November 30.' },
+      { q: 'Do these designs come on sweatshirts too?', a: 'Most of them do. The crewneck versions are in our Thanksgiving sweatshirts collection.' },
+    ] }),
   // Buy-the-bottom build #1 (RankHero 2026-10-06): "christmas shirts for women" 5,400 / KD 14 — the easy modifier of "christmas shirts" (33,100 / KD 58).
   {
     slug: 'christmas-shirts-for-women', section: 'tees', audience: 'women', name: "Women's Christmas Shirts", seasonal: 'christmas',
@@ -592,6 +610,113 @@ export const tees: Collection[] = [
     ],
     shopifyHandle: 'embroidered-sweatshirts',
   },
+  // R11.5 sweep pages (director, 2026-10-16 late run). Hand-written copy; empty pages stay noindex until stocked (R9.11, R10.7).
+  {
+    // RankHero 2026-10-16: oversized sweatshirt 40,500 / KD 47. Blank: Bella+Canvas 4711 (Printful #897), 10 oz, 60/40 cotton-poly fleece.
+    slug: 'oversized-sweatshirts', section: 'tees', name: 'Oversized Sweatshirts',
+    keyword: 'oversized sweatshirt', volume: 40500, kd: 47,
+    title: 'Oversized Sweatshirts — Heavyweight Graphic Crewnecks',
+    description: 'Oversized sweatshirts with original graphic art on a heavyweight 10 oz fleece crewneck: boxy fit, dropped sleeves. Printed to order.',
+    h1: 'Oversized Sweatshirts',
+    intro: 'Oversized sweatshirts with original art on the front: a roomy, heavyweight crewneck with dropped sleeves, cut big on purpose.',
+    sections: [
+      { h2: 'What makes these oversized sweatshirts different?', body: 'Every design is drawn for this shop, never stock art, and sized up to suit a big, boxy sweatshirt. Each one is printed after you order it.' },
+      { h2: 'What the sweatshirt is like', body: 'A unisex oversized crewneck in 10 oz fleece, 60% combed ring-spun cotton and 40% polyester, soft on the inside, with slightly dropped sleeves and a relaxed fit.' },
+      { h2: 'How to wear an oversized sweatshirt', body: 'Balance the volume with something slimmer: leggings, bike shorts or straight-leg jeans. Push the sleeves up, or tuck one side of the front into high-rise jeans for shape.' },
+    ],
+    faqs: [
+      { q: 'Should I size up for an oversized sweatshirt?', a: 'No. These are already cut oversized, so take your usual size for the roomy look. Size down if you want it closer to a classic fit, and check the size chart on each product.' },
+      { q: 'Are these sweatshirts heavyweight?', a: 'Yes. The fleece is 10 oz per square yard, heavier than a standard crewneck.' },
+      { q: 'Are these crewnecks or hoodies?', a: 'Crewneck sweatshirts, with no hood. Our oversized hoodies are in their own collection.' },
+      { q: 'Are these original designs?', a: 'Yes. Every design is original art made for this shop. No brand logos or licensed characters.' },
+      { q: 'How long do oversized sweatshirts take to ship?', a: (f) => `Printing takes ${f.productionDays}, then your order ships. Delivery estimates are shown at checkout.`, needs: 'productionDays' },
+    ],
+    shopifyHandle: 'oversized-sweatshirts',
+    twin: 'oversized-hoodies',
+  },
+  {
+    // RankHero 2026-10-16: heavyweight sweatshirt 2,900 / KD 34. Same Bella+Canvas 4711 heavyweight oversized crewneck (Printful #897, 10 oz).
+    slug: 'heavyweight-sweatshirts', section: 'tees', name: 'Heavyweight Sweatshirts',
+    keyword: 'heavyweight sweatshirt', volume: 2900, kd: 34,
+    title: 'Heavyweight Sweatshirts — 10 oz Graphic Crewnecks',
+    description: 'Heavyweight sweatshirts in 10 oz fleece with original graphic art. A thick, boxy crewneck that holds its shape. Printed to order.',
+    h1: 'Heavyweight Sweatshirts',
+    intro: 'Heavyweight sweatshirts for people who want a crewneck with some weight to it: 10 oz fleece, a boxy cut and original art on the front.',
+    sections: [
+      { h2: 'How heavy is a heavyweight sweatshirt?', body: 'Ours are 10 oz per square yard, 60% combed ring-spun cotton and 40% polyester. A standard crewneck is about 8 oz, so you feel the difference when you pull it on.' },
+      { h2: 'What makes these different?', body: 'Every design is original art made for this shop, from deadpan gym jokes to bookish one-liners, printed after you order it.' },
+      { h2: 'How to wear a heavyweight sweatshirt', body: 'On its own over a tee on a cold morning, under an open jacket, or with joggers after the gym. The relaxed fit and dropped sleeves give it a boxy shape.' },
+    ],
+    faqs: [
+      { q: 'Are heavyweight sweatshirts warmer?', a: 'Yes. Thicker fleece holds more warmth, so a 10 oz crewneck is warmer than a standard 8 oz one.' },
+      { q: 'How do heavyweight sweatshirts fit?', a: 'Ours have a relaxed, oversized cut with slightly dropped sleeves. Take your usual size for a roomy fit and check the size chart on each product.' },
+      { q: 'Are these original designs?', a: 'Yes. Every design is original art made for this shop. No brand logos or licensed characters.' },
+      { q: 'How long do heavyweight sweatshirts take to ship?', a: (f) => `Printing takes ${f.productionDays}, then your order ships. Delivery estimates are shown at checkout.`, needs: 'productionDays' },
+    ],
+    shopifyHandle: 'heavyweight-sweatshirts',
+    twin: 'heavyweight-hoodies',
+  },
+  {
+    // RankHero 2026-10-16: christian sweatshirt 6,600 / KD 52 (R9.11 depth target: 8+ designs before it is pushed). Voice 50/50 per R3.4.
+    slug: 'christian-sweatshirts', section: 'tees', name: 'Christian Sweatshirts',
+    keyword: 'christian sweatshirt', volume: 6600, kd: 52,
+    title: 'Christian Sweatshirts — Scripture & Faith Crewnecks',
+    description: 'Christian sweatshirts with original art: quiet scripture designs with the verse reference, and a few gentle church jokes. Soft crewnecks, printed to order.',
+    h1: 'Christian Sweatshirts',
+    intro: 'Christian sweatshirts in two moods: simple scripture designs with the verse reference printed small, and a few warm, respectful jokes from church life. All of them on a soft crewneck for Sunday mornings and Bible study.',
+    sections: [
+      { h2: 'Scripture you can wear', body: 'Half of these designs are quiet: a few plain words from a verse, the reference underneath, and vintage art that fits it. They are made to start a conversation, not to shout.' },
+      { h2: 'And a little church humor', body: 'The other half smile at church life without poking fun at faith: the casserole that shows up for every new baby, a little lamb with a pun. Clean enough for the fellowship hall.' },
+      { h2: 'What the sweatshirt is like', body: 'A classic-fit crewneck in 8 oz, 50% cotton, 50% polyester fleece, pre-shrunk, with a ribbed collar, cuffs and hem.' },
+    ],
+    faqs: [
+      { q: 'Do your Christian sweatshirts include the Bible verse?', a: 'The scripture designs print the verse reference on the front, so anyone who asks can look it up.' },
+      { q: 'Are these good gifts for church friends?', a: 'Yes. They work for a baptism, a Bible study group, a pastor’s family or a friend who just joined the church.' },
+      { q: 'Are these original designs?', a: 'Yes. Every design is original art made for this shop.' },
+      { q: 'How long do Christian sweatshirts take to ship?', a: (f) => `Printing takes ${f.productionDays}, then your order ships. Delivery estimates are shown at checkout.`, needs: 'productionDays' },
+    ],
+    shopifyHandle: 'christian-sweatshirts',
+    twin: 'christian-hoodies',
+  },
+  {
+    // RankHero 2026-10-16: nurse sweatshirt 5,400 / KD 51.
+    slug: 'nurse-sweatshirts', section: 'tees', audience: 'women', name: 'Nurse Sweatshirts',
+    keyword: 'nurse sweatshirt', volume: 5400, kd: 51,
+    title: 'Nurse Sweatshirts — Funny Original Crewnecks for Nurses',
+    description: 'Nurse sweatshirts with original art and jokes nurses actually tell: warm crewnecks for the break room, the drive home and days off. Printed to order.',
+    h1: 'Nurse Sweatshirts',
+    intro: 'Nurse sweatshirts with jokes from the floor, drawn as vintage-style art: something warm for the drive in, the break room and the first day off after a run of shifts.',
+    sections: [
+      { h2: 'Jokes nurses get right away', body: 'The designs come from real shift life: the word you never say out loud on a calm night, the coffee that keeps the unit running. Other nurses laugh first; everyone else asks.' },
+      { h2: 'What the sweatshirt is like', body: 'A classic-fit crewneck in 8 oz, 50% cotton, 50% polyester fleece, pre-shrunk, with a ribbed collar, cuffs and hem. It goes over scrubs on a cold walk in from the parking garage.' },
+    ],
+    faqs: [
+      { q: 'Can I wear a nurse sweatshirt over scrubs?', a: 'Yes. A classic-fit crewneck layers over a scrub top; check your unit’s dress code for patient-care areas.' },
+      { q: 'Do nurse sweatshirts make good gifts?', a: 'Yes, for Nurses Week, graduation from nursing school, or a coworker who just survived a long stretch of nights.' },
+      { q: 'Are these original designs?', a: 'Yes. Every design is original art made for this shop.' },
+      { q: 'How long do nurse sweatshirts take to ship?', a: (f) => `Printing takes ${f.productionDays}, then your order ships. Delivery estimates are shown at checkout.`, needs: 'productionDays' },
+    ],
+    shopifyHandle: 'nurse-sweatshirts',
+  },
+  {
+    // RankHero 2026-10-16: mama sweatshirt 6,600 / KD 55 (depth needed before it is pushed, R2.2).
+    slug: 'mama-sweatshirts', section: 'tees', audience: 'women', name: 'Mama Sweatshirts',
+    keyword: 'mama sweatshirt', volume: 6600, kd: 55,
+    title: 'Mama Sweatshirts — Funny Original Crewnecks for Moms',
+    description: 'Mama sweatshirts with original vintage-style art and a joke every mom gets. Soft crewnecks for school pickup and Saturday errands. Printed to order.',
+    h1: 'Mama Sweatshirts',
+    intro: 'Mama sweatshirts with a joke every mom gets in two seconds, drawn as vintage-style art on a soft crewneck for pickup lines, the park and the grocery run.',
+    sections: [
+      { h2: 'Made for real mom life', body: 'The designs are about the parts of motherhood nobody puts on a greeting card: the little line that follows you everywhere, room to room. Funny, warm and clean.' },
+      { h2: 'What the sweatshirt is like', body: 'A classic-fit crewneck in 8 oz, 50% cotton, 50% polyester fleece, pre-shrunk, with a ribbed collar, cuffs and hem.' },
+    ],
+    faqs: [
+      { q: 'Are mama sweatshirts a good gift?', a: 'Yes, for Mother’s Day, a baby shower, a birthday or a new mom who needs something soft for the first winter.' },
+      { q: 'Are these original designs?', a: 'Yes. Every design is original art made for this shop.' },
+      { q: 'How long do mama sweatshirts take to ship?', a: (f) => `Printing takes ${f.productionDays}, then your order ships. Delivery estimates are shown at checkout.`, needs: 'productionDays' },
+    ],
+    shopifyHandle: 'mama-sweatshirts',
+  },
 ];
 
 export const hoodies: Collection[] = [
@@ -631,6 +756,50 @@ export const hoodies: Collection[] = [
   niche(N.gym, 'hoodies', { slug: 'gym-hoodies-for-men', keyword: 'mens gym hoodie', volume: 9900, kd: 31, product: "men's gym hoodies", audience: 'men', name: "Men's Gym Hoodies" }) /* RankHero 2026-10-16 */,
   niche(N.halfzip, 'hoodies', { slug: 'half-zip-pullovers', keyword: 'half zip pullover', volume: 5400, kd: 14, product: 'half zip pullovers', name: 'Half Zip Pullovers' }) /* RankHero 2026-10-16; Bella+Canvas 4740 */,
   niche(N.womenshoodies, 'hoodies', { slug: 'graphic-hoodies-for-women', keyword: 'graphic hoodies for women', volume: 8100, kd: 12, product: 'graphic hoodies for women', audience: 'women', name: "Women's Graphic Hoodies" }) /* R11.5 sweep 2026-10-16 */,
+  {
+    // RankHero 2026-10-16: zip up hoodie women 14,800 / KD 32. R9.11 lists it as brand-owned: we list products here, no extra page effort.
+    slug: 'zip-up-hoodies-for-women', section: 'hoodies', audience: 'women', name: "Women's Zip-Up Hoodies",
+    keyword: 'zip up hoodie women', volume: 14800, kd: 32,
+    title: "Women's Zip-Up Hoodies — Original Graphic Designs",
+    description: "Zip-up hoodies for women with original art: a big print on the back and a small one on the chest. Fleece full-zip hoodies, printed to order.",
+    h1: "Women's Zip-Up Hoodies",
+    intro: 'Zip-up hoodies for women with original art: the full design on the back and a small version on the left chest, so it still shows when you wear it open.',
+    sections: [
+      { h2: 'What makes these zip-up hoodies different?', body: 'Every design is drawn for this shop, with the joke on the back where people actually see it. Each hoodie is printed after you order it.' },
+      { h2: 'What the hoodie is like', body: 'A full-zip hoodie in 8 oz fleece, 50% cotton and 50% polyester, with a metal zipper, front pouch pockets and a hood with color-matched drawcords. It is a unisex regular fit, so it sits relaxed on women.' },
+      { h2: 'How to wear a zip-up hoodie', body: 'Open over a tank or tee with leggings, zipped up over a crewneck on cold mornings, or tied at the waist once the day warms up.' },
+    ],
+    faqs: [
+      { q: 'Do these zip-up hoodies run big on women?', a: 'They are a unisex cut, so they fit relaxed. Size down one for a closer fit, and check the size chart on each product.' },
+      { q: 'Where is the design printed?', a: 'The full design is on the back, with a small version on the left chest.' },
+      { q: 'Are these original designs?', a: 'Yes. Every design is original art made for this shop. No brand logos or licensed characters.' },
+      { q: 'How long do zip-up hoodies take to ship?', a: (f) => `Printing takes ${f.productionDays}, then your order ships. Delivery estimates are shown at checkout.`, needs: 'productionDays' },
+    ],
+    shopifyHandle: 'zip-up-hoodies-for-women',
+    twin: 'zip-up-hoodies',
+  },
+  {
+    // RankHero 2026-10-16: embroidered hoodie 14,800 / KD 49 (embroidered hoodies 14,800 / 48). Real embroidery only (R4.8).
+    slug: 'embroidered-hoodies', section: 'hoodies', name: 'Embroidered Hoodies',
+    keyword: 'embroidered hoodie', volume: 14800, kd: 49,
+    title: 'Embroidered Hoodies — Original Designs Stitched in Thread',
+    description: 'Embroidered hoodies with small original designs stitched in thread on the chest, some with a word on the cuff. Made to order in soft fleece.',
+    h1: 'Embroidered Hoodies',
+    intro: 'Embroidered hoodies with a small original design stitched on the chest in thread, and on some, one little word on the cuff. Simple line art you can wear all winter.',
+    sections: [
+      { h2: 'What makes these embroidered hoodies different?', body: 'Each design is drawn for this shop as clean line art and hand lettering, then stitched in thread instead of printed, so it has a raised, textured feel. Some sit centered on the chest, others small on the left chest like a logo would.' },
+      { h2: 'Embroidered, not printed', body: 'Every hoodie in this collection is real embroidery. Our printed hoodies live in the other hoodie collections.' },
+      { h2: 'How to care for embroidery', body: 'Wash inside out on cold and tumble dry low or hang to dry. Do not iron directly on the stitching.' },
+    ],
+    faqs: [
+      { q: 'Is the design stitched or printed?', a: 'Stitched. Each design is embroidered in thread, not printed.' },
+      { q: 'Will the embroidery hold up in the wash?', a: 'Yes. Wash inside out on cold and the stitching keeps its shape; skip the iron on the design.' },
+      { q: 'Are these original designs?', a: 'Yes. Every design is original art made for this shop, with no brand logos or licensed characters.' },
+      { q: 'How long do embroidered hoodies take to ship?', a: (f) => `Making one takes ${f.productionDays}, then your order ships. Delivery estimates are shown at checkout.`, needs: 'productionDays' },
+    ],
+    shopifyHandle: 'embroidered-hoodies',
+    twin: 'embroidered-sweatshirts',
+  },
   niche(N.anime, 'hoodies', { slug: 'anime-hoodies', keyword: 'anime hoodie', volume: 22200, kd: 38, product: 'anime-style hoodies', twin: 'anime-shirts' }),
   seasonal('halloween', 'hoodies', { slug: 'halloween-hoodies', keyword: 'halloween hoodie', volume: 5400, kd: 48, product: 'Halloween hoodies', twin: 'halloween-shirts', blurb: 'horror-movie-night and spooky-season designs for cold October nights.' }),
   seasonal('christmas', 'hoodies', { slug: 'christmas-hoodies', keyword: 'christmas hoodie', volume: 9900, kd: 52, product: 'Christmas hoodies', twin: 'christmas-shirts', blurb: 'holiday designs warm enough for the tree lot and the family photo.',

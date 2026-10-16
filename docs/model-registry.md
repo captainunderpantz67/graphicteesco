@@ -309,3 +309,15 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 422 | Japanese-American woman in her late 50s, salt-and-pepper hair in a short layered cut, soft smile lines | USED 2026-10-16 — #245 Nana's Cookies tee cover try 1 (from the Athletic Heather mockup) |
 | 423 | Black woman in her early 30s, natural afro puff, gold statement earrings | USED 2026-10-16 — #247 Snow Problem tee cover try 1 (from the White mockup) |
 | 424 | South Asian woman in her mid 20s, long wavy dark hair in a side part, nose stud | RESERVED — #248 Snow Problem crewneck cover |
+| 437 | Ethiopian-American man in his late 20s, close-cropped hair, thin mustache, wiry boxer's build | RESERVED — #261 Conflict Resolution oversized sweatshirt cover |
+| 438 | Guatemalan-American woman in her late 20s, wavy dark hair in a loose half-up twist, gold-rimmed glasses | RESERVED — #262 Plot Twist oversized sweatshirt cover |
+| 439 | Cuban-American woman in her early 20s, dark curly hair in two puff buns, tiny gold huggie earrings | RESERVED — #263 Not Toad-ay zip hoodie cover |
+| 440 | Chinese-American woman in her mid 20s, chin-length bob dyed lavender, silver hoops | RESERVED — #264 Hot Mess Express zip hoodie cover |
+| 441 | Colombian-American woman in her mid 30s, long dark hair in a low twisted bun, silver ear cuffs | RESERVED — #265 On My Own Time snail embroidered hoodie cover |
+| 442 | Czech-American man in his early 40s, curly light-brown hair, full brown beard with a grey patch at the chin | RESERVED — #266 Eau de Campfire embroidered hoodie cover |
+| 443 | Ghanaian-American woman in her mid 40s, short tapered natural hair, small pearl studs | RESERVED — #267 Be Still crewneck cover |
+| 444 | Italian-American woman in her late 50s, shoulder-length salt-and-pepper waves, small gold cross necklace | RESERVED — #268 Light of the World crewneck cover |
+| 445 | Ukrainian-American woman in her late 20s, long light-blonde hair in a single fishtail braid | RESERVED — #269 Ewe Are Loved crewneck cover |
+| 446 | Dominican-American woman in her late 60s, soft white waves to the chin, coral lipstick | RESERVED — #270 Casserole Ministry crewneck cover |
+| 447 | Haitian-American woman in her late 30s, short sculpted finger waves, small gold studs | RESERVED — #271 Q Word crewneck cover |
+| 448 | Pakistani-American woman in her mid 30s, long dark hair in a loose side braid, thin gold bangles | RESERVED — #272 I Have Followers crewneck cover |

@@ -134,7 +134,9 @@ for (const p of products) {
   // Hoodie prices by blank (rulebook R12.1): handle suffix names the blank.
   const HOODIE = [[/-cropped-hoodie$/, '44.99', '49.99'], [/-oversized-hoodie$/, '54.99', '59.99'], [/-heavyweight-hoodie$/, '49.99', '54.99'], [/-zip-hoodie$/, '44.99', '49.99'], [/-camo-hoodie$/, '49.99', '54.99'] /* IND4000 camo */, [/-half-zip$/, '54.99', '59.99'] /* Bella+Canvas 4740 */, [/-hoodie$/, '39.99', '44.99']];
   const hp = kind === 'hoodie' ? HOODIE.find(([re]) => re.test(p.handle)) : null;
-  const [want, wantCmp] = pump ? ['39.99', null] : hp ? (onSale ? [hp[1], hp[2]] : [hp[2], null]) : kind === 'sweatshirt' ? (onSale ? ['34.99', '39.99'] : ['39.99', null]) : (onSale ? ['24.99', '29.99'] : ['29.99', null]);
+  // Oversized sweatshirt, Bella+Canvas 4711 (Printful #897), handle ending -oversized-sweatshirt: $49.99 / $54.99 (R12.1, director 2026-10-16).
+  const osw = kind === 'sweatshirt' && /-oversized-sweatshirt$/.test(p.handle);
+  const [want, wantCmp] = pump ? ['39.99', null] : hp ? (onSale ? [hp[1], hp[2]] : [hp[2], null]) : osw ? (onSale ? ['49.99', '54.99'] : ['54.99', null]) : kind === 'sweatshirt' ? (onSale ? ['34.99', '39.99'] : ['39.99', null]) : (onSale ? ['24.99', '29.99'] : ['29.99', null]);
   const prices = [...new Set(p.variants.nodes.map((v) => Number(v.price.amount).toFixed(2) + '/' + (v.compareAtPrice ? Number(v.compareAtPrice.amount).toFixed(2) : '-')))];
   // Embroidered (R12.1): +$5 chest, +$3 per cuff detail, so +5, +8 or +11 on both price and compare-at.
   const bump = (x, d) => (x === null ? null : (Number(x) + d).toFixed(2));
