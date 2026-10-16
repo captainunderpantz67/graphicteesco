@@ -274,6 +274,8 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-christian-be-still-crewneck-sweatshirt': { src: '/covers/womens-christian-be-still-crewneck-sweatshirt.webp', alt: 'Woman with short natural hair in a Sand Be Still scripture crewneck sweatshirt on a wooden lake dock at sunrise with mist on the water holding a small Bible' },
   'womens-christian-light-of-the-world-jesus-crewneck-sweatshirt': { src: '/covers/womens-christian-light-of-the-world-jesus-crewneck-sweatshirt.webp', alt: 'Woman in her late 50s in a Sand Light of the World Jesus crewneck sweatshirt on the steps of a small white church at dusk with a glowing brass lantern' },
   'womens-christian-ewe-are-loved-lamb-crewneck-sweatshirt': { src: '/covers/womens-christian-ewe-are-loved-lamb-crewneck-sweatshirt.webp', alt: 'Woman in her late 20s with a blonde fishtail braid in a Sand Ewe Are Loved lamb crewneck sweatshirt leaning on a wooden fence in a spring pasture with sheep grazing' },
+  'womens-christian-casserole-ministry-crewneck-sweatshirt': { src: '/covers/womens-christian-casserole-ministry-crewneck-sweatshirt.webp', alt: 'Woman in her late 60s in a Sand Casserole Ministry crewneck sweatshirt in a church fellowship hall with potluck casserole dishes and a coffee urn behind her' },
+  'womens-nurse-dont-say-the-q-word-crewneck-sweatshirt': { src: '/covers/womens-nurse-dont-say-the-q-word-crewneck-sweatshirt.webp', alt: 'Nurse in her late 30s in a Sand Don't Say the Q Word crewneck sweatshirt and navy scrubs outside a hospital emergency entrance at dawn' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

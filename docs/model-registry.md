@@ -318,8 +318,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 443 | Ghanaian-American woman in her mid 40s, short tapered natural hair, small pearl studs | USED 2026-10-16 — #267 Be Still crewneck cover (try 1, image 2 of 3; the small PSALM 46:10 line is soft on the cover) |
 | 444 | Italian-American woman in her late 50s, shoulder-length salt-and-pepper waves, small gold cross necklace | USED 2026-10-16 — try 1, image 1 of 3 |
 | 445 | Ukrainian-American woman in her late 20s, long light-blonde hair in a single fishtail braid | USED 2026-10-16 — try 1, image 2 of 3 |
-| 446 | Dominican-American woman in her late 60s, soft white waves to the chin, coral lipstick | RESERVED — #270 Casserole Ministry crewneck cover |
-| 447 | Haitian-American woman in her late 30s, short sculpted finger waves, small gold studs | RESERVED — #271 Q Word crewneck cover |
+| 446 | Dominican-American woman in her late 60s, soft white waves to the chin, coral lipstick | USED 2026-10-16 — try 1, image 1 of 3 |
+| 447 | Haitian-American woman in her late 30s, short sculpted finger waves, small gold studs | USED 2026-10-16 — try 1, image 3 of 3 |
 | 448 | Pakistani-American woman in her mid 30s, long dark hair in a loose side braid, thin gold bangles | RESERVED — #272 I Have Followers crewneck cover |
 | 425 | Dominican-American woman in her late 30s, big shoulder-length curls with honey-brown highlights, stacked gold bangles | USED 2026-10-16 — #249 Spill the Gravy tee cover try 1 (from the Athletic Heather mockup) |
 | 426 | Armenian-American woman in her early 40s, long thick dark hair in a sleek low ponytail, bold arched brows, small diamond studs | USED 2026-10-16 — #250 Spill the Gravy crewneck cover try 1 (from the Sand mockup) |

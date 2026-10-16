@@ -3997,19 +3997,29 @@
   },
   "womens-christian-casserole-ministry-crewneck-sweatshirt": {
    "claimed": [
-    "christian crewneck",
-    "church shirt"
+    "christian crewneck"
    ],
-   "gaps_measured": [],
-   "measured": "christian crewneck 480/KD63; church shirt 2,400/KD57 (RankHero 2026-10-16)"
+   "gaps_measured": [
+    {
+     "phrase": "christian crewneck",
+     "volume": 480,
+     "kd": 63
+    }
+   ],
+   "measured": "2026-10-16"
   },
   "womens-nurse-dont-say-the-q-word-crewneck-sweatshirt": {
    "claimed": [
-    "er nurse sweatshirt",
-    "nurse crewneck"
+    "er nurse sweatshirt"
    ],
-   "gaps_measured": [],
-   "measured": "er nurse sweatshirt 320/KD52; nurse crewneck 720/KD60 (RankHero 2026-10-16)"
+   "gaps_measured": [
+    {
+     "phrase": "er nurse sweatshirt",
+     "volume": 320,
+     "kd": 52
+    }
+   ],
+   "measured": "2026-10-16"
   },
   "womens-mama-i-have-followers-duck-crewneck-sweatshirt": {
    "claimed": [
