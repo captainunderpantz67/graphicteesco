@@ -1531,6 +1531,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Art:** vintage cafe illustration — a whisked matcha latte in a ceramic cup with a bamboo whisk, a little cloud and sunrays above, MATCHA MADE IN HEAVEN in faded retro script/caps. Sage, cream, soft pink.
 - **Primary keyword:** matcha shirt — 3,600 / KD 32 (also matcha t shirt 3,600 / 31)
 - **Cover model:** registry #192
+- **Print file:** art regenerated 2026-10-16 (Recraft v4; the first run's file id was never recorded) → Printful file 1087363169, front 8.5in wide on 1500×1500, top 0, left 112.
 
 ### 123. Women's Y2K – Low Battery, High Standards Tee  *(BUILDING [B])*
 - **Handle:** `womens-y2k-low-battery-high-standards-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags y2k-graphic-tees, graphic-tees-for-women
@@ -1539,6 +1540,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Art:** Y2K look — a glittery flip phone with a low-battery bar, butterflies and sparkles, LOW BATTERY / HIGH STANDARDS in chrome bubble letters. Pink, lilac, silver.
 - **Primary keyword:** low battery shirt — 90 / KD 54 (y2k shirt 22,200/50 is the collection's)
 - **Cover model:** registry #193
+- **Print file:** art regenerated 2026-10-16 (Recraft v4; the first run's file id was never recorded) → Printful file 1087363185, front 9.0in wide on 1500×1800, top 0, left 75.
 
 ### 124. Unisex Anime – Mecha Mondays Tee  *(BUILDING [B])*
 - **Handle:** `unisex-anime-mecha-mondays-graphic-tee` · **Blank:** Bella+Canvas 3001, $29.99 · tags anime-shirts, graphic-tees-for-men, graphic-tees-for-women
@@ -1547,6 +1549,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Art:** retro 80s anime cel style — big original mecha hunched over a small desk with a steaming mug and a stack of papers, city skyline at sunset behind; MECHA MONDAYS in faded retro caps. Teal, coral, mustard, cream.
 - **Primary keyword:** retro anime shirt — 1,600 / KD 37 (also robot shirt 720 / 46)
 - **Cover model:** registry #194 (unisex: man AND woman)
+- **Print file:** art regenerated 2026-10-16 (Recraft v4; the first run's file id was never recorded) → Printful file 1087363194, front 11.0in wide on 1800×2400, top 0, left 75.
 
 ### 125. Women's Baseball Mom – Bases Loaded, Mom Exhausted Tee  *(BUILDING [B])*
 - **Handle:** `womens-baseball-mom-bases-loaded-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags baseball-mom-shirts, graphic-tees-for-women, vintage-graphic-tees
