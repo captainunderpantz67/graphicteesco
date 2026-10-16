@@ -92,6 +92,14 @@ Sections are numbered so role cards and review notes can point at them ("fails R
 6. **Anime:** original anime-style art only. Invented characters; no real characters, series names, logos, catchphrases or lookalikes. Retro 80s/90s cel look, sunset cityscapes, mecha and ramen shops all work.
 7. **Tools:** Recraft v4 (`fal-ai/recraft/v4/text-to-image`) for all art. Then `scripts/print-prep.py`: transparent PNG, 3600 px, 300 DPI, under 10 MB. Back logo `back-logo-company.png`, 3 inches wide, top center.
 
+8. **Real embroidery (Sam, 2026-10-16: "a real step up, and the wrist is awesome"):** Printful embroiders on every blank we use (tees, Gildan 18000 crewneck, all five hoodies, cropped hoodie).
+   - **Placements:** chest center, left chest, wrist cuffs (left/right), crewneck neckline, tee sleeve tops. Each embroidery placement costs about $2.95 extra at Printful.
+   - **Art for thread:** simple line art and lettering only, within Printful's embroidery limits: about 4 in wide on the chest, a handful of thread colors, no gradients, no worn texture, no tiny gaps. Style B designs and short script words are the natural fit; vintage full-bleed art stays printed.
+   - **Wrist cuffs:** a small script word or tiny motif ("Merry", a single tree, a pie, "Gobble") on one cuff, often paired with a chest piece. Women's crewnecks, hoodies and cropped hoodies first.
+   - **Use:** the embroidered-sweatshirts collection (12,100/56) is real embroidery only. Embroidered hoodies are welcome too, tagged into their hoodie collection plus embroidered-sweatshirts.
+   - **Pilot:** build 5 first. Check Printful's embroidery mockups and the real cost, and confirm whether Printful allows the printed back-neck logo on an embroidered product. If not, skip the back logo on embroidered items. Then scale.
+   - **Title and copy:** say "Embroidered" in the title and first line (it's the search term). Copy facts: embroidered, stitched thread. Never call a printed item embroidered.
+
 ## R5. Art QC v3: rigid, every design
 1. **The floor:** batch 1 (approved 2026-10-13, docs/reference/batch-1/) is the minimum. Compare every new design side by side with 2–3 sheets from docs/reference/best/ (or batch-1). If it's weaker in polish, coverage, legibility or vintage finish, redo it. A design that beats the floor gets added to docs/reference/best/, and the bar rises.
 2. **Popularity evidence before art:** a measured keyword AND proof people buy the theme (RankHero top-listing favorites/views, the Etsy style study, docs/market-research.md). Record the evidence per design.
@@ -279,6 +287,8 @@ Goal: ChatGPT, Perplexity, Google AI Overviews / AI Mode, Gemini, Copilot and Cl
      | Heavyweight | $49.99 | $54.99 |
      | Oversized | $54.99 | $59.99 |
      | Cropped | $44.99 | $49.99 |
+
+   - **Embroidered items:** the garment's price above + $5 for a chest piece, + $3 more for each cuff detail (covers Printful's $2.95 per placement). Same sale/regular split.
    - From Dec 1: tees $29.99, crewnecks $39.99, hoodies at their regular price above, no compare-at. The audit flips automatically.
 2. **Returns (Sam, 2026-10-16, best practice):** one free size exchange within 30 days of delivery (we print the new size; nothing to mail back); misprints/damage reprinted or refunded within 30 days. Site copy, schema (src/lib/schema.ts), Shopify refund policy and Search Console settings must all say the same thing.
 3. **Free US shipping on $45+** (automatic Shopify discount). Under $45, the Printful profile rates apply (tees $4.95 flat).
