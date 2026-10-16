@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 184
@@ -19,3 +19,4 @@ handle: mens-gym-plate-club-heavyweight-hoodie
 ## Log
 - 2026-10-16 14:28 UTC director: brief written, READY (cold-weather push, Sam 2026-10-16).
 - 2026-10-16 17:19 UTC [B]: built as DRAFT; twin of tee, file 1087554531 front 11.7 in + back logo, Storm Blue + Black (cream/gold art needs dark), 14/14 synced, $49.99/$54.99, powerlifting hoodie 210/33. Review sheet docs/review/184.jpg.
+- 2026-10-16 17:22 UTC director: LIVE: ACTIVE + Online Store + Headless, audit PASS.
