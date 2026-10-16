@@ -13,6 +13,7 @@ p='docs/product-keyword-map.json'; s=open(p).read()
 s=re.sub(r'("\n)(  "[a-z0-9-]+": \{)',r'\1  },\n\2',s); open(p,'w').write(s)
 import json; json.load(open(p))
 P
+  python3 -c "import json;json.load(open('docs/product-keyword-map.json'))" || { echo "keyword map JSON broken, fix by hand"; exit 1; }
   if ! git diff --quiet; then git add -A; git commit -qm "[A] merge fixups"; fi
   git push -q origin main 2>/dev/null && { echo pushed; exit 0; }
 done
