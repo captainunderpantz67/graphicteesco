@@ -18,3 +18,4 @@ handle: womens-christmas-on-the-farm-horse-hoodie
 ---
 ## Log
 - 2026-10-16 19:05 UTC director: brief written, READY (lane A holiday hoodie twin, R11.5).
+- 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361967259952 (18500; Sand + Sport Grey x S-3XL = 12; Navy dropped because the dark lettering sinks into it), tee file 1085890024 at FW=1446 TOP=0, Printful sync 482277554. Copy/SEO/tags/price, keyword in map, cover (try 1 of 2 kept, generated from the product's Printful mockup), 2 fronts + back, variant images, audit PASS, docs/review/212.jpg. Printful link queued (runner): `FORCE=1 FW=1446 TOP=0 python3 scripts/pf-sync.py setfile 482277554 1085890024 1080398177`. REVIEW once synced = 12.

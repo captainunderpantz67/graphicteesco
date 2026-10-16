@@ -3387,6 +3387,32 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-golden-retriever-christmas-hoodie": {
+   "claimed": [
+    "dog hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dog hoodie",
+     "volume": 18100,
+     "kd": 44
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-christmas-on-the-farm-horse-hoodie": {
+   "claimed": [
+    "horse hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "horse hoodie",
+     "volume": 1600,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

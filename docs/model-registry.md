@@ -267,8 +267,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 281 | White woman in her early 40s, long chestnut hair under a cream knit beanie | USED 2026-10-16 — #209 cover (with #280) |
 | 282 | Korean-American man in his late 20s, swept-back black hair, clean-shaven | USED 2026-10-16 — #210 Ski Lodge hoodie cover (with #283) |
 | 283 | Latina woman in her late 20s, honey-brown balayage waves | USED 2026-10-16 — #210 cover (with #282) |
-| 284 | White woman in her early 50s, short silver pixie cut, laugh lines | RESERVED — #211 Golden Retriever hoodie cover |
-| 285 | Black woman in her mid 30s, long box braids in a low ponytail | RESERVED — #212 Christmas on the Farm horse hoodie cover |
+| 284 | White woman in her early 50s, short silver pixie cut, laugh lines | USED 2026-10-16 — #211 Golden Retriever hoodie cover |
+| 285 | Black woman in her mid 30s, long box braids in a low ponytail | USED 2026-10-16 — #212 Christmas on the Farm horse hoodie cover |
 | 286 | Filipino-American woman in her early 30s, shoulder-length black hair with bangs | RESERVED — #213 Dough Ho Ho tee cover |
 | 287 | White woman in her late 30s, red curly hair in a messy bun | RESERVED — #214 Dough Ho Ho crewneck cover |
 | 288 | Mexican-American woman in her mid 40s, dark hair in a sleek bun, gold hoops | RESERVED — #215 Dough Ho Ho hoodie cover |
