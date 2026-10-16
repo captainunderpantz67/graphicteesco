@@ -2947,6 +2947,31 @@
    ],
    "gaps_measured": [],
    "measured": "deer hunting hoodie 170/KD34 (RankHero 2026-10-16)"
+  "womens-christmas-highland-cow-christmas-hoodie": {
+   "claimed": [
+    "highland cow hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "highland cow hoodie",
+     "volume": 1300,
+     "kd": 28
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-christmas-nutcracker-bow-hoodie": {
+   "claimed": [
+    "nutcracker hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "nutcracker hoodie",
+     "volume": 90,
+     "kd": 42
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

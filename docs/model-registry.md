@@ -243,8 +243,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 257 | White woman in her early 20s, platinum blonde space buns, glitter eyeliner | RESERVED — #187 Low Battery hoodie cover |
 | 258 | Pair: white man in his mid 60s, white mustache + white woman in her early 60s, silver bob | RESERVED — #188 Lake Life hoodie cover (man + woman) |
 | 259 | Pair: Puerto Rican woman in her early 40s, dark curls + Irish-American man in his early 40s, ginger beard | USED 2026-10-16 — #189 Vintage Santa hoodie cover (fal Seedream 4, tree lot at dusk; try 1 kept) |
-| 260 | White woman in her late 20s, long strawberry-blonde braid, freckles | RESERVED — #190 Highland Cow hoodie cover |
-| 261 | Persian-American woman in her mid 30s, glossy dark waves, red lipstick | RESERVED — #191 Nutcracker Bow hoodie cover |
+| 260 | White woman in her late 20s, long strawberry-blonde braid, freckles | USED 2026-10-16 — #190 Highland Cow hoodie cover (fal Seedream 4, snowy farm fence; try 1 kept) |
+| 261 | Persian-American woman in her mid 30s, glossy dark waves, red lipstick | USED 2026-10-16 — #191 Nutcracker Bow hoodie cover (fal Seedream 4, night market; try 1 kept) |
 | 262 | Black woman in her late 20s, short natural curls, gold hoops | RESERVED — #192 Cherry Picked embroidered crewneck cover |
 | 263 | Vietnamese-American woman in her mid 20s, long straight black hair, round glasses | RESERVED — #193 Whisk Taker embroidered crewneck cover |
 | 264 | White woman in her early 30s, auburn shag haircut, freckles | RESERVED — #194 Morel Support embroidered crewneck cover |
