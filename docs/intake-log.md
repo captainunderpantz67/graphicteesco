@@ -1,3 +1,4 @@
+RUNNING helper since 2026-10-16 12:42 UTC
 RUNNING lane B since 2026-10-16 12:28 UTC
 2026-10-16 12:41 UTC — [B] REDO #130 Espresso Yourself fixed: O counters transparent, re-placed at max fit (7.6 x 10 in; 8.5 in wide would clip YOURSELF in the 10 in area), 40/40 re-synced, mockups swapped, copy size line corrected. Status REVIEW (docs/review/130.jpg).
 2026-10-16 11:06 UTC — [B] REDO #127 Casserole Ministry fixed: O counters knocked out to transparent, quilted-mitts copy, new cover; 54 variants re-synced, status REVIEW (docs/review/127.jpg).
