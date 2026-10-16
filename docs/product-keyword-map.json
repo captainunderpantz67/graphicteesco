@@ -3719,6 +3719,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-hunting-no-deer-today-camo-hoodie": {
+   "claimed": [
+    "black camo hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "black camo hoodie",
+     "volume": 1900,
+     "kd": 16
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
