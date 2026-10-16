@@ -1498,7 +1498,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Primary keyword:** funny nursing shirt — 1,300 / KD 44 (also nursing school shirt 880 / 58)
 - **Cover model:** registry #188
 
-### 119. Women's Football Mom – Down, Set, Snacks Tee  *(BUILDING [B])*
+### 119. Women's Football Mom – Down, Set, Snacks Tee  *(built 2026-10-16)*
 - **Handle:** `womens-football-mom-down-set-snacks-graphic-tee` · **Blank:** Bella+Canvas 6400, $29.99 · tags football-mom-shirts, graphic-tees-for-women, vintage-graphic-tees
 - **Hook:** "Down, Set, Snacks" — the snap count, as heard by the mom running the snack cooler.
 - **Why it's not taken:** Etsy football mom shirts are "Football Mom" + number/leopard; this line isn't there.
@@ -1506,7 +1506,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Primary keyword:** snack shirt — 140 / KD 65 (small, measured, describes the art; football mom terms are owned by the collection)
 - **Cover model:** registry #189
 
-### 120. Men's Fishing – Cheaper Than Therapy (Barely) Tee  *(BUILDING [B])*
+### 120. Men's Fishing – Cheaper Than Therapy (Barely) Tee  *(built 2026-10-16)*
 - **Handle:** `mens-fishing-cheaper-than-therapy-graphic-tee` · **Blank:** Bella+Canvas 3001, $29.99 · tags fishing-t-shirts, graphic-tees-for-men, vintage-graphic-tees
 - **Hook:** "Cheaper Than Therapy (Barely)" — the classic line plus the footnote every spouse who has seen the tackle receipts adds.
 - **Why it's not taken:** "cheaper than therapy" is common; the "(barely)" twist with an overflowing tackle box is not.

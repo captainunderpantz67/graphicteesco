@@ -172,8 +172,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 186 | Woman in her early 50s, silver pixie cut, pearl studs | USED 2026-10-15 — Back Pew Crew christian tee cover (fal Seedream 4, country church steps; try 1 kept) |
 | 187 | Man in his mid 60s, white mustache, bucket hat | USED 2026-10-16 — Fisher of Men fishing tee cover (fal Seedream 4, lake dock at sunrise; try 1 kept)|
 | 188 | Woman in her early 20s, long box braids, small nose stud | USED 2026-10-15 — IV League nurse tee cover (fal Seedream 4, nursing school campus; try 1 kept) |
-| 189 | Woman in her mid 40s, wavy auburn hair in a claw clip | BUILDING [B] — Down, Set, Snacks football mom tee cover |
-| 190 | Man in his early 40s, shaved head, short red beard | BUILDING [B] — Cheaper Than Therapy fishing tee cover |
+| 189 | Woman in her mid 40s, wavy auburn hair in a claw clip | USED 2026-10-16 — Down, Set, Snacks football mom tee cover (fal Seedream 4, Friday-night bleachers; try 1 kept)|
+| 190 | Man in his early 40s, shaved head, short red beard | USED 2026-10-16 — Cheaper Than Therapy fishing tee cover (fal Seedream 4, riverbank pickup at golden hour; try 1 kept)|
 | 191 | Man in his late 20s, black undercut, round glasses + woman in her late 20s, blunt bangs, dyed teal ends | BUILDING [B] — Slurp Responsibly anime tee cover (unisex pair) |
 | 192 | Woman in her early 20s, curly blonde hair, freckles | BUILDING [B] — Matcha Made in Heaven cropped tee cover |
 | 193 | Woman in her mid 20s, long wavy pink-dyed hair, hoop earrings | BUILDING [B] — Low Battery, High Standards y2k tee cover |

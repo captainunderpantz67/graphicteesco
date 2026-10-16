@@ -2627,6 +2627,30 @@
      "kd": 31
     }
    ]
+  },
+  "mens-fishing-cheaper-than-therapy-graphic-tee": {
+   "claimed": [
+    "daddy fishing shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "daddy fishing shirt",
+     "volume": 140,
+     "kd": 36
+    }
+   ]
+  },
+  "womens-football-mom-down-set-snacks-graphic-tee": {
+   "claimed": [
+    "snack shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "snack shirt",
+     "volume": 140,
+     "kd": 65
+    }
+   ]
   }
  }
 }

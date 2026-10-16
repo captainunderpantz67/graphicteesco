@@ -153,6 +153,8 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-christian-back-pew-crew-graphic-tee': { src: '/covers/womens-christian-back-pew-crew-graphic-tee.webp', alt: 'Woman on the front walk of a small white country church on a sunny Sunday morning wearing the Back Pew Crew tee' },
   'womens-nurse-iv-league-graphic-tee': { src: '/covers/womens-nurse-iv-league-graphic-tee.webp', alt: 'Woman with box braids on a nursing school campus walkway between brick buildings wearing the IV League tee' },
   'mens-fishing-fisher-of-men-graphic-tee': { src: '/covers/mens-fishing-fisher-of-men-graphic-tee.webp', alt: 'Man with a white mustache and bucket hat on a wooden lake dock at sunrise with a fishing rod and tackle box beside him wearing the Fisher of Men tee' },
+  'mens-fishing-cheaper-than-therapy-graphic-tee': { src: '/covers/mens-fishing-cheaper-than-therapy-graphic-tee.webp', alt: 'Man with a short red beard on a riverbank at golden hour beside a pickup with a tackle box on the tailgate wearing the Cheaper Than Therapy tee' },
+  'womens-football-mom-down-set-snacks-graphic-tee': { src: '/covers/womens-football-mom-down-set-snacks-graphic-tee.webp', alt: 'Woman with wavy auburn hair on high school football bleachers under Friday night lights holding popcorn wearing the Down, Set, Snacks tee' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
