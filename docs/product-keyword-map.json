@@ -3629,6 +3629,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-oh-deer-hoodie": {
+   "claimed": [
+    "reindeer hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "reindeer hoodie",
+     "volume": 260,
+     "kd": 48
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

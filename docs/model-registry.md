@@ -296,7 +296,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 400 | Native American man in his mid 40s, short cropped black hair, blaze-orange cap | USED 2026-10-16 — #157 No Deer Today cover redo (replaces #227's long-braid model whose braid covered the print; fal Seedream 4 from the Black tee mockup, 3 images, best kept) |
 | 410 | Filipina woman in her late 30s, shoulder-length dark hair with a side part | USED 2026-10-16 — #236 Merry Woofmas crewneck cover try 1 |
 | 411 | Korean-American woman in her early 30s, long hair in a high ponytail with a red velvet bow | USED 2026-10-16 — #237 Candy Cane Club crewneck cover try 2 (try 1 garbled the small Est. December line) |
-| 412 | White woman in her mid 40s, chin-length auburn bob, freckles | RESERVED — #238 Oh Deer hoodie cover |
+| 412 | White woman in her mid 40s, chin-length auburn bob, freckles | USED 2026-10-16 — #238 Oh Deer hoodie cover try 1 |
 | 413 | Mexican-American man in his early 50s, salt-and-pepper mustache, receding hairline, stocky build | RESERVED — #239 Resting My Eyes tee cover |
 | 414 | Black man in his late 50s, short grey hair, neat grey beard, glasses | RESERVED — #240 Resting My Eyes crewneck cover |
 | 415 | Puerto Rican woman in her late 20s, big curly dark hair worn half up, gold hoop earrings | RESERVED — #241 Sleigh Queen hoodie cover |
