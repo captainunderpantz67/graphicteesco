@@ -1659,3 +1659,35 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Hook:** the gratitude shirt for cold-weather Thanksgiving mornings
 - **Primary keyword:** grateful sweatshirt — 140 / KD 57
 - **Cover model:** registry #209 (woman)
+
+## Christmas crewneck twins — lane A (2026-10-16; competitor lesson 6, Gildan 18000 #145, same art as the tee, no new art generation)
+
+### 140. Women's Christmas – Christmas Cats Crewneck Sweatshirt  *(BUILDING [A])*
+- **Handle:** `womens-christmas-christmas-cats-crewneck-sweatshirt` · art = the Christmas Cats tee's print file
+- **Primary keyword:** cat christmas sweatshirt — 2,400 / KD 40
+- **Cover model:** registry #210 (woman)
+
+### 141. Women's Christmas – Christmas Golf Crewneck Sweatshirt  *(BUILDING [A])*
+- **Handle:** `womens-christmas-christmas-golf-crewneck-sweatshirt` · art = the Christmas Golf tee's print file
+- **Primary keyword:** golf sweatshirt — 2,900 / KD 34
+- **Cover model:** registry #211 (woman)
+
+### 142. Women's Christmas – Nutcracker Bow Crewneck Sweatshirt  *(BUILDING [A])*
+- **Handle:** `womens-christmas-nutcracker-bow-crewneck-sweatshirt` · art = the Nutcracker Bow tee's print file
+- **Primary keyword:** nutcracker sweatshirt — 1,000 / KD 41
+- **Cover model:** registry #212 (woman)
+
+### 143. Women's Christmas – Highland Cow Christmas Crewneck Sweatshirt  *(BUILDING [A])*
+- **Handle:** `womens-christmas-highland-cow-christmas-crewneck-sweatshirt` · art = the Highland Cow Christmas tee's print file
+- **Primary keyword:** highland cow sweatshirt — 880 / KD 43
+- **Cover model:** registry #213 (woman)
+
+### 144. Women's Christmas – Gingerbread Lane Crewneck Sweatshirt  *(BUILDING [A])*
+- **Handle:** `womens-christmas-gingerbread-lane-crewneck-sweatshirt` · art = the Gingerbread Lane tee's print file
+- **Primary keyword:** gingerbread sweatshirt — 880 / KD 47
+- **Cover model:** registry #214 (woman)
+
+### 145. Women's Christmas – Vintage Snowman Crewneck Sweatshirt  *(BUILDING [A])*
+- **Handle:** `womens-christmas-vintage-snowman-crewneck-sweatshirt` · art = the Vintage Snowman tee's print file
+- **Primary keyword:** snowman sweatshirt — 590 / KD 48
+- **Cover model:** registry #215 (woman)
