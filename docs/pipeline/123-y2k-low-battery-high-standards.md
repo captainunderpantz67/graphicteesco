@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 123
@@ -17,3 +17,5 @@ handle: womens-y2k-low-battery-high-standards-graphic-tee
 ## Log
 - 2026-10-16 08:40 UTC director: moved from docs/design-briefs.md (was BUILDING there; that lane's run ended without finishing). READY to resume.
 - 2026-10-16 08:52 UTC [B]: finished from resume: Printful synced 48/48 (file 1087363185), cover checked and registered, price 24.99/29.99, variant images linked, keyword map, review sheet docs/review/123.jpg. Audit script needs a Storefront token: cohesion checked by hand.
+- 2026-10-16 10:15 UTC director: approved from docs/review/123.jpg (R3/R4/R5/R6/R8/R13.3 ok). Cohesion audit checks PASS (run on Admin API data; Storefront token still missing). ACTIVE + published to Online Store, Headless, Copilot, Meta AI. LIVE.
+- 2026-10-16 10:15 UTC director: copy fixed in place before publishing (description matched to the art / removed builder jargon "no badge or frame").

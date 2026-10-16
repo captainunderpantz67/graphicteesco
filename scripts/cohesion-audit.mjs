@@ -6,6 +6,7 @@
 //
 // Usage:  node scripts/cohesion-audit.mjs                 → whole store, writes docs/cohesion-audit.md
 //         node scripts/cohesion-audit.mjs --handle <h>    → one product (builder gate; exit 1 on any ERROR)
+//         add --admin-json <file> to read Admin API product data instead of the Storefront API
 // Needs PUBLIC_SHOPIFY_STORE_DOMAIN + PUBLIC_SHOPIFY_STOREFRONT_TOKEN (.env or environment).
 import { readFileSync, writeFileSync, existsSync, mkdtempSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
@@ -19,7 +20,11 @@ if (existsSync(join(root, '.env'))) {
   }
 }
 const DOMAIN = process.env.PUBLIC_SHOPIFY_STORE_DOMAIN, TOKEN = process.env.PUBLIC_SHOPIFY_STOREFRONT_TOKEN;
-if (!DOMAIN || !TOKEN) { console.error('missing Storefront env'); process.exit(2); }
+// --admin-json <file>: run the same checks on products exported from the Admin API (Shopify MCP) as
+// { "<handle>": { handle title productType tags seo description images{nodes} variants{nodes: price{amount}
+// compareAtPrice{amount} …} collections{nodes} } } — works for DRAFTs and when the Storefront token is missing.
+const adminJson = process.argv.includes('--admin-json') ? JSON.parse(readFileSync(process.argv[process.argv.indexOf('--admin-json') + 1], 'utf8')) : null;
+if (!adminJson && (!DOMAIN || !TOKEN)) { console.error('missing Storefront env (or pass --admin-json <file>)'); process.exit(2); }
 const onlyHandle = process.argv.includes('--handle') ? process.argv[process.argv.indexOf('--handle') + 1] : null;
 
 // Collection metadata straight from the site's own source of truth.
@@ -34,6 +39,7 @@ const covers = Object.fromEntries([...coversSrc.matchAll(/'([a-z0-9-]+)':\s*\{\s
 const kwMap = existsSync(join(root, 'docs/product-keyword-map.json')) ? JSON.parse(readFileSync(join(root, 'docs/product-keyword-map.json'), 'utf8')).products ?? {} : {};
 
 async function sf(query, variables = {}) {
+  if (adminJson) return variables.h ? { product: adminJson[variables.h] ?? null } : { products: { pageInfo: { hasNextPage: false }, nodes: Object.values(adminJson) } };
   const r = await fetch(`https://${DOMAIN}/api/2026-01/graphql.json`, { method: 'POST', headers: { 'Content-Type': 'application/json', 'X-Shopify-Storefront-Access-Token': TOKEN }, body: JSON.stringify({ query, variables }) });
   const j = await r.json(); if (j.errors) throw new Error(JSON.stringify(j.errors)); return j.data;
 }

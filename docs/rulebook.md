@@ -104,6 +104,7 @@ Sections are numbered so role cards and review notes can point at them ("fails R
    6. Vintage finish.
    7. Brand-safe and original.
    8. Prints clean: background fully removed, light art on dark blanks, dark art on light blanks.
+      - **Letter and shape fills (director, 2026-10-16):** before Printful upload, preview the print on mid grey AND on the darkest offered color. Any white-filled letter counter (an O, A, P), white blob, or white disc inside a wreath/frame that isn't meant to be ink gets knocked out in print-prep. Recurring: Pitch Please, Casserole Ministry, Christmas Cats.
 4. **Max 2 regenerations,** then skip and Telegram Sam.
 
 ## R6. Photos and covers
@@ -173,6 +174,7 @@ Sections are numbered so role cards and review notes can point at them ("fails R
 1. Product description = the SOP's three h3 sections (docs/product-intake-sop.md). Line one carries the hook in the house voice (R3).
 2. **One primary keyword,** used naturally. 4–6 supporting measured phrases, each once.
 3. **No keyword stuffing:** no word-salad exact matches, no keyword-string questions, no "one of our ___ shirts", no superlatives. No stock AI phrasing ("elevate", "look no further", "must-have", "whether you're…"). Primary keyword at most 3 times.
+   - **No production notes in shopper copy (director, 2026-10-16):** never write our own rule words into a description ("no badge or frame", "original art, no frame", "flat/ghost", "Style A"). Shoppers don't care; it reads machine-made. Describe only what is actually in the art, and check every object you name is really in the print (6 of 8 tees in one batch said "no badge or frame"; three named things the art doesn't show).
 4. **Lengths:** SEO title ≤ 60 characters; meta description hand-written ≤ 155, never cut mid-word. Product H1 includes the niche keyword.
 5. Proper nouns capitalized: Christian, Christmas, Thanksgiving, men's, women's.
 6. Never claim something the store doesn't have.
@@ -244,7 +246,7 @@ Goal: ChatGPT, Perplexity, Google AI Overviews / AI Mode, Gemini, Copilot and Cl
    - SEO lengths;
    - keyword collisions;
    - AI tells and stuffing.
-2. ERRORs get fixed before new building. `--handle <h>` must PASS before ACTIVE.
+2. ERRORs get fixed before new building. `--handle <h>` must PASS before ACTIVE. While the Storefront token is missing from a run's environment, export the product from the Admin API (Shopify MCP: handle title productType tags seo description images variants collections, prices as {amount}) to a JSON file and run `--handle <h> --admin-json <file>`; same checks, works on DRAFTs (director, 2026-10-16).
 3. **Final eye:** read the page as a shopper on a phone. Would a careful human merchandiser have put this exact photo, title, price and copy here? If anything feels off or AI-made, it doesn't ship.
 
 ## R14. Telegram and reporting

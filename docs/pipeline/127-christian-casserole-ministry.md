@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: new
 id: 127
@@ -17,3 +17,7 @@ handle: womens-christian-casserole-ministry-graphic-tee
 ## Log
 - 2026-10-16 08:40 UTC director: moved from docs/design-briefs.md (was BUILDING there; that lane's run ended without finishing). READY to resume.
 - 2026-10-16 09:36 UTC [B]: finished from resume: Printful synced 54/54 (file 1087368524), cover checked + registered, price 24.99/29.99, mockups regenerated from the new print file (the earlier ones came from the first-run art), variant images linked, keyword map, review sheet docs/review/127.jpg. Audit script needs a Storefront token: cohesion checked by hand.
+- 2026-10-16 10:16 UTC director: REDO (product stays DRAFT). Notes:
+  1. R5.3.8 / R5.3.5: the second O in CASSEROLE is filled solid white while every other letter is dusty rose. On Heather Stone, Mauve, Pink, Light Violet etc. it prints as a white blob in the word. Fix the print file (print-prep): make that O dusty rose like its neighbours with a transparent counter, re-upload to Printful, re-sync the 54 variants to the new file, regenerate the mockups. No new art generation needed.
+  2. R6.7: after the file fix, check the cover print still matches (the cover shows the same white O). If it does, flatten the fixed art onto white and regenerate the cover once (registry #197 may be reused for the same product).
+  3. R8 copy: the mitts are argyle/diamond quilted, not floral: change "quilted floral oven mitts" (description) and "floral oven mitts" (meta) to "quilted oven mitts". Also drop "No badge or frame," from paragraph two (R8.3 builder jargon, see rulebook).

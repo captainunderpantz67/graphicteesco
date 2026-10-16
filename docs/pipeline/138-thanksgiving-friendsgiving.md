@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
 id: 138
@@ -14,3 +14,4 @@ handle: womens-thanksgiving-friendsgiving-crewneck-sweatshirt
 ## Log
 - 2026-10-16 08:40 UTC director: moved from docs/design-briefs.md (was BUILDING there; that lane's run ended without finishing). READY to resume.
 - 2026-10-16 UTC builder [A]: Printful 482106213 synced 36/36 (file 1083456372, front+back); Shopify draft 15360176423216 already had copy, price, tags, 6+ flat fronts + back, variant images; cover #208; review sheet docs/review/138.jpg. Audit needs Storefront token: cohesion checked by hand. → REVIEW.
+- 2026-10-16 10:15 UTC director: approved from docs/review/138.jpg (R3/R4/R5/R6/R8/R13.3 ok). Cohesion audit checks PASS (run on Admin API data; Storefront token still missing). ACTIVE + published to Online Store, Headless, Copilot, Meta AI. LIVE.

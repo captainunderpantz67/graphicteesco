@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 122
@@ -17,3 +17,5 @@ handle: womens-cropped-matcha-made-in-heaven-graphic-tee
 ## Log
 - 2026-10-16 08:40 UTC director: moved from docs/design-briefs.md (was BUILDING there; that lane's run ended without finishing). READY to resume.
 - 2026-10-16 08:31 UTC [B]: resumed draft 15356822716720. Synced last 5 Mineral variants (40/40; Printful wants placement type 'front' for crop 4062), cover kept (woman, cafe, R6 ok), covers.ts + registry #192 USED, keyword map, price 24.99/29.99, variant images already linked, review sheet. Audit needs Storefront env: checked by hand.
+- 2026-10-16 10:15 UTC director: approved from docs/review/122.jpg (R3/R4/R5/R6/R8/R13.3 ok). Cohesion audit checks PASS (run on Admin API data; Storefront token still missing). ACTIVE + published to Online Store, Headless, Copilot, Meta AI. LIVE.
+- 2026-10-16 10:15 UTC director: copy fixed in place before publishing (description matched to the art / removed builder jargon "no badge or frame").

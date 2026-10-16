@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: A
 type: twin
 id: 140
@@ -13,3 +13,7 @@ handle: womens-christmas-christmas-cats-crewneck-sweatshirt
 ## Log
 - 2026-10-16 08:40 UTC director: moved from docs/design-briefs.md (was BUILDING there; that lane's run ended without finishing). READY to resume.
 - 2026-10-16 UTC builder [A]: Printful 482107794 synced 57/57 (file 1083155675, front+back); Shopify draft 15360178684208 already had copy, price, tags, 6+ flat fronts + back, variant images; cover #210; review sheet docs/review/140.jpg. Audit needs Storefront token: cohesion checked by hand. → REVIEW.
+- 2026-10-16 10:16 UTC director: REDO (product stays DRAFT). Notes:
+  1. R4.1 / R5.3.8: the inside of the wreath is a solid white disc. On Red, Maroon, Black, Sand and Light Pink it prints as a white circle behind the cats: a badge look (visible on the cover). Fix in print-prep without new art: knock the white fill inside the wreath out to transparent, keeping the tuxedo cat's white chest/paws and the tabby's cream belly (mask the disc minus the cat shapes). Re-upload, re-sync all 57 variants, regenerate mockups.
+  2. If the knock-out can't be done cleanly in two tries (R5.4), drop the disc-showing colors and keep only White, Ash, Sport Grey (where white reads as part of the shirt) and log it; then the cover must be on one of those colors (R6.7), so regenerate it once.
+  3. Same issue exists on the live Christmas Cats tee: after this fix, swap the tee's Printful file to the cleaned one too (fix in place, R1.4) and note it in the log.

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 124
@@ -17,3 +17,4 @@ handle: unisex-anime-mecha-mondays-graphic-tee
 ## Log
 - 2026-10-16 08:40 UTC director: moved from docs/design-briefs.md (was BUILDING there; that lane's run ended without finishing). READY to resume.
 - 2026-10-16 08:52 UTC [B]: finished from resume: Printful synced 54/54 (file 1087363194), cover checked and registered, price 24.99/29.99, variant images linked, keyword map, review sheet docs/review/124.jpg. Audit script needs a Storefront token: cohesion checked by hand.
+- 2026-10-16 10:15 UTC director: approved from docs/review/124.jpg (R3/R4/R5/R6/R8/R13.3 ok). Cohesion audit checks PASS (run on Admin API data; Storefront token still missing). ACTIVE + published to Online Store, Headless, Copilot, Meta AI. LIVE.
