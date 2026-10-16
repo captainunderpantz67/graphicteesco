@@ -299,7 +299,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 412 | White woman in her mid 40s, chin-length auburn bob, freckles | USED 2026-10-16 — #238 Oh Deer hoodie cover try 1 |
 | 413 | Mexican-American man in his early 50s, salt-and-pepper mustache, receding hairline, stocky build | USED 2026-10-16 — #239 Resting My Eyes tee cover try 1 kept (try 2 garbled the print) |
 | 414 | Black man in his late 50s, short grey hair, neat grey beard, glasses | USED 2026-10-16 — #240 Resting My Eyes crewneck cover try 2 from the product mockup (try 1 redrew the print as boxes) |
-| 415 | Puerto Rican woman in her late 20s, big curly dark hair worn half up, gold hoop earrings | RESERVED — #241 Sleigh Queen hoodie cover |
+| 415 | Puerto Rican woman in her late 20s, big curly dark hair worn half up, gold hoop earrings | USED 2026-10-16 — #241 Sleigh Queen hoodie cover try 1 (from the Sand mockup) |
 | 416 | White man in his mid 30s, red-brown full beard, man bun | RESERVED — #242 Define Naughty hoodie cover (with #417) |
 | 417 | Vietnamese-American woman in her early 30s, long straight black hair with blunt bangs | RESERVED — #242 Define Naughty hoodie cover (with #416) |
 | 418 | Native American man in his mid 40s, short cropped black hair, thin goatee, broad build | RESERVED — #243 Light Show Manager hoodie cover |

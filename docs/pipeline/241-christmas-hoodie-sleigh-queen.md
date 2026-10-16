@@ -18,3 +18,4 @@ handle: womens-christmas-sleigh-queen-hoodie
 ---
 ## Log
 - 2026-10-16 21:17 UTC director: brief written, READY (lane A holiday hoodie twin, R11.5).
+- 2026-10-16 22:01 UTC builder [A]: DRAFT gid://shopify/Product/15362325184816 (Gildan 18500; Sand + Navy x S-3XL = 12; $39.99/$44.99), tee art with the white counters of the S and the Q knocked out for Navy (new file 1087852216, FW=1500 TOP=0; the white sleigh runners are planned ink and stay), Printful sync 482329193 queued (FORCE=1 FW=1500 TOP=0 setfile 482329193 1087852216 1080398177). Primary queen hoodie 1,000/KD24 in map. Cover #415 from the Sand mockup (try 1 of 3 images, hood visible, hands in pockets, bag at hip), 2 fronts + back, variant images, audit above, docs/review/241.jpg. REVIEW once synced = 12.

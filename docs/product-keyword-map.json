@@ -3745,6 +3745,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-sleigh-queen-hoodie": {
+   "claimed": [
+    "queen hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "queen hoodie",
+     "volume": 1000,
+     "kd": 24
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
