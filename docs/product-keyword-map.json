@@ -3810,6 +3810,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-nanas-cookies-crewneck-sweatshirt": {
+   "claimed": [
+    "nana sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "nana sweatshirt",
+     "volume": 2400,
+     "kd": 44
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
