@@ -1,4 +1,5 @@
 RUNNING lane A since 2026-10-16 19:00 UTC
+2026-10-16 19:50 UTC — [A] BUILDING #209 Mountain Christmas Bear hoodie and #210 Ski Lodge hoodie (drafts built, covers, mockups, audit PASS; Printful syncs queued, REVIEW when 12/12).
 2026-10-16 19:25 UTC — [A] BUILDING #208 Women's Christmas Golf hoodie (draft built, cover, mockups, audit PASS; Printful sync queued, REVIEW when 12/12).
 2026-10-16 19:07 UTC — [B] REVIEW #199 (redo): redo: steam is 3 short wavy lines, square marshmallows, thinner even line; cuff now the single script word 'extra' (Printful files 1087754746 chest, 1087754778 cuff, 1.5 in wide, about 0.47 in tall), 12 variants resynced, new mockups, cover and copy (cuff wording).
 2026-10-16 18:52 UTC — [B] REVIEW #198 (redo): hand-lettered redo: new rust deer art (Printful file 1087751323), 14 variants resynced, new cover and mockups

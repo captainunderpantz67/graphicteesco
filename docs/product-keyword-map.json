@@ -3361,6 +3361,32 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-christmas-mountain-christmas-bear-hoodie": {
+   "claimed": [
+    "bear hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bear hoodie",
+     "volume": 9900,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "unisex-christmas-ski-lodge-hoodie": {
+   "claimed": [
+    "ski hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "ski hoodie",
+     "volume": 6600,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

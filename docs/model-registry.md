@@ -263,10 +263,10 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 277 | Japanese-American woman in her mid 30s, sleek low bun, small hoops | USED 2026-10-16 — #206 Christmas Cats hoodie cover (fal Seedream 4, decorated living room with a real cat; try 1 kept) |
 | 278 | Brazilian woman in her early 40s, voluminous dark curls, red lipstick | USED 2026-10-16 — #207 Vintage Snowman hoodie cover (fal Seedream 4, snowy main street; try 2 kept: try 1 showed a lighter panel behind the print, so the art was flattened on a darker navy) |
 | 279 | White woman in her late 40s, silver-blonde chin-length bob, golf visor | USED 2026-10-16 — #208 Christmas Golf hoodie cover |
-| 280 | Black man in his late 30s, close-cropped hair, full beard, broad build | RESERVED — #209 Mountain Christmas Bear hoodie (with #281) cover |
-| 281 | White woman in her early 40s, long chestnut hair under a cream knit beanie | RESERVED — #209 Mountain Christmas Bear hoodie (with #280) cover |
-| 282 | Korean-American man in his late 20s, swept-back black hair, clean-shaven | RESERVED — #210 Ski Lodge hoodie (with #283) cover |
-| 283 | Latina woman in her late 20s, honey-brown balayage waves | RESERVED — #210 Ski Lodge hoodie (with #282) cover |
+| 280 | Black man in his late 30s, close-cropped hair, full beard, broad build | USED 2026-10-16 — #209 Mountain Christmas Bear hoodie cover (with #281) |
+| 281 | White woman in her early 40s, long chestnut hair under a cream knit beanie | USED 2026-10-16 — #209 cover (with #280) |
+| 282 | Korean-American man in his late 20s, swept-back black hair, clean-shaven | USED 2026-10-16 — #210 Ski Lodge hoodie cover (with #283) |
+| 283 | Latina woman in her late 20s, honey-brown balayage waves | USED 2026-10-16 — #210 cover (with #282) |
 | 284 | White woman in her early 50s, short silver pixie cut, laugh lines | RESERVED — #211 Golden Retriever hoodie cover |
 | 285 | Black woman in her mid 30s, long box braids in a low ponytail | RESERVED — #212 Christmas on the Farm horse hoodie cover |
 | 286 | Filipino-American woman in her early 30s, shoulder-length black hair with bangs | RESERVED — #213 Dough Ho Ho tee cover |
