@@ -3322,6 +3322,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-christmas-cats-hoodie": {
+   "claimed": [
+    "christmas cat hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas cat hoodie",
+     "volume": 110,
+     "kd": 40
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

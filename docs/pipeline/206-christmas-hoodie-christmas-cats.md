@@ -18,3 +18,4 @@ handle: womens-christmas-christmas-cats-hoodie
 ---
 ## Log
 - 2026-10-16 17:20 UTC director: brief written, READY (lane A Christmas hoodie twins, R11.5).
+- 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361819279664 (18500; Sand + Sport Grey x S-3XL = 12). Navy swapped for Sport Grey: the black tuxedo cat sinks into Navy. Uses the CLEANED print file 1087675289 (wreath disc knocked out), 9.9 in wide / 10.7 in tall at the top of the area (FW=1481 TOP=0), Printful sync 482262171. Copy/SEO/tags/price, christmas cat hoodie 110/KD40 in map, cover #277 (try 1; real cat on the sofa arm, not in her arms), 2 fronts + back, variant images, audit PASS, docs/review/206.jpg. Printful link queued (runner): `FORCE=1 FW=1481 TOP=0 python3 scripts/pf-sync.py setfile 482262171 1087675289 1080398177`. REVIEW once synced = 12.
