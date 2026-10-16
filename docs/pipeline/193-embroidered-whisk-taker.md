@@ -1,5 +1,5 @@
-status: PARKED
-reason: waits for the 5-item embroidery pilot (192, 196, 197, 198, 199) to pass review (Sam 2026-10-16). Price on release: crewneck $34.99 + $5 chest = $39.99 / $44.99 (R12.1 embroidered).
+status: READY
+note: waits for the 5-item embroidery pilot (192, 196, 197, 198, 199) to pass review (Sam 2026-10-16). Price on release: crewneck $34.99 + $5 chest = $39.99 / $44.99 (R12.1 embroidered).
 lane: B
 type: new
 id: 193
@@ -27,3 +27,4 @@ handle: womens-embroidered-whisk-taker-matcha-crewneck-sweatshirt
 - 2026-10-16 15:30 UTC director: brief written, READY (embroidered-sweatshirts, cold-weather push R11.5).
 
 - 2026-10-16 17:19 UTC director: PARKED until the embroidery pilot passes review.
+- 2026-10-16 19:05 UTC director: READY: the embroidery pilot passed (3 of 5 live, R4.8 pilot result). Lettering must be hand-drawn (not a default font), even line weight, any cuff text one short word at least 0.25 in tall.
