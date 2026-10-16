@@ -293,3 +293,4 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 307 | Hmong-American man in his early 30s, short spiky black hair | RESERVED — #233 Tree Sitter camo hoodie cover |
 | 308 | Greek-American man in his late 20s, dark wavy hair, trimmed beard, muscular | RESERVED — #234 Study in Hypertrophy oversized hoodie cover |
 | 309 | White man in his mid 50s, grey crew cut, sunglasses pushed up on his head | RESERVED — #235 Reel Talk half zip cover |
+| 400 | Native American man in his mid 40s, short cropped black hair, blaze-orange cap | USED 2026-10-16 — #157 No Deer Today cover redo (replaces #227's long-braid model whose braid covered the print; fal Seedream 4 from the Black tee mockup, 3 images, best kept) |
