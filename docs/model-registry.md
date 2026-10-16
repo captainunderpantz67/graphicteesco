@@ -242,7 +242,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 256 | Pair: Japanese-American woman in her late 20s, sleek bob + Mexican-American man in his late 20s, wavy hair | RESERVED — #186 Slurp Responsibly hoodie cover (man + woman) |
 | 257 | White woman in her early 20s, platinum blonde space buns, glitter eyeliner | RESERVED — #187 Low Battery hoodie cover |
 | 258 | Pair: white man in his mid 60s, white mustache + white woman in her early 60s, silver bob | RESERVED — #188 Lake Life hoodie cover (man + woman) |
-| 259 | Pair: Puerto Rican woman in her early 40s, dark curls + Irish-American man in his early 40s, ginger beard | RESERVED — #189 Vintage Santa hoodie cover (man + woman) |
+| 259 | Pair: Puerto Rican woman in her early 40s, dark curls + Irish-American man in his early 40s, ginger beard | USED 2026-10-16 — #189 Vintage Santa hoodie cover (fal Seedream 4, tree lot at dusk; try 1 kept) |
 | 260 | White woman in her late 20s, long strawberry-blonde braid, freckles | RESERVED — #190 Highland Cow hoodie cover |
 | 261 | Persian-American woman in her mid 30s, glossy dark waves, red lipstick | RESERVED — #191 Nutcracker Bow hoodie cover |
 | 262 | Black woman in her late 20s, short natural curls, gold hoops | RESERVED — #192 Cherry Picked embroidered crewneck cover |

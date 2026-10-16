@@ -2920,6 +2920,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-christmas-vintage-santa-hoodie": {
+   "claimed": [
+    "santa hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "santa hoodie",
+     "volume": 5400,
+     "kd": 38
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

@@ -16,7 +16,7 @@ cat, fu, w, h, bu, vids, out = sys.argv[1:8]; w, h = int(w), int(h)
 pf = call('GET', f'/mockup-generator/printfiles/{cat}')
 vp = pf['variant_printfiles'][0]['placements']; P = {p['printfile_id']: p for p in pf['printfiles']}
 fa = P[vp['front']]; aw, ah = fa['width'], fa['height']
-fw = min(aw, 1500); nh = round(fw * h / w)  # 10 in wide at 150 dpi, 0.5 in below the top of the print area
+fw = min(aw, int(os.environ.get('FW', 1500))); nh = round(fw * h / w)  # 10 in wide at 150 dpi, 0.5 in below the top of the print area
 files = [{'placement': 'front', 'image_url': fu, 'position': {'area_width': aw, 'area_height': ah, 'width': fw, 'height': nh, 'top': 75, 'left': (aw - fw) // 2}}]
 if bu != '-':
     ba = P[vp['back']]; bw = round(ba['width'] * 0.3)

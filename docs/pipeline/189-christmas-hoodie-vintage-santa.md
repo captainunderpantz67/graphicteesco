@@ -18,3 +18,4 @@ handle: unisex-christmas-vintage-santa-hoodie
 ---
 ## Log
 - 2026-10-16 14:29 UTC director: brief written, READY (Christmas hoodie twin, R11.5 lane A).
+- 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361624834352 (Pullover 18500, Sand + Navy x S-3XL = 12; Sand stops at 3XL), reused tee print file 1085667808 (Printful sync 482242707), 11 in wide. Copy/SEO/tags/price (39.99/44.99); keyword santa hoodie 5,400/KD38 in map; cover #259 (try 1, man + woman, covers.ts); 2 front mockups + 1 back, variant images linked; audit (audit-local.py) PASS 0 warn; docs/review/189.jpg. Printful link queued: `FORCE=1 FW=1650 python3 scripts/pf-sync.py setfile 482242707 1085667808 1080398177`. Set REVIEW once synced = 12.
