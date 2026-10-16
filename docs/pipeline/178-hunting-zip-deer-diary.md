@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16
+status: REVIEW
 lane: B
 type: twin
 id: 178
@@ -26,3 +26,4 @@ handle: mens-hunting-deer-diary-zip-hoodie
 - 2026-10-16 18:40 UTC director: REDO (product stays DRAFT). Notes:
   1. R6.8/R8.6 (cover garment): the hood is a sherpa/fleece-lined hood, which the Gildan 18600 doesn't have; a shopper would expect a sherpa-lined zip hoodie. The hood also hangs over the top of DEER DIARY. One more attempt under R6.9 (new line): generate from the Ash BACK mockup as the --design reference (the method that fixed #181), plain cotton-fleece hood, hood down but not covering the lettering, read every word against the art before saving.
   2. Product, copy, sync and mockups are fine: only the cover changes.
+- 2026-10-16 18:46 UTC [B]: REDO done: cover only (R6.9 redo): generated from the Sport Grey BACK mockup with 3 images per call; plain cotton-fleece hood resting behind the neck, DEER DIARY and the buck fully readable, no zipper on the back. Review sheet docs/review/178.jpg.
