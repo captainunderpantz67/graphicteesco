@@ -157,6 +157,8 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-football-mom-down-set-snacks-graphic-tee': { src: '/covers/womens-football-mom-down-set-snacks-graphic-tee.webp', alt: 'Woman with wavy auburn hair on high school football bleachers under Friday night lights holding popcorn wearing the Down, Set, Snacks tee' },
   'unisex-anime-slurp-responsibly-graphic-tee': { src: '/covers/unisex-anime-slurp-responsibly-graphic-tee.webp', alt: 'Man and woman standing at a neon-lit ramen shop counter at night with steaming bowls behind them, both wearing the Slurp Responsibly tee' },
   'womens-cropped-matcha-made-in-heaven-graphic-tee': { src: '/covers/womens-cropped-matcha-made-in-heaven-graphic-tee.webp', alt: 'Woman with curly blonde hair sitting in a sunny cafe booth with a matcha latte, wearing the Matcha Made in Heaven cropped tee' },
+  'womens-y2k-low-battery-high-standards-graphic-tee': { src: '/covers/womens-y2k-low-battery-high-standards-graphic-tee.webp', alt: 'Woman with long pink wavy hair and hoop earrings standing in a bright shopping mall with a fountain, wearing the Low Battery, High Standards tee' },
+  'unisex-anime-mecha-mondays-graphic-tee': { src: '/covers/unisex-anime-mecha-mondays-graphic-tee.webp', alt: 'Man and woman smiling side by side in a retro anime and comic shop, both wearing the Mecha Mondays tee' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

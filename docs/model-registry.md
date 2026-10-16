@@ -176,8 +176,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 190 | Man in his early 40s, shaved head, short red beard | USED 2026-10-16 — Cheaper Than Therapy fishing tee cover (fal Seedream 4, riverbank pickup at golden hour; try 1 kept)|
 | 191 | Man in his late 20s, black undercut, round glasses + woman in her late 20s, blunt bangs, dyed teal ends | USED 2026-10-16 — Slurp Responsibly anime tee cover, man + woman (fal Seedream 4, ramen shop at night; try 2 kept — try 1 had a hand over the print)|
 | 192 | Woman in her early 20s, curly blonde hair, freckles | USED 2026-10-16 — Matcha Made in Heaven cropped tee cover (fal Seedream 4, sunny cafe booth; try 1 kept) |
-| 193 | Woman in her mid 20s, long wavy pink-dyed hair, hoop earrings | BUILDING [B] — Low Battery, High Standards y2k tee cover |
-| 194 | Man in his early 30s, curly dark hair, wire glasses + woman in her early 30s, high bun, freckles | BUILDING [B] — Mecha Mondays anime tee cover (unisex pair) |
+| 193 | Woman in her mid 20s, long wavy pink-dyed hair, hoop earrings | USED 2026-10-16 — Low Battery, High Standards y2k tee cover (fal Seedream 4, mall with fountain; try 1 kept) |
+| 194 | Man in his early 30s, curly dark hair, wire glasses + woman in her early 30s, high bun, freckles | USED 2026-10-16 — Mecha Mondays anime tee cover, man + woman (fal Seedream 4, anime/comic shop; try 2 kept: try 1 garbled the title with an apostrophe, MONDAY'S) |
 | 195 | Woman in her late 30s, sandy blonde ponytail, sunglasses pushed up | BUILDING [B] — Bases Loaded baseball mom tee cover |
 | 196 | Woman in her early 40s, short dark curly hair | BUILDING [B] — Orange Slice Supplier soccer mom tee cover |
 | 197 | Woman in her late 60s, short white curls, cardigan | BUILDING [B] — Casserole Ministry christian tee cover |

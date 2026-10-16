@@ -2694,6 +2694,41 @@
      "gap": 8.64
     }
    ]
+  },
+  "womens-y2k-low-battery-high-standards-graphic-tee": {
+   "claimed": [
+    "low battery shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "butterfly shirt",
+     "volume": 3600,
+     "kd": 50,
+     "competition": null,
+     "gap": 7.53
+    },
+    {
+     "phrase": "low battery tshirt",
+     "volume": 90,
+     "kd": 44,
+     "competition": null,
+     "gap": 1.42
+    }
+   ]
+  },
+  "unisex-anime-mecha-mondays-graphic-tee": {
+   "claimed": [
+    "retro anime shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "robot shirt",
+     "volume": 720,
+     "kd": 46,
+     "competition": null,
+     "gap": 4.08
+    }
+   ]
   }
  }
 }
