@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-16 19:30 UTC
+status: REVIEW
 lane: A
 type: twin
 id: 216
@@ -19,3 +19,4 @@ handle: womens-christmas-hello-winter-snowflakes-hoodie
 ## Log
 - 2026-10-16 19:05 UTC director: brief written, READY (lane A holiday hoodie twin, R11.5).
 - 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15362001174832 (18500; Sand + Sport Grey; Navy dropped because the navy HELLO WINTER line sinks into it x S-3XL = 12), tee file 1083442052 at FW=1109 TOP=0, Printful sync 482283084. Copy/SEO/tags/price, keyword in map, cover (try 1 of 2 from the Printful mockup), 2 fronts + back, variant images, audit PASS, docs/review/216.jpg. Printful link queued (runner): `FORCE=1 FW=1109 TOP=0 python3 scripts/pf-sync.py setfile 482283084 1083442052 1080398177`. REVIEW once synced = 12.
+- 2026-10-16 23:24 UTC builder [A]: Printful sync complete; REVIEW.
