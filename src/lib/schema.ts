@@ -110,16 +110,19 @@ export const storyText = (html: string) => {
     .trim();
 };
 
-// site.facts.returnsPolicy as schema.org. Printed to order: no returns for size or change of mind, so the
-// honest category is "not permitted" (misprints/damage are reprinted or refunded as a service, not a return).
-// Must match /shipping-returns/ and any Search Console return settings (backtrack research 2026-10-16).
+// site.facts.returnsPolicy as schema.org (Sam, 2026-10-16): one free size exchange within 30 days, nothing to
+// mail back; misprints/damage reprinted or refunded. Must match /shipping-returns/, Shopify's refund policy and
+// any Search Console return settings.
 const returnPolicy = () => {
   const f = site.facts;
-  if (!f.returnsPolicy || !f.returnCountry) return undefined;
+  if (!f.returnsPolicy || !f.returnWindowDays || !f.returnCountry) return undefined;
   return {
     '@type': 'MerchantReturnPolicy',
     applicableCountry: f.returnCountry,
-    returnPolicyCategory: 'https://schema.org/MerchantReturnNotPermitted',
+    returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
+    merchantReturnDays: f.returnWindowDays,
+    returnFees: 'https://schema.org/FreeReturn',
+    refundType: 'https://schema.org/ExchangeRefund',
   };
 };
 

@@ -48,7 +48,7 @@ export const site = {
     teeBlank: null,
     hoodieBlank: null,
     freeShippingThreshold: null,
-    returnsPolicy: 'Every tee is printed to order, so we can’t take returns for size or change of mind. If your order arrives misprinted, damaged or defective, send us a photo within 30 days of delivery and we’ll reprint it free or refund you. Lost packages are covered the same way within 30 days of the estimated delivery date.', // Printful policy, confirmed by Sam 2026-10-06
+    returnsPolicy: 'Wrong size? Within 30 days of delivery we’ll send one replacement in a new size free, and you don’t have to mail the first one back. If an order arrives misprinted, damaged or defective, send us a photo within 30 days and we’ll reprint it free or refund you. Lost packages are covered the same way within 30 days of the estimated delivery date.', // best-practice exchange policy, Sam 2026-10-16
     returnWindowDays: 30, // from returnsPolicy: "within 30 days of delivery"
     returnCountry: 'US',
     hoodiesLive: false, // 2026-10-06: 0 hoodies in the store. Flip to true when the first one ships.

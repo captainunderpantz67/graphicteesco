@@ -260,8 +260,10 @@ Goal: ChatGPT, Perplexity, Google AI Overviews / AI Mode, Gemini, Copilot and Cl
    - The director creates missing collections first (cropped-hoodies, cropped-sweatshirts, embroidered-sweatshirts: Shopify smart collection by tag + collections.ts with hand-written copy and FAQs) and switches each hoodie collection on (hoodiesLive / the collection's flag) the run its first product goes LIVE.
    - Director reviews hourly-equivalent: when 6+ items wait in REVIEW, review them before writing briefs.
    - **Collections added 2026-10-16 (director):** cropped-hoodies, cropped-sweatshirts, embroidered-sweatshirts, christian-hoodies (christian hoodie 18,100 / KD 44). Printful has no cropped crewneck, so cropped-sweatshirts carries the cropped hoodies (tag both cropped-hoodies and cropped-sweatshirts; copy says they have a hood). Embroidered sweatshirts use Printful embroidery on Gildan 18000 with new Style B line art (R4.3), not a reused print file.
-6. **After the build: color backfill** on every hoodie and cold-weather product to the full legible range (≤100 variants), then evergreen tees to 28.
-7. **Coming (Sam upgrading to Max 2026-10-16):** hoodie pages (zip-up 135,000/KD28, heavyweight 14,800/KD20, oversized hoodie 165,000/KD38, plus niche hoodies); crop tops and cropped sweatshirts; custom "___ shirt" configurator pages (pets first, then football mom name/number; max 2 regenerations; order handoff tested with a 100% discount code + Printful draft orders only).
+6. **Styles (Sam, 2026-10-16):** the shop-by-style section gets every style with measured volume and low enough KD to claim quickly (retro 22,200/54, embroidered 12,100/56, funny 5,400/58, boho 260/32, plus any the director measures), each as its own collection with hand-written copy and FAQs. Vintage stays.
+7. **Men's redo (Sam, 2026-10-16: "redo all the lame men's shirts"):** every older men's design with a weak or generic line gets redone in place (R11.4), alongside cold-weather in lane B.
+8. **After the build: color backfill** on every hoodie and cold-weather product to the full legible range (≤100 variants), then evergreen tees to 28.
+9. **Coming:** hoodie pages (zip-up 135,000/KD28, heavyweight 14,800/KD20, oversized hoodie 165,000/KD38, plus niche hoodies); crop tops and cropped sweatshirts; custom "___ shirt" configurator pages (pets first, then football mom name/number; max 2 regenerations; order handoff tested with a 100% discount code + Printful draft orders only).
 
 ## R12. Pricing and shipping
 1. **PRICING v2:** holiday sale through Nov 30, 2026.
@@ -278,9 +280,10 @@ Goal: ChatGPT, Perplexity, Google AI Overviews / AI Mode, Gemini, Copilot and Cl
      | Oversized | $54.99 | $59.99 |
      | Cropped | $44.99 | $49.99 |
    - From Dec 1: tees $29.99, crewnecks $39.99, hoodies at their regular price above, no compare-at. The audit flips automatically.
-2. **Free US shipping on $45+** (automatic Shopify discount). Under $45, the Printful profile rates apply (tees $4.95 flat).
-3. The announcement bar says "Holiday sale: tees $24.99 · Free US shipping on $45+" only once the audit shows zero price errors. Until then it says the shipping line only.
-4. **fal budget:** about $0.15 per product is normal. If a run passes $5, stop generating, log it and Telegram Sam.
+2. **Returns (Sam, 2026-10-16, best practice):** one free size exchange within 30 days of delivery (we print the new size; nothing to mail back); misprints/damage reprinted or refunded within 30 days. Site copy, schema (src/lib/schema.ts), Shopify refund policy and Search Console settings must all say the same thing.
+3. **Free US shipping on $45+** (automatic Shopify discount). Under $45, the Printful profile rates apply (tees $4.95 flat).
+4. The announcement bar says "Holiday sale: tees $24.99 · Free US shipping on $45+" only once the audit shows zero price errors. Until then it says the shipping line only.
+5. **fal budget:** about $0.15 per product is normal. If a run passes $5, stop generating, log it and Telegram Sam.
 
 ## R13. Cohesion: does it look hand-merchandised?
 1. `node scripts/cohesion-audit.mjs` reads the store like a shopper and like Google. It checks:
