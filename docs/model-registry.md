@@ -174,7 +174,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 188 | Woman in her early 20s, long box braids, small nose stud | USED 2026-10-15 — IV League nurse tee cover (fal Seedream 4, nursing school campus; try 1 kept) |
 | 189 | Woman in her mid 40s, wavy auburn hair in a claw clip | USED 2026-10-16 — Down, Set, Snacks football mom tee cover (fal Seedream 4, Friday-night bleachers; try 1 kept)|
 | 190 | Man in his early 40s, shaved head, short red beard | USED 2026-10-16 — Cheaper Than Therapy fishing tee cover (fal Seedream 4, riverbank pickup at golden hour; try 1 kept)|
-| 191 | Man in his late 20s, black undercut, round glasses + woman in her late 20s, blunt bangs, dyed teal ends | BUILDING [B] — Slurp Responsibly anime tee cover (unisex pair) |
+| 191 | Man in his late 20s, black undercut, round glasses + woman in her late 20s, blunt bangs, dyed teal ends | USED 2026-10-16 — Slurp Responsibly anime tee cover, man + woman (fal Seedream 4, ramen shop at night; try 2 kept — try 1 had a hand over the print)|
 | 192 | Woman in her early 20s, curly blonde hair, freckles | BUILDING [B] — Matcha Made in Heaven cropped tee cover |
 | 193 | Woman in her mid 20s, long wavy pink-dyed hair, hoop earrings | BUILDING [B] — Low Battery, High Standards y2k tee cover |
 | 194 | Man in his early 30s, curly dark hair, wire glasses + woman in her early 30s, high bun, freckles | BUILDING [B] — Mecha Mondays anime tee cover (unisex pair) |

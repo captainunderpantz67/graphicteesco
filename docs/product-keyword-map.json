@@ -2651,6 +2651,28 @@
      "kd": 65
     }
    ]
+  },
+  "unisex-anime-slurp-responsibly-graphic-tee": {
+   "claimed": [
+    "ramen t shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "ramen t shirt",
+     "volume": 1300,
+     "kd": 38
+    },
+    {
+     "phrase": "ramen shirt",
+     "volume": 1000,
+     "kd": 42
+    },
+    {
+     "phrase": "noodle shirt",
+     "volume": 320,
+     "kd": 50
+    }
+   ]
   }
  }
 }

@@ -1514,7 +1514,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Primary keyword:** daddy fishing shirt — 140 / KD 36
 - **Cover model:** registry #190
 
-### 121. Unisex Anime – Slurp Responsibly Tee  *(BUILDING [B])*
+### 121. Unisex Anime – Slurp Responsibly Tee  *(built 2026-10-16)*
 - **Handle:** `unisex-anime-slurp-responsibly-graphic-tee` · **Blank:** Bella+Canvas 3001, $29.99 · tags anime-shirts, graphic-tees-for-men, graphic-tees-for-women
 - **Hook:** "Slurp Responsibly" — a drink-responsibly warning for ramen, from an original calico cat chef mid-slurp.
 - **Why it's not taken:** ramen-cat shirts exist, but as cute kawaii art without a line; this one is a retro 90s cel-style print with the joke. Original character only.
