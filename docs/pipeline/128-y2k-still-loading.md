@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16T08:38Z
+status: REVIEW
 lane: B
 type: new
 id: 128
@@ -16,3 +16,4 @@ handle: womens-y2k-still-loading-graphic-tee
 ---
 ## Log
 - 2026-10-16 08:40 UTC director: moved from docs/design-briefs.md (was BUILDING there; that lane's run ended without finishing). READY to resume.
+- 2026-10-16 09:48 UTC [B]: finished from resume: Printful synced 48/48 (file 1087368544), cover checked + registered, price 24.99/29.99, mockups regenerated from the new print file (the earlier ones came from the first-run art), variant images linked, keyword map, review sheet docs/review/128.jpg. Audit script needs a Storefront token: cohesion checked by hand.
