@@ -215,7 +215,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 229 | Black woman in her early 30s, long box braids in a high ponytail, gold statement earrings | RESERVED — #159 Sleigh Queen tee cover (director 2026-10-16) |
 | 230 | White woman in her late 40s, chestnut lob haircut, tortoiseshell glasses | RESERVED — #160 Sleigh Queen crewneck cover |
 | 231 | South Asian man in his early 30s, neat side-part, clean-shaven, slim build | USED 2026-10-16 — #161 Technically a Sweater tee cover (fal Seedream 4, office holiday party; try 2 kept: try 1 repeated A SWEATER and used the wrong face) |
-| 232 | Pair: white man in his late 20s, red beard, beanie + Vietnamese-American woman in her late 20s, straight black hair with bangs | RESERVED — #162 Technically a Sweater crewneck cover (man + woman) |
+| 232 | Pair: white man in his late 20s, red beard, beanie + Vietnamese-American woman in her late 20s, straight black hair with bangs | USED 2026-10-16 — #162 Technically a Sweater crewneck cover (fal Seedream 4, ugly-sweater party living room; try 1 kept) |
 | 233 | Puerto Rican man in his early 30s, curly black hair, muscular build | RESERVED — #163 Beach Body Pending redo cover |
 | 234 | White man in his late 40s, ginger handlebar mustache, shaved head | RESERVED — #164 Peaked in 1898 redo cover |
 | 235 | Black man in his mid 30s, short twists, athletic build | RESERVED — #165 Conflict Resolution redo cover |
