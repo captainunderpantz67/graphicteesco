@@ -3283,6 +3283,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-cardinal-christmas-hoodie": {
+   "claimed": [
+    "cardinal hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cardinal hoodie",
+     "volume": 210,
+     "kd": 33
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

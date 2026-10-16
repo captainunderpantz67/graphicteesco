@@ -253,7 +253,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 267 | Korean-American woman in her late 20s, chin-length bob with blunt bangs | USED 2026-10-16 — #200 Skate Club Penguins hoodie cover (fal Seedream 4, ice rink at dusk; try 2 kept: try 1 redrew the print as one penguin) |
 | 268 | Black woman in her mid 30s, long box braids in a high bun | USED 2026-10-16 — #201 Polar Bear Cocoa hoodie cover (fal Seedream 4, snowy tree lot; try 1 kept) |
 | 269 | White woman in her early 40s, blonde pixie cut, tortoiseshell glasses | USED 2026-10-16 — #202 Christmas Dogs hoodie cover (fal Seedream 4, winter park at dusk; try 2 kept: try 1 moved the lettering under a mug and added a dog) |
-| 270 | Puerto Rican woman in her early 60s, silver curly bob | RESERVED — #203 Cardinal Christmas hoodie cover |
+| 270 | Puerto Rican woman in her early 60s, silver curly bob | USED 2026-10-16 — #203 Cardinal Christmas hoodie cover (fal Seedream 4, kitchen window with bird feeder; try 1 kept) |
 | 271 | Filipino-American woman around 20, long hair with curtain bangs | USED 2026-10-16 — #197 Bow Before Me cropped hoodie cover (fal Seedream 4, campus coffee shop; try 1 kept) |
 | 272 | White man in his mid 40s, salt-and-pepper beard, stocky build | USED 2026-10-16 — #198 Out of Office deer hoodie cover (fal Seedream 4, cabin porch; try 1 kept) |
 | 273 | Middle Eastern woman in her early 30s, long dark wavy hair, gold studs | USED 2026-10-16 — #199 Extra Marshmallows embroidered crewneck cover (fal Seedream 4, Christmas market; try 1 kept) |
