@@ -1,5 +1,6 @@
 RUNNING director since 2026-10-16 17:12 UTC
 2026-10-16 17:12 UTC — [A] REVIEW #191 Nutcracker Bow hoodie (synced 12/12, audit PASS, docs/review/191.jpg). Also built (DRAFT, Printful links finishing): #150 + #151 Light Show Manager tee/crewneck (covers garble lettering, see logs), #147, #148.
+2026-10-16 17:13 UTC — [B] REVIEW #183 Amazing Grace Heavyweight Hoodie: twin of tee, file 1085667871 front 11.8 x 14 in max fit + back logo, Storm Blue + Black (cream line art vanishes on Sandstone), 14/14 synced, $49.99/$54.99, cross hoodie 3600/33 + grace hoodie 140/36.
 2026-10-16 17:10 UTC — [B] REVIEW #182 Espresso Yourself Cropped Hoodie: twin of tee, file 1087506635 front 7.6 x 10 in (7502 front area is 10 in square, art is tall) + back logo, Storm only (Peach out of stock; browns/pinks lost on Black/Military Green), 5/5 synced, $44.99/$49.99, espresso hoodie 320/36.
 2026-10-16 17:05 UTC — [B] REVIEW #181 Matcha Made in Heaven Cropped Hoodie: twin of tee, file 1087363169 front 9 x 10 in + back logo, Storm only (7502 has just Black/Military Green/Storm/Peach; Peach has only an out-of-stock XL, and the deep green print vanishes on Black and Military Green), 5/5 synced, $44.99/$49.99, matcha hoodie 590/30.
 2026-10-16 17:09 UTC — [A] REVIEW #190 Highland Cow Christmas hoodie (synced 12/12, audit PASS, docs/review/190.jpg).

@@ -183,6 +183,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-cropped-espresso-yourself-cropped-hoodie': { src: '/covers/womens-cropped-espresso-yourself-cropped-hoodie.webp', alt: 'Woman with curly honey-brown hair in a claw clip at a moody coffee bar, wearing the Espresso Yourself cropped hoodie in Storm' },
   'unisex-christian-amazing-grace-heavyweight-hoodie': { src: '/covers/unisex-christian-amazing-grace-heavyweight-hoodie.webp', alt: 'Man and woman in matching navy hoodies outside a small white country church at golden hour, holding coffee, wearing the Amazing Grace cross hoodie' },
   'unisex-christmas-light-show-manager-crewneck-sweatshirt': { src: '/covers/unisex-christmas-light-show-manager-crewneck-sweatshirt.webp', alt: 'Man and woman standing together on a snowy porch at dusk beside a railing strung with Christmas lights, he holds a coffee mug, both wearing the white Light Show Manager (Unpaid) crewneck sweatshirt' },
+  'mens-gym-plate-club-heavyweight-hoodie': { src: '/covers/mens-gym-plate-club-heavyweight-hoodie.webp', alt: 'Man in a gritty warehouse gym with a loaded barbell behind him, wearing the Clean Plate Club heavyweight hoodie in Storm Blue' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

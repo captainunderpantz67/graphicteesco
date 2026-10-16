@@ -237,7 +237,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 251 | Indian-American woman in her early 20s, long wavy hair, small nose stud | USED 2026-10-16 — #181 Matcha cropped hoodie cover (fal Seedream 4, cafe counter; try 1 kept) |
 | 252 | Mixed-race woman in her mid 20s, curly honey-brown hair in a claw clip | USED 2026-10-16 — #182 Espresso cropped hoodie cover (fal Seedream 4, coffee bar; try 1 kept) |
 | 253 | Pair: Black man in his late 50s, grey temples + Black woman in her mid 50s, silver locs | USED 2026-10-16 — #183 Amazing Grace heavyweight hoodie cover (fal Seedream 4, country church; try 1 kept) |
-| 254 | Tongan man in his late 20s, very broad build, short black hair | RESERVED — #184 Clean Plate Club heavyweight hoodie cover |
+| 254 | Tongan man in his late 20s, very broad build, short black hair | USED 2026-10-16 — #184 Clean Plate Club heavyweight hoodie cover (fal Seedream 4, warehouse gym; try 1 kept) |
 | 255 | White man in his early 40s, red hair, freckles, lean runner build | RESERVED — #185 Leg Day Survivor hoodie cover |
 | 256 | Pair: Japanese-American woman in her late 20s, sleek bob + Mexican-American man in his late 20s, wavy hair | RESERVED — #186 Slurp Responsibly hoodie cover (man + woman) |
 | 257 | White woman in her early 20s, platinum blonde space buns, glitter eyeliner | RESERVED — #187 Low Battery hoodie cover |
