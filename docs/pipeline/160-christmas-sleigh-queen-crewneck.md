@@ -1,4 +1,5 @@
-status: READY
+status: PARKED
+reason: DROPPED 2026-10-16 director: duplicates the live Sleigh Queen product (same name/handle). The live tee stays as built (R3.9); no replacement art.
 lane: A
 type: twin
 id: 160
@@ -17,3 +18,5 @@ handle: womens-christmas-sleigh-queen-crewneck-sweatshirt
 ## Log
 - 2026-10-16 10:24 UTC director: brief written, READY.
 - 2026-10-16 14:24 UTC director: keyword collision fix (R2.8): primary → sleigh sweatshirt; art follows #159 (candy-cane stripe letters).
+- 2026-10-16 UTC builder [A]: PARKED with #159: handle womens-christmas-sleigh-queen-crewneck-sweatshirt already exists and is ACTIVE (Shopify 15356144714032, 42 variants). See #159.
+- 2026-10-16 17:21 UTC director: dropped. The live Sleigh Queen tee keeps its art (R3.9: built products stay; R1.4 fix-in-place is for defects, not restyles). Keywords sleigh all day shirt / sleigh sweatshirt stay free for a new design.

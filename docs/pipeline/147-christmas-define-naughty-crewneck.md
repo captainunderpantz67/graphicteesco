@@ -1,4 +1,4 @@
-status: READY
+status: REDO
 lane: A
 type: twin
 id: 147
@@ -16,3 +16,8 @@ handle: unisex-christmas-define-naughty-crewneck-sweatshirt
 ---
 ## Log
 - 2026-10-16 08:45 UTC director: brief written, READY.
+- 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361639285040 (Gildan 18000, Navy, Dark Heather, Forest Green, Military Green, Dark Chocolate, Maroon x S-3XL = 35; no Black, linework disappears), reused file 1087518142 (Printful sync 482246597), copy/SEO/tags/price 34.99/39.99, keywords naughty sweater 90/42 + santa sweater 1,900/56, cover #217 (try 2 kept, try 1 cup over print), 6 fronts + back, variant images, audit PASS, docs/review/147.jpg. Printful link queued: `FORCE=1 python3 scripts/pf-sync.py setfile 482246597 1087518142 1080398177`. REVIEW once synced = 35.
+- 2026-10-16 UTC builder [A]: Printful synced 35/35. → REVIEW.
+- 2026-10-16 18:40 UTC director: REDO (product stays DRAFT). Notes:
+  1. R6.5/R6.7 (cover): the woman's coffee cup sits over DEFINE NAUGHTY on her sweatshirt, so the word line reads "DEFINE NAU". Both attempts had a cup on the print. One more attempt under R6.9 (new line): hands empty (in pockets or at the sides), no drinks, generated with the Navy crewneck mockup as the --design reference. Keep the office-party scene and both registry rows.
+  2. Product, copy, sync and mockups are fine: only the cover changes.

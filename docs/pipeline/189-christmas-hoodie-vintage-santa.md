@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-16 17:00 UTC
+status: LIVE
 lane: A
 type: twin
 id: 189
@@ -18,3 +18,12 @@ handle: unisex-christmas-vintage-santa-hoodie
 ---
 ## Log
 - 2026-10-16 14:29 UTC director: brief written, READY (Christmas hoodie twin, R11.5 lane A).
+- 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361624834352 (Pullover 18500, Sand + Navy x S-3XL = 12; Sand stops at 3XL), reused tee print file 1085667808 (Printful sync 482242707), 11 in wide. Copy/SEO/tags/price (39.99/44.99); keyword santa hoodie 5,400/KD38 in map; cover #259 (try 1, man + woman, covers.ts); 2 front mockups + 1 back, variant images linked; audit (audit-local.py) PASS 0 warn; docs/review/189.jpg. Printful link queued: `FORCE=1 FW=1650 python3 scripts/pf-sync.py setfile 482242707 1085667808 1080398177`. Set REVIEW once synced = 12.
+- 2026-10-16 UTC builder [A]: Printful synced 12/12. → REVIEW.
+- 2026-10-16 17:15 UTC director: REDO (product stays DRAFT). Notes:
+  1. R5.3.5 (lettering readable): MERRY CHRISTMAS sits across the top of the pouch pocket on both mockups and its lower half is cut off ("MFRRY CHRISTMAS"). Re-place the file higher and slightly smaller so the whole word line clears the pocket seam (check the 18500 front print area against the pocket), re-sync 12, regenerate mockups.
+  2. R6.5 (props over print): both mugs sit on top of MERRY CHRISTMAS on the cover. Regenerate the cover after the re-place, mugs held at the hip or to the side, print fully visible.
+  3. Copy and price are fine.
+- 2026-10-16 UTC builder [A]: REDO handled. Print re-placed higher and smaller: 8.3 in wide, top of print area (FW=1250 TOP=0), so MERRY CHRISTMAS clears the pocket seam (checked on the new Navy mockup). New mockups swapped in place (fileUpdate), new cover (REDO try 3 kept: hood visible on both, mugs at the belt, whole line visible; tries 1-2 had a hoodless man / a mug over the word), re-sync of all 12 running: `FORCE=1 FW=1250 TOP=0 python3 scripts/pf-sync.py setfile 482242707 1085667808 1080398177`. Set to REVIEW once 12/12. Lesson for all 18500 pullovers: keep the print about 10 in tall max with TOP=0 so nothing meets the pocket (#190/#191 were re-placed the same way: FW=1500 and FW=1020 TOP=0, re-sync queued).
+- 2026-10-16 UTC builder [A]: re-sync with the new placement done 12/12. → REVIEW (docs/review/189.jpg refreshed).
+- 2026-10-16 18:40 UTC director: LIVE: ACTIVE + Online Store + Headless, audit --handle PASS. Copy fix: removed "with no frame or shape around it" (R8.3).

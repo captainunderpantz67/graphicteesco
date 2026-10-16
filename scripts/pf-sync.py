@@ -10,7 +10,7 @@ def call(method, path, body=None):
     for _ in range(8):
         r = urllib.request.Request('https://api.printful.com' + path, method=method,
             data=json.dumps(body).encode() if body is not None else None,
-            headers={'Authorization': 'Bearer ' + T, 'Content-Type': 'application/json'})
+            headers={'Authorization': 'Bearer ' + T, 'Content-Type': 'application/json', 'User-Agent': 'gtc-builder'})
         try:
             return json.load(urllib.request.urlopen(r, timeout=60))['result']
         except urllib.error.HTTPError as e:
@@ -23,8 +23,8 @@ def front_pos(variant_id, w, h):
     pid = call('GET', f'/products/variant/{variant_id}')['product']['id']
     pf = call('GET', f'/mockup-generator/printfiles/{pid}')
     vp = next(x for x in pf['variant_printfiles'] if x['variant_id'] == variant_id)['placements']['front']
-    a = next(x for x in pf['printfiles'] if x['printfile_id'] == vp); fw = min(a['width'], 1500)
-    return {'area_width': a['width'], 'area_height': a['height'], 'width': fw, 'height': round(fw * h / w), 'top': 75, 'left': (a['width'] - fw) // 2}
+    a = next(x for x in pf['printfiles'] if x['printfile_id'] == vp); fw = min(a['width'], int(os.environ.get('FW', 1500)))
+    return {'area_width': a['width'], 'area_height': a['height'], 'width': fw, 'height': round(fw * h / w), 'top': int(os.environ.get('TOP', 75)), 'left': (a['width'] - fw) // 2}
 cmd = sys.argv[1]
 if cmd == 'upload':
     print(call('POST', '/files', {'url': sys.argv[2], 'filename': sys.argv[3], 'visible': True})['id'])

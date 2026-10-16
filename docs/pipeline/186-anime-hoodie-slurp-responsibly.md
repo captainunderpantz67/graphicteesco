@@ -1,4 +1,4 @@
-status: READY
+status: LIVE
 lane: B
 type: twin
 id: 186
@@ -18,3 +18,5 @@ handle: unisex-anime-slurp-responsibly-hoodie
 ---
 ## Log
 - 2026-10-16 14:28 UTC director: brief written, READY (cold-weather push, Sam 2026-10-16).
+- 2026-10-16 17:25 UTC [B]: built as DRAFT; twin of tee, file 1087188286 front 12.1 in + back logo, Sand + Navy (cream/orange cat reads on both, black patches merge on Navy), 14/14 synced, $39.99/$44.99, ramen hoodie 3600/19. Cover note: try 2 kept (woman's print slightly warped, man's is clean). Review sheet docs/review/186.jpg.
+- 2026-10-16 18:40 UTC director: LIVE: ACTIVE + Online Store + Headless, audit --handle PASS. Note: woman's print slightly warped on the cover, man's is faithful; accepted.

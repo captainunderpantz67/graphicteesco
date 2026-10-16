@@ -197,14 +197,14 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 211 | Woman in her late 50s, sun-kissed skin, short ash-blonde waves | USED 2026-10-16 — Christmas Golf crewneck cover (fal Seedream 4, try 1; clubhouse at Christmas) |
 | 212 | Woman in her mid 20s, long dark hair in a sleek low ponytail with a velvet bow | USED 2026-10-16 — Nutcracker Bow crewneck cover (fal Seedream 4, try 1; nutcracker mantel) |
 | 213 | Woman in her late 30s, strawberry-blonde braid over one shoulder | USED 2026-10-16 — Highland Cow Christmas crewneck cover (fal Seedream 4, try 1; farm Christmas market) |
-| 214 | Woman in her early 40s, short natural curls, warm brown eyes | USED 2026-10-16 — Gingerbread Lane crewneck cover (fal Seedream 4, try 1; cookie-decorating kitchen) |
+| 214 | Woman in her early 40s, short natural curls, warm brown eyes | USED 2026-10-16 — Gingerbread Lane crewneck cover (fal Seedream 4, try 1; cookie-decorating kitchen); REDO 2026-10-16: regenerated for the redrawn frameless art (try 1 kept) |
 | 215 | Woman in her late 60s, white shoulder-length hair, rosy cheeks | USED 2026-10-16 — Vintage Snowman crewneck cover (fal Seedream 4, try 1; snow-day cabin) |
 | 216 | Black man in his late 30s, short fade, neat full beard, broad build | USED 2026-10-16 — Define Naughty tee cover (fal Seedream 4, try 2: try 1 mug covered the print; living room, Christmas morning) |
-| 217 | Pair: Filipino man in his early 30s, side-parted black hair + white woman in her early 30s, copper-red shoulder-length hair | RESERVED — #147 Define Naughty crewneck cover (man + woman) |
+| 217 | Pair: Filipino man in his early 30s, side-parted black hair + white woman in her early 30s, copper-red shoulder-length hair | USED 2026-10-16 — #147 Define Naughty crewneck cover (fal Seedream 4, office holiday party; try 2 kept: try 1 had a coffee cup over the print; her cup still clips the end of NAUGHTY, his print is complete) |
 | 218 | Latina woman in her early 30s, long dark curls, red lipstick, gold statement earrings | USED 2026-10-16 — #148 Jolly-ish tee cover (fal Seedream 4, Christmas market at dusk; try 1 kept) |
-| 219 | Korean-American woman in her late 30s, shoulder-length straight hair with face-framing layers | RESERVED — #149 Jolly-ish crewneck cover |
-| 220 | White man in his mid 40s, sandy-brown hair, wire-rim glasses, stubble | RESERVED — #150 Light Show Manager tee cover |
-| 221 | Pair: Black man in his mid 40s, salt-and-pepper short hair + Black woman in her early 40s, shoulder-length twists | RESERVED — #151 Light Show Manager crewneck cover (man + woman) |
+| 219 | Korean-American woman in her late 30s, shoulder-length straight hair with face-framing layers | USED 2026-10-16 — #149 Jolly-ish crewneck cover (fal Seedream 4, cookie exchange kitchen; try 1 kept) |
+| 220 | White man in his mid 40s, sandy-brown hair, wire-rim glasses, stubble | USED 2026-10-16 — #150 Light Show Manager tee cover (fal Seedream 4, front yard at dusk; try 2 kept: try 1 garbled the lettering, try 2 spells LIGHT SHOW MANAGER (UNPAID) right but redraws the ladder man as a banner mark: director may REDO) |
+| 221 | Pair: Black man in his mid 40s, salt-and-pepper short hair + Black woman in her early 40s, shoulder-length twists | USED 2026-10-16 — #151 Light Show Manager crewneck cover (fal Seedream 4, snowy porch; try 2 kept: both tries garble part of the lettering on this layered art; director may REDO) |
 | 222 | Samoan man in his late 20s, long dark hair tied back, heavy build | USED 2026-10-16 — Clean Plate Club redo cover (fal Seedream 4, garage gym at dawn; try 1 kept) |
 | 223 | White man in his early 60s, bald, thick grey handlebar mustache | USED 2026-10-16 — Retired From Cardio redo cover (fal Seedream 4, brick-gym porch at morning; try 1 kept) |
 | 224 | Mexican-American man in his early 40s, short black hair, trimmed goatee | USED 2026-10-16 — Sore Since 1987 redo cover (fal Seedream 4, retro neighborhood gym; try 1 kept) |
@@ -214,39 +214,51 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 228 | Black man in his early 60s, white close-cropped beard, waxed canvas jacket | USED 2026-10-16 — Quack of Dawn redo cover (fal Seedream 4, marsh edge at dawn; try 2 kept: try 1 had a jacket cutting off the print) |
 | 229 | Black woman in her early 30s, long box braids in a high ponytail, gold statement earrings | RESERVED — #159 Sleigh Queen tee cover (director 2026-10-16) |
 | 230 | White woman in her late 40s, chestnut lob haircut, tortoiseshell glasses | RESERVED — #160 Sleigh Queen crewneck cover |
-| 231 | South Asian man in his early 30s, neat side-part, clean-shaven, slim build | RESERVED — #161 Technically a Sweater tee cover |
-| 232 | Pair: white man in his late 20s, red beard, beanie + Vietnamese-American woman in her late 20s, straight black hair with bangs | RESERVED — #162 Technically a Sweater crewneck cover (man + woman) |
+| 231 | South Asian man in his early 30s, neat side-part, clean-shaven, slim build | USED 2026-10-16 — #161 Technically a Sweater tee cover (fal Seedream 4, office holiday party; try 2 kept: try 1 repeated A SWEATER and used the wrong face) |
+| 232 | Pair: white man in his late 20s, red beard, beanie + Vietnamese-American woman in her late 20s, straight black hair with bangs | USED 2026-10-16 — #162 Technically a Sweater crewneck cover (fal Seedream 4, ugly-sweater party living room; try 1 kept) |
 | 233 | Puerto Rican man in his early 30s, curly black hair, muscular build | RESERVED — #163 Beach Body Pending redo cover |
 | 234 | White man in his late 40s, ginger handlebar mustache, shaved head | RESERVED — #164 Peaked in 1898 redo cover |
 | 235 | Black man in his mid 30s, short twists, athletic build | RESERVED — #165 Conflict Resolution redo cover |
 | 236 | White man in his late 60s, white beard, bucket hat | RESERVED — #166 Professional Line Untangler cover |
 | 237 | Arab-American man in his early 40s, dark short hair, trimmed beard, stocky build | RESERVED — #167 Rest Day Enthusiast cover |
 | 238 | Chinese-American man in his mid 50s, grey-streaked hair, sunglasses pushed up on his head | RESERVED — #168 Knot Today cover |
-| 239 | Filipino-American man in his late 50s, salt-and-pepper side part, reading glasses on a cord | RESERVED — #169 Bah Humbug tee cover (director 2026-10-16) |
-| 240 | Pair: Black man in his early 40s, shaved head, full beard + white woman in her late 30s, auburn shoulder-length waves | RESERVED — #170 Bah Humbug crewneck cover (man + woman) |
-| 241 | Korean-American woman in her mid 30s, long dark hair in a messy bun, light freckles | RESERVED — #171 Sleighping In tee cover |
-| 242 | White woman in her early 50s, silver pixie cut, rosy cheeks | RESERVED — #172 Sleighping In crewneck cover |
+| 239 | Filipino-American man in his late 50s, salt-and-pepper side part, reading glasses on a cord | USED 2026-10-16 — #169 Bah Humbug tee cover (fal Seedream 4, Christmas Eve living room; try 2 kept: try 1 redrew the print as a banner and a glasses cord crossed it) |
+| 240 | Pair: Black man in his early 40s, shaved head, full beard + white woman in her late 30s, auburn shoulder-length waves | USED 2026-10-16 — #170 Bah Humbug crewneck cover (fal Seedream 4, snowy porch; try 2 kept: try 1 shrank the figure into a banner mark) |
+| 241 | Korean-American woman in her mid 30s, long dark hair in a messy bun, light freckles | USED 2026-10-16 — #171 Sleighping In tee cover (fal Seedream 4, Christmas morning living room; try 1 kept) |
+| 242 | White woman in her early 50s, silver pixie cut, rosy cheeks | USED 2026-10-16 — #172 Sleighping In crewneck cover (fal Seedream 4, cabin window seat; try 1 kept) |
 | 243 | White man in his early 30s, sandy hair, short boxed beard, lean build | RESERVED — #173 Outsmarted by a Bird cover |
 | 244 | Black man in his early 50s, grey goatee, broad build, ball cap | RESERVED — #174 Ugly But Delicious catfish cover |
 | 245 | White man in his mid 40s, blond buzz cut, ruddy cheeks, heavyset | RESERVED — #175 Eyes on the Prize walleye cover |
 | 246 | Latino man in his late 20s, short fade haircut, thin mustache, athletic build | RESERVED — #176 Swing Shift kettlebell cover |
 | 247 | White man in his late 30s, dark brown hair under a blaze-orange beanie, short beard | USED 2026-10-16 — #177 Opening Day zip hoodie cover (fal Seedream 4, frosty field, back view; try 1 kept) |
-| 248 | Cherokee man in his early 60s, grey ponytail, weathered face | RESERVED — #178 Deer Diary zip hoodie cover |
-| 249 | Pair: Thai-American man in his early 20s, bleached tips + Black woman in her early 20s, short curly fro | RESERVED — #179 Kaiju Naps oversized hoodie cover (man + woman) |
-| 250 | Pair: Vietnamese-American man in his mid 20s, round glasses + white woman in her mid 20s, pink-dyed bob | RESERVED — #180 Mecha Mondays oversized hoodie cover (man + woman) |
-| 251 | Indian-American woman in her early 20s, long wavy hair, small nose stud | RESERVED — #181 Matcha cropped hoodie cover |
-| 252 | Mixed-race woman in her mid 20s, curly honey-brown hair in a claw clip | RESERVED — #182 Espresso cropped hoodie cover |
-| 253 | Pair: Black man in his late 50s, grey temples + Black woman in her mid 50s, silver locs | RESERVED — #183 Amazing Grace heavyweight hoodie cover (man + woman) |
-| 254 | Tongan man in his late 20s, very broad build, short black hair | RESERVED — #184 Clean Plate Club heavyweight hoodie cover |
-| 255 | White man in his early 40s, red hair, freckles, lean runner build | RESERVED — #185 Leg Day Survivor hoodie cover |
-| 256 | Pair: Japanese-American woman in her late 20s, sleek bob + Mexican-American man in his late 20s, wavy hair | RESERVED — #186 Slurp Responsibly hoodie cover (man + woman) |
-| 257 | White woman in her early 20s, platinum blonde space buns, glitter eyeliner | RESERVED — #187 Low Battery hoodie cover |
-| 258 | Pair: white man in his mid 60s, white mustache + white woman in her early 60s, silver bob | RESERVED — #188 Lake Life hoodie cover (man + woman) |
-| 259 | Pair: Puerto Rican woman in her early 40s, dark curls + Irish-American man in his early 40s, ginger beard | RESERVED — #189 Vintage Santa hoodie cover (man + woman) |
-| 260 | White woman in her late 20s, long strawberry-blonde braid, freckles | RESERVED — #190 Highland Cow hoodie cover |
-| 261 | Persian-American woman in her mid 30s, glossy dark waves, red lipstick | RESERVED — #191 Nutcracker Bow hoodie cover |
-| 262 | Black woman in her late 20s, short natural curls, gold hoops | RESERVED — #192 Cherry Picked embroidered crewneck cover |
+| 248 | Cherokee man in his early 60s, grey ponytail, weathered face | USED 2026-10-16 — #178 Deer Diary zip hoodie cover (fal Seedream 4, cabin porch, back view; try 1 kept: try 2 garbled the print) |
+| 249 | Pair: Thai-American man in his early 20s, bleached tips + Black woman in her early 20s, short curly fro | USED 2026-10-16 — #179 Kaiju Naps oversized hoodie cover (fal Seedream 4, rooftop, try 1 kept, white bars cropped) |
+| 250 | Pair: Vietnamese-American man in his mid 20s, round glasses + white woman in her mid 20s, pink-dyed bob | USED 2026-10-16 — #180 Mecha Mondays oversized hoodie cover (fal Seedream 4, ramen street; try 2 kept, man's print drew a dark frame) |
+| 251 | Indian-American woman in her early 20s, long wavy hair, small nose stud | USED 2026-10-16 — #181 Matcha cropped hoodie cover (fal Seedream 4, cafe counter; try 1 kept) |
+| 252 | Mixed-race woman in her mid 20s, curly honey-brown hair in a claw clip | USED 2026-10-16 — #182 Espresso cropped hoodie cover (fal Seedream 4, coffee bar; try 1 kept) |
+| 253 | Pair: Black man in his late 50s, grey temples + Black woman in her mid 50s, silver locs | USED 2026-10-16 — #183 Amazing Grace heavyweight hoodie cover (fal Seedream 4, country church; try 1 kept) |
+| 254 | Tongan man in his late 20s, very broad build, short black hair | USED 2026-10-16 — #184 Clean Plate Club heavyweight hoodie cover (fal Seedream 4, warehouse gym; try 1 kept) |
+| 255 | White man in his early 40s, red hair, freckles, lean runner build | USED 2026-10-16 — #185 Leg Day Survivor hoodie cover (fal Seedream 4, garage gym; try 2 kept: LEG missing from the lettering, try 1 showed an open zip hoodie over a tee) |
+| 256 | Pair: Japanese-American woman in her late 20s, sleek bob + Mexican-American man in his late 20s, wavy hair | USED 2026-10-16 — #186 Slurp Responsibly hoodie cover (fal Seedream 4, ramen counter; try 2 kept: try 1 had SLURP RESPONSIBY, try 2's woman print is slightly warped) |
+| 257 | White woman in her early 20s, platinum blonde space buns, glitter eyeliner | USED 2026-10-16 — #187 Low Battery hoodie cover (fal Seedream 4, bedroom with fairy lights; try 1 kept) |
+| 258 | Pair: white man in his mid 60s, white mustache + white woman in her early 60s, silver bob | USED 2026-10-16 — #188 Lake Life hoodie cover (fal Seedream 4, lake dock; try 2 kept, unframed print) |
+| 259 | Pair: Puerto Rican woman in her early 40s, dark curls + Irish-American man in his early 40s, ginger beard | USED 2026-10-16 — #189 Vintage Santa hoodie cover (fal Seedream 4, tree lot at dusk; REDO try 3 kept: hooded on both, mugs at the belt, whole MERRY CHRISTMAS line visible) |
+| 260 | White woman in her late 20s, long strawberry-blonde braid, freckles | USED 2026-10-16 — #190 Highland Cow hoodie cover (fal Seedream 4, snowy farm fence; try 1 kept) |
+| 261 | Persian-American woman in her mid 30s, glossy dark waves, red lipstick | USED 2026-10-16 — #191 Nutcracker Bow hoodie cover (fal Seedream 4, night market; try 1 kept) |
+| 262 | Black woman in her late 20s, short natural curls, gold hoops | USED 2026-10-16 — #192 Cherry Picked embroidered crewneck cover (fal Seedream 4, farmers market; try 1 kept, stitched chest + cuff cherries visible) |
 | 263 | Vietnamese-American woman in her mid 20s, long straight black hair, round glasses | RESERVED — #193 Whisk Taker embroidered crewneck cover |
 | 264 | White woman in her early 30s, auburn shag haircut, freckles | RESERVED — #194 Morel Support embroidered crewneck cover |
 | 265 | South Asian woman in her late 30s, long dark braid, nose stud | RESERVED — #195 Purrsonal Space embroidered crewneck cover |
-| 266 | Mexican-American woman in her mid 40s, shoulder-length wavy brown hair | RESERVED — #196 Rooted in Jesus embroidered crewneck cover |
+| 266 | Mexican-American woman in her mid 40s, shoulder-length wavy brown hair | USED 2026-10-16 — #196 Rooted in Jesus embroidered hoodie cover (fal Seedream 4, church steps; try 1 kept) |
+| 267 | Korean-American woman in her late 20s, chin-length bob with blunt bangs | USED 2026-10-16 — #200 Skate Club Penguins hoodie cover (fal Seedream 4, ice rink at dusk; try 2 kept: try 1 redrew the print as one penguin) |
+| 268 | Black woman in her mid 30s, long box braids in a high bun | USED 2026-10-16 — #201 Polar Bear Cocoa hoodie cover (fal Seedream 4, snowy tree lot; try 1 kept) |
+| 269 | White woman in her early 40s, blonde pixie cut, tortoiseshell glasses | USED 2026-10-16 — #202 Christmas Dogs hoodie cover (fal Seedream 4, winter park at dusk; try 2 kept: try 1 moved the lettering under a mug and added a dog) |
+| 270 | Puerto Rican woman in her early 60s, silver curly bob | USED 2026-10-16 — #203 Cardinal Christmas hoodie cover (fal Seedream 4, kitchen window with bird feeder; try 1 kept) |
+| 271 | Filipino-American woman around 20, long hair with curtain bangs | USED 2026-10-16 — #197 Bow Before Me cropped hoodie cover (fal Seedream 4, campus coffee shop; try 1 kept) |
+| 272 | White man in his mid 40s, salt-and-pepper beard, stocky build | USED 2026-10-16 — #198 Out of Office deer hoodie cover (fal Seedream 4, cabin porch; try 1 kept) |
+| 273 | Middle Eastern woman in her early 30s, long dark wavy hair, gold studs | USED 2026-10-16 — #199 Extra Marshmallows embroidered crewneck cover (fal Seedream 4, Christmas market; try 1 kept) |
+| 274 | Native American woman in her late 20s, long straight black hair, center part | USED 2026-10-16 — #204 Winter Woods Fox hoodie cover (fal Seedream 4, snowy pine trail; try 1 kept) |
+| 275 | Black man in his early 30s, short twists, trimmed beard | USED 2026-10-16 — #205 North Woods Moose hoodie cover (fal Seedream 4, couple; REDO candidate: try 2 kept, print correct on both but the man's top shows no hood and the background echoes the print; try 1 dropped the lettering into the sky) |
+| 276 | White woman in her early 30s, strawberry-blonde waves, freckles | USED 2026-10-16 — #205 North Woods Moose hoodie cover (with #275, fal Seedream 4) |
+| 277 | Japanese-American woman in her mid 30s, sleek low bun, small hoops | USED 2026-10-16 — #206 Christmas Cats hoodie cover (fal Seedream 4, decorated living room with a real cat; try 1 kept) |
+| 278 | Brazilian woman in her early 40s, voluminous dark curls, red lipstick | USED 2026-10-16 — #207 Vintage Snowman hoodie cover (fal Seedream 4, snowy main street; try 2 kept: try 1 showed a lighter panel behind the print, so the art was flattened on a darker navy) |

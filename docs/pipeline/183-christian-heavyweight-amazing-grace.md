@@ -1,4 +1,4 @@
-status: READY
+status: LIVE
 lane: B
 type: twin
 id: 183
@@ -18,3 +18,5 @@ handle: unisex-christian-amazing-grace-heavyweight-hoodie
 ---
 ## Log
 - 2026-10-16 14:28 UTC director: brief written, READY (cold-weather push, Sam 2026-10-16).
+- 2026-10-16 17:13 UTC [B]: built as DRAFT; twin of tee, file 1085667871 front 11.8 x 14 in max fit + back logo, Storm Blue + Black (cream line art vanishes on Sandstone), 14/14 synced, $49.99/$54.99, cross hoodie 3600/33 + grace hoodie 140/36. Review sheet docs/review/183.jpg.
+- 2026-10-16 17:22 UTC director: LIVE: ACTIVE + Online Store + Headless, audit PASS. Copy: last FAQ answer reworded ("no slogan beyond the title" read oddly).

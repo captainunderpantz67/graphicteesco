@@ -2920,6 +2920,434 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-christmas-vintage-santa-hoodie": {
+   "claimed": [
+    "santa hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "santa hoodie",
+     "volume": 5400,
+     "kd": 38
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-hunting-opening-day-zip-hoodie": {
+   "claimed": [
+    "hunting hoodie men"
+   ],
+   "gaps_measured": [],
+   "measured": "hunting hoodie men 880/KD26 (RankHero 2026-10-16)"
+  },
+  "mens-hunting-deer-diary-zip-hoodie": {
+   "claimed": [
+    "deer hunting hoodie"
+   ],
+   "gaps_measured": [],
+   "measured": "deer hunting hoodie 170/KD34 (RankHero 2026-10-16)"
+  },
+  "womens-christmas-highland-cow-christmas-hoodie": {
+   "claimed": [
+    "highland cow hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "highland cow hoodie",
+     "volume": 1300,
+     "kd": 28
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-christmas-nutcracker-bow-hoodie": {
+   "claimed": [
+    "nutcracker hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "nutcracker hoodie",
+     "volume": 90,
+     "kd": 42
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "unisex-anime-kaiju-naps-oversized-hoodie": {
+   "claimed": [
+    "monster hoodie"
+   ],
+   "gaps_measured": [],
+   "measured": "monster hoodie 6,600/KD13 (RankHero 2026-10-16)"
+  },
+  "unisex-anime-mecha-mondays-oversized-hoodie": {
+   "claimed": [
+    "vintage anime hoodie"
+   ],
+   "gaps_measured": [],
+   "measured": "vintage anime hoodie 110/KD40 (RankHero 2026-10-16)"
+  },
+  "unisex-christmas-define-naughty-crewneck-sweatshirt": {
+   "claimed": [
+    "naughty sweater",
+    "santa sweater"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "naughty sweater",
+     "volume": 90,
+     "kd": 42
+    },
+    {
+     "phrase": "santa sweater",
+     "volume": 1900,
+     "kd": 56
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-cropped-matcha-made-in-heaven-cropped-hoodie": {
+   "claimed": [
+    "matcha hoodie"
+   ],
+   "gaps_measured": [],
+   "measured": "matcha hoodie 590/KD30 (RankHero 2026-10-16)"
+  },
+  "mens-christmas-light-show-manager-graphic-tee": {
+   "claimed": [
+    "dad christmas shirt",
+    "dad christmas tshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dad christmas shirt",
+     "volume": 110,
+     "kd": 40
+    },
+    {
+     "phrase": "dad christmas tshirt",
+     "volume": 110,
+     "kd": 40
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-cropped-espresso-yourself-cropped-hoodie": {
+   "claimed": [
+    "espresso hoodie"
+   ],
+   "gaps_measured": [],
+   "measured": "espresso hoodie 320/KD36 (RankHero 2026-10-16)"
+  },
+  "unisex-christian-amazing-grace-heavyweight-hoodie": {
+   "claimed": [
+    "cross hoodie",
+    "grace hoodie"
+   ],
+   "gaps_measured": [],
+   "measured": "cross hoodie 3,600/KD33; grace hoodie 140/KD36 (RankHero 2026-10-16)"
+  },
+  "unisex-christmas-light-show-manager-crewneck-sweatshirt": {
+   "claimed": [
+    "christmas lights sweatshirt",
+    "dad sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas lights sweatshirt",
+     "volume": 110,
+     "kd": 40
+    },
+    {
+     "phrase": "dad sweatshirt",
+     "volume": 1600,
+     "kd": 57
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-gym-plate-club-heavyweight-hoodie": {
+   "claimed": [
+    "powerlifting hoodie"
+   ],
+   "gaps_measured": [],
+   "measured": "powerlifting hoodie 210/KD33 (RankHero 2026-10-16)"
+  },
+  "mens-christmas-technically-a-sweater-graphic-tee": {
+   "claimed": [
+    "ugly christmas shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "ugly christmas shirt",
+     "volume": 2900,
+     "kd": 52
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-gym-leg-day-survivor-hoodie": {
+   "claimed": [
+    "lifting hoodie"
+   ],
+   "gaps_measured": [],
+   "measured": "lifting hoodie 480/KD40 (RankHero 2026-10-16)"
+  },
+  "unisex-anime-slurp-responsibly-hoodie": {
+   "claimed": [
+    "ramen hoodie"
+   ],
+   "gaps_measured": [],
+   "measured": "ramen hoodie 3,600/KD19 (RankHero 2026-10-16)"
+  },
+  "womens-christmas-jolly-ish-crewneck-sweatshirt": {
+   "claimed": [
+    "plaid sweatshirt",
+    "plaid sweater"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "plaid sweatshirt",
+     "volume": 480,
+     "kd": 50
+    },
+    {
+     "phrase": "plaid sweater",
+     "volume": 2900,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "unisex-christmas-technically-a-sweater-crewneck-sweatshirt": {
+   "claimed": [
+    "ugly sweatshirt",
+    "ugly christmas sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "ugly sweatshirt",
+     "volume": 1600,
+     "kd": 50
+    },
+    {
+     "phrase": "ugly christmas sweatshirt",
+     "volume": 590,
+     "kd": 62
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-y2k-low-battery-high-standards-hoodie": {
+   "claimed": [
+    "graphic hoodie women"
+   ],
+   "gaps_measured": [],
+   "measured": "graphic hoodie women 8,100/KD12 (RankHero 2026-10-16)"
+  },
+  "unisex-fishing-lake-life-hoodie": {
+   "claimed": [
+    "lake hoodie",
+    "bass fishing hoodie"
+   ],
+   "gaps_measured": [],
+   "measured": "lake hoodie 210/KD33; bass fishing hoodie 110/KD40 (RankHero 2026-10-16)"
+  },
+  "mens-christmas-bah-humbug-graphic-tee": {
+   "claimed": [
+    "bah humbug shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bah humbug shirt",
+     "volume": 320,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "unisex-christmas-bah-humbug-crewneck-sweatshirt": {
+   "claimed": [
+    "funny christmas sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny christmas sweatshirt",
+     "volume": 1000,
+     "kd": 65
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-embroidered-cherry-picked-crewneck-sweatshirt": {
+   "claimed": [
+    "cherry sweatshirt",
+    "cherry crewneck"
+   ],
+   "gaps_measured": [],
+   "measured": "cherry sweatshirt 1,000/KD42; cherry crewneck 170/KD34 (RankHero 2026-10-16)"
+  },
+  "womens-christmas-sleighping-in-graphic-tee": {
+   "claimed": [
+    "christmas pajama shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas pajama shirt",
+     "volume": 720,
+     "kd": 50
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-christian-embroidered-rooted-in-jesus-hoodie": {
+   "claimed": [
+    "jesus hoodie",
+    "bible verse sweatshirt"
+   ],
+   "gaps_measured": [],
+   "measured": "jesus hoodie 14,800/KD44; bible verse sweatshirt 1,900/KD52 (RankHero 2026-10-16)"
+  },
+  "womens-christmas-sleighping-in-crewneck-sweatshirt": {
+   "claimed": [
+    "sleepy sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "sleepy sweatshirt",
+     "volume": 260,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-embroidered-bow-before-me-cropped-hoodie": {
+   "claimed": [
+    "bow hoodie",
+    "embroidered hoodie"
+   ],
+   "gaps_measured": [],
+   "measured": "bow hoodie 2,400/KD38; embroidered hoodie 14,800/KD49 (RankHero 2026-10-16)"
+  },
+  "womens-christmas-winter-skate-club-penguins-hoodie": {
+   "claimed": [
+    "penguin hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "penguin hoodie",
+     "volume": 1900,
+     "kd": 20
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-embroidered-out-of-office-deer-hoodie": {
+   "claimed": [
+    "deer hoodie",
+    "embroidered hoodie"
+   ],
+   "gaps_measured": [],
+   "measured": "deer hoodie 1,900/KD29; embroidered hoodie 14,800/KD49 (RankHero 2026-10-16)"
+  },
+  "womens-christmas-embroidered-extra-marshmallows-crewneck-sweatshirt": {
+   "claimed": [
+    "hot cocoa sweatshirt"
+   ],
+   "gaps_measured": [],
+   "measured": "hot cocoa sweatshirt 110/KD40 (RankHero 2026-10-16)"
+  },
+  "womens-christmas-polar-bear-cocoa-hoodie": {
+   "claimed": [
+    "polar bear hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "polar bear hoodie",
+     "volume": 720,
+     "kd": 27
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-christmas-christmas-dogs-hoodie": {
+   "claimed": [
+    "dog christmas hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dog christmas hoodie",
+     "volume": 320,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-christmas-cardinal-christmas-hoodie": {
+   "claimed": [
+    "cardinal hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cardinal hoodie",
+     "volume": 210,
+     "kd": 33
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-christmas-winter-woods-fox-hoodie": {
+   "claimed": [
+    "fox hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fox hoodie",
+     "volume": 12100,
+     "kd": 22
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "unisex-christmas-north-woods-moose-hoodie": {
+   "claimed": [
+    "moose hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "moose hoodie",
+     "volume": 590,
+     "kd": 28
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-christmas-christmas-cats-hoodie": {
+   "claimed": [
+    "christmas cat hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas cat hoodie",
+     "volume": 110,
+     "kd": 40
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-christmas-vintage-snowman-hoodie": {
+   "claimed": [
+    "snowman hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "snowman hoodie",
+     "volume": 260,
+     "kd": 40
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

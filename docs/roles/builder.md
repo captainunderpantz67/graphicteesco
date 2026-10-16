@@ -15,7 +15,7 @@ You turn approved briefs into finished DRAFT products and hand them to the direc
    1. Art: Recraft v4 with the brief's prompt (twins reuse the tee's print file; no new art). Check spelling and badge-free look; max 2 retries. `scripts/print-prep.py` → transparent 3600 px.
    2. Host the file (fal storage), `POST /files` to Printful; keep the file id. Back logo = back-logo-company.png.
    3. Keyword gaps: `scripts/keyword-gap.py` per R2.7; update docs/product-keyword-map.json.
-   4. Shopify productSet as **DRAFT**: title, handle, options, colors (≤100 variants), prices per R12, SKUs, tags per R7.5, three-section copy per R8 (hook first), SEO title/meta.
+   4. Shopify productSet as **DRAFT**: title, handle, options, colors (≤100 variants), prices per R12, SKUs, tags per R7.5, three-section copy per R8 (hook first), SEO title/meta. Before saving, search the description for "frame", "badge", "shape behind" and "border": delete any sentence that describes what the art does NOT have (R8.3; director removed it by hand from 3 hoodies on 2026-10-16).
    5. Printful sync every variant (background job, paced ~6 s, honor 429). Start it, then do the cover while it runs.
    6. Cover: `scripts/fal-photo.py` with the brief's person and scene, flattened art on non-white garments (R6.7), max 2 attempts. Look at the cover ONCE per attempt and check R6.3–R6.8. Add to src/data/covers.ts; registry row → USED.
    7. Mockups: Printful generator, one front per color + 1 back, flat/ghost only. productCreateMedia with R7.8 alt text; link variant images.

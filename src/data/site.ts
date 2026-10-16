@@ -51,7 +51,7 @@ export const site = {
     returnsPolicy: 'Wrong size? Within 30 days of delivery we’ll send one replacement in a new size free, and you don’t have to mail the first one back. If an order arrives misprinted, damaged or defective, send us a photo within 30 days and we’ll reprint it free or refund you. Lost packages are covered the same way within 30 days of the estimated delivery date.', // best-practice exchange policy, Sam 2026-10-16
     returnWindowDays: 30, // from returnsPolicy: "within 30 days of delivery"
     returnCountry: 'US',
-    hoodiesLive: false, // 2026-10-06: 0 hoodies in the store. Flip to true when the first one ships.
+    hoodiesLive: true, // 2026-10-16 director: first hoodies live (Highland Cow Christmas, Espresso cropped). Claims say "a growing number", not "most".
   } satisfies Facts as Facts,
 };
 

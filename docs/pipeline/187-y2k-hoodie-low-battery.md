@@ -1,4 +1,4 @@
-status: READY
+status: LIVE
 lane: B
 type: twin
 id: 187
@@ -18,3 +18,5 @@ handle: womens-y2k-low-battery-high-standards-hoodie
 ---
 ## Log
 - 2026-10-16 14:28 UTC director: brief written, READY (cold-weather push, Sam 2026-10-16).
+- 2026-10-16 17:28 UTC [B]: built as DRAFT; twin of tee, file 1087363185 front 11.4 in + back logo, Sand + Navy (silver bubble letters and pink read on both), 14/14 synced, $39.99/$44.99, graphic hoodie women 8100/12. Review sheet docs/review/187.jpg.
+- 2026-10-16 18:40 UTC director: LIVE: ACTIVE + Online Store + Headless, audit --handle PASS.

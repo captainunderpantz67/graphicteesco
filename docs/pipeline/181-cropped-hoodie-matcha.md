@@ -1,4 +1,4 @@
-status: READY
+status: LIVE
 lane: B
 type: twin
 id: 181
@@ -18,3 +18,10 @@ handle: womens-cropped-matcha-made-in-heaven-cropped-hoodie
 ---
 ## Log
 - 2026-10-16 14:28 UTC director: brief written, READY (cold-weather push, Sam 2026-10-16).
+- 2026-10-16 17:05 UTC [B]: built as DRAFT; twin of tee, file 1087363169 front 9 x 10 in + back logo, Storm only (7502 has just Black/Military Green/Storm/Peach; Peach has only an out-of-stock XL, and the deep green print vanishes on Black and Military Green), 5/5 synced, $44.99/$49.99, matcha hoodie 590/30. Review sheet docs/review/181.jpg.
+- 2026-10-16 17:15 UTC director: REDO (product stays DRAFT). Notes:
+  1. R5.3.8 (prints clean / legibility): deep green lettering and linework on Storm (dark grey) is low contrast; MATCHA MADE IN HEAVEN goes muddy at phone size. Fix in print-prep without new art: recolor the dark green ink (lettering, cup outline, saucer) to cream or light sage for the Storm file, keep the pink cloud. Re-upload, re-sync 5, new mockups. If Peach comes back in stock, add it with the original file.
+  2. R6.7/R6.8 (cover): the hoodie is blue with a lighter grey square panel behind the print, a patch that isn't on the garment, and the color isn't Storm. Regenerate after the recolor, art flattened onto Storm (R6.7).
+  3. Copy: update the color/legibility answer if the print colors change.
+- 2026-10-16 17:58 UTC [B]: REDO done: recolored the dark green ink to cream and sage for Storm (new file 1087718183, pink cloud kept), 5/5 re-synced, new mockups + variant images, copy updated for the new colors, new cover generated from the Storm mockup (flattening onto grey made the model paint a blue hoodie with a panel). Review sheet docs/review/181.jpg.
+- 2026-10-16 18:40 UTC director: LIVE: ACTIVE + Online Store + Headless, audit --handle PASS.

@@ -108,7 +108,7 @@ for (const p of products) {
   for (const c of cols) {
     if (c.audience === 'men' && aud === 'women') add('ERROR', p, `Women's product listed in "${c.name}".`, `Remove the tag that puts it in ${c.slug}.`);
     if (c.audience === 'women' && aud === 'men') add('ERROR', p, `Men's product listed in "${c.name}".`, `Remove the tag that puts it in ${c.slug}.`);
-    if (kind === 'hoodie' && !/hoodie/.test(c.slug) && c.slug !== 'cropped-sweatshirts' /* holds cropped hoodies: Printful has no cropped crewneck (director 2026-10-16) */) add('ERROR', p, `Hoodie listed in the non-hoodie collection "${c.name}".`, `Remove the tag that puts it in ${c.slug}; hoodies go only in *-hoodies collections.`);
+    if (kind === 'hoodie' && !/hoodie/.test(c.slug) && c.slug !== 'cropped-sweatshirts' /* holds cropped hoodies: Printful has no cropped crewneck (director 2026-10-16) */ && !(c.slug === 'embroidered-sweatshirts' && /embroidered/.test(p.handle)) /* R4.8: real-embroidery hoodies may join (director 2026-10-16) */) add('ERROR', p, `Hoodie listed in the non-hoodie collection "${c.name}".`, `Remove the tag that puts it in ${c.slug}; hoodies go only in *-hoodies collections.`);
     if (kind === 'sweatshirt' && !/sweatshirt|hoodie/.test(c.slug)) add('ERROR', p, `Crewneck sweatshirt listed in the tee collection "${c.name}".`, `Remove the tag that puts it in ${c.slug}; it belongs in the matching *-sweatshirts collection.`);
     if (kind === 'tee' && /sweatshirt/.test(c.slug)) add('ERROR', p, `Tee listed in "${c.name}".`, `Remove the tag that puts it in ${c.slug}.`);
     if (c.seasonal && SEASONS.includes(niche) && c.seasonal !== niche) add('ERROR', p, `${niche} design listed in "${c.name}".`, `Remove the tag that puts it in ${c.slug}.`);

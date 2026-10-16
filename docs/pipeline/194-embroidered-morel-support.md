@@ -1,4 +1,5 @@
-status: READY
+status: PARKED
+reason: waits for the 5-item embroidery pilot (192, 196, 197, 198, 199) to pass review (Sam 2026-10-16). Price on release: crewneck $34.99 + $5 chest = $39.99 / $44.99 (R12.1 embroidered).
 lane: B
 type: new
 id: 194
@@ -24,3 +25,5 @@ handle: womens-embroidered-morel-support-mushroom-crewneck-sweatshirt
 ---
 ## Log
 - 2026-10-16 15:30 UTC director: brief written, READY (embroidered-sweatshirts, cold-weather push R11.5).
+
+- 2026-10-16 17:19 UTC director: PARKED until the embroidery pilot passes review.

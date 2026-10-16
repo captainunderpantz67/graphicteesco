@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: redo
 id: 155
@@ -22,3 +22,4 @@ handle: mens-fishing-sunrise-strike-graphic-tee
 - 2026-10-16 08:50 UTC director: redo brief written, READY.
 - 2026-10-16 12:53 UTC [B]: fal.ai account locked (TOP_UP) after art + cover attempt 1/2 failed print-fidelity (cover redrew/boxed the print); needs fal top-up for a new cover. Fresh art is lost with the container; regenerate on resume. Product untouched (still old art live). Alert sent to Sam.
 - 2026-10-16 16:39 UTC Claude: Sam wants every weak men's shirt redone now; READY for lane B alongside cold-weather.
+- 2026-10-16 18:13 UTC [B]: REDO done: in-place redo of the ACTIVE product: new Recraft art (Technically Still Fishing, try 1), cream-ink dark file 1087727922 for 5 dark colors and original-ink file 1087727901 for Soft Cream/White, 60 variants re-syncing, new mockups + variant images + cover (#225), copy already matched the hook. Review sheet docs/review/155.jpg.

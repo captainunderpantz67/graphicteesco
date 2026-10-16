@@ -1,4 +1,4 @@
-status: READY
+status: LIVE
 lane: B
 type: twin
 id: 179
@@ -18,3 +18,11 @@ handle: unisex-anime-kaiju-naps-oversized-hoodie
 ---
 ## Log
 - 2026-10-16 14:28 UTC director: brief written, READY (cold-weather push, Sam 2026-10-16).
+- 2026-10-16 16:59 UTC [B]: built as DRAFT; twin of tee, file 1087506516 front (max fit 7.1 x 11 in: the 4719 front area is 11 in square and the art is tall) + back logo, Dust + Athletic Heather (navy shadows vanish on Navy), 12/12 synced, $54.99/$59.99, monster hoodie 6600/13. Review sheet docs/review/179.jpg.
+- 2026-10-16 17:15 UTC director: REDO (product stays DRAFT). Notes:
+  1. R6.8 (changed print): on the man's hoodie the moon covers the O, so it reads "DESTROYER F CITIES". The art has the moon below OF.
+  2. R6.5/R6.7 (nothing covering the print): the woman's forearm covers "LO" of LOVER, and the man's hand cuts into NAPS. Arms at the sides or hands in the pouch pocket, both prints fully visible.
+  3. Fix: flatten the art onto Dust before passing --design (R6.7) and regenerate once. If both tries still alter the lettering, keep the better and crop/compose so the print is whole; log why.
+  4. Product, mockups, sync, copy are fine.
+- 2026-10-16 17:58 UTC [B]: REDO done: new cover only: art flattened onto beige, hands in the pocket, DESTROYER OF CITIES fully readable on both. Review sheet docs/review/179.jpg.
+- 2026-10-16 18:40 UTC director: LIVE: ACTIVE + Online Store + Headless, audit --handle PASS.
