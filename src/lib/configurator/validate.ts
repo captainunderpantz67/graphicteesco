@@ -37,7 +37,7 @@ function checkStep(s: Step, a: Record<string, string>, clean: Record<string, str
     const need = s.min > 0 || !!number || !!name;
     if (!need) return;
     if (!name) problems.push({ key: 'playerName', message: "Add the player's name." });
-    else if (name.length > 14) problems.push({ key: 'playerName', message: 'Names print best at 14 letters or fewer.' });
+    else if (name.length > 20) problems.push({ key: 'playerName', message: 'Names print best at 20 letters or fewer.' });
     else if (!NAME_RE.test(name) || !printable(name, 'display')) problems.push({ key: 'playerName', message: 'Letters, numbers, spaces and apostrophes only.' });
     else clean.playerName = name;
     if (s.number) {

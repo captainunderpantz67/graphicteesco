@@ -8,8 +8,9 @@ import { isDark } from './colors.ts';
 const TEE_PATH = 'M212 62c-26 6-74 28-112 50-22 13-36 30-46 56L30 240l72 32-6 326c0 10 8 16 18 16h372c10 0 18-6 18-16l-6-326 72-32-24-72c-10-26-24-43-46-56-38-22-86-44-112-50-10 24-44 40-88 40s-78-16-88-40z';
 const BACK_COLLAR = 'M212 62c10 14 44 24 88 24s78-10 88-24';
 const FRONT_COLLAR = 'M212 62c10 24 44 40 88 40s78-16 88-40';
-// Chest print area: 12 in wide = 60% of a 20 in chest. 1 in = 15 units. Front starts 1.25 in below the collar.
-const AREA = { x: 210, y: 118, w: 180, h: 240 }; // 12 x 16 in
+// Chest print area: the body is about 20 in across (400 units), so 1 in = 20 units and the 12 x 16 in print
+// area is 240 x 320 units, starting just under the collar.
+const AREA = { x: 180, y: 112, w: 240, h: 320 }; // 12 x 16 in
 
 export function shirtSvg(side: RenderedSide, shirtHex: string, opts: { label?: string } = {}): string {
   const dark = isDark(shirtHex);
