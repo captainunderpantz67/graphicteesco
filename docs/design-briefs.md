@@ -1624,7 +1624,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 
 ## Thanksgiving crewneck twins — lane A (2026-10-16; competitor lesson 6: every holiday tee gets its crewneck twin; Gildan 18000 #145, same art as the tee, no new art generation)
 
-### 134. Unisex Thanksgiving – Turkey Trot Crewneck Sweatshirt  *(BUILDING [A])*
+### 134. Unisex Thanksgiving – Turkey Trot Crewneck Sweatshirt  *(built 2026-10-16)*
 - **Handle:** `unisex-thanksgiving-turkey-trot-crewneck-sweatshirt` · Gildan 18000 (#145) · art = the Turkey Trot tee's print file
 - **Hook:** the race-morning turkey, now in fleece for the cold start line
 - **Primary keyword:** running sweatshirt — 1,300 / KD 39
