@@ -2,6 +2,7 @@
 2026-10-16 19:25 UTC — [A] REVIEW #151 Light Show Manager crewneck, #209 Mountain Christmas Bear hoodie, #210 Ski Lodge hoodie (synced).
 RUNNING director since 2026-10-16 19:11 UTC
 2026-10-16 20:40 UTC — [A] BUILDING #213 Dough Ho Ho tee, #214 crewneck, #215 hoodie (new art, drafts, covers, mockups, audit PASS; Printful syncs queued).
+2026-10-16 19:27 UTC — [B] REVIEW #222 Men's Gym – Retired From Cardio Hoodie: twin of tee #153, files 1087721091 (Sand) and 1087721100 (cream ink, Navy) at 9.3 in wide, 10 in tall, top of the area so nothing meets the pocket seam, back logo, Sand + Navy, 14/14 synced, $39.99/$44.99, workout hoodie 2900/34, cover registry #295 try 1.
 RUNNING lane A since 2026-10-16 19:00 UTC
 2026-10-16 20:10 UTC — [A] BUILDING #211 Golden Retriever hoodie and #212 Christmas on the Farm Horse hoodie (drafts built, covers, mockups, audit PASS; Sand + Sport Grey; syncs queued).
 2026-10-16 19:09 UTC — [A] REVIEW #208 Women's Christmas Golf hoodie (synced 12/12).

@@ -216,6 +216,10 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-christmas-dough-ho-ho-graphic-tee': { src: '/covers/womens-christmas-dough-ho-ho-graphic-tee.webp', alt: 'Woman with shoulder-length black hair and bangs in a heather grey Dough Ho Ho Christmas tee in a warm kitchen with cookies cooling behind her' },
   'womens-christmas-dough-ho-ho-crewneck-sweatshirt': { src: '/covers/womens-christmas-dough-ho-ho-crewneck-sweatshirt.webp', alt: 'Woman with red curly hair in a messy bun in a sand Dough Ho Ho crewneck sweatshirt at a cookie swap table with tins of cookies and a lit tree' },
   'womens-christmas-dough-ho-ho-hoodie': { src: '/covers/womens-christmas-dough-ho-ho-hoodie.webp', alt: 'Woman with a dark sleek bun and gold hoops in a sand Dough Ho Ho hoodie at a snowy church bake sale table' },
+  'mens-gym-retired-from-cardio-hoodie': { src: '/covers/mens-gym-retired-from-cardio-hoodie.webp', alt: 'Man in his early 60s with a white flat-top haircut standing in a garage gym at dawn beside a squat rack, wearing the Retired From Cardio gym hoodie in sand' },
+  'mens-gym-sore-since-1987-hoodie': { src: '/covers/mens-gym-sore-since-1987-hoodie.webp', alt: 'Man in his mid 40s with a salt-and-pepper beard standing on an old gym stairwell beside a chalked handrail, wearing the Sore Since 1987 hoodie in sand' },
+  'mens-hunting-quack-of-dawn-camo-hoodie': { src: '/covers/mens-hunting-quack-of-dawn-camo-hoodie.webp', alt: 'Man in his late 30s with a long braid standing at a misty marsh at sunrise with duck decoys behind him, wearing the Quack of Dawn duck camo hoodie' },
+  'mens-fishing-casting-doubt-zip-hoodie': { src: '/covers/mens-fishing-casting-doubt-zip-hoodie.webp', alt: 'Man in his late 40s with a ginger beard and a bucket hat seen from behind beside a mountain trout stream at first light, wearing the Casting Doubt zip hoodie in ash with the full back print' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

@@ -278,10 +278,10 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 292 | Black woman in her late 50s, short grey natural hair, reading glasses on a chain | RESERVED — #219 O Holy Night crewneck cover |
 | 293 | Puerto Rican woman in her mid 20s, long dark curls, gold necklace | RESERVED — #220 Lit-Up Bow crewneck cover |
 | 294 | White woman in her mid 30s, brown hair in a high ponytail, small stud earrings | RESERVED — #221 Christmas Nurse crewneck cover |
-| 295 | White man in his early 60s, white flat-top haircut, heavyset | RESERVED — #222 Retired From Cardio hoodie cover |
-| 296 | Middle Eastern man in his mid 40s, salt-and-pepper beard, short dark hair | RESERVED — #223 Sore Since 1987 hoodie cover |
-| 297 | Native American man in his late 30s, long black hair in a single braid | RESERVED — #224 Quack of Dawn heavyweight hoodie cover |
-| 298 | White man in his late 40s, ginger beard, bucket hat | RESERVED — #225 Casting Doubt zip hoodie cover |
+| 295 | White man in his early 60s, white flat-top haircut, heavyset | USED 2026-10-16 — #222 Retired From Cardio hoodie cover (fal Seedream 4, garage gym; try 1 kept) |
+| 296 | Middle Eastern man in his mid 40s, salt-and-pepper beard, short dark hair | USED 2026-10-16 — #223 Sore Since 1987 hoodie cover (fal Seedream 4, gym stairwell; try 1 kept) |
+| 297 | Native American man in his late 30s, long black hair in a single braid | USED 2026-10-16 — #224 Quack of Dawn camo hoodie cover (fal Seedream 4, duck marsh at sunrise; try 1 kept) |
+| 298 | White man in his late 40s, ginger beard, bucket hat | USED 2026-10-16 — #225 Casting Doubt zip hoodie cover (fal Seedream 4, trout stream, back view; try 2 kept, try 1 replaced the art with plain text) |
 | 299 | Latina woman in her early 20s, long dark hair, tan cowgirl hat | RESERVED — #226 Howdy hoodie cover |
 | 300 | Black man in his mid 20s, high-top fade, small silver chain | RESERVED — #227 Night Shift hoodie (with #301) cover |
 | 301 | White woman in her mid 20s, black curtain-bang shag, nose ring | RESERVED — #227 Night Shift hoodie (with #300) cover |
