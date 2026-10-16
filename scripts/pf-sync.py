@@ -1,0 +1,41 @@
+#!/usr/bin/env python3
+"""Printful sync helper (no secrets: reads PRINTFUL_TOKEN from the environment).
+  pf-sync.py upload <url> <filename>                    -> prints Printful file id
+  pf-sync.py setfile <sync_product_id> <front_file_id> [<back_file_id>]
+        sets front (default) + back files on every variant of an existing sync product (paced 6 s, honors 429)
+  pf-sync.py status <sync_product_id>                   -> variants / synced counts"""
+import os, sys, json, time, urllib.request, urllib.error
+T = os.environ['PRINTFUL_TOKEN']
+def call(method, path, body=None):
+    for _ in range(8):
+        r = urllib.request.Request('https://api.printful.com' + path, method=method,
+            data=json.dumps(body).encode() if body is not None else None,
+            headers={'Authorization': 'Bearer ' + T, 'Content-Type': 'application/json'})
+        try:
+            return json.load(urllib.request.urlopen(r, timeout=60))['result']
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                time.sleep(int(e.headers.get('Retry-After', 30)) + 1); continue
+            raise Exception(f'{e.code} {e.read()[:300]}')
+    raise Exception('429 loop')
+cmd = sys.argv[1]
+if cmd == 'upload':
+    print(call('POST', '/files', {'url': sys.argv[2], 'filename': sys.argv[3], 'visible': True})['id'])
+elif cmd == 'status':
+    d = call('GET', f'/sync/products/{sys.argv[2]}')
+    print(d['sync_product']['name'], d['sync_product']['variants'], d['sync_product']['synced'])
+elif cmd == 'setfile':
+    pid, front = sys.argv[2], int(sys.argv[3]); back = int(sys.argv[4]) if len(sys.argv) > 4 else None
+    FT = 'default'
+    vs = call('GET', f'/sync/products/{pid}')['sync_variants']
+    for i, v in enumerate(vs):
+        cur = {f['type']: f['id'] for f in v['files']}
+        if cur.get('default') == front and (back is None or cur.get('back') == back): continue
+        bk = back or cur.get('back')
+        for ft in (FT, 'front' if FT == 'default' else 'default'):
+            try:
+                files = [{'type': ft, 'id': front}] + ([{'type': 'back', 'id': bk}] if bk else [])
+                call('PUT', f'/sync/variant/{v["id"]}', {'files': files}); FT = ft; break
+            except Exception as e:
+                if 'placements' not in str(e): raise
+        print(f'{i+1}/{len(vs)} {v["name"]}', flush=True); time.sleep(6)
