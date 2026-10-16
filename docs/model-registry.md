@@ -245,3 +245,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 259 | Pair: Puerto Rican woman in her early 40s, dark curls + Irish-American man in his early 40s, ginger beard | RESERVED — #189 Vintage Santa hoodie cover (man + woman) |
 | 260 | White woman in her late 20s, long strawberry-blonde braid, freckles | RESERVED — #190 Highland Cow hoodie cover |
 | 261 | Persian-American woman in her mid 30s, glossy dark waves, red lipstick | RESERVED — #191 Nutcracker Bow hoodie cover |
+| 262 | Black woman in her late 20s, short natural curls, gold hoops | RESERVED — #192 Cherry Picked embroidered crewneck cover |
+| 263 | Vietnamese-American woman in her mid 20s, long straight black hair, round glasses | RESERVED — #193 Whisk Taker embroidered crewneck cover |
+| 264 | White woman in her early 30s, auburn shag haircut, freckles | RESERVED — #194 Morel Support embroidered crewneck cover |
+| 265 | South Asian woman in her late 30s, long dark braid, nose stud | RESERVED — #195 Purrsonal Space embroidered crewneck cover |
+| 266 | Mexican-American woman in her mid 40s, shoulder-length wavy brown hair | RESERVED — #196 Rooted in Jesus embroidered crewneck cover |
