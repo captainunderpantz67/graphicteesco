@@ -3958,12 +3958,16 @@
   },
   "womens-christian-be-still-crewneck-sweatshirt": {
    "claimed": [
-    "scripture sweatshirt",
-    "be still shirt",
-    "prayer sweatshirt"
+    "scripture sweatshirt"
    ],
-   "gaps_measured": [],
-   "measured": "scripture sweatshirt 1,900/KD37; be still shirt 320/KD56; prayer sweatshirt 320/KD50 (RankHero 2026-10-16)"
+   "gaps_measured": [
+    {
+     "phrase": "scripture sweatshirt",
+     "volume": 1900,
+     "kd": 37
+    }
+   ],
+   "measured": "2026-10-16"
   },
   "womens-christian-light-of-the-world-jesus-crewneck-sweatshirt": {
    "claimed": [

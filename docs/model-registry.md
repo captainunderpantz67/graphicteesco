@@ -315,7 +315,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 440 | Chinese-American woman in her mid 20s, chin-length bob dyed lavender, silver hoops | USED 2026-10-16 — #264 Hot Mess Express zip hoodie cover (try 2, image 2 of 3: try 1 had the hood hidden and the print cut by the turn) |
 | 441 | Colombian-American woman in her mid 30s, long dark hair in a low twisted bun, silver ear cuffs | USED 2026-10-16 — #265 On My Own Time snail hoodie cover (try 1, image 1 of 3; cuff word shows small) |
 | 442 | Czech-American man in his early 40s, curly light-brown hair, full brown beard with a grey patch at the chin | USED 2026-10-16 — #266 Eau de Campfire embroidered hoodie cover (try 1, image 2 of 3; lettering slightly soft) |
-| 443 | Ghanaian-American woman in her mid 40s, short tapered natural hair, small pearl studs | RESERVED — #267 Be Still crewneck cover |
+| 443 | Ghanaian-American woman in her mid 40s, short tapered natural hair, small pearl studs | USED 2026-10-16 — #267 Be Still crewneck cover (try 1, image 2 of 3; the small PSALM 46:10 line is soft on the cover) |
 | 444 | Italian-American woman in her late 50s, shoulder-length salt-and-pepper waves, small gold cross necklace | RESERVED — #268 Light of the World crewneck cover |
 | 445 | Ukrainian-American woman in her late 20s, long light-blonde hair in a single fishtail braid | RESERVED — #269 Ewe Are Loved crewneck cover |
 | 446 | Dominican-American woman in her late 60s, soft white waves to the chin, coral lipstick | RESERVED — #270 Casserole Ministry crewneck cover |
