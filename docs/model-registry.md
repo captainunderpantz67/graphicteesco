@@ -240,7 +240,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 254 | Tongan man in his late 20s, very broad build, short black hair | USED 2026-10-16 — #184 Clean Plate Club heavyweight hoodie cover (fal Seedream 4, warehouse gym; try 1 kept) |
 | 255 | White man in his early 40s, red hair, freckles, lean runner build | USED 2026-10-16 — #185 Leg Day Survivor hoodie cover (fal Seedream 4, garage gym; try 2 kept: LEG missing from the lettering, try 1 showed an open zip hoodie over a tee) |
 | 256 | Pair: Japanese-American woman in her late 20s, sleek bob + Mexican-American man in his late 20s, wavy hair | USED 2026-10-16 — #186 Slurp Responsibly hoodie cover (fal Seedream 4, ramen counter; try 2 kept: try 1 had SLURP RESPONSIBY, try 2's woman print is slightly warped) |
-| 257 | White woman in her early 20s, platinum blonde space buns, glitter eyeliner | RESERVED — #187 Low Battery hoodie cover |
+| 257 | White woman in her early 20s, platinum blonde space buns, glitter eyeliner | USED 2026-10-16 — #187 Low Battery hoodie cover (fal Seedream 4, bedroom with fairy lights; try 1 kept) |
 | 258 | Pair: white man in his mid 60s, white mustache + white woman in her early 60s, silver bob | RESERVED — #188 Lake Life hoodie cover (man + woman) |
 | 259 | Pair: Puerto Rican woman in her early 40s, dark curls + Irish-American man in his early 40s, ginger beard | USED 2026-10-16 — #189 Vintage Santa hoodie cover (fal Seedream 4, tree lot at dusk; try 1 kept) |
 | 260 | White woman in her late 20s, long strawberry-blonde braid, freckles | USED 2026-10-16 — #190 Highland Cow hoodie cover (fal Seedream 4, snowy farm fence; try 1 kept) |

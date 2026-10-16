@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16
+status: REVIEW
 lane: B
 type: twin
 id: 185
@@ -18,3 +18,4 @@ handle: mens-gym-leg-day-survivor-hoodie
 ---
 ## Log
 - 2026-10-16 14:28 UTC director: brief written, READY (cold-weather push, Sam 2026-10-16).
+- 2026-10-16 17:25 UTC [B]: built as DRAFT; twin of tee, file 1083319477 front 11.7 in + back logo, Sand + Sport Grey (dark navy linework sinks into Navy), 14/14 synced, $39.99/$44.99, lifting hoodie 480/40. Cover note for the director: try 2 kept because the lettering lost the word LEG (try 1 was faithful but showed an open zip hoodie over a tee); consider a cover redo. Review sheet docs/review/185.jpg.
