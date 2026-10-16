@@ -2615,6 +2615,18 @@
      "kd": 31
     }
    ]
+  },
+  "mens-fishing-fisher-of-men-graphic-tee": {
+   "claimed": [
+    "fishers of men shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fishers of men shirt",
+     "volume": 390,
+     "kd": 31
+    }
+   ]
   }
  }
 }

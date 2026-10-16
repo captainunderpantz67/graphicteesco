@@ -170,7 +170,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 184 | Man in his early 50s, sun-weathered, grey stubble, faded cap | USED 2026-10-15 — Reel Talk fishing tee cover (fal Seedream 4, lake dock at dawn; try 1 kept) |
 | 185 | Man in his late 30s, dark beard, brown hair, flannel over shoulder | USED 2026-10-15 — Deer Diary hunting tee cover (fal Seedream 4, deer camp cabin in late fall; try 1 kept) |
 | 186 | Woman in her early 50s, silver pixie cut, pearl studs | USED 2026-10-15 — Back Pew Crew christian tee cover (fal Seedream 4, country church steps; try 1 kept) |
-| 187 | Man in his mid 60s, white mustache, bucket hat | BUILDING [B] — Fisher of Men fishing tee cover |
+| 187 | Man in his mid 60s, white mustache, bucket hat | USED 2026-10-16 — Fisher of Men fishing tee cover (fal Seedream 4, lake dock at sunrise; try 1 kept)|
 | 188 | Woman in her early 20s, long box braids, small nose stud | USED 2026-10-15 — IV League nurse tee cover (fal Seedream 4, nursing school campus; try 1 kept) |
 | 189 | Woman in her mid 40s, wavy auburn hair in a claw clip | BUILDING [B] — Down, Set, Snacks football mom tee cover |
 | 190 | Man in his early 40s, shaved head, short red beard | BUILDING [B] — Cheaper Than Therapy fishing tee cover |

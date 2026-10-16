@@ -1482,7 +1482,7 @@ python3 scripts/fal-photo.py --design designs/amazing-grace.png --name grace --m
 - **Primary keyword:** funny christian shirt — 1,600 / KD 50 (also church shirts 2,400 / 41)
 - **Cover model:** registry #186
 
-### 117. Men's Fishing – Fisher of Men (Mostly Bass) Tee  *(BUILDING [B])*
+### 117. Men's Fishing – Fisher of Men (Mostly Bass) Tee  *(built 2026-10-16)*
 - **Handle:** `mens-fishing-fisher-of-men-graphic-tee` · **Blank:** Bella+Canvas 3001, $29.99 · tags fishing-t-shirts, graphic-tees-for-men, vintage-graphic-tees
 - **Hook:** "Fisher of Men (Mostly Bass)" — the verse, with an honest footnote. Church-going fishermen grin.
 - **Why it's not taken:** Etsy "fishers of men" shirts are the verse in script over a cross; nobody adds the bass punchline.
