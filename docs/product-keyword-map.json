@@ -3257,6 +3257,18 @@
    ],
    "gaps_measured": [],
    "measured": "hot cocoa sweatshirt 110/KD40 (RankHero 2026-10-16)"
+  "womens-christmas-polar-bear-cocoa-hoodie": {
+   "claimed": [
+    "polar bear hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "polar bear hoodie",
+     "volume": 720,
+     "kd": 27
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

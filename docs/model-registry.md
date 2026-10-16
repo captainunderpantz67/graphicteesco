@@ -251,7 +251,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 265 | South Asian woman in her late 30s, long dark braid, nose stud | RESERVED — #195 Purrsonal Space embroidered crewneck cover |
 | 266 | Mexican-American woman in her mid 40s, shoulder-length wavy brown hair | USED 2026-10-16 — #196 Rooted in Jesus embroidered hoodie cover (fal Seedream 4, church steps; try 1 kept) |
 | 267 | Korean-American woman in her late 20s, chin-length bob with blunt bangs | USED 2026-10-16 — #200 Skate Club Penguins hoodie cover (fal Seedream 4, ice rink at dusk; try 2 kept: try 1 redrew the print as one penguin) |
-| 268 | Black woman in her mid 30s, long box braids in a high bun | RESERVED — #201 Polar Bear Cocoa hoodie cover |
+| 268 | Black woman in her mid 30s, long box braids in a high bun | USED 2026-10-16 — #201 Polar Bear Cocoa hoodie cover (fal Seedream 4, snowy tree lot; try 1 kept) |
 | 269 | White woman in her early 40s, blonde pixie cut, tortoiseshell glasses | RESERVED — #202 Christmas Dogs hoodie cover |
 | 270 | Puerto Rican woman in her early 60s, silver curly bob | RESERVED — #203 Cardinal Christmas hoodie cover |
 | 271 | Filipino-American woman around 20, long hair with curtain bangs | USED 2026-10-16 — #197 Bow Before Me cropped hoodie cover (fal Seedream 4, campus coffee shop; try 1 kept) |
