@@ -1,47 +1,13 @@
-# Cohesion audit — 2026-10-16 12:59 UTC
+# Cohesion audit — 2026-10-16 13:28 UTC
 
-158 live products checked · **99 errors** · 10 warnings · 107 products with findings
+158 live products checked · **74 errors** · 10 warnings · 83 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
-- 99 × Price ./- — should be ./. on every variant.
+- 74 × Price ./- — should be ./. on every variant.
 
 ## By product (errors first)
-### Women's Christmas – Retro Santa Tee `womens-christmas-retro-santa-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-- **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
-
-### Women's Christmas – Candy Cane Club Tee `womens-christmas-candy-cane-club-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Christmas – Nutcracker Bow Tee `womens-christmas-nutcracker-bow-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Christmas – Vintage Snowman Tee `womens-christmas-vintage-snowman-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Christmas – Pink Christmas Trees Tee `womens-christmas-pink-christmas-trees-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Christmas – Oh Deer Tee `womens-christmas-oh-deer-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Christmas – Holly Jolly Tee `womens-christmas-holly-jolly-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Christmas – Christmas Cats Tee `womens-christmas-christmas-cats-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Christmas – Lit Up Bow Tee `womens-christmas-lit-up-bow-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Christmas – O Holy Night Tee `womens-christmas-o-holy-night-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Christmas – Ho Ho Howdy Tee `womens-christmas-ho-ho-howdy-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
 ### Women's Western – Steer Skull & Wildflowers Tee `womens-western-steer-skull-wildflowers-graphic-tee`
 - **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
 
@@ -76,48 +42,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
 
 ### Unisex Western – Lucky Horseshoe Tee `unisex-western-lucky-horseshoe-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Christmas – Christmas Dogs Tee `womens-christmas-christmas-dogs-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Christmas – Christmas Nurse Tee `womens-christmas-christmas-nurse-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Christmas – Christmas Teacher Tee `womens-christmas-christmas-teacher-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Christmas – Mrs. Claus Bakery Tee `womens-christmas-mrs-claus-bakery-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Christmas – Santa's Sleigh Tee `womens-christmas-santas-sleigh-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Christmas – Polar Bear Cocoa Tee `womens-christmas-polar-bear-cocoa-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Christmas – Fa La La Tee `womens-christmas-fa-la-la-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Christmas – Peace on Earth Tee `womens-christmas-peace-on-earth-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Christmas – Hello Winter Snowflakes Tee `womens-christmas-hello-winter-snowflakes-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Christmas – Joy Tee `womens-christmas-joy-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Christmas – Deck the Halls Tee `womens-christmas-deck-the-halls-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Christmas – Christmas Golf Tee `womens-christmas-christmas-golf-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Women's Christmas – Highland Cow Christmas Tee `womens-christmas-highland-cow-christmas-graphic-tee`
-- **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
-
-### Unisex Thanksgiving – Turkey Trot Tee `unisex-thanksgiving-turkey-trot-graphic-tee`
 - **ERROR** Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant. → Set every variant to price 24.99, compare-at 29.99.
 
 ### Unisex Thanksgiving – Leftovers Club Tee `unisex-thanksgiving-leftovers-club-graphic-tee`
@@ -326,6 +250,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
 
 ### Women's Country – Sweet Tea & Sunsets Tee `womens-country-sweet-tea-sunsets-graphic-tee`
+- **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
+
+### Women's Christmas – Retro Santa Tee `womens-christmas-retro-santa-graphic-tee`
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
 
 ### Men's Gym – Iron Sharpens Iron Tee `mens-gym-iron-sharpens-iron-graphic-tee`

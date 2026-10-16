@@ -1,5 +1,5 @@
 {
- "at": "2026-10-16T12:59:02.127Z",
+ "at": "2026-10-16T13:28:31.341Z",
  "products": 158,
  "findings": [
   {
@@ -52,88 +52,11 @@
    "fix": "Write one ≤ 60 chars with the primary keyword."
   },
   {
-   "level": "ERROR",
-   "handle": "womens-christmas-retro-santa-graphic-tee",
-   "title": "Women's Christmas – Retro Santa Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
    "level": "WARN",
    "handle": "womens-christmas-retro-santa-graphic-tee",
    "title": "Women's Christmas – Retro Santa Tee",
    "msg": "No SEO title.",
    "fix": "Write one ≤ 60 chars with the primary keyword."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-candy-cane-club-graphic-tee",
-   "title": "Women's Christmas – Candy Cane Club Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-nutcracker-bow-graphic-tee",
-   "title": "Women's Christmas – Nutcracker Bow Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-vintage-snowman-graphic-tee",
-   "title": "Women's Christmas – Vintage Snowman Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-pink-christmas-trees-graphic-tee",
-   "title": "Women's Christmas – Pink Christmas Trees Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-oh-deer-graphic-tee",
-   "title": "Women's Christmas – Oh Deer Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-holly-jolly-graphic-tee",
-   "title": "Women's Christmas – Holly Jolly Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-christmas-cats-graphic-tee",
-   "title": "Women's Christmas – Christmas Cats Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-lit-up-bow-graphic-tee",
-   "title": "Women's Christmas – Lit Up Bow Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-o-holy-night-graphic-tee",
-   "title": "Women's Christmas – O Holy Night Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-ho-ho-howdy-graphic-tee",
-   "title": "Women's Christmas – Ho Ho Howdy Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
   {
    "level": "WARN",
@@ -223,104 +146,6 @@
    "level": "ERROR",
    "handle": "unisex-western-lucky-horseshoe-graphic-tee",
    "title": "Unisex Western – Lucky Horseshoe Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-christmas-dogs-graphic-tee",
-   "title": "Women's Christmas – Christmas Dogs Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-christmas-nurse-graphic-tee",
-   "title": "Women's Christmas – Christmas Nurse Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-christmas-teacher-graphic-tee",
-   "title": "Women's Christmas – Christmas Teacher Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-mrs-claus-bakery-graphic-tee",
-   "title": "Women's Christmas – Mrs. Claus Bakery Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-santas-sleigh-graphic-tee",
-   "title": "Women's Christmas – Santa's Sleigh Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-polar-bear-cocoa-graphic-tee",
-   "title": "Women's Christmas – Polar Bear Cocoa Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-fa-la-la-graphic-tee",
-   "title": "Women's Christmas – Fa La La Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-peace-on-earth-graphic-tee",
-   "title": "Women's Christmas – Peace on Earth Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-hello-winter-snowflakes-graphic-tee",
-   "title": "Women's Christmas – Hello Winter Snowflakes Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-joy-graphic-tee",
-   "title": "Women's Christmas – Joy Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-deck-the-halls-graphic-tee",
-   "title": "Women's Christmas – Deck the Halls Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-christmas-golf-graphic-tee",
-   "title": "Women's Christmas – Christmas Golf Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-highland-cow-christmas-graphic-tee",
-   "title": "Women's Christmas – Highland Cow Christmas Tee",
-   "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
-   "fix": "Set every variant to price 24.99, compare-at 29.99."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-thanksgiving-turkey-trot-graphic-tee",
-   "title": "Unisex Thanksgiving – Turkey Trot Tee",
    "msg": "Price 29.99/- (price/compare-at) — should be 24.99/29.99 on every variant.",
    "fix": "Set every variant to price 24.99, compare-at 29.99."
   },
