@@ -254,7 +254,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 268 | Black woman in her mid 30s, long box braids in a high bun | RESERVED — #201 Polar Bear Cocoa hoodie cover |
 | 269 | White woman in her early 40s, blonde pixie cut, tortoiseshell glasses | RESERVED — #202 Christmas Dogs hoodie cover |
 | 270 | Puerto Rican woman in her early 60s, silver curly bob | RESERVED — #203 Cardinal Christmas hoodie cover |
-| 271 | Filipino-American woman around 20, long hair with curtain bangs | RESERVED — #197 Bow Before Me cropped hoodie cover |
+| 271 | Filipino-American woman around 20, long hair with curtain bangs | USED 2026-10-16 — #197 Bow Before Me cropped hoodie cover (fal Seedream 4, campus coffee shop; try 1 kept) |
 | 272 | White man in his mid 40s, salt-and-pepper beard, stocky build | RESERVED — #198 Out of Office deer hoodie cover |
 | 273 | Middle Eastern woman in her early 30s, long dark wavy hair, gold studs | RESERVED — #199 Extra Marshmallows crewneck cover |
 | 274 | Native American woman in her late 20s, long straight black hair, center part | RESERVED — #204 Winter Woods Fox hoodie cover |

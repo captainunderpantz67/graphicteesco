@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: new
 id: 197
@@ -25,3 +25,4 @@ handle: womens-embroidered-bow-before-me-cropped-hoodie
 ---
 ## Log
 - 2026-10-16 17:18 UTC director: brief written, READY (embroidery pilot, Sam 2026-10-16).
+- 2026-10-16 17:45 UTC [B]: built as DRAFT; new Style B art (try 1 for each piece: chest bow + cuff script 'bow before me'), thickened and flattened to one thread. Printful's 15-color thread palette has no light pink, so thread is Flamingo #CC3366 (the brief's light pink #F4B6C2 was dropped by the API). Files chest 1087710599 (about 3 in), right cuff 1087710613 (2 in wide). Black + Storm, 10/10 synced, $52.99/$57.99, bow hoodie 2400/38. Tag note: embroidered-sweatshirts omitted (audit rejects hoodies in that collection); cropped-hoodies + cropped-sweatshirts kept. Review sheet docs/review/197.jpg.
