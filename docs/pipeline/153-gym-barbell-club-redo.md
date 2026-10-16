@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: redo
 id: 153
@@ -22,3 +22,4 @@ handle: mens-gym-barbell-club-graphic-tee
 - 2026-10-16 08:50 UTC director: redo brief written, READY.
 - 2026-10-16 12:53 UTC [B]: fal.ai account locked (TOP_UP) after art + cover attempt 1/2 failed print-fidelity (cover redrew/boxed the print); needs fal top-up for a new cover. Fresh art is lost with the container; regenerate on resume. Product untouched (still old art live). Alert sent to Sam.
 - 2026-10-16 16:39 UTC Claude: Sam wants every weak men's shirt redone now; READY for lane B alongside cold-weather.
+- 2026-10-16 18:10 UTC [B]: REDO done: in-place redo of the ACTIVE product: new Recraft art (Retired From Cardio, try 1), cream-ink dark file 1087721100 for Black/Navy/Dark Grey Heather/Army and original-ink file 1087721091 for Soft Cream/White, 52 variants re-syncing (verify before treating as final), new mockups + variant images + cover (#223), copy unchanged (already hook-first), price already 24.99/29.99. Review sheet docs/review/153.jpg.

@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: redo
 id: 154
@@ -22,3 +22,4 @@ handle: mens-gym-iron-sweat-graphic-tee
 - 2026-10-16 08:50 UTC director: redo brief written, READY.
 - 2026-10-16 12:53 UTC [B]: fal.ai account locked (TOP_UP) after art + cover attempt 1/2 failed print-fidelity (cover redrew/boxed the print); needs fal top-up for a new cover. Fresh art is lost with the container; regenerate on resume. Product untouched (still old art live). Alert sent to Sam.
 - 2026-10-16 16:39 UTC Claude: Sam wants every weak men's shirt redone now; READY for lane B alongside cold-weather.
+- 2026-10-16 18:10 UTC [B]: REDO done: in-place redo of the ACTIVE product: new Recraft art (Sore Since 1987, try 1), cream-ink dark file 1087723677 for Black/Navy/Maroon/Dark Grey Heather/Military Green and original-ink file 1087723653 for Soft Cream/White, variants re-syncing, new mockups + variant images, new cover (#224, 3rd cover attempt: towel/letters overlap in the first two), copy already hook-first. Review sheet docs/review/154.jpg.
