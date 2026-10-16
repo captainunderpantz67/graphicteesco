@@ -180,6 +180,8 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-christmas-define-naughty-crewneck-sweatshirt': { src: '/covers/unisex-christmas-define-naughty-crewneck-sweatshirt.webp', alt: 'Man and woman standing together at an office holiday party with paper snowflakes and a lit tree, holding coffee cups and wearing the navy Define Naughty crewneck sweatshirt' },
   'womens-cropped-matcha-made-in-heaven-cropped-hoodie': { src: '/covers/womens-cropped-matcha-made-in-heaven-cropped-hoodie.webp', alt: 'Woman at a bright cafe counter holding an iced matcha, wearing the Matcha Made in Heaven cropped hoodie in Storm' },
   'mens-christmas-light-show-manager-graphic-tee': { src: '/covers/mens-christmas-light-show-manager-graphic-tee.webp', alt: 'Man with sandy-brown hair and wire-rim glasses in his front yard at dusk under string lights with a ladder behind him, holding a coffee mug and wearing the Light Show Manager (Unpaid) Christmas tee' },
+  'womens-cropped-espresso-yourself-cropped-hoodie': { src: '/covers/womens-cropped-espresso-yourself-cropped-hoodie.webp', alt: 'Woman with curly honey-brown hair in a claw clip at a moody coffee bar, wearing the Espresso Yourself cropped hoodie in Storm' },
+  'unisex-christian-amazing-grace-heavyweight-hoodie': { src: '/covers/unisex-christian-amazing-grace-heavyweight-hoodie.webp', alt: 'Man and woman in matching navy hoodies outside a small white country church at golden hour, holding coffee, wearing the Amazing Grace cross hoodie' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
