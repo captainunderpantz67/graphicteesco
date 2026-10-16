@@ -110,27 +110,45 @@ export const storyText = (html: string) => {
     .trim();
 };
 
-// site.facts.returnsPolicy as schema.org: misprinted/damaged/defective items only, reported within 30 days of
-// delivery, reprinted free or refunded (no returns for size or change of mind, hence itemCondition Damaged).
+// site.facts.returnsPolicy as schema.org. Printed to order: no returns for size or change of mind, so the
+// honest category is "not permitted" (misprints/damage are reprinted or refunded as a service, not a return).
+// Must match /shipping-returns/ and any Search Console return settings (backtrack research 2026-10-16).
 const returnPolicy = () => {
   const f = site.facts;
-  if (!f.returnsPolicy || !f.returnWindowDays || !f.returnCountry) return undefined;
+  if (!f.returnsPolicy || !f.returnCountry) return undefined;
   return {
     '@type': 'MerchantReturnPolicy',
     applicableCountry: f.returnCountry,
-    returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
-    merchantReturnDays: f.returnWindowDays,
-    returnMethod: 'https://schema.org/ReturnByMail',
-    returnFees: 'https://schema.org/FreeReturn',
-    refundType: ['https://schema.org/FullRefund', 'https://schema.org/ExchangeRefund'],
-    itemCondition: 'https://schema.org/DamagedCondition',
+    returnPolicyCategory: 'https://schema.org/MerchantReturnNotPermitted',
   };
 };
+
+// Shipping as the store charges it (rulebook R12.2): free US shipping on $45+, otherwise the Printful flat
+// rate for the garment. Per-offer markup can't express the threshold, so it states the single-item rate.
+const shippingDetails = (p: Product) => {
+  const heavy = /hood|sweatshirt|crewneck/i.test(p.title + ' ' + p.productType);
+  return {
+    '@type': 'OfferShippingDetails',
+    shippingRate: { '@type': 'MonetaryAmount', value: heavy ? '8.79' : '4.95', currency: 'USD' },
+    shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'US' },
+    deliveryTime: {
+      '@type': 'ShippingDeliveryTime',
+      handlingTime: { '@type': 'QuantitativeValue', minValue: 2, maxValue: 5, unitCode: 'DAY' },
+      transitTime: { '@type': 'QuantitativeValue', minValue: 3, maxValue: 8, unitCode: 'DAY' },
+    },
+  };
+};
+
+// Holiday sale end (rulebook R12.1); compare-at prices are cleared on Dec 1.
+export const SALE_ENDS = '2026-11-30';
 
 export const productSchema = (p: Product) => {
   const prices = p.variants.map((v) => Number(v.price.amount)).filter((n) => Number.isFinite(n));
   const currency = p.variants[0]?.price.currencyCode ?? p.priceRange.minVariantPrice.currencyCode;
   const policy = returnPolicy();
+  const price = prices.length ? Math.min(...prices) : Number(p.priceRange.minVariantPrice.amount);
+  const compares = p.variants.map((v) => Number(v.compareAtPrice?.amount)).filter((n) => Number.isFinite(n) && n > 0);
+  const compare = compares.length ? Math.max(...compares) : null;
   const description = storyText(p.descriptionHtml || '') || p.description;
   return {
     '@context': 'https://schema.org',
@@ -142,17 +160,20 @@ export const productSchema = (p: Product) => {
     category: p.productType || undefined,
     ...(site.facts.teeBlank && !/hood/i.test(p.productType) ? { material: site.facts.teeBlank } : {}),
     ...(site.facts.hoodieBlank && /hood/i.test(p.productType) ? { material: site.facts.hoodieBlank } : {}),
-    // One AggregateOffer instead of an Offer per size/color (keeps product pages small).
+    // One Offer (every variant shares a price): Google merchant listings need Offer, not AggregateOffer.
     offers: {
-      '@type': 'AggregateOffer',
-      lowPrice: (prices.length ? Math.min(...prices) : Number(p.priceRange.minVariantPrice.amount)).toFixed(2),
-      highPrice: (prices.length ? Math.max(...prices) : Number(p.priceRange.minVariantPrice.amount)).toFixed(2),
+      '@type': 'Offer',
+      price: price.toFixed(2),
       priceCurrency: currency,
-      offerCount: p.variants.length,
+      ...(compare && compare > price ? {
+        priceSpecification: { '@type': 'UnitPriceSpecification', priceType: 'https://schema.org/StrikethroughPrice', price: compare.toFixed(2), priceCurrency: currency },
+        priceValidUntil: SALE_ENDS,
+      } : {}),
       availability: p.variants.some((v) => v.availableForSale) ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock',
       itemCondition: 'https://schema.org/NewCondition',
       url: `${site.url}/products/${p.handle}/`,
       seller: { '@id': ORG_ID },
+      shippingDetails: shippingDetails(p),
       ...(policy ? { hasMerchantReturnPolicy: policy } : {}),
     },
   };

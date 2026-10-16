@@ -19,6 +19,8 @@ const isNew = !!p.createdAt && Date.now() - Date.parse(p.createdAt) < 14 * 864e5
 const sibling = p.handle.endsWith('-graphic-tee') ? p.handle.replace(/-graphic-tee$/, '-crewneck-sweatshirt')
   : p.handle.endsWith('-crewneck-sweatshirt') ? p.handle.replace(/-crewneck-sweatshirt$/, '-graphic-tee') : null;
 const matchingSet = !!sibling && !!coverFor(sibling);
+const cmp = p.variants.find((v) => v.compareAtPrice && Number(v.compareAtPrice.amount) > Number(v.price.amount))?.compareAtPrice;
+const was = cmp ? formatPrice(cmp) : null;
 ---
 <Tag href={href} class="group block">
   <div class="relative aspect-[4/5] bg-[var(--color-paper-2)] grain overflow-hidden flex items-center justify-center">
@@ -44,7 +46,7 @@ const matchingSet = !!sibling && !!coverFor(sibling);
   </div>
   <div class="mt-3 flex justify-between gap-2 text-sm">
     <p class="font-semibold group-hover:text-[var(--color-rust)]">{p.title}</p>
-    <p class="text-[var(--color-ink-2)] whitespace-nowrap">{formatPrice(p.priceRange.minVariantPrice)}</p>
+    <p class="text-[var(--color-ink-2)] whitespace-nowrap">{formatPrice(p.priceRange.minVariantPrice)}{was && <s class="ml-1.5 text-xs">{was}</s>}</p>
   </div>
   {shownColors.length > 1 && (
     <div class="mt-2 flex items-center gap-1.5" aria-label={`Available in ${colors.length} colors`}>

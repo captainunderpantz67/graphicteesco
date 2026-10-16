@@ -3,6 +3,7 @@ import { site } from '../../data/site';
 import { all } from '../../data/collections';
 import { covers } from '../../data/covers';
 import { getAllProducts } from '../../lib/shopify';
+import { SALE_ENDS } from '../../lib/schema';
 
 // Product feed (Google RSS 2.0 + g: namespace) — one variant per item, grouped by product.
 // Read by Google Merchant Center (free listings + Shopping) and Pinterest catalogs, so both
@@ -21,12 +22,15 @@ export const GET: APIRoute = async () => {
     const link = `${site.url}/products/${p.handle}/`;
     const desc = text(p.descriptionHtml || p.description).slice(0, 4900);
     const col = all.find((c) => p.collections?.includes(c.shopifyHandle) && c.slug !== 'graphic-tees-for-men' && c.slug !== 'graphic-tees-for-women');
-    const isSweat = /sweatshirt|crewneck/i.test(p.title + ' ' + p.productType);
+    const isSweat = /sweatshirt|crewneck|hood/i.test(p.title + ' ' + p.productType);
     const cover = covers[p.handle] ? abs(covers[p.handle].src) : null;
+    const heavy = /hood|sweatshirt|crewneck/i.test(p.title + ' ' + p.productType);
+    const groupTitle = p.title;
     for (const v of p.variants) {
       const o = Object.fromEntries(v.selectedOptions.map((x) => [x.name.toLowerCase(), x.value]));
       const main = v.image?.url ?? p.featuredImage?.url ?? p.images[0].url;
-      const extra = [cover, ...p.images.map((i) => i.url)].filter((u): u is string => !!u && u !== main).slice(0, 10);
+      const extra = p.images.map((i) => i.url).filter((u) => u !== main).slice(0, 10);
+      const cmp = v.compareAtPrice && Number(v.compareAtPrice.amount) > Number(v.price.amount) ? Number(v.compareAtPrice.amount) : null;
       items.push(`    <item>
       <g:id>${num(v.id)}</g:id>
       <g:item_group_id>${num(p.id)}</g:item_group_id>
@@ -36,7 +40,10 @@ export const GET: APIRoute = async () => {
       <g:image_link>${esc(main)}</g:image_link>
 ${extra.map((u) => `      <g:additional_image_link>${esc(u)}</g:additional_image_link>`).join('\n')}
       <g:availability>${v.availableForSale ? 'in_stock' : 'out_of_stock'}</g:availability>
-      <g:price>${Number(v.price.amount).toFixed(2)} ${v.price.currencyCode}</g:price>
+      <g:price>${(cmp ?? Number(v.price.amount)).toFixed(2)} ${v.price.currencyCode}</g:price>
+${cmp ? `      <g:sale_price>${Number(v.price.amount).toFixed(2)} ${v.price.currencyCode}</g:sale_price>\n      <g:sale_price_effective_date>2026-10-15T00:00-06:00/${SALE_ENDS}T23:59-06:00</g:sale_price_effective_date>\n` : ''}      <g:shipping><g:country>US</g:country><g:service>Standard</g:service><g:price>${heavy ? '8.79' : '4.95'} USD</g:price></g:shipping>
+      <g:item_group_title>${esc(groupTitle)}</g:item_group_title>
+${cover ? `      <g:lifestyle_image_link>${esc(cover)}</g:lifestyle_image_link>\n` : ''}
       <g:brand>${esc(site.name)}</g:brand>
       <g:condition>new</g:condition>
       <g:identifier_exists>no</g:identifier_exists>

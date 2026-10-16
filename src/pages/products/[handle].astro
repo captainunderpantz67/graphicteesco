@@ -61,7 +61,9 @@ const parents = all.filter((c) => p.collections?.includes(c.shopifyHandle));
 const titleLead = p.title.split('–')[0].toLowerCase();
 const primary = parents.find((c) => !/graphic-tees-for-(men|women)/.test(c.slug) && titleLead.includes(c.slug.split('-')[0]))
   ?? parents.find((c) => !/graphic-tees-for-(men|women)/.test(c.slug)) ?? parents[0];
-const variantData = p.variants.map((v) => ({ id: v.id, ok: v.availableForSale, price: formatPrice(v.price), img: v.image?.url ?? null, opts: Object.fromEntries(v.selectedOptions.map((o) => [o.name, o.value])) }));
+const firstCmp = p.variants.find((v) => v.compareAtPrice && Number(v.compareAtPrice.amount) > Number(v.price.amount))?.compareAtPrice;
+const wasPrice = firstCmp ? formatPrice(firstCmp) : null;
+const variantData = p.variants.map((v) => ({ id: v.id, ok: v.availableForSale, price: formatPrice(v.price), was: v.compareAtPrice && Number(v.compareAtPrice.amount) > Number(v.price.amount) ? formatPrice(v.compareAtPrice) : null, img: v.image?.url ?? null, opts: Object.fromEntries(v.selectedOptions.map((o) => [o.name, o.value])) }));
 const images = p.images.length ? p.images : [];
 // Slide 1 = the product's fal lifestyle cover (the only human on the page, store-rules image standard v2).
 const cover = coverFor(p.handle);
@@ -143,7 +145,7 @@ const altFor = (img: { url: string; altText?: string | null }) => {
         <span class="display block text-[clamp(2.6rem,6vw,4.2rem)] leading-[.9]">{h1Design}</span>{' '}
         <span class="mt-1 block text-sm font-semibold uppercase tracking-[.12em] text-[var(--color-ink-2)]">{h1Niche}</span>
       </h1>
-      <p class="mt-4 text-2xl font-bold" data-price>{formatPrice(p.priceRange.minVariantPrice)}</p>
+      <p class="mt-4 text-2xl font-bold"><span data-price>{formatPrice(p.priceRange.minVariantPrice)}</span>{wasPrice && <s class="ml-2 text-lg font-normal text-[var(--color-ink-2)]" data-was>{wasPrice}</s>}{wasPrice && <span class="ml-2 align-middle text-xs font-bold uppercase tracking-wider text-[var(--color-rust)]" data-sale>Holiday sale</span>}</p>
       {hook && <p class="mt-3 text-[var(--color-ink-2)] max-w-md">{hook}</p>}
 
       <form data-add-to-cart class="mt-6 grid gap-5" data-variants={JSON.stringify(variantData)}>
@@ -289,7 +291,7 @@ const altFor = (img: { url: string; altText?: string | null }) => {
   // Variant selection
   const form = document.querySelector<HTMLFormElement>('form[data-add-to-cart][data-variants]');
   if (form) {
-    const variants: { id: string; ok: boolean; price: string; img: string | null; opts: Record<string, string> }[] = JSON.parse(form.dataset.variants!);
+    const variants: { id: string; ok: boolean; price: string; was: string | null; img: string | null; opts: Record<string, string> }[] = JSON.parse(form.dataset.variants!);
     const hidden = form.querySelector<HTMLInputElement>('input[name=variant]')!;
     const btn = form.querySelector<HTMLButtonElement>('button[type=submit]')!;
     const priceEl = document.querySelector('[data-price]');
@@ -305,6 +307,8 @@ const altFor = (img: { url: string; altText?: string | null }) => {
       btn.disabled = !v?.ok;
       btn.textContent = v?.ok ? 'Add to cart' : 'Sold out';
       if (v && priceEl) priceEl.textContent = v.price;
+      const wasEl = document.querySelector('[data-was]');
+      if (v && wasEl) { wasEl.textContent = v.was ?? ''; wasEl.hidden = !v.was; }
       const col = colorKey ? c[colorKey] : '';
       if (col !== lastColor) { lastColor = col; (window as any).__gtcShowColor?.(col); }
     };
