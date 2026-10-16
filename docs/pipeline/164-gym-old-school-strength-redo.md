@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [B] 2026-10-16
 reason: paused for cold-weather, resume after (Sam, 2026-10-16: evergreen tees wait until every cold-weather collection reaches 14, R11.5).
 lane: B
 type: redo
