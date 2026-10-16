@@ -3833,6 +3833,15 @@
      "phrase": "matcha sweatshirt",
      "volume": 480,
      "kd": 36
+  "womens-christmas-nanas-cookies-graphic-tee": {
+   "claimed": [
+    "nana shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "nana shirt",
+     "volume": 2900,
+     "kd": 51
     }
    ],
    "measured": "2026-10-16"

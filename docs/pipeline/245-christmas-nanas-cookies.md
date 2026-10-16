@@ -18,3 +18,4 @@ handle: womens-christmas-nanas-cookies-graphic-tee
 ---
 ## Log
 - 2026-10-16 21:18 UTC director: brief written, READY (lane A women's Christmas pair, twin of #244).
+- 2026-10-16 22:17 UTC builder [A]: DRAFT gid://shopify/Product/15362356642096 (Bella+Canvas 6400 relaxed, catalog 360; White, Natural, Heather Stone, Athletic Heather, Pink, Light Violet x S-3XL = 36; light and mid colors only, no cream-ink file; $24.99/$29.99; tags per brief), #244's file 1087858373 (no new art), Printful sync 482333934 queued (FORCE=1 FW=1500 setfile 482333934 1087858373 1080398177). Primary nana shirt 2,900/KD51 in map. Cover #422 from the Athletic Heather mockup (try 1, kept #3 of 3), 6 fronts + back (back from front:Back), variant images, audit above, docs/review/245.jpg. REVIEW once synced = 36.
