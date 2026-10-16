@@ -3908,12 +3908,16 @@
   },
   "womens-bookish-plot-twist-oversized-sweatshirt": {
    "claimed": [
-    "bookish sweatshirt",
-    "book sweatshirt",
-    "book club sweatshirt"
+    "bookish sweatshirt"
    ],
-   "gaps_measured": [],
-   "measured": "bookish sweatshirt 1,600/KD54; book sweatshirt 1,600/KD54; book club sweatshirt 590/KD56 (RankHero 2026-10-16)"
+   "gaps_measured": [
+    {
+     "phrase": "bookish sweatshirt",
+     "volume": 1600,
+     "kd": 54
+    }
+   ],
+   "measured": "2026-10-16"
   },
   "womens-frog-not-toad-ay-zip-hoodie": {
    "claimed": [

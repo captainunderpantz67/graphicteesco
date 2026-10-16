@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-16 22:59
+status: REVIEW
 lane: B
 type: twin
 id: 234
@@ -24,3 +24,4 @@ handle: mens-gym-study-in-hypertrophy-oversized-hoodie
   1. R3.7.6 / R5.3.5: the caption 'Study in Hypertrophy, c. 400 B.C.' is a default serif font and is too small to read on the mockups or the cover (the joke lives in that line).
   2. Fix in the art: hand-lettered engraving-style caption about 60% of the statue's width, on two lines if needed ('STUDY IN HYPERTROPHY' / 'c. 400 B.C.'), cream on Navy and black on Bone/Dust per R5.3.8. One new Recraft generation for the lettering or compose it in print-prep from a hand-drawn lettering generation; resync, mockups, one cover attempt.
 - 2026-10-16 23:02 UTC [B]: REDO fix (round 1): caption redone as hand-lettered engraving-style capitals (one Recraft v4 generation, text only; spelling checked: STUDY IN HYPERTROPHY / c. 400 B.C., two lines, 2900 px wide = 80% of the statue art, cap height about 250 px) composed under the statue (old caption erased) in print-prep: black ink file 1087884091 for Dust, cream ink file 1087884106 for Navy; statue + caption 3600 x 5353, FW 1100 TOP 0 (7.3 in wide, 10.9 in tall inside the 11 in area). Mockups replaced in place, cover regenerated from a cropped mockup reference (one attempt, registry #308, image 1 of 3; the caption reads, a little soft at 600 px). Set REVIEW at 12/12. Sheet docs/review/234.jpg.
+- 2026-10-16 23:11 UTC [B]: synced, REVIEW.
