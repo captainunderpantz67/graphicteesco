@@ -1,0 +1,5 @@
+{"art": "designs/b/pl-a.png", "art_width": 0.98, "canvas": [3600, 4500], "gap": 10,
+ "lines": [
+  {"text": "I have", "font": "Yellowtail-Regular.ttf", "size": 700, "fill": "#d9707f", "stroke": 22, "stroke_fill": "#2f2a2a", "where": "above"},
+  {"text": "CORE ISSUES", "font": "AlfaSlabOne-Regular.ttf", "size": 640, "fill": "#2f2a2a", "tracking": 0.03, "where": "below"}
+ ]}

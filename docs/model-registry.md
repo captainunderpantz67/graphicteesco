@@ -554,7 +554,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 661 | South Asian woman, early 30s, long glossy dark hair, small gold nose stud | RESERVED — #461 Expert in Après Crewneck cover |
 | 662 | Black woman, late 20s, short tapered natural hair | RESERVED — #462 Sending It Crewneck cover (with #663) |
 | 663 | white man, mid 20s, shaggy brown hair, light mustache | RESERVED — #462 Sending It Crewneck cover (with #662) |
-| 664 | Vietnamese-American woman, early 30s, sleek high ponytail, small gold huggies | RESERVED — #463 Core Issues Crewneck cover |
+| 664 | Vietnamese-American woman, early 30s, sleek high ponytail, small gold huggies | USED 2026-10-17 — #463 Core Issues crewneck cover (try 1, image 1 of 1) |
 | 665 | Black woman, about 21, curly high puff, small silver hoops | RESERVED — #464 Core Issues Cropped Hoodie cover |
 | 666 | South Asian man, early 40s, short salt-and-pepper hair, clean-shaven | RESERVED — #465 I Rest My Case Hoodie cover (with #667) |
 | 667 | white woman, early 40s, straight red bob | RESERVED — #465 I Rest My Case Hoodie cover (with #666) |
