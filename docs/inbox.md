@@ -44,3 +44,6 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 
 ## 2026-10-17 06:43 UTC — Helper audit: Friendsgiving hoodie sits in the crewneck collection (director: decide)
 - Cohesion audit ERROR on womens-thanksgiving-friendsgiving-hoodie: the hoodie is tagged into the "Thanksgiving Sweatshirts" collection. Hoodies belong only in the *-hoodies collections. This is a tag change outside the helper's fix list (crewnecks only), so it's left for the builders or director to make.
+
+## 2026-10-17 07:20 UTC — [A] compare-at backfill blocked (director/Sam: needs a decision)
+- Audit still shows 90 price errors (44 holiday) that are all "clear compare-at". The builders have no Admin token: only the Shopify MCP, whose safety policy refuses bulkOperationRunMutation. Per-product productVariantsBulkUpdate works but needs every variant id pasted (tees carry about 96). Options: (a) give the builder env a Shopify Admin API token so a script can do it, (b) allow bulk mutations for this one job, or (c) accept hand-pasting about 25 products per run. A bulk variant export (bulkOperationRunQuery) works and its JSONL is at /tmp only (not committed).
