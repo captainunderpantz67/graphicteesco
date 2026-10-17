@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-18 07:55 UTC
+status: REVIEW
 lane: B
 type: new
 id: 435
@@ -30,3 +30,4 @@ kd: 20
 - 2026-10-17 16:31 UTC builder [B]: line rewrite done (copy only): brief + Shopify DRAFT title/handle/SEO/copy now "Soft Petals, Sharp Opinions" (womens-anime-soft-petals-sharp-opinions-cropped-hoodie). Status ART-NEXT.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane B. LINE REWRITE (cheeky not cheesy, R3.1): the words on the shirt are now "Main Character, Background Energy" (this replaces the brief's text line; keep the brief's character/scene if it fits the new line, otherwise draw what the new line needs). Update the Shopify title and copy line one to the new line; handle stays.
 - 2026-10-18 08:30 UTC builder [B]: LINE REWRITE applied (Main Character, Background Energy): title, SEO, copy and FAQs rewritten on the existing draft (handle stays: ...soft-petals-sharp-opinions...; gid 15363697410352); scene changed from the frog and wheelbarrow to an anime girl under a cherry blossom branch in a spotlight with a crowd of pastel silhouettes (the new line needs it; keyword cherry blossom hoodie still fits), logged. Art via Recraft (1 image, no lettering; thick cream outlines so it reads on black; canvas edges roughened so no straight cut) + MAIN CHARACTER, / BACKGROUND ENERGY in AlfaSlabOne cream and pink with lilac stroke (designs/b/an.json, an-kw.png; reshaped to ratio 0.96 so it fits the 1500 x 1500 cropped print area at FW 1500). Printful file 1088483914, FW 1500 TOP 0, sync pid 482474138 running (10 variants). Mockups per color + back attached. Cover registry #630, 2 tries (~$0.08): try 1 a hair strand over the M; try 2 hair behind, hood visible; the M is slightly cut by the sleeve fold, kept, director please judge. kw cherry blossom hoodie 1900/20.
+- 2026-10-17 21:08 UTC builder [B]: synced 10/10. REVIEW. Sheet docs/review/435.jpg.

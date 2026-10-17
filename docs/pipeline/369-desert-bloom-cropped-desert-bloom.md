@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-18 06:10 UTC
+status: REVIEW
 lane: B
 type: twin
 id: 369
@@ -28,3 +28,4 @@ kd: 36
 - 2026-10-17 07:11 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363193340208 (Bella+Canvas 7502 cropped, Storm + Black x S-2XL = 10 (Peach exists only in XL, so Black instead; sage/pink art reads on both), $44.99 no compare-at, category hoodies; keyword cactus hoodie 590/KD36; frameless redraw needs one Recraft generation when fal returns). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane B.
 - 2026-10-18 06:50 UTC builder [B]: R6.2: the live tee's arched panel is NOT reused; the frameless redraw is this item's art: 2 Recraft images (~$0.08; try 1 was tall and narrow, so a wide-square regeneration was made to fill the 1500 x 1500 cropped print area at FW 1500), no text, ragged scene edges (no arch or frame). Print-prep + knock-white 3500 for white pockets behind the cactus. Reads on Storm and Black (cream boot, pink and sage pads). Copy fixed against the art (fan of pads, layered mesas) and FAQ 3 -> 5 x 40-52 words incl. Dec 8. Printful file 1088478744, FW 1500 TOP 0, sync pid 482408495 running (10 variants). Mockups per color + back attached. Cover registry #560 try 1 (~$0.04), hood visible. kw cactus hoodie 590/36.
+- 2026-10-17 21:08 UTC builder [B]: synced 10/10. REVIEW. Sheet docs/review/369.jpg.
