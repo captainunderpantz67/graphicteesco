@@ -377,3 +377,5 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 487 | Mexican-American woman, late 40s, shoulder-length dark brown hair with caramel highlights, warm smile lines | RESERVED — #306 Only Here for the Sunrise cover |
 | 488 | White woman, late 20s, auburn hair in two braids, freckles | RESERVED — #303 Camp Security cover (with #484) |
 | 489 | Black man, mid 20s, short twists, slim build | RESERVED — #304 Playing Dead Till Friday cover (with #485) |
+| 490 | Filipino-American woman, early 40s, shoulder-length black hair with a side part, small hoop earrings | RESERVED — #307 Q Word nurse hoodie cover |
+| 491 | White woman, early 30s, long light-brown hair in a low ponytail, no makeup, athletic build | RESERVED — #308 I Have Followers hoodie cover |
