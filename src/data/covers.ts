@@ -426,6 +426,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-embroidered-raccoon-trail-mix-is-a-personality-hoodie': { src: '/covers/unisex-embroidered-raccoon-trail-mix-is-a-personality-hoodie.webp', alt: 'Man and woman in matching sand Raccoon Trail Mix Is a Personality embroidered hoodies at a fall forest trailhead, hands in the pouch pockets, small stitched chest design' },
   'womens-panda-endangered-patience-zip-hoodie': { src: '/covers/womens-panda-endangered-patience-zip-hoodie.webp', alt: 'Woman looking back over her shoulder in a navy Ate. Napped. Called It a Day. panda zip hoodie on a bamboo garden path, full panda back print visible' },
   'womens-sunflower-sunshine-with-boundaries-zip-hoodie': { src: '/covers/womens-sunflower-sunshine-with-boundaries-zip-hoodie.webp', alt: 'Woman looking over her shoulder in a navy Sunshine With Boundaries sunflower zip hoodie, smiling at a fall farmers market with buckets of sunflowers behind her' },
+  'womens-pilates-core-issues-cropped-hoodie': { src: '/covers/womens-pilates-core-issues-cropped-hoodie.webp', alt: 'Woman in a black Core Issues pilates cropped hoodie outside a pilates studio on a sunny sidewalk with a rolled mat in a bag at her side' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

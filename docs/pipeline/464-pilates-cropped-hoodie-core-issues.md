@@ -1,4 +1,5 @@
 status: BUILDING [B] 2026-10-18 10:40 UTC
+shopify: gid://shopify/Product/15364152623408
 lane: B
 type: twin
 id: 464
@@ -21,3 +22,4 @@ kd: 34
 ---
 ## Log
 - 2026-10-17 15:22 UTC director: brief written, READY (keyword measured this run, low-KD sweep; lane B).
+- 2026-10-18 11:10 UTC builder [B]: twin of #463 (art reused, no new fal art; R6.2: the source print has real-font lines). The crewneck print uses dark charcoal lettering and black linework, which sinks into Storm and Black, so a light version was made: the art gets a thin cream outline halo (camo-halo FILL=1, close 0, halo 12: follows every contour, no plate), I have in Yellowtail pink and CORE ISSUES in AlfaSlabOne cream with a dark stroke (designs/b/plc-print.png via a PIL composite). Storm + Black (Peach is XL-only). No draft existed: built the DRAFT (gid 15364152623408, 10 var, $44.99 no compare-at, aa-1-13-13, tags cropped-hoodies + graphic-hoodies-for-women; cropped-sweatshirts omitted: on HOLD per the brief). FAQ 5 x 42-48 words incl. Dec 8. Printful file 1088493395, FW 1500 TOP 0 (ratio 0.98, 1470 px tall inside the 1500 area), sync pid 482598151 running. Mockups per color + back attached. Cover registry #665 try 1 (~$0.04), words read, hood visible. kw pilates hoodie 390/34.

@@ -559,7 +559,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 662 | Black woman, late 20s, short tapered natural hair | RESERVED — #462 Sending It Crewneck cover (with #663) |
 | 663 | white man, mid 20s, shaggy brown hair, light mustache | RESERVED — #462 Sending It Crewneck cover (with #662) |
 | 664 | Vietnamese-American woman, early 30s, sleek high ponytail, small gold huggies | USED 2026-10-17 — #463 Core Issues crewneck cover (try 1, image 1 of 1) |
-| 665 | Black woman, about 21, curly high puff, small silver hoops | RESERVED — #464 Core Issues Cropped Hoodie cover |
+| 665 | Black woman, about 21, curly high puff, small silver hoops | USED 2026-10-17 — #464 Core Issues cropped hoodie cover (try 1, image 1 of 1) |
 | 666 | South Asian man, early 40s, short salt-and-pepper hair, clean-shaven | USED 2026-10-17 - #465 I Rest My Case lawyer hoodie cover (pair with #666-667) |
 | 667 | white woman, early 40s, straight red bob | USED 2026-10-17 - #465 I Rest My Case lawyer hoodie cover (pair with #666-667) |
 | 668 | Filipino-American woman, late 20s, shoulder-length black hair with curtain bangs | RESERVED — #466 Overthinkers Club Hoodie cover (with #669) |
