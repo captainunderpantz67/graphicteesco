@@ -1,6 +1,6 @@
 status: REVIEW
 shopify: gid://shopify/Product/15363320217904
-cover: temp
+cover: temp (swap)
 lane: A
 type: twin
 id: 375
