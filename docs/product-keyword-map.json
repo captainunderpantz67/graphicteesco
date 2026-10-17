@@ -5793,6 +5793,32 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-outdoors-sasquatch-camera-shy-heavyweight-hoodie": {
+   "claimed": [
+    "sasquatch hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "sasquatch hoodie",
+     "volume": 390,
+     "kd": 35
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-trucker-truck-stop-connoisseur-heavyweight-hoodie": {
+   "claimed": [
+    "trucker hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "trucker hoodie",
+     "volume": 320,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

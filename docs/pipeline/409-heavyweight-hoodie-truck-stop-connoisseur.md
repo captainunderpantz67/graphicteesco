@@ -1,7 +1,8 @@
-status: READY
+status: ART-NEXT
 lane: B
 type: new
 id: 409
+shopify: gid://shopify/Product/15363531964720
 handle: mens-trucker-truck-stop-connoisseur-heavyweight-hoodie
 kd: 32
 ---
@@ -23,3 +24,4 @@ kd: 32
 ---
 ## Log
 - 2026-10-17 09:22 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
+- 2026-10-17 10:30 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363531964720 (Independent Trading IND4000 #1543, Sandstone + Storm Blue x S-3XL = 12, $49.99 no compare-at, category hoodies, tags heavyweight-hoodies + graphic-hoodies-for-men + hoodie). Keyword trucker hoodie 320/KD32 in map. FAQs 5 x 43-54 words (order-by Dec 8), facts from Printful spec (10 oz, Pakistan). Copy from the brief's art description (Truck Stop Connoisseur semi, diner sign, pie): re-check against the real art. No sync, images or cover.
