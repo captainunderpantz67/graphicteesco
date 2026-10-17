@@ -442,6 +442,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-tennis-my-backhand-has-opinions-cropped-hoodie': { src: '/covers/womens-tennis-my-backhand-has-opinions-cropped-hoodie.webp', alt: 'Woman in a storm cropped hoodie with a racket-and-bow print and a headband, standing at a tennis court fence at golden hour with a racket bag on a bench' },
   'mens-fishing-professionally-chilling-heavyweight-hoodie': { src: '/covers/mens-fishing-professionally-chilling-heavyweight-hoodie.webp', alt: 'Man in a storm blue Professionally Chilling ice fishing heavyweight hoodie, standing on a frozen lake at dawn with an ice shanty behind him' },
   'womens-floral-wildly-low-maintenance-cropped-hoodie': { src: '/covers/womens-floral-wildly-low-maintenance-cropped-hoodie.webp', alt: 'Woman in a black cropped hoodie with a vintage wildflower bouquet and WILDLY LOW MAINTENANCE print, standing in a late-fall farm-stand flower field beside buckets of dried flowers' },
+  'unisex-western-lucky-horseshoe-ranch-heavyweight-hoodie': { src: '/covers/unisex-western-lucky-horseshoe-ranch-heavyweight-hoodie.webp', alt: 'Man and woman at a ranch barn doorway at golden hour with hay bales behind them, the man in a Storm Blue heavyweight hoodie with a lucky horseshoe, crossed branding irons and rope print' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

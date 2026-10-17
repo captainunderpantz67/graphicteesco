@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-17T22:02Z
+status: REVIEW
 lane: C
 type: twin
 id: 368
@@ -28,3 +28,4 @@ kd: 32
 - 2026-10-17 07:11 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363193045296 (IND4000 heavyweight, Sandstone + Storm Blue x XS-3XL = 14, $49.99 no compare-at, category hoodies; keyword lucky hoodie 320/KD32; frameless redraw (no arch/posts) needs one Recraft generation when fal returns). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane A.
 - 2026-10-17 21:25 UTC director: moved from lane A to lane C (lane C builds hoodies; lane A has 23 READY, lane C had 3).
+- 2026-10-17 22:08 UTC builder [C]: REVIEW. R6.2 check: tee's arch, posts and typeset line dropped; one frameless Recraft redraw (horseshoe, crossed irons, lasso, stars, no lettering); inner white disc knocked out (knock-white). LUCKY HORSESHOE (Rye, cream, dark keyline) / RANCH (Rye, mustard) via compose-print.py. FW 1650 TOP 0 (print 9 in tall, clear of the pouch). Printful file 1088523828, sync 482408465 14/14; Sandstone + Storm Blue mockups + back attached. Phone-size read: both lines legible. fal cover 2 attempts (registry #559), second saved: man's Storm Blue hoodie print is faithful and both lines read, BUT the woman wears a short-sleeve tee with the print, not the hoodie, and the man's drawcord crosses the top-left of his horseshoe; director may want REDO of the cover. Copy fixed to real art (cream/mustard slab capitals); FAQ 5 x 44-54 words incl. Dec 8, size exchange. Keyword lucky hoodie 320/KD32 in the map. fal $0.16.
