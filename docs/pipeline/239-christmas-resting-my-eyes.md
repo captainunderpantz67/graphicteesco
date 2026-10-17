@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-16 21:38 UTC
+status: REVIEW
 lane: A
 type: new
 id: 239
@@ -21,3 +21,4 @@ handle: mens-christmas-resting-my-eyes-graphic-tee
 ## Log
 - 2026-10-16 19:21 UTC director: brief written, READY (lane A men's Christmas pair: tee + crewneck #240).
 - 2026-10-16 21:50 UTC builder [A]: NEW ART Recraft v4 try 1 (spelling right, no badge/frame; print-prep --solid because the pale face leaked; knocked out the glasses lenses, the gap behind the tree trunk and the gap under the chair; checked on grey and near-black). Printful file 1087843543 (3600x3699). DRAFT gid://shopify/Product/15362293498160 (3001; White, Natural, Ash, Athletic Heather, Heather Dust, Tan x S-4XL = 42; light and mid colors only because the sage lettering sinks into dark fabric; $24.99/$29.99; tags per brief), Printful sync 482323762 queued (FORCE=1 FW=1500 setfile 482323762 1087843543 1080398177). Primary dad christmas shirt 110/KD40 (+ nap shirt 170/52, cat nap shirt 260/37) in map. Cover #413: try 1 kept, the print is complete and legible but a faint thin box outline shows around it on the fabric (flatten mismatch); try 2 garbled the print, so the director decides on a redo. 6 fronts + back, variant images, audit PASS, docs/review/239.jpg. REVIEW once synced = 42.
+- 2026-10-17 00:40 UTC builder [A]: Printful sync complete; REVIEW.
