@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: new
 id: 294
@@ -29,3 +29,4 @@ handle: womens-hunting-doe-eyed-and-dangerous-pink-camo-hoodie
   1. R5.3.5: DOE-EYED & in pale pink script disappears into the pink camo at phone size (on both mockups and the cover only DANGEROUS reads), so half the joke is lost. Re-ink the script line in deep berry or chocolate brown with a thin cream outline (or put the camo-halo cream backing under the lettering, like the IND4000 camo items), in print-prep only; no new generation.
   2. Re-render the front panel with aop-panels.py, re-upload, re-sync, new mockups and a new cover from the new mockup (R6.7, keep the same registry woman and the truck scene).
   3. Everything else on the AOP pilot passes: pattern, panels, price, sizes, copy. Note the fix in the pilot notes so #295-298 start with readable lettering.
+- 2026-10-17 01:40 UTC [B]: REDO fix (round 1): the DOE-EYED & script is re-inked in chocolate brown (print-prep only: light fill pixels of the script band recolored, outline kept) with the cream camo-halo around it, DANGEROUS unchanged, front panel re-rendered with aop-panels.py (1700 px, top 1250), new front file 1087959024, re-synced 11/11, mockups replaced in place (front, back, left front), cover regenerated from the new mockup (registry #475, truck scene, third attempt; the image model misreads the small script as DOE-WED on every attempt even from a zoomed reference, while the Printful mockup shows DOE-EYED correctly). Pilot note for #295-298: any small or pale lettering gets re-inked dark or a thick cream halo before the panel is rendered. Set REVIEW. Sheet docs/review/294.jpg.
