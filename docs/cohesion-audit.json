@@ -1,5 +1,5 @@
 {
- "at": "2026-10-17T16:28:11.790Z",
+ "at": "2026-10-17T16:42:57.103Z",
  "products": 338,
  "findings": [
   {
@@ -288,55 +288,6 @@
    "title": "Women's Hunting – Only Here for the Sunrise Camo Sweatshirt",
    "msg": "Price 56.99/61.99 (price/compare-at) — should be 56.99/- on every variant.",
    "fix": "Set every variant to price 56.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-nurse-dont-say-the-q-word-hoodie",
-   "title": "Women's Nurse – Don't Say the Q Word Hoodie",
-   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
-   "fix": "Set every variant to price 39.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-mama-i-have-followers-duck-hoodie",
-   "title": "Women's Mama – I Have Followers Duck Hoodie",
-   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
-   "fix": "Set every variant to price 39.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-bookish-plot-twist-cropped-hoodie",
-   "title": "Women's Bookish – Plot Twist Cropped Hoodie",
-   "msg": "Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant.",
-   "fix": "Set every variant to price 44.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-gym-lunges-and-lattes-hoodie",
-   "title": "Women's Gym – Lunges & Lattes Hoodie",
-   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
-   "fix": "Set every variant to price 39.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-running-pace-leisurely-hoodie",
-   "title": "Unisex Running – Pace: Leisurely Hoodie",
-   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
-   "fix": "Set every variant to price 39.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-western-cowboy-up-later-hoodie",
-   "title": "Men's Western – Cowboy Up. Later. Hoodie",
-   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
-   "fix": "Set every variant to price 39.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-retro-loose-goose-oversized-hoodie",
-   "title": "Women's Retro – Loose Goose Oversized Hoodie",
-   "msg": "Price 54.99/59.99 (price/compare-at) — should be 54.99/- on every variant.",
-   "fix": "Set every variant to price 54.99, no compare-at."
   },
   {
    "level": "WARN",

@@ -1,11 +1,11 @@
-# Cohesion audit — 2026-10-17 16:28 UTC
+# Cohesion audit — 2026-10-17 16:42 UTC
 
-338 live products checked · **40 errors** · 16 warnings · 56 products with findings
+338 live products checked · **33 errors** · 16 warnings · 49 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
-- 40 × Price ./. — should be ./- on every variant.
+- 33 × Price ./. — should be ./- on every variant.
 
 ## By product (errors first)
 ### Men's Hunting – Deer Diary Tee `mens-hunting-deer-diary-graphic-tee`
@@ -106,27 +106,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Women's Hunting – Only Here for the Sunrise Camo Sweatshirt `womens-hunting-here-for-the-sunrise-camo-sweatshirt`
 - **ERROR** Price 56.99/61.99 (price/compare-at) — should be 56.99/- on every variant. → Set every variant to price 56.99, no compare-at.
-
-### Women's Nurse – Don't Say the Q Word Hoodie `womens-nurse-dont-say-the-q-word-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
-### Women's Mama – I Have Followers Duck Hoodie `womens-mama-i-have-followers-duck-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
-### Women's Bookish – Plot Twist Cropped Hoodie `womens-bookish-plot-twist-cropped-hoodie`
-- **ERROR** Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant. → Set every variant to price 44.99, no compare-at.
-
-### Women's Gym – Lunges & Lattes Hoodie `womens-gym-lunges-and-lattes-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
-### Unisex Running – Pace: Leisurely Hoodie `unisex-running-pace-leisurely-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
-### Men's Western – Cowboy Up. Later. Hoodie `mens-western-cowboy-up-later-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
-### Women's Retro – Loose Goose Oversized Hoodie `womens-retro-loose-goose-oversized-hoodie`
-- **ERROR** Price 54.99/59.99 (price/compare-at) — should be 54.99/- on every variant. → Set every variant to price 54.99, no compare-at.
 
 ### Unisex Halloween – Midnight Feature Tee `unisex-halloween-midnight-feature-graphic-tee`
 - **WARN** No meta description. → Write one ≤ 155 chars.
