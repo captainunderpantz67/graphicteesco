@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-17 20:09 UTC
+status: REVIEW
 lane: C
 type: new
 id: 341
@@ -27,3 +27,4 @@ kd: 30
 - 2026-10-17 04:59 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363053945136 (launch colors per brief, S-3XL, price per brief with no compare-at, category hoodies, tags per brief incl. hub tags, SEO, FAQs; keyword axolotl hoodie 590/KD30). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images yet.
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane C.
 - 2026-10-17 20:12 UTC builder [C]: art 1 Recraft call (no lettering); SMILING THROUGH IT in Lobster via compose-print.py; art cropped and set at 60% width so the whole print fits the 1650x1650 front area at FW 1500 TOP 75 (aspect 0.89); Printful file 1088461042, sync 482393839 running; mockups Dust+Navy attached; fal cover 1 image (registry #532 rewritten to the real face, the reserved pink-bob face was not used); FAQs rewritten 5 x 48-56 words; copy now names the striped cup and daisies.
+- 2026-10-17 20:36 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/341.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. 
