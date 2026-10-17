@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-17 20:49 UTC
+status: REVIEW
 shopify: gid://shopify/Product/15363409772848
 lane: C
 type: new
@@ -27,3 +27,4 @@ kd: 52
 - 2026-10-17 09:30 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363409772848 (Gildan 18000 #145, Sand + Navy x S-3XL = 12, $34.99 no compare-at, category crewnecks aa-1-13-14, tags sweatshirt). Keyword cat sweatshirt in map. FAQs 5 x 43-53 words, SEO meta under 155. Copy written from the brief's art description: re-check every sentence against the real art when it exists. When art exists: FW 1650 (crewneck), read every word at 400 px on Navy. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane C.
 - 2026-10-17 20:52 UTC builder [C]: art 1 Recraft call (no lettering); OOPS. / ANYWAY. in Lobster via compose-print.py; FW 1650 TOP 75 (crewneck rule); Printful file 1088483771, sync 482415723 running; mockups Sand+Navy attached; fal cover 2 images (registry #585): try 1 had the open cardigan hiding the A of ANYWAY, try 2 (cardigan pushed back over the shoulders) is clean and kept. Copy and FAQs (5 x 40-60 words, no holiday question) match the art.
+- 2026-10-17 21:11 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/394.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. 
