@@ -1,4 +1,5 @@
 2026-10-17 19:57 UTC — [E] REVIEW #359 Alien Visiting Not Impressed oversized hoodie (DRAFT gid 15363169386800, synced 12/12, fal cover 2 images).
+2026-10-17 20:02 UTC — [A] REVIEW #239 Resting My Eyes tee (REDO: new cover, no box outline).
 RUNNING lane C since 2026-10-17 19:50 UTC
 2026-10-17 19:56 UTC — [A] REVIEW #217 Ho Ho Howdy hoodie (REDO fixed: frameless new art, cream fur ink, worn Rye lettering, new cover; cover note: braid just touches the first H, Santa's face soft).
 2026-10-17 19:52 UTC — [E] REVIEW #409 Truck Stop Connoisseur heavyweight hoodie (DRAFT gid 15363531964720, synced 12/12, fal cover 2 images).

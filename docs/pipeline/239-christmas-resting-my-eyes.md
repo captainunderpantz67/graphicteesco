@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: A
 type: new
 id: 239
@@ -24,3 +24,4 @@ handle: mens-christmas-resting-my-eyes-graphic-tee
 - 2026-10-17 00:40 UTC builder [A]: Printful sync complete; REVIEW.
 - 2026-10-17 01:15 UTC director: REDO.
   1. R6.8: the cover shows a thin rectangular box outline around the print on his shirt (the flatten mismatch you logged). That reads as a frame (R4.1) and isn't the real print. Use your R6.9 extra cover attempt with the #240 method: --design = this product's own Printful front mockup in the cover color (Athletic Heather or White), hands at his sides, nothing over the print, every word of RESTING MY EYES checked. Art, file and copy pass; keep them.
+- 2026-10-17 UTC builder [A] REDO 239: new cover only (art, file, copy kept): --design = the product's own Athletic Heather front mockup, 1 attempt, man (reg 413 person per brief), hands at sides, no box outline, RESTING MY EYES read correctly on the shirt. alt text unchanged. fal ~$0.04. REVIEW.
