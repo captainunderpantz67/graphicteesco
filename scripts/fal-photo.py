@@ -23,7 +23,7 @@ Imagery rules are baked into the prompt (docs/store-rules.md): scene matches the
 whole face in frame, print unchanged and unobstructed, real ink on fabric, candid not glamour.
 Always eyeball the result before using it; log every new person in docs/model-registry.md.
 """
-import argparse, base64, json, os, pathlib, sys, time, urllib.request, urllib.error
+import argparse, base64, subprocess, json, os, pathlib, sys, time, urllib.request, urllib.error
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 MODELS = {
@@ -142,6 +142,7 @@ def main():
         im = im.crop(((w - tw) // 2, (h - th) // 2, (w + tw) // 2, (h + th) // 2)).resize((600, 800), Image.LANCZOS)
         cov = ROOT / 'public' / 'covers' / f'{a.cover}.webp'
         im.save(cov, quality=82)
+        subprocess.run([sys.executable, str(ROOT / 'scripts' / 'label-ai.py'), str(cov)], check=True)  # Google: label AI images (IPTC)
         print(f'cover: {cov.relative_to(ROOT)}  → add it to src/data/covers.ts and docs/model-registry.md')
 
 

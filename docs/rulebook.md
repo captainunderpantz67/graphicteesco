@@ -162,6 +162,8 @@ Sections are numbered so role cards and review notes can point at them ("fails R
 
     All lifestyle photos in the subject's world, no stock models. Icons: photo-real objects on brand cream, about 70% of a 5:4 oval.
 
+**AI image labels (2026-10-17, Google Merchant Center + Search):** every AI-generated image we publish carries IPTC DigitalSourceType = trainedAlgorithmicMedia (XMP). scripts/fal-photo.py and scripts/b-cover.py label covers automatically via scripts/label-ai.py; any other AI image (banners, cards, hero, About page) gets `python3 scripts/label-ai.py <file>` before commit. Printful mockups are not AI and are not labeled. Never strip metadata when resizing.
+
 ## R7. Product build standard
 1. **Blanks and facts** (copy facts only from the supplier spec):
    - **Tee:** Bella+Canvas 3001 (unisex/men's), lightweight 4.2 oz. Never "midweight".
