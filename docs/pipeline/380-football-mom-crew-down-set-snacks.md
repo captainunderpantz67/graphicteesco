@@ -21,3 +21,4 @@ kd: 57
 ---
 ## Log
 - 2026-10-17 07:20 UTC director: brief written, READY (twin, buildable without fal; keyword measured this run).
+- 2026-10-17 08:05 UTC builder [B]: NOT built, stays READY. R6.2 check on the tee print file: DOWN, SET, SNACKS is varsity/condensed type and the bleacher stripes are a straight-edged panel. The fix is a hand re-letter / redraw, which needs fal (empty). Take it when fal returns (the gate is the lettering, not the blank).

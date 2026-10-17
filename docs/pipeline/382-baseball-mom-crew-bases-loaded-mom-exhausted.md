@@ -21,3 +21,4 @@ kd: 33
 ---
 ## Log
 - 2026-10-17 07:20 UTC director: brief written, READY (twin, buildable without fal; keyword measured this run).
+- 2026-10-17 08:05 UTC builder [B]: NOT built, stays READY. R6.2 check on the tee print file: BASES LOADED / MOM EXHAUSTED are varsity block caps, arched on top, plus a straight-edged diamond field. The fix is a hand re-letter / redraw, which needs fal (empty). Take it when fal returns (the gate is the lettering, not the blank).
