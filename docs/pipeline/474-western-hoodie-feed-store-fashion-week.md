@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-17 23:10 UTC
+status: REVIEW
 lane: A
 type: new
 id: 474
@@ -30,3 +30,4 @@ kd: 32
 - 2026-10-17 17:32 UTC builder [B]: ART-NEXT (design gate pending): full Shopify DRAFT gid://shopify/Product/15363937665328 (Sand + Navy x S-3XL = 12, Gildan 18500, $39.99 no compare-at, category hoodies, keyword ranch hoodie, SEO within limits, 5 FAQs 40-60 words, order-by Dec 8). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane A.
 - 2026-10-17 21:08 UTC builder [A]: BUILT: Recraft art (muck boots + feed sack, no lettering), lettering in real fonts (FEED STORE arch + FASHION WEEK Alfa Slab One, Saturday, 7 a.m. Caveat Brush) in cream ink with brown keyline, eroded edges, print 3000x3126 (1563 px tall at FW1500, fits the pouch). Printful file 1088493400, sync 482534346 (FW1500 TOP0) queued behind the runner. Shopify DRAFT: 8 mockups, variant images linked, copy fixed to the real lettering, no compare-at. Cover #680 try 1 kept (braid stays left of the F, nothing over the print, hands in pocket, all words legible). fal ~$0.10. audit-local not run (needs the spec json); director run cohesion-audit. REVIEW once synced.
+- 2026-10-17 22:41 UTC builder [A]: Printful resync verified (12/12 variants on the new file); REVIEW.

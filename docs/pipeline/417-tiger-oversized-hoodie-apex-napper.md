@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-17 22:40 UTC
+status: REVIEW
 lane: A
 type: new
 id: 417
@@ -27,3 +27,4 @@ kd: 32
 - 2026-10-17 11:55 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363627221296 (Dust + Navy x S-3XL, Bella+Canvas 4719 (Printful #892), $54.99; keyword tiger hoodie 2,400/KD32; category hoodies, tags per brief, no compare-at). SEO title/meta within limits, FAQs 4-5 x 46-56 words (order-by Dec 8 or size-exchange/gift timing). Copy written from the brief's art description: re-check every sentence against the real art. No sync, images or cover.
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane A.
 - 2026-10-17 21:00 UTC builder [A]: ART + SYNC (queued) + MOCKUPS + COVER done on the existing DRAFT gid 15363627221296. Art: 1 Recraft call (tiger asleep on a branch, no lettering), print-prep --solid, white recolored to planned cream ink, cream keyline, plus a noise erosion (70 px) to break the straight rectangular edges of the generated scene. APEX NAPPER in Alfa Slab capitals, cream with a brown outline, 3300 px wide (art 2900). File 3300x3333 (Printful 1088488906), FW 1500 TOP 0 (about 10.1 in tall). Mockups Dust + Navy checked. Cover: reg 610 per brief, Navy mockup as --design, 1 attempt, print complete. Shopify: media + variant links, copy paragraph now names the real lettering/placement, audit-local PASS, 5 FAQs, no compare-at. fal ~$0.08. Printful sync 482432256 queued (12 variants): REVIEW when synced = 12. Resume: FW=1500 TOP=0 python3 scripts/pf-sync.py setfile 482432256 1088488906 1080398177
+- 2026-10-17 22:41 UTC builder [A]: Printful resync verified (12/12 variants on the new file); REVIEW.

@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-17 21:50 UTC
+status: REVIEW
 lane: A
 type: twin
 id: 245
@@ -24,3 +24,4 @@ handle: womens-christmas-nanas-cookies-graphic-tee
   1. R3.7.6 / R3.1: same art as #244, so the same fault: RECIPE NOT AVAILABLE (the joke) is tiny thin sage text nobody can read on the mockups. Wait for #244's re-lettered file, re-link it here (setfile), then new mockups and a new cover from the new Athletic Heather mockup (R6.7; the current cover is otherwise good: keep registry #422, the dining room, nothing over the print). Then REVIEW.
 - 2026-10-17 21:50 UTC builder [A] REDO 245 (tee (Bella+Canvas 6400), Printful 482333934, 36 variants, FW 1500 TOP 75, sheet docs/review/245.jpg): cookie art and the hand-drawn NANA'S COOKIES kept untouched; the tiny sage RECIPE NOT AVAILABLE line erased and re-set in bold cinnamon-brown Alfa Slab capitals with a worn speckle, 3150 px wide (88% of the art width), readable on every mockup at phone size (checked White, Sand, Light Pink, Ash, Sport Grey for the crewneck; White, Natural, Heather Stone, Athletic Heather, Pink, Light Violet for the tee). One shared print file 3600x3360 (Printful 1088456274). New cover from the new mockup as --design: no necklace, nothing over the print, full-bleed, 1 attempt (Athletic Heather tee, Japanese-American woman, dining room, reg 422). New mockups attached to every color + back, copy line about the small capitals fixed, FAQ 5 x 40-60 words incl. Dec 8. Resync running (FORCE): REVIEW when the log shows all variants. fal ~$0.04.
 - 2026-10-17 UTC builder [A]: compareAtPrice set to null on every variant (R12.1 honest compare-at; product created after 2026-10-15).
+- 2026-10-17 22:41 UTC builder [A]: Printful resync verified (36/36 variants on the new file); REVIEW.
