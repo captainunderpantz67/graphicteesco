@@ -1,0 +1,25 @@
+status: READY
+lane: B
+type: new
+id: 414
+handle: unisex-goat-kid-at-heart-hoodie
+kd: 23
+---
+## Unisex Goat – Kid at Heart Hoodie
+- **Blank:** Pullover Gildan 18500 (Printful #146). Front print FW 1500+, every word and the hooves clear of the pouch seam (R5.3.2). Copy facts from the Printful spec only (R7.1).
+- **Text on shirt:** KID AT HEART in big hand-drawn rounded vintage farm-sign letters arched over the goat. All lettering hand-drawn (R3.7.6), spelled exactly, no typeset sub-line; read every word on the darkest mockup at about 400 px wide before REVIEW; knock out white counters (R5.3.8).
+- **Hook:** A baby goat mid-leap off a hay bale, all four hooves in the air, a tiny knit scarf flying, under KID AT HEART (a baby goat is a kid): the grown-up who still climbs everything (dry unisex wit, family-clean).
+- **Why it's not taken:** Goat shirts on Etsy lean on G.O.A.T. sports jokes; the kid/kid pun with a leaping baby goat reads fresh (director call; builder confirms the exact line on Etsy and twists it if 50+ listings, R3.7.2).
+- **Style:** A, vintage farm storybook: 1950s screen-print look, muted 3–5 inks (R4.2).
+- **Art prompt (Recraft v4, one image per call):** "Vintage 1950s farm storybook screen-print illustration: a happy baby goat leaping off a small hay bale, all four hooves in the air, a tiny red knit scarf flying behind it, a few straw wisps. Above, big hand-drawn rounded vintage farm-sign letters arched, reading exactly 'KID AT HEART'. Palette: cream, faded red, sage, warm tan, soft black linework. Worn screen-print texture; the goat and hay bale are the shape, edges break up into ragged worn texture. Isolated on plain background, no background shape, no frame, no circle, no border, no badge, no dark patch."
+- **Colors:** Sand + Navy (R7.2); the soft-black linework needs a cream keyline to read on Navy, else Sand + Sport Grey (log why). Generate a Printful mockup for every color offered before REVIEW.
+- **Primary keyword:** goat hoodie — 2,400 / KD 23 (RankHero 2026-10-17, director; 79% US; Nov 4,400 → Dec 5,400 surge). KD 21–35 band. Unowned in docs/product-keyword-map.json; record it there. Use the primary where a person would say it: the H1-area copy, the first sentence (with the joke and the occasion, R9.11) and once in the meta; no stuffing (R8.2–R8.3). Answer-first FAQs per R8.7: 4–6 questions, 40–60 words each (fit, care, sizing, warmth/weight, gift timing with an order-by date).
+- **Popularity evidence (R5.2):** goat hoodie 2,400 with a Dec peak of 5,400 and 79% US demand (RankHero trend 2026-10-17); farm-animal vintage art (highland cow, horse) is among our live sellers..
+- **Cover:** registry #606 + #607, man AND woman in matching hoodies, alt starts 'Man and woman'; scene: a petting-farm fence in late autumn, goats blurred behind. Real garment generated with the product's own Printful mockup in the cover color as `--design` (--n 1); hood visible; hands empty or in pockets; nothing (hand, cup, hair, hood, drawcord, another person) over any part of the print; read every word before saving (R6.7–R6.9). No alcohol, tools or weapons (R6.5).
+- **Title / handle:** "Unisex Goat – Kid at Heart Hoodie" / `unisex-goat-kid-at-heart-hoodie` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** graphic-hoodies-for-men, graphic-hoodies-for-women, hoodie, ai-art, intake-done. No tee or sweatshirt collection tags (R7.5).
+- **Price:** $39.99 (R12.1 pullover), no compare-at.
+- **Pre-build while fal is empty:** make the full Shopify DRAFT now from this brief (status ART-NEXT); art + cover when fal returns, then re-check every sentence against the real art.
+---
+## Log
+- 2026-10-17 10:21 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).

@@ -491,3 +491,13 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 598 | Native American (Diné) man, mid 30s, long black hair tied back, light stubble | RESERVED — #407 Camera Shy Heavyweight Hoodie cover |
 | 599 | man AND woman together: Samoan man, late 20s, broad build, short curly hair; white woman, late 20s, sun-bleached beach waves | RESERVED — #408 Friendly-ish Oversized Hoodie cover |
 | 600 | Mexican-American man, early 50s, grey mustache, sun-lined face | RESERVED — #409 Truck Stop Connoisseur Heavyweight Hoodie cover |
+| 601 | man AND woman together (with #602): Korean-American man, early 30s, short side-parted hair, round glasses | RESERVED — #410 Technically a Sweater Hoodie cover |
+| 602 | woman with #601: Black woman, early 30s, braids in a high bun, gold studs | RESERVED — #410 Technically a Sweater Hoodie cover |
+| 603 | Puerto Rican woman, early 30s, curly shoulder-length hair, red statement earrings | RESERVED — #411 All Lit Up Hoodie cover |
+| 604 | Black woman, late 30s, natural curls in a puff, small gold hoops | RESERVED — #412 Hut Hut Hooray Hoodie cover |
+| 605 | white woman, mid 20s, strawberry-blonde braid, small cross necklace | RESERVED — #413 Ewe Are Loved Hoodie cover |
+| 606 | man AND woman together (with #607): white man, early 40s, sandy beard, flannel collar showing | RESERVED — #414 Kid at Heart Hoodie cover |
+| 607 | woman with #606: Mexican-American woman, early 40s, long dark wavy hair, small silver hoops | RESERVED — #414 Kid at Heart Hoodie cover |
+| 608 | Korean-American woman, mid 20s, long dark hair with a red ribbon bow, small pearl earrings | RESERVED — #415 Cherry Picking My Battles Hoodie cover |
+| 609 | Vietnamese-American woman, about 20, short black bob with a clip, round glasses | RESERVED — #416 Berry Introverted Oversized Hoodie cover |
+| 610 | Puerto Rican man, late 20s, short fade, light beard | RESERVED — #417 Apex Napper Oversized Hoodie cover |
