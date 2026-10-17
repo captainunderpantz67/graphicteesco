@@ -4748,6 +4748,44 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-dinosaur-sleeves-optional-oversized-hoodie": {
+   "claimed": [
+    "dinosaur hoodie",
+    "t rex hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dinosaur hoodie",
+     "volume": 3600,
+     "kd": 28
+    },
+    {
+     "phrase": "t rex hoodie",
+     "volume": 320,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-surf-surfs-down-coffees-up-zip-hoodie": {
+   "claimed": [
+    "surf hoodie",
+    "surfing hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "surf hoodie",
+     "volume": 5400,
+     "kd": 32
+    },
+    {
+     "phrase": "surfing hoodie",
+     "volume": 5400,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

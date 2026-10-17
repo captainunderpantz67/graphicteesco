@@ -406,3 +406,6 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 513 | Black man, early 30s, short twists, neat beard | RESERVED — #327 Short Legs dachshund hoodie cover (with #514) |
 | 514 | South Asian woman, early 30s, shoulder-length dark wavy hair, small nose stud | RESERVED — #327 Short Legs dachshund hoodie cover (with #513) |
 | 515 | Native American man, mid 30s, long black hair tied back, clean-shaven | RESERVED — #328 Lone Wolf hoodie cover |
+| 516 | Puerto Rican man, late 20s, short curly dark hair, light beard, round glasses | RESERVED — #329 Sleeves Optional dinosaur hoodie cover (with #517) |
+| 517 | White woman, late 20s, auburn shoulder-length hair with a center part, small silver studs | RESERVED — #329 Sleeves Optional dinosaur hoodie cover (with #516) |
+| 518 | Samoan-American man, early 30s, long dark hair in a low bun, broad shoulders, clean-shaven | RESERVED — #330 Surf's Down zip hoodie cover |
