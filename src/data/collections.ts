@@ -559,6 +559,56 @@ export const tees: Collection[] = [
     ],
     shopifyHandle: 'christmas-shirts-for-women',
   },
+  // Men's Christmas (director 2026-10-17, R2.9 re-measure): "christmas shirt men" 18,100 / KD 10 (Dec peak 135,000, 36% US).
+  // Filled by tag christmas-shirts-for-men: the men's Christmas tees plus the unisex ones (unisex covers show a man and a woman).
+  {
+    slug: 'christmas-shirts-for-men', section: 'tees', audience: 'men', name: "Men's Christmas Shirts", seasonal: 'christmas',
+    keyword: 'christmas shirt men', volume: 18100, kd: 10,
+    title: "Christmas Shirts for Men — Funny & Vintage Holiday Tees",
+    description: "Christmas shirts for men: Define Naughty, Light Show Manager, Bah Humbug and vintage deer camp, lake and lodge art. Tees $24.99, printed to order.",
+    h1: 'Christmas Shirts for Men',
+    intro: "Christmas shirts for men who would rather not wear a costume: a dry one-liner like Define Naughty or Bah Humbug, or a vintage scene from the deer camp, the frozen lake or the ski lodge. Tees are $24.99, printed when you order them.",
+    sections: [
+      { h2: 'The funny ones', body: "Define Naughty puts a storybook Santa with a quill and one raised eyebrow over a fair question. Light Show Manager is for the man on the ladder with the extension cords, a job with no raise. Technically a Sweater is a printed fair-isle knit for the guy who found a loophole in the ugly-sweater dress code, and Bah Humbug is for the polite grump who still shows up on time with a casserole." },
+      { h2: 'The outdoors ones', body: "Deer Camp Christmas is a snowed-in hunting cabin with a wreath on the door. Christmas on the Lake is an angler in a red plaid wool jacket in a wooden rowboat. Upland Christmas Pheasant is a rooster bursting out of a snowy cornfield, North Woods Moose stands by a frozen lake, Mountain Christmas Bear walks through deep snow, and Christmas Ski Lodge is a 1960s skier carving a turn. Fresh Cut Christmas Trees, Christmas Tree Farm, Cabin Christmas and Vintage Santa round it out." },
+      { h2: 'Who buys them', body: "Mostly the people around him: a wife picking his shirt for the family photo, kids buying Dad the Light Show Manager tee, a hunting buddy grabbing Deer Camp Christmas for the cabin weekend. Every line is family-table clean, so it works at the office party and at his mother's house." },
+      { h2: 'Fit and fabric', body: "Every tee here is a soft, lightweight 4.2 oz cotton classic fit, cut for men and roomy enough to layer over a thermal. The unisex designs fit women too, so a couple can match. The same art also comes on crewneck sweatshirts in our men's Christmas sweaters page." },
+      { h2: 'When to order', body: "Each shirt is printed after you order it, which takes 2–5 business days, then arrives in about 3–8 business days. Order by early December for Christmas; delivery estimates show at checkout, and US shipping is free over $45." },
+    ],
+    faqs: [
+      { q: 'What is a good funny Christmas shirt for a man?', a: "Pick a dry one-liner he would actually say. Graphic Tees Co. makes Define Naughty, Light Show Manager, Technically a Sweater and Bah Humbug for men: each is one clean joke on a vintage-style print, safe for the office party and the family table, and $24.99 a tee." },
+      { q: "What do men wear to a Christmas party instead of an ugly sweater?", a: "A Christmas graphic tee under an open flannel or a quarter-zip with dark jeans is festive without being a costume. Our Technically a Sweater tee is the loophole option: a printed fair-isle knit on a lightweight cotton tee, so he meets the dress code and does not overheat in a crowded room." },
+      { q: 'Do these Christmas shirts come in big and tall sizes?', a: "The unisex classic tee runs up to 4XL, and the men's Christmas crewneck sweatshirts run S–5XL. Each product page lists its exact sizes and a size chart with chest and length measurements, so check it before ordering." },
+      { q: 'Can I get a matching Christmas shirt for my wife or kids?', a: "Yes. The unisex designs, like Christmas Tree Farm, Fresh Cut Christmas Trees and Vintage Santa, fit men and women, and our Christmas shirts for women page has designs in the same vintage style, so a couple or a family still reads as a set in the photo." },
+      { q: 'What if the size is wrong?', a: "Every Graphic Tees Co. shirt is printed to order, so instead of a return you get one free size exchange within 30 days of delivery: we print the new size and you keep nothing to mail back. Misprints or damage are reprinted or refunded within 30 days." },
+    ],
+    shopifyHandle: 'christmas-shirts-for-men',
+    twin: 'christmas-sweatshirts-for-men',
+  },
+  // "mens christmas sweater" 33,100 / KD 8 (RankHero 2026-10-17, Dec peak 246,000). Crewneck sweatshirts, not knits: copy says so (R8.6).
+  {
+    slug: 'christmas-sweatshirts-for-men', section: 'tees', audience: 'men', name: "Men's Christmas Sweaters", seasonal: 'christmas',
+    keyword: 'mens christmas sweater', volume: 33100, kd: 8,
+    title: "Men's Christmas Sweaters — Funny & Vintage Crewnecks",
+    description: "Men's Christmas sweaters as soft crewneck sweatshirts: Resting My Eyes, Bah Humbug, Define Naughty and vintage deer camp art. $34.99, printed to order.",
+    h1: "Men's Christmas Sweaters",
+    intro: "Men's Christmas sweaters that are really soft crewneck sweatshirts: no itchy knit, no blinking lights. Resting My Eyes, Bah Humbug, Define Naughty and Light Show Manager for the dry jokes; deer camp, the frozen lake and the ski lodge for the vintage scenes. $34.99 each, printed when you order.",
+    sections: [
+      { h2: 'A sweatshirt, not a knit', body: "Every piece here is an 8 oz cotton-polyester fleece crewneck with a ribbed collar, cuffs and hem. It is warm enough for a cold lights walk, soft enough to fall asleep in on Christmas afternoon, and it goes in the wash with everything else. Technically a Sweater prints a fair-isle snowflake knit on fleece for the man who wants the ugly-sweater look without the itch." },
+      { h2: 'The dry jokes', body: "Resting My Eyes is for the dad three hours into Christmas afternoon who insists he is not asleep. Bah Humbug is the polite grump's sweatshirt. Define Naughty has a storybook Santa with one raised eyebrow, and Light Show Manager is for the man on the ladder with the extension cords." },
+      { h2: 'The vintage scenes', body: "Deer Camp Christmas, Upland Christmas Pheasant and Christmas on the Lake are for the hunter and the angler who still go out in December. North Woods Moose, Mountain Christmas Bear and Christmas Ski Lodge are for the cabin crowd and read well side by side in the family photo." },
+      { h2: 'When to order', body: "Each sweatshirt is printed after you order it, which takes 2–5 business days, then arrives in about 3–8 business days. Order by early December for Christmas; US shipping is free on orders over $45, so one sweatshirt and one tee ship free." },
+    ],
+    faqs: [
+      { q: "Are these real knit Christmas sweaters?", a: "No. Graphic Tees Co. men's Christmas sweaters are crewneck sweatshirts: 8 oz cotton-polyester fleece with a ribbed collar, cuffs and hem, printed with original holiday art. They are softer and easier to wash than a knit, and the Technically a Sweater design prints a fair-isle pattern for the ugly-sweater party." },
+      { q: "What is a good funny Christmas sweater for a man?", a: "Resting My Eyes and Bah Humbug are the two most giftable: one is for the dad who naps after dinner, the other for the polite grump. Both are family-clean crewneck sweatshirts from Graphic Tees Co. at $34.99, with Define Naughty and Light Show Manager as the other dry options." },
+      { q: "What sizes do the men's Christmas sweatshirts come in?", a: "The crewneck runs S–5XL in a classic, roomy fit that layers over a tee or a collared shirt. Each product page has a size chart with chest and length measurements; if he is between sizes, size up for a relaxed fit after washing." },
+      { q: 'Will it arrive before Christmas?', a: "Order by early December to be safe. Each Graphic Tees Co. sweatshirt is printed after you order it in 2–5 business days and then arrives in about 3–8 business days in the US; the delivery estimate shows at checkout, and shipping is free over $45." },
+      { q: 'What if the size is wrong?', a: "Every sweatshirt is printed to order, so instead of a return you get one free size exchange within 30 days of delivery: we print the new size and you keep nothing to mail back. Misprints or damage are reprinted or refunded within 30 days." },
+    ],
+    shopifyHandle: 'christmas-sweatshirts-for-men',
+    twin: 'christmas-shirts-for-men',
+  },
   seasonal('christmas', 'tees', { slug: 'christmas-shirts', keyword: 'christmas shirts', volume: 33100, kd: 58, product: 'Christmas shirts', twin: 'christmas-hoodies', blurb: 'holiday designs that work for the party, the family photo and the gift exchange.',
     extra: [
       // FAQ standard R8.7 (director 2026-10-17): questions from Google autocomplete ("christmas shirts for family/couples/work", "what to wear christmas party", "how to wash graphic tees without cracking").
