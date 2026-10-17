@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-17 04:11 UTC
 RUNNING lane A since 2026-10-17 03:58 UTC
 2026-10-17 04:10 UTC — [A] Builder (temp-cover mode): #207 Vintage Snowman hoodie: SNOW DAY erased, re-linked 12/12, new mockups, copy fixed, Printful temp cover (style 1435, self-grade keep) → REVIEW.
 2026-10-17 04:01 UTC — [A] Builder (temp-cover mode): #206 Christmas Cats hoodie cover swapped to Printful Women's Lifestyle mockup (style 1421, cover: temp, self-grade keep) → REVIEW. New scripts/pf-lifestyle.py (Printful v2 lifestyle mockups by style id; no fal).
