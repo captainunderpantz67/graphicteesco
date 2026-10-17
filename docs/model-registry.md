@@ -389,7 +389,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 496 | White woman, mid 30s, strawberry-blonde hair in a low braid, freckles, no makeup | USED 2026-10-17 — #312 Pace: Leisurely hoodie cover (try 1, image 2 of 3, with #495) |
 | 497 | Mexican-American man, about 50, salt-and-pepper mustache, weathered tan skin, lean | USED 2026-10-17 — #313 Cowboy Up Later hoodie cover (try 1, image 2 of 3) |
 | 498 | Black woman, mid 20s, long box braids in a high ponytail, small gold nose stud | USED 2026-10-17 — #314 Loose Goose oversized hoodie cover (try 1, image 3 of 3) |
-| 499 | Vietnamese-American man, mid 30s, short textured black hair, clean-shaven, ball cap off | RESERVED — #315 Catch and Release hoodie cover |
+| 499 | Vietnamese-American man, mid 30s, short textured black hair, clean-shaven, ball cap off | USED 2026-10-17 — #315 Catch and Release hoodie cover (try 1, image 2 of 3) |
 | 500 | White man, late 20s, buzz cut, full dark beard, heavy powerlifter build | RESERVED — #316 Deadlift Skeleton oversized hoodie cover |
 | 501 | Native American man, mid 30s, long black hair in a low ponytail, clean-shaven | RESERVED — #317 Cowboy Up Later crewneck cover |
 | 502 | Lebanese-American woman, early 30s, long dark wavy hair, bold red lipstick, gold hoop earrings | RESERVED — #318 Tied Up for the Holidays crewneck cover |

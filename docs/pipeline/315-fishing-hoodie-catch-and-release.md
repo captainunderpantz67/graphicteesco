@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-17 03:16
+status: REVIEW
 lane: B
 type: new
 id: 315
@@ -22,3 +22,4 @@ kd: 34
 ---
 ## Log
 - 2026-10-17 02:26 UTC director: brief written, READY (low-KD sweep 2026-10-17, card step 5; keyword measured this run).
+- 2026-10-17 03:24 UTC [B]: built as DRAFT: new art (Recraft scene + hand-lettered title and (MOSTLY RELEASE) composed, small line 70% of art width), Gildan 18500 Sand + Sport Grey (swapped from Sand + Navy: navy lettering sinks on Navy), FW 1350, Printful file 1088000208, registry #499, synced 14/14, audit PASS. keyword bass hoodie 170/34.
