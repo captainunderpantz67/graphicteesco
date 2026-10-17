@@ -1,24 +1,24 @@
-status: REDO
+status: ART-NEXT
 lane: B
 type: new
 id: 438
-handle: womens-panda-bamboozled-zip-hoodie
+handle: womens-panda-endangered-patience-zip-hoodie
 shopify: gid://shopify/Product/15363698917680
 kd: 25
 ---
 - **LINE REWRITE (director 2026-10-17 16:26 UTC, R3.1 cheeky-not-cheesy, Sam 2026-10-17):** the line on the shirt is now "Endangered Patience". It replaces the old line everywhere in this brief: Text on shirt, the art prompt's quoted words, Hook, title and handle (keep the audience, niche and garment words; swap only the design name), and on the Shopify DRAFT: title, handle, SEO title/meta, copy line one and any FAQ that quotes the line. Keep the scene, keyword, blank, colors, cover and price unless the new line no longer fits the scene; then adjust the scene minimally and log it. Art still waits for fal and the design gate.
-## Women's Panda – Bamboozled Zip Hoodie
+## Women's Panda – Endangered Patience Zip Hoodie
 - **Blank:** Zip-up Gildan 18600 (Printful #692). Zip layout as #418/#424/#432: full art on the BACK at FW 1650 (never under 1500) plus a 525 px left-chest copy, nothing across the zipper (scripts/pf-zip.py). Copy facts from the Printful spec only (R7.1).
-- **Text on shirt:** BAMBOOZLED in big hand-drawn wobbly vintage letters under the panda, at least 60% of the art's width (back); the left-chest copy is the panda's head only. All lettering hand-drawn (R3.7.6), spelled exactly, no typeset sub-line; read every word on the darkest mockup at about 400 px wide before REVIEW; knock out white counters (R5.3.8).
-- **Hook:** A panda sits staring at a bamboo stalk that has snapped in half, a little squiggle of confusion over its head: the face you make when the plan falls apart (women's sass, cute).
-- **Why it's not taken:** Panda hoodies on Etsy are plain cute pandas; the bamboo/bamboozled pun with a confused panda is fresh (director call; builder confirms the exact line on Etsy and twists it if 50+ listings, R3.7.2).
+- **Text on shirt:** ENDANGERED PATIENCE in big hand-drawn wobbly vintage letters under the panda, at least 60% of the art's width (back); the left-chest copy is the panda's head only. All lettering hand-drawn (R3.7.6), spelled exactly, no typeset sub-line; read every word on the darkest mockup at about 400 px wide before REVIEW; knock out white counters (R5.3.8).
+- **Hook:** A panda sits staring at a bamboo stalk that has snapped in half, a little squiggle of confusion over its head: the face you make when your patience snaps like the bamboo (women's sass, cute).
+- **Why it's not taken:** Panda hoodies on Etsy are plain cute pandas; a confused panda with a deadpan line is fresh (director call; builder confirms the exact line on Etsy and twists it if 50+ listings, R3.7.2).
 - **Style:** A, vintage storybook screen print, 1950s–70s feel, muted 3–5 inks (R4.2).
-- **Art prompt (Recraft v4, one image per call):** "Vintage 1960s storybook screen-print illustration: a round giant panda sitting on the ground holding a bamboo stalk snapped in half, one piece in each paw, staring at it with a puzzled face, a small scribble squiggle of confusion above its head, a few bamboo leaves. Below, big hand-drawn wobbly vintage letters reading exactly 'BAMBOOZLED'. Palette: cream, soft black, sage green, faded pink, warm tan. Worn screen-print texture; the panda is the shape, edges break up into ragged worn texture. Isolated on plain background, no background shape, no frame, no circle, no border, no badge, no dark patch."
+- **Art prompt (Recraft v4, one image per call):** "Vintage 1960s storybook screen-print illustration: a round giant panda sitting on the ground holding a bamboo stalk snapped in half, one piece in each paw, staring at it with a puzzled face, a small scribble squiggle of confusion above its head, a few bamboo leaves. Below, big hand-drawn wobbly vintage letters reading exactly 'ENDANGERED PATIENCE'. Palette: cream, soft black, sage green, faded pink, warm tan. Worn screen-print texture; the panda is the shape, edges break up into ragged worn texture. Isolated on plain background, no background shape, no frame, no circle, no border, no badge, no dark patch."
 - **Colors:** Ash + Navy (R7.2). The black patches need a cream keyline on Navy; if the panda turns into a cream blob, use Ash + White or Ash + Light Pink, logged. Generate a Printful mockup for every color offered before REVIEW.
 - **Primary keyword:** panda hoodie — 1,900 / KD 25 (RankHero, director 2026-10-17). KD 21–35 band. Mention only: zip up hoodie women (collection head; brand-owned head term, R9.11). Unowned in docs/product-keyword-map.json and in every open brief; record it there. Use the primary where a person would say it: the H1-area copy, the first sentence (with the joke and the occasion, R9.11) and once in the meta; no stuffing (R8.2–R8.3). Answer-first FAQs per R8.7: 4–6 questions, 40–60 words each (fit, care, sizing, warmth/weight, gift timing with an order-by date). Describe only what is in the art (R8.3).
 - **Popularity evidence (R5.2):** panda hoodie 1,900 / KD 25 with 2,769 competing listings (RankHero, this run); zip-up-hoodies-for-women has 4 (needs 14); zip up hoodie women 14,800 / KD 32.
 - **Cover:** registry #634: Indian-American woman, early 30s, long braid, small nose stud; scene: a bamboo garden path, back print visible over her shoulder; alt starts 'Woman'. Real garment generated with the product's own Printful mockup in the cover color as `--design` (--n 1); hood visible; hands empty or in pockets; nothing (hand, cup, hair, hood, drawcord, another person) over any part of the print; read every word before saving (R6.7–R6.9). No alcohol, tools or weapons (R6.5).
-- **Title / handle:** "Women's Panda – Bamboozled Zip Hoodie" / `womens-panda-bamboozled-zip-hoodie` (R7.4; the suffix sets the audit price, R12.1).
+- **Title / handle:** "Women's Panda – Endangered Patience Zip Hoodie" / `womens-panda-endangered-patience-zip-hoodie` (R7.4; the suffix sets the audit price, R12.1).
 - **Tags:** zip-up-hoodies, zip-up-hoodies-for-women, graphic-hoodies-for-women, hoodie, ai-art, intake-done. No tee or sweatshirt-only collection tags (R7.5).
 - **Price:** $44.99 (R12.1 zip-up), no compare-at.
 - **Pre-build while fal is empty:** make the full Shopify DRAFT now from this brief (status ART-NEXT); art + cover when fal returns, then re-check every sentence against the real art.
@@ -27,3 +27,4 @@ kd: 25
 - 2026-10-17 13:24 UTC director: brief written, READY (keyword measured this run, low-KD sweep; new art, ART-NEXT draft while fal is empty).
 - 2026-10-17 13:38 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363698917680 (Ash + Navy x S-3XL, Gildan 18600 zip, $44.99; keyword panda hoodie 1,900/KD25; back print + left chest planned; FAQs 5 x 40-60 words, order-by Dec 8). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 16:26 UTC director: REDO (copy only, no art). 1. R3.1 cheeky-not-cheesy: the old line is a sound-alike pun or greeting-card cute; new line "Endangered Patience" (3 candidates weighed, cheekiest picked). 2. Update the brief and the DRAFT per the LINE REWRITE note, then set status back to ART-NEXT.
+- 2026-10-17 16:32 UTC builder [B]: line rewrite done (copy only): brief + Shopify DRAFT title/handle/SEO/copy now "Endangered Patience" (womens-panda-endangered-patience-zip-hoodie). Status ART-NEXT.
