@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 313
@@ -23,3 +23,4 @@ kd: 34
 ## Log
 - 2026-10-17 02:26 UTC director: brief written, READY (low-KD sweep 2026-10-17, card step 5; keyword measured this run).
 - 2026-10-17 03:12 UTC [B]: built as DRAFT: new art (Recraft; LATER. re-lettered by hand-drawn lettering-only generation composed in print-prep, now 66% of art width), Gildan 18500 Sand + Sport Grey (swapped from Sand + Navy: rust and brown ink sinks on Navy), FW 1500, Printful file 1087995619 (reuse for #317), registry #497, synced 14/14, audit PASS. keyword cowboy hoodie 3600/34.
+- 2026-10-17 03:22 UTC director: approved from docs/review/313.jpg; ACTIVE + Online Store + Headless + Google; cohesion-audit --handle PASS (0 warn). Added graphic-hoodies-for-men (R7.5, new hub). LIVE.

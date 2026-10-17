@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: A
 type: twin
 id: 258
@@ -20,3 +20,5 @@ handle: mens-thanksgiving-wishbone-champion-crewneck-sweatshirt
 - 2026-10-16 22:25 UTC director: brief written, READY (lane A funny Thanksgiving pair for /funny-thanksgiving-shirts/, R9.11).
 - 2026-10-16 23:12 UTC builder [A]: DRAFT gid://shopify/Product/15362477818160 (Gildan 18000; White, Sand, Ash, Sport Grey x S-3XL = 24; $34.99/$39.99; tags thanksgiving-sweatshirts, sweatshirt, thanksgiving), #257's file 1087885803 (no new art), Printful sync 482346982 queued (FORCE=1 FW=1500 setfile 482346982 1087885803 1080398177). Keyword (wishbone sweatshirt) already in the map under this handle. Cover #434 from the Sand mockup (try 1, kept #3 of 3), 4 fronts + back, variant images, audit above, docs/review/258.jpg. REVIEW once synced = 24.
 - 2026-10-17 03:11 UTC builder [A]: Printful sync complete; REVIEW.
+- 2026-10-17 03:22 UTC director: REDO (waits on #257).
+  1. R3.7.6: same typeset WISHBONE CHAMPION line as #257 (clean even-spaced caps). Re-link this crewneck to #257's re-lettered art once #257 is fixed, new mockups, and composite the new print onto this cover (R6.9 composite method; the cover itself is good).
