@@ -6442,6 +6442,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-eagle-bald-and-majestic-heavyweight-hoodie": {
+   "claimed": [
+    "eagle hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "eagle hoodie",
+     "volume": 1600,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

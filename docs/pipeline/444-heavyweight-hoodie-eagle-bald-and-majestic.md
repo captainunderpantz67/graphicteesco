@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: A
 type: new
 id: 444
 handle: mens-eagle-bald-and-majestic-heavyweight-hoodie
+shopify: gid://shopify/Product/15363749904688
 kd: 34
 ---
 ## Men's Eagle – Bald and Majestic Heavyweight Hoodie
@@ -23,3 +24,4 @@ kd: 34
 ---
 ## Log
 - 2026-10-17 13:24 UTC director: brief written, READY (keyword measured this run, low-KD sweep; new art, ART-NEXT draft while fal is empty).
+- 2026-10-17 15:02 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363749904688 (heavyweight IND4000 Sandstone+Storm Blue x XS-3XL = 14, $49.99). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
