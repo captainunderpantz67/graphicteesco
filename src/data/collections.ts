@@ -46,7 +46,7 @@ const audienceFaqs = (P: string): Faq[] => [
 const N: Record<string, Niche> = {
   fishing: {
     about: (item) => `Every design here starts on the water: a bass hitting a lure at sunrise, a trout rising to a dry fly under the peaks. Each ${item} is printed after you order it, in colors picked to look right at the ramp and the bait shop.`,
-    original: 'Yes. The fish, lures and lake scenes are drawn for this shop, with no tackle-brand logos or licensed marks.',
+    original: 'Yes. The fish, lures and lake scenes are designed for this shop, with no tackle-brand logos or licensed marks.',
     made: 'Each one is printed after you order it, then shipped straight to you, so nothing sits on a rack from last season.',
     style: "How to wear a fishing t-shirt: on the boat with board shorts and a cap, at the bait shop with jeans, or layered under an open flannel when the morning's cold. Because they're cotton graphic tees rather than performance shirts, they work just as well at a cookout as on the water.",
     label: 'Fishing', who: 'anglers who fish lakes, rivers and the coast', themes: 'bass, catfish and redfish art, lake-life humor and early-morning-on-the-water scenes',
@@ -71,7 +71,7 @@ const N: Record<string, Niche> = {
   },
   western: {
     about: (item) => `Western art here is drawn like an old roadside sign: a lone rider crossing a desert sunset, a cowgirl boot full of blooming prickly pear. Each ${item} is printed after you order it.`,
-    original: 'Yes. The cowboys, boots and desert scenes are drawn for this shop. No rodeo association or western-wear brand marks.',
+    original: 'Yes. The cowboys, boots and desert scenes are designed for this shop. No rodeo association or western-wear brand marks.',
     made: 'Each one is printed to order with the art on the front, then shipped to you.',
     style: 'Western graphic tees pair best with denim and boots. Tuck the front into a belted pair of jeans for a rodeo or a concert, or wear it loose with a trucker cap for an everyday ranch look.',
     label: 'Western', who: 'people who grew up around ranches, rodeos and dirt roads', themes: 'cowboy, desert and rodeo art with a worn-in, vintage feel',
@@ -82,7 +82,7 @@ const N: Record<string, Niche> = {
   },
   gym: {
     about: (item) => `The gym art borrows from old strongman badges and cinderblock-wall posters: crossed barbells, stacked plates, a dumbbell-and-lightning-bolt shield. Each ${item} is printed when you order it.`,
-    original: 'Yes. Every gym badge is drawn in-house. No supplement brands, gym chains or federation logos.',
+    original: 'Yes. Every gym badge is designed in-house. No supplement brands, gym chains or federation logos.',
     made: 'Printed after you order it, then shipped. The art is the same old-school badge style on every color.',
     style: 'A gym tee should move with you: wear it with joggers or shorts on lifting days and over a hoodie on the walk in. Size up for a looser pump-cover fit.',
     label: 'Gym', who: 'lifters who train early and train often', themes: 'barbell, plate and grind-culture art with gym humor',
@@ -104,7 +104,7 @@ const N: Record<string, Niche> = {
   },
   soccermom: {
     about: (item) => `Sideline designs built around the soccer ball, daisies and bubbly retro lettering, made for Saturday-morning games. Each ${item} is printed after you order it.`,
-    original: 'Yes. The soccer-mom art is drawn for this shop, with no club, league or jersey branding.',
+    original: 'Yes. The soccer-mom art is designed for this shop, with no club, league or jersey branding.',
     made: 'Printed when you order it, then shipped, so the design is fresh off the press for the season.',
     style: 'Soccer mom tees are made for the sideline: pair one with leggings or shorts, sneakers and a folding chair. Layer a zip-up hoodie for early-morning games.',
     label: 'Soccer Mom', who: 'moms who spend Saturdays on the sideline', themes: 'sideline, cleat and orange-slice art for game day',
@@ -114,7 +114,7 @@ const N: Record<string, Niche> = {
     ],
   },
   anime: {
-    about: (item) => `Original anime-style characters and scenes, drawn in-house rather than licensed. Each ${item} is printed when you order it.`,
+    about: (item) => `Original anime-style characters and scenes, designed in-house rather than licensed. Each ${item} is printed when you order it.`,
     original: 'Yes. Characters here are original anime-style art; nothing is taken from a show or manga.',
     made: 'Each one is printed to order and shipped from there.',
     style: 'Anime-style tees work with wide-leg jeans, cargo pants or shorts and chunky sneakers. Layer one under an open overshirt for a streetwear look.',
@@ -123,7 +123,7 @@ const N: Record<string, Niche> = {
   },
   y2k: {
     about: (item) => `Early-2000s graphics redrawn from scratch: chrome type, bubble letters and baby-tee-era shapes. Each ${item} is printed after you order it.`,
-    original: 'Yes. The Y2K lettering and graphics are drawn for this shop, not copied from old brand logos.',
+    original: 'Yes. The Y2K lettering and graphics are designed for this shop, not copied from old brand logos.',
     made: 'Printed to order, then shipped to you.',
     style: 'Y2K tees are meant to be fitted or cropped: pair them with low-rise or wide-leg jeans, a mini skirt or cargo pants, and platform sneakers.',
     label: 'Y2K', who: 'anyone into early-2000s style', themes: 'chrome type, bubble letters and baby-tee-era graphics',
@@ -139,7 +139,7 @@ const N: Record<string, Niche> = {
   },
   heavyweight: {
     about: (item) => `Our original designs on a thicker hoodie blank that holds its shape. Each ${item} is printed after you order it.`,
-    original: 'Yes. The art is the same original work as our tees, drawn for this shop.',
+    original: 'Yes. The art is the same original work as our tees, designed for this shop.',
     made: 'Printed to order on the heavyweight blank, then shipped.',
     style: "Heavyweight hoodies hold their shape, so they work as an outer layer on cool days. Pair one with jeans or joggers, or layer it under a jacket when it's cold.",
     label: 'Heavyweight', who: 'anyone who wants a thick hoodie that holds its shape', themes: 'our original designs printed on a heavier blank',
@@ -158,7 +158,7 @@ const N: Record<string, Niche> = {
   },
   cropped: {
     about: (item) => `Original art on a cropped cut that meets high-rise jeans and skirts, like a hand-drawn wildflower bouquet in a scalloped varsity patch. Each ${item} is printed after you order it.`,
-    original: 'Yes. The cropped designs are drawn for this shop. No brand logos or licensed characters.',
+    original: 'Yes. The cropped designs are designed for this shop. No brand logos or licensed characters.',
     made: 'Each one is printed to order on a cropped blank, then shipped.',
     style: 'Cropped graphic tees pair with high-rise jeans, skirts and shorts so the hem meets the waistband. Add a denim jacket or an oversized flannel as a layer.',
     label: 'Cropped', who: 'anyone who wants a shorter, fitted graphic tee', themes: 'our original designs on a cropped cut that pairs with high-rise jeans and skirts',
@@ -177,7 +177,7 @@ const N: Record<string, Niche> = {
   },
   footballmom: {
     about: (item) => `Bleacher-ready art in 1970s screen-print style, with lightning bolts, stars and varsity lettering and no team marks. Each ${item} is printed after you order it.`,
-    original: 'Yes. The football-mom badges are drawn in-house and work for any team because they carry no school or league logos.',
+    original: 'Yes. The football-mom badges are designed in-house and work for any team because they carry no school or league logos.',
     made: 'Each one is printed to order, then shipped.',
     style: 'Wear your football mom tee with jeans or leggings and sneakers in the bleachers, and layer a hoodie or puffer vest for night games.',
     label: 'Football Mom', who: 'moms who spend Friday nights in the bleachers', themes: "game-day art for the bleachers",
@@ -188,7 +188,7 @@ const N: Record<string, Niche> = {
   },
   baseballmom: {
     about: (item) => `Ballpark art built around the stitched baseball: hearts, stars, daisies and distressed varsity letters. Each ${item} is printed when you order it.`,
-    original: 'Yes. The baseball-mom designs are drawn for this shop, with no MLB, travel-ball or school logos.',
+    original: 'Yes. The baseball-mom designs are designed for this shop, with no MLB, travel-ball or school logos.',
     made: 'Printed after you order it and shipped to you.',
     style: 'Baseball mom tees go with shorts or jeans, sneakers and a cap for long days at the ballpark. Bring a light layer for night games.',
     label: 'Baseball Mom', who: 'moms who live at the ballpark all spring', themes: 'diamond, bat and bleacher art',
@@ -218,7 +218,7 @@ const N: Record<string, Niche> = {
   },
   retro: {
     about: (item) => `Retro here means the look of a specific decade: 70s bubble letters and striped sunsets, 80s gym and VHS art, 90s cel anime and Y2K flip phones. Each ${item} is printed when you order it, so the throwback is in the drawing, not a faded blank.`,
-    original: 'Yes. Every retro design is original art drawn for this shop. No reprinted old logos, brands or licensed characters.',
+    original: 'Yes. Every retro design is original art designed for this shop. No reprinted old logos, brands or licensed characters.',
     made: 'Printed to order on a new tee, then shipped. The worn, retro look comes from the illustration.',
     style: 'Retro tees look right with straight-leg or mom jeans, a denim jacket and clean sneakers. Tuck the front for a 70s look, or wear it loose with cargo pants for 90s.',
     label: 'Retro', who: 'anyone who loves a 70s, 80s, 90s or Y2K throwback', themes: '70s bubble type, 80s gym and VHS art, 90s anime and Y2K sparkle',
@@ -471,7 +471,7 @@ export const tees: Collection[] = [
       { h2: 'Unisex and women’s fits', body: 'The haunted-house, drive-in and VHS designs are printed on unisex tees, so they work for men and women. The ghost, pumpkin-patch and black-cat designs come on a relaxed women’s cut. Sizes and colors are listed on each product, and every shirt is printed after you order it.' },
       { h2: 'Where to wear a Halloween shirt', body: 'A horror double feature, a haunted hayride, the pumpkin patch, a costume-optional party, handing out candy on the porch, or the office on October 31st when you don’t want a full costume. Layer one under a flannel or a denim jacket once the nights get cold. Most of these designs still look right in November. Pair the cute designs with a cardigan for a pumpkin-patch photo; the horror ones go with jeans and a dark flannel.' },
       { h2: 'Matching shirts for a group', body: 'Haunted house for one friend, ghosts for another: because the designs share the same vintage look, a group can each pick a different shirt and still look like they planned it. Or order one design in several sizes for the whole family.' },
-      { h2: 'Order early for October', body: 'Each shirt is printed to order and then shipped, so give yourself time before the party or the 31st. Delivery estimates show at checkout, and new Halloween designs are added as they’re drawn.' },
+      { h2: 'Order early for October', body: 'Each shirt is printed to order and then shipped, so give yourself time before the party or the 31st. Delivery estimates show at checkout, and new Halloween designs are added as they’re designed.' },
     ] }),
   seasonal('thanksgiving', 'tees', { slug: 'thanksgiving-shirts', keyword: 'thanksgiving shirts', volume: 8100, kd: 57, product: 'Thanksgiving shirts', blurb: 'fall, football-and-turkey and family-table designs.',
     // Phrases claimed (RankHero/Etsy, 2026-10-09): thanksgiving shirts 8,100/57 · turkey shirt 2,900/48 · thanksgiving shirts for women 2,400/58 ·
@@ -580,7 +580,7 @@ export const tees: Collection[] = [
       { h2: 'Where to wear them', body: 'A cabin weekend, a holiday open house, decorating the tree, a neighborhood lights walk, the office party or Christmas morning itself. On a tree-farm trip the red-truck design is the obvious pick; for a quiet night in, the cabin. Layer one under a flannel, or over a long-sleeve thermal when it’s cold out.' },
       { h2: 'Not an ugly sweater', body: 'These are soft cotton tees with illustrated art, not novelty knits or light-up gags. They’re meant to be worn all December and pulled out again next year. Lightweight cotton also means you won’t overheat in a crowded living room with the fire going.' },
       { h2: 'Matching Christmas shirts', body: 'Pick one design in several sizes for the family photo, or let everyone choose their own scene and let the shared vintage style tie them together. The unisex designs make it easy for couples to match.' },
-      { h2: 'Order before December gets busy', body: 'Each shirt is printed after you order it and then shipped, so order early in the season. Delivery estimates show at checkout, and new holiday designs join the collection as they’re drawn.' },
+      { h2: 'Order before December gets busy', body: 'Each shirt is printed after you order it and then shipped, so order early in the season. Delivery estimates show at checkout, and new holiday designs join the collection as they’re designed.' },
     ] }),
   // Holiday crewnecks (Sam, 2026-10-13; KD exception approved): Gildan 18000 crewneck sweatshirts, $39.99. RankHero 2026-10-13:
   // christmas sweatshirt 22,200/57 · merry christmas sweatshirt 2,400/56 · christmas crewneck 1,900/60 · christmas tree sweatshirt 390/70.
@@ -623,7 +623,7 @@ export const tees: Collection[] = [
     h1: 'Cropped Sweatshirts',
     intro: 'Cropped sweatshirts with original art on the front, cut short so the hem meets high-rise jeans, leggings and skirts.',
     sections: [
-      { h2: 'What makes these cropped sweatshirts different?', body: 'Every design is drawn for this shop: retro coffee machines, kaiju naps, wildflowers and holiday art, never a stock graphic. Right now the cropped fleece we print on is a cropped hoodie, so every piece here has a hood.' },
+      { h2: 'What makes these cropped sweatshirts different?', body: 'Every design is designed for this shop: retro coffee machines, kaiju naps, wildflowers and holiday art, never a stock graphic. Right now the cropped fleece we print on is a cropped hoodie, so every piece here has a hood.' },
       { h2: 'How to wear a cropped sweatshirt', body: 'Pair it with high-rise jeans, wide-leg pants or a pleated skirt so the hem lands at the waistband. Layer a long tank underneath on cold days.' },
     ],
     faqs: [
@@ -644,7 +644,7 @@ export const tees: Collection[] = [
     h1: 'Embroidered Sweatshirts',
     intro: 'Embroidered sweatshirts with a small original design stitched on the chest: simple line art in thread, the kind of piece you wear all winter.',
     sections: [
-      { h2: 'What makes these embroidered sweatshirts different?', body: 'The designs are drawn for this shop as clean single-line art, then stitched in thread instead of printed, so the design has a raised, textured feel. They sit small on the chest, about the size of a hand.' },
+      { h2: 'What makes these embroidered sweatshirts different?', body: 'The designs are designed for this shop as clean single-line art, then stitched in thread instead of printed, so the design has a raised, textured feel. They sit small on the chest, about the size of a hand.' },
       { h2: 'What the sweatshirt is like', body: 'A classic-fit crewneck in 50% cotton, 50% polyester fleece, 8 oz, pre-shrunk, with a ribbed collar, cuffs and hem.' },
       { h2: 'How to care for embroidery', body: 'Wash inside out on cold and tumble dry low or hang to dry. Do not iron directly on the stitching.' },
     ],
@@ -666,7 +666,7 @@ export const tees: Collection[] = [
     h1: 'Oversized Sweatshirts',
     intro: 'Oversized sweatshirts with original art on the front: a roomy, heavyweight crewneck with dropped sleeves, cut big on purpose.',
     sections: [
-      { h2: 'What makes these oversized sweatshirts different?', body: 'Every design is drawn for this shop, never stock art, and sized up to suit a big, boxy sweatshirt. Each one is printed after you order it.' },
+      { h2: 'What makes these oversized sweatshirts different?', body: 'Every design is designed for this shop, never stock art, and sized up to suit a big, boxy sweatshirt. Each one is printed after you order it.' },
       { h2: 'What the sweatshirt is like', body: 'A unisex oversized crewneck in 10 oz fleece, 60% combed ring-spun cotton and 40% polyester, soft on the inside, with slightly dropped sleeves and a relaxed fit.' },
       { h2: 'How to wear an oversized sweatshirt', body: 'Balance the volume with something slimmer: leggings, bike shorts or straight-leg jeans. Push the sleeves up, or tuck one side of the front into high-rise jeans for shape.' },
     ],
@@ -711,7 +711,7 @@ export const tees: Collection[] = [
     h1: 'Graphic Sweatshirts',
     intro: 'Graphic sweatshirts with original art on the front and, most of the time, a joke you get in two seconds: Christmas and Thanksgiving crewnecks, Christian verses, a napping cowboy, a sleeping kaiju and a roller-skating goose.',
     sections: [
-      { h2: 'What is on these sweatshirts?', body: 'Every design is drawn for this shop in a vintage screen-print style: holiday scenes, Bible verses, western, anime-style and retro 70s art. Many of them match one of our tees or hoodies, so you can pick the weight that suits the weather.' },
+      { h2: 'What is on these sweatshirts?', body: 'Every design is designed for this shop in a vintage screen-print style: holiday scenes, Bible verses, western, anime-style and retro 70s art. Many of them match one of our tees or hoodies, so you can pick the weight that suits the weather.' },
       { h2: 'Crewneck, hoodie or tee?', body: 'A crewneck is the in-between layer: warmer than a tee, lighter than a hoodie, and easy under a jacket. If you want a hood, most designs here also come as a hoodie in our hoodie collections.' },
     ],
     faqs: [
@@ -815,7 +815,7 @@ export const hoodies: Collection[] = [
     h1: 'Cropped Hoodies',
     intro: 'Cropped hoodies for women with original art on the front: the same designs as our cropped tees, on a short fleece hoodie for cold days.',
     sections: [
-      { h2: 'What makes these cropped hoodies different?', body: 'Every design is drawn for this shop, never stock art. Each hoodie is printed after you order it on a women\'s cropped fleece hoodie.' },
+      { h2: 'What makes these cropped hoodies different?', body: 'Every design is designed for this shop, never stock art. Each hoodie is printed after you order it on a women\'s cropped fleece hoodie.' },
       { h2: 'Same designs as our cropped tees', body: 'Most cropped hoodie designs started as a cropped tee. Grab the tee for warm days and the hoodie when it turns cold.' },
       { h2: 'How to wear a cropped hoodie', body: 'Wear it with high-rise jeans, joggers or a pleated skirt so the hem meets the waistband. Add a long tank underneath when it is cold out.' },
     ],
@@ -853,7 +853,7 @@ export const hoodies: Collection[] = [
     h1: "Women's Zip-Up Hoodies",
     intro: 'Zip-up hoodies for women with original art: the full design on the back and a small version on the left chest, so it still shows when you wear it open.',
     sections: [
-      { h2: 'What makes these zip-up hoodies different?', body: 'Every design is drawn for this shop, with the joke on the back where people actually see it. Each hoodie is printed after you order it.' },
+      { h2: 'What makes these zip-up hoodies different?', body: 'Every design is designed for this shop, with the joke on the back where people actually see it. Each hoodie is printed after you order it.' },
       { h2: 'What the hoodie is like', body: 'A full-zip hoodie in 8 oz fleece, 50% cotton and 50% polyester, with a metal zipper, front pouch pockets and a hood with color-matched drawcords. It is a unisex regular fit, so it sits relaxed on women.' },
       { h2: 'How to wear a zip-up hoodie', body: 'Open over a tank or tee with leggings, zipped up over a crewneck on cold mornings, or tied at the waist once the day warms up.' },
     ],
@@ -875,7 +875,7 @@ export const hoodies: Collection[] = [
     h1: 'Embroidered Hoodies',
     intro: 'Embroidered hoodies with a small original design stitched on the chest in thread, and on some, one little word on the cuff. Simple line art you can wear all winter.',
     sections: [
-      { h2: 'What makes these embroidered hoodies different?', body: 'Each design is drawn for this shop as clean line art and hand lettering, then stitched in thread instead of printed, so it has a raised, textured feel. Some sit centered on the chest, others small on the left chest like a logo would.' },
+      { h2: 'What makes these embroidered hoodies different?', body: 'Each design is designed for this shop as clean line art and hand lettering, then stitched in thread instead of printed, so it has a raised, textured feel. Some sit centered on the chest, others small on the left chest like a logo would.' },
       { h2: 'Embroidered, not printed', body: 'Every hoodie in this collection is real embroidery. Our printed hoodies live in the other hoodie collections.' },
       { h2: 'How to care for embroidery', body: 'Wash inside out on cold and tumble dry low or hang to dry. Do not iron directly on the stitching.' },
     ],
