@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: B
 type: new
 id: 434
 handle: unisex-anime-guarding-the-last-dumpling-oversized-hoodie
+shopify: gid://shopify/Product/15363696918832
 kd: 19
 ---
 ## Unisex Anime – Guarding the Last Dumpling Oversized Hoodie
@@ -23,3 +24,4 @@ kd: 19
 ---
 ## Log
 - 2026-10-17 13:24 UTC director: brief written, READY (keyword measured this run, low-KD sweep; new art, ART-NEXT draft while fal is empty).
+- 2026-10-17 13:37 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363696918832 (Dust + Navy x S-3XL, Bella+Canvas 4719, $54.99; keyword samurai cat hoodie 8,100/KD19; FAQs 5 x 40-60 words, order-by Dec 8). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
