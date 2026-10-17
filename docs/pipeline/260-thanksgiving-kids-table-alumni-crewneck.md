@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-16 23:20 UTC
+status: REVIEW
 lane: A
 type: twin
 id: 260
@@ -19,3 +19,4 @@ handle: unisex-thanksgiving-kids-table-alumni-crewneck-sweatshirt
 ## Log
 - 2026-10-16 22:25 UTC director: brief written, READY (lane A funny Thanksgiving pair for /funny-thanksgiving-shirts/, R9.11).
 - 2026-10-16 23:24 UTC builder [A]: DRAFT gid://shopify/Product/15362501509424 (Gildan 18000; White, Sand, Ash, Sport Grey, Light Pink x S-3XL = 30; $34.99/$39.99; tags thanksgiving-sweatshirts, sweatshirt, thanksgiving), #259's file 1087891009 (no new art), Printful sync 482349006 queued (FORCE=1 FW=1500 setfile 482349006 1087891009 1080398177). Keyword cousins sweatshirt (210/33) registered. Dark ink, so no dark colors. Cover #436 + #450 (man and woman) from the Sand mockup, kept #2 of 3, 4 fronts + Light Pink + back, variant images, audit above, docs/review/260.jpg. REVIEW once synced = 30.
+- 2026-10-17 03:29 UTC builder [A]: Printful sync complete; REVIEW.
