@@ -6,7 +6,7 @@ Skipped on purpose: worker shirt, golf shirt, bowling shirt, band shirt (differe
 ## Wave 1: new hoodie and sweatshirt collections (build now)
 | Collection (slug) | Head keyword | Vol / KD | Products we already have | Designs to brief |
 |---|---|---|---|---|
-| national-park-sweatshirts | park sweatshirt / park hoodie / park shirt | 12,100 / 11 · 6,600 / 33 · 1,600 / 17 | #363 Went Outside, #370 Mountains Called | 6 more: one per famous-park feel (no park names or NPS arrowhead, R trademark) |
+| national-park-sweatshirts | national park shirt / national park sweatshirt / national park hoodie (CORRECTED: "park sweatshirt" 12,100/11 had no competition count, so it's a blended, unreliable phrase) | 4,400 / 48 · 1,000 / 46 · 720 / 32 | #363 Went Outside, #370 Mountains Called | 6 more: one per famous-park feel (no park names or NPS arrowhead, R trademark) |
 | golf-hoodies | golf hoodie / golf sweatshirt / funny golf shirt | 14,800 / 22 · 2,900 / 34 · 3,600 / 38 | none | 8 (dad-golf jokes; women's golf too) |
 | capybara-hoodies | capybara hoodie / capybara shirt | 8,100 / 16 · 2,900 / 36 | #323 Out of Office | 5 more |
 | dog-hoodies (hub) + dachshund / pitbull children when each has 3+ | dog hoodie / dachshund hoodie / pitbull hoodie | 18,100 / 44 · 1,900 / 26 · 1,300 / 20 | #327 dachshund, #337 pitbull, #446 chihuahua | 3 more dachshund, 2 more pitbull, golden retriever, corgi |
@@ -30,3 +30,7 @@ Skipped on purpose: worker shirt, golf shirt, bowling shirt, band shirt (differe
 4. Each collection page gets unique intro copy and 4-6 FAQs from real questions (R9), never a template with the niche swapped in.
 5. Words set in real fonts (scripts/compose-print.py); fal draws the picture only. Big on the chest.
 6. Order: parks, golf, capybara, dog/dachshund/pitbull, cat, bear, running, nana/grandpa, welder, pickleball, then the rest. Spread across lanes A, B, C, E.
+
+## National parks angle (Sam 2026-10-17: TikTok + Jen Hamilton)
+ParkTok lingo, verified on TikTok discover 2026-10-17: Jen Hamilton's Yellowstone clip (14.5M views) set off flirty replies from park accounts ("two queens roaming their natural environments") plus #unbanyellowstone, #nationalparksinheat, #bringbackyellowstone, #plentyofpark (Mark Twain National Forest).
+Lines (no person's name or likeness, no NPS arrowhead, no "Yellowstone" wordmark on apparel; it's also a TV show trademark): My Type? Geothermally Active. · Plenty of Park · Two Queens Roaming Our Natural Environment (matching set) · Swipe Right on Public Land · Thirsty for Public Land. Look: vintage WPA poster style, real fonts. Main buyer: women 25-55. Run each through the 5-part gate; the market is crowded (difficulty 46-48), so only the sharpest lines ship.
