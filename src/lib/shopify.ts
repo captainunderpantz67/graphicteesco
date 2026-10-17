@@ -4,6 +4,7 @@
 // Until the store exists, no env vars are set and every call returns sample data,
 // so the site builds and previews. Sample products are flagged `sample: true`.
 
+import variantPhotos from '../data/variant-photos.json';
 const DOMAIN = import.meta.env.PUBLIC_SHOPIFY_STORE_DOMAIN as string | undefined;
 const TOKEN = import.meta.env.PUBLIC_SHOPIFY_STOREFRONT_TOKEN as string | undefined;
 const API_VERSION = '2026-01';
@@ -11,7 +12,7 @@ const API_VERSION = '2026-01';
 export const shopifyConnected = Boolean(DOMAIN && TOKEN);
 
 export interface Money { amount: string; currencyCode: string }
-export interface Variant { id: string; title: string; availableForSale: boolean; price: Money; compareAtPrice?: Money | null; selectedOptions: { name: string; value: string }[]; image?: { url: string } | null }
+export interface Variant { id: string; title: string; availableForSale: boolean; price: Money; compareAtPrice?: Money | null; selectedOptions: { name: string; value: string }[]; image?: { url: string } | null; photoless?: boolean }
 export interface Product {
   id: string;
   handle: string;
@@ -58,8 +59,19 @@ type RawProduct = Omit<Product, 'images' | 'variants' | 'collections'> & { image
 // started was never offered at the higher price, so its compare-at is dropped here, before the page, the
 // schema or the feed can show it as a "was" price. Builders also clear it in Shopify; this guards the gap.
 const SALE_START = Date.parse('2026-10-15T05:00:00Z');
-const honest = (p: RawProduct): Variant[] =>
-  p.createdAt && Date.parse(p.createdAt) >= SALE_START ? p.variants.nodes.map((v) => ({ ...v, compareAtPrice: null })) : p.variants.nodes;
+const honestPrice = (p: RawProduct, v: Variant): Variant =>
+  p.createdAt && Date.parse(p.createdAt) >= SALE_START ? { ...v, compareAtPrice: null } : v;
+// Honest photos: a color with no mockup of its own inherits another color's photo from Printful (Maroon shows
+// the Black shirt). scripts/variant-photo-audit.py works out which color each shared photo really shows;
+// colors without one become photoless (the page doesn't jump to a wrong photo, the feed leaves them out).
+const honestPhoto = (p: RawProduct, v: Variant): Variant => {
+  const map = (variantPhotos as Record<string, Record<string, string | null>>)[p.handle];
+  const color = v.selectedOptions.find((o) => /colou?r/i.test(o.name))?.value;
+  if (!map || !color || !(color in map)) return v;
+  const url = map[color];
+  return url ? { ...v, image: { url: v.image?.url.startsWith(url) ? v.image.url : url } } : { ...v, image: null, photoless: true };
+};
+const honest = (p: RawProduct): Variant[] => p.variants.nodes.map((v) => honestPhoto(p, honestPrice(p, v)));
 const flat = (p: RawProduct): Product => ({ ...p, images: p.images.nodes, variants: honest(p), collections: p.collections.nodes.map((c) => c.handle) });
 
 export async function getCollectionProducts(handle: string, first = 48): Promise<Product[]> {

@@ -60,7 +60,8 @@ export const renderFeed = (products: Awaited<ReturnType<typeof feedProducts>>, c
     }).join('');
     const twins = catalog.filter((o) => o.id !== p.id && designKey(o.title) === designKey(p.title) && o.variants.length).slice(0, 5);
     const relXml = twins.map((o) => `      <g:related_product><g:relationship_type>substitute</g:relationship_type><g:identifier_type>id</g:identifier_type><g:identifier>${num(o.variants[0].id)}</g:identifier></g:related_product>\n`).join('');
-    for (const v of p.variants) {
+    // A color without a photo of its own stays out of the feed until its mockup exists (image must show the variant).
+    for (const v of p.variants.filter((x) => !x.photoless)) {
       const o = Object.fromEntries(v.selectedOptions.map((x) => [x.name.toLowerCase(), x.value]));
       const main = v.image?.url ?? p.featuredImage?.url ?? p.images[0].url;
       const extra = p.images.map((i) => i.url).filter((u) => u !== main).slice(0, 4);
