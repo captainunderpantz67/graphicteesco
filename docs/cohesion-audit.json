@@ -1,6 +1,6 @@
 {
- "at": "2026-10-17T12:05:54.163Z",
- "products": 318,
+ "at": "2026-10-17T12:43:20.972Z",
+ "products": 329,
  "findings": [
   {
    "level": "WARN",
@@ -386,6 +386,13 @@
    "title": "Unisex Thanksgiving – Turkey Trot Hoodie",
    "msg": "thanksgiving design isn't in any thanksgiving collection.",
    "fix": "Tag it so it appears in the thanksgiving shirts page."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-anime-slurp-responsibly-half-zip",
+   "title": "Women's Anime – Slurp Responsibly Half Zip",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
   }
  ]
 }

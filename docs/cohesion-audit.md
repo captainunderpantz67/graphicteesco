@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-17 12:05 UTC
+# Cohesion audit — 2026-10-17 12:43 UTC
 
-318 live products checked · **40 errors** · 15 warnings · 55 products with findings
+329 live products checked · **40 errors** · 16 warnings · 56 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -172,3 +172,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Unisex Thanksgiving – Turkey Trot Hoodie `unisex-thanksgiving-turkey-trot-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
+
+### Women's Anime – Slurp Responsibly Half Zip `womens-anime-slurp-responsibly-half-zip`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
