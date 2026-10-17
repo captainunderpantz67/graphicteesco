@@ -21,3 +21,4 @@ kd: 20
 ---
 ## Log
 - 2026-10-17 Claude: brief + final art + approved mockups (designs/first5/); READY, top priority (Sam: ship it).
+- 2026-10-17 18:09 UTC builder [A]: Shopify DRAFT gid://shopify/Product/15363973579056 created (36 variants, $24.99 no compare-at, Black/Maroon/Navy/Forest Green/Dark Grey Heather/Military Green S-3XL, category aa-1-13-8, keyword 'cat t shirt women' 1900/KD16).

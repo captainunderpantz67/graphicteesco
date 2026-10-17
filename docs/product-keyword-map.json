@@ -6688,6 +6688,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-clocked-it-said-nothing-graphic-tee": {
+   "claimed": [
+    "cat t shirt women"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cat t shirt women",
+     "volume": 1900,
+     "kd": 16
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
