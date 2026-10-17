@@ -424,6 +424,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-mountain-bike-pedal-pusher-heavyweight-hoodie': { src: '/covers/mens-mountain-bike-pedal-pusher-heavyweight-hoodie.webp', alt: 'Man in a Storm Blue Pedal Pusher Mostly Pushing mountain bike heavyweight hoodie with his hands in the pouch on an autumn forest trail, his bike leaning on a fence' },
   'womens-soccer-orange-slice-manager-zip-hoodie': { src: '/covers/womens-soccer-orange-slice-manager-zip-hoodie.webp', alt: 'Woman looking over her shoulder in a navy Orange Slice Manager zip hoodie, smiling on a youth soccer sideline with folding chairs and a goal behind her' },
   'unisex-embroidered-raccoon-trail-mix-is-a-personality-hoodie': { src: '/covers/unisex-embroidered-raccoon-trail-mix-is-a-personality-hoodie.webp', alt: 'Man and woman in matching sand Raccoon Trail Mix Is a Personality embroidered hoodies at a fall forest trailhead, hands in the pouch pockets, small stitched chest design' },
+  'womens-panda-endangered-patience-zip-hoodie': { src: '/covers/womens-panda-endangered-patience-zip-hoodie.webp', alt: 'Woman looking back over her shoulder in a navy Ate. Napped. Called It a Day. panda zip hoodie on a bamboo garden path, full panda back print visible' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
