@@ -398,7 +398,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 505 | Japanese-American man, early 20s, messy black hair, wire glasses, slim | RESERVED — #321 Kaiju Naps crewneck cover (with #506) |
 | 506 | Latina woman, early 20s, long dark hair with curtain bangs, small silver hoops | RESERVED — #321 Kaiju Naps crewneck cover (with #505) |
 | 507 | Irish-American woman, late 20s, short copper pixie cut, freckles, small gold studs | RESERVED — #322 Loose Goose crewneck cover |
-| 508 | Korean-American woman, late 20s, long wavy brown-black hair in a claw clip, small gold hoops | RESERVED — #323 Out of Office capybara hoodie cover |
+| 508 | Woman, late 20s, wavy light-brown hair, brown eyes | USED 2026-10-17 - #323 Out of Office capybara hoodie cover (seedream, navy, lake cabin deck) |
 | 509 | White man, mid 20s, shaggy sandy-blond hair, light stubble, athletic | RESERVED — #324 Sending It snowboard hoodie cover (with #510) |
 | 510 | Filipina-American woman, mid 20s, long straight black hair with a knit headband | RESERVED — #324 Sending It snowboard hoodie cover (with #509) |
 | 511 | Mexican-American man, mid 40s, short black hair greying at the temples, trimmed moustache, broad build | RESERVED — #325 I Stack Dimes welder hoodie cover |
@@ -565,7 +565,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 672 | Mexican-American woman, early 30s, long dark wavy hair in a low claw clip, small gold hoops | RESERVED — #468 Thriving, Technically Frog Hoodie cover |
 | 673 | white woman, late 30s, honey-blonde shoulder-length waves, tortoiseshell glasses | RESERVED — #469 Excused From Small Talk Crewneck cover |
 | 674 | Indian-American woman, mid 20s, long straight black hair, small nose stud | RESERVED — #470 Excused From Small Talk Tee cover |
-| 675 | Black man, early 40s, close-cropped hair, salt-and-pepper beard | RESERVED — #471 Attending Under Protest Crewneck cover |
+| 675 | Black man, early 40s, close-cropped hair, salt-and-pepper beard | USED 2026-10-17 — #471 Attending Under Protest crewneck cover (seedream, navy, hands in pockets) |
 | 676 | South Asian woman, early 30s, sleek low bun, small gold hoops | RESERVED — #472 Per My Last Email Crewneck cover (with #677) |
 | 677 | white man, mid 30s, short dark hair, stubble | RESERVED — #472 Per My Last Email Crewneck cover (with #676) |
 | 678 | Latina woman, late 20s, long curly dark hair half up | RESERVED — #473 Per My Last Email Hoodie cover (with #679) |

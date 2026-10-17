@@ -380,6 +380,8 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-outdoors-mountains-called-left-on-read-hoodie': { src: '/covers/mens-outdoors-mountains-called-left-on-read-hoodie.webp', alt: 'Man in a sand Mountains Called Left on Read hoodie at a mountain overlook with a guardrail and peaks behind him, hands in the pouch pocket' },
   'womens-christmas-seasonally-overbooked-crewneck-sweatshirt': { src: '/covers/womens-christmas-seasonally-overbooked-crewneck-sweatshirt.webp', alt: 'Woman in a navy Seasonally Overbooked December calendar crewneck sweatshirt at an evening holiday market with string lights and shopping bags' },
   'unisex-introvert-i-have-plans-hoodie': { src: '/covers/unisex-introvert-i-have-plans-hoodie.webp', alt: 'Man and woman in matching navy I Have Plans hoodies on a bookshop window seat on a rainy afternoon, hands in their pouch pockets' },
+  'mens-christmas-attending-under-protest-crewneck-sweatshirt': { src: '/covers/mens-christmas-attending-under-protest-crewneck-sweatshirt.webp', alt: 'Man in a navy Attending Under Protest crewneck sweatshirt with a grumpy cross-stitch reindeer, standing deadpan at a decorated Christmas party' },
+  'womens-capybara-out-of-office-soaking-oversized-hoodie': { src: '/covers/womens-capybara-out-of-office-soaking-oversized-hoodie.webp', alt: 'Woman in a navy Out of Office capybara oversized hoodie, smiling on a lakeside cabin deck at golden hour with a steaming mug on the rail' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
