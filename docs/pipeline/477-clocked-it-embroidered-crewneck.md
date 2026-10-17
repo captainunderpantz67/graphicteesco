@@ -21,3 +21,4 @@ kd: 20
 ---
 ## Log
 - 2026-10-17 Claude: brief + final art + approved mockups (designs/first5/); READY, top priority (Sam: ship it).
+- 2026-10-17 18:01 UTC builder [A]: Shopify DRAFT gid://shopify/Product/15363964698928 created (17 variants, $39.99, Dark Heather/Military Green/Maroon S-3XL (Maroon to 2XL), category aa-1-13-14, keyword 'cat sweatshirt women' 720/KD27; 'embroidered cat sweatshirt' already owned by Purrsonal Space).

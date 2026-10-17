@@ -20,7 +20,7 @@ if i.get('price'): b = dict(b, price=i['price'], compare=i['compare'])
 lis = ''.join(f'<li>{d}</li>\n' for d in b['details'])
 qs = ''.join(f'<p><strong>{q}</strong><br>{a}</p>\n' for q, a in i['faq'])
 h = (f"<h3>The Story</h3>\n<p>{i['hook']}</p>\n<p>{i['art']} {i['wear']} Original art, made for Graphic Tees Co. and {i.get('made', 'printed the day you order it')}.</p>\n"
-     f"<h3>Details &amp; Fit</h3>\n<ul>\n{lis}<li>{len(cols)} colors: {' and '.join(cols)}</li>\n{('<li>Blank product sourced from ' + b['origin'] + '</li>' + chr(10)) if b['origin'] else ''}</ul>\n<h3>Questions</h3>\n{qs}").rstrip('\n')
+     f"<h3>Details &amp; Fit</h3>\n<ul>\n{lis}<li>{len(cols)} colors: {(', '.join(cols[:-1]) + ', and ' + cols[-1]) if len(cols) > 2 else ' and '.join(cols)}</li>\n{('<li>Blank product sourced from ' + b['origin'] + '</li>' + chr(10)) if b['origin'] else ''}</ul>\n<h3>Questions</h3>\n{qs}").rstrip('\n')
 s = {'title': i['title'], 'handle': i['handle'], 'slug': i['slug'], 'catalog': b['catalog'], 'colors': cols, 'price': b['price'], 'compare': b['compare'],
      'productType': i.get('productType', 'Hoodie'), 'tags': i['tags'], 'seo': {'title': i['seo_title'], 'description': i['seo_desc']}, 'descriptionHtml': h}
 if i.get('sizes'): s['sizes'] = i['sizes']
