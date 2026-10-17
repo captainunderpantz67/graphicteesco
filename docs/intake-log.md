@@ -1,3 +1,4 @@
+2026-10-17 13:01 UTC — [A] Photo backfill: generated a flat Printful mockup per missing color and attached it to that color's variants on all 44 holiday products (Christmas + Thanksgiving tees and crewnecks; 1 to 12 colors each, 109 new photos, alt per R7.8). variant-photo-audit: no holiday product has a null any more (95 colors on 35 non-holiday products remain for lane B). Pipeline this run: REVIEW #411, #424, #278 redo, #410 cover redo; remaining REDOs need fal re-lettering, READY twins wait on ART-NEXT source art.
 2026-10-17 14:10 UTC — [B] REVIEW #429 Women's Gym Lunges & Lattes cropped hoodie (twin, Storm + Black, FW 1500 reshaped, temp cover, synced 10/10).
 2026-10-17 13:50 UTC — [B] REVIEW #428 Women's Nurse Charting Is My Cardio hoodie (twin, Sand + Light Pink, FW 1500 trimmed, temp cover, synced 12/12).
 2026-10-17 13:25 UTC — [B] REVIEW #427 Women's Western Steer Skull & Wildflowers hoodie (twin, Sand + Light Pink, FW 1500, temp cover, synced 12/12).
