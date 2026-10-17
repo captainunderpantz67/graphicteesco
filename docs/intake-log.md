@@ -1,5 +1,7 @@
 RUNNING helper since 2026-10-17 20:44 UTC
 RUNNING lane E since 2026-10-17 20:42 UTC
+2026-10-17 20:44 UTC — [A] REVIEW #221 Christmas Nurse crewneck (REDO fixed: Nice List Nurse re-lettered as navy script, new cover).
+2026-10-17 20:44 UTC — [A] REVIEW #219 O Holy Night crewneck (REDO fixed: new frameless art, no arch, hand-style script lettering, new cover).
 2026-10-17 20:36 UTC — [C] REVIEW #341 Smiling Through It axolotl oversized hoodie (DRAFT, synced 12/12, fal cover).
 2026-10-17 20:36 UTC — [C] REVIEW #441 Eight Arms Zero Hugs octopus oversized hoodie (DRAFT, synced 12/12, fal cover).
 2026-10-17 20:36 UTC — [C] REVIEW #457 Fried Food Is Tradition Hanukkah crewneck (DRAFT, synced 12/12, fal cover).
