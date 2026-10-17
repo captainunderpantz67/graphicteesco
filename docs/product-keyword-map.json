@@ -4857,6 +4857,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-new-years-eve-resolutions-pending-graphic-tee": {
+   "claimed": [
+    "new years eve shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "new years eve shirt",
+     "volume": 3600,
+     "kd": 31
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

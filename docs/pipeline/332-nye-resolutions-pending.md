@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: A
 type: new
 id: 332
 handle: womens-new-years-eve-resolutions-pending-graphic-tee
+shopify: gid://shopify/Product/15363026518320
 kd: 31
 ---
 ## Women's New Year's Eve – Resolutions Pending Tee
@@ -23,3 +24,4 @@ kd: 31
 ---
 ## Log
 - 2026-10-17 04:21 UTC director: brief written, READY (low-KD sweep 2026-10-17 04:30 run; keyword and trend measured this run).
+- 2026-10-17 04:37 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363026518320 (BC 6400, White/Natural/Heather Stone/Athletic Heather/Pink x S-3XL = 30 variants, $24.99 no compare-at, category tees; keyword new years eve shirt 3,600/KD31). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
