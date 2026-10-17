@@ -395,6 +395,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-hanukkah-spin-responsibly-crewneck-sweatshirt': { src: '/covers/unisex-hanukkah-spin-responsibly-crewneck-sweatshirt.webp', alt: 'Man and woman in matching navy Spin Responsibly dreidel crewneck sweatshirts at a Hanukkah party with a lit menorah on the windowsill behind them' },
   'womens-octopus-eight-arms-zero-hugs-oversized-hoodie': { src: '/covers/womens-octopus-eight-arms-zero-hugs-oversized-hoodie.webp', alt: 'Woman in a navy Eight Arms, Zero Hugs octopus oversized hoodie, deadpan on a weathered seaside pier on an overcast morning' },
   'womens-pilates-core-issues-crewneck-sweatshirt': { src: '/covers/womens-pilates-core-issues-crewneck-sweatshirt.webp', alt: 'Woman in a sand Core Issues pilates crewneck sweatshirt in a sunny pilates studio lobby with rolled mats and a reformer beside her' },
+  'unisex-thanksgiving-laying-low-till-friday-turkey-hoodie': { src: '/covers/unisex-thanksgiving-laying-low-till-friday-turkey-hoodie.webp', alt: 'Man and woman in matching navy Laying Low Till Friday turkey hoodies, smiling in a farmhouse yard with hay bales and pumpkins on Thanksgiving morning' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
