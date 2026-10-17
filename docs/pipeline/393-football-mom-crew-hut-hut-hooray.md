@@ -1,4 +1,5 @@
-status: BUILDING [B] 2026-10-17T08:40Z
+status: REVIEW
+cover: temp
 lane: B
 type: twin
 id: 393
@@ -21,3 +22,4 @@ kd: 58
 ---
 ## Log
 - 2026-10-17 08:55 UTC director: brief written, READY (keyword measured this run; twin).
+- 2026-10-17 08:55 UTC builder [B]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363402268976 (Gildan 18000 #145, Sand + Navy x S-3XL = 12, $34.99 no compare-at, category aa-1-13-14, tag mama-sweatshirts), print file 1087061685 (tee file reused, 3600x3034), FW=1650 TOP=0 (print ~1390 px tall); Printful sync of 12 variants running in background (check `pf-sync.py status 482415346`). R6.2 check: HUT HUT HOORAY is arched block caps but with per-letter red/mustard/brown fills, uneven sizes, fused letters and a heavy chipped texture (reads hand-lettered, unlike the even-spaced caps blocked on #378/#385); no ring, panel, box or typeset line; ball, pennants and megaphone stand on a ragged turf patch. Phone-size read: all three words legible on Sand and Navy (mustard thinner on Sand). Keyword game day sweatshirt 1,300/KD58 in map. Mockups Sand + Navy fronts + back, variant images attached, audit PASS (local; cohesion-audit --handle only errors on not-visible, expected). FAQs 5 x 40-57 words. Temp cover: Printful Women's 2 style 1174, Navy, woman facing camera, print fully readable; self-grade SWAP (white catalog backdrop, serious look). Sheet docs/review/393.jpg. REVIEW.
