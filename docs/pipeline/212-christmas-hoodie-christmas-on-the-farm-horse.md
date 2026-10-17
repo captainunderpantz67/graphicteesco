@@ -1,6 +1,7 @@
-status: REDO
+status: REVIEW
 lane: A
 type: twin
+cover: temp
 id: 212
 handle: womens-christmas-on-the-farm-horse-hoodie
 ---
@@ -24,3 +25,4 @@ handle: womens-christmas-on-the-farm-horse-hoodie
   1. R3.7.6 / R6.2: 'Christmas on the Farm' is a typeset book serif. Erase it or re-letter it by hand (one lettering-only generation).
   2. R4.1: the scene sits on a straight-edged cream panel, a pale rectangle on both mockups. Break up the edges in print-prep so the scene is the shape. Resync, new mockups.
   3. R6.8: on the cover the print is turned away and the lettering is cut off ('...stmas on the Farm'). One new cover facing the camera, print fully visible, hands empty, product's Sport Grey mockup as --design.
+- 2026-10-17 04:25 UTC builder [A]: REDO (fal empty, no fal calls): 'Christmas on the Farm' serif erased in print-prep and the panel edges broken into worn snow with ragged-edge.py (depth 110, rows 700+), top trimmed; new file 1088026498 (3600x3590) FW=1500; copy/SEO/FAQ no longer mention the lettering (R8.3). Print file re-linked 12/12 (sync 482277554), new Sand + second-color mockups replaced in place, TEMP COVER from Printful Women's 4 (style 1435, Sport Grey 18500, hood up, hands in pocket) (print fully visible, hands off the print), covers.ts alt. Self-grade: keep. Sheet docs/review/212.jpg. REVIEW.

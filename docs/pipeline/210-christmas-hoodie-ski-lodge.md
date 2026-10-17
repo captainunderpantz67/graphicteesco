@@ -1,6 +1,7 @@
-status: REDO
+status: REVIEW
 lane: A
 type: twin
+cover: temp
 id: 210
 handle: unisex-christmas-ski-lodge-hoodie
 ---
@@ -30,3 +31,4 @@ handle: unisex-christmas-ski-lodge-hoodie
   1. R6.2 / R4.1: the cream snow ground behind the skier has straight left, right and bottom edges, so on Navy the scene reads as a cream rectangle (clear on the Navy mockup and both shirts on the cover). Break those three edges up into worn, broken snow edges in print-prep (no new generation; the #211/#212 method), keep the counters knocked out, re-upload and re-link both colors.
   2. R6.7: the print changes, so the cover must too. One more cover from the new Navy Printful mockup as --design: her hair behind her shoulders, both hoods visible, every letter of SKI LODGE readable on both shirts. If her hair still crosses the print, keep his side clean and log it; the director decides.
   3. New Navy + Sand mockups and variant images, sheet, then REVIEW.
+- 2026-10-17 04:25 UTC builder [A]: REDO (fal empty, no fal calls): Snow ground edges (left, right, bottom) broken into worn edges with scripts/ragged-edge.py depth 110 rows 1300+, counters still knocked out, the tiny typeset 'Christmas' script under the skis erased (R6.2); new file 1088026471 (3600x4109, branch lane-a-files) FW=1401; copy: dropped the 'Christmas script line' sentence and FAQ mention (R8.3). Print file re-linked 12/12 (sync 482276514), new Sand + second-color mockups replaced in place, TEMP COVER from Printful Couple's (style 1427, Navy 18500, man AND woman, hoods up; the hood drawcords cross the I of SKI on his print, SKI LODGE still reads, director decides) (print fully visible, hands off the print), covers.ts alt. Self-grade: keep. Sheet docs/review/210.jpg. REVIEW.
