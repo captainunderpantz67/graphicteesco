@@ -6130,6 +6130,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-gym-lunges-and-lattes-cropped-hoodie": {
+   "claimed": [
+    "gym cropped hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "gym cropped hoodie",
+     "volume": 480,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

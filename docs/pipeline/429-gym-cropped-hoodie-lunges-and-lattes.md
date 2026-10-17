@@ -1,4 +1,5 @@
-status: BUILDING [B] 2026-10-17 13:15 UTC
+status: REVIEW
+cover: temp (swap)
 lane: B
 type: twin
 id: 429
@@ -21,3 +22,4 @@ kd: 30
 ---
 ## Log
 - 2026-10-17 12:50 UTC director: brief written, READY (keyword measured this run; source art checked against R4.1/R6.2 from its live mockup; fal-free twin).
+- 2026-10-17 12:59 UTC [B]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363663429936 (Bella+Canvas 7502 cropped hoodie #317, Storm + Black x S-2XL = 10, $44.99 no compare-at, category aa-1-13-13, tags cropped-hoodies, cropped-sweatshirts, gym-hoodies, graphic-hoodies-for-women, hoodie, ai-art, intake-done), sync product 482465588 synced 10/10 with back logo. Colors: Peach is XL-only and out of stock on #317, so Storm + Black (bunny body takes the garment color; checked Military Green too, it reads but Black pops the pink best). Print: tee/hoodie file 1087990684 reused (3600x3981). Reshaped for the cropped blank (print area is 1500x1500 px): lettering band kept at full width (it already spans 100% of the art, so no widening needed), bunny block scaled to 89% and set 70 px under it, new file 3600x3600 (docs/print-files/429-lunges-and-lattes-cropped.png, Printful file 1088225979), FW 1500 TOP 0 = exactly 1500 px, every word and the bunny above the raw hem on both mockups. R6.2 check: LUNGES & LATTES is chunky hand-drawn bubble lettering; bunny, dumbbell and latte are drawn art with open sketch outlines; no ring, panel, box or typeset line; white counters none (cream hatching is planned ink). Phone-size read: LUNGES & LATTES reads on Storm and Black. FAQ 6 x 40-52 words, order-by Dec 8. Keyword gym cropped hoodie 480/KD30 in map. Mockups Storm + Black fronts + back, variant images per color. Temp cover: Printful Women's 2 Front style 1879 on Black (young woman, smiling, hands down, print fully visible, white backdrop; style not used by any item). cover: temp (swap) because of the white catalog backdrop. Registry #623 stays reserved. Audit-local PASS. Sheet docs/review/429.jpg.
