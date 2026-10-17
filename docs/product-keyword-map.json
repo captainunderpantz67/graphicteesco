@@ -6260,6 +6260,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-pig-hogwash-oversized-hoodie": {
+   "claimed": [
+    "pig hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pig hoodie",
+     "volume": 1300,
+     "kd": 26
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
