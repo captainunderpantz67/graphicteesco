@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: B
 type: new
 id: 468
 handle: womens-embroidered-thriving-technically-frog-hoodie
+shopify: gid://shopify/Product/15363854238000
 kd: 34
 ---
 ## Women's Embroidered – Thriving, Technically Frog Hoodie
@@ -28,3 +29,4 @@ kd: 34
 ---
 ## Log
 - 2026-10-17 16:26 UTC director: brief written, READY (lane B; gate-format brief, keyword measured this run).
+- 2026-10-17 16:35 UTC builder [B]: ART-NEXT (fal empty, gate pending): full Shopify DRAFT gid://shopify/Product/15363854238000 (Sand + Navy x S-3XL = 12, Gildan 18500 embroidered, $44.99 no compare-at, category hoodies, tags per brief + hub tags, keyword mental health hoodie, SEO within limits, FAQs 6 x 40-60 words, order-by Dec 8). Copy from the brief's art description: re-check against the real art. No Printful sync, no images, no cover. Never publish.

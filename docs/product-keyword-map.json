@@ -6603,5 +6603,31 @@
    }
   ],
   "measured": "2026-10-16"
+ },
+ "unisex-embroidered-overthinkers-club-hoodie": {
+  "claimed": [
+   "anxiety hoodie"
+  ],
+  "gaps_measured": [
+   {
+    "phrase": "anxiety hoodie",
+    "volume": 8100,
+    "kd": 30
+   }
+  ],
+  "measured": "2026-10-17"
+ },
+ "womens-embroidered-thriving-technically-frog-hoodie": {
+  "claimed": [
+   "mental health hoodie"
+  ],
+  "gaps_measured": [
+   {
+    "phrase": "mental health hoodie",
+    "volume": 5400,
+    "kd": 34
+   }
+  ],
+  "measured": "2026-10-17"
  }
 }
