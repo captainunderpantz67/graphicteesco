@@ -1,6 +1,6 @@
 {
- "at": "2026-10-17T21:18:11.375Z",
- "products": 380,
+ "at": "2026-10-17T21:43:47.204Z",
+ "products": 395,
  "findings": [
   {
    "level": "WARN",
@@ -57,13 +57,6 @@
    "title": "Unisex Christmas – Mountain Christmas Bear Hoodie",
    "msg": "No meta description.",
    "fix": "Write one ≤ 155 chars."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-christmas-resting-my-eyes-graphic-tee",
-   "title": "Men's Christmas – Resting My Eyes Tee",
-   "msg": "Claims \"dad christmas shirt\", already claimed by mens-christmas-light-show-manager-graphic-tee (two pages fighting for one keyword).",
-   "fix": "Give one of them a different measured phrase."
   },
   {
    "level": "WARN",
@@ -239,6 +232,27 @@
    "title": "Women's Anime – Slurp Responsibly Half Zip",
    "msg": "Cover alt text doesn't say who is in the photo.",
    "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-anime-ignoring-you-professionally-heavyweight-hoodie",
+   "title": "Unisex Anime – Ignoring You Professionally Heavyweight Hoodie",
+   "msg": "\"maneki neko\" appears 4× in the copy (keyword stuffing).",
+   "fix": "Use it once or twice, naturally."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-pig-wallowing-respectfully-oversized-hoodie",
+   "title": "Men's Pig – Mud Bath Booked, Plans Canceled Oversized Hoodie",
+   "msg": "\"pig hoodie\" appears 5× in the copy (keyword stuffing).",
+   "fix": "Use it once or twice, naturally."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-pirate-pillaging-is-a-young-mans-game-hoodie",
+   "title": "Men's Pirate – Pillaging Is a Young Man's Game Hoodie",
+   "msg": "\"pirate hoodie\" appears 11× in the copy (keyword stuffing).",
+   "fix": "Use it once or twice, naturally."
   }
  ]
 }

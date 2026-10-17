@@ -1,18 +1,14 @@
-# Cohesion audit — 2026-10-17 21:18 UTC
+# Cohesion audit — 2026-10-17 21:43 UTC
 
-380 live products checked · **11 errors** · 23 warnings · 32 products with findings
+395 live products checked · **10 errors** · 26 warnings · 34 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
 - 8 × Price ./. — should be ./- on every variant.
 - 2 × Claims , already claimed by unisex-thanksgiving-totally-a-pilgrim-hood
-- 1 × Claims , already claimed by mens-christmas-light-show-manager-graphic-
 
 ## By product (errors first)
-### Men's Christmas – Resting My Eyes Tee `mens-christmas-resting-my-eyes-graphic-tee`
-- **ERROR** Claims "dad christmas shirt", already claimed by mens-christmas-light-show-manager-graphic-tee (two pages fighting for one keyword). → Give one of them a different measured phrase.
-
 ### Men's Hunting – Long Beard Short Temper Camo Hoodie `mens-hunting-long-beard-short-temper-camo-hoodie`
 - **ERROR** Claims "turkey hoodie", already claimed by unisex-thanksgiving-totally-a-pilgrim-hoodie (two pages fighting for one keyword). → Give one of them a different measured phrase.
 
@@ -107,3 +103,12 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Women's Anime – Slurp Responsibly Half Zip `womens-anime-slurp-responsibly-half-zip`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
+### Unisex Anime – Ignoring You Professionally Heavyweight Hoodie `unisex-anime-ignoring-you-professionally-heavyweight-hoodie`
+- **WARN** "maneki neko" appears 4× in the copy (keyword stuffing). → Use it once or twice, naturally.
+
+### Men's Pig – Mud Bath Booked, Plans Canceled Oversized Hoodie `mens-pig-wallowing-respectfully-oversized-hoodie`
+- **WARN** "pig hoodie" appears 5× in the copy (keyword stuffing). → Use it once or twice, naturally.
+
+### Men's Pirate – Pillaging Is a Young Man's Game Hoodie `mens-pirate-pillaging-is-a-young-mans-game-hoodie`
+- **WARN** "pirate hoodie" appears 11× in the copy (keyword stuffing). → Use it once or twice, naturally.

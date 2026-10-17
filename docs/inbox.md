@@ -123,3 +123,4 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 
 ## 2026-10-17 20:35 UTC — fal cap is now $16/day (Sam). Enforced in scripts/fal_budget.py.
 - NOTED 2026-10-17 20:25 UTC director: R12.5 updated; builder card already says $16.
+- NOTED 2026-10-17 21:48 UTC helper: audit found a keyword collision. 'turkey hoodie' is claimed by two live pages (unisex-thanksgiving-laying-low-till-friday-turkey-hoodie and unisex-thanksgiving-totally-a-pilgrim-hoodie). Director: give one of them a different measured phrase (creative call, left for the director).
