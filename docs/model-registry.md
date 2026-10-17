@@ -518,8 +518,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 625 | Puerto Rican woman, early 20s, curly hair in a claw clip, red ribbon | RESERVED — #431 Cherry Picked Cropped Hoodie cover |
 | 626 | Vietnamese-American man, mid 40s, greying temples, fishing sunglasses | RESERVED — #432 Catch and Release Zip Hoodie cover |
 | 627 | Black woman, early 20s, box braids in a high bun, gold hoops | RESERVED — #433 Loose Goose Cropped Hoodie cover |
-| 628 | Filipino-American woman, mid 20s, long wavy hair, small silver hoops | RESERVED — #434 Guarding the Last Dumpling Oversized Hoodie cover (with #629) |
-| 629 | Black man, late 20s, short twists, round glasses | RESERVED — #434 Guarding the Last Dumpling Oversized Hoodie cover (with #628) |
+| 628 | Filipino-American woman, mid 20s, long wavy hair, small silver hoops | USED 2026-10-17 — #434 Sharing Is Not My Love Language oversized hoodie cover (with the other of 628/629, seedream, 1 attempt)
+| 629 | Black man, late 20s, short twists, round glasses | USED 2026-10-17 — #434 Sharing Is Not My Love Language oversized hoodie cover (with the other of 628/629, seedream, 1 attempt)
 | 630 | Chinese-American woman, college-age, long straight hair in a half-up clip, pearl studs | RESERVED — #435 Petal Pusher Cropped Hoodie cover |
 | 631 | Korean-American man, early 30s, undercut, small silver ring | USED 2026-10-17 - #436 Ignoring You Professionally hoodie cover (pair with #631-632) |
 | 632 | white woman, late 20s, auburn shag, freckles | USED 2026-10-17 - #436 Ignoring You Professionally hoodie cover (pair with #631-632) |
