@@ -5663,6 +5663,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-official-tree-topper-graphic-tee": {
+   "claimed": [
+    "holiday shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "holiday shirt",
+     "volume": 4400,
+     "kd": 64
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
