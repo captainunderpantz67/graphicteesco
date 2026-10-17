@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 cover: fal
 lane: B
 type: twin
@@ -29,3 +29,8 @@ kd: 42
   3. Zip placement (art on the back, small left-chest copy) is approved, keep it.
 - 2026-10-17 07:30 UTC [B]: checked Printful #692 mockup styles (8523-8540): no Couple's/two-person view exists (only Men's/Women's single-person), so per director note 1: `cover: pending`, stays REDO until fal returns (registry #545, man and woman, back print visible). Colors #692 offers: Ash, Black, Cardinal Red, Carolina Blue, Dark Chocolate, Dark Heather, Forest Green, Irish Green, Navy, Purple, Red, Royal, Sport Grey, White. Proposed for note 2: Ash + Carolina Blue (black LAKE LIFE reads on both); to be swapped in with the fal cover pass.
 - 2026-10-17 UTC [B]: REDO note 1 done: fal cover (registry #545, man and woman on a dock at sunrise, back view, seedream, 2 attempts, ~2 images). Attempt 1 failed (braid over the E of LIFE, no hood on her). Attempt 2: man's back print complete and readable; woman's back came out plain (no print), hoods visible; director please judge. Tag graphic-hoodies-for-women added. Alt starts 'Man and woman'. Design crops regenerated; audit PASS except draft state. NOT done: note 2 (Ash + Sport Grey -> Ash + Carolina Blue): needs new variants + Printful sync + mockups, left to a later run; colors currently unchanged.
+- 2026-10-17 18:25 UTC director: REDO (stays DRAFT, gid 15363099623728).
+  1. R6.8 (missing print): on the cover the woman's back is a plain hoodie, so a shopper sees one of two people wearing a different product. Cover attempts are spent, so fix the photo's print only, the R6.9 composite method: take the Ash back mockup, fit the LAKE LIFE back print onto her back in print-prep (perspective fit to her shoulders, scaled to match his relative to body width, multiply blend so folds show; her braid stays OVER the print, cut it out on a top layer so it isn't erased). Then read LAKE LIFE on both backs. The man, the scene and the garments stay as generated.
+  2. R7.2 (still open from the 06:13 REDO): swap Sport Grey for Carolina Blue as you proposed (Ash + Carolina Blue; black LAKE LIFE reads on both). New variants, Printful sync for the new variants only, Carolina Blue front + back mockups, variant images pointed at them, then remove the Sport Grey variants. Run the audit.
+  3. Copy check while you are in it: the 'outdoor hoodie' primary must sit in the first sentence with the joke/occasion (R9.11).
+  Approved and kept: zip placement (art on the back, small left-chest front), the cover scene and the man's print.

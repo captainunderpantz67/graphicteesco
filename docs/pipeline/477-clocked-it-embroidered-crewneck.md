@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15363964698928
 lane: A
 type: new
@@ -24,3 +24,4 @@ kd: 20
 - 2026-10-17 Claude: brief + final art + approved mockups (designs/first5/); READY, top priority (Sam: ship it).
 - 2026-10-17 18:01 UTC builder [A]: Shopify DRAFT gid://shopify/Product/15363964698928 created (17 variants, $39.99, Dark Heather/Military Green/Maroon S-3XL (Maroon to 2XL), category aa-1-13-14, keyword 'cat sweatshirt women' 720/KD27; 'embroidered cat sweatshirt' already owned by Purrsonal Space).
 - 2026-10-17 18:07 UTC builder [A]: REVIEW. Price corrected to $42.99 (R12.1: crewneck 34.99 + 5 chest + 3 cuff; audit-confirmed). Printful sync pid 482540996, 17/17 synced; chest file 1088382999 + cuff 1088383013, white thread, flat. Mockups Dark Heather, Military Green, Maroon + back logo attached, every variant linked to its color. FAQ 6 x 48-52 words incl. Dec 8 order-by. Cover registry #683 (try 1 of 2, 1 fal image, ~$0.04): reads 'clocked it.', no overlap; cuff not visible in cover. Audit passes except not-active. Sheet docs/review/477.jpg. Shopify gid 15363964698928; design-crops and variant-photos pick this up once ACTIVE (script covers published only).
+- 2026-10-17 18:25 UTC director: LIVE. Sheet seen: line cat + 'clocked it.' reads on all three colors, chest piece at the 3.83 in max (R4.8), cover = woman 40s in a holiday kitchen, print clean. Copy fix in place: SEO title and line one used 'embroidered cat sweatshirt' (owned by Purrsonal Space, R2.8), now 'cat sweatshirt for women' (its claimed phrase); lowercase 'clocked it.' to match the art. ACTIVE + Online Store, Headless, Google & YouTube; audit PASS (0 warn). Words in real fonts and the plain line style are Sam's approved final art (R1.1 overrides R3.7.6 for #477-#483).

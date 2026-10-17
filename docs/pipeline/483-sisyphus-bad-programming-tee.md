@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING B 18:13Z
 lane: B
 type: new
 id: 483

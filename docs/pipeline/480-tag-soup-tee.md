@@ -1,8 +1,9 @@
-status: BUILDING B 18:06Z
+status: REVIEW
 lane: B
 type: new
 id: 480
 handle: mens-hunting-todays-special-tag-soup-graphic-tee
+shopify: gid://shopify/Product/15363971940656
 kd: 20
 ---
 ## Men's Hunting – Today's Special: Tag Soup Tee
@@ -20,3 +21,4 @@ kd: 20
 ---
 ## Log
 - 2026-10-17 Claude: brief + final art + approved mockups (designs/first5/); READY, top priority (Sam: ship it).
+- 2026-10-17 18:13 UTC [B]: Twin of #479, same final print (designs/first5/tagsoup-print.png, no new art; real-font lines, no ring/panel/box). Bella 3001 #71, Military Green + Dark Grey Heather + Black (all read; Natural skipped: cream lettering would wash out), 21 variants $24.99 no compare-at, DRAFT gid 15363971940656, tees category. Printful file 1088386233, sync product 482543828 21/21, FW 1500 TOP 75. Mockups per color + back attached. Keyword: primary 'hunting graphic tee' 260/KD 32; 'hunter shirt' 8100/40 once; hunting shirt men 12100/32 left as collection head. FAQ 6 Qs 40-60 words. Cover: registry 691 (Hmong-American man, deer camp tailgate), seedream 1 attempt, all words legible, alt starts Man. Audit-local PASS. design-crops/variant-photo-audit rerun after publish (storefront can't see DRAFTs).

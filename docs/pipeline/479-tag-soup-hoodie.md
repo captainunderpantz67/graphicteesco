@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 479
@@ -23,3 +23,4 @@ kd: 20
 ## Log
 - 2026-10-17 Claude: brief + final art + approved mockups (designs/first5/); READY, top priority (Sam: ship it).
 - 2026-10-17 18:05 UTC [B]: Built from Claude's final print (designs/first5/tagsoup-print.png, no new art; typeset words kept as approved, R6.2 check: real-font lines, no ring/panel/box). Pullover 18500 #146, Military Green + Dark Heather (2 launch colors, both read), 12 variants $39.99 no compare-at, DRAFT gid 15363964895536, category hoodies. Printful file 1088383022, sync product 482541044 12/12 synced, FW 1187 TOP 0 (brief's height rule: print ~10 in tall; 7c's 1500 floor would make it 13.5 in and hit the pouch seam). Mockups: Military Green + Dark Heather front + back attached per color. Keyword: primary 'hunter hoodie' 1300/KD 32 (also measured: mens hunting hoodie 880/26 ~ owned 'hunting hoodie men' by #opening-day zip, deer hunter hoodie 260/37). FAQ 6 Qs, all 40-60 words. Cover: registry 690 (Native American man, blaze-orange cap, deer camp tailgate), seedream 1 attempt, all words legible, alt starts Man. Audit-local PASS. design-crops/variant-photo-audit read the public storefront so the DRAFT isn't in them yet: rerun after publish. Tags incl graphic-hoodies-for-men.
+- 2026-10-17 18:25 UTC director: LIVE. Sheet seen: TAG SOUP reads at phone size on both colors, deer chef + tag clear, cover = man at a deer camp tailgate, every word legible, nothing over the print. FW 1187 is under the R5.3.2 floor, accepted only because Sam approved these exact mockups ("ship it"); the floor still holds for every other item. Small lines (Today's Special, Served Fresh Every Season) are small but Sam-approved. ACTIVE + Online Store, Headless, Google & YouTube; audit PASS (0 warn). Sheet copied to docs/reference/best/.
