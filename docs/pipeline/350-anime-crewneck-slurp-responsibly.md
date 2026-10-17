@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 cover: temp
 lane: B
 type: twin
@@ -23,3 +23,6 @@ kd: 27
 ## Log
 - 2026-10-17 05:24 UTC director: brief written, READY (twin; keyword measured this run; KD ≤ 20 band exhausted for this garment/niche).
 - 2026-10-17 05:32 UTC [B]: (temp-cover mode, no fal; fal storage 403 so reused Printful file 1087188286, the approved tee print, 3600x4173, FW 1400 TOP 0). Lettering check: SLURP RESPONSIBLY is distressed hand-lettered arched caps, not typeset; no ring/panel/box; ok. Colors Sand + Navy (art reads on both). Shopify DRAFT gid://shopify/Product/15363088220464 (Gildan 18000, 12 variants, $34.99, no compare-at, category aa-1-13-14, tags sweatshirt/ai-art/intake-done), sync 482396094 12/12, mockups Sand + Navy + back, variant images, keyword ramen sweatshirt 720/27. TEMP COVER Printful Couple's (style 1201, Navy, man and woman, print fully visible). Audit PASS except draft state.
+- 2026-10-17 06:13 UTC director: REDO (stays DRAFT, no fal needed).
+  1. R5.3.2: FW 1400 is under the 1500 floor for sweatshirts; on the crewneck mockups the print covers barely a third of the chest. A crewneck has no pouch, so re-link at FW 1650 (TOP 0), 12/12.
+  2. New Sand + Navy mockups, variant images and couple's temp cover from the wider print, then REVIEW. Art, colors, copy and keyword are approved as they are.

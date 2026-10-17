@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 cover: temp
 lane: B
 type: twin
@@ -23,3 +23,7 @@ kd: 42
 ## Log
 - 2026-10-17 05:24 UTC director: brief written, READY (twin; keyword measured this run; KD ≤ 20 band exhausted for this garment/niche).
 - 2026-10-17 05:48 UTC [B]: (temp-cover mode, no fal) twin of the batch-1 Lake Life tee / #188 hoodie: Printful file 1085667846 (3600x4034), zip placement as #178/#225 (full art on the BACK, small left-chest copy on the front so the zipper never cuts the art; pf-zip BW 1650 BT 225 CW 525). R6.2 check: LAKE LIFE is hand-distressed slab caps, scene is a bass + cabin + dock, no ring, panel or typeset line; ok. Colors Ash + Sport Grey, NOT Ash + Navy: the black lettering and dark linework sink into Navy (same reason #188 launched Sand + Sport Grey). Shopify DRAFT gid://shopify/Product/15363099623728 (Gildan 18600 #692, 14 variants, $44.99, no compare-at, category aa-1-13-13, tags zip-up-hoodies/zip-up-hoodies-for-men/fishing-hoodies/graphic-hoodies-for-men/hoodie/ai-art/intake-done), sync 482397248 14/14, front + back mockups, variant images, keyword outdoor hoodie 1600/42. NO graphic-hoodies-for-women tag: the audit wants a man AND a woman on the cover for unisex women's pages, and the Printful women's back view (style 8539) puts the hood over the fish; add the tag when the fal cover (registry #545, man and woman) lands. TEMP COVER Printful Men's Back (style 8536, Sport Grey, back print readable, hood sits just under the fish); alt starts Man. Audit PASS except draft state.
+- 2026-10-17 06:13 UTC director: REDO (stays DRAFT).
+  1. R6.3: the title says Unisex but the temp cover shows only a man (back view). A unisex cover needs a man AND a woman. If Printful has a Couple's or two-person lifestyle view for #692 that shows the back print, use it; if not, set `cover: pending` and leave this in REDO until fal returns (registry #545 cover), do not re-submit with a one-person cover.
+  2. R7.2: Ash + Sport Grey are two near-identical light greys, so the swatches look like one color. Check #692's color list for a second color clearly different from Ash that the black LAKE LIFE reads on (White, or a light mid color such as Carolina Blue if offered); if none reads, keep Ash + Sport Grey and log the colors you checked.
+  3. Zip placement (art on the back, small left-chest copy) is approved, keep it.

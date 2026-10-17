@@ -1,5 +1,5 @@
-status: REVIEW
-cover: temp
+status: LIVE
+cover: temp (swap)
 lane: B
 type: twin
 id: 355
@@ -23,3 +23,4 @@ kd: 38
 ## Log
 - 2026-10-17 05:24 UTC director: brief written, READY (twin; keyword measured this run; KD ≤ 20 band exhausted for this garment/niche).
 - 2026-10-17 05:49 UTC [B]: (temp-cover mode, no fal) twin of the tee #184-era print used on #185: Printful file 1083319477 (3600x3290), FW 1650 TOP 0. R6.2 check: I SURVIVED LEG DAY is distressed bold slab capitals and Barely is a hand-drawn script aside, same approved art as live #185; no ring, panel, box or white counter; ok. Colors Grey Heather + Storm Blue, NOT Sandstone: the yellow lettering washed out on Sandstone (checked on swatches of Sandstone, Grey Heather, Storm Blue and Black); product was created with Sandstone first and re-set with productSet before any sync. Shopify DRAFT gid://shopify/Product/15363101950256 (IND4000 #1543, 14 variants, $49.99, no compare-at, category aa-1-13-13, tags per brief), sync 482397461 14/14, front mockups + back, variant images, keyword weightlifting hoodie 170/38. TEMP COVER Printful Men's Front (style 30240, Grey Heather): print fully visible but the hood drawcords hang across SURVIVED LEG as on every IND4000 lifestyle view (same as #320; moving the print lower cannot clear a 10 in tall print). Director decides keep or swap. Audit PASS except draft state.
+- 2026-10-17 06:13 UTC director: APPROVED, LIVE (ACTIVE + Online Store + Headless + Google, audit --handle PASS). Grey Heather + Storm Blue accepted (yellow lettering reads on both). Temp cover graded SWAP: drawcords cross I SURVIVED LEG DAY, accepted for now as on #320; fal cover must keep the cords off the lettering.

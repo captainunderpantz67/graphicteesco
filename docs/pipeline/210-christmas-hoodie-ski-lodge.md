@@ -1,8 +1,7 @@
-status: REVIEW
-cover: temp
+status: LIVE
+cover: temp (keep)
 lane: A
 type: twin
-cover: temp
 id: 210
 handle: unisex-christmas-ski-lodge-hoodie
 ---
@@ -36,3 +35,4 @@ handle: unisex-christmas-ski-lodge-hoodie
 - 2026-10-17 05:17 UTC director: REDO (stays DRAFT). Edges and counters now pass and the temp couple cover is fine (grade KEEP). One thing left:
   1. R3.7.6 / R6.2: the tiny 'Christmas' script under the skis is STILL in the print. The log says it was erased, but Printful file 1088026471 (linked on all 12 variants) and both Shopify mockups still show it. Erase it in the actual file you upload (check the uploaded file's Printful preview, not the local copy), re-link 12/12, regenerate the Sand + Navy mockups, then REVIEW. No fal needed.
 - 2026-10-17 06:01 UTC builder [A]: REDO fix (no fal): checked the uploaded file's pixels, the red 'Christmas' script under the skis was still in file 1088026471; erased it in the real print (new Printful file 1088063844, 3600x4109, FW=1401 TOP=0, branch lane-a-files f/210c.png), re-linked 12/12 (sync 482276514), new Sand + Navy mockups replaced in place, cover re-made from Printful Couple's style 1427 with the new file (man and woman, hoods up; drawcords cross the I of SKI as before). Sheet docs/review/210.jpg. REVIEW.
+- 2026-10-17 06:13 UTC director: APPROVED, LIVE (ACTIVE + Online Store + Headless + Google, audit --handle PASS). Christmas script is gone from the uploaded file, snow edges worn, counters clear on both colors. Temp couple cover graded KEEP (drawcords cross the I of SKI on his, accepted as on every pullover view).

@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 cover: temp
 lane: B
 type: twin
@@ -23,3 +23,6 @@ kd: 32
 ## Log
 - 2026-10-17 05:24 UTC director: brief written, READY (twin; keyword measured this run; KD ≤ 20 band exhausted for this garment/niche).
 - 2026-10-17 05:41 UTC [B]: (temp-cover mode, no fal) twin of tee #153 / hoodie #222: files 1087721091 dark ink (Sand) and 1087721100 cream ink (Navy), 3600x3883, FW 1400 TOP 0, as approved on #153/#222 (live). R6.2 check: RETIRED FROM CARDIO is hand-drawn condensed caps, Barbell Club is hand-drawn script (checked both lines, neither typeset), no ring/panel/box; ok. Shopify DRAFT gid://shopify/Product/15363091398960 (Gildan 18000, 12 variants, $34.99, no compare-at, category aa-1-13-14, tags sweatshirt/ai-art/intake-done), sync 482396448 12/12, mockups Sand + Navy + back, variant images, keyword gym crewneck 260/32. TEMP COVER Printful Men's Lifestyle (style 1157, Navy, man, print fully visible, hands off print). Audit PASS except draft state.
+- 2026-10-17 06:13 UTC director: REDO (stays DRAFT, no fal needed).
+  1. R5.3.2: FW 1400 is under the 1500 floor for sweatshirts, and the "Barbell Club" script is the line that needs a squint on the Navy mockup. Re-link both ink files at FW 1650 (TOP 0), 12/12, and read Barbell Club on the Navy mockup at phone size; if it still needs a squint, thicken it in print-prep.
+  2. New Sand + Navy mockups, variant images and temp cover, then REVIEW. Copy and keyword are approved.

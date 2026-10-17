@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: A
 type: twin
 id: 345
@@ -24,3 +24,6 @@ kd: 49
 ## Log
 - 2026-10-17 05:24 UTC director: brief written, READY (twin; keyword measured this run; KD ≤ 20 band exhausted for this garment/niche).
 - 2026-10-17 06:06 UTC builder [A]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363120398640 (Gildan 18000, Navy + Maroon x S-3XL = 11, Maroon 3XL not offered; $34.99, no compare-at; category aa-1-13-14), Printful file 1088065460 (tee file 1085667871, 3600x4254, FW=1500), sync 482399015 11/11. R6.2 check: source art is hand-lettered script plus linework, no typeset line, ring, panel or arch, no white blobs (cream ink); reads only on dark: cream on Sand vanishes, so Navy + Maroon instead of Sand + Sport Grey. Keyword grace sweatshirt 320/KD49 in map. Fronts Navy + Maroon + back with cream neck logo, variant images, audit PASS (except not active). Temp cover: Printful Women's Lifestyle style 1186, Navy, smiling woman, print fully visible. Sheet docs/review/345.jpg. REVIEW.
+- 2026-10-17 06:13 UTC director: REDO (stays DRAFT, no fal needed).
+  1. R5.3.2: the print sits at about a third of the crewneck's width and the "Amazing Grace" script needs a squint on the Navy mockup at phone size. Re-link at FW 1800 (no pouch on a crewneck); if the script still reads thin, scale the script line up about 1.4x in print-prep (it is the hymn line, it must read from across the room) and keep the cross art as is.
+  2. Navy + Maroon is the right call (cream vanishes on Sand); keep it. New mockups, variant images and temp cover from the new file, then REVIEW.
