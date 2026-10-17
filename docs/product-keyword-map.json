@@ -5845,6 +5845,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-christmas-bah-humbug-hoodie": {
+   "claimed": [
+    "grumpy hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "grumpy hoodie",
+     "volume": 140,
+     "kd": 36
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

@@ -1,9 +1,10 @@
-status: BUILDING [A] 2026-10-17 10:05 UTC
+status: REVIEW
 lane: A
 type: twin
 id: 278
 handle: unisex-christmas-bah-humbug-hoodie
 kd: 36
+cover: temp (swap)
 ---
 ## Unisex Christmas – Bah Humbug Hoodie
 - **Twin of #169 Bah Humbug (LIVE tee) / #170 crewneck:** reuse the approved print file; no new art generation. First do the R6.2 lettering check and log it: the small spaced-caps (RESPECTFULLY) under BAH HUMBUG is the line most likely to read typeset or vanish at phone size; if it does either, erase it in print-prep (BAH HUMBUG and the grump carry the joke alone) and drop it from the copy too.
@@ -22,3 +23,4 @@ kd: 36
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).
 - 2026-10-17 02:18 UTC director: PARKED behind low-KD briefs (KD 36+, under 1,000/month, no holiday surge).
 - 2026-10-17 09:19 UTC director: back to READY. The holiday low-KD band is exhausted (every measured christmas/thanksgiving hoodie and sweatshirt phrase at KD ≤ 35 is claimed; 'christmas hoodie' 9,900/52 is the christmas-hoodies collection head), so R2.5's 'nothing easier is left' applies, and this is a fal-free twin. Price line updated to no compare-at; graphic-hoodies-for-men tag added (R7.5).
+- 2026-10-17 10:25 UTC builder [A]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363577381168 (Gildan 18500, Sand + Sport Grey x S-3XL = 12, $39.99 no compare-at, category aa-1-13-13, tags christmas-hoodies, graphic-hoodies-for-men, graphic-hoodies-for-women, hoodie, ai-art, intake-done). Twin of the Bah Humbug crewneck file 1087701705, re-hosted (branch lane-a-files f/278.png) as Printful file 1088151322, 3600x5492, FW=1320 TOP=0 (print 2013 px tall; the Printful mockup shows it ends well above the pouch seam; the art is too tall for FW 1500+, so width was set by the pouch, logged for the director). R6.2 check: BAH HUMBUG is hand-drawn sketchy arched lettering (kept); the typeset (RESPECTFULLY) spaced-caps line was ERASED (art reads without it; copy never mentions it); no white counters to knock out. Keyword grumpy hoodie 140/KD36 in map (once in copy). FAQ: 5 questions, 48-54 words each, order-by Dec 10. Fronts for Sand and Sport Grey + back, variant images per color, audit-local PASS (0 warn). Phone-size read of both mockups: BAH HUMBUG legible on Sand and Sport Grey. TEMP COVER Printful Couple's (style 1427, Sand, man AND woman, print fully visible; the woman's drawcord brushes the edge of the lettering), the only couple style for 18500 and already on other items, cover: temp (swap). Registry #458/#459 left RESERVED. Sheet docs/review/278.jpg. Sync 12/12. REVIEW.
