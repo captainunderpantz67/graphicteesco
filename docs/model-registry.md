@@ -593,3 +593,5 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 422 | (reused as the brief specifies) | USED again 2026-10-17 — #245 Nana's Cookies tee cover redo (seedream, 1 attempt) |
 | 427 | (reused as the brief specifies) | USED again 2026-10-17 — #251 The Turkey Is Fine tee cover redo (seedream, 1 attempt) |
 | 428 | (reused as the brief specifies) | USED again 2026-10-17 — #252 The Turkey Is Fine crewneck cover redo (seedream, 1 attempt) |
+| 431 | (reused as the brief specifies) | USED again 2026-10-17 — #255 Technically a Vegetable tee cover redo (seedream, 1 attempt) |
+| 432 | (reused as the brief specifies) | USED again 2026-10-17 — #256 Technically a Vegetable crewneck cover redo (seedream, 1 attempt) |
