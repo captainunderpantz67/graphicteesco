@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Compose a print file: AI illustration (no text) + lines set in real fonts (never model-drawn lettering).
 
-  compose-print.py <spec.json> <out.png>
+  compose-print.py <spec.json> <out.png>   (optional "halo": px keyline around the art, "halo_fill")
 
 spec: {"art": "art.png", "art_width": 0.78, "canvas": [3600, 4500], "gap": 60,
        "lines": [{"text": "TAG SOUP", "font": "AlfaSlabOne-Regular.ttf", "size": 520, "fill": "#f3e7cf",
@@ -63,6 +63,13 @@ with tempfile.TemporaryDirectory() as t:
     art = Image.open(art_png).convert('RGBA')
     aw = int(W * spec.get('art_width', 0.78))
     art = art.resize((aw, int(art.height * aw / art.width)), Image.LANCZOS)
+    if spec.get('halo'):  # thin keyline around the art's silhouette so dark art reads on dark garments (not a shape behind it)
+        from PIL import ImageFilter
+        r = int(spec['halo']); a = art.split()[3].point(lambda v: 255 if v > 40 else 0)
+        grown = a.filter(ImageFilter.MaxFilter(2 * r + 1)).filter(ImageFilter.GaussianBlur(2))
+        ring = Image.new('RGBA', art.size, spec.get('halo_fill', '#f3e7cf')); ring.putalpha(grown)
+        pad = Image.new('RGBA', (art.width + 2 * r, art.height + 2 * r), (0, 0, 0, 0))
+        pad.alpha_composite(ring.crop((0, 0, art.width, art.height)), (r, r)); pad.alpha_composite(art, (r, r)); art = pad
 
 above = [render(l) for l in spec['lines'] if l.get('where') == 'above']
 below = [render(l) for l in spec['lines'] if l.get('where', 'below') == 'below']
