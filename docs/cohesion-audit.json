@@ -1,6 +1,6 @@
 {
- "at": "2026-10-17T05:03:32.693Z",
- "products": 283,
+ "at": "2026-10-17T05:43:07.391Z",
+ "products": 295,
  "findings": [
   {
    "level": "WARN",
@@ -897,6 +897,13 @@
    "title": "Women's Retro – Loose Goose Oversized Hoodie",
    "msg": "Price 54.99/59.99 (price/compare-at) — should be 54.99/- on every variant.",
    "fix": "Set every variant to price 54.99, no compare-at."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-thanksgiving-friendsgiving-hoodie",
+   "title": "Women's Thanksgiving – Friendsgiving Hoodie",
+   "msg": "thanksgiving design isn't in any thanksgiving collection.",
+   "fix": "Tag it so it appears in the thanksgiving shirts page."
   }
  ]
 }
