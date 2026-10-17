@@ -508,3 +508,11 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 615 | Samoan-American man, mid 20s, broad build, black hair in a short top knot | RESERVED — #422 Gym Rat Hoodie cover |
 | 616 | Taiwanese-American man, late 20s, messy undercut, silver chain | RESERVED — #423 Kaiju Naps Zip Hoodie cover |
 | 617 | Mexican-American man, early 40s, salt-and-pepper stubble, tan work cap | RESERVED — #424 Reel Talk Zip Hoodie cover |
+| 618 | Black man, early 50s, short grey beard, canvas bucket hat | RESERVED — #425 Technically Still Fishing Hoodie cover |
+| 619 | Navajo woman, late 20s, long straight black hair, turquoise studs | RESERVED — #426 Desert Rattler Hoodie cover (with #620) |
+| 620 | White man, early 30s, sandy stubble, felt cowboy hat | RESERVED — #426 Desert Rattler Hoodie cover (with #619) |
+| 621 | Mexican-American woman, mid 30s, long dark waves, silver concho belt | RESERVED — #427 Steer Skull & Wildflowers Hoodie cover |
+| 622 | Filipino-American woman, late 30s, low bun, small gold hoops | RESERVED — #428 Charting Is My Cardio Hoodie cover |
+| 623 | Korean-American woman, early 20s, high ponytail, gold huggies | RESERVED — #429 Lunges & Lattes Cropped Hoodie cover |
+| 624 | Japanese-American woman, late 20s, short bob, thin gold chain | RESERVED — #430 Whisk Taker Matcha Hoodie cover |
+| 625 | Puerto Rican woman, early 20s, curly hair in a claw clip, red ribbon | RESERVED — #431 Cherry Picked Cropped Hoodie cover |
