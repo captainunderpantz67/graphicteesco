@@ -446,6 +446,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-new-years-eve-midnight-is-a-suggestion-graphic-tee': { src: '/covers/unisex-new-years-eve-midnight-is-a-suggestion-graphic-tee.webp', alt: 'Man and woman in matching cream Midnight Is a Suggestion tees laughing in a living room set for New Year\'s Eve with streamers and a lit tree behind them' },
   'womens-christmas-tied-up-for-the-holidays-crewneck-sweatshirt': { src: '/covers/womens-christmas-tied-up-for-the-holidays-crewneck-sweatshirt.webp', alt: 'Woman in a sand Tied Up for the Holidays tartan bow crewneck sweatshirt at a holiday market with string lights and wreaths behind her' },
   'womens-embroidered-thriving-technically-frog-hoodie': { src: '/covers/womens-embroidered-thriving-technically-frog-hoodie.webp', alt: 'Woman in a long-sleeve sand hoodie with a small embroidered green frog and the words Thriving, technically on the chest, sitting at a sunny plant-filled apartment window seat' },
+  'mens-hunting-not-lost-scouting-camo-hoodie': { src: '/covers/mens-hunting-not-lost-scouting-camo-hoodie.webp', alt: 'Man in a Duck Camo heavyweight hoodie with a buck-in-a-recliner print and the words NOT LOST. SCOUTING., standing on a deer camp cabin porch at dawn with a pickup truck behind him' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
