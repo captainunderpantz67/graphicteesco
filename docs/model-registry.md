@@ -477,7 +477,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 584 | Samoan-American woman, late 30s, long dark hair in a low ponytail, team-color scrunchie | RESERVED — #393 Hut Hut Hooray Crewneck Sweatshirt cover |
 | 585 | Japanese-American woman, mid 20s, short black bob with bangs, grey cardigan | USED 2026-10-17 - #394 Oops Anyway cat crewneck cover (seedream, navy, sunny apartment) |
 | 586 | Guatemalan-American woman, early 40s, shoulder-length dark hair with a few greys, tortoiseshell glasses | USED 2026-10-16 — #395 Indoor Recess Survivor crewneck cover (seedream, 1 attempt) |
-| 587 | Mexican-American woman, late 20s, long dark waves, turquoise earrings, tan felt hat held at her side | RESERVED — #396 Yeehaw Responsibly Crewneck Sweatshirt cover |
+| 587 | Mexican-American woman, late 20s, long dark waves, turquoise earrings, tan felt hat held at her side | USED 2026-10-17 — #396 Yeehaw but Quietly crewneck cover (try 2 kept, 2 images) |
 | 588 | man AND woman together: Chinese-American man, mid 30s, short side-parted hair; white woman, mid 30s, sandy-blonde shag | USED 2026-10-17 - #397 Currently Drifting otter hoodie cover (pair with #588-589) |
 | 589 | man AND woman together: Black man, early 40s, salt-and-pepper beard, beanie held at his side; Korean-American woman, late 30s, long straight hair, denim jacket open | RESERVED — #398 Fine Dumpster Dining Hoodie cover |
 | 590 | man AND woman together: Cuban-American man, early 30s, short curly hair, runner's build; white woman, early 30s, high blonde ponytail | RESERVED — #399 Turkey Trot Hoodie cover |

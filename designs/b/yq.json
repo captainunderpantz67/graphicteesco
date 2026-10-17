@@ -1,0 +1,5 @@
+{"art": "designs/b/yq-a.png", "art_width": 0.92, "canvas": [3600, 4500], "gap": 20,
+ "lines": [
+  {"text": "YEEHAW,", "font": "Rye-Regular.ttf", "size": 820, "fill": "#b5532e", "stroke": 22, "stroke_fill": "#f6e8cf", "tracking": 0.03, "where": "above"},
+  {"text": "BUT QUIETLY", "font": "Rye-Regular.ttf", "size": 560, "fill": "#e9c9b5", "stroke": 22, "stroke_fill": "#4a2c22", "tracking": 0.03, "where": "below"}
+ ]}
