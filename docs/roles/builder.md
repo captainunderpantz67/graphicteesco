@@ -19,6 +19,7 @@ You turn approved briefs into finished DRAFT products and hand them to the direc
    5. Printful sync every variant (background job, paced ~6 s, honor 429). Start it, then do the cover while it runs.
    6. Cover: `scripts/fal-photo.py` with the brief's person and scene, flattened art on non-white garments (R6.7), max 2 attempts. Look at the cover ONCE per attempt and check R6.3–R6.8. Add to src/data/covers.ts; registry row → USED.
    7. Mockups: Printful generator, one front per color + 1 back, flat/ghost only. productCreateMedia with R7.8 alt text; link variant images.
+   7b. **Phone-size read (director, 2026-10-17; 4 sent back in one run for unreadable joke lines: Nana's Cookies tee + crewneck, Deer Camp No Signal, Fluent in Honk):** open your darkest or busiest mockup at about 400 px wide. Read every word of the print aloud. If any line, especially a small caption that carries the joke, can't be read, it is not ready: re-letter it bigger and bolder by hand (R3.7.6), or give it the cream halo on camo, before making the sheet.
    8. `python3 scripts/review-sheet.py <id> <art> <cover> <mockup> <mockup>` → docs/review/<id>.jpg.
    9. `node scripts/cohesion-audit.mjs --handle <h>`: fix everything except the "not active/published" state.
    10. Status → REVIEW, log line, intake-log line, `npm run build`, commit "[<X>] review <id> <title>", push.
