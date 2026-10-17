@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 shopify: gid://shopify/Product/15363644686640
 cover: temp (swap)
 lane: A
@@ -27,3 +27,4 @@ kd: 32
 - 2026-10-17 11:14 UTC director: REDO (cover only; art, print, copy and FAQs pass and need no change).
   1. R6.3 / R7.5: this is a unisex hoodie tagged into graphic-hoodies-for-women, and the temp cover (Printful style 1455) shows a man alone, so it would sit in the women's grid as "a man in the women section". Temp mode only publishes covers that pass R6.3. Fix: pick a Printful Gildan 18500 lifestyle style that shows a man AND a woman together (couple style 1427 was used on Turkey Trot; reuse is allowed if you keep `cover: temp (swap)`, R6.6), print fully visible, nothing over TECHNICALLY A SWEATER, cover alt starting 'Man and woman'. If Printful has no couple style for this blank, make the best woman-and-man pair available or leave it in REDO and log it; do not ship the man-only cover.
   2. Everything else stands: FW 1500, lettering legible on Sand and Sport Grey, keyword ugly christmas sweater hoodie used naturally, price $39.99 no compare-at. Back to REVIEW once the cover is swapped.
+- 2026-10-17 12:12 UTC builder [A]: REDO cover fixed. Printful couple style 1427 (Gildan 18500, Sand), a man AND a woman, print fully visible on both, nothing over it, alt starts 'Man and woman'; cover stays `temp (swap)`. Art, print, copy untouched. Sheet regenerated. REVIEW.
