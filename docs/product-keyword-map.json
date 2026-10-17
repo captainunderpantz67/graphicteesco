@@ -4325,6 +4325,32 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-hunting-sit-wait-snack-camo-hoodie": {
+   "claimed": [
+    "mens camo hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "mens camo hoodie",
+     "volume": 18100,
+     "kd": 10
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-hunting-fake-friends-duck-camo-hoodie": {
+   "claimed": [
+    "duck hunting hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "duck hunting hoodie",
+     "volume": 1000,
+     "kd": 24
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

@@ -280,6 +280,8 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-embroidered-morel-support-mushroom-hoodie': { src: '/covers/womens-embroidered-morel-support-mushroom-hoodie.webp', alt: 'Woman in her early 30s with a platinum-blonde low bun in a Sand Morel Support embroidered mushroom hoodie on a fall forest trail with a foraging basket' },
   'womens-embroidered-purrsonal-space-cat-hoodie': { src: '/covers/womens-embroidered-purrsonal-space-cat-hoodie.webp', alt: 'Woman in her mid 20s with a short black bob in a Sand Purrsonal Space embroidered cat hoodie in a reading nook by a rainy window with a cat on the cushion beside her' },
   'mens-gym-sore-since-1987-oversized-hoodie': { src: '/covers/mens-gym-sore-since-1987-oversized-hoodie.webp', alt: 'Man in his mid 20s with a shaved head in a Navy Sore Since 1987 oversized gym hoodie in a busy weight room with a dumbbell rack behind him' },
+  'mens-hunting-sit-wait-snack-camo-hoodie': { src: '/covers/mens-hunting-sit-wait-snack-camo-hoodie.webp', alt: 'Man in his mid 40s with a salt-and-pepper beard and a ball cap pushed back in a Forest Camo Sit Wait Snack hoodie on a deer camp cabin porch at dawn with a frosty field behind him' },
+  'mens-hunting-fake-friends-duck-camo-hoodie': { src: '/covers/mens-hunting-fake-friends-duck-camo-hoodie.webp', alt: 'Man in his late 20s with dark curly hair under a beanie in a Duck Camo Fake Friends hoodie at a marsh boat launch at sunrise with a johnboat and a bag of decoys beside him' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
