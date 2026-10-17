@@ -6273,6 +6273,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-octopus-eight-arms-zero-hugs-oversized-hoodie": {
+   "claimed": [
+    "octopus hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "octopus hoodie",
+     "volume": 720,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
