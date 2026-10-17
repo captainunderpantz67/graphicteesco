@@ -6338,6 +6338,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-alpaca-self-made-fleece-hoodie": {
+   "claimed": [
+    "alpaca hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "alpaca hoodie",
+     "volume": 4400,
+     "kd": 14
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
