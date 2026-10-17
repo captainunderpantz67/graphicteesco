@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 331
@@ -28,3 +28,4 @@ kd: 25
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane B.
 - 2026-10-17 22:18 UTC builder [B]: art (Recraft, picture only, 1 image $0.04; blue-skinned stylized couple, clock reads about 10:10 so copy says 'just past ten') + MIDNIGHT IS A (navy) / SUGGESTION (red) in AlfaSlabOne with thin cream stroke via compose-print (designs/b/ny.json), 3424x3939, FW 1700 TOP 75, Printful file 1088529018, sync pid 482392516 (56 variants, running slowly, paced). Phone read on Heather Mauve (darkest): both lines read, SUGGESTION is the weakest contrast there. 8 front mockups + back attached, variants linked. Cover registry #519+#520, 2 tries (~$0.12): try 1 sleeves folded across the lettering; try 2 kept, both prints read, the woman's M/S sit close to his arm (director please judge). Copy rewritten to the real art (slab capitals, clock just past ten), 5 FAQs 48-53 words with order-by Dec 15. kw nye shirt 3600/25 in map. Waiting for sync 56/56 before REVIEW.
 - 2026-10-17 22:39 UTC builder [B]: synced 56/56. REVIEW. Sheet docs/review/331.jpg. Variant-photo audit clean. fal spend this item ~$0.16.
+- 2026-10-17 22:43 UTC director: APPROVED, LIVE. ACTIVE + Online Store, Headless and Google & YouTube; audit --admin-json PASS (0 warn) after a director copy polish (SEO title ≤60; R8 keyword count; no hand-lettered claim).

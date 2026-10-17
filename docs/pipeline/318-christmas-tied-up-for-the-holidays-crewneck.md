@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 318
@@ -27,3 +27,4 @@ kd: 53
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane B.
 - 2026-10-17 22:23 UTC builder [B]: art (Recraft picture only: tartan coquette bow, bells, sparkles; 1 image $0.04) + TIED UP (AlfaSlabOne red, cream stroke) / for the holidays (Yellowtail green) via compose-print (designs/b/tu.json; the brief's tartan-filled letters can't be done in a real font, so solid red, logged), 3447x4330, FW 1650 TOP 75 (crewneck), Printful file 1088533038, sync 482392959 (24 variants, running). 4 front mockups + back attached, variants linked. Cover #502, 2 tries (~$0.12; try 1 used the wrong person, unseen): print and every word clear, hair behind shoulders, bag at the hip. Copy rewritten to the real art (red slab TIED UP, green script, no tartan letters), 5 FAQs 44-51 words, order-by Dec 8. kw bow sweatshirt 2400/53. Waiting for sync 24/24 before REVIEW.
 - 2026-10-17 22:33 UTC builder [B]: synced 24/24. REVIEW. Sheet docs/review/318.jpg. Audit clean except draft state; variant-photo audit clean. fal spend this item ~$0.16.
+- 2026-10-17 22:43 UTC director: APPROVED, LIVE. ACTIVE + Online Store, Headless and Google & YouTube; audit --admin-json PASS (0 warn) after a director copy polish (SEO title ≤60; R8 keyword count; no hand-lettered claim).
