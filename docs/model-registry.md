@@ -580,3 +580,4 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 691 | Hmong-American man, early 30s, short black hair, light stubble, lean build | USED 2026-10-16 — #480 Tag Soup Tee cover (seedream, 1 attempt) |
 | 692 | Ethiopian-American woman, late 30s, short curly natural hair, small gold hoops, warm medium build | USED 2026-10-16 — #482 Promised to Behave Tee cover (seedream, 1 attempt) |
 | 693 | Samoan-American man, early 30s, short curly black hair, trimmed beard, muscular build | USED 2026-10-16 — #483 Sisyphus Tee cover (seedream, 2 attempts: towel covered SISYPHUS on #1) |
+| 694 | white man, late 40s, close-cropped grey hair and a short grey beard, broad build | RESERVED — #484 Sisyphus crewneck cover |
