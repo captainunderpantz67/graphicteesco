@@ -293,6 +293,8 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-hunting-up-before-the-ducks-camo-sweatshirt': { src: '/covers/mens-hunting-up-before-the-ducks-camo-sweatshirt.webp', alt: 'Man in his early 40s with short black hair and a trimmed goatee in an all-over woodland camo Up Before the Ducks sweatshirt at a misty marsh at sunrise' },
   'womens-hunting-ducks-in-a-row-camo-hoodie': { src: '/covers/womens-hunting-ducks-in-a-row-camo-hoodie.webp', alt: 'Woman in her late 30s with blonde hair in a messy bun and freckles in a Duck Camo Got My Ducks in a Row hoodie at a farm pond edge in October with ducks on the water' },
   'womens-hunting-doe-not-disturb-camo-hoodie': { src: '/covers/womens-hunting-doe-not-disturb-camo-hoodie.webp', alt: 'Woman in her early 30s with long straight dark hair and curtain bangs in a Forest Camo Doe Not Disturb sleepy doe hoodie at the tailgate of a pickup at the edge of a hayfield at golden hour with a thermos beside her' },
+  'mens-hunting-i-saw-you-move-squirrel-camo-hoodie': { src: '/covers/mens-hunting-i-saw-you-move-squirrel-camo-hoodie.webp', alt: 'Man in his mid 30s with a red-brown full beard and a blaze orange knit beanie in a Forest Camo I Saw You Move squirrel hoodie at the foot of a ladder tree stand in frosty hardwoods at first light' },
+  'mens-hunting-antler-envy-buck-camo-hoodie': { src: '/covers/mens-hunting-antler-envy-buck-camo-hoodie.webp', alt: 'Man in his late 40s with long black hair tied back in a Darkwood Tree Camo Antler Envy buck hoodie on a dirt two-track through autumn woods beside a pickup with the tailgate down' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

@@ -4494,6 +4494,32 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-hunting-i-saw-you-move-squirrel-camo-hoodie": {
+   "claimed": [
+    "squirrel hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "squirrel hoodie",
+     "volume": 170,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-hunting-antler-envy-buck-camo-hoodie": {
+   "claimed": [
+    "buck hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "buck hoodie",
+     "volume": 170,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

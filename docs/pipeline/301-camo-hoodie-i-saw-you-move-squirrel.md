@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: new
 id: 301
@@ -22,3 +22,4 @@ handle: mens-hunting-i-saw-you-move-squirrel-camo-hoodie
 ---
 ## Log
 - 2026-10-17 director: brief written, READY (lane B camo push: this batch takes camo to 24, Sam 2026-10-17; keyword measured this run).
+- 2026-10-17 01:59 UTC [B]: built as DRAFT (product 15362829287728, 14 variants Darkwood Tree Camo + Forest Camo XS-3XL, $49.99/$54.99, IND4000/#1543). New art: Recraft v4 try 1 for the squirrel (acorn cheeks on an oak branch), the generated lettering was thin so I SAW YOU MOVE was re-lettered by hand with one lettering-only Recraft generation (chunky hand-cut capitals in chocolate brown, spelling checked) composed under the squirrel at 3300 px of 3600, cream halo 24 px (camo-halo.py FILL=0), print 3600 x 4030, Printful file 1087966053, FW 1300 TOP 0. Both camos read. Back logo, mockups, variant images, cover registry #482 (try 1, image 1 of 3), keyword squirrel hoodie 170/34, audit-local PASS. Sync pid 482374810, 14/14. Sheet docs/review/301.jpg.
