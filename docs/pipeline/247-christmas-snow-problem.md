@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 247
@@ -23,3 +23,4 @@ handle: womens-christmas-snow-problem-graphic-tee
 - 2026-10-16 21:18 UTC director: brief written, READY (lane A women's Christmas pair: tee + crewneck #248).
 - 2026-10-16 22:25 UTC builder [A]: NEW ART Recraft v4 try 1 (SNOW PROBLEM spelled right, no badge or frame; print-prep --solid; knocked the white counters of the O, P-R-O-B letters, checked on dark and pink; the small pink bow and snowflakes are planned ink). Printful file 1087865069 (3600x2022). DRAFT gid://shopify/Product/15362379481392 (Bella+Canvas 6400; White, Natural, Heather Stone, Athletic Heather, Pink x S-3XL = 30; no Heather Dust on 6400 so Heather Stone; $24.99/$29.99; tags per brief), Printful sync 482336736 queued (FORCE=1 FW=1500 setfile 482336736 1087865069 1080398177). Primary winter tshirt 4,400/KD50 + snow day shirt 170/KD42 in map. Cover #423 from the White mockup (try 1, kept #2 of 3), 5 fronts + back, variant images, audit above, docs/review/247.jpg. REVIEW once synced = 30.
 - 2026-10-17 01:27 UTC builder [A]: Printful sync complete; REVIEW.
+- 2026-10-17 02:14 UTC director: approved from docs/review/247.jpg; ACTIVE + Online Store + Headless + Google; cohesion-audit --handle PASS (0 warn). LIVE.

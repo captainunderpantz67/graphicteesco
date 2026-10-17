@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 300
@@ -23,3 +23,4 @@ handle: womens-hunting-doe-not-disturb-camo-hoodie
 ## Log
 - 2026-10-17 director: brief written, READY (lane B camo push: this batch takes camo to 24, Sam 2026-10-17; keyword measured this run).
 - 2026-10-17 01:55 UTC [B]: built as DRAFT (product 15362824372528, 14 variants Darkwood Tree Camo + Forest Camo XS-3XL, $49.99/$54.99, IND4000/#1543). New art: Recraft v4 try 1 (DOE / NOT DISTURB spelling checked; lettering asked for in dark chocolate brown), print-prep 3600 x 3196 + camo-halo.py cream underlay (FILL=0, close 0, halo 24, the redo lessons applied), Printful file 1087963933, FW 1500 TOP 0. Both camos read. Back logo, mockups, variant images, cover registry #481 (try 1, image 1 of 3), keyword womens camo hoodie 12100/12, audit-local PASS. Sync pid 482374221, 14/14. Sheet docs/review/300.jpg.
+- 2026-10-17 02:14 UTC director: approved from docs/review/300.jpg; ACTIVE + Online Store + Headless + Google; cohesion-audit --handle PASS (0 warn). LIVE.
