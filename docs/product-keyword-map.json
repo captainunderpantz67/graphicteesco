@@ -4403,6 +4403,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-hunting-doe-eyed-and-dangerous-pink-camo-hoodie": {
+   "claimed": [
+    "pink camo hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pink camo hoodie",
+     "volume": 6600,
+     "kd": 13
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

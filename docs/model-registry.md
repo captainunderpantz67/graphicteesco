@@ -362,7 +362,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 472 | Native American man, late 30s, long black hair in a low ponytail, clean-shaven, tall build | USED 2026-10-17 — #291 Not Yelling Bugling camo hoodie cover (try 1, image 1 of 3) |
 | 473 | Korean-American man, early 30s, short black hair under a camo cap, thin mustache, average build | USED 2026-10-17 — #292 Fluent in Honk camo hoodie cover (try 1, image 2 of 3) |
 | 474 | White man, early 30s, red beard, short red hair, lean athletic build | USED 2026-10-17 — #293 Full Draw Zero Deer camo hoodie cover (try 1, image 1 of 3) |
-| 475 | White woman, mid 20s, long wavy auburn hair, light freckles, slim build | RESERVED — #294 Doe-Eyed and Dangerous cover |
+| 475 | White woman, mid 20s, long wavy auburn hair, light freckles, slim build | USED 2026-10-17 — #294 Doe-Eyed and Dangerous pink camo hoodie cover (try 1, image 2 of 3) |
 | 476 | Mexican-American woman, early 30s, long dark hair in a high ponytail, gold hoop earrings | RESERVED — #295 Deer Stand Princess cover |
 | 477 | White man, late 50s, white mustache, weathered face, flannel cap, heavyset | RESERVED — #296 Deer Camp No Signal cover |
 | 478 | Black woman, mid 20s, long box braids, gold jewelry, slim build | RESERVED — #297 Blending In Is Overrated cover |

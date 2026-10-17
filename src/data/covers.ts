@@ -286,6 +286,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-hunting-im-not-yelling-im-bugling-camo-hoodie': { src: '/covers/mens-hunting-im-not-yelling-im-bugling-camo-hoodie.webp', alt: 'Man in his late 30s with a long black ponytail in a Forest Camo I'm Not Yelling I'm Bugling elk hoodie in a high mountain meadow at golden hour with aspens behind him' },
   'mens-hunting-fluent-in-honk-camo-hoodie': { src: '/covers/mens-hunting-fluent-in-honk-camo-hoodie.webp', alt: 'Man in his early 30s with a thin mustache and a camo cap in a Duck Camo Fluent in Honk goose hoodie in a cut cornfield at first light with goose decoys behind him' },
   'mens-hunting-full-draw-zero-deer-camo-hoodie': { src: '/covers/mens-hunting-full-draw-zero-deer-camo-hoodie.webp', alt: 'Man in his early 30s with a red beard and short red hair in a Forest Camo Full Draw Zero Deer bow hunting hoodie at a wooded field edge in late afternoon light with a bow case at his side' },
+  'womens-hunting-doe-eyed-and-dangerous-pink-camo-hoodie': { src: '/covers/womens-hunting-doe-eyed-and-dangerous-pink-camo-hoodie.webp', alt: 'Woman in her mid 20s with long wavy auburn hair and freckles in a pink camo Doe-Eyed and Dangerous hoodie beside a farm fence line with a pickup truck behind her in golden October light' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

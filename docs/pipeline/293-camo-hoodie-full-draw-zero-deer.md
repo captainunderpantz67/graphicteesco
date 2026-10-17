@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-17 06:00
+status: REVIEW
 lane: B
 type: new
 id: 293
@@ -22,3 +22,4 @@ handle: mens-hunting-full-draw-zero-deer-camo-hoodie
 ---
 ## Log
 - 2026-10-17 director: brief written, READY (lane B camo push to 24, Sam 2026-10-17; keyword measured this run).
+- 2026-10-17 01:06 UTC [B]: built as DRAFT (product 15362709094704, 14 variants Darkwood Tree Camo + Forest Camo XS-3XL, $49.99/$54.99, IND4000/#1543). New art: Recraft v4 try 1 (FULL DRAW, / ZERO DEER spelling checked; compound bow at full draw, squirrel on a stump), print-prep 3600 x 4621 + camo-halo.py cream underlay (close 100, halo 20), Printful file 1087938845, FW 1300 TOP 0. Both camos read. Back logo, mockups, variant images, cover registry #474 (try 1, image 1 of 3), keyword bow hunting hoodie 140/36, audit-local PASS. Sync pid 482365186, 14/14. Sheet docs/review/293.jpg.

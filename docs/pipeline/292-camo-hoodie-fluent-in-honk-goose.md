@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-17 05:35
+status: REVIEW
 lane: B
 type: new
 id: 292
@@ -22,3 +22,4 @@ handle: mens-hunting-fluent-in-honk-camo-hoodie
 ---
 ## Log
 - 2026-10-17 director: brief written, READY (lane B camo push to 24, Sam 2026-10-17; keyword measured this run).
+- 2026-10-17 01:06 UTC [B]: built as DRAFT (product 15362700083504, 14 variants Duck Camo + Black Camo XS-3XL, $49.99/$54.99, IND4000/#1543). New art: Recraft v4 try 1 (FLUENT IN HONK spelling checked), print-prep 3600 x 3713 + camo-halo.py cream underlay (close 100, halo 20), Printful file 1087936816, FW 1500 TOP 0. Duck and Black camo both read. Back logo, mockups, variant images, cover registry #473 (try 1, image 2 of 3), keyword waterfowl hoodie 390/31, audit-local PASS. Sync pid 482363941, 14/14. Sheet docs/review/292.jpg.
