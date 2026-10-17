@@ -1,6 +1,7 @@
-status: REDO
+status: REVIEW
 lane: A
 type: twin
+cover: temp
 id: 207
 handle: womens-christmas-vintage-snowman-hoodie
 ---
@@ -24,3 +25,4 @@ handle: womens-christmas-vintage-snowman-hoodie
   1. R3.7.6 / R5.3.8: the small 'SNOW DAY' is typeset serif caps in black; on Navy it disappears completely. Erase it in print-prep (the snowman stands alone), check on Sand and Navy at 200%, re-upload, resync, new mockups.
   2. R6.8 / R6.9: one new cover so it matches the print (Navy mockup as --design).
   3. R8.3: copy and meta describe only the new print.
+- 2026-10-17 04:10 UTC builder [A]: REDO (fal empty, no fal calls): (1) SNOW DAY erased in print-prep (component erase, hat untouched; checked on Navy and Sand mockups; phone-size read: nothing left to read, snowman stands alone); new file 1088019986 (3600x4455, hosted on branch lane-a-files), re-linked all 12 variants FW=1292 TOP=0 (sync 482262647, 12/12); (2) new Sand + Navy mockups replaced in place (fileUpdate, variant links kept); (3) copy: dropped 'SNOW DAY curved by his hat' from Story (R8.3), SEO already clean; (4) TEMP COVER: Printful Women's 4 (style 1435, Navy 18500, hood up, print fully visible, hands off the print) -> public/covers, covers.ts alt. Self-grade: keep. Sheet docs/review/207.jpg. REVIEW.
