@@ -3,6 +3,7 @@ lane: A
 type: new
 id: 281
 handle: womens-black-friday-in-it-for-the-doorbusters-graphic-tee
+kd: 46
 ---
 ## Women's Black Friday – In It for the Doorbusters Tee
 - **Blank:** Bella+Canvas 6400 women's relaxed tee, lightweight 4.2 oz (R7.1). Tee only: no measured crewneck phrase (black friday sweatshirt and shopping sweatshirt return no usable volume); revisit a twin if one appears.

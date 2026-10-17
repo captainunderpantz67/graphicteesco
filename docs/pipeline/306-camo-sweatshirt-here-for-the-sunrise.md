@@ -3,6 +3,7 @@ lane: B
 type: new
 id: 306
 handle: womens-hunting-here-for-the-sunrise-camo-sweatshirt
+kd: 44
 ---
 ## Women's Hunting – Only Here for the Sunrise Camo Sweatshirt
 - **Blank:** All-over-print unisex cotton sweatshirt (Printful #1418, direct-to-fabric, 90% cotton / 10% elastane, 9.7 oz; copy facts from the Printful spec only). Front, back and sleeve panels filled with the shared original woodland camo pattern assets/patterns/woodland-camo.png (made by #296's build; if it doesn't exist yet, wait for #296 or make it per #296's Pattern line, one generation shared). Chest art composited onto the front panel about 10 in wide, with the camo-halo cream backing under art AND lettering (R5.3.8 camo line). Logo 3 in wide at the back panel top center.

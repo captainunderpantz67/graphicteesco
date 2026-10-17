@@ -3,6 +3,7 @@ lane: A
 type: twin
 id: 280
 handle: womens-thanksgiving-pie-season-pumpkin-hoodie
+kd: 54
 ---
 ## Women's Thanksgiving – Pie Season Pumpkin Hoodie
 - **Twin of #137 Pie Season (LIVE crewneck):** reuse the approved print file; no new art generation. First do the R6.2 lettering check and log it.

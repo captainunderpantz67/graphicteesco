@@ -3,6 +3,7 @@ lane: B
 type: twin
 id: 307
 handle: womens-nurse-dont-say-the-q-word-hoodie
+kd: 20
 ---
 ## Women's Nurse – Don't Say the Q Word Hoodie
 - **Twin of the live tee + crewneck** `womens-nurse-dont-say-the-q-word-graphic-tee` (#132) / `womens-nurse-dont-say-the-q-word-crewneck-sweatshirt` (#271): reuse Printful file 1087506488 (white counters already knocked out), no new art generation (R6.2, R11.5). R6.2 twin check already passed for #271 (director). Only the cover is new.

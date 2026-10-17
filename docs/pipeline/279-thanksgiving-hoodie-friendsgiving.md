@@ -3,6 +3,7 @@ lane: A
 type: twin
 id: 279
 handle: womens-thanksgiving-friendsgiving-hoodie
+kd: 55
 ---
 ## Women's Thanksgiving – Friendsgiving Hoodie
 - **Twin of #138 Friendsgiving (LIVE tee + crewneck):** reuse the approved print file; no new art generation. First do the R6.2 lettering check and log it.

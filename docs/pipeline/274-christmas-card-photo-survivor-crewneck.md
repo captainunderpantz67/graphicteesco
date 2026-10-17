@@ -3,6 +3,7 @@ lane: A
 type: twin
 id: 274
 handle: unisex-christmas-card-photo-survivor-crewneck-sweatshirt
+kd: 24
 ---
 ## Unisex Christmas – Card Photo Survivor Crewneck Sweatshirt
 - **Twin of #273:** same art and print files; build after #273's art passes the self-check (R5.3.8, R6.2, R7.3). No new art generation.

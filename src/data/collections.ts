@@ -240,13 +240,17 @@ const N: Record<string, Niche> = {
   },
   camo: {
     about: (item) => `Our original hunting and outdoor art printed on real camo heavyweight hoodies: duck camo, tree-bark camo, forest camo and black camo. Each ${item} is printed when you order it, with the art in light ink so it reads on the pattern.`,
-    original: 'Yes. The art is original to this shop, and the camo is the hoodie fabric itself. No hunting-brand patterns or logos.',
-    made: 'Printed to order on a heavyweight camo hoodie, then shipped.',
+    original: '', // folded into 'Are camo hoodies in style?' to keep the page at 6 FAQs (R8.7)
+    made: 'Each camo hoodie is printed after you order it, with the art on a cream backing that follows its outline so every line reads on the pattern. Most are $49.99 on holiday sale, all-over pink camo hoodies are $64.99, US shipping is free on orders of $45 or more, and a wrong size gets one free exchange within 30 days.',
     style: 'A camo hoodie works in the blind, at deer camp and in town: wear it over a thermal on cold mornings, or with jeans and boots on the weekend.',
     label: 'Camo', who: 'hunters and anyone who lives in camo from October to February', themes: 'duck, deer and upland art on duck camo, tree camo, forest camo and black camo',
+    // FAQ standard R8.7 (director, 2026-10-17): questions from Google autocomplete/PAA for "camo hoodie" (in style, what to wear, hunting, duck camo, fit); 40-60 word answers.
     faqs: () => [
-      { q: 'Which camo patterns do you offer?', a: 'Our camo hoodies come in the patterns our heavyweight blank offers: Duck Camo, Forest Camo, Darkwood and Deadwood tree camo, and Black Camo. Each product page lists its colors.' },
-      { q: 'Will the design show up on camo?', a: 'Yes. We print the art in light ink on camo, and only offer the camo colors where the whole design reads.' },
+      { q: 'Are camo hoodies in style?', a: 'Yes. Camo hoodies are worn far beyond the woods now: with jeans and boots in town, over leggings, and at tailgates and deer camp. Graphic Tees Co. prints original hunting and outdoor art on real camo fleece, never a licensed hunting-brand pattern or logo, so each one reads as a statement piece.' },
+      { q: 'What do you wear with a camo hoodie?', a: 'Keep the rest simple so the camo leads. Dark or light-wash jeans, black joggers or khaki work pants pair best, with boots or clean sneakers. Women often wear a camo hoodie with black leggings and a cap. Skip other loud patterns: one solid color like cream, black or olive keeps the outfit clean.' },
+      { q: 'Can you wear these camo hoodies hunting?', a: 'Yes, as a layer. Our heavyweight camo hoodies are 10 oz/yd² cotton-poly fleece with a fleece-lined hood, warm in the blind, the stand or around deer camp. They are not waterproof or scent-control hunting gear, so on wet or bitter mornings wear one under a shell jacket.' },
+      { q: 'What is duck camo?', a: 'Duck camo is the old-school waterfowl pattern of brown, tan and dark green blotches, first worn by duck hunters hiding in marsh grass and cattails. Several of our hoodies come in Duck Camo; others use Forest Camo, Darkwood or Deadwood tree camo, Black Camo, or our own all-over pink camo print.' },
+      { q: 'How do camo hoodies fit?', a: 'Our heavyweight camo hoodies have a relaxed unisex fit in sizes XS to 3XL, roomy enough for a thermal underneath. Order your usual size for a standard fit or one size up for an oversized look. The all-over pink camo hoodies run 2XS to 6XL; every product page has its exact size chart.' },
     ],
   },
   halfzip: {
@@ -318,7 +322,7 @@ function niche(
     ].filter(Boolean) as { h2: string; body: string }[],
     faqs: [
       ...(n.faqs?.(P, section) ?? []),
-      { q: 'Are these original designs?', a: n.original },
+      ...(n.original ? [{ q: 'Are these original designs?', a: n.original }] : []),
       { q: 'How are they made?', a: n.made },
       { q: `How long do ${P} take to ship?`, a: (f) => `Printing takes ${f.productionDays}, then your order ships. Delivery estimates are shown at checkout.`, needs: 'productionDays' },
       ...audienceFaqs(P),

@@ -3,6 +3,7 @@ lane: B
 type: twin
 id: 308
 handle: womens-mama-i-have-followers-duck-hoodie
+kd: 14
 ---
 ## Women's Mama – I Have Followers Duck Hoodie
 - **Twin of the live crewneck** `womens-mama-i-have-followers-duck-crewneck-sweatshirt` (#272, in docs/reference/best/): reuse its approved Printful print file (with its knock-outs), no new art generation (R6.2, R11.5). R6.2 lettering check: I HAVE FOLLOWERS is hand-lettered 1970s type, no box or panel; confirm and log. Only the cover is new.
