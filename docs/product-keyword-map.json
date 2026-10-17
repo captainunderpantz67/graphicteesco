@@ -4023,11 +4023,16 @@
   },
   "womens-mama-i-have-followers-duck-crewneck-sweatshirt": {
    "claimed": [
-    "mama duck",
-    "duck sweatshirt"
+    "mama duck"
    ],
-   "gaps_measured": [],
-   "measured": "mama duck 3,600/KD14; duck sweatshirt 1,300/KD44 (RankHero 2026-10-16)"
+   "gaps_measured": [
+    {
+     "phrase": "mama duck",
+     "volume": 3600,
+     "kd": 14
+    }
+   ],
+   "measured": "2026-10-16"
   },
   "womens-thanksgiving-spill-the-gravy-graphic-tee": {
    "claimed": [
