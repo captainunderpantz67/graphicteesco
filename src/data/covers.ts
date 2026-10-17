@@ -397,6 +397,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-pilates-core-issues-crewneck-sweatshirt': { src: '/covers/womens-pilates-core-issues-crewneck-sweatshirt.webp', alt: 'Woman in a sand Core Issues pilates crewneck sweatshirt in a sunny pilates studio lobby with rolled mats and a reformer beside her' },
   'unisex-thanksgiving-laying-low-till-friday-turkey-hoodie': { src: '/covers/unisex-thanksgiving-laying-low-till-friday-turkey-hoodie.webp', alt: 'Man and woman in matching navy Laying Low Till Friday turkey hoodies, smiling in a farmhouse yard with hay bales and pumpkins on Thanksgiving morning' },
   'unisex-goat-i-climb-things-when-stressed-hoodie': { src: '/covers/unisex-goat-i-climb-things-when-stressed-hoodie.webp', alt: 'Man and woman in matching navy Stubborn and Proud of It goat hoodies at a petting-farm fence in late autumn with goats behind them, hands in the pouch pockets' },
+  'unisex-lawyer-i-rest-my-case-hoodie': { src: '/covers/unisex-lawyer-i-rest-my-case-hoodie.webp', alt: 'Man and woman in matching sand I Rest My Case lawyer hoodies, smiling in a wood-paneled law library with leather-bound books' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
