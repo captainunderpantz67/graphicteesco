@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-17 18:10
+status: REVIEW
 lane: B
 type: new
 id: 305
@@ -22,3 +22,4 @@ handle: mens-hunting-call-me-after-duck-season-camo-sweatshirt
 ---
 ## Log
 - 2026-10-17 director: brief written, READY (lane B camo push: this batch takes camo to 24, Sam 2026-10-17; keyword measured this run).
+- 2026-10-17 02:16 UTC [B]: built as DRAFT (product 15362848194864, 11 variants, Size option only 2XS-6XL, $56.99/$61.99, Printful #1418 AOP sweatshirt, shared woodland pattern). New art: Recraft v4 try 1 (CALL ME AFTER / DUCK SEASON spelling checked; mallard drake with a rotary phone behind him in the reeds, lettering asked for in chocolate brown), print-prep 3600 x 4043 + cream halo FILL=0, front panel 1800 px wide, top 1700 (b-aopgo.sh, SWEAT=1), Printful file 1087972728. Mockups front/back, cover registry #486 (try 1, image 2 of 3), keyword mallard sweatshirt 320/34, audit-local PASS. Sync pid 482377293, 11/11. Sheet docs/review/305.jpg.

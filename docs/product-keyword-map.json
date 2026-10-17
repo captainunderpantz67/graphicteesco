@@ -4559,6 +4559,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-hunting-here-for-the-sunrise-camo-sweatshirt": {
+   "claimed": [
+    "duck sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "duck sweatshirt",
+     "volume": 1300,
+     "kd": 44
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

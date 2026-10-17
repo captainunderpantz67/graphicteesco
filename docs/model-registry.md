@@ -377,7 +377,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 484 | Puerto Rican man, early 30s, short curly black hair, clean-shaven, athletic | USED 2026-10-17 — #303 Camp Security camo hoodie cover, with #488 (try 1, image 2 of 3) |
 | 485 | Vietnamese-American woman, mid 20s, chin-length black bob, round glasses | USED 2026-10-17 — #304 Playing Dead Till Friday camo hoodie cover, with #489 (try 1, image 1 of 3) |
 | 486 | White man, early 60s, bald with a grey horseshoe fringe, grey goatee, broad build | USED 2026-10-17 — #305 Call Me After Duck Season camo sweatshirt cover (try 1, image 2 of 3) |
-| 487 | Mexican-American woman, late 40s, shoulder-length dark brown hair with caramel highlights, warm smile lines | RESERVED — #306 Only Here for the Sunrise cover |
+| 487 | Mexican-American woman, late 40s, shoulder-length dark brown hair with caramel highlights, warm smile lines | USED 2026-10-17 — #306 Only Here for the Sunrise camo sweatshirt cover (try 1, image 1 of 3) |
 | 488 | White woman, late 20s, auburn hair in two braids, freckles | USED 2026-10-17 — #303 Camp Security camo hoodie cover, with #484 (try 1, image 2 of 3) |
 | 489 | Black man, mid 20s, short twists, slim build | USED 2026-10-17 — #304 Playing Dead Till Friday camo hoodie cover, with #485 (try 1, image 1 of 3) |
 | 490 | Filipino-American woman, early 40s, shoulder-length black hair with a side part, small hoop earrings | RESERVED — #307 Q Word nurse hoodie cover |
