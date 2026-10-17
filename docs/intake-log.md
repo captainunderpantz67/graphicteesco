@@ -1,3 +1,4 @@
+RUNNING helper since 2026-10-17 14:42 UTC
 2026-10-17 14:36 UTC — [D] Late review: #452 Hot Mess Express pink hoodie LIVE (built by lane B minutes after the brief); audit PASS, ping to follow once the page is up.
 2026-10-17 14:35 UTC — [B] Run summary: REVIEW #452 (pink hoodie twin); ART-NEXT drafts #447-451 built. Remaining READY twins #378-382, #385 stay blocked on the R6.2 hand re-letter (needs fal); #354 stays REDO pending the fal couple cover; no lane B hoodie/sweatshirt in the variant-photo gap list. Lock released.
 2026-10-17 14:35 UTC — [D] Run summary: 3 LIVE, 0 REDO, 8 briefs (#445-#452), Telegram batch ping sent (links 200). Lock released.
