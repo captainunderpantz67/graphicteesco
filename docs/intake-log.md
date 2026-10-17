@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-17 21:12 UTC
 2026-10-17 21:11 UTC — [C] REVIEW #394 Oops Anyway cat crewneck (DRAFT, synced 12/12, fal cover).
 2026-10-17 21:11 UTC — [C] REVIEW #407 Camera Shy sasquatch heavyweight hoodie (DRAFT, synced 12/12, fal cover).
 2026-10-17 21:11 UTC — [C] REVIEW #405 Snack Hoard dragon anime hoodie (DRAFT, synced 12/12, fal cover).
