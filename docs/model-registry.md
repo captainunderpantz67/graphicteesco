@@ -574,3 +574,4 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 681 | Mexican-American woman, early 20s, long dark braid, small silver hoops | RESERVED — #475 Horse Girl, Broke on Purpose Crewneck cover |
 | 682 | Black woman, late 20s, shoulder-length box braids, small gold studs | RESERVED — #476 Horse Girl, Broke on Purpose Hoodie cover |
 | 690 | Native American man, late 40s, long black hair tucked under a blaze-orange cap, short salt-and-pepper stubble, sturdy build | USED 2026-10-16 — #479 Tag Soup Hoodie cover (seedream, 1 attempt) |
+| 691 | Hmong-American man, early 30s, short black hair, light stubble, lean build | USED 2026-10-16 — #480 Tag Soup Tee cover (seedream, 1 attempt) |
