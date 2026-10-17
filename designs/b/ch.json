@@ -1,0 +1,5 @@
+{"art": "designs/b/ch-a.png", "art_width": 0.58, "canvas": [3600, 4500], "gap": 10,
+ "lines": [
+  {"text": "COLD SINCE", "font": "AlfaSlabOne-Regular.ttf", "size": 470, "fill": "#3b2a22", "stroke": 18, "stroke_fill": "#f4e6c6", "tracking": 0.03, "where": "below"},
+  {"text": "BIRTH", "font": "AlfaSlabOne-Regular.ttf", "size": 470, "fill": "#e2584a", "stroke": 20, "stroke_fill": "#3b2a22", "tracking": 0.2, "where": "below"}
+ ]}
