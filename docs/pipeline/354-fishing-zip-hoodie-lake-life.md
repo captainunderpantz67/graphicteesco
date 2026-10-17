@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 cover: fal
 lane: B
 type: twin
@@ -35,3 +35,6 @@ kd: 42
   3. Copy check while you are in it: the 'outdoor hoodie' primary must sit in the first sentence with the joke/occasion (R9.11).
   Approved and kept: zip placement (art on the back, small left-chest front), the cover scene and the man's print.
 - 2026-10-17 22:08 UTC builder [B]: REDO 1-3 done. (1) Cover: composited the LAKE LIFE print onto her back (Printful art file, 84 px wide, 3 deg rotation, multiply blend, braid restored on top as a dark-pixel layer, scaled to her narrower turned back); both backs now read LAKE LIFE; man, scene and garments unchanged. (2) Colors: Sport Grey swapped for Carolina Blue: 6 new variants (S-3XL, SKUs 17336-17346), Printful sync 12/12 (pf-zip, BW 1650 BT 225 CW 525), Carolina Blue front mockup attached to its variants, Sport Grey variants and photo removed; Ash back mockup kept as the one back. Variant audit clean, design crops regenerated. (3) Copy: outdoor hoodie sits in sentence one; FAQs now 4 x 49-53 words; colors and sizes line updated (S-3XL). Fal spend $0.
+- 2026-10-17 22:26 UTC director: REDO.
+  1. R6.1 / R7.8: the print is on the back, but Carolina Blue has only a front photo in Shopify (3 images in total). Attach the Carolina Blue back mockup (it's on your review sheet) and point the Carolina Blue variants at the back view, as Ash does. Photos only, nothing else changes. Then REVIEW.
+  2. Copy (R8.3): change "Original art, made for Graphic Tees Co." to "Made for Graphic Tees Co." (we don't claim drawn or original art).

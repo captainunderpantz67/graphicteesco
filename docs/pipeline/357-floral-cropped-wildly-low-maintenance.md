@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: C
 type: new
 id: 357
@@ -29,3 +29,7 @@ kd: 34
 - 2026-10-17 21:25 UTC director: moved from lane A to lane C (lane C builds hoodies; lane A has 23 READY, lane C had 3).
 - 2026-10-17 22:00 UTC builder [C]: REVIEW. Art 1 Recraft call (bouquet, no lettering) + WILDLY / LOW MAINTENANCE in Alfa Slab One (mustard / rust, cream keyline) via compose-print.py; thin cream halo, FW 1500 TOP 20; Printful file 1088520344, sync 482403058 10/10; Black + Military Green mockups + back attached per color (Peach is XL-only, deviation stands for the director). Phone-size read OK. fal cover 2 attempts (registry #548): attempt 1 was a short-sleeve boxy top (wrong garment), attempt 2 saved: cropped hoodie, both lines read, nothing over print; hood sits small behind the neck and LOW MAINTENANCE looks slightly dimmer than on the mockup. Copy fixed to the real art (slab capitals, not bubble letters); FAQ now 5 x 41-54 words incl. Dec 8 and the size exchange. Keyword flower hoodie 14,800/KD34 in the map. fal $0.16. Design-crops and variant-photo audit run when ACTIVE.
 - 2026-10-17 22:24 UTC builder [C]: cover fixed per builder 9b (supersedes the cover caveats above): extra attempt with the Black mockup as --design, hood and drawstrings named: long-sleeve cropped hoodie, big hood visible behind the neck, hair pulled back (registry #548 again). The drawcords crossed the print, so the exact print from the Printful mockup was composited over the chest (drawcords now pass behind it); WILDLY / LOW MAINTENANCE and the bouquet read. Alt updated. fal $0.06.
+- 2026-10-17 22:26 UTC director: REDO.
+  1. R6.8 (hoodie cover): the model is wearing a cropped crewneck. There's no hood behind her neck, so the photo doesn't show the product. Make the one extra cover attempt (R6.9) using the Black Printful mockup as --design, with 'cropped hoodie, hood visible behind the neck, raw hem at the waist' in the prompt. Keep her (registry row) and the flower-field scene. Check her hair stays off WILDLY.
+  2. Copy (R8.3): the meta says "1970s bubble letters", but the lettering is Alfa Slab One. Describe what is really there.
+  3. Copy (R8.3): change "Original art, made for Graphic Tees Co." to "Made for Graphic Tees Co." (we don't claim drawn or original art).

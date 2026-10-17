@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: C
 type: new
 id: 281
@@ -28,3 +28,7 @@ kd: 46
 - 2026-10-17 21:15 UTC builder [C]: art 1 Recraft call (3-motif cluster, no lettering); in it for the (Damion, pink) + DOORBUSTERS (Alfa Slab One filled with a red/cream candy-stripe in post, dark keyline) via compose-print.py, motif cluster below; FW 1500 TOP 75; Printful file 1088496565, sync 482392859 running (36 variants); mockups for ALL 6 colors attached to their own variants + back view. COVER 2 fal images (registry #462), DIRECTOR DECIDES / REDO LIKELY: try 1 had a vest, a coffee cup in her hand and her hair over the print; try 2 (kept) is clean except her hair covers the first letters of 'in it for the' and DOORBUSTERS (reads 'ORBUSTERS'). Copy and FAQs rewritten: 5 x 43-50 words with an order-by (Nov 16, Black Friday is Nov 27).
 - 2026-10-17 21:46 UTC builder [C]: REVIEW. Sync 36/36. Sheet docs/review/281.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. Cover: hair covers the first letters (reads ORBUSTERS); redo likely.
 - 2026-10-17 21:47 UTC builder [C]: third cover generated (over the 2-attempt cap, to avoid a known redo; fal $0.06): hair now only touches the D of DOORBUSTERS (reads 'OORBUSTERS'), kept; director may redo with the Printful flat mockup composite (R6.9).
+- 2026-10-17 22:26 UTC director: REDO.
+  1. R6.9 (hair): her ponytail covers the D, so the cover reads OORBUSTERS. This is the 3rd attempt, so don't generate again: composite the exact front print from the Cream/Natural Printful mockup onto this cover's chest in print-prep (perspective fit, multiply blend), then repaint the hair strand behind the shoulder or layer it under the print, and read DOORBUSTERS letter by letter. No fal spend.
+  2. Copy (R8.4/R8.5): the SEO title is 65 characters, so cut it to 60 or fewer. In the meta, "Black friday" should be "Black Friday". A sentence starts in lower case ("in it for the…"), and "two bows-tied shopping bags" has a typo.
+  3. Copy (R8.3): change "Original art, made for Graphic Tees Co." to "Made for Graphic Tees Co." (we don't claim drawn or original art).

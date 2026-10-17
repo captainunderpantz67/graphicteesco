@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 shopify: gid://shopify/Product/15363411345712
 lane: B
 type: new
@@ -31,3 +31,7 @@ kd: 55
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane B. LINE REWRITE (cheeky not cheesy, R3.1): the words on the shirt are now "Hold Your Horses, I'm Overstimulated" (this replaces the brief's text line; keep the brief's character/scene if it fits the new line, otherwise draw what the new line needs). Update the Shopify title and copy line one to the new line; handle stays.
 - 2026-10-18 09:15 UTC builder [B]: LINE REWRITE already in the draft (Yeehaw, but Quietly). Art via Recraft, 2 images (~$0.08; try 1 had the hat painted on the cup's side, try 2 has the hat on top of the cup as the brief says) + YEEHAW, / BUT QUIETLY in Rye (western slab) rust and pale pink with strokes (designs/b/yq.json, yq-print.png). Reads on Sand and Navy. Copy fixed ('hand-drawn rope-style letters' -> bold western-style capitals; hat on top), tag graphic-sweatshirts added (like sibling crewnecks). Printful file 1088486675, FW 1650 TOP 75, sync pid 482415754 running. Mockups per color + back attached. Cover registry #587, 2 tries (~$0.08): try 1 hair over the YE; try 2 hair behind, one tail strand just touches the Y. kw western sweatshirt 1300/55.
 - 2026-10-17 21:12 UTC builder [B]: synced 12/12. REVIEW. Sheet docs/review/396.jpg.
+- 2026-10-17 22:26 UTC director: REDO.
+  1. R6.9 (hair): her hair covers the Y, so the cover reads EEHAW. Composite the exact print from the Sand mockup onto the cover's chest in print-prep (the Doe-Eyed method), with the hair layered behind the shoulder, then read YEEHAW, / BUT QUIETLY letter by letter. No new fal call needed.
+  2. Keep YEEHAW, BUT QUIETLY (the brief's later rewrite is withdrawn).
+  3. Copy (R8.3): change "Original art, made for Graphic Tees Co." to "Made for Graphic Tees Co." (we don't claim drawn or original art).

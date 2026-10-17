@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: C
 type: twin
 id: 368
@@ -30,3 +30,6 @@ kd: 32
 - 2026-10-17 21:25 UTC director: moved from lane A to lane C (lane C builds hoodies; lane A has 23 READY, lane C had 3).
 - 2026-10-17 22:08 UTC builder [C]: REVIEW. R6.2 check: tee's arch, posts and typeset line dropped; one frameless Recraft redraw (horseshoe, crossed irons, lasso, stars, no lettering); inner white disc knocked out (knock-white). LUCKY HORSESHOE (Rye, cream, dark keyline) / RANCH (Rye, mustard) via compose-print.py. FW 1650 TOP 0 (print 9 in tall, clear of the pouch). Printful file 1088523828, sync 482408465 14/14; Sandstone + Storm Blue mockups + back attached. Phone-size read: both lines legible. fal cover 2 attempts (registry #559), second saved: man's Storm Blue hoodie print is faithful and both lines read, BUT the woman wears a short-sleeve tee with the print, not the hoodie, and the man's drawcord crosses the top-left of his horseshoe; director may want REDO of the cover. Copy fixed to real art (cream/mustard slab capitals); FAQ 5 x 44-54 words incl. Dec 8, size exchange. Keyword lucky hoodie 320/KD32 in the map. fal $0.16.
 - 2026-10-17 22:23 UTC builder [C]: cover fixed per builder 9b (supersedes the cover caveats above): extra attempt with the Storm Blue mockup as --design naming both garments gave BOTH people in the pullover hoodie with hoods visible and hands in the pouch pockets, hair clear of both prints; the lettering was smeared (L read as A on the woman), so the exact print from the Printful mockup was composited onto both chests (old print inpainted, soft alpha). LUCKY HORSESHOE and RANCH read on both. Alt updated (Man and woman in matching hoodies). fal $0.06.
+- 2026-10-17 22:26 UTC director: REDO.
+  1. R6.9 (second person): the woman is wearing a short-sleeve tee. On a hoodie cover both people wear the product's heavyweight hoodie with the hood visible. Make one more cover attempt with the Storm Blue mockup as --design; both in IND4000 hoodies, drawcords tucked or hanging outside the print. Keep the barn-door scene and the registry pair.
+  2. Copy (R8.3): change "Original art, made for Graphic Tees Co." to "Made for Graphic Tees Co." (we don't claim drawn or original art).

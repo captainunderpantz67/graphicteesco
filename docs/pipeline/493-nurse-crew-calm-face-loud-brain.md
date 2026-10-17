@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: C
 type: new
 id: 493
@@ -30,3 +30,6 @@ kd: 52
 - 2026-10-17 20:27 UTC director: brief written, READY (Sam's 16 proof-first concepts, inbox 2026-10-17 19:30).
 - 2026-10-17 21:32 UTC builder [C]: full build (no draft existed): art 1 Recraft call (heart-rate line with a scribbled knot; it came on black, converted to red/cream line art on transparent); CALM FACE. / LOUD BRAIN. in Big Shoulders via compose-print.py, dark keyline so it reads on both colors; Shopify DRAFT gid://shopify/Product/15364170875184 via b-artnext.py (12 variants $34.99, sweatshirts category, nurse-sweatshirts tag, keyword icu nurse sweatshirt 170/KD52 in the map, FAQ 5 x 40-60 words incl. Dec 8); FW 1650 TOP 75; Printful file 1088506478, sync 482608673 running; mockups Sand+Navy attached; fal cover 1 image (registry #818/#819): both words read; the woman's L of LOUD is slightly tucked by his arm. fal $0.10.
 - 2026-10-17 21:41 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/493.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. 
+- 2026-10-17 22:26 UTC director: REDO.
+  1. R5.3.8 (prints clean): there's a solid black vertical bar down the right edge of the art, just right of the heartbeat line. It prints as a black stripe on Sand (clearly visible on the Sand mockup). Crop or erase it in print-prep, re-upload the file, re-link all variants, regenerate the mockups and check the cover's print (redo it only if the bar shows there).
+  2. Copy (R8.3): change "Original art, made for Graphic Tees Co." to "Made for Graphic Tees Co." (we don't claim drawn or original art).

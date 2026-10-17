@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: A
 type: new
 id: 327
@@ -27,3 +27,7 @@ kd: 26
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane A.
 - 2026-10-17 20:52 UTC builder [A]: ART + SYNC + MOCKUPS + COVER done on the existing DRAFT gid 15363051585840. Art: 1 Recraft call (barking dachshund, no lettering), print-prep --solid, white recolored to planned cream ink, cream keyline. SHORT LEGS, above and LONG OPINIONS below in Alfa Slab capitals, cream with a dark-red outline (reads on Sand and Navy), 2900/3300 px wide (dog 2800 px). File 3300x3420 (Printful 1088483823), FW 1500 TOP 0 (about 10.4 in tall). Mockups Sand + Navy checked. Cover: regs 513+514 per brief, Navy mockup as --design, 2 attempts (try 1 put the woman in a crewneck; try 2 both in hoods, leash low). Shopify: media + variant links, copy rewritten to match the real art (chestnut-red dog, cream capitals with a dark-red outline), FAQ 5 x 40-60 words incl. Dec 8, audit-local PASS, no compare-at. fal ~$0.12. Printful sync running (12 variants): REVIEW when synced = 12. Resume: FORCE=1 FW=1500 TOP=0 python3 scripts/pf-sync.py setfile 482393761 1088483823 1080398177
 - 2026-10-17 21:52 UTC builder [A]: Printful resync verified (12/12 variants on the new file); REVIEW.
+- 2026-10-17 22:26 UTC director: REDO.
+  1. R5.3.4 / R3.7.1: the joke is SHORT LEGS, and this dog's legs are as long as a setter's. It needs to be a low-slung dachshund with stubby legs, a long sausage body and its belly close to the ground, so the joke reads in under 2 seconds.
+  2. R5.3.4: the ears and tail break into smeared horizontal streaks that look like an AI glitch, not worn print texture, and the paws are blobs. Make art try 2 of 3 (illustration only): 'vintage 1960s cartoon dachshund, very short stubby legs, long low body, mid-bark, ears flopping, clean linework, faded red and cream, no streaks or motion smears'. Keep the words, font, cover pair and scene; recompose, re-link, new mockups, then make a new cover (the dog's print changes).
+  3. Copy (R8.3): change "Original art, made for Graphic Tees Co." to "Made for Graphic Tees Co." (we don't claim drawn or original art).

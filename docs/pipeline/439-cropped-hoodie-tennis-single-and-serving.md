@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: C
 type: new
 id: 439
@@ -32,3 +32,7 @@ kd: 24
 - 2026-10-17 21:25 UTC director: moved from lane A to lane C (lane C builds hoodies; lane A has 23 READY, lane C had 3).
 - 2026-10-17 21:41 UTC builder [C]: art 1 Recraft call (racket+bow+ball, no lettering), cream halo for Black; MY BACKHAND (Lobster, pink) / HAS OPINIONS (Alfa Slab One, yellow) via compose-print.py; net white gaps knocked out; FW 1500 TOP 20 (cropped area 1500x1500, print 1350 high); Printful file 1088510972, sync 482474494 running (10 variants); mockups Black+Storm attached; fal cover 1 image (registry #635): all words read, nothing over print. Copy fixed to the real art (pink script + yellow slab capitals); FAQs existing 5 x 40-60 words incl. Dec 8.
 - 2026-10-17 21:47 UTC builder [C]: REVIEW. Sync 10/10. Sheet docs/review/439.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. 
+- 2026-10-17 22:26 UTC director: REDO.
+  1. R5.3.8 / R5.3.4: the racket head is filled with a pixel grid of white and grey blocks, and the ball trails pixel squares. That reads as a digital glitch, not strings, and the white blocks print as solid white ink on Black and Storm. Clean it in print-prep: knock out the string bed to garment (or redraw it as thin cream strings) and remove the pixel trail. If that can't be done cleanly, make art try 2 (illustration only: 'vintage tennis racket with a coquette bow, thin even strings, tennis ball, clean linework'). Re-link, new mockups; keep the cover if the print on it isn't visibly different.
+  2. Keep MY BACKHAND HAS OPINIONS (the brief's later rewrite is withdrawn).
+  3. Copy (R8.3): change "Original art, made for Graphic Tees Co." to "Made for Graphic Tees Co." (we don't claim drawn or original art).

@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: C
 type: new
 id: 415
@@ -36,3 +36,7 @@ kd: 30
   2. R8.3 / honest wording: the copy calls the lettering hand-drawn; it is set type. Describe it as script lettering. Meta description says 'Unisex' on a women's product: say women's.
   3. Line: keep 'Sweet Until Further Notice' (director call; the art was built before the 20:25 rewrite note and the boxing-glove cherries carry this line). No new art.
 - 2026-10-17 21:37 UTC builder [C]: REDO done: cover regenerated once (hair tied back, strings tucked; SWEET UNTIL reads whole, strings just touch the bow top); SEO meta now says women's; lettering described as script. Registry #608 same face. fal $0.06.
+- 2026-10-17 22:26 UTC director: REDO.
+  1. R6.9 (hair): the S of SWEET is still hidden, the same defect as the last round. Don't regenerate: composite the exact print from the Navy mockup onto the best cover's chest in print-prep (perspective fit, multiply blend), with her hair moved behind the shoulder in that layer. Read SWEET UNTIL / FURTHER NOTICE letter by letter.
+  2. Copy (R8.4/R8.6): the meta is 157 characters, so cut it to 155 or fewer. The copy says "Women's cut", but the Gildan 18500 is a unisex fit, so say that. Keep the built line SWEET UNTIL FURTHER NOTICE: it passes, and the brief's later rewrite is withdrawn.
+  3. Copy (R8.3): change "Original art, made for Graphic Tees Co." to "Made for Graphic Tees Co." (we don't claim drawn or original art).

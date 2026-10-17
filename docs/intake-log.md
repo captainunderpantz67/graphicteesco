@@ -1,6 +1,7 @@
 2026-10-17 22:26 UTC — [E] Run summary: 7 built to REVIEW (#388 REDO art, #459 #438 #416 #326 #401 #444), 2 REDO covers redone (#359 #409), all DRAFT, all synced. Flags for the director: #438 cover is a back view, model slightly redrew the letters 'ATE.' / 'CALLED'; #444 second line small on the 400 px mockup; #326 faint cream spill between petals at the left edge; #388 compare with docs/reference/best/481 not done. New text lines came from the 20:25 'Claude: READY' log notes. node_modules was missing: ran npm ci so astro build and the audit work. audit-local ran for #459 only (PASS). design-crops + variant-photo-audit to rerun after publish. fal ~$2.1. Lock released.
 RUNNING director since 2026-10-17 22:12 UTC
 2026-10-17 22:26 UTC — [E] REVIEW #444 Bald by Choice eagle heavyweight hoodie (DRAFT, synced 14/14, fal cover).
+2026-10-17 22:26 UTC — [D] REDO 14: #281 #396 #415 #435 #487 (cover hair: composite the print), #357 #364 #450 (no hood on hoodie cover), #368 (2nd person in a tee), #327 #442 (art), #439 #493 (print clean-up), #354 (Carolina back photo). Notes in each item.
 2026-10-17 22:19 UTC — [E] REVIEW #401 Night Owl, Retired owl hoodie (DRAFT, synced 12/12, fal cover).
 2026-10-17 22:24 UTC — [C] Covers redone per builder 9b for #357 (hood, print composite), #368 (both people in hoodies, print composite), #468 (long sleeves, print composite); logs updated.
 RUNNING lane B since 2026-10-17 21:59 UTC

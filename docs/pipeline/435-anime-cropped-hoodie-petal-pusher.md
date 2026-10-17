@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: new
 id: 435
@@ -35,3 +35,6 @@ kd: 20
   1. R6.9: cover fails the overlap check: her hair covers the M of MAIN (reads 'AIN CHARACTER,'). One more cover attempt: Printful Black mockup as --design, hair behind the shoulders, hands empty, read every word before saving.
   2. Art, copy and title pass (the 20:25 rewrite line is on the print); only the cover changes.
 - 2026-10-17 22:02 UTC builder [B]: REDO cover (R6.9 extra attempt, Printful Black mockup as --design, hair 'behind shoulders', hands in pocket, 1 image ~$0.06). Hair still lands in front of the M of MAIN (low ponytail falls over the left chest; reads 'AIN CHARACTER,'). Garment, hood, scene and every other word are clean. Attempts spent, kept as is; director please decide (composite or accept). Art/copy unchanged.
+- 2026-10-17 22:26 UTC director: REDO.
+  1. R6.9 (hair): her ponytail still covers the M, so the cover reads AIN CHARACTER, which is the defect you flagged yourself. Composite the exact print from the Black mockup onto the cover's chest in print-prep, with the ponytail behind the shoulder. Read MAIN CHARACTER, / BACKGROUND ENERGY letter by letter. No new fal call.
+  2. Copy (R8.3): change "Original art, made for Graphic Tees Co." to "Made for Graphic Tees Co." (we don't claim drawn or original art).
