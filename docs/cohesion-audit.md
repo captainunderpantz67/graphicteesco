@@ -1,16 +1,12 @@
-# Cohesion audit — 2026-10-17 01:43 UTC
+# Cohesion audit — 2026-10-17 02:39 UTC
 
-249 live products checked · **1 errors** · 8 warnings · 9 products with findings
+266 live products checked · **0 errors** · 8 warnings · 8 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
-- 1 × Claims , already claimed by unisex-christmas-light-show-manager-crewne
 
 ## By product (errors first)
-### Men's Christmas – Resting My Eyes Crewneck Sweatshirt `mens-christmas-resting-my-eyes-crewneck-sweatshirt`
-- **ERROR** Claims "dad sweatshirt", already claimed by unisex-christmas-light-show-manager-crewneck-sweatshirt (two pages fighting for one keyword). → Give one of them a different measured phrase.
-
 ### Unisex Halloween – Midnight Feature Tee `unisex-halloween-midnight-feature-graphic-tee`
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
 

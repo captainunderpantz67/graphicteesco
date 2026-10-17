@@ -382,7 +382,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 489 | Black man, mid 20s, short twists, slim build | USED 2026-10-17 — #304 Playing Dead Till Friday camo hoodie cover, with #485 (try 1, image 1 of 3) |
 | 490 | Filipino-American woman, early 40s, shoulder-length black hair with a side part, small hoop earrings | USED 2026-10-17 — #307 Don't Say the Q Word hoodie cover (try 1, image 1 of 3) |
 | 491 | White woman, early 30s, long light-brown hair in a low ponytail, no makeup, athletic build | USED 2026-10-17 — #308 I Have Followers duck hoodie cover (try 1, image 2 of 3) |
-| 492 | Korean-American woman, about 20, straight black hair in a half-up claw clip, round tortoiseshell glasses | RESERVED — #309 Plot Twist cropped hoodie cover |
+| 492 | Korean-American woman, about 20, straight black hair in a half-up claw clip, round tortoiseshell glasses | USED 2026-10-17 — #309 Plot Twist cropped hoodie cover (try 1, image 2 of 3) |
 | 493 | Black man, early 40s, close-cropped beard with grey at the chin, broad shoulders | RESERVED — #310 Fishers of Men hoodie cover |
 | 494 | Puerto Rican woman, early 30s, dark curly hair in a high puff, gold huggie earrings | RESERVED — #311 Lunges & Lattes hoodie cover |
 | 495 | South Asian man, late 20s, short wavy black hair, light stubble, lean runner's build | RESERVED — #312 Pace: Leisurely cover (with #496) |

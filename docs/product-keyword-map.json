@@ -4592,6 +4592,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-bookish-plot-twist-cropped-hoodie": {
+   "claimed": [
+    "cropped hoodie women"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cropped hoodie women",
+     "volume": 18100,
+     "kd": 10
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

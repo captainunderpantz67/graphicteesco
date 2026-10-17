@@ -301,6 +301,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-hunting-here-for-the-sunrise-camo-sweatshirt': { src: '/covers/womens-hunting-here-for-the-sunrise-camo-sweatshirt.webp', alt: 'Woman in her late 40s with shoulder-length brown hair and caramel highlights smiling in an all-over woodland camo Only Here for the Sunrise sweatshirt in a wooden duck blind on a marsh at sunrise with a thermos on the bench' },
   'womens-nurse-dont-say-the-q-word-hoodie': { src: '/covers/womens-nurse-dont-say-the-q-word-hoodie.webp', alt: 'Woman in her early 40s with shoulder-length black hair and small hoop earrings in a Sand Don't Say the Q Word nurse hoodie in a hospital staff parking lot at dawn wearing navy scrub pants' },
   'womens-mama-i-have-followers-duck-hoodie': { src: '/covers/womens-mama-i-have-followers-duck-hoodie.webp', alt: 'Woman in her early 30s with a low ponytail in a Sand I Have Followers duck hoodie at a farm pond in October with ducks on the water and a stroller handle beside her' },
+  'womens-bookish-plot-twist-cropped-hoodie': { src: '/covers/womens-bookish-plot-twist-cropped-hoodie.webp', alt: 'Woman in glasses and a black Plot Twist cropped hoodie standing between campus library shelves in autumn light' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
