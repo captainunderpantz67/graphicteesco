@@ -361,6 +361,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-clocked-it-said-nothing-embroidered-crewneck-sweatshirt': { src: '/covers/womens-clocked-it-said-nothing-embroidered-crewneck-sweatshirt.webp', alt: 'Woman in a maroon Clocked It embroidered crewneck sweatshirt with a white side-eye cat face and script on the chest, short curls and gold hoops, smiling in a holiday kitchen' },
   'mens-hunting-todays-special-tag-soup-hoodie': { src: '/covers/mens-hunting-todays-special-tag-soup-hoodie.webp', alt: 'Man in a blaze-orange cap and a Military Green Tag Soup hoodie at a deer camp tailgate, hands in the pouch pocket' },
   'mens-hunting-todays-special-tag-soup-graphic-tee': { src: '/covers/mens-hunting-todays-special-tag-soup-graphic-tee.webp', alt: 'Man in a Military Green Tag Soup tee at a deer camp tailgate at golden hour' },
+  'womens-football-mom-promised-to-behave-graphic-tee': { src: '/covers/womens-football-mom-promised-to-behave-graphic-tee.webp', alt: 'Woman in a maroon Promised to Behave football mom tee in the bleachers at a Friday night game' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

@@ -576,3 +576,4 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 683 | Black woman, early 40s, short natural curls, small gold hoops, warm brown skin | USED 2026-10-17 — #477 Clocked It embroidered crewneck cover (try 1, image 1 of 1) |
 | 690 | Native American man, late 40s, long black hair tucked under a blaze-orange cap, short salt-and-pepper stubble, sturdy build | USED 2026-10-16 — #479 Tag Soup Hoodie cover (seedream, 1 attempt) |
 | 691 | Hmong-American man, early 30s, short black hair, light stubble, lean build | USED 2026-10-16 — #480 Tag Soup Tee cover (seedream, 1 attempt) |
+| 692 | Ethiopian-American woman, late 30s, short curly natural hair, small gold hoops, warm medium build | USED 2026-10-16 — #482 Promised to Behave Tee cover (seedream, 1 attempt) |
