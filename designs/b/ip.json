@@ -1,0 +1,4 @@
+{"art": "designs/b/ip-a.png", "art_width": 0.92, "canvas": [3600, 4500], "gap": 20,
+ "lines": [
+  {"text": "I HAVE PLANS", "font": "Lobster-Regular.ttf", "size": 800, "fill": "#f6e6c8", "stroke": 30, "stroke_fill": "#4a3328", "tracking": 0.02, "where": "above"}
+ ]}

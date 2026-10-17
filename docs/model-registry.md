@@ -484,7 +484,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 591 | Filipino-American woman, early 30s, long straight black hair, small gold hoops | RESERVED — #400 Sleighping In Hoodie cover |
 | 592 | White woman, late 20s, auburn pixie cut, freckles | RESERVED — #401 Owl Be in Bed Hoodie cover |
 | 593 | Norwegian-American man, late 40s, ruddy cheeks, short red-blond beard | RESERVED — #402 Professionally Chilling Heavyweight Hoodie cover |
-| 594 | man AND woman together: Vietnamese-American man, late 20s, round glasses, short textured hair; Black woman, late 20s, short twist-out | RESERVED — #403 I Have Plans Hoodie cover |
+| 594 | man AND woman together: Vietnamese-American man, late 20s, round glasses, short textured hair; Black woman, late 20s, short twist-out | USED 2026-10-17 — #403 I Have Plans hoodie cover (try 1, image 1 of 1) |
 | 595 | man AND woman together: Korean-American man, early 20s, bleached tips; Latina woman, early 20s, space buns, butterfly clips | USED 2026-10-17 — #404 Side Quests Only hoodie cover (try 2, 2 images; woman's garment shows no hood, flagged) |
 | 596 | man AND woman together: Japanese-American man, mid 20s, shaggy black hair; white woman, mid 20s, dyed lavender bob | RESERVED — #405 Snack Hoard Hoodie cover |
 | 597 | Indian-American woman, about 20, long dark hair in a half-up claw clip, small gold nose stud | RESERVED — #406 Politely Hop Off Cropped Hoodie cover |
