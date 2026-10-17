@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 404
@@ -28,3 +28,4 @@ kd: 28
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane B.
 - 2026-10-17 20:58 UTC builder [B]: art via Recraft (1 image, no lettering) + words in AlfaSlabOne lime/grape-stroke via compose-print (designs/b/sq.json, sq-print.png, two-line stack above the console, ratio 1.06). Reads on Sand and Navy. Copy re-checked against the art (one sentence changed: 'bubble letters' -> 'chunky lime-green capitals'). Printful file 1088441334, FW 1500 TOP 0, sync pid 482421741 running. Mockups per color + back attached. Cover registry #595, 2 tries (~$0.12): try 1 both hoodies but drawcords cross both prints; try 2 words and prints clean but the woman's garment shows no hood (crewneck look). Kept try 2, director please judge (R6.8). Audit-local PASS. kw video game hoodie 2900/28.
 - 2026-10-17 21:50 UTC builder [B]: synced 12/12. REVIEW. Sheet docs/review/404.jpg.
+- 2026-10-17 20:45 UTC director: APPROVED, LIVE. ACTIVE + published Online Store, Headless, Google; cohesion-audit --handle PASS.

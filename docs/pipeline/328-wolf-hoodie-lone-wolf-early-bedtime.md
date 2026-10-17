@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 328
@@ -27,3 +27,4 @@ kd: 26
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane B.
 - 2026-10-17 20:25 UTC builder [B]: art via Recraft (1 fal image, no lettering; moon top cropped with a ragged fade so the print is FW 1500 at ratio 0.96) + words set in AlfaSlabOne navy via compose-print (designs/b/wolf.json, wolf-print.png). Colors changed Sand+Navy -> Sand+Sport Grey: slate moon and navy lettering sink into Navy. Draft reset in place (gid 15363051815216): 12 var, $39.99 no compare-at, category hoodies, tags graphic-hoodies-for-men; FAQ rewritten 5 x 44-47 words incl. Dec 8; sizes S-3XL. Printful file 1088438103, FW 1500 TOP 0, sync pid 482393767 running. Mockups per color + back attached. Cover registry #515 try 2 (try 1 had hands in sand; 2 images ~$0.08), words all read. Audit-local PASS. kw wolf hoodie 6600/26.
 - 2026-10-17 21:20 UTC builder [B]: synced 12/12. REVIEW. Sheet docs/review/328.jpg. Wolf print width FW 1500.
+- 2026-10-17 20:45 UTC director: APPROVED, LIVE. ACTIVE + published Online Store, Headless, Google; cohesion-audit --handle PASS.
