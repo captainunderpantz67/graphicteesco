@@ -1,0 +1,25 @@
+status: READY
+lane: A
+type: new
+id: 332
+handle: womens-new-years-eve-resolutions-pending-graphic-tee
+kd: 31
+---
+## Women's New Year's Eve – Resolutions Pending Tee
+- **Blank:** Bella+Canvas 6400 women's relaxed tee (R7.1). Copy facts from the Printful spec only.
+- **Text on shirt:** RESOLUTIONS PENDING, two stacked words, big boutique letters filled with a gold-and-silver confetti-dot pattern (R4.4).
+- **Hook:** She hasn't failed her resolutions, they're just 'pending'. Full women's sass for the NYE party, girls' night and the January 1 brunch (R3.4).
+- **Why it's not taken:** Etsy's women's NYE tees are 'New Year Same Me' scripts and champagne clip art; a boutique pattern-letter 'Resolutions Pending' isn't on page 1. Builder: flag if 50+ listings show it.
+- **Style:** C, boutique (R4.4; women's holiday alternate after vintage #331): two big stacked words in confetti-dot-filled letters (gold, silver-grey, blush), a small coquette ribbon bow on the R, and a cluster of 3 tiny motifs (a mini disco ball, a little clock at midnight, a star). Never claim glitter or foil.
+- **Art prompt (Recraft v4, one image per call):** "Boutique typography graphic: the words 'RESOLUTIONS' and 'PENDING' stacked, big chunky rounded hand-drawn letters filled with a confetti-dot pattern in muted gold, silver grey and blush pink with soft black outlines, a small blush coquette ribbon bow tied on the first letter R, and a tiny cluster of three small motifs beside PENDING: a mini disco ball, a little round clock at midnight, a small star. Spelled exactly 'RESOLUTIONS' and 'PENDING'. Slight vintage print texture. Isolated on plain background, no background shape, no frame, no border, no badge, no circle, no dark patch, no champagne."
+- **Colors:** 6400 light and mid colors the confetti letters read on (White, Natural, Light Pink, Heather Dust, Athletic Heather…), plus 2 bold colors if it reads (R7.2 women's), ≤100 variants.
+- **Primary keyword:** new years eve shirt — 3,600 / KD 31 (RankHero 2026-10-17; same December surge, US 67%, R2.6). Unowned; record it. Supporting once each via `scripts/keyword-gap.py "new years eve shirt women" "new year resolution shirt"`. Never claim nye shirt (#331) or new years shirt (#333). Use it where a person would say it: title-area copy, H1, first sentence (with the joke and the occasion, R9.11) and once in the meta; no stuffing (R8.2-R8.3). Answer-first FAQs (fit, care, sizing, gift timing) per R8.7.
+- **Popularity evidence (R5.2):** December 33,100 surge on the NYE cluster; boutique pattern-letter tees are the women's holiday best-seller style (docs/style-study-2026-10-13.md).
+- **Cover:** registry #521, woman, early 30s. Scene: a New Year's Eve party at home with a gold streamer backdrop and string lights, festive earrings and a bracelet stack, hands empty or at the hip (no glasses). Real garment (the real blank), generated with the product's own Printful mockup in the cover color as `--design` (--n 1); hands empty or in pockets; nothing (hand, cup, hair, hood, another person) over any part of the print; read every word before saving (R6.7-R6.9). No alcohol, tools or weapons (R6.5).
+- **Title / handle:** "Women's New Year's Eve – Resolutions Pending Tee" / `womens-new-years-eve-resolutions-pending-graphic-tee` (R7.4).
+- **Tags:** graphic-tees-for-women, funny-graphic-tees, ai-art, intake-done.
+- **Price:** $24.99, no compare-at (R12.1).
+- **Pre-build while fal is empty (inbox 2026-10-17 04:45):** make the full Shopify DRAFT now from this brief (status ART-NEXT); art + cover when fal returns, then re-check every sentence against the real art.
+---
+## Log
+- 2026-10-17 04:21 UTC director: brief written, READY (low-KD sweep 2026-10-17 04:30 run; keyword and trend measured this run).

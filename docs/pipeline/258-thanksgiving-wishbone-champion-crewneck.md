@@ -14,7 +14,7 @@ handle: mens-thanksgiving-wishbone-champion-crewneck-sweatshirt
 - **Cover:** registry #434 (Ukrainian-American man in his early 40s, sandy-blond crew cut, light stubble, stocky build) — man (R6.3). Scene: a front yard touch-football game on Thanksgiving morning, fall leaves on the lawn and family blurred behind; hands empty at his sides, no football in hand over the print (R6.4, R6.5, R6.9).
 - **Title / handle:** "Men's Thanksgiving – Wishbone Champion Crewneck Sweatshirt" / `mens-thanksgiving-wishbone-champion-crewneck-sweatshirt` (R7.3, R7.4).
 - **Tags (R7.5):** thanksgiving-sweatshirts, sweatshirt, thanksgiving. No tee tags.
-- **Price (R12.1):** $34.99, compare-at $39.99.
+- **Price (R12.1):** $34.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 22:25 UTC director: brief written, READY (lane A funny Thanksgiving pair for /funny-thanksgiving-shirts/, R9.11).

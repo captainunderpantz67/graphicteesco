@@ -17,7 +17,7 @@ handle: womens-christmas-nanas-cookies-crewneck-sweatshirt
 - **Cover:** registry #421 (white woman in her early 60s, white hair in a soft low bun, reading glasses on a beaded chain) — woman, Mimi/Nana age 50s–60s (R6.3, R6.6). Scene: a warm farmhouse kitchen at Christmas, cookie trays and a rolling pin on the counter beside her (never in front of the print), lit tree through the doorway. Hands empty or resting on the counter edge (R6.5, R6.9).
 - **Title / handle:** "Women's Christmas – Nana's Cookies Crewneck Sweatshirt" / `womens-christmas-nanas-cookies-crewneck-sweatshirt` (R7.3, R7.4).
 - **Tags (R7.5):** christmas-sweatshirts, sweatshirt, christmas.
-- **Price (R12.1):** $34.99, compare-at $39.99.
+- **Price (R12.1):** $34.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 21:18 UTC director: brief written, READY (lane A women's Christmas pair: crewneck + tee #245).

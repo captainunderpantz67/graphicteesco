@@ -15,7 +15,7 @@ kd: 46
 - **Cover:** registry #507, woman, late 20s (not the #314 face). Scene: a sunny fall farmers market, a tote bag at her side. Generated with the product's own Printful mockup in the cover color as `--design`; hands empty or at the sides; nothing over any part of the print; read every word before saving (R6.7-R6.9).
 - **Title / handle:** "Women's Retro – Loose Goose Crewneck Sweatshirt" / `womens-retro-loose-goose-crewneck-sweatshirt`.
 - **Tags (R7.5 crewneck):** sweatshirt, ai-art, intake-done (no tee tags).
-- **Price (R12.1):** $34.99, compare-at $39.99.
+- **Price (R12.1):** $34.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-17 02:28 UTC director: brief written, READY (low-KD sweep 2026-10-17; keyword measured this run).

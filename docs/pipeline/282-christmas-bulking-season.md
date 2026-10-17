@@ -18,7 +18,7 @@ kd: 55
 - **Cover:** registry #463 — man. Scene: an old-school gym decorated with a small tinsel tree and string lights; hands empty or chalked at his sides, nothing over the print (R6.4, R6.9).
 - **Title / handle:** "Men's Christmas – Bulking Season Tee" / `mens-christmas-bulking-season-graphic-tee`. Copy line one names the joke and the occasion (R9.11).
 - **Tags (R7.5):** christmas-shirts, graphic-tees-for-men, funny-graphic-tees, retro-graphic-tees, ai-art, intake-done.
-- **Price (R12.1):** $24.99, compare-at $29.99.
+- **Price (R12.1):** $24.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).

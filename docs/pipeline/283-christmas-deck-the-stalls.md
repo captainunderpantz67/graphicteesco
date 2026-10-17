@@ -18,7 +18,7 @@ kd: 56
 - **Cover:** registry #464 — woman. Scene: a red barn aisle with garland on the stall doors and a horse in the background; a cocoa mug at her hip, nothing over the print (R6.4, R6.5).
 - **Title / handle:** "Women's Christmas – Deck the Stalls Western Tee" / `womens-christmas-deck-the-stalls-western-graphic-tee`. Copy line one names the joke and the occasion (R9.11).
 - **Tags (R7.5):** christmas-shirts, christmas-shirts-for-women, graphic-tees-for-women, funny-graphic-tees, ai-art, intake-done.
-- **Price (R12.1):** $24.99, compare-at $29.99.
+- **Price (R12.1):** $24.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).

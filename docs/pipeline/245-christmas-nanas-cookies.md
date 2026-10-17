@@ -14,7 +14,7 @@ handle: womens-christmas-nanas-cookies-graphic-tee
 - **Cover:** registry #422 (Japanese-American woman in her late 50s, salt-and-pepper hair in a short layered cut, soft smile lines) — woman (R6.3, R6.6). Scene: a holiday cookie exchange at a dining table with tins and plates of cookies, garland behind; cookie plate at her side, never over the print (R6.5, R6.9).
 - **Title / handle:** "Women's Christmas – Nana's Cookies Tee" / `womens-christmas-nanas-cookies-graphic-tee` (R7.4).
 - **Tags (R7.5):** christmas-shirts, christmas-shirts-for-women, graphic-tees-for-women, funny-graphic-tees, retro-graphic-tees (1950s look), ai-art, intake-done.
-- **Price (R12.1):** $24.99, compare-at $29.99.
+- **Price (R12.1):** $24.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 21:18 UTC director: brief written, READY (lane A women's Christmas pair, twin of #244).

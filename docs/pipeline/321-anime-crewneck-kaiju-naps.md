@@ -15,7 +15,7 @@ kd: 50
 - **Cover:** registries #505 + #506, a man AND a woman together (unisex, R6.3; alt starts "Man and woman …"): friends outside a ramen shop at night with neon-free warm lanterns (no readable signs).
 - **Title / handle:** "Unisex Anime – Kaiju Naps Crewneck Sweatshirt" / `unisex-anime-kaiju-naps-crewneck-sweatshirt`.
 - **Tags (R7.5 crewneck):** sweatshirt, ai-art, intake-done; add the anime hoodie/sweatshirt collection tag only if one exists for sweatshirts (never the anime-shirts tee tag).
-- **Price (R12.1):** $34.99, compare-at $39.99.
+- **Price (R12.1):** $34.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-17 02:28 UTC director: brief written, READY (low-KD sweep 2026-10-17; keyword measured this run).

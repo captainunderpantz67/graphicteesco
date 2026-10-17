@@ -18,7 +18,7 @@ kd: 20
 - **Cover:** registry #509, man. Scene: with #510 woman, both in the hoodie, at a ski lodge deck with snowy slopes behind, snowboard leaning on the rail beside them (not over either print). Real garment with the hood visible, generated with the product's own Printful mockup in the cover color as `--design`; hands empty or in pockets; nothing over any part of the print; read every word before saving (R6.7-R6.9).
 - **Title / handle:** "Unisex Snowboard – Sending It, Landing Optional Heavyweight Hoodie" / `unisex-snowboard-sending-it-landing-optional-heavyweight-hoodie` (R7.4). Copy line one names the joke (R9.11).
 - **Tags:** heavyweight-hoodies, graphic-hoodies-for-men, graphic-hoodies-for-women, hoodie, ai-art, intake-done.
-- **Price:** $49.99, compare-at $54.99 (R12.1 heavyweight).
+- **Price:** $49.99, no compare-at (R12.1 honest compare-at, 2026-10-17) (R12.1 heavyweight).
 ---
 ## Log
 - 2026-10-17 03:19 UTC director: brief written, READY (low-KD sweep 2026-10-17 03:10 run; keyword measured this run).

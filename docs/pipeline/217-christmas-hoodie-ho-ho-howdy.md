@@ -14,7 +14,7 @@ handle: womens-christmas-ho-ho-howdy-hoodie
 - **Cover:** registry #290. Scene: a ranch porch with a wreath on the fence, hay bales and string lights, a cowboy hat on her head. Real pullover hoodie with the hood visible, the blank's real color, generated with the product's own Printful mockup in that color as the `--design` reference; hands empty or at the sides, nothing over any part of the print; read every word against the art before saving (R6.7, R6.8, R6.9).
 - **Title / handle:** "Women's Christmas – Ho Ho Howdy Hoodie" / `womens-christmas-ho-ho-howdy-hoodie` (R7.4; handle suffix sets the audit price, R12.1).
 - **Tags:** christmas-hoodies, western-hoodies, graphic-hoodies-for-women, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
-- **Price (R12.1):** $39.99, compare-at $44.99.
+- **Price (R12.1):** $39.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 19:05 UTC director: brief written, READY (lane A holiday hoodie twin, R11.5).

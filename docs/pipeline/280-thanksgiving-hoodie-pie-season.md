@@ -15,7 +15,7 @@ kd: 54
 - **Cover:** registry #461 — woman. Scene: a farm-stand pie table with pumpkins and hay bales, golden hour. Visible hood, the blank's real color, product's own Printful mockup as `--design`, hands empty or a prop at the hip, nothing over any part of the print; read every word against the art before saving (R6.8, R6.9).
 - **Title / handle:** "Women's Thanksgiving – Pie Season Pumpkin Hoodie" / `womens-thanksgiving-pie-season-pumpkin-hoodie` (R7.4).
 - **Tags:** graphic-hoodies-for-women, hoodie, ai-art, intake-done.
-- **Price (R12.1):** $39.99, compare-at $44.99.
+- **Price (R12.1):** $39.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).

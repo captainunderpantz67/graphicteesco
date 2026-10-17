@@ -15,7 +15,7 @@ kd: 55
 - **Cover:** registry #460 — woman. Scene: a friends' dinner table with candles and pies, friends blurred behind. Visible hood, the blank's real color, product's own Printful mockup as `--design`, hands empty or a prop at the hip, nothing over any part of the print; read every word against the art before saving (R6.8, R6.9).
 - **Title / handle:** "Women's Thanksgiving – Friendsgiving Hoodie" / `womens-thanksgiving-friendsgiving-hoodie` (R7.4).
 - **Tags:** graphic-hoodies-for-women, hoodie, ai-art, intake-done (there is no thanksgiving hoodie collection yet; the director decides after the first two Thanksgiving hoodies are live).
-- **Price (R12.1):** $39.99, compare-at $44.99.
+- **Price (R12.1):** $39.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).

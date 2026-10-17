@@ -18,7 +18,7 @@ kd: 43
 - **Cover:** registry #455 — man. Scene: an office holiday party, a table of wrapped gifts behind him, paper streamers; he holds a wrapped gift low at his hip, nothing over the print (R6.4, R6.5, R6.9).
 - **Title / handle:** "Men's Christmas – White Elephant Champion Tee" / `mens-christmas-white-elephant-champion-graphic-tee` (R7.4). Copy line one names the joke and the occasion (R9.11).
 - **Tags (R7.5):** christmas-shirts, graphic-tees-for-men, funny-graphic-tees, retro-graphic-tees, ai-art, intake-done.
-- **Price (R12.1):** $24.99, compare-at $29.99.
+- **Price (R12.1):** $24.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).

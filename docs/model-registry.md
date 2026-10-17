@@ -409,3 +409,20 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 516 | Puerto Rican man, late 20s, short curly dark hair, light beard, round glasses | RESERVED — #329 Sleeves Optional dinosaur hoodie cover (with #517) |
 | 517 | White woman, late 20s, auburn shoulder-length hair with a center part, small silver studs | RESERVED — #329 Sleeves Optional dinosaur hoodie cover (with #516) |
 | 518 | Samoan-American man, early 30s, long dark hair in a low bun, broad shoulders, clean-shaven | RESERVED — #330 Surf's Down zip hoodie cover |
+| 519 | Ghanaian-American man, late 30s, shaved head, full black beard, warm smile | RESERVED — #331 Midnight Is a Suggestion NYE tee cover (with #520) |
+| 520 | Vietnamese-American woman, late 30s, chin-length black bob with blunt bangs | RESERVED — #331 Midnight Is a Suggestion NYE tee cover (with #519) |
+| 521 | Lebanese-American woman, early 30s, long dark spiral curls, gold hoops | RESERVED — #332 Resolutions Pending NYE tee cover |
+| 522 | White man, early 50s, short salt-and-pepper hair, clean-shaven, reading glasses pushed up on his head | RESERVED — #333 New Year, Same Guy tee cover |
+| 523 | Cuban-American man, mid 30s, short skin fade, neat goatee | RESERVED — #334 Laying Low Till Friday turkey hoodie cover (with #524) |
+| 524 | White woman, mid 40s, short silver-blonde bob, light laugh lines | RESERVED — #334 Laying Low Till Friday turkey hoodie cover (with #523) |
+| 525 | Black woman, mid 20s, long box braids in a high ponytail | RESERVED — #335 Snow Problem hoodie Seedream cover (when fal returns) |
+| 526 | Italian-American woman, early 60s, short silver curls, red lipstick, tortoiseshell glasses | RESERVED — #336 Professional Spoiler nana hoodie cover |
+| 527 | Colombian-American woman, late 20s, long straight dark brown hair, small nose ring | RESERVED — #337 Professional Lap Dog pitbull hoodie cover (with #528) |
+| 528 | White man, early 30s, short brown hair, full red beard, stocky | RESERVED — #337 Professional Lap Dog pitbull hoodie cover (with #527) |
+| 529 | Japanese-American man, early 20s, shaggy black hair, slim | RESERVED — #338 Gravity 47 skateboard oversized hoodie cover |
+| 530 | Iranian-American man, early 20s, short dark hair, athletic build, clean-shaven | RESERVED — #339 Professional Hugger wrestling hoodie cover |
+| 531 | White man, late 50s, long grey hair in a low ponytail, grey goatee, weathered face | RESERVED — #340 Scenic Route Only motorcycle hoodie cover |
+| 532 | White woman, early 20s, pastel pink chin-length bob, two small nose studs | RESERVED — #341 Smiling Through It axolotl hoodie cover |
+| 533 | Black man, late 20s, high-top fade, tall and lean | RESERVED — #342 Bench Captain basketball zip hoodie cover |
+| 534 | Indian-American woman, mid 20s, long dark hair in a low bun, small gold nose stud | RESERVED — #343 Child's Pose yoga cropped hoodie cover |
+| 535 | French-Canadian man, early 30s, curly brown mullet, thick moustache | RESERVED — #344 Penalty Box Regular hockey hoodie cover |

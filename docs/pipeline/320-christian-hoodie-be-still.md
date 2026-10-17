@@ -15,7 +15,7 @@ kd: 44
 - **Cover:** registry #504, woman, 40s. Scene: a white country church porch in fall, a Bible held at her side (never over the print). Real garment with the hood visible (hoodies), generated with the product's own Printful mockup in the cover color as `--design`; hands empty or in pockets; nothing over any part of the print; read every word before saving (R6.7-R6.9).
 - **Title / handle:** "Women's Christian – Be Still Heavyweight Hoodie" / `womens-christian-be-still-heavyweight-hoodie`.
 - **Tags:** christian-hoodies, heavyweight-hoodies, graphic-hoodies-for-women, hoodie, ai-art, intake-done.
-- **Price (R12.1):** $49.99, compare-at $54.99.
+- **Price (R12.1):** $49.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-17 02:28 UTC director: brief written, READY (low-KD sweep 2026-10-17; keyword measured this run).

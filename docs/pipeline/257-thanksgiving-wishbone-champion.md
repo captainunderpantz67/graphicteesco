@@ -17,7 +17,7 @@ handle: mens-thanksgiving-wishbone-champion-graphic-tee
 - **Cover:** registry #433 (Somali-American man in his late 30s, close-cropped hair, neat full beard, tall lean build) — man (R6.3). Scene: a backyard on Thanksgiving afternoon, a long family table under fall trees behind him, string lights; hands in pockets, nothing over the print (R6.4, R6.5, R6.9).
 - **Title / handle:** "Men's Thanksgiving – Wishbone Champion Tee" / `mens-thanksgiving-wishbone-champion-graphic-tee` (R7.4). Copy line one names the joke ("Undefeated Wishbone Champion") and the occasion (R9.11).
 - **Tags (R7.5):** thanksgiving-shirts, funny-thanksgiving-shirts, graphic-tees-for-men, funny-graphic-tees, retro-graphic-tees (1950s look), ai-art, intake-done.
-- **Price (R12.1):** $24.99, compare-at $29.99.
+- **Price (R12.1):** $24.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 22:25 UTC director: brief written, READY (lane A funny Thanksgiving pair for /funny-thanksgiving-shirts/, R9.11).

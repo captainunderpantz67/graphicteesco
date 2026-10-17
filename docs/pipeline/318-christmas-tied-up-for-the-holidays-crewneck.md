@@ -18,7 +18,7 @@ kd: 53
 - **Cover:** registry #502, woman, early 30s. Scene: a holiday market with lights, shopping bags at her side (R6.5). Real garment with the hood visible (hoodies), generated with the product's own Printful mockup in the cover color as `--design`; hands empty or in pockets; nothing over any part of the print; read every word before saving (R6.7-R6.9).
 - **Title / handle:** "Women's Christmas – Tied Up for the Holidays Crewneck Sweatshirt" / `womens-christmas-tied-up-for-the-holidays-crewneck-sweatshirt` (R7.3).
 - **Tags (R7.5):** christmas-sweatshirts, sweatshirt, christmas, ai-art, intake-done.
-- **Price (R12.1):** $34.99, compare-at $39.99.
+- **Price (R12.1):** $34.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-17 02:26 UTC director: brief written, READY (low-KD sweep 2026-10-17, card step 5; keyword measured this run).

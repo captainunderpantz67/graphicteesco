@@ -14,7 +14,7 @@ handle: unisex-christmas-north-woods-moose-hoodie
 - **Cover:** registry 2050. Scene: a snowy lake cabin dock at dusk with a canoe flipped on the shore, mugs held at the side. Real pullover hoodie with the hood visible, art flattened onto the garment color before --design, nothing over the print (R6.7, R6.8 hoodie-cover line).
 - **Title / handle:** "Unisex Christmas – North Woods Moose Hoodie" / `unisex-christmas-north-woods-moose-hoodie` (R7.4).
 - **Tags:** graphic-hoodies-for-men, graphic-hoodies-for-women, christmas-hoodies, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
-- **Price (R12.1):** $39.99, compare-at $44.99.
+- **Price (R12.1):** $39.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 17:20 UTC director: brief written, READY (lane A Christmas hoodie twins, R11.5).

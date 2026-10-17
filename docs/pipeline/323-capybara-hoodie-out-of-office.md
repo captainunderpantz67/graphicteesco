@@ -18,7 +18,7 @@ kd: 16
 - **Cover:** registry #508, woman, late 20s. Scene: a cozy cabin deck by a lake in late fall, a steaming mug on the rail beside her (not in hand over the print), golden hour. Real garment with the hood visible, generated with the product's own Printful mockup in the cover color as `--design`; hands empty or in pockets; nothing over any part of the print; read every word before saving (R6.7-R6.9).
 - **Title / handle:** "Women's Capybara – Out of Office (Soaking) Oversized Hoodie" / `womens-capybara-out-of-office-soaking-oversized-hoodie` (R7.4). Copy line one names the joke (R9.11).
 - **Tags:** oversized-hoodies, graphic-hoodies-for-women, hoodie, ai-art, intake-done.
-- **Price:** $54.99, compare-at $59.99 (R12.1 oversized).
+- **Price:** $54.99, no compare-at (R12.1 honest compare-at, 2026-10-17) (R12.1 oversized).
 ---
 ## Log
 - 2026-10-17 03:19 UTC director: brief written, READY (low-KD sweep 2026-10-17 03:10 run; keyword measured this run).

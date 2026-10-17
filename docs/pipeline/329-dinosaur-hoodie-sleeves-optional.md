@@ -18,7 +18,7 @@ kd: 28
 - **Cover:** registry #516 man with #517 woman, both in the hoodie, at a natural history museum's front steps on a fall day. Real garment with the hood visible (zip-ups zip at the front), generated with the product's own Printful mockup in the cover color as `--design`; hands empty or in pockets; nothing over any part of the print; read every word before saving (R6.7-R6.9).
 - **Title / handle:** "Unisex Dinosaur – Sleeves Optional Oversized Hoodie" / `unisex-dinosaur-sleeves-optional-oversized-hoodie` (R7.4). Copy line one names the joke (R9.11).
 - **Tags:** oversized-hoodies, oversized-hoodies-for-men, graphic-hoodies-for-men, graphic-hoodies-for-women, hoodie, ai-art, intake-done.
-- **Price:** $54.99, compare-at $59.99 (R12.1 oversized).
+- **Price:** $54.99, no compare-at (R12.1 honest compare-at, 2026-10-17) (R12.1 oversized).
 ---
 ## Log
 - 2026-10-17 03:23 UTC director: brief written, READY (low-KD sweep 2026-10-17; keyword measured this run).

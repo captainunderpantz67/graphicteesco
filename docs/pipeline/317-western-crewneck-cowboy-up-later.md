@@ -15,7 +15,7 @@ kd: 44
 - **Cover:** registry #501, man, 30s (not the #313 face). Scene: a rodeo arena fence at dusk, stands behind (no readable signs). Real garment with the hood visible (hoodies), generated with the product's own Printful mockup in the cover color as `--design`; hands empty or in pockets; nothing over any part of the print; read every word before saving (R6.7-R6.9).
 - **Title / handle:** "Men's Western – Cowboy Up. Later. Crewneck Sweatshirt" / `mens-western-cowboy-up-later-crewneck-sweatshirt`.
 - **Tags (R7.5 crewneck):** sweatshirt + the cold-weather sweatshirt tags only (no tee tags), ai-art, intake-done.
-- **Price (R12.1):** $34.99, compare-at $39.99.
+- **Price (R12.1):** $34.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-17 02:26 UTC director: brief written, READY (low-KD sweep 2026-10-17, card step 5; keyword measured this run).

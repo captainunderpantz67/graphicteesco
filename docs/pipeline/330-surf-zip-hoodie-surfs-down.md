@@ -18,7 +18,7 @@ kd: 32
 - **Cover:** registry #518, man, 30s. Scene: a beach parking lot at dawn by a pickup with a surfboard in the bed, ocean behind, zip-up worn half-zipped so the print shows, hands empty. Real garment with the hood visible (zip-ups zip at the front), generated with the product's own Printful mockup in the cover color as `--design`; hands empty or in pockets; nothing over any part of the print; read every word before saving (R6.7-R6.9).
 - **Title / handle:** "Men's Surf – Surf's Down, Coffee's Up Zip Hoodie" / `mens-surf-surfs-down-coffees-up-zip-hoodie` (R7.4). Copy line one names the joke (R9.11).
 - **Tags:** zip-up-hoodies, zip-up-hoodies-for-men, graphic-hoodies-for-men, hoodie, ai-art, intake-done.
-- **Price:** $44.99, compare-at $49.99 (R12.1 zip-up).
+- **Price:** $44.99, no compare-at (R12.1 honest compare-at, 2026-10-17) (R12.1 zip-up).
 ---
 ## Log
 - 2026-10-17 03:23 UTC director: brief written, READY (low-KD sweep 2026-10-17; keyword measured this run).

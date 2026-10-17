@@ -16,7 +16,7 @@ handle: mens-christmas-resting-my-eyes-graphic-tee
 - **Popularity evidence (R5.2):** funny dad shirt 5,400/58 and dad joke shirt 1,300/52 measured this run (dad humor sells all year, gift spike in December); funny christmas shirt 8,100/58 anchor (R3.6).
 - **Cover:** registry #413 (Mexican-American man in his early 50s, salt-and-pepper mustache, receding hairline, stocky build) — man (R6.3). Scene: a living room on Christmas afternoon, wrapping paper on the floor, tree lit; he stands by the armchair, coffee mug at his side, nothing over the print (R6.5, R6.9).
 - **Tags (R7.5):** christmas-shirts, graphic-tees-for-men, funny-graphic-tees, retro-graphic-tees (1950s look), ai-art, intake-done.
-- **Price (R12.1):** $24.99, compare-at $29.99.
+- **Price (R12.1):** $24.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 19:21 UTC director: brief written, READY (lane A men's Christmas pair: tee + crewneck #240).

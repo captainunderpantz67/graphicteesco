@@ -18,7 +18,7 @@ kd: 46
 - **Cover:** registry #462 — woman. Scene: an outdoor shopping street at dawn with string lights, shopping bags at her side (props at the hip, R6.5), nothing over the print.
 - **Title / handle:** "Women's Black Friday – In It for the Doorbusters Tee" / `womens-black-friday-in-it-for-the-doorbusters-graphic-tee`. Copy line one names the joke and the occasion (R9.11).
 - **Tags (R7.5):** thanksgiving-shirts, funny-thanksgiving-shirts, graphic-tees-for-women, funny-graphic-tees, ai-art, intake-done.
-- **Price (R12.1):** $24.99, compare-at $29.99. Build before Nov 1 (the surge starts in October).
+- **Price (R12.1):** $24.99, no compare-at (R12.1 honest compare-at, 2026-10-17). Build before Nov 1 (the surge starts in October).
 ---
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).

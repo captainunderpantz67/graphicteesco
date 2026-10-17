@@ -18,7 +18,7 @@ kd: 14
 - **Cover:** registry #493, man (R6.3). Scene: a lake dock at sunrise, a fishing rod leaning on the post behind him (not in hand). Real garment with the hood visible (hoodies), generated with the product's own Printful mockup in the cover color as `--design`; hands empty or in pockets; nothing over any part of the print; read every word before saving (R6.7-R6.9).
 - **Title / handle:** "Men's Christian – Fishers of Men Hoodie" / `mens-christian-fishers-of-men-hoodie`.
 - **Tags:** graphic-hoodies-for-men, christian-hoodies, fishing-hoodies, hoodie, ai-art, intake-done.
-- **Price (R12.1):** $39.99, compare-at $44.99.
+- **Price (R12.1):** $39.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-17 02:26 UTC director: brief written, READY (low-KD sweep 2026-10-17, card step 5; keyword measured this run).

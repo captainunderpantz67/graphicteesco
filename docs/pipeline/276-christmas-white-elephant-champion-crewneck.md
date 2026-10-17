@@ -15,7 +15,7 @@ kd: 60
 - **Cover:** registry #456 — man. Scene: a living room gift swap, a circle of chairs and torn wrapping paper behind him; hands empty, nothing over the print (R6.4, R6.9).
 - **Title / handle:** "Men's Christmas – White Elephant Champion Crewneck Sweatshirt" / `mens-christmas-white-elephant-champion-crewneck-sweatshirt` (R7.3, R7.4).
 - **Tags (R7.5):** christmas-sweatshirts, sweatshirt, christmas. No tee tags.
-- **Price (R12.1):** $34.99, compare-at $39.99.
+- **Price (R12.1):** $34.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).

@@ -18,7 +18,7 @@ kd: 20
 - **Cover:** registry #512, woman, 30s. Scene: at a farmers market flower stall in fall, a bunch of flowers held at her hip (not over the print). Real garment with the hood visible, generated with the product's own Printful mockup in the cover color as `--design`; hands empty or in pockets; nothing over any part of the print; read every word before saving (R6.7-R6.9).
 - **Title / handle:** "Women's Bee – Busy Bee (Off Duty) Hoodie" / `womens-bee-busy-bee-off-duty-hoodie` (R7.4). Copy line one names the joke (R9.11).
 - **Tags:** graphic-hoodies-for-women, hoodie, ai-art, intake-done.
-- **Price:** $39.99, compare-at $44.99 (R12.1 pullover).
+- **Price:** $39.99, no compare-at (R12.1 honest compare-at, 2026-10-17) (R12.1 pullover).
 ---
 ## Log
 - 2026-10-17 03:19 UTC director: brief written, READY (low-KD sweep 2026-10-17 03:10 run; keyword measured this run).

@@ -17,7 +17,7 @@ handle: mens-thanksgiving-technically-a-vegetable-graphic-tee
 - **Cover:** registry #431 (Indian-American man in his mid 40s, short side-parted black hair greying at the temples, clean-shaven, rectangular glasses) — man (R6.3). Scene: a Thanksgiving potluck table in a backyard under fall trees, casserole dishes and pies on a long table behind him; hands in pockets or one resting on the table edge, nothing over the print (R6.4, R6.5, R6.9).
 - **Title / handle:** "Men's Thanksgiving – Technically a Vegetable Tee" / `mens-thanksgiving-technically-a-vegetable-graphic-tee` (R7.4). Copy line one names the joke and the occasion (R9.11).
 - **Tags (R7.5):** thanksgiving-shirts, funny-thanksgiving-shirts, graphic-tees-for-men, funny-graphic-tees, retro-graphic-tees (1950s look), ai-art, intake-done.
-- **Price (R12.1):** $24.99, compare-at $29.99.
+- **Price (R12.1):** $24.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 22:25 UTC director: brief written, READY (lane A funny Thanksgiving pair for /funny-thanksgiving-shirts/, R9.11).

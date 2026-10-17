@@ -14,7 +14,7 @@ handle: womens-christmas-pink-christmas-trees-crewneck-sweatshirt
 - **Cover:** registry #291 — woman (R6.3). Scene: a pink-and-white decorated Christmas market stall, shopping bag at her hip. Festive props at the hip or to the side, never over the print (R6.5); read every word of the print against the art before saving (R6.9).
 - **Title / handle:** "Women's Christmas – Pink Christmas Trees Crewneck Sweatshirt" / `womens-christmas-pink-christmas-trees-crewneck-sweatshirt` (R7.3).
 - **Tags (R7.5):** christmas-sweatshirts, sweatshirt only.
-- **Price (R12.1):** $34.99, compare-at $39.99.
+- **Price (R12.1):** $34.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 19:05 UTC director: brief written, READY (R7.3 holiday pair: this tee had no crewneck twin).

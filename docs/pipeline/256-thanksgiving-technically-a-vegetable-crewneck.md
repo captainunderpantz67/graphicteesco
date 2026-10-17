@@ -14,7 +14,7 @@ handle: mens-thanksgiving-technically-a-vegetable-crewneck-sweatshirt
 - **Cover:** registry #432 (Egyptian-American man in his early 50s, thick wavy grey hair, short salt-and-pepper beard, sturdy build) — man, dad age (R6.3, R6.6). Scene: a cozy dining room on Thanksgiving afternoon, the table being cleared, fall leaves outside the window; hands empty at his sides, nothing over the print (R6.4, R6.5, R6.9).
 - **Title / handle:** "Men's Thanksgiving – Technically a Vegetable Crewneck Sweatshirt" / `mens-thanksgiving-technically-a-vegetable-crewneck-sweatshirt` (R7.3, R7.4).
 - **Tags (R7.5):** thanksgiving-sweatshirts, sweatshirt, thanksgiving. No tee tags.
-- **Price (R12.1):** $34.99, compare-at $39.99.
+- **Price (R12.1):** $34.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 22:25 UTC director: brief written, READY (lane A funny Thanksgiving pair for /funny-thanksgiving-shirts/, R9.11).

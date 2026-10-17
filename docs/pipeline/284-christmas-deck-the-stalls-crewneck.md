@@ -15,7 +15,7 @@ kd: 62
 - **Cover:** registry #465 — woman. Scene: a snowy paddock fence at golden hour with a horse behind her; hands empty or on the fence rail beside her, nothing over the print (R6.4, R6.9).
 - **Title / handle:** "Women's Christmas – Deck the Stalls Western Crewneck Sweatshirt" / `womens-christmas-deck-the-stalls-western-crewneck-sweatshirt` (R7.3, R7.4).
 - **Tags (R7.5):** christmas-sweatshirts, sweatshirt, christmas. No tee tags.
-- **Price (R12.1):** $34.99, compare-at $39.99.
+- **Price (R12.1):** $34.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).

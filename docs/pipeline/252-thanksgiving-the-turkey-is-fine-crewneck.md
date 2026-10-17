@@ -14,7 +14,7 @@ handle: womens-thanksgiving-the-turkey-is-fine-crewneck-sweatshirt
 - **Cover:** registry #428 (Jamaican-American woman in her early 40s, chin-length relaxed bob with side-swept bangs, small gold studs) — woman (R6.3). Scene: a farmhouse dining room set for Thanksgiving, candles lit and a roast turkey on the table behind her; hands empty at her sides, nothing over the print (R6.4, R6.5, R6.9).
 - **Title / handle:** "Women's Thanksgiving – The Turkey Is Fine Crewneck Sweatshirt" / `womens-thanksgiving-the-turkey-is-fine-crewneck-sweatshirt` (R7.3, R7.4).
 - **Tags (R7.5):** thanksgiving-sweatshirts, sweatshirt, thanksgiving. No tee tags.
-- **Price (R12.1):** $34.99, compare-at $39.99.
+- **Price (R12.1):** $34.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 22:25 UTC director: brief written, READY (lane A funny Thanksgiving pair for /funny-thanksgiving-shirts/, R9.11).

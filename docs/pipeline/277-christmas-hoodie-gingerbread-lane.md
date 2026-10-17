@@ -15,7 +15,7 @@ kd: 49
 - **Cover:** registry #457 — woman. Scene: a home kitchen with a gingerbread house on the counter and cookie trays, warm light. Visible hood, the blank's real color, product's own Printful mockup as `--design`, hands empty or a prop at the hip, nothing over any part of the print; read every word against the art before saving (R6.8, R6.9).
 - **Title / handle:** "Women's Christmas – Gingerbread Lane Hoodie" / `womens-christmas-gingerbread-lane-hoodie` (R7.4).
 - **Tags:** christmas-hoodies, graphic-hoodies-for-women, hoodie, ai-art, intake-done.
-- **Price (R12.1):** $39.99, compare-at $44.99.
+- **Price (R12.1):** $39.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).

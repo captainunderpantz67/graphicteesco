@@ -14,7 +14,7 @@ handle: womens-christmas-on-the-farm-horse-hoodie
 - **Cover:** registry #285. Scene: a snowy horse barn aisle with a wreath on a stall door, a horse looking over the half door beside her. Real pullover hoodie with the hood visible, the blank's real color, generated with the product's own Printful mockup in that color as the `--design` reference; hands empty or at the sides, nothing over any part of the print; read every word against the art before saving (R6.7, R6.8, R6.9).
 - **Title / handle:** "Women's Christmas – Christmas on the Farm Horse Hoodie" / `womens-christmas-on-the-farm-horse-hoodie` (R7.4; handle suffix sets the audit price, R12.1).
 - **Tags:** christmas-hoodies, graphic-hoodies-for-women, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
-- **Price (R12.1):** $39.99, compare-at $44.99.
+- **Price (R12.1):** $39.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 19:05 UTC director: brief written, READY (lane A holiday hoodie twin, R11.5).

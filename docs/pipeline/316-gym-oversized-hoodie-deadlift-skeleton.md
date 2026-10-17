@@ -15,7 +15,7 @@ kd: 37
 - **Cover:** registry #500, man, late 20s. Scene: a garage gym with a barbell rack behind him (no plates in hand). Real garment with the hood visible (hoodies), generated with the product's own Printful mockup in the cover color as `--design`; hands empty or in pockets; nothing over any part of the print; read every word before saving (R6.7-R6.9).
 - **Title / handle:** "Men's Gym – Deadlift Skeleton Oversized Hoodie" / `mens-gym-deadlift-skeleton-oversized-hoodie`.
 - **Tags:** graphic-hoodies-for-men, oversized-hoodies, oversized-hoodies-for-men, gym-hoodies, gym-hoodies-for-men, hoodie, ai-art, intake-done.
-- **Price (R12.1):** $54.99, compare-at $59.99.
+- **Price (R12.1):** $54.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-17 02:26 UTC director: brief written, READY (low-KD sweep 2026-10-17, card step 5; keyword measured this run).

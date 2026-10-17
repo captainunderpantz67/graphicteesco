@@ -15,7 +15,7 @@ kd: 24
 - **Cover:** registry #453 + #454 — man AND woman in matching crewnecks, alt starts "Man and woman …" (R6.3). Scene: a snowy front porch with a wreath on the door, as if outside for the card photo; hands empty, nothing over either print (R6.4, R6.9).
 - **Title / handle:** "Unisex Christmas – Card Photo Survivor Crewneck Sweatshirt" / `unisex-christmas-card-photo-survivor-crewneck-sweatshirt` (R7.3, R7.4).
 - **Tags (R7.5):** christmas-sweatshirts, sweatshirt, christmas. No tee tags.
-- **Price (R12.1):** $34.99, compare-at $39.99.
+- **Price (R12.1):** $34.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).

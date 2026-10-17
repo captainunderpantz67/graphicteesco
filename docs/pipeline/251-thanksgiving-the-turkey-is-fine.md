@@ -17,7 +17,7 @@ handle: womens-thanksgiving-the-turkey-is-fine-graphic-tee
 - **Cover:** registry #427 (Italian-American woman in her mid 40s, dark brown hair in a messy top knot, small pearl earrings) — woman, host-mom age (R6.3, R6.6). Scene: a busy home kitchen on Thanksgiving morning, roasting pan and pies on the counter behind her, warm window light; oven mitt in one hand at her side, nothing over the print (R6.4, R6.5, R6.9).
 - **Title / handle:** "Women's Thanksgiving – The Turkey Is Fine Tee" / `womens-thanksgiving-the-turkey-is-fine-graphic-tee` (R7.4). Copy line one names the joke and the occasion (R9.11).
 - **Tags (R7.5):** thanksgiving-shirts, funny-thanksgiving-shirts, graphic-tees-for-women, funny-graphic-tees, retro-graphic-tees (1950s look), ai-art, intake-done.
-- **Price (R12.1):** $24.99, compare-at $29.99.
+- **Price (R12.1):** $24.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 22:25 UTC director: brief written, READY (lane A funny Thanksgiving pair for /funny-thanksgiving-shirts/, R9.11).

@@ -18,7 +18,7 @@ kd: 52
 - **Cover:** registry #451 + #452 — man AND woman, a couple in matching tees, alt starts "Man and woman …" (R6.3). Scene: a living room by a lit tree with a camera on a tripod in the corner, both laughing; hands empty or at their sides, nothing over either print (R6.4, R6.9).
 - **Title / handle:** "Unisex Christmas – Card Photo Survivor Tee" / `unisex-christmas-card-photo-survivor-graphic-tee` (R7.4). Copy line one names the joke and the occasion (R9.11).
 - **Tags (R7.5):** christmas-shirts, graphic-tees-for-men, graphic-tees-for-women, funny-graphic-tees, retro-graphic-tees (1960s card look), ai-art, intake-done. Unisex, so the cover MUST show a man and a woman.
-- **Price (R12.1):** $24.99, compare-at $29.99.
+- **Price (R12.1):** $24.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).

@@ -14,7 +14,7 @@ handle: womens-christmas-candy-cane-club-crewneck-sweatshirt
 - **Cover:** registry #411 (Korean-American woman in her early 30s, long hair in a high ponytail with a red velvet bow) — woman (R6.3). Scene: a candy shop or Christmas market sweets stall with striped jars; shopping bag at her hip, nothing over the print (R6.5, R6.9).
 - **Title / handle:** "Women's Christmas – Candy Cane Club Crewneck Sweatshirt" / `womens-christmas-candy-cane-club-crewneck-sweatshirt`.
 - **Tags (R7.5):** christmas-sweatshirts, sweatshirt, christmas.
-- **Price (R12.1):** $34.99, compare-at $39.99.
+- **Price (R12.1):** $34.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 19:21 UTC director: brief written, READY (R7.3 holiday pair: this tee had no crewneck twin).

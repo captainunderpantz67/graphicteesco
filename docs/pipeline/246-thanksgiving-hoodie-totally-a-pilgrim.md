@@ -14,7 +14,7 @@ handle: unisex-thanksgiving-totally-a-pilgrim-hoodie
 - **Cover:** registry #419 + #420 (#419 Black man in his early 40s, shaved head, full black beard, lean; #420 white woman in her late 30s, platinum blonde lob, red lipstick) — man AND woman, alt starts "Man and woman …" (R6.3). Scene: a farmhouse porch in late fall, pumpkins and corn stalks by the door, golden hour. Real pullover with the hood visible, the blank's real color, generated with the product's own Printful mockup in that color as the `--design` reference; hands empty (pockets or sides), no cups, nothing over any part of the print; read every word against the art before saving (R6.7–R6.9).
 - **Title / handle:** "Unisex Thanksgiving – Totally a Pilgrim Hoodie" / `unisex-thanksgiving-totally-a-pilgrim-hoodie` (R7.4; handle suffix sets the audit price, R12.1).
 - **Tags:** graphic-hoodies-for-women, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
-- **Price (R12.1):** $39.99, compare-at $44.99.
+- **Price (R12.1):** $39.99, no compare-at (R12.1 honest compare-at, 2026-10-17).
 ---
 ## Log
 - 2026-10-16 21:17 UTC director: brief written, READY (lane A holiday hoodie twin, R11.5).
