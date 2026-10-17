@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-18 01:45 UTC
+status: REVIEW
 lane: B
 type: new
 id: 455
@@ -27,3 +27,4 @@ kd: 17
 - 2026-10-17 16:00 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363812753712 (Navy + Sport Grey x S-3XL, $34.99; keyword ugly hanukkah sweater 1600/KD17; FAQs 5 incl. order-by Nov 20). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane B.
 - 2026-10-18 02:15 UTC builder [B]: art via Recraft (1 image, no lettering; faux cross-stitch dreidel + gelt) + SPIN / RESPONSIBLY in AlfaSlabOne gold with blue stroke (designs/b/hk.json, hk-print.png; ratio 1.11). Reads on Navy and Sport Grey; the dark blue dreidel body is dimmer on Navy but the cream/sky faces and gold carry it. Copy fixed ('hand-drawn letters with a stitched texture' -> chunky gold capitals outlined in blue); FAQ 5 x 42-52 words, order-by Nov 20 for Hanukkah Dec 4. Printful file 1088463459, FW 1650 TOP 75, sync pid 482511362 running. Mockups per color + back attached. Cover #653 + #654, 2 tries (~$0.08): try 1 her sleeve clipped the R on his print; try 2 his sleeve slightly clips the Y on hers (word still reads). Kept try 2, director please judge. kw ugly hanukkah sweater 1600/17.
+- 2026-10-17 20:53 UTC builder [B]: synced 12/12. REVIEW. Sheet docs/review/455.jpg.
