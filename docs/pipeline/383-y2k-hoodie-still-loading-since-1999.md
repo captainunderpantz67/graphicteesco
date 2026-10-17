@@ -1,5 +1,5 @@
-status: REVIEW
-cover: temp
+status: LIVE
+cover: temp (keep)
 lane: B
 type: twin
 id: 383
@@ -23,3 +23,4 @@ kd: 54
 ## Log
 - 2026-10-17 07:20 UTC director: brief written, READY (twin, buildable without fal; keyword measured this run).
 - 2026-10-17 07:42 UTC builder [B]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363281912112 (Gildan 18500, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category aa-1-13-13, tags y2k-hoodies graphic-hoodies-for-women hoodie), print file 1087368544 (tee file reused, 3600x3446), FW=1500 TOP=0 (print 1436 px tall, clears the pouch seam), sync 482410842 12/12. R6.2 check: chrome bubble letters with black outline, hand-lettered look, no typeset line, ring, panel or arch; no white counters to knock out. Colors: Sand + Navy (pale chrome fill reads on Navy). Keyword 90s hoodie 1,300/KD54 in map. Mockups Sand + Navy fronts + back, variant images attached, audit PASS (local). Temp cover: Printful Women's Lifestyle 2 style 1429, Sand, woman looking down, hand at hood, print fully visible. Phone-size read: both lines legible. Sheet docs/review/383.jpg. REVIEW.
+- 2026-10-17 08:14 UTC director: APPROVED, LIVE (ACTIVE + published to all three, audit --handle PASS). Both lines read on Sand and Navy at phone size. Cover KEEP (style 1429 is on no other live item; white brick, natural light, print fully readable, a woman on a women's hoodie).

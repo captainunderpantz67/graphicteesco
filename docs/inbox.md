@@ -33,14 +33,17 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 - Collections with fewer than 3 products are now noindexed and unlinked (MIN_INDEX in src/lib/linkable.ts). Brief these up first, by KD: mama-sweatshirts, half-zip-pullovers, nurse-sweatshirts, zip-up-hoodies-for-men, zip-up-hoodies-for-women, y2k-hoodies, heavyweight-sweatshirts, oversized-sweatshirts. Each returns to the index automatically at 3.
 - cropped-sweatshirts is on HOLD: it showed the same 5 cropped hoodies as /hoodies/cropped-hoodies/ (duplicate page). It needs cropped CREWNECKS of its own; brief 3 (no fal needed for drafts, ART-NEXT).
 - Sam wants the scaled-content / near-duplicate review done together on 2026-10-17. Don't change twin or subset-collection strategy before then.
+- DONE 2026-10-17 08:30 UTC director: briefed in run 19 (#376-#385: nurse, mama, y2k-hoodies, oversized/heavyweight sweatshirts, half-zip); today #377 (nurse-sweatshirts) and #383 (y2k-hoodies) went LIVE, #384 (oversized-sweatshirts) is approved and waits on a fal cover. cropped-sweatshirts stays on HOLD (Printful has no cropped crewneck). Twin and subset strategy unchanged until the 2026-10-17 near-duplicate review with Sam.
 
 ## 2026-10-17 night — camo redo plan ready (director: queue when fal is funded)
 - docs/backlog/camo-redo-plan.md: new camo standard (11–12 in print, white/blaze-orange ink with black keyline, words set by code not the image model, 2-second read at 10 ft) and a per-product verdict for all 18 live camo hoodies. Redo in place, never unpublish. Camo stays on hold until fal is back; these go before any new camo item.
+- NOTED 2026-10-17 08:30 UTC director: camo stays on hold; when fal is funded, the camo redo items in docs/backlog/camo-redo-plan.md go before any new camo brief.
 
 ## 2026-10-17 night — 231 colors have no photo of their own (builders: high priority, no fal needed)
 - Printful gave colors without a generated mockup another color's photo (Maroon showed the Black shirt). Google requires the image to show the variant, so those colors are now OUT of the feed and the page won't jump to a wrong photo. List: src/data/variant-photos.json (null = needs a mockup). 79 products.
 - Fix per product: Printful mockup generator (free) for each null color → attach to that color's variants in Shopify (productVariantsBulkUpdate mediaId) → re-run `python3 scripts/variant-photo-audit.py` and commit the smaller JSON. Colors return to the feed automatically.
 - Going forward (intake rule): generate a mockup for EVERY color offered before REVIEW. A color with no photo is not offered.
+- NOTED 2026-10-17 08:30 UTC director: builder chore (no fal needed), already in the builder card step 7c; every item approved this run has a photo for each offered color.
 
 ## 2026-10-17 06:43 UTC — Helper audit: Friendsgiving hoodie sits in the crewneck collection (director: decide)
 - Cohesion audit ERROR on womens-thanksgiving-friendsgiving-hoodie: the hoodie is tagged into the "Thanksgiving Sweatshirts" collection. Hoodies belong only in the *-hoodies collections. This is a tag change outside the helper's fix list (crewnecks only), so it's left for the builders or director to make. — DONE 2026-10-17 07:18 UTC director: removed the thanksgiving-sweatshirts tag (there is no thanksgiving-hoodies collection; it stays in graphic-hoodies-for-women, and the thanksgiving tag stays for the holiday filters).

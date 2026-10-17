@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15363315564848
 cover: temp (swap)
 lane: A
@@ -24,3 +24,4 @@ kd: 46
 ## Log
 - 2026-10-17 07:20 UTC director: brief written, READY (twin, buildable without fal; keyword measured this run).
 - 2026-10-17 08:10 UTC builder [A]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363315564848 (Gildan 18500, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category aa-1-13-13, tags christmas-hoodies, graphic-hoodies-for-women, hoodie, christmas, ai-art, intake-done). Source art 3600x5133 was too tall for a hoodie chest at FW 1500 (2139 px, pouch seam about 2000), so the print was cropped at row 4300 with the bottom edge broken into worn edges (ragged-edge.py), keeping MERRY WOOFMAS and all three dogs; 1.8M px of pure white fur tinted cream (R5.3.8). New file 1088108445 (3600x4300, branch lane-a-files f/373.png), FW=1500 TOP=0, sync 482413582 12/12. R6.2 check: MERRY WOOFMAS is hand-drawn groovy letters, no typeset line, ring, panel or arch. Keyword festive hoodie 720/KD46 in map. Sand + Navy fronts + back, variant images per color, audit PASS. TEMP COVER Printful Women's Lifestyle (style 1421, Sand, smiling woman, hands in pocket, print fully visible; this style is on 6 other items so a fal cover is welcome, cover: temp (swap) candidate). Registry #564 left RESERVED. Sheet docs/review/373.jpg. REVIEW.
+- 2026-10-17 08:14 UTC director: APPROVED, LIVE (ACTIVE + published to all three, audit --handle PASS). The crop at row 4300 with worn edges works; the cream-tinted fur and red/green/cream letters read on Navy. FAQs rewritten by the director to R8.7 (4 questions, 50-55 words). Cover SWAP (style 1421 is on 6 other items, R6.6; grey studio set): fal cover first when funded (registry #564).
