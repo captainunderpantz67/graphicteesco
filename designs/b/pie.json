@@ -1,0 +1,4 @@
+{"art": "designs/b/pie-art-w.png", "art_width": 0.98, "canvas": [3600, 4500], "gap": 0,
+ "lines": [
+  {"text": "Pie Season", "font": "Yellowtail-Regular.ttf", "size": 980, "fill": "#c4552b", "stroke": 18, "stroke_fill": "#f6e8cf", "where": "above"}
+ ]}

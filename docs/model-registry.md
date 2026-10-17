@@ -346,7 +346,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 458 | Scottish-American man in his early 60s, white hair, neat white beard, wire glasses | RESERVED — #278 Bah Humbug hoodie cover (with #459) |
 | 459 | Afro-Caribbean woman in her late 50s, grey locs pinned up, wide smile | RESERVED — #278 Bah Humbug hoodie cover (with #458) |
 | 460 | Brazilian woman in her early 30s, long dark curly hair in a half-up clip, warm brown eyes | RESERVED — #279 Friendsgiving hoodie cover |
-| 461 | Polish-American woman in her mid 40s, straight ash-blonde bob, light crow's feet | RESERVED — #280 Pie Season hoodie cover |
+| 461 | Polish-American woman in her mid 40s, straight ash-blonde bob, light crow's feet | USED 2026-10-17 — #280 Pie Season hoodie cover (try 1, image 1 of 1) |
 | 462 | Vietnamese-American woman in her late 20s, long straight black hair with curtain bangs | RESERVED — #281 Doorbusters tee cover |
 | 463 | Puerto Rican man in his early 30s, short curly black hair with a fade, goatee, muscular build | RESERVED — #282 Bulking Season tee cover |
 | 464 | Texan white woman in her late 20s, long honey-blonde waves, freckles, light tan | RESERVED — #283 Deck the Stalls tee cover |
