@@ -1,6 +1,6 @@
 {
- "at": "2026-10-17T04:13:14.859Z",
- "products": 281,
+ "at": "2026-10-17T04:42:17.416Z",
+ "products": 283,
  "findings": [
   {
    "level": "WARN",
@@ -654,34 +654,6 @@
    "fix": "Set every variant to price 39.99, no compare-at."
   },
   {
-   "level": "WARN",
-   "handle": "womens-christmas-christmas-cats-hoodie",
-   "title": "Women's Christmas – Christmas Cats Hoodie",
-   "msg": "Cover alt text doesn't say who is in the photo.",
-   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-christmas-cats-hoodie",
-   "title": "Women's Christmas – Christmas Cats Hoodie",
-   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
-   "fix": "Set every variant to price 39.99, no compare-at."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-christmas-vintage-snowman-hoodie",
-   "title": "Women's Christmas – Vintage Snowman Hoodie",
-   "msg": "Cover alt text doesn't say who is in the photo.",
-   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-vintage-snowman-hoodie",
-   "title": "Women's Christmas – Vintage Snowman Hoodie",
-   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
-   "fix": "Set every variant to price 39.99, no compare-at."
-  },
-  {
    "level": "ERROR",
    "handle": "womens-christmas-golf-hoodie",
    "title": "Women's Christmas – Christmas Golf Hoodie",
@@ -963,13 +935,6 @@
   },
   {
    "level": "ERROR",
-   "handle": "unisex-thanksgiving-kids-table-alumni-crewneck-sweatshirt",
-   "title": "Unisex Thanksgiving – Kids Table Alumni Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
    "handle": "womens-y2k-hot-mess-express-zip-hoodie",
    "title": "Women's Y2K – Hot Mess Express Zip Hoodie",
    "msg": "Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant.",
@@ -1226,13 +1191,6 @@
    "title": "Women's Retro – Loose Goose Oversized Hoodie",
    "msg": "Price 54.99/59.99 (price/compare-at) — should be 54.99/- on every variant.",
    "fix": "Set every variant to price 54.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-fishing-catch-and-release-mostly-release-hoodie",
-   "title": "Men's Fishing – Catch and Release Hoodie",
-   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
-   "fix": "Set every variant to price 39.99, no compare-at."
   }
  ]
 }

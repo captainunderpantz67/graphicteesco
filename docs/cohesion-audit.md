@@ -1,11 +1,11 @@
-# Cohesion audit — 2026-10-17 04:13 UTC
+# Cohesion audit — 2026-10-17 04:42 UTC
 
-281 live products checked · **166 errors** · 10 warnings · 172 products with findings
+283 live products checked · **162 errors** · 8 warnings · 168 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
-- 166 × Price ./. — should be ./- on every variant.
+- 162 × Price ./. — should be ./- on every variant.
 
 ## By product (errors first)
 ### Women's Thanksgiving – Gobble Gobble Turkey Tee `womens-thanksgiving-gobble-gobble-graphic-tee`
@@ -267,14 +267,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Women's Christmas – Christmas Dogs Hoodie `womens-christmas-christmas-dogs-hoodie`
 - **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
 
-### Women's Christmas – Christmas Cats Hoodie `womens-christmas-christmas-cats-hoodie`
-- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
-### Women's Christmas – Vintage Snowman Hoodie `womens-christmas-vintage-snowman-hoodie`
-- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
 ### Women's Christmas – Christmas Golf Hoodie `womens-christmas-golf-hoodie`
 - **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
 
@@ -393,9 +385,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Unisex Thanksgiving – Kids Table Alumni Tee `unisex-thanksgiving-kids-table-alumni-graphic-tee`
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
 
-### Unisex Thanksgiving – Kids Table Alumni Crewneck Sweatshirt `unisex-thanksgiving-kids-table-alumni-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
 ### Women's Y2K – Hot Mess Express Zip Hoodie `womens-y2k-hot-mess-express-zip-hoodie`
 - **ERROR** Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant. → Set every variant to price 44.99, no compare-at.
 
@@ -506,9 +495,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Women's Retro – Loose Goose Oversized Hoodie `womens-retro-loose-goose-oversized-hoodie`
 - **ERROR** Price 54.99/59.99 (price/compare-at) — should be 54.99/- on every variant. → Set every variant to price 54.99, no compare-at.
-
-### Men's Fishing – Catch and Release Hoodie `mens-fishing-catch-and-release-mostly-release-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
 
 ### Unisex Halloween – Midnight Feature Tee `unisex-halloween-midnight-feature-graphic-tee`
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
