@@ -5358,6 +5358,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-car-not-stopping-hold-it-hoodie": {
+   "claimed": [
+    "car hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "car hoodie",
+     "volume": 2900,
+     "kd": 36
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
