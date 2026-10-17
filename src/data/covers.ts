@@ -421,6 +421,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-chess-calculated-mostly-zip-hoodie': { src: '/covers/mens-chess-calculated-mostly-zip-hoodie.webp', alt: 'Man seen from behind in a navy Calculated. Mostly. chess zip hoodie, smiling over his shoulder at a park chess table at dusk under a street lamp' },
   'womens-western-yeehaw-but-quietly-crewneck-sweatshirt': { src: '/covers/womens-western-yeehaw-but-quietly-crewneck-sweatshirt.webp', alt: 'Woman in a sand Yeehaw but Quietly teacup western crewneck sweatshirt on a ranch porch at golden hour with a split-rail fence behind her, holding a tan felt hat at her side' },
   'mens-mountain-bike-pedal-pusher-heavyweight-hoodie': { src: '/covers/mens-mountain-bike-pedal-pusher-heavyweight-hoodie.webp', alt: 'Man in a Storm Blue Pedal Pusher Mostly Pushing mountain bike heavyweight hoodie with his hands in the pouch on an autumn forest trail, his bike leaning on a fence' },
+  'womens-soccer-orange-slice-manager-zip-hoodie': { src: '/covers/womens-soccer-orange-slice-manager-zip-hoodie.webp', alt: 'Woman looking over her shoulder in a navy Orange Slice Manager zip hoodie, smiling on a youth soccer sideline with folding chairs and a goal behind her' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
