@@ -1,4 +1,5 @@
-status: READY
+status: ART-NEXT
+shopify: gid://shopify/Product/15363409772848
 lane: B
 type: new
 id: 394
@@ -23,3 +24,4 @@ kd: 52
 ---
 ## Log
 - 2026-10-17 08:55 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
+- 2026-10-17 09:30 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363409772848 (Gildan 18000 #145, Sand + Navy x S-3XL = 12, $34.99 no compare-at, category crewnecks aa-1-13-14, tags sweatshirt). Keyword cat sweatshirt in map. FAQs 5 x 43-53 words, SEO meta under 155. Copy written from the brief's art description: re-check every sentence against the real art when it exists. When art exists: FW 1650 (crewneck), read every word at 400 px on Navy. No Printful sync, no images, no cover. Never publish until art + cover exist.
