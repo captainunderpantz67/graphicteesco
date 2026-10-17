@@ -417,6 +417,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-thanksgiving-pie-season-pumpkin-hoodie': { src: '/covers/womens-thanksgiving-pie-season-pumpkin-hoodie.webp', alt: 'Woman in a navy Pie Season pumpkin pie hoodie at a farm-stand pie table with pumpkins and hay bales at golden hour, one hand in the pouch pocket' },
   'womens-cat-oops-anyway-crewneck-sweatshirt': { src: '/covers/womens-cat-oops-anyway-crewneck-sweatshirt.webp', alt: 'Woman in a navy Oops Anyway cat crewneck sweatshirt under a cardigan pushed back over her shoulders, in a sunny apartment with a grey cat on the windowsill' },
   'womens-anime-soft-petals-sharp-opinions-cropped-hoodie': { src: '/covers/womens-anime-soft-petals-sharp-opinions-cropped-hoodie.webp', alt: 'Woman in a black Main Character Background Energy cherry blossom cropped hoodie on a stone footbridge in a Japanese garden with red maples behind her' },
+  'mens-chess-calculated-mostly-zip-hoodie': { src: '/covers/mens-chess-calculated-mostly-zip-hoodie.webp', alt: 'Man seen from behind in a navy Calculated. Mostly. chess zip hoodie, smiling over his shoulder at a park chess table at dusk under a street lamp' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

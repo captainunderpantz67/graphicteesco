@@ -530,7 +530,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 635 | white woman, college-age, blonde high ponytail, white headband, gold studs | RESERVED — #439 Single and Serving Cropped Hoodie cover |
 | 636 | white man, late 30s, red beard, worn ball cap | USED 2026-10-17 — #440 Mud Bath Booked pig oversized hoodie cover (try 1, image 1 of 1) |
 | 637 | Samoan-American woman, late 20s, long dark curls, shell necklace | USED 2026-10-17 - #441 Eight Arms Zero Hugs octopus hoodie cover (seedream, navy, seaside pier) |
-| 638 | Nigerian-American man, early 40s, short fade, wire-rim glasses | RESERVED — #442 Knight Shift Zip Hoodie cover |
+| 638 | Nigerian-American man, early 40s, short fade, wire-rim glasses | USED 2026-10-17 - #442 Calculated Mostly chess zip hoodie cover (seedream, navy, back view, park chess table) |
 | 639 | white man, mid 30s, shaggy brown hair, beanie in hand | USED 2026-10-16 — #443 Mothman Light Sleeper hoodie cover (seedream, 1 attempt) |
 | 640 | Black woman, early 30s, short natural hair, gold cuff earring | USED 2026-10-16 — #443 Mothman Light Sleeper hoodie cover (seedream, 1 attempt) |
 | 641 | white man, early 50s, bald head, salt-and-pepper beard | RESERVED — #444 Bald and Majestic Heavyweight Hoodie cover |
