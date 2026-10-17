@@ -1,24 +1,24 @@
-status: REDO
+status: ART-NEXT
 lane: B
 type: new
 id: 358
-handle: womens-volleyball-bump-set-nap-hoodie
+handle: womens-volleyball-i-only-dive-for-snacks-hoodie
 shopify: gid://shopify/Product/15363169878320
 kd: 35
 ---
 - **LINE REWRITE (director 2026-10-17 16:26 UTC, R3.1 cheeky-not-cheesy, Sam 2026-10-17):** the line on the shirt is now "I Only Dive for Snacks". It replaces the old line everywhere in this brief: Text on shirt, the art prompt's quoted words, Hook, title and handle (keep the audience, niche and garment words; swap only the design name), and on the Shopify DRAFT: title, handle, SEO title/meta, copy line one and any FAQ that quotes the line. Keep the scene, keyword, blank, colors, cover and price unless the new line no longer fits the scene; then adjust the scene minimally and log it. Art still waits for fal and the design gate.
-## Women's Volleyball – Bump Set Nap Hoodie
+## Women's Volleyball – I Only Dive for Snacks Hoodie
 - **Blank:** Pullover Gildan 18500 (Printful #146). Front print FW 1500+ (about 11 in), every word and the bottom of the art clear of the pouch seam (R5.3.2). Copy facts from the Printful spec only (R7.1).
-- **Text on shirt:** BUMP. SET. NAP. in big hand-drawn worn varsity capitals, one word per line. All lettering hand-drawn (R3.7.6), spelled exactly; read every word on the darkest mockup at about 400 px wide before REVIEW; knock out white counters (R5.3.8).
-- **Hook:** A sleepy 1960s cartoon volleyball in a headband dozing on a court with a little Zzz, under BUMP. SET. NAP.: women's sass for the rec-league player and the tournament-weekend mom.
-- **Why it's not taken:** Etsy's volleyball hoodies are team-name templates and 'Volleyball Mom' scripts; a bump-set-nap joke on vintage cartoon art isn't on page 1.
+- **Text on shirt:** I ONLY DIVE FOR SNACKS in big hand-drawn worn varsity capitals, two lines. All lettering hand-drawn (R3.7.6), spelled exactly; read every word on the darkest mockup at about 400 px wide before REVIEW; knock out white counters (R5.3.8).
+- **Hook:** A sleepy 1960s cartoon volleyball in a headband dozing on a court with a little Zzz, under I ONLY DIVE FOR SNACKS: women's sass for the rec-league player and the tournament-weekend mom.
+- **Why it's not taken:** Etsy's volleyball hoodies are team-name templates and 'Volleyball Mom' scripts; an I-only-dive-for-snacks joke on vintage cartoon art isn't on page 1.
 - **Style:** A, vintage, worn edges (R4.2).
-- **Art prompt (Recraft v4, one image per call):** "Vintage 1960s sports-cartoon screen-print illustration: a cute volleyball with a sleepy face and a terry headband dozing on a wooden court line, a small 'Zzz' drifting up, a whistle on a lanyard beside it. Hand-drawn worn varsity capitals above, three short lines reading exactly 'BUMP.', 'SET.', 'NAP.'. Palette: faded red, navy, cream, mustard, soft black linework. Worn screen-print texture, edges break up. The ball and court line are the shape. Isolated on plain background, no background shape, no frame, no border, no badge, no dark patch, no team logos."
+- **Art prompt (Recraft v4, one image per call):** "Vintage 1960s sports-cartoon screen-print illustration: a cute volleyball with a sleepy face and a terry headband dozing on a wooden court line, a small 'Zzz' drifting up, a small bag of chips beside it instead of the whistle. Hand-drawn worn varsity capitals above, two lines reading exactly 'I ONLY DIVE' and 'FOR SNACKS'. Palette: faded red, navy, cream, mustard, soft black linework. Worn screen-print texture, edges break up. The ball and court line are the shape. Isolated on plain background, no background shape, no frame, no border, no badge, no dark patch, no team logos."
 - **Colors:** Sand + Navy (R7.2).
 - **Primary keyword:** volleyball hoodie — 1,000 / KD 35 (RankHero 2026-10-17, director; US share 72%). Unowned in docs/product-keyword-map.json; record it there. Supporting once each via `scripts/keyword-gap.py` with 2 design seeds. Use the primary where a person would say it: title-area copy, H1, the first sentence (with the joke and the occasion, R9.11) and once in the meta; no stuffing (R8.2–R8.3). Answer-first FAQs (fit, care, sizing, gift timing) per R8.7.
 - **Popularity evidence (R5.2):** volleyball hoodie 1,000/35, 72% US; club volleyball season runs November to April.
 - **Cover:** registry #549, Black woman, mid 20s, long box braids in a high ponytail, athletic build. Scene: a high-school gym with bleachers and a volleyball net behind her, hood visible, hands in pockets. Alt starts "Woman" (R6.3). Real garment with the hood visible on hoodies, generated with the product's own Printful mockup in the cover color as `--design` (--n 1); nothing (hand, cup, hair, hood, drawcord, another person) over any part of the print; read every word before saving (R6.7–R6.9). No alcohol, tools or weapons (R6.5).
-- **Title / handle:** "Women's Volleyball – Bump Set Nap Hoodie" / `womens-volleyball-bump-set-nap-hoodie` (R7.4; the suffix sets the audit price, R12.1).
+- **Title / handle:** "Women's Volleyball – I Only Dive for Snacks Hoodie" / `womens-volleyball-i-only-dive-for-snacks-hoodie` (R7.4; the suffix sets the audit price, R12.1).
 - **Tags:** graphic-hoodies-for-women, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
 - **Price:** $39.99 (R12.1 pullover), no compare-at (R12.1 honest compare-at).
 - **Pre-build while fal is empty:** make the full Shopify DRAFT now from this brief (status ART-NEXT); art + cover when fal returns, then re-check every sentence against the real art.
@@ -27,3 +27,4 @@ kd: 35
 - 2026-10-17 06:19 UTC director: brief written, READY (2026-10-17 morning sweep: no unclaimed KD ≤ 20 hoodie/sweatshirt phrase with volume left in RankHero; this is the KD 21–40 band, highest volume first; keyword measured this run).
 - 2026-10-17 06:44 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363169878320 (launch colors per brief, S-3XL, price per brief with no compare-at, category, tags per brief incl. hub tags, SEO, FAQs; keyword volleyball hoodie /1000 /35). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 16:26 UTC director: REDO (copy only, no art). 1. R3.1 cheeky-not-cheesy: the old line is a sound-alike pun or greeting-card cute; new line "I Only Dive for Snacks" (3 candidates weighed, cheekiest picked). 2. Update the brief and the DRAFT per the LINE REWRITE note, then set status back to ART-NEXT.
+- 2026-10-17 16:33 UTC builder [B]: line rewrite done (copy only): brief + Shopify DRAFT title/handle/SEO/copy now "I Only Dive for Snacks" (womens-volleyball-i-only-dive-for-snacks-hoodie). Status ART-NEXT. Scene adjusted minimally: chips bag replaces the whistle (358); sub-line (off duty) dropped (326).
