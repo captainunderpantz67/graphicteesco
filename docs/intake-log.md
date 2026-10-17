@@ -1,4 +1,5 @@
 RUNNING lane B since 2026-10-17 21:59 UTC
+2026-10-17 22:08 UTC — [B] REVIEW #354 Lake Life zip hoodie redo (cover composite, Ash + Carolina Blue, copy).
 2026-10-17 22:02 UTC — [B] REVIEW #435 cover redo (hair still over the M; flagged to director).
 2026-10-17 22:01 UTC — [B] Price fixes: compare-at removed (products created after 2026-10-15) on 8 camo products: ducks-in-a-row, doe-not-disturb, i-saw-you-move, antler-envy, camp-security-bear, possum-playing-dead hoodies; call-me-after-duck-season, here-for-the-sunrise sweatshirts. Prices unchanged.
 2026-10-17 22:08 UTC — [C] REVIEW #368 Lucky Horseshoe Ranch heavyweight hoodie (DRAFT, synced 14/14, fal cover with caveats: woman in a tee, drawcord over man's print).
