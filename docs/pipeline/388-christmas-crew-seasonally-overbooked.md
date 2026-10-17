@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-17 19:53
+status: REVIEW
 lane: E
 type: new
 id: 388
@@ -26,3 +26,4 @@ kd: 60
 - 2026-10-17 08:55 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
 - 2026-10-17 08:29 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363402891568 (Gildan 18000 crewneck, Sand + Navy x S-3XL = 12, $34.99 no compare-at, category aa-1-13-14, keyword holiday sweatshirt 1900/KD60 in map). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane E.
+- 2026-10-17 20:12 UTC builder [E]: REVIEW. Art: Recraft v4 picture only (2 calls: 1st read as a wall of pink cushions, redrawn as a line-drawn December calendar with ribbon bow), words set with compose-print.py (SEASONALLY Yellowtail pink script; OVERBOOKED Alfa Slab cherry red with cream outline, not candy stripe). Print 3144x3799, FW 1650 TOP 0. White day squares knocked out by print-prep, so on Navy the grid lines are thin (read OK at phone size, the drawings and bow carry it). R6.2 ok: no ring/panel/box. Printful file 1088450509, sync product 482415385 12/12. Mockups Navy + Sand fronts + back attached per color. Copy rewritten against the art (no candy stripe, retro script + slab); FAQ 5 Qs 46-51 words, order-by Dec 8; SEO meta fixed. Cover: registry 579, holiday market, seedream 2 attempts (1st: hair over the first S; 2nd clean, hair in bun, bags below the print). fal ~$0.21. audit-local PASS. design-crops/variant-photo-audit need the published page.
