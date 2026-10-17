@@ -6584,6 +6584,84 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-christmas-attending-under-protest-crewneck-sweatshirt": {
+   "claimed": [
+    "ugly christmas sweater men"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "ugly christmas sweater men",
+     "volume": 22200,
+     "kd": 10
+    }
+   ],
+   "measured": "2026-10-17"
+  },
+  "unisex-embroidered-per-my-last-email-crewneck-sweatshirt": {
+   "claimed": [
+    "work sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "work sweatshirt",
+     "volume": 1000,
+     "kd": 24
+    }
+   ],
+   "measured": "2026-10-17"
+  },
+  "unisex-embroidered-per-my-last-email-hoodie": {
+   "claimed": [
+    "corporate hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "corporate hoodie",
+     "volume": 320,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-17"
+  },
+  "womens-western-feed-store-fashion-week-hoodie": {
+   "claimed": [
+    "ranch hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "ranch hoodie",
+     "volume": 260,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-17"
+  },
+  "womens-equestrian-horse-girl-broke-on-purpose-crewneck-sweatshirt": {
+   "claimed": [
+    "equestrian sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "equestrian sweatshirt",
+     "volume": 1600,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-17"
+  },
+  "womens-equestrian-horse-girl-broke-on-purpose-hoodie": {
+   "claimed": [
+    "equestrian hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "equestrian hoodie",
+     "volume": 720,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-17"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

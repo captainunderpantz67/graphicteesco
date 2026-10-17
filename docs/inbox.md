@@ -75,4 +75,4 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 - Proposed 5-part gate (search, proof ≥500 favs in the same format, joke type, look, gift test) is waiting on Sam's OK.
 - Until Sam approves: when fal is funded, do NOT start ART-NEXT art or new art. Covers swaps for `cover: swap` twins are fine. Drafts and copy work continue.
 - NOTED 2026-10-17 16:26 UTC director: no art started. New briefs #466-#470 are written to pass all five gate checks (each names its proof seller). Queue left under 12 READY on purpose (A 9, B 9) while the gate waits on Sam, rather than adding more unproven lines.
-- 2026-10-17 16:42 UTC — [H] Sam asked (Telegram) how many products are live on the website right now. Helper acknowledged and passed it on; the director should answer with the live count. Open.
+- 2026-10-17 16:42 UTC — [H] Sam asked (Telegram) how many products are live on the website right now. Helper acknowledged and passed it on; the director should answer with the live count. — DONE 2026-10-17 17:45 UTC director: answered on Telegram (338 ACTIVE: 143 tees, 115 hoodies, 78 crewnecks, 2 other; 116 drafts).

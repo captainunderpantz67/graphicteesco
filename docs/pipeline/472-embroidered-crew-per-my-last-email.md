@@ -1,0 +1,30 @@
+status: READY
+lane: B
+type: new
+id: 472
+handle: unisex-embroidered-per-my-last-email-crewneck-sweatshirt
+kd: 24
+---
+## Unisex Embroidered – Per My Last Email Crewneck Sweatshirt
+- **Blank:** Crewneck Gildan 18000 (Printful #145), 8 oz 50/50 cotton-poly fleece, EMBROIDERY chest center. Copy facts from the Printful spec only (R7.1).
+- **Style:** B (R4.3), real thread; restraint-line format. New art, one Recraft generation, max 2 regenerations (R5.4).
+- **Text on shirt:** per my last email, in one line of relaxed hand-lettered lowercase script, with a tiny line drawing of a paper-plane envelope trailing a small loop after the last word. Spelled exactly; hand-lettered, no typeset font (R3.7.6).
+- **Hook:** The politest threat in office life, stitched on a cozy crewneck: "per my last email". Anyone with a job reads it and laughs, because they have typed it through gritted teeth. Unisex: dry, said with a straight face.
+- **Three lines considered (R3.1):** "Per My Last Email" (picked: the insider phrase every office worker and teacher knows, zero explanation needed) · "Hey, Quick Question" (proven, but already a TikTok Shop seller's line) · "Circling Back (Again)".
+- **Why it's not taken:** "Per my last email" shows on mugs and printed tees; an embroidered script crewneck with the tiny paper plane is not on Etsy page 1 for work sweatshirt (director call; builder confirms, R3.7.2).
+- **Design gate (proposed 2026-10-17, waiting on Sam; this brief is written to pass all five):** search: work sweatshirt 1,000 / KD 24 (59% US) · proof: embroidered restraint/office lines sell ("Hey, Quick Question" embroidered 135 sold, "A Little Ray of Pitch Black" embroidered 2,300 sold on TikTok Shop; "Social Work Is My Jam" embroidered crewneck 586 Etsy favorites) · joke type: restraint, insider office phrase · look: big embroidered script across the chest · gift test: the coworker gift-swap pick everyone wants to steal.
+- **Art prompt (Recraft v4, one image per call):** "Clean single-weight line art like one continuous embroidery stitch: relaxed hand-lettered lowercase script reading exactly 'per my last email', followed by a tiny simple paper airplane with a small looping dotted trail. One color only, solid line art on plain white, no fill, no shading, no background shape, no frame, no border, no badge, no circle, no dark patch."
+- **Embroidery prep (R4.8):** one flat PNG on transparent, thread colors from Printful's thread palette only. Lines at least 1.5 mm thick at print size, x-height at least 6 mm, no detail under 1 mm, no gradients, no worn texture. Fill at least 90% of the largest chest-center embroidery area Printful allows for this blank (Sam 2026-10-17: bigger). Preview Printful's embroidery mockup and read every letter (R5.3.5). Back-neck logo stays (pilot result).
+- **Thread:** one color that reads on both Sand and Navy: old gold from Printful's thread palette. Check both mockups; if gold is weak on Sand, use rust orange and log it.
+- **Colors (R7.2):** Sand + Navy.
+- **Primary keyword:** work sweatshirt — 1,000 / KD 24 (RankHero 2026-10-17, director; 59% US). KD 21–35 band. Supporting: embroidered sweatshirt (collection head, mention only). Unowned in docs/product-keyword-map.json and every open brief (checked 2026-10-17); record it there. Use the primary where a person would say it: the H1-area copy, the first sentence (with the joke and the occasion, R9.11) and once in the meta; supporting phrases at most once each; no stuffing (R8.2–R8.3). Answer-first FAQs per R8.7: 4–6 questions, 40–60 words each (fit, care, sizing, warmth/weight, gift timing with an order-by date). Describe only what is in the art (R8.3).
+- **Popularity evidence (R5.2):** see the gate line (docs/research/inside-jokes-2026-10-17.html; docs/research/etsy-2026-10-17/).
+- **Cover:** registry #676 + #677: South Asian woman, early 30s, sleek low bun, small gold hoops, and a white man, mid 30s, short dark hair and stubble, both in the crewneck; scene: a bright modern office kitchen with a coffee machine and a window, mugs on the counter at the side; alt starts 'Man and woman'. Real garment generated with the product's own Printful mockup in the cover color as `--design` (--n 1); hands empty or in pockets; nothing (hand, cup, hair, hood, drawcord, another person) over any part of the print; read every word before saving (R6.7–R6.9). No alcohol, tools or weapons (R6.5).
+- **Title / handle:** "Unisex Embroidered – Per My Last Email Crewneck Sweatshirt" / `unisex-embroidered-per-my-last-email-crewneck-sweatshirt` (R7.4).
+- **Tags:** embroidered-sweatshirts, graphic-sweatshirts, sweatshirt, ai-art, intake-done (R7.5; real embroidery only in embroidered-sweatshirts, R4.8).
+- **Copy:** "Embroidered" in the title and line one (R4.8). No production notes (R8.3).
+- **Price (R12.1 embroidered):** crewneck $34.99 + $5 chest = $39.99, no compare-at.
+- **Pre-build:** Make the full Shopify DRAFT now from this brief (status ART-NEXT). Art waits for fal AND for Sam's OK on the design gate (inbox 2026-10-17 HOLD); then re-check every sentence against the real art.
+---
+## Log
+- 2026-10-17 17:40 UTC director: brief written, READY (lane B; gate-format brief, keyword measured this run).

@@ -565,3 +565,11 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 672 | Mexican-American woman, early 30s, long dark wavy hair in a low claw clip, small gold hoops | RESERVED — #468 Thriving, Technically Frog Hoodie cover |
 | 673 | white woman, late 30s, honey-blonde shoulder-length waves, tortoiseshell glasses | RESERVED — #469 Excused From Small Talk Crewneck cover |
 | 674 | Indian-American woman, mid 20s, long straight black hair, small nose stud | RESERVED — #470 Excused From Small Talk Tee cover |
+| 675 | Black man, early 40s, close-cropped hair, salt-and-pepper beard | RESERVED — #471 Attending Under Protest Crewneck cover |
+| 676 | South Asian woman, early 30s, sleek low bun, small gold hoops | RESERVED — #472 Per My Last Email Crewneck cover (with #677) |
+| 677 | white man, mid 30s, short dark hair, stubble | RESERVED — #472 Per My Last Email Crewneck cover (with #676) |
+| 678 | Latina woman, late 20s, long curly dark hair half up | RESERVED — #473 Per My Last Email Hoodie cover (with #679) |
+| 679 | East Asian man, late 20s, short textured hair | RESERVED — #473 Per My Last Email Hoodie cover (with #678) |
+| 680 | white woman, early 30s, sun-streaked light-brown braid, felt western hat, light freckles | RESERVED — #474 Feed Store Fashion Week Hoodie cover |
+| 681 | Mexican-American woman, early 20s, long dark braid, small silver hoops | RESERVED — #475 Horse Girl, Broke on Purpose Crewneck cover |
+| 682 | Black woman, late 20s, shoulder-length box braids, small gold studs | RESERVED — #476 Horse Girl, Broke on Purpose Hoodie cover |
