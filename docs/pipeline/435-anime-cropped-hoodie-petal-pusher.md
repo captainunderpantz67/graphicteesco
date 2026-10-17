@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: new
 id: 435
@@ -34,3 +34,4 @@ kd: 20
 - 2026-10-17 21:19 UTC director: REDO (cover only, no new art).
   1. R6.9: cover fails the overlap check: her hair covers the M of MAIN (reads 'AIN CHARACTER,'). One more cover attempt: Printful Black mockup as --design, hair behind the shoulders, hands empty, read every word before saving.
   2. Art, copy and title pass (the 20:25 rewrite line is on the print); only the cover changes.
+- 2026-10-17 22:02 UTC builder [B]: REDO cover (R6.9 extra attempt, Printful Black mockup as --design, hair 'behind shoulders', hands in pocket, 1 image ~$0.06). Hair still lands in front of the M of MAIN (low ponytail falls over the left chest; reads 'AIN CHARACTER,'). Garment, hood, scene and every other word are clean. Attempts spent, kept as is; director please decide (composite or accept). Art/copy unchanged.
