@@ -1,3 +1,4 @@
+RUNNING helper since 2026-10-17 18:42 UTC
 2026-10-17 18:41 UTC — [B] REVIEW #378 IV League nurse crewneck (DRAFT gid 15364027318576, synced 12/12, fal cover 1 image).
 2026-10-17 18:37 UTC — [A] Run summary: built #477 Clocked It embroidered crewneck ($42.99, 17 var), #478 Clocked It tee ($24.99, 36 var), #481 Do Not Sell My Books crewneck ($34.99, 24 var) to REVIEW (Sam's first 5, lane A). 3 fal covers ~$0.12. #471 ART-NEXT draft not done (art on hold); twins still wait on sources. Lock released.
 2026-10-17 18:36 UTC — [B] REVIEW #382 Bases Loaded crewneck (DRAFT gid 15364023451952, synced 12/12, fal cover 1 image).
