@@ -547,7 +547,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 654 | Middle Eastern man, early 30s, short dark hair, trimmed beard | RESERVED — #455 Spin Responsibly Crewneck cover (with #653) |
 | 655 | Black man, late 20s, short twists | RESERVED — #456 Spin Responsibly Tee cover (with #656) |
 | 656 | white woman, late 20s, auburn bob | RESERVED — #456 Spin Responsibly Tee cover (with #655) |
-| 657 | Latina woman, mid 40s, chestnut layered blowout, small diamond studs | RESERVED — #457 Latke Queen Crewneck cover |
+| 657 | Latina woman, mid 40s, chestnut layered blowout, diamond studs | USED 2026-10-17 - #457 Fried Food Is Tradition crewneck cover (seedream, sand, kitchen) |
 | 658 | East Asian woman, late 20s, short choppy pixie cut, small pearl drops | RESERVED — #458 Latke Queen Tee cover |
 | 659 | Native American man, early 30s, long black hair tied back, light stubble | RESERVED — #459 Pedal Pusher Heavyweight Hoodie cover |
 | 660 | white woman, mid 20s, long platinum-blonde waves, gold hoops | RESERVED — #460 Expert in Après Hoodie cover |

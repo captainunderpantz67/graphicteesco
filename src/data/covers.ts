@@ -387,6 +387,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-pirate-pillaging-is-a-young-mans-game-hoodie': { src: '/covers/mens-pirate-pillaging-is-a-young-mans-game-hoodie.webp', alt: 'Man in a navy Pillaging Is a Young Man\'s Game pirate hoodie on a weathered harbor dock with a small sailboat behind him, hands in the pouch pocket' },
   'mens-pirate-pillaging-is-a-young-mans-game-hoodie': { src: '/covers/mens-pirate-pillaging-is-a-young-mans-game-hoodie.webp', alt: 'Man in a navy Pillaging Is a Young Man\'s Game pirate hoodie on a weathered harbor dock with a small sailboat behind him, hands in the pouch pocket' },
   'unisex-anime-ignoring-you-professionally-heavyweight-hoodie': { src: '/covers/unisex-anime-ignoring-you-professionally-heavyweight-hoodie.webp', alt: 'Man and woman in matching storm blue Ignoring You Professionally maneki neko heavyweight hoodies at a neon arcade entrance at night' },
+  'womens-hanukkah-fried-food-is-tradition-crewneck-sweatshirt': { src: '/covers/womens-hanukkah-fried-food-is-tradition-crewneck-sweatshirt.webp', alt: 'Woman in a sand Fried Food Is Tradition Hanukkah crewneck sweatshirt in a bright kitchen with latkes on the counter and a menorah in the window' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
