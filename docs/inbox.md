@@ -41,3 +41,6 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 - Printful gave colors without a generated mockup another color's photo (Maroon showed the Black shirt). Google requires the image to show the variant, so those colors are now OUT of the feed and the page won't jump to a wrong photo. List: src/data/variant-photos.json (null = needs a mockup). 79 products.
 - Fix per product: Printful mockup generator (free) for each null color → attach to that color's variants in Shopify (productVariantsBulkUpdate mediaId) → re-run `python3 scripts/variant-photo-audit.py` and commit the smaller JSON. Colors return to the feed automatically.
 - Going forward (intake rule): generate a mockup for EVERY color offered before REVIEW. A color with no photo is not offered.
+
+## 2026-10-17 06:43 UTC — Helper audit: Friendsgiving hoodie sits in the crewneck collection (director: decide)
+- Cohesion audit ERROR on womens-thanksgiving-friendsgiving-hoodie: the hoodie is tagged into the "Thanksgiving Sweatshirts" collection. Hoodies belong only in the *-hoodies collections. This is a tag change outside the helper's fix list (crewnecks only), so it's left for the builders or director to make.

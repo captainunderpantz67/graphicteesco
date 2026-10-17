@@ -1,43 +1,28 @@
-# Cohesion audit — 2026-10-17 06:19 UTC
+# Cohesion audit — 2026-10-17 06:42 UTC
 
-298 live products checked · **95 errors** · 9 warnings · 103 products with findings
+298 live products checked · **91 errors** · 8 warnings · 99 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
-- 95 × Price ./. — should be ./- on every variant.
+- 90 × Price ./. — should be ./- on every variant.
+- 1 × Hoodie listed in the non-hoodie collection .
 
 ## By product (errors first)
 ### Women's Thanksgiving – Gobble Gobble Turkey Tee `womens-thanksgiving-gobble-gobble-graphic-tee`
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
 
-### Women's Thanksgiving – Gobble Gobble Turkey Crewneck Sweatshirt `womens-thanksgiving-gobble-gobble-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-- **WARN** No meta description. → Write one ≤ 155 chars.
-
 ### Unisex Thanksgiving – Turkey Day Crew Tee `unisex-thanksgiving-turkey-day-crew-graphic-tee`
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Unisex Thanksgiving – Turkey Day Crew Crewneck Sweatshirt `unisex-thanksgiving-turkey-day-crew-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
 
 ### Women's Christmas – Sleigh Queen Tee `womens-christmas-sleigh-queen-graphic-tee`
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
 
-### Women's Christmas – Sleigh Queen Crewneck Sweatshirt `womens-christmas-sleigh-queen-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
 ### Women's Thanksgiving – Nap Queen Tee `womens-thanksgiving-nap-queen-graphic-tee`
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
 
-### Women's Thanksgiving – Nap Queen Crewneck Sweatshirt `womens-thanksgiving-nap-queen-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
 ### Unisex Thanksgiving – Mash Hour Tee `unisex-thanksgiving-mash-hour-graphic-tee`
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Unisex Thanksgiving – Mash Hour Crewneck Sweatshirt `unisex-thanksgiving-mash-hour-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
 
 ### Unisex Thanksgiving – Totally a Pilgrim Tee `unisex-thanksgiving-totally-a-pilgrim-graphic-tee`
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
@@ -294,26 +279,29 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Women's Retro – Loose Goose Oversized Hoodie `womens-retro-loose-goose-oversized-hoodie`
 - **ERROR** Price 54.99/59.99 (price/compare-at) — should be 54.99/- on every variant. → Set every variant to price 54.99, no compare-at.
 
-### Unisex Halloween – Midnight Feature Tee `unisex-halloween-midnight-feature-graphic-tee`
-- **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
+### Women's Thanksgiving – Friendsgiving Hoodie `womens-thanksgiving-friendsgiving-hoodie`
+- **ERROR** Hoodie listed in the non-hoodie collection "Thanksgiving Sweatshirts". → Remove the tag that puts it in thanksgiving-sweatshirts; hoodies go only in *-hoodies collections.
 
-### Unisex Christmas – Fresh Cut Christmas Trees Tee `unisex-christmas-fresh-cut-christmas-trees-graphic-tee`
+### Unisex Halloween – Midnight Feature Tee `unisex-halloween-midnight-feature-graphic-tee`
 - **WARN** No meta description. → Write one ≤ 155 chars.
 
-### Women's Nurse – Nurse Life Coffee Tee `womens-nurse-nurse-life-coffee-graphic-tee`
+### Unisex Christmas – Fresh Cut Christmas Trees Tee `unisex-christmas-fresh-cut-christmas-trees-graphic-tee`
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
+
+### Women's Nurse – Nurse Life Coffee Tee `womens-nurse-nurse-life-coffee-graphic-tee`
+- **WARN** No meta description. → Write one ≤ 155 chars.
 
 ### Women's Country – Sweet Tea & Sunsets Tee `womens-country-sweet-tea-sunsets-graphic-tee`
-- **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
+- **WARN** No meta description. → Write one ≤ 155 chars.
 
 ### Women's Christmas – Retro Santa Tee `womens-christmas-retro-santa-graphic-tee`
-- **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
+- **WARN** No meta description. → Write one ≤ 155 chars.
 
 ### Men's Gym – Iron Sharpens Iron Tee `mens-gym-iron-sharpens-iron-graphic-tee`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
-### Unisex Christmas – Mountain Christmas Bear Hoodie `unisex-christmas-mountain-christmas-bear-hoodie`
+### Women's Thanksgiving – Gobble Gobble Turkey Crewneck Sweatshirt `womens-thanksgiving-gobble-gobble-crewneck-sweatshirt`
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
 
-### Women's Thanksgiving – Friendsgiving Hoodie `womens-thanksgiving-friendsgiving-hoodie`
-- **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
+### Unisex Christmas – Mountain Christmas Bear Hoodie `unisex-christmas-mountain-christmas-bear-hoodie`
+- **WARN** No meta description. → Write one ≤ 155 chars.
