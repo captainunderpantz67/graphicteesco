@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build && node scripts/prune-sitemap.mjs",
     "preview": "astro preview",
-    "audit": "python3 scripts/seo-audit.py"
+    "audit": "python3 scripts/seo-audit.py",
+    "prebuild": "node scripts/escape-cover-alts.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
