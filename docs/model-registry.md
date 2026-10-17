@@ -482,7 +482,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 589 | man AND woman together: Black man, early 40s, salt-and-pepper beard, beanie held at his side; Korean-American woman, late 30s, long straight hair, denim jacket open | RESERVED — #398 Fine Dumpster Dining Hoodie cover |
 | 590 | man AND woman together: Cuban-American man, early 30s, short curly hair, runner's build; white woman, early 30s, high blonde ponytail | RESERVED — #399 Turkey Trot Hoodie cover |
 | 591 | Filipino-American woman, early 30s, long straight black hair, small gold hoops | RESERVED — #400 Sleighping In Hoodie cover |
-| 592 | White woman, late 20s, auburn pixie cut, freckles | RESERVED — #401 Owl Be in Bed Hoodie cover |
+| 592 | White woman, late 20s, auburn pixie cut, freckles | USED 2026-10-17 — #401 Night Owl, Retired hoodie cover (seedream, 1 attempt) |
 | 593 | Norwegian-American man, late 40s, ruddy cheeks, short red-blond beard | RESERVED — #402 Professionally Chilling Heavyweight Hoodie cover |
 | 594 | man AND woman together: Vietnamese-American man, late 20s, round glasses, short textured hair; Black woman, late 20s, short twist-out | USED 2026-10-17 — #403 I Have Plans hoodie cover (try 1, image 1 of 1) |
 | 595 | man AND woman together: Korean-American man, early 20s, bleached tips; Latina woman, early 20s, space buns, butterfly clips | USED 2026-10-17 — #404 Side Quests Only hoodie cover (try 2, 2 images; woman's garment shows no hood, flagged) |

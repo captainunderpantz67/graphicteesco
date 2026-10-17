@@ -432,6 +432,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-christian-casserole-ministry-hoodie': { src: '/covers/womens-christian-casserole-ministry-hoodie.webp', alt: 'Woman in a sand Casserole Ministry church hoodie, smiling in a church kitchen with a casserole dish cooling on the counter beside her' },
   'womens-bee-buzz-off-kindly-hoodie': { src: '/covers/womens-bee-buzz-off-kindly-hoodie.webp', alt: 'Woman in a navy This Bee Has Clocked Out sleeping bee in a daisy hoodie with her hands in the pouch at a fall farmers market flower stall' },
   'womens-black-friday-in-it-for-the-doorbusters-graphic-tee': { src: '/covers/womens-black-friday-in-it-for-the-doorbusters-graphic-tee.webp', alt: 'Woman in a natural In It for the Doorbusters Black Friday tee, smiling on an outdoor shopping street at dawn under string lights' },
+  'womens-owl-night-owl-retired-hoodie': { src: '/covers/womens-owl-night-owl-retired-hoodie.webp', alt: 'Woman in a navy Night Owl, Retired sleepy owl hoodie on an autumn porch at dusk with a lantern and pumpkins' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
