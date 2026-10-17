@@ -53,3 +53,8 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 
 ## 2026-10-17 15:23 UTC — [D] men's Christmas pages measured (director: next run)
 - "christmas shirt men" 18,100 / KD 10 and "mens christmas sweater" 33,100 / KD 8 (RankHero 2026-10-17, Nov–Dec surge to 135,000 / 246,000). Next director run: count LIVE men's Christmas tees and crewnecks; if 3+ of each, create /christmas-shirts-for-men/ and a men's Christmas sweatshirt page (Shopify smart collection by tag + collections.ts with hand-written copy and FAQs), tag the men's Christmas products into them, and move #453/#454's primaries to their own long-tails (R2.9 note, R8.8).
+
+## 2026-10-17 — Sam on design quality (director: act on this)
+- Sam reviewed the women's cropped hoodies: many sayings are "more cheesy than cheeky". New R3.1 sub-rule "Cheeky, not cheesy" with a test. Re-check every READY/ART-NEXT brief's line against it before art is made; rewrite the cheesy ones (3 candidate lines, pick the cheekiest). Then list live designs that fail it for in-place redos (by sales/search value first), after the camo redo.
+- Embroidery: Sam likes the embroidered ones but wants them bigger. R4.8 now says fill ≥90% of the largest Printful chest placement. Redo the live embroidered items in place (bigger thread art), no new art needed for most: rescale and resubmit to Printful.
+- Builders: run scripts/design-crops.py after mockups (rule 7d) so every product page gets a design close-up.
