@@ -1,4 +1,5 @@
-status: BUILDING [C] 2026-10-17T22:33Z
+status: PARKED
+parked: cover only (every other step done); see the last log line
 shopify: gid://shopify/Product/15363408134448
 lane: C
 type: new
@@ -27,3 +28,4 @@ kd: 46
 - 2026-10-17 09:15 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363408134448 (Gildan 18500, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category hoodies aa-1-13-13, tags graphic-hoodies-for-men/-women + hoodie). Keyword raccoon hoodie 480/KD46 in map. SEO title 45, meta 147, FAQs 5 x 47-51 words. Copy written from the brief's art description (FINE DUMPSTER over DINING, bow-tied raccoon with napkin and fork at a tipped trash can, pizza crust, candle; teal/mustard/cream/faded red): re-check every sentence against the real art when it exists. When art exists: FW 1500+, clear of the pouch seam. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane A.
 - 2026-10-17 21:25 UTC director: moved from lane A to lane C (lane C builds hoodies; lane A has 23 READY, lane C had 3).
+- 2026-10-17 22:39 UTC builder [C]: PARKED at the cover step, everything else done. Art 1 Recraft call (raccoon in bow tie at a tipped trash can, no lettering) + FINE DUMPSTER (Lobster, cream) / DINING (Alfa Slab, mustard) via compose-print.py, thin cream halo for Navy, FW 1500 TOP 0 (3384 x 2990 px); Printful file 1088540580, sync 482415696 12/12; Sand + Navy mockups + back attached to the DRAFT with per-color variant photos; copy fixed to the real art (retro script / slab capitals, pizza). No cover saved: 3 fal attempts (registry #589, Navy mockup as --design, both people named in the hoodie) all failed the couple rule: try 1 woman in a tee and her hair over the F; try 2 woman in a crewneck, no hood; try 3 zip jackets open over tees. Per 9b nothing with a known wrong garment goes to REVIEW. Next builder: one cover attempt with a single-garment wording, or a man-only plus woman-only pair composite, then covers.ts + review sheet (docs/print-files/398-fine-dumpster-dining.png is the print). fal $0.20.
