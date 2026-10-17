@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-18 05:25 UTC
+status: REVIEW
 lane: B
 type: new
 id: 446
@@ -27,3 +27,4 @@ kd: 28
 - 2026-10-17 15:03 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363750527280 (zip 18600 Ash+Navy x S-3XL = 12, $44.99; back-art layout at sync). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane B.
 - 2026-10-18 06:00 UTC builder [B]: art via Recraft (1 image, no lettering; fawn chihuahua in scarf and beanie) + COLD SINCE / BIRTH in AlfaSlabOne brown with cream stroke and red with brown stroke (designs/b/ch.json, ch-kw.png; white pocket under the dog knocked out 50000; ratio 1.3). Copy fixed (hand-drawn capitals -> bold slab capitals). Zip layout per pf-zip.py: full art on the BACK BW 1650 / BT 225 (file 1088475432) plus a 525 px left-chest head crop with a ragged faded bottom edge (file 1088476070), nothing across the zipper, no neck logo (the back is taken by the art). Colors kept Ash + Navy as drafted: the cream dog and red scarf carry on Navy though the dark linework dims there. Sync pid 482498279 running. Mockups: Ash + Navy fronts and backs attached per color. Cover registry #643, 2 tries (~$0.08): try 1 looked like a collar jacket with no hood and clipped the E of SINCE; try 2 has a visible hood but the hood overlaps the top of the beanie and a side zipper glitch shows at the hem. Kept try 2, director please judge (R6.8/R6.9). kw chihuahua hoodie 1000/28.
+- 2026-10-17 21:30 UTC builder [B]: synced 12/12. REVIEW. Sheet docs/review/446.jpg.
