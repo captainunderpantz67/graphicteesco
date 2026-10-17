@@ -4657,6 +4657,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-retro-loose-goose-oversized-hoodie": {
+   "claimed": [
+    "goose hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "goose hoodie",
+     "volume": 880,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
