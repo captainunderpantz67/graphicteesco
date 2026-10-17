@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-17T21:54Z
+status: REVIEW
 lane: C
 type: new
 id: 357
@@ -27,3 +27,4 @@ kd: 34
 - 2026-10-17 06:43 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363169714480 (launch colors per brief, S-3XL, price per brief with no compare-at, category, tags per brief incl. hub tags, SEO, FAQs; keyword flower hoodie /14800 /34). Copy written from the brief's art description: re-check every sentence against the real art when it exists. COLOR DEVIATION: brief said Peach + Storm, but Printful 7502 Peach exists only in XL; launched Black + Military Green (both S-2XL), director to confirm. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane A.
 - 2026-10-17 21:25 UTC director: moved from lane A to lane C (lane C builds hoodies; lane A has 23 READY, lane C had 3).
+- 2026-10-17 22:00 UTC builder [C]: REVIEW. Art 1 Recraft call (bouquet, no lettering) + WILDLY / LOW MAINTENANCE in Alfa Slab One (mustard / rust, cream keyline) via compose-print.py; thin cream halo, FW 1500 TOP 20; Printful file 1088520344, sync 482403058 10/10; Black + Military Green mockups + back attached per color (Peach is XL-only, deviation stands for the director). Phone-size read OK. fal cover 2 attempts (registry #548): attempt 1 was a short-sleeve boxy top (wrong garment), attempt 2 saved: cropped hoodie, both lines read, nothing over print; hood sits small behind the neck and LOW MAINTENANCE looks slightly dimmer than on the mockup. Copy fixed to the real art (slab capitals, not bubble letters); FAQ now 5 x 41-54 words incl. Dec 8 and the size exchange. Keyword flower hoodie 14,800/KD34 in the map. fal $0.16. Design-crops and variant-photo audit run when ACTIVE.
