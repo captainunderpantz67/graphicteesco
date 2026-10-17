@@ -543,8 +543,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 650 | Black woman, early 20s, long knotless braids, butterfly clips, small gold hoops | RESERVED — #452 Hot Mess Express Hoodie cover |
 | 651 | Filipino-American man, early 40s, short black hair, rectangular glasses | RESERVED — #453 Some Assembly Regretted Crewneck cover |
 | 652 | white man, late 30s, short sandy hair, full sandy beard | RESERVED — #454 Some Assembly Regretted Tee cover |
-| 653 | white woman, early 30s, dark curly shoulder-length hair | RESERVED — #455 Spin Responsibly Crewneck cover (with #654) |
-| 654 | Middle Eastern man, early 30s, short dark hair, trimmed beard | RESERVED — #455 Spin Responsibly Crewneck cover (with #653) |
+| 653 | white woman, early 30s, dark curly shoulder-length hair | USED 2026-10-17 — #455 Spin Responsibly crewneck cover (try 2 kept, 2 images; #654 man in same photo) |
+| 654 | Middle Eastern man, early 30s, short dark hair, trimmed beard | USED 2026-10-17 — #455 Spin Responsibly crewneck cover (with #653) |
 | 655 | Black man, late 20s, short twists | RESERVED — #456 Spin Responsibly Tee cover (with #656) |
 | 656 | white woman, late 20s, auburn bob | RESERVED — #456 Spin Responsibly Tee cover (with #655) |
 | 657 | Latina woman, mid 40s, chestnut layered blowout, diamond studs | USED 2026-10-17 - #457 Fried Food Is Tradition crewneck cover (seedream, sand, kitchen) |

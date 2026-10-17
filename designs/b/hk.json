@@ -1,0 +1,5 @@
+{"art": "designs/b/hk-a.png", "art_width": 0.72, "canvas": [3600, 4500], "gap": 10,
+ "lines": [
+  {"text": "SPIN", "font": "AlfaSlabOne-Regular.ttf", "size": 640, "fill": "#f0c14b", "stroke": 30, "stroke_fill": "#16327a", "tracking": 0.15, "where": "above"},
+  {"text": "RESPONSIBLY", "font": "AlfaSlabOne-Regular.ttf", "size": 480, "fill": "#f0c14b", "stroke": 24, "stroke_fill": "#16327a", "tracking": 0.02, "where": "below"}
+ ]}
