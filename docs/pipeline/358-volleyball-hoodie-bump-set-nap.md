@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: B
 type: new
 id: 358
 handle: womens-volleyball-bump-set-nap-hoodie
+shopify: gid://shopify/Product/15363169878320
 kd: 35
 ---
 ## Women's Volleyball – Bump Set Nap Hoodie
@@ -23,3 +24,4 @@ kd: 35
 ---
 ## Log
 - 2026-10-17 06:19 UTC director: brief written, READY (2026-10-17 morning sweep: no unclaimed KD ≤ 20 hoodie/sweatshirt phrase with volume left in RankHero; this is the KD 21–40 band, highest volume first; keyword measured this run).
+- 2026-10-17 06:44 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363169878320 (launch colors per brief, S-3XL, price per brief with no compare-at, category, tags per brief incl. hub tags, SEO, FAQs; keyword volleyball hoodie /1000 /35). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
