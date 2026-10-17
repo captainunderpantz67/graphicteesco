@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-17 20:58 UTC
+status: REVIEW
 lane: C
 type: new
 id: 364
@@ -27,3 +27,4 @@ kd: 36
 - 2026-10-17 06:45 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363170664752 (launch colors per brief, S-3XL, price per brief with no compare-at, category, tags per brief incl. hub tags, SEO, FAQs; keyword soccer hoodie /1600 /36). Copy written from the brief's art description: re-check every sentence against the real art when it exists. Zip placement: full art on the back + small left-chest copy (the #178/#354 method). No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane C.
 - 2026-10-17 21:02 UTC builder [C]: zip layout: back docs/print-files/364-orange-slice-manager.png FW 1650 TOP 225, chest copy docs/print-files/364-orange-slice-manager-chest.png (525 px); art 2 Recraft calls (try 1 drew the cooler as a tall thermos; try 2 kept: striped cooler, orange slices, ball, whistle); ORANGE SLICE / MANAGER in Graduate via compose-print.py; Printful files 1088488789 (back) / 1088488798 (chest), sync 482403165 running; mockups Ash+Navy attached. COVER 2 fal images (registry #555), DIRECTOR DECIDES: try 1 kept (over-the-shoulder back view, all words and print clear, face in frame, but the model's garment shows no hood and a zipper line down the back); try 2 put the print on the front, split by the zipper. Copy rewritten to the real art; FAQs 5 x 46-52 words incl. Dec 8.
+- 2026-10-17 21:35 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/364.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. Cover is a director call: model's garment shows no hood.
