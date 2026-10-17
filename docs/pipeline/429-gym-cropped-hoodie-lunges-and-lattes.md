@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 cover: temp (swap)
 lane: B
 type: twin
@@ -27,3 +27,4 @@ kd: 30
   1. R5.3.8 / R5.3.4: the bunny is dark-brown linework with a see-through body, so on Storm and Black it disappears at phone size: on both mockups only the headband, leg warmers, dumbbell and latte read, the head, ears and body are a faint ghost. Peach is out of stock and every other 7502 color is dark, so fix the art, not the color: give the bunny a cream (#F3E9D8-ish) body fill inside its outline and switch the linework to the darkest brown with a thin cream halo (camo-halo.py, small close value so the gaps between legs and arm stay garment), or recolor the linework to cream. Keep the soft sketch look, no solid plate behind it (R4.1).
   2. R5.3.5: LUNGES & LATTES in mid brown is readable but low on Black; add a cream outline or lighten the fill one step so every letter pops on both colors.
   3. Re-make both mockups and the sheet; read every word and the bunny's face on the Black mockup at phone size before REVIEW. Keep FW 1500 and the 1500 px height.
+- 2026-10-17 13:55 UTC [B]: REDO done. Bunny now has a cream body fill inside its dark-brown outline (camo-halo FILL=1, close 45, halo 8, no plate), LUNGES & LATTES got a cream outline (halo 12, no fill). New file docs/print-files/429-lunges-and-lattes-cropped-v2.png (Printful 1088242936, 3600x3600), re-linked on 10/10 variants FW 1500 TOP 0 with back logo. Mockups Black + Storm + back replaced in place (fileUpdate); bunny face, body and every word read on Black at phone size. Temp cover re-made on the new art (style 1879 Black), cover: temp (swap). Sheet docs/review/429.jpg. Cohesion audit script crashes in this sandbox; copy/price/tags unchanged.
