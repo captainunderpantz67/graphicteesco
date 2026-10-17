@@ -302,6 +302,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-nurse-dont-say-the-q-word-hoodie': { src: '/covers/womens-nurse-dont-say-the-q-word-hoodie.webp', alt: 'Woman in her early 40s with shoulder-length black hair and small hoop earrings in a Sand Don't Say the Q Word nurse hoodie in a hospital staff parking lot at dawn wearing navy scrub pants' },
   'womens-mama-i-have-followers-duck-hoodie': { src: '/covers/womens-mama-i-have-followers-duck-hoodie.webp', alt: 'Woman in her early 30s with a low ponytail in a Sand I Have Followers duck hoodie at a farm pond in October with ducks on the water and a stroller handle beside her' },
   'womens-bookish-plot-twist-cropped-hoodie': { src: '/covers/womens-bookish-plot-twist-cropped-hoodie.webp', alt: 'Woman in glasses and a black Plot Twist cropped hoodie standing between campus library shelves in autumn light' },
+  'mens-christian-fishers-of-men-hoodie': { src: '/covers/mens-christian-fishers-of-men-hoodie.webp', alt: 'Man in a sand Fishers of Men hoodie on a lake dock at sunrise with a fishing rod leaning on the post behind him' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: new
 id: 310
@@ -22,3 +22,4 @@ kd: 14
 ---
 ## Log
 - 2026-10-17 02:26 UTC director: brief written, READY (low-KD sweep 2026-10-17, card step 5; keyword measured this run).
+- 2026-10-17 02:55 UTC [B]: built as DRAFT: new art (Recraft scene + hand-lettered title and small line composed, #234 method; small line 67% of art width), Gildan 18500 Sand + Sport Grey (swapped from Sand + Navy: the navy-ink art does not read on Navy), FW 1500, Printful file 1087988594, registry #493, synced 14/14, audit PASS. Verse stays whole. keyword christian hoodie men 4400/14.

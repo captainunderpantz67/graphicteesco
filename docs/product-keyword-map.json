@@ -4605,6 +4605,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-christian-fishers-of-men-hoodie": {
+   "claimed": [
+    "christian hoodie men"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christian hoodie men",
+     "volume": 4400,
+     "kd": 14
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
