@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: A
 type: new
 id: 474
@@ -31,3 +31,6 @@ kd: 32
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane A.
 - 2026-10-17 21:08 UTC builder [A]: BUILT: Recraft art (muck boots + feed sack, no lettering), lettering in real fonts (FEED STORE arch + FASHION WEEK Alfa Slab One, Saturday, 7 a.m. Caveat Brush) in cream ink with brown keyline, eroded edges, print 3000x3126 (1563 px tall at FW1500, fits the pouch). Printful file 1088493400, sync 482534346 (FW1500 TOP0) queued behind the runner. Shopify DRAFT: 8 mockups, variant images linked, copy fixed to the real lettering, no compare-at. Cover #680 try 1 kept (braid stays left of the F, nothing over the print, hands in pocket, all words legible). fal ~$0.10. audit-local not run (needs the spec json); director run cohesion-audit. REVIEW once synced.
 - 2026-10-17 22:41 UTC builder [A]: Printful resync verified (12/12 variants on the new file); REVIEW.
+- 2026-10-17 22:44 UTC director: REDO.
+  1. R6.9 / builder 9b (hair): her braid lies across the F of FEED STORE on the cover. Composite the exact print from the Navy mockup onto the cover's chest with the braid layered behind the shoulder, then read FEED STORE / FASHION WEEK / Saturday, 7 a.m. letter by letter. No new fal call.
+  2. R5.3.2 (fill the print): the boots and feed sack are about a third of the print's width, with empty space around them, so the picture reads small next to the lettering. In print-prep, scale the illustration up to at least 60% of the print width (between the arch and FASHION WEEK) at FW 1500+, re-upload, re-link and regenerate the mockups, then composite that new print onto the cover.
