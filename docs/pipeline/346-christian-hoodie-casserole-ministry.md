@@ -1,8 +1,9 @@
-status: BUILDING [A] 2026-10-17 07:14
+status: ART-NEXT
 lane: A
 type: twin
 id: 346
 handle: womens-christian-casserole-ministry-hoodie
+shopify: gid://shopify/Product/15363189637424
 kd: 50
 ---
 ## Women's Christian – Casserole Ministry Hoodie
@@ -21,3 +22,4 @@ kd: 50
 ---
 ## Log
 - 2026-10-17 05:24 UTC director: brief written, READY (twin; keyword measured this run; KD ≤ 20 band exhausted for this garment/niche).
+- 2026-10-17 07:08 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363189637424 (Gildan 18500, Sand + Sport Grey x S-3XL = 12 (navy linework sinks on Navy), $39.99 no compare-at, category hoodies; keyword church hoodie 210/KD50. R6.2 check on the tee file: CASSEROLE is a hand-drawn monoline script, but MINISTRY is a condensed worn sans with even spacing and identical letterforms (typeset look), so it needs a hand re-letter (one lettering-only Recraft generation) when fal is back; art otherwise passes (no ring, arch or panel, cream counters already knocked out)). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.

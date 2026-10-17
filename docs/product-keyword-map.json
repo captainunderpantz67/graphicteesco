@@ -5436,6 +5436,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christian-casserole-ministry-hoodie": {
+   "claimed": [
+    "church hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "church hoodie",
+     "volume": 210,
+     "kd": 50
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

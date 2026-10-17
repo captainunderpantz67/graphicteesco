@@ -1,4 +1,5 @@
 RUNNING lane A since 2026-10-17 06:57 UTC
+2026-10-17 07:08 UTC — [A] ART-NEXT #346 womens-christian-casserole-ministry-hoodie (Shopify draft; MINISTRY line needs re-letter when fal returns)
 2026-10-17 07:12 UTC — [A] REVIEW #347 espresso yourself hoodie (REDO: keyline on cream/pink letters, FW 1500, new mockups + temp cover)
 2026-10-17 07:02 UTC — [A] REVIEW #345 amazing grace crewneck (REDO: FW 1800, script scaled 1.4x, new mockups + temp cover)
 2026-10-17 06:46 UTC — [B] Builder run summary (temp-cover mode, no fal calls): REVIEW: #350 Slurp Responsibly, #351 Sore Since 1987, #352 Retired From Cardio crewnecks (REDO: relinked FW 1650, new mockups + temp covers; #351 Navy art rebuilt as a composite so the figure's linework shows, #352 Barbell Club script thickened). #354 Lake Life zip stays REDO, cover: pending (Printful has no two-person view for #692; proposed Ash + Carolina Blue). ART-NEXT Shopify drafts (no art/sync): #356-#367 (12 items; #357 flower launched Black + Military Green because Peach exists only in XL on Printful 7502). Print files for navy fixes are staged on branch art-staging (art/351navy.png, art/352navy.png). Lock released.
