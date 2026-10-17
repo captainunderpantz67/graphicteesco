@@ -7,6 +7,7 @@ import { productSchema, breadcrumbs, faqPage } from '../../lib/schema';
 import { productFaqs } from '../../lib/product-faqs';
 import { all, pathFor } from '../../data/collections';
 import { coverFor } from '../../data/covers';
+import { linkableSlugs } from '../../lib/linkable';
 
 export async function getStaticPaths() {
   const products = await getAllProducts();
@@ -52,7 +53,9 @@ const details = sections['details & fit'] || sections['details'] || '';
 const faqs = productFaqs(p);
 const hook = (story.match(/<p>(.*?)<\/p>/i)?.[1] ?? '').replace(/<[^>]+>/g, '').split(/(?<=\.)\s/).slice(0, 2).join(' ');
 
-const parents = all.filter((c) => p.collections?.includes(c.shopifyHandle));
+// Only link collections that are live and indexable (thin or held pages get no internal links).
+const live = await linkableSlugs();
+const parents = all.filter((c) => p.collections?.includes(c.shopifyHandle) && live.has(c.slug));
 // Primary collection = the one whose niche word appears in the title (e.g. "Women's Western – …" → Western).
 const titleLead = p.title.split('–')[0].toLowerCase();
 const primary = parents.find((c) => !/graphic-tees-for-(men|women)/.test(c.slug) && titleLead.includes(c.slug.split('-')[0]))
