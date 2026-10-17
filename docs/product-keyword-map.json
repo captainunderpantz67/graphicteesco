@@ -4670,6 +4670,84 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-capybara-out-of-office-soaking-oversized-hoodie": {
+   "claimed": [
+    "capybara hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "capybara hoodie",
+     "volume": 8100,
+     "kd": 16
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "unisex-snowboard-sending-it-landing-optional-heavyweight-hoodie": {
+   "claimed": [
+    "snowboard hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "snowboard hoodie",
+     "volume": 9900,
+     "kd": 20
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-welder-i-stack-dimes-for-a-living-heavyweight-hoodie": {
+   "claimed": [
+    "welder hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "welder hoodie",
+     "volume": 1900,
+     "kd": 19
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-bee-busy-bee-off-duty-hoodie": {
+   "claimed": [
+    "bee hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bee hoodie",
+     "volume": 1300,
+     "kd": 20
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "unisex-dachshund-short-legs-long-opinions-hoodie": {
+   "claimed": [
+    "dachshund hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dachshund hoodie",
+     "volume": 1900,
+     "kd": 26
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-wolf-lone-wolf-early-bedtime-hoodie": {
+   "claimed": [
+    "wolf hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "wolf hoodie",
+     "volume": 6600,
+     "kd": 26
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

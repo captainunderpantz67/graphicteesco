@@ -194,6 +194,7 @@ Sections are numbered so role cards and review notes can point at them ("fails R
    - Crewnecks: only the *-sweatshirts collection tag + "sweatshirt" + the holiday tag. NEVER christmas-shirts, christmas-shirts-for-women, thanksgiving-shirts, graphic-tees-for-men/women or niche *-t-shirts tags (those are tee pages).
    - Unisex tees may carry both graphic-tees-for-men and graphic-tees-for-women, so their cover MUST show a man and a woman.
    - Men's holiday designs: christmas-shirts + graphic-tees-for-men only.
+   - **Hoodie and funny-holiday hub tags (director, 2026-10-17):** every men's or unisex hoodie (any blank) also gets graphic-hoodies-for-men (new hub, graphic hoodie men 27,100 / KD 9, the easiest big head term we have measured; women's and unisex already take graphic-hoodies-for-women). Every Christmas tee whose print carries a joke also gets funny-christmas-shirts (slogan-first page, R9.11; crewnecks stay in christmas-sweatshirts).
    - **Style tags (director, 2026-10-16):** every tee whose print carries a joke (R3 hook) also gets funny-graphic-tees; every tee drawn in a specific decade's look (70s bubble letters, 80s gym/VHS, 90s anime, Y2K) also gets retro-graphic-tees. Both collections are hubs fed by these tags.
 6. **Never half-visible:** create the Shopify product as DRAFT. It goes ACTIVE only after review approval (docs/pipeline/README.md) and a PASS from `node scripts/cohesion-audit.mjs --handle <h>`.
 7. **Printful link:**

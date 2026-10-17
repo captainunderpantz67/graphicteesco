@@ -508,12 +508,31 @@ export const tees: Collection[] = [
       { q: 'How much are your funny Thanksgiving shirts?', a: 'Tees are $24.99 (regular $29.99) during the holiday sale through November 30.' },
       { q: 'Do these designs come on sweatshirts too?', a: 'Most of them do. The crewneck versions are in our Thanksgiving sweatshirts collection.' },
     ] }),
+  // AEO slogan-first page (rulebook R9.11, director 2026-10-17): "funny christmas shirt" 8,100 / KD 58 (RankHero 2026-10-15). Fed by the
+  // funny-christmas-shirts tag (tees only; crewnecks stay in christmas-sweatshirts). Exact-match H1, price line, joke first.
+  seasonal('christmas', 'tees', { slug: 'funny-christmas-shirts', name: 'Funny Christmas Shirts', keyword: 'funny christmas shirt', volume: 8100, kd: 58, product: 'funny Christmas shirts', twin: 'christmas-shirts', blurb: 'one clean joke per shirt for the office party, the white elephant and the family photo.',
+    title: 'Funny Christmas Shirts — Sleigh Queen, Define Naughty & More',
+    description: 'Funny Christmas shirts with one clean joke each: Sleigh Queen, Define Naughty, Jolly-ish, Snow Problem, Dough Ho Ho. Tees $24.99 through Nov 30.',
+    intro: 'Funny Christmas shirts, joke first: Sleigh Queen, Define Naughty, Jolly-ish, Snow Problem, Sleighping In, Dough Ho Ho, Ho Ho Howdy and Light Show Manager. Every tee is $24.99 (regular $29.99) through November 30, drawn as vintage-style art and printed when you order it.',
+    sections: [
+      { h2: 'The jokes', body: 'Sleigh Queen is for the friend who runs the whole holiday. Define Naughty puts a storybook Santa next to a fair question. Jolly-ish is for anyone who is festive within limits. Snow Problem is the easygoing one, Sleighping In is for the late riser on Christmas morning, Dough Ho Ho is for the cookie baker, Ho Ho Howdy is the cowgirl Christmas, and Light Show Manager is for the dad on the ladder with the extension cords.' },
+      { h2: 'Funny, but clean enough for the office party', body: 'Every line here gets a laugh from across the room without making anyone wince: no profanity, no innuendo, no movie or cartoon quotes. They work at the office party, the school concert and Grandma’s table.' },
+      { h2: 'Price and fit', body: 'Tees are $24.99 during the holiday sale (regular $29.99), through November 30. Women’s designs come on a relaxed women’s cut in S–3XL; men’s and unisex designs are on a soft lightweight cotton tee up to 5XL. Each product page lists its sizes and colors.' },
+      { h2: 'Matching funny shirts for the family photo', body: 'Give everyone their own joke: Light Show Manager for Dad, Sleigh Queen for Mom, Jolly-ish for the teenager. They share one vintage look, so they still read as a set in the Christmas card photo.' },
+      { h2: 'When to order', body: 'Each shirt is printed after you order it, which takes 2–5 business days, then arrives in about 3–8 business days. Order by early December for Christmas; delivery estimates show at checkout.' },
+    ],
+    extra: [
+      { q: 'What is a good funny Christmas shirt for an office party?', a: 'Pick a clean one-liner that works on anyone: Jolly-ish, Snow Problem or Light Show Manager from Graphic Tees Co. all get a laugh without crossing a line. Every design is family-clean, with no profanity, innuendo or movie quotes, so it is safe for coworkers and the boss.' },
+      { q: 'How much are your funny Christmas shirts?', a: 'Graphic Tees Co. funny Christmas tees are $24.99 (regular $29.99) during the holiday sale through November 30, and US shipping is free on orders over $45. Crewneck sweatshirt versions are $34.99 on sale.' },
+      { q: 'Do these designs come on sweatshirts too?', a: 'Most of them do. The crewneck sweatshirt versions use the same art and live in our Christmas sweatshirts collection, and a few, like Define Naughty and Light Show Manager, also come as hoodies in our Christmas hoodies collection.' },
+      { q: 'What if the size is wrong?', a: 'Every shirt is printed to order, so instead of a return you get one free size exchange within 30 days of delivery: we print the new size and you keep nothing to mail back. Misprints or damage are reprinted or refunded within 30 days.' },
+    ] }),
   // Buy-the-bottom build #1 (RankHero 2026-10-06): "christmas shirts for women" 5,400 / KD 14 — the easy modifier of "christmas shirts" (33,100 / KD 58).
   {
     slug: 'christmas-shirts-for-women', section: 'tees', audience: 'women', name: "Women's Christmas Shirts", seasonal: 'christmas',
     keyword: 'christmas shirts for women', volume: 5400, kd: 14,
     title: 'Christmas Shirts for Women — Original Holiday Graphic Tees',
-    description: 'Original Christmas shirts for women: vintage holiday art for the party, the cookie swap and the family photo. Printed to order, $29.99.',
+    description: 'Original Christmas shirts for women: vintage holiday art and clean jokes for the party, the cookie swap and the photo. Tees $24.99 through Nov 30.',
     h1: 'Christmas Shirts for Women',
     // Also claimed (RankHero/Etsy, 2026-10-09): christmas tree shirt 27,100/46 · gingerbread shirt 1,900/46 · retro santa shirt 390/60 ·
     // vintage santa shirt 390/60 · retro christmas shirt 260/75.
@@ -529,20 +548,24 @@ export const tees: Collection[] = [
       { q: 'What do you wear to a Christmas party if you don’t want an ugly sweater?', a: 'A Christmas graphic tee under an open flannel or cardigan with jeans is festive without being a costume.' },
       { q: 'Do you have matching Christmas shirts for family?', a: 'Yes. Any design can be ordered in several sizes, and the unisex designs fit men and women.' },
       { q: 'Are these licensed Christmas characters?', a: 'No. Every design is original holiday art made for this shop.' },
-      { q: 'Can I return a Christmas shirt if the size is wrong?', a: 'Each shirt is printed to order, so returns are for misprints or damage only. Check the size chart before you order.' },
+      { q: 'Can I return a Christmas shirt if the size is wrong?', a: 'Yes, in a way. Every Graphic Tees Co. shirt is printed to order, so instead of a return you get one free size exchange within 30 days of delivery: we print the new size and you keep nothing to mail back. Misprints or damage are reprinted or refunded within 30 days.' },
       ...audienceFaqs('Christmas shirts'),
     ],
     shopifyHandle: 'christmas-shirts-for-women',
   },
   seasonal('christmas', 'tees', { slug: 'christmas-shirts', keyword: 'christmas shirts', volume: 33100, kd: 58, product: 'Christmas shirts', twin: 'christmas-hoodies', blurb: 'holiday designs that work for the party, the family photo and the gift exchange.',
     extra: [
-      { q: 'Do you have matching Christmas shirts for family or couples?', a: 'Yes. Any design can be ordered in several sizes so the whole family — or the two of you — match.' },
-      { q: 'Do you have funny Christmas shirts?', a: 'Not right now. The current designs are illustrated holiday scenes rather than jokes or puns.' },
+      // FAQ standard R8.7 (director 2026-10-17): questions from Google autocomplete ("christmas shirts for family/couples/work", "what to wear christmas party", "how to wash graphic tees without cracking").
+      { q: 'Do you have matching Christmas shirts for family or couples?', a: 'Yes. Graphic Tees Co. Christmas shirts come in women’s S–3XL and unisex S–5XL, so a family or a couple can order one design in every size, or each pick a different joke in the same vintage style. Unisex designs fit men and women, and tees are $24.99 on sale through November 30.' },
+      { q: 'Do you have funny Christmas shirts?', a: 'Yes. Our funny Christmas shirts carry one clean joke each, such as Sleigh Queen, Define Naughty, Jolly-ish, Snow Problem, Dough Ho Ho and Light Show Manager. They are family-table clean, with no profanity or movie quotes, and they all live on the funny Christmas shirts page.' },
+      { q: 'What should I wear to a Christmas party?', a: 'A Christmas graphic tee under an open flannel or cardigan with dark jeans works for most office and family parties. Pick a funny one-liner for a white elephant or friends’ party and a vintage Santa or tree design for a dressier evening; a matching crewneck is warmer for an outdoor lights walk.' },
+      { q: 'Are Christmas shirts OK to wear to work?', a: 'Most of ours are. Every Graphic Tees Co. design is family-clean, with no profanity, innuendo or put-downs, so the vintage scenes and gentle jokes suit an office party or a casual December Friday. If your workplace is formal, wear one under a blazer or cardigan.' },
+      { q: 'How do I wash a Christmas graphic tee so the print does not crack?', a: 'Turn the shirt inside out, wash cold on a gentle cycle with like colors, and tumble dry low or hang dry. Never iron directly on the print and skip bleach and fabric softener. Our tees are printed directly into the cotton, so with cold washes the art stays bright for seasons.' },
     ],
     // Phrases claimed (RankHero/Etsy, 2026-10-09): christmas shirts 33,100/58 · christmas tree shirt 27,100/46 · christmas tee shirts 27,100/59 ·
     // gingerbread shirt 1,900/46 · vintage/retro santa shirt 390/60 · retro christmas shirt 260/75. Women's modifier lives on the child page.
     title: 'Christmas Shirts — Vintage Santa, Tree & Gingerbread Tees',
-    description: 'Original Christmas shirts: a retro Santa, a Christmas tree truck, a gingerbread house, a snowy cabin and Merry & Bright. Printed to order, $29.99.',
+    description: 'Original Christmas shirts: vintage Santa, tree-truck and gingerbread art plus funny one-liners like Sleigh Queen. Tees $24.99 through Nov 30.',
     intro: 'Our Christmas shirts are original holiday designs for the tree farm, the cabin weekend and the family photo. Vintage-style illustrations instead of ugly-sweater gags, printed when you order them.',
     sections: [
       { h2: 'Five kinds of Christmas', body: 'A red pickup hauling a fresh-cut tree down a snowy back road. A log cabin glowing under a crescent moon with a deer nearby. A gingerbread house with candy-cane trim and two waving gingerbread people. MERRY & BRIGHT in groovy 1970s bubble letters, ringed with vintage ornaments. And a round, rosy 1950s Santa laughing HO HO HO with a sack of pink-wrapped gifts. Each one is drawn as its own scene, so you can pick the December that looks like yours.' },
