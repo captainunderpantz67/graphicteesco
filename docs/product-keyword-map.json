@@ -4364,6 +4364,45 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-hunting-im-not-yelling-im-bugling-camo-hoodie": {
+   "claimed": [
+    "elk hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "elk hoodie",
+     "volume": 140,
+     "kd": 36
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-hunting-fluent-in-honk-camo-hoodie": {
+   "claimed": [
+    "waterfowl hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "waterfowl hoodie",
+     "volume": 390,
+     "kd": 31
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-hunting-full-draw-zero-deer-camo-hoodie": {
+   "claimed": [
+    "bow hunting hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bow hunting hoodie",
+     "volume": 140,
+     "kd": 36
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
