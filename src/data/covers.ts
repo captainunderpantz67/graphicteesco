@@ -319,7 +319,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-gym-sore-since-1987-crewneck-sweatshirt': { src: '/covers/mens-gym-sore-since-1987-crewneck-sweatshirt.webp', alt: 'Man wearing a navy Sore Since 1987 gym crewneck sweatshirt, front view' },
   'mens-gym-retired-from-cardio-crewneck-sweatshirt': { src: '/covers/mens-gym-retired-from-cardio-crewneck-sweatshirt.webp', alt: 'Man wearing a navy Retired From Cardio gym crewneck sweatshirt, front view' },
   'womens-bookish-plot-twist-hoodie': { src: '/covers/womens-bookish-plot-twist-hoodie.webp', alt: 'Woman wearing a navy Plot Twist: I Stayed In bookish hoodie, front view' },
-  'unisex-fishing-lake-life-zip-hoodie': { src: '/covers/unisex-fishing-lake-life-zip-hoodie.webp', alt: 'Man wearing a sport grey Lake Life bass fishing zip hoodie, back view' },
+  'unisex-fishing-lake-life-zip-hoodie': { src: '/covers/unisex-fishing-lake-life-zip-hoodie.webp', alt: 'Man and woman on a lake dock at sunrise wearing grey Lake Life bass fishing zip hoodies, back view' },
   'mens-gym-leg-day-survivor-heavyweight-hoodie': { src: '/covers/mens-gym-leg-day-survivor-heavyweight-hoodie.webp', alt: 'Man wearing a grey heather I Survived Leg Day heavyweight gym hoodie, front view' },
   'womens-christian-amazing-grace-crewneck-sweatshirt': { src: '/covers/womens-christian-amazing-grace-crewneck-sweatshirt.webp', alt: 'Woman smiling in a navy Amazing Grace crewneck sweatshirt with a cross on a flower hill' },
   'womens-coffee-espresso-yourself-hoodie': { src: '/covers/womens-coffee-espresso-yourself-hoodie.webp', alt: 'Woman smiling in a Sand Espresso Yourself coffee hoodie with the hood down' },
