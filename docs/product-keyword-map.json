@@ -5293,6 +5293,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-outdoors-went-outside-it-was-fine-heavyweight-hoodie": {
+   "claimed": [
+    "national park hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "national park hoodie",
+     "volume": 720,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
