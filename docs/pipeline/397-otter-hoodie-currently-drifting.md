@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [B] 2026-10-17T08:58Z
 lane: B
 type: new
 id: 397
