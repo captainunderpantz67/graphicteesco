@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-16 22:39 UTC
+status: REVIEW
 lane: A
 type: new
 id: 251
@@ -22,3 +22,4 @@ handle: womens-thanksgiving-the-turkey-is-fine-graphic-tee
 ## Log
 - 2026-10-16 22:25 UTC director: brief written, READY (lane A funny Thanksgiving pair for /funny-thanksgiving-shirts/, R9.11).
 - 2026-10-16 22:43 UTC builder [A]: NEW ART Recraft v4 try 1 (THE TURKEY IS FINE spelled right, 1950s hostess with oven mitts and a darkened turkey, one smoke curl, no flames, no frame or badge; print-prep --solid; knocked the two large white gaps beside the arms; checked on grey and near-black). Printful file 1087872888 (3600x3949). DRAFT gid://shopify/Product/15362421195056 (Bella+Canvas 6400; White, Natural, Heather Stone, Athletic Heather, Pink x S-3XL = 30; light and mid only, no cream-ink file; $24.99/$29.99; tags per brief), Printful sync 482340395 queued (FORCE=1 FW=1500 setfile 482340395 1087872888 1080398177). Keywords (cooking shirt etc.) already in the map under this handle. I dropped the brief's supporting phrase 'its fine shirt' (misspelled string, reads like stuffing). Cover #427 from the White mockup (try 1, kept #3 of 3), 5 fronts + back, variant images, audit above, docs/review/251.jpg. REVIEW once synced = 30.
+- 2026-10-17 02:04 UTC builder [A]: Printful sync complete; REVIEW.
