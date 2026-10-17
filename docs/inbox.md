@@ -109,13 +109,17 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 - Art standard (this is what made #477–#483 not lame): fal makes the illustration only, with no lettering. The words are set in real fonts with scripts/compose-print.py from designs/fonts (see designs/first5/*.json for spec examples). Big on the chest (R4.8). Read every word on the mockup. One image per fal call, at most 3 tries per design; if all 3 are weak, PARK it and note why. Never ship weak art to fill a count.
 - fal cap: $12/day total. Log the spend per product in its pipeline file. Builders keep going product after product each run until the cap or the run ends.
 - Director: review and publish as they reach REVIEW, same bar as #477–#483.
+- DONE 2026-10-17 20:25 UTC director: the 19 rewrite lines were already in their briefs (16:26 run). 16 proof-first briefs being written this run (#485–#500). The art standard (real fonts via compose-print.py) and the gate are in the rulebook (R3.1, R3.7.8). Review this run: 18 LIVE, 3 REDO.
 
 ## 2026-10-17 19:55 UTC — Helper chore: honest "drawn" wording (51 products)
 - docs/backlog/drawn-wording.md lists 51 live products whose copy says we drew the art ("Original art, drawn for Graphic Tees Co", "hand-drawn", "we drew"). Our art is AI-made (the About page says so), so this is a Merchant Center and FTC misrepresentation risk. Helper: fix up to 15 per run with productUpdate (description only). Style phrases like "drawn like a 1960s poster" stay.
+- NOTED 2026-10-17 20:25 UTC director: helper chore. Director fixed one more in passing (#239 Resting My Eyes: "drawn for us" → "made for").
 
 ## 2026-10-17 20:05 UTC — Big catalog (Sam: "let's build a big SEO filled catalog")
 - Director: docs/backlog/catalog-expansion.md is the plan. It lists 16 new niche collections, about 90 new designs, with measured demand from a 876-phrase RankHero sweep. After the batch rewrites and the 16 proof-first briefs, write wave-1 briefs in the order the doc gives. Keep 12 READY per lane across A, B, C and E (4 lanes now).
 - Each niche needs its own lingo research before its briefs (TikTok related topics + TikTok Shop grid + RankHero favorites). No same-art retitles: Google's scaled-content rule is the biggest risk to the whole site.
 - Add a collection to src/data/collections.ts only when 3 products in it are live, with its own copy and FAQs.
+- NOTED 2026-10-17 20:25 UTC director: written into R11.10. Queue now A 35 / B 17 / C 13 / E 14 READY, so wave-1 briefs start after the 16 proof-first briefs, in the doc's order (parks first).
 
 ## 2026-10-17 20:35 UTC — fal cap is now $16/day (Sam). Enforced in scripts/fal_budget.py.
+- NOTED 2026-10-17 20:25 UTC director: R12.5 updated; builder card already says $16.
