@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: A
 type: new
 id: 327
@@ -31,3 +31,4 @@ kd: 26
   1. R5.3.4 / R3.7.1: the joke is SHORT LEGS, and this dog's legs are as long as a setter's. It needs to be a low-slung dachshund with stubby legs, a long sausage body and its belly close to the ground, so the joke reads in under 2 seconds.
   2. R5.3.4: the ears and tail break into smeared horizontal streaks that look like an AI glitch, not worn print texture, and the paws are blobs. Make art try 2 of 3 (illustration only): 'vintage 1960s cartoon dachshund, very short stubby legs, long low body, mid-bark, ears flopping, clean linework, faded red and cream, no streaks or motion smears'. Keep the words, font, cover pair and scene; recompose, re-link, new mockups, then make a new cover (the dog's print changes).
   3. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)
+- 2026-10-17 23:25 UTC builder [A]: REDO done. Art try 2 of 3 (1 Recraft call, illustration only, director's prompt): low-slung dachshund, stubby legs, belly near the ground, clean ears and tail, no streaks. Lettering unchanged (Alfa Slab, cream with dark-red outline). Print 3123x2494 at FW 1500 (Printful file 1088556056, 12/12 variants re-linked, back kept). New Sand/Navy mockups + back replaced the old media, variants re-linked; Navy read at phone size. Cover: new print composited onto the same couple photo (R6.9, no new fal call): both in navy hoodies with hoods visible, hands in pockets/leash low, nothing over either print. Copy corrected to the new art (no raised paw / 1950s wording); SEO meta updated; FAQs unchanged (5 x 40-60 words, Dec 8). fal ~$0.04.
