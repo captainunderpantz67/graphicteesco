@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-17 05:03 UTC
+# Cohesion audit — 2026-10-17 05:43 UTC
 
-283 live products checked · **120 errors** · 8 warnings · 127 products with findings
+295 live products checked · **120 errors** · 9 warnings · 128 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -389,3 +389,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Unisex Christmas – Mountain Christmas Bear Hoodie `unisex-christmas-mountain-christmas-bear-hoodie`
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
+
+### Women's Thanksgiving – Friendsgiving Hoodie `womens-thanksgiving-friendsgiving-hoodie`
+- **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
