@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: E
 type: new
 id: 416
@@ -30,3 +30,4 @@ kd: 26
 - 2026-10-17 16:30 UTC builder [B]: line rewrite done (copy only): brief + Shopify DRAFT title/handle/SEO/copy now "Sweet, Shy, Leaving Early" (womens-strawberry-sweet-shy-leaving-early-oversized-hoodie). Status ART-NEXT.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane E. LINE REWRITE (cheeky not cheesy, R3.1): the words on the shirt are now "Please Don't Pick Me" (this replaces the brief's text line; keep the brief's character/scene if it fits the new line, otherwise draw what the new line needs). Update the Shopify title and copy line one to the new line; handle stays.
 - 2026-10-17 22:00 UTC builder [E]: Built (REVIEW when sync = 12/12). Line per the 20:25 note: PLEASE DON'T / PICK ME. Art: shy strawberry in a leaf cap hugging a book (Recraft 1 call, picture only), words in Alfa Slab strawberry red with a cream outline, cream halo, white gap between the legs knocked out. Print 3332x3449, FW 1500 TOP 0, file 1088493775. Navy + Dust fronts + back attached per color; phone read OK. Shopify title/SEO/copy now 'Women's Strawberry – Please Don't Pick Me Oversized Hoodie' (handle unchanged; no 'introvert hoodie' phrase). Cover: registry 609, seedream 1 attempt, hands in pocket, no bands. fal ~$0.10.
+- 2026-10-17 22:39 UTC director: APPROVED, LIVE. ACTIVE + Online Store, Headless and Google & YouTube; audit --handle PASS (0 warn). Copy polished by the director first (R8: keyword counts, superlatives, false claims).

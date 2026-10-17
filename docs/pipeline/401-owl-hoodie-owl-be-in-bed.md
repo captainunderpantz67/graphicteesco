@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: E
 type: new
 id: 401
@@ -30,3 +30,4 @@ kd: 31
 - 2026-10-17 17:10 UTC builder [A]: line rewrite done (copy only): brief + Shopify DRAFT title/handle/SEO/copy now "Night Owl, Retired" (womens-owl-night-owl-retired-hoodie); FAQs refreshed to 4-6 where short. Status ART-NEXT.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane E. LINE REWRITE (cheeky not cheesy, R3.1): the words on the shirt are now "Night Owl, Retired" (this replaces the brief's text line; keep the brief's character/scene if it fits the new line, otherwise draw what the new line needs). Update the Shopify title and copy line one to the new line; handle stays.
 - 2026-10-17 22:00 UTC builder [E]: Built (REVIEW when sync = 12/12). Line: NIGHT OWL, / RETIRED. Art: sleepy owl in a striped nightcap and scarf on a pine branch with a moon (Recraft 1 call, picture only); copy corrected (scarf, not blanket; slab letters, not hand-drawn). Words Alfa Slab cream + rust, dark brown outline. Print 3367x3181, FW 1500 TOP 0, file 1088497941. Navy + Sand fronts + back attached per color. Cover: registry 592, seedream 1 attempt, scarf held at her side away from the print. fal ~$0.10.
+- 2026-10-17 22:39 UTC director: APPROVED, LIVE. ACTIVE + Online Store, Headless and Google & YouTube; audit --handle PASS (0 warn). Copy polished by the director first (R8: keyword counts, superlatives, false claims).

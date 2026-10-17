@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 460
@@ -28,3 +28,4 @@ kd: 30
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane A.
 - 2026-10-17 20:56 UTC builder [A]: ART + SYNC + MOCKUPS + COVER done on the existing DRAFT gid 15363779068208. Art: 1 Recraft call (woman in a deck chair, skis, cocoa, no lettering), print-prep --solid, white recolored to planned cream ink, cream keyline. EXPERT IN APRÈS (grave accent present) in Alfa Slab capitals, dusty pink with a cream outline, 3300 px wide (art 3000 px); (beginner at skiing) in Caveat Brush, cream with a navy outline, 2500 px wide (83% of the art). File 3300x3493 (Printful 1088485600), FW 1500 TOP 0 (about 10.6 in tall). Mockups Sand + Navy checked. Cover: reg 660 per brief with the hair changed to a high bun (try 1 long waves covered the E and S of the line; try 2 ponytail + drawstring covered APRÈS and white bars; try 3 kept, cropped inside the white bars, nothing over the print). Shopify: media + variant links, copy now names the real lettering, FAQ answers 40-60 words incl. Dec 8, audit-local PASS, no compare-at. fal ~$0.16. Printful sync running (12 variants): REVIEW when synced = 12. Resume: FORCE=1 FW=1500 TOP=0 python3 scripts/pf-sync.py setfile 482504676 1088485600 1080398177
 - 2026-10-17 21:52 UTC builder [A]: Printful resync verified (12/12 variants on the new file); REVIEW.
+- 2026-10-17 22:39 UTC director: APPROVED, LIVE. ACTIVE + Online Store, Headless and Google & YouTube; audit --handle PASS (0 warn). Copy polished by the director first (R8: keyword counts, superlatives, false claims).

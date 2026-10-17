@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 434
@@ -31,3 +31,4 @@ kd: 19
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane A. LINE REWRITE (cheeky not cheesy, R3.1): the words on the shirt are now "I Saw You Eyeing the Last Dumpling" (this replaces the brief's text line; keep the brief's character/scene if it fits the new line, otherwise draw what the new line needs). Update the Shopify title and copy line one to the new line; handle stays.
 - 2026-10-17 21:25 UTC builder [A]: ART + SYNC + MOCKUPS + COVER done on the existing DRAFT gid 15363696918832. Art: 1 Recraft call (samurai cat + dumpling basket, no lettering), print-prep --solid, white recolored to planned cream ink, plus a thin cream keyline around the silhouette so the navy trousers hold on Navy. SHARING IS NOT / MY LOVE LANGUAGE set in Caveat Brush (hand brush font), cream with a navy outline (reads on Dust and Navy), 3000/3300 px wide (the art is 2400 px). File 3300x3435 (Printful 1088478367), FW 1500 TOP 0 (about 10.4 in tall, clear of the pouch). Mockups Dust + Navy checked (Dust renders as a cream/stone tone). Cover: regs 628+629 per brief, Navy mockup as --design, 1 attempt (woman's LANGUAGE slightly soft, man's line sharp). Shopify: media + variant links, copy paragraph names the real lettering, audit-local PASS, no compare-at, FAQ 5 x 40-60 words incl. Dec 8. fal ~$0.08. Printful sync 482473998 running (12 variants): REVIEW when synced = 12. Resume: `FORCE=1 FW=1500 TOP=0 python3 scripts/pf-sync.py setfile 482473998 1088478367 1080398177`.
 - 2026-10-17 21:52 UTC builder [A]: Printful resync verified (12/12 variants on the new file); REVIEW.
+- 2026-10-17 22:39 UTC director: APPROVED, LIVE. ACTIVE + Online Store, Headless and Google & YouTube; audit --handle PASS (0 warn). Copy polished by the director first (R8: keyword counts, superlatives, false claims). Kept the built line SHARING IS NOT MY LOVE LANGUAGE (it passes; the later rewrite is withdrawn).

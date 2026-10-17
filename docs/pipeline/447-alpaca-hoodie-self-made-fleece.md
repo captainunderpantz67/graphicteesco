@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 447
@@ -31,3 +31,4 @@ kd: 14
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane A.
 - 2026-10-17 21:05 UTC builder [A]: ART + SYNC + MOCKUPS + COVER done on the existing DRAFT gid 15363727884592. Art: 1 Recraft call (alpaca only, no lettering), print-prep --solid, white recolored to planned cream ink. JUDGING YOU SOFTLY set in Alfa Slab capitals, cream fill with a dark brown outline (2 passes: the first outline was too thin on Sand, now 26 px), 3300 px wide (alpaca 2400 px). File 3300x3277 (Printful 1088477601), FW 1500 TOP 0 (about 10.9 in tall). Mockups Sand + Navy checked. Cover: reg 644 per brief, Navy mockup as --design, 1 attempt (right braid ends right at the last Y of SOFTLY but nothing is covered). Shopify: media + variant links, copy line two now names the real lettering (cream capitals outlined dark brown), FAQ 5 x 40-60 words incl. Dec 8, audit-local PASS, no compare-at. fal ~$0.08. Printful sync 482489740 running (12 variants): REVIEW when synced = 12. Resume: `FORCE=1 FW=1500 TOP=0 python3 scripts/pf-sync.py setfile 482489740 1088477601 1080398177`.
 - 2026-10-17 21:52 UTC builder [A]: Printful resync verified (12/12 variants on the new file); REVIEW.
+- 2026-10-17 22:39 UTC director: APPROVED, LIVE. ACTIVE + Online Store, Headless and Google & YouTube; audit --handle PASS (0 warn). Copy polished by the director first (R8: keyword counts, superlatives, false claims).

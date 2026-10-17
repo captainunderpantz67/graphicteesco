@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 495
@@ -30,3 +30,4 @@ kd: 16
 - 2026-10-17 20:27 UTC director: brief written, READY (Sam's 16 proof-first concepts, inbox 2026-10-17 19:30).
 - 2026-10-17 21:21 UTC builder [C]: full build from the brief (no Shopify draft existed): art 1 Recraft call (no lettering, top edge faded); REST DAY IS A / SACRED QUEST in Cinzel via compose-print.py; Shopify DRAFT gid://shopify/Product/15364162388272 created with scripts/b-artnext.py (Sand+Navy x S-3XL = 12 variants, $39.99, category hoodies, tags per brief, keyword medieval hoodie 2400/KD16 in the map, copy written from the real art, FAQ 5 x 40-60 words incl. Dec 8); FW 1600 TOP 250; Printful file 1088500897, sync 482605705 running; mockups Sand+Navy attached; fal cover 1 image (registry #821): all words read, hood visible, drawstrings clear of the print. fal $ this item: art 0.04 + cover 0.06.
 - 2026-10-17 21:35 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/495.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. 
+- 2026-10-17 22:39 UTC director: APPROVED, LIVE. ACTIVE + Online Store, Headless and Google & YouTube; audit --handle PASS (0 warn). Copy polished by the director first (R8: keyword counts, superlatives, false claims).

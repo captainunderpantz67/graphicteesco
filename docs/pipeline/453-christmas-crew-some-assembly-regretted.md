@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 453
@@ -29,3 +29,4 @@ kd: 8
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane A.
 - 2026-10-17 20:40 UTC builder [A]: ART + SYNC + MOCKUPS + COVER done on the existing DRAFT gid 15363812589872. Art: 1 Recraft call (no lettering; dad cross-legged under the tree, half-built bike, screws, screwdriver, instruction sheet), print-prep --solid, white recolored to planned cream ink, no free pure white. SOME ASSEMBLY / REGRETTED in Alfa Slab capitals, faded red #b5362f with a cream outline (reads on Sand and Navy), 3300 px wide (the scene is 2900 px wide), worn speckle. File 3300x3650 (Printful 1088475099), FW 1650 TOP 75 (about 12 in tall). Mockups Sand + Navy checked at phone size. Cover: reg 651 per brief, Navy mockup as --design, 1 attempt, print complete. Shopify: media (Sand/Navy fronts + back) created and linked to variants; copy re-checked against the art (palette now red/green/cream, screwdriver named, 'chunky red slab capitals'); SEO + line one now say 'funny dad Christmas sweatshirt' (the director moved 'mens christmas sweater' to the hub page); tag christmas-sweatshirts-for-men added (R7.5). FAQ 5 answers 40-60 words incl. Dec 8. Audit-local PASS. No compare-at. fal ~$0.09 (art 0.04 + cover). Printful sync 482511345 running (12 variants): REVIEW when synced = 12. Resume if the run dies: `FW=1650 python3 scripts/pf-sync.py setfile 482511345 1088475099 1080398177`.
 - 2026-10-17 21:52 UTC builder [A]: Printful resync verified (12/12 variants on the new file); REVIEW.
+- 2026-10-17 22:39 UTC director: APPROVED, LIVE. ACTIVE + Online Store, Headless and Google & YouTube; audit --handle PASS (0 warn). Copy polished by the director first (R8: keyword counts, superlatives, false claims). Primary moved to 'christmas gifts for dad' (60,500 / KD 6, RankHero 2026-10-17); the men's Christmas pages own the head terms (R2.9).

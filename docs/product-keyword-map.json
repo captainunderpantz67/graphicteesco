@@ -6529,16 +6529,18 @@
    "measured": "2026-10-16"
   },
   "mens-christmas-some-assembly-regretted-crewneck-sweatshirt": {
-   "claimed": [],
+   "claimed": [
+    "christmas gifts for dad"
+   ],
    "gaps_measured": [
     {
-     "phrase": "mens christmas sweater",
-     "volume": 33100,
-     "kd": 8
+     "phrase": "christmas gifts for dad",
+     "volume": 60500,
+     "kd": 6
     }
    ],
-   "measured": "2026-10-16",
-   "note": "2026-10-17 director: 'mens christmas sweater' moved to the /christmas-sweatshirts-for-men/ page (R2.9). No measured long-tail yet (tried: dad christmas sweater, christmas sweater for dad, some assembly required shirt, funny christmas sweatshirt men, christmas crewneck men)."
+   "measured": "2026-10-17",
+   "note": "director: a future dad gift guide may take this head term; the product then moves to its own long-tail"
   },
   "unisex-hanukkah-spin-responsibly-crewneck-sweatshirt": {
    "claimed": [

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 489
@@ -30,3 +30,4 @@ kd: 30
 - 2026-10-17 20:27 UTC director: brief written, READY (Sam's 16 proof-first concepts, inbox 2026-10-17 19:30).
 - 2026-10-17 21:25 UTC builder [C]: full build (no draft existed): art 1 Recraft call (teacup, no lettering); ALREADY OVER IT (Alfa Slab One) + kindly. (Yellowtail) via compose-print.py; Shopify DRAFT gid://shopify/Product/15364165239088 via b-artnext.py (12 variants $39.99, hoodies category, tags per brief, keyword funny hoodie women 480/KD30 in the map, FAQ 5 x 40-60 words incl. Dec 8); FW 1600 TOP 250; Printful file 1088502761, sync 482606631 running; mockups Sand+Navy attached; fal cover 1 image (registry #813), clean. fal $0.10.
 - 2026-10-17 21:41 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/489.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. 
+- 2026-10-17 22:39 UTC director: APPROVED, LIVE. ACTIVE + Online Store, Headless and Google & YouTube; audit --handle PASS (0 warn). Copy polished by the director first (R8: keyword counts, superlatives, false claims).

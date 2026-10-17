@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 445
@@ -28,3 +28,4 @@ kd: 24
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane A.
 - 2026-10-17 20:49 UTC builder [A]: ART + SYNC + MOCKUPS + COVER done on the existing DRAFT gid 15363750134064. Art: 1 Recraft call (knight on bench + worried squire, no lettering), print-prep --solid, white recolored to planned cream ink, cream keyline. SQUIRE, SPOT ME in Alfa Slab capitals, faded red #b5362f with a cream outline, 3300 px wide (the art is 3300 px wide). File 3300x3128 (Printful 1088482192), FW 1600 TOP 0 (about 10.1 in tall). Mockups Sand + Navy checked. Cover: reg 642 per brief, Navy mockup as --design, 1 attempt, print complete. Shopify: media + variant links, copy paragraph now names the real lettering, audit-local PASS, 6 FAQs, no compare-at. fal ~$0.08. Printful sync 482498219 running (12 variants): REVIEW when synced = 12. Resume: FORCE=1 FW=1600 TOP=0 python3 scripts/pf-sync.py setfile 482498219 1088482192 1080398177
 - 2026-10-17 21:52 UTC builder [A]: Printful resync verified (12/12 variants on the new file); REVIEW.
+- 2026-10-17 22:39 UTC director: APPROVED, LIVE. ACTIVE + Online Store, Headless and Google & YouTube; audit --handle PASS (0 warn). Copy polished by the director first (R8: keyword counts, superlatives, false claims).

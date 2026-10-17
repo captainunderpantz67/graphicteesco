@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: E
 type: new
 id: 444
@@ -30,3 +30,4 @@ kd: 34
 - 2026-10-17 17:10 UTC builder [A]: line rewrite done (copy only): brief + Shopify DRAFT title/handle/SEO/copy now "Bald Is Aerodynamic" (mens-eagle-bald-is-aerodynamic-heavyweight-hoodie); FAQs refreshed to 4-6 where short. Status ART-NEXT.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane E. LINE REWRITE (cheeky not cheesy, R3.1): the words on the shirt are now "Bald by Choice. Majestic by Nature." (this replaces the brief's text line; keep the brief's character/scene if it fits the new line, otherwise draw what the new line needs). Update the Shopify title and copy line one to the new line; handle stays.
 - 2026-10-17 22:00 UTC builder [E]: Built (REVIEW when sync = 14/14). Line per the 20:25 note: BALD BY CHOICE. / MAJESTIC BY NATURE. Art: bald eagle head in profile (Recraft 1 call, picture only), dark halo so the cream head holds on Sandstone. Words Alfa Slab cream + gold, dark outline. Print 3360x2748, FW 1700 TOP 100, file 1088499207. Storm Blue + Sandstone fronts + back attached per color; the second line is small on the 400 px mockup but legible. Shopify title/SEO/copy now 'Men's Eagle – Bald by Choice. Majestic by Nature. Heavyweight Hoodie' (handle unchanged). Cover: registry 641, seedream 1 attempt, hands in pouch. fal ~$0.10.
+- 2026-10-17 22:39 UTC director: APPROVED, LIVE. ACTIVE + Online Store, Headless and Google & YouTube; audit --handle PASS (0 warn). Copy polished by the director first (R8: keyword counts, superlatives, false claims).

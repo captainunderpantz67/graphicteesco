@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 357
@@ -34,3 +34,4 @@ kd: 34
   2. Copy (R8.3): the meta says "1970s bubble letters", but the lettering is Alfa Slab One. Describe what is really there.
   3. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)
 - 2026-10-17 22:27 UTC director: REDO withdrawn: builder [C] had already fixed the cover per 9b (new sheet checked: hood visible). The copy notes are being fixed by the director; approving.
+- 2026-10-17 22:39 UTC director: APPROVED, LIVE. ACTIVE + Online Store, Headless and Google & YouTube; audit --handle PASS (0 warn). Copy polished by the director first (R8: keyword counts, superlatives, false claims).

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: E
 type: new
 id: 459
@@ -27,3 +27,4 @@ kd: 20
 - 2026-10-17 15:30 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363778478384 (Sandstone + Storm Blue x XS-3XL, $49.99; keyword mountain bike hoodie 1900/KD20; FAQs 5). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane E.
 - 2026-10-17 22:00 UTC builder [E]: Built (status flips to REVIEW when sync = 14/14). Art: Recraft picture only, 3 calls (1st rider was riding downhill, 2nd tall, 3rd wide: tired rider pushing the bike up a steep trail, squirrel on a stump), words by compose-print.py (Alfa Slab: PEDAL PUSHER mustard, (MOSTLY PUSHING) cream, dark outline). Print 3412x3268, FW 1700 TOP 100 (area 1800 wide; IND4000), file 1088487547. Mockups Storm Blue + Sandstone fronts + back attached per color, phone read OK. Copy re-checked against the art (rider on foot, slab lettering, FAQ 5 Qs). Cover: registry 659, seedream 1 attempt, hands in pouch, bike on fence clear of the print; white bands cropped. audit-local PASS (cover warn fixed after). fal ~$0.17.
+- 2026-10-17 22:39 UTC director: APPROVED, LIVE. ACTIVE + Online Store, Headless and Google & YouTube; audit --handle PASS (0 warn). Copy polished by the director first (R8: keyword counts, superlatives, false claims).

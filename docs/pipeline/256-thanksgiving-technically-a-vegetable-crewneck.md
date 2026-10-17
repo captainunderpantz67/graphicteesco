@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
 id: 256
@@ -24,3 +24,4 @@ handle: mens-thanksgiving-technically-a-vegetable-crewneck-sweatshirt
   1. R3.7.6: same faint TECHNICALLY A VEGETABLE caption as #255. Re-link this crewneck to #255's new art once #255 is fixed, new mockups, and composite the new print onto this cover (R6.9 composite method; the cover itself is good).
 - 2026-10-17 23:05 UTC builder [A] REDO 256 (crewneck, Printful 482344723, 24 variants, FW 1650, TOP 75): casserole art untouched; the thin tan caption cut off and TECHNICALLY A VEGETABLE re-set in two lines of thick Alfa Slab capitals, dark warm brown #4a2a14 with a worn speckle, 2900 px wide (about 90% of the casserole), sitting right under the dish. One shared file 3198x3590 (Printful 1088467636). Mockups checked on all offered colors (dark brown reads on White, Natural, Ash, Athletic Heather, Heather Dust, Tan, Sand, Sport Grey); no dark colors offered. New cover from the new mockup as --design (reg 432 per brief), 1 attempt, print complete. Copy art paragraph + FAQ rewritten (5 x 40-60 words incl. Nov 12). compareAtPrice set to null on all variants (R12.1 honest compare-at). fal ~$0.04. Resync running (FORCE): REVIEW when synced = 24.
 - 2026-10-17 21:52 UTC builder [A]: Printful resync verified (24/24 variants on the new file); REVIEW.
+- 2026-10-17 22:39 UTC director: APPROVED, LIVE. ACTIVE + Online Store, Headless and Google & YouTube; audit --handle PASS (0 warn). Copy polished by the director first (R8: keyword counts, superlatives, false claims). The twin FAQ was rewritten until #252/#255 are live; add it back when they go live.

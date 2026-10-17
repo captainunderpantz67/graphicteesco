@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 408
@@ -28,3 +28,4 @@ kd: 20
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane A.
 - 2026-10-17 21:50 UTC builder [A]: ART + SYNC + MOCKUPS + COVER done on the existing DRAFT gid 15363533013296. Art: 1 Recraft call (grinning great white + swim ring, no lettering), print-prep --solid, teeth/belly white recolored to planned cream ink, thin cream keyline. FRIENDLY-ISH set in Lobster (retro script), coral red #e2574c with a cream outline, hyphen clearly drawn, 3300 px wide (shark 2900 px). File 3300x3469 (Printful 1088480880), FW 1500 TOP 0 (about 10.5 in tall). Mockups Dust + Navy checked. Cover: man + woman per brief (reg 599 pair), Navy mockup as --design, 1 attempt; both prints present, drawstrings hang near but not over the shark. Shopify: media + variant links, copy line two names the real lettering, audit-local PASS, FAQ 5 answers, no compare-at. fal ~$0.08. Printful sync 482422062 running (12 variants): REVIEW when synced = 12. Resume: `FORCE=1 FW=1500 TOP=0 python3 scripts/pf-sync.py setfile 482422062 1088480880 1080398177`.
 - 2026-10-17 21:52 UTC builder [A]: Printful resync verified (12/12 variants on the new file); REVIEW.
+- 2026-10-17 22:39 UTC director: APPROVED, LIVE. ACTIVE + Online Store, Headless and Google & YouTube; audit --handle PASS (0 warn). Copy polished by the director first (R8: keyword counts, superlatives, false claims).
