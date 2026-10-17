@@ -5702,6 +5702,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-raccoon-fine-dumpster-dining-hoodie": {
+   "claimed": [
+    "raccoon hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "raccoon hoodie",
+     "volume": 480,
+     "kd": 46
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

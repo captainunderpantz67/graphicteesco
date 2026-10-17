@@ -1,4 +1,5 @@
-status: BUILDING [B] 2026-10-17T09:07Z
+status: ART-NEXT
+shopify: gid://shopify/Product/15363408134448
 lane: B
 type: new
 id: 398
@@ -23,3 +24,4 @@ kd: 46
 ---
 ## Log
 - 2026-10-17 08:55 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
+- 2026-10-17 09:15 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363408134448 (Gildan 18500, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category hoodies aa-1-13-13, tags graphic-hoodies-for-men/-women + hoodie). Keyword raccoon hoodie 480/KD46 in map. SEO title 45, meta 147, FAQs 5 x 47-51 words. Copy written from the brief's art description (FINE DUMPSTER over DINING, bow-tied raccoon with napkin and fork at a tipped trash can, pizza crust, candle; teal/mustard/cream/faded red): re-check every sentence against the real art when it exists. When art exists: FW 1500+, clear of the pouch seam. No Printful sync, no images, no cover. Never publish until art + cover exist.
