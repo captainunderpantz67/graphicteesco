@@ -7266,6 +7266,19 @@
     }
    ],
    "measured": "2026-10-17"
+  },
+  "mens-gym-sisyphus-had-bad-programming-hoodie": {
+   "claimed": [
+    "workout hoodie men"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "workout hoodie men",
+     "volume": 390,
+     "kd": 50
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
