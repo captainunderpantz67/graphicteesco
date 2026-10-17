@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: A
 type: new
 id: 282
 handle: mens-christmas-bulking-season-graphic-tee
+shopify: gid://shopify/Product/15363036578096
 kd: 55
 ---
 ## Men's Christmas – Bulking Season Tee
@@ -22,3 +23,4 @@ kd: 55
 ---
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).
+- 2026-10-17 04:42 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363036578096 (BC 3001, 6 colors x S-4XL = 42 variants, $24.99 no compare-at, category tees; keyword christmas gym shirt 140/KD55; tee only). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
