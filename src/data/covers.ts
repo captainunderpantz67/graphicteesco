@@ -343,6 +343,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-y2k-still-loading-zip-hoodie': { src: '/covers/womens-y2k-still-loading-zip-hoodie.webp', alt: 'Woman with dark curly hair smiling in a Navy zip-up hoodie with a small Still Loading Since 1999 retro computer print on the left chest' },
   'mens-gym-gym-rat-hoodie': { src: '/covers/mens-gym-gym-rat-hoodie.webp', alt: 'Man with short black hair and a trimmed beard in a Navy Gym Rat hoodie with a cartoon rat curling a dumbbell under GYM RAT arched in cream, mustard and red letters' },
   'womens-anime-slurp-responsibly-half-zip': { src: '/covers/womens-anime-slurp-responsibly-half-zip.webp', alt: 'Navy half zip pullover seen from the back with a large calico cat slurping ramen under SLURP RESPONSIBLY arched in coral, mint and cream letters' },
+  'mens-anime-kaiju-naps-zip-hoodie': { src: '/covers/mens-anime-kaiju-naps-zip-hoodie.webp', alt: 'Man with short curly hair smiling in an open Navy zip-up hoodie over a white tee with a small sleeping kaiju on a skyscraper print on the left chest' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
