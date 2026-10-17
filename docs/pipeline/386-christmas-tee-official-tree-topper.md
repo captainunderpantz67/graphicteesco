@@ -1,0 +1,25 @@
+status: READY
+lane: A
+type: new
+id: 386
+handle: womens-christmas-official-tree-topper-graphic-tee
+kd: 64
+---
+## Women's Christmas – Official Tree Topper Graphic Tee
+- **Blank:** Women's relaxed tee Bella+Canvas 6400. Copy facts from the Printful spec only (R7.1).
+- **Text on shirt:** OFFICIAL / TREE TOPPER in chunky hand-drawn 1950s storybook capitals under the tree. All lettering hand-drawn (R3.7.6), spelled exactly, no typeset sub-line or caption; read every word on the darkest mockup at about 400 px wide before REVIEW; knock out white counters (R5.3.8).
+- **Hook:** A fluffy orange tabby sits proudly at the very top of a decorated Christmas tree where the star should be, the star knocked to the floor below, under OFFICIAL TREE TOPPER: every cat owner's December, women's sass.
+- **Why it's not taken:** Cat-in-tree shirts on Etsy and Walmart are generic 'cat christmas tree' lights art; the exact line OFFICIAL TREE TOPPER isn't on page 1 (web search 2026-10-17 found no shirt with it).
+- **Style:** A, vintage storybook, worn edges (R4.2).
+- **Art prompt (Recraft v4, one image per call):** "Vintage 1950s storybook Christmas illustration: a decorated Christmas tree with glass ornaments, tinsel and warm lights, a smug fluffy orange tabby cat sitting at the very top of the tree where the star should be, the gold star lying on the floor at the tree's base. Hand-drawn chunky 1950s storybook capitals above reading exactly 'OFFICIAL' and below reading exactly 'TREE TOPPER'. Palette: faded red, pine green, mustard gold, cream, soft black linework. Worn screen-print texture; the tree is the shape and its edges break up into worn texture. Isolated on plain background, no background shape, no frame, no circle, no border, no badge, no dark patch."
+- **Colors:** Every Printful color the art reads on (R7.2 normal rule; women's: at least 2 bold colors), max 100 variants. Generate a Printful mockup for every color offered (a color with no photo is not offered).
+- **Primary keyword:** holiday shirt — 4,400 / KD 64 (RankHero 2026-10-17, director; US share 87%; Oct–Dec surge). KD 36+ but over 1,000 with a holiday surge (R2.5). 'christmas cat shirt' (880/56) is already claimed and 'cat christmas shirt' is its word-order twin, so neither is used as a primary (R2.8). Unowned in docs/product-keyword-map.json; record it there. Supporting: none measured unclaimed. Use the primary where a person would say it: title-area copy, H1, the first sentence (with the joke and the occasion, R9.11) and once in the meta; no stuffing (R8.2–R8.3). Answer-first FAQs per R8.7: 4–6 questions, 40–60 words each (fit, care, sizing, warmth/weight, gift timing with an order-by date for holiday items).
+- **Popularity evidence (R5.2):** Christmas cats crewneck and hoodie are LIVE and in docs/reference/best (#140); cat sweatshirt 3,600/52 and christmas cat sweatshirt 260/54 show cat demand; the cat-tree mischief theme fills Etsy page 1 for cat christmas.
+- **Cover:** registry #577, Filipino-American woman, late 20s, shoulder-length dark hair with curtain bangs, gold hoops; scene: a living room with a decorated tree, an orange cat on the sofa arm beside her (not over the print), alt starts 'Woman'. Real garment generated with the product's own Printful mockup in the cover color as `--design` (--n 1); hood visible on hoodies; hands empty or in pockets; nothing (hand, cup, hair, hood, drawcord, another person) over any part of the print; read every word before saving (R6.7–R6.9). No alcohol, tools or weapons (R6.5). TEMP-COVER MODE while fal is empty (twins only): best Printful lifestyle mockup matching the audience, a style ID not already on a live item (R6.6), `cover: temp`.
+- **Title / handle:** "Women's Christmas – Official Tree Topper Graphic Tee" / `womens-christmas-official-tree-topper-graphic-tee` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** christmas-shirts, christmas-shirts-for-women, funny-christmas-shirts, funny-graphic-tees, graphic-tees-for-women, christmas, ai-art, intake-done.
+- **Price:** $24.99, no compare-at (R12.1).
+- **Pre-build while fal is empty:** make the full Shopify DRAFT now from this brief (status ART-NEXT); art + cover when fal returns, then re-check every sentence against the real art.
+---
+## Log
+- 2026-10-17 08:55 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).

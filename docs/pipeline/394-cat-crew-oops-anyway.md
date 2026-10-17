@@ -1,0 +1,25 @@
+status: READY
+lane: B
+type: new
+id: 394
+handle: womens-cat-oops-anyway-crewneck-sweatshirt
+kd: 52
+---
+## Women's Cat – Oops Anyway Crewneck Sweatshirt
+- **Blank:** Crewneck Gildan 18000 (Printful #145), 8 oz 50/50 fleece. Print FW 1650 (R5.3.8 twins: crewnecks go to FW 1650). Copy facts from the Printful spec only (R7.1).
+- **Text on shirt:** OOPS. / ANYWAY. in hand-drawn 1970s groovy letters. All lettering hand-drawn (R3.7.6), spelled exactly, no typeset sub-line or caption; read every word on the darkest mockup at about 400 px wide before REVIEW; knock out white counters (R5.3.8).
+- **Hook:** A smug vintage cartoon cat on a table edge, paw out, a coffee mug mid-fall with a splash frozen in the air, under OOPS. ANYWAY.: every cat's apology, women's sass.
+- **Why it's not taken:** Cat-knocking-things-over prints on Etsy use 'gravity tester' lines; OOPS. ANYWAY. isn't listed (web search 2026-10-17 found none).
+- **Style:** A, vintage 1970s cartoon, worn edges (R4.2).
+- **Art prompt (Recraft v4, one image per call):** "Vintage 1970s cartoon screen-print illustration: a smug grey tabby cat sitting on the edge of a small wooden side table, one paw stretched out, a coffee mug falling off the edge with a coffee splash frozen in mid-air. Above, hand-drawn 1970s groovy letters reading exactly 'OOPS.' and below reading exactly 'ANYWAY.'. Palette: mustard, burnt orange, teal, cream, soft black linework. Worn screen-print texture; the cat and table are the shape, edges break up into worn texture. Isolated on plain background, no background shape, no frame, no circle, no border, no badge, no dark patch."
+- **Colors:** Sand + Navy (R7.2); if the art sinks on one, the closest light + dark pair it reads on, and log why. Generate a Printful mockup for every color offered before REVIEW.
+- **Primary keyword:** cat sweatshirt — 3,600 / KD 52 (RankHero 2026-10-17, director; US share 81%). KD 36+ over 1,000 (R2.5). Unowned in docs/product-keyword-map.json; record it there. Supporting: none measured unclaimed. Use the primary where a person would say it: title-area copy, H1, the first sentence (with the joke and the occasion, R9.11) and once in the meta; no stuffing (R8.2–R8.3). Answer-first FAQs per R8.7: 4–6 questions, 40–60 words each (fit, care, sizing, warmth/weight, gift timing with an order-by date for holiday items).
+- **Popularity evidence (R5.2):** cat sweatshirt 3,600 and cat hoodie 14,800 (claimed) show the demand; Christmas cats (#140, docs/reference/best) and Purrsonal Space are LIVE sellers.
+- **Cover:** registry #585, Japanese-American woman, mid 20s, short black bob with bangs, oversized cardigan open at the sides; scene: a sunny apartment with a grey cat on the windowsill behind her, alt starts 'Woman'. Real garment generated with the product's own Printful mockup in the cover color as `--design` (--n 1); hood visible on hoodies; hands empty or in pockets; nothing (hand, cup, hair, hood, drawcord, another person) over any part of the print; read every word before saving (R6.7–R6.9). No alcohol, tools or weapons (R6.5). TEMP-COVER MODE while fal is empty (twins only): best Printful lifestyle mockup matching the audience, a style ID not already on a live item (R6.6), `cover: temp`.
+- **Title / handle:** "Women's Cat – Oops Anyway Crewneck Sweatshirt" / `womens-cat-oops-anyway-crewneck-sweatshirt` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** sweatshirt, ai-art, intake-done (no cat sweatshirt collection exists yet; the product page carries the keyword). No tee collection tags (R7.5).
+- **Price:** $34.99, no compare-at (R12.1).
+- **Pre-build while fal is empty:** make the full Shopify DRAFT now from this brief (status ART-NEXT); art + cover when fal returns, then re-check every sentence against the real art.
+---
+## Log
+- 2026-10-17 08:55 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
