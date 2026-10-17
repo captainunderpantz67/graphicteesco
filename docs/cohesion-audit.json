@@ -1,6 +1,6 @@
 {
- "at": "2026-10-17T08:20:04.854Z",
- "products": 309,
+ "at": "2026-10-17T08:42:42.660Z",
+ "products": 312,
  "findings": [
   {
    "level": "WARN",
@@ -45,25 +45,11 @@
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
-   "level": "ERROR",
-   "handle": "womens-thanksgiving-gobble-gobble-graphic-tee",
-   "title": "Women's Thanksgiving – Gobble Gobble Turkey Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
    "level": "WARN",
    "handle": "womens-thanksgiving-gobble-gobble-crewneck-sweatshirt",
    "title": "Women's Thanksgiving – Gobble Gobble Turkey Crewneck Sweatshirt",
    "msg": "No SEO title.",
    "fix": "Write one ≤ 60 chars with the primary keyword."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-thanksgiving-turkey-day-crew-graphic-tee",
-   "title": "Unisex Thanksgiving – Turkey Day Crew Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
   },
   {
    "level": "ERROR",
@@ -92,13 +78,6 @@
    "title": "Unisex Thanksgiving – Totally a Pilgrim Tee",
    "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
    "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-thanksgiving-totally-a-pilgrim-crewneck-sweatshirt",
-   "title": "Unisex Thanksgiving – Totally a Pilgrim Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
   },
   {
    "level": "ERROR",
@@ -141,20 +120,6 @@
    "title": "Women's Thanksgiving – Here for the Scraps Tee",
    "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
    "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-thanksgiving-here-for-the-scraps-crewneck-sweatshirt",
-   "title": "Women's Thanksgiving – Here for the Scraps Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-thanksgiving-pie-oh-my-crewneck-sweatshirt",
-   "title": "Women's Thanksgiving – Pie Oh My Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
   },
   {
    "level": "ERROR",
@@ -242,94 +207,10 @@
   },
   {
    "level": "ERROR",
-   "handle": "unisex-thanksgiving-turkey-trot-crewneck-sweatshirt",
-   "title": "Unisex Thanksgiving – Turkey Trot Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-thanksgiving-turkey-bowl-crewneck-sweatshirt",
-   "title": "Men's Thanksgiving – Turkey Bowl Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-thanksgiving-leftovers-club-crewneck-sweatshirt",
-   "title": "Unisex Thanksgiving – Leftovers Club Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-thanksgiving-pumpkin-pie-crewneck-sweatshirt",
-   "title": "Women's Thanksgiving – Pumpkin Pie Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-thanksgiving-friendsgiving-crewneck-sweatshirt",
-   "title": "Women's Thanksgiving – Friendsgiving Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-christmas-cats-crewneck-sweatshirt",
-   "title": "Women's Christmas – Christmas Cats Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-christmas-golf-crewneck-sweatshirt",
-   "title": "Women's Christmas – Christmas Golf Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-nutcracker-bow-crewneck-sweatshirt",
-   "title": "Women's Christmas – Nutcracker Bow Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-highland-cow-christmas-crewneck-sweatshirt",
-   "title": "Women's Christmas – Highland Cow Christmas Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-gingerbread-lane-crewneck-sweatshirt",
-   "title": "Women's Christmas – Gingerbread Lane Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-vintage-snowman-crewneck-sweatshirt",
-   "title": "Women's Christmas – Vintage Snowman Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
    "handle": "mens-christmas-define-naughty-graphic-tee",
    "title": "Men's Christmas – Define Naughty Tee",
    "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
    "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-christmas-define-naughty-crewneck-sweatshirt",
-   "title": "Unisex Christmas – Define Naughty Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
   },
   {
    "level": "ERROR",
@@ -652,6 +533,27 @@
    "title": "Women's Coffee – Espresso Yourself Hoodie",
    "msg": "No meta description.",
    "fix": "Write one ≤ 155 chars."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-thanksgiving-spill-the-gravy-hoodie",
+   "title": "Women's Thanksgiving – Spill the Gravy Hoodie",
+   "msg": "thanksgiving design isn't in any thanksgiving collection.",
+   "fix": "Tag it so it appears in the thanksgiving shirts page."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-thanksgiving-cute-but-corny-hoodie",
+   "title": "Women's Thanksgiving – Cute But Corny Hoodie",
+   "msg": "thanksgiving design isn't in any thanksgiving collection.",
+   "fix": "Tag it so it appears in the thanksgiving shirts page."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-thanksgiving-mash-hour-hoodie",
+   "title": "Unisex Thanksgiving – Mash Hour Hoodie",
+   "msg": "thanksgiving design isn't in any thanksgiving collection.",
+   "fix": "Tag it so it appears in the thanksgiving shirts page."
   }
  ]
 }

@@ -1,19 +1,13 @@
-# Cohesion audit — 2026-10-17 08:20 UTC
+# Cohesion audit — 2026-10-17 08:42 UTC
 
-309 live products checked · **83 errors** · 10 warnings · 93 products with findings
+312 live products checked · **66 errors** · 13 warnings · 79 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
-- 83 × Price ./. — should be ./- on every variant.
+- 66 × Price ./. — should be ./- on every variant.
 
 ## By product (errors first)
-### Women's Thanksgiving – Gobble Gobble Turkey Tee `womens-thanksgiving-gobble-gobble-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Unisex Thanksgiving – Turkey Day Crew Tee `unisex-thanksgiving-turkey-day-crew-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
 ### Women's Christmas – Sleigh Queen Tee `womens-christmas-sleigh-queen-graphic-tee`
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
 
@@ -25,9 +19,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Unisex Thanksgiving – Totally a Pilgrim Tee `unisex-thanksgiving-totally-a-pilgrim-graphic-tee`
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Unisex Thanksgiving – Totally a Pilgrim Crewneck Sweatshirt `unisex-thanksgiving-totally-a-pilgrim-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
 
 ### Men's Hunting – Deer Diary Tee `mens-hunting-deer-diary-graphic-tee`
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
@@ -46,12 +37,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Women's Thanksgiving – Here for the Scraps Tee `womens-thanksgiving-here-for-the-scraps-graphic-tee`
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Women's Thanksgiving – Here for the Scraps Crewneck Sweatshirt `womens-thanksgiving-here-for-the-scraps-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Thanksgiving – Pie Oh My Crewneck Sweatshirt `womens-thanksgiving-pie-oh-my-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
 
 ### Women's Cropped – Matcha Made in Heaven Tee `womens-cropped-matcha-made-in-heaven-graphic-tee`
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
@@ -89,44 +74,8 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Unisex Anime – Destroyer of Cities, Lover of Naps Tee `unisex-anime-kaiju-naps-graphic-tee`
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
 
-### Unisex Thanksgiving – Turkey Trot Crewneck Sweatshirt `unisex-thanksgiving-turkey-trot-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Men's Thanksgiving – Turkey Bowl Crewneck Sweatshirt `mens-thanksgiving-turkey-bowl-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Unisex Thanksgiving – Leftovers Club Crewneck Sweatshirt `unisex-thanksgiving-leftovers-club-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Thanksgiving – Pumpkin Pie Crewneck Sweatshirt `womens-thanksgiving-pumpkin-pie-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Thanksgiving – Friendsgiving Crewneck Sweatshirt `womens-thanksgiving-friendsgiving-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Christmas – Christmas Cats Crewneck Sweatshirt `womens-christmas-christmas-cats-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Christmas – Christmas Golf Crewneck Sweatshirt `womens-christmas-christmas-golf-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Christmas – Nutcracker Bow Crewneck Sweatshirt `womens-christmas-nutcracker-bow-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Christmas – Highland Cow Christmas Crewneck Sweatshirt `womens-christmas-highland-cow-christmas-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Christmas – Gingerbread Lane Crewneck Sweatshirt `womens-christmas-gingerbread-lane-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Christmas – Vintage Snowman Crewneck Sweatshirt `womens-christmas-vintage-snowman-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
 ### Men's Christmas – Define Naughty Tee `mens-christmas-define-naughty-graphic-tee`
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Unisex Christmas – Define Naughty Crewneck Sweatshirt `unisex-christmas-define-naughty-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
 
 ### Unisex Christmas – Light Show Manager Crewneck Sweatshirt `unisex-christmas-light-show-manager-crewneck-sweatshirt`
 - **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
@@ -286,3 +235,12 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Women's Coffee – Espresso Yourself Hoodie `womens-coffee-espresso-yourself-hoodie`
 - **WARN** No meta description. → Write one ≤ 155 chars.
+
+### Women's Thanksgiving – Spill the Gravy Hoodie `womens-thanksgiving-spill-the-gravy-hoodie`
+- **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
+
+### Women's Thanksgiving – Cute But Corny Hoodie `womens-thanksgiving-cute-but-corny-hoodie`
+- **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
+
+### Unisex Thanksgiving – Mash Hour Hoodie `unisex-thanksgiving-mash-hour-hoodie`
+- **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
