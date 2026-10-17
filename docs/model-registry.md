@@ -453,3 +453,17 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 560 | Mexican-American woman, early 20s, long wavy dark hair, turquoise ring | RESERVED — #369 Desert Bloom Cropped Hoodie cover |
 | 561 | Korean-American man, late 30s, short black hair, wire glasses, light stubble | RESERVED — #370 Mountains Called Left on Read Hoodie cover |
 | 562 | White woman, mid 30s, wavy chestnut lob, small gold hoops | RESERVED — #371 Sunny Disposition Mostly Zip Hoodie cover |
+| 563 | Indian-American woman, early 30s, long dark braid, small nose stud | RESERVED — #372 Jolly-ish Hoodie cover |
+| 564 | White woman, early 50s, silver pixie cut, red-framed glasses | RESERVED — #373 Merry Woofmas Hoodie cover |
+| 565 | Puerto Rican woman, late 30s, curly shoulder-length hair, gold hoops | RESERVED — #374 Spill the Gravy Hoodie cover |
+| 566 | Vietnamese-American woman, mid 20s, long straight hair with curtain bangs | RESERVED — #375 Cute But Corny Hoodie cover |
+| 567 | Man AND woman together: Black man, late 20s, high-top fade; Mexican-American woman, late 20s, sleek low bun | RESERVED — #376 Mash Hour Hoodie cover |
+| 568 | Black woman, early 30s, short box braids in a bun, small gold studs | RESERVED — #377 Charting Is My Cardio Crewneck Sweatshirt cover |
+| 569 | Filipino-American woman, early 40s, shoulder-length black hair, small pearl studs | RESERVED — #378 IV League Crewneck Sweatshirt cover |
+| 570 | White woman, late 30s, high blonde ponytail, sunglasses pushed up on her head | RESERVED — #379 Professional Goal Digger Crewneck Sweatshirt cover |
+| 571 | Black woman, early 40s, natural curls, stadium blanket over one arm | RESERVED — #380 Down, Set, Snacks Crewneck Sweatshirt cover |
+| 572 | Mexican-American woman, mid 30s, long dark hair in a low ponytail, ball cap | RESERVED — #381 Pitch, Please Crewneck Sweatshirt cover |
+| 573 | White woman, mid 40s, wavy auburn bob, freckles | RESERVED — #382 Bases Loaded, Mom Exhausted Crewneck Sweatshirt cover |
+| 574 | Korean-American woman, early 30s, butterfly clips in a half-up style, small silver hoops | RESERVED — #383 Still Loading Since 1999 Hoodie cover |
+| 575 | Black woman, mid 20s, long knotless braids, chunky sneakers | RESERVED — #384 Hot Mess Express Oversized Sweatshirt cover |
+| 576 | Native Hawaiian man, early 40s, short black hair, trimmed goatee | RESERVED — #385 Fisher of Men, Mostly Bass Half Zip cover |
