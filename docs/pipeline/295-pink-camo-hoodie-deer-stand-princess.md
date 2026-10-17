@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: new
 id: 295
@@ -28,3 +28,4 @@ handle: womens-hunting-deer-stand-princess-pink-camo-hoodie
   1. R5.3.8 self-check: the ladder has solid white rectangles between its rungs (and a white panel under the seat), which print as white blocks on the pink camo (clear on both mockups). Knock them out to garment (or the pink camo) in print-prep; keep the cream birch bark.
   2. R5.3.5 / R5.3.8 camo line: DEER STAND in tan on pink camo is faint at phone size; put it on a fuller cream halo or re-ink it in deep berry or chocolate with a cream outline, the same fix as #294.
   3. New front panel, re-sync, new mockups, and a new cover from the new mockup (R6.7; keep registry #476 and the porch, but face toward camera so the print reads). Then REVIEW.
+- 2026-10-17 01:47 UTC [B]: REDO fix (round 1): knock-white (min area 2500) removed the white blocks between the ladder rungs and behind the thermos/seat so the pink camo shows through (birch bark kept), the DEER STAND / Princess lettering is re-inked in chocolate brown (print-prep only, lum>105 fill pixels of the lettering band) with a 26 px cream halo (camo-halo.py FILL=0 so open gaps stay camo), front panel re-rendered (1600 px, top 1250), new front file 1087961050, re-synced 11/11, mockups replaced in place, cover regenerated from the new mockup with her facing the camera (registry #476, porch, redo try 1, image 2 of 3). Set REVIEW. Sheet docs/review/295.jpg.

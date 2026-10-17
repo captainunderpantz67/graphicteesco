@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: new
 id: 296
@@ -27,3 +27,4 @@ handle: mens-hunting-deer-camp-no-signal-camo-sweatshirt
 - 2026-10-17 01:20 UTC director: REDO.
   1. R3.7.6: NO SIGNAL. NO PROBLEM. carries the joke, but it is a thin, evenly spaced serif line that looks typeset and can't be read on either mockup. Re-letter it by hand with one lettering-only Recraft generation composed in print-prep (the #234 method): chunky worn vintage capitals, at least about 60% of the art's width and about 2x the current stroke weight, on the cream halo. Keep DEER CAMP and the cabin.
   2. New front panel, re-sync, new mockups and a new cover from the new mockup (R6.7; the current cover is otherwise good: keep registry #477 and the porch). Then REVIEW. #297 and #298 share this pattern and blank: check their small lines the same way before REVIEW.
+- 2026-10-17 01:47 UTC [B]: REDO fix (round 1): NO SIGNAL. NO PROBLEM. re-lettered by hand: one lettering-only Recraft v4 generation (two stacked lines, spelling checked, chunky worn stencil-cut capitals in chocolate brown), print-prep 3000 px, composed under the cabin at 2500 px = 69% of the art's width (old thin serif line removed) with a 24 px cream halo (camo-halo.py FILL=0); DEER CAMP and the cabin unchanged. Front panel re-rendered (1700 px, top 1700), new front file 1087962255, re-synced 11/11, mockups replaced in place (front, back), cover regenerated from the new mockup (registry #477, porch, redo try 1, image 3 of 3; the sleeves are camo too). #297 and #298 checked for small lines: BLENDING IN / IS OVERRATED and UP BEFORE THE DUCKS are large chunky letters on cream halos and read on their mockups, no change. Set REVIEW. Sheet docs/review/296.jpg.

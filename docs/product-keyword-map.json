@@ -4481,6 +4481,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-hunting-doe-not-disturb-camo-hoodie": {
+   "claimed": [
+    "womens camo hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "womens camo hoodie",
+     "volume": 12100,
+     "kd": 12
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

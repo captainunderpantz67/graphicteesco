@@ -292,6 +292,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-hunting-blending-in-is-overrated-camo-sweatshirt': { src: '/covers/womens-hunting-blending-in-is-overrated-camo-sweatshirt.webp', alt: 'Woman in her mid 20s with long box braids and gold jewelry in an all-over woodland camo Blending In Is Overrated sweatshirt with a big pink bow at a small-town fall festival with hay bales and string lights' },
   'mens-hunting-up-before-the-ducks-camo-sweatshirt': { src: '/covers/mens-hunting-up-before-the-ducks-camo-sweatshirt.webp', alt: 'Man in his early 40s with short black hair and a trimmed goatee in an all-over woodland camo Up Before the Ducks sweatshirt at a misty marsh at sunrise' },
   'womens-hunting-ducks-in-a-row-camo-hoodie': { src: '/covers/womens-hunting-ducks-in-a-row-camo-hoodie.webp', alt: 'Woman in her late 30s with blonde hair in a messy bun and freckles in a Duck Camo Got My Ducks in a Row hoodie at a farm pond edge in October with ducks on the water' },
+  'womens-hunting-doe-not-disturb-camo-hoodie': { src: '/covers/womens-hunting-doe-not-disturb-camo-hoodie.webp', alt: 'Woman in her early 30s with long straight dark hair and curtain bangs in a Forest Camo Doe Not Disturb sleepy doe hoodie at the tailgate of a pickup at the edge of a hayfield at golden hour with a thermos beside her' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
