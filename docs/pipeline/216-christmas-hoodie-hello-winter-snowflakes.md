@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-17 19:55 UTC
+status: REVIEW
 lane: A
 type: twin
 id: 216
@@ -25,3 +25,4 @@ handle: womens-christmas-hello-winter-snowflakes-hoodie
   2. R4.1: the pale blue disc behind the big snowflake is a background shape. Break it up into scattered snow/worn texture or erase it so the snowflakes are the shape.
   3. R3.1: while you re-letter, the line may take a small twist if one fits (e.g. 'Hello Winter' stays fine as the women's winter line; do not invent a slogan). Re-check light blue art on Sand (R5.3.8).
 - 2026-10-17 19:55 UTC builder [A] REDO 216: (1) R4.1: erased the pale-blue disc (color-keyed large components, no new art). (2) R6.2/R3.7.6: deleted the typeset HELLO WINTER line and set "Hello Winter" in Damion script, navy, 86% of the print width. (3) Reshaped the art for the hoodie: the old file was 3600x5192 at FW 1109 (a width violation, R5.3.2); re-composed the three flakes in a row with re-scattered flecks: 3600x2555 px, printed FW 1650 TOP 0 (about 7.1 in tall, clears the pouch). New Printful file 1088440879. Mockups Sand + Sport Grey read at phone size (navy script and blue flakes read on both). New fal cover (the old one showed the old art): woman (registry 803), Sport Grey hoodie with hood, hands in pocket, Grey mockup as --design, 1 attempt. Copy: art paragraph rewritten (no glow/small spaced capitals), FAQ 5 x 40-60 words incl. Dec 8 order-by, SEO meta. Audit PASS. fal ~$0.03. Printful resync running (12 variants): REVIEW once synced = 12.
+- 2026-10-17 UTC builder [A]: Printful resync complete (12/12 on file 1088440879); REVIEW.
