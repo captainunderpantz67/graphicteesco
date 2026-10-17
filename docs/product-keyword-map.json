@@ -6481,6 +6481,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-mountain-bike-pedal-pusher-heavyweight-hoodie": {
+   "claimed": [
+    "mountain bike hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "mountain bike hoodie",
+     "volume": 1900,
+     "kd": 20
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
