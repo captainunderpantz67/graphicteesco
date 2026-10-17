@@ -303,7 +303,7 @@ const altFor = (img: { url: string; altText?: string | null }) => {
       btn.disabled = !v?.ok;
       btn.textContent = v?.ok ? 'Add to cart' : 'Sold out';
       if (v && priceEl) priceEl.textContent = v.price;
-      const wasEl = document.querySelector('[data-was]');
+      const wasEl = document.querySelector<HTMLElement>('[data-was]');
       if (v && wasEl) { wasEl.textContent = v.was ?? ''; wasEl.hidden = !v.was; }
       const col = colorKey ? c[colorKey] : '';
       if (col !== lastColor) { lastColor = col; (window as any).__gtcShowColor?.(col); }
