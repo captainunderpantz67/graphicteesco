@@ -309,7 +309,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 422 | Japanese-American woman in her late 50s, salt-and-pepper hair in a short layered cut, soft smile lines | USED 2026-10-16 — #245 Nana's Cookies tee cover try 1 (from the Athletic Heather mockup) |
 | 423 | Black woman in her early 30s, natural afro puff, gold statement earrings | USED 2026-10-16 — #247 Snow Problem tee cover try 1 (from the White mockup) |
 | 424 | South Asian woman in her mid 20s, long wavy dark hair in a side part, nose stud | RESERVED — #248 Snow Problem crewneck cover |
-| 437 | Ethiopian-American man in his late 20s, close-cropped hair, thin mustache, wiry boxer's build | USED 2026-10-16 — #261 Conflict Resolution oversized sweatshirt cover (try 1, image 3 of 3) |
+| 437 | Ethiopian-American man in his late 20s, close-cropped hair, thin mustache, wiry boxer's build | USED 2026-10-16 — #261 Conflict Resolution oversized sweatshirt cover (redo: hand-lettered art, new cover try 1, image 2 of 3) |
 | 438 | Guatemalan-American woman in her late 20s, wavy dark hair in a loose half-up twist, gold-rimmed glasses | USED 2026-10-16 — #262 Plot Twist oversized sweatshirt cover (try 1, image 2 of 3) |
 | 439 | Cuban-American woman in her early 20s, dark curly hair in two puff buns, tiny gold huggie earrings | USED 2026-10-16 — #263 Not Toad-ay zip hoodie cover (try 1, image 2 of 3; back view) |
 | 440 | Chinese-American woman in her mid 20s, chin-length bob dyed lavender, silver hoops | USED 2026-10-16 — #264 Hot Mess Express zip hoodie cover (try 2, image 2 of 3: try 1 had the hood hidden and the print cut by the turn) |
@@ -351,6 +351,6 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 463 | Puerto Rican man in his early 30s, short curly black hair with a fade, goatee, muscular build | RESERVED — #282 Bulking Season tee cover |
 | 464 | Texan white woman in her late 20s, long honey-blonde waves, freckles, light tan | RESERVED — #283 Deck the Stalls tee cover |
 | 465 | Mexican-American woman in her early 40s, long dark hair in a thick side braid, small silver earrings | RESERVED — #284 Deck the Stalls crewneck cover |
-| 466 | Swedish-American woman in her early 30s, platinum-blonde low bun, no makeup, angular face | RESERVED — #285 Morel Support hoodie cover |
+| 466 | Swedish-American woman in her early 30s, platinum-blonde low bun, no makeup, angular face | USED 2026-10-16 — try 2 (try 1 spelled it moral on the chest), image 3 of 3; stitch lettering slightly soft |
 | 467 | Indian-American woman in her mid 20s, short black bob with blunt bangs, nose ring | RESERVED — #286 Purrsonal Space hoodie cover |
 | 468 | Ghanaian-American man in his mid 20s, shaved head, clean-shaven, very muscular build | RESERVED — #287 Sore Since 1987 oversized hoodie cover |

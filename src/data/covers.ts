@@ -277,6 +277,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-christian-casserole-ministry-crewneck-sweatshirt': { src: '/covers/womens-christian-casserole-ministry-crewneck-sweatshirt.webp', alt: 'Woman in her late 60s in a Sand Casserole Ministry crewneck sweatshirt in a church fellowship hall with potluck casserole dishes and a coffee urn behind her' },
   'womens-nurse-dont-say-the-q-word-crewneck-sweatshirt': { src: '/covers/womens-nurse-dont-say-the-q-word-crewneck-sweatshirt.webp', alt: 'Woman in her late 30s in a Sand Don't Say the Q Word crewneck sweatshirt and navy scrubs outside a hospital emergency entrance at dawn' },
   'womens-mama-i-have-followers-duck-crewneck-sweatshirt': { src: '/covers/womens-mama-i-have-followers-duck-crewneck-sweatshirt.webp', alt: 'Woman in her mid 30s in a Sand I Have Followers mama duck crewneck sweatshirt on a park pond path in fall with ducks on the water' },
+  'womens-embroidered-morel-support-mushroom-hoodie': { src: '/covers/womens-embroidered-morel-support-mushroom-hoodie.webp', alt: 'Woman in her early 30s with a platinum-blonde low bun in a Sand Morel Support embroidered mushroom hoodie on a fall forest trail with a foraging basket' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
