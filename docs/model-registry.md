@@ -439,7 +439,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 546 | Black man, early 30s, shaved head, athletic build | RESERVED — #355 Leg Day Survivor Heavyweight Hoodie cover |
 | 547 | Mexican-American woman, early 30s, long dark braid, small silver concho earrings | RESERVED — #356 Saturday Night Rodeo Hoodie cover |
 | 548 | White woman, early 20s, curly strawberry-blonde hair, freckles, small gold hoops | RESERVED — #357 Wildly Low Maintenance Cropped Hoodie cover |
-| 549 | Black woman, mid 20s, long box braids in a high ponytail, athletic build | RESERVED — #358 Bump Set Nap Hoodie cover |
+| 549 | Black woman, mid 20s, long box braids in a high ponytail, athletic build | USED 2026-10-17 — #358 I Yell Free Ball volleyball hoodie cover (try 1, image 1 of 1) |
 | 550 | Man AND woman together: Vietnamese-American man, late 20s, bleached buzz cut; white woman, mid 20s, black curtain bangs, silver hoops | USED 2026-10-16 — #359 Visiting Not Impressed oversized hoodie cover (seedream, 2 attempts) |
 | 551 | Brazilian-American man, mid 30s, short dark curls, light stubble | RESERVED — #360 Fast Car Slow Mornings Heavyweight Hoodie cover |
 | 552 | White man, late 60s, white beard, flannel shirt collar showing | RESERVED — #361 I Fix Things After Naps Crewneck Sweatshirt cover |

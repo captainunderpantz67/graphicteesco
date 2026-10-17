@@ -1,0 +1,6 @@
+{"art": "designs/b/vb-a.png", "art_width": 0.62, "canvas": [3600, 4500], "gap": 10,
+ "lines": [
+  {"text": "I YELL", "font": "AlfaSlabOne-Regular.ttf", "size": 480, "fill": "#f4e6c6", "stroke": 20, "stroke_fill": "#1c2a52", "tracking": 0.12, "where": "above"},
+  {"text": "\"FREE BALL\"", "font": "AlfaSlabOne-Regular.ttf", "size": 560, "fill": "#e2584a", "stroke": 24, "stroke_fill": "#1c2a52", "tracking": 0.02, "where": "below"},
+  {"text": "AT EVERYTHING", "font": "AlfaSlabOne-Regular.ttf", "size": 400, "fill": "#f4e6c6", "stroke": 18, "stroke_fill": "#1c2a52", "tracking": 0.03, "where": "below"}
+ ]}

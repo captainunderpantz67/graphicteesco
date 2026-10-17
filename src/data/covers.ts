@@ -400,6 +400,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-lawyer-i-rest-my-case-hoodie': { src: '/covers/unisex-lawyer-i-rest-my-case-hoodie.webp', alt: 'Man and woman in matching sand I Rest My Case lawyer hoodies, smiling in a wood-paneled law library with leather-bound books' },
   'mens-pig-wallowing-respectfully-oversized-hoodie': { src: '/covers/mens-pig-wallowing-respectfully-oversized-hoodie.webp', alt: 'Man in a navy Mud Bath Booked Plans Canceled pig oversized hoodie at a farm barnyard fence at sunset with pigs behind him, hands in his pockets' },
   'unisex-outdoors-went-outside-it-was-fine-heavyweight-hoodie': { src: '/covers/unisex-outdoors-went-outside-it-was-fine-heavyweight-hoodie.webp', alt: 'Man and woman in matching storm blue Went Outside It Was Fine heavyweight hoodies at a trailhead parking lot with pines and a mountain behind them' },
+  'womens-volleyball-i-only-dive-for-snacks-hoodie': { src: '/covers/womens-volleyball-i-only-dive-for-snacks-hoodie.webp', alt: 'Woman in a navy I Yell Free Ball at Everything volleyball hoodie in a high-school gym with bleachers and a volleyball net behind her, hands in the pouch pocket' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
