@@ -7020,6 +7020,250 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-golf-breakfast-ball-enthusiast-heavyweight-hoodie": {
+   "claimed": [
+    "mens golf hoodie",
+    "golf hoodie men",
+    "mulligan shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "mens golf hoodie",
+     "volume": 1900,
+     "kd": 16,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "golf hoodie men",
+     "volume": 3600,
+     "kd": 26,
+     "competition": 3993,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "mulligan shirt",
+     "volume": 70,
+     "kd": 44,
+     "competition": 433,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-17"
+  },
+  "unisex-golf-not-cheating-improving-my-lie-hoodie": {
+   "claimed": [
+    "golf pullover",
+    "funny golf gifts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "golf pullover",
+     "volume": 4400,
+     "kd": 30,
+     "competition": 5829,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "funny golf gifts",
+     "volume": 2900,
+     "kd": 34,
+     "competition": 12577,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-17"
+  },
+  "womens-golf-i-only-golf-for-the-outfits-cropped-hoodie": {
+   "claimed": [
+    "womens golf hoodie",
+    "golf gifts for women",
+    "golf shirt women"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "womens golf hoodie",
+     "volume": 320,
+     "kd": 32,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "golf gifts for women",
+     "volume": 4400,
+     "kd": 46,
+     "competition": 47996,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "golf shirt women",
+     "volume": 3600,
+     "kd": 14,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-17"
+  },
+  "mens-golf-retired-working-on-my-short-game-zip-hoodie": {
+   "claimed": [
+    "golf retirement gift",
+    "golf gift for men"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "golf retirement gift",
+     "volume": 590,
+     "kd": 28,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "golf gift for men",
+     "volume": 22200,
+     "kd": 46,
+     "competition": 97674,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-17"
+  },
+  "womens-national-park-my-type-geothermally-active-oversized-hoodie": {
+   "claimed": [
+    "volcano shirt",
+    "volcano hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "volcano shirt",
+     "volume": 210,
+     "kd": 33,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "volcano hoodie",
+     "volume": 70,
+     "kd": 44,
+     "competition": 198,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-17"
+  },
+  "womens-national-park-two-queens-roaming-hoodie": {
+   "claimed": [
+    "bison sweatshirt",
+    "bison hoodie",
+    "bestie sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bison sweatshirt",
+     "volume": 170,
+     "kd": 34,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "bison hoodie",
+     "volume": 110,
+     "kd": 41,
+     "competition": 504,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "bestie sweatshirt",
+     "volume": 390,
+     "kd": 50,
+     "competition": 11068,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-17"
+  },
+  "womens-national-park-swipe-right-on-public-land-zip-hoodie": {
+   "claimed": [
+    "protect public lands",
+    "public lands shirt",
+    "outdoorsy sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "protect public lands",
+     "volume": 260,
+     "kd": 32,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "public lands shirt",
+     "volume": 70,
+     "kd": 43,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "outdoorsy sweatshirt",
+     "volume": 480,
+     "kd": 47,
+     "competition": 6973,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-17"
+  },
+  "unisex-national-park-running-late-bison-traffic-heavyweight-hoodie": {
+   "claimed": [
+    "road trip hoodie",
+    "road trip sweatshirt",
+    "bison gift"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "road trip hoodie",
+     "volume": 1000,
+     "kd": 30,
+     "competition": 2096,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "road trip sweatshirt",
+     "volume": 260,
+     "kd": 32,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "bison gift",
+     "volume": 170,
+     "kd": 34,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-17"
+  },
+  "unisex-golf-sorry-about-your-windshield-crewneck-sweatshirt": {
+   "claimed": [
+    "golf sweater",
+    "golf crewneck",
+    "golfing sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "golf sweater",
+     "volume": 6600,
+     "kd": 30,
+     "competition": 5870,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "golf crewneck",
+     "volume": 880,
+     "kd": 37,
+     "competition": 3747,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "golfing sweatshirt",
+     "volume": 2900,
+     "kd": 16,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-17"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

@@ -624,3 +624,16 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 434 | (reused as the brief specifies) | USED again 2026-10-17 — #258 Wishbone Champion crewneck cover redo (seedream, 3 attempts: try 1 white bars top and bottom, try 2 black frame, cropped the frame off the kept image) |
 | 828 | Black woman, late 30s, shoulder-length twist-out curls, tortoiseshell glasses | CLAIMED 2026-10-17 — #501 Do Not Sell My Books Hoodie cover (brief) |
 | 829 | Korean-American man, early 30s, short textured black hair, athletic build, light stubble | CLAIMED 2026-10-17 — #502 Sisyphus Had Bad Programming Hoodie cover (brief) |
+| 830 | Puerto Rican man, mid 50s, short grey crew cut, clean-shaven, tanned, stocky build | CLAIMED 2026-10-17 — #503 Breakfast Ball Enthusiast Heavyweight Hoodie cover (brief) |
+| 831 | Nigerian-American man, late 30s, short twists, neatly trimmed beard, medium build | CLAIMED 2026-10-17 — #504 Not Cheating Improving My Lie Hoodie cover (brief) (pair 831-832) |
+| 832 | white woman, mid 30s, auburn hair tied back in a ponytail, light freckles | CLAIMED 2026-10-17 — #504 Not Cheating Improving My Lie Hoodie cover (brief) (pair 831-832) |
+| 833 | Vietnamese-American woman, early 20s, long dark hair pinned up in a claw-clip twist, small gold huggie earrings, slim build | CLAIMED 2026-10-17 — #505 I Only Golf for the Outfits Cropped Hoodie cover (brief) |
+| 834 | white man, mid 60s, thick white hair combed back, neat white mustache, wire-rim glasses, lean build | CLAIMED 2026-10-17 — #506 Retired Working on My Short Game Zip Hoodie cover (brief) |
+| 835 | Armenian-American woman, mid 30s, dark curly hair tied back, small gold hoops, medium build | CLAIMED 2026-10-17 — #507 My Type Geothermally Active Oversized Hoodie cover (brief) |
+| 836 | Black woman, mid 40s, short tapered natural hair, gold hoop earrings, medium build | CLAIMED 2026-10-17 — #508 Two Queens Roaming Hoodie cover (brief) (pair 836-837) |
+| 837 | white woman, late 40s, long grey-streaked brown hair in a low braid, slim build | CLAIMED 2026-10-17 — #508 Two Queens Roaming Hoodie cover (brief) (pair 836-837) |
+| 838 | Chinese-American woman, early 30s, long black hair in a single braid, small silver studs, slim athletic build | CLAIMED 2026-10-17 — #509 Swipe Right on Public Land Zip Hoodie cover (brief) |
+| 839 | Mexican-American woman, early 40s, dark wavy hair in a low bun, small gold studs, medium build | CLAIMED 2026-10-17 — #510 Running Late Bison Traffic Heavyweight Hoodie cover (brief) (pair 839-840) |
+| 840 | Greek-American man, early 40s, thick dark curly hair, full dark beard, broad build | CLAIMED 2026-10-17 — #510 Running Late Bison Traffic Heavyweight Hoodie cover (brief) (pair 839-840) |
+| 841 | Korean-American woman, late 40s, shoulder-length layered black hair, small pearl studs, slim build | CLAIMED 2026-10-17 — #511 Sorry About Your Windshield Crewneck Sweatshirt cover (brief) (pair 841-842) |
+| 842 | Black man, late 40s, shaved head, trimmed salt-and-pepper beard, broad build | CLAIMED 2026-10-17 — #511 Sorry About Your Windshield Crewneck Sweatshirt cover (brief) (pair 841-842) |
