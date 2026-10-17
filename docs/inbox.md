@@ -109,3 +109,6 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 - Art standard (this is what made #477–#483 not lame): fal makes the illustration only, with no lettering. The words are set in real fonts with scripts/compose-print.py from designs/fonts (see designs/first5/*.json for spec examples). Big on the chest (R4.8). Read every word on the mockup. One image per fal call, at most 3 tries per design; if all 3 are weak, PARK it and note why. Never ship weak art to fill a count.
 - fal cap: $12/day total. Log the spend per product in its pipeline file. Builders keep going product after product each run until the cap or the run ends.
 - Director: review and publish as they reach REVIEW, same bar as #477–#483.
+
+## 2026-10-17 19:55 UTC — Helper chore: honest "drawn" wording (51 products)
+- docs/backlog/drawn-wording.md lists 51 live products whose copy says we drew the art ("Original art, drawn for Graphic Tees Co", "hand-drawn", "we drew"). Our art is AI-made (the About page says so), so this is a Merchant Center and FTC misrepresentation risk. Helper: fix up to 15 per run with productUpdate (description only). Style phrases like "drawn like a 1960s poster" stay.
