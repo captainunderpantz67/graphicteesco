@@ -13,7 +13,7 @@ for c in s['colors']:
     for z in sorted(by[c], key=lambda z: ORDER.index(z) if z in ORDER else 99):
         if s.get('sizes') and z not in s['sizes']: continue
         vars_.append({'optionValues': [{'optionName': 'Color', 'name': c}, {'optionName': 'Size', 'name': z}],
-                      'sku': f'{s["slug"]}-{by[c][z]}', 'price': s['price'], 'compareAtPrice': s['compare']})
+                      'sku': f'{s["slug"]}-{by[c][z]}', 'price': s['price'], **({'compareAtPrice': s['compare']} if s.get('compare') else {})})
 sizes = list(dict.fromkeys(z['optionValues'][1]['name'] for z in vars_))
 inp = {'title': s['title'], 'handle': s['handle'], 'status': 'DRAFT', 'vendor': 'Graphic Tees Co.', 'productType': s['productType'],
        'tags': s['tags'], 'descriptionHtml': s['descriptionHtml'], 'seo': s['seo'],

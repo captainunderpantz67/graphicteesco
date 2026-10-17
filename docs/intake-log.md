@@ -1,3 +1,4 @@
+2026-10-17 08:04 UTC — [A] REVIEW #372 Jolly-ish xmas hoodie (twin, Sand + Navy, FW 1700, temp cover 1654)
 2026-10-17 07:59 UTC — [A] REVIEW #348 Midnight Showing crewneck (REDO: FW 1650, new mockups, temp cover 1201 Navy, cover: temp (swap))
 RUNNING lane A since 2026-10-17 07:57 UTC
 2026-10-17 07:43 UTC — [H] helper run: audit 304 products, 85 price ERRORs (builders own prices), 0 SEO/meta/tag errors, 0 products without a Shopify category (positive-control query checked), 3 recent LIVE pages 200, no stuck BUILDING items, no Telegram messages. Lock released.

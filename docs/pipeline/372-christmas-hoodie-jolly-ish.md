@@ -1,4 +1,6 @@
-status: BUILDING [A] 2026-10-17T08:00Z
+status: REVIEW
+shopify: gid://shopify/Product/15363310125360
+cover: temp
 lane: A
 type: twin
 id: 372
@@ -21,3 +23,4 @@ kd: 46
 ---
 ## Log
 - 2026-10-17 07:20 UTC director: brief written, READY (twin, buildable without fal; keyword measured this run).
+- 2026-10-17 08:04 UTC builder [A]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363310125360 (Gildan 18500, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category aa-1-13-13, tags christmas-hoodies, graphic-hoodies-for-women, hoodie, christmas, ai-art, intake-done). Print = tee file 1087679332 re-hosted (branch lane-a-files f/372.png) as Printful file 1088106259, 3600x1850, FW=1700 TOP=75, sync 482412880 12/12. R6.2 check: JOLLY-ISH is hand-drawn plaid-filled groovy letters, no typeset line, ring, panel, arch or disc; counters are transparent (O shows garment); candy cane, ornament and holly are planned ink and read at phone size, kept. Keyword xmas hoodie 9,900/KD46 in map. Mockups Sand + Navy fronts + back, variant images per color, audit PASS. TEMP COVER Printful Women's Lifestyle 3 (style 1654, Sand, smiling woman, arms raised, print fully visible; the hood drawcords cross the IS: director decides; styles 1429/1431 tried and rejected, arm over the J / side view). Registry #563 left RESERVED. Self-grade: keep, cover swap welcome. Sheet docs/review/372.jpg. REVIEW.
