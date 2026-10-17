@@ -4644,6 +4644,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-western-cowboy-up-later-hoodie": {
+   "claimed": [
+    "cowboy hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cowboy hoodie",
+     "volume": 3600,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

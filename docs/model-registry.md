@@ -387,7 +387,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 494 | Puerto Rican woman, early 30s, dark curly hair in a high puff, gold huggie earrings | USED 2026-10-17 — #311 Lunges & Lattes hoodie cover (try 1, image 3 of 3) |
 | 495 | South Asian man, late 20s, short wavy black hair, light stubble, lean runner's build | USED 2026-10-17 — #312 Pace: Leisurely hoodie cover (try 1, image 2 of 3, with #496) |
 | 496 | White woman, mid 30s, strawberry-blonde hair in a low braid, freckles, no makeup | USED 2026-10-17 — #312 Pace: Leisurely hoodie cover (try 1, image 2 of 3, with #495) |
-| 497 | Mexican-American man, about 50, salt-and-pepper mustache, weathered tan skin, lean | RESERVED — #313 Cowboy Up Later hoodie cover |
+| 497 | Mexican-American man, about 50, salt-and-pepper mustache, weathered tan skin, lean | USED 2026-10-17 — #313 Cowboy Up Later hoodie cover (try 1, image 2 of 3) |
 | 498 | Black woman, mid 20s, long box braids in a high ponytail, small gold nose stud | RESERVED — #314 Loose Goose oversized hoodie cover |
 | 499 | Vietnamese-American man, mid 30s, short textured black hair, clean-shaven, ball cap off | RESERVED — #315 Catch and Release hoodie cover |
 | 500 | White man, late 20s, buzz cut, full dark beard, heavy powerlifter build | RESERVED — #316 Deadlift Skeleton oversized hoodie cover |
