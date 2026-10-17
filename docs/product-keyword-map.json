@@ -6117,6 +6117,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-nurse-charting-is-my-cardio-hoodie": {
+   "claimed": [
+    "nursing hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "nursing hoodie",
+     "volume": 1600,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
