@@ -346,7 +346,7 @@ Goal: ChatGPT, Perplexity, Google AI Overviews / AI Mode, Gemini, Copilot and Cl
 2. **Returns (Sam, 2026-10-16, best practice):** one free size exchange within 30 days of delivery (we print the new size; nothing to mail back); misprints/damage reprinted or refunded within 30 days. Site copy, schema (src/lib/schema.ts), Shopify refund policy and Search Console settings must all say the same thing.
 3. **Free US shipping on $45+** (automatic Shopify discount). Under $45, the Printful profile rates apply (tees $4.95 flat).
 4. The announcement bar says "Holiday sale: tees $24.99 · Free US shipping on $45+" only once the audit shows zero price errors. Until then it says the shipping line only.
-5. **fal budget:** about $0.15 per product is normal. If a run passes $5, stop generating, log it and Telegram Sam.
+5. **fal budget:** about $0.15 per product is normal. **One image per call, always (2026-10-17):** lane B's b-photo.sh asked Seedream for 3 covers per call ($0.09) with up to 3 retries; 234 calls burned about $21 of the $26 spent on Oct 16. scripts/fal-photo.py now forces --n 1 unless FAL_ALLOW_MULTI=1 (Sam only). Never write a wrapper that asks for more than one image or loops paid calls; retry only when the call returned nothing. If a run passes $5, stop generating, log it and Telegram Sam.
 
 ## R13. Cohesion: does it look hand-merchandised?
 1. `node scripts/cohesion-audit.mjs` reads the store like a shopper and like Google. It checks:

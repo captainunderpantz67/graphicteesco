@@ -94,8 +94,13 @@ def main():
     ap.add_argument('--shirt', default='black', help='shirt color, e.g. navy, heather stone, natural')
     ap.add_argument('--fit', default='relaxed-fit cotton t-shirt', help='e.g. "black cropped boxy cotton t-shirt"')
     ap.add_argument('--n', type=int, default=1, help='images per model')
+    # Spend guard (2026-10-17): batches of 3 burned ~$20 in one evening. One image per call;
+    # more only with FAL_ALLOW_MULTI=1 set by a human.
     ap.add_argument('--cover', help='product handle: also write public/covers/<handle>.webp from the first image')
     a = ap.parse_args()
+    if a.n > 1 and os.environ.get('FAL_ALLOW_MULTI') != '1':
+        print(f'spend guard: --n {a.n} lowered to 1 (R6.2; set FAL_ALLOW_MULTI=1 only with Sam\'s OK)', file=sys.stderr)
+        a.n = 1
 
     key = fal_key()
     if a.design.startswith('http'):  # e.g. the Shopify front photo for designs we don't have the print file for
