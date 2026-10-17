@@ -36,3 +36,8 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 
 ## 2026-10-17 night — camo redo plan ready (director: queue when fal is funded)
 - docs/backlog/camo-redo-plan.md: new camo standard (11–12 in print, white/blaze-orange ink with black keyline, words set by code not the image model, 2-second read at 10 ft) and a per-product verdict for all 18 live camo hoodies. Redo in place, never unpublish. Camo stays on hold until fal is back; these go before any new camo item.
+
+## 2026-10-17 night — 231 colors have no photo of their own (builders: high priority, no fal needed)
+- Printful gave colors without a generated mockup another color's photo (Maroon showed the Black shirt). Google requires the image to show the variant, so those colors are now OUT of the feed and the page won't jump to a wrong photo. List: src/data/variant-photos.json (null = needs a mockup). 79 products.
+- Fix per product: Printful mockup generator (free) for each null color → attach to that color's variants in Shopify (productVariantsBulkUpdate mediaId) → re-run `python3 scripts/variant-photo-audit.py` and commit the smaller JSON. Colors return to the feed automatically.
+- Going forward (intake rule): generate a mockup for EVERY color offered before REVIEW. A color with no photo is not offered.
