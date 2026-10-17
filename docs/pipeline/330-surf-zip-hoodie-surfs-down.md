@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: B
 type: new
 id: 330
 handle: mens-surf-surfs-down-coffees-up-zip-hoodie
+shopify: gid://shopify/Product/15363052306736
 kd: 32
 ---
 ## Men's Surf – Surf's Down, Coffee's Up Zip Hoodie
@@ -22,3 +23,4 @@ kd: 32
 ---
 ## Log
 - 2026-10-17 03:23 UTC director: brief written, READY (low-KD sweep 2026-10-17; keyword measured this run).
+- 2026-10-17 04:59 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363052306736 (launch colors per brief, S-3XL, price per brief with no compare-at, category hoodies, tags per brief incl. hub tags, SEO, FAQs; keyword surf hoodie 5400/KD32). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images yet.

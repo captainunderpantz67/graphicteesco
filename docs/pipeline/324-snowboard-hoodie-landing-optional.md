@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: B
 type: new
 id: 324
 handle: unisex-snowboard-sending-it-landing-optional-heavyweight-hoodie
+shopify: gid://shopify/Product/15363050537264
 kd: 20
 ---
 ## Unisex Snowboard – Sending It, Landing Optional Heavyweight Hoodie
@@ -22,3 +23,4 @@ kd: 20
 ---
 ## Log
 - 2026-10-17 03:19 UTC director: brief written, READY (low-KD sweep 2026-10-17 03:10 run; keyword measured this run).
+- 2026-10-17 04:59 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363050537264 (launch colors per brief, S-3XL, price per brief with no compare-at, category hoodies, tags per brief incl. hub tags, SEO, FAQs; keyword snowboard hoodie 9900/KD20). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images yet.

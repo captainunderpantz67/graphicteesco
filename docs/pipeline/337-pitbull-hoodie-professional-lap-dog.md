@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: B
 type: new
 id: 337
 handle: unisex-pitbull-professional-lap-dog-hoodie
+shopify: gid://shopify/Product/15363052831024
 kd: 20
 ---
 ## Unisex Pit Bull – Professional Lap Dog Hoodie
@@ -23,3 +24,4 @@ kd: 20
 ---
 ## Log
 - 2026-10-17 04:21 UTC director: brief written, READY (low-KD sweep 2026-10-17 04:30 run; keyword and trend measured this run).
+- 2026-10-17 04:59 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363052831024 (launch colors per brief, S-3XL, price per brief with no compare-at, category hoodies, tags per brief incl. hub tags, SEO, FAQs; keyword pitbull hoodie 1300/KD20). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images yet.
