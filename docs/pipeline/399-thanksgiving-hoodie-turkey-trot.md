@@ -3,6 +3,7 @@ lane: A
 type: twin
 id: 399
 handle: unisex-thanksgiving-turkey-trot-hoodie
+shopify: gid://shopify/Product/15363450667312
 kd: 14
 ---
 ## Unisex Thanksgiving – Turkey Trot Hoodie
