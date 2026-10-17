@@ -1,0 +1,245 @@
+<title>Inside Jokes Bank</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<style>
+/* Layout: one column; each niche is a section of line cards; a chip marks how well the in-joke is verified */
+:root {
+  --bg: #f4f1ea; --card: #ffffff; --fg: #1c1b19; --muted: #5d5952; --line: #ded7c9;
+  --accent: #2f6b4f; --pick: #b5482b; --tag: #ece5d7;
+  --v-bg: #e1efe6; --v-fg: #2e6b47; --k-bg: #efe8da; --k-fg: #6b5d3f;
+  --display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --body: "Atkinson Hyperlegible", system-ui, -apple-system, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #161513; --card: #201e1b; --fg: #edeae3; --muted: #a8a399; --line: #34302a; --accent: #7cc4a0; --pick: #ec8a69; --tag: #2b2823;
+  --v-bg: #1d3226; --v-fg: #7cc4a0; --k-bg: #2e2a22; --k-fg: #cdbb92; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #161513; --card: #201e1b; --fg: #edeae3; --muted: #a8a399; --line: #34302a; --accent: #7cc4a0; --pick: #ec8a69; --tag: #2b2823;
+  --v-bg: #1d3226; --v-fg: #7cc4a0; --k-bg: #2e2a22; --k-fg: #cdbb92; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font: 16px/1.5 var(--body); }
+.wrap { max-width: 760px; margin: 0 auto; padding-inline: 16px; padding-block: 32px 64px; display: grid; gap: 30px; }
+h1 { font: 800 2rem/1.1 var(--display); margin: 0; text-wrap: balance; }
+h2 { font: 800 1.3rem/1.2 var(--display); margin: 0; text-wrap: balance; }
+p { margin: 0; }
+.lede { color: var(--muted); margin-top: 8px; }
+section { display: grid; gap: 10px; }
+.lingo { color: var(--muted); font-size: 0.9rem; }
+.lingo b { color: var(--fg); }
+ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+li { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; display: grid; gap: 3px; }
+li.top { border-left: 4px solid var(--pick); }
+.line { font: 700 1.05rem/1.3 var(--display); }
+.why { color: var(--muted); font-size: 0.88rem; }
+.chip { justify-self: start; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; border-radius: 99px; padding: 1px 8px; }
+.v { background: var(--v-bg); color: var(--v-fg); }
+.k { background: var(--k-bg); color: var(--k-fg); }
+.callout { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: grid; gap: 6px; }
+.sources { font-size: 0.85rem; color: var(--muted); display: grid; gap: 4px; padding-left: 18px; margin: 0; }
+a { color: var(--accent); }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Inside jokes bank</h1>
+    <p class="lede">Lines built on what each community actually says, not pun lists. Checked against TikTok topic pages, TikTok Shop sold counts, Etsy favorites (RankHero), hunting and fishing glossaries, and forum threads (Oct 17, 2026). A red edge marks my top picks. <b>Verified</b> means I found the phrase in use in that community; <b>known lingo</b> means it's standard community vocabulary I'm confident about but didn't re-check today.</p>
+  </header>
+
+  <div class="callout">
+    <p><b>The rule that makes these land:</b> use the word only insiders know, said with a straight face. An outsider shrugs; the insider laughs and wants it. That's the reaction that sells a $40 sweatshirt, and it's the gap between "Reel Talk" (anyone could write it) and "Tag Soup" (only hunters get it).</p>
+    <p><b>Skip:</b> "My Roman Empire" is past its peak (2023). Character names from books and shows (Xaden, Fourth Wing) are someone else's property. Brand names like Zebco, Livescope and Tractor Supply can be the joke's subject in copy but never a logo or the main line.</p>
+  </div>
+
+  <section>
+    <h2>TikTok Shop: what actually sold</h2>
+    <p class="lingo">Sold counts from TikTok Shop's public keyword pages, Oct 17, 2026. These are real units, not favorites.</p>
+    <ul>
+      <li class="top"><span class="line">Sarcasm sells most</span><span class="why">"I Could Be Meaner" skeleton mom sweatshirt <b>4,500 sold</b> · "Expensive, Difficult and Talks Back" leopard mama <b>1,600</b> · "Have the Day You Deserve" <b>753</b> · "Ever since I was a little girl I knew I wanted to argue with men" <b>375</b></span></li>
+      <li class="top"><span class="line">Embroidered sarcasm is the sweet spot</span><span class="why">"A Little Ray of Pitch Black" embroidered <b>2,300 sold</b> · "I Need a Diet Coke" embroidered <b>470</b> · "Hey, Quick Question" embroidered <b>135</b> · embroidered medical duck for nurses <b>166</b> · embroidered "Overstimulated" <b>72</b></span></li>
+      <li class="top"><span class="line">Faith embroidery is real money</span><span class="why">Christian embroidered everyday sweatshirt <b>1,900 sold</b> · Christian Christmas sweatshirt <b>1,100</b> · "Let God Fix It" funny Christian hoodie <b>104</b></span></li>
+      <li><span class="line">Christmas: party energy and texture</span><span class="why">"Deck These Halls" song-parody sweatshirt <b>6,600 sold</b> (a lyric, so we don't copy it) · green chenille-patch sweatshirt <b>6,700</b> · sequin Santa <b>3,100</b> · retro holiday VHS crew <b>836</b>, the same look as our Midnight Feature</span></li>
+      <li><span class="line">Mama: seasonal pattern plus the word</span><span class="why">Halloween leopard/checkered/pumpkin "Mama" <b>6,700 sold</b> · floral coquette-bow "Mama" <b>304</b> · camo western "Hunting Mama" <b>211</b></span></li>
+      <li><span class="line">Fishing sells as memes there</span><span class="why">"Dope Fish" (the white monster fish meme) <b>168 sold</b>. Classic fishing puns sold under 70.</span></li>
+    </ul>
+    <p class="why">Takeaways: (1) the sarcastic restraint line beats everything, on Etsy and TikTok Shop alike; (2) put it in embroidery when we can; (3) texture (chenille, sequin, glitter appliqué) is huge, but Printful can't do it, so we compete on embroidery and puff instead; (4) "Mama" + a seasonal pattern is a cheap, proven seasonal play.</p>
+  </section>
+
+  <section>
+    <h2>Deer hunting</h2>
+    <p class="lingo">Lingo: <b>tag soup</b> (season ends with no deer, just your tag), <b>ground shrinkage</b> (the buck looked bigger through the scope), <b>gone nocturnal</b> (bucks only on the trail cam at night), <b>sit till dark</b>, <b>the wind was wrong</b>, <b>buck fever</b>, <b>shooter</b>.</p>
+    <ul>
+      <li class="top"><span class="line">Today's Special: Tag Soup</span><span class="why">Vintage diner-menu layout, deer chef with a ladle. Every hunter has eaten it.</span><span class="chip v">Verified</span></li>
+      <li class="top"><span class="line">Trail Cam Famous. Daylight Shy.</span><span class="why">Night-vision buck on a trail-cam frame with the timestamp 2:14 AM.</span><span class="chip v">Verified</span></li>
+      <li><span class="line">Ground Shrinkage Is a Myth (Please)</span><span class="why">Cheeky with a wink. The double meaning sells to the camp crowd and stays family-clean.</span><span class="chip v">Verified</span></li>
+      <li><span class="line">It Was the Wind. It's Always the Wind.</span><span class="why">The universal excuse, deadpan.</span><span class="chip k">Known lingo</span></li>
+      <li><span class="line">Sit Till Dark. Complain After.</span><span class="why">The camp mantra plus the truth.</span><span class="chip k">Known lingo</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Duck hunting</h2>
+    <p class="lingo">Lingo: <b>cupped and committed</b> (ducks locked in to land), <b>feet down</b>, <b>bluebird day</b> (sunny, calm, terrible for ducks), <b>sky busting</b> (shooting out of range), <b>limit out</b>, <b>greenheads</b>.</p>
+    <ul>
+      <li class="top"><span class="line">Cupped &amp; Committed</span><span class="why">The landing call doubles as a relationship joke. Works as a matching couple's sweatshirt.</span><span class="chip k">Known lingo</span></li>
+      <li><span class="line">Bluebird Days Are for Golfers</span><span class="why">Only waterfowlers hate perfect weather.</span><span class="chip k">Known lingo</span></li>
+      <li><span class="line">Feet Down, Phone Down</span><span class="why">The blind's one rule.</span><span class="chip k">Known lingo</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Fishing</h2>
+    <p class="lingo">Lingo: <b>"you catching 'em?"</b> (the question every bank angler hates, 199K likes on TikTok), <b>skunked</b>, <b>tight lines</b>, <b>dink</b> (small bass), <b>bank beater</b>, <b>backlash/bird's nest</b> (baitcaster tangle), <b>Livescope</b> (the live-sonar fight splitting bass fishing), <b>"should've been here yesterday"</b>.</p>
+    <ul>
+      <li class="top"><span class="line">Front: "You catching 'em?" · Back: No. Keep Walking.</span><span class="why">The most-shared bank-fishing gripe on TikTok, as a two-sided hoodie.</span><span class="chip v">Verified</span></li>
+      <li class="top"><span class="line">No Sonar. Just Vibes.</span><span class="why">Takes a side in the live-sonar war without naming the brand. Old-school anglers will love it.</span><span class="chip v">Verified</span></li>
+      <li><span class="line">Bank Beaters Social Club</span><span class="why">Fake club format plus a word only shore anglers use.</span><span class="chip k">Known lingo</span></li>
+      <li><span class="line">Dink Specialist</span><span class="why">Self-roast. Every bass guy has a dink-filled day.</span><span class="chip v">Verified</span></li>
+      <li><span class="line">Professional Backlash Untangler</span><span class="why">Baitcaster people feel this.</span><span class="chip k">Known lingo</span></li>
+      <li><span class="line">Should've Been Here Yesterday</span><span class="why">The oldest line on the dock, set as a faded marina sign.</span><span class="chip k">Known lingo</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Western, ranch and rodeo</h2>
+    <p class="lingo">Lingo: <b>dally</b> (wrapping the rope on the horn), <b>turn and burn</b> (barrel racing), <b>rank</b> (a hard bull or bronc), <b>feed store</b> runs, <b>"not my first rodeo"</b>, horse-girl money jokes.</p>
+    <ul>
+      <li class="top"><span class="line">My Horse Is My Therapist. That's Why I Need One.</span><span class="why">The horse-girl money joke, self-aware.</span><span class="chip k">Known lingo</span></li>
+      <li><span class="line">Feed Store Fashion Week</span><span class="why">Ranch women's Saturday outfit, in collegiate type.</span><span class="chip k">Known lingo</span></li>
+      <li><span class="line">Turn &amp; Burn Social Club</span><span class="why">Barrel racing, in the fake-club format.</span><span class="chip k">Known lingo</span></li>
+      <li><span class="line">Not My First Rodeo. Fourth This Month.</span><span class="why">Takes the cliché one step further.</span><span class="chip k">Known lingo</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Gym</h2>
+    <p class="lingo">Lingo: <b>ego lift</b>, <b>natty</b>, <b>pump cover</b>, <b>deload</b>, <b>bro science</b>, <b>"can you squat 135?"</b>, <b>"gym bros have whimsy too"</b> (883K likes), <b>lock in</b>.</p>
+    <ul>
+      <li class="top"><span class="line">Sisyphus Had Bad Programming</span><span class="why">The proven culture × gym format (Sisyphus pump cover: 1,583 favorites) with a lifter's critique.</span><span class="chip v">Verified</span></li>
+      <li class="top"><span class="line">Department of Bro Science, Est. Day One</span><span class="why">Fake university format plus the lingo.</span><span class="chip k">Known lingo</span></li>
+      <li><span class="line">Deload Week (Emotionally)</span><span class="why">Lifters get it, and so does anyone tired.</span><span class="chip k">Known lingo</span></li>
+      <li><span class="line">Lifts Heavy. Has Whimsy.</span><span class="why">Our whimsy-first brand, said straight, from a viral GymTok line.</span><span class="chip v">Verified</span></li>
+      <li><span class="line">Twelve Labors. Zero Cardio.</span><span class="why">Hercules on a treadmill, vintage print.</span><span class="chip k">Known lingo</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Readers (BookTok)</h2>
+    <p class="lingo">Verified themes: <b>"at my funeral: 'I guess we can sell her books now'"</b> (540K likes), <b>book boyfriend vs. real husband</b> (1M), <b>"go play your game so I can read"</b> (1.2M), the <b>book buying ban</b> that fails, <b>midnight bookstore</b> trips (182K), the <b>jump scare</b> when someone talks to you mid-chapter, plus <b>TBR</b>, <b>DNF</b>, <b>third-act breakup</b>, <b>he falls first</b>, <b>one bed</b>.</p>
+    <ul>
+      <li class="top"><span class="line">Do Not Sell My Books at My Funeral</span><span class="why">The most-liked BookTok joke we found, as a shirt.</span><span class="chip v">Verified</span></li>
+      <li class="top"><span class="line">Book Buying Ban: Day 1 (Again)</span><span class="why">The ban everyone breaks. A tally-mark design.</span><span class="chip v">Verified</span></li>
+      <li><span class="line">Go Play Your Game. I'm Reading.</span><span class="why">A couple joke, giftable for both.</span><span class="chip v">Verified</span></li>
+      <li><span class="line">Shh. I'm in the Third-Act Breakup.</span><span class="why">Romance readers only.</span><span class="chip k">Known lingo</span></li>
+      <li><span class="line">Midnight Bookstore Club</span><span class="why">Fake club format plus a verified theme. Embroidered moon over a stack of books.</span><span class="chip v">Verified</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Nurses</h2>
+    <p class="lingo">Lingo: <b>the Q word</b> (never say "quiet", 788K likes on Mayo Clinic Nursing's post), <b>full moon</b> shifts, <b>three twelves</b>, <b>charting</b>, <b>bladder of steel</b>, <b>frequent flyer</b>.</p>
+    <ul>
+      <li class="top"><span class="line">Full Moon. Q Word. Pray for Us.</span><span class="why">Both superstitions in one line.</span><span class="chip v">Verified</span></li>
+      <li><span class="line">Three Twelves and a Nap</span><span class="why">The nurse's week, as a fake club badge.</span><span class="chip k">Known lingo</span></li>
+      <li><span class="line">If It Wasn't Charted, I Wasn't There</span><span class="why">A nursing-school rule turned into an alibi.</span><span class="chip k">Known lingo</span></li>
+      <li><span class="line">Calm Face, Loud Brain</span><span class="why">The proven restraint format, for nurses.</span><span class="chip k">Known lingo</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Teachers</h2>
+    <ul>
+      <li class="top"><span class="line">Per My Last Email</span><span class="why">The polite threat every teacher and office worker knows. Crosses over to anyone with a job.</span><span class="chip k">Known lingo</span></li>
+      <li><span class="line">I Have Asked Nicely Four Times</span><span class="why">Teacher-voice restraint joke.</span><span class="chip k">Known lingo</span></li>
+      <li><span class="line">Full Moon, Full Classroom</span><span class="why">Teachers share the nurse superstition.</span><span class="chip k">Known lingo</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Faith</h2>
+    <ul>
+      <li class="top"><span class="line">I'll Pray About It (No)</span><span class="why">The Southern church way of saying no. Loving, self-aware, insider.</span><span class="chip k">Known lingo</span></li>
+      <li><span class="line">Fellowship Hall Snack Committee</span><span class="why">Church-life fake club.</span><span class="chip k">Known lingo</span></li>
+      <li><span class="line">Psalm 121 mountain, embroidered</span><span class="why">Quiet-faith bestseller format (2,348 favorites).</span><span class="chip v">Verified</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Sports moms</h2>
+    <p class="lingo">Verified on TikTok: <b>"I promised to behave. I never said for how long."</b> (shows up across baseball and football, 3.5K+ likes), <b>"travel ball money comes from the same place my sanity went"</b>, <b>"don't speak until the caffeine hits"</b>, the coach who talks 28 minutes past practice ("wrap that huddle up"), the three football-mom types (<b>Rules Mom, Photographer Mom, Loud Mom</b>), <b>"THAT'S MY BABY!"</b>. Sales proof: personalized name-and-number shirts lead every sport (5,136 favorites). The non-custom winners are a fake club ("Rinkside Social Club"), a tarot card ("The Dance Mom") and the goose (softball goose, 442).</p>
+    <ul>
+      <li class="top"><span class="line">Promised to Behave. Didn't Say for How Long.</span><span class="why">The most-repeated sports-mom line on TikTok. One shirt for every sport, with the ball swapped.</span><span class="chip v">Verified</span></li>
+      <li class="top"><span class="line">The Loud Mom · The Rules Mom · The Photographer Mom</span><span class="why">A three-shirt tarot-card series built on the viral "which football mom are you" post. Moms buy the set for their bleacher crew.</span><span class="chip v">Verified</span></li>
+      <li class="top"><span class="line">Bleacher Social Club, est. Every Weekend</span><span class="why">The proven fake-club format. Swap the sport and team colors.</span><span class="chip v">Verified</span></li>
+      <li><span class="line">Travel Ball Took My Savings and My Saturdays</span><span class="why">Travel-ball money joke, shortened.</span><span class="chip v">Verified</span></li>
+      <li><span class="line">Coach, Wrap the Huddle Up</span><span class="why">The pickup-line gripe every football parent has.</span><span class="chip v">Verified</span></li>
+      <li><span class="line">Snack Mom (Elected, Not Volunteered)</span><span class="why">Every team parent knows how that happened.</span><span class="chip k">Known lingo</span></li>
+    </ul>
+    <p class="why">Later project: name-and-number personalization is the biggest seller in this whole category. It needs a personalization field at checkout, so it's worth its own build.</p>
+  </section>
+
+  <section>
+    <h2>Holidays</h2>
+    <ul>
+      <li class="top"><span class="line">Who Brought Store-Bought?</span><span class="why">The Thanksgiving accusation, set in church-cookbook type.</span><span class="chip k">Known lingo</span></li>
+      <li><span class="line">Pass the Rolls, Not the Questions</span><span class="why">Every single cousin at Thanksgiving.</span><span class="chip k">Known lingo</span></li>
+      <li><span class="line">White Elephant Assassin</span><span class="why">The person who steals the good gift.</span><span class="chip k">Known lingo</span></li>
+      <li><span class="line">Merry-ish</span><span class="why">Embroidered tree row, the #1 Christmas motif.</span><span class="chip v">Verified</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Women 25–55 (not just moms)</h2>
+    <p class="lingo">What our main buyer says on TikTok now: <b>overstimulated</b> (an "Overstimulated" cowboy-frog shirt has 7,664 favorites), <b>"Overstimulated Moms Club"</b> (16.5K likes), <b>homebody</b> / <b>"for the sheets, not the streets"</b> (1,766 favorites for "Homebody"), <b>eldest daughter</b> (2.2M views), <b>"motherhood didn't change my personality, it exposed it"</b>, <b>clock it</b>, <b>lock in</b>, <b>girl dinner</b>, <b>bed rot</b>, <b>delulu</b>, <b>the ick</b>, <b>crash out</b>, <b>"in my ___ era"</b>, millennial nostalgia (the "millennial pause", 2000s TV, front tuck vs. side part).</p>
+    <ul>
+      <li class="top"><span class="line">Hold Your Horses, I'm Overstimulated</span><span class="why">Our own take on the 7,664-favorite cowboy-frog format: a cowgirl armadillo in a big hat. Western meets the word of the year for tired women.</span><span class="chip v">Verified</span></li>
+      <li class="top"><span class="line">Eldest Daughter, Unpaid Project Manager</span><span class="why">A huge TikTok identity that barely exists as a shirt yet. Low competition, so a smart test.</span><span class="chip v">Verified</span></li>
+      <li class="top"><span class="line">Clocked It. Said Nothing.</span><span class="why">Current slang plus the proven restraint joke ("things I manage not to say", 7,300 favorites).</span><span class="chip v">Verified</span></li>
+      <li class="top"><span class="line">For the Sheets, Not the Streets</span><span class="why">The homebody bestseller format with the exact phrase moms are using, embroidered on a cozy crew.</span><span class="chip v">Verified</span></li>
+      <li><span class="line">Overstimulated Club, Est. Morning</span><span class="why">Fake club plus the verified word. Works for moms and nurses.</span><span class="chip v">Verified</span></li>
+      <li><span class="line">Motherhood Didn't Change Me. It Exposed Me.</span><span class="why">Self-aware, cheeky, gift-ready for Mother's Day.</span><span class="chip v">Verified</span></li>
+      <li><span class="line">Girl Dinner Enthusiast</span><span class="why">A snack-plate illustration. Lasting slang women of every age use.</span><span class="chip v">Verified</span></li>
+      <li><span class="line">In Bed by 9 Social Club</span><span class="why">Homebody plus fake club. Proven at a small scale.</span><span class="chip v">Verified</span></li>
+      <li><span class="line">Locked In (to the Couch)</span><span class="why">"Lock in" is lasting slang with a homebody twist.</span><span class="chip v">Verified</span></li>
+    </ul>
+    <p class="why">Mom-identity proof: a neon pink puff-print "Mama" has 4,544 favorites, a funny "Boy Mom" goose 3,270, and an embroidered floral "Boy Mama" 2,611 at $42. So puff print is a look to test too.</p>
+  </section>
+
+  <section>
+    <h2>Women who hunt and fish</h2>
+    <p class="lingo">Verified: <b>"a girl doesn't want to wear her brother's hand-me-downs anymore"</b> (66K likes, asking for women's hunting clothes), <b>"the only lines I throw"</b> (fishing/dating double meaning), <b>"open season"</b>.</p>
+    <ul>
+      <li class="top"><span class="line">Not My Brother's Hand-Me-Downs</span><span class="why">Real demand: women asking for camo made for them. Our women's camo hoodies are the answer. Put this in the product copy and on a design.</span><span class="chip v">Verified</span></li>
+      <li><span class="line">The Only Lines I Throw Are Fishing Lines</span><span class="why">A dating joke for women who fish.</span><span class="chip v">Verified</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Trades (new niche: welding)</h2>
+    <p class="lingo">Lingo: <b>stack of dimes</b> (a pretty bead), <b>"if you can step over it, you can fill it"</b> (fitters leaving welders big gaps), <b>"grinder and paint make me the welder I ain't"</b>, plus the welder who can't stop working.</p>
+    <ul>
+      <li class="top"><span class="line">If You Can Step Over It, I Can Fill It</span><span class="why">The fitter-vs-welder joke straight from welding forums. Pure insider.</span><span class="chip v">Verified</span></li>
+      <li><span class="line">Stacks Dimes. Wants More Dimes.</span><span class="why">The craft term turned into a pay joke.</span><span class="chip v">Verified</span></li>
+      <li><span class="line">Grinder &amp; Paint Department</span><span class="why">A nod to the classic line, in the fake-department format.</span><span class="chip v">Verified</span></li>
+    </ul>
+    <p class="note why">"Welder shirt" and "funny welder shirt" need a search check before we brief them. The jokes are strong; demand is unmeasured.</p>
+  </section>
+
+  <section>
+    <h2>How this changes the plan</h2>
+    <div class="callout">
+      <p><b>Gate rule 3 gets sharper:</b> every line uses at least one real insider word or verified community joke, and the brief names where it came from. Puns only as a twist on real lingo.</p>
+      <p><b>Your pick:</b> choose your favorite 5 from the red-edged lines (or the original 16), and those get made first when fal is funded.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Sources</h2>
+    <ol class="sources">
+      <li>TikTok topic pages read Oct 17, 2026: <a href="https://www.tiktok.com/discover/fishing-humor">fishing humor</a>, <a href="https://www.tiktok.com/discover/bass-fishing-memes">bass fishing memes</a>, <a href="https://www.tiktok.com/discover/booktok-humor">BookTok humor</a>, <a href="https://www.tiktok.com/discover/gym-humor">gym humor</a>, <a href="https://www.tiktok.com/discover/the-q-word-nurse">the Q word (nurse)</a></li>
+      <li>TikTok Shop keyword pages: <a href="https://shop.tiktok.com/us/k/funny-sweatshirts">funny sweatshirts</a>, <a href="https://shop.tiktok.com/us/k/funny-womens-sweatshirts">funny women's sweatshirts</a>, <a href="https://shop.tiktok.com/us/k/funny-embroidered-sweatshirts">funny embroidered sweatshirts</a>, <a href="https://shop.tiktok.com/us/k/embroidered-sweatshirts">embroidered sweatshirts</a>, <a href="https://shop.tiktok.com/us/k/sarcastic-sweatshirts">sarcastic sweatshirts</a>, <a href="https://shop.tiktok.com/us/k/christmas-sweatshirts-for-women">Christmas sweatshirts for women</a>, <a href="https://shop.tiktok.com/us/k/mama-sweatshirt">mama sweatshirt</a>, <a href="https://shop.tiktok.com/us/k/hunting-hoodies">hunting hoodies</a>, <a href="https://shop.tiktok.com/us/k/funny-fishing-shirts">funny fishing shirts</a></li>
+      <li>TikTok topic pages: <a href="https://www.tiktok.com/discover/baseball-mom-humor">baseball mom humor</a>, <a href="https://www.tiktok.com/discover/football-mom-humor">football mom humor</a>, <a href="https://www.tiktok.com/discover/mom-humor">mom humor</a>, <a href="https://www.tiktok.com/discover/millennial-mom-humor">millennial mom humor</a>, <a href="https://www.tiktok.com/discover/women-hunting-and-fishing-humor">women hunting and fishing humor</a></li>
+      <li><a href="https://themeateater.com/hunt/whitetail-deer/the-best-recipe-for-tag-soup">MeatEater: The best recipe for tag soup</a> · <a href="https://bowhunting.com/article/ground-shrinkage-top-excuses-hunters-make">Bowhunting.com: ground shrinkage</a> · <a href="https://www.nrawomen.com/content/hunting-slang-102">NRA Women: Hunting slang 102</a></li>
+      <li><a href="https://themeateater.com/gear/gear-fish/why-live-sonar-is-such-a-heated-controversy">MeatEater: why live sonar is a heated controversy</a> · <a href="https://www.wired2fish.com/opinions-philosophies/why-all-the-hate-for-forward-facing-sonar">Wired2Fish</a></li>
+      <li><a href="https://www.weldingweb.com/threads/funny-welding-sayings.80361/">WeldingWeb: funny welding sayings</a> · <a href="https://www.weldingweb.com/threads/is-the-term-stacking-dimes-overrated.707386/">"Is stacking dimes overrated?"</a></li>
+      <li><a href="https://lithub.com/a-content-creator-tried-to-trademark-hot-girls-read-booktok-clapped-back/">Literary Hub on BookTok phrases and trademarks</a> · <a href="https://elle.in/life-culture/gen-zs-clock-it-trend-is-everywhere-11829879">Elle on "clock it"</a> · <a href="https://knowyourmeme.com/editorials/guides/what-does-it-mean-to-lock-in-the-internet-slang-term-inspiring-memes-about-tweaking-vs-being-locked-in-explained">Know Your Meme on "lock in"</a> · <a href="https://amp.knowyourmeme.com/memes/my-roman-empire">"My Roman Empire" (fading)</a></li>
+    </ol>
+  </section>
+</div>
