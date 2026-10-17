@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: B
 type: new
 id: 460
 handle: womens-apres-ski-expert-in-apres-hoodie
+shopify: gid://shopify/Product/15363779068208
 kd: 30
 ---
 ## Women's Après Ski – Expert in Après Hoodie
@@ -23,3 +24,4 @@ kd: 30
 ---
 ## Log
 - 2026-10-17 15:22 UTC director: brief written, READY (keyword measured this run, low-KD sweep; lane B).
+- 2026-10-17 15:30 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363779068208 (Sand + Navy x S-3XL, $39.99; keyword apres ski hoodie 1000/KD30; FAQs 5). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.

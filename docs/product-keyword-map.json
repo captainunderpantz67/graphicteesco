@@ -6494,6 +6494,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-apres-ski-expert-in-apres-hoodie": {
+   "claimed": [
+    "apres ski hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "apres ski hoodie",
+     "volume": 1000,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
