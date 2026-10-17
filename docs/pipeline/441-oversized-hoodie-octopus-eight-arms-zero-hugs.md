@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-17 20:16 UTC
+status: REVIEW
 lane: C
 type: new
 id: 441
@@ -27,3 +27,4 @@ kd: 30
 - 2026-10-17 13:39 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363700261168 (Dust + Navy x S-3XL, 4719 oversized, $54.99; keyword octopus hoodie 720/KD30; FAQs 5 x 40-60 words, order-by Dec 8). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane C.
 - 2026-10-17 20:20 UTC builder [C]: art 2 Recraft calls (try 1 had the arms flung out, not folded; try 2 kept: bored half-lidded octopus, arms folded together in front), no lettering; EIGHT ARMS, / ZERO HUGS in Lobster via compose-print.py; FW 1500 TOP 20 (aspect 1.08 on the 1650 front area); Printful file 1088465464, sync 482474771 running; mockups Dust+Navy attached; fal cover 2 images (registry #637): try 1 had drawstrings across the octopus, try 2 prompted 'no drawstrings' (this blank has none) and is clean; copy fixed to the real art (folded arms, script capitals); FAQs 5 x 40-60 words.
+- 2026-10-17 20:36 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/441.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. 
