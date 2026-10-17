@@ -1,41 +1,41 @@
 {
- "at": "2026-10-17T06:19:50.938Z",
+ "at": "2026-10-17T06:42:30.304Z",
  "products": 298,
  "findings": [
   {
    "level": "WARN",
    "handle": "unisex-halloween-midnight-feature-graphic-tee",
    "title": "Unisex Halloween – Midnight Feature Tee",
-   "msg": "No SEO title.",
-   "fix": "Write one ≤ 60 chars with the primary keyword."
-  },
-  {
-   "level": "WARN",
-   "handle": "unisex-christmas-fresh-cut-christmas-trees-graphic-tee",
-   "title": "Unisex Christmas – Fresh Cut Christmas Trees Tee",
    "msg": "No meta description.",
    "fix": "Write one ≤ 155 chars."
   },
   {
    "level": "WARN",
-   "handle": "womens-nurse-nurse-life-coffee-graphic-tee",
-   "title": "Women's Nurse – Nurse Life Coffee Tee",
+   "handle": "unisex-christmas-fresh-cut-christmas-trees-graphic-tee",
+   "title": "Unisex Christmas – Fresh Cut Christmas Trees Tee",
    "msg": "No SEO title.",
    "fix": "Write one ≤ 60 chars with the primary keyword."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-nurse-nurse-life-coffee-graphic-tee",
+   "title": "Women's Nurse – Nurse Life Coffee Tee",
+   "msg": "No meta description.",
+   "fix": "Write one ≤ 155 chars."
   },
   {
    "level": "WARN",
    "handle": "womens-country-sweet-tea-sunsets-graphic-tee",
    "title": "Women's Country – Sweet Tea & Sunsets Tee",
-   "msg": "No SEO title.",
-   "fix": "Write one ≤ 60 chars with the primary keyword."
+   "msg": "No meta description.",
+   "fix": "Write one ≤ 155 chars."
   },
   {
    "level": "WARN",
    "handle": "womens-christmas-retro-santa-graphic-tee",
    "title": "Women's Christmas – Retro Santa Tee",
-   "msg": "No SEO title.",
-   "fix": "Write one ≤ 60 chars with the primary keyword."
+   "msg": "No meta description.",
+   "fix": "Write one ≤ 155 chars."
   },
   {
    "level": "WARN",
@@ -52,18 +52,11 @@
    "fix": "Set every variant to price 24.99, no compare-at."
   },
   {
-   "level": "ERROR",
-   "handle": "womens-thanksgiving-gobble-gobble-crewneck-sweatshirt",
-   "title": "Women's Thanksgiving – Gobble Gobble Turkey Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
    "level": "WARN",
    "handle": "womens-thanksgiving-gobble-gobble-crewneck-sweatshirt",
    "title": "Women's Thanksgiving – Gobble Gobble Turkey Crewneck Sweatshirt",
-   "msg": "No meta description.",
-   "fix": "Write one ≤ 155 chars."
+   "msg": "No SEO title.",
+   "fix": "Write one ≤ 60 chars with the primary keyword."
   },
   {
    "level": "ERROR",
@@ -74,24 +67,10 @@
   },
   {
    "level": "ERROR",
-   "handle": "unisex-thanksgiving-turkey-day-crew-crewneck-sweatshirt",
-   "title": "Unisex Thanksgiving – Turkey Day Crew Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
    "handle": "womens-christmas-sleigh-queen-graphic-tee",
    "title": "Women's Christmas – Sleigh Queen Tee",
    "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
    "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christmas-sleigh-queen-crewneck-sweatshirt",
-   "title": "Women's Christmas – Sleigh Queen Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
   },
   {
    "level": "ERROR",
@@ -102,24 +81,10 @@
   },
   {
    "level": "ERROR",
-   "handle": "womens-thanksgiving-nap-queen-crewneck-sweatshirt",
-   "title": "Women's Thanksgiving – Nap Queen Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
    "handle": "unisex-thanksgiving-mash-hour-graphic-tee",
    "title": "Unisex Thanksgiving – Mash Hour Tee",
    "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
    "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-thanksgiving-mash-hour-crewneck-sweatshirt",
-   "title": "Unisex Thanksgiving – Mash Hour Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
   },
   {
    "level": "ERROR",
@@ -475,8 +440,8 @@
    "level": "WARN",
    "handle": "unisex-christmas-mountain-christmas-bear-hoodie",
    "title": "Unisex Christmas – Mountain Christmas Bear Hoodie",
-   "msg": "No SEO title.",
-   "fix": "Write one ≤ 60 chars with the primary keyword."
+   "msg": "No meta description.",
+   "fix": "Write one ≤ 155 chars."
   },
   {
    "level": "ERROR",
@@ -724,11 +689,11 @@
    "fix": "Set every variant to price 54.99, no compare-at."
   },
   {
-   "level": "WARN",
+   "level": "ERROR",
    "handle": "womens-thanksgiving-friendsgiving-hoodie",
    "title": "Women's Thanksgiving – Friendsgiving Hoodie",
-   "msg": "thanksgiving design isn't in any thanksgiving collection.",
-   "fix": "Tag it so it appears in the thanksgiving shirts page."
+   "msg": "Hoodie listed in the non-hoodie collection \"Thanksgiving Sweatshirts\".",
+   "fix": "Remove the tag that puts it in thanksgiving-sweatshirts; hoodies go only in *-hoodies collections."
   }
  ]
 }
