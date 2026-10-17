@@ -19,8 +19,10 @@ const abs = (u: string) => (u.startsWith('http') ? u : `${site.url}${u}`);
 // Split into a FIXED set of FEED_PAGES files so no file nears Cloudflare's 25 MiB cap, and so the set of
 // URLs registered in Merchant Center / Pinterest never changes as the catalog grows (2026-10-17: page 5
 // appeared on its own and nobody had registered it). Each product lives on the page its id hashes to, so it
-// never hops between data sources. products.xml = page 1; products-2.xml … products-10.xml the rest.
-export const FEED_PAGES = 10;
+// never hops between data sources. products.xml = page 1; products-2.xml … products-4.xml the rest. Four pages
+// because Merchant Center has exactly those four registered; at ~10 MB each there is room to grow ~2x before
+// a fifth page (which must be registered in Merchant Center the same day) is needed.
+export const FEED_PAGES = 4;
 export const feedProducts = async () => (await getAllProducts()).filter((p) => !p.sample && p.images.length && p.variants.length);
 // FNV-1a over the numeric id (Shopify ids share trailing digits, so a plain modulo bunches them up).
 export const feedPage = (p: { id: string }) => {
