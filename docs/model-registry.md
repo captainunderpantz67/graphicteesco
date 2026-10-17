@@ -584,3 +584,4 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 694 | white man, late 40s, close-cropped grey hair and a short grey beard, broad build | RESERVED — #484 Sisyphus crewneck cover |
 | 801 | Pakistani-American man, early 40s, short dark hair, trimmed beard | USED 2026-10-17 — #205 North Woods Moose hoodie cover redo (with #802, seedream, 1 attempt; hoods visible, woman's CHRISTMAS slightly soft) |
 | 802 | Black woman, mid 30s, natural curls under a cream knit beanie, small gold hoops | USED 2026-10-17 — #205 North Woods Moose hoodie cover redo (with #801) |
+| 803 | Korean-American woman, late 20s, sleek black bob with wispy bangs, small pearl studs | USED 2026-10-17 — #216 Hello Winter hoodie cover redo (seedream, 1 attempt) |
