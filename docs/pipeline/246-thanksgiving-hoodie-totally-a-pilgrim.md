@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-17 22:15 UTC
+status: REVIEW
 lane: A
 type: twin
 id: 246
@@ -28,3 +28,4 @@ handle: unisex-thanksgiving-totally-a-pilgrim-hoodie
   4. Tags: add thanksgiving (holiday tag) so it can feed a Thanksgiving page; keep no christmas-hoodies. New file, re-link both colors, new mockups, new cover from the new Navy mockup (keep registry #419/#420, the porch is good), then REVIEW.
 - 2026-10-17 22:15 UTC builder [A] REDO 246: (1) Lettering: erased the typeset arched line; re-set TOTALLY A PILGRIM in Alfa Slab One, warm brown #6b3a1f with a cream outline (reads on Sand and Navy), gentle arch, worn speckle. (2) Width: the old file was 3600x5002 at FW 1151; reshaped (turkey 3050 px tall + 3600 px wide lettering band) to 3600x3734 and printed at FW 1500 TOP 0 (about 10.4 in tall; the director's 'about 1400' is below the R5.3.2 floor of 1500). New Printful file 1088460654. (3) Tags: thanksgiving + graphic-hoodies-for-men added (unisex hoodie). Copy: art paragraph (brown capitals, no 'same art as the tee'), FAQ 5 x 40-60 words with order-by about Nov 12. Mockups attached for Sand and Navy + Sand back. (4) Cover: regs 419+420 (man and woman, porch), Navy mockup as --design. 3 attempts (R6.9 REDO extra): try 1 kept (both prints present; the man's drawstrings cross the end of his line so PILGRIM reads soft on him, woman's reads clearly); try 2 put the man in a crewneck (wrong garment); try 3 left the man's chest blank. Director decides whether to accept or REDO the cover. fal ~$0.12. Resync running (12 variants): REVIEW at 12/12.
 - 2026-10-17 UTC builder [A]: compareAtPrice set to null on every variant (R12.1 honest compare-at; product created after 2026-10-15).
+- 2026-10-17 20:27 UTC builder [A]: Printful resync complete (12/12 on the new file); REVIEW.
