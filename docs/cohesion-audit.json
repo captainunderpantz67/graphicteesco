@@ -1,6 +1,6 @@
 {
- "at": "2026-10-17T07:11:58.352Z",
- "products": 298,
+ "at": "2026-10-17T07:43:13.088Z",
+ "products": 304,
  "findings": [
   {
    "level": "WARN",
@@ -99,41 +99,6 @@
    "title": "Unisex Thanksgiving – Totally a Pilgrim Crewneck Sweatshirt",
    "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
    "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-soccer-mom-goal-digger-graphic-tee",
-   "title": "Women's Soccer Mom – Goal Digger Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-football-mom-hut-hut-hooray-graphic-tee",
-   "title": "Women's Football Mom – Hut Hut Hooray Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-baseball-mom-pitch-please-graphic-tee",
-   "title": "Women's Baseball Mom – Pitch Please Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-nurse-charting-is-my-cardio-graphic-tee",
-   "title": "Women's Nurse – Charting Is My Cardio Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-fishing-reel-talk-graphic-tee",
-   "title": "Men's Fishing – Reel Talk Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
   },
   {
    "level": "ERROR",
@@ -689,11 +654,18 @@
    "fix": "Set every variant to price 54.99, no compare-at."
   },
   {
-   "level": "ERROR",
+   "level": "WARN",
    "handle": "womens-thanksgiving-friendsgiving-hoodie",
    "title": "Women's Thanksgiving – Friendsgiving Hoodie",
-   "msg": "Hoodie listed in the non-hoodie collection \"Thanksgiving Sweatshirts\".",
-   "fix": "Remove the tag that puts it in thanksgiving-sweatshirts; hoodies go only in *-hoodies collections."
+   "msg": "thanksgiving design isn't in any thanksgiving collection.",
+   "fix": "Tag it so it appears in the thanksgiving shirts page."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-coffee-espresso-yourself-hoodie",
+   "title": "Women's Coffee – Espresso Yourself Hoodie",
+   "msg": "No meta description.",
+   "fix": "Write one ≤ 155 chars."
   }
  ]
 }
