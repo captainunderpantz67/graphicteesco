@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: A
 type: new
 id: 471
 handle: mens-christmas-attending-under-protest-crewneck-sweatshirt
+shopify: gid://shopify/Product/15364044521776
 kd: 10
 ---
 ## Men's Christmas – Attending Under Protest Crewneck Sweatshirt
@@ -28,3 +29,4 @@ kd: 10
 ---
 ## Log
 - 2026-10-17 17:40 UTC director: brief written, READY (lane A; gate-format brief, keyword measured this run).
+- 2026-10-17 19:00 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15364044521776 (12 variants Sand+Navy S-3XL, $34.99, crewneck category, FW 1650 planned). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
