@@ -6234,6 +6234,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-panda-bamboozled-zip-hoodie": {
+   "claimed": [
+    "panda hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "panda hoodie",
+     "volume": 1900,
+     "kd": 25
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
