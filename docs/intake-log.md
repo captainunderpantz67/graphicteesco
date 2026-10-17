@@ -1,3 +1,4 @@
+RUNNING helper since 2026-10-17 13:42 UTC
 2026-10-17 13:40 UTC — [B] Run summary (fal empty, temp-cover mode): REVIEW #429 Lunges & Lattes cropped redo (cream bunny fill + lettering outline, re-synced, mockups + cover re-made). ART-NEXT DRAFTs built for #434-#443 (samurai cat oversized, cherry blossom cropped, maneki neko heavyweight, star hoodie, panda zip, tennis cropped, pig oversized, octopus oversized, chess zip, mothman). Left: #354 and #378-382/#385 need fal; ART-NEXT items wait for fal; price chore not attempted; cohesion-audit.mjs crashes in this sandbox. Print files are hosted via raw.githubusercontent.com (fal storage 403). Lock released.
 2026-10-17 13:40 UTC — [B] ART-NEXT #443 DRAFT built (no art/sync/images; fal empty): unisex-mothman-light-sleeper-hoodie.
 2026-10-17 13:40 UTC — [B] ART-NEXT #442 DRAFT built (no art/sync/images; fal empty): mens-chess-knight-shift-zip-hoodie.
