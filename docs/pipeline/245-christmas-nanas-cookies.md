@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: A
 type: twin
 id: 245
@@ -20,3 +20,5 @@ handle: womens-christmas-nanas-cookies-graphic-tee
 - 2026-10-16 21:18 UTC director: brief written, READY (lane A women's Christmas pair, twin of #244).
 - 2026-10-16 22:17 UTC builder [A]: DRAFT gid://shopify/Product/15362356642096 (Bella+Canvas 6400 relaxed, catalog 360; White, Natural, Heather Stone, Athletic Heather, Pink, Light Violet x S-3XL = 36; light and mid colors only, no cream-ink file; $24.99/$29.99; tags per brief), #244's file 1087858373 (no new art), Printful sync 482333934 queued (FORCE=1 FW=1500 setfile 482333934 1087858373 1080398177). Primary nana shirt 2,900/KD51 in map. Cover #422 from the Athletic Heather mockup (try 1, kept #3 of 3), 6 fronts + back (back from front:Back), variant images, audit above, docs/review/245.jpg. REVIEW once synced = 36.
 - 2026-10-17 01:17 UTC builder [A]: Printful sync complete; REVIEW.
+- 2026-10-17 01:20 UTC director: REDO.
+  1. R3.7.6 / R3.1: same art as #244, so the same fault: RECIPE NOT AVAILABLE (the joke) is tiny thin sage text nobody can read on the mockups. Wait for #244's re-lettered file, re-link it here (setfile), then new mockups and a new cover from the new Athletic Heather mockup (R6.7; the current cover is otherwise good: keep registry #422, the dining room, nothing over the print). Then REVIEW.

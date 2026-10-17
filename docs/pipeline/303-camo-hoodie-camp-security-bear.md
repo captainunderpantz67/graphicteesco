@@ -1,0 +1,24 @@
+status: READY
+lane: B
+type: new
+id: 303
+handle: unisex-camping-camp-security-bear-camo-hoodie
+---
+## Unisex Camping – Camp Security Camo Hoodie
+- **Blank:** Heavyweight Independent Trading IND4000 (Printful #1543), camo colors (Duck Camo, Forest Camo, Darkwood Tree Camo, Deadwood Tree Camo, Black Camo). Copy facts from the Printful spec only (R7.1). Camo is busy: the art is drawn in light inks (cream, bone, blaze orange, soft white linework with a dark outline) so it reads on camo; run camo-halo.py with the lettering included and a small close value so open shapes stay garment (R5.3.8 camo line, 2026-10-17); preview on each camo mockup at phone size and keep only the colors where every word and the subject read. Front print about 11 in wide, every word clear of the pocket seam.
+- **Text on shirt:** CAMP SECURITY — hand-drawn vintage capitals, one line under the art.
+- **Hook:** A black bear sitting in the middle of a campsite with the cooler open, eating marshmallows one by one, wearing a tiny flashlight: camp security is on duty. Dry deadpan for him, cute enough for her (R3.4); every camper who has hung a food bag laughs.
+- **Why it's not taken:** Etsy bear camping shirts are 'Camp Hair Don't Care' text and mountain badges; a bear raiding the cooler as 'security' isn't on page 1. Builder: check 50+ exact (R3.7.2).
+- **Style:** A, vintage to the edges (R4.2). Every line hand-lettered (R3.7.6); no badge, ring, arch or panel behind the art (R4.1).
+- **Art prompt (Recraft v4):** "Vintage 1960s national-park poster style illustration: a chubby black bear sitting upright at a campsite next to an open cooler, holding a marshmallow, a small flashlight strapped to its head, a canvas tent and a campfire with a stick of toasted marshmallows beside it, two pines. Hand-lettered vintage capitals 'CAMP SECURITY' below. Palette: cream, bone, blaze orange, faded sage, soft dark brown linework. Hand-drawn vintage lettering, worn screen-print texture, edges breaking up, light inks with soft dark linework so it reads on camo. The subject is the shape. Isolated on plain background, no background shape, no frame, no border, no badge, no circle, no dark patch."
+- **Colors:** Forest Camo + Black Camo.
+- **Primary keyword:** camping hoodie — 1,900 / KD 39 (RankHero 2026-10-17, 68% US). Unowned; record it. Not 'bear hoodie' (owned).
+- **Supporting:** run `scripts/keyword-gap.py` with 2-4 design seeds; keep 4-6 measured, unowned phrases that describe the art (R2.7). Never 'camo hoodie', 'camo sweatshirt' or 'hunting hoodie' as a claim (collection heads, R8.8); never Realtree or Mossy Oak.
+- **Popularity evidence (R5.2):** camping hoodie 1,900/39 and camp hoodie 2,400/38 measured; camp hoodie 2,400/38 and camping hoodie 1,900/39 show steady demand; Eau de Campfire (campfire hoodie) is live in the same outdoors lane.
+- **Cover:** registry #484 + #488 — man AND woman together, alt starts "Man and woman …" (R6.3, unisex) (R6.3), Puerto Rican man, early 30s, short curly black hair, clean-shaven, athletic + White woman, late 20s, auburn hair in two braids, freckles. Scene: a lakeside campsite at dusk with a tent and a small campfire, both in matching hoodies. The real garment in the offered color (camo pattern visible), hood visible on hoodies, generated with the product's own Printful mockup as `--design`; hands empty or at the sides, nothing over any part of the print; read every word against the art before saving (R6.7-R6.9).
+- **Title / handle:** "Unisex Camping – Camp Security Camo Hoodie" / `unisex-camping-camp-security-bear-camo-hoodie` (R7.4; the handle suffix sets the audit price, R12.1). Copy line one names the joke and the season (R9.11).
+- **Tags:** camo-hoodies, graphic-hoodies-for-women, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
+- **Price (R12.1):** IND4000 camo $49.99, compare-at $54.99.
+---
+## Log
+- 2026-10-17 director: brief written, READY (lane B camo push: this batch takes camo to 24, Sam 2026-10-17; keyword measured this run).

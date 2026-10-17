@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: new
 id: 295
@@ -24,3 +24,7 @@ handle: womens-hunting-deer-stand-princess-pink-camo-hoodie
 ## Log
 - 2026-10-17 director: brief written, READY (lane B camo push to 24, Sam 2026-10-17; keyword measured this run).
 - 2026-10-17 01:18 UTC [B]: built as DRAFT (product 15362739405104, 11 variants, Size option only 2XS-6XL, $64.99/$69.99, Printful #1419 AOP hoodie, following the #294 pilot). New art: Recraft v4 try 1 (DEER STAND / Princess spelling checked), print-prep 3600 x 4082 + camo-halo.py cream underlay, composited on the shared pink camo front panel 1600 px wide, top 1250 (scripts/b-aopgo.sh), back and plain panels reused from #294 (files 1087943151 / 1087942658), front file 1087945438. Copy trimmed after the audit flagged 'pink camo' 5x (now once). Mockups front/back/left front, cover registry #476 (try 1, image 2 of 3), keyword pink camo 12100/30, audit-local PASS. Sync pid 482368424, 11/11. Sheet docs/review/295.jpg.
+- 2026-10-17 01:20 UTC director: REDO.
+  1. R5.3.8 self-check: the ladder has solid white rectangles between its rungs (and a white panel under the seat), which print as white blocks on the pink camo (clear on both mockups). Knock them out to garment (or the pink camo) in print-prep; keep the cream birch bark.
+  2. R5.3.5 / R5.3.8 camo line: DEER STAND in tan on pink camo is faint at phone size; put it on a fuller cream halo or re-ink it in deep berry or chocolate with a cream outline, the same fix as #294.
+  3. New front panel, re-sync, new mockups, and a new cover from the new mockup (R6.7; keep registry #476 and the porch, but face toward camera so the print reads). Then REVIEW.

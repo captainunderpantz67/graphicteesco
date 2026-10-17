@@ -368,3 +368,17 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 478 | Black woman, mid 20s, long box braids, gold jewelry, slim build | USED 2026-10-17 — #297 Blending In Is Overrated camo sweatshirt cover (try 1, image 3 of 3) |
 | 479 | Filipino-American man, early 40s, short black hair, trimmed goatee, average build | USED 2026-10-17 — #298 Up Before the Ducks camo sweatshirt cover (try 1, image 3 of 3) |
 | 480 | White woman, late 30s, shoulder-length blonde hair in a messy bun, light freckles | USED 2026-10-17 — #299 Ducks in a Row camo hoodie cover (try 1, image 2 of 3) |
+| 478 | Black woman, mid 20s, long box braids, gold jewelry, slim build | RESERVED — #297 Blending In Is Overrated cover |
+| 479 | Filipino-American man, early 40s, short black hair, trimmed goatee, average build | RESERVED — #298 Up Before the Ducks cover |
+| 480 | White woman, late 30s, shoulder-length blonde hair in a messy bun, light freckles | RESERVED — #299 Ducks in a Row cover |
+| 481 | Korean-American woman, early 30s, long straight dark hair with curtain bangs, small gold studs | RESERVED — #300 Doe Not Disturb cover |
+| 482 | White man, mid 30s, red-brown full beard, blaze orange knit beanie, lean build | RESERVED — #301 I Saw You Move cover |
+| 483 | Native American man, late 40s, long black hair tied back, weathered face, medium build | RESERVED — #302 Antler Envy cover |
+| 484 | Puerto Rican man, early 30s, short curly black hair, clean-shaven, athletic | RESERVED — #303 Camp Security cover (with #488) |
+| 485 | Vietnamese-American woman, mid 20s, chin-length black bob, round glasses | RESERVED — #304 Playing Dead Till Friday cover (with #489) |
+| 486 | White man, early 60s, bald with a grey horseshoe fringe, grey goatee, broad build | RESERVED — #305 Call Me After Duck Season cover |
+| 487 | Mexican-American woman, late 40s, shoulder-length dark brown hair with caramel highlights, warm smile lines | RESERVED — #306 Only Here for the Sunrise cover |
+| 488 | White woman, late 20s, auburn hair in two braids, freckles | RESERVED — #303 Camp Security cover (with #484) |
+| 489 | Black man, mid 20s, short twists, slim build | RESERVED — #304 Playing Dead Till Friday cover (with #485) |
+| 490 | Filipino-American woman, early 40s, shoulder-length black hair with a side part, small hoop earrings | RESERVED — #307 Q Word nurse hoodie cover |
+| 491 | White woman, early 30s, long light-brown hair in a low ponytail, no makeup, athletic build | RESERVED — #308 I Have Followers hoodie cover |
