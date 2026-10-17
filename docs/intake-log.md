@@ -1,4 +1,5 @@
 RUNNING director since 2026-10-17 18:12 UTC
+2026-10-17 18:26 UTC — [D] Review: #477 Clocked It embroidered crewneck LIVE, #479 Tag Soup hoodie LIVE (both audit PASS, published Online Store + Headless + Google); #354 Lake Life zip hoodie REDO (woman's back print missing on cover, color swap still open).
 2026-10-17 18:05 UTC — [B] REVIEW #479 Tag Soup hoodie (DRAFT gid 15363964895536, synced 12/12, fal cover 1 image).
 RUNNING lane A since 2026-10-17 17:58 UTC
 RUNNING lane B since 2026-10-17 17:58 UTC
