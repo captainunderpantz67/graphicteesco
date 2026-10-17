@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: twin
 id: 307
@@ -18,3 +18,4 @@ handle: womens-nurse-dont-say-the-q-word-hoodie
 ---
 ## Log
 - 2026-10-17 director: brief written, READY (lane B hoodie twin of a strong live design, R11.5).
+- 2026-10-17 02:22 UTC [B]: built as DRAFT (product 15362856583472, 12 variants Sand + Light Pink S-3XL, $39.99/$44.99, Gildan 18500 #146). Twin of #132/#271: reused the approved art (Printful file 1087506488 re-hosted as 1087975834, no new art; counters checked on Sand and Light Pink, the red and teal inks with dark outlines read on both), FW 1244 TOP 0 (print height under 1600 px, clear of the pouch seam). Mockups, variant images, back logo, cover registry #490 (try 1, image 1 of 3), keyword nurse hoodies 1300/20 (never the singular), audit-local PASS. Sync pid 482377942, 12/12. Sheet docs/review/307.jpg.

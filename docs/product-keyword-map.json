@@ -4566,6 +4566,32 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-nurse-dont-say-the-q-word-hoodie": {
+   "claimed": [
+    "nurse hoodies"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "nurse hoodies",
+     "volume": 1300,
+     "kd": 20
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-mama-i-have-followers-duck-hoodie": {
+   "claimed": [
+    "duck mama"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "duck mama",
+     "volume": 3600,
+     "kd": 14
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

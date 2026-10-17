@@ -299,6 +299,8 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-possum-playing-dead-camo-hoodie': { src: '/covers/unisex-possum-playing-dead-camo-hoodie.webp', alt: 'Man and woman in matching Forest Camo Playing Dead Till Friday possum hoodies standing by a leafy college-town park bench in October with coffee cups beside them' },
   'mens-hunting-call-me-after-duck-season-camo-sweatshirt': { src: '/covers/mens-hunting-call-me-after-duck-season-camo-sweatshirt.webp', alt: 'Man in his early 60s with a bald head and a grey goatee in an all-over woodland camo Call Me After Duck Season sweatshirt at a marsh boat ramp at sunrise with a dog sitting beside him' },
   'womens-hunting-here-for-the-sunrise-camo-sweatshirt': { src: '/covers/womens-hunting-here-for-the-sunrise-camo-sweatshirt.webp', alt: 'Woman in her late 40s with shoulder-length brown hair and caramel highlights smiling in an all-over woodland camo Only Here for the Sunrise sweatshirt in a wooden duck blind on a marsh at sunrise with a thermos on the bench' },
+  'womens-nurse-dont-say-the-q-word-hoodie': { src: '/covers/womens-nurse-dont-say-the-q-word-hoodie.webp', alt: 'Woman in her early 40s with shoulder-length black hair and small hoop earrings in a Sand Don't Say the Q Word nurse hoodie in a hospital staff parking lot at dawn wearing navy scrub pants' },
+  'womens-mama-i-have-followers-duck-hoodie': { src: '/covers/womens-mama-i-have-followers-duck-hoodie.webp', alt: 'Woman in her early 30s with a low ponytail in a Sand I Have Followers duck hoodie at a farm pond in October with ducks on the water and a stroller handle beside her' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
