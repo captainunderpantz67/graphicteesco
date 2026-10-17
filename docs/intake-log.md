@@ -1,4 +1,5 @@
 2026-10-17 18:13 UTC — [B] REVIEW #480 Tag Soup tee (DRAFT gid 15363971940656, synced 21/21, fal cover 1 image).
+RUNNING director since 2026-10-17 18:12 UTC
 2026-10-17 18:05 UTC — [B] REVIEW #479 Tag Soup hoodie (DRAFT gid 15363964895536, synced 12/12, fal cover 1 image).
 RUNNING lane A since 2026-10-17 17:58 UTC
 RUNNING lane B since 2026-10-17 17:58 UTC
