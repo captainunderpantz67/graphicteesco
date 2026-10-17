@@ -1,25 +1,13 @@
-# Cohesion audit — 2026-10-17 09:03 UTC
+# Cohesion audit — 2026-10-17 09:43 UTC
 
-312 live products checked · **66 errors** · 13 warnings · 79 products with findings
+314 live products checked · **40 errors** · 15 warnings · 55 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
-- 66 × Price ./. — should be ./- on every variant.
+- 40 × Price ./. — should be ./- on every variant.
 
 ## By product (errors first)
-### Women's Christmas – Sleigh Queen Tee `womens-christmas-sleigh-queen-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Women's Thanksgiving – Nap Queen Tee `womens-thanksgiving-nap-queen-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Unisex Thanksgiving – Mash Hour Tee `unisex-thanksgiving-mash-hour-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Unisex Thanksgiving – Totally a Pilgrim Tee `unisex-thanksgiving-totally-a-pilgrim-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
 ### Men's Hunting – Deer Diary Tee `mens-hunting-deer-diary-graphic-tee`
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
 
@@ -33,9 +21,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
 
 ### Men's Fishing – Cheaper Than Therapy (Barely) Tee `mens-fishing-cheaper-than-therapy-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Women's Thanksgiving – Here for the Scraps Tee `womens-thanksgiving-here-for-the-scraps-graphic-tee`
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
 
 ### Women's Cropped – Matcha Made in Heaven Tee `womens-cropped-matcha-made-in-heaven-graphic-tee`
@@ -72,69 +57,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
 
 ### Unisex Anime – Destroyer of Cities, Lover of Naps Tee `unisex-anime-kaiju-naps-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Men's Christmas – Define Naughty Tee `mens-christmas-define-naughty-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Unisex Christmas – Light Show Manager Crewneck Sweatshirt `unisex-christmas-light-show-manager-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Christmas – Jolly-ish Crewneck Sweatshirt `womens-christmas-jolly-ish-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Unisex Christmas – Technically a Sweater Crewneck Sweatshirt `unisex-christmas-technically-a-sweater-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Men's Christmas – Bah Humbug Tee `mens-christmas-bah-humbug-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Unisex Christmas – Bah Humbug Crewneck Sweatshirt `unisex-christmas-bah-humbug-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Christmas – Sleighping In Tee `womens-christmas-sleighping-in-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Women's Christmas – Sleighping In Crewneck Sweatshirt `womens-christmas-sleighping-in-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Christmas – Embroidered Extra Marshmallows Crewneck Sweatshirt `womens-christmas-embroidered-extra-marshmallows-crewneck-sweatshirt`
-- **ERROR** Price 42.99/47.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Christmas – Dough Ho Ho Tee `womens-christmas-dough-ho-ho-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Women's Christmas – Dough Ho Ho Crewneck Sweatshirt `womens-christmas-dough-ho-ho-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Christmas – Lit-Up Bow Crewneck Sweatshirt `womens-christmas-lit-up-bow-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Christmas – Merry Woofmas Crewneck Sweatshirt `womens-christmas-merry-woofmas-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Men's Christmas – Resting My Eyes Crewneck Sweatshirt `mens-christmas-resting-my-eyes-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Christmas – Snow Problem Tee `womens-christmas-snow-problem-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Women's Christmas – Snow Problem Crewneck Sweatshirt `womens-christmas-snow-problem-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Thanksgiving – Spill the Gravy Tee `womens-thanksgiving-spill-the-gravy-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Women's Thanksgiving – Spill the Gravy Crewneck Sweatshirt `womens-thanksgiving-spill-the-gravy-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Thanksgiving – Cute But Corny Tee `womens-thanksgiving-cute-but-corny-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Women's Thanksgiving – Cute But Corny Crewneck Sweatshirt `womens-thanksgiving-cute-but-corny-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Unisex Thanksgiving – Kids Table Alumni Tee `unisex-thanksgiving-kids-table-alumni-graphic-tee`
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
 
 ### Men's Hunting – Long Beard Short Temper Camo Hoodie `mens-hunting-long-beard-short-temper-camo-hoodie`
@@ -243,4 +165,10 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
 
 ### Unisex Thanksgiving – Mash Hour Hoodie `unisex-thanksgiving-mash-hour-hoodie`
+- **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
+
+### Women's Thanksgiving – Here for the Scraps Hoodie `womens-thanksgiving-here-for-the-scraps-hoodie`
+- **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
+
+### Unisex Thanksgiving – Turkey Trot Hoodie `unisex-thanksgiving-turkey-trot-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
