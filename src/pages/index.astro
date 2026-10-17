@@ -177,7 +177,7 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
         const d = daysUntil(c.seasonal!);
         return (
           <a href={pathFor(c)} class="group relative overflow-hidden rounded-[18px] border-2 border-[var(--color-ink)] aspect-[4/5] flex shadow-[4px_4px_0_var(--color-ink)] hover:-translate-y-1 hover:shadow-[6px_8px_0_var(--color-ink)] transition-all bg-[var(--color-rust)]">
-            {ph && <img src={ph.src} alt={ph.alt} loading="lazy" width="600" height="750" class="absolute inset-0 w-full h-full object-cover object-[50%_20%] group-hover:scale-[1.04] transition-transform duration-500" />}
+            {ph && <img src={ph.src} srcset={ph.src.startsWith('/covers/') ? `${ph.src.replace('/covers/', '/covers/sm/')} 400w, ${ph.src} 600w` : undefined} sizes="(min-width: 768px) 25vw, 50vw" alt={ph.alt} loading="lazy" width="600" height="750" class="absolute inset-0 w-full h-full object-cover object-[50%_20%] group-hover:scale-[1.04] transition-transform duration-500" />}
             <span class="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-black/85 via-black/45 to-transparent" aria-hidden="true"></span>
             <span class="absolute top-3 left-3 rounded-full bg-[var(--color-mustard)] text-[var(--color-ink)] text-[11px] font-bold uppercase tracking-[.1em] px-3 py-1 border-2 border-[var(--color-ink)]">{d === 0 ? 'Today' : `${d} days`}</span>
             <span class="absolute inset-x-4 bottom-4 text-[var(--color-cream)]">
@@ -265,7 +265,7 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
         return ph ? (
           <a href={pathFor(c)} class="group relative overflow-hidden rounded-[18px] border-2 border-[var(--color-ink)] aspect-[4/5] p-[7px] flex shadow-[4px_4px_0_var(--color-ink)] hover:-translate-y-1 hover:shadow-[6px_8px_0_var(--color-ink)] transition-all" style={`background:${bg};color:${fg}`}>
             <span class="relative flex-1 overflow-hidden rounded-[12px]">
-              <img src={(ph as any).local ? ph.url : img(ph.url, 600)} alt={ph.altText ?? c.h1} loading="lazy" width="600" height="750" class="absolute inset-0 w-full h-full object-cover object-[50%_20%] group-hover:scale-[1.04] transition-transform duration-500" />
+              <img src={(ph as any).local ? ph.url : img(ph.url, 600)} srcset={(ph as any).local && ph.url.startsWith('/covers/') ? `${ph.url.replace('/covers/', '/covers/sm/')} 400w, ${ph.url} 600w` : !(ph as any).local ? `${img(ph.url, 320)} 320w, ${img(ph.url, 600)} 600w` : undefined} sizes="(min-width: 768px) 25vw, 50vw" alt={ph.altText ?? c.h1} loading="lazy" width="600" height="750" class="absolute inset-0 w-full h-full object-cover object-[50%_20%] group-hover:scale-[1.04] transition-transform duration-500" />
               <span class="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-black/85 via-black/45 to-transparent" aria-hidden="true"></span>
               <span class="absolute top-3 left-3 w-11 h-11 rounded-full grid place-items-center border-2 bg-black/30 backdrop-blur-[2px]" style={`border-color:${bg};color:${bg}`}><Icon name={icons[c.slug]} class="w-6 h-6" /></span>
               <span class="absolute inset-x-4 bottom-4 text-[var(--color-cream)]">

@@ -3,8 +3,9 @@ import type { Product } from '../lib/shopify';
 import { formatPrice } from '../lib/shopify';
 import { coverFor } from '../data/covers';
 import { SWATCH } from '../lib/swatches';
-interface Props { product: Product; audience?: 'women' | 'men' }
-const { product: p, audience } = Astro.props;
+// eager: the first row of a grid is above the fold on phones, so it loads right away (LCP).
+interface Props { product: Product; audience?: 'women' | 'men'; eager?: boolean }
+const { product: p, audience, eager = false } = Astro.props;
 const href = p.sample ? undefined : `/products/${p.handle}/`;
 const Tag = href ? 'a' : 'div';
 // On a women's/men's page, never lead with a lifestyle photo of the other audience
@@ -31,13 +32,16 @@ const was = cmp ? formatPrice(cmp) : null;
       </div>
     )}
     {cover ? (
-      <img src={cover.src} alt={cover.alt} width="600" height="750" loading="lazy" decoding="async"
+      <img src={cover.src} srcset={`${cover.src.replace('/covers/', '/covers/sm/')} 400w, ${cover.src} 600w`}
+        sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw" alt={cover.alt} width="600" height="750" loading={eager ? 'eager' : 'lazy'} fetchpriority={eager ? 'high' : undefined} decoding="async"
         class="w-full h-full object-cover object-[50%_25%] group-hover:scale-[1.03] transition-transform duration-300" />
     ) : p.featuredImage ? (
       <img
         src={`${p.featuredImage.url}&width=600`}
+        srcset={`${p.featuredImage.url}&width=320 320w, ${p.featuredImage.url}&width=600 600w`}
+        sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"
         alt={p.featuredImage.altText && !/^product mockup$/i.test(p.featuredImage.altText.trim()) ? p.featuredImage.altText : `${p.title.replace(/^.*?–\s*/, '')} graphic tee, ${p.title.split('–')[0].trim()}`}
-        width="600" height="750" loading="lazy" decoding="async"
+        width="600" height="750" loading={eager ? 'eager' : 'lazy'} decoding="async"
         class="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-300"
       />
     ) : (
