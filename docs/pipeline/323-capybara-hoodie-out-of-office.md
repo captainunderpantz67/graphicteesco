@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-17 19:56 UTC
+status: REVIEW
 lane: C
 type: new
 id: 323
@@ -26,3 +26,4 @@ kd: 16
 - 2026-10-17 04:59 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363050242352 (launch colors per brief, S-3XL, price per brief with no compare-at, category hoodies, tags per brief incl. hub tags, SEO, FAQs; keyword capybara hoodie 8100/KD16). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images yet.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane C.
 - 2026-10-17 20:00 UTC builder [C]: art 1 Recraft call (no lettering); OUT OF OFFICE (Alfa Slab One) + (soaking) (Damion) via compose-print.py; art cropped square to fit the 1650x1650 hoodie front area; FW 1500 TOP 75; Printful file 1088453118, sync 482393711 running; mockups Dust+Navy attached; fal cover 1 image (registry #508 updated to the real face); FAQs rewritten 5 x 47-54 words.
+- 2026-10-17 20:16 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/323.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. 
