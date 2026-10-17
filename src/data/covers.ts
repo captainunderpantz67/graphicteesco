@@ -413,6 +413,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-anime-snack-hoard-dragon-hoodie': { src: '/covers/unisex-anime-snack-hoard-dragon-hoodie.webp', alt: 'Man and woman in matching navy Snack Hoard dragon anime hoodies, smiling at a late-night ramen shop counter with paper lanterns' },
   'mens-outdoors-sasquatch-camera-shy-heavyweight-hoodie': { src: '/covers/mens-outdoors-sasquatch-camera-shy-heavyweight-hoodie.webp', alt: 'Man in a storm blue Camera Shy sasquatch heavyweight hoodie smiling on a misty Pacific Northwest trailhead with tall firs' },
   'womens-thanksgiving-pie-season-pumpkin-hoodie': { src: '/covers/womens-thanksgiving-pie-season-pumpkin-hoodie.webp', alt: 'Woman in a navy Pie Season pumpkin pie hoodie at a farm-stand pie table with pumpkins and hay bales at golden hour, one hand in the pouch pocket' },
+  'womens-cat-oops-anyway-crewneck-sweatshirt': { src: '/covers/womens-cat-oops-anyway-crewneck-sweatshirt.webp', alt: 'Woman in a navy Oops Anyway cat crewneck sweatshirt under a cardigan pushed back over her shoulders, in a sunny apartment with a grey cat on the windowsill' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

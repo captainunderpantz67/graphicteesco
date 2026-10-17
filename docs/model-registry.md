@@ -475,7 +475,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 582 | man AND woman together: Vietnamese-American man, late 20s, textured crop, round glasses; Black woman, late 20s, long box braids in a high pony | RESERVED — #391 Gnome Comment Crewneck Sweatshirt cover |
 | 583 | Puerto Rican woman, mid 30s, long dark curls, small nose ring | RESERVED — #392 Here for the Scraps Hoodie cover |
 | 584 | Samoan-American woman, late 30s, long dark hair in a low ponytail, team-color scrunchie | RESERVED — #393 Hut Hut Hooray Crewneck Sweatshirt cover |
-| 585 | Japanese-American woman, mid 20s, short black bob with bangs, oversized cardigan open at the sides | RESERVED — #394 Oops Anyway Crewneck Sweatshirt cover |
+| 585 | Japanese-American woman, mid 20s, short black bob with bangs, grey cardigan | USED 2026-10-17 - #394 Oops Anyway cat crewneck cover (seedream, navy, sunny apartment) |
 | 586 | Guatemalan-American woman, early 40s, shoulder-length dark hair with a few greys, tortoiseshell glasses | USED 2026-10-16 — #395 Indoor Recess Survivor crewneck cover (seedream, 1 attempt) |
 | 587 | Mexican-American woman, late 20s, long dark waves, turquoise earrings, tan felt hat held at her side | RESERVED — #396 Yeehaw Responsibly Crewneck Sweatshirt cover |
 | 588 | man AND woman together: Chinese-American man, mid 30s, short side-parted hair; white woman, mid 30s, sandy-blonde shag | USED 2026-10-17 - #397 Currently Drifting otter hoodie cover (pair with #588-589) |
