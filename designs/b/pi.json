@@ -1,0 +1,5 @@
+{"art": "designs/b/pi-a.png", "art_width": 0.58, "canvas": [3600, 4500], "gap": 20,
+ "lines": [
+  {"text": "PILLAGING IS A", "font": "AlfaSlabOne-Regular.ttf", "size": 400, "fill": "#f4e6c6", "stroke": 20, "stroke_fill": "#1f2742", "tracking": 0.03, "where": "below"},
+  {"text": "YOUNG MAN'S GAME", "font": "AlfaSlabOne-Regular.ttf", "size": 400, "fill": "#e9b44c", "stroke": 20, "stroke_fill": "#1f2742", "tracking": 0.03, "where": "below"}
+ ]}
