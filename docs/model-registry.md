@@ -452,7 +452,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 559 | Man AND woman together: Navajo man, early 50s, grey ponytail, felt hat; white woman, mid 40s, sandy shag haircut | RESERVED — #368 Lucky Horseshoe Ranch Heavyweight Hoodie cover |
 | 560 | Mexican-American woman, early 20s, long wavy dark hair, turquoise ring | USED 2026-10-17 — #369 Desert Bloom cropped hoodie cover (try 1, image 1 of 1) |
 | 561 | Korean-American man, late 30s, short black hair, wire glasses, light stubble | USED 2026-10-17 — #370 Mountains Called hoodie cover (try 1, image 1 of 1) |
-| 562 | White woman, mid 30s, wavy chestnut lob, small gold hoops | RESERVED — #371 Sunny Disposition Mostly Zip Hoodie cover |
+| 562 | White woman, mid 30s, wavy chestnut lob, small gold hoops | USED 2026-10-17 - #371 Sunshine With Boundaries zip hoodie cover (seedream, navy, back view, farmers market) |
 | 563 | Indian-American woman, early 30s, long dark braid, small nose stud | RESERVED — #372 Jolly-ish Hoodie cover |
 | 564 | White woman, early 50s, silver pixie cut, red-framed glasses | RESERVED — #373 Merry Woofmas Hoodie cover |
 | 565 | Puerto Rican woman, late 30s, curly shoulder-length hair, gold hoops | RESERVED — #374 Spill the Gravy Hoodie cover |
