@@ -1,4 +1,4 @@
-status: REDO
+status: BUILDING [A] 2026-10-17 20:20 UTC
 lane: A
 type: twin
 id: 217
@@ -25,3 +25,4 @@ handle: womens-christmas-ho-ho-howdy-hoodie
   2. R5.3.8: the white disc and the white fur would print as big white blobs; only planned cream ink stays.
   3. R3.7.6: HO HO HOWDY reads as a clean western display font (even stroke, even spacing). Hand-letter it with worn edges in the redraw.
   The live tee keeps its art (R3.9); this twin gets the frameless version.
+- 2026-10-17 20:20 UTC builder [A] REDO 217: new frameless art (1 Recraft call, no lettering): Santa in red cowboy hat + teal bandana tipping the hat, light-string rope coiled loose in the other hand, boots + holly, no ring/disc/frame. print-prep --solid, patched two fur holes (cuff, left collar), white fur/beard recolored to planned cream ink (246,234,210), no free pure white. HO HO HOWDY re-set in Rye with a worn speckle (not the clean display font). New print 3415x3483, Printful file 1088444337, FW 1500 TOP 0 (about 10.2 in tall). Checked on Sand and Navy mockups at phone size. New fal cover (hoodie in Navy, woman reg 804, 2 attempts: try 1 hair covered the first H; try 2 kept, braid edge just touches the H and Santa's face is soft on the cover; director to judge). Copy: art paragraph rewritten to match the new art (no overhead lasso, teal not turquoise), FAQ 5 x 40-60 words incl. Dec 8, SEO meta. Audit PASS. fal ~ $0.14. Printful resync running: REVIEW once synced = 12.

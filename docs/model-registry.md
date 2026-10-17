@@ -585,3 +585,4 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 801 | Pakistani-American man, early 40s, short dark hair, trimmed beard | USED 2026-10-17 — #205 North Woods Moose hoodie cover redo (with #802, seedream, 1 attempt; hoods visible, woman's CHRISTMAS slightly soft) |
 | 802 | Black woman, mid 30s, natural curls under a cream knit beanie, small gold hoops | USED 2026-10-17 — #205 North Woods Moose hoodie cover redo (with #801) |
 | 803 | Korean-American woman, late 20s, sleek black bob with wispy bangs, small pearl studs | USED 2026-10-17 — #216 Hello Winter hoodie cover redo (seedream, 1 attempt) |
+| 804 | Native Hawaiian woman, early 30s, long dark hair in a single braid, small gold hoops, tan cowboy hat | USED 2026-10-17 — #217 Ho Ho Howdy hoodie cover redo (seedream, 2 attempts: try 1 hair covered the first H; try 2 kept, braid just touches the H edge, Santa's face soft) |
