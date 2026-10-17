@@ -552,7 +552,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 657 | Latina woman, mid 40s, chestnut layered blowout, diamond studs | USED 2026-10-17 - #457 Fried Food Is Tradition crewneck cover (seedream, sand, kitchen) |
 | 658 | East Asian woman, late 20s, short choppy pixie cut, small pearl drops | RESERVED — #458 Latke Queen Tee cover |
 | 659 | Native American man, early 30s, long black hair tied back, light stubble | RESERVED — #459 Pedal Pusher Heavyweight Hoodie cover |
-| 660 | white woman, mid 20s, long platinum-blonde waves, gold hoops | RESERVED — #460 Expert in Après Hoodie cover |
+| 660 | white woman, mid 20s, long platinum-blonde waves, gold hoops | USED 2026-10-17 — #460 cover (seedream, 3 attempts: hair covered the line, then ponytail + drawstring + white bars, try 3 kept cropped inside the white bars)
 | 661 | South Asian woman, early 30s, long glossy dark hair, small gold nose stud | RESERVED — #461 Expert in Après Crewneck cover |
 | 662 | Black woman, late 20s, short tapered natural hair | RESERVED — #462 Sending It Crewneck cover (with #663) |
 | 663 | white man, mid 20s, shaggy brown hair, light mustache | RESERVED — #462 Sending It Crewneck cover (with #662) |
