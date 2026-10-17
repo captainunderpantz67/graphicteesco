@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: B
 type: new
 id: 465
 handle: unisex-lawyer-i-rest-my-case-hoodie
+shopify: gid://shopify/Product/15363779526960
 kd: 31
 ---
 ## Unisex Lawyer – I Rest My Case Hoodie
@@ -23,3 +24,4 @@ kd: 31
 ---
 ## Log
 - 2026-10-17 15:22 UTC director: brief written, READY (keyword measured this run, low-KD sweep; lane B).
+- 2026-10-17 15:30 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363779526960 (Sand + Navy x S-3XL, $39.99; keyword lawyer hoodie 590/KD31; FAQs 5). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
