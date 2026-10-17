@@ -1,8 +1,8 @@
+2026-10-17 23:08 UTC — [B] Run summary: to REVIEW #461 Expert in Après crewneck (DRAFT, synced 12/12, composite cover for hair over the E). Audit: 0 price ERRORs in lane B. Stopped: fal $15.82 of $16 today, every other lane B READY item needs 1-2 fal cover calls or new art; resume after 00:00 UTC. Lock released.
 2026-10-17 23:01 UTC — [C] REVIEW #415 (REDO: composite cover, meta fixed).
 2026-10-17 23:07 UTC — [B] REVIEW #461 Women's Après Ski – Expert in Après crewneck (DRAFT, synced 12/12, fal cover composite; fal ~$0.06).
 2026-10-17 23:00 UTC — [C] REVIEW #281 (REDO: composite cover, copy fixes).
 RUNNING lane A since 2026-10-17 23:00 UTC
-RUNNING lane B since 2026-10-17 22:59 UTC
 2026-10-17 23:02 UTC — [C] Run summary: 4 REDOs to REVIEW with no fal spend: #493 (black bar erased, re-linked 12/12, new mockups), #281 (print composited on cover, copy fixes), #415 (print composited, meta unisex), #487 (print composited on both people). Still REDO and blocked by the fal cap ($15.76 of $16 used): #364 #450 #468 (hoodie covers; #364 also needs a Navy back mockup), #442 (new art), #439 (racket art cleanup), #398/#502 parked at cover, #501 #503-#510 READY unbuilt (need art). Resume after 00:00 UTC. Lock released.
 2026-10-17 23:01 UTC — [C] REVIEW #487 (REDO: composite cover both people).
 2026-10-17 23:01 UTC — [C] REVIEW #415 (REDO: composite cover, meta fixed).
