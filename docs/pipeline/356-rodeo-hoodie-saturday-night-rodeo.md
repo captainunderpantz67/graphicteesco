@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [E] 2026-10-17 23:20 UTC
 lane: E
 type: twin
 id: 356
