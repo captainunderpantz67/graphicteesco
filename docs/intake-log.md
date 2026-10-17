@@ -1,3 +1,4 @@
+RUNNING helper since 2026-10-17 23:43 UTC
 2026-10-17 23:32 UTC — [B] REVIEW #435 Main Character cropped hoodie REDO (composite cover, no fal).
 2026-10-17 23:33 UTC — [B] Run summary: #396, #435 (composite covers) and #354 (Carolina Blue back photo) to REVIEW, fal $0. Remaining lane B READY items need fal art/covers (cap resets 00:00 UTC, next run). Lock released.
 2026-10-17 23:32 UTC — [B] REVIEW #396 Yeehaw, but Quietly crewneck REDO (R6.9 composite cover, no fal).
