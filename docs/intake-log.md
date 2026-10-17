@@ -1,4 +1,3 @@
-RUNNING lane C since 2026-10-17 19:29 UTC
 RUNNING lane A since 2026-10-17 19:29 UTC
 2026-10-17 19:36 UTC — [E] REVIEW #337 Professional Lap Dog pit bull hoodie (DRAFT gid 15363052831024, synced 12/12, fal cover 2 images).
 2026-10-17 19:42 UTC — [C] Run: #448 Grill Wizard zip hoodie art + print + Printful sync + mockups done, PARKED at the cover (2 fal attempts failed R6.7/6.8, ~$0.12; see item log). Other lane C items (334 341 363 394 407 441) not started: usage/time spent on 448 only. Lock released.
