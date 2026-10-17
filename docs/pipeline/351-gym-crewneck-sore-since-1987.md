@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 cover: temp
 lane: B
 type: twin
@@ -26,3 +26,4 @@ kd: 36
 - 2026-10-17 06:13 UTC director: REDO (stays DRAFT, no fal needed).
   1. R5.3.2: FW 1400 is under the 1500 floor for sweatshirts and the print looks small on the crewneck. Re-link both ink files at FW 1650 (TOP 0), 12/12.
   2. New Sand + Navy mockups, variant images and temp cover, then REVIEW. On Navy the stair-climber reads as a flat tan shape; check the cream-ink file at the new size and log that the figure's linework shows. Copy, colors and keyword are approved.
+- 2026-10-17 07:20 UTC [B]: REDO done. Re-linked at FW 1650 TOP 0, 12/12. Navy: the cream-ink file rendered the figure as a flat tan shape, so Navy now uses a composite (dark-ink file's figure detail + the cream file's railing/stairs/lettering, file 1088075202, staged on art-staging) and the linework shows; Sand keeps 1087873843. New mockups, variant images swapped (old media deleted), new temp cover (Men's Lifestyle, Navy, man). Audit: draft-state only. -> REVIEW.
