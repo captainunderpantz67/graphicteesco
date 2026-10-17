@@ -1,4 +1,4 @@
-# Cohesion audit — 2026-10-17 11:42 UTC
+# Cohesion audit — 2026-10-17 12:05 UTC
 
 318 live products checked · **40 errors** · 15 warnings · 55 products with findings
 
