@@ -4,6 +4,7 @@ type: new
 id: 496
 handle: mens-hunting-not-lost-scouting-camo-hoodie
 kd: 37
+shopify: gid://shopify/Product/15364210622768
 ---
 ## Men's Hunting – Not Lost. Scouting. Camo Hoodie
 - **Blank:** Heavyweight hoodie Independent Trading IND4000 (Printful #1543) in camo colors (Printful lists Duck Camo, Forest Camo, Darkwood Tree Camo, Deadwood Tree Camo, Black Camo; verify names in the catalog). Front print FW 1500 or wider, every word clear of the pouch seam. Copy facts from the Printful spec only (R7.1).
@@ -28,3 +29,4 @@ kd: 37
 ## Log
 - 2026-10-17 20:27 UTC director: brief written, READY (Sam's 16 proof-first concepts, inbox 2026-10-17 19:30).
 - 2026-10-17 21:25 UTC director: moved from lane A to lane C (lane C builds hoodies; lane A has 23 READY, lane C had 3).
+- 2026-10-17 22:26 UTC builder [C]: art 1 Recraft call (buck in plaid recliner, no lettering) kept; NOT LOST. (cream) / SCOUTING. (blaze orange) in Big Shoulders via compose-print.py with camo-halo cream underlay (R5.3.8), net gaps knocked out; Shopify DRAFT gid://shopify/Product/15364210622768 (Duck Camo + Sandstone x XS-3XL = 14, $49.99 no compare-at, category hoodies, tags per brief, keyword deer hunter hoodie 260/KD37, FAQ 5). Sync/mockups/cover next.
