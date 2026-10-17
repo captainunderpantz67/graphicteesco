@@ -566,7 +566,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 669 | white man, late 20s, curly ginger hair, light freckles | RESERVED — #466 Overthinkers Club Hoodie cover (with #668) |
 | 670 | Black woman, mid 30s, short natural twist-out, small gold studs | RESERVED — #467 Overthinkers Club Crewneck cover (with #671) |
 | 671 | Korean-American man, mid 30s, undercut, round glasses | RESERVED — #467 Overthinkers Club Crewneck cover (with #670) |
-| 672 | Mexican-American woman, early 30s, long dark wavy hair in a low claw clip, small gold hoops | RESERVED — #468 Thriving, Technically Frog Hoodie cover |
+| 672 | Mexican-American woman, early 30s, long dark wavy hair in a low claw clip, small gold hoops | USED 2026-10-16 — #468 Thriving, Technically frog hoodie cover |
 | 673 | white woman, late 30s, honey-blonde shoulder-length waves, tortoiseshell glasses | RESERVED — #469 Excused From Small Talk Crewneck cover |
 | 674 | Indian-American woman, mid 20s, long straight black hair, small nose stud | RESERVED — #470 Excused From Small Talk Tee cover |
 | 675 | Black man, early 40s, close-cropped hair, salt-and-pepper beard | USED 2026-10-17 — #471 Attending Under Protest crewneck cover (seedream, navy, hands in pockets) |

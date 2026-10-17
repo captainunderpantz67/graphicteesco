@@ -7007,6 +7007,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-embroidered-thriving-technically-frog-hoodie": {
+   "claimed": [
+    "mental health hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "mental health hoodie",
+     "volume": 5400,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

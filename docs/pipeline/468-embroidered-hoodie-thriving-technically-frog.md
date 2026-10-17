@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-17T22:09Z
+status: REVIEW
 lane: C
 type: new
 id: 468
@@ -32,3 +32,4 @@ kd: 34
 - 2026-10-17 16:35 UTC builder [B]: ART-NEXT (fal empty, gate pending): full Shopify DRAFT gid://shopify/Product/15363854238000 (Sand + Navy x S-3XL = 12, Gildan 18500 embroidered, $44.99 no compare-at, category hoodies, tags per brief + hub tags, keyword mental health hoodie, SEO within limits, FAQs 6 x 40-60 words, order-by Dec 8). Copy from the brief's art description: re-check against the real art. No Printful sync, no images, no cover. Never publish.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane A.
 - 2026-10-17 21:25 UTC director: moved from lane A to lane C (lane C builds hoodies; lane A has 23 READY, lane C had 3).
+- 2026-10-17 22:19 UTC builder [C]: REVIEW. Art 2 Recraft calls (first frog too detailed, knit blanket closed up in emb-prep; second simple bold line art kept). THRIVING, TECHNICALLY set in Lobster script under the frog (compose then emb-prep, so letters stay open), one flat file 3.38 x 3.91 in (90%+ of the 4 in area), min stroke 1.5 mm. Thread: Printful palette has no sage or cream, so kelly green #01784E on Sand (file 1088528078) and white #FFFFFF on Navy (file 1088528876); copy updated to say so. Sync 482519703 12/12 via pf-emb-sync (ONLY=Sand / ONLY=Navy), back logo kept; Sand + Navy embroidery mockups + back attached. Mockup read: stitch is small and legible at true scale. fal cover 2 attempts (registry #672): BOTH show a short-sleeve boxy top instead of a long-sleeve hoodie, and the seedream render garbles the tiny caption (Thriving, technically is unreadable on the cover, the frog is faithful); hair is clear of the stitch. Saved attempt 2. Director: likely REDO cover (needs a long-sleeve render; consider a mockup-only cover). Copy fixed to real art (closed eyes, lily bud, thread colors). FAQ 6 existing. Keyword mental health hoodie 5,400/KD34 in the map. fal $0.20.
