@@ -501,7 +501,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 606 | man AND woman together (with #607): white man, early 40s, sandy beard, flannel collar showing | USED 2026-10-17 — #414 Stubborn and Proud of It goat hoodie cover (try 2 kept, 2 images; #607 woman in same photo) |
 | 607 | woman with #606: Mexican-American woman, early 40s, long dark wavy hair, small silver hoops | USED 2026-10-17 — #414 Stubborn and Proud of It goat hoodie cover (with #606) |
 | 608 | Korean-American woman, mid 20s, long dark hair, red ribbon bow, pearl earrings | USED 2026-10-17 - #415 Sweet Until Further Notice cherry hoodie cover (seedream, navy, farmers market) |
-| 609 | Vietnamese-American woman, about 20, short black bob with a clip, round glasses | RESERVED — #416 Berry Introverted Oversized Hoodie cover |
+| 609 | Vietnamese-American woman, about 20, short black bob with a clip, round glasses | USED 2026-10-17 — #416 Please Don't Pick Me strawberry oversized hoodie cover (seedream, 1 attempt) |
 | 610 | Puerto Rican man, late 20s, short fade, light beard | USED 2026-10-17 — #417 cover (seedream, 1 attempt)
 | 611 | white man, late 30s, reddish beard, sun-creased eyes, faded cap pushed back | RESERVED — #418 Reel Talk Hoodie cover |
 | 612 | Filipina woman, early 20s, long black hair in a claw clip, butterfly hair pins | RESERVED — #419 Low Battery Zip Hoodie cover |
