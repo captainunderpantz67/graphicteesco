@@ -6078,6 +6078,19 @@
     }
    ],
    "measured": "2026-10-17"
+  },
+  "mens-fishing-technically-still-fishing-hoodie": {
+   "claimed": [
+    "fish hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fish hoodie",
+     "volume": 5400,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
