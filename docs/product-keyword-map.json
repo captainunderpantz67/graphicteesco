@@ -5384,6 +5384,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-soccer-orange-slice-manager-zip-hoodie": {
+   "claimed": [
+    "soccer hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "soccer hoodie",
+     "volume": 1600,
+     "kd": 36
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
