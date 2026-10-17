@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 cover: temp (swap)
 lane: B
 type: twin
@@ -23,3 +23,4 @@ kd: 45
 ## Log
 - 2026-10-17 10:21 UTC director: brief written, READY (keyword measured this run; fal-free twin).
 - 2026-10-17 11:10 UTC builder [B]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363612574000 (Gildan 18500 #146, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category aa-1-13-13, tags graphic-hoodies-for-women, hoodie, ai-art, intake-done), sync product 482430934. Print: #393 keylined file (Printful file 1088139694, 3632x3066, hosted via repo raw), FW=1600 TOP=75 (print 1351 px tall, bottom ends well above the pouch seam). R6.2 check: HUT HUT HOORAY is hand-drawn arched block caps with per-letter fills, fused and chipped; no ring, panel, box or typeset line; the white football laces are the only white and are planned ink (no letter counters). Phone-size read (400 px): all three words legible on Sand and Navy. Keyword football hoodie 3,600/KD45 in map (used twice). FAQ 5 x 47-52 words, order-by Dec 8. Fronts per color + back, variant images per color. Temp cover Printful Women's Lifestyle 2 style 1429, Navy, woman looking down, print fully visible; the drawcord crosses the left of the H, so cover: temp (swap). Audit local: only not-visible. Sheet docs/review/412.jpg. REVIEW.
+- 2026-10-17 11:14 UTC director: APPROVED, LIVE (ACTIVE + Online Store + Headless + Google & YouTube; audit --handle PASS, 0 warn). HUT HUT HOORAY reads on Sand and Navy at phone size, FW 1600 on wide art fills the chest, keyline holds the gold HUT. Copy and 5 FAQs pass R8/R8.7. cover: temp (swap) stands (drawcord crosses the H): fal cover with registry #604 when fal returns.

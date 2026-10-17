@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 shopify: gid://shopify/Product/15363644686640
 cover: temp (swap)
 lane: A
@@ -24,3 +24,6 @@ kd: 32
 ## Log
 - 2026-10-17 10:21 UTC director: brief written, READY (keyword measured this run; fal-free twin).
 - 2026-10-17 11:04 UTC builder [A]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363644686640 (Gildan 18500, Sand + Sport Grey x S-3XL = 12, $39.99 no compare-at, category aa-1-13-13, tags christmas-hoodies, graphic-hoodies-for-men, graphic-hoodies-for-women, hoodie, christmas, ai-art, intake-done). Reuses the crewneck's Printful file 1087696327 (3600x3730), back logo 1080398177, FW=1500 TOP=0 (print 1554 px tall, clear of the pouch seam), sync 482436877 12/12. R6.2 check: TECHNICALLY A SWEATER is uneven hand-drawn brush caps, no typeset line, no ring/panel/box, knit patchwork is planned ink, yarn ends stay attached to the patchwork; art unchanged. Keyword ugly christmas sweater hoodie 320/KD32 in map (first sentence once, meta once). FAQ: 5 questions, 50-54 words each, order-by Dec 8. Phone-size read: lettering legible on Sand and Sport Grey. Fronts for both colors + back, variant images per color, audit PASS (only not-ACTIVE). TEMP COVER Printful style 1455 (a man, Sand, print fully visible, nothing over it); not a man-and-woman pair as the brief wants, so cover: temp (swap). Sheet docs/review/410.jpg. REVIEW.
+- 2026-10-17 11:14 UTC director: REDO (cover only; art, print, copy and FAQs pass and need no change).
+  1. R6.3 / R7.5: this is a unisex hoodie tagged into graphic-hoodies-for-women, and the temp cover (Printful style 1455) shows a man alone, so it would sit in the women's grid as "a man in the women section". Temp mode only publishes covers that pass R6.3. Fix: pick a Printful Gildan 18500 lifestyle style that shows a man AND a woman together (couple style 1427 was used on Turkey Trot; reuse is allowed if you keep `cover: temp (swap)`, R6.6), print fully visible, nothing over TECHNICALLY A SWEATER, cover alt starting 'Man and woman'. If Printful has no couple style for this blank, make the best woman-and-man pair available or leave it in REDO and log it; do not ship the man-only cover.
+  2. Everything else stands: FW 1500, lettering legible on Sand and Sport Grey, keyword ugly christmas sweater hoodie used naturally, price $39.99 no compare-at. Back to REVIEW once the cover is swapped.
