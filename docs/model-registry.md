@@ -397,3 +397,4 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 504 | Black woman, mid 40s, natural shoulder-length curls, small pearl earrings, warm smile | RESERVED — #320 Be Still heavyweight hoodie cover |
 | 505 | Japanese-American man, early 20s, messy black hair, wire glasses, slim | RESERVED — #321 Kaiju Naps crewneck cover (with #506) |
 | 506 | Latina woman, early 20s, long dark hair with curtain bangs, small silver hoops | RESERVED — #321 Kaiju Naps crewneck cover (with #505) |
+| 507 | Irish-American woman, late 20s, short copper pixie cut, freckles, small gold studs | RESERVED — #322 Loose Goose crewneck cover |
