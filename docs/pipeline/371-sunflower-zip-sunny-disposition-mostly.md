@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-17 21:03 UTC
+status: REVIEW
 lane: C
 type: new
 id: 371
@@ -30,3 +30,4 @@ kd: 36
 - 2026-10-17 17:10 UTC builder [A]: line rewrite done (copy only): brief + Shopify DRAFT title/handle/SEO/copy now "Sunshine With Boundaries" (womens-sunflower-sunshine-with-boundaries-zip-hoodie); FAQs refreshed to 4-6 where short. Status ART-NEXT.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane C. LINE REWRITE (cheeky not cheesy, R3.1): the words on the shirt are now "Sunny Until Spoken To" (this replaces the brief's text line; keep the brief's character/scene if it fits the new line, otherwise draw what the new line needs). Update the Shopify title and copy line one to the new line; handle stays.
 - 2026-10-17 21:05 UTC builder [C]: zip layout (scripts/zipbuild helper in scratch): back print docs/print-files/371-sunshine-with-boundaries.png FW 1650 TOP 225 with a faded bottom edge (the art ran off the bottom of the frame), chest copy docs/print-files/371-sunshine-with-boundaries-chest.png; art 1 Recraft call (no lettering); SUNSHINE / WITH BOUNDARIES in Lobster via compose-print.py; Printful files 1088491926 / 1088491938, sync 482408128 running (14 variants: Navy has 4XL/5XL); mockups Ash+Navy attached. Cover 1 fal image (registry #562): hood visible, real zip-up, back print readable; the hood edge touches the top petals. The art has arched eyebrows, not one raised eyebrow: copy fixed. FAQs 5 x 40-60 words incl. Dec 8.
+- 2026-10-17 21:35 UTC builder [C]: REVIEW. Sync 14/14. Sheet docs/review/371.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. Cover: hood edge touches top petals.
