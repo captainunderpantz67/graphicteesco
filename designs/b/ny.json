@@ -1,0 +1,5 @@
+{"art": "designs/b/ny-a.png", "art_width": 0.74, "canvas": [3600, 4800], "gap": 20,
+ "lines": [
+  {"text": "MIDNIGHT IS A", "font": "AlfaSlabOne-Regular.ttf", "size": 520, "fill": "#1f2c5c", "stroke": 12, "stroke_fill": "#f3e7cf", "tracking": 0.03, "where": "above"},
+  {"text": "SUGGESTION", "font": "AlfaSlabOne-Regular.ttf", "size": 640, "fill": "#b8433f", "stroke": 12, "stroke_fill": "#f3e7cf", "tracking": 0.03, "where": "below"}
+ ]}

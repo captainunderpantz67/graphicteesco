@@ -443,6 +443,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-fishing-professionally-chilling-heavyweight-hoodie': { src: '/covers/mens-fishing-professionally-chilling-heavyweight-hoodie.webp', alt: 'Man in a storm blue Professionally Chilling ice fishing heavyweight hoodie, standing on a frozen lake at dawn with an ice shanty behind him' },
   'womens-floral-wildly-low-maintenance-cropped-hoodie': { src: '/covers/womens-floral-wildly-low-maintenance-cropped-hoodie.webp', alt: 'Woman in a black cropped hoodie with a vintage wildflower bouquet and WILDLY LOW MAINTENANCE print, standing in a late-fall farm-stand flower field beside buckets of dried flowers' },
   'unisex-western-lucky-horseshoe-ranch-heavyweight-hoodie': { src: '/covers/unisex-western-lucky-horseshoe-ranch-heavyweight-hoodie.webp', alt: 'Man and woman at a ranch barn doorway at golden hour with hay bales behind them, the man in a Storm Blue heavyweight hoodie with a lucky horseshoe, crossed branding irons and rope print' },
+  'unisex-new-years-eve-midnight-is-a-suggestion-graphic-tee': { src: '/covers/unisex-new-years-eve-midnight-is-a-suggestion-graphic-tee.webp', alt: 'Man and woman in matching cream Midnight Is a Suggestion tees laughing in a living room set for New Year\'s Eve with streamers and a lit tree behind them' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
