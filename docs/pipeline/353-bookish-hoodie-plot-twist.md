@@ -1,4 +1,5 @@
-status: BUILDING [B] 2026-10-17T05:45Z
+status: REVIEW
+cover: temp
 lane: B
 type: twin
 id: 353
@@ -21,3 +22,4 @@ kd: 48
 ---
 ## Log
 - 2026-10-17 05:24 UTC director: brief written, READY (twin; keyword measured this run; KD ≤ 20 band exhausted for this garment/niche).
+- 2026-10-17 05:44 UTC [B]: (temp-cover mode, no fal) twin of #262 (Plot Twist oversized sweatshirt): reused Printful file 1087888035 (3600x2999, knock-outs already applied), FW 1500 TOP 0 so the print clears the pouch seam. R6.2 check: PLOT TWIST: / I STAYED IN is hand-drawn 1970s bubble-serif, no typeset line, ring, panel or box; ok. Colors Sand + Navy (rust, mustard and cream art reads on both). Shopify DRAFT gid://shopify/Product/15363096412464 (Gildan 18500, 14 variants, $39.99, no compare-at, category aa-1-13-13, tags graphic-hoodies-for-women/hoodie/ai-art/intake-done), sync 482396782 14/14, mockups Sand + Navy + back, variant images, keyword bookish hoodie 880/48. TEMP COVER Printful Women's Lifestyle (style 1421, Navy, woman, print fully visible, one hand in pocket, off the print). Audit PASS except draft state.

@@ -5202,6 +5202,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-fishing-lake-life-zip-hoodie": {
+   "claimed": [
+    "outdoor hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "outdoor hoodie",
+     "volume": 1600,
+     "kd": 42
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
