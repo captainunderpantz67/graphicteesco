@@ -4,6 +4,7 @@ import Base from '../../layouts/Base.astro';
 import Icon from '../../components/Icon.astro';
 import { getAllProducts, formatPrice, type Product } from '../../lib/shopify';
 import { productSchema, breadcrumbs, faqPage } from '../../lib/schema';
+import { productFaqs } from '../../lib/product-faqs';
 import { all, pathFor } from '../../data/collections';
 import { coverFor } from '../../data/covers';
 
@@ -48,12 +49,7 @@ const sections: Record<string, string> = {};
 }
 const story = sections['the story'] || sections.story || '';
 const details = sections['details & fit'] || sections['details'] || '';
-const questionsHtml = sections['questions'] || '';
-const qa = [...questionsHtml.matchAll(/<p><strong>(.*?)<\/strong><br>(.*?)<\/p>/gi)].map((m) => ({
-  q: m[1].replace(/<[^>]+>/g, ''), a: m[2].replace(/<[^>]+>/g, ''),
-}));
-const careQ = { q: `How do I wash this ${isHoodie ? 'hoodie' : isSweat ? 'sweatshirt' : 'graphic tee'}?`, a: 'Inside out, cold water, gentle cycle. Skip bleach and fabric softener, then hang dry or tumble dry low. Never iron directly on the print.' };
-const faqs = [...qa, careQ];
+const faqs = productFaqs(p);
 const hook = (story.match(/<p>(.*?)<\/p>/i)?.[1] ?? '').replace(/<[^>]+>/g, '').split(/(?<=\.)\s/).slice(0, 2).join(' ');
 
 const parents = all.filter((c) => p.collections?.includes(c.shopifyHandle));

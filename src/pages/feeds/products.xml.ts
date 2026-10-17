@@ -4,6 +4,7 @@ import { all } from '../../data/collections';
 import { covers } from '../../data/covers';
 import { getAllProducts } from '../../lib/shopify';
 import { SALE_ENDS } from '../../lib/schema';
+import { productFaqs } from '../../lib/product-faqs';
 
 // Product feed (Google RSS 2.0 + g: namespace) — one variant per item, grouped by product.
 // Read by Google Merchant Center (free listings + Shopping) and Pinterest catalogs, so both
@@ -15,14 +16,29 @@ const num = (gid: string) => gid.split('/').pop()!;
 const gender = (h: string) => (h.startsWith('womens-') ? 'female' : h.startsWith('mens-') ? 'male' : 'unisex');
 const abs = (u: string) => (u.startsWith('http') ? u : `${site.url}${u}`);
 
-// Split into pages of FEED_PAGE_SIZE products so no file nears Cloudflare's 25 MiB cap as the catalog grows.
-// products.xml = page 1; products-2.xml, products-3.xml… hold the rest. Register every page in Merchant Center / Pinterest.
-export const FEED_PAGE_SIZE = 60;
+// Split into a FIXED set of FEED_PAGES files so no file nears Cloudflare's 25 MiB cap, and so the set of
+// URLs registered in Merchant Center / Pinterest never changes as the catalog grows (2026-10-17: page 5
+// appeared on its own and nobody had registered it). Each product lives on the page its id hashes to, so it
+// never hops between data sources. products.xml = page 1; products-2.xml … products-10.xml the rest.
+export const FEED_PAGES = 10;
 export const feedProducts = async () => (await getAllProducts()).filter((p) => !p.sample && p.images.length && p.variants.length);
+// FNV-1a over the numeric id (Shopify ids share trailing digits, so a plain modulo bunches them up).
+export const feedPage = (p: { id: string }) => {
+  let h = 2166136261;
+  for (const ch of num(p.id)) h = Math.imul(h ^ ch.charCodeAt(0), 16777619) >>> 0;
+  return (h % FEED_PAGES) + 1;
+};
 
-export const GET: APIRoute = async () => renderFeed((await feedProducts()).slice(0, FEED_PAGE_SIZE));
+export const GET: APIRoute = async () => { const all = await feedProducts(); return renderFeed(all.filter((p) => feedPage(p) === 1), all); };
 
-export const renderFeed = (products: Awaited<ReturnType<typeof feedProducts>>) => {
+// Conversational attributes (Google, May 2026; read by AI Mode / Gemini): question_and_answer from the same
+// FAQs the page shows (no prices or dates: Google keeps offer data in its own fields), related_product for
+// the same design on another garment, variant_option for the color/size axes. popularity_rank is left out
+// until we have real sales to rank by (Google: it must reflect actual sales).
+const OFFER_WORDS = /\$|\b(free shipping|ship|deliver|arrive|order by|sale|price|days?)\b/i;
+const designKey = (t: string) => t.replace(/\s+(tee|t-shirt|shirt|hoodie|crewneck sweatshirt|sweatshirt|crewneck)$/i, '').replace(/^.*?–\s*/, '').trim().toLowerCase();
+
+export const renderFeed = (products: Awaited<ReturnType<typeof feedProducts>>, catalog: Awaited<ReturnType<typeof feedProducts>> = products) => {
   const items: string[] = [];
   for (const p of products) {
     const link = `${site.url}/products/${p.handle}/`;
@@ -34,6 +50,14 @@ export const renderFeed = (products: Awaited<ReturnType<typeof feedProducts>>) =
     const cover = covers[p.handle] ? abs(covers[p.handle].src) : null;
     const heavy = /hood|sweatshirt|crewneck/i.test(p.title + ' ' + p.productType);
     const groupTitle = p.title;
+    let qaBudget = 9000;
+    const qaXml = productFaqs(p).filter((f) => !OFFER_WORDS.test(f.q + ' ' + f.a)).slice(0, 30).map((f) => {
+      const x = `      <g:question_and_answer><g:question>${esc(f.q.slice(0, 1000))}</g:question><g:answer>${esc(f.a.slice(0, 1000))}</g:answer></g:question_and_answer>\n`;
+      qaBudget -= f.q.length + f.a.length;
+      return qaBudget > 0 ? x : '';
+    }).join('');
+    const twins = catalog.filter((o) => o.id !== p.id && designKey(o.title) === designKey(p.title) && o.variants.length).slice(0, 5);
+    const relXml = twins.map((o) => `      <g:related_product><g:relationship_type>substitute</g:relationship_type><g:identifier_type>id</g:identifier_type><g:identifier>${num(o.variants[0].id)}</g:identifier></g:related_product>\n`).join('');
     for (const v of p.variants) {
       const o = Object.fromEntries(v.selectedOptions.map((x) => [x.name.toLowerCase(), x.value]));
       const main = v.image?.url ?? p.featuredImage?.url ?? p.images[0].url;
@@ -59,7 +83,7 @@ ${cover ? `      <g:lifestyle_image_link>${esc(cover)}</g:lifestyle_image_link>\
       <g:product_type>${esc(['Apparel', isSweat ? 'Sweatshirts' : 'Graphic Tees', col?.name].filter(Boolean).join(' > '))}</g:product_type>
       <g:gender>${gender(p.handle)}</g:gender>
       <g:age_group>adult</g:age_group>
-${o.color ? `      <g:color>${esc(o.color)}</g:color>\n` : ''}${o.size ? `      <g:size>${esc(o.size)}</g:size>\n      <g:size_system>US</g:size_system>\n` : ''}    </item>`);
+${qaXml}${relXml}${o.color ? `      <g:variant_option><g:name>color</g:name><g:value>${esc(o.color)}</g:value></g:variant_option>\n` : ''}${o.size ? `      <g:variant_option><g:name>size</g:name><g:value>${esc(o.size)}</g:value></g:variant_option>\n` : ''}${o.color ? `      <g:color>${esc(o.color)}</g:color>\n` : ''}${o.size ? `      <g:size>${esc(o.size)}</g:size>\n      <g:size_system>US</g:size_system>\n` : ''}    </item>`);
     }
   }
   const body = `<?xml version="1.0" encoding="UTF-8"?>

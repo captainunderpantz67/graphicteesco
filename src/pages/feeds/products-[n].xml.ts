@@ -1,11 +1,11 @@
 import type { APIRoute, GetStaticPaths } from 'astro';
-import { FEED_PAGE_SIZE, feedProducts, renderFeed } from './products.xml';
+import { FEED_PAGES, feedPage, feedProducts, renderFeed } from './products.xml';
 
-// Feed pages 2..N (page 1 is /feeds/products.xml). See products.xml.ts for why the feed is split.
+// Feed pages 2..FEED_PAGES (page 1 is /feeds/products.xml). Always all of them, even if one is empty, so the
+// URLs registered in Merchant Center never change. See products.xml.ts.
 export const getStaticPaths: GetStaticPaths = async () => {
   const products = await feedProducts();
-  const pages = Math.ceil(products.length / FEED_PAGE_SIZE);
-  return Array.from({ length: Math.max(0, pages - 1) }, (_, i) => ({ params: { n: String(i + 2) }, props: { slice: products.slice((i + 1) * FEED_PAGE_SIZE, (i + 2) * FEED_PAGE_SIZE) } }));
+  return Array.from({ length: FEED_PAGES - 1 }, (_, i) => ({ params: { n: String(i + 2) }, props: { slice: products.filter((p) => feedPage(p) === i + 2), all: products } }));
 };
 
-export const GET: APIRoute = async ({ props }) => renderFeed(props.slice);
+export const GET: APIRoute = async ({ props }) => renderFeed(props.slice, props.all);
