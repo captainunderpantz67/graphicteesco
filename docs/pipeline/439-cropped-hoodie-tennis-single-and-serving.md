@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: B
 type: new
 id: 439
 handle: womens-tennis-single-and-serving-cropped-hoodie
+shopify: gid://shopify/Product/15363699278128
 kd: 24
 ---
 ## Women's Tennis – Single and Serving Cropped Hoodie
@@ -23,3 +24,4 @@ kd: 24
 ---
 ## Log
 - 2026-10-17 13:24 UTC director: brief written, READY (keyword measured this run, low-KD sweep; new art, ART-NEXT draft while fal is empty).
+- 2026-10-17 13:39 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363699278128 (Black + Storm x S-2XL, 7502 cropped, $44.99; keyword tennis hoodie 1,600/KD24; FAQs 5 x 40-60 words, order-by Dec 8). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
