@@ -1,4 +1,5 @@
-status: BUILDING [B] 2026-10-17 07:54
+status: REVIEW
+cover: temp
 lane: B
 type: twin
 id: 377
@@ -21,3 +22,4 @@ kd: 48
 ---
 ## Log
 - 2026-10-17 07:20 UTC director: brief written, READY (twin, buildable without fal; keyword measured this run).
+- 2026-10-17 08:05 UTC builder [B]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363304161584 (Gildan 18000 #145, Sand + Navy x S-3XL = 12, $34.99 no compare-at, category aa-1-13-14, tag nurse-sweatshirts), print file 1087174736 (tee file reused, 3600x5207), FW=1650 TOP=0 (print 2386 px tall in the 1800x2400 area: tall art, director check the hem length on the mockup), sync 12/12. R6.2 check: CHARTING IS MY CARDIO is hand-drawn chunky striped lettering with a worn texture, no typeset line, ring, panel or arch; no pure-white counters. Colors Sand + Navy (cream/peach fills read on both). Keyword nursing sweatshirt 5,400/KD48 in map. Mockups Sand + Navy fronts + back, variant images attached, audit PASS (local). Temp cover: Printful Women's Lifestyle 3 style 1198, Sand, woman standing against a dark wall, print readable; self-grade SWAP (moody dark set, red chain at the bottom corner, serious look). Sheet docs/review/377.jpg. REVIEW.
