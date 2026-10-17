@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: C
 type: twin
 id: 368
@@ -33,3 +33,4 @@ kd: 32
 - 2026-10-17 22:26 UTC director: REDO.
   1. R6.9 (second person): the woman is wearing a short-sleeve tee. On a hoodie cover both people wear the product's heavyweight hoodie with the hood visible. Make one more cover attempt with the Storm Blue mockup as --design; both in IND4000 hoodies, drawcords tucked or hanging outside the print. Keep the barn-door scene and the registry pair.
   2. Copy (R8.3): change "Original art, made for Graphic Tees Co." to "Made for Graphic Tees Co." (we don't claim drawn or original art).
+- 2026-10-17 22:27 UTC director: REDO withdrawn: builder [C] had already fixed the cover per 9b (new sheet checked: hood visible, both people in the hoodie). The copy notes are being fixed by the director; approving.

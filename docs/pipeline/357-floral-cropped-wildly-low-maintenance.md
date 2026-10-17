@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: C
 type: new
 id: 357
@@ -33,3 +33,4 @@ kd: 34
   1. R6.8 (hoodie cover): the model is wearing a cropped crewneck. There's no hood behind her neck, so the photo doesn't show the product. Make the one extra cover attempt (R6.9) using the Black Printful mockup as --design, with 'cropped hoodie, hood visible behind the neck, raw hem at the waist' in the prompt. Keep her (registry row) and the flower-field scene. Check her hair stays off WILDLY.
   2. Copy (R8.3): the meta says "1970s bubble letters", but the lettering is Alfa Slab One. Describe what is really there.
   3. Copy (R8.3): change "Original art, made for Graphic Tees Co." to "Made for Graphic Tees Co." (we don't claim drawn or original art).
+- 2026-10-17 22:27 UTC director: REDO withdrawn: builder [C] had already fixed the cover per 9b (new sheet checked: hood visible). The copy notes are being fixed by the director; approving.
