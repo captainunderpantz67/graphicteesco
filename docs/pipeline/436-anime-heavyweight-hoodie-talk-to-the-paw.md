@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: B
 type: new
 id: 436
 handle: unisex-anime-talk-to-the-paw-heavyweight-hoodie
+shopify: gid://shopify/Product/15363697901872
 kd: 20
 ---
 ## Unisex Anime – Talk to the Paw Heavyweight Hoodie
@@ -23,3 +24,4 @@ kd: 20
 ---
 ## Log
 - 2026-10-17 13:24 UTC director: brief written, READY (keyword measured this run, low-KD sweep; new art, ART-NEXT draft while fal is empty).
+- 2026-10-17 13:37 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363697901872 (Sandstone + Storm Blue x XS-3XL, IND4000 heavyweight, $49.99; keyword maneki neko hoodie 201,000/KD20; FAQs 5 x 40-60 words, order-by Dec 8). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.

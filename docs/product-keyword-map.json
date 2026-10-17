@@ -6208,6 +6208,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-anime-talk-to-the-paw-heavyweight-hoodie": {
+   "claimed": [
+    "maneki neko"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "maneki neko",
+     "volume": 201000,
+     "kd": 20
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
