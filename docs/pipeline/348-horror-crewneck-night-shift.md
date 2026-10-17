@@ -1,11 +1,13 @@
-status: READY
+status: REVIEW
 lane: A
 type: twin
 id: 348
-handle: unisex-horror-night-shift-crewneck-sweatshirt
+handle: unisex-horror-midnight-showing-crewneck-sweatshirt
+shopify: gid://shopify/Product/15363134587184
+cover: temp
 kd: 44
 ---
-## Unisex Horror – Night Shift Crewneck Sweatshirt
+## Unisex Horror – Midnight Showing Crewneck Sweatshirt
 - **Twin of:** #227 Night Shift oversized hoodie (docs/reference/best/227): reuse its final approved print file, no new art (R6.2, R11.5). R6.2 check first: read every line of the source art; any typeset line, ring, panel or white counter gets fixed in print-prep before upload (R4.1, R5.3.8), never linked as is.
 - **Blank:** Gildan 18000 crewneck (Printful #145), 8 oz 50/50 fleece. Copy facts from the Printful spec only (R7.1).
 - **Colors:** Navy + Black (the VHS art needs a dark ground, as on #227); if Black is out of stock, Navy + Dark Heather, log why.
@@ -21,3 +23,4 @@ kd: 44
 ---
 ## Log
 - 2026-10-17 05:24 UTC director: brief written, READY (twin; keyword measured this run; KD ≤ 20 band exhausted for this garment/niche).
+- 2026-10-17 06:15 UTC builder [A]: built (temp-cover mode, no fal). BRIEF MISMATCH: #227's live art is no longer the Night Shift VHS gag, it was redrawn as MIDNIGHT SHOWING (jack-o'-lantern, full moon, haunted house, dripping red hand-lettering; Printful file 1087876776 3600x3830), so this twin is built as 'Unisex Horror – Midnight Showing Crewneck Sweatshirt', handle/title/copy changed to match the real art (director: confirm). DRAFT gid://shopify/Product/15363134587184 (Gildan 18000, Navy + Black x S-3XL = 12, $34.99 no compare-at, category aa-1-13-14), Printful file 1088068459, sync 482400311 12/12, FW=1500 TOP=75. R6.2 check: hand-drawn drip lettering, no typeset line, ring, panel or arch. Keyword horror sweatshirt 2,900/KD44 in map. Fronts Navy + Black + back (cream neck logo), variant images, audit PASS (except not active). Temp cover: Printful Couple's style 1201, Black, man AND woman, print fully visible. Self-grade keep. Sheet docs/review/348.jpg. REVIEW.
