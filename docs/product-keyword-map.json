@@ -5345,6 +5345,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-baseball-here-for-the-sunflower-seeds-hoodie": {
+   "claimed": [
+    "baseball hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "baseball hoodie",
+     "volume": 2400,
+     "kd": 38
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
