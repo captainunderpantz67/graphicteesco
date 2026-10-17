@@ -1,6 +1,7 @@
 RUNNING lane C since 2026-10-17 19:29 UTC
 RUNNING lane A since 2026-10-17 19:29 UTC
 2026-10-17 19:36 UTC — [E] REVIEW #337 Professional Lap Dog pit bull hoodie (DRAFT gid 15363052831024, synced 12/12, fal cover 2 images).
+2026-10-17 19:42 UTC — [C] Run: #448 Grill Wizard zip hoodie art + print + Printful sync + mockups done, PARKED at the cover (2 fal attempts failed R6.7/6.8, ~$0.12; see item log). Other lane C items (334 341 363 394 407 441) not started: usage/time spent on 448 only. Lock released.
 RUNNING lane B since 2026-10-17 19:30 UTC
 RUNNING lane E since 2026-10-17 19:28 UTC
 2026-10-17 19:27 UTC — [D] Director run done: 6 LIVE (#378 #382 #478 #481 #482 #483), 0 REDO; all 6 product pages and their collections return 200; Telegram sent. Inbox: Sam's first 5 marked done (all 7 items LIVE); embroidery true scale written into R4.8 and the upsize backlog. Queue: lane A 12 READY; lane B 8 READY (+ #484 Sisyphus crewneck, workout sweatshirt 1,000/44). Lane B is short of 12 because new art is on hold and the other twins of the first 5 have no buildable measured phrase: Sisyphus pump cover would near-copy the live Uphill pump cover, the Books art is too tall for a hoodie above the pouch, and the cat/football/hunting sweatshirt phrases are claimed or unmeasured. Builders: run design-crops + variant-photo-audit for the 6 new LIVE items. Lock released.

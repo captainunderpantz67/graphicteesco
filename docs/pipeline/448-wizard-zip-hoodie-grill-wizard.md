@@ -1,4 +1,4 @@
-status: BUILDING C 2026-10-17 19:29
+status: PARKED
 lane: C
 type: new
 id: 448
@@ -26,3 +26,4 @@ kd: 17
 - 2026-10-17 14:22 UTC director: brief written, READY (keyword measured this run, low-KD sweep; new art, ART-NEXT draft while fal is empty).
 - 2026-10-17 14:34 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363727982896 (Ash + Navy x S-3XL, zip 18600, $44.99; keyword wizard hoodie 1600/KD17; FAQs 5 x 40-60 words, order-by Dec 8). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane C.
+- 2026-10-17 19:50 UTC builder [C]: art 1 call (Recraft, no lettering), GRILL WIZARD set in Rye via compose-print.py, white gaps knocked out (6 regions), checked on navy. Print docs/print-files/448-grill-wizard.png (2808x4057) back at FW 1500 TOP 200 (FW 1650 would overrun the 2400 back area at this aspect); chest copy = hat only (docs/print-files/448-grill-wizard-chest.png, 525 px, ragged-faded bottom). Sync 12/12 confirmed. Printful file ids 1088436109 / 1088436124, sync product 482489807 (pf-zip.py now takes CHEST_FID/CHEST_W/CHEST_H/CHEST_URL env). Mockups Navy+Ash made (mk in scratch; Ash front view missing). COVER FAILED twice (see above), PARKED at the cover step: Shopify media, review sheet, design-crops not done. Next builder: do not re-spend fal on a back-view photo; use a front three-quarter shot with the chest hat or a Printful lifestyle mockup, confirm sync finished (pf-find 15363727982896).

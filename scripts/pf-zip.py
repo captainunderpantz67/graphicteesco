@@ -15,7 +15,7 @@ def call(m, p, b=None):
 BW, BT, CW, CT, CX = (int(os.environ.get(k, d)) for k, d in (('BW', 1650), ('BT', 225), ('CW', 525), ('CT', 150), ('CX', 1725)))
 def pos(w, h):
     back = {'area_width': 1800, 'area_height': 2400, 'width': BW, 'height': round(BW * h / w), 'top': BT, 'left': (1800 - BW) // 2}
-    front = {'area_width': 2250, 'area_height': 1500, 'width': CW, 'height': round(CW * h / w), 'top': CT, 'left': CX - CW // 2}
+    front = {'area_width': 2250, 'area_height': 1500, 'width': CW, 'height': round(CW * CH / CWD) if (CH := int(os.environ.get('CHEST_H', 0))) and (CWD := int(os.environ.get('CHEST_W', 1))) else round(CW * h / w), 'top': CT, 'left': CX - CW // 2}
     return front, back
 cmd = sys.argv[1]
 if cmd == 'sync':
@@ -23,7 +23,7 @@ if cmd == 'sync':
     for i, v in enumerate(vs := call('GET', f'/sync/products/{pid}')['sync_variants']):
         if os.environ.get('ONLY') and os.environ['ONLY'] not in v['name']: continue
         for ft in ('default', 'front'):  # the front placement type is 'default' on most blanks, 'front' on some
-            body = {'files': [{'type': ft, 'id': fid, 'position': front}, {'type': 'back', 'id': fid, 'position': back}]}
+            body = {'files': [{'type': ft, 'id': int(os.environ.get('CHEST_FID', fid)), 'position': front}, {'type': 'back', 'id': fid, 'position': back}]}
             if not v['synced']: body['variant_id'] = int(v['sku'].split('-')[-1])
             try: call('PUT', f'/sync/variant/{v["id"]}', body); break
             except Exception as e:
@@ -33,7 +33,7 @@ elif cmd == 'mockup':
     cat, url, w, h, vids, out = sys.argv[2:8]; front, back = pos(int(w), int(h)); res = {}
     ids = [int(x) for x in vids.split(',')]
     for i in range(0, len(ids), 4):
-        t = call('POST', f'/mockup-generator/create-task/{cat}', {'variant_ids': ids[i:i + 4], 'format': 'jpg', 'files': [{'placement': 'front', 'image_url': url, 'position': front}, {'placement': 'back', 'image_url': url, 'position': back}]})
+        t = call('POST', f'/mockup-generator/create-task/{cat}', {'variant_ids': ids[i:i + 4], 'format': 'jpg', 'files': [{'placement': 'front', 'image_url': os.environ.get('CHEST_URL', url), 'position': front}, {'placement': 'back', 'image_url': url, 'position': back}]})
         while True:
             time.sleep(8); r = call('GET', f'/mockup-generator/task?task_key={t["task_key"]}')
             if r['status'] == 'completed': break
