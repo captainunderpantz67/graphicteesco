@@ -1,7 +1,8 @@
-status: READY
+status: ART-NEXT
 lane: B
 type: new
 id: 417
+shopify: gid://shopify/Product/15363627221296
 handle: mens-tiger-apex-napper-oversized-hoodie
 kd: 32
 ---
@@ -23,3 +24,4 @@ kd: 32
 ---
 ## Log
 - 2026-10-17 10:21 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
+- 2026-10-17 11:55 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363627221296 (Dust + Navy x S-3XL, Bella+Canvas 4719 (Printful #892), $54.99; keyword tiger hoodie 2,400/KD32; category hoodies, tags per brief, no compare-at). SEO title/meta within limits, FAQs 4-5 x 46-56 words (order-by Dec 8 or size-exchange/gift timing). Copy written from the brief's art description: re-check every sentence against the real art. No sync, images or cover.

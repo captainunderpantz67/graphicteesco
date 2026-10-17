@@ -1,7 +1,8 @@
-status: READY
+status: ART-NEXT
 lane: B
 type: new
 id: 414
+shopify: gid://shopify/Product/15363626205488
 handle: unisex-goat-kid-at-heart-hoodie
 kd: 23
 ---
@@ -23,3 +24,4 @@ kd: 23
 ---
 ## Log
 - 2026-10-17 10:21 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
+- 2026-10-17 11:55 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363626205488 (Sand + Navy x S-3XL, Gildan 18500, $39.99; keyword goat hoodie 2,400/KD23; category hoodies, tags per brief, no compare-at). SEO title/meta within limits, FAQs 4-5 x 46-56 words (order-by Dec 8 or size-exchange/gift timing). Copy written from the brief's art description: re-check every sentence against the real art. No sync, images or cover.

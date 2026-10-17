@@ -5903,6 +5903,58 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-goat-kid-at-heart-hoodie": {
+   "claimed": [
+    "goat hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "goat hoodie",
+     "volume": 2400,
+     "kd": 23
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-cherry-picking-my-battles-hoodie": {
+   "claimed": [
+    "cherry hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cherry hoodie",
+     "volume": 2400,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-strawberry-berry-introverted-oversized-hoodie": {
+   "claimed": [
+    "strawberry hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "strawberry hoodie",
+     "volume": 1300,
+     "kd": 26
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-tiger-apex-napper-oversized-hoodie": {
+   "claimed": [
+    "tiger hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "tiger hoodie",
+     "volume": 2400,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
