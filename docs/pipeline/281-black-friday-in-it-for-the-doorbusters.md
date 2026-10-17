@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-17 21:11 UTC
+status: REVIEW
 lane: C
 type: new
 id: 281
@@ -26,3 +26,4 @@ kd: 46
 - 2026-10-17 04:41 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363034874160 (BC 6400, 6 colors (White, Natural, Pink, Heather Stone, Athletic Heather, Heather Mauve as the bold-ish color; Kelly/Berry not offered on 6400) x S-3XL = 36 variants, $24.99 no compare-at, category tees; keyword black friday shirt 720/KD46; tee only, no twin). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane C.
 - 2026-10-17 21:15 UTC builder [C]: art 1 Recraft call (3-motif cluster, no lettering); in it for the (Damion, pink) + DOORBUSTERS (Alfa Slab One filled with a red/cream candy-stripe in post, dark keyline) via compose-print.py, motif cluster below; FW 1500 TOP 75; Printful file 1088496565, sync 482392859 running (36 variants); mockups for ALL 6 colors attached to their own variants + back view. COVER 2 fal images (registry #462), DIRECTOR DECIDES / REDO LIKELY: try 1 had a vest, a coffee cup in her hand and her hair over the print; try 2 (kept) is clean except her hair covers the first letters of 'in it for the' and DOORBUSTERS (reads 'ORBUSTERS'). Copy and FAQs rewritten: 5 x 43-50 words with an order-by (Nov 16, Black Friday is Nov 27).
+- 2026-10-17 21:46 UTC builder [C]: REVIEW. Sync 36/36. Sheet docs/review/281.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. Cover: hair covers the first letters (reads ORBUSTERS); redo likely.
