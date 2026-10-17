@@ -1,11 +1,14 @@
 # Cohesion audit — 2026-10-17 18:41 UTC
 
 341 live products checked · **33 errors** · 16 warnings · 49 products with findings
+# Cohesion audit — 2026-10-17 18:42 UTC
+
+341 live products checked · **29 errors** · 16 warnings · 45 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
-- 33 × Price ./. — should be ./- on every variant.
+- 29 × Price ./. — should be ./- on every variant.
 
 ## By product (errors first)
 ### Men's Hunting – Deer Diary Tee `mens-hunting-deer-diary-graphic-tee`
@@ -70,18 +73,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Men's Hunting – Full Draw Zero Deer Camo Hoodie `mens-hunting-full-draw-zero-deer-camo-hoodie`
 - **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
-
-### Women's Hunting – Deer Stand Princess Pink Camo Hoodie `womens-hunting-deer-stand-princess-pink-camo-hoodie`
-- **ERROR** Price 64.99/69.99 (price/compare-at) — should be 64.99/- on every variant. → Set every variant to price 64.99, no compare-at.
-
-### Men's Hunting – Deer Camp No Signal Camo Sweatshirt `mens-hunting-deer-camp-no-signal-camo-sweatshirt`
-- **ERROR** Price 56.99/61.99 (price/compare-at) — should be 56.99/- on every variant. → Set every variant to price 56.99, no compare-at.
-
-### Women's Hunting – Blending In Is Overrated Camo Sweatshirt `womens-hunting-blending-in-is-overrated-camo-sweatshirt`
-- **ERROR** Price 56.99/61.99 (price/compare-at) — should be 56.99/- on every variant. → Set every variant to price 56.99, no compare-at.
-
-### Men's Hunting – Up Before the Ducks Camo Sweatshirt `mens-hunting-up-before-the-ducks-camo-sweatshirt`
-- **ERROR** Price 56.99/61.99 (price/compare-at) — should be 56.99/- on every variant. → Set every variant to price 56.99, no compare-at.
 
 ### Women's Hunting – Ducks in a Row Camo Hoodie `womens-hunting-ducks-in-a-row-camo-hoodie`
 - **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.

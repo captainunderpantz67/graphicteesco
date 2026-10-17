@@ -1,5 +1,6 @@
 {
  "at": "2026-10-17T18:41:30.923Z",
+ "at": "2026-10-17T18:42:57.631Z",
  "products": 341,
  "findings": [
   {
@@ -204,34 +205,6 @@
    "title": "Men's Hunting – Full Draw Zero Deer Camo Hoodie",
    "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
    "fix": "Set every variant to price 49.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-hunting-deer-stand-princess-pink-camo-hoodie",
-   "title": "Women's Hunting – Deer Stand Princess Pink Camo Hoodie",
-   "msg": "Price 64.99/69.99 (price/compare-at) — should be 64.99/- on every variant.",
-   "fix": "Set every variant to price 64.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-hunting-deer-camp-no-signal-camo-sweatshirt",
-   "title": "Men's Hunting – Deer Camp No Signal Camo Sweatshirt",
-   "msg": "Price 56.99/61.99 (price/compare-at) — should be 56.99/- on every variant.",
-   "fix": "Set every variant to price 56.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-hunting-blending-in-is-overrated-camo-sweatshirt",
-   "title": "Women's Hunting – Blending In Is Overrated Camo Sweatshirt",
-   "msg": "Price 56.99/61.99 (price/compare-at) — should be 56.99/- on every variant.",
-   "fix": "Set every variant to price 56.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-hunting-up-before-the-ducks-camo-sweatshirt",
-   "title": "Men's Hunting – Up Before the Ducks Camo Sweatshirt",
-   "msg": "Price 56.99/61.99 (price/compare-at) — should be 56.99/- on every variant.",
-   "fix": "Set every variant to price 56.99, no compare-at."
   },
   {
    "level": "ERROR",
