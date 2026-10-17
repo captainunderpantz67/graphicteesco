@@ -610,8 +610,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 815 | white woman, early 30s, long auburn hair in a messy bun, freckles | CLAIMED 2026-10-17 — #490 Plans Canceled. Mood Improved. Hoodie cover (brief) |
 | 816 | Indian-American woman, early 40s, long wavy dark hair with a few silver strands, small nose stud, tortoiseshell glasses | CLAIMED 2026-10-17 — #491 Ghost One More Chapter Club Crewneck Sweatshirt cover (brief) |
 | 817 | Haitian-American woman, mid 30s, short natural hair with a side part, small gold studs | CLAIMED 2026-10-17 — #492 Embroidered Night Shift Silly Goose Crewneck Sweatshirt cover (brief) |
-| 818 | Filipino man, early 30s, short black undercut, clean-shaven | CLAIMED 2026-10-17 — #493 Calm Face, Loud Brain Crewneck Sweatshirt cover (brief) |
-| 819 | white woman, early 40s, short blonde bob, small pearl studs | CLAIMED 2026-10-17 — #493 Calm Face, Loud Brain Crewneck Sweatshirt cover (brief) |
+| 818 | Filipino man, early 30s, short black undercut, clean-shaven | USED 2026-10-17 - #493 Calm Face Loud Brain crewneck cover (seedream, navy, hospital hallway; pair 818-819) |
+| 819 | white woman, early 40s, short blonde bob, small pearl studs | USED 2026-10-17 - #493 Calm Face Loud Brain crewneck cover (seedream, navy, hospital hallway; pair 818-819) |
 | 820 | Samoan man, mid 30s, short black hair with a fade, full beard, broad build | CLAIMED 2026-10-17 — #494 Twelve Labors. Zero Cardio. Tee cover (brief) |
 | 821 | Mexican-American man, late 20s, short wavy black hair, trimmed mustache, athletic build | USED 2026-10-17 - #495 Rest Day Is a Sacred Quest hoodie cover (seedream, sand, gym bench) |
 | 822 | white man, mid 40s, salt-and-pepper beard, weathered face, short brown hair | CLAIMED 2026-10-17 — #496 Not Lost. Scouting. Camo Hoodie cover (brief) |

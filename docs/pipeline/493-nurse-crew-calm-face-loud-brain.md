@@ -2,6 +2,7 @@ status: BUILDING [C] 2026-10-17 21:29 UTC
 lane: C
 type: new
 id: 493
+shopify: gid://shopify/Product/15364170875184
 handle: unisex-nurse-calm-face-loud-brain-crewneck-sweatshirt
 kd: 52
 ---
@@ -27,3 +28,4 @@ kd: 52
 ---
 ## Log
 - 2026-10-17 20:27 UTC director: brief written, READY (Sam's 16 proof-first concepts, inbox 2026-10-17 19:30).
+- 2026-10-17 21:32 UTC builder [C]: full build (no draft existed): art 1 Recraft call (heart-rate line with a scribbled knot; it came on black, converted to red/cream line art on transparent); CALM FACE. / LOUD BRAIN. in Big Shoulders via compose-print.py, dark keyline so it reads on both colors; Shopify DRAFT gid://shopify/Product/15364170875184 via b-artnext.py (12 variants $34.99, sweatshirts category, nurse-sweatshirts tag, keyword icu nurse sweatshirt 170/KD52 in the map, FAQ 5 x 40-60 words incl. Dec 8); FW 1650 TOP 75; Printful file 1088506478, sync 482608673 running; mockups Sand+Navy attached; fal cover 1 image (registry #818/#819): both words read; the woman's L of LOUD is slightly tucked by his arm. fal $0.10.
