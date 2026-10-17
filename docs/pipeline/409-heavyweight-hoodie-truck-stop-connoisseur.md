@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-17 19:39
+status: REVIEW
 lane: E
 type: new
 id: 409
@@ -26,3 +26,4 @@ kd: 32
 - 2026-10-17 09:22 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
 - 2026-10-17 10:30 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363531964720 (Independent Trading IND4000 #1543, Sandstone + Storm Blue x S-3XL = 12, $49.99 no compare-at, category hoodies, tags heavyweight-hoodies + graphic-hoodies-for-men + hoodie). Keyword trucker hoodie 320/KD32 in map. FAQs 5 x 43-54 words (order-by Dec 8), facts from Printful spec (10 oz, Pakistan). Copy from the brief's art description (Truck Stop Connoisseur semi, diner sign, pie): re-check against the real art. No sync, images or cover.
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane E.
+- 2026-10-17 19:52 UTC builder [E]: REVIEW. Art: Recraft v4 picture only (1 call, blank star sign), words set with compose-print.py (Alfa Slab: TRUCK STOP cream over CONNOISSEUR mustard, dark outline, reads on Sandstone and Storm Blue). Print 2963x3034, FW 1800 TOP 100 on the IND4000 (print area 2100 wide: at FW 1500 the mockup looked small); sits above the pouch. R6.2: no ring/panel/box, real-font lines. Printful file 1088440963, sync product 482422007 12/12. Mockups Storm Blue + Sandstone fronts + back attached per color; phone-size read OK. Copy re-checked: sign is blank star-topped (not glowing), lettering is slab not hand-drawn. FAQ 5 Qs, order-by Dec 8. Cover: registry 600 (man, diner lot, semi behind), seedream 2 attempts (1st: drawcord across the print; 2nd: words clear, the cap he holds touches the truck's rear wheel on the left of the print, director to judge). fal ~$0.16. audit-local PASS. design-crops/variant-photo-audit need the published page.
