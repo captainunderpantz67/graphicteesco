@@ -1,0 +1,5 @@
+{"art": "designs/b/nana-a.png", "art_width": 0.78, "canvas": [3600, 4500], "gap": 20,
+ "lines": [
+  {"text": "Nana", "font": "Yellowtail-Regular.ttf", "size": 900, "fill": "#d9707f", "stroke": 26, "stroke_fill": "#3a2630", "where": "above"},
+  {"text": "PROFESSIONAL SPOILER", "font": "AlfaSlabOne-Regular.ttf", "size": 330, "fill": "#e9a93c", "stroke": 18, "stroke_fill": "#3a2630", "tracking": 0.02, "where": "below"}
+ ]}
