@@ -1,11 +1,11 @@
-"""Shared fal daily spend cap (Sam 2026-10-17: $12/day across all lanes).
+"""Shared fal daily spend cap (Sam 2026-10-17: $16/day across all lanes, raised from $12).
 charge(cost, label) runs before every paid fal call: it reads today's rows from the local docs/fal-spend.csv
 and from origin/main (other lanes), refuses (exit 3) if the call would pass the cap, else appends a row.
 Override the cap only with FAL_DAILY_CAP set by a human."""
 import csv, datetime, io, os, pathlib, subprocess, sys, uuid
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 LEDGER = ROOT / 'docs' / 'fal-spend.csv'
-CAP = float(os.environ.get('FAL_DAILY_CAP', '12'))
+CAP = float(os.environ.get('FAL_DAILY_CAP', '16'))
 
 
 def _rows(text):

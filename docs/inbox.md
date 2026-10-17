@@ -117,3 +117,5 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 - Director: docs/backlog/catalog-expansion.md is the plan. It lists 16 new niche collections, about 90 new designs, with measured demand from a 876-phrase RankHero sweep. After the batch rewrites and the 16 proof-first briefs, write wave-1 briefs in the order the doc gives. Keep 12 READY per lane across A, B, C and E (4 lanes now).
 - Each niche needs its own lingo research before its briefs (TikTok related topics + TikTok Shop grid + RankHero favorites). No same-art retitles: Google's scaled-content rule is the biggest risk to the whole site.
 - Add a collection to src/data/collections.ts only when 3 products in it are live, with its own copy and FAQs.
+
+## 2026-10-17 20:35 UTC — fal cap is now $16/day (Sam). Enforced in scripts/fal_budget.py.
