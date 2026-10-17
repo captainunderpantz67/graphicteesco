@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [B] 2026-10-18 08:40 UTC
 shopify: gid://shopify/Product/15363411345712
 lane: B
 type: new
