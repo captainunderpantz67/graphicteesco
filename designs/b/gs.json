@@ -1,0 +1,6 @@
+{"art": "designs/b/gs-a.png", "art_width": 0.6, "canvas": [3600, 4500], "gap": 20,
+ "lines": [
+  {"text": "GOLD STAR", "font": "AlfaSlabOne-Regular.ttf", "size": 560, "fill": "#f0bd3a", "stroke": 28, "stroke_fill": "#1b2250", "tracking": 0.03, "where": "above"},
+  {"text": "FOR LEAVING", "font": "AlfaSlabOne-Regular.ttf", "size": 500, "fill": "#f0bd3a", "stroke": 24, "stroke_fill": "#1b2250", "tracking": 0.03, "where": "below"},
+  {"text": "THE HOUSE", "font": "AlfaSlabOne-Regular.ttf", "size": 500, "fill": "#f0bd3a", "stroke": 24, "stroke_fill": "#1b2250", "tracking": 0.03, "where": "below"}
+ ]}
