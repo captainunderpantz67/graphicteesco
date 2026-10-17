@@ -573,3 +573,4 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 680 | white woman, early 30s, sun-streaked light-brown braid, felt western hat, light freckles | RESERVED — #474 Feed Store Fashion Week Hoodie cover |
 | 681 | Mexican-American woman, early 20s, long dark braid, small silver hoops | RESERVED — #475 Horse Girl, Broke on Purpose Crewneck cover |
 | 682 | Black woman, late 20s, shoulder-length box braids, small gold studs | RESERVED — #476 Horse Girl, Broke on Purpose Hoodie cover |
+| 683 | Black woman, early 40s, short natural curls, small gold hoops, warm brown skin | USED 2026-10-17 — #477 Clocked It embroidered crewneck cover (try 1, image 1 of 1) |

@@ -358,6 +358,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-retro-loose-goose-cropped-hoodie': { src: '/covers/womens-retro-loose-goose-cropped-hoodie.webp', alt: 'Woman in a black cropped hoodie with the Loose Goose roller skating goose print' },
   'mens-fishing-catch-and-release-zip-hoodie': { src: '/covers/mens-fishing-catch-and-release-zip-hoodie.webp', alt: 'Man in a light grey Catch and Release zip-up hoodie with a small bass fishing print on the left chest, hood down on one side and a white tee underneath' },
   'womens-y2k-hot-mess-express-hoodie': { src: '/covers/womens-y2k-hot-mess-express-hoodie.webp', alt: 'Woman in a light pink Hot Mess Express hoodie with a hot-pink steam train and iced coffee print on the chest, hair in a top knot, black leggings' },
+  'womens-clocked-it-said-nothing-embroidered-crewneck-sweatshirt': { src: '/covers/womens-clocked-it-said-nothing-embroidered-crewneck-sweatshirt.webp', alt: 'Woman in a maroon Clocked It embroidered crewneck sweatshirt with a white side-eye cat face and script on the chest, short curls and gold hoops, smiling in a holiday kitchen' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
