@@ -21,3 +21,4 @@ kd: 36
 ---
 ## Log
 - 2026-10-17 15:22 UTC director: brief written, READY (keyword measured this run, low-KD sweep; lane A).
+- 2026-10-17 16:26 UTC director: source #457 line rewritten to "Fried Food Is Tradition" (R3.1). Use the new line in this twin's title, handle and copy when it is built; stays READY.

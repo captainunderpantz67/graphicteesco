@@ -1,4 +1,4 @@
-status: ART-NEXT
+status: REDO
 lane: B
 type: new
 id: 416
@@ -6,6 +6,7 @@ shopify: gid://shopify/Product/15363626893616
 handle: womens-strawberry-berry-introverted-oversized-hoodie
 kd: 26
 ---
+- **LINE REWRITE (director 2026-10-17 16:26 UTC, R3.1 cheeky-not-cheesy, Sam 2026-10-17):** the line on the shirt is now "Sweet, Shy, Leaving Early". It replaces the old line everywhere in this brief: Text on shirt, the art prompt's quoted words, Hook, title and handle (keep the audience, niche and garment words; swap only the design name), and on the Shopify DRAFT: title, handle, SEO title/meta, copy line one and any FAQ that quotes the line. Keep the scene, keyword, blank, colors, cover and price unless the new line no longer fits the scene; then adjust the scene minimally and log it. Art still waits for fal and the design gate.
 ## Women's Strawberry – Berry Introverted Oversized Hoodie
 - **Blank:** Oversized heavyweight Bella+Canvas 4719 (Printful #892), handle ends -oversized-hoodie. Front print FW 1500+, clear of the pouch seam (R5.3.2). Copy facts from the Printful spec only (R7.1).
 - **Text on shirt:** BERRY in big hand-drawn rounded vintage letters above, INTROVERTED in hand-drawn letters below, both wide enough to read at phone size. All lettering hand-drawn (R3.7.6), spelled exactly; read every word on the darkest mockup at about 400 px wide before REVIEW; knock out white counters (R5.3.8).
@@ -25,3 +26,4 @@ kd: 26
 ## Log
 - 2026-10-17 10:21 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
 - 2026-10-17 11:55 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363626893616 (Dust + Navy x S-3XL, Bella+Canvas 4719 (Printful #892), $54.99; keyword strawberry hoodie 1,300/KD26; category hoodies, tags per brief, no compare-at). SEO title/meta within limits, FAQs 4-5 x 46-56 words (order-by Dec 8 or size-exchange/gift timing). Copy written from the brief's art description: re-check every sentence against the real art. No sync, images or cover.
+- 2026-10-17 16:26 UTC director: REDO (copy only, no art). 1. R3.1 cheeky-not-cheesy: the old line is a sound-alike pun or greeting-card cute; new line "Sweet, Shy, Leaving Early" (3 candidates weighed, cheekiest picked). 2. Update the brief and the DRAFT per the LINE REWRITE note, then set status back to ART-NEXT.

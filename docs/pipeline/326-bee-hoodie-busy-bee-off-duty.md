@@ -1,4 +1,4 @@
-status: ART-NEXT
+status: REDO
 lane: B
 type: new
 id: 326
@@ -6,6 +6,7 @@ handle: womens-bee-busy-bee-off-duty-hoodie
 shopify: gid://shopify/Product/15363051290928
 kd: 20
 ---
+- **LINE REWRITE (director 2026-10-17 16:26 UTC, R3.1 cheeky-not-cheesy, Sam 2026-10-17):** the line on the shirt is now "Buzz Off, Kindly". It replaces the old line everywhere in this brief: Text on shirt, the art prompt's quoted words, Hook, title and handle (keep the audience, niche and garment words; swap only the design name), and on the Shopify DRAFT: title, handle, SEO title/meta, copy line one and any FAQ that quotes the line. Keep the scene, keyword, blank, colors, cover and price unless the new line no longer fits the scene; then adjust the scene minimally and log it. Art still waits for fal and the design gate.
 ## Women's Bee – Busy Bee (Off Duty) Hoodie
 - **Blank:** Pullover Gildan 18500 (Printful #146), Sand + Navy, or the nearest pair the art reads on (R7.2). Copy facts from the Printful spec only.
 - **Text on shirt:** BUSY BEE above in hand-drawn retro letters, (off duty) in small hand-lettered script below, at least 50% of the art's width. Spelled exactly. All lettering hand-drawn (R3.7.6); FW 1500+ (R5.3.2.1); read every word on the darkest mockup at phone size before REVIEW.
@@ -24,3 +25,4 @@ kd: 20
 ## Log
 - 2026-10-17 03:19 UTC director: brief written, READY (low-KD sweep 2026-10-17 03:10 run; keyword measured this run).
 - 2026-10-17 04:59 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363051290928 (launch colors per brief, S-3XL, price per brief with no compare-at, category hoodies, tags per brief incl. hub tags, SEO, FAQs; keyword bee hoodie 1300/KD20). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images yet.
+- 2026-10-17 16:26 UTC director: REDO (copy only, no art). 1. R3.1 cheeky-not-cheesy: the old line is a sound-alike pun or greeting-card cute; new line "Buzz Off, Kindly" (3 candidates weighed, cheekiest picked). 2. Update the brief and the DRAFT per the LINE REWRITE note, then set status back to ART-NEXT.

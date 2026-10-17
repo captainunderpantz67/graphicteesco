@@ -19,3 +19,4 @@ kd: 62
 ---
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).
+- 2026-10-17 16:26 UTC director: source #283 line rewritten to "Christmas Plans: The Barn" (R3.1). Use the new line in this twin's title, handle and copy when it is built; stays READY.

@@ -1,4 +1,5 @@
-status: ART-NEXT
+status: PARKED
+parked: R5.2 popularity evidence — no proof the format sells (racing humor). Revisit only with a 500+ favorite seller in the same format.
 lane: B
 type: new
 id: 360
@@ -25,3 +26,4 @@ kd: 32
 ## Log
 - 2026-10-17 06:19 UTC director: brief written, READY (2026-10-17 morning sweep: no unclaimed KD ≤ 20 hoodie/sweatshirt phrase with volume left in RankHero; this is the KD 21–40 band, highest volume first; keyword measured this run).
 - 2026-10-17 06:42 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363167912240 (launch colors per brief, S-3XL, price per brief with no compare-at, category, tags per brief incl. hub tags, SEO, FAQs; keyword racing hoodie /5400 /32). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
+- 2026-10-17 16:26 UTC director: PARKED (R5.2/R3.1 re-score after Sam's design-quality note): no proof the format sells (racing humor). The Shopify DRAFT (if any) stays DRAFT; nothing is deleted.

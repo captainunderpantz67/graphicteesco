@@ -1,4 +1,5 @@
-status: READY
+status: PARKED
+parked: R5.2 popularity evidence — source design 'Pitch, Please' is a sound-alike pun (R3.1; research lists it among the weakest); don't twin. Revisit only with a 500+ favorite seller in the same format.
 lane: B
 type: twin
 id: 381
@@ -22,3 +23,4 @@ kd: 47
 ## Log
 - 2026-10-17 07:20 UTC director: brief written, READY (twin, buildable without fal; keyword measured this run).
 - 2026-10-17 08:05 UTC builder [B]: NOT built, stays READY. R6.2 check on the tee print file: PITCH, PLEASE is arched varsity block caps (typeset). The fix is a hand re-letter / redraw, which needs fal (empty). Take it when fal returns (the gate is the lettering, not the blank).
+- 2026-10-17 16:26 UTC director: PARKED (R5.2/R3.1 re-score after Sam's design-quality note): source design 'Pitch, Please' is a sound-alike pun (R3.1; research lists it among the weakest); don't twin. The Shopify DRAFT (if any) stays DRAFT; nothing is deleted.

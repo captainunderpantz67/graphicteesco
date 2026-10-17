@@ -1,4 +1,4 @@
-status: ART-NEXT
+status: REDO
 lane: B
 type: new
 id: 414
@@ -6,6 +6,7 @@ shopify: gid://shopify/Product/15363626205488
 handle: unisex-goat-kid-at-heart-hoodie
 kd: 23
 ---
+- **LINE REWRITE (director 2026-10-17 16:26 UTC, R3.1 cheeky-not-cheesy, Sam 2026-10-17):** the line on the shirt is now "I Climb Things When Stressed". It replaces the old line everywhere in this brief: Text on shirt, the art prompt's quoted words, Hook, title and handle (keep the audience, niche and garment words; swap only the design name), and on the Shopify DRAFT: title, handle, SEO title/meta, copy line one and any FAQ that quotes the line. Keep the scene, keyword, blank, colors, cover and price unless the new line no longer fits the scene; then adjust the scene minimally and log it. Art still waits for fal and the design gate.
 ## Unisex Goat – Kid at Heart Hoodie
 - **Blank:** Pullover Gildan 18500 (Printful #146). Front print FW 1500+, every word and the hooves clear of the pouch seam (R5.3.2). Copy facts from the Printful spec only (R7.1).
 - **Text on shirt:** KID AT HEART in big hand-drawn rounded vintage farm-sign letters arched over the goat. All lettering hand-drawn (R3.7.6), spelled exactly, no typeset sub-line; read every word on the darkest mockup at about 400 px wide before REVIEW; knock out white counters (R5.3.8).
@@ -25,3 +26,4 @@ kd: 23
 ## Log
 - 2026-10-17 10:21 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
 - 2026-10-17 11:55 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363626205488 (Sand + Navy x S-3XL, Gildan 18500, $39.99; keyword goat hoodie 2,400/KD23; category hoodies, tags per brief, no compare-at). SEO title/meta within limits, FAQs 4-5 x 46-56 words (order-by Dec 8 or size-exchange/gift timing). Copy written from the brief's art description: re-check every sentence against the real art. No sync, images or cover.
+- 2026-10-17 16:26 UTC director: REDO (copy only, no art). 1. R3.1 cheeky-not-cheesy: the old line is a sound-alike pun or greeting-card cute; new line "I Climb Things When Stressed" (3 candidates weighed, cheekiest picked). 2. Update the brief and the DRAFT per the LINE REWRITE note, then set status back to ART-NEXT.

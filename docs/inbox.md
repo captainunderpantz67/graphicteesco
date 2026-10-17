@@ -53,20 +53,25 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 
 ## 2026-10-17 15:23 UTC — [D] men's Christmas pages measured (director: next run)
 - "christmas shirt men" 18,100 / KD 10 and "mens christmas sweater" 33,100 / KD 8 (RankHero 2026-10-17, Nov–Dec surge to 135,000 / 246,000). Next director run: count LIVE men's Christmas tees and crewnecks; if 3+ of each, create /christmas-shirts-for-men/ and a men's Christmas sweatshirt page (Shopify smart collection by tag + collections.ts with hand-written copy and FAQs), tag the men's Christmas products into them, and move #453/#454's primaries to their own long-tails (R2.9 note, R8.8).
+- DONE 2026-10-17 16:26 UTC director: built both. /christmas-shirts-for-men/ (christmas shirt men 18,100/KD 10) with 14 tees (4 men's + 10 unisex) and /christmas-sweatshirts-for-men/ (mens christmas sweater 33,100/KD 8; copy says they are crewneck sweatshirts, not knits) with 11 crewnecks. Shopify smart collections by tag, published to Online Store, Headless and Google; collections.ts copy + FAQs hand-written. Two unisex crewnecks (Vintage Santa, Christmas Tree Farm) left out: woman-only covers fail the unisex rule; they can join after a couple cover. All 25 audit --handle PASS; both pages 200 and indexable. #453/#454 released the head terms (R2.9); no long-tail measured for them yet. R7.5 updated. Also measured: ugly christmas sweater men 22,200/KD 10 for a future brief.
 
 ## 2026-10-17 — Sam on design quality (director: act on this)
 - Sam reviewed the women's cropped hoodies: many sayings are "more cheesy than cheeky". New R3.1 sub-rule "Cheeky, not cheesy" with a test. Re-check every READY/ART-NEXT brief's line against it before art is made; rewrite the cheesy ones (3 candidate lines, pick the cheekiest). Then list live designs that fail it for in-place redos (by sales/search value first), after the camo redo.
 - Embroidery: Sam likes the embroidered ones but wants them bigger. R4.8 now says fill ≥90% of the largest Printful chest placement. Redo the live embroidered items in place (bigger thread art), no new art needed for most: rescale and resubmit to Printful.
 - Builders: run scripts/design-crops.py after mockups (rule 7d) so every product page gets a design close-up.
+- DONE 2026-10-17 16:26 UTC director: re-scored every READY/ART-NEXT line. 22 cheesy lines rewritten (3 candidates each, cheekiest picked) and sent back as copy-only REDOs so builders fix brief + DRAFT now; 14 items PARKED under R5.2 (no proof the format sells: snowboard, welder, dinosaur, surf, skate, wrestling, motorcycle, basketball, yoga, hockey, racing; plus twins of the Goal Digger and Pitch Please puns). Live designs that fail the test: docs/backlog/cheesy-live-redo.md (after the camo redo, once fal + the gate are OK'd). Embroidery upsizing of the 14 live embroidered items: docs/backlog/embroidery-upsize.md (builder chore, Printful only, no fal). design-crops is in the builder card. R3.1 got a sharper dated line on puns.
 
 ## 2026-10-17 15:44 UTC — [H] site freshness: Cloudflare deploy may be failing
 - womens-y2k-hot-mess-express-hoodie (#452, LIVE at 14:36 UTC, ACTIVE in Shopify) still returns 404 at 15:44 UTC. Telegram alert sent to Sam. Two other recent LIVE products (mens-fishing-catch-and-release-zip-hoodie, womens-retro-loose-goose-cropped-hoodie) return 200. Director: check the deploy or the product page once the next site deploy runs.
+- DONE 2026-10-17 16:26 UTC director: #452 returns 200 (fixed by the live-rebuild workflow).
 
 ## 2026-10-17 — 404 on new products: fixed (helper: stop alerting on #452)
 - Cause: Cloudflare builds only pushes that touch site files. A product goes LIVE in a docs-only commit, so it 404'd until the next code push (#452: LIVE 14:36, built 15:40).
 - Fix: .github/workflows/live-rebuild.yml pings the Cloudflare deploy hook ~8 min after any push that adds `status: LIVE` (debounced). #452 returns 200. Helper: if a LIVE product still 404s 20 min after going LIVE, run `gh workflow run nightly-rebuild.yml` and log it.
+- NOTED 2026-10-17 16:26 UTC director.
 
 ## 2026-10-17 — HOLD on new art until Sam approves the design gate (everyone)
 - Sam: "we blew through a lot of designs that weren't really winning." Research (834 top Etsy listings, 72 keywords; data in docs/research/etsy-2026-10-17/, report https://claude.ai/artifact/NLYJ3a9ufJXc2MX8xkHTWZ): puns lose; self-aware statements, embroidered animal-with-attitude, fake university/club, bookish/homebody, culture×gym and quiet-faith formats win.
 - Proposed 5-part gate (search, proof ≥500 favs in the same format, joke type, look, gift test) is waiting on Sam's OK.
 - Until Sam approves: when fal is funded, do NOT start ART-NEXT art or new art. Covers swaps for `cover: swap` twins are fine. Drafts and copy work continue.
+- NOTED 2026-10-17 16:26 UTC director: no art started. New briefs #466-#470 are written to pass all five gate checks (each names its proof seller). Queue left under 12 READY on purpose (A 9, B 9) while the gate waits on Sam, rather than adding more unproven lines.

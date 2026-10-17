@@ -1,4 +1,4 @@
-status: ART-NEXT
+status: REDO
 lane: A
 type: new
 id: 444
@@ -6,6 +6,7 @@ handle: mens-eagle-bald-and-majestic-heavyweight-hoodie
 shopify: gid://shopify/Product/15363749904688
 kd: 34
 ---
+- **LINE REWRITE (director 2026-10-17 16:26 UTC, R3.1 cheeky-not-cheesy, Sam 2026-10-17):** the line on the shirt is now "Bald Is Aerodynamic". It replaces the old line everywhere in this brief: Text on shirt, the art prompt's quoted words, Hook, title and handle (keep the audience, niche and garment words; swap only the design name), and on the Shopify DRAFT: title, handle, SEO title/meta, copy line one and any FAQ that quotes the line. Keep the scene, keyword, blank, colors, cover and price unless the new line no longer fits the scene; then adjust the scene minimally and log it. Art still waits for fal and the design gate.
 ## Men's Eagle – Bald and Majestic Heavyweight Hoodie
 - **Blank:** Heavyweight Independent Trading IND4000 (Printful #1543). Front print FW 1500+, clear of the pouch seam (R5.3.2). Copy facts from the Printful spec only (R7.1).
 - **Text on shirt:** BALD AND MAJESTIC in big hand-drawn vintage caps under the eagle, at least 60% of the art's width. All lettering hand-drawn (R3.7.6), spelled exactly, no typeset sub-line; read every word on the darkest mockup at about 400 px wide before REVIEW; knock out white counters (R5.3.8).
@@ -25,3 +26,4 @@ kd: 34
 ## Log
 - 2026-10-17 13:24 UTC director: brief written, READY (keyword measured this run, low-KD sweep; new art, ART-NEXT draft while fal is empty).
 - 2026-10-17 15:02 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363749904688 (heavyweight IND4000 Sandstone+Storm Blue x XS-3XL = 14, $49.99). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
+- 2026-10-17 16:26 UTC director: REDO (copy only, no art). 1. R3.1 cheeky-not-cheesy: the old line is a sound-alike pun or greeting-card cute; new line "Bald Is Aerodynamic" (3 candidates weighed, cheekiest picked). 2. Update the brief and the DRAFT per the LINE REWRITE note, then set status back to ART-NEXT.

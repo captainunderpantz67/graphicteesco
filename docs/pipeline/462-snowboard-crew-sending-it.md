@@ -1,4 +1,5 @@
-status: READY
+status: PARKED
+parked: R5.2 popularity evidence — twin of #324, parked with it. Revisit only with a 500+ favorite seller in the same format.
 lane: B
 type: twin
 id: 462
@@ -21,3 +22,4 @@ kd: 17
 ---
 ## Log
 - 2026-10-17 15:22 UTC director: brief written, READY (keyword measured this run, low-KD sweep; lane B).
+- 2026-10-17 16:26 UTC director: PARKED (R5.2/R3.1 re-score after Sam's design-quality note): twin of #324, parked with it. The Shopify DRAFT (if any) stays DRAFT; nothing is deleted.

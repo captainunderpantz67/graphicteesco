@@ -1,4 +1,5 @@
-status: ART-NEXT
+status: PARKED
+parked: R5.2 popularity evidence — no proof the format sells (snowboard humor, design research 2026-10-17). Revisit only with a 500+ favorite seller in the same format.
 lane: B
 type: new
 id: 324
@@ -25,3 +26,4 @@ kd: 20
 - 2026-10-17 03:19 UTC director: brief written, READY (low-KD sweep 2026-10-17 03:10 run; keyword measured this run).
 - 2026-10-17 04:59 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363050537264 (launch colors per brief, S-3XL, price per brief with no compare-at, category hoodies, tags per brief incl. hub tags, SEO, FAQs; keyword snowboard hoodie 9900/KD20). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images yet.
 - 2026-10-17 15:23 UTC director: supporting phrase for the copy (once): snowboarding hoodie 9,900 / KD 22 (RankHero 2026-10-17). #462 is this design's crewneck twin (snowboard sweatshirt).
+- 2026-10-17 16:26 UTC director: PARKED (R5.2/R3.1 re-score after Sam's design-quality note): no proof the format sells (snowboard humor, design research 2026-10-17). The Shopify DRAFT (if any) stays DRAFT; nothing is deleted.

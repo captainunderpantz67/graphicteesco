@@ -21,3 +21,4 @@ kd: 52
 ---
 ## Log
 - 2026-10-17 08:55 UTC director: brief written, READY (keyword measured this run; twin).
+- 2026-10-17 16:26 UTC director: source #390 line rewritten to "Garden Variety Grump" (R3.1). Use the new line in this twin's title, handle and copy when it is built; stays READY.

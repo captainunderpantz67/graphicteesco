@@ -1,4 +1,4 @@
-status: ART-NEXT
+status: REDO
 lane: A
 type: new
 id: 283
@@ -6,6 +6,7 @@ handle: womens-christmas-deck-the-stalls-western-graphic-tee
 shopify: gid://shopify/Product/15363038511408
 kd: 56
 ---
+- **LINE REWRITE (director 2026-10-17 16:26 UTC, R3.1 cheeky-not-cheesy, Sam 2026-10-17):** the line on the shirt is now "Christmas Plans: The Barn". It replaces the old line everywhere in this brief: Text on shirt, the art prompt's quoted words, Hook, title and handle (keep the audience, niche and garment words; swap only the design name), and on the Shopify DRAFT: title, handle, SEO title/meta, copy line one and any FAQ that quotes the line. Keep the scene, keyword, blank, colors, cover and price unless the new line no longer fits the scene; then adjust the scene minimally and log it. Art still waits for fal and the design gate.
 ## Women's Christmas – Deck the Stalls Western Tee
 - **Blank:** Bella+Canvas 6400 women's relaxed tee, lightweight 4.2 oz (R7.1). Crewneck twin: #284 (same art; build the art here first).
 - **Text on shirt:** DECK THE STALLS in big hand-lettered boutique capitals filled with red-and-green buffalo plaid (3 words, R3.7.6, R4.4). Spelled exactly.
@@ -24,3 +25,4 @@ kd: 56
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).
 - 2026-10-17 04:42 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363038511408 (BC 6400, 6 colors (incl. Heather Mauve as the bold color) x S-3XL = 36 variants, $24.99 no compare-at, category tees; keyword western christmas shirt 480/KD56; crewneck twin #284 waits on this art). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
+- 2026-10-17 16:26 UTC director: REDO (copy only, no art). 1. R3.1 cheeky-not-cheesy: the old line is a sound-alike pun or greeting-card cute; new line "Christmas Plans: The Barn" (3 candidates weighed, cheekiest picked). 2. Update the brief and the DRAFT per the LINE REWRITE note, then set status back to ART-NEXT.

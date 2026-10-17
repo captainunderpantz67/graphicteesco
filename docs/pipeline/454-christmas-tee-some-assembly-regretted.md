@@ -21,4 +21,4 @@ kd: 10
 ---
 ## Log
 - 2026-10-17 15:22 UTC director: brief written, READY (keyword measured this run, low-KD sweep; lane A).
-- 2026-10-17 16:30 UTC director: R2.9 — the new /christmas-shirts-for-men/ page (14 tees) now owns 'christmas shirt men'. Do NOT claim it on this product or record it in the map. 'dad christmas shirt' (110/40) is already claimed twice. Director assigns a measured long-tail at review; until then the title carries the joke.
+- 2026-10-17 16:26 UTC director: R2.9 — the new /christmas-shirts-for-men/ page (14 tees) now owns 'christmas shirt men'. Do NOT claim it on this product or record it in the map. 'dad christmas shirt' (110/40) is already claimed twice. Director assigns a measured long-tail at review; until then the title carries the joke.

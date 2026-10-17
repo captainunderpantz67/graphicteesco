@@ -1,4 +1,4 @@
-status: ART-NEXT
+status: REDO
 lane: B
 type: new
 id: 440
@@ -6,6 +6,7 @@ handle: mens-pig-hogwash-oversized-hoodie
 shopify: gid://shopify/Product/15363699704112
 kd: 26
 ---
+- **LINE REWRITE (director 2026-10-17 16:26 UTC, R3.1 cheeky-not-cheesy, Sam 2026-10-17):** the line on the shirt is now "Wallowing, Respectfully". It replaces the old line everywhere in this brief: Text on shirt, the art prompt's quoted words, Hook, title and handle (keep the audience, niche and garment words; swap only the design name), and on the Shopify DRAFT: title, handle, SEO title/meta, copy line one and any FAQ that quotes the line. Keep the scene, keyword, blank, colors, cover and price unless the new line no longer fits the scene; then adjust the scene minimally and log it. Art still waits for fal and the design gate.
 ## Men's Pig – Hogwash Oversized Hoodie
 - **Blank:** Oversized heavyweight Bella+Canvas 4719 (Printful #892). Front print FW 1500+, clear of the pouch seam (R5.3.2). Copy facts from the Printful spec only (R7.1).
 - **Text on shirt:** HOGWASH in big hand-drawn vintage farm-sign letters above the tub, at least 60% of the art's width. All lettering hand-drawn (R3.7.6), spelled exactly, no typeset sub-line; read every word on the darkest mockup at about 400 px wide before REVIEW; knock out white counters (R5.3.8).
@@ -25,3 +26,4 @@ kd: 26
 ## Log
 - 2026-10-17 13:24 UTC director: brief written, READY (keyword measured this run, low-KD sweep; new art, ART-NEXT draft while fal is empty).
 - 2026-10-17 13:39 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363699704112 (Dust + Navy x S-3XL, 4719 oversized, $54.99; keyword pig hoodie 1,300/KD26; FAQs 5 x 40-60 words, order-by Dec 8). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
+- 2026-10-17 16:26 UTC director: REDO (copy only, no art). 1. R3.1 cheeky-not-cheesy: the old line is a sound-alike pun or greeting-card cute; new line "Wallowing, Respectfully" (3 candidates weighed, cheekiest picked). 2. Update the brief and the DRAFT per the LINE REWRITE note, then set status back to ART-NEXT.

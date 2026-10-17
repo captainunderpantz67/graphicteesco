@@ -1,4 +1,4 @@
-status: ART-NEXT
+status: REDO
 lane: B
 type: new
 id: 442
@@ -6,6 +6,7 @@ handle: mens-chess-knight-shift-zip-hoodie
 shopify: gid://shopify/Product/15363700588848
 kd: 32
 ---
+- **LINE REWRITE (director 2026-10-17 16:26 UTC, R3.1 cheeky-not-cheesy, Sam 2026-10-17):** the line on the shirt is now "Calculated. Mostly.". It replaces the old line everywhere in this brief: Text on shirt, the art prompt's quoted words, Hook, title and handle (keep the audience, niche and garment words; swap only the design name), and on the Shopify DRAFT: title, handle, SEO title/meta, copy line one and any FAQ that quotes the line. Keep the scene, keyword, blank, colors, cover and price unless the new line no longer fits the scene; then adjust the scene minimally and log it. Art still waits for fal and the design gate.
 ## Men's Chess – Knight Shift Zip Hoodie
 - **Blank:** Zip-up Gildan 18600 (Printful #692). Zip layout as #418/#424/#432: full art on the BACK at FW 1650 (never under 1500) plus a 525 px left-chest copy, nothing across the zipper (scripts/pf-zip.py). Copy facts from the Printful spec only (R7.1).
 - **Text on shirt:** KNIGHT SHIFT in big hand-drawn vintage caps under the knight, at least 60% of the art's width (back); the left-chest copy is the knight only. All lettering hand-drawn (R3.7.6), spelled exactly, no typeset sub-line; read every word on the darkest mockup at about 400 px wide before REVIEW; knock out white counters (R5.3.8).
@@ -25,3 +26,4 @@ kd: 32
 ## Log
 - 2026-10-17 13:24 UTC director: brief written, READY (keyword measured this run, low-KD sweep; new art, ART-NEXT draft while fal is empty).
 - 2026-10-17 13:40 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363700588848 (Ash + Navy x S-3XL, Gildan 18600 zip, $44.99; keyword chess hoodie 390/KD32; back print + left chest planned; FAQs 5 x 40-60 words, order-by Dec 8). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
+- 2026-10-17 16:26 UTC director: REDO (copy only, no art). 1. R3.1 cheeky-not-cheesy: the old line is a sound-alike pun or greeting-card cute; new line "Calculated. Mostly." (3 candidates weighed, cheekiest picked). 2. Update the brief and the DRAFT per the LINE REWRITE note, then set status back to ART-NEXT.

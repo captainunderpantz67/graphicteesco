@@ -1,0 +1,6 @@
+# Embroidery upsize (Sam 2026-10-17: "I wish the embroidery was a little bigger") — builder chore, no fal
+
+Rule R4.8: fill at least 90% of the largest chest placement Printful allows for the blank. Fix in place: rescale the existing approved thread file (no new art), re-submit to Printful, re-sync variants (6 s apart, R7.7), new Printful mockups for every color, then the cover only if the chest piece now looks wrong in it (cover swap is fine during the hold). Read every letter on the embroidery mockup; cuff words stay at least 0.25 in tall. Log each in its pipeline file; the director re-checks the new mockups.
+
+Live embroidered items: #192 Cherry Picked, #193 Whisk Taker, #194 Morel Support, #195 Purrsonal Space, #196 Rooted in Jesus, #197 Bow Before Me cropped hoodie, #198 Out of Office deer hoodie (left chest: move to chest center only if a back or cuff piece doesn't carry the look), #199 Extra Marshmallows, #265 On My Own Time snail, #266 Eau de Campfire, #285 Morel Support hoodie, #286 Purrsonal Space hoodie, #430 Whisk Taker hoodie, #431 Cherry Picked cropped hoodie.
+Note: several of these lines are on the cheesy-live-redo list; upsizing first is still right (cheap, visible now), the line redo comes later.
