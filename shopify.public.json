@@ -1,5 +1,0 @@
-{
- "_note": "Shopify Storefront API public access token. It is public by design (shipped in the site's cart JavaScript); it can only read published products and create carts. Used by scripts when .env is absent (cloud routines).",
- "domain": "uqz0cg-vq.myshopify.com",
- "storefrontToken": "63f4315b31ae40bafe3fe38f4fe94771"
-}
