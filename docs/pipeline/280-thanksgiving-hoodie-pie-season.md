@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-18 07:20 UTC
+status: REVIEW
 lane: B
 type: twin
 id: 280
@@ -24,3 +24,4 @@ kd: 54
 - 2026-10-17 07:08 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363191013680 (Gildan 18500, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category hoodies, tag thanksgiving added; keyword pumpkin hoodie 1000/KD54. R6.2 check on #137's file: Pie Season is a smooth typeset script, so it needs a hand re-letter (one lettering-only Recraft generation) when fal returns; check the rust script on Navy then, else Sport Grey). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane B.
 - 2026-10-18 07:45 UTC builder [B]: twin of #137 (Pie Season crewneck, source file 1083454882). R6.2 check: the source's PIE SEASON line is a smooth typeset script (even stroke) so it was ERASED and re-set: the script and its ghost outline removed from the art (alpha cut above the whipped-cream peak), art flattened and re-composed with PIE SEASON in Yellowtail rust with a cream stroke via compose-print (designs/b/pie.json, pie-print.png). No fal art. Plate white kept (outlined, planned ink); reads on Sand and Navy. Own width for the hoodie: FW 1500 TOP 0 (ratio 0.93, 9.3 in tall, clears the pouch). Copy: FAQ 3 -> 5 x 41-55 words, Thanksgiving order-by Nov 12. Printful file 1088481862, sync pid 482407801 running. Mockups per color + back attached. Cover registry #461 try 1 (~$0.04), words read, hood visible. kw pumpkin hoodie 1000/54.
+- 2026-10-17 21:09 UTC builder [B]: synced 12/12. REVIEW. Sheet docs/review/280.jpg.
