@@ -37,14 +37,14 @@ garment = np.median(reg.reshape(-1, 3), axis=0)
 base = cv2.GaussianBlur(c, (0, 0), 25)[Y0:Y1, X0:X1]
 diff = np.abs(reg - np.median(reg.reshape(-1, 3), 0)).max(2)
 old = (((diff > 28) & (hair == 0)) | (over > 0)).astype(np.uint8)
-old[:m, :] = 0; old[-m:, :] = 0; old[:, :m] = 0; old[:, -m:] = 0
+old[:3, :] = 0; old[-3:, :] = 0; old[:, :3] = 0; old[:, -3:] = 0
 old = cv2.dilate(old, np.ones((5, 5), np.uint8))
 clean = cv2.inpaint(reg.astype(np.uint8), old, 6, cv2.INPAINT_TELEA).astype(np.float32)
 clean = np.where(keep[..., None] > 0, reg, clean)
 # shading from the cleaned garment
 sh = cv2.GaussianBlur(clean, (0, 0), 3)
-sh = sh / np.maximum(np.median(sh.reshape(-1, 3), 0), 1)
-sh = np.clip(sh, 0.5, 1.15)
+L = sh.mean(2, keepdims=True)
+sh = np.clip((L + 25) / (np.median(L) + 25), 0.75, 1.1)  # luminance only, floored so near-black garments don't tint the print
 alpha = np.zeros(reg.shape[:2], np.float32); rgb = np.zeros_like(reg)
 ox, oy = x0 - X0, y0 - Y0
 ph, pw = pa.shape[:2]
