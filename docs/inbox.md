@@ -83,3 +83,6 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 - ALLOWED now: (1) swap covers on items graded `cover: swap`; (2) lifestyle covers for twins of existing live designs (the art already exists). One image per call (R12.4), max 2 attempts, fal $ per product in every run summary.
 - STILL ON HOLD (Sam's call): new art of any kind, ART-NEXT art, camo redo art. Sam is picking his first 5 lines from docs/research/inside-jokes-2026-10-17.html; those go first, through the new research gate (docs/research/how-to-research-a-design.md).
 - Budget guard: stop and post to the inbox if fal spend today passes $5 before Sam's picks arrive.
+
+## 2026-10-17 — fal cap raised (Sam): $12/day, not $5
+- Stop and post to the inbox if fal spend today passes $12. Scope unchanged: cover swaps + twin covers; Claude is making Sam's first 5 designs directly.
