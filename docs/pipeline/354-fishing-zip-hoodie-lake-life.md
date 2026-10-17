@@ -1,4 +1,5 @@
-status: BUILDING [B] 2026-10-17T05:45Z
+status: REVIEW
+cover: temp
 lane: B
 type: twin
 id: 354
@@ -21,3 +22,4 @@ kd: 42
 ---
 ## Log
 - 2026-10-17 05:24 UTC director: brief written, READY (twin; keyword measured this run; KD ≤ 20 band exhausted for this garment/niche).
+- 2026-10-17 05:48 UTC [B]: (temp-cover mode, no fal) twin of the batch-1 Lake Life tee / #188 hoodie: Printful file 1085667846 (3600x4034), zip placement as #178/#225 (full art on the BACK, small left-chest copy on the front so the zipper never cuts the art; pf-zip BW 1650 BT 225 CW 525). R6.2 check: LAKE LIFE is hand-distressed slab caps, scene is a bass + cabin + dock, no ring, panel or typeset line; ok. Colors Ash + Sport Grey, NOT Ash + Navy: the black lettering and dark linework sink into Navy (same reason #188 launched Sand + Sport Grey). Shopify DRAFT gid://shopify/Product/15363099623728 (Gildan 18600 #692, 14 variants, $44.99, no compare-at, category aa-1-13-13, tags zip-up-hoodies/zip-up-hoodies-for-men/fishing-hoodies/graphic-hoodies-for-men/hoodie/ai-art/intake-done), sync 482397248 14/14, front + back mockups, variant images, keyword outdoor hoodie 1600/42. NO graphic-hoodies-for-women tag: the audit wants a man AND a woman on the cover for unisex women's pages, and the Printful women's back view (style 8539) puts the hood over the fish; add the tag when the fal cover (registry #545, man and woman) lands. TEMP COVER Printful Men's Back (style 8536, Sport Grey, back print readable, hood sits just under the fish); alt starts Man. Audit PASS except draft state.

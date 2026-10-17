@@ -5215,6 +5215,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-gym-leg-day-survivor-heavyweight-hoodie": {
+   "claimed": [
+    "weightlifting hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "weightlifting hoodie",
+     "volume": 170,
+     "kd": 38
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
