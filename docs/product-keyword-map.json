@@ -5520,6 +5520,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-y2k-still-loading-hoodie": {
+   "claimed": [
+    "90s hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "90s hoodie",
+     "volume": 1300,
+     "kd": 54
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
