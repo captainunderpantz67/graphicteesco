@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 267
@@ -26,3 +26,4 @@ handle: womens-christian-be-still-crewneck-sweatshirt
 - 2026-10-16 22:30 UTC director: brief written, READY (lane B christian-sweatshirts, R11.5 / R9.11 depth).
 - 2026-10-16 23:39 UTC [B]: built as DRAFT (product 15362538570032, 12 variants Sand + Light Blue S-3XL, $34.99/$39.99, Gildan 18000 #145). New art: Recraft v4, 2 generations: try 1 had a hard oval/arch edge around the scene (badge-like), try 2 is frameless with ragged edges and a hand-penned PSALM 46:10 line. Print-prep 3600 x 3114, knock-white over 3000 px, Printful file 1087902587, FW 1650 TOP 0 (11 x 9.5 in), reads on Sand and Light Blue (navy-ink lettering sinks on Navy, so the light + light pair, as the brief allows). Verse quoted as 'Be still, and know that I am God.' Mockups, variant images, back logo, cover registry #443 (try 1, image 2 of 3), keyword scripture sweatshirt 1900/37, audit-local result above. Sync pid 482351686; REVIEW at 12/12. Sheet docs/review/267.jpg.
 - 2026-10-16 23:52 UTC [B]: synced 12/12, REVIEW.
+- 2026-10-17 00:15 UTC director: approved from docs/review/267.jpg. ACTIVE + Online Store + Headless + Google, audit --handle PASS. LIVE.

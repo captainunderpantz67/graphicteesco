@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 213
@@ -23,3 +23,5 @@ handle: womens-christmas-dough-ho-ho-graphic-tee
 - 2026-10-16 19:05 UTC director: brief written, READY (lane A new holiday design; tee + crewneck #214 + hoodie #215).
 - 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361981579568 (36 variants), new Recraft art (try 1; spelling DOUGH HO HO checked, no badge), print file 1087769311 (3600x3654), Printful sync 482278901. Copy/SEO/tags/price, keyword in map, cover (try 1 of 2, from the Printful mockup), fronts + back, variant images, audit PASS, docs/review/213.jpg. Printful link queued (runner): `FORCE=1 FW=1500 python3 scripts/pf-sync.py setfile 482278901 1087769311 1080398177`. REVIEW once synced = 36.
 - 2026-10-16 23:24 UTC builder [A]: Printful sync complete; REVIEW.
+- 2026-10-17 00:15 UTC director: approved from docs/review/213.jpg. ACTIVE + Online Store + Headless + Google, audit --handle PASS. LIVE.
+  Copy fix: Story line one rewritten ("gone in under two seconds" read like a brief note; now names the Christmas baking joke), funny-graphic-tees tag added (R7.5 style tags).

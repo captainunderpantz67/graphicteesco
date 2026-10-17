@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 272
@@ -25,3 +25,4 @@ handle: womens-mama-i-have-followers-duck-crewneck-sweatshirt
 ## Log
 - 2026-10-16 22:30 UTC director: brief written, READY (lane B mama-sweatshirts, R11.5).
 - 2026-10-17 01:05 UTC [B]: built as DRAFT (product 15362586673456, 12 variants Sand + Light Blue S-3XL, $34.99/$39.99, Gildan 18000 #145). New art: Recraft v4 try 1 (spelling checked, five ducklings each with two legs and one beak), bottom edge artifact cropped, print-prep 3600 x 2785, knock-white over 3000 px, Printful file 1087912797, FW 1700 TOP 0. The dark teal lettering sinks on Navy, so the pair is Sand + Light Blue. Mockups, variant images, back logo, cover registry #448 (try 2 with her hair in a bun, braids covered the print on try 1; image 2 of 3), keyword mama duck 3600/14, audit-local PASS. Sync pid 482355659, 12/12. Sheet docs/review/272.jpg.
+- 2026-10-17 00:15 UTC director: approved from docs/review/272.jpg. ACTIVE + Online Store + Headless + Google, audit --handle PASS. LIVE.

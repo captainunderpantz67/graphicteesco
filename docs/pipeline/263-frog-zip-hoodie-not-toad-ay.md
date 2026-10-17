@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: new
 id: 263
@@ -26,3 +26,6 @@ handle: womens-frog-not-toad-ay-zip-hoodie
 - 2026-10-16 22:30 UTC director: brief written, READY (lane B zip-up-hoodies-for-women, R11.5).
 - 2026-10-16 23:20 UTC [B]: built as DRAFT (product 15362485322032, 14 variants Ash S-3XL + Navy S-5XL, $44.99/$49.99, zip-up Gildan 18600 #692). New art: Recraft v4 try 1 (spelling NOT TOAD-AY checked), print-prep 3600 x 3476, knocked only the A counter (the cucumber slices and curlers keep their cream/white as planned), Printful file 1087890359. Placement as on #177/#225: full art on the BACK (1650 px = 11 in wide, 225 px from the top of the 12 x 16 in area) plus a small left-chest copy (525 px = 3.5 in, centered 4 in right of the zip from the viewer = wearer's left) on the front; both use the one file. New scripts/pf-zip.py does the sync and the v1 mockup (the mockup extras give the named Front/Back views; filenames -front- / -back- pick them). Mockups: Ash front, Navy front, Navy back; variant images linked; no neck logo (the back is the full print, as on #225). Cover registry #439 (try 1, image 2 of 3, back view over the shoulder), keyword frog hoodie 1900/33, audit-local result above. Sync pid 482347891; REVIEW at 14/14. Sheet docs/review/263.jpg.
 - 2026-10-16 23:32 UTC [B]: synced 14/14, REVIEW.
+- 2026-10-17 00:15 UTC director: REDO.
+  1. R5.3.4: the cucumber slices sit across the toad's mouth like a row of teeth or a mouth guard; nobody reads 'face mask' in 2 seconds. Regenerate (try 2 of 2, R5.4): cucumber slices over the eyes, green clay mask on the face, curlers kept, one hand up.
+  2. Keep the hand-lettered NOT TOAD-AY (it passes) and the back + small left-chest placement; new art means a new cover (R6.7 print fidelity: the cover must show the exact print); generate it from the new Navy back mockup.

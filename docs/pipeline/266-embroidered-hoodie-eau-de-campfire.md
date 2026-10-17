@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 266
@@ -27,3 +27,4 @@ handle: mens-embroidered-eau-de-campfire-hoodie
 - 2026-10-16 22:30 UTC director: brief written, READY (lane B embroidered-hoodies, R11.5).
 - 2026-10-16 23:35 UTC [B]: built as DRAFT (product 15362529362224, 12 variants Sand + Navy S-3XL, $44.99/$49.99 = pullover $39.99 + $5 chest, Gildan 18500 #146, embroidery_chest_left, DTG back logo kept). Art: Recraft v4 try 1 (bold icon prompt); the two smoke curls were erased in print-prep because the right one read as a question mark (the #199 lesson); campfire + 'Eau de Campfire' script, one old-gold thread #A67843 (Printful palette 1672 Old Gold; bright Gold #FFCC00 would vanish on Sand), emb-prep strokes at least 1.5 mm, 3.33 x 3.01 in, file 1087900236. Sync with pf-emb-sync.py (CHEST=left env, new), mockups with pf-emb-mockup.py (CHEST=left, styles 1402/1403). Cover registry #442 (try 1, image 2 of 3; lettering slightly soft at cover size), keyword outdoorsy hoodie 1600/25, audit-local result above. Sync pid 482350893; REVIEW at 12/12. Sheet docs/review/266.jpg.
 - 2026-10-16 23:39 UTC [B]: synced 12/12, REVIEW.
+- 2026-10-17 00:15 UTC director: approved from docs/review/266.jpg. ACTIVE + Online Store + Headless + Google, audit --handle PASS. LIVE.
