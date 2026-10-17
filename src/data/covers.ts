@@ -401,6 +401,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-pig-wallowing-respectfully-oversized-hoodie': { src: '/covers/mens-pig-wallowing-respectfully-oversized-hoodie.webp', alt: 'Man in a navy Mud Bath Booked Plans Canceled pig oversized hoodie at a farm barnyard fence at sunset with pigs behind him, hands in his pockets' },
   'unisex-outdoors-went-outside-it-was-fine-heavyweight-hoodie': { src: '/covers/unisex-outdoors-went-outside-it-was-fine-heavyweight-hoodie.webp', alt: 'Man and woman in matching storm blue Went Outside It Was Fine heavyweight hoodies at a trailhead parking lot with pines and a mountain behind them' },
   'womens-volleyball-i-only-dive-for-snacks-hoodie': { src: '/covers/womens-volleyball-i-only-dive-for-snacks-hoodie.webp', alt: 'Woman in a navy I Yell Free Ball at Everything volleyball hoodie in a high-school gym with bleachers and a volleyball net behind her, hands in the pouch pocket' },
+  'unisex-crow-shiny-object-syndrome-hoodie': { src: '/covers/unisex-crow-shiny-object-syndrome-hoodie.webp', alt: 'Man and woman in matching navy Shiny Object Syndrome crow hoodie and sweatshirt, smiling in a flea-market aisle with vintage trinkets in autumn light' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
