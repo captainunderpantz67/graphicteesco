@@ -1,5 +1,5 @@
-status: ART-NEXT
-lane: A
+status: READY
+lane: D
 type: new
 id: 388
 handle: womens-christmas-seasonally-overbooked-crewneck-sweatshirt
@@ -25,3 +25,4 @@ kd: 60
 ## Log
 - 2026-10-17 08:55 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
 - 2026-10-17 08:29 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363402891568 (Gildan 18000 crewneck, Sand + Navy x S-3XL = 12, $34.99 no compare-at, category aa-1-13-14, keyword holiday sweatshirt 1900/KD60 in map). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
+- 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane D.

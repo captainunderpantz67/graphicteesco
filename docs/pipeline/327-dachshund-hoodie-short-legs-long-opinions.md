@@ -1,5 +1,5 @@
-status: ART-NEXT
-lane: B
+status: READY
+lane: A
 type: new
 id: 327
 handle: unisex-dachshund-short-legs-long-opinions-hoodie
@@ -24,3 +24,4 @@ kd: 26
 ## Log
 - 2026-10-17 03:19 UTC director: brief written, READY (low-KD sweep 2026-10-17 03:10 run; keyword measured this run).
 - 2026-10-17 04:59 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363051585840 (launch colors per brief, S-3XL, price per brief with no compare-at, category hoodies, tags per brief incl. hub tags, SEO, FAQs; keyword dachshund hoodie 1900/KD26). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images yet.
+- 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane A.

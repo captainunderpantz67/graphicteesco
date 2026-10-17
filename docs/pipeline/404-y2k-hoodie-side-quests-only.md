@@ -1,4 +1,4 @@
-status: ART-NEXT
+status: READY
 lane: B
 type: new
 id: 404
@@ -25,3 +25,4 @@ kd: 28
 ## Log
 - 2026-10-17 09:22 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
 - 2026-10-17 09:55 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363529277744 (Gildan 18500, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category hoodies, tags y2k-hoodies + graphic-hoodies-for-men/-women + hoodie). Keyword video game hoodie 2,900/KD28. SEO title 46, meta 156, FAQs 5 x 43-50 words (order-by Dec 8). Copy written from the brief's art description (translucent teal handheld, adventurer, mushroom, pond, grape/lime/cream): re-check against the real art. FW 1500+ clear of pouch seam; check purple on Navy. No sync, images or cover.
+- 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane B.

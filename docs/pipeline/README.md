@@ -15,7 +15,7 @@ One file per product, docs/pipeline/<id>-<slug>.md. Each role only touches items
 ## Item file format
 ```
 status: READY
-lane: A            # A holiday · B evergreen + crop · C hoodies · D (reserved)
+lane: A            # A holiday · B evergreen + crop · C hoodies · D overflow (2026-10-17: C and D take ART-NEXT batch items)
 type: new          # new | twin (crewneck/hoodie of an existing design) | redo (men's redo, same product)
 id: 134
 handle: unisex-thanksgiving-stuffed-since-1621-graphic-tee

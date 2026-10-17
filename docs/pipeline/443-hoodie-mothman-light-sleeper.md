@@ -1,5 +1,5 @@
-status: ART-NEXT
-lane: B
+status: READY
+lane: D
 type: new
 id: 443
 handle: unisex-mothman-light-sleeper-hoodie
@@ -25,3 +25,4 @@ kd: 31
 ## Log
 - 2026-10-17 13:24 UTC director: brief written, READY (keyword measured this run, low-KD sweep; new art, ART-NEXT draft while fal is empty).
 - 2026-10-17 13:40 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363700719920 (Sand + Navy x S-3XL, Gildan 18500, $39.99; keyword mothman hoodie 390/KD31; FAQs 5 x 40-60 words, order-by Dec 8). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
+- 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane D.
