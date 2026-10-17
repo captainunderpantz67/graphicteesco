@@ -717,6 +717,26 @@ export const tees: Collection[] = [
     ],
     shopifyHandle: 'mama-sweatshirts',
   },
+  {
+    // RankHero 2026-10-17: camo sweatshirt 12,100 / KD 26 (camouflage sweatshirt 12,100/26, camo crewneck 2,400/16 go to products). Sam's camo push (24 camo pieces).
+    // Printful has no camo-dyed crewneck, so these are the all-over-print sweatshirt (#1418) with an original camo pattern printed edge to edge.
+    slug: 'camo-sweatshirts', section: 'tees', name: 'Camo Sweatshirts',
+    keyword: 'camo sweatshirt', volume: 12100, kd: 26,
+    title: 'Camo Sweatshirts — Original Hunting Crewnecks',
+    description: 'Camo sweatshirts with our own camo pattern printed edge to edge and a dry hunting joke on the chest. Soft cotton crewnecks, printed to order.',
+    h1: 'Camo Sweatshirts',
+    intro: 'Camo sweatshirts with a camo pattern we drew ourselves, printed edge to edge, and a hunting joke on the chest for deer camp, the duck blind and the drive home.',
+    sections: [
+      { h2: 'Our own camo, not a brand pattern', body: 'Each pattern is original art made for this shop, in woodland greens and browns or soft pinks, so it looks like camo without copying any hunting brand.' },
+      { h2: 'What the sweatshirt is like', body: 'A relaxed crewneck in soft 9.7 oz cotton with a little stretch (90% cotton, 10% elastane). The pattern is printed into the fabric before the sweatshirt is sewn, so it covers the front, back and sleeves.' },
+    ],
+    faqs: [
+      { q: 'Is this real hunting camo?', a: 'It is a printed camo pattern made for everyday wear: the cabin, the truck, the tailgate. For the stand itself, wear your usual hunting layers.' },
+      { q: 'Are these original designs?', a: 'Yes. The camo patterns and the chest art are original to this shop. No hunting-brand patterns or logos.' },
+      { q: 'How long do camo sweatshirts take to ship?', a: (f) => `Printing takes ${f.productionDays}, then your order ships. Delivery estimates are shown at checkout.`, needs: 'productionDays' },
+    ],
+    shopifyHandle: 'camo-sweatshirts',
+  },
 ];
 
 export const hoodies: Collection[] = [

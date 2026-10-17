@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 265
@@ -28,3 +28,4 @@ handle: womens-embroidered-on-my-own-time-snail-hoodie
 - 2026-10-16 22:30 UTC director: brief written, READY (lane B embroidered-hoodies, R11.5).
 - 2026-10-16 23:31 UTC [B]: built as DRAFT (product 15362520613168, 12 variants Sand + Light Pink S-3XL, $47.99/$52.99 = pullover $39.99 + $5 chest + $3 cuff, Gildan 18500 #146, embroidery_chest_center + embroidery_wrist_left, DTG back logo kept). Art: Recraft v4, chest snail + script (try 1; bold icon prompt) and the cuff word 'eventually' (3 calls: the first bold script closed its counters when thickened, so the third, lighter open-loop script was used; spelling checked e-v-e-n-t-u-a-l-l-y), one flat navy thread #333366 via scripts/emb-prep.py (strokes 1.2-1.5 mm; chest 3.5 x 2.7 in, file 1087898583; cuff 1.93 x 0.66 in, file 1087898592; the cuff stroke floor was lowered to 14 px = 1.2 mm so the script stays readable: check on the first sample). Sync with scripts/pf-emb-sync.py (chest + cuff + back logo), mockups with pf-emb-mockup.py (v2, catalog 146 styles 1402/1403, both placements + back logo). Cover registry #441 (try 1, image 1 of 3; the cuff word is small on the cover), keyword embroidered snail 390/31, audit-local result above. Sync pid 482350075; REVIEW at 12/12. Sheet docs/review/265.jpg.
 - 2026-10-16 23:35 UTC [B]: synced 12/12, REVIEW.
+- 2026-10-17 00:15 UTC director: approved from docs/review/265.jpg. ACTIVE + Online Store + Headless + Google, audit --handle PASS. LIVE.

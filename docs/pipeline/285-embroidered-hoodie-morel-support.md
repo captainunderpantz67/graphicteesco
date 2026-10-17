@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 285
@@ -19,3 +19,4 @@ handle: womens-embroidered-morel-support-mushroom-hoodie
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane B cold-weather, director run 11).
 - 2026-10-17 02:05 UTC [B]: built as DRAFT (product 15362607055152, 12 variants Sand + Ash S-3XL, $44.99/$49.99 = pullover $39.99 + $5 chest, Gildan 18500 #146, embroidery_chest_center, DTG back logo kept). Twin of #194: reused the chest embroidery file 1087862305 (black thread #000000, 3.33 x 3.42 in), no new art. Mockups via pf-emb-mockup.py (styles 1402/1403). Cover registry #466 (try 2: try 1 spelled it 'moral support' on the chest, try 2 reads morel, image 3 of 3; stitch lettering slightly soft), keyword mushroom hoodie 880/39, audit-local result above. Sync pid 482357450, 12/12. Sheet docs/review/285.jpg.
+- 2026-10-17 00:16 UTC director: approved from docs/review/285.jpg. ACTIVE + Online Store + Headless + Google, audit --handle PASS. LIVE.

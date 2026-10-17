@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 270
@@ -20,3 +20,4 @@ handle: womens-christian-casserole-ministry-crewneck-sweatshirt
 ## Log
 - 2026-10-16 22:30 UTC director: brief written, READY (lane B christian-sweatshirts, R11.5 / R9.11 depth).
 - 2026-10-17 00:40 UTC [B]: built as DRAFT (product 15362570387760, 12 variants Sand + Light Pink S-3XL, $34.99/$39.99, Gildan 18000 #145). Twin of #127: reused Printful file 1087506568 (no new art; counters already out, checked on Sand and Light Pink), FW 1400 TOP 0. Mockups, variant images, back logo, cover registry #446 (try 1, image 1 of 3), keyword christian crewneck 480/63, audit-local PASS. Sync pid 482354192, 12/12. Sheet docs/review/270.jpg.
+- 2026-10-17 00:15 UTC director: approved from docs/review/270.jpg. ACTIVE + Online Store + Headless + Google, audit --handle PASS. LIVE.

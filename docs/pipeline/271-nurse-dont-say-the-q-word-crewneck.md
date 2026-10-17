@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 271
@@ -20,3 +20,4 @@ handle: womens-nurse-dont-say-the-q-word-crewneck-sweatshirt
 ## Log
 - 2026-10-16 22:30 UTC director: brief written, READY (lane B nurse-sweatshirts, R11.5).
 - 2026-10-17 00:55 UTC [B]: built as DRAFT (product 15362577957168, 12 variants Sand + Light Pink S-3XL, $34.99/$39.99, Gildan 18000 #145). Twin of #132: reused Printful file 1087506488 (no new art; counters checked on Sand and Light Pink), FW 1400 TOP 0. Mockups, variant images, back logo, cover registry #447 (try 1, image 3 of 3; tries 1 and 2 had garbled sign text), keyword er nurse sweatshirt 320/52, audit-local PASS. Sync pid 482354912, 12/12. Sheet docs/review/271.jpg.
+- 2026-10-17 00:15 UTC director: approved from docs/review/271.jpg. ACTIVE + Online Store + Headless + Google, audit --handle PASS. LIVE.

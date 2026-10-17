@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 261
@@ -26,3 +26,4 @@ handle: mens-gym-conflict-resolution-oversized-sweatshirt
   1. R3.7.6 / R6.2: CONFLICT / RESOLUTION is a clean geometric sans with even spacing (typeset). Re-letter both words by hand (one Recraft lettering-only generation, composed in print-prep like #234), check on Dust and Navy, re-upload, resync, new mockups. The live tee stays as it is (R3.9).
   2. R6.8: one new cover after the art change; the garment must be the 4711's dropped shoulder (this cover shows raglan seams).
 - 2026-10-17 01:55 UTC [B]: REDO fix (round 1): CONFLICT / RESOLUTION re-lettered by hand (one Recraft v4 lettering-only generation, spelling checked, hand-cut distressed red-orange capitals), composed in print-prep over the bag art (old typeset words erased, enclosed counters knocked out), 3600 x 5855, new Printful file 1087915567 (FW 1400 TOP 0), resynced 12/12, front mockups replaced in place (Dust + Navy; checked on both), cover regenerated on the 4711 mockup (dropped shoulder, no raglan seams; one attempt, registry #437 image 2 of 3). Sheet docs/review/261.jpg. Set REVIEW.
+- 2026-10-17 00:16 UTC director: approved from docs/review/261.jpg. ACTIVE + Online Store + Headless + Google, audit --handle PASS. LIVE.

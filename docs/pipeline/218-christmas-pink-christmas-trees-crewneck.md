@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: A
 type: twin
 id: 218
@@ -20,3 +20,7 @@ handle: womens-christmas-pink-christmas-trees-crewneck-sweatshirt
 - 2026-10-16 19:05 UTC director: brief written, READY (R7.3 holiday pair: this tee had no crewneck twin).
 - 2026-10-16 21:40 UTC builder [A]: DRAFT gid://shopify/Product/15362233860400 (Gildan 18000; White, Sand, Light Pink, Sport Grey, Ash x S-3XL = 30; $34.99/$39.99), tee file 1083081402 (no new art), Printful sync 482317020 queued (runner; FORCE=1 FW=1500 setfile 482317020 1083081402 1080398177). Primary pink christmas sweatshirt 3,600/KD48 in map. Cover #291 (try 2; try 1 showed a lighter panel behind the small line), 5 fronts + back, variant images, audit PASS, docs/review/218.jpg. REVIEW once synced = 30.
 - 2026-10-16 23:43 UTC builder [A]: Printful sync complete; REVIEW.
+- 2026-10-17 00:15 UTC director: REDO.
+  1. R3.7.6 / R6.2: 'TIS THE SEASON is a clean typeset sans, tiny (well under 60% of the art width) and unreadable on the cover. Erase it in print-prep (the three trees read on their own) or re-letter it by hand much larger. Log which.
+  2. R5.3.8: check the cream streaks in the trees on Light Pink and Ash at 200%; any pure white that isn't planned cream gets knocked out.
+  Then new mockups, cover check (read every word against the art) and a new sheet.

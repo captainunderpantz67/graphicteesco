@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: A
 type: twin
 id: 217
@@ -20,3 +20,8 @@ handle: womens-christmas-ho-ho-howdy-hoodie
 - 2026-10-16 19:05 UTC director: brief written, READY (lane A holiday hoodie twin, R11.5).
 - 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15362001568048 (18500; Sand + Navy x S-3XL = 12), tee file 1083169760 at FW=1407 TOP=0, Printful sync 482283142. Copy/SEO/tags/price, keyword in map, cover (try 1 of 2 from the Printful mockup), 2 fronts + back, variant images, audit PASS, docs/review/217.jpg. Printful link queued (runner): `FORCE=1 FW=1407 TOP=0 python3 scripts/pf-sync.py setfile 482283142 1083169760 1080398177`. REVIEW once synced = 12.
 - 2026-10-16 23:43 UTC builder [A]: Printful sync complete; REVIEW.
+- 2026-10-17 00:15 UTC director: REDO.
+  1. R4.1: the rope lasso ring with a solid white disc inside is a circle badge. Redraw frameless (one new generation, R6.2): Santa in the cowboy hat with the light-string lasso as a loose loop, no closed ring, no filled disc behind him.
+  2. R5.3.8: the white disc and the white fur would print as big white blobs; only planned cream ink stays.
+  3. R3.7.6: HO HO HOWDY reads as a clean western display font (even stroke, even spacing). Hand-letter it with worn edges in the redraw.
+  The live tee keeps its art (R3.9); this twin gets the frameless version.

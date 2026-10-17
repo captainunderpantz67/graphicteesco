@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
 id: 215
@@ -20,3 +20,4 @@ handle: womens-christmas-dough-ho-ho-hoodie
 - 2026-10-16 19:05 UTC director: brief written, READY (hoodie twin of #213).
 - 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361983054128 (12 variants), new Recraft art (try 1; spelling DOUGH HO HO checked, no badge), print file 1087769311 (3600x3654), Printful sync 482279041. Copy/SEO/tags/price, keyword in map, cover (try 1 of 2, from the Printful mockup), fronts + back, variant images, audit PASS, docs/review/215.jpg. Printful link queued (runner): `FORCE=1 FW=1500 TOP=0 python3 scripts/pf-sync.py setfile 482279041 1087769311 1080398177`. REVIEW once synced = 12.
 - 2026-10-16 23:24 UTC builder [A]: Printful sync complete; REVIEW.
+- 2026-10-17 00:15 UTC director: approved from docs/review/215.jpg. ACTIVE + Online Store + Headless + Google, audit --handle PASS. LIVE.
