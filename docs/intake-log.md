@@ -1,3 +1,4 @@
+2026-10-17 23:01 UTC — [C] REVIEW #487 (REDO: composite cover both people).
 2026-10-17 23:01 UTC — [C] REVIEW #415 (REDO: composite cover, meta fixed).
 2026-10-17 23:00 UTC — [C] REVIEW #281 (REDO: composite cover, copy fixes).
 RUNNING lane A since 2026-10-17 23:00 UTC
