@@ -1,8 +1,9 @@
-status: READY
+status: REVIEW
 lane: B
 type: twin
 id: 382
 handle: womens-baseball-mom-bases-loaded-crewneck-sweatshirt
+shopify: gid://shopify/Product/15364023451952
 kd: 33
 ---
 ## Women's Baseball Mom – Bases Loaded, Mom Exhausted Crewneck Sweatshirt
@@ -22,3 +23,4 @@ kd: 33
 ## Log
 - 2026-10-17 07:20 UTC director: brief written, READY (twin, buildable without fal; keyword measured this run).
 - 2026-10-17 08:05 UTC builder [B]: NOT built, stays READY. R6.2 check on the tee print file: BASES LOADED / MOM EXHAUSTED are varsity block caps, arched on top, plus a straight-edged diamond field. The fix is a hand re-letter / redraw, which needs fal (empty). Take it when fal returns (the gate is the lettering, not the blank).
+- 2026-10-17 18:36 UTC [B]: Twin of #125 tee, print file 1087368506 (3600x3080, from the live tee). R6.2 check: BASES LOADED / MOM EXHAUSTED are arched/straight varsity caps already hand-distressed with worn texture and a cream edge (not clean typeset); the diamond ground has worn, broken edges, no white disc, no ring/box/panel; passes as is, no art change (the 08:05 note expected a redraw; on the render the distress reads hand-made, director please judge). Gildan 18000 #145, FW 1650 TOP 75 (print 11 in x 9.4 in). Colors Sand + Ash, NOT Sand + Navy: the navy letter fill vanishes on Navy (only the cream edge shows, mockup checked), so a dark pair doesn't read; Ash vs Sand are clearly different. 12 variants $34.99 no compare-at, DRAFT gid 15364023451952, crewnecks category. Printful file 1088401317, sync product 482549834 12/12. Mockups per color + back attached. Keyword: primary baseball crewneck 210/KD 33. FAQ 6 Qs 40-60 words, Christmas order-by Dec 8. Cover: registry 573 (white woman, auburn bob, tournament parking lot), seedream 1 attempt, words legible, alt starts Woman. Audit-local PASS. design-crops/variant-photo-audit rerun after publish.

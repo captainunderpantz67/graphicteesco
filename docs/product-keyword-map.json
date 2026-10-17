@@ -6727,6 +6727,45 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-football-mom-promised-to-behave-graphic-tee": {
+   "claimed": [
+    "football mom outfit"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "football mom outfit",
+     "volume": 390,
+     "kd": 31
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-gym-sisyphus-had-bad-programming-graphic-tee": {
+   "claimed": [
+    "workout tee men"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "workout tee men",
+     "volume": 210,
+     "kd": 33
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-baseball-mom-bases-loaded-crewneck-sweatshirt": {
+   "claimed": [
+    "baseball crewneck"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "baseball crewneck",
+     "volume": 210,
+     "kd": 33
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

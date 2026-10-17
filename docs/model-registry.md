@@ -463,7 +463,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 570 | White woman, late 30s, high blonde ponytail, sunglasses pushed up on her head | RESERVED — #379 Professional Goal Digger Crewneck Sweatshirt cover |
 | 571 | Black woman, early 40s, natural curls, stadium blanket over one arm | RESERVED — #380 Down, Set, Snacks Crewneck Sweatshirt cover |
 | 572 | Mexican-American woman, mid 30s, long dark hair in a low ponytail, ball cap | RESERVED — #381 Pitch, Please Crewneck Sweatshirt cover |
-| 573 | White woman, mid 40s, wavy auburn bob, freckles | RESERVED — #382 Bases Loaded, Mom Exhausted Crewneck Sweatshirt cover |
+| 573 | White woman, mid 40s, wavy auburn bob, freckles | USED 2026-10-16 — #382 Bases Loaded crewneck cover (seedream, 1 attempt) |
 | 574 | Korean-American woman, early 30s, butterfly clips in a half-up style, small silver hoops | RESERVED — #383 Still Loading Since 1999 Hoodie cover |
 | 575 | Black woman, mid 20s, long knotless braids, chunky sneakers | RESERVED — #384 Hot Mess Express Oversized Sweatshirt cover |
 | 576 | Native Hawaiian man, early 40s, short black hair, trimmed goatee | RESERVED — #385 Fisher of Men, Mostly Bass Half Zip cover |
@@ -578,3 +578,5 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 684 | Latina woman, early 30s, long wavy dark-brown hair with a side part, small silver studs, dark red lipstick | USED 2026-10-17 — #478 Clocked It tee cover (try 1, image 1 of 1) |
 | 685 | East Asian woman, late 20s, shoulder-length black hair with wispy bangs, round wire-rim glasses, small pearl studs | USED 2026-10-17 — #481 Do Not Sell My Books crewneck cover (try 1, image 1 of 1) |
 | 691 | Hmong-American man, early 30s, short black hair, light stubble, lean build | USED 2026-10-16 — #480 Tag Soup Tee cover (seedream, 1 attempt) |
+| 692 | Ethiopian-American woman, late 30s, short curly natural hair, small gold hoops, warm medium build | USED 2026-10-16 — #482 Promised to Behave Tee cover (seedream, 1 attempt) |
+| 693 | Samoan-American man, early 30s, short curly black hair, trimmed beard, muscular build | USED 2026-10-16 — #483 Sisyphus Tee cover (seedream, 2 attempts: towel covered SISYPHUS on #1) |
