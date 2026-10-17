@@ -24,4 +24,4 @@ kd: 44
 - 2026-10-17 19:16 UTC director: brief written, READY (twin of Sam's approved art; fal allowed for twin covers; keyword measured this run).
 - 2026-10-17 19:58 UTC builder [B]: DRAFT gid 15364067524912 (24 var, Sand/Ash/White/Sport Grey S-3XL, $34.99 no compare-at, aa-1-13-14). Print file 1088434913 (Sam-approved art, R6.2 done at #483), FW 1650/TOP 75. Printful sync pid 482564450 running. Mockups attached per color + back. Cover try 1 (1 fal image ~$0.04, registry #694): all words read, hands in pockets. FAQ 5 x 40-47 words incl. Dec 8. Audit-local PASS. Keyword workout sweatshirt 1000/44 claimed.
 - 2026-10-17 20:40 UTC builder [B]: synced 24/24. REVIEW. Sheet docs/review/484.jpg. Words checked on Sand/Ash mockups at phone size.
-- 2026-10-17 20:45 UTC director: APPROVED, LIVE. ACTIVE + published Online Store, Headless, Google; cohesion-audit --handle PASS.
+- 2026-10-17 20:16 UTC director: APPROVED, LIVE. ACTIVE + published Online Store, Headless, Google; cohesion-audit --handle PASS.

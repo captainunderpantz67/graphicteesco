@@ -28,4 +28,4 @@ kd: 38
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane B.
 - 2026-10-17 23:05 UTC builder [B]: art via Recraft (1 image, no lettering) + I HAVE PLANS in Lobster cream with brown stroke (designs/b/ip.json, ip-print.png), reads on Sand and Navy; small white eye highlights kept. Copy fixed ('soft rounded 1970s letters' -> big cream script letters); FAQ already 6. Printful file 1088451803, FW 1500 TOP 0, sync pid 482498169 running. Mockups per color + back attached. Cover registry #594 try 1 (~$0.04), words read, both prints clear. kw introvert hoodie 1300/38.
 - 2026-10-18 01:15 UTC builder [B]: synced 12/12. REVIEW. Sheet docs/review/403.jpg.
-- 2026-10-17 20:45 UTC director: APPROVED, LIVE. ACTIVE + published Online Store, Headless, Google; cohesion-audit --handle PASS.
+- 2026-10-17 20:16 UTC director: APPROVED, LIVE. ACTIVE + published Online Store, Headless, Google; cohesion-audit --handle PASS.
