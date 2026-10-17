@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 308
@@ -20,3 +20,4 @@ kd: 14
 ## Log
 - 2026-10-17 director: brief written, READY (lane B hoodie twin of a strong live design, R11.5).
 - 2026-10-17 02:24 UTC [B]: built as DRAFT (product 15362857992496, 12 variants Sand + Light Blue S-3XL, $39.99/$44.99, Gildan 18500 #146). Twin of #272: reused the approved art (Printful file 1087912797 re-hosted as 1087977225, no new art; R6.2 lettering check: I HAVE FOLLOWERS is hand-lettered 1970s type, no box or panel), FW 1700 TOP 0 (11.3 x 8.8 in, clear of the pouch seam). Mockups, variant images, back logo, cover registry #491 (try 1, image 2 of 3; five ducklings visible), keyword duck mama 3600/14, audit-local PASS. Sync pid 482378314, 12/12. Sheet docs/review/308.jpg.
+- 2026-10-17 02:28 UTC director: approved from docs/review/308.jpg; ACTIVE + Online Store + Headless + Google; cohesion-audit --handle PASS (0 warn). LIVE.
