@@ -1,4 +1,4 @@
-status: REDO
+status: BUILDING [A] 2026-10-17 23:30 UTC
 lane: A
 type: new
 id: 257
@@ -27,3 +27,4 @@ handle: mens-thanksgiving-wishbone-champion-graphic-tee
   1. R3.7.6: WISHBONE CHAMPION is a typeset clean serif/sans (even spacing, uniform strokes). It carries the joke, so re-letter it by hand in chunky worn vintage capitals matching UNDEFEATED (lettering-only Recraft generation composed in print-prep, the #234 method).
   2. R5.3.2: on the tee mockups the caption is tiny (about a third of the print's height zone). Make it at least 80% of the trophy art's width so it reads at phone size.
   3. The trophy, wishbone and UNDEFEATED pass. Composite the new print onto the existing cover (R6.9), then REVIEW.
+- 2026-10-17 23:30 UTC builder [A] REDO 257 (tee, Bella+Canvas 3001, Printful 482345896, 42 variants, FW 1500, TOP 75): trophy, wishbone and the hand-drawn UNDEFEATED arch untouched; the thin typeset WISHBONE CHAMPION line cut off and re-set as one line of thick Alfa Slab capitals, maroon #6b2428 (matches UNDEFEATED) with a worn speckle, 3400 px wide (94% of the art width, the trophy is about 2700 px), right under the trophy. One shared file 3600x4329 (Printful 1088470770), print about 12 in tall on the tee (FW 1500) and 13 in on the crewneck (FW 1650). Mockups checked on all offered colors, nothing disappears. New cover (reg 433 per brief), 1 attempt, print complete. Copy art paragraph + FAQ rewritten (5 x 40-60 words incl. Nov 12). compareAtPrice null on all variants. fal ~$0.04-0.12. Resync running (FORCE): REVIEW when synced = 42.

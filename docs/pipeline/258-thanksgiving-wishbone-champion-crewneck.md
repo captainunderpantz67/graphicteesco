@@ -1,4 +1,4 @@
-status: REDO
+status: BUILDING [A] 2026-10-17 23:30 UTC
 lane: A
 type: twin
 id: 258
@@ -22,3 +22,4 @@ handle: mens-thanksgiving-wishbone-champion-crewneck-sweatshirt
 - 2026-10-17 03:11 UTC builder [A]: Printful sync complete; REVIEW.
 - 2026-10-17 03:22 UTC director: REDO (waits on #257).
   1. R3.7.6: same typeset WISHBONE CHAMPION line as #257 (clean even-spaced caps). Re-link this crewneck to #257's re-lettered art once #257 is fixed, new mockups, and composite the new print onto this cover (R6.9 composite method; the cover itself is good).
+- 2026-10-17 23:30 UTC builder [A] REDO 258 (crewneck, Printful 482346982, 24 variants, FW 1650, TOP 75): trophy, wishbone and the hand-drawn UNDEFEATED arch untouched; the thin typeset WISHBONE CHAMPION line cut off and re-set as one line of thick Alfa Slab capitals, maroon #6b2428 (matches UNDEFEATED) with a worn speckle, 3400 px wide (94% of the art width, the trophy is about 2700 px), right under the trophy. One shared file 3600x4329 (Printful 1088470770), print about 12 in tall on the tee (FW 1500) and 13 in on the crewneck (FW 1650). Mockups checked on all offered colors, nothing disappears. New cover (reg 434 per brief), 3 attempts: try 1 had white bars top and bottom, try 2 a black frame, so the kept try-2 photo was cropped inside the frame (no AI change to the print). Copy art paragraph + FAQ rewritten (5 x 40-60 words incl. Nov 12). compareAtPrice null on all variants. fal ~$0.04-0.12. Resync running (FORCE): REVIEW when synced = 24.
