@@ -6195,6 +6195,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-anime-petal-pusher-cropped-hoodie": {
+   "claimed": [
+    "cherry blossom hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cherry blossom hoodie",
+     "volume": 1900,
+     "kd": 20
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
