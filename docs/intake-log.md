@@ -1,3 +1,4 @@
+2026-10-17 06:46 UTC — [B] Builder run summary (temp-cover mode, no fal calls): REVIEW: #350 Slurp Responsibly, #351 Sore Since 1987, #352 Retired From Cardio crewnecks (REDO: relinked FW 1650, new mockups + temp covers; #351 Navy art rebuilt as a composite so the figure's linework shows, #352 Barbell Club script thickened). #354 Lake Life zip stays REDO, cover: pending (Printful has no two-person view for #692; proposed Ash + Carolina Blue). ART-NEXT Shopify drafts (no art/sync): #356-#367 (12 items; #357 flower launched Black + Military Green because Peach exists only in XL on Printful 7502). Print files for navy fixes are staged on branch art-staging (art/351navy.png, art/352navy.png). Lock released.
 2026-10-17 06:43 UTC — [H] Helper run: Telegram inbox empty (getUpdates returned nothing, nothing to consume). Audit (298 live): 91 errors, 90 price (builders' job), 1 hoodie in the Thanksgiving Sweatshirts collection (outside the helper's fix list, sent to docs/inbox.md). Warnings left alone. No scripted meta/SEO errors (those are warnings only). Category backfill: 0 products without a category. Site freshness: unisex-christmas-ski-lodge-hoodie, womens-bookish-plot-twist-hoodie, mens-gym-leg-day-survivor-heavyweight-hoodie all 200. Stuck check: none (no BUILDING items; [A] last 06:22, [B] 06:40, [D] 06:21). Announcement bar unchanged (price errors not zero). npm ci run to get esbuild. Daily summary not due (next after 12:00 UTC). Lock released.
 2026-10-17 06:46 UTC — [B] ART-NEXT #361 mens-grandpa-i-fix-things-after-naps-crewneck-sweatshirt (Shopify draft, no art yet)
 2026-10-17 06:45 UTC — [B] ART-NEXT #366 womens-beach-low-tide-low-effort-oversized-hoodie (Shopify draft, no art yet)
@@ -8,7 +9,6 @@
 2026-10-17 06:44 UTC — [B] ART-NEXT #362 womens-baseball-here-for-the-sunflower-seeds-hoodie (Shopify draft, no art yet)
 2026-10-17 06:44 UTC — [B] ART-NEXT #358 womens-volleyball-bump-set-nap-hoodie (Shopify draft, no art yet)
 2026-10-17 06:43 UTC — [B] ART-NEXT #357 womens-floral-wildly-low-maintenance-cropped-hoodie (Shopify draft, no art yet)
-RUNNING lane B since 2026-10-17 06:27 UTC
 2026-10-17 06:43 UTC — [B] ART-NEXT #359 unisex-alien-visiting-not-impressed-oversized-hoodie (Shopify draft, no art yet)
 2026-10-17 06:42 UTC — [B] ART-NEXT #363 unisex-outdoors-went-outside-it-was-fine-heavyweight-hoodie (Shopify draft, no art yet)
 2026-10-17 06:42 UTC — [B] ART-NEXT #360 mens-racing-fast-car-slow-mornings-heavyweight-hoodie (Shopify draft, no art yet)
