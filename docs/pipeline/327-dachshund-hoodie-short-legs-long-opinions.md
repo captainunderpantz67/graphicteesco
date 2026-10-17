@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-17 22:10 UTC
+status: REVIEW
 lane: A
 type: new
 id: 327
@@ -26,3 +26,4 @@ kd: 26
 - 2026-10-17 04:59 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363051585840 (launch colors per brief, S-3XL, price per brief with no compare-at, category hoodies, tags per brief incl. hub tags, SEO, FAQs; keyword dachshund hoodie 1900/KD26). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images yet.
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane A.
 - 2026-10-17 20:52 UTC builder [A]: ART + SYNC + MOCKUPS + COVER done on the existing DRAFT gid 15363051585840. Art: 1 Recraft call (barking dachshund, no lettering), print-prep --solid, white recolored to planned cream ink, cream keyline. SHORT LEGS, above and LONG OPINIONS below in Alfa Slab capitals, cream with a dark-red outline (reads on Sand and Navy), 2900/3300 px wide (dog 2800 px). File 3300x3420 (Printful 1088483823), FW 1500 TOP 0 (about 10.4 in tall). Mockups Sand + Navy checked. Cover: regs 513+514 per brief, Navy mockup as --design, 2 attempts (try 1 put the woman in a crewneck; try 2 both in hoods, leash low). Shopify: media + variant links, copy rewritten to match the real art (chestnut-red dog, cream capitals with a dark-red outline), FAQ 5 x 40-60 words incl. Dec 8, audit-local PASS, no compare-at. fal ~$0.12. Printful sync running (12 variants): REVIEW when synced = 12. Resume: FORCE=1 FW=1500 TOP=0 python3 scripts/pf-sync.py setfile 482393761 1088483823 1080398177
+- 2026-10-17 21:52 UTC builder [A]: Printful resync verified (12/12 variants on the new file); REVIEW.

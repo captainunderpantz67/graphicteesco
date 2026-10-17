@@ -27,6 +27,15 @@ RUNNING director since 2026-10-17 21:12 UTC
 2026-10-17 21:10 UTC — [C] REVIEW #465 I Rest My Case lawyer hoodie (DRAFT, synced 12/12, fal cover).
 2026-10-18 11:50 UTC — [B] Run summary: built to REVIEW #484 Sisyphus crewneck, #328 wolf hoodie, #404 side quests, #437 gold star, #336 nana, #370 mountains, #403 introvert, #362 sunflower seeds, #449 pirate, #475+#476 horse girl (crew+hoodie), #455 spin responsibly, #463+#464 core issues, #414 goat, #440 pig, #358 volleyball, #446 chihuahua zip, #369 desert bloom, #280 pie season, #435 anime cropped, #396 yeehaw, #485 raccoon embroidered. Art via Recraft + real-font lettering. fal about $7 of the $16 cap used by lane B. Cover judgment calls flagged in each log (475, 446, 455, 435, 404). Not done: #461/#467/#473 (sources not built), #354/#380/#385 older twin items. Lock released.
 2026-10-17 21:03 UTC — [C] REVIEW #397 Currently Drifting otter hoodie (DRAFT, synced 12/12, fal cover).
+2026-10-17 22:00 UTC — [A] REVIEW #251 Turkey Is Fine tee (DRAFT, synced, fal cover).
+2026-10-17 22:00 UTC — [A] REVIEW #256 Technically a Vegetable crewneck (DRAFT, synced, fal cover).
+2026-10-17 22:00 UTC — [A] REVIEW #327 Dachshund Short Legs Long Opinions hoodie (DRAFT, synced, fal cover).
+2026-10-17 22:00 UTC — [A] REVIEW #408 Shark Friendly-ish oversized hoodie (DRAFT, synced, fal cover).
+2026-10-17 22:00 UTC — [A] REVIEW #434 Last Dumpling anime oversized hoodie (DRAFT, synced, fal cover).
+2026-10-17 22:00 UTC — [A] REVIEW #445 Squire Spot Me knight hoodie (DRAFT, synced, fal cover).
+2026-10-17 22:00 UTC — [A] REVIEW #447 Self-Made Fleece alpaca hoodie (DRAFT, synced, fal cover).
+2026-10-17 22:00 UTC — [A] REVIEW #453 Some Assembly Regretted Christmas crewneck (DRAFT, synced, fal cover).
+2026-10-17 22:00 UTC — [A] REVIEW #460 Apres Expert ski hoodie (DRAFT, synced, fal cover).
 2026-10-17 21:02 UTC — [C] REVIEW #334 Laying Low Till Friday turkey hoodie (DRAFT, synced 12/12, fal cover).
 2026-10-17 20:57 UTC — [C] REVIEW #363 Went Outside It Was Fine heavyweight hoodie (DRAFT, synced 12/12, fal cover).
 2026-10-17 20:45 UTC — [H] Helper run: Telegram inbox empty (getUpdates returned nothing, nothing to consume). Audit (365 live): 9 ERRORs, 8 price (builders) and 1 keyword collision (noted in docs/inbox.md; creative call, not fixed). Category check: 0 products without a category (positive control returns aa-1-13-8). Site freshness: womens-bookish-do-not-sell-my-books-crewneck-sweatshirt, womens-football-mom-promised-to-behave-graphic-tee, mens-gym-sisyphus-had-bad-programming-graphic-tee all 200. Stuck check: none (lanes A/B/C locks under 2h, no stale BUILDING). Daily summary not due (sent 12:44 UTC). Lock released.
