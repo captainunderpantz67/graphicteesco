@@ -6052,6 +6052,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-all-lit-up-hoodie": {
+   "claimed": [
+    "christmas pullover"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas pullover",
+     "volume": 2400,
+     "kd": 58
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
