@@ -312,6 +312,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-gym-deadlift-skeleton-oversized-hoodie': { src: '/covers/mens-gym-deadlift-skeleton-oversized-hoodie.webp', alt: 'Man in a navy oversized Deadlift Skeleton hoodie with the hood up, a skeleton hauling a loaded barbell above DEAD LIFT on the chest' },
   'womens-thanksgiving-friendsgiving-hoodie': { src: '/covers/womens-thanksgiving-friendsgiving-hoodie.webp', alt: 'Woman with curly hair smiling, hands in the pocket, wearing the sand Friendsgiving hoodie' },
   'mens-western-cowboy-up-later-crewneck-sweatshirt': { src: '/covers/mens-western-cowboy-up-later-crewneck-sweatshirt.webp', alt: 'Man in a sand Cowboy Up. Later. western crewneck sweatshirt smiling against a white brick wall, hand in his jeans pocket' },
+  'womens-christian-be-still-heavyweight-hoodie': { src: '/covers/womens-christian-be-still-heavyweight-hoodie.webp', alt: 'Woman with long dark curly hair in a sandstone Be Still Psalm 46:10 heavyweight hoodie, one hand at her neck, studio light' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

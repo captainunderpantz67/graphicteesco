@@ -4948,6 +4948,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christian-be-still-heavyweight-hoodie": {
+   "claimed": [
+    "bible verse hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bible verse hoodie",
+     "volume": 1900,
+     "kd": 44
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
