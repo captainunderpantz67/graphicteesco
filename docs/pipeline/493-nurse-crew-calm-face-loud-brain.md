@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-17 22:54
+status: REVIEW
 lane: C
 type: new
 id: 493
@@ -33,3 +33,4 @@ kd: 52
 - 2026-10-17 22:26 UTC director: REDO.
   1. R5.3.8 (prints clean): there's a solid black vertical bar down the right edge of the art, just right of the heartbeat line. It prints as a black stripe on Sand (clearly visible on the Sand mockup). Crop or erase it in print-prep, re-upload the file, re-link all variants, regenerate the mockups and check the cover's print (redo it only if the bar shows there).
   2. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)
+- 2026-10-17 22:57 UTC builder [C]: REDO done: removed the black vertical bar (x>=3338 erased, file cropped to 3338x3271), Printful file 1088550199, all 12 variants re-linked FW 1650 TOP 75 (12/12), new Sand+Navy front and Sand back mockups attached; Sand mockup checked, bar gone. Cover not redone (bar does not show on it). No fal spend.
