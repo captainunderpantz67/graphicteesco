@@ -15,8 +15,10 @@ def call(m, p, b=None):
             if e.code == 429: time.sleep(int(e.headers.get('Retry-After', 30)) + 2); continue
             raise Exception(f'{e.code} {e.read()[:400]}')
     raise Exception('429 loop')
-POS = {'area_width': 6000, 'area_height': 6000, 'width': 6000, 'height': 6000, 'top': 0, 'left': 0}
-PLAIN = ['sleeve_left_dtfabric', 'sleeve_right_dtfabric', 'pocket_dtfabric', 'hood_dtfabric']
+SWEAT = os.environ.get('SWEAT') == '1'   # SWEAT=1: sweatshirt #1418 (5037 x 6600 panels, no pocket/hood panels)
+PW, PH = (5037, 6600) if SWEAT else (6000, 6000)
+POS = {'area_width': PW, 'area_height': PH, 'width': PW, 'height': PH, 'top': 0, 'left': 0}
+PLAIN = ['sleeve_left_dtfabric', 'sleeve_right_dtfabric'] + ([] if SWEAT else ['pocket_dtfabric', 'hood_dtfabric'])
 cmd = sys.argv[1]
 if cmd == 'upload':
     for p in sys.argv[2:]:

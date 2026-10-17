@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: new
 id: 296
@@ -23,3 +23,4 @@ handle: mens-hunting-deer-camp-no-signal-camo-sweatshirt
 ---
 ## Log
 - 2026-10-17 director: brief written, READY (lane B camo push to 24, Sam 2026-10-17; keyword measured this run).
+- 2026-10-17 01:18 UTC [B]: built as DRAFT (product 15362748940592, 11 variants, Size option only 2XS-6XL, $56.99/$61.99, Printful #1418 AOP cotton sweatshirt, DIRECT-TO-FABRIC). Sweatshirt panels are 5037 x 6600 px at 150 dpi (front, back, left and right sleeve; no pocket or hood panel); the garment front sits x about 860-4030, neck y about 1000, hem y about 5700 (scripts/aop-panels.py and pf-aop.py take PW/PH or SWEAT=1). Pattern: Recraft v4 classic woodland blobs (the first prompt came out as a radial burst and was rejected), saved as assets/patterns/woodland-camo-src.png (the brief named woodland-camo.png) and shared by #297 and #298. Art: Recraft v4 try 1 (DEER CAMP / NO SIGNAL. NO PROBLEM. spelling checked), cream underlay, front panel 1700 px wide, top 1800; back = pattern + logo (file 1087947726), plain sleeves 1087947657, front 1087949091. Cover registry #477 (try 1, image 1 of 3), keyword camouflage sweatshirt 12100/26, audit-local PASS. Sync pid 482369316, 11/11. Sheet docs/review/296.jpg.

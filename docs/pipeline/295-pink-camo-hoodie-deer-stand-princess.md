@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: new
 id: 295
@@ -23,3 +23,4 @@ handle: womens-hunting-deer-stand-princess-pink-camo-hoodie
 ---
 ## Log
 - 2026-10-17 director: brief written, READY (lane B camo push to 24, Sam 2026-10-17; keyword measured this run).
+- 2026-10-17 01:18 UTC [B]: built as DRAFT (product 15362739405104, 11 variants, Size option only 2XS-6XL, $64.99/$69.99, Printful #1419 AOP hoodie, following the #294 pilot). New art: Recraft v4 try 1 (DEER STAND / Princess spelling checked), print-prep 3600 x 4082 + camo-halo.py cream underlay, composited on the shared pink camo front panel 1600 px wide, top 1250 (scripts/b-aopgo.sh), back and plain panels reused from #294 (files 1087943151 / 1087942658), front file 1087945438. Copy trimmed after the audit flagged 'pink camo' 5x (now once). Mockups front/back/left front, cover registry #476 (try 1, image 2 of 3), keyword pink camo 12100/30, audit-local PASS. Sync pid 482368424, 11/11. Sheet docs/review/295.jpg.
