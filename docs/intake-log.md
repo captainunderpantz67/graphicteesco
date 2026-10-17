@@ -1,3 +1,4 @@
+2026-10-17 22:26 UTC — [E] Run summary: 7 built to REVIEW (#388 REDO art, #459 #438 #416 #326 #401 #444), 2 REDO covers redone (#359 #409), all DRAFT, all synced. Flags for the director: #438 cover is a back view, model slightly redrew the letters 'ATE.' / 'CALLED'; #444 second line small on the 400 px mockup; #326 faint cream spill between petals at the left edge; #388 compare with docs/reference/best/481 not done. New text lines came from the 20:25 'Claude: READY' log notes. node_modules was missing: ran npm ci so astro build and the audit work. audit-local ran for #459 only (PASS). design-crops + variant-photo-audit to rerun after publish. fal ~$2.1. Lock released.
 RUNNING director since 2026-10-17 22:12 UTC
 2026-10-17 22:26 UTC — [E] REVIEW #444 Bald by Choice eagle heavyweight hoodie (DRAFT, synced 14/14, fal cover).
 2026-10-17 22:19 UTC — [E] REVIEW #401 Night Owl, Retired owl hoodie (DRAFT, synced 12/12, fal cover).
@@ -53,7 +54,6 @@ RUNNING lane C since 2026-10-17 21:54 UTC
 2026-10-17 20:57 UTC — [C] REVIEW #363 Went Outside It Was Fine heavyweight hoodie (DRAFT, synced 12/12, fal cover).
 2026-10-17 20:45 UTC — [H] Helper run: Telegram inbox empty (getUpdates returned nothing, nothing to consume). Audit (365 live): 9 ERRORs, 8 price (builders) and 1 keyword collision (noted in docs/inbox.md; creative call, not fixed). Category check: 0 products without a category (positive control returns aa-1-13-8). Site freshness: womens-bookish-do-not-sell-my-books-crewneck-sweatshirt, womens-football-mom-promised-to-behave-graphic-tee, mens-gym-sisyphus-had-bad-programming-graphic-tee all 200. Stuck check: none (lanes A/B/C locks under 2h, no stale BUILDING). Daily summary not due (sent 12:44 UTC). Lock released.
 2026-10-17 20:45 UTC — [C] REVIEW #415 Sweet Until Further Notice cherry hoodie (DRAFT, synced 12/12, fal cover).
-RUNNING lane E since 2026-10-17 20:42 UTC
 2026-10-17 20:44 UTC — [A] REVIEW #221 Christmas Nurse crewneck (REDO fixed: Nice List Nurse re-lettered as navy script, new cover).
 2026-10-17 20:44 UTC — [A] REVIEW #219 O Holy Night crewneck (REDO fixed: new frameless art, no arch, hand-style script lettering, new cover).
 2026-10-17 20:58 UTC — [E] REVIEW #359 Visiting Not Impressed + #409 Truck Stop Connoisseur (REDO covers redone from the Printful mockups; all print text visible; #409 hands empty). fal ~$0.12.
