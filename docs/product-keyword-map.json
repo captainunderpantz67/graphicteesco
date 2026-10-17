@@ -6779,6 +6779,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-gym-sisyphus-had-bad-programming-crewneck-sweatshirt": {
+   "claimed": [
+    "workout sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "workout sweatshirt",
+     "volume": 1000,
+     "kd": 44
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
