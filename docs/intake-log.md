@@ -1,3 +1,4 @@
+RUNNING helper since 2026-10-17 15:42 UTC
 2026-10-17 15:30 UTC — [B] Run summary (fal empty): ART-NEXT DRAFTs built for #459 #460 #463 #465 (b-artnext.py now supports crewnecks). Twins #461 #462 #464 wait on their source art; #354 and #378-382/#385 still need fal. Lock released.
 2026-10-17 15:30 UTC — [B] ART-NEXT #465 DRAFT built (no art/sync/images; fal empty): unisex-lawyer-i-rest-my-case-hoodie.
 2026-10-17 15:30 UTC — [B] ART-NEXT #463 DRAFT built (no art/sync/images; fal empty): womens-pilates-core-issues-crewneck-sweatshirt.
