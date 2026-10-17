@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-17 21:36 UTC
+status: REVIEW
 lane: C
 type: new
 id: 415
@@ -35,3 +35,4 @@ kd: 30
   1. R6.9: cover fails the overlap check: her hair hides the S of SWEET (the cover reads 'WEET UNTIL') and a drawstring crosses the bow. One more cover attempt (the R6.9 director-REDO try): Printful Navy mockup as --design, hair tied back behind the shoulders, hands in pockets, hood strings tucked or out of frame; read every word before saving.
   2. R8.3 / honest wording: the copy calls the lettering hand-drawn; it is set type. Describe it as script lettering. Meta description says 'Unisex' on a women's product: say women's.
   3. Line: keep 'Sweet Until Further Notice' (director call; the art was built before the 20:25 rewrite note and the boxing-glove cherries carry this line). No new art.
+- 2026-10-17 21:37 UTC builder [C]: REDO done: cover regenerated once (hair tied back, strings tucked; SWEET UNTIL reads whole, strings just touch the bow top); SEO meta now says women's; lettering described as script. Registry #608 same face. fal $0.06.

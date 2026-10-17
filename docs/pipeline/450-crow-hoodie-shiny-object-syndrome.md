@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-17 21:36 UTC
+status: REVIEW
 lane: C
 type: new
 id: 450
@@ -31,3 +31,4 @@ kd: 33
 - 2026-10-17 21:19 UTC director: REDO (cover only, no new art).
   1. R6.8: the woman wears a crewneck, not the hoodie (no hood in frame). Both people must wear the pullover hoodie with a visible hood in Navy. One more cover attempt with the Printful Navy mockup as --design, hands in pockets, read every word before saving.
   2. Art, copy and title pass; only the cover changes.
+- 2026-10-17 21:37 UTC builder [C]: REDO done: cover regenerated once with the Navy mockup as design; both people wear the hooded pullover, all words readable. Copy: 'hand-drawn' lettering wording fixed to slab capitals. fal $0.06.
