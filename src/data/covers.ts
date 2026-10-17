@@ -436,6 +436,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-grill-wizard-zip-hoodie': { src: '/covers/mens-grill-wizard-zip-hoodie.webp', alt: 'Man looking over his shoulder in a navy Grill Wizard zip hoodie, smiling on a backyard patio at dusk with a kettle grill and string lights' },
   'mens-eagle-bald-is-aerodynamic-heavyweight-hoodie': { src: '/covers/mens-eagle-bald-is-aerodynamic-heavyweight-hoodie.webp', alt: 'Man in a Storm Blue Bald by Choice Majestic by Nature eagle heavyweight hoodie with his hands in the pouch on a lakeside dock in late autumn' },
   'mens-gym-rest-day-is-a-sacred-quest-medieval-hoodie': { src: '/covers/mens-gym-rest-day-is-a-sacred-quest-medieval-hoodie.webp', alt: 'Man in a sand Rest Day Is a Sacred Quest medieval hoodie, sitting on a gym bench at rest in front of stone walls and a dumbbell rack' },
+  'womens-funny-already-over-it-kindly-hoodie': { src: '/covers/womens-funny-already-over-it-kindly-hoodie.webp', alt: 'Woman with a platinum-blonde shag in a navy Already Over It, Kindly hoodie, seated at a city coffee shop window in late fall with a laptop on the table' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

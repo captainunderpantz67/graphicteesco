@@ -605,7 +605,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 810 | Black man, late 20s, short twists, clean-shaven, round wire glasses | CLAIMED 2026-10-17 — #487 University of Staying In Crewneck Sweatshirt cover (brief) |
 | 811 | Korean-American woman, mid 20s, long straight hair with curtain bangs, small gold studs | CLAIMED 2026-10-17 — #487 University of Staying In Crewneck Sweatshirt cover (brief) |
 | 812 | Puerto Rican woman, late 30s, shoulder-length wavy dark hair with copper highlights, statement earrings | CLAIMED 2026-10-17 — #488 I Said It Nicely in My Head Tee cover (brief) |
-| 813 | white woman, mid 20s, platinum-blonde shag haircut, small hoop nose ring, gold layered necklaces | CLAIMED 2026-10-17 — #489 Already Over It, Kindly Hoodie cover (brief) |
+| 813 | White woman, mid 20s, platinum-blonde shag, nose hoop, gold necklaces | USED 2026-10-17 - #489 Already Over It Kindly hoodie cover (seedream, navy, coffee shop) |
 | 814 | Vietnamese-American man, early 30s, short textured black hair, light stubble | CLAIMED 2026-10-17 — #490 Plans Canceled. Mood Improved. Hoodie cover (brief) |
 | 815 | white woman, early 30s, long auburn hair in a messy bun, freckles | CLAIMED 2026-10-17 — #490 Plans Canceled. Mood Improved. Hoodie cover (brief) |
 | 816 | Indian-American woman, early 40s, long wavy dark hair with a few silver strands, small nose stud, tortoiseshell glasses | CLAIMED 2026-10-17 — #491 Ghost One More Chapter Club Crewneck Sweatshirt cover (brief) |
