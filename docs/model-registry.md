@@ -574,7 +574,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 677 | white man, mid 30s, short dark hair, stubble | RESERVED — #472 Per My Last Email Crewneck cover (with #676) |
 | 678 | Latina woman, late 20s, long curly dark hair half up | RESERVED — #473 Per My Last Email Hoodie cover (with #679) |
 | 679 | East Asian man, late 20s, short textured hair | RESERVED — #473 Per My Last Email Hoodie cover (with #678) |
-| 680 | white woman, early 30s, sun-streaked light-brown braid, felt western hat, light freckles | RESERVED — #474 Feed Store Fashion Week Hoodie cover |
+| 680 | white woman, early 30s, sun-streaked light-brown braid, felt western hat, light freckles | USED 2026-10-17 — #474 cover (womens-western-feed-store-fashion-week-hoodie)
 | 681 | Mexican-American woman, early 20s, long dark braid, small silver hoops | USED 2026-10-17 — #475 Horse Girl crewneck cover (try 1 kept, 2 images) |
 | 682 | Black woman, late 20s, shoulder-length box braids, small gold studs | USED 2026-10-17 — #476 Horse Girl hoodie cover (try 1, image 1 of 1) |
 | 683 | Black woman, early 40s, short natural curls, small gold hoops, warm brown skin | USED 2026-10-17 — #477 Clocked It embroidered crewneck cover (try 1, image 1 of 1) |
