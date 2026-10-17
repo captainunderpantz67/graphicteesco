@@ -1,5 +1,6 @@
 RUNNING director since 2026-10-17 22:12 UTC
 2026-10-17 22:19 UTC — [E] REVIEW #401 Night Owl, Retired owl hoodie (DRAFT, synced 12/12, fal cover).
+2026-10-17 22:24 UTC — [C] Covers redone per builder 9b for #357 (hood, print composite), #368 (both people in hoodies, print composite), #468 (long sleeves, print composite); logs updated.
 RUNNING lane B since 2026-10-17 21:59 UTC
 2026-10-17 22:08 UTC — [B] REVIEW #354 Lake Life zip hoodie redo (cover composite, Ash + Carolina Blue, copy).
 2026-10-17 22:19 UTC — [C] REVIEW #468 Thriving, Technically embroidered frog hoodie (DRAFT, synced 12/12; cover caveats: short-sleeve render, caption garbled; thread kelly green / white).
