@@ -345,6 +345,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-anime-slurp-responsibly-half-zip': { src: '/covers/womens-anime-slurp-responsibly-half-zip.webp', alt: 'Navy half zip pullover seen from the back with a large calico cat slurping ramen under SLURP RESPONSIBLY arched in coral, mint and cream letters' },
   'mens-anime-kaiju-naps-zip-hoodie': { src: '/covers/mens-anime-kaiju-naps-zip-hoodie.webp', alt: 'Man with short curly hair smiling in an open Navy zip-up hoodie over a white tee with a small sleeping kaiju on a skyscraper print on the left chest' },
   'womens-y2k-low-battery-high-standards-zip-hoodie': { src: '/covers/womens-y2k-low-battery-high-standards-zip-hoodie.webp', alt: 'Woman with dark curly hair smiling in an Ash zip-up hoodie with a small pink flip phone and butterflies Low Battery High Standards print on the left chest' },
+  'mens-fishing-reel-talk-hoodie': { src: '/covers/mens-fishing-reel-talk-hoodie.webp', alt: 'Man with light brown hair and a mustache standing with his hands at his sides in a Navy Reel Talk hoodie with a leaping largemouth bass and a rod and reel under REEL TALK' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

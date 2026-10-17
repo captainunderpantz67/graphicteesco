@@ -6039,6 +6039,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-fishing-reel-talk-hoodie": {
+   "claimed": [
+    "fisherman hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fisherman hoodie",
+     "volume": 320,
+     "kd": 42
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
