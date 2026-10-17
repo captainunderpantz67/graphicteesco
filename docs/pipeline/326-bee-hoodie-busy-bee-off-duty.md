@@ -1,5 +1,5 @@
-status: ART-NEXT
-lane: B
+status: READY
+lane: E
 type: new
 id: 326
 handle: womens-bee-buzz-off-kindly-hoodie
@@ -27,3 +27,4 @@ kd: 20
 - 2026-10-17 04:59 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363051290928 (launch colors per brief, S-3XL, price per brief with no compare-at, category hoodies, tags per brief incl. hub tags, SEO, FAQs; keyword bee hoodie 1300/KD20). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images yet.
 - 2026-10-17 16:26 UTC director: REDO (copy only, no art). 1. R3.1 cheeky-not-cheesy: the old line is a sound-alike pun or greeting-card cute; new line "Buzz Off, Kindly" (3 candidates weighed, cheekiest picked). 2. Update the brief and the DRAFT per the LINE REWRITE note, then set status back to ART-NEXT.
 - 2026-10-17 16:33 UTC builder [B]: line rewrite done (copy only): brief + Shopify DRAFT title/handle/SEO/copy now "Buzz Off, Kindly" (womens-bee-buzz-off-kindly-hoodie). Status ART-NEXT.
+- 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane E. LINE REWRITE (cheeky not cheesy, R3.1): the words on the shirt are now "This Bee Has Clocked Out" (this replaces the brief's text line; keep the brief's character/scene if it fits the new line, otherwise draw what the new line needs). Update the Shopify title and copy line one to the new line; handle stays.

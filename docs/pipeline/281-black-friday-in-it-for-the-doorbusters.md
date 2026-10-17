@@ -1,5 +1,5 @@
-status: ART-NEXT
-lane: A
+status: READY
+lane: C
 type: new
 id: 281
 handle: womens-black-friday-in-it-for-the-doorbusters-graphic-tee
@@ -24,3 +24,4 @@ kd: 46
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).
 - 2026-10-17 04:41 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363034874160 (BC 6400, 6 colors (White, Natural, Pink, Heather Stone, Athletic Heather, Heather Mauve as the bold-ish color; Kelly/Berry not offered on 6400) x S-3XL = 36 variants, $24.99 no compare-at, category tees; keyword black friday shirt 720/KD46; tee only, no twin). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
+- 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane C.

@@ -1,5 +1,5 @@
-status: ART-NEXT
-lane: A
+status: READY
+lane: B
 type: twin
 id: 369
 handle: womens-western-desert-bloom-cropped-hoodie
@@ -26,3 +26,4 @@ kd: 36
 ## Log
 - 2026-10-17 06:19 UTC director: brief written, READY (2026-10-17 morning sweep: no unclaimed KD ≤ 20 hoodie/sweatshirt phrase with volume left in RankHero; this is the KD 21–40 band, highest volume first; keyword measured this run).
 - 2026-10-17 07:11 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363193340208 (Bella+Canvas 7502 cropped, Storm + Black x S-2XL = 10 (Peach exists only in XL, so Black instead; sage/pink art reads on both), $44.99 no compare-at, category hoodies; keyword cactus hoodie 590/KD36; frameless redraw needs one Recraft generation when fal returns). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
+- 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane B.

@@ -1,6 +1,6 @@
-status: ART-NEXT
+status: READY
 shopify: gid://shopify/Product/15363406168368
-lane: B
+lane: C
 type: new
 id: 397
 handle: unisex-otter-currently-drifting-hoodie
@@ -25,3 +25,4 @@ kd: 34
 ## Log
 - 2026-10-17 08:55 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
 - 2026-10-17 09:05 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363406168368 (Gildan 18500, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category hoodies aa-1-13-13, tags graphic-hoodies-for-men/-women + hoodie). Keyword otter hoodie 320/KD34 in map. SEO title 51, meta 154, FAQs 5 x 47-51 words. Copy written from the brief's art description (CURRENTLY over DRIFTING, otter on its back with coffee mug, kelp, teal/tan/orange/cream): re-check every sentence against the real art when it exists. When art exists: FW 1500+, clear of the pouch seam; check teal on Sand and Navy. No Printful sync, no images, no cover. Never publish until art + cover exist.
+- 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane C.

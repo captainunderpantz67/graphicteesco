@@ -1,5 +1,5 @@
-status: ART-NEXT
-lane: A
+status: READY
+lane: B
 type: twin
 id: 280
 handle: womens-thanksgiving-pie-season-pumpkin-hoodie
@@ -22,3 +22,4 @@ kd: 54
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).
 - 2026-10-17 05:02 UTC [A]: not built in temp-cover mode. R6.2 check on the #137 file: 'Pie Season' is a smooth typeset script (even stroke, white letter counters) and the brief's hook IS that line, so it needs a hand re-letter (one Recraft lettering generation) which needs fal. Stays READY; build when fal is funded.
 - 2026-10-17 07:08 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363191013680 (Gildan 18500, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category hoodies, tag thanksgiving added; keyword pumpkin hoodie 1000/KD54. R6.2 check on #137's file: Pie Season is a smooth typeset script, so it needs a hand re-letter (one lettering-only Recraft generation) when fal returns; check the rust script on Navy then, else Sport Grey). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
+- 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane B.

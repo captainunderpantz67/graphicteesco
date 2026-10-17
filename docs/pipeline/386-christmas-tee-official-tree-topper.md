@@ -1,5 +1,5 @@
-status: ART-NEXT
-lane: A
+status: READY
+lane: E
 type: new
 id: 386
 handle: womens-christmas-official-tree-topper-graphic-tee
@@ -25,3 +25,4 @@ kd: 64
 ## Log
 - 2026-10-17 08:55 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
 - 2026-10-17 08:30 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363403546928 (Women's tee 6400, White/Natural/Heather Stone/Athletic Heather/Pink x S-3XL = 30, $24.99 no compare-at, category aa-1-13-8, keyword holiday shirt 4400/KD64 in map). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
+- 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane E.

@@ -1,5 +1,5 @@
-status: ART-NEXT
-lane: A
+status: READY
+lane: C
 type: new
 id: 457
 handle: womens-hanukkah-fried-food-is-tradition-crewneck-sweatshirt
@@ -28,3 +28,4 @@ kd: 28
 - 2026-10-17 16:00 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363812950320 (Sand + Light Blue x S-3XL, $34.99; keyword hanukkah sweater 2900/KD28; FAQs 5 incl. order-by Nov 20). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 16:26 UTC director: REDO (copy only, no art). 1. R3.1 cheeky-not-cheesy: the old line is a sound-alike pun or greeting-card cute; new line "Fried Food Is Tradition" (3 candidates weighed, cheekiest picked). 2. Update the brief and the DRAFT per the LINE REWRITE note, then set status back to ART-NEXT.
 - 2026-10-17 17:10 UTC builder [A]: line rewrite done (copy only): brief + Shopify DRAFT title/handle/SEO/copy now "Fried Food Is Tradition" (womens-hanukkah-fried-food-is-tradition-crewneck-sweatshirt); FAQs refreshed to 4-6 where short. Status ART-NEXT.
+- 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane C.

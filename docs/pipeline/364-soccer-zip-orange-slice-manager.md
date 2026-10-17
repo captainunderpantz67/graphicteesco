@@ -1,5 +1,5 @@
-status: ART-NEXT
-lane: B
+status: READY
+lane: C
 type: new
 id: 364
 handle: womens-soccer-orange-slice-manager-zip-hoodie
@@ -25,3 +25,4 @@ kd: 36
 ## Log
 - 2026-10-17 06:19 UTC director: brief written, READY (2026-10-17 morning sweep: no unclaimed KD ≤ 20 hoodie/sweatshirt phrase with volume left in RankHero; this is the KD 21–40 band, highest volume first; keyword measured this run).
 - 2026-10-17 06:45 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363170664752 (launch colors per brief, S-3XL, price per brief with no compare-at, category, tags per brief incl. hub tags, SEO, FAQs; keyword soccer hoodie /1600 /36). Copy written from the brief's art description: re-check every sentence against the real art when it exists. Zip placement: full art on the back + small left-chest copy (the #178/#354 method). No Printful sync, no images, no cover. Never publish until art + cover exist.
+- 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane C.

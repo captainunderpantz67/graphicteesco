@@ -1,5 +1,5 @@
-status: ART-NEXT
-lane: B
+status: READY
+lane: E
 type: new
 id: 406
 shopify: gid://shopify/Product/15363533766960
@@ -28,3 +28,4 @@ kd: 34
 - 2026-10-17 10:50 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363533766960 (Storm only x S-2XL = 5 (Peach has only an out-of-stock XL in Printful #317, so it is not offered; the white bunny reads on dark Storm; add Peach/Black later if stocked), $44.99, tags cropped-hoodies + graphic-hoodies-for-women + hoodie, no compare-at, category hoodies). Keyword bunny hoodie 2900/KD34 in map. FAQs 5 x 45-56 words (order-by Dec 8), facts from the Printful spec. Copy from the brief's art description (prim bunny, ribbon bow, tea): re-check against the real art. No sync, images or cover.
 - 2026-10-17 16:26 UTC director: REDO (copy only, no art). 1. R3.1 cheeky-not-cheesy: the old line is a sound-alike pun or greeting-card cute; new line "Cute, Not Approachable" (3 candidates weighed, cheekiest picked). 2. Update the brief and the DRAFT per the LINE REWRITE note, then set status back to ART-NEXT.
 - 2026-10-17 16:33 UTC builder [B]: line rewrite done (copy only): brief + Shopify DRAFT title/handle/SEO/copy now "Cute, Not Approachable" (womens-bunny-cute-not-approachable-cropped-hoodie). Status ART-NEXT.
+- 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane E. LINE REWRITE (cheeky not cheesy, R3.1): the words on the shirt are now "Politely, No." (this replaces the brief's text line; keep the brief's character/scene if it fits the new line, otherwise draw what the new line needs). Update the Shopify title and copy line one to the new line; handle stays.

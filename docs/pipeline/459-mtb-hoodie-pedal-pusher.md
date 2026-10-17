@@ -1,5 +1,5 @@
-status: ART-NEXT
-lane: B
+status: READY
+lane: E
 type: new
 id: 459
 handle: mens-mountain-bike-pedal-pusher-heavyweight-hoodie
@@ -25,3 +25,4 @@ kd: 20
 ## Log
 - 2026-10-17 15:22 UTC director: brief written, READY (keyword measured this run, low-KD sweep; lane B).
 - 2026-10-17 15:30 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363778478384 (Sandstone + Storm Blue x XS-3XL, $49.99; keyword mountain bike hoodie 1900/KD20; FAQs 5). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
+- 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane E.

@@ -1,5 +1,5 @@
-status: ART-NEXT
-lane: B
+status: READY
+lane: A
 type: new
 id: 408
 shopify: gid://shopify/Product/15363533013296
@@ -25,3 +25,4 @@ kd: 20
 ## Log
 - 2026-10-17 09:22 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
 - 2026-10-17 10:50 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363533013296 (Dust + Navy x S-3XL = 12 (Bella+Canvas 4719 #892), $54.99, tags oversized-hoodies + oversized-hoodies-for-men + graphic-hoodies-for-men/-women + hoodie, no compare-at, category hoodies). Keyword shark hoodie 27100/KD20 in map. FAQs 5 x 45-56 words (order-by Dec 8), facts from the Printful spec. Copy from the brief's art description (great white, swim ring, FRIENDLY-ISH): re-check against the real art. No sync, images or cover.
+- 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane A.

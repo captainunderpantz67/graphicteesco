@@ -1,5 +1,5 @@
-status: ART-NEXT
-lane: B
+status: READY
+lane: E
 type: new
 id: 466
 handle: unisex-embroidered-overthinkers-club-hoodie
@@ -30,3 +30,4 @@ kd: 30
 ## Log
 - 2026-10-17 16:26 UTC director: brief written, READY (lane B; gate-format brief, keyword measured this run).
 - 2026-10-17 16:35 UTC builder [B]: ART-NEXT (fal empty, gate pending): full Shopify DRAFT gid://shopify/Product/15363853844784 (Sand + Navy x S-3XL = 12, Gildan 18500 embroidered, $44.99 no compare-at, category hoodies, tags per brief + hub tags, keyword anxiety hoodie, SEO within limits, FAQs 6 x 40-60 words, order-by Dec 8). Copy from the brief's art description: re-check against the real art. No Printful sync, no images, no cover. Never publish.
+- 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane E.

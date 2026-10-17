@@ -1,4 +1,4 @@
-status: ART-NEXT
+status: READY
 lane: B
 type: new
 id: 440
@@ -28,3 +28,4 @@ kd: 26
 - 2026-10-17 13:39 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363699704112 (Dust + Navy x S-3XL, 4719 oversized, $54.99; keyword pig hoodie 1,300/KD26; FAQs 5 x 40-60 words, order-by Dec 8). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 16:26 UTC director: REDO (copy only, no art). 1. R3.1 cheeky-not-cheesy: the old line is a sound-alike pun or greeting-card cute; new line "Wallowing, Respectfully" (3 candidates weighed, cheekiest picked). 2. Update the brief and the DRAFT per the LINE REWRITE note, then set status back to ART-NEXT.
 - 2026-10-17 16:31 UTC builder [B]: line rewrite done (copy only): brief + Shopify DRAFT title/handle/SEO/copy now "Wallowing, Respectfully" (mens-pig-wallowing-respectfully-oversized-hoodie). Status ART-NEXT.
+- 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane B. LINE REWRITE (cheeky not cheesy, R3.1): the words on the shirt are now "Mud Bath Booked. Plans Canceled." (this replaces the brief's text line; keep the brief's character/scene if it fits the new line, otherwise draw what the new line needs). Update the Shopify title and copy line one to the new line; handle stays.

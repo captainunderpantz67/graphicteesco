@@ -1,5 +1,5 @@
-status: ART-NEXT
-lane: A
+status: READY
+lane: B
 type: new
 id: 318
 handle: womens-christmas-tied-up-for-the-holidays-crewneck-sweatshirt
@@ -24,3 +24,4 @@ kd: 53
 ## Log
 - 2026-10-17 02:26 UTC director: brief written, READY (low-KD sweep 2026-10-17, card step 5; keyword measured this run).
 - 2026-10-17 04:43 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363039592752 (Gildan 18000, White/Sand/Light Pink/Ash x S-3XL = 24 variants, $34.99 no compare-at, category sweatshirts; keyword bow sweatshirt 2,400/KD53; tee twin #319 waits on this art). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
+- 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane B.

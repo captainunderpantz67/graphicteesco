@@ -1,5 +1,5 @@
-status: ART-NEXT
-lane: B
+status: READY
+lane: E
 type: new
 id: 472
 handle: unisex-embroidered-per-my-last-email-crewneck-sweatshirt
@@ -30,3 +30,4 @@ kd: 24
 ## Log
 - 2026-10-17 17:40 UTC director: brief written, READY (lane B; gate-format brief, keyword measured this run).
 - 2026-10-17 17:32 UTC builder [B]: ART-NEXT (design gate pending): full Shopify DRAFT gid://shopify/Product/15363937960240 (Sand + Navy x S-3XL = 12, Gildan 18000 embroidered, $39.99 no compare-at, category sweatshirts, keyword work sweatshirt, SEO within limits, 6 FAQs 40-60 words, order-by Dec 8). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
+- 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane E.

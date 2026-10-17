@@ -1,4 +1,4 @@
-status: ART-NEXT
+status: READY
 lane: B
 type: new
 id: 449
@@ -28,3 +28,4 @@ kd: 27
 - 2026-10-17 14:34 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363728212272 (Sand + Navy x S-3XL, Gildan 18500, $39.99; keyword pirate hoodie 720/KD27; FAQs 5 x 40-60 words, order-by Dec 8). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 16:26 UTC director: REDO (copy only, no art). 1. R3.1 cheeky-not-cheesy: the old line is a sound-alike pun or greeting-card cute; new line "Pillaging Is a Young Man's Game" (3 candidates weighed, cheekiest picked). 2. Update the brief and the DRAFT per the LINE REWRITE note, then set status back to ART-NEXT.
 - 2026-10-17 16:30 UTC builder [B]: line rewrite done (copy only): brief + Shopify DRAFT title/handle/SEO/copy now "Pillaging Is a Young Man's Game" (mens-pirate-pillaging-is-a-young-mans-game-hoodie). Status ART-NEXT.
+- 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane B.

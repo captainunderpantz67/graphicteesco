@@ -1,5 +1,5 @@
-status: ART-NEXT
-lane: A
+status: READY
+lane: C
 type: new
 id: 371
 handle: womens-sunflower-sunshine-with-boundaries-zip-hoodie
@@ -28,3 +28,4 @@ kd: 36
 - 2026-10-17 07:10 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363192127792 (Gildan 18600 zip, Ash + Navy x S-5XL (Ash S-3XL) = 14, $44.99 no compare-at, category hoodies; keyword sunflower hoodie 590/KD36; art on the back plus left-chest copy via pf-zip.py when art exists). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 16:26 UTC director: REDO (copy only, no art). 1. R3.1 cheeky-not-cheesy: the old line is a sound-alike pun or greeting-card cute; new line "Sunshine With Boundaries" (3 candidates weighed, cheekiest picked). 2. Update the brief and the DRAFT per the LINE REWRITE note, then set status back to ART-NEXT.
 - 2026-10-17 17:10 UTC builder [A]: line rewrite done (copy only): brief + Shopify DRAFT title/handle/SEO/copy now "Sunshine With Boundaries" (womens-sunflower-sunshine-with-boundaries-zip-hoodie); FAQs refreshed to 4-6 where short. Status ART-NEXT.
+- 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane C. LINE REWRITE (cheeky not cheesy, R3.1): the words on the shirt are now "Sunny Until Spoken To" (this replaces the brief's text line; keep the brief's character/scene if it fits the new line, otherwise draw what the new line needs). Update the Shopify title and copy line one to the new line; handle stays.

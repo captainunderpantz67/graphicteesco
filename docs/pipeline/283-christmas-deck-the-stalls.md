@@ -1,4 +1,4 @@
-status: ART-NEXT
+status: READY
 lane: A
 type: new
 id: 283
@@ -27,3 +27,4 @@ kd: 56
 - 2026-10-17 04:42 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363038511408 (BC 6400, 6 colors (incl. Heather Mauve as the bold color) x S-3XL = 36 variants, $24.99 no compare-at, category tees; keyword western christmas shirt 480/KD56; crewneck twin #284 waits on this art). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 16:26 UTC director: REDO (copy only, no art). 1. R3.1 cheeky-not-cheesy: the old line is a sound-alike pun or greeting-card cute; new line "Christmas Plans: The Barn" (3 candidates weighed, cheekiest picked). 2. Update the brief and the DRAFT per the LINE REWRITE note, then set status back to ART-NEXT.
 - 2026-10-17 17:10 UTC builder [A]: line rewrite done (copy only): brief + Shopify DRAFT title/handle/SEO/copy now "Christmas Plans: The Barn" (womens-christmas-christmas-plans-the-barn-western-graphic-tee); FAQs refreshed to 4-6 where short. Status ART-NEXT.
+- 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane A. LINE REWRITE (cheeky not cheesy, R3.1): the words on the shirt are now "Barn Chores Don't Take Holidays" (this replaces the brief's text line; keep the brief's character/scene if it fits the new line, otherwise draw what the new line needs). Update the Shopify title and copy line one to the new line; handle stays.

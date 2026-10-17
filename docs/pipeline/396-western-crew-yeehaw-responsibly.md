@@ -1,4 +1,4 @@
-status: ART-NEXT
+status: READY
 shopify: gid://shopify/Product/15363411345712
 lane: B
 type: new
@@ -28,3 +28,4 @@ kd: 55
 - 2026-10-17 09:30 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363411345712 (Gildan 18000 #145, Sand + Navy x S-3XL = 12, $34.99 no compare-at, category crewnecks aa-1-13-14, tags sweatshirt). Keyword western sweatshirt in map. FAQs 5 x 43-53 words, SEO meta under 155. Copy written from the brief's art description: re-check every sentence against the real art when it exists. When art exists: FW 1650 (crewneck), read every word at 400 px on Navy. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 16:26 UTC director: REDO (copy only, no art). 1. R3.1 cheeky-not-cheesy: the old line is a sound-alike pun or greeting-card cute; new line "Yeehaw, but Quietly" (3 candidates weighed, cheekiest picked). 2. Update the brief and the DRAFT per the LINE REWRITE note, then set status back to ART-NEXT.
 - 2026-10-17 16:33 UTC builder [B]: line rewrite done (copy only): brief + Shopify DRAFT title/handle/SEO/copy now "Yeehaw, but Quietly" (womens-western-yeehaw-but-quietly-crewneck-sweatshirt). Status ART-NEXT.
+- 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane B. LINE REWRITE (cheeky not cheesy, R3.1): the words on the shirt are now "Hold Your Horses, I'm Overstimulated" (this replaces the brief's text line; keep the brief's character/scene if it fits the new line, otherwise draw what the new line needs). Update the Shopify title and copy line one to the new line; handle stays.

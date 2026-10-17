@@ -1,5 +1,5 @@
-status: ART-NEXT
-lane: B
+status: READY
+lane: C
 type: new
 id: 415
 shopify: gid://shopify/Product/15363626467632
@@ -28,3 +28,4 @@ kd: 30
 - 2026-10-17 11:55 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363626467632 (Sand + Navy x S-3XL, Gildan 18500, $39.99; keyword cherry hoodie 2,400/KD30; category hoodies, tags per brief, no compare-at). SEO title/meta within limits, FAQs 4-5 x 46-56 words (order-by Dec 8 or size-exchange/gift timing). Copy written from the brief's art description: re-check every sentence against the real art. No sync, images or cover.
 - 2026-10-17 16:26 UTC director: REDO (copy only, no art). 1. R3.1 cheeky-not-cheesy: the old line is a sound-alike pun or greeting-card cute; new line "Sweet Until Further Notice" (3 candidates weighed, cheekiest picked). 2. Update the brief and the DRAFT per the LINE REWRITE note, then set status back to ART-NEXT.
 - 2026-10-17 16:30 UTC builder [B]: line rewrite done (copy only): brief + Shopify DRAFT title/handle/SEO/copy now "Sweet Until Further Notice" (womens-cherry-sweet-until-further-notice-hoodie). Status ART-NEXT.
+- 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane C. LINE REWRITE (cheeky not cheesy, R3.1): the words on the shirt are now "Picking My Battles. Skipping Most." (this replaces the brief's text line; keep the brief's character/scene if it fits the new line, otherwise draw what the new line needs). Update the Shopify title and copy line one to the new line; handle stays.
