@@ -6364,6 +6364,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-pirate-arrr-thritis-hoodie": {
+   "claimed": [
+    "pirate hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pirate hoodie",
+     "volume": 720,
+     "kd": 27
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
