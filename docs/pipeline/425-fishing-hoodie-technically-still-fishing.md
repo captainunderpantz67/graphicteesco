@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 cover: temp (swap)
 lane: B
 type: twin
@@ -23,3 +23,4 @@ kd: 30
 ## Log
 - 2026-10-17 12:50 UTC director: brief written, READY (keyword measured this run; source art checked against R4.1/R6.2 from its live mockup; fal-free twin).
 - 2026-10-17 12:34 UTC [B]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363658875184 (Gildan 18500 #146, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category aa-1-13-13, tags fishing-hoodies, graphic-hoodies-for-men, hoodie, ai-art, intake-done), sync product 482457623 synced 12/12 with back logo. Print: two tee files reused, no new art: original-ink 1087727901 on Sand, cream-ink 1087727922 on Navy (3600x3642, docs/print-files/425-*), set fresh for this blank at FW 1500 TOP 0 (about 1517 px tall; scene ends well above the pouch seam on both mockups). R6.2 check: TECHNICALLY STILL FISHING is arched hand-drawn caps, bass, man, chair, dock, reeds and splash are drawn art on ragged-edge water; no typeset line, ring, panel or box; no stray white counters (cream is planned ink). Phone-size read: every word reads on Sand and Navy. FAQ 6 x 48-54 words, order-by Dec 8. Keyword fish hoodie 5400/KD30 in map. Mockups Sand + Navy fronts + back, variant images per color. Temp cover: Printful Men's 2 Front 2 style 1534 (Navy, Black man, hands at his sides, print and hood fully visible, white catalog backdrop; 1415 is on #310, 1454/1455/1600 taken): cover: temp (swap), registry #618 stays reserved. Audit-local PASS. Sheet docs/review/425.jpg.
+- 2026-10-17 12:37 UTC director: LIVE. Arched lettering is worn, uneven AI-drawn caps (not set in a font), every word reads on Sand and Navy, scene ends above the pouch; copy facts and the Sunrise Strike tee cross-sell verified; temp cover swap. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.
