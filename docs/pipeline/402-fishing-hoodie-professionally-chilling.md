@@ -1,5 +1,5 @@
 status: READY
-lane: A
+lane: C
 type: new
 id: 402
 handle: mens-fishing-professionally-chilling-heavyweight-hoodie
@@ -26,3 +26,4 @@ kd: 34
 - 2026-10-17 09:22 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
 - 2026-10-17 15:02 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363749314864 (heavyweight IND4000 Sandstone+Storm Blue x XS-3XL = 14, $49.99). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane A.
+- 2026-10-17 21:25 UTC director: moved from lane A to lane C (lane C builds hoodies; lane A has 23 READY, lane C had 3).

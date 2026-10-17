@@ -1,5 +1,5 @@
 status: READY
-lane: A
+lane: C
 type: new
 id: 496
 handle: mens-hunting-not-lost-scouting-camo-hoodie
@@ -27,3 +27,4 @@ kd: 37
 ---
 ## Log
 - 2026-10-17 20:27 UTC director: brief written, READY (Sam's 16 proof-first concepts, inbox 2026-10-17 19:30).
+- 2026-10-17 21:25 UTC director: moved from lane A to lane C (lane C builds hoodies; lane A has 23 READY, lane C had 3).

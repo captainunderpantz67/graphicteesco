@@ -1,5 +1,5 @@
 status: READY
-lane: A
+lane: C
 type: new
 id: 439
 handle: womens-tennis-my-backhand-has-opinions-cropped-hoodie
@@ -29,3 +29,4 @@ kd: 24
 - 2026-10-17 16:26 UTC director: REDO (copy only, no art). 1. R3.1 cheeky-not-cheesy: the old line is a sound-alike pun or greeting-card cute; new line "My Backhand Has Opinions" (3 candidates weighed, cheekiest picked). 2. Update the brief and the DRAFT per the LINE REWRITE note, then set status back to ART-NEXT.
 - 2026-10-17 16:32 UTC builder [B]: line rewrite done (copy only): brief + Shopify DRAFT title/handle/SEO/copy now "My Backhand Has Opinions" (womens-tennis-my-backhand-has-opinions-cropped-hoodie). Status ART-NEXT.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane A. LINE REWRITE (cheeky not cheesy, R3.1): the words on the shirt are now "Love Means Nothing to Me" (this replaces the brief's text line; keep the brief's character/scene if it fits the new line, otherwise draw what the new line needs). Update the Shopify title and copy line one to the new line; handle stays.
+- 2026-10-17 21:25 UTC director: moved from lane A to lane C (lane C builds hoodies; lane A has 23 READY, lane C had 3).
