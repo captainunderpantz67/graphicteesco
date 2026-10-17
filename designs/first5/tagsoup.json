@@ -1,0 +1,6 @@
+{"art": "tagsoup-a.png", "art_width": 0.62, "canvas": [3600, 4500], "gap": 40,
+ "lines": [
+  {"text": "Today's Special", "font": "Lobster-Regular.ttf", "size": 420, "fill": "#ef6c1e", "stroke": 16, "stroke_fill": "#111111", "where": "above"},
+  {"text": "TAG SOUP", "font": "AlfaSlabOne-Regular.ttf", "size": 640, "fill": "#f3e7cf", "stroke": 22, "stroke_fill": "#111111", "tracking": 0.03, "where": "below"},
+  {"text": "SERVED FRESH EVERY SEASON", "font": "Oswald[wght].ttf", "wght": 700, "size": 170, "fill": "#f3e7cf", "stroke": 10, "stroke_fill": "#111111", "tracking": 0.18, "where": "below"}
+ ]}

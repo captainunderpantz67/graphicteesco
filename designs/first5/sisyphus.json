@@ -1,0 +1,5 @@
+{"art": "sisyphus-b.png", "art_width": 0.86, "canvas": [3600, 4500], "gap": 50,
+ "lines": [
+  {"text": "SISYPHUS HAD", "font": "Cinzel[wght].ttf", "wght": 900, "size": 400, "fill": "#1c1714", "tracking": 0.06, "where": "above"},
+  {"text": "BAD PROGRAMMING", "font": "Cinzel[wght].ttf", "wght": 900, "size": 400, "fill": "#1c1714", "tracking": 0.06, "where": "below"}
+ ]}

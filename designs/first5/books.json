@@ -1,0 +1,5 @@
+{"art": "books-a.png", "art_width": 0.62, "canvas": [3600, 4500], "gap": 50,
+ "lines": [
+  {"text": "do not sell my books", "font": "PlayfairDisplay-Italic[wght].ttf", "wght": 700, "size": 330, "fill": "#6b1f2a", "where": "above"},
+  {"text": "AT MY FUNERAL.", "font": "PlayfairDisplay[wght].ttf", "wght": 700, "size": 230, "fill": "#6b1f2a", "tracking": 0.22, "where": "below"}
+ ]}
