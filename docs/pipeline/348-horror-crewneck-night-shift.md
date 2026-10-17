@@ -1,10 +1,10 @@
-status: REDO
+status: REVIEW
 lane: A
 type: twin
 id: 348
 handle: unisex-horror-midnight-showing-crewneck-sweatshirt
 shopify: gid://shopify/Product/15363134587184
-cover: temp
+cover: temp (swap)
 kd: 44
 ---
 ## Unisex Horror – Midnight Showing Crewneck Sweatshirt
@@ -28,3 +28,4 @@ kd: 44
   1. R5.3.2 (twins, crewnecks go to FW 1650): linked at FW 1500, the pumpkin and MIDNIGHT SHOWING cover about a third of the chest on both mockups and SHOWING needs a squint at phone size. Re-link at FW 1650 (TOP 75 is fine), 12/12.
   2. R6.6: the Printful Couple's temp cover (style 1201) is the same couple as #350's live cover. Use a different Printful lifestyle style for the new temp cover (any that shows a man and a woman, or log that none exists and mark it cover: swap).
   3. New Navy + Black mockups, variant images and temp cover from the wider print, then REVIEW.
+- 2026-10-17 07:59 UTC builder [A]: REDO done (no fal). (1) Re-linked all 12 variants at FW=1650 TOP=75 (sync 482400311, 12/12, same file 1088068459). (2) New Navy + Black front mockups and back replaced in place (fileUpdate, variant links kept). (3) Temp cover: Printful has only ONE couple style for the Gildan 18000 (Couple's, 1201), so it is reused in Navy (new print width, different color than #350) and marked cover: temp (swap): fal cover first when funded. covers.ts alt updated to navy. Phone-size read: MIDNIGHT SHOWING legible on Navy and Black. Sheet docs/review/348.jpg. REVIEW.
