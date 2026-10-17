@@ -422,7 +422,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 529 | Japanese-American man, early 20s, shaggy black hair, slim | RESERVED — #338 Gravity 47 skateboard oversized hoodie cover |
 | 530 | Iranian-American man, early 20s, short dark hair, athletic build, clean-shaven | RESERVED — #339 Professional Hugger wrestling hoodie cover |
 | 531 | White man, late 50s, long grey hair in a low ponytail, grey goatee, weathered face | RESERVED — #340 Scenic Route Only motorcycle hoodie cover |
-| 532 | White woman, early 20s, pastel pink chin-length bob, two small nose studs | RESERVED — #341 Smiling Through It axolotl hoodie cover |
+| 532 | Woman, early 20s, wavy brown hair, brown eyes | USED 2026-10-17 - #341 Smiling Through It axolotl hoodie cover (seedream, navy, campus coffee shop) |
 | 533 | Black man, late 20s, high-top fade, tall and lean | RESERVED — #342 Bench Captain basketball zip hoodie cover |
 | 534 | Indian-American woman, mid 20s, long dark hair in a low bun, small gold nose stud | RESERVED — #343 Child's Pose yoga cropped hoodie cover |
 | 535 | French-Canadian man, early 30s, curly brown mullet, thick moustache | RESERVED — #344 Penalty Box Regular hockey hoodie cover |

@@ -389,6 +389,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-anime-ignoring-you-professionally-heavyweight-hoodie': { src: '/covers/unisex-anime-ignoring-you-professionally-heavyweight-hoodie.webp', alt: 'Man and woman in matching storm blue Ignoring You Professionally maneki neko heavyweight hoodies at a neon arcade entrance at night' },
   'womens-hanukkah-fried-food-is-tradition-crewneck-sweatshirt': { src: '/covers/womens-hanukkah-fried-food-is-tradition-crewneck-sweatshirt.webp', alt: 'Woman in a sand Fried Food Is Tradition Hanukkah crewneck sweatshirt in a bright kitchen with latkes on the counter and a menorah in the window' },
   'womens-equestrian-horse-girl-broke-on-purpose-crewneck-sweatshirt': { src: '/covers/womens-equestrian-horse-girl-broke-on-purpose-crewneck-sweatshirt.webp', alt: 'Woman in a sand Horse Girl Broke on Purpose crewneck sweatshirt in a horse barn aisle with a bay horse looking over a stall door beside her' },
+  'womens-axolotl-smiling-through-it-oversized-hoodie': { src: '/covers/womens-axolotl-smiling-through-it-oversized-hoodie.webp', alt: 'Woman in a navy Smiling Through It axolotl oversized hoodie, smiling in a sunny campus coffee shop window seat with a latte beside her' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
