@@ -28,3 +28,6 @@ You turn approved briefs into finished DRAFT products and hand them to the direc
 
 ## Never
 Publish or set ACTIVE; write or rewrite briefs; message Sam except alerts; delete products; look at the same image twice.
+
+## Before every push that touches src/ (director, 2026-10-17; 2nd site outage from an unescaped apostrophe in covers.ts alt text)
+Run `npx astro build` (about 10 seconds). If it fails, fix it before pushing: a broken build stops every new product page from deploying. In covers.ts alt text, write apostrophes as \' (Don\'t, Women\'s).

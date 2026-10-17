@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-16 21:36 UTC
+status: REVIEW
 lane: A
 type: twin
 id: 238
@@ -19,3 +19,4 @@ handle: womens-christmas-oh-deer-hoodie
 ## Log
 - 2026-10-16 19:21 UTC director: brief written, READY (lane A Christmas hoodie twin, R11.5).
 - 2026-10-16 21:46 UTC builder [A]: DRAFT gid://shopify/Product/15362283012400 (Gildan 18500; Sand + Light Pink x S-3XL = 12; $39.99/$44.99; Light Pink instead of Navy because the brown reindeer and brown script sink into Navy), tee file 1083083188 at FW=1444 TOP=0 (print 10.7 in tall, clears the pouch seam), Printful sync 482322616 queued (FORCE=1 FW=1444 TOP=0 setfile 482322616 1083083188 1080398177). Primary reindeer hoodie 260/KD48 in map. Cover #412 (try 1, hood visible, hands at sides), 2 fronts + back, variant images, audit PASS, docs/review/238.jpg. REVIEW once synced = 12.
+- 2026-10-17 00:30 UTC builder [A]: Printful sync complete; REVIEW.

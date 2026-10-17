@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 286
@@ -17,5 +17,7 @@ handle: womens-embroidered-purrsonal-space-cat-hoodie
 - **Price (R12.1 embroidered):** pullover $39.99 + $5 chest = $44.99, compare-at $49.99.
 ---
 ## Log
+- 2026-10-17 director: camo items #288-299 go first in lane B (Sam: camo to 24 first).
 - 2026-10-16 23:24 UTC director: brief written, READY (lane B cold-weather, director run 11).
 - 2026-10-17 02:40 UTC [B]: built as DRAFT (product 15362618851632, 12 variants Sand + Light Pink S-3XL, $44.99/$49.99 = pullover $39.99 + $5 chest, Gildan 18500 #146, embroidery_chest_center, DTG back logo kept). Twin of #195: reused the chest embroidery file 1087865856 (black thread #000000, 3.13 x 3.63 in; the lettering already checked for two r's in purrsonal), no new art. Mockups via pf-emb-mockup.py (styles 1402/1403). Cover registry #467 (try 1, image 1 of 3; stitch lettering slightly soft), keyword cat hoodie 14800/42, audit-local PASS. Sync pid 482358175, 12/12. Sheet docs/review/286.jpg.
+- 2026-10-17 00:25 UTC director: approved from docs/review/286.jpg. ACTIVE + Online Store + Headless + Google, audit --handle PASS. LIVE.

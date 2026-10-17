@@ -354,3 +354,17 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 466 | Swedish-American woman in her early 30s, platinum-blonde low bun, no makeup, angular face | USED 2026-10-16 — try 2 (try 1 spelled it moral on the chest), image 3 of 3; stitch lettering slightly soft |
 | 467 | Indian-American woman in her mid 20s, short black bob with blunt bangs, nose ring | USED 2026-10-17 — #286 Purrsonal Space embroidered hoodie cover (try 1, image 1 of 3; stitch lettering slightly soft |
 | 468 | Ghanaian-American man in his mid 20s, shaved head, clean-shaven, very muscular build | USED 2026-10-17 — #287 Sore Since 1987 oversized hoodie cover (try 2 (try 1 showed short sleeves), image 2 of 3 |
+| 467 | Indian-American woman in her mid 20s, short black bob with blunt bangs, nose ring | USED 2026-10-16 — try 1, image 1 of 3; stitch lettering slightly soft |
+| 468 | Ghanaian-American man in his mid 20s, shaved head, clean-shaven, very muscular build | USED 2026-10-16 — try 2 (try 1 showed short sleeves), image 2 of 3 |
+| 469 | White man, mid 40s, short salt-and-pepper beard, ball cap pushed back, stocky build | RESERVED — #288 Sit Wait Snack cover |
+| 470 | Cajun white man, late 20s, dark curly hair under a beanie, short stubble, lean build | RESERVED — #289 Fake Friends Duck cover |
+| 471 | Black man, early 50s, full grey beard, bald, broad shoulders | RESERVED — #290 Long Beard Short Temper cover |
+| 472 | Native American man, late 30s, long black hair in a low ponytail, clean-shaven, tall build | RESERVED — #291 I'm Not Yelling I'm Bugling cover |
+| 473 | Korean-American man, early 30s, short black hair under a camo cap, thin mustache, average build | RESERVED — #292 Fluent in Honk cover |
+| 474 | White man, early 30s, red beard, short red hair, lean athletic build | RESERVED — #293 Full Draw Zero Deer cover |
+| 475 | White woman, mid 20s, long wavy auburn hair, light freckles, slim build | RESERVED — #294 Doe-Eyed and Dangerous cover |
+| 476 | Mexican-American woman, early 30s, long dark hair in a high ponytail, gold hoop earrings | RESERVED — #295 Deer Stand Princess cover |
+| 477 | White man, late 50s, white mustache, weathered face, flannel cap, heavyset | RESERVED — #296 Deer Camp No Signal cover |
+| 478 | Black woman, mid 20s, long box braids, gold jewelry, slim build | RESERVED — #297 Blending In Is Overrated cover |
+| 479 | Filipino-American man, early 40s, short black hair, trimmed goatee, average build | RESERVED — #298 Up Before the Ducks cover |
+| 480 | White woman, late 30s, shoulder-length blonde hair in a messy bun, light freckles | RESERVED — #299 Ducks in a Row cover |
