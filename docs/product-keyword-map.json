@@ -5306,6 +5306,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-alien-visiting-not-impressed-oversized-hoodie": {
+   "claimed": [
+    "alien hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "alien hoodie",
+     "volume": 1300,
+     "kd": 33
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
