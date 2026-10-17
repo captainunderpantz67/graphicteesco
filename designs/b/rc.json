@@ -1,0 +1,5 @@
+{"art": "designs/b/rc-a.png", "art_width": 0.9, "canvas": [3600, 4500], "gap": 30,
+ "lines": [
+  {"text": "TRAIL MIX", "font": "AlfaSlabOne-Regular.ttf", "size": 560, "fill": "#000000", "tracking": 0.05, "where": "below"},
+  {"text": "IS A PERSONALITY", "font": "AlfaSlabOne-Regular.ttf", "size": 380, "fill": "#000000", "tracking": 0.02, "where": "below"}
+ ]}

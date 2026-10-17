@@ -423,6 +423,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-western-yeehaw-but-quietly-crewneck-sweatshirt': { src: '/covers/womens-western-yeehaw-but-quietly-crewneck-sweatshirt.webp', alt: 'Woman in a sand Yeehaw but Quietly teacup western crewneck sweatshirt on a ranch porch at golden hour with a split-rail fence behind her, holding a tan felt hat at her side' },
   'mens-mountain-bike-pedal-pusher-heavyweight-hoodie': { src: '/covers/mens-mountain-bike-pedal-pusher-heavyweight-hoodie.webp', alt: 'Man in a Storm Blue Pedal Pusher Mostly Pushing mountain bike heavyweight hoodie with his hands in the pouch on an autumn forest trail, his bike leaning on a fence' },
   'womens-soccer-orange-slice-manager-zip-hoodie': { src: '/covers/womens-soccer-orange-slice-manager-zip-hoodie.webp', alt: 'Woman looking over her shoulder in a navy Orange Slice Manager zip hoodie, smiling on a youth soccer sideline with folding chairs and a goal behind her' },
+  'unisex-embroidered-raccoon-trail-mix-is-a-personality-hoodie': { src: '/covers/unisex-embroidered-raccoon-trail-mix-is-a-personality-hoodie.webp', alt: 'Man and woman in matching sand Raccoon Trail Mix Is a Personality embroidered hoodies at a fall forest trailhead, hands in the pouch pockets, small stitched chest design' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

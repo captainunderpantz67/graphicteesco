@@ -599,8 +599,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 428 | (reused as the brief specifies) | USED again 2026-10-17 — #252 The Turkey Is Fine crewneck cover redo (seedream, 1 attempt) |
 | 431 | (reused as the brief specifies) | USED again 2026-10-17 — #255 Technically a Vegetable tee cover redo (seedream, 1 attempt) |
 | 432 | (reused as the brief specifies) | USED again 2026-10-17 — #256 Technically a Vegetable crewneck cover redo (seedream, 1 attempt) |
-| 807 | Filipino-American woman, late 20s, shoulder-length black hair in a low ponytail, small silver hoops | CLAIMED 2026-10-17 — #485 Raccoon Trail Mix Is a Personality Hoodie cover (brief) |
-| 808 | white man, early 30s, curly light-brown hair, short beard, freckles | CLAIMED 2026-10-17 — #485 Raccoon Trail Mix Is a Personality Hoodie cover (brief) |
+| 807 | Filipino-American woman, late 20s, shoulder-length black hair in a low ponytail, small silver hoops | USED 2026-10-17 — #485 Raccoon Trail Mix hoodie cover (try 2 kept, 2 images; #808 man in same photo) |
+| 808 | white man, early 30s, curly light-brown hair, short beard, freckles | USED 2026-10-17 — #485 Raccoon Trail Mix cover (with #807) |
 | 809 | Moroccan-American woman, early 30s, long dark curly hair half up, gold hoop earrings, tortoiseshell glasses pushed up on her head | CLAIMED 2026-10-17 — #486 Goose Plot Twist Pending Crewneck Sweatshirt cover (brief) |
 | 810 | Black man, late 20s, short twists, clean-shaven, round wire glasses | CLAIMED 2026-10-17 — #487 University of Staying In Crewneck Sweatshirt cover (brief) |
 | 811 | Korean-American woman, mid 20s, long straight hair with curtain bangs, small gold studs | CLAIMED 2026-10-17 — #487 University of Staying In Crewneck Sweatshirt cover (brief) |

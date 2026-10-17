@@ -1,4 +1,5 @@
 status: BUILDING [B] 2026-10-18 09:40 UTC
+shopify: gid://shopify/Product/15364148101424
 lane: B
 type: new
 id: 485
@@ -28,3 +29,4 @@ kd: 41
 ---
 ## Log
 - 2026-10-17 20:27 UTC director: brief written, READY (Sam's 16 proof-first concepts, inbox 2026-10-17 19:30).
+- 2026-10-18 10:30 UTC builder [B]: art via Recraft, 2 images (~$0.08; try 1 was a sprawling line, try 2 compact raccoon + pine) + words set in AlfaSlabOne via PIL at exact width (not drawn by the model), emb-prep (strokes >= 1.56 mm), one thread #E25C27 burnt orange (reads on Sand and Navy); file designs/b/rc-emb.png 1060x1175 px = 3.5 x 3.9 in (fills 90% of the 4 in limit on width via the 1060 px; true scale, R4.8). Letters of IS A PERSONALITY are about 6 mm tall: small by nature at 4 in, the mockup shows them legible but tiny; director please judge. DRAFT gid 15364148101424 (12 var, $44.99 = 39.99 + 5, no compare-at, aa-1-13-13), FAQ 5 x 47-51 words incl. Dec 8, copy says embroidered/stitched. Printful file via pf-emb-sync (pid 482595998 running, flat stitch, back logo kept). v2 embroidery mockups Sand + Navy + back attached. Cover #807 + #808, 2 tries (~$0.08): try 1 she wore a crewneck with no hood; try 2 both hoodies with hoods, stitch at true scale. kw hiking hoodie 1300/41.
