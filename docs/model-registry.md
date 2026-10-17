@@ -403,8 +403,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 510 | Filipina-American woman, mid 20s, long straight black hair with a knit headband | RESERVED — #324 Sending It snowboard hoodie cover (with #509) |
 | 511 | Mexican-American man, mid 40s, short black hair greying at the temples, trimmed moustache, broad build | RESERVED — #325 I Stack Dimes welder hoodie cover |
 | 512 | White woman, early 30s, honey-blonde braid over one shoulder, light freckles, small pearl studs | RESERVED — #326 Busy Bee hoodie cover |
-| 513 | Black man, early 30s, short twists, neat beard | RESERVED — #327 Short Legs dachshund hoodie cover (with #514) |
-| 514 | South Asian woman, early 30s, shoulder-length dark wavy hair, small nose stud | RESERVED — #327 Short Legs dachshund hoodie cover (with #513) |
+| 513 | Black man, early 30s, short twists, neat beard | USED 2026-10-17 — #327 cover (seedream, 2 attempts: try 1 put the woman in a crewneck, try 2 kept)
+| 514 | South Asian woman, early 30s, shoulder-length dark wavy hair, small nose stud | USED 2026-10-17 — #327 cover (seedream, 2 attempts: try 1 put the woman in a crewneck, try 2 kept)
 | 515 | Native American man, mid 30s, long black hair tied back, clean-shaven | USED 2026-10-17 — #328 Lone Wolf hoodie cover (try 2, 2 images) |
 | 516 | Puerto Rican man, late 20s, short curly dark hair, light beard, round glasses | RESERVED — #329 Sleeves Optional dinosaur hoodie cover (with #517) |
 | 517 | White woman, late 20s, auburn shoulder-length hair with a center part, small silver studs | RESERVED — #329 Sleeves Optional dinosaur hoodie cover (with #516) |
