@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 309
@@ -20,3 +20,4 @@ kd: 10
 ## Log
 - 2026-10-17 02:26 UTC director: brief written, READY (low-KD sweep 2026-10-17, card step 5; keyword measured this run).
 - 2026-10-17 02:46 UTC [B]: built as DRAFT: twin of #262, Printful file 1087985526 (FW 1350), BC7502 Black + Storm (Peach is XL-only, so Black chosen as closest of the offered four), cover registry #492, synced 10/10, audit PASS. R6.2 lettering confirmed hand-drawn bubble-serif. Rust lettering is softer on Storm.
+- 2026-10-17 03:14 UTC director: approved from docs/review/309.jpg; ACTIVE + Online Store + Headless + Google; cohesion-audit --handle PASS (0 warn). LIVE.

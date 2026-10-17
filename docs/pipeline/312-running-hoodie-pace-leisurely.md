@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 312
@@ -23,3 +23,4 @@ kd: 26
 ## Log
 - 2026-10-17 02:26 UTC director: brief written, READY (low-KD sweep 2026-10-17, card step 5; keyword measured this run).
 - 2026-10-17 03:05 UTC [B]: built as DRAFT: new art (Recraft), Gildan 18500 Sand + Light Blue (swapped from Sand + Navy: dark brown linework would sink on Navy), FW 1500, Printful file 1087992348, registry #495+#496 (man and woman), synced 14/14, audit PASS. keyword running hoodie 5400/26. Lettering line is thin-ish but hand-drawn.
+- 2026-10-17 03:14 UTC director: approved from docs/review/312.jpg; ACTIVE + Online Store + Headless + Google; cohesion-audit --handle PASS (0 warn). LIVE.

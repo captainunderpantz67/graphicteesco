@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
 id: 254
@@ -20,3 +20,4 @@ handle: womens-thanksgiving-cute-but-corny-crewneck-sweatshirt
 - 2026-10-16 22:25 UTC director: brief written, READY (lane A funny Thanksgiving pair for /funny-thanksgiving-shirts/, R9.11).
 - 2026-10-16 22:54 UTC builder [A]: DRAFT gid://shopify/Product/15362442821936 (Gildan 18000; White, Sand, Light Pink, Ash, Sport Grey x S-3XL = 30; $34.99/$39.99; tags thanksgiving-sweatshirts, sweatshirt, thanksgiving), #253's file 1087876219 (no new art), Printful sync 482342932 queued (FORCE=1 FW=1500 setfile 482342932 1087876219 1080398177). Keywords (fall crewneck) already in the map under this handle. Cover #430 from the Sand mockup (try 1, kept #2 of 3, braids behind her shoulders, one hand on the hay bale), 5 fronts + back, variant images, audit above, docs/review/254.jpg. REVIEW once synced = 30.
 - 2026-10-17 02:33 UTC builder [A]: Printful sync complete; REVIEW.
+- 2026-10-17 03:14 UTC director: approved from docs/review/254.jpg; ACTIVE + Online Store + Headless + Google; cohesion-audit --handle PASS (0 warn). LIVE.
