@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: A
 type: twin
 id: 237
@@ -20,3 +20,7 @@ handle: womens-christmas-candy-cane-club-crewneck-sweatshirt
 - 2026-10-16 19:21 UTC director: brief written, READY (R7.3 holiday pair: this tee had no crewneck twin).
 - 2026-10-16 21:42 UTC builder [A]: DRAFT gid://shopify/Product/15362273083696 (Gildan 18000; White, Sand, Light Pink, Ash x S-3XL = 24; $34.99/$39.99; tags + christmas), tee file 1083074524 (no new art), Printful sync 482320956 queued (FORCE=1 FW=1500 setfile 482320956 1083074524 1080398177). Primary cute christmas sweatshirt 8,100/KD54 in map. Cover #411 (try 2: try 1 garbled the small 'Est. December' line; try 2 reads 'Est. December' closer but the tiny line is still soft, director may look), 5 fronts + back, variant images, audit PASS, docs/review/237.jpg. REVIEW once synced = 24.
 - 2026-10-17 00:21 UTC builder [A]: Printful sync complete; REVIEW.
+- 2026-10-17 00:25 UTC director: REDO.
+  1. R6.2 / R3.7.6: "Est. December" is a typeset bold book serif (dates count) and too small to read on the cover. Erase it in print-prep; the art reads without it.
+  2. R3.7.6: CANDY CANE CLUB reads as a clean display serif (identical letters, even spacing). Re-letter it by hand with one lettering-only Recraft generation composed in print-prep (the #234 method), same arch and width.
+  3. R5.3.8: the white blob at the top of the center cane is pure white, not planned cream; knock it out or tint it cream. Then re-link, new mockups and one new cover (R6.7). The live tee keeps its art (R3.9).
