@@ -501,3 +501,10 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 608 | Korean-American woman, mid 20s, long dark hair with a red ribbon bow, small pearl earrings | RESERVED — #415 Cherry Picking My Battles Hoodie cover |
 | 609 | Vietnamese-American woman, about 20, short black bob with a clip, round glasses | RESERVED — #416 Berry Introverted Oversized Hoodie cover |
 | 610 | Puerto Rican man, late 20s, short fade, light beard | RESERVED — #417 Apex Napper Oversized Hoodie cover |
+| 611 | white man, late 30s, reddish beard, sun-creased eyes, faded cap pushed back | RESERVED — #418 Reel Talk Hoodie cover |
+| 612 | Filipina woman, early 20s, long black hair in a claw clip, butterfly hair pins | RESERVED — #419 Low Battery Zip Hoodie cover |
+| 613 | Black woman, mid 20s, short natural coils, thin gold-rim glasses | RESERVED — #420 Still Loading Zip Hoodie cover |
+| 614 | Japanese-American woman, mid 20s, blunt bangs, small hoop earrings | RESERVED — #421 Slurp Responsibly Half Zip cover |
+| 615 | Samoan-American man, mid 20s, broad build, black hair in a short top knot | RESERVED — #422 Gym Rat Hoodie cover |
+| 616 | Taiwanese-American man, late 20s, messy undercut, silver chain | RESERVED — #423 Kaiju Naps Zip Hoodie cover |
+| 617 | Mexican-American man, early 40s, salt-and-pepper stubble, tan work cap | RESERVED — #424 Reel Talk Zip Hoodie cover |
