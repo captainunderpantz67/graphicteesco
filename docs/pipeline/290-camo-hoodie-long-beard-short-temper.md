@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: new
 id: 290
@@ -22,3 +22,4 @@ handle: mens-hunting-long-beard-short-temper-camo-hoodie
 ---
 ## Log
 - 2026-10-17 director: brief written, READY (lane B camo push to 24, Sam 2026-10-17; keyword measured this run).
+- 2026-10-17 05:10 UTC [B]: built as DRAFT (product 15362680881456, 14 variants Darkwood Tree Camo + Forest Camo XS-3XL, $49.99/$54.99, IND4000/#1543). New art: Recraft v4 try 1 (LONG BEARD / SHORT TEMPER spelling checked; no comma after BEARD, the joke reads without it), print-prep 3600 x 5169 + camo-halo.py cream underlay (close 100, halo 20), Printful file 1087931762, FW 1200 TOP 0 (8 in wide, 11.5 in tall, clear of the pocket). Both camos read. Back logo, mockups, variant images, cover registry #471 (try 2: try 1 showed the print on a t-shirt under an open camo jacket; image 1 of 3), keyword turkey hoodie 390/31, audit-local PASS (cover alt fixed to start with Man). Sync pid 482362265, 14/14. Sheet docs/review/290.jpg.

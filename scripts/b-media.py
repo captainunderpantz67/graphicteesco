@@ -9,7 +9,8 @@ vars_, mk, base, v0, m0 = A[:5]; pairs = [p.split('=') for p in A[5:]]; v0, m0 =
 d = json.load(open(vars_))['input']; mk = json.load(open(mk))
 fk, bk = ('front', 'back') if emb else ('front:main', 'back:main')
 media = [{'originalSource': mk[vid][fk], 'alt': f'{base}, {c}, front view', 'mediaContentType': 'IMAGE'} for c, vid in pairs]
-media.append({'originalSource': mk[pairs[0][1]][bk], 'alt': f'{base}, back view with Graphic Tees Co. neck logo', 'mediaContentType': 'IMAGE'})
+bsrc = mk[pairs[0][1]].get(bk) or mk[pairs[0][1]].get('front:Back') or mk[pairs[0][1]]['back:Back']
+media.append({'originalSource': bsrc, 'alt': f'{base}, back view with Graphic Tees Co. neck logo', 'mediaContentType': 'IMAGE'})
 print(json.dumps(media))
 cols = [c for c, _ in pairs]; vm = []
 for i, v in enumerate(d['variants']):
