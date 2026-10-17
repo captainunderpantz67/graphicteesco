@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 RUNNING director since 2026-10-17 08:12 UTC
-=======
 2026-10-17 08:12 UTC — [A] REVIEW #374 Spill the Gravy aunt hoodie (twin, Sand + Navy, FW 1700)
->>>>>>> 0a08bec ([A] review 374 Spill the Gravy aunt hoodie (twin, Sand + Navy, FW 1700))
 2026-10-17 08:10 UTC — [A] REVIEW #373 Merry Woofmas festive hoodie (twin, Sand + Navy, FW 1500 cropped)
 2026-10-17 08:04 UTC — [A] REVIEW #372 Jolly-ish xmas hoodie (twin, Sand + Navy, FW 1700, temp cover 1654)
 2026-10-17 08:06 UTC — [B] Builder run summary (temp-cover mode, no fal): REVIEW #383 Y2K Still Loading hoodie (Sand+Navy, FW1500, temp cover), #384 Hot Mess Express oversized sweatshirt (Dust+Navy, FW1650, cover PENDING: Printful has no women's lifestyle style for blank #897), #377 Charting Is My Cardio crewneck (Sand+Navy, FW1650, temp cover self-graded SWAP). Blocked, left READY with log notes (R6.2 typeset lettering needs a fal re-letter): #378 #379 #380 #381 #382 #385 (#385 half zip also has no large front placement). Price fixes: compare-at cleared on 7 lane B products (reel talk, goal digger, hut hut, pitch please, charting tees; IV League, back pew tees); ~39 lane B left, about 6k tokens each by hand. Lock released.
