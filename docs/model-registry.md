@@ -437,3 +437,19 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 544 | White woman, early 30s, red hair in a messy bun, freckles | RESERVED — #353 Plot Twist Hoodie cover |
 | 545 | Man AND woman together: white man, mid 40s, sandy beard, ball cap; Native American woman, early 40s, long black braid | RESERVED — #354 Lake Life Zip Hoodie cover |
 | 546 | Black man, early 30s, shaved head, athletic build | RESERVED — #355 Leg Day Survivor Heavyweight Hoodie cover |
+| 547 | Mexican-American woman, early 30s, long dark braid, small silver concho earrings | RESERVED — #356 Saturday Night Rodeo Hoodie cover |
+| 548 | White woman, early 20s, curly strawberry-blonde hair, freckles, small gold hoops | RESERVED — #357 Wildly Low Maintenance Cropped Hoodie cover |
+| 549 | Black woman, mid 20s, long box braids in a high ponytail, athletic build | RESERVED — #358 Bump Set Nap Hoodie cover |
+| 550 | Man AND woman together: Vietnamese-American man, late 20s, bleached buzz cut; white woman, mid 20s, black curtain bangs, silver hoops | RESERVED — #359 Visiting Not Impressed Oversized Hoodie cover |
+| 551 | Brazilian-American man, mid 30s, short dark curls, light stubble | RESERVED — #360 Fast Car Slow Mornings Heavyweight Hoodie cover |
+| 552 | White man, late 60s, white beard, flannel shirt collar showing | RESERVED — #361 I Fix Things After Naps Crewneck Sweatshirt cover |
+| 553 | Latina woman, late 30s, shoulder-length highlighted waves, small gold cross necklace | RESERVED — #362 Here for the Sunflower Seeds Hoodie cover |
+| 554 | Man AND woman together: Black man, early 40s, short beard, knit beanie; white woman, late 30s, blonde braid | RESERVED — #363 Went Outside It Was Fine Heavyweight Hoodie cover |
+| 555 | South Asian-American woman, late 30s, shoulder-length layered hair, small stud earrings | RESERVED — #364 Orange Slice Manager Zip Hoodie cover |
+| 556 | White man, early 30s, tattooed forearms, short dark undercut, light beard | RESERVED — #365 Dead Serious Zip Hoodie cover |
+| 557 | Native Hawaiian woman, late 20s, long wavy dark hair, small shell earrings | RESERVED — #366 Low Tide Low Effort Oversized Hoodie cover |
+| 558 | Puerto Rican man, mid 40s, salt-and-pepper goatee, short hair | RESERVED — #367 Not Stopping Hold It Hoodie cover |
+| 559 | Man AND woman together: Navajo man, early 50s, grey ponytail, felt hat; white woman, mid 40s, sandy shag haircut | RESERVED — #368 Lucky Horseshoe Ranch Heavyweight Hoodie cover |
+| 560 | Mexican-American woman, early 20s, long wavy dark hair, turquoise ring | RESERVED — #369 Desert Bloom Cropped Hoodie cover |
+| 561 | Korean-American man, late 30s, short black hair, wire glasses, light stubble | RESERVED — #370 Mountains Called Left on Read Hoodie cover |
+| 562 | White woman, mid 30s, wavy chestnut lob, small gold hoops | RESERVED — #371 Sunny Disposition Mostly Zip Hoodie cover |

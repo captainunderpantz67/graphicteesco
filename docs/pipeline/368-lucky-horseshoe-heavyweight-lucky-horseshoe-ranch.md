@@ -1,0 +1,26 @@
+status: READY
+lane: A
+type: twin
+id: 368
+handle: unisex-western-lucky-horseshoe-ranch-heavyweight-hoodie
+kd: 32
+---
+## Unisex Western – Lucky Horseshoe Ranch Heavyweight Hoodie
+- **Twin of:** the live tee `unisex-western-lucky-horseshoe-graphic-tee`. R6.2 FAILS as is: the tee art sits inside an arch with a straight post frame and the arched name line looks typeset. This twin gets ONE frameless redraw (one Recraft generation): same horseshoe, crossed branding irons, rope and stars, no arch, no posts. Log the check (R6.2).
+- **Blank:** Heavyweight Independent Trading IND4000 (Printful #1543). Front print FW 1500+; hang it low enough that the drawcords clear the top line where the template allows (R5.3.2). Copy facts from the Printful spec only (R7.1).
+- **Text on shirt:** LUCKY HORSESHOE / RANCH in hand-drawn worn western capitals, above and below the horseshoe (no arch frame). All lettering hand-drawn (R3.7.6), spelled exactly; read every word on the darkest mockup at about 400 px wide before REVIEW; knock out white counters (R5.3.8).
+- **Hook:** Same design as the live tee (twins carry the original line, R3.9), redrawn without the arch: a lucky horseshoe for the ranch-life crowd; unisex.
+- **Why it's not taken:** Same design as our live tee; Etsy's lucky hoodies are clover and casino prints, not a ranch horseshoe.
+- **Style:** A, vintage, worn edges (R4.2).
+- **Art prompt (Recraft v4, one image per call, the one redraw generation):** "Vintage 1960s western screen-print illustration: a worn iron horseshoe opening upward, two crossed branding irons behind it and a coiled lasso rope around its base, a few small stars. Hand-drawn worn western capitals above reading exactly 'LUCKY HORSESHOE' and below reading exactly 'RANCH'. Palette: rust, cream, mustard, sage, soft black linework. Worn screen-print texture, edges break up. The horseshoe is the shape. Isolated on plain background, no background shape, no frame, no arch, no posts, no border, no badge, no dark patch."
+- **Colors:** Sandstone + Storm Blue (R7.1), cream-backed lettering on Storm Blue.
+- **Primary keyword:** lucky hoodie — 320 / KD 32 (RankHero 2026-10-17, director; US share 66%). Unowned in docs/product-keyword-map.json; record it there. Supporting once each via `scripts/keyword-gap.py` with 2 design seeds. Use the primary where a person would say it: title-area copy, H1, the first sentence (with the joke and the occasion, R9.11) and once in the meta; no stuffing (R8.2–R8.3). Answer-first FAQs (fit, care, sizing, gift timing) per R8.7.
+- **Popularity evidence (R5.2):** Lucky Horseshoe tee LIVE (couple cover); western-hoodies has 3 of 14; lucky hoodie 320/32 is the easiest unclaimed western phrase measured (western hoodie men/women return no data).
+- **Cover:** registry #559, Man AND woman together: Navajo man, early 50s, grey ponytail, felt hat; white woman, mid 40s, sandy shag haircut. Scene: a ranch barn doorway at golden hour, hay bales behind them, both hoods visible, hands in pockets. Alt starts "Man and woman" (R6.3). Real garment with the hood visible on hoodies, generated with the product's own Printful mockup in the cover color as `--design` (--n 1); nothing (hand, cup, hair, hood, drawcord, another person) over any part of the print; read every word before saving (R6.7–R6.9). No alcohol, tools or weapons (R6.5).
+- **Title / handle:** "Unisex Western – Lucky Horseshoe Ranch Heavyweight Hoodie" / `unisex-western-lucky-horseshoe-ranch-heavyweight-hoodie` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** western-hoodies, heavyweight-hoodies, graphic-hoodies-for-men, graphic-hoodies-for-women, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
+- **Price:** $49.99 (R12.1 heavyweight), no compare-at (R12.1 honest compare-at).
+- **Pre-build while fal is empty:** the redraw needs one Recraft generation, so build the full Shopify DRAFT now (status ART-NEXT) and finish art + cover when fal returns.
+---
+## Log
+- 2026-10-17 06:19 UTC director: brief written, READY (2026-10-17 morning sweep: no unclaimed KD ≤ 20 hoodie/sweatshirt phrase with volume left in RankHero; this is the KD 21–40 band, highest volume first; keyword measured this run).
