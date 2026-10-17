@@ -4909,6 +4909,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-christmas-white-elephant-champion-graphic-tee": {
+   "claimed": [
+    "white elephant shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "white elephant shirt",
+     "volume": 70,
+     "kd": 43
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: A
 type: new
 id: 275
 handle: mens-christmas-white-elephant-champion-graphic-tee
+shopify: gid://shopify/Product/15363031269680
 kd: 43
 ---
 ## Men's Christmas – White Elephant Champion Tee
@@ -22,3 +23,4 @@ kd: 43
 ---
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).
+- 2026-10-17 04:39 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363031269680 (BC 3001, 7 colors x S-4XL = 47 variants, $24.99 no compare-at, category tees; keyword white elephant shirt 70/KD43; crewneck twin #276 waits on this art). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
