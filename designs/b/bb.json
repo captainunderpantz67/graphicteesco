@@ -1,0 +1,5 @@
+{"art": "designs/b/bb-a.png", "art_width": 0.92, "canvas": [3600, 4500], "gap": 10,
+ "lines": [
+  {"text": "Here for the", "font": "Yellowtail-Regular.ttf", "size": 700, "fill": "#f4e6c6", "stroke": 26, "stroke_fill": "#16275a", "where": "above"},
+  {"text": "SUNFLOWER SEEDS", "font": "AlfaSlabOne-Regular.ttf", "size": 420, "fill": "#e9b44c", "stroke": 22, "stroke_fill": "#16275a", "tracking": 0.02, "where": "below"}
+ ]}

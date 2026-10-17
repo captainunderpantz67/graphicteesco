@@ -382,6 +382,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-introvert-i-have-plans-hoodie': { src: '/covers/unisex-introvert-i-have-plans-hoodie.webp', alt: 'Man and woman in matching navy I Have Plans hoodies on a bookshop window seat on a rainy afternoon, hands in their pouch pockets' },
   'mens-christmas-attending-under-protest-crewneck-sweatshirt': { src: '/covers/mens-christmas-attending-under-protest-crewneck-sweatshirt.webp', alt: 'Man in a navy Attending Under Protest crewneck sweatshirt with a grumpy cross-stitch reindeer, standing deadpan at a decorated Christmas party' },
   'womens-capybara-out-of-office-soaking-oversized-hoodie': { src: '/covers/womens-capybara-out-of-office-soaking-oversized-hoodie.webp', alt: 'Woman in a navy Out of Office capybara oversized hoodie, smiling on a lakeside cabin deck at golden hour with a steaming mug on the rail' },
+  'womens-baseball-here-for-the-sunflower-seeds-hoodie': { src: '/covers/womens-baseball-here-for-the-sunflower-seeds-hoodie.webp', alt: 'Woman in a sand Here for the Sunflower Seeds hoodie on youth baseball bleachers in fall with a chain-link backstop behind her, hands in the pouch pocket' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

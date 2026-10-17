@@ -443,7 +443,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 550 | Man AND woman together: Vietnamese-American man, late 20s, bleached buzz cut; white woman, mid 20s, black curtain bangs, silver hoops | USED 2026-10-16 — #359 Visiting Not Impressed oversized hoodie cover (seedream, 2 attempts) |
 | 551 | Brazilian-American man, mid 30s, short dark curls, light stubble | RESERVED — #360 Fast Car Slow Mornings Heavyweight Hoodie cover |
 | 552 | White man, late 60s, white beard, flannel shirt collar showing | RESERVED — #361 I Fix Things After Naps Crewneck Sweatshirt cover |
-| 553 | Latina woman, late 30s, shoulder-length highlighted waves, small gold cross necklace | RESERVED — #362 Here for the Sunflower Seeds Hoodie cover |
+| 553 | Latina woman, late 30s, shoulder-length highlighted waves, small gold cross necklace | USED 2026-10-17 — #362 Sunflower Seeds hoodie cover (try 1, image 1 of 1) |
 | 554 | Man AND woman together: Black man, early 40s, short beard, knit beanie; white woman, late 30s, blonde braid | RESERVED — #363 Went Outside It Was Fine Heavyweight Hoodie cover |
 | 555 | South Asian-American woman, late 30s, shoulder-length layered hair, small stud earrings | RESERVED — #364 Orange Slice Manager Zip Hoodie cover |
 | 556 | White man, early 30s, tattooed forearms, short dark undercut, light beard | RESERVED — #365 Dead Serious Zip Hoodie cover |
