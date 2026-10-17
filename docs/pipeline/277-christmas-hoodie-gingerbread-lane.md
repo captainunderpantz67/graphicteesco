@@ -1,9 +1,10 @@
-status: READY
+status: REVIEW
 lane: A
 type: twin
 id: 277
 handle: womens-christmas-gingerbread-lane-hoodie
 kd: 49
+cover: temp
 ---
 ## Women's Christmas – Gingerbread Lane Hoodie
 - **Twin of #144 Gingerbread Lane (the frameless redraw that is LIVE on the crewneck):** reuse the approved print file; no new art generation. First do the R6.2 lettering check and log it.
@@ -19,3 +20,4 @@ kd: 49
 ---
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).
+- 2026-10-17 05:02 UTC [A] (temp-cover mode, no fal): twin of #144 frameless redraw (Printful file 1087725265, 3600x2330, FW 1500 TOP 0, no new art). Lettering check: the art has no text, ring, arch, disc or panel; snow edge ragged and cream reads on Navy. Shopify DRAFT gid://shopify/Product/15363054567728 (Gildan 18500, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category hoodies, tags incl. graphic-hoodies-for-women), synced 12/12 (482393864), 2 fronts + back, variant images, keyword gingerbread hoodie 260/49 recorded. TEMP COVER Printful Women's Lifestyle (style 1421, Sand, smiling woman, hands in pocket, print fully visible); registry #457 left RESERVED for the real cover. Audit PASS (scripts/audit-local.py now sets createdAt and null compare-at).

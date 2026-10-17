@@ -5032,6 +5032,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-gingerbread-lane-hoodie": {
+   "claimed": [
+    "gingerbread hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "gingerbread hoodie",
+     "volume": 260,
+     "kd": 49
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

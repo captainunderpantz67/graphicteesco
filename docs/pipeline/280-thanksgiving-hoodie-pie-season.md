@@ -19,3 +19,4 @@ kd: 54
 ---
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).
+- 2026-10-17 05:02 UTC [A]: not built in temp-cover mode. R6.2 check on the #137 file: 'Pie Season' is a smooth typeset script (even stroke, white letter counters) and the brief's hook IS that line, so it needs a hand re-letter (one Recraft lettering generation) which needs fal. Stays READY; build when fal is funded.
