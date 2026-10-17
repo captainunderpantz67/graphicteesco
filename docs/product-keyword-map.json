@@ -5494,6 +5494,32 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-western-lucky-horseshoe-ranch-heavyweight-hoodie": {
+   "claimed": [
+    "lucky hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "lucky hoodie",
+     "volume": 320,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-western-desert-bloom-cropped-hoodie": {
+   "claimed": [
+    "cactus hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cactus hoodie",
+     "volume": 590,
+     "kd": 36
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

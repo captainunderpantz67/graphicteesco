@@ -1,4 +1,5 @@
 RUNNING lane A since 2026-10-17 06:57 UTC
+2026-10-17 07:11 UTC — [A] ART-NEXT #368 lucky horseshoe ranch heavyweight hoodie + #369 desert bloom cropped hoodie (Shopify drafts, no art yet)
 2026-10-17 07:10 UTC — [A] ART-NEXT #371 womens-sunflower-sunny-disposition-mostly-zip-hoodie (Shopify draft, no art yet)
 2026-10-17 07:09 UTC — [A] ART-NEXT #370 mens-outdoors-mountains-called-left-on-read-hoodie (Shopify draft, no art yet)
 2026-10-17 07:08 UTC — [A] ART-NEXT #280 womens-thanksgiving-pie-season-pumpkin-hoodie (Shopify draft; re-letter when fal returns)

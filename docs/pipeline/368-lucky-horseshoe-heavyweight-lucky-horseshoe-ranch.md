@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: A
 type: twin
 id: 368
 handle: unisex-western-lucky-horseshoe-ranch-heavyweight-hoodie
+shopify: gid://shopify/Product/15363193045296
 kd: 32
 ---
 ## Unisex Western – Lucky Horseshoe Ranch Heavyweight Hoodie
@@ -24,3 +25,4 @@ kd: 32
 ---
 ## Log
 - 2026-10-17 06:19 UTC director: brief written, READY (2026-10-17 morning sweep: no unclaimed KD ≤ 20 hoodie/sweatshirt phrase with volume left in RankHero; this is the KD 21–40 band, highest volume first; keyword measured this run).
+- 2026-10-17 07:11 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363193045296 (IND4000 heavyweight, Sandstone + Storm Blue x XS-3XL = 14, $49.99 no compare-at, category hoodies; keyword lucky hoodie 320/KD32; frameless redraw (no arch/posts) needs one Recraft generation when fal returns). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
