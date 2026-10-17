@@ -1,0 +1,5 @@
+{"art": "designs/b/tu-a.png", "art_width": 0.62, "canvas": [3600, 4800], "gap": -60,
+ "lines": [
+  {"text": "TIED UP", "font": "AlfaSlabOne-Regular.ttf", "size": 1000, "fill": "#b3282d", "stroke": 22, "stroke_fill": "#f3e7cf", "tracking": 0.03, "where": "above"},
+  {"text": "for the holidays", "font": "Yellowtail-Regular.ttf", "size": 640, "fill": "#1f5a3a", "stroke": 18, "stroke_fill": "#f3e7cf", "where": "below"}
+ ]}

@@ -392,7 +392,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 499 | Vietnamese-American man, mid 30s, short textured black hair, clean-shaven, ball cap off | USED 2026-10-17 — #315 Catch and Release hoodie cover (try 1, image 2 of 3) |
 | 500 | White man, late 20s, buzz cut, full dark beard, heavy powerlifter build | RESERVED — #316 Deadlift Skeleton oversized hoodie cover |
 | 501 | Native American man, mid 30s, long black hair in a low ponytail, clean-shaven | RESERVED — #317 Cowboy Up Later crewneck cover |
-| 502 | Lebanese-American woman, early 30s, long dark wavy hair, bold red lipstick, gold hoop earrings | RESERVED — #318 Tied Up for the Holidays crewneck cover |
+| 502 | Lebanese-American woman, early 30s, long dark wavy hair, bold red lipstick, gold hoop earrings | USED 2026-10-16 — #318 Tied Up for the Holidays crewneck cover (try 2 kept, 2 images, try 1 used the wrong person) |
 | 503 | Chinese-American woman, late 20s, glossy black bob with bangs, pearl stud earrings | RESERVED — #319 Tied Up for the Holidays tee cover |
 | 504 | Black woman, mid 40s, natural shoulder-length curls, small pearl earrings, warm smile | RESERVED — #320 Be Still heavyweight hoodie cover |
 | 505 | Japanese-American man, early 20s, messy black hair, wire glasses, slim | RESERVED — #321 Kaiju Naps crewneck cover (with #506) |
