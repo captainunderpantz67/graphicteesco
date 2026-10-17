@@ -1,11 +1,11 @@
-# Cohesion audit — 2026-10-17 05:43 UTC
+# Cohesion audit — 2026-10-17 06:19 UTC
 
-295 live products checked · **120 errors** · 9 warnings · 128 products with findings
+298 live products checked · **95 errors** · 9 warnings · 103 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
-- 120 × Price ./. — should be ./- on every variant.
+- 95 × Price ./. — should be ./- on every variant.
 
 ## By product (errors first)
 ### Women's Thanksgiving – Gobble Gobble Turkey Tee `womens-thanksgiving-gobble-gobble-graphic-tee`
@@ -204,32 +204,8 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Men's Christmas – Resting My Eyes Crewneck Sweatshirt `mens-christmas-resting-my-eyes-crewneck-sweatshirt`
 - **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
 
-### Men's Hunting – Opening Day Camo Hoodie `mens-hunting-opening-day-camo-hoodie`
-- **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
-
-### Men's Hunting – No Deer Today Camo Hoodie `mens-hunting-no-deer-today-camo-hoodie`
-- **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
-
-### Men's Hunting – Professional Tree Sitter Camo Hoodie `mens-hunting-professional-tree-sitter-camo-hoodie`
-- **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
-
-### Men's Gym – Study in Hypertrophy Oversized Hoodie `mens-gym-study-in-hypertrophy-oversized-hoodie`
-- **ERROR** Price 54.99/59.99 (price/compare-at) — should be 54.99/- on every variant. → Set every variant to price 54.99, no compare-at.
-
-### Men's Fishing – Reel Talk Half Zip `mens-fishing-reel-talk-half-zip`
-- **ERROR** Price 54.99/59.99 (price/compare-at) — should be 54.99/- on every variant. → Set every variant to price 54.99, no compare-at.
-
-### Women's Embroidered – Whisk Taker Matcha Crewneck Sweatshirt `womens-embroidered-whisk-taker-matcha-crewneck-sweatshirt`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Embroidered – Morel Support Mushroom Crewneck Sweatshirt `womens-embroidered-morel-support-mushroom-crewneck-sweatshirt`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
 ### Women's Christmas – Snow Problem Tee `womens-christmas-snow-problem-graphic-tee`
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Women's Embroidered – Purrsonal Space Cat Crewneck Sweatshirt `womens-embroidered-purrsonal-space-cat-crewneck-sweatshirt`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 34.99, no compare-at.
 
 ### Women's Christmas – Snow Problem Crewneck Sweatshirt `womens-christmas-snow-problem-crewneck-sweatshirt`
 - **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
@@ -246,59 +222,8 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Women's Thanksgiving – Cute But Corny Crewneck Sweatshirt `womens-thanksgiving-cute-but-corny-crewneck-sweatshirt`
 - **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
 
-### Men's Gym – Conflict Resolution Oversized Sweatshirt `mens-gym-conflict-resolution-oversized-sweatshirt`
-- **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
-
-### Women's Bookish – Plot Twist Oversized Sweatshirt `womens-bookish-plot-twist-oversized-sweatshirt`
-- **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
-
-### Women's Frog – Not Toad-ay Zip Hoodie `womens-frog-not-toad-ay-zip-hoodie`
-- **ERROR** Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant. → Set every variant to price 44.99, no compare-at.
-
 ### Unisex Thanksgiving – Kids Table Alumni Tee `unisex-thanksgiving-kids-table-alumni-graphic-tee`
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Women's Y2K – Hot Mess Express Zip Hoodie `womens-y2k-hot-mess-express-zip-hoodie`
-- **ERROR** Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant. → Set every variant to price 44.99, no compare-at.
-
-### Women's Embroidered – On My Own Time Snail Hoodie `womens-embroidered-on-my-own-time-snail-hoodie`
-- **ERROR** Price 47.99/52.99 (price/compare-at) — should be 44.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
-### Men's Embroidered – Eau de Campfire Hoodie `mens-embroidered-eau-de-campfire-hoodie`
-- **ERROR** Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
-### Women's Christian – Be Still Crewneck Sweatshirt `womens-christian-be-still-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Christian – Light of the World Jesus Crewneck Sweatshirt `womens-christian-light-of-the-world-jesus-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Christian – Ewe Are Loved Lamb Crewneck Sweatshirt `womens-christian-ewe-are-loved-lamb-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Christian – Casserole Ministry Crewneck Sweatshirt `womens-christian-casserole-ministry-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Nurse – Don't Say the Q Word Crewneck Sweatshirt `womens-nurse-dont-say-the-q-word-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Mama – I Have Followers Duck Crewneck Sweatshirt `womens-mama-i-have-followers-duck-crewneck-sweatshirt`
-- **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Embroidered – Morel Support Mushroom Hoodie `womens-embroidered-morel-support-mushroom-hoodie`
-- **ERROR** Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
-### Women's Embroidered – Purrsonal Space Cat Hoodie `womens-embroidered-purrsonal-space-cat-hoodie`
-- **ERROR** Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
-### Men's Gym – Sore Since 1987 Oversized Hoodie `mens-gym-sore-since-1987-oversized-hoodie`
-- **ERROR** Price 54.99/59.99 (price/compare-at) — should be 54.99/- on every variant. → Set every variant to price 54.99, no compare-at.
-
-### Men's Hunting – Sit Wait Snack Camo Hoodie `mens-hunting-sit-wait-snack-camo-hoodie`
-- **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
-
-### Men's Hunting – Fake Friends Duck Camo Hoodie `mens-hunting-fake-friends-duck-camo-hoodie`
-- **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
 
 ### Men's Hunting – Long Beard Short Temper Camo Hoodie `mens-hunting-long-beard-short-temper-camo-hoodie`
 - **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.

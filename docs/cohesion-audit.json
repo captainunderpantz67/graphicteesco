@@ -1,6 +1,6 @@
 {
- "at": "2026-10-17T05:43:07.391Z",
- "products": 295,
+ "at": "2026-10-17T06:19:50.938Z",
+ "products": 298,
  "findings": [
   {
    "level": "WARN",
@@ -515,66 +515,10 @@
   },
   {
    "level": "ERROR",
-   "handle": "mens-hunting-opening-day-camo-hoodie",
-   "title": "Men's Hunting – Opening Day Camo Hoodie",
-   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
-   "fix": "Set every variant to price 49.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-hunting-no-deer-today-camo-hoodie",
-   "title": "Men's Hunting – No Deer Today Camo Hoodie",
-   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
-   "fix": "Set every variant to price 49.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-hunting-professional-tree-sitter-camo-hoodie",
-   "title": "Men's Hunting – Professional Tree Sitter Camo Hoodie",
-   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
-   "fix": "Set every variant to price 49.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-gym-study-in-hypertrophy-oversized-hoodie",
-   "title": "Men's Gym – Study in Hypertrophy Oversized Hoodie",
-   "msg": "Price 54.99/59.99 (price/compare-at) — should be 54.99/- on every variant.",
-   "fix": "Set every variant to price 54.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-fishing-reel-talk-half-zip",
-   "title": "Men's Fishing – Reel Talk Half Zip",
-   "msg": "Price 54.99/59.99 (price/compare-at) — should be 54.99/- on every variant.",
-   "fix": "Set every variant to price 54.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-embroidered-whisk-taker-matcha-crewneck-sweatshirt",
-   "title": "Women's Embroidered – Whisk Taker Matcha Crewneck Sweatshirt",
-   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-embroidered-morel-support-mushroom-crewneck-sweatshirt",
-   "title": "Women's Embroidered – Morel Support Mushroom Crewneck Sweatshirt",
-   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
    "handle": "womens-christmas-snow-problem-graphic-tee",
    "title": "Women's Christmas – Snow Problem Tee",
    "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
    "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-embroidered-purrsonal-space-cat-crewneck-sweatshirt",
-   "title": "Women's Embroidered – Purrsonal Space Cat Crewneck Sweatshirt",
-   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
   },
   {
    "level": "ERROR",
@@ -613,129 +557,10 @@
   },
   {
    "level": "ERROR",
-   "handle": "mens-gym-conflict-resolution-oversized-sweatshirt",
-   "title": "Men's Gym – Conflict Resolution Oversized Sweatshirt",
-   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
-   "fix": "Set every variant to price 49.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-bookish-plot-twist-oversized-sweatshirt",
-   "title": "Women's Bookish – Plot Twist Oversized Sweatshirt",
-   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
-   "fix": "Set every variant to price 49.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-frog-not-toad-ay-zip-hoodie",
-   "title": "Women's Frog – Not Toad-ay Zip Hoodie",
-   "msg": "Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant.",
-   "fix": "Set every variant to price 44.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
    "handle": "unisex-thanksgiving-kids-table-alumni-graphic-tee",
    "title": "Unisex Thanksgiving – Kids Table Alumni Tee",
    "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
    "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-y2k-hot-mess-express-zip-hoodie",
-   "title": "Women's Y2K – Hot Mess Express Zip Hoodie",
-   "msg": "Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant.",
-   "fix": "Set every variant to price 44.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-embroidered-on-my-own-time-snail-hoodie",
-   "title": "Women's Embroidered – On My Own Time Snail Hoodie",
-   "msg": "Price 47.99/52.99 (price/compare-at) — should be 44.99/- on every variant.",
-   "fix": "Set every variant to price 39.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-embroidered-eau-de-campfire-hoodie",
-   "title": "Men's Embroidered – Eau de Campfire Hoodie",
-   "msg": "Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant.",
-   "fix": "Set every variant to price 39.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christian-be-still-crewneck-sweatshirt",
-   "title": "Women's Christian – Be Still Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christian-light-of-the-world-jesus-crewneck-sweatshirt",
-   "title": "Women's Christian – Light of the World Jesus Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christian-ewe-are-loved-lamb-crewneck-sweatshirt",
-   "title": "Women's Christian – Ewe Are Loved Lamb Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christian-casserole-ministry-crewneck-sweatshirt",
-   "title": "Women's Christian – Casserole Ministry Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-nurse-dont-say-the-q-word-crewneck-sweatshirt",
-   "title": "Women's Nurse – Don't Say the Q Word Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-mama-i-have-followers-duck-crewneck-sweatshirt",
-   "title": "Women's Mama – I Have Followers Duck Crewneck Sweatshirt",
-   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
-   "fix": "Set every variant to price 34.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-embroidered-morel-support-mushroom-hoodie",
-   "title": "Women's Embroidered – Morel Support Mushroom Hoodie",
-   "msg": "Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant.",
-   "fix": "Set every variant to price 39.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-embroidered-purrsonal-space-cat-hoodie",
-   "title": "Women's Embroidered – Purrsonal Space Cat Hoodie",
-   "msg": "Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant.",
-   "fix": "Set every variant to price 39.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-gym-sore-since-1987-oversized-hoodie",
-   "title": "Men's Gym – Sore Since 1987 Oversized Hoodie",
-   "msg": "Price 54.99/59.99 (price/compare-at) — should be 54.99/- on every variant.",
-   "fix": "Set every variant to price 54.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-hunting-sit-wait-snack-camo-hoodie",
-   "title": "Men's Hunting – Sit Wait Snack Camo Hoodie",
-   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
-   "fix": "Set every variant to price 49.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-hunting-fake-friends-duck-camo-hoodie",
-   "title": "Men's Hunting – Fake Friends Duck Camo Hoodie",
-   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
-   "fix": "Set every variant to price 49.99, no compare-at."
   },
   {
    "level": "ERROR",
