@@ -537,7 +537,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 642 | Puerto Rican man, late 20s, short curly hair, trimmed beard | USED 2026-10-17 — #445 cover (seedream, 1 attempt)
 | 643 | Mexican-American woman, mid 30s, long dark hair in a low bun, gold huggies | USED 2026-10-17 — #446 Cold Since Birth zip hoodie cover (try 2 kept, 2 images; back view) |
 | 644 | Peruvian-American woman, late 20s, long black hair in two braids, small gold hoops | USED 2026-10-17 — #447 Judging You Softly alpaca hoodie cover (seedream, 1 attempt)
-| 645 | white man, early 50s, grey stubble, reading glasses on his collar | RESERVED — #448 Grill Wizard Zip Hoodie cover |
+| 645 | white man, early 50s, grey stubble, reading glasses on his collar | USED 2026-10-17 - #448 Grill Wizard zip hoodie cover (seedream, navy, back view, patio at dusk) |
 | 646 | Black man, early 60s, short white hair, neat white beard | USED 2026-10-17 — #449 Pillaging Young Man's Game hoodie cover (try 1, image 1 of 1) |
 | 647 | Korean-American woman, early 30s, blunt bob, silver ear cuffs | USED 2026-10-17 - #450 Shiny Object Syndrome crow hoodie cover (pair with #647-648) |
 | 648 | white man, early 30s, curly red hair, freckles | USED 2026-10-17 - #450 Shiny Object Syndrome crow hoodie cover (pair with #647-648) |
