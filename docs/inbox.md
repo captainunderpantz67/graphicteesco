@@ -86,3 +86,8 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 
 ## 2026-10-17 — fal cap raised (Sam): $12/day, not $5
 - Stop and post to the inbox if fal spend today passes $12. Scope unchanged: cover swaps + twin covers; Claude is making Sam's first 5 designs directly.
+
+## 2026-10-17 — SHIP NOW: Sam's first 5 (items #477–#483) — top priority, both lanes
+- Sam approved art + mockups and said "ship it, make it all live." Art is FINAL in designs/first5/ (words set in real fonts). Builders: no art generation for these, use the print/embroidery files in each brief.
+- HOLD is lifted for #477–#483 only (covers via fal allowed, one image per call, $12/day cap). Other new art stays on hold until Sam picks more.
+- Director: review these first; LIVE as soon as synced + audit clean.
