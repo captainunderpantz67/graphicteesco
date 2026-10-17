@@ -5189,6 +5189,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-bookish-plot-twist-hoodie": {
+   "claimed": [
+    "bookish hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bookish hoodie",
+     "volume": 880,
+     "kd": 48
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

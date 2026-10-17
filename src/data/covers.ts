@@ -319,6 +319,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-anime-slurp-responsibly-crewneck-sweatshirt': { src: '/covers/unisex-anime-slurp-responsibly-crewneck-sweatshirt.webp', alt: 'Man and woman wearing a navy Slurp Responsibly ramen cat crewneck sweatshirt, front view' },
   'mens-gym-sore-since-1987-crewneck-sweatshirt': { src: '/covers/mens-gym-sore-since-1987-crewneck-sweatshirt.webp', alt: 'Man wearing a navy Sore Since 1987 gym crewneck sweatshirt, front view' },
   'mens-gym-retired-from-cardio-crewneck-sweatshirt': { src: '/covers/mens-gym-retired-from-cardio-crewneck-sweatshirt.webp', alt: 'Man wearing a navy Retired From Cardio gym crewneck sweatshirt, front view' },
+  'womens-bookish-plot-twist-hoodie': { src: '/covers/womens-bookish-plot-twist-hoodie.webp', alt: 'Woman wearing a navy Plot Twist: I Stayed In bookish hoodie, front view' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
