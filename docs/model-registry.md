@@ -534,7 +534,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 639 | white man, mid 30s, shaggy brown hair, beanie in hand | USED 2026-10-16 — #443 Mothman Light Sleeper hoodie cover (seedream, 1 attempt) |
 | 640 | Black woman, early 30s, short natural hair, gold cuff earring | USED 2026-10-16 — #443 Mothman Light Sleeper hoodie cover (seedream, 1 attempt) |
 | 641 | white man, early 50s, bald head, salt-and-pepper beard | RESERVED — #444 Bald and Majestic Heavyweight Hoodie cover |
-| 642 | Puerto Rican man, late 20s, short curly hair, trimmed beard | RESERVED — #445 Squire, Spot Me Hoodie cover |
+| 642 | Puerto Rican man, late 20s, short curly hair, trimmed beard | USED 2026-10-17 — #445 cover (seedream, 1 attempt)
 | 643 | Mexican-American woman, mid 30s, long dark hair in a low bun, gold huggies | USED 2026-10-17 — #446 Cold Since Birth zip hoodie cover (try 2 kept, 2 images; back view) |
 | 644 | Peruvian-American woman, late 20s, long black hair in two braids, small gold hoops | USED 2026-10-17 — #447 Judging You Softly alpaca hoodie cover (seedream, 1 attempt)
 | 645 | white man, early 50s, grey stubble, reading glasses on his collar | RESERVED — #448 Grill Wizard Zip Hoodie cover |
