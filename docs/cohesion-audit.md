@@ -1,45 +1,17 @@
-# Cohesion audit — 2026-10-17 21:43 UTC
+# Cohesion audit — 2026-10-17 22:45 UTC
 
-395 live products checked · **10 errors** · 26 warnings · 34 products with findings
+422 live products checked · **1 errors** · 26 warnings · 25 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
-- 8 × Price ./. — should be ./- on every variant.
-- 2 × Claims , already claimed by unisex-thanksgiving-totally-a-pilgrim-hood
+- 1 × Claims , already claimed by mens-hunting-long-beard-short-temper-camo-
 
 ## By product (errors first)
-### Men's Hunting – Long Beard Short Temper Camo Hoodie `mens-hunting-long-beard-short-temper-camo-hoodie`
-- **ERROR** Claims "turkey hoodie", already claimed by unisex-thanksgiving-totally-a-pilgrim-hoodie (two pages fighting for one keyword). → Give one of them a different measured phrase.
-
-### Women's Hunting – Ducks in a Row Camo Hoodie `womens-hunting-ducks-in-a-row-camo-hoodie`
-- **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
-
-### Women's Hunting – Doe Not Disturb Camo Hoodie `womens-hunting-doe-not-disturb-camo-hoodie`
-- **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
-
-### Men's Hunting – I Saw You Move Camo Hoodie `mens-hunting-i-saw-you-move-squirrel-camo-hoodie`
-- **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
-
-### Men's Hunting – Antler Envy Camo Hoodie `mens-hunting-antler-envy-buck-camo-hoodie`
-- **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
-
-### Unisex Camping – Camp Security Camo Hoodie `unisex-camping-camp-security-bear-camo-hoodie`
-- **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
-
-### Unisex Possum – Playing Dead Till Friday Camo Hoodie `unisex-possum-playing-dead-camo-hoodie`
-- **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
-
-### Men's Hunting – Call Me After Duck Season Camo Sweatshirt `mens-hunting-call-me-after-duck-season-camo-sweatshirt`
-- **ERROR** Price 56.99/61.99 (price/compare-at) — should be 56.99/- on every variant. → Set every variant to price 56.99, no compare-at.
-
-### Women's Hunting – Only Here for the Sunrise Camo Sweatshirt `womens-hunting-here-for-the-sunrise-camo-sweatshirt`
-- **ERROR** Price 56.99/61.99 (price/compare-at) — should be 56.99/- on every variant. → Set every variant to price 56.99, no compare-at.
-
 ### Unisex Thanksgiving – Laying Low Till Friday Hoodie `unisex-thanksgiving-laying-low-till-friday-turkey-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
 - **WARN** "turkey hoodie" appears 6× in the copy (keyword stuffing). → Use it once or twice, naturally.
-- **ERROR** Claims "turkey hoodie", already claimed by unisex-thanksgiving-totally-a-pilgrim-hoodie (two pages fighting for one keyword). → Give one of them a different measured phrase.
+- **ERROR** Claims "turkey hoodie", already claimed by mens-hunting-long-beard-short-temper-camo-hoodie (two pages fighting for one keyword). → Give one of them a different measured phrase.
 
 ### Unisex Halloween – Midnight Feature Tee `unisex-halloween-midnight-feature-graphic-tee`
 - **WARN** No meta description. → Write one ≤ 155 chars.
