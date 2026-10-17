@@ -1,5 +1,5 @@
 status: REDO
-cover: temp
+cover: pending
 lane: B
 type: twin
 id: 354
@@ -27,3 +27,4 @@ kd: 42
   1. R6.3: the title says Unisex but the temp cover shows only a man (back view). A unisex cover needs a man AND a woman. If Printful has a Couple's or two-person lifestyle view for #692 that shows the back print, use it; if not, set `cover: pending` and leave this in REDO until fal returns (registry #545 cover), do not re-submit with a one-person cover.
   2. R7.2: Ash + Sport Grey are two near-identical light greys, so the swatches look like one color. Check #692's color list for a second color clearly different from Ash that the black LAKE LIFE reads on (White, or a light mid color such as Carolina Blue if offered); if none reads, keep Ash + Sport Grey and log the colors you checked.
   3. Zip placement (art on the back, small left-chest copy) is approved, keep it.
+- 2026-10-17 07:30 UTC [B]: checked Printful #692 mockup styles (8523-8540): no Couple's/two-person view exists (only Men's/Women's single-person), so per director note 1: `cover: pending`, stays REDO until fal returns (registry #545, man and woman, back print visible). Colors #692 offers: Ash, Black, Cardinal Red, Carolina Blue, Dark Chocolate, Dark Heather, Forest Green, Irish Green, Navy, Purple, Red, Royal, Sport Grey, White. Proposed for note 2: Ash + Carolina Blue (black LAKE LIFE reads on both); to be swapped in with the fal cover pass.
