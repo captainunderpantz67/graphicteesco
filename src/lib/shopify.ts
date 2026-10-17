@@ -54,7 +54,13 @@ const PRODUCT_FIELDS = `
 `;
 
 type RawProduct = Omit<Product, 'images' | 'variants' | 'collections'> & { images: { nodes: Product['images'] }; variants: { nodes: Variant[] }; collections: { nodes: { handle: string }[] } };
-const flat = (p: RawProduct): Product => ({ ...p, images: p.images.nodes, variants: p.variants.nodes, collections: p.collections.nodes.map((c) => c.handle) });
+// Honest compare-at (R12.1, FTC 16 CFR 233.1, Google sale_price rules): a product created after the sale
+// started was never offered at the higher price, so its compare-at is dropped here, before the page, the
+// schema or the feed can show it as a "was" price. Builders also clear it in Shopify; this guards the gap.
+const SALE_START = Date.parse('2026-10-15T05:00:00Z');
+const honest = (p: RawProduct): Variant[] =>
+  p.createdAt && Date.parse(p.createdAt) >= SALE_START ? p.variants.nodes.map((v) => ({ ...v, compareAtPrice: null })) : p.variants.nodes;
+const flat = (p: RawProduct): Product => ({ ...p, images: p.images.nodes, variants: honest(p), collections: p.collections.nodes.map((c) => c.handle) });
 
 export async function getCollectionProducts(handle: string, first = 48): Promise<Product[]> {
   if (!shopifyConnected) return sampleProducts(handle);
