@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: new
 id: 293
@@ -32,3 +32,4 @@ handle: mens-hunting-full-draw-zero-deer-camo-hoodie
   1. R6.5: the cover has a compound bow lying at the man's side (bottom left). No weapons on covers, including bows. One extra cover attempt (R6.9): use the new Forest mockup as --design, hands empty at the sides, no bow, no gear in frame.
   2. R5.3.2 / R5.3.5: at FW 1200 the print is narrow and FULL DRAW, reads small on both mockups. Re-link at about FW 1500 (same file, no new art: this was try 2 of 2) so both lines read at phone size, then new mockups.
   3. The art itself now passes (true full draw, gaps stay camo). Then REVIEW.
+- 2026-10-17 02:26 UTC [B]: REDO fix (round 2): same art file (this was try 2 of 2), re-linked at FW 1500 TOP 0 (10 in wide) so FULL DRAW, and ZERO DEER read larger on both mockups, new file 1087978852, resynced 14/14, mockups replaced in place, cover regenerated from the new Forest mockup with no bow, bow case or gear in frame (R6.5; registry #474, image 2 of 3, front-facing, hood down). Set REVIEW. Sheet docs/review/293.jpg.

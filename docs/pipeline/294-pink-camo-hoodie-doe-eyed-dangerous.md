@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: new
 id: 294
@@ -34,3 +34,4 @@ handle: womens-hunting-doe-eyed-and-dangerous-pink-camo-hoodie
   1. R6.8 / R6.9: the cover still reads DOE-WED (3 attempts). Director's call: keep the art, fix the cover by compositing. Take the exact front-panel print from the new Printful mockup and fit it onto the cover's chest in print-prep (perspective fit, multiply blend so the fabric folds show through), then read every word against the art.
   2. R13.3: on the current cover the hoodie hangs like a dress over bare legs at a truck in a field; regenerate the base photo in jeans (registry #475 woman, same truck scene) before compositing, or composite onto the best existing one if she is in jeans.
   3. Everything else passes (the chocolate DOE-EYED & reads on the mockups). Then REVIEW.
+- 2026-10-17 02:29 UTC [B]: REDO fix (round 2): cover rebuilt by compositing. Base photo regenerated from a plain pink camo mockup (no chest print) with registry #475 in dark jeans at the same truck/fence scene (no bare legs), then the exact front-panel print file (new front file 1087959024 art, cream halo included) was fitted onto the chest in print-prep (34% of the photo width, multiply-style shading from the photo so the fabric folds show through). Every word checked against the art: DOE-EYED & and DANGEROUS match the mockup; at 600 px the Y of EYED still blurs toward a W, which is the print itself, not the cover. No change to the print file, mockups or product. Set REVIEW. Sheet docs/review/294.jpg.
