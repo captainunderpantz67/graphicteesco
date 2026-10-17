@@ -1,4 +1,6 @@
-status: BUILDING [A] 2026-10-17T10:58Z
+status: REVIEW
+shopify: gid://shopify/Product/15363644686640
+cover: temp (swap)
 lane: A
 type: twin
 id: 410
@@ -21,3 +23,4 @@ kd: 32
 ---
 ## Log
 - 2026-10-17 10:21 UTC director: brief written, READY (keyword measured this run; fal-free twin).
+- 2026-10-17 11:04 UTC builder [A]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363644686640 (Gildan 18500, Sand + Sport Grey x S-3XL = 12, $39.99 no compare-at, category aa-1-13-13, tags christmas-hoodies, graphic-hoodies-for-men, graphic-hoodies-for-women, hoodie, christmas, ai-art, intake-done). Reuses the crewneck's Printful file 1087696327 (3600x3730), back logo 1080398177, FW=1500 TOP=0 (print 1554 px tall, clear of the pouch seam), sync 482436877 12/12. R6.2 check: TECHNICALLY A SWEATER is uneven hand-drawn brush caps, no typeset line, no ring/panel/box, knit patchwork is planned ink, yarn ends stay attached to the patchwork; art unchanged. Keyword ugly christmas sweater hoodie 320/KD32 in map (first sentence once, meta once). FAQ: 5 questions, 50-54 words each, order-by Dec 8. Phone-size read: lettering legible on Sand and Sport Grey. Fronts for both colors + back, variant images per color, audit PASS (only not-ACTIVE). TEMP COVER Printful style 1455 (a man, Sand, print fully visible, nothing over it); not a man-and-woman pair as the brief wants, so cover: temp (swap). Sheet docs/review/410.jpg. REVIEW.

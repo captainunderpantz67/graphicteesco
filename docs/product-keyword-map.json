@@ -5955,6 +5955,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-christmas-technically-a-sweater-hoodie": {
+   "claimed": [
+    "ugly christmas sweater hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "ugly christmas sweater hoodie",
+     "volume": 320,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

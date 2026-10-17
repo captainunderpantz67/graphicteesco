@@ -339,6 +339,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-christmas-sleighping-in-hoodie': { src: '/covers/womens-christmas-sleighping-in-hoodie.webp', alt: 'Woman looking down and smiling in a Sand Sleighping In hoodie with a sleeping reindeer in a sleigh, against a white brick wall' },
   'womens-football-mom-hut-hut-hooray-hoodie': { src: '/covers/womens-football-mom-hut-hut-hooray-hoodie.webp', alt: 'Woman looking down and smiling in a Navy Hut Hut Hooray hoodie with a football, pennants and a cheer megaphone, against a white brick wall' },
   'womens-christian-ewe-are-loved-lamb-hoodie': { src: '/covers/womens-christian-ewe-are-loved-lamb-hoodie.webp', alt: 'Woman with dark bangs and her hands in the pockets of a Sand Ewe Are Loved hoodie with a woolly lamb holding a daisy' },
+  'unisex-christmas-technically-a-sweater-hoodie': { src: '/covers/unisex-christmas-technically-a-sweater-hoodie.webp', alt: 'Man with short light brown hair in a Sand Technically a Sweater hoodie with a patchwork of knit snowflakes, trees and a reindeer' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
