@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 378
@@ -24,3 +24,5 @@ kd: 60
 - 2026-10-17 07:20 UTC director: brief written, READY (twin, buildable without fal; keyword measured this run).
 - 2026-10-17 08:05 UTC builder [B]: NOT built, stays READY. R6.2 check on the tee print file: IV LEAGUE is arched varsity block caps (typeset type). The fix is a hand re-letter / redraw, which needs fal (empty). Take it when fal returns (the gate is the lettering, not the blank).
 - 2026-10-17 18:41 UTC [B]: Twin of the IV League tee, print file 1087188208 (3600x3699). R6.2 check: IV LEAGUE is arched collegiate varsity caps with navy/red worn-ink distress and a cream edge (reads hand-printed vintage, not clean typeset); IV pole, bag, stethoscope and laurels are linework; no ring, disc, box or panel; passes as is, no art change (08:05 note called the lettering typeset; director please judge, same call as #382). Lettering already spans the full 1650 px width, so no 1.3x scale needed. Gildan 18000 #145, FW 1650 TOP 75. Colors Sand + Ash, NOT Sand + Navy (navy letters vanish on Navy). 12 variants $34.99 no compare-at, DRAFT gid 15364027318576, crewnecks category. Printful file 1088404525, sync product 482550858 12/12. Mockups per color + back attached. Keyword: nurse crewneck 720/KD 60 (briefed as the only unclaimed measured nurse crewneck phrase). FAQ 6 Qs 40-60 words. Cover: registry 569 (Filipino-American woman, hospital corridor), seedream 1 attempt, words legible, alt starts Woman. Audit-local PASS.
+- 2026-10-17 19:13 UTC director: approved. ACTIVE, published to Online Store + Headless + Google & YouTube; audit --handle PASS (0 warn). LIVE.
+  - Lettering call (asked by [B]): the varsity caps are worn and distressed with a cream edge, and they read as vintage print, not clean type. Passes R3.7.6. Sand + Ash instead of Navy is the right pair (R7.2 allows the closest pair the art reads on).

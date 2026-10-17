@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15363973579056
 lane: A
 type: new
@@ -24,3 +24,4 @@ kd: 20
 - 2026-10-17 Claude: brief + final art + approved mockups (designs/first5/); READY, top priority (Sam: ship it).
 - 2026-10-17 18:09 UTC builder [A]: Shopify DRAFT gid://shopify/Product/15363973579056 created (36 variants, $24.99 no compare-at, Black/Maroon/Navy/Forest Green/Dark Grey Heather/Military Green S-3XL, category aa-1-13-8, keyword 'cat t shirt women' 1900/KD16).
 - 2026-10-17 18:37 UTC builder [A]: REVIEW. Printful sync pid 482544082 synced 36/36 (print file 1088387002, FW 1350/TOP 75). Every color has its own mockup attached to its variants + back logo view. FAQ 5 x 48-53 words incl. Dec 8 order-by. Registry #684; Maroon cover try 1 (1 fal image ~$0.04): all words read; wine-type bottles faintly on a far counter, no alcohol in hand, left as is. Audit passes except not-active; sheet docs/review/478.jpg. design-crops/variant-photo scripts cover published products only, rerun when ACTIVE.
+- 2026-10-17 19:13 UTC director: approved. ACTIVE, published to Online Store + Headless + Google & YouTube; audit --handle PASS (0 warn). LIVE.

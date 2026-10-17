@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 482
@@ -23,3 +23,4 @@ kd: 20
 ## Log
 - 2026-10-17 Claude: brief + final art + approved mockups (designs/first5/); READY, top priority (Sam: ship it).
 - 2026-10-17 18:23 UTC [B]: Built from Claude's final print (designs/first5/football-print.png, no new art; real-font lines, no ring/panel/box). Bella 6400 #360, Black + Maroon + Navy + Forest Green (all read; reds on the devil tail sink slightly on Maroon, incidental), 24 variants $24.99 no compare-at, DRAFT gid 15363981639984, tees category. Printful file 1088390029, sync product 482545457 24/24, FW 1500 TOP 75. Mockups per color + back attached. Keyword: primary 'football mom outfit' 390/KD 31 (football mom shirt 3600/52 and tee 3600/50 left as collection head); 'football mom tshirt' 3600/48 once. FAQ 6 Qs 40-60 words. Cover: registry 692 (Ethiopian-American woman, bleachers Friday night), seedream 1 attempt, all words legible, alt starts Woman. Audit-local PASS. design-crops/variant-photo-audit rerun after publish (storefront can't see DRAFTs).
+- 2026-10-17 19:13 UTC director: approved. ACTIVE, published to Online Store + Headless + Google & YouTube; audit --handle PASS (0 warn). LIVE.

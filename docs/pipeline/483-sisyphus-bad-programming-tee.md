@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 483
@@ -23,3 +23,4 @@ kd: 20
 ## Log
 - 2026-10-17 Claude: brief + final art + approved mockups (designs/first5/); READY, top priority (Sam: ship it).
 - 2026-10-17 18:31 UTC [B]: Built from Claude's final print (designs/first5/sisyphus-print.png, no new art; real-font Cinzel lines; the Greek-key band is a thin decorative rule inside the approved art, left as Sam approved it). Bella 3001 #71, Natural + Heather Dust + White + Ash + Athletic Heather (light colors only, black/terracotta ink), 35 variants $24.99 no compare-at, DRAFT gid 15364002119984, tees category. Printful file 1088396094, sync product 482547466 35/35, FW 1500 TOP 75. Mockups per color + back attached. Keyword: primary 'workout tee men' 210/KD 33 (funny gym t shirt 3600/41 used once; funny gym shirt and sisyphus shirt already owned). FAQ 6 Qs 40-60 words. Cover: registry 693 (Samoan-American man, garage gym), seedream 2 attempts (#1 towel covered the S of SISYPHUS), alt starts Man. Audit-local PASS. design-crops/variant-photo-audit rerun after publish (storefront can't see DRAFTs).
+- 2026-10-17 19:13 UTC director: approved. ACTIVE, published to Online Store + Headless + Google & YouTube; audit --handle PASS (0 warn). LIVE.

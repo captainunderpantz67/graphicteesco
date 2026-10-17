@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15363978068272
 lane: A
 type: new
@@ -24,3 +24,5 @@ kd: 20
 - 2026-10-17 Claude: brief + final art + approved mockups (designs/first5/); READY, top priority (Sam: ship it).
 - 2026-10-17 18:12 UTC builder [A]: Shopify DRAFT gid://shopify/Product/15363978068272 created (24 variants, $34.99 no compare-at, Sand/Sport Grey/White/Ash S-3XL, aa-1-13-14). Keyword: every bookish term measured is KD>=54 (bookish sweatshirt 1600/54 owned; reading sweatshirt 390/66; book lover sweatshirt 320/68; bookworm sweatshirt 170/63); claimed 'bookworm sweatshirt' 170/63, lowest unowned.
 - 2026-10-17 18:37 UTC builder [A]: REVIEW. Printful sync pid 482544992 synced 24/24 (print file 1088388692, FW 1500/TOP 75; AT MY FUNERAL. is small but legible at 400 px, art unchanged per Sam's approval). Every color has its own mockup attached to its variants + back logo view. FAQ 5 x 48-53 words incl. Dec 8 order-by. Registry #685; Sand cover try 1 (1 fal image ~$0.04): all words read, garment reads cream (Sand is pale). Audit passes except not-active; sheet docs/review/481.jpg. design-crops/variant-photo scripts cover published products only, rerun when ACTIVE.
+- 2026-10-17 19:13 UTC director: approved. ACTIVE, published to Online Store + Headless + Google & YouTube; audit --handle PASS (0 warn). LIVE.
+  - Watch item: on the cover the bottom line may read 'AT MY FUNERAL..' (an extra dot, maybe a JPEG artifact at sheet size). Lane A: on the next cover pass, check the full-size cover. If the dot is really there, composite the exact print per R6.9.
