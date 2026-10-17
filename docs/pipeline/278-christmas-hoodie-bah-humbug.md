@@ -1,5 +1,4 @@
-status: PARKED
-behind low-KD: grumpy hoodie 140/KD 36, flat all year, no surge (Sam 2026-10-17 low-KD rule)
+status: READY
 lane: A
 type: twin
 id: 278
@@ -7,17 +6,19 @@ handle: unisex-christmas-bah-humbug-hoodie
 kd: 36
 ---
 ## Unisex Christmas – Bah Humbug Hoodie
-- **Twin of #169 Bah Humbug (LIVE tee) / #170 crewneck:** reuse the approved print file; no new art generation. First do the R6.2 lettering check and log it.
-- **Blank:** Pullover Gildan 18500 (Printful #146), handle ends -hoodie (R7.1). Print about 10 in wide at the top of the area, clear of the pouch pocket (FW/TOP as on #201).
+- **Twin of #169 Bah Humbug (LIVE tee) / #170 crewneck:** reuse the approved print file; no new art generation. First do the R6.2 lettering check and log it: the small spaced-caps (RESPECTFULLY) under BAH HUMBUG is the line most likely to read typeset or vanish at phone size; if it does either, erase it in print-prep (BAH HUMBUG and the grump carry the joke alone) and drop it from the copy too.
+- **Blank:** Pullover Gildan 18500 (Printful #146), handle ends -hoodie (R7.1). Front print FW 1500+ (the art is tall: widen BAH HUMBUG rather than shrink the whole print, R5.3.2), every word and the slippers clear of the pouch seam.
 - **Hook:** BAH HUMBUG (RESPECTFULLY): the polite grump in a nightcap and plaid robe (R3.3). Line one of the copy carries it.
 - **Colors (R7.2 cold-weather launch, 2 colors):** Sand + Sport Grey (the soft-black and sage lettering disappears on Navy; light + mid pair per R7.2). Check the faint sage BAH HUMBUG reads on Sport Grey at phone size; if not, darken the lettering ink in print-prep.
 - **Primary keyword:** grumpy hoodie — 140 / KD 36 (RankHero 2026-10-16). Unowned; record it. Supporting (each once): bah humbug (copy only; bah humbug shirt belongs to the tee).
 - **Popularity evidence (R5.2):** Bah Humbug tee and crewneck LIVE; bah humbug shirt 320/34 with Nov 1,300 and Dec 1,900 (RankHero 2026-10-16) shows the theme sells in season.
 - **Cover:** registry #458 + #459 — man AND woman in matching hoodies, alt starts "Man and woman …" (R6.3). Scene: a porch at dusk with carolers blurred at the gate, both arms-crossed in mock grump. Visible hood, the blank's real color, product's own Printful mockup as `--design`, hands empty or a prop at the hip, nothing over any part of the print; read every word against the art before saving (R6.8, R6.9).
 - **Title / handle:** "Unisex Christmas – Bah Humbug Hoodie" / `unisex-christmas-bah-humbug-hoodie` (R7.4).
-- **Tags:** christmas-hoodies, graphic-hoodies-for-women, hoodie, ai-art, intake-done.
-- **Price (R12.1):** $39.99, compare-at $44.99.
+- **Tags:** christmas-hoodies, graphic-hoodies-for-men, graphic-hoodies-for-women, hoodie, ai-art, intake-done.
+- **Price (R12.1):** $39.99, no compare-at (R12.1 honest compare-at).
+- **Temp-cover mode while fal is empty (twin):** best Printful lifestyle mockup with a man AND a woman (Couple's style), a style ID not already on a live item where possible (R6.6), else `cover: temp (swap)`; registry #458/#459 for the fal cover later. FAQs per R8.7 (4–6, 40–60 words, order-by about Dec 10 for Christmas).
 ---
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).
 - 2026-10-17 02:18 UTC director: PARKED behind low-KD briefs (KD 36+, under 1,000/month, no holiday surge).
+- 2026-10-17 09:19 UTC director: back to READY. The holiday low-KD band is exhausted (every measured christmas/thanksgiving hoodie and sweatshirt phrase at KD ≤ 35 is claimed; 'christmas hoodie' 9,900/52 is the christmas-hoodies collection head), so R2.5's 'nothing easier is left' applies, and this is a fal-free twin. Price line updated to no compare-at; graphic-hoodies-for-men tag added (R7.5).

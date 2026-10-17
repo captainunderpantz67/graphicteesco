@@ -1,0 +1,25 @@
+status: READY
+lane: A
+type: new
+id: 401
+handle: womens-owl-owl-be-in-bed-hoodie
+kd: 31
+---
+## Women's Owl – Owl Be in Bed Hoodie
+- **Blank:** Pullover Gildan 18500 (Printful #146). Front print FW 1500+ (about 10 in), every word and the bottom of the art clear of the pouch seam (R5.3.2). Copy facts from the Printful spec only (R7.1).
+- **Text on shirt:** OWL BE IN BED in chunky hand-drawn 1970s rounded letters, OWL on top, BE IN BED below. All lettering hand-drawn (R3.7.6), spelled exactly, no typeset sub-line or caption; read every word on the darkest mockup at about 400 px wide before REVIEW; knock out white counters (R5.3.8).
+- **Hook:** A round sleepy barn owl in a striped nightcap, wrapped in a knitted blanket on a branch, under OWL BE IN BED: the 'I'll be in bed' pun for every night-owl-turned-early-sleeper (women's sass).
+- **Why it's not taken:** Etsy owl hoodies lean on 'night owl' and 'whooo'; the 'owl be in bed' pun reads as fresh in the director's judgment (a builder should still search Etsy for the exact line and twist it if it shows 50+ listings, R3.7.2).
+- **Style:** A, vintage 1970s, worn edges (R4.2).
+- **Art prompt (Recraft v4, one image per call):** "Vintage 1970s screen-print illustration: a round, sleepy barn owl perched on a short pine branch, eyes half closed, wearing a striped nightcap, wrapped in a small knitted blanket, a crescent moon and three tiny stars beside it. Above, chunky hand-drawn 1970s rounded letters reading exactly 'OWL' and below reading exactly 'BE IN BED'. Palette: warm tan, rust orange, cream, sage, soft brown linework. Worn screen-print texture; the owl and branch are the shape, edges break up into ragged worn texture. Isolated on plain background, no background shape, no frame, no circle, no border, no badge, no dark patch."
+- **Colors:** Sand + Navy (R7.2); the cream and tan must read on Sand (keyline the letters in brown if not). Generate a Printful mockup for every color offered before REVIEW.
+- **Primary keyword:** owl hoodie — 880 / KD 31 (RankHero 2026-10-17, director; 36% US; rises Oct 1,300 → Nov–Dec 1,600). KD 21–35 band. Unowned in docs/product-keyword-map.json; record it there. Lane A takes it as a cold-weather item (R11.5: holiday lane joins cold-weather when its easy band runs out). Use the primary where a person would say it: the H1-area copy, the first sentence (with the joke and the occasion, R9.11) and once in the meta; no stuffing (R8.2–R8.3). Answer-first FAQs per R8.7: 4–6 questions, 40–60 words each (fit, care, sizing, warmth/weight, gift timing with an order-by date).
+- **Popularity evidence (R5.2):** owl hoodie climbs to 1,600 in Nov–Dec (RankHero trend 2026-10-17); animal hoodies (otter, raccoon, capybara, axolotl) are LIVE or in build.
+- **Cover:** registry #592, white woman, late 20s, auburn pixie cut, freckles, chunky knit scarf held at her side; scene: an autumn porch at dusk with a lantern and pumpkins, alt starts 'Woman'. Real garment generated with the product's own Printful mockup in the cover color as `--design` (--n 1); hood visible; hands empty or in pockets; nothing (hand, cup, hair, hood, drawcord, another person) over any part of the print; read every word before saving (R6.7–R6.9). No alcohol, tools or weapons (R6.5).
+- **Title / handle:** "Women's Owl – Owl Be in Bed Hoodie" / `womens-owl-owl-be-in-bed-hoodie` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** graphic-hoodies-for-women, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
+- **Price:** $39.99 (R12.1 pullover), no compare-at.
+- **Pre-build while fal is empty:** make the full Shopify DRAFT now from this brief (status ART-NEXT); art + cover when fal returns, then re-check every sentence against the real art.
+---
+## Log
+- 2026-10-17 09:22 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).

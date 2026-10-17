@@ -481,3 +481,13 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 588 | man AND woman together: Chinese-American man, mid 30s, short side-parted hair; white woman, mid 30s, sandy-blonde shag | RESERVED — #397 Currently Drifting Hoodie cover |
 | 589 | man AND woman together: Black man, early 40s, salt-and-pepper beard, beanie held at his side; Korean-American woman, late 30s, long straight hair, denim jacket open | RESERVED — #398 Fine Dumpster Dining Hoodie cover |
 | 590 | man AND woman together: Cuban-American man, early 30s, short curly hair, runner's build; white woman, early 30s, high blonde ponytail | RESERVED — #399 Turkey Trot Hoodie cover |
+| 591 | Filipino-American woman, early 30s, long straight black hair, small gold hoops | RESERVED — #400 Sleighping In Hoodie cover |
+| 592 | White woman, late 20s, auburn pixie cut, freckles | RESERVED — #401 Owl Be in Bed Hoodie cover |
+| 593 | Norwegian-American man, late 40s, ruddy cheeks, short red-blond beard | RESERVED — #402 Professionally Chilling Heavyweight Hoodie cover |
+| 594 | man AND woman together: Vietnamese-American man, late 20s, round glasses, short textured hair; Black woman, late 20s, short twist-out | RESERVED — #403 I Have Plans Hoodie cover |
+| 595 | man AND woman together: Korean-American man, early 20s, bleached tips; Latina woman, early 20s, space buns, butterfly clips | RESERVED — #404 Side Quests Only Hoodie cover |
+| 596 | man AND woman together: Japanese-American man, mid 20s, shaggy black hair; white woman, mid 20s, dyed lavender bob | RESERVED — #405 Snack Hoard Hoodie cover |
+| 597 | Indian-American woman, about 20, long dark hair in a half-up claw clip, small gold nose stud | RESERVED — #406 Politely Hop Off Cropped Hoodie cover |
+| 598 | Native American (Diné) man, mid 30s, long black hair tied back, light stubble | RESERVED — #407 Camera Shy Heavyweight Hoodie cover |
+| 599 | man AND woman together: Samoan man, late 20s, broad build, short curly hair; white woman, late 20s, sun-bleached beach waves | RESERVED — #408 Friendly-ish Oversized Hoodie cover |
+| 600 | Mexican-American man, early 50s, grey mustache, sun-lined face | RESERVED — #409 Truck Stop Connoisseur Heavyweight Hoodie cover |
