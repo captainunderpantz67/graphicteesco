@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: A
 type: new
 id: 455
 handle: unisex-hanukkah-spin-responsibly-crewneck-sweatshirt
+shopify: gid://shopify/Product/15363812753712
 kd: 17
 ---
 ## Unisex Hanukkah – Spin Responsibly Crewneck Sweatshirt
@@ -23,3 +24,4 @@ kd: 17
 ---
 ## Log
 - 2026-10-17 15:22 UTC director: brief written, READY (keyword measured this run, low-KD sweep; lane A).
+- 2026-10-17 16:00 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363812753712 (Navy + Sport Grey x S-3XL, $34.99; keyword ugly hanukkah sweater 1600/KD17; FAQs 5 incl. order-by Nov 20). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.

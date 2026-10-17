@@ -28,6 +28,7 @@ def faq(i):
      (f"Will the {n} arrive in time for Christmas?", f"Graphic Tees Co. prints each {n} to order, and orders over $45 ship free. For a Christmas gift, order by about December 8 so it arrives with time to spare. If the size is a guess, the free size exchange within 30 days covers the recipient too."),
      (f"What if the size is wrong on my {n}?", f"Graphic Tees Co. offers one free size exchange within 30 days of delivery on the {n}. We print the new size and you do not mail anything back. If a print arrives misprinted or damaged, we reprint it or refund it within 30 days of delivery."),
     ] + [tuple(x) for x in i.get('extra_faq', [])]
+    if i.get('drop_christmas_faq'): qs = [x for x in qs if 'Christmas' not in x[0]]
     for q, a in qs:
         w = len(a.split()); (not 40 <= w <= 60) and print("WC", i["id"], q[:30], w)
     return qs

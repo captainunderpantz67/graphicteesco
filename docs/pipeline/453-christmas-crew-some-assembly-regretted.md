@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: A
 type: new
 id: 453
 handle: mens-christmas-some-assembly-regretted-crewneck-sweatshirt
+shopify: gid://shopify/Product/15363812589872
 kd: 8
 ---
 ## Men's Christmas – Some Assembly Regretted Crewneck Sweatshirt
@@ -23,3 +24,4 @@ kd: 8
 ---
 ## Log
 - 2026-10-17 15:22 UTC director: brief written, READY (keyword measured this run, low-KD sweep; lane A).
+- 2026-10-17 16:00 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363812589872 (Sand + Navy x S-3XL, $34.99; keyword mens christmas sweater 33100/KD8; FAQs 5). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
