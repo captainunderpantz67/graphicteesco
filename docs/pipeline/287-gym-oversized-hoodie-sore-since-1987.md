@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: twin
 id: 287
@@ -18,3 +18,4 @@ handle: mens-gym-sore-since-1987-oversized-hoodie
 ---
 ## Log
 - 2026-10-16 23:25 UTC director: brief written, READY (lane B cold-weather, director run 11).
+- 2026-10-17 02:45 UTC [B]: built as DRAFT (product 15362625798448, 12 variants Dust + Navy S-3XL, $54.99/$59.99, Bella+Canvas 4719 oversized hoodie #892). Twin of #223: used the cleaned files (Iron & Sweat line already erased): 1087873843 for Dust (original dark ink), 1087873854 for Navy (cream ink); R6.2 lettering check carried over from #223. FW 1220 TOP 0 (8.1 in wide x 10.9 in tall, inside the 11 in area above the pocket). Mockups, variant images, back logo, cover registry #468 (try 2: try 1 showed sleeveless and short-sleeve cuts; try 2 shows the long-sleeve dropped-shoulder blank, image 2 of 3), keyword pump cover hoodie 1000/31, audit-local PASS. Sync pid 482358711, 12/12. Sheet docs/review/287.jpg.

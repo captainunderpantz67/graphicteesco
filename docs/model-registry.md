@@ -352,5 +352,5 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 464 | Texan white woman in her late 20s, long honey-blonde waves, freckles, light tan | RESERVED — #283 Deck the Stalls tee cover |
 | 465 | Mexican-American woman in her early 40s, long dark hair in a thick side braid, small silver earrings | RESERVED — #284 Deck the Stalls crewneck cover |
 | 466 | Swedish-American woman in her early 30s, platinum-blonde low bun, no makeup, angular face | USED 2026-10-16 — try 2 (try 1 spelled it moral on the chest), image 3 of 3; stitch lettering slightly soft |
-| 467 | Indian-American woman in her mid 20s, short black bob with blunt bangs, nose ring | RESERVED — #286 Purrsonal Space hoodie cover |
-| 468 | Ghanaian-American man in his mid 20s, shaved head, clean-shaven, very muscular build | RESERVED — #287 Sore Since 1987 oversized hoodie cover |
+| 467 | Indian-American woman in her mid 20s, short black bob with blunt bangs, nose ring | USED 2026-10-16 — try 1, image 1 of 3; stitch lettering slightly soft |
+| 468 | Ghanaian-American man in his mid 20s, shaved head, clean-shaven, very muscular build | USED 2026-10-16 — try 2 (try 1 showed short sleeves), image 2 of 3 |

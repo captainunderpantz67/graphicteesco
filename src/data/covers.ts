@@ -278,6 +278,8 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-nurse-dont-say-the-q-word-crewneck-sweatshirt': { src: '/covers/womens-nurse-dont-say-the-q-word-crewneck-sweatshirt.webp', alt: 'Woman in her late 30s in a Sand Don't Say the Q Word crewneck sweatshirt and navy scrubs outside a hospital emergency entrance at dawn' },
   'womens-mama-i-have-followers-duck-crewneck-sweatshirt': { src: '/covers/womens-mama-i-have-followers-duck-crewneck-sweatshirt.webp', alt: 'Woman in her mid 30s in a Sand I Have Followers mama duck crewneck sweatshirt on a park pond path in fall with ducks on the water' },
   'womens-embroidered-morel-support-mushroom-hoodie': { src: '/covers/womens-embroidered-morel-support-mushroom-hoodie.webp', alt: 'Woman in her early 30s with a platinum-blonde low bun in a Sand Morel Support embroidered mushroom hoodie on a fall forest trail with a foraging basket' },
+  'womens-embroidered-purrsonal-space-cat-hoodie': { src: '/covers/womens-embroidered-purrsonal-space-cat-hoodie.webp', alt: 'Woman in her mid 20s with a short black bob in a Sand Purrsonal Space embroidered cat hoodie in a reading nook by a rainy window with a cat on the cushion beside her' },
+  'mens-gym-sore-since-1987-oversized-hoodie': { src: '/covers/mens-gym-sore-since-1987-oversized-hoodie.webp', alt: 'Man in his mid 20s with a shaved head in a Navy Sore Since 1987 oversized gym hoodie in a busy weight room with a dumbbell rack behind him' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
