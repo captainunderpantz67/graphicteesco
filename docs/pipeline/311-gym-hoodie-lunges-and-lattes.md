@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: new
 id: 311
@@ -22,3 +22,4 @@ kd: 14
 ---
 ## Log
 - 2026-10-17 02:26 UTC director: brief written, READY (low-KD sweep 2026-10-17, card step 5; keyword measured this run).
+- 2026-10-17 03:05 UTC [B]: built as DRAFT: new art (Recraft, hand-drawn bubble lettering), Gildan 18500 Sand + Light Pink, FW 1500, Printful file 1087990684, registry #494, synced 14/14, audit PASS. keyword womens gym hoodie 3600/14. Art linework is soft on Sand; lettering readable.

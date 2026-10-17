@@ -4618,6 +4618,32 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-gym-lunges-and-lattes-hoodie": {
+   "claimed": [
+    "womens gym hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "womens gym hoodie",
+     "volume": 3600,
+     "kd": 14
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "unisex-running-pace-leisurely-hoodie": {
+   "claimed": [
+    "running hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "running hoodie",
+     "volume": 5400,
+     "kd": 26
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
