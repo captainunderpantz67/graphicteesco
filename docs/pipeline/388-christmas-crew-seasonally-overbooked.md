@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: A
 type: new
 id: 388
 handle: womens-christmas-seasonally-overbooked-crewneck-sweatshirt
+shopify: gid://shopify/Product/15363402891568
 kd: 60
 ---
 ## Women's Christmas – Seasonally Overbooked Crewneck Sweatshirt
@@ -23,3 +24,4 @@ kd: 60
 ---
 ## Log
 - 2026-10-17 08:55 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
+- 2026-10-17 08:29 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363402891568 (Gildan 18000 crewneck, Sand + Navy x S-3XL = 12, $34.99 no compare-at, category aa-1-13-14, keyword holiday sweatshirt 1900/KD60 in map). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.

@@ -5650,6 +5650,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-seasonally-overbooked-crewneck-sweatshirt": {
+   "claimed": [
+    "holiday sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "holiday sweatshirt",
+     "volume": 1900,
+     "kd": 60
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
