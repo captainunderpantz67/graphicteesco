@@ -1,0 +1,5 @@
+{"art": "designs/b/gt-a.png", "art_width": 0.5, "canvas": [3600, 4500], "gap": 20,
+ "lines": [
+  {"text": "STUBBORN AND", "font": "AlfaSlabOne-Regular.ttf", "size": 430, "fill": "#f4e6c6", "stroke": 22, "stroke_fill": "#2a2420", "tracking": 0.03, "where": "below"},
+  {"text": "PROUD OF IT", "font": "AlfaSlabOne-Regular.ttf", "size": 560, "fill": "#e2584a", "stroke": 24, "stroke_fill": "#2a2420", "tracking": 0.03, "where": "below"}
+ ]}

@@ -496,8 +496,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 603 | Puerto Rican woman, early 30s, curly shoulder-length hair, red statement earrings | RESERVED — #411 All Lit Up Hoodie cover |
 | 604 | Black woman, late 30s, natural curls in a puff, small gold hoops | RESERVED — #412 Hut Hut Hooray Hoodie cover |
 | 605 | white woman, mid 20s, strawberry-blonde braid, small cross necklace | RESERVED — #413 Ewe Are Loved Hoodie cover |
-| 606 | man AND woman together (with #607): white man, early 40s, sandy beard, flannel collar showing | RESERVED — #414 Kid at Heart Hoodie cover |
-| 607 | woman with #606: Mexican-American woman, early 40s, long dark wavy hair, small silver hoops | RESERVED — #414 Kid at Heart Hoodie cover |
+| 606 | man AND woman together (with #607): white man, early 40s, sandy beard, flannel collar showing | USED 2026-10-17 — #414 Stubborn and Proud of It goat hoodie cover (try 2 kept, 2 images; #607 woman in same photo) |
+| 607 | woman with #606: Mexican-American woman, early 40s, long dark wavy hair, small silver hoops | USED 2026-10-17 — #414 Stubborn and Proud of It goat hoodie cover (with #606) |
 | 608 | Korean-American woman, mid 20s, long dark hair, red ribbon bow, pearl earrings | USED 2026-10-17 - #415 Sweet Until Further Notice cherry hoodie cover (seedream, navy, farmers market) |
 | 609 | Vietnamese-American woman, about 20, short black bob with a clip, round glasses | RESERVED — #416 Berry Introverted Oversized Hoodie cover |
 | 610 | Puerto Rican man, late 20s, short fade, light beard | RESERVED — #417 Apex Napper Oversized Hoodie cover |
