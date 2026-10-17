@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-17T21:35Z
+status: REVIEW
 lane: E
 type: new
 id: 326
