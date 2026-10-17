@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: new
 id: 304
@@ -22,3 +22,4 @@ handle: unisex-possum-playing-dead-camo-hoodie
 ---
 ## Log
 - 2026-10-17 director: brief written, READY (lane B camo push: this batch takes camo to 24, Sam 2026-10-17; keyword measured this run).
+- 2026-10-17 02:12 UTC [B]: built as DRAFT (product 15362843345200, 14 variants Forest Camo + Darkwood Tree Camo XS-3XL, $49.99/$54.99, IND4000/#1543). New art: Recraft v4 try 1 (PLAYING DEAD / TILL FRIDAY spelling checked, lettering asked for in dark chocolate brown), print-prep 3600 x 3363 + cream halo FILL=0, Printful file 1087971487, FW 1750 TOP 0. Both camos read. Back logo, mockups, variant images, two-person cover registry #485 + #489 (try 1, image 1 of 3, alt starts Man and woman), keyword possum hoodie 140/38, audit-local PASS. Sync pid 482376967, 14/14. Sheet docs/review/304.jpg.

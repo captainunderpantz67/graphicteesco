@@ -4520,6 +4520,45 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-camping-camp-security-bear-camo-hoodie": {
+   "claimed": [
+    "camping hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "camping hoodie",
+     "volume": 1900,
+     "kd": 39
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "unisex-possum-playing-dead-camo-hoodie": {
+   "claimed": [
+    "possum hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "possum hoodie",
+     "volume": 140,
+     "kd": 38
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-hunting-call-me-after-duck-season-camo-sweatshirt": {
+   "claimed": [
+    "mallard sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "mallard sweatshirt",
+     "volume": 320,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

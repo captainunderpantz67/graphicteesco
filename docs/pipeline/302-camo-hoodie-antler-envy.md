@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-17 15:10
+status: REVIEW
 lane: B
 type: new
 id: 302
@@ -22,3 +22,4 @@ handle: mens-hunting-antler-envy-buck-camo-hoodie
 ---
 ## Log
 - 2026-10-17 director: brief written, READY (lane B camo push: this batch takes camo to 24, Sam 2026-10-17; keyword measured this run).
+- 2026-10-17 02:04 UTC [B]: built as DRAFT (product 15362832826672, 14 variants Darkwood Tree Camo + Deadwood Tree Camo XS-3XL, $49.99/$54.99, IND4000/#1543). New art: Recraft v4 try 2 (try 1 drew an elaborate giant rack that outweighed the buck; try 2 shows a small spike buck under a pale antler silhouette; spelling ANTLER ENVY checked, R5.4), knock-white for the enclosed antler holes, cream halo FILL=0, print 3600 x 3926, Printful file 1087967976, FW 1300 TOP 0. Both tree camos read (Forest not needed). Back logo, mockups, variant images, cover registry #483 (try 1, image 3 of 3), keyword buck hoodie 170/34, audit-local PASS. Sync pid 482375520, 14/14. Sheet docs/review/302.jpg.
