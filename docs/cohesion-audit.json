@@ -1,7 +1,6 @@
 {
- "at": "2026-10-17T18:41:30.923Z",
- "at": "2026-10-17T18:42:57.631Z",
- "products": 341,
+ "at": "2026-10-17T19:30:34.481Z",
+ "products": 347,
  "findings": [
   {
    "level": "WARN",
@@ -53,158 +52,11 @@
    "fix": "Write one ≤ 60 chars with the primary keyword."
   },
   {
-   "level": "ERROR",
-   "handle": "mens-hunting-deer-diary-graphic-tee",
-   "title": "Men's Hunting – Deer Diary Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-football-mom-down-set-snacks-graphic-tee",
-   "title": "Women's Football Mom – Down, Set, Snacks Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-fishing-fisher-of-men-graphic-tee",
-   "title": "Men's Fishing – Fisher of Men (Mostly Bass) Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-anime-slurp-responsibly-graphic-tee",
-   "title": "Unisex Anime – Slurp Responsibly Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-fishing-cheaper-than-therapy-graphic-tee",
-   "title": "Men's Fishing – Cheaper Than Therapy (Barely) Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-cropped-matcha-made-in-heaven-graphic-tee",
-   "title": "Women's Cropped – Matcha Made in Heaven Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-y2k-low-battery-high-standards-graphic-tee",
-   "title": "Women's Y2K – Low Battery, High Standards Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-anime-mecha-mondays-graphic-tee",
-   "title": "Unisex Anime – Mecha Mondays Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-baseball-mom-bases-loaded-graphic-tee",
-   "title": "Women's Baseball Mom – Bases Loaded, Mom Exhausted Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-soccer-mom-orange-slice-supplier-graphic-tee",
-   "title": "Women's Soccer Mom – Official Orange Slice Supplier Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christian-casserole-ministry-graphic-tee",
-   "title": "Women's Christian – Casserole Ministry Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-y2k-still-loading-graphic-tee",
-   "title": "Women's Y2K – Still Loading Since 1999 Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-y2k-hot-mess-express-graphic-tee",
-   "title": "Women's Y2K – Hot Mess Express Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-cropped-espresso-yourself-graphic-tee",
-   "title": "Women's Cropped – Espresso Yourself Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-hunting-professional-tree-sitter-graphic-tee",
-   "title": "Men's Hunting – Professional Tree Sitter Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-nurse-dont-say-the-q-word-graphic-tee",
-   "title": "Women's Nurse – Don't Say the Q Word Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-anime-kaiju-naps-graphic-tee",
-   "title": "Unisex Anime – Destroyer of Cities, Lover of Naps Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
    "level": "WARN",
    "handle": "unisex-christmas-mountain-christmas-bear-hoodie",
    "title": "Unisex Christmas – Mountain Christmas Bear Hoodie",
    "msg": "No meta description.",
    "fix": "Write one ≤ 155 chars."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-hunting-long-beard-short-temper-camo-hoodie",
-   "title": "Men's Hunting – Long Beard Short Temper Camo Hoodie",
-   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
-   "fix": "Set every variant to price 49.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-hunting-im-not-yelling-im-bugling-camo-hoodie",
-   "title": "Men's Hunting – I'm Not Yelling I'm Bugling Camo Hoodie",
-   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
-   "fix": "Set every variant to price 49.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-hunting-fluent-in-honk-camo-hoodie",
-   "title": "Men's Hunting – Fluent in Honk Camo Hoodie",
-   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
-   "fix": "Set every variant to price 49.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-hunting-full-draw-zero-deer-camo-hoodie",
-   "title": "Men's Hunting – Full Draw Zero Deer Camo Hoodie",
-   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
-   "fix": "Set every variant to price 49.99, no compare-at."
   },
   {
    "level": "ERROR",

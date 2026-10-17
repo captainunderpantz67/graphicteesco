@@ -581,3 +581,6 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 692 | Ethiopian-American woman, late 30s, short curly natural hair, small gold hoops, warm medium build | USED 2026-10-16 — #482 Promised to Behave Tee cover (seedream, 1 attempt) |
 | 693 | Samoan-American man, early 30s, short curly black hair, trimmed beard, muscular build | USED 2026-10-16 — #483 Sisyphus Tee cover (seedream, 2 attempts: towel covered SISYPHUS on #1) |
 | 694 | white man, late 40s, close-cropped grey hair and a short grey beard, broad build | USED 2026-10-17 — #484 Sisyphus crewneck cover (try 1, image 1 of 1) |
+| 694 | white man, late 40s, close-cropped grey hair and a short grey beard, broad build | RESERVED — #484 Sisyphus crewneck cover |
+| 801 | Pakistani-American man, early 40s, short dark hair, trimmed beard | USED 2026-10-17 — #205 North Woods Moose hoodie cover redo (with #802, seedream, 1 attempt; hoods visible, woman's CHRISTMAS slightly soft) |
+| 802 | Black woman, mid 30s, natural curls under a cream knit beanie, small gold hoops | USED 2026-10-17 — #205 North Woods Moose hoodie cover redo (with #801) |

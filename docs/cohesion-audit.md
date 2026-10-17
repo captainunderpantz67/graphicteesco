@@ -1,79 +1,13 @@
-# Cohesion audit — 2026-10-17 18:41 UTC
+# Cohesion audit — 2026-10-17 19:30 UTC
 
-341 live products checked · **33 errors** · 16 warnings · 49 products with findings
-# Cohesion audit — 2026-10-17 18:42 UTC
-
-341 live products checked · **29 errors** · 16 warnings · 45 products with findings
+347 live products checked · **8 errors** · 16 warnings · 24 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
-- 29 × Price ./. — should be ./- on every variant.
+- 8 × Price ./. — should be ./- on every variant.
 
 ## By product (errors first)
-### Men's Hunting – Deer Diary Tee `mens-hunting-deer-diary-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Women's Football Mom – Down, Set, Snacks Tee `womens-football-mom-down-set-snacks-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Men's Fishing – Fisher of Men (Mostly Bass) Tee `mens-fishing-fisher-of-men-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Unisex Anime – Slurp Responsibly Tee `unisex-anime-slurp-responsibly-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Men's Fishing – Cheaper Than Therapy (Barely) Tee `mens-fishing-cheaper-than-therapy-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Women's Cropped – Matcha Made in Heaven Tee `womens-cropped-matcha-made-in-heaven-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Women's Y2K – Low Battery, High Standards Tee `womens-y2k-low-battery-high-standards-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Unisex Anime – Mecha Mondays Tee `unisex-anime-mecha-mondays-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Women's Baseball Mom – Bases Loaded, Mom Exhausted Tee `womens-baseball-mom-bases-loaded-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Women's Soccer Mom – Official Orange Slice Supplier Tee `womens-soccer-mom-orange-slice-supplier-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Women's Christian – Casserole Ministry Tee `womens-christian-casserole-ministry-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Women's Y2K – Still Loading Since 1999 Tee `womens-y2k-still-loading-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Women's Y2K – Hot Mess Express Tee `womens-y2k-hot-mess-express-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Women's Cropped – Espresso Yourself Tee `womens-cropped-espresso-yourself-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Men's Hunting – Professional Tree Sitter Tee `mens-hunting-professional-tree-sitter-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Women's Nurse – Don't Say the Q Word Tee `womens-nurse-dont-say-the-q-word-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Unisex Anime – Destroyer of Cities, Lover of Naps Tee `unisex-anime-kaiju-naps-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Men's Hunting – Long Beard Short Temper Camo Hoodie `mens-hunting-long-beard-short-temper-camo-hoodie`
-- **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
-
-### Men's Hunting – I'm Not Yelling I'm Bugling Camo Hoodie `mens-hunting-im-not-yelling-im-bugling-camo-hoodie`
-- **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
-
-### Men's Hunting – Fluent in Honk Camo Hoodie `mens-hunting-fluent-in-honk-camo-hoodie`
-- **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
-
-### Men's Hunting – Full Draw Zero Deer Camo Hoodie `mens-hunting-full-draw-zero-deer-camo-hoodie`
-- **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
-
 ### Women's Hunting – Ducks in a Row Camo Hoodie `womens-hunting-ducks-in-a-row-camo-hoodie`
 - **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
 
