@@ -1,6 +1,7 @@
-status: REDO
+status: REVIEW
 lane: A
 type: twin
+cover: temp
 id: 203
 handle: womens-christmas-cardinal-christmas-hoodie
 ---
@@ -24,3 +25,4 @@ handle: womens-christmas-cardinal-christmas-hoodie
   1. R3.7.6 / R6.2: 'Season's Greetings' is a typeset book-serif italic (even spacing). Twins only from rule-passing art. Erase the line in print-prep (the cardinal on the branch carries the print alone) or re-letter it by hand (one Recraft lettering-only generation composed in print-prep, like #234). Check on Sand and Sport Grey, re-upload, resync, new mockups.
   2. R6.8 / R6.9: the cover shows the old line, so one new cover from the product's own Sand mockup as --design, hands empty; the hoodie must read as Sand (this one reads tan/khaki).
   3. R8.3: Story, Questions and meta describe only what the new print shows (drop 'Season's Greetings' if erased).
+- 2026-10-17 04:11 UTC builder [A]: REDO (fal empty, no fal calls): (1) Season's Greetings erased in print-prep (component erase of the dark script, faint alpha halo cleared, top trimmed; cardinal and branch untouched); new file 1088022004 (3600x3919, branch lane-a-files), re-linked 12/12 FW=1469 TOP=0 (sync 482260495); (2) new Sand + Sport Grey mockups replaced in place; (3) copy/SEO/FAQ: removed Season's Greetings and the dark-script reason for Sand + Sport Grey (R8.3); (4) TEMP COVER: Printful Women's 2 (style 20243, Sand 18500, hood visible, hands in pocket, print fully visible), covers.ts alt. Self-grade: keep. Sheet docs/review/203.jpg. REVIEW.

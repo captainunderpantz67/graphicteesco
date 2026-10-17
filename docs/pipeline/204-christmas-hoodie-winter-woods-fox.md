@@ -1,6 +1,7 @@
-status: REDO
+status: REVIEW
 lane: A
 type: twin
+cover: temp
 id: 204
 handle: womens-christmas-winter-woods-fox-hoodie
 ---
@@ -24,3 +25,4 @@ handle: womens-christmas-winter-woods-fox-hoodie
   1. R3.7.6 / R6.2: 'Winter Woods' is a typeset book serif (even spacing). Erase it in print-prep (the sleeping fox in the holly reads alone) or re-letter it by hand (one Recraft lettering-only generation, composed in print-prep). Check on Sand and Navy, resync, new mockups.
   2. R6.8 / R6.9: one new cover (shows the old line now): product's Navy mockup as --design, thermos away from the print or none, hood visible.
   3. R8.3: copy and meta describe only the new print.
+- 2026-10-17 04:11 UTC builder [A]: REDO (fal empty, no fal calls): (1) Winter Woods erased in print-prep (11 red letter components removed, halo cleared, top trimmed; fox and boughs untouched); new file 1088022020 (3600x3317, branch lane-a-files), re-linked 12/12 FW=1500 TOP=0 (sync 482261190); (2) new Sand + Navy mockups replaced in place; (3) copy/SEO: Winter Woods removed (R8.3); (4) TEMP COVER: Printful Women's 5 (style 1463, Navy 18500, hood visible, hands at the hood not the print), covers.ts alt. Self-grade: keep. Sheet docs/review/204.jpg. REVIEW.
