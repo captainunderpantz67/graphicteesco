@@ -440,6 +440,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-homebody-university-of-staying-in-crewneck-sweatshirt': { src: '/covers/unisex-homebody-university-of-staying-in-crewneck-sweatshirt.webp', alt: 'Man and woman in matching navy University of Staying In crewneck sweatshirts, smiling in a cozy living room on a rainy evening' },
   'unisex-nurse-calm-face-loud-brain-crewneck-sweatshirt': { src: '/covers/unisex-nurse-calm-face-loud-brain-crewneck-sweatshirt.webp', alt: 'Man and woman in matching navy Calm Face, Loud Brain nurse crewneck sweatshirts with ID badges, smiling in a hospital staff hallway' },
   'womens-tennis-my-backhand-has-opinions-cropped-hoodie': { src: '/covers/womens-tennis-my-backhand-has-opinions-cropped-hoodie.webp', alt: 'Woman in a storm cropped hoodie with a racket-and-bow print and a headband, standing at a tennis court fence at golden hour with a racket bag on a bench' },
+  'mens-fishing-professionally-chilling-heavyweight-hoodie': { src: '/covers/mens-fishing-professionally-chilling-heavyweight-hoodie.webp', alt: 'Man in a storm blue Professionally Chilling ice fishing heavyweight hoodie, standing on a frozen lake at dawn with an ice shanty behind him' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
