@@ -209,6 +209,7 @@ Sections are numbered so role cards and review notes can point at them ("fails R
 5. Proper nouns capitalized: Christian, Christmas, Thanksgiving, men's, women's.
 6. Never claim something the store doesn't have.
 7. FAQ answers stay in the HTML as h2 + p, even when shown as swipeable cards.
+   **FAQ standard (2026-10-17):** Google only shows FAQ rich results for government and health sites (since Aug 2023), so FAQPage markup is for AI answers and Bing, not for stars in Google. Questions are what buyers actually ask: take them from Google's "People also ask" and autocomplete for the page's keyword (fit, sizing, warmth/weight, wash care, delivery by a holiday date, gift fit, price, returns), worded as the buyer would type them. Answers are 40–60 words, complete on their own (name the product and the brand, give the number: oz, sizes, days, $45 free shipping), first sentence answers the question outright. 4–6 per page, every one visible on the page and word-for-word the same in the markup. No made-up questions about how great we are.
 8. Every product targets its own design long-tail, never the collection's head term.
 
 ## R9. AEO: rank in every AI answer engine (Sam is an AEO specialist; this is half the job)
