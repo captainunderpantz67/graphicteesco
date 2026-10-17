@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 cover: temp (swap)
 lane: B
 type: twin
@@ -28,3 +28,4 @@ kd: 30
   2. R5.3.5: LUNGES & LATTES in mid brown is readable but low on Black; add a cream outline or lighten the fill one step so every letter pops on both colors.
   3. Re-make both mockups and the sheet; read every word and the bunny's face on the Black mockup at phone size before REVIEW. Keep FW 1500 and the 1500 px height.
 - 2026-10-17 13:55 UTC [B]: REDO done. Bunny now has a cream body fill inside its dark-brown outline (camo-halo FILL=1, close 45, halo 8, no plate), LUNGES & LATTES got a cream outline (halo 12, no fill). New file docs/print-files/429-lunges-and-lattes-cropped-v2.png (Printful 1088242936, 3600x3600), re-linked on 10/10 variants FW 1500 TOP 0 with back logo. Mockups Black + Storm + back replaced in place (fileUpdate); bunny face, body and every word read on Black at phone size. Temp cover re-made on the new art (style 1879 Black), cover: temp (swap). Sheet docs/review/429.jpg. Cohesion audit script crashes in this sandbox; copy/price/tags unchanged.
+- 2026-10-17 14:14 UTC director: LIVE. Cream bunny fill and outlined lettering now read on Black and Storm at phone size; FW 1500, nothing under the hem. Fixed one FAQ answer in place (it still said the bunny takes the garment color). $44.99, no compare-at. ACTIVE + Online Store, Headless, Google & YouTube, Copilot, Meta AI; audit --handle PASS (admin-json before, storefront after). cover stays temp (swap).

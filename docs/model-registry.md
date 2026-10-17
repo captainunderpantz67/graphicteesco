@@ -532,3 +532,12 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 639 | white man, mid 30s, shaggy brown hair, beanie in hand | RESERVED — #443 Light Sleeper Hoodie cover (with #640) |
 | 640 | Black woman, early 30s, short natural hair, gold cuff earring | RESERVED — #443 Light Sleeper Hoodie cover (with #639) |
 | 641 | white man, early 50s, bald head, salt-and-pepper beard | RESERVED — #444 Bald and Majestic Heavyweight Hoodie cover |
+| 642 | Puerto Rican man, late 20s, short curly hair, trimmed beard | RESERVED — #445 Squire, Spot Me Hoodie cover |
+| 643 | Mexican-American woman, mid 30s, long dark hair in a low bun, gold huggies | RESERVED — #446 Cold Since Birth Zip Hoodie cover |
+| 644 | Peruvian-American woman, late 20s, long black hair in two braids, small gold hoops | RESERVED — #447 Self-Made Fleece Hoodie cover |
+| 645 | white man, early 50s, grey stubble, reading glasses on his collar | RESERVED — #448 Grill Wizard Zip Hoodie cover |
+| 646 | Black man, early 60s, short white hair, neat white beard | RESERVED — #449 Arrr-thritis Hoodie cover |
+| 647 | Korean-American woman, early 30s, blunt bob, silver ear cuffs | RESERVED — #450 Shiny Object Syndrome Hoodie cover (with #648) |
+| 648 | white man, early 30s, curly red hair, freckles | RESERVED — #450 Shiny Object Syndrome Hoodie cover (with #647) |
+| 649 | white woman, late 30s, messy blonde bun, small pearl studs | RESERVED — #451 Magical, Mostly Tired Zip Hoodie cover |
+| 650 | Black woman, early 20s, long knotless braids, butterfly clips, small gold hoops | RESERVED — #452 Hot Mess Express Hoodie cover |

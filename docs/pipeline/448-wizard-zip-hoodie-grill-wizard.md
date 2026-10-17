@@ -1,0 +1,25 @@
+status: READY
+lane: B
+type: new
+id: 448
+handle: mens-grill-wizard-zip-hoodie
+kd: 17
+---
+## Men's Wizard – Grill Wizard Zip Hoodie
+- **Blank:** Zip-up Gildan 18600 (Printful #692). Zip layout as #418/#424/#432: full art on the BACK at FW 1650 (never under 1500) plus a 525 px left-chest copy, nothing across the zipper (scripts/pf-zip.py). Copy facts from the Printful spec only (R7.1).
+- **Text on shirt:** GRILL WIZARD in big hand-drawn vintage caps under the grill, at least 60% of the art's width (back); the left-chest copy is the wizard's hat and spatula only. All lettering hand-drawn (R3.7.6), spelled exactly, no typeset sub-line; read every word on the darkest mockup at about 400 px wide before REVIEW; knock out white counters (R5.3.8).
+- **Hook:** An old bearded wizard in a starry robe flipping burgers on a backyard kettle grill with a spatula, a little magic sparkle over the patties: the dad who treats every cookout like a spell (men's deadpan).
+- **Why it's not taken:** 'Grill master' shirts are everywhere; a literal wizard at the grill is a fresh twist (director call; builder confirms 'grill wizard' on Etsy and twists it if 50+ listings, R3.7.2).
+- **Style:** A, vintage 1970s screen print, muted 3–5 inks (R4.2).
+- **Art prompt (Recraft v4, one image per call):** "Vintage 1970s screen-print illustration: an old bearded wizard in a long starry robe and pointed hat standing at a round backyard kettle grill, flipping a burger with a spatula, small magic sparkles and smoke curls rising from the patties. Below, hand-drawn vintage caps reading exactly 'GRILL WIZARD'. Palette: cream, navy, faded red, mustard, soft black linework. Worn screen-print texture; the subject is the shape, edges break up into ragged worn texture. Isolated on plain background, no background shape, no frame, no circle, no border, no badge, no dark patch."
+- **Colors:** Ash + Navy (R7.2). Navy robe needs a cream keyline on Navy; else Ash + Sport Grey, logged. Generate a Printful mockup for every color offered before REVIEW.
+- **Primary keyword:** wizard hoodie — 1,600 / KD 17 (RankHero, director 2026-10-17 14:22). KD ≤ 20 band. Mention only: mens zip up hoodie (zip-up-hoodies-for-men head). Unowned in docs/product-keyword-map.json and in every open brief; record it there. Use the primary where a person would say it: the H1-area copy, the first sentence (with the joke and the occasion, R9.11) and once in the meta; no stuffing (R8.2–R8.3). Answer-first FAQs per R8.7: 4–6 questions, 40–60 words each (fit, care, sizing, warmth/weight, gift timing with an order-by date). Describe only what is in the art (R8.3).
+- **Popularity evidence (R5.2):** wizard hoodie 1,600 / KD 17 (RankHero, this run); dad-cookout humor and fantasy mash-ups are proven Etsy gift niches; zip-up-hoodies-for-men has 10 products (needs 14, R11.5).
+- **Cover:** registry #645: white man, early 50s, grey stubble, reading glasses on his collar; scene: a backyard patio at dusk next to a kettle grill (not in his hands), back print turned three-quarters to camera, alt starts 'Man'. Real garment generated with the product's own Printful mockup in the cover color as `--design` (--n 1); hood visible; hands empty or in pockets; nothing (hand, cup, hair, hood, drawcord, another person) over any part of the print; read every word before saving (R6.7–R6.9). No alcohol, tools or weapons (R6.5).
+- **Title / handle:** "Men's Wizard – Grill Wizard Zip Hoodie" / `mens-grill-wizard-zip-hoodie` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** zip-up-hoodies, zip-up-hoodies-for-men, graphic-hoodies-for-men, hoodie, ai-art, intake-done. No tee or sweatshirt-only collection tags (R7.5).
+- **Price:** $44.99 (R12.1 zip-up), no compare-at.
+- **Pre-build while fal is empty:** make the full Shopify DRAFT now from this brief (status ART-NEXT); art + cover when fal returns, then re-check every sentence against the real art.
+---
+## Log
+- 2026-10-17 14:22 UTC director: brief written, READY (keyword measured this run, low-KD sweep; new art, ART-NEXT draft while fal is empty).
