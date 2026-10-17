@@ -1,4 +1,5 @@
-status: BUILDING [B] 2026-10-17 13:50 UTC
+status: REVIEW
+cover: temp (swap)
 lane: B
 type: twin
 id: 431
@@ -21,3 +22,4 @@ kd: 40
 ---
 ## Log
 - 2026-10-17 12:50 UTC director: brief written, READY (keyword measured this run; source art checked against R4.1/R6.2 from its live mockup; fal-free twin).
+- 2026-10-17 13:06 UTC [B]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363666084144 (Bella+Canvas 7502 cropped hoodie #317, Black + Storm x S-2XL = 10, $49.99 = $44.99 + embroidered chest, no compare-at, category aa-1-13-13, tags cropped-hoodies, cropped-sweatshirts, embroidered-sweatshirts, graphic-hoodies-for-women, hoodie, ai-art, intake-done), sync product 482467932 synced 10/10: embroidery_chest_center flat stitch, red thread #CC3333, chest file 1087705402 reused from #192 (2961x1560 at 300 dpi; cuff skipped per brief) via pf-emb-sync.py, printed back-neck logo kept. Colors: Peach is XL-only and out of stock on #317 and the other offered colors are dark (Black, Storm, Military Green), so Black + Storm; red thread checked on all three, clearest on Black, fine on Storm, dull against Military Green. R6.2 check: cherries, bow and the script 'cherry picked' are the hand-drawn thread art from #192 (rounded retro lettering, even line weight); no ring, frame, box or typeset line; one-color transparent file, no white counters. Phone-size read: both words read on Black and Storm at mockup size. FAQ 6 x 39-52 words, order-by Dec 8, copy says embroidered/stitched and mentions the hood (R11.5); 'cherry bow' x2 in copy. Keyword cherry bow 4400/KD40 in map. Mockups (v2 embroidery) Black + Storm fronts + back with logo, variant images per color. Temp cover: Printful Women's 4 Front style 1930 on Black (woman with curly hair, hand on hip clear of the embroidery, white backdrop; style 1930 is on no 7502 item) so cover: temp (swap). Registry #625 stays reserved. Audit-local PASS. Sheet docs/review/431.jpg.

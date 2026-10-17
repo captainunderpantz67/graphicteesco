@@ -6156,6 +6156,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-embroidered-cherry-picked-cropped-hoodie": {
+   "claimed": [
+    "cherry bow"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cherry bow",
+     "volume": 4400,
+     "kd": 40
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
