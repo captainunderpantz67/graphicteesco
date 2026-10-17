@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: new
 id: 293
@@ -23,3 +23,7 @@ handle: mens-hunting-full-draw-zero-deer-camo-hoodie
 ## Log
 - 2026-10-17 director: brief written, READY (lane B camo push to 24, Sam 2026-10-17; keyword measured this run).
 - 2026-10-17 01:06 UTC [B]: built as DRAFT (product 15362709094704, 14 variants Darkwood Tree Camo + Forest Camo XS-3XL, $49.99/$54.99, IND4000/#1543). New art: Recraft v4 try 1 (FULL DRAW, / ZERO DEER spelling checked; compound bow at full draw, squirrel on a stump), print-prep 3600 x 4621 + camo-halo.py cream underlay (close 100, halo 20), Printful file 1087938845, FW 1300 TOP 0. Both camos read. Back logo, mockups, variant images, cover registry #474 (try 1, image 1 of 3), keyword bow hunting hoodie 140/36, audit-local PASS. Sync pid 482365186, 14/14. Sheet docs/review/293.jpg.
+- 2026-10-17 01:15 UTC director: REDO.
+  1. R5.3.4 / R3.7.1: the joke is FULL DRAW, but the bow is not drawn: the string runs straight and the arrow just floats through the riser, so a hunter sees a bow at rest and the line doesn't land. Also camo-halo filled the whole space between riser and string, so the bow reads as a solid cream D-shaped plate behind the squirrel (R4.1 patch). Regenerate (try 2 of 2, R5.4): a bowhunter seen from behind in a tree stand at true full draw (string pulled back to the cheek, arrow nocked and on the rest, cams turned over) aimed at empty woods, a squirrel on a nearby branch staring back. Keep FULL DRAW, / ZERO DEER in the same hand-drawn orange.
+  2. Run camo-halo.py with a smaller close value so open gaps between string and limbs stay camo, not cream. Preview on Darkwood and Forest.
+  3. New file, mockups, cover from the new mockup (R6.7), then REVIEW.

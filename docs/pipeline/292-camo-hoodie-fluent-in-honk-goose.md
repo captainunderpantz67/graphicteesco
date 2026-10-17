@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: new
 id: 292
@@ -23,3 +23,7 @@ handle: mens-hunting-fluent-in-honk-camo-hoodie
 ## Log
 - 2026-10-17 director: brief written, READY (lane B camo push to 24, Sam 2026-10-17; keyword measured this run).
 - 2026-10-17 01:06 UTC [B]: built as DRAFT (product 15362700083504, 14 variants Duck Camo + Black Camo XS-3XL, $49.99/$54.99, IND4000/#1543). New art: Recraft v4 try 1 (FLUENT IN HONK spelling checked), print-prep 3600 x 3713 + camo-halo.py cream underlay (close 100, halo 20), Printful file 1087936816, FW 1500 TOP 0. Duck and Black camo both read. Back logo, mockups, variant images, cover registry #473 (try 1, image 2 of 3), keyword waterfowl hoodie 390/31, audit-local PASS. Sync pid 482363941, 14/14. Sheet docs/review/292.jpg.
+- 2026-10-17 01:15 UTC director: REDO.
+  1. R4.1 / R6.2: the cornfield ground behind the goose is cut off by straight left and right edges, so on Duck Camo the scene reads as a cream box (visible on both mockups and the cover). Break those edges into worn, broken stubble edges in print-prep before camo-halo.py, so the halo follows a ragged outline.
+  2. R5.3.5: FLUENT IN HONK in mustard on Duck Camo nearly vanishes at phone size (brown on brown). Put the lettering on the same cream halo the art gets (camo-halo over the text too), or re-ink it cream with a dark outline, so it reads on both Duck and Black camo.
+  3. New file, re-link both colors, new mockups and a new cover from the new Duck Camo mockup (R6.7), then REVIEW.

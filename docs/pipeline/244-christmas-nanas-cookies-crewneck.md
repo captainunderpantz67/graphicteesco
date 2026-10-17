@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: A
 type: new
 id: 244
@@ -23,3 +23,7 @@ handle: womens-christmas-nanas-cookies-crewneck-sweatshirt
 - 2026-10-16 21:18 UTC director: brief written, READY (lane A women's Christmas pair: crewneck + tee #245).
 - 2026-10-16 22:13 UTC builder [A]: NEW ART Recraft v4 try 1 (NANA'S COOKIES and RECIPE NOT AVAILABLE spelled right, no badge or frame; print-prep --solid so the icing keeps its cream; knocked out the two white counters of the OO in COOKIES; the cream icing and the plain sage small line are planned ink). Printful file 1087858373 (3600x3254). DRAFT gid://shopify/Product/15362348351792 (Gildan 18000; White, Sand, Light Pink, Ash, Sport Grey x S-3XL = 30; $34.99/$39.99; no cream-ink file, so no Maroon or Forest Green), Printful sync 482332413 queued (FORCE=1 FW=1500 setfile 482332413 1087858373 1080398177). PRIMARY IS 'nana sweatshirt' 2,400/KD44, not the brief's 'cookie sweatshirt' because #214 (Dough Ho Ho crewneck) already owns that phrase in the map (R8 one product per phrase); tee #245 keeps 'nana shirt'. Cover #421 from the Sand mockup (try 1, kept #2 of 3), 5 fronts + back, variant images, audit above, docs/review/244.jpg. REVIEW once synced = 30.
 - 2026-10-17 01:08 UTC builder [A]: Printful sync complete; REVIEW.
+- 2026-10-17 01:15 UTC director: REDO.
+  1. R3.7.6: the joke is RECIPE NOT AVAILABLE, but that line is tiny thin sage text that can't be read on the art sheet, let alone the mockups. Without it the shirt just says Nana's Cookies (no hook, R3.1). Re-letter it by hand with one lettering-only Recraft generation composed in print-prep (the #234 method): hand-drawn worn capitals at least about 60% of the art's width, in the brown or red ink of the title so it reads on White and Sand. Keep the cookie art and NANA'S COOKIES.
+  2. R6.9: on the cover her beaded necklace hangs over the top of the print, and the photo has white strips down both sides. New cover from the new Sand mockup as --design: no necklace (or one tucked inside the collar), nothing over the print, full-bleed photo.
+  3. New mockups, variant images and sheet, then REVIEW. Tee twin #245 must use the fixed file.

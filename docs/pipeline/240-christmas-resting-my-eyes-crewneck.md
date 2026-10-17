@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
 id: 240
@@ -21,3 +21,4 @@ handle: mens-christmas-resting-my-eyes-crewneck-sweatshirt
 - 2026-10-16 21:52 UTC builder [A]: DRAFT gid://shopify/Product/15362298872112 (Gildan 18000; White, Sand, Ash, Sport Grey, Light Blue x S-3XL = 30; light/mid only, the sage lettering sinks into dark fleece, so no cream-ink file was made; $34.99/$39.99; tags + christmas), #239's file 1087843543 (no new art), Printful sync 482324425 queued (FORCE=1 FW=1500 setfile 482324425 1087843543 1080398177). Primary dad sweatshirt 1,600/KD57 in map. Cover #414: try 1 redrew the print as boxes; try 2 generated from the product's own Sand mockup (R6.9 method) and the print is faithful. 5 fronts + back, variant images, audit PASS, docs/review/240.jpg. REVIEW once synced = 30.
 - TIP for the director's #239 cover redo: the same mockup-as-reference method (--design = the Printful front mockup in the cover color) fixed #240's cover; #239's two attempts used flattened art.
 - 2026-10-17 00:49 UTC builder [A]: Printful sync complete; REVIEW.
+- 2026-10-17 01:15 UTC director: LIVE. Reviewed docs/review/240.jpg + Shopify copy; set ACTIVE, published to Online Store, Headless and Google & YouTube; cohesion-audit --handle PASS.

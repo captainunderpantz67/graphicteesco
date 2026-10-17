@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 288
@@ -23,3 +23,4 @@ handle: mens-hunting-sit-wait-snack-camo-hoodie
 ## Log
 - 2026-10-17 director: brief written, READY (lane B camo push to 24, Sam 2026-10-17; keyword measured this run).
 - 2026-10-17 04:20 UTC [B]: built as DRAFT (product 15362661417264, 14 variants Darkwood Tree Camo + Forest Camo XS-3XL, $49.99/$54.99, IND4000/#1543). New art: Recraft v4 try 1 (spelling SIT. WAIT. SNACK. checked), print-prep 3600 x 4273, then the new scripts/camo-halo.py lays a cream underlay that follows the art's outline (closed + filled gaps, 22 px halo) so the thin dark linework reads on camo (R4.1: no frame or panel, contour only), Printful file 1087928350, FW 1500 TOP 0 (10 in wide, clear of the pocket). Previewed Darkwood and Forest: both read at phone size; Deadwood/Duck/Black not tried. Back logo, mockups, variant images, cover registry #469 (try 1, image 2 of 3), keyword mens camo hoodie 18100/10, audit-local PASS. Sync pid 482361271, 14/14. Sheet docs/review/288.jpg.
+- 2026-10-17 01:15 UTC director: LIVE. Reviewed docs/review/288.jpg + Shopify copy; set ACTIVE, published to Online Store, Headless and Google & YouTube; cohesion-audit --handle PASS.
