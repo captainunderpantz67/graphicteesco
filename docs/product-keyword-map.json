@@ -5689,6 +5689,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-otter-currently-drifting-hoodie": {
+   "claimed": [
+    "otter hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "otter hoodie",
+     "volume": 320,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
