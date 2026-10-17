@@ -5871,6 +5871,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-football-mom-hut-hut-hooray-hoodie": {
+   "claimed": [
+    "football hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "football hoodie",
+     "volume": 3600,
+     "kd": 45
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
