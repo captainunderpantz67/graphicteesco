@@ -1,4 +1,4 @@
-status: BUILDING B 18:36Z
+status: READY
 lane: B
 type: twin
 id: 385
