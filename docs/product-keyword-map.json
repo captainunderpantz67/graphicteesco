@@ -6299,6 +6299,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-mothman-light-sleeper-hoodie": {
+   "claimed": [
+    "mothman hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "mothman hoodie",
+     "volume": 390,
+     "kd": 31
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
