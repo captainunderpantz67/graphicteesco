@@ -533,13 +533,10 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 640 | Black woman, early 30s, short natural hair, gold cuff earring | USED 2026-10-16 — #443 Mothman Light Sleeper hoodie cover (seedream, 1 attempt) |
 | 641 | white man, early 50s, bald head, salt-and-pepper beard | RESERVED — #444 Bald and Majestic Heavyweight Hoodie cover |
 | 642 | Puerto Rican man, late 20s, short curly hair, trimmed beard | RESERVED — #445 Squire, Spot Me Hoodie cover |
-<<<<<<< HEAD
 | 643 | Mexican-American woman, mid 30s, long dark hair in a low bun, gold huggies | USED 2026-10-17 — #446 Cold Since Birth zip hoodie cover (try 2 kept, 2 images; back view) |
 | 644 | Peruvian-American woman, late 20s, long black hair in two braids, small gold hoops | RESERVED — #447 Self-Made Fleece Hoodie cover |
-=======
 | 643 | Mexican-American woman, mid 30s, long dark hair in a low bun, gold huggies | RESERVED — #446 Cold Since Birth Zip Hoodie cover |
 | 644 | Peruvian-American woman, late 20s, long black hair in two braids, small gold hoops | USED 2026-10-17 — #447 Judging You Softly alpaca hoodie cover (seedream, 1 attempt)
->>>>>>> a50fa62 ([A] 447 alpaca hoodie built (sync running))
 | 645 | white man, early 50s, grey stubble, reading glasses on his collar | RESERVED — #448 Grill Wizard Zip Hoodie cover |
 | 646 | Black man, early 60s, short white hair, neat white beard | USED 2026-10-17 — #449 Pillaging Young Man's Game hoodie cover (try 1, image 1 of 1) |
 | 647 | Korean-American woman, early 30s, blunt bob, silver ear cuffs | USED 2026-10-17 - #450 Shiny Object Syndrome crow hoodie cover (pair with #647-648) |
