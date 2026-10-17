@@ -1,8 +1,9 @@
-status: BUILDING [A] 2026-10-17 04:29
+status: REVIEW
 lane: A
 type: twin
 id: 335
 handle: womens-christmas-snow-problem-hoodie
+cover: temp
 kd: 16
 ---
 ## Women's Christmas – Snow Problem Hoodie
@@ -23,3 +24,4 @@ kd: 16
 ---
 ## Log
 - 2026-10-17 04:21 UTC director: brief written, READY (low-KD sweep 2026-10-17 04:30 run; keyword and trend measured this run).
+- 2026-10-17 04:35 UTC builder [A]: DRAFT gid://shopify/Product/15363015541040 (18500; Sand + Navy x S-3XL = 12; $39.99, NO compare-at; category hoodies; tags christmas-hoodies, graphic-hoodies-for-women, hoodie, ai-art, intake-done). R6.2 twin check: source art is the pattern-filled SNOW PROBLEM letters themselves (hand-drawn, not typeset), pink bow and snowflakes are planned ink, no counters/panels/rings; reads on Sand and Navy. Print file 1087865069 reused as is? No: re-hosted copy of the same art (branch lane-a-files, file 1088031278), FW=1500 TOP=0, Printful sync 482392048 12/12. Copy: snow hoodie (1,900/KD16) in line one with joke + occasion, FAQ x3, SEO. Mockups Sand + Navy fronts + back, variant images, alt R7.8. TEMP COVER: Printful Women's Lifestyle (style 1463, Sand 18500, hood visible, hands at hood), alt starts 'Woman'. Self-grade: keep. Sheet docs/review/335.jpg. REVIEW.

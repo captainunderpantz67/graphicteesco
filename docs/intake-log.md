@@ -1,4 +1,5 @@
 RUNNING lane A since 2026-10-17 03:58 UTC
+2026-10-17 04:35 UTC — [A] Builder (temp-cover mode): #335 Snow Problem hoodie built as DRAFT, 12/12 synced, temp cover → REVIEW.
 RUNNING lane B since 2026-10-17 04:28 UTC
 2026-10-17 04:50 UTC — [B] Builder (temp-cover mode): #316 Deadlift Skeleton oversized hoodie → REVIEW (temp cover, relinked 12/12 pending sync).
 2026-10-17 04:34 UTC — [A] Builder (temp-cover mode): #218 Pink Christmas Trees crewneck: tagline erased, white blobs knocked out, re-linked 30/30, mockups, copy, compare-at cleared, Printful temp cover → REVIEW. #335 Snow Problem hoodie + #279 Friendsgiving hoodie built as DRAFT (twins; syncing).
