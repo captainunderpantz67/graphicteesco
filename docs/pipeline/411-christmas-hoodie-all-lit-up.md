@@ -1,5 +1,5 @@
-status: REVIEW
-cover: temp
+status: LIVE
+cover: temp (keep)
 lane: A
 type: twin
 id: 411
@@ -24,3 +24,4 @@ kd: 58
 - 2026-10-17 10:21 UTC director: brief written, READY (keyword measured this run; fal-free twin).
 - 2026-10-17 11:12 UTC builder [A]: claim released, not built. Hosting the enlarged-lettering print file on a public branch and a Printful mockup call were blocked by the permission classifier; R6.2 check done (All Lit Up is a bouncy hand-lettered cream script, no typeset line, no ring/panel); plan: Navy + Black or Forest Green, FW 1500 of file 1083161298, optionally enlarge the lettering 1.4x (needs a hosted file).
 - 2026-10-17 12:06 UTC builder [A]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363655041328 (Gildan 18500 #146, Navy + Black x S-3XL = 12, $39.99 no compare-at, category aa-1-13-13, tags christmas-hoodies, graphic-hoodies-for-women, hoodie, christmas, ai-art, intake-done), Printful sync product 482452376 (back neck logo 1080398177). Print: crewneck file 1083161298 with the ALL LIT UP lettering enlarged 1.4x by hand (bulb art unchanged), canvas extended, 3000x3158 transparent PNG (docs/print-files/411-all-lit-up.png, Printful file 1088201918; downsized from 3600 because Printful rejected the 7.7 MB original). FW 1500 TOP 0 (print 1579 px tall, ends clear of the pouch seam in the mockup). Colors Navy + Black, not Forest Green: the green bulbs would sink on Forest Green (R5.3.8). R6.2 check: ALL LIT UP is hand-drawn cream script, no typeset line, ring, panel or box; bulbs and ray marks are drawn art; white counters: none knocked out, cream ink only. Phone-size read at 400 px: All Lit Up reads on Navy and Black. FAQ 5 x 41-48 words, order-by Dec 8. Cover: Printful style 20243 (Women's 2), woman, hood visible, hands in pocket, nothing over the print; registry #603 left RESERVED for the real cover. Keyword christmas pullover 2,400/KD58 in map.
+- 2026-10-17 12:14 UTC director: LIVE. Sheet + Shopify copy checked against R3/R4/R5/R6/R8/R13.3: art passes today's rules, every word reads on both mockups, copy facts and cross-sell claims verified (sibling products exist), price right, no compare-at. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS. cover graded KEEP (natural studio model, right audience, print large and readable).

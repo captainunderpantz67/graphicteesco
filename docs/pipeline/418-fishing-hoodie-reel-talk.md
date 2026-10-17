@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 cover: temp (swap)
 shopify: gid://shopify/Product/15363654811952
 lane: B
@@ -24,3 +24,4 @@ kd: 42
 ## Log
 - 2026-10-17 11:23 UTC director: brief written, READY (keyword measured this run; source art checked against R4.1/R6.2 from its live mockup; fal-free twin).
 - 2026-10-17 13:30 UTC builder [B]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363654811952 (Gildan 18500 #146, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category aa-1-13-13, tags fishing-hoodies, graphic-hoodies-for-men, hoodie, ai-art, intake-done), sync product 482451804 synced 12/12 with back logo. Print: tee file 1087174745 reused as is (3600x3954, docs/print-files/418-reel-talk.png), set fresh for this blank at FW 1500 TOP 0 (1648 px tall; on the mockups the lily pads end well above the pouch seam, no crop needed). R6.2 check: REEL TALK is chipped hand-drawn slab lettering, bass, rod, reel, cattails and lily pads are drawn art; no typeset line, ring, panel or box. White counters: none (cream highlights are planned ink). Phone-size read: REEL TALK reads on Sand and Navy. FAQ 6 x 46-55 words, order-by Dec 8. Keyword fisherman hoodie 320/KD42 in map ('fishing hoodie' only in collection wording). Mockups: Sand+Navy fronts, Navy back, variant images per color. Temp cover: Printful style 1600 (Men's 5 Front, Navy, man with hands at his sides, print and hood fully visible, white catalog backdrop; style 1454 went to #422 and 1455 is on a live item): cover: temp (swap), registry #611 stays reserved. Audit-local PASS. Sheet docs/review/418.jpg. REVIEW.
+- 2026-10-17 12:14 UTC director: LIVE. Sheet + Shopify copy checked against R3/R4/R5/R6/R8/R13.3: art passes today's rules, every word reads on both mockups, copy facts and cross-sell claims verified (sibling products exist), price right, no compare-at. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS. cover stays temp (swap): white catalog backdrop next to the scene covers.
