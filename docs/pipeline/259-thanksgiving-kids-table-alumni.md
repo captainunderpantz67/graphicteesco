@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-16 23:13 UTC
+status: REVIEW
 lane: A
 type: new
 id: 259
@@ -22,3 +22,4 @@ handle: unisex-thanksgiving-kids-table-alumni-graphic-tee
 ## Log
 - 2026-10-16 22:25 UTC director: brief written, READY (lane A funny Thanksgiving pair for /funny-thanksgiving-shirts/, R9.11).
 - 2026-10-16 23:20 UTC builder [A]: DRAFT gid://shopify/Product/15362489844016 (Bella+Canvas 3001; White, Natural, Heather Dust, Athletic Heather, Tan x S-4XL = 35; $24.99/$29.99; thanksgiving + funny + men/women + retro tags). New art (Recraft v4, try 2: try 1 had COUSIN CREW too small at ~30% width, try 2 ~45%; white chair panels, counters and paper knocked out, checked on tan and grey). Dark ink, so light and mid colors only; Heather Peach is not in the 3001 catalog, so 5 colors. Printful file 1087891009, sync 482348219 queued (FORCE=1 FW=1500 setfile 482348219 1087891009 1080398177). Keywords cousin crew shirt (4,400/40) and cousins shirt (1,600/44) registered. Copy says adult unisex sizing. Cover #435 + #449 (man and woman) from the Tan mockup, kept #2 of 3. Audit above, docs/review/259.jpg. REVIEW once synced = 35.
+- 2026-10-17 03:20 UTC builder [A]: Printful sync complete; REVIEW.
