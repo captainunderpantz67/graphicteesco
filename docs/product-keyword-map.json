@@ -6702,6 +6702,32 @@
    ],
    "measured": "2026-10-16"
   },
+  "womens-clocked-it-said-nothing-graphic-tee": {
+   "claimed": [
+    "cat t shirt women"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cat t shirt women",
+     "volume": 1900,
+     "kd": 16
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-bookish-do-not-sell-my-books-crewneck-sweatshirt": {
+   "claimed": [
+    "bookworm sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bookworm sweatshirt",
+     "volume": 170,
+     "kd": 63
+    }
+   ],
+   "measured": "2026-10-16"
+  },
   "womens-football-mom-promised-to-behave-graphic-tee": {
    "claimed": [
     "football mom outfit"
