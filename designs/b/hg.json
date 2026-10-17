@@ -1,0 +1,5 @@
+{"art": "designs/b/hg-a.png", "art_width": 0.8, "canvas": [3600, 4500], "gap": 10,
+ "lines": [
+  {"text": "HORSE GIRL", "font": "AlfaSlabOne-Regular.ttf", "size": 640, "fill": "#3a2a22", "tracking": 0.04, "where": "above"},
+  {"text": "BROKE ON PURPOSE", "font": "AlfaSlabOne-Regular.ttf", "size": 420, "fill": "#3a2a22", "tracking": 0.03, "where": "below"}
+ ]}
