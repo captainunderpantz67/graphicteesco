@@ -1,8 +1,10 @@
-status: READY
+status: PARKED
+behind low-KD: grumpy hoodie 140/KD 36, flat all year, no surge (Sam 2026-10-17 low-KD rule)
 lane: A
 type: twin
 id: 278
 handle: unisex-christmas-bah-humbug-hoodie
+kd: 36
 ---
 ## Unisex Christmas – Bah Humbug Hoodie
 - **Twin of #169 Bah Humbug (LIVE tee) / #170 crewneck:** reuse the approved print file; no new art generation. First do the R6.2 lettering check and log it.
@@ -18,3 +20,4 @@ handle: unisex-christmas-bah-humbug-hoodie
 ---
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).
+- 2026-10-17 02:18 UTC director: PARKED behind low-KD briefs (KD 36+, under 1,000/month, no holiday surge).

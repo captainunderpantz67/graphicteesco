@@ -3,6 +3,7 @@ lane: A
 type: new
 id: 275
 handle: mens-christmas-white-elephant-champion-graphic-tee
+kd: 43
 ---
 ## Men's Christmas – White Elephant Champion Tee
 - **Blank:** Bella+Canvas 3001 (unisex), lightweight 4.2 oz (R7.1). Crewneck twin: #276 (same art; build the art here first).

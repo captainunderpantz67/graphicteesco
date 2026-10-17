@@ -3,6 +3,7 @@ lane: A
 type: twin
 id: 284
 handle: womens-christmas-deck-the-stalls-western-crewneck-sweatshirt
+kd: 62
 ---
 ## Women's Christmas – Deck the Stalls Western Crewneck Sweatshirt
 - **Twin of #283:** same art and print files; build after #283's art passes the self-check (R5.3.8, R6.2, R7.3). No new art generation.

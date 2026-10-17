@@ -3,6 +3,7 @@ lane: A
 type: twin
 id: 277
 handle: womens-christmas-gingerbread-lane-hoodie
+kd: 49
 ---
 ## Women's Christmas – Gingerbread Lane Hoodie
 - **Twin of #144 Gingerbread Lane (the frameless redraw that is LIVE on the crewneck):** reuse the approved print file; no new art generation. First do the R6.2 lettering check and log it.

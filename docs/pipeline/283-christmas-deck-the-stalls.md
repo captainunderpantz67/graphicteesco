@@ -3,6 +3,7 @@ lane: A
 type: new
 id: 283
 handle: womens-christmas-deck-the-stalls-western-graphic-tee
+kd: 56
 ---
 ## Women's Christmas – Deck the Stalls Western Tee
 - **Blank:** Bella+Canvas 6400 women's relaxed tee, lightweight 4.2 oz (R7.1). Crewneck twin: #284 (same art; build the art here first).

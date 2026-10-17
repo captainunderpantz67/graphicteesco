@@ -3,6 +3,7 @@ lane: A
 type: new
 id: 282
 handle: mens-christmas-bulking-season-graphic-tee
+kd: 55
 ---
 ## Men's Christmas – Bulking Season Tee
 - **Blank:** Bella+Canvas 3001 (unisex), lightweight 4.2 oz (R7.1). Tee only: no measured crewneck phrase for the gym-Christmas joke (christmas gym sweatshirt returns nothing); revisit a twin if one appears.

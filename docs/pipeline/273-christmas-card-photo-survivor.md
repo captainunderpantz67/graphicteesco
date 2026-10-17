@@ -3,6 +3,7 @@ lane: A
 type: new
 id: 273
 handle: unisex-christmas-card-photo-survivor-graphic-tee
+kd: 52
 ---
 ## Unisex Christmas – Card Photo Survivor Tee
 - **Blank:** Bella+Canvas 3001 (unisex), lightweight 4.2 oz (R7.1). Crewneck twin: #274 (same art; build the art here first).

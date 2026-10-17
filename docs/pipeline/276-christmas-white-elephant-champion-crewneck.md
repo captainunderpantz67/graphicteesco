@@ -3,6 +3,7 @@ lane: A
 type: twin
 id: 276
 handle: mens-christmas-white-elephant-champion-crewneck-sweatshirt
+kd: 60
 ---
 ## Men's Christmas – White Elephant Champion Crewneck Sweatshirt
 - **Twin of #275:** same art and print files; build after #275's art passes the self-check (R5.3.8, R6.2, R7.3). No new art generation.
