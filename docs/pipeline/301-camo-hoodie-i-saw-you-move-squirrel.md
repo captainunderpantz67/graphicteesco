@@ -1,0 +1,24 @@
+status: READY
+lane: B
+type: new
+id: 301
+handle: mens-hunting-i-saw-you-move-squirrel-camo-hoodie
+---
+## Men's Hunting – I Saw You Move Camo Hoodie
+- **Blank:** Heavyweight Independent Trading IND4000 (Printful #1543), camo colors (Duck Camo, Forest Camo, Darkwood Tree Camo, Deadwood Tree Camo, Black Camo). Copy facts from the Printful spec only (R7.1). Camo is busy: the art is drawn in light inks (cream, bone, blaze orange, soft white linework with a dark outline) so it reads on camo; run camo-halo.py with the lettering included and a small close value so open shapes stay garment (R5.3.8 camo line, 2026-10-17); preview on each camo mockup at phone size and keep only the colors where every word and the subject read. Front print about 11 in wide, every word clear of the pocket seam.
+- **Text on shirt:** I SAW YOU MOVE — hand-drawn vintage capitals, one line under the squirrel.
+- **Hook:** A squirrel on a branch at eye level, staring straight at you with total suspicion, cheeks full of acorns: every deer hunter knows the squirrel that gives his position away. Men's dry deadpan (R3.4); anyone who has sat still in a stand for four hours laughs.
+- **Why it's not taken:** Etsy squirrel hunting shirts are silhouettes and 'squirrel whisperer' text; the busted-by-a-squirrel point of view isn't on page 1. Builder: check 50+ exact (R3.7.2).
+- **Style:** A, vintage to the edges (R4.2). Every line hand-lettered (R3.7.6); no badge, ring, arch or panel behind the art (R4.1).
+- **Art prompt (Recraft v4):** "Vintage 1960s outdoor-magazine illustration: a gray squirrel sitting on an oak branch facing the viewer, eyes narrowed in deep suspicion, cheeks stuffed with acorns, tail curled up, a few oak leaves on the branch. Hand-lettered vintage capitals 'I SAW YOU MOVE' below. Palette: cream, bone, blaze orange, faded tan, soft dark brown linework. Hand-drawn vintage lettering, worn screen-print texture, edges breaking up, light inks with soft dark linework so it reads on camo. The subject is the shape. Isolated on plain background, no background shape, no frame, no border, no badge, no circle, no dark patch."
+- **Colors:** Darkwood Tree Camo + Forest Camo.
+- **Primary keyword:** squirrel hoodie — 170 / KD 34 (RankHero 2026-10-17). Small but niche-true (R2.7). Unowned; record it. Supporting: squirrel shirt 590/46 (mention once).
+- **Supporting:** run `scripts/keyword-gap.py` with 2-4 design seeds; keep 4-6 measured, unowned phrases that describe the art (R2.7). Never 'camo hoodie', 'camo sweatshirt' or 'hunting hoodie' as a claim (collection heads, R8.8); never Realtree or Mossy Oak.
+- **Popularity evidence (R5.2):** squirrel shirt 590/46 and squirrel hoodie 170/34 measured (81% US); Full Draw's squirrel and Sit Wait Snack show the stand-humor lane; mens camo hoodie 18,100/10 (owned by #288) proves the blank.
+- **Cover:** registry #482 — man (R6.3), White man, mid 30s, red-brown full beard, blaze orange knit beanie, lean build. Scene: the foot of a ladder stand in hardwoods at first light, frost on the leaves. The real garment in the offered color (camo pattern visible), hood visible on hoodies, generated with the product's own Printful mockup as `--design`; hands empty or at the sides, nothing over any part of the print; read every word against the art before saving (R6.7-R6.9).
+- **Title / handle:** "Men's Hunting – I Saw You Move Camo Hoodie" / `mens-hunting-i-saw-you-move-squirrel-camo-hoodie` (R7.4; the handle suffix sets the audit price, R12.1). Copy line one names the joke and the season (R9.11).
+- **Tags:** camo-hoodies, hunting-hoodies, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
+- **Price (R12.1):** IND4000 camo $49.99, compare-at $54.99.
+---
+## Log
+- 2026-10-17 director: brief written, READY (lane B camo push: this batch takes camo to 24, Sam 2026-10-17; keyword measured this run).
