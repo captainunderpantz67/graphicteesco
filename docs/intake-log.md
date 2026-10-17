@@ -1,3 +1,4 @@
+2026-10-17 18:16 UTC — [D] #480 Tag Soup tee LIVE (reached REVIEW mid-run; audit PASS).
 2026-10-17 18:18 UTC — [D] Director run done: 2 LIVE (#477, #479), 1 REDO (#354), Telegram sent (both links 200). Lock released.
 2026-10-17 18:13 UTC — [B] REVIEW #480 Tag Soup tee (DRAFT gid 15363971940656, synced 21/21, fal cover 1 image).
 2026-10-17 18:20 UTC — [D] Queue: lane A 14 READY; lane B 11 READY + 1 BUILDING (#480). No new lane B brief this run: new art is on hold (Sam), and a sweep for twins of existing art found every fitting phrase at KD 35 or under already claimed (deer hoodie, hunting hoodie, hunting sweatshirt, cat hoodie) or too hard (sarcastic hoodie 170/59, minimalist hoodie 1,600/54, line art hoodie 210/40). Note: 5 of lane B's READY twins (461 464 467 473 476) wait on ART-NEXT sources still under the hold.
