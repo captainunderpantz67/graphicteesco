@@ -5,7 +5,8 @@ import type { Collection } from '../data/collections';
 import { bySlug, pathFor, all } from '../data/collections';
 import { getCollectionProducts, shopifyConnected } from '../lib/shopify';
 import { breadcrumbs, faqPage, collectionPage } from '../lib/schema';
-import { resolveFaqs } from '../data/site';
+import { resolveFaqs, site } from '../data/site';
+import { coverFor } from '../data/covers';
 import { HOLD, MIN_INDEX, linkableSlugs, hoodiesHubLive } from '../lib/linkable';
 
 interface Props { collection: Collection }
@@ -24,9 +25,12 @@ const crumbs = [
 const related = all.filter((x) => x.section === c.section && x.slug !== c.slug && !!x.seasonal === !!c.seasonal && live.has(x.slug)).slice(0, 6);
 // A collection with fewer than MIN_INDEX products is a thin page and stays out of the index until filled.
 // Off-target head terms and duplicate pages stay out too (HOLD, src/lib/linkable.ts).
+// Share/AI preview image: the first product's lifestyle cover, else its product photo (was og-default for every page).
+const firstCover = products.map((p) => coverFor(p.handle)).find(Boolean);
+const shareImage = firstCover ? `${site.url}${firstCover.src}` : products[0]?.images[0]?.url;
 const noindex = (shopifyConnected && products.length < MIN_INDEX) || HOLD.has(c.slug);
 ---
-<Base title={c.title} description={c.description} noindex={noindex}
+<Base title={c.title} description={c.description} noindex={noindex} image={shareImage}
   schema={[breadcrumbs(crumbs), faqPage(faqs), collectionPage(c, products)]}>
   <nav aria-label="Breadcrumb" class="container-x pt-6 text-xs text-[var(--color-ink-2)]">
     {crumbs.map((b, i) => <>{i > 0 && ' / '}{i < crumbs.length - 1 ? <a href={b.path} class="hover:underline">{b.name}</a> : <span>{b.name}</span>}</>)}
