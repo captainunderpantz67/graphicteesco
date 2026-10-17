@@ -1,0 +1,29 @@
+status: READY
+lane: C
+type: new
+id: 489
+handle: womens-funny-already-over-it-kindly-hoodie
+kd: 30
+---
+## Women's Funny – Already Over It, Kindly Hoodie
+- **Blank:** Pullover hoodie Gildan 18500 (Printful #146), 8 oz 50/50 fleece, front print FW 1500 or wider, every word clear of the pouch seam (R5.3.2). Copy facts from the Printful spec only (R7.1).
+- **Style:** A (R4.2) vintage print, no frame; Sam's 16 proof-first concepts (inbox 2026-10-17 19:30, design research page). New art: one illustration generation, max 3 tries.
+- **Text on shirt:** ALREADY OVER IT / kindly. (bold vintage caps, then a small polite script) with a little teacup or a waving hand motif. Spelled exactly. Set in real fonts with scripts/compose-print.py, never drawn by the image model.
+- **Hook:** Polite and done in four words: the face you make at the third meeting that could have been an email. Women's, full sass, buyer laughs and tags a friend.
+- **Three lines considered (R3.1):** "Already Over It, Kindly" (picked: self-aware, polite-rude twist, proven 'I'm a delight' format) · "Politely Unavailable" · "No Thank You, Warmly"
+- **Why it's not taken:** Etsy's sassy-polite shirts say 'First of all, I'm a delight'; nobody has 'Already Over It, Kindly' with a teacup on a hoodie (director call; builder confirms, R3.7.2).
+- **Design gate (5 parts, docs/research/how-to-research-a-design.md):** search: funny hoodie women 480 / KD 30 (RankHero 2026-10-17) · proof: 'First of all, I'm a delight' 1,660 favorites; 'I could be meaner' 1,134 (format 2) · joke type: self-aware statement · look: vintage type, big on the chest · gift test: the best friend who is always 'fine'.
+- **Art standard (Sam, inbox 2026-10-17 19:30):** fal/Recraft draws the illustration ONLY, with no lettering at all (prompt says "no text, no letters, no words"). The words are set in real fonts with `scripts/compose-print.py` from designs/fonts (spec examples: designs/first5/sisyphus.json, books.json, tagsoup.json). One image per call, at most 3 tries; if all 3 are weak, PARK it and say why. Never ship weak art to fill a count. Log fal $ in this file.
+- **Art prompt (Recraft v4, one image per call):** "A small vintage screen-print teacup and saucer with a thin curl of steam, faded rose, cream and soft black linework, worn texture, edges breaking up. No text, no letters, no words, no background shape, no frame, no border, no badge, no circle, no dark patch."
+- **Print size:** FW 1500+ (hoodie, never under for the pouch, R5.3.2). Read every word on the darkest mockup at about 400 px wide before REVIEW (builder 7b). Light-ink file for dark colors, dark-ink file for light colors (R5.3.8); knock out any white letter counters.
+- **Colors (R7.2):** Sand + Navy (R7.2), or Sand + a bold pink if the blank has one and the art reads.
+- **Primary keyword:** funny hoodie women — 480 / KD 30 (RankHero 2026-10-17, director; 54% US; KD 21–35 band). Supporting: funny hoodie 2,900/59 (once, only if natural). Unowned in docs/product-keyword-map.json and every open brief (checked 2026-10-17); recorded there with this handle. Use the primary where a person would say it: the H1-area copy, the first sentence (with the joke and the occasion, R9.11) and once in the meta; supporting phrases at most once each; no stuffing (R8.2–R8.3). Answer-first FAQs per R8.7: 4–6 questions, 40–60 words each (fit, care, sizing, warmth/weight, gift timing with an order-by date). Describe only what is in the art (R8.3); never say we drew it (AI art; say 'original art, made for Graphic Tees Co.').
+- **Popularity evidence (R5.2):** see the gate line (design research page; docs/research/etsy-2026-10-17/).
+- **Cover:** registry #813: white woman, mid 20s, platinum-blonde shag haircut, small hoop nose ring, gold layered necklaces; scene: a city coffee shop window seat in late fall, laptop closed on the table at her side; alt starts 'Woman'. Real garment generated with the product's own Printful mockup in the cover color as `--design` (--n 1); hood visible on hoodies; hands empty or in pockets; nothing (hand, cup, hair, hood, drawcord, another person) over any part of the print; read every word before saving (R6.7–R6.9). No alcohol, tools or weapons (R6.5). Max 2 attempts.
+- **Title / handle:** "Women's Funny – Already Over It, Kindly Hoodie" / `womens-funny-already-over-it-kindly-hoodie` (R7.4).
+- **Tags:** graphic-hoodies-for-women, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
+- **Copy:** No production notes (R8.3).
+- **Price:** pullover $39.99, no compare-at (R12.1).
+---
+## Log
+- 2026-10-17 20:27 UTC director: brief written, READY (Sam's 16 proof-first concepts, inbox 2026-10-17 19:30).

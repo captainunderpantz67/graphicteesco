@@ -595,3 +595,24 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 428 | (reused as the brief specifies) | USED again 2026-10-17 — #252 The Turkey Is Fine crewneck cover redo (seedream, 1 attempt) |
 | 431 | (reused as the brief specifies) | USED again 2026-10-17 — #255 Technically a Vegetable tee cover redo (seedream, 1 attempt) |
 | 432 | (reused as the brief specifies) | USED again 2026-10-17 — #256 Technically a Vegetable crewneck cover redo (seedream, 1 attempt) |
+| 807 | Filipino-American woman, late 20s, shoulder-length black hair in a low ponytail, small silver hoops | CLAIMED 2026-10-17 — #485 Raccoon Trail Mix Is a Personality Hoodie cover (brief) |
+| 808 | white man, early 30s, curly light-brown hair, short beard, freckles | CLAIMED 2026-10-17 — #485 Raccoon Trail Mix Is a Personality Hoodie cover (brief) |
+| 809 | Moroccan-American woman, early 30s, long dark curly hair half up, gold hoop earrings, tortoiseshell glasses pushed up on her head | CLAIMED 2026-10-17 — #486 Goose Plot Twist Pending Crewneck Sweatshirt cover (brief) |
+| 810 | Black man, late 20s, short twists, clean-shaven, round wire glasses | CLAIMED 2026-10-17 — #487 University of Staying In Crewneck Sweatshirt cover (brief) |
+| 811 | Korean-American woman, mid 20s, long straight hair with curtain bangs, small gold studs | CLAIMED 2026-10-17 — #487 University of Staying In Crewneck Sweatshirt cover (brief) |
+| 812 | Puerto Rican woman, late 30s, shoulder-length wavy dark hair with copper highlights, statement earrings | CLAIMED 2026-10-17 — #488 I Said It Nicely in My Head Tee cover (brief) |
+| 813 | white woman, mid 20s, platinum-blonde shag haircut, small hoop nose ring, gold layered necklaces | CLAIMED 2026-10-17 — #489 Already Over It, Kindly Hoodie cover (brief) |
+| 814 | Vietnamese-American man, early 30s, short textured black hair, light stubble | CLAIMED 2026-10-17 — #490 Plans Canceled. Mood Improved. Hoodie cover (brief) |
+| 815 | white woman, early 30s, long auburn hair in a messy bun, freckles | CLAIMED 2026-10-17 — #490 Plans Canceled. Mood Improved. Hoodie cover (brief) |
+| 816 | Indian-American woman, early 40s, long wavy dark hair with a few silver strands, small nose stud, tortoiseshell glasses | CLAIMED 2026-10-17 — #491 Ghost One More Chapter Club Crewneck Sweatshirt cover (brief) |
+| 817 | Haitian-American woman, mid 30s, short natural hair with a side part, small gold studs | CLAIMED 2026-10-17 — #492 Embroidered Night Shift Silly Goose Crewneck Sweatshirt cover (brief) |
+| 818 | Filipino man, early 30s, short black undercut, clean-shaven | CLAIMED 2026-10-17 — #493 Calm Face, Loud Brain Crewneck Sweatshirt cover (brief) |
+| 819 | white woman, early 40s, short blonde bob, small pearl studs | CLAIMED 2026-10-17 — #493 Calm Face, Loud Brain Crewneck Sweatshirt cover (brief) |
+| 820 | Samoan man, mid 30s, short black hair with a fade, full beard, broad build | CLAIMED 2026-10-17 — #494 Twelve Labors. Zero Cardio. Tee cover (brief) |
+| 821 | Mexican-American man, late 20s, short wavy black hair, trimmed mustache, athletic build | CLAIMED 2026-10-17 — #495 Rest Day Is a Sacred Quest Medieval Hoodie cover (brief) |
+| 822 | white man, mid 40s, salt-and-pepper beard, weathered face, short brown hair | CLAIMED 2026-10-17 — #496 Not Lost. Scouting. Camo Hoodie cover (brief) |
+| 823 | Black man, early 50s, short grey hair, neat grey beard, warm smile lines | CLAIMED 2026-10-17 — #497 Fishing Is My Love Language Crewneck Sweatshirt cover (brief) |
+| 824 | Ethiopian-American woman, early 30s, long braids pulled back with a scarf, small gold studs | CLAIMED 2026-10-17 — #498 Embroidered Psalm 121 Mountain Crewneck Sweatshirt cover (brief) |
+| 825 | Guatemalan-American woman, mid 20s, long dark hair in a high ponytail, small gold hoops | CLAIMED 2026-10-17 — #499 Holy Spirit, Mildly Spooky Tee cover (brief) |
+| 826 | white man, late 20s, buzz-cut blond hair, light stubble | CLAIMED 2026-10-17 — #499 Holy Spirit, Mildly Spooky Tee cover (brief) |
+| 827 | Japanese-American woman, early 30s, chin-length black bob, small pearl studs | CLAIMED 2026-10-17 — #500 Embroidered Merry-ish Crewneck Sweatshirt cover (brief) |
