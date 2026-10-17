@@ -1,0 +1,5 @@
+{"art": "designs/b/an-b.png", "art_width": 0.76, "canvas": [3600, 4500], "gap": 10,
+ "lines": [
+  {"text": "MAIN CHARACTER,", "font": "AlfaSlabOne-Regular.ttf", "size": 430, "fill": "#f6e6e0", "stroke": 16, "stroke_fill": "#7a5aa8", "tracking": 0.03, "where": "above"},
+  {"text": "BACKGROUND ENERGY", "font": "AlfaSlabOne-Regular.ttf", "size": 430, "fill": "#f4a6b8", "stroke": 16, "stroke_fill": "#7a5aa8", "tracking": 0.03, "where": "below"}
+ ]}
