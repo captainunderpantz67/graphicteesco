@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: A
 type: new
 id: 371
 handle: womens-sunflower-sunny-disposition-mostly-zip-hoodie
+shopify: gid://shopify/Product/15363192127792
 kd: 36
 ---
 ## Women's Sunflower – Sunny Disposition Mostly Zip Hoodie
@@ -23,3 +24,4 @@ kd: 36
 ---
 ## Log
 - 2026-10-17 06:19 UTC director: brief written, READY (2026-10-17 morning sweep: no unclaimed KD ≤ 20 hoodie/sweatshirt phrase with volume left in RankHero; this is the KD 21–40 band, highest volume first; keyword measured this run).
+- 2026-10-17 07:10 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363192127792 (Gildan 18600 zip, Ash + Navy x S-5XL (Ash S-3XL) = 14, $44.99 no compare-at, category hoodies; keyword sunflower hoodie 590/KD36; art on the back plus left-chest copy via pf-zip.py when art exists). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
