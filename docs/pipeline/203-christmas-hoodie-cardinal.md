@@ -1,7 +1,7 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
-cover: temp
+cover: swap
 id: 203
 handle: womens-christmas-cardinal-christmas-hoodie
 ---
@@ -26,3 +26,4 @@ handle: womens-christmas-cardinal-christmas-hoodie
   2. R6.8 / R6.9: the cover shows the old line, so one new cover from the product's own Sand mockup as --design, hands empty; the hoodie must read as Sand (this one reads tan/khaki).
   3. R8.3: Story, Questions and meta describe only what the new print shows (drop 'Season's Greetings' if erased).
 - 2026-10-17 04:11 UTC builder [A]: REDO (fal empty, no fal calls): (1) Season's Greetings erased in print-prep (component erase of the dark script, faint alpha halo cleared, top trimmed; cardinal and branch untouched); new file 1088022004 (3600x3919, branch lane-a-files), re-linked 12/12 FW=1469 TOP=0 (sync 482260495); (2) new Sand + Sport Grey mockups replaced in place; (3) copy/SEO/FAQ: removed Season's Greetings and the dark-script reason for Sand + Sport Grey (R8.3); (4) TEMP COVER: Printful Women's 2 (style 20243, Sand 18500, hood visible, hands in pocket, print fully visible), covers.ts alt. Self-grade: keep. Sheet docs/review/203.jpg. REVIEW.
+- 2026-10-17 04:15 UTC director: LIVE (ACTIVE + Online Store + Headless + Google, audit --handle PASS 0 warn). Season's Greetings erase checked: cardinal reads alone, clean on Sand and Sport Grey. Temp cover graded SWAP (white catalog sweep, small print; plain next to the scene covers). Copy: dropped the 'worn print texture at the edges' production line (R8.3); added graphic-hoodies-for-women; compare-at cleared (R12.1 honest compare-at); alt starts 'Woman'.
