@@ -518,3 +518,17 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 625 | Puerto Rican woman, early 20s, curly hair in a claw clip, red ribbon | RESERVED — #431 Cherry Picked Cropped Hoodie cover |
 | 626 | Vietnamese-American man, mid 40s, greying temples, fishing sunglasses | RESERVED — #432 Catch and Release Zip Hoodie cover |
 | 627 | Black woman, early 20s, box braids in a high bun, gold hoops | RESERVED — #433 Loose Goose Cropped Hoodie cover |
+| 628 | Filipino-American woman, mid 20s, long wavy hair, small silver hoops | RESERVED — #434 Guarding the Last Dumpling Oversized Hoodie cover (with #629) |
+| 629 | Black man, late 20s, short twists, round glasses | RESERVED — #434 Guarding the Last Dumpling Oversized Hoodie cover (with #628) |
+| 630 | Chinese-American woman, college-age, long straight hair in a half-up clip, pearl studs | RESERVED — #435 Petal Pusher Cropped Hoodie cover |
+| 631 | Korean-American man, early 30s, undercut, small silver ring | RESERVED — #436 Talk to the Paw Heavyweight Hoodie cover (with #632) |
+| 632 | white woman, late 20s, auburn shag, freckles | RESERVED — #436 Talk to the Paw Heavyweight Hoodie cover (with #631) |
+| 633 | Mexican-American woman, early 20s, curtain bangs, butterfly clips, small hoops | RESERVED — #437 Gold Star for Leaving the House Hoodie cover |
+| 634 | Indian-American woman, early 30s, long braid, small nose stud | RESERVED — #438 Bamboozled Zip Hoodie cover |
+| 635 | white woman, college-age, blonde high ponytail, white headband, gold studs | RESERVED — #439 Single and Serving Cropped Hoodie cover |
+| 636 | white man, late 30s, red beard, worn ball cap | RESERVED — #440 Hogwash Oversized Hoodie cover |
+| 637 | Samoan-American woman, late 20s, long dark curls, shell necklace | RESERVED — #441 Eight Arms, Zero Hugs Oversized Hoodie cover |
+| 638 | Nigerian-American man, early 40s, short fade, wire-rim glasses | RESERVED — #442 Knight Shift Zip Hoodie cover |
+| 639 | white man, mid 30s, shaggy brown hair, beanie in hand | RESERVED — #443 Light Sleeper Hoodie cover (with #640) |
+| 640 | Black woman, early 30s, short natural hair, gold cuff earring | RESERVED — #443 Light Sleeper Hoodie cover (with #639) |
+| 641 | white man, early 50s, bald head, salt-and-pepper beard | RESERVED — #444 Bald and Majestic Heavyweight Hoodie cover |

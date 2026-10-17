@@ -1,0 +1,25 @@
+status: READY
+lane: B
+type: new
+id: 440
+handle: mens-pig-hogwash-oversized-hoodie
+kd: 26
+---
+## Men's Pig – Hogwash Oversized Hoodie
+- **Blank:** Oversized heavyweight Bella+Canvas 4719 (Printful #892). Front print FW 1500+, clear of the pouch seam (R5.3.2). Copy facts from the Printful spec only (R7.1).
+- **Text on shirt:** HOGWASH in big hand-drawn vintage farm-sign letters above the tub, at least 60% of the art's width. All lettering hand-drawn (R3.7.6), spelled exactly, no typeset sub-line; read every word on the darkest mockup at about 400 px wide before REVIEW; knock out white counters (R5.3.8).
+- **Hook:** A pig sits in an old galvanized wash tub full of suds with a scrub brush and a rubber duck, looking unimpressed: a hog's wash, and the word for every tall tale at the dinner table (men's deadpan).
+- **Why it's not taken:** Pig hoodies on Etsy are cute farm pigs or BBQ jokes; the literal hogwash scene with a deadpan pig is fresh (director call; builder confirms the exact line on Etsy and twists it if 50+ listings, R3.7.2).
+- **Style:** A, vintage farm storybook, 1950s screen-print look, 3–5 inks (R4.2).
+- **Art prompt (Recraft v4, one image per call):** "Vintage 1950s farm storybook screen-print illustration: a plump pink pig sitting in an old galvanized metal wash tub overflowing with soap suds, a wooden scrub brush in one hoof, a small yellow rubber duck on the suds, the pig looking flatly unimpressed. Above, big hand-drawn vintage farm-sign letters reading exactly 'HOGWASH'. Palette: cream, faded pink, sage, steel grey, soft black linework. Worn screen-print texture; the pig and tub are the shape, edges break up into ragged worn texture. Isolated on plain background, no background shape, no frame, no circle, no border, no badge, no dark patch."
+- **Colors:** Dust + Navy (R7.2). Dark linework needs a cream keyline on Navy; else Dust + Stone, logged. Generate a Printful mockup for every color offered before REVIEW.
+- **Primary keyword:** pig hoodie — 1,300 / KD 26 (RankHero, director 2026-10-17). KD 21–35 band. Mention only: oversized hoodie men (oversized-hoodies-for-men head; brand-owned head term, R9.11). Unowned in docs/product-keyword-map.json and in every open brief; record it there. Use the primary where a person would say it: the H1-area copy, the first sentence (with the joke and the occasion, R9.11) and once in the meta; no stuffing (R8.2–R8.3). Answer-first FAQs per R8.7: 4–6 questions, 40–60 words each (fit, care, sizing, warmth/weight, gift timing with an order-by date). Describe only what is in the art (R8.3).
+- **Popularity evidence (R5.2):** pig hoodie 1,300 / KD 26 (RankHero, this run); oversized-hoodies-for-men has 6 (needs 14, R11.5); farm-animal vintage art (highland cow, horse, goat) is among our live sellers.
+- **Cover:** registry #636: white man, late 30s, red beard, worn ball cap; scene: a farm barnyard fence at sunset, pigs blurred behind; alt starts 'Man'. Real garment generated with the product's own Printful mockup in the cover color as `--design` (--n 1); hood visible; hands empty or in pockets; nothing (hand, cup, hair, hood, drawcord, another person) over any part of the print; read every word before saving (R6.7–R6.9). No alcohol, tools or weapons (R6.5).
+- **Title / handle:** "Men's Pig – Hogwash Oversized Hoodie" / `mens-pig-hogwash-oversized-hoodie` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** oversized-hoodies, oversized-hoodies-for-men, graphic-hoodies-for-men, hoodie, ai-art, intake-done. No tee or sweatshirt-only collection tags (R7.5).
+- **Price:** $54.99 (R12.1 oversized), no compare-at.
+- **Pre-build while fal is empty:** make the full Shopify DRAFT now from this brief (status ART-NEXT); art + cover when fal returns, then re-check every sentence against the real art.
+---
+## Log
+- 2026-10-17 13:24 UTC director: brief written, READY (keyword measured this run, low-KD sweep; new art, ART-NEXT draft while fal is empty).

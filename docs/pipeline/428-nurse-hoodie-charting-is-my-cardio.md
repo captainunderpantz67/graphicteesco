@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 cover: temp (swap)
 lane: B
 type: twin
@@ -23,3 +23,4 @@ kd: 34
 ## Log
 - 2026-10-17 12:50 UTC director: brief written, READY (keyword measured this run; source art checked against R4.1/R6.2 from its live mockup; fal-free twin).
 - 2026-10-17 12:53 UTC [B]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363661693232 (Gildan 18500 #146, Sand + Light Pink x S-3XL = 12, $39.99 no compare-at, category aa-1-13-13, tags graphic-hoodies-for-women, hoodie, ai-art, intake-done), sync product 482462669 synced 12/12 with back logo. Print: tee file 1087174736 reused (3600x5207). Reshape: no re-composition needed; the file carries 200 px of empty rows above and 40 below, trimmed (stray specks cleared) to 3600x4971 (docs/print-files/428-charting-is-my-cardio-trim2.png, Printful file 1088223453). FW 1500 TOP 0 = 2071 px, inside Printful's 14 in (2100 px) print-area height (a 2170 px first try was refused by the generator) and ending about 1.8 in above the pouch seam on both mockups. Nothing cropped, sneakers and path stay. R6.2 check: CHARTING IS MY CARDIO is chipped hand-drawn slab letters in a stacked block, clipboard, stethoscope, sneakers and path are drawn art; no ring, panel, box or typeset line; no stray white counters. Phone-size read: all three lines read on Sand and Light Pink (teal letters on pink checked). FAQ 6 x 46-52 words, order-by Dec 8. Keyword nursing hoodie 1600/KD34 in map. Mockups Sand + Light Pink fronts + back, variant images per color. Temp cover: Printful Women's 4 Front style 1435 on Light Pink (woman, hands in pocket, print fully visible, white backdrop; used on #207/#212, 1421/1463/1429 taken, 1654 has arms over the print) so cover: temp (swap). Registry #622 stays reserved. Audit-local PASS. Sheet docs/review/428.jpg.
+- 2026-10-17 13:13 UTC director: LIVE. All three lettering lines read on Sand and Light Pink, art ends above the pouch; tee + crewneck cross-sell verified; $39.99, no compare-at. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS. cover stays temp (swap).

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 cover: temp (swap)
 lane: B
 type: twin
@@ -23,3 +23,4 @@ kd: 32
 ## Log
 - 2026-10-17 12:50 UTC director: brief written, READY (keyword measured this run; source art checked against R4.1/R6.2 from its live mockup; fal-free twin).
 - 2026-10-17 12:46 UTC [B]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363660841264 (Gildan 18500 #146, Sand + Light Pink x S-3XL = 12, $39.99 no compare-at, category aa-1-13-13, tags western-hoodies, graphic-hoodies-for-women, hoodie, ai-art, intake-done), sync product 482460784 synced 12/12 with back logo. Print: tee file 1083325552 reused as is (3600x3419, docs/print-files/427-steer-skull-wildflowers.png, uploaded as 1088219263), set fresh at FW 1500 TOP 0 (1424 px tall, clears the pouch seam by a wide margin). R6.2 check: no lettering at all; skull, horns, lupine and daisies are drawn art, horn tips taper off the edges, no ring, panel, box or typeset line; no stray white counters (bone is planned cream ink). Phone-size read: skull and horns read on Sand and Light Pink; the dusty-pink lupine is softer on Light Pink but the dark linework carries it. FAQ 6 x 46-53 words, order-by Dec 8; 'cow skull' used 3 times in copy after the audit flagged 6. Keyword cow skull 22200/KD32 in map. Mockups Sand + Light Pink fronts + back, variant images per color. Temp cover: Printful Women's Lifestyle 2 Front style 1429 on Sand (woman, hair down, hand at her hood and clear of the print, brick wall; also on #383/#400/#412, styles 1421/1435/1463 all taken, so cover: temp (swap)). Registry #621 stays reserved. Audit-local PASS. Sheet docs/review/427.jpg.
+- 2026-10-17 13:13 UTC director: LIVE. Skull, horns and wildflowers read on Sand and Light Pink at phone size, no frame or typeset line; copy facts and the tee cross-sell verified; $39.99, no compare-at. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS. cover stays temp (swap).

@@ -1,0 +1,25 @@
+status: READY
+lane: A
+type: new
+id: 444
+handle: mens-eagle-bald-and-majestic-heavyweight-hoodie
+kd: 34
+---
+## Men's Eagle – Bald and Majestic Heavyweight Hoodie
+- **Blank:** Heavyweight Independent Trading IND4000 (Printful #1543). Front print FW 1500+, clear of the pouch seam (R5.3.2). Copy facts from the Printful spec only (R7.1).
+- **Text on shirt:** BALD AND MAJESTIC in big hand-drawn vintage caps under the eagle, at least 60% of the art's width. All lettering hand-drawn (R3.7.6), spelled exactly, no typeset sub-line; read every word on the darkest mockup at about 400 px wide before REVIEW; knock out white counters (R5.3.8).
+- **Hook:** A proud vintage bald eagle head in profile, feathers in the wind, over BALD AND MAJESTIC: the dad whose hairline left years ago and who is fine with it (men's deadpan, a little bite, family-clean).
+- **Why it's not taken:** Eagle shirts on Etsy are patriotic flags; the balding-dad joke on a serious eagle is the contrast formula (R3.3) (director call; builder confirms the exact line on Etsy and twists it if 50+ listings, R3.7.2).
+- **Style:** A, vintage 1970s screen print, contrast joke (serious art + deadpan line), 3–5 inks (R4.2).
+- **Art prompt (Recraft v4, one image per call):** "Vintage 1970s screen-print illustration: a majestic bald eagle head and shoulders in side profile, white head feathers swept back by the wind, sharp yellow beak, proud stare, no flag. Below, big hand-drawn vintage caps reading exactly 'BALD AND MAJESTIC'. Palette: cream, warm brown, gold ochre, slate, soft black linework. Worn screen-print texture; the eagle is the shape, edges break up into ragged worn texture. Isolated on plain background, no background shape, no frame, no circle, no border, no badge, no dark patch."
+- **Colors:** Sandstone + Storm Blue (R7.2). The white head needs a dark outline on Sandstone and reads on Storm Blue; else Bone + Storm Blue, logged. Generate a Printful mockup for every color offered before REVIEW.
+- **Primary keyword:** eagle hoodie — 1,600 / KD 34 (RankHero, director 2026-10-17). KD 21–35 band. Mention only: heavyweight hoodie (collection head). Lane A joins cold-weather (R11.5): the holiday KD ≤ 35 band is used up. Unowned in docs/product-keyword-map.json and in every open brief; record it there. Use the primary where a person would say it: the H1-area copy, the first sentence (with the joke and the occasion, R9.11) and once in the meta; no stuffing (R8.2–R8.3). Answer-first FAQs per R8.7: 4–6 questions, 40–60 words each (fit, care, sizing, warmth/weight, gift timing with an order-by date). Describe only what is in the art (R8.3).
+- **Popularity evidence (R5.2):** eagle hoodie 1,600 / KD 34 with 5,651 competing listings (RankHero, this run); heavyweight-hoodies has 8 (needs 14); dad-humor lines are among our men's sellers.
+- **Cover:** registry #641: white man, early 50s, bald head, salt-and-pepper beard, flannel under the hoodie; scene: a lakeside dock in late autumn with pines behind; alt starts 'Man'. Real garment generated with the product's own Printful mockup in the cover color as `--design` (--n 1); hood visible; hands empty or in pockets; nothing (hand, cup, hair, hood, drawcord, another person) over any part of the print; read every word before saving (R6.7–R6.9). No alcohol, tools or weapons (R6.5).
+- **Title / handle:** "Men's Eagle – Bald and Majestic Heavyweight Hoodie" / `mens-eagle-bald-and-majestic-heavyweight-hoodie` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** heavyweight-hoodies, graphic-hoodies-for-men, hoodie, ai-art, intake-done. No tee or sweatshirt-only collection tags (R7.5).
+- **Price:** $49.99 (R12.1 heavyweight), no compare-at.
+- **Pre-build while fal is empty:** make the full Shopify DRAFT now from this brief (status ART-NEXT); art + cover when fal returns, then re-check every sentence against the real art.
+---
+## Log
+- 2026-10-17 13:24 UTC director: brief written, READY (keyword measured this run, low-KD sweep; new art, ART-NEXT draft while fal is empty).
