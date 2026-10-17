@@ -3050,19 +3050,13 @@
   },
   "unisex-christmas-light-show-manager-crewneck-sweatshirt": {
    "claimed": [
-    "christmas lights sweatshirt",
-    "dad sweatshirt"
+    "christmas lights sweatshirt"
    ],
    "gaps_measured": [
     {
      "phrase": "christmas lights sweatshirt",
      "volume": 110,
      "kd": 40
-    },
-    {
-     "phrase": "dad sweatshirt",
-     "volume": 1600,
-     "kd": 57
     }
    ],
    "measured": "2026-10-16"
