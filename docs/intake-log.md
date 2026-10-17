@@ -3,6 +3,7 @@ RUNNING lane A since 2026-10-17 03:58 UTC
 2026-10-17 04:43 UTC — [A] Builder (ART-NEXT): #283 Deck the Stalls tee and #318 Tied Up crewneck drafts built (ART-NEXT). All lane A new-art READY items now have drafts (273 275 281 282 283 318 331-334).
 RUNNING lane B since 2026-10-17 04:28 UTC
 2026-10-17 04:42 UTC — [A] Builder (ART-NEXT): #282 Bulking Season tee draft built (ART-NEXT).
+2026-10-17 04:43 UTC — [B] Builder (temp-cover mode): #321 Kaiju Naps crewneck → REVIEW (temp cover, couple).
 2026-10-17 04:41 UTC — [A] Builder (ART-NEXT): #281 Doorbusters Black Friday tee draft built (ART-NEXT).
 2026-10-17 04:40 UTC — [A] Builder (ART-NEXT): #273 Card Photo Survivor tee draft built (ART-NEXT).
 2026-10-17 04:39 UTC — [A] Builder (ART-NEXT): #333 Same Guy, #334 Laying Low hoodie, #275 White Elephant Champion drafts built (ART-NEXT).
