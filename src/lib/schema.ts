@@ -22,6 +22,22 @@ export const organization = (live: Set<string>) => ({
   ...(site.instagram ? { sameAs: [`https://instagram.com/${site.instagram}`] } : {}),
   ...(site.email ? { contactPoint: { '@type': 'ContactPoint', contactType: 'customer support', email: site.email } } : {}),
   ...(site.founders.length ? { founder: site.founders.map((f) => ({ '@type': 'Person', name: f.name, jobTitle: f.role })) } : {}),
+  // Store-wide policies (Google org-level markup, 2026-10-17): the $45 free-shipping threshold can only be
+  // said here, not per offer. Must match /shipping-returns/ and Merchant Center.
+  ...(returnPolicy() ? { hasMerchantReturnPolicy: returnPolicy() } : {}),
+  hasShippingService: {
+    '@type': 'ShippingService',
+    name: 'Standard US shipping',
+    handlingTime: { '@type': 'ServicePeriod', duration: { '@type': 'QuantitativeValue', minValue: 2, maxValue: 5, unitCode: 'DAY' } },
+    // Only the free tier is store-wide; under $45 the rate depends on the garment, so each Offer states its own.
+    shippingConditions: [{ min: 45 as number | undefined, max: undefined as number | undefined, rate: 0 }].map((c) => ({
+      '@type': 'ShippingConditions',
+      shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'US' },
+      orderValue: { '@type': 'MonetaryAmount', currency: 'USD', ...(c.min != null ? { minValue: c.min } : {}), ...(c.max != null ? { maxValue: c.max } : {}) },
+      shippingRate: { '@type': 'MonetaryAmount', value: c.rate, currency: 'USD' },
+      transitTime: { '@type': 'ServicePeriod', duration: { '@type': 'QuantitativeValue', minValue: 3, maxValue: 8, unitCode: 'DAY' } },
+    })),
+  },
 });
 
 export const website = () => ({
@@ -161,31 +177,71 @@ export const productSchema = (p: Product) => {
   const compares = p.variants.map((v) => Number(v.compareAtPrice?.amount)).filter((n) => Number.isFinite(n) && n > 0);
   const compare = compares.length ? Math.max(...compares) : null;
   const description = storyText(p.descriptionHtml || '') || p.description;
+  const url = `${site.url}/products/${p.handle}/`;
+  const optOf = (v: Product['variants'][number], re: RegExp) => v.selectedOptions.find((o) => re.test(o.name))?.value;
+  const offerFor = (v: Product['variants'][number] | null, link: string) => {
+    const amt = v ? Number(v.price.amount) : price;
+    const cmp = v ? Number(v.compareAtPrice?.amount) : compare;
+    return {
+      '@type': 'Offer',
+      price: amt.toFixed(2),
+      priceCurrency: currency,
+      ...(cmp && cmp > amt ? {
+        priceSpecification: { '@type': 'UnitPriceSpecification', priceType: 'https://schema.org/StrikethroughPrice', price: cmp.toFixed(2), priceCurrency: currency },
+        priceValidUntil: SALE_ENDS,
+      } : {}),
+      availability: (v ? v.availableForSale : p.variants.some((x) => x.availableForSale)) ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock',
+      itemCondition: 'https://schema.org/NewCondition',
+      url: link,
+      seller: { '@id': ORG_ID },
+      shippingDetails: shippingDetails(p),
+      ...(policy ? { hasMerchantReturnPolicy: policy } : {}),
+    };
+  };
+  const material = site.facts.hoodieBlank && /hood/i.test(p.productType) ? site.facts.hoodieBlank : site.facts.teeBlank && !/hood/i.test(p.productType) ? site.facts.teeBlank : undefined;
+  const common = { brand: { '@type': 'Brand', name: site.name }, ...(material ? { material } : {}) };
+  // Google variant markup (2026-10-17): one ProductGroup, a Product per variant, each Offer pointing at the
+  // same ?color=&size= landing URL the Merchant feed uses (the page preselects it; canonical stays clean).
+  const colorAxis = p.variants.some((v) => optOf(v, /colou?r/i));
+  const sizeAxis = p.variants.some((v) => optOf(v, /size/i));
+  if (p.variants.length > 1 && (colorAxis || sizeAxis)) {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'ProductGroup',
+      '@id': `${url}#product`,
+      name: p.title,
+      description,
+      url,
+      image: p.images.map((i) => i.url),
+      category: p.productType || undefined,
+      productGroupID: p.id.split('/').pop(),
+      variesBy: [...(colorAxis ? ['https://schema.org/color'] : []), ...(sizeAxis ? ['https://schema.org/size'] : [])],
+      ...common,
+      hasVariant: p.variants.map((v) => {
+        const color = optOf(v, /colou?r/i);
+        const size = optOf(v, /size/i);
+        const q = new URLSearchParams(Object.entries({ color, size }).filter(([, x]) => x) as [string, string][]).toString();
+        return {
+          '@type': 'Product',
+          sku: v.id.split('/').pop(),
+          name: [p.title, color, size].filter(Boolean).join(' – '),
+          ...(v.image?.url ? { image: v.image.url } : {}),
+          ...(color ? { color } : {}),
+          ...(size ? { size } : {}),
+          offers: offerFor(v, q ? `${url}?${q}` : url),
+        };
+      }),
+    };
+  }
   return {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: p.title,
     description,
     image: p.images.map((i) => i.url),
-    brand: { '@type': 'Brand', name: site.name },
     category: p.productType || undefined,
-    ...(site.facts.teeBlank && !/hood/i.test(p.productType) ? { material: site.facts.teeBlank } : {}),
-    ...(site.facts.hoodieBlank && /hood/i.test(p.productType) ? { material: site.facts.hoodieBlank } : {}),
+    ...common,
     // One Offer (every variant shares a price): Google merchant listings need Offer, not AggregateOffer.
-    offers: {
-      '@type': 'Offer',
-      price: price.toFixed(2),
-      priceCurrency: currency,
-      ...(compare && compare > price ? {
-        priceSpecification: { '@type': 'UnitPriceSpecification', priceType: 'https://schema.org/StrikethroughPrice', price: compare.toFixed(2), priceCurrency: currency },
-        priceValidUntil: SALE_ENDS,
-      } : {}),
-      availability: p.variants.some((v) => v.availableForSale) ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock',
-      itemCondition: 'https://schema.org/NewCondition',
-      url: `${site.url}/products/${p.handle}/`,
-      seller: { '@id': ORG_ID },
-      shippingDetails: shippingDetails(p),
-      ...(policy ? { hasMerchantReturnPolicy: policy } : {}),
-    },
+    offers: offerFor(null, url),
   };
 };

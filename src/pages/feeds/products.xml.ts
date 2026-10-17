@@ -44,7 +44,7 @@ export const renderFeed = (products: Awaited<ReturnType<typeof feedProducts>>) =
       <g:item_group_id>${num(p.id)}</g:item_group_id>
       <title>${esc(p.title)}${o.color ? ` – ${esc(o.color)}` : ''}${o.size ? ` – ${esc(o.size)}` : ''}</title>
       <description>${esc(desc)}</description>
-      <link>${link}</link>
+      <link>${link}${o.color || o.size ? '?' + new URLSearchParams(Object.entries({ color: o.color, size: o.size }).filter(([, x]) => x) as [string, string][]).toString().replace(/&/g, '&amp;') : ''}</link>
       <g:image_link>${esc(main)}</g:image_link>
 ${extra.map((u) => `      <g:additional_image_link>${esc(u)}</g:additional_image_link>`).join('\n')}
       <g:availability>${v.availableForSale ? 'in_stock' : 'out_of_stock'}</g:availability>

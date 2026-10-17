@@ -313,6 +313,13 @@ const altFor = (img: { url: string; altText?: string | null }) => {
       if (col !== lastColor) { lastColor = col; (window as any).__gtcShowColor?.(col); }
     };
     form.addEventListener('change', update);
+    // Google Shopping lands on /products/<handle>/?color=Navy&size=L: preselect that variant (canonical stays clean)
+    const qs = new URLSearchParams(location.search);
+    sets.forEach((f) => {
+      const want = qs.get(/colou?r/i.test(f.dataset.option!) ? 'color' : /size/i.test(f.dataset.option!) ? 'size' : f.dataset.option!.toLowerCase());
+      const input = want && [...f.querySelectorAll<HTMLInputElement>('input')].find((i) => i.value.toLowerCase() === want.toLowerCase());
+      if (input) input.checked = true;
+    });
     update();
   }
 </script>
