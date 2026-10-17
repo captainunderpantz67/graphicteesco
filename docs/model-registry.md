@@ -365,6 +365,6 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 475 | White woman, mid 20s, long wavy auburn hair, light freckles, slim build | USED 2026-10-17 — #294 Doe-Eyed and Dangerous pink camo hoodie cover (try 1, image 2 of 3) |
 | 476 | Mexican-American woman, early 30s, long dark hair in a high ponytail, gold hoop earrings | USED 2026-10-17 — #295 Deer Stand Princess pink camo hoodie cover (try 1, image 2 of 3) |
 | 477 | White man, late 50s, white mustache, weathered face, flannel cap, heavyset | USED 2026-10-17 — #296 Deer Camp No Signal camo sweatshirt cover (try 1, image 1 of 3) |
-| 478 | Black woman, mid 20s, long box braids, gold jewelry, slim build | RESERVED — #297 Blending In Is Overrated cover |
-| 479 | Filipino-American man, early 40s, short black hair, trimmed goatee, average build | RESERVED — #298 Up Before the Ducks cover |
-| 480 | White woman, late 30s, shoulder-length blonde hair in a messy bun, light freckles | RESERVED — #299 Ducks in a Row cover |
+| 478 | Black woman, mid 20s, long box braids, gold jewelry, slim build | USED 2026-10-17 — #297 Blending In Is Overrated camo sweatshirt cover (try 1, image 3 of 3) |
+| 479 | Filipino-American man, early 40s, short black hair, trimmed goatee, average build | USED 2026-10-17 — #298 Up Before the Ducks camo sweatshirt cover (try 1, image 3 of 3) |
+| 480 | White woman, late 30s, shoulder-length blonde hair in a messy bun, light freckles | USED 2026-10-17 — #299 Ducks in a Row camo hoodie cover (try 1, image 2 of 3) |

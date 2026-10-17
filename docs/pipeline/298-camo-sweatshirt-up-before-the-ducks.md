@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: new
 id: 298
@@ -23,3 +23,4 @@ handle: mens-hunting-up-before-the-ducks-camo-sweatshirt
 ---
 ## Log
 - 2026-10-17 director: brief written, READY (lane B camo push to 24, Sam 2026-10-17; keyword measured this run).
+- 2026-10-17 01:28 UTC [B]: built as DRAFT (product 15362771517744, 11 variants, Size option only 2XS-6XL, $56.99/$61.99, Printful #1418 AOP sweatshirt, shared woodland pattern). New art: Recraft v4 try 1 (UP BEFORE THE DUCKS spelling checked), print-prep 3600 x 3554 + cream underlay, front panel 1700 px wide, top 1800, front file 1087952841, back/plain reused from #296. Mockups front/back, cover registry #479 (try 1, image 3 of 3), keyword duck camo sweatshirt 590/28, audit-local PASS. Sync pid 482371092, 11/11. Sheet docs/review/298.jpg.
