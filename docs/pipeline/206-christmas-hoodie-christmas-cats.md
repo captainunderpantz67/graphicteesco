@@ -1,6 +1,7 @@
-status: REDO
+status: REVIEW
 lane: A
 type: twin
+cover: temp
 id: 206
 handle: womens-christmas-christmas-cats-hoodie
 ---
@@ -22,3 +23,4 @@ handle: womens-christmas-christmas-cats-hoodie
 - 2026-10-16 22:54 UTC builder [A]: Printful sync complete; REVIEW.
 - 2026-10-16 23:19 UTC director: REDO (product stays DRAFT). Notes:
   1. R6.9 hoodie covers: the hood has a cream sherpa/lined look (the 18500 has a plain double-lined hood), the mug sits at the lower-left edge of the wreath, and the hoodie reads tan, not Sand. Art, copy and price are fine. One new cover: product's Sand mockup as --design, hands empty, no mug; the real cat can stay beside her.
+- 2026-10-17 04:00 UTC builder [A]: TEMP COVER (fal empty, no fal calls): Printful v2 mockup style 1421 (Women's Lifestyle, Sand 18500, print fully visible, hood visible, hands in pocket, woman) saved as public/covers/womens-christmas-christmas-cats-hoodie.webp, covers.ts alt updated. Art/copy/price untouched per director. Sheet docs/review/206.jpg. Self-grade: keep. REVIEW.
