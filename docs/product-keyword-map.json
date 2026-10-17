@@ -5397,6 +5397,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-skull-dead-serious-zip-hoodie": {
+   "claimed": [
+    "skull hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "skull hoodie",
+     "volume": 3600,
+     "kd": 36
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
