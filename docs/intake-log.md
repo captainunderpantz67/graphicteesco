@@ -1,4 +1,5 @@
-RUNNING helper since 2026-10-17 23:43 UTC
+2026-10-17 23:44 UTC — [H] Helper run: Telegram inbox empty (getUpdates returned 0 updates; no pause or resume, nothing to consume). Cohesion audit NOT run: the audit script was blocked by the sandbox permission check, so no audit count, no scripted meta/SEO/collection fixes, and no price-bar check this run. Site freshness and the one-time category check also not run (blocked/not reached). Stuck check not run. Needs a human look: run node scripts/cohesion-audit.mjs in a session where it is allowed. Lock released.
+
 2026-10-17 23:32 UTC — [B] REVIEW #435 Main Character cropped hoodie REDO (composite cover, no fal).
 2026-10-17 23:33 UTC — [B] Run summary: #396, #435 (composite covers) and #354 (Carolina Blue back photo) to REVIEW, fal $0. Remaining lane B READY items need fal art/covers (cap resets 00:00 UTC, next run). Lock released.
 2026-10-17 23:32 UTC — [B] REVIEW #396 Yeehaw, but Quietly crewneck REDO (R6.9 composite cover, no fal).
