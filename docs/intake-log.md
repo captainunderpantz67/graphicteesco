@@ -1,4 +1,5 @@
 RUNNING lane A since 2026-10-17 03:58 UTC
+2026-10-17 04:36 UTC — [A] Builder (ART-NEXT): #331 Midnight Is a Suggestion tee: full DRAFT built (56 variants, no art/Printful sync/images), status ART-NEXT.
 2026-10-17 04:35 UTC — [A] Builder (temp-cover mode): #335 Snow Problem hoodie built as DRAFT, 12/12 synced, temp cover → REVIEW.
 RUNNING lane B since 2026-10-17 04:28 UTC
 2026-10-17 04:50 UTC — [B] Builder (temp-cover mode): #316 Deadlift Skeleton oversized hoodie → REVIEW (temp cover, relinked 12/12 pending sync).

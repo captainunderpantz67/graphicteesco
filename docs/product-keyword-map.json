@@ -4844,6 +4844,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-new-years-eve-midnight-is-a-suggestion-graphic-tee": {
+   "claimed": [
+    "nye shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "nye shirt",
+     "volume": 3600,
+     "kd": 25
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

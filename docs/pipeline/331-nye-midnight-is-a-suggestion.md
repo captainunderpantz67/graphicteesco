@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: A
 type: new
 id: 331
 handle: unisex-new-years-eve-midnight-is-a-suggestion-graphic-tee
+shopify: gid://shopify/Product/15363024585008
 kd: 25
 ---
 ## Unisex New Year's Eve – Midnight Is a Suggestion Tee
@@ -23,3 +24,4 @@ kd: 25
 ---
 ## Log
 - 2026-10-17 04:21 UTC director: brief written, READY (low-KD sweep 2026-10-17 04:30 run; keyword and trend measured this run).
+- 2026-10-17 04:36 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363024585008 (BC 3001, 8 colors x S-4XL = 56 variants, $24.99 no compare-at, category tees, tags per brief). Copy written from the brief's art description (couple asleep in party hats, 10:02 clock, MIDNIGHT IS A / SUGGESTION): re-check every sentence against the real art. Colors are light/mid only; add dark colors only after a cream-ink check. No Printful sync, no images, no cover. Keyword nye shirt 3,600/KD25 in map. Never publish until art + cover exist.
