@@ -5319,6 +5319,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-floral-wildly-low-maintenance-cropped-hoodie": {
+   "claimed": [
+    "flower hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "flower hoodie",
+     "volume": 14800,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
