@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-16 22:31 UTC
+status: REVIEW
 lane: A
 type: new
 id: 249
@@ -22,3 +22,4 @@ handle: womens-thanksgiving-spill-the-gravy-graphic-tee
 ## Log
 - 2026-10-16 22:25 UTC director: brief written, READY (lane A funny Thanksgiving pair for /funny-thanksgiving-shirts/, R9.11).
 - 2026-10-16 22:35 UTC builder [A]: NEW ART Recraft v4 try 1 (auntie's here to + SPILL THE GRAVY spelled right with the apostrophe, script line about 100% of the art width, gravy boat with sage bow, no badge or frame; print-prep --solid; knocked the white counters of P, R, A; checked on grey). Printful file 1087869348 (3600x2100). DRAFT gid://shopify/Product/15362402844976 (Bella+Canvas 6400; White, Natural, Heather Stone, Athletic Heather, Pink x S-3XL = 30; light and mid only because the brown outlines and rust plaid vanish on dark; $24.99/$29.99; tags per brief), Printful sync 482338917 queued (FORCE=1 FW=1500 setfile 482338917 1087869348 1080398177). Keywords (auntie shirt 2,900/46, funny aunt shirt) were already claimed under this handle in the map by the director, so I added none. Cover #425 from the Athletic Heather mockup (try 1, kept #3 of 3; the script line and SPILL THE GRAVY both read), 5 fronts + back, variant images, audit above, docs/review/249.jpg. REVIEW once synced = 30.
+- 2026-10-17 01:45 UTC builder [A]: Printful sync complete; REVIEW.
