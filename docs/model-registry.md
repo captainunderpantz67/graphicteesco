@@ -426,3 +426,14 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 533 | Black man, late 20s, high-top fade, tall and lean | RESERVED — #342 Bench Captain basketball zip hoodie cover |
 | 534 | Indian-American woman, mid 20s, long dark hair in a low bun, small gold nose stud | RESERVED — #343 Child's Pose yoga cropped hoodie cover |
 | 535 | French-Canadian man, early 30s, curly brown mullet, thick moustache | RESERVED — #344 Penalty Box Regular hockey hoodie cover |
+| 536 | Black woman, early 40s, short natural curls, small gold hoops | RESERVED — #345 Amazing Grace Crewneck Sweatshirt cover |
+| 537 | White woman, early 60s, silver bob, reading glasses pushed up on her head | RESERVED — #346 Casserole Ministry Hoodie cover |
+| 538 | Filipino-American woman, late 20s, long straight black hair, tortoiseshell glasses | RESERVED — #347 Espresso Yourself Hoodie cover |
+| 539 | Man AND woman together: Korean-American man, early 30s, undercut; white woman, late 20s, auburn shag haircut | RESERVED — #348 Night Shift Crewneck Sweatshirt cover |
+| 540 | Mexican-American woman, mid 20s, long dark waves, pink felt cowboy hat | RESERVED — #349 Howdy Crewneck Sweatshirt cover |
+| 541 | Man AND woman together: Japanese-American woman, early 20s, blunt bangs; Black man, early 20s, short twists | RESERVED — #350 Slurp Responsibly Crewneck Sweatshirt cover |
+| 542 | White man, late 40s, salt-and-pepper buzz cut, stocky | RESERVED — #351 Sore Since 1987 Crewneck Sweatshirt cover |
+| 543 | Samoan-American man, mid 30s, big build, short black hair, trimmed beard | RESERVED — #352 Retired From Cardio Crewneck Sweatshirt cover |
+| 544 | White woman, early 30s, red hair in a messy bun, freckles | RESERVED — #353 Plot Twist Hoodie cover |
+| 545 | Man AND woman together: white man, mid 40s, sandy beard, ball cap; Native American woman, early 40s, long black braid | RESERVED — #354 Lake Life Zip Hoodie cover |
+| 546 | Black man, early 30s, shaved head, athletic build | RESERVED — #355 Leg Day Survivor Heavyweight Hoodie cover |
