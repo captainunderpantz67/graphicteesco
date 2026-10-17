@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 306
@@ -24,3 +24,4 @@ kd: 44
 ## Log
 - 2026-10-17 director: brief written, READY (lane B camo push: this batch takes camo to 24, Sam 2026-10-17; keyword measured this run).
 - 2026-10-17 02:16 UTC [B]: built as DRAFT (product 15362853306672, 11 variants, Size option only 2XS-6XL, $56.99/$61.99, Printful #1418 AOP sweatshirt, shared woodland pattern). New art: Recraft v4 try 1 (wood duck hen in sunglasses on a decoy with coffee, the sun drawn as rays and a broken half-circle), the generated THE SUNRISE line was thin, so the lettering was re-done by hand with one lettering-only Recraft generation (tall chunky chocolate-brown capitals, spelling checked) composed under the art at 2500 px with a cream halo (FILL=0), print 3600 x 4749, front panel 1700 px wide, top 1700, Printful file 1087974219. Mockups front/back, cover registry #487 (try 1, image 1 of 3), keyword duck sweatshirt 1300/44, audit-local PASS. Sync pid 482377659, 11/11. Sheet docs/review/306.jpg.
+- 2026-10-17 02:28 UTC director: approved from docs/review/306.jpg; ACTIVE + Online Store + Headless + Google; cohesion-audit --handle PASS (0 warn). LIVE.
