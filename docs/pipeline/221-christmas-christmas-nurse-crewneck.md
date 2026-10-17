@@ -1,4 +1,4 @@
-status: REDO
+status: BUILDING [A] 2026-10-17 21:00 UTC
 lane: A
 type: twin
 id: 221
@@ -23,3 +23,4 @@ handle: womens-christmas-christmas-nurse-crewneck-sweatshirt
 - 2026-10-17 00:16 UTC director: REDO.
   1. R6.2 / R3.7.6: NICE LIST NURSE is a typeset Victorian display serif (identical letterforms, even spacing). Re-letter it by hand with one lettering-only Recraft generation composed in print-prep (the #234 method), keep it about the same width, check spelling, knock out letter counters, check on White, Sand and Light Blue, re-link, new mockups.
   2. R6.7: new cover after the art change (the cover must show the exact print). The live tee keeps its art (R3.9).
+- 2026-10-17 21:00 UTC builder [A] REDO 221: art kept (cap, stethoscope, pine, candy canes: no ring/disc/frame, only planned cream ink); the typeset NICE LIST NURSE line cut off and re-set as Lobster script, navy #1f3a55, 3222 px wide (no closed counters of note). New file 3222x3489 (Printful 1088449438), FW 1650 TOP 75 (about 11.9 in tall). Mockups checked on White, Sand, Light Pink, Light Blue, Sport Grey (reads on all). New cover (shows the new lettering): woman reg 806, Light Blue crewneck, break room with snowflakes and tree, no stethoscope on her, 1 attempt. Copy: lettering sentence fixed (navy script, not tall navy letters), FAQ 5 x 40-60 words incl. Dec 8. Resync 30 variants running (FORCE): REVIEW at 30/30. fal ~$0.04.
