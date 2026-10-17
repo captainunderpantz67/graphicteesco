@@ -516,3 +516,4 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 623 | Korean-American woman, early 20s, high ponytail, gold huggies | RESERVED — #429 Lunges & Lattes Cropped Hoodie cover |
 | 624 | Japanese-American woman, late 20s, short bob, thin gold chain | RESERVED — #430 Whisk Taker Matcha Hoodie cover |
 | 625 | Puerto Rican woman, early 20s, curly hair in a claw clip, red ribbon | RESERVED — #431 Cherry Picked Cropped Hoodie cover |
+| 626 | Vietnamese-American man, mid 40s, greying temples, fishing sunglasses | RESERVED — #432 Catch and Release Zip Hoodie cover |

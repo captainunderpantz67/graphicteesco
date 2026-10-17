@@ -1,0 +1,23 @@
+status: READY
+lane: A
+type: twin
+id: 432
+handle: mens-fishing-catch-and-release-zip-hoodie
+kd: 8
+---
+## Men's Fishing – Catch and Release Zip Hoodie
+- **Twin of:** #315 Catch and Release (Mostly Release) hoodie (LIVE, Printful file 1088000208), no new art. Director looked at its mockup this run: CATCH AND RELEASE is stacked, chipped hand-drawn caps in navy over a largemouth bass leaping from cattails, with (MOSTLY RELEASE) in smaller hand-drawn caps underneath; no ring, panel or box. R6.2 check first and log it: read every line, erase any typeset line in print-prep, break up any straight-edged ground, knock out unplanned white counters on the darkest color (R5.3.8). Zip layout as #418/#424: full art on the BACK at FW 1650 (fit the back area; never under 1500) plus a 525 px left-chest copy, nothing across the zipper (scripts/pf-zip.py). (MOSTLY RELEASE) carries the joke: on the back mockup it must read at phone size; if not, widen it toward about 60% of the art's width in print-prep before linking (R3.7.6).
+- **Blank:** Zip-up Gildan 18600 (Printful #692). Copy facts from the Printful spec only (R7.1).
+- **Hook:** CATCH AND RELEASE over a bass that is clearly getting away, then (MOSTLY RELEASE): the honest fishing record of every weekend angler (men's deadpan).
+- **Why it's not taken:** Same design as our live hoodie; no other seller has this art.
+- **Colors:** The navy lettering sinks on Navy (the pullover dropped it), so pick the two lightest 18600 colors it reads on at phone size: Ash + White or Ash + Sport Grey, logged (R7.2). Generate a Printful mockup for every color offered before REVIEW.
+- **Primary keyword:** catch and release — 90,500 / KD 8 (RankHero, director 2026-10-17 13:00; Etsy shoppers' phrase and the exact words of the print). KD ≤ 20 band, unclaimed. Say 'catch and release hoodie' where a person would. 'bass hoodie' belongs to #315, 'angler hoodie' to #424, 'fish hoodie' to #425, 'fisherman hoodie' to #418; don't use them. Mention only: mens zip up hoodie (zip-up-hoodies-for-men head), fishing hoodie (collection head). Record it in docs/product-keyword-map.json. Use the primary where a person would say it: the H1-area copy, the first sentence (with the joke and the occasion, R9.11) and once in the meta; no stuffing (R8.2–R8.3). Answer-first FAQs per R8.7: 4–6 questions, 40–60 words each (fit, care, sizing, warmth/weight, gift timing with an order-by date). Describe only what is in the art (R8.3); cross-sell only sibling products that are live.
+- **Popularity evidence (R5.2):** Catch and Release pullover LIVE; zip-up-hoodies-for-men has 4 products (needs 14, R11.5); mens zip up hoodie 74,000 / KD 6.
+- **Cover:** registry #626, Vietnamese-American man, mid 40s, short black hair going grey at the temples, fishing sunglasses pushed up; scene: a river bank at dawn with waders hanging on a truck tailgate, back print visible, alt starts 'Man'. TEMP-COVER MODE while fal is empty (twins only): best Printful lifestyle mockup matching the audience, a style ID not already on a live item (R6.6; 8534 is on #423 and #424), else `cover: temp (swap)`. Hands empty or in pockets; nothing over any part of the print; read every word before saving (R6.7–R6.9).
+- **Title / handle:** "Men's Fishing – Catch and Release Zip Hoodie" / `mens-fishing-catch-and-release-zip-hoodie` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** zip-up-hoodies, zip-up-hoodies-for-men, fishing-hoodies, graphic-hoodies-for-men, hoodie, ai-art, intake-done. No tee or sweatshirt collection tags (R7.5).
+- **Price:** $44.99 (R12.1 zip-up), no compare-at.
+- **Pre-build while fal is empty:** twin: build fully now (temp cover). Lane A joins cold-weather (R11.5): the holiday KD ≤ 35 band is used up.
+---
+## Log
+- 2026-10-17 13:00 UTC director: brief written, READY (keyword measured this run; source art checked against R4.1/R6.2 from its live mockup; fal-free twin).
