@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 shopify: gid://shopify/Product/15363411345712
 lane: B
 type: new
@@ -35,3 +35,4 @@ kd: 55
   1. R6.9 (hair): her hair covers the Y, so the cover reads EEHAW. Composite the exact print from the Sand mockup onto the cover's chest in print-prep (the Doe-Eyed method), with the hair layered behind the shoulder, then read YEEHAW, / BUT QUIETLY letter by letter. No new fal call needed.
   2. Keep YEEHAW, BUT QUIETLY (the brief's later rewrite is withdrawn).
   3. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)
+- 2026-10-17 23:45 UTC builder [B]: REDO 1 done (R6.9 composite, no fal): scripts/cover-composite.py fitted the exact yq-print.png onto her chest (140 px wide on the 600 px cover, old print inpainted away, multiply shading from the photo), the hair tip that lay over the Y repainted as sweatshirt so the hair stays behind the shoulder. Read YEEHAW, / BUT QUIETLY letter by letter: all letters clear. Person, scene, garment unchanged. Sheet docs/review/396.jpg updated. Set REVIEW.
