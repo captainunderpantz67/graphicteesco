@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-17 20:12 UTC
+status: REVIEW
 lane: C
 type: new
 id: 415
@@ -30,3 +30,4 @@ kd: 30
 - 2026-10-17 16:30 UTC builder [B]: line rewrite done (copy only): brief + Shopify DRAFT title/handle/SEO/copy now "Sweet Until Further Notice" (womens-cherry-sweet-until-further-notice-hoodie). Status ART-NEXT.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane C. LINE REWRITE (cheeky not cheesy, R3.1): the words on the shirt are now "Picking My Battles. Skipping Most." (this replaces the brief's text line; keep the brief's character/scene if it fits the new line, otherwise draw what the new line needs). Update the Shopify title and copy line one to the new line; handle stays.
 - 2026-10-17 20:16 UTC builder [C]: art 1 Recraft call (no lettering); SWEET UNTIL (Yellowtail) above and FURTHER NOTICE (Lobster) below via compose-print.py; FW 1500 TOP 75, clear of the pouch; Printful file 1088462822, sync 482432175 running; mockups Sand+Navy attached; COVER 2 fal images (registry #608), director decides: try 1 kept (long hair falls over the S of SWEET and a hood drawstring crosses the bow); try 2 (ponytail) still had the drawstring over the first two letters. FAQs 5 x 40-60 words (existing). Copy still says 'hand-drawn' for the lettering (it is set type): fix if you want it exact.
+- 2026-10-17 20:45 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/415.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. Cover is a director call: hair covers the S of SWEET and a drawstring crosses the bow.
