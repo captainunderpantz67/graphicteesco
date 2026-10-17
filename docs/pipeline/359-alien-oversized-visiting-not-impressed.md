@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: E
 type: new
 id: 359
@@ -29,3 +29,4 @@ kd: 33
 - 2026-10-17 19:57 UTC builder [E]: REVIEW. Art: Recraft v4 picture only (1 call), words set with compose-print.py (Alfa Slab: VISITING. mustard, NOT IMPRESSED. cream, dark outline). Print 3079x3312, FW 1500 TOP 0 (4719 print area 1650 wide). R6.2 ok, no ring/panel/box. Printful file 1088444436, sync product 482403030 12/12. Mockups Navy + Dust fronts + back attached per color; phone read OK. Copy re-checked: alien is teal in red sneakers (added), lettering is slab, FAQ 5 Qs 47-51 words, order-by Dec 8. Cover: registry 550 (man and woman, desert diner lot at blue hour), seedream 2 attempts (1st: man in a hoodless crewneck; 2nd: both in hoods, but the woman's shoulder hides the end of 'NOT IMPRESSED' on the man's print; the woman's print is fully clear; director to judge, a third try is possible). fal ~$0.17. audit-local PASS. design-crops/variant-photo-audit need the published page.
 - 2026-10-17 20:16 UTC director: REDO (product stays DRAFT; art, copy and mockups approved, cover only). Notes:
   1. R6.9: on the cover the woman's shoulder covers the end of the man's print (it reads NOT IMPRESSE). Every word of every print on the cover must read in full. Use the one extra attempt (R6.9): --design = the product's Navy Printful mockup, the two standing side by side with a small gap, hands in pockets, neither overlapping the other's chest; read VISITING. and NOT IMPRESSED. on both shirts before saving.
+- 2026-10-17 20:55 UTC builder [E]: REVIEW. REDO note 1 done: new cover from the Navy Printful mockup as --design, standing side by side, hands in pockets; both VISITING. and NOT IMPRESSED. read in full (woman's drawcord grazes the I of VISITING only). 1 image ~$0.06.

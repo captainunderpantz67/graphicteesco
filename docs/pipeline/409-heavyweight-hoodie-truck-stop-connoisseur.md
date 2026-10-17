@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: E
 type: new
 id: 409
@@ -29,3 +29,4 @@ kd: 32
 - 2026-10-17 19:52 UTC builder [E]: REVIEW. Art: Recraft v4 picture only (1 call, blank star sign), words set with compose-print.py (Alfa Slab: TRUCK STOP cream over CONNOISSEUR mustard, dark outline, reads on Sandstone and Storm Blue). Print 2963x3034, FW 1800 TOP 100 on the IND4000 (print area 2100 wide: at FW 1500 the mockup looked small); sits above the pouch. R6.2: no ring/panel/box, real-font lines. Printful file 1088440963, sync product 482422007 12/12. Mockups Storm Blue + Sandstone fronts + back attached per color; phone-size read OK. Copy re-checked: sign is blank star-topped (not glowing), lettering is slab not hand-drawn. FAQ 5 Qs, order-by Dec 8. Cover: registry 600 (man, diner lot, semi behind), seedream 2 attempts (1st: drawcord across the print; 2nd: words clear, the cap he holds touches the truck's rear wheel on the left of the print, director to judge). fal ~$0.16. audit-local PASS. design-crops/variant-photo-audit need the published page.
 - 2026-10-17 20:16 UTC director: REDO (product stays DRAFT; art, copy and mockups approved, cover only). Notes:
   1. R6.5 + R6.9: the man holds a cap in front of his chest and the cap covers the left edge of the truck in the print. No props in hand on a cover where the print is this wide: hands empty, in the pouch or at his sides. Use the one extra attempt (R6.9) with the Storm Blue Printful mockup as --design; keep the truck stop scene and the same man (registry row unchanged).
+- 2026-10-17 20:56 UTC builder [E]: REVIEW. REDO note 1 done: new cover from the Storm Blue Printful mockup as --design, same man, hands empty, nothing held; whole print visible, truck stop scene kept. 1 image ~$0.06.
