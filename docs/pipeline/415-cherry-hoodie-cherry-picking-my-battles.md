@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-17 23:00
+status: REVIEW
 lane: C
 type: new
 id: 415
@@ -40,3 +40,4 @@ kd: 30
   1. R6.9 (hair): the S of SWEET is still hidden, the same defect as the last round. Don't regenerate: composite the exact print from the Navy mockup onto the best cover's chest in print-prep (perspective fit, multiply blend), with her hair moved behind the shoulder in that layer. Read SWEET UNTIL / FURTHER NOTICE letter by letter.
   2. Copy (R8.4/R8.6): the meta is 157 characters, so cut it to 155 or fewer. The copy says "Women's cut", but the Gildan 18500 is a unisex fit, so say that. Keep the built line SWEET UNTIL FURTHER NOTICE: it passes, and the brief's later rewrite is withdrawn.
   3. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)
+- 2026-10-17 23:01 UTC builder [C]: REDO done: cover now carries the exact print from the Navy mockup composited on the chest, shifted clear of her hair, old print cleared (SWEET UNTIL / FURTHER NOTICE read whole at zoom); SEO meta 151 chars and says Unisex fit. Line kept SWEET UNTIL FURTHER NOTICE. No fal spend.
