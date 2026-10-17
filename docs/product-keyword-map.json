@@ -6390,6 +6390,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-unicorn-magical-mostly-tired-zip-hoodie": {
+   "claimed": [
+    "unicorn hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "unicorn hoodie",
+     "volume": 880,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
