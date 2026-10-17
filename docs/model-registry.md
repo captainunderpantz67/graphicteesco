@@ -444,7 +444,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 551 | Brazilian-American man, mid 30s, short dark curls, light stubble | RESERVED — #360 Fast Car Slow Mornings Heavyweight Hoodie cover |
 | 552 | White man, late 60s, white beard, flannel shirt collar showing | RESERVED — #361 I Fix Things After Naps Crewneck Sweatshirt cover |
 | 553 | Latina woman, late 30s, shoulder-length highlighted waves, small gold cross necklace | USED 2026-10-17 — #362 Sunflower Seeds hoodie cover (try 1, image 1 of 1) |
-| 554 | Man AND woman together: Black man, early 40s, short beard, knit beanie; white woman, late 30s, blonde braid | USED 2026-10-17 - #363 Went Outside It Was Fine hoodie cover (pair with #554-555) |
+| 554 | Man AND woman together: Black man, early 40s, short beard, knit beanie; white woman, late 30s, blonde braid | USED 2026-10-17 - #363 Went Outside It Was Fine hoodie cover (face rows 554 and 555-split: man and woman both described in row 554) |
 | 555 | South Asian-American woman, late 30s, shoulder-length layered hair, small stud earrings | RESERVED — #364 Orange Slice Manager Zip Hoodie cover |
 | 556 | White man, early 30s, tattooed forearms, short dark undercut, light beard | RESERVED — #365 Dead Serious Zip Hoodie cover |
 | 557 | Native Hawaiian woman, late 20s, long wavy dark hair, small shell earrings | USED 2026-10-16 — #366 Low Tide Low Effort oversized hoodie cover (seedream, 1 attempt) |
