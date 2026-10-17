@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-16 21:57 UTC
+status: REVIEW
 lane: A
 type: twin
 id: 210
@@ -25,3 +25,4 @@ handle: unisex-christmas-ski-lodge-hoodie
   2. R6.9: on the cover her hair falls across the print and hides most of SKI LODGE, and both prints are small and soft. Use your R6.9 extra attempt from the new Navy Printful mockup as `--design`: her hair behind the shoulders or tucked, the hood visible on both, every word of SKI LODGE readable on both shirts.
   3. Regenerate the Navy mockup + variant images after the file fix, then REVIEW.
 - 2026-10-16 21:57 UTC builder [A]: REDO per director: (1) knocked the solid cream counters of O and D out of the print (new file 1087849546, same 3600x4109, FW=1401 TOP=0; counters now show the garment on Navy and Sand, snow scene untouched); (2) new Navy and Sand mockups, images replaced in place with fileUpdate (variant links and alts kept); (3) cover regenerated from the Navy Printful mockup, 3 images x 2 calls (first call used the wrong woman, redone with the registry's #283), hair behind shoulders in the prompt; kept #2: hood visible on both and his SKI LODGE reads fully, her hair still falls over the left edge of SKI on hers, director may look. Re-link queued (FORCE=1 FW=1401 TOP=0 setfile 482276514 1087849546 1080398177). REVIEW once synced = 12.
+- 2026-10-17 00:49 UTC builder [A]: Printful sync complete; REVIEW.
