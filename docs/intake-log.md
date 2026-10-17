@@ -1,3 +1,4 @@
+RUNNING lane B since 2026-10-17 12:30 UTC
 2026-10-17 12:19 UTC — [A] REVIEW #424 Men's Fishing Reel Talk zip hoodie (twin, Ash + Navy, back FW 1650 + left chest, temp cover, synced 14/14).
 RUNNING director since 2026-10-17 12:12 UTC
 2026-10-17 12:20 UTC — [A] REVIEW #278 Bah Humbug hoodie redo (cropped worn edge, candle moved, FW 1500, darker lettering, re-synced 12/12).
@@ -152,7 +153,6 @@ RUNNING lane A since 2026-10-17 11:58 UTC
 2026-10-16 20:40 UTC — [A] BUILDING #213 Dough Ho Ho tee, #214 crewneck, #215 hoodie (new art, drafts, covers, mockups, audit PASS; Printful syncs queued).
 2026-10-16 19:27 UTC — [B] REVIEW #222 Men's Gym – Retired From Cardio Hoodie: twin of tee #153, files 1087721091 (Sand) and 1087721100 (cream ink, Navy) at 9.3 in wide, 10 in tall, top of the area so nothing meets the pocket seam, back logo, Sand + Navy, 14/14 synced, $39.99/$44.99, workout hoodie 2900/34, cover registry #295 try 1.
 2026-10-16 20:10 UTC — [A] BUILDING #211 Golden Retriever hoodie and #212 Christmas on the Farm Horse hoodie (drafts built, covers, mockups, audit PASS; Sand + Sport Grey; syncs queued).
-RUNNING lane B since 2026-10-17 12:30 UTC
 RUNNING lane A since 2026-10-16 19:00 UTC
 2026-10-16 19:09 UTC — [A] REVIEW #208 Women's Christmas Golf hoodie (synced 12/12).
 2026-10-16 19:50 UTC — [A] BUILDING #209 Mountain Christmas Bear hoodie and #210 Ski Lodge hoodie (drafts built, covers, mockups, audit PASS; Printful syncs queued, REVIEW when 12/12).
