@@ -1,0 +1,24 @@
+status: READY
+lane: B
+type: new
+id: 310
+handle: mens-christian-fishers-of-men-hoodie
+kd: 14
+---
+## Men's Christian – Fishers of Men Hoodie
+- **Blank:** Pullover Gildan 18500 (Printful #146). Copy facts from the Printful spec only (R7.1).
+- **Text on shirt:** FISHERS OF MEN (big, hand-drawn worn vintage capitals) and a small hand-lettered line below: (BASS ON SATURDAYS). Plus a small hand-lettered reference MATT. 4:19 under the boat. Every line hand-drawn, the small line at least 60% of the art width (R3.7.6).
+- **Hook:** witty yet respectful half of the Christian 50/50 (R3.4): the verse every fishing believer knows, with the honest Saturday confession. Never mocks the faith; the verse stays whole. Real event: the church men's breakfast, the lake on Saturday, Sunday after.
+- **Why it's not taken:** Etsy's "Fishers of Men" listings are straight verse text, a fish-and-cross symbol or a hook; the wooden boat at dawn with the Saturday-bass aside isn't on page 1. Builder: if 50+ show the exact full line, tell the director (R3.7.2).
+- **Style:** A, vintage to the edges (R4.2).
+- **Art prompt (Recraft v4):** "Vintage 1960s screen-print illustration: an old wooden rowboat on a calm lake at dawn, a casting net draped over the side, a largemouth bass leaping beside the boat, pine shoreline and a low sun. Hand-lettered worn vintage capitals above reading exactly 'FISHERS OF MEN'. Muted palette: faded navy, cream, sage green, mustard, soft black linework. Worn screen-print texture, edges breaking up into the print, off-register ink. The boat and water are the shape. Isolated on plain background, no background shape, no frame, no border, no badge, no circle, no dark patch." Compose the two small lines with one lettering-only generation if they come out thin (the #234 method).
+- **Colors (R7.2):** Sand + Navy; cream ink must read on Navy, navy linework on Sand. Knock out letter counters (R5.3.8).
+- **Primary keyword:** christian hoodie men — 4,400 / KD 14 (RankHero 2026-10-17). Unowned; record it. Mention only: christian hoodie (collection head). Run `scripts/keyword-gap.py "fishers of men shirt" "christian fishing shirt"` for 1–2 supporting phrases.
+- **Popularity evidence (R5.2):** christian hoodie 18,100/44 head; christian shirts men 12,100/12; fishing hoodie 6,600/30; Fishers of Men is a steady faith-and-fishing seller on Etsy.
+- **Cover:** registry #493, man (R6.3). Scene: a lake dock at sunrise, a fishing rod leaning on the post behind him (not in hand). Real garment with the hood visible (hoodies), generated with the product's own Printful mockup in the cover color as `--design`; hands empty or in pockets; nothing over any part of the print; read every word before saving (R6.7-R6.9).
+- **Title / handle:** "Men's Christian – Fishers of Men Hoodie" / `mens-christian-fishers-of-men-hoodie`.
+- **Tags:** christian-hoodies, fishing-hoodies, hoodie, ai-art, intake-done.
+- **Price (R12.1):** $39.99, compare-at $44.99.
+---
+## Log
+- 2026-10-17 02:26 UTC director: brief written, READY (low-KD sweep 2026-10-17, card step 5; keyword measured this run).
