@@ -69,6 +69,8 @@ def data_uri(path: pathlib.Path, max_side: int = 1536) -> str:
 
 
 def call(model_id: str, payload: dict, key: str) -> dict:
+    sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent)); from fal_budget import charge
+    charge(0.06 * max(1, payload.get('num_images', 1)), 'photo ' + model_id)
     body = json.dumps(payload).encode()
     last = None
     for auth in (f'Key {key}', f'Bearer {key}'):  # fal accepts "Key"; newer docs show "Bearer"
