@@ -365,6 +365,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-bookish-do-not-sell-my-books-crewneck-sweatshirt': { src: '/covers/womens-bookish-do-not-sell-my-books-crewneck-sweatshirt.webp', alt: 'Woman in a cream Do Not Sell My Books crewneck sweatshirt with a burgundy book stack and lilies on the chest, round glasses and black hair with bangs, sitting in a cozy reading nook with a full bookshelf' },
   'womens-football-mom-promised-to-behave-graphic-tee': { src: '/covers/womens-football-mom-promised-to-behave-graphic-tee.webp', alt: 'Woman in a maroon Promised to Behave football mom tee in the bleachers at a Friday night game' },
   'mens-gym-sisyphus-had-bad-programming-graphic-tee': { src: '/covers/mens-gym-sisyphus-had-bad-programming-graphic-tee.webp', alt: 'Man in a light beige Sisyphus Had Bad Programming tee in a home garage gym, hands in his shorts pockets' },
+  'womens-baseball-mom-bases-loaded-crewneck-sweatshirt': { src: '/covers/womens-baseball-mom-bases-loaded-crewneck-sweatshirt.webp', alt: 'Woman in a Sand Bases Loaded Mom Exhausted crewneck sweatshirt in a youth baseball tournament parking lot, hands in her jeans pockets' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
