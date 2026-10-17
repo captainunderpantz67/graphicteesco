@@ -1,4 +1,5 @@
-status: BUILDING [A] 2026-10-17 18:11
+status: REVIEW
+shopify: gid://shopify/Product/15363978068272
 lane: A
 type: new
 id: 481
@@ -22,3 +23,4 @@ kd: 20
 ## Log
 - 2026-10-17 Claude: brief + final art + approved mockups (designs/first5/); READY, top priority (Sam: ship it).
 - 2026-10-17 18:12 UTC builder [A]: Shopify DRAFT gid://shopify/Product/15363978068272 created (24 variants, $34.99 no compare-at, Sand/Sport Grey/White/Ash S-3XL, aa-1-13-14). Keyword: every bookish term measured is KD>=54 (bookish sweatshirt 1600/54 owned; reading sweatshirt 390/66; book lover sweatshirt 320/68; bookworm sweatshirt 170/63); claimed 'bookworm sweatshirt' 170/63, lowest unowned.
+- 2026-10-17 18:37 UTC builder [A]: REVIEW. Printful sync pid 482544992 synced 24/24 (print file 1088388692, FW 1500/TOP 75; AT MY FUNERAL. is small but legible at 400 px, art unchanged per Sam's approval). Every color has its own mockup attached to its variants + back logo view. FAQ 5 x 48-53 words incl. Dec 8 order-by. Registry #685; Sand cover try 1 (1 fal image ~$0.04): all words read, garment reads cream (Sand is pale). Audit passes except not-active; sheet docs/review/481.jpg. design-crops/variant-photo scripts cover published products only, rerun when ACTIVE.
