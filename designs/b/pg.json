@@ -1,0 +1,5 @@
+{"art": "designs/b/pg-a.png", "art_width": 0.62, "canvas": [3600, 4500], "gap": 20,
+ "lines": [
+  {"text": "MUD BATH BOOKED.", "font": "AlfaSlabOne-Regular.ttf", "size": 400, "fill": "#4a2f22", "stroke": 16, "stroke_fill": "#f4e6c6", "tracking": 0.03, "where": "below"},
+  {"text": "PLANS CANCELED.", "font": "AlfaSlabOne-Regular.ttf", "size": 400, "fill": "#e88a98", "stroke": 18, "stroke_fill": "#4a2f22", "tracking": 0.03, "where": "below"}
+ ]}
