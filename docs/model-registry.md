@@ -521,8 +521,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 628 | Filipino-American woman, mid 20s, long wavy hair, small silver hoops | RESERVED — #434 Guarding the Last Dumpling Oversized Hoodie cover (with #629) |
 | 629 | Black man, late 20s, short twists, round glasses | RESERVED — #434 Guarding the Last Dumpling Oversized Hoodie cover (with #628) |
 | 630 | Chinese-American woman, college-age, long straight hair in a half-up clip, pearl studs | RESERVED — #435 Petal Pusher Cropped Hoodie cover |
-| 631 | Korean-American man, early 30s, undercut, small silver ring | RESERVED — #436 Talk to the Paw Heavyweight Hoodie cover (with #632) |
-| 632 | white woman, late 20s, auburn shag, freckles | RESERVED — #436 Talk to the Paw Heavyweight Hoodie cover (with #631) |
+| 631 | Korean-American man, early 30s, undercut, small silver ring | USED 2026-10-17 - #436 Ignoring You Professionally hoodie cover (pair with #631-632) |
+| 632 | white woman, late 20s, auburn shag, freckles | USED 2026-10-17 - #436 Ignoring You Professionally hoodie cover (pair with #631-632) |
 | 633 | Mexican-American woman, early 20s, curtain bangs, butterfly clips, small hoops | USED 2026-10-17 — #437 Gold Star hoodie cover (try 1, image 1 of 1) |
 | 634 | Indian-American woman, early 30s, long braid, small nose stud | RESERVED — #438 Bamboozled Zip Hoodie cover |
 | 635 | white woman, college-age, blonde high ponytail, white headband, gold studs | RESERVED — #439 Single and Serving Cropped Hoodie cover |

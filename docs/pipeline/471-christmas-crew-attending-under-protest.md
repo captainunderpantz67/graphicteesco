@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-17 19:51 UTC
+status: REVIEW
 lane: C
 type: new
 id: 471
@@ -32,3 +32,4 @@ kd: 10
 - 2026-10-17 19:00 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15364044521776 (12 variants Sand+Navy S-3XL, $34.99, crewneck category, FW 1650 planned). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane C.
 - 2026-10-17 20:00 UTC builder [C]: art 1 Recraft call (no lettering), words set in Alfa Slab One via compose-print.py, checked on navy and sand; FW 1650 TOP 20; print docs/print-files/471-attending-under-protest.png; Printful file 1088449390, sync 482556703 running; mockups Sand+Navy attached to Shopify; fal cover 1 image (registry #675); copy line about lettering updated to the real art; FAQ 6 x 40-60 words incl. Dec 8.
+- 2026-10-17 20:05 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/471.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art (no frame/badge words).
