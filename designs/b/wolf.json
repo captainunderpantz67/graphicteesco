@@ -1,0 +1,5 @@
+{"art": "designs/b/wolf-b.png", "art_width": 0.86, "canvas": [3600, 4500], "gap": 30,
+ "lines": [
+  {"text": "LONE WOLF.", "font": "AlfaSlabOne-Regular.ttf", "size": 360, "fill": "#25304d", "tracking": 0.03, "where": "above"},
+  {"text": "EARLY BEDTIME.", "font": "AlfaSlabOne-Regular.ttf", "size": 360, "fill": "#25304d", "tracking": 0.03, "where": "below"}
+ ]}
