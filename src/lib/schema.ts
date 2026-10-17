@@ -199,7 +199,14 @@ export const productSchema = (p: Product) => {
     };
   };
   const material = site.facts.hoodieBlank && /hood/i.test(p.productType) ? site.facts.hoodieBlank : site.facts.teeBlank && !/hood/i.test(p.productType) ? site.facts.teeBlank : undefined;
-  const common = { brand: { '@type': 'Brand', name: site.name }, ...(material ? { material } : {}) };
+  // audience + sized sizes: Google's apparel signals (gender, age_group, size_system), matching the feed.
+  const suggestedGender = p.handle.startsWith('womens-') ? 'female' : p.handle.startsWith('mens-') ? 'male' : 'unisex';
+  const common = {
+    brand: { '@type': 'Brand', name: site.name },
+    ...(material ? { material } : {}),
+    audience: { '@type': 'PeopleAudience', suggestedGender, suggestedMinAge: 13 },
+  };
+  const sizeSpec = (name: string) => ({ '@type': 'SizeSpecification', name, sizeSystem: 'https://schema.org/WearableSizeSystemUS' });
   // Google variant markup (2026-10-17): one ProductGroup, a Product per variant, each Offer pointing at the
   // same ?color=&size= landing URL the Merchant feed uses (the page preselects it; canonical stays clean).
   const colorAxis = p.variants.some((v) => optOf(v, /colou?r/i));
@@ -227,7 +234,7 @@ export const productSchema = (p: Product) => {
           name: [p.title, color, size].filter(Boolean).join(' – '),
           ...(v.image?.url ? { image: v.image.url } : {}),
           ...(color ? { color } : {}),
-          ...(size ? { size } : {}),
+          ...(size ? { size: sizeSpec(size) } : {}),
           offers: offerFor(v, q ? `${url}?${q}` : url),
         };
       }),
