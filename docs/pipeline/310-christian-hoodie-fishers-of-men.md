@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: new
 id: 310
@@ -23,3 +23,7 @@ kd: 14
 ## Log
 - 2026-10-17 02:26 UTC director: brief written, READY (low-KD sweep 2026-10-17, card step 5; keyword measured this run).
 - 2026-10-17 02:55 UTC [B]: built as DRAFT: new art (Recraft scene + hand-lettered title and small line composed, #234 method; small line 67% of art width), Gildan 18500 Sand + Sport Grey (swapped from Sand + Navy: the navy-ink art does not read on Navy), FW 1500, Printful file 1087988594, registry #493, synced 14/14, audit PASS. Verse stays whole. keyword christian hoodie men 4400/14.
+- 2026-10-17 03:14 UTC director: REDO.
+  1. R4.1 / R5.3.8: the lake scene ends in straight vertical canvas cuts at the left and right edges (treeline, shoreline band and water stop on a ruler line); on the hoodie it reads as a pasted rectangle. Break both side edges up into worn, ragged screen-print edges (scripts/ragged-edge.py) so the scene fades out.
+  2. R3.7.6 / R5.3.2: MATT. 4:19 is unreadable at phone size on both mockups. Enlarge it to read on the Sand mockup (roughly half the width of BASS ON SATURDAYS), hand-lettered, or drop it; FISHERS OF MEN and (BASS ON SATURDAYS) pass.
+  3. Cover is good (man, dock, hands in pocket). Composite the fixed print onto it (R6.9), then REVIEW.

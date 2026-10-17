@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: A
 type: new
 id: 255
@@ -23,3 +23,7 @@ handle: mens-thanksgiving-technically-a-vegetable-graphic-tee
 - 2026-10-16 22:25 UTC director: brief written, READY (lane A funny Thanksgiving pair for /funny-thanksgiving-shirts/, R9.11).
 - 2026-10-16 22:58 UTC builder [A]: NEW ART Recraft v4 try 1 (TECHNICALLY A VEGETABLE spelled right, marshmallow casserole with spoon, steam and sage, no badge or frame; print-prep --solid; knocked out 26 pure-white highlight components so no paper white remains). Printful file 1087880780 (3600x3392). DRAFT gid://shopify/Product/15362452357424 (Bella+Canvas 3001; White, Natural, Ash, Athletic Heather, Heather Dust, Tan x S-4XL = 42; light and mid only, no cream-ink file; $24.99/$29.99; tags per brief), Printful sync 482343950 queued (FORCE=1 FW=1500 setfile 482343950 1087880780 1080398177). Keywords already in the map under this handle. SEO title shortened to 55 characters (the brief's phrase made it 61). Cover #431 from the Athletic Heather mockup (try 1, kept #3 of 3), 6 fronts + back, variant images, audit above, docs/review/255.jpg. REVIEW once synced = 42.
 - 2026-10-17 02:42 UTC builder [A]: Printful sync complete; REVIEW.
+- 2026-10-17 03:14 UTC director: REDO.
+  1. R3.7.6 / R5.3.2: TECHNICALLY A VEGETABLE is the joke and it is thin, pale tan and faint on the mockups (Athletic Heather, Natural); at phone size it nearly vanishes. Re-letter it by hand (one lettering-only Recraft generation composed in print-prep, the #234 method) in thick, dark warm brown, at least 80% of the casserole's width, and move it closer under the dish.
+  2. Keep the casserole art as is (it reads well). Re-check the darkest offered color, re-link, new mockups; the cover can stay only if you composite the new print onto it (R6.9 composite method), otherwise one new cover.
+  3. #256 crewneck twin waits on this art.

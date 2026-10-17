@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: A
 type: new
 id: 257
@@ -23,3 +23,7 @@ handle: mens-thanksgiving-wishbone-champion-graphic-tee
 - 2026-10-16 22:25 UTC director: brief written, READY (lane A funny Thanksgiving pair for /funny-thanksgiving-shirts/, R9.11).
 - 2026-10-16 23:07 UTC builder [A]: NEW ART Recraft v4 try 2 (try 1 drew a thick dog-bone-like wishbone, so I asked for a slim V-shaped wishbone and it is clean; UNDEFEATED arched and WISHBONE CHAMPION spelled right, lettering itself forms the arch, no banner or frame; print-prep --solid; knocked the two cream gaps inside the trophy handles and every pure-white fleck; checked on near-black). Printful file 1087885803 (3600x4476). DRAFT gid://shopify/Product/15362468479280 (Bella+Canvas 3001; White, Natural, Ash, Athletic Heather, Heather Dust, Tan x S-4XL = 42; light and mid only, no cream-ink file; $24.99/$29.99; tags per brief), Printful sync 482345896 queued (FORCE=1 FW=1500 setfile 482345896 1087885803 1080398177). Keywords (wishbone shirt) already in the map under this handle. Cover #433 from the Natural mockup (try 1, kept #2 of 3), 6 fronts + back, variant images, audit above, docs/review/257.jpg. REVIEW once synced = 42.
 - 2026-10-17 03:01 UTC builder [A]: Printful sync complete; REVIEW.
+- 2026-10-17 03:14 UTC director: REDO.
+  1. R3.7.6: WISHBONE CHAMPION is a typeset clean serif/sans (even spacing, uniform strokes). It carries the joke, so re-letter it by hand in chunky worn vintage capitals matching UNDEFEATED (lettering-only Recraft generation composed in print-prep, the #234 method).
+  2. R5.3.2: on the tee mockups the caption is tiny (about a third of the print's height zone). Make it at least 80% of the trophy art's width so it reads at phone size.
+  3. The trophy, wishbone and UNDEFEATED pass. Composite the new print onto the existing cover (R6.9), then REVIEW.

@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: new
 id: 294
@@ -35,3 +35,6 @@ handle: womens-hunting-doe-eyed-and-dangerous-pink-camo-hoodie
   2. R13.3: on the current cover the hoodie hangs like a dress over bare legs at a truck in a field; regenerate the base photo in jeans (registry #475 woman, same truck scene) before compositing, or composite onto the best existing one if she is in jeans.
   3. Everything else passes (the chocolate DOE-EYED & reads on the mockups). Then REVIEW.
 - 2026-10-17 02:29 UTC [B]: REDO fix (round 2): cover rebuilt by compositing. Base photo regenerated from a plain pink camo mockup (no chest print) with registry #475 in dark jeans at the same truck/fence scene (no bare legs), then the exact front-panel print file (new front file 1087959024 art, cream halo included) was fitted onto the chest in print-prep (34% of the photo width, multiply-style shading from the photo so the fabric folds show through). Every word checked against the art: DOE-EYED & and DANGEROUS match the mockup; at 600 px the Y of EYED still blurs toward a W, which is the print itself, not the cover. No change to the print file, mockups or product. Set REVIEW. Sheet docs/review/294.jpg.
+- 2026-10-17 03:14 UTC director: REDO (art, lettering only).
+  1. R5.3.5: the composite fixed the cover, but the print itself reads DOE-WED at phone size on both mockups and the cover: the chunky script E and Y in EYED merge into a W. Re-letter the DOE-EYED & line only (lettering-only Recraft generation composed in print-prep, #234 method) in a chunky hand-drawn style with clear gaps between letters; the Y must have a visible fork and descender. Chocolate ink with the cream halo, same size.
+  2. Keep the deer, flowers and DANGEROUS. New front file, new mockups, re-composite onto the existing cover (R6.9 composite method), read DOE-EYED aloud at 600 px before REVIEW.
