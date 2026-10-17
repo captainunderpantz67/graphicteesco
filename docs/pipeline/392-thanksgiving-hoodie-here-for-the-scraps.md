@@ -1,4 +1,6 @@
-status: BUILDING [A] 2026-10-17T08:24Z
+status: REVIEW
+shopify: gid://shopify/Product/15363398304048
+cover: temp (swap)
 lane: A
 type: twin
 id: 392
@@ -21,3 +23,4 @@ kd: 56
 ---
 ## Log
 - 2026-10-17 08:55 UTC director: brief written, READY (keyword measured this run; twin).
+- 2026-10-17 08:27 UTC builder [A]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363398304048 (Gildan 18500, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category aa-1-13-13, tags graphic-hoodies-for-women, hoodie, thanksgiving, ai-art, intake-done). Twin of the Here for the Scraps tee file 1087191678, re-hosted (branch lane-a-files f/392.png) as Printful file 1088115557, 3600x3413, FW=1650 TOP=0 (print 1564 px tall, clear of the pouch seam), sync 12/12. R6.2 check: HERE FOR THE SCRAPS is hand-drawn condensed arched letters, uneven; the tablecloth edges are already ragged and broken, no straight panel, ring or arch shape; only white area is the platter rim (planned cream). Keyword dog mom hoodie 390/KD56 in map. Fronts + back, variant images per color, audit PASS (warn only: thanksgiving tag feeds no collection, per brief). TEMP COVER Printful Women's 2 (style 20243, Sand, smiling woman, hands in pocket, print fully visible); style is on 2 other items, cover: temp (swap). Registry #583 left RESERVED. Sheet docs/review/392.jpg. REVIEW.

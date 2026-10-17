@@ -5624,6 +5624,19 @@
     }
    ],
    "measured": "2026-10-17"
+  },
+  "womens-thanksgiving-here-for-the-scraps-hoodie": {
+   "claimed": [
+    "dog mom hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dog mom hoodie",
+     "volume": 390,
+     "kd": 56
+    }
+   ],
+   "measured": "2026-10-17"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
