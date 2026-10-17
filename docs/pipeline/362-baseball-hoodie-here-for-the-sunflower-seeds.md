@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-17 23:10 UTC
+status: REVIEW
 lane: B
 type: new
 id: 362
@@ -27,3 +27,4 @@ kd: 38
 - 2026-10-17 06:44 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363170042160 (launch colors per brief, S-3XL, price per brief with no compare-at, category, tags per brief incl. hub tags, SEO, FAQs; keyword baseball hoodie /2400 /38). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane B.
 - 2026-10-17 23:40 UTC builder [B]: art via Recraft (1 image, no lettering) + HERE FOR THE in Yellowtail cream/navy stroke and SUNFLOWER SEEDS in AlfaSlabOne gold (designs/b/bb.json, bb-kw.png; glove-web white slots knocked out with knock-white 8000, R5.3.8). Reads on Sand and Navy. Copy fixed (hand-drawn -> cream script + bold gold capitals; FAQ 3 -> 5 x 40-52 words incl. Dec 8). Printful file 1088453834, FW 1500 TOP 0, sync pid 482403092 running. Mockups per color + back attached. Cover registry #553 try 1 (~$0.04), words read. kw baseball hoodie 2400/38.
+- 2026-10-18 02:20 UTC builder [B]: synced 12/12. REVIEW. Sheet docs/review/362.jpg.
