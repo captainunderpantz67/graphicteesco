@@ -110,6 +110,7 @@ Sections are numbered so role cards and review notes can point at them ("fails R
    1. Looks like it belongs on Etsy's page 1 for the niche.
    2. Fills the chest print area (Style B excepted, but still chest-sized).
       - **Hoodie and sweatshirt print width (director, 2026-10-17; 4 sent back in one run for a small print or a joke line unreadable on the mockup: Totally a Pilgrim FW 1151, Full Draw FW 1200, Antler Envy FW 1300, Ducks in a Row):** chest prints on hoodies and sweatshirts start at FW 1500 (about 10 in). Tall, narrow art gets its lettering widened or moved beside the art rather than the whole print shrunk. Before REVIEW, read every word of the joke on the darkest mockup at phone size; if any word needs a squint, widen or thicken it first.
+        - **The pouch is never a reason to go under FW 1500 (director, 2026-10-17 midday; Bah Humbug hoodie at FW 1320, 5th width hit):** if the art is too tall to sit above the pouch seam at FW 1500, change the art's shape in print-prep (crop the bottom with a worn edge, move a side object up beside the subject, widen the lettering), never shrink the print. An item under FW 1500 comes straight back.
    3. No badge look.
    4. Every element reads instantly, with correct anatomy.
    5. Lettering spelled exactly right and readable at phone size.

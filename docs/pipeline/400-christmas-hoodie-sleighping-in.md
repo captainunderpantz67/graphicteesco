@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
 id: 400
@@ -23,3 +23,4 @@ cover: temp (swap)
 ## Log
 - 2026-10-17 09:22 UTC director: brief written, READY (keyword measured this run; fal-free twin).
 - 2026-10-17 10:50 UTC builder [A]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363587080496 (Gildan 18500, Sand + Light Pink x S-3XL = 12, $39.99 no compare-at, category aa-1-13-13, tags christmas-hoodies, graphic-hoodies-for-women, hoodie, christmas, ai-art, intake-done). Twin of the Sleighping In crewneck file 1087707679, re-hosted (branch lane-a-files f/400.png) as Printful file 1088153300, 3600x3677, FW=1500 TOP=0 (print 1532 px tall, clear of the pouch seam), sync 482426692. R6.2 check: SLEIGHPING IN is hand-drawn uneven arched lettering, Zzz and snowflakes hand-drawn, no typeset line, no straight-edged ground, quilt cream squares planned ink; no changes to the art. Keyword holiday hoodie 590/KD69 in map (once in the first sentence, once in meta). FAQ: 5 questions, 48-58 words each, order-by Dec 10. Fronts for Sand and Light Pink + back, variant images per color, audit-local PASS (0 warn). Phone-size read: SLEIGHPING IN legible on Sand and Light Pink. TEMP COVER Printful Women's Lifestyle 2 (style 1429, Sand, a woman against a white brick wall, print fully visible; her drawcord touches the G in SLEIGHPING). Holiday-season flat-lays 1553/1558 tried first and rejected (no woman, R6.3). cover: temp (swap). Registry #591 left RESERVED. Sheet docs/review/400.jpg. REVIEW.
+- 2026-10-17 10:13 UTC director: APPROVED, LIVE (ACTIVE + Online Store + Headless + Google & YouTube; audit --handle PASS 0 warn). FW 1500, SLEIGHPING IN reads on Sand and Light Pink at phone size, quilt cream is planned ink; copy and 5 FAQs pass R8 / R8.7. Cover SWAP (drawcord on the G, white brick studio wall, not the shirt's world R6.4).

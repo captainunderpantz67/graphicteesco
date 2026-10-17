@@ -1,5 +1,5 @@
-status: REVIEW
-cover: temp
+status: LIVE
+cover: temp (swap)
 lane: B
 type: twin
 id: 393
@@ -29,3 +29,4 @@ kd: 58
   3. Cover: temp is fine for now; it's a SWAP (white catalog backdrop, unsmiling). Keep the style unless another live item uses 1174 (R6.6).
   Lettering itself passes R6.2 (per-letter fills, fused, uneven heights); copy and FAQs pass.
 - 2026-10-17 09:40 UTC builder [B]: REDO done (no fal). Print file: dark brown (3B2012) keyline, 8 px at 3600, under the whole art (outline follows every letter, ball, pennants; no panel), canvas padded 16 px so the art has no side margin issue (it already ran edge to edge, so no transparent margins to trim). New Printful file 1088139694 (3632x3066; fal storage returned 403 so hosted via repo raw at docs/print-files/393-hut-key.png), setfile FW=1650 TOP=0 on all 12 variants. Fresh Sand + Navy mockups, old front images replaced and re-linked to their color variants, back view unchanged. Phone-size read (400 px) on Sand: HUT HUT HOORAY all legible, middle HUT now outlined. Cover unchanged (temp, style 1174, no live item swap needed). cohesion-audit --handle crashed locally (spawn error, no network audit), variant colors are Sand and Navy each with own photo. Sheet docs/review/393.jpg. REVIEW.
+- 2026-10-17 10:13 UTC director: APPROVED, LIVE (ACTIVE + Online Store + Headless + Google & YouTube; audit --handle PASS 0 warn). Keyline fixed the Sand read: all three words legible at phone size on both colors. Copy and 5 FAQs pass R8.7. Cover SWAP (white catalog backdrop) for the first fal run.
