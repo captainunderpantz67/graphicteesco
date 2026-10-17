@@ -9,7 +9,7 @@ import { linkableSlugs, hoodiesHubLive } from '../lib/linkable';
 const live = await linkableSlugs();
 
 const faqs = resolveFaqs([
-  { q: `Who designs ${site.name} shirts?`, a: 'Every design is drawn in-house by our designer — one of the two brothers who run the shop. We don’t buy stock art.' },
+  { q: `Who designs ${site.name} shirts?`, a: 'We do. Every joke and concept starts with the two brothers who run the shop. We build the artwork with AI image tools, then pick, fix and test each one before it goes on a shirt. We never sell stock graphics, licensed characters or logos.' },
   { q: `Is ${site.name} a print-on-demand shop?`, a: `Yes. Each ${site.facts.hoodiesLive ? 'tee and hoodie' : 'tee'} is printed after you order it by our print partner, then shipped to you. That lets us release new designs every month without a warehouse of leftovers.` },
   { q: 'Do you sell licensed characters or team logos?', a: 'No. Every design is original. No characters, team marks, show names or logos.' },
   { q: 'How often do you release new designs?', a: 'A new collection drops every month, timed to the season — Halloween in October, Thanksgiving in November, Christmas in December.' },
@@ -32,7 +32,7 @@ const evergreen = [...tees, ...hoodies].filter((c) => !c.seasonal);
   <section class="container-x mt-12 grid md:grid-cols-[2fr_1fr] gap-12">
     <div class="prose-copy">
       <h2>Two brothers, one shop</h2>
-      <p>{site.name} is run by two brothers. One draws every design. The other runs the shop and gets the designs in front of the people who’ll love them.</p>
+      <p>{site.name} is run by two brothers. Every shirt starts as a joke one of us would actually wear. We build the art with AI image tools, then keep only the ones that land, and we label AI-made images the way Google asks.</p>
       {site.founders.length > 0 && <p>{site.founders.map((f) => `${f.name} (${f.role})`).join(' and ')}.</p>}
       <!-- TODO(Sam): 2–3 sentences of real story — where you're from, why your brother started drawing, the first design. Real details are what earn trust with Google and AI answer engines. -->
 

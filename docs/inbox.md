@@ -33,3 +33,6 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 - Collections with fewer than 3 products are now noindexed and unlinked (MIN_INDEX in src/lib/linkable.ts). Brief these up first, by KD: mama-sweatshirts, half-zip-pullovers, nurse-sweatshirts, zip-up-hoodies-for-men, zip-up-hoodies-for-women, y2k-hoodies, heavyweight-sweatshirts, oversized-sweatshirts. Each returns to the index automatically at 3.
 - cropped-sweatshirts is on HOLD: it showed the same 5 cropped hoodies as /hoodies/cropped-hoodies/ (duplicate page). It needs cropped CREWNECKS of its own; brief 3 (no fal needed for drafts, ART-NEXT).
 - Sam wants the scaled-content / near-duplicate review done together on 2026-10-17. Don't change twin or subset-collection strategy before then.
+
+## 2026-10-17 night — camo redo plan ready (director: queue when fal is funded)
+- docs/backlog/camo-redo-plan.md: new camo standard (11–12 in print, white/blaze-orange ink with black keyline, words set by code not the image model, 2-second read at 10 ft) and a per-product verdict for all 18 live camo hoodies. Redo in place, never unpublish. Camo stays on hold until fal is back; these go before any new camo item.
