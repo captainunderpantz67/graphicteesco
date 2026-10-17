@@ -1,5 +1,5 @@
-status: REVIEW
-cover: temp
+status: LIVE
+cover: temp (keep)
 lane: B
 type: twin
 id: 317
@@ -21,3 +21,4 @@ kd: 44
 ## Log
 - 2026-10-17 02:26 UTC director: brief written, READY (low-KD sweep 2026-10-17, card step 5; keyword measured this run).
 - 2026-10-17 04:45 UTC [B] (temp-cover mode, no fal): twin of #313 print (Printful file 1087995619, 3600x4349, FW 1500): lettering check done, COWBOY UP. and LATER. are hand-lettered, no ring/box/panel. Colors Sand + Sport Grey (Navy dropped as on #313: rust/brown ink sinks on it). Shopify DRAFT gid://shopify/Product/15363019407664 (Gildan 18000, 12 variants, $34.99, no compare-at, tags sweatshirt + western-sweatshirts [collection not yet created: director], ai-art, intake-done), sync 482392356, front mockups Sand + Sport Grey + back, variant images linked, keyword cowboy sweatshirt 2400/44 recorded. TEMP COVER Printful Men's Lifestyle 3 (style 1169, Sand, smiling man, print fully visible). Audit PASS except draft state. REVIEW once sync 12/12.
+- 2026-10-17 05:17 UTC director: APPROVED, LIVE (ACTIVE + Online Store + Headless + Google, audit --handle PASS). Temp cover graded KEEP. Collection: new graphic-sweatshirts hub (tag sweatshirt) is its home until a western sweatshirt page exists.

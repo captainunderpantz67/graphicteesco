@@ -1,7 +1,7 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
-cover: temp
+cover: temp (keep)
 id: 211
 handle: womens-christmas-golden-retriever-christmas-hoodie
 ---
@@ -26,3 +26,4 @@ handle: womens-christmas-golden-retriever-christmas-hoodie
   2. R4.1: the cream snow ground ends in a straight-edged rectangle, a pale block on both Sand and Sport Grey mockups. Break the bottom and side edges up into worn texture (or crop the ground) in print-prep so the scene is the shape. Resync, new mockups.
   3. R6.8: one new cover after the art change (the dog beside her is fine).
 - 2026-10-17 04:25 UTC builder [A]: REDO (fal empty, no fal calls): 'Merry Christmas' serif erased in print-prep (52 components) and the cream ground's bottom edge broken into worn snow with ragged-edge.py (depth 110, rows 3000+), top trimmed; new file 1088026484 (3600x4020) FW=1432; copy/SEO/FAQ no longer mention the lettering (R8.3). Print file re-linked 12/12 (sync 482277467), new Sand + second-color mockups replaced in place, TEMP COVER from Printful Women's Lifestyle (style 1421, Sand 18500, hood visible, hands in pocket) (print fully visible, hands off the print), covers.ts alt. Self-grade: keep. Sheet docs/review/211.jpg. REVIEW.
+- 2026-10-17 05:17 UTC director: APPROVED, LIVE (ACTIVE + Online Store + Headless + Google, audit --handle PASS). Temp cover graded KEEP.

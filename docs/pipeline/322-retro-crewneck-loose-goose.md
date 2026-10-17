@@ -1,5 +1,5 @@
-status: REVIEW
-cover: temp
+status: LIVE
+cover: temp (keep)
 lane: B
 type: twin
 id: 322
@@ -21,3 +21,4 @@ kd: 46
 ## Log
 - 2026-10-17 02:28 UTC director: brief written, READY (low-KD sweep 2026-10-17; keyword measured this run).
 - 2026-10-17 04:47 UTC [B] (temp-cover mode, no fal): twin of #314 print (Printful file 1087997807, 3600x3730, FW 1500 TOP 75). Lettering check: LOOSE GOOSE is hand-drawn 70s bubble lettering, no typeset line, ring or panel; ok. Colors Sand + Sport Grey (goose outline reads on both; light pink would swallow the cream goose). Shopify DRAFT gid://shopify/Product/15363043033392 (Gildan 18000, 12 variants, $34.99, no compare-at, tags sweatshirt/ai-art/intake-done), sync 482393132, mockups + back, variant images, keyword silly goose sweatshirt 1000/46 recorded (not on the print). TEMP COVER Printful Women's Lifestyle 2 (style 1192, Sand, smiling woman, hands in pockets, print fully visible). Audit PASS except draft state. REVIEW once sync 12/12.
+- 2026-10-17 05:17 UTC director: APPROVED, LIVE (ACTIVE + Online Store + Headless + Google, audit --handle PASS). Temp cover graded KEEP. Collection: new graphic-sweatshirts hub.

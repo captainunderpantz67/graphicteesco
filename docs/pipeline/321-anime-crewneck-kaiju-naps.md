@@ -1,5 +1,5 @@
-status: REVIEW
-cover: temp
+status: LIVE
+cover: temp (swap)
 lane: B
 type: twin
 id: 321
@@ -21,3 +21,4 @@ kd: 50
 ## Log
 - 2026-10-17 02:28 UTC director: brief written, READY (low-KD sweep 2026-10-17; keyword measured this run).
 - 2026-10-17 04:43 UTC [B] (temp-cover mode, no fal): twin of the #133 tee print (Printful file 1087506516, 3600x5542, FW 1400 TOP 0). Lettering check: DESTROYER OF CITIES / LOVER OF NAPS are distressed hand-lettered retro caps with gradient, not typeset; no ring/panel; ok. Colors Sand + Sport Grey (navy shadows vanish on Navy, same as the hoodie twin). Shopify DRAFT gid://shopify/Product/15363038282032 (Gildan 18000, 12 variants, $34.99, no compare-at, tags sweatshirt/ai-art/intake-done; no anime-sweatshirts collection exists), sync 482392940, mockups Sand + Sport Grey + back, variant images, keyword anime sweatshirt 2400/50. TEMP COVER Printful Couple's (style 1201, Sand, man and woman, print fully visible, hands off print). Audit PASS except draft state. REVIEW once sync 12/12.
+- 2026-10-17 05:17 UTC director: APPROVED, LIVE (ACTIVE + Online Store + Headless + Google, audit --handle PASS). Temp cover graded SWAP. Collection: new graphic-sweatshirts hub.

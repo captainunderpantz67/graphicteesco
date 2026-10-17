@@ -1,5 +1,5 @@
-status: REVIEW
-cover: temp
+status: LIVE
+cover: temp (swap)
 lane: B
 type: twin
 id: 320
@@ -21,3 +21,4 @@ kd: 44
 ## Log
 - 2026-10-17 02:28 UTC director: brief written, READY (low-KD sweep 2026-10-17; keyword measured this run).
 - 2026-10-17 04:58 UTC [B] (temp-cover mode, no fal): twin of #267 print (Printful file 1087902587, 3600x3114, FW 1650 TOP 0). Lettering check: Be Still brush script and PSALM 46:10 are hand-lettered, edges ragged, no ring/arch/panel; ok. Colors Sandstone + Grey Heather (navy ink reads on both; Storm Blue mid-grey skipped). Shopify DRAFT gid://shopify/Product/15363029106992 (IND4000 #1543, 12 variants, $49.99 no compare-at, tags per brief), sync 482392640 12/12, front mockups + back, variant images, keyword bible verse hoodie 1900/44 recorded. TEMP COVER Printful Women's Front (style 30243, Sandstone): print fully visible and hood visible, but the hood drawcords hang across the Be Still lettering (every Printful IND4000 lifestyle view does this; moving the print lower did not clear them) - director decides. Audit PASS except draft state.
+- 2026-10-17 05:17 UTC director: APPROVED, LIVE (ACTIVE + Online Store + Headless + Google, audit --handle PASS). Temp cover graded SWAP. Drawcords crossing the top of Be Still are how every IND4000 hangs; accepted.

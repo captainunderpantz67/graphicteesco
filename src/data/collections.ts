@@ -697,6 +697,27 @@ export const tees: Collection[] = [
     twin: 'heavyweight-hoodies',
   },
   {
+    // Hub (R2.2: KD > 50 = hub only). RankHero 2026-10-17: graphic sweatshirts 12,100 / KD 58. Shopify smart collection by tag "sweatshirt", so every crewneck lands here.
+    slug: 'graphic-sweatshirts', section: 'tees', name: 'Graphic Sweatshirts',
+    keyword: 'graphic sweatshirts', volume: 12100, kd: 58,
+    title: 'Graphic Sweatshirts — Original Art Crewnecks',
+    description: 'Graphic sweatshirts with original vintage-style art and a real joke, from Christmas and western to anime and retro. Soft fleece crewnecks, printed to order.',
+    h1: 'Graphic Sweatshirts',
+    intro: 'Graphic sweatshirts with original art on the front and, most of the time, a joke you get in two seconds: Christmas and Thanksgiving crewnecks, Christian verses, a napping cowboy, a sleeping kaiju and a roller-skating goose.',
+    sections: [
+      { h2: 'What is on these sweatshirts?', body: 'Every design is drawn for this shop in a vintage screen-print style: holiday scenes, Bible verses, western, anime-style and retro 70s art. Many of them match one of our tees or hoodies, so you can pick the weight that suits the weather.' },
+      { h2: 'Crewneck, hoodie or tee?', body: 'A crewneck is the in-between layer: warmer than a tee, lighter than a hoodie, and easy under a jacket. If you want a hood, most designs here also come as a hoodie in our hoodie collections.' },
+    ],
+    faqs: [
+      { q: 'What are graphic sweatshirts made of?', a: 'Most are Gildan 18000 crewnecks: 8 oz fleece, 50% cotton and 50% polyester, with ribbed cuffs and waistband. Heavyweight and oversized styles use thicker 10 oz fleece. The fabric and weight are listed on every product page.' },
+      { q: 'How do graphic sweatshirts fit?', a: 'They are a classic unisex cut, so they run a little roomy on women. Take your usual size for a relaxed fit, size up for an oversized look, or size down for a closer fit. If it is wrong, we print you a new size once for free within 30 days.' },
+      { q: 'How much are they?', a: 'Crewneck sweatshirts are $34.99 during the holiday sale through November 30, 2026, and US shipping is free on orders over $45. Heavyweight, oversized and embroidered styles cost a little more because the blank or the stitching does.' },
+      { q: 'Are these original designs?', a: 'Yes. Every design is original art made for this shop, with no brand logos, licensed characters or movie quotes.' },
+      { q: 'How long do graphic sweatshirts take to ship?', a: (f) => `Printing takes ${f.productionDays}, then your order ships. Delivery estimates are shown at checkout.`, needs: 'productionDays' },
+    ],
+    shopifyHandle: 'graphic-sweatshirts',
+  },
+  {
     // RankHero 2026-10-16: christian sweatshirt 6,600 / KD 52 (R9.11 depth target: 8+ designs before it is pushed). Voice 50/50 per R3.4.
     slug: 'christian-sweatshirts', section: 'tees', name: 'Christian Sweatshirts',
     keyword: 'christian sweatshirt', volume: 6600, kd: 52,
