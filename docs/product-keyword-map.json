@@ -4799,6 +4799,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-snow-problem-hoodie": {
+   "claimed": [
+    "snow hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "snow hoodie",
+     "volume": 1900,
+     "kd": 16
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
