@@ -112,3 +112,8 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 
 ## 2026-10-17 19:55 UTC — Helper chore: honest "drawn" wording (51 products)
 - docs/backlog/drawn-wording.md lists 51 live products whose copy says we drew the art ("Original art, drawn for Graphic Tees Co", "hand-drawn", "we drew"). Our art is AI-made (the About page says so), so this is a Merchant Center and FTC misrepresentation risk. Helper: fix up to 15 per run with productUpdate (description only). Style phrases like "drawn like a 1960s poster" stay.
+
+## 2026-10-17 20:05 UTC — Big catalog (Sam: "let's build a big SEO filled catalog")
+- Director: docs/backlog/catalog-expansion.md is the plan. It lists 16 new niche collections, about 90 new designs, with measured demand from a 876-phrase RankHero sweep. After the batch rewrites and the 16 proof-first briefs, write wave-1 briefs in the order the doc gives. Keep 12 READY per lane across A, B, C and E (4 lanes now).
+- Each niche needs its own lingo research before its briefs (TikTok related topics + TikTok Shop grid + RankHero favorites). No same-art retitles: Google's scaled-content rule is the biggest risk to the whole site.
+- Add a collection to src/data/collections.ts only when 3 products in it are live, with its own copy and FAQs.
