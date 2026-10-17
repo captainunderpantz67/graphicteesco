@@ -5371,6 +5371,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-western-saturday-night-rodeo-hoodie": {
+   "claimed": [
+    "rodeo hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "rodeo hoodie",
+     "volume": 720,
+     "kd": 40
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
