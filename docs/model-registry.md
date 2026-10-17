@@ -489,7 +489,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 596 | man AND woman together: Japanese-American man, mid 20s, shaggy black hair; white woman, mid 20s, dyed lavender bob | USED 2026-10-17 - #405 Snack Hoard dragon hoodie cover (pair with #596-597) |
 | 597 | Indian-American woman, about 20, long dark hair in a half-up claw clip, small gold nose stud | RESERVED — #406 Politely Hop Off Cropped Hoodie cover |
 | 598 | Native American (Diné) man, mid 30s, long black hair tied back, light stubble | RESERVED — #407 Camera Shy Heavyweight Hoodie cover |
-| 599 | man AND woman together: Samoan man, late 20s, broad build, short curly hair; white woman, late 20s, sun-bleached beach waves | RESERVED — #408 Friendly-ish Oversized Hoodie cover |
+| 599 | man AND woman together: Samoan man, late 20s, broad build, short curly hair; white woman, late 20s, sun-bleached beach waves | USED 2026-10-17 — #408 Friendly-ish shark oversized hoodie cover (with the partner row, seedream, 1 attempt)
 | 600 | Mexican-American man, early 50s, grey mustache, sun-lined face | USED 2026-10-16 — #409 Truck Stop Connoisseur heavyweight hoodie cover (seedream, 2 attempts) |
 | 601 | man AND woman together (with #602): Korean-American man, early 30s, short side-parted hair, round glasses | RESERVED — #410 Technically a Sweater Hoodie cover |
 | 602 | woman with #601: Black woman, early 30s, braids in a high bun, gold studs | RESERVED — #410 Technically a Sweater Hoodie cover |
