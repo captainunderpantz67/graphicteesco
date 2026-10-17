@@ -1,4 +1,5 @@
-status: BUILDING [B] 2026-10-17 10:27
+status: REVIEW
+cover: temp (swap)
 lane: B
 type: twin
 id: 413
@@ -21,3 +22,4 @@ kd: 28
 ---
 ## Log
 - 2026-10-17 10:21 UTC director: brief written, READY (keyword measured this run; fal-free twin).
+- 2026-10-17 11:35 UTC builder [B]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363619651888 (Gildan 18500 #146, Sand + Light Pink x S-3XL = 12, $39.99 no compare-at, category aa-1-13-13, tags christian-hoodies, graphic-hoodies-for-women, hoodie, ai-art, intake-done), sync product 482431676. Print: crewneck file 1087908638 re-hosted (docs/print-files/413-ewe-noverse.png) as Printful file 1088165519, 3600x4516, FW=1500 TOP=0 (print 1882 px tall; LOVED ends well above the pouch seam on the Sand and Pink mockups, no crop needed). R6.2 check: EWE ARE / LOVED is hand-drawn groovy bubble lettering with a brown outline and uneven chips; the typeset JOHN 10:11 line was ERASED (box x1380-2260, y4440+, canvas cut at row 4516; no letter touched) and the verse is named in the copy; no ring, panel or box; grass patch is ragged. White counters: none (cream letters and daisies are planned ink). Phone-size read (400 px): EWE ARE LOVED legible on Sand; on Light Pink the cream letters are softer but the brown outline holds them. Keywords lamb of god hoodie 590/KD28 (twice) and scripture hoodie 1,900/KD30 (once) in map. FAQ 5 x 44-52 words, order-by Dec 8. Fronts per color + back, variant images per color. Temp cover Printful Women's 4 style 1435 (not 1421, used 8 times), Sand, woman with hands in pockets, print fully visible, hood visible, white catalog backdrop: cover: temp (swap). Sheet docs/review/413.jpg. REVIEW.

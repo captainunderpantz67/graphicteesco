@@ -5884,6 +5884,25 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christian-ewe-are-loved-lamb-hoodie": {
+   "claimed": [
+    "lamb of god hoodie",
+    "scripture hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "lamb of god hoodie",
+     "volume": 590,
+     "kd": 28
+    },
+    {
+     "phrase": "scripture hoodie",
+     "volume": 1900,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
