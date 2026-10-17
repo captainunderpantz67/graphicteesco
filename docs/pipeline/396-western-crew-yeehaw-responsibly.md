@@ -1,24 +1,24 @@
-status: REDO
+status: ART-NEXT
 shopify: gid://shopify/Product/15363411345712
 lane: B
 type: new
 id: 396
-handle: womens-western-yeehaw-responsibly-crewneck-sweatshirt
+handle: womens-western-yeehaw-but-quietly-crewneck-sweatshirt
 kd: 55
 ---
 - **LINE REWRITE (director 2026-10-17 16:26 UTC, R3.1 cheeky-not-cheesy, Sam 2026-10-17):** the line on the shirt is now "Yeehaw, but Quietly". It replaces the old line everywhere in this brief: Text on shirt, the art prompt's quoted words, Hook, title and handle (keep the audience, niche and garment words; swap only the design name), and on the Shopify DRAFT: title, handle, SEO title/meta, copy line one and any FAQ that quotes the line. Keep the scene, keyword, blank, colors, cover and price unless the new line no longer fits the scene; then adjust the scene minimally and log it. Art still waits for fal and the design gate.
-## Women's Western – Yeehaw Responsibly Crewneck Sweatshirt
+## Women's Western – Yeehaw, but Quietly Crewneck Sweatshirt
 - **Blank:** Crewneck Gildan 18000 (Printful #145), 8 oz 50/50 fleece. Print FW 1650 (R5.3.8 twins: crewnecks go to FW 1650). Copy facts from the Printful spec only (R7.1).
-- **Text on shirt:** YEEHAW / RESPONSIBLY in hand-drawn 1970s western rope-style lettering (drawn, not a font). All lettering hand-drawn (R3.7.6), spelled exactly, no typeset sub-line or caption; read every word on the darkest mockup at about 400 px wide before REVIEW; knock out white counters (R5.3.8).
-- **Hook:** A dainty floral china teacup wearing a tiny cowgirl hat, a lasso looped neatly beside the saucer, under YEEHAW RESPONSIBLY: the polite cowgirl, women's sass.
-- **Why it's not taken:** Western sweatshirts on Etsy repeat 'howdy' and 'not my first rodeo'; YEEHAW RESPONSIBLY isn't listed (web search 2026-10-17 found none).
+- **Text on shirt:** YEEHAW, / BUT QUIETLY in hand-drawn 1970s western rope-style lettering (drawn, not a font). All lettering hand-drawn (R3.7.6), spelled exactly, no typeset sub-line or caption; read every word on the darkest mockup at about 400 px wide before REVIEW; knock out white counters (R5.3.8).
+- **Hook:** A dainty floral china teacup wearing a tiny cowgirl hat, a lasso looped neatly beside the saucer, under YEEHAW, BUT QUIETLY: the low-key cowgirl, women's sass.
+- **Why it's not taken:** Western sweatshirts on Etsy repeat 'howdy' and 'not my first rodeo'; YEEHAW, BUT QUIETLY isn't listed (web search 2026-10-17 found none).
 - **Style:** A, vintage western, worn edges (R4.2).
-- **Art prompt (Recraft v4, one image per call):** "Vintage 1970s western screen-print illustration: a dainty floral china teacup and saucer wearing a tiny tan cowgirl hat, a coiled rope lasso beside the saucer, a few desert wildflowers. Above, hand-drawn 1970s western rope-style letters reading exactly 'YEEHAW' and below reading exactly 'RESPONSIBLY'. Palette: dusty rose, rust, sage, cream, soft brown linework. Worn screen-print texture; the teacup is the shape, edges break up into worn texture. Isolated on plain background, no background shape, no frame, no circle, no border, no badge, no dark patch."
+- **Art prompt (Recraft v4, one image per call):** "Vintage 1970s western screen-print illustration: a dainty floral china teacup and saucer wearing a tiny tan cowgirl hat, a coiled rope lasso beside the saucer, a few desert wildflowers. Above, hand-drawn 1970s western rope-style letters reading exactly 'YEEHAW,' and below reading exactly 'BUT QUIETLY'. Palette: dusty rose, rust, sage, cream, soft brown linework. Worn screen-print texture; the teacup is the shape, edges break up into worn texture. Isolated on plain background, no background shape, no frame, no circle, no border, no badge, no dark patch."
 - **Colors:** Sand + Navy (R7.2); if the art sinks on one, the closest light + dark pair it reads on, and log why. Generate a Printful mockup for every color offered before REVIEW.
 - **Primary keyword:** western sweatshirt — 1,300 / KD 55 (RankHero 2026-10-17, director; US share 77%). KD 36+ over 1,000 (R2.5). cowgirl sweatshirt 480/55 may go in as a supporting phrase once. Unowned in docs/product-keyword-map.json; record it there. Supporting: none measured unclaimed. Use the primary where a person would say it: title-area copy, H1, the first sentence (with the joke and the occasion, R9.11) and once in the meta; no stuffing (R8.2–R8.3). Answer-first FAQs per R8.7: 4–6 questions, 40–60 words each (fit, care, sizing, warmth/weight, gift timing with an order-by date for holiday items).
 - **Popularity evidence (R5.2):** western sweatshirt 1,300; Howdy crewneck and western hoodies are LIVE sellers; coquette-western is an Etsy page-1 style for 2026.
 - **Cover:** registry #587, Mexican-American woman, late 20s, long dark waves, turquoise earrings, tan felt hat held at her side; scene: a ranch porch at golden hour with a split-rail fence behind her, alt starts 'Woman'. Real garment generated with the product's own Printful mockup in the cover color as `--design` (--n 1); hood visible on hoodies; hands empty or in pockets; nothing (hand, cup, hair, hood, drawcord, another person) over any part of the print; read every word before saving (R6.7–R6.9). No alcohol, tools or weapons (R6.5). TEMP-COVER MODE while fal is empty (twins only): best Printful lifestyle mockup matching the audience, a style ID not already on a live item (R6.6), `cover: temp`.
-- **Title / handle:** "Women's Western – Yeehaw Responsibly Crewneck Sweatshirt" / `womens-western-yeehaw-responsibly-crewneck-sweatshirt` (R7.4; the suffix sets the audit price, R12.1).
+- **Title / handle:** "Women's Western – Yeehaw, but Quietly Crewneck Sweatshirt" / `womens-western-yeehaw-but-quietly-crewneck-sweatshirt` (R7.4; the suffix sets the audit price, R12.1).
 - **Tags:** sweatshirt, ai-art, intake-done. No tee collection tags (R7.5).
 - **Price:** $34.99, no compare-at (R12.1).
 - **Pre-build while fal is empty:** make the full Shopify DRAFT now from this brief (status ART-NEXT); art + cover when fal returns, then re-check every sentence against the real art.
@@ -27,3 +27,4 @@ kd: 55
 - 2026-10-17 08:55 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
 - 2026-10-17 09:30 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363411345712 (Gildan 18000 #145, Sand + Navy x S-3XL = 12, $34.99 no compare-at, category crewnecks aa-1-13-14, tags sweatshirt). Keyword western sweatshirt in map. FAQs 5 x 43-53 words, SEO meta under 155. Copy written from the brief's art description: re-check every sentence against the real art when it exists. When art exists: FW 1650 (crewneck), read every word at 400 px on Navy. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 16:26 UTC director: REDO (copy only, no art). 1. R3.1 cheeky-not-cheesy: the old line is a sound-alike pun or greeting-card cute; new line "Yeehaw, but Quietly" (3 candidates weighed, cheekiest picked). 2. Update the brief and the DRAFT per the LINE REWRITE note, then set status back to ART-NEXT.
+- 2026-10-17 16:33 UTC builder [B]: line rewrite done (copy only): brief + Shopify DRAFT title/handle/SEO/copy now "Yeehaw, but Quietly" (womens-western-yeehaw-but-quietly-crewneck-sweatshirt). Status ART-NEXT.
