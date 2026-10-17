@@ -589,3 +589,5 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 805 | Colombian woman, late 30s, shoulder-length wavy chestnut hair, small pearl earrings | USED 2026-10-17 — #219 O Holy Night crewneck cover redo (seedream, 1 attempt) |
 | 806 | Nigerian-American woman, early 30s, braids in a high bun, small gold studs | USED 2026-10-17 — #221 Christmas Nurse crewneck cover redo (seedream, 1 attempt) |
 | 411 | (same person, reused for the redo as the brief specifies) | USED again 2026-10-17 — #237 Candy Cane Club crewneck cover redo (seedream, 1 attempt) |
+| 421 | (reused as the brief specifies; no necklace this time) | USED again 2026-10-17 — #244 Nana's Cookies crewneck cover redo (seedream, 1 attempt) |
+| 422 | (reused as the brief specifies) | USED again 2026-10-17 — #245 Nana's Cookies tee cover redo (seedream, 1 attempt) |
