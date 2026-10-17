@@ -1,3 +1,4 @@
+2026-10-17 21:47 UTC — [C] Run summary: to REVIEW (all DRAFT, synced, fal covers): #471 #323 #436 #457 #341 #415 #441 #334 #397 #405 #407 #394 #363 #450 #465 #442 #364 #371 #346 #281 #439 #402 #448 (unparked) + new full builds #495 #489 #487 #493; #415 and #450 redo covers redone. Cover caveats are in each item log (most: drawstring or hair touching the print: #334 #397 #465 #281 #487 #450-old). fal spend ~$14.5 of $16 today. Not started (READY): 357 368 398 468 496 501 502. Lock released.
 2026-10-17 21:47 UTC — [C] REVIEW #402 Professionally Chilling ice fishing hoodie (DRAFT, synced 14/14, fal cover).
 2026-10-17 21:47 UTC — [C] REVIEW #439 My Backhand Has Opinions tennis cropped hoodie (DRAFT, synced 10/10, fal cover).
 2026-10-17 21:46 UTC — [C] REVIEW #281 In It for the Doorbusters Black Friday tee (DRAFT, synced 36/36, fal cover).
@@ -47,7 +48,6 @@ RUNNING lane E since 2026-10-17 20:42 UTC
 2026-10-17 20:05 UTC — [C] REVIEW #471 Attending Under Protest crewneck (DRAFT gid 15364044521776, synced 12/12, fal cover 1 image).
 2026-10-17 19:57 UTC — [E] REVIEW #359 Alien Visiting Not Impressed oversized hoodie (DRAFT gid 15363169386800, synced 12/12, fal cover 2 images).
 2026-10-17 20:02 UTC — [A] REVIEW #239 Resting My Eyes tee (REDO: new cover, no box outline).
-RUNNING lane C since 2026-10-17 19:50 UTC
 2026-10-17 19:56 UTC — [A] REVIEW #217 Ho Ho Howdy hoodie (REDO fixed: frameless new art, cream fur ink, worn Rye lettering, new cover; cover note: braid just touches the first H, Santa's face soft).
 2026-10-17 19:52 UTC — [E] REVIEW #409 Truck Stop Connoisseur heavyweight hoodie (DRAFT gid 15363531964720, synced 12/12, fal cover 2 images).
 2026-10-17 19:42 UTC — [H] Helper run: Telegram inbox empty (getUpdates returned nothing, nothing to consume). Audit (347 products): 8 ERRORs, all price format (./. should be ./-), left for builders; 16 warnings left alone; no meta, SEO or collection errors to fix. Category check (one-time rule, still checking): 0 products without a category (positive control: unisex-halloween-midnight-feature-graphic-tee returns aa-1-13-8). Site freshness: mens-gym-sisyphus-had-bad-programming-graphic-tee, womens-football-mom-promised-to-behave-graphic-tee, womens-bookish-do-not-sell-my-books-crewneck-sweatshirt all 200. Stuck check: none (no BUILDING item older than 3h; all lane locks under 20 min old). Daily summary not due (sent 12:44 UTC). Lock released.
