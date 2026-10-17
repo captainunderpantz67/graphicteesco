@@ -1,5 +1,5 @@
 status: LIVE
-cover: temp
+cover: temp (swap)
 shopify: gid://shopify/Product/15363725001008
 lane: B
 type: twin
