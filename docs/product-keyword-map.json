@@ -5780,6 +5780,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-anime-snack-hoard-dragon-hoodie": {
+   "claimed": [
+    "dragon hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dragon hoodie",
+     "volume": 2900,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

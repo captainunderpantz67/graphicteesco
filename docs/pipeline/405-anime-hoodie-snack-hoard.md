@@ -1,7 +1,8 @@
-status: READY
+status: ART-NEXT
 lane: B
 type: new
 id: 405
+shopify: gid://shopify/Product/15363530326320
 handle: unisex-anime-snack-hoard-dragon-hoodie
 kd: 34
 ---
@@ -23,3 +24,4 @@ kd: 34
 ---
 ## Log
 - 2026-10-17 09:22 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
+- 2026-10-17 10:10 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363530326320 (Gildan 18500, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category hoodies, tags anime-hoodies + graphic-hoodies-for-men/-women + hoodie). Keyword dragon hoodie 2,900/KD34. SEO title 45, meta 158, FAQs 5 x 43-50 words (order-by Dec 8). Copy from the brief's art description (smug retro anime dragon, ramen, chips, dumplings, SNACK HOARD): re-check against the real art. No sync, images or cover.
