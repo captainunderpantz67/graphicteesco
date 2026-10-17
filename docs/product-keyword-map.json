@@ -6143,6 +6143,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-embroidered-whisk-taker-matcha-hoodie": {
+   "claimed": [
+    "matcha lover"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "matcha lover",
+     "volume": 18100,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

@@ -1,4 +1,5 @@
-status: BUILDING [B] 2026-10-17 13:30 UTC
+status: REVIEW
+cover: temp (swap)
 lane: B
 type: twin
 id: 430
@@ -21,3 +22,4 @@ kd: 32
 ---
 ## Log
 - 2026-10-17 12:50 UTC director: brief written, READY (keyword measured this run; source art checked against R4.1/R6.2 from its live mockup; fal-free twin).
+- 2026-10-17 13:03 UTC [B]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363664740656 (Gildan 18500 #146, Sand + Light Pink x S-3XL = 12, $44.99 = $39.99 + embroidered chest, no compare-at, category aa-1-13-13, tags embroidered-sweatshirts, graphic-hoodies-for-women, hoodie, ai-art, intake-done), sync product 482466924 synced 12/12: embroidery_chest_center flat stitch, one green thread #01784E, chest file 1087860049 reused (1200x846, about 4 in wide; embroidery sets its own width, the FW 1500 rule is for printed art) via pf-emb-sync.py, printed back-neck logo kept as on #196/#193. R6.2 check: bowl, whisk and the script 'whisk taker' are the hand-drawn, thickened thread art from #193; no ring, frame, box or typeset line; no white counters (transparent one-color file). Phone-size read: the stitched design is small by nature, the words read at mockup size on Sand and Light Pink (same size as the live #196/#193). FAQ 6 x 41-51 words, order-by Dec 8, copy says embroidered/stitched and never printed for the chest; 'matcha lover' x2, no matcha hoodie/sweatshirt wording. Keyword matcha lover 18100/KD32 in map. Mockups (v2 embroidery) Sand + Light Pink fronts + back with logo, variant images per color. Temp cover: Printful Women's Lifestyle Front style 1421 on Light Pink (smiling woman, hands in pockets, embroidery fully visible, studio wall; the same style is on two other items and 1429/1463 are taken too, 1654 has arms over the print) so cover: temp (swap). Registry #624 stays reserved. Audit-local PASS. Sheet docs/review/430.jpg.

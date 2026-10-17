@@ -1,3 +1,4 @@
+2026-10-17 14:30 UTC — [B] REVIEW #430 Women's Embroidered Whisk Taker Matcha hoodie (twin, Sand + Light Pink, embroidery chest, temp cover, synced 12/12).
 2026-10-17 14:10 UTC — [B] REVIEW #429 Women's Gym Lunges & Lattes cropped hoodie (twin, Storm + Black, FW 1500 reshaped, temp cover, synced 10/10).
 2026-10-17 13:50 UTC — [B] REVIEW #428 Women's Nurse Charting Is My Cardio hoodie (twin, Sand + Light Pink, FW 1500 trimmed, temp cover, synced 12/12).
 2026-10-17 13:25 UTC — [B] REVIEW #427 Women's Western Steer Skull & Wildflowers hoodie (twin, Sand + Light Pink, FW 1500, temp cover, synced 12/12).
