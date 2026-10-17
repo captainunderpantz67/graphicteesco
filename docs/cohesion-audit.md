@@ -1,13 +1,21 @@
-# Cohesion audit — 2026-10-17 19:44 UTC
+# Cohesion audit — 2026-10-17 21:18 UTC
 
-347 live products checked · **8 errors** · 16 warnings · 24 products with findings
+380 live products checked · **11 errors** · 23 warnings · 32 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
 - 8 × Price ./. — should be ./- on every variant.
+- 2 × Claims , already claimed by unisex-thanksgiving-totally-a-pilgrim-hood
+- 1 × Claims , already claimed by mens-christmas-light-show-manager-graphic-
 
 ## By product (errors first)
+### Men's Christmas – Resting My Eyes Tee `mens-christmas-resting-my-eyes-graphic-tee`
+- **ERROR** Claims "dad christmas shirt", already claimed by mens-christmas-light-show-manager-graphic-tee (two pages fighting for one keyword). → Give one of them a different measured phrase.
+
+### Men's Hunting – Long Beard Short Temper Camo Hoodie `mens-hunting-long-beard-short-temper-camo-hoodie`
+- **ERROR** Claims "turkey hoodie", already claimed by unisex-thanksgiving-totally-a-pilgrim-hoodie (two pages fighting for one keyword). → Give one of them a different measured phrase.
+
 ### Women's Hunting – Ducks in a Row Camo Hoodie `womens-hunting-ducks-in-a-row-camo-hoodie`
 - **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
 
@@ -31,6 +39,11 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Women's Hunting – Only Here for the Sunrise Camo Sweatshirt `womens-hunting-here-for-the-sunrise-camo-sweatshirt`
 - **ERROR** Price 56.99/61.99 (price/compare-at) — should be 56.99/- on every variant. → Set every variant to price 56.99, no compare-at.
+
+### Unisex Thanksgiving – Laying Low Till Friday Hoodie `unisex-thanksgiving-laying-low-till-friday-turkey-hoodie`
+- **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
+- **WARN** "turkey hoodie" appears 6× in the copy (keyword stuffing). → Use it once or twice, naturally.
+- **ERROR** Claims "turkey hoodie", already claimed by unisex-thanksgiving-totally-a-pilgrim-hoodie (two pages fighting for one keyword). → Give one of them a different measured phrase.
 
 ### Unisex Halloween – Midnight Feature Tee `unisex-halloween-midnight-feature-graphic-tee`
 - **WARN** No meta description. → Write one ≤ 155 chars.
@@ -56,11 +69,26 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Unisex Christmas – Mountain Christmas Bear Hoodie `unisex-christmas-mountain-christmas-bear-hoodie`
 - **WARN** No meta description. → Write one ≤ 155 chars.
 
+### Unisex Thanksgiving – Totally a Pilgrim Hoodie `unisex-thanksgiving-totally-a-pilgrim-hoodie`
+- **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
+
 ### Women's Thanksgiving – Friendsgiving Hoodie `womens-thanksgiving-friendsgiving-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
 
+### Women's Axolotl – Smiling Through It Oversized Hoodie `womens-axolotl-smiling-through-it-oversized-hoodie`
+- **WARN** "axolotl hoodie" appears 7× in the copy (keyword stuffing). → Use it once or twice, naturally.
+
 ### Women's Coffee – Espresso Yourself Hoodie `womens-coffee-espresso-yourself-hoodie`
 - **WARN** No meta description. → Write one ≤ 155 chars.
+
+### Unisex Outdoors – Went Outside It Was Fine Heavyweight Hoodie `unisex-outdoors-went-outside-it-was-fine-heavyweight-hoodie`
+- **WARN** "national park hoodie" appears 4× in the copy (keyword stuffing). → Use it once or twice, naturally.
+
+### Women's Volleyball – I Yell Free Ball at Everything Hoodie `womens-volleyball-i-only-dive-for-snacks-hoodie`
+- **WARN** "volleyball hoodie" appears 5× in the copy (keyword stuffing). → Use it once or twice, naturally.
+
+### Women's Thanksgiving – Pie Season Pumpkin Hoodie `womens-thanksgiving-pie-season-pumpkin-hoodie`
+- **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
 
 ### Women's Thanksgiving – Spill the Gravy Hoodie `womens-thanksgiving-spill-the-gravy-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.

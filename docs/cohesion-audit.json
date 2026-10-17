@@ -1,6 +1,6 @@
 {
- "at": "2026-10-17T19:44:13.701Z",
- "products": 347,
+ "at": "2026-10-17T21:18:11.375Z",
+ "products": 380,
  "findings": [
   {
    "level": "WARN",
@@ -57,6 +57,27 @@
    "title": "Unisex Christmas – Mountain Christmas Bear Hoodie",
    "msg": "No meta description.",
    "fix": "Write one ≤ 155 chars."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-christmas-resting-my-eyes-graphic-tee",
+   "title": "Men's Christmas – Resting My Eyes Tee",
+   "msg": "Claims \"dad christmas shirt\", already claimed by mens-christmas-light-show-manager-graphic-tee (two pages fighting for one keyword).",
+   "fix": "Give one of them a different measured phrase."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-thanksgiving-totally-a-pilgrim-hoodie",
+   "title": "Unisex Thanksgiving – Totally a Pilgrim Hoodie",
+   "msg": "thanksgiving design isn't in any thanksgiving collection.",
+   "fix": "Tag it so it appears in the thanksgiving shirts page."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-hunting-long-beard-short-temper-camo-hoodie",
+   "title": "Men's Hunting – Long Beard Short Temper Camo Hoodie",
+   "msg": "Claims \"turkey hoodie\", already claimed by unisex-thanksgiving-totally-a-pilgrim-hoodie (two pages fighting for one keyword).",
+   "fix": "Give one of them a different measured phrase."
   },
   {
    "level": "ERROR",
@@ -123,10 +144,59 @@
   },
   {
    "level": "WARN",
+   "handle": "unisex-thanksgiving-laying-low-till-friday-turkey-hoodie",
+   "title": "Unisex Thanksgiving – Laying Low Till Friday Hoodie",
+   "msg": "thanksgiving design isn't in any thanksgiving collection.",
+   "fix": "Tag it so it appears in the thanksgiving shirts page."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-thanksgiving-laying-low-till-friday-turkey-hoodie",
+   "title": "Unisex Thanksgiving – Laying Low Till Friday Hoodie",
+   "msg": "\"turkey hoodie\" appears 6× in the copy (keyword stuffing).",
+   "fix": "Use it once or twice, naturally."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-thanksgiving-laying-low-till-friday-turkey-hoodie",
+   "title": "Unisex Thanksgiving – Laying Low Till Friday Hoodie",
+   "msg": "Claims \"turkey hoodie\", already claimed by unisex-thanksgiving-totally-a-pilgrim-hoodie (two pages fighting for one keyword).",
+   "fix": "Give one of them a different measured phrase."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-axolotl-smiling-through-it-oversized-hoodie",
+   "title": "Women's Axolotl – Smiling Through It Oversized Hoodie",
+   "msg": "\"axolotl hoodie\" appears 7× in the copy (keyword stuffing).",
+   "fix": "Use it once or twice, naturally."
+  },
+  {
+   "level": "WARN",
    "handle": "womens-coffee-espresso-yourself-hoodie",
    "title": "Women's Coffee – Espresso Yourself Hoodie",
    "msg": "No meta description.",
    "fix": "Write one ≤ 155 chars."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-outdoors-went-outside-it-was-fine-heavyweight-hoodie",
+   "title": "Unisex Outdoors – Went Outside It Was Fine Heavyweight Hoodie",
+   "msg": "\"national park hoodie\" appears 4× in the copy (keyword stuffing).",
+   "fix": "Use it once or twice, naturally."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-volleyball-i-only-dive-for-snacks-hoodie",
+   "title": "Women's Volleyball – I Yell Free Ball at Everything Hoodie",
+   "msg": "\"volleyball hoodie\" appears 5× in the copy (keyword stuffing).",
+   "fix": "Use it once or twice, naturally."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-thanksgiving-pie-season-pumpkin-hoodie",
+   "title": "Women's Thanksgiving – Pie Season Pumpkin Hoodie",
+   "msg": "thanksgiving design isn't in any thanksgiving collection.",
+   "fix": "Tag it so it appears in the thanksgiving shirts page."
   },
   {
    "level": "WARN",
