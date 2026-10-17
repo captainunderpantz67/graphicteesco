@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: B
 type: new
 id: 437
 handle: womens-y2k-gold-star-for-leaving-the-house-hoodie
+shopify: gid://shopify/Product/15363698458928
 kd: 33
 ---
 ## Women's Y2K – Gold Star for Leaving the House Hoodie
@@ -23,3 +24,4 @@ kd: 33
 ---
 ## Log
 - 2026-10-17 13:24 UTC director: brief written, READY (keyword measured this run, low-KD sweep; new art, ART-NEXT draft while fal is empty).
+- 2026-10-17 13:38 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363698458928 (Sand + Navy x S-3XL, Gildan 18500, $39.99; keyword star hoodie 6,600/KD33; FAQs 5 x 40-60 words, order-by Dec 8). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.

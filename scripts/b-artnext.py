@@ -44,5 +44,8 @@ for i in items:
     v = subprocess.check_output(['python3', 'scripts/mkvars.py', p + '.spec.json'])
     d = json.loads(v); d['input']['category'] = 'gid://shopify/TaxonomyCategory/aa-1-13-13'
     for x in d['input']['variants']: x.pop('compareAtPrice', None)
+    if i['blank'] in ('pullover', 'zip'):  # the copy says S-3XL (Sand and Ash stop there); Navy would add 4XL/5XL
+        d['input']['variants'] = [x for x in d['input']['variants'] if x['optionValues'][1]['name'] not in ('4XL', '5XL')]
+        d['input']['productOptions'][1]['values'] = [x for x in d['input']['productOptions'][1]['values'] if x['name'] not in ('4XL', '5XL')]
     json.dump(d, open(p + '.vars.json', 'w'), separators=(',', ':'), ensure_ascii=False)
     print(i['id'], len(d['input']['variants']), 'variants', len(open(p + '.vars.json').read()), 'bytes')

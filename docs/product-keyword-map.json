@@ -6221,6 +6221,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-y2k-gold-star-for-leaving-the-house-hoodie": {
+   "claimed": [
+    "star hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "star hoodie",
+     "volume": 6600,
+     "kd": 33
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
