@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-17 10:15
+status: REVIEW
 lane: B
 type: new
 id: 299
@@ -22,3 +22,4 @@ handle: womens-hunting-ducks-in-a-row-camo-hoodie
 ---
 ## Log
 - 2026-10-17 director: brief written, READY (lane B camo push to 24, Sam 2026-10-17; keyword measured this run).
+- 2026-10-17 01:35 UTC [B]: built as DRAFT (product 15362778104112, 14 variants Duck Camo + Forest Camo XS-3XL, $49.99/$54.99, IND4000/#1543). New art: Recraft v4 try 1 (GOT MY DUCKS IN A ROW / (mostly) spelling checked; mama mallard, four ducklings in a line and a fifth chasing a butterfly), print-prep 3600 x 2832 + camo-halo.py cream underlay (close 100, halo 20), Printful file 1087954360, FW 1800 TOP 0 (12 in wide, FW 1600 left the ducklings too small). Duck and Forest camo both read (Sandstone not needed). Back logo, mockups, variant images, cover registry #480 (try 1, image 2 of 3), keyword duck hoodie 2400/32, audit-local PASS. Sync pid 482371546, 14/14. Sheet docs/review/299.jpg.
