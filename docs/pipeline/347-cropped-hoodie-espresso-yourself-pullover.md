@@ -1,8 +1,10 @@
-status: READY
+status: REVIEW
 lane: A
 type: twin
 id: 347
 handle: womens-coffee-espresso-yourself-hoodie
+shopify: gid://shopify/Product/15363125674288
+cover: temp
 kd: 50
 ---
 ## Women's Coffee – Espresso Yourself Hoodie
@@ -21,3 +23,4 @@ kd: 50
 ---
 ## Log
 - 2026-10-17 05:24 UTC director: brief written, READY (twin; keyword measured this run; KD ≤ 20 band exhausted for this garment/niche).
+- 2026-10-17 06:11 UTC builder [A]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363125674288 (Gildan 18500, Sand + Sport Grey x S-3XL = 12, $39.99 no compare-at, category aa-1-13-13), print file 1088067187 (tee file 1087506635, 3600x4755, FW=1200 TOP=0 so the 1600 px tall print clears the pouch seam), sync 482399899 12/12. R6.2 check: lettering is groovy hand-drawn bubble letters with worn edges, no typeset line, ring, panel or arch; no pure-white blobs. Colors: Navy sinks the brown YOURSELF, so Sand + Sport Grey; the cream E/Y letters are faint on Sand (art's planned cream), director look. Keyword coffee hoodie 880/KD50 in map. Fronts Sand + Sport Grey + back (cream neck logo on Sport Grey), variant images, audit PASS (except not active). Temp cover: Printful Women's Lifestyle style 1421, Sand, smiling woman, hood down, print fully visible. Self-grade keep. Sheet docs/review/347.jpg. REVIEW.

@@ -5241,6 +5241,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-coffee-espresso-yourself-hoodie": {
+   "claimed": [
+    "coffee hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "coffee hoodie",
+     "volume": 880,
+     "kd": 50
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
