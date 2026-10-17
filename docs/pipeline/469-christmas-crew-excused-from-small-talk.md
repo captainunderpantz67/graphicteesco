@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: A
 type: new
 id: 469
 handle: womens-christmas-embroidered-excused-from-small-talk-crewneck-sweatshirt
+shopify: gid://shopify/Product/15363886055728
 kd: 50
 ---
 ## Women's Christmas – Embroidered Excused From Small Talk Crewneck Sweatshirt
@@ -28,3 +29,4 @@ kd: 50
 ---
 ## Log
 - 2026-10-17 16:26 UTC director: brief written, READY (lane A; gate-format brief, keyword measured this run).
+- 2026-10-17 17:25 UTC builder [A]: ART-NEXT (fal empty, gate pending): full Shopify DRAFT gid://shopify/Product/15363886055728 (Gildan 18000 embroidered, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category aa-1-13-14, tags per brief, keyword bookish christmas sweatshirt 1900/KD50 in map, SEO within limits, FAQs 6 x 40-60 words incl. order-by Dec 8). Copy from the brief's art description: re-check against the real art. No Printful sync, no images, no cover. Never publish.
