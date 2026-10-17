@@ -6740,6 +6740,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-gym-sisyphus-had-bad-programming-graphic-tee": {
+   "claimed": [
+    "workout tee men"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "workout tee men",
+     "volume": 210,
+     "kd": 33
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
