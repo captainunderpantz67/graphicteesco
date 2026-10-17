@@ -398,3 +398,14 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 505 | Japanese-American man, early 20s, messy black hair, wire glasses, slim | RESERVED — #321 Kaiju Naps crewneck cover (with #506) |
 | 506 | Latina woman, early 20s, long dark hair with curtain bangs, small silver hoops | RESERVED — #321 Kaiju Naps crewneck cover (with #505) |
 | 507 | Irish-American woman, late 20s, short copper pixie cut, freckles, small gold studs | RESERVED — #322 Loose Goose crewneck cover |
+| 508 | Korean-American woman, late 20s, long wavy brown-black hair in a claw clip, small gold hoops | RESERVED — #323 Out of Office capybara hoodie cover |
+| 509 | White man, mid 20s, shaggy sandy-blond hair, light stubble, athletic | RESERVED — #324 Sending It snowboard hoodie cover (with #510) |
+| 510 | Filipina-American woman, mid 20s, long straight black hair with a knit headband | RESERVED — #324 Sending It snowboard hoodie cover (with #509) |
+| 511 | Mexican-American man, mid 40s, short black hair greying at the temples, trimmed moustache, broad build | RESERVED — #325 I Stack Dimes welder hoodie cover |
+| 512 | White woman, early 30s, honey-blonde braid over one shoulder, light freckles, small pearl studs | RESERVED — #326 Busy Bee hoodie cover |
+| 513 | Black man, early 30s, short twists, neat beard | RESERVED — #327 Short Legs dachshund hoodie cover (with #514) |
+| 514 | South Asian woman, early 30s, shoulder-length dark wavy hair, small nose stud | RESERVED — #327 Short Legs dachshund hoodie cover (with #513) |
+| 515 | Native American man, mid 30s, long black hair tied back, clean-shaven | RESERVED — #328 Lone Wolf hoodie cover |
+| 516 | Puerto Rican man, late 20s, short curly dark hair, light beard, round glasses | RESERVED — #329 Sleeves Optional dinosaur hoodie cover (with #517) |
+| 517 | White woman, late 20s, auburn shoulder-length hair with a center part, small silver studs | RESERVED — #329 Sleeves Optional dinosaur hoodie cover (with #516) |
+| 518 | Samoan-American man, early 30s, long dark hair in a low bun, broad shoulders, clean-shaven | RESERVED — #330 Surf's Down zip hoodie cover |

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 314
@@ -23,3 +23,4 @@ kd: 18
 ## Log
 - 2026-10-17 02:26 UTC director: brief written, READY (low-KD sweep 2026-10-17, card step 5; keyword measured this run).
 - 2026-10-17 03:18 UTC [B]: built as DRAFT: new art (Recraft, hand-drawn roller-disco bubble lettering), Bella+Canvas 4719 oversized Dust + Athletic Heather (swapped from Dust + Navy: dark brown outline would sink on Navy), FW 1500, Printful file 1087997807, registry #498, synced 12/12, audit PASS. R8.6: Printful #892 description says roomy / goes big on comfort, never boxy, so primary keyword is goose hoodie 880/32 and boxy is not used. b-media.py back-view fix for blanks that label the back view front:Back.
+- 2026-10-17 03:22 UTC director: approved from docs/review/314.jpg; ACTIVE + Online Store + Headless + Google; cohesion-audit --handle PASS (0 warn). LIVE.
