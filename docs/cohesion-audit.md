@@ -1,11 +1,11 @@
-# Cohesion audit — 2026-10-17 04:42 UTC
+# Cohesion audit — 2026-10-17 05:03 UTC
 
-283 live products checked · **162 errors** · 8 warnings · 168 products with findings
+283 live products checked · **120 errors** · 8 warnings · 127 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
-- 162 × Price ./. — should be ./- on every variant.
+- 120 × Price ./. — should be ./- on every variant.
 
 ## By product (errors first)
 ### Women's Thanksgiving – Gobble Gobble Turkey Tee `womens-thanksgiving-gobble-gobble-graphic-tee`
@@ -87,9 +87,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Women's Thanksgiving – Here for the Scraps Crewneck Sweatshirt `womens-thanksgiving-here-for-the-scraps-crewneck-sweatshirt`
 - **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
 
-### Women's Thanksgiving – Pie Oh My Tee `womens-thanksgiving-pie-oh-my-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
 ### Women's Thanksgiving – Pie Oh My Crewneck Sweatshirt `womens-thanksgiving-pie-oh-my-crewneck-sweatshirt`
 - **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
 
@@ -165,71 +162,17 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Men's Christmas – Define Naughty Tee `mens-christmas-define-naughty-graphic-tee`
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
 
-### Women's Christmas – Jolly-ish Tee `womens-christmas-jolly-ish-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Men's Hunting – Opening Day Zip Hoodie `mens-hunting-opening-day-zip-hoodie`
-- **ERROR** Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant. → Set every variant to price 44.99, no compare-at.
-
-### Unisex Christmas – Vintage Santa Hoodie `unisex-christmas-vintage-santa-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
-### Men's Hunting – Deer Diary Zip Hoodie `mens-hunting-deer-diary-zip-hoodie`
-- **ERROR** Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant. → Set every variant to price 44.99, no compare-at.
-
-### Women's Christmas – Highland Cow Christmas Hoodie `womens-christmas-highland-cow-christmas-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
-### Women's Christmas – Nutcracker Bow Hoodie `womens-christmas-nutcracker-bow-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
-### Unisex Anime – Destroyer of Cities, Lover of Naps Oversized Hoodie `unisex-anime-kaiju-naps-oversized-hoodie`
-- **ERROR** Price 54.99/59.99 (price/compare-at) — should be 54.99/- on every variant. → Set every variant to price 54.99, no compare-at.
-
 ### Unisex Christmas – Define Naughty Crewneck Sweatshirt `unisex-christmas-define-naughty-crewneck-sweatshirt`
 - **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Unisex Anime – Mecha Mondays Oversized Hoodie `unisex-anime-mecha-mondays-oversized-hoodie`
-- **ERROR** Price 54.99/59.99 (price/compare-at) — should be 54.99/- on every variant. → Set every variant to price 54.99, no compare-at.
-
-### Women's Cropped – Matcha Made in Heaven Cropped Hoodie `womens-cropped-matcha-made-in-heaven-cropped-hoodie`
-- **ERROR** Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant. → Set every variant to price 44.99, no compare-at.
-
-### Women's Cropped – Espresso Yourself Cropped Hoodie `womens-cropped-espresso-yourself-cropped-hoodie`
-- **ERROR** Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant. → Set every variant to price 44.99, no compare-at.
-
-### Men's Christmas – Light Show Manager Tee `mens-christmas-light-show-manager-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Unisex Christian – Amazing Grace Heavyweight Hoodie `unisex-christian-amazing-grace-heavyweight-hoodie`
-- **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
 
 ### Unisex Christmas – Light Show Manager Crewneck Sweatshirt `unisex-christmas-light-show-manager-crewneck-sweatshirt`
 - **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
 
-### Men's Gym – Clean Plate Club Heavyweight Hoodie `mens-gym-plate-club-heavyweight-hoodie`
-- **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
-
-### Men's Gym – Leg Day Survivor Hoodie `mens-gym-leg-day-survivor-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
-### Men's Christmas – Technically a Sweater Tee `mens-christmas-technically-a-sweater-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Unisex Anime – Slurp Responsibly Hoodie `unisex-anime-slurp-responsibly-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
 ### Women's Christmas – Jolly-ish Crewneck Sweatshirt `womens-christmas-jolly-ish-crewneck-sweatshirt`
 - **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
 
-### Women's Y2K – Low Battery High Standards Hoodie `womens-y2k-low-battery-high-standards-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
 ### Unisex Christmas – Technically a Sweater Crewneck Sweatshirt `unisex-christmas-technically-a-sweater-crewneck-sweatshirt`
 - **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Unisex Fishing – Lake Life Hoodie `unisex-fishing-lake-life-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
 
 ### Men's Christmas – Bah Humbug Tee `mens-christmas-bah-humbug-graphic-tee`
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
@@ -237,48 +180,14 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Unisex Christmas – Bah Humbug Crewneck Sweatshirt `unisex-christmas-bah-humbug-crewneck-sweatshirt`
 - **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
 
-### Women's Embroidered – Cherry Picked Crewneck Sweatshirt `womens-embroidered-cherry-picked-crewneck-sweatshirt`
-- **ERROR** Price 42.99/47.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Christian Embroidered – Rooted in Jesus Hoodie `womens-christian-embroidered-rooted-in-jesus-hoodie`
-- **ERROR** Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
 ### Women's Christmas – Sleighping In Tee `womens-christmas-sleighping-in-graphic-tee`
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
 
 ### Women's Christmas – Sleighping In Crewneck Sweatshirt `womens-christmas-sleighping-in-crewneck-sweatshirt`
 - **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
 
-### Women's Embroidered – Bow Before Me Cropped Hoodie `womens-embroidered-bow-before-me-cropped-hoodie`
-- **ERROR** Price 52.99/57.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 44.99, no compare-at.
-
-### Men's Embroidered – Out of Office Deer Hoodie `mens-embroidered-out-of-office-deer-hoodie`
-- **ERROR** Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
-### Women's Christmas – Winter Skate Club Penguins Hoodie `womens-christmas-winter-skate-club-penguins-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
 ### Women's Christmas – Embroidered Extra Marshmallows Crewneck Sweatshirt `womens-christmas-embroidered-extra-marshmallows-crewneck-sweatshirt`
 - **ERROR** Price 42.99/47.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Christmas – Polar Bear Cocoa Hoodie `womens-christmas-polar-bear-cocoa-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
-### Women's Christmas – Christmas Dogs Hoodie `womens-christmas-christmas-dogs-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
-### Women's Christmas – Christmas Golf Hoodie `womens-christmas-golf-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
-### Unisex Christmas – Mountain Christmas Bear Hoodie `unisex-christmas-mountain-christmas-bear-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-- **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
-
-### Men's Gym – Retired From Cardio Hoodie `mens-gym-retired-from-cardio-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
-### Men's Gym – Sore Since 1987 Hoodie `mens-gym-sore-since-1987-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
 
 ### Women's Christmas – Dough Ho Ho Tee `womens-christmas-dough-ho-ho-graphic-tee`
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
@@ -286,38 +195,11 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Women's Christmas – Dough Ho Ho Crewneck Sweatshirt `womens-christmas-dough-ho-ho-crewneck-sweatshirt`
 - **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
 
-### Women's Christmas – Dough Ho Ho Hoodie `womens-christmas-dough-ho-ho-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
-### Men's Hunting – Quack of Dawn Camo Hoodie `mens-hunting-quack-of-dawn-camo-hoodie`
-- **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
-
-### Men's Fishing – Casting Doubt Zip Hoodie `mens-fishing-casting-doubt-zip-hoodie`
-- **ERROR** Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant. → Set every variant to price 44.99, no compare-at.
-
-### Women's Western – Howdy Hoodie `womens-western-howdy-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
-### Unisex Horror – Midnight Showing Oversized Hoodie `unisex-horror-night-shift-oversized-hoodie`
-- **ERROR** Price 54.99/59.99 (price/compare-at) — should be 54.99/- on every variant. → Set every variant to price 54.99, no compare-at.
-
 ### Women's Christmas – Lit-Up Bow Crewneck Sweatshirt `womens-christmas-lit-up-bow-crewneck-sweatshirt`
 - **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
 
-### Women's Cropped – Ghost Club Cropped Hoodie `womens-cropped-ghost-club-cropped-hoodie`
-- **ERROR** Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant. → Set every variant to price 44.99, no compare-at.
-
 ### Women's Christmas – Merry Woofmas Crewneck Sweatshirt `womens-christmas-merry-woofmas-crewneck-sweatshirt`
 - **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
-
-### Women's Christmas – Oh Deer Hoodie `womens-christmas-oh-deer-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
-### Men's Gym – Beach Body Pending Hoodie `mens-gym-beach-body-pending-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
-### Women's Western – Kick Up Dust Camo Hoodie `womens-western-kick-up-dust-camo-hoodie`
-- **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
 
 ### Men's Christmas – Resting My Eyes Crewneck Sweatshirt `mens-christmas-resting-my-eyes-crewneck-sweatshirt`
 - **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
@@ -331,20 +213,11 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Men's Hunting – Professional Tree Sitter Camo Hoodie `mens-hunting-professional-tree-sitter-camo-hoodie`
 - **ERROR** Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant. → Set every variant to price 49.99, no compare-at.
 
-### Women's Christmas – Sleigh Queen Hoodie `womens-christmas-sleigh-queen-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
 ### Men's Gym – Study in Hypertrophy Oversized Hoodie `mens-gym-study-in-hypertrophy-oversized-hoodie`
 - **ERROR** Price 54.99/59.99 (price/compare-at) — should be 54.99/- on every variant. → Set every variant to price 54.99, no compare-at.
 
-### Unisex Christmas – Define Naughty Hoodie `unisex-christmas-define-naughty-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
-
 ### Men's Fishing – Reel Talk Half Zip `mens-fishing-reel-talk-half-zip`
 - **ERROR** Price 54.99/59.99 (price/compare-at) — should be 54.99/- on every variant. → Set every variant to price 54.99, no compare-at.
-
-### Men's Christmas – Light Show Manager Hoodie `mens-christmas-light-show-manager-hoodie`
-- **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 39.99, no compare-at.
 
 ### Women's Embroidered – Whisk Taker Matcha Crewneck Sweatshirt `womens-embroidered-whisk-taker-matcha-crewneck-sweatshirt`
 - **ERROR** Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant. → Set every variant to price 34.99, no compare-at.
@@ -513,3 +386,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Men's Gym – Iron Sharpens Iron Tee `mens-gym-iron-sharpens-iron-graphic-tee`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Christmas – Mountain Christmas Bear Hoodie `unisex-christmas-mountain-christmas-bear-hoodie`
+- **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
