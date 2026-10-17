@@ -1,0 +1,38 @@
+# Rebuild the site when a product goes LIVE.
+# Cloudflare Pages only builds pushes that change site files, and a product goes live with a docs-only commit
+# (docs/pipeline/<id>.md → status: LIVE), so new products 404'd until the next code push (2026-10-17: #452
+# missing for ~1 hour). This pings the deploy hook whenever a push adds "status: LIVE".
+# Debounced: each run waits 8 minutes and a newer push cancels the older wait, so a burst of reviews makes
+# one build, not ten (Cloudflare's free plan allows 500 builds a month).
+name: Rebuild on LIVE
+on:
+  push:
+    branches: [main]
+    paths: ['docs/pipeline/**']
+concurrency:
+  group: live-rebuild
+  cancel-in-progress: true
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    env:
+      CF_HOOK: ${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 300
+      - name: Did a product go LIVE?
+        id: live
+        run: |
+          # Look back 15 minutes, not just this push: a newer docs push cancels an older waiting run, so the
+          # newest run must still see a LIVE that an earlier push in the burst added.
+          base=$(git log -1 --before="15 minutes ago" --format=%H)
+          if git diff "${base:-${{ github.event.before }}}" "${{ github.sha }}" -- docs/pipeline | grep -q '^+status: LIVE'; then
+            echo "yes=1" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Wait for the burst to finish
+        if: steps.live.outputs.yes == '1'
+        run: sleep 480
+      - name: Cloudflare Pages
+        if: steps.live.outputs.yes == '1' && env.CF_HOOK != ''
+        run: curl -fsS -X POST "$CF_HOOK"
