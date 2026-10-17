@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 cover: fal
 lane: B
 type: twin
@@ -38,3 +38,4 @@ kd: 42
 - 2026-10-17 22:26 UTC director: REDO.
   1. R6.1 / R7.8: the print is on the back, but Carolina Blue has only a front photo in Shopify (3 images in total). Attach the Carolina Blue back mockup (it's on your review sheet) and point the Carolina Blue variants at the back view, as Ash does. Photos only, nothing else changes. Then REVIEW.
   2. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)
+- 2026-10-18 00:05 UTC builder [B]: REDO 1 done: Carolina Blue back mockup (designs/b/354-cb-back.jpg) uploaded as media 45759830032688 with R7.8 alt; the 6 Carolina Blue variants detached from the front photo and pointed at the back view (front photo stays in the gallery). Note: Ash variants point at the Ash front photo, not the back. Fal $0. Set REVIEW.
