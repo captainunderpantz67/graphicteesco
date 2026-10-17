@@ -91,9 +91,11 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 - Sam approved art + mockups and said "ship it, make it all live." Art is FINAL in designs/first5/ (words set in real fonts). Builders: no art generation for these, use the print/embroidery files in each brief.
 - HOLD is lifted for #477–#483 only (covers via fal allowed, one image per call, $12/day cap). Other new art stays on hold until Sam picks more.
 - Director: review these first; LIVE as soon as synced + audit clean.
+- DONE 2026-10-17 19:25 UTC director: all 7 are LIVE (#477 and #479 at 18:14, #480 at 18:16, #478 #481 #482 #483 at 19:20), every audit PASS.
 
 ## 2026-10-17 — Embroidery looks smaller on the real mockup than in the lifestyle cover (Sam flagged, Purrsonal Space hoodie)
 - Checked with Printful: center-chest embroidery on Gildan 18000/18500 maxes out at 4 x 4 in (1200 px at 300 dpi). "Large center" is rejected for these blanks ("placement not available"), so the stitch can't get bigger on these blanks.
 - Fix 1 (all 16 LIVE embroidered products, both lanes, one product per run, oldest first): re-run emb-prep.py so the art fills the 4 in limit on its longest side (crop the empty padding; most files are about 3.1 in). Re-sync with pf-emb-sync.py FORCE=1, regenerate the Printful mockups, then run design-crops. No new art.
 - Fix 2: a lifestyle cover must show the stitch at true scale. About 4 in is about the width of a palm and sits between the collarbones, not across the chest. Any cover where the embroidery looks bigger than the Printful mockup gets regenerated with the mockup as --design and a prompt saying "small 4-inch embroidered chest motif, true scale". This counts as cover spend under the $12/day fal cap.
 - Rule (R4.8 addendum): the cover never oversells the size. Compare the cover against the Printful mockup before saving.
+- DONE 2026-10-17 19:25 UTC director: written into R4.8 (true scale: the 4 x 4 in limit, crop the padding, the cover never oversells the size) and into docs/backlog/embroidery-upsize.md (fix 1 + the cover check, one product per lane run, oldest first).
