@@ -1,5 +1,5 @@
 status: READY
-lane: D
+lane: E
 type: new
 id: 366
 handle: womens-beach-low-tide-low-effort-oversized-hoodie
@@ -25,4 +25,4 @@ kd: 39
 ## Log
 - 2026-10-17 06:19 UTC director: brief written, READY (2026-10-17 morning sweep: no unclaimed KD ≤ 20 hoodie/sweatshirt phrase with volume left in RankHero; this is the KD 21–40 band, highest volume first; keyword measured this run).
 - 2026-10-17 06:45 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363170926896 (launch colors per brief, S-3XL, price per brief with no compare-at, category, tags per brief incl. hub tags, SEO, FAQs; keyword beach hoodie /3600 /39). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
-- 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane D.
+- 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane E.

@@ -1,6 +1,6 @@
 status: READY
 shopify: gid://shopify/Product/15363410854192
-lane: D
+lane: E
 type: new
 id: 395
 handle: womens-teacher-indoor-recess-survivor-crewneck-sweatshirt
@@ -25,4 +25,4 @@ kd: 61
 ## Log
 - 2026-10-17 08:55 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
 - 2026-10-17 09:30 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363410854192 (Gildan 18000 #145, Sand + Navy x S-3XL = 12, $34.99 no compare-at, category crewnecks aa-1-13-14, tags sweatshirt). Keyword teacher sweatshirt in map. FAQs 5 x 43-53 words, SEO meta under 155. Copy written from the brief's art description: re-check every sentence against the real art when it exists. When art exists: FW 1650 (crewneck), read every word at 400 px on Navy. No Printful sync, no images, no cover. Never publish until art + cover exist.
-- 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane D.
+- 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane E.

@@ -1,5 +1,5 @@
 status: READY
-lane: D
+lane: E
 type: new
 id: 409
 shopify: gid://shopify/Product/15363531964720
@@ -25,4 +25,4 @@ kd: 32
 ## Log
 - 2026-10-17 09:22 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
 - 2026-10-17 10:30 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363531964720 (Independent Trading IND4000 #1543, Sandstone + Storm Blue x S-3XL = 12, $49.99 no compare-at, category hoodies, tags heavyweight-hoodies + graphic-hoodies-for-men + hoodie). Keyword trucker hoodie 320/KD32 in map. FAQs 5 x 43-54 words (order-by Dec 8), facts from Printful spec (10 oz, Pakistan). Copy from the brief's art description (Truck Stop Connoisseur semi, diner sign, pie): re-check against the real art. No sync, images or cover.
-- 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane D.
+- 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane E.
