@@ -5968,6 +5968,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-y2k-still-loading-zip-hoodie": {
+   "claimed": [
+    "nerd hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "nerd hoodie",
+     "volume": 880,
+     "kd": 26
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

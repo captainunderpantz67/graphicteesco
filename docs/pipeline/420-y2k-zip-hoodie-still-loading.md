@@ -1,4 +1,6 @@
-status: READY
+status: REVIEW
+cover: temp (swap)
+shopify: gid://shopify/Product/15363651338544
 lane: B
 type: twin
 id: 420
@@ -21,3 +23,4 @@ kd: 26
 ---
 ## Log
 - 2026-10-17 11:23 UTC director: brief written, READY (keyword measured this run; source art checked against R4.1/R6.2 from its live mockup; fal-free twin).
+- 2026-10-17 12:05 UTC builder [B]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363651338544 (Gildan 18600 zip #692, Ash S-3XL + Navy S-5XL = 14, $44.99 no compare-at, category aa-1-13-13, tags zip-up-hoodies, zip-up-hoodies-for-women, hoodie, ai-art, intake-done; not y2k/graphic-hoodies-for-women per brief), Printful sync 482444793 synced 14/14. Print: tee's file 1087368544 reused as is (3600x3446, docs/print-files/420-still-loading.png), back FW 1650 TOP 225 + left-chest 525 px (scripts/pf-zip.py), no neck logo. R6.2 check: STILL LOADING / SINCE 1999 is hand-drawn bubble lettering, no typeset line, ring, panel or box; screen is part of the monitor drawing. White counters: only 6 tiny specks inside the monitor screen glare (planned), nothing knocked out. Phone-size read: both lines read on Ash (dark outline) and Navy. FAQ 6 x 47-51 words, order-by Dec 8. Keyword nerd hoodie 880/KD26 in map. Mockups: Ash front+back, Navy front+back, variant images per color. Temp cover: Printful Women's Front style 8535 (Navy, smiling woman, hand at hair and hip, chest print and hood fully visible, white catalog backdrop; back-view style hid the lettering under the hood): cover: temp (swap); registry #613 stays reserved for the fal cover (back print). Audit-local PASS. Sheet docs/review/420.jpg. REVIEW.
