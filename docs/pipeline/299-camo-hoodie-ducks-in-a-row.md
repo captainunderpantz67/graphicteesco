@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-17 22:00
+status: REVIEW
 lane: B
 type: new
 id: 299
@@ -27,3 +27,4 @@ handle: womens-hunting-ducks-in-a-row-camo-hoodie
   1. R5.3.5 / R3.7.6: GOT MY DUCKS IN A ROW is a thin arched cream line around the art; at phone size on both mockups and the cover it can't be read, so the joke is lost. Enlarge it (chunky hand-drawn capitals, about 2x stroke, chocolate brown on the cream halo like #300), and put (mostly) at least 40% of the art width.
   2. R5.3.4: the tan feather spray behind the mother duck reads as a stray shape; erase it in print-prep. Keep the line of ducklings and the one chasing the butterfly (that's the twist, make sure the butterfly is big enough to read).
   3. New file at FW 1800, re-link both colors, new mockups and cover (keep registry #480 and the pond), then REVIEW.
+- 2026-10-17 02:34 UTC [B]: REDO fix (round 1): lettering re-done by hand with one lettering-only Recraft v4 generation (GOT MY DUCKS / IN A ROW in chunky chocolate-brown capitals at 3100 px = 86% of the art width, (mostly) in bold retro script at 1900 px = 53%, spelling checked), composed in print-prep around the ducks (the old thin arched line removed). The tan feather spray behind the mother duck is erased (the wing top is cleaned), the butterfly is enlarged 1.8x and lifted above the wandering duckling so the twist reads. New print 3600 x 3532 on a cream halo (FILL=0), Printful file 1087981425 at FW 1800 TOP 0, both colors re-linked 14/14, mockups replaced in place, cover regenerated from the new Duck Camo mockup (registry #480, pond, jeans, image 2 of 3). Set REVIEW. Sheet docs/review/299.jpg.

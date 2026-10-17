@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-17 22:00
+status: REVIEW
 lane: B
 type: new
 id: 302
@@ -27,3 +27,4 @@ handle: mens-hunting-antler-envy-buck-camo-hoodie
   1. R13.3 / R5.3.4: the orange patches on the buck's neck, chest and back read as wounds on a hunting shirt. Recolor them in print-prep to warm tan/brown (no new generation: this was try 2 of 2, R5.4).
   2. R5.3.5: at FW 1300 ANTLER ENVY is small, and on Deadwood the pale antler silhouette and the letters blur into the camo. Re-link at about FW 1600, give the lettering the chocolate-brown-on-cream-halo treatment (#300/#301), and check every word on the Deadwood mockup at phone size; if Deadwood still mushes, swap it for Forest Camo.
   3. New file, mockups, cover from the new mockup (keep registry #483 and the truck), then REVIEW.
+- 2026-10-17 02:39 UTC [B]: REDO fix (round 1): the orange patches on the buck are recolored to warm tan and brown in print-prep (141,554 px, hue-selected, no new generation); ANTLER ENVY re-lettered by hand with one lettering-only Recraft v4 generation (chunky chocolate-brown capitals, 3300 px = 92% of the art width, spelling checked) on the cream halo (FILL=0); new print 3600 x 4622, Printful file 1087983441, FW 1600 TOP 0. Deadwood Tree Camo still blurred into the pale antler silhouette at phone size (light grey pattern), so it was swapped for Forest Camo: Shopify variants replaced (Darkwood + Forest, new SKUs antlerenvy-camo-hoodie-48750..48828), the old Deadwood variants are gone, both colors re-linked, mockups replaced in place, Forest variants linked to the Forest image, copy and FAQ updated. Cover regenerated from the new Darkwood mockup (registry #483, truck, image 1 of 3). Set REVIEW. Sheet docs/review/302.jpg.

@@ -367,13 +367,13 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 477 | White man, late 50s, white mustache, weathered face, flannel cap, heavyset | USED 2026-10-17 — #296 Deer Camp No Signal camo sweatshirt cover (redo: hand-lettered NO SIGNAL. NO PROBLEM., new cover from the new mockup, image 3 of 3) |
 | 478 | Black woman, mid 20s, long box braids, gold jewelry, slim build | USED 2026-10-17 — #297 Blending In Is Overrated camo sweatshirt cover (try 1, image 3 of 3) |
 | 479 | Filipino-American man, early 40s, short black hair, trimmed goatee, average build | USED 2026-10-17 — #298 Up Before the Ducks camo sweatshirt cover (try 1, image 3 of 3) |
-| 480 | White woman, late 30s, shoulder-length blonde hair in a messy bun, light freckles | USED 2026-10-17 — #299 Ducks in a Row camo hoodie cover (try 1, image 2 of 3) |
+| 480 | White woman, late 30s, shoulder-length blonde hair in a messy bun, light freckles | USED 2026-10-17 — #299 Ducks in a Row camo hoodie cover (redo: new lettering, new mockup, image 2 of 3) |
 | 478 | Black woman, mid 20s, long box braids, gold jewelry, slim build | RESERVED — #297 Blending In Is Overrated cover |
 | 479 | Filipino-American man, early 40s, short black hair, trimmed goatee, average build | RESERVED — #298 Up Before the Ducks cover |
-| 480 | White woman, late 30s, shoulder-length blonde hair in a messy bun, light freckles | RESERVED — #299 Ducks in a Row cover |
+| 480 | White woman, late 30s, shoulder-length blonde hair in a messy bun, light freckles | USED 2026-10-16 — redo try 1 |
 | 481 | Korean-American woman, early 30s, long straight dark hair with curtain bangs, small gold studs | USED 2026-10-17 — #300 Doe Not Disturb camo hoodie cover (try 1, image 1 of 3) |
 | 482 | White man, mid 30s, red-brown full beard, blaze orange knit beanie, lean build | USED 2026-10-17 — #301 I Saw You Move camo hoodie cover (try 1, image 1 of 3) |
-| 483 | Native American man, late 40s, long black hair tied back, weathered face, medium build | USED 2026-10-17 — #302 Antler Envy camo hoodie cover (try 1, image 3 of 3) |
+| 483 | Native American man, late 40s, long black hair tied back, weathered face, medium build | USED 2026-10-17 — #302 Antler Envy camo hoodie cover (redo: recolored buck, new lettering, FW 1600 mockup, image 1 of 3) |
 | 484 | Puerto Rican man, early 30s, short curly black hair, clean-shaven, athletic | USED 2026-10-17 — #303 Camp Security camo hoodie cover, with #488 (try 1, image 2 of 3) |
 | 485 | Vietnamese-American woman, mid 20s, chin-length black bob, round glasses | USED 2026-10-17 — #304 Playing Dead Till Friday camo hoodie cover, with #489 (try 1, image 1 of 3) |
 | 486 | White man, early 60s, bald with a grey horseshoe fringe, grey goatee, broad build | USED 2026-10-17 — #305 Call Me After Duck Season camo sweatshirt cover (try 1, image 2 of 3) |
