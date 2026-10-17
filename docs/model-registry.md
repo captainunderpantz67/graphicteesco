@@ -575,4 +575,6 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 682 | Black woman, late 20s, shoulder-length box braids, small gold studs | RESERVED — #476 Horse Girl, Broke on Purpose Hoodie cover |
 | 683 | Black woman, early 40s, short natural curls, small gold hoops, warm brown skin | USED 2026-10-17 — #477 Clocked It embroidered crewneck cover (try 1, image 1 of 1) |
 | 690 | Native American man, late 40s, long black hair tucked under a blaze-orange cap, short salt-and-pepper stubble, sturdy build | USED 2026-10-16 — #479 Tag Soup Hoodie cover (seedream, 1 attempt) |
+| 684 | Latina woman, early 30s, long wavy dark-brown hair with a side part, small silver studs, dark red lipstick | USED 2026-10-17 — #478 Clocked It tee cover (try 1, image 1 of 1) |
+| 685 | East Asian woman, late 20s, shoulder-length black hair with wispy bangs, round wire-rim glasses, small pearl studs | USED 2026-10-17 — #481 Do Not Sell My Books crewneck cover (try 1, image 1 of 1) |
 | 691 | Hmong-American man, early 30s, short black hair, light stubble, lean build | USED 2026-10-16 — #480 Tag Soup Tee cover (seedream, 1 attempt) |

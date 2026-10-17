@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [A] 2026-10-17 18:11
 lane: A
 type: new
 id: 481
@@ -21,3 +21,4 @@ kd: 20
 ---
 ## Log
 - 2026-10-17 Claude: brief + final art + approved mockups (designs/first5/); READY, top priority (Sam: ship it).
+- 2026-10-17 18:12 UTC builder [A]: Shopify DRAFT gid://shopify/Product/15363978068272 created (24 variants, $34.99 no compare-at, Sand/Sport Grey/White/Ash S-3XL, aa-1-13-14). Keyword: every bookish term measured is KD>=54 (bookish sweatshirt 1600/54 owned; reading sweatshirt 390/66; book lover sweatshirt 320/68; bookworm sweatshirt 170/63); claimed 'bookworm sweatshirt' 170/63, lowest unowned.
