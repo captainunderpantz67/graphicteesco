@@ -5611,6 +5611,19 @@
     }
    ],
    "measured": "2026-10-17"
+  },
+  "unisex-thanksgiving-mash-hour-hoodie": {
+   "claimed": [
+    "foodie hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "foodie hoodie",
+     "volume": 480,
+     "kd": 44
+    }
+   ],
+   "measured": "2026-10-17"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

@@ -1,4 +1,6 @@
-status: BUILDING [A] 2026-10-17T08:15Z
+status: REVIEW
+shopify: gid://shopify/Product/15363389915440
+cover: temp
 lane: A
 type: twin
 id: 376
@@ -21,3 +23,4 @@ kd: 44
 ---
 ## Log
 - 2026-10-17 07:20 UTC director: brief written, READY (twin, buildable without fal; keyword measured this run).
+- 2026-10-17 08:19 UTC builder [A]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363389915440 (Gildan 18500, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category aa-1-13-13, tags graphic-hoodies-for-men, graphic-hoodies-for-women, hoodie, thanksgiving, ai-art, intake-done). Twin of the Mash Hour tee file 1087056685, re-hosted (branch lane-a-files f/376.png) as Printful file 1088111903, 3600x3564, FW=1650 TOP=0 (print 1633 px tall, clear of the pouch seam), sync 482414389 12/12. R6.2 check: MASH HOUR is distressed hand-printed-looking block caps (uneven wear, not clean), reads like the live tee/crewneck art; if the director judges it a typeset condensed font it needs a fal re-letter. The three white letter counters (A, O, R) knocked out; the butter and gravy highlights are planned ink and kept. Keyword foodie hoodie 480/KD44 in map. Fronts + back, variant images per color, audit PASS (warn only: thanksgiving tag feeds no collection, as the brief specifies). TEMP COVER Printful Couple's (style 1427, Sand, man AND woman, print fully visible, drawcords touch the bowl edge only); the only couple style for 18500 and on 2 other items, cover: temp (swap). Registry #567 left RESERVED. Sheet docs/review/376.jpg. REVIEW.
