@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-17 21:25 UTC
+status: REVIEW
 lane: C
 type: new
 id: 487
@@ -29,3 +29,4 @@ kd: 46
 ## Log
 - 2026-10-17 20:27 UTC director: brief written, READY (Sam's 16 proof-first concepts, inbox 2026-10-17 19:30).
 - 2026-10-17 21:29 UTC builder [C]: full build (no draft existed): art 1 Recraft call (armchair, no lettering); cream keyline halo added so the navy ink reads on Navy; UNIVERSITY OF / STAYING IN / EST. WHENEVER set in Graduate via compose-print.py (straight lines, NOT a collegiate arch: arches are banned by R4.1/R6.2); Shopify DRAFT gid://shopify/Product/15364168286512 via b-artnext.py (12 variants $34.99, sweatshirts category, keyword homebody sweatshirt 590/KD46 in the map, FAQ 5 x 40-60 words incl. Dec 8); FW 1650 TOP 75; Printful file 1088504821, sync 482607787 running; mockups Sand+Navy attached; fal cover 1 image (registry #810/#811): both in navy crewnecks, but the woman's hair touches the U of UNIVERSITY and her shoulder cuts the last R of the man's WHENEVER: director decides. fal $0.10.
+- 2026-10-17 21:41 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/487.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. Cover: hair touches the U and her shoulder cuts the last letter of the man's WHENEVER.
