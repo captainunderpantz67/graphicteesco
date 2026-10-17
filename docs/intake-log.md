@@ -1,4 +1,4 @@
-RUNNING lane A since 2026-10-17 23:00 UTC
+2026-10-17 23:30 UTC — [A] Run summary: to REVIEW (both REDOs, no cover generation, composites per R6.9): #474 Feed Store Fashion Week hoodie (illustration to 72% of print width at FW 1500, new mockups, braid clear of the F), #327 Dachshund Short Legs Long Opinions hoodie (stubby-legged art try 2, new copy to match, couple cover composited). Audit: 0 price errors, 1 keyword collision not mine. fal $15.86 of $16: the remaining lane A READY items (273-284, 319, 332/333, 361, 387-391, 454-470, 491, 497, 500) need new fal art, so none started. Lock released.
 2026-10-17 23:08 UTC — [B] Run summary: to REVIEW #461 Expert in Après crewneck (DRAFT, synced 12/12, composite cover for hair over the E). Audit: 0 price ERRORs in lane B. Stopped: fal $15.82 of $16 today, every other lane B READY item needs 1-2 fal cover calls or new art; resume after 00:00 UTC. Lock released.
 2026-10-17 23:01 UTC — [C] REVIEW #415 (REDO: composite cover, meta fixed).
 2026-10-17 23:07 UTC — [B] REVIEW #461 Women's Après Ski – Expert in Après crewneck (DRAFT, synced 12/12, fal cover composite; fal ~$0.06).
