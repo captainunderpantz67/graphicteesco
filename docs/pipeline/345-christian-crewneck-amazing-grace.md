@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: A
 type: twin
 id: 345
@@ -27,3 +27,4 @@ kd: 49
 - 2026-10-17 06:13 UTC director: REDO (stays DRAFT, no fal needed).
   1. R5.3.2: the print sits at about a third of the crewneck's width and the "Amazing Grace" script needs a squint on the Navy mockup at phone size. Re-link at FW 1800 (no pouch on a crewneck); if the script still reads thin, scale the script line up about 1.4x in print-prep (it is the hymn line, it must read from across the room) and keep the cross art as is.
   2. Navy + Maroon is the right call (cream vanishes on Sand); keep it. New mockups, variant images and temp cover from the new file, then REVIEW.
+- 2026-10-17 07:02 UTC [A]: REDO fixed (no fal). Print file rebuilt in print-prep: hymn script line scaled 1.4x and thickened, cross art unchanged; 3600x4522, Printful file 1088083578 (hosted lane-a-files f/345b.png), linked at FW=1800 TOP=0, sync 11/11. New Navy + Maroon mockups and back replaced on the DRAFT, variant images re-attached, temp cover re-made from the new file (Printful Women's Lifestyle 1186, Navy). Phone-size read: script legible. Sheet docs/review/345.jpg. REVIEW.
