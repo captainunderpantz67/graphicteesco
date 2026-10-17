@@ -5754,6 +5754,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-thanksgiving-turkey-trot-hoodie": {
+   "claimed": [
+    "turkey trot"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "turkey trot",
+     "volume": 60500,
+     "kd": 14
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

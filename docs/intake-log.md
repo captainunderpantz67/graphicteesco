@@ -1,5 +1,5 @@
-RUNNING lane A since 2026-10-17 08:57 UTC
 2026-10-17 08:43 UTC — [H] Helper run: Telegram inbox empty (getUpdates returned nothing, nothing to consume). Audit (312 live products): 66 errors, all price format (./- should be ./.), left for builders; 13 warnings left alone; no meta, SEO or collection errors to fix. Category check (one-time rule, still checking): 0 products without a category (positive control: a known product returns aa-1-13-8). Site freshness: unisex-thanksgiving-mash-hour-hoodie, womens-thanksgiving-cute-but-corny-hoodie, womens-thanksgiving-spill-the-gravy-hoodie all 200. Stuck check: none (lane A last commit 08:31 UTC, lane B 08:35 UTC; no lane lock older than 2 hours). Daily summary not due (next after 12:00 UTC). Lock released.
+2026-10-17 09:02 UTC — [A] REVIEW #399 Unisex Turkey Trot hoodie (twin, Sand + Navy, FW 1650, typeset 5K line erased, temp cover swap)
 2026-10-17 09:31 UTC — [B] ART-NEXT #394 cat, #395 teacher, #396 western crewneck DRAFTs built (no art/sync). Lane B READY left: none buildable without fal (378-382/385 need hand re-letter, 354 needs fal cover, 393 in REVIEW).
 2026-10-17 09:16 UTC — [B] ART-NEXT #398 Unisex Raccoon Fine Dumpster Dining hoodie (DRAFT built, no art/sync).
 2026-10-17 09:06 UTC — [B] ART-NEXT #397 Unisex Otter Currently Drifting hoodie (DRAFT built, no art/sync).

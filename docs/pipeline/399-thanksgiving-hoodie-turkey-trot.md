@@ -1,10 +1,11 @@
-status: BUILDING [A] 2026-10-17T08:57Z
+status: REVIEW
 lane: A
 type: twin
 id: 399
 handle: unisex-thanksgiving-turkey-trot-hoodie
 shopify: gid://shopify/Product/15363450667312
 kd: 14
+cover: temp (swap)
 ---
 ## Unisex Thanksgiving – Turkey Trot Hoodie
 - **Twin of:** unisex-thanksgiving-turkey-trot-graphic-tee (+ crewneck): reuse the final approved print file, no new art (R6.2, R11.5). Director looked at the crewneck mockup 2026-10-17: TURKEY TROT is hand-drawn arched lettering over a running turkey in sneakers with a 5K bib, but the small THANKSGIVING MORNING 5K sub-line under it is typeset (even condensed sans): erase it in print-prep (the art reads without it, R6.2) before upload. Read every other line; knock out white counters (R5.3.8). FW 1500+, every word and the sneakers clear of the pouch seam (R5.3.2).
@@ -22,3 +23,4 @@ kd: 14
 ---
 ## Log
 - 2026-10-17 09:20 UTC director: brief written, READY (twin, buildable without fal; keyword measured this run).
+- 2026-10-17 09:30 UTC builder [A]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363450667312 (Gildan 18500, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category aa-1-13-13, tags graphic-hoodies-for-men, graphic-hoodies-for-women, hoodie, thanksgiving, ai-art, intake-done). Twin of the Turkey Trot crewneck file 1083451621, re-hosted (branch lane-a-files f/399.png) as Printful file 1088129499, 3600x3190, FW=1650 TOP=75 (print 1462 px tall, clear of the pouch seam), sync 482417399. R6.2 check: TURKEY TROT is hand-drawn arched block lettering (kept); the typeset THANKSGIVING MORNING 5K sub-line was ERASED (canvas cropped at row 3190, art reads without it); the white dot in the 5K bib knocked out (no other white counters). Keyword turkey trot 60,500/KD14 in map (used twice in copy; audit stuffing warn fixed). FAQ: 5 questions, 47-51 words each, order-by Nov 12. Fronts per color + back, variant images per color, audit PASS (warn only: thanksgiving tag feeds no collection, as the brief specifies). TEMP COVER Printful Couple's (style 1427, Sand, man AND woman, print fully visible, drawcords brush the 5K bib), the only couple style for 18500 and already on other items, cover: temp (swap). Registry #590 left RESERVED. Sheet docs/review/399.jpg. REVIEW.
