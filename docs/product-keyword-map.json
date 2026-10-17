@@ -6169,6 +6169,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-retro-loose-goose-cropped-hoodie": {
+   "claimed": [
+    "roller skating"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "roller skating",
+     "volume": 450000,
+     "kd": 26
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
