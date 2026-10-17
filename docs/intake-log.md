@@ -1,5 +1,5 @@
+2026-10-17 18:18 UTC — [D] Director run done: 2 LIVE (#477, #479), 1 REDO (#354), Telegram sent (both links 200). Lock released.
 2026-10-17 18:13 UTC — [B] REVIEW #480 Tag Soup tee (DRAFT gid 15363971940656, synced 21/21, fal cover 1 image).
-RUNNING director since 2026-10-17 18:12 UTC
 2026-10-17 18:20 UTC — [D] Queue: lane A 14 READY; lane B 11 READY + 1 BUILDING (#480). No new lane B brief this run: new art is on hold (Sam), and a sweep for twins of existing art found every fitting phrase at KD 35 or under already claimed (deer hoodie, hunting hoodie, hunting sweatshirt, cat hoodie) or too hard (sarcastic hoodie 170/59, minimalist hoodie 1,600/54, line art hoodie 210/40). Note: 5 of lane B's READY twins (461 464 467 473 476) wait on ART-NEXT sources still under the hold.
 2026-10-17 18:14 UTC — [D] Review: #477 Clocked It embroidered crewneck LIVE, #479 Tag Soup hoodie LIVE (both audit PASS, published Online Store + Headless + Google); #354 Lake Life zip hoodie REDO (woman's back print missing on cover, color swap still open).
 2026-10-17 18:05 UTC — [B] REVIEW #479 Tag Soup hoodie (DRAFT gid 15363964895536, synced 12/12, fal cover 1 image).
