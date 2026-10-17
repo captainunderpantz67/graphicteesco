@@ -6325,6 +6325,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-y2k-hot-mess-express-hoodie": {
+   "claimed": [
+    "pink hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pink hoodie",
+     "volume": 49500,
+     "kd": 43
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

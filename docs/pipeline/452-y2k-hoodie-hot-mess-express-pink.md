@@ -1,4 +1,6 @@
-status: READY
+status: REVIEW
+cover: temp
+shopify: gid://shopify/Product/15363725001008
 lane: B
 type: twin
 id: 452
@@ -21,3 +23,4 @@ kd: 43
 ---
 ## Log
 - 2026-10-17 14:23 UTC director: brief written, READY (keyword measured this run; source art checked against R4.1/R6.2 from its review sheet; fal-free twin).
+- 2026-10-17 14:33 UTC [B]: built as DRAFT (gid 15363725001008, Pullover 18500 #146, Light Pink + White, S-3XL, 12 variants, $39.99, category aa-1-13-13). Twin of tee file 1087368545 via the #264 knocked-counter file 1087895604 (O of HOT and P/R counters transparent). R6.2 check: chrome bubble letters are hand-drawn, no ring, panel, box or typeset line; the art reads on Light Pink via its black linework. FW 1500 TOP 0 (hoodie print 10.6 in tall, clear of pouch seam). Sync pid 482488765 12/12. Mockups: front per color + back; variant images linked. Temp cover Printful Women's 5 Left Front (style 1466, Light Pink, woman in front pose, all words readable); alt starts Woman; registry #650 stays RESERVED for the fal cover. Keyword pink hoodie 49500/43. FAQ 5 questions, 45-48 words each. audit-local PASS.
