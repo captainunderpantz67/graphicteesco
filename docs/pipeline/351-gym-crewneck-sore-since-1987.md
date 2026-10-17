@@ -1,4 +1,5 @@
-status: BUILDING [B] 2026-10-17T05:40Z
+status: REVIEW
+cover: temp
 lane: B
 type: twin
 id: 351
@@ -21,3 +22,4 @@ kd: 36
 ---
 ## Log
 - 2026-10-17 05:24 UTC director: brief written, READY (twin; keyword measured this run; KD ≤ 20 band exhausted for this garment/niche).
+- 2026-10-17 05:38 UTC [B]: (temp-cover mode, no fal) twin of tee #154 / hoodie #223: used the CLEANED files (Iron & Sweat Dept. line already erased): 1087873843 dark ink for Sand, 1087873854 cream ink for Navy (3600x4823, FW 1400 TOP 0). R6.2 check: SORE SINCE 1987 is distressed hand-lettered arched caps, no typeset line, ring or panel left; ok. Shopify DRAFT gid://shopify/Product/15363091005744 (Gildan 18000, 12 variants, $34.99, no compare-at, category aa-1-13-14, tags sweatshirt/ai-art/intake-done), sync 482396441 12/12, mockups Sand + Navy + back, variant images, keyword gym sweatshirt 3600/36. TEMP COVER Printful Men's Lifestyle (style 1157, Navy, man, print fully visible, hands off print). Audit PASS except draft state.
