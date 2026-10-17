@@ -1,8 +1,9 @@
-status: BUILDING [B] 2026-10-17 14:33
+status: ART-NEXT
 lane: B
 type: new
 id: 448
 handle: mens-grill-wizard-zip-hoodie
+shopify: gid://shopify/Product/15363727982896
 kd: 17
 ---
 ## Men's Wizard – Grill Wizard Zip Hoodie
@@ -23,3 +24,4 @@ kd: 17
 ---
 ## Log
 - 2026-10-17 14:22 UTC director: brief written, READY (keyword measured this run, low-KD sweep; new art, ART-NEXT draft while fal is empty).
+- 2026-10-17 14:34 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363727982896 (Ash + Navy x S-3XL, zip 18600, $44.99; keyword wizard hoodie 1600/KD17; FAQs 5 x 40-60 words, order-by Dec 8). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
