@@ -1,6 +1,7 @@
-status: REDO
+status: REVIEW
 lane: A
 type: twin
+cover: temp
 id: 218
 handle: womens-christmas-pink-christmas-trees-crewneck-sweatshirt
 ---
@@ -24,3 +25,4 @@ handle: womens-christmas-pink-christmas-trees-crewneck-sweatshirt
   1. R3.7.6 / R6.2: 'TIS THE SEASON is a clean typeset sans, tiny (well under 60% of the art width) and unreadable on the cover. Erase it in print-prep (the three trees read on their own) or re-letter it by hand much larger. Log which.
   2. R5.3.8: check the cream streaks in the trees on Light Pink and Ash at 200%; any pure white that isn't planned cream gets knocked out.
   Then new mockups, cover check (read every word against the art) and a new sheet.
+- 2026-10-17 04:34 UTC builder [A]: REDO (fal empty, no fal calls): (1) 'TIS THE SEASON tagline erased in print-prep (13 small components), two white blobs between the trees knocked out with knock-white.py (R5.3.8; planned cream stays); new file 1088027830 (3600x2026, branch lane-a-files) re-linked 30/30 FW=1500 (sync 482317020); (2) new mockups for all 5 colors replaced in place (fileUpdate); (3) copy/SEO: dropped the 'TIS THE SEASON clauses (R8.3); compare-at cleared on all 30 variants (honest compare-at rule); (4) TEMP COVER: Printful Women's Lifestyle (style 1186, Light Pink 18000, smiling woman, print fully visible). Self-grade: keep. Sheet docs/review/218.jpg. REVIEW.
