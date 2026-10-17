@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-17 21:41 UTC
+status: REVIEW
 lane: C
 type: new
 id: 402
@@ -28,3 +28,4 @@ kd: 34
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane A.
 - 2026-10-17 21:25 UTC director: moved from lane A to lane C (lane C builds hoodies; lane A has 23 READY, lane C had 3).
 - 2026-10-17 21:46 UTC builder [C]: art 1 Recraft call (no lettering); PROFESSIONALLY / CHILLING in Alfa Slab One via compose-print.py with a cream keyline halo for Storm Blue; FW 1600 TOP 250; Printful file 1088513006, sync 482498149 running (14 variants); mockups Sandstone+Storm Blue attached; fal cover 2 images (registry #593): try 1 had a drawstring across CHILLING, try 2 (no drawcords) kept, clean. Copy fixed to the real lettering (cream/red slab capitals); FAQs 6 existing x 40-60 words incl. Dec 8.
+- 2026-10-17 21:47 UTC builder [C]: REVIEW. Sync 14/14. Sheet docs/review/402.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. 
