@@ -5819,6 +5819,32 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-bunny-politely-hop-off-cropped-hoodie": {
+   "claimed": [
+    "bunny hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bunny hoodie",
+     "volume": 2900,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "unisex-shark-friendly-ish-oversized-hoodie": {
+   "claimed": [
+    "shark hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "shark hoodie",
+     "volume": 27100,
+     "kd": 20
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

@@ -1,7 +1,8 @@
-status: READY
+status: ART-NEXT
 lane: B
 type: new
 id: 406
+shopify: gid://shopify/Product/15363533766960
 handle: womens-bunny-politely-hop-off-cropped-hoodie
 kd: 34
 ---
@@ -23,3 +24,4 @@ kd: 34
 ---
 ## Log
 - 2026-10-17 09:22 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
+- 2026-10-17 10:50 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363533766960 (Storm only x S-2XL = 5 (Peach has only an out-of-stock XL in Printful #317, so it is not offered; the white bunny reads on dark Storm; add Peach/Black later if stocked), $44.99, tags cropped-hoodies + graphic-hoodies-for-women + hoodie, no compare-at, category hoodies). Keyword bunny hoodie 2900/KD34 in map. FAQs 5 x 45-56 words (order-by Dec 8), facts from the Printful spec. Copy from the brief's art description (prim bunny, ribbon bow, tea): re-check against the real art. No sync, images or cover.

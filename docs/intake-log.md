@@ -1,3 +1,4 @@
+2026-10-17 10:52 UTC — [B] ART-NEXT #406 bunny cropped hoodie (Storm only, Peach out of stock) and #408 shark oversized hoodie DRAFTs built. Lane B READY left: twins 378-382/385 (typeset lettering needs fal), 354 (fal cover); all new-art items 404-409 now ART-NEXT drafts waiting for fal. Lock released.
 2026-10-17 10:32 UTC — [B] ART-NEXT #407 Men's Camera Shy sasquatch and #409 Men's Truck Stop Connoisseur heavyweight hoodie DRAFTs built (no art/sync). #406 cropped (7502) and #408 oversized (4719) READY for next run. Lock released.
 2026-10-17 10:12 UTC — [B] ART-NEXT #405 Unisex Anime Snack Hoard dragon hoodie DRAFT built (no art/sync). #406-#409 need other blanks (cropped 7502, heavyweight IND4000, oversized 4719): next run. Lock released.
 2026-10-17 09:58 UTC — [B] ART-NEXT #404 Unisex Y2K Side Quests Only hoodie DRAFT built (no art/sync). #405-#409 still READY (new art, same ART-NEXT pattern next run). Lock released.
