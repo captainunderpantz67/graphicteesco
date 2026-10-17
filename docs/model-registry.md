@@ -602,8 +602,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 807 | Filipino-American woman, late 20s, shoulder-length black hair in a low ponytail, small silver hoops | USED 2026-10-17 — #485 Raccoon Trail Mix hoodie cover (try 2 kept, 2 images; #808 man in same photo) |
 | 808 | white man, early 30s, curly light-brown hair, short beard, freckles | USED 2026-10-17 — #485 Raccoon Trail Mix cover (with #807) |
 | 809 | Moroccan-American woman, early 30s, long dark curly hair half up, gold hoop earrings, tortoiseshell glasses pushed up on her head | CLAIMED 2026-10-17 — #486 Goose Plot Twist Pending Crewneck Sweatshirt cover (brief) |
-| 810 | Black man, late 20s, short twists, clean-shaven, round wire glasses | CLAIMED 2026-10-17 — #487 University of Staying In Crewneck Sweatshirt cover (brief) |
-| 811 | Korean-American woman, mid 20s, long straight hair with curtain bangs, small gold studs | CLAIMED 2026-10-17 — #487 University of Staying In Crewneck Sweatshirt cover (brief) |
+| 810 | Black man, late 20s, short twists, clean-shaven, round wire glasses | USED 2026-10-17 - #487 University of Staying In crewneck cover (seedream, navy, rainy living room; pair 810-811) |
+| 811 | Korean-American woman, mid 20s, long straight hair with curtain bangs, small gold studs | USED 2026-10-17 - #487 University of Staying In crewneck cover (seedream, navy, rainy living room; pair 810-811) |
 | 812 | Puerto Rican woman, late 30s, shoulder-length wavy dark hair with copper highlights, statement earrings | CLAIMED 2026-10-17 — #488 I Said It Nicely in My Head Tee cover (brief) |
 | 813 | White woman, mid 20s, platinum-blonde shag, nose hoop, gold necklaces | USED 2026-10-17 - #489 Already Over It Kindly hoodie cover (seedream, navy, coffee shop) |
 | 814 | Vietnamese-American man, early 30s, short textured black hair, light stubble | CLAIMED 2026-10-17 — #490 Plans Canceled. Mood Improved. Hoodie cover (brief) |
