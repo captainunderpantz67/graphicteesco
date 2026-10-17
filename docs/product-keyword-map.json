@@ -3916,11 +3916,16 @@
   },
   "womens-frog-not-toad-ay-zip-hoodie": {
    "claimed": [
-    "frog hoodie",
-    "toad hoodie"
+    "frog hoodie"
    ],
-   "gaps_measured": [],
-   "measured": "frog hoodie 1,900/KD33; toad hoodie 70/KD43 (RankHero 2026-10-16)"
+   "gaps_measured": [
+    {
+     "phrase": "frog hoodie",
+     "volume": 1900,
+     "kd": 33
+    }
+   ],
+   "measured": "2026-10-16"
   },
   "womens-y2k-hot-mess-express-zip-hoodie": {
    "claimed": [

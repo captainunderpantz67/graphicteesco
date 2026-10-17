@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: new
 id: 263
@@ -29,3 +29,4 @@ handle: womens-frog-not-toad-ay-zip-hoodie
 - 2026-10-17 00:15 UTC director: REDO.
   1. R5.3.4: the cucumber slices sit across the toad's mouth like a row of teeth or a mouth guard; nobody reads 'face mask' in 2 seconds. Regenerate (try 2 of 2, R5.4): cucumber slices over the eyes, green clay mask on the face, curlers kept, one hand up.
   2. Keep the hand-lettered NOT TOAD-AY (it passes) and the back + small left-chest placement; new art means a new cover (R6.7 print fidelity: the cover must show the exact print); generate it from the new Navy back mockup.
+- 2026-10-17 03:20 UTC [B]: REDO fix (round 1, try 2 of 2, R5.4): new Recraft v4 art with a smooth green clay mask over the face, one cucumber slice over each closed eye, curlers and the raised hand kept, hand-lettered NOT TOAD-AY (spelling checked), print-prep 3600 x 3295, knock-white (the mask highlights open on Navy as soft mouth lines, accepted), Printful file 1087924484 on the same back + small left-chest placement as before (pf-zip.py), resynced 14/14, mockups replaced in place (Ash front, Navy front, Navy back), copy updated (clay mask, cucumber eye slices; SEO description rewritten), cover regenerated from the new Navy back mockup (registry #439, redo try 1, image 3 of 3, hood visible, print and caption read). Sheet docs/review/263.jpg. Set REVIEW.
