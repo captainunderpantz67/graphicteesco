@@ -429,6 +429,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-sunflower-sunshine-with-boundaries-zip-hoodie': { src: '/covers/womens-sunflower-sunshine-with-boundaries-zip-hoodie.webp', alt: 'Woman looking over her shoulder in a navy Sunshine With Boundaries sunflower zip hoodie, smiling at a fall farmers market with buckets of sunflowers behind her' },
   'womens-pilates-core-issues-cropped-hoodie': { src: '/covers/womens-pilates-core-issues-cropped-hoodie.webp', alt: 'Woman in a black Core Issues pilates cropped hoodie outside a pilates studio on a sunny sidewalk with a rolled mat in a bag at her side' },
   'womens-strawberry-sweet-shy-leaving-early-oversized-hoodie': { src: '/covers/womens-strawberry-sweet-shy-leaving-early-oversized-hoodie.webp', alt: 'Woman in a navy Please Don\'t Pick Me shy strawberry oversized hoodie with her hands in the pocket in a cozy bookshop with fairy lights' },
+  'womens-christian-casserole-ministry-hoodie': { src: '/covers/womens-christian-casserole-ministry-hoodie.webp', alt: 'Woman in a sand Casserole Ministry church hoodie, smiling in a church kitchen with a casserole dish cooling on the counter beside her' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

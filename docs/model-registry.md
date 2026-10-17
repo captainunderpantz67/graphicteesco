@@ -427,7 +427,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 534 | Indian-American woman, mid 20s, long dark hair in a low bun, small gold nose stud | RESERVED — #343 Child's Pose yoga cropped hoodie cover |
 | 535 | French-Canadian man, early 30s, curly brown mullet, thick moustache | RESERVED — #344 Penalty Box Regular hockey hoodie cover |
 | 536 | Black woman, early 40s, short natural curls, small gold hoops | RESERVED — #345 Amazing Grace Crewneck Sweatshirt cover |
-| 537 | White woman, early 60s, silver bob, reading glasses pushed up on her head | RESERVED — #346 Casserole Ministry Hoodie cover |
+| 537 | White woman, early 60s, silver bob, reading glasses pushed up on her head | USED 2026-10-17 - #346 Casserole Ministry hoodie cover (seedream, sand, church kitchen) |
 | 538 | Filipino-American woman, late 20s, long straight black hair, tortoiseshell glasses | RESERVED — #347 Espresso Yourself Hoodie cover |
 | 539 | Man AND woman together: Korean-American man, early 30s, undercut; white woman, late 20s, auburn shag haircut | RESERVED — #348 Night Shift Crewneck Sweatshirt cover |
 | 540 | Mexican-American woman, mid 20s, long dark waves, pink felt cowboy hat | RESERVED — #349 Howdy Crewneck Sweatshirt cover |
