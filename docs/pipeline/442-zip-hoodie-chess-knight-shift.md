@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: B
 type: new
 id: 442
 handle: mens-chess-knight-shift-zip-hoodie
+shopify: gid://shopify/Product/15363700588848
 kd: 32
 ---
 ## Men's Chess – Knight Shift Zip Hoodie
@@ -23,3 +24,4 @@ kd: 32
 ---
 ## Log
 - 2026-10-17 13:24 UTC director: brief written, READY (keyword measured this run, low-KD sweep; new art, ART-NEXT draft while fal is empty).
+- 2026-10-17 13:40 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363700588848 (Ash + Navy x S-3XL, Gildan 18600 zip, $44.99; keyword chess hoodie 390/KD32; back print + left chest planned; FAQs 5 x 40-60 words, order-by Dec 8). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
