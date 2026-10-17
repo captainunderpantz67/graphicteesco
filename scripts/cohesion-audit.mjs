@@ -44,7 +44,7 @@ async function sf(query, variables = {}) {
   const r = await fetch(`https://${DOMAIN}/api/2026-01/graphql.json`, { method: 'POST', headers: { 'Content-Type': 'application/json', 'X-Shopify-Storefront-Access-Token': TOKEN }, body: JSON.stringify({ query, variables }) });
   const j = await r.json(); if (j.errors) throw new Error(JSON.stringify(j.errors)); return j.data;
 }
-const FIELDS = `handle title productType tags seo { title description } description
+const FIELDS = `handle title createdAt productType tags seo { title description } description
   images(first: 100) { nodes { url altText } }
   variants(first: 250) { nodes { price { amount } compareAtPrice { amount } selectedOptions { name value } image { url } } }
   collections(first: 30) { nodes { handle } }`;
@@ -138,7 +138,13 @@ for (const p of products) {
   const osw = kind === 'sweatshirt' && /-oversized-sweatshirt$/.test(p.handle);
   // Camo sweatshirt, all-over-print sweatshirt #1418 with a camo pattern, handle ending -camo-sweatshirt: $56.99 / $61.99 (R12.1, director 2026-10-17).
   const csw = kind === 'sweatshirt' && /-camo-sweatshirt$/.test(p.handle);
-  const [want, wantCmp] = pump ? ['39.99', null] : hp ? (onSale ? [hp[1], hp[2]] : [hp[2], null]) : osw ? (onSale ? ['49.99', '54.99'] : ['54.99', null]) : csw ? (onSale ? ['56.99', '61.99'] : ['61.99', null]) : kind === 'sweatshirt' ? (onSale ? ['34.99', '39.99'] : ['39.99', null]) : (onSale ? ['24.99', '29.99'] : ['29.99', null]);
+  let [want, wantCmp] = pump ? ['39.99', null] : hp ? (onSale ? [hp[1], hp[2]] : [hp[2], null]) : osw ? (onSale ? ['49.99', '54.99'] : ['54.99', null]) : csw ? (onSale ? ['56.99', '61.99'] : ['61.99', null]) : kind === 'sweatshirt' ? (onSale ? ['34.99', '39.99'] : ['39.99', null]) : (onSale ? ['24.99', '29.99'] : ['29.99', null]);
+  // Honest reference prices (2026-10-17, FTC former-price rule + Google sale_price: the compare-at must be a price we
+  // actually charged). Only products that existed before the sale started (2026-10-15) carry a compare-at; anything
+  // created since sells at the sale-tier price with no compare-at (no "was" price, no Holiday sale label).
+  const SALE_START = Date.parse('2026-10-15T05:00:00Z');
+  const neverAtRegular = p.createdAt && Date.parse(p.createdAt) >= SALE_START;
+  if (neverAtRegular && onSale && wantCmp) wantCmp = null;
   const prices = [...new Set(p.variants.nodes.map((v) => Number(v.price.amount).toFixed(2) + '/' + (v.compareAtPrice ? Number(v.compareAtPrice.amount).toFixed(2) : '-')))];
   // Embroidered (R12.1): +$5 chest, +$3 per cuff detail, so +5, +8 or +11 on both price and compare-at.
   const bump = (x, d) => (x === null ? null : (Number(x) + d).toFixed(2));

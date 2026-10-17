@@ -1,6 +1,6 @@
 {
- "at": "2026-10-17T03:42:46.395Z",
- "products": 277,
+ "at": "2026-10-17T04:13:14.859Z",
+ "products": 281,
  "findings": [
   {
    "level": "WARN",
@@ -45,6 +45,20 @@
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
+   "level": "ERROR",
+   "handle": "womens-thanksgiving-gobble-gobble-graphic-tee",
+   "title": "Women's Thanksgiving – Gobble Gobble Turkey Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-thanksgiving-gobble-gobble-crewneck-sweatshirt",
+   "title": "Women's Thanksgiving – Gobble Gobble Turkey Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
    "level": "WARN",
    "handle": "womens-thanksgiving-gobble-gobble-crewneck-sweatshirt",
    "title": "Women's Thanksgiving – Gobble Gobble Turkey Crewneck Sweatshirt",
@@ -52,11 +66,1173 @@
    "fix": "Write one ≤ 155 chars."
   },
   {
+   "level": "ERROR",
+   "handle": "unisex-thanksgiving-turkey-day-crew-graphic-tee",
+   "title": "Unisex Thanksgiving – Turkey Day Crew Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-thanksgiving-turkey-day-crew-crewneck-sweatshirt",
+   "title": "Unisex Thanksgiving – Turkey Day Crew Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-sleigh-queen-graphic-tee",
+   "title": "Women's Christmas – Sleigh Queen Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-sleigh-queen-crewneck-sweatshirt",
+   "title": "Women's Christmas – Sleigh Queen Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-thanksgiving-nap-queen-graphic-tee",
+   "title": "Women's Thanksgiving – Nap Queen Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-thanksgiving-nap-queen-crewneck-sweatshirt",
+   "title": "Women's Thanksgiving – Nap Queen Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-thanksgiving-mash-hour-graphic-tee",
+   "title": "Unisex Thanksgiving – Mash Hour Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-thanksgiving-mash-hour-crewneck-sweatshirt",
+   "title": "Unisex Thanksgiving – Mash Hour Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-thanksgiving-totally-a-pilgrim-graphic-tee",
+   "title": "Unisex Thanksgiving – Totally a Pilgrim Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-thanksgiving-totally-a-pilgrim-crewneck-sweatshirt",
+   "title": "Unisex Thanksgiving – Totally a Pilgrim Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-soccer-mom-goal-digger-graphic-tee",
+   "title": "Women's Soccer Mom – Goal Digger Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-football-mom-hut-hut-hooray-graphic-tee",
+   "title": "Women's Football Mom – Hut Hut Hooray Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-baseball-mom-pitch-please-graphic-tee",
+   "title": "Women's Baseball Mom – Pitch Please Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-nurse-charting-is-my-cardio-graphic-tee",
+   "title": "Women's Nurse – Charting Is My Cardio Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-fishing-reel-talk-graphic-tee",
+   "title": "Men's Fishing – Reel Talk Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-hunting-deer-diary-graphic-tee",
+   "title": "Men's Hunting – Deer Diary Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christian-back-pew-crew-graphic-tee",
+   "title": "Women's Christian – Back Pew Crew Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-nurse-iv-league-graphic-tee",
+   "title": "Women's Nurse – IV League Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-football-mom-down-set-snacks-graphic-tee",
+   "title": "Women's Football Mom – Down, Set, Snacks Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-fishing-fisher-of-men-graphic-tee",
+   "title": "Men's Fishing – Fisher of Men (Mostly Bass) Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-anime-slurp-responsibly-graphic-tee",
+   "title": "Unisex Anime – Slurp Responsibly Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-fishing-cheaper-than-therapy-graphic-tee",
+   "title": "Men's Fishing – Cheaper Than Therapy (Barely) Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-thanksgiving-here-for-the-scraps-graphic-tee",
+   "title": "Women's Thanksgiving – Here for the Scraps Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-thanksgiving-here-for-the-scraps-crewneck-sweatshirt",
+   "title": "Women's Thanksgiving – Here for the Scraps Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-thanksgiving-pie-oh-my-graphic-tee",
+   "title": "Women's Thanksgiving – Pie Oh My Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-thanksgiving-pie-oh-my-crewneck-sweatshirt",
+   "title": "Women's Thanksgiving – Pie Oh My Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-cropped-matcha-made-in-heaven-graphic-tee",
+   "title": "Women's Cropped – Matcha Made in Heaven Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-y2k-low-battery-high-standards-graphic-tee",
+   "title": "Women's Y2K – Low Battery, High Standards Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-anime-mecha-mondays-graphic-tee",
+   "title": "Unisex Anime – Mecha Mondays Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-baseball-mom-bases-loaded-graphic-tee",
+   "title": "Women's Baseball Mom – Bases Loaded, Mom Exhausted Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-soccer-mom-orange-slice-supplier-graphic-tee",
+   "title": "Women's Soccer Mom – Official Orange Slice Supplier Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christian-casserole-ministry-graphic-tee",
+   "title": "Women's Christian – Casserole Ministry Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-y2k-still-loading-graphic-tee",
+   "title": "Women's Y2K – Still Loading Since 1999 Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-y2k-hot-mess-express-graphic-tee",
+   "title": "Women's Y2K – Hot Mess Express Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-cropped-espresso-yourself-graphic-tee",
+   "title": "Women's Cropped – Espresso Yourself Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-hunting-professional-tree-sitter-graphic-tee",
+   "title": "Men's Hunting – Professional Tree Sitter Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-nurse-dont-say-the-q-word-graphic-tee",
+   "title": "Women's Nurse – Don't Say the Q Word Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-anime-kaiju-naps-graphic-tee",
+   "title": "Unisex Anime – Destroyer of Cities, Lover of Naps Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-thanksgiving-turkey-trot-crewneck-sweatshirt",
+   "title": "Unisex Thanksgiving – Turkey Trot Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-thanksgiving-turkey-bowl-crewneck-sweatshirt",
+   "title": "Men's Thanksgiving – Turkey Bowl Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-thanksgiving-leftovers-club-crewneck-sweatshirt",
+   "title": "Unisex Thanksgiving – Leftovers Club Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-thanksgiving-pumpkin-pie-crewneck-sweatshirt",
+   "title": "Women's Thanksgiving – Pumpkin Pie Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-thanksgiving-friendsgiving-crewneck-sweatshirt",
+   "title": "Women's Thanksgiving – Friendsgiving Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-christmas-cats-crewneck-sweatshirt",
+   "title": "Women's Christmas – Christmas Cats Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-christmas-golf-crewneck-sweatshirt",
+   "title": "Women's Christmas – Christmas Golf Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-nutcracker-bow-crewneck-sweatshirt",
+   "title": "Women's Christmas – Nutcracker Bow Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-highland-cow-christmas-crewneck-sweatshirt",
+   "title": "Women's Christmas – Highland Cow Christmas Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-gingerbread-lane-crewneck-sweatshirt",
+   "title": "Women's Christmas – Gingerbread Lane Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-vintage-snowman-crewneck-sweatshirt",
+   "title": "Women's Christmas – Vintage Snowman Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-christmas-define-naughty-graphic-tee",
+   "title": "Men's Christmas – Define Naughty Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-jolly-ish-graphic-tee",
+   "title": "Women's Christmas – Jolly-ish Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-hunting-opening-day-zip-hoodie",
+   "title": "Men's Hunting – Opening Day Zip Hoodie",
+   "msg": "Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant.",
+   "fix": "Set every variant to price 44.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-vintage-santa-hoodie",
+   "title": "Unisex Christmas – Vintage Santa Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-hunting-deer-diary-zip-hoodie",
+   "title": "Men's Hunting – Deer Diary Zip Hoodie",
+   "msg": "Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant.",
+   "fix": "Set every variant to price 44.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-highland-cow-christmas-hoodie",
+   "title": "Women's Christmas – Highland Cow Christmas Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-nutcracker-bow-hoodie",
+   "title": "Women's Christmas – Nutcracker Bow Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-anime-kaiju-naps-oversized-hoodie",
+   "title": "Unisex Anime – Destroyer of Cities, Lover of Naps Oversized Hoodie",
+   "msg": "Price 54.99/59.99 (price/compare-at) — should be 54.99/- on every variant.",
+   "fix": "Set every variant to price 54.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-define-naughty-crewneck-sweatshirt",
+   "title": "Unisex Christmas – Define Naughty Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-anime-mecha-mondays-oversized-hoodie",
+   "title": "Unisex Anime – Mecha Mondays Oversized Hoodie",
+   "msg": "Price 54.99/59.99 (price/compare-at) — should be 54.99/- on every variant.",
+   "fix": "Set every variant to price 54.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-cropped-matcha-made-in-heaven-cropped-hoodie",
+   "title": "Women's Cropped – Matcha Made in Heaven Cropped Hoodie",
+   "msg": "Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant.",
+   "fix": "Set every variant to price 44.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-cropped-espresso-yourself-cropped-hoodie",
+   "title": "Women's Cropped – Espresso Yourself Cropped Hoodie",
+   "msg": "Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant.",
+   "fix": "Set every variant to price 44.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-christmas-light-show-manager-graphic-tee",
+   "title": "Men's Christmas – Light Show Manager Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christian-amazing-grace-heavyweight-hoodie",
+   "title": "Unisex Christian – Amazing Grace Heavyweight Hoodie",
+   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
+   "fix": "Set every variant to price 49.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-light-show-manager-crewneck-sweatshirt",
+   "title": "Unisex Christmas – Light Show Manager Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-gym-plate-club-heavyweight-hoodie",
+   "title": "Men's Gym – Clean Plate Club Heavyweight Hoodie",
+   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
+   "fix": "Set every variant to price 49.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-gym-leg-day-survivor-hoodie",
+   "title": "Men's Gym – Leg Day Survivor Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-christmas-technically-a-sweater-graphic-tee",
+   "title": "Men's Christmas – Technically a Sweater Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-anime-slurp-responsibly-hoodie",
+   "title": "Unisex Anime – Slurp Responsibly Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-jolly-ish-crewneck-sweatshirt",
+   "title": "Women's Christmas – Jolly-ish Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-y2k-low-battery-high-standards-hoodie",
+   "title": "Women's Y2K – Low Battery High Standards Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-technically-a-sweater-crewneck-sweatshirt",
+   "title": "Unisex Christmas – Technically a Sweater Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-fishing-lake-life-hoodie",
+   "title": "Unisex Fishing – Lake Life Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-christmas-bah-humbug-graphic-tee",
+   "title": "Men's Christmas – Bah Humbug Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-bah-humbug-crewneck-sweatshirt",
+   "title": "Unisex Christmas – Bah Humbug Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-embroidered-cherry-picked-crewneck-sweatshirt",
+   "title": "Women's Embroidered – Cherry Picked Crewneck Sweatshirt",
+   "msg": "Price 42.99/47.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christian-embroidered-rooted-in-jesus-hoodie",
+   "title": "Women's Christian Embroidered – Rooted in Jesus Hoodie",
+   "msg": "Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-sleighping-in-graphic-tee",
+   "title": "Women's Christmas – Sleighping In Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-sleighping-in-crewneck-sweatshirt",
+   "title": "Women's Christmas – Sleighping In Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-embroidered-bow-before-me-cropped-hoodie",
+   "title": "Women's Embroidered – Bow Before Me Cropped Hoodie",
+   "msg": "Price 52.99/57.99 (price/compare-at) — should be 49.99/- on every variant.",
+   "fix": "Set every variant to price 44.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-embroidered-out-of-office-deer-hoodie",
+   "title": "Men's Embroidered – Out of Office Deer Hoodie",
+   "msg": "Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-winter-skate-club-penguins-hoodie",
+   "title": "Women's Christmas – Winter Skate Club Penguins Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-embroidered-extra-marshmallows-crewneck-sweatshirt",
+   "title": "Women's Christmas – Embroidered Extra Marshmallows Crewneck Sweatshirt",
+   "msg": "Price 42.99/47.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-polar-bear-cocoa-hoodie",
+   "title": "Women's Christmas – Polar Bear Cocoa Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-christmas-dogs-hoodie",
+   "title": "Women's Christmas – Christmas Dogs Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-christmas-cats-hoodie",
+   "title": "Women's Christmas – Christmas Cats Hoodie",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-christmas-cats-hoodie",
+   "title": "Women's Christmas – Christmas Cats Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-vintage-snowman-hoodie",
+   "title": "Women's Christmas – Vintage Snowman Hoodie",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-vintage-snowman-hoodie",
+   "title": "Women's Christmas – Vintage Snowman Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-golf-hoodie",
+   "title": "Women's Christmas – Christmas Golf Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-mountain-christmas-bear-hoodie",
+   "title": "Unisex Christmas – Mountain Christmas Bear Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
    "level": "WARN",
    "handle": "unisex-christmas-mountain-christmas-bear-hoodie",
    "title": "Unisex Christmas – Mountain Christmas Bear Hoodie",
    "msg": "No SEO title.",
    "fix": "Write one ≤ 60 chars with the primary keyword."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-gym-retired-from-cardio-hoodie",
+   "title": "Men's Gym – Retired From Cardio Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-gym-sore-since-1987-hoodie",
+   "title": "Men's Gym – Sore Since 1987 Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-dough-ho-ho-graphic-tee",
+   "title": "Women's Christmas – Dough Ho Ho Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-dough-ho-ho-crewneck-sweatshirt",
+   "title": "Women's Christmas – Dough Ho Ho Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-dough-ho-ho-hoodie",
+   "title": "Women's Christmas – Dough Ho Ho Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-hunting-quack-of-dawn-camo-hoodie",
+   "title": "Men's Hunting – Quack of Dawn Camo Hoodie",
+   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
+   "fix": "Set every variant to price 49.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-fishing-casting-doubt-zip-hoodie",
+   "title": "Men's Fishing – Casting Doubt Zip Hoodie",
+   "msg": "Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant.",
+   "fix": "Set every variant to price 44.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-western-howdy-hoodie",
+   "title": "Women's Western – Howdy Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-horror-night-shift-oversized-hoodie",
+   "title": "Unisex Horror – Midnight Showing Oversized Hoodie",
+   "msg": "Price 54.99/59.99 (price/compare-at) — should be 54.99/- on every variant.",
+   "fix": "Set every variant to price 54.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-lit-up-bow-crewneck-sweatshirt",
+   "title": "Women's Christmas – Lit-Up Bow Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-cropped-ghost-club-cropped-hoodie",
+   "title": "Women's Cropped – Ghost Club Cropped Hoodie",
+   "msg": "Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant.",
+   "fix": "Set every variant to price 44.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-merry-woofmas-crewneck-sweatshirt",
+   "title": "Women's Christmas – Merry Woofmas Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-oh-deer-hoodie",
+   "title": "Women's Christmas – Oh Deer Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-gym-beach-body-pending-hoodie",
+   "title": "Men's Gym – Beach Body Pending Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-western-kick-up-dust-camo-hoodie",
+   "title": "Women's Western – Kick Up Dust Camo Hoodie",
+   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
+   "fix": "Set every variant to price 49.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-christmas-resting-my-eyes-crewneck-sweatshirt",
+   "title": "Men's Christmas – Resting My Eyes Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-hunting-opening-day-camo-hoodie",
+   "title": "Men's Hunting – Opening Day Camo Hoodie",
+   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
+   "fix": "Set every variant to price 49.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-hunting-no-deer-today-camo-hoodie",
+   "title": "Men's Hunting – No Deer Today Camo Hoodie",
+   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
+   "fix": "Set every variant to price 49.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-hunting-professional-tree-sitter-camo-hoodie",
+   "title": "Men's Hunting – Professional Tree Sitter Camo Hoodie",
+   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
+   "fix": "Set every variant to price 49.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-sleigh-queen-hoodie",
+   "title": "Women's Christmas – Sleigh Queen Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-gym-study-in-hypertrophy-oversized-hoodie",
+   "title": "Men's Gym – Study in Hypertrophy Oversized Hoodie",
+   "msg": "Price 54.99/59.99 (price/compare-at) — should be 54.99/- on every variant.",
+   "fix": "Set every variant to price 54.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-define-naughty-hoodie",
+   "title": "Unisex Christmas – Define Naughty Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-fishing-reel-talk-half-zip",
+   "title": "Men's Fishing – Reel Talk Half Zip",
+   "msg": "Price 54.99/59.99 (price/compare-at) — should be 54.99/- on every variant.",
+   "fix": "Set every variant to price 54.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-christmas-light-show-manager-hoodie",
+   "title": "Men's Christmas – Light Show Manager Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-embroidered-whisk-taker-matcha-crewneck-sweatshirt",
+   "title": "Women's Embroidered – Whisk Taker Matcha Crewneck Sweatshirt",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-embroidered-morel-support-mushroom-crewneck-sweatshirt",
+   "title": "Women's Embroidered – Morel Support Mushroom Crewneck Sweatshirt",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-snow-problem-graphic-tee",
+   "title": "Women's Christmas – Snow Problem Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-embroidered-purrsonal-space-cat-crewneck-sweatshirt",
+   "title": "Women's Embroidered – Purrsonal Space Cat Crewneck Sweatshirt",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-snow-problem-crewneck-sweatshirt",
+   "title": "Women's Christmas – Snow Problem Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-thanksgiving-spill-the-gravy-graphic-tee",
+   "title": "Women's Thanksgiving – Spill the Gravy Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-thanksgiving-spill-the-gravy-crewneck-sweatshirt",
+   "title": "Women's Thanksgiving – Spill the Gravy Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-thanksgiving-cute-but-corny-graphic-tee",
+   "title": "Women's Thanksgiving – Cute But Corny Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-thanksgiving-cute-but-corny-crewneck-sweatshirt",
+   "title": "Women's Thanksgiving – Cute But Corny Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-gym-conflict-resolution-oversized-sweatshirt",
+   "title": "Men's Gym – Conflict Resolution Oversized Sweatshirt",
+   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
+   "fix": "Set every variant to price 49.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-bookish-plot-twist-oversized-sweatshirt",
+   "title": "Women's Bookish – Plot Twist Oversized Sweatshirt",
+   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
+   "fix": "Set every variant to price 49.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-frog-not-toad-ay-zip-hoodie",
+   "title": "Women's Frog – Not Toad-ay Zip Hoodie",
+   "msg": "Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant.",
+   "fix": "Set every variant to price 44.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-thanksgiving-kids-table-alumni-graphic-tee",
+   "title": "Unisex Thanksgiving – Kids Table Alumni Tee",
+   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
+   "fix": "Set every variant to price 24.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-thanksgiving-kids-table-alumni-crewneck-sweatshirt",
+   "title": "Unisex Thanksgiving – Kids Table Alumni Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-y2k-hot-mess-express-zip-hoodie",
+   "title": "Women's Y2K – Hot Mess Express Zip Hoodie",
+   "msg": "Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant.",
+   "fix": "Set every variant to price 44.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-embroidered-on-my-own-time-snail-hoodie",
+   "title": "Women's Embroidered – On My Own Time Snail Hoodie",
+   "msg": "Price 47.99/52.99 (price/compare-at) — should be 44.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-embroidered-eau-de-campfire-hoodie",
+   "title": "Men's Embroidered – Eau de Campfire Hoodie",
+   "msg": "Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christian-be-still-crewneck-sweatshirt",
+   "title": "Women's Christian – Be Still Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christian-light-of-the-world-jesus-crewneck-sweatshirt",
+   "title": "Women's Christian – Light of the World Jesus Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christian-ewe-are-loved-lamb-crewneck-sweatshirt",
+   "title": "Women's Christian – Ewe Are Loved Lamb Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christian-casserole-ministry-crewneck-sweatshirt",
+   "title": "Women's Christian – Casserole Ministry Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-nurse-dont-say-the-q-word-crewneck-sweatshirt",
+   "title": "Women's Nurse – Don't Say the Q Word Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-mama-i-have-followers-duck-crewneck-sweatshirt",
+   "title": "Women's Mama – I Have Followers Duck Crewneck Sweatshirt",
+   "msg": "Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant.",
+   "fix": "Set every variant to price 34.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-embroidered-morel-support-mushroom-hoodie",
+   "title": "Women's Embroidered – Morel Support Mushroom Hoodie",
+   "msg": "Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-embroidered-purrsonal-space-cat-hoodie",
+   "title": "Women's Embroidered – Purrsonal Space Cat Hoodie",
+   "msg": "Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-gym-sore-since-1987-oversized-hoodie",
+   "title": "Men's Gym – Sore Since 1987 Oversized Hoodie",
+   "msg": "Price 54.99/59.99 (price/compare-at) — should be 54.99/- on every variant.",
+   "fix": "Set every variant to price 54.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-hunting-sit-wait-snack-camo-hoodie",
+   "title": "Men's Hunting – Sit Wait Snack Camo Hoodie",
+   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
+   "fix": "Set every variant to price 49.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-hunting-fake-friends-duck-camo-hoodie",
+   "title": "Men's Hunting – Fake Friends Duck Camo Hoodie",
+   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
+   "fix": "Set every variant to price 49.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-hunting-long-beard-short-temper-camo-hoodie",
+   "title": "Men's Hunting – Long Beard Short Temper Camo Hoodie",
+   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
+   "fix": "Set every variant to price 49.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-hunting-im-not-yelling-im-bugling-camo-hoodie",
+   "title": "Men's Hunting – I'm Not Yelling I'm Bugling Camo Hoodie",
+   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
+   "fix": "Set every variant to price 49.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-hunting-fluent-in-honk-camo-hoodie",
+   "title": "Men's Hunting – Fluent in Honk Camo Hoodie",
+   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
+   "fix": "Set every variant to price 49.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-hunting-full-draw-zero-deer-camo-hoodie",
+   "title": "Men's Hunting – Full Draw Zero Deer Camo Hoodie",
+   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
+   "fix": "Set every variant to price 49.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-hunting-deer-stand-princess-pink-camo-hoodie",
+   "title": "Women's Hunting – Deer Stand Princess Pink Camo Hoodie",
+   "msg": "Price 64.99/69.99 (price/compare-at) — should be 64.99/- on every variant.",
+   "fix": "Set every variant to price 64.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-hunting-deer-camp-no-signal-camo-sweatshirt",
+   "title": "Men's Hunting – Deer Camp No Signal Camo Sweatshirt",
+   "msg": "Price 56.99/61.99 (price/compare-at) — should be 56.99/- on every variant.",
+   "fix": "Set every variant to price 56.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-hunting-blending-in-is-overrated-camo-sweatshirt",
+   "title": "Women's Hunting – Blending In Is Overrated Camo Sweatshirt",
+   "msg": "Price 56.99/61.99 (price/compare-at) — should be 56.99/- on every variant.",
+   "fix": "Set every variant to price 56.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-hunting-up-before-the-ducks-camo-sweatshirt",
+   "title": "Men's Hunting – Up Before the Ducks Camo Sweatshirt",
+   "msg": "Price 56.99/61.99 (price/compare-at) — should be 56.99/- on every variant.",
+   "fix": "Set every variant to price 56.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-hunting-ducks-in-a-row-camo-hoodie",
+   "title": "Women's Hunting – Ducks in a Row Camo Hoodie",
+   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
+   "fix": "Set every variant to price 49.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-hunting-doe-not-disturb-camo-hoodie",
+   "title": "Women's Hunting – Doe Not Disturb Camo Hoodie",
+   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
+   "fix": "Set every variant to price 49.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-hunting-i-saw-you-move-squirrel-camo-hoodie",
+   "title": "Men's Hunting – I Saw You Move Camo Hoodie",
+   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
+   "fix": "Set every variant to price 49.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-hunting-antler-envy-buck-camo-hoodie",
+   "title": "Men's Hunting – Antler Envy Camo Hoodie",
+   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
+   "fix": "Set every variant to price 49.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-camping-camp-security-bear-camo-hoodie",
+   "title": "Unisex Camping – Camp Security Camo Hoodie",
+   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
+   "fix": "Set every variant to price 49.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-possum-playing-dead-camo-hoodie",
+   "title": "Unisex Possum – Playing Dead Till Friday Camo Hoodie",
+   "msg": "Price 49.99/54.99 (price/compare-at) — should be 49.99/- on every variant.",
+   "fix": "Set every variant to price 49.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-hunting-call-me-after-duck-season-camo-sweatshirt",
+   "title": "Men's Hunting – Call Me After Duck Season Camo Sweatshirt",
+   "msg": "Price 56.99/61.99 (price/compare-at) — should be 56.99/- on every variant.",
+   "fix": "Set every variant to price 56.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-hunting-here-for-the-sunrise-camo-sweatshirt",
+   "title": "Women's Hunting – Only Here for the Sunrise Camo Sweatshirt",
+   "msg": "Price 56.99/61.99 (price/compare-at) — should be 56.99/- on every variant.",
+   "fix": "Set every variant to price 56.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-nurse-dont-say-the-q-word-hoodie",
+   "title": "Women's Nurse – Don't Say the Q Word Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-mama-i-have-followers-duck-hoodie",
+   "title": "Women's Mama – I Have Followers Duck Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-bookish-plot-twist-cropped-hoodie",
+   "title": "Women's Bookish – Plot Twist Cropped Hoodie",
+   "msg": "Price 44.99/49.99 (price/compare-at) — should be 44.99/- on every variant.",
+   "fix": "Set every variant to price 44.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-gym-lunges-and-lattes-hoodie",
+   "title": "Women's Gym – Lunges & Lattes Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-running-pace-leisurely-hoodie",
+   "title": "Unisex Running – Pace: Leisurely Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-western-cowboy-up-later-hoodie",
+   "title": "Men's Western – Cowboy Up. Later. Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-retro-loose-goose-oversized-hoodie",
+   "title": "Women's Retro – Loose Goose Oversized Hoodie",
+   "msg": "Price 54.99/59.99 (price/compare-at) — should be 54.99/- on every variant.",
+   "fix": "Set every variant to price 54.99, no compare-at."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-fishing-catch-and-release-mostly-release-hoodie",
+   "title": "Men's Fishing – Catch and Release Hoodie",
+   "msg": "Price 39.99/44.99 (price/compare-at) — should be 39.99/- on every variant.",
+   "fix": "Set every variant to price 39.99, no compare-at."
   }
  ]
 }
