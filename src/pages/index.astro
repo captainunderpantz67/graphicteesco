@@ -24,7 +24,7 @@ const img = (u: string, w: number) => `${u}${u.includes('?') ? '&' : '?'}width=$
 const live = await linkableSlugs();
 const showHoodies = hoodiesHubLive();
 // Only collections that actually have products get a card (an empty page is a dead end and won't be indexed).
-const womens = tees.filter((c) => c.audience === 'women' && c.slug !== 'graphic-tees-for-women' && allProducts.some((p) => p.collections?.includes(c.shopifyHandle)));
+const womens = tees.filter((c) => c.audience === 'women' && c.slug !== 'graphic-tees-for-women' && live.has(c.slug) && allProducts.some((p) => p.collections?.includes(c.shopifyHandle)));
 const outdoors = ['fishing-t-shirts', 'hunting-t-shirts', 'western-graphic-tees', 'mens-gym-shirts', 'football-shirts', 'soccer-mom-shirts'].map((s) => bySlug(s)!).filter((c) => live.has(c.slug));
 const styles = ['oversized-graphic-tees', 'vintage-graphic-tees', 'retro-graphic-tees', 'funny-graphic-tees', 'y2k-graphic-tees', 'anime-shirts', 'embroidered-sweatshirts'].map((s) => bySlug(s)!).filter((c) => live.has(c.slug));
 // Holiday shelf: every live holiday tee collection, soonest holiday first.
