@@ -1,10 +1,10 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
 id: 349
 handle: womens-western-howdy-crewneck-sweatshirt
 shopify: gid://shopify/Product/15363138814256
-cover: temp
+cover: temp (swap)
 kd: 48
 ---
 ## Women's Western – Howdy Crewneck Sweatshirt
@@ -24,3 +24,4 @@ kd: 48
 ## Log
 - 2026-10-17 05:24 UTC director: brief written, READY (twin; keyword measured this run; KD ≤ 20 band exhausted for this garment/niche).
 - 2026-10-17 06:19 UTC builder [A]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363138814256 (Gildan 18000, Sand + Navy x S-3XL = 12, $34.99 no compare-at, category aa-1-13-14), Printful file 1088069705 (hoodie #226's file 1087875196, 3600x2497, FW=1600 TOP=75), sync 482400772 12/12. R6.2 check: glossy outlined bubble letters, hat, flowered skull; no typeset line, ring, panel or arch; no pure-white blobs. Keyword howdy sweatshirt 390/KD48 in map. Fronts Sand + Navy + back (cream neck logo on Navy), variant images, audit PASS (except not active). Temp cover: Printful Women's Lifestyle 2 style 1192, Sand, smiling woman, print fully visible (same Printful model as #345's cover; different garment color and style). Self-grade keep. Sheet docs/review/349.jpg. REVIEW.
+- 2026-10-17 07:13 UTC director: APPROVED, LIVE (ACTIVE + Online Store + Headless + Google & YouTube, audit --handle PASS). HOWDY reads instantly at FW 1600 on wide art (about 10.7 in, fills the chest); temp cover is the same Printful model as #347, so it gets a fal cover first (R6.6). Temp cover SWAP.

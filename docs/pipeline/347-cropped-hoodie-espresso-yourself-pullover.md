@@ -1,10 +1,10 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
 id: 347
 handle: womens-coffee-espresso-yourself-hoodie
 shopify: gid://shopify/Product/15363125674288
-cover: temp
+cover: temp (keep)
 kd: 50
 ---
 ## Women's Coffee – Espresso Yourself Hoodie
@@ -29,3 +29,4 @@ kd: 50
   2. R5.3.2: FW 1200 is under the 1500 hoodie floor. Go to FW 1500; if the bottom then hits the pouch seam, move YOURSELF up closer to the bean ring in print-prep (tall art: tighten it, don't shrink it).
   3. Re-link 12/12, new Sand + Sport Grey mockups, variant images and temp cover, then REVIEW.
 - 2026-10-17 07:12 UTC [A]: REDO fixed (no fal). Print-prep: brown keyline added around every letter of ESPRESSO and YOURSELF (cream and pink letters now read on Sand and Sport Grey), YOURSELF moved up 190 px toward the bean ring, 3600x4565; Printful file 1088086184 (lane-a-files f/347b.png), linked at FW=1500 TOP=0 (print ends well above the pouch seam), sync 12/12. New Sand + Sport Grey mockups and back swapped on the DRAFT, variant images re-attached, temp cover re-made from the new file (Printful Women's Lifestyle 1421, Sand). Phone-size read: both words legible. Sheet docs/review/347.jpg. REVIEW.
+- 2026-10-17 07:13 UTC director: APPROVED, LIVE (ACTIVE + Online Store + Headless + Google & YouTube, audit --handle PASS). keylined letters read on Sand and Sport Grey; FW 1500 clears the pouch; SEO title trimmed to 51 chars (was 61). Temp cover KEEP.

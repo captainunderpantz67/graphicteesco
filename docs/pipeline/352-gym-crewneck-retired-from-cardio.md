@@ -1,5 +1,5 @@
-status: REVIEW
-cover: temp
+status: LIVE
+cover: temp (swap)
 lane: B
 type: twin
 id: 352
@@ -27,3 +27,4 @@ kd: 32
   1. R5.3.2: FW 1400 is under the 1500 floor for sweatshirts, and the "Barbell Club" script is the line that needs a squint on the Navy mockup. Re-link both ink files at FW 1650 (TOP 0), 12/12, and read Barbell Club on the Navy mockup at phone size; if it still needs a squint, thicken it in print-prep.
   2. New Sand + Navy mockups, variant images and temp cover, then REVIEW. Copy and keyword are approved.
 - 2026-10-17 07:20 UTC [B]: REDO done. Re-linked at FW 1650 TOP 0, 12/12. Barbell Club script read on Navy at phone size: thin, so thickened by hand in print-prep (file 1088075745); Sand keeps 1087721091. New mockups, variant images swapped (old media deleted), new temp cover (Men's Lifestyle, Navy, man). Audit: draft-state only. -> REVIEW.
+- 2026-10-17 07:13 UTC director: APPROVED, LIVE (ACTIVE + Online Store + Headless + Google & YouTube, audit --handle PASS). Barbell Club reads on Navy after thickening; temp cover is the same Printful man as #351 (R6.6). Temp cover SWAP.

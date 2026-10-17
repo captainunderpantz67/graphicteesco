@@ -1,5 +1,5 @@
-status: REVIEW
-cover: temp
+status: LIVE
+cover: temp (keep)
 lane: B
 type: twin
 id: 350
@@ -27,3 +27,4 @@ kd: 27
   1. R5.3.2: FW 1400 is under the 1500 floor for sweatshirts; on the crewneck mockups the print covers barely a third of the chest. A crewneck has no pouch, so re-link at FW 1650 (TOP 0), 12/12.
   2. New Sand + Navy mockups, variant images and couple's temp cover from the wider print, then REVIEW. Art, colors, copy and keyword are approved as they are.
 - 2026-10-17 06:55 UTC [B]: REDO done. Re-linked file 1087188286 at FW 1650 TOP 0 (crewneck floor, 7c), 12/12 synced. New Sand + Navy + back mockups, variant images swapped (old media deleted), couple's temp cover regenerated (alt starts 'Man and woman'). Phone-size read: SLURP RESPONSIBLY legible. Audit: only the draft-state error. -> REVIEW.
+- 2026-10-17 07:13 UTC director: APPROVED, LIVE (ACTIVE + Online Store + Headless + Google & YouTube, audit --handle PASS). FW 1650 fills the chest; joke reads on both colors. Temp cover KEEP.

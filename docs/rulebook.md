@@ -147,6 +147,7 @@ Sections are numbered so role cards and review notes can point at them ("fails R
    - Whole face and hair in frame with headroom; candid, natural skin.
    - Age fits the audience: moms 30s–40s, Mimi 50s–60s, college-age for cropped.
    - Never the same face twice: check and log `docs/model-registry.md`.
+     - **Temp covers too (director, 2026-10-17; 3 pairs in one batch shared a Printful model: #347/#349, #351/#352, #348/#350):** Printful lifestyle styles reuse the same model, so a temp cover's style ID counts as a face. Before using one, grep the pipeline logs for that style ID; if it's already on a live item, pick another style for that garment, or use it and mark the item `cover: temp (swap)` so it gets a fal cover first.
    - Mix ethnicities and ages across a grid.
 7. **Print fidelity:** the exact design, real ink on fabric (folds, matte), nothing covering it. On non-white garments, flatten the art onto the garment color (JPEG) before passing `--design`, or Seedream paints a dark patch.
 8. **Reject:** warped hands, garbled text, changed or redrawn print, background logos, a repeated face, a missing print.
