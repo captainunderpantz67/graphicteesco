@@ -3855,16 +3855,17 @@
   },
   "unisex-thanksgiving-totally-a-pilgrim-hoodie": {
    "claimed": [
-    "turkey hoodie"
+    "pilgrim turkey"
    ],
    "gaps_measured": [
     {
-     "phrase": "turkey hoodie",
-     "volume": 390,
-     "kd": 31
+     "phrase": "pilgrim turkey",
+     "volume": 480,
+     "kd": 30
     }
    ],
-   "measured": "2026-10-16"
+   "measured": "2026-10-17",
+   "note": "moved off 'turkey hoodie' (owned by laying-low-till-friday hoodie), director 2026-10-17"
   },
   "womens-christmas-snow-problem-graphic-tee": {
    "claimed": [
