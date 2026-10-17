@@ -1,9 +1,9 @@
+2026-10-17 14:35 UTC — [B] Run summary: REVIEW #452 (pink hoodie twin); ART-NEXT drafts #447-451 built. Remaining READY twins #378-382, #385 stay blocked on the R6.2 hand re-letter (needs fal); #354 stays REDO pending the fal couple cover; no lane B hoodie/sweatshirt in the variant-photo gap list. Lock released.
 2026-10-17 14:34 UTC — [B] ART-NEXT #451 DRAFT built (no art/sync/images; fal empty): womens-unicorn-magical-mostly-tired-zip-hoodie.
 2026-10-17 14:34 UTC — [B] ART-NEXT #450 DRAFT built (no art/sync/images; fal empty): unisex-crow-shiny-object-syndrome-hoodie.
 2026-10-17 14:34 UTC — [B] ART-NEXT #449 DRAFT built (no art/sync/images; fal empty): mens-pirate-arrr-thritis-hoodie.
 2026-10-17 14:34 UTC — [B] ART-NEXT #448 DRAFT built (no art/sync/images; fal empty): mens-grill-wizard-zip-hoodie.
 2026-10-17 14:33 UTC — [B] ART-NEXT #447 DRAFT built (no art/sync/images; fal empty): womens-alpaca-self-made-fleece-hoodie.
-RUNNING lane B since 2026-10-17 14:27 UTC
 2026-10-17 14:34 UTC — [B] REVIEW #452 Women's Y2K Hot Mess Express Hoodie (pink hoodie twin, Light Pink + White, FW 1500, temp cover style 1466, synced 12/12).
 RUNNING director since 2026-10-17 14:12 UTC
 2026-10-17 14:23 UTC — [D] Director review: 3 LIVE (#429 Lunges & Lattes cropped hoodie after its art redo, #432 Catch and Release zip hoodie, #433 Loose Goose cropped hoodie), 0 sent back; all audit --handle PASS, all three temp covers graded swap. Fixed one stale FAQ answer on #429 in place. Inbox: nothing new. Queue: 8 new briefs #445-#452 from a 100-phrase hoodie sweep (alpaca 4,400/KD14, wizard 1,600/17, knight 1,900/24, pirate 720/27, chihuahua 1,000/28, crow 590/33, unicorn 880/34, plus a fal-free Hot Mess Express pink pullover twin on pink hoodie 49,500/43); lane A 13 READY, lane B 12 READY. Older tee art checked for more fal-free twins (Vintage Bison, Hold On Eight, Knight Lifting, Light of the World, Mecha Mondays, Orange Slice): all carry a badge, arch, banner or typeset line, so no twins from them until fal returns. Map fix: #432's 90,500 volume is for 'catch and release', not the hoodie phrase.
