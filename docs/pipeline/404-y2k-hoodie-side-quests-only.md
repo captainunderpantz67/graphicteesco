@@ -1,7 +1,8 @@
-status: READY
+status: ART-NEXT
 lane: B
 type: new
 id: 404
+shopify: gid://shopify/Product/15363529277744
 handle: unisex-y2k-side-quests-only-hoodie
 kd: 28
 ---
@@ -23,3 +24,4 @@ kd: 28
 ---
 ## Log
 - 2026-10-17 09:22 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
+- 2026-10-17 09:55 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363529277744 (Gildan 18500, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category hoodies, tags y2k-hoodies + graphic-hoodies-for-men/-women + hoodie). Keyword video game hoodie 2,900/KD28. SEO title 46, meta 156, FAQs 5 x 43-50 words (order-by Dec 8). Copy written from the brief's art description (translucent teal handheld, adventurer, mushroom, pond, grape/lime/cream): re-check against the real art. FW 1500+ clear of pouch seam; check purple on Navy. No sync, images or cover.
