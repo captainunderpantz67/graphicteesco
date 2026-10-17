@@ -6455,6 +6455,32 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-gym-squire-spot-me-hoodie": {
+   "claimed": [
+    "knight hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "knight hoodie",
+     "volume": 1900,
+     "kd": 24
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-chihuahua-cold-since-birth-zip-hoodie": {
+   "claimed": [
+    "chihuahua hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "chihuahua hoodie",
+     "volume": 1000,
+     "kd": 28
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

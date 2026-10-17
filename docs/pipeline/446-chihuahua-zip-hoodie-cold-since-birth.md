@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: A
 type: new
 id: 446
 handle: womens-chihuahua-cold-since-birth-zip-hoodie
+shopify: gid://shopify/Product/15363750527280
 kd: 28
 ---
 ## Women's Chihuahua – Cold Since Birth Zip Hoodie
@@ -23,3 +24,4 @@ kd: 28
 ---
 ## Log
 - 2026-10-17 14:22 UTC director: brief written, READY (keyword measured this run, low-KD sweep; new art, ART-NEXT draft while fal is empty).
+- 2026-10-17 15:03 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363750527280 (zip 18600 Ash+Navy x S-3XL = 12, $44.99; back-art layout at sync). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.

@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: A
 type: new
 id: 445
 handle: mens-gym-squire-spot-me-hoodie
+shopify: gid://shopify/Product/15363750134064
 kd: 24
 ---
 ## Men's Gym – Squire, Spot Me Hoodie
@@ -23,3 +24,4 @@ kd: 24
 ---
 ## Log
 - 2026-10-17 14:22 UTC director: brief written, READY (keyword measured this run, low-KD sweep; new art, ART-NEXT draft while fal is empty).
+- 2026-10-17 15:03 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363750134064 (pullover 18500 Sand+Navy x S-3XL = 12, $39.99). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
