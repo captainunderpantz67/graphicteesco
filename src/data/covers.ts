@@ -373,6 +373,8 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-nurse-iv-league-crewneck-sweatshirt': { src: '/covers/womens-nurse-iv-league-crewneck-sweatshirt.webp', alt: 'Woman in a Sand IV League nurse crewneck sweatshirt in a hospital corridor at shift change, hands in her scrub pockets' },
   'unisex-pitbull-professional-lap-dog-hoodie': { src: '/covers/unisex-pitbull-professional-lap-dog-hoodie.webp', alt: 'Man and woman in matching navy Professional Lap Dog pit bull hoodies on a backyard porch with a pit bull lying at their feet' },
   'unisex-mothman-light-sleeper-hoodie': { src: '/covers/unisex-mothman-light-sleeper-hoodie.webp', alt: 'Man and woman in matching navy Mothman Light Sleeper hoodies on a wooden front porch at dusk under a glowing porch light' },
+  'mens-trucker-truck-stop-connoisseur-heavyweight-hoodie': { src: '/covers/mens-trucker-truck-stop-connoisseur-heavyweight-hoodie.webp', alt: 'Man in a Storm Blue Truck Stop Connoisseur heavyweight hoodie holding a trucker cap in a highway diner parking lot with a semi truck behind him' },
+  'unisex-alien-visiting-not-impressed-oversized-hoodie': { src: '/covers/unisex-alien-visiting-not-impressed-oversized-hoodie.webp', alt: 'Man and woman in matching navy Visiting Not Impressed alien oversized hoodies in a desert roadside diner parking lot at blue hour' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

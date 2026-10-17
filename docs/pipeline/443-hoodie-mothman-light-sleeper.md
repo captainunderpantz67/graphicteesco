@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-17 19:36
+status: REVIEW
 lane: E
 type: new
 id: 443
@@ -26,3 +26,4 @@ kd: 31
 - 2026-10-17 13:24 UTC director: brief written, READY (keyword measured this run, low-KD sweep; new art, ART-NEXT draft while fal is empty).
 - 2026-10-17 13:40 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363700719920 (Sand + Navy x S-3XL, Gildan 18500, $39.99; keyword mothman hoodie 390/KD31; FAQs 5 x 40-60 words, order-by Dec 8). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane E.
+- 2026-10-17 19:49 UTC builder [E]: REVIEW. Art: Recraft v4 picture only (1 call), words set with compose-print.py (Alfa Slab cream with dark outline). Dark wings sink into Navy, so the art carries a thin cream keyline (new compose-print 'halo' option, 16 px), not a shape behind it. Print 3217x3105, FW 1500 TOP 0 (about 9.7 in tall, clear of the pouch). R6.2: no ring/panel/box, real-font line. Printful file 1088439168, sync product 482474904 12/12. Mockups Navy + Sand fronts + back attached per color; read OK at phone size. Copy re-checked against the art (wings wrapped, eyes shut, moths; lettering is slab capitals not hand-drawn). FAQ 5 Qs 40-60 words, order-by Dec 8. Cover: registry 639+640 (man and woman, porch at dusk), seedream 1 attempt, both prints fully legible, hoods visible, hands in pockets. fal ~$0.12. audit-local PASS. design-crops/variant-photo-audit need the published page: rerun after publish.
