@@ -378,6 +378,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-alien-visiting-not-impressed-oversized-hoodie': { src: '/covers/unisex-alien-visiting-not-impressed-oversized-hoodie.webp', alt: 'Man and woman in matching navy Visiting Not Impressed alien oversized hoodies in a desert roadside diner parking lot at blue hour' },
   'womens-beach-low-tide-low-effort-oversized-hoodie': { src: '/covers/womens-beach-low-tide-low-effort-oversized-hoodie.webp', alt: 'Woman in a navy Low Tide Low Effort crab oversized hoodie on a cold windy beach boardwalk with dunes and beach grass behind her' },
   'mens-outdoors-mountains-called-left-on-read-hoodie': { src: '/covers/mens-outdoors-mountains-called-left-on-read-hoodie.webp', alt: 'Man in a sand Mountains Called Left on Read hoodie at a mountain overlook with a guardrail and peaks behind him, hands in the pouch pocket' },
+  'womens-christmas-seasonally-overbooked-crewneck-sweatshirt': { src: '/covers/womens-christmas-seasonally-overbooked-crewneck-sweatshirt.webp', alt: 'Woman in a navy Seasonally Overbooked December calendar crewneck sweatshirt at an evening holiday market with string lights and shopping bags' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

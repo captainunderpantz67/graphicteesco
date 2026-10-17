@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-17 19:45
+status: REVIEW
 lane: E
 type: new
 id: 359
@@ -26,3 +26,4 @@ kd: 33
 - 2026-10-17 06:19 UTC director: brief written, READY (2026-10-17 morning sweep: no unclaimed KD ≤ 20 hoodie/sweatshirt phrase with volume left in RankHero; this is the KD 21–40 band, highest volume first; keyword measured this run).
 - 2026-10-17 06:43 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363169386800 (launch colors per brief, S-3XL, price per brief with no compare-at, category, tags per brief incl. hub tags, SEO, FAQs; keyword alien hoodie /1300 /33). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane E.
+- 2026-10-17 19:57 UTC builder [E]: REVIEW. Art: Recraft v4 picture only (1 call), words set with compose-print.py (Alfa Slab: VISITING. mustard, NOT IMPRESSED. cream, dark outline). Print 3079x3312, FW 1500 TOP 0 (4719 print area 1650 wide). R6.2 ok, no ring/panel/box. Printful file 1088444436, sync product 482403030 12/12. Mockups Navy + Dust fronts + back attached per color; phone read OK. Copy re-checked: alien is teal in red sneakers (added), lettering is slab, FAQ 5 Qs 47-51 words, order-by Dec 8. Cover: registry 550 (man and woman, desert diner lot at blue hour), seedream 2 attempts (1st: man in a hoodless crewneck; 2nd: both in hoods, but the woman's shoulder hides the end of 'NOT IMPRESSED' on the man's print; the woman's print is fully clear; director to judge, a third try is possible). fal ~$0.17. audit-local PASS. design-crops/variant-photo-audit need the published page.
