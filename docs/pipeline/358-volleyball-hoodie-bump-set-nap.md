@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 358
@@ -31,3 +31,4 @@ kd: 35
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane B. LINE REWRITE (cheeky not cheesy, R3.1): the words on the shirt are now "I Yell 'Free Ball' at Everything" (this replaces the brief's text line; keep the brief's character/scene if it fits the new line, otherwise draw what the new line needs). Update the Shopify title and copy line one to the new line; handle stays.
 - 2026-10-18 05:10 UTC builder [B]: LINE REWRITE applied (I Yell 'Free Ball' at Everything): title, SEO, copy rewritten on the existing draft (handle stays: ...i-only-dive-for-snacks...; gid 15363169878320); scene changed from a dozing ball to a shouting cartoon ball in a headband and high-tops (the new line needs a yell), logged. Art via Recraft (1 image, no lettering) + I YELL / "FREE BALL" / AT EVERYTHING in AlfaSlabOne cream and red with navy stroke (designs/b/vb.json, vb-kw.png; white gap between the legs knocked out, 100000). Reads on Sand and Navy. Printful file 1088473136, FW 1500 TOP 0, sync pid 482403067 running. Mockups per color + back attached. Cover registry #549 try 1 (~$0.04), words read. kw volleyball hoodie 1000/35.
 - 2026-10-17 21:04 UTC builder [B]: synced 12/12. REVIEW. Sheet docs/review/358.jpg.
+- 2026-10-17 21:19 UTC director: LIVE. sheet seen: shouting volleyball, I YELL "FREE BALL" AT EVERYTHING reads on both; cover woman in a gym by the net. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.

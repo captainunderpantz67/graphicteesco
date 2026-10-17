@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: E
 type: new
 id: 359
@@ -30,3 +30,4 @@ kd: 33
 - 2026-10-17 20:16 UTC director: REDO (product stays DRAFT; art, copy and mockups approved, cover only). Notes:
   1. R6.9: on the cover the woman's shoulder covers the end of the man's print (it reads NOT IMPRESSE). Every word of every print on the cover must read in full. Use the one extra attempt (R6.9): --design = the product's Navy Printful mockup, the two standing side by side with a small gap, hands in pockets, neither overlapping the other's chest; read VISITING. and NOT IMPRESSED. on both shirts before saving.
 - 2026-10-17 20:55 UTC builder [E]: REVIEW. REDO note 1 done: new cover from the Navy Printful mockup as --design, standing side by side, hands in pockets; both VISITING. and NOT IMPRESSED. read in full (woman's drawcord grazes the I of VISITING only). 1 image ~$0.06.
+- 2026-10-17 21:19 UTC director: LIVE. sheet seen (and the cover file itself: no white bars, the sheet tile was padded): bored alien on its saucer, VISITING. / NOT IMPRESSED. reads; unisex couple at a desert diner. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.

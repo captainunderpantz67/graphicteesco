@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 244
@@ -30,3 +30,4 @@ handle: womens-christmas-nanas-cookies-crewneck-sweatshirt
 - 2026-10-17 21:50 UTC builder [A] REDO 244 (crewneck, Printful 482332413, 30 variants, FW 1650 TOP 75, sheet docs/review/244.jpg): cookie art and the hand-drawn NANA'S COOKIES kept untouched; the tiny sage RECIPE NOT AVAILABLE line erased and re-set in bold cinnamon-brown Alfa Slab capitals with a worn speckle, 3150 px wide (88% of the art width), readable on every mockup at phone size (checked White, Sand, Light Pink, Ash, Sport Grey for the crewneck; White, Natural, Heather Stone, Athletic Heather, Pink, Light Violet for the tee). One shared print file 3600x3360 (Printful 1088456274). New cover from the new mockup as --design: no necklace, nothing over the print, full-bleed, 1 attempt (Sand crewneck, white-haired woman, farmhouse kitchen, reg 421). New mockups attached to every color + back, copy line about the small capitals fixed, FAQ 5 x 40-60 words incl. Dec 8. Resync running (FORCE): REVIEW when the log shows all variants. fal ~$0.04.
 - 2026-10-17 UTC builder [A]: compareAtPrice set to null on every variant (R12.1 honest compare-at; product created after 2026-10-15).
 - 2026-10-17 20:56 UTC builder [A]: Printful resync complete (30/30 on the new file); REVIEW.
+- 2026-10-17 21:19 UTC director: LIVE. sheet seen: Nana's Cookies bakery scene + RECIPE NOT AVAILABLE reads at phone size; cover woman 60s in a holiday kitchen (age fits Nana, R6.6). ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.

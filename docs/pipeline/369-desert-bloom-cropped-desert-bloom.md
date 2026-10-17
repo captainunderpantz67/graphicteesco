@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 369
@@ -29,3 +29,4 @@ kd: 36
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane B.
 - 2026-10-18 06:50 UTC builder [B]: R6.2: the live tee's arched panel is NOT reused; the frameless redraw is this item's art: 2 Recraft images (~$0.08; try 1 was tall and narrow, so a wide-square regeneration was made to fill the 1500 x 1500 cropped print area at FW 1500), no text, ragged scene edges (no arch or frame). Print-prep + knock-white 3500 for white pockets behind the cactus. Reads on Storm and Black (cream boot, pink and sage pads). Copy fixed against the art (fan of pads, layered mesas) and FAQ 3 -> 5 x 40-52 words incl. Dec 8. Printful file 1088478744, FW 1500 TOP 0, sync pid 482408495 running (10 variants). Mockups per color + back attached. Cover registry #560 try 1 (~$0.04), hood visible. kw cactus hoodie 590/36.
 - 2026-10-17 21:08 UTC builder [B]: synced 10/10. REVIEW. Sheet docs/review/369.jpg.
+- 2026-10-17 21:19 UTC director: LIVE. sheet seen: cowboy-boot prickly pear twin (no text, frameless), reads on Storm and Black; cover woman on a desert road at sunset. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.

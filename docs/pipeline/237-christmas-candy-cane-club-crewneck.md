@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
 id: 237
@@ -27,3 +27,4 @@ handle: womens-christmas-candy-cane-club-crewneck-sweatshirt
 - 2026-10-17 21:20 UTC builder [A] REDO 237: (1) erased 'Est. December' and the old CANDY CANE CLUB lettering component by component (no new art; canes, bow, peppermints untouched). (2) Re-lettered CANDY CANE CLUB in Lobster script, deep green #25573a, arched (letters rotated along a circle), about 3400 px wide. (3) Knocked out the two enclosed pure-white gaps between the canes (including the blob at the top of the centre cane, 296k px); no free pure white left. New file 3570x4521 (Printful 1088453324), FW 1650 TOP 75 (about 14 in tall). Mockups checked on White, Sand, Light Pink, Ash. New cover (brief's reg 411 person, Sand crewneck, Christmas sweets stall, 1 attempt). Copy: art paragraph + SEO meta no longer mention Est. December; FAQ 5 x 40-60 words incl. Dec 8. NOTE: Printful sync product is 482321113 (the log line of 2026-10-16 named 482320956, which is not this item's). Resync 24 variants running (FORCE): REVIEW at 24/24. fal ~$0.04.
 - 2026-10-17 UTC builder [A]: compareAtPrice set to null on every variant (R12.1 honest compare-at; product created after 2026-10-15).
 - 2026-10-17 20:33 UTC builder [A]: Printful resync complete (24/24 on the new file); REVIEW.
+- 2026-10-17 21:19 UTC director: LIVE. sheet seen: Candy Cane Club re-lettered, white blob gone, reads on White/Sand/Pink/Ash; cover woman at a sweets stall, bag at the hip. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.

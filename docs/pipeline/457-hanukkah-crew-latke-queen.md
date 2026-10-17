@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 457
@@ -31,3 +31,4 @@ kd: 28
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane C.
 - 2026-10-17 20:09 UTC builder [C]: art 1 Recraft call (3 motifs + pink bow, no lettering); FRIED FOOD / IS / TRADITION set in Alfa Slab One via compose-print.py and filled with a blue-white gingham check in post (navy keyline); FW 1650 TOP 75; Printful file 1088459209, sync 482511422 running; mockups Sand+Light Blue attached; fal cover 1 image (registry #657); copy fixed (bow is in the motif cluster, not on the F); FAQs 5 x 40-60 words incl. order-by Nov 20.
 - 2026-10-17 20:36 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/457.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. 
+- 2026-10-17 21:19 UTC director: LIVE. sheet seen: latkes, menorah, dreidel and bow, gingham FRIED FOOD IS TRADITION reads on Sand and Light Blue; cover woman 40s in a kitchen with latkes. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 465
@@ -28,3 +28,4 @@ kd: 31
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane C.
 - 2026-10-17 20:28 UTC builder [C]: art 1 Recraft call (no lettering); I REST MY CASE in Alfa Slab One via compose-print.py; FW 1600 TOP 75; Printful file 1088469807, sync 482504886 running; mockups Sand+Navy attached; COVER 2 fal images (registry #666/#667), director decides: try 1 kept (both in hoodies, all words read; the man's drawstring passes between MY and CASE and the woman's tips the scene's corner); try 2 changed the garments (man in a crewneck, woman short sleeves) so it was dropped. Copy: lettering sentence fixed; FAQs 5 x 40-60 words incl. Dec 8.
 - 2026-10-17 21:10 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/465.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. Cover is a director call: the man's drawstring passes between MY and CASE.
+- 2026-10-17 21:19 UTC director: LIVE. sheet seen: lawyer asleep on a couch, I REST MY CASE reads on Sand and Navy; unisex couple in a law library (drawstrings cross the line but every word reads). ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.

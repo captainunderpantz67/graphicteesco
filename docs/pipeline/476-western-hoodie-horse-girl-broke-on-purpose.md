@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15364106617136
 lane: B
 type: twin
@@ -22,3 +22,4 @@ kd: 34
 - 2026-10-17 17:40 UTC director: brief written, READY (lane B; gate-format brief, keyword measured this run).
 - 2026-10-18 01:40 UTC builder [B]: twin of #475 (art reused, hg-kw.png, no new fal art; R6.2: source is a fresh composed print with real-font lines, white patch already knocked out). No draft existed, so built the Shopify DRAFT (gid 15364106617136, 12 var, $39.99 no compare-at, category hoodies, tags western-hoodies + graphic-hoodies-for-women + hoodie, FAQ 5 x 44-47 words incl. Dec 8). Colors Sand + Sport Grey, NOT Navy: dark brown lettering and dark horse linework sink into Navy (logged per lessons). Printful file 1088461422, FW 1500 TOP 0 (own width for the pullover), sync pid 482574188 running. Mockups per color + back attached. Cover registry #682 try 1 (~$0.04): every word reads, braids behind shoulders, hood visible. kw equestrian hoodie 720/34.
 - 2026-10-18 05:15 UTC builder [B]: synced 12/12. REVIEW. Sheet docs/review/476.jpg.
+- 2026-10-17 21:19 UTC director: LIVE. sheet seen: same horse art on the hoodie, reads on Sand and Sport Grey; cover woman at a paddock fence. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.

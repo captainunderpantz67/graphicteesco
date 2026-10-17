@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 341
@@ -28,3 +28,4 @@ kd: 30
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane C.
 - 2026-10-17 20:12 UTC builder [C]: art 1 Recraft call (no lettering); SMILING THROUGH IT in Lobster via compose-print.py; art cropped and set at 60% width so the whole print fits the 1650x1650 front area at FW 1500 TOP 75 (aspect 0.89); Printful file 1088461042, sync 482393839 running; mockups Dust+Navy attached; fal cover 1 image (registry #532 rewritten to the real face, the reserved pink-bob face was not used); FAQs rewritten 5 x 48-56 words; copy now names the striped cup and daisies.
 - 2026-10-17 20:36 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/341.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. 
+- 2026-10-17 21:19 UTC director: LIVE. sheet seen: axolotl in a teacup with its rain cloud, SMILING THROUGH IT reads on Dust and Navy; cover woman at a cafe window. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.

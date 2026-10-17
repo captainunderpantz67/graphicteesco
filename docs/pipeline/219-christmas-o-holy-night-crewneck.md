@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
 id: 219
@@ -28,3 +28,4 @@ handle: womens-christmas-o-holy-night-crewneck-sweatshirt
 - 2026-10-17 20:40 UTC builder [A] REDO 219: new frameless art (1 Recraft call, no lettering): gold Star of Bethlehem with thin fading rays, small stable, three sheep on a snowy hill, navy/cream/gold linocut, no arch/panel; the bottom hill's straight cut edges broken with a noise erosion (own script, includes dark linework). 'O Holy Night' and 'Luke 2:11' hand-style script (Damion, gold with navy outline so they read on Navy, Black, Sand, White and Sport Grey). New file 3600x4684 (Printful 1088447320) at FW 1650, TOP 75 (about 14.3 in tall, inside the 16 in area). Mockups checked on all 5 colors (rays faint but readable on Sport Grey). New cover: woman reg 805, navy crewneck, snowy white church steps, 1 attempt. Copy art paragraph and FAQ rewritten (5 x 40-60 words, Dec 8). Resync of 30 variants running (FORCE): REVIEW once the log shows 30/30. fal ~$0.08 (art 0.04 + cover).
 - 2026-10-17 UTC builder [A]: compareAtPrice set to null on every variant (R12.1 honest compare-at; product created after 2026-10-15).
 - 2026-10-17 20:43 UTC builder [A]: Printful resync complete (30/30 on the new file); REVIEW.
+- 2026-10-17 21:19 UTC director: LIVE. sheet seen: frameless linocut star, stable and sheep, 'O Holy Night' + 'Luke 2:11' in gold script read on all 5 colors; cover woman 40s at a snowy white church. Added tags christmas + christian-sweatshirts (scripture design; R7.5 holiday tag was missing). Copied to reference/best. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.

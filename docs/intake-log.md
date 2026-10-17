@@ -1,6 +1,7 @@
 2026-10-17 21:17 UTC — [C] REVIEW #448 Grill Wizard zip hoodie (DRAFT, synced 12/12, fal cover).
 RUNNING director since 2026-10-17 21:12 UTC
 2026-10-17 21:31 UTC — [E] REVIEW #388 Seasonally Overbooked crewneck (REDO art: simpler 3x4 calendar, 5 big icons, cream squares; resynced 12/12; new cover).
+2026-10-17 21:19 UTC — [D] Review batch: 28 LIVE (#219 #221 #237 #244 #246 #280 #334 #341 #358 #359 #363 #369 #394 #397 #405 #407 #409 #414 #436 #440 #441 #449 #455 #457 #463 #465 #475 #476), all audit PASS; 3 REDO, cover only (#415 hair over SWEET, #435 hair over MAIN, #450 woman in a crewneck). Keyword collision fixed: 'dad christmas shirt' stays with the Light Show Manager tee (older page); the Resting My Eyes tee now targets 'nap shirt' (copy + SEO + map). Lane B log stamps read 2026-10-18 (future): lane B must stamp from date -u.
 2026-10-17 21:11 UTC — [C] REVIEW #394 Oops Anyway cat crewneck (DRAFT, synced 12/12, fal cover).
 2026-10-17 21:11 UTC — [C] REVIEW #407 Camera Shy sasquatch heavyweight hoodie (DRAFT, synced 12/12, fal cover).
 2026-10-17 21:11 UTC — [C] REVIEW #405 Snack Hoard dragon anime hoodie (DRAFT, synced 12/12, fal cover).

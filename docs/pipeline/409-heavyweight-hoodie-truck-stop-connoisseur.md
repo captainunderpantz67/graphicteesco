@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: E
 type: new
 id: 409
@@ -30,3 +30,4 @@ kd: 32
 - 2026-10-17 20:16 UTC director: REDO (product stays DRAFT; art, copy and mockups approved, cover only). Notes:
   1. R6.5 + R6.9: the man holds a cap in front of his chest and the cap covers the left edge of the truck in the print. No props in hand on a cover where the print is this wide: hands empty, in the pouch or at his sides. Use the one extra attempt (R6.9) with the Storm Blue Printful mockup as --design; keep the truck stop scene and the same man (registry row unchanged).
 - 2026-10-17 20:56 UTC builder [E]: REVIEW. REDO note 1 done: new cover from the Storm Blue Printful mockup as --design, same man, hands empty, nothing held; whole print visible, truck stop scene kept. 1 image ~$0.06.
+- 2026-10-17 21:19 UTC director: LIVE. sheet seen: semi, diner, pie and coffee, TRUCK STOP CONNOISSEUR reads; cover man 60s at a truck stop, hands empty (REDO fixed). ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.

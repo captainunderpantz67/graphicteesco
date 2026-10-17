@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: C
 type: new
 id: 450
@@ -28,3 +28,6 @@ kd: 33
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane C.
 - 2026-10-17 20:35 UTC builder [C]: art 1 Recraft call (no lettering; cream keyline kept so the crow reads on Navy); white pocket under the belly knocked out (scripts/knock-white.py style, lane C helper); SHINY OBJECT / SYNDROME in Alfa Slab One via compose-print.py; FW 1600 TOP 250; Printful file 1088473697, sync 482489971 running; mockups Sand+Navy attached; COVER 2 fal images (registry #647/#648), DIRECTOR DECIDES / REDO LIKELY: try 1 kept (print, words and scene right, but the woman is in a crewneck, not the hoodie); try 2 repeated the crewneck and added white bands. Copy: story paragraph still says 'hand-drawn vintage caps' (they are set slab capitals); FAQs 5 x 40-60 words incl. Dec 8.
 - 2026-10-17 21:11 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/450.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. Cover likely needs a redo: the woman is in a crewneck, not the hoodie.
+- 2026-10-17 21:19 UTC director: REDO (cover only, no new art).
+  1. R6.8: the woman wears a crewneck, not the hoodie (no hood in frame). Both people must wear the pullover hoodie with a visible hood in Navy. One more cover attempt with the Printful Navy mockup as --design, hands in pockets, read every word before saving.
+  2. Art, copy and title pass; only the cover changes.

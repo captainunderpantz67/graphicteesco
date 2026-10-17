@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 363
@@ -28,3 +28,4 @@ kd: 32
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane C.
 - 2026-10-17 20:31 UTC builder [C]: art 1 Recraft call (no lettering, worn ragged edges); WENT OUTSIDE. / IT WAS FINE. in Alfa Slab One via compose-print.py; FW 1600 TOP 250 (hung low so the drawcords clear the top line: the cover shows it works); Printful file 1088471915, sync 482403012 running; mockups Sandstone+Storm Blue attached; fal cover 1 image (registry #554/#555), clean; FAQs rewritten 5 x 45-51 words incl. Dec 8; copy names the real lettering.
 - 2026-10-17 20:57 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/363.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. 
+- 2026-10-17 21:19 UTC director: LIVE. sheet seen: mountain-lake travel poster, WENT OUTSIDE. / IT WAS FINE. reads on Sandstone and Storm Blue; unisex couple at a trailhead. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.

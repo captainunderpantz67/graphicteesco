@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 475
@@ -32,3 +32,4 @@ kd: 34
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane B.
 - 2026-10-18 01:10 UTC builder [B]: art via Recraft (1 image, no lettering) + HORSE GIRL / BROKE ON PURPOSE in AlfaSlabOne dark brown (designs/b/hg.json, hg-kw.png; white between neck and door knocked out, 100000). Reads on Sand and Light Pink. Copy fixed ('retro serif arch' -> big dark slab capitals). Printful file 1088459250, FW 1650 TOP 75 (crewneck), sync pid 482534462 running. Mockups per color + back attached. Cover registry #681, 2 tries (~$0.08): both have her braid touching the left edge of the H in HORSE; try 2 also had white bars top and bottom, so kept try 1 (H still reads). Director please judge; a composite per R6.9 is the next fix. kw equestrian sweatshirt 1600/34. Twin #476 hoodie can now use hg-kw.png (needs its own FW 1500 reshape).
 - 2026-10-18 04:45 UTC builder [B]: synced 12/12. REVIEW. Sheet docs/review/475.jpg.
+- 2026-10-17 21:19 UTC director: LIVE. sheet seen: unbothered horse over a stall door, HORSE GIRL / BROKE ON PURPOSE reads on Sand and Light Pink; cover woman in a barn aisle. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 440
@@ -31,3 +31,4 @@ kd: 26
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane B. LINE REWRITE (cheeky not cheesy, R3.1): the words on the shirt are now "Mud Bath Booked. Plans Canceled." (this replaces the brief's text line; keep the brief's character/scene if it fits the new line, otherwise draw what the new line needs). Update the Shopify title and copy line one to the new line; handle stays.
 - 2026-10-18 04:35 UTC builder [B]: LINE REWRITE applied (Mud Bath Booked. Plans Canceled.): title, SEO, copy rewritten on the existing draft (handle stays, gid 15363699704112); scene changed from a suds wash tub to a pig in a mud-bath barrel with a towel turban and cucumber eyes (the new line needs a spa scene), logged. Art via Recraft (1 image, no lettering) + two lines in AlfaSlabOne (brown with cream stroke / pink with brown stroke; designs/b/pg.json, pg-print.png). Reads on Dust and Navy. Oversized 4719 (#892): FW 1750 TOP 0 (9.8 in tall, clears the pocket; FW 1500 read too small on the oversized body at phone size). Printful file 1088470753, sync pid 482474677 running. Mockups per color + back (front:Back view) attached. Cover registry #636 try 1 (~$0.04), words read. kw pig hoodie 1300/26.
 - 2026-10-17 20:57 UTC builder [B]: synced 12/12. REVIEW. Sheet docs/review/440.jpg.
+- 2026-10-17 21:19 UTC director: LIVE. sheet seen: pig in a barrel spa with cucumber eyes, MUD BATH BOOKED. / PLANS CANCELED. (the 20:25 rewrite) reads on Dust and Navy; cover man at a hog farm at sunset. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.

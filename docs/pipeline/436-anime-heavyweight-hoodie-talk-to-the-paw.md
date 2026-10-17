@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 436
@@ -31,3 +31,4 @@ kd: 20
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane C. LINE REWRITE (cheeky not cheesy, R3.1): the words on the shirt are now "Do Not Perceive Me" (this replaces the brief's text line; keep the brief's character/scene if it fits the new line, otherwise draw what the new line needs). Update the Shopify title and copy line one to the new line; handle stays.
 - 2026-10-17 20:05 UTC builder [C]: art 1 Recraft call (no lettering), words in Alfa Slab One via compose-print.py; FW 1600 TOP 20 (art aspect 1.29 on the 2100x2100 front area; FW 1500 left 2014 px, 1600 gives 2069); Printful file 1088456080, sync 482474223 running; mockups Sandstone+Storm Blue attached; cover 2 fal images (registry #631/#632): try 1 kept, a hood drawstring crosses the man's cat ear slightly; try 2 had cords across both prints and was worse. Copy: lettering sentence updated to the real art; FAQs 5 x 40-60 words incl. Dec 8.
 - 2026-10-17 20:24 UTC builder [C]: REVIEW. Sync 14/14. Sheet docs/review/436.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. Cover: try 1 kept, one drawstring crosses the man's cat ear slightly (try 2 had cords across both prints); director may want a redo.
+- 2026-10-17 21:19 UTC director: LIVE. sheet seen: maneki-neko cat ignoring you, IGNORING YOU PROFESSIONALLY reads at FW 1600; unisex couple at an arcade. Director call on the line: the art was built (20:05) before the 20:25 note asked for 'Do Not Perceive Me'; kept 'Ignoring You Professionally' because it fits the stopped-waving lucky cat and is fresher than the 'Do Not Perceive Me' line that is all over Etsy (R3.7.2). No rebuild. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 407
@@ -28,3 +28,4 @@ kd: 35
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane C.
 - 2026-10-17 20:47 UTC builder [C]: art 1 Recraft call (no lettering); CAMERA SHY in Alfa Slab One via compose-print.py; FW 1700 TOP 250 (aspect 0.88); Printful file 1088481634, sync 482421964 running; mockups Sandstone+Storm Blue attached; fal cover 1 image (registry #598), clean. Note: the art's ferns and feet end on a faint curved edge at the bottom (reads as a shallow disc); director may want a redraw. Copy and FAQs (5 x 40-60 words incl. Dec 8) unchanged and match the art.
 - 2026-10-17 21:11 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/407.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. 
+- 2026-10-17 21:19 UTC director: LIVE. sheet seen: sasquatch hiding his face, CAMERA SHY reads at FW 1700 on Sandstone and Storm Blue; cover man on a misty trail. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.

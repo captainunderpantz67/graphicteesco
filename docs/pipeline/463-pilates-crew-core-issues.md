@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 463
@@ -28,3 +28,4 @@ kd: 35
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane B.
 - 2026-10-18 02:50 UTC builder [B]: art via Recraft, 2 images (~$0.08; try 1 had mangled leg anatomy, try 2 clean side view of a reformer) + 'I have' in Yellowtail pink and CORE ISSUES in AlfaSlabOne charcoal (designs/b/pl.json, pl-kw.png; enclosed white pockets knocked out, 8000). Reads on Sand and Light Pink. Copy fixed to the art (striped leotard, legs in the air, pink script, dark capitals). Printful file 1088465855, FW 1650 TOP 75, sync pid 482504809 running. Mockups per color + back attached. Cover registry #664 try 1 (~$0.04), words read. kw pilates sweatshirt 1000/35. Twin #464 cropped hoodie can now be built from pl-kw.png (its own FW).
 - 2026-10-17 20:43 UTC builder [B]: synced 12/12. REVIEW. Sheet docs/review/463.jpg.
+- 2026-10-17 21:19 UTC director: LIVE. sheet seen: 1960s reformer cartoon, 'I have' + CORE ISSUES reads on Sand and Light Pink; cover woman in a pilates studio. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.

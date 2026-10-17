@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15363406168368
 lane: C
 type: new
@@ -28,3 +28,4 @@ kd: 34
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane C.
 - 2026-10-17 20:40 UTC builder [C]: art 2 Recraft calls (try 1 was a wave ring that read as a disc, R4.1; try 2 kept: otter on low flat waves, open space), no lettering; CURRENTLY / DRIFTING in Lobster via compose-print.py; FW 1500 TOP 180 (aspect 1.24 on the 2100 area); Printful file 1088476433, sync 482415638 running; mockups Sand+Navy attached; COVER 2 fal images (registry #588/#589), director decides: try 1 kept (both in hoodies, all words read; each hood drawstring crosses the print: CURRENTLY and the kelp); try 2 was worse. Next time hang hoodie prints lower (TOP 250) so drawstrings clear the top line, as #363 did. FAQs existing 5 x 40-60 words (no holiday order-by).
 - 2026-10-17 21:03 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/397.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. Cover is a director call: hood drawstrings cross CURRENTLY and the kelp.
+- 2026-10-17 21:19 UTC director: LIVE. sheet seen: drifting otter with its coffee, CURRENTLY / DRIFTING reads on both; unisex couple on a boardwalk (drawstrings hang clear of the words). ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 449
@@ -32,3 +32,4 @@ kd: 27
 - 2026-10-18 00:25 UTC builder [B]: art via Recraft, 2 images (~$0.08; try 1 had a boot floating off the peg-leg stump, R5.3.4; try 2 clean) + words in AlfaSlabOne cream/gold with navy stroke (designs/b/pi.json, pi-kw.png; two large white patches around legs/cane knocked out with knock-white 100000). Figure narrowed (art_width 0.58) so FW 1500 stays about 11.6 in tall, above the pouch seam. Copy fixed to match the art (patchwork coat, gangplank, bold cream and gold capitals). Printful file 1088456606, FW 1500 TOP 0, sync pid 482489873 running. Mockups per color + back attached. Cover registry #646 try 1 (~$0.04), words read. kw pirate hoodie 720/27.
 - 2026-10-18 00:25 UTC builder [B]: art via Recraft, 2 images (~$0.08; try 1 had a boot floating off the peg-leg stump, R5.3.4; try 2 clean) + words in AlfaSlabOne cream/gold with navy stroke (designs/b/pi.json, pi-kw.png; two large white patches around legs/cane knocked out with knock-white 100000). Figure narrowed (art_width 0.58) so FW 1500 stays about 11.6 in tall, above the pouch seam. Copy fixed to match the art (patchwork coat, gangplank, bold cream and gold capitals). Printful file 1088456606, FW 1500 TOP 0, sync pid 482489873 running. Mockups per color + back attached. Cover registry #646 try 1 (~$0.04), words read. kw pirate hoodie 720/27.
 - 2026-10-18 02:55 UTC builder [B]: synced 12/12. REVIEW. Sheet docs/review/449.jpg.
+- 2026-10-17 21:19 UTC director: LIVE. sheet seen: old peg-leg pirate with cane and parrot, PILLAGING IS A YOUNG MAN'S GAME reads; cover man 70s on a dock. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.
