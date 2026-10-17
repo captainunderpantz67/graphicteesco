@@ -439,6 +439,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-funny-already-over-it-kindly-hoodie': { src: '/covers/womens-funny-already-over-it-kindly-hoodie.webp', alt: 'Woman with a platinum-blonde shag in a navy Already Over It, Kindly hoodie, seated at a city coffee shop window in late fall with a laptop on the table' },
   'unisex-homebody-university-of-staying-in-crewneck-sweatshirt': { src: '/covers/unisex-homebody-university-of-staying-in-crewneck-sweatshirt.webp', alt: 'Man and woman in matching navy University of Staying In crewneck sweatshirts, smiling in a cozy living room on a rainy evening' },
   'unisex-nurse-calm-face-loud-brain-crewneck-sweatshirt': { src: '/covers/unisex-nurse-calm-face-loud-brain-crewneck-sweatshirt.webp', alt: 'Man and woman in matching navy Calm Face, Loud Brain nurse crewneck sweatshirts with ID badges, smiling in a hospital staff hallway' },
+  'womens-tennis-my-backhand-has-opinions-cropped-hoodie': { src: '/covers/womens-tennis-my-backhand-has-opinions-cropped-hoodie.webp', alt: 'Woman in a storm cropped hoodie with a racket-and-bow print and a headband, standing at a tennis court fence at golden hour with a racket bag on a bench' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
