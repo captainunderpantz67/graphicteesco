@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: B
 type: new
 id: 475
 handle: womens-equestrian-horse-girl-broke-on-purpose-crewneck-sweatshirt
+shopify: gid://shopify/Product/15363938189616
 kd: 34
 ---
 ## Women's Equestrian – Horse Girl, Broke on Purpose Crewneck Sweatshirt
@@ -27,3 +28,4 @@ kd: 34
 ---
 ## Log
 - 2026-10-17 17:40 UTC director: brief written, READY (lane B; gate-format brief, keyword measured this run).
+- 2026-10-17 17:32 UTC builder [B]: ART-NEXT (design gate pending): full Shopify DRAFT gid://shopify/Product/15363938189616 (Sand + Light Pink x S-3XL = 12, Gildan 18000, $34.99 no compare-at, category sweatshirts, keyword equestrian sweatshirt, SEO within limits, 5 FAQs 40-60 words, order-by Dec 8). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
