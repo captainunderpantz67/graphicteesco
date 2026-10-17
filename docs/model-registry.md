@@ -588,3 +588,4 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 804 | Native Hawaiian woman, early 30s, long dark hair in a single braid, small gold hoops, tan cowboy hat | USED 2026-10-17 — #217 Ho Ho Howdy hoodie cover redo (seedream, 2 attempts: try 1 hair covered the first H; try 2 kept, braid just touches the H edge, Santa's face soft) |
 | 805 | Colombian woman, late 30s, shoulder-length wavy chestnut hair, small pearl earrings | USED 2026-10-17 — #219 O Holy Night crewneck cover redo (seedream, 1 attempt) |
 | 806 | Nigerian-American woman, early 30s, braids in a high bun, small gold studs | USED 2026-10-17 — #221 Christmas Nurse crewneck cover redo (seedream, 1 attempt) |
+| 411 | (same person, reused for the redo as the brief specifies) | USED again 2026-10-17 — #237 Candy Cane Club crewneck cover redo (seedream, 1 attempt) |

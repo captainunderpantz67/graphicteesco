@@ -1,4 +1,4 @@
-status: REDO
+status: BUILDING [A] 2026-10-17 21:20 UTC
 lane: A
 type: twin
 id: 237
@@ -24,3 +24,4 @@ handle: womens-christmas-candy-cane-club-crewneck-sweatshirt
   1. R6.2 / R3.7.6: "Est. December" is a typeset bold book serif (dates count) and too small to read on the cover. Erase it in print-prep; the art reads without it.
   2. R3.7.6: CANDY CANE CLUB reads as a clean display serif (identical letters, even spacing). Re-letter it by hand with one lettering-only Recraft generation composed in print-prep (the #234 method), same arch and width.
   3. R5.3.8: the white blob at the top of the center cane is pure white, not planned cream; knock it out or tint it cream. Then re-link, new mockups and one new cover (R6.7). The live tee keeps its art (R3.9).
+- 2026-10-17 21:20 UTC builder [A] REDO 237: (1) erased 'Est. December' and the old CANDY CANE CLUB lettering component by component (no new art; canes, bow, peppermints untouched). (2) Re-lettered CANDY CANE CLUB in Lobster script, deep green #25573a, arched (letters rotated along a circle), about 3400 px wide. (3) Knocked out the two enclosed pure-white gaps between the canes (including the blob at the top of the centre cane, 296k px); no free pure white left. New file 3570x4521 (Printful 1088453324), FW 1650 TOP 75 (about 14 in tall). Mockups checked on White, Sand, Light Pink, Ash. New cover (brief's reg 411 person, Sand crewneck, Christmas sweets stall, 1 attempt). Copy: art paragraph + SEO meta no longer mention Est. December; FAQ 5 x 40-60 words incl. Dec 8. NOTE: Printful sync product is 482321113 (the log line of 2026-10-16 named 482320956, which is not this item's). Resync 24 variants running (FORCE): REVIEW at 24/24. fal ~$0.04.
