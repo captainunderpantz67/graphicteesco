@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: A
 type: new
 id: 334
 handle: unisex-thanksgiving-laying-low-till-friday-turkey-hoodie
+shopify: gid://shopify/Product/15363027435824
 kd: 31
 ---
 ## Unisex Thanksgiving – Laying Low Till Friday Hoodie
@@ -23,3 +24,4 @@ kd: 31
 ---
 ## Log
 - 2026-10-17 04:21 UTC director: brief written, READY (low-KD sweep 2026-10-17 04:30 run; keyword and trend measured this run).
+- 2026-10-17 04:38 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363027435824 (Gildan 18500, Sand + Navy x S-3XL = 12 variants, $39.99 no compare-at, category hoodies; added thanksgiving tag per #246 note; keyword turkey hoodie 390/KD31). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.

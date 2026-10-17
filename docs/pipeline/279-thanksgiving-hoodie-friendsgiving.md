@@ -1,8 +1,9 @@
-status: BUILDING [A] 2026-10-17 04:32
+status: REVIEW
 lane: A
 type: twin
 id: 279
 handle: womens-thanksgiving-friendsgiving-hoodie
+cover: temp
 kd: 55
 ---
 ## Women's Thanksgiving – Friendsgiving Hoodie
@@ -19,3 +20,4 @@ kd: 55
 ---
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).
+- 2026-10-17 04:38 UTC builder [A]: DRAFT gid://shopify/Product/15363017933104 (18500; Sand + Sport Grey x S-3XL = 12; $39.99, NO compare-at; category hoodies; tags graphic-hoodies-for-women, hoodie, ai-art, intake-done + thanksgiving per the #246 note). R6.2 twin check: FRIENDSGIVING is wobbly hand-drawn 70s lettering (uneven, not typeset); the thin table-runner outline inside the wreath is a hairline, not a filled panel; wreath is open leaves, no ring/disc/box; plates and candles are planned ink; knock-white list shows only a candle and the runner hairline, left. Print = the live tee/crewneck art (file 1083456372 re-hosted as 1088032397), FW=1238 TOP=0, Printful sync 482392276 12/12. Copy: thanksgiving hoodie 480/KD55 in line one with the Friendsgiving joke, friendsgiving hoodie once, FAQ x3, SEO. Mockups Sand + Sport Grey + back, variant images, alts R7.8. TEMP COVER: Printful Women's 2 (style 20243, Sand 18500, hood visible, hands in pocket), alt starts 'Woman'. Self-grade: keep. Sheet docs/review/279.jpg. REVIEW.

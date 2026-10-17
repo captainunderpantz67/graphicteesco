@@ -4883,6 +4883,32 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-new-years-new-year-same-guy-graphic-tee": {
+   "claimed": [
+    "new years shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "new years shirt",
+     "volume": 3600,
+     "kd": 35
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "unisex-thanksgiving-laying-low-till-friday-turkey-hoodie": {
+   "claimed": [
+    "turkey hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "turkey hoodie",
+     "volume": 390,
+     "kd": 31
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

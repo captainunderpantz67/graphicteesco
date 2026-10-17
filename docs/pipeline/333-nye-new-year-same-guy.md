@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: A
 type: new
 id: 333
 handle: mens-new-years-new-year-same-guy-graphic-tee
+shopify: gid://shopify/Product/15363028943152
 kd: 35
 ---
 ## Men's New Year's – New Year, Same Guy Tee
@@ -23,3 +24,4 @@ kd: 35
 ---
 ## Log
 - 2026-10-17 04:21 UTC director: brief written, READY (low-KD sweep 2026-10-17 04:30 run; keyword and trend measured this run).
+- 2026-10-17 04:38 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363028943152 (BC 3001, 6 colors x S-4XL = 42 variants, $24.99 no compare-at, category tees; keyword new years shirt 3,600/KD35). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
