@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: B
 type: new
 id: 341
 handle: womens-axolotl-smiling-through-it-oversized-hoodie
+shopify: gid://shopify/Product/15363053945136
 kd: 30
 ---
 ## Women's Axolotl – Smiling Through It Oversized Hoodie
@@ -23,3 +24,4 @@ kd: 30
 ---
 ## Log
 - 2026-10-17 04:21 UTC director: brief written, READY (low-KD sweep 2026-10-17 04:30 run; keyword and trend measured this run).
+- 2026-10-17 04:59 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363053945136 (launch colors per brief, S-3XL, price per brief with no compare-at, category hoodies, tags per brief incl. hub tags, SEO, FAQs; keyword axolotl hoodie 590/KD30). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images yet.

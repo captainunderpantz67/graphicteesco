@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: B
 type: new
 id: 343
 handle: womens-yoga-childs-pose-is-my-final-form-cropped-hoodie
+shopify: gid://shopify/Product/15363054502192
 kd: 32
 ---
 ## Women's Yoga – Child's Pose Is My Final Form Cropped Hoodie
@@ -23,3 +24,4 @@ kd: 32
 ---
 ## Log
 - 2026-10-17 04:21 UTC director: brief written, READY (low-KD sweep 2026-10-17 04:30 run; keyword and trend measured this run).
+- 2026-10-17 04:59 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363054502192 (launch colors per brief, S-3XL, price per brief with no compare-at, category hoodies, tags per brief incl. hub tags, SEO, FAQs; keyword yoga hoodie 3600/KD32). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images yet.

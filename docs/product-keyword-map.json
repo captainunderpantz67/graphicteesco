@@ -4751,36 +4751,24 @@
   },
   "unisex-dinosaur-sleeves-optional-oversized-hoodie": {
    "claimed": [
-    "dinosaur hoodie",
-    "t rex hoodie"
+    "dinosaur hoodie"
    ],
    "gaps_measured": [
     {
      "phrase": "dinosaur hoodie",
      "volume": 3600,
      "kd": 28
-    },
-    {
-     "phrase": "t rex hoodie",
-     "volume": 320,
-     "kd": 32
     }
    ],
    "measured": "2026-10-16"
   },
   "mens-surf-surfs-down-coffees-up-zip-hoodie": {
    "claimed": [
-    "surf hoodie",
-    "surfing hoodie"
+    "surf hoodie"
    ],
    "gaps_measured": [
     {
      "phrase": "surf hoodie",
-     "volume": 5400,
-     "kd": 32
-    },
-    {
-     "phrase": "surfing hoodie",
      "volume": 5400,
      "kd": 32
     }
@@ -5029,6 +5017,123 @@
      "phrase": "silly goose sweatshirt",
      "volume": 1000,
      "kd": 46
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-nana-professional-spoiler-hoodie": {
+   "claimed": [
+    "nana hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "nana hoodie",
+     "volume": 2400,
+     "kd": 16
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "unisex-pitbull-professional-lap-dog-hoodie": {
+   "claimed": [
+    "pitbull hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pitbull hoodie",
+     "volume": 1300,
+     "kd": 20
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-skateboard-gravity-47-me-3-oversized-hoodie": {
+   "claimed": [
+    "skateboard hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "skateboard hoodie",
+     "volume": 5400,
+     "kd": 23
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-wrestling-professional-hugger-hoodie": {
+   "claimed": [
+    "wrestling hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "wrestling hoodie",
+     "volume": 1300,
+     "kd": 26
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-motorcycle-scenic-route-only-heavyweight-hoodie": {
+   "claimed": [
+    "motorcycle hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "motorcycle hoodie",
+     "volume": 12100,
+     "kd": 28
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-axolotl-smiling-through-it-oversized-hoodie": {
+   "claimed": [
+    "axolotl hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "axolotl hoodie",
+     "volume": 590,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-basketball-bench-captain-zip-hoodie": {
+   "claimed": [
+    "basketball hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "basketball hoodie",
+     "volume": 4400,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-yoga-childs-pose-is-my-final-form-cropped-hoodie": {
+   "claimed": [
+    "yoga hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "yoga hoodie",
+     "volume": 3600,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-hockey-penalty-box-regular-heavyweight-hoodie": {
+   "claimed": [
+    "hockey hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "hockey hoodie",
+     "volume": 2900,
+     "kd": 34
     }
    ],
    "measured": "2026-10-16"

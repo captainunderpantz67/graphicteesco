@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: B
 type: new
 id: 326
 handle: womens-bee-busy-bee-off-duty-hoodie
+shopify: gid://shopify/Product/15363051290928
 kd: 20
 ---
 ## Women's Bee – Busy Bee (Off Duty) Hoodie
@@ -22,3 +23,4 @@ kd: 20
 ---
 ## Log
 - 2026-10-17 03:19 UTC director: brief written, READY (low-KD sweep 2026-10-17 03:10 run; keyword measured this run).
+- 2026-10-17 04:59 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363051290928 (launch colors per brief, S-3XL, price per brief with no compare-at, category hoodies, tags per brief incl. hub tags, SEO, FAQs; keyword bee hoodie 1300/KD20). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images yet.

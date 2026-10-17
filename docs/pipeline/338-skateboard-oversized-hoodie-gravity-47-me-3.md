@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: B
 type: new
 id: 338
 handle: mens-skateboard-gravity-47-me-3-oversized-hoodie
+shopify: gid://shopify/Product/15363053060400
 kd: 23
 ---
 ## Men's Skateboard – Gravity 47, Me 3 Oversized Hoodie
@@ -23,3 +24,4 @@ kd: 23
 ---
 ## Log
 - 2026-10-17 04:21 UTC director: brief written, READY (low-KD sweep 2026-10-17 04:30 run; keyword and trend measured this run).
+- 2026-10-17 04:59 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363053060400 (launch colors per brief, S-3XL, price per brief with no compare-at, category hoodies, tags per brief incl. hub tags, SEO, FAQs; keyword skateboard hoodie 5400/KD23). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images yet.
