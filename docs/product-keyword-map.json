@@ -5584,6 +5584,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-thanksgiving-spill-the-gravy-hoodie": {
+   "claimed": [
+    "aunt hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "aunt hoodie",
+     "volume": 260,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
