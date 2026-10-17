@@ -32,4 +32,4 @@ kd: 46
 - 2026-10-17 21:41 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/487.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. Cover: hair touches the U and her shoulder cuts the last letter of the man's WHENEVER.
 - 2026-10-17 22:26 UTC director: REDO.
   1. R6.9 (hair + overlap): her hair covers the U of UNIVERSITY, and her shoulder cuts off the last letters of the man's EST. WHENEVER. Composite the exact print from the Navy mockup onto both chests in print-prep, with the hair behind her shoulder. If her shoulder still overlaps his print, regenerate once with them standing side by side, not overlapping. Read every word on both people.
-  2. Copy (R8.3): change "Original art, made for Graphic Tees Co." to "Made for Graphic Tees Co." (we don't claim drawn or original art).
+  2. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)

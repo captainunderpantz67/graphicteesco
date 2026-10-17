@@ -31,4 +31,4 @@ kd: 46
 - 2026-10-17 22:26 UTC director: REDO.
   1. R6.9 (hair): her ponytail covers the D, so the cover reads OORBUSTERS. This is the 3rd attempt, so don't generate again: composite the exact front print from the Cream/Natural Printful mockup onto this cover's chest in print-prep (perspective fit, multiply blend), then repaint the hair strand behind the shoulder or layer it under the print, and read DOORBUSTERS letter by letter. No fal spend.
   2. Copy (R8.4/R8.5): the SEO title is 65 characters, so cut it to 60 or fewer. In the meta, "Black friday" should be "Black Friday". A sentence starts in lower case ("in it for the…"), and "two bows-tied shopping bags" has a typo.
-  3. Copy (R8.3): change "Original art, made for Graphic Tees Co." to "Made for Graphic Tees Co." (we don't claim drawn or original art).
+  3. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)

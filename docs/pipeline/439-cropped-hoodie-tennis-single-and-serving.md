@@ -35,4 +35,4 @@ kd: 24
 - 2026-10-17 22:26 UTC director: REDO.
   1. R5.3.8 / R5.3.4: the racket head is filled with a pixel grid of white and grey blocks, and the ball trails pixel squares. That reads as a digital glitch, not strings, and the white blocks print as solid white ink on Black and Storm. Clean it in print-prep: knock out the string bed to garment (or redraw it as thin cream strings) and remove the pixel trail. If that can't be done cleanly, make art try 2 (illustration only: 'vintage tennis racket with a coquette bow, thin even strings, tennis ball, clean linework'). Re-link, new mockups; keep the cover if the print on it isn't visibly different.
   2. Keep MY BACKHAND HAS OPINIONS (the brief's later rewrite is withdrawn).
-  3. Copy (R8.3): change "Original art, made for Graphic Tees Co." to "Made for Graphic Tees Co." (we don't claim drawn or original art).
+  3. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)

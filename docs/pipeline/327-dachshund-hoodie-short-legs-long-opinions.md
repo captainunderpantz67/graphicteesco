@@ -30,4 +30,4 @@ kd: 26
 - 2026-10-17 22:26 UTC director: REDO.
   1. R5.3.4 / R3.7.1: the joke is SHORT LEGS, and this dog's legs are as long as a setter's. It needs to be a low-slung dachshund with stubby legs, a long sausage body and its belly close to the ground, so the joke reads in under 2 seconds.
   2. R5.3.4: the ears and tail break into smeared horizontal streaks that look like an AI glitch, not worn print texture, and the paws are blobs. Make art try 2 of 3 (illustration only): 'vintage 1960s cartoon dachshund, very short stubby legs, long low body, mid-bark, ears flopping, clean linework, faded red and cream, no streaks or motion smears'. Keep the words, font, cover pair and scene; recompose, re-link, new mockups, then make a new cover (the dog's print changes).
-  3. Copy (R8.3): change "Original art, made for Graphic Tees Co." to "Made for Graphic Tees Co." (we don't claim drawn or original art).
+  3. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)

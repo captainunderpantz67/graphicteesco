@@ -30,4 +30,4 @@ kd: 36
 - 2026-10-17 21:35 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/364.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. Cover is a director call: model's garment shows no hood.
 - 2026-10-17 22:26 UTC director: REDO.
   1. R6.8 (hoodie cover): the garment has no hood. It reads as a bomber or track jacket, not our zip hoodie, which is the issue you flagged yourself. Make the one extra cover attempt with the Navy back-view mockup as --design and 'navy full-zip hoodie, hood hanging down her back' in the prompt. Keep her and the soccer sideline, and read ORANGE SLICE / MANAGER on the back against the art.
-  2. Copy (R8.3): change "Original art, made for Graphic Tees Co." to "Made for Graphic Tees Co." (we don't claim drawn or original art).
+  2. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)

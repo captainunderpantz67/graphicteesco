@@ -34,4 +34,4 @@ kd: 32
 - 2026-10-17 22:26 UTC director: REDO.
   1. R3.7.1 / R5.3.4: the art still carries the old 'knight shift' props (watchman cap, flashlight, oil can), and they have nothing to do with CALCULATED. MOSTLY. A stranger can't connect the picture to the line. Make art try 2 (illustration only): a smug chess knight piece mid-move on a checkered board, one toppled pawn beside it, eyebrow raised; no hat, no tools. Same words, font, colors and composition; re-link, new mockups, new cover (keep the man and the park-chess scene).
   2. Copy (R8.3): remove "Big hand-drawn caps". The lettering is a real font, so describe it plainly. Keep CALCULATED. MOSTLY. (the brief's later rewrite is withdrawn).
-  3. Copy (R8.3): change "Original art, made for Graphic Tees Co." to "Made for Graphic Tees Co." (we don't claim drawn or original art).
+  3. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)

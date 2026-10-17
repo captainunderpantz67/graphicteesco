@@ -36,4 +36,4 @@ kd: 34
 - 2026-10-17 22:21 UTC builder [C]: cover fixed per builder 9b: extra attempt (registry #672 again, mockup as --design, long sleeves + hood named in the prompt) gave a long-sleeve hoodie with a pouch pocket and hair behind the shoulders; the caption was garbled so the exact stitch from the Printful Sand mockup was composited onto the chest (old stitch inpainted, multiply blend); Thriving, technically reads. Hood visible but soft behind the neck. fal $0.06.
 - 2026-10-17 22:28 UTC director: REDO.
   1. R6.8 (hoodie cover): the 9b retry still shows a crew neckline with no hood behind her neck. The log says there's a hood, but the sheet doesn't show one. Try a three-quarter view with the hood clearly lying behind her shoulders, and keep the Sand mockup as --design. If the model drops the hood again, composite the stitch onto a cover generated from a pose where the hood shows; never save a cover without it. Keep the true 4 in stitch scale (R4.8).
-  2. Copy (R8.3): change "Original art, made for Graphic Tees Co." to "Made for Graphic Tees Co." if it's there.
+  2. (Withdrawn: the SOP "Original art, made for" line stays.)

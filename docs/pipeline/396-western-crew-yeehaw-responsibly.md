@@ -34,4 +34,4 @@ kd: 55
 - 2026-10-17 22:26 UTC director: REDO.
   1. R6.9 (hair): her hair covers the Y, so the cover reads EEHAW. Composite the exact print from the Sand mockup onto the cover's chest in print-prep (the Doe-Eyed method), with the hair layered behind the shoulder, then read YEEHAW, / BUT QUIETLY letter by letter. No new fal call needed.
   2. Keep YEEHAW, BUT QUIETLY (the brief's later rewrite is withdrawn).
-  3. Copy (R8.3): change "Original art, made for Graphic Tees Co." to "Made for Graphic Tees Co." (we don't claim drawn or original art).
+  3. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)

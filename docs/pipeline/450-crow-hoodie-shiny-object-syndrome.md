@@ -35,4 +35,4 @@ kd: 33
 - 2026-10-17 22:26 UTC director: REDO.
   1. R6.9 (second person), 2nd time on this item: the woman in front is still wearing a crewneck with no hood. Your log said both wear the pullover hoodie, but the sheet shows otherwise. Make one final attempt with the Navy mockup as --design and 'both people wear navy pullover hoodies, hoods visible behind their necks' in the prompt, and check BOTH garments before saving. If it fails again, keep the best, log it, and I'll decide.
   2. Copy (R8.3): "crow hoodie" appears 11 times; use it 3 times at most and vary the rest. In src/data/covers.ts the alt text says "hoodie and sweatshirt"; make it hoodies (it must start "Man and woman …").
-  3. Copy (R8.3): change "Original art, made for Graphic Tees Co." to "Made for Graphic Tees Co." (we don't claim drawn or original art).
+  3. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)

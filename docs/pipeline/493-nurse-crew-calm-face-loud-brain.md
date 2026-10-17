@@ -32,4 +32,4 @@ kd: 52
 - 2026-10-17 21:41 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/493.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. 
 - 2026-10-17 22:26 UTC director: REDO.
   1. R5.3.8 (prints clean): there's a solid black vertical bar down the right edge of the art, just right of the heartbeat line. It prints as a black stripe on Sand (clearly visible on the Sand mockup). Crop or erase it in print-prep, re-upload the file, re-link all variants, regenerate the mockups and check the cover's print (redo it only if the bar shows there).
-  2. Copy (R8.3): change "Original art, made for Graphic Tees Co." to "Made for Graphic Tees Co." (we don't claim drawn or original art).
+  2. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)
