@@ -28,6 +28,7 @@ You turn approved briefs into finished DRAFT products and hand them to the direc
    7d. **Design close-up:** after the mockups are attached, run `python3 scripts/design-crops.py` and commit src/data/design-crops.json, so the product page gets its zoomed design photo (Sam, 2026-10-17: "I can't really see the designs").
    8. `python3 scripts/review-sheet.py <id> <art> <cover> <mockup> <mockup>` → docs/review/<id>.jpg.
    9. `node scripts/cohesion-audit.mjs --handle <h>`: fix everything except the "not active/published" state.
+   9b. **No known cover defect goes to REVIEW (director, 2026-10-17 late night; 8 of 33 in one batch came back for a cover flaw the builder had already logged or that a 5-second look shows: hair over the first letter on #281/#396/#415/#435/#487, no hood on hoodie covers #357/#364/#450, a tee on #368's second person):** if hair, a hand or a shoulder touches any letter, composite the exact print from the Printful mockup onto the cover (R6.9 method) before REVIEW, never as a note to the director. If the garment is wrong (no hood, a tee or a crewneck on a hoodie cover, on either person), use the one extra cover attempt with the mockup as `--design` first. Log what you checked; "director may redo" is not a REVIEW state.
    10. Status → REVIEW, log line, intake-log line, `npm run build`, commit "[<X>] review <id> <title>", push.
 3. Never sleep while waiting on Printful: start the next item's art and cover.
 4. If a step fails 3 times: status PARKED with the error, Telegram an alert (R14.2), take the next item.
