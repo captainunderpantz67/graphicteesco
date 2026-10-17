@@ -1,4 +1,6 @@
-status: BUILDING [B] 2026-10-17 11:56 UTC
+status: REVIEW
+cover: temp (swap)
+shopify: gid://shopify/Product/15363654648112
 lane: B
 type: twin
 id: 419
@@ -21,3 +23,4 @@ kd: 41
 ---
 ## Log
 - 2026-10-17 11:23 UTC director: brief written, READY (keyword measured this run; source art checked against R4.1/R6.2 from its live mockup; fal-free twin).
+- 2026-10-17 13:10 UTC builder [B]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363654648112 (Gildan 18600 zip #692, Ash S-3XL + Navy S-5XL = 14, $44.99 no compare-at, category aa-1-13-13, tags zip-up-hoodies, zip-up-hoodies-for-women, hoodie, ai-art, intake-done; not y2k/graphic-hoodies-for-women per brief), Printful sync 482450338 synced 14/14. Print: tee file 1087363185 reused as is (3600x4428, docs/print-files/419-low-battery.png), back FW 1650 TOP 225 (2030 px tall, fits the 2400 area) + 525 px left-chest copy, scripts/pf-zip.py. R6.2 check: LOW BATTERY / HIGH STANDARDS is hand-drawn chrome bubble lettering with a dark outline; phone, butterflies and sparkles are drawn art; no typeset line, ring, panel or box. The white phone screen with its red battery icon is planned ink, so nothing was knocked out. Phone-size read: both lines read on Ash and Navy back mockups. FAQ 6 x 46-51 words, order-by Dec 8. Keyword butterfly hoodie 1,000/KD41 in map ('y2k zip up hoodie' not used; 'zip up hoodie' only as collection wording). Mockups: Ash+Navy fronts and backs, variant images per color. Temp cover: Printful Women's Front style 8535 on Ash (smiling woman, hand at hair and hip, hood and chest print visible; same model and style as the #420 temp cover, but Navy there, Ash here; the other women's styles hide the lettering under the hood or turn the print away): cover: temp (swap), registry #612 stays reserved for the fal back-print cover. Audit-local PASS. Sheet docs/review/419.jpg. REVIEW.

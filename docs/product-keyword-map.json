@@ -6026,6 +6026,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-y2k-low-battery-high-standards-zip-hoodie": {
+   "claimed": [
+    "butterfly hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "butterfly hoodie",
+     "volume": 1000,
+     "kd": 41
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
