@@ -5981,6 +5981,25 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-gym-gym-rat-hoodie": {
+   "claimed": [
+    "rat hoodie",
+    "gym rat hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "rat hoodie",
+     "volume": 390,
+     "kd": 31
+    },
+    {
+     "phrase": "gym rat hoodie",
+     "volume": 110,
+     "kd": 42
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

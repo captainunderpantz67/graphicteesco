@@ -1,4 +1,6 @@
-status: BUILDING [B] 2026-10-17 12:10 UTC
+status: REVIEW
+cover: temp (swap)
+shopify: gid://shopify/Product/15363652616496
 lane: B
 type: twin
 id: 422
@@ -21,3 +23,4 @@ kd: 31
 ---
 ## Log
 - 2026-10-17 11:23 UTC director: brief written, READY (keyword measured this run; source art checked against R4.1/R6.2 from its live mockup; fal-free twin).
+- 2026-10-17 12:35 UTC builder [B]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363652616496 (Gildan 18500 #146, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category aa-1-13-13, tags gym-hoodies, gym-hoodies-for-men, graphic-hoodies-for-men, hoodie, ai-art, intake-done), sync product 482446726 synced 12/12 with back logo. SOURCE NOTE: the pump cover is an all-over-print JPG (art baked onto olive, front file 1083314402), so the art was cut out of it: crop of the front panel, olive ground removed by flood fill from the border, grain specks dropped, 3600x2977 transparent PNG (docs/print-files/422-gym-rat.png, Printful file 1088192476, native art 1804 px wide, upscaled 2x Lanczos). FW 1500 TOP 0 (print 1240 px tall, ends well above the pouch seam). R6.2 check: GYM RAT is hand-drawn groovy lettering with a dark ragged outline, the rat is drawn art; no typeset line, ring, panel or box. White counters: only the planned white dumbbell plates, feet and letter counters (cream/white ink), nothing knocked out. Phone-size read: GYM RAT reads on Sand (dark outline) and Navy. FAQ 6 x 45-49 words, order-by Dec 8. Keywords rat hoodie 390/KD31 + gym rat hoodie 110/KD42 in map. Mockups: Sand+Navy fronts, Navy back, variant images per color. Temp cover: Printful style 1454 (Men's 2 Front, Navy, man with hands at his sides, print and hood fully visible, white catalog backdrop, not a Samoan-American garage-gym scene): cover: temp (swap), registry #615 stays reserved. Audit-local PASS. Sheet docs/review/422.jpg. REVIEW.
