@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: A
 type: new
 id: 402
 handle: mens-fishing-professionally-chilling-heavyweight-hoodie
+shopify: gid://shopify/Product/15363749314864
 kd: 34
 ---
 ## Men's Fishing – Professionally Chilling Heavyweight Hoodie
@@ -23,3 +24,4 @@ kd: 34
 ---
 ## Log
 - 2026-10-17 09:22 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
+- 2026-10-17 15:02 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363749314864 (heavyweight IND4000 Sandstone+Storm Blue x XS-3XL = 14, $49.99). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.

@@ -6416,6 +6416,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-fishing-professionally-chilling-heavyweight-hoodie": {
+   "claimed": [
+    "ice fishing hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "ice fishing hoodie",
+     "volume": 210,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
