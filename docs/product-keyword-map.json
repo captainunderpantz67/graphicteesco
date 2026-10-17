@@ -6429,6 +6429,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-introvert-i-have-plans-hoodie": {
+   "claimed": [
+    "introvert hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "introvert hoodie",
+     "volume": 1300,
+     "kd": 38
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
