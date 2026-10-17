@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-17 20:36 UTC
+status: REVIEW
 shopify: gid://shopify/Product/15363406168368
 lane: C
 type: new
@@ -27,3 +27,4 @@ kd: 34
 - 2026-10-17 09:05 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363406168368 (Gildan 18500, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category hoodies aa-1-13-13, tags graphic-hoodies-for-men/-women + hoodie). Keyword otter hoodie 320/KD34 in map. SEO title 51, meta 154, FAQs 5 x 47-51 words. Copy written from the brief's art description (CURRENTLY over DRIFTING, otter on its back with coffee mug, kelp, teal/tan/orange/cream): re-check every sentence against the real art when it exists. When art exists: FW 1500+, clear of the pouch seam; check teal on Sand and Navy. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane C.
 - 2026-10-17 20:40 UTC builder [C]: art 2 Recraft calls (try 1 was a wave ring that read as a disc, R4.1; try 2 kept: otter on low flat waves, open space), no lettering; CURRENTLY / DRIFTING in Lobster via compose-print.py; FW 1500 TOP 180 (aspect 1.24 on the 2100 area); Printful file 1088476433, sync 482415638 running; mockups Sand+Navy attached; COVER 2 fal images (registry #588/#589), director decides: try 1 kept (both in hoodies, all words read; each hood drawstring crosses the print: CURRENTLY and the kelp); try 2 was worse. Next time hang hoodie prints lower (TOP 250) so drawstrings clear the top line, as #363 did. FAQs existing 5 x 40-60 words (no holiday order-by).
+- 2026-10-17 21:03 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/397.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. Cover is a director call: hood drawstrings cross CURRENTLY and the kelp.
