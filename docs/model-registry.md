@@ -541,3 +541,20 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 648 | white man, early 30s, curly red hair, freckles | RESERVED — #450 Shiny Object Syndrome Hoodie cover (with #647) |
 | 649 | white woman, late 30s, messy blonde bun, small pearl studs | RESERVED — #451 Magical, Mostly Tired Zip Hoodie cover |
 | 650 | Black woman, early 20s, long knotless braids, butterfly clips, small gold hoops | RESERVED — #452 Hot Mess Express Hoodie cover |
+| 651 | Filipino-American man, early 40s, short black hair, rectangular glasses | RESERVED — #453 Some Assembly Regretted Crewneck cover |
+| 652 | white man, late 30s, short sandy hair, full sandy beard | RESERVED — #454 Some Assembly Regretted Tee cover |
+| 653 | white woman, early 30s, dark curly shoulder-length hair | RESERVED — #455 Spin Responsibly Crewneck cover (with #654) |
+| 654 | Middle Eastern man, early 30s, short dark hair, trimmed beard | RESERVED — #455 Spin Responsibly Crewneck cover (with #653) |
+| 655 | Black man, late 20s, short twists | RESERVED — #456 Spin Responsibly Tee cover (with #656) |
+| 656 | white woman, late 20s, auburn bob | RESERVED — #456 Spin Responsibly Tee cover (with #655) |
+| 657 | Latina woman, mid 40s, chestnut layered blowout, small diamond studs | RESERVED — #457 Latke Queen Crewneck cover |
+| 658 | East Asian woman, late 20s, short choppy pixie cut, small pearl drops | RESERVED — #458 Latke Queen Tee cover |
+| 659 | Native American man, early 30s, long black hair tied back, light stubble | RESERVED — #459 Pedal Pusher Heavyweight Hoodie cover |
+| 660 | white woman, mid 20s, long platinum-blonde waves, gold hoops | RESERVED — #460 Expert in Après Hoodie cover |
+| 661 | South Asian woman, early 30s, long glossy dark hair, small gold nose stud | RESERVED — #461 Expert in Après Crewneck cover |
+| 662 | Black woman, late 20s, short tapered natural hair | RESERVED — #462 Sending It Crewneck cover (with #663) |
+| 663 | white man, mid 20s, shaggy brown hair, light mustache | RESERVED — #462 Sending It Crewneck cover (with #662) |
+| 664 | Vietnamese-American woman, early 30s, sleek high ponytail, small gold huggies | RESERVED — #463 Core Issues Crewneck cover |
+| 665 | Black woman, about 21, curly high puff, small silver hoops | RESERVED — #464 Core Issues Cropped Hoodie cover |
+| 666 | South Asian man, early 40s, short salt-and-pepper hair, clean-shaven | RESERVED — #465 I Rest My Case Hoodie cover (with #667) |
+| 667 | white woman, early 40s, straight red bob | RESERVED — #465 I Rest My Case Hoodie cover (with #666) |

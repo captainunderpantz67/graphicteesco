@@ -27,6 +27,7 @@ Sections are numbered so role cards and review notes can point at them ("fails R
 7. **Small volume is not small intent:** every product claims its own niche-true long-tails. Run `scripts/keyword-gap.py` with 2–4 design seeds, keep measured phrases that describe the art, skip trademarks/off-intent/generic, check `docs/product-keyword-map.json` so no other page owns them, work them into the Story and 1–2 Questions naturally, record them in the map.
 8. **One measured keyword per page.** No two pages claim the same phrase (the audit flags collisions).
 9. Never build a page for a phrase with no measured search value (example: no christmas-shirts-for-men page or tag).
+   - **Re-measured (director, 2026-10-17):** men's Christmas now measures: "christmas shirt men" 18,100 / KD 10 (Dec peak 135,000, 36% US) and "mens christmas sweater" 33,100 / KD 8 (Dec peak 246,000). The old example no longer holds: men's Christmas pages may be built once enough men's Christmas products are LIVE (3+ to index). Products #453/#454 claim the two phrases until a page exists; the page then takes the head term and the products move to their own long-tails (R8.8).
 
 ## R3. House voice and whimsy (every new design)
 1. **Whimsy first** (Sam, 2026-10-15): graphic tees win on the reaction. Every new design needs a HOOK: a pun, a dry one-liner or a funny visual twist a stranger would grin at, ask about or photograph. A pretty scene with the niche name on it is not enough.

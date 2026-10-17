@@ -1,0 +1,25 @@
+status: READY
+lane: A
+type: new
+id: 455
+handle: unisex-hanukkah-spin-responsibly-crewneck-sweatshirt
+kd: 17
+---
+## Unisex Hanukkah – Spin Responsibly Crewneck Sweatshirt
+- **Blank:** Crewneck Gildan 18000 (Printful #145), 8 oz 50/50 cotton-poly fleece. Print FW 1650 (R5.3.8). Copy facts from the Printful spec only (R7.1). It is a printed crewneck with a knit-look design: copy never says knitted or knit (R4.4, R8.6).
+- **Text on shirt:** SPIN in big hand-drawn chunky letters above the dreidel, RESPONSIBLY below, both at least 60% of the art's width, drawn with a stitched cross-stitch texture so the print reads as an ugly holiday sweater. All lettering hand-drawn (R3.7.6), spelled exactly, no typeset line; read every word on the darkest mockup at about 400 px wide before REVIEW; knock out white counters (R5.3.8).
+- **Hook:** A big vintage wooden dreidel mid-spin with little motion lines, wobbling like it has had too much sufganiyah, scattered gold gelt coins and tiny snowflakes around it in a faux cross-stitch ugly-sweater look: SPIN RESPONSIBLY. A dry, kind joke for the family Hanukkah party or the office ugly sweater day (unisex: deadpan, warm, never about the faith itself, R3.7.3).
+- **Why it's not taken:** Ugly Hanukkah sweaters on Etsy are mostly 'Oy to the World' and 'Let's Get Lit' (the second fails our family-clean rule); a dreidel SPIN RESPONSIBLY line in a cross-stitch look isn't on page 1 (director call; builder confirms on Etsy, R3.7.2).
+- **Style:** C-style faux cross-stitch ugly-sweater look (R4.4: a faux knit/latch-hook look, never claimed as real knit), centered, no border band, no frame.
+- **Art prompt (Recraft v4, one image per call):** "Ugly holiday sweater style illustration in a faux cross-stitch pixel-knit texture: a big wooden dreidel spinning and wobbling with small motion lines, gold gelt coins and tiny snowflakes scattered around it as a loose cluster. Hand-drawn chunky letters with a stitched texture above reading exactly 'SPIN' and below reading exactly 'RESPONSIBLY'. Palette: royal blue, sky blue, cream white, warm gold, soft navy outlines. The dreidel and letters are the shape; edges break up into stitched texture. Isolated on plain background, no background shape, no frame, no circle, no border band, no knit border, no badge, no dark patch."
+- **Colors:** Navy + Sport Grey (R7.2 two-color launch; blue-and-cream art reads on both; add a navy keyline on Sport Grey if the sky blue sinks). Generate a Printful mockup for every color offered before REVIEW.
+- **Primary keyword:** ugly hanukkah sweater — 1,600 / KD 17 (RankHero 2026-10-17, director). KD ≤ 20 band, clear buyer intent. SEO title carries it: "Spin Responsibly Ugly Hanukkah Sweater" (≤ 60 characters, R8.4). Supporting: hanukkah sweatshirt (390 / KD 48) once. Hanukkah 2026 begins at sundown on Friday, December 4: the gift-timing FAQ gives an order-by date that lands before the first night (set it from Printful's current production + shipping times, about November 20). Unowned in docs/product-keyword-map.json and in every open brief; record it there. Use the primary where a person would say it: the H1-area copy, the first sentence (with the joke and the occasion, R9.11) and once in the meta; supporting phrases at most once each; no stuffing (R8.2–R8.3). Answer-first FAQs per R8.7: 4–6 questions, 40–60 words each (fit, care, sizing, warmth/weight, gift timing with an order-by date). Describe only what is in the art (R8.3).
+- **Popularity evidence (R5.2):** ugly hanukkah sweater 1,600/KD 17 and hanukkah sweater 2,900/KD 28 (83% US, December peak 22,200, only 3,861 Etsy listings) show demand with thin supply; ugly-sweater humor is our best holiday seller type (Technically a Sweater is LIVE).
+- **Cover:** registry #653 + #654: white woman, early 30s, dark curly shoulder-length hair, and a Middle Eastern man, early 30s, short dark hair, trimmed beard, both in the crewneck; scene: a warm dining room at a Hanukkah party, a lit menorah on the windowsill behind them and dreidels on the table at the side (not over the print), alt starts 'Man and woman'. Real garment generated with the product's own Printful mockup in the cover color as `--design` (--n 1); hood visible on hoodies; hands empty or in pockets; nothing (hand, cup, hair, hood, drawcord, another person) over any part of the print; read every word before saving (R6.7–R6.9). No alcohol, tools or weapons (R6.5).
+- **Title / handle:** "Unisex Hanukkah – Spin Responsibly Crewneck Sweatshirt" / `unisex-hanukkah-spin-responsibly-crewneck-sweatshirt` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** graphic-sweatshirts, sweatshirt, hanukkah, ai-art, intake-done. No christmas or tee collection tags (it is not a Christmas product; R7.5).
+- **Price:** $34.99 (R12.1 crewneck), no compare-at.
+- **Pre-build:** Make the full Shopify DRAFT now from this brief (status ART-NEXT); art + cover when fal returns. #456 (tee) is its twin.
+---
+## Log
+- 2026-10-17 15:22 UTC director: brief written, READY (keyword measured this run, low-KD sweep; lane A).
