@@ -6104,6 +6104,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-western-steer-skull-wildflowers-hoodie": {
+   "claimed": [
+    "cow skull"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cow skull",
+     "volume": 22200,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
