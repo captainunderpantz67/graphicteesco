@@ -417,8 +417,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 524 | White woman, mid 40s, short silver-blonde bob, light laugh lines | RESERVED — #334 Laying Low Till Friday turkey hoodie cover (with #523) |
 | 525 | Black woman, mid 20s, long box braids in a high ponytail | RESERVED — #335 Snow Problem hoodie Seedream cover (when fal returns) |
 | 526 | Italian-American woman, early 60s, short silver curls, red lipstick, tortoiseshell glasses | RESERVED — #336 Professional Spoiler nana hoodie cover |
-| 527 | Colombian-American woman, late 20s, long straight dark brown hair, small nose ring | RESERVED — #337 Professional Lap Dog pitbull hoodie cover (with #528) |
-| 528 | White man, early 30s, short brown hair, full red beard, stocky | RESERVED — #337 Professional Lap Dog pitbull hoodie cover (with #527) |
+| 527 | Colombian-American woman, late 20s, long straight dark brown hair, small nose ring | USED 2026-10-16 — #337 Professional Lap Dog hoodie cover (seedream, 2 attempts) |
+| 528 | White man, early 30s, short brown hair, full red beard, stocky | USED 2026-10-16 — #337 Professional Lap Dog hoodie cover (seedream, 2 attempts) |
 | 529 | Japanese-American man, early 20s, shaggy black hair, slim | RESERVED — #338 Gravity 47 skateboard oversized hoodie cover |
 | 530 | Iranian-American man, early 20s, short dark hair, athletic build, clean-shaven | RESERVED — #339 Professional Hugger wrestling hoodie cover |
 | 531 | White man, late 50s, long grey hair in a low ponytail, grey goatee, weathered face | RESERVED — #340 Scenic Route Only motorcycle hoodie cover |
