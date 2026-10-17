@@ -5468,6 +5468,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-outdoors-mountains-called-left-on-read-hoodie": {
+   "claimed": [
+    "mountain hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "mountain hoodie",
+     "volume": 1600,
+     "kd": 38
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

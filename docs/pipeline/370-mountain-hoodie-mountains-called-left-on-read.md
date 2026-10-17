@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: A
 type: new
 id: 370
 handle: mens-outdoors-mountains-called-left-on-read-hoodie
+shopify: gid://shopify/Product/15363191439664
 kd: 38
 ---
 ## Men's Outdoors – Mountains Called Left on Read Hoodie
@@ -23,3 +24,4 @@ kd: 38
 ---
 ## Log
 - 2026-10-17 06:19 UTC director: brief written, READY (2026-10-17 morning sweep: no unclaimed KD ≤ 20 hoodie/sweatshirt phrase with volume left in RankHero; this is the KD 21–40 band, highest volume first; keyword measured this run).
+- 2026-10-17 07:09 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363191439664 (Gildan 18500, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category hoodies; keyword mountain hoodie 1600/KD38; keyword-gap supporting phrases still to add with the art). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
