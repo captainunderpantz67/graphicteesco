@@ -1,10 +1,7 @@
-<<<<<<< HEAD
+RUNNING lane C since 2026-10-17 19:50 UTC
 2026-10-17 19:42 UTC — [H] Helper run: Telegram inbox empty (getUpdates returned nothing, nothing to consume). Audit (347 products): 8 ERRORs, all price format (./. should be ./-), left for builders; 16 warnings left alone; no meta, SEO or collection errors to fix. Category check (one-time rule, still checking): 0 products without a category (positive control: unisex-halloween-midnight-feature-graphic-tee returns aa-1-13-8). Site freshness: mens-gym-sisyphus-had-bad-programming-graphic-tee, womens-football-mom-promised-to-behave-graphic-tee, womens-bookish-do-not-sell-my-books-crewneck-sweatshirt all 200. Stuck check: none (no BUILDING item older than 3h; all lane locks under 20 min old). Daily summary not due (sent 12:44 UTC). Lock released.
 2026-10-17 19:48 UTC — [A] REVIEW #205 North Woods Moose hoodie (REDO fixed: re-lettered, new cover, resynced 12/12).
-=======
 2026-10-17 19:49 UTC — [E] REVIEW #443 Mothman Light Sleeper hoodie (DRAFT gid 15363700719920, synced 12/12, fal cover 1 image).
-RUNNING lane C since 2026-10-17 19:29 UTC
->>>>>>> aad718a ([E] review 443 Mothman Light Sleeper hoodie)
 RUNNING lane A since 2026-10-17 19:29 UTC
 2026-10-17 19:36 UTC — [E] REVIEW #337 Professional Lap Dog pit bull hoodie (DRAFT gid 15363052831024, synced 12/12, fal cover 2 images).
 2026-10-17 19:42 UTC — [C] Run: #448 Grill Wizard zip hoodie art + print + Printful sync + mockups done, PARKED at the cover (2 fal attempts failed R6.7/6.8, ~$0.12; see item log). Other lane C items (334 341 363 394 407 441) not started: usage/time spent on 448 only. Lock released.
