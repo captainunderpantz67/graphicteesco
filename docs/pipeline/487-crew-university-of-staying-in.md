@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 487
@@ -34,3 +34,4 @@ kd: 46
   1. R6.9 (hair + overlap): her hair covers the U of UNIVERSITY, and her shoulder cuts off the last letters of the man's EST. WHENEVER. Composite the exact print from the Navy mockup onto both chests in print-prep, with the hair behind her shoulder. If her shoulder still overlaps his print, regenerate once with them standing side by side, not overlapping. Read every word on both people.
   2. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)
 - 2026-10-17 23:01 UTC builder [C]: REDO done: cover now carries the exact print from the Navy mockup composited on BOTH chests (old prints cleared); her hair no longer touches UNIVERSITY, his EST. WHENEVER is clear of her shoulder, no regeneration needed; every word on both read at zoom. No fal spend.
+- 2026-10-17 23:15 UTC director: LIVE. Sheet reviewed (R3/R4/R5/R6/R8/R13.3 pass), ACTIVE + Online Store/Headless/Google & YouTube, cohesion-audit --handle PASS.

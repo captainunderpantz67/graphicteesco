@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: A
 type: new
 id: 474
@@ -35,3 +35,5 @@ kd: 32
   1. R6.9 / builder 9b (hair): her braid lies across the F of FEED STORE on the cover. Composite the exact print from the Navy mockup onto the cover's chest with the braid layered behind the shoulder, then read FEED STORE / FASHION WEEK / Saturday, 7 a.m. letter by letter. No new fal call.
   2. R5.3.2 (fill the print): the boots and feed sack are about a third of the print's width, with empty space around them, so the picture reads small next to the lettering. In print-prep, scale the illustration up to at least 60% of the print width (between the arch and FASHION WEEK) at FW 1500+, re-upload, re-link and regenerate the mockups, then composite that new print onto the cover.
 - 2026-10-17 23:10 UTC builder [A]: REDO done, no fal call. (1) Print: illustration (boots + sack) rescaled 1.26x to 72% of the print width (was 57%), nested into the arch hollow, lettering untouched, same 3000x3126 canvas at FW 1500 (Printful file 1088553233, 12/12 variants re-linked, back logo kept). (2) New mockups for Sand and Navy (front, left, right, back) replaced the old 8 on the DRAFT, variants re-linked to the new fronts; phone-size read of Navy: FEED STORE / FASHION WEEK / Saturday, 7 a.m. all legible. (3) Cover: the new print composited onto the same photo (R6.9), old print inpainted, print nudged right and narrower so the braid hangs clear of the F; braid, hood, hands unchanged; read letter by letter, nothing overlaps. design-crops regenerated. Copy unchanged (art content same).
+- 2026-10-17 23:15 UTC director: REDO (one fix left; the bigger illustration and the cover composite both pass).
+  1. R5.3.8 / R3.7.6 (every line, light ink on a light blank): on the Sand mockup "Saturday, 7 a.m." is cream script on Sand with no outline and can't be read at phone size (zoomed: it smears into the fabric). It carries the joke's punchline, so it must read on both colors. In print-prep give that line the same dark-brown keyline FEED STORE and FASHION WEEK have (about the same stroke weight, scaled to the smaller letters), or thicken the script a step so the keyline holds. Re-upload, re-link 12/12, regenerate the Sand + Navy fronts, re-composite the new print onto the cover, then read all three lines on the Sand mockup at 400 px. No fal spend.
