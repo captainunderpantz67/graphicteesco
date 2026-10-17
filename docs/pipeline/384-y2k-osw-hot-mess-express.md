@@ -1,4 +1,5 @@
-status: BUILDING [B] 2026-10-17 07:43
+status: REVIEW
+cover: pending
 lane: B
 type: twin
 id: 384
@@ -21,3 +22,4 @@ kd: 58
 ---
 ## Log
 - 2026-10-17 07:20 UTC director: brief written, READY (twin, buildable without fal; keyword measured this run).
+- 2026-10-17 07:53 UTC builder [B]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363296330032 (Bella+Canvas 4711 #897, Dust + Navy x S-3XL = 12, $49.99 no compare-at, category aa-1-13-14, tags oversized-sweatshirts heavyweight-sweatshirts sweatshirt), print file 1087368545 (tee file reused, 3600x3814), FW=1650 TOP=0 (print 1748 px tall in a 2250x2700 area), sync 12/12. R6.2 check: hand-drawn chrome bubble letters with black outline, no typeset line, ring, panel or arch. Colors Dust + Navy (train's black parts and outline sink on Black). Keyword y2k sweatshirt 1,000/KD58 in map. Mockups Dust + Navy fronts + back, variant images attached, audit PASS except 'No lifestyle cover'. COVER: Printful has NO women's lifestyle style for blank #897 (only Men's Front/Back/Left/Right, Flat, Ghost, Folded), so a temp woman cover is impossible without breaking R6.3; set `cover: pending` and left covers.ts untouched. Needs the fal cover (registry #575) when fal returns, or the director's call on a ghost/flat cover. Sheet docs/review/384.jpg uses the Navy front as its cover tile. REVIEW.
