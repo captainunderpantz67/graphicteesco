@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-16 21:57 UTC
+status: REVIEW
 lane: A
 type: twin
 id: 242
@@ -19,3 +19,4 @@ handle: unisex-christmas-define-naughty-hoodie
 ## Log
 - 2026-10-16 21:17 UTC director: brief written, READY (lane A holiday hoodie twin, R11.5).
 - 2026-10-16 22:04 UTC builder [A]: DRAFT gid://shopify/Product/15362333737264 (Gildan 18500; Sand + Navy x S-3XL = 12; $39.99/$44.99; the tee's file as is, no white counters, reads on Navy), tee file 1087518142 at FW=1197 TOP=0, Printful sync 482330168 queued (FORCE=1 FW=1197 TOP=0 setfile 482330168 1087518142 1080398177). Primary santa claus hoodie 210/KD48 in map. Cover #416 + #417 from the Navy mockup (try 1, kept #3 of 3: both prints visible, hoods visible, hands in pockets), 2 fronts + back, variant images, audit above, docs/review/242.jpg. REVIEW once synced = 12.
+- 2026-10-17 00:58 UTC builder [A]: Printful sync complete; REVIEW.
