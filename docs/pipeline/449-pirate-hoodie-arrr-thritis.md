@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-17 23:50 UTC
+status: REVIEW
 lane: B
 type: new
 id: 449
@@ -31,3 +31,4 @@ kd: 27
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane B.
 - 2026-10-18 00:25 UTC builder [B]: art via Recraft, 2 images (~$0.08; try 1 had a boot floating off the peg-leg stump, R5.3.4; try 2 clean) + words in AlfaSlabOne cream/gold with navy stroke (designs/b/pi.json, pi-kw.png; two large white patches around legs/cane knocked out with knock-white 100000). Figure narrowed (art_width 0.58) so FW 1500 stays about 11.6 in tall, above the pouch seam. Copy fixed to match the art (patchwork coat, gangplank, bold cream and gold capitals). Printful file 1088456606, FW 1500 TOP 0, sync pid 482489873 running. Mockups per color + back attached. Cover registry #646 try 1 (~$0.04), words read. kw pirate hoodie 720/27.
 - 2026-10-18 00:25 UTC builder [B]: art via Recraft, 2 images (~$0.08; try 1 had a boot floating off the peg-leg stump, R5.3.4; try 2 clean) + words in AlfaSlabOne cream/gold with navy stroke (designs/b/pi.json, pi-kw.png; two large white patches around legs/cane knocked out with knock-white 100000). Figure narrowed (art_width 0.58) so FW 1500 stays about 11.6 in tall, above the pouch seam. Copy fixed to match the art (patchwork coat, gangplank, bold cream and gold capitals). Printful file 1088456606, FW 1500 TOP 0, sync pid 482489873 running. Mockups per color + back attached. Cover registry #646 try 1 (~$0.04), words read. kw pirate hoodie 720/27.
+- 2026-10-18 02:55 UTC builder [B]: synced 12/12. REVIEW. Sheet docs/review/449.jpg.
