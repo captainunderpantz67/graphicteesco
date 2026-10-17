@@ -5598,6 +5598,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-thanksgiving-cute-but-corny-hoodie": {
+   "claimed": [
+    "fall hoodie women"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fall hoodie women",
+     "volume": 320,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-17"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
