@@ -5449,6 +5449,25 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-thanksgiving-pie-season-pumpkin-hoodie": {
+   "claimed": [
+    "pumpkin hoodie",
+    "pie hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pumpkin hoodie",
+     "volume": 1000,
+     "kd": 54
+    },
+    {
+     "phrase": "pie hoodie",
+     "volume": 0,
+     "kd": 50
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

@@ -1,4 +1,5 @@
 RUNNING lane A since 2026-10-17 06:57 UTC
+2026-10-17 07:08 UTC — [A] ART-NEXT #280 womens-thanksgiving-pie-season-pumpkin-hoodie (Shopify draft; re-letter when fal returns)
 2026-10-17 07:08 UTC — [A] ART-NEXT #346 womens-christian-casserole-ministry-hoodie (Shopify draft; MINISTRY line needs re-letter when fal returns)
 2026-10-17 07:12 UTC — [A] REVIEW #347 espresso yourself hoodie (REDO: keyline on cream/pink letters, FW 1500, new mockups + temp cover)
 2026-10-17 07:02 UTC — [A] REVIEW #345 amazing grace crewneck (REDO: FW 1800, script scaled 1.4x, new mockups + temp cover)
