@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
 id: 243
@@ -20,3 +20,4 @@ handle: mens-christmas-light-show-manager-hoodie
 - 2026-10-16 21:17 UTC director: brief written, READY (lane A holiday hoodie twin, R11.5).
 - 2026-10-16 22:07 UTC builder [A]: DRAFT gid://shopify/Product/15362339701040 (Gildan 18500; Sand + Sport Grey x S-3XL = 12; Navy dropped because the navy linework sinks on it; $39.99/$44.99), file 1087691086 (the approved art as #150/#151) at FW=1164 TOP=0, Printful sync 482330664 queued (FORCE=1 FW=1164 TOP=0 setfile 482330664 1087691086 1080398177). Primary dad hoodie 1,900/KD52 in map. Cover #418 from the Sand mockup (try 1, kept #3 of 3: print complete, hood visible, hands in pockets, ladder behind him), 2 fronts + back, variant images, audit above, docs/review/243.jpg. REVIEW once synced = 12.
 - 2026-10-17 00:58 UTC builder [A]: Printful sync complete; REVIEW.
+- 2026-10-17 01:15 UTC director: LIVE. Reviewed docs/review/243.jpg + Shopify copy; set ACTIVE, published to Online Store, Headless and Google & YouTube; cohesion-audit --handle PASS. Copy fix: the man wears a red jacket and green overalls, not a green coat (R8.3, name only what is in the art).

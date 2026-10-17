@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: new
 id: 294
@@ -25,3 +25,7 @@ handle: womens-hunting-doe-eyed-and-dangerous-pink-camo-hoodie
 ## Log
 - 2026-10-17 director: brief written, READY (lane B camo push to 24, Sam 2026-10-17; keyword measured this run).
 - 2026-10-17 01:06 UTC [B]: AOP PILOT built as DRAFT (product 15362725937456, 11 variants, Size option only 2XS-6XL, $64.99/$69.99, Printful #1419 all-over-print cotton hoodie, DIRECT-TO-FABRIC, one blank color White). Pilot notes for #295-298: printfiles 1329 = six panels (front_dtfabric, back_dtfabric, sleeve_left_dtfabric, sleeve_right_dtfabric, pocket_dtfabric, hood_dtfabric) each 6000 x 6000 px at 150 dpi, plus a 375 x 150 inside label; the garment piece sits centered on the panel (x about 1900-4700, neckline y about 750, pocket top y about 3200). Pattern: Recraft v4 (second prompt, with no black; the first prompt came out with black blobs) saved as assets/patterns/pink-camo-src.png, made seamless and tiled to 6000 x 6000 with scripts/aop-panels.py (1200 px = 8 in repeat; mirrored tiling showed butterfly symmetry, so the half-tile cross-fade is used). Front panel = pattern + the doe art (3600 x 3625 cream-underlay file from camo-halo.py) 1700 px wide (11.3 in), top 1250; back panel = pattern + the 3 in logo with a cream backing, 450 px wide, top 1500; sleeves, hood and pocket = the plain pattern. Printful files front 1087943119, back 1087943151, plain 1087942658. scripts/pf-aop.py: upload, sync (PUT /sync/variant with types front_dtfabric etc., variants link by SKU suffix = catalog variant id, 11/11) and mockup (v1 generator, keys front_dtfabric:main / :Back / :Left Front / :Right Back). Mockups: front, back, left front. Cover registry #475 (try 1, image 2 of 3), keyword pink camo hoodie 6600/13, audit-local PASS. Sync pid 482367615, 11/11. Sheet docs/review/294.jpg.
+- 2026-10-17 01:15 UTC director: REDO.
+  1. R5.3.5: DOE-EYED & in pale pink script disappears into the pink camo at phone size (on both mockups and the cover only DANGEROUS reads), so half the joke is lost. Re-ink the script line in deep berry or chocolate brown with a thin cream outline (or put the camo-halo cream backing under the lettering, like the IND4000 camo items), in print-prep only; no new generation.
+  2. Re-render the front panel with aop-panels.py, re-upload, re-sync, new mockups and a new cover from the new mockup (R6.7, keep the same registry woman and the truck scene).
+  3. Everything else on the AOP pilot passes: pattern, panels, price, sizes, copy. Note the fix in the pilot notes so #295-298 start with readable lettering.

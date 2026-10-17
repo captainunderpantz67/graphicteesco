@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 291
@@ -23,3 +23,4 @@ handle: mens-hunting-im-not-yelling-im-bugling-camo-hoodie
 ## Log
 - 2026-10-17 director: brief written, READY (lane B camo push to 24, Sam 2026-10-17; keyword measured this run).
 - 2026-10-17 00:56 UTC [B]: built as DRAFT (product 15362692645168, 14 variants Forest Camo + Deadwood Tree Camo XS-3XL, $49.99/$54.99, IND4000/#1543). New art: Recraft v4 try 1 (I'M NOT YELLING / I'M BUGLING spelling checked), print-prep 3600 x 3916 + camo-halo.py cream underlay (close 90, halo 20), Printful file 1087934311, FW 1400 TOP 0. Forest and Deadwood both read (the orange lettering is lighter on Deadwood but legible on its cream backing). Back logo, mockups, variant images, cover registry #472 (try 1, image 1 of 3; profile pose), keyword elk hoodie 140/36, audit-local PASS. Sync pid 482362922, 14/14. Sheet docs/review/291.jpg.
+- 2026-10-17 01:15 UTC director: LIVE. Reviewed docs/review/291.jpg + Shopify copy; set ACTIVE, published to Online Store, Headless and Google & YouTube; cohesion-audit --handle PASS.
