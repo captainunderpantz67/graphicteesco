@@ -6701,6 +6701,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-bookish-do-not-sell-my-books-crewneck-sweatshirt": {
+   "claimed": [
+    "bookworm sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bookworm sweatshirt",
+     "volume": 170,
+     "kd": 63
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
