@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [C] 2026-10-17T22:40Z
 lane: C
 type: twin
 id: 502
