@@ -1,4 +1,5 @@
-status: BUILDING [B] 2026-10-17T05:35Z
+status: REVIEW
+cover: temp
 lane: B
 type: twin
 id: 350
@@ -21,3 +22,4 @@ kd: 27
 ---
 ## Log
 - 2026-10-17 05:24 UTC director: brief written, READY (twin; keyword measured this run; KD ≤ 20 band exhausted for this garment/niche).
+- 2026-10-17 05:32 UTC [B]: (temp-cover mode, no fal; fal storage 403 so reused Printful file 1087188286, the approved tee print, 3600x4173, FW 1400 TOP 0). Lettering check: SLURP RESPONSIBLY is distressed hand-lettered arched caps, not typeset; no ring/panel/box; ok. Colors Sand + Navy (art reads on both). Shopify DRAFT gid://shopify/Product/15363088220464 (Gildan 18000, 12 variants, $34.99, no compare-at, category aa-1-13-14, tags sweatshirt/ai-art/intake-done), sync 482396094 12/12, mockups Sand + Navy + back, variant images, keyword ramen sweatshirt 720/27. TEMP COVER Printful Couple's (style 1201, Navy, man and woman, print fully visible). Audit PASS except draft state.
