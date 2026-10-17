@@ -1,4 +1,4 @@
-status: REDO
+status: PARKED
 lane: B
 type: new
 id: 294
