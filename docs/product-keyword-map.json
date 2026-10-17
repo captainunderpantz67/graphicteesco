@@ -6766,6 +6766,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-nurse-iv-league-crewneck-sweatshirt": {
+   "claimed": [
+    "nurse crewneck"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "nurse crewneck",
+     "volume": 720,
+     "kd": 60
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

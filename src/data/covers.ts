@@ -366,6 +366,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-football-mom-promised-to-behave-graphic-tee': { src: '/covers/womens-football-mom-promised-to-behave-graphic-tee.webp', alt: 'Woman in a maroon Promised to Behave football mom tee in the bleachers at a Friday night game' },
   'mens-gym-sisyphus-had-bad-programming-graphic-tee': { src: '/covers/mens-gym-sisyphus-had-bad-programming-graphic-tee.webp', alt: 'Man in a light beige Sisyphus Had Bad Programming tee in a home garage gym, hands in his shorts pockets' },
   'womens-baseball-mom-bases-loaded-crewneck-sweatshirt': { src: '/covers/womens-baseball-mom-bases-loaded-crewneck-sweatshirt.webp', alt: 'Woman in a Sand Bases Loaded Mom Exhausted crewneck sweatshirt in a youth baseball tournament parking lot, hands in her jeans pockets' },
+  'womens-nurse-iv-league-crewneck-sweatshirt': { src: '/covers/womens-nurse-iv-league-crewneck-sweatshirt.webp', alt: 'Woman in a Sand IV League nurse crewneck sweatshirt in a hospital corridor at shift change, hands in her scrub pockets' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
