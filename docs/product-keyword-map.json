@@ -5560,6 +5560,7 @@
    ],
    "measured": "2026-10-16"
   },
+<<<<<<< HEAD
   "womens-nurse-charting-is-my-cardio-crewneck-sweatshirt": {
    "claimed": [
     "nursing sweatshirt"
@@ -5569,6 +5570,17 @@
      "phrase": "nursing sweatshirt",
      "volume": 5400,
      "kd": 48
+=======
+  "womens-christmas-merry-woofmas-hoodie": {
+   "claimed": [
+    "festive hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "festive hoodie",
+     "volume": 720,
+     "kd": 46
+>>>>>>> 32fd865 (wip)
     }
    ],
    "measured": "2026-10-16"
