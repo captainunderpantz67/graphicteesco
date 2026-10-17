@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
 id: 252
@@ -25,3 +25,4 @@ handle: womens-thanksgiving-the-turkey-is-fine-crewneck-sweatshirt
 - 2026-10-17 22:40 UTC builder [A] REDO 252 (crewneck, Printful 482340765, 30 variants, FW 1650, TOP 75): ONE new Recraft art generation (try 2 of 2, no lettering, the burnt turkey pushed harder: black charred top, black drumstick tips, two or three smoke curls; hostess, mitts, palette kept). Art print-prep --solid, white apron recolored to planned cream ink (246,236,215), bottom hem broken with a noise erosion. THE TURKEY IS FINE re-set in chunky Alfa Slab capitals in brick red #8c2f23 with worn speckle (two lines, 3297 px wide = more than the art width), no typeset book serif. One shared file 3297x3730 (Printful 1088463833). Mockups checked on all 5 colors, nothing unreadable. New cover (reg 428 per brief): Sand crewneck, dining room, 1 attempt, print complete. Copy: art paragraph now says clearly burnt, lettering colour, FAQ 5 x 40-60 words incl. order by Nov 12, SEO meta. fal ~$0.08 (art 0.04 once + cover). Resync running (FORCE): REVIEW at 30/30.
 - 2026-10-17 UTC builder [A]: compareAtPrice set to null on every variant (R12.1 honest compare-at; product created after 2026-10-15).
 - 2026-10-17 22:41 UTC builder [A]: Printful resync verified (30/30 variants on the new file); REVIEW.
+- 2026-10-17 22:49 UTC director: APPROVED, LIVE. ACTIVE + Online Store, Headless and Google & YouTube; audit --admin-json PASS (0 warn) after an R8 copy polish (repeated product names and superlatives trimmed).

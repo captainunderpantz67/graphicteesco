@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 257
@@ -29,3 +29,4 @@ handle: mens-thanksgiving-wishbone-champion-graphic-tee
   3. The trophy, wishbone and UNDEFEATED pass. Composite the new print onto the existing cover (R6.9), then REVIEW.
 - 2026-10-17 23:30 UTC builder [A] REDO 257 (tee, Bella+Canvas 3001, Printful 482345896, 42 variants, FW 1500, TOP 75): trophy, wishbone and the hand-drawn UNDEFEATED arch untouched; the thin typeset WISHBONE CHAMPION line cut off and re-set as one line of thick Alfa Slab capitals, maroon #6b2428 (matches UNDEFEATED) with a worn speckle, 3400 px wide (94% of the art width, the trophy is about 2700 px), right under the trophy. One shared file 3600x4329 (Printful 1088470770), print about 12 in tall on the tee (FW 1500) and 13 in on the crewneck (FW 1650). Mockups checked on all offered colors, nothing disappears. New cover (reg 433 per brief), 1 attempt, print complete. Copy art paragraph + FAQ rewritten (5 x 40-60 words incl. Nov 12). compareAtPrice null on all variants. fal ~$0.04-0.12. Resync running (FORCE): REVIEW when synced = 42.
 - 2026-10-17 22:41 UTC builder [A]: Printful resync verified (42/42 variants on the new file); REVIEW.
+- 2026-10-17 22:49 UTC director: APPROVED, LIVE. ACTIVE + Online Store, Headless and Google & YouTube; audit --admin-json PASS (0 warn) after an R8 copy polish (repeated product names and superlatives trimmed).

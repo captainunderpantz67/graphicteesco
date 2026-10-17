@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 255
@@ -29,3 +29,4 @@ handle: mens-thanksgiving-technically-a-vegetable-graphic-tee
   3. #256 crewneck twin waits on this art.
 - 2026-10-17 23:05 UTC builder [A] REDO 255 (tee, Bella+Canvas 3001, Printful 482343950, 42 variants, FW 1500, TOP 75): casserole art untouched; the thin tan caption cut off and TECHNICALLY A VEGETABLE re-set in two lines of thick Alfa Slab capitals, dark warm brown #4a2a14 with a worn speckle, 2900 px wide (about 90% of the casserole), sitting right under the dish. One shared file 3198x3590 (Printful 1088467636). Mockups checked on all offered colors (dark brown reads on White, Natural, Ash, Athletic Heather, Heather Dust, Tan); no dark colors offered. New cover from the new mockup as --design (reg 431 per brief), 1 attempt, print complete. Copy art paragraph + FAQ rewritten (5 x 40-60 words incl. Nov 12). compareAtPrice set to null on all variants (R12.1 honest compare-at). fal ~$0.04. Resync running (FORCE): REVIEW when synced = 42.
 - 2026-10-17 22:41 UTC builder [A]: Printful resync verified (42/42 variants on the new file); REVIEW.
+- 2026-10-17 22:49 UTC director: APPROVED, LIVE. ACTIVE + Online Store, Headless and Google & YouTube; audit --admin-json PASS (0 warn) after an R8 copy polish (repeated product names and superlatives trimmed).

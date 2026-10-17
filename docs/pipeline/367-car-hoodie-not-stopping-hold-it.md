@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 367
@@ -28,3 +28,4 @@ kd: 36
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane A.
 - 2026-10-17 21:03 UTC builder [A]: ART + MOCKUPS + COVER done on the existing DRAFT gid 15363170238768; sync queued. Art: 1 Recraft call (wood-panel wagon packed to the roof, dad at the wheel, no lettering), print-prep --solid, white to planned cream ink, cream keyline + 60 px noise erosion on the scene edges. NOT STOPPING. above (3300 px) and HOLD IT. below (2000 px) in Alfa Slab, cream with a brown outline. File 3300x3256 (Printful 1088490491), FW 1600 TOP 0 (about 10.5 in tall). Mockups Sand + Navy checked. Cover: reg 558 per brief, Navy mockup as --design, 1 attempt, print complete. Shopify: media + variant links, copy rewritten to the real art (the old FAQs were under 40 words), 5 FAQs 40-60 words incl. Dec 8, audit-local PASS, no compare-at. fal ~$0.08. Printful sync 482403104 queued (12 variants): REVIEW when synced = 12. Resume: FW=1600 TOP=0 python3 scripts/pf-sync.py setfile 482403104 1088490491 1080398177
 - 2026-10-17 22:41 UTC builder [A]: Printful resync verified (12/12 variants on the new file); REVIEW.
+- 2026-10-17 22:49 UTC director: APPROVED, LIVE. ACTIVE + Online Store, Headless and Google & YouTube; audit --admin-json PASS (0 warn) after an R8 copy polish (repeated product names and superlatives trimmed).
