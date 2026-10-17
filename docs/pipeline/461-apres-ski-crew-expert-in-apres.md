@@ -1,4 +1,5 @@
-status: BUILDING [B] 2026-10-17 23:05
+status: REVIEW
+shopify: gid://shopify/Product/15364241621296
 lane: B
 type: twin
 id: 461
@@ -21,3 +22,4 @@ kd: 41
 ---
 ## Log
 - 2026-10-17 15:22 UTC director: brief written, READY (keyword measured this run, low-KD sweep; lane B).
+- 2026-10-17 23:20 UTC builder [B]: built from #460's approved print (Printful file 1088485600, no new art). R6.2 source check: #460 lettering is compose-print Alfa Slab + Caveat Brush on a hand-drawn scene, no ring, arch, disc or box; passes. DRAFT gid 15364241621296, category aa-1-13-14, Sand + Light Pink x S-3XL = 12, $34.99, compareAtPrice null, tags graphic-sweatshirts/sweatshirt/ai-art/intake-done. Keyword apres ski sweatshirt 880/KD41 in first sentence and meta once. FAQs 5 x 49-57 words incl. Dec 8. FW 1650 TOP 75 (print about 11.6 in tall), mockups for both colors + back, read at 400 px: both lines legible (dusty-pink line is lower contrast on Light Pink, readable). Printful sync 12/12. Cover reg 661, 1 fal call (~$0.06): hair bun still touched the first E; fixed per 9b by inpainting the ghost line and compositing the exact EXPERT IN APRES line from the print file; caption and figure are the model's own and unobstructed. Audit --handle: only "not active" error. design-crops and variant-photo-audit run (product not in the null list).

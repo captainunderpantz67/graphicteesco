@@ -7279,6 +7279,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-apres-ski-expert-in-apres-crewneck-sweatshirt": {
+   "claimed": [
+    "apres ski sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "apres ski sweatshirt",
+     "volume": 880,
+     "kd": 41
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

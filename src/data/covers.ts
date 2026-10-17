@@ -447,6 +447,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-christmas-tied-up-for-the-holidays-crewneck-sweatshirt': { src: '/covers/womens-christmas-tied-up-for-the-holidays-crewneck-sweatshirt.webp', alt: 'Woman in a sand Tied Up for the Holidays tartan bow crewneck sweatshirt at a holiday market with string lights and wreaths behind her' },
   'womens-embroidered-thriving-technically-frog-hoodie': { src: '/covers/womens-embroidered-thriving-technically-frog-hoodie.webp', alt: 'Woman in a long-sleeve sand hoodie with a small embroidered green frog and the words Thriving, technically on the chest, sitting at a sunny plant-filled apartment window seat' },
   'mens-hunting-not-lost-scouting-camo-hoodie': { src: '/covers/mens-hunting-not-lost-scouting-camo-hoodie.webp', alt: 'Man in a Duck Camo heavyweight hoodie with a buck-in-a-recliner print and the words NOT LOST. SCOUTING., standing on a deer camp cabin porch at dawn with a pickup truck behind him' },
+  'womens-apres-ski-expert-in-apres-crewneck-sweatshirt': { src: '/covers/womens-apres-ski-expert-in-apres-crewneck-sweatshirt.webp', alt: 'Woman in her early 30s with dark hair in a high bun in a sand Expert in Apres ski crewneck sweatshirt by a ski lodge fireplace with wooden skis on the wall' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
