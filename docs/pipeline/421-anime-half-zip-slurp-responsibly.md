@@ -1,4 +1,6 @@
-status: BUILDING [B] 2026-10-17 11:45 UTC
+status: REVIEW
+cover: temp (swap)
+shopify: gid://shopify/Product/15363653108016
 lane: B
 type: twin
 id: 421
@@ -21,3 +23,4 @@ kd: 32
 ---
 ## Log
 - 2026-10-17 11:23 UTC director: brief written, READY (keyword measured this run; source art checked against R4.1/R6.2 from its live mockup; fal-free twin).
+- 2026-10-17 12:20 UTC builder [B]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363653108016 (Bella+Canvas 4740 half zip #1631, Dust + Navy x XS-3XL = 14, $54.99 no compare-at, productType Half Zip Pullover, category aa-1-13-14, tags half-zip-pullovers, graphic-hoodies-for-women, hoodie, ai-art, intake-done), sync product 482447667 synced 14/14. Print: tee/hoodie file 1087188286 (3600x4173) reused as is via scripts/pf-dtf-sync.py (back_large_dtf + chest_left_dtf; this blank has no large front DTF placement, same as #235, so the big print is on the back and the placket never meets the art). R6.2 check: SLURP RESPONSIBLY is chipped hand-drawn lettering, the cat, bowl, lantern and steam doodles are drawn art; no typeset line, ring, panel or box. White counters: the pale letter interiors are planned cream ink, nothing knocked out. Phone-size read: arch reads on Dust and Navy back mockups. FAQ 6 x 46-52 words, order-by Dec 8. Keyword ramen cat 4,400/KD32 in map ('ramen hoodie' and 'half zip sweatshirt' not used). Mockups: Dust+Navy fronts, Navy+Dust backs, variant images per color. COVER: Printful has NO model/lifestyle mockup for the 4740 half zip (only flat 30771/30772 and ghost-style 31120-31122), so the temp cover is the Navy back view style 31121 (print fully visible, no person): cover: temp (swap); audit-local WARN 'cover alt does not say who is in the photo' is expected until the fal cover (registry #614, Japanese-American woman at the ramen counter, back print) replaces it. Sheet docs/review/421.jpg. REVIEW.
