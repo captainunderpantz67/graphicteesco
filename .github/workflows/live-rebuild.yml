@@ -2,8 +2,10 @@
 # Cloudflare Pages only builds pushes that change site files, and a product goes live with a docs-only commit
 # (docs/pipeline/<id>.md → status: LIVE), so new products 404'd until the next code push (2026-10-17: #452
 # missing for ~1 hour). This pings the deploy hook whenever a push adds "status: LIVE".
-# Debounced: each run waits 8 minutes and a newer push cancels the older wait, so a burst of reviews makes
-# one build, not ten (Cloudflare's free plan allows 500 builds a month).
+# Debounced: each run waits 8 minutes; while one waits, newer pushes queue behind it (only the newest stays
+# pending), so a burst of reviews makes one or two builds, not ten (Cloudflare's free plan allows 500 builds a
+# month). Not cancel-in-progress: with four lanes pushing every few minutes the wait never finished
+# (director, 2026-10-17 night: 24 LIVE products 404'd for 25+ minutes).
 name: Rebuild on LIVE
 on:
   push:
@@ -11,7 +13,7 @@ on:
     paths: ['docs/pipeline/**']
 concurrency:
   group: live-rebuild
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   rebuild:
     runs-on: ubuntu-latest
