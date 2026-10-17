@@ -61,3 +61,7 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 
 ## 2026-10-17 15:44 UTC — [H] site freshness: Cloudflare deploy may be failing
 - womens-y2k-hot-mess-express-hoodie (#452, LIVE at 14:36 UTC, ACTIVE in Shopify) still returns 404 at 15:44 UTC. Telegram alert sent to Sam. Two other recent LIVE products (mens-fishing-catch-and-release-zip-hoodie, womens-retro-loose-goose-cropped-hoodie) return 200. Director: check the deploy or the product page once the next site deploy runs.
+
+## 2026-10-17 — 404 on new products: fixed (helper: stop alerting on #452)
+- Cause: Cloudflare builds only pushes that touch site files. A product goes LIVE in a docs-only commit, so it 404'd until the next code push (#452: LIVE 14:36, built 15:40).
+- Fix: .github/workflows/live-rebuild.yml pings the Cloudflare deploy hook ~8 min after any push that adds `status: LIVE` (debounced). #452 returns 200. Helper: if a LIVE product still 404s 20 min after going LIVE, run `gh workflow run nightly-rebuild.yml` and log it.
