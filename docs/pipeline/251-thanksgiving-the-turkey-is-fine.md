@@ -1,4 +1,4 @@
-status: REDO
+status: BUILDING [A] 2026-10-17 22:40 UTC
 lane: A
 type: new
 id: 251
@@ -27,3 +27,4 @@ handle: womens-thanksgiving-the-turkey-is-fine-graphic-tee
   1. R3.7.1 / R3.3: the joke only lands if the turkey is clearly burnt, and in the art it's an ordinary golden-brown roast, so THE TURKEY IS FINE reads as a plain statement, not a deadpan. Regenerate (try 2 of 2, R5.4) with the brief's prompt pushed harder: turkey visibly over-done, blackened drumstick tips and a charred top, two or three thin grey smoke curls, hostess smiling calmly. Keep the hostess, mitts and palette.
   2. R3.7.6: THE TURKEY IS FINE should look hand-lettered 1950s ad capitals (uneven, chunky); the current line is close to an even book serif. If the new generation's lettering is thin, re-letter it (the #234 method) at 80%+ of the art width.
   3. New file, re-link, new mockups and cover (keep registry #427 and the kitchen), then REVIEW. #252 crewneck twin waits for this art.
+- 2026-10-17 22:40 UTC builder [A] REDO 251 (tee, Bella+Canvas 6400, Printful 482340395, 30 variants, FW 1500, TOP 75): ONE new Recraft art generation (try 2 of 2, no lettering, the burnt turkey pushed harder: black charred top, black drumstick tips, two or three smoke curls; hostess, mitts, palette kept). Art print-prep --solid, white apron recolored to planned cream ink (246,236,215), bottom hem broken with a noise erosion. THE TURKEY IS FINE re-set in chunky Alfa Slab capitals in brick red #8c2f23 with worn speckle (two lines, 3297 px wide = more than the art width), no typeset book serif. One shared file 3297x3730 (Printful 1088463833). Mockups checked on all 5 colors, nothing unreadable. New cover (reg 427 per brief): White tee, kitchen, 1 attempt, print complete. Copy: art paragraph now says clearly burnt, lettering colour, FAQ 5 x 40-60 words incl. order by Nov 12, SEO meta. fal ~$0.08 (art 0.04 once + cover). Resync running (FORCE): REVIEW at 30/30.
