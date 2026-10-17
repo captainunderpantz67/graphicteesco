@@ -478,7 +478,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 585 | Japanese-American woman, mid 20s, short black bob with bangs, oversized cardigan open at the sides | RESERVED — #394 Oops Anyway Crewneck Sweatshirt cover |
 | 586 | Guatemalan-American woman, early 40s, shoulder-length dark hair with a few greys, tortoiseshell glasses | USED 2026-10-16 — #395 Indoor Recess Survivor crewneck cover (seedream, 1 attempt) |
 | 587 | Mexican-American woman, late 20s, long dark waves, turquoise earrings, tan felt hat held at her side | RESERVED — #396 Yeehaw Responsibly Crewneck Sweatshirt cover |
-| 588 | man AND woman together: Chinese-American man, mid 30s, short side-parted hair; white woman, mid 30s, sandy-blonde shag | RESERVED — #397 Currently Drifting Hoodie cover |
+| 588 | man AND woman together: Chinese-American man, mid 30s, short side-parted hair; white woman, mid 30s, sandy-blonde shag | USED 2026-10-17 - #397 Currently Drifting otter hoodie cover (pair with #588-589) |
 | 589 | man AND woman together: Black man, early 40s, salt-and-pepper beard, beanie held at his side; Korean-American woman, late 30s, long straight hair, denim jacket open | RESERVED — #398 Fine Dumpster Dining Hoodie cover |
 | 590 | man AND woman together: Cuban-American man, early 30s, short curly hair, runner's build; white woman, early 30s, high blonde ponytail | RESERVED — #399 Turkey Trot Hoodie cover |
 | 591 | Filipino-American woman, early 30s, long straight black hair, small gold hoops | RESERVED — #400 Sleighping In Hoodie cover |
