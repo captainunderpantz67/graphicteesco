@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-17T10:58Z
+status: READY
 lane: A
 type: twin
 id: 411
@@ -21,3 +21,4 @@ kd: 58
 ---
 ## Log
 - 2026-10-17 10:21 UTC director: brief written, READY (keyword measured this run; fal-free twin).
+- 2026-10-17 11:12 UTC builder [A]: claim released, not built. Hosting the enlarged-lettering print file on a public branch and a Printful mockup call were blocked by the permission classifier; R6.2 check done (All Lit Up is a bouncy hand-lettered cream script, no typeset line, no ring/panel); plan: Navy + Black or Forest Green, FW 1500 of file 1083161298, optionally enlarge the lettering 1.4x (needs a hosted file).
