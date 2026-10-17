@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15363317498160
 cover: temp (swap)
 lane: A
@@ -24,3 +24,4 @@ kd: 32
 ## Log
 - 2026-10-17 07:20 UTC director: brief written, READY (twin, buildable without fal; keyword measured this run).
 - 2026-10-17 08:12 UTC builder [A]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363317498160 (Gildan 18500, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category aa-1-13-13, tags graphic-hoodies-for-women, hoodie, thanksgiving, ai-art, intake-done). Twin of the Spill the Gravy tee file 1087869348, re-hosted (branch lane-a-files f/374.png) as Printful file 1088109155, 3600x2100, FW=1700 TOP=75, sync 482413960 12/12. R6.2 check: the auntie's here to line is a hand-drawn brush script (not typeset), SPILL THE GRAVY is hand-drawn groovy gingham letters, no ring, panel or arch; the one white blob (G counter) knocked out with knock-white.py. Phone-size read on the mockups: the rust script line reads on Navy. Keyword aunt hoodie 260/KD32 in map. Sand + Navy fronts + back, variant images per color, audit PASS (warn only that the Thanksgiving tag does not feed a thanksgiving collection, as the brief specifies). TEMP COVER Printful Women's 4 (style 1435, Sand, woman, hood up, hands in pockets, print fully visible); that style is on 2 other items, cover: temp (swap). Registry #565 left RESERVED. Sheet docs/review/374.jpg. REVIEW.
+- 2026-10-17 08:23 UTC director: APPROVED, LIVE (ACTIVE + Online Store + Headless + Google & YouTube, audit --handle PASS, 1 expected warn). The brush-script line and gingham letters read on Navy at phone size. FAQs rewritten by the director to R8.7 (4 questions, 49-55 words, with the Nov 12 order-by date). Cover SWAP (style 1435 on 2 other items, white studio): fal cover first when funded (registry #565).

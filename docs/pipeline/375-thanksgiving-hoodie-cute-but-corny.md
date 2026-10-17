@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15363320217904
 cover: temp (swap)
 lane: A
@@ -24,3 +24,4 @@ kd: 32
 ## Log
 - 2026-10-17 07:20 UTC director: brief written, READY (twin, buildable without fal; keyword measured this run).
 - 2026-10-17 08:15 UTC builder [A]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363320217904 (Gildan 18500, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category aa-1-13-13, tags graphic-hoodies-for-women, hoodie, thanksgiving, ai-art, intake-done). Twin of the Cute But Corny tee file 1087876219, re-hosted (branch lane-a-files f/375.png) as Printful file 1088110234, 3600x2120, FW=1700 TOP=75, sync 482414112 12/12. R6.2 check: CUTE BUT CORNY is hand-drawn groovy gingham letters, bow and corn are planned ink, no typeset line, ring, panel or arch; knock-white found no pure-white blobs, counters transparent. Reads on Sand and Navy. Keyword fall hoodie women 320/KD32 in map. Fronts + back, variant images per color, audit PASS (warn only that the Thanksgiving tag does not feed a collection, as the brief specifies). TEMP COVER Printful Women's 5 (style 1463, Sand, woman, hands at the hood off the print, print fully visible); style on 2 other items, cover: temp (swap). Registry #566 left RESERVED. Sheet docs/review/375.jpg. REVIEW.
+- 2026-10-17 08:23 UTC director: APPROVED, LIVE (ACTIVE + published to all three, audit --handle PASS, 1 expected warn). Gingham letters, bow and corn read on Sand and Navy. FAQs rewritten by the director to R8.7. Cover SWAP (style 1463 on 2 other items, white studio): fal cover first when funded (registry #566).
