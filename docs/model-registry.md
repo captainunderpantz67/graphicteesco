@@ -572,7 +572,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 679 | East Asian man, late 20s, short textured hair | RESERVED — #473 Per My Last Email Hoodie cover (with #678) |
 | 680 | white woman, early 30s, sun-streaked light-brown braid, felt western hat, light freckles | RESERVED — #474 Feed Store Fashion Week Hoodie cover |
 | 681 | Mexican-American woman, early 20s, long dark braid, small silver hoops | USED 2026-10-17 — #475 Horse Girl crewneck cover (try 1 kept, 2 images) |
-| 682 | Black woman, late 20s, shoulder-length box braids, small gold studs | RESERVED — #476 Horse Girl, Broke on Purpose Hoodie cover |
+| 682 | Black woman, late 20s, shoulder-length box braids, small gold studs | USED 2026-10-17 — #476 Horse Girl hoodie cover (try 1, image 1 of 1) |
 | 683 | Black woman, early 40s, short natural curls, small gold hoops, warm brown skin | USED 2026-10-17 — #477 Clocked It embroidered crewneck cover (try 1, image 1 of 1) |
 | 690 | Native American man, late 40s, long black hair tucked under a blaze-orange cap, short salt-and-pepper stubble, sturdy build | USED 2026-10-16 — #479 Tag Soup Hoodie cover (seedream, 1 attempt) |
 | 684 | Latina woman, early 30s, long wavy dark-brown hair with a side part, small silver studs, dark red lipstick | USED 2026-10-17 — #478 Clocked It tee cover (try 1, image 1 of 1) |
