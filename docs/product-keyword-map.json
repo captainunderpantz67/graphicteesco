@@ -4812,6 +4812,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-gym-deadlift-skeleton-oversized-hoodie": {
+   "claimed": [
+    "skeleton hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "skeleton hoodie",
+     "volume": 6600,
+     "kd": 37
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
