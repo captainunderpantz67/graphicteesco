@@ -8,6 +8,7 @@ import { productFaqs } from '../../lib/product-faqs';
 import { all, pathFor } from '../../data/collections';
 import { coverFor } from '../../data/covers';
 import { linkableSlugs } from '../../lib/linkable';
+import designCrops from '../../data/design-crops.json';
 
 export async function getStaticPaths() {
   const products = await getAllProducts();
@@ -66,7 +67,12 @@ const variantData = p.variants.map((v) => ({ id: v.id, ok: v.availableForSale, p
 const images = p.images.length ? p.images : [];
 // Slide 1 = the product's fal lifestyle cover (the only human on the page, store-rules image standard v2).
 const cover = coverFor(p.handle);
-const slideCount = images.length + (cover ? 1 : 0);
+// Design close-up (Sam, 2026-10-17: "I can't really see the designs"): a crop around the print on the first
+// mockup, found by scripts/design-crops.py and served by Shopify's CDN. It sits right after the cover.
+const crop = (designCrops as Record<string, { src: string; x: number; y: number; w: number; h: number }>)[p.handle];
+const closeUp = crop ? `${crop.src}?crop=region&crop_left=${crop.x}&crop_top=${crop.y}&crop_width=${crop.w}&crop_height=${crop.h}` : null;
+const lead = (cover ? 1 : 0) + (closeUp ? 1 : 0); // slides before the mockups
+const slideCount = images.length + lead;
 const firstColor = '' as string;
 // Which color each photo shows (Printful file names carry the color slug). Longest names first so
 // "graphite-heather" wins over "heather".
@@ -100,19 +106,28 @@ const altFor = (img: { url: string; altText?: string | null }) => {
     {primary && <> / <a href={pathFor(primary)} class="hover:underline">{primary.h1}</a></>}
   </nav>
 
+  <!-- Tap a photo to see it full screen; pinch or double-tap zooms in from there. -->
+  <div data-zoombox hidden class="fixed inset-0 z-[60] bg-black/90 flex items-center justify-center p-3" role="dialog" aria-modal="true" aria-label="Photo, full screen">
+    <img data-zoomimg src="" alt="" class="max-w-full max-h-full object-contain" />
+    <button type="button" data-zoomclose aria-label="Close photo" class="absolute top-[calc(env(safe-area-inset-top,0px)+12px)] right-3 w-11 h-11 grid place-items-center rounded-full bg-[var(--color-cream)] text-[var(--color-ink)] text-2xl leading-none border-2 border-[var(--color-ink)]">×</button>
+  </div>
+
   <section class="container-x pt-4 grid lg:grid-cols-[1.1fr_1fr] gap-8 lg:gap-14 items-start">
     <!-- GALLERY: swipeable carousel + thumbnails -->
     <div class="min-w-0 lg:sticky lg:top-24">
       <div class="relative">
         <div data-track class="flex overflow-x-auto snap-x snap-mandatory rounded-[20px] bg-white border-2 border-[var(--color-ink)] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden" aria-label="Product photos" tabindex="0">
-          {cover && <img src={cover.src} alt={cover.alt} width="600" height="800" loading="eager" fetchpriority="high" data-always="1"
-              class="w-full shrink-0 snap-center aspect-square object-cover object-[50%_25%]" />}
+          {cover && <img src={cover.src} alt={cover.alt} width="600" height="750" loading="eager" fetchpriority="high" data-always="1" data-zoom={cover.src}
+              class="w-full shrink-0 snap-center aspect-[4/5] object-cover object-[50%_25%] cursor-zoom-in" />}
+          {closeUp && <img src={`${closeUp}&width=900`} srcset={`${closeUp}&width=600 600w, ${closeUp}&width=900 900w`} sizes="(min-width: 1024px) 50vw, 100vw"
+              alt={`Close-up of the ${designName} design`} width="900" height="1125" loading={cover ? 'lazy' : 'eager'} data-always="1" data-zoom={`${closeUp}&width=1400`}
+              class="w-full shrink-0 snap-center aspect-[4/5] object-cover cursor-zoom-in" />}
           {images.length ? images.map((img, i) => (
             <img src={`${img.url}&width=1100`} srcset={`${img.url}&width=600 600w, ${img.url}&width=1100 1100w`}
               sizes="(min-width: 1024px) 50vw, 100vw" alt={altFor(img)} width="1100" height="1100"
-              loading={i < (cover ? 1 : 2) ? 'eager' : 'lazy'} fetchpriority={!cover && i === 0 ? 'high' : undefined} data-src={img.url} data-color={colorOf(img.url)}
-              class="w-full shrink-0 snap-center aspect-square object-contain" />
-          )) : <div class="w-full aspect-square grain"></div>}
+              loading={i < (cover ? 1 : 2) ? 'eager' : 'lazy'} fetchpriority={!cover && !closeUp && i === 0 ? 'high' : undefined} data-src={img.url} data-color={colorOf(img.url)} data-zoom={img.url}
+              class="w-full shrink-0 snap-center aspect-[4/5] object-cover cursor-zoom-in" />
+          )) : <div class="w-full aspect-[4/5] grain"></div>}
         </div>
         {slideCount > 1 && (
           <>
@@ -129,7 +144,12 @@ const altFor = (img: { url: string; altText?: string | null }) => {
               <img src={cover.src} alt="" width="64" height="64" loading="lazy" decoding="async" class="w-full h-full object-cover object-[50%_25%]" />
             </button>
           )}
-          {images.map((img, j) => { const i = j + (cover ? 1 : 0); return (
+          {closeUp && (
+            <button type="button" data-thumb={cover ? 1 : 0} data-always="1" aria-label="Design close-up" class="shrink-0 w-16 h-16 rounded-xl overflow-hidden border-2 bg-white border-transparent">
+              <img src={`${closeUp}&width=160`} alt="" width="64" height="64" loading="lazy" decoding="async" class="w-full h-full object-cover" />
+            </button>
+          )}
+          {images.map((img, j) => { const i = j + lead; return (
             <button type="button" data-thumb={i} data-color={colorOf(img.url)} aria-label={`Photo ${i + 1}`} class:list={['shrink-0 w-16 h-16 rounded-xl overflow-hidden border-2 bg-white', i === 0 ? 'border-[var(--color-ink)]' : 'border-transparent']}>
               <img src={`${img.url}&width=160`} alt="" width="64" height="64" decoding="async" class="w-full h-full object-contain" />
             </button>
@@ -272,6 +292,17 @@ const altFor = (img: { url: string; altText?: string | null }) => {
     };
     track.addEventListener('scroll', () => requestAnimationFrame(sync), { passive: true });
     thumbs.forEach((t) => t.addEventListener('click', () => go(visible().indexOf(slides[Number(t.dataset.thumb)]))));
+    // Full-screen photo: tap (not swipe) a slide to open it; Escape, the ×, or a tap on the backdrop closes it.
+    const box = document.querySelector<HTMLElement>('[data-zoombox]');
+    const boxImg = box?.querySelector<HTMLImageElement>('[data-zoomimg]');
+    const close = () => { if (box) { box.hidden = true; document.body.style.overflow = ''; } };
+    slides.forEach((s) => s.addEventListener('click', () => {
+      if (!box || !boxImg || !s.dataset.zoom) return;
+      boxImg.src = s.dataset.zoom; boxImg.alt = s.alt; box.hidden = false; document.body.style.overflow = 'hidden';
+      box.querySelector<HTMLButtonElement>('[data-zoomclose]')?.focus();
+    }));
+    box?.addEventListener('click', (e) => { if (e.target !== boxImg) close(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
     document.querySelector('[data-prev]')?.addEventListener('click', () => go(Math.max(0, current() - 1)));
     document.querySelector('[data-next]')?.addEventListener('click', () => go(Math.min(visible().length - 1, current() + 1)));
     // Picking a color shows that color's photo. Shopify links each variant to its mockup (variant.image);
