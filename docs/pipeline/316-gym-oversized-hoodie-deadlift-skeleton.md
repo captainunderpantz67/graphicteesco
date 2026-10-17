@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-17 03:22
+status: READY
 lane: B
 type: twin
 id: 316
@@ -19,3 +19,4 @@ kd: 37
 ---
 ## Log
 - 2026-10-17 02:26 UTC director: brief written, READY (low-KD sweep 2026-10-17, card step 5; keyword measured this run).
+- 2026-10-17 03:27 UTC [B]: NOT BUILT, fal.ai balance exhausted (hosting, Recraft and Seedream all return 403 'Exhausted balance'). Twin lettering check done: the live tee file is an orange circle badge with a banner (fails R4.1), so redrawn frameless with one Recraft generation; print saved at assets/wip/316-print.png (3600x3110, knocked out, Dust + Navy both read). Left to do: host print, productSet, mockups, cover (registry #500), media, audit.
