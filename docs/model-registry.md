@@ -541,7 +541,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 648 | white man, early 30s, curly red hair, freckles | USED 2026-10-17 - #450 Shiny Object Syndrome crow hoodie cover (pair with #647-648) |
 | 649 | white woman, late 30s, messy blonde bun, small pearl studs | RESERVED — #451 Magical, Mostly Tired Zip Hoodie cover |
 | 650 | Black woman, early 20s, long knotless braids, butterfly clips, small gold hoops | RESERVED — #452 Hot Mess Express Hoodie cover |
-| 651 | Filipino-American man, early 40s, short black hair, rectangular glasses | RESERVED — #453 Some Assembly Regretted Crewneck cover |
+| 651 | Filipino-American man, early 40s, short black hair, rectangular glasses | USED 2026-10-17 — #453 Some Assembly Regretted crewneck cover (seedream, 1 attempt) |
 | 652 | white man, late 30s, short sandy hair, full sandy beard | RESERVED — #454 Some Assembly Regretted Tee cover |
 | 653 | white woman, early 30s, dark curly shoulder-length hair | USED 2026-10-17 — #455 Spin Responsibly crewneck cover (try 2 kept, 2 images; #654 man in same photo) |
 | 654 | Middle Eastern man, early 30s, short dark hair, trimmed beard | USED 2026-10-17 — #455 Spin Responsibly crewneck cover (with #653) |
