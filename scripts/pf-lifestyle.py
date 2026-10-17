@@ -17,7 +17,7 @@ pf = call('GET', f'/mockup-generator/printfiles/{cat}')['result']
 vp = next(x for x in pf['variant_printfiles'] if x['variant_id'] == int(vid))['placements']['front']
 a = next(x for x in pf['printfiles'] if x['printfile_id'] == vp)
 fw = min(a['width'], int(os.environ.get('FW', 1500))); fh = fw * h / w
-pos = {'width': round(fw / 150, 3), 'height': round(fh / 150, 3), 'top': int(os.environ.get('TOP', 0)) / 150, 'left': round((a['width'] - fw) / 2 / 150, 3)}
+pos = {'width': round(fw / 150, 3), 'height': round(fh / 150, 3), 'top': int(os.environ.get('TOP', 0)) / 150, 'left': round((int(os.environ['CX']) - fw // 2 if os.environ.get('CX') else (a['width'] - fw) / 2) / 150, 3)}
 body = {'format': 'jpg', 'products': [{'source': 'catalog', 'catalog_product_id': int(cat), 'catalog_variant_ids': [int(vid)],
         'mockup_style_ids': [int(s) for s in styles.split(',')],
         'placements': [{'placement': 'front', 'technique': 'dtg', 'layers': [{'type': 'file', 'url': fu, 'position': pos}]}]}]}

@@ -6312,6 +6312,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-fishing-catch-and-release-zip-hoodie": {
+   "claimed": [
+    "catch and release hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "catch and release hoodie",
+     "volume": 90500,
+     "kd": 8
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

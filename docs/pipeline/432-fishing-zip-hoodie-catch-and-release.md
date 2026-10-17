@@ -1,9 +1,10 @@
-status: BUILDING [A] 2026-10-17 14:20
+status: REVIEW
 lane: A
 type: twin
 id: 432
 handle: mens-fishing-catch-and-release-zip-hoodie
 kd: 8
+cover: temp
 ---
 ## Men's Fishing – Catch and Release Zip Hoodie
 - **Twin of:** #315 Catch and Release (Mostly Release) hoodie (LIVE, Printful file 1088000208), no new art. Director looked at its mockup this run: CATCH AND RELEASE is stacked, chipped hand-drawn caps in navy over a largemouth bass leaping from cattails, with (MOSTLY RELEASE) in smaller hand-drawn caps underneath; no ring, panel or box. R6.2 check first and log it: read every line, erase any typeset line in print-prep, break up any straight-edged ground, knock out unplanned white counters on the darkest color (R5.3.8). Zip layout as #418/#424: full art on the BACK at FW 1650 (fit the back area; never under 1500) plus a 525 px left-chest copy, nothing across the zipper (scripts/pf-zip.py). (MOSTLY RELEASE) carries the joke: on the back mockup it must read at phone size; if not, widen it toward about 60% of the art's width in print-prep before linking (R3.7.6).
@@ -21,3 +22,4 @@ kd: 8
 ---
 ## Log
 - 2026-10-17 13:00 UTC director: brief written, READY (keyword measured this run; source art checked against R4.1/R6.2 from its live mockup; fal-free twin).
+- 2026-10-17 14:03 UTC builder [A]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363709403440 (Gildan 18600 zip #692, Ash + White S-3XL = 12, $44.99 no compare-at, category aa-1-13-13, tags per brief), Printful sync product 482482057 synced 12/12. Colors: navy lettering sinks on Navy/Sport Grey-dark, so Ash + White (lightest 18600 colors; White has no 4XL/5XL). Print: #315 file 1088000208 reused as is (3600x5391, docs/print-files/432-catch-and-release.png): the full-height art cannot sit at FW 1650 in the 1800x2400 back area (2471 px tall), so back FW 1500 (top 140, 2246 px tall, bottom 2386) plus a 525 px left-chest copy (scripts/pf-zip.py BW=1500 BT=140); nothing across the zipper, no neck logo. R6.2 check: CATCH AND RELEASE and (MOSTLY RELEASE) are chipped hand-drawn caps, bass, cattails, rowboat and lure are drawn art; no typeset line, ring, panel or box; white counters: none (cream splash and belly are planned ink). Phone-size read: both lines read on Ash and White back mockups; (MOSTLY RELEASE) is about 70% of the art width, no widening needed. FAQ 5 x 42-57 words, order-by Dec 8. Keyword catch and release hoodie 90,500/KD8 in map. Mockups: Ash front, White front, one back; variant image per color. Temp cover: Printful style 8537 (Men's Left Front, Ash, curly-haired man, hands clear of the print, white backdrop; not 8534): cover: temp (swap); registry #626 left RESERVED. scripts/pf-lifestyle.py now takes CX for a left-chest placement. Audit-local PASS (0 warn), astro build ok. Sheet docs/review/432.jpg.
