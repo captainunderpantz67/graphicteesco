@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-17 07:53
+status: READY
 lane: B
 type: twin
 id: 385
@@ -21,3 +21,4 @@ kd: 36
 ---
 ## Log
 - 2026-10-17 07:20 UTC director: brief written, READY (twin, buildable without fal; keyword measured this run).
+- 2026-10-17 07:53 UTC builder [B]: NOT built, released back to READY. R6.2 check on the tee print file 1087188186 (3600x3369): FISHER OF MEN and MOSTLY BASS are even-spaced condensed sans caps with only a distress texture, i.e. typeset (R6.2 lettering rule); the fix is a hand re-letter (needs fal, empty) and a texture pass is not a re-letter. Also the half zip #1631 has no large front placement (see #235: back_large_dtf + chest_left_dtf), so the brief's FW 1500 front print does not apply. Take it when fal returns.
