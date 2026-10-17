@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-17 21:05 UTC
+status: REVIEW
 lane: B
 type: new
 id: 437
@@ -27,3 +27,4 @@ kd: 33
 - 2026-10-17 13:38 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363698458928 (Sand + Navy x S-3XL, Gildan 18500, $39.99; keyword star hoodie 6,600/KD33; FAQs 5 x 40-60 words, order-by Dec 8). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane B.
 - 2026-10-17 21:35 UTC builder [B]: art via Recraft (1 image, no lettering) + words in AlfaSlabOne gold with navy stroke (designs/b/gs.json, gs-print.png; second line stacked FOR LEAVING / THE HOUSE so the joke line is big; ratio 1.07). Reads on Sand and Navy (gold fill). Copy re-checked against art; 'hand-drawn bubbly letters' replaced. Printful file 1088444847, FW 1500 TOP 0, sync pid 482474327 running. Mockups per color + back attached. Cover registry #633 try 1 (1 image ~$0.04), all words read, hood visible, hands in pocket. Audit-local PASS. kw star hoodie 6600/33.
+- 2026-10-17 22:40 UTC builder [B]: synced 12/12. REVIEW. Sheet docs/review/437.jpg.
