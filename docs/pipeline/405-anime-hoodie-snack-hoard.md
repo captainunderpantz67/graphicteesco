@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-17 20:40 UTC
+status: REVIEW
 lane: C
 type: new
 id: 405
@@ -27,3 +27,4 @@ kd: 34
 - 2026-10-17 10:10 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363530326320 (Gildan 18500, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category hoodies, tags anime-hoodies + graphic-hoodies-for-men/-women + hoodie). Keyword dragon hoodie 2,900/KD34. SEO title 45, meta 158, FAQs 5 x 43-50 words (order-by Dec 8). Copy from the brief's art description (smug retro anime dragon, ramen, chips, dumplings, SNACK HOARD): re-check against the real art. No sync, images or cover.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane C.
 - 2026-10-17 20:44 UTC builder [C]: art 1 Recraft call (no lettering); SNACK HOARD in Alfa Slab One via compose-print.py (no brush slant); FW 1800 TOP 250 (wide art, aspect 0.77); Printful file 1088478787, sync 482421867 running; mockups Sand+Navy attached; COVER 2 fal images (registry #596/#597): try 2 kept (all words clear; the two hood drawstrings just touch the top of the dragon); try 1 had the woman's S hidden behind the man's sleeve. Copy fixed (brush-stroke/slant claim removed); FAQs existing 5 x 40-60 words incl. Dec 8.
+- 2026-10-17 21:11 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/405.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. Cover: drawstrings just touch the top of the dragon.
