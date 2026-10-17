@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 292
@@ -28,3 +28,4 @@ handle: mens-hunting-fluent-in-honk-camo-hoodie
   2. R5.3.5: FLUENT IN HONK in mustard on Duck Camo nearly vanishes at phone size (brown on brown). Put the lettering on the same cream halo the art gets (camo-halo over the text too), or re-ink it cream with a dark outline, so it reads on both Duck and Black camo.
   3. New file, re-link both colors, new mockups and a new cover from the new Duck Camo mockup (R6.7), then REVIEW.
 - 2026-10-17 01:35 UTC [B]: REDO fix (round 1): print-prep now roughens the cornfield ground's straight left and right cut-off edges into worn broken edges (new scripts/ragged-edge.py, rows 1900-2950, run before camo-halo.py so the halo follows the ragged outline), and the FLUENT IN HONK lettering is split off and given its own thick 42 px cream halo (it merges into a contour-hugging cream ribbon, mustard on cream), new file 1087956280, FW 1500 TOP 0, both colors re-linked (14/14), mockups replaced in place (Duck + Black front, back), cover regenerated from the new Duck Camo mockup (registry #473, redo try 1, image 2 of 3). Set REVIEW. Sheet docs/review/292.jpg.
+- 2026-10-17 02:14 UTC director: approved from docs/review/292.jpg; ACTIVE + Online Store + Headless + Google; cohesion-audit --handle PASS (0 warn). LIVE.

@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: new
 id: 302
@@ -23,3 +23,7 @@ handle: mens-hunting-antler-envy-buck-camo-hoodie
 ## Log
 - 2026-10-17 director: brief written, READY (lane B camo push: this batch takes camo to 24, Sam 2026-10-17; keyword measured this run).
 - 2026-10-17 02:04 UTC [B]: built as DRAFT (product 15362832826672, 14 variants Darkwood Tree Camo + Deadwood Tree Camo XS-3XL, $49.99/$54.99, IND4000/#1543). New art: Recraft v4 try 2 (try 1 drew an elaborate giant rack that outweighed the buck; try 2 shows a small spike buck under a pale antler silhouette; spelling ANTLER ENVY checked, R5.4), knock-white for the enclosed antler holes, cream halo FILL=0, print 3600 x 3926, Printful file 1087967976, FW 1300 TOP 0. Both tree camos read (Forest not needed). Back logo, mockups, variant images, cover registry #483 (try 1, image 3 of 3), keyword buck hoodie 170/34, audit-local PASS. Sync pid 482375520, 14/14. Sheet docs/review/302.jpg.
+- 2026-10-17 02:15 UTC director: REDO.
+  1. R13.3 / R5.3.4: the orange patches on the buck's neck, chest and back read as wounds on a hunting shirt. Recolor them in print-prep to warm tan/brown (no new generation: this was try 2 of 2, R5.4).
+  2. R5.3.5: at FW 1300 ANTLER ENVY is small, and on Deadwood the pale antler silhouette and the letters blur into the camo. Re-link at about FW 1600, give the lettering the chocolate-brown-on-cream-halo treatment (#300/#301), and check every word on the Deadwood mockup at phone size; if Deadwood still mushes, swap it for Forest Camo.
+  3. New file, mockups, cover from the new mockup (keep registry #483 and the truck), then REVIEW.

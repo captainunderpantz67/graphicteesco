@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: A
 type: new
 id: 251
@@ -23,3 +23,7 @@ handle: womens-thanksgiving-the-turkey-is-fine-graphic-tee
 - 2026-10-16 22:25 UTC director: brief written, READY (lane A funny Thanksgiving pair for /funny-thanksgiving-shirts/, R9.11).
 - 2026-10-16 22:43 UTC builder [A]: NEW ART Recraft v4 try 1 (THE TURKEY IS FINE spelled right, 1950s hostess with oven mitts and a darkened turkey, one smoke curl, no flames, no frame or badge; print-prep --solid; knocked the two large white gaps beside the arms; checked on grey and near-black). Printful file 1087872888 (3600x3949). DRAFT gid://shopify/Product/15362421195056 (Bella+Canvas 6400; White, Natural, Heather Stone, Athletic Heather, Pink x S-3XL = 30; light and mid only, no cream-ink file; $24.99/$29.99; tags per brief), Printful sync 482340395 queued (FORCE=1 FW=1500 setfile 482340395 1087872888 1080398177). Keywords (cooking shirt etc.) already in the map under this handle. I dropped the brief's supporting phrase 'its fine shirt' (misspelled string, reads like stuffing). Cover #427 from the White mockup (try 1, kept #3 of 3), 5 fronts + back, variant images, audit above, docs/review/251.jpg. REVIEW once synced = 30.
 - 2026-10-17 02:04 UTC builder [A]: Printful sync complete; REVIEW.
+- 2026-10-17 02:14 UTC director: REDO.
+  1. R3.7.1 / R3.3: the joke only lands if the turkey is clearly burnt, and in the art it's an ordinary golden-brown roast, so THE TURKEY IS FINE reads as a plain statement, not a deadpan. Regenerate (try 2 of 2, R5.4) with the brief's prompt pushed harder: turkey visibly over-done, blackened drumstick tips and a charred top, two or three thin grey smoke curls, hostess smiling calmly. Keep the hostess, mitts and palette.
+  2. R3.7.6: THE TURKEY IS FINE should look hand-lettered 1950s ad capitals (uneven, chunky); the current line is close to an even book serif. If the new generation's lettering is thin, re-letter it (the #234 method) at 80%+ of the art width.
+  3. New file, re-link, new mockups and cover (keep registry #427 and the kitchen), then REVIEW. #252 crewneck twin waits for this art.

@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: A
 type: twin
 id: 246
@@ -21,3 +21,8 @@ handle: unisex-thanksgiving-totally-a-pilgrim-hoodie
 - 2026-10-16 22:20 UTC builder [A]: DRAFT gid://shopify/Product/15362367815984 (Gildan 18500; Sand + Navy x S-3XL = 12; the brown turkey and tan lettering read on Navy, no white counters; tags per brief (no christmas-hoodies); $39.99/$44.99), tee file 1087056712 at FW=1151 TOP=0, Printful sync 482335291 queued (FORCE=1 FW=1151 TOP=0 setfile 482335291 1087056712 1080398177). Primary turkey hoodie 390/KD31 in map. Cover #419 + #420 from the Navy mockup (try 1, kept #2 of 3), 2 fronts + back, variant images, audit above, docs/review/246.jpg. REVIEW once synced = 12.
 - NOTE for director: audit WARN 'thanksgiving design isn't in any thanksgiving collection' on this hoodie; the brief's tags have none and the Thanksgiving collections are tee (thanksgiving-shirts) and crewneck (thanksgiving-sweatshirts) tags only, so I left it. Add a tag if you want it on a Thanksgiving page.
 - 2026-10-17 01:26 UTC builder [A]: Printful sync complete; REVIEW.
+- 2026-10-17 02:14 UTC director: REDO.
+  1. R3.7.6 / R6.2 (twin lettering check): TOTALLY A PILGRIM is an evenly spaced, arched book serif with distress on top; it reads typeset, and it's the whole joke. Re-letter it by hand with one lettering-only Recraft generation composed in print-prep (the #234 method): chunky worn hand-drawn capitals, warm brown with a cream inline, arched over the hat as now.
+  2. R5.3.5: the tan lettering nearly vanishes on Sand at phone size (mockup 1). Darker brown ink, or keep tan only on Navy with a separate darker file for Sand.
+  3. R5.3.2: FW 1151 leaves the print small for a hoodie chest; go to about FW 1400 so the turkey and the line fill the chest.
+  4. Tags: add thanksgiving (holiday tag) so it can feed a Thanksgiving page; keep no christmas-hoodies. New file, re-link both colors, new mockups, new cover from the new Navy mockup (keep registry #419/#420, the porch is good), then REVIEW.
