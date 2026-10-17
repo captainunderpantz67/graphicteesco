@@ -384,7 +384,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-capybara-out-of-office-soaking-oversized-hoodie': { src: '/covers/womens-capybara-out-of-office-soaking-oversized-hoodie.webp', alt: 'Woman in a navy Out of Office capybara oversized hoodie, smiling on a lakeside cabin deck at golden hour with a steaming mug on the rail' },
   'womens-baseball-here-for-the-sunflower-seeds-hoodie': { src: '/covers/womens-baseball-here-for-the-sunflower-seeds-hoodie.webp', alt: 'Woman in a sand Here for the Sunflower Seeds hoodie on youth baseball bleachers in fall with a chain-link backstop behind her, hands in the pouch pocket' },
   'womens-teacher-indoor-recess-survivor-crewneck-sweatshirt': { src: '/covers/womens-teacher-indoor-recess-survivor-crewneck-sweatshirt.webp', alt: 'Woman teacher in a navy Indoor Recess Survivor apple and pencil crewneck sweatshirt in an elementary classroom with paper rain clouds on the bulletin board' },
-  'mens-pirate-pillaging-is-a-young-mans-game-hoodie': { src: '/covers/mens-pirate-pillaging-is-a-young-mans-game-hoodie.webp', alt: 'Man in a navy Pillaging Is a Young Man's Game pirate hoodie on a weathered harbor dock with a small sailboat behind him, hands in the pouch pocket' },
+  'mens-pirate-pillaging-is-a-young-mans-game-hoodie': { src: '/covers/mens-pirate-pillaging-is-a-young-mans-game-hoodie.webp', alt: 'Man in a navy Pillaging Is a Young Man\'s Game pirate hoodie on a weathered harbor dock with a small sailboat behind him, hands in the pouch pocket' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
