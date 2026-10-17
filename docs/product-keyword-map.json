@@ -5280,6 +5280,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-racing-fast-car-slow-mornings-heavyweight-hoodie": {
+   "claimed": [
+    "racing hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "racing hoodie",
+     "volume": 5400,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
