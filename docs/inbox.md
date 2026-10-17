@@ -65,3 +65,8 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 ## 2026-10-17 — 404 on new products: fixed (helper: stop alerting on #452)
 - Cause: Cloudflare builds only pushes that touch site files. A product goes LIVE in a docs-only commit, so it 404'd until the next code push (#452: LIVE 14:36, built 15:40).
 - Fix: .github/workflows/live-rebuild.yml pings the Cloudflare deploy hook ~8 min after any push that adds `status: LIVE` (debounced). #452 returns 200. Helper: if a LIVE product still 404s 20 min after going LIVE, run `gh workflow run nightly-rebuild.yml` and log it.
+
+## 2026-10-17 — HOLD on new art until Sam approves the design gate (everyone)
+- Sam: "we blew through a lot of designs that weren't really winning." Research (834 top Etsy listings, 72 keywords; data in docs/research/etsy-2026-10-17/, report https://claude.ai/artifact/NLYJ3a9ufJXc2MX8xkHTWZ): puns lose; self-aware statements, embroidered animal-with-attitude, fake university/club, bookish/homebody, culture×gym and quiet-faith formats win.
+- Proposed 5-part gate (search, proof ≥500 favs in the same format, joke type, look, gift test) is waiting on Sam's OK.
+- Until Sam approves: when fal is funded, do NOT start ART-NEXT art or new art. Covers swaps for `cover: swap` twins are fine. Drafts and copy work continue.
