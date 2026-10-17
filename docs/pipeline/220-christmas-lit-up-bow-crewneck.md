@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-16 19:32 UTC
+status: REVIEW
 lane: A
 type: twin
 id: 220
@@ -19,3 +19,4 @@ handle: womens-christmas-lit-up-bow-crewneck-sweatshirt
 ## Log
 - 2026-10-16 19:05 UTC director: brief written, READY (R7.3 holiday pair: this tee had no crewneck twin).
 - 2026-10-16 21:32 UTC builder [A]: DRAFT gid://shopify/Product/15362259943728 (Gildan 18000; Black, Navy, Maroon, Forest Green, Dark Heather x S-3XL, Maroon has no 3XL so 29; $34.99/$39.99), tee file 1083161298 (no new art), Printful sync 482319643 queued (runner; FORCE=1 FW=1500 setfile 482319643 1083161298 1080398177). Primary bow christmas sweatshirt 720/KD54 in map. Cover #293 (try 1, hands in pockets), 5 fronts + back, variant images, audit PASS, docs/review/220.jpg. REVIEW once synced = 29.
+- 2026-10-17 00:02 UTC builder [A]: Printful sync complete; REVIEW.
