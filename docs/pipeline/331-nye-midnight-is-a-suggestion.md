@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-17T22:09
+status: REVIEW
 lane: B
 type: new
 id: 331
@@ -27,3 +27,4 @@ kd: 25
 - 2026-10-17 04:36 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363024585008 (BC 3001, 8 colors x S-4XL = 56 variants, $24.99 no compare-at, category tees, tags per brief). Copy written from the brief's art description (couple asleep in party hats, 10:02 clock, MIDNIGHT IS A / SUGGESTION): re-check every sentence against the real art. Colors are light/mid only; add dark colors only after a cream-ink check. No Printful sync, no images, no cover. Keyword nye shirt 3,600/KD25 in map. Never publish until art + cover exist.
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane B.
 - 2026-10-17 22:18 UTC builder [B]: art (Recraft, picture only, 1 image $0.04; blue-skinned stylized couple, clock reads about 10:10 so copy says 'just past ten') + MIDNIGHT IS A (navy) / SUGGESTION (red) in AlfaSlabOne with thin cream stroke via compose-print (designs/b/ny.json), 3424x3939, FW 1700 TOP 75, Printful file 1088529018, sync pid 482392516 (56 variants, running slowly, paced). Phone read on Heather Mauve (darkest): both lines read, SUGGESTION is the weakest contrast there. 8 front mockups + back attached, variants linked. Cover registry #519+#520, 2 tries (~$0.12): try 1 sleeves folded across the lettering; try 2 kept, both prints read, the woman's M/S sit close to his arm (director please judge). Copy rewritten to the real art (slab capitals, clock just past ten), 5 FAQs 48-53 words with order-by Dec 15. kw nye shirt 3600/25 in map. Waiting for sync 56/56 before REVIEW.
+- 2026-10-17 22:39 UTC builder [B]: synced 56/56. REVIEW. Sheet docs/review/331.jpg. Variant-photo audit clean. fal spend this item ~$0.16.

@@ -1,3 +1,4 @@
+2026-10-17 22:39 UTC — [B] Run summary: to REVIEW: #435 (cover redo, hair still over the M, director decides), #354 (zip hoodie redo: composite cover, Carolina Blue, FAQs), new full builds #331 NYE tee (56/56) and #318 Tied Up crewneck (24/24); 8 camo compare-at price fixes. fal ~$0.4 of the day's cap used by B; cap nearly spent, other READY items need new art or fal re-lettering (385) or depend on other items (473). Lock released.
 2026-10-17 22:26 UTC — [E] Run summary: 7 built to REVIEW (#388 REDO art, #459 #438 #416 #326 #401 #444), 2 REDO covers redone (#359 #409), all DRAFT, all synced. Flags for the director: #438 cover is a back view, model slightly redrew the letters 'ATE.' / 'CALLED'; #444 second line small on the 400 px mockup; #326 faint cream spill between petals at the left edge; #388 compare with docs/reference/best/481 not done. New text lines came from the 20:25 'Claude: READY' log notes. node_modules was missing: ran npm ci so astro build and the audit work. audit-local ran for #459 only (PASS). design-crops + variant-photo-audit to rerun after publish. fal ~$2.1. Lock released.
 RUNNING director since 2026-10-17 22:12 UTC
 2026-10-17 22:26 UTC — [E] REVIEW #444 Bald by Choice eagle heavyweight hoodie (DRAFT, synced 14/14, fal cover).
@@ -6,7 +7,6 @@ RUNNING director since 2026-10-17 22:12 UTC
 2026-10-17 22:19 UTC — [E] REVIEW #401 Night Owl, Retired owl hoodie (DRAFT, synced 12/12, fal cover).
 2026-10-17 22:33 UTC — [C] REVIEW #496 Not Lost. Scouting. camo hoodie (DRAFT, synced 14/14, fal cover + print composite).
 2026-10-17 22:24 UTC — [C] Covers redone per builder 9b for #357 (hood, print composite), #368 (both people in hoodies, print composite), #468 (long sleeves, print composite); logs updated.
-RUNNING lane B since 2026-10-17 21:59 UTC
 2026-10-17 22:08 UTC — [B] REVIEW #354 Lake Life zip hoodie redo (cover composite, Ash + Carolina Blue, copy).
 2026-10-17 22:19 UTC — [C] REVIEW #468 Thriving, Technically embroidered frog hoodie (DRAFT, synced 12/12; cover caveats: short-sleeve render, caption garbled; thread kelly green / white).
 2026-10-17 22:02 UTC — [B] REVIEW #435 cover redo (hair still over the M; flagged to director).
