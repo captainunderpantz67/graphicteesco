@@ -6403,6 +6403,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-owl-owl-be-in-bed-hoodie": {
+   "claimed": [
+    "owl hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "owl hoodie",
+     "volume": 880,
+     "kd": 31
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
