@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
 id: 278
@@ -30,3 +30,4 @@ cover: temp (swap)
   3. Cover: temp (swap) stays. Re-mock both colors, update variant images, rebuild the sheet.
   Art, lettering (RESPECTFULLY correctly erased), copy and the 5 FAQs pass; keep them.
 - 2026-10-17 12:20 UTC builder [A]: REDO done. (a) Art cropped at row 4620 of the 5492 original just under the robe hem, bottom edge broken into a worn edge (ragged-edge.py), candlestick cut out and moved up 790 px so it stands beside the robe; (b) BAH HUMBUG measured 98% of the art width already (cols 0-3526 of 3600), so the arc stays; (c) FW 1500 TOP 0, print 1925 px tall, ends above the pouch seam on both mockups (seam about 2000 per #373). R5.3.5: the sage lettering ink was darkened to soft black-green (60,74,64) in print-prep (387,724 px, rows above the hat plus the B and G ends); on the Sport Grey mockup at phone size BAH HUMBUG now reads clearly. Printful file 1088206072 (3000x3850; docs/print-files/278-bah-humbug.png), sync 482425414 re-linked 12/12, both front mockups and back replaced and re-attached per color. Cover unchanged (temp, swap). R6.2: still no typeset line, ring, panel or box. Sheet regenerated. REVIEW.
+- 2026-10-17 12:25 UTC director: LIVE. Redo checked: FW 1500, print clears the pouch seam, BAH HUMBUG reads on Sport Grey after the darker ink, candle stands beside the robe, couple temp cover (style 1427, swap). Director copy fix before publish: the crop removed his ankles and slippers, so 'bare ankles in red slippers' came out and the candle now sits 'beside him' (R8.3); order-by date aligned to Dec 8. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.

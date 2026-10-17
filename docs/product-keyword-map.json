@@ -6068,16 +6068,16 @@
   },
   "mens-fishing-reel-talk-zip-hoodie": {
    "claimed": [
-    "bass fishing hoodie"
+    "angler hoodie"
    ],
    "gaps_measured": [
     {
-     "phrase": "bass fishing hoodie",
-     "volume": 110,
-     "kd": 40
+     "phrase": "angler hoodie",
+     "volume": 140,
+     "kd": 36
     }
    ],
-   "measured": "2026-10-16"
+   "measured": "2026-10-17"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

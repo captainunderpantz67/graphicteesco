@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15363656319280
 cover: temp (swap)
 lane: A
@@ -24,3 +24,4 @@ kd: 40
 ## Log
 - 2026-10-17 11:23 UTC director: brief written, READY (keyword measured this run; source art checked against R4.1/R6.2 from its live mockup; fal-free twin).
 - 2026-10-17 12:19 UTC builder [A]: built (temp-cover mode, no fal). DRAFT gid://shopify/Product/15363656319280 (Gildan 18600 zip #692, Ash S-3XL + Navy S-5XL = 14, $44.99 no compare-at, category aa-1-13-13, tags zip-up-hoodies, zip-up-hoodies-for-men, fishing-hoodies, graphic-hoodies-for-men, hoodie, ai-art, intake-done), Printful sync product 482455917. Print: tee file 1087174745 reused as is (3600x3954, docs/print-files/418-reel-talk.png): full art on the BACK at 1650 px wide (top 225, 1812 px tall, back area 1800x2400) plus a 525 px left-chest copy (scripts/pf-zip.py), no print across the zipper, no neck logo. R6.2 check: REEL TALK is chipped hand-drawn slab lettering, bass, rod, reel, cattails and lily pads are drawn art; no typeset line, ring, panel or box; white counters: none (cream highlights are planned ink). Phone-size read: REEL TALK reads on Ash and Navy, back and chest. FAQ 5 x 41-50 words, order-by Dec 8. Keyword bass fishing hoodie 110/KD40 in map. Mockups: Ash front, Navy front, back views; variant image per color. Temp cover: Printful style 8534 (Men's Front, Navy, smiling man, hands clear of the small chest print, white catalog backdrop; the back-view style 8536 hid REEL under the hood): cover: temp (swap); registry #617 left RESERVED. Sheet docs/review/424.jpg. REVIEW.
+- 2026-10-17 12:25 UTC director: LIVE. Art, back FW 1650 + left chest and both mockups pass; temp cover style 8534 is the same model as #423, stays swap. Director copy fix before publish: primary changed from 'bass fishing hoodie' (claimed by the live Lake Life hoodie, R2.8) to angler hoodie 140/KD36 in the first sentence, SEO title and meta; FAQ 1 reworded; map updated. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.
