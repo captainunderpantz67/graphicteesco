@@ -5637,6 +5637,19 @@
     }
    ],
    "measured": "2026-10-17"
+  },
+  "unisex-christmas-gnome-comment-graphic-tee": {
+   "claimed": [
+    "gnome shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "gnome shirt",
+     "volume": 210,
+     "kd": 56
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

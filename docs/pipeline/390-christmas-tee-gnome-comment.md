@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: A
 type: new
 id: 390
 handle: unisex-christmas-gnome-comment-graphic-tee
+shopify: gid://shopify/Product/15363402367280
 kd: 56
 ---
 ## Unisex Christmas – Gnome Comment Graphic Tee
@@ -23,3 +24,4 @@ kd: 56
 ---
 ## Log
 - 2026-10-17 08:55 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
+- 2026-10-17 08:29 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363402367280 (Unisex tee 3001, 6 light colors x S-4XL = 42, $24.99 no compare-at, category aa-1-13-8, tags per brief, keyword gnome shirt 210/KD56 in map). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
