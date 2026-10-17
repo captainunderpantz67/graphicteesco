@@ -402,7 +402,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 509 | White man, mid 20s, shaggy sandy-blond hair, light stubble, athletic | RESERVED — #324 Sending It snowboard hoodie cover (with #510) |
 | 510 | Filipina-American woman, mid 20s, long straight black hair with a knit headband | RESERVED — #324 Sending It snowboard hoodie cover (with #509) |
 | 511 | Mexican-American man, mid 40s, short black hair greying at the temples, trimmed moustache, broad build | RESERVED — #325 I Stack Dimes welder hoodie cover |
-| 512 | White woman, early 30s, honey-blonde braid over one shoulder, light freckles, small pearl studs | RESERVED — #326 Busy Bee hoodie cover |
+| 512 | White woman, early 30s, honey-blonde braid over one shoulder, light freckles, small pearl studs | USED 2026-10-17 — #326 This Bee Has Clocked Out hoodie cover (seedream, 2 attempts; 1st braid over the T) |
 | 513 | Black man, early 30s, short twists, neat beard | USED 2026-10-17 — #327 cover (seedream, 2 attempts: try 1 put the woman in a crewneck, try 2 kept)
 | 514 | South Asian woman, early 30s, shoulder-length dark wavy hair, small nose stud | USED 2026-10-17 — #327 cover (seedream, 2 attempts: try 1 put the woman in a crewneck, try 2 kept)
 | 515 | Native American man, mid 30s, long black hair tied back, clean-shaven | USED 2026-10-17 — #328 Lone Wolf hoodie cover (try 2, 2 images) |
