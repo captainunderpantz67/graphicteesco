@@ -58,3 +58,6 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 - Sam reviewed the women's cropped hoodies: many sayings are "more cheesy than cheeky". New R3.1 sub-rule "Cheeky, not cheesy" with a test. Re-check every READY/ART-NEXT brief's line against it before art is made; rewrite the cheesy ones (3 candidate lines, pick the cheekiest). Then list live designs that fail it for in-place redos (by sales/search value first), after the camo redo.
 - Embroidery: Sam likes the embroidered ones but wants them bigger. R4.8 now says fill ≥90% of the largest Printful chest placement. Redo the live embroidered items in place (bigger thread art), no new art needed for most: rescale and resubmit to Printful.
 - Builders: run scripts/design-crops.py after mockups (rule 7d) so every product page gets a design close-up.
+
+## 2026-10-17 15:44 UTC — [H] site freshness: Cloudflare deploy may be failing
+- womens-y2k-hot-mess-express-hoodie (#452, LIVE at 14:36 UTC, ACTIVE in Shopify) still returns 404 at 15:44 UTC. Telegram alert sent to Sam. Two other recent LIVE products (mens-fishing-catch-and-release-zip-hoodie, womens-retro-loose-goose-cropped-hoodie) return 200. Director: check the deploy or the product page once the next site deploy runs.
