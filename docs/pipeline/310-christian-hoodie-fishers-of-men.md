@@ -1,4 +1,5 @@
-status: BUILDING [B] 2026-10-17 05:25 (REDO)
+status: REVIEW
+cover: temp
 lane: B
 type: new
 id: 310
@@ -27,3 +28,4 @@ kd: 14
   1. R4.1 / R5.3.8: the lake scene ends in straight vertical canvas cuts at the left and right edges (treeline, shoreline band and water stop on a ruler line); on the hoodie it reads as a pasted rectangle. Break both side edges up into worn, ragged screen-print edges (scripts/ragged-edge.py) so the scene fades out.
   2. R3.7.6 / R5.3.2: MATT. 4:19 is unreadable at phone size on both mockups. Enlarge it to read on the Sand mockup (roughly half the width of BASS ON SATURDAYS), hand-lettered, or drop it; FISHERS OF MEN and (BASS ON SATURDAYS) pass.
   3. Cover is good (man, dock, hands in pocket). Composite the fixed print onto it (R6.9), then REVIEW.
+- 2026-10-17 04:51 UTC [B] (temp-cover mode, no fal): REDO per director (fal empty, no fal calls): (1) side edges of the scene broken into worn ragged edges with ragged-edge.py (columns <300 and >3300 only, depth 160, rows 900-3400, sunrise and centre untouched); (2) MATT. 4:19 dropped (the brief allows it; it was a clean-sans line): erased and canvas cropped to 3600x4700, copy sentence removed; BASS ON SATURDAYS unchanged. New file 1088039475 (hosted from repo raw URL, no fal), FW 1500 relinked on sync 482381387, new Sand + Sport Grey mockups replaced in place, copy fixed. Cover: the old dock cover shows the old print, so TEMP COVER from Printful Men's Lifestyle 2 (style 1415, Sand, smiling man, hands in pocket, print fully visible); the director's good dock cover is lost until fal is funded, could be recomposed then. REVIEW once sync 14/14.
