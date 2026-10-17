@@ -4,3 +4,5 @@ Rule R4.8: fill at least 90% of the largest chest placement Printful allows for 
 
 Live embroidered items: #192 Cherry Picked, #193 Whisk Taker, #194 Morel Support, #195 Purrsonal Space, #196 Rooted in Jesus, #197 Bow Before Me cropped hoodie, #198 Out of Office deer hoodie (left chest: move to chest center only if a back or cuff piece doesn't carry the look), #199 Extra Marshmallows, #265 On My Own Time snail, #266 Eau de Campfire, #285 Morel Support hoodie, #286 Purrsonal Space hoodie, #430 Whisk Taker hoodie, #431 Cherry Picked cropped hoodie.
 Note: several of these lines are on the cheesy-live-redo list; upsizing first is still right (cheap, visible now), the line redo comes later.
+
+**Measured 2026-10-17 20:15 UTC (Claude):** current ink sizes are already 3.1–4.0 in on the longest side (wide files such as Cherry Picked and Rooted in Jesus get scaled by Printful to 4 in wide). The upsize gains only 10–20% (Purrsonal Space x1.10, Morel x1.17, Whisk x1.13, Snail x1.14, Campfire x1.20). LOW PRIORITY: do it only after the batch and catalog items, as a lane chore. The real fix for "looks smaller than the photo" is covers at true scale (R4.8).
