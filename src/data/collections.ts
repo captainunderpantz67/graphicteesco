@@ -268,6 +268,19 @@ const N: Record<string, Niche> = {
     style: 'Graphic hoodies for women look best a little relaxed: leggings or high-rise jeans, sneakers or boots, and a cropped fit for a shorter top.',
     label: "Women's Graphic", who: 'women who want a hoodie with real art on it', themes: 'cropped, embroidered, Y2K, Christmas, western and faith designs',
   },
+  menshoodies: {
+    about: (item) => `Every hoodie in the shop cut or styled for men: camo hunting hoodies, gym hoodies, zip-ups, oversized anime and fishing designs, each with a dry joke in the art. Each ${item} is printed or stitched when you order it.`,
+    original: 'Yes. Every design is original art made for this shop.',
+    made: 'Printed or embroidered to order, then shipped.',
+    style: 'Graphic hoodies for men work with jeans, work pants or joggers; size up one for a looser layer over a tee or under a jacket.',
+    label: "Men's Graphic", who: 'men who want a hoodie with a real joke and real art on it', themes: 'camo hunting, gym, fishing, zip-up, oversized and anime designs',
+    faqs: () => [
+      { q: 'What are the best graphic hoodies for men?', a: "Graphic Tees Co. men's graphic hoodies pair original vintage-style art with a dry one-line joke: camo hunting hoodies, gym and oversized hoodies, fishing zip-ups and anime pullovers. Prices start at $39.99 on sale, US shipping is free on orders over $45, and every hoodie is printed to order." },
+      { q: "How do men's graphic hoodies fit?", a: 'Our pullover and zip-up hoodies are classic unisex fits in S to 5XL, the heavyweight and camo hoodies run XS to 3XL with a relaxed cut, and the oversized hoodies hang loose with dropped shoulders. Keep your usual size for a regular fit or go up one for a looser layer.' },
+      { q: "Which men's hoodie is warmest?", a: 'The heavyweight and camo hoodies are the warmest at about 10 oz fleece with a lined hood, made for the deer stand and cold mornings. The classic pullover is 8 oz cotton-poly fleece for everyday wear, and the oversized hoodie is heavyweight cotton with a roomy cut.' },
+      { q: 'Will a hoodie arrive in time for a gift?', a: 'Each hoodie is printed when you order it, which takes about 2 to 5 business days, then arrives in about 3 to 8 business days in the US. Order by early December for Christmas. If the size is wrong, you get one free size exchange within 30 days.' },
+    ],
+  },
   oversized: {
     about: (item) => `Big front and back prints sized for a roomy fit, using our original art. Each ${item} is printed when you order it.`,
     original: 'Yes. The oversized designs are original art, not stock graphics.',
@@ -780,6 +793,7 @@ export const hoodies: Collection[] = [
   niche(N.gym, 'hoodies', { slug: 'gym-hoodies-for-men', keyword: 'mens gym hoodie', volume: 9900, kd: 31, product: "men's gym hoodies", audience: 'men', name: "Men's Gym Hoodies" }) /* RankHero 2026-10-16 */,
   niche(N.halfzip, 'hoodies', { slug: 'half-zip-pullovers', keyword: 'half zip pullover', volume: 5400, kd: 14, product: 'half zip pullovers', name: 'Half Zip Pullovers' }) /* RankHero 2026-10-16; Bella+Canvas 4740 */,
   niche(N.womenshoodies, 'hoodies', { slug: 'graphic-hoodies-for-women', keyword: 'graphic hoodies for women', volume: 8100, kd: 12, product: 'graphic hoodies for women', audience: 'women', name: "Women's Graphic Hoodies" }) /* R11.5 sweep 2026-10-16 */,
+  niche(N.menshoodies, 'hoodies', { slug: 'graphic-hoodies-for-men', keyword: 'graphic hoodie men', volume: 27100, kd: 9, product: 'graphic hoodies for men', audience: 'men', name: "Men's Graphic Hoodies" }) /* RankHero 2026-10-17, director low-KD sweep */,
   {
     // RankHero 2026-10-16: zip up hoodie women 14,800 / KD 32. R9.11 lists it as brand-owned: we list products here, no extra page effort.
     slug: 'zip-up-hoodies-for-women', section: 'hoodies', audience: 'women', name: "Women's Zip-Up Hoodies",
