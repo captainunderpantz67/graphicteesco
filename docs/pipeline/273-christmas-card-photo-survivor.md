@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: A
 type: new
 id: 273
 handle: unisex-christmas-card-photo-survivor-graphic-tee
+shopify: gid://shopify/Product/15363032908080
 kd: 52
 ---
 ## Unisex Christmas – Card Photo Survivor Tee
@@ -22,3 +23,4 @@ kd: 52
 ---
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).
+- 2026-10-17 04:40 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363032908080 (BC 3001, 6 colors x S-4XL = 42 variants, $24.99 no compare-at, category tees; keyword funny family christmas shirts 1,900/KD52; crewneck twin #274 waits on this art). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
