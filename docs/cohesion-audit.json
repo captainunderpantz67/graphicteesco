@@ -1,6 +1,6 @@
 {
- "at": "2026-10-17T07:43:13.088Z",
- "products": 304,
+ "at": "2026-10-17T08:20:04.854Z",
+ "products": 309,
  "findings": [
   {
    "level": "WARN",
@@ -104,20 +104,6 @@
    "level": "ERROR",
    "handle": "mens-hunting-deer-diary-graphic-tee",
    "title": "Men's Hunting – Deer Diary Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-christian-back-pew-crew-graphic-tee",
-   "title": "Women's Christian – Back Pew Crew Tee",
-   "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
-   "fix": "Set every variant to price 24.99, no compare-at."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-nurse-iv-league-graphic-tee",
-   "title": "Women's Nurse – IV League Tee",
    "msg": "Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant.",
    "fix": "Set every variant to price 24.99, no compare-at."
   },

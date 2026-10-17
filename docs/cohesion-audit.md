@@ -1,11 +1,11 @@
-# Cohesion audit — 2026-10-17 07:43 UTC
+# Cohesion audit — 2026-10-17 08:20 UTC
 
-304 live products checked · **85 errors** · 10 warnings · 95 products with findings
+309 live products checked · **83 errors** · 10 warnings · 93 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
-- 85 × Price ./. — should be ./- on every variant.
+- 83 × Price ./. — should be ./- on every variant.
 
 ## By product (errors first)
 ### Women's Thanksgiving – Gobble Gobble Turkey Tee `womens-thanksgiving-gobble-gobble-graphic-tee`
@@ -30,12 +30,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **ERROR** Price 34.99/39.99 (price/compare-at) — should be 34.99/- on every variant. → Set every variant to price 34.99, no compare-at.
 
 ### Men's Hunting – Deer Diary Tee `mens-hunting-deer-diary-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Women's Christian – Back Pew Crew Tee `womens-christian-back-pew-crew-graphic-tee`
-- **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
-
-### Women's Nurse – IV League Tee `womens-nurse-iv-league-graphic-tee`
 - **ERROR** Price 24.99/29.99 (price/compare-at) — should be 24.99/- on every variant. → Set every variant to price 24.99, no compare-at.
 
 ### Women's Football Mom – Down, Set, Snacks Tee `womens-football-mom-down-set-snacks-graphic-tee`
