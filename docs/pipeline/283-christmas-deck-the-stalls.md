@@ -1,8 +1,9 @@
-status: READY
+status: ART-NEXT
 lane: A
 type: new
 id: 283
 handle: womens-christmas-deck-the-stalls-western-graphic-tee
+shopify: gid://shopify/Product/15363038511408
 kd: 56
 ---
 ## Women's Christmas – Deck the Stalls Western Tee
@@ -22,3 +23,4 @@ kd: 56
 ---
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).
+- 2026-10-17 04:42 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363038511408 (BC 6400, 6 colors (incl. Heather Mauve as the bold color) x S-3XL = 36 variants, $24.99 no compare-at, category tees; keyword western christmas shirt 480/KD56; crewneck twin #284 waits on this art). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
