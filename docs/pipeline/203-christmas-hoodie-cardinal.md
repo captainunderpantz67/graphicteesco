@@ -14,7 +14,7 @@ handle: womens-christmas-cardinal-christmas-hoodie
 - **Popularity evidence (R5.2):** Cardinal Christmas tee + crewneck are LIVE; cardinals are a perennial winter/memorial Etsy theme. christmas hoodie 9,900 / KD 52 is the collection head (R11.5).
 - **Cover:** registry #270 — 2030. Scene: 2031 Real pullover hoodie with the hood visible, art flattened onto the garment color before --design, nothing over the print (R6.7, R6.8 hoodie-cover line).
 - **Title / handle:** "Women's Christmas – Cardinal Christmas Hoodie" / `womens-christmas-cardinal-christmas-hoodie` (R7.4).
-- **Tags:** christmas-hoodies, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
+- **Tags:** graphic-hoodies-for-women, christmas-hoodies, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
 - **Price (R12.1):** $39.99, compare-at $44.99.
 ---
 ## Log

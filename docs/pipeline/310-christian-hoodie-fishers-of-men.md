@@ -17,7 +17,7 @@ kd: 14
 - **Popularity evidence (R5.2):** christian hoodie 18,100/44 head; christian shirts men 12,100/12; fishing hoodie 6,600/30; Fishers of Men is a steady faith-and-fishing seller on Etsy.
 - **Cover:** registry #493, man (R6.3). Scene: a lake dock at sunrise, a fishing rod leaning on the post behind him (not in hand). Real garment with the hood visible (hoodies), generated with the product's own Printful mockup in the cover color as `--design`; hands empty or in pockets; nothing over any part of the print; read every word before saving (R6.7-R6.9).
 - **Title / handle:** "Men's Christian – Fishers of Men Hoodie" / `mens-christian-fishers-of-men-hoodie`.
-- **Tags:** christian-hoodies, fishing-hoodies, hoodie, ai-art, intake-done.
+- **Tags:** graphic-hoodies-for-men, christian-hoodies, fishing-hoodies, hoodie, ai-art, intake-done.
 - **Price (R12.1):** $39.99, compare-at $44.99.
 ---
 ## Log

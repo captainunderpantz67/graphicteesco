@@ -13,7 +13,7 @@ handle: unisex-christmas-north-woods-moose-hoodie
 - **Popularity evidence (R5.2):** North Woods Moose tee + crewneck are LIVE; moose/north-woods is a proven cabin gift theme. christmas hoodie 9,900 / KD 52 is the collection head (R11.5).
 - **Cover:** registry 2050. Scene: a snowy lake cabin dock at dusk with a canoe flipped on the shore, mugs held at the side. Real pullover hoodie with the hood visible, art flattened onto the garment color before --design, nothing over the print (R6.7, R6.8 hoodie-cover line).
 - **Title / handle:** "Unisex Christmas – North Woods Moose Hoodie" / `unisex-christmas-north-woods-moose-hoodie` (R7.4).
-- **Tags:** christmas-hoodies, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
+- **Tags:** graphic-hoodies-for-men, graphic-hoodies-for-women, christmas-hoodies, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
 - **Price (R12.1):** $39.99, compare-at $44.99.
 ---
 ## Log

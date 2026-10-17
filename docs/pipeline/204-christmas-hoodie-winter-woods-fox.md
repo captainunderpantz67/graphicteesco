@@ -14,7 +14,7 @@ handle: womens-christmas-winter-woods-fox-hoodie
 - **Popularity evidence (R5.2):** Winter Woods Fox tee + crewneck are LIVE; fox hoodie is the highest volume ÷ KD hoodie phrase measured so far. christmas hoodie 9,900 / KD 52 is the collection head (R11.5).
 - **Cover:** registry 2040. Scene: a snowy pine forest trail at golden hour, knit mittens, thermos at her hip. Real pullover hoodie with the hood visible, art flattened onto the garment color before --design, nothing over the print (R6.7, R6.8 hoodie-cover line).
 - **Title / handle:** "Women's Christmas – Winter Woods Fox Hoodie" / `womens-christmas-winter-woods-fox-hoodie` (R7.4).
-- **Tags:** christmas-hoodies, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
+- **Tags:** graphic-hoodies-for-women, christmas-hoodies, hoodie, ai-art, intake-done. No tee collection tags (R7.5).
 - **Price (R12.1):** $39.99, compare-at $44.99.
 ---
 ## Log
