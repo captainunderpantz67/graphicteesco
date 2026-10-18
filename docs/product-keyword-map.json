@@ -7635,8 +7635,7 @@
      "kd": 50
     }
    ],
-   "measured": "2026-10-18",
-   "note": "director: brief"
+   "measured": "2026-10-16"
   },
   "womens-volleyball-mom-seven-am-check-in-graphic-tee": {
    "claimed": [
@@ -8203,11 +8202,10 @@
     {
      "phrase": "pitbull apparel",
      "volume": 3600,
-     "kd": 14,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 14
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-mimi-says-yes-hoodie": {
    "claimed": [
@@ -8257,17 +8255,10 @@
     {
      "phrase": "gym gifts for men",
      "volume": 5400,
-     "kd": 14,
-     "source": "RankHero via scripts/keyword-gap.py"
-    },
-    {
-     "phrase": "hercules hoodie",
-     "volume": 110,
-     "kd": 40,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 14
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

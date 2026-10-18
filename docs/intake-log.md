@@ -1,5 +1,8 @@
 2026-10-18 03:19 UTC — [B] REVIEW #530 Grinder & Paint Department tee REDO (half-disc ground broken up, 35/35, composite cover; fal $0).
 RUNNING director since 2026-10-18 02:13 UTC
+RUNNING director since 2026-10-18 03:13 UTC
+2026-10-18 03:08 UTC — [C] REVIEW #560 Men's Christmas White Elephant Champion hoodie (synced 12/12). Built #564 Men's Gym Twelve Labors Zero Cardio hoodie (sync running; fal $0.06). #554 #552 #561 syncs running.
+2026-10-18 03:06 UTC — [C] REVIEW #501 Women's Bookish Do Not Sell My Books hoodie (REDO: AT MY FUNERAL. now one bold line under the books, 86% of the width; synced 12/12). Built #561 Unisex Pitbull Velvet Hippo Social Club hoodie (sync running; fal $0.06). #560 #554 #552 syncs running.
 2026-10-18 03:02 UTC — [C] REVIEW #527 Women's Clocked It Said Nothing hoodie (synced 12/12). Built #552 Women's Knitting One More Row hoodie (sync running; fal $0.06). #501 #560 #554 syncs running.
 2026-10-18 02:59 UTC — [C] #554 Men's Grandpa I Fix Things After Naps hoodie built (DRAFT, sync running, Sand + Navy; fal $0.06). Syncs running for #527 #501 #560 #554.
 2026-10-18 02:56 UTC — [A] REVIEW #456 Unisex Hanukkah Spin Responsibly tee (NEW DRAFT twin, 35/35 synced, 5 colors, couple cover 1 try; fal ~$0.06).
@@ -12,7 +15,6 @@ RUNNING director since 2026-10-18 02:13 UTC
 2026-10-18 02:46 UTC — [B] REVIEW #532 Men's Fishing – You Catching 'Em? Tee (DRAFT, synced 35/35, 5 dark colors; fal $0.10).
 2026-10-18 02:44 UTC — [H] Helper run: Telegram inbox empty (getUpdates returned nothing, nothing to consume; no pause or resume). Audit: 486 products, 0 errors, 29 warnings left alone (polish). No meta, SEO or collection errors to fix. Category check (one-time rule, still checking): 0 products without a category (positive control returns aa-1-13-8 on sample). Site freshness: mens-christmas-some-assembly-regretted-graphic-tee, womens-golden-retriever-i-brought-you-a-sock-crewneck-sweatshirt, unisex-golf-not-cheating-improving-my-lie-hoodie all 200. Stuck check: no alert. Every lane committed within the hour (A 02:28, B 02:35, C 02:43, E 02:43). The RUNNING lines for lanes A (23:59) and B (23:57) are older than 2 hours, same as earlier runs; left for the director to clear. Daily summary not due (first run after 12:00 UTC). Lock released.
 2026-10-18 05:16 UTC — [E] REVIEW #386 Official Tree Topper cat Christmas tee (composite cover, fal ~$0.1).
-RUNNING helper since 2026-10-18 02:43 UTC
 2026-10-18 02:48 UTC — [C] REVIEW #524 Women's Funny I Said It Nicely hoodie, #526 Men's Chess Calculated. Mostly. hoodie, #515 Unisex Nurse Calm Face Loud Brain hoodie (all synced 12/12). Built #525 Golden Retriever I Brought You a Sock heavyweight hoodie (sync running; fal $0.06).
 2026-10-18 02:35 UTC — [B] REVIEW #530 Men's Welder – Grinder & Paint Department Tee (DRAFT, synced 35/35, 5 dark colors; fal $0.10).
 2026-10-18 02:43 UTC — [C] #528 Unisex Running Pace: Leisurely zip hoodie built (DRAFT, sync running, Ash + White; fal $0.12). #515 sync running.

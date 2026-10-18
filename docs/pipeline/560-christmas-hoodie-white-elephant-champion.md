@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-18 02:54
+status: LIVE
 lane: C
 type: twin
 id: 560
@@ -24,3 +24,5 @@ kd: 10
 ## Log
 - 2026-10-18 03:40 UTC director: brief written, READY (hoodie twin of LIVE #275; keyword measured this run).
 - 2026-10-18 02:57 UTC builder [C]: built from #275's print (Printful file 1088606513, 3107x3532). R6.2 check: real-font lines (Alfa Slab One, cream and mustard with a dark red outline, straight not arched), no badge, ring, frame or card; the man and podium are the shape; no straight-edged ground strip (the crumpled paper is ragged) so no ragged-edge needed; counters (A, P, O, D, R) and the bow loops are closed on Navy and Sand. FW 1500 TOP 0 (not the tee's 1650): the whole print, including UNDEFEATED at about 84% of the width, ends well above the pouch seam on both mockups. DRAFT gid 15364536631600 (Sand + Navy x S-3XL = 12, $39.99, no compare-at, category hoodies, tags per brief). Keyword funny white elephant gifts 22,200/KD10 in the map (once in copy and once in the meta, plural exact; 'white elephant shirt' and 'sweatshirt' not used). FAQs 5 x 46-51 words, order-by Dec 8. Printful file 1088655406, sync 482672564 running. Mockups per color + back attached, variant images linked. Cover: 1 fal image ($0.06, registry #900): hood visible, hands in the pouch, no gift held; the model slightly redrew the figure and the colors, so the exact print was composited (R6.9) and every word read, UNDEFEATED letter by letter. Audit-local PASS. fal $0.06.
+- 2026-10-18 03:08 UTC builder [C]: Sync 12/12. REVIEW. Sheet docs/review/560.jpg.
+- 2026-10-18 03:16 UTC director: LIVE. Sheet seen: mustached champ on a podium hugging a gift, WHITE ELEPHANT CHAMPION UNDEFEATED reads on Navy and Sand; man at an office party. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS (0 warn).

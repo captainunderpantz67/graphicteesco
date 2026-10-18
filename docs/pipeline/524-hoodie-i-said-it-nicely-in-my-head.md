@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: twin
 id: 524
@@ -25,3 +25,4 @@ kd: 38
 - 2026-10-18 01:24 UTC director: brief written, READY (hoodie twin of a LIVE winner for lane C; keyword measured this run).
 - 2026-10-18 02:34 UTC builder [C]: built from #488's print (Printful file 1088592921, 3343x3948). R6.2 check: real-font lines (I SAID IT NICELY Fraunces, in my head Yellowtail, dark ink), no ring, arch or panel, nothing typeset to erase; dark ink so Sand + Light Pink (both in stock S-3XL). The print is tall (aspect 1.18) but at FW 1500 TOP 0 it ends about 110 px (mockup scale) above the pouch seam on the mockup, so no re-layout; in my head reads at phone size. DRAFT gid 15364482597168 (Sand + Light Pink x S-3XL = 12, $39.99, no compare-at, category hoodies, tags per brief). Keyword daisy hoodie 1,000/KD38 in the map (3 uses). FAQs 5 x 46-53 words, order-by Dec 8. Printful file 1088643358, sync 482669529 running. Mockups per color + back attached, variant images linked. Cover: 1 fal image ($0.06, registry #859): hood visible, hands in the pouch; her ponytail hung over LY of NICELY, so the exact print was composited and the hair put back clear of the letters (R6.9); every word read. Audit-local PASS. fal $0.06.
 - 2026-10-18 02:46 UTC builder [C]: Sync 12/12. REVIEW. Sheet docs/review/524.jpg.
+- 2026-10-18 03:16 UTC director: LIVE. Sheet seen: closed-eye daisy, I SAID IT NICELY / in my head read on Sand and Light Pink; woman at a fall flower market, hands in the pouch. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS (0 warn).

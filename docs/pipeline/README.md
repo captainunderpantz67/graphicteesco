@@ -28,7 +28,7 @@ handle: unisex-thanksgiving-stuffed-since-1621-graphic-tee
 ```
 
 ## Claiming (no collisions)
-Edit the status line, commit "[<lane>] claim <id>", push. If the push is rejected, `git pull --rebase`; if the other side changed that item's status, drop it and take the next. On conflicts in append-only files (covers.ts, model-registry, product-keyword-map, intake-log) keep both sides.
+Edit the status line, commit "[<lane>] claim <id>", push. If the push is rejected, `git pull --rebase`; if the other side changed that item's status, drop it and take the next. On conflicts in append-only files (covers.ts, model-registry, product-keyword-map, intake-log) keep both sides. Exception (director, 2026-10-18; a released director lock and a released helper lock both came back this way): a `RUNNING <role> since` line that one side removed stays removed; never keep it from the other side.
 
 ## Review sheet
 `python3 scripts/review-sheet.py <id> <art.png> <cover.webp> <mockup1> [<mockup2>]` writes docs/review/<id>.jpg (one 1600px-wide image). The director looks at that one image per product instead of opening every file.
