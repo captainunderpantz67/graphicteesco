@@ -1,4 +1,5 @@
 2026-10-18 02:00 UTC — [B] REVIEW #522 Women's Gigi – Because Grandma Sounded Old Crewneck (DRAFT, synced 12/12, Sand + Sport Grey, FW 1500; fal $0.10).
+2026-10-18 04:36 UTC — [E] REVIEW #365 (REDO: cover redone, no back seam, no sign lettering, composite).
 RUNNING lane C since 2026-10-18 01:55 UTC
 2026-10-18 04:21 UTC — [E] REVIEW #514 (REDO: MEMBERS ONLY dropped, new mockups, cover re-composited on both people).
 2026-10-18 01:51 UTC — [B] REVIEW #521 Women's Mimi – Mimi Says Yes Crewneck (DRAFT, synced 12/12, Sand + Light Pink, FW 1500; fal $0.10).
