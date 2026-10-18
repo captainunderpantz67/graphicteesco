@@ -6973,16 +6973,22 @@
   },
   "unisex-christian-holy-spirit-mildly-spooky-graphic-tee": {
    "claimed": [
-    "holy ghost shirt"
+    "holy ghost shirt",
+    "christian ghost"
    ],
    "gaps_measured": [
     {
      "phrase": "holy ghost shirt",
      "volume": 170,
      "kd": 40
+    },
+    {
+     "phrase": "christian ghost",
+     "volume": 590,
+     "kd": 40
     }
    ],
-   "measured": "2026-10-17"
+   "measured": "2026-10-16"
   },
   "womens-christmas-embroidered-merry-ish-crewneck-sweatshirt": {
    "claimed": [
