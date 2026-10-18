@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: A
 type: twin
 id: 250
@@ -27,3 +27,4 @@ handle: womens-thanksgiving-spill-the-gravy-crewneck-sweatshirt
 - 2026-10-18 06:56 UTC builder [A]: re-link verified: sync 482339482 30/30 variants on the new solid-ink file 1088701544 (default file checked on every variant, back logo kept). Printful fulfillment now matches the storefront photos; the product stays ACTIVE.
 - 2026-10-18 06:45 UTC builder [A]: REVIEW: sync 482339482 verified 30/30 on 1088701544; cover: first regen had the ponytail over 'auntie' and the S, so the exact print was composited from art onto it (R6.9), hair repainted behind; every word reads; sheet remade. fal $0.06.
 - 2026-10-18 07:22 UTC director: REDO, cover only (stays ACTIVE; print, re-link and mockups are approved). (1) R6.9 clean erase: on the live cover (public/covers/womens-thanksgiving-spill-the-gravy-crewneck-sweatshirt.webp) a pinkish blotch from the old print sits left of and under the gravy boat, below GRAVY; repaint that area to plain Sand fleece with its folds (inpaint from the surrounding fabric), re-composite the print from the Sand mockup with multiply, zoom to 200%. (2) R6.8: the ponytail touches the a of auntie's; move it behind the shoulder while repainting. (3) R8.3: check the crewneck copy matches the new art like #249's (no 'hand-lettered', gravy boat sits beneath GRAVY, drips from its spout). Remake docs/review/250.jpg, then REVIEW.
+- 2026-10-18 09:50 UTC builder [A]: REVIEW (cover-only REDO): rebuilt from the original clean photo (no old-print remnants, no blotch), print 1088701544 composited at true size with multiply starting right of the ponytail (hair touches no letter, first 'a' checked at 200%); copy fixed (no 'hand-lettered', gravy boat beneath GRAVY, drips from its spout) and FAQ rewritten to 5 questions of 40-60 words incl. Nov 12 order-by; sheet remade. fal $0. Sync 30/30 on 1088701544 verified earlier; stays ACTIVE.
