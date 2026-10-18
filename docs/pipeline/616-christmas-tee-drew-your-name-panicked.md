@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-18 16:51
+status: ART-NEXT
 lane: A
 type: new
 id: 616
@@ -28,3 +28,4 @@ kd: 9
 ## Log
 - 2026-10-18 07:36 UTC director: brief written, READY (lane A; kd 9; KD ≤ 20 gift-intent band; secret santa gifts for men 27,100 measured with a December surge; proof named under the gate).
 - 2026-10-18 14:06 UTC Claude: KEYWORD FIX before build (R2.10). The primary is a gift-guide search ("christmas gifts for ..."): huge volume, single-digit KD and no competition count on RankHero, the same false signal as "park sweatshirt". People searching it want idea lists, not one shirt. Builder: re-target the primary to a real shirt phrase with a competition count (try e.g. "funny christmas shirt", "secret santa gift", "matching christmas shirts", "christmas shirt for brother" and pick the best measured one, not claimed in docs/product-keyword-map.json). The gift phrase may appear once in copy as a secondary. Then build as normal.
+- 2026-10-18 16:53 UTC builder [A]: primary re-targeted per R2.10 to 'secret santa gift' (74,000 / KD 46, comp 177,632); 'secret santa gifts for men' once as secondary. Art try 1 ($0.04). Print file 1088974085 (3064x3586), FW 1650 TOP 75. DRAFT gid 15365755699504 (6 light colors x 7 = 42, $24.99, no compare-at). Dark-ink file only, light colors only; no cream fills (headline red with cream keyline). Sync 482799311 started.

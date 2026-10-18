@@ -1,0 +1,5 @@
+{"art": "designs/a616/art.png", "art_width": 0.8, "canvas": [3600, 4500], "gap": 60, "holes": 2000,
+ "lines": [
+  {"text": "DREW YOUR NAME.", "font": "AlfaSlabOne-Regular.ttf", "size": 700, "fill": "#b8382f", "stroke": 16, "stroke_fill": "#f3e7cf", "tracking": 0.005, "max_width": 0.9, "where": "above"},
+  {"text": "Panicked.", "font": "Yellowtail-Regular.ttf", "size": 760, "fill": "#1c1c1c", "tracking": 0.01, "max_width": 0.7, "where": "below"}
+ ]}
