@@ -1,7 +1,8 @@
-status: BUILDING [B] 2026-10-18 00:06Z
+status: REVIEW
 lane: B
 type: new
 id: 512
+shopify: gid://shopify/Product/15364300931376
 handle: womens-golden-retriever-i-brought-you-a-sock-crewneck-sweatshirt
 kd: 38
 ---
@@ -27,3 +28,4 @@ kd: 38
 ---
 ## Log
 - 2026-10-17 23:22 UTC director: brief written, READY (dog-breed wave 1, keyword and proof measured this run).
+- 2026-10-18 00:12 UTC builder [B]: full build. Art: 1 Recraft call, kept (golden with striped sock in wildflowers). I BROUGHT YOU A SOCK. Fraunces 900 rust + cream keyline above, You're welcome. Yellowtail navy below (about 70% of art width) via compose-print; print 11.2 x 13.1 in, FW 1650 TOP 75. Colors Sand + Sport Grey, NOT Navy: the navy script would vanish on Navy; one file reads on both. DRAFT gid 15364300931376, category aa-1-13-14, 12 variants $34.99, compareAtPrice null, tags per brief, keyword golden retriever sweatshirt 1,300/KD38 in line one and meta, supporting "golden retriever gifts" once, FAQ 6 x 40-60 words incl. Dec 8. Printful file 1088583217, sync 12/12. Mockups Sand + Sport Grey + back attached and linked; phone-size read ok on Sport Grey (rust line lowest contrast, readable). Cover: registry 843, 1 fal photo, both lines read, no hair/hand/dog over the print, no composite needed. Audit-local PASS, astro build OK. fal $0.06.

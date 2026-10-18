@@ -637,7 +637,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 840 | Greek-American man, early 40s, thick dark curly hair, full dark beard, broad build | CLAIMED 2026-10-17 — #510 Running Late Bison Traffic Heavyweight Hoodie cover (brief) (pair 839-840) |
 | 841 | Korean-American woman, late 40s, shoulder-length layered black hair, small pearl studs, slim build | USED 2026-10-18 — #511 Sorry About Your Windshield Crewneck Sweatshirt cover (brief) (pair 841-842) |
 | 842 | Black man, late 40s, shaved head, trimmed salt-and-pepper beard, broad build | USED 2026-10-18 — #511 Sorry About Your Windshield Crewneck Sweatshirt cover (brief) (pair 841-842) |
-| 843 | Filipino-American woman, mid-30s, shoulder-length black hair tucked behind her ears, small gold hoops, medium build | CLAIMED 2026-10-17 — #512 I Brought You a Sock Crewneck Sweatshirt cover (brief) |
+| 843 | Filipino-American woman, mid-30s, shoulder-length black hair tucked behind her ears, small gold hoops, medium build | USED 2026-10-18 — #512 I Brought You a Sock Crewneck Sweatshirt cover (brief) |
 | 844 | white woman, late 20s, red hair in a high bun, light freckles, slim build | CLAIMED 2026-10-17 — #513 Currently Burrowed Crewneck Sweatshirt cover (brief) |
 | 845 | Puerto Rican man, early 30s, short black fade, light stubble, athletic build | CLAIMED 2026-10-17 — #514 Velvet Hippo Social Club Crewneck Sweatshirt cover (brief) (pair 845-846) |
 | 846 | Black woman, early 30s, shoulder-length box braids tied back, small silver hoops, medium build | CLAIMED 2026-10-17 — #514 Velvet Hippo Social Club Crewneck Sweatshirt cover (brief) (pair 845-846) |
