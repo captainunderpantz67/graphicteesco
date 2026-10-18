@@ -7759,23 +7759,22 @@
   },
   "mens-fishing-love-language-hoodie": {
    "claimed": [
-    "fishing gifts for dad"
+    "fishing gifts for dad",
+    "funny fishing hoodie"
    ],
    "gaps_measured": [
     {
      "phrase": "fishing gifts for dad",
      "volume": 1000,
-     "kd": 24,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 24
     },
     {
      "phrase": "funny fishing hoodie",
      "volume": 70,
-     "kd": 50,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 50
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-hockey-cold-rink-hot-takes-hoodie": {
    "claimed": [

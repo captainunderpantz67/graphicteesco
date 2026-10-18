@@ -1,4 +1,5 @@
 status: BUILDING [C] 2026-10-18 06:31
+shopify: gid://shopify/Product/15364809326896
 lane: C
 type: twin
 id: 550
@@ -22,3 +23,4 @@ kd: 24
 ---
 ## Log
 - 2026-10-18 03:10 UTC director: brief written, READY (hoodie twin of LIVE #497; keyword measured this run).
+- 2026-10-18 06:33 UTC builder [C]: built from #497's print as is (Printful file 1088604658, 3146x3782). R6.2 check: all three lines real Alfa Slab capitals (cream with dark-green outline, mustard), white hole already knocked out, no ring/arch/badge/card. 1,803 px high at FW 1500, ends well above the pouch on Sand and Navy; nothing shrunk, no re-lay. All three lines read at phone size on both. DRAFT gid 15364809326896 (12 variants, $39.99, no compare-at, category hoodies, tags per brief). FAQs 5 x 40-60 words, order-by Dec 8. Keywords fishing gifts for dad 1,000/24 + funny fishing hoodie 70/50 in the map. Mockups Sand + Navy + back (cream neck logo on Navy mockup) attached, variants linked. Cover: 1 fal image (registry #890, hood visible, hands in pouch, rods at the side not over the print, every word reads). audit-local PASS. Printful sync 482698719 running; REVIEW once 12/12.

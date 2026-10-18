@@ -566,6 +566,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-grandpa-ask-your-grandmother-graphic-tee': { src: '/covers/mens-grandpa-ask-your-grandmother-graphic-tee.webp', alt: 'Man in a navy Ask Your Grandmother funny grandpa tee standing in a cozy den with a recliner and a toy truck on the rug' },
   'womens-cat-oops-anyway-cropped-hoodie': { src: '/covers/womens-cat-oops-anyway-cropped-hoodie.webp', alt: 'Woman about 20 with long black hair behind her shoulders wears the Oops Anyway storm grey cropped hoodie with high-rise jeans in a sunny kitchen with a grey tabby on the counter' },
   'womens-teacher-indoor-recess-survivor-zip-hoodie': { src: '/covers/womens-teacher-indoor-recess-survivor-zip-hoodie.webp', alt: 'Woman in her early 40s with red glasses and a low ponytail looks back over her shoulder wearing the Indoor Recess Survivor navy zip hoodie, full back print visible, in a rainy school hallway' },
+  'mens-fishing-love-language-hoodie': { src: '/covers/mens-fishing-love-language-hoodie.webp', alt: 'Man in his late 40s with a dark mustache wears the Fishing Is My Love Language navy hoodie at a frosty boat launch at dawn, hands in the pouch' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
