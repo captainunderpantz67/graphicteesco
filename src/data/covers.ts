@@ -503,6 +503,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-golf-sorry-about-your-windshield-hoodie': { src: '/covers/unisex-golf-sorry-about-your-windshield-hoodie.webp', alt: 'Man and woman in matching sand Sorry About Your Windshield golfer hoodies, smiling side by side at a golf club practice green at golden hour with vintage cars behind a white fence' },
   'unisex-homebody-university-of-staying-in-oversized-hoodie': { src: '/covers/unisex-homebody-university-of-staying-in-oversized-hoodie.webp', alt: 'Man and woman in matching navy University of Staying In oversized hoodies, smiling side by side in a cozy living room on a rainy evening' },
   'womens-dachshund-currently-burrowed-hoodie': { src: '/covers/womens-dachshund-currently-burrowed-hoodie.webp', alt: 'Woman in a sand Currently Burrowed wiener dog hoodie, sitting on a sofa in a cozy living room in late fall with a red dachshund half under a patchwork quilt beside her' },
+  'womens-funny-i-said-it-nicely-in-my-head-hoodie': { src: '/covers/womens-funny-i-said-it-nicely-in-my-head-hoodie.webp', alt: 'Woman in a sand I Said It Nicely in My Head daisy hoodie smiling at a sunny autumn farmers market with flower buckets and pumpkins behind her' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
