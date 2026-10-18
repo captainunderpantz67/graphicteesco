@@ -1,5 +1,6 @@
 RUNNING helper since 2026-10-18 09:46 UTC
 RUNNING lane E since 2026-10-18 09:47 UTC
+2026-10-18 09:58 UTC — [E] REVIEW #537 pump cover REDO: cover attached as slide 1 + 2 detail close-ups
 RUNNING lane B since 2026-10-18 09:40 UTC
 2026-10-18 09:50 UTC — [B] REVIEW #531 pump cover REDO: 2 detail close-ups added, design-crops rerun
 2026-10-18 09:30 UTC — [D] Late REVIEW: #555 #559 #577 (lane E R5.3.8 light-file fixes) sent back REDO for the cover only: hair over the T of TREAT (#555) and the M of MAKING (#577), 'rules are rules.' faded out on #559's cover composite. Light files themselves pass. Builder card 9b: first letter at 200% on every composite, REDO covers too.
