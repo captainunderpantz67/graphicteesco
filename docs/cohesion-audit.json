@@ -1,6 +1,6 @@
 {
- "at": "2026-10-17T23:09:57.723Z",
- "products": 429,
+ "at": "2026-10-18T00:05:46.412Z",
+ "products": 435,
  "findings": [
   {
    "level": "WARN",
@@ -87,11 +87,18 @@
    "fix": "Use it once or twice, naturally."
   },
   {
-   "level": "ERROR",
-   "handle": "unisex-thanksgiving-laying-low-till-friday-turkey-hoodie",
-   "title": "Unisex Thanksgiving – Laying Low Till Friday Hoodie",
-   "msg": "Claims \"turkey hoodie\", already claimed by mens-hunting-long-beard-short-temper-camo-hoodie (two pages fighting for one keyword).",
-   "fix": "Give one of them a different measured phrase."
+   "level": "WARN",
+   "handle": "womens-black-friday-in-it-for-the-doorbusters-graphic-tee",
+   "title": "Women's Black Friday – In It for the Doorbusters Tee",
+   "msg": "Non-holiday design (black friday) listed in \"Thanksgiving Tees\".",
+   "fix": "Only keep it there if the art is genuinely for that holiday."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-black-friday-in-it-for-the-doorbusters-graphic-tee",
+   "title": "Women's Black Friday – In It for the Doorbusters Tee",
+   "msg": "Non-holiday design (black friday) listed in \"Funny Thanksgiving Shirts\".",
+   "fix": "Only keep it there if the art is genuinely for that holiday."
   },
   {
    "level": "WARN",

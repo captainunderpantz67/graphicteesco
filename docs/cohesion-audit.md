@@ -1,18 +1,12 @@
-# Cohesion audit — 2026-10-17 22:45 UTC
+# Cohesion audit — 2026-10-18 00:05 UTC
 
-422 live products checked · **1 errors** · 26 warnings · 25 products with findings
+435 live products checked · **0 errors** · 28 warnings · 26 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
-- 1 × Claims , already claimed by mens-hunting-long-beard-short-temper-camo-
 
 ## By product (errors first)
-### Unisex Thanksgiving – Laying Low Till Friday Hoodie `unisex-thanksgiving-laying-low-till-friday-turkey-hoodie`
-- **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
-- **WARN** "turkey hoodie" appears 6× in the copy (keyword stuffing). → Use it once or twice, naturally.
-- **ERROR** Claims "turkey hoodie", already claimed by mens-hunting-long-beard-short-temper-camo-hoodie (two pages fighting for one keyword). → Give one of them a different measured phrase.
-
 ### Unisex Halloween – Midnight Feature Tee `unisex-halloween-midnight-feature-graphic-tee`
 - **WARN** No meta description. → Write one ≤ 155 chars.
 
@@ -42,6 +36,14 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Women's Thanksgiving – Friendsgiving Hoodie `womens-thanksgiving-friendsgiving-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
+
+### Unisex Thanksgiving – Laying Low Till Friday Hoodie `unisex-thanksgiving-laying-low-till-friday-turkey-hoodie`
+- **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
+- **WARN** "turkey hoodie" appears 6× in the copy (keyword stuffing). → Use it once or twice, naturally.
+
+### Women's Black Friday – In It for the Doorbusters Tee `womens-black-friday-in-it-for-the-doorbusters-graphic-tee`
+- **WARN** Non-holiday design (black friday) listed in "Thanksgiving Tees". → Only keep it there if the art is genuinely for that holiday.
+- **WARN** Non-holiday design (black friday) listed in "Funny Thanksgiving Shirts". → Only keep it there if the art is genuinely for that holiday.
 
 ### Women's Axolotl – Smiling Through It Oversized Hoodie `womens-axolotl-smiling-through-it-oversized-hoodie`
 - **WARN** "axolotl hoodie" appears 7× in the copy (keyword stuffing). → Use it once or twice, naturally.
