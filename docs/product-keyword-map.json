@@ -8494,8 +8494,7 @@
   },
   "mens-drummer-professionally-loud-graphic-tee": {
    "claimed": [
-    "gifts for drummers",
-    "drummer gifts"
+    "drummer shirt"
    ],
    "gaps_measured": [
     {
@@ -8507,6 +8506,11 @@
      "phrase": "drummer gifts",
      "volume": 3600,
      "kd": 32
+    },
+    {
+     "phrase": "drummer shirt",
+     "volume": 1900,
+     "kd": 34
     }
    ],
    "measured": "2026-10-16"
@@ -9535,6 +9539,84 @@
    ],
    "measured": "2026-10-18",
    "note": "director: brief #646"
+  },
+  "mens-plumber-not-looking-at-your-sink-graphic-tee": {
+   "claimed": [
+    "plumber shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "plumber shirt",
+     "volume": 1000,
+     "kd": 31
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-electrician-its-probably-the-breaker-graphic-tee": {
+   "claimed": [
+    "electrician shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "electrician shirt",
+     "volume": 1300,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-lineman-bad-weather-is-my-overtime-graphic-tee": {
+   "claimed": [
+    "lineman shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "lineman shirt",
+     "volume": 1300,
+     "kd": 33
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-lineman-line-wife-plans-tentative-crewneck-sweatshirt": {
+   "claimed": [
+    "lineman sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "lineman sweatshirt",
+     "volume": 590,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-pilates-just-two-more-she-lied-graphic-tee": {
+   "claimed": [
+    "pilates shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pilates shirt",
+     "volume": 1900,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-firefighter-yes-one-cat-once-hoodie": {
+   "claimed": [
+    "firefighter hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "firefighter hoodie",
+     "volume": 480,
+     "kd": 35
+    }
+   ],
+   "measured": "2026-10-18"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

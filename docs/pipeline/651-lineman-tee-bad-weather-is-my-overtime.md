@@ -1,0 +1,29 @@
+status: READY
+lane: E
+type: new
+id: 651
+handle: mens-lineman-bad-weather-is-my-overtime-graphic-tee
+kd: 33
+---
+## Men's Lineman – Bad Weather Is My Overtime Tee
+- **Blank:** Bella+Canvas 3001 (Printful #71), unisex/men's tee, lightweight 4.2 oz, 100% combed ring-spun cotton (heathers contain polyester). Never "midweight". Copy facts from the Printful spec only (R7.1).
+- **Style:** A (R4.2), vintage to the edges, no badge, frame, border, rounded scene card or dark patch (R4.1, including the 2026-10-18 rounded-card line). New art: one Recraft v4 illustration call (--n 1), picture only, no words; at most 3 tries; if all are weak, PARK it and say why.
+- **Text on shirt (real fonts via scripts/compose-print.py, never drawn by the image model; spelled exactly):** BAD WEATHER (Alfa Slab One, cream, above) / IS MY OVERTIME. (Alfa Slab One, mustard with a cream keyline, below, at least 85% of the art's width). Solid ink.
+- **Hook:** A 1950s lineman in a hard hat and climbing gear grins at the top of a utility pole in a rainstorm, rain streaking past and a lightning bolt far off, giving a cheerful thumbs-up. BAD WEATHER IS MY OVERTIME. Storm season sends linemen out for weeks; the grin owns it. Men's dry deadpan (R3.4).
+- **Three lines considered (R3.1):** "Bad Weather Is My Overtime" · "Lights On, You're Welcome" · "Home for Dinner (Storm Permitting)" (picked: the storm-pay truth every line family knows, said with a straight face; 'You're Welcome' lines already sell on Etsy; the third suits the line-wife crewneck #652 instead).
+- **Joke QC (R3.7) / R3.12:** Outsider gets it in 3 seconds (a man up a pole in a storm, smiling about pay); family-clean, none of the 'pole dancer' innuendo common in the niche; no union or utility logo; 5 words. R3.12 passes. Not a pun.
+- **Why it's not taken:** RankHero 'lineman shirt' top 12 (2026-10-18): 'Dibs on the Lineman' 166 favorites, union lineman hoodie 157, blue-collar gift tee 126, two 'Support Your Local Pole Dancer' (98, 85); no storm-overtime line. Builder checks under 50 listings (R3.7.2).
+- **Design gate (5 parts, docs/research/how-to-research-a-design.md):** search: lineman shirt 1,300 / KD 33 (RankHero 2026-10-18; competition 4,125) · proof: Welder 'HoodLife' T-Shirt (TheLinemanCompany) 1,964 favorites, same seller and format (trade statement tee); 'Dibs on the Lineman Shirt' 166 (niche) · insider: storm restoration overtime ('storm chasing', weeks on the road after hurricanes) is the lineman's big season · joke type: deadpan statement · look: 1950s utility-poster print, mustard, storm navy, faded red, cream · gift test: the line wife buys it for him; linemen buy it for the crew.
+- **Art prompt (Recraft v4, one image per call):** Vintage 1950s utility-company poster screen-print illustration of a cheerful power lineman in a hard hat, safety harness and climbing spikes at the top of a wooden utility pole with crossarms and wires, giving a big thumbs-up and grinning while heavy rain streaks diagonally past him and a small lightning bolt flashes in the distance. Mustard yellow, storm navy, faded red, cream, soft black linework, halftone shading, worn screen-print texture, ragged broken edges, the lineman, pole and rain streaks are the shape. No text, no letters, no numbers, no logos, no background shape, no frame, no border, no badge, no rounded rectangle, no dark patch.
+- **Colors (R7.2):** Cream-ink file for Black, Navy, Dark Grey Heather, Heather Forest, Asphalt; dark-ink file (BAD WEATHER in navy, IS MY OVERTIME. in faded red, no dark keyline) for Natural, Ash, Athletic Heather (R5.3.8). ≤12 colors x 8 sizes.
+- **Primary keyword:** lineman shirt: 1,300 / KD 33 (RankHero via scripts/keyword-gap.py, 2026-10-18, director; competition 4,125). KD 21–35 band, clear buyer intent. Unowned (checked this run); recorded with this handle. #652 takes 'lineman sweatshirt'.
+- **Print size:** FW 1650 TOP 75 (tee). Tall art: put the lettering beside or across the pole, never shrink under FW 1650.
+- **Copy:** line one = the line + who wears it + when (R9.11), said plainly: no superlative opener built around the keyword (R8.3). Primary keyword in the title or SEO title, the first sentence and once in the meta; at most 3 times in all. Gift phrases at most once in copy, never the primary (R2.10). Describe only what is in the art; never say we drew it ("Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, weight, wash care, gift fit, Christmas order-by about Dec 8, free size exchange).
+- **Cover:** registry #991 (Cherokee/Native American man, early 40s, short black hair, broad shoulders, sun-weathered skin, short goatee), CLAIMED. Alt starts 'Man'. Scene: beside a utility bucket truck on a wet rural road after a storm, grey clearing sky, hard hat on the truck step, hands empty at his sides (R6.5). Printful mockup as `--design` (--n 1). Max 2 attempts.
+- **Title / handle:** "Men's Lineman – Bad Weather Is My Overtime Tee" / `mens-lineman-bad-weather-is-my-overtime-graphic-tee` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** graphic-tees-for-men, funny-graphic-tees, retro-graphic-tees, ai-art, intake-done
+- **Price:** $24.99 (R12.1 tee), NO compare-at.
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d). Before REVIEW: Printful default file checked on every variant and logged (R7.7, 2026-10-18 line); light file headline fill is dark ink (R5.3.8); the cover is an AI photo with every letter right at 200% or the Printful lifestyle mockup, never a composite (R6.10).
+---
+## Log
+- 2026-10-18 16:05 UTC director: brief written, READY (lane E; KD ≤ 20 band has no unclaimed phrase with a competition count in this run's sweep of 40+ trade, hobby and animal phrases, so this is the KD 21–35 band; proof named under the gate).
