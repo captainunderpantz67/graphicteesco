@@ -1,5 +1,5 @@
-RUNNING lane A since 2026-10-18 06:59 UTC
 RUNNING director since 2026-10-18 06:12 UTC
+2026-10-18 07:00 UTC — [A] Second lane A run exited at start (another [A] session was still committing: review 500, claim 586 at 06:59). Only change made: #149 REDO close-out to REVIEW (cover, sheet and 36/36 re-link were already done; keyword 'pink bow sweatshirt' 210/KD 56 replaces the plaid phrases). Lock released.
 2026-10-18 06:56 UTC — [A] [A] run done: REVIEW 389 470 540 541 500 491 456 + REDO relettering 247 248 249 250 253 254 149 (all Printful re-links verified); #387 waits on #386 (REDO), fal ~$11 of $16 today
 2026-10-18 06:36 UTC — [A] [A] 540 It Looked Smaller at the Farm tee (new art): 49/49 synced, REVIEW
 2026-10-18 06:55 UTC — [B] REVIEW #547 Women's Cropped Book Buying Ban tee — 45/45 synced; default file 40 on 1088696564, 5 on 1088696573 (halo), back logo on all
