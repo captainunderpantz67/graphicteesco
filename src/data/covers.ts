@@ -554,6 +554,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-mimi-says-yes-hoodie': { src: '/covers/womens-mimi-says-yes-hoodie.webp', alt: 'Woman in her early 60s with short natural grey hair and red cat-eye glasses wears the Mimi Says Yes sand hoodie on a sunny fall porch, hands in the pouch' },
   'mens-welder-stacks-dimes-wants-more-dimes-graphic-tee': { src: '/covers/mens-welder-stacks-dimes-wants-more-dimes-graphic-tee.webp', alt: 'Man in a navy Stacks Dimes Wants More Dimes welder tee standing in a welding shop bay with stacked steel pipe and a welding hood beside him' },
   'womens-gigi-because-grandma-sounded-old-hoodie': { src: '/covers/womens-gigi-because-grandma-sounded-old-hoodie.webp', alt: 'Woman in her early 50s with honey-blonde hair behind her shoulders and gold hoop earrings wears the Gigi sand hoodie on a fall boutique street, hands in the pouch' },
+  'mens-welder-if-you-can-step-over-it-hoodie': { src: '/covers/mens-welder-if-you-can-step-over-it-hoodie.webp', alt: 'Man in his mid-40s with a full dark beard and short curly grey hair wears the Welder If You Can Step Over It navy hoodie in a fabrication shop, hands in the pouch, a welding helmet on the bench' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

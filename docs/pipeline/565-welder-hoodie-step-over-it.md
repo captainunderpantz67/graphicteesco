@@ -1,4 +1,5 @@
 status: BUILDING [C] 2026-10-18 06:06
+shopify: gid://shopify/Product/15364786258224
 lane: C
 type: twin
 id: 565
@@ -22,3 +23,4 @@ kd: 16
 ---
 ## Log
 - 2026-10-18 03:25 UTC director: brief written, READY (hoodie twin of LIVE #529; keyword measured this run).
+- 2026-10-18 06:09 UTC builder [C]: built from #529's print (Printful file 1088633791). R6.2 check: all three lines real fonts (cream condensed, orange slab), welder/beams are the shape, no ring/arch/badge/card. Ratio 1.44 (2,163 px at FW 1500) is taller than the print area clears above the pouch (~2,080), so I tightened the gaps between lines/art/bottom line and set the art at 96% inside the same canvas (lettering untouched at full width): 3316x4512 = 2,041 px high at FW 1500, nothing under FW 1500. New Printful file 1088726131 (docs/print-files/565-welder-hoodie.png). All three lines fully visible above the pouch on Navy and Dark Heather; I CAN FILL IT. reads at phone size on Dark Heather. DRAFT gid 15364786258224 (12 variants, $39.99, no compare-at, category hoodies, tags graphic-hoodies-for-men + hoodie + ai-art + intake-done). FAQs 5 x 40-60 words, order-by Dec 8. Keyword gifts for welders 1,900/16 in the map. Mockups Navy + Dark Heather + back (cream neck logo) attached, variants linked. Cover: 1 fal image (registry #905, hood visible, hands in pouch, helmet on the bench not in hand, every word reads). audit-local PASS. Printful sync 482695175 running; REVIEW once 12/12.
