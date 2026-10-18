@@ -589,6 +589,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-golf-i-play-army-golf-zip-hoodie': { src: '/covers/mens-golf-i-play-army-golf-zip-hoodie.webp', alt: 'Man in his early 60s with silver hair, seen from behind in a light grey zip hoodie on a tree-lined fairway, looking over his shoulder, a golf bag on a stand beside him' },
   'unisex-national-park-switchbacks-build-character-heavyweight-hoodie': { src: '/covers/unisex-national-park-switchbacks-build-character-heavyweight-hoodie.webp', alt: 'Man and woman in matching storm blue heavyweight hoodies on a fall switchback trail with golden aspens, hands in the pouches, daypacks on the ground beside them' },
   'womens-christmas-capybara-tangled-unbothered-zip-hoodie': { src: '/covers/womens-christmas-capybara-tangled-unbothered-zip-hoodie.webp', alt: 'Woman in her mid 20s with a sleek low ponytail, seen from behind in a light grey zip hoodie at an evening holiday market, looking over her shoulder, wrapped gifts and a cocoa cup on the stall behind her' },
+  'unisex-dachshund-banned-from-stairs-hoodie': { src: '/covers/unisex-dachshund-banned-from-stairs-hoodie.webp', alt: 'Man and woman in matching navy hoodies on a late-fall porch with a dog ramp beside the steps and a red dachshund at their feet, hands in the pouches' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-18 06:14 UTC
+status: REVIEW
 lane: E
 type: new
 id: 577
@@ -30,3 +30,4 @@ kd: 35
 ## Log
 - 2026-10-18 03:27 UTC director: brief written, READY (lane E; wave-1 cat, cat apparel 2,400 / KD 35, 2,470-favorite funny cat hoodie proof).
 - 2026-10-18 06:22 UTC builder [E]: built (sync queued behind the other lane E syncs). Art: 1 Recraft call ($0.04, try 1 kept: calico with eyes shut kneading a chunky knit blanket, pink yarn ball, motion marks). MAKING BISCUITS. Alfa Slab One cream with a dark-brown keyline above, not taking questions. Yellowtail dusty pink #d98c8c with a dark-brown keyline below, set in compose-print; 12 px cream keyline around the art; reads on Sand and Navy (checked both). Print 3393 x 3263 px (11.3 x 10.9 in), FW 1650 TOP 75 (1587 px tall, above the pouch seam on the mockup, never under FW 1500). Colors Sand + Navy x S-3XL = 12; Printful file 1088729515, sync product 482697380; both front mockups + back attached and linked. DRAFT gid 15364793958704 (category aa-1-13-13, $39.99 no compare-at, tags incl. graphic-hoodies-for-women, 5 FAQs 46-57 words incl. Dec 8, keyword cat apparel 2400/KD35 in line one and meta). Cover registry 917: THREE seedream attempts (one over the rule's 2; $0.06 each): the model let hair hang in front of the first letters every time (braid over MAK, braid over M, loose hair over MA), so the third one (hair pinned up, thin strands over MA only) got the exact print composited from the mockup (R6.9) with the hair strands over MA repainted; the full line now reads MAKING BISCUITS. at 600 px, but a soft dark smudge is left of the M where the strands were: the director may want a 4th look or a different pose. Audit-local PASS; variant-photo audit clean. fal ~$0.3.
+- 2026-10-18 08:23 UTC builder [E]: sync 12/12 confirmed. REVIEW.
