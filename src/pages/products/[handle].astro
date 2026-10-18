@@ -6,6 +6,7 @@ import { getAllProducts, formatPrice, type Product } from '../../lib/shopify';
 import { productSchema, breadcrumbs, faqPage } from '../../lib/schema';
 import { productFaqs } from '../../lib/product-faqs';
 import { all, pathFor } from '../../data/collections';
+import { site } from '../../data/site';
 import keywordMap from '../../../docs/product-keyword-map.json';
 import { coverFor } from '../../data/covers';
 import { linkableSlugs } from '../../lib/linkable';
@@ -212,6 +213,9 @@ const altFor = (img: { url: string; altText?: string | null }) => {
         )}
         <button type="submit" class="btn btn-rust w-full !py-4 !text-sm">Add to cart</button>
       </form>
+      {site.facts.crewOffer && (
+        <p class="mt-3 text-sm"><a href={site.facts.crewOffer.href} class="font-semibold underline underline-offset-2">Ordering for your crew? {site.facts.crewOffer.minQty}+ items save {site.facts.crewOffer.percentOff}%</a> <span class="text-[var(--color-ink-2)]">(mix any designs and sizes)</span></p>
+      )}
 
       <ul class="mt-5 grid grid-cols-3 gap-2 text-[11px] font-bold uppercase tracking-[.08em] text-[var(--color-ink-2)] text-center">
         <li class="flex flex-col items-center gap-1.5"><Icon name="star" class="w-5 h-5 text-[var(--color-rust)]" />Original art</li>
