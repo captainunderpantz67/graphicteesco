@@ -534,6 +534,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-cropped-book-buying-ban-graphic-tee': { src: '/covers/womens-cropped-book-buying-ban-graphic-tee.webp', alt: 'Woman with black curtain bangs and round tortoiseshell glasses smiling in a cream Book Buying Ban: Day One (Again) cropped tee and high-waist jeans in a cozy bookstore aisle with a tote bag of books at her hip' },
   'womens-volleyball-mom-seven-am-check-in-graphic-tee': { src: '/covers/womens-volleyball-mom-seven-am-check-in-graphic-tee.webp', alt: 'Woman with locs tied back smiling eyes closed in a volleyball gym wearing the 7 A.M. Check-In. Don\'t talk to me yet. navy tee' },
   'mens-gym-deload-week-emotionally-pump-cover': { src: '/covers/mens-gym-deload-week-emotionally-pump-cover.webp', alt: 'Man with a short black undercut sitting on a weight bench in a washed-black Deload Week (Emotionally) pump cover shirt in a garage gym with a squat rack and chalk dust, hands resting on his knees' },
+  'unisex-national-park-switchbacks-build-character-crewneck-sweatshirt': { src: '/covers/unisex-national-park-switchbacks-build-character-crewneck-sweatshirt.webp', alt: 'Man and woman smiling in sand Switchbacks Build Character crewneck sweatshirts at a mountain trailhead at golden hour with pine trees, a trail sign post and small daypacks on the ground' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
