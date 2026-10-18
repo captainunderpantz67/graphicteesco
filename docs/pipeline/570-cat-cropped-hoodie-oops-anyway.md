@@ -1,0 +1,24 @@
+status: READY
+lane: C
+type: twin
+id: 570
+handle: womens-cat-oops-anyway-cropped-hoodie
+kd: 43
+---
+## Women's Cat – Oops. Anyway. Cropped Hoodie
+- **Twin of:** #394 womens-cat-oops-anyway-crewneck-sweatshirt (LIVE 2026-10-17). Reuse the crewneck's final print (Printful file 1088483771: a smug grey tabby on a round wooden stool, eyes closed, one paw out, a patterned coffee mug mid-fall with a frozen coffee splash; OOPS. in orange Lobster with a dark outline above and ANYWAY. in cream Lobster with a dark outline below, set in a real font). No new art. R6.2 check done by the director on the #394 sheet: real-font lines, no badge, ring, frame or scene card; the cat and stool are the shape. Builder re-checks the closed counters (O, P, A) on both colors before linking (R5.3.8).
+- **Blank:** Women's cropped hoodie Bella+Canvas 7502 (Printful #317), handle ends -cropped-hoodie. Print area 1500 x 1500 px: FW 1500, every word and the art above the raw hem. Copy facts from the Printful spec only (R7.1). The print is taller than wide (OOPS. above, ANYWAY. below the stool), so it will not fill the square at full width as is: re-lay it in compose-print to fit 1500 x 1500 at full width (tighten the gaps between the lines and the art, crop the stool legs with a worn edge if needed), never shrink it under about 1300 px wide; ANYWAY. must read at phone size (R3.7.6).
+- **Colors (R7.2, the 7502 has only 4):** Peach + Storm per R7.1 if OOPS. (orange) reads on Peach; if it sinks there, Storm + Black, logged with why. Read OOPS. and ANYWAY. on both mockups at about 400 px wide before REVIEW. A Printful mockup for every color before REVIEW.
+- **Hook:** every cat's apology, said with eyes closed while the mug is still in the air: OOPS. ANYWAY. Women's sass (R3.4); twins carry the original line (R3.9).
+- **Why it's not taken:** our own art; cat-knocking-things-over prints on Etsy use 'gravity tester' lines; OOPS. ANYWAY. isn't listed (checked for #394).
+- **Primary keyword:** cat owner gifts: 1,900 / KD 43 (RankHero 2026-10-18, director). Over 1,000 a month, so KD 36+ is allowed (R2.5), and nothing easier is free for a cat design: 'cat hoodie' (14,800 / 42) is owned by #286 Purrsonal Space, 'cat sweatshirt' by #394, and the cat hoodie long-tails are empty or harder (measured: cat cropped hoodie and cropped cat hoodie empty; funny cat hoodie 110 / 60, cat lover hoodie 90 / 62, cat mom hoodie 140 / 55, cat mom gifts 1,300 / 64, gifts for cat lovers 14,800 / 51). Clear buyer intent: shopping a present for the person whose cat runs the house. Unowned in docs/product-keyword-map.json and every open brief (checked this run); recorded there with this handle. Supporting: none.
+- **Popularity evidence (R5.2):** #394's gate proof (an animal with an attitude is one of the Etsy formats that sells, docs/research/etsy-2026-10-17/); #394 went LIVE on this art (audit PASS, director sheet 2026-10-17); cropped hoodie 40,500 / 30 (R11.5).
+- **Copy:** line one: the joke + who wears it + when (R9.11: coffee at the window, campus, errands, a Christmas gift for the cat owner). Describe only what is in the art (R8.3: grey tabby, wooden stool, falling mug, coffee splash). Say it is cropped and has a hood (R11.5 cropped-sweatshirts note). Never say we drew it ("Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (cropped length and fit from the Printful spec, what to wear it with, wash care, sizing, gift fit, Christmas order-by about December 8, free size exchange). Primary keyword once in the first sentence and once in the meta; no stuffing (R8.2–R8.3).
+- **Cover:** registry #910 (Laotian-American woman, about 20, long straight black hair with curtain bangs worn behind the shoulders, slim build), CLAIMED. College-age for cropped (R6.6). Alt starts 'Woman'. Scene: a sunny apartment kitchen with a window seat, a grey tabby on the counter beside her (never over the print); a coffee mug on the counter at her side, not in hand (R6.5). Hands empty or at her sides; hair tied back or behind the shoulders, check the O of OOPS letter by letter (R6.9 hair line); hood visible, cropped hem at the waist over high-rise bottoms. Generate with the product's own Storm mockup as `--design` (R6.9, --n 1), then read every word; composite the print from the mockup if anything drifts.
+- **Title / handle:** "Women's Cat – Oops. Anyway. Cropped Hoodie" / `womens-cat-oops-anyway-cropped-hoodie` (R7.4; the suffix sets the audit price).
+- **Tags:** cropped-hoodies, cropped-sweatshirts, graphic-hoodies-for-women, hoodie, ai-art, intake-done (R7.5, R11.5). No tee or sweatshirt-only collection tags.
+- **Price:** cropped $44.99, NO compare-at (R12.1).
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d).
+---
+## Log
+- 2026-10-18 03:25 UTC director: brief written, READY (hoodie twin of LIVE #394; keyword measured this run).

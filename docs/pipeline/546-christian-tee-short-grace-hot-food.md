@@ -1,7 +1,8 @@
-status: BUILDING [B] 2026-10-18 02:50Z
+status: REVIEW
 lane: B
 type: new
 id: 546
+shopify: gid://shopify/Product/15364528963888
 handle: mens-christian-short-grace-hot-food-graphic-tee
 kd: 11
 ---
@@ -28,3 +29,4 @@ kd: 11
 ## Log
 - 2026-10-18 03:10 UTC director: brief written, READY (lane B R11.3 christian shirts men (KD 11); 642-favorite witty Christian tee proof).
 - 2026-10-18 03:10 UTC builder [B]: WIP: DRAFT, art, mockups, copy, cover and review sheet done; Printful sync still running (queued behind other syncs); status goes to REVIEW at full sync.
+- 2026-10-18 03:40 UTC builder [B]: full build. Art: 1 Recraft call, kept (a family dinner table: a father with his head bowed and hands folded over a steaming pot roast, two children with folded hands peeking, pitcher, basket of rolls; his eyes are closed in the art, so the copy says bowed head and folded hands and that the kids peek). The round table-cloth bottom was run through scripts/ragged-edge.py (rows 1150-1800, depth 130, seed 5) so it ends in worn, broken edges, not a smooth arc (the REDO lesson from #530). SHORT GRACE. / HOT FOOD. in Fraunces 900 brown #4a2c18, wider than the art, via compose-print: one dark-ink file for light colors (Natural, Soft Cream, Heather Dust, Ash, Athletic Heather; Heather Stone does not exist on 3001, Heather Dust is the nearest). Print 11.3 x 10.7 in, FW 1650 TOP 75. DRAFT gid 15364528963888, category aa-1-13-8, 35 variants $24.99, compareAtPrice null, tags graphic-tees-for-men, funny-graphic-tees, retro-graphic-tees (the brief's christian-shirts tag was dropped: the audit says christian-shirts is the women's collection and errors on a men's product; the director's plan is to give this product that head term when the men's Christian page opens), keyword christian shirts men 12,100/KD11 in line one and meta, FAQ 6 x 40-60 words incl. Dec 8. Printful file 1088652574, sync 35/35. Mockups for all 5 colors + back attached and linked; phone-size read on Athletic Heather: both lines legible. Cover: registry 886, 1 fal photo (Natural), every word reads, hands empty; alt starts "Man". Audit-local PASS (after the tag fix), astro build OK. fal $0.10.

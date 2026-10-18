@@ -8259,6 +8259,258 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-fishing-out-fished-him-again-graphic-tee": {
+   "claimed": [
+    "fishing shirt women"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fishing shirt women",
+     "volume": 1300,
+     "kd": 20,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "womens fishing shirt",
+     "volume": 4400,
+     "kd": 44,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-cropped-lift-heavy-reply-later-graphic-tee": {
+   "claimed": [
+    "gym crop top"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "gym crop top",
+     "volume": 4400,
+     "kd": 32,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "workout crop top",
+     "volume": 2900,
+     "kd": 32,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-christian-rebuilt-by-a-carpenter-graphic-tee": {
+   "claimed": [
+    "jesus shirt for men"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "jesus shirt for men",
+     "volume": 1600,
+     "kd": 17,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "bible verse shirts",
+     "volume": 2900,
+     "kd": 58,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-welder-if-you-can-step-over-it-hoodie": {
+   "claimed": [
+    "gifts for welders"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "gifts for welders",
+     "volume": 1900,
+     "kd": 16,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-fishing-you-catching-em-heavyweight-hoodie": {
+   "claimed": [
+    "gifts for fishermen"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "gifts for fishermen",
+     "volume": 9900,
+     "kd": 30,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-christmas-bulking-season-oversized-hoodie": {
+   "claimed": [
+    "gym christmas"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "gym christmas",
+     "volume": 720,
+     "kd": 27,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-crochet-no-i-wont-make-you-one-hoodie": {
+   "claimed": [
+    "gifts for crochet lovers"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "gifts for crochet lovers",
+     "volume": 1600,
+     "kd": 17,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "crafter gifts",
+     "volume": 2400,
+     "kd": 16,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-christmas-attending-under-protest-hoodie": {
+   "claimed": [
+    "grumpy christmas"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "grumpy christmas",
+     "volume": 720,
+     "kd": 27,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-cat-oops-anyway-cropped-hoodie": {
+   "claimed": [
+    "cat owner gifts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cat owner gifts",
+     "volume": 1900,
+     "kd": 43,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-teacher-indoor-recess-survivor-zip-hoodie": {
+   "claimed": [
+    "teacher clothes"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "teacher clothes",
+     "volume": 9900,
+     "kd": 32,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-nurse-embroidered-night-shift-silly-goose-hoodie": {
+   "claimed": [
+    "silly goose hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "silly goose hoodie",
+     "volume": 390,
+     "kd": 40,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "unisex-dachshund-banned-from-stairs-graphic-tee": {
+   "claimed": [
+    "dachshund apparel"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dachshund apparel",
+     "volume": 12100,
+     "kd": 26,
+     "competition": 4731
+    },
+    {
+     "phrase": "wiener dog shirt",
+     "volume": 590,
+     "kd": 48,
+     "competition": 14910
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-cat-making-biscuits-hoodie": {
+   "claimed": [
+    "cat apparel"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cat apparel",
+     "volume": 2400,
+     "kd": 35,
+     "competition": 11567
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "unisex-pitbull-scary-dog-afraid-of-the-vacuum-graphic-tee": {
+   "claimed": [
+    "pit bull shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pit bull shirt",
+     "volume": 1900,
+     "kd": 30,
+     "competition": 4195
+    },
+    {
+     "phrase": "pitbull gifts",
+     "volume": 320,
+     "kd": 51,
+     "competition": 12075
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-grandpa-ask-your-grandmother-graphic-tee": {
+   "claimed": [
+    "funny grandpa shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny grandpa shirt",
+     "volume": 1300,
+     "kd": 50,
+     "competition": 40723
+    },
+    {
+     "phrase": "papa shirt",
+     "volume": 2900,
+     "kd": 52,
+     "competition": 85011
+    }
+   ],
+   "measured": "2026-10-18"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
