@@ -1,0 +1,5 @@
+{"art": "art.png", "art_width": 0.86, "canvas": [3600, 4500], "gap": 60, "holes": 2000,
+ "lines": [
+  {"text": "I ONLY RUN", "font": "AlfaSlabOne-Regular.ttf", "size": 520, "fill": "#1b2a4a", "stroke": 18, "stroke_fill": "#f3e7cf", "tracking": 0.01, "max_width": 0.9, "where": "above"},
+  {"text": "DOWNHILL.", "font": "AlfaSlabOne-Regular.ttf", "size": 860, "fill": "#b8453c", "stroke": 22, "stroke_fill": "#f3e7cf", "tracking": 0.01, "max_width": 0.96, "where": "below"}
+ ]}
