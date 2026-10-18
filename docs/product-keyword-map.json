@@ -7846,23 +7846,22 @@
   },
   "mens-christmas-it-looked-smaller-at-the-farm-graphic-tee": {
    "claimed": [
-    "funny xmas t shirt"
+    "funny xmas t shirt",
+    "christmas gifts for husband"
    ],
    "gaps_measured": [
     {
      "phrase": "funny xmas t shirt",
      "volume": 8100,
-     "kd": 12,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 12
     },
     {
      "phrase": "christmas gifts for husband",
      "volume": 22200,
-     "kd": 10,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 10
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-christmas-it-looked-smaller-at-the-farm-crewneck-sweatshirt": {
    "claimed": [
