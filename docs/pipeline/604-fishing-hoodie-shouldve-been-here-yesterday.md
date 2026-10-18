@@ -3,7 +3,7 @@ lane: C
 type: twin
 id: 604
 handle: mens-fishing-shouldve-been-here-yesterday-hoodie
-kd: 30
+kd: 36
 ---
 ## Men's Fishing – Should've Been Here Yesterday Hoodie
 - **Blank:** Gildan 18500 pullover hoodie (Printful #146), 8 oz, 50/50 cotton-poly fleece, double-lined hood, pouch pocket; handle ends -hoodie. Copy facts from the Printful spec only (R7.1).
@@ -27,3 +27,4 @@ kd: 30
 ---
 ## Log
 - 2026-10-18 06:26 UTC director: brief written, READY (lane C; kd 30; KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month or with a measured December surge; proof named under the gate).
+- 2026-10-18 07:37 UTC director: keyword fix (R2.8/R8.8): 'fishing hoodie' is the fishing-hoodies collection head term, so this product must not claim it. New primary: 'fishing pullover' 140 / KD 36 (RankHero 2026-10-18, unclaimed; only measured fishing-hoodie long-tail left unclaimed). Builder: use it in the SEO title, first sentence and meta instead, keep 'fishing hoodie' out of the title/SEO, record it in docs/product-keyword-map.json.
