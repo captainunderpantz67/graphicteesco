@@ -461,7 +461,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 568 | Black woman, early 30s, short box braids in a bun, small gold studs | RESERVED — #377 Charting Is My Cardio Crewneck Sweatshirt cover |
 | 569 | Filipino-American woman, early 40s, shoulder-length black hair, small pearl studs | USED 2026-10-16 — #378 IV League crewneck cover (seedream, 1 attempt) |
 | 570 | White woman, late 30s, high blonde ponytail, sunglasses pushed up on her head | RESERVED — #379 Professional Goal Digger Crewneck Sweatshirt cover |
-| 571 | Black woman, early 40s, natural curls, stadium blanket over one arm | RESERVED — #380 Down, Set, Snacks Crewneck Sweatshirt cover |
+| 571 | Black woman, early 40s, natural curls, stadium blanket over one arm | USED 2026-10-16 — #380 Down Set Snacks cover |
 | 572 | Mexican-American woman, mid 30s, long dark hair in a low ponytail, ball cap | RESERVED — #381 Pitch, Please Crewneck Sweatshirt cover |
 | 573 | White woman, mid 40s, wavy auburn bob, freckles | USED 2026-10-16 — #382 Bases Loaded crewneck cover (seedream, 1 attempt) |
 | 574 | Korean-American woman, early 30s, butterfly clips in a half-up style, small silver hoops | RESERVED — #383 Still Loading Since 1999 Hoodie cover |
