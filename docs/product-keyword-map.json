@@ -7693,6 +7693,24 @@
    ],
    "measured": "2026-10-18",
    "note": "director: brief"
+  "womens-bookish-do-not-sell-my-books-hoodie": {
+   "claimed": [
+    "book hoodie",
+    "book lover hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "book hoodie",
+     "volume": 880,
+     "kd": 52
+    },
+    {
+     "phrase": "book lover hoodie",
+     "volume": 480,
+     "kd": 52
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
