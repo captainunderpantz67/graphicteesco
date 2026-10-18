@@ -1,4 +1,4 @@
-status: LIVE
+status: REVIEW
 lane: B
 type: twin
 id: 585
@@ -31,3 +31,5 @@ shopify: gid://shopify/Product/15364755521840
 - 2026-10-18 05:37 UTC builder [B]: WIP: twin of #583 built. R6.2 lettering check on the source (#583 print files 1088712563 / 1088712589): THE NEIGHBORS and LOVE ME. are Alfa Slab One set by compose-print, the art is a Recraft picture with ragged edges, no ring, panel or typeset line; reused unchanged. DRAFT gid://shopify/Product/15364755521840 (Gildan 18500 #146, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category hoodies, tags per brief, keyword drummer hoodie in line one and meta, 6 FAQs 46-55 words incl. Dec 8). Print FW 1500 TOP 75 above the pouch seam on both mockups (Sand dark-ink file, Navy cream-halo file); mockups Sand + Navy + back read. Cover registry 925, try 1: hood down and visible, hands in the pouch, every word reads. Audit-local PASS. Sync queued; status goes to REVIEW at 12/12.
 - 2026-10-18 07:03 UTC builder [B]: REVIEW. Sync finished 12/12 (earlier run died with the link at 0/12; re-linked), review sheet docs/review/585.jpg, design crop added, variant-photo audit clean, audit --handle only 'not visible'. fal $0.
 - 2026-10-18 07:22 UTC director: approved from docs/review/585.jpg; ACTIVE + Online Store + Headless + Google & YouTube. audit --handle PASS (0 warn). LIVE.
+
+- [B] 2026-10-18 builder: sync DONE, R7.7 default-file check on Printful: 12/12 synced; default file 6 on 1088712563 (Sand, dark ink) and 6 on 1088712589 (Navy, halo), back logo on all. Variant-photo audit clean. Status REVIEW.
