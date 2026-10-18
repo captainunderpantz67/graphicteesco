@@ -700,3 +700,11 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 913 | Lebanese-American woman, early 40s, thick dark wavy hair worn behind the shoulders, light freckles, small silver studs, athletic build | CLAIMED 2026-10-18 — #573 Out-Fished Him. Again. tee cover (brief) |
 | 914 | Puerto Rican woman, about 21, long dark curly hair in a high ponytail, small gold hoops, athletic build | CLAIMED 2026-10-18 — #574 Lift Heavy. Reply Later. cropped tee cover (brief) |
 | 915 | Scottish-American man, mid 50s, short receding grey hair, salt-and-pepper close beard, weathered hands, broad build | CLAIMED 2026-10-18 — #575 Rebuilt by a Carpenter tee cover (brief) |
+| 905 | Tongan-American man, mid-40s, salt-and-pepper curly hair cropped short, full dark beard, heavy broad build | CLAIMED 2026-10-18 — #565 If You Can Step Over It Hoodie cover (brief) |
+| 906 | Irish-American man, late 60s, thinning white hair, bushy white eyebrows, clean-shaven weathered face, lean wiry build | CLAIMED 2026-10-18 — #566 You Catching 'Em? Heavyweight Hoodie cover (brief) |
+| 907 | Dominican-American man, late 20s, high-top fade, thin mustache, muscular build | CLAIMED 2026-10-18 — #567 Bulking Season Oversized Hoodie cover (brief) |
+| 908 | Japanese-American woman, early 40s, long black hair with grey streaks in a loose braid down her back, round tortoiseshell glasses, petite build | CLAIMED 2026-10-18 — #568 No, I Won't Make You One Hoodie cover (brief) |
+| 909 | Polish-American man, mid-50s, receding salt-and-pepper hair, short grey beard, heavy-set build | CLAIMED 2026-10-18 — #569 Attending Under Protest Hoodie cover (brief) |
+| 910 | Laotian-American woman, about 20, long straight black hair with curtain bangs worn behind the shoulders, slim build | CLAIMED 2026-10-18 — #570 Oops. Anyway. Cropped Hoodie cover (brief) |
+| 911 | Iranian-American woman, early 40s, shoulder-length dark wavy hair tied back in a low ponytail, red-frame glasses, medium build | CLAIMED 2026-10-18 — #571 Indoor Recess Survivor Zip Hoodie cover (brief) |
+| 912 | Filipino-American woman, early 30s, short black pixie cut, small pearl studs, petite build | CLAIMED 2026-10-18 — #572 Night Shift Silly Goose Embroidered Hoodie cover (brief) |
