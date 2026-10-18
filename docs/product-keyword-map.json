@@ -8203,23 +8203,22 @@
   },
   "womens-mimi-says-yes-hoodie": {
    "claimed": [
-    "gifts for mimi"
+    "gifts for mimi",
+    "mimi hoodie"
    ],
    "gaps_measured": [
     {
      "phrase": "gifts for mimi",
      "volume": 1600,
-     "kd": 17,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 17
     },
     {
      "phrase": "mimi hoodie",
      "volume": 90,
-     "kd": 45,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 45
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-gigi-because-grandma-sounded-old-hoodie": {
    "claimed": [
