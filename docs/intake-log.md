@@ -1,3 +1,4 @@
+2026-10-18 01:26 UTC — [B] REVIEW #384 Hot Mess Express oversized REDO (waist-up cover, shoulder smudge fixed; fal $0).
 2026-10-18 01:25 UTC — [B] REVIEW #469 Excused From Small Talk embroidered crewneck REDO (coded book stack, bigger lettering, 12/12, composite cover; fal $0).
 2026-10-18 01:16 UTC — [B] REVIEW #498 Psalm 121 embroidered crewneck REDO (verse on two lines, 12/12, composite cover; fal $0).
 2026-10-18 01:21 UTC — [D] Review batch 2: 2 LIVE (#333 New Year Same Guy tee, #498 Psalm 121 embroidered crew; ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn). 2 REDO: #365 (back zipper seam + sign text on cover), #508 (inpaint patch on cover).
