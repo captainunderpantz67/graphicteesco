@@ -562,8 +562,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 665 | Black woman, about 21, curly high puff, small silver hoops | USED 2026-10-17 — #464 Core Issues cropped hoodie cover (try 1, image 1 of 1) |
 | 666 | South Asian man, early 40s, short salt-and-pepper hair, clean-shaven | USED 2026-10-17 - #465 I Rest My Case lawyer hoodie cover (pair with #666-667) |
 | 667 | white woman, early 40s, straight red bob | USED 2026-10-17 - #465 I Rest My Case lawyer hoodie cover (pair with #666-667) |
-| 668 | Filipino-American woman, late 20s, shoulder-length black hair with curtain bangs | RESERVED — #466 Overthinkers Club Hoodie cover (with #669) |
-| 669 | white man, late 20s, curly ginger hair, light freckles | RESERVED — #466 Overthinkers Club Hoodie cover (with #668) |
+| 668 | Filipino-American woman, late 20s, shoulder-length black hair with curtain bangs | USED 2026-10-18 — #466 Overthinkers Club Hoodie cover (with #669) |
+| 669 | white man, late 20s, curly ginger hair, light freckles | USED 2026-10-18 — #466 Overthinkers Club Hoodie cover (with #668) |
 | 670 | Black woman, mid 30s, short natural twist-out, small gold studs | RESERVED — #467 Overthinkers Club Crewneck cover (with #671) |
 | 671 | Korean-American man, mid 30s, undercut, round glasses | RESERVED — #467 Overthinkers Club Crewneck cover (with #670) |
 | 672 | Mexican-American woman, early 30s, long dark wavy hair in a low claw clip, small gold hoops | USED 2026-10-16 — #468 Thriving, Technically frog hoodie cover |
@@ -641,3 +641,13 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 844 | white woman, late 20s, red hair in a high bun, light freckles, slim build | USED 2026-10-18 — #513 Currently Burrowed Crewneck Sweatshirt cover (brief) |
 | 845 | Puerto Rican man, early 30s, short black fade, light stubble, athletic build | CLAIMED 2026-10-17 — #514 Velvet Hippo Social Club Crewneck Sweatshirt cover (brief) (pair 845-846) |
 | 846 | Black woman, early 30s, shoulder-length box braids tied back, small silver hoops, medium build | CLAIMED 2026-10-17 — #514 Velvet Hippo Social Club Crewneck Sweatshirt cover (brief) (pair 845-846) |
+| 847 | Vietnamese-American man, early 30s, short textured black hair, clean-shaven, slim build | CLAIMED 2026-10-18 — #515 Calm Face, Loud Brain Hoodie cover (brief) (pair 847-848) |
+| 848 | white woman, late 40s, chin-length silver-blonde bob, small pearl studs, medium build | CLAIMED 2026-10-18 — #515 Calm Face, Loud Brain Hoodie cover (brief) (pair 847-848) |
+| 849 | Korean-American woman, late 30s, long straight black hair in a low bun, thin gold-rimmed glasses, petite build | CLAIMED 2026-10-18 — #516 Currently Burrowed Hoodie cover (brief) |
+| 850 | white man, early 60s, short grey hair, tanned, lean build | CLAIMED 2026-10-18 — #517 Sorry About Your Windshield Hoodie cover (brief) (pair 850-851) |
+| 851 | Mexican-American woman, late 50s, shoulder-length dark hair with grey streaks tied back, small gold hoops | CLAIMED 2026-10-18 — #517 Sorry About Your Windshield Hoodie cover (brief) (pair 850-851) |
+| 852 | Irish-American woman, early 40s, shoulder-length auburn hair in a low ponytail, light freckles, athletic build | CLAIMED 2026-10-18 — #518 Cold Rink, Hot Takes Crewneck Sweatshirt cover (brief) |
+| 853 | Black woman, early 50s, short natural grey curls, round tortoiseshell glasses, medium build | CLAIMED 2026-10-18 — #519 One More Row Crewneck Sweatshirt cover (brief) |
+| 854 | Puerto Rican woman, late 20s, curly dark-brown hair in a high puff, small gold hoops, medium build | CLAIMED 2026-10-18 — #520 No, I Won't Make You One Crewneck Sweatshirt cover (brief) |
+| 855 | white woman, early 60s, silver pixie cut, light-blue reading glasses on a beaded chain, slim build | CLAIMED 2026-10-18 — #521 Mimi Says Yes Crewneck Sweatshirt cover (brief) |
+| 856 | Indian-American woman, mid-50s, shoulder-length black hair with a silver streak, small diamond studs, medium build | CLAIMED 2026-10-18 — #522 Because Grandma Sounded Old Crewneck Sweatshirt cover (brief) |
