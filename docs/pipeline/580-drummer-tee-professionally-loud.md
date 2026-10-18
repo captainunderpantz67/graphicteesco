@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-18 07:06
+status: REVIEW
 lane: A
 type: new
 id: 580
@@ -29,3 +29,4 @@ shopify: gid://shopify/Product/15364862738736
 ## Log
 - 2026-10-18 04:27 UTC director: brief written, READY (lane A; KD ≤ 20 band empty in the sweep, so KD 21–35 buyer phrases, measured this run; proof seller named under the gate).
 - 2026-10-18 07:07 UTC builder [A]: WIP: art Recraft try 1 ($0.04), print composed 3323x3983 (cream PROFESSIONALLY w/ dark edge, red LOUD. w/ cream edge, cream halo on the art), Printful file 1088746501, FW 1650 TOP 75. DRAFT gid 15364862738736 (3001, 8 colors x S-4XL = 56, $24.99, no compare-at). Next: sync, mockups, cover.
+- 2026-10-18 08:10 UTC builder [A]: REVIEW: Printful sync 482701854 verified 56/56 on default file 1088747258 (FW 1650, back logo 1080398177); every color has its own mockup (R7.7c); audit-local PASS 0 warn (only 'not visible' for a draft); cover checked (all words read, nothing over the print); design-crops cannot see drafts (Storefront): run after publish.

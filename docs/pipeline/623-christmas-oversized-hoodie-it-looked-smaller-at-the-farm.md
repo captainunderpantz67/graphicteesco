@@ -1,4 +1,5 @@
-status: BUILDING [C] 2026-10-18 07:58 UTC
+status: REVIEW
+shopify: gid://shopify/Product/15364914348336
 lane: C
 type: twin
 id: 623
@@ -23,3 +24,6 @@ kd: 10
 ---
 ## Log
 - 2026-10-18 07:33 UTC director: brief written, READY (lane C hoodie twin of LIVE #540; kd 10, KD ≤ 20 band with a measured December surge; oversized-hoodies-for-men is under 14).
+- 2026-10-18 08:01 UTC builder [C]: R6.2 check on #540's print (Printful 1088710447, 3348x4594): both lines real Alfa Slab with cream keyline, no ring/panel/badge; the rug under his feet has worn edges (no run over 1 in), counters (O, A, R, D) closed. Finding: the 4719 front area is 1650x1650, and the first Printful mockup at FW 1500 clipped AT THE FARM off the bottom (the tall print was 2,060 px high). Re-laid per the brief's shape rule: the three bands kept at full size for the lettering, the art band scaled to 76% (art width 3096 -> 2353, lettering untouched), gaps 40 px, print 3348x3641 = 1,631 px high at FW 1500 TOP 0, inside the 1650 area (docs/print-files/623-looked-smaller-oversized-relaid.png, Printful 1088762211). One file on Dust and Navy. DRAFT gid 15364914348336 (12 variants S-3XL, $54.99, no compare-at, hoodies category, tags per brief). FAQs 5 x 45-53 words, order-by Dec 8.
+- 2026-10-18 08:03 UTC builder [C]: mockups Navy + Dust + back (cream neck logo on Navy), whole print above the pocket on both (checked at 500 px, both lines read). Cover: 1 fal image (registry #963); the model redrew the dad and smeared the lettering, so the exact print was composited from the print file (R6.9, old print inpainted, zoomed: both lines and the figure clean). Keyword xmas gifts for him 14,800/KD 10 in the map. audit-local PASS 0 warn. fal total about $0.06. Sync 482705303 running; REVIEW at 12/12.
+- 2026-10-18 08:10 UTC builder [C]: Printful relink verified 12/12 (6 Dust + 6 Navy on 1088762211, back logo on all); REVIEW.
