@@ -643,7 +643,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 846 | Black woman, early 30s, shoulder-length box braids tied back, small silver hoops, medium build | CLAIMED 2026-10-17 — #514 Velvet Hippo Social Club Crewneck Sweatshirt cover (brief) (pair 845-846) |
 | 847 | Vietnamese-American man, early 30s, short textured black hair, clean-shaven, slim build | CLAIMED 2026-10-18 — #515 Calm Face, Loud Brain Hoodie cover (brief) (pair 847-848) |
 | 848 | white woman, late 40s, chin-length silver-blonde bob, small pearl studs, medium build | CLAIMED 2026-10-18 — #515 Calm Face, Loud Brain Hoodie cover (brief) (pair 847-848) |
-| 849 | Korean-American woman, late 30s, long straight black hair in a low bun, thin gold-rimmed glasses, petite build | CLAIMED 2026-10-18 — #516 Currently Burrowed Hoodie cover (brief) |
+| 849 | Korean-American woman, late 30s, long straight black hair in a low bun, thin gold-rimmed glasses, petite build | USED 2026-10-18 — #516 Currently Burrowed hoodie cover (seedream, Sand mockup as design, composite print; hair behind shoulder) |
 | 850 | white man, early 60s, short grey hair, tanned, lean build | USED 2026-10-18 — #517 Sorry About Your Windshield hoodie cover (seedream, Sand mockup as design, composite prints; pair 850-851) |
 | 851 | Mexican-American woman, late 50s, shoulder-length dark hair with grey streaks tied back, small gold hoops | USED 2026-10-18 — #517 Sorry About Your Windshield hoodie cover (seedream, Sand mockup as design, composite prints; pair 850-851) |
 | 852 | Irish-American woman, early 40s, shoulder-length auburn hair in a low ponytail, light freckles, athletic build | USED 2026-10-18 — #518 Cold Rink, Hot Takes Crewneck Sweatshirt cover (brief) |
