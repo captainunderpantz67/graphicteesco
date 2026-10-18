@@ -1,4 +1,5 @@
 2026-10-18 05:25 UTC — [B] REVIEW #543 Men's Fishing Should've Been Here Yesterday Tee (DRAFT, synced 63/63, 9 colors; fal $0.10).
+2026-10-18 05:30 UTC — [A] [A] 541 It Looked Smaller at the Farm crewneck built (twin of 540), Printful link queued 482689431; REVIEW once 12/12 synced
 RUNNING lane E since 2026-10-18 05:15 UTC
 2026-10-18 05:26 UTC — [A] [A] 540 It Looked Smaller at the Farm tee built (new art), Printful link queued 482689138; REVIEW once 49/49 synced; #541 twin next
 RUNNING director since 2026-10-18 05:14 UTC

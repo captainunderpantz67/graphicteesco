@@ -7865,23 +7865,22 @@
   },
   "mens-christmas-it-looked-smaller-at-the-farm-crewneck-sweatshirt": {
    "claimed": [
-    "xmas tree sweater"
+    "xmas tree sweater",
+    "christmas gifts for boyfriend"
    ],
    "gaps_measured": [
     {
      "phrase": "xmas tree sweater",
      "volume": 1900,
-     "kd": 16,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 16
     },
     {
      "phrase": "christmas gifts for boyfriend",
      "volume": 22200,
-     "kd": 10,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 10
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-hiking-treat-me-like-wildlife-graphic-tee": {
    "claimed": [
