@@ -760,7 +760,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 965 | Moroccan-American man, mid 20s, short curly black hair, clean-shaven, muscular build | USED 2026-10-18 — #625 Rack Your Weights Oversized Hoodie cover |
 | 966 | Welsh-American woman, early 40s, sandy-brown hair in a low ponytail tied back, sport sunglasses pushed up on her head, athletic build | USED 2026-10-18 — #626 Travel Ball Took My Saturdays Zip Hoodie cover (back view, composite) |
 | 967 | Kenyan-American man, late 50s, short grey hair, neat grey beard, tall broad build | CLAIMED 2026-10-18 — #627 Rebuilt by a Carpenter Heavyweight Hoodie cover (brief) |
-| 954 | Cuban-American man, early 30s, dark wavy hair swept back, full black beard, medium build | CLAIMED 2026-10-18 — #614 Mom's Favorite Tee cover (brief) |
+| 954 | Cuban-American man, early 30s, dark wavy hair swept back, full black beard, medium build | USED 2026-10-18 — #614 Mom's Favorite Tee cover |
 | 955 | Pakistani-American man, mid 50s, short grey hair, clean-shaven, rectangular wire glasses, stocky build | CLAIMED 2026-10-18 — #615 Mom's Favorite Crewneck Sweatshirt cover (brief) |
 | 956 | Haitian-American man, early 40s, shaved head, thick black mustache, broad build | USED 2026-10-18 — #616 Drew Your Name. Panicked. Tee cover |
 | 957 | Taiwanese-American man, mid 30s, short side-parted black hair, thin black-rimmed glasses, clean-shaven, slim build | CLAIMED 2026-10-18 — #617 Drew Your Name. Panicked. Crewneck Sweatshirt cover (brief) |
