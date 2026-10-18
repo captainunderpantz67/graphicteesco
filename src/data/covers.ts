@@ -478,6 +478,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-gym-twelve-labors-zero-cardio-graphic-tee': { src: '/covers/mens-gym-twelve-labors-zero-cardio-graphic-tee.webp', alt: 'Man in a garage gym with a squat rack and weight plates, a treadmill behind him, wearing the Twelve Labors. Zero Cardio. tee' },
   'womens-national-park-my-type-geothermally-active-oversized-hoodie': { src: '/covers/womens-national-park-my-type-geothermally-active-oversized-hoodie.webp', alt: 'Woman smiling in a navy My Type Geothermally Active oversized hoodie with her hands in the pouch pocket on a boardwalk beside steaming hot springs, pines and a coffee cup on the rail' },
   'womens-national-park-two-queens-roaming-hoodie': { src: '/covers/womens-national-park-two-queens-roaming-hoodie.webp', alt: 'Two women in matching navy Two Queens Roaming bison hoodies with hands in the pouch pockets on a gravel pullout above a grassland valley with bison grazing in the distance' },
+  'mens-skull-dead-serious-zip-hoodie': { src: '/covers/mens-skull-dead-serious-zip-hoodie.webp', alt: 'Man looking back over his shoulder outside a vintage tattoo parlor at night wearing the Dead Serious skull navy zip hoodie' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

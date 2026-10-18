@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-18 01:12 UTC
+status: REVIEW
 lane: E
 type: new
 id: 365
@@ -26,3 +26,4 @@ kd: 36
 - 2026-10-17 06:19 UTC director: brief written, READY (2026-10-17 morning sweep: no unclaimed KD ≤ 20 hoodie/sweatshirt phrase with volume left in RankHero; this is the KD 21–40 band, highest volume first; keyword measured this run).
 - 2026-10-17 06:45 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363170730288 (launch colors per brief, S-3XL, price per brief with no compare-at, category, tags per brief incl. hub tags, SEO, FAQs; keyword skull hoodie /3600 /36). Copy written from the brief's art description: re-check every sentence against the real art when it exists. Zip placement: full art on the back + small left-chest copy. Check at art time that the dark linework reads on Navy. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane E.
+- 2026-10-18 02:40 UTC builder [E]: REVIEW. Art: 1 Recraft call (try 1 kept: party-hat tattoo-flash skull, horn, confetti, two roses), DEAD SERIOUS in Alfa Slab One cream with a dark keyline via compose-print (no model lettering), solid fill plus a thin cream halo so the dark linework reads on Navy. Back print 11.1 x 15.8 in at BW 1560 BT 40 plus a left-chest skull (file via pf-zip, CW 450); sync 482403190 12/12. Ash + Navy both read at phone size (words legible on both). Media: back + front per color, variants linked to the back view. Copy rewritten to the real art (cream slab capitals, confetti, roses; 'hand-drawn' dropped), 6 FAQs 46-51 words incl. Dec 8. Cover registry 556 try 1: over-the-shoulder back view, face in frame, hood visible, full print and both words readable, nothing over it (a neon DEAD SERIOUS sign sits in the window behind him: director may crop if unwanted). Variant-photo audit clean; audit --handle only 'not visible'. fal ~$0.1.
