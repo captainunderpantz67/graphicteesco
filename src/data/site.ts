@@ -54,7 +54,7 @@ export const site = {
     returnsPolicy: 'Wrong size? Within 30 days of delivery we’ll send one replacement in a new size free, and you don’t have to mail the first one back. If an order arrives misprinted, damaged or defective, send us a photo within 30 days and we’ll reprint it free or refund you. Lost packages are covered the same way within 30 days of the estimated delivery date.', // best-practice exchange policy, Sam 2026-10-16
     returnWindowDays: 30, // from returnsPolicy: "within 30 days of delivery"
     returnCountry: 'US',
-    crewOffer: null, // flip to { minQty: 10, percentOff: 15, href: '/group-shirts/' } once the Shopify discount is live
+    crewOffer: { minQty: 10, percentOff: 15, href: '/group-shirts/' }, // Shopify automatic discount 'Crew order: 15% off 10+ items' created 2026-10-18 (gid DiscountAutomaticNode/1630755848496)
     hoodiesLive: true, // 2026-10-16 director: first hoodies live (Highland Cow Christmas, Espresso cropped). Claims say "a growing number", not "most".
   } satisfies Facts as Facts,
 };

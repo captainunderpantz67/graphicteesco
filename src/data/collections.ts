@@ -455,6 +455,30 @@ export const tees: Collection[] = [
     ],
     shopifyHandle: 'graphic-tees-for-men',
   },
+  {
+    // Group / bulk-order hub (Sam 2026-10-18). Linked from the homepage and every product page via site.facts.crewOffer.
+    // RankHero 2026-10-18: cousin crew shirts 4,400/35 (17.9K listings) · cousin shirts 1,600/38 · ugly christmas sweater party 5,400/38 ·
+    // family thanksgiving shirts 1,600/51 · turkey trot shirts 720/27. "bulk t shirts" 22,200/10 has no competition count (blended, R2.10): not targeted.
+    slug: 'group-shirts', section: 'tees', name: 'Group & Family Shirts',
+    keyword: 'cousin crew shirts', volume: 4400, kd: 35,
+    title: 'Cousin Crew Shirts & Group Shirts for Family Holidays',
+    description: 'Funny cousin crew shirts, family Thanksgiving tees and ugly sweater party crewnecks for the whole group. Order 10+ items, mix designs and sizes, save 15%.',
+    h1: 'Group & Family Shirts',
+    intro: 'Cousin crew shirts, family Thanksgiving tees and Christmas party crewnecks, made for the whole group. Order 10 or more items, mix any designs and sizes, and 15% comes off automatically at checkout.',
+    sections: [
+      { h2: 'Cousin crew shirts', body: 'Kids Table Alumni is for the cousins who graduated from the folding table and never really left. It comes on a tee and a crewneck, so the whole crew can match without everyone wearing the same thing.' },
+      { h2: 'Family Thanksgiving and turkey trot shirts', body: 'Running the turkey trot as a team, or just showing up for the pie? Mix the Turkey Trot hoodie with the Thanksgiving tees and everyone gets a joke that fits.' },
+      { h2: 'Ugly sweater party and Christmas crew shirts', body: 'For the office party, the friends exchange or the family photo: Technically a Sweater, Attending Under Protest and White Elephant Champion are built for a room full of people who all get the joke.' },
+      { h2: 'How crew orders work', body: 'Add 10 or more items to your cart, any designs, sizes and colors, and the 15% discount applies on its own. Each item is printed to order, so plan about two weeks for production and shipping before your event.' },
+    ],
+    faqs: [
+      { q: 'How do I get the group discount?', a: 'Put 10 or more items in one cart. Any mix of designs, sizes and colors counts, and 15% comes off automatically at checkout. No code needed.' },
+      { q: 'Can everyone in the group get a different size or design?', a: 'Yes. Each item is chosen separately, so the crew can mix tees, crewnecks and hoodies in any sizes and still count toward the 10.' },
+      { q: 'How early should we order for Thanksgiving or Christmas?', a: 'Order about two weeks before your event. Every shirt is printed when you order it, then shipped, so earlier is safer during the holidays.' },
+      { q: 'Can you put our family name or a custom line on the shirts?', a: 'Not yet. Custom names are coming in 2027. For now the crew shop has ready-made designs that work for any family or group.' },
+    ],
+    shopifyHandle: 'group-shirts',
+  },
   seasonal('halloween', 'tees', { slug: 'halloween-shirts', keyword: 'halloween shirts', volume: 22200, kd: 58, product: 'Halloween shirts', twin: 'halloween-hoodies', blurb: 'horror-movie-night, spooky-season and costume-optional designs.',
     extra: [{ q: 'Do you have horror movie shirts?', a: 'We make original horror-inspired designs. We don’t use movie names, characters or logos.' }],
     // Facts only: every line below describes a design that's in the Shopify collection (2026-10-09, 6 designs).
