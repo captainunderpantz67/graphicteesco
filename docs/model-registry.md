@@ -547,8 +547,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 652 | white man, late 30s, short sandy hair, full sandy beard | USED 2026-10-18 — #454 Some Assembly Regretted tee cover (seedream, 2 attempts: 1st had a stray hand and a branded toy box) |
 | 653 | white woman, early 30s, dark curly shoulder-length hair | USED 2026-10-17 — #455 Spin Responsibly crewneck cover (try 2 kept, 2 images; #654 man in same photo) |
 | 654 | Middle Eastern man, early 30s, short dark hair, trimmed beard | USED 2026-10-17 — #455 Spin Responsibly crewneck cover (with #653) |
-| 655 | Black man, late 20s, short twists | RESERVED — #456 Spin Responsibly Tee cover (with #656) |
-| 656 | white woman, late 20s, auburn bob | RESERVED — #456 Spin Responsibly Tee cover (with #655) |
+| 655 | Black man, late 20s, short twists | USED 2026-10-18 — #456 Spin Responsibly tee cover (with #656, seedream 1 attempt) |
+| 656 | white woman, late 20s, auburn bob | USED 2026-10-18 — #456 Spin Responsibly tee cover (with #655) |
 | 657 | Latina woman, mid 40s, chestnut layered blowout, diamond studs | USED 2026-10-17 - #457 Fried Food Is Tradition crewneck cover (seedream, sand, kitchen) |
 | 658 | East Asian woman, late 20s, short choppy pixie cut, small pearl drops | USED 2026-10-18 — #458 Fried Food Is Tradition tee cover (seedream, 1 attempt) |
 | 659 | Native American man, early 30s, long black hair tied back, light stubble | RESERVED — #459 Pedal Pusher Heavyweight Hoodie cover |
