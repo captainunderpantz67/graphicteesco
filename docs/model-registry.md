@@ -623,7 +623,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 433 | (reused as the brief specifies) | USED again 2026-10-17 — #257 Wishbone Champion tee cover redo (seedream, 1 attempt) |
 | 434 | (reused as the brief specifies) | USED again 2026-10-17 — #258 Wishbone Champion crewneck cover redo (seedream, 3 attempts: try 1 white bars top and bottom, try 2 black frame, cropped the frame off the kept image) |
 | 828 | Black woman, late 30s, shoulder-length twist-out curls, tortoiseshell glasses | CLAIMED 2026-10-17 — #501 Do Not Sell My Books Hoodie cover (brief) |
-| 829 | Korean-American man, early 30s, short textured black hair, athletic build, light stubble | CLAIMED 2026-10-17 — #502 Sisyphus Had Bad Programming Hoodie cover (brief) |
+| 829 | Korean-American man, early 30s, short textured black hair, athletic build, light stubble | USED 2026-10-18 - #502 Sisyphus Had Bad Programming hoodie cover (seedream, Sand, gym at dawn) |
 | 830 | Puerto Rican man, mid 50s, short grey crew cut, clean-shaven, tanned, stocky build | USED 2026-10-18 - #503 Breakfast Ball Enthusiast heavyweight hoodie cover (seedream, Storm Blue, first tee at sunrise) |
 | 831 | Nigerian-American man, late 30s, short twists, neatly trimmed beard, medium build | USED 2026-10-18 - #504 Not Cheating Improving My Lie golf hoodie cover (seedream, Navy, driving range, print composited) |
 | 832 | white woman, mid 30s, auburn hair tied back in a ponytail, light freckles | USED 2026-10-18 - #504 Not Cheating Improving My Lie golf hoodie cover (seedream, Navy, driving range, print composited) |

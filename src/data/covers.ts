@@ -483,6 +483,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-national-park-swipe-right-on-public-land-zip-hoodie': { src: '/covers/womens-national-park-swipe-right-on-public-land-zip-hoodie.webp', alt: 'Woman looking back and smiling over her shoulder in a navy Swipe Right on Public Land zip hoodie with the hood down and her braid over the front shoulder, on a canyon-rim overlook trail at sunrise' },
   'unisex-national-park-running-late-bison-traffic-heavyweight-hoodie': { src: '/covers/unisex-national-park-running-late-bison-traffic-heavyweight-hoodie.webp', alt: 'Man and woman in matching storm blue Running Late Bison Traffic heavyweight hoodies with their hands in the pouch pockets beside a vintage station wagon on a two-lane park road with mountains behind' },
   'unisex-raccoon-fine-dumpster-dining-hoodie': { src: '/covers/unisex-raccoon-fine-dumpster-dining-hoodie.webp', alt: 'Man and woman in matching navy Fine Dumpster Dining raccoon hoodies with their hands in the pouch pockets in an alley behind a corner diner at dusk under string lights' },
+  'mens-gym-sisyphus-had-bad-programming-hoodie': { src: '/covers/mens-gym-sisyphus-had-bad-programming-hoodie.webp', alt: 'Man in a sand Sisyphus Had Bad Programming gym hoodie with his hands in the pouch pocket in a busy gym at dawn with a dumbbell rack behind him' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
