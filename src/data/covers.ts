@@ -560,6 +560,8 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-cat-making-biscuits-hoodie': { src: '/covers/womens-cat-making-biscuits-hoodie.webp', alt: 'Woman in a sand Making Biscuits cat hoodie in a sunny window reading nook with a calico cat on a chunky knit blanket beside her' },
   'mens-christmas-bulking-season-oversized-hoodie': { src: '/covers/mens-christmas-bulking-season-oversized-hoodie.webp', alt: 'Man in his late 20s with a high-top fade and thin mustache wears the Bulking Season cream oversized hoodie in a Christmas-decorated gym, hands in the pouch' },
   'womens-crochet-no-i-wont-make-you-one-hoodie': { src: '/covers/womens-crochet-no-i-wont-make-you-one-hoodie.webp', alt: 'Woman in her early 40s with a long braid and round tortoiseshell glasses wears the No I Won\'t Make You One sand hoodie in a yarn shop, hands in the pouch' },
+  'womens-crochet-no-i-wont-make-you-one-hoodie': { src: '/covers/womens-crochet-no-i-wont-make-you-one-hoodie.webp', alt: 'Woman in her early 40s with a long braid and round tortoiseshell glasses wears the No I Won't Make You One sand hoodie in a yarn shop, hands in the pouch' },
+  'mens-christmas-attending-under-protest-hoodie': { src: '/covers/mens-christmas-attending-under-protest-hoodie.webp', alt: 'Man in his mid-50s with a short grey beard wears the Attending Under Protest navy hoodie at a family Christmas party, hands in the pouch' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
