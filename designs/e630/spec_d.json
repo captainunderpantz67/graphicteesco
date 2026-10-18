@@ -1,0 +1,5 @@
+{"art": "art.png", "art_width": 0.78, "canvas": [3600, 4500], "gap": 60, "holes": 2000,
+ "lines": [
+  {"text": "MOM SAID NO?", "font": "Fraunces[SOFT,WONK,opsz,wght].ttf", "axes": [72, 800, 0, 0], "size": 640, "fill": "#4a1f3d", "stroke": 16, "stroke_fill": "#f3e7cf", "tracking": 0.02, "max_width": 0.9, "where": "above"},
+  {"text": "THAT'S CUTE.", "font": "Lobster-Regular.ttf", "size": 800, "fill": "#f26b6b", "stroke": 34, "stroke_fill": "#4a1f3d", "max_width": 0.9, "where": "below"}
+ ]}

@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-18 17:40
+status: REVIEW
 lane: E
 type: new
 id: 630
@@ -27,3 +27,5 @@ kd: 16
 ---
 ## Log
 - 2026-10-18 07:36 UTC director: brief written, READY (lane E; kd 16; KD ≤ 20 band with garment intent and a measured Dec surge; proof named under the gate).
+- 2026-10-18 builder [E]: built. Art: 1 Recraft call ($0.04, try 1 kept: sly 1950s nana in cat-eye glasses and pearls holding a tall plate of cookies, open cookie jar). MOM SAID NO? Fraunces bold, THAT'S CUTE. Lobster coral #f26b6b (apostrophe and question mark survived), set in compose-print. Two files: Sand on the dark-ink file 1088940206 (plum headline, coral with plum keyline); light file: Navy on 1088940221, headline fill cream #f3e7cf with a plum keyline, art halo 14 px. Print 3191 px wide, FW 1600 TOP 75 (FW 1650 would run 16 px past the 2400 px area at this 0.70 aspect; 1600 is over the 1500 floor). Sand + Navy x S-3XL = 12 variants, 12/12 (Sand 6/6, Navy 6/6 on the right file), sync product 482788415. Mockups both colors + back attached and linked; read both lines at 500 px on both. DRAFT gid 15365709267248 (category aa-1-13-14, $34.99 no compare-at, tags graphic-sweatshirts/sweatshirt/ai-art/intake-done, 5 FAQs 47-54 words incl. Dec 8 and a plain 'fleece crewneck sweatshirt, called a nana sweater' answer, keyword nana sweater 2400/KD16 in line one and meta; kw map updated). Cover registry 970: attempt 1 kept (seedream, Sand sweatshirt, hands empty, porch props clear; first letters M and T clear, chest clean). fal ~$0.1.
+- 2026-10-18 15:56 UTC builder [E]: sync 12/12 confirmed. REVIEW.
