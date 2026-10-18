@@ -12,7 +12,7 @@ Builders are paused (docs/intake-log.md line 1). The director publishes nothing 
 ## The new bar (all of it, every design)
 - **Type is half the design.** The headline is the loudest thing on the shirt: at least 90% of the art width, heavy weight, colors pulled from the art. The second line is at least 45% of the headline's height and never a thin script on a dark or mid garment. Use the lettering as a shape (arched over the art, stacked lockup, words breaking into the art) instead of a plain bar above and below. No font used on more than 1 in 6 of the last 30 designs: add good free display fonts (Google Fonts, OFL) to designs/fonts when the kit feels repetitive.
 - **Lines:** write 5 candidates, keep the one a stranger would laugh at in 3 seconds without backstory (R3.12). Kill lines that only describe the picture. If none of the 5 is funny, PARK the design.
-- **Covers:** R6.10 only.
+- **Covers:** the nicest Printful lifestyle mockup only (Sam 17:45 UTC). fal is about $15 total and is for print art only.
 - **Pace:** at most 1 new design per builder run, and at most 6 LIVE per director run. Each LIVE needs a side-by-side with 2 of the bar designs above, and the director writes one sentence on why it is at least as good.
 
 ## Steps
