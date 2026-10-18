@@ -13,3 +13,6 @@ Things that need Sam's laptop and Chrome. Sam opens the computer about once a da
 - Shopify admin: check Shopify Catalog / Agentic Storefronts (feeds ChatGPT, Copilot, Perplexity). Turn it on if it's off, and make sure product links point to graphicteesco.com, not the myshopify address.
 - Merchant Center: once connected, fill the conversational attributes (question_and_answer, related_product for tee/crewneck/hoodie twins) and check the price-competitiveness report.
 - Shopify Admin → Settings → Policies: paste the new Refund and Shipping policies from docs/policies/shopify-policies-2026-10-16.md (connector lacks permission). Then Search Console return settings to match: 30-day free size exchange.
+
+## Added 2026-10-18 (SEO audit)
+- Shopify: install a free product-review app (Judge.me free plan or Shopify Product Reviews) so reviews and star ratings can show; tell Claude when it's in and Claude adds aggregateRating to the product schema.

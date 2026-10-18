@@ -1946,15 +1946,14 @@
   },
   "unisex-christmas-christmas-on-the-lake-graphic-tee": {
    "claimed": [
-    "christmas fishing"
+    "christmas fishing shirt"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "christmas fishing",
-     "volume": 1900,
-     "kd": 16
-    }
-   ]
+   "gaps_measured": [],
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "christmas fishing",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "unisex-christmas-christmas-on-the-lake-crewneck-sweatshirt": {
    "claimed": [
@@ -3849,17 +3848,16 @@
   },
   "unisex-thanksgiving-totally-a-pilgrim-hoodie": {
    "claimed": [
-    "pilgrim turkey"
+    "pilgrim turkey hoodie"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "pilgrim turkey",
-     "volume": 480,
-     "kd": 30
-    }
-   ],
+   "gaps_measured": [],
    "measured": "2026-10-17",
-   "note": "moved off 'turkey hoodie' (owned by laying-low-till-friday hoodie), director 2026-10-17"
+   "note": "moved off 'turkey hoodie' (owned by laying-low-till-friday hoodie), director 2026-10-17",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "pilgrim turkey",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "womens-christmas-snow-problem-graphic-tee": {
    "claimed": [
@@ -3925,16 +3923,21 @@
   },
   "womens-embroidered-on-my-own-time-snail-hoodie": {
    "claimed": [
-    "embroidered snail"
+    "snail shirt"
    ],
    "gaps_measured": [
     {
-     "phrase": "embroidered snail",
-     "volume": 390,
-     "kd": 31
+     "phrase": "snail shirt",
+     "volume": 260,
+     "kd": 49
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "embroidered snail",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "mens-embroidered-eau-de-campfire-hoodie": {
    "claimed": [
@@ -4016,16 +4019,15 @@
   },
   "womens-mama-i-have-followers-duck-crewneck-sweatshirt": {
    "claimed": [
-    "mama duck"
+    "mama duck sweatshirt"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "mama duck",
-     "volume": 3600,
-     "kd": 14
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "mama duck",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "womens-thanksgiving-spill-the-gravy-graphic-tee": {
    "claimed": [
@@ -4342,16 +4344,21 @@
   },
   "mens-hunting-long-beard-short-temper-camo-hoodie": {
    "claimed": [
-    "turkey hunting"
+    "turkey hunting shirt"
    ],
    "gaps_measured": [
     {
-     "phrase": "turkey hunting",
-     "volume": 9900,
-     "kd": 22
+     "phrase": "turkey hunting shirt",
+     "volume": 390,
+     "kd": 31
     }
    ],
-   "measured": "2026-10-17"
+   "measured": "2026-10-17",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "turkey hunting",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "mens-hunting-im-not-yelling-im-bugling-camo-hoodie": {
    "claimed": [
@@ -4407,16 +4414,15 @@
   },
   "womens-hunting-deer-stand-princess-pink-camo-hoodie": {
    "claimed": [
-    "pink camo"
+    "pink camo hunting hoodie"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "pink camo",
-     "volume": 12100,
-     "kd": 30
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "pink camo",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "mens-hunting-deer-camp-no-signal-camo-sweatshirt": {
    "claimed": [
@@ -4576,16 +4582,21 @@
   },
   "womens-mama-i-have-followers-duck-hoodie": {
    "claimed": [
-    "duck mama"
+    "duck shirt"
    ],
    "gaps_measured": [
     {
-     "phrase": "duck mama",
+     "phrase": "duck shirt",
      "volume": 3600,
-     "kd": 14
+     "kd": 52
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "duck mama",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "womens-bookish-plot-twist-cropped-hoodie": {
    "claimed": [
@@ -5739,16 +5750,15 @@
   },
   "unisex-thanksgiving-turkey-trot-hoodie": {
    "claimed": [
-    "turkey trot"
+    "turkey trot hoodie"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "turkey trot",
-     "volume": 60500,
-     "kd": 14
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "turkey trot",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "unisex-y2k-side-quests-only-hoodie": {
    "claimed": [
@@ -5985,16 +5995,15 @@
   },
   "womens-anime-slurp-responsibly-half-zip": {
    "claimed": [
-    "ramen cat"
+    "ramen cat half zip"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "ramen cat",
-     "volume": 4400,
-     "kd": 32
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "ramen cat",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "mens-anime-kaiju-naps-zip-hoodie": {
    "claimed": [
@@ -6089,16 +6098,15 @@
   },
   "womens-western-steer-skull-wildflowers-hoodie": {
    "claimed": [
-    "cow skull"
+    "cow skull hoodie"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "cow skull",
-     "volume": 22200,
-     "kd": 32
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "cow skull",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "womens-nurse-charting-is-my-cardio-hoodie": {
    "claimed": [
@@ -6128,55 +6136,63 @@
   },
   "womens-embroidered-whisk-taker-matcha-hoodie": {
    "claimed": [
-    "matcha lover"
+    "embroidered matcha hoodie"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "matcha lover",
-     "volume": 18100,
-     "kd": 32
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "matcha lover",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "womens-embroidered-cherry-picked-cropped-hoodie": {
    "claimed": [
-    "cherry bow"
+    "cherry bow hoodie"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "cherry bow",
-     "volume": 4400,
-     "kd": 40
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "cherry bow",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "womens-retro-loose-goose-cropped-hoodie": {
    "claimed": [
-    "roller skating"
+    "roller skate shirt"
    ],
    "gaps_measured": [
     {
-     "phrase": "roller skating",
-     "volume": 450000,
-     "kd": 26
+     "phrase": "roller skate shirt",
+     "volume": 480,
+     "kd": 46
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "roller skating",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "unisex-anime-sharing-is-not-my-love-language-oversized-hoodie": {
    "claimed": [
-    "samurai cat"
+    "samurai cat shirt"
    ],
    "gaps_measured": [
     {
-     "phrase": "samurai cat",
-     "volume": 8100,
-     "kd": 19
+     "phrase": "samurai cat shirt",
+     "volume": 1000,
+     "kd": 28
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "samurai cat",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "womens-anime-soft-petals-sharp-opinions-cropped-hoodie": {
    "claimed": [
@@ -6193,16 +6209,21 @@
   },
   "unisex-anime-ignoring-you-professionally-heavyweight-hoodie": {
    "claimed": [
-    "maneki neko"
+    "maneki neko shirt"
    ],
    "gaps_measured": [
     {
-     "phrase": "maneki neko",
-     "volume": 201000,
-     "kd": 20
+     "phrase": "maneki neko shirt",
+     "volume": 70,
+     "kd": 45
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "maneki neko",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "womens-y2k-gold-star-for-leaving-the-house-hoodie": {
    "claimed": [
@@ -6518,17 +6539,16 @@
   },
   "mens-christmas-some-assembly-regretted-crewneck-sweatshirt": {
    "claimed": [
-    "christmas gifts for dad"
+    "dad christmas sweatshirt"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "christmas gifts for dad",
-     "volume": 60500,
-     "kd": 6
-    }
-   ],
+   "gaps_measured": [],
    "measured": "2026-10-17",
-   "note": "director: a future dad gift guide may take this head term; the product then moves to its own long-tail"
+   "note": "director: a future dad gift guide may take this head term; the product then moves to its own long-tail",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "christmas gifts for dad",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "unisex-hanukkah-spin-responsibly-crewneck-sweatshirt": {
    "claimed": [
@@ -6714,16 +6734,21 @@
   },
   "womens-football-mom-promised-to-behave-graphic-tee": {
    "claimed": [
-    "football mom outfit"
+    "football mom t shirt"
    ],
    "gaps_measured": [
     {
-     "phrase": "football mom outfit",
-     "volume": 390,
-     "kd": 31
+     "phrase": "football mom t shirt",
+     "volume": 3600,
+     "kd": 49
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "football mom outfit",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "mens-gym-sisyphus-had-bad-programming-graphic-tee": {
    "claimed": [
@@ -6863,35 +6888,39 @@
   },
   "womens-embroidered-ghost-one-more-chapter-club-crewneck-sweatshirt": {
    "claimed": [
-    "bookish ghost",
+    "bookish shirt",
     "reading ghost"
    ],
    "gaps_measured": [
     {
-     "phrase": "bookish ghost",
-     "volume": 2400,
-     "kd": 38
-    },
-    {
      "phrase": "reading ghost",
      "volume": 260,
      "kd": 66
+    },
+    {
+     "phrase": "bookish shirt",
+     "volume": 4400,
+     "kd": 55
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "bookish ghost",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "womens-nurse-embroidered-night-shift-silly-goose-crewneck-sweatshirt": {
    "claimed": [
-    "night shift nurse"
+    "night shift nurse sweatshirt"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "night shift nurse",
-     "volume": 4400,
-     "kd": 34
-    }
-   ],
-   "measured": "2026-10-17"
+   "gaps_measured": [],
+   "measured": "2026-10-17",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "night shift nurse",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "unisex-nurse-calm-face-loud-brain-crewneck-sweatshirt": {
    "claimed": [
@@ -7100,22 +7129,22 @@
   },
   "mens-golf-retired-working-on-my-short-game-zip-hoodie": {
    "claimed": [
-    "golf retirement gift",
+    "retired golf zip hoodie",
     "golf gift for men"
    ],
    "gaps_measured": [
-    {
-     "phrase": "golf retirement gift",
-     "volume": 590,
-     "kd": 28
-    },
     {
      "phrase": "golf gift for men",
      "volume": 22200,
      "kd": 46
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "golf retirement gift",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "womens-national-park-my-type-geothermally-active-oversized-hoodie": {
    "claimed": [
@@ -7163,16 +7192,11 @@
   },
   "womens-national-park-swipe-right-on-public-land-zip-hoodie": {
    "claimed": [
-    "protect public lands",
+    "protect public lands zip hoodie",
     "public lands shirt",
     "outdoorsy sweatshirt"
    ],
    "gaps_measured": [
-    {
-     "phrase": "protect public lands",
-     "volume": 260,
-     "kd": 32
-    },
     {
      "phrase": "public lands shirt",
      "volume": 70,
@@ -7184,7 +7208,12 @@
      "kd": 47
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "protect public lands",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "unisex-national-park-running-late-bison-traffic-heavyweight-hoodie": {
    "claimed": [
@@ -7269,17 +7298,15 @@
   },
   "womens-golden-retriever-i-brought-you-a-sock-crewneck-sweatshirt": {
    "claimed": [
-    "golden retriever gifts"
+    "golden retriever crewneck"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "golden retriever gifts",
-     "volume": 2400,
-     "kd": 50,
-     "source": "RankHero via scripts/keyword-gap.py"
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "golden retriever gifts",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "womens-dachshund-currently-burrowed-crewneck-sweatshirt": {
    "claimed": [
@@ -7486,55 +7513,51 @@
   },
   "womens-golden-retriever-i-brought-you-a-sock-heavyweight-hoodie": {
    "claimed": [
-    "dog owner gifts"
+    "golden retriever hoodie"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "dog owner gifts",
-     "volume": 5400,
-     "kd": 58
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "dog owner gifts",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "mens-chess-calculated-mostly-hoodie": {
    "claimed": [
-    "chess gifts"
+    "funny chess hoodie"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "chess gifts",
-     "volume": 2400,
-     "kd": 38
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "chess gifts",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "womens-clocked-it-said-nothing-hoodie": {
    "claimed": [
-    "cat lover gifts"
+    "cat lover hoodie"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "cat lover gifts",
-     "volume": 14800,
-     "kd": 59
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "cat lover gifts",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "unisex-running-pace-leisurely-zip-hoodie": {
    "claimed": [
-    "running gifts"
+    "funny running zip hoodie"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "running gifts",
-     "volume": 22200,
-     "kd": 44
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "running gifts",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "mens-welder-if-you-can-step-over-it-graphic-tee": {
    "claimed": [
@@ -7672,16 +7695,21 @@
   },
   "mens-welder-stacks-dimes-wants-more-dimes-graphic-tee": {
    "claimed": [
-    "welder gift"
+    "welder t shirt"
    ],
    "gaps_measured": [
     {
-     "phrase": "welder gift",
-     "volume": 1900,
-     "kd": 34
+     "phrase": "welder t shirt",
+     "volume": 720,
+     "kd": 27
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "welder gift",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "womens-bookish-do-not-sell-my-books-hoodie": {
    "claimed": [
@@ -7751,22 +7779,21 @@
   },
   "mens-fishing-love-language-hoodie": {
    "claimed": [
-    "fishing gifts for dad",
     "funny fishing hoodie"
    ],
    "gaps_measured": [
-    {
-     "phrase": "fishing gifts for dad",
-     "volume": 1000,
-     "kd": 24
-    },
     {
      "phrase": "funny fishing hoodie",
      "volume": 70,
      "kd": 50
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "fishing gifts for dad",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "womens-hockey-cold-rink-hot-takes-hoodie": {
    "claimed": [
@@ -7815,16 +7842,15 @@
   },
   "mens-grandpa-i-fix-things-after-naps-hoodie": {
    "claimed": [
-    "grandpa birthday gift"
+    "funny grandpa hoodie"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "grandpa birthday gift",
-     "volume": 6600,
-     "kd": 13
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "grandpa birthday gift",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "mens-christmas-it-looked-smaller-at-the-farm-graphic-tee": {
    "claimed": [
@@ -8151,16 +8177,15 @@
   },
   "mens-christmas-white-elephant-champion-hoodie": {
    "claimed": [
-    "funny white elephant gifts"
+    "white elephant hoodie"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "funny white elephant gifts",
-     "volume": 22200,
-     "kd": 10
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "funny white elephant gifts",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "unisex-pitbull-velvet-hippo-social-club-hoodie": {
    "claimed": [
@@ -8177,54 +8202,51 @@
   },
   "womens-mimi-says-yes-hoodie": {
    "claimed": [
-    "gifts for mimi",
     "mimi hoodie"
    ],
    "gaps_measured": [
-    {
-     "phrase": "gifts for mimi",
-     "volume": 1600,
-     "kd": 17
-    },
     {
      "phrase": "mimi hoodie",
      "volume": 90,
      "kd": 45
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "gifts for mimi",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "womens-gigi-because-grandma-sounded-old-hoodie": {
    "claimed": [
-    "gifts for gigi",
     "gigi hoodie"
    ],
    "gaps_measured": [
-    {
-     "phrase": "gifts for gigi",
-     "volume": 1600,
-     "kd": 17
-    },
     {
      "phrase": "gigi hoodie",
      "volume": 140,
      "kd": 36
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "gifts for gigi",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "mens-gym-twelve-labors-zero-cardio-hoodie": {
    "claimed": [
-    "gym gifts for men"
+    "funny gym hoodie"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "gym gifts for men",
-     "volume": 5400,
-     "kd": 14
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "gym gifts for men",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "womens-fishing-out-fished-him-again-graphic-tee": {
    "claimed": [
@@ -8288,100 +8310,100 @@
   },
   "mens-welder-if-you-can-step-over-it-hoodie": {
    "claimed": [
-    "gifts for welders"
+    "funny welder hoodie"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "gifts for welders",
-     "volume": 1900,
-     "kd": 16
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "gifts for welders",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "mens-fishing-you-catching-em-heavyweight-hoodie": {
    "claimed": [
-    "gifts for fishermen"
+    "grumpy fisherman hoodie"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "gifts for fishermen",
-     "volume": 9900,
-     "kd": 30
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "gifts for fishermen",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "mens-christmas-bulking-season-oversized-hoodie": {
    "claimed": [
-    "gym christmas"
+    "gym christmas hoodie"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "gym christmas",
-     "volume": 720,
-     "kd": 27
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "gym christmas",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "womens-crochet-no-i-wont-make-you-one-hoodie": {
    "claimed": [
-    "gifts for crochet lovers",
+    "crochet hoodie",
     "crafter gifts"
    ],
    "gaps_measured": [
-    {
-     "phrase": "gifts for crochet lovers",
-     "volume": 1600,
-     "kd": 17
-    },
     {
      "phrase": "crafter gifts",
      "volume": 2400,
      "kd": 16
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "gifts for crochet lovers",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "mens-christmas-attending-under-protest-hoodie": {
    "claimed": [
-    "grumpy christmas"
+    "grumpy christmas hoodie"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "grumpy christmas",
-     "volume": 720,
-     "kd": 27
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "grumpy christmas",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "womens-cat-oops-anyway-cropped-hoodie": {
    "claimed": [
-    "cat owner gifts"
+    "cat cropped hoodie"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "cat owner gifts",
-     "volume": 1900,
-     "kd": 43
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "cat owner gifts",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "womens-teacher-indoor-recess-survivor-zip-hoodie": {
    "claimed": [
-    "teacher clothes"
+    "funny teacher shirt"
    ],
    "gaps_measured": [
     {
-     "phrase": "teacher clothes",
-     "volume": 9900,
-     "kd": 32
+     "phrase": "funny teacher shirt",
+     "volume": 1900,
+     "kd": 58
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "teacher clothes",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "womens-nurse-embroidered-night-shift-silly-goose-hoodie": {
    "claimed": [
@@ -8517,22 +8539,22 @@
   },
   "mens-mechanic-no-i-cant-just-take-a-quick-look-graphic-tee": {
    "claimed": [
-    "gifts for mechanics",
+    "funny mechanic shirt",
     "mechanic gifts"
    ],
    "gaps_measured": [
-    {
-     "phrase": "gifts for mechanics",
-     "volume": 3600,
-     "kd": 22
-    },
     {
      "phrase": "mechanic gifts",
      "volume": 3600,
      "kd": 35
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "gifts for mechanics",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "mens-mechanic-no-i-cant-just-take-a-quick-look-hoodie": {
    "claimed": [
@@ -8569,23 +8591,21 @@
   },
   "mens-car-guy-i-speak-fluent-rattle-graphic-tee": {
    "claimed": [
-    "car guy gifts"
+    "car guy shirt"
    ],
    "gaps_measured": [
     {
-     "phrase": "car guy gifts",
-     "volume": 9900,
-     "kd": 29,
-     "source": "RankHero via scripts/keyword-gap.py"
-    },
-    {
-     "phrase": "auto mechanic shirt",
-     "volume": 320,
-     "kd": 32,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "phrase": "car guy shirt",
+     "volume": 590,
+     "kd": 47
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "car guy gifts",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "mens-drummer-the-neighbors-love-me-hoodie": {
    "claimed": [
@@ -8642,16 +8662,15 @@
   },
   "womens-christmas-capybara-tangled-unbothered-graphic-tee": {
    "claimed": [
-    "capybara christmas"
+    "capybara christmas shirt"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "capybara christmas",
-     "volume": 5400,
-     "kd": 31
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "capybara christmas",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "womens-christmas-capybara-tangled-unbothered-crewneck-sweatshirt": {
    "claimed": [
@@ -9038,16 +9057,15 @@
   },
   "womens-christmas-capybara-tangled-unbothered-zip-hoodie": {
    "claimed": [
-    "capybara merch"
+    "capybara zip hoodie"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "capybara merch",
-     "volume": 2400,
-     "kd": 18
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "capybara merch",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "unisex-dachshund-banned-from-stairs-hoodie": {
    "claimed": [
@@ -9064,55 +9082,51 @@
   },
   "mens-golf-i-play-army-golf-zip-hoodie": {
    "claimed": [
-    "golf gifts for him"
+    "golf zip hoodie"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "golf gifts for him",
-     "volume": 2900,
-     "kd": 16
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "golf gifts for him",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "mens-christmas-it-looked-smaller-at-the-farm-oversized-hoodie": {
    "claimed": [
-    "xmas gifts for him"
+    "christmas oversized hoodie"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "xmas gifts for him",
-     "volume": 14800,
-     "kd": 10
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "xmas gifts for him",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "unisex-national-park-switchbacks-build-character-heavyweight-hoodie": {
    "claimed": [
-    "national park merch"
+    "heavyweight hiking hoodie"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "national park merch",
-     "volume": 2400,
-     "kd": 16
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "national park merch",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "mens-gym-rack-your-weights-respectfully-oversized-hoodie": {
    "claimed": [
-    "fitness gifts for men"
+    "gym oversized hoodie men"
    ],
-   "gaps_measured": [
-    {
-     "phrase": "fitness gifts for men",
-     "volume": 3600,
-     "kd": 14
-    }
-   ],
-   "measured": "2026-10-18"
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "fitness gifts for men",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "womens-softball-mom-travel-ball-took-my-saturdays-zip-hoodie": {
    "claimed": [
@@ -9347,35 +9361,40 @@
   },
   "womens-fishing-out-fished-him-again-zip-hoodie": {
    "claimed": [
-    "fishing wife",
+    "fishing wife zip hoodie",
     "fisherwoman"
    ],
    "gaps_measured": [
-    {
-     "phrase": "fishing wife",
-     "volume": 110000,
-     "kd": 4
-    },
     {
      "phrase": "fisherwoman",
      "volume": 1900,
      "kd": 22
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "fishing wife",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "mens-dog-dad-unpaid-doorman-half-zip": {
    "claimed": [
-    "dog daddy"
+    "dog dad hoodie"
    ],
    "gaps_measured": [
     {
-     "phrase": "dog daddy",
-     "volume": 6600,
-     "kd": 32
+     "phrase": "dog dad hoodie",
+     "volume": 170,
+     "kd": 54
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {
+    "date": "2026-10-18",
+    "from": "dog daddy",
+    "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
+   }
   },
   "mens-welder-grinder-and-paint-department-hoodie": {
    "claimed": [
