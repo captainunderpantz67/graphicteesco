@@ -2,6 +2,7 @@ PAUSED 2026-10-18 16:55 UTC — Claude (Sam: quality went backwards: pasted mock
 2026-10-18 16:41 UTC — [B] REVIEW #385 Men's Fishing Fisher of Men, Mostly Bass Half Zip (14/14 synced; hand re-lettered, cover 576)
 2026-10-18 16:46 UTC — [C] Builder run: #638 pit bull zip hoodie built except the cover (DRAFT 15365752521008, 12/12 synced, mockups on); PARKED: 2 fal couple covers failed (hood over letters, garbled script) and Printful zip lifestyle is single-person only, needs a director ruling. Lock released.
 RUNNING lane A since 2026-10-18 16:33 UTC
+2026-10-18 17:08 UTC — [A] REVIEW #616 Men's Christmas Drew Your Name. Panicked. tee (secret santa gift 74,000 / KD 46; 6 colors, 42 variants, $24.99; fal $0.10; sheet docs/review/616.jpg).
 2026-10-18 16:51 UTC — [A] REVIEW #618 Women's Christmas Santa Gets All the Credit tee (funny christmas tee 8,100 / KD 56; 6 colors, 36 variants, $24.99; fal $0.22 incl. 3 cover tries; sheet docs/review/618.jpg).
 2026-10-18 16:37 UTC — [C] Builder run: fal cap was topped up (+$6), so built #637 Men's Welder Grinder & Paint Department Hoodie (twin of #530): DRAFT 15365749997872, 12/12 synced, mockups, cover, sheet docs/review/637.jpg, REVIEW. Lock released.
 2026-10-18 16:22 UTC — [D] Director follow-up: #632 Not Weird, Just the Goalie tee reached REVIEW during the run; reviewed and LIVE (audit PASS 0 warn; copy fixed: no kids'-size hint (R8.6), 'adult-league' for 'beer-league'). 7 LIVE this run. No lock held.

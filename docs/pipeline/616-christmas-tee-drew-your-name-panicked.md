@@ -1,4 +1,4 @@
-status: ART-NEXT
+status: REVIEW
 lane: A
 type: new
 id: 616
@@ -30,3 +30,4 @@ kd: 9
 - 2026-10-18 14:06 UTC Claude: KEYWORD FIX before build (R2.10). The primary is a gift-guide search ("christmas gifts for ..."): huge volume, single-digit KD and no competition count on RankHero, the same false signal as "park sweatshirt". People searching it want idea lists, not one shirt. Builder: re-target the primary to a real shirt phrase with a competition count (try e.g. "funny christmas shirt", "secret santa gift", "matching christmas shirts", "christmas shirt for brother" and pick the best measured one, not claimed in docs/product-keyword-map.json). The gift phrase may appear once in copy as a secondary. Then build as normal.
 - 2026-10-18 16:53 UTC builder [A]: primary re-targeted per R2.10 to 'secret santa gift' (74,000 / KD 46, comp 177,632); 'secret santa gifts for men' once as secondary. Art try 1 ($0.04). Print file 1088974085 (3064x3586), FW 1650 TOP 75. DRAFT gid 15365755699504 (6 light colors x 7 = 42, $24.99, no compare-at). Dark-ink file only, light colors only; no cream fills (headline red with cream keyline). Sync 482799311 started.
 - 2026-10-18 16:55 UTC builder [A]: mockups for all 6 colors attached to variants + back; cover fal try 1 ($0.06): man, empty hands, all words clear, nothing over print; registry #956 USED; sheet made. Waiting on sync 42/42.
+- 2026-10-18 17:08 UTC builder [A]: REVIEW. Sync 482799311 verified 42/42 on default file 1088974085 (FW 1650 TOP 75), back logo 1080398177. FAQs 5 at 47-53 words, order-by Dec 8 (answer-first). Primary 'secret santa gift' used 3x; 'secret santa gifts for men' once. Light file: none needed (no cream fill; cream keyline only, light colors only). Ink in copy named from mockups: red, mustard, green, black. Art 200%: whites inside the art (shirt, paper slips, hat trim) are open (garment shows) by design, outlined in black. Cover: man, empty hands, nothing over print, all letters clear at 200%, chest clean (AI photo). design-crops/variant-photo-audit run after publish.
