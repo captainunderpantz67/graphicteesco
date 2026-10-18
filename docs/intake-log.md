@@ -1,5 +1,5 @@
+2026-10-18 05:32 UTC — [D] Director run: inbox nothing new. Reviewed 17 REVIEW items: 7 LIVE (#281 #284 #525 #533 #535 #573 #575; all ACTIVE + Online Store/Headless/Google & YouTube, audit --handle PASS 0 warn, Printful file checked on every variant; copy fixes: #281 no longer says candy-stripe, #575 'Jesus' capitalised, #573 no shrug, #525 line position, #533/#535 keyword cut from 4 to 3 uses). 10 REDO: lane A lettering REDOs #149 #247 #248 #249 #250 #253 #254 still have the OLD plaid/gingham file on every Printful variant (re-link never finished) and stale review sheets (checked from live covers + Shopify mockups instead); #149/#249 covers smeared where the old print was erased, #248 stray mark, #250 hair over a; #534 WALLET EMPTY clipped off every mockup; #536 'Don'ttalk' spacing + ghost door; #332 hair over the bow. Rulebook: R6.9 clean-erase line and R7.7 re-link proof line (3+ hits each). #573 #575 to reference/best. 12 briefs #586-#597 (A: capybara Christmas tee + crewneck twin, raccoon Christmas tee + crewneck twin; B: capybara, wrestling mom, wrestling, feral cat, possum, otter, corgi, hockey tees); KD ≤ 20 band empty for these niches, so KD 21-35 first then measured KD 36+ over 1,000/month; registry 926-937, keyword map updated. Stale RUNNING lines for lanes A/B (Oct 17 23:5x) and C (01:55) cleared. READY: A 13, B 12, C 13, E 12. No Telegram (not a digest run, nothing needs Sam). Lock released.
 RUNNING lane E since 2026-10-18 05:15 UTC
-RUNNING director since 2026-10-18 05:14 UTC
 2026-10-18 05:03 UTC — [B] REVIEW #573 Women's Fishing Out-Fished Him. Again. Tee (DRAFT, synced 36/36, 6 colors; fal $0.14).
 2026-10-18 05:20 UTC — [A] [A] 470 Excused From Small Talk tee built (twin of 469, DTG), Printful link queued 482688507; REVIEW once 42/42 synced
 2026-10-18 05:14 UTC — [A] [A] 389 Seasonally Overbooked tee built (twin of 388), Printful link queued 482687699; REVIEW once 42/42 synced
@@ -61,7 +61,6 @@ RUNNING lane C since 2026-10-18 04:25 UTC
 2026-10-18 02:11 UTC — [C] REVIEW #508 Women's National Park Two Queens Roaming hoodie (REDO: grey smudge between the women repainted; fal $0). Also REVIEW #505 Only Golf for the Outfits (REDO: skin filled, synced 10/10).
 2026-10-18 02:10 UTC — [C] REVIEW #503 Men's Golf Breakfast Ball Enthusiast heavyweight hoodie (REDO: Enthusiast bigger and bolder, synced 14/14; fal $0).
 2026-10-18 04:36 UTC — [E] REVIEW #365 (REDO: cover redone, no back seam, no sign lettering, composite).
-RUNNING lane C since 2026-10-18 01:55 UTC
 2026-10-18 02:06 UTC — [A] REVIEW #275 Men's Christmas White Elephant Champion tee (DRAFT, 47/47 synced, 7 colors, cover 1 try; fal ~$0.10).
 2026-10-18 04:21 UTC — [E] REVIEW #514 (REDO: MEMBERS ONLY dropped, new mockups, cover re-composited on both people).
 2026-10-18 02:04 UTC — [C] REVIEW #439 Women's Tennis My Backhand Has Opinions cropped hoodie (REDO: racket strings rebuilt, ball made round; synced 10/10; fal $0).
@@ -125,10 +124,8 @@ RUNNING lane C since 2026-10-18 01:55 UTC
 2026-10-18 00:10 UTC — [B] REVIEW #512 Women's Golden Retriever – I Brought You a Sock Crewneck (DRAFT, synced 12/12, Sand + Sport Grey; fal $0.10).
 2026-10-18 00:37 UTC — [A] REVIEW #454 Men's Christmas Some Assembly Regretted tee (DRAFT, 42/42 synced, 6 colors, cover 2 tries; fal ~$0.09).
 2026-10-18 00:05 UTC — [B] REVIEW #511 Unisex Golf – Sorry About Your Windshield Crewneck (DRAFT, synced 12/12, Sand + Sport Grey; fal $0.12).
-RUNNING lane A since 2026-10-17 23:59 UTC
 
 2026-10-18 00:10 UTC — [A] REVIEW #474 Feed Store Fashion Week hoodie REDO (keyline on Saturday, 7 a.m.; new mockups, composite cover; no fal).
-RUNNING lane B since 2026-10-17 23:57 UTC
 
 2026-10-17 23:44 UTC — [H] Helper run: Telegram inbox empty (getUpdates returned 0 updates; no pause or resume, nothing to consume). Cohesion audit NOT run: the audit script was blocked by the sandbox permission check, so no audit count, no scripted meta/SEO/collection fixes, and no price-bar check this run. Site freshness and the one-time category check also not run (blocked/not reached). Stuck check not run. Needs a human look: run node scripts/cohesion-audit.mjs in a session where it is allowed. Lock released.
 

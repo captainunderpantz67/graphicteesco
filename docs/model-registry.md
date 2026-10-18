@@ -718,3 +718,15 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 923 | Ukrainian-American man, early 30s, shaggy light-brown hair tucked behind his ears, short stubble, slim build | CLAIMED 2026-10-18 — #583 The Neighbors Love Me Tee cover (brief) |
 | 924 | Mexican-American man, early 60s, thick grey hair combed back, grey horseshoe mustache, sturdy build | CLAIMED 2026-10-18 — #584 I Speak Fluent Rattle Tee cover (brief) |
 | 925 | Black man, about 19, short twists, small silver hoop earring, slim build | CLAIMED 2026-10-18 — #585 The Neighbors Love Me Hoodie cover (brief) |
+| 926 | Black woman, late 20s, short natural curls with a gold clip, small gold hoops, freckles | CLAIMED 2026-10-18 — #586 Capybara Tangled. Unbothered. Tee cover (brief) |
+| 927 | Filipino-American woman, early 40s, long straight black hair tied in a low bun, small pearl studs, warm smile lines | CLAIMED 2026-10-18 — #587 Capybara Tangled. Unbothered. Crewneck Sweatshirt cover (brief) |
+| 928 | man AND woman together: Lebanese-American man, mid 30s, short dark wavy hair, trimmed beard, medium build; Irish-American woman, early 30s, auburn hair in a loose braid tied back, freckles | CLAIMED 2026-10-18 — #588 Raccoon Here for the Wrapping Paper Tee cover (brief) |
+| 929 | man AND woman together: Ghanaian-American man, late 20s, short twists, clean-shaven, tall slim build; Korean-American woman, late 20s, shoulder-length black hair with curtain bangs tied back | CLAIMED 2026-10-18 — #589 Raccoon Here for the Wrapping Paper Crewneck Sweatshirt cover (brief) |
+| 930 | Vietnamese-American woman, mid 20s, long dark hair in a low ponytail tied back, round glasses | CLAIMED 2026-10-18 — #590 I'm the Calm Friend Tee cover (brief) |
+| 931 | Mexican-American woman, early 40s, dark brown hair in a high ponytail, small gold hoops, athletic build | CLAIMED 2026-10-18 — #591 Tournament Day. Voice Gone. Tee cover (brief) |
+| 932 | Samoan-American man, about 19, short black hair with a fade, broad stocky build, clean-shaven | CLAIMED 2026-10-18 — #592 Six Minutes. Feels Like Sixty. Tee cover (brief) |
+| 933 | Polish-American woman, early 30s, messy blonde top bun, no makeup look, oversized gold hoops | CLAIMED 2026-10-18 — #593 Feral Before 9 A.M. Tee cover (brief) |
+| 934 | man AND woman together: Puerto Rican woman, mid 20s, curly dark hair pulled back, septum ring; white man, mid 20s, shaggy brown hair under a beanie, light stubble | CLAIMED 2026-10-18 — #594 Eats Ticks. Screams Anyway. Tee cover (brief) |
+| 935 | Japanese-American woman, late 30s, chin-length black bob tucked behind her ears, small silver studs | CLAIMED 2026-10-18 — #595 Floating Through the Week Tee cover (brief) |
+| 936 | white woman, early 50s, silver-blonde shoulder-length hair tied back, reading glasses pushed up on her head | CLAIMED 2026-10-18 — #596 Built Like a Dinner Roll Tee cover (brief) |
+| 937 | French-Canadian-American man, early 40s, short light-brown hair, full trimmed beard, broad build | CLAIMED 2026-10-18 — #597 Here for the Post-Game Nachos Tee cover (brief) |

@@ -1,0 +1,29 @@
+status: READY
+lane: A
+type: new
+id: 588
+handle: unisex-christmas-raccoon-here-for-the-wrapping-paper-graphic-tee
+kd: 48
+---
+## Unisex Christmas – Raccoon Here for the Wrapping Paper Tee
+- **Blank:** Bella+Canvas 3001 (Printful #71), unisex/men's tee, lightweight 4.2 oz, 100% combed ring-spun cotton (heathers contain polyester). Never "midweight". Copy facts from the Printful spec only (R7.1).
+- **Style:** A (R4.2), vintage to the edges, no badge, frame, border, rounded scene card or dark patch (R4.1, including the 2026-10-18 rounded-card line). New art: one Recraft v4 illustration call (--n 1), picture only, no words; at most 3 tries; if all are weak, PARK it and say why.
+- **Text on shirt (real fonts via scripts/compose-print.py, never drawn by the image model; spelled exactly):** HERE FOR THE (Alfa Slab One, cream with a dark keyline, above) / WRAPPING PAPER. (Alfa Slab One, larger, faded red with a cream keyline, below). Solid ink (R5.3.10). Knock out counters (R, A, P).
+- **Hook:** A raccoon in a crooked Santa hat drags a bulging trash bag stuffed with torn wrapping paper, bows and ribbon across the snow on Christmas morning, looking delighted. HERE FOR THE WRAPPING PAPER. Raccoons love trash; Christmas morning makes the most of it. Dry and self-aware (R3.4 men's and unisex).
+- **Three lines considered (R3.1):** "Here for the Wrapping Paper." · "Christmas Cleanup Crew" · "Santa's Unpaid Intern" (picked: the picture and the line need no explaining; the second is a slogan, the third is overused).
+- **Joke QC (R3.7) / R3.12:** Outsider gets it in 3 seconds (raccoon + trash bag of wrapping paper); family-clean; no trademark; 5 words. R3.12 passes.
+- **Why it's not taken:** christmas raccoon and trash panda listings show lights-and-tree raccoons (95 favorites) and meme text; no wrapping-paper scene. Builder checks under 50 listings (R3.7.2).
+- **Design gate (5 parts, docs/research/how-to-research-a-design.md):** search: trash panda shirt 1,300 / KD 48 (RankHero 2026-10-18; competition 34,332; KD 36+ over 1,000 a month, allowed under R2.5) · proof: 'If I'm Moody Give Me Foody' raccoon sweatshirt 1,666 favorites and 'Stay Trashy' possum/raccoon sweatshirt 161 (same format: trash animal + self-aware line) · insider: raccoons and trash, the whole internet's joke · joke type: animal with an attitude · look: 1950s Christmas card print, faded red, pine green, cream, grey fur · gift test: Secret Santa, the family member who collects the wrapping paper.
+- **Art prompt (Recraft v4, one image per call):** Vintage 1950s Christmas card screen-print illustration: a delighted raccoon in a crooked Santa hat walking upright and dragging a bulging trash bag overflowing with torn red and green wrapping paper, curly ribbon and gift bows across a small patch of snow, a few loose bows on the ground behind it. Faded red, pine green, cream, grey and black fur, soft black linework, halftone shading, worn screen-print texture, ragged broken edges, the raccoon and the bag are the shape (no straight ground strip). No text, no letters, no logos, no background shape, no frame, no border, no badge, no rounded rectangle, no dark patch.
+- **Colors (R7.2):** Cream-ink file for Black, Navy, Dark Grey Heather, Heather Forest, Maroon, Red if the art reads; dark-ink file for Natural, Soft Cream, Ash, Athletic Heather. ≤12 colors x 8 sizes.
+- **Primary keyword:** trash panda shirt: 1,300 / KD 48 (RankHero via scripts/keyword-gap.py, 2026-10-18, director). Unowned. 'christmas raccoon' belongs to the crewneck twin #589; the tee may use 'raccoon Christmas shirt' in plain words but never as its primary. Supporting, once: raccoon shirt (1,300 / KD 59).
+- **Print size:** FW 1650 TOP 75 (tee).
+- **Copy:** line one = the line + who wears it + when (R9.11), said plainly: no superlative opener built around the keyword (R8.3). Primary keyword in the title or SEO title, the first sentence and once in the meta; at most 3 times in all (the audit warns at 4). Describe only what is in the art; never say we drew it ("Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, weight, wash care, gift fit, Christmas order-by about Dec 8, free size exchange).
+- **Cover:** registry #928 (man AND woman together: Lebanese-American man, mid 30s, short dark wavy hair, trimmed beard, medium build; Irish-American woman, early 30s, auburn hair in a loose braid tied back, freckles), CLAIMED. Scene: a living room on Christmas morning, torn wrapping paper on the floor, a lit tree; both wear the tee, hands empty or holding a gift bow at the side; braid behind the shoulder. Props never over the print (R6.5); hair tied back or behind the shoulders (R6.9). Printful mockup as `--design` (--n 1). Max 2 attempts.
+- **Title / handle:** "Unisex Christmas – Raccoon Here for the Wrapping Paper Tee" / `unisex-christmas-raccoon-here-for-the-wrapping-paper-graphic-tee` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** christmas-shirts, funny-christmas-shirts, christmas-shirts-for-men, graphic-tees-for-men, graphic-tees-for-women, funny-graphic-tees, ai-art, intake-done (unisex: cover MUST show a man and a woman, R7.5).
+- **Price:** $24.99 (R12.1 tee), NO compare-at.
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d). Before REVIEW: Printful default file checked on every variant and logged (R7.7, 2026-10-18 line); cover chest zoomed to 200% (R6.9 clean-erase line).
+---
+## Log
+- 2026-10-18 05:32 UTC director: brief written, READY (lane A raccoon Christmas pair; KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month; proof seller named under the gate).
