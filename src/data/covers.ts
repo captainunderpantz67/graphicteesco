@@ -501,6 +501,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-christmas-bulking-season-graphic-tee': { src: '/covers/mens-christmas-bulking-season-graphic-tee.webp', alt: 'Man in an old-school gym decorated for Christmas with a small tinsel tree and string lights, chalk on his hands, wearing the Bulking Season Santa tee' },
   'womens-christmas-official-tree-topper-graphic-tee': { src: '/covers/womens-christmas-official-tree-topper-graphic-tee.webp', alt: 'Woman in a cozy living room with a decorated Christmas tree and an orange tabby cat on the sofa arm beside her wearing the Official Tree Topper tee' },
   'unisex-golf-sorry-about-your-windshield-hoodie': { src: '/covers/unisex-golf-sorry-about-your-windshield-hoodie.webp', alt: 'Man and woman in matching sand Sorry About Your Windshield golfer hoodies, smiling side by side at a golf club practice green at golden hour with vintage cars behind a white fence' },
+  'unisex-homebody-university-of-staying-in-oversized-hoodie': { src: '/covers/unisex-homebody-university-of-staying-in-oversized-hoodie.webp', alt: 'Man and woman in matching navy University of Staying In oversized hoodies, smiling side by side in a cozy living room on a rainy evening' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
