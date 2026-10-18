@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-18 00:25 UTC
+status: REVIEW
 lane: E
 type: new
 id: 472
@@ -31,3 +31,4 @@ kd: 24
 - 2026-10-17 17:40 UTC director: brief written, READY (lane B; gate-format brief, keyword measured this run).
 - 2026-10-17 17:32 UTC builder [B]: ART-NEXT (design gate pending): full Shopify DRAFT gid://shopify/Product/15363937960240 (Sand + Navy x S-3XL = 12, Gildan 18000 embroidered, $39.99 no compare-at, category sweatshirts, keyword work sweatshirt, SEO within limits, 6 FAQs 40-60 words, order-by Dec 8). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane E.
+- 2026-10-18 00:55 UTC builder [E]: REVIEW. Art: first Recraft script try garbled ('my' doubled, flourishes), so words set in a real hand font (Caveat Brush, two lines 'per my' / 'last email', deviation from the one-line brief to fill 4 in at legible x-height) via PIL, plus a Recraft paper plane (isolated from its messy trail); emb-prep 4.00 x 2.18 in, strokes 1.66 mm, thread #A67843 old gold (reads on Sand and Navy mockups; weaker on Sand, kept). Printful file 1088588157, sync 482534432 12/12 via pf-emb-sync (back logo kept), mockups pf-emb-mockup (Sand + Navy front, back). Copy updated to match the real art (two lines, plane beside line one, no dotted path). Cover registry #676/#677 try 1 (Sand mockup as --design, true-scale prompt); raw had baked white bars, cropped; both wear crewnecks, nothing over print, print reads. Variant-photo audit clean, audit --handle only 'not visible'. fal ~$0.2 this item.

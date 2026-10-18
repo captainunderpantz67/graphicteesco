@@ -570,8 +570,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 673 | white woman, late 30s, honey-blonde shoulder-length waves, tortoiseshell glasses | USED 2026-10-18 — #469 Excused From Small Talk cover |
 | 674 | Indian-American woman, mid 20s, long straight black hair, small nose stud | RESERVED — #470 Excused From Small Talk Tee cover |
 | 675 | Black man, early 40s, close-cropped hair, salt-and-pepper beard | USED 2026-10-17 — #471 Attending Under Protest crewneck cover (seedream, navy, hands in pockets) |
-| 676 | South Asian woman, early 30s, sleek low bun, small gold hoops | RESERVED — #472 Per My Last Email Crewneck cover (with #677) |
-| 677 | white man, mid 30s, short dark hair, stubble | RESERVED — #472 Per My Last Email Crewneck cover (with #676) |
+| 676 | South Asian woman, early 30s, sleek low bun, small gold hoops | USED 2026-10-18 — #472 Per My Last Email Crewneck cover (with #677) |
+| 677 | white man, mid 30s, short dark hair, stubble | USED 2026-10-18 — #472 Per My Last Email Crewneck cover (with #676) |
 | 678 | Latina woman, late 20s, long curly dark hair half up | RESERVED — #473 Per My Last Email Hoodie cover (with #679) |
 | 679 | East Asian man, late 20s, short textured hair | RESERVED — #473 Per My Last Email Hoodie cover (with #678) |
 | 680 | white woman, early 30s, sun-streaked light-brown braid, felt western hat, light freckles | USED 2026-10-17 — #474 cover (womens-western-feed-store-fashion-week-hoodie)
