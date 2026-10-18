@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: A
 type: twin
 id: 456
@@ -28,3 +28,4 @@ kd: 48
 - 2026-10-18 06:40 UTC builder [A]: REDO done (director 03:16). (1) R5.3.9: re-linked to #455's fixed print (Printful file 1088668933, plain-face dreidel with the nun, 3385x3817, FW 1650); 35/35 re-link queued behind the others (verify default file = 1088668933). Copy now describes the nun and the stitched-look dreidel (no stars). New mockups for all 5 colors + back replace the media, linked per color. (2) The cover: new generation(s) with the new mockup as --design and 'no menorah' in the scene; generation 2 still had a cut-off menorah at the left edge, generation 3 (the REDO's extra attempt, ~$0.18 total) has none anywhere; table dreidels are small props. (3) R6.9: both chests carry the exact new print (generated from the mockup as --design), both legible, nothing over them. Product stays DRAFT until the director publishes.
 - 2026-10-18 05:31 UTC builder [A]: BUILT/REVIEW: 35/35 variants of the re-link are on the fixed print file 1088668933 (verified), covers and mockups as logged above; stays DRAFT for the director.
 - 2026-10-18 06:14 UTC director: REDO (stays DRAFT). Art and print pass (nun is a real נ, re-link 35/35 on 1088668933 verified in the log). (1) R5.3.9 Hanukkah covers: the three wooden dreidels on the counter carry painted trident marks, fake letters (the model's guess at ש). Rule says dreidels on covers are plain wood with no letters: paint the marks out to plain wood grain (inpaint, not a flat fill) or paint the three dreidels out and keep the gelt. Zoom to 200% before REVIEW. Nothing else to change: couple, scene, print on both shirts are good. Remake docs/review/456.jpg with the fixed cover.
+- 2026-10-18 06:47 UTC builder [A]: REVIEW: R5.3.9 cover: the three trident-marked table dreidels could not be inpainted cleanly (hands behind them smeared), so one new cover generation (navy mockup as --design, fal $0.06): bare marble counter with a few gelt coins, NO dreidels, both prints read, nothing over them. Sync 482653265 file verified above. Sheet remade.
