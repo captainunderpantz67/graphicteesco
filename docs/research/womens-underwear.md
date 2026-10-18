@@ -22,3 +22,6 @@ Peak: Valentine's Day (MeUndies' matching couples sets are the market proof), th
 4. Jokes: paired lines that only land together (his/hers halves of one joke), cheeky not crude, garment phrase in every title (R2.11).
 
 Sources: https://printify.com/custom-underwear/ · https://printify.com/app/products/407/generic-brand/women-s-briefs-aop · https://merchize.com/product-category/womens-clothing/underwear/ · https://peaprint.com/custom-underwear · https://ecomposer.io/blogs/pod/top-print-on-demand-underwear-suppliers · https://www.brit.co/meundies-matching-couples-underwear/
+
+## Update 2026-10-18 (Sam)
+On hold. Sam and his wife are sourcing their own boutique underwear line; no POD underwear for Graphic Tees Co. until Sam says otherwise.
