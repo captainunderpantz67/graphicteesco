@@ -6,6 +6,7 @@ import { getAllProducts, formatPrice, type Product } from '../../lib/shopify';
 import { productSchema, breadcrumbs, faqPage } from '../../lib/schema';
 import { productFaqs } from '../../lib/product-faqs';
 import { all, pathFor } from '../../data/collections';
+import keywordMap from '../../../docs/product-keyword-map.json';
 import { coverFor } from '../../data/covers';
 import { linkableSlugs } from '../../lib/linkable';
 import designCrops from '../../data/design-crops.json';
@@ -87,7 +88,15 @@ const niche = (p.title.split(/\s[–-]\s/)[0] ?? '').toLowerCase();
 const typeWord = isHoodie ? 'Hoodie' : isSweat ? 'Crewneck Sweatshirt' : 'Tee';
 const h1Design = designName;
 const nicheLabel = (p.title.split(/\s[–-]\s/)[0] ?? '').replace(/^(women's|men's|unisex)\s+/i, '').trim();
-const h1Niche = (designName.toLowerCase().includes(nicheLabel.toLowerCase()) ? '' : nicheLabel + ' ') + typeWord;
+// SEO audit 2026-10-18: the H1 subline carries the product's measured primary keyword (was in only 32% of H1s).
+// Only clothing-intent phrases are used; anything else falls back to niche + type.
+const kwEntry = (keywordMap as { products: Record<string, { claimed?: string[] }> }).products[p.handle];
+const primaryKw = kwEntry?.claimed?.[0] ?? '';
+const APPAREL = /\b(shirts?|tees?|t-shirts?|t shirt|tshirts?|hoodies?|sweatshirts?|crewnecks?|sweaters?|zip|pullovers?|half zip|quarter zip|pump cover)\b/i;
+const titleCase = (s: string) => s.replace(/\b([a-z])/g, (m) => m.toUpperCase()).replace(/\bT Shirt\b/, 'T-Shirt');
+const h1Niche = primaryKw && APPAREL.test(primaryKw) && !designName.toLowerCase().includes(primaryKw.toLowerCase())
+  ? titleCase(primaryKw)
+  : (designName.toLowerCase().includes(nicheLabel.toLowerCase()) ? '' : nicheLabel + ' ') + typeWord;
 const VIEWS: [string, string][] = [['left-front', 'three-quarter view'], ['right-front', 'three-quarter view'], ['front', 'front view'], ['back', 'back view'], ['left', 'side view'], ['right', 'side view']];
 const altFor = (img: { url: string; altText?: string | null }) => {
   if (img.altText && !/^product mockup$/i.test(img.altText.trim())) return img.altText;
