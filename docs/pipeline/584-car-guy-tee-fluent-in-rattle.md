@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 584
@@ -31,3 +31,4 @@ shopify: gid://shopify/Product/15364733272368
 - 2026-10-18 05:25 UTC builder [B]: WIP: DRAFT gid://shopify/Product/15364733272368 (3001 #71, 10 colors x S-4XL = 70, $24.99 no compare-at, category aa-1-13-8, tags per brief; keyword car guy gifts in line one and meta, said plainly with no superlative opener, auto mechanic shirt not used). Art: 1 Recraft call kept (man with stethoscope on the engine block of an old pickup, drop light, rag; no logos on the grille). I SPEAK / FLUENT RATTLE. Alfa Slab One via compose-print, FLUENT RATTLE. 100% of the art width. Two files: cream-halo + cream/mustard-keylined for Black/Navy/Dark Grey Heather/Heather Forest/Military Green/Brown/Maroon, navy + dark-mustard ink for Natural/Ash/Athletic Heather; FW 1650 TOP 75; all 10 mockups + back; both lines read at 300 px on every color. Cover registry 924, try 1: every word reads, hands empty, no stethoscope or tools, old pickup hood up behind him. Audit-local PASS. Sync queued; status goes to REVIEW at 70/70.
 
 - [B] 2026-10-18 builder: sync DONE, R7.7 default-file check on Printful: 70/70 synced; default file 49 on 1088709857 and 21 on 1088709846 (dark/light ink), back logo on all. Variant-photo audit clean. Status REVIEW.
+- 2026-10-18 08:19 UTC director: LIVE. Sheet reviewed (R3, R4/R5, R6, R8, R13.3); copy fix: line one "One of the car guy gifts" (R8.3) rewritten; FAQs de-stuffed of the product name, short fit FAQ merged. ACTIVE + Online Store, Headless, Google & YouTube; cohesion-audit --handle PASS 0 warn.
