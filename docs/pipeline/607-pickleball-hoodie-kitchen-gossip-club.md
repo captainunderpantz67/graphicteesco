@@ -1,4 +1,5 @@
 status: BUILDING [C] 2026-10-18 07:46 UTC
+shopify: gid://shopify/Product/15364905238832
 lane: C
 type: new
 id: 607
@@ -27,3 +28,4 @@ kd: 38
 ---
 ## Log
 - 2026-10-18 06:26 UTC director: brief written, READY (lane C; kd 38; KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month or with a measured December surge; proof named under the gate).
+- 2026-10-18 07:50 UTC builder [C]: art 1 Recraft call kept (three women, visors, pearls, net, ball; no text). compose-print with solid + KITCHEN faded red/cream keyline, GOSSIP CLUB navy/cream keyline (cream fill on the Navy file, which also has a cream halo around the art): Printful 1088759133 Navy, 1088759136 Sand; docs/print-files/607-pickleball-hoodie-*.png. FW 1500 TOP 0, 1,734 px high, above the pouch. DRAFT gid 15364905238832 (12 variants, $39.99, no compare-at, hoodies category). FAQs 5 x 46-52 words, order-by Dec 8. fal $0.04 art.
