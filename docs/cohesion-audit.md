@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-18 09:48 UTC
+# Cohesion audit — 2026-10-18 10:45 UTC
 
-575 live products checked · **0 errors** · 29 warnings · 27 products with findings
+583 live products checked · **0 errors** · 30 warnings · 28 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -89,3 +89,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Men's Pirate – Pillaging Is a Young Man's Game Hoodie `mens-pirate-pillaging-is-a-young-mans-game-hoodie`
 - **WARN** "pirate hoodie" appears 11× in the copy (keyword stuffing). → Use it once or twice, naturally.
+
+### Women's Volleyball Mom – 7 A.M. Check-In Tee `womens-volleyball-mom-seven-am-check-in-graphic-tee`
+- **WARN** No meta description. → Write one ≤ 155 chars.
