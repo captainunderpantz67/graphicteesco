@@ -16,3 +16,7 @@ Things that need Sam's laptop and Chrome. Sam opens the computer about once a da
 
 ## Added 2026-10-18 (SEO audit)
 - Shopify: install a free product-review app (Judge.me free plan or Shopify Product Reviews) so reviews and star ratings can show; tell Claude when it's in and Claude adds aggregateRating to the product schema.
+
+## Search Console indexing log (Claude, daily ~10)
+- 2026-10-18: requested golf-hoodies, national-park-hoodies (both already indexed; recrawl for new products), womens-capybara-out-of-office-soaking-oversized-hoodie, womens-knitting-one-more-row-hoodie, womens-bookish-plot-twist-cropped-hoodie (all "Discovered - currently not indexed", sitemap was the only referrer). Already indexed with valid merchant listing: mens-hunting-sit-wait-snack-camo-hoodie.
+- Next: the 11 new niche collection pages as the director ships them, then KD<=22 products by volume (seo audit list).
