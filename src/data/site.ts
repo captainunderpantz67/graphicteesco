@@ -16,6 +16,9 @@ export interface Facts {
   returnWindowDays: number | null; // days after delivery to report a misprint/damage
   returnCountry: string | null; // ISO 3166-1 country the policy applies to
   hoodiesLive: boolean; // at least one hoodie is for sale — gates every "also on a hoodie" claim
+  // Crew (bulk) order offer. null = hidden everywhere. Set it ONLY once the matching Shopify automatic discount
+  // exists (Sam approved 15% off 10+ items on 2026-10-18; he creates it in Shopify admin).
+  crewOffer: { minQty: number; percentOff: number; href: string } | null;
 }
 
 const NAME = 'Graphic Tees Co.'; // confirmed by Sam 2026-10-02 (also the Shopify store name)
@@ -51,6 +54,7 @@ export const site = {
     returnsPolicy: 'Wrong size? Within 30 days of delivery we’ll send one replacement in a new size free, and you don’t have to mail the first one back. If an order arrives misprinted, damaged or defective, send us a photo within 30 days and we’ll reprint it free or refund you. Lost packages are covered the same way within 30 days of the estimated delivery date.', // best-practice exchange policy, Sam 2026-10-16
     returnWindowDays: 30, // from returnsPolicy: "within 30 days of delivery"
     returnCountry: 'US',
+    crewOffer: null, // flip to { minQty: 10, percentOff: 15, href: '/group-shirts/' } once the Shopify discount is live
     hoodiesLive: true, // 2026-10-16 director: first hoodies live (Highland Cow Christmas, Espresso cropped). Claims say "a growing number", not "most".
   } satisfies Facts as Facts,
 };
