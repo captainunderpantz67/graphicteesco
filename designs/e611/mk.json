@@ -1,0 +1,14 @@
+{
+ "5498": {
+  "front:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/f32bd2e57dfd8e8aa1bf63af0f54df1b/unisex-crew-neck-sweatshirt-navy-front-6ad4deb06f744.jpg",
+  "front:Left": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/e783a7d040ed46b559a872ccd0679549/unisex-crew-neck-sweatshirt-navy-left-6ad4deb07056e.jpg",
+  "front:Right": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/9f8390b0b7d258b0b10502201889fb63/unisex-crew-neck-sweatshirt-navy-right-6ad4deb070940.jpg",
+  "back:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/fa007eaff49bc577fcc9fb80aa1fa6d7/unisex-crew-neck-sweatshirt-navy-back-6ad4deb070bd2.jpg"
+ },
+ "16876": {
+  "front:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/430cc6323fa1684e20b01d094688f99e/unisex-crew-neck-sweatshirt-sand-front-6ad4deb070e26.jpg",
+  "front:Left": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/4f86fbec787a09683766aafef7bcb5ef/unisex-crew-neck-sweatshirt-sand-left-6ad4deb071287.jpg",
+  "front:Right": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/9f1d1a567bcf28e74d854e1e50aa9245/unisex-crew-neck-sweatshirt-sand-right-6ad4deb0717eb.jpg",
+  "back:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/28c0a53c94270bc8dafb0cfa70a92c1c/unisex-crew-neck-sweatshirt-sand-back-6ad4deb071b75.jpg"
+ }
+}

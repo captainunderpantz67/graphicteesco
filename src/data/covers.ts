@@ -595,6 +595,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-pickleball-polite-until-the-third-shot-graphic-tee': { src: '/covers/womens-pickleball-polite-until-the-third-shot-graphic-tee.webp', alt: 'Woman in a natural Polite Until the Third Shot pickleball tee standing on an outdoor pickleball court on a bright morning with a water bottle on the bench behind her' },
   'unisex-pickleball-my-partner-says-it-was-out-graphic-tee': { src: '/covers/unisex-pickleball-my-partner-says-it-was-out-graphic-tee.webp', alt: 'Man and woman laughing together in matching navy My Partner Says It Was Out pickleball tees on a sunny community pickleball court, paddles at their sides' },
   'womens-pickleball-booked-solid-crewneck-sweatshirt': { src: '/covers/womens-pickleball-booked-solid-crewneck-sweatshirt.webp', alt: 'Woman in a sand Booked Solid pickleball crewneck sweatshirt standing on a sunny clubhouse patio by the pickleball courts with a thermos on the table beside her' },
+  'womens-tennis-club-mostly-social-crewneck-sweatshirt': { src: '/covers/womens-tennis-club-mostly-social-crewneck-sweatshirt.webp', alt: 'Woman in a sand Tennis Club Mostly Social crewneck sweatshirt standing on an autumn tennis club terrace with courts behind her and a lemonade on the table' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

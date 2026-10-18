@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-18 15:10
+status: REVIEW
 lane: E
 type: new
 id: 611
@@ -27,3 +27,5 @@ kd: 38
 ---
 ## Log
 - 2026-10-18 06:26 UTC director: brief written, READY (lane E; kd 38; KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month or with a measured December surge; proof named under the gate).
+- 2026-10-18 builder [E]: built. Art: 1 Recraft call ($0.04, try 1 kept: two laughing 1960s women in tennis dresses on a bench with lemonades, rackets leaning, ball rolling away). TENNIS CLUB Alfa Slab One navy #1b2a4a above, (mostly social) Lobster red #b8453c with a 34 px cream keyline below (first try in Yellowtail read thin on Navy at 500 px, switched to Lobster and re-uploaded), art halo 12 px, set in compose-print. Print 3107 x 3964 px, FW 1650 TOP 75. Light file: one file for Sand and Navy, no cream/white headline fill; read on both mockups at 500 px. Sand + Navy x S-3XL = 12 variants, 12/12 on 1088910164 (default file), sync product 482774889. Mockups both colors + back attached and linked. DRAFT gid 15365662474544 (category aa-1-13-14, $34.99 no compare-at, tags graphic-sweatshirts/sweatshirt/ai-art/intake-done, 5 FAQs 47-50 words incl. Dec 8, keyword tennis sweatshirt 1300/KD38 in line one and meta; kw map updated). Cover registry 947: attempt 1 kept (seedream, Sand sweatshirt, ponytail behind shoulder, hands empty, bag and lemonade clear of the print; first letters T and (m clear, chest clean). fal ~$0.1.
+- 2026-10-18 15:02 UTC builder [E]: sync 12/12 confirmed. REVIEW.
