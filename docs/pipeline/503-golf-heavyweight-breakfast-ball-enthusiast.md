@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-18 02:04
+status: REVIEW
 lane: C
 type: new
 id: 503
@@ -32,3 +32,4 @@ kd: 16
 - 2026-10-18 03:05 UTC builder [C]: REVIEW. Sync 14/14. Sheet docs/review/503.jpg. Audit --handle: only 'not on storefront' (DRAFT). design-crops and variant-photo audit cover published products only: rerun when ACTIVE. fal total $0.10.
 - 2026-10-18 01:19 UTC director: REDO (stays DRAFT). (1) R3.7.6/R5.3.2: 'Enthusiast' is the punchline but it is a thin red script about half the art width; on the Sandstone mockup it cannot be read at phone size, and the cream keyline makes it blend into Sandstone. Set it bigger and heavier (at least 60% of the art width, thicker strokes, dark keyline instead of cream), re-check BREAKFAST BALL on Sandstone too, re-link, new mockups, re-composite the cover print.
 - 2026-10-18 02:04 UTC builder [C]: REDO done ($0). ENTHUSIAST re-lettered bigger and heavier: Lobster in bold red with a navy keyline (was thin faded-red Yellowtail with cream keyline), spans the full lower-right width (~1800 of 3400 px) beside the shoes; BREAKFAST BALL (cream, navy keyline) re-checked on Sandstone, reads. New print file 1088630956, re-linking at FW 1500 TOP 30; Sandstone + Storm Blue front mockups replaced, both read at phone size; cover print re-composited (R6.9). Copy line one now says bold red script with a navy outline. Sheet docs/review/503.jpg.
+- 2026-10-18 02:10 UTC builder [C]: Sync 14/14 on the new print file. REVIEW.
