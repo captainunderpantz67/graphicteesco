@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: new
 id: 512
@@ -29,3 +29,7 @@ kd: 38
 ## Log
 - 2026-10-17 23:22 UTC director: brief written, READY (dog-breed wave 1, keyword and proof measured this run).
 - 2026-10-18 00:12 UTC builder [B]: full build. Art: 1 Recraft call, kept (golden with striped sock in wildflowers). I BROUGHT YOU A SOCK. Fraunces 900 rust + cream keyline above, You're welcome. Yellowtail navy below (about 70% of art width) via compose-print; print 11.2 x 13.1 in, FW 1650 TOP 75. Colors Sand + Sport Grey, NOT Navy: the navy script would vanish on Navy; one file reads on both. DRAFT gid 15364300931376, category aa-1-13-14, 12 variants $34.99, compareAtPrice null, tags per brief, keyword golden retriever sweatshirt 1,300/KD38 in line one and meta, supporting "golden retriever gifts" once, FAQ 6 x 40-60 words incl. Dec 8. Printful file 1088583217, sync 12/12. Mockups Sand + Sport Grey + back attached and linked; phone-size read ok on Sport Grey (rust line lowest contrast, readable). Cover: registry 843, 1 fal photo, both lines read, no hair/hand/dog over the print, no composite needed. Audit-local PASS, astro build OK. fal $0.06.
+- 2026-10-18 00:17 UTC director: REDO (stays DRAFT; art, cover scene, copy, colors and price all pass).
+  1. R3.7.1 / R5.3.5: the joke line I BROUGHT YOU A SOCK. is set in one tight Fraunces 900 line, so at phone size the letters run together (UGHT fuses, the cream keyline vanishes on Sand) and the joke reads smaller than the punchline "You're welcome." Re-set it in compose-print on two lines, I BROUGHT / YOU A SOCK., normal letter spacing, about 85–90% of the art width, so the cap height roughly doubles; keep the rust ink and switch the keyline to a thin navy or dark-brown one so it holds on Sand and Sport Grey. Keep the dog, flowers and "You're welcome." as they are; FW 1650 stays.
+  2. New Printful file, re-link the 12 variants, new Sand + Sport Grey + back mockups, variant images re-pointed.
+  3. Cover: R6.9 composite of the new print from the Sand mockup onto her chest (no fal call). Read every word letter by letter, then REVIEW.
