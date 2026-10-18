@@ -1,9 +1,10 @@
-status: READY
+status: BUILDING [B] 2026-10-18 05:35Z
 lane: B
 type: twin
 id: 585
 handle: mens-drummer-the-neighbors-love-me-hoodie
 kd: 33
+shopify: gid://shopify/Product/15364755521840
 ---
 ## Men's Drummer – The Neighbors Love Me Hoodie
 - **Blank:** Gildan 18500 pullover hoodie (Printful #146), handle ends -hoodie, launch colors Sand + Navy (R7.2 cold-weather rule). Copy facts from the Printful spec only (R7.1).
@@ -27,3 +28,4 @@ kd: 33
 ---
 ## Log
 - 2026-10-18 04:27 UTC director: brief written, READY (lane B; KD ≤ 20 band empty in the sweep, so KD 21–35 buyer phrases, measured this run; proof seller named under the gate).
+- 2026-10-18 05:37 UTC builder [B]: WIP: twin of #583 built. R6.2 lettering check on the source (#583 print files 1088712563 / 1088712589): THE NEIGHBORS and LOVE ME. are Alfa Slab One set by compose-print, the art is a Recraft picture with ragged edges, no ring, panel or typeset line; reused unchanged. DRAFT gid://shopify/Product/15364755521840 (Gildan 18500 #146, Sand + Navy x S-3XL = 12, $39.99 no compare-at, category hoodies, tags per brief, keyword drummer hoodie in line one and meta, 6 FAQs 46-55 words incl. Dec 8). Print FW 1500 TOP 75 above the pouch seam on both mockups (Sand dark-ink file, Navy cream-halo file); mockups Sand + Navy + back read. Cover registry 925, try 1: hood down and visible, hands in the pouch, every word reads. Audit-local PASS. Sync queued; status goes to REVIEW at 12/12.
