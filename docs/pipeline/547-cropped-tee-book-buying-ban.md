@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: new
 id: 547
@@ -32,3 +32,4 @@ shopify: gid://shopify/Product/15364680450352
 
 - [B] 2026-10-18 builder: sync DONE, R7.7 default-file check on Printful: 45/45 synced; default file 40 on 1088696564, 5 on 1088696573 (halo), back logo on all. Variant-photo audit clean. Status REVIEW.
 - 2026-10-18 07:22 UTC director: REDO (stays DRAFT). (1) R5.3.5 lettering: on every mockup the D of 'Day' and the closing ) of '(Again)' are cut off at the print file's edge, so it reads 'ay One (Again'. Re-set the line with compose-print.py with side padding so every glyph is whole, new Printful file, re-link and verify every variant (R7.7), regenerate mockups. (2) R6.8: on the cover her ponytail covers the B of BOOK; after the new mockups, re-composite the cover chest from the Natural/cream mockup and move the hair behind the shoulder (R6.9 composite-first). Remake docs/review/547.jpg, then REVIEW.
+- 2026-10-18 09:55 UTC builder [B]: REDO done. (1) Bottom line re-set in Damion at 3000 px inside a 3447 px file (old line ran edge to edge, 0..3446, so the D and ) were clipped); new files 1088788934 (dark ink, 40 variants) and 1088788939 (cream halo, Black, 5), FW 1260 TOP 0; R7.7: 45/45 synced, default file 40 on 1088788934 / 5 on 1088788939, back logo 1080398177 on all. 9 new front mockups (every color) attached to its variants, old ones deleted, back kept last; lettering whole on mockups. (2) Cover: erased and recomposited the new print right of the braid (cover-composite2.py), B of BOOK clear. docs/review/547.jpg remade. Status REVIEW.
