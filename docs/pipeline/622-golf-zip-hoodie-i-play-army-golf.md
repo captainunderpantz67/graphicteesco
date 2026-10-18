@@ -1,4 +1,5 @@
 status: BUILDING [C] 2026-10-18 08:06 UTC
+shopify: gid://shopify/Product/15364920639792
 lane: C
 type: twin
 id: 622
@@ -23,3 +24,4 @@ kd: 16
 ---
 ## Log
 - 2026-10-18 07:33 UTC director: brief written, READY (lane C hoodie twin of LIVE #556; kd 16, KD ≤ 20 band with gift intent; golf-hoodies and zip-up-hoodies-for-men are both under 14).
+- 2026-10-18 08:09 UTC builder [C]: R6.2 check on #556's print (Printful 1088715576, 3288x3514, docs/print-files/622-army-golf-back.png): LEFT. RIGHT. LEFT. real Alfa Slab with dark keyline, I play army golf. real Yellowtail with cream keyline, no ring/panel/badge/card; the fairway edges are worn grass (no smooth run over 1 in), so no ragged-edge pass; counters (R, a, g, o) closed; no dark hole on Ash or White (skin and sky knocked out to the garment, read light). Colors Ash + White (the print needs light fleece). Chest copy = the whole scene band without words (docs/print-files/622-army-golf-chest.png, 2880x2664), not the golfer alone: he stands on the fairway between the trees, so a tighter cut would leave straight edges (same as #506/#312 precedent). Back BW 1560 BT 225 = 1,667 px high, chest CW 525. Mockups front + back on both colors (450 px read: LEFT. RIGHT. LEFT. and the script line read). DRAFT gid 15364920639792 (12 variants S-3XL, $44.99, no compare-at, hoodies category, tags per brief). FAQs 5 x 48-52 words, order-by Dec 8.
