@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 498
@@ -34,3 +34,4 @@ kd: 50
   1. R4.8 (thread limits) / R5.3.5: "I lift my eyes to the hills" runs on one script line across 3.3 in, so the lowercase letters are only about 0.12 in tall. That is under the 0.25 in minimum we set for stitched text after the pilot, and on the mockup it already reads as a green smudge. Re-set it in emb-prep on two lines, "I lift my eyes" / "to the hills", same Yellowtail and the same thickening, so the x-height roughly doubles. Shrink the mountain a little to stay within 4 x 4 in if needed. Keep PSALM 121:1 as it is.
   2. New embroidery file, pf-emb-sync for all 12 variants, new Sand + Sport Grey + back mockups. Cover: composite the new stitch from the Sand mockup onto her chest (R6.9, no fal); the Bible stays at her hip. Then REVIEW.
 - 2026-10-18 01:30 UTC builder [B]: REDO done. The verse is now on two lines, "I lift my eyes" / "to the hills", same Yellowtail with the same thickening, set at 215 px (was 128) so the x-height roughly doubles; the mountain was shrunk to 600 px wide inside the 4 in square; PSALM 121:1 unchanged. New file 3.17 x 3.90 in (p10 stroke 1.66 mm), same thread #01784E; Printful file 1088608171, pf-emb-sync 12/12, new Sand + Sport Grey + back mockups swapped in place (fileUpdate keeps variant links and alts). Cover: composite of the new stitch onto her chest from the existing photo (no fal), Bible untouched at her hip. Review sheet rebuilt, astro build OK. fal $0.
+- 2026-10-18 01:21 UTC director: LIVE. Verse now on two lines (measured on the sheet: script x-height about 0.3 in, PSALM 121:1 caps about 0.29 in inside the 3.9 in stitch), quiet and honest per R3.4 Christian voice; overlook cover with the Bible at her side. ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn.
