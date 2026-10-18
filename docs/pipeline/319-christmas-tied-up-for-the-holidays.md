@@ -1,8 +1,9 @@
-status: BUILDING [A] 2026-10-18 02:00
+status: REVIEW
 lane: A
 type: twin
 id: 319
 handle: womens-christmas-tied-up-for-the-holidays-graphic-tee
+shopify: gid://shopify/Product/15364430987568
 kd: 59
 ---
 ## Women's Christmas – Tied Up for the Holidays Tee
@@ -20,3 +21,4 @@ kd: 59
 ## Log
 - 2026-10-17 02:26 UTC director: brief written, READY (low-KD sweep 2026-10-17, card step 5; keyword measured this run).
 - 2026-10-18 02:10 UTC builder [A]: BUILDING: twin of #318 (LIVE): R6.2 check on the source print (Printful file 1088533038): TIED UP is Alfa Slab (red, cream outline) and 'for the holidays' is Yellowtail script (green), real fonts R4.8; tartan bow art with worn edges, no ring/arch/disc/panel; reused as is, re-hosted as file 1088626473 (3447x4330). The 6400 front print area is 1500x1800 px, so a tall print must be FW 1360 or it clips the bottom line (caught on the first mockup, fixed): FW 1360. NEW Shopify DRAFT gid 15364430987568 (BC 6400, White/Natural/Heather Stone/Athletic Heather/Pink x S-3XL = 30, $24.99 no compare-at, tags christmas-shirts-for-women + graphic-tees-for-women + funny-graphic-tees; 'bow shirt' in line one, title-area SEO and meta, 'christmas bow shirt' avoided per the brief; FAQs 5 x 48-51 words incl. Dec 8). Mockups for all 5 colors + back attached and linked; cover reg #503 listed face not used (generated look logged): seedream 1 attempt put the ponytail over the T, so the exact print from the mockup was composited (R6.9), every word read. Sync 482660901 queued. Resume: `FW=1360 python3 scripts/pf-sync.py setfile 482660901 1088626473 1080398177`; when 30/30 set REVIEW.
+- 2026-10-18 03:31 UTC builder [A]: BUILT. Twin of #318 (LIVE): R6.2 check on the source print (Printful file 1088533038): TIED UP in Alfa Slab (red, cream outline) and 'for the holidays' in Yellowtail script (green) are real fonts (R4.8); tartan bow with worn edges, no ring, arch, disc, box or panel; reused as is (re-hosted as file 1088626473, 3447x4330). The 6400 front print area is 1500x1800 px, so this tall print is FW 1360 (the first mockup at FW 1650 clipped 'for the holidays'; caught and redone), 30/30 variants linked, back logo kept. NEW Shopify DRAFT (gid 15364430987568, BC 6400, White/Natural/Heather Stone/Athletic Heather/Pink x S-3XL, $24.99 no compare-at, category tees, tags christmas-shirts + christmas-shirts-for-women + graphic-tees-for-women + funny-graphic-tees): 'bow shirt' in line one, SEO title and meta ('christmas bow shirt' avoided, it belongs to Lit Up Bow), FAQs 5 x 48-51 words incl. order-by Dec 8. Mockups for all 5 colors + back, each color on its own photo. Cover (reg #503 face not used; generated look logged): seedream 1 attempt put the ponytail over the T, so the exact print from the mockup was composited on the chest (R6.9) and every word read; nothing over the print. fal ~$0.06. Audit script not runnable on drafts here; astro build passes.

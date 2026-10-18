@@ -4,6 +4,8 @@
 2026-10-18 03:24 UTC — [B] REVIEW #545 Women's Gym – Mid-Set. Not Interested. Tee (DRAFT, synced 36/36, 6 light colors; fal $0.10).
 2026-10-18 03:24 UTC — [B] REVIEW #544 Men's Gym – Rack Your Weights. Respectfully. Tee (DRAFT, synced 35/35, 5 light colors; fal $0.10).
 2026-10-18 03:19 UTC — [B] REVIEW #530 Grinder & Paint Department tee REDO (half-disc ground broken up, 35/35, composite cover; fal $0).
+2026-10-18 03:31 UTC — [A] REVIEW #319 Women's Christmas Tied Up for the Holidays tee (NEW DRAFT twin, 30/30 synced, 5 colors, composite cover; fal ~$0.06).
+RUNNING director since 2026-10-18 02:13 UTC
 2026-10-18 03:23 UTC — [A] REVIEW #390 Unisex Christmas gnome tee, line I'll Be Pleasant Till New Year's (DRAFT, 42/42 synced, 6 colors, couple cover 1 try; fal ~$0.12).
 2026-10-18 03:08 UTC — [C] REVIEW #560 Men's Christmas White Elephant Champion hoodie (synced 12/12). Built #564 Men's Gym Twelve Labors Zero Cardio hoodie (sync running; fal $0.06). #554 #552 #561 syncs running.
 2026-10-18 03:06 UTC — [C] REVIEW #501 Women's Bookish Do Not Sell My Books hoodie (REDO: AT MY FUNERAL. now one bold line under the books, 86% of the width; synced 12/12). Built #561 Unisex Pitbull Velvet Hippo Social Club hoodie (sync running; fal $0.06). #560 #554 #552 syncs running.
