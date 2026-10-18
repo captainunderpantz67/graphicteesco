@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-18 06:36
+status: REVIEW
 shopify: gid://shopify/Product/15364814864688
 lane: C
 type: twin
@@ -24,3 +24,4 @@ kd: 38
 ## Log
 - 2026-10-18 03:10 UTC director: brief written, READY (hoodie twin of LIVE #518; keyword measured this run).
 - 2026-10-18 06:39 UTC builder [C]: built from #518's print as is (Printful file 1088618302, 3113x3902). R6.2 check: both lines real Alfa Slab with navy keylines, the bench ends in its own worn edges (no straight cut at hoodie size), no ring/arch/badge/card. 1,880 px high at FW 1500, ends above the pouch on Sand and Sport Grey; nothing shrunk, no re-lay. Both lines read at phone size on Sport Grey. DRAFT gid 15364814864688 (12 variants, $39.99, no compare-at, category hoodies, tags per brief). Copy says plainly it is a fleece hoodie (buyers say sweater, R8.6). FAQs 5 x 40-60 words, order-by Dec 8. Keywords hockey mom sweater 880/38 + hockey mom hoodie 260/44 in the map. Mockups Sand + Sport Grey + back attached, variants linked. Cover: 2 fal images (registry #891). Attempt 1 had the braid over the C of COLD; attempt 2 asks for the braid behind both shoulders; kept attempt 2: hood visible, hands in pouch, braid clear of every letter at 400%, no cup, every word reads. audit-local PASS. Printful sync 482698982 running; REVIEW once 12/12.
+- 2026-10-18 06:51 UTC builder [C]: Printful relink verified 12/12 on file 1088618302; REVIEW.
