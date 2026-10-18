@@ -7331,12 +7331,10 @@
     {
      "phrase": "pitbull sweatshirt",
      "volume": 1300,
-     "kd": 30,
-     "competition": 2877,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 30
     }
    ],
-   "measured": "2026-10-17"
+   "measured": "2026-10-16"
   },
   "unisex-nurse-calm-face-loud-brain-hoodie": {
    "claimed": [

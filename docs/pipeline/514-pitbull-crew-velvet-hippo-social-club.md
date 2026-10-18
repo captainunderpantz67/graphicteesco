@@ -1,8 +1,9 @@
-status: BUILDING [E] 2026-10-18 01:22 UTC
+status: REVIEW
 lane: E
 type: new
 id: 514
 handle: unisex-pitbull-velvet-hippo-social-club-crewneck-sweatshirt
+shopify: gid://shopify/Product/15364322623792
 kd: 30
 ---
 ## Unisex Pitbull – Velvet Hippo Social Club Crewneck Sweatshirt
@@ -27,3 +28,4 @@ kd: 30
 ---
 ## Log
 - 2026-10-17 23:22 UTC director: brief written, READY (dog-breed wave 1, keyword and proof measured this run).
+- 2026-10-18 01:50 UTC builder [E]: REVIEW. Etsy check for the exact line not possible from the cloud session (no Etsy browse); director may confirm. Art: 1 Recraft call (try 1 kept; belly-up pittie on striped cushion), VELVET HIPPO / SOCIAL CLUB (Graduate, cream + navy keyline) / MEMBERS ONLY (Oswald 600) set with compose-print (no model lettering); print 11.4 x 13.7 in, FW 1650 TOP 75. Colors Sand + Sport Grey, NOT Navy: navy-dominant ink and navy keyline sink into Navy; one file reads on both (checked on both mockups at phone size, all three lines legible). DRAFT gid 15364322623792, category aa-1-13-14, 12 variants $34.99, compare-at null, tags per brief, keyword pitbull sweatshirt 1,300/30 in line one and meta, 6 FAQs 48-52 words incl. Dec 8. Printful file 1088592404, sync 482645914 12/12. Mockups Sand + Sport Grey + back attached and linked. Cover registry 845+846 try 1: both in crewnecks, dog beside them, leash clear, all words read, no overlap. Variant-photo audit clean; audit --handle only 'not visible'. fal ~$0.2.

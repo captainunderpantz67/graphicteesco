@@ -651,3 +651,5 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 854 | Puerto Rican woman, late 20s, curly dark-brown hair in a high puff, small gold hoops, medium build | CLAIMED 2026-10-18 — #520 No, I Won't Make You One Crewneck Sweatshirt cover (brief) |
 | 855 | white woman, early 60s, silver pixie cut, light-blue reading glasses on a beaded chain, slim build | CLAIMED 2026-10-18 — #521 Mimi Says Yes Crewneck Sweatshirt cover (brief) |
 | 856 | Indian-American woman, mid-50s, shoulder-length black hair with a silver streak, small diamond studs, medium build | CLAIMED 2026-10-18 — #522 Because Grandma Sounded Old Crewneck Sweatshirt cover (brief) |
+| 845 | Puerto Rican man, early 30s, short black fade, light stubble, athletic build | USED 2026-10-18 — #514 Velvet Hippo Social Club Crewneck cover (pair 845-846) |
+| 846 | Black woman, early 30s, shoulder-length box braids tied back, small silver hoops, medium build | USED 2026-10-18 — #514 Velvet Hippo Social Club Crewneck cover (pair 845-846) |
