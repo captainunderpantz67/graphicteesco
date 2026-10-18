@@ -1,7 +1,7 @@
 import type { APIRoute } from 'astro';
 import { site } from '../../data/site';
 import { all } from '../../data/collections';
-import { covers } from '../../data/covers';
+import { coverFor } from '../../data/covers';
 import { getAllProducts } from '../../lib/shopify';
 import { SALE_ENDS } from '../../lib/schema';
 import { productFaqs } from '../../lib/product-faqs';
@@ -49,7 +49,7 @@ export const renderFeed = (products: Awaited<ReturnType<typeof feedProducts>>, c
     const desc = text(p.descriptionHtml || p.description).slice(0, 900).replace(/\s+\S*$/, '');
     const col = all.find((c) => p.collections?.includes(c.shopifyHandle) && c.slug !== 'graphic-tees-for-men' && c.slug !== 'graphic-tees-for-women');
     const isSweat = /sweatshirt|crewneck|hood/i.test(p.title + ' ' + p.productType);
-    const cover = covers[p.handle] ? abs(covers[p.handle].src) : null;
+    const cover = coverFor(p.handle) ? abs(coverFor(p.handle)!.src) : null;
     const heavy = /hood|sweatshirt|crewneck/i.test(p.title + ' ' + p.productType);
     const groupTitle = p.title;
     let qaBudget = 9000;

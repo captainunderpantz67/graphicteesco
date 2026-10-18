@@ -614,4 +614,8 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-christmas-moms-favorite-graphic-tee': { src: '/covers/mens-christmas-moms-favorite-graphic-tee.webp', alt: 'Man in a white Mom\'s Favorite Christmas tee with two knit stockings on a brick mantel, one stuffed and one limp, standing in a living room on Christmas morning in front of a decorated fireplace' },
 };
 
-export const coverFor = (handle: string) => covers[handle] ?? null;
+// Pasted-print covers retired by R6.10 (Sam 2026-10-18): these fall back to the clean Printful mockup until a
+// real cover replaces them (then remove the handle from retired-covers.json).
+import retired from './retired-covers.json';
+const retiredSet = new Set<string>(retired as string[]);
+export const coverFor = (handle: string) => (retiredSet.has(handle) ? null : covers[handle] ?? null);
