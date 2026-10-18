@@ -1,4 +1,5 @@
 2026-10-18 02:00 UTC — [B] REVIEW #522 Women's Gigi – Because Grandma Sounded Old Crewneck (DRAFT, synced 12/12, Sand + Sport Grey, FW 1500; fal $0.10).
+2026-10-18 02:11 UTC — [C] REVIEW #508 Women's National Park Two Queens Roaming hoodie (REDO: grey smudge between the women repainted; fal $0). Also REVIEW #505 Only Golf for the Outfits (REDO: skin filled, synced 10/10).
 2026-10-18 02:10 UTC — [C] REVIEW #503 Men's Golf Breakfast Ball Enthusiast heavyweight hoodie (REDO: Enthusiast bigger and bolder, synced 14/14; fal $0).
 2026-10-18 04:36 UTC — [E] REVIEW #365 (REDO: cover redone, no back seam, no sign lettering, composite).
 RUNNING lane C since 2026-10-18 01:55 UTC
