@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-18 05:03Z
+status: REVIEW
 lane: B
 type: new
 id: 548
@@ -29,3 +29,5 @@ shopify: gid://shopify/Product/15364713054512
 ## Log
 - 2026-10-18 03:10 UTC director: brief written, READY (lane B crewneck, wave-1 parks; 1,789-favorite national parks sweatshirt proof).
 - 2026-10-18 05:11 UTC builder [B]: WIP: DRAFT gid://shopify/Product/15364713054512 (Gildan 18000 #145, Sand + Navy x S-3XL = 12, $34.99 no compare-at, category aa-1-13-14). Art: 1 Recraft call kept (marmot on the switchback mountain, no sky panel). SWITCHBACKS Big Shoulders 900 and BUILD CHARACTER. Fraunces 900 (the brief's SOFT 50 axis is not exposed by compose-print, so default softness; set straight, not arched, because compose-print has no arc and the brief asks for no typeset ring) via compose-print. Two files: dark-ink (dark pine + burnt orange) for Sand, cream-halo + cream SWITCHBACKS for Navy; FW 1650 TOP 75; mockups for both colors + back; both lines read. BUILD CHARACTER. is the smaller line at about 85% of the print width. Cover (registry 888, 2 fal attempts: try 1 braid touched the S, try 2 braid over the right end of her lines): braid painted out of her chest, the exact print composited on both chests (R6.9). Sync queued; status goes to REVIEW at 12/12.
+
+- [B] 2026-10-18 builder: sync DONE, R7.7 default-file check on Printful: 12/12 synced; default file 6 on 1088705040 and 6 on 1088705044, back logo on all. Variant-photo audit clean. Status REVIEW.
