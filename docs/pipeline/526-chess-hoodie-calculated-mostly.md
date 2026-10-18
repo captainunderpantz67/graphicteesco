@@ -3,6 +3,7 @@ lane: C
 type: twin
 id: 526
 handle: mens-chess-calculated-mostly-hoodie
+shopify: gid://shopify/Product/15364488626480
 kd: 38
 ---
 ## Men's Chess – Calculated. Mostly. Hoodie
@@ -22,3 +23,4 @@ kd: 38
 ---
 ## Log
 - 2026-10-18 01:24 UTC director: brief written, READY (hoodie twin of a LIVE winner for lane C; keyword measured this run).
+- 2026-10-18 02:36 UTC builder [C]: built from #442's art (docs/print-files/442-calculated-mostly.png, 3405x4134), printed on the FRONT of the pullover. R6.2 check: real-font lines (CALCULATED. cream with a dark keyline, MOSTLY. gold, Alfa Slab One), no frame, ring or panel; counters closed on Navy and Ash. FW 1500 TOP 0: the mockup shows MOSTLY. ending about 90 px (mockup scale) above the pouch seam, so no re-layout. DRAFT gid 15364488626480 (Navy + Ash x S-3XL = 12, $39.99, no compare-at, category hoodies, tags per brief). Keyword chess gifts 2,400/KD38 in the map (2 uses; 'chess hoodie' not used on the page or in image alts). FAQs 5 x 43-54 words, order-by Dec 8. Printful file 1088644457, sync 482669716 running. Mockups per color + back attached, variant images linked. Cover: 1 fal image ($0.06, registry #861) kept as generated: hood visible, hands at his sides, the print is faithful and every word reads. Audit-local PASS. fal $0.06.
