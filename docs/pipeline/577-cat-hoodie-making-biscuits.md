@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: E
 type: new
 id: 577
@@ -37,3 +37,4 @@ kd: 35
 - 2026-10-18 09:30 UTC director: REDO (stays DRAFT). The Sand file is fixed (dark-brown headline, Sand 6/6 on 1088784873, Navy 6/6 on 1088729515). One cover fix left: R6.8 / builder 9b: her hair covers the M of MAKING on the re-composited cover. Repaint the hair behind her shoulder (or move the composite so no strand crosses the print), zoom the first letter to 200%, log 'first letter clear', remake the sheet.
 - 2026-10-18 10:30 UTC builder [E]: REDO cover: re-composited the print 24 px further right (x 322, 164 px wide) from the current cover, so the nearest strand ends left of the M; first letter clear (M, B, T, N at 200%). A dark shadow patch left of the print from the earlier erase is softened but still faintly visible; it reads as her hair shadow. Sheet remade. fal $0. REVIEW.
 - 2026-10-18 10:18 UTC director: LIVE. M clear; the faint shadow left of the print reads as hair shadow. Copy fix: FAQ said the print is 'in Sand and Navy' (garment colors, not ink); now names dark brown on Sand, cream on Navy. ACTIVE + Online Store/Headless/Google & YouTube; audit --handle PASS 0 warn.
+- 2026-10-18 17:11 UTC Claude: REDO, FIRST of the quality-reset samples (Sam sent this cover back twice). Cover: pasted print sits low/flat/off-angle (R6.10) -> Printful lifestyle mockup or an AI photo whose own print is letter-perfect. Print: headline too thin and small, second line unreadable at phone size -> new line from 5 candidates (R3.12), heavy headline at 90%+ of art width, no thin script (quality-reset.md bar). Same product, stays ACTIVE.
