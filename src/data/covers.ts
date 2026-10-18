@@ -607,6 +607,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-plumber-not-looking-at-your-sink-graphic-tee': { src: '/covers/mens-plumber-not-looking-at-your-sink-graphic-tee.webp', alt: 'Man in a black Off Duty Not Looking at Your Sink plumber tee standing in a sunny backyard cookout with a grill and picnic table behind him' },
   'mens-welder-grinder-and-paint-department-hoodie': { src: '/covers/mens-welder-grinder-and-paint-department-hoodie.webp', alt: 'Man in a navy Grinder & Paint Department welding hoodie in a metal fabrication shop, hands in the pouch' },
   'mens-fishing-fisher-of-men-half-zip': { src: '/covers/mens-fishing-fisher-of-men-half-zip.webp', alt: 'Man in a navy half zip pullover seen from behind on a lake dock at sunrise, glancing back over his shoulder, the back print of a leaping bass over a rowboat under FISHER OF MEN and above MOSTLY BASS in cream brush lettering' },
+  'womens-christmas-santa-gets-all-the-credit-graphic-tee': { src: '/covers/womens-christmas-santa-gets-all-the-credit-graphic-tee.webp', alt: 'Woman in a white Santa Gets All the Credit Christmas tee with a red gift, pink bow, tape dispenser and scissors, standing at a dining table covered in wrapping paper and ribbon in front of a lit Christmas tree' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
