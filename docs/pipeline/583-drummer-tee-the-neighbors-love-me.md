@@ -1,9 +1,10 @@
-status: READY
+status: BUILDING [B] 2026-10-18 05:25Z
 lane: B
 type: new
 id: 583
 handle: mens-drummer-the-neighbors-love-me-graphic-tee
 kd: 34
+shopify: gid://shopify/Product/15364746379568
 ---
 ## Men's Drummer – The Neighbors Love Me Tee
 - **Blank:** Bella+Canvas 3001 (Printful #71), unisex/men's tee, lightweight 4.2 oz, 100% combed ring-spun cotton (heathers contain polyester). Never "midweight". Copy facts from the Printful spec only (R7.1).
@@ -27,3 +28,4 @@ kd: 34
 ---
 ## Log
 - 2026-10-18 04:27 UTC director: brief written, READY (lane B; KD ≤ 20 band empty in the sweep, so KD 21–35 buyer phrases, measured this run; proof seller named under the gate).
+- 2026-10-18 05:34 UTC builder [B]: WIP: DRAFT gid://shopify/Product/15364746379568 (3001 #71, 10 colors x S-4XL = 70, $24.99 no compare-at, category aa-1-13-8, tags per brief; keyword drums shirt in line one and meta, said plainly; drum shirt not used). Art: 1 Recraft call kept (three houses, drummer in the garage, man in a robe with a pillow, woman at the window, flattened cat; ragged block, no ground strip). THE NEIGHBORS / LOVE ME. Alfa Slab One via compose-print, LOVE ME. larger. Two files: cream-halo + cream/red-keyline for Black/Navy/Dark Grey Heather/Heather Forest/Maroon, navy + red ink for Natural/Soft Cream/Ash/Athletic Heather/Heather Dust; FW 1650 TOP 75; all 10 mockups + back, both lines read. FAQ names the product 'Neighbors Love Me' so the questions do not say 'the The'. Cover registry 923, try 1: every word reads, hair clear of the print, hands empty with no sticks, garage kit behind him. Audit-local PASS. Sync queued; status goes to REVIEW at 70/70.

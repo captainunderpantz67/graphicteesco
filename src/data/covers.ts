@@ -539,6 +539,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-embroidered-overthinkers-club-crewneck-sweatshirt': { src: '/covers/unisex-embroidered-overthinkers-club-crewneck-sweatshirt.webp', alt: 'Man and woman smiling in navy Overthinkers Club embroidered crewneck sweatshirts in a bookstore cafe corner on a rainy afternoon with a coffee cup on a table beside them' },
   'unisex-embroidered-per-my-last-email-hoodie': { src: '/covers/unisex-embroidered-per-my-last-email-hoodie.webp', alt: 'Man and woman smiling in navy Per My Last Email embroidered hoodies with the hoods down in a bright co-working space with a laptop table and plants' },
   'mens-car-guy-i-speak-fluent-rattle-graphic-tee': { src: '/covers/mens-car-guy-i-speak-fluent-rattle-graphic-tee.webp', alt: 'Man with grey combed-back hair and a grey horseshoe mustache smiling in a navy I Speak Fluent Rattle tee in a home driveway at golden hour with an old pickup truck with its hood up behind him' },
+  'mens-drummer-the-neighbors-love-me-graphic-tee': { src: '/covers/mens-drummer-the-neighbors-love-me-graphic-tee.webp', alt: 'Man with shaggy light-brown hair and short stubble smiling in a navy The Neighbors Love Me tee in a suburban driveway at dusk in front of an open garage with a drum kit inside' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
