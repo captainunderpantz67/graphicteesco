@@ -716,5 +716,5 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 921 | Samoan-American man, late 30s, black hair in a short top-knot, full short beard, broad heavy build | CLAIMED 2026-10-18 — #581 No, I Can't Just Take a Quick Look Tee cover (brief) |
 | 922 | Hmong-American man, mid 40s, short black hair with grey at the temples, clean-shaven, medium build | CLAIMED 2026-10-18 — #582 No, I Can't Just Take a Quick Look Hoodie cover (brief) |
 | 923 | Ukrainian-American man, early 30s, shaggy light-brown hair tucked behind his ears, short stubble, slim build | CLAIMED 2026-10-18 — #583 The Neighbors Love Me Tee cover (brief) |
-| 924 | Mexican-American man, early 60s, thick grey hair combed back, grey horseshoe mustache, sturdy build | CLAIMED 2026-10-18 — #584 I Speak Fluent Rattle Tee cover (brief) |
+| 924 | Mexican-American man, early 60s, thick grey hair combed back, grey horseshoe mustache, sturdy build | USED 2026-10-18 — #584 I Speak Fluent Rattle tee cover (fal Seedream, home driveway with old pickup; try 1 kept) |
 | 925 | Black man, about 19, short twists, small silver hoop earring, slim build | CLAIMED 2026-10-18 — #585 The Neighbors Love Me Hoodie cover (brief) |
