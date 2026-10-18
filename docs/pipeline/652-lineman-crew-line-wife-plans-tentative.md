@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-18 22:20
+status: REVIEW
 lane: E
 type: new
 id: 652
@@ -27,3 +27,5 @@ kd: 32
 ---
 ## Log
 - 2026-10-18 16:05 UTC director: brief written, READY (lane E; KD ≤ 20 band has no unclaimed phrase with a competition count in this run's sweep of 40+ trade, hobby and animal phrases, so this is the KD 21–35 band; proof named under the gate).
+- 2026-10-18 builder [E]: built. dark-ink file 1088993729, light file 1088993729 (headline fill cream #f3e7cf with a dark keyline, art halo 14 px; dark colors on the light file, light colors on the dark file). Art: 1 Recraft call ($0.04, try 1 kept: wry housewife in a red checked headscarf and mint cardigan at a round table with a domed plate and a candle, rainy window with a pole and a small bucket truck). LINE WIFE Alfa Slab One red #b8453c above; (plans tentative) Lobster navy with a 34 px cream keyline below (thick script, not the thin kind), art halo 12 px, set in compose-print. One file for Sand and Navy (no cream or white headline fill), read on both mockups at 500 px. Print 3072 x 3913 px (art width 0.62 so it fits under TOP 75), FW 1650. Sand + Navy x S-3XL = 12 variants, 12/12, sync product 482805232. Mockups both colors + back attached and linked. DRAFT gid 15365757862192 (category aa-1-13-14, $34.99 no compare-at, tags graphic-sweatshirts/sweatshirt/ai-art/intake-done, 5 FAQs 47-53 words incl. Dec 8, keyword lineman sweatshirt 590/KD32 in line one, SEO title and meta; kw map updated). Cover registry 992: attempt 1 kept (seedream, Sand sweatshirt, braid beside the print not over a letter, hands at her sides; first letters L and (p clear, chest clean). fal ~$0.1.
+- 2026-10-18 17:31 UTC builder [E]: sync 12/12 confirmed. REVIEW.
