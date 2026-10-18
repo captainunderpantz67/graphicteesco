@@ -785,7 +785,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 990 | Filipino-American man, late 30s, short black hair in a fade, clean-shaven, medium athletic build | USED 2026-10-18 — #650 It's Probably the Breaker tee cover (seedream attempt 1, print clear) |
 | 991 | Cherokee/Native American man, early 40s, short black hair, short goatee, sun-weathered skin, broad shoulders | USED 2026-10-18 — #651 Bad Weather Is My Overtime tee cover (seedream attempt 1, print clear) |
 | 992 | white Appalachian woman, mid 30s, auburn hair tied back in a low braid, freckles, medium build | USED 2026-10-18 — #652 Line Wife (Plans Tentative) crewneck cover (seedream attempt 1, braid beside the print, print clear) |
-| 993 | Brazilian-American woman, early 30s, long dark curly hair in a high bun, light freckles, toned build | CLAIMED 2026-10-18 — #653 Just Two More (She Lied) tee cover (brief) |
+| 993 | Brazilian-American woman, early 30s, long dark curly hair in a high bun, light freckles, toned build | USED 2026-10-18 — #653 Just Two More (She Lied) tee cover (seedream attempt 1, hair up in a bun, print clear) |
 | 994 | Black man, early 30s, close-cropped hair, short boxed beard, tall muscular build | CLAIMED 2026-10-18 — #654 Yes, One Cat. Once. hoodie cover (brief) |
 | 995 | Mexican-American man, early 40s, short dark hair going grey at the temples, full mustache, soft dad build | CLAIMED 2026-10-18 — #655 Retired From Abs Tee cover (brief) |
 | 996 | Korean-American man, late 20s, black hair in a short side part, round wire glasses, slim build | CLAIMED 2026-10-18 — #656 I Blunder With Confidence Tee cover (brief) |

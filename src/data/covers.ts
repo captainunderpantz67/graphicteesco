@@ -615,6 +615,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-christmas-moms-favorite-graphic-tee': { src: '/covers/mens-christmas-moms-favorite-graphic-tee.webp', alt: 'Man in a white Mom\'s Favorite Christmas tee with two knit stockings on a brick mantel, one stuffed and one limp, standing in a living room on Christmas morning in front of a decorated fireplace' },
   'womens-lineman-line-wife-plans-tentative-crewneck-sweatshirt': { src: '/covers/womens-lineman-line-wife-plans-tentative-crewneck-sweatshirt.webp', alt: 'Woman in a sand Line Wife Plans Tentative crewneck sweatshirt standing in a cozy farmhouse kitchen on a rainy evening with a covered plate, a candle and a coffee mug on the table' },
   'womens-christmas-cat-allegedly-crewneck-sweatshirt': { src: '/covers/womens-christmas-cat-allegedly-crewneck-sweatshirt.webp', alt: 'Woman in a navy Cat Allegedly. Christmas crewneck sweatshirt with a smug tuxedo cat beside a smashed ornament, standing in a decorated kitchen with cookie trays and a cat on a chair beside her' },
+  'womens-pilates-just-two-more-she-lied-graphic-tee': { src: '/covers/womens-pilates-just-two-more-she-lied-graphic-tee.webp', alt: 'Woman in a pink Just Two More She Lied pilates tee standing in a bright Pilates studio with reformers and plants behind her and a water bottle on the reformer frame' },
 };
 
 // Pasted-print covers retired by R6.10 (Sam 2026-10-18): these fall back to the clean Printful mockup until a

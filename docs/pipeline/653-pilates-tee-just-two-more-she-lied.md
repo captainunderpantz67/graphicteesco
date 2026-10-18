@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-18 23:00
+status: REVIEW
 lane: E
 type: new
 id: 653
@@ -27,3 +27,5 @@ kd: 34
 ---
 ## Log
 - 2026-10-18 16:05 UTC director: brief written, READY (lane E; KD ≤ 20 band has no unclaimed phrase with a competition count in this run's sweep of 40+ trade, hobby and animal phrases, so this is the KD 21–35 band; proof named under the gate).
+- 2026-10-18 builder [E]: built. dark-ink file 1088996837, light file 1088996837 (headline fill cream #f3e7cf with a dark keyline, art halo 14 px; dark colors on the light file, light colors on the dark file). Art: 1 Recraft call ($0.04, try 1 kept: blond woman in a headband and rose leotard doing a trembling leg lift on a reformer, wobble marks and a drop of sweat). JUST TWO MORE. Alfa Slab One navy #1b2a4a with a cream keyline; (she lied) Lobster rose #d96b8a with a 34 px cream keyline (thick script), set in compose-print. Light file: not needed, five light colors only (White, Natural, Heather Stone, Athletic Heather, Pink), no cream or white headline fill; Heather Mint is not offered on the 6400 so it was dropped. Print 3292 x 3513 px (first compose at 3162 x 4019 ran past the 1500 x 1800 px area and clipped (she lied) on the mockup, so the lettering and art were scaled down), FW 1500 TOP 75. 5 colors x 6 sizes = 30 variants, 30/30 on the file, sync product 482805827. Mockups all 5 colors + back attached and linked; read at 400 px on White, Natural, Athletic Heather, Pink. DRAFT gid 15365758288176 (category aa-1-13-8, $24.99 no compare-at, tags women + funny + retro + ai-art + intake-done, 5 FAQs 43-50 words incl. Dec 8, keyword pilates shirt 1900/KD34 in line one, SEO title and meta; kw map updated). Cover registry 993: attempt 1 kept (seedream, Pink tee, hair in a high bun, hands at her sides, bottle on the frame; first letters J and (s clear, chest clean). fal ~$0.1.
+- 2026-10-18 17:40 UTC builder [E]: sync 30/30 confirmed. REVIEW.
