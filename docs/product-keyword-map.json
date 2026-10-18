@@ -8205,6 +8205,100 @@
     }
    ],
    "measured": "2026-10-18"
+  },
+  "mens-christmas-white-elephant-champion-hoodie": {
+   "claimed": [
+    "funny white elephant gifts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny white elephant gifts",
+     "volume": 22200,
+     "kd": 10,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "christmas gifts for coworkers",
+     "volume": 9900,
+     "kd": 12,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "unisex-pitbull-velvet-hippo-social-club-hoodie": {
+   "claimed": [
+    "pitbull apparel"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pitbull apparel",
+     "volume": 3600,
+     "kd": 14,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-mimi-says-yes-hoodie": {
+   "claimed": [
+    "gifts for mimi"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "gifts for mimi",
+     "volume": 1600,
+     "kd": 17,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "mimi hoodie",
+     "volume": 90,
+     "kd": 45,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-gigi-because-grandma-sounded-old-hoodie": {
+   "claimed": [
+    "gifts for gigi"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "gifts for gigi",
+     "volume": 1600,
+     "kd": 17,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "gigi hoodie",
+     "volume": 140,
+     "kd": 36,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-gym-twelve-labors-zero-cardio-hoodie": {
+   "claimed": [
+    "gym gifts for men"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "gym gifts for men",
+     "volume": 5400,
+     "kd": 14,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "hercules hoodie",
+     "volume": 110,
+     "kd": 40,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
