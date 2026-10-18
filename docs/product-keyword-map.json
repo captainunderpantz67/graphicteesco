@@ -9596,6 +9596,71 @@
     }
    ],
    "measured": "2026-10-18"
+  },
+  "mens-dad-bod-retired-from-abs-graphic-tee": {
+   "claimed": [
+    "dad bod shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dad bod shirt",
+     "volume": 1600,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-chess-i-blunder-with-confidence-graphic-tee": {
+   "claimed": [
+    "chess shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "chess shirt",
+     "volume": 1900,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "unisex-cornhole-counts-as-cardio-graphic-tee": {
+   "claimed": [
+    "cornhole shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cornhole shirt",
+     "volume": 880,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-hvac-did-you-change-the-filter-graphic-tee": {
+   "claimed": [
+    "hvac shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "hvac shirt",
+     "volume": 590,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-bbq-low-and-slow-like-my-texts-graphic-tee": {
+   "claimed": [
+    "smoker shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "smoker shirt",
+     "volume": 1300,
+     "kd": 37
+    }
+   ],
+   "measured": "2026-10-18"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: E
 type: new
 id: 612
@@ -29,3 +29,4 @@ kd: 44
 - 2026-10-18 06:26 UTC director: brief written, READY (lane E; kd 44; KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month or with a measured December surge; proof named under the gate).
 - 2026-10-18 builder [E]: built. Art: 1 Recraft call ($0.04, try 1 kept: grinning 1950s jogger bounding down a grassy slope, arms wide, steep road behind; no text). I ONLY RUN / DOWNHILL. Alfa Slab One, set in compose-print with holes knocked out. Two files: dark ink (navy + red, cream keyline) 1088912772 for Natural, Ash, Athletic Heather; light file: Black, Navy, Dark Grey Heather, Heather Forest, Maroon on 1088912795, headline fill cream #f3e7cf and mustard, art halo 14 px. Print 3413 px wide, FW 1650 TOP 75. 8 colors x 7 sizes = 56 variants, 56/56 on the right file (7/7 per color), sync product 482776069. Mockups all 8 colors + back attached and linked; read at 400 px on Black, Maroon, Natural, Athletic Heather. DRAFT gid 15365667946800 (category aa-1-13-8, $24.99 no compare-at, tags men + funny + retro + ai-art + intake-done, 5 FAQs 45-54 words incl. Dec 8, keyword funny running shirt 1000/KD44 in line one and meta; kw map updated). Cover registry 948: attempt 1 kept (seedream, black tee, hands clear, bottle low at his side; first letters I and D clear, chest clean). fal ~$0.1.
 - 2026-10-18 15:16 UTC builder [E]: sync 56/56 confirmed. REVIEW.
+- 2026-10-18 16:16 UTC director: approved from docs/review/612.jpg. ACTIVE + Online Store/Headless/Google & YouTube, audit --handle PASS 0 warn. LIVE.

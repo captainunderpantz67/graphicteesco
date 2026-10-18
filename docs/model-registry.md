@@ -787,3 +787,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 992 | white Appalachian woman, mid 30s, auburn hair tied back in a low braid, freckles, medium build | CLAIMED 2026-10-18 — #652 Line Wife (Plans Tentative) crewneck cover (brief) |
 | 993 | Brazilian-American woman, early 30s, long dark curly hair in a high bun, light freckles, toned build | CLAIMED 2026-10-18 — #653 Just Two More (She Lied) tee cover (brief) |
 | 994 | Black man, early 30s, close-cropped hair, short boxed beard, tall muscular build | CLAIMED 2026-10-18 — #654 Yes, One Cat. Once. hoodie cover (brief) |
+| 995 | Mexican-American man, early 40s, short dark hair going grey at the temples, full mustache, soft dad build | CLAIMED 2026-10-18 — #655 Retired From Abs Tee cover (brief) |
+| 996 | Korean-American man, late 20s, black hair in a short side part, round wire glasses, slim build | CLAIMED 2026-10-18 — #656 I Blunder With Confidence Tee cover (brief) |
+| 997 | a couple: Black woman, early 30s, shoulder-length twists tied back, and white man, early 30s, short brown beard; both medium builds | CLAIMED 2026-10-18 — #657 Cornhole Counts as Cardio Tee cover (brief) |
+| 998 | Puerto Rican man, mid 40s, short black hair, trimmed salt-and-pepper beard, stocky build | CLAIMED 2026-10-18 — #658 Did You Change the Filter? Tee cover (brief) |
+| 999 | white Texan man, early 50s, short grey hair, sun-weathered face, full grey beard, broad build | CLAIMED 2026-10-18 — #659 Low and Slow, Like My Texts Tee cover (brief) |

@@ -1,0 +1,29 @@
+status: READY
+lane: E
+type: new
+id: 659
+handle: mens-bbq-low-and-slow-like-my-texts-graphic-tee
+kd: 37
+---
+## Men's BBQ – Low and Slow, Like My Texts Tee
+- **Blank:** Bella+Canvas 3001 (Printful #71), unisex/men's tee, lightweight 4.2 oz, 100% combed ring-spun cotton (heathers contain polyester). Never "midweight". Copy facts from the Printful spec only (R7.1).
+- **Style:** A (R4.2), vintage to the edges, no badge, frame, border, rounded scene card or dark patch (R4.1, including the 2026-10-18 rounded-card line). New art: one Recraft v4 illustration call (--n 1), picture only, no words; at most 3 tries; if all are weak, PARK it and say why.
+- **Text on shirt (real fonts via scripts/compose-print.py, never drawn by the image model; spelled exactly):** LOW AND SLOW. (Alfa Slab One, cream with a navy keyline, above) / like my texts (Lobster, faded red with a thick cream keyline, below, at least 60% of the art's width). Solid ink.
+- **Hook:** A calm 1950s pitmaster in an apron leans on an offset barrel smoker, eyes half-closed, smoke curling, an old rotary phone ringing unanswered on the cooler beside him. LOW AND SLOW. (like my texts). BBQ lingo plus the dad who never answers; family and friends laugh. Men's deadpan (R3.4).
+- **Three lines considered (R3.1):** "Low and Slow (Like My Texts)" · "It's Ready When It's Ready" · "Don't Open the Lid" (picked: real pitmaster lingo with a self-aware twist; the other two are flat insider rules)
+- **Joke QC (R3.7) / R3.12:** Outsider gets it in 3 seconds (a relaxed smoker man ignoring a ringing phone); family-clean; no grill brand; 6 words. R3.12 passes. Not a pun.
+- **Why it's not taken:** 'low and slow' alone is common on BBQ tees; the 'like my texts' turn is the twist. Builder checks the full line is under 50 listings (R3.7.2). Our Grill Wizard (zip hoodie) is a different joke and blank.
+- **Design gate (5 parts, docs/research/how-to-research-a-design.md):** search: smoker shirt 1,300 / KD 37 (RankHero 2026-10-18; competition 5,490): KD 36+ but over 1,000 a month, and no easier unclaimed BBQ phrase exists (bbq shirt 1,000/55, grill shirt 260/53, funny bbq shirt 260/55) · proof: 'Funny Dad Shirt, Just Resting My Eyes' and 'Princess Security' 835 favorites (deadpan dad statement tee, same format) · insider: low and slow, the offset smoker · joke type: self-aware statement · look: 1950s backyard-cookbook illustration, faded red, navy, mustard, cream · gift test: the pitmaster dad, Father's Day, birthdays, Christmas.
+- **Art prompt (Recraft v4, one image per call):** Vintage 1950s backyard-cookbook screen-print illustration of a relaxed pitmaster in a canvas apron leaning on an offset barrel BBQ smoker with his eyes half closed, thick smoke curling up from the chimney, an old rotary telephone sitting on a cooler beside him with little ring lines showing it is ringing, unanswered. Faded red, navy, mustard, cream, soft black linework, halftone shading, worn screen-print texture, ragged broken edges, the subject is the shape. No text, no letters, no numbers, no logos, no background shape, no frame, no border, no badge, no rounded rectangle, no dark patch.
+- **Colors (R7.2):** Cream-ink file for Black, Navy, Dark Grey Heather, Heather Forest, Maroon; dark-ink file (LOW AND SLOW. in navy, like my texts in faded red with no dark keyline) for Natural, Ash, Athletic Heather (R5.3.8). ≤12 colors x 7 sizes.
+- **Primary keyword:** smoker shirt: 1,300 / KD 37 (RankHero via scripts/keyword-gap.py, 2026-10-18, director; competition 5,490). KD 36+ allowed: over 1,000 a month and nothing easier left in the niche (R2.5). Copy says 'BBQ smoker' so the page is clearly the cooker, not tobacco. Unowned.
+- **Print size:** FW 1650 TOP 75 (tee).
+- **Copy:** line one = the line + who wears it + when (R9.11), said plainly: no superlative opener built around the keyword (R8.3). Primary keyword in the title or SEO title, the first sentence and once in the meta; at most 3 times in all. Gift phrases at most once in copy, never the primary (R2.10). Describe only what is in the art; never say we drew it ("Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, weight, wash care, gift fit, Christmas order-by about Dec 8, free size exchange).
+- **Cover:** registry #999 (white Texan man, early 50s, short grey hair, sun-weathered face, full grey beard, broad build), CLAIMED. Alt starts 'Man'. Scene: a backyard patio with an offset smoker puffing smoke behind him and a picnic table, hands empty at his sides (no tongs, beer or food, R6.5). Hair and hands clear of the print; the L of LOW checked letter by letter (R6.9). Printful mockup as `--design` (--n 1). Max 2 attempts.
+- **Title / handle:** "Men's BBQ – Low and Slow, Like My Texts Tee" / `mens-bbq-low-and-slow-like-my-texts-graphic-tee` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** graphic-tees-for-men, funny-graphic-tees, retro-graphic-tees, ai-art, intake-done
+- **Price:** $24.99 (R12.1 tee), NO compare-at.
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d). Before REVIEW: Printful default file checked on every variant and logged (R7.7, 2026-10-18 line); light file headline fill is dark ink with open counters (R5.3.8); the cover is an AI photo with every letter right at 200% or the Printful lifestyle mockup, never a composite (R6.10).
+---
+## Log
+- 2026-10-18 16:21 UTC director: brief written, READY (lane E; kd 37; KD ≤ 20 band has no unclaimed phrase with a competition count in this run's sweep of 70+ trade, hobby and dad phrases (darts shirt 14,800/10 has no competition count, R2.10), so KD 21–35 first; proof named under the gate).
