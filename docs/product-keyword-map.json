@@ -6869,16 +6869,22 @@
   },
   "womens-embroidered-ghost-one-more-chapter-club-crewneck-sweatshirt": {
    "claimed": [
-    "bookish ghost"
+    "bookish ghost",
+    "reading ghost"
    ],
    "gaps_measured": [
     {
      "phrase": "bookish ghost",
      "volume": 2400,
      "kd": 38
+    },
+    {
+     "phrase": "reading ghost",
+     "volume": 260,
+     "kd": 66
     }
    ],
-   "measured": "2026-10-17"
+   "measured": "2026-10-16"
   },
   "womens-nurse-embroidered-night-shift-silly-goose-crewneck-sweatshirt": {
    "claimed": [
