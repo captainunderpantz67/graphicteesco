@@ -23,3 +23,4 @@ kd: 22
 ---
 ## Log
 - 2026-10-18 08:23 UTC director: brief written, READY (lane C hoodie twin of LIVE #578; kd 22, KD 21–35 band).
+- 2026-10-18 16:39 UTC builder [C]: DRAFT gid 15365752521008 (12 variants, $44.99 no compare-at, zip category, tags per brief, FAQ 6 x 48-58 words incl Dec 8). R6.2 twin check on #578 file at full size: Alfa Slab + Yellowtail real fonts, no panel/ring/badge; rug is an object; chair ends on its own edge; a stray speck between headline and art removed; counters A R O D open. Files: light (Navy) docs/print-files/638-scary-dog-light-ink.png, dark-ink (Ash) 638-scary-dog-dark-ink.png (SCARY DOG. #3b2a20, script #a4482a), chest copy 638-scary-dog-chest.png (dog head+paws, no words, bottom faded).
