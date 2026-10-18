@@ -1,0 +1,5 @@
+{"art": "art.png", "art_width": 0.72, "canvas": [3600, 4500], "gap": 60, "holes": 2000,
+ "lines": [
+  {"text": "BAD WEATHER", "font": "AlfaSlabOne-Regular.ttf", "size": 700, "fill": "#1b2a4a", "stroke": 18, "stroke_fill": "#f3e7cf", "tracking": 0.01, "max_width": 0.9, "where": "above"},
+  {"text": "IS MY OVERTIME.", "font": "AlfaSlabOne-Regular.ttf", "size": 700, "fill": "#b8453c", "stroke": 22, "stroke_fill": "#f3e7cf", "tracking": 0.005, "max_width": 0.96, "where": "below"}
+ ]}
