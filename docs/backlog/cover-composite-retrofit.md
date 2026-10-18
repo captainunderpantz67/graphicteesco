@@ -16,3 +16,5 @@ Lane C found the only lifestyle style for Bella+Canvas 6400 (#360, style 20552) 
 | Bella+Canvas 6400 (#360) | 20552 Large Lifestyle front | FAIL: hair over the T of TOURNAMENT, cardigan over the print (#591, lane C 2026-10-18). Use fal-swap. |
 
 **2026-10-18 Claude:** all 161 are hidden on the site now via src/data/retired-covers.json (cards and product pages show the Printful mockup). When an item gets a real cover (Printful lifestyle or a letter-perfect AI photo), remove its handle from that JSON in the same commit.
+
+**2026-10-18 17:45 UTC Sam: Printful lifestyle mockups only, no fal at all for covers.** The "fal-swap" route for blanks with no passing style is cancelled: use the cleanest Printful flat or lifestyle mockup instead. fal has about $15 total left.
