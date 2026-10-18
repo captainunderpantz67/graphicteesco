@@ -506,6 +506,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-funny-i-said-it-nicely-in-my-head-hoodie': { src: '/covers/womens-funny-i-said-it-nicely-in-my-head-hoodie.webp', alt: 'Woman in a sand I Said It Nicely in My Head daisy hoodie smiling at a sunny autumn farmers market with flower buckets and pumpkins behind her' },
   'mens-chess-calculated-mostly-hoodie': { src: '/covers/mens-chess-calculated-mostly-hoodie.webp', alt: 'Man in a navy Calculated. Mostly. chess knight hoodie smiling beside a stone chess table in a city park at golden hour' },
   'unisex-nurse-calm-face-loud-brain-hoodie': { src: '/covers/unisex-nurse-calm-face-loud-brain-hoodie.webp', alt: 'Man and woman in matching navy Calm Face, Loud Brain nurse hoodies standing side by side in a hospital parking garage at sunrise after a night shift' },
+  'unisex-running-pace-leisurely-zip-hoodie': { src: '/covers/unisex-running-pace-leisurely-zip-hoodie.webp', alt: 'Man and woman in matching light grey Pace: Leisurely snail zip hoodies, looking back over their shoulders on a park running path on a cool autumn morning with the snail print on their backs' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

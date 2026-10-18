@@ -659,8 +659,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 860 | Korean-American woman, early 40s, shoulder-length layered black hair tucked behind her ears, light freckles, medium build | CLAIMED 2026-10-18 — #525 I Brought You a Sock Heavyweight Hoodie cover (brief) |
 | 861 | Ethiopian-American man, mid 30s, close-cropped hair, neat short beard, round black glasses, lean build | USED 2026-10-18 — #526 Calculated. Mostly. hoodie cover (seedream, Navy mockup as design, first try) |
 | 862 | Black woman, late 20s, long knotless braids tied back in a low ponytail, small gold hoops, medium build | CLAIMED 2026-10-18 — #527 Clocked It Said Nothing Hoodie cover (brief) |
-| 863 | Mexican-American man, early 40s, short wavy black hair, trimmed salt-and-pepper beard, athletic build | CLAIMED 2026-10-18 — #528 Pace Leisurely Zip Hoodie cover (brief, pair 863-864) |
-| 864 | white woman, late 30s, blonde hair in a high ponytail, light freckles, slim athletic build | CLAIMED 2026-10-18 — #528 Pace Leisurely Zip Hoodie cover (brief, pair 863-864) |
+| 863 | Mexican-American man, early 40s, short wavy black hair, trimmed salt-and-pepper beard, athletic build | USED 2026-10-18 — #528 Pace: Leisurely zip hoodie cover (seedream attempt 2, Ash back mockup as design, composite prints; pair 863-864) |
+| 864 | white woman, late 30s, blonde hair in a high ponytail, light freckles, slim athletic build | USED 2026-10-18 — #528 Pace: Leisurely zip hoodie cover (seedream attempt 2, Ash back mockup as design, composite prints; pair 863-864) |
 | 869 | Navajo man, early 40s, short black hair, neat goatee, broad build | USED 2026-10-18 — #529 If You Can Step Over It, I Can Fill It Tee cover (brief) |
 | 870 | white man, late 20s, red buzz cut, freckles, full red beard, stocky build | USED 2026-10-18 — #530 Grinder & Paint Department Tee cover (brief) |
 | 871 | Filipino-American man, early 30s, short black undercut, clean-shaven, muscular build | CLAIMED 2026-10-18 — #531 Deload Week (Emotionally) Pump Cover cover (brief) |

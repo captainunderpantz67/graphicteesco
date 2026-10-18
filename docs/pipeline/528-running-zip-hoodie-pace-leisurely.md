@@ -3,6 +3,7 @@ lane: C
 type: twin
 id: 528
 handle: unisex-running-pace-leisurely-zip-hoodie
+shopify: gid://shopify/Product/15364502192432
 kd: 44
 ---
 ## Unisex Running – Pace: Leisurely Zip Hoodie
@@ -22,3 +23,4 @@ kd: 44
 ---
 ## Log
 - 2026-10-18 01:24 UTC director: brief written, READY (hoodie twin of a LIVE winner for lane C; keyword measured this run).
+- 2026-10-18 02:43 UTC builder [C]: built from #312's art (Printful file 1087992348, 3600x3973). LETTERING CHECK (R6.2/R3.7.8): read every line: PACE: LEISURELY is dark brown, hand-lettered with a steady stroke (not typeset, not thin), spelled right, and reads at phone size on the Ash back mockup; the 001 bib is clean; so it was kept as is, no re-set (it is 76% of the art's width, not 85%: logged, director may ask for a real-font re-set). No ring, arch, panel or box. Back print BW 1650 BT 225 (3600x3973), chest copy = the snail alone (3600x3518, rows above the lettering) at 525 px left chest. DRAFT gid 15364502192432 (Ash + White x S-3XL = 12, $44.99, no compare-at, category hoodies, tags per brief). Colors: Ash + White (both light, the brown linework reads; 18600 has no Light Blue, Carolina Blue exists but a pale pair was chosen to match #312's reading). Keyword running gifts 22,200/KD44 in the map (once in copy + meta; 'running hoodie' not used). FAQs 5 x 42-54 words, order-by Dec 8. Printful files 1088646581 (back) / 1088646586 (chest), sync 482670155 running. Mockups Ash + White front and back attached, variant images linked. Cover: 2 fal images ($0.12, registries #863/#864): attempt 1 put the woman in a crewneck (rejected); attempt 2 has both in the hooded zip, hoods visible, backs to camera; the man's back print was garbled and foreshortened, so both back prints were composited from the print file (R6.9) and every word read. Audit-local PASS. fal $0.12.
