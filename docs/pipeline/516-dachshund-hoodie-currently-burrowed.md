@@ -1,0 +1,24 @@
+status: READY
+lane: C
+type: twin
+id: 516
+handle: womens-dachshund-currently-burrowed-hoodie
+kd: 34
+---
+## Women's Dachshund – Currently Burrowed Hoodie
+- **Twin of:** #513 womens-dachshund-currently-burrowed-crewneck-sweatshirt (LIVE 2026-10-18, sheet in docs/reference/best/). Reuse the final print (Printful file 1088584847: the quilt dachshund, CURRENTLY BURROWED. in AlfaSlabOne and (back in spring) in CaveatBrush, cream with a dark-red keyline). No new art. R6.2 check: real-font lines, no frame or panel; check closed counters (the O, D, B, R, a, g) on the darkest color before linking.
+- **Blank:** Pullover hoodie Gildan 18500 (Printful #146), 8 oz 50/50 fleece. Own width (R5.3.8): FW 1500 or wider; the art is wide and short (11.4 x 8.6 in on the crew), so it sits well above the pouch; keep (back in spring) clear of the seam. Copy facts from the Printful spec only (R7.1).
+- **Colors:** Sand + Sport Grey, the crewneck's pair (the navy quilt patches and black linework sink into Navy, logged at #513). A Printful mockup for every color before REVIEW.
+- **Hook:** a long dachshund buried in a patchwork quilt with only its nose, one ear and two unimpressed eyes out: CURRENTLY BURROWED. (back in spring). Every doxie owner has dug one out of the blanket, and it's how the wearer feels about winter. Women's, dry (R3.4); twins carry the original line (R3.9).
+- **Why it's not taken:** our own art; 'currently burrowed' isn't on a dachshund hoodie on Etsy (checked for #513).
+- **Primary keyword:** wiener dog hoodie: 320 / KD 34 (RankHero 2026-10-18, director; competition 702). KD 21–35 band (R2.5). 'dachshund hoodie' is owned by another product and 'dachshund sweatshirt' by #513; doxie hoodie (KD 52) and dachshund mom hoodie (10) are worse. Unowned in docs/product-keyword-map.json and every open brief (checked this run); recorded there with this handle. Say it the way owners do ("a wiener dog hoodie for the one who...") in the first sentence with the joke and the occasion (R9.11) and once in the meta. No stuffing.
+- **Popularity evidence (R5.2):** dachshund apparel with florals and attitude is a top dog format (floral dachshund dog mama sweatshirt 440 favorites, dog mom hoodie 1,133); #513 went LIVE on this art and beat the floor.
+- **Copy:** line one: the joke + who wears it + when (couch days, the first cold walk, a birthday or Christmas gift for the doxie person). Describe only what is in the art. Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, warmth and weight, wash care, gift fit, Christmas order-by Dec 8, free size exchange). Never say we drew it.
+- **Cover:** registry #849 (Korean-American woman, late 30s, long straight black hair tied in a low bun, thin gold-rimmed glasses, petite build), CLAIMED. Alt starts 'Woman'. Scene: a cozy living room in late fall, a smooth-coated red dachshund half under a patchwork quilt on the sofa beside her (the dog never over the print). Hood visible behind the neck; hands in the pouch or at her sides; hair tied back (R6.9). Generate with the Sand mockup as `--design` (--n 1); read every word; any overlap = composite fix (R6.9). Max 2 attempts.
+- **Title / handle:** "Women's Dachshund – Currently Burrowed Hoodie" / `womens-dachshund-currently-burrowed-hoodie` (R7.4).
+- **Tags:** graphic-hoodies-for-women, hoodie, ai-art, intake-done. No tee or sweatshirt collection tags (R7.5).
+- **Price:** pullover $39.99, NO compare-at (R12.1).
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d).
+---
+## Log
+- 2026-10-18 00:26 UTC director: brief written, READY (hoodie twin of a LIVE winner for lane C; keyword measured this run).

@@ -1,0 +1,29 @@
+status: READY
+lane: B
+type: new
+id: 521
+handle: womens-mimi-says-yes-crewneck-sweatshirt
+kd: 48
+---
+## Women's Mimi – Mimi Says Yes Crewneck Sweatshirt
+- **Blank:** Crewneck sweatshirt Gildan 18000 (Printful #145), 8 oz 50/50 cotton-poly fleece. Never "garment-dyed" or "Comfort Colors". Copy facts from the Printful spec only (R7.1).
+- **Style:** A (R4.2), vintage to the edges, no badge, frame, border or dark patch (R4.1). New art: one Recraft v4 illustration call (--n 1), picture only, at most 3 tries; if all are weak, PARK it and say why.
+- **Text on shirt (real fonts via scripts/compose-print.py, never drawn by the image model; spelled exactly):** MIMI (Lobster, faded red with a cream keyline, big, above the art, at least 85% of the art's width) / SAYS YES. (Oswald caps, navy, below the art, at least 60% of the art's width). Fonts in designs/fonts: AlfaSlabOne, BigShouldersDisplay, CaveatBrush, Cinzel, Damion, Fraunces, Graduate, Lobster, Oswald, PlayfairDisplay (+Italic), Rye, Yellowtail. Spec like designs/first5/sisyphus.json. Every line reads at phone size on the darkest mockup (R3.7.6, R5.3.8); normal letter spacing, never a tight one-line squeeze (#512 came back for that); knock out white letter counters.
+- **Hook:** a vintage cookie jar with its lid off and tipped, a tall stack of cookies, a sundae with three cherries: MIMI SAYS YES. Parents say no; Mimi's house runs on yes. Women's (grandmothers 50–70), cheeky and warm (R3.4).
+- **Three lines considered (R3.1):** "Mimi Says Yes" · "Mimi's House, Mimi's Rules (There Are None)" · "Spoiling Is My Love Language" (picked: three words, sly and confident, and the grandkids get it in a second; the second is long and explains itself; 'love language' is a gas-station mug line).
+- **Joke QC (R3.7):** reads in under 2 seconds; family-table clean; no brand; not a pun.
+- **Why it's not taken:** Mimi sweatshirts on Etsy are personalized names-on-sleeve and 'Promoted to Mimi' announcements; 'Mimi Says Yes' did not show in the RankHero top listings. Builder confirms under 50 Etsy listings for the exact line before art (R3.7.2) and tells the director if not.
+- **Design gate (5 parts):** search: mimi sweatshirt 880 / KD 48 (RankHero 2026-10-18, competition 21,534) · proof: embroidered Mimi sweatshirt 1,074 favorites and Mimi sweatshirt with names 922 (same format: Mimi crewneck) · insider: 'grandma's house, no rules' is the grandparent joke (TikTok 'what grandkids get away with' trend) · joke type: self-aware statement · look: vintage 1960s print, faded red, cream, mint and navy, real fonts · gift test: from the grandkids (or the parents, half-joking) for Christmas, birthday or Mother's Day.
+- **Art prompt (Recraft v4, one image per call):** "Vintage 1960s screen-print illustration of a cheerful kitchen-counter scene: a round ceramic cookie jar with its lid off and leaning beside it, a tall wobbly stack of chocolate chip cookies, an ice cream sundae in a tall glass with three cherries on top. Faded red, cream, mint green and navy inks with soft black linework, worn screen-print texture, ragged broken edges, the objects are the shape. No text, no letters, no words, no numbers, no background shape, no frame, no border, no badge, no circle, no dark patch."
+- **Colors (R7.2 cold-weather launch):** Sand + Navy if every word reads on both; else Sand + Light Pink (women's bold color), logged. A Printful mockup for every color before REVIEW.
+- **Primary keyword:** mimi sweatshirt: 880 / KD 48 (RankHero keyword page, 2026-10-18, director). KD 36+ under 1,000 is allowed only when nothing easier is left (R2.5): this run swept grandma, nana, gigi, papa, mimi and grandma-hoodie phrases; grandma sweatshirt is KD 51 (hub only), nana sweatshirt is owned, mimi hoodie is 90. Mimi shirts is an R11.3 collection ready to fill. Unowned in docs/product-keyword-map.json and every open brief (checked this run); recorded there with this handle. Use it in the title-area copy, the first sentence and once in the meta; no stuffing.
+- **Print size:** FW 1650 (crewneck, no pouch, R5.3.8). Light-ink version for the dark color, dark-ink for the light color if one file cannot read on both.
+- **Copy:** line one = the joke + who wears it + when (R9.11). Describe only what is in the art (R8.3); never say we drew it (SOP line "Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, warmth and weight, wash care, gift fit, Christmas order-by Dec 8, free size exchange).
+- **Cover:** registry #855 (white woman, early 60s, silver hair in a short pixie cut, light-blue reading glasses on a beaded chain, slim build), CLAIMED. Alt starts 'Woman'. Scene: a warm farmhouse kitchen with a cookie sheet cooling on the counter behind her and fall leaves out the window. Hands empty or at her sides, no plate near the print. Generate with the product's own Printful mockup in the cover color as `--design` (--n 1); hair tied back or behind the shoulders (R6.9); nothing (hand, cup, hair, prop, another person) over any part of the print; read every word before saving; hair or body over a letter = composite fix first (R6.9). No alcohol, tools or weapons (R6.5). Max 2 attempts.
+- **Title / handle:** "Women's Mimi – Mimi Says Yes Crewneck Sweatshirt" / `womens-mimi-says-yes-crewneck-sweatshirt` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** graphic-sweatshirts, sweatshirt, ai-art, intake-done. Crewneck: sweatshirt tags only (R7.5).
+- **Price:** $34.99 (R12.1 crewneck), NO compare-at (R12.1 honest compare-at: new product).
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d).
+---
+## Log
+- 2026-10-18 00:28 UTC director: brief written, READY (new art, keyword and 500+ favorite proof measured this run).

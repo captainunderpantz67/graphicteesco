@@ -1,0 +1,29 @@
+status: READY
+lane: B
+type: new
+id: 520
+handle: womens-crochet-no-i-wont-make-you-one-crewneck-sweatshirt
+kd: 44
+---
+## Women's Crochet – No, I Won't Make You One Crewneck Sweatshirt
+- **Blank:** Crewneck sweatshirt Gildan 18000 (Printful #145), 8 oz 50/50 cotton-poly fleece. Never "garment-dyed" or "Comfort Colors". Copy facts from the Printful spec only (R7.1).
+- **Style:** A (R4.2), vintage to the edges, no badge, frame, border or dark patch (R4.1). New art: one Recraft v4 illustration call (--n 1), picture only, at most 3 tries; if all are weak, PARK it and say why.
+- **Text on shirt (real fonts via scripts/compose-print.py, never drawn by the image model; spelled exactly, apostrophe included):** NO, I WON'T (AlfaSlabOne, faded red with a cream keyline, above the art) / MAKE YOU ONE. (AlfaSlabOne, same, below the art), each line at least 85% of the art's width. Fonts in designs/fonts: AlfaSlabOne, BigShouldersDisplay, CaveatBrush, Cinzel, Damion, Fraunces, Graduate, Lobster, Oswald, PlayfairDisplay (+Italic), Rye, Yellowtail. Spec like designs/first5/sisyphus.json. Every line reads at phone size on the darkest mockup (R3.7.6, R5.3.8); normal letter spacing, never a tight one-line squeeze (#512 came back for that); knock out white letter counters.
+- **Hook:** a perfect granny-square cardigan laid flat with a crochet hook and a big ball of yarn beside it, one tiny price tag on a string reading nothing (blank tag): NO, I WON'T MAKE YOU ONE. Every crocheter has been asked to make one 'for free, it's just yarn'. Women's, cheeky restraint joke (R3.4).
+- **Three lines considered (R3.1):** "No, I Won't Make You One" · "It's Not a Hobby, It's a Personality" · "Hooked" (picked: a restraint joke every maker recognizes on sight; the second is generic, 'Hooked' is a pun, out under R3.1).
+- **Joke QC (R3.7):** reads in under 2 seconds; family-table clean; no brand or trademark; not a pun.
+- **Why it's not taken:** crochet sweatshirts on Etsy lean on 'crochet queen' and pattern-style yarn art; the exact line did not show in the RankHero top listings. Builder confirms under 50 Etsy listings for the exact line before art (R3.7.2); if 50+, twist it ('No, I Will Not Crochet You a Sweater') and tell the director.
+- **Design gate (5 parts):** search: crochet sweatshirt 720 / KD 44 (RankHero 2026-10-18, competition 7,301) · proof: 'Funny Crochet Sweatshirt, Knitting Gift for Mom' 4,265 favorites, same format (funny crochet crewneck) · insider: 'can you make me one?' is the most-joked-about request on crochet TikTok (the 'how much would that cost' videos) · joke type: restraint joke · look: vintage 1960s still life, granny-square colors (mustard, faded red, sage, cream) on soft black linework, real fonts · gift test: the friend who crochets, from the people who keep asking.
+- **Art prompt (Recraft v4, one image per call):** "Vintage 1960s screen-print still-life illustration of a granny-square crochet cardigan laid flat, squares in mustard, faded red, sage green and cream, a wooden crochet hook and a large ball of cream yarn beside it, a small blank paper price tag tied to the cardigan with string. Soft black linework, worn screen-print texture, ragged broken edges, the objects are the shape. No text, no letters, no words, no numbers, no background shape, no frame, no border, no badge, no circle, no dark patch."
+- **Colors (R7.2 cold-weather launch):** Sand + Navy if every word reads on both (cream keyline helps on Navy); else Sand + Sport Grey, logged. A Printful mockup for every color before REVIEW.
+- **Primary keyword:** crochet sweatshirt: 720 / KD 44 (RankHero keyword page, 2026-10-18, director). KD 36+ under 1,000 is allowed only when nothing easier is left (R2.5): crochet hoodie (3,600/32) is pattern intent (its top listing is a crochet hoodie pattern), yarn sweatshirt 140/36 and knitter/knitting sweatshirt belong to #519. Unowned in docs/product-keyword-map.json and every open brief (checked this run); recorded there with this handle. Use it in the title-area copy, the first sentence and once in the meta; no stuffing.
+- **Print size:** FW 1650 (crewneck, no pouch, R5.3.8). Light-ink version for the dark color, dark-ink for the light color if one file cannot read on both.
+- **Copy:** line one = the joke + who wears it + when (R9.11). Describe only what is in the art (R8.3); never say we drew it (SOP line "Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, warmth and weight, wash care, gift fit, Christmas order-by Dec 8, free size exchange).
+- **Cover:** registry #854 (Puerto Rican woman, late 20s, curly dark-brown hair in a high puff, small gold hoops, medium build), CLAIMED. Alt starts 'Woman'. Scene: a sunny craft-fair booth in fall with folded crochet blankets and granny-square bags on a table behind her. Hands empty or at her sides. Generate with the product's own Printful mockup in the cover color as `--design` (--n 1); hair tied back or behind the shoulders (R6.9); nothing (hand, cup, hair, prop, another person) over any part of the print; read every word before saving; hair or body over a letter = composite fix first (R6.9). No alcohol, tools or weapons (R6.5). Max 2 attempts.
+- **Title / handle:** "Women's Crochet – No, I Won't Make You One Crewneck Sweatshirt" / `womens-crochet-no-i-wont-make-you-one-crewneck-sweatshirt` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** graphic-sweatshirts, sweatshirt, ai-art, intake-done. Crewneck: sweatshirt tags only (R7.5).
+- **Price:** $34.99 (R12.1 crewneck), NO compare-at (R12.1 honest compare-at: new product).
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d).
+---
+## Log
+- 2026-10-18 00:28 UTC director: brief written, READY (new art, keyword and 500+ favorite proof measured this run).
