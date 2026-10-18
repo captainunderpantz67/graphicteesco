@@ -1,4 +1,5 @@
-status: BUILDING [C] 2026-10-18 07:38 UTC
+status: REVIEW
+shopify: gid://shopify/Product/15364900913456
 lane: C
 type: new
 id: 606
@@ -27,3 +28,6 @@ kd: 22
 ---
 ## Log
 - 2026-10-18 06:26 UTC director: brief written, READY (lane C; kd 22; KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month or with a measured December surge; proof named under the gate).
+- 2026-10-18 07:43 UTC builder [C]: art 1 Recraft call kept (jogger, regret face, plain post, no text). print-prep --holes 4000 then compose-print: MILE ONE Alfa Slab cream (navy keyline on Sand file), WAS A MISTAKE. Alfa Slab faded red with keyline, wider than the art; Navy file has a cream halo around the art (Printful 1088757556), Sand file none (1088757560); docs/print-files/606-running-hoodie-*.png. FW 1500 TOP 0, 1,979 px high, clears the pouch on both mockups. DRAFT gid 15364900913456 (12 variants, $39.99, no compare-at, hoodies category, tags per brief). FAQs 5 x 52-54 words, order-by Dec 8. fal $0.04 art.
+- 2026-10-18 07:46 UTC builder [C]: mockups Navy + Sand + back (cream neck logo on Navy). Cover: 2 fal images (registry #942 pair); both times the model garbled WAS A MISTAKE., so the exact print was composited onto BOTH chests from the Printful file (R6.9; ponytail stays off the letters, no smear at zoom). Keyword runner hoodie 5,400/KD 22 in map. audit-local PASS 0 warn. fal total about $0.14. Sync 482704439 running; REVIEW at 12/12.
+- 2026-10-18 07:52 UTC builder [C]: Printful relink verified 12/12 (6 Sand on 1088757560, 6 Navy on 1088757556, back logo on all); REVIEW.

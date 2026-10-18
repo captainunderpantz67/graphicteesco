@@ -581,6 +581,8 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-christmas-cat-allegedly-graphic-tee': { src: '/covers/womens-christmas-cat-allegedly-graphic-tee.webp', alt: 'Woman with long box braids tied back and a small gold nose stud smiling in a cozy living room by a lit Christmas tree, wearing the natural Cat Allegedly. tee, a tuxedo cat on an armchair behind her' },
   'mens-fishing-shouldve-been-here-yesterday-hoodie': { src: '/covers/mens-fishing-shouldve-been-here-yesterday-hoodie.webp', alt: 'Man in his late 50s in a navy fishing hoodie on a misty lake dock at sunrise, hands in the pouch, a rod leaning on the rail beside him' },
   'womens-gym-lift-heavy-reply-later-cropped-hoodie': { src: '/covers/womens-gym-lift-heavy-reply-later-cropped-hoodie.webp', alt: 'Woman about 21 in a storm grey cropped hoodie in a sunlit gym with squat racks, high ponytail and hoops, a water bottle and phone on the bench beside her' },
+  'unisex-running-mile-one-was-a-mistake-hoodie': { src: '/covers/unisex-running-mile-one-was-a-mistake-hoodie.webp', alt: 'Man and woman in matching navy running hoodies on a park running path at dawn, hands in the pouches, water bottles on the ground beside them' },
+  'womens-pickleball-kitchen-gossip-club-hoodie': { src: '/covers/womens-pickleball-kitchen-gossip-club-hoodie.webp', alt: 'Woman in her early 60s with short silver curls in a navy pickleball hoodie on a sunny community court, friends chatting at the fence behind her, one hand in the pouch' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
