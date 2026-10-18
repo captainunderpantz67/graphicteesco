@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-18 03:40 UTC
+status: REVIEW
 lane: E
 type: new
 id: 536
@@ -29,3 +29,4 @@ kd: 47
 ## Log
 - 2026-10-18 01:30 UTC director: brief written, READY (lane E; sports-mom wave, verified caffeine line).
 - 2026-10-18 05:00 UTC [E] builder: art (Recraft, 2nd try; 1st had a solid navy door), print file docs/print-files/536-7am-check-in.png composed, Shopify DRAFT created gid 15364688380208 (6 colors, Maroon replaces Berry: not in blank 6400). Next: Printful file, sync, mockups, cover.
+- 2026-10-18 05:10 UTC [E] builder: REVIEW. Mockups for all 6 colors attached and linked, synced 36/36 (FW 1500 TOP 75; print recomposed shorter because the 1500x1800 area clipped a 1.58 aspect print), cover 2nd attempt (1st garbled 'yet'; composite left ghosting), registry #876 USED, audit clean except not-active, FAQs 52-60 words x5, Maroon replaces Berry (not on blank 6400). fal ~$0.30 total.
