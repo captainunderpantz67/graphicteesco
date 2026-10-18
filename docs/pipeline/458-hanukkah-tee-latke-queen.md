@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-18 00:52
+status: REVIEW
 lane: A
 type: twin
 id: 458
@@ -23,3 +23,4 @@ kd: 36
 - 2026-10-17 15:22 UTC director: brief written, READY (keyword measured this run, low-KD sweep; lane A).
 - 2026-10-17 16:26 UTC director: source #457 line rewritten to "Fried Food Is Tradition" (R3.1). Use the new line in this twin's title, handle and copy when it is built; stays READY.
 - 2026-10-18 01:12 UTC builder [A]: BUILDING: twin of #457, print file 1088601728 (copy of 1088459209), FW 1800. Shopify DRAFT gid 15364344054064 (BC 6400, White/Natural/Pink/Heather Blue Lagoon/Athletic Heather/Navy x S-3XL = 36, $24.99 no compare-at, FAQs 5 x 46-49 words incl. order by Nov 20, SEO 46/132). R6.2 check: lettering is Alfa Slab gingham in a real font (R4.8, #457 LIVE), no ring/arch/panel; fine. Mockups for all 6 colors + back attached and linked; cover reg #658 done (seedream 1 attempt), sheet made. Sync 482648619 queued. Resume: `FW=1800 python3 scripts/pf-sync.py setfile 482648619 1088601728 1080398177`; when 36/36 set REVIEW.
+- 2026-10-18 01:37 UTC builder [A]: BUILT. Twin of #457 (LIVE): R6.2 check on the source print (Printful file 1088459209): FRIED FOOD / IS / TRADITION are Alfa Slab gingham capitals in a real font (R4.8), no ring, arch, disc, box or panel; reused as is (re-hosted as file 1088601728, 3430x2982), FW 1800 for the relaxed women's tee, 36/36 variants linked, back logo kept. Shopify DRAFT (gid 15364344054064, BC 6400, White/Natural/Pink/Heather Blue Lagoon/Athletic Heather/Navy x S-3XL, $24.99 no compare-at, category tees, tags graphic-tees-for-women + funny-graphic-tees + hanukkah): copy matches the art (latkes, menorah, dreidel, bow, gingham), FAQs 5 x 46-49 words incl. order-by Nov 20 (Hanukkah Dec 4), SEO 46/132, primary 'hanukkah shirt for women' once in line one and once in meta. Mockups for all 6 colors + back, each color on its own photo; phone-size read OK. Cover reg #658 (seedream 1 attempt, white-tee mockup as --design): all three lines legible, menorah at the side, nothing over the print. fal ~$0.06. Audit script not runnable on drafts here; astro build passes.

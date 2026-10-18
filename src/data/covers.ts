@@ -487,6 +487,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-gym-sisyphus-had-bad-programming-hoodie': { src: '/covers/mens-gym-sisyphus-had-bad-programming-hoodie.webp', alt: 'Man in a sand Sisyphus Had Bad Programming gym hoodie with his hands in the pouch pocket in a busy gym at dawn with a dumbbell rack behind him' },
   'unisex-homebody-plans-canceled-mood-improved-hoodie': { src: '/covers/unisex-homebody-plans-canceled-mood-improved-hoodie.webp', alt: 'Man and woman on a couch in a cozy apartment on a rainy evening with a cat on the armrest wearing the Plans Canceled. Mood Improved. navy hoodies' },
   'womens-hockey-cold-rink-hot-takes-crewneck-sweatshirt': { src: '/covers/womens-hockey-cold-rink-hot-takes-crewneck-sweatshirt.webp', alt: 'Woman in a Sand Cold Rink, Hot Takes hockey crewneck sweatshirt in the stands of a community ice rink' },
+  'womens-bookish-do-not-sell-my-books-hoodie': { src: '/covers/womens-bookish-do-not-sell-my-books-hoodie.webp', alt: 'Woman with twist-out curls and tortoiseshell glasses in a sand Do Not Sell My Books bookish hoodie with her hands in the pouch pocket in an indie bookstore aisle on an autumn evening' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

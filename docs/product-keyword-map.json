@@ -7693,6 +7693,59 @@
    ],
    "measured": "2026-10-18",
    "note": "director: brief"
+  },
+  "womens-bookish-do-not-sell-my-books-hoodie": {
+   "claimed": [
+    "book hoodie",
+    "book lover hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "book hoodie",
+     "volume": 880,
+     "kd": 52
+    },
+    {
+     "phrase": "book lover hoodie",
+     "volume": 480,
+     "kd": 52
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-hanukkah-fried-food-is-tradition-graphic-tee": {
+   "claimed": [
+    "hanukkah shirt women"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "hanukkah shirt women",
+     "volume": 140,
+     "kd": 36
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-christmas-white-elephant-champion-crewneck-sweatshirt": {
+   "claimed": [
+    "white elephant sweatshirt"
+   ],
+   "gaps_measured": [],
+   "measured": "2026-10-18",
+   "note": "builder [A]: brief's 'holiday sweatshirt' (1,900/KD60) is already owned by womens-christmas-seasonally-overbooked-crewneck-sweatshirt, so this page targets its own design phrase 'white elephant sweatshirt' (unmeasured); director may assign a measured long-tail"
+  },
+  "unisex-hanukkah-spin-responsibly-graphic-tee": {
+   "claimed": [
+    "hanukkah shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "hanukkah shirt",
+     "volume": 480,
+     "kd": 48
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

@@ -31,7 +31,7 @@ You turn approved briefs into finished DRAFT products and hand them to the direc
    9b. **No known cover defect goes to REVIEW (director, 2026-10-17 late night; 8 of 33 in one batch came back for a cover flaw the builder had already logged or that a 5-second look shows: hair over the first letter on #281/#396/#415/#435/#487, no hood on hoodie covers #357/#364/#450, a tee on #368's second person):** if hair, a hand or a shoulder touches any letter, composite the exact print from the Printful mockup onto the cover (R6.9 method) before REVIEW, never as a note to the director. If the garment is wrong (no hood, a tee or a crewneck on a hoodie cover, on either person), use the one extra cover attempt with the mockup as `--design` first. Log what you checked; "director may redo" is not a REVIEW state.
    10. Status → REVIEW, log line, intake-log line, `npm run build`, commit "[<X>] review <id> <title>", push.
 3. Never sleep while waiting on Printful: start the next item's art and cover.
-4. If a step fails 3 times: status PARKED with the error, Telegram an alert (R14.2), take the next item.
+4. If a step fails 3 times: status PARKED with the error (no Telegram; the director digest counts parks), take the next item.
 5. **No READY items:** do lane chores: color backfill on older products in your lane (add legible colors up to 100 variants, sync, mockups), or finish PARKED items you can now fix. If none, release the lock and exit. Never write briefs.
 
 ## Never

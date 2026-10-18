@@ -1,5 +1,7 @@
 2026-10-18 01:40 UTC — [B] REVIEW #518 Women's Hockey – Cold Rink, Hot Takes Crewneck (DRAFT, synced 12/12, Sand + Sport Grey; fal $0.10).
+2026-10-18 08:01 UTC — [C] REVIEW #501 Women's Bookish Do Not Sell My Books hoodie (synced 12/12). Run summary: 15 items to REVIEW: REDO #364 #450 #468 #439 #442; parked #398 #502 finished; new #501 #503-#510. Director calls: #450 man shows no hood, #506 back-view cover (M of My soft), #508 faint smudge between the two women. fal ~$0.9 this run. Lock released.
 2026-10-18 01:32 UTC — [B] REVIEW #519 Women's Knitting – One More Row Crewneck (DRAFT, synced 12/12, Sand + Light Pink; fal $0.10).
+2026-10-18 07:41 UTC — [C] 501 Women's Bookish Do Not Sell My Books hoodie built (DRAFT, sync running, Sand + Light Pink; fal $0.06).
 2026-10-18 07:11 UTC — [C] REVIEW #510 Unisex National Park Running Late Bison Traffic heavyweight hoodie (DRAFT, synced 14/14, Sandstone + Storm Blue, composite cover; fal $0.16).
 2026-10-18 06:58 UTC — [C] REVIEW #509 Women's National Park Swipe Right on Public Land zip hoodie (DRAFT, synced 12/12, Ash + Navy, composite cover; fal $0.10).
 2026-10-18 06:56 UTC — [C] REVIEW #502 Sisyphus Had Bad Programming hoodie (cover finished, no composite; fal $0.06).
@@ -9,6 +11,7 @@
 2026-10-18 06:42 UTC — [C] REVIEW #398 Fine Dumpster Dining raccoon hoodie (cover finished: pullover-only couple, prints composited; fal $0.06).
 2026-10-18 03:06 UTC — [E] REVIEW #490 Plans Canceled. Mood Improved. homebody hoodie (composite cover on her chest, fal ~$0.2).
 2026-10-18 01:16 UTC — [B] REVIEW #498 Psalm 121 embroidered crewneck REDO (verse on two lines, 12/12, composite cover; fal $0).
+2026-10-18 01:37 UTC — [A] REVIEW #458 Women's Hanukkah Fried Food Is Tradition tee (DRAFT twin, 36/36 synced, 6 colors, cover 1 try; fal ~$0.06).
 2026-10-18 01:21 UTC — [D] Review batch 2: 2 LIVE (#333 New Year Same Guy tee, #498 Psalm 121 embroidered crew; ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn). 2 REDO: #365 (back zipper seam + sign text on cover), #508 (inpaint patch on cover).
 2026-10-18 02:41 UTC — [E] REVIEW #365 Dead Serious skull zip hoodie (fal ~$0.1).
 2026-10-18 05:56 UTC — [C] REVIEW #508 Women's National Park Two Queens Roaming hoodie (DRAFT, synced 12/12, Sand + Navy, two composited prints; fal $0.10).
@@ -40,7 +43,6 @@ RUNNING helper since 2026-10-18 00:44 UTC
 2026-10-18 01:51 UTC — [E] REVIEW #514 Velvet Hippo Social Club pitbull crewneck (fal ~$0.2).
 2026-10-18 00:25 UTC — [B] REVIEW #492 Women's Nurse – Embroidered Night Shift Silly Goose Crewneck (DRAFT, synced 12/12, Sand + Sport Grey, navy thread; fal $0.10).
 2026-10-18 00:51 UTC — [C] REVIEW #364 Orange Slice Manager zip hoodie REDO (hood visible, print composited on cover, Navy back mockup added; fal $0.06).
-RUNNING lane C since 2026-10-18 00:30 UTC
 2026-10-18 01:21 UTC — [E] REVIEW #466 Overthinkers Club embroidered hoodie (composite cover, fal ~$0.2).
 2026-10-18 00:18 UTC — [B] REVIEW #469 Women's Christmas – Embroidered Excused From Small Talk Crewneck (DRAFT, synced 12/12, Sand + Navy, one red thread; fal $0.14).
 2026-10-18 00:56 UTC — [E] REVIEW #472 Per My Last Email embroidered crewneck (fal ~$0.2).
