@@ -619,7 +619,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 824 | Ethiopian-American woman, early 30s, long braids pulled back with a scarf, small gold studs | USED 2026-10-18 — #498 Embroidered Psalm 121 Mountain Crewneck Sweatshirt cover (brief) |
 | 825 | Guatemalan-American woman, mid 20s, long dark hair in a high ponytail, small gold hoops | USED 2026-10-18 — #499 Holy Spirit, Mildly Spooky tee cover (pair 825-826) |
 | 826 | white man, late 20s, buzz-cut blond hair, light stubble | USED 2026-10-18 — #499 Holy Spirit, Mildly Spooky tee cover (pair 825-826) |
-| 827 | Japanese-American woman, early 30s, chin-length black bob, small pearl studs | CLAIMED 2026-10-17 — #500 Embroidered Merry-ish Crewneck Sweatshirt cover (brief) |
+| 827 | Japanese-American woman, early 30s, chin-length black bob, small pearl studs | USED 2026-10-17 — #500 Embroidered Merry-ish Crewneck Sweatshirt cover (brief) |
 | 433 | (reused as the brief specifies) | USED again 2026-10-17 — #257 Wishbone Champion tee cover redo (seedream, 1 attempt) |
 | 434 | (reused as the brief specifies) | USED again 2026-10-17 — #258 Wishbone Champion crewneck cover redo (seedream, 3 attempts: try 1 white bars top and bottom, try 2 black frame, cropped the frame off the kept image) |
 | 828 | Black woman, late 30s, shoulder-length twist-out curls, tortoiseshell glasses | USED 2026-10-18 - #501 Do Not Sell My Books hoodie cover (seedream, Sand, indie bookstore aisle) |
