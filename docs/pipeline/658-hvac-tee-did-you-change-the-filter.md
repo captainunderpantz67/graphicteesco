@@ -1,0 +1,29 @@
+status: READY
+lane: E
+type: new
+id: 658
+handle: mens-hvac-did-you-change-the-filter-graphic-tee
+kd: 30
+---
+## Men's HVAC – Did You Change the Filter? Tee
+- **Blank:** Bella+Canvas 3001 (Printful #71), unisex/men's tee, lightweight 4.2 oz, 100% combed ring-spun cotton (heathers contain polyester). Never "midweight". Copy facts from the Printful spec only (R7.1).
+- **Style:** A (R4.2), vintage to the edges, no badge, frame, border, rounded scene card or dark patch (R4.1, including the 2026-10-18 rounded-card line). New art: one Recraft v4 illustration call (--n 1), picture only, no words; at most 3 tries; if all are weak, PARK it and say why.
+- **Text on shirt (real fonts via scripts/compose-print.py, never drawn by the image model; spelled exactly):** DID YOU CHANGE (Alfa Slab One, cream with a navy keyline, above) / THE FILTER? (Alfa Slab One, larger, mustard, below). Solid ink; the question mark must survive compose-print.
+- **Hook:** A deadpan 1950s service tech in a cap and work shirt holds a filthy grey furnace filter at arm's length between two fingers, a small dust cloud puffing off it. DID YOU CHANGE THE FILTER? Every HVAC tech asks it on every call; homeowners recognise it too. Men's deadpan (R3.4).
+- **Three lines considered (R3.1):** "Did You Change the Filter?" · "Your Thermostat Is Not a Suggestion" · "I Keep Cool for a Living" (picked: the tech's real first question, outsiders get it; the second is long; the third is a soft pun)
+- **Joke QC (R3.7) / R3.12:** Outsider gets it in 3 seconds (a disgusting filter and the question); family-clean; no equipment brand; 5 words. R3.12 passes. Not a pun.
+- **Why it's not taken:** RankHero shows no top-listing sample for 'hvac shirt' (2026-10-18); 441 competing listings, almost empty. Our trade line so far is #649 plumber, #650 electrician, #651/#652 lineman, #581 mechanic: different trades and jokes. Builder checks under 50 listings (R3.7.2).
+- **Design gate (5 parts, docs/research/how-to-research-a-design.md):** search: hvac shirt 590 / KD 30 (RankHero 2026-10-18; competition 441) · proof: 'Dad Handy Man Shirt, Funny Dad Shirt, Fixer Of All Things' on page 1 of funny dad shirt and the trade-sarcasm format of #581 (proof logged there) · insider: the clogged filter as the answer to every 'my AC is broken' call · joke type: self-aware trade statement · look: 1950s service-manual illustration, faded red, navy, mustard, cream · gift test: wives and kids buying for the tech, Christmas and birthdays.
+- **Art prompt (Recraft v4, one image per call):** Vintage 1950s service-manual screen-print illustration of a deadpan HVAC service technician in a work cap and short-sleeve work shirt with a tool belt, holding a filthy grey pleated furnace air filter at arm's length between two fingers, a small cloud of dust puffing off it, a furnace cabinet with an open panel beside him. Faded red, navy, mustard, cream, soft black linework, halftone shading, worn screen-print texture, ragged broken edges, the subject is the shape. No text, no letters, no numbers, no logos, no background shape, no frame, no border, no badge, no rounded rectangle, no dark patch.
+- **Colors (R7.2):** Cream-ink file for Black, Navy, Dark Grey Heather, Heather Forest, Steel Blue; dark-ink file (DID YOU CHANGE in navy, THE FILTER? in faded red, no dark keyline) for Natural, Ash, Athletic Heather (R5.3.8). ≤12 colors x 7 sizes.
+- **Primary keyword:** hvac shirt: 590 / KD 30 (RankHero via scripts/keyword-gap.py, 2026-10-18, director; competition 441). KD 21–35 band, unowned. Under 1,000 a month but the easiest unclaimed trade phrase with a competition count.
+- **Print size:** FW 1650 TOP 75 (tee).
+- **Copy:** line one = the line + who wears it + when (R9.11), said plainly: no superlative opener built around the keyword (R8.3). Primary keyword in the title or SEO title, the first sentence and once in the meta; at most 3 times in all. Gift phrases at most once in copy, never the primary (R2.10). Describe only what is in the art; never say we drew it ("Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, weight, wash care, gift fit, Christmas order-by about Dec 8, free size exchange).
+- **Cover:** registry #998 (Puerto Rican man, mid 40s, short black hair, trimmed salt-and-pepper beard, stocky build), CLAIMED. Alt starts 'Man'. Scene: a basement utility room with a furnace and ductwork behind him, a tool bag on the floor, hands empty at his sides (no filter or tools in hand, R6.5). Hair and hands clear of the print; the D of DID checked letter by letter (R6.9). Printful mockup as `--design` (--n 1). Max 2 attempts.
+- **Title / handle:** "Men's HVAC – Did You Change the Filter? Tee" / `mens-hvac-did-you-change-the-filter-graphic-tee` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** graphic-tees-for-men, funny-graphic-tees, retro-graphic-tees, ai-art, intake-done
+- **Price:** $24.99 (R12.1 tee), NO compare-at.
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d). Before REVIEW: Printful default file checked on every variant and logged (R7.7, 2026-10-18 line); light file headline fill is dark ink with open counters (R5.3.8); the cover is an AI photo with every letter right at 200% or the Printful lifestyle mockup, never a composite (R6.10).
+---
+## Log
+- 2026-10-18 16:21 UTC director: brief written, READY (lane E; kd 30; KD ≤ 20 band has no unclaimed phrase with a competition count in this run's sweep of 70+ trade, hobby and dad phrases (darts shirt 14,800/10 has no competition count, R2.10), so KD 21–35 first; proof named under the gate).

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: E
 type: new
 id: 632
@@ -29,3 +29,4 @@ kd: 16
 - 2026-10-18 07:36 UTC director: brief written, READY (lane E; kd 16; KD ≤ 20 band with buyer intent, soccer overlap noted and handled in the title; hockey garment phrases all claimed; proof named under the gate).
 - 2026-10-18 builder [E]: built. Art: 1 Recraft call ($0.04, try 1 kept: 1960s goalie in a blue sweater and cream leather pads leaning on a red-post net, glove on the crossbar, mask on his head, three pucks and ice chips; no logo or number). NOT WEIRD. Graduate, JUST THE GOALIE. Alfa Slab One, set in compose-print with holes knocked out. Two files: dark ink (navy + red, cream keyline) 1088946397 for Natural, Ash, Athletic Heather; light file: Black, Navy, Dark Grey Heather, Heather Forest, Maroon on 1088946410, headline fill cream #f3e7cf and mustard, art halo 14 px. Print 3329 px wide, FW 1650 TOP 75. 8 colors x 7 sizes = 56 variants, 56/56 on the right file (7/7 per color), sync product 482790312. Mockups all 8 colors + back attached and linked; read at 400 px on Black, Navy, Natural, Athletic Heather. DRAFT gid 15365718835504 (category aa-1-13-8, $24.99 no compare-at, tags men + funny + retro + ai-art + intake-done, 5 FAQs 46-52 words incl. Dec 8, keyword goalie shirt 2900/KD16 in SEO title, 'hockey goalie' in line one so the intent is hockey, supporting hockey goalie shirt once in meta; kw map updated). Copy describes the glove resting on the red post (the art shows a lean, not a pat). Cover registry 972: attempt 1 kept (seedream, black tee, bun tied back, hands empty, gear bag at his feet; first letters N and J clear, chest clean). fal ~$0.1.
 - 2026-10-18 16:16 UTC builder [E]: sync 56/56 confirmed. REVIEW.
+- 2026-10-18 16:22 UTC director: approved from docs/review/632.jpg. ACTIVE + Online Store/Headless/Google & YouTube, audit --handle PASS 0 warn. LIVE. Copy: 'whether they are eight' implied kids' sizes we don't sell (R8.6), now 'eighteen'; 'beer-league' now 'adult-league' (family-clean).

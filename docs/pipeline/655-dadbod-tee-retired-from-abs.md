@@ -1,0 +1,29 @@
+status: READY
+lane: E
+type: new
+id: 655
+handle: mens-dad-bod-retired-from-abs-graphic-tee
+kd: 32
+---
+## Men's Dad Bod – Retired From Abs Tee
+- **Blank:** Bella+Canvas 3001 (Printful #71), unisex/men's tee, lightweight 4.2 oz, 100% combed ring-spun cotton (heathers contain polyester). Never "midweight". Copy facts from the Printful spec only (R7.1).
+- **Style:** A (R4.2), vintage to the edges, no badge, frame, border, rounded scene card or dark patch (R4.1, including the 2026-10-18 rounded-card line). New art: one Recraft v4 illustration call (--n 1), picture only, no words; at most 3 tries; if all are weak, PARK it and say why.
+- **Text on shirt (real fonts via scripts/compose-print.py, never drawn by the image model; spelled exactly):** RETIRED (Alfa Slab One, cream with a navy keyline, above) / FROM ABS. (Alfa Slab One, larger, mustard, below). Solid ink. The words DAD BOD are never on the print (a DADBOD apparel trademark application is pending at the USPTO; the phrase stays a descriptive page keyword only).
+- **Hook:** A proud 1950s circus-strongman-poster dad in a striped one-piece and handlebar mustache flexes one arm, soft round belly out, a hot dog in the other hand. RETIRED FROM ABS. Every dad who used to play ball laughs; his kids buy it. Men's deadpan (R3.4).
+- **Three lines considered (R3.1):** "Retired From Abs" · "Built This With Snacks" · "Abs Are Seasonal" (picked: a plain, deadpan statement with no pun; the second explains itself; the third needs a beat to land)
+- **Joke QC (R3.7) / R3.12:** Outsider gets it in 3 seconds (a soft-bellied strongman and a retirement notice); family-clean; no brand; 3 words. R3.12 passes. Not a pun.
+- **Why it's not taken:** RankHero shows no top-listing sample for 'dad bod shirt' (2026-10-18); 5,125 competing listings, so low saturation. Builder checks the exact line on Etsy is under 50 listings (R3.7.2); twist to "Retired From Abs (Honorably)" if not.
+- **Design gate (5 parts, docs/research/how-to-research-a-design.md):** search: dad bod shirt 1,600 / KD 32 (RankHero 2026-10-18; competition 5,125; 81% US; up 23% year on year, peak July) · proof: 'Custom Princess Security T-Shirt, Funny Dad Shirt' 835 favorites and 'Funny Dad Shirt, Just Resting My Eyes' on page 1 of funny dad shirt (same format: deadpan dad statement tee, docs/research/etsy-2026-10-17/rankhero-sweep-1.json) · insider: 'retired' from the high-school sport, the strongman pose every dad does at the pool · joke type: self-aware statement · look: 1950s circus strongman poster, faded red, navy, mustard, cream · gift test: kids and wives buy it for birthdays, Father's Day and Christmas.
+- **Art prompt (Recraft v4, one image per call):** Vintage 1950s circus strongman poster screen-print illustration of a cheerful middle-aged dad with a handlebar mustache in a striped old-time strongman one-piece, flexing one arm proudly, a soft round belly sticking out, holding a hot dog in a bun in the other hand, standing on a small low wooden crate. Faded red, navy, mustard, cream, soft black linework, halftone shading, worn screen-print texture, ragged broken edges, the subject is the shape. No text, no letters, no numbers, no logos, no background shape, no frame, no border, no badge, no rounded rectangle, no dark patch.
+- **Colors (R7.2):** Cream-ink file for Black, Navy, Dark Grey Heather, Heather Forest, Maroon; dark-ink file (RETIRED in navy, FROM ABS. in faded red, no dark keyline) for Natural, Ash, Athletic Heather (R5.3.8). ≤12 colors x 7 sizes.
+- **Primary keyword:** dad bod shirt: 1,600 / KD 32 (RankHero via scripts/keyword-gap.py, 2026-10-18, director; competition 5,125). KD 21–35 band, clear buyer intent, unowned. 'dad bod t shirt' (1,300 / KD 30) is the same search: use it once in copy, never as another page's primary. 'funny dad shirt' is a hub phrase: once at most.
+- **Print size:** FW 1650 TOP 75 (tee).
+- **Copy:** line one = the line + who wears it + when (R9.11), said plainly: no superlative opener built around the keyword (R8.3). Primary keyword in the title or SEO title, the first sentence and once in the meta; at most 3 times in all. Gift phrases at most once in copy, never the primary (R2.10). Describe only what is in the art; never say we drew it ("Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, weight, wash care, gift fit, Christmas order-by about Dec 8, free size exchange).
+- **Cover:** registry #995 (Mexican-American man, early 40s, short dark hair going grey at the temples, full mustache, soft dad build), CLAIMED. Alt starts 'Man'. Scene: a backyard cookout with a grill smoking behind him and string lights, hands empty at his sides (no food in hand, R6.5). Hair and hands clear of the print; the R of RETIRED checked letter by letter (R6.9). Printful mockup as `--design` (--n 1). Max 2 attempts.
+- **Title / handle:** "Men's Dad Bod – Retired From Abs Tee" / `mens-dad-bod-retired-from-abs-graphic-tee` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** graphic-tees-for-men, funny-graphic-tees, retro-graphic-tees, ai-art, intake-done
+- **Price:** $24.99 (R12.1 tee), NO compare-at.
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d). Before REVIEW: Printful default file checked on every variant and logged (R7.7, 2026-10-18 line); light file headline fill is dark ink with open counters (R5.3.8); the cover is an AI photo with every letter right at 200% or the Printful lifestyle mockup, never a composite (R6.10).
+---
+## Log
+- 2026-10-18 16:21 UTC director: brief written, READY (lane E; kd 32; KD ≤ 20 band has no unclaimed phrase with a competition count in this run's sweep of 70+ trade, hobby and dad phrases (darts shirt 14,800/10 has no competition count, R2.10), so KD 21–35 first; proof named under the gate).
