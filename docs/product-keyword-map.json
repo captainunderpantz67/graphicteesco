@@ -8351,23 +8351,22 @@
   },
   "womens-crochet-no-i-wont-make-you-one-hoodie": {
    "claimed": [
-    "gifts for crochet lovers"
+    "gifts for crochet lovers",
+    "crafter gifts"
    ],
    "gaps_measured": [
     {
      "phrase": "gifts for crochet lovers",
      "volume": 1600,
-     "kd": 17,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 17
     },
     {
      "phrase": "crafter gifts",
      "volume": 2400,
-     "kd": 16,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 16
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-christmas-attending-under-protest-hoodie": {
    "claimed": [

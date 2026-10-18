@@ -1,4 +1,5 @@
 status: BUILDING [C] 2026-10-18 06:16
+shopify: gid://shopify/Product/15364795826480
 lane: C
 type: twin
 id: 568
@@ -22,3 +23,4 @@ kd: 17
 ---
 ## Log
 - 2026-10-18 03:25 UTC director: brief written, READY (hoodie twin of LIVE #520; keyword measured this run).
+- 2026-10-18 06:19 UTC builder [C]: built from #520's print as is (Printful file 1088621536, 3411x3073). R6.2 check: both lines real fonts (red slab with cream keyline), no ring/arch/badge/card; the sweater is the shape with worn fringe. The print is wider than tall (ratio 0.90, not the brief's 1.33): 1,351 px high at FW 1500, ends well above the pouch on Sand and Sport Grey; nothing shrunk, no re-lay needed. MAKE YOU ONE. reads at phone size on Sport Grey. DRAFT gid 15364795826480 (12 variants, $39.99, no compare-at, category hoodies, tags per brief). FAQs 5 x 40-60 words, order-by Dec 8. Keywords gifts for crochet lovers 1,600/17 + crafter gifts 2,400/16 in the map. Mockups Sand + Sport Grey + back attached, variants linked. Cover: 2 fal images (registry #908). Attempt 1 had the braid touching the N of NO, so attempt 2 says the braid hangs behind her back; kept attempt 2: hood visible, hands in pouch, braid clear of every letter, no real tag or yarn on the print, all words read at 300%. audit-local PASS. Printful sync 482697461 running; REVIEW once 12/12.
