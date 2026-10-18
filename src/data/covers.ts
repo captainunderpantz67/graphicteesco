@@ -462,6 +462,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-bunny-cute-not-approachable-cropped-hoodie': { src: '/covers/womens-bunny-cute-not-approachable-cropped-hoodie.webp', alt: 'Woman on a college-town cafe patio in autumn with a teacup on the table beside her wearing the Politely, No. bunny cropped hoodie' },
   'mens-golf-breakfast-ball-enthusiast-heavyweight-hoodie': { src: '/covers/mens-golf-breakfast-ball-enthusiast-heavyweight-hoodie.webp', alt: 'Man smiling in a storm blue Breakfast Ball Enthusiast golf heavyweight hoodie with hands in the pouch pocket on a golf course first tee at sunrise, clubhouse and golf carts behind him' },
   'unisex-golf-not-cheating-improving-my-lie-hoodie': { src: '/covers/unisex-golf-not-cheating-improving-my-lie-hoodie.webp', alt: 'Man and woman in matching navy Not Cheating Improving My Lie golf hoodies with their hands in the pouch pockets at a driving range at golden hour' },
+  'womens-unicorn-magical-mostly-tired-zip-hoodie': { src: '/covers/womens-unicorn-magical-mostly-tired-zip-hoodie.webp', alt: 'Woman seen from behind in a cozy living room by a window of autumn trees wearing the Magical, Mostly Tired unicorn navy zip hoodie' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
