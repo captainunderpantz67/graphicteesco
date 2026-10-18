@@ -509,6 +509,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-running-pace-leisurely-zip-hoodie': { src: '/covers/unisex-running-pace-leisurely-zip-hoodie.webp', alt: 'Man and woman in matching light grey Pace: Leisurely snail zip hoodies, looking back over their shoulders on a park running path on a cool autumn morning with the snail print on their backs' },
   'womens-golden-retriever-i-brought-you-a-sock-heavyweight-hoodie': { src: '/covers/womens-golden-retriever-i-brought-you-a-sock-heavyweight-hoodie.webp', alt: 'Woman in a sandstone I Brought You a Sock golden retriever heavyweight hoodie smiling in an autumn backyard with a golden retriever holding a striped sock beside her' },
   'womens-clocked-it-said-nothing-hoodie': { src: '/covers/womens-clocked-it-said-nothing-hoodie.webp', alt: 'Woman in a maroon Clocked It. Said Nothing. cat hoodie smiling on a sunny apartment window seat with houseplants and a tabby cat asleep on the sill beside her' },
+  'womens-western-hold-your-horses-im-overstimulated-graphic-tee': { src: '/covers/womens-western-hold-your-horses-im-overstimulated-graphic-tee.webp', alt: 'Woman on a western boutique porch with hay bales and a pink cowboy hat on the rail, hands in her pockets, wearing the Hold Your Horses, I\'m Overstimulated tee' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

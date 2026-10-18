@@ -3,6 +3,7 @@ lane: E
 type: new
 id: 533
 handle: womens-western-hold-your-horses-im-overstimulated-graphic-tee
+shopify: gid://shopify/Product/15364524310832
 kd: 46
 ---
 ## Women's Western – Hold Your Horses, I'm Overstimulated Tee
