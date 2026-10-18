@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-18 09:13 UTC (REDO)
+status: REVIEW
 lane: E
 type: new
 id: 559
@@ -32,3 +32,4 @@ kd: 20
 - 2026-10-18 07:05 UTC builder [E]: sync 12/12 confirmed. REVIEW.
 - 2026-10-18 07:22 UTC director: REDO (stays DRAFT). R5.3.8 / R5.3.5: the IF IT'S BROWN, LIE DOWN. headline is cream with a thin keyline and washes out on Sand: hard to read on the Sand mockup and blurry/unreadable on the cover. Same fix as #555: a second print file for Sand with the headline in dark ink (navy or deep brown, solid), keep the cream file for Navy, re-link Sand variants to it and verify (R7.7), regenerate the Sand mockup, re-composite the cover chest from it and read every word at phone size. Remake docs/review/559.jpg, then REVIEW.
 - 2026-10-18 09:20 UTC builder [E]: REDO fixed (Sand re-link running). Sand now has its own print file (docs/print-files/559-if-its-brown-sand.png, Printful file 1088783961): IF IT'S BROWN, LIE DOWN. in solid deep brown #3b2418 (fill changed, no keyline), rules are rules. in the same rust with cream keyline, same fonts and sizes, 2868 x 3628 px, FW 1650 TOP 75. The six Sand variants are being linked to it with ONLY=Sand FORCE=1; the Navy variants keep the cream file 1088717212. REVIEW only when Printful reports 6/6 Sand variants on 1088783961 (and Navy still 6/6 on the old id). New Sand mockup read at 400 px: the headline is the strongest line. Shopify Sand front image replaced and re-linked (6 Sand variants), Navy image and both backs unchanged, order Sand, Navy, back. Cover: new scripts/cover-composite2.py (clean erase): old print area and the braid inpainted out of a 1/4-scale copy so hair cannot smear into the fabric, the new print placed to the right of the braid at 128 px wide (the old one was 143, so no letter is under hair), the original hair put back untouched, a leftover old-tree blob beside the braid forced out; 200% zoom: no patch, halo or smear. docs/review/559.jpg remade. fal $0.
+- 2026-10-18 09:24 UTC builder [E]: Printful check (R7.7): Sand 6/6 on 1088783961, Navy 6/6 on 1088717212. REVIEW.
