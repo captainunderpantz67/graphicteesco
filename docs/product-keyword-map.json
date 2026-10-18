@@ -7675,8 +7675,7 @@
      "kd": 56
     }
    ],
-   "measured": "2026-10-18",
-   "note": "director: brief"
+   "measured": "2026-10-16"
   },
   "mens-welder-stacks-dimes-wants-more-dimes-graphic-tee": {
    "claimed": [
@@ -7759,49 +7758,41 @@
   },
   "mens-fishing-love-language-hoodie": {
    "claimed": [
-    "fishing gifts for dad"
+    "fishing gifts for dad",
+    "funny fishing hoodie"
    ],
    "gaps_measured": [
     {
      "phrase": "fishing gifts for dad",
      "volume": 1000,
-     "kd": 24,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 24
     },
     {
      "phrase": "funny fishing hoodie",
      "volume": 70,
-     "kd": 50,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 50
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-hockey-cold-rink-hot-takes-hoodie": {
    "claimed": [
-    "hockey mom sweater"
+    "hockey mom sweater",
+    "hockey mom hoodie"
    ],
    "gaps_measured": [
     {
      "phrase": "hockey mom sweater",
      "volume": 880,
-     "kd": 38,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 38
     },
     {
      "phrase": "hockey mom hoodie",
      "volume": 260,
-     "kd": 44,
-     "source": "RankHero via scripts/keyword-gap.py"
-    },
-    {
-     "phrase": "ice hockey hoodie",
-     "volume": 210,
-     "kd": 44,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 44
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-knitting-one-more-row-hoodie": {
    "claimed": [
@@ -7824,17 +7815,10 @@
     {
      "phrase": "faith based hoodie",
      "volume": 260,
-     "kd": 32,
-     "source": "RankHero via scripts/keyword-gap.py"
-    },
-    {
-     "phrase": "god hoodie",
-     "volume": 3600,
-     "kd": 38,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 32
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-grandpa-i-fix-things-after-naps-hoodie": {
    "claimed": [
@@ -8401,11 +8385,10 @@
     {
      "phrase": "teacher clothes",
      "volume": 9900,
-     "kd": 32,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 32
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-nurse-embroidered-night-shift-silly-goose-hoodie": {
    "claimed": [
@@ -8474,23 +8457,22 @@
   },
   "mens-grandpa-ask-your-grandmother-graphic-tee": {
    "claimed": [
-    "funny grandpa shirt"
+    "funny grandpa shirt",
+    "papa shirt"
    ],
    "gaps_measured": [
     {
      "phrase": "funny grandpa shirt",
      "volume": 1300,
-     "kd": 50,
-     "competition": 40723
+     "kd": 50
     },
     {
      "phrase": "papa shirt",
      "volume": 2900,
-     "kd": 52,
-     "competition": 85011
+     "kd": 52
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "unisex-christmas-card-photo-survivor-crewneck-sweatshirt": {
    "claimed": [
