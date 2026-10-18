@@ -460,6 +460,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-embroidered-overthinkers-club-hoodie': { src: '/covers/unisex-embroidered-overthinkers-club-hoodie.webp', alt: 'Man and woman in a cozy late-night kitchen under a warm pendant light with hands in their pockets wearing the Overthinkers Club embroidered Sand hoodies' },
   'unisex-pitbull-velvet-hippo-social-club-crewneck-sweatshirt': { src: '/covers/unisex-pitbull-velvet-hippo-social-club-crewneck-sweatshirt.webp', alt: 'Man and woman on a fall park path with a pit bull sitting between them wearing the Velvet Hippo Social Club crewneck' },
   'womens-bunny-cute-not-approachable-cropped-hoodie': { src: '/covers/womens-bunny-cute-not-approachable-cropped-hoodie.webp', alt: 'Woman on a college-town cafe patio in autumn with a teacup on the table beside her wearing the Politely, No. bunny cropped hoodie' },
+  'mens-golf-breakfast-ball-enthusiast-heavyweight-hoodie': { src: '/covers/mens-golf-breakfast-ball-enthusiast-heavyweight-hoodie.webp', alt: 'Man smiling in a storm blue Breakfast Ball Enthusiast golf heavyweight hoodie with hands in the pouch pocket on a golf course first tee at sunrise, clubhouse and golf carts behind him' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
