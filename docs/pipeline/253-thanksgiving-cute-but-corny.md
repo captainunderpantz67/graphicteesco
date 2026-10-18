@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: A
 type: new
 id: 253
@@ -26,3 +26,4 @@ handle: womens-thanksgiving-cute-but-corny-graphic-tee
 - 2026-10-17 03:14 UTC director: approved from docs/review/253.jpg; ACTIVE + Online Store + Headless + Google; cohesion-audit --handle PASS (0 warn). LIVE.
 - 2026-10-18 02:55 UTC Claude: REDO, lettering only (R5.3.10, Sam 2026-10-18: pattern-filled letters read as clip-art). Keep the art and the line. Re-set the words in a bold real font, solid ink with at most a keyline, via compose-print.py; new Printful file + mockups on the SAME product; stays ACTIVE (never unpublish). No fal needed. Twins share the new file.
 - 2026-10-18 builder [A]: Cute But Corny tee: R5.3.10 REDO done, no fal spend. Gingham removed: CUTE BUT / CORNY solid rust keylined letters, original bow and corn re-stacked; Printful file 1088701547, FW 1500, sync 482341992 re-link queued. New mockups for every color + back replace the old media and variants re-linked; cover = new print composited onto the same live photo (R6.9, mug region kept on #149); copy/SEO rewritten without plaid/gingham (note for director: #149's keyword-map entry 'plaid sweatshirt' no longer fits the copy). Product stays ACTIVE. Until the re-link finishes (check default file on every variant) Printful still has the old file.
+- 2026-10-18 05:21 UTC director: REDO, Printful only (cover, mockups and copy approved). R7.7: Printful still serves the OLD pattern-filled file on every variant (checked 1087876219 on all 30 variants of sync 482341992 at 2026-10-18 05:21 UTC), so buyers of this ACTIVE product still get the plaid/gingham print the mockups no longer show. Finish the re-link to 1088701547 on every variant and confirm with GET /sync/products/482341992 before REVIEW. R5.1: docs/review/253.jpg was not regenerated after the REDO (it still shows the pattern-filled print); remake it from the new print, the new cover and two new mockups. The director checked this round from the live cover and Shopify mockups instead.

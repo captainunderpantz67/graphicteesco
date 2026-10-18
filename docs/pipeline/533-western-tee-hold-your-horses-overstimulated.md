@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: E
 type: new
 id: 533
@@ -29,3 +29,4 @@ kd: 46
 ## Log
 - 2026-10-18 01:30 UTC director: brief written, READY (lane E; women's overstimulated format, 7,664-favorite proof).
 - 2026-10-18 04:30 UTC [E] builder: synced 30/30 (FW 1650 TOP 75), mockups, cover and review sheet done; REVIEW.
+- 2026-10-18 05:21 UTC director: LIVE. Sheet reviewed (R3/R4/R5/R6/R8/R13.3 pass); Printful file checked on every variant; ACTIVE + Online Store/Headless/Google & YouTube; cohesion-audit --handle PASS (0 warn). Copy: overstimulated shirt cut from 4 to 3 uses (audit stuffing warn).

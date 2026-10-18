@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: E
 type: new
 id: 534
@@ -29,3 +29,4 @@ kd: 38
 ## Log
 - 2026-10-18 01:30 UTC director: brief written, READY (lane E; sports-mom wave, 899-favorite dance mom proof).
 - 2026-10-18 04:30 UTC [E] builder: synced 30/30 (FW 1650 TOP 75), mockups, cover and review sheet done; REVIEW.
+- 2026-10-18 05:21 UTC director: REDO (stays DRAFT). (1) R5.3.2 / R3.7.1: the punchline WALLET EMPTY. is missing from every Printful mockup: the print is clipped by the 6400's 1500x1800 area, so the shirt buyers get reads only BUN TIGHT. SMILE ON. Recompose the print shorter (move WALLET EMPTY. up under her feet, shrink the figure, keep both lines at full width) so the whole print sits inside the area, re-sync, and read all three lines on every mockup. (2) R6.8 / R6.9: the cover chest is a smeared composite with a lighter blotchy patch around the print, and it shows a print bigger than the real one; re-composite from the new mockup with no halo. Copy line one stays.
