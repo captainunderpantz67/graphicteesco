@@ -27,3 +27,4 @@ kd: 8
 ---
 ## Log
 - 2026-10-18 07:36 UTC director: brief written, READY (lane A; kd 8; KD ≤ 20 gift-intent band; christmas gifts for wife 40,500 measured with a December surge; proof named under the gate).
+- 2026-10-18 14:06 UTC Claude: KEYWORD FIX before build (R2.10). The primary is a gift-guide search ("christmas gifts for ..."): huge volume, single-digit KD and no competition count on RankHero, the same false signal as "park sweatshirt". People searching it want idea lists, not one shirt. Builder: re-target the primary to a real shirt phrase with a competition count (try e.g. "funny christmas shirt", "secret santa gift", "matching christmas shirts", "christmas shirt for brother" and pick the best measured one, not claimed in docs/product-keyword-map.json). The gift phrase may appear once in copy as a secondary. Then build as normal.
