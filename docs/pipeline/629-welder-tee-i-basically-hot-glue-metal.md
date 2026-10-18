@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-18 17:10
+status: REVIEW
 lane: E
 type: new
 id: 629
@@ -28,3 +28,5 @@ kd: 32
 - **Director note (2026-10-18):** "hot glue for metal" is a known welder meme. Builder: search Etsy for the exact line first (R3.7.2); if 50+ listings carry it, use the alternate "Sunburned Indoors." with the same art and log the switch.
 ## Log
 - 2026-10-18 07:36 UTC director: brief written, READY (lane E; kd 32; easier welder phrases claimed or twins of claimed searches, so KD 21–35 with funny intent; proof named under the gate).
+- 2026-10-18 builder [E]: built. Art: 1 Recraft call ($0.04, try 1 kept: kneeling welder in a blue jacket, orange hood and gloves on a steel beam, sparks, small glue gun hanging off a toolbox; no brand marks). I BASICALLY Big Shoulders Display 900, HOT GLUE METAL. Alfa Slab One safety orange #e8601c, set in compose-print with holes knocked out. Two files: dark ink (navy + orange with navy keyline) 1088932598 for Natural, Ash, Athletic Heather; light file: Black, Navy, Dark Grey Heather, Heather Forest, Maroon on 1088932611, headline fill cream #f3e7cf with a navy keyline, art halo 14 px. Print 3337 px wide, FW 1650 TOP 75. 8 colors x 7 sizes = 56 variants, 56/56 on the right file (7/7 per color), sync product 482783365. Mockups all 8 colors + back attached and linked; read at 400 px on Black, Heather Forest, Natural, Athletic Heather. DRAFT gid 15365693604144 (category aa-1-13-8, $24.99 no compare-at, tags men + funny + retro + ai-art + intake-done, 5 FAQs 47-55 words incl. Dec 8 and a plain 'not flame resistant, not protective gear' answer, keyword funny welder shirt 320/KD32 in line one and meta; kw map updated). Cover registry 969: attempt 1 kept (seedream, black tee, hands empty, hood on the bench; first letters I and H clear, chest clean). fal ~$0.1.
+- 2026-10-18 15:51 UTC builder [E]: sync 56/56 confirmed. REVIEW.

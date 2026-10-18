@@ -9156,24 +9156,16 @@
   },
   "mens-welder-i-basically-hot-glue-metal-graphic-tee": {
    "claimed": [
-    "funny welder shirt",
-    "funny welding shirt"
+    "funny welder shirt"
    ],
    "gaps_measured": [
     {
      "phrase": "funny welder shirt",
      "volume": 320,
      "kd": 32
-    },
-    {
-     "phrase": "funny welding shirt",
-     "volume": 320,
-     "kd": 38,
-     "competition": 1742
     }
    ],
-   "measured": "2026-10-18",
-   "note": "director: brief"
+   "measured": "2026-10-16"
   },
   "womens-nana-mom-said-no-thats-cute-crewneck-sweatshirt": {
    "claimed": [
