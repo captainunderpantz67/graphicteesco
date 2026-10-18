@@ -553,6 +553,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-pitbull-scary-dog-afraid-of-the-vacuum-graphic-tee': { src: '/covers/unisex-pitbull-scary-dog-afraid-of-the-vacuum-graphic-tee.webp', alt: 'Man and woman in matching navy Scary Dog pit bull tees on a sunny fall porch with a grey pit bull at their feet' },
   'womens-mimi-says-yes-hoodie': { src: '/covers/womens-mimi-says-yes-hoodie.webp', alt: 'Woman in her early 60s with short natural grey hair and red cat-eye glasses wears the Mimi Says Yes sand hoodie on a sunny fall porch, hands in the pouch' },
   'mens-welder-stacks-dimes-wants-more-dimes-graphic-tee': { src: '/covers/mens-welder-stacks-dimes-wants-more-dimes-graphic-tee.webp', alt: 'Man in a navy Stacks Dimes Wants More Dimes welder tee standing in a welding shop bay with stacked steel pipe and a welding hood beside him' },
+  'womens-gigi-because-grandma-sounded-old-hoodie': { src: '/covers/womens-gigi-because-grandma-sounded-old-hoodie.webp', alt: 'Woman in her early 50s with honey-blonde hair behind her shoulders and gold hoop earrings wears the Gigi sand hoodie on a fall boutique street, hands in the pouch' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
