@@ -471,7 +471,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 578 | Black woman, mid 40s, short silver-streaked natural curls, red-framed glasses | RESERVED — #387 Official Tree Topper Crewneck Sweatshirt cover |
 | 579 | Persian-American woman, early 30s, long dark wavy hair in a claw clip, small gold studs | USED 2026-10-16 — #388 Seasonally Overbooked crewneck cover (REDO art: new calendar print; seedream 2 attempts, 1st hair over the Y) |
 | 580 | White woman, late 30s, honey-blonde lob, freckles, chunky knit scarf at her side | RESERVED — #389 Seasonally Overbooked Graphic Tee cover |
-| 581 | man AND woman together: Somali-American man, early 30s, close-cropped hair, short beard; white woman, early 30s, red braids | RESERVED — #390 Gnome Comment Graphic Tee cover |
+| 581 | man AND woman together: Somali-American man, early 30s, close-cropped hair, short beard; white woman, early 30s, red braids | USED 2026-10-18 — #390 gnome tee cover (seedream, 1 attempt) |
 | 582 | man AND woman together: Vietnamese-American man, late 20s, textured crop, round glasses; Black woman, late 20s, long box braids in a high pony | RESERVED — #391 Gnome Comment Crewneck Sweatshirt cover |
 | 583 | Puerto Rican woman, mid 30s, long dark curls, small nose ring | RESERVED — #392 Here for the Scraps Hoodie cover |
 | 584 | Samoan-American woman, late 30s, long dark hair in a low ponytail, team-color scrunchie | RESERVED — #393 Hut Hut Hooray Crewneck Sweatshirt cover |
