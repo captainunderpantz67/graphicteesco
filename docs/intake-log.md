@@ -1,4 +1,5 @@
 2026-10-18 01:16 UTC — [B] REVIEW #498 Psalm 121 embroidered crewneck REDO (verse on two lines, 12/12, composite cover; fal $0).
+2026-10-18 01:21 UTC — [D] Review batch 2: 2 LIVE (#333 New Year Same Guy tee, #498 Psalm 121 embroidered crew; ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn). 2 REDO: #365 (back zipper seam + sign text on cover), #508 (inpaint patch on cover).
 RUNNING director since 2026-10-18 01:13 UTC
 2026-10-18 02:41 UTC — [E] REVIEW #365 Dead Serious skull zip hoodie (fal ~$0.1).
 2026-10-18 05:56 UTC — [C] REVIEW #508 Women's National Park Two Queens Roaming hoodie (DRAFT, synced 12/12, Sand + Navy, two composited prints; fal $0.10).

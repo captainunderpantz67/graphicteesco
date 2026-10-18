@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 333
@@ -28,3 +28,4 @@ kd: 35
 - 2026-10-17 19:45 UTC Claude: READY (Sam: ship the batch). Shopify DRAFT already exists: do art only, then sync, mockups, cover, review. Words set in real fonts with scripts/compose-print.py (AI draws the picture only, no lettering); big on the chest (R4.8). Lane A.
 - 2026-10-18 01:12 UTC builder [A]: BUILDING: art (2 Recraft calls, picture only; NEW YEAR, / SAME GUY in Alfa Slab real font), print 3157x3991, Printful file 1088600339, FW 1650. Shopify DRAFT gid 15363028943152 copy fixed to the real art, FAQs 5 x 49-50 words incl. Dec 20, 6 colors mockups + back attached and linked. Cover reg #522 done (seedream 1 attempt), sheet made. Sync 482392637 running (42 variants). Resume: `FW=1650 python3 scripts/pf-sync.py setfile 482392637 1088600339 1080398177`; when 42/42 set REVIEW.
 - 2026-10-18 01:19 UTC builder [A]: BUILT. Art: 2 Recraft calls ($0.08; first full-body try read clownish, second waist-up 1950s ad-man kept; picture only, no lettering). NEW YEAR, / SAME GUY set in Alfa Slab One (real font, R4.8) in faded red with a cream keyline. Print 3157x3991, Printful file 1088600339, FW 1650, 42/42 variants linked, back logo kept. Shopify DRAFT (gid 15363028943152, BC 3001, White/Natural/Ash/Athletic Heather/Heather Dust/Tan x S-4XL, $24.99 no compare-at): copy re-checked against the real art (cardigan, striped party hat, notepad, red slab capitals), FAQs 5 x 49-50 words incl. order-by Dec 20, SEO within limits. Mockups: 6 colors + back, each color's variants on its own photo; phone-size read OK on all six. Cover reg #522 (seedream 1 attempt, white-tee mockup as --design; light stubble, no glasses on head, logged): both lines read, hands in pockets, nothing over the print. fal ~$0.14. Audit script not runnable on drafts here; astro build passes.
+- 2026-10-18 01:21 UTC director: LIVE. Deadpan 1950s ad-man reads in 2 seconds, backyard cover fits. ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn.
