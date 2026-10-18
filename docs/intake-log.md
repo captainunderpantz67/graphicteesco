@@ -1,3 +1,4 @@
+RUNNING helper since 2026-10-18 00:44 UTC
 2026-10-18 01:55 UTC — [C] REVIEW #442 Calculated. Mostly. chess zip hoodie REDO (new smug-knight art + pawn, Printful re-linked 12/12, new mockups, new hooded cover; fal $0.10).
 2026-10-18 02:26 UTC — [E] REVIEW #406 Politely, No. bunny cropped hoodie (composite cover, fal ~$0.2).
 2026-10-18 01:31 UTC — [C] REVIEW #439 My Backhand Has Opinions cropped hoodie REDO (racket pixel blocks cleaned, strings recolored cream, re-linked 10/10, new mockups).
