@@ -481,6 +481,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-national-park-two-queens-roaming-hoodie': { src: '/covers/womens-national-park-two-queens-roaming-hoodie.webp', alt: 'Two women in matching navy Two Queens Roaming bison hoodies with hands in the pouch pockets on a gravel pullout above a grassland valley with bison grazing in the distance' },
   'mens-skull-dead-serious-zip-hoodie': { src: '/covers/mens-skull-dead-serious-zip-hoodie.webp', alt: 'Man looking back over his shoulder outside a vintage tattoo parlor at night wearing the Dead Serious skull navy zip hoodie' },
   'womens-national-park-swipe-right-on-public-land-zip-hoodie': { src: '/covers/womens-national-park-swipe-right-on-public-land-zip-hoodie.webp', alt: 'Woman looking back and smiling over her shoulder in a navy Swipe Right on Public Land zip hoodie with the hood down and her braid over the front shoulder, on a canyon-rim overlook trail at sunrise' },
+  'womens-knitting-one-more-row-crewneck-sweatshirt': { src: '/covers/womens-knitting-one-more-row-crewneck-sweatshirt.webp', alt: 'Woman in a Sand One More Row knitter crewneck sweatshirt in a lamplit living room with a basket of yarn' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
