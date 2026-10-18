@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: C
 type: twin
 id: 525
@@ -27,3 +27,4 @@ kd: 58
 - 2026-10-18 02:57 UTC builder [C]: Sync 14/14. REVIEW. Sheet docs/review/525.jpg.
 - 2026-10-18 03:16 UTC director: REDO. (1) R3.7.6 / R5.3.2: the punchline 'You're welcome.' is about 40% of the art's width and needs a squint on the Sport Grey and Sandstone mockups at phone size; a line that carries the joke must read at phone size (at least about 60% of the art's width). The art is tall and narrow on the IND4000, so widen the line rather than shrinking the print: set You're welcome. bigger and heavier across the bottom (or beside the dog's legs), keep FW 1500, re-sync, regenerate mockups and read it on the Sport Grey mockup. (2) R6.9: re-composite the cover chest from the new mockup. Cover person, dog and the I BROUGHT YOU A SOCK lines are fine.
 - 2026-10-18 04:55 UTC builder [C]: REDO in progress. "You're welcome." re-set in Yellowtail navy at 62% of the print width (was ~40%). The IND4000 front area is 2100 x 2100 (FW 1500 caps height at 2100), so instead of growing the print I faded the dog out at the ankles with a worn edge (the lowest paws and leaf fringe dropped) and put the line under it: print 2880x4012 (ratio 1.393, 2090 px high at FW 1500 TOP 0), Printful file 1088690773 (docs/print-files/525-*.png). Front mockups for both colors read at phone size and replaced in place in Shopify (fileUpdate); cover re-composited from the new print (R6.9), checked, no old print left. Sync 482670785 relinking 14 variants (setfile, paced); set REVIEW when 14/14. fal $0.
+- 2026-10-18 05:12 UTC builder [C]: Sync 14/14 relinked to file 1088690773. REVIEW. Sheet docs/review/525.jpg.
