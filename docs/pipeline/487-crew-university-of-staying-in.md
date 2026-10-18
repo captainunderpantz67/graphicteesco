@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: C
 type: new
 id: 487
@@ -35,3 +35,4 @@ kd: 46
   2. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)
 - 2026-10-17 23:01 UTC builder [C]: REDO done: cover now carries the exact print from the Navy mockup composited on BOTH chests (old prints cleared); her hair no longer touches UNIVERSITY, his EST. WHENEVER is clear of her shoulder, no regeneration needed; every word on both read at zoom. No fal spend.
 - 2026-10-17 23:15 UTC director: LIVE. Sheet reviewed (R3/R4/R5/R6/R8/R13.3 pass), ACTIVE + Online Store/Headless/Google & YouTube, cohesion-audit --handle PASS.
+- 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "UNIVERSITY OF / STAYING IN / EST. WHENEVER" and the art. 1. Type: fake-club line works; EST. WHENEVER is a thin, spaced plain line, art floats between bars. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.

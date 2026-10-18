@@ -1,5 +1,5 @@
-RUNNING director since 2026-10-18 17:18 UTC
 PAUSED 2026-10-18 16:55 UTC — Claude (Sam: quality went backwards: pasted mockups, weak fonts, weak lines). No new builds until docs/backlog/quality-reset.md says RESUME.
+2026-10-18 17:23 UTC — [D] Director run (quality reset PAUSED, so step 1 only): graded all 256 products that went LIVE since 2026-10-17 18:00 UTC from their review sheets against the bar (479/483/493): A 57 stay LIVE, B 50 (type only) and C 149 (new line + type) set to REDO with numbered notes; products stay ACTIVE. List in docs/backlog/quality-reset.md. Published nothing, no briefs, no Telegram (digest goes after 00:00 UTC). Waiting on a director call, left for after RESUME: #638 zip-hoodie couple cover. Lock released.
 2026-10-18 16:41 UTC — [B] REVIEW #385 Men's Fishing Fisher of Men, Mostly Bass Half Zip (14/14 synced; hand re-lettered, cover 576)
 2026-10-18 16:46 UTC — [C] Builder run: #638 pit bull zip hoodie built except the cover (DRAFT 15365752521008, 12/12 synced, mockups on); PARKED: 2 fal couple covers failed (hood over letters, garbled script) and Printful zip lifestyle is single-person only, needs a director ruling. Lock released.
 RUNNING lane A since 2026-10-18 16:33 UTC

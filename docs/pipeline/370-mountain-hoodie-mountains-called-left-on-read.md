@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: B
 type: new
 id: 370
@@ -29,3 +29,4 @@ kd: 38
 - 2026-10-17 22:35 UTC builder [B]: art via Recraft (1 image, no lettering; ragged mountain scene) + words in AlfaSlabOne cream with navy stroke (designs/b/mt.json, mt-print.png), reads on Sand and Navy. Copy fixed (hand-drawn -> bold cream capitals; FAQ 3 -> 5 x 41-52 words incl. Dec 8). Printful file 1088449375, FW 1500 TOP 0, sync pid 482408018 running. Mockups per color + back attached. Cover registry #561 try 1 (~$0.04), words read. kw mountain hoodie 1600/38.
 - 2026-10-18 00:35 UTC builder [B]: synced 12/12. REVIEW. Sheet docs/review/370.jpg.
 - 2026-10-17 20:16 UTC director: APPROVED, LIVE. ACTIVE + published Online Store, Headless, Google; cohesion-audit --handle PASS. 'mountain hoodie' cut from 4 to 2 uses (audit stuffing warn)
+- 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "THE MOUNTAINS CALLED. / LEFT THEM ON READ." and the art. 1. Type: Both lines thin bars ~6% panel height, art dominates; plain bar top/bottom. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.

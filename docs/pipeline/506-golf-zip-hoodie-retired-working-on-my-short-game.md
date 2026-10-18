@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: C
 type: new
 id: 506
@@ -34,3 +34,4 @@ kd: 28
 - 2026-10-18 02:10 UTC builder [C]: REDO art done ($0.06 cover): scene edge broken up with ragged-edge.py (worn left/right/bottom edges; face and cap kept whole, top stays the bush outline), chest copy re-cut from it. New back file 1088633058 + chest file 1088633068, relinking at BW 1600 BT 225; Ash + Navy front and back mockups replaced. Cover redone with 1 extra fal try ($0.06) using the new Navy back mockup as --design: hood up, zip at the front edge, hands in pockets, whole back print flat and readable (RETIRED. / Working on / My Short Game.), no hair over it; old cover was stretched and the scene edge showed. Registry #834 unchanged (same man).
 - 2026-10-18 02:22 UTC builder [C]: Sync 12/12 on the new files. REVIEW.
 - 2026-10-18 03:30 UTC director: LIVE (ACTIVE + published, audit PASS). Scene edges now worn. SEO title trimmed to 58 chars (was 63).
+- 2026-10-18 17:22 UTC director: QUALITY RESET grade C (new line + type), REDO. The product stays ACTIVE (same handle, URL, title keyword). 1. Line (R3.12, quality-reset 'Lines'): "RETIRED. / Working on My Short Game.": Stock retiree golf line, no surprise; script second line on navy. Write 5 candidates, keep the one a stranger laughs at in 3 seconds without backstory; kill lines that only describe the picture; if none of the 5 is funny, PARK it. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. Keep the art if it carries the new line, else one new illustration (R4/R5). New print means a new cover per R6.10, copy line one rewritten for the new joke (R8.3), and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.

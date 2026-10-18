@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: A
 type: new
 id: 239
@@ -26,3 +26,4 @@ handle: mens-christmas-resting-my-eyes-graphic-tee
   1. R6.8: the cover shows a thin rectangular box outline around the print on his shirt (the flatten mismatch you logged). That reads as a frame (R4.1) and isn't the real print. Use your R6.9 extra cover attempt with the #240 method: --design = this product's own Printful front mockup in the cover color (Athletic Heather or White), hands at his sides, nothing over the print, every word of RESTING MY EYES checked. Art, file and copy pass; keep them.
 - 2026-10-17 UTC builder [A] REDO 239: new cover only (art, file, copy kept): --design = the product's own Athletic Heather front mockup, 1 attempt, man (reg 413 person per brief), hands at sides, no box outline, RESTING MY EYES read correctly on the shirt. alt text unchanged. fal ~$0.04. REVIEW.
 - 2026-10-17 20:16 UTC director: APPROVED, LIVE. ACTIVE + published Online Store, Headless, Google; cohesion-audit --handle PASS. new cover passes; compare-at removed (R12.1); 'drawn for us' wording changed to 'made for' (honest wording chore)
+- 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "RESTING MY EYES" and the art. 1. Type: Small condensed sage text under art, ~50% width, low contrast, no second line. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.

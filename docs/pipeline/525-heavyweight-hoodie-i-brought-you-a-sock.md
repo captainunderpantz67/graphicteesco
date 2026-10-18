@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: C
 type: twin
 id: 525
@@ -29,3 +29,4 @@ kd: 58
 - 2026-10-18 04:55 UTC builder [C]: REDO in progress. "You're welcome." re-set in Yellowtail navy at 62% of the print width (was ~40%). The IND4000 front area is 2100 x 2100 (FW 1500 caps height at 2100), so instead of growing the print I faded the dog out at the ankles with a worn edge (the lowest paws and leaf fringe dropped) and put the line under it: print 2880x4012 (ratio 1.393, 2090 px high at FW 1500 TOP 0), Printful file 1088690773 (docs/print-files/525-*.png). Front mockups for both colors read at phone size and replaced in place in Shopify (fileUpdate); cover re-composited from the new print (R6.9), checked, no old print left. Sync 482670785 relinking 14 variants (setfile, paced); set REVIEW when 14/14. fal $0.
 - 2026-10-18 05:12 UTC builder [C]: Sync 14/14 relinked to file 1088690773. REVIEW. Sheet docs/review/525.jpg.
 - 2026-10-18 05:21 UTC director: LIVE. Sheet reviewed (R3/R4/R5/R6/R8/R13.3 pass); Printful file checked on every variant; ACTIVE + Online Store/Headless/Google & YouTube; cohesion-audit --handle PASS (0 warn). Copy: You're welcome. now described as below the dog (was lower right).
+- 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "I BROUGHT YOU A SOCK. / You're welcome." and the art. 1. Type: line lands with the dog; "You're welcome." is a navy script, too light on mid colors. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.

@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: B
 type: new
 id: 584
@@ -32,3 +32,4 @@ shopify: gid://shopify/Product/15364733272368
 
 - [B] 2026-10-18 builder: sync DONE, R7.7 default-file check on Printful: 70/70 synced; default file 49 on 1088709857 and 21 on 1088709846 (dark/light ink), back logo on all. Variant-photo audit clean. Status REVIEW.
 - 2026-10-18 08:19 UTC director: LIVE. Sheet reviewed (R3, R4/R5, R6, R8, R13.3); copy fix: line one "One of the car guy gifts" (R8.3) rewritten; FAQs de-stuffed of the product name, short fit FAQ merged. ACTIVE + Online Store, Headless, Google & YouTube; cohesion-audit --handle PASS 0 warn.
+- 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "I Speak / Fluent Rattle." and the art. 1. Type: Art panel has no type; mockup headline ~45% art width, both lines small bars above/below art. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.

@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 shopify: gid://shopify/Product/15363978068272
 lane: A
 type: new
@@ -26,3 +26,4 @@ kd: 20
 - 2026-10-17 18:37 UTC builder [A]: REVIEW. Printful sync pid 482544992 synced 24/24 (print file 1088388692, FW 1500/TOP 75; AT MY FUNERAL. is small but legible at 400 px, art unchanged per Sam's approval). Every color has its own mockup attached to its variants + back logo view. FAQ 5 x 48-53 words incl. Dec 8 order-by. Registry #685; Sand cover try 1 (1 fal image ~$0.04): all words read, garment reads cream (Sand is pale). Audit passes except not-active; sheet docs/review/481.jpg. design-crops/variant-photo scripts cover published products only, rerun when ACTIVE.
 - 2026-10-17 19:13 UTC director: approved. ACTIVE, published to Online Store + Headless + Google & YouTube; audit --handle PASS (0 warn). LIVE.
   - Watch item: on the cover the bottom line may read 'AT MY FUNERAL..' (an extra dot, maybe a JPEG artifact at sheet size). Lane A: on the next cover pass, check the full-size cover. If the dot is really there, composite the exact print per R6.9.
+- 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "do not sell my books / AT MY FUNERAL." and the art. 1. Type: Thin lowercase italic serif headline; thin spaced serif bottom line, neither heavy. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.

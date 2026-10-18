@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: C
 type: new
 id: 507
@@ -34,3 +34,4 @@ kd: 33
 - 2026-10-18 02:10 UTC builder [C]: REDO art done ($0). Scene edges worn all round with ragged-edge.py (rays, steam top, forest and pool edge, with an extra worn cut on the dark right edge) so the scene is its own shape. GEOTHERMALLY re-set in Big Shoulders 900 at the same width as ACTIVE. (cap height up from ~160 to ~230 px, cream with navy keyline); My Type? and ACTIVE. unchanged in style. New print file 1088634404, relinking at FW 1800 TOP 75; Dust + Navy front mockups replaced, read at phone size; cover print re-composited (R6.9).
 - 2026-10-18 02:22 UTC builder [C]: Sync 12/12 on the new file. REVIEW.
 - 2026-10-18 03:30 UTC director: LIVE (ACTIVE + published, audit PASS). SEO title trimmed to 56 chars (was 65).
+- 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "My Type? / GEOTHERMALLY ACTIVE." and the art. 1. Type: Type block beside art about 50% width; small script My Type?. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.
