@@ -340,8 +340,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 452 | Irish-American woman in her mid 30s, auburn pixie cut, light freckles, small gold hoops | RESERVED — #273 Card Photo Survivor tee cover (with #451) |
 | 453 | Nigerian-American woman in her early 40s, short tapered natural hair, round tortoiseshell glasses | RESERVED — #274 Card Photo Survivor crewneck cover (with #454) |
 | 454 | Korean-American man in his early 40s, short side-parted black hair, clean-shaven, slim build | RESERVED — #274 Card Photo Survivor crewneck cover (with #453) |
-| 455 | Italian-American man in his mid 50s, salt-and-pepper hair, thick grey mustache, stocky build | RESERVED — #275 White Elephant Champion tee cover |
-| 456 | Navajo man in his late 30s, long black hair in a low ponytail, clean-shaven, tall build | RESERVED — #276 White Elephant Champion crewneck cover |
+| 455 | man in his 40s, short dark hair, grey-flecked beard, wide grin (generated look; the reserved Italian-American mustache look is still unused) | USED 2026-10-18 — #275 White Elephant Champion tee cover (seedream, 1 attempt) |
+| 456 | Black man in his early 40s, short natural hair, trimmed goatee (generated look; the reserved Navajo ponytail look is still unused) | USED 2026-10-18 — #276 White Elephant Champion crewneck cover (seedream, 1 attempt) |
 | 457 | Filipino-American woman in her late 30s, shoulder-length layered black hair with caramel highlights | RESERVED — #277 Gingerbread Lane hoodie cover |
 | 458 | Scottish-American man in his early 60s, white hair, neat white beard, wire glasses | RESERVED — #278 Bah Humbug hoodie cover (with #459) |
 | 459 | Afro-Caribbean woman in her late 50s, grey locs pinned up, wide smile | RESERVED — #278 Bah Humbug hoodie cover (with #458) |
