@@ -8921,7 +8921,7 @@
      "kd": 38
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-pickleball-polite-until-the-third-shot-graphic-tee": {
    "claimed": [
@@ -9038,7 +9038,7 @@
      "kd": 18
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "unisex-dachshund-banned-from-stairs-hoodie": {
    "claimed": [
@@ -9051,7 +9051,7 @@
      "kd": 26
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-golf-i-play-army-golf-zip-hoodie": {
    "claimed": [
@@ -9064,7 +9064,7 @@
      "kd": 16
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-christmas-it-looked-smaller-at-the-farm-oversized-hoodie": {
    "claimed": [
@@ -9077,7 +9077,7 @@
      "kd": 10
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "unisex-national-park-switchbacks-build-character-heavyweight-hoodie": {
    "claimed": [
@@ -9090,7 +9090,7 @@
      "kd": 16
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-gym-rack-your-weights-respectfully-oversized-hoodie": {
    "claimed": [
@@ -9103,7 +9103,7 @@
      "kd": 14
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-softball-mom-travel-ball-took-my-saturdays-zip-hoodie": {
    "claimed": [
@@ -9116,7 +9116,7 @@
      "kd": 33
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-christian-rebuilt-by-a-carpenter-heavyweight-hoodie": {
    "claimed": [
@@ -9363,17 +9363,15 @@
     {
      "phrase": "fishing wife",
      "volume": 110000,
-     "kd": 4,
-     "source": "RankHero keyword page"
+     "kd": 4
     },
     {
      "phrase": "fisherwoman",
      "volume": 1900,
-     "kd": 22,
-     "source": "RankHero keyword page"
+     "kd": 22
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-dog-dad-unpaid-doorman-half-zip": {
    "claimed": [
@@ -9383,8 +9381,46 @@
     {
      "phrase": "dog daddy",
      "volume": 6600,
-     "kd": 32,
-     "source": "RankHero keyword page"
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-welder-grinder-and-paint-department-hoodie": {
+   "claimed": [
+    "welding hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "welding hoodie",
+     "volume": 1900,
+     "kd": 16
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "unisex-pitbull-scary-dog-afraid-of-the-vacuum-zip-hoodie": {
+   "claimed": [
+    "pit bull hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pit bull hoodie",
+     "volume": 1300,
+     "kd": 22
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-car-guy-i-speak-fluent-rattle-heavyweight-hoodie": {
+   "claimed": [
+    "car guy hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "car guy hoodie",
+     "volume": 390,
+     "kd": 36
     }
    ],
    "measured": "2026-10-18"

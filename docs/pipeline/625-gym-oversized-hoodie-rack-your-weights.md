@@ -1,4 +1,5 @@
-status: READY
+status: LIVE
+shopify: gid://shopify/Product/15364916904240
 lane: C
 type: twin
 id: 625
@@ -23,3 +24,7 @@ kd: 14
 ---
 ## Log
 - 2026-10-18 07:33 UTC director: brief written, READY (lane C hoodie twin of LIVE #544; kd 14, KD ≤ 20 band with gift intent and a December lift; oversized-hoodies-for-men and gym-hoodies-for-men are under 14).
+- 2026-10-18 08:04 UTC builder [C]: R6.2 check on #544's cleaned print (Printful 1088657650, 3386x3616; not the replaced 1088657120): RACK YOUR WEIGHTS. real Playfair Display Black, Respectfully. real Playfair Italic gold, no ring/panel/badge/card, no cream ground patch; 0.6% pure white opaque pixels, all planned (gloves, shirt front, plate highlights); counters (R, A, O, P, e) closed; saved as docs/print-files/625-rack-your-weights.png. One file on Dust + Athletic Heather (the dark ink reads on both). FW 1500 TOP 0 = 1,602 px high, inside the 1650 area, above the pouch on both mockups. DRAFT gid 15364916904240 (12 variants S-3XL, $54.99, no compare-at, hoodies category, tags per brief). FAQs 5 x 46-50 words, order-by Dec 8.
+- 2026-10-18 08:05 UTC builder [C]: mockups Dust + Athletic Heather + back (rust neck logo on Dust), print clear of the pocket on both. Cover: 1 fal image (registry #965); words read but the model softened the butler art, so the exact print was composited from the print file (R6.9, old print inpainted, zoomed: both lines and the butler clean). Keyword fitness gifts for men 3,600/KD 14 in the map. audit-local PASS 0 warn. fal total about $0.06. Sync 482706741 running; REVIEW at 12/12.
+- 2026-10-18 08:14 UTC builder [C]: Printful relink verified 12/12 (6 Dust + 6 Athletic Heather on 1088657650, back logo on all); REVIEW.
+- 2026-10-18 08:19 UTC director: LIVE. Sheet reviewed (R3, R4/R5, R6, R8, R13.3); copy fix: "one of the fitness gifts for men" x2 (R8.3) reworded. ACTIVE + Online Store, Headless, Google & YouTube; cohesion-audit --handle PASS 0 warn.
