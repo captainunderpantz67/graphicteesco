@@ -602,6 +602,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-welder-i-basically-hot-glue-metal-graphic-tee': { src: '/covers/mens-welder-i-basically-hot-glue-metal-graphic-tee.webp', alt: 'Man in a black I Basically Hot Glue Metal welder tee standing in a fabrication shop with steel racks, a welding cart and a hood on the bench behind him' },
   'womens-nana-mom-said-no-thats-cute-crewneck-sweatshirt': { src: '/covers/womens-nana-mom-said-no-thats-cute-crewneck-sweatshirt.webp', alt: 'Woman in a sand Mom Said No That\'s Cute nana crewneck sweatshirt standing on a late autumn front porch with pumpkins on the steps and a child\'s bike on the railing' },
   'mens-grandpa-papa-where-dad-got-his-jokes-crewneck-sweatshirt': { src: '/covers/mens-grandpa-papa-where-dad-got-his-jokes-crewneck-sweatshirt.webp', alt: 'Man in a navy Papa Where Dad Got His Jokes crewneck sweatshirt and a wool flat cap standing in a fall backyard with a leaf pile and a kids\' soccer ball on the grass' },
+  'mens-hockey-not-weird-just-the-goalie-graphic-tee': { src: '/covers/mens-hockey-not-weird-just-the-goalie-graphic-tee.webp', alt: 'Man in a black Not Weird Just the Goalie hockey tee standing at a community ice rink bench with a goalie gear bag and leg pads at his feet and the ice behind him' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
