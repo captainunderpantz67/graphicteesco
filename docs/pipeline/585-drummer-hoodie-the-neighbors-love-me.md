@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 585
@@ -33,3 +33,4 @@ shopify: gid://shopify/Product/15364755521840
 - 2026-10-18 07:22 UTC director: approved from docs/review/585.jpg; ACTIVE + Online Store + Headless + Google & YouTube. audit --handle PASS (0 warn). LIVE.
 
 - [B] 2026-10-18 builder: sync DONE, R7.7 default-file check on Printful: 12/12 synced; default file 6 on 1088712563 (Sand, dark ink) and 6 on 1088712589 (Navy, halo), back logo on all. Variant-photo audit clean. Status REVIEW.
+- 2026-10-18 09:22 UTC director: LIVE. status was flipped back to REVIEW by a late lane B sync line; product has been ACTIVE + published since 07:22. Re-set LIVE. ACTIVE + Online Store/Headless/Google & YouTube, audit --handle PASS (0 warn).

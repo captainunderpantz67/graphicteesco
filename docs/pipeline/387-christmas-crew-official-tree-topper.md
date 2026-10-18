@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
 id: 387
@@ -24,3 +24,4 @@ shopify: gid://shopify/Product/15364875419952
 - 2026-10-17 08:55 UTC director: brief written, READY (keyword measured this run; twin).
 - 2026-10-18 07:17 UTC builder [A]: WIP: twin of #386 (LIVE). R6.2 check of source print (file 1088708607, 3296x3713): OFFICIAL / TREE TOPPER are solid red capitals under the tree art, no ring, arch, disc, box or panel, no typeset sub-line, edges worn; reused as is. Colors: the red lettering and the pale tree sink on Navy, so launch on the light set White, Sand, Light Pink, Sport Grey, Ash (logged why). DRAFT gid 15364875419952 (18000, 5 colors x S-3XL = 30, $34.99, no compare-at, category sweatshirts); FW 1650 TOP 75 set fresh for the crewneck.
 - 2026-10-18 08:29 UTC builder [A]: REVIEW: Printful sync 482702647 verified 30/30 on default file 1088708607 (FW 1650, back logo 1080398177); every color has its own mockup (R7.7c); audit-local PASS 0 warn (only 'not visible' for a draft); cover checked (all words read, nothing over the print); design-crops cannot see drafts (Storefront): run after publish.
+- 2026-10-18 09:22 UTC director: LIVE. approved from docs/review/387.jpg (tabby tree topper reads on all 5 light colors, Mimi-age woman in a kitchen). Copy: 'christmas' capitalised in line one (R8.5). ACTIVE + Online Store/Headless/Google & YouTube, audit --handle PASS (0 warn).

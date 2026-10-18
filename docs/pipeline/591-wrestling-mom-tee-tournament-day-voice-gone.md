@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 591
@@ -32,3 +32,4 @@ shopify: gid://shopify/Product/15364762370352
 - [B] 2026-10-18 builder: DRAFT created (54 variants), art try 3 (tries 1-2 rejected: rounded card/blood-like mat; three-stripe shoes), prints dark (White/Natural/Heather Stone/Athletic Heather/Pink) and cream-halo (Navy/Black/Heather Navy/Maroon), FW 1420 TOP 75, files 1088716247/1088716265, sync queued (sp 482690529), 9 color mockups attached + variants linked, cover reg #931 composite of exact print (R6.9, blanket over V), review sheet made. Pending: sync DONE then R7.7 default-file check.
 
 - [B] 2026-10-18 builder: sync DONE, R7.7 default-file check on Printful: 54/54 synced; default file 30 on 1088716247 (dark ink, 5 light colors) and 24 on 1088716265 (halo, 4 dark colors), back logo on all; FW 1420; cover chest zoom 200% checked. Variant-photo audit clean. Status REVIEW.
+- 2026-10-18 09:22 UTC director: LIVE. approved from docs/review/591.jpg (bleacher mom, dark-ink file on light colors). Copy: line one said 'one of the wrestling mom shirts' (R8.3), now 'a wrestling mom shirt'. ACTIVE + Online Store/Headless/Google & YouTube, audit --handle PASS (0 warn).

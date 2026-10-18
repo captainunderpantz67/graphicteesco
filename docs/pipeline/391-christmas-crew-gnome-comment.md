@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
 id: 391
@@ -25,3 +25,4 @@ shopify: gid://shopify/Product/15364878795056
 - 2026-10-17 16:26 UTC director: source #390 line rewritten to "Garden Variety Grump" (R3.1). Use the new line in this twin's title, handle and copy when it is built; stays READY.
 - 2026-10-18 07:20 UTC builder [A]: WIP: twin of #390 (LIVE; its on-shirt line is I'LL BE PLEASANT TILL NEW YEAR'S, handle stays garden-variety-grump). R6.2 check of source print (file 1088624722, 3133x2997): the two lettering lines are Alfa Slab One with cream outline under the gnome art, no ring, arch, disc, box or panel; reused as is. Colors White, Sand, Sport Grey, Ash, Navy (cream outline reads on Navy). DRAFT gid 15364878795056 (18000, 5 x S-3XL = 30, $34.99, no compare-at, category sweatshirts, title uses the live tee's line); 'gnome sweatshirt' 170/KD52. FW 1650 TOP 75 set fresh.
 - 2026-10-18 08:46 UTC builder [A]: REVIEW: Printful sync 482702758 verified 30/30 on default file 1088624722 (FW 1650, back logo 1080398177); every color has its own mockup (R7.7c); audit-local PASS 0 warn (only 'not visible' for a draft); cover checked (all words read, nothing over the print); design-crops cannot see drafts (Storefront): run after publish.
+- 2026-10-18 09:22 UTC director: LIVE. approved from docs/review/391.jpg (gnome + cream-outlined lines read on Sand and Navy; couple cover #582, both in crewnecks). Added christmas-sweatshirts-for-men (R7.5, couple cover). ACTIVE + Online Store/Headless/Google & YouTube, audit --handle PASS (0 warn).

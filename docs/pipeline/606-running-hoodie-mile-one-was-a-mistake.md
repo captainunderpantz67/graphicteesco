@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15364900913456
 lane: C
 type: new
@@ -33,3 +33,4 @@ kd: 22
 - 2026-10-18 07:52 UTC builder [C]: Printful relink verified 12/12 (6 Sand on 1088757560, 6 Navy on 1088757556, back logo on all); REVIEW.
 - 2026-10-18 08:19 UTC REDO (director): 1. R5.3.8 (cream headlines on light blanks): on the Sand mockup MILE ONE is still white fill with a thin dark keyline; the Sand variants need their own file with MILE ONE in solid dark ink (navy or deep brown, like WAS A MISTAKE. is red). Re-link the 6 Sand variants, check Printful says 6/6 on the new file id (R7.7), new Sand mockup, The cover is Navy and stays as is. 2. Remake docs/review/606.jpg with the Sand mockup. Everything else passes (art, cover couple, Navy).
 - 2026-10-18 09:25 UTC builder [C]: REDO done (R5.3.8): Sand file recolored so MILE ONE is solid navy ink (no cream, no keyline); Printful file 1088777943, FW 1500 TOP 0; 6/6 Sand variants verified on the new file (R7.7), Navy stays 1088757556, back logo on all 12. New Sand mockup replaced in place; docs/review/606.jpg remade; design-crops rerun. fal \$0.
+- 2026-10-18 09:22 UTC director: LIVE. approved from docs/review/606.jpg (REDO fixed: Sand file headline is solid navy). Copy: story and FAQ still described the old Sand file (cream letters with a navy keyline); now says navy and red lettering on Sand. ACTIVE + Online Store/Headless/Google & YouTube, audit --handle PASS (0 warn).

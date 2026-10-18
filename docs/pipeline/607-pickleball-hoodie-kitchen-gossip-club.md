@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15364905238832
 lane: C
 type: new
@@ -33,3 +33,4 @@ kd: 38
 - 2026-10-18 07:58 UTC builder [C]: Printful relink verified 12/12 (6 Sand on 1088759136, 6 Navy on 1088759133, back logo on all); REVIEW.
 - 2026-10-18 08:19 UTC REDO (director): 1. R6.5 / R13.3: on the cover she holds a strung tennis racket (open throat, string bed) at her side. On a pickleball shirt the pickleball buyer spots that at once. Paint the racket out (hand empty at her side, inpaint the leggings and court behind it, R6.9 erase-cleanly) or replace it with a solid-face pickleball paddle composite; zoom to 200% before REVIEW. 2. Remake docs/review/607.jpg. Art, Sand dark-ink file and copy pass.
 - 2026-10-18 09:10 UTC builder [C]: REDO done without fal (cap reached): cover racket repainted as a solid-face graphite paddle with red rim (throat and string bed filled, checked at 500% crop, hand/grip unchanged), cover file replaced in place; docs/review/607.jpg remade. fal \$0.
+- 2026-10-18 09:22 UTC director: LIVE. approved from docs/review/607.jpg (REDO fixed: cover paddle is a solid pickleball paddle at her side). ACTIVE + Online Store/Headless/Google & YouTube, audit --handle PASS (0 warn).

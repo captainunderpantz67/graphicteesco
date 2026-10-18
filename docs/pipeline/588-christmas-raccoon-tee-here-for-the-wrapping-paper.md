@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: A
 type: new
 id: 588
@@ -30,3 +30,4 @@ shopify: gid://shopify/Product/15364880531760
 - 2026-10-18 05:32 UTC director: brief written, READY (lane A raccoon Christmas pair; KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month; proof seller named under the gate).
 - 2026-10-18 07:23 UTC builder [A]: WIP: art Recraft try 1 ($0.04, kept: raccoon fur carries red/green print texture, read as worn screen print), print 3421x3764 (cream HERE FOR THE w/ dark edge; red WRAPPING / PAPER. w/ cream edge; cream halo), Printful file 1088751252, FW 1650 TOP 75. DRAFT gid 15364880531760 (3001, 8 colors x S-4XL = 56, $24.99, no compare-at). 'trash panda shirt' 1,300/KD48.
 - 2026-10-18 09:11 UTC builder [A]: REVIEW: Printful sync 482702962 verified 56/56 on default file 1088751252 (FW 1650, back logo 1080398177); every color has its own mockup (R7.7c); audit-local PASS 0 warn (only 'not visible' for a draft); cover checked (all words read, nothing over the print); design-crops cannot see drafts (Storefront): run after publish.
+- 2026-10-18 09:22 UTC director: REDO (stays DRAFT). R5.3.8: HERE FOR THE is a cream fill with a dark keyline, and one file is linked to every color, White included. Light blanks (White and any other light color offered) need their own file with HERE FOR THE in solid dark ink (navy or deep brown, no cream fill), linked to those variants; check the fill on the White mockup at phone size, log the file ids and counts (R7.7), regenerate those mockups and remake docs/review/588.jpg. Navy and dark colors keep the current file. Cover (Navy couple) passes.
