@@ -646,7 +646,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 849 | Korean-American woman, late 30s, long straight black hair in a low bun, thin gold-rimmed glasses, petite build | CLAIMED 2026-10-18 — #516 Currently Burrowed Hoodie cover (brief) |
 | 850 | white man, early 60s, short grey hair, tanned, lean build | CLAIMED 2026-10-18 — #517 Sorry About Your Windshield Hoodie cover (brief) (pair 850-851) |
 | 851 | Mexican-American woman, late 50s, shoulder-length dark hair with grey streaks tied back, small gold hoops | CLAIMED 2026-10-18 — #517 Sorry About Your Windshield Hoodie cover (brief) (pair 850-851) |
-| 852 | Irish-American woman, early 40s, shoulder-length auburn hair in a low ponytail, light freckles, athletic build | CLAIMED 2026-10-18 — #518 Cold Rink, Hot Takes Crewneck Sweatshirt cover (brief) |
+| 852 | Irish-American woman, early 40s, shoulder-length auburn hair in a low ponytail, light freckles, athletic build | USED 2026-10-18 — #518 Cold Rink, Hot Takes Crewneck Sweatshirt cover (brief) |
 | 853 | Black woman, early 50s, short natural grey curls, round tortoiseshell glasses, medium build | USED 2026-10-18 — #519 One More Row Crewneck Sweatshirt cover (brief) |
 | 854 | Puerto Rican woman, late 20s, curly dark-brown hair in a high puff, small gold hoops, medium build | CLAIMED 2026-10-18 — #520 No, I Won't Make You One Crewneck Sweatshirt cover (brief) |
 | 855 | white woman, early 60s, silver pixie cut, light-blue reading glasses on a beaded chain, slim build | CLAIMED 2026-10-18 — #521 Mimi Says Yes Crewneck Sweatshirt cover (brief) |
