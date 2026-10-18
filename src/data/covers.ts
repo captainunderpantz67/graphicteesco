@@ -453,6 +453,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-dachshund-currently-burrowed-crewneck-sweatshirt': { src: '/covers/womens-dachshund-currently-burrowed-crewneck-sweatshirt.webp', alt: 'Woman in a Sand Currently Burrowed dachshund crewneck sweatshirt with her dachshund in a cozy living room' },
   'womens-christmas-embroidered-excused-from-small-talk-crewneck-sweatshirt': { src: '/covers/womens-christmas-embroidered-excused-from-small-talk-crewneck-sweatshirt.webp', alt: 'Woman in a Sand embroidered Excused From Small Talk Christmas crewneck sweatshirt in a reading chair by a lit tree' },
   'womens-western-saturday-night-rodeo-hoodie': { src: '/covers/womens-western-saturday-night-rodeo-hoodie.webp', alt: 'Woman in the grandstand of an evening rodeo under the arena lights, hands in her pockets, wearing the Saturday Night Rodeo Sand hoodie' },
+  'womens-nurse-embroidered-night-shift-silly-goose-crewneck-sweatshirt': { src: '/covers/womens-nurse-embroidered-night-shift-silly-goose-crewneck-sweatshirt.webp', alt: 'Woman in a Sand embroidered Night Shift Silly Goose nurse crewneck sweatshirt in a hospital break room at night' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
