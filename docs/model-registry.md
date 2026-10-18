@@ -712,3 +712,9 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 917 | Bangladeshi-American woman, late 20s, long wavy black hair in a loose low braid behind her shoulder, small gold nose stud, slim build | CLAIMED 2026-10-18 — #577 Making Biscuits Hoodie cover (brief) |
 | 918 | man AND woman together: Dominican-American man, early 40s, salt-and-pepper fade, short goatee, stocky build; Lithuanian-American woman, mid 30s, platinum-blonde hair in a high ponytail, athletic build | CLAIMED 2026-10-18 — #578 Scary Dog, Afraid of the Vacuum Tee cover (brief) |
 | 919 | Norwegian-American man, early 70s, bald on top with short white hair at the sides, neat short white beard, round tortoiseshell glasses, tall lean build | CLAIMED 2026-10-18 — #579 Ask Your Grandmother Tee cover (brief) |
+| 920 | Puerto Rican man, late 20s, short curly black hair with a low fade, thin mustache, lean build | CLAIMED 2026-10-18 — #580 Professionally Loud Tee cover (brief) |
+| 921 | Samoan-American man, late 30s, black hair in a short top-knot, full short beard, broad heavy build | CLAIMED 2026-10-18 — #581 No, I Can't Just Take a Quick Look Tee cover (brief) |
+| 922 | Hmong-American man, mid 40s, short black hair with grey at the temples, clean-shaven, medium build | CLAIMED 2026-10-18 — #582 No, I Can't Just Take a Quick Look Hoodie cover (brief) |
+| 923 | Ukrainian-American man, early 30s, shaggy light-brown hair tucked behind his ears, short stubble, slim build | CLAIMED 2026-10-18 — #583 The Neighbors Love Me Tee cover (brief) |
+| 924 | Mexican-American man, early 60s, thick grey hair combed back, grey horseshoe mustache, sturdy build | CLAIMED 2026-10-18 — #584 I Speak Fluent Rattle Tee cover (brief) |
+| 925 | Black man, about 19, short twists, small silver hoop earring, slim build | CLAIMED 2026-10-18 — #585 The Neighbors Love Me Hoodie cover (brief) |

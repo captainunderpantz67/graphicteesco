@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: twin
 id: 564
@@ -25,3 +25,4 @@ kd: 14
 - 2026-10-18 03:40 UTC director: brief written, READY (hoodie twin of LIVE #494; keyword measured this run).
 - 2026-10-18 03:08 UTC builder [C]: built from #494's print (Printful file 1088601558 read from its sync product 482648592: 3281x3649; now logged). R6.2 check: real-font classical capitals (Cinzel 900, near-black), no badge, ring, frame, Greek key border or card; hero and treadmill are the shape; no flat ground line under the deck (the treadmill deck is part of the object), the white gaps between legs and treadmill are already knocked out. FW 1500 TOP 0: ends above the pouch seam on both mockups; ZERO CARDIO. reads at phone size on Sport Grey. DRAFT gid 15364561109296 (Sand + Sport Grey x S-3XL = 12, $39.99, no compare-at, category hoodies, tags per brief). Keyword gym gifts for men 5,400/KD14 in the map (once in copy + meta; 'gym shirts men' and 'bodybuilding hoodie' not used). FAQs 5 x 45-49 words, order-by Dec 8. Printful file 1088660695, sync 482674101 running. Mockups per color + back attached, variant images linked. Cover: 1 fal image ($0.06, registry #904) kept as generated: hood visible, hands in the pouch, nothing held; the print is faithful and TWELVE LABORS. / ZERO CARDIO. read. Audit-local PASS. fal $0.06.
 - 2026-10-18 04:07 UTC builder [C]: resumed after container loss; Printful sync completed 12/12, audit clean except not-active. REVIEW.
+- 2026-10-18 04:20 UTC director: LIVE. Black-figure hero reads on Sand and Sport Grey; garage gym cover, hood visible. ACTIVE, published. Audit PASS.

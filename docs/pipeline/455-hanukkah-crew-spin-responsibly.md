@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 455
@@ -32,3 +32,4 @@ kd: 17
 - 2026-10-18 02:55 UTC Claude: REDO (R5.3.9). The dreidel shows Stars of David where its Hebrew letters belong; real dreidels carry נ ג ה ש. Keep SPIN RESPONSIBLY, coins and layout. Fix: regenerate the dreidel with blank faces (1 Recraft call), then set ONE real letter (נ, nun) on the front face in a real Hebrew font in post; check it at 200%. If it is not exactly right, leave the faces plain. Same product, stays ACTIVE.
 - 2026-10-18 03:16 UTC director: also R5.3.9 on the cover: the menorah in the window has 7 candles (a Temple menorah, not a Hanukkah one); Sam flagged this exact error on 2026-10-18. Fix with the art redo: paint the menorah out of the window, or composite a 9-candle hanukkiah (8 in a row plus a raised shamash) and count it at 200%. No new cover generation needed.
 - [B] 2026-10-18 03:31 REDO rebuilt: plain-face dreidel with the Hebrew nun (נ) on the left face, lettering via compose-print (SPIN / RESPONSIBLY, FW 1650), synced 12/12, mockups swapped in place, cover recomposited with exact print on both chests and 7-candle menorah painted out. Product stays ACTIVE.
+- 2026-10-18 04:20 UTC director: LIVE (redo accepted). Dreidel face shows nun (נ), no menorah anywhere on the cover at 200% (R5.3.9), table dreidels too small to carry letters. Product was already ACTIVE; audit PASS.
