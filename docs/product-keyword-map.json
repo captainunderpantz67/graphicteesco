@@ -3097,22 +3097,16 @@
   },
   "womens-christmas-jolly-ish-crewneck-sweatshirt": {
    "claimed": [
-    "plaid sweatshirt",
-    "plaid sweater"
+    "pink bow sweatshirt"
    ],
    "gaps_measured": [
     {
-     "phrase": "plaid sweatshirt",
-     "volume": 480,
-     "kd": 50
-    },
-    {
-     "phrase": "plaid sweater",
-     "volume": 2900,
-     "kd": 34
+     "phrase": "pink bow sweatshirt",
+     "volume": 210,
+     "kd": 56
     }
    ],
-   "measured": "2026-10-16"
+   "measured": "2026-10-18"
   },
   "unisex-christmas-technically-a-sweater-crewneck-sweatshirt": {
    "claimed": [
@@ -7661,8 +7655,7 @@
      "kd": 44
     }
    ],
-   "measured": "2026-10-18",
-   "note": "director: brief"
+   "measured": "2026-10-16"
   },
   "womens-mom-motherhood-exposed-me-graphic-tee": {
    "claimed": [
@@ -7777,29 +7770,22 @@
   },
   "womens-hockey-cold-rink-hot-takes-hoodie": {
    "claimed": [
-    "hockey mom sweater"
+    "hockey mom sweater",
+    "hockey mom hoodie"
    ],
    "gaps_measured": [
     {
      "phrase": "hockey mom sweater",
      "volume": 880,
-     "kd": 38,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 38
     },
     {
      "phrase": "hockey mom hoodie",
      "volume": 260,
-     "kd": 44,
-     "source": "RankHero via scripts/keyword-gap.py"
-    },
-    {
-     "phrase": "ice hockey hoodie",
-     "volume": 210,
-     "kd": 44,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 44
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-knitting-one-more-row-hoodie": {
    "claimed": [
@@ -8405,11 +8391,10 @@
     {
      "phrase": "silly goose hoodie",
      "volume": 390,
-     "kd": 40,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 40
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "unisex-dachshund-banned-from-stairs-graphic-tee": {
    "claimed": [

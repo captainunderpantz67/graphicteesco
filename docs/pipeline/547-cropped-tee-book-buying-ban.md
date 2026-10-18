@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-18 04:33Z
+status: REVIEW
 lane: B
 type: new
 id: 547
@@ -29,3 +29,5 @@ shopify: gid://shopify/Product/15364680450352
 ## Log
 - 2026-10-18 03:10 UTC director: brief written, READY (lane B crop; cropped-graphic-tees at 3 live needs depth; 520-favorite literary baby tee proof).
 - 2026-10-18 04:49 UTC builder [B]: WIP: DRAFT gid://shopify/Product/15364680450352 (AS Colour 4062 #636, 9 colors x XS-XL = 45, $24.99 no compare-at; Printful #636 facts), art (1 Recraft call kept: wide bookstore doorway scene so the print fits the 1500x1500 area at 8.4 in), compose-print lettering (BOOK BUYING BAN: Graduate with a thin same-color stroke so it reads at phone size; Day One (Again) Damion; parentheses kept), compose-print padding fix so script-font overhang is never clipped, two files (dark red ink for 8 light/bold colors, cream-halo for Black), FW 1260 TOP 0, all mockups, cover (registry 887; try 1 had hair over the B so try 2 with the hair tied back, B reads), review sheet done. Sync queued; status goes to REVIEW at 45/45.
+
+- [B] 2026-10-18 builder: sync DONE, R7.7 default-file check on Printful: 45/45 synced; default file 40 on 1088696564, 5 on 1088696573 (halo), back logo on all. Variant-photo audit clean. Status REVIEW.

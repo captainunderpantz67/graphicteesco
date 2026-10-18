@@ -16,5 +16,5 @@ for i in 1 2 3; do
   fi
   python3 -m json.tool docs/product-keyword-map.json >/dev/null || { echo KWMAP BROKEN; exit 1; }
   npx astro build >/dev/null 2>&1 || { echo BUILD FAIL; exit 1; }
-  git push -q origin HEAD:main 2>&1 | tail -1 && { git status -sb | head -1; exit 0; }
+  git push -q origin HEAD:main 2>/dev/null && { echo pushed; exit 0; }
 done
