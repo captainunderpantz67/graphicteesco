@@ -1,4 +1,5 @@
 status: BUILDING [C] 2026-10-18 08:25 UTC
+shopify: gid://shopify/Product/15364938563888
 lane: C
 type: twin
 id: 636
@@ -23,3 +24,4 @@ kd: 32
 ---
 ## Log
 - 2026-10-18 07:44 UTC director: brief written, READY (lane C half zip twin of LIVE #549; kd 32, KD 21–35 band, nothing free at KD ≤ 20 for dog dad; half-zip-pullovers is the thinnest cold-weather page).
+- 2026-10-18 08:29 UTC builder [C]: R6.2 check on #549's two prints (dark-ink 1088677144 on Natural/Ash, cream-halo 1088677149 on Black/Navy; saved as docs/print-files/636-unpaid-doorman-dark-ink.png / -light-ink.png): DOG DAD. real Alfa Slab, UNPAID DOORMAN. real Big Shoulders, no ring/panel/badge/card; door, step and lawn patch end on their own shapes; counters (D, O, A, P) closed; gaps between the door and his arm, under the coat and around the dog open. Dust takes the dark-ink file with UNPAID DOORMAN. recolored from mustard to brick #8a3a1f because the mustard read weakly on Dust (Printful 1088769889); Navy keeps the cream-halo file 1088677149. Chest copy = the whole scene band without words (not the dog alone: the dog sits against the door and doorman, so a cut would leave straight edges), 2880x3420, dark 1088769514 / light 1088769517. New scripts: pf-dtf2-sync.py (back + different chest file per color) and pf-dtf-mockup.py (v2 dtfilm flat front + back). DRAFT gid 15364938563888 (14 variants XS-3XL, $54.99, no compare-at, productType Half Zip Pullover, category sweatshirts aa-1-13-14, tags per brief). FAQs 5 x 45-59 words, order-by Dec 8. Mockups Dust + Navy back read at 450 px.
