@@ -8203,11 +8203,10 @@
     {
      "phrase": "pitbull apparel",
      "volume": 3600,
-     "kd": 14,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 14
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-mimi-says-yes-hoodie": {
    "claimed": [
