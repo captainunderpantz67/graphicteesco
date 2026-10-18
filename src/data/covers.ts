@@ -450,6 +450,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-apres-ski-expert-in-apres-crewneck-sweatshirt': { src: '/covers/womens-apres-ski-expert-in-apres-crewneck-sweatshirt.webp', alt: 'Woman in her early 30s with dark hair in a high bun in a sand Expert in Apres ski crewneck sweatshirt by a ski lodge fireplace with wooden skis on the wall' },
   'unisex-golf-sorry-about-your-windshield-crewneck-sweatshirt': { src: '/covers/unisex-golf-sorry-about-your-windshield-crewneck-sweatshirt.webp', alt: 'Man and woman in Sand Sorry About Your Windshield golf crewneck sweatshirts at a clubhouse parking lot at golden hour' },
   'womens-golden-retriever-i-brought-you-a-sock-crewneck-sweatshirt': { src: '/covers/womens-golden-retriever-i-brought-you-a-sock-crewneck-sweatshirt.webp', alt: 'Woman in a Sand I Brought You a Sock golden retriever crewneck sweatshirt on a fall porch with her golden retriever' },
+  'womens-dachshund-currently-burrowed-crewneck-sweatshirt': { src: '/covers/womens-dachshund-currently-burrowed-crewneck-sweatshirt.webp', alt: 'Woman in a Sand Currently Burrowed dachshund crewneck sweatshirt with her dachshund in a cozy living room' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
