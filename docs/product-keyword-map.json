@@ -7165,24 +7165,20 @@
     {
      "phrase": "protect public lands",
      "volume": 260,
-     "kd": 32,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 32
     },
     {
      "phrase": "public lands shirt",
      "volume": 70,
-     "kd": 43,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 43
     },
     {
      "phrase": "outdoorsy sweatshirt",
      "volume": 480,
-     "kd": 47,
-     "competition": 6973,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 47
     }
    ],
-   "measured": "2026-10-17"
+   "measured": "2026-10-16"
   },
   "unisex-national-park-running-late-bison-traffic-heavyweight-hoodie": {
    "claimed": [
@@ -7449,6 +7445,20 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-christmas-some-assembly-regretted-graphic-tee": {
+   "claimed": [
+    "funny dad shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny dad shirt",
+     "volume": 5400,
+     "kd": 58
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: RankHero 2026-10-18, assigned at review (R2.9; christmas shirt men is the page head)"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

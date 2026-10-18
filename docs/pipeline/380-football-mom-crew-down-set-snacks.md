@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 380
@@ -24,3 +24,4 @@ kd: 57
 - 2026-10-17 07:20 UTC director: brief written, READY (twin, buildable without fal; keyword measured this run).
 - 2026-10-17 08:05 UTC builder [B]: NOT built, stays READY. R6.2 check on the tee print file: DOWN, SET, SNACKS is varsity/condensed type and the bleacher stripes are a straight-edged panel. The fix is a hand re-letter / redraw, which needs fal (empty). Take it when fal returns (the gate is the lettering, not the blank).
 - 2026-10-18 01:08 UTC builder [B]: full build from the tee's print file 1087188227 (no new art). R6.2 check: the source's DOWN, SET, SNACKS was typeset varsity type and the stripes are worn, ragged-edged boards (no ring, arch, disc or box): the typeset line was cropped off and re-set in a real font (Graduate, red with a dark-red keyline) via compose-print, art flattened on white first; the striped bleacher boards have broken worn ends, kept. Colors Sand + Sport Grey (red/cream art on Navy would sink; one file reads on both). Print 11.1 x 12.7 in, FW 1650 TOP 75 (set fresh for the crewneck). DRAFT gid 15364344217904, category aa-1-13-14, 12 variants $34.99, compareAtPrice null, tags mama-sweatshirts/sweatshirt/ai-art/intake-done, keyword football mom sweatshirt 390/KD57 in line one and meta (map entry added), FAQ 6 x 40-60 words incl. Dec 8. Printful file 1088601730, sync 12/12; mockups Sand + Sport Grey + back attached and linked. Phone-size read ok (red caps legible on Sport Grey). Cover: registry 571, 1 fal photo, words read, blanket below the print, no composite needed; alt starts "Woman". Audit-local PASS, astro build OK. fal $0.06.
+- 2026-10-18 01:19 UTC director: LIVE. Graduate re-set fixes the typeset line, stadium cover fits the audience, both colors read. ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn.

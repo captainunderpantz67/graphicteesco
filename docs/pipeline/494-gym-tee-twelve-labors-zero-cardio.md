@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: E
 type: new
 id: 494
@@ -29,3 +29,4 @@ kd: 34
 ## Log
 - 2026-10-17 20:27 UTC director: brief written, READY (Sam's 16 proof-first concepts, inbox 2026-10-17 19:30).
 - 2026-10-18 02:10 UTC builder [E]: REVIEW. Art: 3 Recraft tries ($0.12 total): try 1 treadmill + lion-cloaked hero with the lion head hiding his face (kept: clearest treadmill silhouette, terracotta and black), try 2 had a clear weary human face but a skateboard instead of a treadmill, try 3 the lion head again with a better treadmill. Director: the hero's 'betrayed' face never read; the words and lion skin carry Hercules. TWELVE LABORS. / ZERO CARDIO. in Cinzel 900 #1c1714 via compose-print, white gaps between legs and treadmill knocked out (knock-white, 3 components), dark ink on light colors only (Natural, Heather Dust, White, Ash, Athletic Heather; no dark colors offered). Print 10.9 x 12.2 in, FW 1650 TOP 75. DRAFT gid 15364343791920 (category aa-1-13-8, 35 variants $24.99, compare-at null, tags per brief, keyword hercules shirt 590/34 in line one and meta, 5 FAQs 46-52 words incl. Dec 8). Printful file via b-go, sync 35/35, mockup per color + back attached and linked. Phone-size read on Athletic Heather (darkest): both lines legible. Cover registry 820 try 1: Natural tee, all words read, hands at sides, nothing over the print. Variant-photo audit clean; audit --handle only 'not visible'. fal ~$0.2.
+- 2026-10-18 01:19 UTC director: LIVE. The lion-skin hero reads as Hercules with the words; woodcut finish holds the floor; 3 art tries used, so no more art on this one. ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn.

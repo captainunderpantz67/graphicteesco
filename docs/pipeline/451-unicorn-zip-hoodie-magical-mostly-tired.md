@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: E
 type: new
 id: 451
@@ -27,3 +27,4 @@ kd: 34
 - 2026-10-17 14:34 UTC builder [B]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363728965936 (Ash + Navy x S-3XL, zip 18600, $44.99; keyword unicorn hoodie 880/KD34; FAQs 5 x 40-60 words, order-by Dec 8). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane E.
 - 2026-10-18 01:20 UTC builder [E]: REVIEW. Art: 1 Recraft call (try 1 kept: curlers, slippers, cocoa, drooping horn, armchair), MAGICAL (Alfa Slab One) / (MOSTLY TIRED) (Oswald 600) cream with a dark keyline via compose-print (solid fill so the white unicorn stays opaque), no model lettering. Back print 11.2 x 16.6 in at BW 1560 BT 40 (the 2400 px area cannot take BW 1650 for this tall file; still above the 1500 floor) plus a head-only left-chest copy (file 1088596986, CW 525); back file 1088596981, sync 482489998 12/12 via pf-zip. Colors Ash + Navy; both mockups read at phone size, (MOSTLY TIRED) is lighter on Ash but the keyline carries it. Media: back + front per color, variants linked to the color's back view. Copy fixed (hand-drawn caps -> slab-serif capitals), 5 FAQs 40-60 words incl. Dec 8. Cover registry 649: attempt 1 turned the body and the arm hid the L and D; attempt 2 (straight from behind) shows every letter, hood visible, nothing over the print; alt starts Woman. Variant-photo audit clean; audit --handle only 'not visible'. fal ~$0.2.
+- 2026-10-18 01:19 UTC director: LIVE. Unicorn in curlers is a real reaction piece; (MOSTLY TIRED) holds on Ash thanks to the keyline. ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn.

@@ -446,7 +446,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 553 | Latina woman, late 30s, shoulder-length highlighted waves, small gold cross necklace | USED 2026-10-17 — #362 Sunflower Seeds hoodie cover (try 1, image 1 of 1) |
 | 554 | Man AND woman together: Black man, early 40s, short beard, knit beanie; white woman, late 30s, blonde braid | USED 2026-10-17 - #363 Went Outside It Was Fine hoodie cover (face rows 554 and 555-split: man and woman both described in row 554) |
 | 555 | South Asian-American woman, late 30s, shoulder-length layered hair, small stud earrings | USED 2026-10-17 - #364 Orange Slice Manager zip hoodie cover (seedream, navy, back view, soccer sideline) |
-| 556 | White man, early 30s, tattooed forearms, short dark undercut, light beard | RESERVED — #365 Dead Serious Zip Hoodie cover |
+| 556 | White man, early 30s, tattooed forearms, short dark undercut, light beard | USED 2026-10-18 — #365 Dead Serious skull zip hoodie cover |
 | 557 | Native Hawaiian woman, late 20s, long wavy dark hair, small shell earrings | USED 2026-10-16 — #366 Low Tide Low Effort oversized hoodie cover (seedream, 1 attempt) |
 | 558 | Puerto Rican man, mid 40s, salt-and-pepper goatee, short hair | USED 2026-10-17 — #367 cover (seedream, 1 attempt)
 | 559 | Man AND woman together: Navajo man, early 50s, grey ponytail, felt hat; white woman, mid 40s, sandy shag haircut | USED 2026-10-16 — #368 Lucky Horseshoe Ranch hoodie cover |
@@ -547,8 +547,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 652 | white man, late 30s, short sandy hair, full sandy beard | USED 2026-10-18 — #454 Some Assembly Regretted tee cover (seedream, 2 attempts: 1st had a stray hand and a branded toy box) |
 | 653 | white woman, early 30s, dark curly shoulder-length hair | USED 2026-10-17 — #455 Spin Responsibly crewneck cover (try 2 kept, 2 images; #654 man in same photo) |
 | 654 | Middle Eastern man, early 30s, short dark hair, trimmed beard | USED 2026-10-17 — #455 Spin Responsibly crewneck cover (with #653) |
-| 655 | Black man, late 20s, short twists | RESERVED — #456 Spin Responsibly Tee cover (with #656) |
-| 656 | white woman, late 20s, auburn bob | RESERVED — #456 Spin Responsibly Tee cover (with #655) |
+| 655 | Black man, late 20s, short twists | USED 2026-10-18 — #456 Spin Responsibly tee cover (with #656, seedream 1 attempt) |
+| 656 | white woman, late 20s, auburn bob | USED 2026-10-18 — #456 Spin Responsibly tee cover (with #655) |
 | 657 | Latina woman, mid 40s, chestnut layered blowout, diamond studs | USED 2026-10-17 - #457 Fried Food Is Tradition crewneck cover (seedream, sand, kitchen) |
 | 658 | East Asian woman, late 20s, short choppy pixie cut, small pearl drops | USED 2026-10-18 — #458 Fried Food Is Tradition tee cover (seedream, 1 attempt) |
 | 659 | Native American man, early 30s, long black hair tied back, light stubble | RESERVED — #459 Pedal Pusher Heavyweight Hoodie cover |
@@ -632,7 +632,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 835 | Armenian-American woman, mid 30s, dark curly hair tied back, small gold hoops, medium build | USED 2026-10-18 - #507 My Type Geothermally Active oversized hoodie cover (seedream, Navy, hot springs boardwalk, print composited) |
 | 836 | Black woman, mid 40s, short tapered natural hair, gold hoop earrings, medium build | USED 2026-10-18 - #508 Two Queens Roaming hoodie cover (seedream, Navy, gravel pullout above a bison valley, prints composited) |
 | 837 | white woman, late 40s, long grey-streaked brown hair in a low braid, slim build | USED 2026-10-18 - #508 Two Queens Roaming hoodie cover (seedream, Navy, gravel pullout above a bison valley, prints composited) |
-| 838 | Chinese-American woman, early 30s, long black hair in a single braid, small silver studs, slim athletic build | CLAIMED 2026-10-17 — #509 Swipe Right on Public Land Zip Hoodie cover (brief) |
+| 838 | Chinese-American woman, early 30s, long black hair in a single braid, small silver studs, slim athletic build | USED 2026-10-18 - #509 Swipe Right on Public Land zip hoodie cover (seedream, Navy back view, canyon-rim overlook, print composited with the braid on top) |
 | 839 | Mexican-American woman, early 40s, dark wavy hair in a low bun, small gold studs, medium build | CLAIMED 2026-10-17 — #510 Running Late Bison Traffic Heavyweight Hoodie cover (brief) (pair 839-840) |
 | 840 | Greek-American man, early 40s, thick dark curly hair, full dark beard, broad build | CLAIMED 2026-10-17 — #510 Running Late Bison Traffic Heavyweight Hoodie cover (brief) (pair 839-840) |
 | 841 | Korean-American woman, late 40s, shoulder-length layered black hair, small pearl studs, slim build | USED 2026-10-18 — #511 Sorry About Your Windshield Crewneck Sweatshirt cover (brief) (pair 841-842) |

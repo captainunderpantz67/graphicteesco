@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: twin
 id: 384
@@ -25,3 +25,4 @@ kd: 58
 - 2026-10-17 08:14 UTC director: Art, colors (Dust + Navy), copy and keyword APPROVED; stays DRAFT. PARKED until fal returns: R6.3 needs a woman on the cover, Printful has no women's lifestyle style for #897, and a ghost-front cover would be the only flat cover in the oversized-sweatshirts grid (R13.3). When fal is funded: one fal cover (registry #575, --n 1, Dust or Navy, the product's own mockup as --design), then REVIEW; nothing else to change.
 - 2026-10-17 21:25 UTC director: UNPARKED, READY for lane B: fal is funded (inbox 17:22) and twin covers are allowed. Only job: one fal cover (woman, R6.3; Printful Navy or Dust mockup as --design, --n 1, max 2 attempts, read every word), set cover in covers.ts, then REVIEW. Art, copy, colors and keyword were approved 2026-10-17 08:14; do not rebuild.
 - 2026-10-18 01:12 UTC builder [B]: cover only (draft, art, copy, colors, keyword approved 2026-10-08:14; nothing else rebuilt). Registry 575, 2 fal photos with the Dust mockup as --design: try 1 a braid covered the H of HOT and the shot was full-body; try 2 braid tied back but it still fell over the H of HOT, so per 9b the exact print (Printful file 1087368545) is composited on the chest with the braid kept on top and clear of every letter (HOT MESS EXPRESS reads in full); slight soft smudge at the right shoulder from the inpaint, not on the print. Alt starts "Woman". covers.ts set, `cover: pending` removed, review sheet rebuilt with the new cover. Keyword map entry already present. astro build OK; audit --handle only "not visible on the storefront". fal $0.12.
+- 2026-10-18 01:19 UTC director: REDO (stays DRAFT). (1) R13.3/R6.6: the cover is a full-length shot where she appears to wear the sweatshirt over bare legs, so the print is tiny and the outfit looks wrong. Crop the existing cover to waist-up (no new fal call needed) so the print is large and the legs leave the frame. (2) R6.8: a soft inpaint smudge sits on her right shoulder next to the print; repaint it before saving.

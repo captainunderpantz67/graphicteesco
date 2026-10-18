@@ -1,7 +1,12 @@
 2026-10-18 01:25 UTC — [B] REVIEW #469 Excused From Small Talk embroidered crewneck REDO (coded book stack, bigger lettering, 12/12, composite cover; fal $0).
 2026-10-18 01:16 UTC — [B] REVIEW #498 Psalm 121 embroidered crewneck REDO (verse on two lines, 12/12, composite cover; fal $0).
+2026-10-18 01:21 UTC — [D] Review batch 2: 2 LIVE (#333 New Year Same Guy tee, #498 Psalm 121 embroidered crew; ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn). 2 REDO: #365 (back zipper seam + sign text on cover), #508 (inpaint patch on cover).
 RUNNING director since 2026-10-18 01:13 UTC
+2026-10-18 02:41 UTC — [E] REVIEW #365 Dead Serious skull zip hoodie (fal ~$0.1).
+2026-10-18 05:56 UTC — [C] REVIEW #508 Women's National Park Two Queens Roaming hoodie (DRAFT, synced 12/12, Sand + Navy, two composited prints; fal $0.10).
 2026-10-18 01:10 UTC — [B] REVIEW #512 Golden Retriever I Brought You a Sock crewneck REDO (two-line joke, FW 1500, 12/12, composite cover; fal $0).
+2026-10-18 01:19 UTC — [A] REVIEW #333 Men's NYE New Year, Same Guy tee (DRAFT, 42/42 synced, 6 colors, cover 1 try; fal ~$0.14).
+2026-10-18 01:19 UTC — [D] Review batch: 9 LIVE (#380 Down Set Snacks crew, #406 Politely No cropped hoodie, #442 Calculated Mostly zip hoodie, #451 Magical Mostly Tired zip hoodie, #454 Some Assembly Regretted tee, #488 I Said It Nicely tee, #494 Twelve Labors tee, #504 Improving My Lie hoodie, #512 I Brought You a Sock crew; all ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn). 9 REDO: #332 #384 #439 #468 #503 #505 #506 #507 #514 (notes in each item). R4.1 line added: rounded scene cards count as a badge.
 2026-10-18 01:02 UTC — [B] REVIEW #384 Women's Y2K – Hot Mess Express Oversized Sweatshirt (cover added; fal $0.12).
 2026-10-18 00:59 UTC — [B] REVIEW #380 Women's Football Mom – Down, Set, Snacks Crewneck (DRAFT, synced 12/12, Sand + Sport Grey; fal $0.06).
 2026-10-18 05:21 UTC — [C] REVIEW #506 Men's Golf Retired Working on My Short Game zip hoodie (DRAFT, synced 12/12, Ash + Navy, back-view cover, M of My soft; fal $0.10).
