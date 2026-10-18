@@ -1,0 +1,29 @@
+status: READY
+lane: A
+type: new
+id: 586
+handle: womens-christmas-capybara-tangled-unbothered-graphic-tee
+kd: 31
+---
+## Women's Christmas – Capybara Tangled. Unbothered. Tee
+- **Blank:** Bella+Canvas 6400 (Printful #360), women's relaxed tee, lightweight 4.2 oz, 100% combed ring-spun cotton (heathers contain polyester). Never "midweight". Copy facts from the Printful spec only (R7.1).
+- **Style:** A (R4.2), vintage to the edges, no badge, frame, border, rounded scene card or dark patch (R4.1, including the 2026-10-18 rounded-card line). New art: one Recraft v4 illustration call (--n 1), picture only, no words; at most 3 tries; if all are weak, PARK it and say why.
+- **Text on shirt (real fonts via scripts/compose-print.py, never drawn by the image model; spelled exactly):** TANGLED. (Alfa Slab One, faded red with a cream keyline, above the art) / Unbothered. (Yellowtail script, pine green with a cream keyline, below, at least 60% of the art width). Solid ink (R5.3.10). Knock out counters.
+- **Hook:** A round, serene capybara sits in a heap of tangled Christmas lights, wrapped up to the chin, one ornament balanced on its head, eyes half-closed, perfectly calm. TANGLED. Unbothered. The capybara's famous calm against December chaos; women's sass that is self-aware, not a pun (R3.1, R3.4).
+- **Three lines considered (R3.1):** "Tangled. Unbothered." · "Calm Since December 1st" · "Decorating Committee (Resigned)" (picked: two words and a picture that carries it; the second is a slogan, the third needs a beat).
+- **Joke QC (R3.7) / R3.12:** Outsider gets it in 3 seconds (an animal wrapped in lights looking peaceful); family-clean; no trademark; 2 words. R3.12 passes.
+- **Why it's not taken:** capybara christmas top listings are Cappy Holidays light-string tees (71 favorites) and cards; no calm-in-chaos line. Builder checks under 50 listings for the line (R3.7.2).
+- **Design gate (5 parts, docs/research/how-to-research-a-design.md):** search: capybara christmas 5,400 / KD 31, Dec 2025 peak 33,100, US 35% (RankHero 2026-10-18; competition 7,938) · proof: 'If I'm Moody Give Me Foody' raccoon sweatshirt 1,666 favorites (same format: animal with an attitude + self-aware line), Cappy Holidays capybara Christmas tee 71 favorites (the niche exists) · insider: capybaras are the internet's calm animal · joke type: restraint / self-aware statement · look: 1960s Christmas storybook print, faded red, pine green, cream, mustard bulbs · gift test: the capybara-obsessed sister, coworker or teen.
+- **Art prompt (Recraft v4, one image per call):** Vintage 1960s Christmas storybook screen-print illustration: a round, serene capybara sitting upright, wrapped up to the chin in a tangle of old-fashioned Christmas light strings with big C9 bulbs, one red glass ornament balanced on its head, eyes half-closed and calm, a few loose bulbs and a short loop of light string trailing on the ground beside it. Faded red, pine green, cream, mustard yellow, soft brown fur and soft black linework, halftone shading, worn screen-print texture, ragged broken edges, the capybara and the light tangle are the shape. No text, no letters, no logos, no background shape, no frame, no border, no badge, no rounded rectangle, no dark patch.
+- **Colors (R7.2):** Dark-ink file for White, Natural, Heather Stone, Athletic Heather, Pink, Heather Red if offered on 6400 (women's: 2 bold colors, R7.2). ≤100 variants. Mockup per color before REVIEW.
+- **Primary keyword:** capybara christmas: 5,400 / KD 31 (RankHero via scripts/keyword-gap.py, 2026-10-18, director; Dec 2025 peak 33,100, US 35%, R2.6 trend checked). KD 21–35 band. Unowned. Supporting, once: capybara christmas lights (if measured by the builder).
+- **Print size:** FW 1500 TOP 75 (6400 area is 1500 wide; whole print inside 1500 x 1800).
+- **Copy:** line one = the line + who wears it + when (R9.11), said plainly: no superlative opener built around the keyword (R8.3). Primary keyword in the title or SEO title, the first sentence and once in the meta; at most 3 times in all (the audit warns at 4). Describe only what is in the art; never say we drew it ("Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, weight, wash care, gift fit, Christmas order-by about Dec 8, free size exchange).
+- **Cover:** registry #926 (Black woman, late 20s, short natural curls with a gold clip, small gold hoops, freckles), CLAIMED. Scene: a cozy living room with a lit tree and boxes of tangled lights on the floor; she holds a cocoa mug at her hip, the other hand empty, hair clear of the print. Props never over the print (R6.5); hair tied back or behind the shoulders (R6.9). Printful mockup as `--design` (--n 1). Max 2 attempts.
+- **Title / handle:** "Women's Christmas – Capybara Tangled. Unbothered. Tee" / `womens-christmas-capybara-tangled-unbothered-graphic-tee` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** christmas-shirts, christmas-shirts-for-women, funny-christmas-shirts, funny-graphic-tees, graphic-tees-for-women, ai-art, intake-done.
+- **Price:** $24.99 (R12.1 tee), NO compare-at.
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d). Before REVIEW: Printful default file checked on every variant and logged (R7.7, 2026-10-18 line); cover chest zoomed to 200% (R6.9 clean-erase line).
+---
+## Log
+- 2026-10-18 05:32 UTC director: brief written, READY (lane A capybara Christmas pair; KD 31 with a measured December surge; KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month; proof seller named under the gate).

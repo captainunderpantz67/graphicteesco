@@ -1,9 +1,14 @@
-2026-10-18 05:25 UTC — [B] REVIEW #543 Men's Fishing Should've Been Here Yesterday Tee (DRAFT, synced 63/63, 9 colors; fal $0.10).
+2026-10-18 05:33 UTC — [D] Late REVIEW arrivals: #543 Should've Been Here Yesterday tee LIVE (ACTIVE + published, Printful 63/63 checked, audit PASS 0 warn). #457/#458 Eight Nights of Fried Food REDO, covers only: 7-candle menorah (#457), fake dreidel letters + erase blotches (#458); rulebook R5.3.9 gets a Hanukkah-cover line (4th hit). No Telegram. Lock released.
+2026-10-18 05:32 UTC — [D] Director run: inbox nothing new. Reviewed 17 REVIEW items: 7 LIVE (#281 #284 #525 #533 #535 #573 #575; all ACTIVE + Online Store/Headless/Google & YouTube, audit --handle PASS 0 warn, Printful file checked on every variant; copy fixes: #281 no longer says candy-stripe, #575 'Jesus' capitalised, #573 no shrug, #525 line position, #533/#535 keyword cut from 4 to 3 uses). 10 REDO: lane A lettering REDOs #149 #247 #248 #249 #250 #253 #254 still have the OLD plaid/gingham file on every Printful variant (re-link never finished) and stale review sheets (checked from live covers + Shopify mockups instead); #149/#249 covers smeared where the old print was erased, #248 stray mark, #250 hair over a; #534 WALLET EMPTY clipped off every mockup; #536 'Don'ttalk' spacing + ghost door; #332 hair over the bow. Rulebook: R6.9 clean-erase line and R7.7 re-link proof line (3+ hits each). #573 #575 to reference/best. 12 briefs #586-#597 (A: capybara Christmas tee + crewneck twin, raccoon Christmas tee + crewneck twin; B: capybara, wrestling mom, wrestling, feral cat, possum, otter, corgi, hockey tees); KD ≤ 20 band empty for these niches, so KD 21-35 first then measured KD 36+ over 1,000/month; registry 926-937, keyword map updated. Stale RUNNING lines for lanes A/B (Oct 17 23:5x) and C (01:55) cleared. READY: A 13, B 12, C 13, E 12. No Telegram (not a digest run, nothing needs Sam). Lock released.
 RUNNING lane E since 2026-10-18 05:15 UTC
-RUNNING director since 2026-10-18 05:14 UTC
+2026-10-18 08:30 UTC — [C] Run summary: REDOs #525, #281, #457, #458 to REVIEW (fal $0.04). READY lane C hoodie twins untouched (550 551 553 562 563 565-572), REDO queue otherwise empty. Toolchain note: use /usr/bin/python3 (Pillow, numpy, cv2 installed there; /usr/local python3 lacks them). Lock released.
+2026-10-18 05:25 UTC — [B] REVIEW #543 Men's Fishing Should've Been Here Yesterday Tee (DRAFT, synced 63/63, 9 colors; fal $0.10).
+2026-10-18 05:30 UTC — [A] [A] 541 It Looked Smaller at the Farm crewneck built (twin of 540), Printful link queued 482689431; REVIEW once 12/12 synced
+2026-10-18 05:26 UTC — [A] [A] 540 It Looked Smaller at the Farm tee built (new art), Printful link queued 482689138; REVIEW once 49/49 synced; #541 twin next
 2026-10-18 05:03 UTC — [B] REVIEW #573 Women's Fishing Out-Fished Him. Again. Tee (DRAFT, synced 36/36, 6 colors; fal $0.14).
 2026-10-18 05:20 UTC — [A] [A] 470 Excused From Small Talk tee built (twin of 469, DTG), Printful link queued 482688507; REVIEW once 42/42 synced
 2026-10-18 05:14 UTC — [A] [A] 389 Seasonally Overbooked tee built (twin of 388), Printful link queued 482687699; REVIEW once 42/42 synced
+2026-10-18 08:20 UTC — [C] REVIEW #457 + #458 Hanukkah Eight Nights of Fried Food crewneck/tee REDO (new latke + sufganiyot art, solid navy Alfa Slab lines, new title/copy, synced 12/12 + 36/36, mockups + covers replaced; fal $0.04).
 2026-10-18 05:10 UTC — [E] REVIEW #536 Women's Volleyball Mom 7 A.M. Check-In tee (DRAFT, synced 36/36, 6 colors; fal ~$0.30). Lock released; #533 #534 #535 also moved to REVIEW this run (syncs resumed). Remaining lane E READY items not started (usage/time).
 2026-10-18 04:45 UTC — [B] REVIEW #575 Men's Christian Rebuilt by a Carpenter Tee (DRAFT, synced 63/63, 9 colors; fal $0.10).
 2026-10-18 05:09 UTC — [A] [A] REDO 247/248/249/250/253/254/149 relettered solid ink (R5.3.10), covers+mockups+copy swapped, Printful re-links still running; lane A re-link check needed
@@ -13,7 +18,6 @@ RUNNING director since 2026-10-18 05:14 UTC
 2026-10-18 04:33 UTC — [A] REVIEW #332 NYE Resolutions Pending tee REDO (solid burgundy letters, taller stack, 30/30 resynced, new cover; fal ~$0.06).
 2026-10-18 04:28 UTC — [D] Director run: inbox nothing new. Reviewed 16 REVIEW sheets: 13 LIVE (#273 #274 #319 #390 #455 #530 #544 #546 #549 #552 #554 #561 #564; all ACTIVE + Online Store/Headless/Google & YouTube/Copilot/Meta, audit --handle PASS 0 warn; tags added: funny-christmas-shirts on #273/#319, christmas-shirts-for-men on #273/#390, christmas-sweatshirts-for-men on #274; copy line one fixed on #544/#546, meta 'Christian' capitalised; #546 christian-shirts tag removed after an audit ERROR, then PASS). 3 REDO: #283 plaid-filled lettering (R5.3.10) + stray speck; #542 flat back mockup as cover (R6.1, fal is funded); #545 braid over the print + lighter composite patch (R6.9/R6.8) + copy opener. Rulebook R8.3: no keyword-plus-brag openers (3 hits this run). #575 brief: christian-shirts tag dropped (women's page). #546 sheet to reference/best. Briefs #580-#585 (A: drummer tee, mechanic tee + hoodie twin; B: drummer tee + hoodie twin, car guy tee): KD ≤ 20 band empty in the sweep and every measured Christmas long-tail is already claimed, so KD 21-35 gift phrases (gifts for mechanics 3,600/22, car guy gifts 9,900/29, gifts for drummers 3,600/32, drums shirt 2,400/34); registry 920-925, keyword map updated. READY: A 12, B 12, C 13, E 12. No Telegram (not a digest run, nothing needs Sam). Lock released.
 2026-10-18 05:12 UTC — [C] REVIEW #525 I Brought You a Sock heavyweight hoodie REDO (You're welcome. 40%→62% of width, dog faded at ankles to fit the 2100 px area, synced 14/14, cover recomposited; fal $0).
-RUNNING lane C since 2026-10-18 04:25 UTC
 2026-10-18 04:13 UTC — [B] REVIEW #549 Men's Dog Dad Unpaid Doorman Tee (DRAFT, synced 63/63, 9 colors; fal $0.14).
 2026-10-18 04:30 UTC — [E] REVIEW #533 Women's Western Hold Your Horses tee and #534 Women's Dance Mom Bun Tight tee (DRAFT, synced 30/30 each; syncs resumed after a container reset; fal $0 this run).
 2026-10-18 04:08 UTC — [C] released #562 to READY (needs compose-print.py/ragged-edge.py, missing from this container). Other lane C items not started for the same toolchain reason. Lock released.
@@ -62,7 +66,6 @@ RUNNING lane C since 2026-10-18 04:25 UTC
 2026-10-18 02:11 UTC — [C] REVIEW #508 Women's National Park Two Queens Roaming hoodie (REDO: grey smudge between the women repainted; fal $0). Also REVIEW #505 Only Golf for the Outfits (REDO: skin filled, synced 10/10).
 2026-10-18 02:10 UTC — [C] REVIEW #503 Men's Golf Breakfast Ball Enthusiast heavyweight hoodie (REDO: Enthusiast bigger and bolder, synced 14/14; fal $0).
 2026-10-18 04:36 UTC — [E] REVIEW #365 (REDO: cover redone, no back seam, no sign lettering, composite).
-RUNNING lane C since 2026-10-18 01:55 UTC
 2026-10-18 02:06 UTC — [A] REVIEW #275 Men's Christmas White Elephant Champion tee (DRAFT, 47/47 synced, 7 colors, cover 1 try; fal ~$0.10).
 2026-10-18 04:21 UTC — [E] REVIEW #514 (REDO: MEMBERS ONLY dropped, new mockups, cover re-composited on both people).
 2026-10-18 02:04 UTC — [C] REVIEW #439 Women's Tennis My Backhand Has Opinions cropped hoodie (REDO: racket strings rebuilt, ball made round; synced 10/10; fal $0).
@@ -126,10 +129,8 @@ RUNNING lane C since 2026-10-18 01:55 UTC
 2026-10-18 00:10 UTC — [B] REVIEW #512 Women's Golden Retriever – I Brought You a Sock Crewneck (DRAFT, synced 12/12, Sand + Sport Grey; fal $0.10).
 2026-10-18 00:37 UTC — [A] REVIEW #454 Men's Christmas Some Assembly Regretted tee (DRAFT, 42/42 synced, 6 colors, cover 2 tries; fal ~$0.09).
 2026-10-18 00:05 UTC — [B] REVIEW #511 Unisex Golf – Sorry About Your Windshield Crewneck (DRAFT, synced 12/12, Sand + Sport Grey; fal $0.12).
-RUNNING lane A since 2026-10-17 23:59 UTC
 
 2026-10-18 00:10 UTC — [A] REVIEW #474 Feed Store Fashion Week hoodie REDO (keyline on Saturday, 7 a.m.; new mockups, composite cover; no fal).
-RUNNING lane B since 2026-10-17 23:57 UTC
 
 2026-10-17 23:44 UTC — [H] Helper run: Telegram inbox empty (getUpdates returned 0 updates; no pause or resume, nothing to consume). Cohesion audit NOT run: the audit script was blocked by the sandbox permission check, so no audit count, no scripted meta/SEO/collection fixes, and no price-bar check this run. Site freshness and the one-time category check also not run (blocked/not reached). Stuck check not run. Needs a human look: run node scripts/cohesion-audit.mjs in a session where it is allowed. Lock released.
 
