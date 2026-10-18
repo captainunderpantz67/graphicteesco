@@ -663,7 +663,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 864 | white woman, late 30s, blonde hair in a high ponytail, light freckles, slim athletic build | USED 2026-10-18 — #528 Pace: Leisurely zip hoodie cover (seedream attempt 2, Ash back mockup as design, composite prints; pair 863-864) |
 | 869 | Navajo man, early 40s, short black hair, neat goatee, broad build | USED 2026-10-18 — #529 If You Can Step Over It, I Can Fill It Tee cover (brief) |
 | 870 | white man, late 20s, red buzz cut, freckles, full red beard, stocky build | USED 2026-10-18 — #530 Grinder & Paint Department Tee cover (brief) |
-| 871 | Filipino-American man, early 30s, short black undercut, clean-shaven, muscular build | CLAIMED 2026-10-18 — #531 Deload Week (Emotionally) Pump Cover cover (brief) |
+| 871 | Filipino-American man, early 30s, short black undercut, clean-shaven, muscular build | USED 2026-10-18 — #531 Deload Week (Emotionally) pump cover cover (fal Seedream, garage gym; try 1 kept, print composited per R6.9) |
 | 872 | Black man, early 60s, short white hair, white mustache, lean build | USED 2026-10-18 — #532 You Catching 'Em? Tee cover (brief) |
 | 873 | Afro-Latina woman, early 30s, curly dark hair in a low bun, small gold hoops, medium build | USED 2026-10-18 — #533 Hold Your Horses overstimulated tee cover |
 | 874 | Vietnamese-American woman, late 30s, sleek black chin-length bob, small pearl studs, slim build | USED 2026-10-18 — #534 Bun Tight, Wallet Empty tee cover |

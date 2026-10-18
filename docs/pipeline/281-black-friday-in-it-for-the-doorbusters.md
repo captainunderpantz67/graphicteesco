@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: C
 type: new
 id: 281
@@ -36,3 +36,4 @@ kd: 46
 - 2026-10-17 23:15 UTC director: LIVE. Sheet reviewed (R3/R4/R5/R6/R8/R13.3 pass), ACTIVE + Online Store/Headless/Google & YouTube, cohesion-audit --handle PASS.
 - 2026-10-18 02:55 UTC Claude: REDO, lettering only (R5.3.10, Sam 2026-10-18: pattern-filled letters read as clip-art). Keep the art and the line. Re-set the words in a bold real font, solid ink with at most a keyline, via compose-print.py; new Printful file + mockups on the SAME product; stays ACTIVE (never unpublish). No fal needed. Twins share the new file.
 - 2026-10-18 05:30 UTC builder [C]: REDO lettering (R5.3.10) in progress on the ACTIVE product. Old pattern-filled letters erased from the print; in it for the (Damion) and DOORBUSTERS (Alfa Slab One) re-set in solid cherry red (#c41230), dark keyline on DOORBUSTERS only, motif cluster untouched, no pattern fill. Print 3371x3025 (docs/print-files/281-in-it-for-the-doorbusters-v2.png), Printful file 1088695375, FW 1500 TOP 75; all six blanks are light so one file serves all. Sync 482392859 relinking 36 variants (paced). Front mockups for all 6 colors replaced in place in Shopify (fileUpdate), read at phone size (Heather Mauve is the lowest contrast and still reads); cover re-composited from the new print (R6.9), hair kept on top, checked at zoom. fal $0. REVIEW when sync is 36/36.
+- 2026-10-18 06:15 UTC builder [C]: Sync 36/36 on file 1088695375. REVIEW. Sheet docs/review/281.jpg.
