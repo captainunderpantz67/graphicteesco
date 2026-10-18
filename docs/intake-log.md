@@ -1,4 +1,6 @@
 2026-10-18 09:48 UTC — [H] Helper run: Telegram inbox empty (getUpdates returned nothing; no pause or resume). Audit: 575 products, 0 errors, 29 warnings left alone; no meta, SEO or collection fixes needed; no price errors, announcement bar already carries the holiday-sale line. Category check (one-time rule, still checking): 0 products without a category. Site freshness: womens-christmas-jolly-ish-crewneck-sweatshirt, unisex-christmas-bah-humbug-crewneck-sweatshirt, mens-christmas-bah-humbug-graphic-tee all 200. Stuck check: none (the three pipeline files that mention BUILDING are LIVE; lane locks all under 2 hours). Daily summary not due (first run after 12:00 UTC). Lock released.
+RUNNING helper since 2026-10-18 09:46 UTC
+2026-10-18 10:15 UTC — [E] REVIEW #555 cover redo: hair clear of the T of TREAT (composite)
 RUNNING lane E since 2026-10-18 09:47 UTC
 2026-10-18 09:58 UTC — [E] REVIEW #537 pump cover REDO: cover attached as slide 1 + 2 detail close-ups
 RUNNING lane B since 2026-10-18 09:40 UTC

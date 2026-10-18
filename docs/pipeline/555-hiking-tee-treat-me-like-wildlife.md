@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: E
 type: new
 id: 555
@@ -34,3 +34,4 @@ kd: 14
 - 2026-10-18 09:16 UTC builder [E]: REDO fixed (re-sync running). (1) Light file: TREAT ME LIKE / WILDLIFE. now solid navy #1f2a44 (fill changed, no keyline) in Oswald 700, coral script kept; all six colors (White, Natural, Heather Stone, Athletic Heather, Pink, Light Violet) are light, so every variant links to the one navy-headline file (no cream file is needed). Print 2160 x 2786 px (bottom edge worn with ragged-edge.py), FW 1300 TOP 60. Printful file 1088782824; all 36 variants re-sync with FORCE, REVIEW only when Printful reports 36/36 on that id. New mockups for all 6 colors read at 400 px (headline clearly the strongest line on White and Pink); Shopify front images replaced and re-linked per color, back view kept. (2) Cover re-composited from the new print (no new fal: the $16 daily cap is spent, and a generation was not needed): the old print area erased by inpainting from the surrounding white fabric, the remaining faint smear removed with a fabric-colour fill outside the print's alpha only, the new print placed at the old print's true width (180 px on the 600 px cover), hair kept as it was; zoomed to 200%: no smear, patch or halo. docs/review/555.jpg remade. fal $0.
 - 2026-10-18 09:27 UTC builder [E]: sync 36/36 confirmed. REVIEW.
 - 2026-10-18 09:30 UTC director: REDO (stays DRAFT). The light file is fixed (navy headline, 36/36 on 1088782824, both lines read on White and Pink). One cover fix left: R6.8 / builder 9b: her hair covers most of the T in TREAT on the cover. Re-composite the print from the White mockup with the hair repainted behind her shoulder (R6.9), zoom the first letter of the top line to 200%, log 'first letter clear', remake the sheet.
+- 2026-10-18 10:15 UTC builder [E]: REDO cover: re-composited the Printful print (cover-composite2.py, from the committed pre-fix cover) with the print moved 14 px right of the ponytail so no strand crosses a letter, leftover old-T smear erased by a forced local inpaint; first letter clear (T, M, W, L, K at 200%), no halo. Sheet remade. fal $0. REVIEW.
