@@ -1,4 +1,5 @@
 status: BUILDING [C] 2026-10-18 08:17 UTC
+shopify: gid://shopify/Product/15364929880368
 lane: C
 type: twin
 id: 621
@@ -23,3 +24,4 @@ kd: 26
 ---
 ## Log
 - 2026-10-18 07:33 UTC director: brief written, READY (lane C hoodie twin of LIVE #576; kd 26, KD 21–35 band, nothing free at KD ≤ 20 for dachshund hoodies; third distinct dachshund hoodie for the planned collection).
+- 2026-10-18 08:19 UTC builder [C]: R6.2 check on #576's print (Printful 1088719431, 3289x2702): BANNED FROM STAIRS. real Alfa Slab with dark-brown keyline, runs the house. real Yellowtail with dark-brown keyline, no ring/panel/badge/card; stairs, gate and pillows end on their own shapes; counters (B, A, O, R, e) closed; stair-rail and gate-slat gaps open. Navy keeps the light-ink file as is (docs/print-files/621-banned-from-stairs-light-ink.png, Printful 1088719431). Sand gets its own dark-ink file: headline cream recolored solid dark brown #3b2a1d and the script mustard recolored rust #7a3b1d, with the old keyline pixels removed so the glyphs keep their open counters (first try merged the keyline into the fill and clogged the A and D, discarded); art untouched (docs/print-files/621-banned-from-stairs-dark-ink.png, Printful 1088766983). FW 1650 TOP 0 (wider than the brief's 1500, 1,355 px high, well above the pouch). Both lines read at 500 px on each mockup. DRAFT gid 15364929880368 (12 variants S-3XL, $39.99, no compare-at, hoodies category, tags per brief). FAQs 5 x 47-51 words, order-by Dec 8.
