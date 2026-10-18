@@ -7980,23 +7980,22 @@
   },
   "womens-bear-if-its-brown-lie-down-crewneck-sweatshirt": {
    "claimed": [
-    "bear crewneck"
+    "bear crewneck",
+    "bear sweater"
    ],
    "gaps_measured": [
     {
      "phrase": "bear crewneck",
      "volume": 1300,
-     "kd": 20,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 20
     },
     {
      "phrase": "bear sweater",
      "volume": 8100,
-     "kd": 36,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 36
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-golf-fairways-are-a-rumor-half-zip": {
    "claimed": [
@@ -8204,43 +8203,41 @@
   },
   "womens-mimi-says-yes-hoodie": {
    "claimed": [
-    "gifts for mimi"
+    "gifts for mimi",
+    "mimi hoodie"
    ],
    "gaps_measured": [
     {
      "phrase": "gifts for mimi",
      "volume": 1600,
-     "kd": 17,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 17
     },
     {
      "phrase": "mimi hoodie",
      "volume": 90,
-     "kd": 45,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 45
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-gigi-because-grandma-sounded-old-hoodie": {
    "claimed": [
-    "gifts for gigi"
+    "gifts for gigi",
+    "gigi hoodie"
    ],
    "gaps_measured": [
     {
      "phrase": "gifts for gigi",
      "volume": 1600,
-     "kd": 17,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 17
     },
     {
      "phrase": "gigi hoodie",
      "volume": 140,
-     "kd": 36,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 36
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-gym-twelve-labors-zero-cardio-hoodie": {
    "claimed": [
@@ -8435,23 +8432,22 @@
   },
   "unisex-dachshund-banned-from-stairs-graphic-tee": {
    "claimed": [
-    "dachshund apparel"
+    "dachshund apparel",
+    "wiener dog shirt"
    ],
    "gaps_measured": [
     {
      "phrase": "dachshund apparel",
      "volume": 12100,
-     "kd": 26,
-     "competition": 4731
+     "kd": 26
     },
     {
      "phrase": "wiener dog shirt",
      "volume": 590,
-     "kd": 48,
-     "competition": 14910
+     "kd": 48
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-cat-making-biscuits-hoodie": {
    "claimed": [
@@ -8469,23 +8465,22 @@
   },
   "unisex-pitbull-scary-dog-afraid-of-the-vacuum-graphic-tee": {
    "claimed": [
-    "pit bull shirt"
+    "pit bull shirt",
+    "pitbull gifts"
    ],
    "gaps_measured": [
     {
      "phrase": "pit bull shirt",
      "volume": 1900,
-     "kd": 30,
-     "competition": 4195
+     "kd": 30
     },
     {
      "phrase": "pitbull gifts",
      "volume": 320,
-     "kd": 51,
-     "competition": 12075
+     "kd": 51
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-grandpa-ask-your-grandmother-graphic-tee": {
    "claimed": [

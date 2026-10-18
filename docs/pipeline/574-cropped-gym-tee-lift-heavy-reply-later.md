@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-18 04:26Z
+status: REVIEW
 lane: B
 type: new
 id: 574
@@ -29,3 +29,5 @@ shopify: gid://shopify/Product/15364670685488
 ## Log
 - 2026-10-18 03:23 UTC director: brief written, READY (lane B crop + funny-gym; KD 32 phrase, 857/1,670-favorite gym-culture proof).
 - 2026-10-18 04:33 UTC builder [B]: WIP: DRAFT gid://shopify/Product/15364670685488 (AS Colour 4062 #636, 9 colors x XS-XL = 45, $24.99 no compare-at; copy facts from Printful #636: 100% combed cotton, 5.3 oz/yd², Bangladesh), art (1 Recraft call kept, wide barbell scene), compose-print lettering (LIFT HEAVY. Big Shoulders 900 dark red, Reply Later. Damion navy), two files (dark-ink for 8 light/bold colors, cream-halo for Black), FW 1230 TOP 0 (whole 1.19-ratio print inside the 1500x1500 area, 8.2 in wide, hem clear), all mockups attached, cover (registry 914; the first photo had a slightly garbled last letter in Later., so the exact print was composited per R6.9), review sheet done. Sync queued behind lane syncs; status goes to REVIEW at 45/45.
+
+- [B] 2026-10-18 builder: sync DONE, R7.7 default-file check on Printful: 45/45 synced; default file 40 on 1088691210 (dark ink), 5 on 1088691233 (Black, halo), back logo on all. Variant-photo audit clean. Status REVIEW.
