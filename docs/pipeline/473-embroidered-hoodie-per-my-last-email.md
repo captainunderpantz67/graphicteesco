@@ -26,4 +26,4 @@ shopify: gid://shopify/Product/15364727079216
 - 2026-10-18 07:03 UTC builder [B]: REVIEW. Sync finished 12/12 (earlier run died with the link at 0/12; re-linked), review sheet docs/review/473.jpg, design crop added, variant-photo audit clean, audit --handle only 'not visible'. fal $0.
 
 - [B] 2026-10-18 builder: sync DONE, R7.7 default-file check on Printful: 12/12 synced; embroidery_chest_center 1088588157 on all 12, back logo on all. Variant-photo audit clean. Status REVIEW.
-- 2026-10-18 07:55 UTC director: approved from docs/review/473.jpg; ACTIVE + Online Store + Headless + Google & YouTube. Copy fix: 'hand-lettered script' (a real font) → brush script; FAQs repeated the full product name about 10 times, trimmed to read like a person (R8.3). audit --handle PASS (0 warn). LIVE.
+- 2026-10-18 07:22 UTC director: approved from docs/review/473.jpg; ACTIVE + Online Store + Headless + Google & YouTube. Copy fix: 'hand-lettered script' (a real font) → brush script; FAQs repeated the full product name about 10 times, trimmed to read like a person (R8.3). audit --handle PASS (0 warn). LIVE.
