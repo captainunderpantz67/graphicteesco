@@ -1,5 +1,5 @@
-status: READY
-lane: A
+status: BUILDING [B]
+lane: B
 type: addon
 id: 664
 handle: unisex-cat-allegedly-socks

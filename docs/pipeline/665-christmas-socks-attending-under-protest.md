@@ -1,5 +1,5 @@
-status: READY
-lane: A
+status: BUILDING [B]
+lane: B
 type: addon
 id: 665
 handle: mens-christmas-attending-under-protest-socks
