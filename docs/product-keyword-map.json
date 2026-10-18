@@ -7767,6 +7767,118 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-fishing-love-language-hoodie": {
+   "claimed": [
+    "fishing gifts for dad"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fishing gifts for dad",
+     "volume": 1000,
+     "kd": 24,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "funny fishing hoodie",
+     "volume": 70,
+     "kd": 50,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-hockey-cold-rink-hot-takes-hoodie": {
+   "claimed": [
+    "hockey mom sweater"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "hockey mom sweater",
+     "volume": 880,
+     "kd": 38,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "hockey mom hoodie",
+     "volume": 260,
+     "kd": 44,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "ice hockey hoodie",
+     "volume": 210,
+     "kd": 44,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-knitting-one-more-row-hoodie": {
+   "claimed": [
+    "knitter hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "knitter hoodie",
+     "volume": 8100,
+     "kd": 14,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "yarn hoodie",
+     "volume": 170,
+     "kd": 34,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "unisex-christian-holy-spirit-mildly-spooky-hoodie": {
+   "claimed": [
+    "faith based hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "faith based hoodie",
+     "volume": 260,
+     "kd": 32,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "god hoodie",
+     "volume": 3600,
+     "kd": 38,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-grandpa-i-fix-things-after-naps-hoodie": {
+   "claimed": [
+    "grandpa birthday gift"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "grandpa birthday gift",
+     "volume": 6600,
+     "kd": 13,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "papa hoodie",
+     "volume": 590,
+     "kd": 46,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "grandpa hoodie",
+     "volume": 170,
+     "kd": 51,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
