@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-18 03:57Z
+status: REVIEW
 lane: B
 type: new
 id: 575
@@ -30,3 +30,4 @@ shopify: gid://shopify/Product/15364640014640
 - 2026-10-18 03:24 UTC director: brief written, READY (lane B christian men, the honest half of R3.4; KD 17 phrase, 2,348-favorite verse-and-art proof).
 - 2026-10-18 04:20 UTC director: tag fix: drop christian-shirts (that collection is women's; the audit fails a men's product in it, as #546 did this run).
 - 2026-10-18 04:25 UTC builder [B]: WIP: DRAFT gid://shopify/Product/15364640014640 (3001 #71, 9 colors x S-4XL = 63, $24.99 no compare-at, tags: christian-shirts dropped because the audit errors on a men's product in the Christian Shirts collection), art (1 Recraft call kept), lettering via compose-print (REBUILT BY / A CARPENTER Cinzel 900, 2 Corinthians 5:17 Playfair Display Italic 800, because designs/fonts has no Fraunces Italic; the verse is 100% of the art width so it reads at phone size), compose-print got a new optional 'holes' key (print-prep --holes N) that knocks out enclosed white gaps between the bench legs so no cream plate forms behind the art on dark shirts. Two files (cream-halo for the 5 dark colors, brown ink for Natural/Soft Cream/Heather Dust/Ash), FW 1650 TOP 75, all mockups, cover (registry 915, try 1), review sheet done. Printful sync running; status goes to REVIEW at 63/63.
+- 2026-10-18 04:45 UTC [B]: synced 63/63, REVIEW. R6.2: no ring, panel, box or typeset line in the art; no frame or badge; every color has its own photo; phone-size read OK on Black and Natural (verse 100% of art width). Audit-local PASS (christian-shirts tag dropped for the men's audit rule). fal $0.18 (art $0.04, cover $0.06 + 1 earlier art).

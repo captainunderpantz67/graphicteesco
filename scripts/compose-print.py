@@ -46,9 +46,9 @@ def render(l):
             break
         size = int(size * 0.95)
     asc, desc = f.getmetrics()
-    img = Image.new('RGBA', (total + 4 * sw + 40, asc + desc + 4 * sw + 40), (0, 0, 0, 0))
+    img = Image.new('RGBA', (total + 4 * sw + 40 + 240, asc + desc + 4 * sw + 40), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
-    x = 2 * sw + 20
+    x = 2 * sw + 120  # room for script-font overhang (Damion's D and final letters were clipped at the image edge)
     for c, a in zip(l['text'], adv):
         d.text((x, 2 * sw + 20), c, font=f, fill=l['fill'], stroke_width=sw, stroke_fill=l.get('stroke_fill'))
         x += a + track

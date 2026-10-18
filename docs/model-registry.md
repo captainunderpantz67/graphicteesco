@@ -668,7 +668,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 873 | Afro-Latina woman, early 30s, curly dark hair in a low bun, small gold hoops, medium build | USED 2026-10-18 — #533 Hold Your Horses overstimulated tee cover |
 | 874 | Vietnamese-American woman, late 30s, sleek black chin-length bob, small pearl studs, slim build | USED 2026-10-18 — #534 Bun Tight, Wallet Empty tee cover |
 | 875 | white woman, early 40s, strawberry-blonde ponytail through a ball cap, light freckles, athletic build | USED 2026-10-18 — #535 Travel Ball Took My Saturdays tee cover |
-| 876 | Black woman, mid-40s, shoulder-length locs tied back, small gold studs, medium build | CLAIMED 2026-10-18 — #536 7 A.M. Check-In Tee cover (brief) |
+| 876 | Black woman, mid-40s, shoulder-length locs tied back, small gold studs, medium build | USED 2026-10-18 — #536 7 A.M. Check-In Tee cover (brief) |
 | 877 | Korean-American woman, mid 20s, long black hair in a high ponytail, athletic build | CLAIMED 2026-10-18 — #537 Lifts Heavy, Has Whimsy Pump Cover cover (brief) |
 | 878 | Lebanese-American woman, early 30s, long dark-brown wavy hair tied back, small gold nose stud, medium build | CLAIMED 2026-10-18 — #538 Motherhood Didn't Change Me. It Exposed Me. Tee cover (brief) |
 | 879 | Mexican-American man, mid 30s, short black fade, full black beard, tattooed forearms, stocky build | CLAIMED 2026-10-18 — #539 Stacks Dimes, Wants More Dimes Tee cover (brief) |
@@ -689,7 +689,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 884 | Ghanaian-American man, mid 20s, low taper fade with a part line, clean-shaven, lean muscular build | USED 2026-10-18 — #544 Rack Your Weights. Respectfully. Tee cover (brief) |
 | 885 | Ethiopian-American woman, early 30s, long box braids tied back in a high ponytail, small silver studs, muscular athletic build | USED 2026-10-18 — #545 Mid-Set. Not Interested. Tee cover (brief) |
 | 886 | Guatemalan-American man, mid 40s, short side-parted black hair, neat black mustache, medium build | USED 2026-10-18 — #546 Short Grace. Hot Food. Tee cover (brief) |
-| 887 | Vietnamese-American woman, about 20, long straight black hair with curtain bangs, round tortoiseshell glasses, slim build | CLAIMED 2026-10-18 — #547 Book Buying Ban Cropped Tee cover (brief) |
+| 887 | Vietnamese-American woman, about 20, long straight black hair with curtain bangs, round tortoiseshell glasses, slim build | USED 2026-10-18 — #547 Book Buying Ban cropped tee cover (fal Seedream, indie bookstore aisle; try 2 kept, try 1 had hair over the B) |
 | 888 | man AND woman together: Japanese-American man, late 20s, short black hair, light stubble, lean build; Irish-American woman, late 20s, long copper hair in a braid behind her shoulder, light freckles, medium build | CLAIMED 2026-10-18 — #548 Switchbacks Build Character Crewneck Sweatshirt cover (brief, pair on one number) |
 | 889 | Iranian-American man, mid 30s, thick dark wavy hair, full trimmed dark beard, medium build | USED 2026-10-18 — #549 Unpaid Doorman Tee cover (fal Seedream, back porch with dog; try 1 kept) |
 | 900 | Welsh-American man, early 40s, short sandy-brown hair in a neat side part, thick sandy mustache, ruddy cheeks, stocky build | USED 2026-10-18 — #560 White Elephant Champion hoodie cover (seedream, Navy mockup as design, composite print) |
