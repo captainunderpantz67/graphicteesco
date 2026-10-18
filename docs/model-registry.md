@@ -487,7 +487,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 594 | man AND woman together: Vietnamese-American man, late 20s, round glasses, short textured hair; Black woman, late 20s, short twist-out | USED 2026-10-17 — #403 I Have Plans hoodie cover (try 1, image 1 of 1) |
 | 595 | man AND woman together: Korean-American man, early 20s, bleached tips; Latina woman, early 20s, space buns, butterfly clips | USED 2026-10-17 — #404 Side Quests Only hoodie cover (try 2, 2 images; woman's garment shows no hood, flagged) |
 | 596 | man AND woman together: Japanese-American man, mid 20s, shaggy black hair; white woman, mid 20s, dyed lavender bob | USED 2026-10-17 - #405 Snack Hoard dragon hoodie cover (pair with #596-597) |
-| 597 | Indian-American woman, about 20, long dark hair in a half-up claw clip, small gold nose stud | RESERVED — #406 Politely Hop Off Cropped Hoodie cover |
+| 597 | Indian-American woman, about 20, long dark hair in a half-up claw clip, small gold nose stud | USED 2026-10-18 — #406 Politely, No. bunny cropped hoodie cover |
 | 598 | Native American (Diné) man, mid 30s, long black hair tied back, light stubble | RESERVED — #407 Camera Shy Heavyweight Hoodie cover |
 | 599 | man AND woman together: Samoan man, late 20s, broad build, short curly hair; white woman, late 20s, sun-bleached beach waves | USED 2026-10-17 — #408 Friendly-ish shark oversized hoodie cover (with the partner row, seedream, 1 attempt)
 | 598 | Native American (Dine) man, mid 30s, long black hair tied back, light stubble | USED 2026-10-17 - #407 Camera Shy sasquatch hoodie cover (seedream, storm blue, misty trailhead) |
