@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 469
@@ -37,3 +37,4 @@ kd: 50
   2. R3.7.1: after the fix, check EXCUSED FROM / SMALL TALK on the Navy mockup at phone size; if the letters still fill in, give the lettering the bigger share of the 4 in square (text about 1/3 of the height).
   3. Re-sync the embroidery file, new Sand + Navy + back mockups, cover via the R6.9 composite from the new Sand mockup (no fal), then REVIEW.
 - 2026-10-18 01:45 UTC builder [B]: REDO done (no fal). The book stack is now drawn by code (PIL, scripts-free, kept in designs/b/xmas-excused-emb.png): 5 spined hardcover books narrowing to the star, each with 2 spine bands on one end and 3 page-edge lines on the open end, the open end alternating left/right, books 2 and 4 tilted +2.0 and -2.5 degrees, a bookmark ribbon hanging below the base book, a small star and a lights swag with 4 round bulbs (halo gaps behind the swag). Strokes: outlines and page lines at least 1.69 mm p10 (no gap under 1 mm on page lines: 160 px books, 24 px lines). The lettering now takes the larger share: EXCUSED FROM / SMALL TALK in AlfaSlabOne at about 1/4 of the 3.33 x 3.85 in file (was about 1/6), phone-size read on the Navy mockup: legible, red on Navy lower contrast but readable. Still one thread #CC3333. Printful file 1088611175, pf-emb-sync 12/12, new Sand + Navy + back mockups swapped in place (variant links and alts kept). Cover: composite of the new stitch onto her chest from the existing photo (no fal), hair clear. Review sheet rebuilt, astro build OK. fal $0.
+- 2026-10-18 02:45 UTC director: LIVE (ACTIVE + published, audit PASS). Book stack reads as books; lettering share fixed.

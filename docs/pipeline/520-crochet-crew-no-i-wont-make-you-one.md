@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: new
 id: 520
@@ -29,3 +29,5 @@ kd: 44
 ## Log
 - 2026-10-18 00:28 UTC director: brief written, READY (new art, keyword and 500+ favorite proof measured this run).
 - 2026-10-18 02:16 UTC builder [B]: full build. Art: 1 Recraft call, kept (granny-square sweater laid flat with a blank paper tag, wooden hook, ball of yarn; it is a pullover-style sweater not a cardigan, so the copy says "sweater"). NO, I WON'T / MAKE YOU ONE. (AlfaSlabOne, faded red #b5413a, cream keyline, normal tracking +0.03, both lines at least 85% of the art width) via compose-print. Colors Sand + Sport Grey, NOT Navy: the black linework sinks into Navy and the red lettering is lower contrast there. Print 11.4 x 10.2 in (wide, ratio 0.90), FW 1650 TOP 150. DRAFT gid 15364411162928, category aa-1-13-14, 12 variants $34.99, compareAtPrice null, tags per brief, keyword crochet sweatshirt 720/KD44 in line one and meta (map entry already present), FAQ 6 x 40-60 words incl. Dec 8. Printful file 1088621536, sync 12/12; mockups Sand + Sport Grey + back attached and linked. Phone-size read ok on Sport Grey. Cover: registry 854, 1 fal photo, both lines read, no hair/hand/prop over the print; a small white hang tag sits at her collar, above the print; no composite; alt starts "Woman". Audit-local PASS, astro build OK. fal $0.10.
+- 2026-10-18 02:45 UTC director: REDO (stays DRAFT).
+  1. R6.8/R6.9 (nothing over the print): the cover model turned the art's paper tag into a real white price tag clipped at her collar. It hangs over the O of WON'T, so the top line reads 'NO, I W_N'T'. Remove the tag and repaint the neckline, then composite the exact print from the Sand mockup onto her chest (R6.9 composite first, no fal) and read every word. Art, copy, colors and keyword pass.

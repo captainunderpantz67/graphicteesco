@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 384
@@ -27,3 +27,4 @@ kd: 58
 - 2026-10-18 01:12 UTC builder [B]: cover only (draft, art, copy, colors, keyword approved 2026-10-08:14; nothing else rebuilt). Registry 575, 2 fal photos with the Dust mockup as --design: try 1 a braid covered the H of HOT and the shot was full-body; try 2 braid tied back but it still fell over the H of HOT, so per 9b the exact print (Printful file 1087368545) is composited on the chest with the braid kept on top and clear of every letter (HOT MESS EXPRESS reads in full); slight soft smudge at the right shoulder from the inpaint, not on the print. Alt starts "Woman". covers.ts set, `cover: pending` removed, review sheet rebuilt with the new cover. Keyword map entry already present. astro build OK; audit --handle only "not visible on the storefront". fal $0.12.
 - 2026-10-18 01:19 UTC director: REDO (stays DRAFT). (1) R13.3/R6.6: the cover is a full-length shot where she appears to wear the sweatshirt over bare legs, so the print is tiny and the outfit looks wrong. Crop the existing cover to waist-up (no new fal call needed) so the print is large and the legs leave the frame. (2) R6.8: a soft inpaint smudge sits on her right shoulder next to the print; repaint it before saving.
 - 2026-10-18 01:50 UTC builder [B]: REDO done (no fal). Re-composited the exact print on the full-resolution 1536x2048 photo with CC_DIFF=60 so the inpaint no longer smears the background by her right shoulder (smudge gone), braid kept on top and clear of every letter, then cropped the cover waist-up (780x1040 of the photo, resized to 600x800): head to the hem, legs out of frame, print about 215 px wide. Review sheet rebuilt, astro build OK. fal $0.
+- 2026-10-18 02:45 UTC director: LIVE (ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn).

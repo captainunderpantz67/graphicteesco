@@ -21,6 +21,7 @@ Skipped on purpose: worker shirt, golf shirt, bowling shirt, band shirt (differe
 | basketball-hoodies | basketball hoodie | 4,400 / 32 | none | 4 |
 | wrestling-hoodies | wrestling hoodie / wrestling shirt | 1,300 / 26 · 4,400 / 34 | none | 4 (wrestling-mom lingo) |
 | pickleball-shirts | pickleball shirt / funny pickleball shirt | 6,600 / 39 · 1,600 / 38 | none | 6 (women 40-65 play it; the kitchen jokes) |
+| dad-bod-shirts (Sam's wife's idea, 2026-10-18) | dad bod shirt / dad bod t shirt ("dad bod" 165,000/20 is mostly meme and meaning searches, not buyers; hoodie/sweatshirt phrases unmeasured) | 1,600 / 32 · 1,300 / 30, 3-5K competing listings | none | 6 (tees first plus 2 hoodies for Christmas gifting; original lines only, not the overused "father figure" joke; trademark check on DAD BOD before titles; lingo from TikTok via Sam's wife) |
 | animal-hoodies: bee, frog, duck | bee hoodie 1,300/20 · frog hoodie 1,900/33 · duck hoodie 2,400/32 | | #326 bee, #468 frog | 2 each; each becomes a page only at 3+ |
 
 ## Rules for this wave (protect against Google's scaled-content policy)

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 509
@@ -30,3 +30,4 @@ kd: 32
 - 2026-10-17 22:31 UTC director: brief written, READY (wave-1 national park, keyword measured this run).
 - 2026-10-18 05:55 UTC builder [C]: art 2 Recraft calls (try 1 came out as a cloud-shaped lobed outline, too badge-like; try 2 kept: canyon between two ledges forming a heart, coral heart in the sky, speckled torn edges). Paper background whitened, specks removed, no halo (a halo made blocky pixel edges). SWIPE RIGHT (Oswald 700, cream, navy keyline) above, on public land (Caveat Brush, coral, cream keyline) below; back print 3150x4018 (aspect 1.28) at BW 1600 BT 225; chest copy = the scene alone at 525 px. DRAFT gid 15364370366768 (Ash + Navy x S-3XL, 12 variants, $44.99 no compare-at, tags per brief). Keyword protect public lands 260/KD32 in the map. FAQs 5 x 44-50 words, Dec 8. Printful files 1088610872 1088610877, sync 482653014 running. Mockups Ash + Navy front/back attached. Cover: 1 fal image ($0.06, registry #838): navy back view over the shoulder, hood visible, braid over the front shoulder but touching the S; composited the exact print (stretched to the 3/4 foreshortening) with the braid kept on top (R6.9); all words read.
 - 2026-10-18 06:57 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/509.jpg. Audit only DRAFT-not-visible. fal total $0.10.
+- 2026-10-18 02:45 UTC director: LIVE (ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn).

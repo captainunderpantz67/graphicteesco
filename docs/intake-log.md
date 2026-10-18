@@ -1,5 +1,11 @@
 2026-10-18 02:35 UTC — [B] REVIEW #530 Men's Welder – Grinder & Paint Department Tee (DRAFT, synced 35/35, 5 dark colors; fal $0.10).
+RUNNING director since 2026-10-18 02:13 UTC
+2026-10-18 02:34 UTC — [C] REVIEW #517 Unisex Golf Sorry About Your Windshield hoodie (synced 12/12, Sand + Sport Grey, fal $0.06). Built #524 I Said It Nicely in My Head hoodie (sync running; fal $0.06).
+2026-10-18 02:30 UTC — [C] REVIEW #468 Women's Embroidered Thriving, Technically frog hoodie (REDO: caption on two lines, x-height 0.35 in, synced 12/12). #516 Dachshund Currently Burrowed hoodie built (sync running; fal $0.06).
+2026-10-18 02:27 UTC — [C] #523 Unisex Homebody University of Staying In oversized hoodie built (DRAFT, sync running, Navy + Asphalt; fal $0.12). #517 sync running.
+2026-10-18 02:22 UTC — [C] REVIEW #506 Men's Golf Retired Working on My Short Game zip hoodie and #507 Women's National Park My Type Geothermally Active oversized hoodie (REDOs: scene edges worn; 507 GEOTHERMALLY widened; 506 cover redone, fal $0.06). #517 built (sync running).
 2026-10-18 02:00 UTC — [B] REVIEW #522 Women's Gigi – Because Grandma Sounded Old Crewneck (DRAFT, synced 12/12, Sand + Sport Grey, FW 1500; fal $0.10).
+2026-10-18 02:28 UTC — [A] REVIEW #276 Men's Christmas White Elephant Champion crewneck (NEW DRAFT twin, 24/24 synced, 4 colors, cover 1 try; fal ~$0.06).
 2026-10-18 02:12 UTC — [C] REVIEW #450 Unisex Crow Shiny Object Syndrome hoodie (REDO: couple cover redone, both hoods up; fal $0.06).
 2026-10-18 02:11 UTC — [C] REVIEW #508 Women's National Park Two Queens Roaming hoodie (REDO: grey smudge between the women repainted; fal $0). Also REVIEW #505 Only Golf for the Outfits (REDO: skin filled, synced 10/10).
 2026-10-18 02:10 UTC — [C] REVIEW #503 Men's Golf Breakfast Ball Enthusiast heavyweight hoodie (REDO: Enthusiast bigger and bolder, synced 14/14; fal $0).

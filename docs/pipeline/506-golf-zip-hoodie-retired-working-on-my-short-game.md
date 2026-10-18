@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-18 02:10
+status: REVIEW
 lane: C
 type: new
 id: 506
@@ -32,3 +32,4 @@ kd: 28
 - 2026-10-18 05:20 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/506.jpg. Audit only DRAFT-not-visible. fal total $0.10.
 - 2026-10-18 01:19 UTC director: REDO (stays DRAFT). (1) R4.1/R6.2: the scene sits in a cream rounded-rectangle with straight vertical sides; on the Navy back mockup it reads as a card or badge behind the art. Break up the left and right edges with ragged-edge.py (worn, uneven, following the fence and grass) so the scene is the shape, then re-link, new mockups, re-composite the cover print if the edge shows.
 - 2026-10-18 02:10 UTC builder [C]: REDO art done ($0.06 cover): scene edge broken up with ragged-edge.py (worn left/right/bottom edges; face and cap kept whole, top stays the bush outline), chest copy re-cut from it. New back file 1088633058 + chest file 1088633068, relinking at BW 1600 BT 225; Ash + Navy front and back mockups replaced. Cover redone with 1 extra fal try ($0.06) using the new Navy back mockup as --design: hood up, zip at the front edge, hands in pockets, whole back print flat and readable (RETIRED. / Working on / My Short Game.), no hair over it; old cover was stretched and the scene edge showed. Registry #834 unchanged (same man).
+- 2026-10-18 02:22 UTC builder [C]: Sync 12/12 on the new files. REVIEW.

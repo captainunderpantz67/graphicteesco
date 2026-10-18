@@ -348,7 +348,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 460 | Brazilian woman in her early 30s, long dark curly hair in a half-up clip, warm brown eyes | RESERVED — #279 Friendsgiving hoodie cover |
 | 461 | Polish-American woman in her mid 40s, straight ash-blonde bob, light crow's feet | USED 2026-10-17 — #280 Pie Season hoodie cover (try 1, image 1 of 1) |
 | 462 | Vietnamese-American woman, late 20s, long straight black hair with curtain bangs | USED 2026-10-17 - #281 Doorbusters tee cover (seedream, natural, shopping street at dawn) |
-| 463 | Puerto Rican man in his early 30s, short curly black hair with a fade, goatee, muscular build | RESERVED — #282 Bulking Season tee cover |
+| 463 | Puerto Rican man in his early 30s, short curly black hair with a fade, goatee, muscular build | USED 2026-10-18 — #282 Bulking Season tee cover |
 | 464 | Texan white woman in her late 20s, long honey-blonde waves, freckles, light tan | RESERVED — #283 Deck the Stalls tee cover |
 | 465 | Mexican-American woman in her early 40s, long dark hair in a thick side braid, small silver earrings | RESERVED — #284 Deck the Stalls crewneck cover |
 | 466 | Swedish-American woman in her early 30s, platinum-blonde low bun, no makeup, angular face | USED 2026-10-16 — try 2 (try 1 spelled it moral on the chest), image 3 of 3; stitch lettering slightly soft |
@@ -467,7 +467,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 574 | Korean-American woman, early 30s, butterfly clips in a half-up style, small silver hoops | RESERVED — #383 Still Loading Since 1999 Hoodie cover |
 | 575 | Black woman, mid 20s, long knotless braids, chunky sneakers | USED 2026-10-16 — #384 Hot Mess Express cover |
 | 576 | Native Hawaiian man, early 40s, short black hair, trimmed goatee | RESERVED — #385 Fisher of Men, Mostly Bass Half Zip cover |
-| 577 | Filipino-American woman, late 20s, shoulder-length dark hair with curtain bangs, gold hoops | RESERVED — #386 Official Tree Topper Graphic Tee cover |
+| 577 | Filipino-American woman, late 20s, shoulder-length dark hair with curtain bangs, gold hoops | USED 2026-10-18 — #386 Official Tree Topper tee cover |
 | 578 | Black woman, mid 40s, short silver-streaked natural curls, red-framed glasses | RESERVED — #387 Official Tree Topper Crewneck Sweatshirt cover |
 | 579 | Persian-American woman, early 30s, long dark wavy hair in a claw clip, small gold studs | USED 2026-10-16 — #388 Seasonally Overbooked crewneck cover (REDO art: new calendar print; seedream 2 attempts, 1st hair over the Y) |
 | 580 | White woman, late 30s, honey-blonde lob, freckles, chunky knit scarf at her side | RESERVED — #389 Seasonally Overbooked Graphic Tee cover |
@@ -643,9 +643,9 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 846 | Black woman, early 30s, shoulder-length box braids tied back, small silver hoops, medium build | CLAIMED 2026-10-17 — #514 Velvet Hippo Social Club Crewneck Sweatshirt cover (brief) (pair 845-846) |
 | 847 | Vietnamese-American man, early 30s, short textured black hair, clean-shaven, slim build | CLAIMED 2026-10-18 — #515 Calm Face, Loud Brain Hoodie cover (brief) (pair 847-848) |
 | 848 | white woman, late 40s, chin-length silver-blonde bob, small pearl studs, medium build | CLAIMED 2026-10-18 — #515 Calm Face, Loud Brain Hoodie cover (brief) (pair 847-848) |
-| 849 | Korean-American woman, late 30s, long straight black hair in a low bun, thin gold-rimmed glasses, petite build | CLAIMED 2026-10-18 — #516 Currently Burrowed Hoodie cover (brief) |
-| 850 | white man, early 60s, short grey hair, tanned, lean build | CLAIMED 2026-10-18 — #517 Sorry About Your Windshield Hoodie cover (brief) (pair 850-851) |
-| 851 | Mexican-American woman, late 50s, shoulder-length dark hair with grey streaks tied back, small gold hoops | CLAIMED 2026-10-18 — #517 Sorry About Your Windshield Hoodie cover (brief) (pair 850-851) |
+| 849 | Korean-American woman, late 30s, long straight black hair in a low bun, thin gold-rimmed glasses, petite build | USED 2026-10-18 — #516 Currently Burrowed hoodie cover (seedream, Sand mockup as design, composite print; hair behind shoulder) |
+| 850 | white man, early 60s, short grey hair, tanned, lean build | USED 2026-10-18 — #517 Sorry About Your Windshield hoodie cover (seedream, Sand mockup as design, composite prints; pair 850-851) |
+| 851 | Mexican-American woman, late 50s, shoulder-length dark hair with grey streaks tied back, small gold hoops | USED 2026-10-18 — #517 Sorry About Your Windshield hoodie cover (seedream, Sand mockup as design, composite prints; pair 850-851) |
 | 852 | Irish-American woman, early 40s, shoulder-length auburn hair in a low ponytail, light freckles, athletic build | USED 2026-10-18 — #518 Cold Rink, Hot Takes Crewneck Sweatshirt cover (brief) |
 | 853 | Black woman, early 50s, short natural grey curls, round tortoiseshell glasses, medium build | USED 2026-10-18 — #519 One More Row Crewneck Sweatshirt cover (brief) |
 | 854 | Puerto Rican woman, late 20s, curly dark-brown hair in a high puff, small gold hoops, medium build | USED 2026-10-18 — #520 No, I Won't Make You One Crewneck Sweatshirt cover (brief) |
@@ -653,9 +653,9 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 856 | Indian-American woman, mid-50s, shoulder-length black hair with a silver streak, small diamond studs, medium build | USED 2026-10-18 — #522 Because Grandma Sounded Old Crewneck Sweatshirt cover (brief) |
 | 845 | Puerto Rican man, early 30s, short black fade, light stubble, athletic build | USED 2026-10-18 — #514 Velvet Hippo Social Club Crewneck cover (pair 845-846) |
 | 846 | Black woman, early 30s, shoulder-length box braids tied back, small silver hoops, medium build | USED 2026-10-18 — #514 Velvet Hippo Social Club Crewneck cover (pair 845-846) |
-| 857 | Filipino-American man, late 20s, short black undercut, thin wire glasses, slim build | CLAIMED 2026-10-18 — #523 University of Staying In Oversized Hoodie cover (brief, pair 857-858) |
-| 858 | white woman, late 20s, auburn hair in a loose low bun, freckles, small silver studs, medium build | CLAIMED 2026-10-18 — #523 University of Staying In Oversized Hoodie cover (brief, pair 857-858) |
-| 859 | Vietnamese-American woman, mid 30s, long straight black hair with curtain bangs, small gold huggie earrings, slim build | CLAIMED 2026-10-18 — #524 I Said It Nicely in My Head Hoodie cover (brief) |
+| 857 | Filipino-American man, late 20s, short black undercut, thin wire glasses, slim build | USED 2026-10-18 — #523 University of Staying In oversized hoodie cover (seedream attempt 2, Navy mockup as design, composite prints; pair 857-858) |
+| 858 | white woman, late 20s, auburn hair in a loose low bun, freckles, small silver studs, medium build | USED 2026-10-18 — #523 University of Staying In oversized hoodie cover (seedream attempt 2, Navy mockup as design, composite prints; pair 857-858) |
+| 859 | Vietnamese-American woman, mid 30s, long straight black hair with curtain bangs, small gold huggie earrings, slim build | USED 2026-10-18 — #524 I Said It Nicely in My Head hoodie cover (seedream, Sand mockup as design, composite print; ponytail kept clear) |
 | 860 | Korean-American woman, early 40s, shoulder-length layered black hair tucked behind her ears, light freckles, medium build | CLAIMED 2026-10-18 — #525 I Brought You a Sock Heavyweight Hoodie cover (brief) |
 | 861 | Ethiopian-American man, mid 30s, close-cropped hair, neat short beard, round black glasses, lean build | CLAIMED 2026-10-18 — #526 Calculated. Mostly. Hoodie cover (brief) |
 | 862 | Black woman, late 20s, long knotless braids tied back in a low ponytail, small gold hoops, medium build | CLAIMED 2026-10-18 — #527 Clocked It Said Nothing Hoodie cover (brief) |
@@ -672,3 +672,10 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 877 | Korean-American woman, mid 20s, long black hair in a high ponytail, athletic build | CLAIMED 2026-10-18 — #537 Lifts Heavy, Has Whimsy Pump Cover cover (brief) |
 | 878 | Lebanese-American woman, early 30s, long dark-brown wavy hair tied back, small gold nose stud, medium build | CLAIMED 2026-10-18 — #538 Motherhood Didn't Change Me. It Exposed Me. Tee cover (brief) |
 | 879 | Mexican-American man, mid 30s, short black fade, full black beard, tattooed forearms, stocky build | CLAIMED 2026-10-18 — #539 Stacks Dimes, Wants More Dimes Tee cover (brief) |
+| 890 | Portuguese-American man, late 40s, short dark curly hair going grey at the temples, thick dark mustache, sun-weathered skin, stocky build | CLAIMED 2026-10-18 — #550 Fishing Is My Love Language Hoodie cover (brief) |
+| 891 | Finnish-American woman, early 40s, straight ash-blonde hair in a low braid behind her shoulder, pale blue eyes, light smile lines, tall athletic build | CLAIMED 2026-10-18 — #551 Cold Rink, Hot Takes Hoodie cover (brief) |
+| 892 | Chinese-American woman, mid 60s, silver hair in a low twisted bun, round jade-green glasses, petite build | CLAIMED 2026-10-18 — #552 One More Row Hoodie cover (brief) |
+| 893 | man AND woman together: Haitian-American man, early 30s, close-cropped hair with a sharp line-up, short boxed beard, medium build; Colombian-American woman, late 20s, long dark-brown waves tied back in a low ponytail, small silver studs, slim build | CLAIMED 2026-10-18 — #553 Holy Spirit, Mildly Spooky Hoodie cover (brief, pair on one number) |
+| 894 | Mexican-American man, late 60s, thick white hair combed back, full white walrus mustache, wire-rim glasses, stocky build | CLAIMED 2026-10-18 — #554 I Fix Things After Naps Hoodie cover (brief) |
+| 880 | Samoan-American man, late 40s, short wavy black hair greying at the temples, neat greying goatee, big broad build | CLAIMED 2026-10-18 — #540 It Looked Smaller at the Farm Tee cover (brief) |
+| 881 | Korean-American man, early 50s, short salt-and-pepper hair with a side part, clean-shaven, thin rimless glasses, medium build | CLAIMED 2026-10-18 — #541 It Looked Smaller at the Farm Crewneck Sweatshirt cover (brief) |

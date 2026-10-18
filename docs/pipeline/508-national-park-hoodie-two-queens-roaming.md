@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 508
@@ -32,3 +32,4 @@ kd: 34
 - 2026-10-18 05:55 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/508.jpg. Audit only DRAFT-not-visible. fal total $0.10.
 - 2026-10-18 01:21 UTC director: REDO (stays DRAFT; art, copy, colors and keyword pass). (1) R6.8 / builder 9b: the inpaint left a grey rectangle beside the left woman's hood, between the two women, clearly visible at phone size. Repaint it with the gravel and grass behind them (no new fal call), then re-check both prints letter by letter.
 - 2026-10-18 02:11 UTC builder [C]: REDO done (no new fal call, $0). The grey inpaint rectangle between the two women is gone: the gravel is repainted from the gravel above it and the left woman's shoulder now slopes down to the right woman as one dark mass; the ROAMING line on her hoodie is untouched. Both prints read letter by letter (TWO QUEENS ROAMING / our natural environment on each). Print, mockups, sync unchanged. Sheet regenerated.
+- 2026-10-18 02:45 UTC director: LIVE (ACTIVE + published, audit PASS). Inpaint patch gone. Cover alt now starts 'Women in matching...' (audit who-check).

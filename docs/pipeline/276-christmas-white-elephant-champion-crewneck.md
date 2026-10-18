@@ -1,8 +1,9 @@
-status: BUILDING [A] 2026-10-18 01:30
+status: REVIEW
 lane: A
 type: twin
 id: 276
 handle: mens-christmas-white-elephant-champion-crewneck-sweatshirt
+shopify: gid://shopify/Product/15364357685552
 kd: 60
 ---
 ## Men's Christmas – White Elephant Champion Crewneck Sweatshirt
@@ -20,3 +21,4 @@ kd: 60
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).
 - 2026-10-18 01:12 UTC builder [A]: BUILDING: twin of #275, same print file 1088606513 (R6.2 check: real-font slab capitals, no ring/arch/panel, white counters knocked out), FW 1650. NEW Shopify DRAFT gid 15364357685552 (White/Sand/Sport Grey/Navy x S-3XL = 24, $34.99 no compare-at, tags christmas-sweatshirts + christmas-sweatshirts-for-men + sweatshirt + christmas, FAQs 5 x 46-53 words incl. Dec 8). Mockups + back attached and linked. Cover reg #456 (generated look logged), seedream 1 attempt, sheet made. Sync 482651517 queued. Resume: `FW=1650 python3 scripts/pf-sync.py setfile 482651517 1088606513 1080398177`; when 24/24 set REVIEW.
+- 2026-10-18 02:28 UTC builder [A]: BUILT. Twin of #275: R6.2 check on the source print: WHITE ELEPHANT / CHAMPION / UNDEFEATED are Alfa Slab capitals in a real font (R4.8) with a dark-red outline, no ring, arch, disc, box or panel, white counters knocked out; reused as is (Printful file 1088606513, 3107x3532), FW 1650, 24/24 variants linked, back logo kept. NEW Shopify DRAFT (gid 15364357685552, Gildan 18000 White/Sand/Sport Grey/Navy x S-3XL, $34.99 no compare-at, category crewnecks, tags christmas-sweatshirts + christmas-sweatshirts-for-men + sweatshirt + christmas): 'white elephant sweatshirt' in line one; the brief's 'holiday sweatshirt' (1,900/KD60) is already owned by the Seasonally Overbooked crewneck so it is NOT used here (map entry notes it; director may assign a measured long-tail); FAQs 5 x 46-53 words incl. order-by Dec 8. Mockups for all 4 colors + back, each on its own photo; Navy read OK at 400 px. Cover reg #456 (generated look logged; the reserved look stays free), seedream 1 attempt: all lines legible, hands in pockets, nothing over the print. fal ~$0.06. Audit script not runnable on drafts here; astro build passes.

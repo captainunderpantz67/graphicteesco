@@ -7275,18 +7275,17 @@
   },
   "womens-golden-retriever-i-brought-you-a-sock-crewneck-sweatshirt": {
    "claimed": [
-    "golden retriever sweatshirt"
+    "golden retriever gifts"
    ],
    "gaps_measured": [
     {
-     "phrase": "golden retriever sweatshirt",
-     "volume": 1300,
-     "kd": 38,
-     "competition": 6095,
+     "phrase": "golden retriever gifts",
+     "volume": 2400,
+     "kd": 50,
      "source": "RankHero via scripts/keyword-gap.py"
     }
    ],
-   "measured": "2026-10-17"
+   "measured": "2026-10-18"
   },
   "womens-dachshund-currently-burrowed-crewneck-sweatshirt": {
    "claimed": [
@@ -7338,11 +7337,10 @@
     {
      "phrase": "wiener dog hoodie",
      "volume": 320,
-     "kd": 34,
-     "competition": 702
+     "kd": 34
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "unisex-golf-sorry-about-your-windshield-hoodie": {
    "claimed": [
@@ -7352,11 +7350,10 @@
     {
      "phrase": "golfer hoodie",
      "volume": 14800,
-     "kd": 23,
-     "competition": 4164
+     "kd": 23
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-hockey-cold-rink-hot-takes-crewneck-sweatshirt": {
    "claimed": [
@@ -7479,8 +7476,7 @@
      "kd": 24
     }
    ],
-   "measured": "2026-10-18",
-   "note": "director: brief (lane C hoodie twin)"
+   "measured": "2026-10-16"
   },
   "womens-funny-i-said-it-nicely-in-my-head-hoodie": {
    "claimed": [
@@ -7493,8 +7489,7 @@
      "kd": 38
     }
    ],
-   "measured": "2026-10-18",
-   "note": "director: brief (lane C hoodie twin)"
+   "measured": "2026-10-16"
   },
   "womens-golden-retriever-i-brought-you-a-sock-heavyweight-hoodie": {
    "claimed": [
@@ -7771,6 +7766,158 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-fishing-love-language-hoodie": {
+   "claimed": [
+    "fishing gifts for dad"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fishing gifts for dad",
+     "volume": 1000,
+     "kd": 24,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "funny fishing hoodie",
+     "volume": 70,
+     "kd": 50,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-hockey-cold-rink-hot-takes-hoodie": {
+   "claimed": [
+    "hockey mom sweater"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "hockey mom sweater",
+     "volume": 880,
+     "kd": 38,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "hockey mom hoodie",
+     "volume": 260,
+     "kd": 44,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "ice hockey hoodie",
+     "volume": 210,
+     "kd": 44,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-knitting-one-more-row-hoodie": {
+   "claimed": [
+    "knitter hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "knitter hoodie",
+     "volume": 8100,
+     "kd": 14,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "yarn hoodie",
+     "volume": 170,
+     "kd": 34,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "unisex-christian-holy-spirit-mildly-spooky-hoodie": {
+   "claimed": [
+    "faith based hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "faith based hoodie",
+     "volume": 260,
+     "kd": 32,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "god hoodie",
+     "volume": 3600,
+     "kd": 38,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-grandpa-i-fix-things-after-naps-hoodie": {
+   "claimed": [
+    "grandpa birthday gift"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "grandpa birthday gift",
+     "volume": 6600,
+     "kd": 13,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "papa hoodie",
+     "volume": 590,
+     "kd": 46,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "grandpa hoodie",
+     "volume": 170,
+     "kd": 51,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-christmas-it-looked-smaller-at-the-farm-graphic-tee": {
+   "claimed": [
+    "funny xmas t shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny xmas t shirt",
+     "volume": 8100,
+     "kd": 12,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "christmas gifts for husband",
+     "volume": 22200,
+     "kd": 10,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-christmas-it-looked-smaller-at-the-farm-crewneck-sweatshirt": {
+   "claimed": [
+    "xmas tree sweater"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "xmas tree sweater",
+     "volume": 1900,
+     "kd": 16,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "christmas gifts for boyfriend",
+     "volume": 22200,
+     "kd": 10,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

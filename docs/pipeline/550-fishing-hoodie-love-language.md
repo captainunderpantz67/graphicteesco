@@ -1,0 +1,24 @@
+status: READY
+lane: C
+type: twin
+id: 550
+handle: mens-fishing-love-language-hoodie
+kd: 24
+---
+## Men's Fishing – Fishing Is My Love Language Hoodie
+- **Twin of:** #497 mens-fishing-love-language-crewneck-sweatshirt (LIVE 2026-10-18, sheet in docs/reference/best/). Reuse the final print (Printful file 1088604658, 3146 x 3782: the largemouth bass in small sunglasses lounging on a striped lawn chair with a rod, FISHING IS MY / LOVE LANGUAGE. in cream Alfa Slab One with a dark-green outline, TALKING ISN'T. in mustard Alfa Slab One; the white hole under the chair seat already knocked out). No new art. R6.2 check: real-font lines (no typeset or default-font line), no badge, ring, frame or rounded scene card; the chair and bass are the shape. Re-check every closed letter counter (O, A, G, R) on Navy before linking (R5.3.8).
+- **Blank:** Pullover hoodie Gildan 18500 (Printful #146), 8 oz 50/50 fleece, handle ends -hoodie. Copy facts from the Printful spec only (R7.1). Own width (R5.3.8): FW 1500 or wider, never the crewneck's FW 1650 copied blindly and never under 1500. The print is tall (ratio 1.20, about 1,800 px high at FW 1500): if TALKING ISN'T. would land on the pouch seam, move it up beside the chair legs in compose-print or crop the lowest grass with a worn edge (scripts/ragged-edge.py), never shrink the print (R5.3.2).
+- **Colors (R7.2):** Sand + Navy, the crewneck's pair (cream lettering with the dark-green outline reads on Navy; mustard line read on both at phone size for #497). Read TALKING ISN'T. on the Navy mockup at about 400 px wide before REVIEW. A Printful mockup for every color before REVIEW.
+- **Hook:** a bass kicked back on a lawn chair in sunglasses: FISHING IS MY LOVE LANGUAGE. TALKING ISN'T. The quiet guy who'd rather fish than chat; his wife or kids buy it because it's exactly him. Men's, dry and deadpan (R3.4); twins carry the original line (R3.9).
+- **Why it's not taken:** our own art; Etsy fishing hoodies are 'Reel Cool Dad' and 'Keeping It Reel' puns, and the love-language line with a lounging bass isn't on page 1 (checked for #497).
+- **Primary keyword:** fishing gifts for dad: 1,000 / KD 24 (RankHero 2026-10-18, director, scripts/keyword-gap.py; 72% US). KD 21–35 band (R2.5). Clear gift intent, and the copy can say it naturally (a hoodie gift for the dad who fishes). Unowned in docs/product-keyword-map.json and every open brief (checked this run); recorded there with this handle. Differs from #497's 'fishing crewneck' (R2.8). Not 'fishing hoodie' (6,600 / 30, the fishing-hoodies collection head), 'fisherman hoodie', 'fish hoodie', 'bass hoodie', 'bass fishing hoodie' (all claimed) or 'fishing pullover' (#385). Measured and empty this run: fishing hoodie men, mens fishing hoodie, fishing hoodies for men, fishing gifts for men. Supporting once: funny fishing hoodie (70 / KD 50).
+- **Popularity evidence (R5.2):** #497's gate proof ('Keeping It Reel' 1,373 favorites; funny fishing statements 738, docs/research/etsy-2026-10-17/); #497 went LIVE on this art and beat the floor (sheet in reference/best).
+- **Copy:** line one: the joke + who wears it + when (R9.11). Describe only what is in the art (R8.3); never say we drew it ("Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, warmth and weight from the Printful spec, wash care, gift fit for Father's Day, birthdays and Christmas, Christmas order-by about December 8, free size exchange). Primary keyword once in the first sentence and once in the meta; supporting phrase at most once; no stuffing.
+- **Cover:** registry #890 (Portuguese-American man, late 40s, short dark curly hair going grey at the temples, thick dark mustache, sun-weathered skin, stocky build), CLAIMED. Alt starts 'Man'. Scene: a frosty boat launch at dawn, an aluminum fishing boat on its trailer behind him, rods leaning on the truck at the side, mist on the water. Generate with the product's own Printful mockup in the cover color as `--design` (--n 1), hood named in the prompt ("hood visible behind the neck"); hands empty, at his sides or in the pouch; no cup, rod or tackle over any part of the print (the art's rod and sunglasses stay printed, never turned into real objects on him, R6.9); read every word before saving; any overlap = composite fix first (R6.9). No alcohol, tools or weapons (R6.5). Max 2 attempts.
+- **Title / handle:** "Men's Fishing – Fishing Is My Love Language Hoodie" / `mens-fishing-love-language-hoodie` (R7.4; the suffix sets the audit price).
+- **Tags:** fishing-hoodies, graphic-hoodies-for-men, hoodie, ai-art, intake-done. No tee or sweatshirt collection tags (R7.5).
+- **Price:** pullover $39.99, NO compare-at (R12.1).
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d).
+---
+## Log
+- 2026-10-18 03:10 UTC director: brief written, READY (hoodie twin of LIVE #497; keyword measured this run).
