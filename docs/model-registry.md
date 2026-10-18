@@ -671,7 +671,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 876 | Black woman, mid-40s, shoulder-length locs tied back, small gold studs, medium build | USED 2026-10-18 — #536 7 A.M. Check-In Tee cover (brief) |
 | 877 | Korean-American woman, mid 20s, long black hair in a high ponytail, athletic build | CLAIMED 2026-10-18 — #537 Lifts Heavy, Has Whimsy Pump Cover cover (brief) |
 | 878 | Lebanese-American woman, early 30s, long dark-brown wavy hair tied back, small gold nose stud, medium build | CLAIMED 2026-10-18 — #538 Motherhood Didn't Change Me. It Exposed Me. Tee cover (brief) |
-| 879 | Mexican-American man, mid 30s, short black fade, full black beard, tattooed forearms, stocky build | CLAIMED 2026-10-18 — #539 Stacks Dimes, Wants More Dimes Tee cover (brief) |
+| 879 | Mexican-American man, mid 30s, short black fade, full black beard, tattooed forearms, stocky build | USED 2026-10-18 — #539 Stacks Dimes tee cover (seedream attempt 1, hands empty, print clear) |
 | 890 | Portuguese-American man, late 40s, short dark curly hair going grey at the temples, thick dark mustache, sun-weathered skin, stocky build | CLAIMED 2026-10-18 — #550 Fishing Is My Love Language Hoodie cover (brief) |
 | 891 | Finnish-American woman, early 40s, straight ash-blonde hair in a low braid behind her shoulder, pale blue eyes, light smile lines, tall athletic build | CLAIMED 2026-10-18 — #551 Cold Rink, Hot Takes Hoodie cover (brief) |
 | 892 | Chinese-American woman, mid 60s, silver hair in a low twisted bun, round jade-green glasses, petite build | USED 2026-10-18 — #552 One More Row hoodie cover (seedream, Sand mockup as design, first try, print faithful) |
