@@ -82,6 +82,8 @@ Sections are numbered so role cards and review notes can point at them ("fails R
 8. **Brief lines:** every brief carries `Hook:` (the joke + who laughs) and `Why it's not taken:` (what Etsy shows for it).
 9. **Already-built products stay.** Exception: the men's redo (R11.4).
 
+- **R3.12 The joke lands in 3 seconds without backstory (Sam 2026-10-18).** "Fried Food Is Tradition" needed the Hanukkah oil story to make sense; Sam read it as an inappropriate joke. Test every line on a shopper outside the niche: if it needs explaining, or could read as mocking a faith or culture, rewrite it so the image and words carry it alone ("Eight Nights of Fried Food"). Insider lingo is fine when the outsider still gets the gist.
+
 ## R4. Art style
 1. **No badge look, ever:** no circle, shield, banner, frame, border, outline box or dark patch/splotch behind the art. Prompts say "no background shape, no frame, no border, no badge, no dark patch".
    - **Rounded scene cards count as a badge (director, 2026-10-18; #506 retiree putting green and #507 geyser sent back in one run, after the arched sky panels of R6.2):** a scene cut into a rounded rectangle, arch or oval with straight or smooth sides is a panel, even with a torn bottom edge. Every side of a scene ends where its own objects end (fence, trees, steam, grass) with worn, uneven edges; run scripts/ragged-edge.py on any edge longer than about 1 in that is straight or a smooth curve.
