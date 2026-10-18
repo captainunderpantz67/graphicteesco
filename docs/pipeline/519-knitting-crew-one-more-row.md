@@ -1,7 +1,8 @@
-status: READY
+status: REVIEW
 lane: B
 type: new
 id: 519
+shopify: gid://shopify/Product/15364385767728
 handle: womens-knitting-one-more-row-crewneck-sweatshirt
 kd: 19
 ---
@@ -27,3 +28,4 @@ kd: 19
 ---
 ## Log
 - 2026-10-18 00:28 UTC director: brief written, READY (new art, keyword and 500+ favorite proof measured this run).
+- 2026-10-18 01:58 UTC builder [B]: full build. Art: 1 Recraft call, kept (armchair, lamp, clock, yarn basket with sleeping tabby, half-knit striped scarf on needles; the clock hands are not readable, so the copy does not name a time). ONE MORE ROW (Fraunces 900, faded red, cream keyline, wider than the art) above and (then bed) (Yellowtail navy, about 60% of the art width) below via compose-print. Colors Sand + Light Pink, NOT Navy: the black linework and navy script sink on Navy (brief's logged fallback). Print 11.5 x 12.5 in (ratio 1.08), FW 1650 TOP 75. DRAFT gid 15364385767728, category aa-1-13-14, 12 variants $34.99, compareAtPrice null, tags per brief, keyword knitter sweatshirt 4,400/KD19 in line one and meta, "knitting sweatshirt" once in an FAQ (map entry already present), FAQ 6 x 40-60 words incl. Dec 8. Printful file 1088614820, sync 12/12; mockups Sand + Light Pink + back attached and linked, alts per R7.8. Phone-size read: both lines legible on Light Pink. Cover: registry 853, 1 fal photo, both lines read, no hair/hand/needles over the print, no composite; alt starts "Woman". Audit-local PASS, astro build OK. fal $0.10.

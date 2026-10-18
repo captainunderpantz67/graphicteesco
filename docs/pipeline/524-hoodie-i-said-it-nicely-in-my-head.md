@@ -1,0 +1,24 @@
+status: READY
+lane: C
+type: twin
+id: 524
+handle: womens-funny-i-said-it-nicely-in-my-head-hoodie
+kd: 38
+---
+## Women's Funny – I Said It Nicely in My Head Hoodie
+- **Twin of:** #488 womens-funny-i-said-it-nicely-in-my-head-graphic-tee (LIVE 2026-10-18). Reuse the final print (Printful file 1088592921: the smiling closed-eye daisy, I SAID IT NICELY in Fraunces 900 and in my head in Yellowtail, dark ink #1c1714). No new art. R6.2 check: real-font lines, no frame; dark ink, so light colors only.
+- **Blank:** Pullover hoodie Gildan 18500 (Printful #146), 8 oz 50/50 fleece. Copy facts from the Printful spec only (R7.1). Own width (R5.3.8): FW 1500 or wider. The tee print is tall (11.1 x 13.2 in); if 'in my head' would land on the pouch at FW 1500, re-set it in compose-print beside the stem or tighten the gap under the daisy, never shrink the print (R5.3.2). Read 'in my head' on the mockup at phone size (R3.7.6).
+- **Colors:** Sand + Light Pink (dark ink: light colors only; Light Pink is the women's bold color, R7.2). If Light Pink is out of stock, Sand + White. A Printful mockup for every color before REVIEW.
+- **Hook:** a serene smiling daisy between I SAID IT NICELY and in my head: the polite version said out loud, the real one kept inside. Women's, cheeky restraint joke (R3.1); twins carry the original line (R3.9).
+- **Why it's not taken:** our own art; the restraint-joke format sells (see proof); no Etsy hoodie carries this exact line with a daisy (checked for #488).
+- **Primary keyword:** daisy hoodie: 1,000 / KD 38 (RankHero 2026-10-18, director; competition 4,346). KD 36+ but not under 1,000 a month (R2.5 allows it); 'flower hoodie' is claimed twice and 'sarcasm hoodie' is 170 / KD 50. Unowned in docs/product-keyword-map.json and every open brief (checked this run); recorded there with this handle.
+- **Popularity evidence (R5.2):** #488's brief proof (restraint statement tees, 500+ favorites, docs/research/etsy-2026-10-17/); #488 went LIVE on this art.
+- **Copy:** line one: the joke + who wears it + when (R9.11). Describe only what is in the art (R8.3); never say we drew it ("Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, warmth and weight from the Printful spec, wash care, gift fit, Christmas order-by about December 8, free size exchange). Primary keyword once in the first sentence and once in the meta; supporting phrases at most once; no stuffing.
+- **Cover:** registry #859 (Vietnamese-American woman, mid 30s, long straight black hair with curtain bangs, small gold huggie earrings, slim build), CLAIMED. Alt starts 'Woman'. Scene: a sunny autumn farmers market with flower buckets and pumpkins behind her, a tote bag on her shoulder at the side (never over the print). Generate with the product's own Printful mockup in the cover color as `--design` (--n 1), hood named in the prompt ("hood visible behind the neck"); hair tied back or behind the shoulders; hands empty, at the sides or in the pouch; nothing over any part of the print; read every word before saving; any overlap = composite fix first (R6.9). Max 2 attempts.
+- **Title / handle:** "Women's Funny – I Said It Nicely in My Head Hoodie" / `womens-funny-i-said-it-nicely-in-my-head-hoodie` (R7.4).
+- **Tags:** graphic-hoodies-for-women, hoodie, ai-art, intake-done. No tee or sweatshirt collection tags (R7.5).
+- **Price:** pullover $39.99, NO compare-at (R12.1).
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d).
+---
+## Log
+- 2026-10-18 01:24 UTC director: brief written, READY (hoodie twin of a LIVE winner for lane C; keyword measured this run).

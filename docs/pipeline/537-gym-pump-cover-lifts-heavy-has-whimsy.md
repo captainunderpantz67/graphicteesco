@@ -1,0 +1,29 @@
+status: READY
+lane: E
+type: new
+id: 537
+handle: womens-gym-lifts-heavy-has-whimsy-pump-cover
+kd: 44
+---
+## Women's Gym – Lifts Heavy, Has Whimsy Pump Cover
+- **Blank:** pump cover, Printful #1482 all-over-print oversized tee: heavyweight 8.85 oz, 95% cotton / 5% elastane, boxy fit, sizes 2XS–5XL, Size option only (R7.1). One solid all-over background color (below) with the chest art on the front panel; back = the 3 in neck logo only (as on the live Uphill pump cover). Copy facts from the Printful spec only.
+- **Style:** A (R4.2), vintage to the edges, no badge, frame, border, rounded scene card or dark patch (R4.1, including the 2026-10-18 rounded-card line). New art: one Recraft v4 illustration call (--n 1), picture only, at most 3 tries; if all are weak, PARK it and say why.
+- **Text on shirt (real fonts via scripts/compose-print.py, never drawn by the image model; spelled exactly):** LIFTS HEAVY. (Alfa Slab One, cream with a dark-plum keyline, above the art, at least 85% of the art's width) / has whimsy. (Damion, pink #f08aa8 with a cream keyline, below the art, at least 60% of the art's width). Fonts in designs/fonts: AlfaSlabOne, BigShouldersDisplay, CaveatBrush, Cinzel, Damion, Fraunces, Graduate, Lobster, Oswald, PlayfairDisplay (+Italic), Rye, Yellowtail. Spec like designs/first5/sisyphus.json. Every line reads at phone size on the darkest mockup (R3.7.6, R5.3.8); normal letter spacing, never a tight one-line squeeze (#512 came back for that); knock out white letter counters.
+- **Hook:** A 1950s storybook girl in a bow and ankle socks deadlifts a loaded barbell with perfect form while a ring of tiny daisies, a butterfly and a small frog in a crown watch from the floor: LIFTS HEAVY. has whimsy. From the viral GymTok line 'gym girls have whimsy too'. Women's, cheeky (R3.4).
+- **Three lines considered (R3.1):** "Lifts Heavy. Has Whimsy." · "Deload Week (Emotionally)" · "PR Then Nap" (picked: verified viral line (883K likes) that is also our brand voice said straight; Deload goes to #531 for men; 'PR Then Nap' is generic).
+- **Joke QC (R3.7):** reads in under 2 seconds; family-table clean; no brand; not a pun.
+- **Why it's not taken:** Etsy women's pump covers are bookish lifters (857 favorites) and plain 'Pump Cover' text (324); the whimsy line did not appear in the RankHero top listings for pump cover, gym pump cover or pump cover women. Builder confirms under 50 listings before art (R3.7.2).
+- **Design gate (5 parts):** search: pump cover women 720 / KD 44 (RankHero 2026-10-18, competition 6,505) · proof: Bookish Pump Cover Gym Shirt 857 favorites, Sisyphus Gym Pump Cover 1,583 (same format: funny pump cover) · insider: "gym bros have whimsy too" (883K likes, inside-jokes bank, verified) · joke type: self-aware statement · look: vintage 1950s storybook print, pink, cream, sage, plum · gift test: gym friend or sister for a birthday or Christmas.
+- **Art prompt (Recraft v4, one image per call):** "Vintage 1950s storybook screen-print illustration of a strong young woman with a hair bow and ankle socks performing a perfect deadlift with a loaded barbell, calm confident smile, a small cluster of daisies, a butterfly and a tiny frog wearing a little crown watching from the floor beside the plates. Soft pink, cream, sage and dark plum inks with soft black linework, worn screen-print texture, ragged broken edges, the figure and floor are the shape. No text, no letters, no words, no numbers, no background shape, no frame, no border, no badge, no circle, no rounded rectangle, no dark patch."
+- **Colors:** all-over background: deep plum or washed black (whichever the pink script reads on at phone size; log the choice); one color, Size option only (2XS–5XL = 10 variants).
+- **Primary keyword:** pump cover women: 720 / KD 44 (RankHero keyword page, 2026-10-18, director; competition 6,505). KD 36+ under 1,000: briefed because 'gym pump cover' (KD 35) goes to #531 and every other pump cover phrase is owned by the pump-covers page or unmeasured (R2.5). Unowned in docs/product-keyword-map.json and every open brief; recorded there with this handle. Never use 'pump cover' or 'pump cover shirt' as this page's primary (page heads, R8.8). Title must contain 'Pump Cover' (audit price $39.99).
+- **Print size:** front chest art about 12 in wide on the #1482 front panel; neck logo 3 in on the back.
+- **Copy:** line one = the joke + who wears it + when (R9.11). Describe only what is in the art (R8.3); never say we drew it (SOP line "Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, weight, wash care, gift fit, Christmas order-by about Dec 8, free size exchange).
+- **Cover:** registry #877 (Korean-American woman, mid 20s, long black hair in a high ponytail, athletic build), CLAIMED. Alt starts 'Woman'. Scene: a sunny boutique gym with a deadlift platform and plants; hands empty, ponytail behind her shoulder. Generate with the product's own Printful mockup in the cover color as `--design` (--n 1); hair tied back or behind the shoulders (R6.9); nothing (hand, cup, hair, prop, another person) over any part of the print; read every word before saving; hair or body over a letter = composite fix first (R6.9). No alcohol, tools held, or weapons (R6.5). Max 2 attempts.
+- **Title / handle:** "Women's Gym – Lifts Heavy, Has Whimsy Pump Cover" / `womens-gym-lifts-heavy-has-whimsy-pump-cover` (R7.4; the title word Pump Cover sets the audit price, R12.1).
+- **Tags:** pump-cover, graphic-tees-for-women, funny-graphic-tees, ai-art, intake-done.
+- **Price:** $39.99 (R12.1 pump cover), NO compare-at.
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d).
+---
+## Log
+- 2026-10-18 01:30 UTC director: brief written, READY (lane E; women's pump cover, verified GymTok line).

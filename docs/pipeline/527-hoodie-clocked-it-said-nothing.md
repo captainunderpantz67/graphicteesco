@@ -1,0 +1,24 @@
+status: READY
+lane: C
+type: twin
+id: 527
+handle: womens-clocked-it-said-nothing-hoodie
+kd: 59
+---
+## Women's Clocked It – Said Nothing Hoodie
+- **Twin of:** #478 womens-clocked-it-said-nothing-graphic-tee (LIVE 2026-10-17, one of Sam's first 5, art approved by Sam). Reuse the final print as-is: `designs/first5/clocked-print.png` (3000 x 3163, cream ink #F3E7CF, words set in real fonts). No new art, no re-lettering. R6.2 check: real-font lines, no frame.
+- **Blank:** Pullover hoodie Gildan 18500 (Printful #146), 8 oz 50/50 fleece. Copy facts from the Printful spec only (R7.1). Own width (R5.3.8): FW 1500 or wider (Sam wanted this design big); the print is near square, so it sits above the pouch at FW 1500.
+- **Colors:** Black + Maroon (cream ink: dark colors only, the tee's pair). A Printful mockup for every color before REVIEW.
+- **Hook:** a side-eye line cat with clocked it. and said nothing.: the restraint joke (she noticed, she kept quiet) in current TikTok slang. Women's, cheeky (R3.1, R3.4); twins carry the original line (R3.9). Read both words lines on the Maroon mockup at phone size.
+- **Why it's not taken:** Sam's own approved design (#477/#478 proof); no Etsy hoodie carries it.
+- **Primary keyword:** cat lover gifts: 14,800 / KD 59 (RankHero 2026-10-18, director; competition 703,858). KD 36+ but far over 1,000 a month (R2.5 allows it); 'cat hoodie' and 'cat sweatshirt' are claimed (and 'cat hoodie' is the planned cat-hoodies head), and the hoodie long-tails are under 200 a month. Clear gift intent. Unowned in docs/product-keyword-map.json and every open brief (checked this run); recorded there with this handle. No supporting cat-hoodie phrase ('cat sweatshirt women' belongs to #477).
+- **Popularity evidence (R5.2):** #477/#478 proof (Sam's research: deadpan cat 'clocked it' format); both LIVE.
+- **Copy:** line one: the joke + who wears it + when (R9.11). Describe only what is in the art (R8.3); never say we drew it ("Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, warmth and weight from the Printful spec, wash care, gift fit, Christmas order-by about December 8, free size exchange). Primary keyword once in the first sentence and once in the meta; supporting phrases at most once; no stuffing.
+- **Cover:** registry #862 (Black woman, late 20s, long knotless braids tied back in a low ponytail, small gold hoops, medium build), CLAIMED. Alt starts 'Woman'. Scene: a sunny apartment window seat with houseplants and a cat asleep on the sill beside her (cat to the side, never over the print). Generate with the product's own Printful mockup in the cover color as `--design` (--n 1), hood named in the prompt ("hood visible behind the neck"); hair tied back or behind the shoulders; hands empty, at the sides or in the pouch; nothing over any part of the print; read every word before saving; any overlap = composite fix first (R6.9). Max 2 attempts.
+- **Title / handle:** "Women's Clocked It – Said Nothing Hoodie" / `womens-clocked-it-said-nothing-hoodie` (R7.4).
+- **Tags:** graphic-hoodies-for-women, hoodie, ai-art, intake-done (R7.5).
+- **Price:** pullover $39.99, NO compare-at (R12.1).
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d).
+---
+## Log
+- 2026-10-18 01:24 UTC director: brief written, READY (hoodie twin of a LIVE winner for lane C; keyword measured this run).

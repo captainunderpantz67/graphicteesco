@@ -1,0 +1,29 @@
+status: READY
+lane: E
+type: new
+id: 539
+handle: mens-welder-stacks-dimes-wants-more-dimes-graphic-tee
+kd: 34
+---
+## Men's Welder – Stacks Dimes, Wants More Dimes Tee
+- **Blank:** Bella+Canvas 3001 (Printful #71), unisex/men's tee, lightweight 4.2 oz, 100% combed ring-spun cotton (heathers contain polyester). Never "midweight". Copy facts from the Printful spec only (R7.1).
+- **Style:** A (R4.2), vintage to the edges, no badge, frame, border, rounded scene card or dark patch (R4.1, including the 2026-10-18 rounded-card line). New art: one Recraft v4 illustration call (--n 1), picture only, at most 3 tries; if all are weak, PARK it and say why.
+- **Text on shirt (real fonts via scripts/compose-print.py, never drawn by the image model; spelled exactly):** STACKS DIMES. (Alfa Slab One, cream with a navy keyline, above the art, at least 85% of the art's width) / WANTS MORE DIMES. (Alfa Slab One, safety orange #d9772b with a navy keyline, below the art, the same width). Fonts in designs/fonts: AlfaSlabOne, BigShouldersDisplay, CaveatBrush, Cinzel, Damion, Fraunces, Graduate, Lobster, Oswald, PlayfairDisplay (+Italic), Rye, Yellowtail. Spec like designs/first5/sisyphus.json. Every line reads at phone size on the darkest mockup (R3.7.6, R5.3.8); normal letter spacing, never a tight one-line squeeze (#512 came back for that); knock out white letter counters.
+- **Hook:** A close-up of a gloved hand running a TIG torch along a perfect row of overlapping 'stack of dimes' weld ripples, while a tiny stack of real silver dimes sits on the steel beside it and a paycheck stub sticks out of the glove's cuff: STACKS DIMES. WANTS MORE DIMES. The craft term turned into a pay joke. Men's, deadpan (R3.4).
+- **Three lines considered (R3.1):** "Stacks Dimes. Wants More Dimes." · "Stack of Dimes" (alone) · "Hood Down, Invoice Up" (picked: verified line from the inside-jokes bank; 'Stack of Dimes' alone is #325, parked for no proof and a weaker joke; 'Invoice Up' reads like a slogan).
+- **Joke QC (R3.7):** reads in under 2 seconds; family-table clean; no brand; no real currency design copied (dimes drawn as plain small silver coins, no portrait or text); not a sound-alike pun (the double meaning is the real craft term).
+- **Why it's not taken:** Etsy welder tees use 'stack of dimes' as a plain phrase; the pay twist did not appear in the RankHero top listings for welder shirt, welder hoodie or welder gift. Builder confirms under 50 listings before art (R3.7.2).
+- **Design gate (5 parts):** search: welder gift 1,900 / KD 34 (RankHero 2026-10-18, competition 8,247) · proof: Welder "HoodLife" T-Shirt 1,964 favorites, Welder American Flag Shirt 623 (same format: welder graphic tee) · insider: stack of dimes (a pretty TIG bead), verified (inside-jokes bank, WeldingWeb 'Is stacking dimes overrated?') · joke type: craft term + pay joke · look: vintage 1950s trade print, navy, safety orange, cream, steel grey · gift test: the gift-buyer search itself ('welder gift'): family buys it for the welder.
+- **Art prompt (Recraft v4, one image per call):** "Vintage 1950s trade-poster screen-print illustration, close-up of a welder's leather-gloved hand holding a TIG torch over a steel plate, a long neat row of overlapping fish-scale weld ripples trailing behind the torch tip, a small stack of plain silver coins with no faces or markings sitting on the plate beside the weld, a few bright sparks. Navy, safety orange, cream and steel grey inks with soft black linework, worn screen-print texture, ragged broken edges, the hand and plate are the shape. No text, no letters, no words, no numbers, no background shape, no frame, no border, no badge, no circle, no rounded rectangle, no dark patch."
+- **Colors:** light-ink file (cream lettering): Navy, Black, Dark Grey Heather, Military Green, Heather Forest; dark-ink file only if Natural and Ash are added. ≤12 colors x 8 sizes. A Printful mockup for every color before REVIEW.
+- **Primary keyword:** welder gift: 1,900 / KD 34 (RankHero keyword page, 2026-10-18, director; competition 8,247). KD 21–35 band; clear buyer intent (the search is someone shopping for a welder). Unowned in docs/product-keyword-map.json and every open brief; recorded there with this handle. Never use 'welder shirt' (#529) or 'welding shirt' (#530) on this page (R2.8). Use it in the first sentence and once in the meta.
+- **Print size:** FW 1650 TOP 75 (tee).
+- **Copy:** line one = the joke + who wears it + when (R9.11). Describe only what is in the art (R8.3); never say we drew it (SOP line "Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, weight, wash care, gift fit, Christmas order-by about Dec 8, free size exchange).
+- **Cover:** registry #879 (Mexican-American man, mid 30s, short black fade, full black beard, tattooed forearms, stocky build), CLAIMED. Alt starts 'Man'. Scene: a pipeline yard or welding shop bay with steel pipe stacked behind him; hands empty, welding hood resting on a pipe beside him. Generate with the product's own Printful mockup in the cover color as `--design` (--n 1); hair tied back or behind the shoulders (R6.9); nothing (hand, cup, hair, prop, another person) over any part of the print; read every word before saving; hair or body over a letter = composite fix first (R6.9). No alcohol, tools held, or weapons (R6.5). Max 2 attempts.
+- **Title / handle:** "Men's Welder – Stacks Dimes, Wants More Dimes Tee" / `mens-welder-stacks-dimes-wants-more-dimes-graphic-tee` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** graphic-tees-for-men, funny-graphic-tees, welder-shirts, ai-art, intake-done.
+- **Price:** $24.99 (R12.1 tee), NO compare-at.
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d).
+---
+## Log
+- 2026-10-18 01:30 UTC director: brief written, READY (lane E; third welder design for the welder-shirts collection).
