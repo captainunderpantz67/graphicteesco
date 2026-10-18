@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: A
 type: twin
 id: 221
@@ -27,3 +27,4 @@ handle: womens-christmas-christmas-nurse-crewneck-sweatshirt
 - 2026-10-17 UTC builder [A]: compareAtPrice set to null on every variant (R12.1 honest compare-at; product created after 2026-10-15).
 - 2026-10-17 20:43 UTC builder [A]: Printful resync complete (30/30 on the new file); REVIEW.
 - 2026-10-17 21:19 UTC director: LIVE. sheet seen: Nice List Nurse re-lettered in navy script reads on all 5 colors; cover woman in a decorated break room, nothing over the print. Added tags christmas + nurse-sweatshirts (holiday tag was missing; feeds the thin nurse page). ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.
+- 2026-10-18 17:22 UTC director: QUALITY RESET grade C (new line + type), REDO. The product stays ACTIVE (same handle, URL, title keyword). 1. Line (R3.12, quality-reset 'Lines'): "Nice List Nurse": Occupation label, no punchline; script type. Write 5 candidates, keep the one a stranger laughs at in 3 seconds without backstory; kill lines that only describe the picture; if none of the 5 is funny, PARK it. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. Keep the art if it carries the new line, else one new illustration (R4/R5). New print means a new cover per R6.10, copy line one rewritten for the new joke (R8.3), and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.

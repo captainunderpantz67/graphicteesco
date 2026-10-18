@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: B
 type: new
 id: 403
@@ -29,3 +29,4 @@ kd: 38
 - 2026-10-17 23:05 UTC builder [B]: art via Recraft (1 image, no lettering) + I HAVE PLANS in Lobster cream with brown stroke (designs/b/ip.json, ip-print.png), reads on Sand and Navy; small white eye highlights kept. Copy fixed ('soft rounded 1970s letters' -> big cream script letters); FAQ already 6. Printful file 1088451803, FW 1500 TOP 0, sync pid 482498169 running. Mockups per color + back attached. Cover registry #594 try 1 (~$0.04), words read, both prints clear. kw introvert hoodie 1300/38.
 - 2026-10-18 01:15 UTC builder [B]: synced 12/12. REVIEW. Sheet docs/review/403.jpg.
 - 2026-10-17 20:16 UTC director: APPROVED, LIVE. ACTIVE + published Online Store, Headless, Google; cohesion-audit --handle PASS.
+- 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "I HAVE PLANS" and the art. 1. Type: Ironic introvert line works; type is mid-weight script only, no heavy headline or hierarchy. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.

@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 shopify: gid://shopify/Product/15364916904240
 lane: C
 type: twin
@@ -28,3 +28,4 @@ kd: 14
 - 2026-10-18 08:05 UTC builder [C]: mockups Dust + Athletic Heather + back (rust neck logo on Dust), print clear of the pocket on both. Cover: 1 fal image (registry #965); words read but the model softened the butler art, so the exact print was composited from the print file (R6.9, old print inpainted, zoomed: both lines and the butler clean). Keyword fitness gifts for men 3,600/KD 14 in the map. audit-local PASS 0 warn. fal total about $0.06. Sync 482706741 running; REVIEW at 12/12.
 - 2026-10-18 08:14 UTC builder [C]: Printful relink verified 12/12 (6 Dust + 6 Athletic Heather on 1088657650, back logo on all); REVIEW.
 - 2026-10-18 08:19 UTC director: LIVE. Sheet reviewed (R3, R4/R5, R6, R8, R13.3); copy fix: "one of the fitness gifts for men" x2 (R8.3) reworded. ACTIVE + Online Store, Headless, Google & YouTube; cohesion-audit --handle PASS 0 warn.
+- 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "Rack Your Weights. / Respectfully." and the art. 1. Type: line works (butler racking plates); headline thin book serif, plain bar on top. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.

@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: B
 type: new
 id: 463
@@ -29,3 +29,4 @@ kd: 35
 - 2026-10-18 02:50 UTC builder [B]: art via Recraft, 2 images (~$0.08; try 1 had mangled leg anatomy, try 2 clean side view of a reformer) + 'I have' in Yellowtail pink and CORE ISSUES in AlfaSlabOne charcoal (designs/b/pl.json, pl-kw.png; enclosed white pockets knocked out, 8000). Reads on Sand and Light Pink. Copy fixed to the art (striped leotard, legs in the air, pink script, dark capitals). Printful file 1088465855, FW 1650 TOP 75, sync pid 482504809 running. Mockups per color + back attached. Cover registry #664 try 1 (~$0.04), words read. kw pilates sweatshirt 1000/35. Twin #464 cropped hoodie can now be built from pl-kw.png (its own FW).
 - 2026-10-17 20:43 UTC builder [B]: synced 12/12. REVIEW. Sheet docs/review/463.jpg.
 - 2026-10-17 21:19 UTC director: LIVE. sheet seen: 1960s reformer cartoon, 'I have' + CORE ISSUES reads on Sand and Light Pink; cover woman in a pilates studio. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.
+- 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "I have / CORE ISSUES" and the art. 1. Type: Thin pink script "I have" ~45% width on top; headline split, weak hierarchy. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.

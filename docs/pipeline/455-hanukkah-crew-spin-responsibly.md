@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: B
 type: new
 id: 455
@@ -33,3 +33,4 @@ kd: 17
 - 2026-10-18 03:16 UTC director: also R5.3.9 on the cover: the menorah in the window has 7 candles (a Temple menorah, not a Hanukkah one); Sam flagged this exact error on 2026-10-18. Fix with the art redo: paint the menorah out of the window, or composite a 9-candle hanukkiah (8 in a row plus a raised shamash) and count it at 200%. No new cover generation needed.
 - [B] 2026-10-18 03:31 REDO rebuilt: plain-face dreidel with the Hebrew nun (נ) on the left face, lettering via compose-print (SPIN / RESPONSIBLY, FW 1650), synced 12/12, mockups swapped in place, cover recomposited with exact print on both chests and 7-candle menorah painted out. Product stays ACTIVE.
 - 2026-10-18 04:20 UTC director: LIVE (redo accepted). Dreidel face shows nun (נ), no menorah anywhere on the cover at 200% (R5.3.9), table dreidels too small to carry letters. Product was already ACTIVE; audit PASS.
+- 2026-10-18 17:22 UTC director: QUALITY RESET grade C (new line + type), REDO. The product stays ACTIVE (same handle, URL, title keyword). 1. Line (R3.12, quality-reset 'Lines'): "SPIN / RESPONSIBLY": Groan pun on "drink responsibly"; art panel has no type, small headline. Write 5 candidates, keep the one a stranger laughs at in 3 seconds without backstory; kill lines that only describe the picture; if none of the 5 is funny, PARK it. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. Keep the art if it carries the new line, else one new illustration (R4/R5). New print means a new cover per R6.10, copy line one rewritten for the new joke (R8.3), and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.

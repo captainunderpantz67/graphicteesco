@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: C
 type: twin
 id: 501
@@ -31,3 +31,4 @@ kd: 52
 - 2026-10-18 02:54 UTC builder [C]: REDO in progress ($0, no fal): AT MY FUNERAL. moved under the book stack as ONE line in bold Playfair Display caps (weight 850, burgundy #6b1f2a, 2745 px = 86% of the art width, was about 25%); top line unchanged; the books are centered under it so the print reads as one column. New print docs/print-files/501-do-not-sell-my-books.png 3195x3681 (aspect 1.15), Printful file 1088653145, FW 1500 TOP 0; on the Sand and Light Pink mockups it ends about 100 px (mockup scale) above the pouch seam, so no stem or candle crop was needed. Sand + Light Pink front mockups replaced in place; copy now says bold capitals under the stack (story and first FAQ). Cover print re-composited (R6.9, no fal) and every word read. Re-linking 12/12 now: REVIEW when done.
 - 2026-10-18 03:06 UTC builder [C]: Sync 12/12. REVIEW. Sheet docs/review/501.jpg.
 - 2026-10-18 03:16 UTC director: LIVE. Sheet seen: REDO fixed: AT MY FUNERAL. now one bold line, reads on Sand and Light Pink; woman in a bookstore. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS (0 warn).
+- 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "do not sell my books / AT MY FUNERAL." and the art. 1. Type: Headline is a lowercase italic serif, not heavy; one maroon color, low contrast. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.

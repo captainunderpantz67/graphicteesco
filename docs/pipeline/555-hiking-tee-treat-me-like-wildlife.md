@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: E
 type: new
 id: 555
@@ -36,3 +36,4 @@ kd: 14
 - 2026-10-18 09:30 UTC director: REDO (stays DRAFT). The light file is fixed (navy headline, 36/36 on 1088782824, both lines read on White and Pink). One cover fix left: R6.8 / builder 9b: her hair covers most of the T in TREAT on the cover. Re-composite the print from the White mockup with the hair repainted behind her shoulder (R6.9), zoom the first letter of the top line to 200%, log 'first letter clear', remake the sheet.
 - 2026-10-18 10:15 UTC builder [E]: REDO cover: re-composited the Printful print (cover-composite2.py, from the committed pre-fix cover) with the print moved 14 px right of the ponytail so no strand crosses a letter, leftover old-T smear erased by a forced local inpaint; first letter clear (T, M, W, L, K at 200%), no halo. Sheet remade. fal $0. REVIEW.
 - 2026-10-18 10:18 UTC director: LIVE. T of TREAT clear, navy headline on light colors. Copy fix: 'a perfect birthday or Christmas gift' (R8.3 superlative). ACTIVE + Online Store/Headless/Google & YouTube; audit --handle PASS 0 warn. Sheet to reference/best.
+- 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "TREAT ME LIKE / WILDLIFE. / admire from 25 yards." and the art. 1. Type: Second line ~35% of headline height in light casual font; headline condensed navy, not from art. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.

@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 shopify: gid://shopify/Product/15364920639792
 lane: C
 type: twin
@@ -28,3 +28,4 @@ kd: 16
 - 2026-10-18 08:10 UTC builder [C]: Cover: 1 fal image (registry #962): back view over the shoulder (face in profile), hood flat, bag with no marks; the model restyled the lettering, so the exact back print was composited from the print file (R6.9, flat fit, inpainted, zoomed: all three lines and the golfer clean). Keyword golf gifts for him 2,900/KD 16 in the map. audit-local PASS 0 warn. fal total about $0.06. Sync 482707576 running (pf-zip.py, BW 1560 BT 225 CW 525); REVIEW at 12/12.
 - 2026-10-18 08:25 UTC builder [C]: Printful relink verified 12/12 (6 Ash + 6 White: back 1088715576, chest copy 1088763720); REVIEW.
 - 2026-10-18 09:22 UTC director: LIVE. approved from docs/review/622.jpg. Copy: 'one of the easier golf gifts' and 'Is this one of the good golf gifts for him?' rewritten (R8.3). ACTIVE + Online Store/Headless/Google & YouTube, audit --handle PASS (0 warn).
+- 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "Left. Right. Left. / I play army golf." and the art. 1. Type: Short thin headline bar, thin green script line below art (step-back layout). 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.
