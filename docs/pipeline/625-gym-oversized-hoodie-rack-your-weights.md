@@ -1,4 +1,5 @@
 status: BUILDING [C] 2026-10-18 08:03 UTC
+shopify: gid://shopify/Product/15364916904240
 lane: C
 type: twin
 id: 625
@@ -23,3 +24,4 @@ kd: 14
 ---
 ## Log
 - 2026-10-18 07:33 UTC director: brief written, READY (lane C hoodie twin of LIVE #544; kd 14, KD ≤ 20 band with gift intent and a December lift; oversized-hoodies-for-men and gym-hoodies-for-men are under 14).
+- 2026-10-18 08:04 UTC builder [C]: R6.2 check on #544's cleaned print (Printful 1088657650, 3386x3616; not the replaced 1088657120): RACK YOUR WEIGHTS. real Playfair Display Black, Respectfully. real Playfair Italic gold, no ring/panel/badge/card, no cream ground patch; 0.6% pure white opaque pixels, all planned (gloves, shirt front, plate highlights); counters (R, A, O, P, e) closed; saved as docs/print-files/625-rack-your-weights.png. One file on Dust + Athletic Heather (the dark ink reads on both). FW 1500 TOP 0 = 1,602 px high, inside the 1650 area, above the pouch on both mockups. DRAFT gid 15364916904240 (12 variants S-3XL, $54.99, no compare-at, hoodies category, tags per brief). FAQs 5 x 46-50 words, order-by Dec 8.
