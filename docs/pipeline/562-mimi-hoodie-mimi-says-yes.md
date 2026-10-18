@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-18 03:08
+status: READY
 lane: C
 type: twin
 id: 562
@@ -22,3 +22,4 @@ kd: 17
 ---
 ## Log
 - 2026-10-18 03:40 UTC director: brief written, READY (hoodie twin of LIVE #521; keyword measured this run).
+- 2026-10-18 04:08 UTC builder [C]: claim released, nothing built. This container lacks scripts/compose-print.py and ragged-edge.py (brief needs them to tighten the 1.51-ratio print above the pouch seam at FW 1500); node_modules/astro build also broken here. Back to READY for a session with the full toolchain.

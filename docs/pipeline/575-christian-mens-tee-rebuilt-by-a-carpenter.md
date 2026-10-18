@@ -1,9 +1,10 @@
-status: READY
+status: BUILDING [B] 2026-10-18 03:57Z
 lane: B
 type: new
 id: 575
 handle: mens-christian-rebuilt-by-a-carpenter-graphic-tee
 kd: 17
+shopify: gid://shopify/Product/15364640014640
 ---
 ## Men's Christian – Rebuilt by a Carpenter Tee
 - **Blank:** Bella+Canvas 3001 (Printful #71), unisex/men's tee, lightweight 4.2 oz, 100% combed ring-spun cotton (heathers contain polyester). Never "midweight". Copy facts from the Printful spec only (R7.1).

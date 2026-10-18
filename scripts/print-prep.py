@@ -7,6 +7,7 @@ import sys, argparse, numpy as np, cv2
 from PIL import Image, ImageFilter
 ap = argparse.ArgumentParser(); ap.add_argument('src'); ap.add_argument('dst')
 ap.add_argument('--width', type=int, default=3600); ap.add_argument('--tol', type=int, default=28)
+ap.add_argument('--holes', type=int, default=0, help='also knock out enclosed near-white pockets larger than this many px (open gaps between legs, window panes)')
 ap.add_argument('--solid', action='store_true', help='badge art: keep everything inside the outer outline (fills white sky/highlights the flood leaked into)')
 a = ap.parse_args()
 img = cv2.imread(a.src, cv2.IMREAD_COLOR); h, w = img.shape[:2]
@@ -19,6 +20,10 @@ thin = art & (1 - cv2.morphologyEx(art, cv2.MORPH_OPEN, np.ones((9, 9), np.uint8
 n, lab = cv2.connectedComponents(near | thin, connectivity=4)
 border = set(np.unique(np.concatenate([lab[0], lab[-1], lab[:, 0], lab[:, -1]]))) - {0}
 bg = np.isin(lab, list(border)) & (near == 1)
+if a.holes:
+    n2, lab2, st, _ = cv2.connectedComponentsWithStats(near, connectivity=4)
+    for i in range(1, n2):
+        if st[i, cv2.CC_STAT_AREA] >= a.holes: bg |= (lab2 == i)
 alpha = np.where(bg, 0, 255).astype(np.uint8)
 if a.solid:
     # fill the largest outer contour so interior whites stay opaque

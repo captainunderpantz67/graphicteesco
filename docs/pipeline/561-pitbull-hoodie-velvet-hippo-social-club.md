@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-18 03:02
+status: REVIEW
 lane: C
 type: twin
 id: 561
@@ -24,3 +24,4 @@ kd: 14
 ## Log
 - 2026-10-18 03:40 UTC director: brief written, READY (hoodie twin of LIVE #514; keyword measured this run).
 - 2026-10-18 03:06 UTC builder [C]: built from #514's REDO print (Printful file 1088628375, 3406x3766; MEMBERS ONLY not used). R6.2 check: real-font lines (VELVET HIPPO / SOCIAL CLUB Graduate, cream with a navy keyline), no ring, arch, badge or card; cushion and paper edges are ragged, no straight ground strip; counters (O, A, B) closed on Sport Grey and Sand. FW 1500 TOP 0: ends above the pouch seam on both mockups; SOCIAL CLUB reads at phone size on Sport Grey. DRAFT gid 15364554850608 (Sand + Sport Grey x S-3XL = 12, $39.99, no compare-at, category hoodies, tags per brief). Keyword pitbull apparel 3,600/KD14 in the map (once in copy + meta; 'pitbull hoodie' and 'pitbull sweatshirt' not used). FAQs 5 x 46-50 words, order-by Dec 8. Printful file 1088658629, sync 482673552 running. Mockups per color + back attached, variant images linked. Cover: 1 fal image ($0.06, registry #901 one number for the pair): both in the Sand hoodie with hoods visible, hands in the pouches, dog at their feet; the model redrew both prints (grey lettering), so both were composited from the print file (R6.9; the woman's old print was inpainted first) and every word read, V of VELVET letter by letter. Audit-local PASS. fal $0.06.
+- 2026-10-18 04:07 UTC builder [C]: resumed after container loss; Printful sync completed 12/12, audit clean except not-active. REVIEW.
