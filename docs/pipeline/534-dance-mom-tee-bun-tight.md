@@ -1,0 +1,29 @@
+status: READY
+lane: E
+type: new
+id: 534
+handle: womens-dance-mom-bun-tight-wallet-empty-graphic-tee
+kd: 38
+---
+## Women's Dance Mom – Bun Tight, Wallet Empty Tee
+- **Blank:** Bella+Canvas 6400 women's relaxed tee (Printful), lightweight 4.2 oz, 100% combed ring-spun cotton (heathers contain polyester). Never "midweight". Copy facts from the Printful spec only (R7.1).
+- **Style:** A (R4.2), vintage to the edges, no badge, frame, border, rounded scene card or dark patch (R4.1, including the 2026-10-18 rounded-card line). New art: one Recraft v4 illustration call (--n 1), picture only, at most 3 tries; if all are weak, PARK it and say why.
+- **Text on shirt (real fonts via scripts/compose-print.py, never drawn by the image model; spelled exactly):** BUN TIGHT. (Fraunces 900, dusty rose #c9637a with a cream keyline) / SMILE ON. (same) stacked above the art, at least 85% of the art's width / WALLET EMPTY. (Fraunces 900, deep plum #4a2340, below the art, the same width). Fonts in designs/fonts: AlfaSlabOne, BigShouldersDisplay, CaveatBrush, Cinzel, Damion, Fraunces, Graduate, Lobster, Oswald, PlayfairDisplay (+Italic), Rye, Yellowtail. Spec like designs/first5/sisyphus.json. Every line reads at phone size on the darkest mockup (R3.7.6, R5.3.8); normal letter spacing, never a tight one-line squeeze (#512 came back for that); knock out white letter counters.
+- **Hook:** A vintage ballerina-mom figure in a track jacket carries a garment bag, a rolling makeup case, a can of hairspray and a fistful of bobby pins, perfectly calm: BUN TIGHT. SMILE ON. WALLET EMPTY. The competition-weekend life, said straight. Women's, cheeky (R3.4).
+- **Three lines considered (R3.1):** "Bun Tight. Smile On. Wallet Empty." · "Comp Weekend Survivor" · "Dance Took My Savings and My Saturdays" (picked: the three-beat rhythm reads in 2 seconds and the money twist is the verified sports-mom joke (travel-ball money, inside-jokes bank); 'Survivor' is generic; the 'took my savings' line goes to #535 softball).
+- **Joke QC (R3.7):** reads in under 2 seconds; family-table clean; no brand or studio name; not a pun.
+- **Why it's not taken:** Etsy dance mom tees are glitter 'Dance Mom' text (899 favorites), personalized names and a 'Dance Mom' tarot card (377); this line did not appear in the RankHero top listings for dance mom shirt or dance mom sweatshirt. Builder confirms under 50 listings before art (R3.7.2).
+- **Design gate (5 parts):** search: dance mom shirt 1,900 / KD 38 (RankHero 2026-10-18, competition 20,520) · proof: Glitter Dance Mom Tshirt 899 favorites, Custom Dance Mom Sweatshirt 877 (same format: women's dance mom apparel) · insider: competition weekends, bun + bobby pins + hairspray, the sports-mom money joke (inside-jokes bank, Sports moms, verified) · joke type: self-aware statement · look: vintage 1960s fashion-illustration print, dusty rose, plum, cream · gift test: another dance mom, grandma or the studio parents' group.
+- **Art prompt (Recraft v4, one image per call):** "Vintage 1960s fashion-illustration screen-print of an elegant woman in a track jacket and slim pants walking briskly, carrying a long garment bag over her shoulder, pulling a small rolling makeup case, a can of hairspray tucked under her arm and a tiny handful of bobby pins in her other hand, a pair of pink ballet slippers dangling from the case handle, calm serene expression. Dusty rose, deep plum, cream and soft black linework, worn screen-print texture, ragged broken edges, the figure is the shape. No text, no letters, no words, no numbers, no background shape, no frame, no border, no badge, no circle, no rounded rectangle, no dark patch."
+- **Colors:** one plum-keyline file for light colors: White, Natural, Heather Stone, Athletic Heather, Pink, Light Violet (bold: Pink, Light Violet). ≤16 colors x 6 sizes. A Printful mockup for every color before REVIEW.
+- **Primary keyword:** dance mom shirt: 1,900 / KD 38 (RankHero keyword page, 2026-10-18, director; competition 20,520). KD 36+ but over 1,000 a month (R2.5 allows it). Unowned in docs/product-keyword-map.json, every open brief and src/data/collections.ts; recorded there with this handle. Supporting once: dance mom sweatshirt (320 / KD 50) only in a gift FAQ if a crewneck twin follows. Use it in the first sentence and once in the meta.
+- **Print size:** FW 1650 TOP 75 (tee).
+- **Copy:** line one = the joke + who wears it + when (R9.11). Describe only what is in the art (R8.3); never say we drew it (SOP line "Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, weight, wash care, gift fit, Christmas order-by about Dec 8, free size exchange).
+- **Cover:** registry #874 (Vietnamese-American woman, late 30s, sleek black chin-length bob, small pearl studs, slim build), CLAIMED. Alt starts 'Woman'. Scene: a hotel ballroom hallway at a dance competition, garment bags on a rolling rack behind her; coffee at the hip, never over the print. Generate with the product's own Printful mockup in the cover color as `--design` (--n 1); hair tied back or behind the shoulders (R6.9); nothing (hand, cup, hair, prop, another person) over any part of the print; read every word before saving; hair or body over a letter = composite fix first (R6.9). No alcohol, tools held, or weapons (R6.5). Max 2 attempts.
+- **Title / handle:** "Women's Dance Mom – Bun Tight, Wallet Empty Tee" / `womens-dance-mom-bun-tight-wallet-empty-graphic-tee` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** graphic-tees-for-women, funny-graphic-tees, ai-art, intake-done.
+- **Price:** $24.99 (R12.1 tee), NO compare-at.
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d).
+---
+## Log
+- 2026-10-18 01:30 UTC director: brief written, READY (lane E; sports-mom wave, 899-favorite dance mom proof).

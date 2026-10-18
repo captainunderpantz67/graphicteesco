@@ -1,0 +1,29 @@
+status: READY
+lane: E
+type: new
+id: 538
+handle: womens-mom-motherhood-exposed-me-graphic-tee
+kd: 56
+---
+## Women's Mom – Motherhood Didn't Change Me. It Exposed Me. Tee
+- **Blank:** Bella+Canvas 6400 women's relaxed tee (Printful), lightweight 4.2 oz, 100% combed ring-spun cotton (heathers contain polyester). Never "midweight". Copy facts from the Printful spec only (R7.1).
+- **Style:** A (R4.2), vintage to the edges, no badge, frame, border, rounded scene card or dark patch (R4.1, including the 2026-10-18 rounded-card line). New art: one Recraft v4 illustration call (--n 1), picture only, at most 3 tries; if all are weak, PARK it and say why.
+- **Text on shirt (real fonts via scripts/compose-print.py, never drawn by the image model; spelled exactly):** MOTHERHOOD DIDN'T CHANGE ME. (Fraunces 900, dark ink #1c1714, above the art, at least 85% of the art's width, on two lines if needed) / It exposed me. (Yellowtail, rust #b4502d, below the art, at least 60% of the art's width). Fonts in designs/fonts: AlfaSlabOne, BigShouldersDisplay, CaveatBrush, Cinzel, Damion, Fraunces, Graduate, Lobster, Oswald, PlayfairDisplay (+Italic), Rye, Yellowtail. Spec like designs/first5/sisyphus.json. Every line reads at phone size on the darkest mockup (R3.7.6, R5.3.8); normal letter spacing, never a tight one-line squeeze (#512 came back for that); knock out white letter counters.
+- **Hook:** A prim 1950s housewife in pearls sits perfectly upright on a sofa sipping coffee while chaos surrounds her: a toddler on the bookshelf, crayons on the wall, a dog in the laundry basket, and she has one eyebrow up: MOTHERHOOD DIDN'T CHANGE ME. It exposed me. Women's, cheeky, self-aware (R3.4).
+- **Three lines considered (R3.1):** "Motherhood Didn't Change Me. It Exposed Me." · "Eldest Daughter, Unpaid Project Manager" · "Girl Dinner Enthusiast" (picked: verified TikTok mom line, sharper than the mom-life staples and gift-ready; 'Eldest Daughter' has no measured phrase; 'Girl Dinner' (590 / KD 52) is fading slang).
+- **Joke QC (R3.7):** reads in under 2 seconds (5 words, then 3); family-table clean; no brand; not a pun.
+- **Why it's not taken:** Etsy mom tees are 'Mama' puff prints (4,544 favorites) and 'Expensive and Difficult' (1,958); 'it exposed me' did not appear in the RankHero top listings for funny mama shirt or mom life shirt. Builder confirms under 50 listings for the exact line before art (R3.7.2).
+- **Design gate (5 parts):** search: funny mama shirt 1,900 / KD 56 (RankHero 2026-10-18, competition 160,469) · proof: 'Expensive And Difficult Mom Life Shirt: Sarcastic Women's Tee' 1,958 favorites (same format: women's sarcastic mom tee) · insider: "motherhood didn't change my personality, it exposed it" (verified, inside-jokes bank, Women 25–55) · joke type: self-aware statement + contrast (wholesome art, dry line, R3.3) · look: vintage 1950s magazine-ad print, rust, mustard, sage, cream · gift test: best friend, sister or partner for Mother's Day, a birthday or Christmas.
+- **Art prompt (Recraft v4, one image per call):** "Vintage 1950s magazine-ad screen-print illustration of a prim housewife in pearls and a neat dress sitting perfectly upright on a mid-century sofa calmly sipping from a coffee cup with one eyebrow raised, while around her a toddler climbs a bookshelf, crayon scribbles cover a patch of wall, and a small scruffy dog sits inside an overflowing laundry basket. Rust, mustard, sage and cream inks with soft black linework, worn screen-print texture, ragged broken edges, the scene is the shape. No text, no letters, no words, no numbers, no background shape, no frame, no border, no badge, no circle, no rounded rectangle, no dark patch."
+- **Colors:** one dark-ink file for light colors: White, Natural, Heather Stone, Athletic Heather, Pink, Leaf (bold women's colors: Pink, Leaf). ≤16 colors x 6 sizes. A Printful mockup for every color before REVIEW.
+- **Primary keyword:** funny mama shirt: 1,900 / KD 56 (RankHero keyword page, 2026-10-18, director; competition 160,469). KD 36+ but over 1,000 a month (R2.5 allows it); every easier mom phrase measured this run is owned or under 500 favorites. Unowned in docs/product-keyword-map.json, every open brief and src/data/collections.ts (mama-sweatshirts owns the sweatshirt head, not this); recorded there with this handle. Use it in the first sentence and once in the meta.
+- **Print size:** FW 1650 TOP 75 (tee).
+- **Copy:** line one = the joke + who wears it + when (R9.11). Describe only what is in the art (R8.3); never say we drew it (SOP line "Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, weight, wash care, gift fit, Christmas order-by about Dec 8, free size exchange).
+- **Cover:** registry #878 (Lebanese-American woman, early 30s, long dark-brown wavy hair tied back, small gold nose stud, medium build), CLAIMED. Alt starts 'Woman'. Scene: a sunny family kitchen with kids' drawings on the fridge and a toy truck on the floor; coffee mug at the hip, never over the print. Generate with the product's own Printful mockup in the cover color as `--design` (--n 1); hair tied back or behind the shoulders (R6.9); nothing (hand, cup, hair, prop, another person) over any part of the print; read every word before saving; hair or body over a letter = composite fix first (R6.9). No alcohol, tools held, or weapons (R6.5). Max 2 attempts.
+- **Title / handle:** "Women's Mom – Motherhood Didn't Change Me. It Exposed Me. Tee" / `womens-mom-motherhood-exposed-me-graphic-tee` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** graphic-tees-for-women, funny-graphic-tees, ai-art, intake-done.
+- **Price:** $24.99 (R12.1 tee), NO compare-at.
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d).
+---
+## Log
+- 2026-10-18 01:30 UTC director: brief written, READY (lane E; verified mom line, 1,958-favorite sarcastic mom tee proof).

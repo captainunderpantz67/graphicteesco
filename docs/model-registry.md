@@ -661,3 +661,14 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 862 | Black woman, late 20s, long knotless braids tied back in a low ponytail, small gold hoops, medium build | CLAIMED 2026-10-18 — #527 Clocked It Said Nothing Hoodie cover (brief) |
 | 863 | Mexican-American man, early 40s, short wavy black hair, trimmed salt-and-pepper beard, athletic build | CLAIMED 2026-10-18 — #528 Pace Leisurely Zip Hoodie cover (brief, pair 863-864) |
 | 864 | white woman, late 30s, blonde hair in a high ponytail, light freckles, slim athletic build | CLAIMED 2026-10-18 — #528 Pace Leisurely Zip Hoodie cover (brief, pair 863-864) |
+| 869 | Navajo man, early 40s, short black hair, neat goatee, broad build | CLAIMED 2026-10-18 — #529 If You Can Step Over It, I Can Fill It Tee cover (brief) |
+| 870 | white man, late 20s, red buzz cut, freckles, full red beard, stocky build | CLAIMED 2026-10-18 — #530 Grinder & Paint Department Tee cover (brief) |
+| 871 | Filipino-American man, early 30s, short black undercut, clean-shaven, muscular build | CLAIMED 2026-10-18 — #531 Deload Week (Emotionally) Pump Cover cover (brief) |
+| 872 | Black man, early 60s, short white hair, white mustache, lean build | CLAIMED 2026-10-18 — #532 You Catching 'Em? Tee cover (brief) |
+| 873 | Afro-Latina woman, early 30s, curly dark hair in a low bun, small gold hoops, medium build | CLAIMED 2026-10-18 — #533 Hold Your Horses, I'm Overstimulated Tee cover (brief) |
+| 874 | Vietnamese-American woman, late 30s, sleek black chin-length bob, small pearl studs, slim build | CLAIMED 2026-10-18 — #534 Bun Tight, Wallet Empty Tee cover (brief) |
+| 875 | white woman, early 40s, strawberry-blonde ponytail through a ball cap, light freckles, athletic build | CLAIMED 2026-10-18 — #535 Travel Ball Took My Savings and My Saturdays Tee cover (brief) |
+| 876 | Black woman, mid-40s, shoulder-length locs tied back, small gold studs, medium build | CLAIMED 2026-10-18 — #536 7 A.M. Check-In Tee cover (brief) |
+| 877 | Korean-American woman, mid 20s, long black hair in a high ponytail, athletic build | CLAIMED 2026-10-18 — #537 Lifts Heavy, Has Whimsy Pump Cover cover (brief) |
+| 878 | Lebanese-American woman, early 30s, long dark-brown wavy hair tied back, small gold nose stud, medium build | CLAIMED 2026-10-18 — #538 Motherhood Didn't Change Me. It Exposed Me. Tee cover (brief) |
+| 879 | Mexican-American man, mid 30s, short black fade, full black beard, tattooed forearms, stocky build | CLAIMED 2026-10-18 — #539 Stacks Dimes, Wants More Dimes Tee cover (brief) |

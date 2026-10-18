@@ -7543,6 +7543,160 @@
    ],
    "measured": "2026-10-18",
    "note": "director: brief (lane C hoodie twin)"
+  },
+  "mens-welder-if-you-can-step-over-it-graphic-tee": {
+   "claimed": [
+    "welder shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "welder shirt",
+     "volume": 9900,
+     "kd": 24
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "mens-welder-grinder-and-paint-department-graphic-tee": {
+   "claimed": [
+    "welding shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "welding shirt",
+     "volume": 9900,
+     "kd": 23
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "mens-gym-deload-week-emotionally-pump-cover": {
+   "claimed": [
+    "gym pump cover"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "gym pump cover",
+     "volume": 1900,
+     "kd": 35
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "mens-fishing-you-catching-em-graphic-tee": {
+   "claimed": [
+    "mens fishing shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "mens fishing shirt",
+     "volume": 12100,
+     "kd": 44
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "womens-western-hold-your-horses-im-overstimulated-graphic-tee": {
+   "claimed": [
+    "overstimulated shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "overstimulated shirt",
+     "volume": 880,
+     "kd": 46
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "womens-dance-mom-bun-tight-wallet-empty-graphic-tee": {
+   "claimed": [
+    "dance mom shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dance mom shirt",
+     "volume": 1900,
+     "kd": 38
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "womens-softball-mom-travel-ball-took-my-saturdays-graphic-tee": {
+   "claimed": [
+    "softball mom shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "softball mom shirt",
+     "volume": 1300,
+     "kd": 50
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "womens-volleyball-mom-seven-am-check-in-graphic-tee": {
+   "claimed": [
+    "volleyball mom shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "volleyball mom shirt",
+     "volume": 880,
+     "kd": 47
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "womens-gym-lifts-heavy-has-whimsy-pump-cover": {
+   "claimed": [
+    "pump cover women"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pump cover women",
+     "volume": 720,
+     "kd": 44
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "womens-mom-motherhood-exposed-me-graphic-tee": {
+   "claimed": [
+    "funny mama shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny mama shirt",
+     "volume": 1900,
+     "kd": 56
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "mens-welder-stacks-dimes-wants-more-dimes-graphic-tee": {
+   "claimed": [
+    "welder gift"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "welder gift",
+     "volume": 1900,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

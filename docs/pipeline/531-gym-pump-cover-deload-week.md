@@ -1,0 +1,29 @@
+status: READY
+lane: B
+type: new
+id: 531
+handle: mens-gym-deload-week-emotionally-pump-cover
+kd: 35
+---
+## Men's Gym – Deload Week (Emotionally) Pump Cover
+- **Blank:** pump cover, Printful #1482 all-over-print oversized tee: heavyweight 8.85 oz, 95% cotton / 5% elastane, boxy fit, sizes 2XS–5XL, Size option only (R7.1). One solid all-over background color (below) with the chest art on the front panel; back = the 3 in neck logo only (as on the live Uphill pump cover). Copy facts from the Printful spec only.
+- **Style:** A (R4.2), vintage to the edges, no badge, frame, border, rounded scene card or dark patch (R4.1, including the 2026-10-18 rounded-card line). New art: one Recraft v4 illustration call (--n 1), picture only, at most 3 tries; if all are weak, PARK it and say why.
+- **Text on shirt (real fonts via scripts/compose-print.py, never drawn by the image model; spelled exactly):** DELOAD WEEK (Cinzel 900, cream, above the art, at least 85% of the art's width) / (emotionally) (Yellowtail, terracotta #c8693f with a cream keyline, below the art, at least 55% of the art's width). Fonts in designs/fonts: AlfaSlabOne, BigShouldersDisplay, CaveatBrush, Cinzel, Damion, Fraunces, Graduate, Lobster, Oswald, PlayfairDisplay (+Italic), Rye, Yellowtail. Spec like designs/first5/sisyphus.json. Every line reads at phone size on the darkest mockup (R3.7.6, R5.3.8); normal letter spacing, never a tight one-line squeeze (#512 came back for that); knock out white letter counters.
+- **Hook:** A Greek-vase-style hero lies flat on a weight bench, a barbell resting untouched on the rack above him, one arm over his eyes, a tiny laurel wreath askew: DELOAD WEEK (emotionally). Lifters know the deload; everyone knows the feeling. Men's, dry (R3.4); culture × gym, the format of our live Sisyphus and Twelve Labors.
+- **Three lines considered (R3.1):** "Deload Week (Emotionally)" · "Department of Bro Science, Est. Day One" · "Lifts Heavy. Has Whimsy." (picked: verified gym lingo with a self-aware twist that also lands on non-lifters; Bro Science is longer and needs a crest-like layout (R4.1 risk); 'Lifts Heavy. Has Whimsy.' goes to #537 for women).
+- **Joke QC (R3.7):** reads in under 2 seconds; family-table clean; no brand or gym chain; not a pun.
+- **Why it's not taken:** Etsy pump covers are Sisyphus, deadlift skeletons and bookish lifters; 'deload' did not appear in the RankHero top listings for pump cover or gym pump cover. Builder confirms under 50 listings for the exact line before art (R3.7.2).
+- **Design gate (5 parts):** search: gym pump cover 1,900 / KD 35 (RankHero 2026-10-18, competition 11,252) · proof: Sisyphus Gym Pump Cover 1,583 favorites, Dead Lift Skeleton Pump Cover 1,338, Bookish Pump Cover 857 (same format: funny culture × gym pump cover) · insider: deload (the planned easy week), inside-jokes bank, Gym · joke type: self-aware statement · look: Greek black-figure vase style like #483/#494, terracotta, cream and black, real fonts · gift test: partner or gym buddy buys it for the lifter.
+- **Art prompt (Recraft v4, one image per call):** "Greek black-figure vase painting style illustration of a muscular bearded hero lying flat on his back on a weight bench, one forearm draped over his eyes in exhaustion, a loaded barbell resting untouched on the rack above him, a small laurel wreath slipping off his head, a meander-free simple ground line. Terracotta, cream and black only, fine incised lines, worn screen-print texture, ragged broken edges, the figure and bench are the shape. No text, no letters, no words, no numbers, no background shape, no frame, no border, no badge, no circle, no rounded rectangle, no dark patch."
+- **Colors:** all-over background: washed black (as on the live Uphill pump cover) with the cream/terracotta art; one color, Size option only (2XS–5XL = 10 variants).
+- **Primary keyword:** gym pump cover: 1,900 / KD 35 (RankHero keyword page, 2026-10-18, director; competition 11,252). KD 21–35 band. Unowned in docs/product-keyword-map.json and every open brief (the pump-covers page owns 'pump cover' and 'pump cover shirt'; never use those as this page's primary, R8.8). Use it in the first sentence and once in the meta. Title must contain 'Pump Cover' (the audit prices pump covers by it, $39.99).
+- **Print size:** front chest art about 12 in wide on the #1482 front panel (match the Uphill pump cover's placement); neck logo 3 in on the back.
+- **Copy:** line one = the joke + who wears it + when (R9.11). Describe only what is in the art (R8.3); never say we drew it (SOP line "Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, weight, wash care, gift fit, Christmas order-by about Dec 8, free size exchange).
+- **Cover:** registry #871 (Filipino-American man, early 30s, short black undercut, clean-shaven, muscular build), CLAIMED. Alt starts 'Man'. Scene: a garage gym with a squat rack and chalk dust, sitting on a bench, hands empty on his knees. Generate with the product's own Printful mockup in the cover color as `--design` (--n 1); hair tied back or behind the shoulders (R6.9); nothing (hand, cup, hair, prop, another person) over any part of the print; read every word before saving; hair or body over a letter = composite fix first (R6.9). No alcohol, tools held, or weapons (R6.5). Max 2 attempts.
+- **Title / handle:** "Men's Gym – Deload Week (Emotionally) Pump Cover" / `mens-gym-deload-week-emotionally-pump-cover` (R7.4; the title word Pump Cover sets the audit price, R12.1).
+- **Tags:** pump-cover, mens-gym-shirts, graphic-tees-for-men, funny-graphic-tees, ai-art, intake-done (as the live Uphill pump cover).
+- **Price:** $39.99 (R12.1 pump cover), NO compare-at.
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d).
+---
+## Log
+- 2026-10-18 01:30 UTC director: brief written, READY (lane B funny-gym; culture × gym format with 1,583-favorite proof).
