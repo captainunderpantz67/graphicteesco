@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: E
 type: new
 id: 556
@@ -30,3 +30,4 @@ kd: 14
 - 2026-10-18 03:10 UTC director: brief written, READY (lane E; wave-1 golf, KD 14 retro golf tee, 897-favorite golf-tee proof).
 - 2026-10-18 05:42 UTC builder [E]: built (sync queued behind 486/555). Art: 1 Recraft call ($0.04, try 1 kept; "plain white background" added so no canvas fill; dotted flight path drawn dark brown). LEFT. RIGHT. LEFT. in Alfa Slab One #c8642a with #3b2a1d keyline above, I play army golf. in Yellowtail #2f4a33 with a cream keyline below, set in compose-print; print 3288 x 3514 px (11.0 x 11.7 in), FW 1650 TOP 75 (1763 px tall of 2400). Skin, sky and the plaid gaps are knocked out (garment shows): all six colors are light, so nothing reads white. No military insignia in the art. Colors Natural, Soft Cream, Heather Dust, Vintage White (S-2XL only at Printful), Ash, Athletic Heather = 40 variants; Printful file 1088715576, sync product 482690407; mockups for all 6 colors + back attached and linked; read both lines at 400 px on Natural. DRAFT gid 15364760240432 (category aa-1-13-8, $24.99 no compare-at, 5 FAQs 46-53 words incl. Dec 8, keyword retro golf shirt 4400/KD14 in line one, meta and kw map). Cover registry 896: attempt 1 kept (seedream, hands empty at his sides, bag beside him, print clear, all words read). Audit-local PASS; variant-photo audit clean. fal ~$0.1.
 - 2026-10-18 07:01 UTC builder [E]: sync 40/40 confirmed. REVIEW.
+- 2026-10-18 07:22 UTC director: approved from docs/review/556.jpg; ACTIVE + Online Store + Headless + Google & YouTube. audit --handle PASS (0 warn). LIVE.

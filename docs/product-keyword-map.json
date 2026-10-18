@@ -8674,7 +8674,7 @@
      "kd": 48
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "unisex-christmas-raccoon-here-for-the-wrapping-paper-crewneck-sweatshirt": {
    "claimed": [
@@ -8804,7 +8804,7 @@
      "kd": 54
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-christmas-cat-allegedly-crewneck-sweatshirt": {
    "claimed": [
@@ -8882,7 +8882,7 @@
      "kd": 30
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-gym-lift-heavy-reply-later-cropped-hoodie": {
    "claimed": [
@@ -8895,7 +8895,7 @@
      "kd": 32
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "unisex-running-mile-one-was-a-mistake-hoodie": {
    "claimed": [
@@ -8908,7 +8908,7 @@
      "kd": 22
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-pickleball-kitchen-gossip-club-hoodie": {
    "claimed": [
@@ -8997,6 +8997,394 @@
      "phrase": "funny bowling shirt",
      "volume": 1300,
      "kd": 32
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-christmas-official-tree-topper-crewneck-sweatshirt": {
+   "claimed": [
+    "christmas cat sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas cat sweatshirt",
+     "volume": 260,
+     "kd": 54
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "unisex-christmas-garden-variety-grump-crewneck-sweatshirt": {
+   "claimed": [
+    "gnome sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "gnome sweatshirt",
+     "volume": 170,
+     "kd": 52
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-christmas-capybara-tangled-unbothered-zip-hoodie": {
+   "claimed": [
+    "capybara merch"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "capybara merch",
+     "volume": 2400,
+     "kd": 18
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "unisex-dachshund-banned-from-stairs-hoodie": {
+   "claimed": [
+    "sausage dog hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "sausage dog hoodie",
+     "volume": 880,
+     "kd": 26
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-golf-i-play-army-golf-zip-hoodie": {
+   "claimed": [
+    "golf gifts for him"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "golf gifts for him",
+     "volume": 2900,
+     "kd": 16
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-christmas-it-looked-smaller-at-the-farm-oversized-hoodie": {
+   "claimed": [
+    "xmas gifts for him"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "xmas gifts for him",
+     "volume": 14800,
+     "kd": 10
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "unisex-national-park-switchbacks-build-character-heavyweight-hoodie": {
+   "claimed": [
+    "national park merch"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "national park merch",
+     "volume": 2400,
+     "kd": 16
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-gym-rack-your-weights-respectfully-oversized-hoodie": {
+   "claimed": [
+    "fitness gifts for men"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fitness gifts for men",
+     "volume": 3600,
+     "kd": 14
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-softball-mom-travel-ball-took-my-saturdays-zip-hoodie": {
+   "claimed": [
+    "softball mom hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "softball mom hoodie",
+     "volume": 210,
+     "kd": 33
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-christian-rebuilt-by-a-carpenter-heavyweight-hoodie": {
+   "claimed": [
+    "christian pullover"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christian pullover",
+     "volume": 6600,
+     "kd": 46
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-bear-mama-bear-hibernation-denied-hoodie": {
+   "claimed": [
+    "mama bear hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "mama bear hoodie",
+     "volume": 720,
+     "kd": 32,
+     "competition": 1626
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "mens-welder-i-basically-hot-glue-metal-graphic-tee": {
+   "claimed": [
+    "funny welder shirt",
+    "funny welding shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny welder shirt",
+     "volume": 320,
+     "kd": 32
+    },
+    {
+     "phrase": "funny welding shirt",
+     "volume": 320,
+     "kd": 38,
+     "competition": 1742
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "womens-nana-mom-said-no-thats-cute-crewneck-sweatshirt": {
+   "claimed": [
+    "nana sweater"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "nana sweater",
+     "volume": 2400,
+     "kd": 16
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "mens-grandpa-papa-where-dad-got-his-jokes-crewneck-sweatshirt": {
+   "claimed": [
+    "papa sweatshirt",
+    "papa sweater"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "papa sweatshirt",
+     "volume": 720,
+     "kd": 44,
+     "competition": 7405
+    },
+    {
+     "phrase": "papa sweater",
+     "volume": 720,
+     "kd": 42,
+     "competition": 5047
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "mens-hockey-not-weird-just-the-goalie-graphic-tee": {
+   "claimed": [
+    "goalie shirt",
+    "hockey goalie shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "goalie shirt",
+     "volume": 2900,
+     "kd": 16
+    },
+    {
+     "phrase": "hockey goalie shirt",
+     "volume": 260,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "womens-wrestling-mom-your-weigh-in-my-stress-snacks-hoodie": {
+   "claimed": [
+    "wrestling mom hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "wrestling mom hoodie",
+     "volume": 390,
+     "kd": 31
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "mens-christmas-moms-favorite-graphic-tee": {
+   "claimed": [
+    "christmas gifts for brother",
+    "moms favorite shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas gifts for brother",
+     "volume": 9900,
+     "kd": 12
+    },
+    {
+     "phrase": "moms favorite shirt",
+     "volume": 880,
+     "kd": 47
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-christmas-moms-favorite-crewneck-sweatshirt": {
+   "claimed": [
+    "sibling gifts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "sibling gifts",
+     "volume": 2400,
+     "kd": 44
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-christmas-drew-your-name-panicked-graphic-tee": {
+   "claimed": [
+    "secret santa gifts for men",
+    "secret santa gifts for him"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "secret santa gifts for men",
+     "volume": 27100,
+     "kd": 9
+    },
+    {
+     "phrase": "secret santa gifts for him",
+     "volume": 1600,
+     "kd": 17
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-christmas-drew-your-name-panicked-crewneck-sweatshirt": {
+   "claimed": [
+    "funny secret santa gifts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny secret santa gifts",
+     "volume": 18100,
+     "kd": 10
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-christmas-santa-gets-all-the-credit-graphic-tee": {
+   "claimed": [
+    "christmas gifts for mom",
+    "mom christmas gifts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas gifts for mom",
+     "volume": 74000,
+     "kd": 6
+    },
+    {
+     "phrase": "mom christmas gifts",
+     "volume": 6600,
+     "kd": 13
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-christmas-santa-gets-all-the-credit-crewneck-sweatshirt": {
+   "claimed": [
+    "christmas gifts for wife"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas gifts for wife",
+     "volume": 40500,
+     "kd": 8
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "unisex-christmas-we-said-no-gifts-graphic-tee": {
+   "claimed": [
+    "christmas gifts for couples",
+    "couples christmas shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas gifts for couples",
+     "volume": 22200,
+     "kd": 10,
+     "source": "RankHero keyword page"
+    },
+    {
+     "phrase": "couples christmas shirt",
+     "volume": 1900,
+     "kd": 50,
+     "source": "RankHero keyword page"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-fishing-out-fished-him-again-zip-hoodie": {
+   "claimed": [
+    "fishing wife",
+    "fisherwoman"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fishing wife",
+     "volume": 110000,
+     "kd": 4,
+     "source": "RankHero keyword page"
+    },
+    {
+     "phrase": "fisherwoman",
+     "volume": 1900,
+     "kd": 22,
+     "source": "RankHero keyword page"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-dog-dad-unpaid-doorman-half-zip": {
+   "claimed": [
+    "dog daddy"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dog daddy",
+     "volume": 6600,
+     "kd": 32,
+     "source": "RankHero keyword page"
     }
    ],
    "measured": "2026-10-18"

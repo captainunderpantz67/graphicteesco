@@ -1,9 +1,10 @@
-status: READY
+status: BUILDING [A] 2026-10-18 07:26
 lane: A
 type: new
 id: 598
 handle: womens-christmas-cat-allegedly-graphic-tee
 kd: 54
+shopify: gid://shopify/Product/15364885348656
 ---
 ## Women's Christmas – Cat Allegedly. Tee
 - **Blank:** Bella+Canvas 6400 (Printful #360), women's relaxed tee, lightweight 4.2 oz, 100% combed ring-spun cotton (heathers contain polyester). Never "midweight". Copy facts from the Printful spec only (R7.1).
@@ -27,3 +28,4 @@ kd: 54
 ---
 ## Log
 - 2026-10-18 06:26 UTC director: brief written, READY (lane A; kd 54; KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month or with a measured December surge; proof named under the gate).
+- 2026-10-18 07:28 UTC builder [A]: WIP: art Recraft try 2 ($0.08 total: try 1 was cropped by the frame edges on two sides, straight edges; try 2 with margins kept), print 3318x3048 (ALLEGEDLY. red + cream edge, cream halo, --solid), Printful file 1088752795, FW 1500 TOP 75. DRAFT gid 15364885348656 (6400, 5 colors x S-3XL = 30, $24.99, no compare-at). 'christmas cat tee' 880/KD54 (3 uses). Note: the cat's white left chest is open in the print (shirt shows through); reads as white fur on White/Natural.

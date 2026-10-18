@@ -1,4 +1,5 @@
-status: READY
+status: REVIEW
+shopify: gid://shopify/Product/15364893540656
 lane: C
 type: twin
 id: 605
@@ -27,3 +28,6 @@ kd: 32
 ---
 ## Log
 - 2026-10-18 06:26 UTC director: brief written, READY (lane C; kd 32; KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month or with a measured December surge; proof named under the gate).
+- 2026-10-18 07:40 UTC builder [C]: R6.2 check on #574 files: LIFT HEAVY. real Big Shoulders caps, Reply Later. real Damion script, no ring/panel/badge; phone is a scene object. Print re-laid for the 1500x1500 area (3096x3690 -> 3096x3511): both lines scaled to 85%, gaps 20 px, art untouched; FW 1310 TOP 0 = 1,484 px high (above the raw hem; 1310 is above the 1300 floor). Peach exists in XL only so colors Black + Storm; cream-halo file (Printful 1088754728, docs/print-files/605-gym-cropped-hoodie-halo.png) on both, dark red and navy sink on Storm. DRAFT gid 15364893540656 (10 variants S-2XL, $44.99, no compare-at, hoodies category). FAQs 5 x 46-53 words. Back mockup shows no neck logo (hood covers the 7502 neck area), logged.
+- 2026-10-18 07:40 UTC builder [C]: mockups Black + Storm + back (no neck logo visible: the hood covers the 7502 neck area; alt says back view only). Cover: 1 fal image (registry #941); the model redrew the print (smaller, garbled lifter, period turned comma), so the exact print was composited from the halo file per R6.9 (inpaint margin 6; no hair or hands on the print; chest zoomed, no smear). Keyword gym crop hoodie 480/KD 32 in map. audit-local PASS 0 warn. fal $0.06. Sync 482703834 running; REVIEW at 10/10.
+- 2026-10-18 07:46 UTC builder [C]: Printful relink verified 10/10 (5 Black + 5 Storm on halo file 1088754728, back logo on all); REVIEW.
