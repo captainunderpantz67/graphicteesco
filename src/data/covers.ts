@@ -574,6 +574,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-nurse-embroidered-night-shift-silly-goose-hoodie': { src: '/covers/womens-nurse-embroidered-night-shift-silly-goose-hoodie.webp', alt: 'Woman in her early 30s with a short black pixie cut wears the embroidered Night Shift Silly Goose sand hoodie in a hospital break room at night, hands in the pouch' },
   'womens-christmas-capybara-tangled-unbothered-graphic-tee': { src: '/covers/womens-christmas-capybara-tangled-unbothered-graphic-tee.webp', alt: 'Woman with short natural curls, a small gold hair clip and gold hoops smiling in a cozy living room at Christmas, holding a cocoa mug and wearing the white Capybara Tangled. Unbothered. tee' },
   'mens-drummer-professionally-loud-graphic-tee': { src: '/covers/mens-drummer-professionally-loud-graphic-tee.webp', alt: 'Man with short curly black hair and a thin mustache smiling in a small rehearsal room with a drum kit and string lights behind him, wearing the navy Professionally Loud drummer tee' },
+  'mens-mechanic-no-i-cant-just-take-a-quick-look-graphic-tee': { src: '/covers/mens-mechanic-no-i-cant-just-take-a-quick-look-graphic-tee.webp', alt: 'Man with a short top-knot and a full beard smiling in an auto repair bay with a car on a lift behind him, wearing the dark grey No, I Can\'t Just Take a Quick Look mechanic tee' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
