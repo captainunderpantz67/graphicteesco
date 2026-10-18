@@ -481,6 +481,8 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-national-park-two-queens-roaming-hoodie': { src: '/covers/womens-national-park-two-queens-roaming-hoodie.webp', alt: 'Two women in matching navy Two Queens Roaming bison hoodies with hands in the pouch pockets on a gravel pullout above a grassland valley with bison grazing in the distance' },
   'mens-skull-dead-serious-zip-hoodie': { src: '/covers/mens-skull-dead-serious-zip-hoodie.webp', alt: 'Man looking back over his shoulder outside a vintage tattoo parlor at night wearing the Dead Serious skull navy zip hoodie' },
   'womens-national-park-swipe-right-on-public-land-zip-hoodie': { src: '/covers/womens-national-park-swipe-right-on-public-land-zip-hoodie.webp', alt: 'Woman looking back and smiling over her shoulder in a navy Swipe Right on Public Land zip hoodie with the hood down and her braid over the front shoulder, on a canyon-rim overlook trail at sunrise' },
+  'unisex-national-park-running-late-bison-traffic-heavyweight-hoodie': { src: '/covers/unisex-national-park-running-late-bison-traffic-heavyweight-hoodie.webp', alt: 'Man and woman in matching storm blue Running Late Bison Traffic heavyweight hoodies with their hands in the pouch pockets beside a vintage station wagon on a two-lane park road with mountains behind' },
+  'unisex-raccoon-fine-dumpster-dining-hoodie': { src: '/covers/unisex-raccoon-fine-dumpster-dining-hoodie.webp', alt: 'Man and woman in matching navy Fine Dumpster Dining raccoon hoodies with their hands in the pouch pockets in an alley behind a corner diner at dusk under string lights' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
