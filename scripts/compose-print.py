@@ -59,7 +59,7 @@ def render(l):
 with tempfile.TemporaryDirectory() as t:
     art_png = Path(t) / 'art.png'
     subprocess.run([sys.executable, str(ROOT / 'scripts' / 'print-prep.py'), spec['art'], str(art_png), '--width', str(int(W * spec.get('art_width', 0.78)))]
-                   + (['--solid'] if spec.get('solid') else []), check=True, stdout=subprocess.DEVNULL)
+                   + (['--solid'] if spec.get('solid') else []) + (['--holes', str(spec['holes'])] if spec.get('holes') else []), check=True, stdout=subprocess.DEVNULL)
     art = Image.open(art_png).convert('RGBA')
     aw = int(W * spec.get('art_width', 0.78))
     art = art.resize((aw, int(art.height * aw / art.width)), Image.LANCZOS)

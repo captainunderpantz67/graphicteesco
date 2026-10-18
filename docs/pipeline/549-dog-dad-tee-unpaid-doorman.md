@@ -1,9 +1,10 @@
-status: READY
+status: REVIEW
 lane: B
 type: new
 id: 549
 handle: mens-dog-dad-unpaid-doorman-graphic-tee
 kd: 17
+shopify: gid://shopify/Product/15364631724336
 ---
 ## Men's Dog Dad – Unpaid Doorman Tee
 - **Blank:** Bella+Canvas 3001 (Printful #71), unisex/men's tee, lightweight 4.2 oz, 100% combed ring-spun cotton (heathers contain polyester). Never "midweight". Copy facts from the Printful spec only (R7.1).
@@ -27,3 +28,4 @@ kd: 17
 ---
 ## Log
 - 2026-10-18 03:10 UTC director: brief written, READY (lane B wave-1 dog (tee); KD 17 phrase, 804-favorite funny dog tee proof).
+- 2026-10-18 04:13 UTC [B]: built DRAFT gid://shopify/Product/15364631724336 (Bella+Canvas 3001 #71, 9 colors x S-4XL = 63, $24.99, compareAtPrice null, category aa-1-13-8, tags per brief), sync 63/63. Art: 2 Recraft calls (try 1 had a big black doorway interior = dark patch, rejected; try 2 kept: doorman bowing, dog sitting in the doorway beside his feet). DOG DAD. (Alfa Slab One 500) above, UNPAID DOORMAN. (Big Shoulders 900, 430) below via compose-print, both within the art width. Two files: dark-ink for Natural/Soft Cream/Ash/Athletic Heather (FW 1650), cream-halo + cream/mustard-keylined file for Black/Navy/Dark Grey Heather/Heather Forest/Brown (FW 1600 because the taller print would pass the 2400 px area at 1650, TOP 75). Heather Dust and Maroon-style extras not offered; 9 colors. Phone-size read: every line reads on Black and Natural. R6.2: no ring/panel/typeset line; no frame, badge. Mockups: all 9 colors + back, variant images linked. Copy: keyword dog dad shirts in line one and meta, FAQ 5+fit (47-55 words, Dec 8). Cover: registry #889, 1 fal photo (Natural), every word reads, dog beside his feet, hands empty; alt starts Man. Audit-local PASS. fal $0.10.

@@ -523,6 +523,8 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-softball-mom-travel-ball-took-my-saturdays-graphic-tee': { src: '/covers/womens-softball-mom-travel-ball-took-my-saturdays-graphic-tee.webp', alt: 'Woman in a ball cap at a travel-ball tournament with bleachers and a backstop behind her and a cooler beside her wearing the Travel Ball Took My Saturdays navy tee' },
   'mens-gym-twelve-labors-zero-cardio-hoodie': { src: '/covers/mens-gym-twelve-labors-zero-cardio-hoodie.webp', alt: 'Man in a sand Twelve Labors. Zero Cardio. gym hoodie smiling in a snowy garage gym with a squat rack and a treadmill with a towel on it behind him' },
   'mens-golf-fairways-are-a-rumor-half-zip': { src: '/covers/mens-golf-fairways-are-a-rumor-half-zip.webp', alt: 'Navy half zip pullover seen from the back with a golfer in a flat cap shading his eyes among tall pines under FAIRWAYS in cream capitals and ARE A RUMOR. in faded red' },
+  'mens-dog-dad-unpaid-doorman-graphic-tee': { src: '/covers/mens-dog-dad-unpaid-doorman-graphic-tee.webp', alt: 'Man with thick dark wavy hair and a full trimmed beard smiling in a cream Dog Dad Unpaid Doorman tee in a sunny back porch doorway with a scruffy mixed-breed dog sitting at his feet' },
+  'mens-christian-rebuilt-by-a-carpenter-graphic-tee': { src: '/covers/mens-christian-rebuilt-by-a-carpenter-graphic-tee.webp', alt: 'Man with short grey hair and a salt-and-pepper beard smiling in a cream Rebuilt by a Carpenter tee in a sunlit woodshop with hand tools on the wall behind him' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
