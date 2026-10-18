@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: twin
 id: 554
@@ -25,3 +25,4 @@ kd: 13
 - 2026-10-18 03:10 UTC director: brief written, READY (hoodie twin of LIVE #361; keyword measured this run).
 - 2026-10-18 02:59 UTC builder [C]: built from #361's print (Printful file 1088603481, 3009x3505). R6.2 check: both lines in real fonts (I FIX THINGS. Alfa Slab One red, (after my nap) Caveat Brush dark brown with a cream outline), no ring, arch, badge or rounded card; the recliner is the shape, floor and toolbox edges are ragged (no straight ground strip), so no ragged-edge run. FW 1500 TOP 0: print ends above the pouch seam on both mockups; (after my nap) is 74% of the width and reads at phone size on Sand and on Navy (cream outline). DRAFT gid 15364542103856 (Sand + Navy x S-3XL = 12, $39.99, no compare-at, category hoodies, tags per brief). Keyword grandpa birthday gift 6,600/KD13 in the map (once in copy + meta). FAQs 5 x 46-51 words, order-by Dec 8. Printful file 1088656420, sync 482672913 running. Mockups per color + back attached, variant images linked. Cover: 1 fal image ($0.06, registry #894) kept as generated: hood visible, hands in the pouch, no tools, mustache and glasses clear; the print is faithful and every word reads. Audit-local PASS. fal $0.06.
 - 2026-10-18 04:07 UTC builder [C]: resumed after container loss; Printful sync completed 12/12, audit clean except not-active. REVIEW.
+- 2026-10-18 04:20 UTC director: LIVE. FW 1500, both lines read on Navy; grandpa cover, hood visible. ACTIVE, published. Audit PASS.

@@ -1,0 +1,29 @@
+status: READY
+lane: A
+type: new
+id: 580
+handle: mens-drummer-professionally-loud-graphic-tee
+kd: 32
+---
+## Men's Drummer – Professionally Loud Tee
+- **Blank:** Bella+Canvas 3001 (Printful #71), unisex/men's tee, lightweight 4.2 oz, 100% combed ring-spun cotton (heathers contain polyester). Never "midweight". Copy facts from the Printful spec only (R7.1).
+- **Style:** A (R4.2), vintage to the edges, no badge, frame, border, rounded scene card or dark patch (R4.1, including the 2026-10-18 rounded-card line). New art: one Recraft v4 illustration call (--n 1), picture only, no words; at most 3 tries; if all are weak, PARK it and say why.
+- **Text on shirt (real fonts via scripts/compose-print.py, never drawn by the image model; spelled exactly):** PROFESSIONALLY (Alfa Slab One, cream with a dark keyline, above the art, at least 80% of the art's width) / LOUD. (Alfa Slab One, larger, faded red #b5452f with a cream keyline, below the art, at least 70% of the width). Solid ink only (R5.3.10). Spec like designs/first5/*.json. Knock out the white counters (O, R, A, D).
+- **Hook:** A 1950s jazz-club drummer in a narrow tie, eyes shut in total calm, mid-fill, sticks blurred, one cymbal still wobbling, a little steam of effort off his brow, over PROFESSIONALLY LOUD. Self-aware statement with a straight face (the format that sells, docs/research/etsy-2026-10-17/). Men's: dry, a little bite (R3.4). Real events: band practice, the gig, Christmas morning when the family opens the gift.
+- **Three lines considered (R3.1):** "Professionally Loud." · "Sorry About the Noise." · "I Hit Things in Time" (picked: 'Professionally Loud' is a calm brag every drummer and every drummer's family says out loud; 'Sorry About the Noise' is the B-lane neighbor joke's territory; 'I Hit Things' is on many listings).
+- **Joke QC (R3.7) / R3.12:** Outsider gets it in 2 seconds (a drummer, and drums are loud); family-clean; no band, brand (no Ludwig, Zildjian, Pearl logos on the kit) or song reference; 2 words. R3.12 passes.
+- **Why it's not taken:** RankHero top listings for gifts for drummers / drummer shirt are 'Relax The Drummer's Here' (829 favorites), 'dibs on the drummer' (674), drum-stick graphics (537) and an octopus playing drums (7,385): statements and an animal at the kit, no calm vintage jazz drummer with a 'professionally' line. Builder confirms under 50 listings for the exact line before art (R3.7.2).
+- **Design gate (5 parts, docs/research/how-to-research-a-design.md):** search: gifts for drummers 3,600 / KD 32, competition 7,481 (RankHero 2026-10-18) · proof: 'Relax The Drummer's Here' 829 favorites (same format: drummer shirt with a self-aware statement) and the octopus-drummer tee 7,385 favorites (favorites, not views, R5.2) · insider: drummers are the loud one in every band and every house · joke type: self-aware statement · look: 1950s jazz-club print, cream, faded red, mustard, soft black · gift test: a parent, partner or bandmate buys it for Christmas or a birthday.
+- **Art prompt (Recraft v4, one image per call):** Vintage 1950s jazz-club screen-print illustration of a calm drummer in a white shirt and narrow black tie behind a small four-piece drum kit, eyes closed and perfectly serene mid-fill, drumsticks shown as motion blur, one crash cymbal wobbling with little motion lines, a few tiny sweat drops flying, plain unbranded drum heads. Cream, faded red, mustard and soft black linework, halftone shading, worn screen-print texture, ragged broken edges, the drummer and kit are the shape. No text, no letters, no logos, no background shape, no frame, no border, no badge, no circle, no rounded rectangle, no dark patch.
+- **Colors (R7.2):** Cream-ink file for dark and mid colors (Black, Navy, Dark Grey Heather, Heather Forest, Maroon, Brown); dark-ink lettering file for Natural, Soft Cream, Ash, Athletic Heather if one file can't read on both. ≤12 colors x 8 sizes. A Printful mockup for every color before REVIEW.
+- **Primary keyword:** gifts for drummers: 3,600 / KD 32 (RankHero via scripts/keyword-gap.py, 2026-10-18, director; competition 7,481). KD 21–35 band (the KD ≤ 20 band is empty in the sweep data, checked this run). Unowned in docs/product-keyword-map.json and every open brief; #583 takes 'drums shirt', the twin hoodie #585 takes 'drummer hoodie'. Supporting, once: drummer gifts (3,600 / KD 32). Primary in the first sentence and once in the meta.
+- **Print size:** FW 1650 TOP 75 (tee).
+- **Copy:** line one = the line + who wears it + when (R9.11), said plainly: no superlative opener built around the keyword (R8.3, 2026-10-18 line). Describe only what is in the art; never say we drew it ("Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, weight, wash care, gift fit, Christmas order-by about Dec 8, free size exchange).
+- **Cover:** registry #920 (Puerto Rican man, late 20s, short curly black hair with a low fade, thin mustache, lean build), CLAIMED. Alt starts 'Man'. Scene: a small rehearsal room or garage band space with a drum kit behind him (no brand logos), warm string lights; hands empty, sticks NOT in hand (R6.5), nothing over the print. Generate with the product's own Printful mockup in the cover color as `--design` (--n 1); read every word before saving; composite first if anything covers a letter (R6.9). Max 2 attempts.
+- **Title / handle:** "Men's Drummer – Professionally Loud Tee" / `mens-drummer-professionally-loud-graphic-tee` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** graphic-tees-for-men, funny-graphic-tees, retro-graphic-tees (1950s look), ai-art, intake-done.
+- **Price:** $24.99 (R12.1 tee), NO compare-at.
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d).
+---
+## Log
+- 2026-10-18 04:27 UTC director: brief written, READY (lane A; KD ≤ 20 band empty in the sweep, so KD 21–35 buyer phrases, measured this run; proof seller named under the gate).

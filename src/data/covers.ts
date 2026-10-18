@@ -528,6 +528,8 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-dog-dad-unpaid-doorman-graphic-tee': { src: '/covers/mens-dog-dad-unpaid-doorman-graphic-tee.webp', alt: 'Man with thick dark wavy hair and a full trimmed beard smiling in a cream Dog Dad Unpaid Doorman tee in a sunny back porch doorway with a scruffy mixed-breed dog sitting at his feet' },
   'mens-christian-rebuilt-by-a-carpenter-graphic-tee': { src: '/covers/mens-christian-rebuilt-by-a-carpenter-graphic-tee.webp', alt: 'Man with short grey hair and a salt-and-pepper beard smiling in a cream Rebuilt by a Carpenter tee in a sunlit woodshop with hand tools on the wall behind him' },
   'womens-fishing-out-fished-him-again-graphic-tee': { src: '/covers/womens-fishing-out-fished-him-again-graphic-tee.webp', alt: 'Woman with dark wavy hair and light freckles smiling in a cream Out-Fished Him. Again. tee on a wooden lake dock at golden hour with a tackle box and a fishing rod beside her' },
+  'mens-fishing-shouldve-been-here-yesterday-graphic-tee': { src: '/covers/mens-fishing-shouldve-been-here-yesterday-graphic-tee.webp', alt: 'Man with a grey flat-top crew cut and ruddy cheeks smiling in a navy Should\'ve Been Here Yesterday tee on a lake dock at sunrise with a tackle box and fishing rod beside him' },
+  'womens-cropped-lift-heavy-reply-later-graphic-tee': { src: '/covers/womens-cropped-lift-heavy-reply-later-graphic-tee.webp', alt: 'Woman with a long dark curly ponytail and gold hoop earrings smiling in a pink Lift Heavy. Reply Later. cropped tee and black leggings in a sunlit university weight room' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

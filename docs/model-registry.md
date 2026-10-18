@@ -685,7 +685,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 898 | Dominican-American woman, late 20s, curly dark-brown hair in a high bun, small gold nose ring, curvy build | CLAIMED 2026-10-18 — #558 Not My Turn With the Brain Cell Zip Hoodie cover (brief) |
 | 899 | Cherokee woman, late 40s, long straight black hair with grey strands in a low braid, small turquoise studs, medium build | CLAIMED 2026-10-18 — #559 If It's Brown, Lie Down Crewneck Sweatshirt cover (brief) |
 | 882 | Cuban-American man, late 50s, short silver hair combed back, trimmed silver beard, tanned skin, medium build | RELEASED 2026-10-18 — #542 cover attempts failed (print shown on front under the zipper / back print cropped by the turn); temp mockup cover used, free to reuse |
-| 883 | Polish-American man, early 60s, grey flat-top crew cut, clean-shaven, ruddy cheeks, barrel-chested build | CLAIMED 2026-10-18 — #543 Should've Been Here Yesterday Tee cover (brief) |
+| 883 | Polish-American man, early 60s, grey flat-top crew cut, clean-shaven, ruddy cheeks, barrel-chested build | USED 2026-10-18 — #543 Should've Been Here Yesterday tee cover (fal Seedream, lake dock at sunrise; try 1 kept) |
 | 884 | Ghanaian-American man, mid 20s, low taper fade with a part line, clean-shaven, lean muscular build | USED 2026-10-18 — #544 Rack Your Weights. Respectfully. Tee cover (brief) |
 | 885 | Ethiopian-American woman, early 30s, long box braids tied back in a high ponytail, small silver studs, muscular athletic build | USED 2026-10-18 — #545 Mid-Set. Not Interested. Tee cover (brief) |
 | 886 | Guatemalan-American man, mid 40s, short side-parted black hair, neat black mustache, medium build | USED 2026-10-18 — #546 Short Grace. Hot Food. Tee cover (brief) |
@@ -698,7 +698,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 903 | Brazilian-American woman, early 50s, honey-blonde highlighted shoulder-length blowout worn behind the shoulders, gold hoop earrings, slim build | CLAIMED 2026-10-18 — #563 Because Grandma Sounded Old Hoodie cover (brief) |
 | 904 | Croatian-American man, late 20s, buzzed dark-blond hair, short blond beard, broad muscular build | USED 2026-10-18 — #564 Twelve Labors hoodie cover (seedream, Sand mockup as design, first try, print faithful) |
 | 913 | Lebanese-American woman, early 40s, thick dark wavy hair worn behind the shoulders, light freckles, small silver studs, athletic build | USED 2026-10-18 — #573 Out-Fished Him. Again. tee cover (fal Seedream, lake dock at golden hour; try 1 kept) |
-| 914 | Puerto Rican woman, about 21, long dark curly hair in a high ponytail, small gold hoops, athletic build | CLAIMED 2026-10-18 — #574 Lift Heavy. Reply Later. cropped tee cover (brief) |
+| 914 | Puerto Rican woman, about 21, long dark curly hair in a high ponytail, small gold hoops, athletic build | USED 2026-10-18 — #574 Lift Heavy. Reply Later. cropped tee cover (fal Seedream, university weight room; try 1 kept, print composited per R6.9) |
 | 915 | Scottish-American man, mid 50s, short receding grey hair, salt-and-pepper close beard, weathered hands, broad build | USED 2026-10-18 — #575 Rebuilt by a Carpenter tee cover (fal Seedream, sunlit woodshop; try 1 kept) |
 | 905 | Tongan-American man, mid-40s, salt-and-pepper curly hair cropped short, full dark beard, heavy broad build | CLAIMED 2026-10-18 — #565 If You Can Step Over It Hoodie cover (brief) |
 | 906 | Irish-American man, late 60s, thinning white hair, bushy white eyebrows, clean-shaven weathered face, lean wiry build | CLAIMED 2026-10-18 — #566 You Catching 'Em? Heavyweight Hoodie cover (brief) |
@@ -712,3 +712,9 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 917 | Bangladeshi-American woman, late 20s, long wavy black hair in a loose low braid behind her shoulder, small gold nose stud, slim build | CLAIMED 2026-10-18 — #577 Making Biscuits Hoodie cover (brief) |
 | 918 | man AND woman together: Dominican-American man, early 40s, salt-and-pepper fade, short goatee, stocky build; Lithuanian-American woman, mid 30s, platinum-blonde hair in a high ponytail, athletic build | CLAIMED 2026-10-18 — #578 Scary Dog, Afraid of the Vacuum Tee cover (brief) |
 | 919 | Norwegian-American man, early 70s, bald on top with short white hair at the sides, neat short white beard, round tortoiseshell glasses, tall lean build | CLAIMED 2026-10-18 — #579 Ask Your Grandmother Tee cover (brief) |
+| 920 | Puerto Rican man, late 20s, short curly black hair with a low fade, thin mustache, lean build | CLAIMED 2026-10-18 — #580 Professionally Loud Tee cover (brief) |
+| 921 | Samoan-American man, late 30s, black hair in a short top-knot, full short beard, broad heavy build | CLAIMED 2026-10-18 — #581 No, I Can't Just Take a Quick Look Tee cover (brief) |
+| 922 | Hmong-American man, mid 40s, short black hair with grey at the temples, clean-shaven, medium build | CLAIMED 2026-10-18 — #582 No, I Can't Just Take a Quick Look Hoodie cover (brief) |
+| 923 | Ukrainian-American man, early 30s, shaggy light-brown hair tucked behind his ears, short stubble, slim build | CLAIMED 2026-10-18 — #583 The Neighbors Love Me Tee cover (brief) |
+| 924 | Mexican-American man, early 60s, thick grey hair combed back, grey horseshoe mustache, sturdy build | CLAIMED 2026-10-18 — #584 I Speak Fluent Rattle Tee cover (brief) |
+| 925 | Black man, about 19, short twists, small silver hoop earring, slim build | CLAIMED 2026-10-18 — #585 The Neighbors Love Me Hoodie cover (brief) |

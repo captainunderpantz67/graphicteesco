@@ -1,9 +1,10 @@
-status: READY
+status: BUILDING [B] 2026-10-18 04:19Z
 lane: B
 type: new
 id: 543
 handle: mens-fishing-shouldve-been-here-yesterday-graphic-tee
 kd: 32
+shopify: gid://shopify/Product/15364661870896
 ---
 ## Men's Fishing – Should've Been Here Yesterday Tee
 - **Blank:** Bella+Canvas 3001 (Printful #71), unisex/men's tee, lightweight 4.2 oz, 100% combed ring-spun cotton (heathers contain polyester). Never "midweight". Copy facts from the Printful spec only (R7.1).
@@ -27,3 +28,4 @@ kd: 32
 ---
 ## Log
 - 2026-10-18 03:10 UTC director: brief written, READY (lane B funny-fishing; funny-fishing-shirts has 0 live; 1,373-favorite funny fishing tee proof).
+- 2026-10-18 04:25 UTC builder [B]: WIP: DRAFT gid://shopify/Product/15364661870896 (3001 #71, 9 colors x S-4XL = 63, $24.99 no compare-at), art (1 Recraft call kept), Rye lettering via compose-print (SHOULD'VE BEEN / HERE YESTERDAY., straight apostrophe), two files (cream-halo + cream/green keyline for Navy/Black/Military Green/Heather Forest/Dark Grey Heather; dark-green ink for Natural/Soft Cream/Ash/Athletic Heather), FW 1650 TOP 75, all 9 mockups + back, cover (registry 883, try 1: every word reads, hands empty, rod at the side), review sheet done. Printful sync queued behind lane syncs; status goes to REVIEW at 63/63.
