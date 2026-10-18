@@ -1,3 +1,4 @@
+2026-10-18 08:45 UTC — [B] REVIEW #585 Men's Drummer hoodie — 12/12 synced; default file 6 on 1088712563 (Sand, dark ink) and 6 on 1088712589 (Navy, halo), back logo on all
 2026-10-18 08:40 UTC — [B] REVIEW #583 Men's Drummer The Neighbors Love Me tee — 70/70 synced; default file 35 on 1088712589 (halo) and 35 on 1088712563 (dark ink), back logo on all
 RUNNING lane B since 2026-10-18 08:30 UTC
 2026-10-18 08:39 UTC — [C] REVIEW #626 Women's Softball Mom Travel Ball Took My Saturdays zip hoodie (twin of #535; Ash dark-ink file built; cover composited; fal ~$0.12) (synced 12/12).
