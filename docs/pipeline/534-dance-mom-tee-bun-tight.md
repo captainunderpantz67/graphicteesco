@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: E
 type: new
 id: 534
@@ -32,3 +32,4 @@ kd: 38
 - 2026-10-18 05:21 UTC director: REDO (stays DRAFT). (1) R5.3.2 / R3.7.1: the punchline WALLET EMPTY. is missing from every Printful mockup: the print is clipped by the 6400's 1500x1800 area, so the shirt buyers get reads only BUN TIGHT. SMILE ON. Recompose the print shorter (move WALLET EMPTY. up under her feet, shrink the figure, keep both lines at full width) so the whole print sits inside the area, re-sync, and read all three lines on every mockup. (2) R6.8 / R6.9: the cover chest is a smeared composite with a lighter blotchy patch around the print, and it shows a print bigger than the real one; re-composite from the new mockup with no halo. Copy line one stays.
 - 2026-10-18 09:31 UTC builder [E]: sync 30/30 confirmed. REVIEW.
 - 2026-10-18 10:18 UTC director: REDO (stays DRAFT), cover only; art, sync 30/30 and copy pass. R6.9 clean erase: the cover chest still has grey smudges on the white tee (left of WALLET and right of the figure, at 200%) and the print sits on a flat pasted panel with no folds; the log shows no cover rework since the 05:21 note. Inpaint the old print area from the surrounding fabric, composite the new White mockup print at true size with multiply and a garment-outline mask, zoom to 200%, log 'chest clean', remake the sheet.
+- 2026-10-18 10:55 UTC builder [E]: REDO cover only: erased the old print from the committed photo with new scripts/cover-erase-composite.py (print pixels only masked, repainted from bare-fabric colour, hair untouched; no box, no smudge, no hard edge), composited the transparent print at the mockup's true size (multiply). Chest viewed at 300%: chest clean: no box, no smudge, no hard edge; first letter clear (B, S, W). Sheet remade. fal $0. REVIEW.
