@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-18 00:40
+status: REVIEW
 lane: A
 type: new
 id: 332
@@ -26,3 +26,4 @@ kd: 31
 - 2026-10-17 04:21 UTC director: brief written, READY (low-KD sweep 2026-10-17 04:30 run; keyword and trend measured this run).
 - 2026-10-17 04:37 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363026518320 (BC 6400, White/Natural/Heather Stone/Athletic Heather/Pink x S-3XL = 30 variants, $24.99 no compare-at, category tees; keyword new years eve shirt 3,600/KD31). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane A.
+- 2026-10-18 01:00 UTC builder [A]: BUILT. Art: 2 Recraft calls ($0.08, picture only: bow, and disco ball + midnight clock + star cluster; no lettering). RESOLUTIONS / PENDING set in Fraunces Black (soft, real font, R4.8) with a black outline and cream keyline, filled with a procedural gold / silver-grey / blush confetti-dot pattern (no AI lettering); bow sits on the corner of the R, cluster right of PENDING; no glitter or foil claimed. Print 3437x1824, Printful file 1088597929, FW 1800, 30/30 variants linked, back logo kept. Shopify DRAFT (gid 15363026518320, BC 6400, White/Natural/Heather Stone/Athletic Heather/Pink x S-3XL, $24.99 no compare-at): copy re-checked against the art, FAQs now 5 x 44-49 words incl. order-by Dec 20; SEO within limits. Mockups: 5 colors + back attached, each color's variants on its own photo; phone-size read OK on the five light/mid colors. Cover: registry #521 (seedream 2 attempts, white-tee Printful mockup as --design); attempt 2's braid hid the last S, so R6.9 composite of the exact print from the mockup (hair repainted behind the shoulder), every word read. fal ~$0.20. Audit script not runnable here; astro build passes.
