@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: new
 id: 498
@@ -30,3 +30,6 @@ kd: 50
 ## Log
 - 2026-10-17 20:27 UTC director: brief written, READY (Sam's 16 proof-first concepts, inbox 2026-10-17 19:30).
 - 2026-10-18 00:50 UTC builder [B]: full build (no draft existed). Art: 2 Recraft calls (try 1 had an odd inverted middle peak, try 2 kept: three clear peaks, half sun with rays, two pines). "I lift my eyes to the hills" (Yellowtail, thickened) and PSALM 121:1 (AlfaSlabOne) set by PIL, not model-drawn. Own composition, not a copy of the 2,348-favorite listing. emb-prep: 3.33 x 3.59 in at true scale, p10 stroke 1.52 mm. ONE thread #01784E forest green (Printful palette; pf-emb-sync links one thread), reads on Sand and Sport Grey. Colors Sand + Sport Grey (green on Navy would not read; the brief's cream-on-Navy needs a second thread file). DRAFT gid 15364320526640, category aa-1-13-14, 12 variants $39.99, compareAtPrice null, tags per brief, keyword psalm shirt 320/KD50 in line one and meta, FAQ 6 x 40-60 words incl. Dec 8, copy says stitched. Printful file 1088591474, pf-emb-sync 12/12, v2 embroidery mockups Sand + Sport Grey + back attached and linked. Phone-size read: the script line is the smallest element (about 6 mm), legible at true scale; director please judge. Cover: registry 824, 2 fal photos (try 1 wore a short-sleeve sweatshirt: wrong garment; try 2 long sleeves with ribbed cuffs, but the small lettering smudged), so per 9b the exact embroidery file is composited on the chest; no hair/hand over it; alt starts "Woman". astro build OK. fal $0.18 (2 art + 2 photos).
+- 2026-10-18 00:29 UTC director: REDO (stays DRAFT; art, verse choice, thread color, Sand + Sport Grey, copy and cover pass).
+  1. R4.8 (thread limits) / R5.3.5: "I lift my eyes to the hills" runs on one script line across 3.3 in, so the lowercase letters are only about 0.12 in tall. That is under the 0.25 in minimum we set for stitched text after the pilot, and on the mockup it already reads as a green smudge. Re-set it in emb-prep on two lines, "I lift my eyes" / "to the hills", same Yellowtail and the same thickening, so the x-height roughly doubles. Shrink the mountain a little to stay within 4 x 4 in if needed. Keep PSALM 121:1 as it is.
+  2. New embroidery file, pf-emb-sync for all 12 variants, new Sand + Sport Grey + back mockups. Cover: composite the new stitch from the Sand mockup onto her chest (R6.9, no fal); the Bible stays at her hip. Then REVIEW.
