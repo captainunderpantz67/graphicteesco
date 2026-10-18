@@ -1,10 +1,11 @@
+RUNNING lane E since 2026-10-18 05:15 UTC
+RUNNING director since 2026-10-18 05:14 UTC
 2026-10-18 05:03 UTC — [B] REVIEW #573 Women's Fishing Out-Fished Him. Again. Tee (DRAFT, synced 36/36, 6 colors; fal $0.14).
 2026-10-18 05:20 UTC — [A] [A] 470 Excused From Small Talk tee built (twin of 469, DTG), Printful link queued 482688507; REVIEW once 42/42 synced
 2026-10-18 05:14 UTC — [A] [A] 389 Seasonally Overbooked tee built (twin of 388), Printful link queued 482687699; REVIEW once 42/42 synced
 2026-10-18 05:10 UTC — [E] REVIEW #536 Women's Volleyball Mom 7 A.M. Check-In tee (DRAFT, synced 36/36, 6 colors; fal ~$0.30). Lock released; #533 #534 #535 also moved to REVIEW this run (syncs resumed). Remaining lane E READY items not started (usage/time).
 2026-10-18 04:45 UTC — [B] REVIEW #575 Men's Christian Rebuilt by a Carpenter Tee (DRAFT, synced 63/63, 9 colors; fal $0.10).
 2026-10-18 05:09 UTC — [A] [A] REDO 247/248/249/250/253/254/149 relettered solid ink (R5.3.10), covers+mockups+copy swapped, Printful re-links still running; lane A re-link check needed
-RUNNING director since 2026-10-18 04:14 UTC
 2026-10-18 04:50 UTC — [H] Helper run: Telegram inbox empty (getUpdates returned nothing, nothing to consume; no pause or resume). Audit (510 products): 0 errors, 29 warnings left alone (polish); no meta, SEO or collection errors to fix; no price errors. npm ci was needed first (node_modules missing) before the audit could run. Category check (one-time rule, still checking): 0 products without a category. Site freshness: unisex-hanukkah-spin-responsibly-crewneck-sweatshirt, mens-gym-twelve-labors-zero-cardio-hoodie, mens-gym-rack-your-weights-respectfully-graphic-tee all 200. Stuck check: no alert (lane locks director 04:14, E 04:14, C 04:25 all under 2 hours; A and B released). Daily summary not due (first run after 12:00 UTC). Lock released.
 2026-10-18 06:15 UTC — [C] REVIEW #281 Doorbusters tee REDO (solid cherry-red lettering, no pattern fill; synced 36/36, 6 mockups + cover recomposited; fal $0).
 2026-10-18 04:45 UTC — [E] REVIEW #535 Women's Softball Mom Travel Ball tee (DRAFT, synced 30/30; fal $0 this run).

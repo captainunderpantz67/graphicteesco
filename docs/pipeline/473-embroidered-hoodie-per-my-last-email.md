@@ -1,9 +1,10 @@
-status: READY
+status: BUILDING [B] 2026-10-18 05:14Z
 lane: B
 type: twin
 id: 473
 handle: unisex-embroidered-per-my-last-email-hoodie
 kd: 32
+shopify: gid://shopify/Product/15364727079216
 ---
 ## Unisex Embroidered – Per My Last Email Hoodie
 - **Twin of #472** (same thread art, no new art generation, R6.2). Build after #472's art passes review; run the R6.2 lettering check on the source first.
@@ -21,3 +22,4 @@ kd: 32
 ---
 ## Log
 - 2026-10-17 17:40 UTC director: brief written, READY (lane B; gate-format brief, keyword measured this run).
+- 2026-10-18 05:17 UTC builder [B]: WIP: twin of #472 built. R6.2 check on the source (live #472 file 1088588157): two lines of Caveat Brush script plus a Recraft paper plane, no ring, panel, disc or typeset line; art reused unchanged (4.00 x 2.18 in, #A67843 old gold). DRAFT gid://shopify/Product/15364727079216 (Gildan 18500 #146, Sand + Navy x S-3XL = 12, $44.99 = $39.99 + $5 chest, no compare-at, category hoodies aa-1-13-13, tags per brief incl. both hoodie hub tags, keyword corporate hoodie in line one and meta (map entry already present), 6 FAQs 45-55 words incl. Dec 8). Embroidery sits above the pouch seam on both mockups (Sand + Navy + back, styles 1402/1403). Cover registry 678+679 (pair): try 1 kept, hoods down and visible, hands in pockets, embroidery reads, one laptop open on the table (nobody using it). Sync queued; status goes to REVIEW at 12/12.
