@@ -590,6 +590,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-national-park-switchbacks-build-character-heavyweight-hoodie': { src: '/covers/unisex-national-park-switchbacks-build-character-heavyweight-hoodie.webp', alt: 'Man and woman in matching storm blue heavyweight hoodies on a fall switchback trail with golden aspens, hands in the pouches, daypacks on the ground beside them' },
   'womens-christmas-capybara-tangled-unbothered-zip-hoodie': { src: '/covers/womens-christmas-capybara-tangled-unbothered-zip-hoodie.webp', alt: 'Woman in her mid 20s with a sleek low ponytail, seen from behind in a light grey zip hoodie at an evening holiday market, looking over her shoulder, wrapped gifts and a cocoa cup on the stall behind her' },
   'unisex-dachshund-banned-from-stairs-hoodie': { src: '/covers/unisex-dachshund-banned-from-stairs-hoodie.webp', alt: 'Man and woman in matching navy hoodies on a late-fall porch with a dog ramp beside the steps and a red dachshund at their feet, hands in the pouches' },
+  'womens-softball-mom-travel-ball-took-my-saturdays-zip-hoodie': { src: '/covers/womens-softball-mom-travel-ball-took-my-saturdays-zip-hoodie.webp', alt: 'Woman in her early 40s with a sandy ponytail and sunglasses on her head, seen from behind in a navy zip hoodie at tournament bleachers, looking over her shoulder, a folding chair and a cooler beside her' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

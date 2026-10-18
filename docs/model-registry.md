@@ -758,7 +758,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 963 | Guyanese-American man, early 40s, short black hair, full black beard, big broad build | USED 2026-10-18 — #623 It Looked Smaller at the Farm Oversized Hoodie cover |
 | 964 | man AND woman together: Mongolian-American man, late 20s, short black hair, light stubble, lean hiker build; Sri Lankan-American woman, late 20s, long black hair in a high ponytail tied back, small silver studs, slim build | USED 2026-10-18 — #624 Switchbacks Build Character Heavyweight Hoodie cover (pair, composite) |
 | 965 | Moroccan-American man, mid 20s, short curly black hair, clean-shaven, muscular build | USED 2026-10-18 — #625 Rack Your Weights Oversized Hoodie cover |
-| 966 | Welsh-American woman, early 40s, sandy-brown hair in a low ponytail tied back, sport sunglasses pushed up on her head, athletic build | CLAIMED 2026-10-18 — #626 Travel Ball Took My Saturdays Zip Hoodie cover (brief) |
+| 966 | Welsh-American woman, early 40s, sandy-brown hair in a low ponytail tied back, sport sunglasses pushed up on her head, athletic build | USED 2026-10-18 — #626 Travel Ball Took My Saturdays Zip Hoodie cover (back view, composite) |
 | 967 | Kenyan-American man, late 50s, short grey hair, neat grey beard, tall broad build | CLAIMED 2026-10-18 — #627 Rebuilt by a Carpenter Heavyweight Hoodie cover (brief) |
 | 954 | Cuban-American man, early 30s, dark wavy hair swept back, full black beard, medium build | CLAIMED 2026-10-18 — #614 Mom's Favorite Tee cover (brief) |
 | 955 | Pakistani-American man, mid 50s, short grey hair, clean-shaven, rectangular wire glasses, stocky build | CLAIMED 2026-10-18 — #615 Mom's Favorite Crewneck Sweatshirt cover (brief) |
