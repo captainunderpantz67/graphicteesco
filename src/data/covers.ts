@@ -559,7 +559,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-fishing-you-catching-em-heavyweight-hoodie': { src: '/covers/mens-fishing-you-catching-em-heavyweight-hoodie.webp', alt: 'Man in his late 60s with white hair and bushy white eyebrows wears the You Catching \'Em black heavyweight hoodie on a misty pond bank at dawn, hands in the pouch, fishing chair and rod beside him' },
   'womens-cat-making-biscuits-hoodie': { src: '/covers/womens-cat-making-biscuits-hoodie.webp', alt: 'Woman in a sand Making Biscuits cat hoodie in a sunny window reading nook with a calico cat on a chunky knit blanket beside her' },
   'mens-christmas-bulking-season-oversized-hoodie': { src: '/covers/mens-christmas-bulking-season-oversized-hoodie.webp', alt: 'Man in his late 20s with a high-top fade and thin mustache wears the Bulking Season cream oversized hoodie in a Christmas-decorated gym, hands in the pouch' },
-  'womens-crochet-no-i-wont-make-you-one-hoodie': { src: '/covers/womens-crochet-no-i-wont-make-you-one-hoodie.webp', alt: 'Woman in her early 40s with a long braid and round tortoiseshell glasses wears the No I Won't Make You One sand hoodie in a yarn shop, hands in the pouch' },
+  'womens-crochet-no-i-wont-make-you-one-hoodie': { src: '/covers/womens-crochet-no-i-wont-make-you-one-hoodie.webp', alt: 'Woman in her early 40s with a long braid and round tortoiseshell glasses wears the No I Won\'t Make You One sand hoodie in a yarn shop, hands in the pouch' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
