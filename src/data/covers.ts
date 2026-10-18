@@ -613,4 +613,8 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-christmas-we-said-no-gifts-graphic-tee': { src: '/covers/unisex-christmas-we-said-no-gifts-graphic-tee.webp', alt: 'Man and woman in matching white We Said No Gifts Christmas tees with a 1960s couple hiding wrapped presents behind their backs, smiling in a living room beside a lit Christmas tree' },
 };
 
-export const coverFor = (handle: string) => covers[handle] ?? null;
+// Pasted-print covers retired by R6.10 (Sam 2026-10-18): these fall back to the clean Printful mockup until a
+// real cover replaces them (then remove the handle from retired-covers.json).
+import retired from './retired-covers.json';
+const retiredSet = new Set<string>(retired as string[]);
+export const coverFor = (handle: string) => (retiredSet.has(handle) ? null : covers[handle] ?? null);

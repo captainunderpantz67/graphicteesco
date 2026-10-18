@@ -9,7 +9,7 @@ import { faqPage, itemListOfCollections } from '../lib/schema';
 import { getAllProducts } from '../lib/shopify';
 import { linkableSlugs, hoodiesHubLive } from '../lib/linkable';
 import { daysUntil, featuredHoliday, homepageOrder, sellable } from '../lib/holidays';
-import { covers } from '../data/covers';
+import { coverFor as liveCover } from '../data/covers';
 
 // Real product photos for cards: the main (model/lifestyle) mockup of the newest product in each collection.
 const allProducts = (await getAllProducts()).filter((p) => !p.sample && p.images.length);
@@ -36,12 +36,12 @@ const coverFor = (c: (typeof tees)[number]) => {
   // Newest first (higher Shopify id = newer) so cards show the current art style, not the old badge designs.
   // Shirt cards show a tee, sweatshirt cards show a crewneck (Sam, 2026-10-13).
   const wantSweat = /sweatshirt/.test(c.slug);
-  const pool = allProducts.filter((x) => x.collections?.includes(c.shopifyHandle) && covers[x.handle] && !usedCovers.has(x.handle) && /sweatshirt/.test(x.handle) === wantSweat)
+  const pool = allProducts.filter((x) => x.collections?.includes(c.shopifyHandle) && liveCover(x.handle) && !usedCovers.has(x.handle) && /sweatshirt/.test(x.handle) === wantSweat)
     .sort((a, b) => Number(b.id.split('/').pop()) - Number(a.id.split('/').pop()));
   const p = (c.audience ? pool.find((x) => x.handle.startsWith(c.audience === 'women' ? 'womens-' : 'mens-')) : undefined) ?? pool[0];
   if (!p) return null;
   usedCovers.add(p.handle);
-  return covers[p.handle];
+  return liveCover(p.handle);
 };
 const productCount = (c: (typeof tees)[number]) => allProducts.filter((x) => x.collections?.includes(c.shopifyHandle)).length;
 const featured = featuredHoliday();
