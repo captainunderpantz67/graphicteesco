@@ -1,7 +1,8 @@
-status: BUILDING [B] 2026-10-18 02:00Z
+status: REVIEW
 lane: B
 type: new
 id: 530
+shopify: gid://shopify/Product/15364447011120
 handle: mens-welder-grinder-and-paint-department-graphic-tee
 kd: 23
 ---
@@ -28,3 +29,4 @@ kd: 23
 ## Log
 - 2026-10-18 01:30 UTC director: brief written, READY (lane B evergreen; second welder design, own phrase).
 - 2026-10-18 02:20 UTC builder [B]: WIP: DRAFT, art, mockups (5 colors + back), copy, cover and review sheet done; Printful sync of 35 variants still running (queued behind other syncs); status goes to REVIEW at 35/35.
+- 2026-10-18 02:45 UTC builder [B]: full build. Art: 1 Recraft call, kept (two shop workers in navy and orange coveralls: one holds a short steel pipe section with a lumpy weld bead, the other an angle grinder and a plain grey spray can, vise behind; the grinder is held, not holstered, and the part is a pipe section not a bracket, so the copy says what the art shows). GRINDER & PAINT / DEPARTMENT (Graduate, cream, navy keyline, normal tracking +0.03, both wider than the art) and "we make it look good" (Yellowtail, safety orange #ff6a13, navy keyline, about 80% of the art width) via compose-print with a 16 px cream halo around the art so the navy coveralls hold on Navy and Black. One light-ink file for 5 dark colors (Navy, Black, Dark Grey Heather, Military Green, Heather Forest); no Natural/Ash dark-ink file this round (single file, log). Print 11.3 x 12.8 in (ratio 1.13), FW 1650 TOP 75. DRAFT gid 15364447011120, category aa-1-13-8, 35 variants (5 colors x S-4XL) $24.99, compareAtPrice null, tags per brief, keyword welding shirt 9,900/KD23 in line one and meta (copy trimmed to 2 uses after the audit flagged 4; "welder shirt" not used, #529 owns it), FAQ 6 x 40-60 words incl. Dec 8. Printful file 1088631569, sync 35/35 (the first run was cut off by a timeout and restarted with FORCE=1). Mockups for all 5 colors + back attached and linked, alts per R7.8; phone-size read on Black and Dark Grey Heather: all three lines legible. Cover: registry 870, 1 fal photo (Military Green), every word reads, hands in pockets, nothing over the print; alt starts "Man". Audit-local PASS (after the copy fix), astro build OK. fal $0.10.
