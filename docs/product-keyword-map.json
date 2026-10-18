@@ -8222,23 +8222,22 @@
   },
   "womens-gigi-because-grandma-sounded-old-hoodie": {
    "claimed": [
-    "gifts for gigi"
+    "gifts for gigi",
+    "gigi hoodie"
    ],
    "gaps_measured": [
     {
      "phrase": "gifts for gigi",
      "volume": 1600,
-     "kd": 17,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 17
     },
     {
      "phrase": "gigi hoodie",
      "volume": 140,
-     "kd": 36,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 36
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-gym-twelve-labors-zero-cardio-hoodie": {
    "claimed": [
