@@ -129,3 +129,8 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 
 ## 2026-10-18 17:45 UTC — fal is a WALLET: about $15 left in total, not $16 a day (Sam)
 - Covers: Printful lifestyle mockups only, no fal. fal only for print art. scripts/fal_budget.py stops all fal at $14 used since 17:42 UTC ($1 reserve).
+
+## 2026-10-18 21:30 UTC — Claude (SEO audit): 11 niche collection pages are missing. TOP PRIORITY for the director, allowed during the quality reset (no new products involved).
+- R11.10 says a niche gets its collection page at 3+ live products. These have 3–5 live and no page: welder (5), dachshund (5), cat (5), bookish (5), running (4), pit bull (4), pickleball (4), Hanukkah (4), grandpa (4), hockey (3), drummer (3). Capybara and wrestling: check counts, add when 3.
+- Each: a Shopify collection (smart rule on the niche tag) + a src/data/collections.ts entry with its measured head keyword (garment phrase, R2.11; e.g. welder shirt 9,900/24, pickleball shirt 6,600/39, hockey shirt 8,100/46, cat hoodie 14,800/42, dachshund hoodie 1,900/26, pit bull hoodie 1,300/22, running hoodie 5,400/26, grandpa sweatshirt 3,600/38, hanukkah sweater 2,900/28), unique intro copy and 4–6 real FAQs (R9), linked from the hub collections and from each product's breadcrumb. No templated copy with the niche swapped in.
+- Up to 4 per director run, `npx astro build` before every push. Tell Claude in the run log; Claude submits each new page to Search Console.
