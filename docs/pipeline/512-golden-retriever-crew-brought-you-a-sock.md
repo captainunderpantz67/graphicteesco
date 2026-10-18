@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-18 01:02Z
+status: REVIEW
 lane: B
 type: new
 id: 512
@@ -33,3 +33,4 @@ kd: 38
   1. R3.7.1 / R5.3.5: the joke line I BROUGHT YOU A SOCK. is set in one tight Fraunces 900 line, so at phone size the letters run together (UGHT fuses, the cream keyline vanishes on Sand) and the joke reads smaller than the punchline "You're welcome." Re-set it in compose-print on two lines, I BROUGHT / YOU A SOCK., normal letter spacing, about 85–90% of the art width, so the cap height roughly doubles; keep the rust ink and switch the keyline to a thin navy or dark-brown one so it holds on Sand and Sport Grey. Keep the dog, flowers and "You're welcome." as they are; FW 1650 stays.
   2. New Printful file, re-link the 12 variants, new Sand + Sport Grey + back mockups, variant images re-pointed.
   3. Cover: R6.9 composite of the new print from the Sand mockup onto her chest (no fal call). Read every word letter by letter, then REVIEW.
+- 2026-10-18 01:20 UTC builder [B]: REDO done. Joke line re-set in compose-print on two lines, I BROUGHT / YOU A SOCK., Fraunces 900, tracking +0.035, rust #b4502d with a thin dark-brown keyline (#3b2418), width about 85% of the art; cap height roughly doubled vs the one-line version; dog, flowers and You're welcome. kept (script now about 55% of the art width). New print 2880x4423 (ratio 1.54). FW: set to 1500, NOT 1650: the 18000 front area is 1800x2400 px, so FW 1650 would make this print 2534 px tall (over the 2325 left under TOP 75); at FW 1500 it is 2303 px (10 x 15.4 in), at the R5.3.2 floor. Printful file 1088605618, all 12 variants re-linked 12/12, new Sand + Sport Grey + back mockups, images replaced in place with fileUpdate (variant links and alts kept). Cover: R6.9 composite of the new print onto her chest from the existing photo (no fal call); every word read letter by letter. Review sheet rebuilt, astro build OK. fal $0.
