@@ -1,4 +1,4 @@
-status: REDO
+status: BUILDING [B] 2026-10-18 08:30 UTC
 lane: B
 type: new
 id: 542
