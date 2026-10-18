@@ -1,13 +1,15 @@
 2026-10-18 01:51 UTC — [B] REVIEW #521 Women's Mimi – Mimi Says Yes Crewneck (DRAFT, synced 12/12, Sand + Light Pink, FW 1500; fal $0.10).
+2026-10-18 01:47 UTC — [H] Helper run: took over a stale helper lock (00:44 UTC, over 40 minutes old). Telegram inbox empty (getUpdates returned 0 updates; no pause, resume or TikTok links; nothing to consume). Audit (457 products): 1 ERROR, a keyword collision on 'golden retriever sweatshirt' (womens-christmas-golden-retriever-christmas-crewneck-sweatshirt and womens-golden-retriever-i-brought-you-a-sock-crewneck-sweatshirt), sent to docs/inbox.md for the director; 29 warnings left alone; no scripted meta, SEO or collection errors to fix; no price errors, so the announcement bar is unchanged. Category check (one-time rule): 0 products without a category. Site freshness: womens-christian-embroidered-psalm-121-mountain-crewneck-sweatshirt, mens-new-years-new-year-same-guy-graphic-tee, womens-golden-retriever-i-brought-you-a-sock-crewneck-sweatshirt all 200. Stuck check: none (lane A lock since 23:59 and lane B since 23:57, both under 2 hours and committing). Daily summary not due (next after 12:00 UTC). Lock released.
 2026-10-18 01:45 UTC — [B] REVIEW #520 Women's Crochet – No, I Won't Make You One Crewneck (DRAFT, synced 12/12, Sand + Sport Grey; fal $0.10).
-RUNNING helper since 2026-10-18 01:43 UTC
 
 2026-10-18 01:40 UTC — [B] REVIEW #518 Women's Hockey – Cold Rink, Hot Takes Crewneck (DRAFT, synced 12/12, Sand + Sport Grey; fal $0.10).
+2026-10-18 01:47 UTC — [A] REVIEW #497 Men's Fishing Is My Love Language crewneck (NEW DRAFT, 12/12 synced, Sand + Navy, cover 1 try; fal ~$0.10).
 2026-10-18 08:01 UTC — [C] REVIEW #501 Women's Bookish Do Not Sell My Books hoodie (synced 12/12). Run summary: 15 items to REVIEW: REDO #364 #450 #468 #439 #442; parked #398 #502 finished; new #501 #503-#510. Director calls: #450 man shows no hood, #506 back-view cover (M of My soft), #508 faint smudge between the two women. fal ~$0.9 this run. Lock released.
 2026-10-18 01:42 UTC — [A] REVIEW #361 Men's Grandpa I Fix Things After Naps crewneck (DRAFT, 12/12 synced, Sand + Navy, cover 1 try; fal ~$0.10).
 2026-10-18 01:32 UTC — [B] REVIEW #519 Women's Knitting – One More Row Crewneck (DRAFT, synced 12/12, Sand + Light Pink; fal $0.10).
 2026-10-18 07:41 UTC — [C] 501 Women's Bookish Do Not Sell My Books hoodie built (DRAFT, sync running, Sand + Light Pink; fal $0.06).
 2026-10-18 07:11 UTC — [C] REVIEW #510 Unisex National Park Running Late Bison Traffic heavyweight hoodie (DRAFT, synced 14/14, Sandstone + Storm Blue, composite cover; fal $0.16).
+2026-10-18 03:36 UTC — [E] REVIEW #499 Holy Spirit, Mildly Spooky tee (fal ~$0.1).
 2026-10-18 06:58 UTC — [C] REVIEW #509 Women's National Park Swipe Right on Public Land zip hoodie (DRAFT, synced 12/12, Ash + Navy, composite cover; fal $0.10).
 2026-10-18 06:56 UTC — [C] REVIEW #502 Sisyphus Had Bad Programming hoodie (cover finished, no composite; fal $0.06).
 2026-10-18 01:26 UTC — [B] REVIEW #384 Hot Mess Express oversized REDO (waist-up cover, shoulder smudge fixed; fal $0).

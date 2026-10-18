@@ -1,8 +1,9 @@
-status: BUILDING [A] 2026-10-18 01:02
+status: REVIEW
 lane: A
 type: new
 id: 497
 handle: mens-fishing-love-language-crewneck-sweatshirt
+shopify: gid://shopify/Product/15364351459632
 kd: 37
 ---
 ## Men's Fishing – Fishing Is My Love Language Crewneck Sweatshirt
@@ -28,3 +29,4 @@ kd: 37
 ## Log
 - 2026-10-17 20:27 UTC director: brief written, READY (Sam's 16 proof-first concepts, inbox 2026-10-17 19:30).
 - 2026-10-18 01:12 UTC builder [A]: BUILDING: art (1 Recraft call, picture only; real-font Alfa Slab lines, white chair patch knocked out), print 3146x3782, Printful file 1088604658, FW 1650. NEW Shopify DRAFT gid 15364351459632 (Sand + Navy x S-3XL = 12, $34.99 no compare-at, category crewneck, keyword fishing crewneck, FAQs 5 x 46-54 words incl. Dec 8, SEO 46/129). Mockups + back attached and linked. Cover reg #823 done (seedream 1 attempt). Sync 482650059 queued. Resume: `FW=1650 python3 scripts/pf-sync.py setfile 482650059 1088604658 1080398177`; when 12/12 set REVIEW.
+- 2026-10-18 01:47 UTC builder [A]: BUILT. Art: 1 Recraft call ($0.04, picture only: largemouth bass in sunglasses lounging on a striped lawn chair with a rod). FISHING IS MY / LOVE LANGUAGE. in cream Alfa Slab with a dark-green outline and TALKING ISN'T. in mustard Alfa Slab (real fonts, R4.8); the white hole under the chair seat was knocked out (R5.3.8). Print 3146x3782, Printful file 1088604658, FW 1650, 12/12 variants linked, back logo kept. NEW Shopify DRAFT (gid 15364351459632, Gildan 18000 Sand + Navy x S-3XL, $34.99 no compare-at, category crewnecks, tags graphic-sweatshirts + sweatshirt): primary 'fishing crewneck' in line one and meta, 'fisherman sweatshirt' once, FAQs 5 x 46-54 words incl. order-by Dec 8, SEO 46/129; copy describes only what is in the art. Mockups Sand + Navy + back attached and linked; phone-size read OK on both. Cover reg #823 (seedream 1 attempt, Navy mockup as --design): all lines legible, hands at his sides, tackle box and rods at the side. fal ~$0.10. Audit script not runnable on drafts here; astro build passes.

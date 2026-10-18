@@ -1,8 +1,9 @@
-status: BUILDING [E] 2026-10-18 01:30 UTC
+status: REVIEW
 lane: E
 type: new
 id: 499
 handle: unisex-christian-holy-spirit-mildly-spooky-graphic-tee
+shopify: gid://shopify/Product/15364391436592
 kd: 40
 ---
 ## Unisex Christian – Holy Spirit, Mildly Spooky Tee
@@ -27,3 +28,4 @@ kd: 40
 ---
 ## Log
 - 2026-10-17 20:27 UTC director: brief written, READY (Sam's 16 proof-first concepts, inbox 2026-10-17 19:30).
+- 2026-10-18 03:35 UTC builder [E]: REVIEW. Art: 1 Recraft call (try 1 kept: sheet ghost with a thin gold halo hugging a worn blue book, stars; no cross on the book). HOLY SPIRIT (Alfa Slab One, cream) above and mildly spooky (Damion script, gold #e2b95b) below via compose-print with a dark keyline, solid fill so the cream ghost stays opaque. Print 11.3 x 15.0 in, FW 1500 TOP 75. Colors Black, Navy, Dark Grey Heather, Forest, Maroon, Heather Deep Teal (cream ghost and gold script read on all six; 6 x 7 sizes = 42). DRAFT gid 15364391436592 (category aa-1-13-8, $24.99, compare-at null, tags per brief, keyword holy ghost shirt 170/40 in line one and meta, 5 FAQs 43-51 words incl. Dec 8). Printful file 1088616569, sync 42/42. One mockup per color + back attached and linked. Phone-size read on Black: both lines legible. Cover registry 825+826 try 1: both in navy tees, all words read, hair and hands clear. Variant-photo audit clean; audit --handle only 'not visible'. fal ~$0.1.
