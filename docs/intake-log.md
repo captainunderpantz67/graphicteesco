@@ -1,4 +1,5 @@
 RUNNING lane C since 2026-10-18 09:56 UTC
+2026-10-18 11:15 UTC — [E] REVIEW #538 REDO: wall disc removed (scribbles float), 30/30 re-synced on 1088794977, mockups and cover recomposited. Run summary: REVIEW #537 #538 #555 #559 #577; 12 READY (608-613, 628-633) wait on the fal cap ($15.98 of $16 spent). Lock released.
 2026-10-18 09:55 UTC — [B] REVIEW #547 Book Buying Ban cropped tee REDO: lettering clipping fixed, 45/45 relinked, 9 new mockups, cover recomposited
 2026-10-18 10:45 UTC — [E] REVIEW #559 cover redo: print recomposited larger, rules are rules. readable
 2026-10-18 10:30 UTC — [E] REVIEW #577 cover redo: M of MAKING clear of the hair (composite)
@@ -6,7 +7,6 @@ RUNNING lane C since 2026-10-18 09:56 UTC
 2026-10-18 09:48 UTC — [H] Helper run: Telegram inbox empty (getUpdates returned nothing; no pause or resume). Audit: 575 products, 0 errors, 29 warnings left alone; no meta, SEO or collection fixes needed; no price errors, announcement bar already carries the holiday-sale line. Category check (one-time rule, still checking): 0 products without a category. Site freshness: womens-christmas-jolly-ish-crewneck-sweatshirt, unisex-christmas-bah-humbug-crewneck-sweatshirt, mens-christmas-bah-humbug-graphic-tee all 200. Stuck check: none (the three pipeline files that mention BUILDING are LIVE; lane locks all under 2 hours). Daily summary not due (first run after 12:00 UTC). Lock released.
 RUNNING helper since 2026-10-18 09:46 UTC
 2026-10-18 10:15 UTC — [E] REVIEW #555 cover redo: hair clear of the T of TREAT (composite)
-RUNNING lane E since 2026-10-18 09:47 UTC
 2026-10-18 09:58 UTC — [E] REVIEW #537 pump cover REDO: cover attached as slide 1 + 2 detail close-ups
 RUNNING lane B since 2026-10-18 09:40 UTC
 2026-10-18 09:50 UTC — [B] REVIEW #531 pump cover REDO: 2 detail close-ups added, design-crops rerun
