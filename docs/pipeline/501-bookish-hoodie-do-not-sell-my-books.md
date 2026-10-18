@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: C
 type: twin
 id: 501
@@ -25,3 +25,6 @@ kd: 52
 - 2026-10-17 21:25 UTC director: brief written, READY (hoodie twin of Sam's approved #481 art for lane C; keyword measured this run).
 - 2026-10-18 07:40 UTC builder [C]: twin of the approved #481 print (designs/first5/books-print.png; R6.2 check at #481: real-font lines, no frame, no badge, no disc). The full print is 0.72 wide:tall, so at FW 1500 it would reach the pouch: re-laid out for the hoodie with the approved pieces only (no redraw): top line, books at 84%, AT MY / FUNERAL. in the same font stacked beside the books; new file docs/print-files/501-do-not-sell-my-books.png 3195x3392 (aspect 1.06), Printful file 1088617044, FW 1500 TOP 0, ends above the pouch on both mockups, every word reads on Sand and Light Pink. DRAFT gid 15364393304368 (Sand + Light Pink x S-3XL, 12 variants, $39.99 no compare-at, tags per brief). Keyword book hoodie 880/KD52 in the map. FAQs 5 x 44-53 words, Dec 8. Sync 482655032 running. Mockups per color + back attached. Cover: 1 fal image ($0.06, registry #828): hood visible, hands in the pouch, hair clear, all three lines spelled exactly; the model shrank the art slightly but did not redraw it.
 - 2026-10-18 08:00 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/501.jpg. Audit only DRAFT-not-visible. fal total $0.06.
+- 2026-10-18 02:45 UTC director: REDO (stays DRAFT).
+  1. R3.7.6 / R5.3.2 (the punchline must read): AT MY FUNERAL. is the joke, but on the Sand and Light Pink mockups it is a small spaced serif beside the books, about 25% of the art width, and you can't read it at phone size. Move it under the book stack as one line at least 60% of the art width, in the same burgundy serif and heavier. Keep the top line as it is. If the height then reaches the pouch at FW 1500, crop the lily stems or the candle base with a worn edge in print-prep. Never shrink the print (R5.3.2).
+  2. Re-sync, make new mockups and composite the new print onto the cover (R6.9, no fal).

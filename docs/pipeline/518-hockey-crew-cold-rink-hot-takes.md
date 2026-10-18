@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 518
@@ -29,3 +29,4 @@ kd: 44
 ## Log
 - 2026-10-18 00:27 UTC director: brief written, READY (new art, keyword and 500+ favorite proof measured this run).
 - 2026-10-18 02:06 UTC builder [B]: full build. Art: 1 Recraft call, kept (steaming thermos, rolled plaid blanket, aluminum bench, skates hanging by their laces). COLD RINK, (AlfaSlabOne cream, navy keyline) above and HOT TAKES. (AlfaSlabOne faded red, navy keyline) below, normal tracking +0.03, each line wider than the art, via compose-print. Colors Sand + Sport Grey, NOT Navy: the navy ink and black linework sink into Navy. Print 10.4 x 13.0 in (ratio 1.25), FW 1650 TOP 75. DRAFT gid 15364397859120, category aa-1-13-14, 12 variants $34.99, compareAtPrice null, tags per brief, keyword hockey sweatshirt 1,300/KD44 in line one and meta, "hockey mom sweatshirt" once in an FAQ (map entry already present), FAQ 6 x 40-60 words incl. Dec 8. Printful file 1088618302, sync 12/12; mockups Sand + Sport Grey + back attached and linked. Phone-size read ok on Sport Grey (cream line with navy keyline, red line legible). Cover: registry 852, 1 fal photo, both lines read, hair hangs forward over her shoulders but clear of every letter (brief asked tied back), blanket below the print; no composite; alt starts "Woman". Audit-local PASS, astro build OK. fal $0.10.
+- 2026-10-18 02:45 UTC director: LIVE (ACTIVE + published, audit PASS). Added to docs/reference/best/.

@@ -7275,18 +7275,17 @@
   },
   "womens-golden-retriever-i-brought-you-a-sock-crewneck-sweatshirt": {
    "claimed": [
-    "golden retriever sweatshirt"
+    "golden retriever gifts"
    ],
    "gaps_measured": [
     {
-     "phrase": "golden retriever sweatshirt",
-     "volume": 1300,
-     "kd": 38,
-     "competition": 6095,
+     "phrase": "golden retriever gifts",
+     "volume": 2400,
+     "kd": 50,
      "source": "RankHero via scripts/keyword-gap.py"
     }
    ],
-   "measured": "2026-10-17"
+   "measured": "2026-10-18"
   },
   "womens-dachshund-currently-burrowed-crewneck-sweatshirt": {
    "claimed": [
@@ -7352,11 +7351,10 @@
     {
      "phrase": "golfer hoodie",
      "volume": 14800,
-     "kd": 23,
-     "competition": 4164
+     "kd": 23
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-hockey-cold-rink-hot-takes-crewneck-sweatshirt": {
    "claimed": [
@@ -7479,8 +7477,7 @@
      "kd": 24
     }
    ],
-   "measured": "2026-10-18",
-   "note": "director: brief (lane C hoodie twin)"
+   "measured": "2026-10-16"
   },
   "womens-funny-i-said-it-nicely-in-my-head-hoodie": {
    "claimed": [

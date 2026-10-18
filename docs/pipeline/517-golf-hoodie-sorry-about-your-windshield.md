@@ -1,8 +1,9 @@
-status: READY
+status: BUILDING [C] 2026-10-18 02:21
 lane: C
 type: twin
 id: 517
 handle: unisex-golf-sorry-about-your-windshield-hoodie
+shopify: gid://shopify/Product/15364456677680
 kd: 23
 ---
 ## Unisex Golf – Sorry About Your Windshield Hoodie
@@ -22,3 +23,4 @@ kd: 23
 ---
 ## Log
 - 2026-10-18 00:26 UTC director: brief written, READY (hoodie twin of a LIVE winner for lane C; keyword measured this run).
+- 2026-10-18 02:21 UTC builder [C]: built from #511's print (Printful file 1088580444). R6.2 check: real-font lines (SORRY ABOUT / YOUR WINDSHIELD. Fraunces), no ring, arch, disc or box, no straight-edged panel; counters closed on Sand and Sport Grey. The art is tall (3301x3934), so the scene was cut at the golfer's calves with a worn, uneven edge (shoes and lower grille dropped) and YOUR WINDSHIELD. re-stacked under it: 3301x3288, aspect 1.0, FW 1500 TOP 0 (about 10 in tall, clear of the pouch). DRAFT gid 15364456677680 (Sand + Sport Grey x S-3XL = 12, $39.99, no compare-at, category hoodies, tags per brief). Keyword golfer hoodie 14,800/KD23 in the map (used twice; 'golf hoodie' not used on the page). FAQs 5 x 44-51 words, order-by Dec 8. Printful file 1088637998, sync 482665548 running. Mockups per color + back attached, variant images linked. Cover: 1 fal image ($0.06, registries #850/#851): both in the Sand hoodie, hoods visible, hair clear; the model redrew the prints so both were composited from the print file (R6.9) and every word read. Audit-local PASS. fal $0.06.

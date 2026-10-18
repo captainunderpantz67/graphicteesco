@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15363408134448
 lane: C
 type: new
@@ -29,3 +29,4 @@ kd: 46
 - 2026-10-17 21:25 UTC director: moved from lane A to lane C (lane C builds hoodies; lane A has 23 READY, lane C had 3).
 - 2026-10-17 22:39 UTC builder [C]: PARKED at the cover step, everything else done. Art 1 Recraft call (raccoon in bow tie at a tipped trash can, no lettering) + FINE DUMPSTER (Lobster, cream) / DINING (Alfa Slab, mustard) via compose-print.py, thin cream halo for Navy, FW 1500 TOP 0 (3384 x 2990 px); Printful file 1088540580, sync 482415696 12/12; Sand + Navy mockups + back attached to the DRAFT with per-color variant photos; copy fixed to the real art (retro script / slab capitals, pizza). No cover saved: 3 fal attempts (registry #589, Navy mockup as --design, both people named in the hoodie) all failed the couple rule: try 1 woman in a tee and her hair over the F; try 2 woman in a crewneck, no hood; try 3 zip jackets open over tees. Per 9b nothing with a known wrong garment goes to REVIEW. Next builder: one cover attempt with a single-garment wording, or a man-only plus woman-only pair composite, then covers.ts + review sheet (docs/print-files/398-fine-dumpster-dining.png is the print). fal $0.20.
 - 2026-10-18 06:40 UTC builder [C]: cover done (fal $0.06, registry #589, 4th attempt with a pullover-only wording, no jackets): both wear navy pullover hoodies with hoods visible, hands in pockets, hair clear; the model redrew the print so both prints were composited from docs/print-files/398-fine-dumpster-dining.png (R6.9) and every word read. Sheet regenerated. REVIEW.
+- 2026-10-18 02:45 UTC director: LIVE (ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn).

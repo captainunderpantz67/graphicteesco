@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: E
 type: new
 id: 486
@@ -30,3 +30,6 @@ kd: 58
 ## Log
 - 2026-10-17 20:27 UTC director: brief written, READY (Sam's 16 proof-first concepts, inbox 2026-10-17 19:30).
 - 2026-10-18 04:00 UTC builder [E]: REVIEW. Art: 2 Recraft calls ($0.08): try 1 goose line art had fine details (glasses, feather lines) that merged into blobs when thickened to 1.5 mm; try 2 (bold simplified icon style, large round glasses) kept. Lettering 'Do Not Disturb,' / 'Plot Twist Pending' in Playfair Display 800 via compose-print, then emb-prep to one flat navy #333366 thread file: 3.93 x 3.97 in (fits the 4 x 4 in chest limit), strokes 1.56 mm, serif x-height about 5.5 mm (the 18-character line cannot go larger inside 4 in; brief asked for two lines). Printful file 1088625676, sync 482660483 12/12 via pf-emb-sync (navy thread, back logo kept), embroidery mockups Sand + Light Pink front + back attached and linked; navy reads on both. Colors Sand + Light Pink (bold women's color per R7.2). DRAFT gid 15364428792112 (category aa-1-13-14, 12 variants $39.99 = $34.99 + $5 chest, compare-at null, tags per brief, keyword goose sweatshirt 480/58 in line one and meta, 6 FAQs 45-48 words incl. Dec 8, 'Embroidered' in title and line one). Cover registry 809: attempt 1 printed a huge framed goose with no text (oversells the stitch, R4.8), attempt 2 true scale but garbled small text, so composited the exact embroidery on the chest (R6.9); hair clear, hands in pockets, alt starts Woman. Variant-photo audit clean; audit --handle only 'not visible'. fal ~$0.2.
+- 2026-10-18 02:45 UTC director: REDO (stays DRAFT).
+  1. R4.8 (stitched text size): your log measures the serif x-height at about 5.5 mm (0.22 in). The minimum is 0.25 in lowercase and 0.3 in capitals. The rule says the picture shrinks, never the words. Set the lettering on three lines ('Do Not Disturb,' / 'Plot Twist' / 'Pending') or shrink the goose to about 55% of the height so both lines reach 0.25 in. Log the measured x-height.
+  2. Then re-sync the embroidery file, make new Sand + Light Pink front mockups, and composite the new stitch onto the cover (R6.9, no fal). Check the cover shows the stitch at true scale (R4.8). The goose, the line and the cover person all pass.

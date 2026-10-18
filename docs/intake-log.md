@@ -1,5 +1,11 @@
+RUNNING director since 2026-10-18 02:13 UTC
+2026-10-18 02:27 UTC — [C] #523 Unisex Homebody University of Staying In oversized hoodie built (DRAFT, sync running, Navy + Asphalt; fal $0.12). #517 sync running.
+2026-10-18 02:22 UTC — [C] REVIEW #506 Men's Golf Retired Working on My Short Game zip hoodie and #507 Women's National Park My Type Geothermally Active oversized hoodie (REDOs: scene edges worn; 507 GEOTHERMALLY widened; 506 cover redone, fal $0.06). #517 built (sync running).
 2026-10-18 02:00 UTC — [B] REVIEW #522 Women's Gigi – Because Grandma Sounded Old Crewneck (DRAFT, synced 12/12, Sand + Sport Grey, FW 1500; fal $0.10).
 2026-10-18 02:28 UTC — [A] REVIEW #276 Men's Christmas White Elephant Champion crewneck (NEW DRAFT twin, 24/24 synced, 4 colors, cover 1 try; fal ~$0.06).
+2026-10-18 02:12 UTC — [C] REVIEW #450 Unisex Crow Shiny Object Syndrome hoodie (REDO: couple cover redone, both hoods up; fal $0.06).
+2026-10-18 02:11 UTC — [C] REVIEW #508 Women's National Park Two Queens Roaming hoodie (REDO: grey smudge between the women repainted; fal $0). Also REVIEW #505 Only Golf for the Outfits (REDO: skin filled, synced 10/10).
+2026-10-18 02:10 UTC — [C] REVIEW #503 Men's Golf Breakfast Ball Enthusiast heavyweight hoodie (REDO: Enthusiast bigger and bolder, synced 14/14; fal $0).
 2026-10-18 04:36 UTC — [E] REVIEW #365 (REDO: cover redone, no back seam, no sign lettering, composite).
 RUNNING lane C since 2026-10-18 01:55 UTC
 2026-10-18 02:06 UTC — [A] REVIEW #275 Men's Christmas White Elephant Champion tee (DRAFT, 47/47 synced, 7 colors, cover 1 try; fal ~$0.10).

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: twin
 id: 502
@@ -25,3 +25,4 @@ shopify: gid://shopify/Product/15364223992112
 - 2026-10-17 21:25 UTC director: brief written, READY (hoodie twin of Sam's approved #483 art for lane C; keyword measured this run).
 - 2026-10-17 22:44 UTC builder [C]: PARKED at the cover step, everything else done. Twin of #483: the approved print designs/first5/sisyphus-print.png (3365 x 3549, no new art, no lettering redraw). Shopify DRAFT gid://shopify/Product/15364223992112 (Sand + Ash x S-3XL = 12, $39.99 no compare-at, hoodies category, tags per brief, keyword workout hoodie 390/KD50 in the map, SEO title 44 / meta 144, FAQ 5 x 40-60 incl. Dec 8); Printful file 1088543646, sync 482626840 12/12 at FW 1500 TOP 0 (print ends well above the pouch on the mockups); Sand + Ash mockups + back attached with per-color variant photos. Phone-size read OK (SISYPHUS HAD / BAD PROGRAMMING legible on both). No cover saved: 3 fal attempts (registry #829, Sand mockup as --design) all showed a wrong garment per 9b: try 1 short sleeves; try 2 short sleeves plus a duplicated sleeve; try 3 long sleeves but a thin hooded top with no pouch pocket and no real hood. Print read fine on all three. Next builder: one cover attempt with a different pose (side or three-quarter, one arm lifted), or a composite of the real mockup body; then covers.ts + review sheet. fal $0.18.
 - 2026-10-18 06:55 UTC builder [C]: cover done with 1 fal image ($0.06, registry #829, 4th attempt: front pose, hands in the pouch, hood described as bunched around the neck): real hoodie with a big hood and pouch, long sleeves, SISYPHUS HAD / BAD PROGRAMMING read exactly, nothing over the print. No composite needed. REVIEW.
+- 2026-10-18 02:45 UTC director: LIVE (ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn).
