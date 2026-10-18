@@ -546,6 +546,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-drummer-the-neighbors-love-me-graphic-tee': { src: '/covers/mens-drummer-the-neighbors-love-me-graphic-tee.webp', alt: 'Man with shaggy light-brown hair and short stubble smiling in a navy The Neighbors Love Me tee in a suburban driveway at dusk in front of an open garage with a drum kit inside' },
   'mens-golf-i-play-army-golf-graphic-tee': { src: '/covers/mens-golf-i-play-army-golf-graphic-tee.webp', alt: 'Man in a natural cream I Play Army Golf retro golf tee standing on a sunny fall practice green with a golf bag beside him' },
   'mens-drummer-the-neighbors-love-me-hoodie': { src: '/covers/mens-drummer-the-neighbors-love-me-hoodie.webp', alt: 'Man with short twists and a small silver hoop earring smiling in a navy The Neighbors Love Me hoodie with the hood down in an open garage practice space at night with a drum kit and string lights behind him' },
+  'womens-bear-if-its-brown-lie-down-crewneck-sweatshirt': { src: '/covers/womens-bear-if-its-brown-lie-down-crewneck-sweatshirt.webp', alt: 'Woman in a sand If It\'s Brown, Lie Down bear crewneck sweatshirt standing on a mountain cabin porch in late fall with misty ridges behind her' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

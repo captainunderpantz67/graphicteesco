@@ -3,6 +3,7 @@ lane: E
 type: new
 id: 559
 handle: womens-bear-if-its-brown-lie-down-crewneck-sweatshirt
+shopify: gid://shopify/Product/15364766826800
 kd: 20
 ---
 ## Women's Bear – If It's Brown, Lie Down Crewneck Sweatshirt
@@ -27,3 +28,4 @@ kd: 20
 ---
 ## Log
 - 2026-10-18 03:10 UTC director: brief written, READY (lane E; wave-1 bear, KD 20 bear crewneck with a winter surge, 1,596-favorite vintage bear crewneck proof).
+- 2026-10-18 05:48 UTC builder [E]: built (sync queued behind 486/555/556). Art: 1 Recraft call ($0.04, try 1 kept: sleeping bear belly-up in a wildflower meadow, pines and ridges; its edges end in flowers, foliage and worn mountains, not a card). IF IT'S BROWN, / LIE DOWN. in Rye cream with a dark-brown keyline above, rules are rules. in Yellowtail rust #b5532e with a cream keyline below, set in compose-print; the apostrophe and comma survived. Print 2900 x 3692 px (9.7 x 12.3 in), FW 1650 TOP 75 (2100 px tall of 2400). One file reads on both Sand and Navy (checked both). Colors Sand + Navy x S-3XL = 12; Printful file 1088717212, sync product 482691301; both front mockups + back attached and linked, read both lines on each at 400 px. DRAFT gid 15364766826800 (category aa-1-13-14, $34.99 no compare-at, 5 FAQs 49-52 words incl. Dec 8, keyword bear crewneck 1300/KD20 in line one and meta, supporting bear sweater not used). Cover registry 899: attempt 1 had the braid over the N and comma of BROWN, (and the model garbled the Rye), a composite onto attempt 1 left a visible patch, so attempt 2 (braid hanging behind her, hands in pockets, no mug) kept as generated: braid clear of every letter, all three lines read. Audit-local PASS; variant-photo audit clean. fal ~$0.2.

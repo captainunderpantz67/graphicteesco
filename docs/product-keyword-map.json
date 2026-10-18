@@ -7974,23 +7974,22 @@
   },
   "womens-bear-if-its-brown-lie-down-crewneck-sweatshirt": {
    "claimed": [
-    "bear crewneck"
+    "bear crewneck",
+    "bear sweater"
    ],
    "gaps_measured": [
     {
      "phrase": "bear crewneck",
      "volume": 1300,
-     "kd": 20,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 20
     },
     {
      "phrase": "bear sweater",
      "volume": 8100,
-     "kd": 36,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 36
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-golf-fairways-are-a-rumor-half-zip": {
    "claimed": [
