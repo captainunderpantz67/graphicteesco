@@ -8664,6 +8664,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-excused-from-small-talk-graphic-tee": {
+   "claimed": [
+    "christmas book shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas book shirt",
+     "volume": 50,
+     "kd": 70
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
