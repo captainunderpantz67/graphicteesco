@@ -3,6 +3,7 @@
 Goal: the same visitors buy more. Every add-on reuses an existing design graded A in the quality reset (never a B/C design, never new lines). No fal for these: print files come from the approved art, covers are Printful mockups only (R6.10). Live by Nov 10 so they index before December.
 
 ## Order of work
+**Sam 2026-10-18: FUNNY BOXERS FIRST (best Christmas gift), then socks, ornaments, mugs. Matching his-and-hers underwear (Printify) starts in January for Valentine's Day.**
 1. **Niche socks** (Printful 882 Sublimation Socks, cost $7.14, sell $18.99). Measured: golf socks 12,100/17 (1,900 listings), fishing socks 2,900/18 (720), funny socks 33,100/34, funny socks for men 9,900/12 (no comp count: secondary only). One sock per strong niche: golf, fishing, nurse, cat, dog, Christmas, gym. Art as a repeat pattern or a single motif on the leg panel, words in real fonts.
 2. **Funny boxers** (Printful 428 All-Over Print Boxer Briefs, cost $20.76–24.76, sell $34.99). Measured: funny underwear 3,600/31, funny boxers 2,900/34, funny boxer briefs 390/40. Our snarky lines as all-over prints (a small motif repeat + the line on the back waist area). Men's only at Printful; women's match is being researched (docs/research/womens-underwear.md).
 3. **Christmas ornaments** (Printful 881 Ceramic Ornament or 900 two-sided; sell $14.99–16.99) on the 15 best A-grade Christmas and niche designs.
