@@ -569,6 +569,9 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-teacher-indoor-recess-survivor-zip-hoodie': { src: '/covers/womens-teacher-indoor-recess-survivor-zip-hoodie.webp', alt: 'Woman in her early 40s with red glasses and a low ponytail looks back over her shoulder wearing the Indoor Recess Survivor navy zip hoodie, full back print visible, in a rainy school hallway' },
   'mens-fishing-love-language-hoodie': { src: '/covers/mens-fishing-love-language-hoodie.webp', alt: 'Man in his late 40s with a dark mustache wears the Fishing Is My Love Language navy hoodie at a frosty boat launch at dawn, hands in the pouch' },
   'womens-gym-lifts-heavy-has-whimsy-pump-cover': { src: '/covers/womens-gym-lifts-heavy-has-whimsy-pump-cover.webp', alt: 'Woman in a washed black Lifts Heavy Has Whimsy oversized pump cover standing in a sunny boutique gym with a deadlift platform and plants behind her' },
+  'unisex-christian-holy-spirit-mildly-spooky-hoodie': { src: '/covers/unisex-christian-holy-spirit-mildly-spooky-hoodie.webp', alt: 'Man and woman in matching black Holy Spirit Mildly Spooky hoodies on the steps of a small white country church on an autumn evening, hands in the pouches' },
+  'womens-hockey-cold-rink-hot-takes-hoodie': { src: '/covers/womens-hockey-cold-rink-hot-takes-hoodie.webp', alt: 'Woman in her early 40s with an ash-blonde braid wears the Cold Rink Hot Takes sport grey hoodie in a frosty parking lot outside a community ice rink at dawn, hands in the pouch' },
+  'womens-nurse-embroidered-night-shift-silly-goose-hoodie': { src: '/covers/womens-nurse-embroidered-night-shift-silly-goose-hoodie.webp', alt: 'Woman in her early 30s with a short black pixie cut wears the embroidered Night Shift Silly Goose sand hoodie in a hospital break room at night, hands in the pouch' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
