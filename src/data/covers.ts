@@ -518,6 +518,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-dance-mom-bun-tight-wallet-empty-graphic-tee': { src: '/covers/womens-dance-mom-bun-tight-wallet-empty-graphic-tee.webp', alt: 'Woman in a hotel ballroom hallway at a dance competition with garment bags on a rolling rack behind her wearing the Bun Tight, Wallet Empty tee' },
   'womens-knitting-one-more-row-hoodie': { src: '/covers/womens-knitting-one-more-row-hoodie.webp', alt: 'Woman in a sand One More Row knitter hoodie smiling in a small-town yarn shop with cubbies of colorful yarn behind her and a basket of skeins on a wooden table' },
   'unisex-pitbull-velvet-hippo-social-club-hoodie': { src: '/covers/unisex-pitbull-velvet-hippo-social-club-hoodie.webp', alt: 'Man and woman in matching sand Velvet Hippo Social Club pitbull hoodies smiling at a neighborhood dog park on a crisp fall morning with a pit bull at their feet' },
+  'womens-softball-mom-travel-ball-took-my-saturdays-graphic-tee': { src: '/covers/womens-softball-mom-travel-ball-took-my-saturdays-graphic-tee.webp', alt: 'Woman in a ball cap at a travel-ball tournament with bleachers and a backstop behind her and a cooler beside her wearing the Travel Ball Took My Saturdays navy tee' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

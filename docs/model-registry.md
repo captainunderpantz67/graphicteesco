@@ -667,7 +667,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 872 | Black man, early 60s, short white hair, white mustache, lean build | USED 2026-10-18 — #532 You Catching 'Em? Tee cover (brief) |
 | 873 | Afro-Latina woman, early 30s, curly dark hair in a low bun, small gold hoops, medium build | USED 2026-10-18 — #533 Hold Your Horses overstimulated tee cover |
 | 874 | Vietnamese-American woman, late 30s, sleek black chin-length bob, small pearl studs, slim build | USED 2026-10-18 — #534 Bun Tight, Wallet Empty tee cover |
-| 875 | white woman, early 40s, strawberry-blonde ponytail through a ball cap, light freckles, athletic build | CLAIMED 2026-10-18 — #535 Travel Ball Took My Savings and My Saturdays Tee cover (brief) |
+| 875 | white woman, early 40s, strawberry-blonde ponytail through a ball cap, light freckles, athletic build | USED 2026-10-18 — #535 Travel Ball Took My Saturdays tee cover |
 | 876 | Black woman, mid-40s, shoulder-length locs tied back, small gold studs, medium build | CLAIMED 2026-10-18 — #536 7 A.M. Check-In Tee cover (brief) |
 | 877 | Korean-American woman, mid 20s, long black hair in a high ponytail, athletic build | CLAIMED 2026-10-18 — #537 Lifts Heavy, Has Whimsy Pump Cover cover (brief) |
 | 878 | Lebanese-American woman, early 30s, long dark-brown wavy hair tied back, small gold nose stud, medium build | CLAIMED 2026-10-18 — #538 Motherhood Didn't Change Me. It Exposed Me. Tee cover (brief) |
