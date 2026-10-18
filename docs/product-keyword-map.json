@@ -7323,11 +7323,10 @@
     {
      "phrase": "nurse hoodie",
      "volume": 1600,
-     "kd": 42,
-     "competition": 29350
+     "kd": 42
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-dachshund-currently-burrowed-hoodie": {
    "claimed": [
@@ -7516,8 +7515,7 @@
      "kd": 38
     }
    ],
-   "measured": "2026-10-18",
-   "note": "director: brief (lane C hoodie twin)"
+   "measured": "2026-10-16"
   },
   "womens-clocked-it-said-nothing-hoodie": {
    "claimed": [
@@ -7544,8 +7542,7 @@
      "kd": 44
     }
    ],
-   "measured": "2026-10-18",
-   "note": "director: brief (lane C hoodie twin)"
+   "measured": "2026-10-16"
   },
   "mens-welder-if-you-can-step-over-it-graphic-tee": {
    "claimed": [
@@ -7914,6 +7911,296 @@
      "phrase": "christmas gifts for boyfriend",
      "volume": 22200,
      "kd": 10,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-hiking-treat-me-like-wildlife-graphic-tee": {
+   "claimed": [
+    "hiking shirt women"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "hiking shirt women",
+     "volume": 4400,
+     "kd": 14,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "wildlife shirt",
+     "volume": 2900,
+     "kd": 54,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "funny hiking shirt",
+     "volume": 390,
+     "kd": 54,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-golf-i-play-army-golf-graphic-tee": {
+   "claimed": [
+    "retro golf shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "retro golf shirt",
+     "volume": 4400,
+     "kd": 14,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "vintage golf shirt",
+     "volume": 4400,
+     "kd": 30,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "funny golf t shirt",
+     "volume": 3600,
+     "kd": 33,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-cat-dad-cant-cats-on-me-graphic-tee": {
+   "claimed": [
+    "cat dad shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cat dad shirt",
+     "volume": 3600,
+     "kd": 47,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "cat dad gift",
+     "volume": 1600,
+     "kd": 52,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-cat-not-my-turn-with-the-brain-cell-zip-hoodie": {
+   "claimed": [
+    "cat zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cat zip up hoodie",
+     "volume": 390,
+     "kd": 31,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "kitten hoodie",
+     "volume": 320,
+     "kd": 32,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-bear-if-its-brown-lie-down-crewneck-sweatshirt": {
+   "claimed": [
+    "bear crewneck"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bear crewneck",
+     "volume": 1300,
+     "kd": 20,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "bear sweater",
+     "volume": 8100,
+     "kd": 36,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-golf-fairways-are-a-rumor-half-zip": {
+   "claimed": [
+    "half zip sweater"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "half zip sweater",
+     "volume": 40500,
+     "kd": 8,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "half zip fleece",
+     "volume": 12100,
+     "kd": 11,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "quarter zip pullover",
+     "volume": 9900,
+     "kd": 30,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-fishing-shouldve-been-here-yesterday-graphic-tee": {
+   "claimed": [
+    "walleye shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "walleye shirt",
+     "volume": 320,
+     "kd": 32,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "crappie shirt",
+     "volume": 140,
+     "kd": 38,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-gym-rack-your-weights-respectfully-graphic-tee": {
+   "claimed": [
+    "gym tees"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "gym tees",
+     "volume": 2900,
+     "kd": 16,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "gym tee",
+     "volume": 2900,
+     "kd": 53,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "lifting shirt",
+     "volume": 1900,
+     "kd": 40,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-gym-mid-set-not-interested-graphic-tee": {
+   "claimed": [
+    "workout shirts for women"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "workout shirts for women",
+     "volume": 3600,
+     "kd": 14,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "lifting shirt women",
+     "volume": 590,
+     "kd": 28,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "gym shirt women",
+     "volume": 8100,
+     "kd": 47,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-christian-short-grace-hot-food-graphic-tee": {
+   "claimed": [
+    "christian shirts men"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christian shirts men",
+     "volume": 12100,
+     "kd": 11,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "mens christian shirt",
+     "volume": 9900,
+     "kd": 57,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-cropped-book-buying-ban-graphic-tee": {
+   "claimed": [
+    "graphic crop top"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "graphic crop top",
+     "volume": 2400,
+     "kd": 42,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "bookish tees",
+     "volume": 320,
+     "kd": 32,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "funny crop top",
+     "volume": 590,
+     "kd": 49,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "unisex-national-park-switchbacks-build-character-crewneck-sweatshirt": {
+   "claimed": [
+    "national park sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "national park sweatshirt",
+     "volume": 1000,
+     "kd": 46,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-dog-dad-unpaid-doorman-graphic-tee": {
+   "claimed": [
+    "dog dad shirts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dog dad shirts",
+     "volume": 1600,
+     "kd": 17,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "dog dad t shirt",
+     "volume": 1600,
+     "kd": 53,
      "source": "RankHero via scripts/keyword-gap.py"
     }
    ],

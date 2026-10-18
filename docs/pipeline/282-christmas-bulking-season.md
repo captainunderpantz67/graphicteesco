@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-18 01:56 UTC
+status: REVIEW
 lane: E
 type: new
 id: 282
@@ -25,3 +25,4 @@ kd: 55
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).
 - 2026-10-17 04:42 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363036578096 (BC 3001, 6 colors x S-4XL = 42 variants, $24.99 no compare-at, category tees; keyword christmas gym shirt 140/KD55; tee only). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane E.
+- 2026-10-18 05:00 UTC builder [E]: REVIEW. Art: 1 Recraft call (try 1 kept: muscular storybook Santa in a white tank, striped sweatband, red trousers, candy-cane barbell with gingerbread-man plates across his shoulders, cookie plate on a bench; the barbell sits behind his neck, not a bicep curl, so the copy now says carries). BULKING SEASON in Big Shoulders 900 dark brown, arched by hand over the art (PIL arch, real font, no model lettering), white gaps knocked out. Print 10.4 x 13.1 in, FW 1500 TOP 75. Ink: one dark file on White, Natural, Ash, Athletic Heather, Heather Dust, Tan (all light/mid; no dark colors offered). Printful file 1088631396, sync 42/42 (the sync took about 2 hours under the shared 10/min limit). One mockup per color + back attached and linked; phone-size read of the White mockup: BULKING SEASON and the Santa legible. Shopify copy rewritten to the real art, 5 FAQs 46-50 words incl. Dec 8; keyword christmas gym shirt already in map. Cover registry 463 try 1: man in a decorated old-school gym, chalk on his hands, nothing over the print. Variant-photo audit clean; audit --handle only 'not visible'. fal ~$0.1.

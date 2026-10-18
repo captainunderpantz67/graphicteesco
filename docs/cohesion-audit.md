@@ -1,16 +1,12 @@
-# Cohesion audit — 2026-10-18 01:45 UTC
+# Cohesion audit — 2026-10-18 02:43 UTC
 
-457 live products checked · **1 errors** · 29 warnings · 28 products with findings
+486 live products checked · **0 errors** · 29 warnings · 27 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
-- 1 × Claims , already claimed by womens-christmas-golden-retriever-christma
 
 ## By product (errors first)
-### Women's Golden Retriever – I Brought You a Sock Crewneck Sweatshirt `womens-golden-retriever-i-brought-you-a-sock-crewneck-sweatshirt`
-- **ERROR** Claims "golden retriever sweatshirt", already claimed by womens-christmas-golden-retriever-christmas-crewneck-sweatshirt (two pages fighting for one keyword). → Give one of them a different measured phrase.
-
 ### Unisex Halloween – Midnight Feature Tee `unisex-halloween-midnight-feature-graphic-tee`
 - **WARN** No meta description. → Write one ≤ 155 chars.
 

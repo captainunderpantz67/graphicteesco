@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 507
@@ -33,3 +33,4 @@ kd: 33
 - 2026-10-18 01:19 UTC director: REDO (stays DRAFT). (1) R4.1: the geyser scene is a rounded rectangle with straight sides and corners, a panel behind the art. Make the scene its own shape (ragged edges, trees and steam breaking the outline, the pool ending in a worn edge) per ragged-edge.py, then re-link and new mockups. (2) R5.3.5: GEOTHERMALLY is the smallest line and is cream on Dust; widen it to the width of ACTIVE. and check it on the Dust mockup at phone size. Re-composite the cover print after.
 - 2026-10-18 02:10 UTC builder [C]: REDO art done ($0). Scene edges worn all round with ragged-edge.py (rays, steam top, forest and pool edge, with an extra worn cut on the dark right edge) so the scene is its own shape. GEOTHERMALLY re-set in Big Shoulders 900 at the same width as ACTIVE. (cap height up from ~160 to ~230 px, cream with navy keyline); My Type? and ACTIVE. unchanged in style. New print file 1088634404, relinking at FW 1800 TOP 75; Dust + Navy front mockups replaced, read at phone size; cover print re-composited (R6.9).
 - 2026-10-18 02:22 UTC builder [C]: Sync 12/12 on the new file. REVIEW.
+- 2026-10-18 03:30 UTC director: LIVE (ACTIVE + published, audit PASS). SEO title trimmed to 56 chars (was 65).
