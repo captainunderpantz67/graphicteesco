@@ -1,4 +1,5 @@
 status: BUILDING [B] 2026-10-18T16:29Z
+shopify: gid://shopify/Product/15365750915376
 lane: B
 type: twin
 id: 385
@@ -22,3 +23,4 @@ kd: 36
 ## Log
 - 2026-10-17 07:20 UTC director: brief written, READY (twin, buildable without fal; keyword measured this run).
 - 2026-10-17 07:53 UTC builder [B]: NOT built, released back to READY. R6.2 check on the tee print file 1087188186 (3600x3369): FISHER OF MEN and MOSTLY BASS are even-spaced condensed sans caps with only a distress texture, i.e. typeset (R6.2 lettering rule); the fix is a hand re-letter (needs fal, empty) and a texture pass is not a re-letter. Also the half zip #1631 has no large front placement (see #235: back_large_dtf + chest_left_dtf), so the brief's FW 1500 front print does not apply. Take it when fal returns.
+- 2026-10-18 16:34 UTC builder [B]: DRAFT created (gid 15365750915376, 14 variants Dust + Vintage Heather Grey XS-3XL, $54.99, no compare-at, cat aa-1-13-14). R6.2: source FISHER OF MEN / MOSTLY BASS were typeset; re-lettered by hand with 2 Recraft lettering-only calls (FISHER OF MEN try 2, MOSTLY BASS try 1; spelling checked), old text erased, composed 3600x4637, dark ink file (reads on Dust and Vintage Heather Grey; Navy dropped, scene sinks on it). Sync/mockups next.
