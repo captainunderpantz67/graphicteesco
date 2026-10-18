@@ -1,3 +1,4 @@
+2026-10-18 08:01 UTC — [C] REVIEW #501 Women's Bookish Do Not Sell My Books hoodie (synced 12/12). Run summary: 15 items to REVIEW: REDO #364 #450 #468 #439 #442; parked #398 #502 finished; new #501 #503-#510. Director calls: #450 man shows no hood, #506 back-view cover (M of My soft), #508 faint smudge between the two women. fal ~$0.9 this run. Lock released.
 2026-10-18 01:32 UTC — [B] REVIEW #519 Women's Knitting – One More Row Crewneck (DRAFT, synced 12/12, Sand + Light Pink; fal $0.10).
 2026-10-18 07:41 UTC — [C] 501 Women's Bookish Do Not Sell My Books hoodie built (DRAFT, sync running, Sand + Light Pink; fal $0.06).
 2026-10-18 07:11 UTC — [C] REVIEW #510 Unisex National Park Running Late Bison Traffic heavyweight hoodie (DRAFT, synced 14/14, Sandstone + Storm Blue, composite cover; fal $0.16).
@@ -40,7 +41,6 @@ RUNNING helper since 2026-10-18 00:44 UTC
 2026-10-18 01:51 UTC — [E] REVIEW #514 Velvet Hippo Social Club pitbull crewneck (fal ~$0.2).
 2026-10-18 00:25 UTC — [B] REVIEW #492 Women's Nurse – Embroidered Night Shift Silly Goose Crewneck (DRAFT, synced 12/12, Sand + Sport Grey, navy thread; fal $0.10).
 2026-10-18 00:51 UTC — [C] REVIEW #364 Orange Slice Manager zip hoodie REDO (hood visible, print composited on cover, Navy back mockup added; fal $0.06).
-RUNNING lane C since 2026-10-18 00:30 UTC
 2026-10-18 01:21 UTC — [E] REVIEW #466 Overthinkers Club embroidered hoodie (composite cover, fal ~$0.2).
 2026-10-18 00:18 UTC — [B] REVIEW #469 Women's Christmas – Embroidered Excused From Small Talk Crewneck (DRAFT, synced 12/12, Sand + Navy, one red thread; fal $0.14).
 2026-10-18 00:56 UTC — [E] REVIEW #472 Per My Last Email embroidered crewneck (fal ~$0.2).
