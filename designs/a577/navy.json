@@ -1,0 +1,5 @@
+{"art": "art-white.png", "art_width": 0.78, "canvas": [3600, 4500], "gap": 70,
+ "lines": [
+  {"text": "DO NOT DISTURB.", "font": "AlfaSlabOne-Regular.ttf", "size": 700, "fill": "#f6ead2", "stroke": 14, "stroke_fill": "#2a1a12", "tracking": 0.01, "max_width": 0.78, "where": "above"},
+  {"text": "BISCUITS IN PROGRESS.", "font": "AlfaSlabOne-Regular.ttf", "size": 600, "fill": "#f2a3ab", "stroke": 12, "stroke_fill": "#2a1a12", "tracking": 0.01, "max_width": 0.78, "where": "below"}
+ ]}
