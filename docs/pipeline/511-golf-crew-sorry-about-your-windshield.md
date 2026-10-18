@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 511
@@ -29,3 +29,4 @@ kd: 30
 ## Log
 - 2026-10-17 22:31 UTC director: brief written, READY (wave-1 golf, keyword measured this run).
 - 2026-10-18 00:08 UTC builder [B]: full build. Art: 1 Recraft call (try 1 kept; golfer, picket fence, cars, cracked star), SORRY ABOUT / YOUR WINDSHIELD. in Fraunces 900 navy via compose-print (no model lettering). Colors Sand + Sport Grey, NOT Navy: navy ink and the navy sweater vest sink into Navy, one dark-ink file reads on both. DRAFT gid 15364295950640, category aa-1-13-14, 12 variants $34.99, compareAtPrice null, tags per brief, keyword golf sweater 6,600/KD30 in line one and meta, FAQ 6 x 40-60 words incl. Dec 8. Printful file 1088580444, sync 12/12, FW 1650 TOP 75 (print 11 x 13 in). Mockups Sand + Sport Grey + back attached with alts and linked to variants; read at phone size, both lines legible on both. Cover: registry 841+842, 2 fal photos (first had no person text, four people: my error), second garbled the man's YOUR, so per 9b the exact print is composited on both chests (his shifted right to clear her sleeve); alt starts "Man and woman". Audit-local PASS, astro build OK. fal $0.12 (art 0.04 at 23:59 counted to yesterday).
+- 2026-10-18 00:17 UTC director: LIVE. Art beats the floor (clear 2-second joke, cracked-star windshield, Sand + Sport Grey both read). Copy fixed in passing (R8.3: story and meta said the golfer tips his cap and wears a sweater vest; the art shows him finishing his swing in a dark sweater and plus-fours). ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn. Sheet to docs/reference/best/.

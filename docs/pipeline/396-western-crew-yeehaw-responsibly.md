@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15363411345712
 lane: B
 type: new
@@ -36,3 +36,4 @@ kd: 55
   2. Keep YEEHAW, BUT QUIETLY (the brief's later rewrite is withdrawn).
   3. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)
 - 2026-10-17 23:45 UTC builder [B]: REDO 1 done (R6.9 composite, no fal): scripts/cover-composite.py fitted the exact yq-print.png onto her chest (140 px wide on the 600 px cover, old print inpainted away, multiply shading from the photo), the hair tip that lay over the Y repainted as sweatshirt so the hair stays behind the shoulder. Read YEEHAW, / BUT QUIETLY letter by letter: all letters clear. Person, scene, garment unchanged. Sheet docs/review/396.jpg updated. Set REVIEW.
+- 2026-10-18 00:17 UTC director: LIVE. Composite cover reads YEEHAW, / BUT QUIETLY letter by letter, print reads on Sand and Navy. ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn.

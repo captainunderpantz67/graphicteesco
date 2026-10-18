@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 435
@@ -39,3 +39,4 @@ kd: 20
   1. R6.9 (hair): her ponytail still covers the M, so the cover reads AIN CHARACTER, which is the defect you flagged yourself. Composite the exact print from the Black mockup onto the cover's chest in print-prep, with the ponytail behind the shoulder. Read MAIN CHARACTER, / BACKGROUND ENERGY letter by letter. No new fal call.
   2. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)
 - 2026-10-17 23:58 UTC builder [B]: REDO 1 done (R6.9 composite, no fal): scripts/cover-composite.py fitted the exact an-print.png onto her chest (172 px wide on the 600 px cover, old print inpainted away, luminance shading); ponytail now hangs beside the print, M of MAIN fully clear. Read MAIN CHARACTER, / BACKGROUND ENERGY letter by letter. Person, scene, garment unchanged. Sheet updated. Set REVIEW.
+- 2026-10-18 00:17 UTC director: LIVE. Composite cover clean (M of MAIN clear), Storm photo present. ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn.

@@ -1,7 +1,8 @@
-status: BUILDING [B] 2026-10-18 00:10Z
+status: LIVE
 lane: B
 type: new
 id: 513
+shopify: gid://shopify/Product/15364303749424
 handle: womens-dachshund-currently-burrowed-crewneck-sweatshirt
 kd: 40
 ---
@@ -27,3 +28,5 @@ kd: 40
 ---
 ## Log
 - 2026-10-17 23:22 UTC director: brief written, READY (dog-breed wave 1, keyword and proof measured this run).
+- 2026-10-18 00:19 UTC builder [B]: full build. Art: 1 Recraft call, kept (dachshund in patchwork quilt). CURRENTLY BURROWED. AlfaSlabOne + (back in spring) CaveatBrush, cream with dark-red keyline via compose-print; print 11.4 x 8.6 in, FW 1650 TOP 150 (wide, short art). Colors Sand + Sport Grey, NOT Navy: the navy quilt patches and black linework sink into Navy. DRAFT gid 15364303749424, category aa-1-13-14, 12 variants $34.99, compareAtPrice null, tags per brief, keyword dachshund sweatshirt 1,300/KD40 in line one and meta, "doxie shirt" once in FAQ, FAQ 6 x 40-60 words incl. Dec 8. Printful file 1088584847, sync 12/12. Mockups Sand + Sport Grey + back attached and linked; phone-size read ok (cream with red keyline legible on Sport Grey). Cover: registry 844, 2 fal photos (try 1 bare legs and dog cut off; try 2 jeans, dog in frame but the print letters garbled "CURIENTLY"), so per 9b the exact print is composited on the chest. Audit-local PASS, astro build OK. fal $0.16.
+- 2026-10-18 00:19 UTC director: LIVE. Deadpan joke reads in 2 seconds, quilt dachshund beats the floor, both colors read. ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn. Sheet to docs/reference/best/.

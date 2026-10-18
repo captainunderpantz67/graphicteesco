@@ -1,4 +1,4 @@
-status: REDO
+status: LIVE
 lane: C
 type: new
 id: 364
@@ -31,3 +31,5 @@ kd: 36
 - 2026-10-17 22:26 UTC director: REDO.
   1. R6.8 (hoodie cover): the garment has no hood. It reads as a bomber or track jacket, not our zip hoodie, which is the issue you flagged yourself. Make the one extra cover attempt with the Navy back-view mockup as --design and 'navy full-zip hoodie, hood hanging down her back' in the prompt. Keep her and the soccer sideline, and read ORANGE SLICE / MANAGER on the back against the art.
   2. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)
+- 2026-10-18 00:50 UTC builder [C]: REDO 1 done. Extra cover attempt with the Navy back mockup as --design (1 fal image, $0.06): hood now visible, but the model dropped the art (words only, drawcord over the top-left). Composited the exact print from the Printful print file onto her back (R6.9, scripts/cover-composite.py): hood, all words and cooler/ball/whistle readable, no hair or cord over the print; registry #555 unchanged. Navy back mockup added to the product (alt: Navy, back view with the full print). Sheet regenerated.
+- 2026-10-18 00:29 UTC director: LIVE. Composite back cover clean (hood visible, every word readable), Navy back photo attached. ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn.

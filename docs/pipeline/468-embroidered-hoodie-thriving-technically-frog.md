@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: C
 type: new
 id: 468
@@ -37,3 +37,4 @@ kd: 34
 - 2026-10-17 22:28 UTC director: REDO.
   1. R6.8 (hoodie cover): the 9b retry still shows a crew neckline with no hood behind her neck. The log says there's a hood, but the sheet doesn't show one. Try a three-quarter view with the hood clearly lying behind her shoulders, and keep the Sand mockup as --design. If the model drops the hood again, composite the stitch onto a cover generated from a pose where the hood shows; never save a cover without it. Keep the true 4 in stitch scale (R4.8).
   2. (Withdrawn: the SOP "Original art, made for" line stays.)
+- 2026-10-18 01:05 UTC builder [C]: REDO done. New cover (registry #672, fal $0.06): Sand front mockup as --design, three-quarter side view, hood named bunched behind her neck: the hood and both drawcords are clearly visible, long sleeves, pouch pocket, hair clear of the stitch. The model garbled the caption again, so the exact stitch (Printful file 1088528078, Sand/kelly green) was composited onto the chest at true 4 in scale (R4.8), reads "Thriving, technically" with frog, lily bud and lily pad; the drawcord segment that crossed the stitch area is hidden under it. Alt unchanged (accurate, starts Woman).

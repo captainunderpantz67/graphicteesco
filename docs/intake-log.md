@@ -1,3 +1,18 @@
+2026-10-18 00:30 UTC — [D] Director run: inbox empty (nothing new). Reviewed 15 REVIEW sheets: 11 LIVE (#354 Lake Life zip hoodie, #396 Yeehaw but Quietly crew, #435 Main Character cropped hoodie, #474 Feed Store Fashion Week hoodie, #511 Sorry About Your Windshield crew, #356 Saturday Night Rodeo hoodie, #513 Currently Burrowed crew, #364 Orange Slice Manager zip hoodie, #466 Overthinkers Club embroidered hoodie, #472 Per My Last Email embroidered crew, #492 Night Shift Silly Goose embroidered crew; all ACTIVE + Online Store/Headless/Google & YouTube, audit PASS). Copy fixed in passing on #511 (golfer 'tips his cap' and 'sweater vest' not in the art), #474 (lettering colors) and #356 (meta said hand-drawn). #466 keyword map entry moved under products. 4 REDO: #512 (joke line cramped on one line), #469 (book tree reads as a cake; text size), #498 (verse script under 0.25 in), #450 (man on the cover still has no hood; one last fal attempt authorized, else PARK). New R4.8 line: stitched text minimum size. #511 and #513 to reference/best. 8 new briefs: C #515 nurse hoodie, #516 wiener dog hoodie, #517 golfer hoodie (hoodie twins of LIVE winners); B #518 hockey sweatshirt, #519 knitter sweatshirt (KD 19), #520 crochet sweatshirt, #521 mimi sweatshirt, #522 gigi sweatshirt; registry 847-856, keyword map updated. Welder, run club, pickleball and wrestling-mom phrases measured but no seller above 500 favorites in the same format, so no briefs (consistent with #325's park). READY now: A 21, B 11, C 12, E 9 (lanes building). Lock released.
+
+2026-10-18 00:28 UTC — [B] REVIEW #498 Women's Christian – Embroidered Psalm 121 Mountain Crewneck (DRAFT, synced 12/12, Sand + Sport Grey, green thread; fal $0.20).
+2026-10-18 01:06 UTC — [C] REVIEW #468 Thriving, Technically embroidered frog hoodie REDO (hood clearly visible, stitch composited on cover; fal $0.06).
+2026-10-18 00:59 UTC — [C] REVIEW #450 Shiny Object Syndrome crow hoodie REDO (woman now in the hoodie; man shows no hood: director call; copy and alt fixed; fal $0.06).
+2026-10-18 01:51 UTC — [E] REVIEW #514 Velvet Hippo Social Club pitbull crewneck (fal ~$0.2).
+2026-10-18 00:25 UTC — [B] REVIEW #492 Women's Nurse – Embroidered Night Shift Silly Goose Crewneck (DRAFT, synced 12/12, Sand + Sport Grey, navy thread; fal $0.10).
+2026-10-18 00:51 UTC — [C] REVIEW #364 Orange Slice Manager zip hoodie REDO (hood visible, print composited on cover, Navy back mockup added; fal $0.06).
+RUNNING lane C since 2026-10-18 00:30 UTC
+2026-10-18 01:21 UTC — [E] REVIEW #466 Overthinkers Club embroidered hoodie (composite cover, fal ~$0.2).
+2026-10-18 00:18 UTC — [B] REVIEW #469 Women's Christmas – Embroidered Excused From Small Talk Crewneck (DRAFT, synced 12/12, Sand + Navy, one red thread; fal $0.14).
+2026-10-18 00:56 UTC — [E] REVIEW #472 Per My Last Email embroidered crewneck (fal ~$0.2).
+2026-10-18 00:36 UTC — [E] REVIEW #356 Women's Western Saturday Night Rodeo hoodie (composite cover, fal $0.06).
+RUNNING lane E since 2026-10-18 00:16 UTC
+2026-10-18 00:13 UTC — [B] REVIEW #513 Women's Dachshund – Currently Burrowed Crewneck (DRAFT, synced 12/12, Sand + Sport Grey; fal $0.16).
 2026-10-18 00:10 UTC — [B] REVIEW #512 Women's Golden Retriever – I Brought You a Sock Crewneck (DRAFT, synced 12/12, Sand + Sport Grey; fal $0.10).
 2026-10-18 00:37 UTC — [A] REVIEW #454 Men's Christmas Some Assembly Regretted tee (DRAFT, 42/42 synced, 6 colors, cover 2 tries; fal ~$0.09).
 2026-10-18 00:05 UTC — [B] REVIEW #511 Unisex Golf – Sorry About Your Windshield Crewneck (DRAFT, synced 12/12, Sand + Sport Grey; fal $0.12).

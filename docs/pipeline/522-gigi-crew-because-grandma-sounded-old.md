@@ -1,0 +1,29 @@
+status: READY
+lane: B
+type: new
+id: 522
+handle: womens-gigi-because-grandma-sounded-old-crewneck-sweatshirt
+kd: 48
+---
+## Women's Gigi – Because Grandma Sounded Old Crewneck Sweatshirt
+- **Blank:** Crewneck sweatshirt Gildan 18000 (Printful #145), 8 oz 50/50 cotton-poly fleece. Never "garment-dyed" or "Comfort Colors". Copy facts from the Printful spec only (R7.1).
+- **Style:** A (R4.2), vintage to the edges, no badge, frame, border or dark patch (R4.1). New art: one Recraft v4 illustration call (--n 1), picture only, at most 3 tries; if all are weak, PARK it and say why.
+- **Text on shirt (real fonts via scripts/compose-print.py, never drawn by the image model; spelled exactly):** GIGI (PlayfairDisplay Italic 900 or Lobster, hot-pink-red with a cream keyline, big, above the art, at least 85% of the art's width) / because grandma sounded old. (Yellowtail, navy, below the art, at least 70% of the art's width). Fonts in designs/fonts: AlfaSlabOne, BigShouldersDisplay, CaveatBrush, Cinzel, Damion, Fraunces, Graduate, Lobster, Oswald, PlayfairDisplay (+Italic), Rye, Yellowtail. Spec like designs/first5/sisyphus.json. Every line reads at phone size on the darkest mockup (R3.7.6, R5.3.8); normal letter spacing, never a tight one-line squeeze (#512 came back for that); knock out white letter counters.
+- **Hook:** a pair of 1960s cat-eye sunglasses, a lipstick and a string of pearls spilling out of a little quilted handbag beside a tiny pair of baby shoes: GIGI, because grandma sounded old. Every Gigi picked the name on purpose. Women's (grandmothers 45–65), full sass (R3.4).
+- **Three lines considered (R3.1):** "Gigi, Because Grandma Sounded Old" · "Too Glam to Be Grandma" · "Gigi Est. 2026" (picked: the real reason women choose 'Gigi', said with a straight face; 'Too Glam' is on dozens of listings and leans greeting-card; 'Est.' is a template, not a joke).
+- **Joke QC (R3.7):** reads in under 2 seconds; family-table clean; no brand (no designer handbag shapes or logos); not a pun.
+- **Why it's not taken:** Gigi sweatshirts on Etsy are embroidered names, floral appliqués and grandkids' names on sleeves; the exact line did not show in the RankHero top listings. Builder confirms under 50 Etsy listings for the exact line before art (R3.7.2) and tells the director if not.
+- **Design gate (5 parts):** search: gigi sweatshirt 880 / KD 48 (RankHero 2026-10-18, competition 21,003) · proof: embroidered Gigi sweatshirt 1,332 favorites and Gigi floral appliqué sweatshirt 622 (same format: Gigi crewneck) · insider: choosing 'Gigi' or 'Glam-ma' so you don't feel old is a known grandparent-name debate (TikTok grandma-name videos, parenting forums) · joke type: self-aware statement · look: vintage 1960s fashion-illustration still life, hot pink, faded red, cream and navy, real fonts · gift test: a new grandmother's reveal or first Christmas as Gigi, from her kids.
+- **Art prompt (Recraft v4, one image per call):** "Vintage 1960s fashion-illustration screen print: a small quilted handbag tipped open with a pair of cat-eye sunglasses, a lipstick tube and a strand of pearls spilling out, and a tiny pair of soft baby shoes beside it. Hot pink, faded red, cream and navy inks with soft black linework, worn screen-print texture, ragged broken edges, the objects are the shape. No text, no letters, no words, no numbers, no brand logos, no background shape, no frame, no border, no badge, no circle, no dark patch."
+- **Colors (R7.2 cold-weather launch):** Sand + Light Pink if every word reads on both (women's bold color); else Sand + Navy with a cream-ink version, logged. A Printful mockup for every color before REVIEW.
+- **Primary keyword:** gigi sweatshirt: 880 / KD 48 (RankHero keyword page, 2026-10-18, director). KD 36+ under 1,000 is allowed only when nothing easier is left (R2.5; same sweep as #521). A different grandmother name and a different joke from #521, not a retitle (R11.10). Unowned in docs/product-keyword-map.json and every open brief (checked this run); recorded there with this handle. Use it in the title-area copy, the first sentence and once in the meta; no stuffing.
+- **Print size:** FW 1650 (crewneck, no pouch, R5.3.8). Light-ink version for the dark color, dark-ink for the light color if one file cannot read on both.
+- **Copy:** line one = the joke + who wears it + when (R9.11). Describe only what is in the art (R8.3); never say we drew it (SOP line "Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, warmth and weight, wash care, gift fit, Christmas order-by Dec 8, free size exchange).
+- **Cover:** registry #856 (Indian-American woman, mid-50s, shoulder-length black hair with a silver streak, worn behind the shoulders, small diamond studs, medium build), CLAIMED. Alt starts 'Woman'. Scene: a bright café patio in fall, a stroller handle just visible at the edge of the frame (no baby face shown), shopping bags at her feet. Hands empty or at her sides. Generate with the product's own Printful mockup in the cover color as `--design` (--n 1); hair tied back or behind the shoulders (R6.9); nothing (hand, cup, hair, prop, another person) over any part of the print; read every word before saving; hair or body over a letter = composite fix first (R6.9). No alcohol, tools or weapons (R6.5). Max 2 attempts.
+- **Title / handle:** "Women's Gigi – Because Grandma Sounded Old Crewneck Sweatshirt" / `womens-gigi-because-grandma-sounded-old-crewneck-sweatshirt` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** graphic-sweatshirts, sweatshirt, ai-art, intake-done. Crewneck: sweatshirt tags only (R7.5).
+- **Price:** $34.99 (R12.1 crewneck), NO compare-at (R12.1 honest compare-at: new product).
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d).
+---
+## Log
+- 2026-10-18 00:28 UTC director: brief written, READY (new art, keyword and 500+ favorite proof measured this run).

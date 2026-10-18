@@ -7331,9 +7331,132 @@
     {
      "phrase": "pitbull sweatshirt",
      "volume": 1300,
-     "kd": 30,
-     "competition": 2877,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "unisex-nurse-calm-face-loud-brain-hoodie": {
+   "claimed": [
+    "nurse hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "nurse hoodie",
+     "volume": 1600,
+     "kd": 42,
+     "competition": 29350
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-dachshund-currently-burrowed-hoodie": {
+   "claimed": [
+    "wiener dog hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "wiener dog hoodie",
+     "volume": 320,
+     "kd": 34,
+     "competition": 702
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "unisex-golf-sorry-about-your-windshield-hoodie": {
+   "claimed": [
+    "golfer hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "golfer hoodie",
+     "volume": 14800,
+     "kd": 23,
+     "competition": 4164
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-hockey-cold-rink-hot-takes-crewneck-sweatshirt": {
+   "claimed": [
+    "hockey sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "hockey sweatshirt",
+     "volume": 1300,
+     "kd": 44,
+     "competition": 24932
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-knitting-one-more-row-crewneck-sweatshirt": {
+   "claimed": [
+    "knitter sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "knitter sweatshirt",
+     "volume": 4400,
+     "kd": 19,
+     "competition": 1704
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-crochet-no-i-wont-make-you-one-crewneck-sweatshirt": {
+   "claimed": [
+    "crochet sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "crochet sweatshirt",
+     "volume": 720,
+     "kd": 44,
+     "competition": 7301
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-mimi-says-yes-crewneck-sweatshirt": {
+   "claimed": [
+    "mimi sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "mimi sweatshirt",
+     "volume": 880,
+     "kd": 48,
+     "competition": 21534
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-gigi-because-grandma-sounded-old-crewneck-sweatshirt": {
+   "claimed": [
+    "gigi sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "gigi sweatshirt",
+     "volume": 880,
+     "kd": 48,
+     "competition": 21003
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "unisex-embroidered-overthinkers-club-hoodie": {
+   "claimed": [
+    "anxiety hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "anxiety hoodie",
+     "volume": 8100,
+     "kd": 30
     }
    ],
    "measured": "2026-10-17"
@@ -7369,19 +7492,6 @@
    }
   ],
   "measured": "2026-10-16"
- },
- "unisex-embroidered-overthinkers-club-hoodie": {
-  "claimed": [
-   "anxiety hoodie"
-  ],
-  "gaps_measured": [
-   {
-    "phrase": "anxiety hoodie",
-    "volume": 8100,
-    "kd": 30
-   }
-  ],
-  "measured": "2026-10-17"
  },
  "womens-embroidered-thriving-technically-frog-hoodie": {
   "claimed": [

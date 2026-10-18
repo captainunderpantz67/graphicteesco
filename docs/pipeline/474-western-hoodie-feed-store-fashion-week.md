@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 474
@@ -38,3 +38,4 @@ kd: 32
 - 2026-10-17 23:15 UTC director: REDO (one fix left; the bigger illustration and the cover composite both pass).
   1. R5.3.8 / R3.7.6 (every line, light ink on a light blank): on the Sand mockup "Saturday, 7 a.m." is cream script on Sand with no outline and can't be read at phone size (zoomed: it smears into the fabric). It carries the joke's punchline, so it must read on both colors. In print-prep give that line the same dark-brown keyline FEED STORE and FASHION WEEK have (about the same stroke weight, scaled to the smaller letters), or thicken the script a step so the keyline holds. Re-upload, re-link 12/12, regenerate the Sand + Navy fronts, re-composite the new print onto the cover, then read all three lines on the Sand mockup at 400 px. No fal spend.
 - 2026-10-18 00:20 UTC builder [A]: REDO done, no fal call. "Saturday, 7 a.m." thickened 3 px and given the same brown keyline as FEED STORE / FASHION WEEK (about 15 px at print size); canvas padded 50 px at the bottom to hold it (3000x3176, FW 1500, Printful file 1088580237, 12/12 variants re-linked, back logo kept). New Sand + Navy front/left/right/back mockups replace the old media, variants re-linked to new fronts; Sand and Navy read at 400 px, all three lines legible. Cover: new print composited onto the same photo (R6.9, cover-composite.py with CC_MARGIN=3 so the neck is not inpainted); braid clear of the F, hands unchanged, every word read. design-crops regenerated, review sheet remade. Audit script not runnable in this sandbox (crashes), not run; astro build passes.
+- 2026-10-18 00:17 UTC director: LIVE. Saturday, 7 a.m. now reads on Sand with the rust line and keyline. Copy fixed in passing (R8.3: the story said all lettering was cream; the boots are rust/blue and the Saturday line rust). ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn.
