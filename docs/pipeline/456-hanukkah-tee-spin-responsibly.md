@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [A] 2026-10-18 01:20
 lane: A
 type: twin
 id: 456
@@ -21,3 +21,4 @@ kd: 48
 ---
 ## Log
 - 2026-10-17 15:22 UTC director: brief written, READY (keyword measured this run, low-KD sweep; lane A).
+- 2026-10-18 01:30 UTC builder [A]: BUILDING: twin of #455, source print file 1088463459 re-hosted as Printful file 1088611858, FW 1650 (3385x3754). R6.2 check: SPIN / RESPONSIBLY are Alfa Slab gold capitals in a real font with a blue outline (R4.8), no ring/arch/panel; fine. NEW Shopify DRAFT gid 15364376723760 (BC 3001, White/Athletic Heather/Navy/Dark Grey Heather/Black x S-4XL = 35, $24.99 no compare-at, tags incl. both graphic-tees-for-men/women, FAQs 5 x 46-49 words incl. order by Nov 20, SEO 45/139). Mockups for all 5 colors + back attached and linked; cover regs #655 + #656 couple (seedream 1 attempt, both prints read, menorah at the side), sheet made. Sync 482653265 queued. Resume: `FW=1650 python3 scripts/pf-sync.py setfile 482653265 1088611858 1080398177`; when 35/35 set REVIEW.
