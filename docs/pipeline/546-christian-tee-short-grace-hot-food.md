@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [B] 2026-10-18 02:50Z
 lane: B
 type: new
 id: 546
@@ -27,3 +27,4 @@ kd: 11
 ---
 ## Log
 - 2026-10-18 03:10 UTC director: brief written, READY (lane B R11.3 christian shirts men (KD 11); 642-favorite witty Christian tee proof).
+- 2026-10-18 03:10 UTC builder [B]: WIP: DRAFT, art, mockups, copy, cover and review sheet done; Printful sync still running (queued behind other syncs); status goes to REVIEW at full sync.

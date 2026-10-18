@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [B] 2026-10-18 02:54Z
 lane: B
 type: new
 id: 545
@@ -27,3 +27,4 @@ kd: 14
 ---
 ## Log
 - 2026-10-18 03:10 UTC director: brief written, READY (lane B funny-gym (women's); KD 14 phrase, 983-favorite women's gym tee proof).
+- 2026-10-18 03:10 UTC builder [B]: WIP: DRAFT, art, mockups, copy, cover and review sheet done; Printful sync still running (queued behind other syncs); status goes to REVIEW at full sync.

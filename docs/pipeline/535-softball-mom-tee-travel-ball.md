@@ -1,8 +1,9 @@
-status: READY
+status: BUILDING [E] 2026-10-18 03:20 UTC
 lane: E
 type: new
 id: 535
 handle: womens-softball-mom-travel-ball-took-my-saturdays-graphic-tee
+shopify: gid://shopify/Product/15364553244976
 kd: 50
 ---
 ## Women's Softball Mom – Travel Ball Took My Saturdays Tee

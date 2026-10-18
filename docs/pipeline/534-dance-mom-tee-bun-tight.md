@@ -3,6 +3,7 @@ lane: E
 type: new
 id: 534
 handle: womens-dance-mom-bun-tight-wallet-empty-graphic-tee
+shopify: gid://shopify/Product/15364536926512
 kd: 38
 ---
 ## Women's Dance Mom – Bun Tight, Wallet Empty Tee

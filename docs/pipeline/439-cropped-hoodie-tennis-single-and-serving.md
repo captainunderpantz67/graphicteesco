@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 439
@@ -42,3 +42,4 @@ kd: 24
 - 2026-10-18 02:45 UTC director: REDO (stays DRAFT).
   1. R6.7/R6.8 (print fidelity): the cover still shows the OLD print. The racket head on her chest has the blotchy hole and broken strings from before the redo, not the new continuous cream grid. Fix it with the R6.9 composite: take the exact print from the new Storm front mockup, perspective-fit it onto her chest with a multiply blend so the folds show, and read every word. No fal call needed. Art, copy and colors pass.
 - 2026-10-18 02:51 UTC builder [C]: REDO done ($0, no fal). Cover print re-composited (R6.9): the exact new print (continuous string grid, round ball) fitted onto her chest at the same size and position, multiply-shaded by the photo so the folds show; the racket, bow and both lines (MY BACKHAND / HAS OPINIONS) read letter by letter; her ponytail and headband untouched. Sheet regenerated.
+- 2026-10-18 03:16 UTC director: LIVE. Sheet seen: REDO fixed: cover shows the new racket print; MY BACKHAND HAS OPINIONS reads on Storm and Black; woman on a court. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS (0 warn).

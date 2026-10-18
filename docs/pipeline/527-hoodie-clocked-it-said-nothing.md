@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-18 02:48
+status: LIVE
 lane: C
 type: twin
 id: 527
@@ -24,3 +24,5 @@ kd: 59
 ## Log
 - 2026-10-18 01:24 UTC director: brief written, READY (hoodie twin of a LIVE winner for lane C; keyword measured this run).
 - 2026-10-18 02:50 UTC builder [C]: built from Sam's approved print (designs/first5/clocked-print.png, 3000x3163), no re-lettering as briefed. R6.2 check: real-font lines (clocked it. script, SAID NOTHING. spaced sans), cat drawn in thin even cream line art, no ring, arch, panel or box. FW 1500 TOP 30: the whole print ends well above the pouch seam on the Maroon mockup. DRAFT gid 15364523721008 (Black + Maroon x S-3XL = 12, $39.99, no compare-at, category hoodies, tags per brief). Keyword cat lover gifts 14,800/KD59 in the map (once in copy + meta). FAQs 5 x 42-48 words, order-by Dec 8. Printful file 1088650884, sync 482671299 running. Mockups per color + back attached, variant images linked. Cover: 1 fal image ($0.06, registry #862) kept as generated: hood visible, hands in the pouch, braids behind her shoulder and clear of the print, cat on the sill at her side; the print is faithful and every word reads (checked letter by letter). Audit-local PASS. fal $0.06.
+- 2026-10-18 03:02 UTC builder [C]: Sync 12/12. REVIEW. Sheet docs/review/527.jpg.
+- 2026-10-18 03:16 UTC director: LIVE. Sheet seen: side-eye cat line art, clocked it. SAID NOTHING. reads on Black and Maroon; woman at a sunny window with a sleeping cat. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS (0 warn).
