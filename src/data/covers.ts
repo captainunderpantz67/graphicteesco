@@ -549,6 +549,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-drummer-the-neighbors-love-me-hoodie': { src: '/covers/mens-drummer-the-neighbors-love-me-hoodie.webp', alt: 'Man with short twists and a small silver hoop earring smiling in a navy The Neighbors Love Me hoodie with the hood down in an open garage practice space at night with a drum kit and string lights behind him' },
   'womens-bear-if-its-brown-lie-down-crewneck-sweatshirt': { src: '/covers/womens-bear-if-its-brown-lie-down-crewneck-sweatshirt.webp', alt: 'Woman in a sand If It\'s Brown, Lie Down bear crewneck sweatshirt standing on a mountain cabin porch in late fall with misty ridges behind her' },
   'womens-wrestling-mom-tournament-day-voice-gone-tee': { src: '/covers/womens-wrestling-mom-tournament-day-voice-gone-tee.webp', alt: 'Woman in a natural cream Tournament Day. Voice Gone. wrestling mom tee holding a stadium blanket in a high school gym' },
+  'unisex-dachshund-banned-from-stairs-graphic-tee': { src: '/covers/unisex-dachshund-banned-from-stairs-graphic-tee.webp', alt: 'Man and woman in matching navy Banned From Stairs dachshund tees standing at the foot of a carpeted staircase with a baby gate, a dachshund on a dog bed at their feet' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

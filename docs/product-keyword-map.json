@@ -8434,23 +8434,22 @@
   },
   "unisex-dachshund-banned-from-stairs-graphic-tee": {
    "claimed": [
-    "dachshund apparel"
+    "dachshund apparel",
+    "wiener dog shirt"
    ],
    "gaps_measured": [
     {
      "phrase": "dachshund apparel",
      "volume": 12100,
-     "kd": 26,
-     "competition": 4731
+     "kd": 26
     },
     {
      "phrase": "wiener dog shirt",
      "volume": 590,
-     "kd": 48,
-     "competition": 14910
+     "kd": 48
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-cat-making-biscuits-hoodie": {
    "claimed": [
