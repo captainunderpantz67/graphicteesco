@@ -1,8 +1,9 @@
-status: BUILDING [B] 2026-10-18 22:41 UTC
+status: REVIEW
 lane: B
 type: addon
 id: 669
 handle: mens-pirate-pillaging-is-a-young-mans-game-boxer-briefs
+shopify: gid://shopify/Product/15365985567024
 kd: 28
 ---
 ## Men's Pirate – Pillaging Is a Young Man's Game Boxer Briefs
@@ -25,3 +26,5 @@ kd: 28
 ---
 ## Log
 - 2026-10-18 director: brief written, READY (gift add-on, boxers first per Sam; source design A grade).
+- 2026-10-18 [B]: built. DRAFT gid 15365985567024, Printful #428 sync 482874601, 7/7 (XS-3XL) on file 1089174532, full-wrap 7350x2550 (scripts/boxer-print.py, designs/b669/spec.json): pirate motif repeat from Printful file 1088456606 on navy, Bowlby One lockup PILLAGING / IS A YOUNG / MAN'S GAME (cream + gold) ~2000 px wide on the back seat. Cost 20.76-24.76, profit >= 10.23 at 34.99 before fees. Keyword novelty boxers 590/KD28 (brief). NOT DONE: the brief asks to re-check the RankHero competition count (R2.10); the builder has no RankHero access, director please re-check. FAQ 47-58 words. Cover: Printful model front mockup. Exchange FAQ quotes store policy (director: confirm applies to underwear). fal 0.
+- 2026-10-18 22:43 UTC [B] REVIEW #669 boxer briefs (mens-pirate-pillaging-is-a-young-mans-game-boxer-briefs); sheet docs/review/669.jpg
