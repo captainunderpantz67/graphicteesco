@@ -662,7 +662,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 863 | Mexican-American man, early 40s, short wavy black hair, trimmed salt-and-pepper beard, athletic build | CLAIMED 2026-10-18 — #528 Pace Leisurely Zip Hoodie cover (brief, pair 863-864) |
 | 864 | white woman, late 30s, blonde hair in a high ponytail, light freckles, slim athletic build | CLAIMED 2026-10-18 — #528 Pace Leisurely Zip Hoodie cover (brief, pair 863-864) |
 | 869 | Navajo man, early 40s, short black hair, neat goatee, broad build | CLAIMED 2026-10-18 — #529 If You Can Step Over It, I Can Fill It Tee cover (brief) |
-| 870 | white man, late 20s, red buzz cut, freckles, full red beard, stocky build | CLAIMED 2026-10-18 — #530 Grinder & Paint Department Tee cover (brief) |
+| 870 | white man, late 20s, red buzz cut, freckles, full red beard, stocky build | USED 2026-10-18 — #530 Grinder & Paint Department Tee cover (brief) |
 | 871 | Filipino-American man, early 30s, short black undercut, clean-shaven, muscular build | CLAIMED 2026-10-18 — #531 Deload Week (Emotionally) Pump Cover cover (brief) |
 | 872 | Black man, early 60s, short white hair, white mustache, lean build | CLAIMED 2026-10-18 — #532 You Catching 'Em? Tee cover (brief) |
 | 873 | Afro-Latina woman, early 30s, curly dark hair in a low bun, small gold hoops, medium build | CLAIMED 2026-10-18 — #533 Hold Your Horses, I'm Overstimulated Tee cover (brief) |

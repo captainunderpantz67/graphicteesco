@@ -495,6 +495,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-christian-holy-spirit-mildly-spooky-graphic-tee': { src: '/covers/unisex-christian-holy-spirit-mildly-spooky-graphic-tee.webp', alt: 'Man and woman smiling in a church fellowship hall fall festival with string lights and pumpkins on hay bales wearing the Holy Spirit, Mildly Spooky navy tee' },
   'womens-gigi-because-grandma-sounded-old-crewneck-sweatshirt': { src: '/covers/womens-gigi-because-grandma-sounded-old-crewneck-sweatshirt.webp', alt: 'Woman in a Sand Gigi Because Grandma Sounded Old gigi crewneck sweatshirt on a fall cafe patio with shopping bags and a stroller' },
   'womens-embroidered-goose-plot-twist-pending-crewneck-sweatshirt': { src: '/covers/womens-embroidered-goose-plot-twist-pending-crewneck-sweatshirt.webp', alt: 'Woman in a cozy independent bookstore aisle with a canvas tote at her side wearing the Goose Plot Twist Pending embroidered Sand crewneck' },
+  'mens-welder-grinder-and-paint-department-graphic-tee': { src: '/covers/mens-welder-grinder-and-paint-department-graphic-tee.webp', alt: 'Man in a military green Grinder & Paint Department welding tee at a ranch job site at golden hour with a welding rig on a truck bed' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
