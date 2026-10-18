@@ -9739,6 +9739,32 @@
     "nurse socks"
    ],
    "measured": "2026-10-18"
+  },
+  "unisex-cat-allegedly-socks": {
+   "claimed": [
+    "cat socks"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cat socks",
+     "volume": 14800,
+     "kd": 28
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-christmas-attending-under-protest-socks": {
+   "claimed": [
+    "christmas socks"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas socks",
+     "volume": 165000,
+     "kd": 38
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

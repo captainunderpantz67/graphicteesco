@@ -1,4 +1,4 @@
-status: BUILDING [B]
+status: REVIEW
 lane: B
 type: addon
 id: 664
@@ -27,3 +27,4 @@ kd: 28
 - 2026-10-18 director: brief written, READY (gift add-on, socks first; source design A grade).
 - 2026-10-18 director: Sam put funny boxers first, so build the boxer briefs #666–#669 before this one.
 - 2026-10-18 23:25 UTC director: boxers are OFF, so this no longer waits. Before building, read the REDO notes on #660–#663: the front leg placement must read upright (the shared panel printed upside down at the ankle on the front view) and the lockup fills the leg from cuff to heel.
+- 2026-10-18 23:37 UTC [B] built on the REDO bar: DRAFT gid 15365993103664, Printful #882 sync 482885855, 3/3 S/M/L on file 1089207127 (back) + 1089207131 (rotated front); art from Printful file 1088752795, motif twice around ALLEGEDLY. (art is wide, so it cannot fill the leg alone), Alfa Slab faded red, foot repeat; mockup checked upright; cost 7.14, $18.99. FAQ 41-54 words; kw cat socks 14,800/KD 28 recorded; light file n/a (single cream panel). Cover: Printful flat mockup, no lifestyle exists for #882. fal 0.

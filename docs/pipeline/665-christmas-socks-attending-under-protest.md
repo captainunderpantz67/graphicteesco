@@ -1,4 +1,4 @@
-status: BUILDING [B]
+status: REVIEW
 lane: B
 type: addon
 id: 665
@@ -27,3 +27,4 @@ kd: 38
 - 2026-10-18 director: brief written, READY (gift add-on, socks first; source design A grade).
 - 2026-10-18 director: Sam put funny boxers first, so build the boxer briefs #666–#669 before this one.
 - 2026-10-18 23:25 UTC director: boxers are OFF, so this no longer waits. Before building, read the REDO notes on #660–#663: the front leg placement must read upright (the shared panel printed upside down at the ankle on the front view) and the lockup fills the leg from cuff to heel.
+- 2026-10-18 23:37 UTC [B] built on the REDO bar: DRAFT gid 15365993136432, Printful #882 sync 482885867, 3/3 S/M/L on file 1089207227 (back) + 1089207257 (rotated front); reindeer from Printful file 1088449390 with ATTENDING / UNDER / PROTEST re-set in Alfa Slab (red/black), foot repeat; mockup checked upright; cost 7.14, $18.99. FAQ 43-51 words; kw christmas socks 165,000/KD 38 recorded. Cover: Printful flat mockup. Handle is mens-... per brief. fal 0.

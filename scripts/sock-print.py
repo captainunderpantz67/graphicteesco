@@ -35,13 +35,15 @@ def sized(t):
     sz = CAP
     while d.textlength(t, font=fnt(sz)) > MAXW: sz -= 4
     f = fnt(sz); y0, y1 = tight(t, f); return f, y0, y1 - y0
-rows = [('T', t, c) for t, c in s.get('top', [])] + [('A', None, None)] + [('B', t, c) for t, c in s.get('bottom', [])]
+rows = [('T', t, c) for t, c in s.get('top', [])] + [('A', None, None)] + [('B', t, c) for t, c in s.get('bottom', [])] + ([('A', None, None)] if s.get('art_twice') else [])
+nA = sum(1 for r in rows if r[0] == 'A')
 meas = {i: sized(t) for i, (k, t, c) in enumerate(rows) if t}
 th = sum(m[2] for m in meas.values()) + GAP * (len(rows) - 1)
-mh = LEG1 - LEG0 - th; mw = round(art.width * mh / art.height)
+mh = (LEG1 - LEG0 - th) // nA; mw = round(art.width * mh / art.height)
 if mw > MAXW: mw = MAXW; mh = round(art.height * mw / art.width)
-y = LEG0 + (LEG1 - LEG0 - (th + mh)) // 2 if False else LEG0
-extra = (LEG1 - LEG0 - th - mh) // max(1, len(rows) - 1)
+left = LEG1 - LEG0 - th - mh * nA
+if left > 300: y, extra = LEG0 + left // 2, 0  # art is width-limited: centre the block on the leg
+else: y, extra = LEG0, left // max(1, len(rows) - 1)
 for i, (k, t, c) in enumerate(rows):
     if k == 'A':
         cv.alpha_composite(art.resize((mw, mh), Image.LANCZOS), (CX - mw // 2, y)); y += mh + GAP + extra
