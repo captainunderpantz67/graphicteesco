@@ -1,6 +1,8 @@
 2026-10-18 01:10 UTC — [B] REVIEW #512 Golden Retriever I Brought You a Sock crewneck REDO (two-line joke, FW 1500, 12/12, composite cover; fal $0).
 2026-10-18 01:02 UTC — [B] REVIEW #384 Women's Y2K – Hot Mess Express Oversized Sweatshirt (cover added; fal $0.12).
 2026-10-18 00:59 UTC — [B] REVIEW #380 Women's Football Mom – Down, Set, Snacks Crewneck (DRAFT, synced 12/12, Sand + Sport Grey; fal $0.06).
+2026-10-18 05:21 UTC — [C] REVIEW #506 Men's Golf Retired Working on My Short Game zip hoodie (DRAFT, synced 12/12, Ash + Navy, back-view cover, M of My soft; fal $0.10).
+2026-10-18 05:21 UTC — [C] REVIEW #507 Women's National Park My Type Geothermally Active oversized hoodie (DRAFT, synced 12/12, Dust + Navy, composite cover; fal $0.10).
 2026-10-18 04:06 UTC — [C] REVIEW #505 Women's Golf I Only Golf for the Outfits cropped hoodie (DRAFT, synced 10/10, Black + Storm, composite cover; fal $0.14).
 2026-10-18 00:51 UTC — [B] REVIEW #488 Women's Funny – I Said It Nicely in My Head Tee (DRAFT, synced 42/42, 7 light colors; fal $0.10).
 2026-10-18 00:59 UTC — [A] REVIEW #332 Women's NYE Resolutions Pending tee (DRAFT, 30/30 synced, confetti letters in a real font, composite cover; fal ~$0.20).
