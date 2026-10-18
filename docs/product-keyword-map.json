@@ -8908,7 +8908,7 @@
      "kd": 22
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-pickleball-kitchen-gossip-club-hoodie": {
    "claimed": [
@@ -8921,7 +8921,7 @@
      "kd": 38
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-pickleball-polite-until-the-third-shot-graphic-tee": {
    "claimed": [
@@ -9077,7 +9077,7 @@
      "kd": 10
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "unisex-national-park-switchbacks-build-character-heavyweight-hoodie": {
    "claimed": [
@@ -9103,7 +9103,7 @@
      "kd": 14
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-softball-mom-travel-ball-took-my-saturdays-zip-hoodie": {
    "claimed": [
@@ -9329,6 +9329,60 @@
      "phrase": "christmas gifts for wife",
      "volume": 40500,
      "kd": 8
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "unisex-christmas-we-said-no-gifts-graphic-tee": {
+   "claimed": [
+    "christmas gifts for couples",
+    "couples christmas shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas gifts for couples",
+     "volume": 22200,
+     "kd": 10,
+     "source": "RankHero keyword page"
+    },
+    {
+     "phrase": "couples christmas shirt",
+     "volume": 1900,
+     "kd": 50,
+     "source": "RankHero keyword page"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-fishing-out-fished-him-again-zip-hoodie": {
+   "claimed": [
+    "fishing wife",
+    "fisherwoman"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fishing wife",
+     "volume": 110000,
+     "kd": 4
+    },
+    {
+     "phrase": "fisherwoman",
+     "volume": 1900,
+     "kd": 22
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-dog-dad-unpaid-doorman-half-zip": {
+   "claimed": [
+    "dog daddy"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dog daddy",
+     "volume": 6600,
+     "kd": 32,
+     "source": "RankHero keyword page"
     }
    ],
    "measured": "2026-10-18"

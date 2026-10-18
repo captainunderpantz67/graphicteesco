@@ -734,8 +734,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 939 | Korean-American woman, mid 40s, shoulder-length layered black hair tied back, tortoiseshell glasses | CLAIMED 2026-10-18 — #599 Cat Allegedly. Crewneck Sweatshirt cover (brief) |
 | 940 | white man, late 50s, weathered face, grey stubble, faded ball cap pushed back | USED 2026-10-18 — #604 Should've Been Here Yesterday Hoodie cover |
 | 941 | Colombian-American woman, about 21, dark wavy hair in a high ponytail, small silver hoops, athletic build | USED 2026-10-18 — #605 Lift Heavy. Reply Later. Cropped Hoodie cover |
-| 942 | man AND woman together: Nigerian-American man, early 30s, close-cropped hair, lean runner build; Chinese-American woman, early 30s, long black hair in a high ponytail tied back | CLAIMED 2026-10-18 — #606 Mile One Was a Mistake Hoodie cover (brief) |
-| 943 | Puerto Rican woman, early 60s, short silver curls, red lipstick, gold hoops | CLAIMED 2026-10-18 — #607 Kitchen Gossip Club Hoodie cover (brief) |
+| 942 | man AND woman together: Nigerian-American man, early 30s, close-cropped hair, lean runner build; Chinese-American woman, early 30s, long black hair in a high ponytail tied back | USED 2026-10-18 — #606 Mile One Was a Mistake Hoodie cover (with #942 pair, composite) |
+| 943 | Puerto Rican woman, early 60s, short silver curls, red lipstick, gold hoops | USED 2026-10-18 — #607 Kitchen Gossip Club Hoodie cover |
 | 944 | Indian-American woman, early 50s, long black hair with grey streaks in a low bun, small gold studs | CLAIMED 2026-10-18 — #608 Polite Until the Third Shot Tee cover (brief) |
 | 945 | man AND woman together: Black man, mid 60s, trimmed white beard, round glasses; white woman, early 60s, blonde bob tied back | CLAIMED 2026-10-18 — #609 My Partner Says It Was Out Tee cover (brief) |
 | 946 | Italian-American woman, early 60s, curly salt-and-pepper hair tied back, red-frame glasses | CLAIMED 2026-10-18 — #610 Booked Solid Crewneck Sweatshirt cover (brief) |
@@ -755,9 +755,9 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 960 | Ecuadorian-American woman, mid 20s, long dark-brown hair in a sleek low ponytail, small pearl studs, petite build | CLAIMED 2026-10-18 — #620 Capybara Tangled. Unbothered. Zip Hoodie cover (brief) |
 | 961 | man AND woman together: Chilean-American man, late 30s, short wavy dark-brown hair, trimmed beard, wire-rim glasses, lean build; Egyptian-American woman, mid 30s, long dark hair in a sleek bun, small gold studs, medium build | CLAIMED 2026-10-18 — #621 Banned From Stairs Hoodie cover (brief) |
 | 962 | Greek-American man, early 60s, thick silver hair combed back, clean-shaven, tanned, trim build | CLAIMED 2026-10-18 — #622 I Play Army Golf Zip Hoodie cover (brief) |
-| 963 | Guyanese-American man, early 40s, short black hair, full black beard, big broad build | CLAIMED 2026-10-18 — #623 It Looked Smaller at the Farm Oversized Hoodie cover (brief) |
+| 963 | Guyanese-American man, early 40s, short black hair, full black beard, big broad build | USED 2026-10-18 — #623 It Looked Smaller at the Farm Oversized Hoodie cover |
 | 964 | man AND woman together: Mongolian-American man, late 20s, short black hair, light stubble, lean hiker build; Sri Lankan-American woman, late 20s, long black hair in a high ponytail tied back, small silver studs, slim build | CLAIMED 2026-10-18 — #624 Switchbacks Build Character Heavyweight Hoodie cover (brief) |
-| 965 | Moroccan-American man, mid 20s, short curly black hair, clean-shaven, muscular build | CLAIMED 2026-10-18 — #625 Rack Your Weights. Respectfully. Oversized Hoodie cover (brief) |
+| 965 | Moroccan-American man, mid 20s, short curly black hair, clean-shaven, muscular build | USED 2026-10-18 — #625 Rack Your Weights Oversized Hoodie cover |
 | 966 | Welsh-American woman, early 40s, sandy-brown hair in a low ponytail tied back, sport sunglasses pushed up on her head, athletic build | CLAIMED 2026-10-18 — #626 Travel Ball Took My Saturdays Zip Hoodie cover (brief) |
 | 967 | Kenyan-American man, late 50s, short grey hair, neat grey beard, tall broad build | CLAIMED 2026-10-18 — #627 Rebuilt by a Carpenter Heavyweight Hoodie cover (brief) |
 | 954 | Cuban-American man, early 30s, dark wavy hair swept back, full black beard, medium build | CLAIMED 2026-10-18 — #614 Mom's Favorite Tee cover (brief) |
@@ -766,3 +766,6 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 957 | Taiwanese-American man, mid 30s, short side-parted black hair, thin black-rimmed glasses, clean-shaven, slim build | CLAIMED 2026-10-18 — #617 Drew Your Name. Panicked. Crewneck Sweatshirt cover (brief) |
 | 958 | Native American (Lakota) woman, early 40s, long straight black hair with a few grey strands in a low ponytail tied back, turquoise drop earrings, medium build | CLAIMED 2026-10-18 — #618 Santa Gets All the Credit Tee cover (brief) |
 | 959 | Ethiopian-American woman, early 50s, shoulder-length relaxed black hair tied back, small gold hoops, slim build | CLAIMED 2026-10-18 — #619 Santa Gets All the Credit Crewneck Sweatshirt cover (brief) |
+| 974 | man AND woman together: Bosnian-American man, late 40s, short dark-blond hair greying at the temples, short stubble, medium build; Tongan-American woman, mid 40s, long dark wavy hair tied back in a low bun, small shell earrings, curvy build | CLAIMED 2026-10-18 — #634 We Said No Gifts Tee cover (brief) |
+| 975 | Norwegian-American woman, early 50s, silver-blonde hair in a low braid tied back, sun-weathered skin, light crow's feet, wiry build | USED 2026-10-18 — #635 Out-Fished Him. Again. Zip Hoodie cover (back view, composite) |
+| 976 | Uzbek-American man, late 30s, short black hair, neat short beard, round wire glasses, stocky build | CLAIMED 2026-10-18 — #636 Unpaid Doorman Half Zip cover (brief) |
