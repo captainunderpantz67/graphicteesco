@@ -731,7 +731,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 936 | white woman, early 50s, silver-blonde shoulder-length hair tied back, reading glasses pushed up on her head | CLAIMED 2026-10-18 — #596 Built Like a Dinner Roll Tee cover (brief) |
 | 937 | French-Canadian-American man, early 40s, short light-brown hair, full trimmed beard, broad build | CLAIMED 2026-10-18 — #597 Here for the Post-Game Nachos Tee cover (brief) |
 | 938 | Afro-Brazilian-American woman, early 30s, long box braids tied back, small gold nose stud | USED 2026-10-18 — #598 Cat Allegedly. tee cover (fal Seedream 4, living room; try 1 had a mug over LY., try 2 kept) |
-| 939 | Korean-American woman, mid 40s, shoulder-length layered black hair tied back, tortoiseshell glasses | CLAIMED 2026-10-18 — #599 Cat Allegedly. Crewneck Sweatshirt cover (brief) |
+| 939 | Korean-American woman, mid 40s, shoulder-length layered black hair tied back, tortoiseshell glasses | USED 2026-10-18 — #599 Cat Allegedly. Crewneck Sweatshirt cover |
 | 940 | white man, late 50s, weathered face, grey stubble, faded ball cap pushed back | USED 2026-10-18 — #604 Should've Been Here Yesterday Hoodie cover |
 | 941 | Colombian-American woman, about 21, dark wavy hair in a high ponytail, small silver hoops, athletic build | USED 2026-10-18 — #605 Lift Heavy. Reply Later. Cropped Hoodie cover |
 | 942 | man AND woman together: Nigerian-American man, early 30s, close-cropped hair, lean runner build; Chinese-American woman, early 30s, long black hair in a high ponytail tied back | USED 2026-10-18 — #606 Mile One Was a Mistake Hoodie cover (with #942 pair, composite) |

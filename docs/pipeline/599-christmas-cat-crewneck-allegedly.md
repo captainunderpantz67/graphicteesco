@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: A
 type: twin
 id: 599
@@ -27,3 +27,5 @@ kd: 35
 ---
 ## Log
 - 2026-10-18 06:26 UTC director: brief written, READY (lane A; kd 35; KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month or with a measured December surge; proof named under the gate).
+- 2026-10-18 17:26 UTC builder [A]: twin of #598 (LIVE). R6.2 check on source print 1088753341: lettering line ALLEGEDLY. is Alfa Slab (a real-font headline by the brief, solid red, closed counters knocked out), no ring/disc/box/panel; the braided rug is a scene object with worn uneven edges, not a straight-edged panel; no typeset tagline; Navy: cream halo around the cat, red lettering reads. Primary 'cat christmas sweater' (6,600 / KD 35, comp 19,918). DRAFT gid 15365757763888 (Sand + Navy x S-3XL = 12, $34.99, no compare-at, category aa-1-13-14). Same print file 1088753341 at FW 1650 TOP 75. Sync 482805120 started. Light file: none (no cream/white headline fill). Cover pending (registry #939).
+- 2026-10-18 17:29 UTC builder [A]: REVIEW. Sync 482805120 verified 12/12 on default file 1088753341 (FW 1650 TOP 75), back logo 1080398177. FAQs 5 at 42-50 words, order-by Dec 8. Primary 'cat christmas sweater' 1x in copy + SEO title + meta. Light file: none (red headline). Ink named from mockups: red lettering, black and cream cat, red/cream/mustard rug. Phone-size read of Navy mockup OK (ALLEGEDLY. readable). Cover: woman, hair tied back, empty hands, no hood (crewneck), all letters clear at 200%, no composite, registry #939 USED, fal $0.06. design-crops/variant-photo-audit run after publish.
