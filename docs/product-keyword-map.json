@@ -9386,6 +9386,45 @@
     }
    ],
    "measured": "2026-10-18"
+  },
+  "mens-welder-grinder-and-paint-department-hoodie": {
+   "claimed": [
+    "welding hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "welding hoodie",
+     "volume": 1900,
+     "kd": 16
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "unisex-pitbull-scary-dog-afraid-of-the-vacuum-zip-hoodie": {
+   "claimed": [
+    "pit bull hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pit bull hoodie",
+     "volume": 1300,
+     "kd": 22
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-car-guy-i-speak-fluent-rattle-heavyweight-hoodie": {
+   "claimed": [
+    "car guy hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "car guy hoodie",
+     "volume": 390,
+     "kd": 36
+    }
+   ],
+   "measured": "2026-10-18"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
