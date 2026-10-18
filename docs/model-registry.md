@@ -762,7 +762,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 967 | Kenyan-American man, late 50s, short grey hair, neat grey beard, tall broad build | CLAIMED 2026-10-18 — #627 Rebuilt by a Carpenter Heavyweight Hoodie cover (brief) |
 | 954 | Cuban-American man, early 30s, dark wavy hair swept back, full black beard, medium build | CLAIMED 2026-10-18 — #614 Mom's Favorite Tee cover (brief) |
 | 955 | Pakistani-American man, mid 50s, short grey hair, clean-shaven, rectangular wire glasses, stocky build | CLAIMED 2026-10-18 — #615 Mom's Favorite Crewneck Sweatshirt cover (brief) |
-| 956 | Haitian-American man, early 40s, shaved head, thick black mustache, broad build | CLAIMED 2026-10-18 — #616 Drew Your Name. Panicked. Tee cover (brief) |
+| 956 | Haitian-American man, early 40s, shaved head, thick black mustache, broad build | USED 2026-10-18 — #616 Drew Your Name. Panicked. Tee cover |
 | 957 | Taiwanese-American man, mid 30s, short side-parted black hair, thin black-rimmed glasses, clean-shaven, slim build | CLAIMED 2026-10-18 — #617 Drew Your Name. Panicked. Crewneck Sweatshirt cover (brief) |
 | 958 | Native American (Lakota) woman, early 40s, black hair with grey strands in a bun on top of her head, turquoise drop earrings, medium build | USED 2026-10-18 — #618 Santa Gets All the Credit Tee cover |
 | 959 | Ethiopian-American woman, early 50s, shoulder-length relaxed black hair tied back, small gold hoops, slim build | CLAIMED 2026-10-18 — #619 Santa Gets All the Credit Crewneck Sweatshirt cover (brief) |
