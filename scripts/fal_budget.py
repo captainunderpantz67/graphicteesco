@@ -6,6 +6,9 @@ import csv, datetime, io, os, pathlib, subprocess, sys, uuid
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 LEDGER = ROOT / 'docs' / 'fal-spend.csv'
 CAP = float(os.environ.get('FAL_DAILY_CAP', '16'))
+# One-day top-ups Sam approved (UTC date -> extra dollars).
+EXTRA = {'2026-10-18': 6}
+CAP += EXTRA.get(datetime.datetime.utcnow().date().isoformat(), 0)
 
 
 def _rows(text):
