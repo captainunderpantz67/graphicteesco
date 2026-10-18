@@ -531,6 +531,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-fishing-shouldve-been-here-yesterday-graphic-tee': { src: '/covers/mens-fishing-shouldve-been-here-yesterday-graphic-tee.webp', alt: 'Man with a grey flat-top crew cut and ruddy cheeks smiling in a navy Should\'ve Been Here Yesterday tee on a lake dock at sunrise with a tackle box and fishing rod beside him' },
   'womens-cropped-lift-heavy-reply-later-graphic-tee': { src: '/covers/womens-cropped-lift-heavy-reply-later-graphic-tee.webp', alt: 'Woman with a long dark curly ponytail and gold hoop earrings smiling in a pink Lift Heavy. Reply Later. cropped tee and black leggings in a sunlit university weight room' },
   'womens-cropped-book-buying-ban-graphic-tee': { src: '/covers/womens-cropped-book-buying-ban-graphic-tee.webp', alt: 'Woman with black curtain bangs and round tortoiseshell glasses smiling in a cream Book Buying Ban: Day One (Again) cropped tee and high-waist jeans in a cozy bookstore aisle with a tote bag of books at her hip' },
+  'mens-gym-deload-week-emotionally-pump-cover': { src: '/covers/mens-gym-deload-week-emotionally-pump-cover.webp', alt: 'Man with a short black undercut sitting on a weight bench in a washed-black Deload Week (Emotionally) pump cover shirt in a garage gym with a squat rack and chalk dust, hands resting on his knees' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
