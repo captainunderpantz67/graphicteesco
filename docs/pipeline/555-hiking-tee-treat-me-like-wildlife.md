@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [E] 2026-10-18 05:25 UTC
 lane: E
 type: new
 id: 555

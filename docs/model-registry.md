@@ -677,8 +677,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 892 | Chinese-American woman, mid 60s, silver hair in a low twisted bun, round jade-green glasses, petite build | USED 2026-10-18 — #552 One More Row hoodie cover (seedream, Sand mockup as design, first try, print faithful) |
 | 893 | man AND woman together: Haitian-American man, early 30s, close-cropped hair with a sharp line-up, short boxed beard, medium build; Colombian-American woman, late 20s, long dark-brown waves tied back in a low ponytail, small silver studs, slim build | CLAIMED 2026-10-18 — #553 Holy Spirit, Mildly Spooky Hoodie cover (brief, pair on one number) |
 | 894 | Mexican-American man, late 60s, thick white hair combed back, full white walrus mustache, wire-rim glasses, stocky build | USED 2026-10-18 — #554 I Fix Things After Naps hoodie cover (seedream, Navy mockup as design, first try, print faithful) |
-| 880 | Samoan-American man, late 40s, short wavy black hair greying at the temples, neat greying goatee, big broad build | CLAIMED 2026-10-18 — #540 It Looked Smaller at the Farm Tee cover (brief) |
-| 881 | Korean-American man, early 50s, short salt-and-pepper hair with a side part, clean-shaven, thin rimless glasses, medium build | CLAIMED 2026-10-18 — #541 It Looked Smaller at the Farm Crewneck Sweatshirt cover (brief) |
+| 880 | Samoan-American man, late 40s, short wavy black hair greying at the temples, neat greying goatee, big broad build | USED 2026-10-18 — #540 It Looked Smaller at the Farm Tee cover |
+| 881 | Korean-American man, early 50s, short salt-and-pepper hair with a side part, clean-shaven, thin rimless glasses, medium build | USED 2026-10-18 — #541 It Looked Smaller at the Farm Crewneck Sweatshirt cover (brief) |
 | 895 | Greek-American woman, early 30s, long thick dark-brown wavy hair in a low ponytail, light olive skin, small silver hoops, lean athletic build | CLAIMED 2026-10-18 — #555 Treat Me Like Wildlife Tee cover (brief) |
 | 896 | Jamaican-American man, early 50s, short greying hair, neat salt-and-pepper goatee, tall lean build | CLAIMED 2026-10-18 — #556 I Play Army Golf Tee cover (brief) |
 | 897 | Thai-American man, mid 30s, short black hair with a messy fringe, thin black-framed glasses, clean-shaven, slim build | CLAIMED 2026-10-18 — #557 Can't, Cat's on Me Tee cover (brief) |
@@ -716,7 +716,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 921 | Samoan-American man, late 30s, black hair in a short top-knot, full short beard, broad heavy build | CLAIMED 2026-10-18 — #581 No, I Can't Just Take a Quick Look Tee cover (brief) |
 | 922 | Hmong-American man, mid 40s, short black hair with grey at the temples, clean-shaven, medium build | CLAIMED 2026-10-18 — #582 No, I Can't Just Take a Quick Look Hoodie cover (brief) |
 | 923 | Ukrainian-American man, early 30s, shaggy light-brown hair tucked behind his ears, short stubble, slim build | CLAIMED 2026-10-18 — #583 The Neighbors Love Me Tee cover (brief) |
-| 924 | Mexican-American man, early 60s, thick grey hair combed back, grey horseshoe mustache, sturdy build | CLAIMED 2026-10-18 — #584 I Speak Fluent Rattle Tee cover (brief) |
+| 924 | Mexican-American man, early 60s, thick grey hair combed back, grey horseshoe mustache, sturdy build | USED 2026-10-18 — #584 I Speak Fluent Rattle tee cover (fal Seedream, home driveway with old pickup; try 1 kept) |
 | 925 | Black man, about 19, short twists, small silver hoop earring, slim build | CLAIMED 2026-10-18 — #585 The Neighbors Love Me Hoodie cover (brief) |
 | 926 | Black woman, late 20s, short natural curls with a gold clip, small gold hoops, freckles | CLAIMED 2026-10-18 — #586 Capybara Tangled. Unbothered. Tee cover (brief) |
 | 927 | Filipino-American woman, early 40s, long straight black hair tied in a low bun, small pearl studs, warm smile lines | CLAIMED 2026-10-18 — #587 Capybara Tangled. Unbothered. Crewneck Sweatshirt cover (brief) |
