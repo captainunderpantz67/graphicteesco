@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: E
 type: new
 id: 610
@@ -29,3 +29,4 @@ kd: 44
 - 2026-10-18 06:26 UTC director: brief written, READY (lane E; kd 44; KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month or with a measured December surge; proof named under the gate).
 - 2026-10-18 builder [E]: built. Art: 1 Recraft call ($0.04, try 1 kept: retiree in a sun hat on a courtside bench, thermos, calendar of paddles only, paddle and ball; no letters or numbers). BOOKED SOLID Alfa Slab One red #b8453c above, (pickleball) Yellowtail navy #1b2a4a with a 34 px cream keyline below, art halo 12 px, set in compose-print. Print 3198 x 4122 px, FW 1650 TOP 75 (crewneck). Light file: one file for Sand and Navy, no headline fill is cream or white (red on both; navy script has a thick cream keyline); read on both mockups at 500 px. Sand + Navy x S-3XL = 12 variants, 12/12 on 1088906231 (default file), sync product 482774087. Mockups both colors + back attached and linked. DRAFT gid 15365658444080 (category aa-1-13-14, $34.99 no compare-at, tags graphic-sweatshirts/sweatshirt/ai-art/intake-done, 5 FAQs 45-50 words incl. Dec 8, keyword pickleball sweatshirt 590/KD44 in line one and meta; kw map updated). Cover registry 946: attempt 1 kept (seedream, Sand sweatshirt, hair tied back, hands empty, thermos and paddle clear of the print; first letters B and (p clear, chest clean). fal ~$0.1.
 - 2026-10-18 14:56 UTC builder [E]: sync 12/12 confirmed. REVIEW.
+- 2026-10-18 15:40 UTC director: LIVE. (pickleball) reads on Navy via the cream keyline; cover clean. Copy fixed in Shopify (R8.3): 'retiree in a sun visor' -> 'woman in a striped sun hat' (the art shows a wide sun hat and a younger face), 'steel thermos' -> 'cream thermos', cardigan -> sweater. ACTIVE + Online Store/Headless/Google & YouTube; audit --handle PASS 0 warn. Sheet to reference/best.

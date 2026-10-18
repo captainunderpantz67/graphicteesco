@@ -1,0 +1,29 @@
+status: READY
+lane: E
+type: new
+id: 652
+handle: womens-lineman-line-wife-plans-tentative-crewneck-sweatshirt
+kd: 32
+---
+## Women's Lineman – Line Wife (Plans Tentative) Crewneck Sweatshirt
+- **Blank:** Gildan 18000 (Printful #145) crewneck, 8 oz, 50/50 cotton-poly fleece. Never "garment-dyed" or "Comfort Colors" (R7.1).
+- **Style:** A (R4.2), vintage to the edges, no badge, frame, border, rounded scene card or dark patch (R4.1, including the 2026-10-18 rounded-card line). New art: one Recraft v4 illustration call (--n 1), picture only, no words; at most 3 tries; if all are weak, PARK it and say why.
+- **Text on shirt (real fonts via scripts/compose-print.py, never drawn by the image model; spelled exactly):** LINE WIFE (Alfa Slab One, faded red with a cream keyline, above) / (plans tentative) (Lobster, navy with a thick cream keyline, below, at least 60% of the art's width; never a thin script, the #537 and #611 lesson). Solid ink.
+- **Hook:** A 1960s housewife in a headscarf sits at the kitchen table chin in hand, a dinner plate under a cover beside a single candle, while out the rainy window a tiny bucket truck works a utility pole. LINE WIFE (plans tentative). Every storm call cancels dinner; cheeky restraint for the wives who buy the lineman listings (R3.4).
+- **Three lines considered (R3.1):** "Line Wife (Plans Tentative)" · "Dinner's in the Microwave Again" · "Storm Season Single Mom" (picked: the parenthesis does the joke, our proven Booked Solid format; 'Microwave' is weaker; 'Single Mom' reads sad).
+- **Joke QC (R3.7) / R3.12:** Outsider gets the gist in 3 seconds (a wife waiting, dinner covered, a lineman out in the rain); 'line wife' is the niche's own term and the picture explains it; family-clean; 4 words. R3.12 passes. Not a pun.
+- **Why it's not taken:** RankHero 'lineman sweatshirt' top 12 (2026-10-18): American-flag lineman hoodie 259 favorites, 'Dibs on the Lineman / Line Wife Electric Bolt' 132, personalized 'I love my lineman' 132, 'Lineman's Wife' 93; all flags, bolts and names, no illustrated scene or plans joke.
+- **Design gate (5 parts, docs/research/how-to-research-a-design.md):** search: lineman sweatshirt 590 / KD 32 (RankHero 2026-10-18; competition 1,026); under 1,000 but KD ≤ 35, so allowed (R2.5) · proof: 'Booked Solid (pickleball)' format LIVE (#610) and 'Relax the Drummer's Here' 829 favorites (self-aware statement); niche: line-wife sweatshirts 132 and 93 favorites show wives buy the lineman sweatshirt · insider: 'line wife' and storm-call cancelled plans · joke type: self-aware restraint statement · look: 1960s kitchen print, faded red, navy, mint, cream · gift test: line wives buy it for themselves and each other; the lineman buys it for her.
+- **Art prompt (Recraft v4, one image per call):** Vintage 1960s screen-print illustration of a patient housewife in a headscarf and cardigan sitting at a small kitchen table, chin resting on her hand with a wry half smile, a dinner plate under a dome cover and a single lit candle beside her, behind her a window with rain streaks showing a tiny utility bucket truck lifting a worker up a power pole. Faded red, navy, mint green, cream, soft black linework, halftone shading, worn screen-print texture, ragged broken edges, the woman, table and window are the shape; the window has a worn uneven edge, never a straight frame. No text, no letters, no numbers, no logos, no background shape, no frame, no border, no badge, no rounded rectangle, no dark patch.
+- **Colors (R7.2):** Sand + Navy (R7.2 cold-weather launch colors); read (plans tentative) on Navy at phone size.
+- **Primary keyword:** lineman sweatshirt: 590 / KD 32 (RankHero via scripts/keyword-gap.py, 2026-10-18, director; competition 1,026). Unowned (checked this run); recorded with this handle. Copy says it plainly: a lineman sweatshirt for the line wife. Supporting, once: line wife (unmeasured, copy only).
+- **Print size:** FW 1650 TOP 75 (crewneck, no pouch).
+- **Copy:** line one = the line + who wears it + when (R9.11), said plainly: no superlative opener built around the keyword (R8.3). Primary keyword in the title or SEO title, the first sentence and once in the meta; at most 3 times in all. Gift phrases at most once in copy, never the primary (R2.10). Describe only what is in the art; never say we drew it ("Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, weight, wash care, gift fit, Christmas order-by about Dec 8, free size exchange).
+- **Cover:** registry #992 (white Appalachian woman, mid 30s, auburn hair tied back in a low braid, freckles, medium build), CLAIMED. Alt starts 'Woman'. Scene: a cozy farmhouse kitchen on a rainy evening, a covered plate and a coffee mug on the table beside her, rain on the window, hands empty. Hair tied back; the L of LINE checked letter by letter (R6.9). Printful mockup as `--design` (--n 1). Max 2 attempts.
+- **Title / handle:** "Women's Lineman – Line Wife (Plans Tentative) Crewneck Sweatshirt" / `womens-lineman-line-wife-plans-tentative-crewneck-sweatshirt` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** graphic-sweatshirts, sweatshirt, ai-art, intake-done (crewneck tags only, R7.5).
+- **Price:** $34.99 (R12.1 crewneck), NO compare-at.
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d). Before REVIEW: Printful default file checked on every variant and logged (R7.7, 2026-10-18 line); light file headline fill is dark ink (R5.3.8); the cover is an AI photo with every letter right at 200% or the Printful lifestyle mockup, never a composite (R6.10).
+---
+## Log
+- 2026-10-18 16:05 UTC director: brief written, READY (lane E; KD ≤ 20 band has no unclaimed phrase with a competition count in this run's sweep of 40+ trade, hobby and animal phrases, so this is the KD 21–35 band; proof named under the gate).
