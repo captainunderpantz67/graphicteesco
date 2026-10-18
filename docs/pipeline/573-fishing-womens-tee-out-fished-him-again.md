@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-18 04:13Z
+status: REVIEW
 lane: B
 type: new
 id: 573
@@ -29,3 +29,4 @@ shopify: gid://shopify/Product/15364655022384
 ## Log
 - 2026-10-18 03:23 UTC director: brief written, READY (lane B funny-fishing; first women's funny fishing tee; KD 20 phrase, 738-favorite cranky-fishing proof).
 - 2026-10-18 04:18 UTC builder [B]: WIP: DRAFT gid://shopify/Product/15364655022384 (6400 #360, White/Natural/Heather Stone/Athletic Heather/Pink/Heather Mauve x S-3XL = 36, $24.99 no compare-at), art (try 2 of 3: wide dock scene, real largemouth bass; try 1 was too tall for the 6400's 10x12 in area), compose-print lettering, mockups, cover (registry 913, try 1) and review sheet done; print 3435x4085 at FW 1440 TOP 75 (area 1500x1800: whole print inside it, FW below the 1500 floor because the three-part print must fit 12 in tall). Printful sync queued behind lane syncs; status goes to REVIEW at 36/36.
+- 2026-10-18 05:03 UTC [B]: synced 36/36, REVIEW. Phone-size read OK on every color mockup (both lines; red lettering keeps its cream keyline on Heather Mauve). R6.2: no ring, panel or typeset line; no frame or badge. Audit-local PASS. fal $0.14 (2 art calls + cover).
