@@ -1,4 +1,5 @@
-status: READY
+status: BUILDING [C] 2026-10-18 06:19
+shopify: gid://shopify/Product/15364800348464
 lane: C
 type: twin
 id: 569
@@ -22,3 +23,4 @@ kd: 27
 ---
 ## Log
 - 2026-10-18 03:25 UTC director: brief written, READY (hoodie twin of LIVE #471; keyword measured this run).
+- 2026-10-18 06:23 UTC builder [C]: built from #471's print (Printful file 1088449390, 3443x4924). R6.2 check: ATTENDING and UNDER PROTEST are solid real-font Alfa Slab capitals with a dark outline, no ring/arch/badge/card; the stitched reindeer is the shape. Ratio 1.43 (2,145 px at FW 1500) is taller than the print area clears above the pouch (~2,080), so I tightened: ATTENDING overlaps the faint cream bottom of the knit edge by 110 px (the transparent stitches, no visible art lost), lines 26 px apart; art and lettering untouched at full width. 3443x4700 = 2,048 px high at FW 1500, nothing under FW 1500. New Printful file 1088731441 (docs/print-files/569-attending-under-protest-hoodie.png). Ends above the pouch on Sand and Navy; UNDER PROTEST reads on both. DRAFT gid 15364800348464 (12 variants, $39.99, no compare-at, category hoodies, tags per brief). Copy says printed hoodie, never a real knit. FAQs 5 x 40-60 words, order-by Dec 8. Keyword grumpy christmas 720/27 in the map. Mockups Sand + Navy + back attached, variants linked. Cover: 1 fal image (registry #909, hood visible, hands in pouch, no drink, print faithful, every word reads). audit-local PASS. Printful sync 482697706 running; REVIEW once 12/12.
