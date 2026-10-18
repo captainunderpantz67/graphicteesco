@@ -3,6 +3,7 @@ lane: E
 type: new
 id: 579
 handle: mens-grandpa-ask-your-grandmother-graphic-tee
+shopify: gid://shopify/Product/15364805951792
 kd: 50
 ---
 ## Men's Grandpa – Ask Your Grandmother Tee
@@ -28,3 +29,4 @@ kd: 50
 ---
 ## Log
 - 2026-10-18 03:28 UTC director: brief written, READY (lane E; wave-1 grandpa, funny grandpa shirt 1,300 / KD 50, 1,269-favorite funny grandpa tee proof).
+- 2026-10-18 06:30 UTC builder [E]: built (sync queued behind the other lane E syncs). Art: 1 Recraft call ($0.04, try 1 kept: grandpa behind an open newspaper in a striped recliner, bald head and round glasses over the top, slippered feet, toy dump truck and crayon drawing on the rug; the newspaper has only grey bars, no readable letters). I DON'T KNOW. Alfa Slab One cream with a dark-brown keyline above, Ask your grandmother. Yellowtail mustard #e0a83a with a dark-brown keyline below, set in compose-print; the apostrophe survived; 12 px cream keyline around the art. Print 3422 x 3644 px (11.4 x 12.1 in), FW 1650 TOP 75. Colors Black, Navy, Brown, Heather Forest (4 to keep the shared Printful sync short) x S-4XL = 28; checked on Black, Navy, Brown; Printful file 1088734272, sync product 482698316; mockups for all 4 colors + back attached and linked; both lines read at 400 px. DRAFT gid 15364805951792 (category aa-1-13-8, $24.99 no compare-at, 5 FAQs 48-55 words incl. Dec 8, keyword funny grandpa shirt 1300/KD50 in line one and meta, supporting papa shirt not used). Cover registry 919: attempt 1 kept (seedream, hands at his sides, newspaper and truck far from the print, every word and the apostrophe read). Audit-local PASS; variant-photo audit clean. fal ~$0.1.

@@ -8475,23 +8475,22 @@
   },
   "mens-grandpa-ask-your-grandmother-graphic-tee": {
    "claimed": [
-    "funny grandpa shirt"
+    "funny grandpa shirt",
+    "papa shirt"
    ],
    "gaps_measured": [
     {
      "phrase": "funny grandpa shirt",
      "volume": 1300,
-     "kd": 50,
-     "competition": 40723
+     "kd": 50
     },
     {
      "phrase": "papa shirt",
      "volume": 2900,
-     "kd": 52,
-     "competition": 85011
+     "kd": 52
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "unisex-christmas-card-photo-survivor-crewneck-sweatshirt": {
    "claimed": [
