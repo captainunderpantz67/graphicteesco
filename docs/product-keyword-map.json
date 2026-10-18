@@ -9332,6 +9332,62 @@
     }
    ],
    "measured": "2026-10-18"
+  },
+  "unisex-christmas-we-said-no-gifts-graphic-tee": {
+   "claimed": [
+    "christmas gifts for couples",
+    "couples christmas shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas gifts for couples",
+     "volume": 22200,
+     "kd": 10,
+     "source": "RankHero keyword page"
+    },
+    {
+     "phrase": "couples christmas shirt",
+     "volume": 1900,
+     "kd": 50,
+     "source": "RankHero keyword page"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-fishing-out-fished-him-again-zip-hoodie": {
+   "claimed": [
+    "fishing wife",
+    "fisherwoman"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fishing wife",
+     "volume": 110000,
+     "kd": 4,
+     "source": "RankHero keyword page"
+    },
+    {
+     "phrase": "fisherwoman",
+     "volume": 1900,
+     "kd": 22,
+     "source": "RankHero keyword page"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-dog-dad-unpaid-doorman-half-zip": {
+   "claimed": [
+    "dog daddy"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dog daddy",
+     "volume": 6600,
+     "kd": 32,
+     "source": "RankHero keyword page"
+    }
+   ],
+   "measured": "2026-10-18"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
