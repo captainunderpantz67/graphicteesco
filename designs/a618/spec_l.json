@@ -1,0 +1,5 @@
+{"art": "designs/a618/art.png", "art_width": 0.8, "canvas": [3600, 4500], "gap": 70, "holes": 2000,
+ "lines": [
+  {"text": "Santa gets", "font": "PlayfairDisplay-Italic[wght].ttf", "wght": 700, "size": 640, "fill": "#c41e3a", "tracking": 0.01, "max_width": 0.76, "where": "above"},
+  {"text": "ALL THE CREDIT", "font": "AlfaSlabOne-Regular.ttf", "size": 640, "fill": "#1e5a34", "stroke": 14, "stroke_fill": "#f4a8bc", "tracking": 0.005, "max_width": 0.96, "where": "below"}
+ ]}
