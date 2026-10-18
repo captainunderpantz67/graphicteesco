@@ -1,3 +1,4 @@
+RUNNING lane A since 2026-10-18 16:33 UTC
 RUNNING lane B since 2026-10-18 16:29 UTC
 RUNNING lane C since 2026-10-18 16:29 UTC
 2026-10-18 16:22 UTC — [D] Director follow-up: #632 Not Weird, Just the Goalie tee reached REVIEW during the run; reviewed and LIVE (audit PASS 0 warn; copy fixed: no kids'-size hint (R8.6), 'adult-league' for 'beer-league'). 7 LIVE this run. No lock held.
