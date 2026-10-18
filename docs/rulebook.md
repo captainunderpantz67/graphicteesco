@@ -189,6 +189,8 @@ Sections are numbered so role cards and review notes can point at them ("fails R
 
 **AI image labels (2026-10-17, Google Merchant Center + Search):** every AI-generated image we publish carries IPTC DigitalSourceType = trainedAlgorithmicMedia (XMP). scripts/fal-photo.py and scripts/b-cover.py label covers automatically via scripts/label-ai.py; any other AI image (banners, cards, hero, About page) gets `python3 scripts/label-ai.py <file>` before commit. Printful mockups are not AI and are not labeled. Never strip metadata when resizing.
 
+- **R6.10 No pasted prints on covers (Sam 2026-10-18: "the design is falling off the shirt").** Cut-and-paste composites (cover-composite*.py, cover-erase-composite.py) put a flat, front-facing print on a body that is turned, slouched or folded: it sits too low, ignores the torso angle and folds, and reads as fake. They are retired. A cover is now either (a) the AI photo where the model drew the print itself and every letter is right at 200% (max 2 tries), or (b) the best Printful lifestyle mockup for the blank (real photo, real print warp; R6.3 audience match). Never (c) a composite. Check: the print sits on the chest (top of print about 3 in below the collar), turns with the torso and bends with the folds.
+
 ## R7. Product build standard
 1. **Blanks and facts** (copy facts only from the supplier spec):
    - **Tee:** Bella+Canvas 3001 (unisex/men's), lightweight 4.2 oz. Never "midweight".
