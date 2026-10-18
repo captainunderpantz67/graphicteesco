@@ -7886,29 +7886,28 @@
   },
   "womens-hiking-treat-me-like-wildlife-graphic-tee": {
    "claimed": [
-    "hiking shirt women"
+    "hiking shirt women",
+    "wildlife shirt",
+    "funny hiking shirt"
    ],
    "gaps_measured": [
     {
      "phrase": "hiking shirt women",
      "volume": 4400,
-     "kd": 14,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 14
     },
     {
      "phrase": "wildlife shirt",
      "volume": 2900,
-     "kd": 54,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 54
     },
     {
      "phrase": "funny hiking shirt",
      "volume": 390,
-     "kd": 54,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 54
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-golf-i-play-army-golf-graphic-tee": {
    "claimed": [
