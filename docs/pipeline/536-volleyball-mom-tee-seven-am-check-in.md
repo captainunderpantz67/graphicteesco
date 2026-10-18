@@ -3,6 +3,7 @@ lane: E
 type: new
 id: 536
 handle: womens-volleyball-mom-seven-am-check-in-graphic-tee
+shopify: gid://shopify/Product/15364688380208
 kd: 47
 ---
 ## Women's Volleyball Mom – 7 A.M. Check-In Tee
@@ -27,3 +28,4 @@ kd: 47
 ---
 ## Log
 - 2026-10-18 01:30 UTC director: brief written, READY (lane E; sports-mom wave, verified caffeine line).
+- 2026-10-18 05:00 UTC [E] builder: art (Recraft, 2nd try; 1st had a solid navy door), print file docs/print-files/536-7am-check-in.png composed, Shopify DRAFT created gid 15364688380208 (6 colors, Maroon replaces Berry: not in blank 6400). Next: Printful file, sync, mockups, cover.
