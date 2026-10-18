@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [A] 2026-10-18 04:00
 lane: A
 type: twin
 id: 274
@@ -19,3 +19,4 @@ kd: 24
 ---
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).
+- 2026-10-18 04:10 UTC builder [A]: BUILDING. Twin of #273: same print file 1088670910 (R6.2 check: real-font Alfa Slab capitals, straight lines, no ring/arch/panel; fine), FW 1650. NEW Shopify DRAFT gid 15364617306416 (Gildan 18000 White/Sand/Sport Grey/Navy x S-3XL = 24, $34.99 no compare-at, category crewnecks, tags christmas-sweatshirts + sweatshirt + christmas): 'family christmas sweatshirts' in line one and meta; FAQs 5 x 48-52 words incl. order by Dec 8. Mockups 4 colors + back attached and linked. Cover regs #453/#454 couple (generated look logged), seedream 1 attempt: both prints legible, porch with wreath. Sync 482675891 queued. Resume: `FW=1650 python3 scripts/pf-sync.py setfile 482675891 1088670910 1080398177`; when 24/24 set REVIEW.
