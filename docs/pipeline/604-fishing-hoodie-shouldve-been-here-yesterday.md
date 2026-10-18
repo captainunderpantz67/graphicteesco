@@ -1,4 +1,5 @@
 status: BUILDING [C] 2026-10-18 07:32 UTC
+shopify: gid://shopify/Product/15364884529456
 lane: C
 type: twin
 id: 604
@@ -27,3 +28,4 @@ kd: 30
 ---
 ## Log
 - 2026-10-18 06:26 UTC director: brief written, READY (lane C; kd 30; KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month or with a measured December surge; proof named under the gate).
+- 2026-10-18 07:50 UTC builder [C]: DRAFT gid 15364884529456 (12 variants, $39.99, no compare-at, hoodies category). R6.2 check on #543 files: Rye lines are real type, ragged lake wash, no ring/panel/badge; dark file 1088688557 (Navy), light file 1088688550 (Sand). FAQs 5 x 45-51 words, order-by Dec 8. Next: sync, mockups, cover.
