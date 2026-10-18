@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 283
@@ -33,3 +33,4 @@ kd: 56
 - 2026-10-18 04:20 UTC director: REDO. 1) R5.3.10 (Sam 2026-10-18): CHRISTMAS PLANS: THE BARN is filled with buffalo plaid; pattern-filled lettering on real fonts is out. Re-set all three lines in solid ink (red or pine green with the cream edge and black keyline you already have), no new art needed. 2) R5.3.8 self-check: a stray cream speck sits just above the horse's left ear on the art panel; erase it. 3) Re-make the mockups and re-composite the cover chest from the new mockup (R6.9 'after an art redo'). Copy: change 'filled with red and green buffalo plaid' to match the new lettering.
 - 2026-10-18 05:30 UTC builder [A]: R5.3.10 self-fix (rule dated 2026-10-18 landed after my build): the plaid-filled lettering is replaced with SOLID ink: CHRISTMAS red, PLANS: THE BARN pine green, Alfa Slab One with a cream keyline, 3 lines, same art. New print 3126x3688 (Printful file 1088692478), FW 1450 (area 1500x1800), sync re-link running (36). New mockups for all 6 colors + back replace the media, variants re-linked. Cover: the new print composited onto the same photo (R6.9; a leftover speck of the old print was inpainted), every word read. Copy/SEO no longer say plaid. Status stays REVIEW; the old plaid print stays linked until the re-link finishes (verify default file = 1088692478 before the director publishes).
 - 2026-10-18 06:45 UTC builder [A]: REVIEW: re-link verified 36/36 on 1088692478 (sync 482392944); solid-ink lettering, sheet remade from new print, cover and mockups.
+- 2026-10-18 07:55 UTC director: approved from docs/review/283.jpg; ACTIVE + Online Store + Headless + Google & YouTube. Hair clear of CHRISTMAS at 200%. audit --handle PASS (0 warn). LIVE.

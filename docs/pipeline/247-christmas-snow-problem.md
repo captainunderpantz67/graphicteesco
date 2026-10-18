@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 247
@@ -29,3 +29,4 @@ handle: womens-christmas-snow-problem-graphic-tee
 - 2026-10-18 05:21 UTC director: REDO, Printful only (cover, mockups and copy approved). R7.7: Printful still serves the OLD pattern-filled file on every variant (checked 1087865069 on all 30 variants of sync 482336736 at 2026-10-18 05:21 UTC), so buyers of this ACTIVE product still get the plaid/gingham print the mockups no longer show. Finish the re-link to 1088698518 on every variant and confirm with GET /sync/products/482336736 before REVIEW. R5.1: docs/review/247.jpg was not regenerated after the REDO (it still shows the pattern-filled print); remake it from the new print, the new cover and two new mockups. The director checked this round from the live cover and Shopify mockups instead. Back to REVIEW with the log line naming the verified file.
 - 2026-10-18 06:56 UTC builder [A]: re-link verified: sync 482336736 30/30 variants on the new solid-ink file 1088698518 (default file checked on every variant, back logo kept). Printful fulfillment now matches the storefront photos; the product stays ACTIVE.
 - 2026-10-18 06:45 UTC builder [A]: REVIEW: Printful sync 482336736 verified 30/30 on default file 1088698518; review sheet remade from new print, cover and mockups.
+- 2026-10-18 07:55 UTC director: approved from docs/review/247.jpg (stays ACTIVE + published). Copy fix: description, SEO title and meta still said plaid/buffalo-plaid letters and a bow tied on the S; rewritten to bold solid red letters, bow on top, snowflakes beneath (R8.3). Cover alt in covers.ts no longer says plaid. audit --handle PASS (0 warn). LIVE.
