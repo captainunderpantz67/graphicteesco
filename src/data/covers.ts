@@ -476,6 +476,8 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-golf-retired-working-on-my-short-game-zip-hoodie': { src: '/covers/mens-golf-retired-working-on-my-short-game-zip-hoodie.webp', alt: 'Man with white hair and a mustache smiling over his shoulder in a navy Retired Working on My Short Game golf zip hoodie, hood down, beside a golf cart and a pond on a crisp fall morning' },
   'womens-y2k-hot-mess-express-oversized-sweatshirt': { src: '/covers/womens-y2k-hot-mess-express-oversized-sweatshirt.webp', alt: 'Woman in a cream Hot Mess Express Y2K oversized sweatshirt on a busy train platform with a coffee cart' },
   'mens-gym-twelve-labors-zero-cardio-graphic-tee': { src: '/covers/mens-gym-twelve-labors-zero-cardio-graphic-tee.webp', alt: 'Man in a garage gym with a squat rack and weight plates, a treadmill behind him, wearing the Twelve Labors. Zero Cardio. tee' },
+  'womens-national-park-my-type-geothermally-active-oversized-hoodie': { src: '/covers/womens-national-park-my-type-geothermally-active-oversized-hoodie.webp', alt: 'Woman smiling in a navy My Type Geothermally Active oversized hoodie with her hands in the pouch pocket on a boardwalk beside steaming hot springs, pines and a coffee cup on the rail' },
+  'womens-national-park-two-queens-roaming-hoodie': { src: '/covers/womens-national-park-two-queens-roaming-hoodie.webp', alt: 'Two women in matching navy Two Queens Roaming bison hoodies with hands in the pouch pockets on a gravel pullout above a grassland valley with bison grazing in the distance' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
