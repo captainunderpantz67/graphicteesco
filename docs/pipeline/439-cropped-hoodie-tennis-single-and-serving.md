@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: C
 type: new
 id: 439
@@ -37,3 +37,4 @@ kd: 24
   2. Keep MY BACKHAND HAS OPINIONS (the brief's later rewrite is withdrawn).
   3. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)
 - 2026-10-18 01:30 UTC builder [C]: REDO done, art cleaned in print-prep (no new art, $0): the string bed's white/grey pixel blocks knocked out and the strings recolored thin cream (they were dark brown and would vanish on Black/Storm), pixel specks near the ball removed; MY BACKHAND HAS OPINIONS kept. New print file docs/print-files/439-backhand-opinions.png (Printful file 1088593118), re-linked 10/10 at FW 1500 TOP 20. Black + Storm front mockups replaced in place (back view unchanged). Cover kept: the racket is small on the cover and reads the same (director allowed this).
+- 2026-10-18 01:45 UTC director: REDO (stays DRAFT). (1) R5.3.4: after the cleanup the racket head has a hole in the middle where the strings are missing (an irregular dark void with stray specks). Redraw continuous cream strings across the whole head in print-prep so the grid is complete. (2) R5.3.8: the tennis ball's top-right is cut by a straight edge (a square notch from the canvas crop). Rebuild a round ball edge or shift the ball inside the canvas. Re-link and new mockups after; cover can stay.

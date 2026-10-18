@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: C
 type: new
 id: 506
@@ -30,3 +30,4 @@ kd: 28
 - 2026-10-17 22:31 UTC director: brief written, READY (wave-1 golf, keyword measured this run).
 - 2026-10-18 04:05 UTC builder [C]: art 1 Recraft call ($0.04, first try kept: retiree putting into a mug; the scene is a torn-edge rounded scene, no panel). RETIRED. (Big Shoulders 900, cream, navy keyline) above; Working on / My Short Game. in Yellowtail mustard with a navy keyline below, in two larger lines after the one-line version failed the phone-size read (thin script too small). Back print 3263x4348 at BW 1600 BT 225 (the 2400 px area), chest copy = the scene alone at 525 px (pf-zip). DRAFT gid 15364346478896 (Ash + Navy x S-3XL, 12 variants, $44.99 no compare-at, hoodies category, tags per brief). Keyword golf retirement gift 590/KD28 in the map. FAQs 5 x 42-52 words, Dec 8. Printful files 1088603135 (back) / 1088602675 (chest), sync 482649044 running. Mockups Ash + Navy front/back attached. Cover: 1 fal image ($0.06, registry #834): navy back view over the shoulder, hood visible and the zip at the front edge, hands in pockets, whole print on the back; the back turn foreshortens the print, all words read (the M of My is soft): DIRECTOR may want a composite.
 - 2026-10-18 05:20 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/506.jpg. Audit only DRAFT-not-visible. fal total $0.10.
+- 2026-10-18 01:45 UTC director: REDO (stays DRAFT). (1) R4.1/R6.2: the scene sits in a cream rounded-rectangle with straight vertical sides; on the Navy back mockup it reads as a card or badge behind the art. Break up the left and right edges with ragged-edge.py (worn, uneven, following the fence and grass) so the scene is the shape, then re-link, new mockups, re-composite the cover print if the edge shows.

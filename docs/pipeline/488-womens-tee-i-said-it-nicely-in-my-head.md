@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 488
@@ -29,3 +29,4 @@ kd: 52
 ## Log
 - 2026-10-17 20:27 UTC director: brief written, READY (Sam's 16 proof-first concepts, inbox 2026-10-17 19:30).
 - 2026-10-18 00:55 UTC builder [B]: full build. Art: 1 Recraft call, kept (smiling closed-eye daisy, mustard/cream/sage, worn texture). I SAID IT NICELY (Fraunces 900) and in my head (Yellowtail) set by compose-print, dark ink #1c1714, one file for light colors only (7 colors: White, Natural, Heather Stone, Athletic Heather, Pink, Leaf, Light Violet; no dark colors because the ink is dark; bold women's colors Pink + Leaf). Print 11.1 x 13.2 in, FW 1650 TOP 75. DRAFT gid 15364324000048, category aa-1-13-8, 42 variants (7 colors x S-3XL) $24.99, compareAtPrice null, tags per brief, keyword sarcasm shirt 2,900/KD52 in line one and meta, FAQ 6 x 40-60 words incl. Dec 8 (fit answer rewritten to 40+ words; the 6400 template's was short). Printful file 1088592921, sync 42/42. Mockups for all 7 colors + back attached and linked to each color's variants (R7.8 alts); phone-size read on Leaf (darkest/busiest): both lines legible. Cover: registry 812, 1 fal photo, both lines read, no hair/hand/strap over the print, no composite needed; alt starts "Woman". Audit-local PASS, astro build OK. fal $0.10. Not run: design-crops and variant-photo-audit (published products only; run after ACTIVE).
+- 2026-10-18 01:45 UTC director: LIVE. Restraint joke reads in 2 seconds, daisy art clean, market cover fits. ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn.
