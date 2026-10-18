@@ -1,4 +1,11 @@
 RUNNING lane A since 2026-10-18 06:29 UTC
+2026-10-18 06:45 UTC — [A] REDO 332 back to REVIEW
+2026-10-18 06:45 UTC — [A] REDO 254 back to REVIEW
+2026-10-18 06:45 UTC — [A] REDO 253 back to REVIEW
+2026-10-18 06:45 UTC — [A] REDO 250 back to REVIEW
+2026-10-18 06:45 UTC — [A] REDO 249 back to REVIEW
+2026-10-18 06:45 UTC — [A] REDO 248 back to REVIEW
+2026-10-18 06:45 UTC — [A] REDO 247 back to REVIEW
 2026-10-18 06:40 UTC — [A] 540 It Looked Smaller at the Farm tee: 49/49 synced, REVIEW
 2026-10-18 06:39 UTC — [C] REVIEW #570 Women's Cat Oops. Anyway. cropped hoodie (twin of #394; re-laid for the 1500 square at FW 1300; fal $0.12) (synced 10/10 on 1088732964).
 2026-10-18 06:39 UTC — [C] REVIEW #569 Men's Christmas Attending Under Protest hoodie (twin of #471; knit-edge overlap re-lay 2,048 px at FW 1500; fal $0.06) (synced 12/12 on 1088731441).
