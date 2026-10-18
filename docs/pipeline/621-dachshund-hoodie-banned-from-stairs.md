@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [C] 2026-10-18 08:17 UTC
 lane: C
 type: twin
 id: 621
