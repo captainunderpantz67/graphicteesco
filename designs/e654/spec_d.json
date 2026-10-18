@@ -1,0 +1,5 @@
+{"art": "art.png", "art_width": 0.6, "canvas": [3600, 4500], "gap": 60, "holes": 2000,
+ "lines": [
+  {"text": "YES, ONE CAT.", "font": "AlfaSlabOne-Regular.ttf", "size": 600, "fill": "#1b2a4a", "stroke": 18, "stroke_fill": "#f3e7cf", "tracking": 0.01, "max_width": 0.9, "where": "above"},
+  {"text": "ONCE.", "font": "AlfaSlabOne-Regular.ttf", "size": 760, "fill": "#b8453c", "stroke": 24, "stroke_fill": "#f3e7cf", "tracking": 0.02, "max_width": 0.6, "where": "below"}
+ ]}

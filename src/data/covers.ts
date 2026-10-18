@@ -617,6 +617,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-christmas-cat-allegedly-crewneck-sweatshirt': { src: '/covers/womens-christmas-cat-allegedly-crewneck-sweatshirt.webp', alt: 'Woman in a navy Cat Allegedly. Christmas crewneck sweatshirt with a smug tuxedo cat beside a smashed ornament, standing in a decorated kitchen with cookie trays and a cat on a chair beside her' },
   'womens-pilates-just-two-more-she-lied-graphic-tee': { src: '/covers/womens-pilates-just-two-more-she-lied-graphic-tee.webp', alt: 'Woman in a pink Just Two More She Lied pilates tee standing in a bright Pilates studio with reformers and plants behind her and a water bottle on the reformer frame' },
   'mens-mechanic-no-i-cant-just-take-a-quick-look-hoodie': { src: '/covers/mens-mechanic-no-i-cant-just-take-a-quick-look-hoodie.webp', alt: 'Man in a navy No, I Can\'t Just Take a Quick Look pullover hoodie with the hood down behind his neck, hands in the pouch pocket, standing in a snowy auto shop yard with a tow truck behind him' },
+  'mens-firefighter-yes-one-cat-once-hoodie': { src: '/covers/mens-firefighter-yes-one-cat-once-hoodie.webp', alt: 'Man in a sand Yes One Cat Once firefighter pullover hoodie with the hood visible standing in front of an open firehouse bay with a red fire engine behind him' },
 };
 
 // Pasted-print covers retired by R6.10 (Sam 2026-10-18): these fall back to the clean Printful mockup until a

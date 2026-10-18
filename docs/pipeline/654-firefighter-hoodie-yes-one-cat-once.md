@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-18 23:45
+status: REVIEW
 lane: E
 type: new
 id: 654
@@ -27,3 +27,5 @@ kd: 35
 ---
 ## Log
 - 2026-10-18 16:05 UTC director: brief written, READY (lane E; KD ≤ 20 band has no unclaimed phrase with a competition count in this run's sweep of 40+ trade, hobby and animal phrases, so this is the KD 21–35 band; proof named under the gate).
+- 2026-10-18 builder [E]: built. dark-ink file 1089001720, light file 1089001744 (headline fill cream #f3e7cf with a dark keyline, art halo 14 px; dark colors on the light file, light colors on the dark file). Art: 1 Recraft call ($0.04, try 1 kept: deadpan firefighter in a red helmet and coat on a ladder against a bare branch holding a grumpy striped cat). YES, ONE CAT. / ONCE. Alfa Slab One, set in compose-print with holes knocked out. Two files: Sand on the dark-ink file (navy line, red ONCE.); light file: Navy (cream headline with a navy keyline, coral ONCE., art halo 14 px). Print 3212 px wide, FW 1600 TOP 75 (art shrunk so the 3212 x 3450 print ends above the pouch seam on both mockups). Sand + Navy x S-3XL = 12 variants, 12/12 on the right file, sync product 482807078. Mockups both colors + back attached and linked; read both lines at 500 px on both. DRAFT gid 15365761925424 (category aa-1-13-13, $39.99 no compare-at, tags graphic-hoodies-for-men/hoodie/ai-art/intake-done, 5 FAQs 45-51 words incl. Dec 8 and a plain not-turnout-gear line, keyword firefighter hoodie 480/KD35 in line one, SEO title and meta; kw map updated). Cover registry 994: attempt 1 kept (seedream, Sand hoodie with the hood visible, hands in the pouch; first letters Y and O clear, chest clean). fal ~$0.1.
+- 2026-10-18 17:46 UTC builder [E]: sync 12/12 confirmed. REVIEW.
