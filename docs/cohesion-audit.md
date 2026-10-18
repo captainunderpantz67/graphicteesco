@@ -1,37 +1,12 @@
-# Cohesion audit — 2026-10-18 21:44 UTC
+# Cohesion audit — 2026-10-18 22:17 UTC
 
-597 live products checked · **7 errors** · 30 warnings · 33 products with findings
+597 live products checked · **0 errors** · 30 warnings · 28 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
-- 4 × Hoodie listed in the non-hoodie collection .
-- 3 × Crewneck sweatshirt listed in the tee collection .
 
 ## By product (errors first)
-### Unisex Christmas – Technically a Sweater Crewneck Sweatshirt `unisex-christmas-technically-a-sweater-crewneck-sweatshirt`
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Group & Family Shirts". → Remove the tag that puts it in group-shirts; it belongs in the matching *-sweatshirts collection.
-
-### Unisex Thanksgiving – Kids Table Alumni Crewneck Sweatshirt `unisex-thanksgiving-kids-table-alumni-crewneck-sweatshirt`
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Group & Family Shirts". → Remove the tag that puts it in group-shirts; it belongs in the matching *-sweatshirts collection.
-
-### Women's Thanksgiving – Friendsgiving Hoodie `womens-thanksgiving-friendsgiving-hoodie`
-- **ERROR** Hoodie listed in the non-hoodie collection "Group & Family Shirts". → Remove the tag that puts it in group-shirts; hoodies go only in *-hoodies collections.
-- **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
-
-### Unisex Thanksgiving – Turkey Trot Hoodie `unisex-thanksgiving-turkey-trot-hoodie`
-- **ERROR** Hoodie listed in the non-hoodie collection "Group & Family Shirts". → Remove the tag that puts it in group-shirts; hoodies go only in *-hoodies collections.
-- **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
-
-### Men's Christmas – Attending Under Protest Crewneck Sweatshirt `mens-christmas-attending-under-protest-crewneck-sweatshirt`
-- **ERROR** Crewneck sweatshirt listed in the tee collection "Group & Family Shirts". → Remove the tag that puts it in group-shirts; it belongs in the matching *-sweatshirts collection.
-
-### Men's Christmas – White Elephant Champion Hoodie `mens-christmas-white-elephant-champion-hoodie`
-- **ERROR** Hoodie listed in the non-hoodie collection "Group & Family Shirts". → Remove the tag that puts it in group-shirts; hoodies go only in *-hoodies collections.
-
-### Men's Christmas – Attending Under Protest Hoodie `mens-christmas-attending-under-protest-hoodie`
-- **ERROR** Hoodie listed in the non-hoodie collection "Group & Family Shirts". → Remove the tag that puts it in group-shirts; hoodies go only in *-hoodies collections.
-
 ### Unisex Halloween – Midnight Feature Tee `unisex-halloween-midnight-feature-graphic-tee`
 - **WARN** No meta description. → Write one ≤ 155 chars.
 
@@ -57,6 +32,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No meta description. → Write one ≤ 155 chars.
 
 ### Unisex Thanksgiving – Totally a Pilgrim Hoodie `unisex-thanksgiving-totally-a-pilgrim-hoodie`
+- **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
+
+### Women's Thanksgiving – Friendsgiving Hoodie `womens-thanksgiving-friendsgiving-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
 
 ### Unisex Thanksgiving – Laying Low Till Friday Hoodie `unisex-thanksgiving-laying-low-till-friday-turkey-hoodie`
@@ -95,6 +73,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
 
 ### Women's Thanksgiving – Here for the Scraps Hoodie `womens-thanksgiving-here-for-the-scraps-hoodie`
+- **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
+
+### Unisex Thanksgiving – Turkey Trot Hoodie `unisex-thanksgiving-turkey-trot-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
 
 ### Women's Anime – Slurp Responsibly Half Zip `womens-anime-slurp-responsibly-half-zip`

@@ -16,7 +16,7 @@ One file per product, docs/pipeline/<id>-<slug>.md. Each role only touches items
 ```
 status: READY
 lane: A            # A holiday · B evergreen + crop · C hoodies · D unused (clashes with director [D] commits) · E overflow (2026-10-17: C and E take ART-NEXT batch items)
-type: new          # new | twin (crewneck/hoodie of an existing design) | redo (men's redo, same product)
+type: new          # new | twin (crewneck/hoodie of an existing design) | redo (men's redo, same product) | addon (gift add-on on an A-grade design: socks, boxers, ornaments, mugs; docs/backlog/gift-addons.md)
 id: 134
 handle: unisex-thanksgiving-stuffed-since-1621-graphic-tee
 ---

@@ -64,7 +64,7 @@ if (onlyHandle) {
 // ---- facts a human would read off the product ------------------------------------------------
 const audienceOf = (p) => /^women'?s\b/i.test(p.title) ? 'women' : /^men'?s\b/i.test(p.title) ? 'men' : /^unisex\b/i.test(p.title) ? 'unisex' : null;
 const handleAud = (h) => h.startsWith('womens-') ? 'women' : h.startsWith('mens-') ? 'men' : h.startsWith('unisex-') ? 'unisex' : null;
-const kindOf = (p) => /crewneck|sweatshirt/i.test(p.title + ' ' + p.handle) ? 'sweatshirt' : /hoodie|half zip/i.test(p.title) ? 'hoodie' /* half zips price and file like hoodies (director 2026-10-16) */ : 'tee';
+const kindOf = (p) => /-socks$/.test(p.handle) ? 'socks' /* gift add-on, Printful #882 (director 2026-10-18) */ : /crewneck|sweatshirt/i.test(p.title + ' ' + p.handle) ? 'sweatshirt' : /hoodie|half zip/i.test(p.title) ? 'hoodie' /* half zips price and file like hoodies (director 2026-10-16) */ : 'tee';
 const nicheOf = (p) => (p.title.split(/\s[–-]\s/)[0] ?? '').replace(/^(women'?s|men'?s|unisex)\s+/i, '').trim().toLowerCase();
 const blankOf = (p) => {
   const u = p.images.nodes.map((i) => i.url).join(' ');
@@ -108,6 +108,8 @@ for (const p of products) {
   for (const c of cols) {
     if (c.audience === 'men' && aud === 'women') add('ERROR', p, `Women's product listed in "${c.name}".`, `Remove the tag that puts it in ${c.slug}.`);
     if (c.audience === 'women' && aud === 'men') add('ERROR', p, `Men's product listed in "${c.name}".`, `Remove the tag that puts it in ${c.slug}.`);
+    if (c.slug === 'group-shirts') continue; // mixed-garment crew hub: its copy and FAQ sell tees, crewnecks and hoodies together (director 2026-10-18)
+    if (kind === 'socks' && !/sock|gift/.test(c.slug)) { add('ERROR', p, `Socks listed in the garment collection "${c.name}".`, `Remove the tag that puts it in ${c.slug}; socks go only in sock and gift collections.`); continue; }
     if (kind === 'hoodie' && !/hoodie/.test(c.slug) && c.slug !== 'half-zip-pullovers' && c.slug !== 'cropped-sweatshirts' /* holds cropped hoodies: Printful has no cropped crewneck (director 2026-10-16) */ && !(c.slug === 'embroidered-sweatshirts' && /embroidered/.test(p.handle)) /* R4.8: real-embroidery hoodies may join (director 2026-10-16) */) add('ERROR', p, `Hoodie listed in the non-hoodie collection "${c.name}".`, `Remove the tag that puts it in ${c.slug}; hoodies go only in *-hoodies collections.`);
     if (kind === 'sweatshirt' && !/sweatshirt|hoodie/.test(c.slug)) add('ERROR', p, `Crewneck sweatshirt listed in the tee collection "${c.name}".`, `Remove the tag that puts it in ${c.slug}; it belongs in the matching *-sweatshirts collection.`);
     if (kind === 'tee' && /sweatshirt/.test(c.slug)) add('ERROR', p, `Tee listed in "${c.name}".`, `Remove the tag that puts it in ${c.slug}.`);
@@ -123,7 +125,7 @@ for (const p of products) {
   const pictured = new Set(p.variants.nodes.filter((v) => v.image).map((v) => v.selectedOptions.find((o) => o.name === 'Color')?.value));
   const unpictured = colors.filter((c) => !pictured.has(c));
   if (imgs.length && unpictured.length) add('WARN', p, `${unpictured.length} of ${colors.length} colors have no photo (${unpictured.slice(0, 4).join(', ')}${unpictured.length > 4 ? '…' : ''}).`, 'Add a Printful front mockup for each color and link it to the variants.');
-  const wrongWord = imgs.filter((i) => i.altText && (kind === 'sweatshirt' ? /\b(graphic )?tee\b|t-shirt/i : /crewneck|sweatshirt/i).test(i.altText));
+  const wrongWord = imgs.filter((i) => i.altText && (kind === 'sweatshirt' ? /\b(graphic )?tee\b|t-shirt/i : kind === 'socks' ? /\b(graphic )?tee\b|t-shirt|sweatshirt|hoodie/i : /crewneck|sweatshirt/i).test(i.altText));
   if (wrongWord.length) add('WARN', p, `${wrongWord.length} photo alt text(s) name the wrong garment ("${wrongWord[0].altText.slice(0, 60)}").`, 'Rewrite alts as "<Design> <niche> <graphic tee|crewneck sweatshirt>, <color>, front view".');
 
   // Price.
@@ -138,7 +140,8 @@ for (const p of products) {
   const osw = kind === 'sweatshirt' && /-oversized-sweatshirt$/.test(p.handle);
   // Camo sweatshirt, all-over-print sweatshirt #1418 with a camo pattern, handle ending -camo-sweatshirt: $56.99 / $61.99 (R12.1, director 2026-10-17).
   const csw = kind === 'sweatshirt' && /-camo-sweatshirt$/.test(p.handle);
-  let [want, wantCmp] = pump ? ['39.99', null] : hp ? (onSale ? [hp[1], hp[2]] : [hp[2], null]) : osw ? (onSale ? ['49.99', '54.99'] : ['54.99', null]) : csw ? (onSale ? ['56.99', '61.99'] : ['61.99', null]) : kind === 'sweatshirt' ? (onSale ? ['34.99', '39.99'] : ['39.99', null]) : (onSale ? ['24.99', '29.99'] : ['29.99', null]);
+  // Socks (gift add-on, Printful #882): $18.99 flat, no compare-at, sale or not (docs/backlog/gift-addons.md, director 2026-10-18).
+  let [want, wantCmp] = kind === 'socks' ? ['18.99', null] : pump ? ['39.99', null] : hp ? (onSale ? [hp[1], hp[2]] : [hp[2], null]) : osw ? (onSale ? ['49.99', '54.99'] : ['54.99', null]) : csw ? (onSale ? ['56.99', '61.99'] : ['61.99', null]) : kind === 'sweatshirt' ? (onSale ? ['34.99', '39.99'] : ['39.99', null]) : (onSale ? ['24.99', '29.99'] : ['29.99', null]);
   // Honest reference prices (2026-10-17, FTC former-price rule + Google sale_price: the compare-at must be a price we
   // actually charged). Only products that existed before the sale started (2026-10-15) carry a compare-at; anything
   // created since sells at the sale-tier price with no compare-at (no "was" price, no Holiday sale label).
