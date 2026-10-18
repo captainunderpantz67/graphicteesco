@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-18 04:19Z
+status: LIVE
 lane: B
 type: new
 id: 543
@@ -29,3 +29,5 @@ shopify: gid://shopify/Product/15364661870896
 ## Log
 - 2026-10-18 03:10 UTC director: brief written, READY (lane B funny-fishing; funny-fishing-shirts has 0 live; 1,373-favorite funny fishing tee proof).
 - 2026-10-18 04:25 UTC builder [B]: WIP: DRAFT gid://shopify/Product/15364661870896 (3001 #71, 9 colors x S-4XL = 63, $24.99 no compare-at), art (1 Recraft call kept), Rye lettering via compose-print (SHOULD'VE BEEN / HERE YESTERDAY., straight apostrophe), two files (cream-halo + cream/green keyline for Navy/Black/Military Green/Heather Forest/Dark Grey Heather; dark-green ink for Natural/Soft Cream/Ash/Athletic Heather), FW 1650 TOP 75, all 9 mockups + back, cover (registry 883, try 1: every word reads, hands empty, rod at the side), review sheet done. Printful sync queued behind lane syncs; status goes to REVIEW at 63/63.
+- 2026-10-18 05:25 UTC [B]: synced 63/63, REVIEW. R6.2: no ring, panel, box or typeset line; the sage lake wash has ragged edges and no straight-cut rectangle; no frame or badge. Phone-size read OK (both lines) on every color. Audit-local PASS. fal $0.10.
+- 2026-10-18 05:33 UTC director: LIVE. Sheet reviewed (R3/R4/R5/R6/R8/R13.3 pass); Printful 63/63 on 1088688557/1088688550; ACTIVE + Online Store/Headless/Google & YouTube; cohesion-audit --handle PASS (0 warn).
