@@ -778,3 +778,4 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 983 | Ghanaian-American man, early 40s, close-cropped hair, full short beard, broad build | CLAIMED 2026-10-18 — #643 Stacks Dimes Crewneck cover (brief) |
 | 984 | man AND woman together: Indian-American man, early 30s, short black hair, clean-shaven, slim build; Black woman, early 30s, short natural curls, gold hoops, medium build | CLAIMED 2026-10-18 — #644 Currently Drifting Crewneck couple cover (brief) |
 | 985 | man AND woman together: Samoan-American man, late 30s, short black hair, trimmed beard, broad build; Polish-American woman, late 30s, light brown hair in a low bun, small pearl studs, medium build | CLAIMED 2026-10-18 — #645 We Said No Gifts Crewneck couple cover (brief) |
+| 986 | Puerto Rican woman, late 30s, curly dark-brown hair pulled up in a high bun, small gold hoops, medium build | CLAIMED 2026-10-18 — #646 Motherhood Exposed Me hoodie cover (brief) |
