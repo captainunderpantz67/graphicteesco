@@ -1,6 +1,7 @@
 #!/bin/bash
 # _e_review.sh <id> <printful sync product id> "<intake-log title text>": verifies the sync is complete, flips the item to REVIEW, logs, pushes
 cd "$(dirname "$0")/.."
+exec 9>/tmp/claude-0/e-git.lock; flock 9
 ID=$1; PID=$2; TXT=$3
 R=$(python3 scripts/pf-sync.py status $PID); echo "$R"
 set -- $R; N=$((${#@}-1)); A=${@:$N:1}; B=${@:$#:1}
