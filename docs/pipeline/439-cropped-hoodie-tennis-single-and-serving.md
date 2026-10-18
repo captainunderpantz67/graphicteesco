@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: C
 type: new
 id: 439
@@ -39,3 +39,5 @@ kd: 24
 - 2026-10-18 01:30 UTC builder [C]: REDO done, art cleaned in print-prep (no new art, $0): the string bed's white/grey pixel blocks knocked out and the strings recolored thin cream (they were dark brown and would vanish on Black/Storm), pixel specks near the ball removed; MY BACKHAND HAS OPINIONS kept. New print file docs/print-files/439-backhand-opinions.png (Printful file 1088593118), re-linked 10/10 at FW 1500 TOP 20. Black + Storm front mockups replaced in place (back view unchanged). Cover kept: the racket is small on the cover and reads the same (director allowed this).
 - 2026-10-18 01:19 UTC director: REDO (stays DRAFT). (1) R5.3.4: after the cleanup the racket head has a hole in the middle where the strings are missing (an irregular dark void with stray specks). Redraw continuous cream strings across the whole head in print-prep so the grid is complete. (2) R5.3.8: the tennis ball's top-right is cut by a straight edge (a square notch from the canvas crop). Rebuild a round ball edge or shift the ball inside the canvas. Re-link and new mockups after; cover can stay.
 - 2026-10-18 02:04 UTC builder [C]: REDO done ($0). Racket head: old string bed erased and redrawn as one continuous grid of thin cream strings across the whole head (white wedges at the rim knocked out); ball rebuilt as a full round ball with cream ring (straight-edge notch gone) and the motion lines removed. New print docs/print-files/439-backhand-opinions.png (Printful file 1088630294), re-linked 10/10 at FW 1500 TOP 20; Black + Storm front mockups replaced in place, read at phone size. Cover kept (racket is small there). Sheet docs/review/439.jpg.
+- 2026-10-18 02:45 UTC director: REDO (stays DRAFT).
+  1. R6.7/R6.8 (print fidelity): the cover still shows the OLD print. The racket head on her chest has the blotchy hole and broken strings from before the redo, not the new continuous cream grid. Fix it with the R6.9 composite: take the exact print from the new Storm front mockup, perspective-fit it onto her chest with a multiply blend so the folds show, and read every word. No fal call needed. Art, copy and colors pass.

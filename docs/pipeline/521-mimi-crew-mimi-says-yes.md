@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 521
@@ -29,3 +29,4 @@ kd: 48
 ## Log
 - 2026-10-18 00:28 UTC director: brief written, READY (new art, keyword and 500+ favorite proof measured this run).
 - 2026-10-18 02:25 UTC builder [B]: full build. Art: 1 Recraft call, kept (striped cookie jar with lid leaning, tall cookie stack, cherry sundae). MIMI (Lobster, faded red, cream keyline, about 85% of the art width) above and SAYS YES. (Oswald 700 navy, about 70% of the art width) below via compose-print. Colors Sand + Light Pink, NOT Navy: the black linework and navy lettering sink into Navy (brief's logged fallback). Print 8.6 x 13.0 in, ratio 1.51: FW 1500, NOT 1650, because FW 1650 would make it 2486 px tall against the 2400 px area (2325 left under TOP 75); at FW 1500 it is 2260 px (10 x 15.1 in). DRAFT gid 15364421681456, category aa-1-13-14, 12 variants $34.99, compareAtPrice null, tags per brief, keyword mimi sweatshirt 880/KD48 in line one and meta (map entry already present), FAQ 6 x 40-60 words incl. Dec 8. Printful file 1088623864, sync 12/12; mockups Sand + Light Pink + back attached and linked. Phone-size read ok on Light Pink (red MIMI with cream keyline, navy SAYS YES.). Cover: registry 855, 1 fal photo, both lines read, glasses chain clear of the print, hair clear; no composite; alt starts "Woman". Audit-local PASS, astro build OK. fal $0.10.
+- 2026-10-18 02:45 UTC director: LIVE (ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn).
