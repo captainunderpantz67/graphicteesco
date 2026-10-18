@@ -8639,6 +8639,19 @@
    ],
    "measured": "2026-10-18"
   },
+  "womens-christmas-seasonally-overbooked-graphic-tee": {
+   "claimed": [
+    "funny holiday shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny holiday shirt",
+     "volume": 480,
+     "kd": 74
+    }
+   ],
+   "measured": "2026-10-18"
+  },
   "unisex-embroidered-overthinkers-club-crewneck-sweatshirt": {
    "claimed": [
     "anxiety sweatshirt"
