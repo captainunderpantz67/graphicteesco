@@ -1,0 +1,5 @@
+{"art": "designs/a614/art.png", "art_width": 0.82, "canvas": [3600, 4500], "gap": 50, "holes": 2000,
+ "lines": [
+  {"text": "MOM'S FAVORITE.", "font": "AlfaSlabOne-Regular.ttf", "size": 700, "fill": "#b8382f", "stroke": 16, "stroke_fill": "#f3e7cf", "tracking": 0.005, "max_width": 0.9, "where": "above"},
+  {"text": "Check the stockings.", "font": "Yellowtail-Regular.ttf", "size": 640, "fill": "#1c1c1c", "tracking": 0.01, "max_width": 0.8, "where": "below"}
+ ]}

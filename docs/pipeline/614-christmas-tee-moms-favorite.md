@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-18 17:11
+status: ART-NEXT
 lane: A
 type: new
 id: 614
@@ -28,3 +28,4 @@ kd: 12
 ## Log
 - 2026-10-18 07:36 UTC director: brief written, READY (lane A; kd 12; KD ≤ 20 gift-intent band; christmas gifts for brother 9,900 measured with a December surge; proof named under the gate).
 - 2026-10-18 14:06 UTC Claude: KEYWORD FIX before build (R2.10). The primary is a gift-guide search ("christmas gifts for ..."): huge volume, single-digit KD and no competition count on RankHero, the same false signal as "park sweatshirt". People searching it want idea lists, not one shirt. Builder: re-target the primary to a real shirt phrase with a competition count (try e.g. "funny christmas shirt", "secret santa gift", "matching christmas shirts", "christmas shirt for brother" and pick the best measured one, not claimed in docs/product-keyword-map.json). The gift phrase may appear once in copy as a secondary. Then build as normal.
+- 2026-10-18 17:13 UTC builder [A]: primary kept 'moms favorite shirt' (880 / KD 47, comp 19,029; claimed by this handle); 'christmas gifts for brother' once as secondary. Art try 1 ($0.04). Print file 1088985656 (3132x3291), FW 1650 TOP 75. DRAFT gid 15365757108528 (6 light colors x 7 = 42, $24.99, no compare-at). Dark-ink file, light colors only; no cream fill. Sync 482803156 started. Cover pending (registry #954).
