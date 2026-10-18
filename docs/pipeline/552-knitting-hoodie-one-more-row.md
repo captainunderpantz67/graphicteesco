@@ -1,0 +1,24 @@
+status: READY
+lane: C
+type: twin
+id: 552
+handle: womens-knitting-one-more-row-hoodie
+kd: 14
+---
+## Women's Knitting – One More Row Hoodie
+- **Twin of:** #519 womens-knitting-one-more-row-crewneck-sweatshirt (LIVE 2026-10-18). Reuse the final print (Printful file 1088614820, 11.5 x 12.5 in: armchair, lamp, mantel clock, yarn basket with a sleeping tabby and a half-knit striped scarf on needles, ONE MORE ROW in faded red Fraunces 900 with a cream keyline above and (then bed) in navy Yellowtail below). No new art. R6.2 check: real-font lines, no badge, ring, frame or rounded scene card; the scene is the shape. Re-check the closed counters of O, R and the (then bed) loops on Light Pink before linking (R5.3.8).
+- **Blank:** Pullover hoodie Gildan 18500 (Printful #146), 8 oz 50/50 fleece, handle ends -hoodie. Copy facts from the Printful spec only (R7.1). Own width (R5.3.8): FW 1500 or wider. The print is near square (ratio 1.08, about 1,630 px high at FW 1500), so it should sit above the pouch seam; if (then bed) touches the seam, move it up beside the yarn basket in compose-print, never shrink the print (R5.3.2). (then bed) stays at least 50% of the art's width and reads at phone size.
+- **Colors (R7.2):** Sand + Light Pink, the crewneck's logged pair (the black linework and navy script sink on Navy, #519 builder note; Light Pink is the women's bold color). A Printful mockup for every color before REVIEW.
+- **Hook:** a cozy armchair at night, a cat asleep on the yarn and a half-knit scarf on the needles: ONE MORE ROW (then bed). Every knitter's lie, said with a straight face. Women's, cheeky (R3.4); twins carry the original line (R3.9).
+- **Why it's not taken:** our own art; Etsy knitting hoodies are 'Knitting Definition' text and plain 'Knitting Club' prints; 'One More Row (then bed)' with a night scene didn't show in the RankHero top listings (checked for #519).
+- **Primary keyword:** knitter hoodie: 8,100 / KD 14 (RankHero 2026-10-18, director, scripts/keyword-gap.py; competition 555). KD 20-or-under band with clear buyer intent (R2.5): a knitter is a person, so the phrase means apparel for knitters (the same reason #519 took 'knitter sweatshirt'; 'knitting hoodie' 8,100 / 12 and 'knit hoodie' 6,600 / 13 also catch knitted-hoodie patterns, so not used). RankHero shows only 16% US for this phrase; it's evergreen, not holiday intent (R2.6 trend rule doesn't apply), and still about 1,300 US searches a month. Unowned in docs/product-keyword-map.json and every open brief (checked this run); recorded there with this handle. Differs from #519's 'knitter sweatshirt' and its supporting 'knitting sweatshirt' (R2.8). Supporting once: yarn hoodie (170 / KD 34).
+- **Popularity evidence (R5.2):** #519's gate proof ('Funny Crochet Sweatshirt, Knitting Gift for Mom' 4,265 favorites; 'One More Chapter' sweatshirt 3,303, docs/research/etsy-2026-10-17/); #519 went LIVE on this art (audit PASS, 0 warnings).
+- **Copy:** line one: the joke + who wears it + when (R9.11: late nights with the needles, knit night, Christmas). Describe only what is in the art (R8.3; the clock hands aren't readable, so never name a time); never say we drew it ("Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, warmth and weight from the Printful spec, wash care, gift fit for the knitter in the family, Christmas order-by about December 8, free size exchange). Primary keyword once in the first sentence and once in the meta; supporting phrase at most once; no stuffing.
+- **Cover:** registry #892 (Chinese-American woman, mid 60s, silver hair in a low twisted bun, round jade-green glasses, petite build), CLAIMED. Alt starts 'Woman'. Scene: a small-town yarn shop in fall, cubbies of colorful yarn on the wall behind her, a wooden table with a basket of skeins at the side. Generate with the product's own Printful mockup in the cover color as `--design` (--n 1), hood named in the prompt ("hood visible behind the neck"); hands empty, at her sides or in the pouch; no needles or yarn in hand or over the print (the art's needles and cat stay printed, never real objects on her, R6.9); nothing over any part of the print; read every word before saving; any overlap = composite fix first (R6.9). Max 2 attempts.
+- **Title / handle:** "Women's Knitting – One More Row Hoodie" / `womens-knitting-one-more-row-hoodie` (R7.4; the suffix sets the audit price).
+- **Tags:** graphic-hoodies-for-women, hoodie, ai-art, intake-done. No tee or sweatshirt collection tags (R7.5).
+- **Price:** pullover $39.99, NO compare-at (R12.1).
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d).
+---
+## Log
+- 2026-10-18 03:10 UTC director: brief written, READY (hoodie twin of LIVE #519; keyword measured this run).

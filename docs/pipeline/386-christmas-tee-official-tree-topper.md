@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-18 02:25 UTC
+status: REVIEW
 lane: E
 type: new
 id: 386
@@ -26,3 +26,4 @@ kd: 64
 - 2026-10-17 08:55 UTC director: brief written, READY (keyword measured this run; new art, ART-NEXT draft while fal is empty).
 - 2026-10-17 08:30 UTC builder [A]: ART-NEXT (fal empty): full Shopify DRAFT gid://shopify/Product/15363403546928 (Women's tee 6400, White/Natural/Heather Stone/Athletic Heather/Pink x S-3XL = 30, $24.99 no compare-at, category aa-1-13-8, keyword holiday shirt 4400/KD64 in map). Copy written from the brief's art description: re-check every sentence against the real art when it exists. No Printful sync, no images, no cover. Never publish until art + cover exist.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane E.
+- 2026-10-18 05:15 UTC builder [E]: REVIEW. Art: 1 Recraft call (try 1 kept: orange tabby on top of a decorated tree, gold star on the floor). OFFICIAL / TREE TOPPER in Alfa Slab One #8f2b25 below the tree via compose-print (no model lettering), white gaps knocked out. Print 11.0 x 14.6 in, FW 1400 TOP 75 on Bella+Canvas 6400 (Printful catalog 360). Colors White, Natural, Heather Stone, Athletic Heather, Pink; dark red lettering and the tree read on all five. Printful file 1088637994, sync 30/30. One mockup per color + back attached and linked (back view is the back:Back key; a first upload with a wrong URL was deleted and redone). Shopify copy rewritten to the real art (no tinsel or lights in the art; garland and ornaments only), 5 FAQs 45-50 words incl. Dec 8; keyword holiday shirt in map. Cover registry 577: attempt 1 dropped TREE TOPPER and had white bars, so the bars were cropped and the exact print composited (R6.9); real cat beside her, hands in pockets, nothing over the print. Variant-photo audit clean; audit --handle only 'not visible'. fal ~$0.1.

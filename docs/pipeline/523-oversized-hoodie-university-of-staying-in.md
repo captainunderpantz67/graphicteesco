@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-18 02:22
+status: LIVE
 lane: C
 type: twin
 id: 523
@@ -24,3 +24,5 @@ kd: 24
 ## Log
 - 2026-10-18 01:24 UTC director: brief written, READY (hoodie twin of a LIVE winner for lane C; keyword measured this run).
 - 2026-10-18 02:27 UTC builder [C]: built from #487's print (Printful file 1088504821, 3370x3488). R6.2 check: real-font lines (UNIVERSITY OF / STAYING IN / EST. WHENEVER in Graduate), straight lines, no arch, ring or panel; counters closed. Colors: Navy + Asphalt, NOT Dust: the cream lettering and the pale chair sink on light Dust and the navy ink needs a mid-to-dark ground, so I picked the closest pair the one file reads on (Asphalt is a mid grey; a dark-ink Dust file would mean a second print file). FW 1500 TOP 30 (FW 1600 clipped EST. WHENEVER at the bottom of the oversized print area; at 1500 it ends clear above the pouch). DRAFT gid 15364464607536 (Navy + Asphalt x S-3XL = 12, $54.99, no compare-at, category hoodies, tags per brief). Keyword antisocial hoodie 1,600/KD24 in the map. FAQs 5 x 46-52 words, order-by Dec 8. Printful file 1088640489, sync 482667841 running. Mockups per color + back attached, variant images linked. Cover: 2 fal images ($0.12, registries #857/#858): attempt 1 put the woman in a crewneck, attempt 2 has both in the hoodie with hoods visible; the man's arm hid her EST. and the model redrew both prints, so both were composited from the print file (R6.9) and every word read. Audit-local PASS. fal $0.12.
+- 2026-10-18 02:37 UTC builder [C]: Sync 12/12. REVIEW. Sheet docs/review/523.jpg.
+- 2026-10-18 03:30 UTC director: LIVE (ACTIVE + published, audit PASS).

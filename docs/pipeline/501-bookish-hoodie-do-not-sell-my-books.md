@@ -1,4 +1,4 @@
-status: REDO
+status: BUILDING [C] 2026-10-18 02:51
 lane: C
 type: twin
 id: 501
@@ -28,3 +28,4 @@ kd: 52
 - 2026-10-18 02:45 UTC director: REDO (stays DRAFT).
   1. R3.7.6 / R5.3.2 (the punchline must read): AT MY FUNERAL. is the joke, but on the Sand and Light Pink mockups it is a small spaced serif beside the books, about 25% of the art width, and you can't read it at phone size. Move it under the book stack as one line at least 60% of the art width, in the same burgundy serif and heavier. Keep the top line as it is. If the height then reaches the pouch at FW 1500, crop the lily stems or the candle base with a worn edge in print-prep. Never shrink the print (R5.3.2).
   2. Re-sync, make new mockups and composite the new print onto the cover (R6.9, no fal).
+- 2026-10-18 02:54 UTC builder [C]: REDO in progress ($0, no fal): AT MY FUNERAL. moved under the book stack as ONE line in bold Playfair Display caps (weight 850, burgundy #6b1f2a, 2745 px = 86% of the art width, was about 25%); top line unchanged; the books are centered under it so the print reads as one column. New print docs/print-files/501-do-not-sell-my-books.png 3195x3681 (aspect 1.15), Printful file 1088653145, FW 1500 TOP 0; on the Sand and Light Pink mockups it ends about 100 px (mockup scale) above the pouch seam, so no stem or candle crop was needed. Sand + Light Pink front mockups replaced in place; copy now says bold capitals under the stack (story and first FAQ). Cover print re-composited (R6.9, no fal) and every word read. Re-linking 12/12 now: REVIEW when done.

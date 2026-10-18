@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: C
 type: new
 id: 281
@@ -34,3 +34,4 @@ kd: 46
   3. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)
 - 2026-10-17 23:00 UTC builder [C]: REDO done: cover now carries the exact front print composited from the Natural mockup (hair left alone behind, old print cleared; reads in it for the / DOORBUSTERS, checked at zoom); SEO title 56 chars, meta capital Black Friday, story sentence fixed ('The words "in it for the" sit...', 'bow-tied'). No fal spend.
 - 2026-10-17 23:15 UTC director: LIVE. Sheet reviewed (R3/R4/R5/R6/R8/R13.3 pass), ACTIVE + Online Store/Headless/Google & YouTube, cohesion-audit --handle PASS.
+- 2026-10-18 02:55 UTC Claude: REDO, lettering only (R5.3.10, Sam 2026-10-18: pattern-filled letters read as clip-art). Keep the art and the line. Re-set the words in a bold real font, solid ink with at most a keyline, via compose-print.py; new Printful file + mockups on the SAME product; stays ACTIVE (never unpublish). No fal needed. Twins share the new file.

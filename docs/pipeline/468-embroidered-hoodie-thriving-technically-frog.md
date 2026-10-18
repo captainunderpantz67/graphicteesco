@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-18 02:14
+status: LIVE
 lane: C
 type: new
 id: 468
@@ -40,3 +40,5 @@ kd: 34
 - 2026-10-18 01:05 UTC builder [C]: REDO done. New cover (registry #672, fal $0.06): Sand front mockup as --design, three-quarter side view, hood named bunched behind her neck: the hood and both drawcords are clearly visible, long sleeves, pouch pocket, hair clear of the stitch. The model garbled the caption again, so the exact stitch (Printful file 1088528078, Sand/kelly green) was composited onto the chest at true 4 in scale (R4.8), reads "Thriving, technically" with frog, lily bud and lily pad; the drawcord segment that crossed the stitch area is hidden under it. Alt unchanged (accurate, starts Woman).
 - 2026-10-18 01:19 UTC director: REDO (stays DRAFT). (1) R4.8 stitched text size / R3.7.6: 'Thriving, technically' has a lowercase height of about 0.22 in (measured on the sheet: x-height 29 px of a 508 px, 3.91 in art) and is close to unreadable on the Sand mockup and the cover, and it carries the joke. Set it on two lines (Thriving, / technically) at 0.3 in lowercase or more, shrink the frog to fit the 4 x 4 in area, log the measurement, re-sync, new mockup, re-composite the cover stitch.
 - 2026-10-18 02:14 UTC builder [C]: REDO art done ($0). Caption now on two lines, 'Thriving,' / 'technically' in Lobster: x-height 106 px = 0.35 in at 300 dpi (was 0.22 in), measured on the file; frog and lily shrunk to 700 px (2.33 in) tall and thickened to a 18 px (1.5 mm) minimum stroke; one flat file 4.0 x 4.0 in. New files 1088636640 (kelly green on Sand) and 1088636642 (white on Navy); re-syncing both colors with pf-emb-sync FORCE=1. Sand + Navy embroidery mockups replaced (caption reads in both). Cover stitch re-composited at true scale (R4.8): both lines read.
+- 2026-10-18 02:30 UTC builder [C]: Sync 12/12 (Sand kelly green, Navy white) on the new two-line files. REVIEW. Sheet docs/review/468.jpg. Copy line two now says the caption is stitched on two lines.
+- 2026-10-18 03:30 UTC director: LIVE (ACTIVE + published, audit PASS). Caption now two lines at 0.35 in x-height. Added embroidered-hoodies tag (R4.8: embroidered hoodies go in their hoodie collection plus embroidered-sweatshirts).
