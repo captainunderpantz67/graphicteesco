@@ -1,7 +1,8 @@
-status: READY
+status: REVIEW
 lane: C
 type: new
 id: 510
+shopify: gid://shopify/Product/15364378624304
 handle: unisex-national-park-running-late-bison-traffic-heavyweight-hoodie
 kd: 30
 ---
@@ -27,3 +28,5 @@ kd: 30
 ---
 ## Log
 - 2026-10-17 22:31 UTC director: brief written, READY (wave-1 national park, keyword measured this run).
+- 2026-10-18 06:40 UTC builder [C]: art 1 Recraft call ($0.04, first try kept: sedan with roof luggage, huge bison behind it, valley road; the model drew a vintage sedan not a wagon, copy says sedan). Paper-white background removed; RUNNING LATE. / BISON TRAFFIC. in Alfa Slab One (cream, navy keyline), print 3122x3087 at FW 1500 TOP 30 (aspect 0.99). DRAFT gid 15364378624304 (Sandstone + Storm Blue x XS-3XL, 14 variants, $49.99 no compare-at). Keyword road trip hoodie 1,000/KD30 in the map. FAQs 5 x 47-52 words, Dec 8. Printful file 1088612355, sync 482653343 running. Mockups per color + back attached. Cover: 2 fal images ($0.12, registries #839/#840; try 1 had white letterbox bars, try 2 kept: matching storm blue hoodies, hoods visible, hands in pockets); prints composited on both (R6.9, the woman's tilted) and every word read; the woman's cover garment shows no hood string issue.
+- 2026-10-18 07:10 UTC builder [C]: REVIEW. Sync 14/14. Sheet docs/review/510.jpg. Audit only DRAFT-not-visible. fal total $0.16.

@@ -479,7 +479,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 586 | Guatemalan-American woman, early 40s, shoulder-length dark hair with a few greys, tortoiseshell glasses | USED 2026-10-16 — #395 Indoor Recess Survivor crewneck cover (seedream, 1 attempt) |
 | 587 | Mexican-American woman, late 20s, long dark waves, turquoise earrings, tan felt hat held at her side | USED 2026-10-17 — #396 Yeehaw but Quietly crewneck cover (try 2 kept, 2 images) |
 | 588 | man AND woman together: Chinese-American man, mid 30s, short side-parted hair; white woman, mid 30s, sandy-blonde shag | USED 2026-10-17 - #397 Currently Drifting otter hoodie cover (pair with #588-589) |
-| 589 | man AND woman together: Black man, early 40s, salt-and-pepper beard, beanie held at his side; Korean-American woman, late 30s, long straight hair, denim jacket open | RESERVED — #398 Fine Dumpster Dining Hoodie cover |
+| 589 | man AND woman together: Black man, early 40s, salt-and-pepper beard, beanie held at his side; Korean-American woman, late 30s, long straight hair, denim jacket open | USED 2026-10-18 - #398 Fine Dumpster Dining hoodie cover (seedream, Navy, diner alley, prints composited) |
 | 590 | man AND woman together: Cuban-American man, early 30s, short curly hair, runner's build; white woman, early 30s, high blonde ponytail | RESERVED — #399 Turkey Trot Hoodie cover |
 | 591 | Filipino-American woman, early 30s, long straight black hair, small gold hoops | RESERVED — #400 Sleighping In Hoodie cover |
 | 592 | White woman, late 20s, auburn pixie cut, freckles | USED 2026-10-17 — #401 Night Owl, Retired hoodie cover (seedream, 1 attempt) |
@@ -606,8 +606,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 811 | Korean-American woman, mid 20s, long straight hair with curtain bangs, small gold studs | USED 2026-10-17 - #487 University of Staying In crewneck cover (seedream, navy, rainy living room; pair 810-811) |
 | 812 | Puerto Rican woman, late 30s, shoulder-length wavy dark hair with copper highlights, statement earrings | USED 2026-10-18 — #488 I Said It Nicely in My Head Tee cover (brief) |
 | 813 | White woman, mid 20s, platinum-blonde shag, nose hoop, gold necklaces | USED 2026-10-17 - #489 Already Over It Kindly hoodie cover (seedream, navy, coffee shop) |
-| 814 | Vietnamese-American man, early 30s, short textured black hair, light stubble | CLAIMED 2026-10-17 — #490 Plans Canceled. Mood Improved. Hoodie cover (brief) |
-| 815 | white woman, early 30s, long auburn hair in a messy bun, freckles | CLAIMED 2026-10-17 — #490 Plans Canceled. Mood Improved. Hoodie cover (brief) |
+| 814 | Vietnamese-American man, early 30s, short textured black hair, light stubble | USED 2026-10-18 — #490 Plans Canceled. Mood Improved. hoodie cover (pair 814-815) |
+| 815 | white woman, early 30s, long auburn hair in a messy bun, freckles | USED 2026-10-18 — #490 Plans Canceled. Mood Improved. hoodie cover (pair 814-815) |
 | 816 | Indian-American woman, early 40s, long wavy dark hair with a few silver strands, small nose stud, tortoiseshell glasses | CLAIMED 2026-10-17 — #491 Ghost One More Chapter Club Crewneck Sweatshirt cover (brief) |
 | 817 | Haitian-American woman, mid 30s, short natural hair with a side part, small gold studs | USED 2026-10-18 — #492 Embroidered Night Shift Silly Goose Crewneck Sweatshirt cover (brief) |
 | 818 | Filipino man, early 30s, short black undercut, clean-shaven | USED 2026-10-17 - #493 Calm Face Loud Brain crewneck cover (seedream, navy, hospital hallway; pair 818-819) |
@@ -623,7 +623,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 433 | (reused as the brief specifies) | USED again 2026-10-17 — #257 Wishbone Champion tee cover redo (seedream, 1 attempt) |
 | 434 | (reused as the brief specifies) | USED again 2026-10-17 — #258 Wishbone Champion crewneck cover redo (seedream, 3 attempts: try 1 white bars top and bottom, try 2 black frame, cropped the frame off the kept image) |
 | 828 | Black woman, late 30s, shoulder-length twist-out curls, tortoiseshell glasses | CLAIMED 2026-10-17 — #501 Do Not Sell My Books Hoodie cover (brief) |
-| 829 | Korean-American man, early 30s, short textured black hair, athletic build, light stubble | CLAIMED 2026-10-17 — #502 Sisyphus Had Bad Programming Hoodie cover (brief) |
+| 829 | Korean-American man, early 30s, short textured black hair, athletic build, light stubble | USED 2026-10-18 - #502 Sisyphus Had Bad Programming hoodie cover (seedream, Sand, gym at dawn) |
 | 830 | Puerto Rican man, mid 50s, short grey crew cut, clean-shaven, tanned, stocky build | USED 2026-10-18 - #503 Breakfast Ball Enthusiast heavyweight hoodie cover (seedream, Storm Blue, first tee at sunrise) |
 | 831 | Nigerian-American man, late 30s, short twists, neatly trimmed beard, medium build | USED 2026-10-18 - #504 Not Cheating Improving My Lie golf hoodie cover (seedream, Navy, driving range, print composited) |
 | 832 | white woman, mid 30s, auburn hair tied back in a ponytail, light freckles | USED 2026-10-18 - #504 Not Cheating Improving My Lie golf hoodie cover (seedream, Navy, driving range, print composited) |
@@ -633,8 +633,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 836 | Black woman, mid 40s, short tapered natural hair, gold hoop earrings, medium build | USED 2026-10-18 - #508 Two Queens Roaming hoodie cover (seedream, Navy, gravel pullout above a bison valley, prints composited) |
 | 837 | white woman, late 40s, long grey-streaked brown hair in a low braid, slim build | USED 2026-10-18 - #508 Two Queens Roaming hoodie cover (seedream, Navy, gravel pullout above a bison valley, prints composited) |
 | 838 | Chinese-American woman, early 30s, long black hair in a single braid, small silver studs, slim athletic build | USED 2026-10-18 - #509 Swipe Right on Public Land zip hoodie cover (seedream, Navy back view, canyon-rim overlook, print composited with the braid on top) |
-| 839 | Mexican-American woman, early 40s, dark wavy hair in a low bun, small gold studs, medium build | CLAIMED 2026-10-17 — #510 Running Late Bison Traffic Heavyweight Hoodie cover (brief) (pair 839-840) |
-| 840 | Greek-American man, early 40s, thick dark curly hair, full dark beard, broad build | CLAIMED 2026-10-17 — #510 Running Late Bison Traffic Heavyweight Hoodie cover (brief) (pair 839-840) |
+| 839 | Mexican-American woman, early 40s, dark wavy hair in a low bun, small gold studs, medium build | USED 2026-10-18 - #510 Running Late Bison Traffic heavyweight hoodie cover (seedream, Storm Blue, park road pullout, prints composited) |
+| 840 | Greek-American man, early 40s, thick dark curly hair, full dark beard, broad build | USED 2026-10-18 - #510 Running Late Bison Traffic heavyweight hoodie cover (seedream, Storm Blue, park road pullout, prints composited) |
 | 841 | Korean-American woman, late 40s, shoulder-length layered black hair, small pearl studs, slim build | USED 2026-10-18 — #511 Sorry About Your Windshield Crewneck Sweatshirt cover (brief) (pair 841-842) |
 | 842 | Black man, late 40s, shaved head, trimmed salt-and-pepper beard, broad build | USED 2026-10-18 — #511 Sorry About Your Windshield Crewneck Sweatshirt cover (brief) (pair 841-842) |
 | 843 | Filipino-American woman, mid-30s, shoulder-length black hair tucked behind her ears, small gold hoops, medium build | USED 2026-10-18 — #512 I Brought You a Sock Crewneck Sweatshirt cover (brief) |
