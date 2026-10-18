@@ -461,7 +461,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 568 | Black woman, early 30s, short box braids in a bun, small gold studs | RESERVED — #377 Charting Is My Cardio Crewneck Sweatshirt cover |
 | 569 | Filipino-American woman, early 40s, shoulder-length black hair, small pearl studs | USED 2026-10-16 — #378 IV League crewneck cover (seedream, 1 attempt) |
 | 570 | White woman, late 30s, high blonde ponytail, sunglasses pushed up on her head | RESERVED — #379 Professional Goal Digger Crewneck Sweatshirt cover |
-| 571 | Black woman, early 40s, natural curls, stadium blanket over one arm | RESERVED — #380 Down, Set, Snacks Crewneck Sweatshirt cover |
+| 571 | Black woman, early 40s, natural curls, stadium blanket over one arm | USED 2026-10-16 — #380 Down Set Snacks cover |
 | 572 | Mexican-American woman, mid 30s, long dark hair in a low ponytail, ball cap | RESERVED — #381 Pitch, Please Crewneck Sweatshirt cover |
 | 573 | White woman, mid 40s, wavy auburn bob, freckles | USED 2026-10-16 — #382 Bases Loaded crewneck cover (seedream, 1 attempt) |
 | 574 | Korean-American woman, early 30s, butterfly clips in a half-up style, small silver hoops | RESERVED — #383 Still Loading Since 1999 Hoodie cover |
@@ -627,8 +627,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 830 | Puerto Rican man, mid 50s, short grey crew cut, clean-shaven, tanned, stocky build | USED 2026-10-18 - #503 Breakfast Ball Enthusiast heavyweight hoodie cover (seedream, Storm Blue, first tee at sunrise) |
 | 831 | Nigerian-American man, late 30s, short twists, neatly trimmed beard, medium build | USED 2026-10-18 - #504 Not Cheating Improving My Lie golf hoodie cover (seedream, Navy, driving range, print composited) |
 | 832 | white woman, mid 30s, auburn hair tied back in a ponytail, light freckles | USED 2026-10-18 - #504 Not Cheating Improving My Lie golf hoodie cover (seedream, Navy, driving range, print composited) |
-| 833 | Vietnamese-American woman, early 20s, long dark hair pinned up in a claw-clip twist, small gold huggie earrings, slim build | CLAIMED 2026-10-17 — #505 I Only Golf for the Outfits Cropped Hoodie cover (brief) |
-| 834 | white man, mid 60s, thick white hair combed back, neat white mustache, wire-rim glasses, lean build | CLAIMED 2026-10-17 — #506 Retired Working on My Short Game Zip Hoodie cover (brief) |
+| 833 | Vietnamese-American woman, early 20s, long dark hair pinned up in a claw-clip twist, small gold huggie earrings, slim build | USED 2026-10-18 - #505 I Only Golf for the Outfits cropped hoodie cover (seedream, Black, putting green, print composited) |
+| 834 | white man, mid 60s, thick white hair combed back, neat white mustache, wire-rim glasses, lean build | USED 2026-10-18 - #506 Retired Working on My Short Game zip hoodie cover (seedream, Navy back view, pond and golf cart) |
 | 835 | Armenian-American woman, mid 30s, dark curly hair tied back, small gold hoops, medium build | CLAIMED 2026-10-17 — #507 My Type Geothermally Active Oversized Hoodie cover (brief) |
 | 836 | Black woman, mid 40s, short tapered natural hair, gold hoop earrings, medium build | CLAIMED 2026-10-17 — #508 Two Queens Roaming Hoodie cover (brief) (pair 836-837) |
 | 837 | white woman, late 40s, long grey-streaked brown hair in a low braid, slim build | CLAIMED 2026-10-17 — #508 Two Queens Roaming Hoodie cover (brief) (pair 836-837) |
