@@ -608,7 +608,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 813 | White woman, mid 20s, platinum-blonde shag, nose hoop, gold necklaces | USED 2026-10-17 - #489 Already Over It Kindly hoodie cover (seedream, navy, coffee shop) |
 | 814 | Vietnamese-American man, early 30s, short textured black hair, light stubble | USED 2026-10-18 — #490 Plans Canceled. Mood Improved. hoodie cover (pair 814-815) |
 | 815 | white woman, early 30s, long auburn hair in a messy bun, freckles | USED 2026-10-18 — #490 Plans Canceled. Mood Improved. hoodie cover (pair 814-815) |
-| 816 | Indian-American woman, early 40s, long wavy dark hair with a few silver strands, small nose stud, tortoiseshell glasses | CLAIMED 2026-10-17 — #491 Ghost One More Chapter Club Crewneck Sweatshirt cover (brief) |
+| 816 | Indian-American woman, early 40s, long wavy dark hair with a few silver strands, small nose stud, tortoiseshell glasses | USED 2026-10-17 — #491 Ghost One More Chapter Club Crewneck Sweatshirt cover (brief) |
 | 817 | Haitian-American woman, mid 30s, short natural hair with a side part, small gold studs | USED 2026-10-18 — #492 Embroidered Night Shift Silly Goose Crewneck Sweatshirt cover (brief) |
 | 818 | Filipino man, early 30s, short black undercut, clean-shaven | USED 2026-10-17 - #493 Calm Face Loud Brain crewneck cover (seedream, navy, hospital hallway; pair 818-819) |
 | 819 | white woman, early 40s, short blonde bob, small pearl studs | USED 2026-10-17 - #493 Calm Face Loud Brain crewneck cover (seedream, navy, hospital hallway; pair 818-819) |
@@ -723,7 +723,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 928 | man AND woman together: Lebanese-American man, mid 30s, short dark wavy hair, trimmed beard, medium build; Irish-American woman, early 30s, auburn hair in a loose braid tied back, freckles | CLAIMED 2026-10-18 — #588 Raccoon Here for the Wrapping Paper Tee cover (brief) |
 | 929 | man AND woman together: Ghanaian-American man, late 20s, short twists, clean-shaven, tall slim build; Korean-American woman, late 20s, shoulder-length black hair with curtain bangs tied back | CLAIMED 2026-10-18 — #589 Raccoon Here for the Wrapping Paper Crewneck Sweatshirt cover (brief) |
 | 930 | Vietnamese-American woman, mid 20s, long dark hair in a low ponytail tied back, round glasses | CLAIMED 2026-10-18 — #590 I'm the Calm Friend Tee cover (brief) |
-| 931 | Mexican-American woman, early 40s, dark brown hair in a high ponytail, small gold hoops, athletic build | CLAIMED 2026-10-18 — #591 Tournament Day. Voice Gone. Tee cover (brief) |
+| 931 | Mexican-American woman, early 40s, dark brown hair in a high ponytail, small gold hoops, athletic build | USED 2026-10-18 — #591 Tournament Day. Voice Gone. Tee cover (composite) |
 | 932 | Samoan-American man, about 19, short black hair with a fade, broad stocky build, clean-shaven | CLAIMED 2026-10-18 — #592 Six Minutes. Feels Like Sixty. Tee cover (brief) |
 | 933 | Polish-American woman, early 30s, messy blonde top bun, no makeup look, oversized gold hoops | CLAIMED 2026-10-18 — #593 Feral Before 9 A.M. Tee cover (brief) |
 | 934 | man AND woman together: Puerto Rican woman, mid 20s, curly dark hair pulled back, septum ring; white man, mid 20s, shaggy brown hair under a beanie, light stubble | CLAIMED 2026-10-18 — #594 Eats Ticks. Screams Anyway. Tee cover (brief) |
