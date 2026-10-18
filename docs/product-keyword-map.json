@@ -4965,19 +4965,13 @@
   },
   "womens-christmas-christmas-plans-the-barn-western-graphic-tee": {
    "claimed": [
-    "western christmas shirt",
-    "christmas horse shirt"
+    "western christmas shirt"
    ],
    "gaps_measured": [
     {
      "phrase": "western christmas shirt",
      "volume": 480,
      "kd": 56
-    },
-    {
-     "phrase": "christmas horse shirt",
-     "volume": 90,
-     "kd": 50
     }
    ],
    "measured": "2026-10-16"
@@ -8521,6 +8515,19 @@
      "phrase": "family christmas sweatshirts",
      "volume": 1000,
      "kd": 24
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-christmas-christmas-plans-the-barn-western-crewneck-sweatshirt": {
+   "claimed": [
+    "western christmas sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "western christmas sweatshirt",
+     "volume": 70,
+     "kd": 62
     }
    ],
    "measured": "2026-10-16"
