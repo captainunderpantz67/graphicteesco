@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-18T05:20Z
+status: REVIEW
 lane: C
 type: new
 id: 508
@@ -29,3 +29,4 @@ kd: 34
 ## Log
 - 2026-10-17 22:31 UTC director: brief written, READY (wave-1 national park, keyword measured this run).
 - 2026-10-18 05:20 UTC builder [C]: art 1 Recraft call ($0.04, first try kept; paper-colored background whitened so print-prep removed it, pixel specks around the edge removed). TWO QUEENS ROAMING (Big Shoulders 900, cream, navy keyline) above, our natural / environment (Lobster, dusty rose, navy keyline) in two lines below after the one-line script failed the phone-size read; print 3142x3196 (aspect 1.02, 10.2 in tall at FW 1500 TOP 0). DRAFT gid 15364355948848 (Sand + Navy x S-3XL, 12 variants, $39.99 no compare-at, tags per brief). Keyword bison sweatshirt 170/KD34 in the map. FAQs 5 x 44-49 words incl. the buy-two question, Dec 8. Printful file 1088607899, sync 482651181 running. Mockups per color + back attached. Cover: 1 fal image ($0.06, registries #836/#837): two women in matching navy hoodies, hoods visible, hands in pockets; the model redrew the print, so both prints were composited (R6.9); the braid is clear of the print; a faint grey smudge remains in the gap between the two women from the inpaint.
+- 2026-10-18 05:55 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/508.jpg. Audit only DRAFT-not-visible. fal total $0.10.
