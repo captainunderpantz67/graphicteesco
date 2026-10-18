@@ -586,6 +586,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-fishing-out-fished-him-again-zip-hoodie': { src: '/covers/womens-fishing-out-fished-him-again-zip-hoodie.webp', alt: 'Woman in her early 50s with silver hair in a bun, seen from behind in a light grey zip hoodie on a misty lake dock, looking back over her shoulder, a fishing rod and tackle box beside her' },
   'mens-christmas-it-looked-smaller-at-the-farm-oversized-hoodie': { src: '/covers/mens-christmas-it-looked-smaller-at-the-farm-oversized-hoodie.webp', alt: 'Man in his early 40s with a full black beard in a navy oversized Christmas hoodie in a living room on Christmas Eve, a too-tall fir and open ornament boxes behind him, hands in the pocket' },
   'mens-gym-rack-your-weights-respectfully-oversized-hoodie': { src: '/covers/mens-gym-rack-your-weights-respectfully-oversized-hoodie.webp', alt: 'Man in his mid 20s with short curly black hair in a sand oversized gym hoodie on a commercial gym floor, plates and a plate tree behind him, hands in the pocket' },
+  'mens-golf-i-play-army-golf-zip-hoodie': { src: '/covers/mens-golf-i-play-army-golf-zip-hoodie.webp', alt: 'Man in his early 60s with silver hair, seen from behind in a light grey zip hoodie on a tree-lined fairway, looking over his shoulder, a golf bag on a stand beside him' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
