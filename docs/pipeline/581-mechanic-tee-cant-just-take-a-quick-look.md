@@ -1,9 +1,10 @@
-status: READY
+status: BUILDING [A] 2026-10-18 07:10
 lane: A
 type: new
 id: 581
 handle: mens-mechanic-no-i-cant-just-take-a-quick-look-graphic-tee
 kd: 22
+shopify: gid://shopify/Product/15364868309296
 ---
 ## Men's Mechanic – No, I Can't Just Take a Quick Look Tee
 - **Blank:** Bella+Canvas 3001 (Printful #71), unisex/men's tee, lightweight 4.2 oz, 100% combed ring-spun cotton (heathers contain polyester). Never "midweight". Copy facts from the Printful spec only (R7.1).
@@ -27,3 +28,4 @@ kd: 22
 ---
 ## Log
 - 2026-10-18 04:27 UTC director: brief written, READY (lane A; KD ≤ 20 band empty in the sweep, so KD 21–35 buyer phrases, measured this run; proof seller named under the gate).
+- 2026-10-18 07:12 UTC builder [A]: WIP: art Recraft try 1 ($0.04, kept), print 3427x3773 (cream NO, I CAN'T JUST w/ dark edge, red TAKE A QUICK LOOK. w/ cream edge, cream halo), Printful file 1088748268, FW 1650 TOP 75. DRAFT gid 15364868309296 (3001, 8 colors x S-4XL = 56, $24.99, no compare-at). Next: sync, mockups, cover.

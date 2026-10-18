@@ -1,9 +1,10 @@
-status: READY
+status: BUILDING [A] 2026-10-18 07:06
 lane: A
 type: new
 id: 580
 handle: mens-drummer-professionally-loud-graphic-tee
 kd: 32
+shopify: gid://shopify/Product/15364862738736
 ---
 ## Men's Drummer – Professionally Loud Tee
 - **Blank:** Bella+Canvas 3001 (Printful #71), unisex/men's tee, lightweight 4.2 oz, 100% combed ring-spun cotton (heathers contain polyester). Never "midweight". Copy facts from the Printful spec only (R7.1).
@@ -27,3 +28,4 @@ kd: 32
 ---
 ## Log
 - 2026-10-18 04:27 UTC director: brief written, READY (lane A; KD ≤ 20 band empty in the sweep, so KD 21–35 buyer phrases, measured this run; proof seller named under the gate).
+- 2026-10-18 07:07 UTC builder [A]: WIP: art Recraft try 1 ($0.04), print composed 3323x3983 (cream PROFESSIONALLY w/ dark edge, red LOUD. w/ cream edge, cream halo on the art), Printful file 1088746501, FW 1650 TOP 75. DRAFT gid 15364862738736 (3001, 8 colors x S-4XL = 56, $24.99, no compare-at). Next: sync, mockups, cover.

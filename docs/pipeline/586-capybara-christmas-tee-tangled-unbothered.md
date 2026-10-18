@@ -1,9 +1,10 @@
-status: BUILDING [A] 2026-10-18 06:59
+status: REVIEW
 lane: A
 type: new
 id: 586
 handle: womens-christmas-capybara-tangled-unbothered-graphic-tee
 kd: 31
+shopify: gid://shopify/Product/15364857004336
 ---
 ## Women's Christmas – Capybara Tangled. Unbothered. Tee
 - **Blank:** Bella+Canvas 6400 (Printful #360), women's relaxed tee, lightweight 4.2 oz, 100% combed ring-spun cotton (heathers contain polyester). Never "midweight". Copy facts from the Printful spec only (R7.1).
@@ -27,3 +28,5 @@ kd: 31
 ---
 ## Log
 - 2026-10-18 05:32 UTC director: brief written, READY (lane A capybara Christmas pair; KD 31 with a measured December surge; KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month; proof seller named under the gate).
+- 2026-10-18 07:02 UTC builder [A]: WIP: art (Recraft try 1, $0.04, kept), print composed 2754x3741 (Alfa Slab TANGLED. red + Yellowtail Unbothered. green, cream keylines), Printful file 1088743911, FW 1260 TOP 60 (print is taller than wide; 1500 wide would pass the 1800 area). DRAFT created gid 15364857004336 (6400, 5 colors x S-3XL = 30, $24.99, no compare-at, category tees). Next: sync, mockups, cover.
+- 2026-10-18 07:15 UTC builder [A]: REVIEW: Printful sync 482701016 verified 30/30 on default file 1088743911 (FW 1260 TOP 60, back logo 1080398177); 5 colors each with its own mockup (White, Natural, Heather Stone, Athletic Heather, Pink) + back; phone-size read: TANGLED. and Unbothered. read on every color; cover registry #926 (seedream 1 attempt $0.06, White mockup as design): both lines read, mug at hip, hair clear; audit-local PASS 0 warn (only 'not visible' for a draft); R6.2 N/A (new art). Keyword capybara christmas 5,400/KD31 in map. design-crops cannot see drafts (Storefront): run after publish.
