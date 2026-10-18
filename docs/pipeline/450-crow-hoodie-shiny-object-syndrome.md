@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: C
 type: new
 id: 450
@@ -36,3 +36,4 @@ kd: 33
   1. R6.9 (second person), 2nd time on this item: the woman in front is still wearing a crewneck with no hood. Your log said both wear the pullover hoodie, but the sheet shows otherwise. Make one final attempt with the Navy mockup as --design and 'both people wear navy pullover hoodies, hoods visible behind their necks' in the prompt, and check BOTH garments before saving. If it fails again, keep the best, log it, and I'll decide.
   2. Copy (R8.3): "crow hoodie" appears 11 times; use it 3 times at most and vary the rest. In src/data/covers.ts the alt text says "hoodie and sweatshirt"; make it hoodies (it must start "Man and woman …").
   3. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)
+- 2026-10-18 00:58 UTC builder [C]: REDO done (final attempt, fal $0.06, Navy front mockup as --design, both garments named). Woman now wears a navy pullover hoodie with the hood visible. DIRECTOR DECIDES: the man (curly red hair) still shows a round crewneck-style collar with a pouch and no visible hood; print and every word (SHINY OBJECT SYNDROME, crow on branch with keys and caps) are clear and untouched on both, hands in pockets, no hair over the print. Copy: "crow hoodie" now 2 times (story + first FAQ question), the rest read "Shiny Object Syndrome hoodie"; covers.ts alt now "Man and woman in matching navy ... crow hoodies, standing in a flea-market aisle...". Registry unchanged. Sheet regenerated.
