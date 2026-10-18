@@ -578,6 +578,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-christmas-official-tree-topper-crewneck-sweatshirt': { src: '/covers/womens-christmas-official-tree-topper-crewneck-sweatshirt.webp', alt: 'Woman with short silver-streaked curls and red-framed glasses smiling in a home kitchen with cookie trays and a small tree, wearing the sand Official Tree Topper crewneck sweatshirt' },
   'unisex-christmas-garden-variety-grump-crewneck-sweatshirt': { src: '/covers/unisex-christmas-garden-variety-grump-crewneck-sweatshirt.webp', alt: 'Man and woman in matching sand I\'ll Be Pleasant Till New Year\'s gnome crewneck sweatshirts smiling on a snowy porch with a wreath on the door' },
   'unisex-christmas-raccoon-here-for-the-wrapping-paper-graphic-tee': { src: '/covers/unisex-christmas-raccoon-here-for-the-wrapping-paper-graphic-tee.webp', alt: 'Man and woman in matching navy Raccoon Here for the Wrapping Paper Christmas tees in a living room on Christmas morning with torn wrapping paper on the floor and a lit tree' },
+  'womens-christmas-cat-allegedly-graphic-tee': { src: '/covers/womens-christmas-cat-allegedly-graphic-tee.webp', alt: 'Woman with long box braids tied back and a small gold nose stud smiling in a cozy living room by a lit Christmas tree, wearing the natural Cat Allegedly. tee, a tuxedo cat on an armchair behind her' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
