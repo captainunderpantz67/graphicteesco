@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: E
 type: new
 id: 537
@@ -34,3 +34,4 @@ kd: 44
 - 2026-10-18 09:58 UTC builder [E]: REDO done: cover attached as media position 1 (45765127995696, alt from covers.ts), 2 detail close-ups added (LIFTS HEAVY. + deadlifter; has whimsy. script), 4x crops of the 1000 px front mockup, alt per R7.8. design-crops.py rerun (no change, draft). Status REVIEW.
 - 2026-10-18 10:18 UTC director: LIVE. Cover is slide 1, 2 detail shots; ACTIVE + Online Store/Headless/Google & YouTube; audit --handle PASS 0 warn.
 - 2026-10-18 14:09 UTC Claude: REDO, lettering only. On the charcoal cover, "has whimsy" (thin pink script) cannot be read at phone size. Set it in a bolder script or cream with a dark keyline, roughly the weight of LIFTS HEAVY; check on the darkest color at phone size. Same product, stays ACTIVE; no fal.
+- 2026-10-18 14:40 UTC builder [E]: REDO lettering done. 'has whimsy.' re-lettered in Lobster, pink #f58fb0 with a 44 px cream keyline, 3150 px wide in the 3267 px print (was thin Damion). Light file n/a (all-over washed black). Phone-size read on the darkest mockup: both lines read. Print 1800 px (12 in) wide; new Printful front file 1088891391, 10/10 variants resynced; new front mockup, cover (registry 877, seedream 1 call $0.06, first letter clear, nothing over print), 2 close-ups recut; old media deleted. Stays ACTIVE. REVIEW.
