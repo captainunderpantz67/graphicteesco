@@ -679,3 +679,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 894 | Mexican-American man, late 60s, thick white hair combed back, full white walrus mustache, wire-rim glasses, stocky build | CLAIMED 2026-10-18 — #554 I Fix Things After Naps Hoodie cover (brief) |
 | 880 | Samoan-American man, late 40s, short wavy black hair greying at the temples, neat greying goatee, big broad build | CLAIMED 2026-10-18 — #540 It Looked Smaller at the Farm Tee cover (brief) |
 | 881 | Korean-American man, early 50s, short salt-and-pepper hair with a side part, clean-shaven, thin rimless glasses, medium build | CLAIMED 2026-10-18 — #541 It Looked Smaller at the Farm Crewneck Sweatshirt cover (brief) |
+| 895 | Greek-American woman, early 30s, long thick dark-brown wavy hair in a low ponytail, light olive skin, small silver hoops, lean athletic build | CLAIMED 2026-10-18 — #555 Treat Me Like Wildlife Tee cover (brief) |
+| 896 | Jamaican-American man, early 50s, short greying hair, neat salt-and-pepper goatee, tall lean build | CLAIMED 2026-10-18 — #556 I Play Army Golf Tee cover (brief) |
+| 897 | Thai-American man, mid 30s, short black hair with a messy fringe, thin black-framed glasses, clean-shaven, slim build | CLAIMED 2026-10-18 — #557 Can't, Cat's on Me Tee cover (brief) |
+| 898 | Dominican-American woman, late 20s, curly dark-brown hair in a high bun, small gold nose ring, curvy build | CLAIMED 2026-10-18 — #558 Not My Turn With the Brain Cell Zip Hoodie cover (brief) |
+| 899 | Cherokee woman, late 40s, long straight black hair with grey strands in a low braid, small turquoise studs, medium build | CLAIMED 2026-10-18 — #559 If It's Brown, Lie Down Crewneck Sweatshirt cover (brief) |

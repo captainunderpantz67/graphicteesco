@@ -7917,6 +7917,118 @@
     }
    ],
    "measured": "2026-10-18"
+  },
+  "womens-hiking-treat-me-like-wildlife-graphic-tee": {
+   "claimed": [
+    "hiking shirt women"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "hiking shirt women",
+     "volume": 4400,
+     "kd": 14,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "wildlife shirt",
+     "volume": 2900,
+     "kd": 54,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "funny hiking shirt",
+     "volume": 390,
+     "kd": 54,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-golf-i-play-army-golf-graphic-tee": {
+   "claimed": [
+    "retro golf shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "retro golf shirt",
+     "volume": 4400,
+     "kd": 14,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "vintage golf shirt",
+     "volume": 4400,
+     "kd": 30,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "funny golf t shirt",
+     "volume": 3600,
+     "kd": 33,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-cat-dad-cant-cats-on-me-graphic-tee": {
+   "claimed": [
+    "cat dad shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cat dad shirt",
+     "volume": 3600,
+     "kd": 47,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "cat dad gift",
+     "volume": 1600,
+     "kd": 52,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-cat-not-my-turn-with-the-brain-cell-zip-hoodie": {
+   "claimed": [
+    "cat zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cat zip up hoodie",
+     "volume": 390,
+     "kd": 31,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "kitten hoodie",
+     "volume": 320,
+     "kd": 32,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-bear-if-its-brown-lie-down-crewneck-sweatshirt": {
+   "claimed": [
+    "bear crewneck"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bear crewneck",
+     "volume": 1300,
+     "kd": 20,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "bear sweater",
+     "volume": 8100,
+     "kd": 36,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
