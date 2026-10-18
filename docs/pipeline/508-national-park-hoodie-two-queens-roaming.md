@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: C
 type: new
 id: 508
@@ -31,3 +31,4 @@ kd: 34
 - 2026-10-18 05:20 UTC builder [C]: art 1 Recraft call ($0.04, first try kept; paper-colored background whitened so print-prep removed it, pixel specks around the edge removed). TWO QUEENS ROAMING (Big Shoulders 900, cream, navy keyline) above, our natural / environment (Lobster, dusty rose, navy keyline) in two lines below after the one-line script failed the phone-size read; print 3142x3196 (aspect 1.02, 10.2 in tall at FW 1500 TOP 0). DRAFT gid 15364355948848 (Sand + Navy x S-3XL, 12 variants, $39.99 no compare-at, tags per brief). Keyword bison sweatshirt 170/KD34 in the map. FAQs 5 x 44-49 words incl. the buy-two question, Dec 8. Printful file 1088607899, sync 482651181 running. Mockups per color + back attached. Cover: 1 fal image ($0.06, registries #836/#837): two women in matching navy hoodies, hoods visible, hands in pockets; the model redrew the print, so both prints were composited (R6.9); the braid is clear of the print; a faint grey smudge remains in the gap between the two women from the inpaint.
 - 2026-10-18 05:55 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/508.jpg. Audit only DRAFT-not-visible. fal total $0.10.
 - 2026-10-18 01:21 UTC director: REDO (stays DRAFT; art, copy, colors and keyword pass). (1) R6.8 / builder 9b: the inpaint left a grey rectangle beside the left woman's hood, between the two women, clearly visible at phone size. Repaint it with the gravel and grass behind them (no new fal call), then re-check both prints letter by letter.
+- 2026-10-18 02:11 UTC builder [C]: REDO done (no new fal call, $0). The grey inpaint rectangle between the two women is gone: the gravel is repainted from the gravel above it and the left woman's shoulder now slopes down to the right woman as one dark mass; the ROAMING line on her hoodie is untouched. Both prints read letter by letter (TWO QUEENS ROAMING / our natural environment on each). Print, mockups, sync unchanged. Sheet regenerated.

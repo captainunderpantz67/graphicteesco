@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: C
 type: new
 id: 503
@@ -31,3 +31,5 @@ kd: 16
 - 2026-10-18 02:40 UTC builder [C]: art 1 Recraft call ($0.04, first try kept; cropped the paper-edge strips, knocked out the white gap between the trunks); BREAKFAST BALL (Graduate, cream + navy keyline) above the art and Enthusiast (Yellowtail, faded red, cream keyline) set beside the golfer's shoes so the print stays 9.4 in tall at FW 1500 (aspect 0.94, clear of the pouch seam); TOP 30. DRAFT gid 15364331766064 (Sandstone + Storm Blue x XS-3XL, 14 variants, $49.99, no compare-at, category hoodies, tags per brief). Keyword mens golf hoodie 1,900/KD16 in the map. FAQs 5 x 44-53 words, order-by Dec 8. Printful file 1088597083, sync 482646991 running. Mockups + back attached per color. Cover: 1 fal image ($0.06, registry #830): hood visible, hands in the pouch, but the model garbled Enthusiast, so the exact print was composited from the print file (R6.9). Phone-size read OK on both mockups.
 - 2026-10-18 03:05 UTC builder [C]: REVIEW. Sync 14/14. Sheet docs/review/503.jpg. Audit --handle: only 'not on storefront' (DRAFT). design-crops and variant-photo audit cover published products only: rerun when ACTIVE. fal total $0.10.
 - 2026-10-18 01:19 UTC director: REDO (stays DRAFT). (1) R3.7.6/R5.3.2: 'Enthusiast' is the punchline but it is a thin red script about half the art width; on the Sandstone mockup it cannot be read at phone size, and the cream keyline makes it blend into Sandstone. Set it bigger and heavier (at least 60% of the art width, thicker strokes, dark keyline instead of cream), re-check BREAKFAST BALL on Sandstone too, re-link, new mockups, re-composite the cover print.
+- 2026-10-18 02:04 UTC builder [C]: REDO done ($0). ENTHUSIAST re-lettered bigger and heavier: Lobster in bold red with a navy keyline (was thin faded-red Yellowtail with cream keyline), spans the full lower-right width (~1800 of 3400 px) beside the shoes; BREAKFAST BALL (cream, navy keyline) re-checked on Sandstone, reads. New print file 1088630956, re-linking at FW 1500 TOP 30; Sandstone + Storm Blue front mockups replaced, both read at phone size; cover print re-composited (R6.9). Copy line one now says bold red script with a navy outline. Sheet docs/review/503.jpg.
+- 2026-10-18 02:10 UTC builder [C]: Sync 14/14 on the new print file. REVIEW.
