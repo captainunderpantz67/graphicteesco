@@ -601,7 +601,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 432 | (reused as the brief specifies) | USED again 2026-10-17 — #256 Technically a Vegetable crewneck cover redo (seedream, 1 attempt) |
 | 807 | Filipino-American woman, late 20s, shoulder-length black hair in a low ponytail, small silver hoops | USED 2026-10-17 — #485 Raccoon Trail Mix hoodie cover (try 2 kept, 2 images; #808 man in same photo) |
 | 808 | white man, early 30s, curly light-brown hair, short beard, freckles | USED 2026-10-17 — #485 Raccoon Trail Mix cover (with #807) |
-| 809 | Moroccan-American woman, early 30s, long dark curly hair half up, gold hoop earrings, tortoiseshell glasses pushed up on her head | CLAIMED 2026-10-17 — #486 Goose Plot Twist Pending Crewneck Sweatshirt cover (brief) |
+| 809 | Moroccan-American woman, early 30s, long dark curly hair half up, gold hoop earrings, tortoiseshell glasses pushed up on her head | USED 2026-10-18 — #486 Goose Plot Twist Pending embroidered crewneck cover |
 | 810 | Black man, late 20s, short twists, clean-shaven, round wire glasses | USED 2026-10-17 - #487 University of Staying In crewneck cover (seedream, navy, rainy living room; pair 810-811) |
 | 811 | Korean-American woman, mid 20s, long straight hair with curtain bangs, small gold studs | USED 2026-10-17 - #487 University of Staying In crewneck cover (seedream, navy, rainy living room; pair 810-811) |
 | 812 | Puerto Rican woman, late 30s, shoulder-length wavy dark hair with copper highlights, statement earrings | USED 2026-10-18 — #488 I Said It Nicely in My Head Tee cover (brief) |
@@ -649,7 +649,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 852 | Irish-American woman, early 40s, shoulder-length auburn hair in a low ponytail, light freckles, athletic build | USED 2026-10-18 — #518 Cold Rink, Hot Takes Crewneck Sweatshirt cover (brief) |
 | 853 | Black woman, early 50s, short natural grey curls, round tortoiseshell glasses, medium build | USED 2026-10-18 — #519 One More Row Crewneck Sweatshirt cover (brief) |
 | 854 | Puerto Rican woman, late 20s, curly dark-brown hair in a high puff, small gold hoops, medium build | USED 2026-10-18 — #520 No, I Won't Make You One Crewneck Sweatshirt cover (brief) |
-| 855 | white woman, early 60s, silver pixie cut, light-blue reading glasses on a beaded chain, slim build | CLAIMED 2026-10-18 — #521 Mimi Says Yes Crewneck Sweatshirt cover (brief) |
+| 855 | white woman, early 60s, silver pixie cut, light-blue reading glasses on a beaded chain, slim build | USED 2026-10-18 — #521 Mimi Says Yes Crewneck Sweatshirt cover (brief) |
 | 856 | Indian-American woman, mid-50s, shoulder-length black hair with a silver streak, small diamond studs, medium build | CLAIMED 2026-10-18 — #522 Because Grandma Sounded Old Crewneck Sweatshirt cover (brief) |
 | 845 | Puerto Rican man, early 30s, short black fade, light stubble, athletic build | USED 2026-10-18 — #514 Velvet Hippo Social Club Crewneck cover (pair 845-846) |
 | 846 | Black woman, early 30s, shoulder-length box braids tied back, small silver hoops, medium build | USED 2026-10-18 — #514 Velvet Hippo Social Club Crewneck cover (pair 845-846) |

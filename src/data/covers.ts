@@ -491,7 +491,9 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-hockey-cold-rink-hot-takes-crewneck-sweatshirt': { src: '/covers/womens-hockey-cold-rink-hot-takes-crewneck-sweatshirt.webp', alt: 'Woman in a Sand Cold Rink, Hot Takes hockey crewneck sweatshirt in the stands of a community ice rink' },
   'womens-bookish-do-not-sell-my-books-hoodie': { src: '/covers/womens-bookish-do-not-sell-my-books-hoodie.webp', alt: 'Woman with twist-out curls and tortoiseshell glasses in a sand Do Not Sell My Books bookish hoodie with her hands in the pouch pocket in an indie bookstore aisle on an autumn evening' },
   'womens-crochet-no-i-wont-make-you-one-crewneck-sweatshirt': { src: '/covers/womens-crochet-no-i-wont-make-you-one-crewneck-sweatshirt.webp', alt: 'Woman in a Sand No, I Won\'t Make You One crochet crewneck sweatshirt at a fall craft-fair booth with granny-square bags' },
+  'womens-mimi-says-yes-crewneck-sweatshirt': { src: '/covers/womens-mimi-says-yes-crewneck-sweatshirt.webp', alt: 'Woman in a Sand Mimi Says Yes mimi crewneck sweatshirt in a warm farmhouse kitchen with cookies cooling' },
   'unisex-christian-holy-spirit-mildly-spooky-graphic-tee': { src: '/covers/unisex-christian-holy-spirit-mildly-spooky-graphic-tee.webp', alt: 'Man and woman smiling in a church fellowship hall fall festival with string lights and pumpkins on hay bales wearing the Holy Spirit, Mildly Spooky navy tee' },
+  'womens-embroidered-goose-plot-twist-pending-crewneck-sweatshirt': { src: '/covers/womens-embroidered-goose-plot-twist-pending-crewneck-sweatshirt.webp', alt: 'Woman in a cozy independent bookstore aisle with a canvas tote at her side wearing the Goose Plot Twist Pending embroidered Sand crewneck' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
