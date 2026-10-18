@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: C
 type: new
 id: 442
@@ -35,3 +35,5 @@ kd: 32
   1. R3.7.1 / R5.3.4: the art still carries the old 'knight shift' props (watchman cap, flashlight, oil can), and they have nothing to do with CALCULATED. MOSTLY. A stranger can't connect the picture to the line. Make art try 2 (illustration only): a smug chess knight piece mid-move on a checkered board, one toppled pawn beside it, eyebrow raised; no hat, no tools. Same words, font, colors and composition; re-link, new mockups, new cover (keep the man and the park-chess scene).
   2. Copy (R8.3): remove "Big hand-drawn caps". The lettering is a real font, so describe it plainly. Keep CALCULATED. MOSTLY. (the brief's later rewrite is withdrawn).
   3. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)
+- 2026-10-18 01:40 UTC builder [C]: REDO art try 2 (1 Recraft call, $0.04): smug knight mid-move, one raised eyebrow, toppled pawn on checkerboard squares; no hat or props. CALCULATED. (cream) / MOSTLY. (gold) in Alfa Slab One via compose-print.py with dark keylines, back print 3405x4134 FW 1650 TOP 225 + knight-only chest file 525 px; Printful files 1088594170 / 1088594182, re-sync in progress (pf-zip). Mockups Ash + Navy front/back replaced, Navy back added; read on the Navy back mockup at phone size. Cover: new fal image ($0.06, registry #638, Navy back mockup as --design): hood visible, man in glasses over his shoulder, print faithful and readable, no hair involved; alt fixed. Copy: slab-caps wording, knight/pawn story, SEO meta updated.
+- 2026-10-18 01:55 UTC builder [C]: REVIEW. Sync 12/12 with the new back and chest files. Sheet docs/review/442.jpg.

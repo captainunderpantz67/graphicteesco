@@ -487,7 +487,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 594 | man AND woman together: Vietnamese-American man, late 20s, round glasses, short textured hair; Black woman, late 20s, short twist-out | USED 2026-10-17 — #403 I Have Plans hoodie cover (try 1, image 1 of 1) |
 | 595 | man AND woman together: Korean-American man, early 20s, bleached tips; Latina woman, early 20s, space buns, butterfly clips | USED 2026-10-17 — #404 Side Quests Only hoodie cover (try 2, 2 images; woman's garment shows no hood, flagged) |
 | 596 | man AND woman together: Japanese-American man, mid 20s, shaggy black hair; white woman, mid 20s, dyed lavender bob | USED 2026-10-17 - #405 Snack Hoard dragon hoodie cover (pair with #596-597) |
-| 597 | Indian-American woman, about 20, long dark hair in a half-up claw clip, small gold nose stud | RESERVED — #406 Politely Hop Off Cropped Hoodie cover |
+| 597 | Indian-American woman, about 20, long dark hair in a half-up claw clip, small gold nose stud | USED 2026-10-18 — #406 Politely, No. bunny cropped hoodie cover |
 | 598 | Native American (Diné) man, mid 30s, long black hair tied back, light stubble | RESERVED — #407 Camera Shy Heavyweight Hoodie cover |
 | 599 | man AND woman together: Samoan man, late 20s, broad build, short curly hair; white woman, late 20s, sun-bleached beach waves | USED 2026-10-17 — #408 Friendly-ish shark oversized hoodie cover (with the partner row, seedream, 1 attempt)
 | 598 | Native American (Dine) man, mid 30s, long black hair tied back, light stubble | USED 2026-10-17 - #407 Camera Shy sasquatch hoodie cover (seedream, storm blue, misty trailhead) |
@@ -541,10 +541,10 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 646 | Black man, early 60s, short white hair, neat white beard | USED 2026-10-17 — #449 Pillaging Young Man's Game hoodie cover (try 1, image 1 of 1) |
 | 647 | Korean-American woman, early 30s, blunt bob, silver ear cuffs | USED 2026-10-17 - #450 Shiny Object Syndrome crow hoodie cover (pair with #647-648) |
 | 648 | white man, early 30s, curly red hair, freckles | USED 2026-10-17 - #450 Shiny Object Syndrome crow hoodie cover (pair with #647-648) |
-| 649 | white woman, late 30s, messy blonde bun, small pearl studs | RESERVED — #451 Magical, Mostly Tired Zip Hoodie cover |
+| 649 | white woman, late 30s, messy blonde bun, small pearl studs | USED 2026-10-18 — #451 Magical, Mostly Tired unicorn zip hoodie cover |
 | 650 | Black woman, early 20s, long knotless braids, butterfly clips, small gold hoops | RESERVED — #452 Hot Mess Express Hoodie cover |
 | 651 | Filipino-American man, early 40s, short black hair, rectangular glasses | USED 2026-10-17 — #453 Some Assembly Regretted crewneck cover (seedream, 1 attempt) |
-| 652 | white man, late 30s, short sandy hair, full sandy beard | RESERVED — #454 Some Assembly Regretted Tee cover |
+| 652 | white man, late 30s, short sandy hair, full sandy beard | USED 2026-10-18 — #454 Some Assembly Regretted tee cover (seedream, 2 attempts: 1st had a stray hand and a branded toy box) |
 | 653 | white woman, early 30s, dark curly shoulder-length hair | USED 2026-10-17 — #455 Spin Responsibly crewneck cover (try 2 kept, 2 images; #654 man in same photo) |
 | 654 | Middle Eastern man, early 30s, short dark hair, trimmed beard | USED 2026-10-17 — #455 Spin Responsibly crewneck cover (with #653) |
 | 655 | Black man, late 20s, short twists | RESERVED — #456 Spin Responsibly Tee cover (with #656) |
@@ -624,9 +624,9 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 434 | (reused as the brief specifies) | USED again 2026-10-17 — #258 Wishbone Champion crewneck cover redo (seedream, 3 attempts: try 1 white bars top and bottom, try 2 black frame, cropped the frame off the kept image) |
 | 828 | Black woman, late 30s, shoulder-length twist-out curls, tortoiseshell glasses | CLAIMED 2026-10-17 — #501 Do Not Sell My Books Hoodie cover (brief) |
 | 829 | Korean-American man, early 30s, short textured black hair, athletic build, light stubble | CLAIMED 2026-10-17 — #502 Sisyphus Had Bad Programming Hoodie cover (brief) |
-| 830 | Puerto Rican man, mid 50s, short grey crew cut, clean-shaven, tanned, stocky build | CLAIMED 2026-10-17 — #503 Breakfast Ball Enthusiast Heavyweight Hoodie cover (brief) |
-| 831 | Nigerian-American man, late 30s, short twists, neatly trimmed beard, medium build | CLAIMED 2026-10-17 — #504 Not Cheating Improving My Lie Hoodie cover (brief) (pair 831-832) |
-| 832 | white woman, mid 30s, auburn hair tied back in a ponytail, light freckles | CLAIMED 2026-10-17 — #504 Not Cheating Improving My Lie Hoodie cover (brief) (pair 831-832) |
+| 830 | Puerto Rican man, mid 50s, short grey crew cut, clean-shaven, tanned, stocky build | USED 2026-10-18 - #503 Breakfast Ball Enthusiast heavyweight hoodie cover (seedream, Storm Blue, first tee at sunrise) |
+| 831 | Nigerian-American man, late 30s, short twists, neatly trimmed beard, medium build | USED 2026-10-18 - #504 Not Cheating Improving My Lie golf hoodie cover (seedream, Navy, driving range, print composited) |
+| 832 | white woman, mid 30s, auburn hair tied back in a ponytail, light freckles | USED 2026-10-18 - #504 Not Cheating Improving My Lie golf hoodie cover (seedream, Navy, driving range, print composited) |
 | 833 | Vietnamese-American woman, early 20s, long dark hair pinned up in a claw-clip twist, small gold huggie earrings, slim build | CLAIMED 2026-10-17 — #505 I Only Golf for the Outfits Cropped Hoodie cover (brief) |
 | 834 | white man, mid 60s, thick white hair combed back, neat white mustache, wire-rim glasses, lean build | CLAIMED 2026-10-17 — #506 Retired Working on My Short Game Zip Hoodie cover (brief) |
 | 835 | Armenian-American woman, mid 30s, dark curly hair tied back, small gold hoops, medium build | CLAIMED 2026-10-17 — #507 My Type Geothermally Active Oversized Hoodie cover (brief) |
@@ -651,3 +651,5 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 854 | Puerto Rican woman, late 20s, curly dark-brown hair in a high puff, small gold hoops, medium build | CLAIMED 2026-10-18 — #520 No, I Won't Make You One Crewneck Sweatshirt cover (brief) |
 | 855 | white woman, early 60s, silver pixie cut, light-blue reading glasses on a beaded chain, slim build | CLAIMED 2026-10-18 — #521 Mimi Says Yes Crewneck Sweatshirt cover (brief) |
 | 856 | Indian-American woman, mid-50s, shoulder-length black hair with a silver streak, small diamond studs, medium build | CLAIMED 2026-10-18 — #522 Because Grandma Sounded Old Crewneck Sweatshirt cover (brief) |
+| 845 | Puerto Rican man, early 30s, short black fade, light stubble, athletic build | USED 2026-10-18 — #514 Velvet Hippo Social Club Crewneck cover (pair 845-846) |
+| 846 | Black woman, early 30s, shoulder-length box braids tied back, small silver hoops, medium build | USED 2026-10-18 — #514 Velvet Hippo Social Club Crewneck cover (pair 845-846) |

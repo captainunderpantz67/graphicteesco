@@ -7033,25 +7033,20 @@
     {
      "phrase": "mens golf hoodie",
      "volume": 1900,
-     "kd": 16,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 16
     },
     {
      "phrase": "golf hoodie men",
      "volume": 3600,
-     "kd": 26,
-     "competition": 3993,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 26
     },
     {
      "phrase": "mulligan shirt",
      "volume": 70,
-     "kd": 44,
-     "competition": 433,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 44
     }
    ],
-   "measured": "2026-10-17"
+   "measured": "2026-10-16"
   },
   "unisex-golf-not-cheating-improving-my-lie-hoodie": {
    "claimed": [
@@ -7062,19 +7057,15 @@
     {
      "phrase": "golf pullover",
      "volume": 4400,
-     "kd": 30,
-     "competition": 5829,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 30
     },
     {
      "phrase": "funny golf gifts",
      "volume": 2900,
-     "kd": 34,
-     "competition": 12577,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 34
     }
    ],
-   "measured": "2026-10-17"
+   "measured": "2026-10-16"
   },
   "womens-golf-i-only-golf-for-the-outfits-cropped-hoodie": {
    "claimed": [
@@ -7331,12 +7322,10 @@
     {
      "phrase": "pitbull sweatshirt",
      "volume": 1300,
-     "kd": 30,
-     "competition": 2877,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 30
     }
    ],
-   "measured": "2026-10-17"
+   "measured": "2026-10-16"
   },
   "unisex-nurse-calm-face-loud-brain-hoodie": {
    "claimed": [
@@ -7449,6 +7438,19 @@
     }
    ],
    "measured": "2026-10-18"
+  },
+  "unisex-embroidered-overthinkers-club-hoodie": {
+   "claimed": [
+    "anxiety hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "anxiety hoodie",
+     "volume": 8100,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-17"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
@@ -7481,19 +7483,6 @@
    }
   ],
   "measured": "2026-10-16"
- },
- "unisex-embroidered-overthinkers-club-hoodie": {
-  "claimed": [
-   "anxiety hoodie"
-  ],
-  "gaps_measured": [
-   {
-    "phrase": "anxiety hoodie",
-    "volume": 8100,
-    "kd": 30
-   }
-  ],
-  "measured": "2026-10-17"
  },
  "womens-embroidered-thriving-technically-frog-hoodie": {
   "claimed": [

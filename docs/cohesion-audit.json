@@ -1,6 +1,6 @@
 {
- "at": "2026-10-18T00:05:46.412Z",
- "products": 435,
+ "at": "2026-10-18T00:45:12.248Z",
+ "products": 446,
  "findings": [
   {
    "level": "WARN",
@@ -126,6 +126,13 @@
    "handle": "womens-volleyball-i-only-dive-for-snacks-hoodie",
    "title": "Women's Volleyball – I Yell Free Ball at Everything Hoodie",
    "msg": "\"volleyball hoodie\" appears 5× in the copy (keyword stuffing).",
+   "fix": "Use it once or twice, naturally."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-western-saturday-night-rodeo-hoodie",
+   "title": "Women's Western – Saturday Night Rodeo Hoodie",
+   "msg": "\"rodeo hoodie\" appears 8× in the copy (keyword stuffing).",
    "fix": "Use it once or twice, naturally."
   },
   {
