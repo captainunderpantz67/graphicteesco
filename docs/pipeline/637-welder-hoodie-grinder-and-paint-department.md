@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-18 16:30
+status: REVIEW
 lane: C
 type: twin
 id: 637
@@ -23,3 +23,5 @@ kd: 16
 ---
 ## Log
 - 2026-10-18 08:23 UTC director: brief written, READY (lane C hoodie twin of LIVE #530; kd 16, KD ≤ 20 band).
+- 2026-10-18 16:32 UTC builder [C]: DRAFT gid 15365749997872 created (12 variants, category hoodies, $39.99 no compare-at, tags incl graphic-hoodies-for-men, FAQ 6 x 41-48 words incl Dec 8). Twin check R6.2: #530 art fonts real, no ring/disc/panel/typeset line (verified at full size). Light file: Sand on docs/print-files/637-grinder-paint-dark-ink.png, headline fill navy #22344f, script burnt orange #b4501c. Next: sync, mockups, cover.
+- 2026-10-18 16:37 UTC builder [C]: REVIEW. Art reshaped for the pouch (art 87%, 3382x3525, ratio 1.04) so FW 1500 TOP 75 clears the seam; light file Navy 1088962876 (cream), dark-ink file Sand 1088962885 (headline navy #22344f, script burnt orange #b4501c). Printful 12/12 synced, default file checked per variant (Navy 6/6 on 1088962876, Sand 6/6 on 1088962885), back 1080398177. Mockups Navy+Sand+back attached, linked per color, alts per R7.8; phone-size read at 400 px: all three lines legible on both colors. Cover registry 977, attempt 1 kept (seedream, $0.06): hood visible, hands in pouch, nothing over print, first letters G/D/w clear, chest clean; alt starts Man. FAQs 6 x 41-48 words incl Dec 8. Audit-local PASS 0 warn. design-crops pending publish. fal $0.10 (this item).
