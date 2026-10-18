@@ -5,6 +5,14 @@ Things that need Sam's laptop and Chrome. Sam opens the computer about once a da
 ## TikToks to review
 (none yet; Sam sends links to Tuesday on Telegram)
 
+## Sam's clicks, in order (Claude 2026-10-18)
+1. Merchant Center → Data sources → "Shopify App API" (9,347 stale duplicates from the old sync) → ⋮ → delete. Keep PRODUCTS SOURCE 1/3/4/5 (our 4 feed pages).
+2. Bing Webmaster Tools: add graphicteesco.com (import from Search Console is fastest), submit sitemap-index.xml, turn on IndexNow.
+3. Shopify: install Judge.me (free plan); tell Claude to add aggregateRating once reviews exist.
+4. Shopify → Settings → Policies: paste refund + shipping from docs/policies/shopify-policies-2026-10-16.md; then Search Console → Settings → shipping + returns to match.
+5. Shopify: Shopify Catalog / Agentic Storefronts on, links to graphicteesco.com.
+6. Approve the 5 quality-reset samples when Claude sends them.
+
 ## Needs the computer
 - Google Search Console: request indexing for the next ~10 most valuable pages (daily quota). Done 2026-10-16: hoodies hub, zip-up, oversized, cropped, heavyweight and christmas hoodies, embroidered-sweatshirts, cropped-sweatshirts (+ sitemap resubmitted). Done 2026-10-15: christmas-shirts, christmas-shirts-for-women, thanksgiving-shirts, christmas-sweatshirts, thanksgiving-sweatshirts, leftovers club, turkey trot, sleigh queen tee.
 - Bing Webmaster Tools: add graphicteesco.com, submit sitemap, turn on IndexNow (ChatGPT search and Copilot lean on Bing).
