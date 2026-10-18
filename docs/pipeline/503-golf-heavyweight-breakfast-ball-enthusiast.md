@@ -1,7 +1,8 @@
-status: BUILDING [C] 2026-10-18T01:50Z
+status: REVIEW
 lane: C
 type: new
 id: 503
+shopify: gid://shopify/Product/15364331766064
 handle: mens-golf-breakfast-ball-enthusiast-heavyweight-hoodie
 kd: 16
 ---
@@ -27,3 +28,5 @@ kd: 16
 ---
 ## Log
 - 2026-10-17 22:31 UTC director: brief written, READY (wave-1 golf, keyword measured this run).
+- 2026-10-18 02:40 UTC builder [C]: art 1 Recraft call ($0.04, first try kept; cropped the paper-edge strips, knocked out the white gap between the trunks); BREAKFAST BALL (Graduate, cream + navy keyline) above the art and Enthusiast (Yellowtail, faded red, cream keyline) set beside the golfer's shoes so the print stays 9.4 in tall at FW 1500 (aspect 0.94, clear of the pouch seam); TOP 30. DRAFT gid 15364331766064 (Sandstone + Storm Blue x XS-3XL, 14 variants, $49.99, no compare-at, category hoodies, tags per brief). Keyword mens golf hoodie 1,900/KD16 in the map. FAQs 5 x 44-53 words, order-by Dec 8. Printful file 1088597083, sync 482646991 running. Mockups + back attached per color. Cover: 1 fal image ($0.06, registry #830): hood visible, hands in the pouch, but the model garbled Enthusiast, so the exact print was composited from the print file (R6.9). Phone-size read OK on both mockups.
+- 2026-10-18 03:05 UTC builder [C]: REVIEW. Sync 14/14. Sheet docs/review/503.jpg. Audit --handle: only 'not on storefront' (DRAFT). design-crops and variant-photo audit cover published products only: rerun when ACTIVE. fal total $0.10.
