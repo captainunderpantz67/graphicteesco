@@ -1,4 +1,5 @@
 status: BUILDING [C] 2026-10-18 07:52 UTC
+shopify: gid://shopify/Product/15364909367600
 lane: C
 type: twin
 id: 635
@@ -23,3 +24,4 @@ kd: 4
 ---
 ## Log
 - 2026-10-18 07:44 UTC director: brief written, READY (lane C zip hoodie twin of LIVE #573; kd 4, KD ≤ 20 band; fishing wife measured, volume treated as optimistic; first women's fishing zip-up for zip-up-hoodies-for-women).
+- 2026-10-18 07:55 UTC builder [C]: R6.2 check on #573 print (Printful 1088686604, 3435x4085): OUT-FISHED HIM. real Alfa Slab with cream keyline, Again. real Yellowtail, no ring/panel/badge/card; dock posts and planks end on their own shapes, lettering counters (O, D, A, g) closed shapes read, gaps between posts open. Ash keeps the dark-ink file as is (docs/print-files/635-out-fished-dark-ink.png). Navy light-ink file built from it: Again. recolored cream, thicker cream keyline on OUT-FISHED HIM., 22 px cream halo around the figures and dock (635-out-fished-light-ink.png, 3435x4283). Chest copy = the woman and bass alone, bottom faded out, dark and haloed versions. DRAFT gid 15364909367600 (12 variants S-3XL, $44.99, no compare-at, hoodies category, tags per brief). FAQs 5 x 49-52 words, order-by Dec 8.
