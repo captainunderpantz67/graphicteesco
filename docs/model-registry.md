@@ -446,7 +446,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 553 | Latina woman, late 30s, shoulder-length highlighted waves, small gold cross necklace | USED 2026-10-17 — #362 Sunflower Seeds hoodie cover (try 1, image 1 of 1) |
 | 554 | Man AND woman together: Black man, early 40s, short beard, knit beanie; white woman, late 30s, blonde braid | USED 2026-10-17 - #363 Went Outside It Was Fine hoodie cover (face rows 554 and 555-split: man and woman both described in row 554) |
 | 555 | South Asian-American woman, late 30s, shoulder-length layered hair, small stud earrings | USED 2026-10-17 - #364 Orange Slice Manager zip hoodie cover (seedream, navy, back view, soccer sideline) |
-| 556 | White man, early 30s, tattooed forearms, short dark undercut, light beard | RESERVED — #365 Dead Serious Zip Hoodie cover |
+| 556 | White man, early 30s, tattooed forearms, short dark undercut, light beard | USED 2026-10-18 — #365 Dead Serious skull zip hoodie cover |
 | 557 | Native Hawaiian woman, late 20s, long wavy dark hair, small shell earrings | USED 2026-10-16 — #366 Low Tide Low Effort oversized hoodie cover (seedream, 1 attempt) |
 | 558 | Puerto Rican man, mid 40s, salt-and-pepper goatee, short hair | USED 2026-10-17 — #367 cover (seedream, 1 attempt)
 | 559 | Man AND woman together: Navajo man, early 50s, grey ponytail, felt hat; white woman, mid 40s, sandy shag haircut | USED 2026-10-16 — #368 Lucky Horseshoe Ranch hoodie cover |
@@ -629,9 +629,9 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 832 | white woman, mid 30s, auburn hair tied back in a ponytail, light freckles | USED 2026-10-18 - #504 Not Cheating Improving My Lie golf hoodie cover (seedream, Navy, driving range, print composited) |
 | 833 | Vietnamese-American woman, early 20s, long dark hair pinned up in a claw-clip twist, small gold huggie earrings, slim build | USED 2026-10-18 - #505 I Only Golf for the Outfits cropped hoodie cover (seedream, Black, putting green, print composited) |
 | 834 | white man, mid 60s, thick white hair combed back, neat white mustache, wire-rim glasses, lean build | USED 2026-10-18 - #506 Retired Working on My Short Game zip hoodie cover (seedream, Navy back view, pond and golf cart) |
-| 835 | Armenian-American woman, mid 30s, dark curly hair tied back, small gold hoops, medium build | CLAIMED 2026-10-17 — #507 My Type Geothermally Active Oversized Hoodie cover (brief) |
-| 836 | Black woman, mid 40s, short tapered natural hair, gold hoop earrings, medium build | CLAIMED 2026-10-17 — #508 Two Queens Roaming Hoodie cover (brief) (pair 836-837) |
-| 837 | white woman, late 40s, long grey-streaked brown hair in a low braid, slim build | CLAIMED 2026-10-17 — #508 Two Queens Roaming Hoodie cover (brief) (pair 836-837) |
+| 835 | Armenian-American woman, mid 30s, dark curly hair tied back, small gold hoops, medium build | USED 2026-10-18 - #507 My Type Geothermally Active oversized hoodie cover (seedream, Navy, hot springs boardwalk, print composited) |
+| 836 | Black woman, mid 40s, short tapered natural hair, gold hoop earrings, medium build | USED 2026-10-18 - #508 Two Queens Roaming hoodie cover (seedream, Navy, gravel pullout above a bison valley, prints composited) |
+| 837 | white woman, late 40s, long grey-streaked brown hair in a low braid, slim build | USED 2026-10-18 - #508 Two Queens Roaming hoodie cover (seedream, Navy, gravel pullout above a bison valley, prints composited) |
 | 838 | Chinese-American woman, early 30s, long black hair in a single braid, small silver studs, slim athletic build | CLAIMED 2026-10-17 — #509 Swipe Right on Public Land Zip Hoodie cover (brief) |
 | 839 | Mexican-American woman, early 40s, dark wavy hair in a low bun, small gold studs, medium build | CLAIMED 2026-10-17 — #510 Running Late Bison Traffic Heavyweight Hoodie cover (brief) (pair 839-840) |
 | 840 | Greek-American man, early 40s, thick dark curly hair, full dark beard, broad build | CLAIMED 2026-10-17 — #510 Running Late Bison Traffic Heavyweight Hoodie cover (brief) (pair 839-840) |

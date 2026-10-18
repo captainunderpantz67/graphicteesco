@@ -84,6 +84,7 @@ Sections are numbered so role cards and review notes can point at them ("fails R
 
 ## R4. Art style
 1. **No badge look, ever:** no circle, shield, banner, frame, border, outline box or dark patch/splotch behind the art. Prompts say "no background shape, no frame, no border, no badge, no dark patch".
+   - **Rounded scene cards count as a badge (director, 2026-10-18; #506 retiree putting green and #507 geyser sent back in one run, after the arched sky panels of R6.2):** a scene cut into a rounded rectangle, arch or oval with straight or smooth sides is a panel, even with a torn bottom edge. Every side of a scene ends where its own objects end (fence, trees, steam, grass) with worn, uneven edges; run scripts/ragged-edge.py on any edge longer than about 1 in that is straight or a smooth curve.
 2. **Style A, vintage to the edges:**
    - The subject or scene is the shape.
    - Edges fade, crack or break up into worn screen-print texture.

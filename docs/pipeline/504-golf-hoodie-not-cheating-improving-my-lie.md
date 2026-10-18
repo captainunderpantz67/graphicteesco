@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 504
@@ -30,3 +30,4 @@ kd: 30
 - 2026-10-17 22:31 UTC director: brief written, READY (wave-1 golf, keyword measured this run).
 - 2026-10-18 03:05 UTC builder [C]: art 1 Recraft call ($0.04, first try kept: smug raccoon nudging the ball, club behind his back); NOT CHEATING. / IMPROVING MY LIE. in Alfa Slab One (cream, navy keyline) above/below the art with a cream halo on the art, white gap knocked out; print 3198x3202 (aspect 1.0, 10 in tall at FW 1500 TOP 0, clear of the pouch). DRAFT gid 15364337991984 (Sand + Navy x S-3XL, 12 variants, $39.99 no compare-at, hoodies category, tags per brief). Keyword golf pullover 4,400/KD30 in the map. FAQs 5 x 45-51 words, Dec 8. Printful file 1088599211, sync 482647614 running (FW 1500 TOP 0). Mockups + back attached per color. Cover: 1 fal image ($0.06, registries #831/#832): both in navy pullover hoodies with hoods visible, hands in pockets, hair tied back; the model redrew the raccoon, so the exact print was composited onto both chests (R6.9) and every word read. Phone-size read OK.
 - 2026-10-18 03:35 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/504.jpg. Audit only DRAFT-not-visible. fal total $0.10.
+- 2026-10-18 01:45 UTC director: LIVE. Raccoon improving his lie is the best golf joke so far; couple cover with both hoods visible. ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn. Sheet to docs/reference/best/.

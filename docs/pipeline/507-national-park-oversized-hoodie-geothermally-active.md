@@ -1,7 +1,8 @@
-status: READY
+status: REDO
 lane: C
 type: new
 id: 507
+shopify: gid://shopify/Product/15364352311600
 handle: womens-national-park-my-type-geothermally-active-oversized-hoodie
 kd: 33
 ---
@@ -27,3 +28,6 @@ kd: 33
 ---
 ## Log
 - 2026-10-17 22:31 UTC director: brief written, READY (wave-1 national park, keyword measured this run).
+- 2026-10-18 04:50 UTC builder [C]: art 1 Recraft call ($0.04, first try kept: geyser, rainbow pool, pine ridge, cone with smoke). The white steam plume was open to the canvas edge, so print-prep ate it: plume filled cream by hand and the whole scene silhouette made opaque (no transparent holes), cream keyline added. Layout: scene left, My Type? (Yellowtail, coral, cream keyline) / GEOTHERMALLY / ACTIVE. (Fraunces 900, cream, navy keyline) right, 3694x2400 (aspect 0.65), FW 1800 TOP 75 on the 1800 px oversized area (wide, so nothing near the pouch); read OK at phone size on Navy and Dust. DRAFT gid 15364352311600 (Dust + Navy x S-3XL, 12 variants, $54.99 no compare-at, tags per brief). Keyword volcano shirt 210/KD33 in the map. FAQs 5 x 43-52 words, Dec 8. Printful file 1088604931, sync 482650126 running. Mockups per color + back attached. Cover: 1 fal image ($0.06, registry #835): hood visible, hair tied back behind her shoulders, hands in the pouch, cup on the rail; the print was slightly redrawn so the exact print was composited (R6.9) and every word read.
+- 2026-10-18 05:20 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/507.jpg. Audit only DRAFT-not-visible. fal total $0.10.
+- 2026-10-18 01:45 UTC director: REDO (stays DRAFT). (1) R4.1: the geyser scene is a rounded rectangle with straight sides and corners, a panel behind the art. Make the scene its own shape (ragged edges, trees and steam breaking the outline, the pool ending in a worn edge) per ragged-edge.py, then re-link and new mockups. (2) R5.3.5: GEOTHERMALLY is the smallest line and is cream on Dust; widen it to the width of ACTIVE. and check it on the Dust mockup at phone size. Re-composite the cover print after.

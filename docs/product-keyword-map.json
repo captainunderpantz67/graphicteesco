@@ -7120,18 +7120,15 @@
     {
      "phrase": "volcano shirt",
      "volume": 210,
-     "kd": 33,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 33
     },
     {
      "phrase": "volcano hoodie",
      "volume": 70,
-     "kd": 44,
-     "competition": 198,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 44
     }
    ],
-   "measured": "2026-10-17"
+   "measured": "2026-10-16"
   },
   "womens-national-park-two-queens-roaming-hoodie": {
    "claimed": [
@@ -7143,25 +7140,20 @@
     {
      "phrase": "bison sweatshirt",
      "volume": 170,
-     "kd": 34,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 34
     },
     {
      "phrase": "bison hoodie",
      "volume": 110,
-     "kd": 41,
-     "competition": 504,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 41
     },
     {
      "phrase": "bestie sweatshirt",
      "volume": 390,
-     "kd": 50,
-     "competition": 11068,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 50
     }
    ],
-   "measured": "2026-10-17"
+   "measured": "2026-10-16"
   },
   "womens-national-park-swipe-right-on-public-land-zip-hoodie": {
    "claimed": [
@@ -7457,6 +7449,20 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-christmas-some-assembly-regretted-graphic-tee": {
+   "claimed": [
+    "funny dad shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny dad shirt",
+     "volume": 5400,
+     "kd": 58
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: RankHero 2026-10-18, assigned at review (R2.9; christmas shirt men is the page head)"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
