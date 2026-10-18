@@ -7752,6 +7752,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-tied-up-for-the-holidays-graphic-tee": {
+   "claimed": [
+    "bow shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bow shirt",
+     "volume": 5400,
+     "kd": 59
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
