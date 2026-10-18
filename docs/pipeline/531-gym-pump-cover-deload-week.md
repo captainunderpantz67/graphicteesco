@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-18 04:50Z
+status: REVIEW
 lane: B
 type: new
 id: 531
@@ -29,3 +29,5 @@ shopify: gid://shopify/Product/15364697260336
 ## Log
 - 2026-10-18 01:30 UTC director: brief written, READY (lane B funny-gym; culture × gym format with 1,583-favorite proof).
 - 2026-10-18 05:03 UTC builder [B]: WIP: DRAFT gid://shopify/Product/15364697260336 (Printful #1482 all-over-print oversized tee, Size option only 2XS-5XL = 10, $39.99 no compare-at, category aa-1-13-8; copy facts from Printful #1482 and the live Uphill pump cover). Art: 1 Recraft call kept (Greek-vase hero on a bench, bar untouched, laurel off his head; terracotta, cream, black). Because black linework would vanish on washed black, the print carries a thin cream keyline around the silhouette (not a badge or plate) and enclosed white gaps are knocked out (compose-print holes). DELOAD WEEK Cinzel 900 cream above, (emotionally) Yellowtail terracotta + cream keyline below. Panels built in the Uphill pump cover's geometry (5250 x 6750 front, washed-black tile from its sleeve file, chest art 12 in wide, centre line 2300 px down so the top line clears the collar; back = 3 in rust neck logo only; sleeves = Uphill's plain sleeve file; stitch_color black). Mockups (front + back), cover (registry 871, try 1: the model garbled '(emotionally)' so the exact print was composited per R6.9), review sheet done. Printful sync (10) queued; status goes to REVIEW at 10/10.
+
+- [B] 2026-10-18 builder: sync DONE, R7.7 default-file check on Printful: 10/10 synced; panels front 1088702153, back 1088700188, sleeves 1083174917 on all 10. Variant-photo audit clean. Status REVIEW.
