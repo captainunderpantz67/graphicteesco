@@ -741,7 +741,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 946 | Italian-American woman, early 60s, curly salt-and-pepper hair tied back, red-frame glasses | USED 2026-10-18 — #610 Booked Solid crewneck cover (seedream attempt 1, ponytail behind shoulder, print clear) |
 | 947 | Iranian-American woman, late 30s, long dark hair in a low ponytail, gold hoops | USED 2026-10-18 — #611 Tennis Club (Mostly Social) crewneck cover (seedream attempt 1, ponytail behind shoulder, print clear) |
 | 948 | Mexican-American man, late 30s, short black hair, trimmed goatee, lean runner build | USED 2026-10-18 — #612 I Only Run Downhill tee cover (seedream attempt 1, print clear) |
-| 949 | white man, mid 40s, red hair and full red beard, broad build | CLAIMED 2026-10-18 — #613 League Night Is Not Optional Tee cover (brief) |
+| 949 | white man, mid 40s, red hair and full red beard, broad build | USED 2026-10-18 — #613 League Night Is Not Optional tee cover (seedream attempt 1, print clear) |
 | 950 | Black woman, mid 30s, natural curls in a high puff, small gold studs, runner build | CLAIMED 2026-10-18 — #600 Here for the Free Banana Tee cover (brief) |
 | 951 | Hmong-American man, late 20s, short black hair, clean-shaven, lean runner build | CLAIMED 2026-10-18 — #601 Hit the Wall. The Wall Won. Tee cover (brief) |
 | 952 | Greek-American woman, late 20s, dark curly hair tied back, athletic build, small gold hoops | CLAIMED 2026-10-18 — #602 Love Means Nothing to Me Tee cover (brief) |
