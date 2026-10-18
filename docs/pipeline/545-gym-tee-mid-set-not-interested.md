@@ -1,7 +1,8 @@
-status: BUILDING [B] 2026-10-18 02:54Z
+status: REVIEW
 lane: B
 type: new
 id: 545
+shopify: gid://shopify/Product/15364536402224
 handle: womens-gym-mid-set-not-interested-graphic-tee
 kd: 14
 ---
@@ -28,3 +29,4 @@ kd: 14
 ## Log
 - 2026-10-18 03:10 UTC director: brief written, READY (lane B funny-gym (women's); KD 14 phrase, 983-favorite women's gym tee proof).
 - 2026-10-18 03:10 UTC builder [B]: WIP: DRAFT, art, mockups, copy, cover and review sheet done; Printful sync still running (queued behind other syncs); status goes to REVIEW at full sync.
+- 2026-10-18 03:40 UTC builder [B]: full build. Art: 1 Recraft call, kept (1950s strongwoman in a leopard leotard and retro headphones, pink barbell across her shoulders, side-eyeing a small mustached man pointing a finger). MID-SET. (Alfa Slab One hot pink #d6457a, dark keyline, wider than the art) above and Not Interested. (Yellowtail dark brown, about 80% of the art width) below via compose-print. One dark-ink file for 6 light colors on the 6400 women's relaxed tee: White, Natural, Heather Stone, Athletic Heather, Pink, Leaf (bold women's colors Pink and Leaf; the hot-pink art is lower contrast on Pink but readable with the dark linework; no Black light-ink file this round). Print 11.3 x 10.3 in, FW 1650 TOP 75. DRAFT gid 15364536402224, category aa-1-13-8, 36 variants (6 x S-3XL) $24.99, compareAtPrice null, tags per brief, keyword workout shirts for women 3,600/KD14 in line one and meta, "lifting shirt women" once in an FAQ, FAQ 6 x 40-60 words incl. Dec 8. Printful file 1088655379, sync 36/36. Mockups for all 6 colors + back attached and linked. Cover: registry 885, 1 fal photo (Athletic Heather); the braided ponytail hung beside the M of MID-SET, so per 9b the exact print is composited onto the chest with the braids kept on top and clear of every letter; a faint lighter haze from the inpaint remains around the print; alt starts "Woman". Audit-local PASS, astro build OK. fal $0.10.
