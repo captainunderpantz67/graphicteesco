@@ -8542,11 +8542,10 @@
     {
      "phrase": "mechanic hoodie",
      "volume": 320,
-     "kd": 32,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 32
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-drummer-the-neighbors-love-me-graphic-tee": {
    "claimed": [
