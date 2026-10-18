@@ -6865,7 +6865,7 @@
      "kd": 40
     }
    ],
-   "measured": "2026-10-17"
+   "measured": "2026-10-16"
   },
   "womens-embroidered-ghost-one-more-chapter-club-crewneck-sweatshirt": {
    "claimed": [
@@ -7190,24 +7190,20 @@
     {
      "phrase": "road trip hoodie",
      "volume": 1000,
-     "kd": 30,
-     "competition": 2096,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 30
     },
     {
      "phrase": "road trip sweatshirt",
      "volume": 260,
-     "kd": 32,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 32
     },
     {
      "phrase": "bison gift",
      "volume": 170,
-     "kd": 34,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 34
     }
    ],
-   "measured": "2026-10-17"
+   "measured": "2026-10-16"
   },
   "unisex-golf-sorry-about-your-windshield-crewneck-sweatshirt": {
    "claimed": [
@@ -7459,6 +7455,244 @@
    ],
    "measured": "2026-10-18",
    "note": "director: RankHero 2026-10-18, assigned at review (R2.9; christmas shirt men is the page head)"
+  },
+  "unisex-homebody-university-of-staying-in-oversized-hoodie": {
+   "claimed": [
+    "antisocial hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "antisocial hoodie",
+     "volume": 1600,
+     "kd": 24
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief (lane C hoodie twin)"
+  },
+  "womens-funny-i-said-it-nicely-in-my-head-hoodie": {
+   "claimed": [
+    "daisy hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "daisy hoodie",
+     "volume": 1000,
+     "kd": 38
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief (lane C hoodie twin)"
+  },
+  "womens-golden-retriever-i-brought-you-a-sock-heavyweight-hoodie": {
+   "claimed": [
+    "dog owner gifts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dog owner gifts",
+     "volume": 5400,
+     "kd": 58
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief (lane C hoodie twin)"
+  },
+  "mens-chess-calculated-mostly-hoodie": {
+   "claimed": [
+    "chess gifts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "chess gifts",
+     "volume": 2400,
+     "kd": 38
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief (lane C hoodie twin)"
+  },
+  "womens-clocked-it-said-nothing-hoodie": {
+   "claimed": [
+    "cat lover gifts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cat lover gifts",
+     "volume": 14800,
+     "kd": 59
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief (lane C hoodie twin)"
+  },
+  "unisex-running-pace-leisurely-zip-hoodie": {
+   "claimed": [
+    "running gifts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "running gifts",
+     "volume": 22200,
+     "kd": 44
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief (lane C hoodie twin)"
+  },
+  "mens-welder-if-you-can-step-over-it-graphic-tee": {
+   "claimed": [
+    "welder shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "welder shirt",
+     "volume": 9900,
+     "kd": 24
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "mens-welder-grinder-and-paint-department-graphic-tee": {
+   "claimed": [
+    "welding shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "welding shirt",
+     "volume": 9900,
+     "kd": 23
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "mens-gym-deload-week-emotionally-pump-cover": {
+   "claimed": [
+    "gym pump cover"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "gym pump cover",
+     "volume": 1900,
+     "kd": 35
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "mens-fishing-you-catching-em-graphic-tee": {
+   "claimed": [
+    "mens fishing shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "mens fishing shirt",
+     "volume": 12100,
+     "kd": 44
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "womens-western-hold-your-horses-im-overstimulated-graphic-tee": {
+   "claimed": [
+    "overstimulated shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "overstimulated shirt",
+     "volume": 880,
+     "kd": 46
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "womens-dance-mom-bun-tight-wallet-empty-graphic-tee": {
+   "claimed": [
+    "dance mom shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dance mom shirt",
+     "volume": 1900,
+     "kd": 38
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "womens-softball-mom-travel-ball-took-my-saturdays-graphic-tee": {
+   "claimed": [
+    "softball mom shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "softball mom shirt",
+     "volume": 1300,
+     "kd": 50
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "womens-volleyball-mom-seven-am-check-in-graphic-tee": {
+   "claimed": [
+    "volleyball mom shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "volleyball mom shirt",
+     "volume": 880,
+     "kd": 47
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "womens-gym-lifts-heavy-has-whimsy-pump-cover": {
+   "claimed": [
+    "pump cover women"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pump cover women",
+     "volume": 720,
+     "kd": 44
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "womens-mom-motherhood-exposed-me-graphic-tee": {
+   "claimed": [
+    "funny mama shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny mama shirt",
+     "volume": 1900,
+     "kd": 56
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "mens-welder-stacks-dimes-wants-more-dimes-graphic-tee": {
+   "claimed": [
+    "welder gift"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "welder gift",
+     "volume": 1900,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

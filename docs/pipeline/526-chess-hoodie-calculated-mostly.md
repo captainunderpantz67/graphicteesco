@@ -1,0 +1,24 @@
+status: READY
+lane: C
+type: twin
+id: 526
+handle: mens-chess-calculated-mostly-hoodie
+kd: 38
+---
+## Men's Chess – Calculated. Mostly. Hoodie
+- **Twin of:** #442 mens-chess-calculated-mostly-zip-hoodie (LIVE 2026-10-18). Reuse the final art (Printful back file 1088594170, docs/print-files/442-calculated-mostly.png: smug knight mid-move with a toppled pawn on checkerboard squares, CALCULATED. cream / MOSTLY. gold in Alfa Slab One with dark keylines). No new art. On this pullover it prints on the FRONT (no back print). R6.2 check: real-font lines, no frame; check closed counters on the darker color.
+- **Blank:** Pullover hoodie Gildan 18500 (Printful #146), 8 oz 50/50 fleece. Copy facts from the Printful spec only (R7.1). Own width (R5.3.8): FW 1500 or wider. The file is tall (3405 x 4134); if MOSTLY. would land on the pouch at FW 1500, crop the lower checkerboard squares with a worn edge or tighten the gap above CALCULATED. in compose-print, never shrink the print (R5.3.2).
+- **Colors:** Navy + Ash (the same pair the zip reads on; both read on #442's mockups). A Printful mockup for every color before REVIEW.
+- **Hook:** a smug chess knight with one eyebrow up over a toppled pawn: CALCULATED. MOSTLY. The player who swears the blunder was the plan. Men's, dry (R3.4); twins carry the original line (R3.9).
+- **Why it's not taken:** our own art; no Etsy chess hoodie carries this line (checked for #442).
+- **Primary keyword:** chess gifts: 2,400 / KD 38 (RankHero 2026-10-18, director; competition 18,316). KD 36+ but over 1,000 a month (R2.5 allows it); 'chess hoodie' belongs to #442 and 'chess shirt' sits in another brief. Unowned in docs/product-keyword-map.json and every open brief (checked this run); recorded there with this handle. Never use 'chess hoodie' on this page (R8.8).
+- **Popularity evidence (R5.2):** #442's proof (chess hoodies on Etsy, low competition 469 listings for 'chess hoodie'); #442 went LIVE on this art.
+- **Copy:** line one: the joke + who wears it + when (R9.11). Describe only what is in the art (R8.3); never say we drew it ("Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, warmth and weight from the Printful spec, wash care, gift fit, Christmas order-by about December 8, free size exchange). Primary keyword once in the first sentence and once in the meta; supporting phrases at most once; no stuffing.
+- **Cover:** registry #861 (Ethiopian-American man, mid 30s, close-cropped hair, neat short beard, round black glasses, lean build), CLAIMED. Alt starts 'Man'. Scene: a city park chess table at golden hour, a chess board set up on the stone table beside him (pieces on the table, not in hand, never over the print). Front-facing pose. Generate with the product's own Printful mockup in the cover color as `--design` (--n 1), hood named in the prompt ("hood visible behind the neck"); hair tied back or behind the shoulders; hands empty, at the sides or in the pouch; nothing over any part of the print; read every word before saving; any overlap = composite fix first (R6.9). Max 2 attempts.
+- **Title / handle:** "Men's Chess – Calculated. Mostly. Hoodie" / `mens-chess-calculated-mostly-hoodie` (R7.4).
+- **Tags:** graphic-hoodies-for-men, hoodie, ai-art, intake-done (R7.5).
+- **Price:** pullover $39.99, NO compare-at (R12.1).
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d).
+---
+## Log
+- 2026-10-18 01:24 UTC director: brief written, READY (hoodie twin of a LIVE winner for lane C; keyword measured this run).

@@ -1,9 +1,14 @@
 2026-10-18 01:32 UTC — [B] REVIEW #519 Women's Knitting – One More Row Crewneck (DRAFT, synced 12/12, Sand + Light Pink; fal $0.10).
+2026-10-18 07:11 UTC — [C] REVIEW #510 Unisex National Park Running Late Bison Traffic heavyweight hoodie (DRAFT, synced 14/14, Sandstone + Storm Blue, composite cover; fal $0.16).
+2026-10-18 06:58 UTC — [C] REVIEW #509 Women's National Park Swipe Right on Public Land zip hoodie (DRAFT, synced 12/12, Ash + Navy, composite cover; fal $0.10).
+2026-10-18 06:56 UTC — [C] REVIEW #502 Sisyphus Had Bad Programming hoodie (cover finished, no composite; fal $0.06).
 2026-10-18 01:26 UTC — [B] REVIEW #384 Hot Mess Express oversized REDO (waist-up cover, shoulder smudge fixed; fal $0).
+2026-10-18 01:31 UTC — [D] Director run: inbox nothing new. 22 REVIEW sheets: 11 LIVE (#380 #406 #442 #451 #454 #488 #494 #504 #512 #333 #498; all ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn; #454 given 'funny dad shirt' 5,400/KD58), 11 REDO (#332 #384 #439 #468 #503 #505 #506 #507 #514 #365 #508, notes in items). New R4.1 line: rounded scene cards count as a badge. #504 and #512 to reference/best. 17 new briefs: C #523–#528 hoodie twins of LIVE winners; B #529–#532 (two welder tees, gym pump cover, men's fishing tee); E #533–#539 (overstimulated western, dance mom, softball mom, volleyball mom, women's pump cover, funny mama, welder dimes); #535 line cut to 5 words. Men's redo list is finished (all LIVE). Registry 857–864, 869–879; keyword map updated. READY now: A 13, B 10, C 11, E 11 (builders claimed items during the run). Sam pinged twice with links. Lock released.
 2026-10-18 01:25 UTC — [B] REVIEW #469 Excused From Small Talk embroidered crewneck REDO (coded book stack, bigger lettering, 12/12, composite cover; fal $0).
+2026-10-18 06:42 UTC — [C] REVIEW #398 Fine Dumpster Dining raccoon hoodie (cover finished: pullover-only couple, prints composited; fal $0.06).
+2026-10-18 03:06 UTC — [E] REVIEW #490 Plans Canceled. Mood Improved. homebody hoodie (composite cover on her chest, fal ~$0.2).
 2026-10-18 01:16 UTC — [B] REVIEW #498 Psalm 121 embroidered crewneck REDO (verse on two lines, 12/12, composite cover; fal $0).
 2026-10-18 01:21 UTC — [D] Review batch 2: 2 LIVE (#333 New Year Same Guy tee, #498 Psalm 121 embroidered crew; ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn). 2 REDO: #365 (back zipper seam + sign text on cover), #508 (inpaint patch on cover).
-RUNNING director since 2026-10-18 01:13 UTC
 2026-10-18 02:41 UTC — [E] REVIEW #365 Dead Serious skull zip hoodie (fal ~$0.1).
 2026-10-18 05:56 UTC — [C] REVIEW #508 Women's National Park Two Queens Roaming hoodie (DRAFT, synced 12/12, Sand + Navy, two composited prints; fal $0.10).
 2026-10-18 01:10 UTC — [B] REVIEW #512 Golden Retriever I Brought You a Sock crewneck REDO (two-line joke, FW 1500, 12/12, composite cover; fal $0).
