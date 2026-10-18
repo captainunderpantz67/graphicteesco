@@ -609,6 +609,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-fishing-fisher-of-men-half-zip': { src: '/covers/mens-fishing-fisher-of-men-half-zip.webp', alt: 'Man in a navy half zip pullover seen from behind on a lake dock at sunrise, glancing back over his shoulder, the back print of a leaping bass over a rowboat under FISHER OF MEN and above MOSTLY BASS in cream brush lettering' },
   'womens-christmas-santa-gets-all-the-credit-graphic-tee': { src: '/covers/womens-christmas-santa-gets-all-the-credit-graphic-tee.webp', alt: 'Woman in a white Santa Gets All the Credit Christmas tee with a red gift, pink bow, tape dispenser and scissors, standing at a dining table covered in wrapping paper and ribbon in front of a lit Christmas tree' },
   'mens-christmas-drew-your-name-panicked-graphic-tee': { src: '/covers/mens-christmas-drew-your-name-panicked-graphic-tee.webp', alt: 'Man in a white Drew Your Name. Panicked. Christmas tee with a sweating office worker, a Santa hat full of name slips and a taped gift, smiling in an office break room decorated for a holiday party' },
+  'unisex-christmas-we-said-no-gifts-graphic-tee': { src: '/covers/unisex-christmas-we-said-no-gifts-graphic-tee.webp', alt: 'Man and woman in matching white We Said No Gifts Christmas tees with a 1960s couple hiding wrapped presents behind their backs, smiling in a living room beside a lit Christmas tree' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

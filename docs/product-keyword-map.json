@@ -9329,24 +9329,22 @@
   },
   "unisex-christmas-we-said-no-gifts-graphic-tee": {
    "claimed": [
-    "christmas gifts for couples",
-    "couples christmas shirt"
+    "couples christmas shirt",
+    "christmas gifts for couples"
    ],
    "gaps_measured": [
     {
-     "phrase": "christmas gifts for couples",
-     "volume": 22200,
-     "kd": 10,
-     "source": "RankHero keyword page"
-    },
-    {
      "phrase": "couples christmas shirt",
      "volume": 1900,
-     "kd": 50,
-     "source": "RankHero keyword page"
+     "kd": 50
+    },
+    {
+     "phrase": "christmas gifts for couples",
+     "volume": 22200,
+     "kd": 10
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-fishing-out-fished-him-again-zip-hoodie": {
    "claimed": [
