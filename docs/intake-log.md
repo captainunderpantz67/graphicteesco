@@ -1,4 +1,5 @@
 RUNNING lane C since 2026-10-18 07:27 UTC
+2026-10-18 08:20 UTC — [C] REVIEW #604 Men's Fishing Should've Been Here Yesterday hoodie (twin of #543; FW 1500 TOP 0; fal $0.06) (synced 12/12 on 482703347).
 2026-10-18 07:16 UTC — [B] REVIEW #473 Unisex Embroidered Per My Last Email hoodie — 12/12 synced; embroidery_chest_center 1088588157 on all 12, back logo on all
 RUNNING director since 2026-10-18 07:15 UTC
 2026-10-18 07:11 UTC — [B] REVIEW #467 Unisex Embroidered Overthinkers Club crewneck — 12/12 synced; embroidery_chest_center 1088590042 on all 12, back logo on all
@@ -12,6 +13,7 @@ RUNNING director since 2026-10-18 07:15 UTC
 2026-10-18 06:45 UTC — [H] Helper run: Telegram getUpdates returned nothing (no pause, resume, TikTok links or other messages; nothing to consume; first getUpdates attempt was cut by the agent proxy, the retry succeeded). Audit: 527 live products, 0 errors, 29 warnings left alone (polish only). Category backfill: no products without a category (0 to set). Price errors zero, announcement bar already on the holiday line (Base.astro). Site freshness: 3 LIVE pages all 200 (mens-fishing-shouldve-been-here-yesterday-graphic-tee, unisex-christmas-card-photo-survivor-graphic-tee, unisex-christmas-card-photo-survivor-crewneck-sweatshirt). Stuck check: none (lane A lock 06:29, lane B 06:30, lane C 05:56, lane E 05:15; BUILDING items all committed within 2 hours). Daily summary not due (first run after 12:00 UTC). Lock released.
 2026-10-18 06:55 UTC — [C] REVIEW #571 Women's Teacher Indoor Recess Survivor zip hoodie (twin of #395; back print + small chest apple; cover print composited; fal $0.06) (synced 12/12 on 1088734026).
 RUNNING lane A since 2026-10-18 06:29 UTC
+2026-10-18 07:38 UTC — [A] 581 Mechanic-quick-look-tee: 56/56 synced, REVIEW
 2026-10-18 07:15 UTC — [A] 586 Capybara Tangled. Unbothered. tee: 30/30 synced, REVIEW
 2026-10-18 06:59 UTC — [A] REDO 500 back to REVIEW (12/12 verified)
 2026-10-18 06:59 UTC — [A] REDO 149 back to REVIEW (36/36 verified)
@@ -53,6 +55,7 @@ RUNNING lane A since 2026-10-18 06:29 UTC
 2026-10-18 05:42 UTC — [A] [A] 491 Embroidered Ghost One More Chapter Club crewneck built (new art), embroidery link running 482690521; REVIEW once 12/12
 2026-10-18 05:32 UTC — [D] Director run: inbox nothing new. Reviewed 17 REVIEW items: 7 LIVE (#281 #284 #525 #533 #535 #573 #575; all ACTIVE + Online Store/Headless/Google & YouTube, audit --handle PASS 0 warn, Printful file checked on every variant; copy fixes: #281 no longer says candy-stripe, #575 'Jesus' capitalised, #573 no shrug, #525 line position, #533/#535 keyword cut from 4 to 3 uses). 10 REDO: lane A lettering REDOs #149 #247 #248 #249 #250 #253 #254 still have the OLD plaid/gingham file on every Printful variant (re-link never finished) and stale review sheets (checked from live covers + Shopify mockups instead); #149/#249 covers smeared where the old print was erased, #248 stray mark, #250 hair over a; #534 WALLET EMPTY clipped off every mockup; #536 'Don'ttalk' spacing + ghost door; #332 hair over the bow. Rulebook: R6.9 clean-erase line and R7.7 re-link proof line (3+ hits each). #573 #575 to reference/best. 12 briefs #586-#597 (A: capybara Christmas tee + crewneck twin, raccoon Christmas tee + crewneck twin; B: capybara, wrestling mom, wrestling, feral cat, possum, otter, corgi, hockey tees); KD ≤ 20 band empty for these niches, so KD 21-35 first then measured KD 36+ over 1,000/month; registry 926-937, keyword map updated. Stale RUNNING lines for lanes A/B (Oct 17 23:5x) and C (01:55) cleared. READY: A 13, B 12, C 13, E 12. No Telegram (not a digest run, nothing needs Sam). Lock released.
 RUNNING lane E since 2026-10-18 05:15 UTC (syncing queued Printful links; heartbeat 07:27 UTC)
+2026-10-18 07:42 UTC — [E] REVIEW #578 Unisex Pitbull Scary Dog, Afraid of the Vacuum tee (DRAFT, synced 42/42, 6 colors; fal ~$0.1).
 2026-10-18 07:23 UTC — [E] REVIEW #576 Unisex Dachshund Banned From Stairs tee (DRAFT, synced 42/42, 6 colors; fal ~$0.2).
 2026-10-18 07:05 UTC — [E] REVIEW #559 Women's Bear If It's Brown, Lie Down crewneck (DRAFT, synced 12/12, Sand + Navy; fal ~$0.2).
 2026-10-18 07:01 UTC — [E] REVIEW #556 Men's Golf I Play Army Golf tee (DRAFT, synced 40/40, 6 colors; fal ~$0.1).
