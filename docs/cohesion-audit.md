@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-18 05:45 UTC
+# Cohesion audit — 2026-10-18 06:44 UTC
 
-517 live products checked · **0 errors** · 29 warnings · 27 products with findings
+527 live products checked · **0 errors** · 29 warnings · 27 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
