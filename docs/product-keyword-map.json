@@ -7879,6 +7879,46 @@
     }
    ],
    "measured": "2026-10-18"
+  },
+  "mens-christmas-it-looked-smaller-at-the-farm-graphic-tee": {
+   "claimed": [
+    "funny xmas t shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny xmas t shirt",
+     "volume": 8100,
+     "kd": 12,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "christmas gifts for husband",
+     "volume": 22200,
+     "kd": 10,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-christmas-it-looked-smaller-at-the-farm-crewneck-sweatshirt": {
+   "claimed": [
+    "xmas tree sweater"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "xmas tree sweater",
+     "volume": 1900,
+     "kd": 16,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "christmas gifts for boyfriend",
+     "volume": 22200,
+     "kd": 10,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
