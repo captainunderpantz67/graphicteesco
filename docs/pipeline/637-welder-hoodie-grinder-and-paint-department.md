@@ -23,3 +23,4 @@ kd: 16
 ---
 ## Log
 - 2026-10-18 08:23 UTC director: brief written, READY (lane C hoodie twin of LIVE #530; kd 16, KD ≤ 20 band).
+- 2026-10-18 16:32 UTC builder [C]: DRAFT gid 15365749997872 created (12 variants, category hoodies, $39.99 no compare-at, tags incl graphic-hoodies-for-men, FAQ 6 x 41-48 words incl Dec 8). Twin check R6.2: #530 art fonts real, no ring/disc/panel/typeset line (verified at full size). Light file: Sand on docs/print-files/637-grinder-paint-dark-ink.png, headline fill navy #22344f, script burnt orange #b4501c. Next: sync, mockups, cover.
