@@ -467,6 +467,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-golf-not-cheating-improving-my-lie-hoodie': { src: '/covers/unisex-golf-not-cheating-improving-my-lie-hoodie.webp', alt: 'Man and woman in matching navy Not Cheating Improving My Lie golf hoodies with their hands in the pouch pockets at a driving range at golden hour' },
   'womens-unicorn-magical-mostly-tired-zip-hoodie': { src: '/covers/womens-unicorn-magical-mostly-tired-zip-hoodie.webp', alt: 'Woman seen from behind in a cozy living room by a window of autumn trees wearing the Magical, Mostly Tired unicorn navy zip hoodie' },
   'womens-golf-i-only-golf-for-the-outfits-cropped-hoodie': { src: '/covers/womens-golf-i-only-golf-for-the-outfits-cropped-hoodie.webp', alt: 'Woman smiling in a black I Only Golf for the Outfits cropped hoodie with her hair pinned up, standing on a golf course putting green beside a clubhouse patio and a golf bag on an autumn afternoon' },
+  'mens-golf-retired-working-on-my-short-game-zip-hoodie': { src: '/covers/mens-golf-retired-working-on-my-short-game-zip-hoodie.webp', alt: 'Man with white hair and a mustache smiling over his shoulder in a navy Retired Working on My Short Game golf zip hoodie, hood down, beside a golf cart and a pond on a crisp fall morning' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

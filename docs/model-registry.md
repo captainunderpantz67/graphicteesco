@@ -628,7 +628,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 831 | Nigerian-American man, late 30s, short twists, neatly trimmed beard, medium build | USED 2026-10-18 - #504 Not Cheating Improving My Lie golf hoodie cover (seedream, Navy, driving range, print composited) |
 | 832 | white woman, mid 30s, auburn hair tied back in a ponytail, light freckles | USED 2026-10-18 - #504 Not Cheating Improving My Lie golf hoodie cover (seedream, Navy, driving range, print composited) |
 | 833 | Vietnamese-American woman, early 20s, long dark hair pinned up in a claw-clip twist, small gold huggie earrings, slim build | USED 2026-10-18 - #505 I Only Golf for the Outfits cropped hoodie cover (seedream, Black, putting green, print composited) |
-| 834 | white man, mid 60s, thick white hair combed back, neat white mustache, wire-rim glasses, lean build | CLAIMED 2026-10-17 — #506 Retired Working on My Short Game Zip Hoodie cover (brief) |
+| 834 | white man, mid 60s, thick white hair combed back, neat white mustache, wire-rim glasses, lean build | USED 2026-10-18 - #506 Retired Working on My Short Game zip hoodie cover (seedream, Navy back view, pond and golf cart) |
 | 835 | Armenian-American woman, mid 30s, dark curly hair tied back, small gold hoops, medium build | CLAIMED 2026-10-17 — #507 My Type Geothermally Active Oversized Hoodie cover (brief) |
 | 836 | Black woman, mid 40s, short tapered natural hair, gold hoop earrings, medium build | CLAIMED 2026-10-17 — #508 Two Queens Roaming Hoodie cover (brief) (pair 836-837) |
 | 837 | white woman, late 40s, long grey-streaked brown hair in a low braid, slim build | CLAIMED 2026-10-17 — #508 Two Queens Roaming Hoodie cover (brief) (pair 836-837) |
