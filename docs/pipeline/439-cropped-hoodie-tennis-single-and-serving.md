@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: C
 type: new
 id: 439
@@ -36,3 +36,4 @@ kd: 24
   1. R5.3.8 / R5.3.4: the racket head is filled with a pixel grid of white and grey blocks, and the ball trails pixel squares. That reads as a digital glitch, not strings, and the white blocks print as solid white ink on Black and Storm. Clean it in print-prep: knock out the string bed to garment (or redraw it as thin cream strings) and remove the pixel trail. If that can't be done cleanly, make art try 2 (illustration only: 'vintage tennis racket with a coquette bow, thin even strings, tennis ball, clean linework'). Re-link, new mockups; keep the cover if the print on it isn't visibly different.
   2. Keep MY BACKHAND HAS OPINIONS (the brief's later rewrite is withdrawn).
   3. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)
+- 2026-10-18 01:30 UTC builder [C]: REDO done, art cleaned in print-prep (no new art, $0): the string bed's white/grey pixel blocks knocked out and the strings recolored thin cream (they were dark brown and would vanish on Black/Storm), pixel specks near the ball removed; MY BACKHAND HAS OPINIONS kept. New print file docs/print-files/439-backhand-opinions.png (Printful file 1088593118), re-linked 10/10 at FW 1500 TOP 20. Black + Storm front mockups replaced in place (back view unchanged). Cover kept: the racket is small on the cover and reads the same (director allowed this).
