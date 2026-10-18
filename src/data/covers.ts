@@ -568,6 +568,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-mom-motherhood-exposed-me-graphic-tee': { src: '/covers/womens-mom-motherhood-exposed-me-graphic-tee.webp', alt: 'Woman in a white funny mama tee reading Motherhood Didnt Change Me It Exposed Me standing in a sunny family kitchen with kids drawings on the fridge' },
   'womens-teacher-indoor-recess-survivor-zip-hoodie': { src: '/covers/womens-teacher-indoor-recess-survivor-zip-hoodie.webp', alt: 'Woman in her early 40s with red glasses and a low ponytail looks back over her shoulder wearing the Indoor Recess Survivor navy zip hoodie, full back print visible, in a rainy school hallway' },
   'mens-fishing-love-language-hoodie': { src: '/covers/mens-fishing-love-language-hoodie.webp', alt: 'Man in his late 40s with a dark mustache wears the Fishing Is My Love Language navy hoodie at a frosty boat launch at dawn, hands in the pouch' },
+  'unisex-christian-holy-spirit-mildly-spooky-hoodie': { src: '/covers/unisex-christian-holy-spirit-mildly-spooky-hoodie.webp', alt: 'Man and woman in matching black Holy Spirit Mildly Spooky hoodies on the steps of a small white country church on an autumn evening, hands in the pouches' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
