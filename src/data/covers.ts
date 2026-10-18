@@ -543,6 +543,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-car-guy-i-speak-fluent-rattle-graphic-tee': { src: '/covers/mens-car-guy-i-speak-fluent-rattle-graphic-tee.webp', alt: 'Man with grey combed-back hair and a grey horseshoe mustache smiling in a navy I Speak Fluent Rattle tee in a home driveway at golden hour with an old pickup truck with its hood up behind him' },
   'womens-hiking-treat-me-like-wildlife-graphic-tee': { src: '/covers/womens-hiking-treat-me-like-wildlife-graphic-tee.webp', alt: 'Woman in a white Treat Me Like Wildlife hiking tee with a mountain goat graphic, standing at a fall trailhead overlook with pines behind her' },
   'mens-drummer-the-neighbors-love-me-graphic-tee': { src: '/covers/mens-drummer-the-neighbors-love-me-graphic-tee.webp', alt: 'Man with shaggy light-brown hair and short stubble smiling in a navy The Neighbors Love Me tee in a suburban driveway at dusk in front of an open garage with a drum kit inside' },
+  'mens-golf-i-play-army-golf-graphic-tee': { src: '/covers/mens-golf-i-play-army-golf-graphic-tee.webp', alt: 'Man in a natural cream I Play Army Golf retro golf tee standing on a sunny fall practice green with a golf bag beside him' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

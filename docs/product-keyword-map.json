@@ -7909,29 +7909,28 @@
   },
   "mens-golf-i-play-army-golf-graphic-tee": {
    "claimed": [
-    "retro golf shirt"
+    "retro golf shirt",
+    "vintage golf shirt",
+    "funny golf t shirt"
    ],
    "gaps_measured": [
     {
      "phrase": "retro golf shirt",
      "volume": 4400,
-     "kd": 14,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 14
     },
     {
      "phrase": "vintage golf shirt",
      "volume": 4400,
-     "kd": 30,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 30
     },
     {
      "phrase": "funny golf t shirt",
      "volume": 3600,
-     "kd": 33,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 33
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-cat-dad-cant-cats-on-me-graphic-tee": {
    "claimed": [
