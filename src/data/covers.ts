@@ -488,6 +488,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-homebody-plans-canceled-mood-improved-hoodie': { src: '/covers/unisex-homebody-plans-canceled-mood-improved-hoodie.webp', alt: 'Man and woman on a couch in a cozy apartment on a rainy evening with a cat on the armrest wearing the Plans Canceled. Mood Improved. navy hoodies' },
   'womens-hockey-cold-rink-hot-takes-crewneck-sweatshirt': { src: '/covers/womens-hockey-cold-rink-hot-takes-crewneck-sweatshirt.webp', alt: 'Woman in a Sand Cold Rink, Hot Takes hockey crewneck sweatshirt in the stands of a community ice rink' },
   'womens-bookish-do-not-sell-my-books-hoodie': { src: '/covers/womens-bookish-do-not-sell-my-books-hoodie.webp', alt: 'Woman with twist-out curls and tortoiseshell glasses in a sand Do Not Sell My Books bookish hoodie with her hands in the pouch pocket in an indie bookstore aisle on an autumn evening' },
+  'womens-crochet-no-i-wont-make-you-one-crewneck-sweatshirt': { src: '/covers/womens-crochet-no-i-wont-make-you-one-crewneck-sweatshirt.webp', alt: 'Woman in a Sand No, I Won\'t Make You One crochet crewneck sweatshirt at a fall craft-fair booth with granny-square bags' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
