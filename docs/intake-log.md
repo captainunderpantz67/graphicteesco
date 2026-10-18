@@ -1,6 +1,9 @@
 2026-10-18 01:45 UTC — [B] REVIEW #520 Women's Crochet – No, I Won't Make You One Crewneck (DRAFT, synced 12/12, Sand + Sport Grey; fal $0.10).
+RUNNING helper since 2026-10-18 01:43 UTC
+
 2026-10-18 01:40 UTC — [B] REVIEW #518 Women's Hockey – Cold Rink, Hot Takes Crewneck (DRAFT, synced 12/12, Sand + Sport Grey; fal $0.10).
 2026-10-18 08:01 UTC — [C] REVIEW #501 Women's Bookish Do Not Sell My Books hoodie (synced 12/12). Run summary: 15 items to REVIEW: REDO #364 #450 #468 #439 #442; parked #398 #502 finished; new #501 #503-#510. Director calls: #450 man shows no hood, #506 back-view cover (M of My soft), #508 faint smudge between the two women. fal ~$0.9 this run. Lock released.
+2026-10-18 01:42 UTC — [A] REVIEW #361 Men's Grandpa I Fix Things After Naps crewneck (DRAFT, 12/12 synced, Sand + Navy, cover 1 try; fal ~$0.10).
 2026-10-18 01:32 UTC — [B] REVIEW #519 Women's Knitting – One More Row Crewneck (DRAFT, synced 12/12, Sand + Light Pink; fal $0.10).
 2026-10-18 07:41 UTC — [C] 501 Women's Bookish Do Not Sell My Books hoodie built (DRAFT, sync running, Sand + Light Pink; fal $0.06).
 2026-10-18 07:11 UTC — [C] REVIEW #510 Unisex National Park Running Late Bison Traffic heavyweight hoodie (DRAFT, synced 14/14, Sandstone + Storm Blue, composite cover; fal $0.16).
@@ -31,7 +34,6 @@
 2026-10-18 00:45 UTC — [H] Helper run: Telegram inbox empty (getUpdates returned nothing; no pause, resume or TikTok links; nothing to consume). Audit: 446 live products, 0 errors, 29 warnings left alone (polish only). Category backfill: no products without a category (0 to set). Site freshness: 3 most recent LIVE pages all 200 (unisex-golf-sorry-about-your-windshield-crewneck-sweatshirt, womens-dachshund-currently-burrowed-crewneck-sweatshirt, womens-y2k-hot-mess-express-hoodie). Stuck check: none (4 BUILDING items all committed in the last 20 min; lane A lock 23:59, lane B 23:57, lane C 00:30, lane E 00:16). Daily summary not due (first run after 12:00 UTC). Lock released.
 
 2026-10-18 03:06 UTC — [C] REVIEW #503 Men's Golf Breakfast Ball Enthusiast heavyweight hoodie (DRAFT, synced 14/14, Sandstone + Storm Blue, composite cover; fal $0.10).
-RUNNING helper since 2026-10-18 00:44 UTC
 2026-10-18 01:55 UTC — [C] REVIEW #442 Calculated. Mostly. chess zip hoodie REDO (new smug-knight art + pawn, Printful re-linked 12/12, new mockups, new hooded cover; fal $0.10).
 2026-10-18 01:25 UTC — [E] REVIEW #451 Magical, Mostly Tired unicorn zip hoodie (fal ~$0.2).
 2026-10-18 02:26 UTC — [E] REVIEW #406 Politely, No. bunny cropped hoodie (composite cover, fal ~$0.2).
