@@ -1,7 +1,8 @@
-status: BUILDING [B] 2026-10-18 00:25Z
+status: REVIEW
 lane: B
 type: new
 id: 498
+shopify: gid://shopify/Product/15364320526640
 handle: womens-christian-embroidered-psalm-121-mountain-crewneck-sweatshirt
 kd: 50
 ---
@@ -28,3 +29,4 @@ kd: 50
 ---
 ## Log
 - 2026-10-17 20:27 UTC director: brief written, READY (Sam's 16 proof-first concepts, inbox 2026-10-17 19:30).
+- 2026-10-18 00:50 UTC builder [B]: full build (no draft existed). Art: 2 Recraft calls (try 1 had an odd inverted middle peak, try 2 kept: three clear peaks, half sun with rays, two pines). "I lift my eyes to the hills" (Yellowtail, thickened) and PSALM 121:1 (AlfaSlabOne) set by PIL, not model-drawn. Own composition, not a copy of the 2,348-favorite listing. emb-prep: 3.33 x 3.59 in at true scale, p10 stroke 1.52 mm. ONE thread #01784E forest green (Printful palette; pf-emb-sync links one thread), reads on Sand and Sport Grey. Colors Sand + Sport Grey (green on Navy would not read; the brief's cream-on-Navy needs a second thread file). DRAFT gid 15364320526640, category aa-1-13-14, 12 variants $39.99, compareAtPrice null, tags per brief, keyword psalm shirt 320/KD50 in line one and meta, FAQ 6 x 40-60 words incl. Dec 8, copy says stitched. Printful file 1088591474, pf-emb-sync 12/12, v2 embroidery mockups Sand + Sport Grey + back attached and linked. Phone-size read: the script line is the smallest element (about 6 mm), legible at true scale; director please judge. Cover: registry 824, 2 fal photos (try 1 wore a short-sleeve sweatshirt: wrong garment; try 2 long sleeves with ribbed cuffs, but the small lettering smudged), so per 9b the exact embroidery file is composited on the chest; no hair/hand over it; alt starts "Woman". astro build OK. fal $0.18 (2 art + 2 photos).
