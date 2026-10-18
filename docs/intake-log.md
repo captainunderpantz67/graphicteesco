@@ -1,4 +1,5 @@
 RUNNING lane A since 2026-10-18 06:29 UTC
+2026-10-18 06:33 UTC — [C] REVIEW #568 Women's Crochet No, I Won't Make You One hoodie (twin of #520; art as is at FW 1500; fal $0.12) (synced 12/12 on 1088621536).
 RUNNING lane B since 2026-10-18 06:30 UTC
 2026-10-18 06:27 UTC — [D] Late REVIEW arrival: #555 Treat Me Like Wildlife tee REDO (cream headline washes out on White/Pink; navy headline file for light colors + cover re-composite). Lock released.
 2026-10-18 06:27 UTC — [D] Late REVIEW arrivals: #470 Excused From Small Talk tee, #563 Gigi Because Grandma Sounded Old hoodie, #565 Welder If You Can Step Over It hoodie all LIVE (ACTIVE + published, audit PASS 0 warn). Copy fixes: #470 'Christmas' capitalised; #565 dropped a spark-proof claim (R8.6). No Telegram. Lock released.
@@ -983,3 +984,4 @@ for the record, but treat this one as current for these 3 products.
 2026-10-17 15:03 UTC — [A] ART-NEXT #446 DRAFT built (no art/sync/images; fal empty): womens-chihuahua-cold-since-birth-zip-hoodie.
 2026-10-17 15:03 UTC — [A] Run summary (fal empty, temp-cover mode): ART-NEXT drafts built for #401 #402 #403 #444 #445 #446. No buildable twins: every READY twin waits on a source tee that is still ART-NEXT (#273 #275 #283 #318 #386 #388 #390) and the REDO twins need the R6.2 hand re-letter / new art (fal). Price chore not attempted (audit crashes in sandbox per lane B). Lock released.
 2026-10-17 22:57 UTC — [C] REVIEW #493 (REDO: black bar erased, re-linked, new mockups).
+2026-10-18 06:34 UTC — [B] REVIEW #542 Men's Golf Fairways Are a Rumor half zip REDO (cover only: man on first tee, exact print composited R6.9; fal $0.06).
