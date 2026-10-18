@@ -612,7 +612,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 817 | Haitian-American woman, mid 30s, short natural hair with a side part, small gold studs | USED 2026-10-18 — #492 Embroidered Night Shift Silly Goose Crewneck Sweatshirt cover (brief) |
 | 818 | Filipino man, early 30s, short black undercut, clean-shaven | USED 2026-10-17 - #493 Calm Face Loud Brain crewneck cover (seedream, navy, hospital hallway; pair 818-819) |
 | 819 | white woman, early 40s, short blonde bob, small pearl studs | USED 2026-10-17 - #493 Calm Face Loud Brain crewneck cover (seedream, navy, hospital hallway; pair 818-819) |
-| 820 | Samoan man, mid 30s, short black hair with a fade, full beard, broad build | CLAIMED 2026-10-17 — #494 Twelve Labors. Zero Cardio. Tee cover (brief) |
+| 820 | Samoan man, mid 30s, short black hair with a fade, full beard, broad build | USED 2026-10-18 — #494 Twelve Labors. Zero Cardio. tee cover |
 | 821 | Mexican-American man, late 20s, short wavy black hair, trimmed mustache, athletic build | USED 2026-10-17 - #495 Rest Day Is a Sacred Quest hoodie cover (seedream, sand, gym bench) |
 | 822 | white man, mid 40s, salt-and-pepper beard, weathered face, short brown hair | USED 2026-10-17 — #496 Not Lost. Scouting. camo hoodie cover |
 | 823 | Black man, early 50s, short grey hair, neat grey beard, warm smile lines | USED 2026-10-18 — #497 Fishing Is My Love Language crewneck cover (seedream, 1 attempt) |
