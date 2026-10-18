@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: C
 type: new
 id: 457
@@ -32,3 +32,4 @@ kd: 28
 - 2026-10-17 20:09 UTC builder [C]: art 1 Recraft call (3 motifs + pink bow, no lettering); FRIED FOOD / IS / TRADITION set in Alfa Slab One via compose-print.py and filled with a blue-white gingham check in post (navy keyline); FW 1650 TOP 75; Printful file 1088459209, sync 482511422 running; mockups Sand+Light Blue attached; fal cover 1 image (registry #657); copy fixed (bow is in the motif cluster, not on the F); FAQs 5 x 40-60 words incl. order-by Nov 20.
 - 2026-10-17 20:36 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/457.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. 
 - 2026-10-17 21:19 UTC director: LIVE. sheet seen: latkes, menorah, dreidel and bow, gingham FRIED FOOD IS TRADITION reads on Sand and Light Blue; cover woman 40s in a kitchen with latkes. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.
+- 2026-10-18 02:53 UTC Claude: REDO (Sam saw it live and hated it). Wrong: the menorah's candle count is wrong, the dreidel has fake Hebrew letters, the gingham-filled Alfa Slab looks like clip-art, the "IS" is tiny, the pink bow is random. New spec: keep the line FRIED FOOD IS TRADITION. Art (Recraft, no lettering): only fried foods, the joke's own subject: a golden stack of latkes with sour cream and applesauce, plus 2-3 powdered jelly sufganiyot, vintage diner-menu illustration, warm gold, cream, cornflower blue. NO menorah, dreidel, Star of David or Hebrew (R5.3.9). Words: solid navy (cream on dark blanks) in one bold real font, all three lines similar width (IS gets set large between two rules, not tiny), no pattern fill (R5.3.10), no bow. FW 1650 crew / FW 1800 tee. Replace the Printful file, all mockups and the cover on the SAME products (handle stays, product stays ACTIVE; never unpublish). Twin #458 reuses #457's new file.
