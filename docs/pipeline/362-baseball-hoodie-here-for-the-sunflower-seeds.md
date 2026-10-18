@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: B
 type: new
 id: 362
@@ -29,3 +29,4 @@ kd: 38
 - 2026-10-17 23:40 UTC builder [B]: art via Recraft (1 image, no lettering) + HERE FOR THE in Yellowtail cream/navy stroke and SUNFLOWER SEEDS in AlfaSlabOne gold (designs/b/bb.json, bb-kw.png; glove-web white slots knocked out with knock-white 8000, R5.3.8). Reads on Sand and Navy. Copy fixed (hand-drawn -> cream script + bold gold capitals; FAQ 3 -> 5 x 40-52 words incl. Dec 8). Printful file 1088453834, FW 1500 TOP 0, sync pid 482403092 running. Mockups per color + back attached. Cover registry #553 try 1 (~$0.04), words read. kw baseball hoodie 2400/38.
 - 2026-10-18 02:20 UTC builder [B]: synced 12/12. REVIEW. Sheet docs/review/362.jpg.
 - 2026-10-17 20:19 UTC director: APPROVED, LIVE. ACTIVE + published Online Store, Headless, Google; cohesion-audit --handle PASS.
+- 2026-10-18 17:22 UTC director: QUALITY RESET grade C (new line + type), REDO. The product stays ACTIVE (same handle, URL, title keyword). 1. Line (R3.12, quality-reset 'Lines'): "Here for the / SUNFLOWER SEEDS": Stock "here for the snacks" trope; script headline. Write 5 candidates, keep the one a stranger laughs at in 3 seconds without backstory; kill lines that only describe the picture; if none of the 5 is funny, PARK it. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. Keep the art if it carries the new line, else one new illustration (R4/R5). New print means a new cover per R6.10, copy line one rewritten for the new joke (R8.3), and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.

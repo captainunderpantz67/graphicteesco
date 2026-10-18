@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: E
 type: new
 id: 538
@@ -34,3 +34,4 @@ kd: 56
 - 2026-10-18 11:05 UTC builder [E]: REDO (sync running). (1) Wall disc broken: the cream wall behind the dog and basket removed (cream pixels connected to the disc dropped, sofa kept), so the crayon scribbles float on their own; new print docs/print-files/538-motherhood-exposed-me.png, Printful file 1088794977, all 30 variants re-sync with FW 1400 TOP 50 FORCE=1 (back logo kept); new mockups for all 5 colors replaced in place on Shopify (read on White and Natural at 400 px). (2) Cover re-composited from the new print (old print erased from the surrounding fabric, print moved 16 px right of the hair), first letter clear: M, then D, N, T; no halo. Sheet remade. fal $0. REVIEW only at 30/30 on file 1088794977.
 - 2026-10-18 11:15 UTC builder [E]: Printful check (R7.7): 30/30 on file 1088794977, back logo 30/30. REVIEW.
 - 2026-10-18 10:18 UTC director: LIVE. Wall disc gone, M clear on the cover. Copy fix in Shopify: 'crayon scribbles cover a patch of wall' (the wall is gone) and the FAQ's templated 'in dark ink' now names black headline / rust caption (R8.3). ACTIVE + Online Store/Headless/Google & YouTube; audit --handle PASS 0 warn. Sheet to reference/best.
+- 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "MOTHERHOOD DIDN'T / CHANGE ME. / It exposed me." and the art. 1. Type: Black headline not from art colors; thin rust script under art. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.

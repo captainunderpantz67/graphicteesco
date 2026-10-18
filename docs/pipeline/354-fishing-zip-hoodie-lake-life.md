@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 cover: fal
 lane: B
 type: twin
@@ -40,3 +40,4 @@ kd: 42
   2. (Withdrawn by the director: "Original art, made for Graphic Tees Co." is the SOP line for ai-art and stays.)
 - 2026-10-18 00:05 UTC builder [B]: REDO 1 done: Carolina Blue back mockup (designs/b/354-cb-back.jpg) uploaded as media 45759830032688 with R7.8 alt; the 6 Carolina Blue variants detached from the front photo and pointed at the back view (front photo stays in the gallery). Note: Ash variants point at the Ash front photo, not the back. Fal $0. Set REVIEW.
 - 2026-10-18 00:17 UTC director: LIVE. Sheet passes (both backs read LAKE LIFE after the composite; Carolina Blue back photo attached). ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn.
+- 2026-10-18 17:22 UTC director: QUALITY RESET grade C (new line + type), REDO. The product stays ACTIVE (same handle, URL, title keyword). 1. Line (R3.12, quality-reset 'Lines'): "LAKE LIFE": Generic label, no joke at all. Write 5 candidates, keep the one a stranger laughs at in 3 seconds without backstory; kill lines that only describe the picture; if none of the 5 is funny, PARK it. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. Keep the art if it carries the new line, else one new illustration (R4/R5). New print means a new cover per R6.10, copy line one rewritten for the new joke (R8.3), and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.

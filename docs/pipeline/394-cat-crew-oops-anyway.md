@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 shopify: gid://shopify/Product/15363409772848
 lane: C
 type: new
@@ -29,3 +29,4 @@ kd: 52
 - 2026-10-17 20:52 UTC builder [C]: art 1 Recraft call (no lettering); OOPS. / ANYWAY. in Lobster via compose-print.py; FW 1650 TOP 75 (crewneck rule); Printful file 1088483771, sync 482415723 running; mockups Sand+Navy attached; fal cover 2 images (registry #585): try 1 had the open cardigan hiding the A of ANYWAY, try 2 (cardigan pushed back over the shoulders) is clean and kept. Copy and FAQs (5 x 40-60 words, no holiday question) match the art.
 - 2026-10-17 21:11 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/394.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. 
 - 2026-10-17 21:19 UTC director: LIVE. sheet seen: smug tabby and the falling mug, OOPS. / ANYWAY. reads on Sand and Navy; cover woman at home with a cat at the window. Added tag graphic-sweatshirts (it had no collection tag). ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.
+- 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "OOPS. / ANYWAY." and the art. 1. Type: Script headline only ~68% width, smaller than script second line; no heavy weight. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.

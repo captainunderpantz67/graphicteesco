@@ -1,4 +1,4 @@
-status: ART-NEXT
+status: REVIEW
 lane: A
 type: new
 id: 634
@@ -31,3 +31,4 @@ kd: 10
 - 2026-10-18 14:06 UTC Claude: KEYWORD FIX before build (R2.10). The primary is a gift-guide search ("christmas gifts for ..."): huge volume, single-digit KD and no competition count on RankHero, the same false signal as "park sweatshirt". People searching it want idea lists, not one shirt. Builder: re-target the primary to a real shirt phrase with a competition count (try e.g. "funny christmas shirt", "secret santa gift", "matching christmas shirts", "christmas shirt for brother" and pick the best measured one, not claimed in docs/product-keyword-map.json). The gift phrase may appear once in copy as a secondary. Then build as normal.
 - 2026-10-18 16:57 UTC builder [A]: primary kept 'couples christmas shirt' (1,900 / KD 50, 50,683 listings; measured with competition, already claimed by this handle); 'christmas gifts for couples' once as secondary. Art try 1 ($0.04). Print file 1088976637 (3139x3985), FW 1650 TOP 75. DRAFT gid 15365755863344 (6 light colors x 7 = 42, $24.99, no compare-at). Dark-ink file only (light colors only); no cream fills. Sync 482800149 started. Cover pending: man AND woman side by side, registry #974.
 - 2026-10-18 16:59 UTC builder [A]: mockups for 6 colors attached (variant images + back). Cover fal try 2 (try 1: woman's hair covered the S of GIFTS; $0.12 total): man and woman, hair in a bun, empty hands, all words read, nothing over either print (note: a stray dot after 'lied' on the man's chest). Registry #974 USED. Sheet made. Waiting on sync 42/42.
+- 2026-10-18 17:11 UTC builder [A]: REVIEW. Sync 482800149 verified 42/42 on default file 1088976637 (FW 1650 TOP 75), back logo 1080398177. FAQs 5 at 47-53 words, order-by Dec 8, pair-in-cart answered (sold singly, R8.6). Primary 'couples christmas shirt' used 1x in copy + SEO title + meta; 'christmas gifts for couples' once. Light file: none needed (no cream fill). Ink named from mockups: red, mustard, green, black. Cover: man and woman, woman's hair in a bun, empty hands, both prints readable and clear at 200%, no composite.

@@ -9227,22 +9227,22 @@
   },
   "mens-christmas-moms-favorite-graphic-tee": {
    "claimed": [
-    "christmas gifts for brother",
-    "moms favorite shirt"
+    "moms favorite shirt",
+    "christmas gifts for brother"
    ],
    "gaps_measured": [
-    {
-     "phrase": "christmas gifts for brother",
-     "volume": 9900,
-     "kd": 12
-    },
     {
      "phrase": "moms favorite shirt",
      "volume": 880,
      "kd": 47
+    },
+    {
+     "phrase": "christmas gifts for brother",
+     "volume": 9900,
+     "kd": 12
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-christmas-moms-favorite-crewneck-sweatshirt": {
    "claimed": [

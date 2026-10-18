@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: B
 type: new
 id: 328
@@ -28,3 +28,4 @@ kd: 26
 - 2026-10-17 20:25 UTC builder [B]: art via Recraft (1 fal image, no lettering; moon top cropped with a ragged fade so the print is FW 1500 at ratio 0.96) + words set in AlfaSlabOne navy via compose-print (designs/b/wolf.json, wolf-print.png). Colors changed Sand+Navy -> Sand+Sport Grey: slate moon and navy lettering sink into Navy. Draft reset in place (gid 15363051815216): 12 var, $39.99 no compare-at, category hoodies, tags graphic-hoodies-for-men; FAQ rewritten 5 x 44-47 words incl. Dec 8; sizes S-3XL. Printful file 1088438103, FW 1500 TOP 0, sync pid 482393767 running. Mockups per color + back attached. Cover registry #515 try 2 (try 1 had hands in sand; 2 images ~$0.08), words all read. Audit-local PASS. kw wolf hoodie 6600/26.
 - 2026-10-17 21:20 UTC builder [B]: synced 12/12. REVIEW. Sheet docs/review/328.jpg. Wolf print width FW 1500.
 - 2026-10-17 20:16 UTC director: APPROVED, LIVE. ACTIVE + published Online Store, Headless, Google; cohesion-audit --handle PASS.
+- 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "LONE WOLF. / EARLY BEDTIME." and the art. 1. Type: Headline only ~75% width and smaller than second line; navy lacks art color. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.

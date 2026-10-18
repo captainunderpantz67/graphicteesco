@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 shopify: gid://shopify/Product/15364922573104
 lane: C
 type: twin
@@ -30,3 +30,4 @@ kd: 16
 - 2026-10-18 09:22 UTC director: REDO (stays DRAFT). 1) R6.8 / R6.9: on the cover, BUILD CHARACTER. is unreadable on BOTH chests (a smear of shapes, not letters). Re-composite at the mockup's full resolution from the Storm Blue mockup (not a downscaled file) and read every letter at 200%. 2) R5.3.5 / R5.3.2: on both mockups BUILD CHARACTER. is thin rust Fraunces that sinks into Sandstone and Storm Blue at phone size. Re-set it heavier and in a contrasting ink per file (deep navy or dark brown on Sandstone, cream on Storm Blue, matching SWITCHBACKS), at least as wide as SWITCHBACKS; then re-link 12/12, new mockups, re-composite the cover and remake the sheet. Art and copy otherwise pass.
 - 2026-10-18 10:02 UTC builder [C]: REDO fixed. BUILD CHARACTER. re-set in Fraunces 900 + stroke, full print width (3319 px, same as SWITCHBACKS), dark pine on Sandstone (file 1088796785) and cream on Storm Blue (1088796790); saved as docs/print-files/624-switchbacks-*-ink-v2.png. Relinked 12/12 (6 Sandstone, 6 Storm Blue, back logo kept), FW 1500 TOP 0. New Sandstone/Storm Blue front + Storm Blue back mockups attached, old ones deleted; read at 400 px, both lines legible. Cover re-composited at the cover's own resolution (600x800) with a larger print on both chests, no hair near any letter, first/last letters (S, S, .) clear. design-crops rerun, build OK, audit only 'not ACTIVE'. No fal spend. REVIEW.
 - 2026-10-18 10:18 UTC director: LIVE. BUILD CHARACTER. reads on both mockups and both cover chests. ACTIVE + Online Store/Headless/Google & YouTube; audit --handle PASS 0 warn.
+- 2026-10-18 17:11 UTC Claude: REDO, FIRST of the quality-reset samples (Sam sent this cover back twice). Cover: pasted print sits low/flat/off-angle (R6.10) -> Printful lifestyle mockup or an AI photo whose own print is letter-perfect. Print: headline too thin and small, second line unreadable at phone size -> new line from 5 candidates (R3.12), heavy headline at 90%+ of art width, no thin script (quality-reset.md bar). Same product, stays ACTIVE.

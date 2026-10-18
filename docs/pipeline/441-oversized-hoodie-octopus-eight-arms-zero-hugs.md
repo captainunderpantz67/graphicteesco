@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: C
 type: new
 id: 441
@@ -29,3 +29,4 @@ kd: 30
 - 2026-10-17 20:20 UTC builder [C]: art 2 Recraft calls (try 1 had the arms flung out, not folded; try 2 kept: bored half-lidded octopus, arms folded together in front), no lettering; EIGHT ARMS, / ZERO HUGS in Lobster via compose-print.py; FW 1500 TOP 20 (aspect 1.08 on the 1650 front area); Printful file 1088465464, sync 482474771 running; mockups Dust+Navy attached; fal cover 2 images (registry #637): try 1 had drawstrings across the octopus, try 2 prompted 'no drawstrings' (this blank has none) and is clean; copy fixed to the real art (folded arms, script capitals); FAQs 5 x 40-60 words.
 - 2026-10-17 20:36 UTC builder [C]: REVIEW. Sync 12/12. Sheet docs/review/441.jpg. design-crops and variant-photo audit cover published products only: rerun when ACTIVE. Local cohesion audit not run (no spec file); copy checked by hand against the art. 
 - 2026-10-17 21:19 UTC director: LIVE. sheet seen: bored coral octopus with folded arms, EIGHT ARMS, / ZERO HUGS reads on both; cover woman on a pier. Copied to reference/best. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.
+- 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "EIGHT ARMS, / ZERO HUGS" and the art. 1. Type: Both lines medium script with outline; no heavy headline weight. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.

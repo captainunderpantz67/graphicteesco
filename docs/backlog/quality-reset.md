@@ -17,5 +17,280 @@ Builders are paused (docs/intake-log.md line 1). The director publishes nothing 
 
 ## Steps
 1. Director: grade every design that went LIVE since 2026-10-17 18:00 UTC as A (bar), B (fix the type only), C (new line + type). Write the list here. B and C become REDO (same product, stays ACTIVE).
-2. Lane A builds 5 sample REDOs from the C list to the new bar. Claude sends them to Sam.
+2. Lane A builds 5 sample REDOs: #577 Making Biscuits and #624 Switchbacks first (Sam sent both back), then 3 from the C list to the new bar. Claude sends them to Sam.
 3. RESUME only after Sam approves the samples.
+
+## Step 1 grades (director, 2026-10-18 17:25 UTC)
+256 products went LIVE from 2026-10-17 18:00 UTC to now (twins counted separately; a twin carries its own print file, so type is judged per product, the line per design). Every review sheet was opened against the bar (479, 483, 493) and the step back (577, 624, 537). **A 57 · B 50 · C 149.** B and C are now `status: REDO` with a numbered note in their pipeline file; the products stay ACTIVE. 577 and 624 were already sent back by Sam and are not in this list.
+Patterns: C lines are mostly a seasonal label (Hello Winter, Pie Season, Lake Life), a stock template ("___ Champion", "___ Survivor", "___ Club", "Professional ___") or a noun plus a mild aside in parentheses. B type is mostly the same tell Sam named: a headline well under 90% width, a thin script or small spaced caps second line, art floating between two text bars.
+
+### A: the bar (stays LIVE)
+
+| # | Item | Print | Note |
+|---|---|---|---|
+| 255 | 255-thanksgiving-technically-a-vegetable | TECHNICALLY / A VEGETABLE | Strong line; heavy stacked headline ~90% width, brown pulled from art. |
+| 256 | 256-thanksgiving-technically-a-vegetable-crewneck | TECHNICALLY / A VEGETABLE | Strong line; heavy stacked headline ~90% width, brown pulled from art. |
+| 327 | 327-dachshund-hoodie-short-legs-long-opinions | SHORT LEGS, / LONG OPINIONS | Strong contrast line; both lines heavy, full width, colors from art. |
+| 331 | 331-nye-midnight-is-a-suggestion | MIDNIGHT IS A / SUGGESTION | Funny line; heavy two-color lines at full width. |
+| 337 | 337-pitbull-hoodie-professional-lap-dog | PROFESSIONAL / LAP DOG / (72 LBS) | Stacked heavy lockup full width; "(72 LBS)" punchline lands instantly. |
+| 359 | 359-alien-oversized-visiting-not-impressed | VISITING. / NOT IMPRESSED. | Unimpressed alien reads in 3s; full-width heavy lines like 493. |
+| 363 | 363-national-park-heavyweight-went-outside-it-was-fine | WENT OUTSIDE. / IT WAS FINE. | Deadpan indoorsy joke lands; heavy full-width lines top and bottom. |
+| 367 | 367-car-hoodie-not-stopping-hold-it | NOT STOPPING. / HOLD IT. | Road-trip dad line instantly relatable; heavy full-width headline, bold second line. |
+| 401 | 401-owl-hoodie-owl-be-in-bed | NIGHT OWL, / RETIRED | Heavy full-width two-line lockup in art colors; neat twist on night owl. |
+| 407 | 407-sasquatch-hoodie-camera-shy | CAMERA SHY | Bigfoot never photographed: instant read; heavy full-width headline. |
+| 416 | 416-strawberry-oversized-hoodie-berry-introverted | PLEASE DON'T / PICK ME | Double meaning lands instantly; heavy full-width red lettering, strong second line. |
+| 437 | 437-y2k-hoodie-gold-star-leaving-the-house | GOLD STAR / FOR LEAVING THE HOUSE | Relatable, instantly funny; heavy full-width gold type, strong lockup. |
+| 444 | 444-heavyweight-hoodie-eagle-bald-and-majestic | BALD BY CHOICE. / MAJESTIC BY NATURE. | Bald-guy joke lands; heavy full-width lockup, second line ~60% height in art gold. |
+| 445 | 445-knight-hoodie-squire-spot-me | SQUIRE, SPOT ME | Absurd knight bench press, instant laugh; heavy full-width red headline. |
+| 449 | 449-pirate-hoodie-arrr-thritis | PILLAGING IS A / YOUNG MAN'S GAME | Funny instantly; heavy full-width two-tone lockup, strong second line. |
+| 454 | 454-christmas-tee-some-assembly-regretted | SOME ASSEMBLY / REGRETTED | Twist on "some assembly required" lands instantly; heavy full-width red bars from art. |
+| 471 | 471-christmas-crew-attending-under-protest | ATTENDING / UNDER PROTEST | heavy full-width two-line lockup, colors from the art; matches twin 569 |
+| 475 | 475-equestrian-crew-horse-girl-broke-on-purpose | HORSE GIRL / BROKE ON PURPOSE | Self-aware twist lands fast; heavy full-width bars in art's dark brown. |
+| 476 | 476-western-hoodie-horse-girl-broke-on-purpose | HORSE GIRL / BROKE ON PURPOSE | Self-aware twist lands fast; heavy full-width bars in art's dark brown. |
+| 479 | 479-tag-soup-hoodie | Today's Special / TAG SOUP / SERVED FRESH EVERY SEASON | Calibration A: big heavy headline, strong line. |
+| 480 | 480-tag-soup-tee | Today's Special / TAG SOUP / SERVED FRESH EVERY SEASON | Same art as 479 calibration A. |
+| 483 | 483-sisyphus-bad-programming-tee | SISYPHUS HAD / BAD PROGRAMMING | Calibration A. |
+| 484 | 484-sisyphus-crewneck | SISYPHUS HAD / BAD PROGRAMMING | Same art as 483 calibration A. |
+| 493 | 493-nurse-crew-calm-face-loud-brain | CALM FACE. / LOUD BRAIN. | Calibration A: bold full-width type in art colors, strong contrast line |
+| 496 | 496-camo-hoodie-not-lost-scouting | NOT LOST. / SCOUTING. | Bold full-width type in art colors; deer-in-recliner excuse reads instantly |
+| 497 | 497-fishing-crew-love-language | FISHING IS MY / LOVE LANGUAGE. / TALKING ISN'T. | Heavy full-width type, gold from art; twist lands |
+| 502 | 502-gym-hoodie-sisyphus-had-bad-programming | SISYPHUS HAD / BAD PROGRAMMING | Same art as 483 calibration A |
+| 504 | 504-golf-hoodie-not-cheating-improving-my-lie | NOT CHEATING. / IMPROVING MY LIE. | Bold full-width type in both lines; double meaning of lie lands |
+| 510 | 510-national-park-heavyweight-running-late-bison-traffic | RUNNING LATE. / BISON TRAFFIC. | Heavy full-width type in art colors; excuse joke reads instantly |
+| 511 | 511-golf-crew-sorry-about-your-windshield | SORRY ABOUT / YOUR WINDSHIELD. | Full-width heavy navy type from art; instant laugh |
+| 515 | 515-nurse-hoodie-calm-face-loud-brain | CALM FACE. / LOUD BRAIN. | Same art as 493 calibration A |
+| 517 | 517-golf-hoodie-sorry-about-your-windshield | SORRY ABOUT / YOUR WINDSHIELD. | Full-width heavy navy serif both lines; bad-golfer apology lands instantly. |
+| 518 | 518-hockey-crew-cold-rink-hot-takes | COLD RINK, / HOT TAKES. | headline and HOT TAKES both full width and heavy; matches twin 551 |
+| 520 | 520-crochet-crew-no-i-wont-make-you-one | NO, I WON'T / MAKE YOU ONE. | Full-width heavy red both lines; every crafter's line, stranger gets it. |
+| 529 | 529-welder-tee-step-over-it | IF YOU CAN / STEP OVER IT, / I CAN FILL IT. | Stacked full-width lockup, bold orange punchline; welder brag reads instantly. |
+| 534 | 534-dance-mom-tee-bun-tight | BUN TIGHT. SMILE ON. / WALLET EMPTY. | Full-width stacked heavy serif in art colors; three-beat punchline lands. |
+| 540 | 540-christmas-tee-it-looked-smaller-at-the-farm | IT LOOKED SMALLER / AT THE FARM | Full-width heavy red both lines; universal Christmas-tree fail. |
+| 541 | 541-christmas-crew-it-looked-smaller-at-the-farm | IT LOOKED SMALLER / AT THE FARM | Same art as 540: full-width heavy red, universal joke. |
+| 542 | 542-golf-half-zip-fairways-are-a-rumor | FAIRWAYS / ARE A RUMOR. | Full-width heavy headline, bold red punchline; instant golfer laugh. |
+| 546 | 546-christian-tee-short-grace-hot-food | SHORT GRACE. / HOT FOOD. | Full-width heavy brown serif both lines; relatable church-dinner joke. |
+| 550 | 550-fishing-hoodie-love-language | FISHING IS MY / LOVE LANGUAGE. / TALKING ISN'T. | Stacked full-width heavy type in art colors; punchline twist lands. |
+| 551 | 551-hockey-hoodie-cold-rink-hot-takes | COLD RINK, / HOT TAKES. | Full-width heavy lines top and bottom, art colors; tight contrast line lands like Calm Face Loud Brain. |
+| 564 | 564-gym-hoodie-twelve-labors-zero-cardio | TWELVE LABORS. / ZERO CARDIO. | Matches Sisyphus bar: full-width serif lines, strong mythic gym joke. |
+| 565 | 565-welder-hoodie-step-over-it | IF YOU CAN / STEP OVER IT, / I CAN FILL IT. | Stacked full-width headline, heavy orange punch line; art sells the welder brag. |
+| 566 | 566-fishing-heavyweight-hoodie-you-catching-em | YOU CATCHING 'EM? / NO. KEEP WALKING. | Full-width heavy headline, bold brush punch line full width; grumpy reply lands instantly. |
+| 568 | 568-crochet-hoodie-no-i-wont-make-you-one | NO, I WON'T / MAKE YOU ONE. | Full-width heavy red lines both; every crafter's truth, instant laugh. |
+| 569 | 569-christmas-hoodie-attending-under-protest | ATTENDING / UNDER PROTEST | Heavy stacked lockup full width; grumpy reindeer + line lands instantly. |
+| 581 | 581-mechanic-tee-cant-just-take-a-quick-look | NO, I CAN'T JUST / TAKE A QUICK LOOK. | Full-width heavy stacked lockup; every mechanic's pet peeve, instant laugh. |
+| 583 | 583-drummer-tee-the-neighbors-love-me | THE NEIGHBORS / LOVE ME. | Heavy stacked lockup; sarcasm paid off by art of miserable neighbors. Art panel lacks type. |
+| 585 | 585-drummer-hoodie-the-neighbors-love-me | The Neighbors / Love Me. | Sarcasm lands instantly with drummer art; full-width heavy headline, huge second line |
+| 598 | 598-christmas-cat-tee-allegedly | Allegedly. | Guilty cat plus one word lands in 3 seconds; full-width heavy red headline |
+| 606 | 606-running-hoodie-mile-one-was-a-mistake | Mile One / Was A Mistake. | Relatable instant laugh; full-width heavy headline, big bold second line |
+| 609 | 609-pickleball-tee-my-partner-says-it-was-out | My Partner Says / It Was Out. | Blame-shifting line-call joke reads instantly; full-width heavy type both lines |
+| 612 | 612-running-tee-i-only-run-downhill | I Only Run / Downhill. | Clear instant joke; full-width heavy headline and punch line |
+| 623 | 623-christmas-oversized-hoodie-it-looked-smaller-at-the-farm | It Looked Smaller / At The Farm | Universal tree-farm laugh; full-width heavy headline and bigger second line |
+| 629 | 629-welder-tee-i-basically-hot-glue-metal | I Basically / Hot Glue Metal. | Self-deprecating instant laugh; tall condensed headline ~90%, full-width heavy punch |
+| 630 | 630-nana-crew-mom-said-no-thats-cute | Mom Said No? / That's Cute. | Grandma attitude lands instantly; full-width headline, big heavy brush second line |
+
+### B: fix the type only (REDO)
+
+| # | Item | Print | Note |
+|---|---|---|---|
+| 239 | 239-christmas-resting-my-eyes | RESTING MY EYES | Small condensed sage text under art, ~50% width, low contrast, no second line. |
+| 282 | 282-christmas-bulking-season | BULKING SEASON | Small condensed arched headline ~55% width, not on art panel, art dominates. |
+| 328 | 328-wolf-hoodie-lone-wolf-early-bedtime | LONE WOLF. / EARLY BEDTIME. | Headline only ~75% width and smaller than second line; navy lacks art color. |
+| 370 | 370-mountain-hoodie-mountains-called-left-on-read | THE MOUNTAINS CALLED. / LEFT THEM ON READ. | Both lines thin bars ~6% panel height, art dominates; plain bar top/bottom. |
+| 394 | 394-cat-crew-oops-anyway | OOPS. / ANYWAY. | Script headline only ~68% width, smaller than script second line; no heavy weight. |
+| 403 | 403-introvert-hoodie-i-have-plans | I HAVE PLANS | Ironic introvert line works; type is mid-weight script only, no heavy headline or hierarchy. |
+| 434 | 434-anime-oversized-hoodie-last-dumpling | SHARING IS NOT / MY LOVE LANGUAGE | Light casual hand-font, uniform size, no heavy headline or hierarchy. |
+| 441 | 441-oversized-hoodie-octopus-eight-arms-zero-hugs | EIGHT ARMS, / ZERO HUGS | Both lines medium script with outline; no heavy headline weight. |
+| 460 | 460-apres-ski-hoodie-expert-in-apres | EXPERT IN APRÈS / (beginner at skiing) | Plain top bar, art, casual hand-script bottom line; no lockup, script reads light on navy. |
+| 461 | 461-apres-ski-crew-expert-in-apres | EXPERT IN APRÈS / (beginner at skiing) | Plain top bar, art, casual hand-script bottom line; script tiny/faint on mockups. |
+| 463 | 463-pilates-crew-core-issues | I have / CORE ISSUES | Thin pink script "I have" ~45% width on top; headline split, weak hierarchy. |
+| 464 | 464-pilates-cropped-hoodie-core-issues | I have / CORE ISSUES | Thin pink script "I have" on black/charcoal garment; fails dark-garment script rule. |
+| 474 | 474-western-hoodie-feed-store-fashion-week | FEED STORE / FASHION WEEK / Saturday, 7 a.m. | Arched headline mid-weight and smaller than FASHION WEEK; small script third line. |
+| 477 | 477-clocked-it-embroidered-crewneck | clocked it. | line works; "clocked it." is a thin script, the cat outline is the loudest thing |
+| 478 | 478-clocked-it-tee | clocked it. / SAID NOTHING. | line works; "clocked it." is a thin script, SAID NOTHING small spaced caps |
+| 481 | 481-do-not-sell-my-books-crewneck | do not sell my books / AT MY FUNERAL. | Thin lowercase italic serif headline; thin spaced serif bottom line, neither heavy. |
+| 482 | 482-promised-to-behave-football-mom-tee | promised to behave / DIDN'T SAY FOR HOW LONG / FOOTBALL MOM | Thin script top line on maroon/black; condensed light bottom lines, tiny third line. |
+| 487 | 487-crew-university-of-staying-in | UNIVERSITY OF / STAYING IN / EST. WHENEVER | fake-club line works; EST. WHENEVER is a thin, spaced plain line, art floats between bars |
+| 488 | 488-womens-tee-i-said-it-nicely-in-my-head | I SAID IT NICELY / in my head | Plain black bar on top, art, thin black script under art: the step-back layout; fails on dark garments |
+| 490 | 490-hoodie-plans-canceled-mood-improved | PLANS CANCELED. / MOOD IMPROVED. | No type in art file; small plain bars about 60% of chest print, not dominant |
+| 494 | 494-gym-tee-twelve-labors-zero-cardio | TWELVE LABORS. / ZERO CARDIO. | No type in art file; small thin black serif bars about 70% width, colors not from art |
+| 501 | 501-bookish-hoodie-do-not-sell-my-books | do not sell my books / AT MY FUNERAL. | Headline is a lowercase italic serif, not heavy; one maroon color, low contrast |
+| 507 | 507-national-park-oversized-hoodie-geothermally-active | My Type? / GEOTHERMALLY ACTIVE. | Type block beside art about 50% width; small script My Type? |
+| 512 | 512-golden-retriever-crew-brought-you-a-sock | I BROUGHT YOU A SOCK. / You're welcome. | line lands with the dog; "You're welcome." is a navy script, too light on mid colors |
+| 521 | 521-mimi-crew-mimi-says-yes | MIMI / SAYS YES. | line works; MIMI headline about 60% width, SAYS YES smaller still, art pushed right |
+| 522 | 522-gigi-crew-because-grandma-sounded-old | GIGI / because grandma sounded old. | Headline pink script ~60% width; second line navy script, not bold lettering. |
+| 523 | 523-oversized-hoodie-university-of-staying-in | UNIVERSITY OF / STAYING IN / EST. WHENEVER | fake-club line works; EST. WHENEVER is a thin, spaced plain line, art floats between bars |
+| 524 | 524-hoodie-i-said-it-nicely-in-my-head | I SAID IT NICELY / in my head | Plain black bar not from art colors; thin black script under art. |
+| 525 | 525-heavyweight-hoodie-i-brought-you-a-sock | I BROUGHT YOU A SOCK. / You're welcome. | line lands with the dog; "You're welcome." is a navy script, too light on mid colors |
+| 527 | 527-hoodie-clocked-it-said-nothing | clocked it. / SAID NOTHING. | line works; "clocked it." is a thin script, SAID NOTHING small spaced caps |
+| 532 | 532-fishing-tee-you-catching-em | YOU CATCHING 'EM? / No. Keep Walking. | Red script second line on dark garments; should be bold lettering. |
+| 538 | 538-mom-tee-motherhood-exposed-me | MOTHERHOOD DIDN'T / CHANGE ME. / It exposed me. | Black headline not from art colors; thin rust script under art. |
+| 544 | 544-gym-tee-rack-your-weights | RACK YOUR WEIGHTS. / Respectfully. | line works (butler racking plates); headline thin book serif, plain bar on top |
+| 547 | 547-cropped-tee-book-buying-ban | BOOK BUYING BAN: / Day One (Again) | Script second line under art, worn on black; needs bold lettering. |
+| 555 | 555-hiking-tee-treat-me-like-wildlife | TREAT ME LIKE / WILDLIFE. / admire from 25 yards. | Second line ~35% of headline height in light casual font; headline condensed navy, not from art. |
+| 556 | 556-golf-tee-i-play-army-golf | LEFT. RIGHT. LEFT. / I play army golf. | Thin dark-green script second line under art, ~35% headline height; plain bar on top. |
+| 557 | 557-cat-dad-tee-cant-cats-on-me | CAN'T. / CAT'S ON ME. | Headline CAN'T only ~65% width; second line visually louder than headline. |
+| 558 | 558-cat-zip-hoodie-not-my-turn-with-the-brain-cell | NOT MY TURN / with the brain cell. | Thin pink script second line on navy hoodie; plain bar headline over art. |
+| 562 | 562-mimi-hoodie-mimi-says-yes | MIMI / SAYS YES. | line works; MIMI headline about 60% width, SAYS YES smaller still, art pushed right |
+| 563 | 563-gigi-hoodie-because-grandma-sounded-old | GIGI / because grandma sounded old. | Headline GIGI thin pink script ~45% width; second line navy script, not from art. |
+| 567 | 567-christmas-oversized-hoodie-bulking-season | BULKING SEASON | Arched headline is medium-weight brown on grey, reads light; art overpowers type. |
+| 570 | 570-cat-cropped-hoodie-oops-anyway | OOPS. / ANYWAY. | Script headline OOPS only ~65% width, not heavy; both lines script. |
+| 573 | 573-fishing-womens-tee-out-fished-him-again | OUT-FISHED HIM. / Again. | No type on art panel; headline narrower than art, thin navy script "Again." |
+| 578 | 578-pitbull-tee-afraid-of-the-vacuum | SCARY DOG. / afraid of the vacuum. | Thin gold script second line on navy, ~40% headline height; plain bar on top. |
+| 579 | 579-grandpa-tee-ask-your-grandmother | I DON'T KNOW. / Ask your grandmother. | Thin gold script second line on navy/brown; plain bar on top, script under art. |
+| 584 | 584-car-guy-tee-fluent-in-rattle | I Speak / Fluent Rattle. | Art panel has no type; mockup headline ~45% art width, both lines small bars above/below art |
+| 622 | 622-golf-zip-hoodie-i-play-army-golf | Left. Right. Left. / I play army golf. | Short thin headline bar, thin green script line below art (step-back layout) |
+| 625 | 625-gym-oversized-hoodie-rack-your-weights | Rack Your Weights. / Respectfully. | line works (butler racking plates); headline thin book serif, plain bar on top |
+| 632 | 632-hockey-tee-not-weird-just-the-goalie | Not Weird. / Just The Goalie. | Headline thin light-weight slab, not heavy; second line fine |
+| 635 | 635-fishing-womens-zip-hoodie-out-fished-him-again | Out-Fished Him. / Again. | "Again." thin navy script ~40% width, vanishes on navy garment |
+
+### C: new line + type (REDO)
+
+| # | Item | Print | Note |
+|---|---|---|---|
+| 205 | 205-christmas-hoodie-north-woods-moose | NORTH WOODS / CHRISTMAS | Label, not a joke; just names the scene. Type also small, ~65% width over art. |
+| 216 | 216-christmas-hoodie-hello-winter-snowflakes | Hello Winter | Seasonal greeting, no joke; script-only type. |
+| 217 | 217-christmas-hoodie-ho-ho-howdy | HO HO HOWDY | Stock groan pun that just describes cowboy Santa. |
+| 219 | 219-christmas-o-holy-night-crewneck | O Holy Night / Luke 2:11 | Sincere carol title, no humor; script type throughout. |
+| 221 | 221-christmas-christmas-nurse-crewneck | Nice List Nurse | Occupation label, no punchline; script type. |
+| 237 | 237-christmas-candy-cane-club-crewneck | CANDY CANE CLUB | Label describing the art, no joke; thin arched script. |
+| 244 | 244-christmas-nanas-cookies-crewneck | NANA'S COOKIES / RECIPE NOT AVAILABLE | Noun + mild aside, the exact step-back pattern. |
+| 245 | 245-christmas-nanas-cookies | NANA'S COOKIES / RECIPE NOT AVAILABLE | Noun + mild aside, the exact step-back pattern. |
+| 246 | 246-thanksgiving-hoodie-totally-a-pilgrim | TOTALLY A PILGRIM | Mild disguise gag mostly describes the turkey; no real punch. |
+| 251 | 251-thanksgiving-the-turkey-is-fine | THE TURKEY / IS FINE | Calm art kills the irony; reads as literal caption, not a laugh. |
+| 252 | 252-thanksgiving-the-turkey-is-fine-crewneck | THE TURKEY / IS FINE | Calm art kills the irony; reads as literal caption, not a laugh. |
+| 257 | 257-thanksgiving-wishbone-champion | UNDEFEATED / WISHBONE CHAMPION | Stock "champion" template describing the trophy; no surprise. |
+| 258 | 258-thanksgiving-wishbone-champion-crewneck | UNDEFEATED / WISHBONE CHAMPION | Stock "champion" template describing the trophy; no surprise. |
+| 273 | 273-christmas-card-photo-survivor | CHRISTMAS CARD PHOTO / SURVIVOR | Stock "___ survivor" template, smile not a laugh. |
+| 274 | 274-christmas-card-photo-survivor-crewneck | CHRISTMAS CARD PHOTO / SURVIVOR | Stock "___ survivor" template, smile not a laugh. |
+| 275 | 275-christmas-white-elephant-champion | WHITE ELEPHANT / CHAMPION / UNDEFEATED | Stock champion/undefeated template, no twist. |
+| 276 | 276-christmas-white-elephant-champion-crewneck | WHITE ELEPHANT / CHAMPION / UNDEFEATED | Stock champion/undefeated template, no twist. |
+| 280 | 280-thanksgiving-hoodie-pie-season | Pie Season | Seasonal label, no joke; thin script headline. |
+| 281 | 281-black-friday-in-it-for-the-doorbusters | in it for the / DOORBUSTERS | Mild aside, no laugh; thin script lead-in. |
+| 283 | 283-christmas-deck-the-stalls | CHRISTMAS / PLANS: / THE BARN | "Plans: X" stock template; mild horse-owner aside. |
+| 284 | 284-christmas-deck-the-stalls-crewneck | CHRISTMAS / PLANS: / THE BARN | "Plans: X" stock template; mild horse-owner aside. |
+| 318 | 318-christmas-tied-up-for-the-holidays-crewneck | TIED UP / for the holidays | Mild bow pun describing art; also thin script below. |
+| 319 | 319-christmas-tied-up-for-the-holidays | TIED UP / for the holidays | Mild bow pun describing art; also thin script below. |
+| 323 | 323-capybara-hoodie-out-of-office | OUT OF OFFICE / (soaking) | Noun + mild aside; thin script second line on navy. |
+| 326 | 326-bee-hoodie-busy-bee-off-duty | THIS BEE HAS / CLOCKED OUT | Just describes the sleeping bee; mild, no surprise. |
+| 332 | 332-nye-resolutions-pending | RESOLUTIONS / PENDING | Mild aside, no laugh. |
+| 333 | 333-nye-new-year-same-guy | NEW YEAR, / SAME GUY | Cliche "new year same me" riff; type fine but line flat. |
+| 334 | 334-thanksgiving-hoodie-laying-low-till-friday | LAYING LOW / TILL FRIDAY | Mild turkey-hiding pun; smirk at best, no 3-second laugh. Type itself is strong. |
+| 336 | 336-nana-hoodie-professional-spoiler | Nana / PROFESSIONAL SPOILER | Stock grandma slogan, noun + mild aside; also script headline. |
+| 341 | 341-axolotl-oversized-hoodie-smiling-through-it | SMILING THROUGH IT | Stock phrase describing the picture; single script line under art. |
+| 346 | 346-christian-hoodie-casserole-ministry | CASSEROLE / MINISTRY | Church-insider label, not a joke; thin arched script top. |
+| 354 | 354-fishing-zip-hoodie-lake-life | LAKE LIFE | Generic label, no joke at all. |
+| 356 | 356-rodeo-hoodie-saturday-night-rodeo | SATURDAY NIGHT / RODEO | Generic event label, no joke. |
+| 357 | 357-floral-cropped-wildly-low-maintenance | WILDLY / LOW MAINTENANCE | Mild wordplay, noun + aside; headline ~70% width. |
+| 358 | 358-volleyball-hoodie-bump-set-nap | I YELL / "FREE BALL" / AT EVERYTHING | Volleyball insider call; strangers need it explained. |
+| 361 | 361-grandpa-crewneck-i-fix-things-after-naps | I FIX THINGS. / (after my nap) | Stock grandpa nap trope, mild aside; thin brown handwritten second line. |
+| 362 | 362-baseball-hoodie-here-for-the-sunflower-seeds | Here for the / SUNFLOWER SEEDS | Stock "here for the snacks" trope; script headline. |
+| 364 | 364-soccer-zip-orange-slice-manager | ORANGE SLICE / MANAGER | Soccer-parent in-joke, mild label; type is fine. |
+| 365 | 365-skull-zip-dead-serious | DEAD SERIOUS | Groan pun on party skull; tiny text ~35% width. |
+| 366 | 366-beach-oversized-low-tide-low-effort | LOW TIDE / LOW EFFORT | Mild rhyme-pun, describes the lounging crab. |
+| 368 | 368-lucky-horseshoe-heavyweight-lucky-horseshoe-ranch | LUCKY HORSESHOE / RANCH | Brand label, no joke. |
+| 369 | 369-desert-bloom-cropped-desert-bloom | (no text) | No line at all; art only. |
+| 371 | 371-sunflower-zip-sunny-disposition-mostly | SUNSHINE / WITH BOUNDARIES | Stock self-care slogan, smirk not laugh. |
+| 378 | 378-nurse-crew-iv-league | IV LEAGUE | Groan pun for nurses; arched type is good. |
+| 380 | 380-football-mom-crew-down-set-snacks | DOWN, SET, SNACKS | Groan pun; thin headline bar only. |
+| 382 | 382-baseball-mom-crew-bases-loaded-mom-exhausted | BASES LOADED / MOM EXHAUSTED | Mild sports-mom pun; arched type is strong. |
+| 384 | 384-y2k-osw-hot-mess-express | HOT MESS / EXPRESS | Worn-out stock phrase, no new angle. |
+| 386 | 386-christmas-tee-official-tree-topper | OFFICIAL / TREE TOPPER | Only describes the picture (cat on tree); type strong. |
+| 387 | 387-christmas-crew-official-tree-topper | OFFICIAL / TREE TOPPER | Only describes the picture (cat on tree); type strong. |
+| 388 | 388-christmas-crew-seasonally-overbooked | SEASONALLY / OVERBOOKED | Mild noun + aside; thin pink script headline on navy. |
+| 389 | 389-christmas-tee-seasonally-overbooked | SEASONALLY / OVERBOOKED | Mild noun + aside; thin pink script headline on navy. |
+| 390 | 390-christmas-tee-gnome-comment | I'LL BE PLEASANT / TILL NEW YEAR'S | Weak, no clear punchline with grumpy gnome. |
+| 391 | 391-christmas-crew-gnome-comment | I'LL BE PLEASANT / TILL NEW YEAR'S | Weak, no clear punchline with grumpy gnome. |
+| 395 | 395-teacher-crew-indoor-recess-survivor | INDOOR RECESS / SURVIVOR | Tired "X survivor" format; teacher-only, no punchline. |
+| 396 | 396-western-crew-yeehaw-responsibly | YEEHAW, / BUT QUIETLY | Noun + mild aside; teacup-cowboy contrast doesn't land as a joke. |
+| 397 | 397-otter-hoodie-currently-drifting | CURRENTLY / DRIFTING | Just describes the floating otter; mild, no twist. |
+| 398 | 398-raccoon-hoodie-fine-dumpster-dining | FINE DUMPSTER / DINING | Overused raccoon-trash pun, only describes the picture. |
+| 402 | 402-fishing-hoodie-professionally-chilling | PROFESSIONALLY / CHILLING | Cliche "professionally X" plus groan chill pun. |
+| 404 | 404-y2k-hoodie-side-quests-only | SIDE QUESTS / ONLY | Stock gamer phrase, no joke for a stranger. |
+| 405 | 405-anime-hoodie-snack-hoard | SNACK HOARD | Two-word label describing the picture. |
+| 406 | 406-cropped-hoodie-politely-hop-off | POLITELY, NO. | Single mild aside; no punchline. |
+| 408 | 408-oversized-hoodie-shark-friendly-ish | FRIENDLY-ISH | One-word mild aside on a grinning shark. |
+| 409 | 409-heavyweight-hoodie-truck-stop-connoisseur | TRUCK STOP / CONNOISSEUR | Descriptive label, no twist. |
+| 414 | 414-goat-hoodie-kid-at-heart | STUBBORN AND / PROUD OF IT | Generic stock phrase; nothing goat-specific or surprising. |
+| 415 | 415-cherry-hoodie-cherry-picking-my-battles | SWEET UNTIL / FURTHER NOTICE | Stock sassy phrase; mild, cherries/boxing gloves don't add a joke. |
+| 417 | 417-tiger-oversized-hoodie-apex-napper | APEX NAPPER | Groan pun on apex predator; just describes a napping tiger. |
+| 435 | 435-anime-cropped-hoodie-petal-pusher | MAIN CHARACTER, / BACKGROUND ENERGY | Muddled meme phrasing; contrast needs the picture to explain, no punch. |
+| 436 | 436-anime-heavyweight-hoodie-talk-to-the-paw | IGNORING YOU / PROFESSIONALLY | Repeated "professionally" formula; mild cat-attitude line. |
+| 438 | 438-zip-hoodie-panda-bamboozled | ATE. NAPPED. / CALLED IT A DAY. | Describes the lazy panda; mild, no twist. |
+| 439 | 439-cropped-hoodie-tennis-single-and-serving | MY BACKHAND / HAS OPINIONS | Mild aside; insider-ish and doesn't land without context. |
+| 440 | 440-oversized-hoodie-pig-hogwash | MUD BATH BOOKED. / PLANS CANCELED. | Describes pig spa picture; mild self-care aside. |
+| 442 | 442-zip-hoodie-chess-knight-shift | CALCULATED. / MOSTLY. | Noun + mild aside formula; smirk at best. |
+| 443 | 443-hoodie-mothman-light-sleeper | LIGHT SLEEPER | Pun needs Mothman/moth-to-light backstory; groan-level. |
+| 446 | 446-chihuahua-zip-hoodie-cold-since-birth | COLD SINCE / BIRTH | Mild statement describing the shivering chihuahua. |
+| 447 | 447-alpaca-hoodie-self-made-fleece | JUDGING YOU SOFTLY | Mild aside; generic animal-judging trope. |
+| 448 | 448-wizard-zip-hoodie-grill-wizard | GRILL WIZARD | Noun label describing the picture, no joke. |
+| 450 | 450-crow-hoodie-shiny-object-syndrome | SHINY OBJECT / SYNDROME | Stock phrase drawn literally (crow with trinkets); describes picture, no twist. |
+| 451 | 451-unicorn-zip-hoodie-magical-mostly-tired | MAGICAL / (mostly tired) | Noun + mild parenthetical aside; no punch. Art panel has no type, small text. |
+| 455 | 455-hanukkah-crew-spin-responsibly | SPIN / RESPONSIBLY | Groan pun on "drink responsibly"; art panel has no type, small headline. |
+| 456 | 456-hanukkah-tee-spin-responsibly | SPIN / RESPONSIBLY | Groan pun on "drink responsibly"; type strong but line is mild. |
+| 457 | 457-hanukkah-crew-latke-queen | EIGHT NIGHTS / OF FRIED FOOD | Just describes Hanukkah food and the picture; no joke. Mockups show grey panel. |
+| 458 | 458-hanukkah-tee-latke-queen | EIGHT NIGHTS / OF FRIED FOOD | Just describes Hanukkah food and the picture; no joke. |
+| 459 | 459-mtb-hoodie-pedal-pusher | PEDAL PUSHER / (MOSTLY PUSHING) | Pun + parenthetical aside formula; mild, same pattern as "magical (mostly tired)". |
+| 465 | 465-lawyer-hoodie-i-rest-my-case | I REST MY CASE | Groan pun that only describes the sleeping lawyer picture. |
+| 466 | 466-embroidered-hoodie-overthinkers-club | OVERTHINKERS CLUB / EST. 3 A.M. | Stock "club" line, widely sold; no surprise. |
+| 467 | 467-embroidered-crew-overthinkers-club | OVERTHINKERS CLUB / EST. 3 A.M. | Stock "club" line, widely sold; no surprise. |
+| 468 | 468-embroidered-hoodie-thriving-technically-frog | Thriving, technically | Mild aside, no punch; thin script stitched lettering, tiny on chest. |
+| 469 | 469-christmas-crew-excused-from-small-talk | EXCUSED FROM / SMALL TALK | Mild statement, no twist; book-tree connection needs explaining. |
+| 470 | 470-christmas-tee-excused-from-small-talk | EXCUSED FROM / SMALL TALK | Mild statement, no twist; book-tree connection needs explaining. |
+| 472 | 472-embroidered-crew-per-my-last-email | per my last email | Overused office meme phrase; stale, no new twist. |
+| 473 | 473-embroidered-hoodie-per-my-last-email | per my last email | Overused office meme phrase; stale, no new twist. |
+| 485 | 485-embroidered-hoodie-trail-mix-is-a-personality | TRAIL MIX / IS A PERSONALITY | Mild "X is a personality" template; no twist. |
+| 486 | 486-embroidered-crew-plot-twist-pending | Do Not Disturb, / Plot Twist Pending | Stock bookish phrase; mild, no punch. |
+| 489 | 489-womens-hoodie-already-over-it-kindly | ALREADY OVER IT / kindly. | Noun plus mild aside, same pattern as Making Biscuits; no laugh |
+| 491 | 491-embroidered-crew-one-more-chapter-club | ONE MORE / CHAPTER CLUB | Stock bookish phrase, just describes the habit; no twist |
+| 492 | 492-embroidered-crew-night-shift-silly-goose | NIGHT SHIFT / Silly Goose | Mild noun phrase, no joke; script second line |
+| 495 | 495-gym-hoodie-rest-day-is-a-sacred-quest | REST DAY IS A / SACRED QUEST | Mild, mostly describes the knight resting; no punch |
+| 498 | 498-embroidered-crew-psalm-121-mountain | I lift my eyes / to the hills / PSALM 121:1 | Scripture, not a joke; fails the laugh test; script headline |
+| 499 | 499-christian-tee-holy-spirit-mildly-spooky | HOLY SPIRIT / mildly spooky | Noun plus mild aside pun; thin gold script on black/navy; no type in art file |
+| 500 | 500-christmas-embroidered-crew-merry-ish | merry-ish | One-word mild aside; no joke; small script embroidery |
+| 503 | 503-golf-heavyweight-breakfast-ball-enthusiast | BREAKFAST BALL / Enthusiast | Insider golf term plus a mild noun; no laugh for non-golfers |
+| 505 | 505-golf-cropped-hoodie-only-golf-for-the-outfits | I ONLY GOLF / for the outfits | Common sentiment, no twist; mild |
+| 506 | 506-golf-zip-hoodie-retired-working-on-my-short-game | RETIRED. / Working on My Short Game. | Stock retiree golf line, no surprise; script second line on navy |
+| 508 | 508-national-park-hoodie-two-queens-roaming | TWO QUEENS ROAMING / our natural environment | Describes picture, insider sentiment; no laugh |
+| 509 | 509-national-park-zip-hoodie-swipe-right-on-public-land | SWIPE RIGHT / on public land | Mild slogan pun, not a laugh; script second line |
+| 513 | 513-dachshund-crew-currently-burrowed | CURRENTLY BURROWED. / (back in spring) | Noun plus mild aside; cute, not a laugh |
+| 514 | 514-pitbull-crew-velvet-hippo-social-club | VELVET HIPPO / SOCIAL CLUB | Insider pitbull nickname needs backstory; no type in art file |
+| 516 | 516-dachshund-hoodie-currently-burrowed | CURRENTLY BURROWED. / (back in spring) | Same as 513: noun plus mild aside, cute not funny |
+| 519 | 519-knitting-crew-one-more-row | ONE MORE ROW / (then bed) | Knitter cliche plus mild aside; thin navy script second line. |
+| 526 | 526-chess-hoodie-calculated-mostly | CALCULATED. / MOSTLY. | Word plus mild aside, same shape as Lifts Heavy / has whimsy. |
+| 528 | 528-running-zip-hoodie-pace-leisurely | PACE: LEISURELY | Describes the snail picture; mild; thin hand lettering under art. |
+| 530 | 530-welder-tee-grinder-and-paint | GRINDER & PAINT / DEPARTMENT / we make it look good | Insider welding joke needs explaining; thin serif plus script. |
+| 531 | 531-gym-pump-cover-deload-week | DELOAD WEEK / (emotionally) | Gym jargon plus mild aside; tiny serif and thin script on dark tee. |
+| 533 | 533-western-tee-hold-your-horses-overstimulated | HOLD YOUR HORSES, / I'M OVERSTIMULATED. | Phrase plus mild aside; small type separate from art. |
+| 535 | 535-softball-mom-tee-travel-ball | TRAVEL BALL TOOK / MY SATURDAYS. | Plain complaint, no joke; small type above art only. |
+| 536 | 536-volleyball-mom-tee-seven-am-check-in | 7 A.M. CHECK-IN. / Don't talk to me yet. | Stock don't-talk-to-me coffee trope; thin script under art. |
+| 537 | 537-gym-pump-cover-lifts-heavy-has-whimsy | LIFTS HEAVY. / has whimsy. | Calibration step back: noun plus mild aside; thin pink script. |
+| 539 | 539-welder-tee-stacks-dimes | STACKS DIMES. / WANTS MORE DIMES. | Welding insider pun; strangers do not know stacking dimes. |
+| 543 | 543-fishing-tee-shouldve-been-here-yesterday | SHOULD'VE BEEN / HERE YESTERDAY. | Stock fishing cliche; small serif type, art panel has no lettering. |
+| 548 | 548-national-park-crew-switchbacks-build-character | SWITCHBACKS / BUILD CHARACTER. | Step-back line (as 624): describes the hike, mild. |
+| 549 | 549-dog-dad-tee-unpaid-doorman | DOG DAD. / UNPAID DOORMAN. | Noun plus mild aside; small type, art panel has no lettering. |
+| 552 | 552-knitting-hoodie-one-more-row | ONE MORE ROW / (then bed) | Noun + mild aside; knitter cliche, no surprise. Thin navy script second line too. |
+| 553 | 553-christian-hoodie-holy-spirit-mildly-spooky | HOLY SPIRIT / mildly spooky | Groan pun that just describes the ghost; mild aside formula. Thin gold script on dark hoodie. |
+| 554 | 554-grandpa-hoodie-i-fix-things-after-naps | I FIX THINGS. / (after my nap) | Statement + parenthetical mild aside; stock grandpa joke, no real punch. |
+| 559 | 559-bear-crew-if-its-brown-lie-down | IF IT'S BROWN, LIE DOWN. / rules are rules. | Real bear-safety rhyme + mild aside; art just illustrates it, no twist. |
+| 560 | 560-christmas-hoodie-white-elephant-champion | WHITE ELEPHANT / CHAMPION / UNDEFEATED | Generic brag line, no twist or surprise; describes the picture. |
+| 561 | 561-pitbull-hoodie-velvet-hippo-social-club | VELVET HIPPO / SOCIAL CLUB | Insider pitbull nickname + stock "social club" format; strangers get no joke. |
+| 571 | 571-teacher-zip-hoodie-indoor-recess-survivor | INDOOR RECESS / SURVIVOR | Stock "X survivor" formula; teacher insider, no twist. |
+| 572 | 572-nurse-embroidered-hoodie-night-shift-silly-goose | NIGHT SHIFT / Silly Goose | Noun + cutesy label; no joke. Script line thin even in stitch. |
+| 574 | 574-cropped-gym-tee-lift-heavy-reply-later | LIFT HEAVY. / Reply Later. | Noun + mild aside, same shape as Lifts Heavy/has whimsy; thin script second line. |
+| 575 | 575-christian-mens-tee-rebuilt-by-a-carpenter | REBUILT BY / A CARPENTER / 2 Corinthians 5:17 | Sincere faith pun, not a laugh; art just illustrates carpentry. |
+| 576 | 576-dachshund-tee-banned-from-stairs | BANNED FROM STAIRS. / runs the house. | Noun + mild aside; stock dog-runs-house line. Thin gold script on navy. |
+| 580 | 580-drummer-tee-professionally-loud | PROFESSIONALLY / LOUD. | Stock "professionally X" identity line; describes drummer, no laugh. |
+| 586 | 586-capybara-christmas-tee-tangled-unbothered | Tangled. / Unbothered. | Noun + mild aside, describes the picture; also thin green script under art |
+| 588 | 588-christmas-raccoon-tee-here-for-the-wrapping-paper | Here For The / Wrapping Paper. | Mild "here for the X" template, no real punch beyond describing raccoon |
+| 591 | 591-wrestling-mom-tee-tournament-day-voice-gone | Tournament Day. / Voice Gone. | Noun + mild aside; thin red script second line on dark garment |
+| 604 | 604-fishing-hoodie-shouldve-been-here-yesterday | Should've Been / Here Yesterday. | Stock fishing saying, not a joke for a stranger; needs angler backstory |
+| 605 | 605-gym-cropped-hoodie-lift-heavy-reply-later | Lift Heavy. / Reply Later. | Noun + mild aside like step-back; headline ~75% width, thin script on dark garment |
+| 607 | 607-pickleball-hoodie-kitchen-gossip-club | Kitchen / Gossip Club | Pickleball insider pun (kitchen) that mostly describes the picture |
+| 608 | 608-pickleball-tee-polite-until-the-third-shot | Polite Until / The Third Shot. | Insider pickleball reference (third shot drop); thin script headline |
+| 610 | 610-pickleball-crew-booked-solid | Booked Solid / (pickleball) | Weak noun + parenthetical aside; thin script second line |
+| 611 | 611-tennis-crew-tennis-club-mostly-social | Tennis Club / (mostly social) | Noun + mild aside, exact step-back pattern; script second line |
+| 613 | 613-bowling-tee-league-night-is-not-optional | League Night / Is Not Optional. | Flat statement, no twist or laugh |
+| 620 | 620-capybara-christmas-zip-hoodie-tangled-unbothered | Tangled. / Unbothered. | Noun + mild aside, describes the picture; thin green script under art |
+| 621 | 621-dachshund-hoodie-banned-from-stairs | Banned From Stairs. / runs the house. | Dachshund insider + mild aside; short headline, thin script second line on navy |
+| 626 | 626-softball-mom-zip-hoodie-travel-ball | Travel Ball Took / My Saturdays. | Complaint, not a joke; no punch line |
+| 628 | 628-bear-hoodie-mama-bear-hibernation-denied | Mama Bear / Hibernation Denied. | Noun + mild aside; thin script headline |
+| 631 | 631-grandpa-crew-papa-where-dad-got-his-jokes | Papa / Where Dad Got His Jokes. | Mild template line, a smile not a laugh |
+| 636 | 636-dog-dad-half-zip-unpaid-doorman | Dog Dad. / Unpaid Doorman. | Noun + mild aside pattern; amusing but not a 3-second laugh |

@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 shopify: gid://shopify/Product/15364926144816
 lane: C
 type: twin
@@ -28,3 +28,4 @@ kd: 18
 - 2026-10-18 08:17 UTC builder [C]: Cover: 1 fal image (registry #960): back view over the shoulder with her face in frame, ponytail clear, hood flat, cocoa on the stall; the model redrew the capybara (eyes shut, simplified bulbs), so the exact back print was composited from the print file (R6.9, inpainted, zoomed: TANGLED., capybara and Unbothered. clean, no hair over letters). Keyword capybara merch 2,400/KD 18 in the map. audit-local PASS 0 warn. fal total about $0.06. Sync 482708069 running (pf-zip.py); REVIEW at 12/12.
 - 2026-10-18 08:33 UTC builder [C]: Printful relink verified 12/12 (6 Ash + 6 White: back 1088743911, chest copy 1088766040); REVIEW.
 - 2026-10-18 09:22 UTC director: LIVE. approved from docs/review/620.jpg (back print reads on Ash and White; hood visible on the back-view cover). ACTIVE + Online Store/Headless/Google & YouTube, audit --handle PASS (0 warn).
+- 2026-10-18 17:22 UTC director: QUALITY RESET grade C (new line + type), REDO. The product stays ACTIVE (same handle, URL, title keyword). 1. Line (R3.12, quality-reset 'Lines'): "Tangled. / Unbothered.": Noun + mild aside, describes the picture; thin green script under art. Write 5 candidates, keep the one a stranger laughs at in 3 seconds without backstory; kill lines that only describe the picture; if none of the 5 is funny, PARK it. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. Keep the art if it carries the new line, else one new illustration (R4/R5). New print means a new cover per R6.10, copy line one rewritten for the new joke (R8.3), and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.
