@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-18 05:14Z
+status: REVIEW
 lane: B
 type: twin
 id: 473
@@ -23,3 +23,4 @@ shopify: gid://shopify/Product/15364727079216
 ## Log
 - 2026-10-17 17:40 UTC director: brief written, READY (lane B; gate-format brief, keyword measured this run).
 - 2026-10-18 05:17 UTC builder [B]: WIP: twin of #472 built. R6.2 check on the source (live #472 file 1088588157): two lines of Caveat Brush script plus a Recraft paper plane, no ring, panel, disc or typeset line; art reused unchanged (4.00 x 2.18 in, #A67843 old gold). DRAFT gid://shopify/Product/15364727079216 (Gildan 18500 #146, Sand + Navy x S-3XL = 12, $44.99 = $39.99 + $5 chest, no compare-at, category hoodies aa-1-13-13, tags per brief incl. both hoodie hub tags, keyword corporate hoodie in line one and meta (map entry already present), 6 FAQs 45-55 words incl. Dec 8). Embroidery sits above the pouch seam on both mockups (Sand + Navy + back, styles 1402/1403). Cover registry 678+679 (pair): try 1 kept, hoods down and visible, hands in pockets, embroidery reads, one laptop open on the table (nobody using it). Sync queued; status goes to REVIEW at 12/12.
+- 2026-10-18 07:03 UTC builder [B]: REVIEW. Sync finished 12/12 (earlier run died with the link at 0/12; re-linked), review sheet docs/review/473.jpg, design crop added, variant-photo audit clean, audit --handle only 'not visible'. fal $0.
