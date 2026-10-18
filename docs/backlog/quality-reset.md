@@ -17,5 +17,5 @@ Builders are paused (docs/intake-log.md line 1). The director publishes nothing 
 
 ## Steps
 1. Director: grade every design that went LIVE since 2026-10-17 18:00 UTC as A (bar), B (fix the type only), C (new line + type). Write the list here. B and C become REDO (same product, stays ACTIVE).
-2. Lane A builds 5 sample REDOs from the C list to the new bar. Claude sends them to Sam.
+2. Lane A builds 5 sample REDOs: #577 Making Biscuits and #624 Switchbacks first (Sam sent both back), then 3 from the C list to the new bar. Claude sends them to Sam.
 3. RESUME only after Sam approves the samples.
