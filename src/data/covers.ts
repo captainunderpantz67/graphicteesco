@@ -527,6 +527,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-golf-fairways-are-a-rumor-half-zip': { src: '/covers/mens-golf-fairways-are-a-rumor-half-zip.webp', alt: 'Navy half zip pullover seen from the back with a golfer in a flat cap shading his eyes among tall pines under FAIRWAYS in cream capitals and ARE A RUMOR. in faded red' },
   'mens-dog-dad-unpaid-doorman-graphic-tee': { src: '/covers/mens-dog-dad-unpaid-doorman-graphic-tee.webp', alt: 'Man with thick dark wavy hair and a full trimmed beard smiling in a cream Dog Dad Unpaid Doorman tee in a sunny back porch doorway with a scruffy mixed-breed dog sitting at his feet' },
   'mens-christian-rebuilt-by-a-carpenter-graphic-tee': { src: '/covers/mens-christian-rebuilt-by-a-carpenter-graphic-tee.webp', alt: 'Man with short grey hair and a salt-and-pepper beard smiling in a cream Rebuilt by a Carpenter tee in a sunlit woodshop with hand tools on the wall behind him' },
+  'womens-fishing-out-fished-him-again-graphic-tee': { src: '/covers/womens-fishing-out-fished-him-again-graphic-tee.webp', alt: 'Woman with dark wavy hair and light freckles smiling in a cream Out-Fished Him. Again. tee on a wooden lake dock at golden hour with a tackle box and a fishing rod beside her' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
