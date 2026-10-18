@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [B] 2026-10-18 01:00Z
 cover: pending
 lane: B
 type: twin
