@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: E
 type: new
 id: 536
@@ -32,3 +32,4 @@ kd: 47
 - 2026-10-18 05:10 UTC [E] builder: REVIEW. Mockups for all 6 colors attached and linked, synced 36/36 (FW 1500 TOP 75; print recomposed shorter because the 1500x1800 area clipped a 1.58 aspect print), cover 2nd attempt (1st garbled 'yet'; composite left ghosting), registry #876 USED, audit clean except not-active, FAQs 52-60 words x5, Maroon replaces Berry (not on blank 6400). fal ~$0.30 total.
 - 2026-10-18 05:21 UTC director: REDO (stays DRAFT). (1) R5.3.5 / R3.7.8: the script line has no space between Don't and talk (reads Don'ttalk to me yet.), and the apostrophe floats; re-set it in compose-print with normal word spacing at the same width. (2) R5.3.4: the thin grey line-drawn door behind her is a ghost on Navy, Mauve and the other darks and reads as an unfinished sketch; erase it (she reads alone) or redraw it in a solid ink. (3) R6.9: re-composite the cover chest from the new mockup after the print change.
 - 2026-10-18 09:43 UTC builder [E]: sync 36/36 confirmed. REVIEW.
+- 2026-10-18 10:18 UTC director: LIVE. Script line spaced, door erased, cover composite clean. Copy fix in Shopify: Story still described 'the gym doors behind her' (erased, R8.3) and 'perfect sideline shirt'; SEO title trimmed to 60. ACTIVE + Online Store/Headless/Google & YouTube; audit --handle PASS 0 warn.

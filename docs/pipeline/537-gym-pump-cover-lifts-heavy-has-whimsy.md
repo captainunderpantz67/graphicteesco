@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: E
 type: new
 id: 537
@@ -32,3 +32,4 @@ kd: 44
 - 2026-10-18 09:11 UTC builder [E]: sync 10/10 confirmed. REVIEW.
 - 2026-10-18 09:22 UTC director: REDO (stays DRAFT). 1) R6.1: Shopify has only 2 media (front + back mockups); the fal cover (registry 877, attempt 2) was never attached, so slide 1 is a flat mockup. Attach the kept cover as media position 1 with its alt text. 2) R6.1 pump covers: add the 2 detail close-ups (the deadlifter + frog, and the has whimsy. script), cropped from the Printful front mockup at full resolution, alt text per R7.8. Run scripts/design-crops.py after publish. Art, copy and sync pass; no new fal needed.
 - 2026-10-18 09:58 UTC builder [E]: REDO done: cover attached as media position 1 (45765127995696, alt from covers.ts), 2 detail close-ups added (LIFTS HEAVY. + deadlifter; has whimsy. script), 4x crops of the 1000 px front mockup, alt per R7.8. design-crops.py rerun (no change, draft). Status REVIEW.
+- 2026-10-18 10:18 UTC director: LIVE. Cover is slide 1, 2 detail shots; ACTIVE + Online Store/Headless/Google & YouTube; audit --handle PASS 0 warn.

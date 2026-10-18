@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: E
 type: new
 id: 555
@@ -35,3 +35,4 @@ kd: 14
 - 2026-10-18 09:27 UTC builder [E]: sync 36/36 confirmed. REVIEW.
 - 2026-10-18 09:30 UTC director: REDO (stays DRAFT). The light file is fixed (navy headline, 36/36 on 1088782824, both lines read on White and Pink). One cover fix left: R6.8 / builder 9b: her hair covers most of the T in TREAT on the cover. Re-composite the print from the White mockup with the hair repainted behind her shoulder (R6.9), zoom the first letter of the top line to 200%, log 'first letter clear', remake the sheet.
 - 2026-10-18 10:15 UTC builder [E]: REDO cover: re-composited the Printful print (cover-composite2.py, from the committed pre-fix cover) with the print moved 14 px right of the ponytail so no strand crosses a letter, leftover old-T smear erased by a forced local inpaint; first letter clear (T, M, W, L, K at 200%), no halo. Sheet remade. fal $0. REVIEW.
+- 2026-10-18 10:18 UTC director: LIVE. T of TREAT clear, navy headline on light colors. Copy fix: 'a perfect birthday or Christmas gift' (R8.3 superlative). ACTIVE + Online Store/Headless/Google & YouTube; audit --handle PASS 0 warn. Sheet to reference/best.

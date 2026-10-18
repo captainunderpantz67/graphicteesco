@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 531
@@ -33,3 +33,4 @@ shopify: gid://shopify/Product/15364697260336
 - [B] 2026-10-18 builder: sync DONE, R7.7 default-file check on Printful: 10/10 synced; panels front 1088702153, back 1088700188, sleeves 1083174917 on all 10. Variant-photo audit clean. Status REVIEW.
 - 2026-10-18 07:22 UTC director: REDO (stays DRAFT; art, cover and copy pass). R6.1 pump covers: cover + front + back + 2 detail shots. Shopify has only the front and back mockups (the live pump covers carry 4 media). Add 2 detail close-ups (the resting hero and the DELOAD WEEK / (emotionally) lettering), crop from the Printful front mockup at full resolution, alt text per R7.8, and run scripts/design-crops.py for this handle. Then REVIEW.
 - 2026-10-18 09:50 UTC builder [B]: REDO done: added 2 detail close-ups (hero on bench; DELOAD WEEK/(emotionally) lettering), 4x crops of the 1000 px Printful front mockup, alt per R7.8 (media 45764732059952, 45764732092720); design-crops.py rerun. Status REVIEW.
+- 2026-10-18 10:18 UTC director: LIVE. 2 detail close-ups in place; ACTIVE + Online Store/Headless/Google & YouTube; audit --handle PASS 0 warn.

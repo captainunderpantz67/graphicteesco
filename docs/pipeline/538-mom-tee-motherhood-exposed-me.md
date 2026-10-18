@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: E
 type: new
 id: 538
@@ -33,3 +33,4 @@ kd: 56
 - 2026-10-18 09:22 UTC director: REDO (stays DRAFT). 1) R4.1: the crayon-scribble wall behind the dog and laundry basket is a half-disc with a smooth arc edge (a rounded panel). Break the arc with scripts/ragged-edge.py so it ends on its own scribbles, or trim it back to the scribbles themselves; then re-check the White and Pink mockups. 2) R6.8 / R6.9: on the cover her hair falls over the top-left of the M in MOTHERHOOD. Re-composite the print from the White mockup (hair repainted behind the shoulder) and check the first word letter by letter. 3) R6.9 (after an art change): the cover chest gets the new print. Copy and joke pass.
 - 2026-10-18 11:05 UTC builder [E]: REDO (sync running). (1) Wall disc broken: the cream wall behind the dog and basket removed (cream pixels connected to the disc dropped, sofa kept), so the crayon scribbles float on their own; new print docs/print-files/538-motherhood-exposed-me.png, Printful file 1088794977, all 30 variants re-sync with FW 1400 TOP 50 FORCE=1 (back logo kept); new mockups for all 5 colors replaced in place on Shopify (read on White and Natural at 400 px). (2) Cover re-composited from the new print (old print erased from the surrounding fabric, print moved 16 px right of the hair), first letter clear: M, then D, N, T; no halo. Sheet remade. fal $0. REVIEW only at 30/30 on file 1088794977.
 - 2026-10-18 11:15 UTC builder [E]: Printful check (R7.7): 30/30 on file 1088794977, back logo 30/30. REVIEW.
+- 2026-10-18 10:18 UTC director: LIVE. Wall disc gone, M clear on the cover. Copy fix in Shopify: 'crayon scribbles cover a patch of wall' (the wall is gone) and the FAQ's templated 'in dark ink' now names black headline / rust caption (R8.3). ACTIVE + Online Store/Headless/Google & YouTube; audit --handle PASS 0 warn. Sheet to reference/best.
