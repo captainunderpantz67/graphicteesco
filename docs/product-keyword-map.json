@@ -7077,24 +7077,20 @@
     {
      "phrase": "womens golf hoodie",
      "volume": 320,
-     "kd": 32,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 32
     },
     {
      "phrase": "golf gifts for women",
      "volume": 4400,
-     "kd": 46,
-     "competition": 47996,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 46
     },
     {
      "phrase": "golf shirt women",
      "volume": 3600,
-     "kd": 14,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 14
     }
    ],
-   "measured": "2026-10-17"
+   "measured": "2026-10-16"
   },
   "mens-golf-retired-working-on-my-short-game-zip-hoodie": {
    "claimed": [
@@ -7105,18 +7101,15 @@
     {
      "phrase": "golf retirement gift",
      "volume": 590,
-     "kd": 28,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 28
     },
     {
      "phrase": "golf gift for men",
      "volume": 22200,
-     "kd": 46,
-     "competition": 97674,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 46
     }
    ],
-   "measured": "2026-10-17"
+   "measured": "2026-10-16"
   },
   "womens-national-park-my-type-geothermally-active-oversized-hoodie": {
    "claimed": [

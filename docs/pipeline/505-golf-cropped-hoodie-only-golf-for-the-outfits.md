@@ -1,7 +1,8 @@
-status: READY
+status: REVIEW
 lane: C
 type: new
 id: 505
+shopify: gid://shopify/Product/15364343136560
 handle: womens-golf-i-only-golf-for-the-outfits-cropped-hoodie
 kd: 32
 ---
@@ -27,3 +28,5 @@ kd: 32
 ---
 ## Log
 - 2026-10-17 22:31 UTC director: brief written, READY (wave-1 golf, keyword measured this run).
+- 2026-10-18 03:36 UTC builder [C]: art 2 Recraft calls (try 1 drew a handbag instead of a club; try 2 kept: 1960s fashion golfer, club on shoulder, ball, flag in hole). Peach exists only in XL in the Printful catalog, so launched Black + Storm (R7.7 legible colors; both read the green, pink, cream inks). Print laid out as figure left + I ONLY GOLF (Fraunces, deep green, cream keyline) / for the outfits (Damion, hot pink, cream keyline) at right so it stays 3048x2700 (aspect 0.89, 8.9 in tall at FW 1500 TOP 20, inside the 1500 px cropped area); white gaps knocked out. DRAFT gid 15364343136560 (10 variants S-2XL, $44.99 no compare-at, tags per brief). Keyword womens golf hoodie 320/KD32 in the map. FAQs 5 x 46-56 words, Dec 8. Printful file 1088601214, sync 482648488 running. Mockups per color + back attached. Cover: 1 fal image ($0.06, registry #833): hood visible, hair pinned up and clear of the print, arms at her sides; the model garbled 'for the', so the exact print was composited (R6.9) and every word read. Phone-size read OK.
+- 2026-10-18 04:05 UTC builder [C]: REVIEW. Sync 10/10. Sheet docs/review/505.jpg. Audit only DRAFT-not-visible. fal total $0.14.

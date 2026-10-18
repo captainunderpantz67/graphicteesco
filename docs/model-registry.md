@@ -411,8 +411,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 518 | Samoan-American man, early 30s, long dark hair in a low bun, broad shoulders, clean-shaven | RESERVED — #330 Surf's Down zip hoodie cover |
 | 519 | Ghanaian-American man, late 30s, shaved head, full black beard, warm smile | USED 2026-10-16 — #331 Midnight Is a Suggestion NYE tee cover (try 2 kept, 2 images) |
 | 520 | Vietnamese-American woman, late 30s, chin-length black bob with blunt bangs | USED 2026-10-16 — #331 Midnight Is a Suggestion NYE tee cover (try 2 kept, 2 images) |
-| 521 | Lebanese-American woman, early 30s, long dark spiral curls, gold hoops | RESERVED — #332 Resolutions Pending NYE tee cover |
-| 522 | White man, early 50s, short salt-and-pepper hair, clean-shaven, reading glasses pushed up on his head | RESERVED — #333 New Year, Same Guy tee cover |
+| 521 | Lebanese-American woman, early 30s, long dark spiral curls, gold hoops | USED 2026-10-18 — #332 Resolutions Pending NYE tee cover (seedream 2 attempts + R6.9 print composite for hair on the last S) |
+| 522 | White man, early 50s, short salt-and-pepper hair, clean-shaven, reading glasses pushed up on his head | USED 2026-10-18 — #333 New Year, Same Guy tee cover (seedream, 1 attempt; light stubble, no glasses on head) |
 | 523 | Cuban-American man, mid 30s, short skin fade, neat goatee | USED 2026-10-17 - #334 Laying Low Till Friday turkey hoodie cover (pair with #523-524) |
 | 524 | White woman, mid 40s, short silver-blonde bob, light laugh lines | USED 2026-10-17 - #334 Laying Low Till Friday turkey hoodie cover (pair with #523-524) |
 | 525 | Black woman, mid 20s, long box braids in a high ponytail | RESERVED — #335 Snow Problem hoodie Seedream cover (when fal returns) |
@@ -627,8 +627,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 830 | Puerto Rican man, mid 50s, short grey crew cut, clean-shaven, tanned, stocky build | USED 2026-10-18 - #503 Breakfast Ball Enthusiast heavyweight hoodie cover (seedream, Storm Blue, first tee at sunrise) |
 | 831 | Nigerian-American man, late 30s, short twists, neatly trimmed beard, medium build | USED 2026-10-18 - #504 Not Cheating Improving My Lie golf hoodie cover (seedream, Navy, driving range, print composited) |
 | 832 | white woman, mid 30s, auburn hair tied back in a ponytail, light freckles | USED 2026-10-18 - #504 Not Cheating Improving My Lie golf hoodie cover (seedream, Navy, driving range, print composited) |
-| 833 | Vietnamese-American woman, early 20s, long dark hair pinned up in a claw-clip twist, small gold huggie earrings, slim build | CLAIMED 2026-10-17 — #505 I Only Golf for the Outfits Cropped Hoodie cover (brief) |
-| 834 | white man, mid 60s, thick white hair combed back, neat white mustache, wire-rim glasses, lean build | CLAIMED 2026-10-17 — #506 Retired Working on My Short Game Zip Hoodie cover (brief) |
+| 833 | Vietnamese-American woman, early 20s, long dark hair pinned up in a claw-clip twist, small gold huggie earrings, slim build | USED 2026-10-18 - #505 I Only Golf for the Outfits cropped hoodie cover (seedream, Black, putting green, print composited) |
+| 834 | white man, mid 60s, thick white hair combed back, neat white mustache, wire-rim glasses, lean build | USED 2026-10-18 - #506 Retired Working on My Short Game zip hoodie cover (seedream, Navy back view, pond and golf cart) |
 | 835 | Armenian-American woman, mid 30s, dark curly hair tied back, small gold hoops, medium build | CLAIMED 2026-10-17 — #507 My Type Geothermally Active Oversized Hoodie cover (brief) |
 | 836 | Black woman, mid 40s, short tapered natural hair, gold hoop earrings, medium build | CLAIMED 2026-10-17 — #508 Two Queens Roaming Hoodie cover (brief) (pair 836-837) |
 | 837 | white woman, late 40s, long grey-streaked brown hair in a low braid, slim build | CLAIMED 2026-10-17 — #508 Two Queens Roaming Hoodie cover (brief) (pair 836-837) |
