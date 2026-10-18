@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: addon
 id: 661
@@ -34,3 +34,4 @@ kd: 18
   2. New-bar type (docs/backlog/quality-reset.md): the lockup fills only the top quarter of the leg and leaves an empty cream band to the heel. Scale the lockup and art up so they fill the leg from just under the cuff to about 1 in above the heel; headline at least 90% of the leg panel width; the foot keeps the small repeat.
   3. Copy: the Story's 'lockup and the main art on the leg' line stays true only after fix 1; re-read it against the new mockups. Exchange FAQ is right (R12.2 covers socks: S/M/L are sizes). Missing golf balls/paw prints are fine: the foot repeating the main art is accepted.
   4. Remake docs/review/661.jpg from the new mockups and log the sync file ids (R7.7) before REVIEW.
+- 2026-10-18 23:33 UTC [B] REDO fixes done: panel rebuilt with every line at full leg width (>=90% of 820 px), lockup+art fill cuff to ~1 in above heel; front placements use a 180-degree-rotated file (v2: 1089204641 back, 1089204649 rotated front), all 3 variants relinked (R7.7); mockup checked on both views, line reads upright on both socks. New Printful mockup replaces the Shopify image, cover 'front and back view', sheet docs/review/661.jpg. Story line 'lockup and main art on the leg' is true now. fal 0.

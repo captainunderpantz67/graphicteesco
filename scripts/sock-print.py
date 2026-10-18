@@ -25,20 +25,31 @@ def fit(lines):
     for t, _ in lines:
         while d.textlength(t, font=fnt(size)) > MAXW: size -= 4
     return size
-SZ = fit(s.get('top', []) + s.get('bottom', []))
-def block(lines, y):
-    f = fnt(SZ); asc, desc = f.getmetrics()
-    for t, col in lines:
-        w = d.textlength(t, font=f); d.text((CX - w / 2, y), t, font=f, fill=hx(col)); y += asc + desc + 10
-    return y
-y = block(s.get('top', []), 700) + 40
-mw = MAXW; mh = round(art.height * mw / art.width)
-room = 2700 - y - (len(s.get('bottom', [])) * (SZ + 60))
-if mh > room: mh = room; mw = round(art.width * mh / art.height)
-cv.alpha_composite(art.resize((mw, mh), Image.LANCZOS), (CX - mw // 2, y)); y += mh + 40
-block(s.get('bottom', []), y)
+# v2 (director REDO 2026-10-18): every line is sized to the full leg width (MAXW, >= 90% of the visible ~820 px) and the lockup + art
+# fill the leg from just under the cuff (y 700) to ~1 in above the heel (y 2700). A second file, rotated 180 deg, goes on the two FRONT placements
+# (the Printful front-view sock is drawn toe-up, so the unrotated panel read upside down there): out-front.png.
+LEG0, LEG1, GAP, CAP = 700, 2700, 45, s.get('cap', 330)
+def tight(t, f):
+    b = d.textbbox((0, 0), t, font=f); return b[1], b[3]
+def sized(t):
+    sz = CAP
+    while d.textlength(t, font=fnt(sz)) > MAXW: sz -= 4
+    f = fnt(sz); y0, y1 = tight(t, f); return f, y0, y1 - y0
+rows = [('T', t, c) for t, c in s.get('top', [])] + [('A', None, None)] + [('B', t, c) for t, c in s.get('bottom', [])]
+meas = {i: sized(t) for i, (k, t, c) in enumerate(rows) if t}
+th = sum(m[2] for m in meas.values()) + GAP * (len(rows) - 1)
+mh = LEG1 - LEG0 - th; mw = round(art.width * mh / art.height)
+if mw > MAXW: mw = MAXW; mh = round(art.height * mw / art.width)
+y = LEG0 + (LEG1 - LEG0 - (th + mh)) // 2 if False else LEG0
+extra = (LEG1 - LEG0 - th - mh) // max(1, len(rows) - 1)
+for i, (k, t, c) in enumerate(rows):
+    if k == 'A':
+        cv.alpha_composite(art.resize((mw, mh), Image.LANCZOS), (CX - mw // 2, y)); y += mh + GAP + extra
+    else:
+        f, y0, h = meas[i]; w = d.textlength(t, font=f); d.text((CX - w / 2, y - y0), t, font=f, fill=hx(c)); y += h + GAP + extra
 mini = art.resize((s.get('mini', 420), round(art.height * s.get('mini', 420) / art.width)), Image.LANCZOS)
 yy = 3300
 while yy + mini.height < 5000:
     cv.alpha_composite(mini, (CX - mini.width // 2, yy)); yy += mini.height + 140
-cv.convert('RGB').save(sys.argv[2])
+out = Path(sys.argv[2]); cv = cv.convert('RGB'); cv.save(out)
+cv.rotate(180).save(out.with_name(out.stem + '-front' + out.suffix))
