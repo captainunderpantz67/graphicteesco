@@ -36,7 +36,7 @@ over = hair.copy(); over[:, :max(0, x0 - X0 - 3)] = 0
 garment = np.median(reg.reshape(-1, 3), axis=0)
 base = cv2.GaussianBlur(c, (0, 0), 25)[Y0:Y1, X0:X1]
 diff = np.abs(reg - np.median(reg.reshape(-1, 3), 0)).max(2)
-old = (((diff > 28) & (hair == 0)) | (over > 0)).astype(np.uint8)
+old = (((diff > int(os.environ.get("CC_DIFF", 28))) & (hair == 0)) | (over > 0)).astype(np.uint8)
 old[:3, :] = 0; old[-3:, :] = 0; old[:, :3] = 0; old[:, -3:] = 0
 old = cv2.dilate(old, np.ones((5, 5), np.uint8))
 clean = cv2.inpaint(reg.astype(np.uint8), old, 6, cv2.INPAINT_TELEA).astype(np.float32)
