@@ -606,8 +606,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 811 | Korean-American woman, mid 20s, long straight hair with curtain bangs, small gold studs | USED 2026-10-17 - #487 University of Staying In crewneck cover (seedream, navy, rainy living room; pair 810-811) |
 | 812 | Puerto Rican woman, late 30s, shoulder-length wavy dark hair with copper highlights, statement earrings | USED 2026-10-18 — #488 I Said It Nicely in My Head Tee cover (brief) |
 | 813 | White woman, mid 20s, platinum-blonde shag, nose hoop, gold necklaces | USED 2026-10-17 - #489 Already Over It Kindly hoodie cover (seedream, navy, coffee shop) |
-| 814 | Vietnamese-American man, early 30s, short textured black hair, light stubble | CLAIMED 2026-10-17 — #490 Plans Canceled. Mood Improved. Hoodie cover (brief) |
-| 815 | white woman, early 30s, long auburn hair in a messy bun, freckles | CLAIMED 2026-10-17 — #490 Plans Canceled. Mood Improved. Hoodie cover (brief) |
+| 814 | Vietnamese-American man, early 30s, short textured black hair, light stubble | USED 2026-10-18 — #490 Plans Canceled. Mood Improved. hoodie cover (pair 814-815) |
+| 815 | white woman, early 30s, long auburn hair in a messy bun, freckles | USED 2026-10-18 — #490 Plans Canceled. Mood Improved. hoodie cover (pair 814-815) |
 | 816 | Indian-American woman, early 40s, long wavy dark hair with a few silver strands, small nose stud, tortoiseshell glasses | CLAIMED 2026-10-17 — #491 Ghost One More Chapter Club Crewneck Sweatshirt cover (brief) |
 | 817 | Haitian-American woman, mid 30s, short natural hair with a side part, small gold studs | USED 2026-10-18 — #492 Embroidered Night Shift Silly Goose Crewneck Sweatshirt cover (brief) |
 | 818 | Filipino man, early 30s, short black undercut, clean-shaven | USED 2026-10-17 - #493 Calm Face Loud Brain crewneck cover (seedream, navy, hospital hallway; pair 818-819) |

@@ -484,6 +484,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-national-park-running-late-bison-traffic-heavyweight-hoodie': { src: '/covers/unisex-national-park-running-late-bison-traffic-heavyweight-hoodie.webp', alt: 'Man and woman in matching storm blue Running Late Bison Traffic heavyweight hoodies with their hands in the pouch pockets beside a vintage station wagon on a two-lane park road with mountains behind' },
   'unisex-raccoon-fine-dumpster-dining-hoodie': { src: '/covers/unisex-raccoon-fine-dumpster-dining-hoodie.webp', alt: 'Man and woman in matching navy Fine Dumpster Dining raccoon hoodies with their hands in the pouch pockets in an alley behind a corner diner at dusk under string lights' },
   'mens-gym-sisyphus-had-bad-programming-hoodie': { src: '/covers/mens-gym-sisyphus-had-bad-programming-hoodie.webp', alt: 'Man in a sand Sisyphus Had Bad Programming gym hoodie with his hands in the pouch pocket in a busy gym at dawn with a dumbbell rack behind him' },
+  'unisex-homebody-plans-canceled-mood-improved-hoodie': { src: '/covers/unisex-homebody-plans-canceled-mood-improved-hoodie.webp', alt: 'Man and woman on a couch in a cozy apartment on a rainy evening with a cat on the armrest wearing the Plans Canceled. Mood Improved. navy hoodies' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

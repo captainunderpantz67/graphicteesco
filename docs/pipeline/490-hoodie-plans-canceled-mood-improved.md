@@ -1,8 +1,9 @@
-status: BUILDING [E] 2026-10-18 01:20 UTC
+status: REVIEW
 lane: E
 type: new
 id: 490
 handle: unisex-homebody-plans-canceled-mood-improved-hoodie
+shopify: gid://shopify/Product/15364377149744
 kd: 40
 ---
 ## Unisex Homebody – Plans Canceled. Mood Improved. Hoodie
@@ -27,3 +28,4 @@ kd: 40
 ---
 ## Log
 - 2026-10-17 20:27 UTC director: brief written, READY (Sam's 16 proof-first concepts, inbox 2026-10-17 19:30).
+- 2026-10-18 03:05 UTC builder [E]: REVIEW. Art: 1 Recraft call (try 1 kept: orange tabby melted into a knitted blanket on a round armchair, phone face-down). PLANS CANCELED. / MOOD IMPROVED. in Big Shoulders 900 cream with a dark keyline via compose-print (no model lettering), solid fill plus a thin cream halo so the art reads on Navy. First compose made the cat too small, so recomposed at art width 0.68 (print 11.4 x 10.6 in, FW 1500 TOP 0, about 9.3 in tall, clear of the pouch seam). Colors Sand + Navy, both mockups read at phone size. DRAFT gid 15364377149744 (category aa-1-13-13, 12 variants $39.99, compare-at null, tags per brief incl. both hub tags, keyword homebody hoodie 210/40 in line one and meta, 5 FAQs 47-53 words incl. Dec 8); Printful file 1088612342, sync 12/12. Mockups Sand + Navy + back attached and linked. Cover registry 814+815 try 1: her hair covered the PL of PLANS, so per 9b the exact print was composited on her chest (hair kept behind the shoulder); both in navy hoodies with hoods visible, hands in laps, cat at the side, alt starts Man and woman. Variant-photo audit clean; audit --handle only 'not visible'. fal ~$0.2.
