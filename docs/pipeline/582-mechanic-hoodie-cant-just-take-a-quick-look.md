@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-18 17:29
+status: ART-NEXT
 lane: A
 type: twin
 id: 582
@@ -27,3 +27,4 @@ kd: 32
 ---
 ## Log
 - 2026-10-18 04:27 UTC director: brief written, READY (lane A; KD ≤ 20 band empty in the sweep, so KD 21–35 buyer phrases, measured this run; proof seller named under the gate).
+- 2026-10-18 17:31 UTC builder [A]: twin of #581 (LIVE). R6.2 check on source print 1088748763: headline lines are real fonts (condensed sans NO, I CAN'T JUST; Alfa Slab red TAKE A QUICK LOOK.) set by the brief; no ring/disc/box/panel (figures and tool chest have worn halo edges); no extra typeset tagline. Light file (R5.3.8): Sand uses file 1088995032, NO, I CAN'T JUST in solid navy #1b2a4a fill with the dark keyline removed (open counters); Navy keeps the cream-fill file 1088748763. Primary 'mechanic hoodie' (320 / KD 32). FW 1500 TOP 40 (mockup test: print clears the pouch seam). DRAFT gid 15365758157104 (Sand + Navy x S-3XL = 12, $39.99, no compare-at, category hoodies). Sync 482805681 started (Sand then Navy). Cover pending (registry #922).
