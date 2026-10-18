@@ -507,6 +507,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-chess-calculated-mostly-hoodie': { src: '/covers/mens-chess-calculated-mostly-hoodie.webp', alt: 'Man in a navy Calculated. Mostly. chess knight hoodie smiling beside a stone chess table in a city park at golden hour' },
   'unisex-nurse-calm-face-loud-brain-hoodie': { src: '/covers/unisex-nurse-calm-face-loud-brain-hoodie.webp', alt: 'Man and woman in matching navy Calm Face, Loud Brain nurse hoodies standing side by side in a hospital parking garage at sunrise after a night shift' },
   'unisex-running-pace-leisurely-zip-hoodie': { src: '/covers/unisex-running-pace-leisurely-zip-hoodie.webp', alt: 'Man and woman in matching light grey Pace: Leisurely snail zip hoodies, looking back over their shoulders on a park running path on a cool autumn morning with the snail print on their backs' },
+  'mens-christian-short-grace-hot-food-graphic-tee': { src: '/covers/mens-christian-short-grace-hot-food-graphic-tee.webp', alt: 'Man in a natural cream Short Grace. Hot Food. Christian tee in a church fellowship hall set for Sunday dinner' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
