@@ -606,6 +606,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-wrestling-mom-your-weigh-in-my-stress-snacks-hoodie': { src: '/covers/womens-wrestling-mom-your-weigh-in-my-stress-snacks-hoodie.webp', alt: 'Woman in a sand Your Weigh-In My Stress Snacks wrestling mom pullover hoodie with the hood visible standing in a high-school gym on tournament day with bleachers and a rolled wrestling mat behind her' },
   'mens-plumber-not-looking-at-your-sink-graphic-tee': { src: '/covers/mens-plumber-not-looking-at-your-sink-graphic-tee.webp', alt: 'Man in a black Off Duty Not Looking at Your Sink plumber tee standing in a sunny backyard cookout with a grill and picnic table behind him' },
   'mens-welder-grinder-and-paint-department-hoodie': { src: '/covers/mens-welder-grinder-and-paint-department-hoodie.webp', alt: 'Man in a navy Grinder & Paint Department welding hoodie in a metal fabrication shop, hands in the pouch' },
+  'mens-electrician-its-probably-the-breaker-graphic-tee': { src: '/covers/mens-electrician-its-probably-the-breaker-graphic-tee.webp', alt: 'Man in a black It\'s Probably the Breaker electrician tee standing in a half-finished house with exposed wall studs, a work light and a tool bag on the floor' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
