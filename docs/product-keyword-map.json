@@ -4639,16 +4639,17 @@
   },
   "unisex-running-pace-leisurely-hoodie": {
    "claimed": [
-    "running hoodie"
+    "jogging hoodie"
    ],
    "gaps_measured": [
     {
-     "phrase": "running hoodie",
-     "volume": 5400,
-     "kd": 26
+     "phrase": "jogging hoodie",
+     "volume": 720,
+     "kd": 27
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "note": "2026-10-18 director: 'running hoodie' moved to its collection page (R8.8); product now targets 'jogging hoodie' (RankHero 2026-10-18)."
   },
   "mens-western-cowboy-up-later-hoodie": {
    "claimed": [
@@ -4730,16 +4731,17 @@
   },
   "unisex-dachshund-short-legs-long-opinions-hoodie": {
    "claimed": [
-    "dachshund hoodie"
+    "dachshund dog hoodie"
    ],
    "gaps_measured": [
     {
-     "phrase": "dachshund hoodie",
-     "volume": 1900,
-     "kd": 26
+     "phrase": "dachshund dog hoodie",
+     "volume": 880,
+     "kd": 34
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "note": "2026-10-18 director: 'dachshund hoodie' moved to its collection page (R8.8); product now targets 'dachshund dog hoodie' (RankHero 2026-10-18)."
   },
   "mens-wolf-lone-wolf-early-bedtime-hoodie": {
    "claimed": [
@@ -7561,17 +7563,17 @@
   },
   "mens-welder-if-you-can-step-over-it-graphic-tee": {
    "claimed": [
-    "welder shirt"
+    "welding t shirts"
    ],
    "gaps_measured": [
     {
-     "phrase": "welder shirt",
-     "volume": 9900,
-     "kd": 24
+     "phrase": "welding t shirts",
+     "volume": 720,
+     "kd": 27
     }
    ],
    "measured": "2026-10-18",
-   "note": "director: brief"
+   "note": "2026-10-18 director: 'welder shirt' moved to its collection page (R8.8); product now targets 'welding t shirts' (RankHero 2026-10-18)."
   },
   "mens-welder-grinder-and-paint-department-graphic-tee": {
    "claimed": [

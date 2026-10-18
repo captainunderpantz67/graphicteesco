@@ -853,6 +853,27 @@ export const tees: Collection[] = [
       { q: 'How long do camo sweatshirts take to ship?', a: (f) => `Printing takes ${f.productionDays}, then your order ships. Delivery estimates are shown at checkout.`, needs: 'productionDays' },
     ],
     shopifyHandle: 'camo-sweatshirts',
+  },  {
+    // RankHero 2026-10-18: welder shirt 9,900 / KD 24 (welding shirts 9,900/12, welding tshirt 9,900/20 are the same search family; welding t shirts 720/27 and funny welder shirt 320/32 stay with products). Added 2026-10-18 at 4 live welder tees (R11.10).
+    slug: 'welder-shirts', section: 'tees', audience: 'men', name: 'Welder Shirts',
+    keyword: 'welder shirt', volume: 9900, kd: 24,
+    title: 'Welder Shirts — Funny Vintage Welding Tees',
+    description: 'Funny welder shirts drawn like 1950s shop posters: stacked dimes, gaps you can step over and the grinder crew. Cotton tees, S–4XL, $24.99.',
+    h1: 'Welder Shirts',
+    intro: 'Welder shirts with the jokes the shop already tells: the fitter who leaves a gap you could drive a truck through, TIG beads like a stack of dimes, and the grinder crew that makes every weld look good. Original 1950s trade-poster art, no brand logos.',
+    sections: [
+      { h2: 'Shop talk, drawn like an old safety poster', body: 'Each design is a scene from the shop floor drawn in the style of a 1950s company newsletter or safety poster: a welder kneeling on an I-beam with a hot glue gun hanging off his toolbox, two coworkers inspecting a lumpy bead with a grinder and a can of primer, a gloved hand laying a row of dimes with a TIG torch. The line is set in big block capitals so the crew can read it from across the bay.' },
+      { h2: 'Who they are for', body: 'Pipeline and structural welders, fabricators, fitters, welding students and the shop guy who does the cleanup. The jokes are written for people who weld, but the family who buys the gift gets them too: no one needs to know what a fitter is to laugh at "If you can step over it, I can fill it."' },
+      { h2: 'Not a work shirt', body: 'These are lightweight 4.2 oz cotton graphic tees, not flame-resistant welding shirts. Wear one under your FR jacket, at the shop on a slow day, to the union hall or the cookout, and leave the welding to your FR gear.' },
+    ],
+    faqs: [
+      { q: 'Are these welder shirts flame resistant?', a: 'No. Graphic Tees Co. welder shirts are lightweight 4.2 oz cotton graphic tees, not FR-rated work shirts. Wear one under a leather or FR welding jacket, around the shop or off the clock, and keep proper flame-resistant gear between you and the arc whenever you weld.' },
+      { q: 'What is a funny gift for a welder?', a: 'A welder shirt with a joke from the trade is an easy gift: lines like "Stacks Dimes, Wants More Dimes" or "I Basically Hot Glue Metal" land with anyone who welds. Graphic Tees Co. welder shirts are $24.99, and one free size exchange within 30 days covers a size guess.' },
+      { q: 'What sizes do the welder shirts come in?', a: 'Every Graphic Tees Co. welder shirt is a classic unisex tee in sizes S through 4XL, cut like a regular crew-neck tee. Most welders keep their usual size; size up one for a looser fit over a thermal. Compare the size chart on each product with a tee you already own.' },
+      { q: 'What does "stacking dimes" mean in welding?', a: 'Stacking dimes describes a TIG weld bead whose evenly spaced ripples look like a row of overlapping coins. It is the look welders aim for on a clean weld. Graphic Tees Co. turned it into a pay joke on the Stacks Dimes, Wants More Dimes welder shirt.' },
+      { q: 'How long do welder shirts take to arrive?', a: (f) => `Each welder shirt is printed after you order it. Printing takes ${f.productionDays}, then your order ships. Orders of $45 or more ship free in the US, and delivery estimates are shown at checkout.`, needs: 'productionDays' },
+    ],
+    shopifyHandle: 'welder-shirts',
   },
 ];
 
@@ -981,6 +1002,50 @@ export const hoodies: Collection[] = [
       { q: 'How long do national park hoodies take to ship?', a: (f) => `Each national park hoodie is printed after you order it. Printing takes ${f.productionDays}, then your order ships. Delivery estimates are shown at checkout.`, needs: 'productionDays' },
     ],
     shopifyHandle: 'national-park-sweatshirts',
+  },
+  {
+    // RankHero 2026-10-18: running hoodie 5,400 / KD 26 (runner hoodie 5,400/22 and jogging hoodie 720/27 stay with products). Added 2026-10-18 at 3 live running hoodies (R11.10).
+    slug: 'running-hoodies', section: 'hoodies', name: 'Running Hoodies',
+    keyword: 'running hoodie', volume: 5400, kd: 26,
+    title: 'Running Hoodies — Funny Retro Designs for Slow Runners',
+    description: 'Funny running hoodies with 1970s jogging art: a snail with a race bib and a jogger who regrets mile one. Pullover and zip-up, from $39.99.',
+    h1: 'Running Hoodies',
+    intro: 'Running hoodies for people who run for the bagel, the medal and the story afterwards: a snail in a race bib who is in no hurry, and a 1970s jogger who regretted the whole thing at the first mile marker. Warm enough for the start line, honest about the pace.',
+    sections: [
+      { h2: 'For the back of the pack', body: 'Most running clothes are about speed. These are about the rest of us: the turkey trot walker, the couch-to-5K graduate and the friend who signed up for a 10K and had second thoughts by the first mile marker. The art is drawn like a 1970s jogging magazine, with tube socks, terry sweatbands and big slab lettering.' },
+      { h2: 'Pullover or zip-up', body: 'The pullover is an 8 oz cotton-poly fleece with a front pouch and the print across the chest. The zip-up puts the full print on the back, where the zipper cannot cut through it, with a small version on the left chest, so you can unzip it after the first mile.' },
+      { h2: 'Before and after the run', body: 'These are cotton-blend fleece hoodies for the cold start line, the cool-down walk and brunch, not technical running layers. Shed it at the bag check, pull it back on at the finish.' },
+    ],
+    faqs: [
+      { q: 'Can you run in a cotton hoodie?', a: 'You can, but cotton-blend fleece holds sweat, so most runners wear one for the warm-up, the start line and the walk back rather than the whole run. Graphic Tees Co. running hoodies are 8 oz cotton-polyester fleece, made for before and after the miles.' },
+      { q: 'Are these running hoodies good for a turkey trot?', a: 'Yes. A funny running hoodie from Graphic Tees Co. is warm enough for a cold Thanksgiving morning start line and comes off easily once you warm up. The Pace: Leisurely snail and Mile One Was a Mistake designs suit walkers and joggers alike.' },
+      { q: 'Is a running hoodie a good gift for a runner?', a: 'Yes. A running hoodie with a joke about pace or mile one suits the slow runner, the new 5K runner and the marathon friend who takes it too seriously. Every Graphic Tees Co. running hoodie is over $45, so it ships free in the US, with one free size exchange within 30 days.' },
+      { q: 'How much are the running hoodies?', a: 'Running hoodies at Graphic Tees Co. are $39.99 for the pullover and $44.99 for the zip-up. Both are unisex, sizes S through 3XL, printed to order with original art, and every one ships free in the US because it is over $45.' },
+      { q: 'How long do running hoodies take to ship?', a: (f) => `Each running hoodie is printed after you order it. Printing takes ${f.productionDays}, then your order ships. Delivery estimates are shown at checkout.`, needs: 'productionDays' },
+    ],
+    shopifyHandle: 'running-hoodies',
+  },
+  {
+    // RankHero 2026-10-18: dachshund hoodie 1,900 / KD 26 (dachshund dog hoodie 880/34, wiener dog hoodie 320/34 stay with products). Added 2026-10-18 at 3 live dachshund hoodies (R11.10).
+    slug: 'dachshund-hoodies', section: 'hoodies', name: 'Dachshund Hoodies',
+    keyword: 'dachshund hoodie', volume: 1900, kd: 26,
+    title: 'Dachshund Hoodies — Funny Wiener Dog Designs',
+    description: 'Funny dachshund hoodies with vintage wiener dog art: banned from the stairs, burrowed under a quilt, full of opinions. Pullover hoodies, $39.99.',
+    h1: 'Dachshund Hoodies',
+    intro: 'Dachshund hoodies for people who live with a small, long dog and a large personality: one barking out its opinions, one buried in a quilt until spring, and one lounging on the pillows at the foot of the stairs it is banned from.',
+    sections: [
+      { h2: 'Drawn from real dachshund behavior', body: 'Every design starts with something dachshund owners see daily: the burrowing, the barking at nothing, the rules that stopped applying years ago. The dogs are drawn in worn vintage cartoon inks, red-brown with cream and mustard, so each one looks like a found 1960s print rather than clip art.' },
+      { h2: 'Which one to pick', body: 'Short Legs, Long Opinions is for the dog that narrates the street. Currently Burrowed is the women\'s pick for winter couch days. Banned From Stairs is for every household whose dachshund has the best seat anyway. All three are 8 oz cotton-poly pullovers with a front pouch.' },
+      { h2: 'For the walk and the couch', body: 'Warm enough for a cold morning dog walk, soft enough for the couch with a dachshund in your lap. Wash inside out in cold water so the print stays bright.' },
+    ],
+    faqs: [
+      { q: 'Are these hoodies for people or for dachshunds?', a: 'For people. Graphic Tees Co. dachshund hoodies are human pullover hoodies with original wiener dog art on the chest, in unisex and women\'s sizes S through 3XL. They are not dog clothing, though the dog will probably try to sleep on yours.' },
+      { q: 'What is a good gift for a dachshund owner?', a: 'A dachshund hoodie with a joke they recognize, like a wiener dog banned from the stairs or burrowed under a quilt, is an easy pick. Graphic Tees Co. dachshund hoodies are $39.99, ship free in the US over $45, and include one free size exchange within 30 days.' },
+      { q: 'Why do dachshunds burrow?', a: 'Dachshunds were bred to dig into badger dens, so burrowing under blankets is instinct, and it keeps a short-coated dog warm. That habit is the joke behind the Currently Burrowed dachshund hoodie from Graphic Tees Co., drawn with only a nose and one ear showing.' },
+      { q: 'How do the dachshund hoodies fit?', a: 'Each Graphic Tees Co. dachshund hoodie is an 8 oz cotton-polyester pullover in a classic relaxed fit, sizes S through 3XL. Most people keep their usual size; go up one for a roomier fit over a sweater. One free size exchange within 30 days covers a wrong guess.' },
+      { q: 'How long do dachshund hoodies take to ship?', a: (f) => `Each dachshund hoodie is printed after you order it. Printing takes ${f.productionDays}, then your order ships. Delivery estimates are shown at checkout.`, needs: 'productionDays' },
+    ],
+    shopifyHandle: 'dachshund-hoodies',
   },
   niche(N.anime, 'hoodies', { slug: 'anime-hoodies', keyword: 'anime hoodie', volume: 22200, kd: 38, product: 'anime-style hoodies', twin: 'anime-shirts' }),
   seasonal('halloween', 'hoodies', { slug: 'halloween-hoodies', keyword: 'halloween hoodie', volume: 5400, kd: 48, product: 'Halloween hoodies', twin: 'halloween-shirts', blurb: 'horror-movie-night and spooky-season designs for cold October nights.' }),

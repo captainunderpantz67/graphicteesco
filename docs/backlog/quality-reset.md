@@ -20,6 +20,9 @@ Builders are paused (docs/intake-log.md line 1). The director publishes nothing 
 2. Lane A builds 5 sample REDOs: #577 Making Biscuits and #624 Switchbacks first (Sam sent both back), then 3 from the C list to the new bar. Claude sends them to Sam.
 3. RESUME only after Sam approves the samples.
 
+## Step 2 samples sent (director, 2026-10-18 21:20 UTC)
+All 5 sample REDOs (#577, #624, #245, #275, #273) are at REVIEW and were sent to Sam on Telegram with their review sheets and live links, asking him to reply "resume" or say what to change. Director read of the sheets: all 5 meet the new type and line bar. Two small fixes noted to Sam: #245 keeps the old sprinkle-filled NANA'S COOKIES arch above the new type, and #273 is unisex with a man-only cover (R6.3). Waiting on Sam; the PAUSED line stays.
+
 ## Step 1 grades (director, 2026-10-18 17:25 UTC)
 256 products went LIVE from 2026-10-17 18:00 UTC to now (twins counted separately; a twin carries its own print file, so type is judged per product, the line per design). Every review sheet was opened against the bar (479, 483, 493) and the step back (577, 624, 537). **A 57 · B 50 · C 149.** B and C are now `status: REDO` with a numbered note in their pipeline file; the products stay ACTIVE. 577 and 624 were already sent back by Sam and are not in this list.
 Patterns: C lines are mostly a seasonal label (Hello Winter, Pie Season, Lake Life), a stock template ("___ Champion", "___ Survivor", "___ Club", "Professional ___") or a noun plus a mild aside in parentheses. B type is mostly the same tell Sam named: a headline well under 90% width, a thin script or small spaced caps second line, art floating between two text bars.
