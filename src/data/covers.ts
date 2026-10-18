@@ -604,6 +604,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-grandpa-papa-where-dad-got-his-jokes-crewneck-sweatshirt': { src: '/covers/mens-grandpa-papa-where-dad-got-his-jokes-crewneck-sweatshirt.webp', alt: 'Man in a navy Papa Where Dad Got His Jokes crewneck sweatshirt and a wool flat cap standing in a fall backyard with a leaf pile and a kids\' soccer ball on the grass' },
   'mens-hockey-not-weird-just-the-goalie-graphic-tee': { src: '/covers/mens-hockey-not-weird-just-the-goalie-graphic-tee.webp', alt: 'Man in a black Not Weird Just the Goalie hockey tee standing at a community ice rink bench with a goalie gear bag and leg pads at his feet and the ice behind him' },
   'womens-wrestling-mom-your-weigh-in-my-stress-snacks-hoodie': { src: '/covers/womens-wrestling-mom-your-weigh-in-my-stress-snacks-hoodie.webp', alt: 'Woman in a sand Your Weigh-In My Stress Snacks wrestling mom pullover hoodie with the hood visible standing in a high-school gym on tournament day with bleachers and a rolled wrestling mat behind her' },
+  'mens-plumber-not-looking-at-your-sink-graphic-tee': { src: '/covers/mens-plumber-not-looking-at-your-sink-graphic-tee.webp', alt: 'Man in a black Off Duty Not Looking at Your Sink plumber tee standing in a sunny backyard cookout with a grill and picnic table behind him' },
   'mens-welder-grinder-and-paint-department-hoodie': { src: '/covers/mens-welder-grinder-and-paint-department-hoodie.webp', alt: 'Man in a navy Grinder & Paint Department welding hoodie in a metal fabrication shop, hands in the pouch' },
 };
 
