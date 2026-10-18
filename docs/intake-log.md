@@ -1,4 +1,6 @@
 RUNNING director since 2026-10-18 06:12 UTC
+2026-10-18 06:56 UTC — [A] [A] run done: REVIEW 389 470 540 541 500 491 456 + REDO relettering 247 248 249 250 253 254 149 (all Printful re-links verified); #387 waits on #386 (REDO), fal ~$11 of $16 today
+2026-10-18 06:36 UTC — [A] [A] 540 It Looked Smaller at the Farm tee (new art): 49/49 synced, REVIEW
 2026-10-18 06:02 UTC — [B] REVIEW #574 Women's Cropped Lift Heavy. Reply Later. tee — 45/45 synced; default file 40 on 1088691210 (dark ink), 5 on 1088691233 (Black, halo), back logo on all
 2026-10-18 06:18 UTC — [A] [A] 470 Excused From Small Talk tee (twin of 469, DTG): 42/42 synced, REVIEW
 2026-10-18 06:10 UTC — [C] REVIEW #562 Women's Mimi Says Yes hoodie (twin of #521; re-laid print 1,593 px at FW 1500, synced 12/12 on 1088722676; fal $0.06).
