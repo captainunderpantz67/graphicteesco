@@ -3,6 +3,7 @@ lane: C
 type: twin
 id: 552
 handle: womens-knitting-one-more-row-hoodie
+shopify: gid://shopify/Product/15364547117360
 kd: 14
 ---
 ## Women's Knitting – One More Row Hoodie
@@ -22,3 +23,4 @@ kd: 14
 ---
 ## Log
 - 2026-10-18 03:10 UTC director: brief written, READY (hoodie twin of LIVE #519; keyword measured this run).
+- 2026-10-18 03:02 UTC builder [C]: built from #519's print (Printful file 1088614820, 3453x3743). R6.2 check: real-font lines (ONE MORE ROW Fraunces red, (then bed) Yellowtail navy), no ring, arch, panel or card, the scene is the shape. LETTERING SIZE: in the crewneck's art (then bed) is only 38% of the art width (brief asks 50% or more), so I scaled that line 1.5x in print-prep (no new font, same glyphs): now 58% of the width, print 3453x3943 (aspect 1.14), FW 1500 TOP 0, ends above the pouch seam; (then bed) reads at phone size on Sand and Light Pink. DRAFT gid 15364547117360 (Sand + Light Pink x S-3XL = 12, $39.99, no compare-at, category hoodies, tags per brief). Keyword knitter hoodie 8,100/KD14 in the map (once in copy + meta; 'knitter sweatshirt' not used). FAQs 5 x 47-50 words, order-by Dec 8. Printful file 1088657223, sync 482673100 running. Mockups per color + back attached, variant images linked. Cover: 1 fal image ($0.06, registry #892) kept as generated: hood visible, hands in the pouch, no needles or yarn on her, the print is faithful and ONE MORE ROW / (then bed) read. Audit-local PASS. fal $0.06.

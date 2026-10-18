@@ -512,7 +512,11 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-western-hold-your-horses-im-overstimulated-graphic-tee': { src: '/covers/womens-western-hold-your-horses-im-overstimulated-graphic-tee.webp', alt: 'Woman on a western boutique porch with hay bales and a pink cowboy hat on the rail, hands in her pockets, wearing the Hold Your Horses, I\'m Overstimulated tee' },
   'mens-christmas-white-elephant-champion-hoodie': { src: '/covers/mens-christmas-white-elephant-champion-hoodie.webp', alt: 'Man in a navy White Elephant Champion Christmas hoodie grinning at an office holiday party with wrapped gifts and streamers behind him' },
   'mens-grandpa-i-fix-things-after-naps-hoodie': { src: '/covers/mens-grandpa-i-fix-things-after-naps-hoodie.webp', alt: 'Man in a navy I Fix Things After Naps grandpa hoodie smiling in a cozy wood-paneled den on a fall afternoon with a recliner and a window of autumn leaves' },
+<<<<<<< HEAD
   'womens-dance-mom-bun-tight-wallet-empty-graphic-tee': { src: '/covers/womens-dance-mom-bun-tight-wallet-empty-graphic-tee.webp', alt: 'Woman in a hotel ballroom hallway at a dance competition with garment bags on a rolling rack behind her wearing the Bun Tight, Wallet Empty tee' },
+=======
+  'womens-knitting-one-more-row-hoodie': { src: '/covers/womens-knitting-one-more-row-hoodie.webp', alt: 'Woman in a sand One More Row knitter hoodie smiling in a small-town yarn shop with cubbies of colorful yarn behind her and a basket of skeins on a wooden table' },
+>>>>>>> 1f96378 ([C] review 527; build 552 One More Row hoodie (sync running))
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

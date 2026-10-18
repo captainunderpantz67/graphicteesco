@@ -7814,17 +7814,10 @@
     {
      "phrase": "knitter hoodie",
      "volume": 8100,
-     "kd": 14,
-     "source": "RankHero via scripts/keyword-gap.py"
-    },
-    {
-     "phrase": "yarn hoodie",
-     "volume": 170,
-     "kd": 34,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 14
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "unisex-christian-holy-spirit-mildly-spooky-hoodie": {
    "claimed": [
