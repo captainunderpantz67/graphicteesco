@@ -6869,16 +6869,22 @@
   },
   "womens-embroidered-ghost-one-more-chapter-club-crewneck-sweatshirt": {
    "claimed": [
-    "bookish ghost"
+    "bookish ghost",
+    "reading ghost"
    ],
    "gaps_measured": [
     {
      "phrase": "bookish ghost",
      "volume": 2400,
      "kd": 38
+    },
+    {
+     "phrase": "reading ghost",
+     "volume": 260,
+     "kd": 66
     }
    ],
-   "measured": "2026-10-17"
+   "measured": "2026-10-16"
   },
   "womens-nurse-embroidered-night-shift-silly-goose-crewneck-sweatshirt": {
    "claimed": [
@@ -7001,7 +7007,7 @@
      "kd": 58
     }
    ],
-   "measured": "2026-10-17"
+   "measured": "2026-10-16"
   },
   "womens-pilates-core-issues-cropped-hoodie": {
    "claimed": [
@@ -7909,29 +7915,28 @@
   },
   "mens-golf-i-play-army-golf-graphic-tee": {
    "claimed": [
-    "retro golf shirt"
+    "retro golf shirt",
+    "vintage golf shirt",
+    "funny golf t shirt"
    ],
    "gaps_measured": [
     {
      "phrase": "retro golf shirt",
      "volume": 4400,
-     "kd": 14,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 14
     },
     {
      "phrase": "vintage golf shirt",
      "volume": 4400,
-     "kd": 30,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 30
     },
     {
      "phrase": "funny golf t shirt",
      "volume": 3600,
-     "kd": 33,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 33
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-cat-dad-cant-cats-on-me-graphic-tee": {
    "claimed": [

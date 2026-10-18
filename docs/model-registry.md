@@ -608,7 +608,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 813 | White woman, mid 20s, platinum-blonde shag, nose hoop, gold necklaces | USED 2026-10-17 - #489 Already Over It Kindly hoodie cover (seedream, navy, coffee shop) |
 | 814 | Vietnamese-American man, early 30s, short textured black hair, light stubble | USED 2026-10-18 — #490 Plans Canceled. Mood Improved. hoodie cover (pair 814-815) |
 | 815 | white woman, early 30s, long auburn hair in a messy bun, freckles | USED 2026-10-18 — #490 Plans Canceled. Mood Improved. hoodie cover (pair 814-815) |
-| 816 | Indian-American woman, early 40s, long wavy dark hair with a few silver strands, small nose stud, tortoiseshell glasses | CLAIMED 2026-10-17 — #491 Ghost One More Chapter Club Crewneck Sweatshirt cover (brief) |
+| 816 | Indian-American woman, early 40s, long wavy dark hair with a few silver strands, small nose stud, tortoiseshell glasses | USED 2026-10-17 — #491 Ghost One More Chapter Club Crewneck Sweatshirt cover (brief) |
 | 817 | Haitian-American woman, mid 30s, short natural hair with a side part, small gold studs | USED 2026-10-18 — #492 Embroidered Night Shift Silly Goose Crewneck Sweatshirt cover (brief) |
 | 818 | Filipino man, early 30s, short black undercut, clean-shaven | USED 2026-10-17 - #493 Calm Face Loud Brain crewneck cover (seedream, navy, hospital hallway; pair 818-819) |
 | 819 | white woman, early 40s, short blonde bob, small pearl studs | USED 2026-10-17 - #493 Calm Face Loud Brain crewneck cover (seedream, navy, hospital hallway; pair 818-819) |
@@ -619,7 +619,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 824 | Ethiopian-American woman, early 30s, long braids pulled back with a scarf, small gold studs | USED 2026-10-18 — #498 Embroidered Psalm 121 Mountain Crewneck Sweatshirt cover (brief) |
 | 825 | Guatemalan-American woman, mid 20s, long dark hair in a high ponytail, small gold hoops | USED 2026-10-18 — #499 Holy Spirit, Mildly Spooky tee cover (pair 825-826) |
 | 826 | white man, late 20s, buzz-cut blond hair, light stubble | USED 2026-10-18 — #499 Holy Spirit, Mildly Spooky tee cover (pair 825-826) |
-| 827 | Japanese-American woman, early 30s, chin-length black bob, small pearl studs | CLAIMED 2026-10-17 — #500 Embroidered Merry-ish Crewneck Sweatshirt cover (brief) |
+| 827 | Japanese-American woman, early 30s, chin-length black bob, small pearl studs | USED 2026-10-17 — #500 Embroidered Merry-ish Crewneck Sweatshirt cover (brief) |
 | 433 | (reused as the brief specifies) | USED again 2026-10-17 — #257 Wishbone Champion tee cover redo (seedream, 1 attempt) |
 | 434 | (reused as the brief specifies) | USED again 2026-10-17 — #258 Wishbone Champion crewneck cover redo (seedream, 3 attempts: try 1 white bars top and bottom, try 2 black frame, cropped the frame off the kept image) |
 | 828 | Black woman, late 30s, shoulder-length twist-out curls, tortoiseshell glasses | USED 2026-10-18 - #501 Do Not Sell My Books hoodie cover (seedream, Sand, indie bookstore aisle) |
@@ -680,7 +680,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 880 | Samoan-American man, late 40s, short wavy black hair greying at the temples, neat greying goatee, big broad build | USED 2026-10-18 — #540 It Looked Smaller at the Farm Tee cover |
 | 881 | Korean-American man, early 50s, short salt-and-pepper hair with a side part, clean-shaven, thin rimless glasses, medium build | USED 2026-10-18 — #541 It Looked Smaller at the Farm Crewneck Sweatshirt cover (brief) |
 | 895 | Greek-American woman, early 30s, long thick dark-brown wavy hair in a low ponytail, light olive skin, small silver hoops, lean athletic build | USED 2026-10-18 — #555 Treat Me Like Wildlife Tee cover (seedream, hair in low ponytail clear of print) |
-| 896 | Jamaican-American man, early 50s, short greying hair, neat salt-and-pepper goatee, tall lean build | CLAIMED 2026-10-18 — #556 I Play Army Golf Tee cover (brief) |
+| 896 | Jamaican-American man, early 50s, short greying hair, neat salt-and-pepper goatee, tall lean build | USED 2026-10-18 — #556 I Play Army Golf Tee cover (seedream, hands empty, print clear) |
 | 897 | Thai-American man, mid 30s, short black hair with a messy fringe, thin black-framed glasses, clean-shaven, slim build | CLAIMED 2026-10-18 — #557 Can't, Cat's on Me Tee cover (brief) |
 | 898 | Dominican-American woman, late 20s, curly dark-brown hair in a high bun, small gold nose ring, curvy build | CLAIMED 2026-10-18 — #558 Not My Turn With the Brain Cell Zip Hoodie cover (brief) |
 | 899 | Cherokee woman, late 40s, long straight black hair with grey strands in a low braid, small turquoise studs, medium build | CLAIMED 2026-10-18 — #559 If It's Brown, Lie Down Crewneck Sweatshirt cover (brief) |
