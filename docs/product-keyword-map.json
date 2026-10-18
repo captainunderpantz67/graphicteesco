@@ -9236,6 +9236,102 @@
    ],
    "measured": "2026-10-18",
    "note": "director: brief"
+  },
+  "mens-christmas-moms-favorite-graphic-tee": {
+   "claimed": [
+    "christmas gifts for brother",
+    "moms favorite shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas gifts for brother",
+     "volume": 9900,
+     "kd": 12
+    },
+    {
+     "phrase": "moms favorite shirt",
+     "volume": 880,
+     "kd": 47
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-christmas-moms-favorite-crewneck-sweatshirt": {
+   "claimed": [
+    "sibling gifts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "sibling gifts",
+     "volume": 2400,
+     "kd": 44
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-christmas-drew-your-name-panicked-graphic-tee": {
+   "claimed": [
+    "secret santa gifts for men",
+    "secret santa gifts for him"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "secret santa gifts for men",
+     "volume": 27100,
+     "kd": 9
+    },
+    {
+     "phrase": "secret santa gifts for him",
+     "volume": 1600,
+     "kd": 17
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-christmas-drew-your-name-panicked-crewneck-sweatshirt": {
+   "claimed": [
+    "funny secret santa gifts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny secret santa gifts",
+     "volume": 18100,
+     "kd": 10
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-christmas-santa-gets-all-the-credit-graphic-tee": {
+   "claimed": [
+    "christmas gifts for mom",
+    "mom christmas gifts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas gifts for mom",
+     "volume": 74000,
+     "kd": 6
+    },
+    {
+     "phrase": "mom christmas gifts",
+     "volume": 6600,
+     "kd": 13
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-christmas-santa-gets-all-the-credit-crewneck-sweatshirt": {
+   "claimed": [
+    "christmas gifts for wife"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas gifts for wife",
+     "volume": 40500,
+     "kd": 8
+    }
+   ],
+   "measured": "2026-10-18"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
