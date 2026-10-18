@@ -509,6 +509,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-running-pace-leisurely-zip-hoodie': { src: '/covers/unisex-running-pace-leisurely-zip-hoodie.webp', alt: 'Man and woman in matching light grey Pace: Leisurely snail zip hoodies, looking back over their shoulders on a park running path on a cool autumn morning with the snail print on their backs' },
   'mens-christian-short-grace-hot-food-graphic-tee': { src: '/covers/mens-christian-short-grace-hot-food-graphic-tee.webp', alt: 'Man in a natural cream Short Grace. Hot Food. Christian tee in a church fellowship hall set for Sunday dinner' },
   'womens-gym-mid-set-not-interested-graphic-tee': { src: '/covers/womens-gym-mid-set-not-interested-graphic-tee.webp', alt: 'Woman in a heather grey Mid-Set. Not Interested. gym tee in a sunny garage gym with a squat rack' },
+  'mens-gym-rack-your-weights-respectfully-graphic-tee': { src: '/covers/mens-gym-rack-your-weights-respectfully-graphic-tee.webp', alt: 'Man in a natural cream Rack Your Weights. Respectfully. gym tee on a commercial gym floor with a weight rack behind him' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

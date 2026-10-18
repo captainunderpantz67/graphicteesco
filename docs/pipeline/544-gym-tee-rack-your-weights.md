@@ -27,3 +27,4 @@ kd: 16
 ---
 ## Log
 - 2026-10-18 03:10 UTC director: brief written, READY (lane B funny-gym; funny-gym-shirts has 0 live; KD 16 phrase, 1,670-favorite culture × gym proof).
+- 2026-10-18 03:10 UTC builder [B]: WIP: DRAFT, art, mockups, copy, cover and review sheet done; Printful sync still running (queued behind other syncs); status goes to REVIEW at full sync.
