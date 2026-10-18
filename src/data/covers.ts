@@ -492,6 +492,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-crochet-no-i-wont-make-you-one-crewneck-sweatshirt': { src: '/covers/womens-crochet-no-i-wont-make-you-one-crewneck-sweatshirt.webp', alt: 'Woman in a Sand No, I Won\'t Make You One crochet crewneck sweatshirt at a fall craft-fair booth with granny-square bags' },
   'womens-mimi-says-yes-crewneck-sweatshirt': { src: '/covers/womens-mimi-says-yes-crewneck-sweatshirt.webp', alt: 'Woman in a Sand Mimi Says Yes mimi crewneck sweatshirt in a warm farmhouse kitchen with cookies cooling' },
   'unisex-christian-holy-spirit-mildly-spooky-graphic-tee': { src: '/covers/unisex-christian-holy-spirit-mildly-spooky-graphic-tee.webp', alt: 'Man and woman smiling in a church fellowship hall fall festival with string lights and pumpkins on hay bales wearing the Holy Spirit, Mildly Spooky navy tee' },
+  'womens-gigi-because-grandma-sounded-old-crewneck-sweatshirt': { src: '/covers/womens-gigi-because-grandma-sounded-old-crewneck-sweatshirt.webp', alt: 'Woman in a Sand Gigi Because Grandma Sounded Old gigi crewneck sweatshirt on a fall cafe patio with shopping bags and a stroller' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

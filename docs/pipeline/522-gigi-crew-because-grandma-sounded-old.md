@@ -1,7 +1,8 @@
-status: BUILDING [B] 2026-10-18 01:51Z
+status: REVIEW
 lane: B
 type: new
 id: 522
+shopify: gid://shopify/Product/15364431315248
 handle: womens-gigi-because-grandma-sounded-old-crewneck-sweatshirt
 kd: 48
 ---
@@ -27,3 +28,4 @@ kd: 48
 ---
 ## Log
 - 2026-10-18 00:28 UTC director: brief written, READY (new art, keyword and 500+ favorite proof measured this run).
+- 2026-10-18 02:40 UTC builder [B]: full build. Art: 1 Recraft call, kept (quilted pink handbag tipped open, cat-eye sunglasses, lipstick, pearls, baby shoes). GIGI (Lobster, hot pink-red #e0245e, cream keyline, about 85% of the art width) above; "because grandma / sounded old." re-set on TWO lines in bold Yellowtail (520 px, thin same-color keyline) below, after the first one-line thin script read small on the Sport Grey mockup at phone size (7b): the joke line is now readable at 400 px. Colors Sand + Sport Grey, NOT Light Pink: the pink art and the pink GIGI vanish on Light Pink (brief's other fallback, Sand + Navy, would sink the black linework). Print 10.1 x 14.8 in (ratio 1.47): FW 1500, NOT 1650, because FW 1650 would be 2430 px tall against the 2400 px area (2325 left under TOP 75); at FW 1500 it is 2210 px. DRAFT gid 15364431315248, category aa-1-13-14, 12 variants $34.99, compareAtPrice null, tags per brief, keyword gigi sweatshirt 880/KD48 in line one and meta (map entry already present), FAQ 6 x 40-60 words incl. Dec 8. Printful file 1088627920, sync 12/12 (the first v1 file's sync was killed mid-run and FORCE re-linked all 12); mockups Sand + Sport Grey + back replaced in place with the v2 print and linked. Cover: registry 856, 1 fal photo, every word reads, hair behind the shoulders, stroller handle at the edge with no baby; no composite; alt starts "Woman". Audit-local PASS, astro build OK. fal $0.10.
