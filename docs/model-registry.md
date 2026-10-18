@@ -664,7 +664,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 869 | Navajo man, early 40s, short black hair, neat goatee, broad build | USED 2026-10-18 — #529 If You Can Step Over It, I Can Fill It Tee cover (brief) |
 | 870 | white man, late 20s, red buzz cut, freckles, full red beard, stocky build | USED 2026-10-18 — #530 Grinder & Paint Department Tee cover (brief) |
 | 871 | Filipino-American man, early 30s, short black undercut, clean-shaven, muscular build | CLAIMED 2026-10-18 — #531 Deload Week (Emotionally) Pump Cover cover (brief) |
-| 872 | Black man, early 60s, short white hair, white mustache, lean build | CLAIMED 2026-10-18 — #532 You Catching 'Em? Tee cover (brief) |
+| 872 | Black man, early 60s, short white hair, white mustache, lean build | USED 2026-10-18 — #532 You Catching 'Em? Tee cover (brief) |
 | 873 | Afro-Latina woman, early 30s, curly dark hair in a low bun, small gold hoops, medium build | CLAIMED 2026-10-18 — #533 Hold Your Horses, I'm Overstimulated Tee cover (brief) |
 | 874 | Vietnamese-American woman, late 30s, sleek black chin-length bob, small pearl studs, slim build | CLAIMED 2026-10-18 — #534 Bun Tight, Wallet Empty Tee cover (brief) |
 | 875 | white woman, early 40s, strawberry-blonde ponytail through a ball cap, light freckles, athletic build | CLAIMED 2026-10-18 — #535 Travel Ball Took My Savings and My Saturdays Tee cover (brief) |

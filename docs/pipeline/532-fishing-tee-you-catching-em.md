@@ -27,3 +27,4 @@ kd: 44
 ---
 ## Log
 - 2026-10-18 01:30 UTC director: brief written, READY (lane B funny-fishing; verified TikTok gripe, 738-favorite men's funny fishing tee proof).
+- 2026-10-18 02:20 UTC builder [B]: WIP: DRAFT, art, mockups (5 colors + back), copy, cover and review sheet done; Printful sync of 35 variants still running (queued behind other syncs); status goes to REVIEW at 35/35.

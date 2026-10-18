@@ -497,6 +497,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-embroidered-goose-plot-twist-pending-crewneck-sweatshirt': { src: '/covers/womens-embroidered-goose-plot-twist-pending-crewneck-sweatshirt.webp', alt: 'Woman in a cozy independent bookstore aisle with a canvas tote at her side wearing the Goose Plot Twist Pending embroidered Sand crewneck' },
   'mens-welder-grinder-and-paint-department-graphic-tee': { src: '/covers/mens-welder-grinder-and-paint-department-graphic-tee.webp', alt: 'Man in a military green Grinder & Paint Department welding tee at a ranch job site at golden hour with a welding rig on a truck bed' },
   'mens-welder-if-you-can-step-over-it-graphic-tee': { src: '/covers/mens-welder-if-you-can-step-over-it-graphic-tee.webp', alt: 'Man in a forest green If You Can Step Over It, I Can Fill It welder tee in a fabrication shop with a welding hood on the bench' },
+  'mens-fishing-you-catching-em-graphic-tee': { src: '/covers/mens-fishing-you-catching-em-graphic-tee.webp', alt: 'Man in a military green You Catching Em fishing tee on a pond bank at sunrise with a lawn chair and a rod in a holder' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
