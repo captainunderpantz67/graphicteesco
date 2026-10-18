@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-18 09:16 UTC
 2026-10-18 09:11 UTC — [B] Lane B run summary: 10 items to REVIEW (#574 #547 #531 #548 #467 #473 #584 #583 #585 #591; earlier #455 #542 #549 #575 #573 #543), all Printful-synced and default-file checked. fal daily cap reached ($15.98/$16): #593 claim released to READY, READY left: 590 592 593 594 595 596 597 (all new art) and #385 (needs hand re-letter). Lock released.
 2026-10-18 09:10 UTC — [B] REVIEW #591 Women's Wrestling Mom Tournament Day. Voice Gone. tee — 54/54 synced; default file 30 on 1088716247 (dark ink, 5 light colors) and 24 on 1088716265 (halo, 4 dark colors), back logo on all; FW 1420; cover chest zoom 200% checked
 2026-10-18 09:26 UTC — [C] REVIEW #606 Running Mile One hoodie (REDO: Sand dark-ink MILE ONE, 6/6 relinked) and #607 Pickleball Kitchen Gossip Club hoodie (REDO: solid paddle on cover). fal cap reached ($15.98 of $16): READY #627 #637 #638 #639 wait for 00:00 UTC. Lock released.
