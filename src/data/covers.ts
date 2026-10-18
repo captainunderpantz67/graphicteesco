@@ -623,6 +623,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-pirate-pillaging-is-a-young-mans-game-boxer-briefs': { src: '/covers/mens-pirate-pillaging-is-a-young-mans-game-boxer-briefs.webp', alt: 'Man in navy Pillaging Is a Young Man\'s Game all-over print novelty boxers with a retired pirate, front view on a white studio backdrop' },
   'unisex-golf-sorry-about-your-windshield-socks': { src: '/covers/unisex-golf-sorry-about-your-windshield-socks.webp', alt: 'Pair of cream Sorry About Your Windshield golf socks with a golfer swinging toward parked cars, flat view' },
   'mens-fishing-love-language-socks': { src: '/covers/mens-fishing-love-language-socks.webp', alt: 'Pair of cream Fishing Is My Love Language fishing socks with a bass in a beach chair, flat view' },
+  'unisex-dachshund-short-legs-long-opinions-socks': { src: '/covers/unisex-dachshund-short-legs-long-opinions-socks.webp', alt: 'Pair of cream Short Legs, Long Opinions dachshund socks with a red wiener dog, flat view' },
 };
 
 // Pasted-print covers retired by R6.10 (Sam 2026-10-18): these fall back to the clean Printful mockup until a

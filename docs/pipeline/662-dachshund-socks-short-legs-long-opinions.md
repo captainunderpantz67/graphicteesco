@@ -1,8 +1,9 @@
-status: BUILDING [B] 2026-10-18 22:51 UTC
+status: REVIEW
 lane: B
 type: addon
 id: 662
 handle: unisex-dachshund-short-legs-long-opinions-socks
+shopify: gid://shopify/Product/15365986615600
 kd: 18
 ---
 ## Unisex Dachshund – Short Legs, Long Opinions Socks
@@ -26,3 +27,5 @@ kd: 18
 ## Log
 - 2026-10-18 director: brief written, READY (gift add-on, socks first; source design A grade).
 - 2026-10-18 director: Sam put funny boxers first, so build the boxer briefs #666–#669 before this one.
+- 2026-10-18 [B]: built. DRAFT gid 15365986615600, Printful #882 sync (3/3 S/M/L) on file 1089180782 (scripts/sock-print.py, spec designs/s662/spec.json): dachshund from Printful file 1088483823 on cream, Alfa Slab red lockup SHORT / LEGS, / (dog) / LONG / OPINIONS in a real font, foot repeat (brief asked for paw prints; the art has none, so the foot repeats the dog). Cost 7.14, $18.99. Keyword dachshund socks 1,600/KD 18 (brief), recorded. FAQ 44-59 words. Cover: Printful flat sock mockup. Exchange FAQ quotes store policy. fal 0.
+- 2026-10-18 22:53 UTC [B] REVIEW #662 boxer briefs (unisex-dachshund-short-legs-long-opinions-socks); sheet docs/review/662.jpg
