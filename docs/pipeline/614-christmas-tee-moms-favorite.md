@@ -1,4 +1,4 @@
-status: ART-NEXT
+status: REVIEW
 lane: A
 type: new
 id: 614
@@ -30,3 +30,4 @@ kd: 12
 - 2026-10-18 14:06 UTC Claude: KEYWORD FIX before build (R2.10). The primary is a gift-guide search ("christmas gifts for ..."): huge volume, single-digit KD and no competition count on RankHero, the same false signal as "park sweatshirt". People searching it want idea lists, not one shirt. Builder: re-target the primary to a real shirt phrase with a competition count (try e.g. "funny christmas shirt", "secret santa gift", "matching christmas shirts", "christmas shirt for brother" and pick the best measured one, not claimed in docs/product-keyword-map.json). The gift phrase may appear once in copy as a secondary. Then build as normal.
 - 2026-10-18 17:13 UTC builder [A]: primary kept 'moms favorite shirt' (880 / KD 47, comp 19,029; claimed by this handle); 'christmas gifts for brother' once as secondary. Art try 1 ($0.04). Print file 1088985656 (3132x3291), FW 1650 TOP 75. DRAFT gid 15365757108528 (6 light colors x 7 = 42, $24.99, no compare-at). Dark-ink file, light colors only; no cream fill. Sync 482803156 started. Cover pending (registry #954).
 - 2026-10-18 17:15 UTC builder [A]: mockups for 6 colors attached; cover fal try 1 ($0.06): man, empty hands, MOM'S FAVORITE. and Check the stockings. clear, nothing over print; registry #954 USED; sheet made. Waiting on sync.
+- 2026-10-18 17:25 UTC builder [A]: REVIEW. Sync 482803156 verified 42/42 on default file 1088985656 (FW 1650 TOP 75), back logo 1080398177. FAQs 5 at 45-53 words, order-by Dec 8. Primary 'moms favorite shirt' 1x in copy + SEO title + meta; 'christmas gifts for brother' once. Light file: none needed (no cream fill, light colors only). Ink named from mockups: red, green, mustard, black. Cover: man, empty hands, all words clear at 200%, no composite. design-crops/variant-photo-audit run after publish.
