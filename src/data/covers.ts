@@ -535,6 +535,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-volleyball-mom-seven-am-check-in-graphic-tee': { src: '/covers/womens-volleyball-mom-seven-am-check-in-graphic-tee.webp', alt: 'Woman with locs tied back smiling eyes closed in a volleyball gym wearing the 7 A.M. Check-In. Don\'t talk to me yet. navy tee' },
   'mens-gym-deload-week-emotionally-pump-cover': { src: '/covers/mens-gym-deload-week-emotionally-pump-cover.webp', alt: 'Man with a short black undercut sitting on a weight bench in a washed-black Deload Week (Emotionally) pump cover shirt in a garage gym with a squat rack and chalk dust, hands resting on his knees' },
   'unisex-national-park-switchbacks-build-character-crewneck-sweatshirt': { src: '/covers/unisex-national-park-switchbacks-build-character-crewneck-sweatshirt.webp', alt: 'Man and woman smiling in sand Switchbacks Build Character crewneck sweatshirts at a mountain trailhead at golden hour with pine trees, a trail sign post and small daypacks on the ground' },
+  'unisex-embroidered-overthinkers-club-crewneck-sweatshirt': { src: '/covers/unisex-embroidered-overthinkers-club-crewneck-sweatshirt.webp', alt: 'Man and woman smiling in navy Overthinkers Club embroidered crewneck sweatshirts in a bookstore cafe corner on a rainy afternoon with a coffee cup on a table beside them' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

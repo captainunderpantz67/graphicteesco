@@ -1,9 +1,10 @@
-status: READY
+status: BUILDING [B] 2026-10-18 05:12Z
 lane: B
 type: twin
 id: 467
 handle: unisex-embroidered-overthinkers-club-crewneck-sweatshirt
 kd: 44
+shopify: gid://shopify/Product/15364723147056
 ---
 ## Unisex Embroidered – Overthinkers Club Crewneck Sweatshirt
 - **Twin of:** #466 Overthinkers Club hoodie: reuse its final approved embroidery file once #466 is approved (no new art). R6.2 check first. Re-fit the file to the crewneck's largest chest-center embroidery area (≥90% width) and check it on both colors.
@@ -23,3 +24,4 @@ kd: 44
 ---
 ## Log
 - 2026-10-17 16:26 UTC director: brief written, READY (lane B; twin of #466).
+- 2026-10-18 05:14 UTC builder [B]: WIP: twin of #466 built. R6.2 check on the source (live #466 file 1088590042): arched OVERTHINKERS CLUB + EST. 3 A.M. are Graduate lettering set by the lane E builder, a Recraft moon and stars; no ring, panel, disc or typeset box, so the art is reused unchanged (4.00 x 2.47 in, strokes 1.59 mm, #A67843 old gold; Printful embroidery chest area for the 18000 is 4 in wide, so the file is already at the limit). DRAFT gid://shopify/Product/15364723147056 (Gildan 18000 #145, Sand + Navy x S-3XL = 12, $39.99 = $34.99 + $5 chest, no compare-at, category aa-1-13-14, tags embroidered-sweatshirts/sweatshirt/ai-art/intake-done, keyword anxiety sweatshirt 1,000/KD44 in line one and meta, kw map entry added, 6 FAQs 45-50 words incl. Dec 8). Mockups Sand + Navy + back via pf-emb-mockup (styles 1139/1140), both read. Cover registry 670+671 (pair): try 1 garbled the small embroidery, so the exact embroidery composited on both chests (R6.9), crewnecks, nothing over it. Sync queued; status goes to REVIEW at 12/12.
