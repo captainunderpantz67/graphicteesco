@@ -1,8 +1,9 @@
-status: BUILDING [B] 2026-10-18 22:30 UTC
+status: REVIEW
 lane: B
 type: addon
 id: 667
 handle: mens-gym-sisyphus-had-bad-programming-boxer-briefs
+shopify: gid://shopify/Product/15365980455216
 kd: 31
 ---
 ## Men's Gym – Sisyphus Had Bad Programming Boxer Briefs
@@ -25,3 +26,4 @@ kd: 31
 ---
 ## Log
 - 2026-10-18 director: brief written, READY (gift add-on, boxers first per Sam; source design A grade).
+- 2026-10-18 22:40 UTC [B]: built. DRAFT gid 15365980455216, Printful #428 sync 482873063, 7/7 variants (XS-3XL) on file 1089170678 (full-wrap 'default' 7350x2550, motif repeat on cream #F3E7CF from designs/first5/sisyphus-print.png, line set in Cinzel 900 stacked SISYPHUS / HAD BAD / PROGRAMMING at ~2000 px wide centered on the back seat; the wrap's center is the back: earlier 4350 px wide version wrapped onto the front, so it was shrunk; print source designs/b667/make.py). Cost $20.76-24.76; at $34.99 profit >= $10.23 before fees (>= $6 ok). Price $34.99, no compare-at, category aa-1-8-3-2 (Men's Boxer Briefs), tags boxers, gift-addon, gym, intake-done. Keyword: funny underwear (3,600/KD 31), recorded. FAQ 6 Qs 46-53 words. Cover: Printful model front mockup (man, torso). Exchange FAQ states the store refund policy (one free size exchange within 30 days, applies to every item); director: confirm that applies to underwear (R12.2). Mockups: front, back, right front; every variant linked to the front image (one color, sizes only). fal $0. Sheet docs/review/667.jpg; audit --handle clean except "not visible". No light-file need (single cream background).
