@@ -1,9 +1,10 @@
-status: READY
+status: BUILDING [B] 2026-10-18 05:18Z
 lane: B
 type: new
 id: 584
 handle: mens-car-guy-i-speak-fluent-rattle-graphic-tee
 kd: 29
+shopify: gid://shopify/Product/15364733272368
 ---
 ## Men's Car Guy – I Speak Fluent Rattle Tee
 - **Blank:** Bella+Canvas 3001 (Printful #71), unisex/men's tee, lightweight 4.2 oz, 100% combed ring-spun cotton (heathers contain polyester). Never "midweight". Copy facts from the Printful spec only (R7.1).
@@ -27,3 +28,4 @@ kd: 29
 ---
 ## Log
 - 2026-10-18 04:27 UTC director: brief written, READY (lane B; KD ≤ 20 band empty in the sweep, so KD 21–35 buyer phrases, measured this run; proof seller named under the gate).
+- 2026-10-18 05:25 UTC builder [B]: WIP: DRAFT gid://shopify/Product/15364733272368 (3001 #71, 10 colors x S-4XL = 70, $24.99 no compare-at, category aa-1-13-8, tags per brief; keyword car guy gifts in line one and meta, said plainly with no superlative opener, auto mechanic shirt not used). Art: 1 Recraft call kept (man with stethoscope on the engine block of an old pickup, drop light, rag; no logos on the grille). I SPEAK / FLUENT RATTLE. Alfa Slab One via compose-print, FLUENT RATTLE. 100% of the art width. Two files: cream-halo + cream/mustard-keylined for Black/Navy/Dark Grey Heather/Heather Forest/Military Green/Brown/Maroon, navy + dark-mustard ink for Natural/Ash/Athletic Heather; FW 1650 TOP 75; all 10 mockups + back; both lines read at 300 px on every color. Cover registry 924, try 1: every word reads, hands empty, no stethoscope or tools, old pickup hood up behind him. Audit-local PASS. Sync queued; status goes to REVIEW at 70/70.
