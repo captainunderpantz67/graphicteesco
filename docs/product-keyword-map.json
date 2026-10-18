@@ -7459,6 +7459,90 @@
    ],
    "measured": "2026-10-18",
    "note": "director: RankHero 2026-10-18, assigned at review (R2.9; christmas shirt men is the page head)"
+  },
+  "unisex-homebody-university-of-staying-in-oversized-hoodie": {
+   "claimed": [
+    "antisocial hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "antisocial hoodie",
+     "volume": 1600,
+     "kd": 24
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief (lane C hoodie twin)"
+  },
+  "womens-funny-i-said-it-nicely-in-my-head-hoodie": {
+   "claimed": [
+    "daisy hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "daisy hoodie",
+     "volume": 1000,
+     "kd": 38
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief (lane C hoodie twin)"
+  },
+  "womens-golden-retriever-i-brought-you-a-sock-heavyweight-hoodie": {
+   "claimed": [
+    "dog owner gifts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dog owner gifts",
+     "volume": 5400,
+     "kd": 58
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief (lane C hoodie twin)"
+  },
+  "mens-chess-calculated-mostly-hoodie": {
+   "claimed": [
+    "chess gifts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "chess gifts",
+     "volume": 2400,
+     "kd": 38
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief (lane C hoodie twin)"
+  },
+  "womens-clocked-it-said-nothing-hoodie": {
+   "claimed": [
+    "cat lover gifts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cat lover gifts",
+     "volume": 14800,
+     "kd": 59
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief (lane C hoodie twin)"
+  },
+  "unisex-running-pace-leisurely-zip-hoodie": {
+   "claimed": [
+    "running gifts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "running gifts",
+     "volume": 22200,
+     "kd": 44
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief (lane C hoodie twin)"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
