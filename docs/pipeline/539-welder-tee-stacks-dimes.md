@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-18 06:03 UTC
+status: REVIEW
 lane: E
 type: new
 id: 539
@@ -29,3 +29,4 @@ kd: 34
 ## Log
 - 2026-10-18 01:30 UTC director: brief written, READY (lane E; third welder design for the welder-shirts collection).
 - 2026-10-18 06:08 UTC builder [E]: built (sync queued behind the other lane E syncs). Art: 1 Recraft call ($0.04, try 1 kept: gloved hand with a TIG torch over a steel plate, row of overlapping weld ripples, sparks, smoke and a small stack of plain silver coins; no paycheck stub was drawn, so the copy does not mention one). STACKS DIMES. Alfa Slab One cream with a navy keyline above, WANTS MORE DIMES. Alfa Slab One safety orange #d9772b with a navy keyline below, set in compose-print; 12 px cream keyline around the art for the dark colors. Print 3435 x 3034 px (11.4 x 10.1 in), FW 1650 TOP 75. Colors Navy, Black, Dark Grey Heather, Military Green, Heather Forest x S-4XL = 35; checked on Black, Navy, Military Green; Printful file 1088725446, sync product 482694768; mockups for all 5 colors + back attached and linked; both lines read at 400 px. DRAFT gid 15364784849200 (category aa-1-13-8, $24.99 no compare-at, 5 FAQs 47-54 words incl. Dec 8, keyword welder gift 1900/KD34 in line one and meta). Cover registry 879: attempt 1 kept (seedream, hands relaxed at his sides, hood on a pipe beside him, every word read, nothing over the print). Audit-local PASS; variant-photo audit clean. fal ~$0.1.
+- 2026-10-18 07:59 UTC builder [E]: sync 35/35 confirmed. REVIEW.
