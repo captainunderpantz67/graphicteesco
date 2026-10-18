@@ -1,8 +1,9 @@
-status: BUILDING [B] 2026-10-18 22:46 UTC
+status: REVIEW
 lane: B
 type: addon
 id: 660
 handle: unisex-golf-sorry-about-your-windshield-socks
+shopify: gid://shopify/Product/15365986091312
 kd: 17
 ---
 ## Unisex Golf – Sorry About Your Windshield Socks
@@ -26,3 +27,5 @@ kd: 17
 ## Log
 - 2026-10-18 director: brief written, READY (gift add-on, socks first; source design A grade).
 - 2026-10-18 director: Sam put funny boxers first, so build the boxer briefs #666–#669 before this one.
+- 2026-10-18 [B]: built. DRAFT gid 15365986091312, Printful #882 sync 482875559, 3/3 (S/M/L) on file 1089177053 (1348x5657 panel on all 4 leg placements; scripts/sock-print.py, spec designs/s660/spec.json): golfer motif from Printful file 1088580444 on cream, Fraunces 900 navy lockup SORRY ABOUT / YOUR / WINDSHIELD. on the leg, smaller motif repeat on the foot (panel: cuff y0, heel ~y3000). Cost 7.14, $18.99, profit ~11. Category aa-1-18 Socks. Keyword golf socks 12,100/KD 17 (brief), recorded. FAQ 44-53 words. Cover: Printful flat sock mockup (no person; no lifestyle mockup exists for #882, logged). The brief says a scatter of golf balls: the art has none (golfer + cars), so the foot repeats the golfer art. Exchange FAQ quotes store policy. fal 0.
+- 2026-10-18 22:48 UTC [B] REVIEW #660 boxer briefs (unisex-golf-sorry-about-your-windshield-socks); sheet docs/review/660.jpg

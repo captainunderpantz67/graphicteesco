@@ -621,6 +621,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-gym-sisyphus-had-bad-programming-boxer-briefs': { src: '/covers/mens-gym-sisyphus-had-bad-programming-boxer-briefs.webp', alt: 'Man in cream Sisyphus Had Bad Programming all-over print funny boxer briefs, front view on a white studio backdrop' },
   'mens-golf-not-cheating-improving-my-lie-boxer-briefs': { src: '/covers/mens-golf-not-cheating-improving-my-lie-boxer-briefs.webp', alt: 'Man in navy Not Cheating, Improving My Lie all-over print funny boxer briefs with a raccoon golfer, front view on a white studio backdrop' },
   'mens-pirate-pillaging-is-a-young-mans-game-boxer-briefs': { src: '/covers/mens-pirate-pillaging-is-a-young-mans-game-boxer-briefs.webp', alt: 'Man in navy Pillaging Is a Young Man\'s Game all-over print novelty boxers with a retired pirate, front view on a white studio backdrop' },
+  'unisex-golf-sorry-about-your-windshield-socks': { src: '/covers/unisex-golf-sorry-about-your-windshield-socks.webp', alt: 'Pair of cream Sorry About Your Windshield golf socks with a golfer swinging toward parked cars, flat view' },
 };
 
 // Pasted-print covers retired by R6.10 (Sam 2026-10-18): these fall back to the clean Printful mockup until a

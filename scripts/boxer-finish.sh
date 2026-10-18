@@ -12,7 +12,7 @@ s = s[:m.start() + 1] + "  '$H': { src: '/covers/$H.webp', alt: '$ALT' },\n" + s
 k = json.load(open('docs/product-keyword-map.json')); k['products']['$H'] = {'claimed': ['$KW'], 'measured': '2026-10-18'}
 json.dump(k, open('docs/product-keyword-map.json', 'w'), indent=1, ensure_ascii=False)
 PY
-python3 scripts/review-sheet.py $ID designs/b$ID/boxer-print.png public/covers/$H.webp $S/m${ID}_Front.jpg $S/m${ID}_Back.jpg
+python3 scripts/review-sheet.py $ID ${ART:-designs/b$ID/boxer-print.png} public/covers/$H.webp $S/m${ID}_Front.jpg $S/m${ID}_Back.jpg
 F=$(ls docs/pipeline/$ID-*.md); sed -i '1s/.*/status: REVIEW/' $F; echo "$LOG" >> $F
 N=$(date -u '+%Y-%m-%d %H:%M UTC')
 echo "- $N [B] REVIEW #$ID boxer briefs ($H); sheet docs/review/$ID.jpg" >> $F
