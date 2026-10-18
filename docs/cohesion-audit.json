@@ -1,6 +1,6 @@
 {
- "at": "2026-10-18T01:03:33.803Z",
- "products": 446,
+ "at": "2026-10-18T01:45:53.715Z",
+ "products": 457,
  "findings": [
   {
    "level": "WARN",
@@ -204,6 +204,13 @@
    "title": "Men's Pirate – Pillaging Is a Young Man's Game Hoodie",
    "msg": "\"pirate hoodie\" appears 11× in the copy (keyword stuffing).",
    "fix": "Use it once or twice, naturally."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-golden-retriever-i-brought-you-a-sock-crewneck-sweatshirt",
+   "title": "Women's Golden Retriever – I Brought You a Sock Crewneck Sweatshirt",
+   "msg": "Claims \"golden retriever sweatshirt\", already claimed by womens-christmas-golden-retriever-christmas-crewneck-sweatshirt (two pages fighting for one keyword).",
+   "fix": "Give one of them a different measured phrase."
   }
  ]
 }
