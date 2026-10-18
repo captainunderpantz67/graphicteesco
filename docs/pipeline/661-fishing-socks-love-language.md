@@ -1,8 +1,9 @@
-status: BUILDING [B] 2026-10-18 22:48 UTC
+status: REVIEW
 lane: B
 type: addon
 id: 661
 handle: mens-fishing-love-language-socks
+shopify: gid://shopify/Product/15365986451760
 kd: 18
 ---
 ## Men's Fishing – Fishing Is My Love Language Socks
@@ -26,3 +27,5 @@ kd: 18
 ## Log
 - 2026-10-18 director: brief written, READY (gift add-on, socks first; source design A grade).
 - 2026-10-18 director: Sam put funny boxers first, so build the boxer briefs #666–#669 before this one.
+- 2026-10-18 [B]: built. DRAFT gid 15365986451760, Printful #882 sync (3/3 S/M/L) on file 1089179379 (scripts/sock-print.py, spec designs/s661/spec.json): bass-in-beach-chair motif from Printful file 1088604658 on cream, Alfa Slab lockup FISHING IS / MY LOVE / LANGUAGE. (green) + TALKING / ISN'T. (gold), foot repeat. Cost 7.14, $18.99. Keyword fishing socks 2,900/KD 18 (brief), recorded. FAQ 45-59 words. Cover: Printful flat sock mockup (no person). Exchange FAQ quotes store policy. fal 0.
+- 2026-10-18 22:51 UTC [B] REVIEW #661 boxer briefs (mens-fishing-love-language-socks); sheet docs/review/661.jpg
