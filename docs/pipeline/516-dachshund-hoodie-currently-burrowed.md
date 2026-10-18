@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: twin
 id: 516
@@ -25,3 +25,4 @@ kd: 34
 - 2026-10-18 00:26 UTC director: brief written, READY (hoodie twin of a LIVE winner for lane C; keyword measured this run).
 - 2026-10-18 02:30 UTC builder [C]: built from #513's print (Printful file 1088584847, 3415x2594). R6.2 check: real-font lines (CURRENTLY BURROWED. AlfaSlabOne, (back in spring) CaveatBrush, cream with a dark red keyline), no ring, arch or panel; counters (O, D, B, R, a, g) closed on Sand and Sport Grey. Print is wide and short: FW 1650 TOP 30 (about 7.8 in tall), well above the pouch. DRAFT gid 15364474601776 (Sand + Sport Grey x S-3XL = 12, $39.99, no compare-at, category hoodies, tags per brief). Keyword wiener dog hoodie 320/KD34 in the map (3 uses; 'dachshund hoodie' and 'dachshund sweatshirt' not used). FAQs 5 x 43-48 words, order-by Dec 8. Printful file 1088642099, sync 482669199 running. Mockups per color + back attached, variant images linked. Cover: 1 fal image ($0.06, registry #849): hood visible, hands in the pouch, dog beside her at the hip; her long hair hung over the C of CURRENTLY and the (b of back, so the exact print was composited with the hair kept behind the shoulder (R6.9) and every word read. Audit-local PASS. fal $0.06.
 - 2026-10-18 02:39 UTC builder [C]: Sync 12/12. REVIEW. Sheet docs/review/516.jpg.
+- 2026-10-18 03:30 UTC director: LIVE (ACTIVE + published, audit PASS).
