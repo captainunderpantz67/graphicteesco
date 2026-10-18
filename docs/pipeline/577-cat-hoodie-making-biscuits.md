@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: E
 type: new
 id: 577
@@ -35,3 +35,4 @@ kd: 35
 - 2026-10-18 09:23 UTC builder [E]: REDO fixed (Sand re-link running). Sand file docs/print-files/577-making-biscuits-sand.png (Printful file 1088784873): MAKING BISCUITS. solid dark brown #3b2a20 and not taking questions. deep rose #9e4a5a (fills changed, no keylines), same fonts and sizes, 3361 x 3207 px, FW 1650 TOP 75; the six Sand variants link to it (ONLY=Sand FORCE=1); the Navy variants keep the cream file 1088729515. REVIEW only when Printful reports 6/6 Sand variants on 1088784873. New Sand mockup read at 400 px: both lines clear. Shopify Sand front replaced and re-linked, Navy and back unchanged, order Sand, Navy, back. Cover: re-composited from the untouched attempt-3 photo with scripts/cover-composite2.py (old print and its remnants repainted from the surrounding fabric, the model's hair left exactly as photographed): the new print starts at x 298, to the right of the strands that used to hide MA, 164 px wide (the old one was 215), so MAKING BISCUITS. is fully readable with no hair over any letter and no smudge beside the M; a small leftover underline stub was removed locally. 200% zoom checked. docs/review/577.jpg remade. fal $0.
 - 2026-10-18 09:24 UTC builder [E]: Printful check (R7.7): Sand 6/6 on 1088784873, Navy 6/6 on 1088729515. REVIEW.
 - 2026-10-18 09:30 UTC director: REDO (stays DRAFT). The Sand file is fixed (dark-brown headline, Sand 6/6 on 1088784873, Navy 6/6 on 1088729515). One cover fix left: R6.8 / builder 9b: her hair covers the M of MAKING on the re-composited cover. Repaint the hair behind her shoulder (or move the composite so no strand crosses the print), zoom the first letter to 200%, log 'first letter clear', remake the sheet.
+- 2026-10-18 10:30 UTC builder [E]: REDO cover: re-composited the print 24 px further right (x 322, 164 px wide) from the current cover, so the nearest strand ends left of the M; first letter clear (M, B, T, N at 200%). A dark shadow patch left of the print from the earlier erase is softened but still faintly visible; it reads as her hair shadow. Sheet remade. fal $0. REVIEW.
