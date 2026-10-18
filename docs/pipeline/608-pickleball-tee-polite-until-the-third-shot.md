@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-18 14:35
+status: REVIEW
 lane: E
 type: new
 id: 608
@@ -27,3 +27,5 @@ kd: 39
 ---
 ## Log
 - 2026-10-18 06:26 UTC director: brief written, READY (lane E; kd 39; KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month or with a measured December surge; proof named under the gate).
+- 2026-10-18 15:20 UTC builder [E]: built. Art: 1 Recraft call ($0.04, try 1 kept: 1960s country-club lady in visor and pearls smashing the ball, speed lines). POLITE UNTIL Yellowtail #b8453c and THE THIRD SHOT. Alfa Slab One #1b2a4a, both with a cream keyline, set in compose-print; print 3352 x 3613 px, FW 1500 TOP 75. Light file: none needed, five light colors, no headline fill is cream/white (red and navy on all). Colors White, Natural, Heather Stone, Athletic Heather, Pink = 30 variants; Printful file 1088893979 (back 1080398177), sync product 482768765, 30/30 on 1088893979 (default file). Mockups all 5 colors + back attached and linked; phone-size read at 600 px on Pink: both lines read. DRAFT gid 15365634523440 (category aa-1-13-8, $24.99 no compare-at, 5 FAQs 45-50 words incl. Dec 8, keyword pickleball shirt 6600/KD39 in line one, SEO title and meta; kw map updated). Cover registry 944: attempt 1 kept (seedream, Natural tee, ponytail behind shoulder, paddle at her side below the print; first letters P and T clear, chest clean: no box, no smudge, no hard edge). Audit: only the not-active error. fal ~$0.1.
+- 2026-10-18 14:35 UTC builder [E]: sync 30/30 confirmed. REVIEW.

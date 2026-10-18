@@ -8925,16 +8925,22 @@
   },
   "womens-pickleball-polite-until-the-third-shot-graphic-tee": {
    "claimed": [
-    "pickleball shirt"
+    "pickleball shirt",
+    "pickleball gifts for women"
    ],
    "gaps_measured": [
     {
      "phrase": "pickleball shirt",
      "volume": 6600,
      "kd": 39
+    },
+    {
+     "phrase": "pickleball gifts for women",
+     "volume": 590,
+     "kd": 28
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "unisex-pickleball-my-partner-says-it-was-out-graphic-tee": {
    "claimed": [

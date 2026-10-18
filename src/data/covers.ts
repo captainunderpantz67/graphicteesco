@@ -592,6 +592,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-dachshund-banned-from-stairs-hoodie': { src: '/covers/unisex-dachshund-banned-from-stairs-hoodie.webp', alt: 'Man and woman in matching navy hoodies on a late-fall porch with a dog ramp beside the steps and a red dachshund at their feet, hands in the pouches' },
   'womens-softball-mom-travel-ball-took-my-saturdays-zip-hoodie': { src: '/covers/womens-softball-mom-travel-ball-took-my-saturdays-zip-hoodie.webp', alt: 'Woman in her early 40s with a sandy ponytail and sunglasses on her head, seen from behind in a navy zip hoodie at tournament bleachers, looking over her shoulder, a folding chair and a cooler beside her' },
   'mens-dog-dad-unpaid-doorman-half-zip': { src: '/covers/mens-dog-dad-unpaid-doorman-half-zip.webp', alt: 'Man in his late 30s with a short beard and round glasses, seen from behind in a navy half zip pullover on a back porch, looking over his shoulder, a scruffy dog beside the open screen door' },
+  'womens-pickleball-polite-until-the-third-shot-graphic-tee': { src: '/covers/womens-pickleball-polite-until-the-third-shot-graphic-tee.webp', alt: 'Woman in a natural Polite Until the Third Shot pickleball tee standing on an outdoor pickleball court on a bright morning with a water bottle on the bench behind her' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
