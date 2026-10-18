@@ -550,6 +550,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-bear-if-its-brown-lie-down-crewneck-sweatshirt': { src: '/covers/womens-bear-if-its-brown-lie-down-crewneck-sweatshirt.webp', alt: 'Woman in a sand If It\'s Brown, Lie Down bear crewneck sweatshirt standing on a mountain cabin porch in late fall with misty ridges behind her' },
   'womens-wrestling-mom-tournament-day-voice-gone-tee': { src: '/covers/womens-wrestling-mom-tournament-day-voice-gone-tee.webp', alt: 'Woman in a natural cream Tournament Day. Voice Gone. wrestling mom tee holding a stadium blanket in a high school gym' },
   'unisex-dachshund-banned-from-stairs-graphic-tee': { src: '/covers/unisex-dachshund-banned-from-stairs-graphic-tee.webp', alt: 'Man and woman in matching navy Banned From Stairs dachshund tees standing at the foot of a carpeted staircase with a baby gate, a dachshund on a dog bed at their feet' },
+  'unisex-pitbull-scary-dog-afraid-of-the-vacuum-graphic-tee': { src: '/covers/unisex-pitbull-scary-dog-afraid-of-the-vacuum-graphic-tee.webp', alt: 'Man and woman in matching navy Scary Dog pit bull tees on a sunny fall porch with a grey pit bull at their feet' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

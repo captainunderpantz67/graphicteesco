@@ -8467,23 +8467,22 @@
   },
   "unisex-pitbull-scary-dog-afraid-of-the-vacuum-graphic-tee": {
    "claimed": [
-    "pit bull shirt"
+    "pit bull shirt",
+    "pitbull gifts"
    ],
    "gaps_measured": [
     {
      "phrase": "pit bull shirt",
      "volume": 1900,
-     "kd": 30,
-     "competition": 4195
+     "kd": 30
     },
     {
      "phrase": "pitbull gifts",
      "volume": 320,
-     "kd": 51,
-     "competition": 12075
+     "kd": 51
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-grandpa-ask-your-grandmother-graphic-tee": {
    "claimed": [
