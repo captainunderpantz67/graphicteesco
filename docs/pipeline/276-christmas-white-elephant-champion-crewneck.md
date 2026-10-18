@@ -19,3 +19,4 @@ kd: 60
 ---
 ## Log
 - 2026-10-16 23:24 UTC director: brief written, READY (lane A holiday/cold-weather, director run 11).
+- 2026-10-18 01:12 UTC builder [A]: BUILDING: twin of #275, same print file 1088606513 (R6.2 check: real-font slab capitals, no ring/arch/panel, white counters knocked out), FW 1650. NEW Shopify DRAFT gid 15364357685552 (White/Sand/Sport Grey/Navy x S-3XL = 24, $34.99 no compare-at, tags christmas-sweatshirts + christmas-sweatshirts-for-men + sweatshirt + christmas, FAQs 5 x 46-53 words incl. Dec 8). Mockups + back attached and linked. Cover reg #456 (generated look logged), seedream 1 attempt, sheet made. Sync 482651517 queued. Resume: `FW=1650 python3 scripts/pf-sync.py setfile 482651517 1088606513 1080398177`; when 24/24 set REVIEW.
