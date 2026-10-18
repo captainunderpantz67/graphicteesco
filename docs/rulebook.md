@@ -116,7 +116,7 @@ Sections are numbered so role cards and review notes can point at them ("fails R
 
 ## R5. Art QC v3: rigid, every design
 1. **The floor:** batch 1 (approved 2026-10-13, docs/reference/batch-1/) is the minimum. Compare every new design side by side with 2–3 sheets from docs/reference/best/ (or batch-1). If it's weaker in polish, coverage, legibility or vintage finish, redo it. A design that beats the floor gets added to docs/reference/best/, and the bar rises.
-2. **Popularity evidence before art:** a measured keyword AND proof people buy the theme (RankHero top-listing favorites/views, the Etsy style study, docs/market-research.md). Record the evidence per design.
+2. **Popularity evidence before art:** a measured keyword AND proof people buy the theme (RankHero top-listing favorites/views, the Etsy style study, docs/market-research.md). Record the evidence per design. **Favorites, not views (director, 2026-10-18):** RankHero listing stats come as [favorites, views]; quote the first number. At least one older brief (#510, 30,494 "favorites") quoted views, so a proof number over about 5,000 gets re-checked before it counts toward the 500+ favorites gate.
 3. **Pass all eight:**
    1. Looks like it belongs on Etsy's page 1 for the niche.
    2. Fills the chest print area (Style B excepted, but still chest-sized).

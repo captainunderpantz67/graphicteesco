@@ -1,0 +1,24 @@
+status: READY
+lane: C
+type: twin
+id: 565
+handle: mens-welder-if-you-can-step-over-it-hoodie
+kd: 16
+---
+## Men's Welder – If You Can Step Over It, I Can Fill It Hoodie
+- **Twin of:** #529 mens-welder-if-you-can-step-over-it-graphic-tee (LIVE 2026-10-18). Reuse the tee's final light-ink print (Printful file 1088633791: a 1950s welder in a leather apron and orange gloves, hood tipped up, arms crossed beside two blue steel I-beams with a glowing orange bead filling the gap, a welding cart behind him; IF YOU CAN / STEP OVER IT, in cream condensed capitals above and I CAN FILL IT. in orange slab capitals below, all set in real fonts). No new art. R6.2 check done by the director on the #529 sheet: real-font lines, no badge, ring, frame or scene card; the welder and beams are the shape. Builder re-checks every closed counter (O, A, P, R) on the darkest color before linking (R5.3.8).
+- **Blank:** Pullover hoodie Gildan 18500 (Printful #146), 8 oz 50/50 fleece, handle ends -hoodie. Copy facts from the Printful spec only (R7.1). Own width (R5.3.8): FW 1500 or wider, never the tee's FW 1600 copied blindly and never under 1500. The print is tall (two lines on top, one below); if I CAN FILL IT. touches the pouch seam at FW 1500, tighten the gap between the welder's boots and the bottom line in compose-print, never shrink the print (R5.3.2).
+- **Colors (R7.2):** cream lettering needs dark fleece: Navy + Dark Heather (the 18500's nearest dark pair; Sand would sink the cream lines). Read I CAN FILL IT. on the Dark Heather mockup at about 400 px wide before REVIEW. A Printful mockup for every color before REVIEW.
+- **Hook:** the welder deadpan beside a gap you could drive a truck through, already filled: IF YOU CAN STEP OVER IT, I CAN FILL IT. The fitter-versus-welder joke every shop knows. Men's, dry with a little bite (R3.4); twins carry the original line (R3.9).
+- **Why it's not taken:** our own art; Etsy welder hoodies lead with flags, 'HoodLife' and 'Silently Judging Your Welds'; the fitter-gap line did not show in the RankHero top listings for welder shirt, welder hoodie or welder gift (checked for #529).
+- **Primary keyword:** gifts for welders: 1,900 / KD 16 (RankHero 2026-10-18, director, scripts/keyword-gap.py measurement). KD 20-or-under band with clear buyer intent (R2.5): people shopping a present for a welder, which is who buys this joke. Unowned in docs/product-keyword-map.json and every open brief (checked this run); recorded there with this handle. Not 'welder hoodie' (1,900 / 19, owned by #325 Stack Dimes heavyweight hoodie) or its twin 'welding hoodie' (1,900 / 16, the same search, left unclaimed rather than stacked); 'welding gifts' (1,900 / 16) is the same search as the primary and is not used as a second claim. Harder: welder gifts 1,900 / 31. Supporting: none (welder shirt sits on #529).
+- **Popularity evidence (R5.2):** #529's gate proof (welder shirt 9,900 / KD 24; 'Silently Judging Your Welds' 318 favorites in the same deadpan-trade format); #529 went LIVE on this art (audit PASS, director sheet 2026-10-18); welder-shirts collection is live.
+- **Copy:** line one: the joke + who wears it + when (R9.11: the shop, the truck, cold mornings on site, a Christmas or birthday gift for the welder in the family). Describe only what is in the art (R8.3: welder, apron, orange gloves, tipped-up hood, I-beams, glowing bead, cart). Never say we drew it ("Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, warmth and weight from the Printful spec, wash care, sizing, gift fit for a welder, Christmas order-by about December 8, free size exchange). Primary keyword once in the first sentence and once in the meta; no stuffing (R8.2–R8.3).
+- **Cover:** registry #905 (Tongan-American man, mid-40s, salt-and-pepper curly hair cropped short, full dark beard, heavy broad build), CLAIMED. Alt starts 'Man'. Scene: a fabrication shop on a cold morning, steel racks and a welding cart behind him, a welding helmet resting on the bench beside him (never in hand, never over the print). Hands empty, in the pouch or at his sides; hood visible behind the neck (R6.8). Generate with the product's own Navy mockup as `--design` (R6.9, --n 1), then read every word of the print against the art; composite the print from the mockup if any letter drifts (R6.9 Doe-Eyed method).
+- **Title / handle:** "Men's Welder – If You Can Step Over It, I Can Fill It Hoodie" / `mens-welder-if-you-can-step-over-it-hoodie` (R7.4; the suffix sets the audit price).
+- **Tags:** graphic-hoodies-for-men, hoodie, ai-art, intake-done (R7.5). No tee or sweatshirt collection tags (welder-shirts is a tee page).
+- **Price:** pullover $39.99, NO compare-at (R12.1).
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d).
+---
+## Log
+- 2026-10-18 03:25 UTC director: brief written, READY (hoodie twin of LIVE #529; keyword measured this run).
