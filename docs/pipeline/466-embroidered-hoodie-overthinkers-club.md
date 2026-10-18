@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: E
 type: new
 id: 466
@@ -32,3 +32,4 @@ kd: 30
 - 2026-10-17 16:35 UTC builder [B]: ART-NEXT (fal empty, gate pending): full Shopify DRAFT gid://shopify/Product/15363853844784 (Sand + Navy x S-3XL = 12, Gildan 18500 embroidered, $44.99 no compare-at, category hoodies, tags per brief + hub tags, keyword anxiety hoodie, SEO within limits, FAQs 6 x 40-60 words, order-by Dec 8). Copy from the brief's art description: re-check against the real art. No Printful sync, no images, no cover. Never publish.
 - 2026-10-17 20:25 UTC Claude: READY (Sam: build everything planned). Shopify DRAFT exists: art, sync, mockups, cover, review. Words in real fonts via scripts/compose-print.py, AI draws the picture only, big on the chest (R4.8). Lane E.
 - 2026-10-18 01:20 UTC builder [E]: REVIEW. Art: arched OVERTHINKERS CLUB + EST. 3 A.M. set in Graduate (real font, PIL arch) around a Recraft moon+stars (1 call, pinholes in stars filled); emb-prep 4.00 x 2.47 in, strokes 1.59 mm, thread #A67843 old gold (reads on Sand and Navy mockups). Printful file 1088590042, sync 482519619 12/12 (back logo kept), mockups Sand + Navy front, back. Copy re-checked against the art, unchanged. Cover registry #668/#669: attempt 1 garbled print and no hood on the woman; attempt 2 (mockup as --design, both hoods named) fixed hoods, print garbled, so composited the exact embroidery onto both chests (R6.9); both in hoodies with hoods visible, nothing over the print. Variant-photo audit clean; audit --handle only 'not visible'. fal ~$0.2.
+- 2026-10-18 00:29 UTC director: LIVE. Old-gold thread reads on Sand and Navy, embroidery shown at true scale on the cover, both people in hoodies. Keyword map entry moved under products (it sat at the top level, so the audit could not see it). ACTIVE + Online Store/Headless/Google & YouTube, audit PASS 0 warn.

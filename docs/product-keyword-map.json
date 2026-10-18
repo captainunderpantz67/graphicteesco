@@ -7449,6 +7449,19 @@
     }
    ],
    "measured": "2026-10-18"
+  },
+  "unisex-embroidered-overthinkers-club-hoodie": {
+   "claimed": [
+    "anxiety hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "anxiety hoodie",
+     "volume": 8100,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-17"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
@@ -7481,19 +7494,6 @@
    }
   ],
   "measured": "2026-10-16"
- },
- "unisex-embroidered-overthinkers-club-hoodie": {
-  "claimed": [
-   "anxiety hoodie"
-  ],
-  "gaps_measured": [
-   {
-    "phrase": "anxiety hoodie",
-    "volume": 8100,
-    "kd": 30
-   }
-  ],
-  "measured": "2026-10-17"
  },
  "womens-embroidered-thriving-technically-frog-hoodie": {
   "claimed": [
