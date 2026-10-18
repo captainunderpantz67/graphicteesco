@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-18 05:56
+status: LIVE
 shopify: gid://shopify/Product/15364779704624
 lane: C
 type: twin
@@ -25,3 +25,5 @@ kd: 17
 - 2026-10-18 03:40 UTC director: brief written, READY (hoodie twin of LIVE #521; keyword measured this run).
 - 2026-10-18 04:08 UTC builder [C]: claim released, nothing built. This container lacks scripts/compose-print.py and ragged-edge.py (brief needs them to tighten the 1.51-ratio print above the pouch seam at FW 1500); node_modules/astro build also broken here. Back to READY for a session with the full toolchain.
 - 2026-10-18 06:02 UTC builder [C]: built from #521's print (Printful file 1088623864). R6.2 check: real-font lines, no ring/arch/badge/card. Ratio 1.51 could not sit above the pouch at FW 1500 by gap-tightening alone, so I re-laid it per R5.3.2 (move the text beside the subject): cut the old text, set MIMI (Lobster, red, cream keyline, 1560 px) and SAYS YES. (Oswald 700 navy, 1500 px) in the empty upper-left beside the sundae; art width unchanged, nothing shrunk, 2592x2752 = 1593 px high at FW 1500. Text is 60% of the art width (brief said 85%/70%; the void only holds that). New Printful file 1088722676 (docs/print-files/562-mimi-says-yes-hoodie.png). FW 1500 TOP 0: print ends well above the pouch on Sand + Light Pink; MIMI and SAYS YES. read at phone size on both. DRAFT gid 15364779704624 (12 variants, $39.99, no compare-at, category hoodies, 4 tags). FAQs 5 x 40-60 words, order-by Dec 8. Keywords gifts for mimi 1,600/17 + mimi hoodie 90/45 in the map. Mockups Sand + Light Pink + back attached, variants linked. Cover: 1 fal image (registry #902, hood visible, hands in pouch, print faithful, every word reads); painted out a child's partial face at the right edge. audit-local PASS 0 warn. Printful sync 482694107 running (setfile, FW 1500 TOP 0); REVIEW once 12/12.
+- 2026-10-18 06:10 UTC builder [C]: Printful relink verified 12/12 on file 1088722676; REVIEW.
+- 2026-10-18 06:14 UTC director: LIVE. Sheet reviewed (R3/R4/R5/R6/R8/R13.3 pass), ACTIVE + published to Online Store, My Store Headless, Google & YouTube; cohesion-audit --handle PASS 0 warn.

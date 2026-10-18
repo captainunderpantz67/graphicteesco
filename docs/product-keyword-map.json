@@ -7689,8 +7689,7 @@
      "kd": 34
     }
    ],
-   "measured": "2026-10-18",
-   "note": "director: brief"
+   "measured": "2026-10-16"
   },
   "womens-bookish-do-not-sell-my-books-hoodie": {
    "claimed": [
@@ -7960,23 +7959,22 @@
   },
   "womens-cat-not-my-turn-with-the-brain-cell-zip-hoodie": {
    "claimed": [
-    "cat zip up hoodie"
+    "cat zip up hoodie",
+    "kitten hoodie"
    ],
    "gaps_measured": [
     {
      "phrase": "cat zip up hoodie",
      "volume": 390,
-     "kd": 31,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 31
     },
     {
      "phrase": "kitten hoodie",
      "volume": 320,
-     "kd": 32,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 32
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-bear-if-its-brown-lie-down-crewneck-sweatshirt": {
    "claimed": [
@@ -8320,11 +8318,10 @@
     {
      "phrase": "gifts for welders",
      "volume": 1900,
-     "kd": 16,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 16
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-fishing-you-catching-em-heavyweight-hoodie": {
    "claimed": [
@@ -8334,11 +8331,10 @@
     {
      "phrase": "gifts for fishermen",
      "volume": 9900,
-     "kd": 30,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 30
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-christmas-bulking-season-oversized-hoodie": {
    "claimed": [
@@ -8348,11 +8344,10 @@
     {
      "phrase": "gym christmas",
      "volume": 720,
-     "kd": 27,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 27
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-crochet-no-i-wont-make-you-one-hoodie": {
    "claimed": [

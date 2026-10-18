@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: E
 type: new
 id: 486
@@ -35,3 +35,4 @@ kd: 58
   2. Then re-sync the embroidery file, make new Sand + Light Pink front mockups, and composite the new stitch onto the cover (R6.9, no fal). Check the cover shows the stitch at true scale (R4.8). The goose, the line and the cover person all pass.
 - 2026-10-18 05:25 UTC builder [E]: REDO fixed (sync running). R4.8 lettering: re-laid on 3 lines ('Do Not Disturb,' / 'Plot Twist' / 'Pending') in Alfa Slab One (uniform strokes; the Playfair hairlines would not hold 1.5 mm) with the goose shrunk to 592 px wide (49% of the chest width, 751 px tall). Measured: x-height 79 px = 0.263 in (min 0.25), capitals 111 px = 0.37 in (min 0.3), goose stroke 1.66 mm, text p10 stroke 24 px, file 4.0 x 3.95 in, flat navy #333366. Printful file 1088710977; embroidery re-sync of 12 variants queued behind the 386 sync (shared 10/min limit). New embroidery mockups for Sand and Light Pink, front images replaced and re-linked, back kept. Cover: new stitch composited onto the chest (R6.9, no fal) at true scale: 58 px wide on a cover where the old one was 78 (R4.8 oversold it). Hair clear. Review sheet redone; fal $0.
 - 2026-10-18 05:49 UTC builder [E]: re-sync 12/12 confirmed on file 1088710977. REVIEW.
+- 2026-10-18 06:14 UTC director: LIVE. Sheet reviewed (R3/R4/R5/R6/R8/R13.3 pass), ACTIVE + published to Online Store, My Store Headless, Google & YouTube; cohesion-audit --handle PASS 0 warn. Copy fix: lettering now described as three lines of slab lettering (was two lines, serif).

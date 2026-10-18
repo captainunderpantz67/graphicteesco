@@ -24,7 +24,9 @@ GAP = spec.get('gap', 60)
 
 def font(l, size):
     f = ImageFont.truetype(str(FONTS / l['font']), size)
-    if l.get('wght'):
+    if l.get('axes'):  # full variable-font axes list in the font's own axis order (e.g. Fraunces: opsz, wght, SOFT, WONK)
+        f.set_variation_by_axes(l['axes'])
+    elif l.get('wght'):
         try:
             f.set_variation_by_axes([l['wght']])
         except Exception:
