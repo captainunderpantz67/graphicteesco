@@ -738,7 +738,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 943 | Puerto Rican woman, early 60s, short silver curls, red lipstick, gold hoops | USED 2026-10-18 — #607 Kitchen Gossip Club Hoodie cover |
 | 944 | Indian-American woman, early 50s, long black hair with grey streaks in a low bun, small gold studs | USED 2026-10-18 — #608 Polite Until the Third Shot Tee cover (seedream attempt 1, low ponytail behind the shoulder, print clear) |
 | 945 | man AND woman together: Black man, mid 60s, trimmed white beard, round glasses; white woman, early 60s, blonde bob tied back | USED 2026-10-18 — #609 My Partner Says It Was Out tee cover (seedream attempt 2; attempt 1 had white bars) |
-| 946 | Italian-American woman, early 60s, curly salt-and-pepper hair tied back, red-frame glasses | CLAIMED 2026-10-18 — #610 Booked Solid Crewneck Sweatshirt cover (brief) |
+| 946 | Italian-American woman, early 60s, curly salt-and-pepper hair tied back, red-frame glasses | USED 2026-10-18 — #610 Booked Solid crewneck cover (seedream attempt 1, ponytail behind shoulder, print clear) |
 | 947 | Iranian-American woman, late 30s, long dark hair in a low ponytail, gold hoops | CLAIMED 2026-10-18 — #611 Tennis Club (Mostly Social) Crewneck Sweatshirt cover (brief) |
 | 948 | Mexican-American man, late 30s, short black hair, trimmed goatee, lean runner build | CLAIMED 2026-10-18 — #612 I Only Run Downhill Tee cover (brief) |
 | 949 | white man, mid 40s, red hair and full red beard, broad build | CLAIMED 2026-10-18 — #613 League Night Is Not Optional Tee cover (brief) |
