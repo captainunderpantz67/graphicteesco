@@ -613,6 +613,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-christmas-we-said-no-gifts-graphic-tee': { src: '/covers/unisex-christmas-we-said-no-gifts-graphic-tee.webp', alt: 'Man and woman in matching white We Said No Gifts Christmas tees with a 1960s couple hiding wrapped presents behind their backs, smiling in a living room beside a lit Christmas tree' },
   'mens-lineman-bad-weather-is-my-overtime-graphic-tee': { src: '/covers/mens-lineman-bad-weather-is-my-overtime-graphic-tee.webp', alt: 'Man in a black Bad Weather Is My Overtime lineman tee standing beside a utility bucket truck on a wet rural road after a storm with a hard hat on the truck step' },
   'mens-christmas-moms-favorite-graphic-tee': { src: '/covers/mens-christmas-moms-favorite-graphic-tee.webp', alt: 'Man in a white Mom\'s Favorite Christmas tee with two knit stockings on a brick mantel, one stuffed and one limp, standing in a living room on Christmas morning in front of a decorated fireplace' },
+  'womens-lineman-line-wife-plans-tentative-crewneck-sweatshirt': { src: '/covers/womens-lineman-line-wife-plans-tentative-crewneck-sweatshirt.webp', alt: 'Woman in a sand Line Wife Plans Tentative crewneck sweatshirt standing in a cozy farmhouse kitchen on a rainy evening with a covered plate, a candle and a coffee mug on the table' },
 };
 
 // Pasted-print covers retired by R6.10 (Sam 2026-10-18): these fall back to the clean Printful mockup until a
