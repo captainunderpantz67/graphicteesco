@@ -1,9 +1,10 @@
-status: READY
+status: BUILDING [B] 2026-10-18 04:13Z
 lane: B
 type: new
 id: 573
 handle: womens-fishing-out-fished-him-again-graphic-tee
 kd: 20
+shopify: gid://shopify/Product/15364655022384
 ---
 ## Women's Fishing – Out-Fished Him. Again. Tee
 - **Blank:** Bella+Canvas 6400 women's relaxed tee (R7.1), lightweight 4.2 oz, 100% combed ring-spun cotton (heathers contain polyester). Never "midweight". Copy facts from the Printful spec only.
@@ -27,3 +28,4 @@ kd: 20
 ---
 ## Log
 - 2026-10-18 03:23 UTC director: brief written, READY (lane B funny-fishing; first women's funny fishing tee; KD 20 phrase, 738-favorite cranky-fishing proof).
+- 2026-10-18 04:18 UTC builder [B]: WIP: DRAFT gid://shopify/Product/15364655022384 (6400 #360, White/Natural/Heather Stone/Athletic Heather/Pink/Heather Mauve x S-3XL = 36, $24.99 no compare-at), art (try 2 of 3: wide dock scene, real largemouth bass; try 1 was too tall for the 6400's 10x12 in area), compose-print lettering, mockups, cover (registry 913, try 1) and review sheet done; print 3435x4085 at FW 1440 TOP 75 (area 1500x1800: whole print inside it, FW below the 1500 floor because the three-part print must fit 12 in tall). Printful sync queued behind lane syncs; status goes to REVIEW at 36/36.
