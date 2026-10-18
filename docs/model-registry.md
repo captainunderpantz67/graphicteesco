@@ -437,7 +437,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 544 | White woman, early 30s, red hair in a messy bun, freckles | RESERVED — #353 Plot Twist Hoodie cover |
 | 545 | Man AND woman together: white man, mid 40s, sandy beard, ball cap; Native American woman, early 40s, long black braid | USED — #354 Lake Life Zip Hoodie cover |
 | 546 | Black man, early 30s, shaved head, athletic build | RESERVED — #355 Leg Day Survivor Heavyweight Hoodie cover |
-| 547 | Mexican-American woman, early 30s, long dark braid, small silver concho earrings | RESERVED — #356 Saturday Night Rodeo Hoodie cover |
+| 547 | Mexican-American woman, early 30s, long dark braid, small silver concho earrings | USED 2026-10-18 — #356 Saturday Night Rodeo Hoodie cover |
 | 548 | White woman, early 20s, curly strawberry-blonde hair, freckles, small gold hoops | USED 2026-10-16 — #357 Wildly Low Maintenance cropped hoodie cover |
 | 549 | Black woman, mid 20s, long box braids in a high ponytail, athletic build | USED 2026-10-17 — #358 I Yell Free Ball volleyball hoodie cover (try 1, image 1 of 1) |
 | 550 | Man AND woman together: Vietnamese-American man, late 20s, bleached buzz cut; white woman, mid 20s, black curtain bangs, silver hoops | USED 2026-10-16 — #359 Visiting Not Impressed oversized hoodie cover (seedream, 2 attempts) |
@@ -638,6 +638,6 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 841 | Korean-American woman, late 40s, shoulder-length layered black hair, small pearl studs, slim build | USED 2026-10-18 — #511 Sorry About Your Windshield Crewneck Sweatshirt cover (brief) (pair 841-842) |
 | 842 | Black man, late 40s, shaved head, trimmed salt-and-pepper beard, broad build | USED 2026-10-18 — #511 Sorry About Your Windshield Crewneck Sweatshirt cover (brief) (pair 841-842) |
 | 843 | Filipino-American woman, mid-30s, shoulder-length black hair tucked behind her ears, small gold hoops, medium build | USED 2026-10-18 — #512 I Brought You a Sock Crewneck Sweatshirt cover (brief) |
-| 844 | white woman, late 20s, red hair in a high bun, light freckles, slim build | CLAIMED 2026-10-17 — #513 Currently Burrowed Crewneck Sweatshirt cover (brief) |
+| 844 | white woman, late 20s, red hair in a high bun, light freckles, slim build | USED 2026-10-18 — #513 Currently Burrowed Crewneck Sweatshirt cover (brief) |
 | 845 | Puerto Rican man, early 30s, short black fade, light stubble, athletic build | CLAIMED 2026-10-17 — #514 Velvet Hippo Social Club Crewneck Sweatshirt cover (brief) (pair 845-846) |
 | 846 | Black woman, early 30s, shoulder-length box braids tied back, small silver hoops, medium build | CLAIMED 2026-10-17 — #514 Velvet Hippo Social Club Crewneck Sweatshirt cover (brief) (pair 845-846) |
