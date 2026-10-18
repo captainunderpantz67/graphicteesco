@@ -8437,6 +8437,80 @@
     }
    ],
    "measured": "2026-10-18"
+  },
+  "unisex-dachshund-banned-from-stairs-graphic-tee": {
+   "claimed": [
+    "dachshund apparel"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dachshund apparel",
+     "volume": 12100,
+     "kd": 26,
+     "competition": 4731
+    },
+    {
+     "phrase": "wiener dog shirt",
+     "volume": 590,
+     "kd": 48,
+     "competition": 14910
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-cat-making-biscuits-hoodie": {
+   "claimed": [
+    "cat apparel"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cat apparel",
+     "volume": 2400,
+     "kd": 35,
+     "competition": 11567
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "unisex-pitbull-scary-dog-afraid-of-the-vacuum-graphic-tee": {
+   "claimed": [
+    "pit bull shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pit bull shirt",
+     "volume": 1900,
+     "kd": 30,
+     "competition": 4195
+    },
+    {
+     "phrase": "pitbull gifts",
+     "volume": 320,
+     "kd": 51,
+     "competition": 12075
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-grandpa-ask-your-grandmother-graphic-tee": {
+   "claimed": [
+    "funny grandpa shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny grandpa shirt",
+     "volume": 1300,
+     "kd": 50,
+     "competition": 40723
+    },
+    {
+     "phrase": "papa shirt",
+     "volume": 2900,
+     "kd": 52,
+     "competition": 85011
+    }
+   ],
+   "measured": "2026-10-18"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
