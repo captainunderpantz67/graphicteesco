@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-18 16:55
+status: ART-NEXT
 lane: A
 type: new
 id: 634
@@ -29,3 +29,4 @@ kd: 10
 ## Log
 - 2026-10-18 07:44 UTC director: brief written, READY (lane A unisex Christmas tee, man and woman cover; kd 10, KD ≤ 20 gift-intent band; christmas gifts for couples 22,200 with a Dec 135,000 surge; proof: funny matching couples Christmas tee 604 favorites; crewneck twin not briefed now).
 - 2026-10-18 14:06 UTC Claude: KEYWORD FIX before build (R2.10). The primary is a gift-guide search ("christmas gifts for ..."): huge volume, single-digit KD and no competition count on RankHero, the same false signal as "park sweatshirt". People searching it want idea lists, not one shirt. Builder: re-target the primary to a real shirt phrase with a competition count (try e.g. "funny christmas shirt", "secret santa gift", "matching christmas shirts", "christmas shirt for brother" and pick the best measured one, not claimed in docs/product-keyword-map.json). The gift phrase may appear once in copy as a secondary. Then build as normal.
+- 2026-10-18 16:57 UTC builder [A]: primary kept 'couples christmas shirt' (1,900 / KD 50, 50,683 listings; measured with competition, already claimed by this handle); 'christmas gifts for couples' once as secondary. Art try 1 ($0.04). Print file 1088976637 (3139x3985), FW 1650 TOP 75. DRAFT gid 15365755863344 (6 light colors x 7 = 42, $24.99, no compare-at). Dark-ink file only (light colors only); no cream fills. Sync 482800149 started. Cover pending: man AND woman side by side, registry #974.
