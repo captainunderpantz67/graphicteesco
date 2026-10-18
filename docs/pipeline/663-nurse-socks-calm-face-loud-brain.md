@@ -1,8 +1,9 @@
-status: BUILDING [B] 2026-10-18 22:54 UTC
+status: REVIEW
 lane: B
 type: addon
 id: 663
 handle: unisex-nurse-calm-face-loud-brain-socks
+shopify: gid://shopify/Product/15365986746672
 kd: 22
 ---
 ## Unisex Nurse – Calm Face, Loud Brain Socks
@@ -26,3 +27,5 @@ kd: 22
 ## Log
 - 2026-10-18 director: brief written, READY (gift add-on, socks first; source design A grade).
 - 2026-10-18 director: Sam put funny boxers first, so build the boxer briefs #666–#669 before this one.
+- 2026-10-18 [B]: built. DRAFT gid 15365986746672, Printful #882 sync 482876994 (3/3 S/M/L) on file 1089182002 (scripts/sock-print.py, spec designs/s663/spec.json): heart-rate-to-scribble band from Printful file 1088550199 on cream, Anton lockup CALM FACE. above, LOUD BRAIN. below (black / red), foot repeat. Cost 7.14, $18.99. Keyword nurse socks 2,400/KD 22 (brief), recorded. FAQ 44-58 words; copy avoids 'compression' (R7.1) and 'badge'. Cover: Printful flat sock mockup. Exchange FAQ quotes store policy. fal 0.
+- 2026-10-18 22:55 UTC [B] REVIEW #663 boxer briefs (unisex-nurse-calm-face-loud-brain-socks); sheet docs/review/663.jpg
