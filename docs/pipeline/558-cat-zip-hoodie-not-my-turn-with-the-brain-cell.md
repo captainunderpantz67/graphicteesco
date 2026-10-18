@@ -3,6 +3,7 @@ lane: E
 type: new
 id: 558
 handle: womens-cat-not-my-turn-with-the-brain-cell-zip-hoodie
+shopify: gid://shopify/Product/15364789567792
 kd: 31
 ---
 ## Women's Cat – Not My Turn With the Brain Cell Zip Hoodie
@@ -27,3 +28,4 @@ kd: 31
 ---
 ## Log
 - 2026-10-18 03:10 UTC director: brief written, READY (lane E; wave-1 cat, KD 31 zip-up phrase, 2,470-favorite funny cat hoodie proof).
+- 2026-10-18 06:13 UTC builder [E]: built (sync queued behind the other lane E syncs). Art: 3 Recraft calls ($0.12 total): try 1 ran off the right edge (cropped grey cat, straight cut); try 2 (everything inside the frame, white margin) kept: orange tabby belly-up on a worn fringed rug, pink walking brain, small grey cat. Back: NOT MY TURN (Fraunces 900 SOFT 50 opsz 72, scripts/compose-print.py now takes "axes" for variable fonts) orange #d0672c with a navy keyline above, with the brain cell. (Damion) pink #e98aa6 with a navy keyline below, 12 px cream keyline around the art; one file reads on Ash and Navy (checked both). Back print 3411 x 3208 px at BW 1650 BT 225 (1552 px tall of 2400; never under FW 1500); chest copy = the cat's face only, 1200 x 717 px file at CW 525 on the left chest, nothing across the zipper (pf-zip.py). Colors Ash + Navy x S-3XL = 12; Printful file 1088727475 (back) + 1088727479 (chest), sync product 482696222; Ash and Navy front + back mockups attached and linked (both backs, since the back is the design). DRAFT gid 15364789567792 (category aa-1-13-13, $44.99 no compare-at, tags incl. graphic-hoodies-for-women, 5 FAQs 46-51 words incl. Dec 8, keyword cat zip up hoodie 390/KD31 in line one and meta). Cover registry 898: attempt 1 (back view over the shoulder, hood visible, bun clear, hands at sides) had a zipper running down the back of the hood (R6.8 back seam), so the zipper was painted out; attempt 2 lost the hood altogether (crewneck look) and was dropped. All three lines read on the cover. Audit-local PASS; variant-photo audit clean. fal ~$0.2.
