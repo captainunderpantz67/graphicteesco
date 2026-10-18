@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [E] 2026-10-18 16:10
 lane: E
 type: new
 id: 613
