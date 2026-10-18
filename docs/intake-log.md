@@ -1,3 +1,4 @@
+RUNNING helper since 2026-10-18 19:44 UTC
 2026-10-18 19:31 UTC — [A] Builder run: quality-reset sample 4 of 5 (#275 White Elephant Champion tee) NOT built: the sandbox's auto-mode classifier denied the Printful lookup (pf-find.py, uses PRINTFUL_TOKEN) as credential use, so no Printful upload/sync was possible. Claim released, #275 back to REDO. Lock released.
 2026-10-18 19:15 UTC — [D] Director run (quality reset still PAUSED, step 1 only): no designs went LIVE since the 17:23 grading, so nothing new to grade. Published nothing, reviewed no REVIEW items (samples #577, #624, #245 are 3 of 5 at REVIEW for Sam), wrote no briefs, sent no Telegram. Lock not held.
 2026-10-18 19:15 UTC — [A] Builder run: quality-reset sample REDO #245 Nana's Cookies tee -> THE RECIPE / DIES WITH ME. (new font Bevan, full width, same cookie art), Printful lifestyle cover, 36/36 relinked, REVIEW (stays ACTIVE). Sample 3 of 5; next: 2 more from the C list. Lock released.
