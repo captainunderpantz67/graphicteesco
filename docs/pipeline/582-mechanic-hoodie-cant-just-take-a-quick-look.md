@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: A
 type: twin
 id: 582
@@ -27,3 +27,5 @@ kd: 32
 ---
 ## Log
 - 2026-10-18 04:27 UTC director: brief written, READY (lane A; KD ≤ 20 band empty in the sweep, so KD 21–35 buyer phrases, measured this run; proof seller named under the gate).
+- 2026-10-18 17:31 UTC builder [A]: twin of #581 (LIVE). R6.2 check on source print 1088748763: headline lines are real fonts (condensed sans NO, I CAN'T JUST; Alfa Slab red TAKE A QUICK LOOK.) set by the brief; no ring/disc/box/panel (figures and tool chest have worn halo edges); no extra typeset tagline. Light file (R5.3.8): Sand uses file 1088995032, NO, I CAN'T JUST in solid navy #1b2a4a fill with the dark keyline removed (open counters); Navy keeps the cream-fill file 1088748763. Primary 'mechanic hoodie' (320 / KD 32). FW 1500 TOP 40 (mockup test: print clears the pouch seam). DRAFT gid 15365758157104 (Sand + Navy x S-3XL = 12, $39.99, no compare-at, category hoodies). Sync 482805681 started (Sand then Navy). Cover pending (registry #922).
+- 2026-10-18 17:33 UTC builder [A]: REVIEW. Sync 482805681 verified 12/12: Sand 6/6 on light file 1088995032, Navy 6/6 on 1088748763, back logo 1080398177 on all (FW 1500 TOP 40). Light file: Sand on file 1088995032, headline fill navy (no dark keyline, counters open) - logged per 7e. FAQs 5 at 48-52 words, order-by Dec 8. Primary 'mechanic hoodie' 1x copy + SEO title + meta. Ink in copy named from mockups (cream on Navy, navy on Sand, red). Phone-size read of Sand and Navy mockups OK. Cover: man, hood visible, hands in pouch below print, all words clear at 200%, no composite, registry #922 USED, fal $0.06. design-crops/variant-photo-audit run after publish.
