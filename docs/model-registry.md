@@ -669,7 +669,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 874 | Vietnamese-American woman, late 30s, sleek black chin-length bob, small pearl studs, slim build | USED 2026-10-18 — #534 Bun Tight, Wallet Empty tee cover |
 | 875 | white woman, early 40s, strawberry-blonde ponytail through a ball cap, light freckles, athletic build | USED 2026-10-18 — #535 Travel Ball Took My Saturdays tee cover |
 | 876 | Black woman, mid-40s, shoulder-length locs tied back, small gold studs, medium build | USED 2026-10-18 — #536 7 A.M. Check-In Tee cover (brief) |
-| 877 | Korean-American woman, mid 20s, long black hair in a high ponytail, athletic build | CLAIMED 2026-10-18 — #537 Lifts Heavy, Has Whimsy Pump Cover cover (brief) |
+| 877 | Korean-American woman, mid 20s, long black hair in a high ponytail, athletic build | USED 2026-10-18 — #537 Lifts Heavy Has Whimsy pump cover cover (seedream attempt 2: hair in a low bun, hands at her sides, print clear; attempt 1 had the ponytail over VY) |
 | 878 | Lebanese-American woman, early 30s, long dark-brown wavy hair tied back, small gold nose stud, medium build | USED 2026-10-18 — #538 Motherhood Exposed Me tee cover (seedream attempt 1, hair in a bun, hands at sides, print clear) |
 | 879 | Mexican-American man, mid 30s, short black fade, full black beard, tattooed forearms, stocky build | USED 2026-10-18 — #539 Stacks Dimes tee cover (seedream attempt 1, hands empty, print clear) |
 | 890 | Portuguese-American man, late 40s, short dark curly hair going grey at the temples, thick dark mustache, sun-weathered skin, stocky build | USED 2026-10-18 — #550 Fishing Is My Love Language Hoodie cover (fal Seedream, hood visible) |

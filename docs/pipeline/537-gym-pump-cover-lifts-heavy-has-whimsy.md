@@ -3,6 +3,7 @@ lane: E
 type: new
 id: 537
 handle: womens-gym-lifts-heavy-has-whimsy-pump-cover
+shopify: gid://shopify/Product/15364815225136
 kd: 44
 ---
 ## Women's Gym – Lifts Heavy, Has Whimsy Pump Cover
@@ -27,3 +28,4 @@ kd: 44
 ---
 ## Log
 - 2026-10-18 01:30 UTC director: brief written, READY (lane E; women's pump cover, verified GymTok line).
+- 2026-10-18 06:43 UTC builder [E]: built (sync queued behind the other lane E syncs). Art: 1 Recraft call ($0.04, try 1 kept: 1950s storybook girl in a hair bow, striped tee and pink sneakers deadlifting a loaded barbell, daisies, butterfly and a tiny crowned frog; the beige floor patch ends in worn edges). LIFTS HEAVY. Alfa Slab One cream with a dark-plum keyline above, has whimsy. Damion pink #f08aa8 with a cream keyline below, set in compose-print; 14 px cream keyline around the art so the dark linework reads on washed black. Print 3267 x 4051 px scaled to 1800 px (12 in) wide on the 5250 x 6750 front panel, top at y 2000 (a first try at y 1184 put LIFTS HEAVY. over the neck on the mockup, fixed before upload). Panels in the Uphill pump cover's geometry: washed-black texture taken from its sleeve file (mirrored down to 6750 px), back = same texture plus the 3 in rust neck logo at y 1424 (the live Uphill back also has a big plate; this one is logo only), sleeves = the Uphill plain sleeve file 1083174917 for both, stitch_color black. New script scripts/pf-pump.py (sync + mockup for catalog 1482). Printful files front 1088737231, back 1088736853; sync product 482698992 (10 variants 2XS-5XL; sync queued). DRAFT gid 15364815225136 (Size only, category aa-1-13-8, $39.99 no compare-at, tags pump-cover + graphic-tees-for-women + funny-graphic-tees, 5 FAQs 45-52 words incl. Dec 8, keyword pump cover women 720/KD44 in line one and meta, title carries Pump Cover). Front + back mockups attached, front linked to every size. Cover registry 877: attempt 1 had the ponytail over VY. (a composite left a dark patch, dropped); attempt 2 (low bun at the nape, arms at her sides) kept: nothing over the print, both lines read. Audit-local PASS. fal ~$0.2.
