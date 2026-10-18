@@ -472,6 +472,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-football-mom-down-set-snacks-crewneck-sweatshirt': { src: '/covers/womens-football-mom-down-set-snacks-crewneck-sweatshirt.webp', alt: 'Woman in a Sand Down, Set, Snacks football mom crewneck sweatshirt in high school bleachers under Friday night lights' },
   'womens-golf-i-only-golf-for-the-outfits-cropped-hoodie': { src: '/covers/womens-golf-i-only-golf-for-the-outfits-cropped-hoodie.webp', alt: 'Woman smiling in a black I Only Golf for the Outfits cropped hoodie with her hair pinned up, standing on a golf course putting green beside a clubhouse patio and a golf bag on an autumn afternoon' },
   'mens-golf-retired-working-on-my-short-game-zip-hoodie': { src: '/covers/mens-golf-retired-working-on-my-short-game-zip-hoodie.webp', alt: 'Man with white hair and a mustache smiling over his shoulder in a navy Retired Working on My Short Game golf zip hoodie, hood down, beside a golf cart and a pond on a crisp fall morning' },
+  'womens-y2k-hot-mess-express-oversized-sweatshirt': { src: '/covers/womens-y2k-hot-mess-express-oversized-sweatshirt.webp', alt: 'Woman in a cream Hot Mess Express Y2K oversized sweatshirt on a busy train platform with a coffee cart' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
