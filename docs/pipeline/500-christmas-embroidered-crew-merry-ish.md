@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [A] 2026-10-18 06:25
 lane: A
 type: new
 id: 500
@@ -28,3 +28,4 @@ kd: 58
 ---
 ## Log
 - 2026-10-17 20:27 UTC director: brief written, READY (Sam's 16 proof-first concepts, inbox 2026-10-17 19:30).
+- 2026-10-18 06:25 UTC builder [A]: BUILT except the embroidery link finishing. Art: 1 Recraft call (picture only: five outline pines, two tiny stars; the model's bottom thread loops that looked like scribble writing were cropped off), "merry-ish" set in Yellowtail by compose-print (not model-drawn), emb-prep: 3.67 x 2.77 in at true scale, p10 stroke 1.56 mm, script x-height about 10 mm. Printful file 1088714495. Thread: Kelly Green #01784E on Sand, White #FFFFFF on Navy (the green would sink on Navy; same file, thread set per color with ONLY=), both from Printful's palette. DRAFT gid://shopify/Product/15364755226928 (Gildan 18000, Sand + Navy x S-3XL = 12, $39.99 = $34.99 + embroidered chest, no compare-at, category crewnecks, tags per brief, productType Sweatshirt), 'merry sweatshirt' 2,900/KD58 in map, in line one, FAQ and meta; copy says embroidered/stitched, 'about 3.7 inches wide', no production notes; FAQs 5 x 41-50 words incl. order-by Dec 8. v2 embroidery mockups Sand + Navy + back attached and linked per color. Phone-size read: stitched at true scale the trees and script are small but legible (same size class as the live embroidered items); director please judge the script. Cover registry 827, seedream 1 attempt ($0.06, Sand mockup as design): the stitch is shown at true scale, the word reads, hands in pockets, bag below. fal ~$0.10. pf-emb-sync 482690229 running (sand then navy); RESUME if it died: `ONLY=" / Sand /" python3 scripts/pf-emb-sync.py 482690229 "#01784E" 1088714495` then `ONLY=" / Navy /" python3 scripts/pf-emb-sync.py 482690229 "#FFFFFF" 1088714495`, then REVIEW at 12/12. Audit only fails 'not visible on the storefront'.

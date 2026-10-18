@@ -3,6 +3,8 @@
 RUNNING lane E since 2026-10-18 05:15 UTC
 2026-10-18 05:35 UTC — [E] REVIEW #386 Official Tree Topper tee REDO (print re-laid to fit the 6400 area so TREE TOPPER prints, mockups x5 + cover recomposited; synced 30/30; fal $0).
 2026-10-18 08:30 UTC — [C] Run summary: REDOs #525, #281, #457, #458 to REVIEW (fal $0.04). READY lane C hoodie twins untouched (550 551 553 562 563 565-572), REDO queue otherwise empty. Toolchain note: use /usr/bin/python3 (Pillow, numpy, cv2 installed there; /usr/local python3 lacks them). Lock released.
+2026-10-18 05:38 UTC — [A] [A] 500 Embroidered Merry-ish crewneck built (new art), embroidery link running 482690229; REVIEW once 12/12
+2026-10-18 05:31 UTC — [A] [A] 456 Spin Responsibly tee REDO: relink 35/35 verified, REVIEW
 2026-10-18 05:25 UTC — [B] REVIEW #543 Men's Fishing Should've Been Here Yesterday Tee (DRAFT, synced 63/63, 9 colors; fal $0.10).
 2026-10-18 05:30 UTC — [A] [A] 541 It Looked Smaller at the Farm crewneck built (twin of 540), Printful link queued 482689431; REVIEW once 12/12 synced
 2026-10-18 05:26 UTC — [A] [A] 540 It Looked Smaller at the Farm tee built (new art), Printful link queued 482689138; REVIEW once 49/49 synced; #541 twin next
