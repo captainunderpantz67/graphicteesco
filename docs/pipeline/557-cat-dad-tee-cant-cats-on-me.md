@@ -1,8 +1,9 @@
-status: READY
+status: BUILDING [E] 2026-10-18 06:23 UTC
 lane: E
 type: new
 id: 557
 handle: mens-cat-dad-cant-cats-on-me-graphic-tee
+shopify: gid://shopify/Product/15364802347312
 kd: 47
 ---
 ## Men's Cat Dad – Can't, Cat's on Me Tee
@@ -27,3 +28,4 @@ kd: 47
 ---
 ## Log
 - 2026-10-18 03:10 UTC director: brief written, READY (lane E; wave-1 cat, cat dad shirt with a Dec surge, 1,022-favorite cat-dad-tee proof).
+- 2026-10-18 06:26 UTC builder [E]: built (sync queued behind the other lane E syncs). Art: 1 Recraft call ($0.04, try 1 kept: fluffy grey tabby loafed on a red plaid blanket over a man's corduroy knees in a striped recliner, slippered feet, side table with remote and mug). CAN'T. Alfa Slab One cream with a dark-brown keyline above, CAT'S ON ME. Alfa Slab One mustard #e0a83a with a dark-brown keyline below, set in compose-print; both apostrophes survived; 12 px cream keyline around the art. Print 3267 x 3482 px (10.9 x 11.6 in), FW 1650 TOP 75. Colors Black, Navy, Dark Grey Heather, Heather Forest (cut to 4 to keep the shared Printful sync short; Military Green and Brown can be backfilled) x S-4XL = 28; the grey cat keeps its highlights on Dark Grey Heather (checked); Printful file 1088732887, sync product 482697897; mockups for all 4 colors + back attached and linked; both lines read at 400 px. DRAFT gid 15364802347312 (category aa-1-13-8, $24.99 no compare-at, 5 FAQs 45-53 words incl. Dec 8, keyword cat dad shirt 3600/KD47 in line one and meta, supporting cat dad gift not used). Cover registry 897: attempt 1 kept (seedream, hands in his pockets, tabby asleep on an armchair far from the print, every word and both apostrophes read). Audit-local PASS; variant-photo audit clean. fal ~$0.1.

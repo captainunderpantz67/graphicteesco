@@ -1,4 +1,5 @@
-status: READY
+status: REVIEW
+shopify: gid://shopify/Product/15364812013872
 lane: C
 type: twin
 id: 553
@@ -22,3 +23,5 @@ kd: 32
 ---
 ## Log
 - 2026-10-18 03:10 UTC director: brief written, READY (hoodie twin of LIVE #499; keyword measured this run).
+- 2026-10-18 06:35 UTC builder [C]: built from #499's print as is (Printful file 1088616569, 3401x4490). R6.2 check: HOLY SPIRIT real Alfa Slab, mildly spooky real Damion script, thin halo line over the ghost's head (no ring or disc behind it), no cross, no ring/arch/badge/card. Ratio 1.32 (the brief says 1.33): 1,980 px high at FW 1500, ends above the pouch on Navy and Black with the script fully visible; nothing shrunk, no re-lay. The gold script reads at phone size on both. DRAFT gid 15364812013872 (12 variants, $39.99, no compare-at, category hoodies, tags per brief). FAQs 5 x 40-60 words, order-by Dec 8. Keyword faith based hoodie 260/32 in the map (once in copy + meta; the supporting 'god hoodie' left out because it does not read naturally). Mockups Navy + Black + back attached, variants linked. Cover: 1 fal image (registry #893, man and woman, both hoods visible, hands in pouches, prints faithful, no overlap). audit-local PASS. Printful sync 482698838 running; REVIEW once 12/12.
+- 2026-10-18 06:47 UTC builder [C]: Printful relink verified 12/12 on file 1088616569; REVIEW.

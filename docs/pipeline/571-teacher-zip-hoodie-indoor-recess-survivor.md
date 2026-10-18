@@ -1,4 +1,5 @@
-status: READY
+status: REVIEW
+shopify: gid://shopify/Product/15364806410544
 lane: C
 type: twin
 id: 571
@@ -22,3 +23,5 @@ kd: 32
 ---
 ## Log
 - 2026-10-18 03:25 UTC director: brief written, READY (hoodie twin of LIVE #395; keyword measured this run).
+- 2026-10-18 06:30 UTC builder [C]: built from #395's print (Printful file 1088453127, 3099x3637). R6.2 check: both lines real Alfa Slab capitals with a dark outline, no ring/arch/badge/card; the apple and splashes are worn-edged. Back print BW 1650 BT 225 (1,936 px high, ends well inside the 2,400 area) on file 1088453127 as is; chest copy = the apple and pencil alone (rows between the two lines, 2232x2822) at CW 525 on file 1088734026, no words on the chest (docs/print-files/571-teacher-zip-chest.png). Mockups checked front and back on Ash and Navy: INDOOR RECESS reads on Ash thanks to its dark outline. DRAFT gid 15364806410544 (12 variants S-3XL, $44.99, no compare-at, category hoodies, tags per brief). Copy facts from the Printful spec (50/50, 8 oz, metal zipper, pouch pockets, unlined hood). FAQs 5 x 40-60 words, order-by Dec 8. Keyword teacher clothes 9,900/32 in the map. Mockups attached: front + back per color, variants linked to their color's front. Cover: 1 fal image (registry #911), back three-quarter with her face in frame, hood flat, ponytail clear. The model garbled RECESS and SURVIVOR, so I composited the exact back print from the print file (R6.9, flat fit, old print inpainted) and read every word on the zoomed cover. audit-local PASS. Printful sync 482698406 running (pf-zip.py, BW 1650 BT 225 CW 525); REVIEW once 12/12.
+- 2026-10-18 06:55 UTC builder [C]: Printful relink verified 12/12 on file 1088734026; REVIEW.

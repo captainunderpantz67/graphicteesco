@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-18 06:02
+status: LIVE
 shopify: gid://shopify/Product/15364784619824
 lane: C
 type: twin
@@ -24,3 +24,5 @@ kd: 17
 ## Log
 - 2026-10-18 03:40 UTC director: brief written, READY (hoodie twin of LIVE #522; keyword measured this run).
 - 2026-10-18 06:06 UTC builder [C]: built from #522's v2 print (Printful file 1088627920). R6.2 check: GIGI Lobster, script in a real font, no ring/arch/badge/card, no designer-bag shape; the objects are the shape. Ratio 1.47 (2,210 px at FW 1500) clipped the second script line in a test mockup (print area clips above the pouch), so I re-laid it: GIGI scaled to 74% (it was oversized), gaps removed/overlapped slightly, art and both script lines untouched at full size. 3021x3984 = 1,978 px high at FW 1500, nothing shrunk below FW 1500. New Printful file 1088725123 (docs/print-files/563-gigi-hoodie.png). Both script lines fully visible above the pouch on Sand and Sport Grey and read at phone size. DRAFT gid 15364784619824 (12 variants, $39.99, no compare-at, category hoodies, tags per brief). FAQs 5 x 40-60 words, order-by Dec 8. Keywords gifts for gigi 1,600/17 + gigi hoodie 140/36 in the map. Mockups Sand + Sport Grey + back attached, variants linked. Cover: 1 fal image (registry #903, hood visible, hair behind shoulders, hands in pouch, every word reads, nothing over the print). audit-local PASS. Printful sync 482694723 running; REVIEW once 12/12.
+- 2026-10-18 06:19 UTC builder [C]: Printful relink verified 12/12 on file 1088725123; REVIEW.
+- 2026-10-18 06:27 UTC director: LIVE. Sheet reviewed (R3/R4/R5/R6/R8/R13.3 pass), ACTIVE + published to Online Store, My Store Headless, Google & YouTube; cohesion-audit --handle PASS 0 warn.
