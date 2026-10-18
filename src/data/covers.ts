@@ -575,6 +575,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-christmas-capybara-tangled-unbothered-graphic-tee': { src: '/covers/womens-christmas-capybara-tangled-unbothered-graphic-tee.webp', alt: 'Woman with short natural curls, a small gold hair clip and gold hoops smiling in a cozy living room at Christmas, holding a cocoa mug and wearing the white Capybara Tangled. Unbothered. tee' },
   'mens-drummer-professionally-loud-graphic-tee': { src: '/covers/mens-drummer-professionally-loud-graphic-tee.webp', alt: 'Man with short curly black hair and a thin mustache smiling in a small rehearsal room with a drum kit and string lights behind him, wearing the navy Professionally Loud drummer tee' },
   'mens-mechanic-no-i-cant-just-take-a-quick-look-graphic-tee': { src: '/covers/mens-mechanic-no-i-cant-just-take-a-quick-look-graphic-tee.webp', alt: 'Man with a short top-knot and a full beard smiling in an auto repair bay with a car on a lift behind him, wearing the dark grey No, I Can\'t Just Take a Quick Look mechanic tee' },
+  'womens-christmas-official-tree-topper-crewneck-sweatshirt': { src: '/covers/womens-christmas-official-tree-topper-crewneck-sweatshirt.webp', alt: 'Woman with short silver-streaked curls and red-framed glasses smiling in a home kitchen with cookie trays and a small tree, wearing the sand Official Tree Topper crewneck sweatshirt' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
