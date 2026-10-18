@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-18 05:37Z
+status: REVIEW
 lane: B
 type: new
 id: 591
@@ -30,3 +30,5 @@ shopify: gid://shopify/Product/15364762370352
 - 2026-10-18 05:32 UTC director: brief written, READY (lane B sports-mom wave; KD 26 (21–35 band); KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month; proof seller named under the gate).
 
 - [B] 2026-10-18 builder: DRAFT created (54 variants), art try 3 (tries 1-2 rejected: rounded card/blood-like mat; three-stripe shoes), prints dark (White/Natural/Heather Stone/Athletic Heather/Pink) and cream-halo (Navy/Black/Heather Navy/Maroon), FW 1420 TOP 75, files 1088716247/1088716265, sync queued (sp 482690529), 9 color mockups attached + variants linked, cover reg #931 composite of exact print (R6.9, blanket over V), review sheet made. Pending: sync DONE then R7.7 default-file check.
+
+- [B] 2026-10-18 builder: sync DONE, R7.7 default-file check on Printful: 54/54 synced; default file 30 on 1088716247 (dark ink, 5 light colors) and 24 on 1088716265 (halo, 4 dark colors), back logo on all; FW 1420; cover chest zoom 200% checked. Variant-photo audit clean. Status REVIEW.
