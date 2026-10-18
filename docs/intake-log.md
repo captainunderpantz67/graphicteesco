@@ -1,4 +1,5 @@
 RUNNING lane A since 2026-10-18 06:29 UTC
+2026-10-18 06:33 UTC — [C] REVIEW #568 Women's Crochet No, I Won't Make You One hoodie (twin of #520; art as is at FW 1500; fal $0.12) (synced 12/12 on 1088621536).
 RUNNING lane B since 2026-10-18 06:30 UTC
 2026-10-18 06:27 UTC — [D] Late REVIEW arrival: #555 Treat Me Like Wildlife tee REDO (cream headline washes out on White/Pink; navy headline file for light colors + cover re-composite). Lock released.
 2026-10-18 06:27 UTC — [D] Late REVIEW arrivals: #470 Excused From Small Talk tee, #563 Gigi Because Grandma Sounded Old hoodie, #565 Welder If You Can Step Over It hoodie all LIVE (ACTIVE + published, audit PASS 0 warn). Copy fixes: #470 'Christmas' capitalised; #565 dropped a spark-proof claim (R8.6). No Telegram. Lock released.
