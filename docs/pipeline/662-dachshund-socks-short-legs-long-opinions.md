@@ -25,3 +25,4 @@ kd: 18
 ---
 ## Log
 - 2026-10-18 director: brief written, READY (gift add-on, socks first; source design A grade).
+- 2026-10-18 director: Sam put funny boxers first, so build the boxer briefs #666–#669 before this one.
