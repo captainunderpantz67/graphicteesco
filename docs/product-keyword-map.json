@@ -9587,5 +9587,43 @@
    }
   ],
   "measured": "2026-10-17"
+ },
+ "unisex-running-run-club-mostly-a-coffee-club-hoodie": {
+  "claimed": [
+   "run club hoodie",
+   "run club sweatshirt"
+  ],
+  "gaps_measured": [
+   {
+    "phrase": "run club hoodie",
+    "volume": 1000,
+    "kd": 24
+   },
+   {
+    "phrase": "run club sweatshirt",
+    "volume": 390,
+    "kd": 31
+   }
+  ],
+  "measured": "2026-10-18"
+ },
+ "mens-marathon-finisher-still-at-mile-20-heavyweight-hoodie": {
+  "claimed": [
+   "marathon hoodie",
+   "marathon sweatshirt"
+  ],
+  "gaps_measured": [
+   {
+    "phrase": "marathon hoodie",
+    "volume": 480,
+    "kd": 30
+   },
+   {
+    "phrase": "marathon sweatshirt",
+    "volume": 170,
+    "kd": 34
+   }
+  ],
+  "measured": "2026-10-18"
  }
 }

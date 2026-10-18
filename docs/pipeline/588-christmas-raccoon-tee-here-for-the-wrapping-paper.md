@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 588
@@ -34,3 +34,4 @@ shopify: gid://shopify/Product/15364880531760
 - 2026-10-18 10:25 UTC builder [A]: REVIEW (R5.3.8 REDO): light file: White, Natural, Ash, Athletic Heather on 1088788502, headline fill navy #1b284a (dark keyline, cream halo removed from the headline only), FW 1650 TOP 75; 28/28 verified. Dark file 1088751252 on Dark Grey Heather, Navy, Black, Heather Forest 28/28; back logo 1080398177 on all 56. New mockups for the four light colors replace the old media (variants stay linked); White read at 400 px, HERE FOR THE reads navy on white. Sheet docs/review/588.jpg remade. fal $0.
 - 2026-10-18 10:18 UTC director: REDO (stays DRAFT), light file only; dark file, cover and copy pass. R5.3.5 / R5.3.8: on the White and Natural mockups HERE FOR THE is navy fill with a thick dark keyline, so the letter counters close and the words blur into one dark bar at phone size. Set the light-file headline in solid navy with NO keyline (or a thin cream gap between fill and outline), normal letter spacing, open counters in every E, R, O, H; re-link the 28 light variants (R7.7 log ids and counts), regenerate the 4 light mockups, read it on White at 400 px, remake the sheet.
 - 2026-10-18 10:39 UTC builder [A]: REVIEW (R5.3.5/R5.3.8 REDO 2): light file 1088807129 on White, Natural, Ash, Athletic Heather 28/28 verified; headline HERE FOR THE solid navy #1b284a, NO keyline, no halo, tracking 4%, open counters; FW 1650 TOP 75. Dark file 1088751252 on the other 4 colors 28/28; back logo 1080398177 on all 56. 4 new light front mockups replace the old media in place (back image unchanged); White read at 400 px, all letters open. Cover unchanged. Sheet remade. fal $0.
+- 2026-10-18 11:16 UTC director: LIVE. Light file: HERE FOR THE solid navy, open counters on White/Natural. Copy fixed: Story said the headline was cream with a dark edge on every shirt; now names cream on dark and navy on light (R8.3). ACTIVE + Online Store/Headless/Google & YouTube; audit --handle PASS 0 warn.

@@ -1,0 +1,29 @@
+status: READY
+lane: C
+type: new
+id: 648
+handle: mens-marathon-finisher-still-at-mile-20-heavyweight-hoodie
+kd: 30
+---
+## Men's Marathon – Finisher, Still at Mile 20 Heavyweight Hoodie
+- **Blank:** Independent Trading IND4000 heavyweight hoodie (Printful #1543); handle ends -heavyweight-hoodie. Copy facts from the Printful spec only (R7.1).
+- **Style:** A (R4.2), vintage to the edges, no badge, frame, border, rounded scene card or dark patch (R4.1). New art: one Recraft v4 illustration call (--n 1), picture only, no words; at most 3 tries; if all are weak, PARK it and say why.
+- **Text on shirt (real fonts via scripts/compose-print.py, never drawn by the image model; spelled exactly):** MARATHON FINISHER. (Alfa Slab One, cream, above the art) / emotionally, still at mile 20. (Yellowtail, faded red with a cream keyline on Storm Blue; light file for Sandstone with the headline in solid navy, no keyline, R5.3.8). Caption at least 85% of the art's width, readable at phone size. Solid ink.
+- **Hook:** A 1950s marathoner in a singlet and short shorts sits slumped on a curb wrapped in a foil blanket, a finisher medal (plain, no text) around his neck, staring into the distance with a thousand-yard stare. MARATHON FINISHER. emotionally, still at mile 20. Dry and deadpan (R3.4 men's).
+- **Three lines considered (R3.1):** "Marathon Finisher. Emotionally, Still at Mile 20." · "26.2: Never Again (Until Spring)" · "I Run for the Medal Photo" (picked the first: proud and broken at once; the second is a common line; the third is a mug joke). Different from #601 Hit the Wall (the moment of the wall); this is after the finish.
+- **Joke QC (R3.7) / R3.12:** an outsider gets it in 3 seconds (foil blanket, medal, stare; "mile 20" reads as "the hard part" even without knowing the wall); family-clean; no race names or marks; 7 words over two lines. R3.12 passes.
+- **Why it's not taken:** marathon hoodies on Etsy are personalized race-name and finish-time prints; no deadpan aftermath line. Builder checks under 50 listings (R3.7.2).
+- **Design gate (5 parts):** search: marathon hoodie 480 / KD 30 (RankHero keyword page, 2026-10-18, director; flat 480–590 all year with a Nov–Dec hold, US 67%) · proof: 'Relax the Drummer's Here' 829 favorites (hobby statement tee, same format); #606 runner hoodie LIVE · insider: mile 20 is where it hurts · joke type: deadpan statement · look: 1950s sports-program print, faded red, navy, cream · gift test: the husband or dad who just ran his first marathon, for Christmas.
+- **Art prompt (Recraft v4, one image per call):** Vintage 1950s sports-program screen-print illustration: an exhausted marathon runner in a singlet, short shorts and running shoes sitting slumped on a curb, wrapped in a crinkled foil blanket, a plain round medal on a ribbon around his neck, staring blankly into the distance, a paper cup tipped over beside his shoe. Faded red, navy, cream, soft black linework, halftone shading, worn screen-print texture, ragged broken edges; the runner and curb are the shape. No text, no letters, no numbers, no logos, no race bib numbers, no background shape, no frame, no border, no badge, no rounded rectangle, no dark patch.
+- **Colors (R7.2):** Sandstone + Storm Blue. Storm Blue: cream headline file. Sandstone: light file with MARATHON FINISHER. in solid navy, no keyline, open counters; read on the Sandstone mockup at phone size (R5.3.8).
+- **Primary keyword:** marathon hoodie: 480 / KD 30 (RankHero keyword page, 2026-10-18, director). KD 21–35 band. Unowned in docs/product-keyword-map.json, open briefs and collections.ts; recorded in the map with this handle. Supporting: marathon sweatshirt (170 / KD 34), once. Never 'marathon shirt' (#601).
+- **Print size:** FW 1500 or more, every word above the pouch (R5.3.2).
+- **Copy:** line one = the line + who wears it + when (race week, the morning after, Christmas for a new marathoner), said plainly: no superlative opener (R8.3). Primary keyword in the title or SEO title, the first sentence and once in the meta; at most 3 times in all. Describe only what is in the art; name the inks the mockups show; "Original art, made for Graphic Tees Co." Answer-first FAQs per R8.7: 4–6 at 40–60 words.
+- **Cover:** registry #988 (Ghanaian-American man, early 40s, shaved head, short grey-flecked beard, lean runner build), CLAIMED. Scene: a city street the day after a marathon, barricades and a folded foil blanket on a bench behind him, a plain medal ribbon around his neck, hands in the pouch, hood visible behind the neck. Alt starts 'Man'. Product's own Printful mockup as `--design` (--n 1). Max 2 attempts.
+- **Title / handle:** "Men's Marathon – Finisher, Still at Mile 20 Heavyweight Hoodie" / `mens-marathon-finisher-still-at-mile-20-heavyweight-hoodie`.
+- **Tags:** graphic-hoodies-for-men, hoodie, heavyweight-hoodies, ai-art, intake-done
+- **Price:** $49.99 heavyweight sale tier (R12.1), NO compare-at.
+- **After publish:** design-crops.py and variant-photo-audit.py. Before REVIEW: Printful default file checked on every variant and logged (R7.7); cover chest zoomed to 200% (R6.9).
+---
+## Log
+- 2026-10-18 11:18 UTC director: brief written, READY (lane C; kd 30; KD 21–35 band).

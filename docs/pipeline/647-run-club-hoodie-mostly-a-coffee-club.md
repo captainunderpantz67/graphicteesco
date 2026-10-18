@@ -1,0 +1,29 @@
+status: READY
+lane: C
+type: new
+id: 647
+handle: unisex-running-run-club-mostly-a-coffee-club-hoodie
+kd: 24
+---
+## Unisex Running – Run Club, Mostly a Coffee Club Hoodie
+- **Blank:** Gildan 18500 pullover hoodie (Printful #146), 8 oz, 50/50 cotton-poly fleece, double-lined hood, pouch pocket; handle ends -hoodie. Copy facts from the Printful spec only (R7.1).
+- **Style:** A (R4.2), vintage to the edges, no badge, frame, border, rounded scene card or dark patch (R4.1, including the 2026-10-18 rounded-card line). New art: one Recraft v4 illustration call (--n 1), picture only, no words; at most 3 tries; if all are weak, PARK it and say why.
+- **Text on shirt (real fonts via scripts/compose-print.py, never drawn by the image model; spelled exactly):** RUN CLUB (Alfa Slab One, cream, above the art, full art width) / mostly a coffee club with a warm-up. (Yellowtail, mustard with a dark keyline on Navy; a separate light file with the headline in solid navy, no keyline, for Sand, R5.3.8). Caption at least 85% of the art's width and readable at phone size (R3.7.6). Solid ink, no pattern fill (R5.3.10).
+- **Hook:** Three 1970s joggers in sweatbands and tube socks jog in place outside a corner coffee shop, two of them already holding paper cups, the third pointing at the door. RUN CLUB / mostly a coffee club with a warm-up. Fake-club format, self-aware; every social runner knows the run is the excuse.
+- **Three lines considered (R3.1):** "Run Club: Mostly a Coffee Club With a Warm-Up" · "Run Club (We Talk the Whole Time)" · "Slow Run Club" (picked the first: fake club + self-aware statement; the second needs a pace joke to land; the third is on hundreds of listings).
+- **Joke QC (R3.7) / R3.12:** an outsider gets it in 3 seconds (runners, coffee cups, the caption says it); family-clean; no brand marks (plain cups, no logos, no named shop); 8 words over two lines. R3.12 passes.
+- **Why it's not taken:** Etsy run club hoodies are plain city or "Run Club" varsity type with a year; RankHero shows no listing data for the phrase yet (competition not reported). No coffee-club line seen. Builder checks under 50 listings (R3.7.2).
+- **Design gate (5 parts, docs/research/how-to-research-a-design.md):** search: run club hoodie 1,000 / KD 24 (RankHero keyword page, 2026-10-18, director; trend peaks Nov 2025 at 1,900; US 32%) · proof: 'Relax the Drummer's Here' 829 favorites (hobby statement tee, same format) and the fake-club format from the Etsy study (docs/research/etsy-2026-10-17/); our own #606 Mile One Was a Mistake runner hoodie is LIVE · insider: the coffee after the run · joke type: fake club + self-aware statement · look: 1970s race-poster print, faded red, navy, mustard, cream · gift test: the friend in a Saturday run group, for Christmas.
+- **Art prompt (Recraft v4, one image per call):** Vintage 1970s race-poster screen-print illustration: three cheerful joggers in sweatbands, short shorts and striped tube socks jogging in place on a sidewalk outside a small corner coffee shop door, two holding plain paper coffee cups with steam, the third pointing at the door, a short stretch of sidewalk and a lamp post beside them. Faded red, navy, mustard yellow, cream, soft black linework, halftone shading, worn screen-print texture, ragged broken edges; the people, door and lamp post are the shape. No text, no letters, no numbers, no logos, no signs, no background shape, no frame, no border, no badge, no rounded rectangle, no dark patch.
+- **Colors (R7.2):** Sand + Navy. Navy: cream headline file. Sand: light file with RUN CLUB in solid navy, no keyline, open counters; read on the Sand mockup at phone size (R5.3.8).
+- **Primary keyword:** run club hoodie: 1,000 / KD 24 (RankHero keyword page, 2026-10-18, director). KD 21–35 band; the KD ≤ 20 hoodie phrases measured this run (mens golf hoodie, bear crewneck, welder hoodie, capybara hoodie) are all owned. Unowned in docs/product-keyword-map.json, open briefs and collections.ts; recorded in the map with this handle. Supporting: run club sweatshirt (390 / KD 31), once. Never 'running hoodie' (#312) or 'runner hoodie' (#606).
+- **Print size:** FW 1500 or more, every word above the pouch (R5.3.2).
+- **Copy:** line one = the line + who wears it + when (Saturday run group, the post-run coffee line, the turkey trot), said plainly: no superlative opener (R8.3). Primary keyword in the title or SEO title, the first sentence and once in the meta; at most 3 times in all. Describe only what is in the art; name the inks the mockups show; "Original art, made for Graphic Tees Co." Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, weight, wash care, gift fit, Christmas order-by about Dec 8, free size exchange).
+- **Cover:** registry #987 (man AND woman together: Vietnamese-American man, late 20s, short black hair, lean runner build; Irish-American woman, late 20s, red hair in a tied-back ponytail, freckles), CLAIMED. Scene: outside a neighborhood coffee shop after an early run, foggy street, both in the hoodie (hood visible on both), hands empty or in the pouch; no cups over the print (R6.5). Alt starts 'Man and woman'. Hair tied back; first word of the top line checked letter by letter (R6.9). Product's own Printful mockup as `--design` (--n 1). Max 2 attempts.
+- **Title / handle:** "Unisex Running – Run Club, Mostly a Coffee Club Hoodie" / `unisex-running-run-club-mostly-a-coffee-club-hoodie`.
+- **Tags:** graphic-hoodies-for-men, graphic-hoodies-for-women, hoodie, ai-art, intake-done
+- **Price:** $39.99 pullover sale tier (R12.1), NO compare-at.
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d). Before REVIEW: Printful default file checked on every variant and logged (R7.7); cover chest zoomed to 200% (R6.9).
+---
+## Log
+- 2026-10-18 11:18 UTC director: brief written, READY (lane C; kd 24; KD ≤ 20 band owned for every hoodie phrase measured this run, so KD 21–35 next).

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: E
 type: new
 id: 559
@@ -37,3 +37,4 @@ kd: 20
 - 2026-10-18 10:45 UTC builder [E]: REDO cover: re-composited the full Sand print (cover-composite2.py, hard garment mask, no gradient fade) at 190 px wide (was 125) so 'rules are rules.' is full size and crisp; read every word at 200% (IF IT'S BROWN, / LIE DOWN. / rules are rules.), braid clear of the I. Sheet remade. fal $0. REVIEW.
 - 2026-10-18 10:18 UTC director: REDO (stays DRAFT), cover only; Sand file and sync pass. R6.9 composite inside the garment: the new composite sits on a visible darker taupe rectangle with a hard vertical left edge beside the braid and mottled smudges between LIE DOWN. and the mountains; the print is also wider on the cover than on the Sand mockup. Erase to plain Sand fleece with folds, composite the print only (transparent, multiply, no backing box) at the mockup's true size, zoom the edges to 200%, remake the sheet. Last cover round: if it fails again, log it and the director decides (R6.9).
 - 2026-10-18 10:55 UTC builder [E]: REDO cover only: old print erased with scripts/cover-erase-composite.py (only print pixels masked, repainted from surrounding fabric, braid untouched, no backing box), Sand print 145 px wide to the right of the braid at the mockup's proportions. Chest viewed at 300%: chest clean: no box, no smudge, no hard edge; first letter clear (I, L, r). Sheet remade. fal $0. REVIEW.
+- 2026-10-18 11:16 UTC director: LIVE. Cover composite clean (no box, no hard edge), all three lines read on the cover, Sand file deep-brown headline. ACTIVE + Online Store/Headless/Google & YouTube; audit --handle PASS 0 warn.

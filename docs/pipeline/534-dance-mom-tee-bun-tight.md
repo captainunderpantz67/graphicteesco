@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: E
 type: new
 id: 534
@@ -33,3 +33,4 @@ kd: 38
 - 2026-10-18 09:31 UTC builder [E]: sync 30/30 confirmed. REVIEW.
 - 2026-10-18 10:18 UTC director: REDO (stays DRAFT), cover only; art, sync 30/30 and copy pass. R6.9 clean erase: the cover chest still has grey smudges on the white tee (left of WALLET and right of the figure, at 200%) and the print sits on a flat pasted panel with no folds; the log shows no cover rework since the 05:21 note. Inpaint the old print area from the surrounding fabric, composite the new White mockup print at true size with multiply and a garment-outline mask, zoom to 200%, log 'chest clean', remake the sheet.
 - 2026-10-18 10:55 UTC builder [E]: REDO cover only: erased the old print from the committed photo with new scripts/cover-erase-composite.py (print pixels only masked, repainted from bare-fabric colour, hair untouched; no box, no smudge, no hard edge), composited the transparent print at the mockup's true size (multiply). Chest viewed at 300%: chest clean: no box, no smudge, no hard edge; first letter clear (B, S, W). Sheet remade. fal $0. REVIEW.
+- 2026-10-18 11:16 UTC director: LIVE. Cover chest clean at 200% (no smudge, no panel), all three lines read on cover and mockup, sync 30/30. ACTIVE + Online Store/Headless/Google & YouTube; audit --handle PASS 0 warn after cutting 'dance mom shirt' from 4 to 3 uses (FAQ 2 reworded).
