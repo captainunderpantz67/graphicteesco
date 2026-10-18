@@ -393,7 +393,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 500 | White man, late 20s, buzz cut, full dark beard, heavy powerlifter build | RESERVED — #316 Deadlift Skeleton oversized hoodie cover |
 | 501 | Native American man, mid 30s, long black hair in a low ponytail, clean-shaven | RESERVED — #317 Cowboy Up Later crewneck cover |
 | 502 | Lebanese-American woman, early 30s, long dark wavy hair, bold red lipstick, gold hoop earrings | USED 2026-10-16 — #318 Tied Up for the Holidays crewneck cover (try 2 kept, 2 images, try 1 used the wrong person) |
-| 503 | Chinese-American woman, late 20s, glossy black bob with bangs, pearl stud earrings | RESERVED — #319 Tied Up for the Holidays tee cover |
+| 503 | Chinese-American woman, late 20s, glossy black bob with bangs, pearl stud earrings | USED 2026-10-18 — #319 Tied Up for the Holidays tee cover (seedream 1 attempt + R6.9 print composite for the ponytail over the T; generated look: long dark ponytail, gold hoops) |
 | 504 | Black woman, mid 40s, natural shoulder-length curls, small pearl earrings, warm smile | RESERVED — #320 Be Still heavyweight hoodie cover |
 | 505 | Japanese-American man, early 20s, messy black hair, wire glasses, slim | RESERVED — #321 Kaiju Naps crewneck cover (with #506) |
 | 506 | Latina woman, early 20s, long dark hair with curtain bangs, small silver hoops | RESERVED — #321 Kaiju Naps crewneck cover (with #505) |
@@ -601,7 +601,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 432 | (reused as the brief specifies) | USED again 2026-10-17 — #256 Technically a Vegetable crewneck cover redo (seedream, 1 attempt) |
 | 807 | Filipino-American woman, late 20s, shoulder-length black hair in a low ponytail, small silver hoops | USED 2026-10-17 — #485 Raccoon Trail Mix hoodie cover (try 2 kept, 2 images; #808 man in same photo) |
 | 808 | white man, early 30s, curly light-brown hair, short beard, freckles | USED 2026-10-17 — #485 Raccoon Trail Mix cover (with #807) |
-| 809 | Moroccan-American woman, early 30s, long dark curly hair half up, gold hoop earrings, tortoiseshell glasses pushed up on her head | CLAIMED 2026-10-17 — #486 Goose Plot Twist Pending Crewneck Sweatshirt cover (brief) |
+| 809 | Moroccan-American woman, early 30s, long dark curly hair half up, gold hoop earrings, tortoiseshell glasses pushed up on her head | USED 2026-10-18 — #486 Goose Plot Twist Pending embroidered crewneck cover |
 | 810 | Black man, late 20s, short twists, clean-shaven, round wire glasses | USED 2026-10-17 - #487 University of Staying In crewneck cover (seedream, navy, rainy living room; pair 810-811) |
 | 811 | Korean-American woman, mid 20s, long straight hair with curtain bangs, small gold studs | USED 2026-10-17 - #487 University of Staying In crewneck cover (seedream, navy, rainy living room; pair 810-811) |
 | 812 | Puerto Rican woman, late 30s, shoulder-length wavy dark hair with copper highlights, statement earrings | USED 2026-10-18 — #488 I Said It Nicely in My Head Tee cover (brief) |

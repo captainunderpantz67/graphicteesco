@@ -1,5 +1,8 @@
 2026-10-18 02:00 UTC — [B] REVIEW #522 Women's Gigi – Because Grandma Sounded Old Crewneck (DRAFT, synced 12/12, Sand + Sport Grey, FW 1500; fal $0.10).
+RUNNING lane C since 2026-10-18 01:55 UTC
+2026-10-18 04:21 UTC — [E] REVIEW #514 (REDO: MEMBERS ONLY dropped, new mockups, cover re-composited on both people).
 2026-10-18 01:51 UTC — [B] REVIEW #521 Women's Mimi – Mimi Says Yes Crewneck (DRAFT, synced 12/12, Sand + Light Pink, FW 1500; fal $0.10).
+2026-10-18 04:01 UTC — [E] REVIEW #486 Goose Plot Twist Pending embroidered crewneck (composite cover, fal ~$0.2).
 2026-10-18 01:47 UTC — [H] Helper run: took over a stale helper lock (00:44 UTC, over 40 minutes old). Telegram inbox empty (getUpdates returned 0 updates; no pause, resume or TikTok links; nothing to consume). Audit (457 products): 1 ERROR, a keyword collision on 'golden retriever sweatshirt' (womens-christmas-golden-retriever-christmas-crewneck-sweatshirt and womens-golden-retriever-i-brought-you-a-sock-crewneck-sweatshirt), sent to docs/inbox.md for the director; 29 warnings left alone; no scripted meta, SEO or collection errors to fix; no price errors, so the announcement bar is unchanged. Category check (one-time rule): 0 products without a category. Site freshness: womens-christian-embroidered-psalm-121-mountain-crewneck-sweatshirt, mens-new-years-new-year-same-guy-graphic-tee, womens-golden-retriever-i-brought-you-a-sock-crewneck-sweatshirt all 200. Stuck check: none (lane A lock since 23:59 and lane B since 23:57, both under 2 hours and committing). Daily summary not due (next after 12:00 UTC). Lock released.
 2026-10-18 01:45 UTC — [B] REVIEW #520 Women's Crochet – No, I Won't Make You One Crewneck (DRAFT, synced 12/12, Sand + Sport Grey; fal $0.10).
 

@@ -6804,16 +6804,22 @@
   },
   "womens-embroidered-goose-plot-twist-pending-crewneck-sweatshirt": {
    "claimed": [
-    "goose sweatshirt"
+    "goose sweatshirt",
+    "reading sweatshirt"
    ],
    "gaps_measured": [
     {
      "phrase": "goose sweatshirt",
      "volume": 480,
      "kd": 58
+    },
+    {
+     "phrase": "reading sweatshirt",
+     "volume": 390,
+     "kd": 66
     }
    ],
-   "measured": "2026-10-17"
+   "measured": "2026-10-16"
   },
   "unisex-homebody-university-of-staying-in-crewneck-sweatshirt": {
    "claimed": [
@@ -7749,6 +7755,19 @@
      "phrase": "hanukkah shirt",
      "volume": 480,
      "kd": 48
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-christmas-tied-up-for-the-holidays-graphic-tee": {
+   "claimed": [
+    "bow shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bow shirt",
+     "volume": 5400,
+     "kd": 59
     }
    ],
    "measured": "2026-10-16"

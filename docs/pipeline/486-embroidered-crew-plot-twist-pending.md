@@ -1,8 +1,9 @@
-status: BUILDING [E] 2026-10-18 01:50 UTC
+status: REVIEW
 lane: E
 type: new
 id: 486
 handle: womens-embroidered-goose-plot-twist-pending-crewneck-sweatshirt
+shopify: gid://shopify/Product/15364428792112
 kd: 58
 ---
 ## Women's Embroidered – Goose Plot Twist Pending Crewneck Sweatshirt
@@ -28,3 +29,4 @@ kd: 58
 ---
 ## Log
 - 2026-10-17 20:27 UTC director: brief written, READY (Sam's 16 proof-first concepts, inbox 2026-10-17 19:30).
+- 2026-10-18 04:00 UTC builder [E]: REVIEW. Art: 2 Recraft calls ($0.08): try 1 goose line art had fine details (glasses, feather lines) that merged into blobs when thickened to 1.5 mm; try 2 (bold simplified icon style, large round glasses) kept. Lettering 'Do Not Disturb,' / 'Plot Twist Pending' in Playfair Display 800 via compose-print, then emb-prep to one flat navy #333366 thread file: 3.93 x 3.97 in (fits the 4 x 4 in chest limit), strokes 1.56 mm, serif x-height about 5.5 mm (the 18-character line cannot go larger inside 4 in; brief asked for two lines). Printful file 1088625676, sync 482660483 12/12 via pf-emb-sync (navy thread, back logo kept), embroidery mockups Sand + Light Pink front + back attached and linked; navy reads on both. Colors Sand + Light Pink (bold women's color per R7.2). DRAFT gid 15364428792112 (category aa-1-13-14, 12 variants $39.99 = $34.99 + $5 chest, compare-at null, tags per brief, keyword goose sweatshirt 480/58 in line one and meta, 6 FAQs 45-48 words incl. Dec 8, 'Embroidered' in title and line one). Cover registry 809: attempt 1 printed a huge framed goose with no text (oversells the stitch, R4.8), attempt 2 true scale but garbled small text, so composited the exact embroidery on the chest (R6.9); hair clear, hands in pockets, alt starts Woman. Variant-photo audit clean; audit --handle only 'not visible'. fal ~$0.2.

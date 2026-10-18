@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [A] 2026-10-18 02:00
 lane: A
 type: twin
 id: 319
@@ -19,3 +19,4 @@ kd: 59
 ---
 ## Log
 - 2026-10-17 02:26 UTC director: brief written, READY (low-KD sweep 2026-10-17, card step 5; keyword measured this run).
+- 2026-10-18 02:10 UTC builder [A]: BUILDING: twin of #318 (LIVE): R6.2 check on the source print (Printful file 1088533038): TIED UP is Alfa Slab (red, cream outline) and 'for the holidays' is Yellowtail script (green), real fonts R4.8; tartan bow art with worn edges, no ring/arch/disc/panel; reused as is, re-hosted as file 1088626473 (3447x4330). The 6400 front print area is 1500x1800 px, so a tall print must be FW 1360 or it clips the bottom line (caught on the first mockup, fixed): FW 1360. NEW Shopify DRAFT gid 15364430987568 (BC 6400, White/Natural/Heather Stone/Athletic Heather/Pink x S-3XL = 30, $24.99 no compare-at, tags christmas-shirts-for-women + graphic-tees-for-women + funny-graphic-tees; 'bow shirt' in line one, title-area SEO and meta, 'christmas bow shirt' avoided per the brief; FAQs 5 x 48-51 words incl. Dec 8). Mockups for all 5 colors + back attached and linked; cover reg #503 listed face not used (generated look logged): seedream 1 attempt put the ponytail over the T, so the exact print from the mockup was composited (R6.9), every word read. Sync 482660901 queued. Resume: `FW=1360 python3 scripts/pf-sync.py setfile 482660901 1088626473 1080398177`; when 30/30 set REVIEW.
