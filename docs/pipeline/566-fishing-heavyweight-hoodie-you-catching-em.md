@@ -1,4 +1,5 @@
 status: BUILDING [C] 2026-10-18 06:10
+shopify: gid://shopify/Product/15364790518064
 lane: C
 type: twin
 id: 566
@@ -22,3 +23,4 @@ kd: 30
 ---
 ## Log
 - 2026-10-18 03:25 UTC director: brief written, READY (hoodie twin of LIVE #532; keyword measured this run).
+- 2026-10-18 06:13 UTC builder [C]: built from #532's print (Printful file 1088635663, 3431x3612). R6.2 check: both lines real fonts (cream slab, red script), scene ends in its own ragged reeds/grass, no ring/arch/badge/card. Near-square print: 1,579 px high at FW 1500, ends well above the pouch on Black and Army; nothing shrunk. Punchline fix (brief's R3.7.6 warning): the red script was thin on dark fleece, so I thickened it and added a thin cream keyline in print-prep; No. Keep Walking. now reads on both mockups. New Printful file 1088727623 (docs/print-files/566-fishing-heavyweight-hoodie.png). Colors Black + Army (IND4000 has no Classic Navy; Charcoal Solid and Army both tested, Army chosen for the outdoor audience and the red script with its keyline reads on it). DRAFT gid 15364790518064 (12 variants S-3XL, $49.99, no compare-at, category hoodies, 6 tags per brief). Copy facts from the Printful spec (10 oz, relaxed fit, Pakistan). FAQs 5 x 40-60 words, order-by Dec 8. Keyword gifts for fishermen 9,900/30 in the map. Mockups Black + Army + back (cream neck logo) attached, variants linked. Cover: 1 fal image (registry #906; hood visible, hands in pouch, rod at the side); the model garbled the apostrophe in 'EM so I composited the exact print from the mockup (R6.9, multiply) and read both lines on the zoomed chest. audit-local PASS. Printful sync 482696270 running; REVIEW once 12/12.
