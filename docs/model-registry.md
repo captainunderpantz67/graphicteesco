@@ -685,7 +685,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 898 | Dominican-American woman, late 20s, curly dark-brown hair in a high bun, small gold nose ring, curvy build | CLAIMED 2026-10-18 — #558 Not My Turn With the Brain Cell Zip Hoodie cover (brief) |
 | 899 | Cherokee woman, late 40s, long straight black hair with grey strands in a low braid, small turquoise studs, medium build | CLAIMED 2026-10-18 — #559 If It's Brown, Lie Down Crewneck Sweatshirt cover (brief) |
 | 882 | Cuban-American man, late 50s, short silver hair combed back, trimmed silver beard, tanned skin, medium build | RELEASED 2026-10-18 — #542 cover attempts failed (print shown on front under the zipper / back print cropped by the turn); temp mockup cover used, free to reuse |
-| 883 | Polish-American man, early 60s, grey flat-top crew cut, clean-shaven, ruddy cheeks, barrel-chested build | CLAIMED 2026-10-18 — #543 Should've Been Here Yesterday Tee cover (brief) |
+| 883 | Polish-American man, early 60s, grey flat-top crew cut, clean-shaven, ruddy cheeks, barrel-chested build | USED 2026-10-18 — #543 Should've Been Here Yesterday tee cover (fal Seedream, lake dock at sunrise; try 1 kept) |
 | 884 | Ghanaian-American man, mid 20s, low taper fade with a part line, clean-shaven, lean muscular build | USED 2026-10-18 — #544 Rack Your Weights. Respectfully. Tee cover (brief) |
 | 885 | Ethiopian-American woman, early 30s, long box braids tied back in a high ponytail, small silver studs, muscular athletic build | USED 2026-10-18 — #545 Mid-Set. Not Interested. Tee cover (brief) |
 | 886 | Guatemalan-American man, mid 40s, short side-parted black hair, neat black mustache, medium build | USED 2026-10-18 — #546 Short Grace. Hot Food. Tee cover (brief) |
