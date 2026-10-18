@@ -7939,23 +7939,22 @@
   },
   "mens-cat-dad-cant-cats-on-me-graphic-tee": {
    "claimed": [
-    "cat dad shirt"
+    "cat dad shirt",
+    "cat dad gift"
    ],
    "gaps_measured": [
     {
      "phrase": "cat dad shirt",
      "volume": 3600,
-     "kd": 47,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 47
     },
     {
      "phrase": "cat dad gift",
      "volume": 1600,
-     "kd": 52,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 52
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-cat-not-my-turn-with-the-brain-cell-zip-hoodie": {
    "claimed": [
