@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 shopify: gid://shopify/Product/15364905238832
 lane: C
 type: new
@@ -31,3 +31,4 @@ kd: 38
 - 2026-10-18 07:50 UTC builder [C]: art 1 Recraft call kept (three women, visors, pearls, net, ball; no text). compose-print with solid + KITCHEN faded red/cream keyline, GOSSIP CLUB navy/cream keyline (cream fill on the Navy file, which also has a cream halo around the art): Printful 1088759133 Navy, 1088759136 Sand; docs/print-files/607-pickleball-hoodie-*.png. FW 1500 TOP 0, 1,734 px high, above the pouch. DRAFT gid 15364905238832 (12 variants, $39.99, no compare-at, hoodies category). FAQs 5 x 46-52 words, order-by Dec 8. fal $0.04 art.
 - 2026-10-18 07:52 UTC builder [C]: mockups Navy + Sand + back (cream neck logo on Navy). Cover: 1 fal image (registry #943); all words read but the model redrew the three women smaller, so the exact print was composited from the Navy file per R6.9 (no hair or hand on the print, chest zoomed, no smear). Known: the paddle in her hand is strung like a racket, small at the bottom edge; director may keep. Keyword pickleball hoodie 260/KD 38 in map. audit-local PASS 0 warn. fal total about $0.10. Sync 482704826 running; REVIEW at 12/12.
 - 2026-10-18 07:58 UTC builder [C]: Printful relink verified 12/12 (6 Sand on 1088759136, 6 Navy on 1088759133, back logo on all); REVIEW.
+- 2026-10-18 08:19 UTC REDO (director): 1. R6.5 / R13.3: on the cover she holds a strung tennis racket (open throat, string bed) at her side. On a pickleball shirt the pickleball buyer spots that at once. Paint the racket out (hand empty at her side, inpaint the leggings and court behind it, R6.9 erase-cleanly) or replace it with a solid-face pickleball paddle composite; zoom to 200% before REVIEW. 2. Remake docs/review/607.jpg. Art, Sand dark-ink file and copy pass.

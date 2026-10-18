@@ -1,4 +1,5 @@
-status: READY
+status: BUILDING [C] 2026-10-18 08:21 UTC
+shopify: gid://shopify/Product/15364932370736
 lane: C
 type: twin
 id: 626
@@ -23,3 +24,5 @@ kd: 33
 ---
 ## Log
 - 2026-10-18 07:33 UTC director: brief written, READY (lane C hoodie twin of LIVE #535; kd 33, KD 21–35 band, nothing at KD ≤ 20 for softball; zip-up-hoodies-for-women is under 14).
+- 2026-10-18 08:23 UTC builder [C]: R6.2 check on #535's print (Printful 1088658352, 3436x3618, docs/print-files/626-travel-ball-light-ink.png): TRAVEL BALL TOOK / MY SATURDAYS. real Graduate with navy keyline, no ring/panel/badge/card; backstop, chair and bags end on their own shapes; chain-link gaps are open (garment shows through, no white plate); counters (A, O, R, D) closed; moths and wallet intact. Navy keeps the light-ink file as is. Ash gets its own dark-ink file (docs/print-files/626-travel-ball-dark-ink.png, Printful 1088767837): cream line recolored solid navy #22344f, yellow line burgundy #7a1c28, keyline pixels removed so the glyphs keep their counters; the art is unchanged (its own dark linework reads on Ash). Chest copy = the scene without words (2880x2849, 626-travel-ball-chest.png, Printful 1088767840). Back BW 1560 BT 225 = 1,643 px high, chest CW 525. Both lines read at 450 px on each back mockup. DRAFT gid 15364932370736 (12 variants S-3XL, $44.99, no compare-at, hoodies category, tags per brief). FAQs 5 x 47-51 words, order-by Dec 8.
+- 2026-10-18 08:25 UTC builder [C]: Cover: 2 fal images (registry #966): try 1 had the hood drape over TRAVEL BALL and a logo on the cooler; try 2 (hood flat and small above the print, plain cooler, face in frame, ponytail clear) kept, and the exact back print was composited from the print file (R6.9, flat fit placed under the hood, inpainted, zoomed: both lines and the scene clean). Keyword softball mom hoodie 210/KD 33 in the map. audit-local PASS 0 warn. fal total about $0.12. Sync 482708657 running (pf-zip.py: Ash on the dark-ink file, Navy on the light-ink file); REVIEW at 12/12.

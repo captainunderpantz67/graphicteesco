@@ -1,4 +1,5 @@
-status: READY
+status: BUILDING [C] 2026-10-18 08:14 UTC
+shopify: gid://shopify/Product/15364926144816
 lane: C
 type: twin
 id: 620
@@ -23,3 +24,5 @@ kd: 18
 ---
 ## Log
 - 2026-10-18 07:33 UTC director: brief written, READY (lane C hoodie twin of LIVE #586; kd 18, KD ≤ 20 band; capybara merch measured on RankHero this run; zip-up-hoodies-for-women is under 14).
+- 2026-10-18 08:16 UTC builder [C]: R6.2 check on #586's print (Printful 1088743911, 2754x3741, docs/print-files/620-capybara-tangled-zip.png): TANGLED. real Alfa Slab with cream keyline, Unbothered. real Yellowtail with cream keyline, no ring/panel/badge/card, no ground panel; counters (A, D, O, b, h) closed; no pure-white pockets between the light strings except the planned cream bulbs. Colors Ash + White (red and green ink and dark linework need light fleece), one file for both. Chest copy = the capybara alone, band without words (docs/print-files/620-capybara-tangled-chest.png, 2664x2766). Back BW 1560 BT 225 = 2,119 px high (ends 2,344, inside 2,400), chest CW 525. Mockups front + back on Ash and White read at 450 px. DRAFT gid 15364926144816 (12 variants S-3XL, $44.99, no compare-at, hoodies category, tags per brief). FAQs 5 x 43-51 words, order-by Dec 8.
+- 2026-10-18 08:17 UTC builder [C]: Cover: 1 fal image (registry #960): back view over the shoulder with her face in frame, ponytail clear, hood flat, cocoa on the stall; the model redrew the capybara (eyes shut, simplified bulbs), so the exact back print was composited from the print file (R6.9, inpainted, zoomed: TANGLED., capybara and Unbothered. clean, no hair over letters). Keyword capybara merch 2,400/KD 18 in the map. audit-local PASS 0 warn. fal total about $0.06. Sync 482708069 running (pf-zip.py); REVIEW at 12/12.
