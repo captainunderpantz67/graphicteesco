@@ -612,6 +612,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'mens-christmas-drew-your-name-panicked-graphic-tee': { src: '/covers/mens-christmas-drew-your-name-panicked-graphic-tee.webp', alt: 'Man in a white Drew Your Name. Panicked. Christmas tee with a sweating office worker, a Santa hat full of name slips and a taped gift, smiling in an office break room decorated for a holiday party' },
   'unisex-christmas-we-said-no-gifts-graphic-tee': { src: '/covers/unisex-christmas-we-said-no-gifts-graphic-tee.webp', alt: 'Man and woman in matching white We Said No Gifts Christmas tees with a 1960s couple hiding wrapped presents behind their backs, smiling in a living room beside a lit Christmas tree' },
   'mens-christmas-moms-favorite-graphic-tee': { src: '/covers/mens-christmas-moms-favorite-graphic-tee.webp', alt: 'Man in a white Mom\'s Favorite Christmas tee with two knit stockings on a brick mantel, one stuffed and one limp, standing in a living room on Christmas morning in front of a decorated fireplace' },
+  'womens-christmas-cat-allegedly-crewneck-sweatshirt': { src: '/covers/womens-christmas-cat-allegedly-crewneck-sweatshirt.webp', alt: 'Woman in a navy Cat Allegedly. Christmas crewneck sweatshirt with a smug tuxedo cat beside a smashed ornament, standing in a decorated kitchen with cookie trays and a cat on a chair beside her' },
 };
 
 // Pasted-print covers retired by R6.10 (Sam 2026-10-18): these fall back to the clean Printful mockup until a
