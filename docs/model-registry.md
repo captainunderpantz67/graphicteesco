@@ -411,7 +411,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 518 | Samoan-American man, early 30s, long dark hair in a low bun, broad shoulders, clean-shaven | RESERVED — #330 Surf's Down zip hoodie cover |
 | 519 | Ghanaian-American man, late 30s, shaved head, full black beard, warm smile | USED 2026-10-16 — #331 Midnight Is a Suggestion NYE tee cover (try 2 kept, 2 images) |
 | 520 | Vietnamese-American woman, late 30s, chin-length black bob with blunt bangs | USED 2026-10-16 — #331 Midnight Is a Suggestion NYE tee cover (try 2 kept, 2 images) |
-| 521 | Lebanese-American woman, early 30s, long dark spiral curls, gold hoops | USED 2026-10-18 — #332 Resolutions Pending NYE tee cover (seedream 2 attempts + R6.9 print composite for hair on the last S) |
+| 521 | Lebanese-American woman, early 30s, long dark spiral curls, gold hoops | USED 2026-10-18 — #332 Resolutions Pending NYE tee cover (seedream; redo 2026-10-18: 3rd generation with hair in a bun) |
 | 522 | White man, early 50s, short salt-and-pepper hair, clean-shaven, reading glasses pushed up on his head | USED 2026-10-18 — #333 New Year, Same Guy tee cover (seedream, 1 attempt; light stubble, no glasses on head) |
 | 523 | Cuban-American man, mid 30s, short skin fade, neat goatee | USED 2026-10-17 - #334 Laying Low Till Friday turkey hoodie cover (pair with #523-524) |
 | 524 | White woman, mid 40s, short silver-blonde bob, light laugh lines | USED 2026-10-17 - #334 Laying Low Till Friday turkey hoodie cover (pair with #523-524) |
