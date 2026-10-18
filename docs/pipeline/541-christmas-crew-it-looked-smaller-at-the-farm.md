@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-18 06:05
+status: LIVE
 lane: A
 type: twin
 id: 541
@@ -28,3 +28,5 @@ kd: 16
 ## Log
 - 2026-10-18 03:10 UTC director: brief written, READY (lane A holiday pair twin of #540; men's Christmas crewneck; xmas tree sweater KD 16 measured this run).
 - 2026-10-18 06:05 UTC builder [A]: BUILT except Printful link. Twin of #540 (built this run, same print file 1088710447, 3348x4594). R6.2 lettering check done on the source print: IT LOOKED SMALLER / AT THE FARM are AlfaSlabOne lines from compose-print.py (faded red #b5362f + cream keyline), no ring/arch/disc/box/panel, the beam end and the rug edge are ragged, the O/A/R/D counters are transparent holes (previewed on Navy, the darkest crewneck color; reads). FW 1650 TOP 75 (set fresh for the crewneck). DRAFT gid://shopify/Product/15364743823664 (Gildan 18000; Sand + Navy x S-3XL = 12, $34.99 no compare-at, category crewnecks, tags per brief, productType Sweatshirt); 'xmas tree sweater' 1,900/KD16 and 'christmas gifts for boyfriend' 22,200/KD10 in map; says 'crewneck sweatshirt' (primary only inside the phrase, once in line one and the meta); FAQs 5 x 48-56 words incl. order-by Dec 8; copy only describes what the art shows. Mockups Sand + Navy + back, each color on its own photo. Cover registry 881, seedream 1 attempt ($0.06, Sand mockup as design): real crewneck, hands in pockets, tipped stand and bent tree behind him, both lettering lines read, nothing over the print. Printful sync 482689431 queued (chain541.sh); RESUME if it died: `FW=1650 python3 scripts/pf-sync.py setfile 482689431 1088710447 1080398177`, then REVIEW at 12/12. Audit only fails 'not visible on the storefront'.
+- 2026-10-18 05:43 UTC builder [A]: REVIEW: Printful sync 482689431 verified 12/12 on file 1088710447 (FW 1650, TOP 75, back logo kept); everything else as logged above.
+- 2026-10-18 06:14 UTC director: LIVE. Sheet reviewed (R3/R4/R5/R6/R8/R13.3 pass), ACTIVE + published to Online Store, My Store Headless, Google & YouTube; cohesion-audit --handle PASS 0 warn.

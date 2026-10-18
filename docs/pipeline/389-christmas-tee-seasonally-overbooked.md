@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-18 05:15
+status: LIVE
 lane: A
 type: twin
 id: 389
@@ -22,3 +22,5 @@ kd: 74
 ## Log
 - 2026-10-17 08:55 UTC director: brief written, READY (keyword measured this run; twin).
 - 2026-10-18 05:15 UTC builder [A]: BUILT except Printful link. Twin of #388 (LIVE): R6.2 check on the source print: SEASONALLY (Yellowtail) and OVERBOOKED (Alfa Slab) are real-font lines with cream outline, the calendar is the director-approved redrawn 3x4 grid (no ring/arch/disc), white squares cream-filled, so nothing to knock out; reused as is (Printful file 1088482107, 3421x4346). FW 1370 TOP 0 (tall print on the 6400's 1500x1800 area, 9.1 in wide). NEW Shopify DRAFT gid://shopify/Product/15364719706416 (Bella+Canvas 6400; White, Natural, Heather Stone, Athletic Heather, Pink, Navy, Black x S-3XL = 42, $24.99 no compare-at, category tees, tags christmas-shirts(-for-women) + funny-christmas-shirts); 'funny holiday shirt' 480/KD74 in map, in line one, FAQ and meta; 5 FAQs 47-52 words incl. order-by Dec 8. 7 color mockups + back, each color on its own photo. Cover registry 580, seedream 1 attempt ($0.06): hair clear, scarf below the print, SEASONALLY / OVERBOOKED and the calendar read. Printful sync 482687699 queued behind the re-links (chain389.sh); RESUME if it died: `FW=1370 TOP=0 python3 scripts/pf-sync.py setfile 482687699 1088482107 1080398177`, then REVIEW at 42/42. Audit only fails 'not visible on the storefront'.
+- 2026-10-18 06:07 UTC builder [A]: REVIEW: Printful sync 482687699 verified 42/42 on file 1088482107 (FW 1370 TOP 0, back logo kept); mockups, cover, copy and audit as logged above (audit only 'not visible on the storefront').
+- 2026-10-18 06:14 UTC director: LIVE. Sheet reviewed (R3/R4/R5/R6/R8/R13.3 pass), ACTIVE + published to Online Store, My Store Headless, Google & YouTube; cohesion-audit --handle PASS 0 warn.

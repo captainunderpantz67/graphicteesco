@@ -1,4 +1,5 @@
-status: READY
+status: REVIEW
+shopify: gid://shopify/Product/15364793368880
 lane: C
 type: twin
 id: 567
@@ -22,3 +23,5 @@ kd: 27
 ---
 ## Log
 - 2026-10-18 03:25 UTC director: brief written, READY (hoodie twin of LIVE #282; keyword measured this run).
+- 2026-10-18 06:16 UTC builder [C]: built from #282's print as is (Printful file 1088631396, 3128x3941). R6.2 check: BULKING SEASON is a real-font arched line, no ring/badge/frame/ground strip; Santa and the bench are the shape; no stray pure-white pockets (tank is planned cream). FW 1500 TOP 0: 1,890 px high, ends above the pouch on Dust and Athletic Heather (bench just clear); nothing shrunk, no re-lay needed. Colors Dust + Athletic Heather (light grey the dark-brown ink reads on; Bone does not exist on the 4719); BULKING SEASON reads at phone size on both. DRAFT gid 15364793368880 (12 variants S-3XL, $54.99, no compare-at, category hoodies, 9 tags per brief). Copy facts from the Printful spec (60% Airlume cotton / 40% poly, 10 oz, brushed fleece, no-drawcord hood, Nicaragua). FAQs 5 x 40-60 words, order-by Dec 8. Keyword gym christmas 720/27 in the map. Mockups Dust + Athletic Heather + back (front:Back view, rust neck logo) attached, variants linked. Cover: 1 fal image (registry #907, hood visible, boxy fit, hands in pouch, print faithful, BULKING SEASON reads). audit-local PASS. Printful sync 482697350 running; REVIEW once 12/12.
+- 2026-10-18 06:27 UTC builder [C]: Printful relink verified 12/12 on file 1088631396; REVIEW.
