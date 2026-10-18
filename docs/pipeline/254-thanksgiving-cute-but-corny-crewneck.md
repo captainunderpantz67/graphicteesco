@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: A
 type: twin
 id: 254
@@ -22,3 +22,4 @@ handle: womens-thanksgiving-cute-but-corny-crewneck-sweatshirt
 - 2026-10-17 02:33 UTC builder [A]: Printful sync complete; REVIEW.
 - 2026-10-17 03:14 UTC director: approved from docs/review/254.jpg; ACTIVE + Online Store + Headless + Google; cohesion-audit --handle PASS (0 warn). LIVE.
 - 2026-10-18 02:55 UTC Claude: REDO, lettering only (R5.3.10, Sam 2026-10-18: pattern-filled letters read as clip-art). Keep the art and the line. Re-set the words in a bold real font, solid ink with at most a keyline, via compose-print.py; new Printful file + mockups on the SAME product; stays ACTIVE (never unpublish). No fal needed. Twins share the new file.
+- 2026-10-18 builder [A]: Cute But Corny crewneck: same file 1088701547, FW 1650, sync 482342932 re-link queued. New mockups for every color + back replace the old media and variants re-linked; cover = new print composited onto the same live photo (R6.9, mug region kept on #149); copy/SEO rewritten without plaid/gingham (note for director: #149's keyword-map entry 'plaid sweatshirt' no longer fits the copy). Product stays ACTIVE. Until the re-link finishes (check default file on every variant) Printful still has the old file.

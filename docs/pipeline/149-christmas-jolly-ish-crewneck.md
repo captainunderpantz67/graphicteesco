@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: A
 type: twin
 id: 149
@@ -20,3 +20,4 @@ handle: womens-christmas-jolly-ish-crewneck-sweatshirt
 - 2026-10-16 21:36 UTC builder [A]: Printful sync complete; REVIEW.
 - 2026-10-16 22:17 UTC director: LIVE (ACTIVE + Online Store + Headless, audit --handle PASS). approved.
 - 2026-10-18 02:55 UTC Claude: REDO, lettering only (R5.3.10, Sam 2026-10-18: pattern-filled letters read as clip-art). Keep the art and the line. Re-set the words in a bold real font, solid ink with at most a keyline, via compose-print.py; new Printful file + mockups on the SAME product; stays ACTIVE (never unpublish). No fal needed. Twins share the new file.
+- 2026-10-18 builder [A]: Jolly-ish crewneck: R5.3.10 REDO done, no fal spend. Plaid removed: JOLLY solid red, ISH solid green, cream keyline, bow on top, candy cane/ornament/holly beneath; Printful file 1088701552, FW 1650, sync 482251505 re-link queued. New mockups for every color + back replace the old media and variants re-linked; cover = new print composited onto the same live photo (R6.9, mug region kept on #149); copy/SEO rewritten without plaid/gingham (note for director: #149's keyword-map entry 'plaid sweatshirt' no longer fits the copy). Product stays ACTIVE. Until the re-link finishes (check default file on every variant) Printful still has the old file.
