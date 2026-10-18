@@ -568,7 +568,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 671 | Korean-American man, mid 30s, undercut, round glasses | RESERVED — #467 Overthinkers Club Crewneck cover (with #670) |
 | 672 | Mexican-American woman, early 30s, long dark wavy hair in a low claw clip, small gold hoops | USED 2026-10-16 — #468 Thriving, Technically frog hoodie cover |
 | 673 | white woman, late 30s, honey-blonde shoulder-length waves, tortoiseshell glasses | USED 2026-10-18 — #469 Excused From Small Talk cover |
-| 674 | Indian-American woman, mid 20s, long straight black hair, small nose stud | RESERVED — #470 Excused From Small Talk Tee cover |
+| 674 | Indian-American woman, mid 20s, long straight black hair, small nose stud | USED — #470 Excused From Small Talk Tee cover (2026-10-18) |
 | 675 | Black man, early 40s, close-cropped hair, salt-and-pepper beard | USED 2026-10-17 — #471 Attending Under Protest crewneck cover (seedream, navy, hands in pockets) |
 | 676 | South Asian woman, early 30s, sleek low bun, small gold hoops | USED 2026-10-18 — #472 Per My Last Email Crewneck cover (with #677) |
 | 677 | white man, mid 30s, short dark hair, stubble | USED 2026-10-18 — #472 Per My Last Email Crewneck cover (with #676) |
@@ -716,5 +716,5 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 921 | Samoan-American man, late 30s, black hair in a short top-knot, full short beard, broad heavy build | CLAIMED 2026-10-18 — #581 No, I Can't Just Take a Quick Look Tee cover (brief) |
 | 922 | Hmong-American man, mid 40s, short black hair with grey at the temples, clean-shaven, medium build | CLAIMED 2026-10-18 — #582 No, I Can't Just Take a Quick Look Hoodie cover (brief) |
 | 923 | Ukrainian-American man, early 30s, shaggy light-brown hair tucked behind his ears, short stubble, slim build | CLAIMED 2026-10-18 — #583 The Neighbors Love Me Tee cover (brief) |
-| 924 | Mexican-American man, early 60s, thick grey hair combed back, grey horseshoe mustache, sturdy build | CLAIMED 2026-10-18 — #584 I Speak Fluent Rattle Tee cover (brief) |
+| 924 | Mexican-American man, early 60s, thick grey hair combed back, grey horseshoe mustache, sturdy build | USED 2026-10-18 — #584 I Speak Fluent Rattle tee cover (fal Seedream, home driveway with old pickup; try 1 kept) |
 | 925 | Black man, about 19, short twists, small silver hoop earring, slim build | CLAIMED 2026-10-18 — #585 The Neighbors Love Me Hoodie cover (brief) |
