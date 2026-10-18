@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-18 08:17 UTC
+status: REVIEW
 shopify: gid://shopify/Product/15364929880368
 lane: C
 type: twin
@@ -26,3 +26,4 @@ kd: 26
 - 2026-10-18 07:33 UTC director: brief written, READY (lane C hoodie twin of LIVE #576; kd 26, KD 21–35 band, nothing free at KD ≤ 20 for dachshund hoodies; third distinct dachshund hoodie for the planned collection).
 - 2026-10-18 08:19 UTC builder [C]: R6.2 check on #576's print (Printful 1088719431, 3289x2702): BANNED FROM STAIRS. real Alfa Slab with dark-brown keyline, runs the house. real Yellowtail with dark-brown keyline, no ring/panel/badge/card; stairs, gate and pillows end on their own shapes; counters (B, A, O, R, e) closed; stair-rail and gate-slat gaps open. Navy keeps the light-ink file as is (docs/print-files/621-banned-from-stairs-light-ink.png, Printful 1088719431). Sand gets its own dark-ink file: headline cream recolored solid dark brown #3b2a1d and the script mustard recolored rust #7a3b1d, with the old keyline pixels removed so the glyphs keep their open counters (first try merged the keyline into the fill and clogged the A and D, discarded); art untouched (docs/print-files/621-banned-from-stairs-dark-ink.png, Printful 1088766983). FW 1650 TOP 0 (wider than the brief's 1500, 1,355 px high, well above the pouch). Both lines read at 500 px on each mockup. DRAFT gid 15364929880368 (12 variants S-3XL, $39.99, no compare-at, hoodies category, tags per brief). FAQs 5 x 47-51 words, order-by Dec 8.
 - 2026-10-18 08:21 UTC builder [C]: mockups Navy + Sand + back (cream neck logo on Navy). Cover: 1 fal image (registry #961 pair, dachshund and ramp at their feet, clear of both prints); the model garbled runs the house., so the exact print (Navy light-ink file) was composited onto BOTH chests per R6.9 (inpainted, zoomed: both prints clean). Keyword sausage dog hoodie 880/KD 26 in the map. audit-local PASS 0 warn. fal total about $0.06. Sync 482708249 running; REVIEW at 12/12.
+- 2026-10-18 08:33 UTC builder [C]: Printful relink verified 12/12 (6 Sand on dark-ink 1088766983, 6 Navy on 1088719431, back logo on all); REVIEW.
