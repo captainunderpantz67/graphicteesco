@@ -6804,16 +6804,22 @@
   },
   "womens-embroidered-goose-plot-twist-pending-crewneck-sweatshirt": {
    "claimed": [
-    "goose sweatshirt"
+    "goose sweatshirt",
+    "reading sweatshirt"
    ],
    "gaps_measured": [
     {
      "phrase": "goose sweatshirt",
      "volume": 480,
      "kd": 58
+    },
+    {
+     "phrase": "reading sweatshirt",
+     "volume": 390,
+     "kd": 66
     }
    ],
-   "measured": "2026-10-17"
+   "measured": "2026-10-16"
   },
   "unisex-homebody-university-of-staying-in-crewneck-sweatshirt": {
    "claimed": [
