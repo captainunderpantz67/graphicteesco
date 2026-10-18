@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-18 05:40
+status: REVIEW
 lane: A
 type: twin
 id: 470
@@ -23,3 +23,4 @@ kd: 70
 ## Log
 - 2026-10-17 16:26 UTC director: brief written, READY (lane A; holiday pair twin of #469).
 - 2026-10-18 05:40 UTC builder [A]: BUILT except Printful link. Twin of #469 (LIVE), printed DTG (never says embroidered). R6.2 check on the source art (designs/b/xmas-excused-emb.png): EXCUSED FROM / SMALL TALK are AlfaSlabOne lines drawn by code, the book tree is code-drawn flat ink, no ring/arch/disc/box/panel and no closed white counters to knock out (one ink, transparent). Upscaled 1200 px to 3000x2988 with a crisp alpha (flat shapes), Printful files: red 1088708379 (White, Natural, Heather Stone, Athletic Heather, Pink) and cream 1088708380 (Navy, Black; the red would sink on dark), FW 1500 TOP 75 (tee floor). NEW Shopify DRAFT gid://shopify/Product/15364729176368 (Bella+Canvas 6400, 7 colors x S-3XL = 42, $24.99 no compare-at, category tees, tags christmas-shirts(-for-women) + funny-christmas-shirts); 'christmas book shirt' 50/KD70 in map and in line one, FAQ and meta; copy only describes the real art (5 books, spine bands/page edges, bookmark ribbon, lights swag); FAQs 5 x 47-52 words incl. order-by Dec 8. 7 color mockups + back, each color on its own photo. Cover registry 674, seedream 1 attempt ($0.06, Natural mockup as design): hair behind shoulders, bag below the print, every word reads. Printful sync 482688507 queued (chain470.sh: red file per light color, cream file for Navy and Black); RESUME if it died: `ONLY=" / <Color> /" FW=1500 python3 scripts/pf-sync.py setfile 482688507 <1088708379|1088708380> 1080398177` per color, then REVIEW at 42/42 with the right file per color. Audit only fails 'not visible on the storefront'.
+- 2026-10-18 06:18 UTC builder [A]: REVIEW: Printful sync 482688507 verified 42/42, 30 variants (White, Natural, Heather Stone, Athletic Heather, Pink) on the red file 1088708379 and 12 variants (Navy, Black) on the cream file 1088708380, FW 1500 TOP 75, back logo kept; everything else as logged above.
