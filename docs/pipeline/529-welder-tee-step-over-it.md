@@ -1,7 +1,8 @@
-status: BUILDING [B] 2026-10-18 02:06Z
+status: REVIEW
 lane: B
 type: new
 id: 529
+shopify: gid://shopify/Product/15364450484528
 handle: mens-welder-if-you-can-step-over-it-graphic-tee
 kd: 24
 ---
@@ -28,3 +29,4 @@ kd: 24
 ## Log
 - 2026-10-18 01:30 UTC director: brief written, READY (lane B evergreen; welder proof found this run: HoodLife welder tee 1,964 favorites).
 - 2026-10-18 02:20 UTC builder [B]: WIP: DRAFT, art, mockups (5 colors + back), copy, cover and review sheet done; Printful sync of 35 variants still running (queued behind other syncs); status goes to REVIEW at 35/35.
+- 2026-10-18 02:55 UTC builder [B]: full build. Art: 1 Recraft call, kept (a deadpan welder in apron and orange gloves, hood tipped up, arms crossed beside two steel I-beams with a thick weld bead splashing across the gap, welding cart behind). IF YOU CAN / STEP OVER IT, on two lines above (Big Shoulders Display 900, cream, dark-brown keyline, wider than the art) and I CAN FILL IT. below (Alfa Slab One, orange #e8832a, dark keyline) via compose-print, with a 16 px cream halo for the dark colors. One light-ink file for 5 dark colors (Navy, Black, Dark Grey Heather, Military Green, Heather Forest); the brief's dark-ink set (Natural, Soft Cream, Ash, Athletic Heather) is not built this round (one print file per product, log). Print 11.1 x 15.9 in (ratio 1.44): FW 1600, TOP 75 (not 1650: 1650 would be 2380 px tall against the 2325 left of the 2400 px area). DRAFT gid 15364450484528, category aa-1-13-8, 35 variants $24.99, compareAtPrice null, tags per brief, keyword welder shirt 9,900/KD24 in line one and meta, "welder gift" once in an FAQ, FAQ 6 x 40-60 words incl. Dec 8. Printful file 1088633791, sync 35/35. Mockups for all 5 colors + back attached and linked; phone-size read on Dark Grey Heather: all three lines legible. Cover: registry 869, 1 fal photo (Heather Forest), every word reads, hood on the bench not in his hands; the photo had a white border that was cropped off before saving; alt starts "Man". Audit-local PASS, astro build OK. fal $0.10.

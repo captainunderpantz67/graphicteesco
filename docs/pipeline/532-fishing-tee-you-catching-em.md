@@ -1,7 +1,8 @@
-status: BUILDING [B] 2026-10-18 02:10Z
+status: REVIEW
 lane: B
 type: new
 id: 532
+shopify: gid://shopify/Product/15364452450608
 handle: mens-fishing-you-catching-em-graphic-tee
 kd: 44
 ---
@@ -28,3 +29,4 @@ kd: 44
 ## Log
 - 2026-10-18 01:30 UTC director: brief written, READY (lane B funny-fishing; verified TikTok gripe, 738-favorite men's funny fishing tee proof).
 - 2026-10-18 02:20 UTC builder [B]: WIP: DRAFT, art, mockups (5 colors + back), copy, cover and review sheet done; Printful sync of 35 variants still running (queued behind other syncs); status goes to REVIEW at 35/35.
+- 2026-10-18 02:55 UTC builder [B]: full build. Art: 1 Recraft call, kept (grumpy man in bucket hat and red flannel in a lawn chair by a pond, rod in a holder, empty bucket, a jogger in a headband waving behind him among cattails). YOU CATCHING 'EM? (Alfa Slab One, cream, dark-green keyline, wider than the art) above and No. Keep Walking. (Yellowtail, faded red #c4543a, cream keyline, about 80% of the art width) below via compose-print with a 14 px cream halo for the dark colors. One light-ink file for 5 dark colors (Navy, Black, Dark Grey Heather, Military Green, Heather Forest); no dark-ink set for Natural/Ash this round (single file, log). Print 11.4 x 12.0 in (ratio 1.05), FW 1650 TOP 75. DRAFT gid 15364452450608, category aa-1-13-8, 35 variants $24.99, compareAtPrice null, tags per brief, keyword men's fishing shirt (map phrase "mens fishing shirt") 12,100/KD44 in line one and meta, never "fishing t shirts", FAQ 6 x 40-60 words incl. Dec 8. Printful file 1088635663, sync 35/35. Mockups for all 5 colors + back attached and linked; phone-size read on Black: both lines legible. Cover: registry 872, 1 fal photo (Military Green), every word reads, rod at the side clear of the print; alt starts "Man". Audit-local PASS, astro build OK. fal $0.10.
