@@ -1,4 +1,4 @@
-status: READY
+status: PARKED
 lane: A
 type: addon
 id: 666
@@ -25,3 +25,4 @@ kd: 34
 ---
 ## Log
 - 2026-10-18 director: brief written, READY (gift add-on, boxers first per Sam; source design A grade).
+- 2026-10-18 23:25 UTC director: PARKED. Boxers are OFF (Sam 2026-10-18: AOP boxer cost leaves about $3 at a sellable price; docs/backlog/gift-addons.md). The Shopify product stays DRAFT and unpublished (never delete without Sam's yes, R1.3). Revisit only if Sam brings boxers back with a cheaper supplier.

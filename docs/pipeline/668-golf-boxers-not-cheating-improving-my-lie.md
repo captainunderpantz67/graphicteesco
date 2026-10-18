@@ -1,4 +1,4 @@
-status: REVIEW
+status: PARKED
 lane: B
 type: addon
 id: 668
@@ -28,3 +28,4 @@ kd: 40
 - 2026-10-18 director: brief written, READY (gift add-on, boxers first per Sam; source design A grade).
 - 2026-10-18 [B]: built. DRAFT gid 15365985304880, Printful #428 sync 482874183, 7/7 (XS-3XL) on file 1089173024, full-wrap 7350x2550 (scripts/boxer-print.py, spec designs/b668/spec.json): raccoon motif repeat from Printful file 1088599211 (PNG from its fal URL) on navy #1b2540, Bowlby One lockup NOT CHEATING. / IMPROVING / MY LIE. ~2000 px wide on the back seat. Cost 20.76-24.76, profit >= 10.23 at 34.99 before fees. Keyword funny boxer briefs 390/KD40 (brief, recorded). FAQ 47-56 words. Cover: Printful model front mockup. Exchange FAQ quotes store policy (director: confirm applies to underwear). fal 0.
 - 2026-10-18 22:41 UTC [B] REVIEW #668 boxer briefs (mens-golf-not-cheating-improving-my-lie-boxer-briefs); sheet docs/review/668.jpg
+- 2026-10-18 23:25 UTC director: PARKED. Boxers are OFF (Sam 2026-10-18: AOP boxer cost leaves about $3 at a sellable price; docs/backlog/gift-addons.md). The Shopify product stays DRAFT and unpublished (never delete without Sam's yes, R1.3). Revisit only if Sam brings boxers back with a cheaper supplier.

@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: addon
 id: 660
@@ -29,3 +29,8 @@ kd: 17
 - 2026-10-18 director: Sam put funny boxers first, so build the boxer briefs #666–#669 before this one.
 - 2026-10-18 [B]: built. DRAFT gid 15365986091312, Printful #882 sync 482875559, 3/3 (S/M/L) on file 1089177053 (1348x5657 panel on all 4 leg placements; scripts/sock-print.py, spec designs/s660/spec.json): golfer motif from Printful file 1088580444 on cream, Fraunces 900 navy lockup SORRY ABOUT / YOUR / WINDSHIELD. on the leg, smaller motif repeat on the foot (panel: cuff y0, heel ~y3000). Cost 7.14, $18.99, profit ~11. Category aa-1-18 Socks. Keyword golf socks 12,100/KD 17 (brief), recorded. FAQ 44-53 words. Cover: Printful flat sock mockup (no person; no lifestyle mockup exists for #882, logged). The brief says a scatter of golf balls: the art has none (golfer + cars), so the foot repeats the golfer art. Exchange FAQ quotes store policy. fal 0.
 - 2026-10-18 22:48 UTC [B] REVIEW #660 boxer briefs (unisex-golf-sorry-about-your-windshield-socks); sheet docs/review/660.jpg
+- 2026-10-18 23:25 UTC director: REDO (director review of docs/review/660.jpg; quality reset PAUSED, so nothing goes live before RESUME anyway; add-ons may be fixed during the pause):
+  1. R13.3 / R5.3.5: on the Printful front view (left sock in every mockup) the lockup sits upside down at the bottom of the leg, and the shin shows only the small foot motifs. The front placement gets the panel rotated 180° (or its own placement file) so the joke reads upright on the shin, top of the leg, on every view. Check each mockup view: the line must read upright on the leg on all of them, upside down nowhere.
+  2. New-bar type (docs/backlog/quality-reset.md): the lockup fills only the top quarter of the leg and leaves an empty cream band to the heel. Scale the lockup and art up so they fill the leg from just under the cuff to about 1 in above the heel; headline at least 90% of the leg panel width; the foot keeps the small repeat.
+  3. Copy: the Story's 'lockup and the main art on the leg' line stays true only after fix 1; re-read it against the new mockups. Exchange FAQ is right (R12.2 covers socks: S/M/L are sizes). Missing golf balls/paw prints are fine: the foot repeating the main art is accepted.
+  4. Remake docs/review/660.jpg from the new mockups and log the sync file ids (R7.7) before REVIEW.

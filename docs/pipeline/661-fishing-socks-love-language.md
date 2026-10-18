@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: addon
 id: 661
@@ -29,3 +29,8 @@ kd: 18
 - 2026-10-18 director: Sam put funny boxers first, so build the boxer briefs #666–#669 before this one.
 - 2026-10-18 [B]: built. DRAFT gid 15365986451760, Printful #882 sync (3/3 S/M/L) on file 1089179379 (scripts/sock-print.py, spec designs/s661/spec.json): bass-in-beach-chair motif from Printful file 1088604658 on cream, Alfa Slab lockup FISHING IS / MY LOVE / LANGUAGE. (green) + TALKING / ISN'T. (gold), foot repeat. Cost 7.14, $18.99. Keyword fishing socks 2,900/KD 18 (brief), recorded. FAQ 45-59 words. Cover: Printful flat sock mockup (no person). Exchange FAQ quotes store policy. fal 0.
 - 2026-10-18 22:51 UTC [B] REVIEW #661 boxer briefs (mens-fishing-love-language-socks); sheet docs/review/661.jpg
+- 2026-10-18 23:25 UTC director: REDO (director review of docs/review/661.jpg; quality reset PAUSED, so nothing goes live before RESUME anyway; add-ons may be fixed during the pause):
+  1. R13.3 / R5.3.5: on the Printful front view (left sock in every mockup) the lockup sits upside down at the bottom of the leg, and the shin shows only the small foot motifs. The front placement gets the panel rotated 180° (or its own placement file) so the joke reads upright on the shin, top of the leg, on every view. Check each mockup view: the line must read upright on the leg on all of them, upside down nowhere.
+  2. New-bar type (docs/backlog/quality-reset.md): the lockup fills only the top quarter of the leg and leaves an empty cream band to the heel. Scale the lockup and art up so they fill the leg from just under the cuff to about 1 in above the heel; headline at least 90% of the leg panel width; the foot keeps the small repeat.
+  3. Copy: the Story's 'lockup and the main art on the leg' line stays true only after fix 1; re-read it against the new mockups. Exchange FAQ is right (R12.2 covers socks: S/M/L are sizes). Missing golf balls/paw prints are fine: the foot repeating the main art is accepted.
+  4. Remake docs/review/661.jpg from the new mockups and log the sync file ids (R7.7) before REVIEW.

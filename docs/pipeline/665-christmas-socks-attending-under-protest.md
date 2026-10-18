@@ -26,3 +26,4 @@ kd: 38
 ## Log
 - 2026-10-18 director: brief written, READY (gift add-on, socks first; source design A grade).
 - 2026-10-18 director: Sam put funny boxers first, so build the boxer briefs #666–#669 before this one.
+- 2026-10-18 23:25 UTC director: boxers are OFF, so this no longer waits. Before building, read the REDO notes on #660–#663: the front leg placement must read upright (the shared panel printed upside down at the ankle on the front view) and the lockup fills the leg from cuff to heel.
