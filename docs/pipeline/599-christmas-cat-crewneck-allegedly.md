@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-18 17:25
+status: ART-NEXT
 lane: A
 type: twin
 id: 599
@@ -27,3 +27,4 @@ kd: 35
 ---
 ## Log
 - 2026-10-18 06:26 UTC director: brief written, READY (lane A; kd 35; KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month or with a measured December surge; proof named under the gate).
+- 2026-10-18 17:26 UTC builder [A]: twin of #598 (LIVE). R6.2 check on source print 1088753341: lettering line ALLEGEDLY. is Alfa Slab (a real-font headline by the brief, solid red, closed counters knocked out), no ring/disc/box/panel; the braided rug is a scene object with worn uneven edges, not a straight-edged panel; no typeset tagline; Navy: cream halo around the cat, red lettering reads. Primary 'cat christmas sweater' (6,600 / KD 35, comp 19,918). DRAFT gid 15365757763888 (Sand + Navy x S-3XL = 12, $34.99, no compare-at, category aa-1-13-14). Same print file 1088753341 at FW 1650 TOP 75. Sync 482805120 started. Light file: none (no cream/white headline fill). Cover pending (registry #939).
