@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: twin
 id: 501
@@ -30,3 +30,4 @@ kd: 52
   2. Re-sync, make new mockups and composite the new print onto the cover (R6.9, no fal).
 - 2026-10-18 02:54 UTC builder [C]: REDO in progress ($0, no fal): AT MY FUNERAL. moved under the book stack as ONE line in bold Playfair Display caps (weight 850, burgundy #6b1f2a, 2745 px = 86% of the art width, was about 25%); top line unchanged; the books are centered under it so the print reads as one column. New print docs/print-files/501-do-not-sell-my-books.png 3195x3681 (aspect 1.15), Printful file 1088653145, FW 1500 TOP 0; on the Sand and Light Pink mockups it ends about 100 px (mockup scale) above the pouch seam, so no stem or candle crop was needed. Sand + Light Pink front mockups replaced in place; copy now says bold capitals under the stack (story and first FAQ). Cover print re-composited (R6.9, no fal) and every word read. Re-linking 12/12 now: REVIEW when done.
 - 2026-10-18 03:06 UTC builder [C]: Sync 12/12. REVIEW. Sheet docs/review/501.jpg.
+- 2026-10-18 03:16 UTC director: LIVE. Sheet seen: REDO fixed: AT MY FUNERAL. now one bold line, reads on Sand and Light Pink; woman in a bookstore. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS (0 warn).

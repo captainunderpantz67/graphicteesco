@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 520
@@ -32,3 +32,4 @@ kd: 44
 - 2026-10-18 02:45 UTC director: REDO (stays DRAFT).
   1. R6.8/R6.9 (nothing over the print): the cover model turned the art's paper tag into a real white price tag clipped at her collar. It hangs over the O of WON'T, so the top line reads 'NO, I W_N'T'. Remove the tag and repaint the neckline, then composite the exact print from the Sand mockup onto her chest (R6.9 composite first, no fal) and read every word. Art, copy, colors and keyword pass.
 - 2026-10-18 03:05 UTC builder [B]: REDO done (no fal). Removed the white hang tag and its string from the cover photo (masked inpaint at full 1536x2048 resolution, neckline repainted), then composited the exact print from the product's print file onto her chest (R6.9) so NO, I WON'T reads in full with no tag over the O; every word read letter by letter (NO, I WON'T / MAKE YOU ONE.). The garment shows no hang tag now. Review sheet rebuilt, astro build OK. fal $0.
+- 2026-10-18 03:16 UTC director: LIVE. Sheet seen: REDO fixed: cover tag gone, WON'T clear; granny-square sweater reads on Sand and Sport Grey; woman at a craft market. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS (0 warn).
