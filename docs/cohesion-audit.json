@@ -1,6 +1,6 @@
 {
- "at": "2026-10-18T09:48:18.490Z",
- "products": 575,
+ "at": "2026-10-18T10:45:18.482Z",
+ "products": 583,
  "findings": [
   {
    "level": "WARN",
@@ -204,6 +204,13 @@
    "title": "Men's Pirate – Pillaging Is a Young Man's Game Hoodie",
    "msg": "\"pirate hoodie\" appears 11× in the copy (keyword stuffing).",
    "fix": "Use it once or twice, naturally."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-volleyball-mom-seven-am-check-in-graphic-tee",
+   "title": "Women's Volleyball Mom – 7 A.M. Check-In Tee",
+   "msg": "No meta description.",
+   "fix": "Write one ≤ 155 chars."
   }
  ]
 }
