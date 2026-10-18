@@ -1,0 +1,29 @@
+status: READY
+lane: C
+type: new
+id: 607
+handle: womens-pickleball-kitchen-gossip-club-hoodie
+kd: 38
+---
+## Women's Pickleball – Kitchen Gossip Club Hoodie
+- **Blank:** Gildan 18500 pullover hoodie (Printful #146), 8 oz, 50/50 cotton-poly fleece, double-lined hood, pouch pocket; handle ends -hoodie. Copy facts from the Printful spec only (R7.1).
+- **Style:** A (R4.2), vintage to the edges, no badge, frame, border, rounded scene card or dark patch (R4.1, including the 2026-10-18 rounded-card line). New art: one Recraft v4 illustration call (--n 1), picture only, no words; at most 3 tries; if all are weak, PARK it and say why.
+- **Text on shirt (real fonts via scripts/compose-print.py, never drawn by the image model; spelled exactly):** KITCHEN (Alfa Slab One, faded red with a cream keyline, above) / GOSSIP CLUB (Alfa Slab One, navy with a cream keyline, below, at least 85% of the art's width). Solid ink.
+- **Hook:** Three 1960s women in visors and pearls lean together over the low net, paddles down, deep in conversation, while the ball sits forgotten at their feet. KITCHEN GOSSIP CLUB. The kitchen is the zone by the net, and that is where the real game happens; fake-club format (R3.1).
+- **Three lines considered (R3.1):** "Kitchen Gossip Club" · "Here for the Dinks and the Drama" · "Retired, Booked, Pickleball" (picked: fake club with a real double meaning; the second risks a groan).
+- **Joke QC (R3.7) / R3.12:** Outsider gets it in 3 seconds (women chatting instead of playing); family-clean; no league marks; 3 words. R3.12 passes.
+- **Why it's not taken:** pickleball hoodie listings are custom names and paddle logos; no gossip-club scene. Builder checks under 50 listings (R3.7.2).
+- **Design gate (5 parts, docs/research/how-to-research-a-design.md):** search: pickleball hoodie 260 / KD 38 (RankHero 2026-10-18; competition 2,003); under 1,000 and KD 36+, allowed because no pickleball hoodie phrase sits in an easier band and the pickleball family peaks in December (pickleball shirt 8,100 vs 5,400 in October, pickleball sweatshirt 1,600 vs 590) (R2.5) · proof: 'Wrestling Mom' 1,018 and hockey mom hoodie 1,056 favorites (sports-parent and fake-club statement prints sell), 'Playing Pickleball Improves Memory' 366 (niche) · insider: the kitchen · joke type: fake club · look: 1960s country-club print, faded red, navy, mint, cream · gift test: the mom or Mimi who plays three mornings a week.
+- **Art prompt (Recraft v4, one image per call):** Vintage 1960s country-club screen-print illustration: three cheerful women in their sixties wearing sun visors, pearl necklaces and tennis skirts, leaning in together over a low pickleball net, deep in conversation, paddles hanging at their sides, one pickleball sitting forgotten on the court at their feet. Faded red, navy, mint green, cream, soft black linework, halftone shading, worn screen-print texture, ragged broken edges, the three women and the net are the shape. No text, no letters, no logos, no background shape, no frame, no border, no badge, no rounded rectangle, no dark patch.
+- **Colors (R7.2):** Sand + Navy (R7.2 cold-weather launch colors).
+- **Primary keyword:** pickleball hoodie: 260 / KD 38 (RankHero via scripts/keyword-gap.py, 2026-10-18, director). Unowned. Supporting: none.
+- **Print size:** FW 1500 TOP 0 on the 18500, every word above the pouch (R5.3.2).
+- **Copy:** line one = the line + who wears it + when (R9.11), said plainly: no superlative opener built around the keyword (R8.3). Primary keyword in the title or SEO title, the first sentence and once in the meta; at most 3 times in all (the audit warns at 4). Describe only what is in the art; never say we drew it ("Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, weight, wash care, gift fit, Christmas order-by about Dec 8, free size exchange).
+- **Cover:** registry #943 (Puerto Rican woman, early 60s, short silver curls, red lipstick, gold hoops), CLAIMED. Scene: a sunny community pickleball court with friends chatting by the fence behind her, hood visible, a paddle in one hand at her side, the other in the pouch. Props never over the print (R6.5); hair tied back or behind the shoulders, first word of the top line checked letter by letter (R6.9). Printful mockup as `--design` (--n 1). Max 2 attempts.
+- **Title / handle:** "Women's Pickleball – Kitchen Gossip Club Hoodie" / `womens-pickleball-kitchen-gossip-club-hoodie` (R7.4; the suffix sets the audit price, R12.1).
+- **Tags:** graphic-hoodies-for-women, hoodie, ai-art, intake-done
+- **Price:** $39.99 pullover sale tier (R12.1), NO compare-at.
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d). Before REVIEW: Printful default file checked on every variant and logged (R7.7, 2026-10-18 line); cover chest zoomed to 200% (R6.9 clean-erase line).
+---
+## Log
+- 2026-10-18 06:26 UTC director: brief written, READY (lane C; kd 38; KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month or with a measured December surge; proof named under the gate).

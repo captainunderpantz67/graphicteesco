@@ -8375,11 +8375,10 @@
     {
      "phrase": "grumpy christmas",
      "volume": 720,
-     "kd": 27,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 27
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-cat-oops-anyway-cropped-hoodie": {
    "claimed": [
@@ -8819,6 +8818,214 @@
      "phrase": "hockey shirt",
      "volume": 8100,
      "kd": 46
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-christmas-cat-allegedly-graphic-tee": {
+   "claimed": [
+    "christmas cat tee"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas cat tee",
+     "volume": 880,
+     "kd": 54
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-christmas-cat-allegedly-crewneck-sweatshirt": {
+   "claimed": [
+    "cat christmas sweater"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cat christmas sweater",
+     "volume": 6600,
+     "kd": 35
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-running-here-for-the-free-banana-graphic-tee": {
+   "claimed": [
+    "running shirt women"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "running shirt women",
+     "volume": 3600,
+     "kd": 38
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-marathon-hit-the-wall-the-wall-won-graphic-tee": {
+   "claimed": [
+    "marathon shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "marathon shirt",
+     "volume": 1600,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-tennis-love-means-nothing-to-me-graphic-tee": {
+   "claimed": [
+    "funny tennis tshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny tennis tshirt",
+     "volume": 480,
+     "kd": 35
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-pickleball-banned-from-the-kitchen-graphic-tee": {
+   "claimed": [
+    "funny pickleball shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny pickleball shirt",
+     "volume": 1600,
+     "kd": 38
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-fishing-shouldve-been-here-yesterday-hoodie": {
+   "claimed": [
+    "fishing hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fishing hoodie",
+     "volume": 6600,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-gym-lift-heavy-reply-later-cropped-hoodie": {
+   "claimed": [
+    "gym crop hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "gym crop hoodie",
+     "volume": 480,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "unisex-running-mile-one-was-a-mistake-hoodie": {
+   "claimed": [
+    "runner hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "runner hoodie",
+     "volume": 5400,
+     "kd": 22
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-pickleball-kitchen-gossip-club-hoodie": {
+   "claimed": [
+    "pickleball hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pickleball hoodie",
+     "volume": 260,
+     "kd": 38
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-pickleball-polite-until-the-third-shot-graphic-tee": {
+   "claimed": [
+    "pickleball shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pickleball shirt",
+     "volume": 6600,
+     "kd": 39
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "unisex-pickleball-my-partner-says-it-was-out-graphic-tee": {
+   "claimed": [
+    "pickleball gifts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pickleball gifts",
+     "volume": 5400,
+     "kd": 48
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-pickleball-booked-solid-crewneck-sweatshirt": {
+   "claimed": [
+    "pickleball sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pickleball sweatshirt",
+     "volume": 590,
+     "kd": 44
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-tennis-club-mostly-social-crewneck-sweatshirt": {
+   "claimed": [
+    "tennis sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "tennis sweatshirt",
+     "volume": 1300,
+     "kd": 38
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-running-i-only-run-downhill-graphic-tee": {
+   "claimed": [
+    "funny running shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny running shirt",
+     "volume": 1000,
+     "kd": 44
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-bowling-league-night-is-not-optional-graphic-tee": {
+   "claimed": [
+    "funny bowling shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny bowling shirt",
+     "volume": 1300,
+     "kd": 32
     }
    ],
    "measured": "2026-10-18"
