@@ -8028,6 +8028,184 @@
     }
    ],
    "measured": "2026-10-18"
+  },
+  "mens-golf-fairways-are-a-rumor-half-zip": {
+   "claimed": [
+    "half zip sweater"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "half zip sweater",
+     "volume": 40500,
+     "kd": 8,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "half zip fleece",
+     "volume": 12100,
+     "kd": 11,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "quarter zip pullover",
+     "volume": 9900,
+     "kd": 30,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-fishing-shouldve-been-here-yesterday-graphic-tee": {
+   "claimed": [
+    "walleye shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "walleye shirt",
+     "volume": 320,
+     "kd": 32,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "crappie shirt",
+     "volume": 140,
+     "kd": 38,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-gym-rack-your-weights-respectfully-graphic-tee": {
+   "claimed": [
+    "gym tees"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "gym tees",
+     "volume": 2900,
+     "kd": 16,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "gym tee",
+     "volume": 2900,
+     "kd": 53,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "lifting shirt",
+     "volume": 1900,
+     "kd": 40,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-gym-mid-set-not-interested-graphic-tee": {
+   "claimed": [
+    "workout shirts for women"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "workout shirts for women",
+     "volume": 3600,
+     "kd": 14,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "lifting shirt women",
+     "volume": 590,
+     "kd": 28,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "gym shirt women",
+     "volume": 8100,
+     "kd": 47,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-christian-short-grace-hot-food-graphic-tee": {
+   "claimed": [
+    "christian shirts men"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christian shirts men",
+     "volume": 12100,
+     "kd": 11,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "mens christian shirt",
+     "volume": 9900,
+     "kd": 57,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-cropped-book-buying-ban-graphic-tee": {
+   "claimed": [
+    "graphic crop top"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "graphic crop top",
+     "volume": 2400,
+     "kd": 42,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "bookish tees",
+     "volume": 320,
+     "kd": 32,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "funny crop top",
+     "volume": 590,
+     "kd": 49,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "unisex-national-park-switchbacks-build-character-crewneck-sweatshirt": {
+   "claimed": [
+    "national park sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "national park sweatshirt",
+     "volume": 1000,
+     "kd": 46,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-dog-dad-unpaid-doorman-graphic-tee": {
+   "claimed": [
+    "dog dad shirts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dog dad shirts",
+     "volume": 1600,
+     "kd": 17,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "dog dad t shirt",
+     "volume": 1600,
+     "kd": 53,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

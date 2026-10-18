@@ -684,3 +684,11 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 897 | Thai-American man, mid 30s, short black hair with a messy fringe, thin black-framed glasses, clean-shaven, slim build | CLAIMED 2026-10-18 — #557 Can't, Cat's on Me Tee cover (brief) |
 | 898 | Dominican-American woman, late 20s, curly dark-brown hair in a high bun, small gold nose ring, curvy build | CLAIMED 2026-10-18 — #558 Not My Turn With the Brain Cell Zip Hoodie cover (brief) |
 | 899 | Cherokee woman, late 40s, long straight black hair with grey strands in a low braid, small turquoise studs, medium build | CLAIMED 2026-10-18 — #559 If It's Brown, Lie Down Crewneck Sweatshirt cover (brief) |
+| 882 | Cuban-American man, late 50s, short silver hair combed back, trimmed silver beard, tanned skin, medium build | CLAIMED 2026-10-18 — #542 Fairways Are a Rumor Half Zip cover (brief) |
+| 883 | Polish-American man, early 60s, grey flat-top crew cut, clean-shaven, ruddy cheeks, barrel-chested build | CLAIMED 2026-10-18 — #543 Should've Been Here Yesterday Tee cover (brief) |
+| 884 | Ghanaian-American man, mid 20s, low taper fade with a part line, clean-shaven, lean muscular build | CLAIMED 2026-10-18 — #544 Rack Your Weights. Respectfully. Tee cover (brief) |
+| 885 | Ethiopian-American woman, early 30s, long box braids tied back in a high ponytail, small silver studs, muscular athletic build | CLAIMED 2026-10-18 — #545 Mid-Set. Not Interested. Tee cover (brief) |
+| 886 | Guatemalan-American man, mid 40s, short side-parted black hair, neat black mustache, medium build | CLAIMED 2026-10-18 — #546 Short Grace. Hot Food. Tee cover (brief) |
+| 887 | Vietnamese-American woman, about 20, long straight black hair with curtain bangs, round tortoiseshell glasses, slim build | CLAIMED 2026-10-18 — #547 Book Buying Ban Cropped Tee cover (brief) |
+| 888 | man AND woman together: Japanese-American man, late 20s, short black hair, light stubble, lean build; Irish-American woman, late 20s, long copper hair in a braid behind her shoulder, light freckles, medium build | CLAIMED 2026-10-18 — #548 Switchbacks Build Character Crewneck Sweatshirt cover (brief, pair on one number) |
+| 889 | Iranian-American man, mid 30s, thick dark wavy hair, full trimmed dark beard, medium build | CLAIMED 2026-10-18 — #549 Unpaid Doorman Tee cover (brief) |
