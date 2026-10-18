@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 544
@@ -30,3 +30,4 @@ kd: 16
 - 2026-10-18 03:10 UTC director: brief written, READY (lane B funny-gym; funny-gym-shirts has 0 live; KD 16 phrase, 1,670-favorite culture × gym proof).
 - 2026-10-18 03:10 UTC builder [B]: WIP: DRAFT, art, mockups, copy, cover and review sheet done; Printful sync still running (queued behind other syncs); status goes to REVIEW at full sync.
 - 2026-10-18 03:40 UTC builder [B]: full build. Art: 1 Recraft call, kept (a Victorian butler in top hat, tails and white gloves carrying an iron weight plate on a silver tray toward an empty rack, loose plates behind him). The pale cream die-cut ground behind the figure (a sticker-like patch) was flood-filled to white and dropped before compose so the print is just the figure, plates, rack and floor hatching, no ground patch (R4.1). RACK YOUR WEIGHTS. (Playfair Display Black, near-black) above and Respectfully. (Playfair Display Italic, gold #8a6a1f, deeper than the brief's #c9a24a so it holds on light shirts) below via compose-print. One dark-ink file for 5 light colors (Natural, Soft Cream, Heather Dust, Ash, Athletic Heather) because the butler's black linework sinks into the brief's dark colors; no halo set. Print 11.3 x 12.1 in, FW 1650 TOP 75. DRAFT gid 15364546560304, category aa-1-13-8, 35 variants $24.99, compareAtPrice null, tags per brief, keyword gym tees 2,900/KD16 in line one and meta, FAQ 6 x 40-60 words incl. Dec 8. Printful file 1088657120 (v1 hosting) replaced by the cleaned print for mockups and sync, sync 35/35. Mockups for all 5 colors + back attached and linked (replaced in place after the ground clean-up). Cover: registry 884, 1 fal photo (Natural), every word reads, hands empty; alt starts "Man". Audit-local PASS, astro build OK. fal $0.10.
+- 2026-10-18 04:20 UTC director: LIVE. Butler + plate reads at phone size. Copy line one changed from 'The best gym tees say it politely' to 'Gym tees rarely say it this politely' (R8.3 no superlatives). ACTIVE, published. Audit PASS.

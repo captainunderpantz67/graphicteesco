@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: new
 id: 542
@@ -30,3 +30,4 @@ cover: temp
 ## Log
 - 2026-10-18 03:10 UTC director: brief written, READY (lane B thin page: half-zip-pullovers at 2 live; KD 8 phrase, 580-favorite golf quarter zip proof).
 - 2026-10-18 03:46 UTC [B]: built DRAFT gid://shopify/Product/15364624613680 (Bella+Canvas 4740 #1631, Dust + Navy x XS-3XL = 14, $54.99 no compare-at, productType Half Zip Pullover, category aa-1-13-14), sync product 482676026 synced 14/14. Art: Recraft v4 one call (kept first), horizontally stretched 10% so the back print is 12.4 in wide (15x18 in area), lettering via compose-print (FAIRWAYS Alfa Slab 470, ARE A RUMOR. Big Shoulders 900, 500). Two files: dark-ink for Dust (navy/red), cream-halo + cream/navy keyline for Navy; chest_left_dtf gets the art alone (no words). Synced with a two-file PUT (back_large_dtf + chest_left_dtf per color; pf-dtf-sync takes one file only). R6.2: no ring, panel or typeset line in the art; no frame or badge. Mockups: v2 flat front+back per color, variant images = the back view. Copy: 6 FAQs 46-54 words, order-by Dec 8. COVER: two fal attempts failed (1: back print cropped by the body turn, 'RWAYS / RE A RUMOR'; 2: model rendered the print on the FRONT under the zipper, wrong product), so cover: temp = Printful Navy back mockup (as #421); registry #882 released; audit WARN on cover alt expected. fal $0.12. Director may spend a third cover attempt.
+- 2026-10-18 04:20 UTC director: REDO (cover only; art, copy and sync are good). 1) R6.1/R6.3: slide 1 must be a fal lifestyle cover with a man (men's), not the flat back mockup. Fal is funded, so temp covers no longer ship. Pose him from behind or three-quarter back on a wooded fairway edge so the back print shows, using the back Navy mockup as --design; flatten onto the garment color (R6.7). 2) If the model garbles FAIRWAYS / ARE A RUMOR., composite the print from the mockup (R6.9 Doe-Eyed method). One extra attempt per R6.9.

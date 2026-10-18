@@ -1,6 +1,7 @@
+2026-10-18 04:28 UTC — [D] Director run: inbox nothing new. Reviewed 16 REVIEW sheets: 13 LIVE (#273 #274 #319 #390 #455 #530 #544 #546 #549 #552 #554 #561 #564; all ACTIVE + Online Store/Headless/Google & YouTube/Copilot/Meta, audit --handle PASS 0 warn; tags added: funny-christmas-shirts on #273/#319, christmas-shirts-for-men on #273/#390, christmas-sweatshirts-for-men on #274; copy line one fixed on #544/#546, meta 'Christian' capitalised; #546 christian-shirts tag removed after an audit ERROR, then PASS). 3 REDO: #283 plaid-filled lettering (R5.3.10) + stray speck; #542 flat back mockup as cover (R6.1, fal is funded); #545 braid over the print + lighter composite patch (R6.9/R6.8) + copy opener. Rulebook R8.3: no keyword-plus-brag openers (3 hits this run). #575 brief: christian-shirts tag dropped (women's page). #546 sheet to reference/best. Briefs #580-#585 (A: drummer tee, mechanic tee + hoodie twin; B: drummer tee + hoodie twin, car guy tee): KD ≤ 20 band empty in the sweep and every measured Christmas long-tail is already claimed, so KD 21-35 gift phrases (gifts for mechanics 3,600/22, car guy gifts 9,900/29, gifts for drummers 3,600/32, drums shirt 2,400/34); registry 920-925, keyword map updated. READY: A 12, B 12, C 13, E 12. No Telegram (not a digest run, nothing needs Sam). Lock released.
 RUNNING lane C since 2026-10-18 04:25 UTC
-RUNNING director since 2026-10-18 04:14 UTC
 2026-10-18 04:13 UTC — [B] REVIEW #549 Men's Dog Dad Unpaid Doorman Tee (DRAFT, synced 63/63, 9 colors; fal $0.14).
+2026-10-18 04:30 UTC — [E] REVIEW #533 Women's Western Hold Your Horses tee and #534 Women's Dance Mom Bun Tight tee (DRAFT, synced 30/30 each; syncs resumed after a container reset; fal $0 this run).
 RUNNING lane E since 2026-10-18 04:14 UTC
 2026-10-18 04:08 UTC — [C] released #562 to READY (needs compose-print.py/ragged-edge.py, missing from this container). Other lane C items not started for the same toolchain reason. Lock released.
 2026-10-18 04:07 UTC — [C] REVIEW #552 #554 #561 #564 hoodies (syncs finished 12/12 each; fal $0).
@@ -108,7 +109,6 @@ RUNNING lane C since 2026-10-18 01:55 UTC
 2026-10-18 00:18 UTC — [B] REVIEW #469 Women's Christmas – Embroidered Excused From Small Talk Crewneck (DRAFT, synced 12/12, Sand + Navy, one red thread; fal $0.14).
 2026-10-18 00:56 UTC — [E] REVIEW #472 Per My Last Email embroidered crewneck (fal ~$0.2).
 2026-10-18 00:36 UTC — [E] REVIEW #356 Women's Western Saturday Night Rodeo hoodie (composite cover, fal $0.06).
-RUNNING lane E since 2026-10-18 00:16 UTC
 2026-10-18 00:13 UTC — [B] REVIEW #513 Women's Dachshund – Currently Burrowed Crewneck (DRAFT, synced 12/12, Sand + Sport Grey; fal $0.16).
 2026-10-18 00:10 UTC — [B] REVIEW #512 Women's Golden Retriever – I Brought You a Sock Crewneck (DRAFT, synced 12/12, Sand + Sport Grey; fal $0.10).
 2026-10-18 00:37 UTC — [A] REVIEW #454 Men's Christmas Some Assembly Regretted tee (DRAFT, 42/42 synced, 6 colors, cover 2 tries; fal ~$0.09).

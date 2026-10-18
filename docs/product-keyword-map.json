@@ -8531,6 +8531,114 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-drummer-professionally-loud-graphic-tee": {
+   "claimed": [
+    "gifts for drummers"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "gifts for drummers",
+     "volume": 3600,
+     "kd": 32,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "drummer gifts",
+     "volume": 3600,
+     "kd": 32,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-mechanic-no-i-cant-just-take-a-quick-look-graphic-tee": {
+   "claimed": [
+    "gifts for mechanics"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "gifts for mechanics",
+     "volume": 3600,
+     "kd": 22,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "mechanic gifts",
+     "volume": 3600,
+     "kd": 35,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-mechanic-no-i-cant-just-take-a-quick-look-hoodie": {
+   "claimed": [
+    "mechanic hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "mechanic hoodie",
+     "volume": 320,
+     "kd": 32,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-drummer-the-neighbors-love-me-graphic-tee": {
+   "claimed": [
+    "drums shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "drums shirt",
+     "volume": 2400,
+     "kd": 34,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "drum shirt",
+     "volume": 1900,
+     "kd": 34,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-car-guy-i-speak-fluent-rattle-graphic-tee": {
+   "claimed": [
+    "car guy gifts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "car guy gifts",
+     "volume": 9900,
+     "kd": 29,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "auto mechanic shirt",
+     "volume": 320,
+     "kd": 32,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-drummer-the-neighbors-love-me-hoodie": {
+   "claimed": [
+    "drummer hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "drummer hoodie",
+     "volume": 210,
+     "kd": 33,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

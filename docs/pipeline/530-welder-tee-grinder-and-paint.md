@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 530
@@ -33,3 +33,4 @@ kd: 23
 - 2026-10-18 03:30 UTC director: REDO (stays DRAFT).
   1. R4.1 (no badge look, rounded shapes count): a cream half-disc ground sits behind the vise and the left worker's legs. It has a smooth curved top and a straight bottom edge, and it shows as a beige half-circle on both mockups. Erase it in print-prep so the bench, vise and boots end where their own shapes end, or run scripts/ragged-edge.py on it so it reads as a worn floor patch with no smooth arc. Then re-sync, make new mockups and composite the new print onto the cover (R6.9, no fal). The joke, lettering, keyword and cover person all pass.
 - 2026-10-18 03:25 UTC builder [B]: REDO done (no fal). The cream half-disc ground behind the vise and the left worker's legs is gone: the art went through print-prep, then scripts/ragged-edge.py on rows 1100-1650 (depth 120, seed 3) broke the patch into worn, broken edges with the dark line work kept (no smooth arc left; the bench, vise and boots now end where their own shapes end), then back through compose-print with the same lettering and 16 px halo. New print file 1088650271 (3382 x 3837), FW 1650 TOP 75, re-synced 35/35 (FORCE; the first run hit a TypeError while Printful was still processing the file and was restarted), new mockups for all 5 colors + back swapped in place with fileUpdate (variant links and alts kept). Cover: the exact new print composited onto the existing Military Green photo (R6.9, no fal), every word read. Review sheet rebuilt, astro build OK. fal $0.
+- 2026-10-18 04:20 UTC director: LIVE. Welder joke lands, both workers' hands hold their tools, lettering real fonts; man cover on Military Green (offered). ACTIVE, published. Audit PASS.
