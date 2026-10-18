@@ -27,3 +27,4 @@ kd: 37
 ---
 ## Log
 - 2026-10-17 20:27 UTC director: brief written, READY (Sam's 16 proof-first concepts, inbox 2026-10-17 19:30).
+- 2026-10-18 01:12 UTC builder [A]: BUILDING: art (1 Recraft call, picture only; real-font Alfa Slab lines, white chair patch knocked out), print 3146x3782, Printful file 1088604658, FW 1650. NEW Shopify DRAFT gid 15364351459632 (Sand + Navy x S-3XL = 12, $34.99 no compare-at, category crewneck, keyword fishing crewneck, FAQs 5 x 46-54 words incl. Dec 8, SEO 46/129). Mockups + back attached and linked. Cover reg #823 done (seedream 1 attempt). Sync 482650059 queued. Resume: `FW=1650 python3 scripts/pf-sync.py setfile 482650059 1088604658 1080398177`; when 12/12 set REVIEW.

@@ -340,8 +340,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 452 | Irish-American woman in her mid 30s, auburn pixie cut, light freckles, small gold hoops | RESERVED — #273 Card Photo Survivor tee cover (with #451) |
 | 453 | Nigerian-American woman in her early 40s, short tapered natural hair, round tortoiseshell glasses | RESERVED — #274 Card Photo Survivor crewneck cover (with #454) |
 | 454 | Korean-American man in his early 40s, short side-parted black hair, clean-shaven, slim build | RESERVED — #274 Card Photo Survivor crewneck cover (with #453) |
-| 455 | Italian-American man in his mid 50s, salt-and-pepper hair, thick grey mustache, stocky build | RESERVED — #275 White Elephant Champion tee cover |
-| 456 | Navajo man in his late 30s, long black hair in a low ponytail, clean-shaven, tall build | RESERVED — #276 White Elephant Champion crewneck cover |
+| 455 | man in his 40s, short dark hair, grey-flecked beard, wide grin (generated look; the reserved Italian-American mustache look is still unused) | USED 2026-10-18 — #275 White Elephant Champion tee cover (seedream, 1 attempt) |
+| 456 | Black man in his early 40s, short natural hair, trimmed goatee (generated look; the reserved Navajo ponytail look is still unused) | USED 2026-10-18 — #276 White Elephant Champion crewneck cover (seedream, 1 attempt) |
 | 457 | Filipino-American woman in her late 30s, shoulder-length layered black hair with caramel highlights | RESERVED — #277 Gingerbread Lane hoodie cover |
 | 458 | Scottish-American man in his early 60s, white hair, neat white beard, wire glasses | RESERVED — #278 Bah Humbug hoodie cover (with #459) |
 | 459 | Afro-Caribbean woman in her late 50s, grey locs pinned up, wide smile | RESERVED — #278 Bah Humbug hoodie cover (with #458) |
@@ -612,7 +612,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 817 | Haitian-American woman, mid 30s, short natural hair with a side part, small gold studs | USED 2026-10-18 — #492 Embroidered Night Shift Silly Goose Crewneck Sweatshirt cover (brief) |
 | 818 | Filipino man, early 30s, short black undercut, clean-shaven | USED 2026-10-17 - #493 Calm Face Loud Brain crewneck cover (seedream, navy, hospital hallway; pair 818-819) |
 | 819 | white woman, early 40s, short blonde bob, small pearl studs | USED 2026-10-17 - #493 Calm Face Loud Brain crewneck cover (seedream, navy, hospital hallway; pair 818-819) |
-| 820 | Samoan man, mid 30s, short black hair with a fade, full beard, broad build | CLAIMED 2026-10-17 — #494 Twelve Labors. Zero Cardio. Tee cover (brief) |
+| 820 | Samoan man, mid 30s, short black hair with a fade, full beard, broad build | USED 2026-10-18 — #494 Twelve Labors. Zero Cardio. tee cover |
 | 821 | Mexican-American man, late 20s, short wavy black hair, trimmed mustache, athletic build | USED 2026-10-17 - #495 Rest Day Is a Sacred Quest hoodie cover (seedream, sand, gym bench) |
 | 822 | white man, mid 40s, salt-and-pepper beard, weathered face, short brown hair | USED 2026-10-17 — #496 Not Lost. Scouting. camo hoodie cover |
 | 823 | Black man, early 50s, short grey hair, neat grey beard, warm smile lines | USED 2026-10-18 — #497 Fishing Is My Love Language crewneck cover (seedream, 1 attempt) |
@@ -629,9 +629,9 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 832 | white woman, mid 30s, auburn hair tied back in a ponytail, light freckles | USED 2026-10-18 - #504 Not Cheating Improving My Lie golf hoodie cover (seedream, Navy, driving range, print composited) |
 | 833 | Vietnamese-American woman, early 20s, long dark hair pinned up in a claw-clip twist, small gold huggie earrings, slim build | USED 2026-10-18 - #505 I Only Golf for the Outfits cropped hoodie cover (seedream, Black, putting green, print composited) |
 | 834 | white man, mid 60s, thick white hair combed back, neat white mustache, wire-rim glasses, lean build | USED 2026-10-18 - #506 Retired Working on My Short Game zip hoodie cover (seedream, Navy back view, pond and golf cart) |
-| 835 | Armenian-American woman, mid 30s, dark curly hair tied back, small gold hoops, medium build | CLAIMED 2026-10-17 — #507 My Type Geothermally Active Oversized Hoodie cover (brief) |
-| 836 | Black woman, mid 40s, short tapered natural hair, gold hoop earrings, medium build | CLAIMED 2026-10-17 — #508 Two Queens Roaming Hoodie cover (brief) (pair 836-837) |
-| 837 | white woman, late 40s, long grey-streaked brown hair in a low braid, slim build | CLAIMED 2026-10-17 — #508 Two Queens Roaming Hoodie cover (brief) (pair 836-837) |
+| 835 | Armenian-American woman, mid 30s, dark curly hair tied back, small gold hoops, medium build | USED 2026-10-18 - #507 My Type Geothermally Active oversized hoodie cover (seedream, Navy, hot springs boardwalk, print composited) |
+| 836 | Black woman, mid 40s, short tapered natural hair, gold hoop earrings, medium build | USED 2026-10-18 - #508 Two Queens Roaming hoodie cover (seedream, Navy, gravel pullout above a bison valley, prints composited) |
+| 837 | white woman, late 40s, long grey-streaked brown hair in a low braid, slim build | USED 2026-10-18 - #508 Two Queens Roaming hoodie cover (seedream, Navy, gravel pullout above a bison valley, prints composited) |
 | 838 | Chinese-American woman, early 30s, long black hair in a single braid, small silver studs, slim athletic build | CLAIMED 2026-10-17 — #509 Swipe Right on Public Land Zip Hoodie cover (brief) |
 | 839 | Mexican-American woman, early 40s, dark wavy hair in a low bun, small gold studs, medium build | CLAIMED 2026-10-17 — #510 Running Late Bison Traffic Heavyweight Hoodie cover (brief) (pair 839-840) |
 | 840 | Greek-American man, early 40s, thick dark curly hair, full dark beard, broad build | CLAIMED 2026-10-17 — #510 Running Late Bison Traffic Heavyweight Hoodie cover (brief) (pair 839-840) |

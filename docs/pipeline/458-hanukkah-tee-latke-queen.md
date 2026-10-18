@@ -22,3 +22,4 @@ kd: 36
 ## Log
 - 2026-10-17 15:22 UTC director: brief written, READY (keyword measured this run, low-KD sweep; lane A).
 - 2026-10-17 16:26 UTC director: source #457 line rewritten to "Fried Food Is Tradition" (R3.1). Use the new line in this twin's title, handle and copy when it is built; stays READY.
+- 2026-10-18 01:12 UTC builder [A]: BUILDING: twin of #457, print file 1088601728 (copy of 1088459209), FW 1800. Shopify DRAFT gid 15364344054064 (BC 6400, White/Natural/Pink/Heather Blue Lagoon/Athletic Heather/Navy x S-3XL = 36, $24.99 no compare-at, FAQs 5 x 46-49 words incl. order by Nov 20, SEO 46/132). R6.2 check: lettering is Alfa Slab gingham in a real font (R4.8, #457 LIVE), no ring/arch/panel; fine. Mockups for all 6 colors + back attached and linked; cover reg #658 done (seedream 1 attempt), sheet made. Sync 482648619 queued. Resume: `FW=1800 python3 scripts/pf-sync.py setfile 482648619 1088601728 1080398177`; when 36/36 set REVIEW.
