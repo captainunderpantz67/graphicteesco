@@ -562,8 +562,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 665 | Black woman, about 21, curly high puff, small silver hoops | USED 2026-10-17 — #464 Core Issues cropped hoodie cover (try 1, image 1 of 1) |
 | 666 | South Asian man, early 40s, short salt-and-pepper hair, clean-shaven | USED 2026-10-17 - #465 I Rest My Case lawyer hoodie cover (pair with #666-667) |
 | 667 | white woman, early 40s, straight red bob | USED 2026-10-17 - #465 I Rest My Case lawyer hoodie cover (pair with #666-667) |
-| 668 | Filipino-American woman, late 20s, shoulder-length black hair with curtain bangs | RESERVED — #466 Overthinkers Club Hoodie cover (with #669) |
-| 669 | white man, late 20s, curly ginger hair, light freckles | RESERVED — #466 Overthinkers Club Hoodie cover (with #668) |
+| 668 | Filipino-American woman, late 20s, shoulder-length black hair with curtain bangs | USED 2026-10-18 — #466 Overthinkers Club Hoodie cover (with #669) |
+| 669 | white man, late 20s, curly ginger hair, light freckles | USED 2026-10-18 — #466 Overthinkers Club Hoodie cover (with #668) |
 | 670 | Black woman, mid 30s, short natural twist-out, small gold studs | RESERVED — #467 Overthinkers Club Crewneck cover (with #671) |
 | 671 | Korean-American man, mid 30s, undercut, round glasses | RESERVED — #467 Overthinkers Club Crewneck cover (with #670) |
 | 672 | Mexican-American woman, early 30s, long dark wavy hair in a low claw clip, small gold hoops | USED 2026-10-16 — #468 Thriving, Technically frog hoodie cover |
