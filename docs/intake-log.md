@@ -1,4 +1,5 @@
 RUNNING director since 2026-10-18 06:12 UTC
+2026-10-18 06:23 UTC — [C] REVIEW #565 Men's Welder If You Can Step Over It hoodie (twin of #529; art 96% re-lay 2,041 px at FW 1500; fal $0.06) (synced 12/12 on 1088726131).
 2026-10-18 06:19 UTC — [C] REVIEW #563 Women's Gigi Because Grandma Sounded Old hoodie (twin of #522; re-laid print 1,978 px at FW 1500; fal $0.06) (synced 12/12 on 1088725123).
 2026-10-18 06:02 UTC — [B] REVIEW #574 Women's Cropped Lift Heavy. Reply Later. tee — 45/45 synced; default file 40 on 1088691210 (dark ink), 5 on 1088691233 (Black, halo), back logo on all
 2026-10-18 06:18 UTC — [A] [A] 470 Excused From Small Talk tee (twin of 469, DTG): 42/42 synced, REVIEW
