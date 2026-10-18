@@ -1,6 +1,7 @@
+RUNNING director since 2026-10-18 07:15 UTC
+2026-10-18 07:11 UTC — [B] REVIEW #467 Unisex Embroidered Overthinkers Club crewneck — 12/12 synced; embroidery_chest_center 1088590042 on all 12, back logo on all
 2026-10-18 07:07 UTC — [B] REVIEW #548 Unisex National Park Switchbacks Build Character crewneck — 12/12 synced; default file 6 on 1088705040 and 6 on 1088705044, back logo on all
 2026-10-18 07:01 UTC — [B] REVIEW #531 Men's Gym Deload Week (Emotionally) pump cover — 10/10 synced; panels front 1088702153, back 1088700188, sleeves 1083174917 on all 10
-RUNNING director since 2026-10-18 06:12 UTC
 2026-10-18 07:00 UTC — [A] Second lane A run exited at start (another [A] session was still committing: review 500, claim 586 at 06:59). Only change made: #149 REDO close-out to REVIEW (cover, sheet and 36/36 re-link were already done; keyword 'pink bow sweatshirt' 210/KD 56 replaces the plaid phrases). Lock released.
 2026-10-18 06:56 UTC — [A] [A] run done: REVIEW 389 470 540 541 500 491 456 + REDO relettering 247 248 249 250 253 254 149 (all Printful re-links verified); #387 waits on #386 (REDO), fal ~$11 of $16 today
 2026-10-18 06:36 UTC — [A] [A] 540 It Looked Smaller at the Farm tee (new art): 49/49 synced, REVIEW
