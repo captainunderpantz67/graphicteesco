@@ -467,7 +467,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 574 | Korean-American woman, early 30s, butterfly clips in a half-up style, small silver hoops | RESERVED — #383 Still Loading Since 1999 Hoodie cover |
 | 575 | Black woman, mid 20s, long knotless braids, chunky sneakers | USED 2026-10-16 — #384 Hot Mess Express cover |
 | 576 | Native Hawaiian man, early 40s, short black hair, trimmed goatee | RESERVED — #385 Fisher of Men, Mostly Bass Half Zip cover |
-| 577 | Filipino-American woman, late 20s, shoulder-length dark hair with curtain bangs, gold hoops | RESERVED — #386 Official Tree Topper Graphic Tee cover |
+| 577 | Filipino-American woman, late 20s, shoulder-length dark hair with curtain bangs, gold hoops | USED 2026-10-18 — #386 Official Tree Topper tee cover |
 | 578 | Black woman, mid 40s, short silver-streaked natural curls, red-framed glasses | RESERVED — #387 Official Tree Topper Crewneck Sweatshirt cover |
 | 579 | Persian-American woman, early 30s, long dark wavy hair in a claw clip, small gold studs | USED 2026-10-16 — #388 Seasonally Overbooked crewneck cover (REDO art: new calendar print; seedream 2 attempts, 1st hair over the Y) |
 | 580 | White woman, late 30s, honey-blonde lob, freckles, chunky knit scarf at her side | RESERVED — #389 Seasonally Overbooked Graphic Tee cover |
