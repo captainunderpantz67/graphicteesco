@@ -7057,19 +7057,15 @@
     {
      "phrase": "golf pullover",
      "volume": 4400,
-     "kd": 30,
-     "competition": 5829,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 30
     },
     {
      "phrase": "funny golf gifts",
      "volume": 2900,
-     "kd": 34,
-     "competition": 12577,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 34
     }
    ],
-   "measured": "2026-10-17"
+   "measured": "2026-10-16"
   },
   "womens-golf-i-only-golf-for-the-outfits-cropped-hoodie": {
    "claimed": [

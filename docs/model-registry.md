@@ -625,8 +625,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 828 | Black woman, late 30s, shoulder-length twist-out curls, tortoiseshell glasses | CLAIMED 2026-10-17 — #501 Do Not Sell My Books Hoodie cover (brief) |
 | 829 | Korean-American man, early 30s, short textured black hair, athletic build, light stubble | CLAIMED 2026-10-17 — #502 Sisyphus Had Bad Programming Hoodie cover (brief) |
 | 830 | Puerto Rican man, mid 50s, short grey crew cut, clean-shaven, tanned, stocky build | USED 2026-10-18 - #503 Breakfast Ball Enthusiast heavyweight hoodie cover (seedream, Storm Blue, first tee at sunrise) |
-| 831 | Nigerian-American man, late 30s, short twists, neatly trimmed beard, medium build | CLAIMED 2026-10-17 — #504 Not Cheating Improving My Lie Hoodie cover (brief) (pair 831-832) |
-| 832 | white woman, mid 30s, auburn hair tied back in a ponytail, light freckles | CLAIMED 2026-10-17 — #504 Not Cheating Improving My Lie Hoodie cover (brief) (pair 831-832) |
+| 831 | Nigerian-American man, late 30s, short twists, neatly trimmed beard, medium build | USED 2026-10-18 - #504 Not Cheating Improving My Lie golf hoodie cover (seedream, Navy, driving range, print composited) |
+| 832 | white woman, mid 30s, auburn hair tied back in a ponytail, light freckles | USED 2026-10-18 - #504 Not Cheating Improving My Lie golf hoodie cover (seedream, Navy, driving range, print composited) |
 | 833 | Vietnamese-American woman, early 20s, long dark hair pinned up in a claw-clip twist, small gold huggie earrings, slim build | CLAIMED 2026-10-17 — #505 I Only Golf for the Outfits Cropped Hoodie cover (brief) |
 | 834 | white man, mid 60s, thick white hair combed back, neat white mustache, wire-rim glasses, lean build | CLAIMED 2026-10-17 — #506 Retired Working on My Short Game Zip Hoodie cover (brief) |
 | 835 | Armenian-American woman, mid 30s, dark curly hair tied back, small gold hoops, medium build | CLAIMED 2026-10-17 — #507 My Type Geothermally Active Oversized Hoodie cover (brief) |
