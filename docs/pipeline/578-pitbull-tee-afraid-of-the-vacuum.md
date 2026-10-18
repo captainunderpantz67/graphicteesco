@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-18 05:58 UTC
+status: REVIEW
 lane: E
 type: new
 id: 578
@@ -30,3 +30,4 @@ kd: 30
 ## Log
 - 2026-10-18 03:28 UTC director: brief written, READY (lane E; wave-1 dog/pitbull, pit bull shirt 1,900 / KD 30, 804-favorite funny dog-owner tee proof).
 - 2026-10-18 06:03 UTC builder [E]: built (sync queued behind the other lane E syncs). Art: 1 Recraft call ($0.04, try 1 kept: grey pit bull peeking over a patterned armchair, switched-off vacuum on a striped round rug; edges worn, rug is an object). SCARY DOG. Alfa Slab One cream with a dark-brown keyline above, afraid of the vacuum. Yellowtail mustard #e0a83a with a dark-brown keyline below, set in compose-print; 14 px cream keyline around the art for the dark colors. Print 3316 x 4052 px (11.1 x 13.5 in), FW 1650 TOP 75 (2016 px tall of 2400). Colors Black, Navy, Dark Grey Heather, Heather Forest, Brown, Maroon x S-4XL = 42; the grey dog keeps its cream highlights and linework on Dark Grey Heather (checked), so none dropped; Printful file 1088723891, sync product 482694257; mockups for all 6 colors + back attached and linked; both lines read at 400 px. DRAFT gid 15364782489904 (category aa-1-13-8, $24.99 no compare-at, both audience hub tags (cover shows a man and a woman), 5 FAQs 46-54 words incl. Dec 8, keyword pit bull shirt 1900/KD30 two words in line one and meta). Cover registry 918: attempt 1 (seedream; ponytail up, hands empty, a vacuum on the rug beside the dog); the model garbled the small script on both shirts, so both prints were composited from the product mockup (R6.9): both read exactly, nothing over either print, both wear the tee. Audit-local PASS; variant-photo audit clean. fal ~$0.1.
+- 2026-10-18 07:42 UTC builder [E]: sync 42/42 confirmed. REVIEW.
