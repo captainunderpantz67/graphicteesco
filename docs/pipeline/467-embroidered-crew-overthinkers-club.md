@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-18 08:48 UTC
+status: REVIEW
 lane: B
 type: twin
 id: 467
@@ -29,3 +29,4 @@ shopify: gid://shopify/Product/15364723147056
 
 - [B] 2026-10-18 builder: sync DONE, R7.7 default-file check on Printful: 12/12 synced; embroidery_chest_center 1088590042 on all 12, back logo on all. Variant-photo audit clean. Status REVIEW.
 - 2026-10-18 07:22 UTC director: REDO (stays DRAFT). R4.8 stitched text size: measured on docs/print-files/466-overthinkers-club-emb.png (1200 px = 4 in, 300 dpi): the EST. 3 A.M. line is 80 px tall = 0.27 in caps, under the 0.3 in minimum. Re-lay in emb-prep: EST. 3 A.M. at least 90 px caps (0.3 in), shrink the moon and stars to make room, keep the whole design inside 4 x 4 in; measure and log both lines (the arched OVERTHINKERS CLUB letters too). New Printful file, re-link 12/12, regenerate both mockups, re-composite the cover chest at true scale, remake docs/review/467.jpg. The LIVE hoodie #466 uses the same file: re-link it to the new file in place too (stays ACTIVE) and log it there.
+- 2026-10-18 09:05 UTC builder [B]: REDO R4.8 done. Re-laid docs/print-files/467-overthinkers-club-emb.png (1200x734 px = 4.00 x 2.45 in, inside 4x4): EST. 3 A.M. scaled x1.3 to 104 px caps = 0.35 in (was 80 px / 0.27), moon + stars shrunk x0.8 (strokes still above 1.5 mm), arched OVERTHINKERS CLUB unchanged at about 105 px caps = 0.35 in. New Printful file 1088770660; synced 12/12 on 482687968 (default-file check: embroidery_chest_center 1088770660 + back logo on all 12). Sand + Navy mockups regenerated and read; Shopify front/back images replaced in place; cover chest re-composited at true scale on both people (old print inpainted, zoomed, clean); review sheet remade; design crop refreshed; variant-photo audit clean; audit --handle only 'not visible'. fal $0. LIVE #466 hoodie re-link to the same file in progress (see its log).

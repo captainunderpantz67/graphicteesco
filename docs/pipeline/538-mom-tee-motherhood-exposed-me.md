@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-18 06:30 UTC
+status: REVIEW
 lane: E
 type: new
 id: 538
@@ -29,3 +29,4 @@ kd: 56
 ## Log
 - 2026-10-18 01:30 UTC director: brief written, READY (lane E; verified mom line, 1,958-favorite sarcastic mom tee proof).
 - 2026-10-18 06:34 UTC builder [E]: built (sync queued behind the other lane E syncs). Art: 1 Recraft call ($0.04, try 1 kept: prim housewife in pearls on a mid-century sofa sipping coffee, one eyebrow up; toddler on the bookshelf, crayon scribbles on a patch of wall, floating papers and crayons, scruffy dog in a laundry basket; the wall patch ends in worn crayon marks, not a card). MOTHERHOOD DIDN'T / CHANGE ME. Fraunces 900 (opsz 72) dark ink #1c1714 above on two lines, It exposed me. Yellowtail rust #b4502d below, set in compose-print; the apostrophe survived; one dark-ink file for all five light colors (checked on White, Pink and Leaf). Print 3283 x 3801 px (10.9 x 12.7 in): 1.16 tall, so FW 1650 would overflow the 6400's 1800 px area (the #386 clip), FW 1400 TOP 50 = 1621 px, bottom at 1671 of 1800. Colors White, Natural, Heather Stone, Pink, Leaf x S-3XL = 30 (Pink and Leaf are the bold women's colors); Printful file 1088735523, sync product 482698718; mockups for all 5 colors + back attached and linked; both lines read at 400 px. DRAFT gid 15364809294128 (category aa-1-13-8, $24.99 no compare-at, 5 FAQs 47-53 words incl. Dec 8, keyword funny mama shirt 1900/KD56 in line one and meta). Cover registry 878: attempt 1 kept (seedream, hair in a high bun, hands at her sides, no mug; the hair tips stop just above the first line, every word read). Audit-local PASS; variant-photo audit clean. fal ~$0.1.
+- 2026-10-18 09:08 UTC builder [E]: sync 30/30 confirmed. REVIEW.
