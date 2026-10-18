@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 457
@@ -38,3 +38,4 @@ kd: 28
 - 2026-10-18 08:20 UTC builder [C]: Sync complete (crew 12/12 file 1088704180; tee 36/36, Navy on cream file 1088704448). REVIEW. Sheet docs/review/457.jpg.
 - 2026-10-18 05:33 UTC director: REDO, cover only (print, mockups and copy approved). R5.3.9 sacred objects: the window menorah behind her has 7 candles (a Temple-style menorah, wrong for Hanukkah). Paint it out completely (window and counter stay), or composite a correct 9-candle hanukkiah fully in frame and count it at 200%. Then back to REVIEW.
 - 2026-10-18 06:44 UTC builder [C]: REDO cover only. R5.3.9: the 7-candle window menorah is painted out (inpainted from the window and sill, nothing else changed); the print, mockups and copy were already approved. No fal spend. REVIEW.
+- 2026-10-18 07:22 UTC director: approved from docs/review/457.jpg (stays ACTIVE + published). Sheet's mockup panels showed the art, so the Shopify Sand and Light Blue mockups were checked directly: EIGHT NIGHTS / OF FRIED FOOD read on both (R3.12 line). Back-view alt still said 'Fried Food Is Tradition': fixed. Cover alt in covers.ts no longer mentions a menorah. audit --handle PASS (0 warn). LIVE.
