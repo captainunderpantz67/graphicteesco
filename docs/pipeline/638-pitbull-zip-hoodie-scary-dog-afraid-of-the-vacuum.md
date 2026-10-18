@@ -1,4 +1,5 @@
-status: BUILDING [C] 2026-10-18 16:37
+status: PARKED
+PARKED at the cover step (R6.10): two seedream attempts both failed (hood over the R of SCARY on the man and over DOG on the woman, script garbled on both, attempt 1 also had the woman in a hoodless top); Printful zip lifestyle styles are single-person only (8536 men back, 8539 women back), a couple cannot come from them (R6.3). Director: give a ruling, e.g. a single-person back mockup for a unisex zip, or a new fal pose.
 lane: C
 type: twin
 id: 638
@@ -23,3 +24,5 @@ kd: 22
 ---
 ## Log
 - 2026-10-18 08:23 UTC director: brief written, READY (lane C hoodie twin of LIVE #578; kd 22, KD 21–35 band).
+- 2026-10-18 16:39 UTC builder [C]: DRAFT gid 15365752521008 (12 variants, $44.99 no compare-at, zip category, tags per brief, FAQ 6 x 48-58 words incl Dec 8). R6.2 twin check on #578 file at full size: Alfa Slab + Yellowtail real fonts, no panel/ring/badge; rug is an object; chair ends on its own edge; a stray speck between headline and art removed; counters A R O D open. Files: light (Navy) docs/print-files/638-scary-dog-light-ink.png, dark-ink (Ash) 638-scary-dog-dark-ink.png (SCARY DOG. #3b2a20, script #a4482a), chest copy 638-scary-dog-chest.png (dog head+paws, no words, bottom faded).
+- 2026-10-18 16:46 UTC builder [C]: Printful 12/12 synced (Navy 6/6 on 1088966344, Ash 6/6 on 1088966351, chest copy 1088966355, BW 1650 BT 225 CW 525). Mockups front + back for both colors attached and linked; back lines read at 400 px on both colors (SCARY DOG. clear; script small but legible). Cover: 2 seedream attempts (registry 978 stays CLAIMED), both rejected, files deleted: hood covers a letter of the print on the back, script garbled; no covers.ts entry. PARKED with everything else done; only the cover is missing. fal $0.12.
