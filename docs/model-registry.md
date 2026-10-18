@@ -746,7 +746,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 951 | Hmong-American man, late 20s, short black hair, clean-shaven, lean runner build | CLAIMED 2026-10-18 — #601 Hit the Wall. The Wall Won. Tee cover (brief) |
 | 952 | Greek-American woman, late 20s, dark curly hair tied back, athletic build, small gold hoops | CLAIMED 2026-10-18 — #602 Love Means Nothing to Me Tee cover (brief) |
 | 953 | white man, early 60s, bald, grey goatee, tan, knee brace on one leg | CLAIMED 2026-10-18 — #603 Banned From the Kitchen Tee cover (brief) |
-| 968 | Armenian-American woman, late 30s, thick dark hair in a loose side braid behind her shoulder, strong brows, small gold studs, medium build | CLAIMED 2026-10-18 — #628 Mama Bear, Hibernation Denied Hoodie cover (brief) |
+| 968 | Armenian-American woman, late 30s, thick dark hair in a loose side braid behind her shoulder, strong brows, small gold studs, medium build | USED 2026-10-18 — #628 Mama Bear Hibernation Denied hoodie cover (seedream attempt 1, braid behind shoulder, hood visible, print clear) |
 | 969 | Ecuadorian-American man, early 30s, short curly black hair, thin mustache, wiry build, small gear tattoo on one forearm | CLAIMED 2026-10-18 — #629 I Basically Hot Glue Metal Tee cover (brief) |
 | 970 | Cuban-American woman, mid 60s, short silver pixie cut, cat-eye glasses, coral lipstick, petite build | CLAIMED 2026-10-18 — #630 Mom Said No? That's Cute. Crewneck Sweatshirt cover (brief) |
 | 971 | Jamaican-American man, early 70s, close-cropped white hair, white chin-strap beard, slim build, wool flat cap | CLAIMED 2026-10-18 — #631 Papa: Where Dad Got His Jokes Crewneck Sweatshirt cover (brief) |

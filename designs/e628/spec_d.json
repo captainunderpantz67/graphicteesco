@@ -1,0 +1,5 @@
+{"art": "art.png", "art_width": 0.8, "canvas": [3600, 4500], "gap": 50, "holes": 2000,
+ "lines": [
+  {"text": "MAMA BEAR", "font": "Yellowtail-Regular.ttf", "size": 800, "fill": "#b5532e", "stroke": 30, "stroke_fill": "#f3e7cf", "max_width": 0.85, "where": "above"},
+  {"text": "HIBERNATION DENIED.", "font": "AlfaSlabOne-Regular.ttf", "size": 520, "fill": "#3b2a1d", "stroke": 18, "stroke_fill": "#f3e7cf", "tracking": 0.005, "max_width": 0.96, "where": "below"}
+ ]}

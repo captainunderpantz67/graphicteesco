@@ -598,6 +598,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-tennis-club-mostly-social-crewneck-sweatshirt': { src: '/covers/womens-tennis-club-mostly-social-crewneck-sweatshirt.webp', alt: 'Woman in a sand Tennis Club Mostly Social crewneck sweatshirt standing on an autumn tennis club terrace with courts behind her and a lemonade on the table' },
   'mens-running-i-only-run-downhill-graphic-tee': { src: '/covers/mens-running-i-only-run-downhill-graphic-tee.webp', alt: 'Man in a black I Only Run Downhill running tee standing on a hilly neighborhood street on a Sunday morning holding a water bottle at his side' },
   'mens-bowling-league-night-is-not-optional-graphic-tee': { src: '/covers/mens-bowling-league-night-is-not-optional-graphic-tee.webp', alt: 'Man in a black League Night Is Not Optional bowling tee standing in a retro bowling alley with lanes and a ball return behind him and a bowling bag at his feet' },
+  'womens-bear-mama-bear-hibernation-denied-hoodie': { src: '/covers/womens-bear-mama-bear-hibernation-denied-hoodie.webp', alt: 'Woman in a sand Mama Bear Hibernation Denied pullover hoodie with the hood visible standing on a snowy cabin porch at dawn with a sled and kids\' boots by the door' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

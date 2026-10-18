@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-18 16:40
+status: REVIEW
 lane: E
 type: new
 id: 628
@@ -27,3 +27,5 @@ kd: 32
 ---
 ## Log
 - 2026-10-18 07:36 UTC director: brief written, READY (lane E; kd 32; KD ≤ 20 bear phrases claimed or unmeasured, so KD 21–35 with garment intent and a measured Dec surge; proof named under the gate).
+- 2026-10-18 builder [E]: built. Art: 1 Recraft call ($0.04, try 1 kept: tired mama black bear at a snowy den with a camp mug, two cubs on her head, pines and rocks; no sky panel). MAMA BEAR Yellowtail rust #b5532e with a 30 px cream keyline above; HIBERNATION DENIED. Alfa Slab One below, set in compose-print. Two files: Sand on the dark-ink file 1088929461 (dark brown headline with cream keyline); light file: Navy on 1088929475, headline fill cream #f3e7cf with a dark-brown keyline, art halo 14 px. Print 3305 px wide, FW 1500 TOP 75 (hoodie; clears the pouch seam on both mockups). Sand + Navy x S-3XL = 12 variants, 12/12 (Sand 6/6, Navy 6/6 on the right file), sync product 482781445. Mockups both colors + back attached and linked; read both lines at 500 px on both. DRAFT gid 15365689409840 (category aa-1-13-13, $39.99 no compare-at, tags graphic-hoodies-for-women/hoodie/ai-art/intake-done, 5 FAQs 47-52 words incl. Dec 8, keyword mama bear hoodie 720/KD32 in line one and meta; kw map updated). Cover registry 968: attempt 1 kept (seedream, Sand hoodie with the hood visible behind the neck, braid behind her shoulder, hand in the pouch; first letters M and H clear, chest clean). fal ~$0.1.
+- 2026-10-18 15:36 UTC builder [E]: sync 12/12 confirmed. REVIEW.
