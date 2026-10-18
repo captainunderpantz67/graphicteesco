@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-18 05:49 UTC
+status: REVIEW
 lane: E
 type: new
 id: 576
@@ -30,3 +30,4 @@ kd: 26
 ## Log
 - 2026-10-18 03:27 UTC director: brief written, READY (lane E; wave-1 dog/dachshund, dachshund apparel 12,100 / KD 26, 584-favorite funny dachshund tee proof).
 - 2026-10-18 05:56 UTC builder [E]: built (sync queued behind the other lane E syncs). Art: 2 Recraft calls ($0.08): try 1 hid the dog's long body behind the pillows and had a big solid staircase; try 2 kept (long red dachshund stretched on three pillows, gate and stairs small at right, slipper). BANNED FROM STAIRS. in Alfa Slab One cream with a dark-brown keyline above, runs the house. in Yellowtail mustard #e0a83a with a dark-brown keyline below, set in compose-print; thin cream halo around the art (14 px keyline, not a shape) so the dark art reads on the dark colors. Print 3289 x 2702 px (11.0 x 9.0 in), FW 1650 TOP 75. Colors Black, Navy, Dark Grey Heather, Heather Forest, Brown, Maroon x S-4XL = 42; checked on Black, Maroon and Brown (all read). Printful file 1088719431, sync product 482692623; mockups for all 6 colors + back attached and linked, both lines read at 400 px. DRAFT gid 15364773511472 (category aa-1-13-8, $24.99 no compare-at, tags incl. both audience hubs because the cover shows a man and a woman, 5 FAQs 41-55 words incl. Dec 8, keyword dachshund apparel 12100/KD26). Cover registry 916: attempt 1 had the woman's braid over the right edge of her print and the model garbled her script; attempt 2 (braid pinned up, torsos apart, hands empty) had clean placement but garbled small script on the woman's shirt, so both prints were composited from the product mockup (R6.9): both read exactly, nothing over either print, both wear the tee. Audit-local PASS; variant-photo audit clean. fal ~$0.2.
+- 2026-10-18 07:23 UTC builder [E]: sync 42/42 confirmed. REVIEW.

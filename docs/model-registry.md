@@ -468,11 +468,11 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 575 | Black woman, mid 20s, long knotless braids, chunky sneakers | USED 2026-10-16 — #384 Hot Mess Express cover |
 | 576 | Native Hawaiian man, early 40s, short black hair, trimmed goatee | RESERVED — #385 Fisher of Men, Mostly Bass Half Zip cover |
 | 577 | Filipino-American woman, late 20s, shoulder-length dark hair with curtain bangs, gold hoops | USED 2026-10-18 — #386 Official Tree Topper tee cover |
-| 578 | Black woman, mid 40s, short silver-streaked natural curls, red-framed glasses | RESERVED — #387 Official Tree Topper Crewneck Sweatshirt cover |
+| 578 | Black woman, mid 40s, short silver-streaked natural curls, red-framed glasses | USED 2026-10-18 — #387 Official Tree Topper crewneck cover (fal Seedream 4, kitchen; try 1 kept) |
 | 579 | Persian-American woman, early 30s, long dark wavy hair in a claw clip, small gold studs | USED 2026-10-16 — #388 Seasonally Overbooked crewneck cover (REDO art: new calendar print; seedream 2 attempts, 1st hair over the Y) |
 | 580 | White woman, late 30s, honey-blonde lob, freckles, chunky knit scarf at her side | USED — #389 Seasonally Overbooked Graphic Tee cover (2026-10-18; look matched: honey-blonde lob, freckles, knit scarf) |
 | 581 | man AND woman together: Somali-American man, early 30s, close-cropped hair, short beard; white woman, early 30s, red braids | USED 2026-10-18 — #390 gnome tee cover (seedream, 1 attempt) |
-| 582 | man AND woman together: Vietnamese-American man, late 20s, textured crop, round glasses; Black woman, late 20s, long box braids in a high pony | RESERVED — #391 Gnome Comment Crewneck Sweatshirt cover |
+| 582 | man AND woman together: Vietnamese-American man, late 20s, textured crop, round glasses; Black woman, late 20s, long box braids in a high pony | USED 2026-10-18 — #391 gnome crewneck couple cover (fal Seedream 4, snowy porch; try 1 kept) |
 | 583 | Puerto Rican woman, mid 30s, long dark curls, small nose ring | RESERVED — #392 Here for the Scraps Hoodie cover |
 | 584 | Samoan-American woman, late 30s, long dark hair in a low ponytail, team-color scrunchie | RESERVED — #393 Hut Hut Hooray Crewneck Sweatshirt cover |
 | 585 | Japanese-American woman, mid 20s, short black bob with bangs, grey cardigan | USED 2026-10-17 - #394 Oops Anyway cat crewneck cover (seedream, navy, sunny apartment) |
@@ -713,7 +713,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 918 | man AND woman together: Dominican-American man, early 40s, salt-and-pepper fade, short goatee, stocky build; Lithuanian-American woman, mid 30s, platinum-blonde hair in a high ponytail, athletic build | USED 2026-10-18 — #578 Scary Dog tee cover (seedream attempt 1, both prints composited from the mockup, ponytail clear) |
 | 919 | Norwegian-American man, early 70s, bald on top with short white hair at the sides, neat short white beard, round tortoiseshell glasses, tall lean build | USED 2026-10-18 — #579 Ask Your Grandmother tee cover (seedream attempt 1, hands at his sides, print clear) |
 | 920 | Puerto Rican man, late 20s, short curly black hair with a low fade, thin mustache, lean build | USED 2026-10-18 — #580 Professionally Loud drummer tee cover (fal Seedream 4, rehearsal room; try 1 kept) |
-| 921 | Samoan-American man, late 30s, black hair in a short top-knot, full short beard, broad heavy build | CLAIMED 2026-10-18 — #581 No, I Can't Just Take a Quick Look Tee cover (brief) |
+| 921 | Samoan-American man, late 30s, black hair in a short top-knot, full short beard, broad heavy build | USED 2026-10-18 — #581 Quick Look mechanic tee cover (fal Seedream 4, repair bay; try 1 kept) |
 | 922 | Hmong-American man, mid 40s, short black hair with grey at the temples, clean-shaven, medium build | CLAIMED 2026-10-18 — #582 No, I Can't Just Take a Quick Look Hoodie cover (brief) |
 | 923 | Ukrainian-American man, early 30s, shaggy light-brown hair tucked behind his ears, short stubble, slim build | USED 2026-10-18 — #583 The Neighbors Love Me tee cover (fal Seedream, suburban driveway with garage drum kit at dusk; try 1 kept) |
 | 924 | Mexican-American man, early 60s, thick grey hair combed back, grey horseshoe mustache, sturdy build | USED 2026-10-18 — #584 I Speak Fluent Rattle tee cover (fal Seedream, home driveway with old pickup; try 1 kept) |
