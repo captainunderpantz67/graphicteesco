@@ -557,6 +557,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-cat-not-my-turn-with-the-brain-cell-zip-hoodie': { src: '/covers/womens-cat-not-my-turn-with-the-brain-cell-zip-hoodie.webp', alt: 'Woman in a navy Not My Turn With the Brain Cell cat hoodie seen from behind in a sunny living room with plants and an orange cat on the windowsill' },
   'mens-welder-if-you-can-step-over-it-hoodie': { src: '/covers/mens-welder-if-you-can-step-over-it-hoodie.webp', alt: 'Man in his mid-40s with a full dark beard and short curly grey hair wears the Welder If You Can Step Over It navy hoodie in a fabrication shop, hands in the pouch, a welding helmet on the bench' },
   'mens-fishing-you-catching-em-heavyweight-hoodie': { src: '/covers/mens-fishing-you-catching-em-heavyweight-hoodie.webp', alt: 'Man in his late 60s with white hair and bushy white eyebrows wears the You Catching \'Em black heavyweight hoodie on a misty pond bank at dawn, hands in the pouch, fishing chair and rod beside him' },
+  'womens-cat-making-biscuits-hoodie': { src: '/covers/womens-cat-making-biscuits-hoodie.webp', alt: 'Woman in a sand Making Biscuits cat hoodie in a sunny window reading nook with a calico cat on a chunky knit blanket beside her' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
