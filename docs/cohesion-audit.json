@@ -1,5 +1,5 @@
 {
- "at": "2026-10-18T19:45:41.604Z",
+ "at": "2026-10-18T20:44:07.547Z",
  "products": 597,
  "findings": [
   {
@@ -186,13 +186,6 @@
   },
   {
    "level": "WARN",
-   "handle": "unisex-anime-ignoring-you-professionally-heavyweight-hoodie",
-   "title": "Unisex Anime – Ignoring You Professionally Heavyweight Hoodie",
-   "msg": "\"maneki neko\" appears 4× in the copy (keyword stuffing).",
-   "fix": "Use it once or twice, naturally."
-  },
-  {
-   "level": "WARN",
    "handle": "mens-pig-wallowing-respectfully-oversized-hoodie",
    "title": "Men's Pig – Mud Bath Booked, Plans Canceled Oversized Hoodie",
    "msg": "\"pig hoodie\" appears 5× in the copy (keyword stuffing).",
@@ -211,6 +204,13 @@
    "title": "Women's Volleyball Mom – 7 A.M. Check-In Tee",
    "msg": "No meta description.",
    "fix": "Write one ≤ 155 chars."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-gigi-because-grandma-sounded-old-hoodie",
+   "title": "Women's Gigi – Because Grandma Sounded Old Hoodie",
+   "msg": "\"gigi hoodie\" appears 4× in the copy (keyword stuffing).",
+   "fix": "Use it once or twice, naturally."
   }
  ]
 }

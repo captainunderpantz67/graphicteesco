@@ -1,4 +1,4 @@
-# Cohesion audit — 2026-10-18 19:45 UTC
+# Cohesion audit — 2026-10-18 20:44 UTC
 
 597 live products checked · **0 errors** · 30 warnings · 28 products with findings
 
@@ -81,9 +81,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Women's Anime – Slurp Responsibly Half Zip `womens-anime-slurp-responsibly-half-zip`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 
-### Unisex Anime – Ignoring You Professionally Heavyweight Hoodie `unisex-anime-ignoring-you-professionally-heavyweight-hoodie`
-- **WARN** "maneki neko" appears 4× in the copy (keyword stuffing). → Use it once or twice, naturally.
-
 ### Men's Pig – Mud Bath Booked, Plans Canceled Oversized Hoodie `mens-pig-wallowing-respectfully-oversized-hoodie`
 - **WARN** "pig hoodie" appears 5× in the copy (keyword stuffing). → Use it once or twice, naturally.
 
@@ -92,3 +89,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Women's Volleyball Mom – 7 A.M. Check-In Tee `womens-volleyball-mom-seven-am-check-in-graphic-tee`
 - **WARN** No meta description. → Write one ≤ 155 chars.
+
+### Women's Gigi – Because Grandma Sounded Old Hoodie `womens-gigi-because-grandma-sounded-old-hoodie`
+- **WARN** "gigi hoodie" appears 4× in the copy (keyword stuffing). → Use it once or twice, naturally.
