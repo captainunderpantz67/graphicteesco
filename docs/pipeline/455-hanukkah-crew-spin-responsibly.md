@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: B
 type: new
 id: 455
@@ -29,3 +29,4 @@ kd: 17
 - 2026-10-18 02:15 UTC builder [B]: art via Recraft (1 image, no lettering; faux cross-stitch dreidel + gelt) + SPIN / RESPONSIBLY in AlfaSlabOne gold with blue stroke (designs/b/hk.json, hk-print.png; ratio 1.11). Reads on Navy and Sport Grey; the dark blue dreidel body is dimmer on Navy but the cream/sky faces and gold carry it. Copy fixed ('hand-drawn letters with a stitched texture' -> chunky gold capitals outlined in blue); FAQ 5 x 42-52 words, order-by Nov 20 for Hanukkah Dec 4. Printful file 1088463459, FW 1650 TOP 75, sync pid 482511362 running. Mockups per color + back attached. Cover #653 + #654, 2 tries (~$0.08): try 1 her sleeve clipped the R on his print; try 2 his sleeve slightly clips the Y on hers (word still reads). Kept try 2, director please judge. kw ugly hanukkah sweater 1600/17.
 - 2026-10-17 20:53 UTC builder [B]: synced 12/12. REVIEW. Sheet docs/review/455.jpg.
 - 2026-10-17 21:19 UTC director: LIVE. sheet seen: stitched-look dreidel and gelt, SPIN / RESPONSIBLY reads on Navy and Sport Grey; unisex couple at a Hanukkah table. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.
+- 2026-10-18 02:55 UTC Claude: REDO (R5.3.9). The dreidel shows Stars of David where its Hebrew letters belong; real dreidels carry נ ג ה ש. Keep SPIN RESPONSIBLY, coins and layout. Fix: regenerate the dreidel with blank faces (1 Recraft call), then set ONE real letter (נ, nun) on the front face in a real Hebrew font in post; check it at 200%. If it is not exactly right, leave the faces plain. Same product, stays ACTIVE.

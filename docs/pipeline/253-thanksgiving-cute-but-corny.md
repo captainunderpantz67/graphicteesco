@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: A
 type: new
 id: 253
@@ -24,3 +24,4 @@ handle: womens-thanksgiving-cute-but-corny-graphic-tee
 - 2026-10-16 22:51 UTC builder [A]: NEW ART Recraft v4 try 1 (CUTE BUT / CORNY spelled right, bow on the C, two ears of fall corn with sage husks (the brief said three), no badge or frame; print-prep --solid; knocked the counters of B, O, R). Printful file 1087876219 (3600x2120). DRAFT gid://shopify/Product/15362436202800 (Bella+Canvas 6400; White, Natural, Heather Stone, Athletic Heather, Pink x S-3XL = 30; light and mid only; $24.99/$29.99; tags per brief), Printful sync 482341992 queued (FORCE=1 FW=1500 setfile 482341992 1087876219 1080398177). Keywords (corny shirt, corn shirt) already in the map under this handle. Cover #429 from the White mockup (try 1, kept #3 of 3, the only one where her hair stayed off the bow and the C; I cropped off its white bars), 5 fronts + back, variant images, audit above, docs/review/253.jpg. REVIEW once synced = 30.
 - 2026-10-17 02:23 UTC builder [A]: Printful sync complete; REVIEW.
 - 2026-10-17 03:14 UTC director: approved from docs/review/253.jpg; ACTIVE + Online Store + Headless + Google; cohesion-audit --handle PASS (0 warn). LIVE.
+- 2026-10-18 02:55 UTC Claude: REDO, lettering only (R5.3.10, Sam 2026-10-18: pattern-filled letters read as clip-art). Keep the art and the line. Re-set the words in a bold real font, solid ink with at most a keyline, via compose-print.py; new Printful file + mockups on the SAME product; stays ACTIVE (never unpublish). No fal needed. Twins share the new file.
