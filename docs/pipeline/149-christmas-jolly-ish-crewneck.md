@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: A
 type: twin
 id: 149
@@ -19,3 +19,4 @@ handle: womens-christmas-jolly-ish-crewneck-sweatshirt
 - 2026-10-16 UTC builder [A]: DRAFT gid://shopify/Product/15361717862704 (Gildan 18000; White, Sand, Ash, Sport Grey, Light Pink, Light Blue x S-3XL = 36), twin file 1087679332 (O counter + ornament knocked out), Printful sync 482251505. Copy/SEO/tags/price 34.99/39.99, keywords plaid sweatshirt 480/KD50 + plaid sweater 2,900/KD34 in map, cover #219 (try 1), 6 fronts + back, variant images, audit PASS, docs/review/149.jpg. Printful link queued: `FORCE=1 python3 scripts/pf-sync.py setfile 482251505 1087679332 1080398177`. REVIEW once synced = 36.
 - 2026-10-16 21:36 UTC builder [A]: Printful sync complete; REVIEW.
 - 2026-10-16 22:17 UTC director: LIVE (ACTIVE + Online Store + Headless, audit --handle PASS). approved.
+- 2026-10-18 02:55 UTC Claude: REDO, lettering only (R5.3.10, Sam 2026-10-18: pattern-filled letters read as clip-art). Keep the art and the line. Re-set the words in a bold real font, solid ink with at most a keyline, via compose-print.py; new Printful file + mockups on the SAME product; stays ACTIVE (never unpublish). No fal needed. Twins share the new file.

@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: C
 type: new
 id: 439
@@ -41,3 +41,4 @@ kd: 24
 - 2026-10-18 02:04 UTC builder [C]: REDO done ($0). Racket head: old string bed erased and redrawn as one continuous grid of thin cream strings across the whole head (white wedges at the rim knocked out); ball rebuilt as a full round ball with cream ring (straight-edge notch gone) and the motion lines removed. New print docs/print-files/439-backhand-opinions.png (Printful file 1088630294), re-linked 10/10 at FW 1500 TOP 20; Black + Storm front mockups replaced in place, read at phone size. Cover kept (racket is small there). Sheet docs/review/439.jpg.
 - 2026-10-18 02:45 UTC director: REDO (stays DRAFT).
   1. R6.7/R6.8 (print fidelity): the cover still shows the OLD print. The racket head on her chest has the blotchy hole and broken strings from before the redo, not the new continuous cream grid. Fix it with the R6.9 composite: take the exact print from the new Storm front mockup, perspective-fit it onto her chest with a multiply blend so the folds show, and read every word. No fal call needed. Art, copy and colors pass.
+- 2026-10-18 02:51 UTC builder [C]: REDO done ($0, no fal). Cover print re-composited (R6.9): the exact new print (continuous string grid, round ball) fitted onto her chest at the same size and position, multiply-shaded by the photo so the folds show; the racket, bow and both lines (MY BACKHAND / HAS OPINIONS) read letter by letter; her ponytail and headband untouched. Sheet regenerated.

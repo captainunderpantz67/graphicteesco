@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-18 02:36
+status: REVIEW
 lane: C
 type: twin
 id: 515
@@ -24,3 +24,4 @@ kd: 42
 ## Log
 - 2026-10-18 00:26 UTC director: brief written, READY (hoodie twin of a LIVE winner for lane C; keyword measured this run).
 - 2026-10-18 02:39 UTC builder [C]: built from #493's print (Printful file 1088550199, 3338x3271). R6.2 check: real-font lines (Big Shoulders via compose-print, dark keyline on cream and coral), no frame, ring or panel; counters (A, O, R) open and closed correctly on Navy and Sand. FW 1500 TOP 75; both lines end clear of the pouch seam. DRAFT gid 15364493869360 (Sand + Navy x S-3XL = 12, $39.99, no compare-at, category hoodies, tags per brief). Keyword nurse hoodie 1,600/KD42 in the map (3 uses). FAQs 5 x 45-57 words, order-by Dec 8. Printful file 1088645462, sync 482669898 running. Mockups per color + back attached, variant images linked. Cover: 1 fal image ($0.06, registries #847/#848): both in the Navy hoodie with hoods visible, hands free; the model garbled the woman's print (CAM FACE., half of LOUD BRAIN), so both prints were composited from the print file (R6.9) and every word read. Audit-local PASS. fal $0.06.
+- 2026-10-18 02:48 UTC builder [C]: Sync 12/12. REVIEW. Sheet docs/review/515.jpg.

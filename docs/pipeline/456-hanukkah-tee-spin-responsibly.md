@@ -1,8 +1,9 @@
-status: BUILDING [A] 2026-10-18 01:20
+status: REVIEW
 lane: A
 type: twin
 id: 456
 handle: unisex-hanukkah-spin-responsibly-graphic-tee
+shopify: gid://shopify/Product/15364376723760
 kd: 48
 ---
 ## Unisex Hanukkah – Spin Responsibly Graphic Tee
@@ -22,3 +23,4 @@ kd: 48
 ## Log
 - 2026-10-17 15:22 UTC director: brief written, READY (keyword measured this run, low-KD sweep; lane A).
 - 2026-10-18 01:30 UTC builder [A]: BUILDING: twin of #455, source print file 1088463459 re-hosted as Printful file 1088611858, FW 1650 (3385x3754). R6.2 check: SPIN / RESPONSIBLY are Alfa Slab gold capitals in a real font with a blue outline (R4.8), no ring/arch/panel; fine. NEW Shopify DRAFT gid 15364376723760 (BC 3001, White/Athletic Heather/Navy/Dark Grey Heather/Black x S-4XL = 35, $24.99 no compare-at, tags incl. both graphic-tees-for-men/women, FAQs 5 x 46-49 words incl. order by Nov 20, SEO 45/139). Mockups for all 5 colors + back attached and linked; cover regs #655 + #656 couple (seedream 1 attempt, both prints read, menorah at the side), sheet made. Sync 482653265 queued. Resume: `FW=1650 python3 scripts/pf-sync.py setfile 482653265 1088611858 1080398177`; when 35/35 set REVIEW.
+- 2026-10-18 02:56 UTC builder [A]: BUILT. Twin of #455 (LIVE): R6.2 check on the source print (Printful file 1088463459): SPIN / RESPONSIBLY are Alfa Slab gold capitals with a blue outline in a real font (R4.8), no ring, arch, disc, box or panel around the stitched dreidel and gelt; reused as is (re-hosted as file 1088611858, 3385x3754), FW 1650, 35/35 variants linked, back logo kept. NEW Shopify DRAFT (gid 15364376723760, BC 3001, White/Athletic Heather/Navy/Dark Grey Heather/Black x S-4XL, $24.99 no compare-at, category tees, tags graphic-tees-for-men + graphic-tees-for-women + funny-graphic-tees + hanukkah): 'hanukkah shirt' in line one and meta, FAQs 5 x 46-49 words incl. order-by Nov 20 (Hanukkah Dec 4), SEO 45/139. Mockups for all 5 colors + back, each color on its own photo; phone-size read OK. Cover regs #655 + #656 couple (seedream 1 attempt, navy tee mockup as --design): both prints legible, menorah and gelt at the side, nothing over either print. fal ~$0.06. Audit script not runnable on drafts here; astro build passes.

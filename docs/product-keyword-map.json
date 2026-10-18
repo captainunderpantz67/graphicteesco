@@ -7501,8 +7501,7 @@
      "kd": 58
     }
    ],
-   "measured": "2026-10-18",
-   "note": "director: brief (lane C hoodie twin)"
+   "measured": "2026-10-16"
   },
   "mens-chess-calculated-mostly-hoodie": {
    "claimed": [
@@ -7528,8 +7527,7 @@
      "kd": 59
     }
    ],
-   "measured": "2026-10-18",
-   "note": "director: brief (lane C hoodie twin)"
+   "measured": "2026-10-16"
   },
   "unisex-running-pace-leisurely-zip-hoodie": {
    "claimed": [
@@ -7611,8 +7609,7 @@
      "kd": 46
     }
    ],
-   "measured": "2026-10-18",
-   "note": "director: brief"
+   "measured": "2026-10-16"
   },
   "womens-dance-mom-bun-tight-wallet-empty-graphic-tee": {
    "claimed": [
@@ -7625,8 +7622,7 @@
      "kd": 38
     }
    ],
-   "measured": "2026-10-18",
-   "note": "director: brief"
+   "measured": "2026-10-16"
   },
   "womens-softball-mom-travel-ball-took-my-saturdays-graphic-tee": {
    "claimed": [
@@ -7818,17 +7814,10 @@
     {
      "phrase": "knitter hoodie",
      "volume": 8100,
-     "kd": 14,
-     "source": "RankHero via scripts/keyword-gap.py"
-    },
-    {
-     "phrase": "yarn hoodie",
-     "volume": 170,
-     "kd": 34,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 14
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "unisex-christian-holy-spirit-mildly-spooky-hoodie": {
    "claimed": [
@@ -7858,23 +7847,10 @@
     {
      "phrase": "grandpa birthday gift",
      "volume": 6600,
-     "kd": 13,
-     "source": "RankHero via scripts/keyword-gap.py"
-    },
-    {
-     "phrase": "papa hoodie",
-     "volume": 590,
-     "kd": 46,
-     "source": "RankHero via scripts/keyword-gap.py"
-    },
-    {
-     "phrase": "grandpa hoodie",
-     "volume": 170,
-     "kd": 51,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 13
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-christmas-it-looked-smaller-at-the-farm-graphic-tee": {
    "claimed": [
@@ -8214,17 +8190,10 @@
     {
      "phrase": "funny white elephant gifts",
      "volume": 22200,
-     "kd": 10,
-     "source": "RankHero via scripts/keyword-gap.py"
-    },
-    {
-     "phrase": "christmas gifts for coworkers",
-     "volume": 9900,
-     "kd": 12,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 10
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "unisex-pitbull-velvet-hippo-social-club-hoodie": {
    "claimed": [
