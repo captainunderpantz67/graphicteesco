@@ -3,6 +3,7 @@ lane: E
 type: new
 id: 555
 handle: womens-hiking-treat-me-like-wildlife-graphic-tee
+shopify: gid://shopify/Product/15364747755824
 kd: 14
 ---
 ## Women's Hiking – Treat Me Like Wildlife Tee
@@ -27,3 +28,4 @@ kd: 14
 ---
 ## Log
 - 2026-10-18 03:10 UTC director: brief written, READY (lane E; wave-1 parks/outdoors, KD 14 women's hiking tee, 970-favorite wildlife-tee proof).
+- 2026-10-18 05:35 UTC builder [E]: built (sync queued behind 486). Art: 2 Recraft calls ($0.08): try 1 had a solid sage canvas fill (a panel), try 2 on white kept; bottom 16% cropped with a worn edge (ragged-edge.py) so the tee print fits the 1800 px area. TREAT ME LIKE / WILDLIFE. Oswald 700 cream with navy keyline above, admire from 25 yards. CaveatBrush coral #d9735f with navy keyline below, set in compose-print (no model lettering); print 2176 x 2842 px, white-gap check done: goat body and sky are knocked out (garment shows), no stray white. Brief asked FW 1650 but the 6400 print area is 1500 px wide and the print is 1.31 x taller than wide, so FW 1300 TOP 60 (1698 px tall, bottom at 1758 of 1800), 8.7 in wide. Colors White, Natural, Heather Stone, Athletic Heather, Pink, Light Violet (36 variants); Printful file 1088712938; mockups for all 6 colors + back attached and linked; read both lines on White and Natural at 400 px. DRAFT gid 15364747755824 (category aa-1-13-8, $24.99 no compare-at, 5 FAQs 45-54 words incl. Dec 8, keyword hiking shirt women 4400/KD14 in line one, meta and kw map). Cover registry 895: attempt 1 kept (seedream, hair in ponytail clear of the T, hands in pockets, all words read). Audit-local PASS; variant-photo audit clean. fal ~$0.2.
