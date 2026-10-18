@@ -8259,6 +8259,66 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-fishing-out-fished-him-again-graphic-tee": {
+   "claimed": [
+    "fishing shirt women"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fishing shirt women",
+     "volume": 1300,
+     "kd": 20,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "womens fishing shirt",
+     "volume": 4400,
+     "kd": 44,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "womens-cropped-lift-heavy-reply-later-graphic-tee": {
+   "claimed": [
+    "gym crop top"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "gym crop top",
+     "volume": 4400,
+     "kd": 32,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "workout crop top",
+     "volume": 2900,
+     "kd": 32,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
+  },
+  "mens-christian-rebuilt-by-a-carpenter-graphic-tee": {
+   "claimed": [
+    "jesus shirt for men"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "jesus shirt for men",
+     "volume": 1600,
+     "kd": 17,
+     "source": "RankHero via scripts/keyword-gap.py"
+    },
+    {
+     "phrase": "bible verse shirts",
+     "volume": 2900,
+     "kd": 58,
+     "source": "RankHero via scripts/keyword-gap.py"
+    }
+   ],
+   "measured": "2026-10-18"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
