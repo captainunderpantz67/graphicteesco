@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 583
@@ -31,3 +31,4 @@ shopify: gid://shopify/Product/15364746379568
 - 2026-10-18 05:34 UTC builder [B]: WIP: DRAFT gid://shopify/Product/15364746379568 (3001 #71, 10 colors x S-4XL = 70, $24.99 no compare-at, category aa-1-13-8, tags per brief; keyword drums shirt in line one and meta, said plainly; drum shirt not used). Art: 1 Recraft call kept (three houses, drummer in the garage, man in a robe with a pillow, woman at the window, flattened cat; ragged block, no ground strip). THE NEIGHBORS / LOVE ME. Alfa Slab One via compose-print, LOVE ME. larger. Two files: cream-halo + cream/red-keyline for Black/Navy/Dark Grey Heather/Heather Forest/Maroon, navy + red ink for Natural/Soft Cream/Ash/Athletic Heather/Heather Dust; FW 1650 TOP 75; all 10 mockups + back, both lines read. FAQ names the product 'Neighbors Love Me' so the questions do not say 'the The'. Cover registry 923, try 1: every word reads, hair clear of the print, hands empty with no sticks, garage kit behind him. Audit-local PASS. Sync queued; status goes to REVIEW at 70/70.
 
 - [B] 2026-10-18 builder: sync DONE, R7.7 default-file check on Printful: 70/70 synced; default file 35 on 1088712589 (halo) and 35 on 1088712563 (dark ink), back logo on all. Variant-photo audit clean. Status REVIEW.
+- 2026-10-18 09:22 UTC director: LIVE. approved from docs/review/583.jpg (same art as LIVE hoodie #585; both files read). ACTIVE + Online Store/Headless/Google & YouTube, audit --handle PASS (0 warn).

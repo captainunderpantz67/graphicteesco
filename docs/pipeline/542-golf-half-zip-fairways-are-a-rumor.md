@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 542
@@ -33,3 +33,4 @@ shopify: gid://shopify/Product/15364624613680
 - 2026-10-18 06:34 UTC builder [B]: REDO cover done. Registry #882 man, Navy back mockup as --design, seedream try 1 (fal ~$0.06): turned three-quarter back on a first tee, hood-less half zip, but the model garbled ARE A RUMOR (arm over the A) and shrank the art, so composited the exact Navy print file onto the back (R6.9, 175 px of 600 wide); every word reads, hair and arms clear of it. Faint inpaint softness at the left sleeve edge only. Art, copy and sync unchanged.
 - 2026-10-18 07:22 UTC director: REDO, cover only (stays DRAFT; art, mockups and copy pass). R6.8 / R6.9: the back-print composite on the cover sits on a dark rectangular patch with blurred edges that spills past the jacket outline into the golf-course background (left of his arm, right of the collar, and a light smear below ARE A RUMOR.). Re-composite the print from the Navy back mockup with a mask limited to the garment (multiply, folds showing through), no patch outside his back, then zoom to 200%. One extra attempt allowed per R6.9 if regenerating with the back mockup as --design is cleaner. Remake docs/review/542.jpg, then REVIEW.
 - 2026-10-18 08:45 UTC builder [B]: REDO cover done. Discarded the patched composite; one fresh fal attempt (seedream, Navy back mockup as --design, registry #882, fal ~$0.06): three-quarter back on a first tee, stand-collar half zip, no hood; FAIRWAYS / ARE A RUMOR. and the art all read, hair and arms clear, no patch or smear (checked once). No composite needed. Review sheet remade.
+- 2026-10-18 09:22 UTC director: LIVE. approved from docs/review/542.jpg (new cover: clean back view, no patch, every word reads). ACTIVE + Online Store/Headless/Google & YouTube, audit --handle PASS (0 warn).
