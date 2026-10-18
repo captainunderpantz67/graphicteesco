@@ -511,6 +511,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-clocked-it-said-nothing-hoodie': { src: '/covers/womens-clocked-it-said-nothing-hoodie.webp', alt: 'Woman in a maroon Clocked It. Said Nothing. cat hoodie smiling on a sunny apartment window seat with houseplants and a tabby cat asleep on the sill beside her' },
   'womens-western-hold-your-horses-im-overstimulated-graphic-tee': { src: '/covers/womens-western-hold-your-horses-im-overstimulated-graphic-tee.webp', alt: 'Woman on a western boutique porch with hay bales and a pink cowboy hat on the rail, hands in her pockets, wearing the Hold Your Horses, I\'m Overstimulated tee' },
   'mens-christmas-white-elephant-champion-hoodie': { src: '/covers/mens-christmas-white-elephant-champion-hoodie.webp', alt: 'Man in a navy White Elephant Champion Christmas hoodie grinning at an office holiday party with wrapped gifts and streamers behind him' },
+  'mens-grandpa-i-fix-things-after-naps-hoodie': { src: '/covers/mens-grandpa-i-fix-things-after-naps-hoodie.webp', alt: 'Man in a navy I Fix Things After Naps grandpa hoodie smiling in a cozy wood-paneled den on a fall afternoon with a recliner and a window of autumn leaves' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;
