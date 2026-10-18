@@ -30,12 +30,17 @@ ring = (xx >= ox0 - 55) & (xx <= ox1 + 55) & (yy >= oy0 - 30) & (yy <= oy1 + 45)
 old = (box & (np.abs(c - est).max(2) > float(opt('--diff', 22))) & (hair == 0)).astype(np.uint8)
 if opt('--force'): old[fy0:fy1 + 1, fx0:fx1 + 1] = (np.abs(c - est).max(2)[fy0:fy1 + 1, fx0:fx1 + 1] > 12)
 old = cv2.dilate(old, np.ones((7, 7), np.uint8)); old[hair > 0] = 0
-Mf = cv2.GaussianBlur(old.astype(np.float32), (0, 0), 1.0)[..., None]
+Mf = cv2.GaussianBlur(old.astype(np.float32), (0, 0), float(opt('--feather', 1.0)))[..., None]
 clean = c * (1 - Mf) + est * Mf
+if opt('--force'):  # small forced box: repaint locally with a full-resolution inpaint so its tone follows the adjacent fabric, not the wide estimate
+    fm = np.zeros((H, W), np.uint8); sub = clean.mean(2)[fy0:fy1 + 1, fx0:fx1 + 1] < 150; fm[fy0:fy1 + 1, fx0:fx1 + 1] = sub; fm = cv2.dilate(fm, np.ones((5, 5), np.uint8))
+    clean = np.where(fm[..., None] > 0, cv2.inpaint(np.clip(clean, 0, 255).astype(np.uint8), fm, 4, cv2.INPAINT_TELEA).astype(np.float32), clean)
 p = Image.open(prt).convert('RGBA'); h = round(w * p.height / p.width); p = p.resize((w, h), Image.LANCZOS); pa = np.array(p).astype(np.float32)
 A = np.zeros((H, W), np.float32); R = np.zeros((H, W, 3), np.float32)
 A[y0:y0 + h, x0:x0 + w] = pa[..., 3] / 255; R[y0:y0 + h, x0:x0 + w] = pa[..., :3]
-A[hair > 0] = 0  # never over the hair
+if opt('--over-hair'):  # x0,y0,x1,y1: thin strands crossing the first letters are painted over by the letters (hair behind the print) instead of hiding them
+    ohx0, ohy0, ohx1, ohy1 = (int(v) for v in opt('--over-hair').split(',')); keep = np.ones((H, W), bool); keep[ohy0:ohy1 + 1, ohx0:ohx1 + 1] = False; A[(hair > 0) & keep] = 0
+else: A[hair > 0] = 0  # never over the hair
 sh = cv2.GaussianBlur(clean, (0, 0), 3).mean(2, keepdims=True); sh = np.clip((sh + 25) / (np.median(sh[ring]) + 25), 0.75, 1.1)
 res = clean * (1 - A[..., None]) + np.clip(R * sh, 0, 255) * A[..., None]
 Image.fromarray(np.clip(res, 0, 255).astype(np.uint8)).save(out, quality=90)
