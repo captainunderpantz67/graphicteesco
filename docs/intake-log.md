@@ -1,3 +1,4 @@
+RUNNING lane C since 2026-10-18 16:37 UTC
 RUNNING lane A since 2026-10-18 16:33 UTC
 2026-10-18 16:37 UTC — [C] Builder run: fal cap was topped up (+$6), so built #637 Men's Welder Grinder & Paint Department Hoodie (twin of #530): DRAFT 15365749997872, 12/12 synced, mockups, cover, sheet docs/review/637.jpg, REVIEW. Lock released.
 RUNNING lane B since 2026-10-18 16:29 UTC
