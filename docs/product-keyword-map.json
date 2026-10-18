@@ -9424,6 +9424,96 @@
     }
    ],
    "measured": "2026-10-18"
+  },
+  "mens-cat-dad-cant-cats-on-me-hoodie": {
+   "claimed": [
+    "cat dad hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cat dad hoodie",
+     "volume": 140,
+     "kd": 36,
+     "source": "RankHero keyword page"
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "womens-baseball-mom-bases-loaded-mom-exhausted-zip-hoodie": {
+   "claimed": [
+    "baseball mom hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "baseball mom hoodie",
+     "volume": 720,
+     "kd": 45,
+     "source": "RankHero keyword page"
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "womens-capybara-out-of-office-soaking-crewneck-sweatshirt": {
+   "claimed": [
+    "capybara sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "capybara sweatshirt",
+     "volume": 720,
+     "kd": 38,
+     "source": "RankHero keyword page"
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "mens-welder-stacks-dimes-wants-more-dimes-crewneck-sweatshirt": {
+   "claimed": [
+    "welder sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "welder sweatshirt",
+     "volume": 390,
+     "kd": 31,
+     "source": "RankHero keyword page"
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "unisex-otter-currently-drifting-crewneck-sweatshirt": {
+   "claimed": [
+    "otter sweatshirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "otter sweatshirt",
+     "volume": 210,
+     "kd": 40,
+     "source": "RankHero keyword page"
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
+  },
+  "unisex-christmas-we-said-no-gifts-crewneck-sweatshirt": {
+   "claimed": [
+    "couples christmas sweatshirts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "couples christmas sweatshirts",
+     "volume": 5400,
+     "kd": 14,
+     "source": "RankHero keyword page"
+    }
+   ],
+   "measured": "2026-10-18",
+   "note": "director: brief"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

@@ -1,0 +1,25 @@
+status: READY
+lane: C
+type: twin
+id: 640
+handle: mens-cat-dad-cant-cats-on-me-hoodie
+kd: 36
+---
+## Men's Cat Dad – Can't, Cat's on Me Hoodie
+- **Twin of:** #557 mens-cat-dad-cant-cats-on-me-graphic-tee (LIVE 2026-10-18). Reuse its print (Printful file 1088732887): a huge grey tabby asleep loaf-style on a red plaid blanket over a man's lap in a striped recliner, corduroy knees and slippers, remote and coffee on the side table; CAN'T. (Alfa Slab One, cream, dark-brown keyline) above, CAT'S ON ME. (mustard, dark-brown keyline) below. No new art (R6.2).
+- **Twin check (R6.2, builder's first step, log it):** the director read #557's sheet: both lines are real fonts, the recliner scene ends on its own shapes (no card or panel). Builder re-checks at 200% that no straight canvas edge or white plate shows, and every closed counter (A, O, D) is knocked out.
+- **Blank:** Pullover Gildan 18500 (Printful #146), handle ends -hoodie. Copy facts from the Printful spec only (R7.1).
+- **Print size:** FW 1500 or wider, every word above the pouch seam (R5.3.2; change the shape, never shrink).
+- **Colors (R7.2 pair):** Navy + Sand. Navy takes the existing cream/mustard file. Sand gets its own dark-ink file before the first sync (R5.3.8, builder 7e): CAN'T. in solid dark brown #3b2a1d, CAT'S ON ME. in deep rust #8a3b1d, keyline pixels removed so the counters stay open. Read every word on each mockup at about 400 px wide.
+- **Hook:** same as #557: CAN'T. CAT'S ON ME. Every cat owner's excuse for skipping anything. Men's, dry and deadpan (R3.4).
+- **Why it's not taken / design gate:** see #557 (cat dad shirt 3,600 / KD 47, Dec 12,100; proof and insider lines in its brief). Gift test: his partner or kids buy it for the cat dad.
+- **Primary keyword:** cat dad hoodie: 140 / KD 36 (RankHero keyword page, 2026-10-18, director; competition 3,867, 50% US, Dec 720 surge). KD 36+ under 1,000: allowed because the KD ≤ 35 hoodie sweep for live designs came back empty this run (every measured hoodie/sweatshirt phrase under KD 36 is already claimed) and it has a measured December surge (R2.5, R2.6). Unowned in docs/product-keyword-map.json; recorded there with this handle. Never use 'cat dad shirt' (#557). Primary in the first sentence, once in the meta, at most 3 times.
+- **Copy:** line one = the joke + who wears it + when, plainly, e.g. "Can't. Cat's on me: a cat dad hoodie for the recliner, the couch and every plan the cat cancels." No superlative or "one of the" opener (R8.3). Describe only what is in the art; "Original art, made for Graphic Tees Co." Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, 8 oz fleece warmth, wash care, gift fit, Christmas order-by about Dec 8, free size exchange).
+- **Cover:** registry #980 (Korean-American man, mid 30s, short wavy black hair, light stubble, black rectangular glasses, lean build), CLAIMED. Alt starts 'Man'. Scene: a lived-in living room in the evening, a recliner with a plaid throw and a grey tabby asleep on it behind him. Hood visible behind the neck, hands in the pouch or at his sides, no cat in his arms over the print (R6.5). Navy cover; generate with the product's own Navy mockup as `--design` (--n 1); composite first if any letter drifts (R6.9). Max 2 attempts.
+- **Title / handle:** "Men's Cat Dad – Can't, Cat's on Me Hoodie" / `mens-cat-dad-cant-cats-on-me-hoodie` (R7.4).
+- **Tags:** graphic-hoodies-for-men, hoodie, ai-art, intake-done (R7.5). No tee tags.
+- **Price:** pullover $39.99 (R12.1), NO compare-at (new product).
+- **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d). Before REVIEW: Printful default file checked on every variant and logged (R7.7), light-blank file logged per builder 7e, cover zoomed to 200% (R6.9), ink named from the mockups in copy (builder 7f).
+---
+## Log
+- 2026-10-18 09:29 UTC director: brief written, READY (lane C twin; primary 'cat dad hoodie' 140 / KD 36, measured this run).
