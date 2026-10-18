@@ -466,7 +466,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 573 | White woman, mid 40s, wavy auburn bob, freckles | USED 2026-10-16 — #382 Bases Loaded crewneck cover (seedream, 1 attempt) |
 | 574 | Korean-American woman, early 30s, butterfly clips in a half-up style, small silver hoops | RESERVED — #383 Still Loading Since 1999 Hoodie cover |
 | 575 | Black woman, mid 20s, long knotless braids, chunky sneakers | USED 2026-10-16 — #384 Hot Mess Express cover |
-| 576 | Native Hawaiian man, early 40s, short black hair, trimmed goatee | RESERVED — #385 Fisher of Men, Mostly Bass Half Zip cover |
+| 576 | Native Hawaiian man, early 40s, short black hair, trimmed goatee | USED 2026-10-18 — #385 Fisher of Men, Mostly Bass Half Zip cover (seedream try 1, back print clear) |
 | 577 | Filipino-American woman, late 20s, shoulder-length dark hair with curtain bangs, gold hoops | USED 2026-10-18 — #386 Official Tree Topper tee cover |
 | 578 | Black woman, mid 40s, short silver-streaked natural curls, red-framed glasses | USED 2026-10-18 — #387 Official Tree Topper crewneck cover (fal Seedream 4, kitchen; try 1 kept) |
 | 579 | Persian-American woman, early 30s, long dark wavy hair in a claw clip, small gold studs | USED 2026-10-16 — #388 Seasonally Overbooked crewneck cover (REDO art: new calendar print; seedream 2 attempts, 1st hair over the Y) |
@@ -762,11 +762,11 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 967 | Kenyan-American man, late 50s, short grey hair, neat grey beard, tall broad build | CLAIMED 2026-10-18 — #627 Rebuilt by a Carpenter Heavyweight Hoodie cover (brief) |
 | 954 | Cuban-American man, early 30s, dark wavy hair swept back, full black beard, medium build | CLAIMED 2026-10-18 — #614 Mom's Favorite Tee cover (brief) |
 | 955 | Pakistani-American man, mid 50s, short grey hair, clean-shaven, rectangular wire glasses, stocky build | CLAIMED 2026-10-18 — #615 Mom's Favorite Crewneck Sweatshirt cover (brief) |
-| 956 | Haitian-American man, early 40s, shaved head, thick black mustache, broad build | CLAIMED 2026-10-18 — #616 Drew Your Name. Panicked. Tee cover (brief) |
+| 956 | Haitian-American man, early 40s, shaved head, thick black mustache, broad build | USED 2026-10-18 — #616 Drew Your Name. Panicked. Tee cover |
 | 957 | Taiwanese-American man, mid 30s, short side-parted black hair, thin black-rimmed glasses, clean-shaven, slim build | CLAIMED 2026-10-18 — #617 Drew Your Name. Panicked. Crewneck Sweatshirt cover (brief) |
-| 958 | Native American (Lakota) woman, early 40s, long straight black hair with a few grey strands in a low ponytail tied back, turquoise drop earrings, medium build | CLAIMED 2026-10-18 — #618 Santa Gets All the Credit Tee cover (brief) |
+| 958 | Native American (Lakota) woman, early 40s, black hair with grey strands in a bun on top of her head, turquoise drop earrings, medium build | USED 2026-10-18 — #618 Santa Gets All the Credit Tee cover |
 | 959 | Ethiopian-American woman, early 50s, shoulder-length relaxed black hair tied back, small gold hoops, slim build | CLAIMED 2026-10-18 — #619 Santa Gets All the Credit Crewneck Sweatshirt cover (brief) |
-| 974 | man AND woman together: Bosnian-American man, late 40s, short dark-blond hair greying at the temples, short stubble, medium build; Tongan-American woman, mid 40s, long dark wavy hair tied back in a low bun, small shell earrings, curvy build | CLAIMED 2026-10-18 — #634 We Said No Gifts Tee cover (brief) |
+| 974 | man AND woman together: Bosnian-American man, late 40s, short dark-blond hair greying at the temples, short stubble, medium build; Tongan-American woman, mid 40s, long dark wavy hair tied back in a low bun, small shell earrings, curvy build | USED 2026-10-18 — #634 We Said No Gifts Tee cover |
 | 975 | Norwegian-American woman, early 50s, silver-blonde hair in a low braid tied back, sun-weathered skin, light crow's feet, wiry build | USED 2026-10-18 — #635 Out-Fished Him. Again. Zip Hoodie cover (back view, composite) |
 | 976 | Uzbek-American man, late 30s, short black hair, neat short beard, round wire glasses, stocky build | USED 2026-10-18 — #636 Unpaid Doorman Half Zip cover (back view, composite) |
 | 977 | Filipino-American man, mid 40s, short black hair with a widow's peak, thin mustache, burn-scarred forearms, wiry build | USED 2026-10-18 — #637 Grinder & Paint Department Hoodie cover (Navy, hands in pouch, fab shop) |
