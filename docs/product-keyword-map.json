@@ -8211,17 +8211,10 @@
     {
      "phrase": "funny white elephant gifts",
      "volume": 22200,
-     "kd": 10,
-     "source": "RankHero via scripts/keyword-gap.py"
-    },
-    {
-     "phrase": "christmas gifts for coworkers",
-     "volume": 9900,
-     "kd": 12,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 10
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "unisex-pitbull-velvet-hippo-social-club-hoodie": {
    "claimed": [

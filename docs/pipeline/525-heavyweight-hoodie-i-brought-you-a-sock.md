@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-18 02:43
+status: REVIEW
 lane: C
 type: twin
 id: 525
@@ -24,3 +24,4 @@ kd: 58
 ## Log
 - 2026-10-18 01:24 UTC director: brief written, READY (hoodie twin of a LIVE winner for lane C; keyword measured this run).
 - 2026-10-18 02:48 UTC builder [C]: built from #512's print (Printful file 1088605618, 2880x4423). R6.2 check: real-font lines (I BROUGHT / YOU A SOCK. Fraunces 900 rust, You're welcome. navy script), no ring, arch or panel. LAYOUT (R5.3.2): the print is tall (1.54), so at FW 1500 You're welcome. would sit on the pouch; the bare bottom 413 px (specks) were cut and You're welcome. was re-set at the lower right of the flowers beside the dog's front paw (1190 px wide, 3 degree tilt, navy with a thin same-color halo so it reads over the leaves): print now 2880x4010 (ratio 1.39), FW 1500 TOP 0; both lines are as large as in the crewneck's art and the whole print ends above the pouch seam. DRAFT gid 15364515987760 (Sandstone + Grey Heather x XS-3XL = 14, $49.99, no compare-at, category hoodies, tags per brief). Colors: Sandstone + Grey Heather (IND4000 has no Bone; Grey Heather is the lightest stocked solid, rust and navy ink read on both). Keyword dog owner gifts 5,400/KD58 in the map (once in copy + meta; no 'dog hoodie' or 'dog sweatshirt'). FAQs 5 x 47-49 words, order-by Dec 8. Printful file 1088649367, sync 482670785 running. Mockups per color + back attached, variant images linked. Cover: 1 fal image ($0.06, registry #860): hood visible, hands in the pouch, dog at her side holding the sock; You're welcome. was garbled, so the exact print was composited (R6.9) and every word read. Audit-local PASS. fal $0.06.
+- 2026-10-18 02:57 UTC builder [C]: Sync 14/14. REVIEW. Sheet docs/review/525.jpg.
