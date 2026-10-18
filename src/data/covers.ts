@@ -601,6 +601,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'womens-bear-mama-bear-hibernation-denied-hoodie': { src: '/covers/womens-bear-mama-bear-hibernation-denied-hoodie.webp', alt: 'Woman in a sand Mama Bear Hibernation Denied pullover hoodie with the hood visible standing on a snowy cabin porch at dawn with a sled and kids\' boots by the door' },
   'mens-welder-i-basically-hot-glue-metal-graphic-tee': { src: '/covers/mens-welder-i-basically-hot-glue-metal-graphic-tee.webp', alt: 'Man in a black I Basically Hot Glue Metal welder tee standing in a fabrication shop with steel racks, a welding cart and a hood on the bench behind him' },
   'womens-nana-mom-said-no-thats-cute-crewneck-sweatshirt': { src: '/covers/womens-nana-mom-said-no-thats-cute-crewneck-sweatshirt.webp', alt: 'Woman in a sand Mom Said No That\'s Cute nana crewneck sweatshirt standing on a late autumn front porch with pumpkins on the steps and a child\'s bike on the railing' },
+  'mens-grandpa-papa-where-dad-got-his-jokes-crewneck-sweatshirt': { src: '/covers/mens-grandpa-papa-where-dad-got-his-jokes-crewneck-sweatshirt.webp', alt: 'Man in a navy Papa Where Dad Got His Jokes crewneck sweatshirt and a wool flat cap standing in a fall backyard with a leaf pile and a kids\' soccer ball on the grass' },
 };
 
 export const coverFor = (handle: string) => covers[handle] ?? null;

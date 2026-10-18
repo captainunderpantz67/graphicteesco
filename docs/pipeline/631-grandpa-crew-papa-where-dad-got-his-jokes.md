@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-18 18:10
+status: REVIEW
 lane: E
 type: new
 id: 631
@@ -27,3 +27,5 @@ kd: 44
 ---
 ## Log
 - 2026-10-18 07:36 UTC director: brief written, READY (lane E; kd 44; KD 36+ under 1,000 allowed: measured Sep/Dec surges and every easier grandpa phrase is claimed or off-intent; proof named under the gate).
+- 2026-10-18 builder [E]: built. Art: 1 Recraft call ($0.04, try 1 kept: jolly white-haired grandpa laughing in a red armchair, one slipper dangling; no text). PAPA Rye above; WHERE DAD GOT and HIS JOKES. Alfa Slab One below (three lines), set in compose-print with holes knocked out. Two files: Sand on the dark-ink file 1088943400 (navy lines, red HIS JOKES., darker mustard PAPA with cream keyline); light file: Navy on 1088943411, headline fills cream/mustard/coral with navy or cream keylines, art halo 14 px. Print 3309 px wide, FW 1650 TOP 75 (clears the 2400 px area). Sand + Navy x S-3XL = 12 variants, 12/12 (Sand 6/6, Navy 6/6 on the right file), sync product 482789247. Mockups both colors + back attached and linked; read all three lines at 500 px on both. DRAFT gid 15365714641200 (category aa-1-13-14, $34.99 no compare-at, tags graphic-sweatshirts/sweatshirt/ai-art/intake-done, 5 FAQs 47-53 words incl. Dec 8, keyword papa sweatshirt 720/KD44 in line one and meta; kw map updated). Copy says the slipper dangles (the art shows it hanging, not flying). Cover registry 971: attempt 1 kept (seedream, Navy sweatshirt, hands empty, ball and leaf pile clear; first letters P, W, H clear, chest clean). fal ~$0.1.
+- 2026-10-18 16:02 UTC builder [E]: sync 12/12 confirmed. REVIEW.

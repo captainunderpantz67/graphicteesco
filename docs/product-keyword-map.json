@@ -9182,25 +9182,16 @@
   },
   "mens-grandpa-papa-where-dad-got-his-jokes-crewneck-sweatshirt": {
    "claimed": [
-    "papa sweatshirt",
-    "papa sweater"
+    "papa sweatshirt"
    ],
    "gaps_measured": [
     {
      "phrase": "papa sweatshirt",
      "volume": 720,
-     "kd": 44,
-     "competition": 7405
-    },
-    {
-     "phrase": "papa sweater",
-     "volume": 720,
-     "kd": 42,
-     "competition": 5047
+     "kd": 44
     }
    ],
-   "measured": "2026-10-18",
-   "note": "director: brief"
+   "measured": "2026-10-16"
   },
   "mens-hockey-not-weird-just-the-goalie-graphic-tee": {
    "claimed": [
