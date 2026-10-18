@@ -8513,23 +8513,22 @@
   },
   "mens-mechanic-no-i-cant-just-take-a-quick-look-graphic-tee": {
    "claimed": [
-    "gifts for mechanics"
+    "gifts for mechanics",
+    "mechanic gifts"
    ],
    "gaps_measured": [
     {
      "phrase": "gifts for mechanics",
      "volume": 3600,
-     "kd": 22,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 22
     },
     {
      "phrase": "mechanic gifts",
      "volume": 3600,
-     "kd": 35,
-     "source": "RankHero via scripts/keyword-gap.py"
+     "kd": 35
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-mechanic-no-i-cant-just-take-a-quick-look-hoodie": {
    "claimed": [
