@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: addon
 id: 673
@@ -26,3 +26,5 @@ kd: 32
 ## Log
 - 2026-10-19 director: brief written, READY (gift add-on step 3, ornaments; source design A grade). Nothing publishes before RESUME.
 - 2026-10-19 07:43 UTC [B]: built. DRAFT gid 15366556942640, Printful #881 sync 482959921, 1/1 synced on file 1089418015 (954x954 circle file, scripts/b-ornament-print.py, spec designs/b673/spec.json; cream disc, Alfa Slab/Lobster lockup sized to the safe-circle chord). Cost $6.34, $14.99, no compare-at (profit ~$8.65 before shipping). Category hg-3-58-7. Keyword recorded. FAQ 40-60 words, 530+ words. Cover: Printful flat #881 mockup (no person), logged. Etsy duplicate check not possible offline: director eyeball. fal 0. Both lines about 96% of the safe width.
+- 2026-10-19 08:20 UTC director: REDO from docs/review/673.jpg. SEO title and meta already trimmed in Shopify by the director (R8.4); print only:
+  1. R5.3.8: SHORT LEGS, / LONG OPINIONS are cream fill with a maroon keyline on the cream disc. Dark disc (the maroon or a deep navy pulled from the art) with cream letters, or solid maroon letters with open counters on the cream disc. The dog and layout are right; only the ink/ground changes. Remake the sheet, re-link (R7.7).

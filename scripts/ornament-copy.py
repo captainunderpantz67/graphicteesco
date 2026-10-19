@@ -4,8 +4,7 @@ spec: {name, kw, handle, title, tags[], story[3], joke_a, source (source product
 import json, re, sys
 s = json.load(open(sys.argv[1])); N = s['name'] + ' Ornament'
 faq = lambda q, a: f'<p><strong>{q}</strong><br>{a}</p>\n'
-d = '<h3>The Story</h3>\n' + ''.join(f'<p>{p}</p>\n' for p in s['story']) + '''<p>The print is set for a small round disc: the words sit large across the middle, the art sits under them, and a solid background fills the whole ornament so no bare white ring shows around the edge.</p>
-<h3>Details &amp; Fit</h3>
+d = '<h3>The Story</h3>\n' + ''.join(f'<p>{p}</p>\n' for p in s['story']) + '''<h3>Details &amp; Fit</h3>
 <ul>
 <li>Glossy ceramic ornament, circle shape</li>
 <li>100% ceramic</li>
