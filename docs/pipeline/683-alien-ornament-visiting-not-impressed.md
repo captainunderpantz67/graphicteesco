@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: C
 type: addon
 id: 683
@@ -24,3 +24,4 @@ kd: 37
 ---
 ## Log
 - 2026-10-19 director: brief written, READY (gift add-on step 3, ornaments; source design A grade). Nothing publishes before RESUME.
+- 2026-10-19 07:46 UTC [C] built: DRAFT gid gid://shopify/Product/15366558155056, Printful #881 sync 482960310, 1/1 Circle (22782) synced on file 1089420144 (954x954; scripts/ornament-print.py, designs/o683/spec.json). Alien from Printful file 1088444436 on night blue #1c2a33, Alfa Slab gold VISITING. / cream NOT IMPRESSED. inside the 372 px safe radius. Cost 6.34, $14.99. FAQ 6 questions 48-57 words. Cover: Printful #881 flat mockup. fal 0. Audit passes except not ACTIVE.
