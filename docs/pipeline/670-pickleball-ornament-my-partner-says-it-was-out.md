@@ -1,8 +1,9 @@
-status: BUILDING [B] 2026-10-19 07:30 UTC
+status: REVIEW
 lane: B
 type: addon
 id: 670
 handle: pickleball-my-partner-says-it-was-out-ornament
+shopify: gid://shopify/Product/15366549864752
 kd: 26
 ---
 ## Pickleball – My Partner Says It Was Out Ornament
@@ -24,3 +25,4 @@ kd: 26
 ---
 ## Log
 - 2026-10-19 director: brief written, READY (gift add-on step 3, ornaments; source design A grade). Nothing publishes before RESUME.
+- 2026-10-19 07:36 UTC [B]: built. DRAFT gid 15366549864752, Printful #881 sync 482958875, 1/1 synced on file 1089412667 (954x954 circle file, scripts/ornament-print.py, spec in builder scratch; art from designs/e609/art.png, cream #f3e7cf fill, Alfa Slab One lockup MY PARTNER SAYS navy / IT WAS OUT. red with navy keyline, both sized to the chord of the 85% safe circle, line 1 about 86% and line 2 about 92% of the safe width). Cost $6.34, $14.99, no compare-at, profit ~$8.65 before shipping. Category hg-3-58-7 Holiday Ornaments. Keyword pickleball ornament 1,900/KD 26 recorded. FAQ 51-60 words, 629 words total. Cover: Printful flat #881 mockup (hole and string visible, no person), logged. Etsy duplicate check not possible offline: director please eyeball. Phone-size read OK. fal 0.

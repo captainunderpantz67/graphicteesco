@@ -9775,6 +9775,15 @@
      "phrase": "pitbull ornament",
      "volume": 390,
      "kd": 34
+  "pickleball-my-partner-says-it-was-out-ornament": {
+   "claimed": [
+    "pickleball ornament"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pickleball ornament",
+     "volume": 1900,
+     "kd": 26
     }
    ],
    "measured": "2026-10-16"
