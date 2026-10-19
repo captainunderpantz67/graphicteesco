@@ -9817,6 +9817,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "hockey-cold-rink-hot-takes-ornament": {
+   "claimed": [
+    "hockey ornament"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "hockey ornament",
+     "volume": 1000,
+     "kd": 38
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
