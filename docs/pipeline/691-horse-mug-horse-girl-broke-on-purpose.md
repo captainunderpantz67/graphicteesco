@@ -1,8 +1,9 @@
-status: BUILDING [B] 2026-10-19 10:05
+status: REVIEW
 lane: B
 type: addon
 id: 691
 handle: horse-horse-girl-broke-on-purpose-mug
+shopify: gid://shopify/Product/15366877479216
 kd: 36
 ---
 ## Horse – Horse Girl, Broke on Purpose Mug
@@ -25,3 +26,4 @@ kd: 36
 ---
 ## Log
 - 2026-10-19 director: brief written, READY (gift add-on step 4, mugs 7–9 of the 15 in docs/backlog/gift-addons.md; source design A grade). Nothing publishes before RESUME.
+- 2026-10-19 09:36 UTC [B]: built. DRAFT gid 15366877479216, Printful #19 11 oz mug (1320) sync 482973372, 1/1 synced on file 1089457039 (2700x1050 transparent wrap, two lockup copies at 1/4 and 3/4, scripts/mug-print.py, designs/m691/spec.json). Dark brown ink only on the white mug (light file: all words dark, no cream fills). Both handle-left and handle-right mockups read. Cost $6.07, $17.99, no compare-at (profit ~$11.9 before shipping). Category hg-11-10-5-5. Keyword recorded. FAQ 6 questions 54-60 words, 720+ words. Cover: Printful #19 handle-right mockup, no person, flat. Etsy duplicate check not possible offline: director eyeball. fal 0.

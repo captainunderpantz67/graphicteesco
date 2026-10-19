@@ -1,3 +1,4 @@
+2026-10-19 09:36 UTC — [B] Builder run (gift add-ons only): #691 horse-horse-girl-broke-on-purpose-mug built to REVIEW (DRAFT gid://shopify/Product/15366877479216, sync on file 1089457039).
 2026-10-19 09:35 UTC — [B] Builder run (gift add-ons only): #690 pirate-pillaging-is-a-young-mans-game-mug built to REVIEW (DRAFT gid://shopify/Product/15366876954928, sync on file 1089457021).
 RUNNING lane B since 2026-10-19 10:05 UTC
 2026-10-19 09:52 UTC — [B] Builder run (gift add-ons only): ornament REDOs #671 #672 #673 #676 back to REVIEW (solid ink on cream disc, new files, Shopify media replaced). Lock released.
