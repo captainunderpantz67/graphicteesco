@@ -1,3 +1,4 @@
+RUNNING helper since 2026-10-19 10:43 UTC
 2026-10-19 10:33 UTC — [B] Builder run (gift add-ons only): #694 christmas-tree-it-looked-smaller-at-the-farm-mug built to REVIEW (DRAFT gid://shopify/Product/15366978863408, sync on file 1089478907).
 2026-10-19 10:31 UTC — [A] Builder run: quality reset still PAUSED; all 5 sample REDOs (#577 #624 #245 #275 #273) are at REVIEW, no lane A gift add-on briefs. Nothing built; no lock taken.
 2026-10-19 10:27 UTC — [C] Builder run (gift add-ons only): #693 strawberry-please-dont-pick-me-mug built to REVIEW (DRAFT gid://shopify/Product/15366976733488, sync on file 1089476670).
