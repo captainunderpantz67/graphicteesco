@@ -315,3 +315,7 @@ Patterns: C lines are mostly a seasonal label (Hello Winter, Pie Season, Lake Li
 - fal: wallet only (scripts/fal_budget.py), art only, 1 image per call. Most B/C redos reuse the art: $0.
 - Pace: at most 1 redo per builder run; director at most 6 LIVE per run, each with a side-by-side against 2 bar designs.
 - Order: B (lettering only) first, they're fastest; then C. Then park-snark designs (inbox 2026-10-19), socks/ornaments/mugs review, gift-guide picks.
+
+## After RESUME: LIVE log (director)
+- 2026-10-19 15:40 UTC: 6 LIVE (the cap): #577 Do Not Disturb. Biscuits in Progress., #624 The View Better Be Worth It., #245 The Recipe Dies With Me., #275 I Stole It. I'm Keeping It., #273 Take 41. Still Smiling., #328 Lone Wolf. Early Bedtime. Each compared side by side with 493 Calm Face and 479 Tag Soup or 483 Sisyphus; the one-line verdict is in each pipeline file. Model covers retired to the plain product shot (R6.11). #599 approved and held for the next run. Twins of the samples (#244, #274, #276, #560, #548) told to port the approved prints.
+
