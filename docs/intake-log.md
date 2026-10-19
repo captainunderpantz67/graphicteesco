@@ -1,5 +1,6 @@
 RUNNING lane B since 2026-10-19 16:02 UTC
-RUNNING lane A since 2026-10-19 15:59 UTC
+2026-10-19 16:13 UTC — [A] Builder run: redid #244 Nana's Cookies crewneck (ported approved #245 THE RECIPE / DIES WITH ME. print, FW 1650, 30/30 relinked, 5 fronts replaced, plain product shot). REVIEW. fal $0. 1 redo per run cap reached. Lock released.
+RUNNING lane C since 2026-10-19 15:56 UTC
 2026-10-19 16:00 UTC — [E] Builder run: redid #282 Bulking Season tee (type only: Anton stacked red/green lockup at about 92% art width, same Santa art, FW 1400, 42/42 synced, 6 front mockups replaced in place, plain product shot). REVIEW. fal $0. 1 redo per run cap reached. Lock released.
 2026-10-19 16:02 UTC — [C] Builder run: redid #441 Eight Arms, Zero Hugs oversized hoodie (type only: heavy AlfaSlabOne cream/coral lockup, same art, FW 1500, 12/12 synced, Dust+Navy mockups replaced in place, plain product shot). REVIEW. fal $0. 1 redo per run cap reached. Lock released.
 2026-10-19 15:47 UTC — [A] Builder run: RESUMED; redid #239 Resting My Eyes tee (type only: heavy stacked RESTING / MY EYES lockup, same art, FW 1400, 42/42 synced, mockups replaced in place, plain product shot). REVIEW. fal $0. 1 redo per run cap reached. Lock released.
@@ -786,7 +787,6 @@ PAUSED 2026-10-18 16:55 UTC — Claude (Sam: quality went backwards: pasted mock
 2026-10-19 14:35 UTC — [C] Builder run: quality reset still PAUSED; no READY lane C gift add-on briefs; remaining lane C items are regular hoodies, not allowed; covers on hold. Nothing built; no lock taken.
 2026-10-19 14:30 UTC — [B] Builder run: quality reset still PAUSED; no READY lane B gift add-on briefs; remaining lane B items are regular, not allowed; covers on hold. Nothing built; no lock taken.
 2026-10-19 15:21 UTC — [E] Builder run: quality reset still in force; no lane E gift add-on briefs; remaining lane E READY items are regular, not allowed; covers on hold. Nothing built; no lock taken.
-RUNNING lane A since 2026-10-16 19:00 UTC
 2026-10-16 19:09 UTC — [A] REVIEW #208 Women's Christmas Golf hoodie (synced 12/12).
 2026-10-16 19:50 UTC — [A] BUILDING #209 Mountain Christmas Bear hoodie and #210 Ski Lodge hoodie (drafts built, covers, mockups, audit PASS; Printful syncs queued, REVIEW when 12/12).
 2026-10-16 19:25 UTC — [A] BUILDING #208 Women's Christmas Golf hoodie (draft built, cover, mockups, audit PASS; Printful sync queued, REVIEW when 12/12).
