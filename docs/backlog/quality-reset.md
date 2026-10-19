@@ -1,4 +1,4 @@
-# Quality reset (Sam 2026-10-18): status PAUSED
+# Quality reset (Sam 2026-10-18): status RESUMED 2026-10-19 (Sam: "burn some credits ... the redesigns")
 
 Sam: the newest batch "should have been our best quality so far and this was a big step back. Bad mockups, weak fonts on top and weak lines."
 Builders are paused (docs/intake-log.md line 1). The director publishes nothing new until this file says RESUME.
@@ -308,3 +308,10 @@ Patterns: C lines are mostly a seasonal label (Hello Winter, Pie Season, Lake Li
 - **A art, copy REDO:** #616 Drew Your Name. Panicked. (primary is a gift phrase, R2.11).
 - **B (type only):** #614 Mom's Favorite (mid-weight script second line), #618 Santa Gets All the Credit (book-serif italic top line), #649 Off Duty / Not Looking at Your Sink and #650 It's Probably the Breaker (thin outlined collegiate top line).
 - **C (new line + type):** #637 Grinder & Paint Department (same line as C #530), #652 Line Wife (plans tentative) (noun + mild aside).
+
+## RESUME terms (Sam, 2026-10-19)
+- Lines: R3.13 funny bar (cropped-hoodie lines) side by side with 3 references; sincere faith designs exempt from jokes (R3.14); no Jewish-holiday work (R3.15).
+- Covers: NO new AI or Printful covers. A redone product keeps or gets the plain Printful product shot (add its handle to src/data/retired-covers.json if its old cover shows the old design). Photos come later from the A/B test result.
+- fal: wallet only (scripts/fal_budget.py), art only, 1 image per call. Most B/C redos reuse the art: $0.
+- Pace: at most 1 redo per builder run; director at most 6 LIVE per run, each with a side-by-side against 2 bar designs.
+- Order: B (lettering only) first, they're fastest; then C. Then park-snark designs (inbox 2026-10-19), socks/ornaments/mugs review, gift-guide picks.
