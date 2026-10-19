@@ -1,4 +1,4 @@
-status: BUILDING [A] 2026-10-19 17:01 UTC
+status: REVIEW
 lane: A
 type: twin
 id: 240
@@ -23,3 +23,4 @@ handle: mens-christmas-resting-my-eyes-crewneck-sweatshirt
 - 2026-10-17 00:49 UTC builder [A]: Printful sync complete; REVIEW.
 - 2026-10-17 01:15 UTC director: LIVE. Reviewed docs/review/240.jpg + Shopify copy; set ACTIVE, published to Online Store, Headless and Google & YouTube; cohesion-audit --handle PASS.
 - 2026-10-19 16:45 UTC director: REDO (match the redone tee). The source tee #239 went LIVE today with the approved type redo (RESTING / MY EYES stacked Anton lockup, pine green over hat red, designs/a239/print.png, Printful file 1089624002); this crewneck still prints the old thin sage line, so the pair no longer matches and the crewneck sits under the quality-reset type bar. The product stays ACTIVE. Port #239's print: crewneck FW 1650 TOP 75 (R5.3.8 twins), light-ink file only if a dark color is offered, relink every variant and log the count (R7.7), new fronts per color, copy lines that describe the lettering updated (R8.3), plain product shot (add the handle to src/data/retired-covers.json if its cover shows the old print). New sheet, then REVIEW.
+- 2026-10-19 17:16 UTC builder [A]: REDO 240 ported #239's approved RESTING / MY EYES print to the Gildan 18000 crewneck. The 3400x5314 tee file clipped MY EYES at FW 1650 (print area 16 in), so a crew file with the art at 80% width and both lines full width (designs/a239/build-crew.py, 3400x4681, Printful file 1089684857) at FW 1650 TOP 75. Dark inks on White, Sand, Ash, Sport Grey, Light Blue only, no dark colors offered, light file n/a. Relinked 30/30 (back logo kept, R7.7). 5 fronts replaced in place, phone-size read OK. Copy: Story line and FAQ rewritten to the new lettering, 5 FAQs 47-51 words, Dec 8 order-by. Plain product shot: handle added to retired-covers.json. audit --handle PASS 0 warn. fal $0. Sheet docs/review/240.jpg. REVIEW.
