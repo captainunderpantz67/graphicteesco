@@ -1,0 +1,5 @@
+{"art": "designs/b/wolf-b.png", "art_width": 0.86, "canvas": [3600, 4500], "gap": 50,
+ "lines": [
+  {"text": "LONE WOLF.", "font": "BowlbyOne-Regular.ttf", "size": 1100, "fill": "#a63a35", "stroke": 14, "stroke_fill": "#25304d", "tracking": 0.01, "max_width": 0.88, "where": "above"},
+  {"text": "EARLY BEDTIME.", "font": "BowlbyOne-Regular.ttf", "size": 1100, "fill": "#25304d", "tracking": 0.01, "max_width": 0.88, "where": "below"}
+ ]}
