@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: C
 type: addon
 id: 680
@@ -24,3 +24,4 @@ kd: 38
 ---
 ## Log
 - 2026-10-19 director: brief written, READY (gift add-on step 3, ornaments; source design A grade). Nothing publishes before RESUME.
+- 2026-10-19 07:41 UTC [C] built: DRAFT gid gid://shopify/Product/15366556188976, Printful #881 sync 482959674, 1/1 Circle (22782) synced on file 1089418412 (954x954; scripts/ornament-print.py, designs/o680/spec.json). Rink bench art from Printful file 1088618302 on navy #1b2a4a, Alfa Slab COLD RINK, (cream) / HOT TAKES. (red) above the art, inside the 372 px safe radius. Cost 6.34, $14.99. FAQ 6 questions 48-57 words. Cover: Printful #881 flat mockup. fal 0. Audit passes except not ACTIVE.

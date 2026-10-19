@@ -9830,6 +9830,71 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "hockey-cold-rink-hot-takes-ornament": {
+   "claimed": [
+    "hockey ornament"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "hockey ornament",
+     "volume": 1000,
+     "kd": 38
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "fishing-you-catching-em-no-keep-walking-ornament": {
+   "claimed": [
+    "fishing ornament"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fishing ornament",
+     "volume": 2900,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "dachshund-short-legs-long-opinions-ornament": {
+   "claimed": [
+    "dachshund ornament"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dachshund ornament",
+     "volume": 2400,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "horse-horse-girl-broke-on-purpose-ornament": {
+   "claimed": [
+    "horse ornament"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "horse ornament",
+     "volume": 2900,
+     "kd": 40
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "welder-i-basically-hot-glue-metal-ornament": {
+   "claimed": [
+    "welder ornament"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "welder ornament",
+     "volume": 320,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
