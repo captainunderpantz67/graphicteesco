@@ -1,0 +1,6 @@
+{"art": "designs/b/gr-a.png", "art_width": 0.72, "canvas": [3600, 4500], "gap": 40,
+ "lines": [
+  {"text": "I BROUGHT", "font": "Bevan-Regular.ttf", "size": 700, "fill": "#a8341b", "stroke": 0, "tracking": 0.01, "max_width": 0.96, "where": "above"},
+  {"text": "YOU A SOCK.", "font": "Bevan-Regular.ttf", "size": 700, "fill": "#3b2418", "stroke": 0, "tracking": 0.01, "max_width": 0.96, "where": "above"},
+  {"text": "YOU'RE WELCOME.", "font": "Bevan-Regular.ttf", "size": 400, "fill": "#1f2d4d", "stroke": 0, "tracking": 0.01, "max_width": 0.72, "where": "below"}
+ ]}
