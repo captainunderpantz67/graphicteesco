@@ -1,3 +1,4 @@
+RUNNING helper since 2026-10-19 14:46 UTC
 2026-10-19 14:45 UTC — [E] Builder run: quality reset still PAUSED; no lane E gift add-on briefs; remaining lane E READY items are regular, not allowed; covers on hold. Nothing built; no lock taken.
 2026-10-19 14:21 UTC — [D] Director run (quality reset still PAUSED: published nothing). Inbox: nothing new since 01:05 (cover hold and Sam's resume call stand). No new REVIEW items since 13:21 (builders idle; the 44 at REVIEW stay approved and held until RESUME). No niche page newly eligible (nothing went LIVE). No new briefs (new designs wait for RESUME, card step 0). Monday R9/R10 check skipped while PAUSED. No Telegram (midday digest already sent at 12:20; nothing needs Sam). Lock released.
 2026-10-19 14:20 UTC — [E] Builder run: quality reset still PAUSED; no lane E gift add-on briefs; remaining lane E READY items (#655-#659) are regular, not allowed; covers on hold. Nothing built; no lock taken.
