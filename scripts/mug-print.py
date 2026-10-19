@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """mug-print.py <spec.json> <out.png>: Printful #19 11 oz mug print file, 2700 x 1050 px, transparent (white mug = light blank, dark ink only).
 spec: {"art": path, "crop": [x0,y0,x1,y1] (motif only), "font": file, "w": lockup width px, "centers": [x, x] (lockup centres across the wrap), "top": px, "gap": px, "art_h": px,
-       "rows": [{"t": "TEXT", "c": "#2b1a12", "w": width px (optional, default lockup width)} | {"art": true}]}
+       "rows": [{"t": "TEXT", "c": "#2b1a12", "w": width px (optional, default lockup width), "font": file (optional)} | {"art": true}]}
 Each text row is scaled so its ink width equals its w; art is scaled to art_h. Prints the sizes."""
 import json, sys
 from pathlib import Path
@@ -18,9 +18,9 @@ for r in s['rows']:
         if w > LW: w = LW; h = round(art.height * w / art.width)
         blocks.append(art.resize((w, h), Image.LANCZOS)); print(f'art {w}x{h}')
     else:
-        f0 = ImageFont.truetype(str(ROOT / 'designs' / 'fonts' / s['font']), 400)
+        fn = r.get('font', s['font']); f0 = ImageFont.truetype(str(ROOT / 'designs' / 'fonts' / fn), 400)
         b = f0.getbbox(r['t']); tw = b[2] - b[0]; sz = round(400 * r.get('w', LW) / tw)
-        f = ImageFont.truetype(str(ROOT / 'designs' / 'fonts' / s['font']), sz); b = f.getbbox(r['t'])
+        f = ImageFont.truetype(str(ROOT / 'designs' / 'fonts' / fn), sz); b = f.getbbox(r['t'])
         im = Image.new('RGBA', (b[2] - b[0], b[3] - b[1]), (0, 0, 0, 0))
         ImageDraw.Draw(im).text((-b[0], -b[1]), r['t'], font=f, fill=hx(r['c']) + (255,)); blocks.append(im); print(f'{r["t"]}: size {sz} {im.width}x{im.height}')
 tot = sum(b.height for b in blocks) + GAP * (len(blocks) - 1); print('lockup height', tot)

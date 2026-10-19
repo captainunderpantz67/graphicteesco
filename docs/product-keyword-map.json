@@ -9960,6 +9960,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "bigfoot-camera-shy-mug": {
+   "claimed": [
+    "bigfoot mug"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bigfoot mug",
+     "volume": 720,
+     "kd": 35
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
