@@ -1,8 +1,9 @@
-status: BUILDING [B] 2026-10-19 07:39 UTC
+status: REVIEW
 lane: B
 type: addon
 id: 672
 handle: fishing-you-catching-em-no-keep-walking-ornament
+shopify: gid://shopify/Product/15366556549424
 kd: 32
 ---
 ## Fishing – You Catching 'Em? No. Keep Walking Ornament
@@ -24,3 +25,4 @@ kd: 32
 ---
 ## Log
 - 2026-10-19 director: brief written, READY (gift add-on step 3, ornaments; source design A grade). Nothing publishes before RESUME.
+- 2026-10-19 07:42 UTC [B]: built. DRAFT gid 15366556549424, Printful #881 sync 482959778, 1/1 synced on file 1089418008 (954x954 circle file, scripts/b-ornament-print.py, spec designs/b672/spec.json; cream disc, Alfa Slab/Lobster lockup sized to the safe-circle chord). Cost $6.34, $14.99, no compare-at (profit ~$8.65 before shipping). Category hg-3-58-7. Keyword recorded. FAQ 40-60 words, 530+ words. Cover: Printful flat #881 mockup (no person), logged. Etsy duplicate check not possible offline: director eyeball. fal 0. Line 1 about 95% and line 2 about 96% of the safe width; phone-size read OK.
