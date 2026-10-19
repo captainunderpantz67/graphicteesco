@@ -1,3 +1,4 @@
+RUNNING lane C since 2026-10-19 07:46 UTC
 2026-10-19 07:41 UTC — [C] Builder run (quality reset: gift add-ons only): #677 pit bull ornament built to REVIEW (DRAFT 15366548881712, Printful #881 sync on file 1089411965, $14.99). New scripts ornament-print/copy/pf-ornament. Lock released.
 RUNNING lane B since 2026-10-19 07:30 UTC
 2026-10-19 07:40 UTC — [A] Builder run: quality reset still PAUSED; lane A may only build the step-2 sample REDOs (#577, #624, #245, #275, #273) and all 5 are already at REVIEW. Nothing built; no lock taken.
