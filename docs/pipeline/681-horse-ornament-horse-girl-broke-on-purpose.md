@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: C
 type: addon
 id: 681
@@ -24,3 +24,4 @@ kd: 40
 ---
 ## Log
 - 2026-10-19 director: brief written, READY (gift add-on step 3, ornaments; source design A grade). Nothing publishes before RESUME.
+- 2026-10-19 07:44 UTC [C] built: DRAFT gid gid://shopify/Product/15366557139248, Printful #881 sync 482959981, 1/1 Circle (22782) synced on file 1089418943 (954x954; scripts/ornament-print.py, designs/o681/spec.json). Horse from Printful file 1088459250 on cream #f3e7cf (light blank file, brown ink HORSE GIRL / BROKE ON PURPOSE, Alfa Slab), inside the 372 px safe radius. Cost 6.34, $14.99. FAQ 6 questions 48-57 words. Cover: Printful #881 flat mockup. fal 0. Audit passes except not ACTIVE.
