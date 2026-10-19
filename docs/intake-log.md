@@ -1,3 +1,4 @@
+RUNNING lane B since 2026-10-19 21:28 UTC
 RUNNING lane C since 2026-10-19 21:22 UTC
 RUNNING lane E since 2026-10-19 21:14 UTC
 2026-10-19 21:23 UTC — [E] Builder run: redid #558 Women's Cat Not My Turn zip hoodie (type only: Bowlby One orange + Anton pink full art width, same art, back BW 1650, file 1089900083, 12/12 resynced, 4 mockups replaced in place, copy updated, plain product shot). REVIEW. fal $0.
@@ -6,7 +7,6 @@ RUNNING director since 2026-10-19 21:11 UTC
 2026-10-19 21:20 UTC — [D] Director run (RESUMED). Inbox: nothing new since the 17:55 note. LIVE 6 (cap): #521 #478 #522 #562 #525 #527 (approved last run, all already ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS 0 warn on all 6). Reviewed 9 new type-redo sheets (#385 #434 #487 #523 #538 #544 #548 #578 #618), all at the new bar side by side with 493 and 483/479 (#385 back print checked on the Navy back mockup); approved and held at REVIEW. Shopify fixes: #548 title, SEO title and meta still named the old Switchbacks Build Character line (now The View Better Be Worth It, handle unchanged); #618 Story dropped a lowercase 'christmas gifts for mom list' insertion (R8.3/R8.5); #578 tee lost the pit-bull-hoodies tag (tee in a hoodie grid). No REDO. READY: A 11 -> 12 with #703 We Said No Gifts. We Lied. mug (funny christmas mug 1,000 / KD 60, Nov-Dec 5,400; the only unowned holiday surge phrase left after this run's sweep), B 12, C 12 (E 5). No Telegram (midday digest went at 12:20; nothing needs Sam). Lock released.
 2026-10-19 21:12 UTC — [B] Builder run: redid #544 Men's Gym Rack Your Weights tee (type only, port of #625: Bevan stacked headline + heavy gold italic, same art, FW 1650 TOP 75, file 1089881607, 35/35 relinked, 5 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0. 1 redo per run cap reached. Lock released.
 
-RUNNING lane B since 2026-10-19 21:00 UTC
 2026-10-19 21:12 UTC — [A] Builder run: redid #481 Women's Do Not Sell My Books crewneck (type only: Fraunces Black full-width headline + bold AT MY FUNERAL., same art, FW 1650, 24/24 resynced, 4 fronts replaced in place, plain product shot). REVIEW. fal $0. Lock released.
 
 2026-10-19 21:26 UTC — [E] Builder run: redid #578 Unisex Pitbull Scary Dog, Afraid of the Vacuum tee (type only: Bowlby One cream SCARY DOG. + Anton mustard AFRAID OF THE VACUUM. at full art width, same art, FW 1600 TOP 75, file 1089860399, 42/42 resynced, 6 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0. 1 redo per run cap reached. Lock released.
