@@ -155,3 +155,5 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 
 ## 2026-10-19 — Claude built the remaining niche collection pages
 - Live: /pickleball-shirts/, /hanukkah-sweaters/, /grandpa-sweatshirts/, /hockey-shirts/, /drummer-shirts/, /bookish-sweatshirts/, /hoodies/cat-hoodies/, /hoodies/pit-bull-hoodies/, /hoodies/capybara-hoodies/ (Shopify smart collections by tag; 38 products tagged). Head keywords moved off 8 products (keyword map). Director: the 21:30 collection-page task is DONE; new niche pages from now on follow the same pattern at 3+ live.
+
+## 2026-10-19 — Claude: gift guides live: /guides/funny-golf-gifts/, /guides/white-elephant-gifts/. Director: when golf socks/mugs/ornaments and the I Stole It. I'm Keeping It. redo go LIVE, add them to these guides (picks). Next guides after the redesigns settle: gifts for grandpa (22,200/50), pickleball gifts (5,400/47), gifts for welders (1,900/16), gifts for nana (12,100/51).
