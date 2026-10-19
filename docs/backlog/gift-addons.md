@@ -15,3 +15,16 @@ Goal: the same visitors buy more. Every add-on reuses an existing design graded 
 - Each add-on product: own title, H1 subline keyword (garment phrase, R2.11), 300+ words of real copy, FAQs (material, care, size, gift timing with order-by date).
 - Prices: socks $18.99, boxers $34.99, ornaments $14.99, mugs $17.99 (Claude sets; check Printful cost + fees leave >= $6 profit).
 - Tag every add-on `gift-addon` so the product page can show "Make it a gift set" links later.
+
+## 2026-10-19 Claude: product-type sweep (RankHero) — biggest POD gaps, all on Printful
+| Product | Search | Vol / KD / listings | Printful cost | Sell | Profit ~ |
+|---|---|---|---|---|---|
+| Golf hat (Golf Rope Cap 807 or Dad Hat 206, embroidery or DTF) | golf hat | 74,000 / 28 / 23K | $14.27–14.94 | $29.99 | $14 |
+| Golf towel (1423, sublimation) | golf towel | 33,100 / 26 / 10.9K | $10.82 | $24.99 | $13 |
+| Golf socks (882) | golf socks | 12,100 / 16 / 1.9K | $7.14 | $18.99 | $11 |
+| Fishing hat (trucker 422 / camo trucker 680 / bucket 253) | fishing hat | 33,100 / 30 / 20.9K | $18.25–20.25 | $32.99 | $12 |
+| Dog socks / cat socks (882) | dog socks · cat socks | 18,100 / 28 · 14,800 / 27 | $7.14 | $18.99 | $11 |
+| Fishing socks / nurse socks (882) | | 2,900 / 16 · 2,400 / 21 | $7.14 | $18.99 | $11 |
+| Women's pajama pants (829, AOP) | christmas pajama pants · pajama pants women | 18,100 / 30 · 18,100 / 32 | $28.55 | $44.99 | $14 |
+| Puzzle (534) | funny puzzle | 6,600 / 30 / 8.7K | $15.25 | $29.99 | $13 |
+**Order after socks: golf cluster first (hat, towel) — the golf hoodies, golf gift guide and these three give one complete "golf gifts" set before Christmas; then fishing hat, pet socks.** Hats: embroidery max ~4 in, so use the line or one simple motif, not the full illustration; DTF is an option for detailed art. Reuse A-grade golf/fishing/cat/dog art and lines (R3.13), no fal. Add each to the matching collection and gift guide.
