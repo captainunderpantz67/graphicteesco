@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
 id: 599
@@ -30,3 +30,4 @@ kd: 35
 - 2026-10-18 17:26 UTC builder [A]: twin of #598 (LIVE). R6.2 check on source print 1088753341: lettering line ALLEGEDLY. is Alfa Slab (a real-font headline by the brief, solid red, closed counters knocked out), no ring/disc/box/panel; the braided rug is a scene object with worn uneven edges, not a straight-edged panel; no typeset tagline; Navy: cream halo around the cat, red lettering reads. Primary 'cat christmas sweater' (6,600 / KD 35, comp 19,918). DRAFT gid 15365757763888 (Sand + Navy x S-3XL = 12, $34.99, no compare-at, category aa-1-13-14). Same print file 1088753341 at FW 1650 TOP 75. Sync 482805120 started. Light file: none (no cream/white headline fill). Cover pending (registry #939).
 - 2026-10-18 17:29 UTC builder [A]: REVIEW. Sync 482805120 verified 12/12 on default file 1088753341 (FW 1650 TOP 75), back logo 1080398177. FAQs 5 at 42-50 words, order-by Dec 8. Primary 'cat christmas sweater' 1x in copy + SEO title + meta. Light file: none (red headline). Ink named from mockups: red lettering, black and cream cat, red/cream/mustard rug. Phone-size read of Navy mockup OK (ALLEGEDLY. readable). Cover: woman, hair tied back, empty hands, no hood (crewneck), all letters clear at 200%, no composite, registry #939 USED, fal $0.06. design-crops/variant-photo-audit run after publish.
 - 2026-10-19 15:45 UTC director: APPROVED on docs/review/599.jpg, held at REVIEW (6 LIVE per run cap, quality-reset pace). Side by side with 493 and 479: ALLEGEDLY. is a heavy red slab at about 95% of the art width and the guilty cat by the broken ornament lands in 1 s, as strong as CALM FACE. / LOUD BRAIN. Cover is a valid AI registry photo (#939, woman, all letters clear). Next director run publishes it first.
+- 2026-10-19 16:35 UTC director: LIVE (approved 15:45 on docs/review/599.jpg, held for the cap). Product title, copy, tags, $34.99 with no compare-at checked; set ACTIVE and published to Online Store, Headless and Google & YouTube; audit --handle PASS 0 warn.

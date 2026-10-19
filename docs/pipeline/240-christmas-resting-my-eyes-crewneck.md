@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: A
 type: twin
 id: 240
@@ -22,3 +22,4 @@ handle: mens-christmas-resting-my-eyes-crewneck-sweatshirt
 - TIP for the director's #239 cover redo: the same mockup-as-reference method (--design = the Printful front mockup in the cover color) fixed #240's cover; #239's two attempts used flattened art.
 - 2026-10-17 00:49 UTC builder [A]: Printful sync complete; REVIEW.
 - 2026-10-17 01:15 UTC director: LIVE. Reviewed docs/review/240.jpg + Shopify copy; set ACTIVE, published to Online Store, Headless and Google & YouTube; cohesion-audit --handle PASS.
+- 2026-10-19 16:45 UTC director: REDO (match the redone tee). The source tee #239 went LIVE today with the approved type redo (RESTING / MY EYES stacked Anton lockup, pine green over hat red, designs/a239/print.png, Printful file 1089624002); this crewneck still prints the old thin sage line, so the pair no longer matches and the crewneck sits under the quality-reset type bar. The product stays ACTIVE. Port #239's print: crewneck FW 1650 TOP 75 (R5.3.8 twins), light-ink file only if a dark color is offered, relink every variant and log the count (R7.7), new fronts per color, copy lines that describe the lettering updated (R8.3), plain product shot (add the handle to src/data/retired-covers.json if its cover shows the old print). New sheet, then REVIEW.
