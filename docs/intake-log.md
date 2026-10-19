@@ -1,7 +1,8 @@
 RUNNING director since 2026-10-19 21:11 UTC
-RUNNING lane A since 2026-10-19 20:59 UTC
 2026-10-19 21:12 UTC — [B] Builder run: redid #544 Men's Gym Rack Your Weights tee (type only, port of #625: Bevan stacked headline + heavy gold italic, same art, FW 1650 TOP 75, file 1089881607, 35/35 relinked, 5 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0. 1 redo per run cap reached. Lock released.
 
+RUNNING lane B since 2026-10-19 21:00 UTC
+2026-10-19 21:12 UTC — [A] Builder run: redid #481 Women's Do Not Sell My Books crewneck (type only: Fraunces Black full-width headline + bold AT MY FUNERAL., same art, FW 1650, 24/24 resynced, 4 fronts replaced in place, plain product shot). REVIEW. fal $0. Lock released.
 
 2026-10-19 21:26 UTC — [E] Builder run: redid #578 Unisex Pitbull Scary Dog, Afraid of the Vacuum tee (type only: Bowlby One cream SCARY DOG. + Anton mustard AFRAID OF THE VACUUM. at full art width, same art, FW 1600 TOP 75, file 1089860399, 42/42 resynced, 6 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0. 1 redo per run cap reached. Lock released.
 
