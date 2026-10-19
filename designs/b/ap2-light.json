@@ -1,0 +1,5 @@
+{"art": "designs/b/ap-a.png", "art_width": 0.92, "canvas": [3600, 4500], "gap": 40,
+ "lines": [
+  {"text": "EXPERT IN APRÈS", "font": "AlfaSlabOne-Regular.ttf", "size": 700, "fill": "#f2a9bd", "stroke": 0, "tracking": 0.0, "max_width": 0.92, "where": "above"},
+  {"text": "(BEGINNER AT SKIING)", "font": "Anton-Regular.ttf", "size": 520, "fill": "#f5ecd7", "stroke": 0, "tracking": 0.02, "max_width": 0.80, "where": "below"}
+ ]}
