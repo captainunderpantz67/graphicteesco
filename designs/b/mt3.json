@@ -1,0 +1,55 @@
+{
+ "art": "designs/b/mt-a.png",
+ "art_width": 0.56,
+ "canvas": [
+  3600,
+  4500
+ ],
+ "gap": 40,
+ "lines": [
+  {
+   "text": "THE MOUNTAINS",
+   "font": "Bevan-Regular.ttf",
+   "size": 420,
+   "fill": "#ee7f2d",
+   "tracking": 0.0,
+   "max_width": 0.86,
+   "where": "above",
+   "stroke": 16,
+   "stroke_fill": "#1d2547"
+  },
+  {
+   "text": "CALLED.",
+   "font": "Bevan-Regular.ttf",
+   "size": 420,
+   "fill": "#ee7f2d",
+   "tracking": 0.0,
+   "max_width": 0.86,
+   "where": "above",
+   "stroke": 16,
+   "stroke_fill": "#1d2547"
+  },
+  {
+   "text": "LEFT THEM",
+   "font": "Bevan-Regular.ttf",
+   "size": 420,
+   "fill": "#4a97a6",
+   "tracking": 0.0,
+   "max_width": 0.86,
+   "where": "below",
+   "stroke": 16,
+   "stroke_fill": "#1d2547"
+  },
+  {
+   "text": "ON READ.",
+   "font": "Bevan-Regular.ttf",
+   "size": 420,
+   "fill": "#4a97a6",
+   "tracking": 0.0,
+   "max_width": 0.86,
+   "where": "below",
+   "stroke": 16,
+   "stroke_fill": "#1d2547"
+  }
+ ]
+}
