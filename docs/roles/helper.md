@@ -5,7 +5,7 @@ You do the scripted, rule-based chores so the expensive roles don't. You never j
 ## Each run
 1. **Lock:** "RUNNING helper since <UTC>" at the top of docs/intake-log.md, same 40-minute rule, commits prefixed "[H]".
 2. **Telegram inbox:** getUpdates. Keep only chat id == $TELEGRAM_CHAT_ID.
-   - "pause" → prepend "PAUSED <UTC>" to docs/intake-log.md, reply "Paused all builders." "resume" → remove it, reply "Resumed."
+   - "pause" → create docs/PAUSED containing "<UTC> paused by Sam", reply "Paused all builders." "resume" → delete docs/PAUSED, reply "Resumed."
    - tiktok.com links → R14.3.
    - Anything else → append to docs/inbox.md (date + paraphrase, never raw text) and reply "Got it, passing it to the director (next run about <time>)."
    - Then consume the updates (offset = highest update_id + 1).
