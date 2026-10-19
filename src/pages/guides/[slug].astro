@@ -45,11 +45,12 @@ const schema = [
   ...(g.howTo ? [howTo(g.howTo.name, g.answer, g.howTo.steps)] : []),
   ...(listed.length ? [itemListOfProducts(g.h1, listed)] : []),
 ];
+const garment = (h: string) => (/half-zip/.test(h) ? 'half zip' : /hoodie/.test(h) ? 'hoodie' : /crewneck|sweatshirt/.test(h) ? 'crewneck' : 'tee');
 const linkRow = (links?: { href: string; text: string }[]) => (links ? filterHrefs(links, live) : []);
 ---
 <Base title={g.title} description={g.description} schema={schema}>
   <article class="container-x pt-10 max-w-3xl prose-copy">
-    <p class="eyebrow">Graphic tee guide</p>
+    <p class="eyebrow">{g.slug.includes('gift') ? 'Gift guide' : 'Graphic tee guide'}</p>
     <h1 class="display text-5xl md:text-6xl mt-2">{g.h1}</h1>
     <p class="!text-lg !text-[var(--color-ink)] mt-4 border-l-4 border-[var(--color-rust)] pl-4">{g.answer}</p>
     {g.howTo && (
@@ -75,8 +76,8 @@ const linkRow = (links?: { href: string; text: string }[]) => (links ? filterHre
               </div>
             ) : (
               <p class="flex flex-wrap gap-x-4">
-                <a href={`/products/${it.tee}/`} class="font-semibold underline decoration-[var(--color-rust)] underline-offset-4">{it.slogan} tee →</a>
-                {it.crewneck && <a href={`/products/${it.crewneck}/`} class="font-semibold underline decoration-[var(--color-rust)] underline-offset-4">{it.slogan} crewneck →</a>}
+                <a href={`/products/${it.tee}/`} class="font-semibold underline decoration-[var(--color-rust)] underline-offset-4">{it.slogan} {garment(it.tee)} →</a>
+                {it.crewneck && <a href={`/products/${it.crewneck}/`} class="font-semibold underline decoration-[var(--color-rust)] underline-offset-4">{it.slogan} {garment(it.crewneck)} →</a>}
               </p>
             )}
           </section>

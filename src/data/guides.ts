@@ -28,6 +28,80 @@ export interface PickGroup { h2: string; body: string[]; items: Pick[]; links?: 
 
 export const guides: Guide[] = [
   {
+    // Gift guide (Claude 2026-10-19). RankHero: gifts for golfers 49,500/42 · golf gifts for men 22,200/40 · funny golf gifts 2,900/34.
+    // Picks are A-grade designs only (quality reset); add golf socks, mugs and ornaments when they go live.
+    slug: 'funny-golf-gifts',
+    keyword: 'funny golf gifts',
+    title: 'Funny Golf Gifts: Shirts & Hoodies Golfers Actually Laugh At',
+    description: 'Funny golf gifts for the golfer who slices, improves his lie and swears the fairway is a rumor. Hoodies, crewnecks and half zips, printed to order.',
+    h1: 'Funny Golf Gifts for Golfers Who Laugh at Their Own Game',
+    date: '2026-10-19',
+    answer: 'The best funny golf gifts poke fun at the golfer\'s own game: the slice that broke a windshield, the "improved" lie, the fairway he never finds. Graphic Tees Co. makes original golf hoodies, crewnecks and half zips with those jokes printed big on the front, starting at $34.99, with one free size exchange.',
+    picks: [
+      {
+        h2: 'Funny golf hoodies and sweatshirts',
+        body: ['Golf season runs into fall and winter, so a warm hoodie or crewneck gets worn on the course, at the range and at the 19th hole.'],
+        items: [
+          { slogan: 'Sorry About Your Windshield.', tee: 'unisex-golf-sorry-about-your-windshield-hoodie', crewneck: 'unisex-golf-sorry-about-your-windshield-crewneck-sweatshirt',
+            text: 'For the golfer whose slice has hit a parked car (or should have). The apology is printed big across the chest, so everyone in the foursome gets it before the first tee.' },
+          { slogan: 'Not Cheating. Improving My Lie.', tee: 'unisex-golf-not-cheating-improving-my-lie-hoodie',
+            text: 'A raccoon nudging a golf ball into a better spot, for the friend who rolls it over in the rough when nobody is looking. The double meaning of "lie" does the rest.' },
+          { slogan: 'Fairways Are a Rumor.', tee: 'mens-golf-fairways-are-a-rumor-half-zip',
+            text: 'For the golfer who plays most of his round from the trees. It comes on a half zip, the classic golf layer.' },
+        ],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a golf gift funny instead of corny?', body: ['The joke has to be about the golfer\'s actual game. Lines about slices, lies and missed fairways land because every golfer has been there; generic "golf is life" slogans do not.', 'Pick the joke that matches his worst habit and he will wear it to prove he can take it.'],
+        links: [{ href: '/hoodies/golf-hoodies/', text: 'Shop all golf hoodies' }] },
+      { h2: 'When to order golf gifts for Christmas', body: ['Every piece is printed after you order it, then shipped. Order by early December to have it under the tree, and earlier is safer during the holiday rush.'] },
+    ],
+    faqs: [
+      { q: 'What is a good funny gift for a golfer?', a: 'A golf hoodie or crewneck with a joke about his own game, like "Sorry About Your Windshield" or "Not Cheating. Improving My Lie." It gets worn on the course and makes the foursome laugh.' },
+      { q: 'What do you get a golfer who has everything?', a: 'Something he would not buy himself: a funny golf hoodie or half zip with an original joke. Equipment is personal; a laugh is not.' },
+      { q: 'Are these golf gifts good for women golfers too?', a: 'Yes. The hoodies and crewnecks come in unisex sizes, and the jokes work for any golfer who has sliced one into the parking lot.' },
+      { q: 'Can I exchange the size if it does not fit?', a: 'Yes. Graphic Tees Co. offers one free size exchange within 30 days of delivery.' },
+    ],
+  },
+  {
+    // Gift guide (Claude 2026-10-19). RankHero: white elephant gifts 33,100/44 (78K listings); funny white elephant gifts 22,200/9 has no competition count (blended, R2.10), used once in copy only.
+    // A-grade Christmas designs only; add "I Stole It. I'm Keeping It." once its redesign is LIVE, and ornaments/mugs when live.
+    slug: 'white-elephant-gifts',
+    keyword: 'white elephant gifts',
+    title: 'White Elephant Gifts People Actually Fight Over (Under $40)',
+    description: 'Funny white elephant gifts under $40 that get stolen: Christmas shirts and crewnecks about tree fails, bike assembly at 2 a.m. and attending under protest.',
+    h1: 'White Elephant Gifts People Actually Fight Over',
+    date: '2026-10-19',
+    answer: 'The white elephant gifts that get stolen are funny and actually usable. A Christmas shirt or crewneck with a joke everyone recognizes, like a tree that looked smaller at the farm or a bike assembled at 2 a.m., gets a laugh when it is opened and gets worn after. Graphic Tees Co. tees are $24.99 and crewnecks $34.99, inside most white elephant budgets.',
+    picks: [
+      {
+        h2: 'Funny Christmas shirts that get stolen',
+        body: ['These are jokes the whole room recognizes, so the gift gets a laugh the moment it is unwrapped.'],
+        items: [
+          { slogan: 'It Looked Smaller at the Farm', tee: 'mens-christmas-it-looked-smaller-at-the-farm-graphic-tee', crewneck: 'mens-christmas-it-looked-smaller-at-the-farm-crewneck-sweatshirt',
+            text: 'Every family has bought the tree that did not fit through the door. Universal, clean and funny enough for the office party.' },
+          { slogan: 'Some Assembly Regretted', tee: 'mens-christmas-some-assembly-regretted-graphic-tee', crewneck: 'mens-christmas-some-assembly-regretted-crewneck-sweatshirt',
+            text: 'For whoever built the bike, the dollhouse or the trampoline at 2 a.m. on Christmas Eve. A twist on "some assembly required" that every parent gets.' },
+          { slogan: 'Attending Under Protest', tee: 'mens-christmas-attending-under-protest-hoodie', crewneck: 'mens-christmas-attending-under-protest-crewneck-sweatshirt',
+            text: 'A grumpy reindeer with crossed arms, for the coworker who did not want to come to the party but came anyway.' },
+          { slogan: 'Allegedly.', tee: 'womens-christmas-cat-allegedly-graphic-tee',
+            text: 'A guilty-looking cat next to a knocked-over ornament. One word, instant laugh, and every cat owner wants it.' },
+        ],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good white elephant gift?', body: ['A good white elephant gift is funny when it is opened and still useful after. Gag gifts that end up in the trash rarely get stolen; a funny Christmas shirt someone will wear to the next party does.', 'Keep it inside the group budget, usually $20 to $40, and pick a joke the whole room understands.'],
+        links: [{ href: '/funny-christmas-shirts/', text: 'Shop all funny Christmas shirts' }, { href: '/group-shirts/', text: 'Buying for the whole office? Save 15% on 10+' }] },
+      { h2: 'When to order', body: ['Each shirt is printed to order and then shipped, so order about two weeks before the party.'] },
+    ],
+    faqs: [
+      { q: 'What is a good white elephant gift under $30?', a: 'A funny Christmas tee at $24.99, like "It Looked Smaller at the Farm" or "Some Assembly Regretted." It gets a laugh and gets worn, which is why it gets stolen.' },
+      { q: 'What white elephant gifts get stolen the most?', a: 'Gifts that are funny and useful at the same time. A Christmas shirt or crewneck with a joke everyone recognizes usually beats a gag gift nobody wants to take home.' },
+      { q: 'Is a funny shirt a good white elephant gift for coworkers?', a: 'Yes, as long as the joke is clean. Every design here works at an office party: tree fails, holiday assembly and attending under protest.' },
+      { q: 'Can I buy white elephant gifts in bulk for a group?', a: 'Yes. Order 10 or more items in one cart, any designs and sizes, and 15% comes off automatically at checkout.' },
+    ],
+  },
+  {
     slug: 'how-to-wash-graphic-tees',
     keyword: 'how to wash graphic tees',
     title: 'How to Wash Graphic Tees Without Cracking or Fading',
