@@ -1,4 +1,3 @@
-RUNNING lane B since 2026-10-19 16:02 UTC
 2026-10-19 16:13 UTC — [A] Builder run: redid #244 Nana's Cookies crewneck (ported approved #245 THE RECIPE / DIES WITH ME. print, FW 1650, 30/30 relinked, 5 fronts replaced, plain product shot). REVIEW. fal $0. 1 redo per run cap reached. Lock released.
 RUNNING lane C since 2026-10-19 15:56 UTC
 2026-10-19 16:40 UTC — [B] Builder run: redid #403 I Have Plans hoodie (type only: BowlbyOne coral headline at full art width, same crab art, FW 1500, 12/12 synced, Sand+Navy mockups replaced in place, plain product shot). REVIEW. fal $0. 1 redo per run cap reached. Lock released.
