@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-19 08:14 UTC
 2026-10-19 08:01 UTC — [B] Builder run: quality reset still PAUSED; lane B may only build gift add-on briefs and all of #670-#676 are already at REVIEW (remaining lane B READY items #590-#603 are regular tees, not allowed). Nothing built; no lock taken.
 2026-10-19 07:58 UTC — [A] Builder run: quality reset still PAUSED; lane A may only build the step-2 sample REDOs (#577, #624, #245, #275, #273) and all 5 are at REVIEW (their covers are on hold per Sam 01:05). Nothing built; no lock taken.
 2026-10-19 07:56 UTC — [C] Builder run: quality reset still PAUSED; lane C may only build gift add-on briefs and all of #677-#683 are already at REVIEW. Nothing built; no lock taken.
