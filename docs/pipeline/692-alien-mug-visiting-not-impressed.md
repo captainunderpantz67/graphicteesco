@@ -1,8 +1,9 @@
-status: BUILDING [C] 09:23Z
+status: REVIEW
 lane: C
 type: addon
 id: 692
 handle: alien-visiting-not-impressed-mug
+shopify: gid://shopify/Product/15366787629360
 kd: 40
 ---
 ## Alien – Visiting. Not Impressed. Mug
@@ -25,3 +26,4 @@ kd: 40
 ---
 ## Log
 - 2026-10-19 director: brief written, READY (gift add-on step 4, mugs 7–9 of the 15 in docs/backlog/gift-addons.md; source design A grade). Nothing publishes before RESUME.
+- 2026-10-19 09:26 UTC [C]: built. DRAFT gid 15366787629360, Printful #19 11 oz mug (1320) sync 482972187, 1/1 synced on file 1089452688 (2700x1050 transparent wrap, two lockup copies at 1/4 and 3/4, scripts/mug-print.py, designs/m692/spec.json; art pulled from live source print file 1088444436, not regenerated; dark ink only: VISITING. dark teal #1f4a4c, NOT IMPRESSED. rust #a33d28, Alfa Slab as the source; light file: all words re-set dark, no cream). Headline 1000 px wide, second line 83/144 = 58% of headline height. Handle-left and handle-right mockups read. Cost $6.07, $17.99, no compare-at (profit ~$11.9 before shipping). Category hg-11-10-5-5. Keyword recorded (alien mug 720/40). FAQ 6 questions 53-58 words, 654 words. Cover: Printful #19 handle-right mockup, no person, flat. Audit: only 'not visible' error. Etsy duplicate check not possible offline: director eyeball. fal 0.

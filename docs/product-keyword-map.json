@@ -10025,6 +10025,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "alien-visiting-not-impressed-mug": {
+   "claimed": [
+    "alien mug"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "alien mug",
+     "volume": 720,
+     "kd": 40
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
