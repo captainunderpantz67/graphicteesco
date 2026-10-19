@@ -28,11 +28,14 @@ def fit(lines):
 # v2 (director REDO 2026-10-18): every line is sized to the full leg width (MAXW, >= 90% of the visible ~820 px) and the lockup + art
 # fill the leg from just under the cuff (y 700) to ~1 in above the heel (y 2700). A second file, rotated 180 deg, goes on the two FRONT placements
 # (the Printful front-view sock is drawn toe-up, so the unrotated panel read upside down there): out-front.png.
-LEG0, LEG1, GAP, CAP = 700, 2700, 45, s.get('cap', 330)
+LEG0, LEG1, GAP, CAP = 700, 2700, s.get('gap', 45), s.get('cap', 330)
 def tight(t, f):
     b = d.textbbox((0, 0), t, font=f); return b[1], b[3]
+UNI = None
+if s.get('uniform'):  # every word the same size, set by the longest line (director REDO #660: the punch word must not be the smallest)
+    UNI = max(sz for sz in range(CAP, 20, -4) if all(d.textlength(t, font=fnt(sz)) <= MAXW for t, _ in s.get('top', []) + s.get('bottom', [])))
 def sized(t):
-    sz = CAP
+    sz = UNI or CAP
     while d.textlength(t, font=fnt(sz)) > MAXW: sz -= 4
     f = fnt(sz); y0, y1 = tight(t, f); return f, y0, y1 - y0
 rows = [('T', t, c) for t, c in s.get('top', [])] + [('A', None, None)] + [('B', t, c) for t, c in s.get('bottom', [])] + ([('A', None, None)] if s.get('art_twice') else [])

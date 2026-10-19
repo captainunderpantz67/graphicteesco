@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: addon
 id: 664
@@ -31,3 +31,4 @@ kd: 28
 - 2026-10-19 00:25 UTC director: REDO (docs/review/664.jpg):
   1. Quality-reset bar (headline at least 90% of the art width) + R12.1 sock line: ALLEGEDLY. is a thin caption between two copies of the cat and is barely readable on the mockup. Use ONE cat (no second repeat on the leg), then ALLEGEDLY. at full leg width directly under it, heavy red as on #598; the cat may grow to fill the leg down to about 1 in above the heel.
   2. Foot repeat stays as is. New mockup + sheet; apply the "lockup" copy fix noted on #661 if the same paragraph is in this Story.
+- 2026-10-19 00:33 UTC [B] REDO #2 fixed: ONE cat (no repeat on leg), ALLEGEDLY. full leg width in heavy red Alfa Slab, foot repeat kept (file 1089242125 back, 1089242137 rotated front, 3/3 variants relinked R7.7); mockup upright both socks; Shopify image + alt replaced; Story copy updated (word/cat on the leg). Sheet docs/review/664.jpg. fal 0.

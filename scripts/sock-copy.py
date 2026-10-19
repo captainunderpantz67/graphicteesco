@@ -5,7 +5,7 @@ import json, re, sys
 s = json.load(open(sys.argv[1])); N = s['name'] + ' Socks'
 IDS = {'S': 22786, 'M': 22787, 'L': 22788}
 faq = lambda q, a: f'<p><strong>{q}</strong><br>{a}</p>\n'
-d = '<h3>The Story</h3>\n' + ''.join(f'<p>{p}</p>\n' for p in s['story']) + '''<p>The print runs the full length of each sock, from the cuff down the leg to the foot, with the lockup and the main art on the leg and a smaller repeat of the art on the foot. The background is solid, so there is no blank band where the knit shows.</p>
+d = '<h3>The Story</h3>\n' + ''.join(f'<p>{p}</p>\n' for p in s['story']) + '''<p>The print runs the full length of each sock, from the cuff down the leg to the foot, with the words and the main art on the leg and a smaller repeat of the art on the foot. The background is solid, so there is no blank band where the knit shows.</p>
 <h3>Details &amp; Fit</h3>
 <ul>
 <li>Sublimation crew socks with an all-over print</li>
