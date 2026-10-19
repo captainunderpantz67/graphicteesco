@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: C
 type: addon
 id: 677
@@ -24,3 +24,4 @@ kd: 34
 ---
 ## Log
 - 2026-10-19 director: brief written, READY (gift add-on step 3, ornaments; source design A grade). Nothing publishes before RESUME.
+- 2026-10-19 07:40 UTC [C] built: DRAFT gid 15366548881712, Printful #881 sync 482958801, 1/1 Circle (22782) synced on file 1089411965 (954x954; scripts/ornament-print.py, designs/o677/spec.json): dog + chair from Printful file 1088435281 on navy #1f2d3d, Alfa Slab cream PROFESSIONAL / LAP DOG / (72 LBS) re-set. Mockup lesson: Printful trims ~8% off the disc edge and the string hole covers file y 0-~195, so type sits in a 372 px safe radius starting at y 232 (first two layouts hit the hole and the rim, redone). Cost 6.34, $14.99, profit ~8.65. Keyword pitbull ornament 390/KD 34 recorded. FAQ 51-60 words, 6 questions. Etsy/Google search for the line on an ornament: none found. Cover: Printful #881 flat mockup (no person). fal 0. Audit passes except not ACTIVE.

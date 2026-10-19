@@ -627,6 +627,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-nurse-calm-face-loud-brain-socks': { src: '/covers/unisex-nurse-calm-face-loud-brain-socks.webp', alt: 'Pair of cream Calm Face, Loud Brain nurse socks with a heart-rate line that turns into a scribble, front and back view' },
   'unisex-cat-allegedly-socks': { src: '/covers/unisex-cat-allegedly-socks.webp', alt: 'Pair of cream Allegedly cat socks with a guilty black and white cat beside a broken ornament, front and back view' },
   'mens-christmas-attending-under-protest-socks': { src: '/covers/mens-christmas-attending-under-protest-socks.webp', alt: 'Pair of cream Attending Under Protest Christmas socks with a grumpy reindeer in a Santa hat, front and back view' },
+  'pit-bull-professional-lap-dog-72-lbs-ornament': { src: '/covers/pit-bull-professional-lap-dog-72-lbs-ornament.webp', alt: 'Round ceramic Professional Lap Dog pit bull ornament with a grinning pit bull in a flowered armchair on a navy disc and a gold string' },
 };
 
 // Pasted-print covers retired by R6.10 (Sam 2026-10-18): these fall back to the clean Printful mockup until a
