@@ -9973,6 +9973,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "nana-mom-said-no-thats-cute-mug": {
+   "claimed": [
+    "nana mug"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "nana mug",
+     "volume": 2900,
+     "kd": 35
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
