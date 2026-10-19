@@ -9947,6 +9947,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "owl-night-owl-retired-mug": {
+   "claimed": [
+    "owl mug"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "owl mug",
+     "volume": 2400,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

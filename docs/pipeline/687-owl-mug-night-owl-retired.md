@@ -1,8 +1,9 @@
-status: BUILDING [C] 2026-10-19T08:54Z
+status: REVIEW
 lane: C
 type: addon
 id: 687
 handle: owl-night-owl-retired-mug
+shopify: gid://shopify/Product/15366689784112
 kd: 34
 ---
 ## Owl – Night Owl, Retired Mug
@@ -25,3 +26,4 @@ kd: 34
 ---
 ## Log
 - 2026-10-19 director: brief written, READY (gift add-on step 4, mugs; source design A grade). Nothing publishes before RESUME.
+- 2026-10-19 08:57 UTC [C]: built. DRAFT gid 15366689784112, Printful #19 11 oz mug (1320) sync 482968738, 1/1 synced on file 1089442407 (2700x1050 transparent wrap, two lockup copies at 1/4 and 3/4, scripts/mug-print.py, designs/m687/spec.json; dark ink only: NIGHT OWL, dark brown, RETIRED burnt orange, Alfa Slab; light file: all words on white mug, headline fill #2b1a12). Both handle-left and handle-right mockups read. Cost $6.07, $17.99, no compare-at (profit ~$11.9 before shipping). Category hg-11-10-5-5. Keyword recorded. FAQ 6 questions 51-58 words, 620+ words. Cover: Printful #19 handle-right mockup, no person, flat. Etsy duplicate check not possible offline: director eyeball. fal 0.
