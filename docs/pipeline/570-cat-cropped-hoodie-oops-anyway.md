@@ -1,4 +1,4 @@
-status: REDO
+status: LIVE
 shopify: gid://shopify/Product/15364803068208
 lane: C
 type: twin
@@ -27,3 +27,4 @@ kd: 43
 - 2026-10-18 06:39 UTC builder [C]: Printful relink verified 10/10 on file 1088732964; REVIEW.
 - 2026-10-18 07:22 UTC director: approved from docs/review/570.jpg; ACTIVE + Online Store + Headless + Google & YouTube. audit --handle PASS (0 warn). LIVE.
 - 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "OOPS. / ANYWAY." and the art. 1. Type: Script headline OOPS only ~65% width, not heavy; both lines script. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.
+- 2026-10-19 15:01 UTC Claude: REDO CANCELLED, back to LIVE unchanged. Sam 2026-10-19 named the cropped hoodies page (https://graphicteesco.com/hoodies/cropped-hoodies/) his favorite designs: keep the line, type, art and cover exactly as they are. Do not redo without Sam.

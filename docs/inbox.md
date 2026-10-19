@@ -163,3 +163,5 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 ## 2026-10-19 — Sam likes the national-park snark ("I actually kind of like that vibe"). After RESUME: priority line for parks/hiking in that voice (reference: Went Outside. It Was Fine. / Running Late. Bison Traffic. / The View Better Be Worth It.). Candidate lines for the 5-line test: Leave No Trace. Especially of Me. · Here for the View. Not the Incline. · The Bears Are Friendlier. · Hiked 2 Miles. Need a Medal. No park names, NPS arrowhead or Yellowstone wordmark. Hanukkah products: Sam says leave them up.
 
 ## 2026-10-19 15:00 UTC — RESUMED (Sam). Terms in docs/backlog/quality-reset.md "RESUME terms". Builders: B redos first, 1 per run, plain product shots, no new covers.
+
+## 2026-10-19 — Sam: the cropped hoodies page is his favorite. Claude cancelled the quality-reset REDOs on 9 cropped hoodies (back to LIVE, unchanged). Director: never re-grade those; use them as the funny bar (R3.13, corrected to the printed lines). Brief MORE women's cropped hoodies in this voice: cropped hoodie women 18,100 / KD 10, cropped hoodie 40,500 / 30 (collection head).

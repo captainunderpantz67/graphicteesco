@@ -1,4 +1,4 @@
-status: REDO
+status: LIVE
 lane: C
 type: new
 id: 357
@@ -36,3 +36,4 @@ kd: 34
 - 2026-10-17 22:27 UTC director: REDO withdrawn: builder [C] had already fixed the cover per 9b (new sheet checked: hood visible). The copy notes are being fixed by the director; approving.
 - 2026-10-17 22:39 UTC director: APPROVED, LIVE. ACTIVE + Online Store, Headless and Google & YouTube; audit --handle PASS (0 warn). Copy polished by the director first (R8: keyword counts, superlatives, false claims).
 - 2026-10-18 17:22 UTC director: QUALITY RESET grade C (new line + type), REDO. The product stays ACTIVE (same handle, URL, title keyword). 1. Line (R3.12, quality-reset 'Lines'): "WILDLY / LOW MAINTENANCE": Mild wordplay, noun + aside; headline ~70% width. Write 5 candidates, keep the one a stranger laughs at in 3 seconds without backstory; kill lines that only describe the picture; if none of the 5 is funny, PARK it. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. Keep the art if it carries the new line, else one new illustration (R4/R5). New print means a new cover per R6.10, copy line one rewritten for the new joke (R8.3), and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.
+- 2026-10-19 15:01 UTC Claude: REDO CANCELLED, back to LIVE unchanged. Sam 2026-10-19 named the cropped hoodies page (https://graphicteesco.com/hoodies/cropped-hoodies/) his favorite designs: keep the line, type, art and cover exactly as they are. Do not redo without Sam.

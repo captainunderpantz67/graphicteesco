@@ -1,4 +1,4 @@
-status: REDO
+status: LIVE
 shopify: gid://shopify/Product/15364152623408
 lane: B
 type: twin
@@ -26,3 +26,4 @@ kd: 34
 - 2026-10-17 21:18 UTC builder [B]: synced 10/10. REVIEW. Sheet docs/review/464.jpg.
 - 2026-10-17 22:39 UTC director: APPROVED, LIVE. ACTIVE + Online Store, Headless and Google & YouTube; audit --handle PASS (0 warn). Copy polished by the director first (R8: keyword counts, superlatives, false claims).
 - 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "I have / CORE ISSUES" and the art. 1. Type: Thin pink script "I have" on black/charcoal garment; fails dark-garment script rule. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.
+- 2026-10-19 15:01 UTC Claude: REDO CANCELLED, back to LIVE unchanged. Sam 2026-10-19 named the cropped hoodies page (https://graphicteesco.com/hoodies/cropped-hoodies/) his favorite designs: keep the line, type, art and cover exactly as they are. Do not redo without Sam.
