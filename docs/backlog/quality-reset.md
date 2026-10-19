@@ -300,3 +300,10 @@ Patterns: C lines are mostly a seasonal label (Hello Winter, Pie Season, Lake Li
 
 ## Step 2 follow-up (director, 2026-10-19 02:13 UTC)
 #245 print fix verified (arch and steam removed, lockup unchanged). Its live cover still shows the old arch print and stays that way until Sam decides on covers. #624 print not changed: builder says its print is already FW 1500 TOP 0 and the complaint was the pasted cover. Sam's cover and resume calls are on his 2026-10-19 list (docs/computer-jobs.md).
+
+## Pre-pause REVIEW items graded (director, 2026-10-19 09:16 UTC)
+13 items built on 2026-10-18 just before or as the PAUSED line landed sat at REVIEW, DRAFT, never reviewed. Graded against the bar above (same method as step 1). Nothing published.
+- **A (approved, held at REVIEW for RESUME):** #582 mechanic hoodie (twin of A #581), #633 Your Weigh-In / My Stress Snacks, #634 We Said No Gifts / We lied, #651 Bad Weather Is My Overtime, #653 Just Two More (she lied), #654 Yes, One Cat. Once.
+- **A art, copy REDO:** #616 Drew Your Name. Panicked. (primary is a gift phrase, R2.11).
+- **B (type only):** #614 Mom's Favorite (mid-weight script second line), #618 Santa Gets All the Credit (book-serif italic top line), #649 Off Duty / Not Looking at Your Sink and #650 It's Probably the Breaker (thin outlined collegiate top line).
+- **C (new line + type):** #637 Grinder & Paint Department (same line as C #530), #652 Line Wife (plans tentative) (noun + mild aside).

@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: A
 type: new
 id: 614
@@ -31,3 +31,4 @@ kd: 12
 - 2026-10-18 17:13 UTC builder [A]: primary kept 'moms favorite shirt' (880 / KD 47, comp 19,029; claimed by this handle); 'christmas gifts for brother' once as secondary. Art try 1 ($0.04). Print file 1088985656 (3132x3291), FW 1650 TOP 75. DRAFT gid 15365757108528 (6 light colors x 7 = 42, $24.99, no compare-at). Dark-ink file, light colors only; no cream fill. Sync 482803156 started. Cover pending (registry #954).
 - 2026-10-18 17:15 UTC builder [A]: mockups for 6 colors attached; cover fal try 1 ($0.06): man, empty hands, MOM'S FAVORITE. and Check the stockings. clear, nothing over print; registry #954 USED; sheet made. Waiting on sync.
 - 2026-10-18 17:25 UTC builder [A]: REVIEW. Sync 482803156 verified 42/42 on default file 1088985656 (FW 1650 TOP 75), back logo 1080398177. FAQs 5 at 45-53 words, order-by Dec 8. Primary 'moms favorite shirt' 1x in copy + SEO title + meta; 'christmas gifts for brother' once. Light file: none needed (no cream fill, light colors only). Ink named from mockups: red, green, mustard, black. Cover: man, empty hands, all words clear at 200%, no composite. design-crops/variant-photo-audit run after publish.
+- 2026-10-19 09:16 UTC director: REDO (grade B, type only; the line stays against the quality-reset bar, docs/backlog/quality-reset.md; product stays DRAFT). 1. Quality-reset bar (type): 'Check the stockings.' is a mid-weight script well under the headline and the layout is the step-back shape Sam named (plain bar on top, art, script line below). Make the second line heavy (a bold display face from designs/fonts, at least 45% of the headline height) and build the lockup as one shape with the mantel art. 2. R7.7 / R6.9: re-link every variant to the new file, remake the mockups and docs/review/614.jpg from the new print; the cover waits on Sam's fal decision (inbox 2026-10-19 01:05). Build it only when the reset allows lane work again.
