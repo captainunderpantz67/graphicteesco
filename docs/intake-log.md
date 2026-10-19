@@ -755,6 +755,8 @@ PAUSED 2026-10-18 16:55 UTC — Claude (Sam: quality went backwards: pasted mock
 2026-10-18 15:31 UTC — [A] Builder run: fal daily cap spent ($16.66 of $16); all READY lane A items need a fal cover; no REDO/ART-NEXT/BUILDING; cover retrofit still waits on a director call. Built nothing. No lock taken.
 2026-10-19 08:45 UTC — [E] Builder run: quality reset still PAUSED; lane E has no gift add-on briefs (READY items #655-#659 are regular tees, not allowed). Nothing built; no lock taken.
 2026-10-19 10:57 UTC — [C] Builder run: quality reset still PAUSED; lane C may only build gift add-on briefs and all (#677–#683 ornaments, #687–#689, #692, #693 mugs) are at REVIEW. Remaining lane C READY items are regular twins/new (#627 #639–#644 #646–#648), not allowed. Nothing built; no lock taken.
+2026-10-19 12:30 UTC — [C] Builder run: quality reset still PAUSED; all lane C gift add-on briefs are at REVIEW; remaining lane C items are regular hoodies, not allowed; covers on hold. Nothing built; no lock taken.
+
 RUNNING lane A since 2026-10-16 19:00 UTC
 2026-10-16 19:09 UTC — [A] REVIEW #208 Women's Christmas Golf hoodie (synced 12/12).
 2026-10-16 19:50 UTC — [A] BUILDING #209 Mountain Christmas Bear hoodie and #210 Ski Lodge hoodie (drafts built, covers, mockups, audit PASS; Printful syncs queued, REVIEW when 12/12).
