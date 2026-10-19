@@ -9843,6 +9843,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "fishing-you-catching-em-no-keep-walking-ornament": {
+   "claimed": [
+    "fishing ornament"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fishing ornament",
+     "volume": 2900,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
