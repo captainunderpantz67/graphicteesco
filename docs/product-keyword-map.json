@@ -9804,6 +9804,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "owl-night-owl-retired-ornament": {
+   "claimed": [
+    "owl ornament"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "owl ornament",
+     "volume": 2400,
+     "kd": 36
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

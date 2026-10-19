@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: C
 type: addon
 id: 679
@@ -24,3 +24,4 @@ kd: 36
 ---
 ## Log
 - 2026-10-19 director: brief written, READY (gift add-on step 3, ornaments; source design A grade). Nothing publishes before RESUME.
+- 2026-10-19 07:40 UTC [C] built: DRAFT gid gid://shopify/Product/15366555042096, Printful #881 sync 482959442, 1/1 Circle (22782) synced on file 1089417666 (954x954; scripts/ornament-print.py, designs/o679/spec.json). Owl from Printful file 1088497941 on midnight blue #221f36, Alfa Slab NIGHT OWL, (cream) / RETIRED (orange) above the art, type inside the 372 px safe radius below the string hole. Cost 6.34, $14.99. FAQ 6 questions 48-57 words. Cover: Printful #881 flat mockup. fal 0. Audit passes except not ACTIVE.
