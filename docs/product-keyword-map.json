@@ -3893,12 +3893,17 @@
   },
   "womens-bookish-plot-twist-oversized-sweatshirt": {
    "claimed": [
-    "bookish sweatshirt",
+    "oversized bookish sweatshirt",
     "book sweatshirt",
     "book club sweatshirt"
    ],
    "gaps_measured": [],
-   "measured": "bookish sweatshirt 1,600/KD54; book sweatshirt 1,600/KD54; book club sweatshirt 590/KD56 (RankHero 2026-10-16)"
+   "measured": "bookish sweatshirt 1,600/KD54; book sweatshirt 1,600/KD54; book club sweatshirt 590/KD56 (RankHero 2026-10-16)",
+   "retargeted": {},
+   "moved_head_to_collection": {
+    "date": "2026-10-19",
+    "from": "bookish sweatshirt"
+   }
   },
   "womens-frog-not-toad-ay-zip-hoodie": {
    "claimed": [
@@ -4292,7 +4297,7 @@
   },
   "womens-embroidered-purrsonal-space-cat-hoodie": {
    "claimed": [
-    "cat hoodie"
+    "embroidered cat hoodie"
    ],
    "gaps_measured": [
     {
@@ -4301,7 +4306,12 @@
      "kd": 42
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {},
+   "moved_head_to_collection": {
+    "date": "2026-10-19",
+    "from": "cat hoodie"
+   }
   },
   "mens-gym-sore-since-1987-oversized-hoodie": {
    "claimed": [
@@ -4679,7 +4689,7 @@
   },
   "womens-capybara-out-of-office-soaking-oversized-hoodie": {
    "claimed": [
-    "capybara hoodie"
+    "oversized capybara hoodie"
    ],
    "gaps_measured": [
     {
@@ -4688,7 +4698,12 @@
      "kd": 16
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {},
+   "moved_head_to_collection": {
+    "date": "2026-10-19",
+    "from": "capybara hoodie"
+   }
   },
   "unisex-snowboard-sending-it-landing-optional-heavyweight-hoodie": {
    "claimed": [
@@ -5427,7 +5442,7 @@
   },
   "mens-grandpa-i-fix-things-after-naps-crewneck-sweatshirt": {
    "claimed": [
-    "grandpa sweatshirt"
+    "funny grandpa sweatshirt"
    ],
    "gaps_measured": [
     {
@@ -5436,7 +5451,12 @@
      "kd": 38
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {},
+   "moved_head_to_collection": {
+    "date": "2026-10-19",
+    "from": "grandpa sweatshirt"
+   }
   },
   "womens-christian-casserole-ministry-hoodie": {
    "claimed": [
@@ -6567,7 +6587,7 @@
   },
   "womens-hanukkah-fried-food-is-tradition-crewneck-sweatshirt": {
    "claimed": [
-    "hanukkah sweater"
+    "funny hanukkah sweater"
    ],
    "gaps_measured": [
     {
@@ -6576,7 +6596,12 @@
      "kd": 28
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {},
+   "moved_head_to_collection": {
+    "date": "2026-10-19",
+    "from": "hanukkah sweater"
+   }
   },
   "womens-christmas-embroidered-excused-from-small-talk-crewneck-sweatshirt": {
    "claimed": [
@@ -8518,7 +8543,7 @@
   },
   "mens-drummer-professionally-loud-graphic-tee": {
    "claimed": [
-    "drummer shirt"
+    "funny drummer shirt"
    ],
    "gaps_measured": [
     {
@@ -8537,7 +8562,12 @@
      "kd": 34
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {},
+   "moved_head_to_collection": {
+    "date": "2026-10-19",
+    "from": "drummer shirt"
+   }
   },
   "mens-mechanic-no-i-cant-just-take-a-quick-look-graphic-tee": {
    "claimed": [
@@ -8806,7 +8836,7 @@
   },
   "mens-hockey-here-for-the-post-game-nachos-graphic-tee": {
    "claimed": [
-    "hockey shirt"
+    "funny hockey shirt"
    ],
    "gaps_measured": [
     {
@@ -8815,7 +8845,12 @@
      "kd": 46
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {},
+   "moved_head_to_collection": {
+    "date": "2026-10-19",
+    "from": "hockey shirt"
+   }
   },
   "womens-christmas-cat-allegedly-graphic-tee": {
    "claimed": [
@@ -9413,7 +9448,7 @@
   },
   "unisex-pitbull-scary-dog-afraid-of-the-vacuum-zip-hoodie": {
    "claimed": [
-    "pit bull hoodie"
+    "pit bull zip hoodie"
    ],
    "gaps_measured": [
     {
@@ -9422,7 +9457,12 @@
      "kd": 22
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "retargeted": {},
+   "moved_head_to_collection": {
+    "date": "2026-10-19",
+    "from": "pit bull hoodie"
+   }
   },
   "mens-car-guy-i-speak-fluent-rattle-heavyweight-hoodie": {
    "claimed": [

@@ -899,9 +899,180 @@ export const tees: Collection[] = [
     ],
     shopifyHandle: 'welder-shirts',
   },
+  {
+    // RankHero 2026-10-18: pickleball shirts 6,600/38 (29K listings); pickleball shirt 6,600/38 stays with product #608. Added 2026-10-19 by Claude (SEO audit: niche had 3+ live products, no page).
+    slug: 'pickleball-shirts', section: 'tees', name: 'Pickleball Shirts',
+    keyword: 'pickleball shirts', volume: 6600, kd: 38,
+    title: 'Pickleball Shirts — Funny Tees, Crewnecks & Hoodies',
+    description: 'Funny pickleball shirts for the kitchen-line regulars: line calls, third-shot manners and club gossip. Tees, crewnecks and hoodies, printed to order.',
+    h1: 'Pickleball Shirts',
+    intro: 'Pickleball shirts for the people who show up early, argue the line calls and stay for the gossip. Every design is an original joke from the court, on tees, crewnecks and hoodies.',
+    sections: [
+      { h2: 'Jokes from the court', body: '"My Partner Says It Was Out" is for every doubles player who has heard that call. "Polite Until the Third Shot" is for the friendly player with a killer drop. "Kitchen Gossip Club" and "Booked Solid" cover the social side of the game.' },
+      { h2: 'Who they are for', body: "League regulars, open-play addicts, the friend who just discovered pickleball and won't stop talking about it, and anyone shopping for a pickleball gift." },
+    ],
+    faqs: [
+      { q: 'What is a good gift for a pickleball player?', a: 'A funny pickleball shirt is an easy gift: a line about line calls or the kitchen lands with anyone who plays. Graphic Tees Co. pickleball tees start at $24.99, and one free size exchange within 30 days covers a size guess.' },
+      { q: 'Can I play pickleball in these shirts?', a: 'Yes. The tees are soft cotton graphic tees that work for casual open play. For tournaments or hot days, a moisture-wicking athletic shirt may feel cooler; these are made for the court, the clubhouse and everywhere after.' },
+      { q: 'How long do pickleball shirts take to arrive?', a: (f) => `Every design is printed after you order it. Printing takes ${f.productionDays}, then your order ships. Orders of $45 or more ship free in the US, and delivery estimates are shown at checkout.`, needs: 'productionDays' },
+    ],
+    shopifyHandle: 'pickleball-shirts',
+  },
+  {
+    // RankHero 2026-10-18: hanukkah sweater 2,900/26 (3.9K listings), Dec peak 22,200. Product #457 moved to "funny hanukkah sweater". Added 2026-10-19 by Claude (SEO audit: niche had 3+ live products, no page).
+    slug: 'hanukkah-sweaters', section: 'tees', name: 'Hanukkah Sweaters',
+    keyword: 'hanukkah sweater', volume: 2900, kd: 26,
+    title: 'Hanukkah Sweaters — Funny Hanukkah Crewnecks & Tees',
+    description: 'Funny Hanukkah sweaters and tees: eight nights of fried food and a dreidel that spins responsibly. Crewneck sweatshirts and tees, printed to order.',
+    h1: 'Hanukkah Sweaters',
+    intro: 'Funny Hanukkah sweaters for the holiday party, the latke table and the family photo. The jokes are about what everyone loves about Hanukkah: the fried food and the dreidel games.',
+    sections: [
+      { h2: 'Designs', body: '"Eight Nights of Fried Food" has a golden stack of latkes and jelly donuts, because that is the holiday menu. "Spin Responsibly" has a dreidel mid-spin with a shower of gelt. Each comes on a crewneck sweatshirt and a tee.' },
+      { h2: 'A sweater people actually wear', body: 'Instead of a scratchy knit, these are soft crewneck sweatshirts, the cozy version of a holiday sweater, good for the party and the rest of winter.' },
+    ],
+    faqs: [
+      { q: 'When should I order a Hanukkah sweater?', a: 'Hanukkah 2026 begins at sundown on Friday, December 4. Every sweater is printed to order, so order by about November 20 to have it before the first night.' },
+      { q: 'Is a sweatshirt the same as a Hanukkah sweater?', a: 'Most people searching for a Hanukkah sweater want something cozy and festive to wear to a party. These are crewneck sweatshirts, softer and easier to wash than a knit sweater.' },
+      { q: 'How long do Hanukkah sweaters take to arrive?', a: (f) => `Every design is printed after you order it. Printing takes ${f.productionDays}, then your order ships. Orders of $45 or more ship free in the US, and delivery estimates are shown at checkout.`, needs: 'productionDays' },
+    ],
+    shopifyHandle: 'hanukkah-sweaters',
+  },
+  {
+    // RankHero 2026-10-18: grandpa sweatshirt 3,600/38. Product #361 moved to "funny grandpa sweatshirt". Added 2026-10-19 by Claude (SEO audit: niche had 3+ live products, no page).
+    slug: 'grandpa-sweatshirts', section: 'tees', audience: 'men', name: 'Grandpa Sweatshirts',
+    keyword: 'grandpa sweatshirt', volume: 3600, kd: 38,
+    title: 'Grandpa Sweatshirts — Funny Grandpa Shirts & Gifts',
+    description: 'Funny grandpa sweatshirts and tees: fixing things after naps, the original dad jokes and "ask your grandmother." Crewnecks, hoodies and tees, printed to order.',
+    h1: 'Grandpa Sweatshirts',
+    intro: 'Grandpa sweatshirts for the man who fixes everything right after his nap, told the dad jokes first, and sends every hard question to Grandma. Original designs on crewnecks, hoodies and tees.',
+    sections: [
+      { h2: 'The designs', body: '"I Fix Things. (After My Nap)" shows a grandpa asleep in his recliner with a wrench. "Papa: Where Dad Got His Jokes" settles where the family humor came from. "Ask Your Grandmother" is his answer to everything.' },
+      { h2: 'An easy gift from the grandkids', body: "These are made to be given: for a birthday, Father's Day, Christmas or a new grandpa announcement." },
+    ],
+    faqs: [
+      { q: 'What is a funny gift for a grandpa?', a: 'A grandpa sweatshirt with a joke he already lives, like fixing things after his nap, is an easy gift from the grandkids. Graphic Tees Co. crewnecks are $34.99, and one free size exchange within 30 days covers a size guess.' },
+      { q: 'Do these come in big sizes?', a: 'Yes. The crewnecks and hoodies run in regular unisex sizes up to 3XL or more depending on the style; check the size chart on each product.' },
+      { q: 'How long do grandpa sweatshirts take to arrive?', a: (f) => `Every design is printed after you order it. Printing takes ${f.productionDays}, then your order ships. Orders of $45 or more ship free in the US, and delivery estimates are shown at checkout.`, needs: 'productionDays' },
+    ],
+    shopifyHandle: 'grandpa-sweatshirts',
+  },
+  {
+    // RankHero 2026-10-18: hockey shirt 8,100/46. Product #597 moved to "funny hockey shirt". Added 2026-10-19 by Claude (SEO audit: niche had 3+ live products, no page).
+    slug: 'hockey-shirts', section: 'tees', name: 'Hockey Shirts',
+    keyword: 'hockey shirt', volume: 8100, kd: 46,
+    title: 'Hockey Shirts — Funny Hockey Tees, Crewnecks & Hoodies',
+    description: 'Funny hockey shirts for players, goalies and hockey moms: cold rinks, hot takes and goalies who are not weird. Tees, crewnecks and hoodies.',
+    h1: 'Hockey Shirts',
+    intro: 'Hockey shirts for the rink regulars: the goalie everyone calls weird, and the parents in the stands with cold hands and hot takes. Original designs on tees, crewnecks and hoodies.',
+    sections: [
+      { h2: 'The designs', body: '"Not Weird, Just the Goalie" is for the player in the pads. "Cold Rink, Hot Takes" is for every hockey mom and dad with opinions about the refs, on a crewneck or a hoodie that stays warm in the stands.' },
+      { h2: 'Warm enough for the rink', body: 'The crewnecks and hoodies are fleece, which matters at 6 a.m. practice.' },
+    ],
+    faqs: [
+      { q: 'What is a good gift for a hockey mom?', a: 'A warm hockey hoodie or crewneck with a rink joke, like "Cold Rink, Hot Takes," works for long games in the stands. Graphic Tees Co. crewnecks are $34.99 and one free size exchange within 30 days covers a size guess.' },
+      { q: 'Do you have goalie shirts?', a: 'Yes. "Not Weird, Just the Goalie" is made for goalies and the people who love them.' },
+      { q: 'How long do hockey shirts take to arrive?', a: (f) => `Every design is printed after you order it. Printing takes ${f.productionDays}, then your order ships. Orders of $45 or more ship free in the US, and delivery estimates are shown at checkout.`, needs: 'productionDays' },
+    ],
+    shopifyHandle: 'hockey-shirts',
+  },
+  {
+    // RankHero 2026-10-18: drummer shirt 1,900/33 (7K listings); drummer gifts 3,600/32 is gift-guide intent. Product #583 moved to "funny drummer shirt". Added 2026-10-19 by Claude (SEO audit: niche had 3+ live products, no page).
+    slug: 'drummer-shirts', section: 'tees', audience: 'men', name: 'Drummer Shirts',
+    keyword: 'drummer shirt', volume: 1900, kd: 33,
+    title: 'Drummer Shirts — Funny Drummer Tees & Hoodies',
+    description: 'Funny drummer shirts: professionally loud, and the neighbors absolutely love it. Tees and hoodies, printed to order, for drummers and their long-suffering families.',
+    h1: 'Drummer Shirts',
+    intro: 'Drummer shirts for the people who practice at full volume and the neighbors who hear every fill. Original designs on tees and hoodies.',
+    sections: [
+      { h2: 'The designs', body: '"Professionally Loud" says what every drummer already knows. "The Neighbors Love Me" pairs a drummer mid-solo with neighbors who clearly do not.' },
+      { h2: 'Gifts for drummers', body: 'An easy gift for the drummer in the family, the church band or the garage band, and a fair warning to anyone who lives next door.' },
+    ],
+    faqs: [
+      { q: 'What is a funny gift for a drummer?', a: 'A drummer shirt with a volume joke, like "The Neighbors Love Me," lands with any drummer and anyone who has lived with one. Graphic Tees Co. drummer tees are $24.99, and one free size exchange within 30 days covers a size guess.' },
+      { q: 'Are these shirts good to wear on stage?', a: 'Yes. They are soft cotton tees and fleece hoodies; the bold lettering reads from across a room.' },
+      { q: 'How long do drummer shirts take to arrive?', a: (f) => `Every design is printed after you order it. Printing takes ${f.productionDays}, then your order ships. Orders of $45 or more ship free in the US, and delivery estimates are shown at checkout.`, needs: 'productionDays' },
+    ],
+    shopifyHandle: 'drummer-shirts',
+  },
+  {
+    // RankHero 2026-10-18: bookish sweatshirt 1,600/53. Product #12 (plot twist oversized) moved to "oversized bookish sweatshirt". Added 2026-10-19 by Claude (SEO audit: niche had 3+ live products, no page).
+    slug: 'bookish-sweatshirts', section: 'tees', audience: 'women', name: 'Bookish Sweatshirts',
+    keyword: 'bookish sweatshirt', volume: 1600, kd: 53,
+    title: 'Bookish Sweatshirts — Cozy Hoodies for Book Lovers',
+    description: 'Bookish sweatshirts and hoodies for readers: plot twists, staying in, and books that are not for sale. Crewnecks, hoodies and cropped hoodies, printed to order.',
+    h1: 'Bookish Sweatshirts',
+    intro: 'Bookish sweatshirts for readers who stay in on purpose, guard their shelves and live for a plot twist. Cozy crewnecks, hoodies and cropped hoodies with original designs.',
+    sections: [
+      { h2: 'The designs', body: '"Plot Twist: I Stayed In" is the reader\'s answer to weekend plans, on a hoodie, a cropped hoodie and an oversized sweatshirt. "Do Not Sell My Books" is for the reader whose shelves are not up for negotiation.' },
+      { h2: 'Made for reading', body: 'Soft fleece for long chapters, the couch and the library run.' },
+    ],
+    faqs: [
+      { q: 'What is a good gift for a book lover?', a: 'A bookish sweatshirt with a reader joke, like "Plot Twist: I Stayed In," is an easy gift for any book lover. Graphic Tees Co. crewnecks are $34.99, and one free size exchange within 30 days covers a size guess.' },
+      { q: 'Do bookish sweatshirts come cropped or oversized?', a: 'Yes. Plot Twist comes as a regular hoodie, a cropped hoodie and an oversized sweatshirt, so you can pick the fit you like.' },
+      { q: 'How long do bookish sweatshirts take to arrive?', a: (f) => `Every design is printed after you order it. Printing takes ${f.productionDays}, then your order ships. Orders of $45 or more ship free in the US, and delivery estimates are shown at checkout.`, needs: 'productionDays' },
+    ],
+    shopifyHandle: 'bookish-sweatshirts',
+  },
 ];
 
 export const hoodies: Collection[] = [
+  {
+    // RankHero 2026-10-18: cat hoodie 14,800/42 (47K listings). Product purrsonal-space hoodie moved to "embroidered cat hoodie". Added 2026-10-19 by Claude (SEO audit: niche had 3+ live products, no page).
+    slug: 'cat-hoodies', section: 'hoodies', name: 'Cat Hoodies',
+    keyword: 'cat hoodie', volume: 14800, kd: 42,
+    title: 'Cat Hoodies — Funny Cat Lover Hoodies & Sweatshirts',
+    description: 'Funny cat hoodies for cat lovers: making biscuits, oops anyway, the one shared brain cell and purrsonal space. Hoodies, crewnecks and tees, printed to order.',
+    h1: 'Cat Hoodies',
+    intro: 'Cat hoodies for people whose cat runs the house: knocking things off tables, making biscuits on the blanket and taking turns with the brain cell. Original designs on hoodies, crewnecks and tees.',
+    sections: [
+      { h2: 'The designs', body: '"Do Not Disturb. Biscuits in Progress." has a calico kneading a pile of knit blankets. "Oops. Anyway." has a tabby watching a coffee mug fall. "Not My Turn With the Brain Cell" is for the orange-cat household, and "Purrsonal Space" is embroidered for introverts.' },
+      { h2: 'For cat moms and cat dads', body: 'There are women\'s hoodies and crewnecks, a cropped hoodie, and "Can\'t, Cat\'s on Me" for the cat dad who cannot get up.' },
+    ],
+    faqs: [
+      { q: 'What is a good gift for a cat lover?', a: 'A cat hoodie with a joke every cat owner knows, like a cat knocking a mug off the table, is an easy gift. Graphic Tees Co. hoodies start at $39.99, and one free size exchange within 30 days covers a size guess.' },
+      { q: 'Are any of the cat designs embroidered?', a: 'Yes. "Purrsonal Space" is embroidered on a hoodie and a crewneck. The rest are printed.' },
+      { q: 'How long do cat hoodies take to arrive?', a: (f) => `Every design is printed after you order it. Printing takes ${f.productionDays}, then your order ships. Orders of $45 or more ship free in the US, and delivery estimates are shown at checkout.`, needs: 'productionDays' },
+    ],
+    shopifyHandle: 'cat-hoodies',
+  },
+  {
+    // RankHero 2026-10-18: pit bull hoodie 1,300/18 (553 listings). Product scary-dog zip hoodie moved to "pit bull zip hoodie". Added 2026-10-19 by Claude (SEO audit: niche had 3+ live products, no page).
+    slug: 'pit-bull-hoodies', section: 'hoodies', name: 'Pit Bull Hoodies',
+    keyword: 'pit bull hoodie', volume: 1300, kd: 18,
+    title: 'Pit Bull Hoodies — Funny Pit Bull Lover Hoodies & Tees',
+    description: 'Funny pit bull hoodies for pittie parents: 72-pound lap dogs, velvet hippos and scary dogs afraid of the vacuum. Hoodies, crewnecks and tees.',
+    h1: 'Pit Bull Hoodies',
+    intro: 'Pit bull hoodies for pittie parents who know the truth: the scary dog is a 72-pound lap dog who is afraid of the vacuum. Original designs on hoodies, crewnecks and tees.',
+    sections: [
+      { h2: 'The designs', body: '"Professional Lap Dog (72 lbs)" is for every pittie who thinks they are small. "Velvet Hippo Social Club" uses the nickname every pit bull owner knows. "Scary Dog, Afraid of the Vacuum" is the reputation versus the reality.' },
+      { h2: 'For pittie parents', body: 'Made for owners, rescuers and fosters who are tired of the stereotype and want a laugh instead.' },
+    ],
+    faqs: [
+      { q: 'What is a velvet hippo?', a: '"Velvet hippo" is a loving nickname for pit bulls, from their short, soft coat and broad, hippo-like heads. Graphic Tees Co. turned it into the Velvet Hippo Social Club design.' },
+      { q: 'What is a good gift for a pit bull owner?', a: 'A pit bull hoodie that pokes fun at the scary-dog myth, like "Professional Lap Dog," is an easy gift for any pittie parent. Hoodies start at $39.99, and one free size exchange within 30 days covers a size guess.' },
+      { q: 'How long do pit bull hoodies take to arrive?', a: (f) => `Every design is printed after you order it. Printing takes ${f.productionDays}, then your order ships. Orders of $45 or more ship free in the US, and delivery estimates are shown at checkout.`, needs: 'productionDays' },
+    ],
+    shopifyHandle: 'pit-bull-hoodies',
+  },
+  {
+    // RankHero 2026-10-18: capybara hoodie 8,100/16 (1.2K listings). Product out-of-office oversized hoodie moved to "oversized capybara hoodie". Added 2026-10-19 by Claude (SEO audit: niche had 3+ live products, no page).
+    slug: 'capybara-hoodies', section: 'hoodies', audience: 'women', name: 'Capybara Hoodies',
+    keyword: 'capybara hoodie', volume: 8100, kd: 16,
+    title: 'Capybara Hoodies — Funny Calm Capybara Hoodies & Tees',
+    description: 'Funny capybara hoodies: out of office and soaking, and tangled in Christmas lights but unbothered. Oversized hoodies, zip hoodies and tees.',
+    h1: 'Capybara Hoodies',
+    intro: "Capybara hoodies for anyone who wants the capybara's calm: soaking in a hot spring with the out-of-office on, or wrapped in Christmas lights and completely unbothered.",
+    sections: [
+      { h2: 'The designs', body: '"Out of Office (Soaking)" shows a capybara in a hot spring, on an oversized hoodie. "Tangled. Unbothered." has a capybara wrapped in Christmas lights, on a tee and a zip hoodie.' },
+      { h2: 'Why capybaras', body: 'Capybaras are famous for staying calm no matter what. These are for people who aspire to that.' },
+    ],
+    faqs: [
+      { q: 'Why is everyone obsessed with capybaras?', a: 'Capybaras are calm, friendly and famously unbothered, often seen relaxing in hot springs with other animals around them. That chill attitude made them a favorite on social media.' },
+      { q: 'What is a good gift for a capybara lover?', a: 'A capybara hoodie is an easy gift: the oversized "Out of Office (Soaking)" hoodie is the cozy pick. Hoodies start at $39.99, and one free size exchange within 30 days covers a size guess.' },
+      { q: 'How long do capybara hoodies take to arrive?', a: (f) => `Every design is printed after you order it. Printing takes ${f.productionDays}, then your order ships. Orders of $45 or more ship free in the US, and delivery estimates are shown at checkout.`, needs: 'productionDays' },
+    ],
+    shopifyHandle: 'capybara-hoodies',
+  },
   {
     slug: 'cropped-hoodies', section: 'hoodies', audience: 'women', name: 'Cropped Hoodies',
     keyword: 'cropped hoodie', volume: 40500, kd: 30,
