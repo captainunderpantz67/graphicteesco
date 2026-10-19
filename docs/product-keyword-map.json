@@ -10077,6 +10077,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "christmas-tree-it-looked-smaller-at-the-farm-mug": {
+   "claimed": [
+    "christmas tree mug"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas tree mug",
+     "volume": 2400,
+     "kd": 39
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

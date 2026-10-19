@@ -3,6 +3,7 @@ lane: B
 type: addon
 id: 694
 handle: christmas-tree-it-looked-smaller-at-the-farm-mug
+shopify: gid://shopify/Product/15366978863408
 kd: 39
 ---
 ## Christmas Tree – It Looked Smaller at the Farm Mug
@@ -26,3 +27,4 @@ kd: 39
 ---
 ## Log
 - 2026-10-19 10:40 UTC director: brief written, READY (gift add-on step 4, mugs 10–11; source design A grade in docs/backlog/quality-reset.md; mug phrases re-measured this run: capybara 1,300/24, bookish 8,100/36, frog 2,400/34 and bear 4,400/38 have no A-grade design, so they wait). Nothing publishes before RESUME.
+- 2026-10-19 10:33 UTC [B]: built. DRAFT gid 15366978863408, Printful #19 11 oz mug (1320) sync 482984588, 1/1 synced on file 1089478907 (2700x1050 transparent wrap, two lockup copies at 1/4 and 3/4, scripts/mug-print.py, designs/m694/spec.json). Source art pulled from live file 1088710447; words re-set in Alfa Slab One in the source red #b5362f (no cream keyline), headline 1006 px wide, AT THE FARM 722 px; light file, all words dark. Both handle-left and handle-right mockups read. Cost $6.07, $17.99, no compare-at (profit ~$11.9 before shipping). Category hg-11-10-5-5. Keyword recorded. FAQ 6 questions 54-60 words, 720+ words. Cover: Printful #19 handle-right mockup, no person, flat. Etsy duplicate check not possible offline: director eyeball. fal 0.
