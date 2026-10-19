@@ -1,5 +1,4 @@
 RUNNING lane B since 2026-10-19 21:28 UTC
-RUNNING lane C since 2026-10-19 21:22 UTC
 RUNNING lane E since 2026-10-19 21:14 UTC
 2026-10-19 21:23 UTC — [E] Builder run: redid #558 Women's Cat Not My Turn zip hoodie (type only: Bowlby One orange + Anton pink full art width, same art, back BW 1650, file 1089900083, 12/12 resynced, 4 mockups replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 RUNNING director since 2026-10-19 21:11 UTC
@@ -1329,3 +1328,5 @@ for the record, but treat this one as current for these 3 products.
 2026-10-18 07:03 UTC — [B] REVIEW #585 Men's Drummer The Neighbors Love Me hoodie (DRAFT, synced 12/12).
 2026-10-18 07:03 UTC — [B] Run summary: REVIEW #467 #473 #585 (syncs re-run) and #542 cover REDO. Remaining lane B cold-weather READY: #385 half zip (needs hand re-letter, skipped). Lock released.
 2026-10-18 10:25 UTC — [E] Lock released. REDOs 555 559 577 534 536 are in REVIEW (all synced and verified). READY 608-613, 628-633 not started: fal daily cap reached ($15.98/16), new art impossible until 00:00 UTC.
+
+2026-10-19 21:29 UTC — [C] Builder run: redid #501 Women's Do Not Sell My Books hoodie (type only, port of #481: Fraunces Black one-line headline 97% width + bold AT MY FUNERAL., same art, FW 1700 TOP 0, file 1089909739, 12/12 relinked, 2 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0. Lock released.
