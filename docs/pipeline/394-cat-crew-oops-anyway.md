@@ -1,4 +1,4 @@
-status: REDO
+status: BUILDING [C] 2026-10-19 15:27 UTC
 shopify: gid://shopify/Product/15363409772848
 lane: C
 type: new
