@@ -1,5 +1,6 @@
 2026-10-19 07:41 UTC — [C] Builder run (gift add-ons only): #680 Cold Rink Hot Takes ornament built to REVIEW (DRAFT gid://shopify/Product/15366556188976, sync on file 1089418412). Lock released.
 2026-10-19 07:40 UTC — [C] Builder run (gift add-ons only): #679 Night Owl Retired ornament built to REVIEW (DRAFT gid://shopify/Product/15366555042096, sync on file 1089417666). Lock released.
+2026-10-19 07:40 UTC — [B] Builder run: ornament #671 built to REVIEW (DRAFT, Printful #881 synced, flat cover).
 2026-10-19 07:56 UTC — [C] Builder run (gift add-ons only): #678 reindeer ornament built to REVIEW (DRAFT 15366552650032, sync on file 1089415771). Lock released.
 2026-10-19 07:41 UTC — [C] Builder run (quality reset: gift add-ons only): #677 pit bull ornament built to REVIEW (DRAFT 15366548881712, Printful #881 sync on file 1089411965, $14.99). New scripts ornament-print/copy/pf-ornament. Lock released.
 RUNNING lane B since 2026-10-19 07:30 UTC
