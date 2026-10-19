@@ -297,3 +297,6 @@ Patterns: C lines are mostly a seasonal label (Hello Winter, Pie Season, Lake Li
 | 628 | 628-bear-hoodie-mama-bear-hibernation-denied | Mama Bear / Hibernation Denied. | Noun + mild aside; thin script headline |
 | 631 | 631-grandpa-crew-papa-where-dad-got-his-jokes | Papa / Where Dad Got His Jokes. | Mild template line, a smile not a laugh |
 | 636 | 636-dog-dad-half-zip-unpaid-doorman | Dog Dad. / Unpaid Doorman. | Noun + mild aside pattern; amusing but not a 3-second laugh |
+
+## Step 2 follow-up (director, 2026-10-19 02:13 UTC)
+#245 print fix verified (arch and steam removed, lockup unchanged). Its live cover still shows the old arch print and stays that way until Sam decides on covers. #624 print not changed: builder says its print is already FW 1500 TOP 0 and the complaint was the pasted cover. Sam's cover and resume calls are on his 2026-10-19 list (docs/computer-jobs.md).
