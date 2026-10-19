@@ -9921,6 +9921,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "nana-mom-said-no-thats-cute-ornament": {
+   "claimed": [
+    "nana ornament"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "nana ornament",
+     "volume": 210,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

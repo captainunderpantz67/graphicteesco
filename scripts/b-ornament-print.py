@@ -35,11 +35,13 @@ def fit(l, y0, y1):
         f = fnt(l, size); b = d.textbbox((0, 0), l['text'], font=f, stroke_width=l.get('stroke', 0))
         if b[2] - b[0] <= wmax and b[3] - b[1] <= l.get('max', 90): return f, b
         size -= 2
-est = {}
-for it in range(6):
+        if size < 20: return f, b
+est = {}; BOT = s.get('bottom_max', 785)  # lowest y the last line may reach; the art shrinks to make the stack fit between top_min and here
+for it in range(10):
     hs = [est.get(i, (l or {}).get('max', 90)) if l else ah for i, (k, l) in enumerate(lines)]
     tot = sum(hs) + GAP * (len(lines) - 1); y = max(C - tot / 2, s.get('top_min', 180)); pos = []
     for hh in hs: pos.append((y, y + hh)); y += hh + GAP
+    if y - GAP > BOT: ah = max(120, ah - (y - GAP - BOT))
     for i, (k, l) in enumerate(lines):
         if l: f, b = fit(l, *pos[i]); est[i] = b[3] - b[1]
 for i, (k, l) in enumerate(lines):

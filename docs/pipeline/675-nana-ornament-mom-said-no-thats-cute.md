@@ -1,8 +1,9 @@
-status: BUILDING [B] 2026-10-19 07:39 UTC
+status: REVIEW
 lane: B
 type: addon
 id: 675
 handle: nana-mom-said-no-thats-cute-ornament
+shopify: gid://shopify/Product/15366557794608
 kd: 32
 ---
 ## Nana – Mom Said No? That's Cute Ornament
@@ -24,3 +25,5 @@ kd: 32
 ---
 ## Log
 - 2026-10-19 director: brief written, READY (gift add-on step 3, ornaments; source design A grade). Nothing publishes before RESUME.
+- 2026-10-19 07:49 UTC [B]: reissued the print as file 1089421231 (v2: lockup moved below the string hole, art re-fit; scripts/b-ornament-print.py top_min 170), sync relinked 1/1, new Printful mockup swapped into the Shopify image in place (variant link and alt kept), cover and sheet remade.
+- 2026-10-19 07:49 UTC [B]: built. DRAFT gid 15366557794608, Printful #881 sync 482960204, 1/1 synced on file 1089421231 (954x954 circle file, scripts/b-ornament-print.py, spec designs/b675/spec.json; cream disc, Alfa Slab/Lobster lockup sized to the safe-circle chord). Cost $6.34, $14.99, no compare-at (profit ~$8.65 before shipping). Category hg-3-58-7. Keyword recorded. FAQ 40-60 words, 530+ words. Cover: Printful flat #881 mockup (no person), logged. Etsy duplicate check not possible offline: director eyeball. fal 0. Both lines about 96% of the safe width.
