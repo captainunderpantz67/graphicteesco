@@ -1,0 +1,34 @@
+{
+ "art": "designs/a614/art.png",
+ "art_width": 0.82,
+ "canvas": [
+  3600,
+  4500
+ ],
+ "gap": 40,
+ "holes": 2000,
+ "lines": [
+  {
+   "text": "MOM'S FAVORITE.",
+   "font": "AlfaSlabOne-Regular.ttf",
+   "size": 700,
+   "fill": "#b8382f",
+   "stroke": 16,
+   "stroke_fill": "#f3e7cf",
+   "tracking": 0.005,
+   "max_width": 0.9,
+   "where": "above"
+  },
+  {
+   "text": "CHECK THE STOCKINGS.",
+   "font": "Anton-Regular.ttf",
+   "size": 900,
+   "fill": "#2f5d3a",
+   "stroke": 14,
+   "stroke_fill": "#f3e7cf",
+   "tracking": 0.02,
+   "max_width": 0.9,
+   "where": "below"
+  }
+ ]
+}
