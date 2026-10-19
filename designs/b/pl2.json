@@ -1,0 +1,5 @@
+{"art": "designs/b/pl-a.png", "art_width": 0.92, "canvas": [3600, 4500], "gap": 30,
+ "lines": [
+  {"text": "I HAVE", "font": "Anton-Regular.ttf", "size": 520, "fill": "#b23a55", "stroke": 0, "tracking": 0.06, "max_width": 0.50, "where": "above"},
+  {"text": "CORE ISSUES", "font": "BowlbyOne-Regular.ttf", "size": 800, "fill": "#2f2a2a", "stroke": 0, "tracking": 0.0, "max_width": 0.92, "where": "below"}
+ ]}
