@@ -10226,5 +10226,22 @@
    }
   ],
   "measured": "2026-10-18"
+ },
+ "christmas-we-said-no-gifts-we-lied-mug": {
+  "claimed": [
+   "funny christmas mug"
+  ],
+  "gaps_measured": [
+   {
+    "phrase": "funny christmas mug",
+    "volume": 1000,
+    "kd": 60
+   },
+   {
+    "phrase": "white elephant mug",
+    "volume": 170,
+    "kd": 52
+   }
+  ]
  }
 }

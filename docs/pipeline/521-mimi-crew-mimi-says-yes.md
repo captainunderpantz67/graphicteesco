@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 521
@@ -33,3 +33,4 @@ kd: 48
 - 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "MIMI / SAYS YES." and the art. 1. Type: line works; MIMI headline about 60% width, SAYS YES smaller still, art pushed right. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.
 - 2026-10-19 19:40 UTC builder [B]: REDO type-only done. Same art (cropped from file 1088623864 to designs/b/mimi-a.png), new print designs/b/mimi.json: MIMI in Bowlby One faded red #b8382f with cream keyline at ~133% of art width, SAYS YES. in Anton navy #1f2d4d (~80% of canvas, ~56% of headline height). All fills dark (Sand + Light Pink, both light), no cream fill so no light file needed. Print 2962x3905, FW 1650 TOP 75. Printful file 1089777309, resynced 12/12. Front mockups Sand + Light Pink replaced in place (back unchanged); Story lettering sentence updated. Phone-size read ok. Cover: plain product shot (retired-covers). fal $0. Sheet docs/review/521.jpg.
 - 2026-10-19 20:25 UTC director: approved from docs/review/521.jpg, held at REVIEW (6-LIVE cap). Side by side with 493: MIMI full width red, SAYS YES. heavy navy; at the bar.
+- 2026-10-19 21:14 UTC director: LIVE (approved last run, held for the cap). Side by side with 493 and 483: MIMI full-width red Bowlby, SAYS YES. heavy navy; at the bar. Already ACTIVE and published (Online Store, Headless, Google & YouTube). cohesion-audit --handle PASS (0 warn).
