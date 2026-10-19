@@ -1,3 +1,4 @@
+RUNNING helper since 2026-10-19 18:43 UTC
 RUNNING lane A since 2026-10-19 18:38 UTC
 2026-10-19 18:27 UTC — [E] Builder run: redid #555 Treat Me Like Wildlife tee (type only: heavy Anton rust/navy/green stacked lockup at full art width, same goat art, FW 1300, file 1089727831, 36/36 resynced, 6 fronts replaced in place, plain product shot). REVIEW. fal $0. 1 redo per run cap reached. Lock released.
 2026-10-19 18:34 UTC — [C] Builder run: redid #560 Men's White Elephant Champion hoodie (ported approved #275 I STOLE IT. / I'M KEEPING IT. print, art at 70% of lockup so it clears the pouch at FW 1500, Sand on dark file 1089733316, Navy on light-ink file 1089733323, 12/12 relinked, 2 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0. 1 redo per run cap reached. Lock released.
