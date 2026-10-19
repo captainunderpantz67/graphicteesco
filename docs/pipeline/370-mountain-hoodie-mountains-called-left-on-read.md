@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: new
 id: 370
@@ -30,3 +30,4 @@ kd: 38
 - 2026-10-18 00:35 UTC builder [B]: synced 12/12. REVIEW. Sheet docs/review/370.jpg.
 - 2026-10-17 20:16 UTC director: APPROVED, LIVE. ACTIVE + published Online Store, Headless, Google; cohesion-audit --handle PASS. 'mountain hoodie' cut from 4 to 2 uses (audit stuffing warn)
 - 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "THE MOUNTAINS CALLED. / LEFT THEM ON READ." and the art. 1. Type: Both lines thin bars ~6% panel height, art dominates; plain bar top/bottom. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.
+- 2026-10-19 15:45 UTC builder [B]: REDO type-only done. Same art, new print designs/b/mt2.json (Bevan, THE MOUNTAINS CALLED. burnt orange #ee7f2d, LEFT THEM ON READ. teal #4a97a6, navy keyline, both lines full art width, second line same width; no cream fill so no light file needed, reads on Sand and Navy). Printful file 1089622673, FW 1500 TOP 0 (10.5x12.1 in file, clears pouch on mockup), resynced 12/12. Front mockups Sand and Navy replaced in place in Shopify (back unchanged). Cover: plain product shot (handle added to retired-covers.json). Phone-size read ok. fal $0. Audit PASS. Sheet docs/review/370.jpg. Set REVIEW.

@@ -1,0 +1,5 @@
+{"art": "designs/c394/art.png", "art_width": 0.8, "canvas": [3600, 4500], "gap": 40,
+ "lines": [
+  {"text": "OOPS.", "font": "BowlbyOne-Regular.ttf", "size": 1500, "fill": "#e0642f", "stroke": 16, "stroke_fill": "#2a211c", "tracking": 0.01, "max_width": 0.9, "where": "above"},
+  {"text": "ANYWAY.", "font": "BowlbyOne-Regular.ttf", "size": 1500, "fill": "#e9a93a", "stroke": 16, "stroke_fill": "#2a211c", "tracking": 0.01, "max_width": 0.9, "where": "below"}
+ ]}

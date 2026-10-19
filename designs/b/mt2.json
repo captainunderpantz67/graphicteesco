@@ -1,0 +1,5 @@
+{"art": "designs/b/mt-a.png", "art_width": 0.86, "canvas": [3600, 4500], "gap": 60,
+ "lines": [
+  {"text": "THE MOUNTAINS CALLED.", "font": "Bevan-Regular.ttf", "size": 900, "fill": "#ee7f2d", "stroke": 16, "stroke_fill": "#1d2547", "tracking": 0.0, "max_width": 0.88, "where": "above"},
+  {"text": "LEFT THEM ON READ.", "font": "Bevan-Regular.ttf", "size": 900, "fill": "#4a97a6", "stroke": 16, "stroke_fill": "#1d2547", "tracking": 0.0, "max_width": 0.88, "where": "below"}
+ ]}
