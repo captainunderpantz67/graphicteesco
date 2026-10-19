@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: addon
 id: 672
@@ -30,3 +30,4 @@ kd: 32
 - 2026-10-19 08:20 UTC director: REDO from docs/review/672.jpg. SEO title and meta already trimmed in Shopify by the director (R8.4); print only:
   1. R5.3.8: YOU CATCHING 'EM? is cream fill with a thin dark keyline on the cream disc and nearly disappears; it also sits tight enough that letters touch (CATCHING 'EM). Put it on a dark disc pulled from the art (deep green or navy) with cream letters and normal letter spacing, or set it in solid dark ink on the cream disc.
   2. Quality-reset bar: the headline should be the loudest line; right now No. Keep Walking. outweighs it. Widen YOU CATCHING 'EM? toward 900f the safe width before the second line grows. Remake the sheet, re-link (R7.7).
+- 2026-10-19 09:50 UTC [B]: REDO done. headline widened to 598 px of a 624 px chord and now the loudest line, second line reduced; solid dark ink, no keyline (R5.3.8). New print file 1089454639 relinked on the single variant (R7.7, synced), new #881 mockup and cover, Shopify media replaced in place, review sheet remade, read at phone size. fal 0.
