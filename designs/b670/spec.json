@@ -1,0 +1,3 @@
+{"art":"designs/e609/art.png","bg":"#f3e7cf","art_h":470,"gap":10,
+ "top":[{"text":"MY PARTNER SAYS","font":"AlfaSlabOne-Regular.ttf","fill":"#1b2a4a","max":100}],
+ "bottom":[{"text":"IT WAS OUT.","font":"AlfaSlabOne-Regular.ttf","fill":"#b8453c","stroke":3,"stroke_fill":"#1b2a4a","max":210}]}
