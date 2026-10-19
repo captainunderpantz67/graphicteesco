@@ -1,0 +1,5 @@
+{"art": "designs/e490/art-white.png", "art_width": 0.80, "canvas": [3600, 4500], "gap": 60,
+ "lines": [
+  {"text": "PLANS CANCELED.", "font": "Bevan-Regular.ttf", "size": 700, "fill": "#ee7f48", "stroke": 24, "stroke_fill": "#2a1b14", "tracking": 0.0, "max_width": 0.80, "where": "above"},
+  {"text": "MOOD IMPROVED.", "font": "Bevan-Regular.ttf", "size": 700, "fill": "#f3e7cf", "stroke": 24, "stroke_fill": "#2a1b14", "tracking": 0.0, "max_width": 0.80, "where": "below"}
+ ]}

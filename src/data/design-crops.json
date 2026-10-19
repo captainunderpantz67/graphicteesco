@@ -1547,11 +1547,11 @@
   "y": 36
  },
  "unisex-homebody-plans-canceled-mood-improved-hoodie": {
-  "h": 754,
-  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-sand-front-6ad41f480616b.jpg",
-  "w": 603,
-  "x": 276,
-  "y": 125
+  "h": 748,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-sand-back-6ad41f48070af.jpg",
+  "w": 598,
+  "x": 195,
+  "y": 252
  },
  "unisex-homebody-university-of-staying-in-crewneck-sweatshirt": {
   "h": 630,
@@ -2266,6 +2266,13 @@
   "w": 607,
   "x": 270,
   "y": 124
+ },
+ "womens-christmas-cat-allegedly-crewneck-sweatshirt": {
+  "h": 618,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-crew-neck-sweatshirt-sand-front-6ad501656bcbf.jpg",
+  "w": 494,
+  "x": 307,
+  "y": 13
  },
  "womens-christmas-cat-allegedly-graphic-tee": {
   "h": 682,
