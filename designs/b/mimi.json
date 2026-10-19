@@ -1,0 +1,5 @@
+{"art": "designs/b/mimi-a.png", "art_width": 0.66, "canvas": [3600, 4500], "gap": 40,
+ "lines": [
+  {"text": "MIMI", "font": "BowlbyOne-Regular.ttf", "size": 1000, "fill": "#b8382f", "stroke": 26, "stroke_fill": "#f3e7cf", "tracking": 0.02, "max_width": 0.96, "where": "above"},
+  {"text": "SAYS YES.", "font": "Anton-Regular.ttf", "size": 560, "fill": "#1f2d4d", "stroke": 0, "tracking": 0.02, "max_width": 0.80, "where": "below"}
+ ]}
