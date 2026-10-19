@@ -9778,6 +9778,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "christmas-attending-under-protest-ornament": {
+   "claimed": [
+    "reindeer ornament"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "reindeer ornament",
+     "volume": 3600,
+     "kd": 41
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

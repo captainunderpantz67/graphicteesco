@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: C
 type: addon
 id: 678
@@ -24,3 +24,4 @@ kd: 41
 ---
 ## Log
 - 2026-10-19 director: brief written, READY (gift add-on step 3, ornaments; source design A grade). Nothing publishes before RESUME.
+- 2026-10-19 07:55 UTC [C] built: DRAFT gid 15366552650032, Printful #881 sync 482959174, 1/1 Circle (22782) synced on file 1089415771 (954x954; scripts/ornament-print.py, designs/o678/spec.json): reindeer from Printful file 1088731441 on pine green #1d2b25, Alfa Slab ATTENDING (red) / UNDER PROTEST (cream) re-set above the art; type in the 372 px safe radius below the string hole. Cost 6.34, $14.99. Keyword reindeer ornament 3,600/KD 41 recorded. FAQ 48-57 words, 6 questions. Etsy duplicate search not run for this line (same line as the live shirts). Cover: Printful #881 flat mockup. fal 0. Audit passes except not ACTIVE.
