@@ -1,6 +1,6 @@
 RUNNING lane A since 2026-10-19 20:30 UTC
 RUNNING lane B since 2026-10-19 20:27 UTC
-RUNNING lane C since 2026-10-19 20:23 UTC
+2026-10-19 20:57 UTC — [C] Builder run: redid #487 Unisex University of Staying In crewneck (type only: Fraunces Black UNIVERSITY OF / STAYING IN full width cream+orange, bold EST. WHENEVER., same art, FW 1650 TOP 30, light file 1089833025 (Navy) + dark-ink file 1089833068 (Sand), 12/12 relinked, 2 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0. Lock released.
 2026-10-19 20:25 UTC — [D] Director run (RESUMED). Inbox: nothing new since the 17:55 note. Reviewed 7 new type-redo sheets (#556 #521 #478 #522 #562 #525 #527), all at the new type bar side by side with 493 and 483/479. LIVE 6 (cap): #560 #614 #625 #512 #460 (held from last run) and #556; #614 set ACTIVE + Online Store, Headless, Google & YouTube, the rest already ACTIVE. Audit --handle PASS 0 warn on all 6. Shopify copy fix: #556 Story still described the old lowercase script line. Approved and held at REVIEW: #521 #478 #522 #562 #525 #527 and the 31 add-ons. No REDO. READY: A 12, B 12, C 12 (E 5), so no new briefs. No Telegram (midday digest went at 12:20; nothing needs Sam). Monday check already done today. Lock released.
 RUNNING lane E since 2026-10-19 20:16 UTC
 2026-10-19 20:12 UTC — [B] Builder run: redid #548 National Park crewneck (ported #624 THE VIEW BETTER / BE WORTH IT. print, FW 1650, 12/12 relinked, 2 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0. 1 redo per run cap reached. Lock released.
