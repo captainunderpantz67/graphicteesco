@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [B] 2026-10-19 07:30 UTC
 lane: B
 type: addon
 id: 670
