@@ -65,7 +65,7 @@ export const guides: Guide[] = [
   },
   {
     // Gift guide (Claude 2026-10-19). RankHero: white elephant gifts 33,100/44 (78K listings); funny white elephant gifts 22,200/9 has no competition count (blended, R2.10), used once in copy only.
-    // A-grade Christmas designs only; add "I Stole It. I'm Keeping It." once its redesign is LIVE, and ornaments/mugs when live.
+    // A-grade Christmas designs only; "I Stole It. I'm Keeping It." added 2026-10-19 (director) when its redesign went LIVE; add ornaments/mugs when live.
     slug: 'white-elephant-gifts',
     keyword: 'white elephant gifts',
     title: 'White Elephant Gifts People Actually Fight Over (Under $40)',
@@ -86,6 +86,8 @@ export const guides: Guide[] = [
             text: 'A grumpy reindeer with crossed arms, for the coworker who did not want to come to the party but came anyway.' },
           { slogan: 'Allegedly.', tee: 'womens-christmas-cat-allegedly-graphic-tee',
             text: 'A guilty-looking cat next to a knocked-over ornament. One word, instant laugh, and every cat owner wants it.' },
+          { slogan: "I Stole It. I'm Keeping It.", tee: 'mens-christmas-white-elephant-champion-graphic-tee',
+            text: 'A proud man on a podium hugging the gift he just stole. It says out loud what every white elephant winner is thinking.' },
         ],
       },
     ],

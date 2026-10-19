@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 328
@@ -30,3 +30,4 @@ kd: 26
 - 2026-10-17 20:16 UTC director: APPROVED, LIVE. ACTIVE + published Online Store, Headless, Google; cohesion-audit --handle PASS.
 - 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "LONE WOLF. / EARLY BEDTIME." and the art. 1. Type: Headline only ~75% width and smaller than second line; navy lacks art color. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.
 - 2026-10-19 15:09 UTC builder [B]: REDO type-only done. New print (designs/b/wolf2.json, same art, BowlbyOne headline LONE WOLF. brick red #a63a35 with navy keyline at full art width, EARLY BEDTIME. navy same width, red/navy pulled from the quilt and art), Printful file 1089605307, FW 1465 TOP 0, resynced 12/12. Front mockups Sand and Sport Grey replaced in place (back unchanged). Cover: plain product shot (handle added to retired-covers.json, R-resume terms, no new cover). Phone-size read: both lines readable. Light file n/a (no cream headline). fal $0. Audit PASS. Sheet docs/review/328.jpg. Set REVIEW.
+- 2026-10-19 15:40 UTC director: LIVE (type redo, grade B). Side by side with 493 and 479: LONE WOLF. now a heavy full-width brick red headline from the quilt, EARLY BEDTIME. navy at the same width, both read at phone size on Sand and Sport Grey, as strong as CALM FACE. / LOUD BRAIN. Plain product shot cover (retired-covers.json). Already ACTIVE and published; audit --handle PASS 0 warn.
