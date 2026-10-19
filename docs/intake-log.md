@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-19 09:12 UTC
 2026-10-19 09:06 UTC — [B] Builder run (gift add-ons only): #684 golf, #685 fishing, #686 dachshund mugs built to REVIEW (all DRAFT, Printful #19 11 oz, $17.99, no compare-at, flat mockup covers, fal 0). No lane B work left under the reset. Lock released.
 2026-10-19 09:06 UTC — [B] Builder run (gift add-ons only): #686 dachshund-short-legs-long-opinions-mug built to REVIEW (DRAFT gid://shopify/Product/15366731399472, sync on file 1089445743).
 2026-10-19 09:05 UTC — [B] Builder run (gift add-ons only): #685 fishing-fishing-is-my-love-language-mug built to REVIEW (DRAFT gid://shopify/Product/15366724157744, sync on file 1089445262).
