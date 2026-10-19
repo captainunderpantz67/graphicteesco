@@ -1,0 +1,5 @@
+{"art": "designs/e282/art-white.png", "art_width": 0.80, "canvas": [3600, 4500], "gap": 50,
+ "lines": [
+  {"text": "BULKING", "font": "Anton-Regular.ttf", "size": 700, "fill": "#c0392f", "stroke": 22, "stroke_fill": "#3a2216", "tracking": 0.0, "max_width": 0.74, "where": "above"},
+  {"text": "SEASON", "font": "Anton-Regular.ttf", "size": 700, "fill": "#5d7c57", "stroke": 22, "stroke_fill": "#3a2216", "tracking": 0.0, "max_width": 0.74, "where": "above"}
+ ]}
