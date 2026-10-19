@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-19 21:23
+status: REVIEW
 lane: E
 type: new
 id: 579
@@ -33,3 +33,4 @@ kd: 50
 - 2026-10-18 08:55 UTC builder [E]: sync 28/28 confirmed. REVIEW.
 - 2026-10-18 09:22 UTC director: LIVE. approved from docs/review/579.jpg (newspaper grandpa, both lines read on Navy and Brown). Copy: same 'in dark colors' ink claim fixed (R8.3). ACTIVE + Online Store/Headless/Google & YouTube, audit --handle PASS (0 warn).
 - 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "I DON'T KNOW. / Ask your grandmother." and the art. 1. Type: Thin gold script second line on navy/brown; plain bar on top, script under art. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.
+- 2026-10-19 21:30 UTC builder [E]: REDO type-only done. Same grandpa art (old text bars cropped off), new lockup designs/e579/compose.py: I DON'T KNOW. Bowlby One cream + ASK YOUR GRANDMOTHER. Bevan mustard #e8a935, both full art width (line 2 = 53% of headline height), no thin script. All four blanks dark, cream/mustard need no light file. Print 2935x3236, Printful file 1089909197, FW 1650 TOP 75, resynced 28/28 verified with back logo. 4 fronts replaced in place in Shopify, Story updated (ink FAQ already names cream/mustard/rust on dark). Cover: plain product shot (handle already in retired-covers.json). Phone-size read: both lines clear on Navy. fal $0. Sheet docs/review/579.jpg.
