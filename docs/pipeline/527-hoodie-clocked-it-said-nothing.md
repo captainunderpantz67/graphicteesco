@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-19 20:01
+status: REVIEW
 lane: C
 type: twin
 id: 527
@@ -27,3 +27,4 @@ kd: 59
 - 2026-10-18 03:02 UTC builder [C]: Sync 12/12. REVIEW. Sheet docs/review/527.jpg.
 - 2026-10-18 03:16 UTC director: LIVE. Sheet seen: side-eye cat line art, clocked it. SAID NOTHING. reads on Black and Maroon; woman at a sunny window with a sleeping cat. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS (0 warn).
 - 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "clocked it. / SAID NOTHING." and the art. 1. Type: line works; "clocked it." is a thin script, SAID NOTHING small spaced caps. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.
+- 2026-10-19 20:07 UTC builder [C]: REDO 527 type only (B grade, twin of #478). Ported #478's print (designs/a478 print, 2352x2578): CLOCKED IT. Bowlby One cream full art width + SAID NOTHING. Anton cream stacked under the cat; same cat linework. R6.2: real-font lines, no ring/arch/panel. FW 1500 TOP 20, ends well above the pouch seam. Printful file 1089805339 (docs/print-files/527-clocked-it-hoodie-heavy.png), relinked 12/12. Black + Maroon only, cream fill on dark shirts so no light file needed (R5.3.8 n/a). 2 fronts replaced in place (back unchanged). Phone-size read ok on both colors. Copy: Story lettering sentence updated (heavy cream capitals). Plain product shot (handle already in retired-covers.json). audit --handle PASS 0 warn. fal $0. Sheet docs/review/527.jpg.
