@@ -10012,6 +10012,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "dachshund-short-legs-long-opinions-mug": {
+   "claimed": [
+    "dachshund mug"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dachshund mug",
+     "volume": 4400,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

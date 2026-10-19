@@ -1,8 +1,9 @@
-status: BUILDING [B] 2026-10-19T09:07Z
+status: REVIEW
 lane: B
 type: addon
 id: 686
 handle: dachshund-short-legs-long-opinions-mug
+shopify: gid://shopify/Product/15366731399472
 kd: 30
 ---
 ## Dachshund – Short Legs, Long Opinions Mug
@@ -25,3 +26,4 @@ kd: 30
 ---
 ## Log
 - 2026-10-19 director: brief written, READY (gift add-on step 4, mugs; source design A grade). Nothing publishes before RESUME.
+- 2026-10-19 09:06 UTC [B]: built. DRAFT gid 15366731399472, Printful #19 11 oz mug (1320) sync 482970214, 1/1 synced on file 1089445743 (2700x1050 transparent wrap, two lockup copies at 1/4 and 3/4, scripts/mug-print.py, designs/m686/spec.json). Light file: source cream keylined words re-set dark red #7a1f16 in Bevan, cream art fills tinted #ecd6a0 for the white mug. Both handle-left and handle-right mockups read. Cost $6.07, $17.99, no compare-at (profit ~$11.9 before shipping). Category hg-11-10-5-5. Keyword recorded. FAQ 6 questions 54-60 words, 720+ words. Cover: Printful #19 handle-right mockup, no person, flat. Etsy duplicate check not possible offline: director eyeball. fal 0.
