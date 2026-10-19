@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: addon
 id: 660
@@ -35,3 +35,5 @@ kd: 17
   3. Copy: the Story's 'lockup and the main art on the leg' line stays true only after fix 1; re-read it against the new mockups. Exchange FAQ is right (R12.2 covers socks: S/M/L are sizes). Missing golf balls/paw prints are fine: the foot repeating the main art is accepted.
   4. Remake docs/review/660.jpg from the new mockups and log the sync file ids (R7.7) before REVIEW.
 - 2026-10-18 23:33 UTC [B] REDO fixes done: panel rebuilt with every line at full leg width (>=90% of 820 px), lockup+art fill cuff to ~1 in above heel; front placements use a 180-degree-rotated file (v2: 1089204619 back, 1089204622 rotated front), all 3 variants relinked (R7.7); mockup checked on both views, line reads upright on both socks. New Printful mockup replaces the Shopify image, cover 'front and back view', sheet docs/review/660.jpg. Story line 'lockup and main art on the leg' is true now. fal 0.
+- 2026-10-19 00:25 UTC director: REDO (docs/review/660.jpg). The upright fix and the leg fill are right now; one note left:
+  1. Quality-reset bar (second line at least 45% of the headline's height) + R3.7.6: WINDSHIELD. is the punch word and is set as a tiny caption under a huge YOUR, so on the mockup it needs a squint. Re-set the lockup as SORRY / ABOUT / YOUR / WINDSHIELD. with WINDSHIELD. at full leg width (it is the longest word, so it sets the width) and the other three words no bigger than it. Same Fraunces navy. New mockup + sheet; also apply the "lockup" copy fix noted on #661.
