@@ -1,4 +1,4 @@
-status: REDO
+status: BUILDING [A] 15:34
 lane: A
 type: new
 id: 239
