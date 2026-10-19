@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [C] 2026-10-19T08:57Z
 lane: C
 type: addon
 id: 688
