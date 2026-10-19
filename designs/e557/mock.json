@@ -1,0 +1,30 @@
+{
+ "4017": {
+  "front:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/fa9e7b97bdf1aea67b5bf570d5571ea5/unisex-staple-t-shirt-black-front-6ad64b194ef7f.jpg",
+  "front:Front": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/28dca7bf444b707a7537239278c1ce0b/unisex-staple-t-shirt-black-front-6ad64b194f8c0.jpg",
+  "front:Back": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/8254c3394fec5fc598418d020917fc74/unisex-staple-t-shirt-black-back-6ad64b195033e.jpg",
+  "front:Left": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/7816ec44ee3accd57162d3cae20bbc8a/unisex-staple-t-shirt-black-left-6ad64b1950740.jpg",
+  "front:Right": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/2de2670cb0d3b6b44fdf4e3e6ad739d5/unisex-staple-t-shirt-black-right-6ad64b1950ba4.jpg"
+ },
+ "4112": {
+  "front:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/9129db56feb16bfc5f13f56615dd9177/unisex-staple-t-shirt-navy-front-6ad64b19510b6.jpg",
+  "front:Front": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/3710c41b02747da470fa2a7699de0ad6/unisex-staple-t-shirt-navy-front-6ad64b1951e67.jpg",
+  "front:Back": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/234e4fc2c76af095073fb0072edbd81e/unisex-staple-t-shirt-navy-back-6ad64b1952f11.jpg",
+  "front:Left": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/7acfd03c2b98efaaa29f6b0a01244637/unisex-staple-t-shirt-navy-left-6ad64b19536ad.jpg",
+  "front:Right": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/8463be53eabd10c70ab929066ebf11f4/unisex-staple-t-shirt-navy-right-6ad64b1953ef7.jpg"
+ },
+ "8461": {
+  "front:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/ce108ce047c6bd8c1538b8a8065d1719/unisex-staple-t-shirt-dark-grey-heather-front-6ad64b195485c.jpg",
+  "front:Front": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/440239f580ba09bc46f316cdb79160e4/unisex-staple-t-shirt-dark-grey-heather-front-6ad64b195597a.jpg",
+  "front:Back": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/b4001c5e5402bb8b101c326915c8cca0/unisex-staple-t-shirt-dark-grey-heather-back-6ad64b1957742.jpg",
+  "front:Left": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/ee142d6757f40e243252601fda2b37c5/unisex-staple-t-shirt-dark-grey-heather-left-6ad64b1957f15.jpg",
+  "front:Right": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/a9f346363ed062d673dab200014c8949/unisex-staple-t-shirt-dark-grey-heather-right-6ad64b19586d9.jpg"
+ },
+ "8489": {
+  "front:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/6c39e59645f4660d805adb01ee1bbb7d/unisex-staple-t-shirt-heather-forest-front-6ad64b1958e48.jpg",
+  "front:Front": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/2c9ce814394cf601ad5edea8ae12a63c/unisex-staple-t-shirt-heather-forest-front-6ad64b1959c31.jpg",
+  "front:Back": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/0d2ed1fb4e888a7b086922dbeb7f8ac7/unisex-staple-t-shirt-heather-forest-back-6ad64b195b815.jpg",
+  "front:Left": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/5d15c2d02b1aca5dd1ec36634d6eda0a/unisex-staple-t-shirt-heather-forest-left-6ad64b195c302.jpg",
+  "front:Right": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/fffaa63e19e1deae0a8cdbfa8822a822/unisex-staple-t-shirt-heather-forest-right-6ad64b195cf4c.jpg"
+ }
+}
