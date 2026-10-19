@@ -24,9 +24,6 @@ subprocess.run(['python3', str(ROOT / 'scripts/pf-orn.py'), 'mockup', furl, mj],
 url = json.load(open(mj))['main:front']; jpg = f'/tmp/m-{n}.jpg'; urllib.request.urlretrieve(url, jpg)
 from PIL import Image
 Image.open(jpg).convert('RGB').save(ROOT / f'public/covers/{handle}.webp', 'WEBP', quality=88)
-t = (ROOT / 'src/data/covers.ts').read_text(); i = t.index("  'unisex-golf-sorry-about-your-windshield-socks'"); j = t.index('\n', i) + 1
-a = alt.replace("'", "\\'")
-(ROOT / 'src/data/covers.ts').write_text(t[:j] + f"  '{handle}': {{ src: '/covers/{handle}.webp', alt: '{a}' }},\n" + t[j:])
-subprocess.run(['python3', str(ROOT / 'scripts/kwmap-add.py'), handle, kw], check=True)
+json.dump({'handle': handle, 'alt': alt, 'kw': kw}, open(f'/tmp/reg-{n}.json', 'w'))
 subprocess.run(['python3', str(ROOT / 'scripts/review-sheet.py'), n, art, str(ROOT / f'public/covers/{handle}.webp'), jpg], check=True)
 print('MOCKUP', url)
