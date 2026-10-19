@@ -1,4 +1,4 @@
-status: REDO
+status: BUILDING [C] 2026-10-19 19:52
 lane: C
 type: twin
 id: 525
