@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 634
@@ -33,3 +33,4 @@ kd: 10
 - 2026-10-18 16:59 UTC builder [A]: mockups for 6 colors attached (variant images + back). Cover fal try 2 (try 1: woman's hair covered the S of GIFTS; $0.12 total): man and woman, hair in a bun, empty hands, all words read, nothing over either print (note: a stray dot after 'lied' on the man's chest). Registry #974 USED. Sheet made. Waiting on sync 42/42.
 - 2026-10-18 17:11 UTC builder [A]: REVIEW. Sync 482800149 verified 42/42 on default file 1088976637 (FW 1650 TOP 75), back logo 1080398177. FAQs 5 at 47-53 words, order-by Dec 8, pair-in-cart answered (sold singly, R8.6). Primary 'couples christmas shirt' used 1x in copy + SEO title + meta; 'christmas gifts for couples' once. Light file: none needed (no cream fill). Ink named from mockups: red, mustard, green, black. Cover: man and woman, woman's hair in a bun, empty hands, both prints readable and clear at 200%, no composite.
 - 2026-10-19 09:16 UTC director: APPROVED on docs/review/634.jpg, graded A against the quality-reset bar (docs/backlog/quality-reset.md): WE SAID NO GIFTS. / We lied. heavy red headline at full width and a big heavy script punchline on light colors only; cover shows a man and a woman (unisex). Copy fixed in Shopify by the director: line one said 'it is a good one among the Christmas gifts for couples' (R8.3, 'one of the <keyword>' tell), now 'As a Christmas gift for a couple, it is the one that owns up to it.' Title, tags, price with no compare-at and SEO lengths checked in Shopify. Stays DRAFT at status REVIEW until the quality reset says RESUME; the director publishes it then without a second review.
+- 2026-10-19 17:40 UTC director: LIVE (approved 2026-10-19 09:16, held for RESUME). Side by side with 493 and 483: WE SAID NO GIFTS. heavy red at full width, We lied. a heavy script about 60% of the headline height on light blanks only; the confession lands in 3 seconds like 493's contrast line. AI couple cover (registry #974), every word reads. Set ACTIVE + published Online Store, My Store Headless, Google & YouTube; audit --handle PASS 0 warn.
