@@ -1,7 +1,7 @@
+2026-10-19 09:06 UTC — [B] Builder run (gift add-ons only): #684 golf, #685 fishing, #686 dachshund mugs built to REVIEW (all DRAFT, Printful #19 11 oz, $17.99, no compare-at, flat mockup covers, fal 0). No lane B work left under the reset. Lock released.
 2026-10-19 09:06 UTC — [B] Builder run (gift add-ons only): #686 dachshund-short-legs-long-opinions-mug built to REVIEW (DRAFT gid://shopify/Product/15366731399472, sync on file 1089445743).
 2026-10-19 09:05 UTC — [B] Builder run (gift add-ons only): #685 fishing-fishing-is-my-love-language-mug built to REVIEW (DRAFT gid://shopify/Product/15366724157744, sync on file 1089445262).
 2026-10-19 09:02 UTC — [B] Builder run (gift add-ons only): #684 golf-sorry-about-your-windshield-mug built to REVIEW (DRAFT gid://shopify/Product/15366714622256, sync on file 1089444457).
-RUNNING lane B since 2026-10-19 09:00 UTC
 2026-10-19 08:59 UTC — [C] Builder run (gift add-ons only): #689 nana-mom-said-no-thats-cute-mug built to REVIEW (DRAFT gid://shopify/Product/15366699254064, sync on file 1089443223).
 2026-10-19 08:59 UTC — [C] Builder run (gift add-ons only): #688 bigfoot-camera-shy-mug built to REVIEW (DRAFT gid://shopify/Product/15366698336560, sync on file 1089443216).
 2026-10-19 08:57 UTC — [C] Builder run (gift add-ons only): #687 owl-night-owl-retired-mug built to REVIEW (DRAFT gid://shopify/Product/15366689784112, sync on file 1089442407).
