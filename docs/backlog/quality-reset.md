@@ -10,6 +10,7 @@ Builders are paused (docs/intake-log.md line 1). The director publishes nothing 
 4. **Lines:** too many are "a noun + a mild aside" (Making Biscuits / not taking questions). Funny to the writer, flat to a shopper.
 
 ## The new bar (all of it, every design)
+- **Sam 2026-10-19:** faith designs judged on lettering only (R3.14); the funny bar is the cropped-hoodie lines in R3.13; no Hanukkah work (R3.15). Re-grade C items that are sincere faith designs as B (lettering only) or A.
 - **Type is half the design.** The headline is the loudest thing on the shirt: at least 90% of the art width, heavy weight, colors pulled from the art. The second line is at least 45% of the headline's height and never a thin script on a dark or mid garment. Use the lettering as a shape (arched over the art, stacked lockup, words breaking into the art) instead of a plain bar above and below. No font used on more than 1 in 6 of the last 30 designs: add good free display fonts (Google Fonts, OFL) to designs/fonts when the kit feels repetitive.
 - **Lines:** write 5 candidates, keep the one a stranger would laugh at in 3 seconds without backstory (R3.12). Kill lines that only describe the picture. If none of the 5 is funny, PARK the design.
 - **Covers:** the nicest Printful lifestyle mockup only (Sam 17:45 UTC). fal is about $15 total and is for print art only.
