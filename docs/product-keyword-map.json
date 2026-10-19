@@ -9895,6 +9895,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "running-i-only-run-downhill-ornament": {
+   "claimed": [
+    "running ornament"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "running ornament",
+     "volume": 480,
+     "kd": 37
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
