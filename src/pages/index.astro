@@ -32,7 +32,20 @@ const holidayTees = homepageOrder(tees.filter((c) => c.seasonal && live.has(c.sl
 // Cover photo per card: match the collection's audience (women's card → a women's tee)
 // and never repeat a photo already used by an earlier card.
 const usedCovers = new Set<string>();
+// Hand-picked homepage photos (Sam 2026-10-19: the newest AI covers "look AI as heck"). The older, candid,
+// natural-light covers go first; a card uses the first pick that belongs to its collection, else the old rule.
+const CARD_PICKS = [
+  'womens-christmas-vintage-santa-graphic-tee', 'womens-christmas-nutcracker-bow-graphic-tee', 'unisex-christmas-deer-camp-christmas-graphic-tee',
+  'unisex-christmas-vintage-santa-crewneck-sweatshirt', 'unisex-christmas-deer-camp-christmas-crewneck-sweatshirt', 'unisex-christmas-christmas-tree-farm-crewneck-sweatshirt',
+  'womens-christmas-christmas-cats-graphic-tee', 'womens-christmas-merry-bright-graphic-tee', 'womens-christmas-vintage-snowman-graphic-tee', 'womens-christmas-oh-deer-graphic-tee',
+  'womens-thanksgiving-pumpkin-pie-graphic-tee', 'unisex-thanksgiving-turkey-trot-graphic-tee', 'unisex-thanksgiving-give-thanks-harvest-crewneck-sweatshirt',
+  'womens-thanksgiving-friendsgiving-graphic-tee', 'unisex-thanksgiving-give-thanks-harvest-graphic-tee',
+];
 const coverFor = (c: (typeof tees)[number]) => {
+  const wantSweatPick = /sweatshirt/.test(c.slug);
+  const pick = CARD_PICKS.map((h) => allProducts.find((x) => x.handle === h)).find((x) => x && x.collections?.includes(c.shopifyHandle) && liveCover(x.handle) && !usedCovers.has(x.handle) && /sweatshirt/.test(x.handle) === wantSweatPick
+    && (!c.audience || !x.handle.startsWith(c.audience === 'women' ? 'mens-' : 'womens-')));
+  if (pick) { usedCovers.add(pick.handle); return liveCover(pick.handle); }
   // Newest first (higher Shopify id = newer) so cards show the current art style, not the old badge designs.
   // Shirt cards show a tee, sweatshirt cards show a crewneck (Sam, 2026-10-13).
   const wantSweat = /sweatshirt/.test(c.slug);
