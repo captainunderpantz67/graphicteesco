@@ -159,3 +159,5 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 ## 2026-10-19 — Claude: gift guides live: /guides/funny-golf-gifts/, /guides/white-elephant-gifts/. Director: when golf socks/mugs/ornaments and the I Stole It. I'm Keeping It. redo go LIVE, add them to these guides (picks). Next guides after the redesigns settle: gifts for grandpa (22,200/50), pickleball gifts (5,400/47), gifts for welders (1,900/16), gifts for nana (12,100/51).
 
 ## 2026-10-19 — Sam: R3.13 funny bar (cropped-hoodie lines), R3.14 faith exemption, R3.15 no Jewish-holiday designs. Director: re-grade sincere faith C items; skip any Hanukkah work.
+
+## 2026-10-19 — Sam likes the national-park snark ("I actually kind of like that vibe"). After RESUME: priority line for parks/hiking in that voice (reference: Went Outside. It Was Fine. / Running Late. Bison Traffic. / The View Better Be Worth It.). Candidate lines for the 5-line test: Leave No Trace. Especially of Me. · Here for the View. Not the Incline. · The Bears Are Friendlier. · Hiked 2 Miles. Need a Medal. No park names, NPS arrowhead or Yellowstone wordmark. Hanukkah products: Sam says leave them up.
