@@ -1,8 +1,9 @@
-status: BUILDING [B] 2026-10-19T09:05Z
+status: REVIEW
 lane: B
 type: addon
 id: 685
 handle: fishing-fishing-is-my-love-language-mug
+shopify: gid://shopify/Product/15366724157744
 kd: 34
 ---
 ## Fishing – Fishing Is My Love Language Mug
@@ -25,3 +26,4 @@ kd: 34
 ---
 ## Log
 - 2026-10-19 director: brief written, READY (gift add-on step 4, mugs; source design A grade). Nothing publishes before RESUME.
+- 2026-10-19 09:05 UTC [B]: built. DRAFT gid 15366724157744, Printful #19 11 oz mug (1320) sync 482970039, 1/1 synced on file 1089445262 (2700x1050 transparent wrap, two lockup copies at 1/4 and 3/4, scripts/mug-print.py, designs/m685/spec.json). Light file: source cream keylined words and cream art fills re-set for the white mug: headline forest green #2e3a1f, punchline #a8660a, cream art fills recolored sand #c9b076; Alfa Slab. Both handle-left and handle-right mockups read. Cost $6.07, $17.99, no compare-at (profit ~$11.9 before shipping). Category hg-11-10-5-5. Keyword recorded. FAQ 6 questions 54-60 words, 720+ words. Cover: Printful #19 handle-right mockup, no person, flat. Etsy duplicate check not possible offline: director eyeball. fal 0.
