@@ -1,0 +1,32 @@
+{
+ "10252": {
+  "front:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/309eb2529b5e6b0544909da10b19e371/womens-relaxed-t-shirt-white-front-6ad67b19d034d.jpg",
+  "front:Back": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/60c573753ce4387f6bf1dfe50c536269/womens-relaxed-t-shirt-white-back-6ad67b19d0b08.jpg",
+  "front:Left": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/feb8c44f7016f4b846acd3e8ea2c2a4e/womens-relaxed-t-shirt-white-left-6ad67b19d0cc5.jpg",
+  "front:Right": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/091463a6e3a2a2d8e92fda8f33b486bd/womens-relaxed-t-shirt-white-right-6ad67b19d0dfc.jpg"
+ },
+ "10225": {
+  "front:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/b1e7210420ceb023d9267c53a79f5716/womens-relaxed-t-shirt-leaf-front-6ad67b26dd782.jpg",
+  "front:Back": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/aa6e328027bf009cd473a549687e56af/womens-relaxed-t-shirt-leaf-back-6ad67b26ddef0.jpg",
+  "front:Left": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/b9c96c8c3a35add8f5b13a32eba2ce88/womens-relaxed-t-shirt-leaf-left-6ad67b26de023.jpg",
+  "front:Right": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/787255d1c045572b3e34431b5092b8a0/womens-relaxed-t-shirt-leaf-right-6ad67b26de144.jpg"
+ },
+ "14273": {
+  "front:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/618a124492ee412773688a606a432d0e/womens-relaxed-t-shirt-heather-stone-front-6ad67b26de24c.jpg",
+  "front:Back": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/87845cd8b8dff3ee068d6a8e122b482d/womens-relaxed-t-shirt-heather-stone-back-6ad67b26de47e.jpg",
+  "front:Left": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/1ddce552f82eb55e6da1e8cd05c5ea33/womens-relaxed-t-shirt-heather-stone-left-6ad67b26de63a.jpg",
+  "front:Right": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/bdf11f3bd371263098bec4531375697b/womens-relaxed-t-shirt-heather-stone-right-6ad67b26de787.jpg"
+ },
+ "10241": {
+  "front:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/6fe08cfa551a563a20f71673baef9157/womens-relaxed-t-shirt-pink-front-6ad67b26de8ea.jpg",
+  "front:Back": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/a43fbf4232f27f22c18870f3845a5984/womens-relaxed-t-shirt-pink-back-6ad67b26debca.jpg",
+  "front:Left": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/39e3a802b25e0900a21a7b187036703f/womens-relaxed-t-shirt-pink-left-6ad67b26dedd2.jpg",
+  "front:Right": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/26e1bbf9cde90e15cea53f911728e72c/womens-relaxed-t-shirt-pink-right-6ad67b26def73.jpg"
+ },
+ "46501": {
+  "front:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/1e2181c405aa5ec8703d7d606f648f6a/womens-relaxed-t-shirt-natural-front-6ad67b26df13c.jpg",
+  "front:Back": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/d16ee25512e82bd0f762f53bcaabac0b/womens-relaxed-t-shirt-natural-back-6ad67b26df385.jpg",
+  "front:Left": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/26aa3c646cf8126ca32d9759a3d73d18/womens-relaxed-t-shirt-natural-left-6ad67b26df5da.jpg",
+  "front:Right": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/97d7076320fc6be42945cc5fc3537282/womens-relaxed-t-shirt-natural-right-6ad67b26df807.jpg"
+ }
+}
