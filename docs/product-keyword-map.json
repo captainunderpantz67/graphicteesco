@@ -10064,6 +10064,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "strawberry-please-dont-pick-me-mug": {
+   "claimed": [
+    "strawberry mug"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "strawberry mug",
+     "volume": 2900,
+     "kd": 31
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
