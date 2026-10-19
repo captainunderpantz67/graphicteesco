@@ -1,4 +1,4 @@
-status: REDO
+status: BUILDING [A] 2026-10-19 18:38 UTC
 lane: A
 type: new
 id: 614
