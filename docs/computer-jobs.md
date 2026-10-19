@@ -1,3 +1,8 @@
+## TOMORROW (flagged 2026-10-19 by Sam)
+1. Design decisions: covers for the 161 hidden + redesigned products (fal top-up ~$30–40 vs spread out), the 5 samples, resume the builders.
+2. A/B test: lifestyle photo vs plain product shot. Sam creates a Google Analytics 4 property (Claude can't create accounts); Claude adds Cloudflare Web Analytics + GA4 events (card click, product view, add to cart), a 50/50 sticky split on collection grids and product pages (Google sees one version), and the test group saved as a Shopify cart attribute. First metric: card click-through, ~2,000 views per group.
+3. Sam's 6 clicks below (Merchant Center cleanup, Bing, review app, policies, Shopify Catalog).
+
 # Computer jobs
 
 Things that need Sam's laptop and Chrome. Sam opens the computer about once a day and greets Tuesday ("Good morning Tuesday, it's time to save the world" or similar). That is the go signal: Claude works this list top to bottom, then clears what's done.
