@@ -1,5 +1,5 @@
 RUNNING lane B since 2026-10-19 19:40 UTC
-RUNNING lane A since 2026-10-19 19:30 UTC
+2026-10-19 19:48 UTC — [A] Builder run: redid #478 Women's Clocked It tee (type only: Bowlby One cream CLOCKED IT. at full art width + Anton SAID NOTHING. stacked under the same cat linework, FW 1500 (6400 area width), file 1089777092, 36/36 relinked, 6 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0. Lock released.
 2026-10-19 19:40 UTC — [B] Builder run: redid #521 Mimi Says Yes crewneck (type only: Bowlby One red MIMI full width + Anton navy SAYS YES., same art, FW 1650, file 1089777309, 12/12 resynced, 2 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0. Lock released.
 2026-10-19 20:00 UTC — [C] Builder run: redid #562 Women's Mimi Says Yes hoodie (type only: MIMI full-width heavy red Bowlby + SAYS / YES. stacked navy in the art void, same art at 80%, FW 1500 TOP 20, file 1089778631, 12/12 relinked, 2 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0. 1 redo per run cap reached. Lock released.
 RUNNING lane E since 2026-10-19 19:15 UTC
