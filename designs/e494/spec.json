@@ -1,0 +1,5 @@
+{"art": "designs/e494/art-white.png", "art_width": 0.80, "canvas": [3600, 4500], "gap": 50,
+ "lines": [
+  {"text": "TWELVE LABORS.", "font": "Cinzel[wght].ttf", "wght": 900, "size": 700, "fill": "#d98560", "stroke": 30, "stroke_fill": "#1c1714", "tracking": 0.0, "max_width": 0.86, "where": "above"},
+  {"text": "ZERO CARDIO.", "font": "Cinzel[wght].ttf", "wght": 900, "size": 700, "fill": "#1c1714", "stroke": 14, "stroke_fill": "#1c1714", "tracking": 0.0, "max_width": 0.86, "where": "below"}
+ ]}
