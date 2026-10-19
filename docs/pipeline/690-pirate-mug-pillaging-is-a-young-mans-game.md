@@ -1,8 +1,9 @@
-status: BUILDING [B] 2026-10-19 10:05
+status: REVIEW
 lane: B
 type: addon
 id: 690
 handle: pirate-pillaging-is-a-young-mans-game-mug
+shopify: gid://shopify/Product/15366876954928
 kd: 35
 ---
 ## Pirate – Pillaging Is a Young Man's Game Mug
@@ -25,3 +26,4 @@ kd: 35
 ---
 ## Log
 - 2026-10-19 director: brief written, READY (gift add-on step 4, mugs 7–9 of the 15 in docs/backlog/gift-addons.md; source design A grade). Nothing publishes before RESUME.
+- 2026-10-19 09:35 UTC [B]: built. DRAFT gid 15366876954928, Printful #19 11 oz mug (1320) sync 482973319, 1/1 synced on file 1089457021 (2700x1050 transparent wrap, two lockup copies at 1/4 and 3/4, scripts/mug-print.py, designs/m690/spec.json). Dark navy and dark gold ink only on the white mug (light file: all words dark, no cream fills). Both handle-left and handle-right mockups read. Cost $6.07, $17.99, no compare-at (profit ~$11.9 before shipping). Category hg-11-10-5-5. Keyword recorded. FAQ 6 questions 54-60 words, 720+ words. Cover: Printful #19 handle-right mockup, no person, flat. Etsy duplicate check not possible offline: director eyeball. fal 0.
