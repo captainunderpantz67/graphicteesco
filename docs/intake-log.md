@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-19 15:16 UTC
 2026-10-19 15:05 UTC — [A] Builder run: quality reset still PAUSED; all 5 sample REDOs (#577 #624 #245 #275 #273) are at REVIEW, no lane A gift add-on briefs, covers on hold. Nothing built; no lock taken.
 2026-10-19 15:09 UTC — [B] Builder run: RESUMED; redid #328 Lone Wolf hoodie (type only: heavy full-width BowlbyOne lockup, same art, FW 1465, 12/12 synced, mockups replaced in place, plain product shot). REVIEW. fal $0. 1 redo per run cap reached. Lock released.
 2026-10-19 14:57 UTC — [C] Builder run: quality reset still PAUSED; all lane C gift add-on briefs (#677-#683, #687-#689, #692, #693) already at REVIEW; remaining lane C items are regular, not allowed; covers on hold. Nothing built; no lock taken.
