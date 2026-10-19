@@ -1,3 +1,4 @@
+RUNNING helper since 2026-10-19 09:43 UTC
 2026-10-19 10:20 UTC — [B] Builder run (gift add-ons only): #690 pirate and #691 horse mugs built to REVIEW; ornament REDOs #671 #672 #673 #676 back to REVIEW. No lane B work left under the reset. Lock released.
 2026-10-19 09:36 UTC — [B] Builder run (gift add-ons only): #691 horse-horse-girl-broke-on-purpose-mug built to REVIEW (DRAFT gid://shopify/Product/15366877479216, sync on file 1089457039).
 2026-10-19 09:35 UTC — [B] Builder run (gift add-ons only): #690 pirate-pillaging-is-a-young-mans-game-mug built to REVIEW (DRAFT gid://shopify/Product/15366876954928, sync on file 1089457021).
