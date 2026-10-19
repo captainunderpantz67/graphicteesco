@@ -13,7 +13,9 @@ art = Image.open(s['art']).convert('RGBA').crop(tuple(s['crop']))
 art = art.crop(art.getchannel('A').point(lambda v: 255 if v > 10 else 0).getbbox())
 blocks = []
 for r in s['rows']:
-    if r.get('art'):
+    if r.get('img'):
+        im0 = Image.open(r['img']).convert('RGBA'); w = r.get('w', LW); h = round(im0.height * w / im0.width); blocks.append(im0.resize((w, h), Image.LANCZOS)); print(f'img {w}x{h}')
+    elif r.get('art'):
         h = s['art_h']; w = round(art.width * h / art.height)
         if w > LW: w = LW; h = round(art.height * w / art.width)
         blocks.append(art.resize((w, h), Image.LANCZOS)); print(f'art {w}x{h}')

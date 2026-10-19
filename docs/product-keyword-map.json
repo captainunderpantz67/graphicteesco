@@ -9986,6 +9986,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "golf-sorry-about-your-windshield-mug": {
+   "claimed": [
+    "golf mug"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "golf mug",
+     "volume": 2400,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

@@ -1,8 +1,9 @@
-status: BUILDING [B] 2026-10-19T09:00Z
+status: REVIEW
 lane: B
 type: addon
 id: 684
 handle: golf-sorry-about-your-windshield-mug
+shopify: gid://shopify/Product/15366714622256
 kd: 34
 ---
 ## Golf – Sorry About Your Windshield Mug
@@ -25,3 +26,4 @@ kd: 34
 ---
 ## Log
 - 2026-10-19 director: brief written, READY (gift add-on step 4, mugs; source design A grade). Nothing publishes before RESUME.
+- 2026-10-19 09:02 UTC [B]: built. DRAFT gid 15366714622256, Printful #19 11 oz mug (1320) sync 482969518, 1/1 synced on file 1089444457 (2700x1050 transparent wrap, two lockup copies at 1/4 and 3/4, scripts/mug-print.py img rows, designs/m684/spec.json; source navy words and art unchanged (already dark ink); light file: navy headline fill #1b2a4a on the white mug, no cream words). Both handle-left and handle-right mockups read. Cost $6.07, $17.99, no compare-at (profit ~$11.9 before shipping). Category hg-11-10-5-5. Keyword recorded. FAQ 6 questions 51-58 words, 620+ words. Cover: Printful #19 handle-right mockup, no person, flat. Etsy duplicate check not possible offline: director eyeball. fal 0.
