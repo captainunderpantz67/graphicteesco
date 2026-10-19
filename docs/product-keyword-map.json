@@ -9882,6 +9882,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "welder-i-basically-hot-glue-metal-ornament": {
+   "claimed": [
+    "welder ornament"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "welder ornament",
+     "volume": 320,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

@@ -1,8 +1,9 @@
-status: BUILDING [B] 2026-10-19 07:39 UTC
+status: REVIEW
 lane: B
 type: addon
 id: 674
 handle: welder-i-basically-hot-glue-metal-ornament
+shopify: gid://shopify/Product/15366557237552
 kd: 32
 ---
 ## Welder – I Basically Hot Glue Metal Ornament
@@ -24,3 +25,4 @@ kd: 32
 ---
 ## Log
 - 2026-10-19 director: brief written, READY (gift add-on step 3, ornaments; source design A grade). Nothing publishes before RESUME.
+- 2026-10-19 07:44 UTC [B]: built. DRAFT gid 15366557237552, Printful #881 sync 482959993, 1/1 synced on file 1089418025 (954x954 circle file, scripts/b-ornament-print.py, spec designs/b674/spec.json; cream disc, Alfa Slab/Lobster lockup sized to the safe-circle chord). Cost $6.34, $14.99, no compare-at (profit ~$8.65 before shipping). Category hg-3-58-7. Keyword recorded. FAQ 40-60 words, 530+ words. Cover: Printful flat #881 mockup (no person), logged. Etsy duplicate check not possible offline: director eyeball. fal 0. Both lines 90-95% of the safe width.
