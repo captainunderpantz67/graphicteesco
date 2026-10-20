@@ -1,3 +1,5 @@
+RUNNING helper since 2026-10-20 05:44 UTC
+2026-10-20 06:11 UTC — [A] Builder run: redid #332 Women's NYE Resolutions Pending tee (line+type: NEW YEAR, NEW ME. / STARTING JAN 2., same disco ball art, Bevan full width, file 1090193042, 30/30 relinked, 5 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 RUNNING lane B since 2026-10-20 05:30 UTC
 2026-10-20 06:05 UTC — [B] Builder run: redid #440 round 2 (OUT OF OFFICE. / IN THE MUD., punch widened to headline width (Navy + Dust; Dust file copied as -sand name). headline 3600 px / punch 3600 px, FW 1550 TOP 0 on the oversized blank (9.8 in tall, catalog 892)). REVIEW. fal $0.
 2026-10-20 06:04 UTC — [B] Builder run: redid #362 round 2 (MISSED THE PLAY. / SEEDS WERE GOOD., punch widened to headline width. headline 3600 px / punch 3600 px). REVIEW. fal $0.
