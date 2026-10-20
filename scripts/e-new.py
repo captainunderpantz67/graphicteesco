@@ -16,14 +16,14 @@ for k, png in (('dark', dark), ('light', light)):
         time.sleep(4)
     ids[k] = dict(id=int(fid), w=f['width'], h=f['height'], url=f['url'])
 json.dump(ids, open(d + '/ids.json', 'w')); print(ids, flush=True)
-DARK = ['Black', 'Navy', 'Dark Grey Heather', 'Heather Forest', 'Maroon']; LIGHT = ['Natural', 'Ash', 'Athletic Heather']
+DARK = ['Black', 'Navy', 'Dark Grey Heather', 'Heather Forest', 'Steel Blue' if os.environ.get('STEEL') else 'Maroon']; LIGHT = ['Natural', 'Ash', 'Athletic Heather']
 sh = f"cd {os.getcwd()}\nexport FW=1650 TOP=75 FORCE=1\n"
 for c in DARK: sh += f"ONLY='/ {c} /' python3 scripts/pf-sync.py setfile {pid} {ids['dark']['id']} 1080398177 > '{d}/m/sync_{c}.log' 2>&1\n"
 for c in LIGHT: sh += f"ONLY='/ {c} /' python3 scripts/pf-sync.py setfile {pid} {ids['light']['id']} 1080398177 > '{d}/m/sync_{c}.log' 2>&1\n"
 sh += "export FORCE=0\nfor i in 1 2 3; do for c in " + ' '.join(f"'{c}'" for c in DARK) + f"; do ONLY=\"/ $c /\" python3 scripts/pf-sync.py setfile {pid} {ids['dark']['id']} 1080398177 >> '{d}/m/sync_fix.log' 2>&1; done; for c in " + ' '.join(f"'{c}'" for c in LIGHT) + f"; do ONLY=\"/ $c /\" python3 scripts/pf-sync.py setfile {pid} {ids['light']['id']} 1080398177 >> '{d}/m/sync_fix.log' 2>&1; done; done\ntouch {d}/m/sync_done\n"
 open(d + '/sync.sh', 'w').write(sh)
 subprocess.Popen(['bash', d + '/sync.sh'], start_new_session=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-M = {'Black': 4017, 'Navy': 4112, 'Dark Grey Heather': 8461, 'Heather Forest': 8489, 'Maroon': 4107, 'Natural': 14683, 'Ash': 4027, 'Athletic Heather': 6949}
+M = {'Black': 4017, 'Navy': 4112, 'Dark Grey Heather': 8461, 'Heather Forest': 8489, 'Maroon': 4107, 'Steel Blue': 4162, 'Natural': 14683, 'Ash': 4027, 'Athletic Heather': 6949}
 env = dict(os.environ, FW='1650', TOP='75'); media = []
 for c, v in M.items():
     x = ids['dark' if c in DARK else 'light']; out = f"{d}/m/mock_{c.replace(' ', '_')}.json"
