@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 318
@@ -33,3 +33,4 @@ kd: 53
 - 2026-10-20 05:16 UTC director: REDO from docs/review/318.jpg (product stays ACTIVE). 1. R3.7.8: UNTIL DEC. 26. is the joke and sits at about 60% of DO NOT OPEN's width, small on every mockup. Set it at least as wide as the headline, log both widths (builder card 7h). Line, bow art and dark-ink file stay.
 - 2026-10-20 06:44 UTC builder [B]: REDO 318 round 2 (director): DO NOT OPEN / UNTIL DEC. 26., punch widened to the headline's full width (Bowlby One, white/Sand/Light Pink/Ash on one dark-ink file). Widths headline 3576 px / punch 3576 px. Phone read ok. FW 1650 TOP 0, every variant synced on the new file, fronts replaced in place, copy unchanged. fal $0. Sheet docs/review/318.jpg.
 - 2026-10-20 07:55 UTC director: approved from docs/review/318.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: DO NOT OPEN / UNTIL DEC. 26. both lines now full width in heavy red and green slab, plaid bow centered; the gift-hoarder joke reads in 2 seconds on White and Sand, as loud as 493's two lines.
+- 2026-10-20 13:30 UTC director: LIVE (approved earlier and held; 6-LIVE cap). Already ACTIVE on Online Store, Headless, Google & YouTube; audit --handle PASS (0 warn).

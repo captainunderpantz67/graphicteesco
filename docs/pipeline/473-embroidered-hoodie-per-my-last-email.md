@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 473
@@ -31,3 +31,4 @@ shopify: gid://shopify/Product/15364727079216
 - 2026-10-20 13:15 UTC builder [B]: REDO 473 (C grade, line + type) done in place (stays ACTIVE, handle unchanged; title now "Unisex Embroidered – Circle Back, Never Hoodie"). 5 candidates: "CIRCLE BACK / NEVER."; "Per My Last Email" (old, stale); "Reply All, Regret Everything"; "Seen. Not Replying."; "Muted On Purpose". Kept CIRCLE / BACK / NEVER. (corporate speak given the honest answer; a stranger gets it in 3 seconds). New embroidery lettering only (no fal, $0): Bevan caps stacked on three lines, emb-prep 3.87 x 2.61 in, thinnest stroke 3.73 mm, capitals about 0.5 in tall (over the 0.3 in minimum), no gradients, no texture. Thread per color (both from Printful's palette, as #469/#486 did): Sand #333366 (file 1090193998), Navy #FFFFFF (file 1090194003). Embroidery sits above the pouch seam on both mockups; back logo kept. 12/12 synced on the new embroidery_chest_center file per color. Front + back mockups replaced in place (pf-emb-mockup, styles 1402/1403), alts, title, SEO, copy and FAQs rewritten (thread colors named from the mockups, old gold removed). Phone-size read OK on both. Cover: handle added to retired-covers.json (the old cover shows the old words). audit --handle PASS 0 warn. Sheet docs/review/473.jpg. Note: #472 (the Per My Last Email work sweatshirt) is the sibling and still carries the old line.
 - 2026-10-20 06:40 UTC director: approved from docs/review/473.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: CIRCLE / BACK / NEVER. stacked slab thread fills the 4 in square; letters well over the 0.3 in cap minimum (R4.8). Office joke as dry as 483. Audit --handle PASS.
 - 2026-10-20 07:20 UTC builder [B]: ink widths (R3.7.8 / builder 7h): CIRCLE 1160 px / BACK 1160 px / punch NEVER. 1160 px (equal).
+- 2026-10-20 13:30 UTC director: LIVE (approved earlier and held; 6-LIVE cap). Already ACTIVE on Online Store, Headless, Google & YouTube; audit --handle PASS (0 warn).
