@@ -6,6 +6,11 @@ i, pid, art, m1, m2, plog, itxt = sys.argv[1:8]
 r = json.load(urllib.request.urlopen(urllib.request.Request(f'https://api.printful.com/sync/products/{pid}', headers={'Authorization': 'Bearer ' + os.environ['PRINTFUL_TOKEN'], 'User-Agent': 'gtc'}), timeout=60))['result']
 s = {tuple(sorted((f['type'], f['id']) for f in v['files'] if f['type'] in ('front', 'default', 'back'))) for v in r['sync_variants']}
 print('distinct file sets:', s, 'variants', len(r['sync_variants']), 'synced', r['sync_product']['synced'])
+exp = [int(x) for x in os.environ.get('EXPECT', '').split(',') if x]
+if exp:
+    ids = {f['id'] for v in r['sync_variants'] for f in v['files'] if f['type'] in ('front', 'default', 'back')}
+    bad = [v['name'] for v in r['sync_variants'] if not any(f['id'] in exp for f in v['files'] if f['type'] in ('front', 'default', 'back'))]
+    if bad: sys.exit('NOT RELINKED YET: ' + ', '.join(bad))
 subprocess.run([sys.executable, 'scripts/review-sheet.py', i, art, m1, m1, m2], check=True)
 f = glob.glob(f'docs/pipeline/{i}-*.md')[0]; L = open(f).read().split('\n'); L[0] = 'status: REVIEW'
 open(f, 'w').write('\n'.join(L).rstrip('\n') + '\n- ' + plog + '\n')
