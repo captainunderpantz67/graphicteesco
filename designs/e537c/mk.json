@@ -1,0 +1,12 @@
+{
+ "46407": {
+  "front_dtfabric:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/481570cdb55e08ac8175ae43fd02b41c/all-over-print-oversized-cotton-t-shirt-white-front-6ad72afba3ab9.jpg",
+  "front_dtfabric:Back": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/b85beef12950c7d21f2c576184592e8c/all-over-print-oversized-cotton-t-shirt-white-back-6ad72afba3b4a.jpg",
+  "back_dtfabric:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/481570cdb55e08ac8175ae43fd02b41c/all-over-print-oversized-cotton-t-shirt-white-front-6ad72afba3ab9.jpg",
+  "back_dtfabric:Back": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/b85beef12950c7d21f2c576184592e8c/all-over-print-oversized-cotton-t-shirt-white-back-6ad72afba3b4a.jpg",
+  "sleeve_left_dtfabric:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/481570cdb55e08ac8175ae43fd02b41c/all-over-print-oversized-cotton-t-shirt-white-front-6ad72afba3ab9.jpg",
+  "sleeve_left_dtfabric:Back": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/b85beef12950c7d21f2c576184592e8c/all-over-print-oversized-cotton-t-shirt-white-back-6ad72afba3b4a.jpg",
+  "sleeve_right_dtfabric:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/481570cdb55e08ac8175ae43fd02b41c/all-over-print-oversized-cotton-t-shirt-white-front-6ad72afba3ab9.jpg",
+  "sleeve_right_dtfabric:Back": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/b85beef12950c7d21f2c576184592e8c/all-over-print-oversized-cotton-t-shirt-white-back-6ad72afba3b4a.jpg"
+ }
+}
