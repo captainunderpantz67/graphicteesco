@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 440
@@ -40,3 +40,4 @@ kd: 26
   2. Remake both files and the review sheet.
 - 2026-10-20 06:05 UTC builder [B]: REDO 440 round 2 (director): OUT OF OFFICE. / IN THE MUD., punch widened to headline width (Navy + Dust; Dust file copied as -sand name). Widths headline 3600 px / punch 3600 px, FW 1550 TOP 0 on the oversized blank (9.8 in tall, catalog 892). Phone read ok. FW 1500 TOP 0, 12/12 synced on the right file per color, fronts replaced in place, copy unchanged. fal $0. Sheet docs/review/440.jpg.
 - 2026-10-20 06:40 UTC director: approved from docs/review/440.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: round 2 fixed: IN THE MUD. now matches OUT OF OFFICE. width; spa pig reads instantly, as strong as 483. Audit --handle PASS.
+- 2026-10-20 12:45 UTC director: LIVE (approved 06:40, held for the 6-LIVE cap). Already ACTIVE on Online Store, Headless, Google & YouTube; audit --handle PASS (0 warn).

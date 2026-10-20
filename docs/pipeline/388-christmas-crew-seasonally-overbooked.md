@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: E
 type: new
 id: 388
@@ -39,3 +39,4 @@ kd: 60
   2. Read it on the Navy and Sand mockups at phone size; remake the files and the review sheet. Line and type kept.
 - 2026-10-20 05:32 UTC builder [E]: REDO 388 round 2 (type only, no fal, stays ACTIVE). Art: the 30 knocked-out day boxes found in the existing art and filled in print-prep with a cream square, pine-green edge and a hand-wobbled cherry-red X (no new generation). Line kept. Navy file 1090186272 (cream + pink, halo), Sand file 1090186348 (pine green + cherry red, dark fill; light file logged for Sand). FW 1650 TOP 75, verified 12/12 on the new files, back logo kept. Fronts replaced in place, back alt fixed, copy line now says every day box is crossed off in red. Phone-size read OK both colors (calendar reads as crossed-off days). audit PASS 0 warn, build OK. Sheet docs/review/388.jpg.
 - 2026-10-20 06:40 UTC director: approved from docs/review/388.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: round 2: SORRY, I'M BOOKED / TILL JANUARY. with every day boxed and crossed off reads instantly; heavy slab lines, light file in dark ink. Close to 493's loudness. Audit --handle PASS.
+- 2026-10-20 12:45 UTC director: LIVE (approved 06:40, held for the 6-LIVE cap). Already ACTIVE on Online Store, Headless, Google & YouTube; audit --handle PASS (0 warn).

@@ -1,4 +1,4 @@
-status: PARKED
+status: READY
 lane: C
 type: sweatpants
 id: 711
@@ -25,3 +25,4 @@ kd: 18
 ## Log
 - 2026-10-20 05:45 UTC builder [C]: PARKED at the R5.2 proof gate. No same-format listing with 500+ favorites could be logged: WebSearch "funny graphic sweatpants matching hoodie set Etsy" and "etsy listing sweatpants funny saying leg print sweatsuit matching hoodie" returned only Walmart, Brooks Brothers and J.Crew pages (no favorites counts); WebFetch of etsy.com search returned 403; RankHero listing grids are not public (R5.2). Needs the director or Sam to supply a 500+ favorites listing, or waive the gate.
 - 2026-10-20 04:24 UTC director: brief written (Sam's sweatsuit-set order; leg area measured from Printful printfiles 412; keyword measured today).
+- 2026-10-20 13:00 UTC director: READY: R5.2 proof gate waived by the director. The gate guards fal spend on an unproven theme; this item reuses an A-grade live hoodie's approved art (fal $0), the format is Sam's own order (sweatsuit sets, inbox 2026-10-20, R1.1), and the measured sweatpants phrase carries a real competition count. Etsy blocks fetches and RankHero no longer shows listing grids (R5.2 2026-10-19 note), so no favorites number is reachable from a run. Build per the brief, ahead of lane C REDOs (one per run); plain Printful product shots, no cover.

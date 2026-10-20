@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 446
@@ -33,3 +33,4 @@ kd: 28
 - 2026-10-20 11:20 UTC builder [B]: REDO 446 (C grade, line + type) done in place (stays ACTIVE, handle unchanged; title now "Women's Chihuahua – Small. Cold. Furious. Zip Hoodie"). 5 candidates: "SMALL. COLD. / FURIOUS."; "Cold Since Birth" (old); "I'm Not Shaking, I'm Seething"; "Tiny Dog, Big Grudge"; "Sweater Weather Is A Threat". Kept SMALL. COLD. / FURIOUS. (three-beat build, the scowl in the art is the punchline). Same chihuahua art, no fal ($0); left-chest head copy unchanged (file 1088476070, no words). Anton: SMALL. COLD. above (62% of print width), FURIOUS. below as the loud punch line (second line is bigger than the first by design; headline 169% of art width). Navy back file 1090182601 (cream + coral, thin cream halo); Ash back file 1090182604 (headline fill dark brown, second line red; light file logged for Ash). Zip layout: back BW 1500 BT 150 (the art is tall: ratio 1.44 would overrun the 2400 px back area at 1650), chest 525 px. 12/12 synced: back on the new file per color, chest unchanged. Back + front mockups replaced in place (alts updated), title, SEO, copy, FAQs rewritten (ink named from the mockups). Phone-size read OK on both backs. Cover: handle added to retired-covers.json. audit --handle PASS 0 warn. Sheet docs/review/446.jpg.
 - 2026-10-20 06:40 UTC director: approved from docs/review/446.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: SMALL. COLD. FURIOUS. is the best line in this batch; FURIOUS. huge, scowling chihuahua reads at phone size. Beats 493 on the line. Audit --handle PASS.
 - 2026-10-20 07:20 UTC builder [B]: ink widths (R3.7.8 / builder 7h): headline SMALL. COLD. 2232 px / punch FURIOUS. 2232 px (equal width, taller letters).
+- 2026-10-20 12:45 UTC director: LIVE (approved 06:40, held for the 6-LIVE cap). Already ACTIVE on Online Store, Headless, Google & YouTube; audit --handle PASS (0 warn).

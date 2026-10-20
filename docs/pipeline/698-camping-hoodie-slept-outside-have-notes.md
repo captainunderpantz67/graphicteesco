@@ -26,3 +26,4 @@ kd: 38
 ---
 ## Log
 - 2026-10-19 16:10 UTC director: brief written, READY (lane C; park/camping snark priority; camp hoodie 2,400 / KD 38; 5 lines tested against R3.13).
+- 2026-10-20 12:55 UTC director: RE-SCORE for the RESUME terms (lane C asked at 13:00). Still READY: the text spec already meets the reset bar (heavy two-line lockup, no script). Cover: none (RESUME terms 2026-10-19): plain Printful product shots only, no registry claim, handle into src/data/retired-covers.json if needed; ignore any cover/registry line above. Type checks before REVIEW: 7h ink widths, 7k type share, 7l subject at 45%+ of the lockup width, all logged.

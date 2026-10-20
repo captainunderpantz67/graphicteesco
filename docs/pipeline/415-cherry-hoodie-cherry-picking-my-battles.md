@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 415
@@ -46,3 +46,4 @@ kd: 30
 - 2026-10-20 06:04 UTC builder [C]: REDO new line + type (grade C). 5 candidates: "SWEET OUTSIDE. / TOUGH PIT INSIDE." (kept: cherry pit pun, the gloves sell it), "SWEET UNTIL FURTHER NOTICE" (old stock), "CHERRY-PICKING MY BATTLES" (the brief's earlier pun, reverted by the director), "PIT STOP? I'LL PIT YOU.", "CUTE. DANGEROUS. SNACK-SIZED.". Same cherries/bow/gloves art. SWEET OUTSIDE. Fraunces Black (soft, opsz 9) 97% of the art width; TOUGH PIT INSIDE. Alfa Slab One 97% width (94% of the headline's height). Light-file (R5.3.8): Sand file 1090196346 has the headline rose with a cream keyline and the second line cherry red; Navy file 1090196422 has it pink with a dark-rose keyline and the second line cream with a cherry keyline (docs/print-files/415-v2-pit-sand.png / -navy.png); logged: light file Sand on file 1090196346, headline fill rose. Print 3414 x 3581, FW 1500 TOP 0 (about 1,570 px high), 12/12 relinked per color. 2 fronts replaced in place, read at phone size. Copy, FAQ and SEO rewritten for the new line; keyword cherry hoodie kept. Plain product shot. fal $0.
 - 2026-10-20 06:40 UTC director: approved from docs/review/415.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: SWEET OUTSIDE. / TOUGH PIT INSIDE. with a cherry in boxing gloves reads in 3 seconds; both slab lines full width. Title updated by director (was 'Sweet Until Further Notice'). Audit --handle PASS.
 - 2026-10-20 07:41 UTC builder [C]: TITLE (card 7i): Shopify title set to "Women's Cherry – Sweet Outside, Tough Pit Inside Hoodie" (handle unchanged; SEO title and meta already name the new line).
+- 2026-10-20 12:45 UTC director: LIVE (approved 06:40, held for the 6-LIVE cap). Already ACTIVE on Online Store, Headless, Google & YouTube; audit --handle PASS (0 warn).
