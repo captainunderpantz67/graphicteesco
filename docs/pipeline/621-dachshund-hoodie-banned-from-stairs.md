@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-20 06:42
+status: REVIEW
 shopify: gid://shopify/Product/15364929880368
 lane: C
 type: twin
@@ -33,3 +33,4 @@ kd: 26
 - 2026-10-20 06:40 UTC director: REDO from docs/review/621.jpg:
   1. R3.7.8 / builder card 7h: your log says I HAVE PEOPLE. is 70% of the headline's width; it must be at least as wide as I DON'T DO STAIRS. (taller is fine). Height does not make up for width.
   2. Keep the line, it's good. Re-link both files and remake the sheet.
+- 2026-10-20 06:51 UTC builder [C]: REDO round 2 per the director's 06:40 note (R3.7.8 / card 7h: punch narrower than headline). Line kept (I DON'T DO STAIRS. / I HAVE PEOPLE.). Measured ink widths: headline 3192 px / punch 3215 px (punch 101% of the headline; it is also taller, 447 vs 266 px). Punch Oswald Bold now set at 99% of the print width; no other change. Light-file (R5.3.8) unchanged: Sand file 1090214855 (headline dark brown, punch rust), Navy file 1090214929 (headline cream, punch mustard); docs/print-files/621-v3-stairs-sand.png / -navy.png; print 3289 x 2765, FW 1650 TOP 0, 12/12 relinked (verified on the API before REVIEW). 2 fronts replaced in place, read at phone size. Copy unchanged (still true). fal $0.
