@@ -1,4 +1,4 @@
-status: REDO
+status: BUILDING [A] 2026-10-20 08:48 UTC
 lane: A
 type: twin
 id: 470
