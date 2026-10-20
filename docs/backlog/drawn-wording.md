@@ -61,3 +61,18 @@ Products (51, from a storefront scan 2026-10-17 19:45 UTC; re-scan before starti
 - mens-fishing-catch-and-release-zip-hoodie
 
 New products: builders write "designed", never "drawn for us" / "hand-drawn" (rulebook R9).
+DONE womens-western-desert-bloom-graphic-tee
+DONE mens-gym-plate-club-graphic-tee
+DONE womens-country-dirt-road-radio-graphic-tee
+DONE unisex-halloween-night-shift-graphic-tee
+DONE womens-halloween-witchy-season-graphic-tee
+DONE mens-hunting-marsh-morning-graphic-tee
+DONE womens-vintage-cropped-wildflower-club-graphic-tee
+DONE womens-christmas-retro-santa-graphic-tee
+DONE womens-christmas-nutcracker-bow-graphic-tee
+DONE mens-gym-the-lifter-card-graphic-tee
+DONE mens-gym-golden-era-pose-graphic-tee
+DONE mens-gym-gym-rat-graphic-tee
+DONE mens-gym-heavy-bag-dept-graphic-tee
+DONE unisex-western-vintage-bison-graphic-tee
+DONE womens-western-wild-west-rider-graphic-tee

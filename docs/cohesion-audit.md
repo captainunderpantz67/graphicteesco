@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-20 20:47 UTC
+# Cohesion audit — 2026-10-20 21:49 UTC
 
-636 live products checked · **0 errors** · 61 warnings · 57 products with findings
+642 live products checked · **0 errors** · 70 warnings · 63 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -176,8 +176,29 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Dachshund – Short Legs, Long Opinions Mug `dachshund-short-legs-long-opinions-mug`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 
+### Pirate – Pillaging Is a Young Man's Game Mug `pirate-pillaging-is-a-young-mans-game-mug`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
+### Horse – Horse Girl, Broke on Purpose Mug `horse-horse-girl-broke-on-purpose-mug`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
 ### Women's Outdoorsy – Outdoorsy in Theory Cropped Hoodie `womens-outdoorsy-in-theory-cropped-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Gym – Rack Your Weights. Respectfully. Sweatpants `mens-gym-rack-your-weights-respectfully-sweatpants`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Christmas – French Bulldog Silent Night, Except the Snoring Ornament `french-bulldog-silent-night-except-the-snoring-ornament`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+- **WARN** christmas design isn't in any christmas collection. → Tag it so it appears in the christmas shirts page.
+
+### Christmas – French Bulldog Santa's Cookies? What Cookies. Ornament `french-bulldog-santas-cookies-what-cookies-christmas-ornament`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+- **WARN** christmas design isn't in any christmas collection. → Tag it so it appears in the christmas shirts page.
+
+### Christmas – French Bulldog I'm Helping. You're Welcome. Ornament `french-bulldog-im-helping-youre-welcome-ornament`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+- **WARN** christmas design isn't in any christmas collection. → Tag it so it appears in the christmas shirts page.
 
 ### Unisex Bookish – Do Not Sell My Books at My Funeral Socks `unisex-bookish-do-not-sell-my-books-at-my-funeral-socks`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
