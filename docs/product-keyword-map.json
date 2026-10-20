@@ -9704,16 +9704,22 @@
   },
   "unisex-cornhole-counts-as-cardio-graphic-tee": {
    "claimed": [
-    "cornhole shirt"
+    "cornhole shirt",
+    "funny cornhole shirt"
    ],
    "gaps_measured": [
     {
      "phrase": "cornhole shirt",
      "volume": 880,
-     "kd": 30
+     "kd": 27
+    },
+    {
+     "phrase": "funny cornhole shirt",
+     "volume": 210,
+     "kd": 32
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-hvac-did-you-change-the-filter-graphic-tee": {
    "claimed": [

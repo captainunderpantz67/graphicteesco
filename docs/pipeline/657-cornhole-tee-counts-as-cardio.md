@@ -1,4 +1,5 @@
-status: BUILDING [E]
+status: REVIEW
+shopify: gid://shopify/Product/15369641591088
 lane: E
 type: new
 id: 657
@@ -27,3 +28,4 @@ kd: 30
 ---
 ## Log
 - 2026-10-18 16:21 UTC director: brief written, READY (lane E; kd 30; KD ≤ 20 band has no unclaimed phrase with a competition count in this run's sweep of 70+ trade, hobby and dad phrases (darts shirt 14,800/10 has no competition count, R2.10), so KD 21–35 first; proof named under the gate).
+- 2026-10-20 UTC builder [E]: built and set REVIEW. Art: 1 Recraft call ($0.04), solid-fill prep. Shopify DRAFT gid 15369641591088, Printful sync 483372523, 56/56 synced: 35 on file 1090340403 (Black, Navy, Dark Grey Heather, Heather Forest, Maroon; cream CORNHOLE with navy keyline, mustard COUNTS AS CARDIO.) + 21 on file 1090340463 (Natural, Ash, Athletic Heather; light file: headline fill navy, punch red, no keyline), back logo on all 56. FW 1650 TOP 75. Widths: headline 3440 px / punch 3577 px on dark (104%), 3458 / 3557 on light (103%). Phone-size read on all 8 mockups: both lines legible. Keywords: cornhole shirt 880/27 primary, funny cornhole shirt 210/32. FAQs 5 at 44-52 words plus fit. Cover: none (R6.11 hold), handle in retired-covers.json. Proof: brief's 683-favorite same-format listing accepted. Etsy exact-line check not possible from here.
