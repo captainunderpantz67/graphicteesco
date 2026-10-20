@@ -1,6 +1,7 @@
 RUNNING lane B since 2026-10-20 03:28 UTC
 2026-10-20 03:37 UTC — [A] Builder run: redid #246 Unisex Thanksgiving Totally a Pilgrim hoodie (type+line: NOT A TURKEY. / JUST A PILGRIM., same turkey art, Bowlby One full width, FW 1500 TOP 0, Sand file 1090137152 / Navy file 1090137159, 12/12 relinked, 2 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 RUNNING lane C since 2026-10-20 03:23 UTC
+2026-10-20 04:32 UTC — [C] Builder run: redid #554 Men's Grandpa I Fix Things After Naps hoodie (new line + type: I'M FIXING IT. / EYES CLOSED. STILL WORKING., Bevan + Anton full width, same recliner art, file 1090139027, FW 1500 TOP 0, 12/12 relinked, 2 fronts replaced in place, copy + SEO updated, plain product shot). REVIEW. fal $0.
 2026-10-20 03:52 UTC — [C] Builder run: redid #635 Women's Fishing Out-Fished Him. Again. zip hoodie (type only: AGAIN. in Bowlby One heavy, navy on Ash / cream+red keyline on Navy, same art, back files 1090135325 / 1090135337, 12/12 relinked, 2 back mockups replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 2026-10-20 03:20 UTC — [D] Director run: 6 LIVE (#548 #578 #618 #336 #414 #474, audit PASS each), 7 new redos approved and held (#205 #217 #219 #326 #356 #358 #650), 2 REDO (#216 line + shape, #507 R4.1 panel edges), lane E refilled to 12 READY with briefs #704–#710 (crop top hoodie, knitting sweatshirt, knitting shirt, mtb shirt, bouldering shirt, skiing shirt, climbing shirt). Inbox: nothing new. No digest (not due). Lock released.
 RUNNING director since 2026-10-20 03:12 UTC
