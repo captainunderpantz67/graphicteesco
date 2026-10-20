@@ -1,5 +1,5 @@
 {
- "at": "2026-10-20T06:46:29.614Z",
+ "at": "2026-10-20T07:38:49.864Z",
  "products": 609,
  "findings": [
   {
@@ -111,13 +111,13 @@
    "level": "WARN",
    "handle": "womens-capybara-out-of-office-soaking-oversized-hoodie",
    "title": "Women's Capybara – Per My Last Email, I'm Soaking Oversized Hoodie",
-   "msg": "No SEO title.",
-   "fix": "Write one ≤ 60 chars with the primary keyword."
+   "msg": "No meta description.",
+   "fix": "Write one ≤ 155 chars."
   },
   {
    "level": "WARN",
    "handle": "womens-axolotl-smiling-through-it-oversized-hoodie",
-   "title": "Women's Axolotl – Smiling Through It Oversized Hoodie",
+   "title": "Women's Axolotl – I'm Fine, Just a Little Rain Oversized Hoodie",
    "msg": "\"axolotl hoodie\" appears 7× in the copy (keyword stuffing).",
    "fix": "Use it once or twice, naturally."
   },
@@ -195,8 +195,8 @@
    "level": "WARN",
    "handle": "womens-nurse-embroidered-night-shift-silly-goose-crewneck-sweatshirt",
    "title": "Women's Nurse – Embroidered Awake. Regrettably. Crewneck Sweatshirt",
-   "msg": "No meta description.",
-   "fix": "Write one ≤ 155 chars."
+   "msg": "No SEO title.",
+   "fix": "Write one ≤ 60 chars with the primary keyword."
   },
   {
    "level": "WARN",

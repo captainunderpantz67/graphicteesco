@@ -1,4 +1,4 @@
-# Cohesion audit — 2026-10-20 06:46 UTC
+# Cohesion audit — 2026-10-20 07:38 UTC
 
 609 live products checked · **0 errors** · 31 warnings · 29 products with findings
 
@@ -49,9 +49,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** Non-holiday design (black friday) listed in "Funny Thanksgiving Shirts". → Only keep it there if the art is genuinely for that holiday.
 
 ### Women's Capybara – Per My Last Email, I'm Soaking Oversized Hoodie `womens-capybara-out-of-office-soaking-oversized-hoodie`
-- **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
+- **WARN** No meta description. → Write one ≤ 155 chars.
 
-### Women's Axolotl – Smiling Through It Oversized Hoodie `womens-axolotl-smiling-through-it-oversized-hoodie`
+### Women's Axolotl – I'm Fine, Just a Little Rain Oversized Hoodie `womens-axolotl-smiling-through-it-oversized-hoodie`
 - **WARN** "axolotl hoodie" appears 7× in the copy (keyword stuffing). → Use it once or twice, naturally.
 
 ### Women's Coffee – Espresso Yourself Hoodie `womens-coffee-espresso-yourself-hoodie`
@@ -85,7 +85,7 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** "pirate hoodie" appears 11× in the copy (keyword stuffing). → Use it once or twice, naturally.
 
 ### Women's Nurse – Embroidered Awake. Regrettably. Crewneck Sweatshirt `womens-nurse-embroidered-night-shift-silly-goose-crewneck-sweatshirt`
-- **WARN** No meta description. → Write one ≤ 155 chars.
+- **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
 
 ### Men's Grandpa – I'm Fixing It Hoodie `mens-grandpa-i-fix-things-after-naps-hoodie`
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
