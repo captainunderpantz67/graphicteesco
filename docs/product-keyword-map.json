@@ -9672,16 +9672,22 @@
   },
   "mens-dad-bod-retired-from-abs-graphic-tee": {
    "claimed": [
-    "dad bod shirt"
+    "dad bod shirt",
+    "dad bod t shirt"
    ],
    "gaps_measured": [
     {
      "phrase": "dad bod shirt",
      "volume": 1600,
      "kd": 32
+    },
+    {
+     "phrase": "dad bod t shirt",
+     "volume": 1300,
+     "kd": 27
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-chess-i-blunder-with-confidence-graphic-tee": {
    "claimed": [
