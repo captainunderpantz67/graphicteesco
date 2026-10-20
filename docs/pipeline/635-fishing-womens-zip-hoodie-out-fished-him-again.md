@@ -1,4 +1,4 @@
-status: REDO
+status: BUILDING [C] 2026-10-20 17:15 UTC
 shopify: gid://shopify/Product/15364909367600
 lane: C
 type: twin
