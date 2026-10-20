@@ -10733,6 +10733,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-running-i-only-run-downhill-hoodie": {
+   "claimed": [
+    "running hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "running hoodie",
+     "volume": 5400,
+     "kd": 26
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
