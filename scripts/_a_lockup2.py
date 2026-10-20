@@ -8,21 +8,32 @@ from PIL import Image, ImageDraw, ImageFont
 art, out, W, spec = sys.argv[1], sys.argv[2], int(sys.argv[3]), json.load(open(sys.argv[4]))
 share = float(sys.argv[5]) if len(sys.argv) > 5 else 0.41
 a = Image.open(art).convert('RGBA'); a = a.crop(a.getbbox())
-def line(t, font, fill, maxw, wght=None):
-    size = 2000
+def line(t, font, fill, maxw, wght=None, size=2000, fixed=False):
     while True:
         f = ImageFont.truetype('designs/fonts/' + font, size)
         if wght: f.set_variation_by_axes([wght])
         w = f.getlength(t)
-        if w <= maxw: break
+        if w <= maxw or fixed: break
         size = int(size * 0.995)
     asc, desc = f.getmetrics()
     im = Image.new('RGBA', (int(w) + 400, asc + desc + 300), (0, 0, 0, 0))
     ImageDraw.Draw(im).text((200, 100), t, font=f, fill=tuple(fill) + (255,))
     return im.crop(im.getbbox())
 gap = spec.get('gap', 90); fw = int(W * 0.985)
-A = [line(s['text'], s['font'], s['fill'], int(fw * s.get('wfrac', 1.0)), s.get('wght')) for s in spec['above']]
-B = [line(s['text'], s['font'], s['fill'], int(fw * s.get('wfrac', 1.0)), s.get('wght')) for s in spec['below']]
+def fitsize(t, font, maxw, wght=None):
+    size = 2000
+    while True:
+        f = ImageFont.truetype('designs/fonts/' + font, size)
+        if wght: f.set_variation_by_axes([wght])
+        if f.getlength(t) <= maxw: return size
+        size = int(size * 0.995)
+def group(lines, eq):
+    if not eq:
+        return [line(s['text'], s['font'], s['fill'], int(fw * s.get('wfrac', 1.0)), s.get('wght')) for s in lines]
+    sz = min(fitsize(s['text'], s['font'], fw, s.get('wght')) for s in lines)
+    return [line(s['text'], s['font'], s['fill'], fw, s.get('wght'), size=sz, fixed=True) for s in lines]
+A = group(spec['above'], spec.get('eq_above'))
+B = group(spec['below'], spec.get('eq_below'))
 T = sum(i.height for i in A + B)
 ngaps = len(A) + len(B)  # gaps between all blocks
 H = int(T / share)
