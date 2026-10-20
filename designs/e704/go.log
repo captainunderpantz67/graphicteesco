@@ -1,0 +1,15 @@
+light ('1090473140', 3600, 3349, 'https://v3b.fal.media/files/b/0aaf2802/_FczdXmR7s-jTE9i-EAHR_print_light.png')
+Traceback (most recent call last):
+  File "/home/user/graphicteesco/scripts/pf-mockup.py", line 25, in <module>
+    ids = [int(x) for x in vids.split(',')]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/graphicteesco/scripts/pf-mockup.py", line 25, in <listcomp>
+    ids = [int(x) for x in vids.split(',')]
+           ^^^^^^
+ValueError: invalid literal for int() with base 10: 'None'
+Traceback (most recent call last):
+  File "/home/user/graphicteesco/designs/e704/go.py", line 31, in <module>
+    subprocess.run([py,'scripts/pf-mockup.py',CAT,u,str(w),str(h),'-',str(v['variant_id']),f'{d}/m/mk_{c}.json'],env=env,check=True,stdout=subprocess.DEVNULL)
+  File "/usr/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/tmp/claude-0/venv/bin/python', 'scripts/pf-mockup.py', '317', 'https://v3b.fal.media/files/b/0aaf2802/_FczdXmR7s-jTE9i-EAHR_print_light.png', '3600', '3349', '-', 'None', 'designs/e704/m/mk_Storm.json']' returned non-zero exit status 1.

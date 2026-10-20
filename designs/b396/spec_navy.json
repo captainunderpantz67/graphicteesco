@@ -1,0 +1,3 @@
+{"art":"designs/b396/art.png","out":"designs/b396/print_navy.png","art_w":0.80,"halo":8,"knock":8000,
+ "top":{"text":"PINKIES UP,","font":"Rye-Regular.ttf","w":1.0,"fill":"#f6e8cf","stroke":0},
+ "bottom":{"text":"SPURS ON.","font":"Rye-Regular.ttf","w":0.80,"fill":"#e8a398","stroke":0,"ref":"art"},"overlap":0.0,"gap":30}

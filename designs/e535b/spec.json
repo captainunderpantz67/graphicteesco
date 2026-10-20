@@ -1,0 +1,3 @@
+{"art":"designs/e535b/art.png","out":"designs/e535b/print.png","art_w":0.7,"knock":3000,"halo":9,
+ "top":{"text":"TRAVEL BALL:","font":"AlfaSlabOne-Regular.ttf","stroke":0,"w":1.0,"fill":"#f3e7cf"},
+ "bottom":{"text":"PAY TO SUNBURN.","font":"AlfaSlabOne-Regular.ttf","stroke":0,"w":1.0,"fill":"#f2c230","ref":"W"},"overlap":0.0,"gap":30}

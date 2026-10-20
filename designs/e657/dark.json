@@ -1,0 +1,3 @@
+{"art":"designs/e657/art.png","out":"designs/e657/print_dark.png","W":3600,"art_w":0.74,"knock":0,"solid":true,"overlap":0.04,"gap":40,
+"top":{"font":"AlfaSlabOne-Regular.ttf","text":"CORNHOLE","w":0.96,"fill":"#f6ecd6","stroke":16,"sfill":"#1c2a4a"},
+"bottom":{"font":"AlfaSlabOne-Regular.ttf","text":"COUNTS AS CARDIO.","w":0.985,"fill":"#e0a63a","stroke":10,"sfill":"#1c2a4a"}}

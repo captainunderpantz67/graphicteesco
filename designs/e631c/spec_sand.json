@@ -1,0 +1,3 @@
+{"art":"designs/e631c/art.png","out":"designs/e631c/print_sand.png","art_w":0.8,"knock":3000,"halo":0,
+ "top":{"text":"I'M THE REASON","font":"BowlbyOne-Regular.ttf","stroke":0,"w":1.0,"fill":"#1b2a4a"},
+ "bottom":{"text":"DAD IS LIKE THIS.","font":"BowlbyOne-Regular.ttf","stroke":0,"w":1.0,"fill":"#b8453c","ref":"W"},"overlap":0.0,"gap":30}

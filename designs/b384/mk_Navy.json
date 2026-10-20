@@ -1,0 +1,12 @@
+{
+ "23077": {
+  "front:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/8a55da4b9a4773fdd5759ad0bf1d091b/unisex-oversized-heavyweight-sweatshirt-navy-front-6ad711c171b20.jpg",
+  "front:Back": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/3099ed89736a9ebd092645413749243f/unisex-oversized-heavyweight-sweatshirt-navy-back-6ad711c172118.jpg",
+  "front:Left": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/e5fca4e237d0f844e8fcbfb364162a51/unisex-oversized-heavyweight-sweatshirt-navy-left-6ad711c172217.jpg",
+  "front:Right": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/93fabf06b12777f0d6094cb9f35503af/unisex-oversized-heavyweight-sweatshirt-navy-right-6ad711c172305.jpg",
+  "back:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/8a55da4b9a4773fdd5759ad0bf1d091b/unisex-oversized-heavyweight-sweatshirt-navy-front-6ad711c171b20.jpg",
+  "back:Back": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/3099ed89736a9ebd092645413749243f/unisex-oversized-heavyweight-sweatshirt-navy-back-6ad711c172118.jpg",
+  "back:Left": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/e5fca4e237d0f844e8fcbfb364162a51/unisex-oversized-heavyweight-sweatshirt-navy-left-6ad711c172217.jpg",
+  "back:Right": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/93fabf06b12777f0d6094cb9f35503af/unisex-oversized-heavyweight-sweatshirt-navy-right-6ad711c172305.jpg"
+ }
+}

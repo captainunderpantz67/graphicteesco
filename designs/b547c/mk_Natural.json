@@ -1,0 +1,9 @@
+{
+ "20230": {
+  "front:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/2218c9ced344207fb93aae801ccb8175/womens-crop-top-natural-front-6ad779ce6889b.jpg",
+  "front:Front": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/f036785d2c5d7702b019b109769e5e0b/womens-crop-top-natural-front-6ad779ce68c6f.jpg",
+  "front:Back": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/0a142f9323a98fd2fad0a42958aba77c/womens-crop-top-natural-back-6ad779ce68efa.jpg",
+  "front:Left": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/f22179dd4aaecdc2b9d57115c96fe28a/womens-crop-top-natural-left-6ad779ce68dc2.jpg",
+  "front:Right": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/9ff6892d4e1481edf1ada3db8bfa0403/womens-crop-top-natural-right-6ad779ce68e5c.jpg"
+ }
+}

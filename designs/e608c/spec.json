@@ -1,0 +1,3 @@
+{"art":"designs/e608c/art.png","out":"designs/e608c/print.png","art_w":0.8,"knock":3000,"halo":0,
+ "top":{"text":"POLITE SMILE.","font":"Bevan-Regular.ttf","stroke":0,"w":1.0,"fill":"#1b2a4a"},
+ "bottom":{"text":"PERSONAL VENDETTA.","font":"Bevan-Regular.ttf","stroke":0,"w":1.0,"fill":"#a8322f","ref":"W"},"overlap":0.0,"gap":30}

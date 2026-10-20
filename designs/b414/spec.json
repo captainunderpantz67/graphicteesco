@@ -1,0 +1,5 @@
+{"art": "designs/b/gt-a.png", "art_width": 0.52, "canvas": [3600, 4500], "gap": 30,
+ "lines": [
+  {"text": "CLIMBED IT", "font": "Rye-Regular.ttf", "size": 700, "fill": "#e2584a", "stroke": 26, "stroke_fill": "#2a2420", "tracking": 0.02, "where": "above"},
+  {"text": "FOR NO REASON.", "font": "Anton-Regular.ttf", "size": 520, "fill": "#7fae9f", "stroke": 22, "stroke_fill": "#2a2420", "tracking": 0.03, "where": "below"}
+ ]}

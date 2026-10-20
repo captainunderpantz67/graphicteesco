@@ -1,0 +1,5 @@
+{"art": "designs/b336/art-k.png", "art_width": 0.52, "canvas": [3600, 4500], "gap": 30,
+ "lines": [
+  {"text": "NANA", "font": "BowlbyOne-Regular.ttf", "size": 1100, "fill": "#e9a93c", "stroke": 30, "stroke_fill": "#3a2630", "tracking": 0.02, "where": "above"},
+  {"text": "WON'T TELL MOM.", "font": "Anton-Regular.ttf", "size": 520, "fill": "#d9707f", "stroke": 22, "stroke_fill": "#3a2630", "tracking": 0.03, "where": "below"}
+ ]}

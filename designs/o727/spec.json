@@ -1,0 +1,2 @@
+{"art":"designs/a726/art-halo.png","crop":[0,0,3600,3463],"bg":"#1c2a4a","font":"BigShouldersDisplay[wght].ttf","axes":{"Weight":900},"safe":372,
+ "rows":[{"t":"I'M HELPING.","c":"#f3e7cf","h":84},{"art":true,"h":400},{"t":"YOU'RE WELCOME.","c":"#e8b23c","h":84}],"gap":10,"top":190}

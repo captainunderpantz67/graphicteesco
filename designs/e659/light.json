@@ -1,0 +1,3 @@
+{"art":"designs/e659/art.png","out":"designs/e659/print_light.png","W":3600,"art_w":0.66,"knock":0,"solid":true,"overlap":0.03,"gap":40,
+"top":{"font":"AlfaSlabOne-Regular.ttf","text":"LOW AND SLOW.","w":0.92,"fill":"#1c2a4a","stroke":0,"sfill":null},
+"bottom":{"font":"Lobster-Regular.ttf","text":"like my texts","w":1.0,"fill":"#c0392f","stroke":0,"sfill":null}}
