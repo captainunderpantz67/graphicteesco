@@ -1,3 +1,4 @@
+RUNNING helper since 2026-10-20 09:47 UTC
 RUNNING lane B since 2026-10-20 09:02 UTC
 2026-10-20 09:32 UTC — [E] Builder run: redid #610 Women's Pickleball crewneck again (line: PLAYS NICE. / KEEPS SCORE., same scorecard-of-paddles art, Alfa Slab One 100%/100% widths, Navy + Sand files, 12/12 synced, retitled). REVIEW. No other lane E REDO; READY items still need the R5.2 favorites proof. fal $0.
 2026-10-20 09:20 UTC — [D] Director run: inbox nothing new. 6 LIVE (cap): #459 #499 #503 #514 #533 #563, audit PASS (#563 copy de-stuffed). Reviewed 22: 14 approved and held (#390 #391 #470 retitled), 8 REDO (#408 #417 #447 caption-strip type, card 7k; #491 repeat punch + small stitch; #507 dark forest band; #508 repeat punch + square scene; #509 square scene; #545 thin script). Queue: A/B/C/E each 12 READY, no new briefs. No Telegram (not a digest run).
