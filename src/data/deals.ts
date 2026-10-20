@@ -10,5 +10,5 @@ export const blackFriday = {
     { qty: 3, pct: 20 },
     { qty: 4, pct: 25 },
   ],
-  discountLive: false,
+  discountLive: true, // 3 automatic discounts created 2026-10-20, scheduled Nov 26 6pm CT → Nov 30 11:59pm CT
 };
