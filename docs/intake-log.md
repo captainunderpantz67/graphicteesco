@@ -2,12 +2,12 @@
 2026-10-20 15:37 UTC — [B] Builder run (first lane B session, 09:02–15:37 UTC) ended: all 21 lane B REDOs in REVIEW (545 549 573 575 482 530 591 584 543 574 547 532 488 531 498, several redone after director rounds). Lock released. No lane B REDO left. READY lane B items #590–#603 not started: they predate the quality reset (old bar-and-caption type format), need the Etsy listing-count check I can't make from here (etsy.com 403), and a second lane B session collided with mine on #482 (12:07–12:25). fal $0 for this session.
 2026-10-20 15:50 UTC — [A] Builder run: #724 Frenchie Santa's Cookies tee and #725 ornament built, DRAFT, REVIEW. fal $0.04.
 2026-10-20 15:39 UTC — [A] Builder run: copy-only REDOs #615 (favorite child shirt) and #721 (FAQ), REVIEW. fal $0.
-RUNNING lane E since 2026-10-20 15:29 UTC
 2026-10-20 15:38 UTC — [A] Builder run: #720 Frenchie Silent Night crewneck (twin of #719), 12/12 synced. REVIEW. fal $0.
 2026-10-20 15:36 UTC — [A] Builder run: #719 Frenchie Silent Night. Except the Snoring. tee, 48/48 synced. REVIEW. fal $0.
 RUNNING lane C since 2026-10-20 15:08 UTC
 2026-10-20 15:36 UTC — [B] Builder run: redid #498 Psalm 121 embroidered crewneck (PSALM 121:1 caps 0.33 in, was 0.28 in; stitch 3.17 x 3.92 in, 12/12 synced). REVIEW. fal $0.
 RUNNING director since 2026-10-20 15:21 UTC
+2026-10-20 15:54 UTC — [E] Builder run: REDO #658 HVAC tee: new art (both hands, tired face), line IT'S ALWAYS / THE FILTER. (punch 110% of headline, subject 52%), 56/56 synced, title/SEO/copy/mockups updated. REVIEW. fal $0.04. Lane E lock released. Lane E queue left: #704 and #722/#723 READY (hoodies), #705-#718 PARKED by director (R5.2 proof gate).
 2026-10-20 15:28 UTC — [A] Builder run: #696 dance mom crewneck (twin of #534), 11/11 synced. REVIEW. fal $0.
 2026-10-20 15:27 UTC — [A] Builder run: #500 trees sheared 12 degrees, 12/12 synced. REVIEW. fal $0.
 2026-10-20 15:30 UTC — [B] Builder run: redid #531 Men's Gym pump cover (line + type: I'M NOT LAZY. / I'M DELOADING., same Greek-vase bench art, Anton, subject 66%, new front panel, 10/10 synced). REVIEW. fal $0.
