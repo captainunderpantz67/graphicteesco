@@ -10593,6 +10593,31 @@
     }
    ],
    "measured": "2026-10-20"
+  },
+  "unisex-national-park-the-view-better-be-worth-it-sweatpants": {
+   "claimed": [
+    "vintage sweatpants",
+    "matching sweatsuit",
+    "sweatsuit set"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "vintage sweatpants",
+     "volume": 1600,
+     "kd": 26
+    },
+    {
+     "phrase": "matching sweatsuit",
+     "volume": 3600,
+     "kd": 19
+    },
+    {
+     "phrase": "sweatsuit set",
+     "volume": 4400,
+     "kd": 22
+    }
+   ],
+   "measured": "2026-10-20"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
