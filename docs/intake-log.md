@@ -1,5 +1,6 @@
 RUNNING director since 2026-10-20 06:16 UTC
 RUNNING helper since 2026-10-20 05:44 UTC
+2026-10-20 06:20 UTC — [E] Builder run: redid #472 Unisex Embroidered crewneck (line + type: CIRCLE / BACK / NEVER., twin of #473 hoodie, Sand navy thread + Navy white thread, 12/12 synced). REVIEW. fal $0.
 2026-10-20 06:11 UTC — [A] Builder run: redid #332 Women's NYE Resolutions Pending tee (line+type: NEW YEAR, NEW ME. / STARTING JAN 2., same disco ball art, Bevan full width, file 1090193042, 30/30 relinked, 5 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 RUNNING lane B since 2026-10-20 05:30 UTC
 2026-10-20 06:05 UTC — [B] Builder run: redid #440 round 2 (OUT OF OFFICE. / IN THE MUD., punch widened to headline width (Navy + Dust; Dust file copied as -sand name). headline 3600 px / punch 3600 px, FW 1550 TOP 0 on the oversized blank (9.8 in tall, catalog 892)). REVIEW. fal $0.
