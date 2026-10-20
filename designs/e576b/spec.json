@@ -1,0 +1,3 @@
+{"art":"designs/e576b/art.png","out":"designs/e576b/print.png","art_w":0.7,"knock":3000,"halo":8,
+ "top":{"text":"LOW RIDER,","font":"Oswald[wght].ttf","axes":[700],"stroke":0,"w":1.0,"fill":"#f3e7cf"},
+ "bottom":{"text":"HIGH@0.5|MAINTENANCE.@1.0","font":"Oswald[wght].ttf","axes":[700],"stroke":0,"w":1.0,"fill":"#e8b04a","ref":"W"},"overlap":0.0,"gap":30}

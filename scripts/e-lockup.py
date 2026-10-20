@@ -34,12 +34,12 @@ if S.get('halo'):
 gap = S.get('gap', 30)
 def stack(d):
     parts = d['text'].split('|')
-    ims = [line(dict(d, text=t), W) for t in parts]
+    ims = [line(dict(d, text=t.split('@')[0], w=float(t.split('@')[1]) if '@' in t else d.get('w', 1.0)), W) for t in parts]
     if len(ims) == 1: return ims[0]
     h = sum(i.height for i in ims) + 14 * (len(ims) - 1); o = Image.new('RGBA', (max(i.width for i in ims), h), (0, 0, 0, 0)); y = 0
     for i in ims: o.alpha_composite(i, ((o.width - i.width) // 2, y)); y += i.height + 14
     return o
-l1 = stack(S['top']); l2 = line(S['bottom'], W if S['bottom'].get('ref', 'W') == 'W' else art.width)
+l1 = stack(S['top']); l2 = stack(S['bottom'])
 ov = int(art.height * S.get('overlap', 0.10))
 H = l1.height + gap + art.height + l2.height - ov
 o = Image.new('RGBA', (W, H), (0, 0, 0, 0))
