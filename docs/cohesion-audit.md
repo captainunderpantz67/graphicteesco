@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-20 19:48 UTC
+# Cohesion audit — 2026-10-20 20:47 UTC
 
-630 live products checked · **0 errors** · 56 warnings · 51 products with findings
+636 live products checked · **0 errors** · 61 warnings · 57 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -158,9 +158,26 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Golf – Not Cheating, Improving My Lie Ornament `golf-not-cheating-improving-my-lie-ornament`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 
+### Owl – Night Owl, Retired Mug `owl-night-owl-retired-mug`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
+### Bigfoot – Camera Shy Mug `bigfoot-camera-shy-mug`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
+### Nana – Mom Said No? That's Cute Mug `nana-mom-said-no-thats-cute-mug`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
+### Golf – Sorry About Your Windshield Mug `golf-sorry-about-your-windshield-mug`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
+### Fishing – Fishing Is My Love Language Mug `fishing-fishing-is-my-love-language-mug`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
+### Dachshund – Short Legs, Long Opinions Mug `dachshund-short-legs-long-opinions-mug`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
 ### Women's Outdoorsy – Outdoorsy in Theory Cropped Hoodie `womens-outdoorsy-in-theory-cropped-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Unisex Bookish – Do Not Sell My Books at My Funeral Socks `unisex-bookish-do-not-sell-my-books-at-my-funeral-socks`
-- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
-- **WARN** No entry in docs/product-keyword-map.json (no measured primary keyword recorded). → Run scripts/keyword-gap.py and record its phrases.
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".

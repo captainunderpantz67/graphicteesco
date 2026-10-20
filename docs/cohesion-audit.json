@@ -1,6 +1,6 @@
 {
- "at": "2026-10-20T19:48:47.690Z",
- "products": 630,
+ "at": "2026-10-20T20:47:46.379Z",
+ "products": 636,
  "findings": [
   {
    "level": "WARN",
@@ -375,6 +375,48 @@
   },
   {
    "level": "WARN",
+   "handle": "owl-night-owl-retired-mug",
+   "title": "Owl – Night Owl, Retired Mug",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "bigfoot-camera-shy-mug",
+   "title": "Bigfoot – Camera Shy Mug",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "nana-mom-said-no-thats-cute-mug",
+   "title": "Nana – Mom Said No? That's Cute Mug",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "golf-sorry-about-your-windshield-mug",
+   "title": "Golf – Sorry About Your Windshield Mug",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "fishing-fishing-is-my-love-language-mug",
+   "title": "Fishing – Fishing Is My Love Language Mug",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "dachshund-short-legs-long-opinions-mug",
+   "title": "Dachshund – Short Legs, Long Opinions Mug",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
    "handle": "womens-outdoorsy-in-theory-cropped-hoodie",
    "title": "Women's Outdoorsy – Outdoorsy in Theory Cropped Hoodie",
    "msg": "No lifestyle cover photo.",
@@ -384,15 +426,8 @@
    "level": "WARN",
    "handle": "unisex-bookish-do-not-sell-my-books-at-my-funeral-socks",
    "title": "Unisex Bookish – Do Not Sell My Books at My Funeral Socks",
-   "msg": "No lifestyle cover photo.",
-   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
-  },
-  {
-   "level": "WARN",
-   "handle": "unisex-bookish-do-not-sell-my-books-at-my-funeral-socks",
-   "title": "Unisex Bookish – Do Not Sell My Books at My Funeral Socks",
-   "msg": "No entry in docs/product-keyword-map.json (no measured primary keyword recorded).",
-   "fix": "Run scripts/keyword-gap.py and record its phrases."
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
   }
  ]
 }
