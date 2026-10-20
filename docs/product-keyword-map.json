@@ -10772,6 +10772,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-electrician-its-probably-the-breaker-hoodie": {
+   "claimed": [
+    "electrician hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "electrician hoodie",
+     "volume": 210,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
