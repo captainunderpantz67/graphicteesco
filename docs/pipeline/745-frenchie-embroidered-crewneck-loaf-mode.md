@@ -1,0 +1,27 @@
+status: READY
+lane: E
+type: new
+id: 745
+handle: womens-embroidered-french-bulldog-loaf-mode-crewneck-sweatshirt
+kd: 44
+---
+## Women's Embroidered French Bulldog – Loaf Mode. Crewneck Sweatshirt
+- **Why now:** Frenchie collection, EMBROIDERY (Sam: ~6 small embroidered pieces). First embroidered Frenchie.
+- **Blank:** Crewneck Gildan 18000 (Printful #145), Sand + Navy (R7.2). Real Printful embroidery, chest center at the largest size the blank allows: 4 x 4 in (1200 px at 300 dpi) on 18000 (R4.8 true scale); crop padding in emb-prep.py so the art fills it on its longest side. Printed back-neck logo stays (pilot result).
+- **Art (thread, not print; R4.8):** simple line art and lettering only, a handful of thread colors, no gradients, no worn texture, no tiny gaps: a French Bulldog seen from the front in the 'loaf' pose (paws tucked under, body a perfect rounded loaf), big upright bat ears, flat muzzle, sleepy half-closed eyes. Fawn coat in 2 thread tones + dark mask + black outline + one pink ear-lining thread. One Recraft v4 call (--n 1) for the line art, no words; or hand-built line art in emb-prep if the model adds texture. At most 3 tries, then PARK.
+- **Text stitched (spelled exactly):** LOAF MODE. under the dog, capitals at least 0.3 in tall, measured in emb-prep and logged (R4.8 stitched text size; a logged number under the minimum is not ready). The word line is at least as wide as the dog (the punch is never the smallest thing, R3.7.8). Sand: dark brown thread for the words; Navy: cream thread.
+- **Five lines considered (R3.13, compared with "Politely, No.", "Oops. Anyway.", "Wildly Low Maintenance"):** Loaf Mode. · Do Not Disturb the Loaf. · Professional Loaf. · Currently a Potato. · Bread, but Make It Dog. Kept the first: two words that read on a 4 in stitch at phone size, the loaf pose explains it to anyone in 3 s, and owners call it exactly that. "Professional Loaf" is the stock "Professional ___" template; "Bread, but Make It Dog" is too long to stitch.
+- **Hook:** the Frenchie mom whose dog spends 20 hours a day as a loaf of bread. Quiet, cute, and she can wear it to work.
+- **Why it's not taken:** Etsy embroidered Frenchie sweatshirts are mostly custom pet-portrait embroidery; a breed-true loaf with a two-word line is uncommon. 7j: no live product line "Loaf Mode".
+- **R5.2 proof:** the favorites gate is waived for Sam's direct Frenchie order (see #719's 14:55 entry). Frenchies are the #1 AKC breed; Sam and his wife share to Facebook Frenchie groups, so owners must see their own dog in it.
+- **Breed accuracy (docs/backlog/frenchie-collection.md):** a real French Bulldog: upright rounded BAT EARS, flat short muzzle, big round eyes, compact muscular body, short legs, stub tail. Not a pug (no curled tail), not an English bulldog. No AKC or breed-club logos, no brand names. The loaf must still read as a Frenchie at 4 in: ears and flat muzzle are the tell.
+- **Primary keyword:** dog face sweatshirt: 260 / KD 44 (competition 4,095; Nov 2025 880, Dec 1,000, 81% US) (RankHero keyword page via scripts/keyword-gap.py's rankhero(), 2026-10-20 20:35 UTC, director). KD 36+ under 1,000 with a measured holiday surge (R2.5, R2.6). Part of this search wants a custom portrait of their own dog: the copy never claims custom or personalized (R8.6); it says it is a stitched French Bulldog face, ready-made. 'embroidered crop top' (1,900/33) failed the US-share check (17%, R2.6); every Frenchie embroidery phrase is unmeasured. Unowned.
+- **Copy:** say "Embroidered" in the title and first line (R4.8); facts: embroidered, stitched thread, about 4 in on the chest (never oversell the size). Otherwise as: **Copy:** line one = the joke + who wears it + when, said plainly (R9.11); no superlative opener, no "one of the <keyword>" (R8.3), no production words, never "we drew". Primary in the SEO title, first sentence and once in the meta, at most 3 times in all; SEO title ≤ 60, meta ≤ 155 (R8.4). SOP three sections; 4–6 answer-first FAQs at 40–60 words (fit and fabric from the Printful spec only, sizing, care, Christmas order-by about Dec 8, one free size exchange). Name the ink colors the mockups show. Record the primary in docs/product-keyword-map.json with this handle.
+- **Cover:** none (R6.11): the Printful embroidery mockup, no person. **R6.12:** front only. The cover never oversells the stitch size (R4.8 true scale).
+- **Title / handle:** "Women's Embroidered French Bulldog – Loaf Mode. Crewneck Sweatshirt" / `womens-embroidered-french-bulldog-loaf-mode-crewneck-sweatshirt` (contains "embroidered": the audit allows embroidered-sweatshirts tagging).
+- **Tags:** embroidered-sweatshirts, graphic-sweatshirts, sweatshirt, french-bulldog, intake-done. Not ai-art if no AI image is used.
+- **Price:** $34.99 + $5 chest embroidery = $39.99 (R12.1 embroidered items), NO compare-at.
+- **Before REVIEW:** variant files verified on Printful and logged (R7.7, "N/N on <file id>"); every word read at phone size on the darkest AND the lightest offered color (R5.3.8); Story line one read noun by noun against the art (R8.3); review sheet via scripts/review-sheet.py; `node scripts/cohesion-audit.mjs --handle <handle>` passes except "not active".
+---
+## Log
+- 2026-10-20 20:45 UTC director: brief written, READY (lane E; dog face sweatshirt 260/44 (Dec surge); measured, ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).

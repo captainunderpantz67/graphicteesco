@@ -1,0 +1,27 @@
+status: READY
+lane: E
+type: new
+id: 752
+handle: mens-hunting-elk-i-called-he-didnt-come-graphic-tee
+kd: 40
+---
+## Men's Hunting – Elk: I Called. He Didn't Come. Tee
+- **Why now:** outdoors cluster hunting spoke; elk is the one big-game animal we have no design for. 'elk shirt' 480 / KD 40 with 3,706 competing listings, unowned.
+- **Blank:** Bella+Canvas 3001 tee, 4.2 oz (R7.1). Colors per R7.2 normal rule, ≤ 12 colors at 8 sizes. Light blanks (White, Natural, Sand, Ash, Dust, Peach and the R5.3.8 list) get their own file with every word in solid dark ink and open counters, no cream keyline (R5.3.8).
+- **Art prompt:** Vintage 1950s sporting-print illustration: a big bull elk standing on a mountain ridge with its back turned, head turned to look over its shoulder with a bored expression, while far below in the timber a small hunter in an orange cap blows into an elk call, cheeks puffed. Pines and a rocky ridge that end in worn broken edges. Correct antler anatomy (6 points a side), correct hooves. Muted screen-print palette (rust, mustard, cream, sage, soft black linework), halftone, worn edges. No frame, no border, no badge, no dark patch, no brand logos, no words or letters anywhere. New art: one Recraft v4 call (--n 1, fal wallet only via scripts/fal_budget.py), picture only, no words; at most 3 tries, then PARK. Style A (R4.2), vintage to the edges: no badge, frame, rounded scene card, panel or dark patch (R4.1); every side ends where its own objects end (scripts/ragged-edge.py on any straight or smooth edge).
+- **Text on tee (spelled exactly):** I CALLED. (headline above) / HE DIDN'T COME. (punch below, at least as wide as I CALLED., the loudest line). Light colors: deep brown headline, rust punch; dark colors: cream headline, mustard punch. Every word set with scripts/compose-print.py in one heavy display face from designs/fonts used on no more than 1 in 6 of the last 30 designs (add an OFL Google font if the kit feels repetitive). Headline at least 90% of the art width; the punch line at least as wide as the headline, never the smallest line (R3.7.8); log both ink widths (builder card 7h), type share (7k) and subject share (7l). Solid ink, no pattern fill, no thin script (R5.3.10).
+- **Five lines considered (R3.13, compared with "Sorry About Your Windshield.", "Not Cheating. Improving My Lie.", "Short Legs, Long Opinions"):** I Called. He Didn't Come. · Bugled All Day. Got Ghosted. · Elk Camp: Mostly Hiking. · Calling Elk. Leaving Voicemails. · Left on Read by a Bull. Kept the first: a plain sentence that works on two levels (the elk call, the date who never showed), the turned-back bull proves it in 3 s; 'Left on Read' is already the punch of a live outdoors hoodie (Mountains Called), so out (7j). "Got Ghosted" is a backup if 50+ Etsy listings carry the first.
+- **Hook:** the elk hunter who has bugled at the same bull for three seasons; he wears it at camp and to the diner after. Men's: dry, a little bite.
+- **Why it's not taken:** Etsy elk shirts are mostly bugling-bull silhouettes and "Elk Hunter" text; the ghosted-by-a-bull joke is uncommon.
+- **R5.2 proof gate:** RankHero keyword pages no longer show the listing grid (R5.2, 2026-10-19), so no favorites number is on file. Before spending fal, log one same-format listing on this theme with 500+ favorites (favorites, not views; RankHero or Etsy search). None found = PARKED.
+- **Primary keyword:** elk shirt: 480 / KD 40 (competition 3,706) (RankHero keyword page via scripts/keyword-gap.py's rankhero(), 2026-10-20 20:35 UTC, director). KD 36+ under 1,000: allowed because nothing easier is left in the hunting tee band (deer/duck/bow/turkey/goose/pheasant shirts are owned or unmeasured; 'elk hunting shirt' 90/40 is a supporting phrase, once in the Story). Unowned.
+- **Print size:** FW 1650, top about 3 in below the collar.
+- **Copy:** line one = the joke + who wears it + when, said plainly (R9.11); no superlative opener, no "one of the <keyword>" (R8.3), no production words, never "we drew". Primary in the SEO title, first sentence and once in the meta, at most 3 times in all; SEO title ≤ 60, meta ≤ 155 (R8.4). SOP three sections; 4–6 answer-first FAQs at 40–60 words (fit and fabric from the Printful spec only, sizing, care, Christmas order-by about Dec 8, one free size exchange). Name the ink colors the mockups show. Record the primary in docs/product-keyword-map.json with this handle.
+- **Cover:** none (R6.11): plain Printful product shot, no person, no Printful model photo. **R6.12:** front print only, no back-print mockup; the neck-logo back view goes LAST (photo-order rule, inbox 2026-10-20 15:45).
+- **Title / handle:** "Men's Hunting – Elk: I Called. He Didn't Come. Tee" / `mens-hunting-elk-i-called-he-didnt-come-graphic-tee`.
+- **Tags:** hunting-t-shirts, graphic-tees-for-men, funny-graphic-tees, elk, ai-art, intake-done.
+- **Price:** $24.99 (R12.1 tee), NO compare-at.
+- **Before REVIEW:** variant files verified on Printful and logged (R7.7, "N/N on <file id>"); every word read at phone size on the darkest AND the lightest offered color (R5.3.8); Story line one read noun by noun against the art (R8.3); review sheet via scripts/review-sheet.py; `node scripts/cohesion-audit.mjs --handle <handle>` passes except "not active".
+---
+## Log
+- 2026-10-20 20:45 UTC director: brief written, READY (lane E; elk shirt 480/40; measured, ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).
