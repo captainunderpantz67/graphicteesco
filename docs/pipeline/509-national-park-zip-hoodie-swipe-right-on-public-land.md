@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-20 08:30
+status: REVIEW
 lane: C
 type: new
 id: 509
@@ -36,3 +36,4 @@ kd: 32
 - 2026-10-20 08:45 UTC director: REDO from docs/review/509.jpg (product stays ACTIVE; fix in place).
   1. R4.1: the canyon scene is cut into a shield (wide top, pointed bottom tip), which reads as a crest on the back print. Break the silhouette: let the canyon walls and trees run out to ragged edges on the left and right, end the bottom at the river and rock line with worn edges, no point. $0.
   2. Line and type stay (I'M NOT SINGLE. / I HAVE A CANYON.).
+- 2026-10-20 08:37 UTC builder [C]: REDO round 2 per the director's 08:45 note (R4.1: the canyon scene was cut into a shield with a pointed bottom). Line and type unchanged (I'M NOT SINGLE. / I HAVE A CANYON.; headline 3034 px / punch 3096 px). Art: the pointed bottom tip is cut off at the river and rock line (2230 of 2788 px kept) and the whole outer edge (left and right canyon walls, trees, sky rays, bottom) is carved into worn, uneven edges with a new script designs/rough2.py that measures distance only to the OUTSIDE of the art, so the knocked-out sky inside the scene is not eaten (scripts/ragged-edge.py and my first carve both ate the sky). No shield, point or straight side left at phone size on either mockup. The small chest copy was rebuilt from the same carved art (file 1090258837; the old chest copy was still the shield). Files: Ash back 1090258924, Navy back 1090258961 (docs/print-files/509-v3-canyon-ash.png / -navy.png), BW 1650 BT 225, 12/12 relinked (verified on the API). Light-file split unchanged (Ash navy headline / Navy cream headline). Both back mockups replaced in place, read at phone size. Title and copy unchanged. fal $0.
