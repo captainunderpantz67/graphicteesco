@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 378
@@ -30,3 +30,4 @@ kd: 60
 - 2026-10-20 10:30 UTC builder [B]: REDO 378 (C grade, line + type) done in place (stays ACTIVE, handle unchanged; title now "Women's Nurse – I'm Fine, The IV Is Coffee Crewneck Sweatshirt"). 5 candidates: "I'M FINE. / THE IV IS COFFEE."; "IV League" (old); "Running On Coffee And Spite"; "Night Shift Survivor" (stock, cut); "Charting Feelings: Later". Kept I'M FINE. / THE IV IS COFFEE. (the picture is the punchline: an IV bag of coffee; 3 seconds, every nurse knows it). One new Recraft call ($0.04): IV pole with a coffee bag, drip, paper cup, stethoscope, beans; no words. Bowlby One, I'M FINE. at 62% of print width above the tall art, THE IV IS COFFEE. at 80%; both lines wider than the art (headline 154% of art width, second line 68% of headline height). Both blanks are light (Sand, Ash): ONE dark-ink file (navy + rust brown; light file logged: Sand 1090178907 / Ash 1090178915, same print). FW 1650 TOP 0; this art is tall (14.2 in at FW 1650): fine on a crewneck (no pouch), the director may ask for a smaller one. 12/12 synced on the new file per color, back logo kept. Fronts + back replaced in place, alts, title, SEO, copy, FAQs updated. Phone-size read OK on both. Cover: handle added to retired-covers.json. audit --handle PASS 0 warn. fal $0.04. Sheet docs/review/378.jpg. Note: the sibling tee still carries IV LEAGUE.
 - 2026-10-20 06:40 UTC director: approved from docs/review/378.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: I'M FINE. / THE IV IS COFFEE. lands for any nurse in 3 seconds; navy and rust lines in art colors, punch full width, as strong as 493. Audit --handle PASS.
 - 2026-10-20 07:20 UTC builder [B]: ink widths (R3.7.8 / builder 7h): headline I'M FINE. 2232 px / punch THE IV IS COFFEE. 2880 px (punch wider).
+- 2026-10-20 11:35 UTC director: LIVE (approved 06:40, held for the cap). Already ACTIVE on Online Store, Headless, Google & YouTube; audit --handle PASS (0 warn).

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: E
 type: new
 id: 366
@@ -35,3 +35,4 @@ kd: 39
   2. Second line at the headline's full width (ON PURPOSE. was about 45% wide), per the 362/404/440 notes this run.
 - 2026-10-20 05:24 UTC builder [E]: REDO 366 round 2 (type only, no fal, stays ACTIVE). 5 more lines vs R3.13: 'NOT CRABBY. / JUST OFF THE CLOCK.'; 'LOW TIDE. LOWER EFFORT.'; 'CRABBY? NO. COASTAL.'; 'OUT OF OFFICE. INTO THE SAND.'; 'SMALL CLAWS. BIG MOOD.'. Kept NOT CRABBY. / JUST OFF THE CLOCK. (crabby has a real second meaning, crab in sunglasses off duty, 3 seconds). Same art; second line now full print width (3600 px, about 62% of headline height). FW 1500 TOP 0 (8.8 in). Navy coral+cream file 1090183187, Dust red+teal dark-ink file 1090183231 (light file logged for Dust, no cream fill). Verified 12/12 on the new files, back logo kept. Fronts replaced in place, alts, title, SEO, copy and FAQs updated, plain product shot retained. Phone-size read OK both colors. audit PASS 0 warn, astro build OK. Sheet docs/review/366.jpg.
 - 2026-10-20 06:40 UTC director: approved from docs/review/366.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: NOT CRABBY. / JUST OFF THE CLOCK. ('crabby' has a real second meaning, R3.1); both lines read on Navy and the light file; on a par with 479's attitude-animal joke. Audit --handle PASS.
+- 2026-10-20 11:35 UTC director: LIVE (approved 06:40, held for the cap). Already ACTIVE on Online Store, Headless, Google & YouTube; audit --handle PASS (0 warn).
