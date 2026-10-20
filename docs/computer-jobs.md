@@ -36,3 +36,6 @@ Things that need Sam's laptop and Chrome. Sam opens the computer about once a da
 - Next (2026-10-20): hockey-shirts, hanukkah-sweaters, grandpa-sweatshirts, drummer-shirts, bookish-sweatshirts, hoodies/pit-bull-hoodies, then KD<=22 products.
 - Next: the 11 new niche collection pages as the director ships them, then KD<=22 products by volume (seo audit list).
 - 2026-10-20: random 12-URL inspection sample: 10/12 indexed (unknown: halloween midnight-feature tee; discovered-not-indexed: embroidered purrsonal-space hoodie). /black-friday/ was unknown to Google → indexing requested. Pages report still frozen at 10/11 (39).
+
+## 2026-10-20 click: give the Claude GitHub app access to TonerChamp/claude-skills
+The writer lane (W) needs to read Content Monster from the private claude-skills repo. Creating the routine failed with "repo_access_denied". Fix: https://github.com/apps/claude → Configure → TonerChamp → Repository access → add `claude-skills` → Save. Then tell Claude to create the lane W routine (body is ready: hourly at :36, Sonnet, sources graphicteesco + TonerChamp/claude-skills).
