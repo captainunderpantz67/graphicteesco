@@ -9309,15 +9309,19 @@
   },
   "mens-christmas-drew-your-name-panicked-graphic-tee": {
    "claimed": [
-    "secret santa gift",
-    "secret santa gifts for men",
-    "secret santa gifts for him"
+    "office christmas shirts",
+    "secret santa gift"
    ],
    "gaps_measured": [
     {
-     "phrase": "secret santa gift",
-     "volume": 74000,
-     "kd": 46
+     "phrase": "office christmas shirts",
+     "volume": 90,
+     "kd": 40
+    },
+    {
+     "phrase": "work christmas shirt",
+     "volume": 70,
+     "kd": 42
     },
     {
      "phrase": "secret santa gifts for men",
@@ -9330,7 +9334,7 @@
      "kd": 17
     }
    ],
-   "measured": "2026-10-16"
+   "measured": "2026-10-20"
   },
   "mens-christmas-drew-your-name-panicked-crewneck-sweatshirt": {
    "claimed": [
