@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-20 16:20 UTC
 RUNNING lane B since 2026-10-20 16:10 UTC
 2026-10-20 16:16 UTC — [A] Builder run: #724 Frenchie Santa's Cookies? What Cookies. tee, 48/48 synced. REVIEW. fal $0.
 2026-10-20 16:14 UTC — [A] Builder run: #634 tee gets the corrected We lied. print, 42/42 relinked. REVIEW. fal $0.
@@ -12,7 +13,6 @@ RUNNING lane B since 2026-10-20 16:10 UTC
 2026-10-20 15:36 UTC — [A] Builder run: #719 Frenchie Silent Night. Except the Snoring. tee, 48/48 synced. REVIEW. fal $0.
 RUNNING lane C since 2026-10-20 15:08 UTC
 2026-10-20 15:36 UTC — [B] Builder run: redid #498 Psalm 121 embroidered crewneck (PSALM 121:1 caps 0.33 in, was 0.28 in; stitch 3.17 x 3.92 in, 12/12 synced). REVIEW. fal $0.
-RUNNING director since 2026-10-20 15:21 UTC
 2026-10-20 15:54 UTC — [E] Builder run: REDO #658 HVAC tee: new art (both hands, tired face), line IT'S ALWAYS / THE FILTER. (punch 110% of headline, subject 52%), 56/56 synced, title/SEO/copy/mockups updated. REVIEW. fal $0.04. Lane E lock released. Lane E queue left: #704 and #722/#723 READY (hoodies), #705-#718 PARKED by director (R5.2 proof gate).
 2026-10-20 15:28 UTC — [A] Builder run: #696 dance mom crewneck (twin of #534), 11/11 synced. REVIEW. fal $0.
 2026-10-20 15:27 UTC — [A] Builder run: #500 trees sheared 12 degrees, 12/12 synced. REVIEW. fal $0.
