@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-20 03:29 UTC
+# Cohesion audit — 2026-10-20 03:47 UTC
 
-607 live products checked · **0 errors** · 28 warnings · 26 products with findings
+607 live products checked · **0 errors** · 30 warnings · 28 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -33,6 +33,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Unisex Thanksgiving – Totally a Pilgrim Hoodie `unisex-thanksgiving-totally-a-pilgrim-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
+
+### Women's Thanksgiving – The Turkey Is Fine Crewneck Sweatshirt `womens-thanksgiving-the-turkey-is-fine-crewneck-sweatshirt`
+- **WARN** SEO title is 61 chars (> 60). → Trim to ≤ 60.
 
 ### Women's Thanksgiving – Friendsgiving Hoodie `womens-thanksgiving-friendsgiving-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
@@ -80,6 +83,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Men's Pirate – Pillaging Is a Young Man's Game Hoodie `mens-pirate-pillaging-is-a-young-mans-game-hoodie`
 - **WARN** "pirate hoodie" appears 11× in the copy (keyword stuffing). → Use it once or twice, naturally.
+
+### Men's Grandpa – I Fix Things After Naps Hoodie `mens-grandpa-i-fix-things-after-naps-hoodie`
+- **WARN** Meta description is 162 chars (> 160). → Trim to ≤ 155.
 
 ### Women's Volleyball Mom – 7 A.M. Check-In Tee `womens-volleyball-mom-seven-am-check-in-graphic-tee`
 - **WARN** No meta description. → Write one ≤ 155 chars.

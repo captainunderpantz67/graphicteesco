@@ -1,4 +1,4 @@
-RUNNING helper since 2026-10-20 03:43 UTC
+2026-10-20 03:47 UTC — [H] Helper run: audit 607 products, 0 errors, 30 warnings (no scripted ERRORs to fix). Category check: 0 products without a Shopify category. Site check: 3 newest LIVE pages (#618, #578, #548) all 200. Stuck-work check: nothing BUILDING, all locks under 2h. Telegram: no new messages. Announcement bar already on holiday line. Daily summary not due (before 12:00 UTC). Lock released.
 RUNNING lane B since 2026-10-20 03:28 UTC
 2026-10-20 03:37 UTC — [A] Builder run: redid #246 Unisex Thanksgiving Totally a Pilgrim hoodie (type+line: NOT A TURKEY. / JUST A PILGRIM., same turkey art, Bowlby One full width, FW 1500 TOP 0, Sand file 1090137152 / Navy file 1090137159, 12/12 relinked, 2 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 2026-10-20 03:41 UTC — [B] Builder run: redid #362 Women's Baseball hoodie (line + type: MISSED THE PLAY. / SEEDS WERE GOOD., same art, Bowlby One, Navy + Sand light files, 12/12 synced). REVIEW. fal $0.
