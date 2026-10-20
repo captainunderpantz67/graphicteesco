@@ -1,4 +1,4 @@
-status: REDO
+status: BUILDING [E] 2026-10-20 08:33
 lane: E
 type: new
 id: 652
