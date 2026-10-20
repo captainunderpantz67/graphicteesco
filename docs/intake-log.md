@@ -1,4 +1,6 @@
 RUNNING lane C since 2026-10-20 06:30 UTC
+RUNNING director since 2026-10-20 06:16 UTC
+2026-10-20 06:30 UTC — [E] Builder run: redid #466 Unisex Embroidered hoodie (line + type: REPLAYING / WHAT I SAID / IN 2014., new stitched lettering, Sand navy thread + Navy white thread, 12/12 synced). REVIEW. fal $0.
 RUNNING helper since 2026-10-20 05:44 UTC
 2026-10-20 06:55 UTC — [D] Director run: inbox nothing new. 6 LIVE (cap): #358 #650 #221 #237 #246 #251, audit PASS. Reviewed 25 redos: 19 approved and held (5 stale titles fixed), 6 REDO (#341 #354 #436 #506 #536 #621). Builder card 7h sharpened (height never makes up for punch width). New lane B brief #716 farming shirt (5,400 / KD 33). No Telegram (digest not due, nothing needs Sam). Lock released.
 2026-10-20 06:20 UTC — [E] Builder run: redid #472 Unisex Embroidered crewneck (line + type: CIRCLE / BACK / NEVER., twin of #473 hoodie, Sand navy thread + Navy white thread, 12/12 synced). REVIEW. fal $0.
@@ -11,6 +13,7 @@ RUNNING lane B since 2026-10-20 05:30 UTC
 2026-10-20 06:03 UTC — [B] Builder run: redid #404 round 2 (MAIN QUEST / POSTPONED., punch widened to headline width. headline 3593 px / punch 3593 px). REVIEW. fal $0.
 2026-10-20 06:08 UTC — [B] Builder run: redid #485 Unisex Embroidered raccoon hoodie (line + type: MILE ONE. / SNACKS GONE., same raccoon thread art, burnt orange thread, 12/12 synced). REVIEW. fal $0.
 2026-10-20 06:11 UTC — [E] Builder run: redid #451 Women's Unicorn zip hoodie (line + type: SLEEP IS A MYTH. / SO AM I., new armchair-unicorn art, Alfa Slab One, Navy + Ash dark-ink file, new chest copy, 12/12 synced). REVIEW. fal $0.04.
+2026-10-20 06:32 UTC — [E] Builder run: redid #539 Men's Welder tee (line + type: WELDS LIKE A STACK OF DIMES. PAID LIKE ONE., new TIG-weld-of-dimes art, one cream-and-orange file on 5 dark colors, 35/35 synced, copy updated, plain product shot). REVIEW. fal $0.04.
 2026-10-20 05:46 UTC — [B] Builder run: redid #280 Women's Thanksgiving pumpkin hoodie round 2 (R3.7.8: punch THE WARM-UP. widened to headline width, 3600/3600 px, Navy + Sand, 12/12 synced). REVIEW. fal $0.
 2026-10-20 05:53 UTC — [E] Builder run: redid #438 Women's Panda zip hoodie (line + type: ENDANGERED / MORNING PERSON., new sleepy-panda-in-bed art, Bowlby One, Navy + Ash dark-ink file, new head chest copy, 12/12 synced). REVIEW. fal $0.04.
 2026-10-20 05:57 UTC — [B] Builder run: redid #473 Unisex Embroidered hoodie (line + type: CIRCLE / BACK / NEVER., new stacked lettering in thread, Sand #333366 + Navy #FFFFFF, 12/12 synced). REVIEW. fal $0.

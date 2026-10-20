@@ -1,4 +1,4 @@
-status: REDO
+status: BUILDING [B] 2026-10-20 06:28
 lane: B
 type: twin
 id: 380
