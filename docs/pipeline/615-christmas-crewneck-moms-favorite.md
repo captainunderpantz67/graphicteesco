@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: A
 type: twin
 id: 615
@@ -28,3 +28,4 @@ shopify: gid://shopify/Product/15369961603376
 ---
 ## Log
 - 2026-10-18 07:36 UTC director: brief written, READY (lane A; kd 44; KD ≤ 20 sibling phrase taken by the tee twin #614 and the others off-intent, so a measured KD 36+ phrase over 1,000 a month with a December surge; proof named under the gate).
+- 2026-10-20 15:16 UTC builder [A]: BUILT (twin of LIVE #614 tee, DRAFT; plain product shot per R6.11, no AI cover). R6.2 check on the source print (#614 file 1089735944, 3132x3168): MOM'S FAVORITE. is a real Alfa Slab face and CHECK THE STOCKINGS. a real Anton face; the mantel art has no frame, panel or ring, and the tee was LIVE-approved, so the twin keeps its lockup. Light-file split (R5.3.8, brief): Sand takes the tee's lockup with the bottom line widened 2% (file 1090409870); Navy gets its own file 1090409883: CHECK THE STOCKINGS. recolored from pine green to cream with the cream keyline dropped so every counter (O, A, R, G) is open, the red headline and the art unchanged; read on the Navy mockup at phone size. Widths (7h): headline 3132 px, punch 3131 px (Sand) / 3132 px (Navy), both widened from the tee's 3069 px so the punch is as wide as the headline; subject 3132 px. FW 1650 TOP 75. DRAFT gid://shopify/Product/15369961603376 (Gildan 18000, Sand + Navy x S-3XL = 12, $34.99, no compare-at, category aa-1-13-14, tags christmas-sweatshirts, christmas-sweatshirts-for-men, sweatshirt, christmas, ai-art, intake-done). Printful sync 483402069 verified below (Sand 6 on 1090409870, Navy 6 on 1090409883, back logo 1080398177). Sand + Navy fronts + Sand back attached, each front linked to its color's variants. Copy: line one carries the line + a sibling gift + who wears it + when, primary 'sibling gifts' (2,400 / KD 44) in the first sentence, SEO title and once in the meta, no 'one of the' opener; 5 FAQs at 50-58 words; ink named from the mockups (red, pine green on Sand, cream on Navy); Dec 8 order-by. Keyword map updated. fal $0.
