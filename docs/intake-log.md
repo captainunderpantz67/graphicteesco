@@ -1,3 +1,4 @@
+RUNNING lane C since 2026-10-20 07:00 UTC
 2026-10-20 06:47 UTC — [B] Run summary: REVIEW #280 #362 #404 #440 (punch width), #318 #396 #513 #519 (crew punch width), #455 (Lost My Gelt), #469 (Busy at a Good Part, embroidered), #697 (new Outdoorsy in Theory cropped hoodie). #485 was finished by a second lane B session. #498 left for director re-grade (R3.14). fal about $0.16. Lock released.
 2026-10-20 06:57 UTC — [A] Builder run: redid #361 Men's Grandpa I Fix Things After Naps crewneck (line+type: ON THE LIST SINCE 2009. / AFTER MY NAP., same napping grandpa art, Bowlby One full width, FW 1650 TOP 75, Sand file 1090217238 / Navy file 1090217265, 12/12 relinked, 2 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 2026-10-20 06:58 UTC — [B] Builder run: redid #467 Unisex Embroidered anxiety crewneck as the twin of #466 (REPLAYING / WHAT I SAID / IN 2014., Sand #333366 + Navy #FFFFFF, 12/12 synced). REVIEW. fal $0.
