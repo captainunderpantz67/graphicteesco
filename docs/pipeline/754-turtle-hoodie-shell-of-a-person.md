@@ -1,0 +1,27 @@
+status: READY
+lane: C
+type: new
+id: 754
+handle: unisex-turtle-shell-of-a-person-hoodie
+kd: 31
+---
+## Unisex Turtle – Shell of a Person. Hoodie
+- **Why now:** hoodies cluster (lane C, R11.11): an animal-with-attitude hoodie in the R3.13 voice; turtle is unclaimed and peaks Nov–Dec.
+- **Blank:** Pullover Gildan 18500 (Printful #146), Sand + Navy (R7.1/R7.2); handle ends -hoodie. Light blanks (Sand and the R5.3.8 list) get their own file with every word in solid dark ink and open counters, no cream keyline (R5.3.8).
+- **Art prompt:** Vintage 1960s storybook illustration: a small green box turtle lying completely flat on its belly on a patch of clover, legs splayed out, chin on the ground, eyes half closed in total exhaustion, a tiny paper coffee cup tipped over beside one front foot, its head halfway pulled back into its shell. Muted screen-print palette (sage, mustard, cream, faded red, soft black linework), halftone, worn edges; the clover ends where its own leaves end. Correct turtle anatomy (four legs, one tail, domed patterned shell). No person, no frame, no border, no badge, no dark patch, no brand logo on the cup (plain cup, no letters), no words anywhere. New art: one Recraft v4 call (--n 1, fal wallet only via scripts/fal_budget.py), picture only, no words; at most 3 tries, then PARK. Style A (R4.2), vintage to the edges: no badge, frame, rounded scene card, panel or dark patch (R4.1); every side ends where its own objects end (scripts/ragged-edge.py on any straight or smooth edge).
+- **Text on hoodie (spelled exactly):** SHELL OF (headline above) / A PERSON. (punch below, at least as wide as SHELL OF, the loudest line). Sand: deep green-black headline, faded-red punch; Navy: cream headline, mustard punch. Every word set with scripts/compose-print.py in one heavy display face from designs/fonts used on no more than 1 in 6 of the last 30 designs (add an OFL Google font if the kit feels repetitive). Headline at least 90% of the art width; the punch line at least as wide as the headline, never the smallest line (R3.7.8); log both ink widths (builder card 7h), type share (7k) and subject share (7l, 45%+). Use the lettering as a shape (the subject breaks into the lockup), not two plain bars with the art floating between (quality-reset bar). Solid ink, no pattern fill, no thin script (R5.3.10).
+- **Five lines considered (R3.13, compared with "Wildly Low Maintenance", "Oops. Anyway.", "Plot Twist: I Stayed In"):** Shell of a Person. · Slow Is a Personality. · In No Rush. Ever. · Retreating Into My Shell. · Hard Shell. Soft Feelings. Kept the first: a real idiom everyone uses about being worn out, with a literal second meaning the art proves in 3 s (the R3.1 pun test: the swapped meaning is real, no sound-alike). 'Hard Shell. Soft Feelings.' is the backup.
+- **Hook:** the tired friend at the end of a long week, any gender; worn to the couch, class and the grocery run. Self-aware, cheeky not cheesy (R3.1).
+- **Why it's not taken:** 'turtle hoodie' has 2,533 competing listings, mostly sea-turtle beach art and 'save the turtles'; a burnt-out box turtle joke is uncommon. 7j: no live line contains 'Shell'.
+- **R5.2 proof gate:** RankHero keyword pages no longer show the listing grid (R5.2, 2026-10-19), so no favorites number is on file. Before spending fal, log one same-format listing on this theme with 500+ favorites (favorites, not views; RankHero or Etsy search). None found = PARKED.
+- **Primary keyword:** turtle hoodie: 880 / KD 31 (competition 2,533; Nov–Dec 2025 1,600, 55% US) (RankHero keyword page via scripts/keyword-gap.py's rankhero(), 2026-10-20 21:45 UTC, director). KD 21–35 band (no KD ≤ 20 hoodie phrase left unowned in today's sweep except boxing, given to lane B). Unowned (map, pipeline, collections.ts).
+- **Print size:** FW 1500 floor (R5.3.2); the art is wide and low, keep it above the pouch.
+- **Copy:** line one = the joke + who wears it + when, said plainly (R9.11); no superlative opener, no "one of the <keyword>" (R8.3), no production words, never "we drew". Primary in the SEO title, first sentence and once in the meta, at most 3 times in all; SEO title ≤ 60, meta ≤ 155 (R8.4). SOP three sections; 4–6 answer-first FAQs at 40–60 words (fit and fabric from the Printful spec only, sizing, care, Christmas order-by about Dec 8, one free size exchange). Name the ink colors the mockups show. Record the primary in docs/product-keyword-map.json with this handle.
+- **Cover:** none (R6.11): plain Printful product shot, no person, no Printful model photo, so no registry row is claimed. **R6.12:** front print only, no back-print mockup; the printed front is image 1 and the neck-logo back view goes LAST (R6.13).
+- **Title / handle:** "Unisex Turtle – Shell of a Person. Hoodie" / `unisex-turtle-shell-of-a-person-hoodie`.
+- **Tags:** graphic-hoodies-for-men, graphic-hoodies-for-women, hoodie, turtle, ai-art, intake-done.
+- **Price:** $39.99 (R12.1 pullover), NO compare-at.
+- **Before REVIEW:** variant files verified on Printful and logged (R7.7, "N/N on <file id>"); every word read at phone size on the darkest AND the lightest offered color (R5.3.8); Story line one read noun by noun against the art (R8.3); review sheet via scripts/review-sheet.py; `node scripts/cohesion-audit.mjs --handle <handle>` passes except "not active".
+---
+## Log
+- 2026-10-20 21:50 UTC director: brief written, READY (lane C hoodies; turtle hoodie 880/31; measured today, ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).
