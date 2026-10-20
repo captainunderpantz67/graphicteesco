@@ -1,4 +1,5 @@
 RUNNING director since 2026-10-20 15:21 UTC
+2026-10-20 15:25 UTC — [A] Builder run: #586 capybara at 51% of the lockup width, 30/30 synced. REVIEW. fal $0.
 RUNNING lane C since 2026-10-20 15:08 UTC
 2026-10-20 15:23 UTC — [A] Builder run: #258 crewneck gets #257's bigger trophy print, synced. REVIEW. fal $0.
 2026-10-20 15:21 UTC — [A] Builder run: #257 trophy at 47% of the lockup width, tee synced. REVIEW. fal $0.
