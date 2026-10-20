@@ -4,6 +4,7 @@
 RUNNING lane B since 2026-10-20 03:28 UTC
 2026-10-20 03:49 UTC — [E] Builder run: redid #395 Women's Teacher crewneck (line + type: NO, WE CAN'T GO OUTSIDE., new bandaged-apple art, Navy + Sand files, 12/12 synced, copy updated, plain product shot). REVIEW. fal $0.04.
 2026-10-20 03:56 UTC — [B] Builder run: redid #404 Unisex Y2K video game hoodie (line + type: MAIN QUEST / POSTPONED., same art, Bevan, Navy + Sand light files, 12/12 synced). REVIEW. fal $0.
+2026-10-20 04:06 UTC — [A] Builder run: redid #251 tee + #252 crewneck Women's Thanksgiving The Turkey Is Fine (type+line: IT'S NOT BURNT. / IT'S CARAMELIZED., same hostess art, Alfa Slab full width, shared file 1090141138, 30/30 relinked on both, 10 fronts replaced in place, copy updated, plain product shots). REVIEW. fal $0.
 2026-10-20 03:37 UTC — [A] Builder run: redid #246 Unisex Thanksgiving Totally a Pilgrim hoodie (type+line: NOT A TURKEY. / JUST A PILGRIM., same turkey art, Bowlby One full width, FW 1500 TOP 0, Sand file 1090137152 / Navy file 1090137159, 12/12 relinked, 2 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 2026-10-20 03:41 UTC — [B] Builder run: redid #362 Women's Baseball hoodie (line + type: MISSED THE PLAY. / SEEDS WERE GOOD., same art, Bowlby One, Navy + Sand light files, 12/12 synced). REVIEW. fal $0.
 2026-10-20 05:26 UTC — [E] Builder run: redid #388 Women's Christmas crewneck (line + type: SORRY, I'M BOOKED TILL JANUARY., new party-calendar art, Navy + Sand files, 12/12 synced, copy updated, plain product shot). REVIEW. fal $0.08.
