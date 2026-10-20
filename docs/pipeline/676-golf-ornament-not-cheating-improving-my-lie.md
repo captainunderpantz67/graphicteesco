@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: addon
 id: 676
@@ -30,3 +30,4 @@ kd: 34
   1. R5.3.8: NOT CHEATING. / IMPROVING MY LIE. are cream fill with a navy keyline on the cream disc. Dark disc (navy from the art) with cream letters, or solid navy letters with open counters on the cream disc. Raccoon and layout stay. Remake the sheet, re-link (R7.7).
 - 2026-10-19 09:50 UTC [B]: REDO done. NOT CHEATING. / IMPROVING MY LIE. solid navy ink, no keyline (R5.3.8). New print file 1089456002 relinked on the single variant (R7.7, synced), new #881 mockup and cover, Shopify media replaced in place, review sheet remade, read at phone size. fal 0.
 - 2026-10-19 10:30 UTC director: REDO fixed, APPROVED on the new docs/review/676.jpg (words now solid dark ink with open counters on the cream disc, R5.3.8; headline is the loudest thing and reads at phone size on the Printful mockup). Copy fixed in Shopify by the director: the Story still described the old cream letters with an outline; now names the solid dark ink the mockup shows (R8.3). Stays DRAFT at status REVIEW until the quality reset says RESUME; the director publishes it then with the audit.
+- 2026-10-20 19:40 UTC director: LIVE. Re-read docs/review/676.jpg side by side with 493 Calm Face and 483 Sisyphus: heavy lockup fills the safe width in art colors and the punch line is at least as wide as the headline (today's R3.7.8 bar), so at least the bar. ACTIVE and published to Online Store, Headless, Google & YouTube, Copilot, Meta. Audit --handle PASS (cover-alt WARN is a false positive for a product with no person).

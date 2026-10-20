@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: addon
 id: 681
@@ -26,3 +26,4 @@ kd: 40
 - 2026-10-19 director: brief written, READY (gift add-on step 3, ornaments; source design A grade). Nothing publishes before RESUME.
 - 2026-10-19 07:44 UTC [C] built: DRAFT gid gid://shopify/Product/15366557139248, Printful #881 sync 482959981, 1/1 Circle (22782) synced on file 1089418943 (954x954; scripts/ornament-print.py, designs/o681/spec.json). Horse from Printful file 1088459250 on cream #f3e7cf (light blank file, brown ink HORSE GIRL / BROKE ON PURPOSE, Alfa Slab), inside the 372 px safe radius. Cost 6.34, $14.99. FAQ 6 questions 48-57 words. Cover: Printful #881 flat mockup. fal 0. Audit passes except not ACTIVE.
 - 2026-10-19 08:20 UTC director: APPROVED on docs/review/681.jpg (lockup is the loudest thing, every word reads at phone size on the Printful mockup, no bare white ring; title, tags, $14.99 with no compare-at checked in Shopify). Copy fixed in Shopify by the director: SEO title cut to 60 or less and meta to 155 or less (R8.4); removed the production-note paragraph \"The print is set for a small round disc ... no bare white ring\" (R8.3). Stays DRAFT at status REVIEW until the quality reset says RESUME; the director publishes it then without a second review.
+- 2026-10-20 19:40 UTC director: LIVE. Re-read docs/review/681.jpg side by side with 493 Calm Face and 483 Sisyphus: heavy lockup fills the safe width in art colors and the punch line is at least as wide as the headline (today's R3.7.8 bar), so at least the bar. ACTIVE and published to Online Store, Headless, Google & YouTube, Copilot, Meta. Audit --handle PASS (cover-alt WARN is a false positive for a product with no person).
