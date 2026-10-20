@@ -9679,16 +9679,28 @@
   },
   "mens-chess-i-blunder-with-confidence-graphic-tee": {
    "claimed": [
-    "chess shirt"
+    "chess shirt",
+    "chess t shirt",
+    "funny chess shirt"
    ],
    "gaps_measured": [
     {
      "phrase": "chess shirt",
      "volume": 1900,
      "kd": 30
+    },
+    {
+     "phrase": "chess t shirt",
+     "volume": 1300,
+     "kd": 29
+    },
+    {
+     "phrase": "funny chess shirt",
+     "volume": 140,
+     "kd": 39
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "unisex-cornhole-counts-as-cardio-graphic-tee": {
    "claimed": [

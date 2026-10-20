@@ -1,4 +1,5 @@
 status: BUILDING [E]
+shopify: gid://shopify/Product/15369479225648
 lane: E
 type: new
 id: 656
