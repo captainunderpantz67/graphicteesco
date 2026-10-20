@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-20 07:49 UTC
+# Cohesion audit — 2026-10-20 09:48 UTC
 
-609 live products checked · **0 errors** · 31 warnings · 29 products with findings
+609 live products checked · **0 errors** · 37 warnings · 35 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -75,8 +75,14 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Women's Thanksgiving – Here for the Scraps Hoodie `womens-thanksgiving-here-for-the-scraps-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
 
+### Unisex Otter – Today's Plan: Horizontal Hoodie `unisex-otter-currently-drifting-hoodie`
+- **WARN** Meta description is 161 chars (> 160). → Trim to ≤ 155.
+
 ### Unisex Thanksgiving – Turkey Trot Hoodie `unisex-thanksgiving-turkey-trot-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
+
+### Unisex Anime – Gold Is Overrated, I Prefer Dumplings Hoodie `unisex-anime-snack-hoard-dragon-hoodie`
+- **WARN** Meta description is 165 chars (> 160). → Trim to ≤ 155.
 
 ### Women's Anime – Slurp Responsibly Half Zip `womens-anime-slurp-responsibly-half-zip`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
@@ -84,14 +90,26 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Men's Pirate – Pillaging Is a Young Man's Game Hoodie `mens-pirate-pillaging-is-a-young-mans-game-hoodie`
 - **WARN** "pirate hoodie" appears 11× in the copy (keyword stuffing). → Use it once or twice, naturally.
 
+### Unisex Crow – Finders Keepers, Sorry About Your Earring Hoodie `unisex-crow-shiny-object-syndrome-hoodie`
+- **WARN** SEO title is 61 chars (> 60). → Trim to ≤ 60.
+
 ### Women's Nurse – Embroidered Awake. Regrettably. Crewneck Sweatshirt `womens-nurse-embroidered-night-shift-silly-goose-crewneck-sweatshirt`
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
 
+### Women's National Park – We're Not Lost, the Trail Moved Hoodie `womens-national-park-two-queens-roaming-hoodie`
+- **WARN** SEO title is 63 chars (> 60). → Trim to ≤ 60.
+
+### Women's National Park – I'm Not Single, I Have a Canyon Zip Hoodie `womens-national-park-swipe-right-on-public-land-zip-hoodie`
+- **WARN** SEO title is 63 chars (> 60). → Trim to ≤ 60.
+
+### Men's Chess – Sorry About Your Pawn Hoodie `mens-chess-calculated-mostly-hoodie`
+- **WARN** Meta description is 164 chars (> 160). → Trim to ≤ 155.
+
+### Unisex Running – On My Way, Eventually Zip Hoodie `unisex-running-pace-leisurely-zip-hoodie`
+- **WARN** Meta description is 162 chars (> 160). → Trim to ≤ 155.
+
 ### Men's Grandpa – I'm Fixing It, Eyes Closed Hoodie `mens-grandpa-i-fix-things-after-naps-hoodie`
-- **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
+- **WARN** No meta description. → Write one ≤ 155 chars.
 
 ### Unisex Pitbull – The Belly Is Open Hoodie `unisex-pitbull-velvet-hippo-social-club-hoodie`
-- **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
-
-### Women's Gigi – Because Grandma Sounded Old Hoodie `womens-gigi-because-grandma-sounded-old-hoodie`
-- **WARN** "gigi hoodie" appears 4× in the copy (keyword stuffing). → Use it once or twice, naturally.
+- **WARN** No meta description. → Write one ≤ 155 chars.

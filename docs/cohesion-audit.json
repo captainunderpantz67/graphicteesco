@@ -1,5 +1,5 @@
 {
- "at": "2026-10-20T07:49:32.898Z",
+ "at": "2026-10-20T09:48:42.872Z",
  "products": 609,
  "findings": [
   {
@@ -172,10 +172,24 @@
   },
   {
    "level": "WARN",
+   "handle": "unisex-otter-currently-drifting-hoodie",
+   "title": "Unisex Otter – Today's Plan: Horizontal Hoodie",
+   "msg": "Meta description is 161 chars (> 160).",
+   "fix": "Trim to ≤ 155."
+  },
+  {
+   "level": "WARN",
    "handle": "unisex-thanksgiving-turkey-trot-hoodie",
    "title": "Unisex Thanksgiving – Turkey Trot Hoodie",
    "msg": "thanksgiving design isn't in any thanksgiving collection.",
    "fix": "Tag it so it appears in the thanksgiving shirts page."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-anime-snack-hoard-dragon-hoodie",
+   "title": "Unisex Anime – Gold Is Overrated, I Prefer Dumplings Hoodie",
+   "msg": "Meta description is 165 chars (> 160).",
+   "fix": "Trim to ≤ 155."
   },
   {
    "level": "WARN",
@@ -193,6 +207,13 @@
   },
   {
    "level": "WARN",
+   "handle": "unisex-crow-shiny-object-syndrome-hoodie",
+   "title": "Unisex Crow – Finders Keepers, Sorry About Your Earring Hoodie",
+   "msg": "SEO title is 61 chars (> 60).",
+   "fix": "Trim to ≤ 60."
+  },
+  {
+   "level": "WARN",
    "handle": "womens-nurse-embroidered-night-shift-silly-goose-crewneck-sweatshirt",
    "title": "Women's Nurse – Embroidered Awake. Regrettably. Crewneck Sweatshirt",
    "msg": "No SEO title.",
@@ -200,24 +221,45 @@
   },
   {
    "level": "WARN",
+   "handle": "womens-national-park-two-queens-roaming-hoodie",
+   "title": "Women's National Park – We're Not Lost, the Trail Moved Hoodie",
+   "msg": "SEO title is 63 chars (> 60).",
+   "fix": "Trim to ≤ 60."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-national-park-swipe-right-on-public-land-zip-hoodie",
+   "title": "Women's National Park – I'm Not Single, I Have a Canyon Zip Hoodie",
+   "msg": "SEO title is 63 chars (> 60).",
+   "fix": "Trim to ≤ 60."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-chess-calculated-mostly-hoodie",
+   "title": "Men's Chess – Sorry About Your Pawn Hoodie",
+   "msg": "Meta description is 164 chars (> 160).",
+   "fix": "Trim to ≤ 155."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-running-pace-leisurely-zip-hoodie",
+   "title": "Unisex Running – On My Way, Eventually Zip Hoodie",
+   "msg": "Meta description is 162 chars (> 160).",
+   "fix": "Trim to ≤ 155."
+  },
+  {
+   "level": "WARN",
    "handle": "mens-grandpa-i-fix-things-after-naps-hoodie",
    "title": "Men's Grandpa – I'm Fixing It, Eyes Closed Hoodie",
-   "msg": "No SEO title.",
-   "fix": "Write one ≤ 60 chars with the primary keyword."
+   "msg": "No meta description.",
+   "fix": "Write one ≤ 155 chars."
   },
   {
    "level": "WARN",
    "handle": "unisex-pitbull-velvet-hippo-social-club-hoodie",
    "title": "Unisex Pitbull – The Belly Is Open Hoodie",
-   "msg": "No SEO title.",
-   "fix": "Write one ≤ 60 chars with the primary keyword."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-gigi-because-grandma-sounded-old-hoodie",
-   "title": "Women's Gigi – Because Grandma Sounded Old Hoodie",
-   "msg": "\"gigi hoodie\" appears 4× in the copy (keyword stuffing).",
-   "fix": "Use it once or twice, naturally."
+   "msg": "No meta description.",
+   "fix": "Write one ≤ 155 chars."
   }
  ]
 }
