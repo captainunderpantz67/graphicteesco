@@ -10393,6 +10393,64 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-family-credits-i-did-christmas-again-long-sleeve-tee": {
+   "claimed": [
+    "matching family christmas shirts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "matching family christmas shirts",
+     "volume": 9900,
+     "kd": 56
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-christmas-family-credits-i-carried-the-tree-long-sleeve-tee": {
+   "claimed": [
+    "family christmas shirts"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "family christmas shirts",
+     "volume": 8100,
+     "kd": 55
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "kids-christmas-family-credits-i-woke-everyone-up-youth-long-sleeve-tee": {
+   "claimed": [
+    "christmas long sleeve shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas long sleeve shirt",
+     "volume": 1000,
+     "kd": 62
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "baby-christmas-family-credits-i-ate-the-bow-baby-bodysuit": {
+   "claimed": [
+    "christmas onesie",
+    "baby christmas outfit"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas onesie",
+     "volume": 18100,
+     "kd": 40
+    },
+    {
+     "phrase": "baby christmas outfit",
+     "volume": 27100,
+     "kd": 44
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

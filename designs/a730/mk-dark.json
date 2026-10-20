@@ -1,0 +1,10 @@
+{
+ "10143": {
+  "front:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/0dbb75975b285e840925a4946cbf198d/unisex-long-sleeve-tee-white-front-6ad7919fcdb2c.jpg",
+  "front:Front": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/c3ac8423a95cc57bd3cb9b382b80ee75/unisex-long-sleeve-tee-white-front-6ad7919fce19c.jpg",
+  "front:Right": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/e35f16b9a1feae2441385062926cb2cc/unisex-long-sleeve-tee-white-right-6ad7919fce331.jpg",
+  "front:Left": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/4b821d208ddb90328fd269f12e5e4e8b/unisex-long-sleeve-tee-white-left-6ad7919fce472.jpg",
+  "back:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/2f21eafe0c4975a79b7c2c531842f5f1/unisex-long-sleeve-tee-white-back-6ad7919fce5c1.jpg",
+  "back:Back": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/91ef8df55e4088456e6b84e89e6d0c01/unisex-long-sleeve-tee-white-back-6ad7919fce7a3.jpg"
+ }
+}

@@ -4,6 +4,7 @@ type: new
 id: 731
 handle: kids-christmas-family-credits-i-woke-everyone-up-youth-long-sleeve-tee
 kd: 62
+shopify: gid://shopify/Product/15370155393328
 set: family-credits (Kid)
 ---
 ## Kids' Christmas – I Woke Everyone Up. Youth Long Sleeve Tee

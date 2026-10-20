@@ -4,6 +4,7 @@ type: new
 id: 732
 handle: baby-christmas-family-credits-i-ate-the-bow-baby-bodysuit
 kd: 40
+shopify: gid://shopify/Product/15370155917616
 set: family-credits (Baby)
 ---
 ## Baby Christmas – I Ate the Bow. Worth It. Baby Bodysuit

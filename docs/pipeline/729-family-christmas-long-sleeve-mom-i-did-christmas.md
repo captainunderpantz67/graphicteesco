@@ -4,6 +4,7 @@ type: new
 id: 729
 handle: womens-christmas-family-credits-i-did-christmas-again-long-sleeve-tee
 kd: 56
+shopify: gid://shopify/Product/15370154115376
 set: family-credits (Mom)
 ---
 ## Women's Christmas – I Did Christmas. Again. Long Sleeve Tee

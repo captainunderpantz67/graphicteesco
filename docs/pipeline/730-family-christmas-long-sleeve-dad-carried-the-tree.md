@@ -4,6 +4,7 @@ type: new
 id: 730
 handle: mens-christmas-family-credits-i-carried-the-tree-long-sleeve-tee
 kd: 55
+shopify: gid://shopify/Product/15370154770736
 set: family-credits (Dad)
 ---
 ## Men's Christmas – I Carried the Tree. That's My Part. Long Sleeve Tee
