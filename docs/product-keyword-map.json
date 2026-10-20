@@ -10759,6 +10759,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-lineman-bad-weather-is-my-overtime-hoodie": {
+   "claimed": [
+    "lineman hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "lineman hoodie",
+     "volume": 210,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
