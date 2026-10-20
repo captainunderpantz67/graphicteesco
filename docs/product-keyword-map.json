@@ -9296,16 +9296,22 @@
   },
   "mens-christmas-moms-favorite-crewneck-sweatshirt": {
    "claimed": [
+    "favorite child shirt",
     "sibling gifts"
    ],
    "gaps_measured": [
+    {
+     "phrase": "favorite child shirt",
+     "volume": 320,
+     "kd": 46
+    },
     {
      "phrase": "sibling gifts",
      "volume": 2400,
      "kd": 44
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-christmas-drew-your-name-panicked-graphic-tee": {
    "claimed": [
