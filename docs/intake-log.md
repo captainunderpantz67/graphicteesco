@@ -1,5 +1,6 @@
 RUNNING director since 2026-10-20 03:12 UTC
 RUNNING lane E since 2026-10-20 02:50 UTC
+2026-10-20 03:51 UTC — [E] Builder run: redid #365 Men's Skull zip hoodie (line + type: FORMER LIFE OF THE PARTY, same party skull, Navy + Ash back files, 12/12 synced, back mockups replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 2026-10-20 03:04 UTC — [A] Builder run: redid #219 Women's Christmas O Holy Night crewneck (lettering only, faith design R3.14: O HOLY NIGHT / LUKE 2:11 in Playfair Black full width, same linocut art, FW 1650 TOP 75, dark file 1090121757 / light file 1090121774, 30/30 relinked, 5 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 2026-10-20 03:26 UTC — [E] Builder run: redid #356 Women's Western rodeo hoodie (line + type: EIGHT SECONDS OF BAD DECISIONS, new cowgirl bronc art, Navy + Sand files, 12/12 synced, copy updated, plain product shot). REVIEW. fal $0.04.
 2026-10-20 02:55 UTC — [A] Builder run: redid #217 Women's Christmas Ho Ho Howdy hoodie (type+line: THE REINDEER QUIT. / SANTA GOT A HORSE., same cowboy Santa art, Alfa Slab full width, FW 1500 TOP 0, Sand file 1090119235 / Navy file 1090119263, 12/12 relinked, 2 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
