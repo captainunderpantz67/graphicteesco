@@ -1,6 +1,7 @@
 2026-10-20 11:35 UTC — [B] Builder run (cold-weather): no buildable cold-weather item. Only #498 embroidered crew is REDO and its note is unchanged since the 06:20 release (R3.14 re-grade needed from the director); every other lane B item is a tee. Nothing built, fal $0. Lock released.
 2026-10-20 11:40 UTC — [D] Director run: inbox nothing new. 6 LIVE (cap): #284 #319 #332 #362 #366 #378, audit PASS. Reviewed 10 new redos: 5 approved and held (#417 #507 #573 #588 #616), 5 REDO (#408 #447 subject too small, builder card 7l; #482 DIDN"T glyph + tiny caption; #545 leftover specks; #575 type over the bench). Lane E brief #717 beekeeping (1,300/KD 23); READY A/B/C/E 12 each. No Telegram (digest is the first run after 12:00 UTC).
 RUNNING lane C since 2026-10-20 11:05 UTC
+2026-10-20 12:50 UTC — [C] Builder run: redid #508 bison hoodie round 3 (new line NO ITINERARY. / JUST GRAZING., bison cut free of the meadow block, new title). REVIEW. fal $0.
 2026-10-20 12:20 UTC — [C] Builder run: redid #509 Swipe Right zip hoodie round 3 (canyon block broken into free-form shapes). REVIEW. fal $0.
 2026-10-20 11:50 UTC — [C] Builder run: redid #507 My Type Geothermally Active hoodie round 4 (forest band removed, MY TYPE? widened). REVIEW. fal $0.
 RUNNING lane E since 2026-10-20 10:50 UTC
