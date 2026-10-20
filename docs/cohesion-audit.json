@@ -1,6 +1,6 @@
 {
- "at": "2026-10-20T21:49:02.304Z",
- "products": 642,
+ "at": "2026-10-20T22:49:54.249Z",
+ "products": 648,
  "findings": [
   {
    "level": "WARN",
@@ -445,6 +445,27 @@
   },
   {
    "level": "WARN",
+   "handle": "mens-hunting-todays-special-tag-soup-sweatpants",
+   "title": "Men's Hunting – Today's Special: Tag Soup Sweatpants",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-french-bulldog-silent-night-except-the-snoring-graphic-tee",
+   "title": "Women's Christmas – French Bulldog Silent Night, Except the Snoring Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-french-bulldog-silent-night-except-the-snoring-crewneck-sweatshirt",
+   "title": "Women's Christmas – French Bulldog Silent Night, Except the Snoring Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "french-bulldog-silent-night-except-the-snoring-ornament",
    "title": "Christmas – French Bulldog Silent Night, Except the Snoring Ornament",
    "msg": "Cover alt text doesn't say who is in the photo.",
@@ -456,6 +477,13 @@
    "title": "Christmas – French Bulldog Silent Night, Except the Snoring Ornament",
    "msg": "christmas design isn't in any christmas collection.",
    "fix": "Tag it so it appears in the christmas shirts page."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-cat-do-not-disturb-biscuits-sweatpants",
+   "title": "Women's Cat – Do Not Disturb. Biscuits in Progress. Sweatpants",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
    "level": "WARN",
@@ -491,6 +519,48 @@
    "title": "Unisex Bookish – Do Not Sell My Books at My Funeral Socks",
    "msg": "Cover alt text doesn't say who is in the photo.",
    "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-homebody-plans-canceled-mood-improved-sweatpants",
+   "title": "Unisex Homebody – Plans Canceled. Mood Improved. Sweatpants",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-homebody-plans-canceled-mood-improved-sweatpants",
+   "title": "Unisex Homebody – Plans Canceled. Mood Improved. Sweatpants",
+   "msg": "Claims \"matching sweatsuit\", already claimed by womens-cat-do-not-disturb-biscuits-sweatpants (two pages fighting for one keyword).",
+   "fix": "Give one of them a different measured phrase."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-homebody-plans-canceled-mood-improved-sweatpants",
+   "title": "Unisex Homebody – Plans Canceled. Mood Improved. Sweatpants",
+   "msg": "Claims \"sweatsuit set\", already claimed by womens-cat-do-not-disturb-biscuits-sweatpants (two pages fighting for one keyword).",
+   "fix": "Give one of them a different measured phrase."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-national-park-the-view-better-be-worth-it-sweatpants",
+   "title": "Unisex National Park – The View Better Be Worth It. Sweatpants",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-national-park-the-view-better-be-worth-it-sweatpants",
+   "title": "Unisex National Park – The View Better Be Worth It. Sweatpants",
+   "msg": "Claims \"matching sweatsuit\", already claimed by womens-cat-do-not-disturb-biscuits-sweatpants (two pages fighting for one keyword).",
+   "fix": "Give one of them a different measured phrase."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-national-park-the-view-better-be-worth-it-sweatpants",
+   "title": "Unisex National Park – The View Better Be Worth It. Sweatpants",
+   "msg": "Claims \"sweatsuit set\", already claimed by womens-cat-do-not-disturb-biscuits-sweatpants (two pages fighting for one keyword).",
+   "fix": "Give one of them a different measured phrase."
   }
  ]
 }

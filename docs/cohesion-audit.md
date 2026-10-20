@@ -1,12 +1,23 @@
-# Cohesion audit — 2026-10-20 21:49 UTC
+# Cohesion audit — 2026-10-20 22:49 UTC
 
-642 live products checked · **0 errors** · 70 warnings · 63 products with findings
+648 live products checked · **4 errors** · 76 warnings · 69 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
+- 4 × Claims , already claimed by womens-cat-do-not-disturb-biscuits-sweatpa
 
 ## By product (errors first)
+### Unisex Homebody – Plans Canceled. Mood Improved. Sweatpants `unisex-homebody-plans-canceled-mood-improved-sweatpants`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+- **ERROR** Claims "matching sweatsuit", already claimed by womens-cat-do-not-disturb-biscuits-sweatpants (two pages fighting for one keyword). → Give one of them a different measured phrase.
+- **ERROR** Claims "sweatsuit set", already claimed by womens-cat-do-not-disturb-biscuits-sweatpants (two pages fighting for one keyword). → Give one of them a different measured phrase.
+
+### Unisex National Park – The View Better Be Worth It. Sweatpants `unisex-national-park-the-view-better-be-worth-it-sweatpants`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+- **ERROR** Claims "matching sweatsuit", already claimed by womens-cat-do-not-disturb-biscuits-sweatpants (two pages fighting for one keyword). → Give one of them a different measured phrase.
+- **ERROR** Claims "sweatsuit set", already claimed by womens-cat-do-not-disturb-biscuits-sweatpants (two pages fighting for one keyword). → Give one of them a different measured phrase.
+
 ### Unisex Halloween – Midnight Feature Tee `unisex-halloween-midnight-feature-graphic-tee`
 - **WARN** No meta description. → Write one ≤ 155 chars.
 
@@ -188,9 +199,21 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Men's Gym – Rack Your Weights. Respectfully. Sweatpants `mens-gym-rack-your-weights-respectfully-sweatpants`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Men's Hunting – Today's Special: Tag Soup Sweatpants `mens-hunting-todays-special-tag-soup-sweatpants`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Christmas – French Bulldog Silent Night, Except the Snoring Tee `womens-christmas-french-bulldog-silent-night-except-the-snoring-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Christmas – French Bulldog Silent Night, Except the Snoring Crewneck Sweatshirt `womens-christmas-french-bulldog-silent-night-except-the-snoring-crewneck-sweatshirt`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Christmas – French Bulldog Silent Night, Except the Snoring Ornament `french-bulldog-silent-night-except-the-snoring-ornament`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 - **WARN** christmas design isn't in any christmas collection. → Tag it so it appears in the christmas shirts page.
+
+### Women's Cat – Do Not Disturb. Biscuits in Progress. Sweatpants `womens-cat-do-not-disturb-biscuits-sweatpants`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Christmas – French Bulldog Santa's Cookies? What Cookies. Ornament `french-bulldog-santas-cookies-what-cookies-christmas-ornament`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".

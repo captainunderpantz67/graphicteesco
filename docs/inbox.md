@@ -203,3 +203,6 @@ docs/backlog/drawn-fixes.json holds 62 products: {id, handle, html}. Each "html"
 ## 2026-10-20 — Sam (Telegram): asks the director to check the new building brief.
 - Logged by helper 2026-10-20 14:48 UTC, not yet actioned. Director to pick it up on its next run.
 - DONE 2026-10-20 16:10 UTC director: read as the matching family Christmas long-sleeves brief (docs/backlog/matching-family-christmas.md, Sam approved 09:02) plus the clusters plan (docs/clusters.md). Family set 1 'Christmas Credits' briefed READY (#729–#732, lane A, Mom/Dad/Kid/Baby, Red + White); prices confirmed against Printful and added to the rulebook and audit. Clusters: new briefs this run sit in the christmas cluster (A); lanes keep to their clusters.
+
+## 2026-10-20 — Helper (audit): keyword collision on the sweatpants pair
+- 22:49 UTC audit: 4 ERRORs, all one collision. The two sweatpants pages (the Homebody and National Park unisex sweatpants) both claim the phrases "matching sweatsuit" and "sweatsuit set", which the cat sweatpants page already holds. Copy choice for the director: give one of the two pages a different measured phrase. Left for the director; no scripted fix. Logged by helper 22:49 UTC.
