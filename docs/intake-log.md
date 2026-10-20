@@ -5,6 +5,7 @@ RUNNING lane C since 2026-10-20 07:00 UTC
 RUNNING lane E since 2026-10-20 06:47 UTC
 RUNNING lane C since 2026-10-20 06:30 UTC
 2026-10-20 06:59 UTC — [C] Builder run: redid #436 Unisex Anime maneki neko heavyweight hoodie round 2 (director note: punch IT'S A NO. now full width, headline 3330 px / punch 3360 px, Sandstone file 1090218315 + Storm Blue file 1090218410, FW 1600 TOP 20, 14/14 relinked, 2 fronts replaced in place). REVIEW. fal $0.
+2026-10-20 07:10 UTC — [E] Builder run: redid #536 Women's Volleyball Mom tee again (new line I DON'T PLAY. / I JUST SUFFER., new bleacher-mom art with volleyballs, Bowlby One, cream file on 5 dark colors + dark-ink file on Heather Mauve, 36/36 synced). REVIEW. fal $0.04.
 2026-10-20 06:43 UTC — [E] Builder run: redid #486 Women's Embroidered goose crewneck (line + type: NOT IGNORING YOU. / JUST AT A GOOD PART., same goose, new stitched lettering, navy thread, 12/12 synced). REVIEW. fal $0.
 2026-10-20 06:50 UTC — [E] Builder run: redid #559 Women's Bear crewneck (line + type: BEAR WITH ME. I'M RESTING., new belly-up sleeping bear art, Navy + Sand files, 12/12 synced, copy updated, plain product shot). REVIEW. fal $0.04.
 2026-10-20 06:51 UTC — [C] Builder run: redid #621 Unisex Dachshund hoodie round 2 (director note: punch widened, headline 3192 px / punch 3215 px, Sand file 1090214855 + Navy file 1090214929, FW 1650 TOP 0, 12/12 relinked, 2 fronts replaced in place). REVIEW. fal $0.
