@@ -2,6 +2,7 @@ RUNNING lane C since 2026-10-20 06:30 UTC
 RUNNING helper since 2026-10-20 05:44 UTC
 2026-10-20 06:55 UTC — [D] Director run: inbox nothing new. 6 LIVE (cap): #358 #650 #221 #237 #246 #251, audit PASS. Reviewed 25 redos: 19 approved and held (5 stale titles fixed), 6 REDO (#341 #354 #436 #506 #536 #621). Builder card 7h sharpened (height never makes up for punch width). New lane B brief #716 farming shirt (5,400 / KD 33). No Telegram (digest not due, nothing needs Sam). Lock released.
 2026-10-20 06:20 UTC — [E] Builder run: redid #472 Unisex Embroidered crewneck (line + type: CIRCLE / BACK / NEVER., twin of #473 hoodie, Sand navy thread + Navy white thread, 12/12 synced). REVIEW. fal $0.
+2026-10-20 06:27 UTC — [B] Builder run: redid #492 Women's Nurse embroidered crewneck (line + type: AWAKE. / REGRETTABLY., same goose line art, Anton in navy thread, 12/12 synced; ink widths 1000/1000 px). REVIEW. fal $0.
 2026-10-20 06:11 UTC — [A] Builder run: redid #332 Women's NYE Resolutions Pending tee (line+type: NEW YEAR, NEW ME. / STARTING JAN 2., same disco ball art, Bevan full width, file 1090193042, 30/30 relinked, 5 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 RUNNING lane B since 2026-10-20 05:30 UTC
 2026-10-20 06:21 UTC — [B] Builder run: built #697 Women's Outdoorsy in Theory cropped hoodie (new art $0.04, OUTDOORSY / IN THEORY. Playfair 900, Black + Storm because Peach is XL-only, 10/10 synced, plain product shot). REVIEW.
