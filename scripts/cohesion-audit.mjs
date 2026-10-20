@@ -87,7 +87,7 @@ for (const p of products) {
   const cover = covers[p.handle];
 
   // Identity: title, handle and blank must tell the same story.
-  if (!aud && kind !== 'ornament' && kind !== 'mug' /* decor, no wearer: "Golf – <line> Ornament" (director 2026-10-19) */) add('ERROR', p, 'Title has no audience prefix (Women\'s / Men\'s / Unisex).', 'Rename to "<Audience> <Niche> – <Design> <Tee|Crewneck Sweatshirt>".');
+  if (!aud && kind !== 'ornament' && kind !== 'mug' /* decor, no wearer: "Golf – <line> Ornament" (director 2026-10-19) */ && !(kind === 'bodysuit' && /^Baby /.test(p.title)) && !(/-youth-long-sleeve-tee$/.test(p.handle) && /^Kids' /.test(p.title)) /* family sets: "Baby Christmas – …" bodysuit, "Kids' Christmas – …" youth long sleeve (director 2026-10-20) */) add('ERROR', p, 'Title has no audience prefix (Women\'s / Men\'s / Unisex).', 'Rename to "<Audience> <Niche> – <Design> <Tee|Crewneck Sweatshirt>".');
   if (aud && hAud && aud !== hAud) add('ERROR', p, `Title says ${aud} but the URL says ${hAud}.`, 'Make title and handle agree (keep the handle if the page is indexed; fix the title).');
   if (aud === 'men' && blank === '6400 women\'s relaxed tee') add('ERROR', p, 'Men\'s product printed on the women\'s relaxed blank.', 'Rebuild on Bella+Canvas 3001.');
   if (kind === 'sweatshirt' && blank && !/crewneck|all-over/.test(blank)) add('ERROR', p, `Called a crewneck but the photos show a ${blank}.`, 'Fix the Printful blank or the title.');
