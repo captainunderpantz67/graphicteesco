@@ -1,4 +1,5 @@
 RUNNING lane B since 2026-10-20 17:06 UTC
+2026-10-20 17:19 UTC — [B] Builder run: #697 Outdoorsy in Theory cropped hoodie finalized (built earlier, repo side lost): Black + Storm, 10/10 synced, REVIEW, flat cover. fal $0.04.
 2026-10-20 17:11 UTC — [B] Builder run: #280 Pie Season hoodie REDO finalized (Turkey Was the Warm-Up, 12/12 on new files), REVIEW, flat cover. fal $0.
 2026-10-20 17:02 UTC — [A] Builder run: #616 Drew Your Name. Panicked. tee, copy-only REDO (keyword to office christmas shirt, SEO title/meta/line one fixed). REVIEW. fal $0.
 2026-10-20 17:41 UTC — [C] Builder run: redid #635 Women's Fishing Out-Fished Him. Again. zip hoodie (type only: AGAIN. heavy Bowlby One navy/cream replaces thin script, same art, BW 1560, Ash file 1090515189, Navy light file 1090515215, 12/12 relinked, 2 backs replaced in place, plain product shot). REVIEW. fal $0. 1 redo per run cap reached.

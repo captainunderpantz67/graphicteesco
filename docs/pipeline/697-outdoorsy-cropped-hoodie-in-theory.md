@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-20 17:20
+status: REVIEW
 lane: B
 type: new
 id: 697
@@ -26,3 +26,4 @@ kd: 34
 ---
 ## Log
 - 2026-10-19 16:10 UTC director: brief written, READY (lane B; Sam's cropped-hoodie + park-snark ask; cropped pullover 4,400 / KD 34; 5 lines tested against R3.13).
+- 2026-10-20 17:50 UTC builder [B]: found the build already done on Shopify/Printful by an earlier session whose repo commit was lost (product 15369133359408 DRAFT, art file 1090204399 k697.png 3600x3494 = ratio 0.97, 1456 px tall at FW 1500 inside the 1500 px area, TOP 75 default; Printful 10/10 variants on it, back logo 1080398177, mockups Black + Storm + back attached, variant images linked). I had also made one Recraft call ($0.04, logged) before spotting it and dropped that art. Peach is not buildable on the 7502 (only XL, out of stock), so colors are Black + Storm, one cream-lettered file for both (headline cream, IN THEORY. mustard; no dark-fill file needed, both blanks are dark). Fixed copy against the art: cord trails across the grass from the tent (not from the door), a PAIR of slippers, tent is cream with orange/mustard swirls (not rust and sage). Category hoodies, SEO title 45, meta 135, FAQ 5 x 48-52 words, order-by Dec 8, tags per brief. Keyword: cropped pullover 4400/KD 34 recorded in the map (primary unowned). Cover: plain Printful product shot (handle in retired-covers.json). Sheet docs/review/697.jpg. Audit: only the not-ACTIVE error. Line vs R3.13: 3 words, wearer in on it, tent + extension cord proves it. Etsy listing count for the exact line not checked (no Etsy access from the builder). fal $0.04.
