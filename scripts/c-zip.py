@@ -6,7 +6,11 @@ import os, sys, json, subprocess, time, urllib.request, shlex
 d, pid, chest, bw, bt, cw = sys.argv[1:7]; pairs = [a.split('=', 1) for a in sys.argv[7:]]
 H = {'Authorization': 'Bearer ' + os.environ['PRINTFUL_TOKEN'], 'User-Agent': 'gtc'}
 def get(p): return json.load(urllib.request.urlopen(urllib.request.Request('https://api.printful.com' + p, headers=H), timeout=60))['result']
-vs = get(f'/sync/products/{pid}')['sync_variants']; cf = get(f'/files/{chest}'); info = {}
+vs = get(f'/sync/products/{pid}')['sync_variants']; info = {}
+for _ in range(30):
+    cf = get(f'/files/{chest}')
+    if cf.get('width') and cf.get('status') == 'ok': break
+    time.sleep(4)
 for colors, png in pairs:
     url = subprocess.check_output([sys.executable, 'scripts/fal-host.py', png], text=True).strip()
     fid = subprocess.check_output([sys.executable, 'scripts/pf-sync.py', 'upload', url, os.path.basename(png)], text=True).strip()
