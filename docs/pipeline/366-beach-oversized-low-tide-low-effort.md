@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: E
 type: new
 id: 366
@@ -33,3 +33,4 @@ kd: 39
 - 2026-10-20 04:16 UTC director: REDO from docs/review/366.jpg (product stays ACTIVE; fix in place, type only, no fal).
   1. R3.1 sound-alike pun: SHELLFISH for 'selfish' has no second meaning a buyer would use; it's the groan-pun type the rule bans by default. The crab art is good, keep it. Pick a new line from the 5-line test against R3.13 (e.g. your own 'Not Crabby, Just Off the Clock'; or 'Low Tide. Lower Effort.'); write 5 more if none beats 'Oops. Anyway.' side by side.
   2. Second line at the headline's full width (ON PURPOSE. was about 45% wide), per the 362/404/440 notes this run.
+- 2026-10-20 05:24 UTC builder [E]: REDO 366 round 2 (type only, no fal, stays ACTIVE). 5 more lines vs R3.13: 'NOT CRABBY. / JUST OFF THE CLOCK.'; 'LOW TIDE. LOWER EFFORT.'; 'CRABBY? NO. COASTAL.'; 'OUT OF OFFICE. INTO THE SAND.'; 'SMALL CLAWS. BIG MOOD.'. Kept NOT CRABBY. / JUST OFF THE CLOCK. (crabby has a real second meaning, crab in sunglasses off duty, 3 seconds). Same art; second line now full print width (3600 px, about 62% of headline height). FW 1500 TOP 0 (8.8 in). Navy coral+cream file 1090183187, Dust red+teal dark-ink file 1090183231 (light file logged for Dust, no cream fill). Verified 12/12 on the new files, back logo kept. Fronts replaced in place, alts, title, SEO, copy and FAQs updated, plain product shot retained. Phone-size read OK both colors. audit PASS 0 warn, astro build OK. Sheet docs/review/366.jpg.
