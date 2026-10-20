@@ -1,0 +1,3 @@
+{"art":"designs/e514b/art.png","out":"designs/e514b/print.png","art_w":0.74,"knock":3000,"halo":0,
+ "top":{"text":"DANGEROUS ONLY","font":"AlfaSlabOne-Regular.ttf","stroke":0,"w":1.0,"fill":"#1c2a52"},
+ "bottom":{"text":"TO YOUR SNACKS.","font":"AlfaSlabOne-Regular.ttf","stroke":0,"w":1.0,"fill":"#b8431f","ref":"W"},"overlap":0.0,"gap":30}
