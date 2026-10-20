@@ -1,4 +1,3 @@
-RUNNING lane E since 2026-10-20 06:20 UTC
 RUNNING director since 2026-10-20 06:16 UTC
 RUNNING helper since 2026-10-20 05:44 UTC
 2026-10-20 06:20 UTC — [E] Builder run: redid #472 Unisex Embroidered crewneck (line + type: CIRCLE / BACK / NEVER., twin of #473 hoodie, Sand navy thread + Navy white thread, 12/12 synced). REVIEW. fal $0.
@@ -19,7 +18,6 @@ RUNNING lane C since 2026-10-20 05:30 UTC
 2026-10-20 05:52 UTC — [C] Builder run: redid #341 Women's Axolotl oversized hoodie (new line + type: I'M FINE. / JUST A LITTLE RAIN., Fraunces Black + Bevan, same teacup art, Dust file 1090192013 + Navy file 1090192095, FW 1500 TOP 30, 12/12 relinked, 2 fronts replaced in place, copy + SEO updated, plain product shot). REVIEW. fal $0.
 2026-10-20 05:41 UTC — [C] Builder run: redid #506 Men's Golf retired zip hoodie (new line + type: CLOCKED OUT. / TEED UP., Bowlby One + Alfa Slab, same backyard art, Ash file 1090187094 + Navy file 1090187130, BW 1650 BT 225, 12/12 relinked, 2 back mockups replaced in place, copy + SEO updated, plain product shot). REVIEW. fal $0.
 2026-10-20 06:00 UTC — [C] Builder run: PARKED sweatpants #711–#715 at the R5.2 proof gate (no 500+ favorites sweatpants listing findable: WebSearch returned only Walmart/J.Crew, etsy.com 403; director or Sam must supply a listing or waive the gate). Redid #281 Women's Black Friday tee (line + type: I'M NOT SHOPPING. / I'M COMPETING., same cup/bags/receipt art, one file on 6 colors, 36/36 relinked). REVIEW. fal $0. Lock released.
-RUNNING lane E since 2026-10-20 05:16 UTC
 2026-10-20 05:32 UTC — [E] Builder run: redid #388 Women's Christmas crewneck again (every calendar day box now filled: cream square, red X, so it reads booked; line kept SORRY, I'M BOOKED / TILL JANUARY.; Navy + Sand files, 12/12 synced). REVIEW. fal $0.
 2026-10-20 05:44 UTC — [A] Builder run: redid #319 Women's Christmas Tied Up for the Holidays tee (line+type: I'M THE GIFT. / NO RETURNS., same tartan bow art, Alfa Slab full width, file 1090185051, 30/30 relinked, 5 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 2026-10-20 05:45 UTC — [B] Builder run: redid #354 Unisex Fishing zip hoodie (line + type: IT WAS / THIS BIG., new leaping-bass art, Bowlby One, Ash + Carolina Blue dark-ink file, 12/12 synced). REVIEW. fal $0.08.
@@ -74,7 +72,6 @@ RUNNING lane B since 2026-10-20 03:28 UTC
 2026-10-20 04:56 UTC — [E] Builder run: redid #386 Women's Christmas tee (line + type: THE STAR HAD A GOOD RUN., new cat-on-tree art, one dark-ink file on 5 light colors, 30/30 synced, copy updated, plain product shot). REVIEW. fal $0.04.
 2026-10-20 04:16 UTC — [E] Builder run: redid #366 Women's Beach oversized hoodie (line + type: SHELLFISH ON PURPOSE., new crab art, Navy + Dust files, 12/12 synced, copy updated, plain product shot). REVIEW. fal $0.04.
 2026-10-20 03:28 UTC — [A] Builder run: redid #237 Women's Christmas Candy Cane Club crewneck (type+line: SUCKER FOR / CHRISTMAS., same candy cane art, Bevan full width, FW 1650 TOP 75, file 1090132546, 24/24 relinked on sync 482321113, 4 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
-RUNNING lane E since 2026-10-20 02:50 UTC
 2026-10-20 03:51 UTC — [E] Builder run: redid #365 Men's Skull zip hoodie (line + type: FORMER LIFE OF THE PARTY, same party skull, Navy + Ash back files, 12/12 synced, back mockups replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 2026-10-20 03:18 UTC — [A] Builder run: redid #221 Women's Christmas Nurse crewneck (type+line: CHECKING IT TWICE. / CHARTING IT THREE TIMES., same cap and stethoscope art, Alfa Slab full width, FW 1650 TOP 75, file 1090125893, 30/30 relinked, 5 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 2026-10-20 03:04 UTC — [A] Builder run: redid #219 Women's Christmas O Holy Night crewneck (lettering only, faith design R3.14: O HOLY NIGHT / LUKE 2:11 in Playfair Black full width, same linocut art, FW 1650 TOP 75, dark file 1090121757 / light file 1090121774, 30/30 relinked, 5 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
