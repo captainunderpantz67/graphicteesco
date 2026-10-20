@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-20 07:17 UTC
 RUNNING lane C since 2026-10-20 07:00 UTC
 2026-10-20 07:13 UTC — [C] Builder run: redid #506 Men's Golf retired zip hoodie round 2 (director note: RETIRED. / BAD AT GOLF FULL-TIME., punch 2749/2734 px vs headline 2597 px, scene edge ragged-edge.py, Ash file 1090222550 + Navy file 1090222579, BW 1650 BT 225, 12/12 relinked, back mockups replaced, copy + SEO updated). REVIEW. fal $0.
 2026-10-20 06:47 UTC — [B] Run summary: REVIEW #280 #362 #404 #440 (punch width), #318 #396 #513 #519 (crew punch width), #455 (Lost My Gelt), #469 (Busy at a Good Part, embroidered), #697 (new Outdoorsy in Theory cropped hoodie). #485 was finished by a second lane B session. #498 left for director re-grade (R3.14). fal about $0.16. Lock released.
@@ -11,7 +12,6 @@ RUNNING lane C since 2026-10-20 06:30 UTC
 2026-10-20 06:50 UTC — [E] Builder run: redid #559 Women's Bear crewneck (line + type: BEAR WITH ME. I'M RESTING., new belly-up sleeping bear art, Navy + Sand files, 12/12 synced, copy updated, plain product shot). REVIEW. fal $0.04.
 2026-10-20 06:51 UTC — [C] Builder run: redid #621 Unisex Dachshund hoodie round 2 (director note: punch widened, headline 3192 px / punch 3215 px, Sand file 1090214855 + Navy file 1090214929, FW 1650 TOP 0, 12/12 relinked, 2 fronts replaced in place). REVIEW. fal $0.
 2026-10-20 06:51 UTC — [B] Builder run: redid #354 round 2 (BEST CATCH THIS YEAR: / A TREE., new line on the same bass, equal ink widths, Ash + Carolina Blue, 12/12 synced). REVIEW. fal $0.
-RUNNING director since 2026-10-20 06:16 UTC
 2026-10-20 06:30 UTC — [E] Builder run: redid #466 Unisex Embroidered hoodie (line + type: REPLAYING / WHAT I SAID / IN 2014., new stitched lettering, Sand navy thread + Navy white thread, 12/12 synced). REVIEW. fal $0.
 2026-10-20 06:41 UTC — [B] Builder run: redid #380 round 2 (RULES: UNKNOWN. / SNACKS: PACKED., punch widened to headline width, ink widths 3598/3598 px, Sand + Sport Grey, 12/12 synced). REVIEW. fal $0.
 2026-10-20 06:42 UTC — [C] Builder run: redid #489 Women's Funny hoodie (new line + type: I'M NOT MAD. / I'M STEEPING., Cinzel Black + Playfair Black, same teacup art, Sand file 1090209662 + Navy file 1090209701, FW 1500 TOP 0, 12/12 relinked, 2 fronts replaced in place, copy + SEO updated). REVIEW. fal $0.
