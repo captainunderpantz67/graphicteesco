@@ -276,7 +276,6 @@ export const allGuides: Guide[] = [
     description: 'Funny hoodies for teens with dry one-line jokes: I Have Plans, Mile One Was a Mistake and more. Pullovers $39.99 on sale, printed to order.',
     h1: 'Hoodies for Teens: Funny Designs They’ll Actually Wear',
     date: '2026-10-20',
-    draft: true,
     cluster: 'hoodies',
     answer: 'Graphic Tees Co. sells hoodies for teens with a dry one-line joke and original art on the front, like I Have Plans over a hermit crab or Mile One Was a Mistake over a 1970s jogger. Pullover hoodies are $39.99 in the holiday sale through November 30, 2026 ($44.99 regular), and each one is printed after you order it.',
     picks: [
@@ -292,8 +291,8 @@ export const allGuides: Guide[] = [
             text: 'MILE ONE WAS A MISTAKE. is set in heavy slab letters around a 1970s jogger in a sweatband and tube socks, looking back with pure regret at a plain mile marker. It suits a cross-country team or anyone who has ever started a run too fast. Unisex pullover, Sand and Navy.' },
           { slogan: 'The Neighbors Love Me', tee: 'mens-drummer-the-neighbors-love-me-hoodie',
             text: 'THE NEIGHBORS LOVE ME is the joke on a street of slammed windows around one loud garage. It is made for a drummer who practices in a cold garage. Pullover in Sand and Navy.' },
-          { slogan: 'Making Biscuits. Not taking questions.', tee: 'womens-cat-making-biscuits-hoodie',
-            text: 'MAKING BISCUITS. is printed in cream slab letters above a fluffy calico kneading a chunky knit blanket with her eyes squeezed shut, with not taking questions. underneath in pink script. Every cat person knows the kneading trance. It is listed as a women’s design on the same pullover, in Sand and Navy.' },
+          { slogan: 'Do Not Disturb. Biscuits in Progress.', tee: 'womens-cat-making-biscuits-hoodie',
+            text: 'DO NOT DISTURB. is printed in heavy cream slab letters above a fluffy calico kneading a chunky pink-and-blue knit blanket with her eyes squeezed shut, with BISCUITS IN PROGRESS. underneath in pink. Every cat person knows the kneading trance. It is listed as a women’s design on the same pullover, in Sand and Navy.' },
           { slogan: 'Sharing Is Not My Love Language', tee: 'unisex-anime-sharing-is-not-my-love-language-oversized-hoodie',
             text: 'SHARING IS NOT MY LOVE LANGUAGE sits under a round little samurai cat in full armor guarding a single dumpling in a steamer basket with chopsticks drawn like a sword. This one is the oversized heavyweight hoodie, which hangs boxy and loose, in Dust and Navy.' },
         ],

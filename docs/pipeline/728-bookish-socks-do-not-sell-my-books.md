@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: addon
 id: 728
@@ -23,3 +23,4 @@ kd: 17
 - 2026-10-20 15:00 UTC director: brief written, READY (lane B gift add-on of LIVE #481; bookish socks 2,400 / KD 17).
 - 2026-10-20 16:50 UTC [B] DRAFT created gid 15370179248432; files back 1090480029, rotated front 1090480044
 - 2026-10-20 16:30 UTC [B] built: DRAFT gid 15370179248432, Printful #882 sync 483429549, 3/3 S/M/L on file 1090480029 (back) + 1090480044 (180-degree front) (R7.7); art and lockup from #481's print (designs/a481/print.png, Printful file 1089882256), re-set as DO NOT SELL / MY BOOKS above the stack and AT MY / FUNERAL. below, Fraunces 900 burgundy on cream, every line at full leg width (FUNERAL. ≈ headline width), foot repeat; spec designs/s728/spec.json. Mockup upright on both views. Light file: n/a (single cream panel, dark ink). Cost 7.14, $18.99, profit ~11.85 (≥ $6). Cover: Printful #882 flat mockup front and back view (no person). kw bookish socks 2,400/KD 17 + book socks 2,400/KD 26 recorded. FAQ 47-58 words; links to #481 crewneck and #501 hoodie in Story. Audit --handle: only "not visible on storefront". Sheet docs/review/728.jpg. fal $0.
+- 2026-10-20 20:25 UTC director: REDO (stays ACTIVE, it was published outside a director run). 1. R12.1 socks: the lockup fills only the top half of the leg; the lower half is two tiny repeat book stacks, so the sock reads as filler from the shin down. Run the lockup from just under the cuff to about 1 in above the heel (stack DO NOT SELL / MY BOOKS / AT MY / FUNERAL. down the leg, books between). 2. R3.7.6 / R5.3.5: DO NOT SELL MY BOOKS is too small to read at phone size on the mockup; at least as tall as AT MY after the restack. New mockups, sheet, REVIEW.

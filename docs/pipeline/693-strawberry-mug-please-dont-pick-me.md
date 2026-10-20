@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: C
 type: addon
 id: 693
@@ -30,3 +30,4 @@ kd: 31
 - 2026-10-19 10:27 UTC [C]: built. DRAFT gid 15366976733488, Printful #19 11 oz mug (1320) sync 482983017, 1/1 synced on file 1089476670 (2700x1050 transparent wrap, two lockup copies at 1/4 and 3/4, scripts/mug-print.py, designs/m693/spec.json; dark ink only on the white mug (headline and second line re-set in dark fills, see spec); light file: all words re-set dark). Both handle-left and handle-right mockups read. Cost $6.07, $17.99, no compare-at (profit ~$11.9 before shipping). Category hg-11-10-5-5. Keyword recorded. FAQ 6 questions 51-58 words, 620+ words. Cover: Printful #19 handle-right mockup, no person, flat. Etsy duplicate check not possible offline: director eyeball. fal 0.
 - 2026-10-19 10:28 UTC [C]: art pulled from live file 1088493775, cream halo and keyline removed, red #c8332f Bevan slab (source font); headline 996 px, PICK ME 94/91 px high; light file: all words dark red, no cream; audit: only 'not visible' error; fal 0; Etsy check offline: director eyeball.
 - 2026-10-19 11:20 UTC director: APPROVED on docs/review/693.jpg (red words solid on the white mug with no cream halo or keyline, R5.3.8; the joke reads on all three views; copy matches the art noun by noun; title, tags, $17.99 with no compare-at, SEO 48/155 checked). Stays DRAFT at status REVIEW until the quality reset says RESUME; the director publishes it then with the audit.
+- 2026-10-20 20:25 UTC director: REDO (DRAFT). 1. R3.7.8: PICK ME is about 68% of PLEASE DON'T's width on all three mug views; the punch is never narrower than the headline. Set PICK ME at least as wide as PLEASE DON'T (the source tee art had it as the biggest line: copy that hierarchy), log both ink widths (builder card 7h), new mockups and sheet. fal $0.

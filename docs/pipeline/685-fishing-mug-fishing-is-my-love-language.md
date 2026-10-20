@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: addon
 id: 685
@@ -28,3 +28,4 @@ kd: 34
 - 2026-10-19 director: brief written, READY (gift add-on step 4, mugs; source design A grade). Nothing publishes before RESUME.
 - 2026-10-19 09:05 UTC [B]: built. DRAFT gid 15366724157744, Printful #19 11 oz mug (1320) sync 482970039, 1/1 synced on file 1089445262 (2700x1050 transparent wrap, two lockup copies at 1/4 and 3/4, scripts/mug-print.py, designs/m685/spec.json). Light file: source cream keylined words and cream art fills re-set for the white mug: headline forest green #2e3a1f, punchline #a8660a, cream art fills recolored sand #c9b076; Alfa Slab. Both handle-left and handle-right mockups read. Cost $6.07, $17.99, no compare-at (profit ~$11.9 before shipping). Category hg-11-10-5-5. Keyword recorded. FAQ 6 questions 54-60 words, 720+ words. Cover: Printful #19 handle-right mockup, no person, flat. Etsy duplicate check not possible offline: director eyeball. fal 0.
 - 2026-10-19 09:14 UTC director: APPROVED on docs/review/685.jpg (FISHING IS MY / LOVE LANGUAGE. full width in forest green, TALKING ISN'T. heavy golden brown, reads on both sides; bass in deck chair with sunglasses pushed up matches the copy. Title, tags, $17.99 with no compare-at, SEO title and meta lengths checked in Shopify). Stays DRAFT at status REVIEW until the quality reset says RESUME; the director publishes it then without a second review.
+- 2026-10-20 20:25 UTC director: LIVE. Re-read docs/review/685.jpg at today's punch-width bar (R3.7.8): TALKING ISN'T. as wide as FISHING IS MY and the heaviest line; side by side with 493 Calm Face and 483 Sisyphus: heavy lockup in art colors filling the mug's print width, so at least the bar. ACTIVE and published to Online Store, Headless, Google & YouTube. Audit --handle PASS (cover-alt WARN is a false positive on a product with no person).
