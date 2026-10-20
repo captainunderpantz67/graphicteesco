@@ -10464,6 +10464,25 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-bookish-do-not-sell-my-books-at-my-funeral-socks": {
+   "claimed": [
+    "bookish socks",
+    "book socks"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bookish socks",
+     "volume": 2400,
+     "kd": 17
+    },
+    {
+     "phrase": "book socks",
+     "volume": 2400,
+     "kd": 26
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

@@ -1,7 +1,5 @@
-RUNNING lane B since 2026-10-20 16:10 UTC
 2026-10-20 16:14 UTC — [A] Builder run: #634 tee gets the corrected We lied. print, 42/42 relinked. REVIEW. fal $0.
 2026-10-20 16:12 UTC — [A] Builder run: #645 We lied. punch at full width, 30/30 relinked. REVIEW. fal $0.
-RUNNING lane B since 2026-10-20 16:25 UTC
 2026-10-20 16:11 UTC — [E] Builder run: built #704 Women's Hiking Here for the View, Not the Incline cropped hoodie (new art, Storm only 5/5 synced because Peach is out of stock, flat-shot cover). REVIEW. fal $0.04. Lane E lock released; #722/#723 Frenchie hoodies still READY for the next lane E run.
 2026-10-20 15:52 UTC — [H] Helper run: Telegram inbox empty (getUpdates returned 0 updates; no pause, resume or TikTok links; nothing to consume). Audit 610 live products: 0 errors, 34 warnings left alone; committed docs/cohesion-audit.md and .json. Category check: 0 products without a Shopify category (query empty, no mutation). Site check: mens-welder-grinder-and-paint-department-hoodie, mens-electrician-its-probably-the-breaker-graphic-tee, mens-plumber-not-looking-at-your-sink-graphic-tee all 200. Stuck work: none (only BUILDING is #658, lane E claim 15:29; lane A lock 14:12 under 2h and lane A committed 15:50). Daily summary not due (sent at the 12:49 run). Lock released.
 2026-10-20 15:56 UTC — [A] Builder run: #726 Frenchie I'm Helping tee and #727 ornament built, DRAFT, REVIEW. fal $0.04.
@@ -1594,3 +1592,4 @@ for the record, but treat this one as current for these 3 products.
 
 2026-10-19 21:29 UTC — [C] Builder run: redid #501 Women's Do Not Sell My Books hoodie (type only, port of #481: Fraunces Black one-line headline 97% width + bold AT MY FUNERAL., same art, FW 1700 TOP 0, file 1089909739, 12/12 relinked, 2 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0. Lock released.
 2026-10-19 21:41 UTC — [B] Builder run: redid #414 Unisex Goat hoodie (C grade, new line: CLIMBED IT / FOR NO REASON., Rye + Anton, same art, FW 1500 TOP 0, file 1089917045, 12/12 resynced, 2 fronts replaced in place, title/SEO/copy updated, plain product shot). REVIEW. fal $0. Lock released.
+2026-10-20 16:32 UTC — [B] Builder run: #728 bookish Do Not Sell My Books at My Funeral socks built, DRAFT, REVIEW (gift add-on, fal $0). No cold-weather items READY for lane B; remaining READY lane B items #590–#603 are pre-reset tees needing the Etsy check, not started. Lock released.
