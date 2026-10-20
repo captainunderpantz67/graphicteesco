@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-20 05:13 UTC
 2026-10-20 04:46 UTC — [H] Helper run: Telegram inbox empty (getUpdates returned 0 updates; nothing to consume). Audit 607 live products: 0 errors, 31 warnings left alone (polish); committed docs/cohesion-audit.md. Category check: 0 products without a Shopify category. Site check: #548, #578, #618 all 200. Stuck-work check: nothing BUILDING over 3h (#257 and #258 claimed 04:07); lane A lock line from 02:28 is over 2h old but lane A committed at 04:06, so Telegram alert sent once (reply pending from Sam). Daily summary not due (before 12:00 UTC). Lock released.
 2026-10-20 05:06 UTC — [B] Builder run: redid #380 Women's Football Mom crewneck (line + type: RULES: UNKNOWN. / SNACKS: PACKED., new snack-pile art, Bevan, Sand + Sport Grey dark-ink file, 12/12 synced). REVIEW. fal $0.04.
 2026-10-20 04:57 UTC — [B] Builder run: redid #382 Women's Baseball Mom crewneck (line + type: HIS BATTING AVERAGE / IS MY PERSONALITY., new camp-chair art, Oswald, Sand + Ash dark-ink file, 12/12 synced). REVIEW. fal $0.04.
@@ -7,7 +8,6 @@ RUNNING helper since 2026-10-20 04:44 UTC
 2026-10-20 04:50 UTC — [B] Builder run: redid #318 Women's Christmas bow crewneck (line + type: DO NOT OPEN / UNTIL DEC. 26., same tartan bow art, Bowlby One, 4 light colors one dark-ink file, 24/24 synced). REVIEW. fal $0.
 2026-10-20 04:41 UTC — [B] Builder run: redid #396 Women's Western crewneck (line + type: PINKIES UP, / SPURS ON., same teacup art, Rye, Navy + Sand light files, 12/12 synced). REVIEW. fal $0.
 2026-10-20 04:45 UTC — [E] Builder run: redid #514 Unisex Pitbull crewneck (line + type: DANGEROUS ONLY TO YOUR SNACKS., new belly-up pit bull art, dark-ink file on Sand + Sport Grey, 12/12 synced, copy updated, plain product shot). REVIEW. fal $0.04.
-RUNNING director since 2026-10-20 04:12 UTC
 2026-10-20 04:34 UTC — [B] Builder run: redid #519 Women's Knitting crewneck (line + type: ONE MORE ROW / FAMOUS LAST WORDS., new armchair art, Bowlby One, Sand + Light Pink dark-ink file, 12/12 synced). REVIEW. fal $0.04.
 2026-10-20 04:22 UTC — [B] Builder run: redid #513 Women's Dachshund crewneck (line + type: SEE YOU / IN APRIL., new quilt-dachshund art, Big Shoulders, Sand + Sport Grey dark-ink file, 12/12 synced). REVIEW. fal $0.04.
 2026-10-20 04:40 UTC — [E] Builder run: redid #499 Unisex Christian tee (line + type: HOLY GHOST, FRIENDLY EDITION., new halo-ghost art, one cream-and-gold file on 6 dark colors, 42/42 synced, copy updated, plain product shot). REVIEW. fal $0.04.
