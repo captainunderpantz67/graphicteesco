@@ -13,7 +13,7 @@ kd: 34
 - **Five lines considered (R3.13, compared with "Main Character, Background Energy", "Oops. Anyway.", "Politely, No."):** Cooks for 200. Cereal at Home. · Behind You. Always. · Heard. Ignoring It. · Hot Pan, Cold Coffee. · Family Meal Was Chips. Kept the first: the cook's contrast every kitchen worker laughs at, and the cereal bowl carries it with no backstory. No TV-show catchphrases ("Yes, Chef") (R3.7.4).
 - **Hook:** line cooks, chefs, servers and culinary students, any gender; the walk-in, the late shift, the gift from a partner who eats cereal with them at midnight. Unisex.
 - **Why it's not taken:** chef hoodies on Etsy are mostly knife logos and "chef life" stacks; the cereal contrast is uncommon.
-- **Primary keyword:** chef hoodie: 140 / KD 34 (RankHero via scripts/keyword-gap.py, 2026-10-21 00:00 UTC, director). KD 21–35 band; unowned.
+- **Primary keyword:** chef hoodie: 140 / KD 34 (RankHero via scripts/keyword-gap.py, 2026-10-20 23:28 UTC, director). KD 21–35 band; unowned.
 - **Title / handle:** "Unisex Chef – Cooks for 200. Cereal at Home. Hoodie" / `unisex-chef-cooks-for-200-cereal-at-home-hoodie`.
 - **Tags:** graphic-hoodies-for-men, graphic-hoodies-for-women, hoodie, chef, ai-art, intake-done.
 - **R5.2 proof gate:** RankHero keyword pages no longer show the listing grid (R5.2, 2026-10-19), so no favorites number is on file. Before spending fal, log one same-format listing on this theme with 500+ favorites (favorites, not views; RankHero or Etsy search). None found = PARKED.
@@ -23,4 +23,4 @@ kd: 34
 - **Before REVIEW:** variant files verified on Printful and logged (R7.7, "N/N on <file id>"); every word read at phone size on Sand AND Navy (R5.3.8); 7h ink widths, 7k type share, 7l subject share (45%+) logged; review sheet via scripts/review-sheet.py; `node scripts/cohesion-audit.mjs --handle <handle>` passes except "not active".
 ---
 ## Log
-- 2026-10-21 00:05 UTC director: brief written, READY (lane C hoodies cluster; primary measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).
+- 2026-10-20 23:28 UTC director: brief written, READY (lane C hoodies cluster; primary measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).

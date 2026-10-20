@@ -13,7 +13,7 @@ kd: 46
 - **Five lines considered (R3.13, compared with "Plot Twist: I Stayed In", "Oops. Anyway.", "Main Character, Background Energy"):** Five More Minutes. (It's 3 A.M.) · I Paused My Game to Be Here. · Respawning. Do Not Disturb. · Side Quest: Sleep. · AFK. Emotionally. Kept the first: every gamer's lie, and the 3 o'clock clock proves it in 3 seconds. "I Paused My Game to Be Here" is on far too many listings (R3.7.2); "Side Quest" is close to #404's Main Quest Postponed.
 - **Hook:** gamers of any gender, teens and adults; late nights, the couch, the Christmas gift from a parent or partner. Unisex.
 - **Why it's not taken:** gamer hoodies on Etsy are mostly controller icons and "gamer" text; an illustrated late-night scene with a deadpan line is uncommon.
-- **Primary keyword:** gamer hoodie: 2,900 / KD 46 (competition 44,245) (RankHero via scripts/keyword-gap.py, 2026-10-21 00:00 UTC, director). Names the garment (R2.11); unowned (map, pipeline primaries, collections.ts). Supporting once in copy: hoodies for teens is owned by the guide, so link it, never claim it.
+- **Primary keyword:** gamer hoodie: 2,900 / KD 46 (competition 44,245) (RankHero via scripts/keyword-gap.py, 2026-10-20 23:28 UTC, director). Names the garment (R2.11); unowned (map, pipeline primaries, collections.ts). Supporting once in copy: hoodies for teens is owned by the guide, so link it, never claim it.
 - **Title / handle:** "Unisex Gamer – Five More Minutes. (It's 3 A.M.) Hoodie" / `unisex-gamer-five-more-minutes-its-3-am-hoodie`.
 - **Tags:** graphic-hoodies-for-men, graphic-hoodies-for-women, hoodie, gamer, ai-art, intake-done.
 - **R5.2 proof gate:** RankHero keyword pages no longer show the listing grid (R5.2, 2026-10-19), so no favorites number is on file. Before spending fal, log one same-format listing on this theme with 500+ favorites (favorites, not views; RankHero or Etsy search). None found = PARKED.
@@ -23,4 +23,4 @@ kd: 46
 - **Before REVIEW:** variant files verified on Printful and logged (R7.7, "N/N on <file id>"); every word read at phone size on Sand AND Navy (R5.3.8); 7h ink widths, 7k type share, 7l subject share (45%+) logged; review sheet via scripts/review-sheet.py; `node scripts/cohesion-audit.mjs --handle <handle>` passes except "not active".
 ---
 ## Log
-- 2026-10-21 00:20 UTC director: brief written, READY (lane C hoodies cluster; gamer hoodie measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).
+- 2026-10-20 23:29 UTC director: brief written, READY (lane C hoodies cluster; gamer hoodie measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).

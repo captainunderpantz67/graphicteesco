@@ -13,7 +13,7 @@ kd: 34
 - **Five lines considered (R3.13, compared with "Not Cheating. Improving My Lie.", "My Backhand Has Opinions", "Oops. Anyway."):** Parked It. In a Tree. · Tree Magnet. · Throws Far. Finds Never. · Ace Pending. · I Throw Frisbees at Trees. Kept the first: "parked" is disc golf slang for landing right by the basket, so players get the double meaning and an outsider still sees the disc stuck in the tree in 3 seconds (R3.12).
 - **Hook:** disc golfers and their partners; league night, the cold Saturday round, the gift for the guy who keeps buying discs. Men's, dry (R3.4).
 - **Why it's not taken:** disc golf hoodies are mostly basket logos and "disc golf dad" stacks; no line of ours uses "parked".
-- **Primary keyword:** disc golf hoodie: 210 / KD 34 (competition 508) (RankHero via scripts/keyword-gap.py, 2026-10-21 00:00 UTC, director). KD 21–35 band; unowned.
+- **Primary keyword:** disc golf hoodie: 210 / KD 34 (competition 508) (RankHero via scripts/keyword-gap.py, 2026-10-20 23:28 UTC, director). KD 21–35 band; unowned.
 - **Title / handle:** "Men's Disc Golf – Parked It. In a Tree. Hoodie" / `mens-disc-golf-parked-it-in-a-tree-hoodie`.
 - **Tags:** graphic-hoodies-for-men, hoodie, disc-golf, ai-art, intake-done.
 - **R5.2 proof gate:** RankHero keyword pages no longer show the listing grid (R5.2, 2026-10-19), so no favorites number is on file. Before spending fal, log one same-format listing on this theme with 500+ favorites (favorites, not views; RankHero or Etsy search). None found = PARKED.
@@ -23,4 +23,4 @@ kd: 34
 - **Before REVIEW:** variant files verified on Printful and logged (R7.7, "N/N on <file id>"); every word read at phone size on Sand AND Navy (R5.3.8); 7h ink widths, 7k type share, 7l subject share (45%+) logged; review sheet via scripts/review-sheet.py; `node scripts/cohesion-audit.mjs --handle <handle>` passes except "not active".
 ---
 ## Log
-- 2026-10-21 00:05 UTC director: brief written, READY (lane C hoodies cluster; primary measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).
+- 2026-10-20 23:28 UTC director: brief written, READY (lane C hoodies cluster; primary measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).

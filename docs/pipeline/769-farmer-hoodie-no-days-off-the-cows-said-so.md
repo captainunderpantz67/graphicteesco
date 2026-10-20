@@ -13,7 +13,7 @@ kd: 36
 - **Five lines considered (R3.13, compared with "Not Cheating. Improving My Lie.", "Short Legs, Long Opinions", "Sorry About Your Windshield."):** No Days Off. The Cows Said So. · Early to Bed. Still Behind. · Outstanding in My Field. · Mud Is a Season. · I Talk to Cows. They Listen. Kept the first: dairy farmers' real life said deadpan, and the cow staring from the barn proves it. "Outstanding in My Field" is on far too many listings (R3.7.2).
 - **Hook:** farmers, ranch hands and farm families; chores at 5 a.m., the feed store, the Christmas gift from the kids. Men's, dry (R3.4).
 - **Why it's not taken:** farmer hoodies are mostly tractor silhouettes and "farm life" text; the cow-boss joke is uncommon.
-- **Primary keyword:** farmer hoodie: 880 / KD 36 (competition 4,439) (RankHero via scripts/keyword-gap.py, 2026-10-21 00:00 UTC, director). Names the garment; unowned.
+- **Primary keyword:** farmer hoodie: 880 / KD 36 (competition 4,439) (RankHero via scripts/keyword-gap.py, 2026-10-20 23:28 UTC, director). Names the garment; unowned.
 - **Title / handle:** "Men's Farmer – No Days Off. The Cows Said So. Hoodie" / `mens-farmer-no-days-off-the-cows-said-so-hoodie`.
 - **Tags:** graphic-hoodies-for-men, hoodie, farmer, ai-art, intake-done.
 - **R5.2 proof gate:** RankHero keyword pages no longer show the listing grid (R5.2, 2026-10-19), so no favorites number is on file. Before spending fal, log one same-format listing on this theme with 500+ favorites (favorites, not views; RankHero or Etsy search). None found = PARKED.
@@ -23,4 +23,4 @@ kd: 36
 - **Before REVIEW:** variant files verified on Printful and logged (R7.7, "N/N on <file id>"); every word read at phone size on Sand AND Navy (R5.3.8); 7h ink widths, 7k type share, 7l subject share (45%+) logged; review sheet via scripts/review-sheet.py; `node scripts/cohesion-audit.mjs --handle <handle>` passes except "not active".
 ---
 ## Log
-- 2026-10-21 00:05 UTC director: brief written, READY (lane C hoodies cluster; primary measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).
+- 2026-10-20 23:28 UTC director: brief written, READY (lane C hoodies cluster; primary measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).

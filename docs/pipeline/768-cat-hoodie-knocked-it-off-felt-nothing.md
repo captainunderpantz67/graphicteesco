@@ -13,7 +13,7 @@ kd: 42
 - **Five lines considered (R3.13, compared with "Oops. Anyway.", "Politely, No.", "Wildly Low Maintenance"):** Knocked It Off. Felt Nothing. · No Regrets. Mostly Mugs. · Gravity Check Complete. · It Was in My Way. · Not Sorry. Still Cute. Kept the first: every cat owner has watched this, the cat's flat stare proves it in 3 seconds, and the deadpan matches "Oops. Anyway."
 - **Hook:** cat people of any gender; the couch, the work-from-home call, the gift from a friend whose mug did not survive. Unisex.
 - **Why it's not taken:** cat hoodies on Etsy are mostly cat faces, black cats and "cat mom" text; the knocking-things-off joke usually appears as a plain text tee, rarely with illustrated art.
-- **Primary keyword:** cat hoodie: 14,800 / KD 42 (competition 47,351) (RankHero via scripts/keyword-gap.py, 2026-10-21 00:00 UTC, director). KD 36+ over 1,000 a month (R2.5 'the rest' band); names the garment; unowned.
+- **Primary keyword:** cat hoodie: 14,800 / KD 42 (competition 47,351) (RankHero via scripts/keyword-gap.py, 2026-10-20 23:28 UTC, director). KD 36+ over 1,000 a month (R2.5 'the rest' band); names the garment; unowned.
 - **Title / handle:** "Unisex Cat – Knocked It Off. Felt Nothing. Hoodie" / `unisex-cat-knocked-it-off-felt-nothing-hoodie`.
 - **Tags:** graphic-hoodies-for-men, graphic-hoodies-for-women, hoodie, cat, ai-art, intake-done.
 - **R5.2 proof gate:** RankHero keyword pages no longer show the listing grid (R5.2, 2026-10-19), so no favorites number is on file. Before spending fal, log one same-format listing on this theme with 500+ favorites (favorites, not views; RankHero or Etsy search). None found = PARKED.
@@ -23,4 +23,4 @@ kd: 42
 - **Before REVIEW:** variant files verified on Printful and logged (R7.7, "N/N on <file id>"); every word read at phone size on Sand AND Navy (R5.3.8); 7h ink widths, 7k type share, 7l subject share (45%+) logged; review sheet via scripts/review-sheet.py; `node scripts/cohesion-audit.mjs --handle <handle>` passes except "not active".
 ---
 ## Log
-- 2026-10-21 00:05 UTC director: brief written, READY (lane C hoodies cluster; primary measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).
+- 2026-10-20 23:28 UTC director: brief written, READY (lane C hoodies cluster; primary measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).
