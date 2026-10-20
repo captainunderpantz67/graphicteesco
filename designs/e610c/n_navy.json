@@ -1,0 +1,3 @@
+{"art":"designs/e610c/art.png","out":"designs/e610c/n_print_navy.png","art_w":0.8,"knock":3000,"halo":10,
+ "top":{"text":"PLAYS NICE.","font":"AlfaSlabOne-Regular.ttf","stroke":0,"w":1.0,"fill":"#f3e7cf"},
+ "bottom":{"text":"KEEPS SCORE.","font":"AlfaSlabOne-Regular.ttf","stroke":0,"w":1.0,"fill":"#ee6a5a","ref":"W"},"overlap":0.0,"gap":30}
