@@ -36,15 +36,18 @@ A = group(spec['above'], spec.get('eq_above'))
 B = group(spec['below'], spec.get('eq_below'))
 T = sum(i.height for i in A + B)
 ngaps = len(A) + len(B)  # gaps between all blocks
-H = int(T / share)
-ah = H - T - gap * ngaps
-aw = int(ah * a.width / a.height)
-if aw > W:
-    aw = W; ah = int(aw * a.height / a.width); H = T + ah + gap * ngaps
+if 'subject' in spec:  # card 7l: subject at least this share of the lockup width, lockup grows taller
+    aw = int(spec['subject'] * W); ah = int(aw * a.height / a.width); H = T + ah + gap * ngaps
+else:
+    H = int(T / share)
+    ah = H - T - gap * ngaps
+    aw = int(ah * a.width / a.height)
+    if aw > W:
+        aw = W; ah = int(aw * a.height / a.width); H = T + ah + gap * ngaps
 a2 = a.resize((aw, ah), Image.LANCZOS)
 o = Image.new('RGBA', (W, H), (0, 0, 0, 0)); y = 0
 for im in A: o.alpha_composite(im, ((W - im.width) // 2, y)); y += im.height + gap
 o.alpha_composite(a2, ((W - aw) // 2, y)); y += ah + gap
 for im in B: o.alpha_composite(im, ((W - im.width) // 2, y)); y += im.height + gap
 o = o.crop(o.getbbox()); o.save(out)
-print(out, o.size, 'above', [i.width for i in A], 'below', [i.width for i in B], 'art', a2.size, 'type %d of %d px (%.0f%%)' % (T, o.height, 100 * T / o.height))
+print(out, o.size, 'above', [i.width for i in A], 'below', [i.width for i in B], 'art', a2.size, 'type %d of %d px (%.0f%%)' % (T, o.height, 100 * T / o.height), 'subject %d of %d px (%.0f%%)' % (a2.width, o.width, 100 * a2.width / o.width))
