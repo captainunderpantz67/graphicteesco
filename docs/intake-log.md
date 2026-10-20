@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-20 06:16 UTC
 RUNNING helper since 2026-10-20 05:44 UTC
 2026-10-20 06:11 UTC — [A] Builder run: redid #332 Women's NYE Resolutions Pending tee (line+type: NEW YEAR, NEW ME. / STARTING JAN 2., same disco ball art, Bevan full width, file 1090193042, 30/30 relinked, 5 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 RUNNING lane B since 2026-10-20 05:30 UTC
