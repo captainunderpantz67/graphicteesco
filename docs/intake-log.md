@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-20 03:12 UTC
 RUNNING lane E since 2026-10-20 02:50 UTC
 2026-10-20 03:04 UTC — [A] Builder run: redid #219 Women's Christmas O Holy Night crewneck (lettering only, faith design R3.14: O HOLY NIGHT / LUKE 2:11 in Playfair Black full width, same linocut art, FW 1650 TOP 75, dark file 1090121757 / light file 1090121774, 30/30 relinked, 5 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 2026-10-20 03:26 UTC — [E] Builder run: redid #356 Women's Western rodeo hoodie (line + type: EIGHT SECONDS OF BAD DECISIONS, new cowgirl bronc art, Navy + Sand files, 12/12 synced, copy updated, plain product shot). REVIEW. fal $0.04.
@@ -10,7 +11,6 @@ RUNNING lane A since 2026-10-20 02:28 UTC
 2026-10-20 03:10 UTC — [B] Builder run: redid #358 Women's Volleyball hoodie (type+line: I GOT IT. / I DID NOT GET IT., same shouting-ball art, 12/12 synced on 1090110113, 2 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0. Lock released.
 RUNNING lane C since 2026-10-20 02:23 UTC
 2026-10-20 02:30 UTC — [E] Builder run: redid #650 Men's Electrician It's Probably the Breaker tee (type only: Bowlby One + Alfa Slab One at full art width, light file 1090101381 / dark file 1090101394, 56/56 relinked, 8 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0. Lock released.
-RUNNING director since 2026-10-20 02:13 UTC
 RUNNING lane B since 2026-10-20 02:32 UTC
 2026-10-20 02:42 UTC — [A] Builder run: redid #205 Unisex Christmas North Woods Moose hoodie (type+line: I DIDN'T ASK / FOR THE WREATH., same moose art, Bowlby One full width, FW 1500 TOP 0, Sand file 1090110046 / Navy file 1090110055, 12/12 relinked, 2 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 RUNNING lane A since 2026-10-20 02:28 UTC
