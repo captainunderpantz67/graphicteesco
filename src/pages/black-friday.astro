@@ -1,0 +1,108 @@
+---
+// Black Friday deals page (director 2026-10-20, Sam's build order in docs/backlog/black-friday-bundles.md).
+// Primary: "black friday graphic tee deals"; supporting once each: black friday hoodie deals, black friday gift deals.
+// RankHero 2026-10-20: black friday deals Oct 450K → Nov 7.48M (KD 18). Evergreen URL: update the year and dates each fall.
+// Never state a % off until Sam's Black Friday discount exists in Shopify.
+import Base from '../layouts/Base.astro';
+import ProductCard from '../components/ProductCard.astro';
+import { faqPage, breadcrumbs, itemListOfProducts } from '../lib/schema';
+import { getAllProducts, shopifyConnected } from '../lib/shopify';
+import { linkableSlugs, hoodiesHubLive } from '../lib/linkable';
+
+// Doorbusters: A-grade designs only (quality reset). A pick that isn't live is dropped at build.
+// Add #281 In It for the Doorbusters (womens-black-friday-in-it-for-the-doorbusters-graphic-tee) once its redo is LIVE.
+const doorbusters = [
+  'unisex-nurse-calm-face-loud-brain-crewneck-sweatshirt',
+  'mens-gym-sisyphus-had-bad-programming-graphic-tee',
+  'mens-hunting-todays-special-tag-soup-hoodie',
+  'mens-christmas-white-elephant-champion-graphic-tee',
+  'womens-cat-making-biscuits-hoodie',
+  'womens-christmas-nanas-cookies-graphic-tee',
+  'mens-cat-dad-cant-cats-on-me-graphic-tee',
+  'unisex-national-park-switchbacks-build-character-heavyweight-hoodie',
+];
+const all = shopifyConnected ? await getAllProducts() : [];
+const byHandle = new Map(all.filter((p) => !p.sample).map((p) => [p.handle, p]));
+const picks = doorbusters.map((h) => byHandle.get(h)).filter((p) => p !== undefined);
+const live = await linkableSlugs();
+
+const path = '/black-friday/';
+const title = 'Black Friday Graphic Tee & Hoodie Deals 2026';
+const description = 'Black Friday graphic tee deals at Graphic Tees Co., Nov 26–30, 2026: funny tees from $24.99, hoodies from $39.99, free US shipping on $45+.';
+const faqs = [
+  { q: 'When do the Graphic Tees Co. Black Friday deals start?', a: 'The Graphic Tees Co. Black Friday deals go live on Thanksgiving night, Thursday, November 26, 2026, and run through Cyber Monday, November 30. The holiday prices on this page (tees $24.99, crewnecks $34.99, hoodies from $39.99) apply right now, so you do not have to wait to order.' },
+  { q: 'What is on sale for Black Friday?', a: 'Every original graphic tee, crewneck sweatshirt and hoodie in the Graphic Tees Co. shop. Today tees are $24.99, crewnecks $34.99 and hoodies $39.99 to $54.99 depending on the blank. The Black Friday offer itself is posted on this page Thanksgiving night, November 26, 2026.' },
+  { q: 'Does the 15% crew order discount work during Black Friday?', a: 'Yes, the crew discount applies automatically at checkout to any Graphic Tees Co. order of 10 or more items, today and through the holidays. Whether it combines with the Black Friday offer will be stated on this page when the deals go live on Thanksgiving night, November 26.' },
+  { q: 'How long does shipping take on Black Friday orders?', a: 'Every Graphic Tees Co. piece is printed after you order it, then shipped by tracked US mail, so allow time for printing plus delivery. Orders over $45 ship free in the US. For Christmas gifts, order Black Friday weekend or early December; we post the exact cutoff here by December 1.' },
+  { q: 'Can I exchange a Black Friday gift if the size is wrong?', a: 'Yes. Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size for free, and you do not have to mail the first one back. Misprinted or damaged orders are reprinted or refunded within 30 days, Black Friday orders included.' },
+];
+const schema = [
+  faqPage(faqs),
+  breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Black Friday Deals', path }]),
+  ...(picks.length ? [itemListOfProducts('Black Friday doorbusters', picks.map((p) => ({ name: p.title, handle: p.handle })))] : []),
+];
+const link = 'font-semibold underline decoration-[var(--color-rust)] underline-offset-4';
+---
+<Base title={title} description={description} schema={schema}>
+  <article class="container-x pt-10 prose-copy">
+    <div class="max-w-3xl">
+      <p class="eyebrow">Black Friday 2026 · Nov 26–30</p>
+      <h1 class="display text-5xl md:text-6xl mt-2">Black Friday Deals on Funny Graphic Tees &amp; Hoodies</h1>
+      <p class="!text-lg !text-[var(--color-ink)] mt-4 border-l-4 border-[var(--color-rust)] pl-4">
+        Our Black Friday graphic tee deals go live Thanksgiving night, Thursday, November 26, and run through Cyber Monday, November 30, 2026. Every design is original, printed to order and funny on purpose. Holiday prices are on now: tees $24.99, crewnecks $34.99, hoodies from $39.99, and US shipping is free on orders of $45 or more.
+      </p>
+
+      <h2>When are the deals?</h2>
+      <ul class="list-disc pl-5 grid gap-1 mt-3">
+        <li><strong>Thanksgiving night, Thu Nov 26:</strong> Black Friday deals go live on this page.</li>
+        <li><strong>Black Friday, Fri Nov 27</strong> through the weekend.</li>
+        <li><strong>Cyber Monday, Mon Nov 30:</strong> last day of the deals.</li>
+        <li><strong>Christmas:</strong> order Black Friday weekend or early December; the exact cutoff goes up here by December 1.</li>
+      </ul>
+    </div>
+
+    {picks.length > 0 && (
+      <section class="mt-12">
+        <h2 class="max-w-3xl">Doorbusters: the shirts people stop you about</h2>
+        <p class="max-w-3xl">Our favorite designs from this fall's redesign, each one a joke a stranger gets in three seconds.</p>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+          {picks.map((p, i) => <ProductCard product={p} eager={i < 2} />)}
+        </div>
+      </section>
+    )}
+
+    <div class="max-w-3xl">
+      <h2>Black Friday hoodie deals</h2>
+      <p>Hoodies come on five blanks, each priced for what it is: pullover $39.99, zip-up $44.99, cropped $44.99, heavyweight $49.99 and oversized $54.99. Most designs come as a tee, a crewneck and a hoodie, so you can pick the weight that fits who you are buying for.</p>
+      {hoodiesHubLive() && <p class="flex flex-wrap gap-x-4"><a href="/hoodies/" class={link}>Shop all graphic hoodies →</a></p>}
+
+      <h2>Black Friday gift deals and gift guides</h2>
+      <p>Shopping for someone else? These guides pick the designs that get a laugh when the box is opened and get worn after.</p>
+      <p class="flex flex-wrap gap-x-4">
+        <a href="/guides/funny-golf-gifts/" class={link}>Funny golf gifts →</a>
+        <a href="/guides/white-elephant-gifts/" class={link}>White elephant gifts →</a>
+      </p>
+
+      <h2>Crew orders: 15% off 10 or more</h2>
+      <p>Family photo, friend group or office party? Any order of 10 or more items takes 15% off automatically at checkout.</p>
+      {live.has('group-shirts') && <p><a href="/group-shirts/" class={link}>Shop group and family shirts →</a></p>}
+
+      <h2>Free US shipping on $45+</h2>
+      <p>Orders of $45 or more ship free in the US, which is two tees, or a tee and a crewneck. Every piece is printed after you order it, so allow time for printing plus delivery.</p>
+
+      <h2>Wrong size? One free exchange</h2>
+      <p>Within 30 days of delivery we send one replacement in a new size for free, and you keep the first one. That makes a shirt a safe gift even when you are guessing the size.</p>
+
+      <section class="mt-12 border-t border-[var(--color-line)] pt-6">
+        <p class="eyebrow">FAQ</p>
+        {faqs.map((f) => (
+          <>
+            <h2 class="!text-xl !normal-case !mt-6">{f.q}</h2>
+            <p class="!mt-2">{f.a}</p>
+          </>
+        ))}
+      </section>
+      <p class="mt-10"><a href="/" class="btn">Shop original graphic tees</a></p>
+    </div>
+  </article>
+</Base>
