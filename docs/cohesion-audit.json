@@ -1,6 +1,6 @@
 {
- "at": "2026-10-20T04:46:12.733Z",
- "products": 607,
+ "at": "2026-10-20T05:44:30.039Z",
+ "products": 608,
  "findings": [
   {
    "level": "WARN",
@@ -96,14 +96,14 @@
   {
    "level": "WARN",
    "handle": "womens-black-friday-in-it-for-the-doorbusters-graphic-tee",
-   "title": "Women's Black Friday – In It for the Doorbusters Tee",
+   "title": "Women's Black Friday – I'm Not Shopping. I'm Competing. Tee",
    "msg": "Non-holiday design (black friday) listed in \"Thanksgiving Tees\".",
    "fix": "Only keep it there if the art is genuinely for that holiday."
   },
   {
    "level": "WARN",
    "handle": "womens-black-friday-in-it-for-the-doorbusters-graphic-tee",
-   "title": "Women's Black Friday – In It for the Doorbusters Tee",
+   "title": "Women's Black Friday – I'm Not Shopping. I'm Competing. Tee",
    "msg": "Non-holiday design (black friday) listed in \"Funny Thanksgiving Shirts\".",
    "fix": "Only keep it there if the art is genuinely for that holiday."
   },
@@ -204,13 +204,6 @@
    "title": "Unisex Pitbull – The Belly Is Open Hoodie",
    "msg": "No SEO title.",
    "fix": "Write one ≤ 60 chars with the primary keyword."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-volleyball-mom-seven-am-check-in-graphic-tee",
-   "title": "Women's Volleyball Mom – 7 A.M. Check-In Tee",
-   "msg": "No meta description.",
-   "fix": "Write one ≤ 155 chars."
   },
   {
    "level": "WARN",

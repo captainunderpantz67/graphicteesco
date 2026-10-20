@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-20 04:46 UTC
+# Cohesion audit — 2026-10-20 05:44 UTC
 
-607 live products checked · **0 errors** · 31 warnings · 29 products with findings
+608 live products checked · **0 errors** · 30 warnings · 28 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -44,7 +44,7 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
 - **WARN** "turkey hoodie" appears 6× in the copy (keyword stuffing). → Use it once or twice, naturally.
 
-### Women's Black Friday – In It for the Doorbusters Tee `womens-black-friday-in-it-for-the-doorbusters-graphic-tee`
+### Women's Black Friday – I'm Not Shopping. I'm Competing. Tee `womens-black-friday-in-it-for-the-doorbusters-graphic-tee`
 - **WARN** Non-holiday design (black friday) listed in "Thanksgiving Tees". → Only keep it there if the art is genuinely for that holiday.
 - **WARN** Non-holiday design (black friday) listed in "Funny Thanksgiving Shirts". → Only keep it there if the art is genuinely for that holiday.
 
@@ -89,9 +89,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Unisex Pitbull – The Belly Is Open Hoodie `unisex-pitbull-velvet-hippo-social-club-hoodie`
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
-
-### Women's Volleyball Mom – 7 A.M. Check-In Tee `womens-volleyball-mom-seven-am-check-in-graphic-tee`
-- **WARN** No meta description. → Write one ≤ 155 chars.
 
 ### Women's Gigi – Because Grandma Sounded Old Hoodie `womens-gigi-because-grandma-sounded-old-hoodie`
 - **WARN** "gigi hoodie" appears 4× in the copy (keyword stuffing). → Use it once or twice, naturally.
