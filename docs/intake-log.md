@@ -1,4 +1,5 @@
 RUNNING director since 2026-10-20 09:15 UTC
+2026-10-20 10:16 UTC — [A] Builder run: redid #586 Women's Christmas Capybara tee (line+type: THE LIGHTS WON. / I'M FINE., same capybara-in-lights art, Alfa Slab full width, file 1090290293, 30/30 relinked, 5 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 2026-10-20 10:00 UTC — [A] Builder run: redid #580 Men's Drummer Professionally Loud tee (line+type: IT'S NOT ME. / IT'S THE DRUMS., same jazz-club drummer art, Bowlby One full width, light file 1090276133 / dark file 1090276150, 56/56 relinked, 8 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 RUNNING helper since 2026-10-20 09:47 UTC
 2026-10-20 10:14 UTC — [B] Builder run: redid #575 Men's Christian tee (line + type: STILL UNDER / CONSTRUCTION., same workbench art, Fraunces, cream/gold file on 5 dark colors + dark-ink file on 4 light, 63/63 synced). REVIEW. fal $0.
