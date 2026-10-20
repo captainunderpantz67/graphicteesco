@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-20 11:18 UTC
 RUNNING lane C since 2026-10-20 11:05 UTC
 2026-10-20 11:50 UTC — [C] Builder run: redid #507 My Type Geothermally Active hoodie round 4 (forest band removed, MY TYPE? widened). REVIEW. fal $0.
 RUNNING lane E since 2026-10-20 10:50 UTC
@@ -9,10 +10,8 @@ RUNNING helper since 2026-10-20 10:44 UTC
 2026-10-20 10:48 UTC — [A] Builder run: redid #408 Unisex Shark oversized hoodie again (headline above, punch below, type 41% of the print, new title). REVIEW. fal $0.
 2026-10-20 10:40 UTC — [A] Builder run: redid #616 Men's Christmas Drew Your Name. Panicked. tee (copy only per director 2026-10-19: primary re-targeted to office christmas shirts 90/KD40, SEO title and meta, line one, R8.3 aside cut, keyword map updated; art, file and cover untouched). REVIEW, stays DRAFT. fal $0.
 2026-10-20 11:13 UTC — [B] Builder run: redid #545 Women's Gym tee and #575 Men's Christian tee after director round 2 (545: NOT INTERESTED. in heavy slab at the headline's width, type 43.6% of print; 575: PHILIPPIANS 1:6 third line). Both REVIEW, synced. fal $0.
-RUNNING director since 2026-10-20 10:28 UTC
 2026-10-20 10:38 UTC — [B] Builder run: redid #482 Women's Football Mom tee (type only: PROMISED TO BEHAVE / DIDN'T SAY FOR HOW LONG., Graduate stacked, same halo-football art, 24/24 synced). REVIEW. fal $0.
 2026-10-20 10:27 UTC — [C] Run summary: 43 lane C redo items to REVIEW this run (#635 554 552 561 323 495 503 622 637 448 563 620 436 621 506 341 415 489 334 465 442 509 450 368 397 405 398 508 364 371 516 526 524 528 571 626 607 346 553 468 572 636, plus round-2 fixes on #448 #495 #621 #436 #506 #341 #397 #509 #507 after director notes). 17 line redos retitled (card 7i), punch widths logged (card 7h), every variant relinked and verified on the Printful API before REVIEW. Not built: #457/#458 Hanukkah (R3.15), #604 (waits on source #543, still REDO in lane B). 12 READY items left untouched (R5.2 favorites proof not fetchable here, same as lanes B/E). fal $0, no secrets committed. Lock released.
-RUNNING director since 2026-10-20 09:15 UTC
 2026-10-20 10:39 UTC — [A] Builder run: redid #588 Unisex Christmas Raccoon tee (line+type: SANTA'S LATE. / I STARTED WITHOUT HIM., same raccoon art, Alfa Slab full width, light file 1090296290 / dark file 1090296299, 56/56 relinked, 8 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 2026-10-20 10:16 UTC — [A] Builder run: redid #586 Women's Christmas Capybara tee (line+type: THE LIGHTS WON. / I'M FINE., same capybara-in-lights art, Alfa Slab full width, file 1090290293, 30/30 relinked, 5 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 2026-10-20 10:29 UTC — [B] Builder run: redid #573 Women's Fishing tee (type only: OUT-FISHED HIM. / AGAIN. in Bevan, punch at full headline width, same dock art, 36/36 synced). REVIEW. fal $0.
