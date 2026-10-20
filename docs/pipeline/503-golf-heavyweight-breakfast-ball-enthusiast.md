@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 503
@@ -38,3 +38,4 @@ kd: 16
 - 2026-10-20 04:22 UTC builder [C]: REDO new line + type (grade C). 5 candidates: "MY SWING IS FINE. / THE TREES MOVED." (kept: the pines are in the picture, any golfer's alibi), "BREAKFAST BALL Enthusiast" (old, insider), "FIRST TEE 6 AM. FIRST LIE 6:01.", "I DON'T SLICE. I TOUR THE TREES.", "MULLIGAN IS MY MIDDLE NAME". Same golfer/pines art; the old Enthusiast script was erased from the lower right (cleaned the shoe edge). MY SWING IS FINE. Anton 90% of the width; THE TREES MOVED. Bowlby One 97% width, red with cream keyline. Light-file (R5.3.8): Sandstone file 1090158606 has the top line navy with a cream keyline; Storm Blue file 1090158696 has it cream with a navy keyline (docs/print-files/503-v2-trees-moved.png / -storm.png); logged: light file Sandstone on file 1090158606, headline fill navy. Art scaled 80% so the print is 3000 x 2936, FW 1500 TOP 30 (ends above the pouch seam), 14/14 relinked per color. 2 fronts replaced in place, read at phone size. Copy, FAQ and SEO rewritten for the new joke. Plain product shot. fal $0.
 - 2026-10-20 05:16 UTC director: approved from docs/review/503.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: MY SWING IS FINE. / THE TREES MOVED. is a deadpan golfer excuse on par with Sorry About Your Windshield; punch line as wide as the headline, navy/red from the art, reads on both hoodie colors.
 - 2026-10-20 07:41 UTC builder [C]: TITLE (card 7i): Shopify title set to "Men's Golf – My Swing Is Fine, the Trees Moved Heavyweight Hoodie" (handle unchanged; SEO title and meta already name the new line).
+- 2026-10-20 09:17 UTC director: LIVE. Already ACTIVE on Online Store, Headless, Google & YouTube; audit --handle PASS.
