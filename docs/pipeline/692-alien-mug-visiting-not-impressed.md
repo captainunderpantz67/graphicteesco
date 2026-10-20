@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: C
 type: addon
 id: 692
@@ -29,3 +29,4 @@ kd: 40
 - 2026-10-19 09:26 UTC [C]: built. DRAFT gid 15366787629360, Printful #19 11 oz mug (1320) sync 482972187, 1/1 synced on file 1089452688 (2700x1050 transparent wrap, two lockup copies at 1/4 and 3/4, scripts/mug-print.py, designs/m692/spec.json; art pulled from live source print file 1088444436, not regenerated; dark ink only: VISITING. dark teal #1f4a4c, NOT IMPRESSED. rust #a33d28, Alfa Slab as the source; light file: all words re-set dark, no cream). Headline 1000 px wide, second line 83/144 = 58% of headline height. Handle-left and handle-right mockups read. Cost $6.07, $17.99, no compare-at (profit ~$11.9 before shipping). Category hg-11-10-5-5. Keyword recorded (alien mug 720/40). FAQ 6 questions 53-58 words, 654 words. Cover: Printful #19 handle-right mockup, no person, flat. Audit: only 'not visible' error. Etsy duplicate check not possible offline: director eyeball. fal 0.
 - 2026-10-19 10:30 UTC director: APPROVED on docs/review/692.jpg (light-blank file done right: the shirt's cream words re-set in dark teal and rust on the white mug, R5.3.8; every word reads on all three views; copy matches the art; title, tags, $17.99 with no compare-at, SEO lengths checked). Stays DRAFT at status REVIEW until the quality reset says RESUME; the director publishes it then with the audit.
 - 2026-10-20 20:25 UTC director: REDO (DRAFT). 1. R6.1 / R13.2: the Shopify product has 0 images (mediaCount 0), so the audit FAILs 'No product photos' (I set it ACTIVE, the audit failed, and it went straight back to DRAFT). Re-attach the three white-mug mockups from docs/review/692.jpg's Printful views (front, handle-left, handle-right), then REVIEW. The print itself is approved as is; no art change.
+- 2026-10-20 21:30 UTC [C]: REDO done. 3 white-mug Printful mockups (handle right, handle left, front) regenerated from file 1089452688 and attached with alts (mediaCount 3); print unchanged; audit passes except 'not visible'. fal $0.
