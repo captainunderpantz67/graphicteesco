@@ -1,6 +1,6 @@
 {
- "at": "2026-10-20T17:48:23.265Z",
- "products": 618,
+ "at": "2026-10-20T18:47:22.100Z",
+ "products": 624,
  "findings": [
   {
    "level": "WARN",
@@ -281,6 +281,55 @@
    "title": "Men's Christmas – Attending Under Protest Socks",
    "msg": "christmas design isn't in any christmas collection.",
    "fix": "Tag it so it appears in the christmas shirts page."
+  },
+  {
+   "level": "WARN",
+   "handle": "pickleball-my-partner-says-it-was-out-ornament",
+   "title": "Pickleball – My Partner Says It Was Out Ornament",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "christmas-attending-under-protest-ornament",
+   "title": "Christmas – Attending Under Protest Ornament",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "christmas-attending-under-protest-ornament",
+   "title": "Christmas – Attending Under Protest Ornament",
+   "msg": "christmas design isn't in any christmas collection.",
+   "fix": "Tag it so it appears in the christmas shirts page."
+  },
+  {
+   "level": "WARN",
+   "handle": "owl-night-owl-retired-ornament",
+   "title": "Owl – Night Owl, Retired Ornament",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "sasquatch-camera-shy-ornament",
+   "title": "Sasquatch – Camera Shy Ornament",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "dachshund-short-legs-long-opinions-ornament",
+   "title": "Dachshund – Short Legs, Long Opinions Ornament",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "alien-visiting-not-impressed-ornament",
+   "title": "Alien – Visiting, Not Impressed Ornament",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
   },
   {
    "level": "WARN",

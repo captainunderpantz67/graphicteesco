@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-20 17:48 UTC
+# Cohesion audit — 2026-10-20 18:47 UTC
 
-618 live products checked · **0 errors** · 43 warnings · 39 products with findings
+624 live products checked · **0 errors** · 50 warnings · 45 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -120,6 +120,25 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Men's Christmas – Attending Under Protest Socks `mens-christmas-attending-under-protest-socks`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 - **WARN** christmas design isn't in any christmas collection. → Tag it so it appears in the christmas shirts page.
+
+### Pickleball – My Partner Says It Was Out Ornament `pickleball-my-partner-says-it-was-out-ornament`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
+### Christmas – Attending Under Protest Ornament `christmas-attending-under-protest-ornament`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+- **WARN** christmas design isn't in any christmas collection. → Tag it so it appears in the christmas shirts page.
+
+### Owl – Night Owl, Retired Ornament `owl-night-owl-retired-ornament`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
+### Sasquatch – Camera Shy Ornament `sasquatch-camera-shy-ornament`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
+### Dachshund – Short Legs, Long Opinions Ornament `dachshund-short-legs-long-opinions-ornament`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
+### Alien – Visiting, Not Impressed Ornament `alien-visiting-not-impressed-ornament`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 
 ### Women's Outdoorsy – Outdoorsy in Theory Cropped Hoodie `womens-outdoorsy-in-theory-cropped-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
