@@ -6,7 +6,7 @@ W=3400; AH=1750; art=art.resize((round(art.width*AH/art.height),AH),Image.LANCZO
 def halo(a,px):
     al=np.array(a.getchannel('A')); k=cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(2*px+1,2*px+1)); d=cv2.dilate(al,k)
     h=Image.new('RGBA',a.size,CREAM); h.putalpha(Image.fromarray(d)); h.alpha_composite(a); return h
-CR=(246,236,214,255); RD=(214,86,70,255); NV=(31,42,77,255); RD2=(176,54,42,255)
+CR=(246,236,214,255); RD=(247,184,162,255); NV=(31,42,77,255); RD2=(176,54,42,255)
 for mode,(hc,pc,aa,bg) in {'storm':(CR,RD,halo(art,16),(60,80,110,255)),'sand':(NV,RD2,art,(212,196,166,255))}.items():
     h=line('FINISHER.','anton',0.75,W,hc,hc,kw=3); ps=line_same(['SOUL STILL','AT MILE 20.'],'anton',0.85,W,pc,pc,kw=3)
     out=lockup(aa,W,[h],ps,f'648-{mode}',{mode:bg},g=40)
