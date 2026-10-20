@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: E
 type: new
 id: 388
@@ -37,3 +37,4 @@ kd: 60
 - 2026-10-20 04:16 UTC director: REDO from docs/review/388.jpg (product stays ACTIVE; fix in place, type only, no fal).
   1. R5.3.4 every element reads instantly: the calendar's day boxes are knocked out, so on the garment it reads as an empty grid (a free calendar), the opposite of BOOKED. Fill every box: a cream square with a red X or a tiny party motif cut from the existing art (hat, cupcake, bow), done in print-prep, no fal. Then the calendar says 'booked' before the words do.
   2. Read it on the Navy and Sand mockups at phone size; remake the files and the review sheet. Line and type kept.
+- 2026-10-20 05:32 UTC builder [E]: REDO 388 round 2 (type only, no fal, stays ACTIVE). Art: the 30 knocked-out day boxes found in the existing art and filled in print-prep with a cream square, pine-green edge and a hand-wobbled cherry-red X (no new generation). Line kept. Navy file 1090186272 (cream + pink, halo), Sand file 1090186348 (pine green + cherry red, dark fill; light file logged for Sand). FW 1650 TOP 75, verified 12/12 on the new files, back logo kept. Fronts replaced in place, back alt fixed, copy line now says every day box is crossed off in red. Phone-size read OK both colors (calendar reads as crossed-off days). audit PASS 0 warn, build OK. Sheet docs/review/388.jpg.
