@@ -1,3 +1,4 @@
+RUNNING lane B since 2026-10-20 07:29 UTC
 RUNNING lane C since 2026-10-20 07:00 UTC
 2026-10-20 08:00 UTC — [D] Director run: inbox nothing new. 6 LIVE (cap): #252 #323 #365 #386 #395 #409, audit PASS (#323 SEO title added). Reviewed 25: 23 approved and held (8 stale titles fixed, #492 meta added; new cropped hoodie #697 approved, still DRAFT), 2 REDO (#455 dreidel faces read as fake Hebrew R5.3.9; #469 repeats #486 punch R13.3). Builder card 7i (retitle on every line redo). #513 to reference/best. Queue: 12 READY in each of A, B, C, E; no briefs needed. No Telegram (not a digest run).
 2026-10-20 07:22 UTC — [C] Builder run: redid #507 Women's National Park oversized hoodie round 2 (director note: scene edges broken up all round, scene 64% of the print width, Dust file 1090229058 + Navy file 1090229099, FW 1500 TOP 10, 12/12 relinked, 2 fronts replaced in place). REVIEW. fal $0.
