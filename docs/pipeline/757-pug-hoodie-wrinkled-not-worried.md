@@ -1,0 +1,27 @@
+status: READY
+lane: C
+type: new
+id: 757
+handle: unisex-pug-wrinkled-not-worried-hoodie
+kd: 34
+---
+## Unisex Pug – Wrinkled. Not Worried. Hoodie
+- **Why now:** hoodies cluster (lane C, R11.11): a dog-breed hoodie in the 'Short Legs, Long Opinions' voice; pug hoodie is unclaimed.
+- **Blank:** Pullover Gildan 18500 (Printful #146), Sand + Navy (R7.1/R7.2); handle ends -hoodie. Light blanks (Sand, Peach and the R5.3.8 list) get their own file with every word in solid dark ink and open counters, no cream keyline (R5.3.8).
+- **Art prompt:** Vintage 1960s storybook illustration: a fawn pug with a black mask lounging flat on its back on a round tufted velvet cushion, belly up, one front paw resting on its chest, eyes half closed, deep forehead wrinkles, utterly content, tongue tip just showing. Muted palette (fawn, mustard, cream, faded red, soft black linework). The cushion ends where its own tassels end. Correct pug anatomy (curled tail, short muzzle, small folded ears, four legs). Muted screen-print palette, halftone, worn edges. No person unless named, no frame, no border, no badge, no dark patch, no brand logo, no words anywhere. New art: one Recraft v4 call (--n 1, fal wallet only via scripts/fal_budget.py), picture only, no words; at most 3 tries, then PARK. Style A (R4.2), vintage to the edges: no badge, frame, rounded scene card, panel or dark patch (R4.1); every side ends where its own objects end (scripts/ragged-edge.py on any straight or smooth edge). Every held object attached to a paw or a surface (R5.3.8 self-check).
+- **Text on hoodie (spelled exactly):** WRINKLED. (headline above) / NOT WORRIED. (punch below, at least as wide as WRINKLED., the loudest line). Sand: deep brown-black headline, faded-red punch; Navy: cream headline, mustard punch. Every word set with scripts/compose-print.py in one heavy display face from designs/fonts used on no more than 1 in 6 of the last 30 designs (add an OFL Google font if the kit feels repetitive). Headline at least 90% of the art width; the punch line at least as wide as the headline, never the smallest line (R3.7.8); log both ink widths (builder card 7h), type share (7k) and subject share (7l, 45%+). Use the lettering as a shape (the subject breaks into the lockup), not two plain bars with the art floating between (quality-reset bar). Solid ink, no pattern fill, no thin script (R5.3.10). No letter touches the art.
+- **Five lines considered (R3.13, compared with "Wildly Low Maintenance", "Oops. Anyway.", "Plot Twist: I Stayed In"):** Wrinkled. Not Worried. · Snores Loud. Loves Louder. · Small Dog. Loud Breathing. · Built for Naps. · Mostly Snoring. Kept the first: the breed's look turned into a calm attitude, the 'Short Legs, Long Opinions' contrast that already sells for us, wearer in on it. 'Small Dog. Loud Breathing.' is the backup. No 'Pug Life' (stock and a lyric pun).
+- **Hook:** pug owners and pug people, any gender; worn to the dog park, the couch and the vet waiting room. Also a gift from the pug's 'grandparents'.
+- **Why it's not taken:** 'pug hoodie' has 1,766 competing listings, mostly 'Pug Life' and plain portraits; a deadpan attitude line is uncommon. No live line contains 'Wrinkled'.
+- **Primary keyword:** pug hoodie: 480 / KD 34 (competition 1,766) (RankHero, 2026-10-20 22:45 UTC, director). KD 21–35 band. Unowned (map, pipeline, collections.ts).
+- **Title / handle:** "Unisex Pug – Wrinkled. Not Worried. Hoodie" / `unisex-pug-wrinkled-not-worried-hoodie`.
+- **Tags:** graphic-hoodies-for-men, graphic-hoodies-for-women, hoodie, pug, ai-art, intake-done.
+- **Price:** $39.99 (R12.1 pullover), NO compare-at.
+- **R5.2 proof gate:** RankHero keyword pages no longer show the listing grid (R5.2, 2026-10-19), so no favorites number is on file. Before spending fal, log one same-format listing on this theme with 500+ favorites (favorites, not views; RankHero or Etsy search). None found = PARKED.
+- **Print size:** FW 1500 floor (R5.3.2); keep the lockup above the pouch seam by reshaping the art, never by shrinking it.
+- **Copy:** line one = the joke + who wears it + when, said plainly (R9.11); no superlative opener, no "one of the <keyword>" (R8.3), no production words, never "we drew". Primary in the SEO title, first sentence and once in the meta, at most 3 times in all; SEO title ≤ 60, meta ≤ 155 (R8.4). SOP three sections; 4–6 answer-first FAQs at 40–60 words (fit and fabric from the Printful spec only, sizing, care, Christmas order-by about Dec 8, one free size exchange). Name the ink colors the mockups show. Record the primary in docs/product-keyword-map.json with this handle.
+- **Cover:** none (R6.11): plain Printful product shot, no person, no Printful model photo, so no registry row is claimed. **R6.12:** front print only, no back-print mockup; the printed front is image 1 and the neck-logo back view goes LAST (R6.13).
+- **Before REVIEW:** variant files verified on Printful and logged (R7.7, "N/N on <file id>"); every word read at phone size on the darkest AND the lightest offered color (R5.3.8); Story line one read noun by noun against the art (R8.3); review sheet via scripts/review-sheet.py; `node scripts/cohesion-audit.mjs --handle <handle>` passes except "not active".
+---
+## Log
+- 2026-10-20 22:55 UTC director: brief written, READY (lane C, pug hoodie: 480 / KD 34; measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).
