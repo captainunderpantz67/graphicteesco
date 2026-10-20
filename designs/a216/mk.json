@@ -1,0 +1,14 @@
+{
+ "5610": {
+  "front:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/aa0d59d43dfe8acd09c8b9999cbcf4a5/unisex-heavy-blend-hoodie-sport-grey-front-6ad6d5fe01d3b.jpg",
+  "front:Left": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/017599c10bb36825425902d4415f5933/unisex-heavy-blend-hoodie-sport-grey-left-6ad6d5fe02817.jpg",
+  "front:Right": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/eaf4c34f77cd7f04d0946e80821a4982/unisex-heavy-blend-hoodie-sport-grey-right-6ad6d5fe02c5e.jpg",
+  "back:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/0a5ea1b15dbf523264bfb7077028d061/unisex-heavy-blend-hoodie-sport-grey-back-6ad6d5fe02fcd.jpg"
+ },
+ "12997": {
+  "front:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/b7506c3f52fc8b43cad4205bb4b0e731/unisex-heavy-blend-hoodie-sand-front-6ad6d5fe032e3.jpg",
+  "front:Left": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/1d88b4d8c59688801097fe3d3a5dfc8e/unisex-heavy-blend-hoodie-sand-left-6ad6d5fe0387c.jpg",
+  "front:Right": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/5e67e09546cc76867282e3356fb9bcba/unisex-heavy-blend-hoodie-sand-right-6ad6d5fe03e5e.jpg",
+  "back:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/c6ee3ec46497138aa73d740550bf4a3c/unisex-heavy-blend-hoodie-sand-back-6ad6d5fe04353.jpg"
+ }
+}
