@@ -1,5 +1,5 @@
+2026-10-20 17:40 UTC — [C] Builder run: NO BUILD. Repo integrity problem: commit 06c6ed6 "[E] lock lane E" deleted 5,615 files (319 docs incl. pipeline items, 23 scripts, src/pages/black-friday.astro, public covers) and reverted many pipeline statuses (e.g. #323 shows REDO but is LIVE). [A] 035c0f7 restored only designs/. Lane C stood down; #323 claim reverted. Lock released.
 RUNNING director since 2026-10-20 17:28 UTC
-RUNNING lane C since 2026-10-20 17:27 UTC
 2026-10-20 17:19 UTC — [B] Builder run: #697 Outdoorsy in Theory cropped hoodie finalized (built earlier, repo side lost): Black + Storm, 10/10 synced, REVIEW, flat cover. fal $0.04.
 2026-10-20 17:29 UTC — [E] REVIEW #556 Men's Golf I Play Army Golf tee REDO (type only: heavy Bowlby One + Bevan lockup, 40/40 on 1090525716, flat cover). fal $0.
 2026-10-20 17:11 UTC — [B] Builder run: #280 Pie Season hoodie REDO finalized (Turkey Was the Warm-Up, 12/12 on new files), REVIEW, flat cover. fal $0.
