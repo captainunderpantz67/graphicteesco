@@ -1,6 +1,6 @@
 {
- "at": "2026-10-19T22:13:18.138Z",
- "products": 605,
+ "at": "2026-10-20T02:44:41.810Z",
+ "products": 606,
  "findings": [
   {
    "level": "WARN",
@@ -119,13 +119,6 @@
    "handle": "unisex-outdoors-went-outside-it-was-fine-heavyweight-hoodie",
    "title": "Unisex Outdoors – Went Outside It Was Fine Heavyweight Hoodie",
    "msg": "\"national park hoodie\" appears 4× in the copy (keyword stuffing).",
-   "fix": "Use it once or twice, naturally."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-volleyball-i-only-dive-for-snacks-hoodie",
-   "title": "Women's Volleyball – I Yell Free Ball at Everything Hoodie",
-   "msg": "\"volleyball hoodie\" appears 5× in the copy (keyword stuffing).",
    "fix": "Use it once or twice, naturally."
   },
   {
