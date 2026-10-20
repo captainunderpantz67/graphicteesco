@@ -19,3 +19,5 @@ Plan, in order (after the current hoodie/cold-weather queue):
 2. Big brother / big sister shirts: 6-8 original announcement designs on the youth tee + toddler tee (3001T #306) + baby bodysuit (4424 #843), each with a joke a parent would actually post. Evergreen, so not a holiday rush; one collection page /big-brother-big-sister-shirts/.
 3. A "Kids" hub (/kids/) linking youth hoodies, big sibling shirts and the family Christmas sets (docs/backlog/matching-family-christmas.md), targeting kids hoodies / girls hoodies as the parent terms (Taiga pattern: win the spokes first).
 Add a 'kids' cluster to src/data/clusters.ts when step 1 is live.
+
+Back-to-school (measured 2026-10-20): kids shirts KD 100, back to school shirts 96, funny kids shirt 95, girls graphic tee 92, first day of school shirt 66; "kids graphic tees" has no RankHero data. Retail giants own these. Revisit early June 2027 with a Google-side volume tool; until then, add youth sizes to existing A-grade designs instead of a kids tee page.
