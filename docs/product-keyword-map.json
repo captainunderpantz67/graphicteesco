@@ -10361,6 +10361,38 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-frenchie-im-helping-youre-welcome-graphic-tee": {
+   "claimed": [
+    "frenchie tshirt",
+    "frenchie t shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "frenchie tshirt",
+     "volume": 1000,
+     "kd": 39
+    },
+    {
+     "phrase": "frenchie t shirt",
+     "volume": 1000,
+     "kd": 39
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "french-bulldog-im-helping-youre-welcome-ornament": {
+   "claimed": [
+    "french bulldog ornament"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "french bulldog ornament",
+     "volume": 1300,
+     "kd": 26
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

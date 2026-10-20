@@ -4,6 +4,7 @@ type: new
 id: 726
 handle: womens-christmas-frenchie-im-helping-youre-welcome-graphic-tee
 kd: 39
+shopify: gid://shopify/Product/15370132947248
 ---
 ## Women's Christmas – Frenchie I'm Helping. You're Welcome. Tee
 - **Why now:** Sam 2026-10-20: build the French Bulldog collection now (docs/backlog/frenchie-collection.md, at least 3 Christmas designs). Frenchie Christmas design 3 of 3; its ornament is #727 (same art). Crewneck twin waits for a measured Frenchie sweatshirt phrase (see #724).
