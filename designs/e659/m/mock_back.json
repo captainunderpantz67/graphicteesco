@@ -1,0 +1,10 @@
+{
+ "4017": {
+  "front:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/cbcf8c265c7f162eb351573cc97a14bc/unisex-staple-t-shirt-black-front-6ad76fbaa15cd.jpg",
+  "front:Front": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/6bbb5c048ca50b67dd24fe764572d81d/unisex-staple-t-shirt-black-front-6ad76fbaa206a.jpg",
+  "front:Left": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/db3b4b83e60cb7d1b25c27d4f4ce2866/unisex-staple-t-shirt-black-left-6ad76fbaa2665.jpg",
+  "front:Right": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/a26d6ecb53d1c9f072fbb8186aa00a77/unisex-staple-t-shirt-black-right-6ad76fbaa2a21.jpg",
+  "back:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/149d677b105f6e6486df93eccf463e68/unisex-staple-t-shirt-black-back-6ad76fbaa2e2c.jpg",
+  "back:Back": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/1413cf0177248342403992bfa6dfcbdb/unisex-staple-t-shirt-black-back-6ad76fbaa3168.jpg"
+ }
+}
