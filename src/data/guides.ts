@@ -352,7 +352,7 @@ export const allGuides: Guide[] = [
           { slogan: 'Lone Wolf. Early Bedtime.', tee: 'mens-wolf-lone-wolf-early-bedtime-hoodie',
             text: 'LONE WOLF. in brick red and EARLY BEDTIME. in navy sit over a grey wolf asleep on a rock under a patchwork quilt, nightcap on, with a big soft moon behind him. It is the howling-wolf shirt for someone who is in bed by nine. Sand and Sport Grey.' },
           { slogan: 'Technically Still Fishing', tee: 'mens-fishing-technically-still-fishing-hoodie',
-            text: 'TECHNICALLY STILL FISHING is arched in hand-drawn capitals over a man dozing on a dock at sunrise while a bass jumps right past his line. It is the angler’s excuse for a nap at the lake. Sand and Navy.' },
+            text: 'TECHNICALLY STILL FISHING is arched in big worn capitals over a man dozing on a dock at sunrise while a bass jumps right past his line. It is the angler’s excuse for a nap at the lake. Sand and Navy.' },
           { slogan: 'Calm Face. Loud Brain.', tee: 'unisex-nurse-calm-face-loud-brain-hoodie',
             text: 'CALM FACE. / LOUD BRAIN. runs under a heart-rate line that tangles into a scribble, in red and cream line art. It is a unisex design for anyone who looks unbothered while their head runs six alarms. Sand and Navy.' },
           { slogan: 'If You Can Step Over It, I Can Fill It', tee: 'mens-welder-if-you-can-step-over-it-hoodie',

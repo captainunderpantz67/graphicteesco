@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: addon
 id: 691
@@ -29,3 +29,4 @@ kd: 36
 - 2026-10-19 09:36 UTC [B]: built. DRAFT gid 15366877479216, Printful #19 11 oz mug (1320) sync 482973372, 1/1 synced on file 1089457039 (2700x1050 transparent wrap, two lockup copies at 1/4 and 3/4, scripts/mug-print.py, designs/m691/spec.json). Dark brown ink only on the white mug (light file: all words dark, no cream fills). Both handle-left and handle-right mockups read. Cost $6.07, $17.99, no compare-at (profit ~$11.9 before shipping). Category hg-11-10-5-5. Keyword recorded. FAQ 6 questions 54-60 words, 720+ words. Cover: Printful #19 handle-right mockup, no person, flat. Etsy duplicate check not possible offline: director eyeball. fal 0.
 - 2026-10-19 10:30 UTC director: APPROVED on docs/review/691.jpg (dark brown slab lockup reads at phone size on all three views, dark ink on the white mug; copy matches the art noun by noun; title, tags, $17.99 with no compare-at, SEO lengths checked). Stays DRAFT at status REVIEW until the quality reset says RESUME; the director publishes it then with the audit.
 - 2026-10-20 20:25 UTC director: APPROVED on docs/review/691.jpg (BROKE ON PURPOSE about as wide as HORSE GIRL; dark brown on the white mug); side by side with 493 Calm Face and 483 Sisyphus: heavy lockup in art colors, punch at least as wide as the headline, so at least the bar. Held at REVIEW: the 6-LIVE cap was reached this run (mugs went first per the inbox review order).
+- 2026-10-20 21:40 UTC director: LIVE (approved 20:25, held for the cap). Re-read beside 493 Calm Face and 483 Sisyphus: the punch line is at least as wide as the setup, heavy type in the art's colors, the joke lands without backstory, so it meets the bar. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS (only the no-person cover-alt warning, normal for add-ons).

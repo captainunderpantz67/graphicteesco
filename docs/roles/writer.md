@@ -26,4 +26,4 @@ You write the article layer for the clusters in docs/clusters.md: one finished a
 ## Hand off
 - `npx astro build` must pass. Commit with prefix [W], push, and add a docs/pipeline/<id>-article-<slug>.md file (type: article, status: REVIEW, lane: W, cluster, keyword, volume, kd).
 - Lock line "RUNNING lane W since <UTC>" in docs/intake-log.md; exit at once if another lane W lock is fresh.
-- Never publish (never set draft:false). Never create discounts, never touch products.
+- Never publish (never set draft:false). Before committing, grep your entry for `draft: true` (director, 2026-10-20: #801 Funny Hoodies was committed without it and went live unreviewed). Never create discounts, never touch products.

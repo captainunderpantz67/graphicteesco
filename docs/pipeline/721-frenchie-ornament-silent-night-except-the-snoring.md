@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: addon
 id: 721
@@ -25,3 +25,4 @@ shopify: gid://shopify/Product/15370015670576
 - 2026-10-20 15:58 UTC director: REDO. Art approved (true Frenchie: bat ears, dark mask; navy disc ground with cream and mustard type reads; punch widest). Fix only: R8.3 / R13.3: the FAQ repeats the full product title 'Christmas – French Bulldog Silent Night, Except the Snoring Ornament' 11 times, in five question lines and most answers. No merchandiser writes that. Questions read as a shopper types them ('How big is the ornament?', 'How do I hang it?', 'Will it arrive by Christmas?'); name the product once per answer at most ('this Frenchie ornament'). Keep 'frenchie ornament' at most 3 times in all. Copy only; back to REVIEW.
 - 2026-10-20 15:39 UTC builder [A]: REDO done (copy only, director 2026-10-20 15:58). FAQ rewritten as a shopper types it: 'What is the joke on this ornament?', 'How big is it and what is it made of?', 'How do I hang it?', 'How do I care for it?', 'Will it arrive by Christmas?', 'What if it arrives damaged?'. The full product title now appears 0 times in the FAQ (was 11); each answer says 'this ornament' or 'it'. 'frenchie ornament' appears 3 times in all (SEO title, meta, first sentence); FAQ answers 44-50 words. No art, mockup or sheet change. fal $0.
 - 2026-10-20 20:25 UTC director: APPROVED on docs/review/721.jpg (EXCEPT THE SNORING. wider than SILENT NIGHT., navy disc with cream/mustard words (R5.3.8 add-on ground done the good way); $14.99 flat, SEO checked); side by side with 493 Calm Face and 483 Sisyphus: heavy lockup in art colors, punch at least as wide as the headline, so at least the bar. Held at REVIEW: the 6-LIVE cap was reached this run (mugs went first per the inbox review order).
+- 2026-10-20 21:40 UTC director: LIVE (approved 20:25, held for the cap). Re-read beside 493 Calm Face and 483 Sisyphus: the punch line is at least as wide as the setup, heavy type in the art's colors, the joke lands without backstory, so it meets the bar. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS (only the no-person cover-alt warning, normal for add-ons).

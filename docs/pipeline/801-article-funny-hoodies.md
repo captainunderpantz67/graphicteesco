@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: hoodies
@@ -17,3 +17,4 @@ slug: funny-hoodies
 - Not done: docs/intake-log.md lock line (run restricted to guides.ts and this file).
 ## Log
 - 2026-10-20 UTC writer: draft written, astro build passes. Director: verify the six picks' colors against live listings, confirm the hoodie price statement, then flip draft to false.
+- 2026-10-20 21:40 UTC director: APPROVED and live. Note: the [W] commit 8d6946c left out draft: true, so the page went live at 20:46 before review (writer card now says to grep for it). Read in full: answer-first, 6 FAQs 40-60 words with numbers, no stuffing. Checked all six picks against Shopify: ACTIVE, $39.99, colors exactly as written (Sand/Ash, Sand/Navy, Sand/Sport Grey, Sand/Navy, Sand/Navy, Navy/Dark Heather), S-3XL. Fixed one line: 'hand-drawn capitals' on #425 became 'big worn capitals' (honest-wording rule, drawn-fixes). Primary 'funny hoodies' 2,900 / KD 51 is above R2.2's band, accepted for an article: it is unowned, every easier hoodie phrase is owned, and articles are citation pages, not product primaries.
