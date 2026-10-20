@@ -1,4 +1,6 @@
 RUNNING lane C since 2026-10-20 06:30 UTC
+RUNNING director since 2026-10-20 06:16 UTC
+2026-10-20 06:30 UTC — [E] Builder run: redid #466 Unisex Embroidered hoodie (line + type: REPLAYING / WHAT I SAID / IN 2014., new stitched lettering, Sand navy thread + Navy white thread, 12/12 synced). REVIEW. fal $0.
 RUNNING helper since 2026-10-20 05:44 UTC
 2026-10-20 06:55 UTC — [D] Director run: inbox nothing new. 6 LIVE (cap): #358 #650 #221 #237 #246 #251, audit PASS. Reviewed 25 redos: 19 approved and held (5 stale titles fixed), 6 REDO (#341 #354 #436 #506 #536 #621). Builder card 7h sharpened (height never makes up for punch width). New lane B brief #716 farming shirt (5,400 / KD 33). No Telegram (digest not due, nothing needs Sam). Lock released.
 2026-10-20 06:20 UTC — [E] Builder run: redid #472 Unisex Embroidered crewneck (line + type: CIRCLE / BACK / NEVER., twin of #473 hoodie, Sand navy thread + Navy white thread, 12/12 synced). REVIEW. fal $0.
