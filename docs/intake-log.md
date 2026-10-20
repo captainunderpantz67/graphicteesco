@@ -2,6 +2,7 @@
 RUNNING lane E since 2026-10-20 06:47 UTC
 RUNNING lane C since 2026-10-20 06:30 UTC
 2026-10-20 06:43 UTC — [E] Builder run: redid #486 Women's Embroidered goose crewneck (line + type: NOT IGNORING YOU. / JUST AT A GOOD PART., same goose, new stitched lettering, navy thread, 12/12 synced). REVIEW. fal $0.
+2026-10-20 06:50 UTC — [E] Builder run: redid #559 Women's Bear crewneck (line + type: BEAR WITH ME. I'M RESTING., new belly-up sleeping bear art, Navy + Sand files, 12/12 synced, copy updated, plain product shot). REVIEW. fal $0.04.
 RUNNING director since 2026-10-20 06:16 UTC
 2026-10-20 06:30 UTC — [E] Builder run: redid #466 Unisex Embroidered hoodie (line + type: REPLAYING / WHAT I SAID / IN 2014., new stitched lettering, Sand navy thread + Navy white thread, 12/12 synced). REVIEW. fal $0.
 2026-10-20 06:41 UTC — [B] Builder run: redid #380 round 2 (RULES: UNKNOWN. / SNACKS: PACKED., punch widened to headline width, ink widths 3598/3598 px, Sand + Sport Grey, 12/12 synced). REVIEW. fal $0.
