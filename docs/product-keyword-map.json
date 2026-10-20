@@ -10304,6 +10304,31 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-cat-do-not-disturb-biscuits-sweatpants": {
+   "claimed": [
+    "womens sweatpants",
+    "matching sweatsuit",
+    "sweatsuit set"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "womens sweatpants",
+     "volume": 49500,
+     "kd": 27
+    },
+    {
+     "phrase": "matching sweatsuit",
+     "volume": 3600,
+     "kd": 19
+    },
+    {
+     "phrase": "sweatsuit set",
+     "volume": 4400,
+     "kd": 22
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
