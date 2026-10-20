@@ -10785,6 +10785,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-plumber-not-looking-at-your-sink-hoodie": {
+   "claimed": [
+    "plumber hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "plumber hoodie",
+     "volume": 170,
+     "kd": 33
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
