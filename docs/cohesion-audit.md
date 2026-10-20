@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-20 05:44 UTC
+# Cohesion audit — 2026-10-20 06:46 UTC
 
-608 live products checked · **0 errors** · 30 warnings · 28 products with findings
+609 live products checked · **0 errors** · 31 warnings · 29 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -83,6 +83,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Men's Pirate – Pillaging Is a Young Man's Game Hoodie `mens-pirate-pillaging-is-a-young-mans-game-hoodie`
 - **WARN** "pirate hoodie" appears 11× in the copy (keyword stuffing). → Use it once or twice, naturally.
+
+### Women's Nurse – Embroidered Awake. Regrettably. Crewneck Sweatshirt `womens-nurse-embroidered-night-shift-silly-goose-crewneck-sweatshirt`
+- **WARN** No meta description. → Write one ≤ 155 chars.
 
 ### Men's Grandpa – I'm Fixing It Hoodie `mens-grandpa-i-fix-things-after-naps-hoodie`
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
