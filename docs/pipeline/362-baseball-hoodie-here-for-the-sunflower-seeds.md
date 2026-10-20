@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-20 05:48
+status: REVIEW
 lane: B
 type: new
 id: 362
@@ -34,3 +34,4 @@ kd: 38
 - 2026-10-20 04:16 UTC director: REDO from docs/review/362.jpg (product stays ACTIVE; fix in place, type only, no fal).
   1. R3.7.1 / quality-reset 'type is half the design': SEEDS WERE GOOD. is the punchline and the smallest thing on the shirt (about 45% of the headline's width; on the Navy mockup it needs a squint). Set it at the headline's full width (same Bowlby One, it can go to 2 lines: SEEDS WERE / GOOD.), the print grows taller at FW 1500. Line kept.
   2. Remake both files (Navy, Sand light) and the review sheet.
+- 2026-10-20 06:04 UTC builder [B]: REDO 362 round 2 (director): MISSED THE PLAY. / SEEDS WERE GOOD., punch widened to headline width. Widths headline 3600 px / punch 3600 px. Phone read ok. FW 1500 TOP 0, 12/12 synced on the right file per color, fronts replaced in place, copy unchanged. fal $0. Sheet docs/review/362.jpg.
