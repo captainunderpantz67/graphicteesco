@@ -1,108 +1,299 @@
 ---
-// Black Friday deals page (director 2026-10-20, Sam's build order in docs/backlog/black-friday-bundles.md).
+// Black Friday deals page. Redesign 2026-10-20 (Sam: "make it like a second homepage", black + neon green).
+// Every word of SEO copy stays visible (Sam: "don't ever kill the text"); it lives in answer cards like the homepage.
 // Primary: "black friday graphic tee deals"; supporting once each: black friday hoodie deals, black friday gift deals.
 // RankHero 2026-10-20: black friday deals Oct 450K → Nov 7.48M (KD 18). Evergreen URL: update the year and dates each fall.
-// Never state a % off until Sam's Black Friday discount exists in Shopify.
+// Offer tiers come from src/data/deals.ts and must match Shopify's automatic discounts.
 import Base from '../layouts/Base.astro';
 import ProductCard from '../components/ProductCard.astro';
+import Faq from '../components/Faq.astro';
 import { faqPage, breadcrumbs, itemListOfProducts } from '../lib/schema';
 import { getAllProducts, shopifyConnected } from '../lib/shopify';
 import { linkableSlugs, hoodiesHubLive } from '../lib/linkable';
+import { bySlug, pathFor } from '../data/collections';
+import { coverFor } from '../data/covers';
+import { blackFriday as bf } from '../data/deals';
 
 // Doorbusters: A-grade designs only (quality reset). A pick that isn't live is dropped at build.
-// Add #281 In It for the Doorbusters (womens-black-friday-in-it-for-the-doorbusters-graphic-tee) once its redo is LIVE.
 const doorbusters = [
-  'unisex-nurse-calm-face-loud-brain-crewneck-sweatshirt',
+  'womens-black-friday-in-it-for-the-doorbusters-graphic-tee',
+  'womens-cat-oops-anyway-cropped-hoodie',
   'mens-gym-sisyphus-had-bad-programming-graphic-tee',
+  'unisex-nurse-calm-face-loud-brain-crewneck-sweatshirt',
+  'womens-gym-lift-heavy-reply-later-cropped-hoodie',
   'mens-hunting-todays-special-tag-soup-hoodie',
-  'mens-christmas-white-elephant-champion-graphic-tee',
-  'womens-cat-making-biscuits-hoodie',
-  'womens-christmas-nanas-cookies-graphic-tee',
+  'womens-christmas-nutcracker-bow-graphic-tee',
+  'unisex-christmas-deer-camp-christmas-crewneck-sweatshirt',
+  'unisex-golf-sorry-about-your-windshield-hoodie',
   'mens-cat-dad-cant-cats-on-me-graphic-tee',
-  'unisex-national-park-switchbacks-build-character-heavyweight-hoodie',
+  'womens-tennis-my-backhand-has-opinions-cropped-hoodie',
+  'womens-cat-oops-anyway-crewneck-sweatshirt',
 ];
-const all = shopifyConnected ? await getAllProducts() : [];
-const byHandle = new Map(all.filter((p) => !p.sample).map((p) => [p.handle, p]));
+const all = shopifyConnected ? (await getAllProducts()).filter((p) => !p.sample) : [];
+const byHandle = new Map(all.map((p) => [p.handle, p]));
 const picks = doorbusters.map((h) => byHandle.get(h)).filter((p) => p !== undefined);
 const live = await linkableSlugs();
 
+// Hero photo: the first hand-picked, natural-looking cover that's still in use (retired covers return null).
+const heroPick = ['womens-black-friday-in-it-for-the-doorbusters-graphic-tee', 'womens-christmas-vintage-santa-graphic-tee', 'womens-christmas-nutcracker-bow-graphic-tee', 'unisex-christmas-deer-camp-christmas-graphic-tee']
+  .find((h) => byHandle.has(h) && coverFor(h));
+const hero = heroPick ? coverFor(heroPick) : null;
+// Shop-by tiles: live collections only, each with a real product photo from that collection (never repeated).
+const used = new Set<string>(heroPick ? [heroPick] : []);
+const photoIn = (slug: string, prefer?: string) => {
+  const c = bySlug(slug);
+  const pool = all.filter((p) => c && p.collections?.includes(c.shopifyHandle) && coverFor(p.handle) && !used.has(p.handle));
+  const p = (prefer && pool.find((x) => x.handle === prefer)) || pool[0];
+  if (!p) return null;
+  used.add(p.handle);
+  return coverFor(p.handle);
+};
+const tiles = [
+  { slug: 'christmas-shirts', label: 'Christmas shirts', note: 'From $24.99' },
+  { slug: 'cropped-hoodies', label: 'Cropped hoodies', note: 'Fan favorite', prefer: 'womens-bookish-plot-twist-cropped-hoodie' },
+  { slug: 'funny-graphic-tees', label: 'Funny tees', note: 'From $24.99' },
+  { slug: 'graphic-hoodies-for-men', label: "Men's hoodies", note: 'From $39.99' },
+  { slug: 'christmas-sweatshirts', label: 'Christmas sweatshirts', note: 'From $34.99' },
+  { slug: 'group-shirts', label: 'Group & family', note: '10+ save 15%' },
+]
+  .filter((t) => live.has(t.slug))
+  .map((t) => ({ ...t, href: pathFor(bySlug(t.slug)!), img: photoIn(t.slug, t.prefer) }))
+  .filter((t) => t.img);
+
+const top = bf.tiers[bf.tiers.length - 1];
+const dates = 'Nov 26–30';
+
 const path = '/black-friday/';
-const title = 'Black Friday Graphic Tee & Hoodie Deals 2026';
-const description = 'Black Friday graphic tee deals at Graphic Tees Co., Nov 26–30, 2026: funny tees from $24.99, hoodies from $39.99, free US shipping on $45+.';
+const title = `Black Friday Graphic Tee & Hoodie Deals ${bf.year}`;
+const description = `Black Friday graphic tee deals at Graphic Tees Co., ${dates}, ${bf.year}: buy 2 save ${bf.tiers[0].pct}%, buy ${top.qty} or more save ${top.pct}%. Funny tees from $24.99, hoodies from $39.99, free US shipping on $45+.`;
+const tierLine = bf.tiers.map((t) => `${t.qty}${t === top ? ' or more' : ''} items save ${t.pct}%`).join(', ');
+
+// Answer cards: the page's long-form copy, one question per card (h2 + paragraph, all in the HTML for search).
+const answers = [
+  { q: 'When are the Black Friday deals?', a: `Our Black Friday graphic tee deals go live Thanksgiving night, Thursday, November 26, and run through Cyber Monday, November 30, ${bf.year}. Every design is original, printed to order and funny on purpose. For Christmas gifts, order Black Friday weekend or early December; the exact cutoff goes up here by December 1.` },
+  { q: 'How does the Black Friday deal work?', a: `The more you grab, the more you save: ${tierLine}. The discount applies automatically at checkout, no code needed, and you can mix tees, crewnecks and hoodies. Four tees come to about $100 before the discount, which is where the biggest savings kicks in.` },
+  { q: 'Black Friday hoodie deals', a: 'Hoodies come on five blanks, each priced for what it is: pullover $39.99, zip-up $44.99, cropped $44.99, heavyweight $49.99 and oversized $54.99. Most designs come as a tee, a crewneck and a hoodie, so you can pick the weight that fits who you are buying for.', link: hoodiesHubLive() ? { href: '/hoodies/', text: 'Shop all graphic hoodies' } : undefined },
+  { q: 'Black Friday gift deals', a: 'Shopping for someone else? Our gift guides pick the designs that get a laugh when the box is opened and get worn after: funny golf gifts for the golfer who has everything and white elephant gifts that actually get stolen.', link: { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' } },
+  { q: 'Crew orders: 15% off 10 or more', a: 'Family photo, friend group or office party? Any order of 10 or more items takes 15% off automatically at checkout, all year.', link: live.has('group-shirts') ? { href: '/group-shirts/', text: 'Shop group and family shirts' } : undefined },
+  { q: 'Free US shipping on $45+', a: 'Orders of $45 or more ship free in the US, which is two tees, or a tee and a crewneck. Every piece is printed after you order it, so allow time for printing plus delivery.' },
+  { q: 'Wrong size? One free exchange', a: 'Within 30 days of delivery we send one replacement in a new size for free, and you keep the first one. That makes a shirt a safe gift even when you are guessing the size.' },
+];
+const tones: [string, string, string][] = [
+  ['var(--bf-ink)', 'var(--bf-cream)', 'var(--bf-volt)'],
+  ['var(--bf-volt)', 'var(--bf-ink)', 'var(--bf-ink)'],
+  ['var(--bf-cream)', 'var(--bf-ink)', 'var(--color-rust)'],
+];
+
 const faqs = [
-  { q: 'When do the Graphic Tees Co. Black Friday deals start?', a: 'The Graphic Tees Co. Black Friday deals go live on Thanksgiving night, Thursday, November 26, 2026, and run through Cyber Monday, November 30. The holiday prices on this page (tees $24.99, crewnecks $34.99, hoodies from $39.99) apply right now, so you do not have to wait to order.' },
-  { q: 'What is on sale for Black Friday?', a: 'Every original graphic tee, crewneck sweatshirt and hoodie in the Graphic Tees Co. shop. Today tees are $24.99, crewnecks $34.99 and hoodies $39.99 to $54.99 depending on the blank. The Black Friday offer itself is posted on this page Thanksgiving night, November 26, 2026.' },
-  { q: 'Does the 15% crew order discount work during Black Friday?', a: 'Yes, the crew discount applies automatically at checkout to any Graphic Tees Co. order of 10 or more items, today and through the holidays. Whether it combines with the Black Friday offer will be stated on this page when the deals go live on Thanksgiving night, November 26.' },
+  { q: 'When do the Graphic Tees Co. Black Friday deals start?', a: `The Graphic Tees Co. Black Friday deals go live on Thanksgiving night, Thursday, November 26, ${bf.year}, at 6pm Central and run through Cyber Monday, November 30, at 11:59pm Central. Today's prices (tees $24.99, crewnecks $34.99, hoodies from $39.99) apply right now, so you do not have to wait to order.` },
+  { q: 'What is on sale for Black Friday?', a: `Every original graphic tee, crewneck sweatshirt and hoodie in the Graphic Tees Co. shop. During the sale, ${tierLine}, applied automatically at checkout.` },
+  { q: 'Does the 15% crew order discount work during Black Friday?', a: `Yes, but discounts do not stack: at checkout you get whichever saves more. For 4 or more items during Black Friday that is the ${top.pct}% deal; the 15% crew discount on 10+ items runs all year.` },
   { q: 'How long does shipping take on Black Friday orders?', a: 'Every Graphic Tees Co. piece is printed after you order it, then shipped by tracked US mail, so allow time for printing plus delivery. Orders over $45 ship free in the US. For Christmas gifts, order Black Friday weekend or early December; we post the exact cutoff here by December 1.' },
   { q: 'Can I exchange a Black Friday gift if the size is wrong?', a: 'Yes. Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size for free, and you do not have to mail the first one back. Misprinted or damaged orders are reprinted or refunded within 30 days, Black Friday orders included.' },
 ];
 const schema = [
-  faqPage(faqs),
+  faqPage([...answers, ...faqs]),
   breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Black Friday Deals', path }]),
   ...(picks.length ? [itemListOfProducts('Black Friday doorbusters', picks.map((p) => ({ name: p.title, handle: p.handle })))] : []),
 ];
-const link = 'font-semibold underline decoration-[var(--color-rust)] underline-offset-4';
 ---
 <Base title={title} description={description} schema={schema}>
-  <article class="container-x pt-10 prose-copy">
-    <div class="max-w-3xl">
-      <p class="eyebrow">Black Friday 2026 · Nov 26–30</p>
-      <h1 class="display text-5xl md:text-6xl mt-2">Black Friday Deals on Funny Graphic Tees &amp; Hoodies</h1>
-      <p class="!text-lg !text-[var(--color-ink)] mt-4 border-l-4 border-[var(--color-rust)] pl-4">
-        Our Black Friday graphic tee deals go live Thanksgiving night, Thursday, November 26, and run through Cyber Monday, November 30, 2026. Every design is original, printed to order and funny on purpose. Holiday prices are on now: tees $24.99, crewnecks $34.99, hoodies from $39.99, and US shipping is free on orders of $45 or more.
-      </p>
-
-      <h2>When are the deals?</h2>
-      <ul class="list-disc pl-5 grid gap-1 mt-3">
-        <li><strong>Thanksgiving night, Thu Nov 26:</strong> Black Friday deals go live on this page.</li>
-        <li><strong>Black Friday, Fri Nov 27</strong> through the weekend.</li>
-        <li><strong>Cyber Monday, Mon Nov 30:</strong> last day of the deals.</li>
-        <li><strong>Christmas:</strong> order Black Friday weekend or early December; the exact cutoff goes up here by December 1.</li>
-      </ul>
+  <div class="bf">
+    <!-- Offer bar -->
+    <div class="bf-bar overflow-hidden py-2.5 border-y-2 border-[var(--bf-ink)]" aria-hidden="true">
+      <div class="bf-marquee flex gap-8 whitespace-nowrap font-extrabold uppercase tracking-[.16em] text-xs">
+        {[0, 1].map(() => (
+          <span class="flex gap-8 shrink-0">
+            <span>Black Friday {dates}</span>
+            {bf.tiers.map((t) => <span>★ Buy {t.qty}{t === top ? '+' : ''} save {t.pct}%</span>)}
+            <span>★ Free US shipping $45+</span>
+            <span>★ No code needed</span>
+          </span>
+        ))}
+      </div>
     </div>
 
-    {picks.length > 0 && (
-      <section class="mt-12">
-        <h2 class="max-w-3xl">Doorbusters: the shirts people stop you about</h2>
-        <p class="max-w-3xl">Our favorite designs from this fall's redesign, each one a joke a stranger gets in three seconds.</p>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
-          {picks.map((p, i) => <ProductCard product={p} eager={i < 2} />)}
+    <!-- Hero: the offer is the headline -->
+    <section class="bf-hero relative overflow-hidden">
+      <div class="container-x relative grid md:grid-cols-[1.15fr_.85fr] gap-8 items-center py-10 md:py-16">
+        <div class="min-w-0">
+          <p class="font-extrabold uppercase tracking-[.2em] text-xs text-[var(--bf-volt)]">Graphic Tees Co. · Black Friday {bf.year}</p>
+          <h1 class="mt-3">
+            <span class="bf-display block text-[clamp(4.2rem,19vw,10rem)] leading-[.8]">Black<br/>Friday</span>
+            <span class="sr-only"> graphic tee and hoodie deals</span>
+          </h1>
+          <p class="mt-4 text-lg md:text-xl font-semibold text-[var(--bf-cream)] max-w-[30ch]">Grab more, save more. Up to <span class="text-[var(--bf-volt)]">{top.pct}% off</span> funny graphic tees and hoodies.</p>
+
+          <ol class="mt-6 grid grid-cols-3 gap-2 sm:gap-3 max-w-md" aria-label="Black Friday savings tiers">
+            {bf.tiers.map((t, i) => (
+              <li class={`bf-tier rounded-[14px] border-2 p-3 text-center ${i === bf.tiers.length - 1 ? 'bf-tier-top' : ''}`}>
+                <span class="block text-[11px] font-extrabold uppercase tracking-[.14em]">Buy {t.qty}{t === top ? '+' : ''}</span>
+                <span class="bf-display block text-[2.6rem] sm:text-5xl leading-none mt-1">{t.pct}%</span>
+                <span class="block text-[11px] font-bold uppercase tracking-[.14em]">off</span>
+              </li>
+            ))}
+          </ol>
+
+          <div class="mt-6" data-countdown data-start={bf.start} data-end={bf.end}>
+            <p class="text-xs font-extrabold uppercase tracking-[.2em] text-[var(--bf-cream)]/70" data-cd-label>Deals start Thanksgiving night in</p>
+            <div class="mt-2 flex gap-2 tabular-nums" data-cd-clock>
+              {['Days', 'Hrs', 'Min', 'Sec'].map((u) => (
+                <span class="bf-clock rounded-[10px] px-3 py-2 text-center min-w-[3.6rem]">
+                  <span class="bf-display block text-3xl leading-none" data-cd-unit>--</span>
+                  <span class="block text-[10px] font-bold uppercase tracking-[.14em] mt-1 opacity-70">{u}</span>
+                </span>
+              ))}
+            </div>
+          </div>
+
+          <div class="mt-7 flex flex-wrap gap-3">
+            <a href="#deals" class="bf-btn">Shop the deals</a>
+            <a href="#shop-by" class="bf-btn bf-btn-ghost">Shop by category</a>
+          </div>
+        </div>
+        {hero && (
+          <div class="relative mx-auto w-full max-w-sm">
+            <div class="bf-photo rounded-[22px] overflow-hidden border-2 border-[var(--bf-volt)] rotate-[1.5deg]">
+              <img src={hero.src} alt={hero.alt} class="w-full aspect-[4/5] object-cover" width="640" height="800" loading="eager" fetchpriority="high" />
+            </div>
+            <span class="bf-sticker absolute -top-4 -left-3 rotate-[-10deg]">Up to<br/><b>{top.pct}%</b><br/>off</span>
+          </div>
+        )}
+      </div>
+    </section>
+
+    <!-- Shop by -->
+    {tiles.length > 0 && (
+      <section id="shop-by" class="bf-dark border-t-2 border-[var(--bf-volt)]/30 scroll-mt-24">
+        <div class="container-x py-12">
+          <h2 class="bf-display text-[clamp(2.4rem,9vw,3.75rem)] leading-[.9] text-[var(--bf-cream)]">Shop <span class="text-[var(--bf-volt)]">by</span></h2>
+          <div class="mt-6 grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
+            {tiles.map((t, i) => (
+              <a href={t.href} class="bf-tile group relative block overflow-hidden rounded-[18px] border-2 border-[var(--bf-ink-2)]">
+                <img src={t.img!.src} alt={t.img!.alt} class="w-full aspect-[4/5] object-cover transition-transform duration-300 group-hover:scale-105" width="400" height="500" loading={i < 2 ? 'eager' : 'lazy'} />
+                <span class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" aria-hidden="true"></span>
+                <span class="absolute left-3 right-3 bottom-3">
+                  <span class="bf-display block text-2xl md:text-3xl leading-[.95] text-[var(--bf-cream)]">{t.label}</span>
+                  <span class="mt-1 inline-block bg-[var(--bf-volt)] text-[var(--bf-ink)] text-[10px] font-extrabold uppercase tracking-[.14em] px-2 py-0.5 rounded">{t.note}</span>
+                </span>
+              </a>
+            ))}
+          </div>
         </div>
       </section>
     )}
 
-    <div class="max-w-3xl">
-      <h2>Black Friday hoodie deals</h2>
-      <p>Hoodies come on five blanks, each priced for what it is: pullover $39.99, zip-up $44.99, cropped $44.99, heavyweight $49.99 and oversized $54.99. Most designs come as a tee, a crewneck and a hoodie, so you can pick the weight that fits who you are buying for.</p>
-      {hoodiesHubLive() && <p class="flex flex-wrap gap-x-4"><a href="/hoodies/" class={link}>Shop all graphic hoodies →</a></p>}
-
-      <h2>Black Friday gift deals and gift guides</h2>
-      <p>Shopping for someone else? These guides pick the designs that get a laugh when the box is opened and get worn after.</p>
-      <p class="flex flex-wrap gap-x-4">
-        <a href="/guides/funny-golf-gifts/" class={link}>Funny golf gifts →</a>
-        <a href="/guides/white-elephant-gifts/" class={link}>White elephant gifts →</a>
-      </p>
-
-      <h2>Crew orders: 15% off 10 or more</h2>
-      <p>Family photo, friend group or office party? Any order of 10 or more items takes 15% off automatically at checkout.</p>
-      {live.has('group-shirts') && <p><a href="/group-shirts/" class={link}>Shop group and family shirts →</a></p>}
-
-      <h2>Free US shipping on $45+</h2>
-      <p>Orders of $45 or more ship free in the US, which is two tees, or a tee and a crewneck. Every piece is printed after you order it, so allow time for printing plus delivery.</p>
-
-      <h2>Wrong size? One free exchange</h2>
-      <p>Within 30 days of delivery we send one replacement in a new size for free, and you keep the first one. That makes a shirt a safe gift even when you are guessing the size.</p>
-
-      <section class="mt-12 border-t border-[var(--color-line)] pt-6">
-        <p class="eyebrow">FAQ</p>
-        {faqs.map((f) => (
-          <>
-            <h2 class="!text-xl !normal-case !mt-6">{f.q}</h2>
-            <p class="!mt-2">{f.a}</p>
-          </>
-        ))}
+    <!-- Doorbusters -->
+    {picks.length > 0 && (
+      <section id="deals" class="bf-cream-bg scroll-mt-24">
+        <div class="container-x py-12">
+          <div class="flex flex-wrap items-end justify-between gap-3">
+            <h2 class="bf-display text-[clamp(2.4rem,9vw,3.75rem)] leading-[.9]">Doorbusters</h2>
+            <p class="text-sm font-semibold text-[var(--color-ink-2)] max-w-[34ch]">The shirts people stop you about. Mix any {top.qty} and save {top.pct}%.</p>
+          </div>
+          <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
+            {picks.map((p, i) => (
+              <div class="relative">
+                <span class="bf-tag absolute top-2 right-2 z-20">Up to {top.pct}% off</span>
+                <ProductCard product={p} eager={i < 2} />
+              </div>
+            ))}
+          </div>
+          <p class="mt-8"><a href="/" class="btn">Shop every design</a></p>
+        </div>
       </section>
-      <p class="mt-10"><a href="/" class="btn">Shop original graphic tees</a></p>
-    </div>
-  </article>
+    )}
+
+    <!-- Answer cards: all the long-form copy, visible, in swipeable cards -->
+    <section class="bf-dark">
+      <div class="container-x py-14">
+        <div class="flex items-end justify-between gap-4">
+          <p class="bf-display text-[clamp(2.4rem,9vw,3.75rem)] leading-[.9] text-[var(--bf-cream)]">Black Friday, <span class="text-[var(--bf-volt)]">answered</span></p>
+          <div class="hidden sm:flex gap-2 shrink-0" data-answers-nav>
+            <button type="button" aria-label="Previous answer" data-dir="-1" class="bf-nav">←</button>
+            <button type="button" aria-label="Next answer" data-dir="1" class="bf-nav">→</button>
+          </div>
+        </div>
+        <div data-answers class="mt-6 -mx-4 px-4 flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+          {answers.map((x, i) => {
+            const [bg, fg, ac] = tones[i % tones.length];
+            return (
+              <article class="snap-start shrink-0 w-[84%] sm:w-[60%] md:w-[42%] rounded-[18px] border-2 border-[var(--bf-volt)] p-6 flex flex-col" style={`background:${bg};color:${fg}`}>
+                <span class="bf-display text-5xl leading-none" style={`color:${ac}`}>{String(i + 1).padStart(2, '0')}</span>
+                <h2 class="bf-display mt-3 text-[1.9rem] leading-[.95]" style={`color:${fg}`}>{x.q}</h2>
+                <p class="mt-3 text-[15px] leading-relaxed" style={`color:${fg};opacity:.92`}>{x.a}</p>
+                {x.link && <a href={x.link.href} class="mt-auto pt-4 font-bold uppercase tracking-[.12em] text-xs underline underline-offset-4" style={`color:${fg}`}>{x.link.text} →</a>}
+              </article>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="bf-cream-bg">
+      <div class="container-x py-12 max-w-3xl">
+        <Faq faqs={faqs} heading="Black Friday FAQ" />
+        <p class="mt-10 flex flex-wrap gap-3"><a href="#deals" class="btn">Back to the deals</a></p>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const track = document.querySelector<HTMLElement>('[data-answers]');
+    document.querySelectorAll<HTMLButtonElement>('[data-answers-nav] button').forEach((b) =>
+      b.addEventListener('click', () => track?.scrollBy({ left: Number(b.dataset.dir) * track.clientWidth * 0.8, behavior: 'smooth' })));
+
+    // Countdown: to the start before the sale, to the end during it, hidden after.
+    const cd = document.querySelector<HTMLElement>('[data-countdown]');
+    if (cd) {
+      const start = Date.parse(cd.dataset.start!), end = Date.parse(cd.dataset.end!);
+      const label = cd.querySelector<HTMLElement>('[data-cd-label]')!;
+      const units = cd.querySelectorAll<HTMLElement>('[data-cd-unit]');
+      const tick = () => {
+        const now = Date.now();
+        if (now >= end) { cd.hidden = true; return; }
+        const target = now < start ? start : end;
+        label.textContent = now < start ? 'Deals start Thanksgiving night in' : 'Deals end Cyber Monday in';
+        let s = Math.max(0, Math.floor((target - now) / 1000));
+        const parts = [Math.floor(s / 86400), Math.floor((s % 86400) / 3600), Math.floor((s % 3600) / 60), s % 60];
+        units.forEach((u, i) => (u.textContent = String(parts[i]).padStart(2, '0')));
+      };
+      tick();
+      setInterval(tick, 1000);
+    }
+  </script>
 </Base>
+
+<style>
+  .bf {
+    --bf-ink: #0d0e0c;
+    --bf-ink-2: #23251f;
+    --bf-volt: #d4ff3a;
+    --bf-cream: #f8f3e8;
+  }
+  .bf-display { font-family: var(--font-display); font-weight: 900; text-transform: uppercase; letter-spacing: -.005em; }
+  .bf-bar { background: var(--bf-volt); color: var(--bf-ink); }
+  .bf-marquee { animation: bf-scroll 28s linear infinite; width: max-content; }
+  @keyframes bf-scroll { to { transform: translateX(-50%); } }
+  @media (prefers-reduced-motion: reduce) { .bf-marquee { animation: none; } }
+  .bf-hero, .bf-dark { background: var(--bf-ink); color: var(--bf-cream); }
+  .bf-hero::before { content: ''; position: absolute; inset: 0; pointer-events: none;
+    background: radial-gradient(60% 50% at 85% 20%, rgba(212,255,58,.16), transparent 70%), radial-gradient(40% 40% at 0% 100%, rgba(212,255,58,.08), transparent 70%); }
+  .bf-hero h1 .bf-display { color: var(--bf-cream); text-shadow: .045em .045em 0 var(--bf-volt); }
+  .bf-cream-bg { background: var(--color-paper); color: var(--color-ink); }
+  .bf-tier { border-color: var(--bf-cream); color: var(--bf-cream); background: var(--bf-ink-2); }
+  .bf-tier-top { background: var(--bf-volt); border-color: var(--bf-volt); color: var(--bf-ink); box-shadow: 0 0 28px rgba(212,255,58,.35); }
+  .bf-clock { background: var(--bf-ink-2); border: 1px solid rgba(212,255,58,.35); color: var(--bf-volt); }
+  .bf-btn { display: inline-flex; align-items: center; min-height: 48px; padding: 0 1.4rem; border-radius: 999px; font-weight: 800; text-transform: uppercase; letter-spacing: .1em; font-size: .85rem;
+    background: var(--bf-volt); color: var(--bf-ink); border: 2px solid var(--bf-volt); transition: transform .15s, box-shadow .15s; }
+  .bf-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(212,255,58,.35); }
+  .bf-btn-ghost { background: transparent; color: var(--bf-cream); border-color: var(--bf-cream); }
+  .bf-photo { box-shadow: 0 0 0 6px var(--bf-ink), 0 0 50px rgba(212,255,58,.25); }
+  .bf-sticker { display: grid; place-items: center; width: 6.2rem; height: 6.2rem; border-radius: 999px; background: var(--bf-volt); color: var(--bf-ink);
+    font-weight: 800; text-transform: uppercase; font-size: .7rem; line-height: 1.05; text-align: center; letter-spacing: .08em; border: 3px solid var(--bf-ink); }
+  .bf-sticker b { font-family: var(--font-display); font-size: 2.1rem; font-weight: 900; letter-spacing: 0; }
+  .bf-tag { background: var(--bf-ink); color: var(--bf-volt); font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; padding: .2rem .5rem; border-radius: 4px; }
+  .bf-nav { width: 2.75rem; height: 2.75rem; border-radius: 999px; border: 2px solid var(--bf-volt); color: var(--bf-volt); font-weight: 700; }
+  .bf-nav:hover { background: var(--bf-volt); color: var(--bf-ink); }
+</style>
