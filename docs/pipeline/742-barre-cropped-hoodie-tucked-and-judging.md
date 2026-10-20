@@ -1,7 +1,8 @@
-status: BUILDING [B] 20:34
+status: ART-NEXT
 lane: B
 type: new
 id: 742
+shopify: gid://shopify/Product/15370894934320
 handle: womens-barre-tucked-and-judging-cropped-hoodie
 kd: 32
 ---
