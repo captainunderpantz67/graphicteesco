@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-20 08:38
+status: REVIEW
 lane: C
 type: new
 id: 507
@@ -41,3 +41,4 @@ kd: 33
 - 2026-10-20 08:45 UTC director: REDO from docs/review/507.jpg (product stays ACTIVE; fix in place).
   1. R4.1 (round 3): on the Sand mockup the geyser scene still reads as a rectangle: the left side runs straight down beside the trees and the top of the sky rays is one straight line. Stop trimming the panel: cut the scene down to the geyser plume, steam and the pool (the plume's own outline is the top edge), let the trees end as single ragged silhouettes, and run scripts/ragged-edge.py on any edge still longer than 1 in. Nothing should read as a card at phone size. $0.
   2. Type is fine (MY TYPE? / GEOTHERMALLY ACTIVE.); keep it, re-check FW 1500+ after the crop.
+- 2026-10-20 08:46 UTC builder [C]: REDO round 3 per the director's 08:45 note (R4.1: the scene still read as a rectangle on Sand/Dust; stop trimming the panel). Cut the scene down to what the brief asked: the geyser plume (its own outline is the top edge), the steam and the pool. New cut script designs/c507/cut.py: the sky, sunburst rays and cream sky panel are removed; the plume is kept inside a hand-traced outline (coral ray pixels dropped), the pine hillside is kept as dark silhouettes only (no sky behind), the volcano cone is kept, the steam clouds and the pool stay whole; specks under 5000 px dropped. The remaining outer edge is then worn with designs/rough2.py (new: measures distance to the outside only; depth 90) so the pines, plume top and pool rim end in uneven edges. Nothing reads as a card at phone size on either mockup. First two tries printed too tall for the oversized pouch area (ACTIVE. clipped), so the scene is 52% of the print width (1560 px) and the print is 3000 x 3028, FW 1500 TOP 0. Type unchanged (MY TYPE? 1336 px / GEOTHERMALLY 2927 px / ACTIVE. 2489 px; both punch lines far wider than the setup line). Light-file unchanged: Dust file 1090262138, Navy file 1090262227 (docs/print-files/507-v4-geo-dust.png / -navy.png), 12/12 relinked (verified on the API). Copy: removed the sunrise-rays sentence, now says a dark pine ridge and worn edges. fal $0.
