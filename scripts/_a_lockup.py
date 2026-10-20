@@ -7,9 +7,10 @@ import sys, json
 from PIL import Image, ImageDraw, ImageFont
 art, out, W, ratio, order, spec = sys.argv[1:7]; W = int(W); ratio = float(ratio); spec = json.load(open(spec))
 a = Image.open(art).convert('RGBA'); a = a.crop(a.getbbox())
-def line(t, font, fill, maxw, size=1400, track=0.0):
+def line(t, font, fill, maxw, size=1400, track=0.0, wght=None):
     while True:
         f = ImageFont.truetype('designs/fonts/' + font, size); tr = int(size * track)
+        if wght: f.set_variation_by_axes([wght])
         adv = [f.getlength(c) for c in t]; tot = int(sum(adv) + tr * (len(t) - 1))
         if tot <= maxw: break
         size = int(size * 0.99)
@@ -18,7 +19,7 @@ def line(t, font, fill, maxw, size=1400, track=0.0):
     return im.crop(im.getbbox())
 def spec_stroke(c): return 0
 gap = 100
-L = [line(s['text'], s['font'], s['fill'], int(W * s.get('maxw', 1.0)), s.get('size', 1400)) for s in spec]
+L = [line(s['text'], s['font'], s['fill'], int(W * s.get('maxw', 1.0)), s.get('size', 1400), s.get('track', 0.0), s.get('wght')) for s in spec]
 texth = sum(l.height for l in L) + gap * len(L)
 ah = int(ratio * W - texth); aw = int(ah * a.width / a.height)
 if aw > W: aw = W; ah = int(aw * a.height / a.width)
