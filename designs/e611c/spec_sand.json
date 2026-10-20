@@ -1,0 +1,3 @@
+{"art":"designs/e611c/art.png","out":"designs/e611c/print_sand.png","art_w":0.8,"knock":3000,"halo":0,
+ "top":{"text":"GAME. SET.","font":"BowlbyOne-Regular.ttf","stroke":0,"w":1.0,"fill":"#1b2a4a"},
+ "bottom":{"text":"LEMONADE.","font":"BowlbyOne-Regular.ttf","stroke":0,"w":1.0,"fill":"#c0392b","ref":"W"},"overlap":0.0,"gap":30}
