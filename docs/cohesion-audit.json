@@ -1,6 +1,6 @@
 {
- "at": "2026-10-20T05:44:30.039Z",
- "products": 608,
+ "at": "2026-10-20T06:46:29.614Z",
+ "products": 609,
  "findings": [
   {
    "level": "WARN",
@@ -190,6 +190,13 @@
    "title": "Men's Pirate – Pillaging Is a Young Man's Game Hoodie",
    "msg": "\"pirate hoodie\" appears 11× in the copy (keyword stuffing).",
    "fix": "Use it once or twice, naturally."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-nurse-embroidered-night-shift-silly-goose-crewneck-sweatshirt",
+   "title": "Women's Nurse – Embroidered Awake. Regrettably. Crewneck Sweatshirt",
+   "msg": "No meta description.",
+   "fix": "Write one ≤ 155 chars."
   },
   {
    "level": "WARN",
