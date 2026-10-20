@@ -1,0 +1,26 @@
+status: READY
+lane: C
+type: new
+id: 765
+handle: unisex-climbing-afraid-of-heights-climbs-anyway-hoodie
+kd: 30
+---
+## Unisex Climbing – Afraid of Heights. Climbs Anyway. Hoodie
+- **Why now:** hoodies cluster (lane C, R11.11). "climbing hoodie" 390 / KD 30 is unclaimed; bouldering gyms run all winter.
+- **Blank:** Pullover Gildan 18500 (Printful #146), Sand + Navy (R7.1/R7.2); handle ends -hoodie. Sand gets its own file with every word in solid dark ink and open counters, no cream keyline (R5.3.8). FW 1500 floor (R5.3.2); keep the lockup above the pouch seam by reshaping, never by shrinking.
+- **Art prompt:** Vintage 1960s outdoor-magazine screen-print illustration: a rock climber in a beanie, harness and chalk bag clinging flat to a sheer granite face with both hands and both feet, eyes squeezed shut, knees visibly shaking with small motion lines, a rope running down out of frame, a few small pebbles falling. The rock face is the shape and ends in ragged broken edges. Muted palette (granite grey, rust, sage, mustard, cream, soft black linework), halftone shading, worn texture. No person unless named, no frame, no border, no badge, no dark patch, no brand logo, no words anywhere. New art: one Recraft v4 call (--n 1, fal wallet only via scripts/fal_budget.py), picture only, no words; at most 3 tries, then PARK. Style A (R4.2), vintage to the edges: no badge, frame, rounded scene card, panel or dark patch (R4.1); every side ends where its own objects end (scripts/ragged-edge.py on any straight or smooth edge). Every held object attached to a hand, paw or surface; correct anatomy (R5.3.4). Correct climbing gear (harness with belay loop, rope tied into the harness, climbing shoes).
+- **Text on hoodie (spelled exactly):** AFRAID OF HEIGHTS. (headline above) / CLIMBS ANYWAY. (punch below, at least as wide as the headline, the loudest line). Navy: cream headline, mustard punch; Sand: dark slate headline, deep rust punch. Every word set with scripts/compose-print.py in one heavy display face from designs/fonts used on no more than 1 in 6 of the last 30 designs (add an OFL Google font if the kit feels repetitive). Headline at least 90% of the art width; the punch line at least as wide as the headline, never the smallest line (R3.7.8). Use the lettering as a shape (the subject breaks into the lockup), not two plain bars with the art floating between (quality-reset bar). Solid ink, no pattern fill, no thin script (R5.3.10). No letter touches the art.
+- **Five lines considered (R3.13, compared with "Wildly Low Maintenance", "Lift Heavy. Reply Later.", "Plot Twist: I Stayed In"):** Afraid of Heights. Climbs Anyway. · Just Hanging Out. · Sent It. Eventually. · Chalk Is a Personality. · My Forearms Are Tired. Kept the first: a self-aware contrast every climber admits to, and the shaking climber carries it with no backstory. "Just Hanging Out." is a stock pun (R3.7.2), cut.
+- **Hook:** climbers and boulderers of any gender; the climbing gym, the crag, the friend who keeps going anyway. Unisex.
+- **Why it's not taken:** climbing hoodies are mostly mountain outlines and "climb on" text; a deadpan scared-climber joke is uncommon.
+- **Primary keyword:** climbing hoodie: 390 / KD 30 (RankHero via scripts/keyword-gap.py, 2026-10-21 00:00 UTC, director). KD 21–35 band; unowned.
+- **Title / handle:** "Unisex Climbing – Afraid of Heights. Climbs Anyway. Hoodie" / `unisex-climbing-afraid-of-heights-climbs-anyway-hoodie`.
+- **Tags:** graphic-hoodies-for-men, graphic-hoodies-for-women, hoodie, climbing, ai-art, intake-done.
+- **R5.2 proof gate:** RankHero keyword pages no longer show the listing grid (R5.2, 2026-10-19), so no favorites number is on file. Before spending fal, log one same-format listing on this theme with 500+ favorites (favorites, not views; RankHero or Etsy search). None found = PARKED.
+- **Copy:** line one = the joke + who wears it + when, said plainly (R9.11); no superlative opener, no "one of the <keyword>" (R8.3), no production words, never "we drew". Primary in the SEO title, first sentence and once in the meta, at most 3 times in all; SEO title ≤ 60, meta ≤ 155 (R8.4). SOP three sections; 4–6 answer-first FAQs at 40–60 words (fit and 8 oz fleece from the Printful spec only, sizing, care, Christmas order-by about Dec 8, one free size exchange). Name the ink colors the mockups show; read line one noun by noun against the art (R8.3). Record the primary in docs/product-keyword-map.json with this handle.
+- **Cover:** none (R6.11): plain Printful product shot, no person, no Printful model photo, no registry row. **R6.12:** front print only, no back-print mockup; the printed front is image 1 and the neck-logo back view goes LAST (R6.13).
+- **Price:** $39.99 (R12.1 pullover), NO compare-at.
+- **Before REVIEW:** variant files verified on Printful and logged (R7.7, "N/N on <file id>"); every word read at phone size on Sand AND Navy (R5.3.8); 7h ink widths, 7k type share, 7l subject share (45%+) logged; review sheet via scripts/review-sheet.py; `node scripts/cohesion-audit.mjs --handle <handle>` passes except "not active".
+---
+## Log
+- 2026-10-21 00:05 UTC director: brief written, READY (lane C hoodies cluster; primary measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).

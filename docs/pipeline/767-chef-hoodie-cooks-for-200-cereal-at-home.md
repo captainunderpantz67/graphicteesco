@@ -1,0 +1,26 @@
+status: READY
+lane: C
+type: new
+id: 767
+handle: unisex-chef-cooks-for-200-cereal-at-home-hoodie
+kd: 34
+---
+## Unisex Chef – Cooks for 200. Cereal at Home. Hoodie
+- **Why now:** hoodies cluster (lane C, R11.11). "chef hoodie" 140 / KD 34 is unclaimed and still in the KD 21–35 band, so it goes before the KD 36+ phrases (R2.5).
+- **Blank:** Pullover Gildan 18500 (Printful #146), Sand + Navy (R7.1/R7.2); handle ends -hoodie. Sand gets its own file with every word in solid dark ink and open counters, no cream keyline (R5.3.8). FW 1500 floor (R5.3.2); keep the lockup above the pouch seam by reshaping, never by shrinking.
+- **Art prompt:** Vintage 1950s diner-poster screen-print illustration: a tired line cook in a white chef jacket, bandana and apron sitting slumped on an upturned milk crate, eating a big bowl of cereal with a spoon, half-lidded eyes, a tall stack of steel sauté pans and a ticket rail full of order slips beside him. Muted palette (cream, tomato red, mustard, steel blue, soft black linework), halftone shading, worn screen-print texture. No person unless named, no frame, no border, no badge, no dark patch, no brand logo, no words anywhere. New art: one Recraft v4 call (--n 1, fal wallet only via scripts/fal_budget.py), picture only, no words; at most 3 tries, then PARK. Style A (R4.2), vintage to the edges: no badge, frame, rounded scene card, panel or dark patch (R4.1); every side ends where its own objects end (scripts/ragged-edge.py on any straight or smooth edge). Every held object attached to a hand, paw or surface; correct anatomy (R5.3.4). Order slips are blank (no writing).
+- **Text on hoodie (spelled exactly):** COOKS FOR 200. (headline above) / CEREAL AT HOME. (punch below, at least as wide as the headline, the loudest line). Navy: cream headline, tomato-red punch at least 2 steps lighter than on Sand; Sand: dark navy headline, deep red punch. Every word set with scripts/compose-print.py in one heavy display face from designs/fonts used on no more than 1 in 6 of the last 30 designs (add an OFL Google font if the kit feels repetitive). Headline at least 90% of the art width; the punch line at least as wide as the headline, never the smallest line (R3.7.8). Use the lettering as a shape (the subject breaks into the lockup), not two plain bars with the art floating between (quality-reset bar). Solid ink, no pattern fill, no thin script (R5.3.10). No letter touches the art.
+- **Five lines considered (R3.13, compared with "Main Character, Background Energy", "Oops. Anyway.", "Politely, No."):** Cooks for 200. Cereal at Home. · Behind You. Always. · Heard. Ignoring It. · Hot Pan, Cold Coffee. · Family Meal Was Chips. Kept the first: the cook's contrast every kitchen worker laughs at, and the cereal bowl carries it with no backstory. No TV-show catchphrases ("Yes, Chef") (R3.7.4).
+- **Hook:** line cooks, chefs, servers and culinary students, any gender; the walk-in, the late shift, the gift from a partner who eats cereal with them at midnight. Unisex.
+- **Why it's not taken:** chef hoodies on Etsy are mostly knife logos and "chef life" stacks; the cereal contrast is uncommon.
+- **Primary keyword:** chef hoodie: 140 / KD 34 (RankHero via scripts/keyword-gap.py, 2026-10-21 00:00 UTC, director). KD 21–35 band; unowned.
+- **Title / handle:** "Unisex Chef – Cooks for 200. Cereal at Home. Hoodie" / `unisex-chef-cooks-for-200-cereal-at-home-hoodie`.
+- **Tags:** graphic-hoodies-for-men, graphic-hoodies-for-women, hoodie, chef, ai-art, intake-done.
+- **R5.2 proof gate:** RankHero keyword pages no longer show the listing grid (R5.2, 2026-10-19), so no favorites number is on file. Before spending fal, log one same-format listing on this theme with 500+ favorites (favorites, not views; RankHero or Etsy search). None found = PARKED.
+- **Copy:** line one = the joke + who wears it + when, said plainly (R9.11); no superlative opener, no "one of the <keyword>" (R8.3), no production words, never "we drew". Primary in the SEO title, first sentence and once in the meta, at most 3 times in all; SEO title ≤ 60, meta ≤ 155 (R8.4). SOP three sections; 4–6 answer-first FAQs at 40–60 words (fit and 8 oz fleece from the Printful spec only, sizing, care, Christmas order-by about Dec 8, one free size exchange). Name the ink colors the mockups show; read line one noun by noun against the art (R8.3). Record the primary in docs/product-keyword-map.json with this handle.
+- **Cover:** none (R6.11): plain Printful product shot, no person, no Printful model photo, no registry row. **R6.12:** front print only, no back-print mockup; the printed front is image 1 and the neck-logo back view goes LAST (R6.13).
+- **Price:** $39.99 (R12.1 pullover), NO compare-at.
+- **Before REVIEW:** variant files verified on Printful and logged (R7.7, "N/N on <file id>"); every word read at phone size on Sand AND Navy (R5.3.8); 7h ink widths, 7k type share, 7l subject share (45%+) logged; review sheet via scripts/review-sheet.py; `node scripts/cohesion-audit.mjs --handle <handle>` passes except "not active".
+---
+## Log
+- 2026-10-21 00:05 UTC director: brief written, READY (lane C hoodies cluster; primary measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).
