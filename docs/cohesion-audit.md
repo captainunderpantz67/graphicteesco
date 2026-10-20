@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-19 18:44 UTC
+# Cohesion audit — 2026-10-20 17:48 UTC
 
-600 live products checked · **0 errors** · 30 warnings · 28 products with findings
+618 live products checked · **0 errors** · 43 warnings · 39 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -31,22 +31,25 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Unisex Christmas – Mountain Christmas Bear Hoodie `unisex-christmas-mountain-christmas-bear-hoodie`
 - **WARN** No meta description. → Write one ≤ 155 chars.
 
-### Unisex Thanksgiving – Totally a Pilgrim Hoodie `unisex-thanksgiving-totally-a-pilgrim-hoodie`
+### Women's Christmas Nurse – Checking It Twice, Charting It Three Times Crewneck Sweatshirt `womens-christmas-christmas-nurse-crewneck-sweatshirt`
+- **WARN** Non-holiday design (christmas nurse) listed in "Christmas Sweatshirts". → Only keep it there if the art is genuinely for that holiday.
+
+### Unisex Thanksgiving – Not a Turkey, Just a Pilgrim Hoodie `unisex-thanksgiving-totally-a-pilgrim-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
 
 ### Women's Thanksgiving – Friendsgiving Hoodie `womens-thanksgiving-friendsgiving-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
 
-### Unisex Thanksgiving – Laying Low Till Friday Hoodie `unisex-thanksgiving-laying-low-till-friday-turkey-hoodie`
+### Unisex Thanksgiving – No Turkey Here, Just a Guy in a Hoodie `unisex-thanksgiving-laying-low-till-friday-turkey-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
 - **WARN** "turkey hoodie" appears 6× in the copy (keyword stuffing). → Use it once or twice, naturally.
 
-### Women's Black Friday – In It for the Doorbusters Tee `womens-black-friday-in-it-for-the-doorbusters-graphic-tee`
+### Women's Black Friday – I'm Not Shopping. I'm Competing. Tee `womens-black-friday-in-it-for-the-doorbusters-graphic-tee`
 - **WARN** Non-holiday design (black friday) listed in "Thanksgiving Tees". → Only keep it there if the art is genuinely for that holiday.
 - **WARN** Non-holiday design (black friday) listed in "Funny Thanksgiving Shirts". → Only keep it there if the art is genuinely for that holiday.
 
-### Women's Axolotl – Smiling Through It Oversized Hoodie `womens-axolotl-smiling-through-it-oversized-hoodie`
-- **WARN** "axolotl hoodie" appears 7× in the copy (keyword stuffing). → Use it once or twice, naturally.
+### Women's Capybara – Per My Last Email, I'm Soaking Oversized Hoodie `womens-capybara-out-of-office-soaking-oversized-hoodie`
+- **WARN** No meta description. → Write one ≤ 155 chars.
 
 ### Women's Coffee – Espresso Yourself Hoodie `womens-coffee-espresso-yourself-hoodie`
 - **WARN** No meta description. → Write one ≤ 155 chars.
@@ -54,13 +57,7 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Unisex Outdoors – Went Outside It Was Fine Heavyweight Hoodie `unisex-outdoors-went-outside-it-was-fine-heavyweight-hoodie`
 - **WARN** "national park hoodie" appears 4× in the copy (keyword stuffing). → Use it once or twice, naturally.
 
-### Women's Volleyball – I Yell Free Ball at Everything Hoodie `womens-volleyball-i-only-dive-for-snacks-hoodie`
-- **WARN** "volleyball hoodie" appears 5× in the copy (keyword stuffing). → Use it once or twice, naturally.
-
-### Women's Western – Saturday Night Rodeo Hoodie `womens-western-saturday-night-rodeo-hoodie`
-- **WARN** "rodeo hoodie" appears 8× in the copy (keyword stuffing). → Use it once or twice, naturally.
-
-### Women's Thanksgiving – Pie Season Pumpkin Hoodie `womens-thanksgiving-pie-season-pumpkin-hoodie`
+### Women's Thanksgiving – Turkey Was the Warm-Up Pumpkin Hoodie `womens-thanksgiving-pie-season-pumpkin-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
 
 ### Women's Thanksgiving – Spill the Gravy Hoodie `womens-thanksgiving-spill-the-gravy-hoodie`
@@ -75,20 +72,58 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Women's Thanksgiving – Here for the Scraps Hoodie `womens-thanksgiving-here-for-the-scraps-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
 
+### Unisex Otter – Today's Plan: Horizontal Hoodie `unisex-otter-currently-drifting-hoodie`
+- **WARN** Meta description is 161 chars (> 160). → Trim to ≤ 155.
+
 ### Unisex Thanksgiving – Turkey Trot Hoodie `unisex-thanksgiving-turkey-trot-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
+
+### Unisex Anime – Gold Is Overrated, I Prefer Dumplings Hoodie `unisex-anime-snack-hoard-dragon-hoodie`
+- **WARN** Meta description is 165 chars (> 160). → Trim to ≤ 155.
 
 ### Women's Anime – Slurp Responsibly Half Zip `womens-anime-slurp-responsibly-half-zip`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 
-### Men's Pig – Mud Bath Booked, Plans Canceled Oversized Hoodie `mens-pig-wallowing-respectfully-oversized-hoodie`
-- **WARN** "pig hoodie" appears 5× in the copy (keyword stuffing). → Use it once or twice, naturally.
-
 ### Men's Pirate – Pillaging Is a Young Man's Game Hoodie `mens-pirate-pillaging-is-a-young-mans-game-hoodie`
 - **WARN** "pirate hoodie" appears 11× in the copy (keyword stuffing). → Use it once or twice, naturally.
 
-### Women's Volleyball Mom – 7 A.M. Check-In Tee `womens-volleyball-mom-seven-am-check-in-graphic-tee`
+### Unisex Crow – Finders Keepers, Sorry About Your Earring Hoodie `unisex-crow-shiny-object-syndrome-hoodie`
+- **WARN** SEO title is 61 chars (> 60). → Trim to ≤ 60.
+
+### Women's Nurse – Embroidered Awake. Regrettably. Crewneck Sweatshirt `womens-nurse-embroidered-night-shift-silly-goose-crewneck-sweatshirt`
+- **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
+
+### Men's Chess – Sorry About Your Pawn Hoodie `mens-chess-calculated-mostly-hoodie`
+- **WARN** Meta description is 164 chars (> 160). → Trim to ≤ 155.
+
+### Unisex Running – On My Way, Eventually Zip Hoodie `unisex-running-pace-leisurely-zip-hoodie`
+- **WARN** Meta description is 162 chars (> 160). → Trim to ≤ 155.
+
+### Men's Grandpa – I'm Fixing It, Eyes Closed Hoodie `mens-grandpa-i-fix-things-after-naps-hoodie`
 - **WARN** No meta description. → Write one ≤ 155 chars.
 
-### Women's Gigi – Because Grandma Sounded Old Hoodie `womens-gigi-because-grandma-sounded-old-hoodie`
-- **WARN** "gigi hoodie" appears 4× in the copy (keyword stuffing). → Use it once or twice, naturally.
+### Unisex Pitbull – The Belly Is Open Hoodie `unisex-pitbull-velvet-hippo-social-club-hoodie`
+- **WARN** No meta description. → Write one ≤ 155 chars.
+
+### Unisex Golf – Sorry About Your Windshield Socks `unisex-golf-sorry-about-your-windshield-socks`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
+### Men's Fishing – Fishing Is My Love Language Socks `mens-fishing-love-language-socks`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
+### Unisex Nurse – Calm Face, Loud Brain Socks `unisex-nurse-calm-face-loud-brain-socks`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
+### Unisex Cat – Allegedly Socks `unisex-cat-allegedly-socks`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
+### Men's Christmas – Attending Under Protest Socks `mens-christmas-attending-under-protest-socks`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+- **WARN** christmas design isn't in any christmas collection. → Tag it so it appears in the christmas shirts page.
+
+### Women's Outdoorsy – Outdoorsy in Theory Cropped Hoodie `womens-outdoorsy-in-theory-cropped-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Bookish – Do Not Sell My Books at My Funeral Socks `unisex-bookish-do-not-sell-my-books-at-my-funeral-socks`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+- **WARN** No entry in docs/product-keyword-map.json (no measured primary keyword recorded). → Run scripts/keyword-gap.py and record its phrases.
