@@ -1,8 +1,9 @@
-status: BUILDING [B] 2026-10-20 22:54Z
+status: REVIEW
 lane: B
 type: new
 id: 758
 handle: womens-cycling-here-for-the-downhill-cropped-hoodie
+shopify: gid://shopify/Product/15371225760048
 kd: 30
 ---
 ## Women's Cycling – Here for the Downhill. Cropped Hoodie
@@ -25,3 +26,4 @@ kd: 30
 ---
 ## Log
 - 2026-10-20 22:55 UTC director: brief written, READY (lane B, cycling hoodie: 720 / KD 30; measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).
+- 2026-10-20 23:04 UTC builder [B]: built to REVIEW. One Recraft call ($0.04, 1 of 3): ponytail rider coasting downhill, eyes closed, striped jersey; wheel gaps knocked out, skin kept. Lockup HERE FOR THE above, art, DOWNHILL. below (Big Shoulders 900, used on ~2 of the last 60 pipeline edits), cream headline / mustard punch. 7h: headline 3208 px / punch 3430 px = 107%. 7k: type 1126 of 2833 px = 40%. 7l: subject 1560 of 3430 px = 45%. Print docs/print-files/k758.png, Printful file 1090734732, FW 1500 TOP 0. Colors Black + Storm instead of Peach: Peach exists only in XL on catalog #317, so a half-sized color was not offered (both dark, no light file needed). R7.7: 10/10 on 1090734732, back logo 1080398177 on 10/10. Shopify DRAFT 15371225760048, $44.99 no compare-at, category hoodies aa-1-13-13, tags cropped-hoodies + cropped-sweatshirts + graphic-hoodies-for-women + hoodie + cycling, SEO title 54 / meta 127, 6 FAQs 47-50 words, order-by Dec 8, 'cycling hoodie' 3 times. Photos: Black front, Storm front, neck-logo back last (R6.12/R6.13), each color its own photo. Cover: flat product shot (retired-covers.json). Keyword map: cycling hoodie 720/30. R5.2 proof gate and Etsy line search not verifiable from the builder; director to judge. Audit not run (esbuild missing). fal $0.04.

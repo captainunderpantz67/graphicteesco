@@ -10683,6 +10683,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-cycling-here-for-the-downhill-cropped-hoodie": {
+   "claimed": [
+    "cycling hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cycling hoodie",
+     "volume": 720,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
