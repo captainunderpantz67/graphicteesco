@@ -1,0 +1,3 @@
+{"art": "designs/b482/art.png", "out": "designs/b482d/print_dark.png", "W": 3600, "art_w": 0.58, "knock": 3000, "gap": 60, "solid": true,
+ "top": {"lines": ["PROMISED TO BEHAVE"], "font": "Graduate-Regular.ttf", "w": 0.94, "fill": "#f3e7cf", "stroke": 12, "sfill": "#f3e7cf"},
+ "bottom": {"lines": ["DIDN'T SAY", "FOR HOW LONG."], "font": "Graduate-Regular.ttf", "w": 0.94, "fill": "#e8b13a", "stroke": 12, "sfill": "#e8b13a"}}
