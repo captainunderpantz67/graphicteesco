@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-20 02:44 UTC
+# Cohesion audit — 2026-10-20 03:29 UTC
 
-606 live products checked · **0 errors** · 29 warnings · 27 products with findings
+607 live products checked · **0 errors** · 28 warnings · 26 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -53,9 +53,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Unisex Outdoors – Went Outside It Was Fine Heavyweight Hoodie `unisex-outdoors-went-outside-it-was-fine-heavyweight-hoodie`
 - **WARN** "national park hoodie" appears 4× in the copy (keyword stuffing). → Use it once or twice, naturally.
-
-### Women's Western – Saturday Night Rodeo Hoodie `womens-western-saturday-night-rodeo-hoodie`
-- **WARN** "rodeo hoodie" appears 8× in the copy (keyword stuffing). → Use it once or twice, naturally.
 
 ### Women's Thanksgiving – Pie Season Pumpkin Hoodie `womens-thanksgiving-pie-season-pumpkin-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.

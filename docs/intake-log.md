@@ -1,5 +1,6 @@
 RUNNING lane B since 2026-10-20 03:28 UTC
 2026-10-20 03:37 UTC — [A] Builder run: redid #246 Unisex Thanksgiving Totally a Pilgrim hoodie (type+line: NOT A TURKEY. / JUST A PILGRIM., same turkey art, Bowlby One full width, FW 1500 TOP 0, Sand file 1090137152 / Navy file 1090137159, 12/12 relinked, 2 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
+2026-10-20 03:41 UTC — [B] Builder run: redid #362 Women's Baseball hoodie (line + type: MISSED THE PLAY. / SEEDS WERE GOOD., same art, Bowlby One, Navy + Sand light files, 12/12 synced). REVIEW. fal $0.
 RUNNING lane C since 2026-10-20 03:23 UTC
 2026-10-20 04:32 UTC — [C] Builder run: redid #554 Men's Grandpa I Fix Things After Naps hoodie (new line + type: I'M FIXING IT. / EYES CLOSED. STILL WORKING., Bevan + Anton full width, same recliner art, file 1090139027, FW 1500 TOP 0, 12/12 relinked, 2 fronts replaced in place, copy + SEO updated, plain product shot). REVIEW. fal $0.
 2026-10-20 03:52 UTC — [C] Builder run: redid #635 Women's Fishing Out-Fished Him. Again. zip hoodie (type only: AGAIN. in Bowlby One heavy, navy on Ash / cream+red keyline on Navy, same art, back files 1090135325 / 1090135337, 12/12 relinked, 2 back mockups replaced in place, copy updated, plain product shot). REVIEW. fal $0.

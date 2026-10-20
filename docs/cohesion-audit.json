@@ -1,6 +1,6 @@
 {
- "at": "2026-10-20T02:44:41.810Z",
- "products": 606,
+ "at": "2026-10-20T03:29:37.155Z",
+ "products": 607,
  "findings": [
   {
    "level": "WARN",
@@ -119,13 +119,6 @@
    "handle": "unisex-outdoors-went-outside-it-was-fine-heavyweight-hoodie",
    "title": "Unisex Outdoors – Went Outside It Was Fine Heavyweight Hoodie",
    "msg": "\"national park hoodie\" appears 4× in the copy (keyword stuffing).",
-   "fix": "Use it once or twice, naturally."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-western-saturday-night-rodeo-hoodie",
-   "title": "Women's Western – Saturday Night Rodeo Hoodie",
-   "msg": "\"rodeo hoodie\" appears 8× in the copy (keyword stuffing).",
    "fix": "Use it once or twice, naturally."
   },
   {
