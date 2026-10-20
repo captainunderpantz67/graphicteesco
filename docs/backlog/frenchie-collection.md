@@ -17,3 +17,10 @@ Owner inside jokes, no backstory needed: the snoring, the bat ears, the loaf/pot
 - No breed-standard/AKC logos or brand names. Plain product-shot covers (current photo rule), no fal photos.
 - Collection page /french-bulldog-shirts/ (or hoodies) once 3 are live, own copy + FAQs; add to gift guides (dog lovers) and stocking stuffers (socks) later.
 - Pace caps still apply; Frenchie lane runs alongside redos. Target: first 6 live within 48 h, all 24 within ~5 days.
+
+## Deep research add-on (Claude 2026-10-20, RankHero monthly + AKC)
+- Frenchies are the #1 AKC breed four years running (2025); ~98,500 AKC registrations in 2023 alone. "french bulldog" 1M searches/mo, "frenchie" 301K (mostly puppy/breed research, not merch) = a huge, passionate owner base.
+- BEST PRODUCT GAP: **french bulldog ornament** Nov–Dec 5,400/mo, KD 26, only 3,147 listings → make 3–4 Frenchie Christmas ornaments (Printful ceramic) as soon as ornaments are live.
+- Also: french bulldog mug Dec 2,400 / KD 40 / 5.7K · french bulldog hoodie 1,300 / 33 / 1.9K · frenchie sweatshirt 880 / 44 / 4.7K · french bulldog christmas sweater 1,900 (no count, copy only) · french bulldog halloween Oct 1,300 (next year).
+- **COAT COLORS = the differentiator.** Owners search their dog's color: merle 22,200 · blue 14,800 · fawn 6,600–8,100 (breed-research intent, no competition count). Owners buy the Frenchie that LOOKS LIKE THEIRS. For the 6–8 strongest designs, draw the Frenchie in 4 coats (fawn, brindle, blue/grey, cream; merle where it reads) as separate products or a color option, titled e.g. "Blue Frenchie ___ Hoodie". This is what Etsy's top Frenchie sellers do.
+- Identity phrases are tiny (frenchie mom 260, frenchie dad 260): use them in copy, not as primaries.
