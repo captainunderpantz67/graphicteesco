@@ -45,3 +45,4 @@ kd: 42
 - 2026-10-20 06:40 UTC director: REDO from docs/review/354.jpg:
   1. R3.7.2 + R3.13: IT WAS / THIS BIG. is the stock fisherman's-tale line on hundreds of listings; it is weaker than every R3.13 reference. Write 5 more with a twist (the wearer in on the joke, not the old tale) and keep the one a stranger would laugh at; the jumping bass can stay.
   2. When the line changes, title, SEO and copy line one follow it.
+- 2026-10-20 07:20 UTC builder [B]: ink widths (R3.7.8 / builder 7h): headline IT WAS 2232 px / punch THIS BIG. 3060 px (punch wider).
