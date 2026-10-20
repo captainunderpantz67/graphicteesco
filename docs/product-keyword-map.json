@@ -10451,6 +10451,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-hiking-here-for-the-view-not-the-incline-cropped-hoodie": {
+   "claimed": [
+    "crop top hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "crop top hoodie",
+     "volume": 8100,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
