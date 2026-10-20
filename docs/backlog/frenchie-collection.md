@@ -24,3 +24,8 @@ Owner inside jokes, no backstory needed: the snoring, the bat ears, the loaf/pot
 - Also: french bulldog mug Dec 2,400 / KD 40 / 5.7K · french bulldog hoodie 1,300 / 33 / 1.9K · frenchie sweatshirt 880 / 44 / 4.7K · french bulldog christmas sweater 1,900 (no count, copy only) · french bulldog halloween Oct 1,300 (next year).
 - **COAT COLORS = the differentiator.** Owners search their dog's color: merle 22,200 · blue 14,800 · fawn 6,600–8,100 (breed-research intent, no competition count). Owners buy the Frenchie that LOOKS LIKE THEIRS. For the 6–8 strongest designs, draw the Frenchie in 4 coats (fawn, brindle, blue/grey, cream; merle where it reads) as separate products or a color option, titled e.g. "Blue Frenchie ___ Hoodie". This is what Etsy's top Frenchie sellers do.
 - Identity phrases are tiny (frenchie mom 260, frenchie dad 260): use them in copy, not as primaries.
+
+## 2026-10-20 add-on: dog products (Sam asked "does Printful have dog clothes?")
+Printful pet catalog (API check): Pet Bandana Collar #902 (cost $16.10-17.93, S-XL), Knitted Pet Sweater #964 ($37.74-39.74, 2XS-2XL), Pet Collar #749, Collar & Leash #750, Pet Bowl #678. No dog tees/hoodies.
+- Keyword-gate first (R2.x): "french bulldog bandana", "frenchie bandana", "dog bandana", "matching dog and owner shirts", "french bulldog sweater". Build only what passes.
+- If it passes: bandana collar at ~$29.99 printed with the same joke as a Frenchie tee, sold as "matching human + dog" pairs. Sweater only if volume justifies a ~$54.99 price; Frenchie deep-chest fit risk, say so in copy.
