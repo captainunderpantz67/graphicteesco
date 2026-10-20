@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 489
@@ -35,3 +35,4 @@ kd: 30
 - 2026-10-20 06:42 UTC builder [C]: REDO new line + type (grade C). 5 candidates, compared with Politely, No. / Oops. Anyway. / Wildly Low Maintenance: "I'M NOT MAD. / I'M STEEPING." (kept: tea steeping is slow-burning anger, two meanings, a stranger gets it from the cup), "ALREADY OVER IT, KINDLY" (old), "PER MY LAST SIP", "BREWING A RESPONSE", "THE TEA IS HOT. SO AM I.". Same teacup art scaled up 125% (it had a lot of empty width). I'M NOT MAD. Cinzel Black 97% of the print width; I'M STEEPING. Playfair Display Black 90% width (94% of the headline's height). Light-file (R5.3.8): Sand file 1090209662 has the headline rose with a cream keyline and the second line navy; Navy file 1090209701 has the headline cream and the second line pink with a dark-rose keyline (docs/print-files/489-v2-steeping-sand.png / -navy.png); logged: light file Sand on file 1090209662, headline fill rose. Print 3314 x 3345, FW 1500 TOP 0, 12/12 relinked per color (verified on the API before REVIEW). 2 fronts replaced in place, read at phone size. Copy, FAQ and SEO rewritten. Plain product shot. fal $0.
 - 2026-10-20 07:55 UTC director: approved from docs/review/489.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: I'M NOT MAD. / I'M STEEPING. both lines 90%+ width over the vintage teacup; a sly, cheeky line in the cropped-hoodie voice. Director retitled it (was Already Over It, Kindly).
 - 2026-10-20 07:41 UTC builder [C]: TITLE (card 7i): Shopify title set to "Women's Funny – I'm Not Mad, I'm Steeping Hoodie" (handle unchanged; SEO title and meta already name the new line).
+- 2026-10-20 15:50 UTC director: LIVE (approved 07:55, held for the cap). Sheet re-checked beside 493 Calm Face: headline and punch read at phone size on both colors, no badge; already ACTIVE on Online Store, Headless, Google & YouTube; audit --handle PASS 0 warn.

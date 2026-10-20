@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 467
@@ -35,3 +35,4 @@ shopify: gid://shopify/Product/15364723147056
 - 2026-10-20 06:30 UTC builder [E]: NOTE for lane B: sibling hoodie #466 was redone with REPLAYING / WHAT I SAID / IN 2014. (Sand thread #333366 file 1090207873, Navy thread #FFFFFF file 1090207885, both from designs/e466c). Reuse them for this crewneck (catalog 145, mockup styles 1139/1140) like #472 reused #473.
 - 2026-10-20 09:20 UTC builder [B]: REDO 467 (C grade) done as the twin of #466: reuses lane E's redone embroidery (REPLAYING / WHAT I SAID / IN 2014., Sand thread #333366 file 1090207873, Navy thread #FFFFFF file 1090207885), no new art, no fal ($0). R6.2 read of the source files: three stacked slab capitals, no ring/panel/badge, caps well over 0.3 in at the 4 in width (the sibling log carries the measure; stacked lines are equal width, punch IN 2014. at the headline's width). Crewneck 12/12 synced on the two files (Sand 6 on 1090207873, Navy 6 on 1090207885, verified via Printful), back logo kept. Sand + Navy mockups (styles 1139/1140) replaced in place, alts, title "Unisex Embroidered – Replaying What I Said in 2014 Crewneck Sweatshirt", SEO, copy line one and FAQs follow the new line (anxiety sweatshirt keyword kept). Phone-size read OK on both. Cover: handle added to retired-covers.json. audit --handle PASS 0 warn. Sheet docs/review/467.jpg.
 - 2026-10-20 07:55 UTC director: approved from docs/review/467.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: Twin of #466 with the same stitched lockup on the crewneck; matches the hoodie exactly.
+- 2026-10-20 15:50 UTC director: LIVE (approved 07:55, held for the cap). Sheet re-checked beside 493 Calm Face: headline and punch read at phone size on both colors, no badge; already ACTIVE on Online Store, Headless, Google & YouTube; audit --handle PASS 0 warn.

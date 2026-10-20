@@ -1,10 +1,12 @@
 RUNNING lane E since 2026-10-20 15:29 UTC
-RUNNING director since 2026-10-20 15:21 UTC
+RUNNING lane C since 2026-10-20 15:08 UTC
+RUNNING lane B since 2026-10-20 12:07 UTC
+RUNNING lane A since 2026-10-20 14:12 UTC
 2026-10-20 15:28 UTC — [A] Builder run: #696 dance mom crewneck (twin of #534), 11/11 synced. REVIEW. fal $0.
 2026-10-20 15:27 UTC — [A] Builder run: #500 trees sheared 12 degrees, 12/12 synced. REVIEW. fal $0.
 2026-10-20 15:30 UTC — [B] Builder run: redid #531 Men's Gym pump cover (line + type: I'M NOT LAZY. / I'M DELOADING., same Greek-vase bench art, Anton, subject 66%, new front panel, 10/10 synced). REVIEW. fal $0.
 2026-10-20 15:25 UTC — [A] Builder run: #586 capybara at 51% of the lockup width, 30/30 synced. REVIEW. fal $0.
-RUNNING lane C since 2026-10-20 15:08 UTC
+2026-10-20 16:12 UTC — [D] Director run: inbox: Sam's 'check the new building brief' = the matching family Christmas long-sleeves; Printful costs confirmed ($32.99 adult / $27.99 youth / $22.99 baby, flat), audit + rulebook support for -long-sleeve-tee, -youth-long-sleeve-tee, -baby-bodysuit, set 1 'Christmas Credits' briefed #729–#732 (lane A). 6 LIVE (cap): #448 #466 #467 #472 #486 #489 (approved 07:55; audit PASS 0 warn; #448 R6.12 back print verified). Reviewed 13: approved and held 10 (#257 #258 #532 #543 #547 #574 #616 #617 #712 #713; fixed stale twin names in #257/#258 FAQs); REDO #615 (gift-phrase primary, R2.10/R2.11), #703 (old narrow WE LIED. file, R3.7.8), #721 (FAQ title stuffing, R8.3). READY A 13, B 12, C 13, E 3. No digest (12:17 run sent it). Lock released.
 2026-10-20 15:23 UTC — [A] Builder run: #258 crewneck gets #257's bigger trophy print, synced. REVIEW. fal $0.
 2026-10-20 15:26 UTC — [B] Builder run: redid #488 Women's Funny tee (type only: I SAID IT NICELY / IN MY HEAD heavy Fraunces, same daisy art, subject 56%, 42/42 synced). REVIEW. fal $0.
 2026-10-20 15:21 UTC — [A] Builder run: #257 trophy at 47% of the lockup width, tee synced. REVIEW. fal $0.
@@ -44,7 +46,6 @@ RUNNING lane C since 2026-10-20 15:08 UTC
 2026-10-20 12:31 UTC — [A] Builder run: redid #408 Unisex Shark oversized hoodie a third time (shark 47% of the lockup, ring erased). REVIEW. fal $0.
 2026-10-20 12:53 UTC — [B] Builder run: redid #591 Women's Wrestling Mom tee (line + type: I'M NOT YELLING. / I'M ENCOURAGING., same bleacher art, Oswald, 54/54 synced). REVIEW. fal $0.
 2026-10-20 14:10 UTC — [E] Builder run: built #655 Men's Dad Bod Retired From Abs tee (new art, 56/56 synced, light file for Natural/Ash/Athletic Heather, flat shot cover). REVIEW. fal $0.04.
-RUNNING lane B since 2026-10-20 12:07 UTC
 2026-10-20 12:22 UTC — [B] Builder run: redid #482 Football Mom tee round 2 (apostrophe fixed, caption cut, headline 99% width, both punch lines one size, 100% punch/headline, 24/24 on file 1090344550, 4 fronts replaced in place). REVIEW. fal $0. Lock released.
 2026-10-20 12:24 UTC — [A] Builder run: redid #216 Women's Christmas snowflake hoodie again (UNIQUE. / LIKE EVERY OTHER SNOWFLAKE., one flake, type 41% of the print, new title). REVIEW. fal $0.
 2026-10-20 13:05 UTC — [D] Director run: inbox nothing new. 6 LIVE (cap): #388 #404 #415 #438 #440 #446, audit PASS. Reviewed 12: 5 approved and held (#491 #508 #545 #575 #656; #545 and #656 are DRAFT, LIVE = ACTIVE + publish), 7 REDO (#482 a second lane B session re-linked it to a print with a gapped DIDN 'T after my look; back to the tight 12:07 file; #257 #258 #530 #586 subject under 45% of the lockup, card 7l, sharpened in builder.md; #500 trees don't lean so the line reads as a label; #509 leftover sky scrap). Builder questions answered: #498 re-graded B under R3.14 (one fix: PSALM 121:1 caps to 0.3 in); sweatpants #711–#715 READY (R5.2 favorites gate waived: approved art, fal $0, Sam's order; told Sam he can overrule); lane C pre-reset briefs re-scored (twins use the source's current print, #647/#648 new heavy lockups, plain product shots), #639 PARKED until source #584 is LIVE. Lane E brief #718 barber (barber shirt 1,300 / KD 28). READY A 12, B 12, C 16, E 12. REVIEW 111 now all approved and held (80 redos + 31 add-ons). Noon Telegram digest sent (54 live since 02:17, 5 links + /funny-graphic-tees/, all 200; the message said about 87 held, the true count is 111). Lock released.
@@ -237,7 +238,6 @@ RUNNING lane B since 2026-10-20 12:07 UTC
 2026-10-20 03:26 UTC — [E] Builder run: redid #356 Women's Western rodeo hoodie (line + type: EIGHT SECONDS OF BAD DECISIONS, new cowgirl bronc art, Navy + Sand files, 12/12 synced, copy updated, plain product shot). REVIEW. fal $0.04.
 2026-10-20 02:55 UTC — [A] Builder run: redid #217 Women's Christmas Ho Ho Howdy hoodie (type+line: THE REINDEER QUIT. / SANTA GOT A HORSE., same cowboy Santa art, Alfa Slab full width, FW 1500 TOP 0, Sand file 1090119235 / Navy file 1090119263, 12/12 relinked, 2 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 2026-10-20 03:06 UTC — [E] Builder run: redid #326 Women's Bee hoodie (line + type: NOT TODAY, HONEY., sleeping bee daisy, Navy + Sand files, 12/12 synced, fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.04.
-RUNNING lane A since 2026-10-20 14:12 UTC
 2026-10-20 02:45 UTC — [H] Helper run: inbox empty (no Telegram updates), cohesion audit 0 errors / 29 warnings (committed), categories: 0 products missing a category, 3 recent LIVE sites 200, no stuck BUILDING items or stale locks. Daily summary not due (after 12:00 UTC). Lock released.
 2026-10-20 02:48 UTC — [A] Builder run: redid #216 Women's Christmas Hello Winter hoodie (type+line: IT'S SNOWING. / I'M STILL AT WORK., same snowflake art, Anton + Bowlby One full width, FW 1500 TOP 0, file 1090116144, 12/12 relinked, 2 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 2026-10-20 03:10 UTC — [B] Builder run: redid #358 Women's Volleyball hoodie (type+line: I GOT IT. / I DID NOT GET IT., same shouting-ball art, 12/12 synced on 1090110113, 2 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0. Lock released.

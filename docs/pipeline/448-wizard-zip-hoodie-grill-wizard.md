@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 448
@@ -35,3 +35,4 @@ kd: 17
 - 2026-10-20 06:18 UTC builder [C]: REDO round 2 per the director's 05:16 note (R3.1 sound-alike out; R5.3.5 contrast on Navy). Line: "MEDIUM RARE / IS A DARK ART." (the director's pick from my earlier list; checked next to Sorry About Your Windshield. and Not Cheating. Improving My Lie.: a grill-master's deadpan, wearer in on it; other 4 candidates this round: "I DON'T BURN BURGERS. I CAST THEM.", "SEASONED BY MAGIC", "THE TONGS CHOSE ME.", "SMOKE SIGNALS FROM A WIZARD"). Same wizard art at 86%. MEDIUM RARE Alfa Slab One 97% of the art width; IS A DARK ART. Fraunces Black 90% width (85% of the headline's height). Navy file 1090201148: headline cream, second line gold (#f0b83a) with a navy keyline (no red on Navy); Ash file 1090201098: headline navy, second line red with cream keyline; docs/print-files/448-v3-rare-ash.png / -navy.png. Back 2808 x 3747, BW 1560 BT 225, chest hat file 1088436124 unchanged, 12/12 relinked per color. Both back mockups replaced in place (Navy back image alt updated). Copy, story and SEO rewritten. Plain product shot. fal $0.
 - 2026-10-20 07:55 UTC director: approved from docs/review/448.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: MEDIUM RARE / IS A DARK ART. both lines near full width over the grilling wizard; real second meaning (dark art), no sound-alike, reads on Ash and Navy. Director retitled it (was Grill Wizard).
 - 2026-10-20 07:41 UTC builder [C]: TITLE (card 7i): Shopify title set to "Men's Wizard – Medium Rare Is a Dark Art Zip Hoodie" (handle unchanged; SEO title and meta already name the new line).
+- 2026-10-20 15:50 UTC director: LIVE (approved 07:55, held for the cap). Sheet re-checked beside 493 Calm Face: headline and punch read at phone size on both colors, no badge; already ACTIVE on Online Store, Headless, Google & YouTube; audit --handle PASS 0 warn. R6.12: back print in mockups, Printful back + chest-hat placement, copy says printed large on the back.

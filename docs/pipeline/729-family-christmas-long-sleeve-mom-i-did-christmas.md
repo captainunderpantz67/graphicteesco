@@ -1,0 +1,29 @@
+status: READY
+lane: A
+type: new
+id: 729
+handle: womens-christmas-family-credits-i-did-christmas-again-long-sleeve-tee
+kd: 56
+set: family-credits (Mom)
+---
+## Women's Christmas – I Did Christmas. Again. Long Sleeve Tee
+- **Why now:** Sam approved matching family Christmas long-sleeves 2026-10-20 (docs/backlog/matching-family-christmas.md: "Go for it", target live by Nov 5). Set 1 "Christmas Credits": one shared illustration, a different line per family member (Mom #729, Dad #730, Kid #731, Baby #732), each claiming their part of Christmas. The bundle is the pitch: every product page links the other three ("Complete the set"). Lane A queue refill to 12.
+- **Blank:** Adult long sleeve Bella+Canvas 3501 (Printful #356), sizes XS–2XL; handle ends -long-sleeve-tee (the audit prices it $32.99 flat). Copy facts from the Printful spec only.
+- **Colors:** Red + White only (the colors all three blanks share, so the set matches in a photo). White = dark-ink file (headline solid deep red, punch pine green, open counters, no dark keyline; R5.3.8); Red = light-ink file (cream headline, cream or mustard punch with a thin dark keyline). Read every word on both mockups at phone size.
+- **Style:** A (R4.2), vintage to the edges, no badge, frame, panel or dark patch (R4.1).
+- **Art (new, one Recraft v4 call, --n 1, picture only, no words; at most 3 tries per R5.4, fal wallet only):** "Vintage 1950s Christmas-card illustration: a cheerful, slightly lopsided decorated Christmas tree in a living room corner, a few wrapped presents underneath (one with its bow missing and a torn corner), a strand of big-bulb lights sagging off one branch, a stepladder leaning beside it, a candy cane and a tipped-over glass of milk with a half-eaten cookie on a small stool. Muted 1950s-60s screen-print palette (faded red, cream, pine green, mustard, soft black linework), halftone, worn edges; every side ends where its own objects end (tree, ladder, presents, rug edge). No people, no animals, no background shape, no frame, no border, no badge, no dark patch, no rounded scene card, no words or letters anywhere." Save it as the set's shared art (docs/print-files/729-family-credits-art.png); #730–#732 reuse it with $0 fal.
+- **Text (real fonts via scripts/compose-print.py, spelled exactly):** I DID CHRISTMAS. (headline above the art) / AGAIN. (punch below, at least as wide as the headline: R3.7.8, card 7h; break or enlarge to get there). All four set items use the same two fonts so the set reads as one family: one heavy slab or display face from designs/fonts not used on more than 1 in 6 of the last 30 designs. Headline at least 90% of the art width, type at least 40% of the print height (7k), art at least 45% of the lockup width (7l). Solid ink, no pattern fill, no thin script.
+- **Five lines considered (R3.13, compared with "Oops. Anyway.", "Politely, No.", "Plot Twist: I Stayed In"):** I Did Christmas. Again. · I Made the List. Nobody Read It. · Head Elf. Unpaid. · I Wrapped Everything. Twice. · Santa Gets the Credit.. Picked the first: the mom who does all of Christmas says it with a straight face, and the one-word punch lands the self-aware sigh (same pattern as "Oops. Anyway."). "Santa Gets the Credit" is close to live #618 Santa Gets All the Credit (7j). "Head Elf" is an Etsy template.
+- **Hook:** the family photo on Christmas morning: four people (and the baby) each wearing their own claim. Lands without backstory (R3.12); family-table clean.
+- **Why it's not taken:** Etsy family Christmas sets are mostly "Naughty / Nice / I Did It" lists, "Santa's Little Helper" and name templates; a set where each member claims their real Christmas job with a deadpan punch is uncommon. Builder confirms under 50 listings carry the exact line (R3.7.2); if 50+, take the next line above.
+- **Design gate:** search: see primary · proof: R5.2 favorites gate WAIVED by Sam's direct order (same basis as the Frenchie and sweatpants waivers; Etsy 403 and RankHero shows no listing grid from the cloud) · gift test: a mom buying the whole set for the family photo.
+- **Primary keyword:** matching family christmas shirts: 9,900 / KD 56 (competition present, RankHero via scripts/keyword-gap.py and docs/backlog/matching-family-christmas.md, 2026-10-20). Above the easy band: briefed under Sam's 2026-10-20 approval and the measured December surge (R2.6); no collection page (backlog: the heads fail KD ≤ 35), so the product may hold it. Primary in SEO title, first sentence and once in the meta, at most 3 times. Record it in docs/product-keyword-map.json with this handle.
+- **Copy:** line one plainly: the line + who wears it + when ("I Did Christmas. Again. The mom's piece of our Christmas Credits family set, for the Christmas-morning photo."). No superlative opener, no production words (R8.3); read line one against the art noun by noun. Answer-first FAQs (R8.7): fit and sizes, fabric from the spec, wash care, "Is there a matching set?" (links the other three handles once LIVE), order by about Dec 8, free size exchange.
+- **Cover:** none for now (RESUME terms, R6.11): plain Printful product shot. No registry row claimed.
+- **R6.12:** front print only; no back-print mockup.
+- **Title / handle:** "Women's Christmas – I Did Christmas. Again. Long Sleeve Tee" / `womens-christmas-family-credits-i-did-christmas-again-long-sleeve-tee`. SEO title ≤ 60.
+- **Tags:** christmas-shirts, christmas-shirts-for-women, funny-christmas-shirts, graphic-tees-for-women, group-shirts (if the hub is tag-based; else add by hand), family-christmas-set, ai-art, intake-done.
+- **Price:** $32.99 flat, NO compare-at (Printful cost checked 2026-10-20: #356 $18.66–20.66, #511 $16.82, #843 $11.52; about $10–13 profit after fees).
+---
+## Log
+- 2026-10-20 16:10 UTC director: brief written, READY (lane A; family set 1 'Christmas Credits', Mom; Sam's 2026-10-20 approval; audit now prices -long-sleeve-tee, -youth-long-sleeve-tee and -baby-bodysuit).

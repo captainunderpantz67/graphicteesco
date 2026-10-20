@@ -23,3 +23,6 @@ Replaces the dropped pajama idea (docs/backlog/gift-addons.md). Sell the joke, n
 
 ## Timing
 Christmas searches peak in November. Build ahead of the Frenchie batch; target live by Nov 5.
+
+## Director log
+- 2026-10-20 16:10 UTC director: Printful costs confirmed (#356 $18.66–20.66, #511 $16.82, #843 $11.52) → $32.99 / $27.99 / $22.99 flat, no compare-at (rulebook R7.1, R12.1); audit support added for -long-sleeve-tee, -youth-long-sleeve-tee, -baby-bodysuit. Set 1 'Christmas Credits' briefed READY in lane A: #729 Mom (I DID CHRISTMAS. / AGAIN.), #730 Dad (I CARRIED THE TREE. / THAT'S MY PART.), #731 Kid (I WOKE EVERYONE UP. / AT 4:52 A.M.), #732 Baby (I ATE THE BOW. / WORTH IT.), one shared tree illustration, Red + White. Keywords are all KD 40–62 (matching family christmas shirts 9,900/56, family christmas shirts 8,100/55, christmas long sleeve shirt 1,000/62, christmas onesie 18,100/40); briefed under Sam's approval and the December surge. Toddler (#306) and dog bandana (#902) wait until set 1 is LIVE. Sets 2–4 next runs.
