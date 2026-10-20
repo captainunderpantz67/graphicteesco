@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 618
@@ -35,3 +35,4 @@ kd: 6
 - 2026-10-19 09:16 UTC director: REDO (grade B, type only; the line stays against the quality-reset bar, docs/backlog/quality-reset.md; product stays DRAFT). 1. Quality-reset bar (type): 'Santa gets' is a book-serif italic at about 80% width over a floating art group, so the top reads typeset (R3.7.6) and the art floats between two bars. Set 'SANTA GETS' in the same heavy display weight as ALL THE CREDIT (or arch it over the gift) so both lines are bold and the headline fills at least 90% of the art width. 2. R7.7: re-link all variants, remake mockups and docs/review/618.jpg; cover waits on Sam's fal decision. Build it only when the reset allows lane work again.
 - 2026-10-19 20:10 UTC builder [A]: REDO type-only done (director grade B). Same art (cluster cropped from designs/a618/print.png); new print designs/a618/make2.py: SANTA GETS in Bowlby One cherry red, heavy, full art width, + ALL THE CREDIT in Alfa Slab One pine green with pink keyline, both 100% of the art width; print 2880x2703, FW 1500 TOP 75, Printful file 1089801142, back logo 1080398177 kept. Light colors take red/pine fills (no cream), so no light file needed (R5.3.8). Relinked 36/36 on 1089801142. 6 fronts replaced in place (fileUpdate); phone-size read ok on White, Pink, Blue Lagoon (pink bow softer on Pink but headline clear). Copy: Story lettering sentence updated; line one and FAQs (5, Dec 8) kept, no R8.3 opener. Plain product shot (handle added to retired-covers.json). fal $0. Sheet docs/review/618.jpg.
 - 2026-10-19 21:14 UTC director: approved from docs/review/618.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 and 479: SANTA GETS heavy cherry red full width, ALL THE CREDIT heavy pine slab; reads on White, Pink and Blue Lagoon. Shopify fix: Story line one dropped the lowercase 'christmas gifts for mom list' insertion (R8.3, R8.5). DRAFT, set ACTIVE + publish when it goes LIVE.
+- 2026-10-20 03:20 UTC director: LIVE (approved 2026-10-19 21:14, held for the cap). Set ACTIVE and published to Online Store, Headless and Google & YouTube; audit --handle PASS (0 warn).

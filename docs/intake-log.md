@@ -1,4 +1,4 @@
-RUNNING director since 2026-10-20 03:12 UTC
+2026-10-20 03:20 UTC — [D] Director run: 6 LIVE (#548 #578 #618 #336 #414 #474, audit PASS each), 7 new redos approved and held (#205 #217 #219 #326 #356 #358 #650), 2 REDO (#216 line + shape, #507 R4.1 panel edges), lane E refilled to 12 READY with briefs #704–#710 (crop top hoodie, knitting sweatshirt, knitting shirt, mtb shirt, bouldering shirt, skiing shirt, climbing shirt). Inbox: nothing new. No digest (not due). Lock released.
 2026-10-20 04:16 UTC — [E] Builder run: redid #366 Women's Beach oversized hoodie (line + type: SHELLFISH ON PURPOSE., new crab art, Navy + Dust files, 12/12 synced, copy updated, plain product shot). REVIEW. fal $0.04.
 RUNNING lane E since 2026-10-20 02:50 UTC
 2026-10-20 03:51 UTC — [E] Builder run: redid #365 Men's Skull zip hoodie (line + type: FORMER LIFE OF THE PARTY, same party skull, Navy + Ash back files, 12/12 synced, back mockups replaced in place, copy updated, plain product shot). REVIEW. fal $0.

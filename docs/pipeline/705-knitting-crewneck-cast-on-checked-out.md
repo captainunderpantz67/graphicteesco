@@ -1,0 +1,29 @@
+status: READY
+lane: E
+type: new
+id: 705
+handle: womens-knitting-cast-on-checked-out-crewneck-sweatshirt
+kd: 25
+---
+## Women's Knitting – Cast On, Checked Out Crewneck Sweatshirt
+- **Why now:** lane E queue refill. Knitting is a cold-weather hobby with an unclaimed measured sweatshirt phrase in the KD 21–35 band; knitters buy cozy crewnecks for themselves and as gifts in Nov–Dec.
+- **Blank:** Crewneck Gildan 18000 (Printful #145), 8 oz 50/50 fleece, handle ends -crewneck-sweatshirt; Sand + Navy launch colors (R7.2). Copy facts from the Printful spec only.
+- **Style:** A (R4.2), vintage to the edges, no badge, frame, rounded scene card or dark patch (R4.1). New art: one Recraft v4 call (--n 1), picture only, no words; at most 3 tries (R5.4: 2 regenerations), then PARK and say why. fal wallet only (scripts/fal_budget.py).
+- **Art prompt:** Vintage 1960s storybook illustration: a deep, sagging armchair seen from the front, a half-finished striped scarf with two wooden knitting needles resting on its arm, a wicker basket overflowing with yarn skeins on the floor, a ginger cat fast asleep inside the basket on the yarn, a mug of tea and a pair of reading glasses on a small side table, a floor lamp glowing. No people. Muted 1960s-70s screen-print palette (faded red, cream, sage, mustard, soft navy linework), halftone, worn edges; every side ends where its own objects end. No background shape, no frame, no border, no badge, no dark patch, no text.
+- **Text on shirt (real fonts via scripts/compose-print.py, spelled exactly):** CAST ON. (headline, heavy, arched over the armchair, faded red or mustard) / CHECKED OUT. (second line, heavy, under the basket, sage or navy). Headline heavy, at least 90% of the art width, colors pulled from the art, in a display font not used on more than 1 in 6 of the last 30 designs (add an OFL Google font to designs/fonts if the kit feels repetitive); second line at least 45% of the headline's height, heavy, never a thin script. Use the lettering as a shape (arched, stacked lockup or breaking into the art), not a bar above and a caption below. Solid ink, open counters; dark-ink file for every light blank (R5.3.8, R5.3.10).
+- **Five lines considered (R3.13, compared with "Politely, No.", "Plot Twist: I Stayed In", "Oops. Anyway."):** Cast On. Checked Out. · Emotionally Supported by Yarn. · One More Row (Lie). · My Yarn Has a Yarn Stash. · Knit Happens. Picked the first: four words, the twist on a phrase every knitter says, and the dozing cat in the yarn says 'checked out' at a glance; outsiders still get 'knitting and done with the world'. Runner-up: "Emotionally Supported by Yarn." (that line goes to #706). "Knit Happens" is a sound-alike pun (R3.1); "One More Row (Lie)" echoes #653.
+- **Hook:** the knitter who sits down with her needles and is off duty for the night; knitting friends and the person who gifts it both grin. Women's: full sass, straight face (R3.4).
+- **Why it's not taken:** Etsy knitting sweatshirts lean on 'Knit Happens', 'Yarn Hoarder' and plain 'Knitting Club' scripts; a deadpan off-duty line with a sleeping-cat scene is not crowded.
+- **Joke QC (R3.7):** family clean, no trademark, brand or place name, not a sound-alike pun (R3.1), gets it in 3 seconds without backstory (R3.12). Builder: confirm under 50 Etsy listings carry the exact line before art (R3.7.2); if 50+, use the runner-up line named above.
+- **Design gate (docs/research/how-to-research-a-design.md):** search: knitting sweatshirt: 4,400 / KD 25 (competition 3,760) · proof: RankHero keyword pages no longer show the listing grid (R5.2, 2026-10-19), so before spending fal the builder logs one same-format listing with 500+ favorites for this niche (RankHero or Etsy search, favorites not views); none found = PARKED · joke type: insider phrase twisted into a self-aware statement · look: 1960s storybook, faded red/mustard/sage/cream · gift test: mom, grandma or the friend who knits through every movie night.
+- **Primary keyword:** knitting sweatshirt: 4,400 / KD 25 (competition 3,760) (RankHero keyword page via scripts/keyword-gap.py, 2026-10-20, director). KD 21–35 band. The phrase names the garment (R2.11) and has a competition count (R2.10). Unowned in docs/product-keyword-map.json, every brief and src/data/collections.ts; record it with this handle. Primary in the SEO title, the first sentence and once in the meta, at most 3 times. Builder: add 2–4 measured long-tails from keyword-gap.py that describe the art, each once (R2.7).
+- **Colors:** Sand (dark-ink file) + Navy (cream headline, R5.3.8). Mockup per color; read every word at phone size on the lightest and darkest.
+- **Print size:** FW 1650 (R5.3.8 crewnecks, no pouch).
+- **Copy:** line one plainly: "Cast on, checked out: a knitting sweatshirt for the woman whose needles mean the evening is officially over." No superlative or keyword-brag opener (R8.3). Answer-first FAQs (R8.7): fit, fabric and weight from the spec, sizing, wash care, gift timing (order by about Dec 8 for Christmas), free size exchange. Describe only what is in the art the model actually drew.
+- **Cover:** none for now (RESUME terms 2026-10-19, R6.11): plain Printful product shot. No registry row claimed until Sam decides on photos.
+- **Title / handle:** "Women's Knitting – Cast On, Checked Out Crewneck Sweatshirt" / `womens-knitting-cast-on-checked-out-crewneck-sweatshirt`. SEO title ≤ 60 characters, e.g. "Cast On, Checked Out – Knitting Sweatshirt".
+- **Tags:** sweatshirt, ai-art, intake-done (crewnecks take only a *-sweatshirts collection tag; no knitting collection exists yet, so none; R7.5).
+- **Price:** $34.99 (R12.1 crewneck), NO compare-at.
+---
+## Log
+- 2026-10-20 03:20 UTC director: brief written, READY (lane E queue refill to 12; knitting sweatshirt: 4,400 / KD 25; 5 lines tested against R3.13).
