@@ -1,8 +1,9 @@
-status: BUILDING [B] 2026-10-20T21:46Z
+status: REVIEW
 lane: B
 type: new
 id: 753
 handle: mens-boxing-hands-up-expectations-low-hoodie
+shopify: gid://shopify/Product/15371091804464
 kd: 20
 ---
 ## Men's Boxing – Hands Up. Expectations Low. Hoodie
@@ -25,3 +26,4 @@ kd: 20
 ---
 ## Log
 - 2026-10-20 21:50 UTC director: brief written, READY (lane B gym; boxing hoodie 3,600/20; measured today, ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).
+- 2026-10-20 23:00 UTC builder [B]: built to REVIEW. One Recraft call ($0.04, 1 of 3): bored mustached boxer in guard, stool and towel on rope post. Lockup: HANDS UP. above (beret touching the S), boxer in the middle, EXPECTATIONS / LOW. below, boots just grazing the punch. Oswald 700. 7h: headline 2266 px / punch 3541 px = 156%. 7k: type 1361 of 3414 px = 40%. 7l: subject 1630 of 3600 px = 45% (0.46 of the widest line). FW 1500, TOP 0. Light file: Sand on docs/print-files/k753-light.png (Printful file 1090695744), every word solid dark ink (deep brown headline, faded red punch, no keyline); Navy on k753.png (file 1090695769), cream headline / mustard punch. R7.7: 6/6 Sand on 1090695744, 6/6 Navy on 1090695769, back logo 1080398177 on 12/12. Shopify DRAFT 15371091804464, $39.99 no compare-at, category hoodies aa-1-13-13, tags gym-hoodies + graphic-hoodies-for-men + hoodie + boxing, SEO title 44 / meta 128. Copy: line one = print words + who + when, 6 FAQs 48-57 words, order-by Dec 8, 'boxing hoodie' 3 times in the body. Photos: Sand front, Navy front, neck-logo back last (R6.12/R6.13), alt per R7.8, each color has its own photo; design crops regenerated. Phone-size read OK on both mockups. Cover: plain Printful product shot (retired-covers.json, R6.11). R5.2 proof gate: not verifiable from the builder (web search returns no Etsy listings or favorites); director to judge. R3.7.2 / 7m: no Etsy access to search the line. Cohesion audit not run (node esbuild missing in this container). fal $0.04.

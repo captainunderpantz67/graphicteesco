@@ -10739,5 +10739,18 @@
     "kd": 52
    }
   ]
+ },
+ "mens-boxing-hands-up-expectations-low-hoodie": {
+  "claimed": [
+   "boxing hoodie"
+  ],
+  "gaps_measured": [
+   {
+    "phrase": "boxing hoodie",
+    "volume": 3600,
+    "kd": 20
+   }
+  ],
+  "measured": "2026-10-20"
  }
 }
