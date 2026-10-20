@@ -1,0 +1,29 @@
+---
+// Hub-and-spoke links for a topic cluster (src/data/clusters.ts). Every spoke links up to its hub and across to its
+// siblings, and every guide in the cluster is listed, so Google sees one tight topic group (the Taiga pattern).
+import { guides } from '../data/guides';
+import { spokeLinks, type Cluster } from '../data/clusters';
+import { linkableSlugs, hoodiesHubLive } from '../lib/linkable';
+
+interface Props { cluster: Cluster; current?: string; title?: string; class?: string }
+const { cluster: k, current, title, class: cls = '' } = Astro.props;
+const live = await linkableSlugs();
+const hubLive = k.hub.slug ? live.has(k.hub.slug) : k.id !== 'hoodies' || hoodiesHubLive();
+const showHub = hubLive && current !== (k.hub.slug ?? k.hub.path);
+const spokes = spokeLinks(k, live, current);
+const reads = guides.filter((g) => g.cluster === k.id && `/guides/${g.slug}/` !== current);
+---
+{(showHub || spokes.length > 0 || reads.length > 0) && (
+  <nav aria-label={`More ${k.name}`} class={`border-t border-[var(--color-line)] pt-6 ${cls}`}>
+    <p class="eyebrow mb-3">{title ?? `More ${k.name}`}</p>
+    <ul class="flex flex-wrap gap-2">
+      {showHub && <li><a href={k.hub.path} class="inline-block rounded-full bg-[var(--color-ink)] text-[var(--color-cream)] px-3 py-1.5 text-sm font-semibold hover:opacity-90">{k.hub.label} →</a></li>}
+      {spokes.map((s) => <li><a href={s.path} class="inline-block rounded-full border border-[var(--color-line)] px-3 py-1.5 text-sm font-semibold hover:border-[var(--color-ink)]">{s.label}</a></li>)}
+    </ul>
+    {reads.length > 0 && (
+      <ul class="mt-4 grid gap-1">
+        {reads.map((g) => <li><a href={`/guides/${g.slug}/`} class="text-sm underline decoration-[var(--color-rust)] underline-offset-4 hover:text-[var(--color-rust)]">{g.h1}</a></li>)}
+      </ul>
+    )}
+  </nav>
+)}

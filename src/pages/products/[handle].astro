@@ -10,6 +10,8 @@ import { site } from '../../data/site';
 import keywordMap from '../../../docs/product-keyword-map.json';
 import { coverFor } from '../../data/covers';
 import { linkableSlugs } from '../../lib/linkable';
+import ClusterLinks from '../../components/ClusterLinks.astro';
+import { clusterForProduct } from '../../data/clusters';
 import designCrops from '../../data/design-crops.json';
 
 export async function getStaticPaths() {
@@ -27,6 +29,7 @@ export async function getStaticPaths() {
 }
 const { product: p, twin, related } = Astro.props as { product: Product; twin?: Product; related: Product[] };
 
+const productCluster = clusterForProduct(p.collections);
 const isHoodie = /hood/i.test(p.productType) || /hood/i.test(p.title);
 const isSweat = !isHoodie && /sweatshirt|crewneck/i.test(p.productType + ' ' + p.title);
 const garment = isHoodie ? 'hoodie' : isSweat ? 'crewneck sweatshirt' : 'tee';
@@ -267,6 +270,7 @@ const altFor = (img: { url: string; altText?: string | null }) => {
     </div>
   </section>
 
+  {productCluster && <div class="container-x mt-16"><ClusterLinks cluster={productCluster.cluster} title={`Shop more ${productCluster.cluster.name}`} /></div>}
   {related.length > 0 && (
     <section class="container-x mt-20">
       <h2 class="display text-4xl">More like this</h2>

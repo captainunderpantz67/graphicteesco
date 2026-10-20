@@ -4,9 +4,15 @@ import { hoodies, pathFor } from '../../data/collections';
 import { breadcrumbs, faqPage } from '../../lib/schema';
 import { site } from '../../data/site';
 import { linkableSlugs } from '../../lib/linkable';
+import { clusters } from '../../data/clusters';
+import { guides } from '../../data/guides';
 
 // Only collections that are live and indexable get a card (no links to thin or held pages).
 const live = await linkableSlugs();
+// Hub of the hoodies cluster: its spokes first (search-volume order), then every other live hoodie collection.
+const k = clusters.find((x) => x.id === 'hoodies')!;
+const ordered = [...k.spokes.map((s) => hoodies.find((c) => c.slug === s)!).filter(Boolean), ...hoodies.filter((c) => !k.spokes.includes(c.slug))];
+const reads = guides.filter((g) => g.cluster === 'hoodies');
 
 const faqs = [
   { q: 'Are these the same designs as your graphic tees?', a: 'Yes. Most tee designs are also printed on hoodies, so you can wear the same art all year.' },
@@ -23,7 +29,7 @@ const faqs = [
     <p class="mt-4 max-w-2xl text-lg text-[var(--color-ink-2)]">Original graphic hoodies — the same fishing, hunting, western and gym designs as our tees, on pullover, zip-up, heavyweight and oversized hoodies.</p>
   </section>
   <section class="container-x grid grid-cols-2 md:grid-cols-3 gap-4">
-    {hoodies.filter((c) => live.has(c.slug)).map((c) => (
+    {ordered.filter((c) => live.has(c.slug)).map((c) => (
       <a href={pathFor(c)} class="group border border-[var(--color-line)] p-6 hover:border-[var(--color-ink)]">
         <p class="eyebrow">{c.seasonal ? 'Seasonal' : 'Collection'}</p>
         <p class="display text-3xl mt-2 group-hover:text-[var(--color-rust)]">{c.h1}</p>
@@ -31,6 +37,12 @@ const faqs = [
       </a>
     ))}
   </section>
+  {reads.length > 0 && (
+    <section class="container-x mt-16 max-w-3xl">
+      <p class="eyebrow mb-3">Hoodie guides</p>
+      <ul class="grid gap-2">{reads.map((g) => <li><a href={`/guides/${g.slug}/`} class="font-semibold underline decoration-[var(--color-rust)] underline-offset-4 hover:text-[var(--color-rust)]">{g.h1}</a></li>)}</ul>
+    </section>
+  )}
   <section class="container-x mt-16 max-w-3xl prose-copy">
     <h2>FAQ</h2>
     <dl class="grid gap-4 mt-4">{faqs.map((f) => <div><dt class="font-semibold">{f.q}</dt><dd class="mt-1 text-[var(--color-ink-2)]">{f.a}</dd></div>)}</dl>

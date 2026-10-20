@@ -4,6 +4,8 @@ import ProductCard from '../../components/ProductCard.astro';
 import { guides, type Guide, type Pick, type PickGroup } from '../../data/guides';
 import { article, faqPage, howTo, breadcrumbs, itemListOfProducts } from '../../lib/schema';
 import { linkableSlugs, filterHrefs } from '../../lib/linkable';
+import ClusterLinks from '../../components/ClusterLinks.astro';
+import { clusterById } from '../../data/clusters';
 import { getAllProducts, shopifyConnected, type Product } from '../../lib/shopify';
 
 type ResolvedPick = Pick & { teeProduct?: Product; crewProduct?: Product };
@@ -32,6 +34,7 @@ export async function getStaticPaths() {
 }
 const { guide: g, picks } = Astro.props as { guide: Guide; picks: ResolvedGroup[] };
 const path = `/guides/${g.slug}/`;
+const guideCluster = clusterById(g.cluster);
 // Only link to collections that have products and are indexable.
 const live = await linkableSlugs();
 const listed = picks.flatMap((grp) => grp.items.flatMap((it) => [
@@ -105,5 +108,6 @@ const linkRow = (links?: { href: string; text: string }[]) => (links ? filterHre
       </section>
     )}
     <p class="mt-10 flex flex-wrap gap-x-4 items-center"><a href="/" class="btn">Shop original graphic tees</a> <a href="/black-friday/" class="font-semibold underline decoration-[var(--color-rust)] underline-offset-4">Black Friday Deals →</a></p>
+    {guideCluster && <ClusterLinks cluster={guideCluster} current={path} title={`Shop ${guideCluster.name}`} class="mt-12" />}
   </article>
 </Base>

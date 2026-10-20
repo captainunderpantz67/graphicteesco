@@ -8,6 +8,8 @@ import { breadcrumbs, faqPage, collectionPage } from '../lib/schema';
 import { resolveFaqs, site } from '../data/site';
 import { coverFor } from '../data/covers';
 import { HOLD, MIN_INDEX, linkableSlugs, hoodiesHubLive } from '../lib/linkable';
+import ClusterLinks from './ClusterLinks.astro';
+import { clusterOf } from '../data/clusters';
 
 interface Props { collection: Collection }
 const { collection: c } = Astro.props;
@@ -22,7 +24,9 @@ const crumbs = [
   ...(c.section === 'hoodies' ? [{ name: 'Hoodies', path: '/hoodies/' }] : []),
   { name: c.h1, path: pathFor(c) },
 ];
-const related = all.filter((x) => x.section === c.section && x.slug !== c.slug && !!x.seasonal === !!c.seasonal && live.has(x.slug)).slice(0, 6);
+const cluster = clusterOf(c.slug);
+// Cluster siblings are listed in ClusterLinks, so "More collections" skips them.
+const related = all.filter((x) => !cluster || (x.slug !== cluster.hub.slug && !cluster.spokes.includes(x.slug))).filter((x) => x.section === c.section && x.slug !== c.slug && !!x.seasonal === !!c.seasonal && live.has(x.slug)).slice(0, 6);
 // A collection with fewer than MIN_INDEX products is a thin page and stays out of the index until filled.
 // Off-target head terms and duplicate pages stay out too (HOLD, src/lib/linkable.ts).
 // Share/AI preview image: the first product's lifestyle cover, else its product photo (was og-default for every page).
@@ -52,6 +56,7 @@ const noindex = (shopifyConnected && products.length < MIN_INDEX) || HOLD.has(c.
       <p class="py-12 text-center text-[var(--color-ink-2)]">New designs are dropping here soon.</p>
     )}
     {products.some((p) => p.sample) && <p class="mt-6 text-xs text-[var(--color-ink-2)]">Preview: sample products shown until the Shopify store is connected.</p>}
+    {cluster && <ClusterLinks cluster={cluster} current={c.slug} title={cluster.hub.slug === c.slug ? `Shop ${cluster.name} by style` : undefined} class="mt-12" />}
   </section>
 
   <section class="container-x mt-16 grid md:grid-cols-[2fr_1fr] gap-12">
