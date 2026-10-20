@@ -1,6 +1,6 @@
 {
- "at": "2026-10-20T22:49:54.249Z",
- "products": 648,
+ "at": "2026-10-20T23:47:38.736Z",
+ "products": 653,
  "findings": [
   {
    "level": "WARN",
@@ -487,6 +487,13 @@
   },
   {
    "level": "WARN",
+   "handle": "womens-christmas-french-bulldog-santas-cookies-what-cookies-graphic-tee",
+   "title": "Women's Christmas – French Bulldog Santa's Cookies? What Cookies. Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "french-bulldog-santas-cookies-what-cookies-christmas-ornament",
    "title": "Christmas – French Bulldog Santa's Cookies? What Cookies. Ornament",
    "msg": "Cover alt text doesn't say who is in the photo.",
@@ -501,6 +508,13 @@
   },
   {
    "level": "WARN",
+   "handle": "womens-christmas-frenchie-im-helping-youre-welcome-graphic-tee",
+   "title": "Women's Christmas – Frenchie I'm Helping. You're Welcome. Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "french-bulldog-im-helping-youre-welcome-ornament",
    "title": "Christmas – French Bulldog I'm Helping. You're Welcome. Ornament",
    "msg": "Cover alt text doesn't say who is in the photo.",
@@ -512,6 +526,27 @@
    "title": "Christmas – French Bulldog I'm Helping. You're Welcome. Ornament",
    "msg": "christmas design isn't in any christmas collection.",
    "fix": "Tag it so it appears in the christmas shirts page."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-family-credits-i-did-christmas-again-long-sleeve-tee",
+   "title": "Women's Christmas – I Did Christmas. Again. Long Sleeve Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-christmas-family-credits-i-carried-the-tree-long-sleeve-tee",
+   "title": "Men's Christmas – I Carried the Tree. That's My Part. Long Sleeve Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "baby-christmas-family-credits-i-ate-the-bow-baby-bodysuit",
+   "title": "Baby Christmas – I Ate the Bow. Worth It. Baby Bodysuit",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
    "level": "WARN",
@@ -528,39 +563,11 @@
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
-   "level": "ERROR",
-   "handle": "unisex-homebody-plans-canceled-mood-improved-sweatpants",
-   "title": "Unisex Homebody – Plans Canceled. Mood Improved. Sweatpants",
-   "msg": "Claims \"matching sweatsuit\", already claimed by womens-cat-do-not-disturb-biscuits-sweatpants (two pages fighting for one keyword).",
-   "fix": "Give one of them a different measured phrase."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-homebody-plans-canceled-mood-improved-sweatpants",
-   "title": "Unisex Homebody – Plans Canceled. Mood Improved. Sweatpants",
-   "msg": "Claims \"sweatsuit set\", already claimed by womens-cat-do-not-disturb-biscuits-sweatpants (two pages fighting for one keyword).",
-   "fix": "Give one of them a different measured phrase."
-  },
-  {
    "level": "WARN",
    "handle": "unisex-national-park-the-view-better-be-worth-it-sweatpants",
    "title": "Unisex National Park – The View Better Be Worth It. Sweatpants",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-national-park-the-view-better-be-worth-it-sweatpants",
-   "title": "Unisex National Park – The View Better Be Worth It. Sweatpants",
-   "msg": "Claims \"matching sweatsuit\", already claimed by womens-cat-do-not-disturb-biscuits-sweatpants (two pages fighting for one keyword).",
-   "fix": "Give one of them a different measured phrase."
-  },
-  {
-   "level": "ERROR",
-   "handle": "unisex-national-park-the-view-better-be-worth-it-sweatpants",
-   "title": "Unisex National Park – The View Better Be Worth It. Sweatpants",
-   "msg": "Claims \"sweatsuit set\", already claimed by womens-cat-do-not-disturb-biscuits-sweatpants (two pages fighting for one keyword).",
-   "fix": "Give one of them a different measured phrase."
   }
  ]
 }

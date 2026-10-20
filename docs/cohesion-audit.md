@@ -1,23 +1,12 @@
-# Cohesion audit — 2026-10-20 22:49 UTC
+# Cohesion audit — 2026-10-20 23:47 UTC
 
-648 live products checked · **4 errors** · 76 warnings · 69 products with findings
+653 live products checked · **0 errors** · 81 warnings · 74 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
-- 4 × Claims , already claimed by womens-cat-do-not-disturb-biscuits-sweatpa
 
 ## By product (errors first)
-### Unisex Homebody – Plans Canceled. Mood Improved. Sweatpants `unisex-homebody-plans-canceled-mood-improved-sweatpants`
-- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
-- **ERROR** Claims "matching sweatsuit", already claimed by womens-cat-do-not-disturb-biscuits-sweatpants (two pages fighting for one keyword). → Give one of them a different measured phrase.
-- **ERROR** Claims "sweatsuit set", already claimed by womens-cat-do-not-disturb-biscuits-sweatpants (two pages fighting for one keyword). → Give one of them a different measured phrase.
-
-### Unisex National Park – The View Better Be Worth It. Sweatpants `unisex-national-park-the-view-better-be-worth-it-sweatpants`
-- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
-- **ERROR** Claims "matching sweatsuit", already claimed by womens-cat-do-not-disturb-biscuits-sweatpants (two pages fighting for one keyword). → Give one of them a different measured phrase.
-- **ERROR** Claims "sweatsuit set", already claimed by womens-cat-do-not-disturb-biscuits-sweatpants (two pages fighting for one keyword). → Give one of them a different measured phrase.
-
 ### Unisex Halloween – Midnight Feature Tee `unisex-halloween-midnight-feature-graphic-tee`
 - **WARN** No meta description. → Write one ≤ 155 chars.
 
@@ -215,13 +204,34 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Women's Cat – Do Not Disturb. Biscuits in Progress. Sweatpants `womens-cat-do-not-disturb-biscuits-sweatpants`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Women's Christmas – French Bulldog Santa's Cookies? What Cookies. Tee `womens-christmas-french-bulldog-santas-cookies-what-cookies-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Christmas – French Bulldog Santa's Cookies? What Cookies. Ornament `french-bulldog-santas-cookies-what-cookies-christmas-ornament`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 - **WARN** christmas design isn't in any christmas collection. → Tag it so it appears in the christmas shirts page.
+
+### Women's Christmas – Frenchie I'm Helping. You're Welcome. Tee `womens-christmas-frenchie-im-helping-youre-welcome-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Christmas – French Bulldog I'm Helping. You're Welcome. Ornament `french-bulldog-im-helping-youre-welcome-ornament`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 - **WARN** christmas design isn't in any christmas collection. → Tag it so it appears in the christmas shirts page.
 
+### Women's Christmas – I Did Christmas. Again. Long Sleeve Tee `womens-christmas-family-credits-i-did-christmas-again-long-sleeve-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Christmas – I Carried the Tree. That's My Part. Long Sleeve Tee `mens-christmas-family-credits-i-carried-the-tree-long-sleeve-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Baby Christmas – I Ate the Bow. Worth It. Baby Bodysuit `baby-christmas-family-credits-i-ate-the-bow-baby-bodysuit`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Unisex Bookish – Do Not Sell My Books at My Funeral Socks `unisex-bookish-do-not-sell-my-books-at-my-funeral-socks`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
+### Unisex Homebody – Plans Canceled. Mood Improved. Sweatpants `unisex-homebody-plans-canceled-mood-improved-sweatpants`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex National Park – The View Better Be Worth It. Sweatpants `unisex-national-park-the-view-better-be-worth-it-sweatpants`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
