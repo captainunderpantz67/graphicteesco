@@ -1,4 +1,4 @@
-status: READY
+status: PARKED
 lane: C
 type: twin
 id: 639
@@ -23,3 +23,4 @@ kd: 36
 ---
 ## Log
 - 2026-10-18 08:23 UTC director: brief written, READY (lane C hoodie twin of LIVE #584; kd 36, briefed because nothing easier is left for this design).
+- 2026-10-20 12:55 UTC director: RE-SCORE for the RESUME terms (lane C asked at 13:00). PARKED: source #584 I Speak Fluent Rattle is still REDO (reset grade B, type only); a twin of the pre-reset print would ship the type Sam rejected. Back to READY when #584 is LIVE, using its new print.

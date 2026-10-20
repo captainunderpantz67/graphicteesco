@@ -157,7 +157,7 @@ const N: Record<string, Niche> = {
     faqs: () => [{ q: 'Where is the design on a zip-up hoodie?', a: 'Zip-ups split down the front, so designs sit on the back or as a smaller chest print.' }],
   },
   cropped: {
-    about: (item) => `Original art on a cropped cut that meets high-rise jeans and skirts, like a hand-drawn wildflower bouquet in a scalloped varsity patch. Each ${item} is printed after you order it.`,
+    about: (item) => `Original art on a cropped cut that meets high-rise jeans and skirts, like a hand-drawn-style wildflower bouquet in a scalloped varsity patch. Each ${item} is printed after you order it.`,
     original: 'Yes. The cropped designs are designed for this shop. No brand logos or licensed characters.',
     made: 'Each one is printed to order on a cropped blank, then shipped.',
     style: 'Cropped graphic tees pair with high-rise jeans, skirts and shorts so the hem meets the waistband. Add a denim jacket or an oversized flannel as a layer.',
@@ -491,7 +491,7 @@ export const tees: Collection[] = [
     sections: [
       { h2: 'Spooky, retro and cute Halloween designs', body: 'The collection runs from horror-movie-night art to soft, playful prints. On the spooky side there’s a crooked haunted house under a full moon, a drive-in screen showing a moon and a bat, and a beat-up VHS cover with a glowing jack-o’-lantern. On the cute side there are groovy ghosts in sunglasses, a little ghost hugging a pumpkin, and a black cat asleep on a witch hat. Everything is drawn in a vintage screen-print style, so each Halloween graphic tee reads like a thrift-store find rather than a costume.' },
       { h2: 'For horror movie night', body: 'If your October is a stack of slashers and a bowl of popcorn, start with the two retro horror designs. Night Shift is a worn video-store VHS cover with a jack-o’-lantern glowing on the box, and Midnight Feature puts a bat and a full moon on a drive-in screen. They’re horror movie shirts without the movie: original art, no titles, no famous masks, so they work for anyone who loves the genre rather than one franchise. Haunted Hollow, the crooked haunted house shirt, fits the same double-feature mood.' },
-      { h2: 'Ghosts, witches and the pumpkin patch', body: 'Ghost Club is a group of groovy ghosts in sunglasses, the most retro Halloween shirt in the lineup, and Pumpkin Patch Ghost is a small ghost hugging a pumpkin: a cute ghost shirt for the patch, the hayride or a fall photo. For the witchy crowd, Witchy Season has a black cat curled up asleep on a witch hat. All three are drawn for spooky season but soft enough to keep wearing into November.' },
+      { h2: 'Ghosts, witches and the pumpkin patch', body: 'Ghost Club is a group of groovy ghosts in sunglasses, the most retro Halloween shirt in the lineup, and Pumpkin Patch Ghost is a small ghost hugging a pumpkin: a cute ghost shirt for the patch, the hayride or a fall photo. For the witchy crowd, Witchy Season has a black cat curled up asleep on a witch hat. All three are made for spooky season but soft enough to keep wearing into November.' },
       { h2: 'Unisex and women’s fits', body: 'The haunted-house, drive-in and VHS designs are printed on unisex tees, so they work for men and women. The ghost, pumpkin-patch and black-cat designs come on a relaxed women’s cut. Sizes and colors are listed on each product, and every shirt is printed after you order it.' },
       { h2: 'Where to wear a Halloween shirt', body: 'A horror double feature, a haunted hayride, the pumpkin patch, a costume-optional party, handing out candy on the porch, or the office on October 31st when you don’t want a full costume. Layer one under a flannel or a denim jacket once the nights get cold. Most of these designs still look right in November. Pair the cute designs with a cardigan for a pumpkin-patch photo; the horror ones go with jeans and a dark flannel.' },
       { h2: 'Matching shirts for a group', body: 'Haunted house for one friend, ghosts for another: because the designs share the same vintage look, a group can each pick a different shirt and still look like they planned it. Or order one design in several sizes for the whole family.' },
@@ -660,7 +660,7 @@ export const tees: Collection[] = [
   // christmas sweatshirt 22,200/57 · merry christmas sweatshirt 2,400/56 · christmas crewneck 1,900/60 · christmas tree sweatshirt 390/70.
   seasonal('christmas', 'tees', { slug: 'christmas-sweatshirts', name: 'Christmas Sweatshirts', keyword: 'christmas sweatshirt', volume: 22200, kd: 57, product: 'Christmas sweatshirts', blurb: 'vintage holiday art on soft crewneck fleece, for the tree farm, the cabin and the family photo.',
     title: 'Christmas Sweatshirts — Vintage Santa & Tree Crewnecks',
-    description: 'Original Christmas sweatshirts: a cracked-paint vintage Santa and a row of hand-drawn trees on soft crewneck fleece. Printed to order, $39.99.',
+    description: 'Original Christmas sweatshirts: a cracked-paint vintage Santa and a row of sketch-style trees on soft crewneck fleece. Printed to order, $39.99.',
     intro: 'Our Christmas sweatshirts carry the same original holiday art as the tees, printed on a soft, warm crewneck for the cold half of December. Vintage illustration and simple line art, no ugly-sweater gags.',
     sections: [
       { h2: 'Two kinds of Christmas art', body: 'One side of the collection is vintage illustration: a 1950s-style Santa face with rosy cheeks and a cracked, worn finish over MERRY CHRISTMAS in faded red type. The other is quiet line art: a row of five thin evergreen trees under a star and a few snowflakes, with Merry & Bright in a small script line. Both sit straight on the fabric with no badge or box behind them.' },
@@ -866,7 +866,7 @@ export const tees: Collection[] = [
     title: 'Camo Sweatshirts — Original Hunting Crewnecks',
     description: 'Camo sweatshirts with our own camo pattern printed edge to edge and a dry hunting joke on the chest. Soft cotton crewnecks, printed to order.',
     h1: 'Camo Sweatshirts',
-    intro: 'Camo sweatshirts with a camo pattern we drew ourselves, printed edge to edge, and a hunting joke on the chest for deer camp, the duck blind and the drive home.',
+    intro: 'Camo sweatshirts with an original camo pattern printed edge to edge, and a hunting joke on the chest for deer camp, the duck blind and the drive home.',
     sections: [
       { h2: 'Our own camo, not a brand pattern', body: 'Each pattern is original art made for this shop, in woodland greens and browns or soft pinks, so it looks like camo without copying any hunting brand.' },
       { h2: 'What the sweatshirt is like', body: 'A relaxed crewneck in soft 9.7 oz cotton with a little stretch (90% cotton, 10% elastane). The pattern is printed into the fabric before the sweatshirt is sewn, so it covers the front, back and sleeves.' },

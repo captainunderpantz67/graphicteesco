@@ -1,9 +1,10 @@
-status: READY
+status: REVIEW
 lane: A
 type: twin
 id: 696
 handle: womens-dance-mom-bun-tight-wallet-empty-crewneck-sweatshirt
 kd: 48
+shopify: gid://shopify/Product/15369976578352
 ---
 ## Women's Dance Mom – Bun Tight, Wallet Empty Crewneck Sweatshirt
 - **Twin of:** #534 womens-dance-mom-bun-tight-wallet-empty-graphic-tee (LIVE, graded A in the quality reset). Reuse #534's print file(s) unchanged: BUN TIGHT. SMILE ON. / art / WALLET EMPTY. in Fraunces 900. No new art (R6.2, fal $0). Lane A takes cold-weather work now that holiday garment phrases are claimed (R11.5).
@@ -23,3 +24,4 @@ kd: 48
 ---
 ## Log
 - 2026-10-19 16:10 UTC director: brief written, READY (lane A twin of A-grade #534; dance mom sweatshirt 320 / KD 48, nothing easier left; no new cover per RESUME terms).
+- 2026-10-20 15:28 UTC builder [A]: BUILT (twin of LIVE #534 tee, DRAFT; plain product shot per R6.11, no AI cover). R6.2 check on the source print (#534 file 1088786002, 3389x3700): BUN TIGHT. / SMILE ON. and WALLET EMPTY. are real Fraunces 900 faces, no ring, panel or box behind the art; the tee was graded A and is LIVE, so the twin keeps its lockup unchanged (art subject 1786 px of 3389 = 53% of the width). Light-file split (R5.3.8): Sand on the tee's own file 1090412207 (dusty-rose headline with cream keyline, plum WALLET EMPTY.); Maroon on its own file 1090412221: headline recolored pale rose (246,203,212) with the cream keyline dropped so the counters stay open, WALLET EMPTY. recolored from plum to cream, art unchanged (its cream outline carries the linework on Maroon); read at phone size on the Maroon mockup. Widths (7h): headline 3351 px (BUN TIGHT.) / 2880 px (SMILE ON.), punch WALLET EMPTY. 3389 px, wider than the widest headline line. FW 1650 TOP 75. Maroon is S-2XL only (Gildan 18000 has no Maroon 3XL), so 11 variants: Sand S-3XL + Maroon S-2XL, $34.99, no compare-at, category aa-1-13-14, tags ai-art, graphic-sweatshirts, intake-done, sweatshirt (same as the live women's crewnecks; no tee tags). DRAFT gid://shopify/Product/15369976578352. Printful sync 483403172 verified below (Sand 6 on 1090412207, Maroon 5 on 1090412221, back logo 1080398177). Sand + Maroon fronts + Sand back attached, each front linked to its color's variants. Copy: line one carries the line + who + when, primary 'dance mom sweatshirt' (320 / KD 48) in line one, the SEO title and once in the meta, 3 uses, no 'one of the' opener; the size note says Maroon stops at 2XL; 5 FAQs at 46-60 words, women-size-down note, order-by Dec 8; ink named from the mockups. Keyword map updated; #534's copy has no 'dance mom sweatshirt'. fal $0.

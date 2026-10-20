@@ -1,4 +1,4 @@
-status: REDO
+status: LIVE
 lane: C
 type: twin
 id: 501
@@ -32,3 +32,6 @@ kd: 52
 - 2026-10-18 03:06 UTC builder [C]: Sync 12/12. REVIEW. Sheet docs/review/501.jpg.
 - 2026-10-18 03:16 UTC director: LIVE. Sheet seen: REDO fixed: AT MY FUNERAL. now one bold line, reads on Sand and Light Pink; woman in a bookstore. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS (0 warn).
 - 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "do not sell my books / AT MY FUNERAL." and the art. 1. Type: Headline is a lowercase italic serif, not heavy; one maroon color, low contrast. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.
+- 2026-10-19 21:29 UTC builder [C]: REDO 501 type only (B grade), port of #481's lockup: DO NOT SELL MY BOOKS Fraunces Black one line at 97% of art width + AT MY FUNERAL. Fraunces Black, burgundy #6b1f2a, same art at 50% of canvas, print aspect 1.03 (ends well above the pouch). FW 1700 TOP 0, Printful file 1089909739, 12/12 relinked, back logo kept. Burgundy ink only, no cream fills, so one file for Sand and Light Pink. 2 fronts replaced in place; phone-size read ok. Story and first FAQ lettering updated; no R8.3 opener (line one names the rules, funeral, book club). Plain product shot (handle already in retired-covers.json). audit --handle PASS 0 warn. fal $0. Sheet docs/review/501.jpg.
+- 2026-10-20 02:16 UTC director: approved from docs/review/501.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus/479 Tag Soup: Port of #481's lockup at FW 1500; reads on Sand and Light Pink at phone size. Matches #481. Audit --handle PASS (0 warn).
+- 2026-10-20 04:14 UTC director: LIVE (approved 02:16, held for the cap). Already ACTIVE and published on Online Store, Headless, Google & YouTube (in-place redo); audit --handle PASS (0 warn).

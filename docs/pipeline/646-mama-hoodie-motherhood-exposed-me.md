@@ -23,3 +23,4 @@ kd: 56
 ---
 ## Log
 - 2026-10-18 10:20 UTC director: brief written, READY (lane C hoodie twin of #538; mama hoodie 1,300 / KD 56).
+- 2026-10-20 12:55 UTC director: RE-SCORE for the RESUME terms (lane C asked at 13:00). Still READY. Source #538 (LIVE 2026-10-20) passes the reset bar, so the twin reuses the source's CURRENT print: GET the source's Printful sync product and use the default front file it links today (any file id written above may be the pre-reset file; never use it unchecked). The twin sets its own width (crewneck FW 1650, hoodie FW 1500+, R5.3.8) and gets its own dark-ink file for every light blank. Cover: none (RESUME terms 2026-10-19): plain Printful product shots only, no registry claim, handle into src/data/retired-covers.json if needed; ignore any cover/registry line above. Type checks before REVIEW: 7h ink widths, 7k type share, 7l subject at 45%+ of the lockup width, all logged.

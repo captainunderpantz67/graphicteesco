@@ -27,3 +27,15 @@ All read secrets from the environment (PRINTFUL_TOKEN, FAL_KEY); none prints the
 - **Covers (lane A, 2026-10-17):** when a cover redraws or boxes the print, pass the product's own Printful front mockup in the cover color as `--design` (R6.9). It reproduced the print faithfully for #240 where flattened art failed twice for #239. Flattened art is only reliable when the flatten color matches the rendered garment (Sand crewneck rendered about (236,224,200)).
 - **Art prep:** `print-prep.py --solid` keeps pale faces and skin that the plain flood-fill eats; then knock out only the planned gaps (glasses lenses, gaps behind chair and trunk) with a connected-component pass at threshold 238.
 - **Crewneck twins:** `scripts/crew-spec.py` (Gildan 18000 copy template), `scripts/vm.py` (variant to media ids, which step by 32768 in creation order), `scripts/kwmap-repair.py` (closes keyword-map entries cut off by a merge).
+
+## Lane C redo kit (2026-10-20, 40 hoodie redos in one run)
+Run with `/usr/bin/python3` (the default `python3` on the cloud box has a broken Pillow). Needs `pip install opencv-python-headless` for `scripts/ragged-edge.py`.
+| Script | Does |
+|---|---|
+| `designs/lib.py` | `line()` (one heavy line, ink width = fraction of print width, keyline), `line_same()` (several lines at one size), `lockup(art, W, top_lines, bottom_lines, name, bgs)` writes `docs/print-files/<name>.png` and a phone preview. Fonts: alfa, anton, bevan, big, bowlby, cinzel, fraunces, oswald, playfair, rye. |
+| `scripts/c-redo.py <dir> <sync_pid> <catalog> <FW> <TOP> "Sand+Navy=print.png" ...` | pullover/crewneck: upload each print, paced relink per colour in the background, one front mockup per colour (`<dir>/m_<Color>.jpg`). `A+B` shares one file. |
+| `scripts/c-second.py` | a second per-colour file for a product whose first sync is already running. |
+| `scripts/c-zip.py <dir> <sync_pid> <chest_fid> <BW> <BT> <CW> "Ash=back.png" ...` | zip hoodies (18600): back print + existing chest copy, back mockups. |
+| `scripts/c-finish.py <id> <pid> <art> <m1> <m2> <log> <intake>` | checks every variant's file ids (`EXPECT=id1,id2` makes it exit if one variant is not relinked yet), makes the review sheet, sets REVIEW, writes the logs under the lane lock. |
+| `designs/rough2.py in out depth seed [closing]` | worn, uneven outer edges that ignore knocked-out gaps inside the art (use this, not ragged-edge.py, when the scene must keep its sky). `designs/c507/rough.py` is the older version that eats interior gaps. |
+Lessons: `fileUpdate` of a gallery image keeps the filename but the CDN `v=` changes (compared pixel-for-pixel: fine). Never let REVIEW land before the paced sync finishes (check the API: every variant must carry the new file id). A new line means a new Shopify title (card 7i). Punchline at least as wide as the headline (card 7h); a one-line punch on a long phrase is small at phone size, break it in two with `line_same`.

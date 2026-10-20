@@ -1,0 +1,29 @@
+status: READY
+lane: E
+type: new
+id: 722
+handle: womens-french-bulldog-i-came-i-sat-i-refused-cropped-hoodie
+kd: 33
+---
+## Women's French Bulldog – I Came. I Sat. I Refused. Cropped Hoodie
+- **Why now:** Sam 2026-10-20: build the French Bulldog collection now, crop tops first (docs/backlog/frenchie-collection.md). Frenchie design 2; lane E queue refill to 12.
+- **Blank:** Women's cropped hoodie Bella+Canvas 7502 (Printful #317), Peach + Storm (R7.1 table); handle ends -cropped-hoodie. Copy facts from the Printful spec only; copy says it has a hood (R11.5).
+- **Style:** A (R4.2), vintage to the edges, no badge, frame, rounded scene card or dark patch (R4.1); a short sidewalk strip under the dog ends on ragged edges. New art: one Recraft v4 call (--n 1), picture only, no words; at most 3 tries, then PARK. fal wallet only.
+- **Art prompt:** Vintage 1960s storybook illustration: a stocky fawn French Bulldog with a dark mask and big upright bat ears planted firmly in a dead stop on a sidewalk, front legs braced, chin up, eyes half-closed in total refusal, a red leash pulled taut out of frame to one side. A few autumn leaves on the pavement. Muted screen-print palette (faded red, cream, warm fawn, sage, soft black linework), halftone, worn edges; every side ends where its own objects end. Face, ears and paws right at phone size. No person, no background, no frame, no border, no badge, no dark patch, no words or letters anywhere.
+- **Text on hoodie (real fonts via scripts/compose-print.py, spelled exactly):** I CAME. I SAT. (headline above the art, heavy display face) / I REFUSED. (punch below, heavy, the loudest line, at least as wide as the headline: R3.7.8, card 7h). Dark ink (navy or deep brown with a faded-red punch) on Peach (light blank, R5.3.8); cream with a red punch on Storm. One heavy display face not used on more than 1 in 6 of the last 30 designs; headline at least 90% of the art width; type at least 40% of the print height (7k); dog at least 45% of the lockup width (7l). Solid ink, no pattern fill, no thin script.
+- **Five lines considered (R3.13, compared with "Politely, No.", "Oops. Anyway.", "Wildly Low Maintenance"):** I Came. I Sat. I Refused. · This Is Where We Live Now. · Walk Canceled by Management. · Not Stubborn. Decisive. · Short Legs. Strong Opinions on Walks. Picked the first: the Frenchie sit-down strike every owner knows, the art proves it to an outsider in 3 seconds (R3.12), short and self-aware in the 'Politely, No.' register. "Short Legs" is too close to our live dachshund line; "Not Stubborn. Decisive." is a stock template.
+- **Hook:** the Frenchie mom whose walks end in a sit-down protest; she wears it on the walk that doesn't happen. Women's: cute + cheeky (R3.4).
+- **Why it's not taken:** Etsy Frenchie cropped hoodies are mostly portrait line art, "Frenchie Mama" and coffee jokes; the sit-down strike told as a mock-Latin triumph is uncommon. Builder confirms under 50 listings carry the exact line (R3.7.2); if 50+, use "Walk Canceled by Management.". 7j: no other product opens with "I came" (grep 2026-10-20).
+- **Design gate (docs/research/how-to-research-a-design.md):** proof: RankHero keyword pages no longer show the listing grid (R5.2, 2026-10-19), so before spending fal the builder logs one same-format Frenchie listing with 500+ favorites (RankHero or Etsy search, favorites not views); none found = PARKED · community: Frenchies are the #1 AKC breed (docs/backlog/frenchie-collection.md); Sam and his wife will share to Facebook Frenchie groups, so owners must see their own dog in it · gift test: from a partner, a sister, the dog walker.
+- **Breed accuracy (docs/backlog/frenchie-collection.md):** a real French Bulldog: upright rounded BAT EARS, flat short muzzle, big round eyes, compact muscular body, short legs, fawn coat with a darker mask (coat variants come later as separate products). Not a pug (no curled tail), not an English bulldog. No AKC or breed-club logos, no brand names.
+- **Primary keyword:** french bulldog hoodie: 590 / KD 33 (competition 1,943) (RankHero via scripts/keyword-gap.py, 2026-10-20 13:50 UTC, director). KD 21–35 band (R2.5), names the garment (R2.11), has a competition count (R2.10); the easiest measured Frenchie garment phrase. "french bulldog cropped hoodie" and "frenchie crop top" have no measured volume: copy once at most. Unowned; record it with this handle. When a /hoodies/french-bulldog-hoodies/ page exists (3 live), the page takes it and this product moves to a long-tail (R8.8). Primary in SEO title, first sentence and once in the meta, at most 3 times.
+- **Print size:** chest print at the cropped hoodie's widest legible width above the pouch (R5.3.2: FW 1500 floor for hoodies; change the art's shape, never shrink).
+- **Copy:** line one plainly, e.g. "I came, I sat, I refused: a French Bulldog hoodie for the Frenchie mom whose walks end in a sit-down strike." No superlative opener, no production words (R8.3). Answer-first FAQs: cropped fit and length (from the 7502 spec), fabric, sizing, care, gift timing (order by about Dec 8), free size exchange.
+- **Cover:** none for now (R6.11): plain Printful product shot. R6.12: front print only.
+- **Title / handle:** "Women's French Bulldog – I Came. I Sat. I Refused. Cropped Hoodie" / `womens-french-bulldog-i-came-i-sat-i-refused-cropped-hoodie`. SEO title ≤ 60, e.g. "French Bulldog Hoodie – I Came. I Sat. I Refused.".
+- **Tags:** cropped-hoodies, cropped-sweatshirts, graphic-hoodies-for-women, hoodie, french-bulldog, ai-art, intake-done.
+- **Price:** $44.99 (R12.1 cropped), NO compare-at.
+---
+## Log
+- 2026-10-20 13:55 UTC director: brief written, READY (lane E; Frenchie collection design 2, crop first per Sam; french bulldog hoodie 590 / KD 33; 5 lines tested against R3.13).
+- 2026-10-20 14:55 UTC director: R5.2 favorites gate WAIVED on Sam's direct Frenchie order (see #719's 14:55 entry). Build it.
