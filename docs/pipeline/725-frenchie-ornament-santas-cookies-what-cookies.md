@@ -1,9 +1,10 @@
-status: READY
+status: REVIEW
 lane: A
 type: addon
 id: 725
 handle: french-bulldog-santas-cookies-what-cookies-christmas-ornament
 kd: 34
+shopify: gid://shopify/Product/15370124788016
 ---
 ## Christmas – French Bulldog Santa's Cookies? What Cookies. Ornament
 - **Add-on of #724's art** (docs/backlog/frenchie-collection.md: Frenchie ornaments are the best gap). Build after #724 is approved; pull the art from its designs/ folder, never regenerate it. If #724 is PARKED or sent back for its line, wait.
@@ -21,3 +22,4 @@ kd: 34
 ---
 ## Log
 - 2026-10-20 14:50 UTC director: brief written, READY (lane A; ornament of #724's art; french bulldog christmas ornament 720 / KD 34).
+- 2026-10-20 15:50 UTC builder [A]: BUILT (add-on of #724's art, DRAFT; no new art or line, fal $0). Art pulled from #724's print art (designs/a724/art-halo.png: the Frenchie scene with its cream outline), nothing regenerated. Layout (scripts/ornament-print.py, designs/o725/spec.json): 954x954 deep navy #1c2a4a disc, type and art inside the 372 px safe radius and below the string hole; SANTA'S COOKIES? Bevan cream 458 px wide x 33 px; WHAT COOKIES. Bevan mustard #e8b23c 565 px wide x 47 px (punch wider than the headline); Frenchie art 427 x 420 px. Printful #881 Circle (variant 22782), sync 483423444, 1/1 synced on file 1090465830. Base cost $6.34, $14.99, no compare-at (about $8.65 before shipping). DRAFT gid://shopify/Product/15370124788016, category hg-3-58-7, tags ornament, christmas, christmas-ornament, gift-addon, french-bulldog, intake-done. Copy: FAQ written the way a shopper types it (card from the #721 redo): questions 'What is the joke on this ornament?', 'How big is it...', 'How do I hang it?', no full product title in any FAQ; primary 'french bulldog christmas ornament' (720 / KD 34) in line one, SEO title and once in the meta (3 uses); links the #724 tee; every object in the art sentence is in the art. Cover: Printful #881 flat circle mockup, no person. Keyword map: recorded. Sheet docs/review/725.jpg. Audit: only the expected not-visible (DRAFT) error. fal $0.

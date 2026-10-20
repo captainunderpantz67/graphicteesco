@@ -10335,6 +10335,32 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-french-bulldog-santas-cookies-what-cookies-graphic-tee": {
+   "claimed": [
+    "french bulldog tee"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "french bulldog tee",
+     "volume": 1000,
+     "kd": 40
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "french-bulldog-santas-cookies-what-cookies-christmas-ornament": {
+   "claimed": [
+    "french bulldog christmas ornament"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "french bulldog christmas ornament",
+     "volume": 720,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

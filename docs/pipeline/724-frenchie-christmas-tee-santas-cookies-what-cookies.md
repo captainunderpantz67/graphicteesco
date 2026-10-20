@@ -4,6 +4,7 @@ type: new
 id: 724
 handle: womens-christmas-french-bulldog-santas-cookies-what-cookies-graphic-tee
 kd: 40
+shopify: gid://shopify/Product/15370120495408
 ---
 ## Women's Christmas – French Bulldog Santa's Cookies? What Cookies. Tee
 - **Why now:** Sam 2026-10-20: build the French Bulldog collection now (docs/backlog/frenchie-collection.md, at least 3 Christmas designs). Frenchie Christmas design 2 of 3; its ornament is #725 (same art). Crewneck twin waits: every Frenchie Christmas sweatshirt/crewneck phrase is unmeasured (french bulldog sweatshirt no volume, frenchie crewneck no volume; frenchie sweatshirt is #720's), so no twin until one measures (R2.1).

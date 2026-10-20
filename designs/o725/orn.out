@@ -1,0 +1,15 @@
+sync product 483423444 synced True
+Traceback (most recent call last):
+  File "/home/user/graphicteesco/scripts/review-sheet.py", line 6, in <module>
+    from PIL import Image, ImageDraw
+  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 84, in <module>
+    from . import _imaging as core
+ImportError: cannot import name '_imaging' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py)
+Traceback (most recent call last):
+  File "/home/user/graphicteesco/scripts/b-orn-pf.py", line 28, in <module>
+    subprocess.run(['python3', str(ROOT / 'scripts/review-sheet.py'), n, art, str(ROOT / f'public/covers/{handle}.webp'), jpg], check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['python3', '/home/user/graphicteesco/scripts/review-sheet.py', '725', 'designs/o725/print.png', '/home/user/graphicteesco/public/covers/french-bulldog-santas-cookies-what-cookies-christmas-ornament.webp', '/tmp/m-725.jpg']' returned non-zero exit status 1.
