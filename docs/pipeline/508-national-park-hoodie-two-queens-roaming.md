@@ -1,4 +1,4 @@
-status: REDO
+status: BUILDING [C] 2026-10-20 08:56
 lane: C
 type: new
 id: 508
