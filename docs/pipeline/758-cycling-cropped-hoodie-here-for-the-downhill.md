@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [B] 2026-10-20 22:54Z
 lane: B
 type: new
 id: 758
