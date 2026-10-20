@@ -24,7 +24,7 @@ W=src.width; art=src.crop((0,356,W,3141))
 import sys
 NV=len(sys.argv)>1
 h1=line("SKIPPED LEG DAY.",'BigShouldersDisplay[wght].ttf',0.97,W,CREAM if NV else BROWN,BROWN if NV else CREAM,kw=27,var=[900])
-h2=line("BLAMING THE ARMOR.",'Fraunces[SOFT,WONK,opsz,wght].ttf',0.97,W,RUST,CREAM,kw=23,var=[9,900,40,1])
+h2=line("BLAMING THE ARMOR.",'Fraunces[SOFT,WONK,opsz,wght].ttf',0.97,W,(240,184,58,255) if NV else RUST,BROWN if NV else CREAM,kw=23,var=[9,900,40,1])
 print('h1',h1.size,'h2',h2.size,'ratio h2/h1',h2.height/h1.height)
 g=34; H=h1.height+g+art.height+g+h2.height
 out=Image.new('RGBA',(W,H),(0,0,0,0))
