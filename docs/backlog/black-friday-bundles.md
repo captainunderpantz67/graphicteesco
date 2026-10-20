@@ -30,3 +30,12 @@ Build order: (a) /sets/ hub + 10 matching-sweatsuit sets from A-grade designs th
 
 ## Pace + quality
 Same caps (1 item per builder run, director 6 LIVE per run, side-by-side with the R3.13 bar). Order: BF page → sets hub + 10 sweatsuit sets (with sweatpants) → couples sets → gift sets. Redesigns continue in parallel lanes.
+
+## 4. Cyber Monday page (Sam 2026-10-20) — build right after the Black Friday page
+- Cyber Monday 2026 = Mon Nov 30 (2025 was Dec 1, so last year's spike shows in "Dec").
+- Demand: "cyber monday deals" Nov 823K / Dec 1.22M, KD 7, only 2,161 listings (best head-term gap found); "cyber monday sale" 74K–90K, KD 26, 6,664 listings.
+- Page: /cyber-monday/ (indexable now, evergreen, update yearly). H1 "Cyber Monday Deals on Funny Graphic Tees, Hoodies & Sets". Primary: "cyber monday deals" (Sam targets #1); supporting: cyber monday sale, cyber monday clothing deals. Same structure as /black-friday/ (deal dates, sets, gift guides, stocking stuffers, crew 15%, free shipping $45+ once live, Christmas order-by date), plus "last day for Christmas delivery" messaging. Cross-link with /black-friday/. Never state a % until Sam's discount exists.
+
+## 5. Stocking stuffer guide — /guides/stocking-stuffers/ (or two guides)
+- Demand: stocking stuffers for men Dec 165K / KD 39; stocking stuffers for teens Dec 40.5K / KD 27 / 4,587 listings (best gap); for women Dec 74K / 46; cheap stocking stuffers Dec 27K / KD 14 (no competition count: copy mention only); stocking stuffer ideas Dec 246K / KD 8 (no count).
+- Picks: socks ($18.99), ornaments, mugs, stickers when live; A-grade designs only. Sections: for men, for teens, for women, under $20. Live by Nov 15.
