@@ -10226,6 +10226,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-hunting-todays-special-tag-soup-sweatpants": {
+   "claimed": [
+    "mens sweatpants"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "mens sweatpants",
+     "volume": 74000,
+     "kd": 26
+    }
+   ],
+   "measured": "2026-10-20"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
