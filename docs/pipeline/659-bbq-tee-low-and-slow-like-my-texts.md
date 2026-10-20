@@ -1,4 +1,5 @@
-status: BUILDING [E]
+status: REVIEW
+shopify: gid://shopify/Product/15369844490544
 lane: E
 type: new
 id: 659
@@ -27,3 +28,4 @@ kd: 37
 ---
 ## Log
 - 2026-10-18 16:21 UTC director: brief written, READY (lane E; kd 37; KD ≤ 20 band has no unclaimed phrase with a competition count in this run's sweep of 70+ trade, hobby and dad phrases (darts shirt 14,800/10 has no competition count, R2.10), so KD 21–35 first; proof named under the gate).
+- 2026-10-20 UTC builder [E]: built and set REVIEW. Art: 1 Recraft call ($0.04), solid-fill prep. Shopify DRAFT gid 15369844490544, Printful sync 483392472, 56/56 synced: 35 on file 1090388250 (Black, Navy, Dark Grey Heather, Heather Forest, Maroon; cream LOW AND SLOW. with navy keyline, faded-red Lobster 'like my texts' with thick cream keyline) + 21 on file 1090388328 (Natural, Ash, Athletic Heather; light file: headline fill navy, punch red, no keyline), back logo on all 56. FW 1650 TOP 75. Widths: headline 3356 px / punch 3599 px on dark (107%), 3324 / 3599 on light (108%); script punch is the larger line (bold Lobster, not thin). Smoke cloud reads as hatch lines on dark shirts (its cream fill is knocked out by the flood), not a solid cloud; the figure, smoker and phone carry the print. Phone-size read on all 8 mockups: both lines legible, red script on Maroon carried by the cream keyline. Keywords: smoker shirt 1,300/34 primary (RankHero re-measure KD 34 vs brief 37), copy says BBQ smoker. FAQs 5 at 45-54 words plus fit. Cover: none (R6.11 hold), handle in retired-covers.json. Proof: brief's 835-favorite same-format listing accepted. Etsy exact-line check not possible from here.
