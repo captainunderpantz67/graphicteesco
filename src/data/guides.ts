@@ -403,7 +403,6 @@ export const allGuides: Guide[] = [
     h1: 'Aesthetic Hoodies: Vintage-Style Art, Soft Colors, One Dry Line',
     date: '2026-10-20',
     cluster: 'hoodies',
-    draft: true,
     answer: 'An aesthetic hoodie is a hoodie chosen for its look: a soft color, a simple shape and one piece of art that sets a mood. Graphic Tees Co. makes them as original vintage-style screen-print illustrations, like a sleeping mothman or a capybara soaking in a hot spring, in Sand, Dust, Navy and other soft colors. Pullovers are $39.99 in the holiday sale through November 30, 2026 ($44.99 regular), and each one is printed after you order it.',
     picks: [
       {

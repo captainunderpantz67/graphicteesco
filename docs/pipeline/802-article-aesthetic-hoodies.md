@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: hoodies
@@ -17,3 +17,4 @@ slug: aesthetic-hoodies
 - Director: confirm the six picks' colors against live listings and flip draft to false on approval.
 ## Log
 - 2026-10-20 UTC writer: draft written, `draft: true` grep confirmed, astro build passes.
+- 2026-10-20 23:50 UTC director: APPROVED, draft line removed. Six picks checked ACTIVE with live titles in Shopify; prices and blank facts match the listings; answer-first, one primary (aesthetic hoodies 8,100 / KD 35) unowned elsewhere. Order-by date Dec 4 is stricter than the product pages' 'about Dec 8'; left as the conservative date.
