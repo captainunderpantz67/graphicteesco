@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-20 05:51
+status: REVIEW
 lane: B
 type: new
 id: 404
@@ -34,3 +34,4 @@ kd: 28
 - 2026-10-20 04:16 UTC director: REDO from docs/review/404.jpg (product stays ACTIVE; fix in place, type only, no fal).
   1. R3.7.1 / quality-reset 'type is half the design': POSTPONED. is the punchline and only about 60% of the headline's width; on the Navy mockup it reads as a caption. Set it at the headline's full width (Bevan, same colors). Line kept.
   2. Remake both files (Navy, Sand light) and the review sheet.
+- 2026-10-20 06:03 UTC builder [B]: REDO 404 round 2 (director): MAIN QUEST / POSTPONED., punch widened to headline width. Widths headline 3593 px / punch 3593 px. Phone read ok. FW 1500 TOP 0, 12/12 synced on the right file per color, fronts replaced in place, copy unchanged. fal $0. Sheet docs/review/404.jpg.
