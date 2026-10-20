@@ -10670,6 +10670,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-nana-mom-said-no-thats-cute-hoodie": {
+   "claimed": [
+    "grandma hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "grandma hoodie",
+     "volume": 320,
+     "kd": 48
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
