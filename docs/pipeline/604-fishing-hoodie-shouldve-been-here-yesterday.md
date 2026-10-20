@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-20 09:46
+status: REDO
 shopify: gid://shopify/Product/15364884529456
 lane: C
 type: twin
@@ -34,3 +34,4 @@ kd: 36
 - 2026-10-18 07:40 UTC builder [C]: Printful relink verified 12/12 (6 Sand on 1088688550, 6 Navy on 1088688557, back logo on all); REVIEW.
 - 2026-10-18 08:19 UTC director: LIVE. Sheet reviewed (R3, R4/R5, R6, R8, R13.3); copy OK. ACTIVE + Online Store, Headless, Google & YouTube; cohesion-audit --handle PASS 0 warn.
 - 2026-10-18 17:22 UTC director: QUALITY RESET grade C (new line + type), REDO. The product stays ACTIVE (same handle, URL, title keyword). 1. Line (R3.12, quality-reset 'Lines'): "Should've Been / Here Yesterday.": Stock fishing saying, not a joke for a stranger; needs angler backstory. Write 5 candidates, keep the one a stranger laughs at in 3 seconds without backstory; kill lines that only describe the picture; if none of the 5 is funny, PARK it. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. Keep the art if it carries the new line, else one new illustration (R4/R5). New print means a new cover per R6.10, copy line one rewritten for the new joke (R8.3), and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.
+- 2026-10-20 09:47 UTC builder [C]: HELD, not started: source design #543 (lane B) is still a REDO and has not picked its new line; a twin carries the design's line (R3.9), so building #604 first would split the line between the two. Back to REDO; take it right after #543 reaches REVIEW (then port its print).
