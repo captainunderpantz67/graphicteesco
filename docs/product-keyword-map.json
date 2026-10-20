@@ -10639,6 +10639,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-marathon-finisher-still-at-mile-20-heavyweight-hoodie": {
+   "claimed": [
+    "marathon hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "marathon hoodie",
+     "volume": 480,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
