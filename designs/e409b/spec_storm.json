@@ -1,0 +1,3 @@
+{"art":"designs/e409b/art.png","out":"designs/e409b/print_storm.png","art_w":0.74,"knock":3000,"halo":8,
+ "top":{"text":"MY ETA","font":"AlfaSlabOne-Regular.ttf","w":0.62,"fill":"#f3e7cf","stroke":10,"sfill":"#1c2a3a"},
+ "bottom":{"text":"IS AFTER PIE.","font":"AlfaSlabOne-Regular.ttf","w":1.0,"fill":"#f2b632","stroke":12,"sfill":"#1c2a3a","ref":"W"},"overlap":0.0,"gap":30}
