@@ -1,5 +1,4 @@
 2026-10-20 06:47 UTC — [B] Run summary: REVIEW #280 #362 #404 #440 (punch width), #318 #396 #513 #519 (crew punch width), #455 (Lost My Gelt), #469 (Busy at a Good Part, embroidered), #697 (new Outdoorsy in Theory cropped hoodie). #485 was finished by a second lane B session. #498 left for director re-grade (R3.14). fal about $0.16. Lock released.
-RUNNING lane E since 2026-10-20 06:47 UTC
 RUNNING lane C since 2026-10-20 06:30 UTC
 2026-10-20 06:43 UTC — [E] Builder run: redid #486 Women's Embroidered goose crewneck (line + type: NOT IGNORING YOU. / JUST AT A GOOD PART., same goose, new stitched lettering, navy thread, 12/12 synced). REVIEW. fal $0.
 2026-10-20 06:50 UTC — [E] Builder run: redid #559 Women's Bear crewneck (line + type: BEAR WITH ME. I'M RESTING., new belly-up sleeping bear art, Navy + Sand files, 12/12 synced, copy updated, plain product shot). REVIEW. fal $0.04.
