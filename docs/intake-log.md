@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-20 17:28 UTC
 RUNNING lane C since 2026-10-20 17:27 UTC
 2026-10-20 17:19 UTC — [B] Builder run: #697 Outdoorsy in Theory cropped hoodie finalized (built earlier, repo side lost): Black + Storm, 10/10 synced, REVIEW, flat cover. fal $0.04.
 RUNNING lane E since 2026-10-20 17:19 UTC
@@ -15,7 +16,6 @@ RUNNING lane E since 2026-10-20 17:19 UTC
 2026-10-20 16:43 UTC — [A] Builder run: #730 Christmas Credits Dad long sleeve, 12/12 synced. REVIEW. fal $0.
 2026-10-20 16:42 UTC — [A] Builder run: #729 Christmas Credits Mom long sleeve, 12/12 synced. REVIEW. fal $0.
 2026-10-20 16:42 UTC — [A] Builder run: #726 Frenchie I'm Helping. You're Welcome. tee, 48/48 synced. REVIEW. fal $0.
-RUNNING director since 2026-10-20 16:20 UTC
 2026-10-20 16:16 UTC — [A] Builder run: #724 Frenchie Santa's Cookies? What Cookies. tee, 48/48 synced. REVIEW. fal $0.
 2026-10-20 16:14 UTC — [A] Builder run: #634 tee gets the corrected We lied. print, 42/42 relinked. REVIEW. fal $0.
 2026-10-20 16:12 UTC — [A] Builder run: #645 We lied. punch at full width, 30/30 relinked. REVIEW. fal $0.
