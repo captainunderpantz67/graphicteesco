@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-20 06:10
+status: REVIEW
 shopify: gid://shopify/Product/15369133359408
 lane: B
 type: new
@@ -27,3 +27,4 @@ kd: 34
 ---
 ## Log
 - 2026-10-19 16:10 UTC director: brief written, READY (lane B; Sam's cropped-hoodie + park-snark ask; cropped pullover 4,400 / KD 34; 5 lines tested against R3.13).
+- 2026-10-20 06:21 UTC builder [B]: built. Joke check: line kept (OUTDOORSY / IN THEORY.). Art: 1 Recraft call ($0.04, first try clean: tent, cord, lamp, slipper, mug, cat, patio lights; no text). Lettering Playfair Display 900 (5 prior uses, not over 1 in 6), headline 3600 px / punch 3600 px (equal width, both full print width), cream OUTDOORSY + mustard IN THEORY. with thin cream halo (dark doorway). Colors: Peach exists in XL only and out of stock (R7.1 note, #605 precedent), so Black + Storm, both dark: one file (Printful 1090204399), light file n/a (no light blank offered). FW 1500 TOP 0 = 1449 px high in the 1500 area. 10/10 synced, Shopify DRAFT gid 15369133359408 ($44.99, no compare-at, aa-1-13-13), FAQ 5 x 49-59 words incl. Dec 8, Black + Storm fronts + back attached, phone read ok. Cover: plain product shot (handle in retired-covers.json). kw cropped pullover 4400/34. fal $0.04. Sheet docs/review/697.jpg.
