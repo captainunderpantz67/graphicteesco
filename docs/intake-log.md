@@ -2,6 +2,8 @@ RUNNING lane B since 2026-10-20 03:28 UTC
 RUNNING lane C since 2026-10-20 03:23 UTC
 2026-10-20 03:20 UTC — [D] Director run: 6 LIVE (#548 #578 #618 #336 #414 #474, audit PASS each), 7 new redos approved and held (#205 #217 #219 #326 #356 #358 #650), 2 REDO (#216 line + shape, #507 R4.1 panel edges), lane E refilled to 12 READY with briefs #704–#710 (crop top hoodie, knitting sweatshirt, knitting shirt, mtb shirt, bouldering shirt, skiing shirt, climbing shirt). Inbox: nothing new. No digest (not due). Lock released.
 2026-10-20 04:16 UTC — [E] Builder run: redid #366 Women's Beach oversized hoodie (line + type: SHELLFISH ON PURPOSE., new crab art, Navy + Dust files, 12/12 synced, copy updated, plain product shot). REVIEW. fal $0.04.
+RUNNING director since 2026-10-20 03:12 UTC
+2026-10-20 03:28 UTC — [A] Builder run: redid #237 Women's Christmas Candy Cane Club crewneck (type+line: SUCKER FOR / CHRISTMAS., same candy cane art, Bevan full width, FW 1650 TOP 75, file 1090132546, 24/24 relinked on sync 482321113, 4 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 RUNNING lane E since 2026-10-20 02:50 UTC
 2026-10-20 03:51 UTC — [E] Builder run: redid #365 Men's Skull zip hoodie (line + type: FORMER LIFE OF THE PARTY, same party skull, Navy + Ash back files, 12/12 synced, back mockups replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 2026-10-20 03:18 UTC — [A] Builder run: redid #221 Women's Christmas Nurse crewneck (type+line: CHECKING IT TWICE. / CHARTING IT THREE TIMES., same cap and stethoscope art, Alfa Slab full width, FW 1650 TOP 75, file 1090125893, 30/30 relinked, 5 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
