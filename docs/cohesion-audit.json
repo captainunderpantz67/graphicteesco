@@ -1,5 +1,5 @@
 {
- "at": "2026-10-20T03:47:07.001Z",
+ "at": "2026-10-20T04:46:12.733Z",
  "products": 607,
  "findings": [
   {
@@ -60,17 +60,17 @@
   },
   {
    "level": "WARN",
-   "handle": "unisex-thanksgiving-totally-a-pilgrim-hoodie",
-   "title": "Unisex Thanksgiving – Totally a Pilgrim Hoodie",
-   "msg": "thanksgiving design isn't in any thanksgiving collection.",
-   "fix": "Tag it so it appears in the thanksgiving shirts page."
+   "handle": "womens-christmas-christmas-nurse-crewneck-sweatshirt",
+   "title": "Women's Christmas Nurse – Checking It Twice, Charting It Three Times Crewneck Sweatshirt",
+   "msg": "Non-holiday design (christmas nurse) listed in \"Christmas Sweatshirts\".",
+   "fix": "Only keep it there if the art is genuinely for that holiday."
   },
   {
    "level": "WARN",
-   "handle": "womens-thanksgiving-the-turkey-is-fine-crewneck-sweatshirt",
-   "title": "Women's Thanksgiving – The Turkey Is Fine Crewneck Sweatshirt",
-   "msg": "SEO title is 61 chars (> 60).",
-   "fix": "Trim to ≤ 60."
+   "handle": "unisex-thanksgiving-totally-a-pilgrim-hoodie",
+   "title": "Unisex Thanksgiving – Not a Turkey, Just a Pilgrim Hoodie",
+   "msg": "thanksgiving design isn't in any thanksgiving collection.",
+   "fix": "Tag it so it appears in the thanksgiving shirts page."
   },
   {
    "level": "WARN",
@@ -109,6 +109,13 @@
   },
   {
    "level": "WARN",
+   "handle": "womens-capybara-out-of-office-soaking-oversized-hoodie",
+   "title": "Women's Capybara – Per My Last Email, I'm Soaking Oversized Hoodie",
+   "msg": "No SEO title.",
+   "fix": "Write one ≤ 60 chars with the primary keyword."
+  },
+  {
+   "level": "WARN",
    "handle": "womens-axolotl-smiling-through-it-oversized-hoodie",
    "title": "Women's Axolotl – Smiling Through It Oversized Hoodie",
    "msg": "\"axolotl hoodie\" appears 7× in the copy (keyword stuffing).",
@@ -131,7 +138,7 @@
   {
    "level": "WARN",
    "handle": "womens-thanksgiving-pie-season-pumpkin-hoodie",
-   "title": "Women's Thanksgiving – Pie Season Pumpkin Hoodie",
+   "title": "Women's Thanksgiving – Turkey Was the Warm-Up Pumpkin Hoodie",
    "msg": "thanksgiving design isn't in any thanksgiving collection.",
    "fix": "Tag it so it appears in the thanksgiving shirts page."
   },
@@ -179,13 +186,6 @@
   },
   {
    "level": "WARN",
-   "handle": "mens-pig-wallowing-respectfully-oversized-hoodie",
-   "title": "Men's Pig – Mud Bath Booked, Plans Canceled Oversized Hoodie",
-   "msg": "\"pig hoodie\" appears 5× in the copy (keyword stuffing).",
-   "fix": "Use it once or twice, naturally."
-  },
-  {
-   "level": "WARN",
    "handle": "mens-pirate-pillaging-is-a-young-mans-game-hoodie",
    "title": "Men's Pirate – Pillaging Is a Young Man's Game Hoodie",
    "msg": "\"pirate hoodie\" appears 11× in the copy (keyword stuffing).",
@@ -194,9 +194,16 @@
   {
    "level": "WARN",
    "handle": "mens-grandpa-i-fix-things-after-naps-hoodie",
-   "title": "Men's Grandpa – I Fix Things After Naps Hoodie",
-   "msg": "Meta description is 162 chars (> 160).",
-   "fix": "Trim to ≤ 155."
+   "title": "Men's Grandpa – I'm Fixing It Hoodie",
+   "msg": "No SEO title.",
+   "fix": "Write one ≤ 60 chars with the primary keyword."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-pitbull-velvet-hippo-social-club-hoodie",
+   "title": "Unisex Pitbull – The Belly Is Open Hoodie",
+   "msg": "No SEO title.",
+   "fix": "Write one ≤ 60 chars with the primary keyword."
   },
   {
    "level": "WARN",

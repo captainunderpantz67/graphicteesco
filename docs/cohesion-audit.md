@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-20 03:47 UTC
+# Cohesion audit — 2026-10-20 04:46 UTC
 
-607 live products checked · **0 errors** · 30 warnings · 28 products with findings
+607 live products checked · **0 errors** · 31 warnings · 29 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -31,11 +31,11 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Unisex Christmas – Mountain Christmas Bear Hoodie `unisex-christmas-mountain-christmas-bear-hoodie`
 - **WARN** No meta description. → Write one ≤ 155 chars.
 
-### Unisex Thanksgiving – Totally a Pilgrim Hoodie `unisex-thanksgiving-totally-a-pilgrim-hoodie`
-- **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
+### Women's Christmas Nurse – Checking It Twice, Charting It Three Times Crewneck Sweatshirt `womens-christmas-christmas-nurse-crewneck-sweatshirt`
+- **WARN** Non-holiday design (christmas nurse) listed in "Christmas Sweatshirts". → Only keep it there if the art is genuinely for that holiday.
 
-### Women's Thanksgiving – The Turkey Is Fine Crewneck Sweatshirt `womens-thanksgiving-the-turkey-is-fine-crewneck-sweatshirt`
-- **WARN** SEO title is 61 chars (> 60). → Trim to ≤ 60.
+### Unisex Thanksgiving – Not a Turkey, Just a Pilgrim Hoodie `unisex-thanksgiving-totally-a-pilgrim-hoodie`
+- **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
 
 ### Women's Thanksgiving – Friendsgiving Hoodie `womens-thanksgiving-friendsgiving-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
@@ -48,6 +48,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** Non-holiday design (black friday) listed in "Thanksgiving Tees". → Only keep it there if the art is genuinely for that holiday.
 - **WARN** Non-holiday design (black friday) listed in "Funny Thanksgiving Shirts". → Only keep it there if the art is genuinely for that holiday.
 
+### Women's Capybara – Per My Last Email, I'm Soaking Oversized Hoodie `womens-capybara-out-of-office-soaking-oversized-hoodie`
+- **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
+
 ### Women's Axolotl – Smiling Through It Oversized Hoodie `womens-axolotl-smiling-through-it-oversized-hoodie`
 - **WARN** "axolotl hoodie" appears 7× in the copy (keyword stuffing). → Use it once or twice, naturally.
 
@@ -57,7 +60,7 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Unisex Outdoors – Went Outside It Was Fine Heavyweight Hoodie `unisex-outdoors-went-outside-it-was-fine-heavyweight-hoodie`
 - **WARN** "national park hoodie" appears 4× in the copy (keyword stuffing). → Use it once or twice, naturally.
 
-### Women's Thanksgiving – Pie Season Pumpkin Hoodie `womens-thanksgiving-pie-season-pumpkin-hoodie`
+### Women's Thanksgiving – Turkey Was the Warm-Up Pumpkin Hoodie `womens-thanksgiving-pie-season-pumpkin-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
 
 ### Women's Thanksgiving – Spill the Gravy Hoodie `womens-thanksgiving-spill-the-gravy-hoodie`
@@ -78,14 +81,14 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Women's Anime – Slurp Responsibly Half Zip `womens-anime-slurp-responsibly-half-zip`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 
-### Men's Pig – Mud Bath Booked, Plans Canceled Oversized Hoodie `mens-pig-wallowing-respectfully-oversized-hoodie`
-- **WARN** "pig hoodie" appears 5× in the copy (keyword stuffing). → Use it once or twice, naturally.
-
 ### Men's Pirate – Pillaging Is a Young Man's Game Hoodie `mens-pirate-pillaging-is-a-young-mans-game-hoodie`
 - **WARN** "pirate hoodie" appears 11× in the copy (keyword stuffing). → Use it once or twice, naturally.
 
-### Men's Grandpa – I Fix Things After Naps Hoodie `mens-grandpa-i-fix-things-after-naps-hoodie`
-- **WARN** Meta description is 162 chars (> 160). → Trim to ≤ 155.
+### Men's Grandpa – I'm Fixing It Hoodie `mens-grandpa-i-fix-things-after-naps-hoodie`
+- **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
+
+### Unisex Pitbull – The Belly Is Open Hoodie `unisex-pitbull-velvet-hippo-social-club-hoodie`
+- **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
 
 ### Women's Volleyball Mom – 7 A.M. Check-In Tee `womens-volleyball-mom-seven-am-check-in-graphic-tee`
 - **WARN** No meta description. → Write one ≤ 155 chars.
