@@ -1,4 +1,5 @@
 status: BUILDING [C] 2026-10-20 23:03 UTC
+shopify: gid://shopify/Product/15371239850288
 lane: C
 type: twin
 id: 646
