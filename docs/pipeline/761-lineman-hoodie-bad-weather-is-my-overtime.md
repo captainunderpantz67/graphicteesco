@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-20 23:43 UTC
+status: REVIEW
 shopify: gid://shopify/Product/15371351327024
 lane: C
 type: twin
@@ -22,3 +22,4 @@ kd: 32
 ---
 ## Log
 - 2026-10-20 23:28 UTC director: brief written, READY (lane C hoodies cluster; primary measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).
+- Built (twin of #651's CURRENT print, A grade): source files read from #651's live Printful variants: cream file 1088982571 (3418x4606, dark colors) and dark-ink file 1088982556 (3418x4578, Ash/Natural) used for Sand, re-uploaded as 1090762825 / 1090762713. R6.2 check at 200%: real serif type, lineman/pole/rain end on their own shapes, no panel/ring/badge, counters (A, D, W, E, R, O, T) open. 7h (measured on the files): headline BAD WEATHER 3094 px / punch IS MY OVERTIME. 3417 px (110%). 7k: type about 17% of print height (source's approved tall lockup kept as is). 7l: subject (lineman + pole) about 2,500 px of 3,418 px = 73% of lockup width. Light file logged: Sand on the dark-ink file 1090762713 (navy headline, faded red punch, no cream fill), Navy on 1090762825 (cream headline, mustard punch, cream edge). FW 1500 TOP 0 (print 2,009 px high, ends above the pouch seam on both mockups, checked). Verified 12/12 (6 Sand, 6 Navy). Shopify: title Men's Lineman – Bad Weather Is My Overtime Hoodie, category hoodies, $39.99 no compare-at, tags graphic-hoodies-for-men hoodie lineman ai-art intake-done, SEO title 43 / meta 128, FAQ 5 x 49-53 words, order-by Dec 8, keyword lineman hoodie 210/KD 32 in map ('lineman shirt' not used). Copy checked vs art (grinning lineman, hard hat and harness, thumbs-up on a pole crossarm, rain, lightning bolt). Line one: print's words + who + when, no superlative. Inks from mockups. Phone-size read of both fronts OK. R6.12/R6.13: front print only, Navy front image 1, neck-logo back last. Cover: flat product shot (retired-covers.json). Audit only 'not visible'. fal $0.
