@@ -1,6 +1,6 @@
 {
- "at": "2026-10-20T20:47:46.379Z",
- "products": 636,
+ "at": "2026-10-20T21:49:02.304Z",
+ "products": 642,
  "findings": [
   {
    "level": "WARN",
@@ -417,10 +417,73 @@
   },
   {
    "level": "WARN",
+   "handle": "pirate-pillaging-is-a-young-mans-game-mug",
+   "title": "Pirate – Pillaging Is a Young Man's Game Mug",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "horse-horse-girl-broke-on-purpose-mug",
+   "title": "Horse – Horse Girl, Broke on Purpose Mug",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
    "handle": "womens-outdoorsy-in-theory-cropped-hoodie",
    "title": "Women's Outdoorsy – Outdoorsy in Theory Cropped Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-gym-rack-your-weights-respectfully-sweatpants",
+   "title": "Men's Gym – Rack Your Weights. Respectfully. Sweatpants",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "french-bulldog-silent-night-except-the-snoring-ornament",
+   "title": "Christmas – French Bulldog Silent Night, Except the Snoring Ornament",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "french-bulldog-silent-night-except-the-snoring-ornament",
+   "title": "Christmas – French Bulldog Silent Night, Except the Snoring Ornament",
+   "msg": "christmas design isn't in any christmas collection.",
+   "fix": "Tag it so it appears in the christmas shirts page."
+  },
+  {
+   "level": "WARN",
+   "handle": "french-bulldog-santas-cookies-what-cookies-christmas-ornament",
+   "title": "Christmas – French Bulldog Santa's Cookies? What Cookies. Ornament",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "french-bulldog-santas-cookies-what-cookies-christmas-ornament",
+   "title": "Christmas – French Bulldog Santa's Cookies? What Cookies. Ornament",
+   "msg": "christmas design isn't in any christmas collection.",
+   "fix": "Tag it so it appears in the christmas shirts page."
+  },
+  {
+   "level": "WARN",
+   "handle": "french-bulldog-im-helping-youre-welcome-ornament",
+   "title": "Christmas – French Bulldog I'm Helping. You're Welcome. Ornament",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "french-bulldog-im-helping-youre-welcome-ornament",
+   "title": "Christmas – French Bulldog I'm Helping. You're Welcome. Ornament",
+   "msg": "christmas design isn't in any christmas collection.",
+   "fix": "Tag it so it appears in the christmas shirts page."
   },
   {
    "level": "WARN",
