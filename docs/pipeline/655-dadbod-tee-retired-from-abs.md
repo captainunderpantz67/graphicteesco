@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [E]
 lane: E
 type: new
 id: 655
