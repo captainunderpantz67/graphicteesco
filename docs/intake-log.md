@@ -1,5 +1,6 @@
 RUNNING helper since 2026-10-20 10:44 UTC
 2026-10-20 10:55 UTC — [D] Director run: inbox nothing new. 6 LIVE (cap): #620 #622 #637 #280 #281 #283, audit PASS (#637 was DRAFT, now ACTIVE + published). Reviewed 19 new redos: 16 approved and held, 3 REDO (#500 fir/for-real pun R3.1; #575 no faith cue R3.12; #586 narrow, clipped punch R3.7.8). Queue: A 13, B/C/E 12 READY, no new briefs. No Telegram (not a digest run, nothing for Sam). Lock released.
+2026-10-20 10:48 UTC — [A] Builder run: redid #408 Unisex Shark oversized hoodie again (headline above, punch below, type 41% of the print, new title). REVIEW. fal $0.
 2026-10-20 10:40 UTC — [A] Builder run: redid #616 Men's Christmas Drew Your Name. Panicked. tee (copy only per director 2026-10-19: primary re-targeted to office christmas shirts 90/KD40, SEO title and meta, line one, R8.3 aside cut, keyword map updated; art, file and cover untouched). REVIEW, stays DRAFT. fal $0.
 RUNNING director since 2026-10-20 10:28 UTC
 2026-10-20 10:38 UTC — [B] Builder run: redid #482 Women's Football Mom tee (type only: PROMISED TO BEHAVE / DIDN'T SAY FOR HOW LONG., Graduate stacked, same halo-football art, 24/24 synced). REVIEW. fal $0.
