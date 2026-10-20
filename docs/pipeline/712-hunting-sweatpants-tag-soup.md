@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [C] 2026-10-20 14:05 UTC
 lane: C
 type: sweatpants
 id: 712

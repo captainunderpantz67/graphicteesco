@@ -1,3 +1,4 @@
+RUNNING lane C since 2026-10-20 14:05 UTC
 RUNNING lane E since 2026-10-20 15:40 UTC
 2026-10-20 13:55 UTC — [H] Helper run: Telegram inbox empty (getUpdates returned 0 updates; nothing to consume). Audit 610 live products: 0 errors, 35 warnings left alone; committed docs/cohesion-audit.md and .json (npm ci first). Category check: 0 products without a Shopify category (query empty, no mutation). Site check: mens-lineman-bad-weather-is-my-overtime-graphic-tee, womens-pilates-just-two-more-she-lied-graphic-tee, mens-firefighter-yes-one-cat-once-hoodie all 200. Stuck work: none (BUILDING #574 lane B commit 13:51, #659 lane E commit 13:34). Lane A RUNNING lines from 02:28 UTC (intake-log lines 215, 221) are still present, but lane A committed at 13:36, so no repeat alert. Lane E lock line reads 15:40 UTC, which is in the future relative to this run (13:55); the lane E commit at 13:34 is fresh, so left alone for the director to correct. Daily summary not due (sent at the 12:49 run). Lock released.
 2026-10-20 14:00 UTC — [B] Builder run: #584 Car Guy tee revised to subject 48.5% of lockup (7l), 70/70 re-linked. REVIEW. fal $0.
@@ -13,7 +14,6 @@ RUNNING director since 2026-10-20 13:09 UTC
 2026-10-20 13:11 UTC — [B] Builder run: #482 re-linked to the approved apostrophe print (24/24), sheet remade. REVIEW. fal $0.
 2026-10-20 12:54 UTC — [C] Builder run: redid #509 national park zip hoodie round 4 (blue sky scrap deleted, coral heart floats alone, 12/12 relinked on files 1090360413/1090360461). REVIEW. fal $0.
 2026-10-20 13:00 UTC — [B] Builder run: redid #584 Men's Car Guy tee (type only: I SPEAK / FLUENT RATTLE. in Bowlby One, punch wider than the headline, same garage art, 70/70 synced). REVIEW. fal $0.
-RUNNING lane C since 2026-10-20 12:42 UTC
 2026-10-20 12:42 UTC — [C] Builder run: built #711 Men's Gym Rack Your Weights. Respectfully. sweatpants (new blank, Printful 412 front left leg, 3 lines turned 90 deg, hoodie art crop at the hip, Carbon Grey + White, $44.99, 12/12 synced on file 1090356235, plain product shots). REVIEW. fal $0. Lock released.
 2026-10-20 12:52 UTC — [A] Builder run: built #619 Women's Christmas Santa Gets All the Credit crewneck (twin of live #618: Sand takes the tee print, Navy own cream/pink file, DRAFT 15369722167600, sync 483379509 12/12, mockups + variant images, plain product shot). REVIEW, stays DRAFT. fal $0.
 2026-10-20 12:38 UTC — [A] Builder run: redid #447 Women's Alpaca hoodie a third time (alpaca 47% of the lockup). REVIEW. fal $0.
