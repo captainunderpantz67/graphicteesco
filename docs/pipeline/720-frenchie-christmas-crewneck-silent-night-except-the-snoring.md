@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: A
 type: twin
 id: 720
@@ -20,3 +20,4 @@ shopify: gid://shopify/Product/15370011017520
 ---
 ## Log
 - 2026-10-20 13:55 UTC director: brief written, READY (lane A; twin of #719; frenchie sweatshirt 390 / KD 44).
+- 2026-10-20 15:38 UTC builder [A]: BUILT (twin of #719, DRAFT; plain product shot per R6.11; no new art, fal $0). Twin checks (R6.2, R5.3.8): both lines re-read at 200% on the #719 prints: SILENT NIGHT. and EXCEPT THE SNORING. are real Anton, no ring, panel or box; the scene has no frame; closed counters checked on the Navy file (A, O, R, G open; cream outline around the art so the linework and z's read on Navy). Same lockup as #719 (print2-dark / print2-light): "headline 3218 px / punch 3212 px", "type 940 of 2198 px" = 43%, "subject 1913 of 3218 px" = 59%. Light-file split: Sand on file 1090422447 (deep red headline, pine green punch), Navy on file 1090422466 (cream headline, mustard punch). FW 1650 TOP 75 (crewneck). DRAFT gid://shopify/Product/15370011017520 (Gildan 18000, Sand + Navy x S-3XL = 12, $34.99, no compare-at, category aa-1-13-14, tags christmas-sweatshirts, sweatshirt, christmas, french-bulldog, ai-art, intake-done). Printful sync 483407822 verified below (Sand 6 on 1090422447, Navy 6 on 1090422466, back logo 1080398177). Sand + Navy fronts + Sand back-neck view attached (front print only, R6.12), each front linked to its color's variants, alts per R7.8; read at phone size on both. Copy: its own Story (cold-morning coffee, tree skirt and dog walk, not #719's text; shared copy under 30%); primary 'frenchie sweatshirt' (390 / KD 44) in line one, SEO title and once in the meta; 5 FAQs at 49-57 words; Dec 8 order-by; ink named from the mockups. Keyword map updated. fal $0.
