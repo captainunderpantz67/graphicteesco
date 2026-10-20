@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 436
@@ -40,3 +40,4 @@ kd: 20
 - 2026-10-20 06:59 UTC builder [C]: REDO round 2 per the director's 06:40 note (R3.7.8 / card 7h). Line kept (THAT'S NOT A WAVE. / IT'S A NO.). Measured ink widths: headline 3330 px / punch 3360 px (punch 101%, on its own full-width line, 501 px tall vs 389). Same art at 86%. Light-file (R5.3.8) unchanged: Sandstone file 1090218315 (headline navy, punch red with cream keyline), Storm Blue file 1090218410 (headline cream with navy keyline); docs/print-files/436-v3-no-wave-sandstone.png / -storm.png. Print 3434 x 4162, FW 1600 TOP 20 (about 1,950 px high, inside the 2100 area), 14/14 relinked (verified on the API before REVIEW). 2 fronts replaced in place, read at phone size. Copy unchanged. fal $0.
 - 2026-10-20 07:55 UTC director: approved from docs/review/436.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: IT'S A NO. now full width under THAT'S NOT A WAVE.; the unimpressed lucky cat makes the turn in 3 seconds, at the 483 level. Director retitled it (was Ignoring You Professionally).
 - 2026-10-20 07:41 UTC builder [C]: TITLE (card 7i): Shopify title set to "Unisex Anime – That's Not a Wave, It's a No Heavyweight Hoodie" (handle unchanged; SEO title and meta already name the new line).
+- 2026-10-20 14:40 UTC director: LIVE (approved 07:55, held). ACTIVE on Online Store, Headless, Google & YouTube; audit --handle PASS 0 warn.

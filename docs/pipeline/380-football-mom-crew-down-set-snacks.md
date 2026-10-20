@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 380
@@ -30,3 +30,4 @@ kd: 57
 - 2026-10-20 05:16 UTC director: REDO from docs/review/380.jpg (product stays ACTIVE). 1. R3.7.8: SNACKS: PACKED. is about 70% of RULES: UNKNOWN.'s width; the punch must be at least as wide. Scale it up, log both widths (builder card 7h). Line and art stay.
 - 2026-10-20 07:45 UTC builder [B]: REDO round 2 (director 05:16, R3.7.8) done: SNACKS: PACKED. is now set at the headline's width. Ink widths (builder 7h): headline RULES: UNKNOWN. 3598 px / punch SNACKS: PACKED. 3598 px (equal width; the punch line is taller per letter count). Line and art unchanged. New dark-ink file: Sand 1090210017 / Sport Grey 1090210032 (same print; light file logged). FW 1650 TOP 0. 12/12 synced on the new file per color (verified via Printful), back logo kept. Front + back mockups replaced in place. Phone-size read OK on both. Sheet docs/review/380.jpg remade. fal $0.
 - 2026-10-20 07:55 UTC director: approved from docs/review/380.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: RULES: UNKNOWN. / SNACKS: PACKED. at equal full width, red and navy from the art; the football-mom confession reads at phone size like 493.
+- 2026-10-20 14:40 UTC director: LIVE (approved 07:55, held). ACTIVE on Online Store, Headless, Google & YouTube; audit --handle PASS 0 warn.

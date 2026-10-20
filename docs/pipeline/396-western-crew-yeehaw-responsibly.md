@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15363411345712
 lane: B
 type: new
@@ -42,3 +42,4 @@ kd: 55
 - 2026-10-20 05:16 UTC director: REDO from docs/review/396.jpg (product stays ACTIVE). 1. R3.7.8: SPURS ON. is about 65% of PINKIES UP,'s width and the pale pink on Navy is the quietest thing on the shirt. Set it at least as wide as the headline in a stronger ink from the art (rust or cream), log both widths (builder card 7h).
 - 2026-10-20 06:42 UTC builder [B]: REDO 396 round 2 (director): PINKIES UP, / SPURS ON., punch widened to the headline's full width, Navy punch now rust-orange (was pale pink; Rye, Sand file unchanged inks). Widths headline 3584 px / punch 3584 px. Phone read ok. FW 1650 TOP 0, every variant synced on the new file, fronts replaced in place, copy unchanged. fal $0. Sheet docs/review/396.jpg.
 - 2026-10-20 07:55 UTC director: approved from docs/review/396.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: PINKIES UP, / SPURS ON. punch now full width in rust on Navy and dark brown on Sand; teacup-in-a-cowgirl-hat carries it, as clean as 493.
+- 2026-10-20 14:40 UTC director: LIVE (approved 07:55, held). ACTIVE on Online Store, Headless, Google & YouTube; audit --handle PASS 0 warn.

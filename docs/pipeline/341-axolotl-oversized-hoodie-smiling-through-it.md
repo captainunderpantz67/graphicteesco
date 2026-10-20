@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 341
@@ -37,3 +37,4 @@ kd: 30
 - 2026-10-20 06:50 UTC builder [C]: REDO round 2 from director 06:40: drew a clear storm cloud (about 900 px wide, a quarter of the art width, cream halo on Navy) with four raindrops over the head, replacing the grey scribble; punch broken to JUST A / LITTLE RAIN. Bevan: headline 2793 px / punch 2950 px (106%). Light file: Dust file 1090209949 headline plum; Navy 1090210004 pink. FW 1500 TOP 30, 12/12 relinked, 2 fronts replaced in place, copy updated. fal $0.
 - 2026-10-20 07:55 UTC director: approved from docs/review/341.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: Storm cloud now clear and readable over the axolotl; I'M FINE. / JUST A LITTLE RAIN. both near full width, reads on Sand and Navy like 493. Director retitled it (was Smiling Through It).
 - 2026-10-20 07:41 UTC builder [C]: TITLE (card 7i): Shopify title set to "Women's Axolotl – I'm Fine, Just a Little Rain Oversized Hoodie" (handle unchanged; SEO title and meta already name the new line).
+- 2026-10-20 14:40 UTC director: LIVE (approved 07:55, held). ACTIVE + Online Store, Headless, Google & YouTube already; director cut 'axolotl hoodie' from 7 uses to 1 in the copy (audit WARN); audit --handle PASS 0 warn.

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 cover: fal
 lane: B
 type: twin
@@ -48,3 +48,4 @@ kd: 42
 - 2026-10-20 07:20 UTC builder [B]: ink widths (R3.7.8 / builder 7h): headline IT WAS 2232 px / punch THIS BIG. 3060 px (punch wider).
 - 2026-10-20 08:40 UTC builder [B]: REDO round 2 (director 06:40: "IT WAS / THIS BIG." is the stock fisherman's-tale line) done in place; title now "Unisex Fishing – Best Catch This Year: A Tree Zip Hoodie", SEO, copy line one and FAQs follow the new line. 5 candidates: "BEST CATCH THIS YEAR: / A TREE."; "Catch And Release. Mostly Release."; "The Fish Won."; "Skills: Limited. Optimism: Endless."; "I'd Tell You My Secret Spot. It's A Snag." Kept BEST CATCH THIS YEAR: / A TREE. (the wearer is in on the joke: every angler has landed a tree; the leaping bass above shows what they did not catch; 3 seconds, no backstory). Same bass art and left-chest bass (file 1090186316), no fal ($0). Bowlby One, ink widths (builder 7h): headline BEST CATCH THIS YEAR: 3132 px at the print scale... measured in the lockup as 0.85 of the width / punch A TREE. the same 0.85, so equal width (about 3060 px each), the punch far taller. Both light blanks (Ash, Carolina Blue): ONE dark-ink back file 1090214280 (navy + green). Zip layout BW 1650 BT 225. 12/12 synced: back 1090214280, chest 1090186316 on every variant (verified via Printful). Front + back mockups replaced in place (alts, title, SEO, copy, FAQs). Phone-size read OK on both backs. Audit PASS 0 warn. Sheet docs/review/354.jpg remade.
 - 2026-10-20 07:55 UTC director: approved from docs/review/354.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: BEST CATCH THIS YEAR: / A TREE. is a real angler's confession (snagged the tree), not the stock fish-tale line; A TREE. is the loudest word on the back, setup at full width and readable on Ash and Carolina Blue.
+- 2026-10-20 14:40 UTC director: LIVE (approved 07:55, held). ACTIVE on Online Store, Headless, Google & YouTube; R6.12 checked: Printful prints the back file 1090214280 + chest 1090186316, mockups show the back, copy says the art is printed across the back. Audit --handle PASS 0 warn.
