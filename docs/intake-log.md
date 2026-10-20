@@ -1,6 +1,6 @@
 RUNNING lane B since 2026-10-20 07:29 UTC
 RUNNING director since 2026-10-20 07:17 UTC
-2026-10-20 07:43 UTC — [A] Builder run: redid #389 Women's Christmas Seasonally Overbooked tee (line+type: SORRY, I'M BOOKED / UNTIL JANUARY., same calendar art, Bowlby One full width, dark file 1090231470 / light file 1090231492, 42/42 relinked, 7 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
+2026-10-20 07:43 UTC — [A] Builder run: redid #389 Women's Christmas Seasonally Overbooked tee (line+type: SORRY, I'M BOOKED / UNTIL JANUARY., same calendar art, Bowlby One full width, dark file 1090231492 / light file 1090231470, 42/42 relinked, 7 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 RUNNING lane C since 2026-10-20 07:00 UTC
 2026-10-20 07:40 UTC — [C] Builder run: redid #465 Unisex Lawyer hoodie (new line + type: THIS NAP IS / BILLABLE., headline 3185 px / punch 3195 px, Bevan + Alfa Slab, same sleeping-lawyer art, Sand file 1090236655 + Navy file 1090236679, FW 1500 TOP 0, 12/12 relinked, 2 fronts replaced in place, copy + SEO updated). REVIEW. fal $0.
 2026-10-20 07:32 UTC — [C] Builder run: redid #334 Unisex Thanksgiving turkey hoodie (new line + type: NO TURKEY HERE. / JUST A GUY IN A HOODIE., headline 2951 px / punch 3049+3004 px, Alfa Slab + Oswald, same turkey art, Sand file 1090233279 + Navy file 1090233375, FW 1500 TOP 0, 12/12 relinked, 2 fronts replaced in place, copy + SEO updated). REVIEW. fal $0.
