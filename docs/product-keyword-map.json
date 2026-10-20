@@ -10522,7 +10522,15 @@
   "womens-barre-tucked-and-judging-cropped-hoodie": {
    "claimed": [
     "barre hoodie"
-   ]
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "barre hoodie",
+     "volume": 320,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
   },
   "womens-french-bulldog-personal-space-never-heard-of-her-crewneck-sweatshirt": {
    "claimed": [

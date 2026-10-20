@@ -1,4 +1,4 @@
-status: ART-NEXT
+status: REVIEW
 lane: B
 type: new
 id: 742
@@ -26,3 +26,4 @@ kd: 32
 ---
 ## Log
 - 2026-10-20 20:45 UTC director: brief written, READY (lane B; lane B refill; barre hoodie 320/32, 5 lines vs R3.13; measured, ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).
+- 2026-10-20 20:50 UTC builder [B]: built. One Recraft call ($0.04, 1 of 3 tries; swan keeps a human-like hand on the barre, kept as quirk). Print k742.png (docs/print-files), lockup 3600x3514 = aspect 0.976 (printfile is 1500x1500, so FW 1500 holds), font Oswald 700 with tracking (used on 0 of the last 30; Anton/Bevan lockups were either taller than the 1500 px square or left type under 40%). 7h: headline 3545 px / punch 3550 px = 100%. 7k: type 1443 of 3514 px = 41%. 7l: subject 1620 of 3600 px = 45%. Headline cream (246,236,214), punch pink (240,150,168), one file for both colors; both blanks dark, no light file needed. Colors Black + Storm: Peach exists only as XL out of stock (Printful #317), so Peach cannot launch. Printful 10/10 on file 1090654221, back logo 1080398177 on 10/10, FW 1500 TOP 0. Mockups: Black + Storm front, neck-logo back last (front print only, R6.12); phone-size read: both words legible on both colors. Cover: plain Printful product shot (handle added to retired-covers.json, R6.11). Copy: primary 'barre hoodie' 320/KD 32 twice in copy (limit 3), line one = print words + who + when, 6 FAQs 45-50 words, order-by Dec 8, free shipping line stated correctly ($44.99 is under $45), category hoodies aa-1-13-13, price 44.99 no compare-at, SEO title 45 / meta 138. R3.7.2: web search for "tucked judging" barre found no listing (Etsy not searchable here). R5.2 proof gate: no 500+ favorites listing could be verified from the builder (no Etsy access); director to judge. Audit (audit-local): PASS, 1 warn (no lifestyle cover, per R6.11). Sheet docs/review/742.jpg. fal $0.04.
