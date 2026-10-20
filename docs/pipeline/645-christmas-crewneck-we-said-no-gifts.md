@@ -1,8 +1,9 @@
-status: BUILDING [A] 2026-10-20 13:07 UTC
+status: REVIEW
 lane: A
 type: twin
 id: 645
 handle: unisex-christmas-we-said-no-gifts-crewneck-sweatshirt
+shopify: gid://shopify/Product/15369764667696
 kd: 14
 ---
 ## Unisex Christmas – We Said No Gifts Crewneck Sweatshirt
@@ -23,3 +24,4 @@ kd: 14
 ---
 ## Log
 - 2026-10-18 09:29 UTC director: brief written, READY (lane A twin; primary 'couples christmas sweatshirts' 5,400 / KD 14, measured this run).
+- 2026-10-20 13:25 UTC builder [A]: BUILT (twin of LIVE #634 tee, DRAFT; plain product shot per R6.11, no AI cover). R6.2 check on the source print (#634 file 1088976637, 3139x3985): WE SAID NO GIFTS. is a real slab face with a cream edge, We lied. a real script face; no ring, arch, disc, box or typeset line; the couple and tree have no frame or panel. The tee was graded A and is LIVE, so the twin keeps its lockup. Light-file split (R5.3.8, builder 7e): White, Sand, Sport Grey, Ash on the tee's dark-ink file 1090373362 (red headline, black script); Navy on its own file 1090373373 (headline and script recolored cream, the headline's old cream edge dropped, cream outline around the couple so the linework reads); read at phone size on all five mockups. Widths (7h): headline 3139 px, We lied. script 2163 px (69% of the headline, a big script punchline as on the live tee); subject 3139 px. FW 1650 TOP 75. DRAFT gid://shopify/Product/15369764667696 (Gildan 18000, White/Sand/Sport Grey/Ash/Navy x S-3XL = 30, $34.99, no compare-at, category aa-1-13-14, tags christmas-sweatshirts, christmas-sweatshirts-for-men, sweatshirt, christmas, ai-art, intake-done). Printful sync 483385452 verified 30/30 (light colors on 1090373362, Navy on 1090373373, back logo 1080398177). Five fronts + back attached, each front mockup linked to its color's variants, alts per R7.8. Copy: line one carries the line + who wears it + when, plain; primary 'couples christmas sweatshirts' (5,400 / KD 14 per brief), each crewneck sold singly (two in the cart for a pair, R8.6), no 'one of the' opener; FAQs 5 at 53-59 words incl. the pair FAQ, order-by Dec 8, free size exchange; ink named from the mockups. Keyword map updated. design-crops / variant-photo-audit after publish. fal $0. Audit: only the expected not-visible (DRAFT) error. Sheet docs/review/645.jpg.
