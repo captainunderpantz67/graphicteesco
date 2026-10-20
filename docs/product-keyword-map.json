@@ -10694,6 +10694,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-pug-wrinkled-not-worried-hoodie": {
+   "claimed": [
+    "pug hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pug hoodie",
+     "volume": 480,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
