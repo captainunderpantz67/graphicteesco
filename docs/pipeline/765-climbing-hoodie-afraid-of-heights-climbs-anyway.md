@@ -1,4 +1,5 @@
 status: BUILDING [C] 2026-10-20 23:39 UTC
+shopify: gid://shopify/Product/15371341005104
 lane: C
 type: new
 id: 765
