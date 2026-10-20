@@ -10798,6 +10798,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-disc-golf-parked-it-in-a-tree-hoodie": {
+   "claimed": [
+    "disc golf hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "disc golf hoodie",
+     "volume": 210,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
