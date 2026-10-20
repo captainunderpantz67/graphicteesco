@@ -1,4 +1,5 @@
 RUNNING director since 2026-10-20 03:12 UTC
+2026-10-20 04:16 UTC — [E] Builder run: redid #366 Women's Beach oversized hoodie (line + type: SHELLFISH ON PURPOSE., new crab art, Navy + Dust files, 12/12 synced, copy updated, plain product shot). REVIEW. fal $0.04.
 RUNNING lane E since 2026-10-20 02:50 UTC
 2026-10-20 03:51 UTC — [E] Builder run: redid #365 Men's Skull zip hoodie (line + type: FORMER LIFE OF THE PARTY, same party skull, Navy + Ash back files, 12/12 synced, back mockups replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 2026-10-20 03:18 UTC — [A] Builder run: redid #221 Women's Christmas Nurse crewneck (type+line: CHECKING IT TWICE. / CHARTING IT THREE TIMES., same cap and stethoscope art, Alfa Slab full width, FW 1650 TOP 75, file 1090125893, 30/30 relinked, 5 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
