@@ -4,6 +4,7 @@ type: twin
 id: 696
 handle: womens-dance-mom-bun-tight-wallet-empty-crewneck-sweatshirt
 kd: 48
+shopify: gid://shopify/Product/15369976578352
 ---
 ## Women's Dance Mom – Bun Tight, Wallet Empty Crewneck Sweatshirt
 - **Twin of:** #534 womens-dance-mom-bun-tight-wallet-empty-graphic-tee (LIVE, graded A in the quality reset). Reuse #534's print file(s) unchanged: BUN TIGHT. SMILE ON. / art / WALLET EMPTY. in Fraunces 900. No new art (R6.2, fal $0). Lane A takes cold-weather work now that holiday garment phrases are claimed (R11.5).

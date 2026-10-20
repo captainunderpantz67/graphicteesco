@@ -4,6 +4,7 @@ type: twin
 id: 720
 handle: womens-christmas-french-bulldog-silent-night-except-the-snoring-crewneck-sweatshirt
 kd: 44
+shopify: gid://shopify/Product/15370011017520
 ---
 ## Women's Christmas – French Bulldog Silent Night, Except the Snoring Crewneck Sweatshirt
 - **Twin of #719** (R7.3 holiday pair: same art, own page, copy and keyword). Build after #719's art exists (its print file or designs/ folder); no new art generation (R6.2). Run the twin checks before linking: every text line re-read, closed counters checked on the darkest color (R5.3.8, R6.2).

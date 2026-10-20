@@ -4,6 +4,7 @@ type: new
 id: 719
 handle: womens-christmas-french-bulldog-silent-night-except-the-snoring-graphic-tee
 kd: 50
+shopify: gid://shopify/Product/15370007675184
 ---
 ## Women's Christmas – French Bulldog Silent Night, Except the Snoring Tee
 - **Why now:** Sam 2026-10-20: build the French Bulldog collection now (docs/backlog/frenchie-collection.md, 24 designs, at least 3 Christmas). This is Frenchie Christmas design 1 of 3; its crewneck twin is #720 and its ornament is #721 (same art). Lane A queue refill to 12.

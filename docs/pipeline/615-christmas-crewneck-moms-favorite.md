@@ -4,6 +4,7 @@ type: twin
 id: 615
 handle: mens-christmas-moms-favorite-crewneck-sweatshirt
 kd: 44
+shopify: gid://shopify/Product/15369961603376
 ---
 ## Men's Christmas – Mom's Favorite Crewneck Sweatshirt
 - **Blank:** Gildan 18000 (Printful #145) crewneck, 8 oz, 50/50 cotton-poly fleece. Never "garment-dyed" or "Comfort Colors" (R7.1).

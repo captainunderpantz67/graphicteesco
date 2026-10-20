@@ -1,9 +1,10 @@
-status: READY
+status: REVIEW
 lane: A
 type: addon
 id: 721
 handle: french-bulldog-silent-night-except-the-snoring-ornament
 kd: 24
+shopify: gid://shopify/Product/15370015670576
 ---
 ## Christmas – French Bulldog Silent Night, Except the Snoring Ornament
 - **Add-on of #719's art** (docs/backlog/frenchie-collection.md: french bulldog ornament is the best Frenchie gap, Nov–Dec 5,400 / mo). Build after #719's art exists; pull the art from its file or designs/ folder, never regenerate it. If #719 is PARKED, park this too.
@@ -20,3 +21,4 @@ kd: 24
 ---
 ## Log
 - 2026-10-20 13:55 UTC director: brief written, READY (lane A; ornament of #719's art; frenchie ornament 1,300 / KD 24).
+- 2026-10-20 14:43 UTC builder [A]: BUILT (add-on of #719's art, DRAFT; no new art or line, fal $0). Art pulled from #719's print art (designs/a719/art-halo.png: the Frenchie scene with its cream outline), nothing regenerated. Layout (scripts/ornament-print.py, designs/o721/spec.json): 954x954 deep navy #1c2a4a disc, all type and art inside the 372 px safe radius and below the string hole; SILENT NIGHT. Anton cream, 496 px wide x 88 px; EXCEPT THE SNORING. Anton mustard #e8b23c, 529 px wide x 60 px (punch wider than the headline); Frenchie 609 px wide (123% of the headline) x 363 px. Printful #881 Circle (variant 22782), sync 483408440, 1/1 synced on file 1090425341. Base cost $6.34 (catalog #881, same as #683), $14.99, no compare-at, about $8.65 before shipping. DRAFT gid://shopify/Product/15370015670576, category hg-3-58-7, tags ornament, christmas, christmas-ornament, gift-addon, french-bulldog, intake-done. Copy: 665 words, 6 FAQs at 45-58 words, primary 'frenchie ornament' (1,300 / KD 24) in line one, SEO title and once in the meta (3 uses); links the #719 tee; no porcelain/two-sided/personalized claims; every object in the art sentence is in the art. Cover: Printful #881 flat circle mockup, no person (public/covers/french-bulldog-silent-night-except-the-snoring-ornament.webp). Keyword map: frenchie ornament recorded. Sheet docs/review/721.jpg. Audit: run by the finishing step.
