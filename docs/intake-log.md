@@ -1,3 +1,4 @@
+RUNNING helper since 2026-10-20 07:48 UTC
 RUNNING director since 2026-10-20 07:17 UTC
 2026-10-20 07:43 UTC — [A] Builder run: redid #389 Women's Christmas Seasonally Overbooked tee (line+type: SORRY, I'M BOOKED / UNTIL JANUARY., same calendar art, Bowlby One full width, dark file 1090231492 / light file 1090231470, 42/42 relinked, 7 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 2026-10-20 07:44 UTC — [B] Builder run: REDO round 3 of #455 Unisex Hanukkah Lost My Gelt crewneck (dreidel face marks painted out, Navy file 1090236634 + Sport Grey file 1090236680, FW 1650 TOP 0, 12/12 relinked, 2 fronts replaced in place) and #469 Women's Christmas embroidered crewneck (new line BOOKED / THROUGH JANUARY., headline 2197 / punch 2197 px, Sand file 1090237592 + Navy file 1090237605, 12/12 synced, title/SEO/copy/alts updated). Both REVIEW. #498 left for director (R3.14 note). fal $0.
