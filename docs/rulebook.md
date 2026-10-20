@@ -203,6 +203,8 @@ Sections are numbered so role cards and review notes can point at them ("fails R
 
 
 
+- **R6.12 Print side matches the photos (Sam 2026-10-20).** If any mockup shows the design on the back, the Printful sync product must print the file on the back and the copy must say "printed on the back"; if the print is on the front, no back-print mockup is shown. Builders check the Printful placement against every mockup before REVIEW; the director rejects any mismatch. A customer receiving the print on the wrong side is a refund and a bad review.
+
 ## R7. Product build standard
 1. **Blanks and facts** (copy facts only from the supplier spec):
    - **Tee:** Bella+Canvas 3001 (unisex/men's), lightweight 4.2 oz. Never "midweight".
