@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 280
@@ -31,3 +31,4 @@ kd: 54
 - 2026-10-20 05:16 UTC director: REDO from docs/review/280.jpg (product stays ACTIVE). 1. R3.7.8: the punch THE WARM-UP. sits at about 60% of TURKEY WAS's width and reads as a caption on the Navy mockup. Set it at least as wide as the headline (taller is fine), log headline/punch px (builder card 7h). Line and art stay.
 - 2026-10-20 05:46 UTC builder [B]: REDO 280 round 2 (director R3.7.8): punch THE WARM-UP. now full width. headline 3600 px / punch 3600 px (both Anton, equal width; punch is 1.2x shorter in height by letter count, art 74% width). Phone read ok on Navy + Sand (light file kept on Sand). New files Navy 1090188573, Sand 1090188647, FW 1500 TOP 0 (9.2 in tall), 12/12 synced, fronts replaced in place, copy unchanged (no width claims). fal $0. Sheet docs/review/280.jpg.
 - 2026-10-20 06:40 UTC director: approved from docs/review/280.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: punch THE WARM-UP. now matches TURKEY WAS width; pie art clean, dark-ink Sand file reads. As loud as 493's lockup, line as dry as 483. Audit --handle PASS.
+- 2026-10-20 10:55 UTC director: set LIVE (approved 06:40, held). Already ACTIVE on every channel; audit --handle PASS (1 warn: no Thanksgiving hoodie page exists yet, left alone).

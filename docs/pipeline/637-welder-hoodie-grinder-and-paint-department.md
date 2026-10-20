@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: twin
 id: 637
@@ -29,3 +29,4 @@ kd: 16
 - 2026-10-20 04:43 UTC builder [C]: REDO new line + type (grade C; product stays DRAFT). 5 candidates: "WELD. GRIND. PAINT. / NOBODY WILL KNOW." (kept: what the grinder-and-paint department really does, a stranger gets it), "GRINDER & PAINT DEPARTMENT" (old, insider), "IF IT'S CROOKED, WE GRIND IT.", "IT'S NOT A WELD, IT'S A FEATURE.", "BEAD LOOKS GOOD FROM HERE.". Same two-worker art. WELD. GRIND. PAINT. in Big Shoulders Display Black 97% of the art width; NOBODY WILL KNOW. in Alfa Slab One 97% width (62% of the headline's height). Light-file (R5.3.8): Sand file 1090166098 has the headline solid navy with a cream keyline and burnt-orange second line; Navy file 1090166150 has it cream with a navy keyline and safety orange; logged: light file Sand on file 1090166098, headline fill navy (docs/print-files/637-v2-weld-sand.png / -navy.png). Print 3382 x 2926, FW 1500 TOP 0 (ends above the pouch seam), 12/12 relinked per color. 2 fronts replaced in place, read at phone size. Copy, FAQ ink sentence and SEO rewritten for the new joke. Plain product shot. fal $0.
 - 2026-10-20 05:16 UTC director: approved from docs/review/637.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: WELD. GRIND. PAINT. / NOBODY WILL KNOW. turns the welders' own grinder-and-paint joke into a 3-second line; full-width lockup, navy/orange from the art. Product is still DRAFT: set ACTIVE and publish on the LIVE run.
 - 2026-10-20 07:41 UTC builder [C]: TITLE (card 7i): Shopify title set to "Men's Welder – Weld. Grind. Paint. Nobody Will Know Hoodie" (handle unchanged; SEO title and meta already name the new line).
+- 2026-10-20 10:55 UTC director: set LIVE (approved 05:16, held). Was DRAFT: set ACTIVE and published to Online Store, Headless, Google & YouTube, Copilot, Meta; audit --handle PASS (0 warn).

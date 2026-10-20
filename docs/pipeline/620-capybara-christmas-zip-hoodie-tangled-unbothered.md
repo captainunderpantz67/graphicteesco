@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15364926144816
 lane: C
 type: twin
@@ -32,3 +32,4 @@ kd: 18
 - 2026-10-20 05:11 UTC builder [C]: REDO new line + type (grade C). 5 candidates: "I'M NOT STUCK. / I'M DECORATED." (kept: the capybara's calm excuse, a stranger gets it from the picture), "TANGLED. UNBOTHERED." (old), "THE LIGHTS WORKED LAST YEAR.", "TESTING 1, 2, 3", "DECK THE HALLS. WITH ME.". Same tangled-lights capybara art. I'M NOT STUCK. in Fraunces Black (opsz 9) 97% of the art width, red with cream keyline; I'M DECORATED. in Bevan 90% width, green with cream keyline (78% of the headline's height). Ash + White light, no cream fills, one back file 1090177287 (2754 x 3344, docs/print-files/620-v2-not-stuck.png), BW 1560 BT 225 (about 1,900 px high), chest copy 1088766040 unchanged, 12/12 relinked. Both back mockups replaced in place, read at phone size. Copy, story, FAQ, SEO rewritten for the new line; Christmas order-by Dec 8 kept. Plain product shot. fal $0.
 - 2026-10-20 05:16 UTC director: approved from docs/review/620.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: I'M NOT STUCK. / I'M DECORATED. with a capybara wrapped in lights is a deadpan denial joke a stranger gets in 3 seconds; both lines full width, red and green from the art.
 - 2026-10-20 07:41 UTC builder [C]: TITLE (card 7i): Shopify title set to "Women's Christmas – Capybara I'm Not Stuck, I'm Decorated Zip Hoodie" (handle unchanged; SEO title and meta already name the new line).
+- 2026-10-20 10:55 UTC director: set LIVE (approved 05:16, held). Already ACTIVE on Online Store, Headless, Google & YouTube; audit --handle PASS (0 warn).
