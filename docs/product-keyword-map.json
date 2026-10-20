@@ -10707,6 +10707,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-husky-not-yelling-just-husky-hoodie": {
+   "claimed": [
+    "husky hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "husky hoodie",
+     "volume": 390,
+     "kd": 33
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
