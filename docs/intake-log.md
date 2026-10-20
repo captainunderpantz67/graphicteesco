@@ -18,7 +18,6 @@ RUNNING lane E since 2026-10-20 12:30 UTC
 RUNNING lane C since 2026-10-20 11:05 UTC
 2026-10-20 11:42 UTC — [A] Builder run: redid #257 tee + #258 crewneck Men's Thanksgiving wishbone again (new line I ALWAYS GET THE BIGGER HALF., headline above, punch below, type 41% of the print, new titles). REVIEW. fal $0.
 2026-10-20 11:50 UTC — [E] Builder run: built #656 Men's Chess I Blunder With Confidence tee (new art, 56/56 synced, light file for Natural/Ash/Athletic Heather, flat shot cover). REVIEW. fal $0.08.
-RUNNING director since 2026-10-20 11:18 UTC
 RUNNING lane C since 2026-10-20 11:05 UTC
 2026-10-20 11:50 UTC — [C] Builder run: redid #507 My Type Geothermally Active hoodie round 4 (forest band removed, MY TYPE? widened). REVIEW. fal $0.
 2026-10-20 11:04 UTC — [A] Builder run: redid #447 Women's Alpaca hoodie again (headline above, two-line punch below, type 41% of the print, new title). REVIEW. fal $0.
