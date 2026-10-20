@@ -1,5 +1,5 @@
 {
- "at": "2026-10-20T10:48:24.584Z",
+ "at": "2026-10-20T11:45:34.760Z",
  "products": 610,
  "findings": [
   {
@@ -200,6 +200,13 @@
   },
   {
    "level": "WARN",
+   "handle": "womens-alpaca-judging-you-softly-hoodie",
+   "title": "Women's Alpaca – Not Spitting, Just Thinking About It Hoodie",
+   "msg": "\"alpaca hoodie\" appears 4× in the copy (keyword stuffing).",
+   "fix": "Use it once or twice, naturally."
+  },
+  {
+   "level": "WARN",
    "handle": "mens-pirate-pillaging-is-a-young-mans-game-hoodie",
    "title": "Men's Pirate – Pillaging Is a Young Man's Game Hoodie",
    "msg": "\"pirate hoodie\" appears 11× in the copy (keyword stuffing).",
@@ -218,13 +225,6 @@
    "title": "Women's Nurse – Embroidered Awake. Regrettably. Crewneck Sweatshirt",
    "msg": "No SEO title.",
    "fix": "Write one ≤ 60 chars with the primary keyword."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-national-park-two-queens-roaming-hoodie",
-   "title": "Women's National Park – We're Not Lost, the Trail Moved Hoodie",
-   "msg": "SEO title is 63 chars (> 60).",
-   "fix": "Trim to ≤ 60."
   },
   {
    "level": "WARN",

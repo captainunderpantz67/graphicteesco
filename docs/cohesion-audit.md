@@ -1,4 +1,4 @@
-# Cohesion audit — 2026-10-20 10:48 UTC
+# Cohesion audit — 2026-10-20 11:45 UTC
 
 610 live products checked · **0 errors** · 37 warnings · 35 products with findings
 
@@ -87,6 +87,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Women's Anime – Slurp Responsibly Half Zip `womens-anime-slurp-responsibly-half-zip`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 
+### Women's Alpaca – Not Spitting, Just Thinking About It Hoodie `womens-alpaca-judging-you-softly-hoodie`
+- **WARN** "alpaca hoodie" appears 4× in the copy (keyword stuffing). → Use it once or twice, naturally.
+
 ### Men's Pirate – Pillaging Is a Young Man's Game Hoodie `mens-pirate-pillaging-is-a-young-mans-game-hoodie`
 - **WARN** "pirate hoodie" appears 11× in the copy (keyword stuffing). → Use it once or twice, naturally.
 
@@ -95,9 +98,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Women's Nurse – Embroidered Awake. Regrettably. Crewneck Sweatshirt `womens-nurse-embroidered-night-shift-silly-goose-crewneck-sweatshirt`
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
-
-### Women's National Park – We're Not Lost, the Trail Moved Hoodie `womens-national-park-two-queens-roaming-hoodie`
-- **WARN** SEO title is 63 chars (> 60). → Trim to ≤ 60.
 
 ### Women's National Park – I'm Not Single, I Have a Canyon Zip Hoodie `womens-national-park-swipe-right-on-public-land-zip-hoodie`
 - **WARN** SEO title is 63 chars (> 60). → Trim to ≤ 60.
