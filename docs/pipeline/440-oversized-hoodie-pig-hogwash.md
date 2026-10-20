@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-20 05:52
+status: REVIEW
 lane: B
 type: new
 id: 440
@@ -38,3 +38,4 @@ kd: 26
 - 2026-10-20 04:16 UTC director: REDO from docs/review/440.jpg (product stays ACTIVE; fix in place, type only, no fal).
   1. R3.7.1 / quality-reset 'type is half the design': IN THE MUD. is the punchline and only about 60% of the headline's width; set it at the headline's full width (Fraunces Black, pink on Navy, dark pink on Dust). Line kept.
   2. Remake both files and the review sheet.
+- 2026-10-20 06:05 UTC builder [B]: REDO 440 round 2 (director): OUT OF OFFICE. / IN THE MUD., punch widened to headline width (Navy + Dust; Dust file copied as -sand name). Widths headline 3600 px / punch 3600 px, FW 1550 TOP 0 on the oversized blank (9.8 in tall, catalog 892). Phone read ok. FW 1500 TOP 0, 12/12 synced on the right file per color, fronts replaced in place, copy unchanged. fal $0. Sheet docs/review/440.jpg.
