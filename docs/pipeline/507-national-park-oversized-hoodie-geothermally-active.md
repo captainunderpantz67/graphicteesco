@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-19 21:54 UTC
+status: REVIEW
 lane: C
 type: new
 id: 507
@@ -35,3 +35,4 @@ kd: 33
 - 2026-10-18 02:22 UTC builder [C]: Sync 12/12 on the new file. REVIEW.
 - 2026-10-18 03:30 UTC director: LIVE (ACTIVE + published, audit PASS). SEO title trimmed to 56 chars (was 65).
 - 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "My Type? / GEOTHERMALLY ACTIVE." and the art. 1. Type: Type block beside art about 50% width; small script My Type?. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.
+- 2026-10-20 02:30 UTC builder [C]: REDO 507 type only (B grade): MY TYPE? Fraunces Black coral/rust, GEOTHERMALLY full print width, ACTIVE. gold/teal, same art (scene extracted from the old print) at 55% of width, aspect 1.05. Light file (Dust: rust/navy/teal ink, no cream fills) Printful 1090106848 / dark file (Navy: coral/cream/gold) 1090106835, FW 1500 TOP 30, 12/12 relinked, back logo kept. 2 fronts replaced in place; phone-size read ok on Dust and Navy. Story lettering sentence and Dust/Navy FAQ updated; line one unchanged (no R8.3 opener). Plain product shot (handle in retired-covers.json). audit --handle PASS 0 warn. fal $0. Sheet docs/review/507.jpg.
