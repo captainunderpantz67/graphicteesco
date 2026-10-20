@@ -10746,6 +10746,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-climbing-afraid-of-heights-climbs-anyway-hoodie": {
+   "claimed": [
+    "climbing hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "climbing hoodie",
+     "volume": 390,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
