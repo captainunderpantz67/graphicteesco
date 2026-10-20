@@ -39,3 +39,8 @@ Same caps (1 item per builder run, director 6 LIVE per run, side-by-side with th
 ## 5. Stocking stuffer guide — /guides/stocking-stuffers/ (or two guides)
 - Demand: stocking stuffers for men Dec 165K / KD 39; stocking stuffers for teens Dec 40.5K / KD 27 / 4,587 listings (best gap); for women Dec 74K / 46; cheap stocking stuffers Dec 27K / KD 14 (no competition count: copy mention only); stocking stuffer ideas Dec 246K / KD 8 (no count).
 - Picks: socks ($18.99), ornaments, mugs, stickers when live; A-grade designs only. Sections: for men, for teens, for women, under $20. Live by Nov 15.
+
+## 6. Christmas calendar (Sam 2026-10-20: "even longer for Christmas")
+- Now–Nov 30: Black Friday + Cyber Monday pages carry the money.
+- Dec 1–12: stocking stuffers + gift guides; every holiday page and gift guide shows "Order by Dec 10 for Christmas delivery" (confirm against Printful's current production + shipping before Dec 1).
+- Dec 13–24: digital gift card (Sam creates it; dashboard item) promoted on all holiday pages as the last-minute option ("last minute christmas gifts" Dec 40,500, KD 14, no competition count: banner/copy target, not a product primary).
