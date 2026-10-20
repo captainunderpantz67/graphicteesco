@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-20 13:52 UTC
+# Cohesion audit — 2026-10-20 14:49 UTC
 
-610 live products checked · **0 errors** · 35 warnings · 33 products with findings
+610 live products checked · **0 errors** · 34 warnings · 32 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -50,9 +50,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Women's Capybara – Per My Last Email, I'm Soaking Oversized Hoodie `womens-capybara-out-of-office-soaking-oversized-hoodie`
 - **WARN** No meta description. → Write one ≤ 155 chars.
-
-### Women's Axolotl – I'm Fine, Just a Little Rain Oversized Hoodie `womens-axolotl-smiling-through-it-oversized-hoodie`
-- **WARN** "axolotl hoodie" appears 7× in the copy (keyword stuffing). → Use it once or twice, naturally.
 
 ### Women's Coffee – Espresso Yourself Hoodie `womens-coffee-espresso-yourself-hoodie`
 - **WARN** No meta description. → Write one ≤ 155 chars.

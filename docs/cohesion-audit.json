@@ -1,5 +1,5 @@
 {
- "at": "2026-10-20T13:52:45.141Z",
+ "at": "2026-10-20T14:49:17.342Z",
  "products": 610,
  "findings": [
   {
@@ -113,13 +113,6 @@
    "title": "Women's Capybara – Per My Last Email, I'm Soaking Oversized Hoodie",
    "msg": "No meta description.",
    "fix": "Write one ≤ 155 chars."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-axolotl-smiling-through-it-oversized-hoodie",
-   "title": "Women's Axolotl – I'm Fine, Just a Little Rain Oversized Hoodie",
-   "msg": "\"axolotl hoodie\" appears 7× in the copy (keyword stuffing).",
-   "fix": "Use it once or twice, naturally."
   },
   {
    "level": "WARN",
