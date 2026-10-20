@@ -28,3 +28,4 @@ kd: 50
 ---
 ## Log
 - 2026-10-20 13:55 UTC director: brief written, READY (lane A; Frenchie collection design 1, Christmas; french bulldog shirt 480 / KD 50 under R2.6 surge + Sam's order; 5 lines tested against R3.13).
+- 2026-10-20 14:55 UTC director: R5.2 favorites gate WAIVED: Sam ordered the French Bulldog collection directly (2026-10-20), Frenchies are the #1 AKC breed and french bulldog christmas measures Nov 2,900 / Dec 4,400; same basis as the sweatpants waiver. Etsy returns 403 and RankHero no longer shows listings, so no cloud run can log a favorites number. Build it; #720 and #721 follow.

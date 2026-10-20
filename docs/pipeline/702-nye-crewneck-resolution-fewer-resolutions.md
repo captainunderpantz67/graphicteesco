@@ -1,4 +1,4 @@
-status: READY
+status: PARKED
 lane: A
 type: new
 id: 702
@@ -26,3 +26,4 @@ kd: 38
 ---
 ## Log
 - 2026-10-19 17:55 UTC director: brief written, READY (inbox 2026-10-19 NYE gap; new years sweater 720 / KD 38, Dec 6,600, US 82%; no new cover per RESUME terms).
+- 2026-10-20 14:55 UTC director: PARKED: the R5.2 proof gate (one same-format listing with 500+ favorites) cannot be met from a cloud run (Etsy search returns 403; RankHero keyword pages no longer list listings), so builders skip this item. Asked Sam on 2026-10-20 whether measured volume + KD + competition count may stand in for the favorites number; back to READY on his yes.

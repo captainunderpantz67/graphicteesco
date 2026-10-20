@@ -1,4 +1,4 @@
-status: READY
+status: PARKED
 lane: E
 type: new
 id: 708
@@ -27,3 +27,4 @@ kd: 34
 ---
 ## Log
 - 2026-10-20 03:20 UTC director: brief written, READY (lane E queue refill to 12; bouldering shirt: 720 / KD 34; 5 lines tested against R3.13).
+- 2026-10-20 14:55 UTC director: PARKED: the R5.2 proof gate (one same-format listing with 500+ favorites) cannot be met from a cloud run (Etsy search returns 403; RankHero keyword pages no longer list listings), so builders skip this item. Asked Sam on 2026-10-20 whether measured volume + KD + competition count may stand in for the favorites number; back to READY on his yes.

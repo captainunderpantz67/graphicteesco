@@ -27,3 +27,4 @@ kd: 30
 ---
 ## Log
 - 2026-10-20 03:20 UTC director: brief written, READY (lane E queue refill to 12; crop top hoodie: 8,100 / KD 30; 5 lines tested against R3.13).
+- 2026-10-20 14:55 UTC director: R5.2 favorites gate WAIVED: HERE FOR THE VIEW. NOT THE INCLINE. is one of Sam's own park-snark candidate lines and he asked for a parks/hiking priority line in that voice (inbox 2026-10-19). Build it.

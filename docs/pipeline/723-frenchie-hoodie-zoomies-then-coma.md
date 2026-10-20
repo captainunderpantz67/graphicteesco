@@ -26,3 +26,4 @@ kd: 37
 ---
 ## Log
 - 2026-10-20 13:55 UTC director: brief written, READY (lane E; Frenchie collection design 3; frenchie hoodie 260 / KD 37; 5 lines tested against R3.13).
+- 2026-10-20 14:55 UTC director: R5.2 favorites gate WAIVED on Sam's direct Frenchie order (see #719's 14:55 entry). Build it.

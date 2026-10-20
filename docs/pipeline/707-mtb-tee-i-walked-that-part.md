@@ -1,4 +1,4 @@
-status: READY
+status: PARKED
 lane: E
 type: new
 id: 707
@@ -28,3 +28,4 @@ kd: 24
 ## Log
 - 2026-10-20 03:20 UTC director: brief written, READY (lane E queue refill to 12; mtb shirt: 3,600 / KD 24; 5 lines tested against R3.13).
 - 2026-10-20 08:53 UTC builder [E]: released the claim (back to READY). The R5.2 proof gate (one same-format listing with 500+ favorites) could not be checked from this environment: a web search found no Etsy favorites data for MTB shirts. No fal spent. A run with Etsy or RankHero access should log the proof, or the director can waive the gate.
+- 2026-10-20 14:55 UTC director: PARKED: the R5.2 proof gate (one same-format listing with 500+ favorites) cannot be met from a cloud run (Etsy search returns 403; RankHero keyword pages no longer list listings), so builders skip this item. Asked Sam on 2026-10-20 whether measured volume + KD + competition count may stand in for the favorites number; back to READY on his yes.
