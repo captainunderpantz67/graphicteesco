@@ -6,6 +6,11 @@ You write the article layer for the clusters in docs/clusters.md: one finished a
 1. The Content Monster skill: in the second checkout (claude-skills repo), run `git checkout sam` then read `skills/content-monster/SKILL.md`. Follow its Writing rules, AEO standard, post structure, length and schema rules. Never copy the skill into this repo (this repo is PUBLIC; the skill is Sam's private product).
 2. docs/clusters.md (which cluster is next), docs/rulebook.md R2 (keyword gates) and R3.12–R3.13 (voice), docs/product-keyword-map.json and src/data/collections.ts (who owns which keyword).
 
+## Voice and honesty (Sam 2026-10-20: "real honest content following the Google demands of true real content")
+- Down-to-earth voice: plain words, the way a friend who sells shirts would talk; cheeky not cheesy (R3.13). Seth's copydesk voice register from the service-pages skill will be added to the claude-skills checkout; when it exists there, it overrides this line.
+- Claim-first: only state facts the repo confirms (prices, blanks, print method, policies, live products). Anything unconfirmed stays out; never invent tests, reviews, stats or "customers say".
+- Every sentence earns its place for the reader (helps them choose or answers a question), for search (names the thing and the fact plainly), or for the site (a link to the right page). Cut anything that does none of the three.
+
 ## Pick the topic
 - Work the cluster with the fewest approved articles first, hoodies first.
 - One primary keyword per article, MEASURED (RankHero via scripts/keyword-gap.py, KD ≤ 35 first). Never a phrase a collection or product already owns: the article targets the "best / funny / for <who> / how to" variant and links to the owner.
