@@ -39,3 +39,18 @@ def lockup(art, W, top, bottom, name, bgs, g=36):
         bg = Image.new('RGBA', out.size, c); bg.alpha_composite(out); bg.convert('RGB').resize((600, int(600 * H / W))).save(f'designs/prev_{name}_{tag}.png')
     return out
 def widths(*ls): return [l.width for l in ls]
+def line_same(texts, font, wfrac, W, fill, key, kw=27, track=0):
+    """Render several lines at ONE font size: the widest line takes wfrac*W. Returns the list of line images."""
+    ref = max(texts, key=lambda t: len(t)); imgs = [line(t, font, wfrac, W, fill, key, kw, track) for t in texts]
+    # fit by widest rendered natural width: scale factors from the independently fitted widths
+    widest = max(i.width for i in imgs); out = []
+    for t in texts:
+        f = ImageFont.truetype(FD + F[font], 800)
+        if VAR.get(font): f.set_variation_by_axes(VAR[font])
+        nat = sum(f.getlength(c) for c in t) + track * (len(t) - 1)
+        out.append(nat)
+    big = max(out); size_ratio = (W * wfrac) / big
+    res = []
+    for t, nat in zip(texts, out):
+        res.append(line(t, font, (nat * size_ratio) / W, W, fill, key, kw, track))
+    return res
