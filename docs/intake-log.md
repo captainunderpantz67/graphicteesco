@@ -6,6 +6,7 @@ RUNNING lane E since 2026-10-20 13:15 UTC
 2026-10-20 12:38 UTC — [A] Builder run: redid #447 Women's Alpaca hoodie a third time (alpaca 47% of the lockup). REVIEW. fal $0.
 RUNNING director since 2026-10-20 12:17 UTC
 2026-10-20 12:31 UTC — [A] Builder run: redid #408 Unisex Shark oversized hoodie a third time (shark 47% of the lockup, ring erased). REVIEW. fal $0.
+2026-10-20 12:53 UTC — [B] Builder run: redid #591 Women's Wrestling Mom tee (line + type: I'M NOT YELLING. / I'M ENCOURAGING., same bleacher art, Oswald, 54/54 synced). REVIEW. fal $0.
 RUNNING lane B since 2026-10-20 12:07 UTC
 2026-10-20 12:22 UTC — [B] Builder run: redid #482 Football Mom tee round 2 (apostrophe fixed, caption cut, headline 99% width, both punch lines one size, 100% punch/headline, 24/24 on file 1090344550, 4 fronts replaced in place). REVIEW. fal $0. Lock released.
 2026-10-20 12:24 UTC — [A] Builder run: redid #216 Women's Christmas snowflake hoodie again (UNIQUE. / LIKE EVERY OTHER SNOWFLAKE., one flake, type 41% of the print, new title). REVIEW. fal $0.
