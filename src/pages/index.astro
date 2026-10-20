@@ -168,18 +168,19 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
           {/* Hero buttons (Sam 2026-10-20: "way too many buttons"): the two nearest holidays + one drawer for everything else. */}
           <div class="mt-8 flex flex-wrap items-start gap-3 rise" style="animation-delay:.42s">
             {heroPrimary.map((c, i) => <a href={pathFor(c)} class={i === 0 ? 'btn' : 'btn btn-ghost !text-[var(--color-cream)] !border-[var(--color-cream)]'}>{c.h1}</a>)}
-            <details class="hero-drawer relative">
-              <summary class="btn btn-ghost !text-[var(--color-cream)] !border-[var(--color-cream)] list-none cursor-pointer select-none">Shop all <span aria-hidden="true">▾</span></summary>
-              <div class="absolute left-0 z-30 mt-2 w-[min(20rem,85vw)] rounded-2xl border-2 border-[var(--color-ink)] bg-[var(--color-paper)] text-[var(--color-ink)] p-4 shadow-xl grid gap-1 text-sm font-semibold">
-                {heroRest.map((c) => <a href={pathFor(c)} class="py-1.5 hover:text-[var(--color-rust)]">{c.h1} →</a>)}
-                <hr class="my-2 border-[var(--color-line)]" />
-                <a href="/graphic-tees-for-men/" class="py-1.5 hover:text-[var(--color-rust)]">Men's graphic tees →</a>
-                <a href="/graphic-tees-for-women/" class="py-1.5 hover:text-[var(--color-rust)]">Women's graphic tees →</a>
-                {showHoodies && <a href="/hoodies/" class="py-1.5 hover:text-[var(--color-rust)]">Graphic hoodies →</a>}
-                {site.facts.crewOffer && <a href={site.facts.crewOffer.href} class="py-1.5 hover:text-[var(--color-rust)]">Group &amp; family shirts →</a>}
-              </div>
-            </details>
           </div>
+          <details class="hero-drawer group mt-3 rise" style="animation-delay:.5s">
+            <summary class="inline-flex items-center gap-2 list-none cursor-pointer select-none text-sm font-bold uppercase tracking-[.12em] text-[var(--color-cream)] underline underline-offset-4 decoration-[var(--color-mustard)] hover:text-[var(--color-mustard)] [&::-webkit-details-marker]:hidden">
+              Shop all collections <span aria-hidden="true" class="transition-transform group-open:rotate-180">▾</span>
+            </summary>
+            <div class="mt-4 flex flex-wrap gap-2">
+              {heroRest.map((c) => <a href={pathFor(c)} class="rounded-full border border-[var(--color-cream)]/60 px-3.5 py-1.5 text-sm font-semibold text-[var(--color-cream)] hover:bg-[var(--color-cream)] hover:text-[var(--color-ink)] transition-colors">{c.h1.replace(/^Graphic /, '')}</a>)}
+              <a href="/graphic-tees-for-men/" class="rounded-full border border-[var(--color-cream)]/60 px-3.5 py-1.5 text-sm font-semibold text-[var(--color-cream)] hover:bg-[var(--color-cream)] hover:text-[var(--color-ink)] transition-colors">Men's tees</a>
+              <a href="/graphic-tees-for-women/" class="rounded-full border border-[var(--color-cream)]/60 px-3.5 py-1.5 text-sm font-semibold text-[var(--color-cream)] hover:bg-[var(--color-cream)] hover:text-[var(--color-ink)] transition-colors">Women's tees</a>
+              {showHoodies && <a href="/hoodies/" class="rounded-full border border-[var(--color-cream)]/60 px-3.5 py-1.5 text-sm font-semibold text-[var(--color-cream)] hover:bg-[var(--color-cream)] hover:text-[var(--color-ink)] transition-colors">Hoodies</a>}
+              {site.facts.crewOffer && <a href={site.facts.crewOffer.href} class="rounded-full border border-[var(--color-cream)]/60 px-3.5 py-1.5 text-sm font-semibold text-[var(--color-cream)] hover:bg-[var(--color-cream)] hover:text-[var(--color-ink)] transition-colors">Group &amp; family</a>}
+            </div>
+          </details>
         </>) : (
           <div class="mt-8 flex flex-wrap gap-3 rise" style="animation-delay:.42s">
             <a href="/graphic-tees-for-men/" class="btn">Men's graphic tees</a>
