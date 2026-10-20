@@ -10811,6 +10811,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-chef-cooks-for-200-cereal-at-home-hoodie": {
+   "claimed": [
+    "chef hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "chef hoodie",
+     "volume": 140,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
