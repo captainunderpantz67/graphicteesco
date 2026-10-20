@@ -1,6 +1,6 @@
 RUNNING lane B since 2026-10-20 17:06 UTC
-RUNNING lane C since 2026-10-20 17:05 UTC
 2026-10-20 17:02 UTC — [A] Builder run: #616 Drew Your Name. Panicked. tee, copy-only REDO (keyword to office christmas shirt, SEO title/meta/line one fixed). REVIEW. fal $0.
+2026-10-20 17:41 UTC — [C] Builder run: redid #635 Women's Fishing Out-Fished Him. Again. zip hoodie (type only: AGAIN. heavy Bowlby One navy/cream replaces thin script, same art, BW 1560, Ash file 1090515189, Navy light file 1090515215, 12/12 relinked, 2 backs replaced in place, plain product shot). REVIEW. fal $0. 1 redo per run cap reached.
 RUNNING lane E since 2026-10-20 16:22 UTC
 2026-10-20 16:51 UTC — [A] Builder run: #732 Christmas Credits Baby bodysuit, 8/8 synced. REVIEW. fal $0.
 2026-10-20 16:49 UTC — [A] Builder run: #731 Christmas Credits Kid youth long sleeve, 6/6 synced. REVIEW. fal $0.
@@ -26,7 +26,6 @@ RUNNING lane B since 2026-10-20 16:10 UTC
 2026-10-20 15:39 UTC — [A] Builder run: copy-only REDOs #615 (favorite child shirt) and #721 (FAQ), REVIEW. fal $0.
 2026-10-20 15:38 UTC — [A] Builder run: #720 Frenchie Silent Night crewneck (twin of #719), 12/12 synced. REVIEW. fal $0.
 2026-10-20 15:36 UTC — [A] Builder run: #719 Frenchie Silent Night. Except the Snoring. tee, 48/48 synced. REVIEW. fal $0.
-RUNNING lane C since 2026-10-20 15:08 UTC
 2026-10-20 15:36 UTC — [B] Builder run: redid #498 Psalm 121 embroidered crewneck (PSALM 121:1 caps 0.33 in, was 0.28 in; stitch 3.17 x 3.92 in, 12/12 synced). REVIEW. fal $0.
 2026-10-20 15:54 UTC — [E] Builder run: REDO #658 HVAC tee: new art (both hands, tired face), line IT'S ALWAYS / THE FILTER. (punch 110% of headline, subject 52%), 56/56 synced, title/SEO/copy/mockups updated. REVIEW. fal $0.04. Lane E lock released. Lane E queue left: #704 and #722/#723 READY (hoodies), #705-#718 PARKED by director (R5.2 proof gate).
 2026-10-20 15:28 UTC — [A] Builder run: #696 dance mom crewneck (twin of #534), 11/11 synced. REVIEW. fal $0.
