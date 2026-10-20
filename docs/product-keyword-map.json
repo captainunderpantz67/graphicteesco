@@ -10567,50 +10567,26 @@
   },
   "unisex-homebody-plans-canceled-mood-improved-sweatpants": {
    "claimed": [
-    "fleece sweatpants",
-    "matching sweatsuit",
-    "sweatsuit set"
+    "fleece sweatpants"
    ],
    "gaps_measured": [
     {
      "phrase": "fleece sweatpants",
      "volume": 12100,
      "kd": 20
-    },
-    {
-     "phrase": "matching sweatsuit",
-     "volume": 3600,
-     "kd": 19
-    },
-    {
-     "phrase": "sweatsuit set",
-     "volume": 4400,
-     "kd": 22
     }
    ],
    "measured": "2026-10-20"
   },
   "unisex-national-park-the-view-better-be-worth-it-sweatpants": {
    "claimed": [
-    "vintage sweatpants",
-    "matching sweatsuit",
-    "sweatsuit set"
+    "vintage sweatpants"
    ],
    "gaps_measured": [
     {
      "phrase": "vintage sweatpants",
      "volume": 1600,
      "kd": 26
-    },
-    {
-     "phrase": "matching sweatsuit",
-     "volume": 3600,
-     "kd": 19
-    },
-    {
-     "phrase": "sweatsuit set",
-     "volume": 4400,
-     "kd": 22
     }
    ],
    "measured": "2026-10-20"
