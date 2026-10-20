@@ -1,3 +1,0 @@
-{"art":"designs/e386b/art.png","out":"designs/e386b/print.png","art_w":0.6,"knock":3000,
- "top":{"text":"THE STAR","font":"Bevan-Regular.ttf","w":1.0,"fill":"#8c1d2b","stroke":0},
- "bottom":{"text":"HAD A GOOD RUN.","font":"Bevan-Regular.ttf","w":1.0,"fill":"#1f4a3a","stroke":0,"ref":"W"},"overlap":0.0,"gap":40}

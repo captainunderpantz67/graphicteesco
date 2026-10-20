@@ -7,11 +7,6 @@
     </div>
     <div data-cart-lines class="flex-1 overflow-y-auto p-4 grid content-start gap-4 text-sm"></div>
     <div class="p-4 border-t border-[var(--color-line)] grid gap-3">
-      <div data-ship-bar hidden class="grid gap-1.5">
-        <p data-ship-msg class="text-sm font-semibold"></p>
-        <div class="h-2 bg-[var(--color-line)] overflow-hidden" aria-hidden="true"><div data-ship-fill class="h-full bg-[var(--color-moss,#4f6b3a)] transition-[width] duration-300" style="width:0"></div></div>
-        <p data-crew-msg hidden class="text-xs text-[var(--color-ink-2)]"></p>
-      </div>
       <div class="flex justify-between font-semibold"><span>Subtotal</span><span data-cart-subtotal>$0.00</span></div>
       <a data-cart-checkout href="#" class="btn btn-rust w-full" aria-disabled="true">Checkout</a>
       <p class="text-xs text-[var(--color-ink-2)]">Shipping and taxes are calculated at checkout.</p>
@@ -21,7 +16,6 @@
 
 <script>
   import { cartEnabled, getCart, addLine, updateLine, type Cart } from '../lib/cart';
-  import { site } from '../data/site';
 
   const drawer = document.querySelector<HTMLElement>('[data-cart-drawer]')!;
   const linesEl = drawer.querySelector<HTMLElement>('[data-cart-lines]')!;
@@ -36,27 +30,7 @@
 
   const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
 
-  // Free-shipping progress + crew-order nudge (conversion, 2026-10-19). Uses only confirmed facts.
-  const shipBar = drawer.querySelector<HTMLElement>('[data-ship-bar]')!;
-  const shipMsg = drawer.querySelector<HTMLElement>('[data-ship-msg]')!;
-  const shipFill = drawer.querySelector<HTMLElement>('[data-ship-fill]')!;
-  const crewMsg = drawer.querySelector<HTMLElement>('[data-crew-msg]')!;
-  function nudges(cart: Cart | null) {
-    const free = site.facts.freeShippingThreshold;
-    const total = cart ? parseFloat(String(cart.subtotal).replace(/[^0-9.]/g, '')) || 0 : 0;
-    if (!free || !cart || cart.lines.length === 0) { shipBar.hidden = true; return; }
-    shipBar.hidden = false;
-    const left = Math.max(0, free - total);
-    shipMsg.textContent = left > 0 ? `You're $${left.toFixed(2)} away from free US shipping` : 'Your order ships free in the US';
-    shipFill.style.width = `${Math.min(100, (total / free) * 100)}%`;
-    const crew = site.facts.crewOffer; const qty = cart.totalQuantity ?? 0;
-    if (crew && qty >= 5 && qty < crew.minQty) { crewMsg.hidden = false; crewMsg.textContent = `Add ${crew.minQty - qty} more item${crew.minQty - qty === 1 ? '' : 's'} and ${crew.percentOff}% comes off the whole order.`; }
-    else if (crew && qty >= crew.minQty) { crewMsg.hidden = false; crewMsg.textContent = `Crew order: ${crew.percentOff}% off applies at checkout.`; }
-    else crewMsg.hidden = true;
-  }
-
   function render(cart: Cart | null) {
-    nudges(cart);
     document.querySelectorAll('[data-cart-count]').forEach((el) => (el.textContent = String(cart?.totalQuantity ?? 0)));
     if (!cartEnabled) {
       linesEl.innerHTML = '<p class="text-[var(--color-ink-2)]">The store opens soon — checkout is not connected yet.</p>';

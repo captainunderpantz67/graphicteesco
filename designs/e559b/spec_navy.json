@@ -1,3 +1,0 @@
-{"art":"designs/e559b/art.png","out":"designs/e559b/print_navy.png","art_w":0.74,"knock":3000,"halo":8,
- "top":{"text":"BEAR WITH ME.","font":"Fraunces[SOFT,WONK,opsz,wght].ttf","axes":[144,900,100,0],"stroke":0,"w":1.0,"fill":"#f3e7cf"},
- "bottom":{"text":"I'M RESTING.","font":"Fraunces[SOFT,WONK,opsz,wght].ttf","axes":[144,900,100,0],"stroke":0,"w":1.0,"fill":"#f0b43c","ref":"W"},"overlap":0.0,"gap":30}

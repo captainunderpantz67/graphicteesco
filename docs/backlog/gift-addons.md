@@ -28,8 +28,3 @@ Goal: the same visitors buy more. Every add-on reuses an existing design graded 
 | Women's pajama pants (829, AOP) | christmas pajama pants · pajama pants women | 18,100 / 30 · 18,100 / 32 | $28.55 | $44.99 | $14 |
 | Puzzle (534) | funny puzzle | 6,600 / 30 / 8.7K | $15.25 | $29.99 | $13 |
 **Sam 2026-10-19: these are NOT bottom-KD gaps (only golf socks 16 and fishing socks 16 pass KD <= 20). Socks first; hats/towel/pajamas/puzzles (KD 26–32) wait behind any KD <= 20 product finds.** Old note: order after socks: golf cluster first (hat, towel) — the golf hoodies, golf gift guide and these three give one complete "golf gifts" set before Christmas; then fishing hat, pet socks.** Hats: embroidery max ~4 in, so use the line or one simple motif, not the full illustration; DTF is an option for detailed art. Reuse A-grade golf/fishing/cat/dog art and lines (R3.13), no fal. Add each to the matching collection and gift guide.
-
-## 2026-10-20 — Pajamas: DROPPED (Sam)
-Printful only has women's all-over-print pajamas (top $30–32 + pants $29–31 cost → ~$85 a set); no men's/kids' pajamas, no dog pajamas. Old Navy/Target sell family sets at $15–25 a person, so we can't compete on price. Sam: "we can't sell anything at those numbers." Don't re-propose pajamas.
-Demand for the record (RankHero, Nov 2025): family christmas pajamas 450K/KD 33, matching christmas pajamas 368K/34, christmas pajama pants 74K/30, dog christmas pajamas 49.5K/28.
-Still open (not pajamas, not decided): matching family Christmas long-sleeve tees (adult/youth/baby, one joke per person, ~$8–13 profit each).

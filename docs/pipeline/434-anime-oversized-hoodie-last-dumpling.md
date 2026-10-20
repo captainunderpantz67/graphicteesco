@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: A
 type: new
 id: 434
@@ -33,6 +33,3 @@ kd: 19
 - 2026-10-17 21:52 UTC builder [A]: Printful resync verified (12/12 variants on the new file); REVIEW.
 - 2026-10-17 22:39 UTC director: APPROVED, LIVE. ACTIVE + Online Store, Headless and Google & YouTube; audit --handle PASS (0 warn). Copy polished by the director first (R8: keyword counts, superlatives, false claims). Kept the built line SHARING IS NOT MY LOVE LANGUAGE (it passes; the later rewrite is withdrawn).
 - 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "SHARING IS NOT / MY LOVE LANGUAGE" and the art. 1. Type: Light casual hand-font, uniform size, no heavy headline or hierarchy. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.
-- 2026-10-19 20:38 UTC builder [A]: REDO type-only done (director grade B). Same cat art; SHARING IS NOT in Bowlby One red + MY LOVE LANGUAGE. in Anton, both full print width (art 72%, lockup aspect 1.09), FW 1500 TOP 0. Light file: Navy on 1089845267 (headline light coral, second line cream); Dust on 1089845196 (headline red, second line navy). Relinked 12/12 (Dust 6, Navy 6), back logo 1080398177 kept. 2 fronts replaced in place (fileUpdate), phone-size read ok on both. Copy: Story lettering sentence updated; FAQs 5, Dec 8 kept; no R8.3 opener. Plain product shot (handle added to retired-covers.json). audit --handle PASS 0 warn; build ok. fal $0. Sheet docs/review/434.jpg.
-- 2026-10-19 21:14 UTC director: approved from docs/review/434.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 and 479: SHARING IS NOT heavy red full width over the guarding cat, MY LOVE LANGUAGE. heavy navy/cream; at the bar. Audit PASS.
-- 2026-10-20 02:16 UTC director: LIVE (approved 2026-10-19 21:14 from the sheet, held for the 6-LIVE cap). Product already ACTIVE + Online Store, Headless, Google & YouTube (3 publications); audit --handle PASS (0 warn).

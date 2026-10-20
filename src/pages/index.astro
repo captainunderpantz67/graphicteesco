@@ -13,15 +13,11 @@ import { coverFor as liveCover } from '../data/covers';
 
 // Real product photos for cards: the main (model/lifestyle) mockup of the newest product in each collection.
 const allProducts = (await getAllProducts()).filter((p) => !p.sample && p.images.length);
-// Evergreen cards show only designs made to the current standard (Sam 2026-10-20: the old badge designs on these cards "are trash compared to the new ones").
-import freshList from '../data/fresh-designs.json';
-const fresh = new Set<string>(freshList as string[]);
-const freshPhoto = (p: (typeof allProducts)[number]) => { const c = liveCover(p.handle); return c ? { url: c.src, altText: c.alt, local: true } : p.images[0]; };
-const photoFor = (slug: string) => { const f = allProducts.find((p) => p.collections?.includes(slug) && fresh.has(p.handle)); return f ? freshPhoto(f) : allProducts.find((p) => p.collections?.includes(slug))?.images[0] ?? null; };
+const photoFor = (slug: string) => allProducts.find((p) => p.collections?.includes(slug))?.images[0] ?? null;
 const photoOf = (handle: string, fallbackSlug: string) =>
   allProducts.find((p) => p.handle === handle)?.images[0] ?? photoFor(fallbackSlug);
-const menPhoto = photoOf('mens-mechanic-no-i-cant-just-take-a-quick-look-graphic-tee', 'graphic-tees-for-men');
-const womenPhoto = photoOf('womens-hiking-treat-me-like-wildlife-graphic-tee', 'graphic-tees-for-women');
+const menPhoto = photoOf('mens-gym-iron-sweat-graphic-tee', 'graphic-tees-for-men');
+const womenPhoto = photoOf('womens-christmas-merry-bright-graphic-tee', 'graphic-tees-for-women');
 const img = (u: string, w: number) => `${u}${u.includes('?') ? '&' : '?'}width=${w}`;
 
 // Only linkable collections (products + indexable) get a card or link.
@@ -33,10 +29,6 @@ const outdoors = ['fishing-t-shirts', 'hunting-t-shirts', 'western-graphic-tees'
 const styles = ['oversized-graphic-tees', 'vintage-graphic-tees', 'retro-graphic-tees', 'funny-graphic-tees', 'y2k-graphic-tees', 'anime-shirts', 'embroidered-sweatshirts'].map((s) => bySlug(s)!).filter((c) => live.has(c.slug));
 // Holiday shelf: every live holiday tee collection, soonest holiday first.
 const holidayTees = homepageOrder(tees.filter((c) => c.seasonal && live.has(c.slug)));
-// Hero: the general page for each of the two nearest holidays (e.g. Christmas Shirts, Thanksgiving Shirts), the rest go in the drawer.
-const heroSeasons = [...new Set(holidayTees.map((c) => c.seasonal))].slice(0, 2);
-const heroPrimary = heroSeasons.map((sn) => holidayTees.find((c) => c.seasonal === sn && !c.audience && !/funny|sweat/.test(c.slug)) ?? holidayTees.find((c) => c.seasonal === sn)!);
-const heroRest = holidayTees.filter((c) => !heroPrimary.includes(c));
 // Cover photo per card: match the collection's audience (women's card → a women's tee)
 // and never repeat a photo already used by an earlier card.
 const usedCovers = new Set<string>();
@@ -165,22 +157,11 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
         <div class="lg:hidden mt-6 -mx-2"><HeroArt image={heroPhoto} /></div>
         <p class={`mt-6 text-lg max-w-xl rise ${inSeason ? 'opacity-90' : 'text-[var(--color-ink-2)]'}`} style="animation-delay:.3s">{inSeason ? 'Vintage Christmas and Thanksgiving tees and crewneck sweatshirts — original art that looks like a print you’ve loved for years, printed when you order it.' : site.entity}</p>
         {inSeason ? (<>
-          {/* Hero buttons (Sam 2026-10-20: "way too many buttons"): the two nearest holidays + one drawer for everything else. */}
-          <div class="mt-8 flex flex-wrap items-start gap-3 rise" style="animation-delay:.42s">
-            {heroPrimary.map((c, i) => <a href={pathFor(c)} class={i === 0 ? 'btn' : 'btn btn-ghost !text-[var(--color-cream)] !border-[var(--color-cream)]'}>{c.h1}</a>)}
+          <p class="mt-7 text-xs font-bold uppercase tracking-[.16em] text-[var(--color-mustard)]">Pick your holiday</p>
+          <div class="mt-3 flex flex-wrap gap-3 rise" style="animation-delay:.42s">
+            {holidayTees.map((c, i) => <a href={pathFor(c)} class={i === 0 ? 'btn' : 'btn btn-ghost !text-[var(--color-cream)] !border-[var(--color-cream)]'}>{c.h1}</a>)}
           </div>
-          <details class="hero-drawer group mt-3 rise" style="animation-delay:.5s">
-            <summary class="inline-flex items-center gap-2 list-none cursor-pointer select-none text-sm font-bold uppercase tracking-[.12em] text-[var(--color-cream)] underline underline-offset-4 decoration-[var(--color-mustard)] hover:text-[var(--color-mustard)] [&::-webkit-details-marker]:hidden">
-              Shop all collections <span aria-hidden="true" class="transition-transform group-open:rotate-180">▾</span>
-            </summary>
-            <div class="mt-4 flex flex-wrap gap-2">
-              {heroRest.map((c) => <a href={pathFor(c)} class="rounded-full border border-[var(--color-cream)]/60 px-3.5 py-1.5 text-sm font-semibold text-[var(--color-cream)] hover:bg-[var(--color-cream)] hover:text-[var(--color-ink)] transition-colors">{c.h1.replace(/^Graphic /, '')}</a>)}
-              <a href="/graphic-tees-for-men/" class="rounded-full border border-[var(--color-cream)]/60 px-3.5 py-1.5 text-sm font-semibold text-[var(--color-cream)] hover:bg-[var(--color-cream)] hover:text-[var(--color-ink)] transition-colors">Men's tees</a>
-              <a href="/graphic-tees-for-women/" class="rounded-full border border-[var(--color-cream)]/60 px-3.5 py-1.5 text-sm font-semibold text-[var(--color-cream)] hover:bg-[var(--color-cream)] hover:text-[var(--color-ink)] transition-colors">Women's tees</a>
-              {showHoodies && <a href="/hoodies/" class="rounded-full border border-[var(--color-cream)]/60 px-3.5 py-1.5 text-sm font-semibold text-[var(--color-cream)] hover:bg-[var(--color-cream)] hover:text-[var(--color-ink)] transition-colors">Hoodies</a>}
-              {site.facts.crewOffer && <a href={site.facts.crewOffer.href} class="rounded-full border border-[var(--color-cream)]/60 px-3.5 py-1.5 text-sm font-semibold text-[var(--color-cream)] hover:bg-[var(--color-cream)] hover:text-[var(--color-ink)] transition-colors">Group &amp; family</a>}
-            </div>
-          </details>
+          <p class="mt-5 text-sm font-semibold">Year-round: <a href="/graphic-tees-for-men/" class="underline underline-offset-4 hover:text-[var(--color-mustard)]">men's graphic tees</a> · <a href="/graphic-tees-for-women/" class="underline underline-offset-4 hover:text-[var(--color-mustard)]">women's graphic tees</a></p>
         </>) : (
           <div class="mt-8 flex flex-wrap gap-3 rise" style="animation-delay:.42s">
             <a href="/graphic-tees-for-men/" class="btn">Men's graphic tees</a>
@@ -303,8 +284,7 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
     <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
       {womens.map((c, i) => {
         const [bg, fg, ac] = tones[i % tones.length];
-        const hasFresh = allProducts.some((p) => p.collections?.includes(c.slug) && fresh.has(p.handle));
-        const ph = hasFresh ? photoFor(c.slug) : cardImgs[c.slug] ? { url: cardImgs[c.slug].src, altText: cardImgs[c.slug].alt, local: true } : photoFor(c.slug);
+        const ph = cardImgs[c.slug] ? { url: cardImgs[c.slug].src, altText: cardImgs[c.slug].alt, local: true } : photoFor(c.slug);
         return ph ? (
           <a href={pathFor(c)} class="group relative overflow-hidden rounded-[18px] border-2 border-[var(--color-ink)] aspect-[4/5] p-[7px] flex shadow-[4px_4px_0_var(--color-ink)] hover:-translate-y-1 hover:shadow-[6px_8px_0_var(--color-ink)] transition-all" style={`background:${bg};color:${fg}`}>
             <span class="relative flex-1 overflow-hidden rounded-[12px]">

@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: E
 type: new
 id: 558
@@ -32,6 +32,3 @@ kd: 31
 - 2026-10-18 08:12 UTC builder [E]: sync 12/12 confirmed. REVIEW.
 - 2026-10-18 08:19 UTC director: LIVE. Sheet reviewed (R3, R4/R5, R6, R8, R13.3); copy OK. ACTIVE + Online Store, Headless, Google & YouTube; cohesion-audit --handle PASS 0 warn.
 - 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "NOT MY TURN / with the brain cell." and the art. 1. Type: Thin pink script second line on navy hoodie; plain bar headline over art. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.
-- 2026-10-19 21:23 UTC builder [E]: REDO type-only done. Same cat art (old text bars cropped off), new lockup designs/e558/compose.py: NOT MY TURN Bowlby One orange + WITH THE BRAIN CELL. Anton pink, both full art width (line 2 = 108% of headline height), navy keylines, reads on Ash and Navy (checked both). Print 2892x3128, Printful file 1089900083, back BW 1650 BT 225, chest copy unchanged (file 1088727479), resynced 12/12 verified. 4 mockups replaced in place in Shopify, Story updated (no ink FAQ). Cover: plain product shot (handle added to retired-covers.json). fal $0. Sheet docs/review/558.jpg.
-- 2026-10-20 02:16 UTC director: approved from docs/review/558.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus/479 Tag Soup: NOT MY TURN Bowlby orange + WITH THE BRAIN CELL. Anton pink, both full width with navy keylines; reads on Ash and Navy back mockups. Line already proven (cropped-hoodie voice). Audit --handle PASS (0 warn).
-- 2026-10-20 04:14 UTC director: LIVE (approved 02:16, held for the cap). Already ACTIVE and published on Online Store, Headless, Google & YouTube (in-place redo); audit --handle PASS (0 warn).

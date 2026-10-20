@@ -1,4 +1,4 @@
-status: LIVE
+status: BUILDING [E] 2026-10-19 19:15
 lane: E
 type: new
 id: 556
@@ -32,5 +32,3 @@ kd: 14
 - 2026-10-18 07:01 UTC builder [E]: sync 40/40 confirmed. REVIEW.
 - 2026-10-18 07:22 UTC director: approved from docs/review/556.jpg; ACTIVE + Online Store + Headless + Google & YouTube. audit --handle PASS (0 warn). LIVE.
 - 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "LEFT. RIGHT. LEFT. / I play army golf." and the art. 1. Type: Thin dark-green script second line under art, ~35% headline height; plain bar on top. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.
-- 2026-10-19 19:26 UTC builder [E]: REDO type-only done. Same golfer art (old text bars cropped off), new lockup designs/e556/compose.py: LEFT. RIGHT. LEFT. Bowlby One burnt orange #c8642a with brown keyline at full art width, I PLAY ARMY GOLF. Bevan dark green #2f4a33 at 96% width (second line 81% of headline height). Print 2880 x 3166 px, Printful file 1089766424, FW 1650 TOP 75, resynced 40/40. All six colors are light and every ink is dark: no light file needed. 6 fronts replaced in place in Shopify (back unchanged). Cover: plain product shot (handle in retired-covers.json). Phone-size read: all lines clear on Natural. Copy still accurate. fal $0. Sheet docs/review/556.jpg.
-- 2026-10-19 20:25 UTC director: LIVE. Side by side with 493 and 483 Sisyphus: LEFT. RIGHT. LEFT. Bowlby at full width and I PLAY ARMY GOLF. heavy green at ~80% height, the zigzag ball path sells it; as strong as 504 Improving My Lie. Shopify Story lettering sentence updated to the new capitals. Already ACTIVE and published. cohesion-audit --handle PASS (0 warn).

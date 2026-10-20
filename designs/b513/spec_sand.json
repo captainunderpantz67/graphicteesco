@@ -1,3 +1,0 @@
-{"art":"designs/b513/art.png","out":"designs/b513/print_sand.png","art_w":0.90,"halo":0,"knock":8000,
- "top":{"text":"SEE YOU","font":"BigShouldersDisplay[wght].ttf","axes":[900],"w":0.9,"fill":"#1d2a4a","stroke":0},
- "bottom":{"text":"IN APRIL.","font":"BigShouldersDisplay[wght].ttf","axes":[900],"w":0.62,"fill":"#b8322c","stroke":0,"ref":"art"},"overlap":0.0,"gap":20}

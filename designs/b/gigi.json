@@ -1,6 +1,0 @@
-{"art": "designs/b/gigi-a.png", "art_width": 0.66, "canvas": [3600, 4500], "gap": 40,
- "lines": [
-  {"text": "GIGI", "font": "Bevan-Regular.ttf", "size": 900, "fill": "#e0245e", "stroke": 24, "stroke_fill": "#f3e7cf", "tracking": 0.02, "max_width": 0.96, "where": "above"},
-  {"text": "BECAUSE GRANDMA", "font": "Anton-Regular.ttf", "size": 520, "fill": "#1f2d4d", "stroke": 0, "tracking": 0.015, "max_width": 0.90, "where": "below"},
-  {"text": "SOUNDED OLD.", "font": "Anton-Regular.ttf", "size": 520, "fill": "#1f2d4d", "stroke": 0, "tracking": 0.015, "max_width": 0.90, "where": "below"}
- ]}

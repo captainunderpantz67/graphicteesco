@@ -1,5 +1,0 @@
-{"art": "designs/a434/art.png", "art_width": 0.88, "canvas": [3600, 4500], "gap": 70,
- "lines": [
-  {"text": "SHARING IS NOT", "font": "BowlbyOne-Regular.ttf", "size": 900, "fill": "#d96662", "stroke": 0, "tracking": 0.0, "max_width": 0.88, "where": "above"},
-  {"text": "MY LOVE LANGUAGE.", "font": "Anton-Regular.ttf", "size": 700, "fill": "#0f3353", "stroke": 0, "tracking": 0.01, "max_width": 0.88, "where": "below"}
- ]}

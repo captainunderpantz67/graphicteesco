@@ -1,5 +1,0 @@
-{"art": "designs/b358/art.png", "art_width": 0.6, "canvas": [3600, 4500], "gap": 10,
- "lines": [
-  {"text": "I GOT IT.", "font": "BowlbyOne-Regular.ttf", "size": 1000, "fill": "#e2584a", "stroke": 30, "stroke_fill": "#1c2a52", "tracking": 0.02, "where": "above"},
-  {"text": "I DID NOT GET IT.", "font": "Anton-Regular.ttf", "size": 560, "fill": "#e9a93c", "stroke": 22, "stroke_fill": "#1c2a52", "tracking": 0.03, "where": "below"}
- ]}

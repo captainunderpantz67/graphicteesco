@@ -9296,38 +9296,28 @@
   },
   "mens-christmas-moms-favorite-crewneck-sweatshirt": {
    "claimed": [
-    "favorite child shirt",
     "sibling gifts"
    ],
    "gaps_measured": [
-    {
-     "phrase": "favorite child shirt",
-     "volume": 320,
-     "kd": 46
-    },
     {
      "phrase": "sibling gifts",
      "volume": 2400,
      "kd": 44
     }
    ],
-   "measured": "2026-10-16"
+   "measured": "2026-10-18"
   },
   "mens-christmas-drew-your-name-panicked-graphic-tee": {
    "claimed": [
-    "office christmas shirts",
-    "secret santa gift"
+    "secret santa gift",
+    "secret santa gifts for men",
+    "secret santa gifts for him"
    ],
    "gaps_measured": [
     {
-     "phrase": "office christmas shirts",
-     "volume": 90,
-     "kd": 40
-    },
-    {
-     "phrase": "work christmas shirt",
-     "volume": 70,
-     "kd": 42
+     "phrase": "secret santa gift",
+     "volume": 74000,
+     "kd": 46
     },
     {
      "phrase": "secret santa gifts for men",
@@ -9340,19 +9330,13 @@
      "kd": 17
     }
    ],
-   "measured": "2026-10-20"
+   "measured": "2026-10-16"
   },
   "mens-christmas-drew-your-name-panicked-crewneck-sweatshirt": {
    "claimed": [
-    "office christmas sweatshirt",
     "funny secret santa gifts"
    ],
    "gaps_measured": [
-    {
-     "phrase": "office christmas sweatshirt",
-     "volume": 0,
-     "kd": 0
-    },
     {
      "phrase": "funny secret santa gifts",
      "volume": 18100,
@@ -9382,22 +9366,16 @@
   },
   "womens-christmas-santa-gets-all-the-credit-crewneck-sweatshirt": {
    "claimed": [
-    "christmas gifts for wife",
-    "christmas sweatshirt for wife"
+    "christmas gifts for wife"
    ],
    "gaps_measured": [
     {
      "phrase": "christmas gifts for wife",
      "volume": 40500,
      "kd": 8
-    },
-    {
-     "phrase": "christmas sweatshirt for wife",
-     "volume": 0,
-     "kd": 0
     }
    ],
-   "measured": "2026-10-16"
+   "measured": "2026-10-18"
   },
   "unisex-christmas-we-said-no-gifts-graphic-tee": {
    "claimed": [
@@ -9582,10 +9560,12 @@
     {
      "phrase": "couples christmas sweatshirts",
      "volume": 5400,
-     "kd": 14
+     "kd": 14,
+     "source": "RankHero keyword page"
     }
    ],
-   "measured": "2026-10-16"
+   "measured": "2026-10-18",
+   "note": "director: brief"
   },
   "womens-mom-motherhood-exposed-me-hoodie": {
    "claimed": [
@@ -9682,66 +9662,42 @@
   },
   "mens-dad-bod-retired-from-abs-graphic-tee": {
    "claimed": [
-    "dad bod shirt",
-    "dad bod t shirt"
+    "dad bod shirt"
    ],
    "gaps_measured": [
     {
      "phrase": "dad bod shirt",
      "volume": 1600,
      "kd": 32
-    },
-    {
-     "phrase": "dad bod t shirt",
-     "volume": 1300,
-     "kd": 27
     }
    ],
-   "measured": "2026-10-16"
+   "measured": "2026-10-18"
   },
   "mens-chess-i-blunder-with-confidence-graphic-tee": {
    "claimed": [
-    "chess shirt",
-    "chess t shirt",
-    "funny chess shirt"
+    "chess shirt"
    ],
    "gaps_measured": [
     {
      "phrase": "chess shirt",
      "volume": 1900,
      "kd": 30
-    },
-    {
-     "phrase": "chess t shirt",
-     "volume": 1300,
-     "kd": 29
-    },
-    {
-     "phrase": "funny chess shirt",
-     "volume": 140,
-     "kd": 39
     }
    ],
-   "measured": "2026-10-16"
+   "measured": "2026-10-18"
   },
   "unisex-cornhole-counts-as-cardio-graphic-tee": {
    "claimed": [
-    "cornhole shirt",
-    "funny cornhole shirt"
+    "cornhole shirt"
    ],
    "gaps_measured": [
     {
      "phrase": "cornhole shirt",
      "volume": 880,
-     "kd": 27
-    },
-    {
-     "phrase": "funny cornhole shirt",
-     "volume": 210,
-     "kd": 32
+     "kd": 30
     }
    ],
-   "measured": "2026-10-16"
+   "measured": "2026-10-18"
   },
   "mens-hvac-did-you-change-the-filter-graphic-tee": {
    "claimed": [
@@ -9751,10 +9707,10 @@
     {
      "phrase": "hvac shirt",
      "volume": 590,
-     "kd": 28
+     "kd": 30
     }
    ],
-   "measured": "2026-10-16"
+   "measured": "2026-10-18"
   },
   "mens-bbq-low-and-slow-like-my-texts-graphic-tee": {
    "claimed": [
@@ -9764,10 +9720,10 @@
     {
      "phrase": "smoker shirt",
      "volume": 1300,
-     "kd": 34
+     "kd": 37
     }
    ],
-   "measured": "2026-10-16"
+   "measured": "2026-10-18"
   },
   "mens-fishing-fisher-of-men-half-zip": {
    "claimed": [
@@ -10174,315 +10130,6 @@
     }
    ],
    "measured": "2026-10-16"
-  },
-  "womens-outdoorsy-in-theory-cropped-hoodie": {
-   "claimed": [
-    "cropped pullover"
-   ],
-   "gaps_measured": [
-    {
-     "phrase": "cropped pullover",
-     "volume": 4400,
-     "kd": 34
-    }
-   ],
-   "measured": "2026-10-16"
-  },
-  "mens-gym-rack-your-weights-respectfully-sweatpants": {
-   "claimed": [
-    "gym sweatpants"
-   ],
-   "gaps_measured": [
-    {
-     "phrase": "gym sweatpants",
-     "volume": 9900,
-     "kd": 18
-    }
-   ],
-   "measured": "2026-10-16"
-  },
-  "unisex-new-years-eve-midnight-is-a-suggestion-crewneck-sweatshirt": {
-   "claimed": [
-    "new years sweatshirt",
-    "new years eve sweatshirt"
-   ],
-   "gaps_measured": [
-    {
-     "phrase": "new years sweatshirt",
-     "volume": 480,
-     "kd": 46
-    },
-    {
-     "phrase": "new years eve sweatshirt",
-     "volume": 210,
-     "kd": 46
-    }
-   ],
-   "measured": "2026-10-16"
-  },
-  "unisex-christmas-raccoon-santas-late-i-started-without-him-crewneck-sweatshirt": {
-   "claimed": [
-    "christmas raccoon"
-   ],
-   "gaps_measured": [
-    {
-     "phrase": "christmas raccoon",
-     "volume": 1300,
-     "kd": 43
-    }
-   ],
-   "measured": "2026-10-16"
-  },
-  "mens-hunting-todays-special-tag-soup-sweatpants": {
-   "claimed": [
-    "mens sweatpants"
-   ],
-   "gaps_measured": [
-    {
-     "phrase": "mens sweatpants",
-     "volume": 74000,
-     "kd": 26
-    }
-   ],
-   "measured": "2026-10-20"
-  },
-  "womens-dance-mom-bun-tight-wallet-empty-crewneck-sweatshirt": {
-   "claimed": [
-    "dance mom sweatshirt"
-   ],
-   "gaps_measured": [
-    {
-     "phrase": "dance mom sweatshirt",
-     "volume": 320,
-     "kd": 48
-    }
-   ],
-   "measured": "2026-10-16"
-  },
-  "christmas-we-said-no-gifts-we-lied-mug": {
-   "claimed": [
-    "funny christmas mug"
-   ],
-   "gaps_measured": [
-    {
-     "phrase": "funny christmas mug",
-     "volume": 1000,
-     "kd": 60
-    }
-   ],
-   "measured": "2026-10-16"
-  },
-  "womens-christmas-french-bulldog-silent-night-except-the-snoring-graphic-tee": {
-   "claimed": [
-    "french bulldog shirt"
-   ],
-   "gaps_measured": [
-    {
-     "phrase": "french bulldog shirt",
-     "volume": 480,
-     "kd": 50
-    }
-   ],
-   "measured": "2026-10-16"
-  },
-  "womens-christmas-french-bulldog-silent-night-except-the-snoring-crewneck-sweatshirt": {
-   "claimed": [
-    "frenchie sweatshirt"
-   ],
-   "gaps_measured": [
-    {
-     "phrase": "frenchie sweatshirt",
-     "volume": 390,
-     "kd": 44
-    }
-   ],
-   "measured": "2026-10-16"
-  },
-  "french-bulldog-silent-night-except-the-snoring-ornament": {
-   "claimed": [
-    "frenchie ornament"
-   ],
-   "gaps_measured": [
-    {
-     "phrase": "frenchie ornament",
-     "volume": 1300,
-     "kd": 24
-    }
-   ],
-   "measured": "2026-10-16"
-  },
-  "womens-cat-do-not-disturb-biscuits-sweatpants": {
-   "claimed": [
-    "womens sweatpants",
-    "matching sweatsuit",
-    "sweatsuit set"
-   ],
-   "gaps_measured": [
-    {
-     "phrase": "womens sweatpants",
-     "volume": 49500,
-     "kd": 27
-    },
-    {
-     "phrase": "matching sweatsuit",
-     "volume": 3600,
-     "kd": 19
-    },
-    {
-     "phrase": "sweatsuit set",
-     "volume": 4400,
-     "kd": 22
-    }
-   ],
-   "measured": "2026-10-16"
-  },
-  "womens-christmas-french-bulldog-santas-cookies-what-cookies-graphic-tee": {
-   "claimed": [
-    "french bulldog tee"
-   ],
-   "gaps_measured": [
-    {
-     "phrase": "french bulldog tee",
-     "volume": 1000,
-     "kd": 40
-    }
-   ],
-   "measured": "2026-10-16"
-  },
-  "french-bulldog-santas-cookies-what-cookies-christmas-ornament": {
-   "claimed": [
-    "french bulldog christmas ornament"
-   ],
-   "gaps_measured": [
-    {
-     "phrase": "french bulldog christmas ornament",
-     "volume": 720,
-     "kd": 34
-    }
-   ],
-   "measured": "2026-10-16"
-  },
-  "womens-christmas-frenchie-im-helping-youre-welcome-graphic-tee": {
-   "claimed": [
-    "frenchie tshirt",
-    "frenchie t shirt"
-   ],
-   "gaps_measured": [
-    {
-     "phrase": "frenchie tshirt",
-     "volume": 1000,
-     "kd": 39
-    },
-    {
-     "phrase": "frenchie t shirt",
-     "volume": 1000,
-     "kd": 39
-    }
-   ],
-   "measured": "2026-10-16"
-  },
-  "french-bulldog-im-helping-youre-welcome-ornament": {
-   "claimed": [
-    "french bulldog ornament"
-   ],
-   "gaps_measured": [
-    {
-     "phrase": "french bulldog ornament",
-     "volume": 1300,
-     "kd": 26
-    }
-   ],
-   "measured": "2026-10-16"
-  },
-  "womens-christmas-family-credits-i-did-christmas-again-long-sleeve-tee": {
-   "claimed": [
-    "matching family christmas shirts"
-   ],
-   "gaps_measured": [
-    {
-     "phrase": "matching family christmas shirts",
-     "volume": 9900,
-     "kd": 56
-    }
-   ],
-   "measured": "2026-10-16"
-  },
-  "mens-christmas-family-credits-i-carried-the-tree-long-sleeve-tee": {
-   "claimed": [
-    "family christmas shirts"
-   ],
-   "gaps_measured": [
-    {
-     "phrase": "family christmas shirts",
-     "volume": 8100,
-     "kd": 55
-    }
-   ],
-   "measured": "2026-10-16"
-  },
-  "kids-christmas-family-credits-i-woke-everyone-up-youth-long-sleeve-tee": {
-   "claimed": [
-    "christmas long sleeve shirt"
-   ],
-   "gaps_measured": [
-    {
-     "phrase": "christmas long sleeve shirt",
-     "volume": 1000,
-     "kd": 62
-    }
-   ],
-   "measured": "2026-10-16"
-  },
-  "baby-christmas-family-credits-i-ate-the-bow-baby-bodysuit": {
-   "claimed": [
-    "christmas onesie",
-    "baby christmas outfit"
-   ],
-   "gaps_measured": [
-    {
-     "phrase": "christmas onesie",
-     "volume": 18100,
-     "kd": 40
-    },
-    {
-     "phrase": "baby christmas outfit",
-     "volume": 27100,
-     "kd": 44
-    }
-   ],
-   "measured": "2026-10-16"
-  },
-  "womens-hiking-here-for-the-view-not-the-incline-cropped-hoodie": {
-   "claimed": [
-    "crop top hoodie"
-   ],
-   "gaps_measured": [
-    {
-     "phrase": "crop top hoodie",
-     "volume": 8100,
-     "kd": 30
-    }
-   ],
-   "measured": "2026-10-16"
-  },
-  "unisex-bookish-do-not-sell-my-books-at-my-funeral-socks": {
-   "claimed": [
-    "bookish socks",
-    "book socks"
-   ],
-   "gaps_measured": [
-    {
-     "phrase": "bookish socks",
-     "volume": 2400,
-     "kd": 17
-    },
-    {
-     "phrase": "book socks",
-     "volume": 2400,
-     "kd": 26
-    }
-   ],
-   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
@@ -10579,22 +10226,5 @@
    }
   ],
   "measured": "2026-10-18"
- },
- "christmas-we-said-no-gifts-we-lied-mug": {
-  "claimed": [
-   "funny christmas mug"
-  ],
-  "gaps_measured": [
-   {
-    "phrase": "funny christmas mug",
-    "volume": 1000,
-    "kd": 60
-   },
-   {
-    "phrase": "white elephant mug",
-    "volume": 170,
-    "kd": 52
-   }
-  ]
  }
 }

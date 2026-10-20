@@ -16,9 +16,6 @@ export interface Guide {
   // and a crewneck that isn't live is left off, so the page never lists a product the store doesn't sell.
   picks?: PickGroup[];
   faqs: { q: string; a: string }[];
-  // Writer-lane articles start as drafts (not built, not linked, not in the sitemap); the director flips it to false on approval.
-  draft?: boolean;
-  cluster?: string; // e.g. 'hoodies' — see docs/clusters.md
 }
 
 export interface Pick {
@@ -29,7 +26,7 @@ export interface Pick {
 }
 export interface PickGroup { h2: string; body: string[]; items: Pick[]; links?: { href: string; text: string }[] }
 
-export const allGuides: Guide[] = [
+export const guides: Guide[] = [
   {
     // Gift guide (Claude 2026-10-19). RankHero: gifts for golfers 49,500/42 · golf gifts for men 22,200/40 · funny golf gifts 2,900/34.
     // Picks are A-grade designs only (quality reset); add golf socks, mugs and ornaments when they go live.
@@ -268,6 +265,3 @@ export const allGuides: Guide[] = [
     ],
   },
 ];
-
-// Only approved guides are built and linked.
-export const guides: Guide[] = allGuides.filter((g) => !g.draft);
