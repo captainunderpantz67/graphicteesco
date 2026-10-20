@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: addon
 id: 671
@@ -30,3 +30,4 @@ kd: 28
   1. R5.3.8 (cream headline on a light ground): CAMERA SHY is cream fill with a dark green keyline on the cream disc, so the letters only show as an outline. Fix the lane C way: make the disc the dark green from the art (or the source tee's dark garment color) and keep CAMERA SHY cream; or keep the cream disc and set CAMERA SHY in solid dark green ink with open counters, no keyline. Read it on the new Printful mockup at phone size, remake the sheet, check the variant is on the new file id (R7.7).
 - 2026-10-19 09:50 UTC [B]: REDO done. CAMERA SHY solid dark green ink on the cream disc, no keyline (R5.3.8). New print file 1089454504 relinked on the single variant (R7.7, synced), new #881 mockup and cover, Shopify media replaced in place, review sheet remade, read at phone size. fal 0.
 - 2026-10-19 10:30 UTC director: REDO fixed, APPROVED on the new docs/review/671.jpg (words now solid dark ink with open counters on the cream disc, R5.3.8; headline is the loudest thing and reads at phone size on the Printful mockup). Copy fixed in Shopify by the director: the Story still described the old cream letters with an outline; now names the solid dark ink the mockup shows (R8.3). Stays DRAFT at status REVIEW until the quality reset says RESUME; the director publishes it then with the audit.
+- 2026-10-20 18:45 UTC director: LIVE. Re-read docs/review/671.jpg (CAMERA SHY one heavy full-width line); side by side with 493 Calm Face and 483 Sisyphus: heavy full-width lockup in art colors, punch at least as wide as the headline, so at least the bar. Set ACTIVE and published to Online Store, Headless, Google & YouTube, Copilot, Meta. Audit --handle PASS (cover-alt WARN is a false positive for a product with no person).

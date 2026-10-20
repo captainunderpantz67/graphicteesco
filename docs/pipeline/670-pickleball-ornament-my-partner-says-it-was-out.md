@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: addon
 id: 670
@@ -28,3 +28,4 @@ kd: 26
 - 2026-10-19 07:36 UTC [B]: built. DRAFT gid 15366549864752, Printful #881 sync 482958875, 1/1 synced on file 1089412667 (954x954 circle file, scripts/ornament-print.py, spec in builder scratch; art from designs/e609/art.png, cream #f3e7cf fill, Alfa Slab One lockup MY PARTNER SAYS navy / IT WAS OUT. red with navy keyline, both sized to the chord of the 85% safe circle, line 1 about 86% and line 2 about 92% of the safe width). Cost $6.34, $14.99, no compare-at, profit ~$8.65 before shipping. Category hg-3-58-7 Holiday Ornaments. Keyword pickleball ornament 1,900/KD 26 recorded. FAQ 51-60 words, 629 words total. Cover: Printful flat #881 mockup (hole and string visible, no person), logged. Etsy duplicate check not possible offline: director please eyeball. Phone-size read OK. fal 0.
 - 2026-10-19 07:49 UTC [B]: reissued the print as file 1089420761 (v2: lockup moved below the string hole, art re-fit; scripts/b-ornament-print.py top_min 170), sync relinked 1/1, new Printful mockup swapped into the Shopify image in place (variant link and alt kept), cover and sheet remade.
 - 2026-10-19 08:20 UTC director: APPROVED on docs/review/670.jpg (lockup is the loudest thing, every word reads at phone size on the Printful mockup, no bare white ring; title, tags, $14.99 with no compare-at checked in Shopify). Copy fixed in Shopify by the director: SEO title cut to 60 or less and meta to 155 or less (R8.4). Stays DRAFT at status REVIEW until the quality reset says RESUME; the director publishes it then without a second review.
+- 2026-10-20 18:45 UTC director: LIVE. Re-read docs/review/670.jpg (IT WAS OUT. the widest line); side by side with 493 Calm Face and 483 Sisyphus: heavy full-width lockup in art colors, punch at least as wide as the headline, so at least the bar. Set ACTIVE and published to Online Store, Headless, Google & YouTube, Copilot, Meta. Audit --handle PASS (cover-alt WARN is a false positive for a product with no person).

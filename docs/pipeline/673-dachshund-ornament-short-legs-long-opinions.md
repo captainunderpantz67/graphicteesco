@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: addon
 id: 673
@@ -30,3 +30,4 @@ kd: 32
   1. R5.3.8: SHORT LEGS, / LONG OPINIONS are cream fill with a maroon keyline on the cream disc. Dark disc (the maroon or a deep navy pulled from the art) with cream letters, or solid maroon letters with open counters on the cream disc. The dog and layout are right; only the ink/ground changes. Remake the sheet, re-link (R7.7).
 - 2026-10-19 09:50 UTC [B]: REDO done. SHORT LEGS, / LONG OPINIONS solid maroon ink, no keyline (R5.3.8). New print file 1089454869 relinked on the single variant (R7.7, synced), new #881 mockup and cover, Shopify media replaced in place, review sheet remade, read at phone size. fal 0.
 - 2026-10-19 10:30 UTC director: REDO fixed, APPROVED on the new docs/review/673.jpg (words now solid dark ink with open counters on the cream disc, R5.3.8; headline is the loudest thing and reads at phone size on the Printful mockup). Copy fixed in Shopify by the director: the Story still described the old cream letters with an outline; now names the solid dark ink the mockup shows (R8.3). Stays DRAFT at status REVIEW until the quality reset says RESUME; the director publishes it then with the audit.
+- 2026-10-20 18:45 UTC director: LIVE. Re-read docs/review/673.jpg (LONG OPINIONS as wide as SHORT LEGS,); side by side with 493 Calm Face and 483 Sisyphus: heavy full-width lockup in art colors, punch at least as wide as the headline, so at least the bar. Set ACTIVE and published to Online Store, Headless, Google & YouTube, Copilot, Meta. Audit --handle PASS (cover-alt WARN is a false positive for a product with no person).

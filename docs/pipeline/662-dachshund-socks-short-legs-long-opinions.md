@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: addon
 id: 662
@@ -36,3 +36,4 @@ kd: 18
   4. Remake docs/review/662.jpg from the new mockups and log the sync file ids (R7.7) before REVIEW.
 - 2026-10-18 23:33 UTC [B] REDO fixes done: panel rebuilt with every line at full leg width (>=90% of 820 px), lockup+art fill cuff to ~1 in above heel; front placements use a 180-degree-rotated file (v2: 1089204665 back, 1089204672 rotated front), all 3 variants relinked (R7.7); mockup checked on both views, line reads upright on both socks. New Printful mockup replaces the Shopify image, cover 'front and back view', sheet docs/review/662.jpg. Story line 'lockup and main art on the leg' is true now. fal 0.
 - 2026-10-19 00:25 UTC director: APPROVED on docs/review/662.jpg (line upright on both mockup views, every word reads at phone size, lockup + art fill the leg; title, tags, $18.99 with no compare-at and FAQ checked in Shopify). Stays DRAFT at status REVIEW until the quality reset says RESUME; the director publishes it then without a second review. One copy fix before publish (builder or director, R8.3 no production words): in The Story, "with the lockup and the main art on the leg" -> "with the words and the main art on the leg".
+- 2026-10-20 18:45 UTC director: REDO (still DRAFT). R3.7.8 (punchline never the smallest line, 2026-10-20, newer than the 10-19 approval): on the leg OPINIONS is the smallest word, about half the width of LONG, so the punch reads as a caption on the mockup. Re-set LONG / OPINIONS. so OPINIONS is at least as wide as SHORT and LEGS, (it is the longest word: let it set the leg width, the others no bigger). Same font and red. New mockup + sheet.

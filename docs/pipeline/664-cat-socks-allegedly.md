@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: addon
 id: 664
@@ -33,3 +33,4 @@ kd: 28
   2. Foot repeat stays as is. New mockup + sheet; apply the "lockup" copy fix noted on #661 if the same paragraph is in this Story.
 - 2026-10-19 00:33 UTC [B] REDO #2 fixed: ONE cat (no repeat on leg), ALLEGEDLY. full leg width in heavy red Alfa Slab, foot repeat kept (file 1089242125 back, 1089242137 rotated front, 3/3 variants relinked R7.7); mockup upright both socks; Shopify image + alt replaced; Story copy updated (word/cat on the leg). Sheet docs/review/664.jpg. fal 0.
 - 2026-10-19 01:20 UTC director: APPROVED on docs/review/664.jpg (punch word now at full leg width, line upright on every mockup view, lockup + art fill the leg; title, copy (no 'lockup'), tags, $18.99 with no compare-at and FAQ checked in Shopify). Stays DRAFT at status REVIEW until the quality reset says RESUME; the director publishes it then without a second review.
+- 2026-10-20 18:45 UTC director: found ACTIVE in Shopify on 5 channels with no pipeline record (published outside a director run, probably during the 06c6ed6 rollback window); audit --handle PASS, status set LIVE to match the store. Approval of 2026-10-19 stands.

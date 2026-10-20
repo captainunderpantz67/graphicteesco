@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: addon
 id: 660
@@ -39,3 +39,4 @@ kd: 17
   1. Quality-reset bar (second line at least 45% of the headline's height) + R3.7.6: WINDSHIELD. is the punch word and is set as a tiny caption under a huge YOUR, so on the mockup it needs a squint. Re-set the lockup as SORRY / ABOUT / YOUR / WINDSHIELD. with WINDSHIELD. at full leg width (it is the longest word, so it sets the width) and the other three words no bigger than it. Same Fraunces navy. New mockup + sheet; also apply the "lockup" copy fix noted on #661.
 - 2026-10-19 00:33 UTC [B] REDO #2 fixed: lockup re-set as SORRY / ABOUT / YOUR / WINDSHIELD. all one size, WINDSHIELD. at full leg width (file 1089242107 back, 1089242114 rotated front, 3/3 variants relinked R7.7); mockup upright on both socks; Shopify image + alt replaced, 'lockup' copy fix applied (also in scripts/sock-copy.py, so #661-663/665 need the same one-word fix at publish). Sheet docs/review/660.jpg. fal 0.
 - 2026-10-19 01:20 UTC director: APPROVED on docs/review/660.jpg (punch word now at full leg width, line upright on every mockup view, lockup + art fill the leg; title, copy (no 'lockup'), tags, $18.99 with no compare-at and FAQ checked in Shopify). Stays DRAFT at status REVIEW until the quality reset says RESUME; the director publishes it then without a second review.
+- 2026-10-20 18:45 UTC director: found ACTIVE in Shopify on 5 channels with no pipeline record (published outside a director run, probably during the 06c6ed6 rollback window); audit --handle PASS, status set LIVE to match the store. Approval of 2026-10-19 stands.

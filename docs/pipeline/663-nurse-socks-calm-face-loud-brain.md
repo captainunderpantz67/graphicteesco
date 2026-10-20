@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: addon
 id: 663
@@ -36,3 +36,4 @@ kd: 22
   4. Remake docs/review/663.jpg from the new mockups and log the sync file ids (R7.7) before REVIEW.
 - 2026-10-18 23:33 UTC [B] REDO fixes done: panel rebuilt with every line at full leg width (>=90% of 820 px), lockup+art fill cuff to ~1 in above heel; front placements use a 180-degree-rotated file (v2: 1089204685 back, 1089204704 rotated front), all 3 variants relinked (R7.7); mockup checked on both views, line reads upright on both socks. New Printful mockup replaces the Shopify image, cover 'front and back view', sheet docs/review/663.jpg. Story line 'lockup and main art on the leg' is true now. fal 0.
 - 2026-10-19 00:25 UTC director: APPROVED on docs/review/663.jpg (line upright on both mockup views, every word reads at phone size, lockup + art fill the leg; title, tags, $18.99 with no compare-at and FAQ checked in Shopify). Stays DRAFT at status REVIEW until the quality reset says RESUME; the director publishes it then without a second review. One copy fix before publish (builder or director, R8.3 no production words): in The Story, "with the lockup and the main art on the leg" -> "with the words and the main art on the leg".
+- 2026-10-20 18:45 UTC director: found ACTIVE in Shopify on 5 channels with no pipeline record (published outside a director run, probably during the 06c6ed6 rollback window); audit --handle PASS, status set LIVE to match the store. Approval of 2026-10-19 stands.
