@@ -1,5 +1,5 @@
 {
- "at": "2026-10-20T07:38:49.864Z",
+ "at": "2026-10-20T07:49:32.898Z",
  "products": 609,
  "findings": [
   {
@@ -82,14 +82,14 @@
   {
    "level": "WARN",
    "handle": "unisex-thanksgiving-laying-low-till-friday-turkey-hoodie",
-   "title": "Unisex Thanksgiving – Laying Low Till Friday Hoodie",
+   "title": "Unisex Thanksgiving – No Turkey Here, Just a Guy in a Hoodie",
    "msg": "thanksgiving design isn't in any thanksgiving collection.",
    "fix": "Tag it so it appears in the thanksgiving shirts page."
   },
   {
    "level": "WARN",
    "handle": "unisex-thanksgiving-laying-low-till-friday-turkey-hoodie",
-   "title": "Unisex Thanksgiving – Laying Low Till Friday Hoodie",
+   "title": "Unisex Thanksgiving – No Turkey Here, Just a Guy in a Hoodie",
    "msg": "\"turkey hoodie\" appears 6× in the copy (keyword stuffing).",
    "fix": "Use it once or twice, naturally."
   },
@@ -201,7 +201,7 @@
   {
    "level": "WARN",
    "handle": "mens-grandpa-i-fix-things-after-naps-hoodie",
-   "title": "Men's Grandpa – I'm Fixing It Hoodie",
+   "title": "Men's Grandpa – I'm Fixing It, Eyes Closed Hoodie",
    "msg": "No SEO title.",
    "fix": "Write one ≤ 60 chars with the primary keyword."
   },

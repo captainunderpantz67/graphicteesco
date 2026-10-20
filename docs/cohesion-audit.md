@@ -1,4 +1,4 @@
-# Cohesion audit — 2026-10-20 07:38 UTC
+# Cohesion audit — 2026-10-20 07:49 UTC
 
 609 live products checked · **0 errors** · 31 warnings · 29 products with findings
 
@@ -40,7 +40,7 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Women's Thanksgiving – Friendsgiving Hoodie `womens-thanksgiving-friendsgiving-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
 
-### Unisex Thanksgiving – Laying Low Till Friday Hoodie `unisex-thanksgiving-laying-low-till-friday-turkey-hoodie`
+### Unisex Thanksgiving – No Turkey Here, Just a Guy in a Hoodie `unisex-thanksgiving-laying-low-till-friday-turkey-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
 - **WARN** "turkey hoodie" appears 6× in the copy (keyword stuffing). → Use it once or twice, naturally.
 
@@ -87,7 +87,7 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Women's Nurse – Embroidered Awake. Regrettably. Crewneck Sweatshirt `womens-nurse-embroidered-night-shift-silly-goose-crewneck-sweatshirt`
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
 
-### Men's Grandpa – I'm Fixing It Hoodie `mens-grandpa-i-fix-things-after-naps-hoodie`
+### Men's Grandpa – I'm Fixing It, Eyes Closed Hoodie `mens-grandpa-i-fix-things-after-naps-hoodie`
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
 
 ### Unisex Pitbull – The Belly Is Open Hoodie `unisex-pitbull-velvet-hippo-social-club-hoodie`
