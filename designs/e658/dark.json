@@ -1,0 +1,3 @@
+{"art":"designs/e658/art_r.png","out":"designs/e658/print_dark.png","W":3600,"art_w":0.62,"knock":0,"solid":true,"overlap":0.04,"gap":40,
+"top":{"font":"AlfaSlabOne-Regular.ttf","text":"DID YOU CHANGE","w":0.92,"fill":"#f6ecd6","stroke":16,"sfill":"#1c2a4a"},
+"bottom":{"font":"AlfaSlabOne-Regular.ttf","text":"THE FILTER?","w":1.0,"fill":"#e0a63a","stroke":10,"sfill":"#1c2a4a"}}

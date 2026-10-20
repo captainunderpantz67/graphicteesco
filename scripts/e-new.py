@@ -25,7 +25,7 @@ open(d + '/sync.sh', 'w').write(sh)
 subprocess.Popen(['bash', d + '/sync.sh'], start_new_session=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 M = {'Black': 4017, 'Navy': 4112, 'Dark Grey Heather': 8461, 'Heather Forest': 8489, 'Maroon': 4107, 'Steel Blue': 4162, 'Natural': 14683, 'Ash': 4027, 'Athletic Heather': 6949}
 env = dict(os.environ, FW='1650', TOP='75'); media = []
-for c, v in M.items():
+for c, v in [(c, M[c]) for c in DARK + LIGHT]:
     x = ids['dark' if c in DARK else 'light']; out = f"{d}/m/mock_{c.replace(' ', '_')}.json"
     for t in range(3):
         r = subprocess.run([sys.executable, 'scripts/pf-mockup.py', '71', x['url'], str(x['w']), str(x['h']), '-', str(v), out], env=env, stdout=subprocess.DEVNULL)

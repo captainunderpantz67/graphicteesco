@@ -1,4 +1,5 @@
-status: BUILDING [E]
+status: REVIEW
+shopify: gid://shopify/Product/15369757851952
 lane: E
 type: new
 id: 658
@@ -27,3 +28,4 @@ kd: 30
 ---
 ## Log
 - 2026-10-18 16:21 UTC director: brief written, READY (lane E; kd 30; KD ≤ 20 band has no unclaimed phrase with a competition count in this run's sweep of 70+ trade, hobby and dad phrases (darts shirt 14,800/10 has no competition count, R2.10), so KD 21–35 first; proof named under the gate).
+- 2026-10-20 UTC builder [E]: built and set REVIEW. Art: 2 Recraft calls ($0.08; first had the tech facing away and a crumpled-paper filter, retry front-facing); the retry ran off the canvas at the bottom and left, so print-prep + designs/rough2.py (depth 45) gave it worn edges before the lockup. Shopify DRAFT gid 15369757851952, Printful sync 483384746, 56/56 synced: 35 on file 1090371221 (Black, Navy, Dark Grey Heather, Heather Forest, Steel Blue; cream DID YOU CHANGE with navy keyline, mustard THE FILTER?) + 21 on file 1090371268 (Natural, Ash, Athletic Heather; light file: headline fill navy, punch red, no keyline), back logo on all 56. Brief said Steel Blue as the fifth dark color (not Maroon). FW 1650 TOP 75. Widths: headline 3333 px / punch 3488 px on dark (105%), 3301 / 3469 on light (105%); punch is the larger line. Navy shirt and the figure's navy shading blend a little, the red shirt and cap carry the figure. Phone-size read on all 8 mockups: both lines legible. Keywords: hvac shirt 590/28 primary (funny hvac shirt measured KD 52, not used). FAQs 5 at 49-53 words plus fit. Cover: none (R6.11 hold), handle in retired-covers.json. Proof: brief names #581's 557-favorite same-format listing. Etsy exact-line check not possible from here.
