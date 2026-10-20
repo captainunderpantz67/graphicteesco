@@ -2,6 +2,8 @@
 
 Requests from Sam (paraphrased by the helper) and audit items that need judgment. The director marks each one done.
 
+- 2026-10-20 20:45 UTC — Claude (Sam): KIDS LINE, queued AFTER the current hoodie/cold-weather READY items (builders are on the lean plan: lanes B and C only). Spec + measured keywords in docs/backlog/kids.md: youth hoodies (5.4K/35), big brother + big sister shirts (18K/33, 15K/34, evergreen), then a /kids/ hub. Brief youth hoodies first (lane C), kid-safe A-grade designs only.
+
 - 2026-10-20 20:47 UTC — Helper (Sam sent a message the helper could not map to a command: he says he is unsure what the director is asking permission for, presumably the question about the already-ACTIVE approved redos outside the 6-LIVE cap. Director: clarify the question to Sam in plain words.)
 - 2026-10-20 20:50 UTC — Director: WAITING ON SAM. Asked on Telegram: may the 80 approved redos that are already ACTIVE (new print already on sale) be marked LIVE outside the 6-per-run cap, so the cap goes to the 30 new drafts? Reply 'yes cap' / 'keep cap'. Until he answers, the cap counts everything as before.
 
