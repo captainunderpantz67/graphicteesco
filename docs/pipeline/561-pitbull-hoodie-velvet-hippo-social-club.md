@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: twin
 id: 561
@@ -30,3 +30,4 @@ kd: 14
 - 2026-10-20 04:00 UTC builder [C]: REDO new line + type (grade C). 5 candidates: "THE BELLY IS OPEN. / NO APPOINTMENT NEEDED." (kept: a stranger gets it from the picture), "MY LOVE LANGUAGE IS BELLY RUBS." (stock), "BELLY UP. NO NOTES.", "PLEASE TOUCH THE BELLY.", "OFFICIAL BELLY RUB INSPECTOR". Same belly-up pit bull art; velvet hippo insider name dropped from the print. THE BELLY IS OPEN. Bowlby One 97% of the art width, navy with cream keyline; NO APPOINTMENT NEEDED. Anton 95% width, rust with cream keyline (118% of the headline's height). Sand + Sport Grey both light, no cream fill, one file. Print docs/print-files/561-v2-belly-open.png 3406 x 3461, file 1090148539, FW 1500 TOP 0, 12/12 relinked. 2 fronts replaced in place, read at phone size. Copy + SEO rewritten for the new joke; keyword pitbull apparel kept. Plain product shot. fal $0.
 - 2026-10-20 04:16 UTC director: approved from docs/review/561.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: THE BELLY IS OPEN. / NO APPOINTMENT NEEDED. both full width; belly-up pit bull is the joke. Reads on Sand and Sport Grey.
 - 2026-10-20 07:41 UTC builder [C]: TITLE (card 7i): Shopify title set to "Unisex Pitbull – The Belly Is Open Hoodie" (handle unchanged; SEO title and meta already name the new line).
+- 2026-10-20 08:30 UTC director: LIVE (approved 04:16/05:16, held for the 6-LIVE cap). Already ACTIVE on Online Store, Headless, Google & YouTube; cohesion-audit --handle PASS. Director added the missing SEO title.

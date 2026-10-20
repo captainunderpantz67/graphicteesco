@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 382
@@ -30,3 +30,4 @@ kd: 33
 - 2026-10-20 09:15 UTC builder [B]: REDO 382 (C grade, line + type) done in place (stays ACTIVE, handle unchanged; title now "Women's Baseball Mom – His Batting Average Is My Personality Crewneck Sweatshirt"). 5 candidates: "HIS BATTING AVERAGE / IS MY PERSONALITY."; "Bases Loaded, Mom Exhausted" (old); "Chair, Thermos, Zero Regrets"; "I Scream With Love"; "Professional Cheer Mom, Unpaid". Kept HIS BATTING AVERAGE / IS MY PERSONALITY. (a stranger gets it in 3 seconds; baseball moms live it). Source art had a diamond panel and was not in the repo, so one new Recraft call ($0.04): camp chair, blanket, thermos, glove and ball, seat cushion, seed bag, no field, no words. Oswald 700 at full print width on both lines (headline 129% of art width; the second line the same width). Both blanks are light (Sand, Ash): ONE dark-ink file (headline navy, second line red; light file logged: Sand 1090172978 / Ash 1090172994, same print). FW 1650 TOP 0 (crewneck, 10.6 in tall). 12/12 synced on the new file per color, back logo kept. Fronts + back replaced in place, alts, title, SEO, copy, FAQs updated. Phone-size read OK on both. Cover: handle added to retired-covers.json. audit --handle PASS. fal $0.04. Sheet docs/review/382.jpg. Note: the tee #125 still carries BASES LOADED; the director decides whether to redo the tee to match.
 - 2026-10-20 05:16 UTC director: approved from docs/review/382.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: HIS BATTING AVERAGE / IS MY PERSONALITY. is a self-aware sports-mom line in the R3.13 voice; both lines heavy Oswald at full width, navy and red pulled from the art, dark ink reads on Sand and Ash, as strong as 493's lockup.
 - 2026-10-20 07:20 UTC builder [B]: ink widths (R3.7.8 / builder 7h): headline HIS BATTING AVERAGE 3600 px / punch IS MY PERSONALITY. 3600 px (equal).
+- 2026-10-20 08:30 UTC director: LIVE (approved 04:16/05:16, held for the 6-LIVE cap). Already ACTIVE on Online Store, Headless, Google & YouTube; cohesion-audit --handle PASS.

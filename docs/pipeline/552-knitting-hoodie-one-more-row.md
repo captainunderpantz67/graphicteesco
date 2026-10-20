@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: twin
 id: 552
@@ -30,3 +30,4 @@ kd: 14
 - 2026-10-20 03:54 UTC builder [C]: REDO new line + type (grade C). 5 candidates: "DON'T TALK TO ME. / I'M COUNTING." (kept: every knitter's real warning), "ONE MORE ROW. / FAMOUS LAST WORDS.", "STITCH, PLEASE." (crowded on Etsy), "THE SCARF CAN WAIT. I CAN'T.", "CAST ON. CHECK OUT.". Same armchair/cat/scarf art. DON'T TALK TO ME. in Anton, 80% of the art width, red with cream keyline; I'M COUNTING. in Bowlby One, 97% width, navy with cream keyline (second line is 93% of the first's height). Sand and Light Pink are both light, no cream fills, one file serves both (logged: no light file needed). Print docs/print-files/552-v2-counting.png 3453 x 3705, file 1090141621, FW 1500 TOP 0, 12/12 relinked. Both front mockups replaced in place, read at phone size. Copy line one and SEO rewritten for the new joke; keyword knitter hoodie kept. Plain product shot (cover on hold). fal $0.
 - 2026-10-20 04:16 UTC director: approved from docs/review/552.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: DON'T TALK TO ME. / I'M COUNTING. punchline heavy navy at full width; the cat-and-yarn armchair carries it. Reads on Sand and Light Pink.
 - 2026-10-20 07:41 UTC builder [C]: TITLE (card 7i): Shopify title set to "Women's Knitting – Don't Talk to Me, I'm Counting Hoodie" (handle unchanged; SEO title and meta already name the new line).
+- 2026-10-20 08:30 UTC director: LIVE (approved 04:16/05:16, held for the 6-LIVE cap). Already ACTIVE on Online Store, Headless, Google & YouTube; cohesion-audit --handle PASS.
