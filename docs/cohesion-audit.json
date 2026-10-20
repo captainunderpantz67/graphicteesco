@@ -1,6 +1,6 @@
 {
- "at": "2026-10-20T18:47:22.100Z",
- "products": 624,
+ "at": "2026-10-20T19:48:47.690Z",
+ "products": 630,
  "findings": [
   {
    "level": "WARN",
@@ -319,6 +319,13 @@
   },
   {
    "level": "WARN",
+   "handle": "hockey-cold-rink-hot-takes-ornament",
+   "title": "Hockey – Cold Rink, Hot Takes Ornament",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
    "handle": "dachshund-short-legs-long-opinions-ornament",
    "title": "Dachshund – Short Legs, Long Opinions Ornament",
    "msg": "Cover alt text doesn't say who is in the photo.",
@@ -326,8 +333,43 @@
   },
   {
    "level": "WARN",
+   "handle": "horse-horse-girl-broke-on-purpose-ornament",
+   "title": "Horse – Horse Girl, Broke on Purpose Ornament",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "welder-i-basically-hot-glue-metal-ornament",
+   "title": "Welder – I Basically Hot Glue Metal Ornament",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "nana-mom-said-no-thats-cute-ornament",
+   "title": "Nana – Mom Said No? That's Cute Ornament",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "running-i-only-run-downhill-ornament",
+   "title": "Running – I Only Run Downhill Ornament",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
    "handle": "alien-visiting-not-impressed-ornament",
    "title": "Alien – Visiting, Not Impressed Ornament",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "golf-not-cheating-improving-my-lie-ornament",
+   "title": "Golf – Not Cheating, Improving My Lie Ornament",
    "msg": "Cover alt text doesn't say who is in the photo.",
    "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
   },

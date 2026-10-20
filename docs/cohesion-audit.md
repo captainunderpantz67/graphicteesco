@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-20 18:47 UTC
+# Cohesion audit — 2026-10-20 19:48 UTC
 
-624 live products checked · **0 errors** · 50 warnings · 45 products with findings
+630 live products checked · **0 errors** · 56 warnings · 51 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -134,10 +134,28 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Sasquatch – Camera Shy Ornament `sasquatch-camera-shy-ornament`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 
+### Hockey – Cold Rink, Hot Takes Ornament `hockey-cold-rink-hot-takes-ornament`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
 ### Dachshund – Short Legs, Long Opinions Ornament `dachshund-short-legs-long-opinions-ornament`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 
+### Horse – Horse Girl, Broke on Purpose Ornament `horse-horse-girl-broke-on-purpose-ornament`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
+### Welder – I Basically Hot Glue Metal Ornament `welder-i-basically-hot-glue-metal-ornament`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
+### Nana – Mom Said No? That's Cute Ornament `nana-mom-said-no-thats-cute-ornament`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
+### Running – I Only Run Downhill Ornament `running-i-only-run-downhill-ornament`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
 ### Alien – Visiting, Not Impressed Ornament `alien-visiting-not-impressed-ornament`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
+### Golf – Not Cheating, Improving My Lie Ornament `golf-not-cheating-improving-my-lie-ornament`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 
 ### Women's Outdoorsy – Outdoorsy in Theory Cropped Hoodie `womens-outdoorsy-in-theory-cropped-hoodie`
