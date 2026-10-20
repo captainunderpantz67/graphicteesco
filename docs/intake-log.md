@@ -1,6 +1,6 @@
-RUNNING helper since 2026-10-20 05:44 UTC
 RUNNING lane B since 2026-10-20 05:30 UTC
 RUNNING lane C since 2026-10-20 05:30 UTC
+2026-10-20 05:45 UTC — [H] Helper run: Telegram inbox empty (getUpdates returned 0 updates, nothing to consume). Audit 608 products: 0 errors, 30 warnings left alone (polish); committed docs/cohesion-audit.md and .json (npm ci first, esbuild was missing). Category check: 0 products without a Shopify category. Site check: #649, #356, #326 all 200 (first try used filename slugs, which are not the handles; real handles are in each pipeline file). Stuck-work check: nothing BUILDING over 3h (#332 claimed 05:44 by lane A, #341 05:41 by lane C). Announcement bar already on the holiday line. Daily summary not due (before 12:00 UTC). Lock released.
 2026-10-20 05:41 UTC — [C] Builder run: redid #506 Men's Golf retired zip hoodie (new line + type: CLOCKED OUT. / TEED UP., Bowlby One + Alfa Slab, same backyard art, Ash file 1090187094 + Navy file 1090187130, BW 1650 BT 225, 12/12 relinked, 2 back mockups replaced in place, copy + SEO updated, plain product shot). REVIEW. fal $0.
 RUNNING lane E since 2026-10-20 05:16 UTC
 2026-10-20 05:32 UTC — [E] Builder run: redid #388 Women's Christmas crewneck again (every calendar day box now filled: cream square, red X, so it reads booked; line kept SORRY, I'M BOOKED / TILL JANUARY.; Navy + Sand files, 12/12 synced). REVIEW. fal $0.
