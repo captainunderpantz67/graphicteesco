@@ -10720,6 +10720,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-construction-not-leaning-supervising-hoodie": {
+   "claimed": [
+    "construction hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "construction hoodie",
+     "volume": 720,
+     "kd": 25
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
