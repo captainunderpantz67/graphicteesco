@@ -23,14 +23,14 @@ src=Image.open('docs/print-files/495-rest-day-sacred-quest.png').convert('RGBA')
 W=src.width; art=src.crop((0,356,W,3141))
 import sys
 NV=len(sys.argv)>1
-h1=line("LEG DAY CLAIMED",'Cinzel[wght].ttf',0.97,W,CREAM if NV else BROWN,BROWN if NV else CREAM,kw=27,var=[900])
-h2=line("ANOTHER KNIGHT.",'Bevan-Regular.ttf',0.97,W,RUST,CREAM,kw=19,track=14)
+h1=line("SKIPPED LEG DAY.",'BigShouldersDisplay[wght].ttf',0.97,W,CREAM if NV else BROWN,BROWN if NV else CREAM,kw=27,var=[900])
+h2=line("BLAMING THE ARMOR.",'Fraunces[SOFT,WONK,opsz,wght].ttf',0.97,W,RUST,CREAM,kw=23,var=[9,900,40,1])
 print('h1',h1.size,'h2',h2.size,'ratio h2/h1',h2.height/h1.height)
 g=34; H=h1.height+g+art.height+g+h2.height
 out=Image.new('RGBA',(W,H),(0,0,0,0))
 out.alpha_composite(h1,((W-h1.width)//2,0)); y=h1.height+g
 out.alpha_composite(art,(0,y)); y+=art.height+g
 out.alpha_composite(h2,((W-h2.width)//2,y))
-out.save('docs/print-files/495-v2-leg-day%s.png'%('-navy' if NV else '')); print(out.size,H/W)
+out.save('docs/print-files/495-v3-skipped%s.png'%('-navy' if NV else '')); print(out.size,H/W)
 for n,c in ((('navy',(38,50,88,255)),) if NV else (('sand',(214,196,160,255)),('navy0',(38,50,88,255)))):
-    bg=Image.new('RGBA',out.size,c); bg.alpha_composite(out); bg.convert('RGB').resize((600,int(600*H/W))).save(f'designs/c495/prev_{n}.png')
+    bg=Image.new('RGBA',out.size,c); bg.alpha_composite(out); bg.convert('RGB').resize((600,int(600*H/W))).save(f'designs/c495/prev3_{n}.png')
