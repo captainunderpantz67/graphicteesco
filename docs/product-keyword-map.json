@@ -9370,16 +9370,22 @@
   },
   "womens-christmas-santa-gets-all-the-credit-crewneck-sweatshirt": {
    "claimed": [
-    "christmas gifts for wife"
+    "christmas gifts for wife",
+    "christmas sweatshirt for wife"
    ],
    "gaps_measured": [
     {
      "phrase": "christmas gifts for wife",
      "volume": 40500,
      "kd": 8
+    },
+    {
+     "phrase": "christmas sweatshirt for wife",
+     "volume": 0,
+     "kd": 0
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "unisex-christmas-we-said-no-gifts-graphic-tee": {
    "claimed": [

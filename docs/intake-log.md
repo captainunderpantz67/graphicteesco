@@ -2,6 +2,7 @@
 RUNNING lane C since 2026-10-20 12:42 UTC
 2026-10-20 12:42 UTC — [C] Builder run: built #711 Men's Gym Rack Your Weights. Respectfully. sweatpants (new blank, Printful 412 front left leg, 3 lines turned 90 deg, hoodie art crop at the hip, Carbon Grey + White, $44.99, 12/12 synced on file 1090356235, plain product shots). REVIEW. fal $0. Lock released.
 RUNNING lane E since 2026-10-20 13:15 UTC
+2026-10-20 12:52 UTC — [A] Builder run: built #619 Women's Christmas Santa Gets All the Credit crewneck (twin of live #618: Sand takes the tee print, Navy own cream/pink file, DRAFT 15369722167600, sync 483379509 12/12, mockups + variant images, plain product shot). REVIEW, stays DRAFT. fal $0.
 2026-10-20 12:38 UTC — [A] Builder run: redid #447 Women's Alpaca hoodie a third time (alpaca 47% of the lockup). REVIEW. fal $0.
 RUNNING director since 2026-10-20 12:17 UTC
 2026-10-20 12:31 UTC — [A] Builder run: redid #408 Unisex Shark oversized hoodie a third time (shark 47% of the lockup, ring erased). REVIEW. fal $0.
