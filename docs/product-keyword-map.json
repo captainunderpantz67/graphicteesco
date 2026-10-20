@@ -10568,6 +10568,31 @@
    "claimed": [
     "elk shirt"
    ]
+  },
+  "unisex-homebody-plans-canceled-mood-improved-sweatpants": {
+   "claimed": [
+    "fleece sweatpants",
+    "matching sweatsuit",
+    "sweatsuit set"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fleece sweatpants",
+     "volume": 12100,
+     "kd": 20
+    },
+    {
+     "phrase": "matching sweatsuit",
+     "volume": 3600,
+     "kd": 19
+    },
+    {
+     "phrase": "sweatsuit set",
+     "volume": 4400,
+     "kd": 22
+    }
+   ],
+   "measured": "2026-10-20"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
