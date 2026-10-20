@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [C] 2026-10-20 23:59 UTC
 lane: C
 type: new
 id: 769
