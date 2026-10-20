@@ -10657,6 +10657,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-camping-slept-outside-have-notes-hoodie": {
+   "claimed": [
+    "camp hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "camp hoodie",
+     "volume": 2400,
+     "kd": 38
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
