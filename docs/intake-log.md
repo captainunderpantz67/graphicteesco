@@ -1,5 +1,6 @@
 RUNNING lane B since 2026-10-20 03:28 UTC
 RUNNING lane C since 2026-10-20 03:23 UTC
+2026-10-20 03:52 UTC — [C] Builder run: redid #635 Women's Fishing Out-Fished Him. Again. zip hoodie (type only: AGAIN. in Bowlby One heavy, navy on Ash / cream+red keyline on Navy, same art, back files 1090135325 / 1090135337, 12/12 relinked, 2 back mockups replaced in place, copy updated, plain product shot). REVIEW. fal $0.
 2026-10-20 03:20 UTC — [D] Director run: 6 LIVE (#548 #578 #618 #336 #414 #474, audit PASS each), 7 new redos approved and held (#205 #217 #219 #326 #356 #358 #650), 2 REDO (#216 line + shape, #507 R4.1 panel edges), lane E refilled to 12 READY with briefs #704–#710 (crop top hoodie, knitting sweatshirt, knitting shirt, mtb shirt, bouldering shirt, skiing shirt, climbing shirt). Inbox: nothing new. No digest (not due). Lock released.
 2026-10-20 04:16 UTC — [E] Builder run: redid #366 Women's Beach oversized hoodie (line + type: SHELLFISH ON PURPOSE., new crab art, Navy + Dust files, 12/12 synced, copy updated, plain product shot). REVIEW. fal $0.04.
 RUNNING director since 2026-10-20 03:12 UTC

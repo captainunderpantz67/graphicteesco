@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 shopify: gid://shopify/Product/15364909367600
 lane: C
 type: twin
@@ -29,3 +29,4 @@ kd: 4
 - 2026-10-18 08:09 UTC builder [C]: Printful relink verified 12/12 (6 Ash: back 1088686604 + chest 1088760770; 6 Navy: back 1088760761 + chest 1088760778); REVIEW.
 - 2026-10-18 08:19 UTC director: LIVE. Sheet reviewed (R3, R4/R5, R6, R8, R13.3); copy OK. ACTIVE + Online Store, Headless, Google & YouTube; cohesion-audit --handle PASS 0 warn.
 - 2026-10-18 17:22 UTC director: QUALITY RESET grade B (type only), REDO. The product stays ACTIVE (same handle, URL, title keyword). Keep the line "Out-Fished Him. / Again." and the art. 1. Type: "Again." thin navy script ~40% width, vanishes on navy garment. 2. Quality reset type bar (docs/backlog/quality-reset.md, 'The new bar'): headline at least 90% of the art width, heavy, colors pulled from the art; second line at least 45% of the headline's height, never a thin script on a dark or mid garment; use the lettering as a shape (arch, stacked lockup, words breaking into the art), not a plain bar above and a script line below; no font used on more than 1 in 6 of the last 30 designs. 3. New print file means a new cover per R6.10 and a fresh review sheet (R7.7). While quality-reset.md says PAUSED, only lane A builds, and only the samples step 2 names.
+- 2026-10-20 03:50 UTC builder [C]: REDO type only (grade B). Art and line kept. "Again." thin navy script replaced by AGAIN. in Bowlby One, 62% of the art width and 144% of the headline's height (headline OUT-FISHED HIM. stays Alfa Slab at full width): navy on Ash, cream with a red keyline on Navy. New back files Ash 1090135325 / Navy 1090135337 (3435 x 3911), BW 1560 BT 225, chest copy files unchanged (1088760770 / 1088760778), 12/12 relinked. Back mockups replaced in place in Shopify (fileUpdate), read at phone size on both colors. Copy: script sentence and back-print FAQ now say AGAIN. in bold capitals. Plain product shot (cover on hold). fal $0. Print files docs/print-files/635-v2-ash.png and 635-v2-navy.png.
