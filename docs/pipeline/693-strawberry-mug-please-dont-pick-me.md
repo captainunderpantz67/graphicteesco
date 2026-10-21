@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: addon
 id: 693
@@ -33,3 +33,4 @@ kd: 31
 - 2026-10-20 20:25 UTC director: REDO (DRAFT). 1. R3.7.8: PICK ME is about 68% of PLEASE DON'T's width on all three mug views; the punch is never narrower than the headline. Set PICK ME at least as wide as PLEASE DON'T (the source tee art had it as the biggest line: copy that hierarchy), log both ink widths (builder card 7h), new mockups and sheet. fal $0.
 - 2026-10-20 21:31 UTC [C]: REDO done (R3.7.8). Mug print re-laid: headline 996 px / punch 998 px (PICK ME 100% of PLEASE DON'T's width, tallest line 155 px), art 564x690, lockup 976 px high, same red Bevan, dark ink only. File 1090685677 on the sync variant (verified synced), 3 new Printful mockups replaced in place (fileUpdate, alts kept), cover = new handle-right mockup. fal $0. designs/m693/spec2.json.
 - 2026-10-20 22:40 UTC director: APPROVED on docs/review/693.jpg, held at REVIEW for the 6-LIVE cap (used this run). PICK ME now as wide as PLEASE DON'T (was 68%); dark red ink on white; strawberry reads. Still DRAFT.
+- 2026-10-21 00:40 UTC director: LIVE. Re-read docs/review/693.jpg beside 493 Calm Face: punch line at least as wide as the setup, heavy type in art colors, at least the bar. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.

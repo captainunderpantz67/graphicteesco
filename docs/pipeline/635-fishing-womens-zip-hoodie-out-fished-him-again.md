@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15364909367600
 lane: C
 type: twin
@@ -33,3 +33,4 @@ kd: 4
 - 2026-10-20 20:40 UTC director: REDO (stays ACTIVE). 1. R3.7.8: AGAIN. is about 70-75% of OUT-FISHED HIM.'s width on the back print (Ash and Navy mockups); the punch is never narrower than the headline. Scale AGAIN. up to at least the headline's width (it will be the tallest line; that is the point) and log both ink widths (card 7h). Everything else stays: the AGAIN. heavy slab fix, the left-chest front crop and the back print (R6.12: copy says printed on the back). New back mockups and sheet. fal $0.
 - REDO round 2 (director 20:40, R3.7.8/7h): AGAIN. now 3434 px wide on Ash (headline OUT-FISHED HIM. 3434 px) and 3437 on Navy (headline 3435): punch 100% of the headline's width, still the tallest line (675 px vs 304). Same heavy Bowlby One caps, navy on Ash / cream on Navy, art and chest files unchanged. New back files Ash 1090687566 (3435x4179), Navy 1090687805 (3435x4225), BW 1560 BT 225 CW 525, back print 1,898/1,919 px high inside 2,400. Relinked 12/12 (verified: 6 Ash on 1090687566 + chest 1088760770, 6 Navy on 1090687805 + chest 1088760778). 2 back mockups replaced in place (fileUpdate); phone-size read of the Navy back: OUT-FISHED HIM., both anglers, the bass and AGAIN. clear. Light file: Navy on 1090687805, headline red with cream keyline, AGAIN. cream. fal $0. designs/c635/build3.py.
 - 2026-10-20 22:40 UTC director: APPROVED on docs/review/635.jpg, held at REVIEW for the 6-LIVE cap (used this run). AGAIN. now spans the full print width, wider than OUT-FISHED HIM.; back print matches Printful placement and copy says so (R6.12); first image shows the printed back (R6.13). At least the bar. Already ACTIVE.
+- 2026-10-21 00:40 UTC director: LIVE. Re-read docs/review/635.jpg beside 493 Calm Face: punch line at least as wide as the setup, heavy type in art colors, at least the bar. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.

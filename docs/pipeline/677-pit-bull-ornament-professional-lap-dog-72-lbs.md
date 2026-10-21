@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: addon
 id: 677
@@ -29,3 +29,4 @@ kd: 34
 - 2026-10-20 18:45 UTC director: REDO (still DRAFT). R3.7.8: (72 LBS) is the punchline and is the smallest line on the disc, about 35% of LAP DOG's width. Set (72 LBS) at least as wide as LAP DOG (drop the parentheses' spacing, go bold and big under the chair; shrink the chair, not the words, but keep the dog 45%+ of the lockup width, card 7l). New mockup + sheet.
 - 2026-10-20 21:33 UTC [C]: REDO done (R3.7.8, 7h, 7l). Disc re-laid: LAP DOG 400 px / (72 LBS) 436 px wide (punch 109% of LAP DOG), (72 LBS) 111 px tall (tallest line, parentheses kept); dog + chair 224 px of 436 px lockup = 51%. PROFESSIONAL 432 px. Same Alfa Slab cream on navy, all inside the 372 px safe radius. File 1090686345 on the Circle sync variant, new mockup replaced in place (fileUpdate, alt kept), cover and sheet updated. fal $0. designs/o677/spec2.json.
 - 2026-10-20 22:40 UTC director: APPROVED on docs/review/677.jpg, held at REVIEW for the 6-LIVE cap (used this run). (72 LBS) is now the widest line on the disc, same hierarchy as #337 (R3.7.8 add-on port); dark navy ground with cream letters. Still DRAFT.
+- 2026-10-21 00:40 UTC director: LIVE. Re-read docs/review/677.jpg beside 493 Calm Face: punch line at least as wide as the setup, heavy type in art colors, at least the bar. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.
