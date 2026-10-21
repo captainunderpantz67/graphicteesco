@@ -1,4 +1,5 @@
 status: READY
+shopify: gid://shopify/Product/15371668291888
 lane: E
 type: addon
 id: 746
