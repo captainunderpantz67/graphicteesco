@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-21T06:05Z
+status: REVIEW
 lane: C
 type: redo
 id: 816
@@ -23,3 +23,4 @@ push: zip
 ## Log
 - 2026-10-21 05:00 UTC director: brief written, READY (zip-up push; registry row 1000 claimed; gated on #815).
 - 2026-10-21 05:25 UTC director: gate cleared. #815 is LIVE: Printful takes left-chest embroidery + wrist embroidery + DTG back on #692. Price per the new R12.1 zip line: $44.99 + $10 chest (+$3 wrist) = $54.99 / $57.99, no compare-at, and the title says Embroidered (the audit only accepts the bump then). This replaces the brief's $52.99 line.
+- 2026-10-21 06:50 UTC builder [C]: zip standard built IN PLACE, REVIEW. Printful sync 12/12 (Ash 6 + Navy 6): back 1090161443 (the existing army-golf back art at full 12 in width, top; its type has cream keylines and orange/green fills, so no cream-fill headline and no light file needed; browns thin out on Navy: please judge the Navy back), chest embroidery (new Recraft golfer silhouette, 3.50 x 2.94 in, thinnest stroke 1.56 mm, 1 thread: white 1090944112 on Navy, Printful navy #333366 1090944136 on Ash) and wrist LEFT in Anton (0.35 in caps, 0.63 in wide: 0.3 in floor met; white 1090944143 / navy 1090944157) verified N/N per variant from GET /sync/products. Colors now Ash + Navy (White variants removed, Navy variants created on the same product); all variants $57.99 no compare-at, title now '... Embroidered Zip Hoodie', SEO title/meta, Story, details bullet, 5 FAQs (48-55 words) incl. embroidery care; keyword map unchanged. Photos: Navy back, Ash back, Navy front (chest), Ash front, variants linked per color; back first (R6.13). Chest sources: try 1 (ball on tee + arrow) rejected, try 2 kept (fal $0.08). COVER: 2 AI tries on registry row 1000 (fal $0.12): try 1 had no hood (collar only, R6.8) and a bag strap beside the first letters; try 2 had a hood but it covered RIGHT. and the golfer's head and showed a zip down the back of the hood. Both rejected; the product shows the Printful back mockup as image 1 (handle already in retired-covers.json), row 1000 stays unused. Audit PASS (0 warn). No wrist close-up photo yet.
