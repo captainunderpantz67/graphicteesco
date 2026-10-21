@@ -8,8 +8,8 @@ m=n.copy()
 # maroon ink -> rose on dark blanks; keep pink/cream highlights; neutral dark fills -> dark charcoal kept (they read as shading)
 mar=(al>40)&(sat>35)&(lum<150)
 t=np.clip((150-lum)/110,0,1)[:,:,None]   # darker maroon -> brighter rose
-rose=np.array([232,112,126.]); light=np.array([246,214,206.])
-m[:,:,:3]=np.where(mar[:,:,None], rose*(0.55+0.45*t)+light*(0.0), m[:,:,:3])
+rose=np.array([205,78,94.]); light=np.array([246,214,206.])
+m[:,:,:3]=np.where(mar[:,:,None], rose*(0.62+0.38*t)+light*(0.0), m[:,:,:3])
 neutral=(al>40)&(sat<=35)&(lum<110)
 m[neutral,0]=48; m[neutral,1]=44; m[neutral,2]=52
 lightart=Image.fromarray(m.astype('uint8'),'RGBA'); lightart.save('designs/c909/art_light.png'); a.save('designs/c909/art_dark.png')
