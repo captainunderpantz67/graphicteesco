@@ -718,6 +718,73 @@ export const allGuides: Guide[] = [
     ],
   },
   {
+    // Writer lane W (2026-10-21 run), hoodies cluster. Keyword: thick hoodie, 5,400 / KD 13 (RankHero 2026-10-21, scripts/rankhero page pull). Unowned in docs/product-keyword-map.json and src/data/collections.ts; "heavyweight hoodie" 14,800/20 stays with /hoodies/heavyweight-hoodies/. The cozy-hoodies guide covers the weight-and-fit pick; this one answers "how thick" in numbers and targets the "thick" phrasing.
+    // Facts (blank, 10 oz, 8 oz, sizes, prices, policies) from the cozy-hoodies and baggy-hoodies guides, rulebook R7.1 price table, collections.ts and site.ts. Picks are live heavyweight and camo designs in fresh-designs.json; art details from pipeline files #496 #510 #566 #624.
+    // Planned siblings (not live yet): camo-hoodies-for-women-guide, zip-up-vs-pullover-hoodie, heavyweight-hoodie-sizing.
+    slug: 'thick-hoodies',
+    keyword: 'thick hoodie',
+    draft: true,
+    title: 'Thick Hoodies: How Thick Is 10 oz, and Who Needs It?',
+    description: 'Thick hoodies explained in ounces: our 10 oz heavyweight fleece vs the 8 oz pullover, how it fits, and six designs. Heavyweight hoodies from $49.99.',
+    h1: 'Thick Hoodies: What 10 oz Fleece Feels Like and Who Should Buy One',
+    date: '2026-10-21',
+    cluster: 'hoodies',
+    answer: 'A thick hoodie is one made from heavier fleece, and you can check it in ounces. The Graphic Tees Co. heavyweight hoodie is a 10 oz fleece with a fleece-lined hood, $49.99 through November 30, 2026 ($54.99 from December 1). Our classic pullover is a lighter 8 oz fleece at $39.99. Both are printed with original art after you order.',
+    picks: [
+      {
+        h2: 'Which thick hoodies does Graphic Tees Co. sell?',
+        body: ['Here are six heavyweight hoodies, all the same 10 oz blank. Every design is original art made for Graphic Tees Co. and printed after you order.'],
+        items: [
+          { slogan: 'Switchbacks Build Character.', tee: 'unisex-national-park-switchbacks-build-character-heavyweight-hoodie',
+            text: 'A poster-style mountain with a trail zigzagging up its face and a grumpy marmot in a tiny backpack leaning on a trekking pole halfway up. It comes in Sandstone or Storm Blue, $49.99.' },
+          { slogan: 'Running Late. Bison Traffic.', tee: 'unisex-national-park-running-late-bison-traffic-heavyweight-hoodie',
+            text: 'A 1960s station wagon is stopped on a two-lane road while one huge bison stands in the middle, unbothered. It is for every road-trip family that has sat in a bison jam, $49.99.' },
+          { slogan: 'You Catching ’Em? No. Keep Walking.', tee: 'mens-fishing-you-catching-em-heavyweight-hoodie',
+            text: 'A grumpy older angler in a bucket hat and red plaid flannel sits in a folding lawn chair at the pond with an empty bucket, while a jogger passes behind him. $49.99.' },
+          { slogan: 'Clean Plate Club', tee: 'mens-gym-plate-club-heavyweight-hoodie',
+            text: 'A stack of barbell plates sits on a dinner plate with a fork and a knife, under CLEAN PLATE CLUB in cream and gold. It comes in Storm Blue or Black, $49.99.' },
+          { slogan: 'Not Lost. Scouting.', tee: 'mens-hunting-not-lost-scouting-camo-hoodie',
+            text: 'A buck kicked back in a recliner in the woods with a map held upside down. It is the same 10 oz heavyweight blank, printed on camo, $49.99.' },
+          { slogan: 'Amazing Grace', tee: 'unisex-christian-amazing-grace-heavyweight-hoodie',
+            text: 'A wooden cross on a hill with wildflowers at its feet and the words Amazing Grace in thin cream script. It comes in Storm Blue or Black, $49.99.' },
+        ],
+        links: [{ href: '/hoodies/heavyweight-hoodies/', text: 'All heavyweight hoodies' }, { href: '/hoodies/camo-hoodies/', text: 'Camo hoodies' }, { href: '/hoodies/', text: 'All graphic hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'How thick is a thick hoodie?',
+        body: ['Thick starts around 10 oz. Fabric weight is listed in ounces per square yard (oz/yd²), and more ounces means heavier fleece. At Graphic Tees Co., the heavyweight hoodie is 10 oz and the classic pullover is 8 oz.',
+          'The heavyweight is a cotton and polyester fleece with a soft fleece-lined hood, ribbed cuffs and waistband and double-stitched seams. It runs XS to 3XL in a relaxed fit.'],
+        links: [{ href: '/hoodies/heavyweight-hoodies/', text: 'Heavyweight hoodies' }] },
+      { h2: 'Is a thick hoodie warmer than a regular one?',
+        body: ['Yes, a little, and it holds its shape better. A 10 oz fleece traps more air than an 8 oz one, and the relaxed cut leaves room for a tee or thermal underneath.',
+          'It is a layer, not a coat. On wet or very cold days, wear a shell over it.'] },
+      { h2: 'Are thick hoodies heavy to wear?',
+        body: ['You feel the weight on the shoulders, and a thick hoodie takes longer to dry after a wash. It is the one to grab for a cool morning or a campfire, not for a warm car ride.',
+          'If you mostly want something to throw on indoors or in mild weather, the 8 oz pullover is the lighter pick.'] },
+      { h2: 'Thick hoodie or oversized hoodie: which is better?',
+        body: ['They solve different problems. Thick is about fabric weight; oversized is about cut. The Graphic Tees Co. oversized hoodie is also a 10 oz fleece, but it is cut roomy on purpose and costs $54.99 on sale.',
+          'Pick the heavyweight for a regular-to-relaxed fit, and the oversized if you want the slouch. Our baggy hoodies guide covers sizing.'],
+        links: [{ href: '/guides/baggy-hoodies/', text: 'Baggy hoodies: how to get the slouchy fit' }, { href: '/hoodies/oversized-hoodies/', text: 'Oversized hoodies' }] },
+      { h2: 'Is a thick hoodie worth the extra money?',
+        body: ['If you wear it on cold days, yes. The heavyweight is $10 more than the pullover through November 30, 2026, and both move up $5 on December 1 ($54.99 and $44.99).',
+          'US shipping is free on orders of $45 or more, so either clears it. If the size is wrong, one replacement in a new size is free within 30 days of delivery, and you do not mail the first one back.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'How do you keep a thick hoodie soft and the print bright?',
+        body: ['Turn it inside out, wash it cold, tumble dry low or hang it, and skip bleach and fabric softener. Never iron over the print.',
+          'Fleece holds water, so give it extra drying time.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees so the print lasts' }, { href: '/guides/cozy-hoodies/', text: 'Cozy hoodies: how to pick the right weight and fit' }, { href: '/guides/funny-hoodies/', text: 'Funny hoodies' }] },
+    ],
+    faqs: [
+      { q: 'How thick is a thick hoodie?', a: 'Around 10 oz or more. The Graphic Tees Co. heavyweight hoodie is a 10 oz/yd² cotton and polyester fleece with a fleece-lined hood and ribbed cuffs, $49.99 through November 30, 2026. The classic pullover is a lighter 8 oz.' },
+      { q: 'What is the thickest hoodie Graphic Tees Co. makes?', a: 'The 10 oz heavyweight hoodie and the 10 oz oversized hoodie are the thickest. The heavyweight is a relaxed fit in XS to 3XL at $49.99; the oversized is cut roomier at $54.99, both in the holiday sale.' },
+      { q: 'Are thick hoodies warm enough for winter?', a: 'They are a thick layer, not a coat. The Graphic Tees Co. heavyweight hoodie is made for layering, with room for a tee or thermal underneath. On wet or very cold days, wear a shell jacket over it.' },
+      { q: 'How much do thick hoodies cost?', a: 'At Graphic Tees Co., heavyweight hoodies are $49.99 through November 30, 2026 and $54.99 from December 1. The 8 oz pullover is $39.99, moving to $44.99. US shipping is free on orders of $45 or more.' },
+      { q: 'Do thick hoodies run big?', a: 'The Graphic Tees Co. heavyweight hoodie is a relaxed fit, so keep your usual size for a loose layer or size down one for a closer fit. If the size is wrong, one replacement in a new size is free within 30 days of delivery.' },
+      { q: 'How do I wash a thick hoodie?', a: 'Inside out, cold water, mild detergent, then tumble dry low or hang it. Skip bleach and fabric softener and never iron over the print. Fleece holds water, so a thick hoodie needs extra drying time.' },
+    ],
+  },
+  {
     // Writer lane W (2026-10-21): new gym-cluster article. Cluster 3 (gym) had 0 articles.
     // Keyword: gym gifts for men 5,400 / KD 13 (RankHero 2026-10-21). Supporting: gym gifts for him 590 / KD 27 (RankHero 2026-10-21). Not owned by any collection or product (the retarget on #564 on 2026-10-18 moved it off the product). Hub keywords "mens gym shirts" and "gym hoodie" stay with the collections.
     // Facts (art, blanks, prices, policies) from pipeline files #483 #494 #544 #564 #605 #625, the live Storefront prices on 2026-10-21, collections.ts gym copy and site.ts. Picks are A-grade designs listed in fresh-designs.json.
