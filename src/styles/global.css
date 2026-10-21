@@ -3,6 +3,9 @@
 /* Self-hosted fonts (no Google Fonts round-trip). Latin subset only. */
 @font-face { font-family: "Big Shoulders Display"; font-style: normal; font-weight: 900; font-display: swap; src: url("/fonts/big-shoulders-display-latin-900-normal.woff2") format("woff2"); }
 @font-face { font-family: "Big Shoulders Display"; font-style: normal; font-weight: 800; font-display: swap; src: url("/fonts/big-shoulders-display-latin-800-normal.woff2") format("woff2"); }
+@font-face { font-family: "Bowlby One"; font-style: normal; font-weight: 400; font-display: swap; src: url("/fonts/bowlby-one-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Ultra"; font-style: normal; font-weight: 400; font-display: swap; src: url("/fonts/ultra-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Shrikhand"; font-style: normal; font-weight: 400; font-display: swap; src: url("/fonts/shrikhand-latin-400-normal.woff2") format("woff2"); }
 @font-face { font-family: "Yellowtail"; font-style: normal; font-weight: 400; font-display: swap; src: url("/fonts/yellowtail-latin-400-normal.woff2") format("woff2"); }
 @font-face { font-family: "Archivo"; font-style: normal; font-weight: 400; font-display: swap; src: url("/fonts/archivo-latin-400-normal.woff2") format("woff2"); }
 @font-face { font-family: "Archivo"; font-style: normal; font-weight: 600; font-display: swap; src: url("/fonts/archivo-latin-600-normal.woff2") format("woff2"); }
@@ -100,9 +103,14 @@ body {
 
 /* Homepage hero: dark campaign photo, loud buttons, moving deal strip */
 .hype .display { color: inherit; }
-.hype-btn { display: grid; place-items: center; min-height: 3.4rem; border-radius: 999px; border: 2px solid #141311;
-  font-weight: 900; text-transform: uppercase; letter-spacing: .1em; font-size: .9rem; transition: transform .15s, box-shadow .15s; }
-.hype-btn:hover { transform: translate(-2px, -2px); }
+/* Hand-set type: poster headline (cream over a misregistered rust layer), wood-type tagline, script asides */
+.poster { font-family: "Bowlby One", "Arial Black", sans-serif; line-height: .9; letter-spacing: -.01em; color: #f8f3e8;
+  text-shadow: .06em .06em 0 #c2461f; transform: rotate(-2deg); transform-origin: left bottom; }
+.woodtype { font-family: "Ultra", "Rockwell Extra Bold", serif; line-height: 1.08; }
+.scrawl { font-family: "Shrikhand", "Cooper Black", serif; }
+.hand-btn { display: grid; place-items: center; min-height: 3.6rem; border-radius: 12px; border: 3px solid #141311;
+  font-family: "Bowlby One", "Arial Black", sans-serif; font-size: 1.15rem; transition: transform .15s; }
+.hand-btn:hover { transform: translate(-2px, -2px) rotate(-1deg); }
 .deal-track { animation: belt 26s linear infinite; }
 @keyframes belt { to { transform: translateX(-50%); } }
 @media (prefers-reduced-motion: reduce) { .deal-track { animation: none; } }

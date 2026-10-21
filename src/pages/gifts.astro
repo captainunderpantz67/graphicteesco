@@ -29,7 +29,7 @@ const bfStart = new Date(blackFriday.start).toLocaleDateString('en-US', { month:
       <h1 class="display text-[clamp(3rem,13vw,6.5rem)] leading-[.88] mt-2">Gifts &amp; <span class="text-[var(--color-rust)]">sets</span></h1>
       <p class="mt-4 max-w-2xl text-lg text-[var(--color-ink-2)]">Ornaments, socks, mugs and cozy sets with the same original designs as our tees. Mix them into an order: Black Friday tiers start {bfStart} (buy 2 save 15%, buy 4+ save 25%) and US shipping is free on $45+.</p>
       <div class="mt-8 flex gap-2 overflow-x-auto -mx-4 px-4 pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-        {sections.map((s) => <a href={`#${s.id}`} class="shrink-0 rounded-full bg-[var(--color-navy)] text-[var(--color-cream)] border-2 border-[var(--color-navy)] px-4 py-2 text-sm font-extrabold uppercase tracking-[.08em] shadow-[3px_3px_0_var(--color-rust)] hover:bg-[var(--color-rust)]">{s.title} ({s.items.length})</a>)}
+        {sections.map((s) => <a href={`#${s.id}`} class="shrink-0 rounded-full bg-[var(--color-navy)] text-[var(--color-cream)] border-2 border-[var(--color-navy)] px-4 py-2 text-sm font-extrabold uppercase tracking-[.08em] shadow-[3px_3px_0_var(--color-rust)] hover:bg-[var(--color-rust)]">{s.title}</a>)}
         <a href="/black-friday/" class="shrink-0 rounded-full bg-[var(--color-ink)] text-[var(--color-mustard)] border-2 border-[var(--color-ink)] px-4 py-2 text-sm font-extrabold uppercase tracking-[.08em]">Black Friday deals →</a>
       </div>
     </div>

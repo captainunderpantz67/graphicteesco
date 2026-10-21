@@ -194,18 +194,21 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
       </picture>
 
       <div class="relative z-10 container-x pt-6 pb-9 lg:py-14 lg:pr-6 lg:!max-w-none lg:!pl-[max(1.5rem,calc((100vw-1240px)/2+1.5rem))] flex flex-col justify-center">
-        <p class="flex items-center gap-2 text-[11px] md:text-xs font-extrabold uppercase tracking-[.2em] text-[#d9a23b]"><span class="h-2 w-2 rounded-full bg-[#7d9459]"></span>Original art · New jokes every month</p>
-        <h1 class="mt-3 display leading-[.8]">
-          <span class="block text-[clamp(4.6rem,19vw,8.8rem)] text-[#f8f3e8]">Graphic</span>
-          <span class="block text-[clamp(4.6rem,19vw,8.8rem)] text-[#f8f3e8]">Tees<span class="text-[#e2552a]">.</span></span>
-          <span class="block mt-2 text-[clamp(2.2rem,8.4vw,4.2rem)] text-[#d9a23b] -skew-x-[10deg] origin-left">Life's short. Wear the laugh.</span>
+        <!-- Hand-set type (Sam 2026-10-21: "fool even the best vibe coders"): poster headline with a misprinted rust
+             ink layer, wood-type tagline, sentence-case buttons, a hand-drawn arrow. No eyebrow, no tracked caps. -->
+        <h1>
+          <span class="poster block text-[clamp(4rem,17vw,7.6rem)]">Graphic<br />Tees.</span>
+          <span class="woodtype block mt-5 text-[clamp(1.6rem,6.6vw,2.9rem)] text-[#d9a23b]">Life's short.<br />Wear the laugh.</span>
         </h1>
         <p class="mt-5 max-w-sm text-[#f8f3e8]/85 text-base md:text-lg">Life's too short for boring shirts. Ours are drawn here, printed when you order, and made to get a laugh out of everybody who reads them.</p>
-        <div class="mt-6 grid grid-cols-2 gap-3 max-w-md">
-          <a href="/funny-graphic-tees/" class="hype-btn bg-[#c2461f] text-[#f8f3e8] [box-shadow:4px_4px_0_#d9a23b]">Shop tees</a>
-          {showHoodies ? <a href="/hoodies/" class="hype-btn bg-[#f8f3e8] text-[#141311] [box-shadow:4px_4px_0_#22344a]">Shop hoodies</a> : <a href="/gifts/" class="hype-btn bg-[#f8f3e8] text-[#141311]">Gifts &amp; sets</a>}
+        <div class="mt-7 grid grid-cols-2 gap-3 max-w-md">
+          <a href="/funny-graphic-tees/" class="hand-btn bg-[#c2461f] text-[#f8f3e8] [box-shadow:4px_4px_0_#d9a23b]">Shop tees</a>
+          {showHoodies ? <a href="/hoodies/" class="hand-btn bg-[#f8f3e8] text-[#141311] [box-shadow:4px_4px_0_#4f5d3a]">Shop hoodies</a> : <a href="/gifts/" class="hand-btn bg-[#f8f3e8] text-[#141311] [box-shadow:4px_4px_0_#4f5d3a]">Gifts &amp; sets</a>}
         </div>
-        <a href="/gifts/" class="mt-5 inline-block self-start text-sm font-extrabold uppercase tracking-[.14em] underline decoration-[#d9a23b] decoration-2 underline-offset-[6px]">Gifts &amp; stocking stuffers →</a>
+        <a href="/gifts/" class="scrawl mt-5 inline-flex items-center gap-2 self-start text-[1.35rem] text-[#f8f3e8] hover:text-[#d9a23b]">
+          <svg width="36" height="22" viewBox="0 0 34 22" aria-hidden="true"><path d="M2 6 C 10 16, 20 18, 30 12 M24 8 L31 12 L26 18" fill="none" stroke="#d9a23b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          or grab a stocking stuffer
+        </a>
       </div>
     </div>
 
@@ -224,23 +227,23 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
   <!-- MAJOR SPOKES: 8 broad doors (CRO), then every niche in one swipe row -->
   <section class="container-x mt-14" aria-labelledby="shop-h">
     <div class="flex items-end justify-between gap-4">
-      <h2 id="shop-h" class="display text-5xl md:text-6xl">Start <span class="text-[var(--color-rust)]">here</span></h2>
+      <h2 id="shop-h" class="display text-5xl md:text-6xl">Go on, <span class="text-[var(--color-rust)]">pick one.</span></h2>
       <p class="hidden md:block text-sm font-bold uppercase tracking-[.12em] text-[var(--color-rust)]">Printed to order · order 2 weeks ahead</p>
     </div>
     <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
       {majorCards.map((m) => (
         <a href={m.href} class="group relative overflow-hidden rounded-[18px] border-2 border-[var(--color-ink)] aspect-[4/5] flex shadow-[4px_4px_0_var(--color-ink)] hover:-translate-y-1 hover:shadow-[6px_8px_0_var(--color-ink)] transition-all bg-[var(--color-navy)]">
           {m.gifts ? (
-            <span class="absolute inset-0 grid grid-cols-2 grid-rows-2 gap-1 bg-white p-1" aria-hidden="true">
-              {giftShots.map((g, i) => <img src={g.src} alt="" loading="lazy" width="300" height="300" class={`w-full h-full object-contain bg-white ${i === 0 ? 'row-span-2' : ''}`} />)}
+            <span class="absolute inset-0 bg-[var(--color-mustard)] grid place-items-center pb-[38%]" aria-hidden="true">
+              {giftShots[0] && <span class="w-[62%] aspect-square rounded-full bg-[var(--color-cream)] border-2 border-[var(--color-ink)] overflow-hidden -rotate-6 shadow-[4px_4px_0_var(--color-rust)] group-hover:rotate-0 transition-transform"><img src={giftShots[0].src} alt="" loading="lazy" width="300" height="300" class="w-full h-full object-contain scale-110" /></span>}
             </span>
           ) : m.ph && <img src={m.ph.src} srcset={m.ph.src.startsWith('/covers/') ? `${m.ph.src.replace('/covers/', '/covers/sm/')} 400w, ${m.ph.src} 600w` : undefined} sizes="(min-width: 768px) 25vw, 50vw" alt={m.ph.alt} loading="lazy" width="600" height="750" class="absolute inset-0 w-full h-full object-cover object-[50%_20%] group-hover:scale-[1.04] transition-transform duration-500" />}
-          <span class="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-black/85 via-black/45 to-transparent" aria-hidden="true"></span>
+          {!m.gifts && <span class="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-black/85 via-black/45 to-transparent" aria-hidden="true"></span>}
           {m.badge && <span class="absolute top-3 left-3 rounded-full bg-[var(--color-mustard)] text-[var(--color-ink)] text-[11px] font-bold uppercase tracking-[.1em] px-3 py-1 border-2 border-[var(--color-ink)]">{m.badge}</span>}
-          <span class="absolute inset-x-4 bottom-4 text-[var(--color-cream)]">
+          <span class={`absolute inset-x-4 bottom-4 ${m.gifts ? 'text-[var(--color-ink)]' : 'text-[var(--color-cream)]'}`}>
             <span class="display block text-[clamp(1.3rem,5.6vw,2.6rem)] md:text-[clamp(1.8rem,3.4vw,2.6rem)] leading-[.88]">{m.title}</span>
             <span class="mt-1.5 block text-[13px] leading-snug opacity-90">{m.line}</span>
-            <span class="mt-2 block text-xs font-bold uppercase tracking-[.14em] text-[var(--color-mustard)]">Shop →</span>
+            <span class={`mt-2 block text-xs font-bold uppercase tracking-[.14em] ${m.gifts ? 'text-[var(--color-rust)]' : 'text-[var(--color-mustard)]'}`}>Shop →</span>
           </span>
         </a>
       ))}
@@ -250,7 +253,7 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
   {niches.length > 0 && <section class="mt-14" aria-labelledby="niches-h">
     <div class="container-x flex items-end justify-between gap-4">
       <h2 id="niches-h" class="display text-4xl md:text-5xl">Find your <span class="text-[var(--color-rust)]">people</span></h2>
-      <a href="/niches/" class="text-xs font-bold uppercase tracking-[.12em] text-[var(--color-rust)] underline underline-offset-4">All {niches.length} niches →</a>
+      <a href="/niches/" class="scrawl text-lg whitespace-nowrap text-[var(--color-rust)] hover:underline">See them all →</a>
     </div>
     <div class="container-x">
       <div class="mt-5 -mx-4 px-4 scroll-px-4 flex gap-3 overflow-x-auto snap-x snap-mandatory pb-3 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
@@ -261,15 +264,15 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
             </span>
             <span class="block px-2.5 py-2">
               <span class="block font-extrabold text-[13px] leading-tight">{c.h1}</span>
-              <span class="block mt-0.5 text-[11px] text-[var(--color-rust)] font-bold uppercase tracking-[.08em]">{n} designs</span>
+              <span class="block mt-0.5 text-[12px] text-[var(--color-rust)] font-semibold">Shop →</span>
             </span>
           </a>
         ))}
         <a href="/niches/" class="snap-start shrink-0 w-[38%] sm:w-[26%] md:w-[17%] rounded-[14px] border-2 border-[var(--color-ink)] bg-[var(--color-navy)] text-[var(--color-cream)] shadow-[3px_3px_0_var(--color-rust)] p-3 flex flex-col justify-between hover:bg-[var(--color-rust)] transition-colors">
           <span class="flex -space-x-3">{niches.slice(3, 6).map(({ ph }) => <img src={ph!.src} alt="" loading="lazy" width="48" height="48" class="w-11 h-11 rounded-full object-cover object-top border-2 border-[var(--color-cream)]" />)}</span>
           <span>
-            <span class="block display text-[1.7rem] leading-[.9]">View all<br/>{niches.length} niches</span>
-            <span class="block mt-2 text-[11px] font-bold uppercase tracking-[.1em] text-[var(--color-mustard)]">Find yours →</span>
+            <span class="block display text-[1.7rem] leading-[.9]">See every<br/>niche</span>
+            <span class="scrawl block mt-2 text-[15px] text-[var(--color-mustard)]">find yours →</span>
           </span>
         </a>
       </div>
@@ -366,8 +369,8 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
         <a href="/niches/" class="snap-start shrink-0 w-[38%] sm:w-[26%] md:w-[17%] rounded-[14px] border-2 border-[var(--color-ink)] bg-[var(--color-navy)] text-[var(--color-cream)] shadow-[3px_3px_0_var(--color-rust)] p-3 flex flex-col justify-between hover:bg-[var(--color-rust)] transition-colors">
           <span class="flex -space-x-3">{niches.slice(3, 6).map(({ ph }) => <img src={ph!.src} alt="" loading="lazy" width="48" height="48" class="w-11 h-11 rounded-full object-cover object-top border-2 border-[var(--color-cream)]" />)}</span>
           <span>
-            <span class="block display text-[1.7rem] leading-[.9]">View all<br/>{niches.length} niches</span>
-            <span class="block mt-2 text-[11px] font-bold uppercase tracking-[.1em] text-[var(--color-mustard)]">Find yours →</span>
+            <span class="block display text-[1.7rem] leading-[.9]">See every<br/>niche</span>
+            <span class="scrawl block mt-2 text-[15px] text-[var(--color-mustard)]">find yours →</span>
           </span>
         </a>
       </div>
@@ -428,9 +431,9 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
           <a href={pathFor(c)} class="group relative overflow-hidden rounded-[18px] border-2 border-[var(--color-ink)] aspect-[4/5] p-[7px] flex shadow-[4px_4px_0_var(--color-ink)] hover:-translate-y-1 hover:shadow-[6px_8px_0_var(--color-ink)] transition-all" style={`background:${bg};color:${fg}`}>
             <span class="relative flex-1 overflow-hidden rounded-[12px]">
               <img src={(ph as any).local ? ph.url : img(ph.url, 600)} srcset={(ph as any).local && ph.url.startsWith('/covers/') ? `${ph.url.replace('/covers/', '/covers/sm/')} 400w, ${ph.url} 600w` : !(ph as any).local ? `${img(ph.url, 320)} 320w, ${img(ph.url, 600)} 600w` : undefined} sizes="(min-width: 768px) 25vw, 50vw" alt={ph.altText ?? c.h1} loading="lazy" width="600" height="750" class="absolute inset-0 w-full h-full object-cover object-[50%_20%] group-hover:scale-[1.04] transition-transform duration-500" />
-              <span class="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-black/85 via-black/45 to-transparent" aria-hidden="true"></span>
+              {!m.gifts && <span class="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-black/85 via-black/45 to-transparent" aria-hidden="true"></span>}
               <span class="absolute top-3 left-3 w-11 h-11 rounded-full grid place-items-center border-2 bg-black/30 backdrop-blur-[2px]" style={`border-color:${bg};color:${bg}`}><Icon name={icons[c.slug]} class="w-6 h-6" /></span>
-              <span class="absolute inset-x-4 bottom-4 text-[var(--color-cream)]">
+              <span class={`absolute inset-x-4 bottom-4 ${m.gifts ? 'text-[var(--color-ink)]' : 'text-[var(--color-cream)]'}`}>
                 <span class="display block text-[clamp(1.6rem,3.2vw,2.4rem)] leading-[.88]">{c.h1}</span>
                 <span class="mt-2 block text-xs font-bold uppercase tracking-[.14em]" style={`color:${bg === 'var(--color-navy)' || bg === 'var(--color-moss)' ? 'var(--color-mustard)' : bg}`}>Shop →</span>
               </span>

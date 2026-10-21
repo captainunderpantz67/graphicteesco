@@ -115,32 +115,31 @@ const schema = [
 
     <!-- Hero: the offer is the headline -->
     <section class="bf-hero relative overflow-hidden">
-      <div class="container-x relative grid md:grid-cols-[1.15fr_.85fr] gap-8 items-center py-10 md:py-16">
+      <div class="container-x relative grid md:grid-cols-[1.1fr_.9fr] gap-10 items-center pb-10 md:py-16">
         <div class="min-w-0">
-          <p class="font-extrabold uppercase tracking-[.2em] text-xs text-[var(--bf-volt)]">Graphic Tees Co. · Black Friday {bf.year}</p>
-          <h1 class="mt-3">
-            <span class="bf-display block text-[clamp(4.2rem,19vw,10rem)] leading-[.8]">Black<br/>Friday</span>
+                    <h1 class="mt-3">
+            <span class="poster block text-[clamp(3.8rem,16vw,7.5rem)]">Black<br/>Friday.</span>
             <span class="sr-only"> graphic tee and hoodie deals</span>
           </h1>
-          <p class="mt-4 text-lg md:text-xl font-semibold text-[var(--bf-cream)] max-w-[30ch]">Grab more, save more. Up to <span class="text-[var(--bf-volt)]">{top.pct}% off</span> funny graphic tees and hoodies.</p>
+          <p class="mt-4 text-lg md:text-xl font-semibold text-[var(--bf-cream)] max-w-[30ch]"><span class="woodtype text-[var(--bf-gold)]">Grab more, save more.</span><br/>Up to {top.pct}% off funny graphic tees and hoodies. No code needed.</p>
 
           <ol class="mt-6 grid grid-cols-3 gap-2 sm:gap-3 max-w-md" aria-label="Black Friday savings tiers">
             {bf.tiers.map((t, i) => (
               <li class={`bf-tier rounded-[14px] border-2 p-3 text-center ${i === bf.tiers.length - 1 ? 'bf-tier-top' : ''}`}>
-                <span class="block text-[11px] font-extrabold uppercase tracking-[.14em]">Buy {t.qty}{t === top ? '+' : ''}</span>
-                <span class="bf-display block text-[2.6rem] sm:text-5xl leading-none mt-1">{t.pct}%</span>
-                <span class="block text-[11px] font-bold uppercase tracking-[.14em]">off</span>
+                <span class="block text-sm font-bold">Buy {t.qty}{t === top ? '+' : ''}</span>
+                <span class="woodtype block text-[2.2rem] sm:text-[2.6rem] leading-none mt-1">{t.pct}%</span>
+                <span class="block text-sm font-semibold">off</span>
               </li>
             ))}
           </ol>
 
           <div class="mt-6" data-countdown data-start={bf.start} data-end={bf.end}>
-            <p class="text-xs font-extrabold uppercase tracking-[.2em] text-[var(--bf-cream)]/70" data-cd-label>Deals start Sunday, Nov 8, in</p>
+            <p class="scrawl text-lg text-[var(--bf-cream)]/85" data-cd-label>Deals start Sunday, Nov 8, in</p>
             <div class="mt-2 flex gap-2 tabular-nums" data-cd-clock>
               {['Days', 'Hrs', 'Min', 'Sec'].map((u) => (
                 <span class="bf-clock rounded-[10px] px-3 py-2 text-center min-w-[3.6rem]">
-                  <span class="bf-display block text-3xl leading-none" data-cd-unit>--</span>
-                  <span class="block text-[10px] font-bold uppercase tracking-[.14em] mt-1 opacity-70">{u}</span>
+                  <span class="woodtype block text-3xl leading-none" data-cd-unit>--</span>
+                  <span class="block text-xs font-semibold mt-1 opacity-75">{u.toLowerCase()}</span>
                 </span>
               ))}
             </div>
@@ -151,14 +150,18 @@ const schema = [
             <a href="#shop-by" class="bf-btn bf-btn-ghost">Shop by category</a>
           </div>
         </div>
-        {hero && (
-          <div class="relative mx-auto w-full max-w-sm">
-            <div class="bf-photo rounded-[22px] overflow-hidden border-2 border-[var(--bf-volt)] rotate-[1.5deg]">
-              <img src={hero.src} alt={hero.alt} class="w-full aspect-[4/5] object-cover" width="640" height="800" loading="eager" fetchpriority="high" />
-            </div>
-            <span class="bf-sticker absolute -top-4 -left-3 rotate-[-10deg]">Up to<br/><b>{top.pct}%</b><br/>off</span>
-          </div>
-        )}
+        <!-- Campaign photo (Sam 2026-10-21: "terrible way to open... mockup looks bad"); the sticker is a real centered badge. -->
+        <div class="relative order-first md:order-last -mx-4 md:mx-0">
+          <picture>
+            <source media="(min-width: 768px)" srcset="/hero/laugh-900.webp 900w, /hero/laugh-1600.webp 1600w" sizes="45vw" />
+            <img src="/hero/laugh-m-700.webp" srcset="/hero/laugh-m-700.webp 700w, /hero/laugh-m-1100.webp 1100w" sizes="100vw" width="1100" height="851" loading="eager" fetchpriority="high"
+              alt="Three friends cracking up in Graphic Tees Co. shirts while a real cat sits on a cartoon table next to a spilled cartoon mug"
+              class="w-full aspect-[1100/851] md:aspect-[4/5] object-cover object-[40%_40%] md:rounded-[22px] md:border-2 md:border-[var(--bf-gold)] md:rotate-[1.5deg]" />
+          </picture>
+          <span class="bf-sticker absolute -bottom-7 right-5 md:-bottom-6 md:-left-6 md:right-auto rotate-[-8deg]" aria-hidden="true">
+            <span class="bf-sticker-sm">Up to</span><b>{top.pct}%</b><span class="bf-sticker-sm">off</span>
+          </span>
+        </div>
       </div>
     </section>
 
@@ -269,30 +272,33 @@ const schema = [
   .bf {
     --bf-ink: #0d0e0c;
     --bf-ink-2: #23251f;
-    --bf-volt: #d4ff3a;
+    --bf-volt: #d9a23b;
+    --bf-gold: #d9a23b;
+    --bf-rust: #c2461f;
     --bf-cream: #f8f3e8;
   }
   .bf-display { font-family: var(--font-display); font-weight: 900; text-transform: uppercase; letter-spacing: -.005em; }
-  .bf-bar { background: var(--bf-volt); color: var(--bf-ink); }
+  .bf-bar { background: var(--bf-gold); color: var(--bf-ink); }
   .bf-marquee { animation: bf-scroll 28s linear infinite; width: max-content; }
   @keyframes bf-scroll { to { transform: translateX(-50%); } }
   @media (prefers-reduced-motion: reduce) { .bf-marquee { animation: none; } }
   .bf-hero, .bf-dark { background: var(--bf-ink); color: var(--bf-cream); }
   .bf-hero::before { content: ''; position: absolute; inset: 0; pointer-events: none;
-    background: radial-gradient(60% 50% at 85% 20%, rgba(212,255,58,.16), transparent 70%), radial-gradient(40% 40% at 0% 100%, rgba(212,255,58,.08), transparent 70%); }
-  .bf-hero h1 .bf-display { color: var(--bf-cream); text-shadow: .045em .045em 0 var(--bf-volt); }
+    background: radial-gradient(60% 50% at 85% 20%, rgba(194,70,31,.18), transparent 70%); }
+  
   .bf-cream-bg { background: var(--color-paper); color: var(--color-ink); }
   .bf-tier { border-color: var(--bf-cream); color: var(--bf-cream); background: var(--bf-ink-2); }
-  .bf-tier-top { background: var(--bf-volt); border-color: var(--bf-volt); color: var(--bf-ink); box-shadow: 0 0 28px rgba(212,255,58,.35); }
-  .bf-clock { background: var(--bf-ink-2); border: 1px solid rgba(212,255,58,.35); color: var(--bf-volt); }
-  .bf-btn { display: inline-flex; align-items: center; min-height: 48px; padding: 0 1.4rem; border-radius: 999px; font-weight: 800; text-transform: uppercase; letter-spacing: .1em; font-size: .85rem;
-    background: var(--bf-volt); color: var(--bf-ink); border: 2px solid var(--bf-volt); transition: transform .15s, box-shadow .15s; }
-  .bf-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(212,255,58,.35); }
-  .bf-btn-ghost { background: transparent; color: var(--bf-cream); border-color: var(--bf-cream); }
-  .bf-photo { box-shadow: 0 0 0 6px var(--bf-ink), 0 0 50px rgba(212,255,58,.25); }
-  .bf-sticker { display: grid; place-items: center; width: 6.2rem; height: 6.2rem; border-radius: 999px; background: var(--bf-volt); color: var(--bf-ink);
-    font-weight: 800; text-transform: uppercase; font-size: .7rem; line-height: 1.05; text-align: center; letter-spacing: .08em; border: 3px solid var(--bf-ink); }
-  .bf-sticker b { font-family: var(--font-display); font-size: 2.1rem; font-weight: 900; letter-spacing: 0; }
+  .bf-tier-top { background: var(--bf-gold); border-color: var(--bf-ink); color: var(--bf-ink); box-shadow: 4px 4px 0 var(--bf-rust); transform: rotate(-2deg); }
+  .bf-clock { background: var(--bf-ink-2); border: 2px solid var(--bf-cream); color: var(--bf-cream); }
+  .bf-btn { display: inline-flex; align-items: center; min-height: 54px; padding: 0 1.4rem; border-radius: 12px; font-family: "Bowlby One", "Arial Black", sans-serif; font-size: 1.05rem;
+    background: var(--bf-rust); color: var(--bf-cream); border: 3px solid var(--bf-ink); box-shadow: 4px 4px 0 var(--bf-gold); transition: transform .15s; }
+  .bf-btn:hover { transform: translate(-2px, -2px) rotate(-1deg); }
+  .bf-btn-ghost { background: var(--bf-cream); color: var(--bf-ink); box-shadow: 4px 4px 0 #4f5d3a; }
+  
+  .bf-sticker { display: flex; flex-direction: column; align-items: center; justify-content: center; width: 7rem; height: 7rem; border-radius: 999px;
+    background: var(--bf-gold); color: var(--bf-ink); border: 3px solid var(--bf-ink); box-shadow: 4px 4px 0 var(--bf-rust); text-align: center; z-index: 2; }
+  .bf-sticker b { font-family: "Ultra", serif; font-weight: 400; font-size: 2rem; line-height: 1; margin: .1rem 0; }
+  .bf-sticker-sm { font-family: "Shrikhand", serif; font-size: .95rem; line-height: 1; }
   .bf-tag { background: var(--bf-ink); color: var(--bf-volt); font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; padding: .2rem .5rem; border-radius: 4px; }
   .bf-nav { width: 2.75rem; height: 2.75rem; border-radius: 999px; border: 2px solid var(--bf-volt); color: var(--bf-volt); font-weight: 700; }
   .bf-nav:hover { background: var(--bf-volt); color: var(--bf-ink); }
