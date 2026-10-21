@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-21 06:16 UTC
 RUNNING helper since 2026-10-21 05:43 UTC
 2026-10-21 06:03 UTC — [B] Builder run: #593 Women's Funny Feral Before 9 A.M. Tee built to REVIEW (DRAFT 15371571593520, 6 colors 36/36 on 1090942924, FW 1380, new art 1 call, flat cover, audit PASS). fal $0.04.
 2026-10-21 05:48 UTC — [B] Builder run (REDO): #662 Dachshund Short Legs, Long Opinions Socks redo: OPINIONS sets the leg width, all words one size, files 1090940818/1090940840, REVIEW. fal $0.
@@ -10,7 +11,6 @@ RUNNING lane C since 2026-10-21 05:25 UTC
 2026-10-21 05:38 UTC — [B] Builder run: #834 Men's Papa Has a Spot. Won't Say Where. Camo Hoodie built to REVIEW (DRAFT 15371567563056, Forest + Duck + Deadwood Tree Camo 18/18 on 1090933259, FW 1500, new art 1 call, type 26% flagged, flat cover, audit PASS). fal $0.04.
 2026-10-21 06:00 UTC — [C] Builder run: REDO #458 Hanukkah tee twin now EIGHT NIGHTS. / ZERO SALAD., 36/36 relinked (FW 1400), to REVIEW. fal $0.
 2026-10-21 05:55 UTC — [C] Builder run: REDO #457 Hanukkah crewneck now EIGHT NIGHTS. / ZERO SALAD. (same latke art, new lockup), 12/12 on 1090931878, to REVIEW. fal $0.
-RUNNING director since 2026-10-21 05:13 UTC
 2026-10-21 05:28 UTC — [B] Builder run: #833 Men's Catfish Caught Something Ugly. Kept It Anyway. Camo Hoodie built to REVIEW (DRAFT 15371565891888, Forest + Black + Deadwood Tree Camo 18/18 on 1090930894, FW 1500, new art 1 call, flat cover, audit PASS). fal $0.04.
 2026-10-21 05:21 UTC — [B] Builder run: #832 Men's Farmer No Days Off. The Cows Said So. Camo Hoodie built to REVIEW (DRAFT 15371563106608, Forest + Duck + Deadwood Tree Camo 18/18 on 1090928521, FW 1600, dark-ink file on cream halo, flat cover, audit PASS). fal $0.
 RUNNING lane B since 2026-10-21 05:05 UTC
