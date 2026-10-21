@@ -10837,6 +10837,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-sloth-replies-in-3-5-business-days-hoodie": {
+   "claimed": [
+    "sloth hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "sloth hoodie",
+     "volume": 320,
+     "kd": 36
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
