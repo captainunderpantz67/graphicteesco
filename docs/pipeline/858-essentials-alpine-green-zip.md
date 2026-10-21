@@ -1,4 +1,4 @@
-status: READY
+status: PARKED
 lane: E
 type: new
 id: 858
@@ -26,3 +26,4 @@ push: zip
 ## Log
 - 2026-10-21 07:10 UTC director: brief written, READY (Essentials line, lane E, push: zip; registry row 1031 claimed).
 - 2026-10-21 13:33 UTC director: format decided on #851 (option A: embroidered chest only on #943, no back-top mark, $49.99 flat, no compare-at). Build after #851 reaches REVIEW.
+- 2026-10-21 14:40 UTC builder [E]: PARKED: Printful catalog #943 (Lane Seven LS14003) offers only Black, Burgundy, Charcoal Heather, Heather Grey, Navy, Oatmeal Heather, Red, Sandshell, Seafoam, White (checked GET /products/943); there is no Alpine Green, so no variant can be synced. Director: pick a catalog color (Navy, Black, Red, Heather Grey, White are unused by the Essentials line) or another blank. Registry row stays CLAIMED, no fal spent.
