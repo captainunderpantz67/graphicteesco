@@ -1,6 +1,7 @@
 RUNNING helper since 2026-10-21 13:50 UTC
 2026-10-21 14:13 UTC — [B] REVIEW #881 Unisex Possum Playing Dead Till Friday Camo Hoodie (redo in place, flat possum on bone patch, 14/14 on 1091146594, punch 100%, subject 74%). fal $0.04.
 2026-10-21 14:08 UTC — [B] REVIEW #876 Women's Western Kick Up Dust. Settle Nothing. Camo Hoodie (redo in place, boots + dust cloud on bone patch, 14/14 on 1091144055, punch 100%, subject 74%). fal $0.04.
+2026-10-21 14:12 UTC — [E] REVIEW #851 Unisex Essentials Oatmeal Embroidered Zip Hoodie (pilot, option A: chest embroidery only, 6/6 on file 1090961074, $49.99, audit only not-ACTIVE, AI cover registry 1024). fal $0.06.
 2026-10-21 14:03 UTC — [B] REVIEW #880 Men's Hunting Not Lost. Scouting. Camo Hoodie (REDO 2: Sandstone light-ink file, 7 on 1091025440 + 7 on 1091137067, punch 125%). fal $0.
 RUNNING lane E since 2026-10-21 13:48 UTC
 2026-10-21 14:04 UTC — [E] REVIEW #827 Unisex Golf I'm Not Lost. My Ball Is. AOP zip hoodie REDO: hidden balls + labels added in code, dissolve-tiled map (no ghost seams), lockup at the widest size that doesn't clip (3400 px; 4300 clipped), 11/11 synced. fal $0.
@@ -51,6 +52,7 @@ RUNNING lane B since 2026-10-21 13:35 UTC
 2026-10-21 08:47 UTC — [H] Helper run: Telegram inbox empty (0 updates, nothing to log). Audit: 0 scripted ERRORs, 123 WARN (polish, left as is); cohesion-audit.md committed. Fixed a missing esbuild by running npm ci (the audit could not run without it). Category check: 0 products without a Shopify category. Freshness: womens-chihuahua-cold-since-birth-zip-hoodie, mens-papa-has-a-spot-wont-say-where-camo-hoodie, mens-catfish-caught-something-ugly-kept-it-anyway-camo-hoodie all 200. Stuck work: none (lane B lock 07:28, newest BUILDING #839 at 08:03). Daily summary not due (before 12:00 UTC). Lock released.
 2026-10-21 08:35 UTC — [E] Builder run end: #822 AOP pink camo zip built to REVIEW. fal wallet exhausted again (storage 403), so every other lane E item (all new art: #723 #745 #748 #749 #751 #752 #827 #836; #851 PARKED, #852-#858 gated on it) waits for a top-up. Lock released.
 RUNNING lane C since 2026-10-21 08:27 UTC
+2026-10-21 14:13 UTC — [C] Builder run: #916 Pit Bull Professional Lap Dog zip twin REDO done (chest is now stitched LAP DOG (72 LBS) words per 7t, wrist PRO, copy follows), 18/18 re-synced, REVIEW. fal $0.
 2026-10-21 14:02 UTC — [C] Builder run: #927 Gym Lunges & Lattes zip twin (new DRAFT, Black/Navy/Ash, $57.99, Inter Display Black lettering, hand-drawn coffee-cup-and-barbell chest + LATTES cuff), 18/18, REVIEW. fal $0.
 2026-10-21 13:56 UTC — [C] Builder run: #926 Fishing Is My Love Language zip twin (new DRAFT, Black/Navy/Ash, $57.99, Big Shoulders Display 900 lettering, hand-drawn fish-and-hook chest + QUIET cuff), 18/18, REVIEW. fal $0.
 2026-10-21 13:51 UTC — [C] Builder run: #924 Pirate Pillaging Is a Young Man's Game zip twin (new DRAFT, Black/Navy/Ash, $57.99, Fraunces 900 lettering, hand-drawn pirate-hat-and-glasses chest + RETIRED cuff), 18/18, REVIEW. fal $0.

@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [E] 2026-10-21 14:13
 lane: E
 type: new
 id: 852
