@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: redo
 id: 879
@@ -21,3 +21,4 @@ push: camo
 ---
 ## Log
 - 2026-10-21 09:45 UTC director: brief written, READY (camo redo, lane B, push: camo; graded from docs/review/291.jpg).
+- 2026-10-21 10:40 UTC [B]: REDO to the R11.13 patch standard, IN PLACE on the live product (same handle, URL, collections, stays ACTIVE). Print = the old live art re-inked by designs/camo_patch.py (print-prep only; fal wallet exhausted): bull elk bugling on the ridge (body is line art, ridge edges in orange), 3 solid inks (black, bone, blaze orange) on ONE bone patch with a ~0.2 in black outline; baked lettering cropped off; lettering I'M NOT YELLING. (bone) / I'M BUGLING. (blaze orange) in Anton with a dark keyline, widths (7h) 3059 / 3388 px (punch 111%). FW 1500 TOP 0.  R7.7: Forest Camo + Deadwood Tree Camo x XS-3XL = 14/14 synced on default file 1091025329, back logo 1080398177 on 14/14. Mockups remade, media replaced and attached, copy rewritten against the new art (no cream backing line); docs/review/879.jpg shows Forest + Deadwood. Cohesion audit --handle PASS (0 warn).

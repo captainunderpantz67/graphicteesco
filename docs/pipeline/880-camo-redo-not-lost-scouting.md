@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: redo
 id: 880
@@ -21,3 +21,4 @@ push: camo
 ---
 ## Log
 - 2026-10-21 09:45 UTC director: brief written, READY (camo redo, lane B, push: camo; graded from docs/review/496.jpg).
+- 2026-10-21 10:40 UTC [B]: REDO to the R11.13 patch standard, IN PLACE on the live product (same handle, URL, collections, stays ACTIVE). Print = the old live art re-inked by designs/camo_patch.py (print-prep only; fal wallet exhausted): buck in the plaid recliner with the orange cap and map, 3 solid inks (black, bone, blaze orange) on ONE bone patch with a ~0.2 in black outline; baked lettering cropped off; lettering NOT LOST. (bone) / SCOUTING. (blaze orange) in Anton with a dark keyline, widths (7h) 2702 / 3385 px (punch 125%). FW 1500 TOP 0. Sandstone is a solid tan blank; the bone patch and lettering read on it. R7.7: Duck Camo + Sandstone x XS-3XL = 14/14 synced on default file 1091025440, back logo 1080398177 on 14/14. Mockups remade, media replaced and attached, copy rewritten against the new art (no cream backing line); docs/review/880.jpg shows Duck + Sandstone. Cohesion audit --handle PASS (0 warn).

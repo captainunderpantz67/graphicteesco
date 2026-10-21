@@ -21,3 +21,4 @@ push: camo
 ---
 ## Log
 - 2026-10-21 09:45 UTC director: brief written, READY (camo redo, lane B, push: camo; graded from docs/review/295.jpg).
+- 2026-10-21 10:45 UTC [B]: NOT BUILT this run (AOP item). The live front panel is a flat 5037x6600 jpg; I confirmed the chest art can be recovered by differencing it against the plain pattern panel (designs/aop_extract.py), but the arched or overlapping lettering needs a Recraft redraw for 875, 878 and 884 and the fal wallet is exhausted, and the AOP sync/mockup path (b-aopgo.sh) was not run in this session. Stays READY.

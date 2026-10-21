@@ -21,3 +21,4 @@ push: camo
 ---
 ## Log
 - 2026-10-21 09:45 UTC director: brief written, READY (camo redo, lane B, push: camo; graded from docs/review/230.jpg).
+- 2026-10-21 10:45 UTC [B]: NOT BUILT, blocked: the old lettering (multi-color drip caps) overlaps the boot tops and shares the boots' palette, so print-prep cannot lift it off without cutting the boots; the brief's fallback is one Recraft flat redraw and the fal wallet is exhausted (403 'Exhausted balance'). Stays READY for the first run after a top-up.
