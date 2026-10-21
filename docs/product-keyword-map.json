@@ -11062,6 +11062,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "unisex-sauna-hot-and-not-talking-hoodie": {
+   "claimed": [
+    "sauna hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "sauna hoodie",
+     "volume": 1600,
+     "kd": 17
+    }
+   ],
+   "measured": "2026-10-21"
   }
  }
 }
