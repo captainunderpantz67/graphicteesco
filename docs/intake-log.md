@@ -1,3 +1,4 @@
+RUNNING helper since 2026-10-21 08:44 UTC
 2026-10-21 08:35 UTC — [E] Builder run end: #822 AOP pink camo zip built to REVIEW. fal wallet exhausted again (storage 403), so every other lane E item (all new art: #723 #745 #748 #749 #751 #752 #827 #836; #851 PARKED, #852-#858 gated on it) waits for a top-up. Lock released.
 RUNNING lane C since 2026-10-21 08:27 UTC
 2026-10-21 08:55 UTC — [E] REVIEW #822 Women's Camo Blending In Was Never the Plan. All-Over Print Zip Hoodie built to REVIEW (DRAFT 15371716165936, 11/11 sizes on #717 files 1090995228/231/234, punch 4304 vs headline 3607 px, Printful back mockup cover, fal wallet empty). fal $0.04.
