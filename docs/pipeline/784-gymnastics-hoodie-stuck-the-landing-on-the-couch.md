@@ -1,4 +1,5 @@
-status: READY
+status: REVIEW
+shopify: gid://shopify/Product/15371523227952
 lane: C
 type: new
 id: 784
@@ -24,3 +25,4 @@ kd: 30
 ---
 ## Log
 - 2026-10-21 00:55 UTC director: brief written, READY (lane C hoodies cluster; primary measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).
+- 2026-10-21 02:49 UTC lane C: built new. Recraft v4 3 calls ($0.12, logged): try 1 had a blank two-dot face and a hairball-like chalk cloud; try 2 had claw-like hands and flames; try 3 kept: a smiling woman with a ponytail in a plum leotard and striped leg warmers, both arms up in a dismount pose with five normal fingers, landed on a couch cushion with a bowl of popcorn, small chalk puffs by her hands. scripts/prep-seal.py (white cushions stay opaque), art edges ragged-faded. Lockup (designs/c784/build.py): Bevan, STUCK THE LANDING. above, ON THE / COUCH. on two lines below (gap 30 px); navy cream + coral pink with a cream edge on the art, sand deep plum #4a1c54 + brick red #a83428. 7h: headline 2700 px / punch 3042 px (113%). 7k: type 1272 px of 3042 px print height (42%). 7l: subject 1500 px of 3041 px lockup width = 49%. Light file: Sand on 1090859210 (plum + brick ink, no cream), Navy on 1090859239 (cream headline, coral punch, cream edge). FW 1500 TOP 0. Verified 12/12 (6 Sand, 6 Navy) via GET /sync/products, back logo 1080398177. Shopify DRAFT: title Women's Gymnastics – Stuck the Landing. On the Couch. Hoodie, category hoodies, $39.99 no compare-at, tags graphic-hoodies-for-women hoodie gymnastics ai-art intake-done, SEO title 52 / meta 125, FAQ 5 x 49-55 words, order-by Dec 8, keyword gymnastics hoodie 390/KD 30 in map (under products), 'gymnastics hoodie' 2x in body. Line one: print's words + who + when, no superlative. Copy checked vs art (woman with ponytail, plum leotard, striped leg warmers, arms up, couch cushion, popcorn bowl, chalk puffs). Inks from mockups. Phone-size read of both fronts OK. R6.12/R6.13: front print only, Navy front image 1, neck-logo back last. Cover: flat product shot (retired-covers.json). Etsy and R5.2 proof unverifiable from the builder, director eyeball. Audit only 'not visible'. fal $0.12.

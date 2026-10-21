@@ -11049,6 +11049,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "womens-gymnastics-stuck-the-landing-on-the-couch-hoodie": {
+   "claimed": [
+    "gymnastics hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "gymnastics hoodie",
+     "volume": 390,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-21"
   }
  }
 }
