@@ -11101,6 +11101,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "unisex-doberman-80-pounds-of-lap-dog-hoodie": {
+   "claimed": [
+    "doberman hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "doberman hoodie",
+     "volume": 880,
+     "kd": 23
+    }
+   ],
+   "measured": "2026-10-21"
   }
  }
 }
