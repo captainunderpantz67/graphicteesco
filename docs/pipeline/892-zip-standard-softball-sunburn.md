@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-21T12:00Z
+status: REVIEW
 lane: C
 type: redo
 id: 892
@@ -25,3 +25,4 @@ push: zip
 ---
 ## Log
 - 2026-10-21 10:55 UTC director: brief written, READY (zip upgrade, lane C, push: zip; registry row 1045 claimed). #626 gets marked LIVE when this upgrade passes review.
+- 2026-10-21 14:20 UTC builder [C]: zip standard built IN PLACE, REVIEW. Printful 18/18 (Ash 6, Navy 6, Black 6 added: Shopify variants created, SKUs womens-softball-mom-travel-ball-took-my-saturdays-zip-hoodie-17295..17300) verified from GET /sync/products: Ash chest 1091059476 (navy thread) / wrist 1091059518 / back 1090285645 (dark-ink file: navy TRAVEL BALL:, red PAY TO SUNBURN.); Navy and Black chest 1091059351 (white thread) / wrist 1091059415 / back 1090285675 (light file: cream headline, gold punch). R7p back re-measure: dark file TRAVEL BALL: 3537 px vs PAY TO SUNBURN. 3540 px (100.1%); light file 3587 px vs 3600 px (100.4%); both files unchanged; back runs at 1800 px wide (aspect 1.04, FW >= 1500); the scene is 2520 of 3600 px = 70% of the lockup. Chest: hand-drawn softball with stitches and a small sun, one thread, 3.00 x 3.06 in, thinnest stroke 2.03 mm; wrist SUNBURN Anton 0.35 in caps, 1.32 in wide. All 18 variants $57.99 no compare-at (product created 2026-10-18, was $44.99), title '... Pay to Sunburn Embroidered Zip Hoodie', tag black-zip-up-hoodies added, Story, bullets, 5 FAQs incl. embroidery care (the wash FAQ replaced) and order-by Dec 8. NO NEW COVER: fal out of balance; image 1 is the Printful Black back mockup and the handle stays in retired-covers.json (registry 1045 stays claimed, unused). Photos: Black back, Navy back, Ash back, then the three chest fronts; every variant linked to its color's back. Design crops committed. Audit PASS. Phone-size read: TRAVEL BALL: / PAY TO SUNBURN. legible on all three.
