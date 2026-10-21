@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-21T09:50Z
+status: REVIEW
 lane: C
 type: redo
 id: 849
@@ -21,3 +21,4 @@ push: zip
 ---
 ## Log
 - 2026-10-21 07:05 UTC director: brief written, READY (zip push step 1, in-place upgrade of #365; template #816/#837; Black leads for the black zip spoke; registry row 1022 claimed).
+- 2026-10-21 10:25 UTC builder [C]: zip standard built IN PLACE, REVIEW. Printful 18/18 (Ash 6, Navy 6, Black 6 added: Shopify variants created, SKUs mens-skull-dead-serious-zip-hoodie-17295..17300) verified from GET /sync/products: Ash chest 1091023420 (navy thread) / wrist 1091023492 / back 1090126850 (dark-ink file); Navy and Black chest 1091023301 (white thread) / wrist 1091023341 / back 1090126828 (light file: cream FORMER, mustard LIFE OF THE PARTY). R7p back re-measure: FORMER 1431 px is the small lead-in line and LIFE OF THE PARTY (the punch) 2880 px = 201% of it, both files unchanged. Back print is tall (2880 x 4646 px), set to 1462 px wide so it fits the 2360 px area height, no stretch. Chest: hand-drawn grinning skull in a striped party hat, one thread, 3.00 x 4.27 in, thinnest stroke 2.71 mm; wrist LIFE Anton 0.35 in caps, 0.56 in wide. All 18 variants $57.99 no compare-at (product created 2026-10-17, was $44.99), title 'Men's Skull - Former Life of the Party Embroidered Zip Hoodie' (the handle says dead-serious, the product's keyword is the party line, kept), tag black-zip-up-hoodies added, Story, bullets, 6 FAQs incl. embroidery care (wash FAQ replaced), order-by Dec 8. NO NEW COVER: fal out of balance; image 1 is the Printful Black back mockup, handle stays in retired-covers.json (registry 1022 stays claimed, unused). Photos: Black back, Navy back, Ash back, then the three chest fronts; every variant linked to its color's back. Design crops committed. Audit PASS (0 warn). Phone-size read: FORMER / LIFE OF THE PARTY legible on Black, Navy and Ash.
