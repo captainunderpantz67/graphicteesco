@@ -15,6 +15,11 @@ J = {
  868: (['FLUENT IN HONK'], [], (0, 0, 1, 0.85), {}),
  869: (['FULL DRAW,'], ['ZERO DEER'], (0, 0.13, 1, 0.885), dict(aspect=1.1, hfrac=0.95, pfrac=0.95)),
  870: (['ANTLER ENVY'], [], (0, 0, 1, 0.745), dict(fillL=225)),
+ 877: (['GOT MY DUCKS', 'IN A ROW.'], ['(MOSTLY.)'], (0, 0.385, 1, 0.82), dict(patchw=0.95, hfrac=0.85, pfrac=0.87, aspect=1.2)),
+ 879: (["I'M NOT YELLING."], ["I'M BUGLING."], (0, 0, 1, 0.78), dict(hfrac=0.9)),
+ 880: (['NOT LOST.'], ['SCOUTING.'], (0, 0.175, 1, 0.82), dict(hfrac=0.8)),
+ 881: (['PLAYING DEAD'], ['TILL FRIDAY.'], (0, 0.335, 1, 0.875), dict(patchw=0.95, fillL=0)),
+ 882: (['CAMP SECURITY.'], ['ON BREAK.'], (0, 0, 1, 0.845), dict(hfrac=0.9, patchw=0.9)),
 }
 if __name__ == '__main__':
     for n in map(int, sys.argv[1:]):
