@@ -1,4 +1,5 @@
-status: BUILDING [E] 2026-10-21 06:22
+status: REVIEW
+shopify: gid://shopify/Product/15371604263216
 lane: E
 type: new
 id: 743
@@ -26,3 +27,5 @@ kd: 20
 ---
 ## Log
 - 2026-10-20 20:45 UTC director: brief written, READY (lane E; frenchie sweater 1,900/20; measured, ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).
+- 2026-10-21 06:40 UTC builder [E]: built, REVIEW. Shopify DRAFT gid 15371604263216, category aa-1-13-14, 12 variants (Sand + Navy, S-3XL) $34.99, no compare-at, tags per brief. Etsy exact-line count not checkable from the cloud (director may confirm); R5.2 gate waived (brief). Art: 1 Recraft call ($0.04, first try kept; fawn Frenchie on a patterned armchair, chin on a seated person's knees, striped socks and a knit blanket, no words in the art; no straight edges, worn chair edges, no text to erase). Lettering via compose-print in Big Shoulders Display 900 (used on 0 of the last 60 items): headline PERSONAL SPACE? above, NEVER HEARD / OF HER. below at one size. Logged: headline 3273 px / punch 3309 px (101%); type 1457 of 3368 px print height = 43%; subject 1556 of 3273 = 48% of the widest line (47% of the lockup). Print 11.0 in wide, FW 1650 TOP 75. Light file on Sand (file 1090955720): deep red headline, pine-green punch, no keyline, dark fills; Navy file 1090955756: cream headline, mustard punch, thin cream keyline around the art only. Printful sync 483604554: 12/12 synced, Sand 6/6 on 1090955720, Navy 6/6 on 1090955756, back logo 1080398177 on all. Phone-size read OK on both mockups (Sand and Navy). Cover: none, handle added to retired-covers.json (plain product shot, R6.11). Mockups: Sand front, Navy front, neck-logo back last (R6.12/R6.13), alts per R7.8, variants linked. Copy: line one carries frenchie sweater (1,900 / KD 20) plainly, no superlative; 5 FAQs 45-50 words incl. order by Dec 8; ink named from the mockups. Keyword map row under products. audit --handle: only 'not visible'; astro build OK. fal $0.04. Sheet docs/review/743.jpg.
+- 2026-10-21 06:40 UTC builder [E]: sync 12/12 confirmed. REVIEW.

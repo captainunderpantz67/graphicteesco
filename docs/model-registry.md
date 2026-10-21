@@ -795,7 +795,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1005 | Black woman, early 40s, shoulder-length box braids tied back, medium build | CLAIMED 2026-10-21 — #815 fishing zip back-print cover (brief) |
 | 1000 | Black man, late 40s, close-cropped grey hair, trimmed grey goatee, tall lean build | CLAIMED 2026-10-21 — #816 golf zip back-print cover (brief) |
 | 1001 | Filipino-American woman, late 30s, long dark hair in a low claw-clip twist, medium build | USED 2026-10-21 — #817 baseball mom zip back-print cover (claw-clip bun, bleachers at dusk) |
-| 1002 | white woman, early 30s, auburn hair in a messy bun, freckled, petite build | CLAIMED 2026-10-21 — #818 capybara christmas zip back-print cover (brief) |
+| 1002 | white woman, early 30s, auburn hair in a messy bun, freckled, petite build | USED 2026-10-21 — #818 capybara christmas zip back-print cover (porch railing, bun) |
 | 1003 | white man, late 60s, thin white hair under a bucket hat, slim build, wire glasses | CLAIMED 2026-10-21 — #819 golf retired zip back-print cover (brief) |
 | 1004 | Japanese-American woman, late 20s, shoulder-length black hair with a center part, athletic build | CLAIMED 2026-10-21 — #820 national park zip back-print cover (brief) |
 | 1006 | Cherokee man, mid 50s, long grey-black hair in a low ponytail, stocky build | CLAIMED 2026-10-21 — #821 Opening Day zip redesign cover (brief) |
@@ -811,3 +811,16 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1016 | Filipino-American woman, early 30s, long straight black hair in a low bun, petite build | CLAIMED 2026-10-21 — #837 zip back-print cover (brief) |
 | 1017 | a pair of friends: white woman, late 20s, red wavy hair tied back; and Black woman, late 20s, short natural curls; both slim | CLAIMED 2026-10-21 — #838 zip back-print cover (brief) |
 | 1018 | a couple: Vietnamese-American man, early 40s, short black hair; and white woman, early 40s, shoulder-length light brown hair tied back; both medium builds | CLAIMED 2026-10-21 — #839 zip back-print cover (brief) |
+| 1019 | Mexican-American man, late 40s, salt-and-pepper short hair and full beard, broad build | CLAIMED 2026-10-21 — #846 zip back-print cover (brief) |
+| 1020 | Korean-American woman, mid 20s, shoulder-length black hair tied back in a low ponytail, slim build | CLAIMED 2026-10-21 — #847 zip back-print cover (brief) |
+| 1021 | white woman, early 30s, curly auburn hair tied up in a bun, freckles, average build | CLAIMED 2026-10-21 — #848 zip back-print cover (brief) |
+| 1022 | Black man, mid 30s, short twists, trimmed beard, tall slim build | CLAIMED 2026-10-21 — #849 zip back-print cover (brief) |
+| 1023 | Puerto Rican woman, early 20s, long dark curly hair tied back in a claw clip, slim build | CLAIMED 2026-10-21 — #850 zip back-print cover (brief) |
+| 1024 | white woman, late 20s, long straight blonde hair in a low braid, tall slim build | CLAIMED 2026-10-21 — #851 Essentials zip cover (brief) |
+| 1025 | Lebanese-American man, early 30s, short dark wavy hair, light stubble, athletic build | CLAIMED 2026-10-21 — #852 Essentials zip cover (brief) |
+| 1026 | Japanese-American woman, mid 20s, chin-length black bob, slim build | CLAIMED 2026-10-21 — #853 Essentials zip cover (brief) |
+| 1027 | Black man, early 20s, short fade haircut, slim build | CLAIMED 2026-10-21 — #854 Essentials zip cover (brief) |
+| 1028 | South Asian woman, early 30s, long dark hair tied back in a low ponytail, average build | CLAIMED 2026-10-21 — #855 Essentials zip cover (brief) |
+| 1029 | white man, late 30s, short brown hair and full brown beard, stocky build | CLAIMED 2026-10-21 — #856 Essentials zip cover (brief) |
+| 1030 | Afro-Latina woman, late 20s, voluminous natural curls pulled up, slim build | CLAIMED 2026-10-21 — #857 Essentials zip cover (brief) |
+| 1031 | Chinese-American man, mid 40s, short black hair greying at the temples, average build | CLAIMED 2026-10-21 — #858 Essentials zip cover (brief) |

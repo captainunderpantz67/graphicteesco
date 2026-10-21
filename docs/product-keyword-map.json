@@ -8805,7 +8805,7 @@
      "kd": 40
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "womens-otter-floating-through-the-week-graphic-tee": {
    "claimed": [
@@ -8831,11 +8831,11 @@
      "kd": 41
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-16"
   },
   "mens-hockey-here-for-the-post-game-nachos-graphic-tee": {
    "claimed": [
-    "funny hockey shirt"
+    "hockey shirt"
    ],
    "gaps_measured": [
     {
@@ -8844,12 +8844,7 @@
      "kd": 46
     }
    ],
-   "measured": "2026-10-18",
-   "retargeted": {},
-   "moved_head_to_collection": {
-    "date": "2026-10-19",
-    "from": "hockey shirt"
-   }
+   "measured": "2026-10-16"
   },
   "womens-christmas-cat-allegedly-graphic-tee": {
    "claimed": [
@@ -10527,7 +10522,15 @@
   "womens-french-bulldog-personal-space-never-heard-of-her-crewneck-sweatshirt": {
    "claimed": [
     "frenchie sweater"
-   ]
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "frenchie sweater",
+     "volume": 1900,
+     "kd": 20
+    }
+   ],
+   "measured": "2026-10-16"
   },
   "womens-embroidered-french-bulldog-loaf-mode-crewneck-sweatshirt": {
    "claimed": [
@@ -11357,6 +11360,19 @@
      "phrase": "papa hoodie",
      "volume": 590,
      "kd": 44
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-gym-this-is-my-warm-up-it-is-not-lifting-graphic-tee": {
+   "claimed": [
+    "lifting shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "lifting shirt",
+     "volume": 1900,
+     "kd": 40
     }
    ],
    "measured": "2026-10-16"

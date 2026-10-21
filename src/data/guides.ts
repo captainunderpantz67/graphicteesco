@@ -67,6 +67,83 @@ export const allGuides: Guide[] = [
     ],
   },
   {
+    // Writer lane W rewrite (2026-10-21) of the live 'funny-golf-gifts' guide, same slug. Rewrite queue item 2 of 6.
+    // The live entry above stays until the director approves; then swap this one in (drop the older entry, set draft false).
+    // Keyword: funny golf gifts 2,900 / KD 34 (RankHero 2026-10-19, carried from the live entry; not re-measured in this unattended run). Owned by this guide; "golf hoodie" stays with /hoodies/golf-hoodies/.
+    // Facts (slogans, prices, policies) come from the pipeline files #504 #505 #511 #517 #542 #660 and site.ts. Picks are live A-grade designs listed in fresh-designs.json.
+    // Planned siblings (not live yet): golf-gifts-for-him, golf-gifts-for-women, golf-retirement-gifts.
+    slug: 'funny-golf-gifts',
+    keyword: 'funny golf gifts',
+    title: 'Funny Golf Gifts: 5 Shirts & Hoodies Golfers Laugh At',
+    description: 'Funny golf gifts that roast the golfer\'s own game: Sorry About Your Windshield, Improving My Lie, Fairways Are a Rumor. Crewnecks from $34.99, hoodies $39.99.',
+    h1: 'Funny Golf Gifts for the Golfer Who Laughs at His Own Game',
+    date: '2026-10-21',
+    cluster: 'hoodies',
+    draft: true,
+    answer: 'The best funny golf gifts poke fun at the golfer\'s own game: the slice, the "improved" lie, the fairway he never finds. Graphic Tees Co. has five that do it, printed to order: Sorry About Your Windshield (crewneck $34.99, hoodie $39.99), Not Cheating. Improving My Lie. ($39.99), I Only Golf for the Outfits (cropped hoodie $44.99) and Fairways Are a Rumor (half zip $54.99).',
+    picks: [
+      {
+        h2: 'What is a funny gift for a golfer who slices?',
+        body: ['Sorry About Your Windshield. The apology is the joke, and the golfer wearing it is admitting what everyone in the foursome already knows.'],
+        items: [
+          { slogan: 'Sorry About Your Windshield.', tee: 'unisex-golf-sorry-about-your-windshield-hoodie', crewneck: 'unisex-golf-sorry-about-your-windshield-crewneck-sweatshirt',
+            text: 'SORRY ABOUT YOUR WINDSHIELD. is printed big on the chest, above and below a golfer in front of a picket fence and a row of parked cars with a cracked star on the glass. It is for the golfer whose slice has found the parking lot. The hoodie is $39.99 and the crewneck is $34.99.' },
+        ],
+      },
+      {
+        h2: 'What is a good gift for a golfer who cheats a little?',
+        body: ['Not Cheating. Improving My Lie. It is a golf joke with two readings, and the person who gets it as a gift will know exactly why.'],
+        items: [
+          { slogan: 'Not Cheating. Improving My Lie.', tee: 'unisex-golf-not-cheating-improving-my-lie-hoodie',
+            text: 'The art is a raccoon nudging a golf ball into a better spot, with NOT CHEATING. above it and IMPROVING MY LIE. below it. Improving your lie means moving the ball to a better position, which the rules do not allow. It is for the friend who rolls it over in the rough when nobody is looking. The hoodie is $39.99.' },
+        ],
+      },
+      {
+        h2: 'What should you get a golfer who plays from the trees?',
+        body: ['Fairways Are a Rumor. It is the standard self-roast of the weekend golfer who spends most of the round off the short grass, on the classic golf layer.'],
+        items: [
+          { slogan: 'Fairways Are a Rumor.', tee: 'mens-golf-fairways-are-a-rumor-half-zip',
+            text: 'FAIRWAYS ARE A RUMOR. is printed large on the back of a men\'s half zip pullover, with the art alone small on the left chest. It is the dressier of the five, for the golfer who wants a layer that works at the club and at home. The half zip is $54.99.' },
+        ],
+      },
+      {
+        h2: 'What is a funny golf gift for a woman who golfs?',
+        body: ['I Only Golf for the Outfits. It teases the golf-outfit culture that many newer golfers love, and it works for the friend who bought the skirt before the clubs.'],
+        items: [
+          { slogan: 'I Only Golf for the Outfits', tee: 'womens-golf-i-only-golf-for-the-outfits-cropped-hoodie',
+            text: 'I ONLY GOLF is set in pine green above the art, with for the outfits in hot pink script below. The women\'s cropped hoodie ends at the waist, so it sits right with high-waisted pants or a golf skirt. It is $44.99.' },
+        ],
+        links: [{ href: '/hoodies/golf-hoodies/', text: 'Shop all golf hoodies' }, { href: '/hoodies/', text: 'All graphic hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a golf gift funny instead of corny?',
+        body: ['The joke has to be about the golfer\'s actual game. Lines about slices, lies and missed fairways land because every golfer has been there. A generic "golf is life" slogan does not.',
+          'The five designs at Graphic Tees Co. are all original art drawn in a 1950s and 60s country-club style, with the joke set in big type so it reads across the parking lot. Pick the joke that matches the golfer\'s worst habit and he will wear it to prove he can take it.'] },
+      { h2: 'Is a golf hoodie or a crewneck the better gift?',
+        body: ['A crewneck is the easy pick and the cheapest: Sorry About Your Windshield is $34.99 on a Gildan 18000 crewneck in 8 oz fleece, 50% cotton and 50% polyester. A hoodie adds a front pouch and a hood for cold early tee times, and the pullover is $39.99.',
+          'Both go over a polo for the first nine and come off by the turn. Check the dress code first if the golfer plays a private club, since some ask for a collar.'],
+        links: [{ href: '/guides/how-to-style-graphic-tees/', text: 'How to style graphic tees' }] },
+      { h2: 'Do these work as a golf gift under $50?',
+        body: ['Yes, four of the five do: the Windshield crewneck at $34.99, the Windshield and Improving My Lie hoodies at $39.99 and the cropped hoodie at $44.99. The half zip is $54.99. US shipping is free on orders of $45 or more.',
+          'For a small add-on, the Sorry About Your Windshield socks are $18.99 and match the shirt.'],
+        links: [{ href: '/products/unisex-golf-sorry-about-your-windshield-socks/', text: 'Sorry About Your Windshield socks' }] },
+      { h2: 'When should you order a golf gift for Christmas?',
+        body: ['Order by about December 8 for Christmas. Every piece is printed after you order it, in 2–5 business days, and then arrives in about 3–8 business days, so allow up to 13 business days in total. Exact estimates show at checkout.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'Buying for a group gift swap?',
+        body: ['A funny golf hoodie also works as a gift-swap steal for the golfer in the group. For other ideas, see our white elephant gifts guide.'],
+        links: [{ href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }] },
+    ],
+    faqs: [
+      { q: 'What is a good funny gift for a golfer?', a: 'A golf hoodie or crewneck with a joke about his own game, like Sorry About Your Windshield or Not Cheating. Improving My Lie. from Graphic Tees Co. It gets worn on the course and makes the foursome laugh.' },
+      { q: 'What do you get a golfer who has everything?', a: 'Something he would not buy himself: a funny golf hoodie or half zip with an original joke. Graphic Tees Co. prints each piece to order, from $34.99. Equipment is personal; a laugh is not.' },
+      { q: 'Are these golf gifts good for women golfers too?', a: 'Yes. The Windshield and Improving My Lie hoodies are unisex, and Graphic Tees Co. makes a women\'s cropped hoodie, I Only Golf for the Outfits, for $44.99.' },
+      { q: 'How much are funny golf gifts?', a: 'At Graphic Tees Co., the Sorry About Your Windshield crewneck is $34.99, the golf hoodies are $39.99 to $44.99 and the Fairways Are a Rumor half zip is $54.99. US shipping is free on orders of $45 or more.' },
+      { q: 'Can I exchange the size if it does not fit?', a: 'Yes. Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+    ],
+  },
+  {
     // Gift guide (Claude 2026-10-19). RankHero: white elephant gifts 33,100/44 (78K listings); funny white elephant gifts 22,200/9 has no competition count (blended, R2.10), used once in copy only.
     // A-grade Christmas designs only; "I Stole It. I'm Keeping It." added 2026-10-19 (director) when its redesign went LIVE; add ornaments/mugs when live.
     slug: 'white-elephant-gifts',

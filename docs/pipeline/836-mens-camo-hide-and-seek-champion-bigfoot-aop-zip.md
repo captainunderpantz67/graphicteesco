@@ -1,5 +1,5 @@
 status: READY
-lane: C
+lane: E
 type: new
 id: 836
 handle: mens-camo-hide-and-seek-champion-aop-zip-hoodie
@@ -29,3 +29,4 @@ push: zip
 ---
 ## Log
 - 2026-10-21 05:25 UTC director: brief written, READY (Sam's third AOP pilot, zip spec 16e; primary unmeasured under the R11.12 waiver; registry row 1015 claimed).
+- 2026-10-21 07:10 UTC director: moved to lane E (inbox 2026-10-21 05:50: E builds the AOP pilots, Essentials and colorways; C keeps the zip upgrades).
