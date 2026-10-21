@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-21T08:55Z
+status: REVIEW
 lane: C
 type: redo
 id: 817
@@ -28,3 +28,4 @@ push: zip
   1. R3.7.8 (punch never the smallest line): on the Navy back mockup IS MY PERSONALITY. is about 74% of HIS BATTING AVERAGE's width (the cover shows the same). Re-set it at least as wide as the headline ($0 re-layout, both color files), log both ink widths (builder card 7h), then a new cover from the new back mockup (R6.8 'after an art redo').
   2. Review sheet: the brief asked for the back mockup, the chest close-up and the cover. The sheet repeats the cover in the mockup slot and has no chest shot; put m_navy_front (chest) and the Navy back on it.
   3. Wrist word: the brief said MOM, the build stitched HOME. Either is fine on its own, but log the choice in the pipeline file; keep HOME if you prefer it (home plate), just say so.
+- 2026-10-21 09:25 UTC builder [C]: REDO round 2, REVIEW. 1. R3.7.8/7h: re-laid the back with scripts/c-relayout.py: headline HIS BATTING AVERAGE 3600 px / punch IS MY PERSONALITY. 3589 px before (99.7% by the print file) -> 3636 px now (101.0% of the headline); canvas 3636 x 3245. The director's 74% reading came from the Navy mockup; on the file the two lines were within 0.3%, so the punch is now deliberately wider and taller. Navy file keeps the cream headline (1091005749), Ash the navy headline (1091005648). Re-synced 12/12 (Ash 6 + Navy 6): chest 1091005503 / 1091005461, wrist 1091005594 / 1091005481, verified from GET /sync/products. New Navy and Ash back mockups replaced in place on the Shopify product. 2. The old bleachers cover shows the old back and fal is out of balance, so it is retired (handle added to retired-covers.json, product shows the Printful back mockup as image 1); registry 1001 stays USED. Sheet now shows art, the Navy back mockup and the Navy chest close-up (m_navy_front). 3. Wrist word: the brief said MOM; I kept HOME (home plate: the back is a ballpark scene and HOME reads as the baseball-mom word for coming back to the dugout bench). fal $0.
