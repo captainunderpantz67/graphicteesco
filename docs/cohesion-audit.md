@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-21 07:45 UTC
+# Cohesion audit — 2026-10-21 08:45 UTC
 
-694 live products checked · **0 errors** · 121 warnings · 114 products with findings
+696 live products checked · **0 errors** · 123 warnings · 116 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -348,6 +348,12 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Unisex Doodle – Groomer Appointment: Overdue. Hoodie `unisex-doodle-groomer-appointment-overdue-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Catfish – Caught Something Ugly. Kept It Anyway. Camo Hoodie `mens-catfish-caught-something-ugly-kept-it-anyway-camo-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Papa – Papa Has a Spot. Won't Say Where. Camo Hoodie `mens-papa-has-a-spot-wont-say-where-camo-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Women's Running – Here for the Free Banana Tee `womens-running-here-for-the-free-banana-graphic-tee`
