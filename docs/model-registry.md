@@ -831,3 +831,5 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1036 | Japanese-American man, late 20s, shaggy layered hair, slim build | CLAIMED 2026-10-21 — #864 zip cover (brief) |
 | 1037 | Filipino-American man, mid 40s, short black hair going grey at the temples, stocky build | CLAIMED 2026-10-21 — #871 zip cover (brief) |
 | 1038 | white man, late 50s, red-grey full beard, heavy build, blaze-orange knit cap | CLAIMED 2026-10-21 — #872 zip cover (brief) |
+| 1039 | Korean-American woman, early 30s, shoulder-length black hair with a blunt fringe, slim build | CLAIMED 2026-10-21 — #886 zip cover (brief) |
+| 1040 | Mexican-American woman, early 40s, silver-streaked dark hair in one long braid, sunglasses pushed up on her head, athletic build | CLAIMED 2026-10-21 — #887 zip cover (brief) |
