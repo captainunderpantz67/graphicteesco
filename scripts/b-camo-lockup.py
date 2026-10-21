@@ -10,13 +10,14 @@ art, out = args[0], args[1]; lines = args[2:]
 W = 3400; BONE = (242, 234, 211, 255); DARK = tuple(int(x) for x in os.environ['DARKC'].split(',')) + (255,) if os.environ.get('DARKC') else (17, 17, 17, 255); OUT = 60; PH = int(W * float(os.environ.get("PHR", "0.86")))
 tmp = tempfile.mktemp(suffix='.png'); subprocess.run(['python3', R + 'scripts/print-prep.py', art, tmp, '--width', '3000'], check=True, capture_output=True)
 a = Image.open(tmp).convert('RGBA'); bb = a.getbbox(); a = a.crop(bb)
-inner = W - 2 * OUT - 160; s = min(inner / a.width, (PH - 2 * OUT - 160) / a.height); a = a.resize((int(a.width * s), int(a.height * s)), Image.LANCZOS)
+PW = int(W * float(os.environ.get('PW', 1)))  # PW=0.7: a narrower patch for tall subjects
+inner = PW - 2 * OUT - 160; s = min(inner / a.width, (PH - 2 * OUT - 160) / a.height); a = a.resize((int(a.width * s), int(a.height * s)), Image.LANCZOS)
 ph = max(PH, a.height + 2 * OUT + 160)
 import numpy as np  # enclosed white inside the art becomes the patch's bone (no white-on-cream seams)
 _n = np.array(a); _w = (_n[..., :3].min(axis=2) >= 244) & (_n[..., 3] > 0); _n[_w, :3] = BONE[:3]; a = Image.fromarray(_n)
-patch = Image.new('RGBA', (W, ph), (0, 0, 0, 0)); d = ImageDraw.Draw(patch)
-d.rounded_rectangle((0, 0, W - 1, ph - 1), 150, fill=DARK); d.rounded_rectangle((OUT, OUT, W - 1 - OUT, ph - 1 - OUT), 110, fill=BONE)
-patch.alpha_composite(a, ((W - a.width) // 2, (ph - a.height) // 2))
+patch = Image.new('RGBA', (PW, ph), (0, 0, 0, 0)); d = ImageDraw.Draw(patch)
+d.rounded_rectangle((0, 0, PW - 1, ph - 1), 150, fill=DARK); d.rounded_rectangle((OUT, OUT, PW - 1 - OUT, ph - 1 - OUT), 110, fill=BONE)
+patch.alpha_composite(a, ((PW - a.width) // 2, (ph - a.height) // 2))
 def font(sz):  # FONT=<file in designs/fonts> rotates the face (card 7r); variable faces are set to their heaviest weight
     f = ImageFont.truetype(R + 'designs/fonts/' + os.environ.get('FONT', 'AlfaSlabOne-Regular.ttf'), sz)
     try: f.set_variation_by_axes([float(os.environ.get('WGHT', 900))])
@@ -27,7 +28,7 @@ def line(t):
     while font(sz).getbbox(t)[2] > W - 70 and sz > 100: sz -= 1
     st = max(18, sz // 14); f = font(sz); b = f.getbbox(t, stroke_width=st)
     im = Image.new('RGBA', (b[2] - b[0] + 4, b[3] - b[1] + 4), (0, 0, 0, 0)); dd = ImageDraw.Draw(im)
-    dd.text((-b[0] + 2, -b[1] + 2), t, font=f, fill=BONE, stroke_width=st, stroke_fill=DARK)
+    dd.text((-b[0] + 2, -b[1] + 2), t, font=f, fill=DARK if os.environ.get('SWAP') else BONE, stroke_width=st, stroke_fill=BONE if os.environ.get('SWAP') else DARK)  # SWAP=1: dark letters, bone keyline (light camo)
     return im.crop(im.getbbox())
 # LINEW=0.7 sets every line to 70% of the lockup width
 L = [line(t) for t in lines]; gap = 70
