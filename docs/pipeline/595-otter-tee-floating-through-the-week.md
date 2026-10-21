@@ -2,7 +2,7 @@ status: REDO
 lane: B
 type: new
 id: 595
-handle: womens-otter-floating-through-the-week-graphic-tee
+handle: womens-otter-not-sinking-technically-graphic-tee
 kd: 38
 ---
 ## Women's Otter – Floating Through the Week Tee
@@ -20,7 +20,7 @@ kd: 38
 - **Print size:** FW 1500 TOP 75 (6400).
 - **Copy:** line one = the line + who wears it + when (R9.11), said plainly: no superlative opener built around the keyword (R8.3). Primary keyword in the title or SEO title, the first sentence and once in the meta; at most 3 times in all (the audit warns at 4). Describe only what is in the art; never say we drew it ("Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, weight, wash care, gift fit, Christmas order-by about Dec 8, free size exchange).
 - **Cover:** registry #935 (Japanese-American woman, late 30s, chin-length black bob tucked behind her ears, small silver studs), CLAIMED. Scene: a seaside boardwalk railing in the morning; a coffee cup at her side, hands clear of the print. Props never over the print (R6.5); hair tied back or behind the shoulders (R6.9). Printful mockup as `--design` (--n 1). Max 2 attempts.
-- **Title / handle:** "Women's Otter – Floating Through the Week Tee" / `womens-otter-floating-through-the-week-graphic-tee` (R7.4; the suffix sets the audit price, R12.1).
+- **Title / handle:** "Women's Otter – Floating Through the Week Tee" / `womens-otter-not-sinking-technically-graphic-tee` (R7.4; the suffix sets the audit price, R12.1).
 - **Tags:** graphic-tees-for-women, funny-graphic-tees, retro-graphic-tees, ai-art, intake-done.
 - **Price:** $24.99 (R12.1 tee), NO compare-at.
 - **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d). Before REVIEW: Printful default file checked on every variant and logged (R7.7, 2026-10-18 line); cover chest zoomed to 200% (R6.9 clean-erase line).
