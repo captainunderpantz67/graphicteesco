@@ -1,5 +1,5 @@
 status: READY
-lane: C
+lane: E
 type: new
 id: 822
 handle: womens-camo-blending-in-was-never-the-plan-aop-zip-hoodie
@@ -27,3 +27,4 @@ push: zip
 ## Log
 - 2026-10-21 05:00 UTC director: brief written, READY (AOP zip push; primary unmeasured under Sam's depth-40 waiver; registry row 1007 claimed).
 - 2026-10-21 05:25 UTC director: one of Sam's 3 AOP pilots (pink camo). Build it next in lane C after the zip upgrades.
+- 2026-10-21 07:10 UTC director: moved to lane E (inbox 2026-10-21 05:50: E builds the AOP pilots, Essentials and colorways; C keeps the zip upgrades).
