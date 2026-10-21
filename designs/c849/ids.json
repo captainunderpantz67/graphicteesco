@@ -1,0 +1,38 @@
+{
+ "chest_white": {
+  "id": 1091023301,
+  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/c849_chest_white.png",
+  "w": 1200,
+  "h": 1320
+ },
+ "wrist_white": {
+  "id": 1091023341,
+  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/c849_wrist_white.png",
+  "w": 600,
+  "h": 144
+ },
+ "chest_navy": {
+  "id": 1091023420,
+  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/c849_chest_navy.png",
+  "w": 1200,
+  "h": 1320
+ },
+ "wrist_navy": {
+  "id": 1091023492,
+  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/c849_wrist_navy.png",
+  "w": 600,
+  "h": 144
+ },
+ "back_ash": {
+  "id": 1090126850,
+  "url": "https://v3b.fal.media/files/b/0aaf15e3/KFKd8oI8PwkpDh0q4JZ49_print_ash.png",
+  "w": 2880,
+  "h": 4646
+ },
+ "back_navy": {
+  "id": 1090126828,
+  "url": "https://v3b.fal.media/files/b/0aaf15e3/mkz2KqcsgaaEWW2otjTIz_print_navy.png",
+  "w": 2880,
+  "h": 4674
+ }
+}
