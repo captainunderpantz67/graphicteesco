@@ -1,2 +1,1 @@
-{"art":"/tmp/w/a694.png","crop":[0,255,3348,4225],"font":"AlfaSlabOne-Regular.ttf","w":1000,"centers":[675,2025],"gap":22,"art_h":690,
- "rows":[{"t":"IT LOOKED SMALLER","c":"#b5362f"},{"art":true},{"t":"AT THE FARM","c":"#b5362f","w":720}]}
+{"art": "/tmp/claude-0/-home-user-graphicteesco/e2d59130-111b-51db-bf6c-1ae31c4d7325/scratchpad/m694/a694.png", "crop": [0, 255, 3348, 4225], "font": "AlfaSlabOne-Regular.ttf", "w": 1000, "centers": [675, 2025], "gap": 22, "art_h": 640, "rows": [{"t": "IT LOOKED SMALLER", "c": "#b5362f"}, {"art": true}, {"t": "AT THE FARM", "c": "#b5362f", "w": 1015}]}
