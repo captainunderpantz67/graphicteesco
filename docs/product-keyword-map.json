@@ -11088,6 +11088,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "mens-lacrosse-played-lacrosse-will-bring-it-up-hoodie": {
+   "claimed": [
+    "lacrosse hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "lacrosse hoodie",
+     "volume": 1600,
+     "kd": 20
+    }
+   ],
+   "measured": "2026-10-21"
   }
  }
 }
