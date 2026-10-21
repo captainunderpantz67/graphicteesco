@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """e-golf827.py <outdir>: #827 golf AOP zip panels (Printful #717, 5250 x 6000). Course map cells overlapped by a 110 px feathered dissolve (upright, no half-tile ghosting),
-tiny code-drawn golf balls with deadpan labels set in Oswald (un-mirrored in every cell), chest ball-on-tee, back lockup 3820 px wide (fits the visible back panel; 4300 clipped on the mockup)."""
+tiny code-drawn golf balls with deadpan labels set in Oswald (un-mirrored in every cell), chest ball-on-tee, back lockup 3400 px wide (the visible back panel; 4300 and 3820 clipped the S and period on the mockup)."""
 import sys, os
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 R = 'docs/print-files/'; out = sys.argv[1]; PW, PH, CELL, BAND = 5250, 6000, 1300, 110; STR = CELL - BAND; K = CELL / 1024
@@ -32,6 +32,6 @@ P.convert('RGB').save(out + '/plain.jpg', quality=92)
 P.crop((0, 0, PW, 3750)).convert('RGB').save(out + '/pocket.jpg', quality=92)
 chest = Image.open(out + '/chest_new.png').convert('RGBA')
 Fr = P.convert('RGBA'); Fr.alpha_composite(chest, (3383, 1503)); Fr.convert('RGB').save(out + '/front.jpg', quality=92)
-lk = Image.open(R + '827-backlockup.png').convert('RGBA'); w = 3820; lk = lk.resize((w, round(lk.height * w / lk.width)), Image.LANCZOS)
+lk = Image.open(R + '827-backlockup.png').convert('RGBA'); w = 3400; lk = lk.resize((w, round(lk.height * w / lk.width)), Image.LANCZOS)
 Bk = P.convert('RGBA'); Bk.alpha_composite(lk, ((PW - w) // 2, 900)); Bk.convert('RGB').save(out + '/back.jpg', quality=92)
 print(lk.size)
