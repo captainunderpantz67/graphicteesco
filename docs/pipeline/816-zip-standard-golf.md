@@ -1,4 +1,4 @@
-status: REDO
+status: BUILDING [C] 2026-10-21T08:55Z
 lane: C
 type: redo
 id: 816
