@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [C] 2026-10-21T08:10Z
 lane: C
 type: redo
 id: 838
