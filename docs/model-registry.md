@@ -893,3 +893,22 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1098 | Middle Eastern woman, early 30s, long dark hair tied back, slim build | CLAIMED 2026-10-21 — #941 zip cover (brief) |
 | 1099 | white man, late 60s, white hair, trim build | CLAIMED 2026-10-21 — #942 zip cover (brief) |
 | 1100 | Black woman, early 60s, short natural grey hair, medium build | CLAIMED 2026-10-21 — #942 zip cover (brief) |
+| 1101 | white man, mid 40s, red-brown hair, full beard, broad build | CLAIMED 2026-10-21 — #943 zip cover (brief) |
+| 1102 | Filipino man, late 30s, short black hair, slim build | CLAIMED 2026-10-21 — #944 zip cover (brief) |
+| 1103 | white woman, late 30s, curly auburn hair tied back, medium build | CLAIMED 2026-10-21 — #944 zip cover (brief) |
+| 1104 | Black man, early 30s, short twists, athletic build | CLAIMED 2026-10-21 — #945 zip cover (brief) |
+| 1105 | white man, early 50s, shaved head, grey stubble, broad build | CLAIMED 2026-10-21 — #946 zip cover (brief) |
+| 1106 | Korean American man, early 40s, short black hair, slim build | CLAIMED 2026-10-21 — #947 zip cover (brief) |
+| 1107 | Latina woman, late 30s, long dark hair tied back in a bun, medium build | CLAIMED 2026-10-21 — #948 zip cover (brief) |
+| 1108 | white man, late 40s, short grey hair, mustache, stocky build | CLAIMED 2026-10-21 — #949 zip cover (brief) |
+| 1109 | South Asian woman, early 30s, long black hair tied back, slim build | CLAIMED 2026-10-21 — #950 zip cover (brief) |
+| 1110 | Black man, mid 50s, short grey hair, lean build | CLAIMED 2026-10-21 — #951 zip cover (brief) |
+| 1111 | Mexican American man, early 30s, short black hair, goatee, broad build | CLAIMED 2026-10-21 — #952 zip cover (brief) |
+| 1112 | white woman, late 60s, silver bob, medium build | CLAIMED 2026-10-21 — #953 zip cover (brief) |
+| 1113 | Black man, early 60s, short white hair, trim beard, medium build | CLAIMED 2026-10-21 — #954 zip cover (brief) |
+| 1114 | white man, early 30s, brown hair, short beard, lean build | CLAIMED 2026-10-21 — #955 camo cover (brief) |
+| 1115 | Black woman, late 20s, long braids tied back, athletic build | CLAIMED 2026-10-21 — #955 camo cover (brief) |
+| 1116 | Vietnamese American man, late 20s, short black hair, slim build | CLAIMED 2026-10-21 — #956 camo cover (brief) |
+| 1117 | white woman, early 30s, blonde hair in a low ponytail, medium build | CLAIMED 2026-10-21 — #956 camo cover (brief) |
+| 1118 | white man, late 50s, grey hair, weathered face, stocky build | CLAIMED 2026-10-21 — #957 camo cover (brief) |
+| 1119 | Native Hawaiian woman, early 40s, long dark wavy hair tied back, medium build | CLAIMED 2026-10-21 — #958 camo cover (brief) |
