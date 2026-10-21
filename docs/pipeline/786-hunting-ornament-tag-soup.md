@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [E] 2026-10-21 07:36
 lane: E
 type: addon
 id: 786
