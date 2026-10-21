@@ -1084,6 +1084,13 @@
   "x": 144,
   "y": 19
  },
+ "mens-lineman-bad-weather-is-my-overtime-hoodie": {
+  "h": 473,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-navy-front-6ad7fd21a2403.jpg",
+  "w": 379,
+  "x": 307,
+  "y": 157
+ },
  "mens-mechanic-no-i-cant-just-take-a-quick-look-graphic-tee": {
   "h": 637,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-staple-t-shirt-white-front-6ad471c47a09d.jpg",
@@ -1139,6 +1146,13 @@
   "w": 603,
   "x": 280,
   "y": 125
+ },
+ "mens-running-i-only-run-downhill-hoodie": {
+  "h": 442,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-navy-front-6ad7fb54ba3b3.jpg",
+  "w": 354,
+  "x": 313,
+  "y": 161
  },
  "mens-skull-dead-serious-zip-hoodie": {
   "h": 806,
@@ -1419,6 +1433,13 @@
   "w": 599,
   "x": 278,
   "y": 126
+ },
+ "unisex-birding-hold-on-theres-a-bird-hoodie": {
+  "h": 403,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-navy-front-6ad7f7a3ca89c.jpg",
+  "w": 322,
+  "x": 331,
+  "y": 134
  },
  "unisex-bookish-do-not-sell-my-books-at-my-funeral-socks": {
   "h": 879,
@@ -1903,6 +1924,13 @@
   "x": 335,
   "y": 138
  },
+ "unisex-husky-not-yelling-just-husky-hoodie": {
+  "h": 384,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-navy-front-6ad7f95e2db7d.jpg",
+  "w": 307,
+  "x": 337,
+  "y": 144
+ },
  "unisex-introvert-i-have-plans-hoodie": {
   "h": 759,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-sand-front-6ad3d2f298d17.jpg",
@@ -2042,6 +2070,13 @@
   "w": 645,
   "x": 174,
   "y": 101
+ },
+ "unisex-pug-wrinkled-not-worried-hoodie": {
+  "h": 410,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-navy-front-6ad7f87441351.jpg",
+  "w": 328,
+  "x": 326,
+  "y": 121
  },
  "unisex-raccoon-fine-dumpster-dining-hoodie": {
   "h": 759,
@@ -3471,6 +3506,13 @@
   "x": 188,
   "y": 33
  },
+ "womens-cycling-here-for-the-downhill-cropped-hoodie": {
+  "h": 759,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/womens-cropped-hoodie-black-front-6ad7f27d44e19.jpg",
+  "w": 607,
+  "x": 200,
+  "y": 124
+ },
  "womens-dachshund-currently-burrowed-crewneck-sweatshirt": {
   "h": 618,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-crew-neck-sweatshirt-sand-front-6ad40eb47181e.jpg",
@@ -3916,7 +3958,7 @@
   "h": 759,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-oversized-heavyweight-hoodie-dust-front-6ad41afd919bb.jpg",
   "w": 607,
-  "x": 248,
+  "x": 276,
   "y": 124
  },
  "womens-national-park-swipe-right-on-public-land-zip-hoodie": {

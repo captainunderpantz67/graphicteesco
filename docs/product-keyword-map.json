@@ -11127,6 +11127,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "unisex-coding-it-works-im-scared-hoodie": {
+   "claimed": [
+    "coding hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "coding hoodie",
+     "volume": 590,
+     "kd": 27
+    }
+   ],
+   "measured": "2026-10-21"
   }
  }
 }
