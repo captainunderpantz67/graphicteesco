@@ -1,4 +1,5 @@
 RUNNING lane E since 2026-10-21 14:48 UTC
+2026-10-21 15:05 UTC — [E] REVIEW #959 zip colorway backfill on LIVE #872 (+Black, Dark Heather, Royal, 30/30) and #887 (+Black, Forest Green, Dark Chocolate, Dark Heather, 36/36); $0 fal; sheets 959a/959b.
 2026-10-21 14:44 UTC — [E] Builder run end: #827 redo, #851 redo and #852 #853 #854 #855 in REVIEW; #856 #857 #858 PARKED (colors not on Printful #943); #959-#961 colorway backfills (live zip products, many colors x chest/wrist/back files) not started, left READY for the next run. Lock released. fal $0.50 total.
 RUNNING director since 2026-10-21 14:17 UTC
 2026-10-21 14:47 UTC — [B] REVIEW #883 Women's Hunting Here for the Sunrise. The Ducks Are Optional. Camo Sweatshirt (redo in place, AOP #1418, new punch, 11/11 on 1091166262, punch 100%). fal $0.04.
