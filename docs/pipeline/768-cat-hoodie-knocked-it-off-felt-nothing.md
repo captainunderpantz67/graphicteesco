@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 status: LIVE
+=======
+status: REVIEW
+>>>>>>> 546195ee ([C] review 768 cat hoodie)
 shopify: gid://shopify/Product/15371411980592
 lane: C
 type: new
@@ -26,5 +30,8 @@ kd: 42
 ## Log
 - 2026-10-20 23:28 UTC director: brief written, READY (lane C hoodies cluster; primary measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).
 - Built new: Recraft v4 1 call ($0.04, logged), first try kept with the prompt asking for the scene alone on white (smug orange tabby on a wooden side table, paw stretched out, eyes half-closed, flowered mug tumbling off with coffee splashing). Plain border flood print-prep + scripts/knock-white.py; the table legs and spill end on their own ragged edges, no card/panel. Lockup (designs/c768/build.py, designs/lib.py): KNOCKED IT OFF. above, FELT NOTHING. below, Alfa Slab One (a first Cinzel version read too light on the Navy mockup, so it was re-set heavy and re-synced before REVIEW), cream + marmalade orange #f48c34 on Navy with a cream edge on the art, dark brown #3a2214 + deep rust #a0401c solid ink on Sand. 7h: headline KNOCKED IT OFF. 3108 px / punch FELT NOTHING. 3373 px (109%). 7k: type 575 px of 3415 px print height (17%). 7l: subject 2400 px of 3373 px lockup width = 71%. Light file logged: Sand on 1090775007 (dark ink, no cream), Navy on 1090775052 (cream headline, orange punch, cream edge). FW 1500 TOP 0 (print 1,519 px high, ends above the pouch seam). Verified 12/12 (6 Sand, 6 Navy) on the final files only (the first Cinzel sync was stopped and relinked). Shopify: title Unisex Cat – Knocked It Off. Felt Nothing. Hoodie, category hoodies, $39.99 no compare-at, tags graphic-hoodies-for-men graphic-hoodies-for-women hoodie cat ai-art intake-done, SEO title 42 / meta 140, FAQ 5 x 49-55 words, order-by Dec 8, keyword cat hoodie 14800/KD 42 in map. Copy checked vs art (orange tabby on a side table, paw out, half-closed eyes, flowered mug tumbling, coffee spill). Line one: print's words + who + when, no superlative. Etsy and R5.2 proof unverifiable from the builder, director eyeball. Inks from mockups. Phone-size read of both fronts OK. R6.12/R6.13: front print only, Navy front image 1, neck-logo back last. Cover: flat product shot (retired-covers.json). Audit only 'not visible'. fal $0.04.
+<<<<<<< HEAD
 - 2026-10-21 00:40 UTC director: APPROVED on docs/review/768.jpg, held at REVIEW for the 6-LIVE cap (used this run). KNOCKED IT OFF. / FELT NOTHING. animal-with-attitude line; paw still out, mug mid-fall; punch full width; Sand file dark ink; copy matches. Side by side with 493 Calm Face and 483 Sisyphus: at least the bar.
 - 2026-10-21 05:25 UTC director: LIVE: set ACTIVE + Online Store, Headless, Google & YouTube. Sheet re-read beside 493 and 483 (cat mid-swat, mug spilling: instant read). Audit --handle PASS (1 warn: flat cover, expected).
+=======
+>>>>>>> 546195ee ([C] review 768 cat hoodie)

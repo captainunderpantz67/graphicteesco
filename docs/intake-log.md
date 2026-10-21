@@ -1,3 +1,4 @@
+RUNNING lane E since 2026-10-21 14:48 UTC
 2026-10-21 14:44 UTC — [E] Builder run end: #827 redo, #851 redo and #852 #853 #854 #855 in REVIEW; #856 #857 #858 PARKED (colors not on Printful #943); #959-#961 colorway backfills (live zip products, many colors x chest/wrist/back files) not started, left READY for the next run. Lock released. fal $0.50 total.
 RUNNING director since 2026-10-21 14:17 UTC
 2026-10-21 14:44 UTC — [B] REVIEW #878 Men's Hunting Call Me After Duck Season Camo Sweatshirt (redo in place, AOP #1418, drake + ringing flip phone, 11/11 on 1091163732, punch 100%). fal $0.04.
@@ -229,7 +230,11 @@ RUNNING lane C since 2026-10-21 05:25 UTC
 2026-10-20 21:33 UTC — [C] Builder run: #677 pit bull ornament (72 LBS) widened above LAP DOG, REVIEW.
 2026-10-20 21:31 UTC — [C] Builder run: #693 strawberry mug punch widened to 100% of headline, REVIEW.
 2026-10-20 21:30 UTC — [C] Builder run: #692 alien mug photos re-attached (3 mockups), REVIEW.
+<<<<<<< HEAD
 [C] Builder run: #771 unisex gamer hoodie FIVE MORE MINUTES. (IT'S 3 A.M.) built to REVIEW (DRAFT 15371428069680).
+=======
+RUNNING lane C since 2026-10-20 21:30 UTC
+>>>>>>> 546195ee ([C] review 768 cat hoodie)
 [C] Builder run: #768 unisex cat hoodie KNOCKED IT OFF. FELT NOTHING. built to REVIEW (DRAFT 15371411980592).
 [C] Builder run: #772 unisex sloth hoodie REPLIES IN 3–5 BUSINESS DAYS. built to REVIEW (DRAFT 15371400380720).
 [C] Builder run: #769 men's farmer hoodie NO DAYS OFF. THE COWS SAID SO. built to REVIEW (DRAFT 15371391893808).
