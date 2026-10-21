@@ -1,12 +1,17 @@
-# Cohesion audit — 2026-10-21 14:45 UTC
+# Cohesion audit — 2026-10-21 15:50 UTC
 
-700 live products checked · **0 errors** · 127 warnings · 120 products with findings
+704 live products checked · **1 errors** · 131 warnings · 124 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
+- 1 × Claims , already claimed by womens-cat-not-my-turn-with-the-brain-cell
 
 ## By product (errors first)
+### Women's Cat – Oops. Anyway. Embroidered Zip Hoodie `womens-cat-oops-anyway-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+- **ERROR** Claims "cat zip up hoodie", already claimed by womens-cat-not-my-turn-with-the-brain-cell-zip-hoodie (two pages fighting for one keyword). → Give one of them a different measured phrase.
+
 ### Unisex Halloween – Midnight Feature Tee `unisex-halloween-midnight-feature-graphic-tee`
 - **WARN** No meta description. → Write one ≤ 155 chars.
 
@@ -372,4 +377,13 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Women's Camo – Blending In Was Never the Plan. All-Over Print Zip Hoodie `womens-camo-blending-in-was-never-the-plan-aop-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Tennis – My Backhand Has Opinions Embroidered Zip Hoodie `womens-tennis-my-backhand-has-opinions-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Bookish – Plot Twist: I Stayed In Embroidered Zip Hoodie `womens-bookish-plot-twist-i-stayed-in-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Gym – Lift Heavy. Reply Later. Embroidered Zip Hoodie `womens-gym-lift-heavy-reply-later-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.

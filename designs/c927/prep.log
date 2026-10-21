@@ -2,3 +2,4 @@ scale x0.75, thickened 2px each side, p10 stroke width 48.8px = 4.13 mm; size 10
 scale x0.80, thickened 0px each side, p10 stroke width 20.0px = 1.69 mm; size 297x104px = 0.99 x 0.35 in wrist word LATTES: cap 105 px = 0.35 in, width 0.99 in
 scale x0.75, thickened 2px each side, p10 stroke width 48.8px = 4.13 mm; size 1050x1234px = 3.50 x 4.11 in
 scale x0.80, thickened 0px each side, p10 stroke width 20.0px = 1.69 mm; size 297x104px = 0.99 x 0.35 in wrist word LATTES: cap 105 px = 0.35 in, width 0.99 in
+{"chest_white": 1091201200, "wrist_white": 1091201245, "chest_navy": 1091201283, "wrist_navy": 1091201317, "back_ash": 1091201361, "back_navy": 1091201397}
