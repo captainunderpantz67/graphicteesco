@@ -21,8 +21,12 @@ for r in s['rows']:
         blocks.append(art.resize((w, h), Image.LANCZOS)); print(f'art {w}x{h}')
     else:
         fn = r.get('font', s['font']); f0 = ImageFont.truetype(str(ROOT / 'designs' / 'fonts' / fn), 400)
+        wg = r.get('wght', s.get('wght'))  # variable fonts (Big Shoulders): set the weight axis, the default is the thin master
+        if wg: f0.set_variation_by_axes([wg])
         b = f0.getbbox(r['t']); tw = b[2] - b[0]; sz = round(400 * r.get('w', LW) / tw)
-        f = ImageFont.truetype(str(ROOT / 'designs' / 'fonts' / fn), sz); b = f.getbbox(r['t'])
+        f = ImageFont.truetype(str(ROOT / 'designs' / 'fonts' / fn), sz)
+        if wg: f.set_variation_by_axes([wg])
+        b = f.getbbox(r['t'])
         im = Image.new('RGBA', (b[2] - b[0], b[3] - b[1]), (0, 0, 0, 0))
         ImageDraw.Draw(im).text((-b[0], -b[1]), r['t'], font=f, fill=hx(r['c']) + (255,)); blocks.append(im); print(f'{r["t"]}: size {sz} {im.width}x{im.height}')
 tot = sum(b.height for b in blocks) + GAP * (len(blocks) - 1); print('lockup height', tot)

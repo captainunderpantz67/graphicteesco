@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: hoodies
@@ -17,3 +17,4 @@ rewrite: funny-golf-gifts
 - Length is roughly 950 words, a bit under the 1,000 target, because only repo-confirmed facts were used. Not done: docs/intake-log.md lock line (run restricted to guides.ts and this file). `npx astro build` passes (105 pages).
 ## Log
 - 2026-10-21 UTC writer: rewrite drafted, build passes.
+- 2026-10-21 07:35 UTC director: APPROVED. Answer-first, every price and policy checked against the live products (all 5 product links and the socks link return 200), one primary (funny golf gifts 2,900/34) owned only here. Title fixed: the five picks are hoodies, a crewneck and a half zip, not shirts ('5 Hoodies & Sweatshirts Golfers Laugh At'). Old 2026-10-19 entry deleted, draft line removed; astro build passes (105 pages).

@@ -13,13 +13,17 @@ def call(m, p, b=None):
         except urllib.error.HTTPError as e:
             if e.code == 429: time.sleep(int(e.headers.get('Retry-After', 30)) + 2); continue
             raise Exception(f'{e.code} {e.read()[:500]}')
+def host(png):
+    # scripts/fal-host.py falls back to docs/hosted/<name> in the repo when fal is out of balance; the name must be unique per item
+    return subprocess.check_output([sys.executable, 'scripts/fal-host.py', png, os.path.basename(os.path.dirname(png)) + '_' + os.path.basename(png)], text=True).strip()
 def upload(png):
-    url = subprocess.check_output([sys.executable, 'scripts/fal-host.py', png], text=True).strip()
+    url = host(png)
     fid = subprocess.check_output([sys.executable, 'scripts/pf-sync.py', 'upload', url, os.path.basename(png)], text=True).strip()
     for _ in range(30):
         f = call('GET', f'/files/{fid}')['result']
         if f.get('width') and f.get('status') == 'ok': return dict(id=int(fid), url=f['url'], w=f['width'], h=f['height'])
         time.sleep(4)
+SECOND = os.environ.get('SECOND', 'Navy'); LIGHT = bool(os.environ.get('LIGHT2')); SVID = int(os.environ.get('SECOND_VID', 17311))  # LIGHT2=1: second color is a light blank (navy thread); SECOND_VID is its S catalog variant id
 NAVY = {'S': 17311, 'M': 17312, 'L': 17313, 'XL': 17314, '2XL': 17315, '3XL': 17316}
 cmd, d = sys.argv[1:3]
 if cmd == 'prep':
@@ -30,7 +34,8 @@ if cmd == 'prep':
     for tag, hexc in (('white', '#FFFFFF'), ('navy', '#333366')):
         print(subprocess.check_output([sys.executable, 'scripts/emb-prep.py', chest, f'{d}/chest_{tag}.png', hexc, '1050', '18'], text=True).strip())
         print(subprocess.check_output([sys.executable, 'scripts/emb-prep.py', f'{d}/wrist_src.png', f'{d}/wrist_{tag}.png', hexc, str(wpx), '18', '600'], text=True).strip(), f'wrist word {word}: cap 105 px = 0.35 in, width {wpx / 300:.2f} in')
-        ids['chest_' + tag] = upload(f'{d}/chest_{tag}.png'); ids['wrist_' + tag] = upload(f'{d}/wrist_{tag}.png')
+    pubs = [f'{d}/{n}_{t}.png' for n in ('chest', 'wrist') for t in ('white', 'navy')] + [p for p in sys.argv[5:7] if not p.isdigit()]
+    for t in ('white', 'navy'): ids['chest_' + t] = upload(f'{d}/chest_{t}.png'); ids['wrist_' + t] = upload(f'{d}/wrist_{t}.png')
     for tag, p in zip(('ash', 'navy'), sys.argv[5:7]):
         if p.isdigit(): ids['back_' + tag] = {'id': int(p)}
         else: ids['back_' + tag] = upload(p)
@@ -38,21 +43,21 @@ if cmd == 'prep':
 elif cmd == 'sync':
     pid = sys.argv[3]; ids = json.load(open(f'{d}/ids.json')); vs = call('GET', f'/sync/products/{pid}')['result']['sync_variants']
     cat = {v['name'].split(' / ')[2]: v['variant_id'] for v in vs if '/ Ash /' in v['name'] and v['variant_id']}
-    vs = [v for v in vs if '/ Ash /' in v['name'] or '/ Navy /' in v['name']]
+    vs = [v for v in vs if '/ Ash /' in v['name'] or f'/ {SECOND} /' in v['name']]
     for i, v in enumerate(vs):
-        nv = '/ Navy /' in v['name']; sz = v['name'].split(' / ')[2]; t = 'white' if nv else 'navy'; bk = ids['back_navy' if nv else 'back_ash']['id']
+        nv = f'/ {SECOND} /' in v['name']; sz = v['name'].split(' / ')[2]; t = 'white' if (nv and not LIGHT) else 'navy'; bk = ids['back_navy' if nv else 'back_ash']['id']
         bw = ids['back_navy' if nv else 'back_ash'].get('h') and ids['back_ash']; ref = ids['back_ash'] if 'h' in ids['back_ash'] else ids.get('back_dims', {'w': 3600, 'h': 3198})
         w, h = ref['w'], ref['h']
-        files = [{'type': 'embroidery_chest_left', 'id': ids['chest_' + t]['id']}, {'type': 'embroidery_wrist_left', 'id': ids['wrist_' + t]['id']}, {'type': 'back', 'id': bk, 'position': {'area_width': 1800, 'area_height': 2400, 'width': 1800, 'height': min(2360, round(1800 * h / w)), 'top': 40, 'left': 0}}]
-        opts = [{'id': 'embroidery_type', 'value': 'flat'}, {'id': 'thread_colors_chest_left', 'value': ['#FFFFFF' if nv else '#333366']}, {'id': 'thread_colors_wrist_left', 'value': ['#FFFFFF' if nv else '#333366']}]
-        call('PUT', f'/sync/variant/{v["id"]}', {'variant_id': NAVY[sz] if nv else cat[sz], 'files': files, 'options': opts}); print(f'{i+1}/{len(vs)} {v["name"]}', flush=True); time.sleep(6)
+        files = [{'type': 'embroidery_chest_left', 'id': ids['chest_' + t]['id']}, {'type': 'embroidery_wrist_left', 'id': ids['wrist_' + t]['id']}, {'type': 'back', 'id': bk, 'position': {'area_width': 1800, 'area_height': 2400, 'width': (bw_ := min(1800, int(2360 * w / h))), 'height': round(bw_ * h / w), 'top': 40, 'left': (1800 - bw_) // 2}}]
+        opts = [{'id': 'embroidery_type', 'value': 'flat'}, {'id': 'thread_colors_chest_left', 'value': ['#FFFFFF' if t == 'white' else '#333366']}, {'id': 'thread_colors_wrist_left', 'value': ['#FFFFFF' if t == 'white' else '#333366']}]
+        call('PUT', f'/sync/variant/{v["id"]}', {'variant_id': (v['variant_id'] or NAVY[sz]) if nv else cat[sz], 'files': files, 'options': opts}); print(f'{i+1}/{len(vs)} {v["name"]}', flush=True); time.sleep(6)
 elif cmd == 'mock':
-    ids = json.load(open(f'{d}/ids.json')); ref = ids['back_ash'] if 'h' in ids['back_ash'] else ids.get('back_dims', {'w': 3600, 'h': 3198}); BH = 12 * ref['h'] / ref['w']; out = {}
-    for tag, vid, th in (('navy', 17311, 'white'), ('ash', 32069, 'navy')):
-        t = '#FFFFFF' if tag == 'navy' else '#333366'
+    ids = json.load(open(f'{d}/ids.json')); ref = ids['back_ash'] if 'h' in ids['back_ash'] else ids.get('back_dims', {'w': 3600, 'h': 3198}); BW = min(12, 15.7 * ref['w'] / ref['h']); BH = BW * ref['h'] / ref['w']; out = {}
+    for tag, vid, th in (('navy', SVID, 'navy' if LIGHT else 'white'), ('ash', 32069, 'navy')):
+        t = '#FFFFFF' if th == 'white' else '#333366'
         def pl(n, k): return {'placement': n, 'technique': 'embroidery', 'layers': [{'type': 'file', 'url': ids[k]['url'], 'layer_options': [{'name': 'thread_colors', 'value': [t]}]}]}
         back = ids['back_' + tag]
-        r = call('POST', '/v2/mockup-tasks', {'format': 'jpg', 'products': [{'source': 'catalog', 'catalog_product_id': 692, 'catalog_variant_ids': [vid], 'mockup_style_ids': [8531, 8532], 'placements': [pl('embroidery_chest_left', 'chest_' + th), pl('embroidery_wrist_left', 'wrist_' + th), {'placement': 'back', 'technique': 'dtg', 'layers': [{'type': 'file', 'url': back['url'], 'position': {'width': 12, 'height': min(15.7, BH), 'top': 0, 'left': 0}}]}]}]})
+        r = call('POST', '/v2/mockup-tasks', {'format': 'jpg', 'products': [{'source': 'catalog', 'catalog_product_id': 692, 'catalog_variant_ids': [vid], 'mockup_style_ids': [8531, 8532], 'placements': [pl('embroidery_chest_left', 'chest_' + th), pl('embroidery_wrist_left', 'wrist_' + th), {'placement': 'back', 'technique': 'dtg', 'layers': [{'type': 'file', 'url': back['url'], 'position': {'width': BW, 'height': BH, 'top': 0, 'left': (12 - BW) / 2}}]}]}]})
         tid = r['data'][0]['id']
         for _ in range(60):
             time.sleep(5); x = call('GET', f'/v2/mockup-tasks?id={tid}')['data'][0]

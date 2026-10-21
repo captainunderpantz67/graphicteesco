@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-21 06:25 UTC
+# Cohesion audit — 2026-10-21 08:45 UTC
 
-688 live products checked · **0 errors** · 115 warnings · 108 products with findings
+696 live products checked · **0 errors** · 123 warnings · 116 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -332,8 +332,32 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Men's Farmer – No Days Off. The Cows Said So. Hoodie `mens-farmer-no-days-off-the-cows-said-so-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Unisex Sloth – Replies in 3–5 Business Days Hoodie `unisex-sloth-replies-in-3-5-business-days-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Unisex Cat – Knocked It Off. Felt Nothing. Hoodie `unisex-cat-knocked-it-off-felt-nothing-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Unisex Gamer – Five More Minutes. (It's 3 A.M.) Hoodie `unisex-gamer-five-more-minutes-its-3-am-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Dirt Bike – Full Send. Mostly Mud. Hoodie `mens-dirt-bike-full-send-mostly-mud-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Police – Off Duty. Still Judging Your Parking. Hoodie `unisex-police-off-duty-still-judging-your-parking-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Doodle – Groomer Appointment: Overdue. Hoodie `unisex-doodle-groomer-appointment-overdue-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Catfish – Caught Something Ugly. Kept It Anyway. Camo Hoodie `mens-catfish-caught-something-ugly-kept-it-anyway-camo-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Papa – Papa Has a Spot. Won't Say Where. Camo Hoodie `mens-papa-has-a-spot-wont-say-where-camo-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Running – Here for the Free Banana Tee `womens-running-here-for-the-free-banana-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's French Bulldog – Personal Space? Never Heard of Her. Crewneck Sweatshirt `womens-french-bulldog-personal-space-never-heard-of-her-crewneck-sweatshirt`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.

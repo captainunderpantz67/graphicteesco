@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: E
 type: new
 id: 822
@@ -28,3 +28,4 @@ push: zip
 - 2026-10-21 05:00 UTC director: brief written, READY (AOP zip push; primary unmeasured under Sam's depth-40 waiver; registry row 1007 claimed).
 - 2026-10-21 05:25 UTC director: one of Sam's 3 AOP pilots (pink camo). Build it next in lane C after the zip upgrades.
 - 2026-10-21 07:10 UTC director: moved to lane E (inbox 2026-10-21 05:50: E builds the AOP pilots, Essentials and colorways; C keeps the zip upgrades).
+- 2026-10-21 08:55 UTC builder [E]: REVIEW. DRAFT 15371716165936, Printful sync 483625538, 11 sizes 2XS-6XL at $79.99, no compare-at, files front 1090995228 / back 1090995231 / plain 1090995234 (panels 5250 x 6000). Pattern assets/patterns/pink-camo-src.png tiled seamless ($0); chest doe = 1 Recraft call ($0.04, doe with hair bow, cream + maroon keyline), placed on the wearer's left chest panel; back lockup set in Alfa Slab One, cream fill, maroon keyline + outline-cut backing: headline 3607 px / punch 4304 and 4303 px (punch 119%, split over two lines), 3000 px wide on the back panel = about 90% of the body width, centered high. R7.7: no light-blank file needed (one print colorway, cream on pink camo with maroon keyline). Mockups front + back read at 700 px (every word legible). **Cover: fal wallet exhausted again (storage 403 after the doe call), so no AI lifestyle photo: product shows the Printful back mockup first, handle added to retired-covers.json (registry row 1007 stays CLAIMED, unused).** Audit --admin-json PASS (1 warn: no lifestyle cover). Sheet docs/review/822.jpg. Keyword row under products (unmeasured, waiver). fal $0.04.

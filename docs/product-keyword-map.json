@@ -8807,7 +8807,7 @@
    ],
    "measured": "2026-10-16"
   },
-  "womens-otter-floating-through-the-week-graphic-tee": {
+  "womens-otter-not-sinking-technically-graphic-tee": {
    "claimed": [
     "otter shirt"
    ],
@@ -10540,12 +10540,28 @@
   "french-bulldog-im-helping-youre-welcome-mug": {
    "claimed": [
     "frenchie mug"
-   ]
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "frenchie mug",
+     "volume": 880,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
   },
   "french-bulldog-santas-cookies-what-cookies-mug": {
    "claimed": [
     "french bulldog mug"
-   ]
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "french bulldog mug",
+     "volume": 880,
+     "kd": 40
+    }
+   ],
+   "measured": "2026-10-16"
   },
   "mens-hunting-labrador-retriever-of-snacks-hoodie": {
    "claimed": [
@@ -10560,7 +10576,15 @@
   "mens-hunting-archery-aim-small-miss-anyway-heavyweight-hoodie": {
    "claimed": [
     "archery hoodie"
-   ]
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "archery hoodie",
+     "volume": 170,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
   },
   "mens-fishing-ice-fishing-staring-at-a-hole-graphic-tee": {
    "claimed": [
@@ -11376,6 +11400,40 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-french-bulldog-i-came-i-sat-i-refused-cropped-hoodie": {
+   "claimed": [
+    "french bulldog hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "french bulldog hoodie",
+     "volume": 590,
+     "kd": 33
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "hunting-todays-special-tag-soup-ornament": {
+   "claimed": [
+    "hunting ornament"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "hunting ornament",
+     "volume": 720,
+     "kd": 42
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-camo-blending-in-was-never-the-plan-aop-zip-hoodie": {
+   "claimed": [
+    "pink camo zip up hoodie"
+   ],
+   "gaps_measured": [],
+   "measured": "2026-10-21",
+   "note": "unmeasured (no RankHero volume); zip/camo depth-40 waiver"
   }
  }
 }

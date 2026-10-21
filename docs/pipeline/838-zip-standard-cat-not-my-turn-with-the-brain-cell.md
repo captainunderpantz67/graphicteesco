@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: C
 type: redo
 id: 838
@@ -21,3 +21,5 @@ push: zip
 ---
 ## Log
 - 2026-10-21 05:30 UTC director: brief written, READY (zip push step 1, in-place upgrade of #558; template #816; registry row 1017 claimed).
+- 2026-10-21 07:45 UTC builder [C]: not started, back and chest need a new Recraft chest icon and fal is out of balance ("Exhausted balance"). Stays READY. Notes: product already has its back print; #839's colors are Ash + Carolina Blue (dark ink, one file); Printful embroidery uploads now work through GitHub raw URLs (scripts/c-zipbuild.py prep).
+- 2026-10-21 08:30 UTC builder [C]: zip standard built IN PLACE, REVIEW. Printful 12/12 (Ash 6 + Navy 6) verified from GET /sync/products: Ash back 1090986923 / chest 1090986836 / wrist 1090986884; Navy back 1090986953 / chest 1090986747 / wrist 1090986785. Back = the existing NOT MY TURN / WITH THE BRAIN CELL. art (2892 x 3128) with its Navy file and Ash file as already synced (orange and pink fills, no cream or white headline). Chest icon: DRAWN BY HAND IN PIL (a round cat face with closed sleepy eyes and an outlined unlit lightbulb above), because fal ran out of balance before the Recraft step; one thread (white on Navy, #333366 on Ash), 3.50 x 4.54 in, thinnest stroke 3.9 mm; wrist MEOW in Anton 0.35 in caps, 0.92 in wide. Director: say if the geometric icon is acceptable or should be redone in Recraft once fal is back. Existing Navy variants kept; all 12 variants $57.99 no compare-at; title '... Embroidered Zip Hoodie'; Story, bullet and 5 FAQs (embroidery care added, order-by Dec 8). No new cover (fal empty, registry 1017 stays claimed, unused): image 1 is the Printful back mockup and the handle stays in retired-covers.json. Photos: Navy back, Ash back, Navy chest front, Ash chest front. Audit PASS (0 warn).
