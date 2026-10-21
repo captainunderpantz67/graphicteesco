@@ -11283,6 +11283,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "unisex-pickle-yes-i-drink-the-juice-hoodie": {
+   "claimed": [
+    "pickle hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pickle hoodie",
+     "volume": 320,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-21"
   }
  }
 }
