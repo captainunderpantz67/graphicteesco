@@ -1,6 +1,7 @@
 RUNNING lane E since 2026-10-21 14:48 UTC
 2026-10-21 14:44 UTC — [E] Builder run end: #827 redo, #851 redo and #852 #853 #854 #855 in REVIEW; #856 #857 #858 PARKED (colors not on Printful #943); #959-#961 colorway backfills (live zip products, many colors x chest/wrist/back files) not started, left READY for the next run. Lock released. fal $0.50 total.
 RUNNING director since 2026-10-21 14:17 UTC
+2026-10-21 14:47 UTC — [B] REVIEW #883 Women's Hunting Here for the Sunrise. The Ducks Are Optional. Camo Sweatshirt (redo in place, AOP #1418, new punch, 11/11 on 1091166262, punch 100%). fal $0.04.
 2026-10-21 14:44 UTC — [B] REVIEW #878 Men's Hunting Call Me After Duck Season Camo Sweatshirt (redo in place, AOP #1418, drake + ringing flip phone, 11/11 on 1091163732, punch 100%). fal $0.04.
 2026-10-21 14:44 UTC — [E] REVIEW #851 REDO Unisex Essentials Oatmeal Embroidered Zip Hoodie (couple cover, trousers, no Printful model photo). fal $0.12.
 2026-10-21 14:40 UTC — [E] PARKED #856 #857 #858 (Forest Green, Dark Chocolate, Alpine Green do not exist on Printful #943; offered colors: Black, Burgundy, Charcoal Heather, Heather Grey, Navy, Oatmeal Heather, Red, Sandshell, Seafoam, White). #851-#855 in REVIEW.
@@ -68,6 +69,7 @@ RUNNING lane B since 2026-10-21 13:35 UTC
 2026-10-21 08:47 UTC — [H] Helper run: Telegram inbox empty (0 updates, nothing to log). Audit: 0 scripted ERRORs, 123 WARN (polish, left as is); cohesion-audit.md committed. Fixed a missing esbuild by running npm ci (the audit could not run without it). Category check: 0 products without a Shopify category. Freshness: womens-chihuahua-cold-since-birth-zip-hoodie, mens-papa-has-a-spot-wont-say-where-camo-hoodie, mens-catfish-caught-something-ugly-kept-it-anyway-camo-hoodie all 200. Stuck work: none (lane B lock 07:28, newest BUILDING #839 at 08:03). Daily summary not due (before 12:00 UTC). Lock released.
 2026-10-21 08:35 UTC — [E] Builder run end: #822 AOP pink camo zip built to REVIEW. fal wallet exhausted again (storage 403), so every other lane E item (all new art: #723 #745 #748 #749 #751 #752 #827 #836; #851 PARKED, #852-#858 gated on it) waits for a top-up. Lock released.
 RUNNING lane C since 2026-10-21 08:27 UTC
+2026-10-21 14:47 UTC — [C] Builder run: #934 Crochet No, I Won't Make You One. zip twin (new DRAFT, Black/Navy/Ash, $57.99, Playfair Display Black lettering, hand-drawn NO-word chest + WON'T cuff), 18/18, REVIEW. fal $0.
 2026-10-21 14:44 UTC — [C] Builder run: #933 Hockey Cold Rink, Hot Takes. zip twin (new DRAFT, Black/Navy/Ash, $57.99, Anton lettering, hand-drawn HOT-TAKES-words chest + COLD cuff), 18/18, REVIEW. fal $0.
 2026-10-21 14:38 UTC — [C] Builder run: #932 National Park Running Late. Bison Traffic. zip twin (new DRAFT, Black/Navy/Ash, $57.99, Bevan lettering, hand-drawn BISON-TRAFFIC-words chest + LATE cuff), 18/18, REVIEW. fal $0.
 2026-10-21 14:37 UTC — [C] Builder run: #931 Gym Twelve Labors. Zero Cardio. zip twin (new DRAFT, Black/Navy/Ash, $57.99, Graduate lettering, hand-drawn ZERO-CARDIO-words chest + LEG DAY? cuff), 18/18, REVIEW. fal $0.
