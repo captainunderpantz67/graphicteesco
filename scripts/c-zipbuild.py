@@ -24,7 +24,7 @@ def upload(png):
         if f.get('width') and f.get('status') == 'ok': return dict(id=int(fid), url=f['url'], w=f['width'], h=f['height'])
         time.sleep(4)
 SECOND = os.environ.get('SECOND', 'Navy'); LIGHT = bool(os.environ.get('LIGHT2')); SVID = int(os.environ.get('SECOND_VID', 17311))  # LIGHT2=1: second color is a light blank (navy thread); SECOND_VID is its S catalog variant id
-NAVY = {'S': 17311, 'M': 17312, 'L': 17313, 'XL': 17314, '2XL': 17315, '3XL': 17316}
+NAVY = json.loads(os.environ['SECOND_IDS']) if os.environ.get('SECOND_IDS') else {'S': 17311, 'M': 17312, 'L': 17313, 'XL': 17314, '2XL': 17315, '3XL': 17316}  # SECOND_IDS: size->catalog id of the second color when it is not Navy (e.g. Black 17295-17300)
 cmd, d = sys.argv[1:3]
 if cmd == 'prep':
     chest, word = sys.argv[3:5]; ids = {}
@@ -43,7 +43,7 @@ if cmd == 'prep':
 elif cmd == 'sync':
     pid = sys.argv[3]; ids = json.load(open(f'{d}/ids.json')); vs = call('GET', f'/sync/products/{pid}')['result']['sync_variants']
     cat = {v['name'].split(' / ')[2]: v['variant_id'] for v in vs if '/ Ash /' in v['name'] and v['variant_id']}
-    vs = [v for v in vs if '/ Ash /' in v['name'] or f'/ {SECOND} /' in v['name']]
+    vs = [v for v in vs if ('/ Ash /' in v['name'] and not os.environ.get('ONLY_SECOND')) or f'/ {SECOND} /' in v['name']]
     for i, v in enumerate(vs):
         nv = f'/ {SECOND} /' in v['name']; sz = v['name'].split(' / ')[2]; t = 'white' if (nv and not LIGHT) else 'navy'; bk = ids['back_navy' if nv else 'back_ash']['id']
         bw = ids['back_navy' if nv else 'back_ash'].get('h') and ids['back_ash']; ref = ids['back_ash'] if 'h' in ids['back_ash'] else ids.get('back_dims', {'w': 3600, 'h': 3198})

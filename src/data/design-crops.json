@@ -680,10 +680,10 @@
  },
  "mens-grill-wizard-zip-hoodie": {
   "h": 806,
-  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-zip-hoodie-ash-front-6ad3e5962b2c5.jpg",
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/c846_m_black_back.jpg",
   "w": 645,
   "x": 174,
-  "y": 101
+  "y": 35
  },
  "mens-gym-barbell-club-graphic-tee": {
   "h": 403,
@@ -1165,7 +1165,7 @@
   "h": 759,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/KCtsohxk5hQg-pQkI6Aug_459-m-storm.jpg",
   "w": 607,
-  "x": 298,
+  "x": 270,
   "y": 124
  },
  "mens-new-years-new-year-same-guy-graphic-tee": {
@@ -1680,11 +1680,11 @@
   "y": 121
  },
  "unisex-christmas-garden-variety-grump-crewneck-sweatshirt": {
-  "h": 801,
+  "h": 806,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-crew-neck-sweatshirt-white-front-6ad4733019c0d.jpg",
-  "w": 641,
-  "x": 246,
-  "y": 88
+  "w": 645,
+  "x": 232,
+  "y": 83
  },
  "unisex-christmas-garden-variety-grump-graphic-tee": {
   "h": 624,
@@ -2016,11 +2016,11 @@
   "y": 15
  },
  "unisex-homebody-university-of-staying-in-oversized-hoodie": {
-  "h": 604,
+  "h": 552,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-oversized-heavyweight-hoodie-navy-front-6ad42e01c3d86.jpg",
-  "w": 484,
-  "x": 316,
-  "y": 40
+  "w": 442,
+  "x": 353,
+  "y": 66
  },
  "unisex-horror-midnight-showing-crewneck-sweatshirt": {
   "h": 468,
@@ -3227,11 +3227,11 @@
   "y": 22
  },
  "womens-christmas-nanas-cookies-crewneck-sweatshirt": {
-  "h": 796,
+  "h": 733,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-crew-neck-sweatshirt-white-front-6ad2a0e6c8654.jpg",
-  "w": 636,
-  "x": 232,
-  "y": 92
+  "w": 587,
+  "x": 267,
+  "y": 147
  },
  "womens-christmas-nanas-cookies-graphic-tee": {
   "h": 696,
@@ -3283,11 +3283,11 @@
   "y": 88
  },
  "womens-christmas-official-tree-topper-graphic-tee": {
-  "h": 682,
+  "h": 696,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/womens-relaxed-t-shirt-white-front-6ad456a49ed62.jpg",
-  "w": 546,
-  "x": 261,
-  "y": 19
+  "w": 556,
+  "x": 252,
+  "y": 0
  },
  "womens-christmas-oh-deer-graphic-tee": {
   "h": 585,
@@ -3878,11 +3878,11 @@
   "y": 102
  },
  "womens-gigi-because-grandma-sounded-old-hoodie": {
-  "h": 744,
+  "h": 754,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-sand-front-6ad461a7d37f8.jpg",
-  "w": 595,
-  "x": 281,
-  "y": 134
+  "w": 603,
+  "x": 276,
+  "y": 125
  },
  "womens-golden-retriever-i-brought-you-a-sock-crewneck-sweatshirt": {
   "h": 608,
@@ -4102,11 +4102,11 @@
   "y": 0
  },
  "womens-national-park-two-queens-roaming-hoodie": {
-  "h": 754,
+  "h": 759,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-sand-front-6ad41c853379c.jpg",
-  "w": 603,
-  "x": 278,
-  "y": 125
+  "w": 607,
+  "x": 276,
+  "y": 124
  },
  "womens-new-years-eve-resolutions-pending-graphic-tee": {
   "h": 702,
