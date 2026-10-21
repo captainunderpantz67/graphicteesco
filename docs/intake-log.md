@@ -1,3 +1,4 @@
+RUNNING helper since 2026-10-21 03:45 UTC
 RUNNING director since 2026-10-21 03:13 UTC
 2026-10-21 03:42 UTC — [C] Builder run: #794 Unisex Greyhound – Fastest Dog. Slowest Mornings. Hoodie built to REVIEW (DRAFT 15371532239152, Sand + Navy 12/12 on 1090886959 / 1090886985, 7h: headline 2880 px / punch 3269 px (113%)..., flat cover). fal $0.04.
 2026-10-21 03:38 UTC — [C] Builder run: REDO #778 Unisex Rabbit Chewed the Charger. Feel Great. hoodie round 3: hay cropped to a strip, rabbit at 60% of the lockup width, words stacked beside it, 12/12 on 1090884541 / 1090884557, type 47%, REVIEW. fal $0.
