@@ -10972,7 +10972,6 @@
    ],
    "measured": "2026-10-21"
   },
-<<<<<<< HEAD
   "mens-sailing-im-not-lost-im-tacking-hoodie": {
    "claimed": [
     "sailing hoodie"
@@ -10985,7 +10984,7 @@
     }
    ],
    "measured": "2026-10-21"
-=======
+  },
   "mens-boxing-hands-up-expectations-low-hoodie": {
    "claimed": [
     "boxing hoodie"
@@ -10998,7 +10997,6 @@
     }
    ],
    "measured": "2026-10-20"
->>>>>>> 1a9c568f1afe7b9e11d0931c52e2fa488a5f7d9b
   }
  }
 }
