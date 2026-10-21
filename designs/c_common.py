@@ -25,3 +25,22 @@ def build(n, art_path, head, punch, font, sand, AW=1800, W=3400, hfrac=0.9, pfra
         out = lockup(aa, W, hs, ps, f'{n}-{mode}', {mode: bg}, g=40); out = out.crop(out.getchannel('A').point(lambda v: 255 if v > 10 else 0).getbbox())
         out.save(f'docs/print-files/{n}-{mode}.png', dpi=(300, 300)); th = sum(l.height for l in hs + ps)
         print(mode, out.size, 'headline', max(l.width for l in hs), 'punch', max(l.width for l in ps), 'type', th, 'of', out.height, round(th / out.height, 2), 'subject', art.width, 'of', out.width, round(art.width / out.width, 2))
+
+def spec(n, title, handle, slug, tags, seo, story, qa, cols=("Sand", "Navy"), inks=None):
+    """Writes designs/c<n>/spec.json + vars.json (productSet input, DRAFT, no compare-at, hoodies category); prints FAQ word counts and checks."""
+    h = "<h3>The Story</h3>\n" + "\n".join(f"<p>{p}</p>" for p in story) + "\n<h3>Details &amp; Fit</h3>\n<ul>\n<li>Classic unisex fit, pullover with a double-lined hood and matching drawcord</li>\n<li>50% pre-shrunk cotton, 50% polyester</li>\n<li>Fabric weight: 8.0 oz/yd²</li>\n<li>Air-jet spun yarn with a soft feel</li>\n<li>Front pouch pocket, ribbed cuffs and waistband with spandex</li>\n<li>Sizes S–3XL</li>\n<li>Colors: " + ", ".join(cols) + "</li>\n<li>Blank product sourced from Bangladesh, Nicaragua, Honduras or El Salvador</li>\n</ul>\n<h3>Questions</h3>\n" + "\n".join(f"<p><strong>{q}</strong><br>{a}</p>" for q, a in qa) + "\n"
+    for q, a in qa: print(len(a.split()), q)
+    print('seo', len(seo['title']), len(seo['description']), [w for w in ('frame', 'badge', 'shape behind', 'border') if w in h.lower()])
+    d = f'designs/c{n}'
+    json.dump({"title": title, "handle": handle, "slug": slug, "catalog": 146, "colors": list(cols), "sizes": ["S", "M", "L", "XL", "2XL", "3XL"], "price": "39.99", "compare": None, "productType": "Hoodie", "tags": tags, "seo": seo, "descriptionHtml": h}, open(f'{d}/spec.json', 'w'))
+    import subprocess; v = json.loads(subprocess.check_output(['/usr/bin/python3', 'scripts/mkvars.py', f'{d}/spec.json']))
+    v['input']['category'] = 'gid://shopify/TaxonomyCategory/aa-1-13-13'
+    for x in v['input']['variants']: x.pop('compareAtPrice', None)
+    json.dump(v, open(f'{d}/vars.json', 'w'), separators=(',', ':'), ensure_ascii=False)
+def faqs(name, short, who_gift, gift_why, place_warm, art_word):
+    """Standard 5 hoodie FAQs. name=the full print line, short=how the hoodie is called in answers."""
+    return [(f"Is this {who_gift[0]} hoodie warm enough for {place_warm[0]}?", f"Yes. The {short} hoodie from Graphic Tees Co. is a Gildan 18500 pullover in 8 oz fleece, 50% cotton and 50% polyester, with a double-lined hood and a front pouch pocket. It is an easy layer for {place_warm[1]}."),
+     (f"How does the {short} hoodie fit?", f"It is a classic unisex cut in adult sizes S through 3XL. Order your usual size for a regular fit, or go up one for a roomier layer over a work shirt or base layer. If it is not right, Graphic Tees Co. offers a free size exchange, so the first pick carries no risk."),
+     (f"Is this a good gift for {who_gift[1]}?", f"{gift_why} It comes in Sand and Navy, prints to order, and the free size exchange covers a wrong guess on size."),
+     ("How do I wash the hoodie so the print lasts?", f"Turn the Graphic Tees Co. hoodie inside out, wash it in cold water with similar colors and tumble dry on low. Skip bleach and ironing on the print. The design is printed directly on the fabric, so gentle care keeps the lettering and the {art_word} sharp wash after wash."),
+     ("When should I order for Christmas delivery?", f"Order by about December 8 to have the {short} hoodie for Christmas. Each Graphic Tees Co. hoodie is printed to order after you buy, and shipping is free on orders over $45. Orders placed after that date may arrive after the holiday, so earlier is safer.")]

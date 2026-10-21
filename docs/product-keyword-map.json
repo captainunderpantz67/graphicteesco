@@ -10889,6 +10889,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "unisex-police-off-duty-still-judging-your-parking-hoodie": {
+   "claimed": [
+    "police hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "police hoodie",
+     "volume": 1000,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-21"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

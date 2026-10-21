@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/user/graphicteesco/scripts/pf-sync.py", line 43, in <module>
+    if POS is None: POS = front_pos(v['variant_id'] or int(v['sku'].split('-')[-1]), ff['width'], ff['height'])
+                          ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/graphicteesco/scripts/pf-sync.py", line 28, in front_pos
+    return {'area_width': a['width'], 'area_height': a['height'], 'width': fw, 'height': round(fw * h / w), 'top': int(os.environ.get('TOP', 75)), 'left': (a['width'] - fw) // 2}
+                                                                                               ~~~^~~
+TypeError: unsupported operand type(s) for *: 'int' and 'NoneType'
