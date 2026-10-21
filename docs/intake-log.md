@@ -6,6 +6,8 @@ RUNNING helper since 2026-10-21 05:43 UTC
 RUNNING lane C since 2026-10-21 05:25 UTC
 2026-10-21 05:44 UTC — [B] Builder run (REDO): #694 Christmas Tree It Looked Smaller at the Farm Mug redo: AT THE FARM 1014 px vs headline 1006 px (101%), new wrap file 1090935994, Shopify media replaced, REVIEW. fal $0.
 2026-10-21 05:38 UTC — [B] Builder run: #834 Men's Papa Has a Spot. Won't Say Where. Camo Hoodie built to REVIEW (DRAFT 15371567563056, Forest + Duck + Deadwood Tree Camo 18/18 on 1090933259, FW 1500, new art 1 call, type 26% flagged, flat cover, audit PASS). fal $0.04.
+2026-10-21 06:00 UTC — [C] Builder run: REDO #458 Hanukkah tee twin now EIGHT NIGHTS. / ZERO SALAD., 36/36 relinked (FW 1400), to REVIEW. fal $0.
+2026-10-21 05:55 UTC — [C] Builder run: REDO #457 Hanukkah crewneck now EIGHT NIGHTS. / ZERO SALAD. (same latke art, new lockup), 12/12 on 1090931878, to REVIEW. fal $0.
 RUNNING director since 2026-10-21 05:13 UTC
 2026-10-21 05:28 UTC — [B] Builder run: #833 Men's Catfish Caught Something Ugly. Kept It Anyway. Camo Hoodie built to REVIEW (DRAFT 15371565891888, Forest + Black + Deadwood Tree Camo 18/18 on 1090930894, FW 1500, new art 1 call, flat cover, audit PASS). fal $0.04.
 2026-10-21 05:21 UTC — [B] Builder run: #832 Men's Farmer No Days Off. The Cows Said So. Camo Hoodie built to REVIEW (DRAFT 15371563106608, Forest + Duck + Deadwood Tree Camo 18/18 on 1090928521, FW 1600, dark-ink file on cream halo, flat cover, audit PASS). fal $0.
