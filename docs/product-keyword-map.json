@@ -11140,6 +11140,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "unisex-bulldog-walked-once-never-again-hoodie": {
+   "claimed": [
+    "bulldog hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bulldog hoodie",
+     "volume": 880,
+     "kd": 35
+    }
+   ],
+   "measured": "2026-10-21"
   }
  }
 }
