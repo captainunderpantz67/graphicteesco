@@ -11257,6 +11257,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "womens-cavalier-technically-royalty-hoodie": {
+   "claimed": [
+    "cavalier hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cavalier hoodie",
+     "volume": 210,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-21"
   }
  }
 }
