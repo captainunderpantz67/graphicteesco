@@ -12044,6 +12044,32 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-christmas-it-looked-smaller-at-the-farm-embroidered-zip-hoodie": {
+   "claimed": [
+    "christmas tree zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas tree zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-apres-ski-expert-in-apres-embroidered-zip-hoodie": {
+   "claimed": [
+    "ski zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "ski zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }

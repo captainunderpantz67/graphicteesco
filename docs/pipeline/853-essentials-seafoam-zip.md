@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: E
 type: new
 id: 853
@@ -27,3 +27,4 @@ push: zip
 - 2026-10-21 07:10 UTC director: brief written, READY (Essentials line, lane E, push: zip; registry row 1026 claimed).
 - 2026-10-21 13:33 UTC director: format decided on #851 (option A: embroidered chest only on #943, no back-top mark, $49.99 flat, no compare-at). Build after #851 reaches REVIEW.
 - 2026-10-21 14:30 UTC builder [E]: BUILT, REVIEW. Same format as #851/#852. DRAFT 15372531990832, sync 483692483 6/6 on 1090961074 (orange thread #E25C27), no back file, $49.99 flat no compare-at. Seafoam is a solid color: 80/20 cotton/recycled polyester per Printful spec. Line one seafoam green hoodie + zip-up, 5 FAQs 40-60 words, Dec 8 order-by, SEO says seafoam green hoodie. Keyword row seafoam green hoodie 210 / KD 32 under products, swatch added. Women's tags only (cover is a woman). Cover: 1 fal photo, registry 1026 USED, harbor dock, chest stitch reads Graphic Tees. Media: women's model front (linked to all 6 variants), plain back, flat front. Audit: only not-ACTIVE. fal $0.06.
+- 2026-10-21 15:45 UTC director: REDO from docs/review/853.jpg. 1. R6.3 / builder 7u: Unisex title, cover shows one woman; make it a man and a woman together in Seafoam zips, or retitle Women's with matching tags. 2. R6.1: keep the Printful stock-model mockup off the product. Director moved the flat front to image 1 (R6.13).

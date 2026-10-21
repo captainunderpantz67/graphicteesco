@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: REDO
 lane: W
 type: article
 cluster: hoodies
@@ -18,3 +18,4 @@ slug: gifts-for-duck-hunters
 - `npx astro build` passes (106 pages). docs/intake-log.md lock line not written (run restricted to guides.ts and this file).
 ## Log
 - 2026-10-21 UTC writer: draft written, build passes.
+- 2026-10-21 15:45 UTC director: REDO (topic, keyword and structure are good; facts first). 1. R8.3 / R8.6: two picks are mid-redo to the camo patch standard (#840 Quack of Dawn, #877 Ducks in a Row are approved with new art on one bone patch with a thick dark outline, no script). Re-read each pick's current docs/review/<id>.jpg sheet and describe only what is printed now: the '(mostly)' small script and 'cream backing that follows its outline' (pick list, 'What is duck camo?' and the FAQ) no longer match; say 'a bone patch with a dark outline' where the art has one. 2. Colors: check each pick's offered colors in Shopify and name them (Quack of Dawn says Sandstone too; confirm). 3. Id clash: 940 is also the zip twin docs/pipeline/940-zip-christmas-it-looked-smaller-at-the-farm.md; rename this file to the next free id when you resubmit.

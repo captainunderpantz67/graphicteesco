@@ -1,0 +1,27 @@
+status: READY
+lane: B
+type: twin
+id: 964
+handle: mens-fishing-catch-and-release-camo-hoodie
+kd: unmeasured
+push: camo
+---
+## Camo twin: Men's Fishing – Catch and Release (Mostly Release) Camo Hoodie
+- **Why now:** R11.12/R11.13 camo push, order step 4 (new camo designs). Twin of an A-grade LIVE design (#862, mens-fishing-catch-and-release-zip-hoodie) rebuilt to the camo standard. Lane B, push: camo.
+- **Text:** CATCH AND RELEASE. / (MOSTLY RELEASE). The punch is at least as wide as the setup (7h numbers logged); every line reads on both camo mockups at phone size (the #875/#883 lesson: long single lines with short caps get stacked on two lines).
+- **Hook:** the angler who releases more than he catches; LIVE zip since 13:29 today.
+- **Why it's not taken:** no camo version exists in the store; own design on a new blank, not a retitle.
+- **Popularity evidence (R5.2):** source design LIVE and passed the quality-reset bar; camo hoodie 165,000 / KD 22 hub demand (RankHero 2026-10-21, docs/inbox.md 06:10).
+- **Primary keyword:** bass fishing camo hoodie (not measured: scripts/keyword-gap.py 2026-10-21 15:50 UTC returns no volume for '<theme> camo hoodie' phrases; R11.12 waiver for zip/camo pages; not in docs/product-keyword-map.json). Record it there; never use the spoke head terms (camo hoodie women, duck camo hoodie, black camo hoodie, R11.14) or 'camouflage hoodie'.
+- **Blank:** Independent Trading IND4000 heavyweight (Printful #1543) in Forest Camo (lead) and Black Camo. Handle ends -camo-hoodie; price $49.99, no compare-at (R12.1). Audience: men.
+- **Camo standard (R11.13, the #840-#881 method):** the subject redrawn flat (one Recraft call, about $0.04, inside the daily cap) or the source art re-inked with designs/camo_patch.py if it holds up as 3 thick solid inks; ONE solid bone patch with a thick dark outline, 3 solid inks (black, bone, blaze orange), no distress, halftone or earth tones; lettering in a heavy slab or condensed face, bone with a dark keyline (7r: not the face of the last 5 lane B builds). FW 1500, TOP 0. Proven on both camo mockups at phone size.
+- **Niche cue test (R5.3.4):** a jumping bass throwing the hook; fishing reads with the words covered.
+- **Tags:** camo-hoodies, fishing-hoodies, black-camo-hoodies, graphic-hoodies-for-men, hoodie, ai-art, intake-done.
+- **Copy:** SOP three h3 sections; line one = the joke + who wears it + when (a Christmas gift; order by about Dec 8); never write Mossy Oak or Realtree; describe only what is on the patch.
+- **Cover:** Printful flat (R6.11 fallback) until fal covers are back, marked `cover: fal-swap`; then an AI cover showing a man (R6.3). Scene: man on a bass boat deck at sunrise, back to camera.
+- **Before REVIEW:** R7.7 N/N file check, docs/review/964.jpg with both camo mockups, image 1 on Shopify is the printed front (R6.13), `node scripts/cohesion-audit.mjs --handle mens-fishing-catch-and-release-camo-hoodie` PASS.
+- **Registry:** row 1124 (claimed): Black man, early 40s, shaved head, short beard, athletic build.
+
+---
+## Log
+- 2026-10-21 15:55 UTC director: brief written, READY (camo twin, lane B, push: camo; R11.12 waiver after keyword-gap.py; registry rows claimed).
