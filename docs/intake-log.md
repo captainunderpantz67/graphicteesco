@@ -1,3 +1,4 @@
+RUNNING helper since 2026-10-21 07:43 UTC
 RUNNING lane B since 2026-10-21 07:28 UTC
 2026-10-21 07:42 UTC — [E] Builder run end: #743, #722, #750 (new art), #746, #747 mugs and #786 ornament built to REVIEW; #851 PARKED (Printful refuses embroidery + back DTG on #943). fal wallet exhausted (403), so the remaining lane E items (new art, AOP/zip pilots, #852-#858 gated on #851) wait. Lock released.
 RUNNING director since 2026-10-21 07:15 UTC
