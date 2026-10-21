@@ -11992,6 +11992,58 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-fishing-you-catching-em-no-keep-walking-embroidered-zip-hoodie": {
+   "claimed": [
+    "fisherman zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fisherman zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-drummer-the-neighbors-love-me-embroidered-zip-hoodie": {
+   "claimed": [
+    "drummer zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "drummer zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "unisex-running-mile-one-was-a-mistake-embroidered-zip-hoodie": {
+   "claimed": [
+    "running zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "running zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-christmas-attending-under-protest-embroidered-zip-hoodie": {
+   "claimed": [
+    "christmas zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
