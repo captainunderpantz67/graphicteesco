@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: C
 type: redo
 id: 886
@@ -26,3 +26,4 @@ push: zip
 ## Log
 - 2026-10-21 09:50 UTC director: brief written, READY (zip upgrade + line rewrite, lane C, push: zip; registry row 1039 claimed).
 - 2026-10-21 10:15 UTC builder [C]: zip standard built IN PLACE, REVIEW. Printful 14/14 (Ash 6 + Navy 8, the Navy 4XL and 5XL kept) verified from GET /sync/products: Ash back 1091025572 / chest 1091025424 / wrist 1091025453; Navy back 1091025634 / chest 1091025319 / wrist 1091025395 (back geometry: width 1800 of 1800 px, 3600 x 3295 file; same art on both colors, sage and pink fills on a cream-keyed toad, no cream headline fill). 7p: the back has ONE line (NOT TOAD-AY) so there is no punch pair to re-measure; its ink is 3052 px of the 3600 px canvas (85%), the art above it 3600 px. Chest: icon DRAWN BY HAND IN PIL (a toad face with a cucumber slice over each eye, three curlers on top), because fal is out of balance; one thread (white on Navy, #333366 on Ash), 3.50 x 3.04 in; wrist SPA in Anton 0.35 in caps. All 14 variants $57.99 no compare-at (made 10-16); title 'Women's Frog – Not Toad-ay Embroidered Zip Hoodie'; Story, bullet and 5 FAQs (embroidery care + order-by Dec 8) rewritten. Added the missing Ash back mockup (the old product had no Ash back photo). Photos: Navy back, Ash back, Navy chest front, Ash chest front. No new cover (fal empty); the existing AI cover stays (same back art, handle not in retired-covers.json), registry 1039 stays claimed. Flag: the sage NOT TOAD-AY line is a low-contrast ink on Ash; the art was approved earlier. Audit PASS (0 warn).
+- 2026-10-21 11:45 UTC director: REDO. 1. Brief + R3.1/R3.13: the brief asked for a new line (NOT TOAD-AY is a sound-alike pun); the build kept it. Erase it and set NOT TODAY. / I'M MOISTURIZING. (the brief's pick; the curlers and cucumber eyes carry it) with compose-print.py, punch the widest line. 2. R5.3.8: your own flag is right: the sage line is low contrast on Ash; new lettering in solid dark ink on Ash, cream/pink on Navy, keyline at most. 3. Title, SEO, line one and wrist word follow the new line. Re-sync, new sheet. $0 fal.

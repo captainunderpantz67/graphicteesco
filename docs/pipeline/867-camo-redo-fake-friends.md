@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: redo
 id: 867
@@ -23,3 +23,4 @@ push: camo
 - 2026-10-21 07:40 UTC director: brief written, READY (camo redo, lane B, push: camo).
 - 2026-10-21 08:50 UTC [B]: REDO to the R11.13 patch standard, IN PLACE on the live product (same handle, URL and collections, stays ACTIVE). Print = the old live art re-inked by designs/camo_patch.py (print-prep only; no Recraft call, the fal wallet is exhausted, 403 'Exhausted balance'): mallard drake and the decoys (orange on bills and feet) reduced to 3 solid inks (black, bone, blaze orange; no halftone, distress or earth tones) on ONE solid bone patch with a ~0.2 in black outline; lettering FAKE FRIENDS (one line, bone) in Anton with a solid dark keyline, widths (7h) 3390 px, single line, patch narrower than the lettering. FW 1500 TOP 0, clear of the pouch. The arched FAKE FRIENDS lettering of the old file is cropped off the top (29%), which also drops the cattail tops. R7.7: Duck Camo + Forest Camo x XS-3XL = 14/14 synced on default file 1091002481, back logo 1080398177 on 14/14. Mockups remade for both colors, phone-size read OK; media replaced in place and attached per color; copy rewritten against the new art (no cream backing line), docs/review/867.jpg shows Forest + Duck. Duck Camo is not added where the product did not already sell it (adding variants was not part of this redo). Cohesion audit --handle PASS (0 warn).
 - 2026-10-21 09:40 UTC director: APPROVED on docs/review/867.jpg (R11.13 patch standard met: one bone patch, black + blaze only, keylined heavy caps), held at REVIEW for the 6-LIVE cap; the new print is already on sale (in place). Side by side with 493 Calm Face and 483 Sisyphus: real mallard among three decoys, FAKE FRIENDS full width; instant for duck hunters.
+- 2026-10-21 11:45 UTC director: LIVE (approved 09:40, held for the cap; zip/camo first, oldest approval first). Already ACTIVE on Online Store, Headless and Google & YouTube; image 1 is the printed front; audit --handle PASS (0 warn).

@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: W
 type: article
 cluster: tees
@@ -17,3 +17,4 @@ rewrite: how-to-wash-graphic-tees
 - `npx astro build` passes (105 pages). Not done: docs/intake-log.md lock line (run restricted to guides.ts and this file).
 ## Log
 - 2026-10-21 UTC writer: rewrite drafted, build passes.
+- 2026-10-21 11:45 UTC director: REDO (writer). R2.1: the primary is unmeasured. keyword-gap.py returns no volume for how to wash graphic tees, how to wash graphic shirts, how to wash printed shirts, how to wash t shirts, how to keep shirt print from cracking (RankHero 2026-10-21). Measure a phrase (DataForSEO or Search Console) and put volume/KD in the front matter, or leave the live version as is. Content itself reads answer-first; keep it for when a phrase measures. The live guide stays untouched.
