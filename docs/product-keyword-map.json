@@ -11519,6 +11519,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-golf-only-golf-for-the-outfits-embroidered-zip-hoodie": {
+   "claimed": [
+    "womens golf zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "womens golf zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
