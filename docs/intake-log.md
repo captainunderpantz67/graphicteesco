@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-21 12:26 UTC
 2026-10-21 19:20 UTC — [C] REVIEW #913 Men's Wolf Lone Wolf. Early Bedtime. Embroidered Zip Hoodie (NEW DRAFT 15372070945072, 18/18 on 1091085192/1091085097, punch 100.3% of setup, light-ink file made for Black/Navy, hand-drawn wolf chest, cover: fal-swap). fal $0.
 2026-10-21 18:50 UTC — [C] REVIEW #908 Unisex Dachshund Short Legs, Long Opinions Embroidered Zip Hoodie (NEW DRAFT 15372030083376, 18/18 on 1091080972/1091080874, setup scaled so punch = 103.8%, hand-drawn dachshund chest, cover: fal-swap). fal $0.
 2026-10-21 18:15 UTC — [C] REVIEW #907 Unisex Golf Not Cheating. Improving My Lie. Embroidered Zip Hoodie (NEW DRAFT 15371984011568, 18/18 on 1091076971/1091076906, setup line scaled so punch = 104.8%, hand-drawn golf-ball chest, cover: fal-swap). fal $0.
