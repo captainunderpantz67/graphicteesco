@@ -11114,6 +11114,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "unisex-track-turn-left-repeat-hoodie": {
+   "claimed": [
+    "track hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "track hoodie",
+     "volume": 720,
+     "kd": 25
+    }
+   ],
+   "measured": "2026-10-21"
   }
  }
 }
