@@ -11,7 +11,12 @@
   "w": 600,
   "h": 144
  },
- "chest_navy": null,
+ "chest_navy": {
+  "id": 1091078397,
+  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/t09c909_chest_navy.png",
+  "w": 1050,
+  "h": 920
+ },
  "wrist_navy": {
   "id": 1091083752,
   "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/t09bc909_wrist_navy.png",

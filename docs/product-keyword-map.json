@@ -11572,6 +11572,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-octopus-eight-arms-zero-hugs-embroidered-zip-hoodie": {
+   "claimed": [
+    "octopus zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "octopus zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
