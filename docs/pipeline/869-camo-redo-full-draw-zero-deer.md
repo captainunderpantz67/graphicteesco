@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: redo
 id: 869
@@ -23,3 +23,4 @@ push: camo
 - 2026-10-21 07:40 UTC director: brief written, READY (camo redo, lane B, push: camo).
 - 2026-10-21 08:50 UTC [B]: REDO to the R11.13 patch standard, IN PLACE on the live product (same handle, URL and collections, stays ACTIVE). Print = the old live art re-inked by designs/camo_patch.py (print-prep only; no Recraft call, the fal wallet is exhausted, 403 'Exhausted balance'): bowhunter in the ladder stand at full draw (orange camo blotches, leaves) reduced to 3 solid inks (black, bone, blaze orange; no halftone, distress or earth tones) on ONE solid bone patch with a ~0.2 in black outline; lettering FULL DRAW, (bone) / ZERO DEER (blaze orange) in Anton with a solid dark keyline, widths (7h) 3212 / 3230 px (punch 100.6%), patch narrower than the lettering. FW 1500 TOP 0, clear of the pouch. The small squirrel of the old art is too faint after the 3-ink conversion, so the copy no longer mentions it. R7.7: Darkwood Tree Camo + Forest Camo x XS-3XL = 14/14 synced on default file 1091000200, back logo 1080398177 on 14/14. Mockups remade for both colors, phone-size read OK; media replaced in place and attached per color; copy rewritten against the new art (no cream backing line), docs/review/869.jpg shows Forest + Darkwood. Duck Camo is not added where the product did not already sell it (adding variants was not part of this redo). Cohesion audit --handle PASS (0 warn).
 - 2026-10-21 09:40 UTC director: APPROVED on docs/review/869.jpg (R11.13 patch standard met: one bone patch, black + blaze only, keylined heavy caps), held at REVIEW for the 6-LIVE cap; the new print is already on sale (in place). Side by side with 493 Calm Face and 483 Sisyphus: bowhunter at full draw in a bare tree, ZERO DEER the widest blaze line.
+- 2026-10-21 12:45 UTC director: LIVE (approved earlier, held for the cap; zip/camo first per R11.12). Already ACTIVE on Online Store, Headless and Google & YouTube; audit --handle PASS 0 warn.

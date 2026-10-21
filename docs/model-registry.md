@@ -863,3 +863,18 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1068 | Indigenous Canadian man, late 30s, shoulder-length black hair tied back, broad build | CLAIMED 2026-10-21 — #913 zip cover (brief) |
 | 1069 | Brazilian woman, late 20s, dark curly hair in a high bun, athletic build | CLAIMED 2026-10-21 — #914 zip cover (brief) |
 | 1070 | white woman, early 20s, platinum pixie cut, slim build | CLAIMED 2026-10-21 — #915 zip cover (brief) |
+| 1071 | white man, mid 30s, short brown hair, light stubble, athletic build | CLAIMED 2026-10-21 — #916 zip cover (brief) |
+| 1072 | Black woman, mid 20s, long box braids tied back, slim build | CLAIMED 2026-10-21 — #916 zip cover (brief) |
+| 1073 | Black man, early 40s, shaved head, trimmed beard, broad build | CLAIMED 2026-10-21 — #917 zip cover (brief) |
+| 1074 | white woman, late 50s, silver bob, medium build | CLAIMED 2026-10-21 — #917 zip cover (brief) |
+| 1075 | Puerto Rican man, late 20s, short curly black hair, slim build | CLAIMED 2026-10-21 — #918 zip cover (brief) |
+| 1076 | Colombian woman, early 30s, long dark hair in a braid, curvy build | CLAIMED 2026-10-21 — #918 zip cover (brief) |
+| 1077 | Japanese man, mid 50s, grey short hair, medium build | CLAIMED 2026-10-21 — #919 zip cover (brief) |
+| 1078 | Chinese-American woman, late 20s, shoulder-length straight hair tucked back, petite build | CLAIMED 2026-10-21 — #920 zip cover (brief) |
+| 1079 | Somali-American woman, mid 30s, patterned headscarf, medium build | CLAIMED 2026-10-21 — #921 zip cover (brief) |
+| 1080 | Black woman, mid 20s, long box braids tied back, slim build | CLAIMED 2026-10-21 — #922 zip cover (brief) |
+| 1081 | white man, late 40s, ginger beard, ball cap off, stocky build | CLAIMED 2026-10-21 — #923 zip cover (brief) |
+| 1082 | white man, mid 30s, short brown hair, light stubble, athletic build | CLAIMED 2026-10-21 — #924 zip cover (brief) |
+| 1083 | white woman, late 50s, silver bob, medium build | CLAIMED 2026-10-21 — #925 zip cover (brief) |
+| 1084 | Black man, early 40s, shaved head, trimmed beard, broad build | CLAIMED 2026-10-21 — #926 zip cover (brief) |
+| 1085 | Colombian woman, early 30s, long dark hair in a braid, curvy build | CLAIMED 2026-10-21 — #927 zip cover (brief) |
