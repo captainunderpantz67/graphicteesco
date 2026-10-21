@@ -11672,6 +11672,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-outdoors-went-outside-it-was-fine-embroidered-zip-hoodie": {
+   "claimed": [
+    "outdoorsy zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "outdoorsy zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
