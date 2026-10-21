@@ -11270,6 +11270,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "mens-snowmobile-its-only-cold-if-you-stop-hoodie": {
+   "claimed": [
+    "snowmobile hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "snowmobile hoodie",
+     "volume": 170,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-21"
   }
  }
 }
