@@ -39,6 +39,9 @@ const crumbs = [
   ...(c.section === 'hoodies' ? [{ name: 'Hoodies', path: '/hoodies/' }] : []),
   { name: c.h1, path: pathFor(c) },
 ];
+// Dark collection trial (Sam 2026-10-21): zip-ups only for now; add slugs here to roll it out.
+const DARK_PAGES = new Set(['zip-up-hoodies']);
+const darkPage = DARK_PAGES.has(c.slug);
 const cluster = clusterOf(c.slug);
 // Cluster siblings are listed in ClusterLinks, so "More collections" skips them.
 const related = all.filter((x) => !cluster || (x.slug !== cluster.hub.slug && !cluster.spokes.includes(x.slug))).filter((x) => x.section === c.section && x.slug !== c.slug && !!x.seasonal === !!c.seasonal && live.has(x.slug)).slice(0, 6);
@@ -51,13 +54,14 @@ const noindex = (shopifyConnected && products.length < MIN_INDEX) || HOLD.has(c.
 ---
 <Base title={c.title} description={c.description} noindex={noindex} image={shareImage}
   schema={[breadcrumbs(crumbs), faqPage(faqs), collectionPage(c, products)]}>
+  <div class={darkPage ? 'theme-dark pb-16' : ''}>
   <nav aria-label="Breadcrumb" class="container-x pt-6 text-xs text-[var(--color-ink-2)]">
     {crumbs.map((b, i) => <>{i > 0 && ' / '}{i < crumbs.length - 1 ? <a href={b.path} class="hover:underline">{b.name}</a> : <span>{b.name}</span>}</>)}
   </nav>
 
   <section class="container-x pt-6 pb-8">
-    <p class="eyebrow">{c.seasonal ? 'Seasonal drop' : c.section === 'hoodies' ? 'Graphic hoodies' : 'Graphic tees'}</p>
-    <h1 class="display text-5xl md:text-7xl mt-2">{c.h1}</h1>
+    <p class="eyebrow text-[var(--color-rust)]">{c.seasonal ? 'Seasonal drop' : c.section === 'hoodies' ? 'Graphic hoodies' : 'Graphic tees'}</p>
+    <h1 class="display text-5xl md:text-7xl mt-2 text-[var(--color-navy)]">{c.h1}<span class="block mt-3 h-1.5 w-20 rounded-full bg-[var(--color-rust)]"></span></h1>
     <p class="mt-4 max-w-2xl text-lg text-[var(--color-ink-2)]">{c.intro}</p>
     {twin && <a href={pathFor(twin)} class="inline-block mt-4 font-semibold underline decoration-[var(--color-rust)] underline-offset-4">Also on a {twin.section === 'hoodies' ? 'hoodie' : 'tee'} → {twin.h1}</a>}
   </section>
@@ -67,9 +71,9 @@ const noindex = (shopifyConnected && products.length < MIN_INDEX) || HOLD.has(c.
       <div class="grid gap-12">
         {rows.map((g, gi) => (
           <section data-row aria-label={g.name} class="min-w-0">
-            <div class="flex items-end justify-between gap-3 border-b-2 border-[var(--color-ink)] pb-2">
-              <h2 class="display text-[clamp(1.8rem,7vw,2.6rem)] leading-[.9]">{g.name} <span class="text-[var(--color-ink-2)] text-[.55em] align-middle">({g.items.length})</span></h2>
-              {g.items.length > 3 && <button type="button" data-row-toggle class="shrink-0 rounded-full border-2 border-[var(--color-ink)] bg-[var(--color-cream)] px-4 py-1.5 text-xs font-extrabold uppercase tracking-[.1em] shadow-[2px_2px_0_var(--color-ink)] hover:bg-[var(--color-mustard)]">See all</button>}
+            <div class="flex items-end justify-between gap-3 border-b-2 border-[var(--color-rust)] pb-2">
+              <h2 class="display text-[clamp(1.8rem,7vw,2.6rem)] leading-[.9] text-[var(--color-navy)]">{g.name} <span class="text-[var(--color-rust)] text-[.55em] align-middle">({g.items.length})</span></h2>
+              {g.items.length > 3 && <button type="button" data-row-toggle class="shrink-0 rounded-full border-2 border-[var(--color-navy)] bg-[var(--color-cream)] text-[var(--color-navy)] px-4 py-1.5 text-xs font-extrabold uppercase tracking-[.1em] shadow-[2px_2px_0_var(--color-rust)] hover:bg-[var(--color-rust)] hover:text-[var(--color-cream)]">See all</button>}
             </div>
             <div data-row-track class="mt-5 -mx-4 px-4 scroll-px-4 flex gap-4 overflow-x-auto snap-x snap-mandatory pb-3 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
               {g.items.map((p, i) => <div class="snap-start shrink-0 w-[42%] sm:w-[30%] md:w-[23%]"><ProductCard product={p} audience={c.audience} eager={gi === 0 && i < 2} /></div>)}
@@ -107,6 +111,7 @@ const noindex = (shopifyConnected && products.length < MIN_INDEX) || HOLD.has(c.
       </ul>
     </aside>
   </section>
+  </div>
   <script>
     // "See all" turns a row's swipe track into a full grid (and back).
     document.querySelectorAll<HTMLElement>('[data-row]').forEach((row) => {

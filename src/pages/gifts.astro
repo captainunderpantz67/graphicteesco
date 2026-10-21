@@ -22,14 +22,14 @@ const bfStart = new Date(blackFriday.start).toLocaleDateString('en-US', { month:
 ---
 <Base title={`Gifts & Sets: Ornaments, Socks, Mugs | ${site.name}`} noindex={true}
   description="Funny gifts and stocking stuffers from Graphic Tees Co.: ornaments, socks, mugs, sweatpants and matching family sets with original designs.">
-  <section class="bg-[var(--color-rust)] text-[var(--color-cream)] border-b-2 border-[var(--color-ink)]">
+  <section class="bg-[var(--color-cream)] text-[var(--color-navy)] border-b-2 border-[var(--color-ink)]">
     <div class="container-x pt-8 pb-10 md:pt-14 md:pb-14">
-      <nav aria-label="Breadcrumb" class="text-xs opacity-80"><a href="/" class="hover:underline">Home</a> / <span>Gifts</span></nav>
-      <p class="eyebrow mt-6" style="color:var(--color-mustard)">Under the tree, in the stocking</p>
-      <h1 class="display text-[clamp(3rem,13vw,6.5rem)] leading-[.88] mt-2">Gifts &amp; <span class="text-[var(--color-ink)]">sets</span></h1>
-      <p class="mt-4 max-w-2xl text-lg opacity-95">Ornaments, socks, mugs and cozy sets with the same original designs as our tees. Mix them into an order: Black Friday tiers start {bfStart} (buy 2 save 15%, buy 4+ save 25%) and US shipping is free on $45+.</p>
+      <nav aria-label="Breadcrumb" class="text-xs text-[var(--color-ink-2)]"><a href="/" class="hover:underline">Home</a> / <span>Gifts</span></nav>
+      <p class="eyebrow mt-6" style="color:var(--color-rust)">Under the tree, in the stocking</p>
+      <h1 class="display text-[clamp(3rem,13vw,6.5rem)] leading-[.88] mt-2">Gifts &amp; <span class="text-[var(--color-rust)]">sets</span></h1>
+      <p class="mt-4 max-w-2xl text-lg text-[var(--color-ink-2)]">Ornaments, socks, mugs and cozy sets with the same original designs as our tees. Mix them into an order: Black Friday tiers start {bfStart} (buy 2 save 15%, buy 4+ save 25%) and US shipping is free on $45+.</p>
       <div class="mt-8 flex gap-2 overflow-x-auto -mx-4 px-4 pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-        {sections.map((s) => <a href={`#${s.id}`} class="shrink-0 rounded-full bg-[var(--color-cream)] text-[var(--color-ink)] border-2 border-[var(--color-ink)] px-4 py-2 text-sm font-extrabold uppercase tracking-[.08em] shadow-[3px_3px_0_var(--color-ink)] hover:bg-[var(--color-mustard)]">{s.title} ({s.items.length})</a>)}
+        {sections.map((s) => <a href={`#${s.id}`} class="shrink-0 rounded-full bg-[var(--color-navy)] text-[var(--color-cream)] border-2 border-[var(--color-navy)] px-4 py-2 text-sm font-extrabold uppercase tracking-[.08em] shadow-[3px_3px_0_var(--color-rust)] hover:bg-[var(--color-rust)]">{s.title} ({s.items.length})</a>)}
         <a href="/black-friday/" class="shrink-0 rounded-full bg-[var(--color-ink)] text-[var(--color-mustard)] border-2 border-[var(--color-ink)] px-4 py-2 text-sm font-extrabold uppercase tracking-[.08em]">Black Friday deals →</a>
       </div>
     </div>
@@ -37,7 +37,7 @@ const bfStart = new Date(blackFriday.start).toLocaleDateString('en-US', { month:
 
   {sections.map((s) => (
     <section id={s.id} class="container-x pt-12 scroll-mt-24">
-      <h2 class="display text-[clamp(2.2rem,8vw,3.4rem)] leading-[.9]">{s.title}</h2>
+      <h2 class="display text-[clamp(2.2rem,8vw,3.4rem)] leading-[.9] text-[var(--color-navy)]">{s.title}<span class="block mt-2 h-1 w-14 rounded-full bg-[var(--color-rust)]"></span></h2>
       <p class="mt-1 text-[var(--color-ink-2)]">{s.blurb}</p>
       <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-8">
         {s.items.map((p, i) => <ProductCard product={p} eager={i < 2 && s === sections[0]} />)}
