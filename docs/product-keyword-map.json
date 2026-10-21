@@ -11153,6 +11153,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "unisex-greyhound-fastest-dog-slowest-mornings-hoodie": {
+   "claimed": [
+    "greyhound hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "greyhound hoodie",
+     "volume": 210,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-21"
   }
  }
 }
