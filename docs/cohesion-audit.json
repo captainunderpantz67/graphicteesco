@@ -1,6 +1,6 @@
 {
- "at": "2026-10-21T07:45:25.078Z",
- "products": 694,
+ "at": "2026-10-21T08:45:29.922Z",
+ "products": 696,
  "findings": [
   {
    "level": "WARN",
@@ -832,6 +832,20 @@
    "level": "WARN",
    "handle": "unisex-doodle-groomer-appointment-overdue-hoodie",
    "title": "Unisex Doodle – Groomer Appointment: Overdue. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-catfish-caught-something-ugly-kept-it-anyway-camo-hoodie",
+   "title": "Men's Catfish – Caught Something Ugly. Kept It Anyway. Camo Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-papa-has-a-spot-wont-say-where-camo-hoodie",
+   "title": "Men's Papa – Papa Has a Spot. Won't Say Where. Camo Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
