@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-21 01:43 UTC
+# Cohesion audit — 2026-10-21 02:44 UTC
 
-664 live products checked · **0 errors** · 92 warnings · 85 products with findings
+670 live products checked · **0 errors** · 98 warnings · 91 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -245,10 +245,19 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Unisex National Park – The View Better Be Worth It. Sweatpants `unisex-national-park-the-view-better-be-worth-it-sweatpants`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Women's Barre – Tucked. Judging. Cropped Hoodie `womens-barre-tucked-and-judging-cropped-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Boxing – Hands Up. Expectations Low. Hoodie `mens-boxing-hands-up-expectations-low-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Unisex Running – Run Club. For the Coffee. Hoodie `unisex-running-run-club-mostly-a-coffee-club-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Men's Welder – Welds Like a Stack of Dimes. Paid Like One. Crewneck Sweatshirt `mens-welder-stacks-dimes-wants-more-dimes-crewneck-sweatshirt`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Turtle – Shell of a Person. Hoodie `unisex-turtle-shell-of-a-person-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Men's Cat Dad – Can't, Cat's on Me Hoodie `mens-cat-dad-cant-cats-on-me-hoodie`
@@ -260,11 +269,20 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Unisex Otter – Today's Plan: Horizontal. Crewneck Sweatshirt `unisex-otter-currently-drifting-crewneck-sweatshirt`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Men's Camping – Slept Outside. Have Notes. Hoodie `mens-camping-slept-outside-have-notes-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Men's Christian – Still Under Construction Heavyweight Hoodie `mens-christian-rebuilt-by-a-carpenter-heavyweight-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Nana – Mom Said No? That's Cute. Hoodie `womens-nana-mom-said-no-thats-cute-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Women's Mom – Motherhood Didn't Change Me. It Exposed Me. Hoodie `womens-mom-motherhood-exposed-me-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Women's Baseball Mom – His Batting Average Is My Personality Zip Hoodie `womens-baseball-mom-his-batting-average-is-my-personality-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Poker – I Fold. It's Self-Care. Hoodie `unisex-poker-i-fold-its-self-care-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
