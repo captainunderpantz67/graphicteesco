@@ -5,3 +5,4 @@ scale x0.80, thickened 0px each side, p10 stroke width 20.0px = 1.69 mm; size 23
 To https://github.com/captainunderpantz67/graphicteesco
  ! [remote rejected]   HEAD -> main (cannot lock ref 'refs/heads/main': is at f40acff115256cffa032d1e8a1cb2400e53f255c but expected 86d335467647c9cb070c5f4b23fd0b1155311513)
 error: failed to push some refs to 'https://github.com/captainunderpantz67/graphicteesco'
+{"chest_white": 1091087495, "wrist_white": 1091087588, "chest_navy": 1091087659, "wrist_navy": 1091087686, "back_ash": 1091087732, "back_navy": 1091087777}

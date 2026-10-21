@@ -1,8 +1,6 @@
-Traceback (most recent call last):
-  File "/home/user/graphicteesco/scripts/c-zipbuild.py", line 61, in <module>
-    r = call('POST', '/v2/mockup-tasks', {'format': 'jpg', 'products': [{'source': 'catalog', 'catalog_product_id': 692, 'catalog_variant_ids': [vid], 'mockup_style_ids': [8531, 8532], 'placements': [pl('embroidery_chest_left', 'chest_' + th), pl('embroidery_wrist_left', 'wrist_' + th), {'placement': 'back', 'technique': 'dtg', 'layers': [{'type': 'file', 'url': back['url'], 'position': {'width': BW, 'height': BH, 'top': 0, 'left': (12 - BW) / 2}}]}]}]})
-                                                                                                                                                                                                        ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/user/graphicteesco/scripts/c-zipbuild.py", line 59, in pl
-    def pl(n, k): return {'placement': n, 'technique': 'embroidery', 'layers': [{'type': 'file', 'url': ids[k]['url'], 'layer_options': [{'name': 'thread_colors', 'value': [t]}]}]}
-                                                                                                        ~~~~~~^^^^^^^
-TypeError: 'NoneType' object is not subscriptable
+{
+ "navy_front": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/b109a9e1168066891a454f6eead7e625/unisex-heavy-blend-zip-hoodie-navy-front-6ad8aff5d3ffa.jpg",
+ "navy_back": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/9dc58e212d4ca4c25e0c3bf98c237496/unisex-heavy-blend-zip-hoodie-navy-back-6ad8aff5d4348.jpg",
+ "ash_front": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/b3f368c48f28c2021a1027e408a72807/unisex-heavy-blend-zip-hoodie-ash-front-6ad8afff9a7fb.jpg",
+ "ash_back": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/b95da1f3e464cb328c7919ff8f13fecd/unisex-heavy-blend-zip-hoodie-ash-back-6ad8afff9ad4b.jpg"
+}

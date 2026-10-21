@@ -11599,6 +11599,19 @@
    ],
    "gaps_measured": [],
    "measured": "unmeasured (keyword-gap.py 2026-10-21 returned no RankHero volume for pilates zip up hoodie; R11.12 zip waiver: distinct design angle, never a head term)"
+  },
+  "womens-bookish-do-not-sell-my-books-embroidered-zip-hoodie": {
+   "claimed": [
+    "book lover zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "book lover zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
