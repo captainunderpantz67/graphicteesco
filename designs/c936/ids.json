@@ -1,0 +1,38 @@
+{
+ "chest_white": {
+  "id": 1091151676,
+  "url": "https://v3b.fal.media/files/b/0aaf475c/F9_wTvV1NfX03RWeFv8C4_p936ac936_chest_white.png",
+  "w": 1200,
+  "h": 771
+ },
+ "wrist_white": {
+  "id": 1091151755,
+  "url": "https://v3b.fal.media/files/b/0aaf475d/vrzFkYP8i5NA1lC7DIFJH_p936ac936_wrist_white.png",
+  "w": 600,
+  "h": 144
+ },
+ "chest_navy": {
+  "id": 1091151854,
+  "url": "https://v3b.fal.media/files/b/0aaf475d/9vnzyi7veGjODBQZ8gyCf_p936ac936_chest_navy.png",
+  "w": 1200,
+  "h": 771
+ },
+ "wrist_navy": {
+  "id": 1091151908,
+  "url": "https://v3b.fal.media/files/b/0aaf475e/KXg0ScfXBDat9cMAgEO39_p936ac936_wrist_navy.png",
+  "w": 600,
+  "h": 144
+ },
+ "back_ash": {
+  "id": 1091151958,
+  "url": "https://v3b.fal.media/files/b/0aaf475f/mGhWfCFS19sM874nXWP2r_p936aprint-files_936-fishing-ash.png",
+  "w": 3000,
+  "h": 2765
+ },
+ "back_navy": {
+  "id": 1091152026,
+  "url": "https://v3b.fal.media/files/b/0aaf475f/KERFrvEQwXavlMGkoVj23_p936aprint-files_936-fishing-light.png",
+  "w": 3000,
+  "h": 2765
+ }
+}

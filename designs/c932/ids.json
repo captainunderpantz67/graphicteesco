@@ -1,0 +1,38 @@
+{
+ "chest_white": {
+  "id": 1091147798,
+  "url": "https://v3b.fal.media/files/b/0aaf4734/yhdS9wyXPK_6WE1Pimf-0_p932ac932_chest_white.png",
+  "w": 1200,
+  "h": 401
+ },
+ "wrist_white": {
+  "id": 1091147836,
+  "url": "https://v3b.fal.media/files/b/0aaf4734/E8IEQLY-PNB0TdiJByqIi_p932ac932_wrist_white.png",
+  "w": 600,
+  "h": 144
+ },
+ "chest_navy": {
+  "id": 1091147937,
+  "url": "https://v3b.fal.media/files/b/0aaf4735/mBO8WDw8wJsWtK10JIl1-_p932ac932_chest_navy.png",
+  "w": 1200,
+  "h": 401
+ },
+ "wrist_navy": {
+  "id": 1091148024,
+  "url": "https://v3b.fal.media/files/b/0aaf4736/9PElCP27GM4Kg3-oKXZ4-_p932ac932_wrist_navy.png",
+  "w": 600,
+  "h": 144
+ },
+ "back_ash": {
+  "id": 1091148087,
+  "url": "https://v3b.fal.media/files/b/0aaf4737/z1NfmpTak22ZsxdimSmFy_p932aprint-files_932-bison-ash.png",
+  "w": 3000,
+  "h": 2752
+ },
+ "back_navy": {
+  "id": 1091148160,
+  "url": "https://v3b.fal.media/files/b/0aaf4737/hTO9k05oMdy7P5Px7BskS_p932aprint-files_932-bison-light.png",
+  "w": 3000,
+  "h": 2752
+ }
+}
