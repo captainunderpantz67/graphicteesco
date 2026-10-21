@@ -11,7 +11,6 @@ sleep 8; PID=$(python3 scripts/pf-find.py $SID | head -1 | cut -d' ' -f1); echo 
 cat > $S/sync$ID.sh <<SYNC
 #!/bin/bash
 cd /home/user/graphicteesco; export PATH=/usr/bin:\$PATH
-exec 9>/tmp/pfsync.lock; flock 9
 IFS=,; for c in $DC; do FORCE=1 ONLY="/ \$c /" FW=$FW TOP=$TOP python3 scripts/pf-sync.py setfile $PID $FD 1080398177; done
 for c in $LC; do FORCE=1 ONLY="/ \$c /" FW=$FW TOP=$TOP python3 scripts/pf-sync.py setfile $PID $FL 1080398177; done
 SYNC
