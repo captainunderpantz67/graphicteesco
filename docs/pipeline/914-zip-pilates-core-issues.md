@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-21T12:40Z
+status: REVIEW
 cover: fal-swap
 lane: C
 type: twin
@@ -32,3 +32,4 @@ push: zip
 ---
 ## Log
 - 2026-10-21 11:55 UTC director: brief written, READY (zip twin, lane C, push: zip; $0 fal; R11.12 unmeasured-phrase waiver: keyword-gap.py 2026-10-21 has no volume for "pilates zip up hoodie"; registry 1069 claimed).
+- 2026-10-21 UTC builder [C]: built to REVIEW as a NEW DRAFT (gid 15372111216944, Printful sync product 483658695). Printful 18/18 (Black 6, Navy 6, Ash 6) verified from GET /sync/products: Black and Navy back 1091094742 (light file) + chest 1091094355 (white thread) + wrist 1091094412; Ash back 1091094625 (dark-ink file) + chest 1091094454 (navy thread) + wrist 1091094516. R6.2 twin check: the live source print (3300 x 3235) had a pink script/italic 'I have' (re-set in heavy capitals) and a heavy serif CORE ISSUES; both lines re-set in Bowlby One via designs/lock.py (7r: Bowlby not used by the last five lane C builds, which set no or other lettering); art untouched. 7h/7p: setup I HAVE 1490 px, punch CORE ISSUES 2997 px (punch >= setup, 201%); type share 0.243, subject 0.92 of width; print 3000 x 2696 at 1800 px wide (FW >= 1500). 7e: Ash file navy + berry lettering, Black/Navy file pink + cream. Chest: hand-drawn rolled mat (spiral end) and ball, one thread, 3.5 in wide, 2.8 in tall (first draft with a base strip read as a snail and was redrawn); wrist CORE Anton 0.3 in+. 18 variants S-3XL $57.99 no compare-at, category hoodies, tags zip-up-hoodies, zip-up-hoodies-for-women, graphic-hoodies-for-women, black-zip-up-hoodies, hoodie, ai-art, intake-done. cover: fal-swap: no AI cover (fal out of balance), image 1 is the Printful Black back mockup, handle in retired-covers.json; registry 1069 stays claimed, unused. Photos: Black, Navy, Ash back, then three chest fronts; each variant linked to its color's back. Keyword row added (unmeasured, R11.12 waiver). audit-local PASS (1 warn: no lifestyle cover, expected). Design crops committed. Product stays DRAFT for the director.
