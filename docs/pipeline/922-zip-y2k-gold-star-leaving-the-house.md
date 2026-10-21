@@ -1,4 +1,5 @@
-status: BUILDING [C] 2026-10-21T13:05Z
+status: REVIEW
+shopify: gid://shopify/Product/15372218794288
 cover: fal-swap
 lane: C
 type: twin
@@ -29,3 +30,4 @@ push: zip
 ---
 ## Log
 - 2026-10-21 12:55 UTC director: brief written, READY (zip twin, lane C, push: zip; $0 fal; R11.12 unmeasured-phrase waiver after keyword-gap.py; registry 1080 claimed).
+- 2026-10-21 13:23 UTC builder [C]: NEW zip twin built to REVIEW (DRAFT gid://shopify/Product/15372218794288, productSet DRAFT, category Hoodies, 18 variants Black/Navy/Ash x S-3XL at $57.99, no compare-at, Printful sync product 483666549). Twin check (R6.2): the source print (womens-y2k-gold-star-for-leaving-the-house-hoodie, 3421 x 3668, a Sand print) had GOLD STAR in a heavy slab above the star art and FOR LEAVING / THE HOUSE in the same slab below, clean row gaps around the art (rows 484-2784 kept); all lines were cropped away and re-set. The gold, pink and periwinkle art reads on light and dark blanks (the navy shadow beside the star simply merges with a dark blank), so one art file serves both. Re-set in Anton (a face not among the last five lane C builds). Print 3000 x 3575: 7h headline GOLD STAR 2234 px / punch FOR LEAVING 2969 px and THE HOUSE 2536 px (133% of the headline); 7k type 1695 of 3575 px = 47.4%; 7l subject 1650 of 3000 px = 55.0%. Ash dark file 1091106366: ochre headline, navy punch, cream keyline; light file 1091106538: yellow headline, cream punch, dark keyline; no cream or white fill on Ash. Chest icon DRAWN BY HAND IN PIL (a five-point star with two eyes and a tiny smile) because fal is out of balance, one thread (white on dark blanks, #333366 on Ash), 3.50 x 3.33 in (area 4 x 4 in), thinnest stroke 7.37 mm; wrist GOLD STAR in Anton 0.35 in caps, 1.54 in wide. Printful 18/18 verified from GET /sync/products (scripts/c-verify.py): Ash back 1091106366 / chest 1091106209 / wrist 1091106287; Black and Navy back 1091106538 / chest 1091106083 / wrist 1091106125. Photos on the DRAFT: Black back, Navy back, Ash back, Black front, Navy front, Ash front (variants linked to their color's front). Keyword map: primary 'introvert zip up hoodie' recorded under products (unmeasured, R11.12 waiver). No cover (fal empty; cover: fal-swap); registry row 1080 stays claimed. Audit-local (DRAFT): PASS with 1 warn (no lifestyle cover).
