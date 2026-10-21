@@ -21,7 +21,10 @@ def line(text, font, wfrac, W, fill, key, kw=27, track=0):
     k = k.filter(ImageFilter.MaxFilter(kw)); im.paste(Image.new('RGBA', im.size, key), (0, 0), k)
     d = ImageDraw.Draw(im); x = pad
     for c, a in zip(text, adv): d.text((x, pad), c, font=f, fill=fill); x += a + tr
-    return im.crop(im.getbbox())
+    out = im.crop(im.getbbox())
+    import os; st = float(os.environ.get('STRETCH', '1'))
+    if st != 1: out = out.resize((out.width, int(out.height * st)))
+    return out
 def stack(lines, W, gap=24):
     h = sum(l.height for l in lines) + gap * (len(lines) - 1); out = Image.new('RGBA', (W, h), (0, 0, 0, 0)); y = 0
     for l in lines: out.alpha_composite(l, ((W - l.width) // 2, y)); y += l.height + gap
