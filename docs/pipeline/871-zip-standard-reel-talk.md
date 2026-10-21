@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-21T10:12Z
+status: REVIEW
 lane: C
 type: redo
 id: 871
@@ -25,3 +25,4 @@ push: zip
 ---
 ## Log
 - 2026-10-21 08:50 UTC director: brief written, READY (zip upgrade + line rewrite, lane C, push: zip; registry row 1037 claimed).
+- 2026-10-21 10:45 UTC builder [C]: zip standard built IN PLACE, REVIEW. Printful 14/14 (Ash 6 + Navy 8) verified from GET /sync/products: Ash back 1091031553 / chest 1091031477 / wrist 1091031513; Navy back 1091031599 / chest 1091031378 / wrist 1091031432 (art 3600 x 3954, width set to 1789 of 1800 px to keep the 2360 px area height, no stretch). 7p: the back has ONE line (REEL TALK, full 3600 px wide at the top) and no punch line, so nothing to compare. Same art on both colors (sage and orange fill, no cream headline). Chest: icon DRAWN BY HAND IN PIL (a stylised bass: oval body, spiky dorsal fin, tail, eye, open mouth, three scale stripes) because fal is out of balance; one thread (white on Navy, #333366 on Ash), 3.50 x 2.61 in; wrist BIG in Anton 0.35 in caps. All 14 variants $57.99 no compare-at (made 10-17); title 'Men's Fishing – Reel Talk Embroidered Zip Hoodie'; Story, bullet and 5 FAQs (embroidery care + order-by Dec 8) rewritten; added the missing Ash back photo. No new cover (fal empty), the existing AI cover stays (same back art), registry row stays claimed. Photos: Navy back, Ash back, Navy chest front, Ash chest front. Audit PASS (0 warn).
