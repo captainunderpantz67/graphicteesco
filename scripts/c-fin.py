@@ -18,7 +18,10 @@ PL = (f"{now} UTC builder [C]: NEW zip twin built to REVIEW (DRAFT {L['gid']}, p
       f"Photos on the DRAFT: {L.get('photos', 'Black back, Navy back, Ash back, Black front, Navy front, Ash front')} (variants linked to their color's front). Keyword map: primary '{L['kw']}' recorded under products ({L.get('kwnote', 'unmeasured, R11.12 waiver')}). "
       f"No cover (fal empty; cover: fal-swap); registry row {L['registry']} stays claimed. Audit-local (DRAFT): PASS with 1 warn (no lifestyle cover).")
 IL = f"{now} UTC — [C] Builder run: #{i} {L['short']} zip twin (new DRAFT, {cols.replace('/', '/')}, $57.99, {L['face']} lettering, hand-drawn {L['chest_short']} chest + {L['wrist']} cuff), 18/18, REVIEW. fal $0."
-subprocess.run([sys.executable, 'scripts/kwmap-add.py', L['handle'], f"{L['kw']}:0:0"], check=True)
+if L.get('redo'):
+    PL = (f"{now} UTC builder [C]: REDO done, REVIEW. {L['redo']} Printful 18/18 verified from GET /sync/products (scripts/c-verify.py): Ash back {g('back_ash')} / chest {g('chest_navy')} / wrist {g('wrist_navy')}; Black and Navy back {g('back_navy')} / chest {g('chest_white')} / wrist {g('wrist_white')}; chest {sc[0][1]} x {sc[0][2]} in (area 4 x 4 in), thinnest stroke {sc[0][0]} mm. Photos on the DRAFT swapped in place with the new mockups. $0 fal.")
+    IL = f"{now} UTC — [C] Builder run: #{i} {L['short']} zip twin REDO done ({L['redo_short']}), 18/18 re-synced, REVIEW. fal $0."
+if not L.get('redo'): subprocess.run([sys.executable, 'scripts/kwmap-add.py', L['handle'], f"{L['kw']}:0:0"], check=True)
 env = dict(os.environ, EXPECT=f"{g('back_ash')},{g('back_navy')}")
 subprocess.run([sys.executable, 'scripts/c-finish.py', i, pid, L['art'], m1, m2, PL, IL], check=True, env=env)
 f = glob.glob(f'docs/pipeline/{i}-*.md')[0]; T = open(f).read().split('\n'); T = [x for x in T if not x.startswith(('shopify:', 'cover:'))]; T.insert(1, f"shopify: {L['gid']}"); T.insert(2, 'cover: fal-swap'); open(f, 'w').write('\n'.join(T))
