@@ -1,4 +1,5 @@
-status: BUILDING [C] 2026-10-21 01:59 UTC
+status: REVIEW
+shopify: gid://shopify/Product/15371510939952
 lane: C
 type: new
 id: 777
@@ -24,3 +25,4 @@ kd: 27
 ---
 ## Log
 - 2026-10-21 00:55 UTC director: brief written, READY (lane C hoodies cluster; primary measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).
+- 2026-10-21 02:05 UTC lane C: built new. Recraft v4 1 call ($0.04, logged): very shaggy goldendoodle sitting proudly, curls over its eyes, leaves and a twig in the fur, tongue out, hairbrush with a broken handle on the floor. scripts/prep-seal.py (white fur stays opaque), art edges ragged-faded. Lockup (designs/c777/build.py): Graduate (thickened, kw 13), GROOMER / APPOINTMENT: on two lines above, OVERDUE. below; navy cream + mustard with a cream edge on the art, sand dark brown #462818 + deep rust #9e401c. 7h: headline 3163 px / punch 3225 px (102%). 7k: type 1173 px of 2824 px print height (42%). 7l: subject 1470 px of 3225 px lockup width = 46%. Light file: Sand on 1090837100 (brown + rust ink, no cream), Navy on 1090837110 (cream headline, mustard punch, cream edge). FW 1500 TOP 0. Verified 12/12 (6 Sand, 6 Navy) via GET /sync/products, back logo 1080398177. Shopify DRAFT: title Unisex Doodle – Groomer Appointment: Overdue. Hoodie, category hoodies, $39.99 no compare-at, tags graphic-hoodies-for-men graphic-hoodies-for-women hoodie doodle ai-art intake-done, SEO title 45 / meta 120, FAQ 5 x 46-55 words, order-by Dec 8, keyword doodle hoodie 590/KD 27 in map, 'doodle hoodie' 2x in body; copy names the dog a goldendoodle. Line one: print's words + who + when, no superlative. Copy checked vs art (shaggy goldendoodle, curls over eyes, leaves and twig, tongue out, broken-handle brush). Inks from mockups. Phone-size read of both fronts OK. R6.12/R6.13: front print only, Navy front image 1, neck-logo back last. Cover: flat product shot (retired-covers.json). Etsy and R5.2 proof unverifiable from the builder, director eyeball. Audit only 'not visible'. fal $0.04.
