@@ -11335,6 +11335,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-catfish-caught-something-ugly-kept-it-anyway-camo-hoodie": {
+   "claimed": [
+    "catfish hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "catfish hoodie",
+     "volume": 110,
+     "kd": 37
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }

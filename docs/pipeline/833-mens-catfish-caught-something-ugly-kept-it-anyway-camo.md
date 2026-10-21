@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-21 05:21
+status: REVIEW
 lane: B
 type: new
 id: 833
@@ -23,3 +23,4 @@ push: camo
 ---
 ## Log
 - 2026-10-21 05:00 UTC director: brief written, READY (camo push; primary measured today, unowned).
+- 2026-10-21 05:28 UTC [B]: built NEW as DRAFT (product 15371565891888, IND4000 #1543, Forest Camo + Black Camo + Deadwood Tree Camo x S-3XL = 18/18 synced on file 1090930894, back logo 1080398177, sync 483590962). Art: 1 Recraft v4 call ($0.04, logged), picture only, try 1 kept: grinning angler in flat cap and red waders holding a whiskered catfish by the jaw (hand on the jaw, anatomy ok), cattails, muddy bank; faint rounded paper border cropped off, prep-seal.py threshold 200 (faces/fish stay opaque). Lettering by designs/c_common.py (Anton, dark brown headline above in 2 lines CAUGHT SOMETHING / UGLY., rust punch KEPT IT ANYWAY. below), spelled exactly; then camo-halo.py cream underlay (close 30, halo 22, canvas padded 30 px). 7h: headline 3035 px / punch 3196 px (105%). 7k: type 1204 of 3084 px print height (39%). 7l: subject 1650 of 3196 px lockup width = 52%. FW 1500 TOP 0 (print 3256 x 3144 = 10.2 in tall, to the pouch seam limit). Light file n/a (camo only; dark ink on cream halo). R5.2 proof gate: no Etsy access from the builder, unverified, director eyeball. R3.13/7m: line is the brief's; not searched on Etsy (unverifiable). Phone-size read of all three fronts OK. Keyword catfish hoodie 110/KD 37 in map under products. Price 49.99 no compare-at, category hoodies, tags per brief, SEO title 49/meta 141, FAQ 5 x 45-55 words (order-by Dec 8). Flat cover, front first, neck-logo back last. Copy checked vs art. Audit PASS (1 warn: no lifestyle cover). Sheet docs/review/833.jpg. fal $0.04.
