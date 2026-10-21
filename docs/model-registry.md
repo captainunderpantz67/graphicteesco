@@ -833,3 +833,18 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1038 | white man, late 50s, red-grey full beard, heavy build, blaze-orange knit cap | CLAIMED 2026-10-21 — #872 zip cover (brief) |
 | 1039 | Korean-American woman, early 30s, shoulder-length black hair with a blunt fringe, slim build | CLAIMED 2026-10-21 — #886 zip cover (brief) |
 | 1040 | Mexican-American woman, early 40s, silver-streaked dark hair in one long braid, sunglasses pushed up on her head, athletic build | CLAIMED 2026-10-21 — #887 zip cover (brief) |
+| 1041 | white woman, early 30s, auburn hair in a low bun, freckles, medium build | CLAIMED 2026-10-21 — #888 zip cover (brief) |
+| 1042 | Indian-American man, late 30s, short black hair, rectangular glasses, slim build | CLAIMED 2026-10-21 — #889 zip cover (brief) |
+| 1043 | pair: Black woman, late 20s, short natural curls, runner's build; white man, early 30s, buzz cut, lean build | CLAIMED 2026-10-21 — #890 zip cover (brief) |
+| 1044 | Vietnamese-American woman, late 30s, shoulder-length straight black hair, medium build | CLAIMED 2026-10-21 — #891 zip cover (brief) |
+| 1045 | white woman, mid 40s, sandy blonde hair in a high ponytail under a visor, athletic build | CLAIMED 2026-10-21 — #892 zip cover (brief) |
+| 1046 | white man, early 60s, white handlebar mustache, weathered face, wiry build | CLAIMED 2026-10-21 — #893 zip cover (brief) |
+| 1047 | Samoan man, late 20s, long dark hair tied back, very muscular build | CLAIMED 2026-10-21 — #894 zip cover (brief) |
+| 1048 | pair: Nigerian-American woman, early 30s, braids in a bun; Mexican-American man, late 30s, short fade, stocky build | CLAIMED 2026-10-21 — #895 zip cover (brief) |
+| 1049 | Puerto Rican woman, mid 20s, dark hair in a slick high ponytail, athletic muscular build | CLAIMED 2026-10-21 — #896 zip cover (brief) |
+| 1050 | Chinese-American woman, late 20s, long black hair with curtain bangs tied back, slim build | CLAIMED 2026-10-21 — #897 zip cover (brief) |
+| 1051 | white woman, early 50s, silver bob, tan, athletic build | CLAIMED 2026-10-21 — #898 zip cover (brief) |
+| 1052 | Black woman, early 40s, short tapered natural hair, gold hoop earrings, medium build | CLAIMED 2026-10-21 — #899 zip cover (brief) |
+| 1053 | white man, mid 40s, dark beard with grey streaks, beanie, broad build | CLAIMED 2026-10-21 — #900 camo cover (brief) |
+| 1054 | Native American woman, early 30s, long straight black hair in a braid, medium build | CLAIMED 2026-10-21 — #901 camo cover (brief) |
+| 1055 | Black man, early 30s, short locs, trimmed beard, lean build | CLAIMED 2026-10-21 — #902 camo cover (brief) |
