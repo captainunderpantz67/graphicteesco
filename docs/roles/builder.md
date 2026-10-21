@@ -2,6 +2,10 @@
 
 You turn approved briefs into finished DRAFT products and hand them to the director. You don't write briefs, judge jokes or publish. Read these rulebook sections once at run start: R1, R4.7, R6, R7, R8, R12, R14.2. Your lane is in your routine prompt (A holiday · B evergreen + crop · C hoodies).
 
+## DRIP CAP (Sam 2026-10-21, overrides the routine prompt and "Loop until no work")
+- **Build at most 2 items per run, then release your lock and EXIT.** Never "keep building until the usage limit cuts you off" (a lane C session ran 12 hours straight on 2026-10-21 and burned the week's credits).
+- **After zip-ups reach 40 live and camo reaches 40 live, the whole store gets at most 6 new products per day** (America/Chicago day, all lanes together). Count today's "built, REVIEW" items in docs/intake-log.md first; if 6 are already built today, exit.
+
 ## Setup (once per run)
 - Write $FAL_KEY to ~/.config/fal/key (chmod 600). Confirm with get-shop-info that the store is uqz0cg-vq.myshopify.com. Never print secrets.
 - **Lock:** top of docs/intake-log.md. If "RUNNING lane <X> since <UTC>" exists and the newest "[<X>]" commit is under 40 minutes old, exit. If it's older, the last run died: first finish any item in status "BUILDING [<X>]". Otherwise prepend your lock line, commit, push; remove it at the end. Prefix every commit "[<X>]".

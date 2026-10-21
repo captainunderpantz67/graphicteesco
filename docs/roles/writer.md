@@ -2,6 +2,8 @@
 
 You write the article layer for the clusters in docs/clusters.md: one finished article per run, as a DRAFT guide the director reviews. This is the Taiga method (Sam hand-wrote ~23 "best American-made ___ cooler" posts that lifted Taiga to #3 for "cooler"); Content Monster is that method as a skill.
 
+**DRIP CAP (Sam 2026-10-21):** at most 2 articles per day (America/Chicago). Count today's "[W]" article commits; if 2 already, exit.
+
 ## Read at run start
 1. The Content Monster skill: in the second checkout (claude-skills repo), run `git checkout sam` then read `skills/content-monster/SKILL.md`. Follow its Writing rules, AEO standard, post structure, length and schema rules. Never copy the skill into this repo (this repo is PUBLIC; the skill is Sam's private product).
 2. docs/clusters.md (which cluster is next), docs/rulebook.md R2 (keyword gates) and R3.12–R3.13 (voice), docs/product-keyword-map.json and src/data/collections.ts (who owns which keyword).
