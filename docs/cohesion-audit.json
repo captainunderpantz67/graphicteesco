@@ -1,6 +1,6 @@
 {
- "at": "2026-10-21T03:44:28.960Z",
- "products": 676,
+ "at": "2026-10-21T04:46:07.492Z",
+ "products": 682,
  "findings": [
   {
    "level": "WARN",
@@ -718,6 +718,13 @@
   },
   {
    "level": "WARN",
+   "handle": "mens-construction-not-leaning-supervising-hoodie",
+   "title": "Men's Construction – I'm Not Leaning. I'm Supervising. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "mens-running-i-only-run-downhill-hoodie",
    "title": "Men's Running – I Only Run Downhill Hoodie",
    "msg": "No lifestyle cover photo.",
@@ -725,8 +732,43 @@
   },
   {
    "level": "WARN",
+   "handle": "unisex-climbing-afraid-of-heights-climbs-anyway-hoodie",
+   "title": "Unisex Climbing – Afraid of Heights. Climbs Anyway. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "mens-lineman-bad-weather-is-my-overtime-hoodie",
    "title": "Men's Lineman – Bad Weather Is My Overtime Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-electrician-its-probably-the-breaker-hoodie",
+   "title": "Men's Electrician – It's Probably the Breaker Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-plumber-not-looking-at-your-sink-hoodie",
+   "title": "Men's Plumber – Off Duty. Not Looking at Your Sink. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-disc-golf-parked-it-in-a-tree-hoodie",
+   "title": "Men's Disc Golf – Parked It. In a Tree. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-chef-cooks-for-200-cereal-at-home-hoodie",
+   "title": "Unisex Chef – Cooks for 200. Cereal at Home. Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   }
