@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-21T10:55Z
+status: REVIEW
 lane: C
 type: redo
 id: 861
@@ -23,3 +23,4 @@ push: zip
 ---
 ## Log
 - 2026-10-21 07:40 UTC director: brief written, READY (zip upgrade, lane C, push: zip; registry row 1033 claimed).
+- 2026-10-21 11:35 UTC builder [C]: zip standard built IN PLACE, REVIEW. Printful 22/22 (Ash 6, Navy 8 incl. 4XL/5XL, Black 8 added: Shopify variants created, SKUs stillloading-zip-hoodie-17295..17302) verified from GET /sync/products: ONE back file 1091037685 for all three colors (silver chrome letters, same as the live product); Ash chest 1091037536 (navy thread) / wrist 1091037611; Navy and Black chest 1091037345 (white thread) / wrist 1091037473. R7p back re-measure: the old back had headline STILL LOADING 3572 px vs punch SINCE 1999 3263 px (91%, under the rule); $0 re-lay in PIL: the SINCE 1999 band (rows 2845-3446, a clean gap above it) is cut out and scaled uniformly x1.10 to 3598 px, so the punch is 3598 px = 100.7% of the headline (new file 3600 x 3508, md5 changed, no distortion). Chest: hand-drawn desktop computer with an hourglass on its screen, one thread, 3.00 x 3.31 in, thinnest stroke 2.03 mm; wrist LOADING Anton 0.35 in caps, 1.20 in wide. All 22 variants $57.99 no compare-at (product created 2026-10-17, was $44.99), title '... Embroidered Zip Hoodie', tags: added graphic-hoodies-for-women (it was missing) and black-zip-up-hoodies, Story, bullets, 6 FAQs incl. embroidery care (the tee/pullover FAQ replaced) and order-by Dec 8. NO NEW COVER: fal out of balance; the existing AI cover stays in covers.ts, registry 1033 stays claimed, unused. Photos: Black back, Navy back, Ash back, then the three chest fronts; every variant linked to its color's back. Design crops committed. Audit PASS (0 warn). Phone-size read: STILL LOADING / SINCE 1999 legible on all three.
