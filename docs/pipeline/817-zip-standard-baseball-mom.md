@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: C
 type: redo
 id: 817
@@ -23,3 +23,4 @@ push: zip
 ## Log
 - 2026-10-21 05:00 UTC director: brief written, READY (zip-up push; registry row 1001 claimed; gated on #815).
 - 2026-10-21 05:25 UTC director: gate cleared. #815 is LIVE: Printful takes left-chest embroidery + wrist embroidery + DTG back on #692. Price per the new R12.1 zip line: $44.99 + $10 chest (+$3 wrist) = $54.99 / $57.99, no compare-at, and the title says Embroidered (the audit only accepts the bump then). This replaces the brief's $52.99 line.
+- 2026-10-21 07:20 UTC builder [C]: zip standard built IN PLACE, REVIEW. Printful 12/12 (Ash 6 + Navy 6) verified from GET /sync/products: Ash back 1090948648 / chest 1090948533 / wrist 1090948576; Navy back 1090948734 / chest 1090948445 / wrist 1090948478. Back = the existing art at full 12 in width; LIGHT FILE for Navy: the headline HIS BATTING AVERAGE was navy fill, so Navy gets a cream-fill headline file (red second line stays); Ash keeps navy ink. Chest: new Recraft baseball-in-glove icon, one thread (white on Navy, #333366 on Ash), 3.50 x 3.83 in, thinnest stroke 1.86 mm; wrist HOME in Anton 0.35 in caps, 0.83 in wide (floor 0.3 met). Navy variants added to the same product, White removed; all variants $57.99 no compare-at; title '... Embroidered Zip Hoodie'; Story, bullet, 5 FAQs incl. embroidery care and order-by Dec 8. AI COVER (registry 1001, fal $0.12): try 1 rejected (braid over AVERAGE, zipper at the back hem), try 2 kept: woman from the row behind in the bleachers at dusk, hair pinned up and clear of the print, hood flat at the neck, both lines read HIS BATTING AVERAGE / IS MY PERSONALITY. at full size, no hand on the print (hood has a normal centre stitch line). In covers.ts, handle removed from retired-covers.json, registry 1001 USED. Photos: Navy back, Ash back, Navy chest front, Ash chest front, variants linked. Audit as above. fal $0.12 plus chest $0.04.

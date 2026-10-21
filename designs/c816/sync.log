@@ -1,0 +1,36 @@
+1/12 Men's Golf – I Play Army Golf Zip Hoodie / Ash / S
+2/12 Men's Golf – I Play Army Golf Zip Hoodie / Ash / M
+3/12 Men's Golf – I Play Army Golf Zip Hoodie / Ash / L
+4/12 Men's Golf – I Play Army Golf Zip Hoodie / Ash / XL
+5/12 Men's Golf – I Play Army Golf Zip Hoodie / Ash / 2XL
+6/12 Men's Golf – I Play Army Golf Zip Hoodie / Ash / 3XL
+Traceback (most recent call last):
+  File "/home/user/graphicteesco/designs/c816/sync.py", line 8, in call
+    try: return json.load(urllib.request.urlopen(r, timeout=60))['result']
+                          ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/urllib/request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/urllib/request.py", line 495, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.13/urllib/request.py", line 604, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.13/urllib/request.py", line 533, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/usr/lib/python3.13/urllib/request.py", line 466, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.13/urllib/request.py", line 613, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/graphicteesco/designs/c816/sync.py", line 21, in <module>
+    call('PUT', f'/sync/variant/{v["id"]}', {'files': files, 'options': opts}); print(f'{i+1}/{len(vs)} {v["name"]}', flush=True); time.sleep(6)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/graphicteesco/designs/c816/sync.py", line 11, in call
+    raise Exception(f'{e.code} {e.read()[:400]}')
+Exception: 400 b'{"code":400,"result":"Non-label files must be provided for this product","error":{"reason":"BadRequest","message":"Non-label files must be provided for this product","api_error_code":"EC-4","error_url":"https://developers.printful.com/docs/#section/API-Errors/Ecommerce-Platform-Sync-API"}}'

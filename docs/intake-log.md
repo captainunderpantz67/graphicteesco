@@ -1,3 +1,5 @@
+RUNNING lane E since 2026-10-21 06:21 UTC
+RUNNING director since 2026-10-21 06:16 UTC
 RUNNING helper since 2026-10-21 05:43 UTC
 2026-10-21 06:25 UTC — [B] Builder run: #602 Women's Tennis Love Means Nothing to Me Tee built to REVIEW (DRAFT 15371576574256, 6 colors 36/36 on 1090947939, FW 1300, new art 1 call, flat cover, audit PASS). fal $0.04.
 2026-10-21 06:03 UTC — [B] Builder run: #593 Women's Funny Feral Before 9 A.M. Tee built to REVIEW (DRAFT 15371571593520, 6 colors 36/36 on 1090942924, FW 1380, new art 1 call, flat cover, audit PASS). fal $0.04.
@@ -6,11 +8,12 @@ RUNNING helper since 2026-10-21 05:43 UTC
 2026-10-21 05:45 UTC — [B] Builder run (REDO): #672 Fishing You Catching Em? No. Keep Walking. Ornament redo: punch 656 px vs headline 621 px (106%), new file 1090938761, REVIEW. fal $0.
 2026-10-21 05:44 UTC — [H] Helper run: Telegram inbox empty (getUpdates returned 0 updates; no pause, resume or TikTok links; nothing to consume). Audit 685 live products: 0 errors, 113 warnings left alone; committed docs/cohesion-audit.md and .json. Price errors 0; announcement bar already on the holiday line. Category check: 0 products without a Shopify category (query empty, no mutation). Site check: womens-fishing-out-fished-him-again-zip-hoodie, mens-electrician-its-probably-the-breaker-hoodie and mens-plumber-not-looking-at-your-sink-hoodie all 200; homepage 200. Stuck work: none (no pipeline item BUILDING; lane C lock 05:25, director 05:13, lane B 05:05, all active). Daily summary not due (first run after 12:00 UTC). Lock released.
 RUNNING lane C since 2026-10-21 05:25 UTC
+2026-10-21 07:20 UTC — [C] Builder run: #817 Baseball Mom zip upgraded in place to the embroidered standard (glove chest + HOME cuff + back print, Ash + Navy, $57.99), 12/12, new AI bleachers cover, REVIEW. fal $0.16.
+2026-10-21 06:50 UTC — [C] Builder run: #816 Army Golf zip upgraded in place to the embroidered standard (chest golfer + LEFT cuff + printed back, Ash + Navy, $57.99), 12/12 synced, REVIEW; AI covers failed twice (hood/zip artifacts), Printful back mockup leads. fal $0.20.
 2026-10-21 05:44 UTC — [B] Builder run (REDO): #694 Christmas Tree It Looked Smaller at the Farm Mug redo: AT THE FARM 1014 px vs headline 1006 px (101%), new wrap file 1090935994, Shopify media replaced, REVIEW. fal $0.
 2026-10-21 05:38 UTC — [B] Builder run: #834 Men's Papa Has a Spot. Won't Say Where. Camo Hoodie built to REVIEW (DRAFT 15371567563056, Forest + Duck + Deadwood Tree Camo 18/18 on 1090933259, FW 1500, new art 1 call, type 26% flagged, flat cover, audit PASS). fal $0.04.
 2026-10-21 06:00 UTC — [C] Builder run: REDO #458 Hanukkah tee twin now EIGHT NIGHTS. / ZERO SALAD., 36/36 relinked (FW 1400), to REVIEW. fal $0.
 2026-10-21 05:55 UTC — [C] Builder run: REDO #457 Hanukkah crewneck now EIGHT NIGHTS. / ZERO SALAD. (same latke art, new lockup), 12/12 on 1090931878, to REVIEW. fal $0.
-RUNNING director since 2026-10-21 05:13 UTC
 2026-10-21 05:28 UTC — [B] Builder run: #833 Men's Catfish Caught Something Ugly. Kept It Anyway. Camo Hoodie built to REVIEW (DRAFT 15371565891888, Forest + Black + Deadwood Tree Camo 18/18 on 1090930894, FW 1500, new art 1 call, flat cover, audit PASS). fal $0.04.
 2026-10-21 05:21 UTC — [B] Builder run: #832 Men's Farmer No Days Off. The Cows Said So. Camo Hoodie built to REVIEW (DRAFT 15371563106608, Forest + Duck + Deadwood Tree Camo 18/18 on 1090928521, FW 1600, dark-ink file on cream halo, flat cover, audit PASS). fal $0.
 RUNNING lane B since 2026-10-21 05:05 UTC
