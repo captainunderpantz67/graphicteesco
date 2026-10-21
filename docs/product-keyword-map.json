@@ -11711,6 +11711,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-strawberry-please-dont-pick-me-embroidered-zip-hoodie": {
+   "claimed": [
+    "strawberry zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "strawberry zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
