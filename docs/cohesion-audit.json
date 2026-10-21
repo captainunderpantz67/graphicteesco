@@ -1,5 +1,5 @@
 {
- "at": "2026-10-21T13:50:40.119Z",
+ "at": "2026-10-21T14:45:10.953Z",
  "products": 700,
  "findings": [
   {
@@ -78,13 +78,6 @@
    "title": "Women's Frog – Not Today, I'm Moisturizing Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-hunting-ducks-in-a-row-camo-hoodie",
-   "title": "Women's Hunting – Ducks in a Row Camo Hoodie",
-   "msg": "Meta description is 164 chars (> 160).",
-   "fix": "Trim to ≤ 155."
   },
   {
    "level": "WARN",
