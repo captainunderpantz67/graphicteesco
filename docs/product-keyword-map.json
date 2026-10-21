@@ -11651,6 +11651,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-alien-visiting-not-impressed-embroidered-zip-hoodie": {
+   "claimed": [
+    "alien zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "alien zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
