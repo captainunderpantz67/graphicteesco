@@ -1,6 +1,6 @@
 {
- "at": "2026-10-21T00:43:45.773Z",
- "products": 658,
+ "at": "2026-10-21T01:43:22.308Z",
+ "products": 664,
  "findings": [
   {
    "level": "WARN",
@@ -599,8 +599,50 @@
   },
   {
    "level": "WARN",
+   "handle": "mens-welder-stacks-dimes-wants-more-dimes-crewneck-sweatshirt",
+   "title": "Men's Welder – Welds Like a Stack of Dimes. Paid Like One. Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-cat-dad-cant-cats-on-me-hoodie",
+   "title": "Men's Cat Dad – Can't, Cat's on Me Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-capybara-out-of-office-soaking-crewneck-sweatshirt",
+   "title": "Women's Capybara – Per My Last Email, I'm Soaking Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-otter-currently-drifting-crewneck-sweatshirt",
+   "title": "Unisex Otter – Today's Plan: Horizontal. Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "mens-christian-rebuilt-by-a-carpenter-heavyweight-hoodie",
    "title": "Men's Christian – Still Under Construction Heavyweight Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-mom-motherhood-exposed-me-hoodie",
+   "title": "Women's Mom – Motherhood Didn't Change Me. It Exposed Me. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-baseball-mom-his-batting-average-is-my-personality-zip-hoodie",
+   "title": "Women's Baseball Mom – His Batting Average Is My Personality Zip Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   }
