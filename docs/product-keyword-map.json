@@ -11823,6 +11823,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-essentials-oatmeal-zip-hoodie": {
+   "claimed": [
+    "cream hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cream hoodie",
+     "volume": 6600,
+     "kd": 24
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
