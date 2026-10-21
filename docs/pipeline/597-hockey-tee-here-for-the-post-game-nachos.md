@@ -2,7 +2,7 @@ status: REDO
 lane: B
 type: new
 id: 597
-handle: mens-hockey-here-for-the-post-game-nachos-graphic-tee
+handle: mens-hockey-i-play-for-the-post-game-nachos-graphic-tee
 kd: 46
 ---
 ## Men's Hockey – Here for the Post-Game Nachos Tee
@@ -20,7 +20,7 @@ kd: 46
 - **Print size:** FW 1650 TOP 75 (tee).
 - **Copy:** line one = the line + who wears it + when (R9.11), said plainly: no superlative opener built around the keyword (R8.3). Primary keyword in the title or SEO title, the first sentence and once in the meta; at most 3 times in all (the audit warns at 4). Describe only what is in the art; never say we drew it ("Original art, made for Graphic Tees Co."). Answer-first FAQs per R8.7: 4–6 at 40–60 words (fit, weight, wash care, gift fit, Christmas order-by about Dec 8, free size exchange).
 - **Cover:** registry #937 (French-Canadian-American man, early 40s, short light-brown hair, full trimmed beard, broad build), CLAIMED. Scene: an ice rink concession stand with the rink behind glass; a hockey bag over one shoulder, hands empty. Props never over the print (R6.5); hair tied back or behind the shoulders (R6.9). Printful mockup as `--design` (--n 1). Max 2 attempts.
-- **Title / handle:** "Men's Hockey – Here for the Post-Game Nachos Tee" / `mens-hockey-here-for-the-post-game-nachos-graphic-tee` (R7.4; the suffix sets the audit price, R12.1).
+- **Title / handle:** "Men's Hockey – Here for the Post-Game Nachos Tee" / `mens-hockey-i-play-for-the-post-game-nachos-graphic-tee` (R7.4; the suffix sets the audit price, R12.1).
 - **Tags:** graphic-tees-for-men, funny-graphic-tees, retro-graphic-tees, ai-art, intake-done.
 - **Price:** $24.99 (R12.1 tee), NO compare-at.
 - **After publish:** design-crops.py and variant-photo-audit.py (builder 7c/7d). Before REVIEW: Printful default file checked on every variant and logged (R7.7, 2026-10-18 line); cover chest zoomed to 200% (R6.9 clean-erase line).

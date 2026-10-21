@@ -5,8 +5,8 @@
 cd "$(dirname "$0")/.."; export PATH=/usr/bin:$PATH
 ID=$1; SID=$2; CAT=$3; FW=$4; TOP=$5; D=$6; L=$7; DC=$8; LC=$9; DV=${10}; LV=${11}
 read DW DH < <(python3 -c "from PIL import Image;print(*Image.open('$D').size)"); read LW LH < <(python3 -c "from PIL import Image;print(*Image.open('$L').size)")
-UD=$(python3 scripts/fal-host.py "$D" "k${ID}d.png"); UL=$(python3 scripts/fal-host.py "$L" "k${ID}l.png")
-FD=$(python3 scripts/pf-sync.py upload "$UD" "k${ID}d.png" | tail -1); FL=$(python3 scripts/pf-sync.py upload "$UL" "k${ID}l.png" | tail -1); echo $FD > $S/fid${ID}d; echo $FL > $S/fid${ID}l
+UD=$(python3 scripts/fal-host.py "$D" "k${ID}d${SUF}.png"); UL=$(python3 scripts/fal-host.py "$L" "k${ID}l${SUF}.png")
+FD=$(python3 scripts/pf-sync.py upload "$UD" "k${ID}d${SUF}.png" | tail -1); FL=$(python3 scripts/pf-sync.py upload "$UL" "k${ID}l${SUF}.png" | tail -1); echo $FD > $S/fid${ID}d; echo $FL > $S/fid${ID}l
 sleep 8; PID=$(python3 scripts/pf-find.py $SID | head -1 | cut -d' ' -f1); echo $PID > $S/pid$ID
 python3 - "$S/sync$ID.sh" "$PID" "$FD" "$FL" "$FW" "$TOP" "$DC" "$LC" <<'PY'
 import sys
