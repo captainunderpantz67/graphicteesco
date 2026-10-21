@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-21 05:49
+status: REVIEW
 lane: B
 type: new
 id: 593
@@ -27,3 +27,4 @@ kd: 27
 ---
 ## Log
 - 2026-10-18 05:32 UTC director: brief written, READY (lane B women's funny; KD 27 (21–35 band); KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month; proof seller named under the gate).
+- 2026-10-21 06:03 UTC [B]: built NEW as DRAFT (product 15371571593520, Bella+Canvas 6400 #360, White/Natural/Heather Stone/Athletic Heather/Pink/Heather Mauve x S-3XL = 36/36 synced on file 1090942924 (one dark-ink-for-light-shirts file for all six colors: red FERAL with cream keyline, navy script, no cream fills; R5.3.8 ok), back logo 1080398177, sync 483597417). Art: 1 Recraft v4 call ($0.04, logged), picture only, try 1 kept: wild-haired alley cat clutching a big mug, bent ear, sunrise window shapes, faded red/navy/cream/mustard, ragged edges; prep-seal threshold 200. Lettering FERAL (Alfa Slab One, faded red, cream keyline) above, 'before 9 a.m.' (Yellowtail, navy, cream keyline) below via designs/b593/build.py. 7h n/a (script is the quiet line by brief). FW 1380 TOP 75, NOT the brief's FW 1500: the 6400 print area is 1500 x 1800 px and this vertical lockup (1972 x 2440, aspect 1.24) at FW 1500 ran past the bottom and cut off the script line (caught on the first mockups), so FW 1380 puts it at 1708 px tall + 75 = inside the area. 7l: subject 1400 of 1972 px = 71%; type 858 of 2440 = 35%. Phone-size read of all six mockups OK. Keyword feral shirts 720/KD 27 in map under products. Price 24.99 no compare-at, category tees, tags per brief, SEO title 51/meta 129, FAQ 5 x 45-56 words plus the standard fit line (order-by Dec 8). Flat cover, front first, neck-logo back last. Audit PASS (1 warn: no lifestyle cover). Sheet docs/review/593.jpg. Cover chest/print-width R6.9 n/a (flat cover). fal $0.04.
