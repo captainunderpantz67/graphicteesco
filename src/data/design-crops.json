@@ -440,6 +440,13 @@
   "x": 266,
   "y": 124
  },
+ "mens-eagle-bald-by-choice-camo-hoodie": {
+  "h": 806,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavyweight-hooded-sweatshirt-forest-camo-front-6ad86d5c30307.jpg",
+  "w": 645,
+  "x": 174,
+  "y": 101
+ },
  "mens-eagle-bald-is-aerodynamic-heavyweight-hoodie": {
   "h": 759,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/RVJEpS_SKEACag1gokueg_444-m-storm.jpg",
@@ -467,6 +474,13 @@
   "w": 645,
   "x": 174,
   "y": 0
+ },
+ "mens-farmer-no-days-off-the-cows-said-so-camo-hoodie": {
+  "h": 806,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavyweight-hooded-sweatshirt-forest-camo-front-6ad86d999d10e.jpg",
+  "w": 645,
+  "x": 174,
+  "y": 101
  },
  "mens-farmer-no-days-off-the-cows-said-so-hoodie": {
   "h": 403,
@@ -836,7 +850,7 @@
   "h": 759,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-oversized-heavyweight-hoodie-dust-front-6ad47d6a4125b.jpg",
   "w": 607,
-  "x": 274,
+  "x": 280,
   "y": 124
  },
  "mens-gym-rack-your-weights-respectfully-sweatpants": {
@@ -1182,6 +1196,13 @@
   "x": 266,
   "y": 125
  },
+ "mens-outdoors-sasquatch-camera-shy-camo-hoodie": {
+  "h": 806,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavyweight-hooded-sweatshirt-forest-camo-front-6ad86d52aba24.jpg",
+  "w": 645,
+  "x": 174,
+  "y": 101
+ },
  "mens-outdoors-sasquatch-camera-shy-heavyweight-hoodie": {
   "h": 759,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavyweight-hooded-sweatshirt-sandstone-front-6ad3deb2ddfef.jpg",
@@ -1225,11 +1246,11 @@
   "y": 161
  },
  "mens-skull-dead-serious-zip-hoodie": {
-  "h": 806,
+  "h": 515,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-zip-hoodie-ash-back-6ad41d0464491.jpg",
-  "w": 645,
-  "x": 174,
-  "y": 101
+  "w": 412,
+  "x": 358,
+  "y": 209
  },
  "mens-thanksgiving-technically-a-vegetable-crewneck-sweatshirt": {
   "h": 785,
@@ -2016,11 +2037,11 @@
   "y": 15
  },
  "unisex-homebody-university-of-staying-in-oversized-hoodie": {
-  "h": 552,
+  "h": 604,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-oversized-heavyweight-hoodie-navy-front-6ad42e01c3d86.jpg",
-  "w": 442,
-  "x": 353,
-  "y": 66
+  "w": 484,
+  "x": 316,
+  "y": 40
  },
  "unisex-horror-midnight-showing-crewneck-sweatshirt": {
   "h": 468,
@@ -2471,11 +2492,11 @@
   "y": 124
  },
  "womens-apres-ski-expert-in-apres-crewneck-sweatshirt": {
-  "h": 592,
+  "h": 624,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-crew-neck-sweatshirt-sand-front-6ad3feadd5a21.jpg",
-  "w": 473,
-  "x": 325,
-  "y": 10
+  "w": 499,
+  "x": 302,
+  "y": 36
  },
  "womens-apres-ski-expert-in-apres-hoodie": {
   "h": 759,
@@ -2891,11 +2912,11 @@
   "y": 0
  },
  "womens-christmas-christmas-nurse-crewneck-sweatshirt": {
-  "h": 785,
+  "h": 790,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-crew-neck-sweatshirt-white-front-6ad2975e432c6.jpg",
-  "w": 628,
-  "x": 240,
-  "y": 101
+  "w": 632,
+  "x": 244,
+  "y": 97
  },
  "womens-christmas-christmas-nurse-graphic-tee": {
   "h": 689,
@@ -3283,11 +3304,11 @@
   "y": 88
  },
  "womens-christmas-official-tree-topper-graphic-tee": {
-  "h": 696,
+  "h": 682,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/womens-relaxed-t-shirt-white-front-6ad456a49ed62.jpg",
-  "w": 556,
-  "x": 252,
-  "y": 0
+  "w": 546,
+  "x": 261,
+  "y": 19
  },
  "womens-christmas-oh-deer-graphic-tee": {
   "h": 585,
@@ -4215,10 +4236,10 @@
  },
  "womens-panda-endangered-patience-zip-hoodie": {
   "h": 806,
-  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/mQ7pjgTFhmwwTvax089iz_438-m-navy-back.jpg",
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/c847_m_black_back.jpg",
   "w": 645,
   "x": 174,
-  "y": 101
+  "y": 0
  },
  "womens-pickleball-kitchen-gossip-club-hoodie": {
   "h": 416,
@@ -4516,10 +4537,10 @@
  },
  "womens-unicorn-magical-mostly-tired-zip-hoodie": {
   "h": 806,
-  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-zip-hoodie-ash-back-6ad415a40444a.jpg",
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/c848_m_black_back.jpg",
   "w": 645,
   "x": 174,
-  "y": 101
+  "y": 0
  },
  "womens-vintage-cropped-wildflower-club-graphic-tee": {
   "h": 775,

@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-21T09:00Z
+status: REVIEW
 lane: C
 type: redo
 id: 847
@@ -21,3 +21,4 @@ push: zip
 ---
 ## Log
 - 2026-10-21 07:05 UTC director: brief written, READY (zip push step 1, in-place upgrade of #438; template #816/#837; Black leads for the black zip spoke; registry row 1020 claimed).
+- 2026-10-21 09:50 UTC builder [C]: zip standard built IN PLACE, REVIEW. Printful 18/18 (Ash 6, Navy 6, Black 6 added: Shopify variants created, SKUs panda-bamboozled-zip-17295..17300) verified from GET /sync/products: Ash chest 1091014501 (navy thread) / wrist 1091014550 / back 1090189573 (dark-ink file); Navy and Black chest 1091014387 (white thread) / wrist 1091014441 / back 1090189544 (light file: cream ENDANGERED, pink MORNING PERSON.). R7p back re-measure: headline 3575 px / punch 3600 px (101%), both files unchanged and already compliant, so no re-lay. Chest: hand-drawn sleepy panda face, one eye closed and one half open, one thread, 3.50 x 3.50 in, thinnest stroke 2.71 mm; wrist SNOOZE Anton 0.35 in caps, 1.09 in wide. All 18 variants $57.99 no compare-at (product created 2026-10-17, was $44.99), title '... Embroidered Zip Hoodie' (keyword 'Endangered Morning Person' kept), tag black-zip-up-hoodies added, Story (SNOOZE and Black named), bullets, 5 FAQs incl. embroidery care (wash FAQ replaced) and order-by Dec 8. NO NEW COVER: fal out of balance; image 1 is the Printful Black back mockup, handle stays in retired-covers.json (registry 1020 stays claimed, unused). Photos: Black back, Navy back, Ash back, then the three chest fronts; every variant linked to its color's back. Design crops committed. Audit PASS (0 warn). Phone-size read: ENDANGERED / MORNING PERSON. legible on Black, Navy and Ash.

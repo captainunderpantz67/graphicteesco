@@ -32,7 +32,7 @@ if cmd == 'prep':
     a = np.array(b) < 150; ys, xs = np.where(a); capw = xs.max() - xs.min() + 1; caph = ys.max() - ys.min() + 1
     wpx = int(105 * capw / caph)   # cap height 0.35 in = 105 px at 300 dpi
     for tag, hexc in (('white', '#FFFFFF'), ('navy', '#333366')):
-        print(subprocess.check_output([sys.executable, 'scripts/emb-prep.py', chest, f'{d}/chest_{tag}.png', hexc, '1050', '18'], text=True).strip())
+        print(subprocess.check_output([sys.executable, 'scripts/emb-prep.py', chest, f'{d}/chest_{tag}.png', hexc, os.environ.get('CHEST_W', '1050'), '18'], text=True).strip())
         print(subprocess.check_output([sys.executable, 'scripts/emb-prep.py', f'{d}/wrist_src.png', f'{d}/wrist_{tag}.png', hexc, str(wpx), '18', '600'], text=True).strip(), f'wrist word {word}: cap 105 px = 0.35 in, width {wpx / 300:.2f} in')
     pubs = [f'{d}/{n}_{t}.png' for n in ('chest', 'wrist') for t in ('white', 'navy')] + [p for p in sys.argv[5:7] if not p.isdigit()]
     for t in ('white', 'navy'): ids['chest_' + t] = upload(f'{d}/chest_{t}.png'); ids['wrist_' + t] = upload(f'{d}/wrist_{t}.png')
@@ -48,6 +48,7 @@ elif cmd == 'sync':
         nv = f'/ {SECOND} /' in v['name']; sz = v['name'].split(' / ')[2]; t = 'white' if (nv and not LIGHT) else 'navy'; bk = ids['back_navy' if nv else 'back_ash']['id']
         bw = ids['back_navy' if nv else 'back_ash'].get('h') and ids['back_ash']; ref = ids['back_ash'] if 'h' in ids['back_ash'] else ids.get('back_dims', {'w': 3600, 'h': 3198})
         w, h = ref['w'], ref['h']
+        if {ids['chest_' + t]['id'], ids['wrist_' + t]['id'], bk} <= {f['id'] for f in v['files']}: print(f'{i+1}/{len(vs)} skip (already synced) {v["name"]}', flush=True); continue
         files = [{'type': 'embroidery_chest_left', 'id': ids['chest_' + t]['id']}, {'type': 'embroidery_wrist_left', 'id': ids['wrist_' + t]['id']}, {'type': 'back', 'id': bk, 'position': {'area_width': 1800, 'area_height': 2400, 'width': (bw_ := min(1800, int(2360 * w / h))), 'height': round(bw_ * h / w), 'top': 40, 'left': (1800 - bw_) // 2}}]
         opts = [{'id': 'embroidery_type', 'value': 'flat'}, {'id': 'thread_colors_chest_left', 'value': ['#FFFFFF' if t == 'white' else '#333366']}, {'id': 'thread_colors_wrist_left', 'value': ['#FFFFFF' if t == 'white' else '#333366']}]
         call('PUT', f'/sync/variant/{v["id"]}', {'variant_id': (v['variant_id'] or NAVY[sz]) if nv else cat[sz], 'files': files, 'options': opts}); print(f'{i+1}/{len(vs)} {v["name"]}', flush=True); time.sleep(6)
