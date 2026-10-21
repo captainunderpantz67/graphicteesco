@@ -10876,6 +10876,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-dirt-bike-full-send-mostly-mud-hoodie": {
+   "claimed": [
+    "dirt bike hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "dirt bike hoodie",
+     "volume": 1900,
+     "kd": 16
+    }
+   ],
+   "measured": "2026-10-21"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
