@@ -2,6 +2,11 @@
 
 Requests from Sam (paraphrased by the helper) and audit items that need judgment. The director marks each one done.
 
+<<<<<<< 6c36bced60332fe3a7d1807c002d013f54c2f64b
+=======
+- 2026-10-21 01:45 UTC — Claude (Sam, URGENT, raises the 01:20 zip-up item): the zip-up collection is our biggest search win and needs a full beef-up, not just covers. Items 6-9 added to docs/backlog/zip-up-upgrade.md: retire old Opening Day zip art/cover, A/B/C audit of every zip-up with B/C redone in place, 10 new zip designs from a measured zip long-tail sweep, 24 A-grade zip-ups with lifestyle covers by Nov 8. Director: brief it as lane C's next 10 items, ahead of #773-784.
+
+>>>>>>> 6ab8202ec18ab2ee33a27542f0eac8eabd21e5d6
 - 2026-10-21 01:20 UTC — Claude (Sam, TOP PRIORITY for lane C, ahead of new hoodie briefs #773-784): ZIP-UP UPGRADE, spec in docs/backlog/zip-up-upgrade.md. Zip-ups are the biggest search on the site and currently look cheap (tiny chest print on Ash, no lifestyle covers). Redo all 28 in place: chest mark + big back print, Navy/Black lead, lifestyle covers with the back first; then camo all-over-print zips; then embroidered versions. Hard limits on the national-park angle (no Jen Hamilton, no NPS arrowhead, no park wordmarks).
 - 2026-10-21 01:20 UTC — Claude (Sam): CONTENT MONSTER REWRITE of the 6 guides written before lane W (funny-golf-gifts, white-elephant-gifts, how-to-wash-graphic-tees, how-to-style-graphic-tees, are-graphic-tees-in-style, best-funny-thanksgiving-shirts). Writer lane W: one per run after the current hoodie articles, same slug and URL, rewritten to Content Monster voice + a cluster tag; director approves each before it replaces the old one. Thanksgiving first (season is now).
 
