@@ -25,3 +25,4 @@ push: zip
 ---
 ## Log
 - 2026-10-21 07:10 UTC director: brief written, READY (Essentials line, lane E, push: zip; registry row 1030 claimed).
+- 2026-10-21 13:33 UTC director: format decided on #851 (option A: embroidered chest only on #943, no back-top mark, $49.99 flat, no compare-at). Build after #851 reaches REVIEW.
