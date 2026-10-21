@@ -6,11 +6,11 @@ Override the cap only with FAL_DAILY_CAP set by a human."""
 import csv, datetime, io, os, pathlib, subprocess, sys, uuid
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 LEDGER = ROOT / 'docs' / 'fal-spend.csv'
-# Wallet: about $15 left in fal on 2026-10-18T17:42 UTC (Sam). Keep $1 in reserve so a job never dies mid-call. Every fal call after
-# WALLET_START counts against it, across all days. Only Sam tops it up (raise WALLET and say so in docs/inbox.md).
-WALLET_START = '2026-10-18T17:42'
-WALLET = 14.0
-CAP = float(os.environ.get('FAL_DAILY_CAP', '16'))
+# Wallet: Sam topped up fal on 2026-10-21 ("no more than 13 today"). Every fal call after WALLET_START counts against it,
+# across all days. Only Sam tops it up (raise WALLET and say so in docs/inbox.md).
+WALLET_START = '2026-10-21T12:43'
+WALLET = 13.0
+CAP = float(os.environ.get('FAL_DAILY_CAP', '13'))
 
 
 def _rows(text):
