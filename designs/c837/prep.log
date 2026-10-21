@@ -1,0 +1,25 @@
+scale x1.32, thickened 2px each side, p10 stroke width 21.2px = 1.79 mm; size 1050x1254px = 3.50 x 4.18 in
+scale x0.81, thickened 0px each side, p10 stroke width 22.0px = 1.86 mm; size 226x104px = 0.75 x 0.35 in wrist word BRRR: cap 105 px = 0.35 in, width 0.75 in
+scale x1.32, thickened 2px each side, p10 stroke width 21.2px = 1.79 mm; size 1050x1254px = 3.50 x 4.18 in
+scale x0.81, thickened 0px each side, p10 stroke width 22.0px = 1.86 mm; size 226x104px = 0.75 x 0.35 in wrist word BRRR: cap 105 px = 0.35 in, width 0.75 in
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   docs/fal-spend.csv
+	modified:   scripts/c-zipbuild.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	designs/c837/back_both.jpg
+	designs/c837/back_prev.jpg
+	designs/c837/chest_src.png
+	designs/c837/info.txt
+	designs/c837/pid
+	designs/c837/prep.log
+	designs/c837/wrist_src.png
+
+no changes added to commit (use "git add" and/or "git commit -a")
+{"chest_white": 1090974511, "wrist_white": 1090974526, "chest_navy": 1090974562, "wrist_navy": 1090974598, "back_ash": 1090974625, "back_navy": 1090974656}
