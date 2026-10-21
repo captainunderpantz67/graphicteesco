@@ -13,7 +13,7 @@ At Taiga, ~23 "best American-made ___ cooler" articles (Nov 2024–Jan 2025) won
 | 5 | outdoors | hunting / fishing / western | /hunting-t-shirts/ | E | camo hoodie · hunting hoodie 3.6K/32 · fishing hoodie 6.6K/30 · western KD 16 |
 | 6 | frenchie | french bulldog shirts | (when 3+ live) | E | see docs/backlog/frenchie-collection.md |
 
-**Paused for new work (stay live):** anime, nurse, football/baseball/soccer mom, y2k, oversized graphic tees, halloween (out of season).
+**Minimum depth (Sam 2026-10-21):** every niche collection gets at least 10 products, including the ones paused earlier (anime, nurse, football/baseball/soccer mom, y2k, oversized graphic tees, halloween); fill them after the zip/camo push, in search-volume order.
 
 **Scorecard:** every Monday from Nov 2, Claude logs each cluster's average Google position (GSC, pages filtered by cluster) here. Test of the pattern: one hub in the top 5 for its parent term by early December.
 

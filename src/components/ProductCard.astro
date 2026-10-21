@@ -23,6 +23,17 @@ const matchingSet = !!sibling && !!coverFor(sibling);
 // Zip-ups carry the joke on the back (small chest mark in front): show the back print first (Sam 2026-10-20: "I couldn't see the snarky backs").
 const isZip = /zip/i.test(p.title) && /hood/i.test(`${p.productType} ${p.title}`);
 const hero = (isZip && p.images.find((i) => /-back[-.]/i.test(i.url))) || p.featuredImage;
+// Card title (Sam 2026-10-21): lead with the joke, put "Women's zip hoodie · Baseball Mom" underneath.
+// The product page and its <title> keep the full keyword title, so search is unaffected.
+const TYPES = /\s+(zip hoodie|oversized hoodie|heavyweight hoodie|cropped hoodie|half[- ]zip pullover|hoodie|crewneck sweatshirt|sweatshirt|long sleeve tee|graphic tee|tee|t-shirt|baby bodysuit|bodysuit|ornament|mug|socks|sweatpants|bandana)$/i;
+const [left, ...rest] = p.title.split(/\s+–\s+/);
+const rightRaw = rest.join(' – ');
+const typeMatch = rightRaw.match(TYPES);
+const joke = rest.length ? rightRaw.replace(TYPES, '').trim() || rightRaw : p.title;
+const aud = (left.match(/^(men's|women's|unisex|baby|kids'?|youth)\b/i)?.[1] ?? '').replace(/^unisex$/i, '');
+const niche = left.replace(/^(men's|women's|unisex|baby|kids'?|youth)\s+/i, '');
+const typeName = typeMatch ? typeMatch[1].toLowerCase() : '';
+const subline = rest.length ? [[aud, typeName].filter(Boolean).join(' '), niche].filter(Boolean).join(' · ') : '';
 const cmp = p.variants.find((v) => v.compareAtPrice && Number(v.compareAtPrice.amount) > Number(v.price.amount))?.compareAtPrice;
 const was = cmp ? formatPrice(cmp) : null;
 ---
@@ -52,7 +63,10 @@ const was = cmp ? formatPrice(cmp) : null;
     )}
   </div>
   <div class="mt-3 flex justify-between gap-2 text-sm">
-    <p class="font-semibold group-hover:text-[var(--color-rust)]">{p.title}</p>
+    <div class="min-w-0">
+      <p class="font-semibold leading-snug group-hover:text-[var(--color-rust)]">{joke}</p>
+      {subline && <p class="mt-0.5 text-xs text-[var(--color-ink-2)] first-letter:uppercase">{subline}</p>}
+    </div>
     <p class="text-[var(--color-ink-2)] whitespace-nowrap">{formatPrice(p.priceRange.minVariantPrice)}{was && <s class="ml-1.5 text-xs">{was}</s>}</p>
   </div>
   {shownColors.length > 1 && (
