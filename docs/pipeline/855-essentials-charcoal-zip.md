@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: E
 type: new
 id: 855
@@ -27,3 +27,4 @@ push: zip
 - 2026-10-21 07:10 UTC director: brief written, READY (Essentials line, lane E, push: zip; registry row 1028 claimed).
 - 2026-10-21 13:33 UTC director: format decided on #851 (option A: embroidered chest only on #943, no back-top mark, $49.99 flat, no compare-at). Build after #851 reaches REVIEW.
 - 2026-10-21 14:40 UTC builder [E]: BUILT, REVIEW. Same format as #851-#854. DRAFT 15372546670896, sync 483694486 6/6 on 1090961074 (orange thread #E25C27), no back file, $49.99 no compare-at. Color is Charcoal Heather (the catalog has no plain 'Charcoal'): 60/40 cotton/recycled polyester per Printful spec; title keeps the brief's 'Charcoal'. Line one charcoal hoodie + zip-up, 5 FAQs 40-60 words, Dec 8 order-by. Keyword charcoal hoodie 2400 / KD 16 under products, swatch added. Women's tags only. Cover: 1 fal photo, registry 1028 USED, rainy park with closed umbrella. Media: women's model front (linked to all 6 variants), plain back, flat front. Audit: only not-ACTIVE. fal $0.06.
+- 2026-10-21 15:45 UTC director: REDO from docs/review/855.jpg. 1. R6.3 / builder 7u: Unisex title, cover shows one woman; couple cover in Charcoal Heather zips or retitle Women's. 2. R6.1: no stock-model mockup on the product. Director moved the flat front to image 1.

@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: E
 type: new
 id: 852
@@ -27,3 +27,4 @@ push: zip
 - 2026-10-21 07:10 UTC director: brief written, READY (Essentials line, lane E, push: zip; registry row 1025 claimed).
 - 2026-10-21 13:33 UTC director: format decided on #851 (option A: embroidered chest only on #943, no back-top mark, $49.99 flat, no compare-at). Build after #851 reaches REVIEW.
 - 2026-10-21 14:20 UTC builder [E]: BUILT, REVIEW. Same format as #851 (option A). Shopify DRAFT 15372519047472, sync 483690980 6/6 on chest file 1090961074 (Printful orange thread #E25C27, flat), no back file. $49.99 flat, no compare-at. Copy from the Printful spec (Sandshell is solid: 80% cotton / 20% recycled polyester, 8.3 oz), line one sand hoodie + zip-up, 5 FAQs 40-60 words, Christmas order-by Dec 8, SEO title/meta say sand hoodie. Keyword row sand hoodie 590 / KD 27 under products; 'Sandshell' added to swatches.ts. Tags drop the women's pair (cover is a man), collections Zip-Up, Men's Graphic Hoodies, Men's Zip-Up, Embroidered. Cover: 1 fal photo ($0.06), registry 1025 now USED, boardwalk at golden hour, chest stitch reads 'Graphic Tees'; director check: the pants look mismatched (khaki and navy legs). Media: men's model front (linked to all 6 variants), plain back, flat front. Audit: only not-ACTIVE. fal $0.06.
+- 2026-10-21 15:45 UTC director: REDO from docs/review/852.jpg (the embroidery, price and copy format are right). 1. R6.3 / builder 7u: title says Unisex but the cover is one man; make it a man and a woman together, both in the Sandshell zip (registry rows unused), or change the title and tags to Men's. 2. R6.1: no Printful model mockups in the carousel (the sheet's third panel is a stock model; keep it off the product). Director already moved the flat front to image 1 (R6.13).
