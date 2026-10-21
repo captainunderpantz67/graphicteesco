@@ -1,0 +1,38 @@
+{
+ "chest_white": {
+  "id": 1091220564,
+  "url": "https://v3b.fal.media/files/b/0aaf4a1d/6N74Z0jdh-qIMfr5gfM-W_p947ac947_chest_white.png",
+  "w": 1200,
+  "h": 173
+ },
+ "wrist_white": {
+  "id": 1091220695,
+  "url": "https://v3b.fal.media/files/b/0aaf4a1e/i7f3MahrWbCpAB1ys74Vu_p947ac947_wrist_white.png",
+  "w": 600,
+  "h": 144
+ },
+ "chest_navy": {
+  "id": 1091220790,
+  "url": "https://v3b.fal.media/files/b/0aaf4a1f/4eDgjc9QC6qCkM8-p_hd8_p947ac947_chest_navy.png",
+  "w": 1200,
+  "h": 173
+ },
+ "wrist_navy": {
+  "id": 1091220918,
+  "url": "https://v3b.fal.media/files/b/0aaf4a20/2YWDMgWrp4cmn_fd7W_hW_p947ac947_wrist_navy.png",
+  "w": 600,
+  "h": 144
+ },
+ "back_ash": {
+  "id": 1091221033,
+  "url": "https://v3b.fal.media/files/b/0aaf4a21/dDJ8-9MzEQjXHdtjUNJvy_p947aprint-files_947-assembly-ash.png",
+  "w": 3000,
+  "h": 2717
+ },
+ "back_navy": {
+  "id": 1091221112,
+  "url": "https://v3b.fal.media/files/b/0aaf4a22/45d3sQkGD5MGbJaC3vpwS_p947aprint-files_947-assembly-light.png",
+  "w": 3000,
+  "h": 2717
+ }
+}
