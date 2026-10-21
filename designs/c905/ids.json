@@ -1,38 +1,38 @@
 {
  "chest_white": {
-  "id": 1091094035,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/r05ac905_chest_white.png",
+  "id": 1091100102,
+  "url": "https://v3b.fal.media/files/b/0aaf4534/iui8qPZgpcG0X9WrnBCgX_r05xac905_chest_white.png",
   "w": 1200,
   "h": 1204
  },
  "wrist_white": {
-  "id": 1091094629,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/r05ac905_wrist_white.png",
+  "id": 1091100181,
+  "url": "https://v3b.fal.media/files/b/0aaf4534/eqw_xi_XJSTylEAdi8_tZ_r05xac905_wrist_white.png",
   "w": 600,
   "h": 144
  },
  "chest_navy": {
-  "id": 1091094844,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/r05ac905_chest_navy.png",
+  "id": 1091100229,
+  "url": "https://v3b.fal.media/files/b/0aaf4535/nh2nwTw-iUBlZnLuoXWGI_r05xac905_chest_navy.png",
   "w": 1200,
   "h": 1204
  },
  "wrist_navy": {
-  "id": 1091094972,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/r05ac905_wrist_navy.png",
+  "id": 1091100283,
+  "url": "https://v3b.fal.media/files/b/0aaf4536/YXL9mY_DRvaqeaFgO4tr7_r05xac905_wrist_navy.png",
   "w": 600,
   "h": 144
  },
  "back_ash": {
-  "id": 1091095057,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/r05aprint-files_905-golf-outfits-ash.png",
-  "w": 2952,
-  "h": 2700
+  "id": 1091100346,
+  "url": "https://v3b.fal.media/files/b/0aaf4536/5YFL-FBrfuFUNU43NfJnV_r05xaprint-files_905-golf-outfits-ash.png",
+  "w": 2953,
+  "h": 2652
  },
  "back_navy": {
-  "id": 1091095142,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/r05aprint-files_905-golf-outfits-light.png",
-  "w": 2952,
-  "h": 2700
+  "id": 1091100421,
+  "url": "https://v3b.fal.media/files/b/0aaf4537/UM5tr82wjq5lgZLFmXS86_r05xaprint-files_905-golf-outfits-light.png",
+  "w": 2953,
+  "h": 2652
  }
 }

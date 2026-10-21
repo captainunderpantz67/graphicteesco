@@ -2,19 +2,3 @@ scale x0.82, thickened 0px each side, p10 stroke width 89.1px = 7.54 mm; size 10
 scale x0.80, thickened 0px each side, p10 stroke width 20.0px = 1.69 mm; size 205x104px = 0.68 x 0.35 in wrist word FORE: cap 105 px = 0.35 in, width 0.68 in
 scale x0.82, thickened 0px each side, p10 stroke width 89.1px = 7.54 mm; size 1050x1164px = 3.50 x 3.88 in
 scale x0.80, thickened 0px each side, p10 stroke width 20.0px = 1.69 mm; size 205x104px = 0.68 x 0.35 in wrist word FORE: cap 105 px = 0.35 in, width 0.68 in
-To https://github.com/captainunderpantz67/graphicteesco
- ! [remote rejected]   HEAD -> main (cannot lock ref 'refs/heads/main': is at c25ae3ae483b22290860dcaebc0e3589e88b334a but expected f6b086b763c8849d5c5f81311d1ed82bb0b47b3f)
-error: failed to push some refs to 'https://github.com/captainunderpantz67/graphicteesco'
-To https://github.com/captainunderpantz67/graphicteesco
- ! [remote rejected]   HEAD -> main (cannot lock ref 'refs/heads/main': is at 785175b2bc3ffadadd636d44b05f1b4ea8d42aed but expected a7ba8c7311ef8fc86cac20fa8cf71e953630af60)
-error: failed to push some refs to 'https://github.com/captainunderpantz67/graphicteesco'
-error: RPC failed; HTTP 403 curl 22 The requested URL returned error: 403
-To https://github.com/captainunderpantz67/graphicteesco
- ! [rejected]          HEAD -> main (fetch first)
-error: failed to push some refs to 'https://github.com/captainunderpantz67/graphicteesco'
-hint: Updates were rejected because the remote contains work that you do not
-hint: have locally. This is usually caused by another repository pushing to
-hint: the same ref. If you want to integrate the remote changes, use
-hint: 'git pull' before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-{"chest_white": 1091075886, "wrist_white": 1091075957, "chest_navy": 1091076011, "wrist_navy": 1091076047, "back_ash": 1091076076, "back_navy": 1091076121}
