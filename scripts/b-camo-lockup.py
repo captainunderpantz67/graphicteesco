@@ -7,7 +7,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageChops
 R = os.path.dirname(os.path.abspath(__file__)) + '/../'
 args = [a for a in sys.argv[1:] if not a.startswith('--')]; top = '--top' in sys.argv
 art, out = args[0], args[1]; lines = args[2:]
-W = 3400; BONE = (242, 234, 211, 255); DARK = (17, 17, 17, 255); OUT = 60; PH = int(W * float(os.environ.get("PHR", "0.86")))
+W = 3400; BONE = (242, 234, 211, 255); DARK = tuple(int(x) for x in os.environ['DARKC'].split(',')) + (255,) if os.environ.get('DARKC') else (17, 17, 17, 255); OUT = 60; PH = int(W * float(os.environ.get("PHR", "0.86")))
 tmp = tempfile.mktemp(suffix='.png'); subprocess.run(['python3', R + 'scripts/print-prep.py', art, tmp, '--width', '3000'], check=True, capture_output=True)
 a = Image.open(tmp).convert('RGBA'); bb = a.getbbox(); a = a.crop(bb)
 inner = W - 2 * OUT - 160; s = min(inner / a.width, (PH - 2 * OUT - 160) / a.height); a = a.resize((int(a.width * s), int(a.height * s)), Image.LANCZOS)

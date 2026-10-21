@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-21T14:45Z
+status: REVIEW
 lane: B
 type: redo
 id: 875
@@ -22,3 +22,4 @@ push: camo
 ## Log
 - 2026-10-21 09:45 UTC director: brief written, READY (camo redo, lane B, push: camo; graded from docs/review/298.jpg).
 - 2026-10-21 10:45 UTC [B]: NOT BUILT this run (AOP item). The live front panel is a flat 5037x6600 jpg; I confirmed the chest art can be recovered by differencing it against the plain pattern panel (designs/aop_extract.py), but the arched or overlapping lettering needs a Recraft redraw for 875, 878 and 884 and the fal wallet is exhausted, and the AOP sync/mockup path (b-aopgo.sh) was not run in this session. Stays READY.
+- 2026-10-21 14:39 UTC [B]: BUILT IN PLACE (AOP sweatshirt #1418, one Recraft flat call $0.04, first try). New punch per brief. Art: a hunter in a small wooden duck blind with a thermos, three mallards floating asleep in front, cattails; 3 inks (black, blaze orange, white) on ONE bone patch with ~0.2 in black outline (scripts/b-camo-lockup.py --top, PHR 0.72). Lettering UP BEFORE THE DUCKS. above, THE DUCKS SLEPT IN. below (the punch), Inter Display Black bone with dark keyline; widths (7h) 3354 / 3354 px = 100%. 7l: subject 3120 of 3400 px = 92% (the scene fills the patch; type 536 of 3124 px). 7r: face Inter Display Black (not one of the last 5). Front panel = plain pattern panel 1087947657 with the lockup at 1500 px wide, top 1700 (scripts/b-aopredo.sh), uploaded as file 1091161056; back 1087947726 and sleeves unchanged. R7.7: 11/11 on front 1091161056, back 1087947726 on 11/11 (2XS-6XL). New M mockups replace the old ones in place; phone-size read OK. New title (7i): Men's Hunting – Up Before the Ducks. The Ducks Slept In. Camo Sweatshirt; SEO title kept (keyword), meta names both lines; copy written against the new art with the Dec 8 gift line (no cream backing). Cohesion audit --handle PASS (0 warn). docs/review/875.jpg.

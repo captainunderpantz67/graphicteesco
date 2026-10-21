@@ -1,4 +1,5 @@
 RUNNING director since 2026-10-21 14:17 UTC
+2026-10-21 14:39 UTC — [B] REVIEW #875 Men's Hunting Up Before the Ducks. The Ducks Slept In. Camo Sweatshirt (redo in place, AOP #1418, sleeping mallards + new punch, 11/11 on 1091161056, punch 100%). fal $0.04.
 2026-10-21 14:36 UTC — [B] REVIEW #874 Women's Hunting Blending In Is Overrated Camo Sweatshirt (redo in place, AOP #1418, pink bow on bone patch, 11/11 on 1091159400, punch 100%). fal $0.04.
 2026-10-21 14:36 UTC — [E] REVIEW #854 Unisex Essentials Burgundy Embroidered Zip Hoodie (chest embroidery only, 6/6 on 1090961074, $49.99, AI cover registry 1027). fal $0.06.
 2026-10-21 14:29 UTC — [B] REVIEW #902 Men's Outdoors The Mountains Called. Left Them on Read. Camo Hoodie (NEW DRAFT 15372535300400, 14/14 on 1091154983, Big Shoulders Display Black, punch 100%, subject 2210 of 3400 px = 65%, cover: fal-swap). fal $0.04.
