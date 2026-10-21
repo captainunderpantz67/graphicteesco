@@ -11460,6 +11460,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-cat-oops-anyway-embroidered-zip-hoodie": {
+   "claimed": [
+    "cat zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cat zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }

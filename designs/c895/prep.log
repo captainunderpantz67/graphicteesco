@@ -1,0 +1,45 @@
+scale x1.01, thickened 0px each side, p10 stroke width 74.4px = 6.30 mm; size 1050x1635px = 3.50 x 5.45 in
+scale x0.80, thickened 0px each side, p10 stroke width 20.0px = 1.69 mm; size 234x104px = 0.78 x 0.35 in wrist word SHIFT: cap 105 px = 0.35 in, width 0.78 in
+scale x1.01, thickened 0px each side, p10 stroke width 74.4px = 6.30 mm; size 1050x1635px = 3.50 x 5.45 in
+scale x0.80, thickened 0px each side, p10 stroke width 20.0px = 1.69 mm; size 234x104px = 0.78 x 0.35 in wrist word SHIFT: cap 105 px = 0.35 in, width 0.78 in
+error: RPC failed; HTTP 403 curl 22 The requested URL returned error: 403
+To https://github.com/captainunderpantz67/graphicteesco
+ ! [rejected]          HEAD -> main (fetch first)
+error: failed to push some refs to 'https://github.com/captainunderpantz67/graphicteesco'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Applied autostash.
+error: RPC failed; HTTP 403 curl 22 The requested URL returned error: 403
+To https://github.com/captainunderpantz67/graphicteesco
+ ! [rejected]          HEAD -> main (fetch first)
+error: failed to push some refs to 'https://github.com/captainunderpantz67/graphicteesco'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Applied autostash.
+error: RPC failed; HTTP 403 curl 22 The requested URL returned error: 403
+To https://github.com/captainunderpantz67/graphicteesco
+ ! [rejected]          HEAD -> main (fetch first)
+error: failed to push some refs to 'https://github.com/captainunderpantz67/graphicteesco'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Applied autostash.
+error: RPC failed; HTTP 403 curl 22 The requested URL returned error: 403
+To https://github.com/captainunderpantz67/graphicteesco
+ ! [rejected]          HEAD -> main (fetch first)
+error: failed to push some refs to 'https://github.com/captainunderpantz67/graphicteesco'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Applied autostash.
+{"chest_white": 1091059308, "wrist_white": 1091059381, "chest_navy": 1091059465, "wrist_navy": 1091059536, "back_ash": 1091059595, "back_navy": 1091059675}
