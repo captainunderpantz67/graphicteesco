@@ -1,6 +1,6 @@
 {
- "at": "2026-10-21T14:45:10.953Z",
- "products": 700,
+ "at": "2026-10-21T15:50:58.495Z",
+ "products": 704,
  "findings": [
   {
    "level": "WARN",
@@ -888,6 +888,41 @@
    "level": "WARN",
    "handle": "womens-camo-blending-in-was-never-the-plan-aop-zip-hoodie",
    "title": "Women's Camo – Blending In Was Never the Plan. All-Over Print Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-tennis-my-backhand-has-opinions-embroidered-zip-hoodie",
+   "title": "Women's Tennis – My Backhand Has Opinions Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-bookish-plot-twist-i-stayed-in-embroidered-zip-hoodie",
+   "title": "Women's Bookish – Plot Twist: I Stayed In Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-cat-oops-anyway-embroidered-zip-hoodie",
+   "title": "Women's Cat – Oops. Anyway. Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-cat-oops-anyway-embroidered-zip-hoodie",
+   "title": "Women's Cat – Oops. Anyway. Embroidered Zip Hoodie",
+   "msg": "Claims \"cat zip up hoodie\", already claimed by womens-cat-not-my-turn-with-the-brain-cell-zip-hoodie (two pages fighting for one keyword).",
+   "fix": "Give one of them a different measured phrase."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-gym-lift-heavy-reply-later-embroidered-zip-hoodie",
+   "title": "Women's Gym – Lift Heavy. Reply Later. Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   }
