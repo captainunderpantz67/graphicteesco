@@ -1,15 +1,25 @@
 import sys; sys.path.insert(0,'.')
 from designs.lib import *
 from PIL import ImageDraw
-im=Image.open('designs/c905/src_print.png').convert('RGBA')
-a=im.crop((0,0,1498,im.height))
-# redraw the clipped flag tip (pennant points right past the cut)
-import numpy as np
-n=np.array(a); n[:1500,1465:,3]=0; a=Image.fromarray(n,'RGBA')
-d=ImageDraw.Draw(a)
-d.polygon([(1491,1806),(1491,1861),(1540,1861)],fill=(60,110,90,255))
-bb=a.getbbox(); a=a.crop(bb); a.save('designs/c905/art_only.png'); print('art',a.size)
-W=3000; FONT=sys.argv[1] if len(sys.argv)>1 else 'bevan'; COL=1420; CX=W-COL//2-20
+import numpy as np, cv2
+im=Image.open('designs/c905/src_print.png').convert('RGBA'); _s=np.array(im)
+_al=(_s[:,:,3]>40).astype('uint8'); _nn,_lab,_st,_=cv2.connectedComponentsWithStats(_al,8)
+_gold=max(range(1,_nn),key=lambda i:(_lab==i).sum() if _st[i][0]==0 else 0)   # the golfer-and-scene component touches x=0 (the lettering is separate components)
+_s[:,:,3]=np.where(_lab==_gold,_s[:,:,3],0); a=Image.fromarray(_s,'RGBA'); a=a.crop(a.getbbox()); a.save('designs/c905/art_only.png'); print('art',a.size)
+# worn edge where the source lettering cut the flag, hole and grass flat (R4.1): noisy erosion of the last 110 px, only in those two row bands
+_n=np.array(a); _h,_w=_n.shape[:2]; _rng=np.random.default_rng(11); _f=np.zeros((_h,_w),np.float32)
+for _sg,_wt in ((30,.5),(12,.3),(5,.2)):
+    _x=_rng.random((_h,_w)).astype(np.float32); _x=cv2.GaussianBlur(_x,(0,0),_sg); _x=(_x-_x.min())/(_x.max()-_x.min()); _f+=_wt*_x
+_f=(_f-_f.min())/(_f.max()-_f.min())
+_xs=np.arange(_w)[None,:].repeat(_h,0); _ys=np.arange(_h)[:,None].repeat(_w,1)
+_t=np.clip((_xs-(_w-110))/110.0,0,1)**1.1*1.1
+_band=((_ys>1480)&(_ys<1720))|((_ys>2050)&(_ys<2390))
+_lum=_n[:,:,:3].astype(np.float32).mean(2)
+_kill=(_f<_t)&_band&(_xs>_w-110)&(_lum>=70)&(_n[:,:,3]>0)
+_n[:,:,3][_kill]=0
+_dk=(_xs>_w-60)&_band&(_lum<70)&(_n[:,:,3]>0); _n[:,:,3][_dk]=0
+a=Image.fromarray(_n,'RGBA'); a.save('designs/c905/art_ragged.png')
+W=3000; FONT=sys.argv[1] if len(sys.argv)>1 else 'bevan'; COL=1300; CX=W-COL//2-20
 def block(tag,hf,pf,key):
     h=line_same(['I ONLY','GOLF'],FONT,float(sys.argv[2]) if len(sys.argv)>2 else 0.82,COL,hf,key,kw=15)
     p=line_same(['FOR THE','OUTFITS'],FONT,1.0,COL,pf,key,kw=15)
