@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-21 06:02
+status: REVIEW
 lane: B
 type: new
 id: 602
@@ -27,3 +27,4 @@ kd: 35
 ---
 ## Log
 - 2026-10-18 06:26 UTC director: brief written, READY (lane B; kd 35; KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month or with a measured December surge; proof named under the gate).
+- 2026-10-21 06:25 UTC [B]: built NEW as DRAFT (product 15371576574256, Bella+Canvas 6400 #360, White/Natural/Heather Stone/Athletic Heather/Pink/Heather Mauve x S-3XL = 36/36 synced on file 1090947939, back logo 1080398177 (b-verify.py: default 1090947939 on 36, back on 36), sync 483600887). Art: 1 Recraft v4 call ($0.04, logged), picture only, try 1 kept: glamorous woman in a pleated white dress, striped headband, red cat-eye sunglasses, leaning on a wooden racket at the net, ball rolling past her sneakers (hand on the racket handle, anatomy ok); prep-seal threshold 200. Lettering (designs/b602/build.py): LOVE MEANS (Yellowtail script, faded red, cream keyline) above, NOTHING TO ME. (Alfa Slab One, navy, cream keyline) below; one dark-ink file for all six light colors (no cream fills, R5.3.8). 7h: headline 1421 px, punch NOTHING TO ME. 1698 px = 113% of the art width (art 1500 px) (brief: at least 85%). FW 1300 TOP 75, NOT the brief's FW 1500: the 6400 print area is 1500 x 1800 px, the vertical lockup is 1698 x 2245 (aspect 1.32), so FW 1500 would run 2000 px tall and clip the bottom line; FW 1300 gives 1719 + 75 inside the area. 7l: subject 1500 of 1698 px = 88%; type 351 of 2245 px = 16% (the art is the picture). Phone-size read of all six mockups OK. Keyword funny tennis tshirt 480/KD 35 in map under products (the brief's 'tennis hoodie' #439 and 'tennis sweatshirt' #611 left alone). Price 24.99 no compare-at, category tees, tags per brief, SEO title 49/meta 136, FAQ 5 x 45-58 words plus the standard fit line (order-by Dec 8). Flat cover, front first, neck-logo back last. Copy checked vs art (no ink colors beyond what the mockups show). Audit PASS (1 warn: no lifestyle cover). Sheet docs/review/602.jpg. fal $0.04.
