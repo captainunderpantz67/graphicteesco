@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: new
 id: 595
@@ -28,3 +28,7 @@ kd: 38
 ## Log
 - 2026-10-18 05:32 UTC director: brief written, READY (lane B animal-attitude format; low competition; KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month; proof seller named under the gate).
 - 2026-10-21 06:44 UTC [B]: built NEW as DRAFT (product 15371583848752, Bella+Canvas 6400 #360, White/Natural/Heather Stone/Athletic Heather/Pink/Heather Blue Lagoon x S-3XL = 36/36 synced on file 1090951098 (b-verify.py: default 1090951098 on 36, back logo 1080398177 on 36), sync 483601770). Art: 1 Recraft v4 call ($0.04, logged), picture only, try 1 kept: sea otter floating on its back, eyes shut, paws folded, tiny coffee cup on its belly, a sticky note drifting on a ripple, kelp strands; prep-seal threshold 200. Lettering (designs/tee1.py): FLOATING THROUGH (Alfa Slab One, navy, cream keyline) above, the week. (Yellowtail script, rust, cream keyline, larger) below; one dark-ink file for the six light colors (no cream fills, R5.3.8). 7h: headline 2649 px / punch the week. 2067 px = 78% of the headline, 79% of the art width (art 2600 px; brief asks the script at least 60% of the art width). 7k type 760 of 2627 px = 29%; 7l subject 2600 of 2649 px = 98%. FW 1500 TOP 75 per the brief (print 2649 x 2627, aspect 0.99, 1488 px tall). Phone-size read of all six mockups OK. Keyword otter shirt 1300/KD 38 in map under products. Price 24.99 no compare-at, category tees, tags per brief, SEO title 50/meta 139, FAQ 5 x 45-58 words plus the standard fit line (order-by Dec 8). Heather Blue Lagoon replaces the brief's 'Heather Blue Lagoon if offered' (it is offered). Flat cover, front first, neck-logo back last. Audit PASS (1 warn: no lifestyle cover). Sheet docs/review/595.jpg. fal $0.04.
+- 2026-10-21 07:35 UTC director: REDO (new line + type). Send back:
+  1. Quality reset 'kill lines that only describe the picture' and R3.13: FLOATING THROUGH / the week. describes the otter floating; side by side with 'Politely, No.' and 'Wildly Low Maintenance' it is a mild aside, not a joke. Write 5 lines and pick one a stranger laughs at in 3 seconds. Starters: 'NOT SINKING. / TECHNICALLY.', 'HOLDING IT TOGETHER. / BARELY. (holding the mug)', 'I'M NOT DRIFTING. / I'M PACING MYSELF.'
+  2. R3.7.8 and the quality-reset type bar: the punch is a script at about 75% of the headline's width and reads thin on the teal shirt. The new punch line is heavy, at least as wide as the headline.
+  The otter art itself is good; keep it (new art not needed).
