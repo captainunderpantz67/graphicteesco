@@ -1,0 +1,38 @@
+{
+ "chest_white": {
+  "id": 1091107226,
+  "url": "https://v3b.fal.media/files/b/0aaf457a/0s4iL5cF8kpgCPFvqmJ9u_r16ac916_chest_white.png",
+  "w": 1200,
+  "h": 941
+ },
+ "wrist_white": {
+  "id": 1091107410,
+  "url": "https://v3b.fal.media/files/b/0aaf457b/N_bHSv1Yp3WhUij20vEYL_r16ac916_wrist_white.png",
+  "w": 600,
+  "h": 144
+ },
+ "chest_navy": {
+  "id": 1091107551,
+  "url": "https://v3b.fal.media/files/b/0aaf457b/NmVUQfuMzWi0yAJAN-4gS_r16ac916_chest_navy.png",
+  "w": 1200,
+  "h": 941
+ },
+ "wrist_navy": {
+  "id": 1091107653,
+  "url": "https://v3b.fal.media/files/b/0aaf457d/QlYCz_ZCApiRwn09i6u1M_r16ac916_wrist_navy.png",
+  "w": 600,
+  "h": 144
+ },
+ "back_ash": {
+  "id": 1091107705,
+  "url": "https://v3b.fal.media/files/b/0aaf457d/wCxm9HMwVANfEGPMJ8ydJ_r16aprint-files_916-lapdog-ash.png",
+  "w": 3000,
+  "h": 3030
+ },
+ "back_navy": {
+  "id": 1091107767,
+  "url": "https://v3b.fal.media/files/b/0aaf457e/kr_e7BLfzqte1ry5eX9Wu_r16aprint-files_916-lapdog-light.png",
+  "w": 3000,
+  "h": 3030
+ }
+}
