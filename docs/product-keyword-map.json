@@ -10246,6 +10246,11 @@
      "phrase": "funny christmas mug",
      "volume": 1000,
      "kd": 60
+    },
+    {
+     "phrase": "white elephant mug",
+     "volume": 170,
+     "kd": 52
     }
    ],
    "measured": "2026-10-16"
@@ -10593,29 +10598,41 @@
   },
   "unisex-running-run-club-mostly-a-coffee-club-hoodie": {
    "claimed": [
-    "run club hoodie"
+    "run club hoodie",
+    "run club sweatshirt"
    ],
    "gaps_measured": [
     {
      "phrase": "run club hoodie",
      "volume": 1000,
      "kd": 24
+    },
+    {
+     "phrase": "run club sweatshirt",
+     "volume": 390,
+     "kd": 31
     }
    ],
-   "measured": "2026-10-16"
+   "measured": "2026-10-18"
   },
   "mens-marathon-finisher-still-at-mile-20-heavyweight-hoodie": {
    "claimed": [
-    "marathon hoodie"
+    "marathon hoodie",
+    "marathon sweatshirt"
    ],
    "gaps_measured": [
     {
      "phrase": "marathon hoodie",
      "volume": 480,
      "kd": 30
+    },
+    {
+     "phrase": "marathon sweatshirt",
+     "volume": 170,
+     "kd": 34
     }
    ],
-   "measured": "2026-10-16"
+   "measured": "2026-10-18"
   },
   "unisex-turtle-shell-of-a-person-hoodie": {
    "claimed": [
@@ -10955,6 +10972,7 @@
    ],
    "measured": "2026-10-21"
   },
+<<<<<<< HEAD
   "mens-sailing-im-not-lost-im-tacking-hoodie": {
    "claimed": [
     "sailing hoodie"
@@ -10967,131 +10985,20 @@
     }
    ],
    "measured": "2026-10-21"
+=======
+  "mens-boxing-hands-up-expectations-low-hoodie": {
+   "claimed": [
+    "boxing hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "boxing hoodie",
+     "volume": 3600,
+     "kd": 20
+    }
+   ],
+   "measured": "2026-10-20"
+>>>>>>> 1a9c568f1afe7b9e11d0931c52e2fa488a5f7d9b
   }
- },
- "mens-christmas-define-naughty-graphic-tee": {
-  "claimed": [
-   "naughty christmas shirt",
-   "sarcastic christmas shirt",
-   "santa tshirt",
-   "funny christmas tshirt"
-  ],
-  "gaps_measured": [
-   {
-    "phrase": "naughty christmas shirt",
-    "volume": 720,
-    "kd": 27
-   },
-   {
-    "phrase": "sarcastic christmas shirt",
-    "volume": 320,
-    "kd": 64
-   },
-   {
-    "phrase": "santa tshirt",
-    "volume": 8100,
-    "kd": 52
-   },
-   {
-    "phrase": "funny christmas tshirt",
-    "volume": 12100,
-    "kd": 55
-   }
-  ],
-  "measured": "2026-10-18"
- },
- "womens-embroidered-thriving-technically-frog-hoodie": {
-  "claimed": [
-   "mental health hoodie"
-  ],
-  "gaps_measured": [
-   {
-    "phrase": "mental health hoodie",
-    "volume": 5400,
-    "kd": 34
-   }
-  ],
-  "measured": "2026-10-17"
- },
- "mens-gym-sisyphus-had-bad-programming-crewneck-sweatshirt": {
-  "claimed": [
-   "workout sweatshirt"
-  ],
-  "gaps_measured": [
-   {
-    "phrase": "workout sweatshirt",
-    "volume": 1000,
-    "kd": 44
-   }
-  ],
-  "measured": "2026-10-17"
- },
- "unisex-running-run-club-mostly-a-coffee-club-hoodie": {
-  "claimed": [
-   "run club hoodie",
-   "run club sweatshirt"
-  ],
-  "gaps_measured": [
-   {
-    "phrase": "run club hoodie",
-    "volume": 1000,
-    "kd": 24
-   },
-   {
-    "phrase": "run club sweatshirt",
-    "volume": 390,
-    "kd": 31
-   }
-  ],
-  "measured": "2026-10-18"
- },
- "mens-marathon-finisher-still-at-mile-20-heavyweight-hoodie": {
-  "claimed": [
-   "marathon hoodie",
-   "marathon sweatshirt"
-  ],
-  "gaps_measured": [
-   {
-    "phrase": "marathon hoodie",
-    "volume": 480,
-    "kd": 30
-   },
-   {
-    "phrase": "marathon sweatshirt",
-    "volume": 170,
-    "kd": 34
-   }
-  ],
-  "measured": "2026-10-18"
- },
- "christmas-we-said-no-gifts-we-lied-mug": {
-  "claimed": [
-   "funny christmas mug"
-  ],
-  "gaps_measured": [
-   {
-    "phrase": "funny christmas mug",
-    "volume": 1000,
-    "kd": 60
-   },
-   {
-    "phrase": "white elephant mug",
-    "volume": 170,
-    "kd": 52
-   }
-  ]
- },
- "mens-boxing-hands-up-expectations-low-hoodie": {
-  "claimed": [
-   "boxing hoodie"
-  ],
-  "gaps_measured": [
-   {
-    "phrase": "boxing hoodie",
-    "volume": 3600,
-    "kd": 20
-   }
-  ],
-  "measured": "2026-10-20"
  }
 }
