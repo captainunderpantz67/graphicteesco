@@ -1,6 +1,6 @@
 {
- "at": "2026-10-21T11:49:37.209Z",
- "products": 699,
+ "at": "2026-10-21T12:47:17.947Z",
+ "products": 700,
  "findings": [
   {
    "level": "WARN",
@@ -881,6 +881,13 @@
    "level": "WARN",
    "handle": "womens-french-bulldog-personal-space-never-heard-of-her-crewneck-sweatshirt",
    "title": "Women's French Bulldog – Personal Space? Never Heard of Her. Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-camo-blending-in-was-never-the-plan-aop-zip-hoodie",
+   "title": "Women's Camo – Blending In Was Never the Plan. All-Over Print Zip Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   }

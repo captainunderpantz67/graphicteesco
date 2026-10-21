@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-21 11:49 UTC
+# Cohesion audit — 2026-10-21 12:47 UTC
 
-699 live products checked · **0 errors** · 126 warnings · 119 products with findings
+700 live products checked · **0 errors** · 127 warnings · 120 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -369,4 +369,7 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Women's French Bulldog – Personal Space? Never Heard of Her. Crewneck Sweatshirt `womens-french-bulldog-personal-space-never-heard-of-her-crewneck-sweatshirt`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Camo – Blending In Was Never the Plan. All-Over Print Zip Hoodie `womens-camo-blending-in-was-never-the-plan-aop-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
