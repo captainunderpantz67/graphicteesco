@@ -107,48 +107,8 @@ export const allGuides: Guide[] = [
     ],
   },
   {
-    // Gift guide (Claude 2026-10-19). RankHero: white elephant gifts 33,100/44 (78K listings); funny white elephant gifts 22,200/9 has no competition count (blended, R2.10), used once in copy only.
-    // A-grade Christmas designs only; "I Stole It. I'm Keeping It." added 2026-10-19 (director) when its redesign went LIVE; add ornaments/mugs when live.
-    slug: 'white-elephant-gifts',
-    keyword: 'white elephant gifts',
-    title: 'White Elephant Gifts People Actually Fight Over (Under $40)',
-    description: 'Funny white elephant gifts under $40 that get stolen: Christmas shirts and crewnecks about tree fails, bike assembly at 2 a.m. and attending under protest.',
-    h1: 'White Elephant Gifts People Actually Fight Over',
-    date: '2026-10-19',
-    answer: 'The white elephant gifts that get stolen are funny and actually usable. A Christmas shirt or crewneck with a joke everyone recognizes, like a tree that looked smaller at the farm or a bike assembled at 2 a.m., gets a laugh when it is opened and gets worn after. Graphic Tees Co. tees are $24.99 and crewnecks $34.99, inside most white elephant budgets.',
-    picks: [
-      {
-        h2: 'Funny Christmas shirts that get stolen',
-        body: ['These are jokes the whole room recognizes, so the gift gets a laugh the moment it is unwrapped.'],
-        items: [
-          { slogan: 'It Looked Smaller at the Farm', tee: 'mens-christmas-it-looked-smaller-at-the-farm-graphic-tee', crewneck: 'mens-christmas-it-looked-smaller-at-the-farm-crewneck-sweatshirt',
-            text: 'Every family has bought the tree that did not fit through the door. Universal, clean and funny enough for the office party.' },
-          { slogan: 'Some Assembly Regretted', tee: 'mens-christmas-some-assembly-regretted-graphic-tee', crewneck: 'mens-christmas-some-assembly-regretted-crewneck-sweatshirt',
-            text: 'For whoever built the bike, the dollhouse or the trampoline at 2 a.m. on Christmas Eve. A twist on "some assembly required" that every parent gets.' },
-          { slogan: 'Attending Under Protest', tee: 'mens-christmas-attending-under-protest-hoodie', crewneck: 'mens-christmas-attending-under-protest-crewneck-sweatshirt',
-            text: 'A grumpy reindeer with crossed arms, for the coworker who did not want to come to the party but came anyway.' },
-          { slogan: 'Allegedly.', tee: 'womens-christmas-cat-allegedly-graphic-tee',
-            text: 'A guilty-looking cat next to a knocked-over ornament. One word, instant laugh, and every cat owner wants it.' },
-          { slogan: "I Stole It. I'm Keeping It.", tee: 'mens-christmas-white-elephant-champion-graphic-tee',
-            text: 'A proud man on a podium hugging the gift he just stole. It says out loud what every white elephant winner is thinking.' },
-        ],
-      },
-    ],
-    sections: [
-      { h2: 'What makes a good white elephant gift?', body: ['A good white elephant gift is funny when it is opened and still useful after. Gag gifts that end up in the trash rarely get stolen; a funny Christmas shirt someone will wear to the next party does.', 'Keep it inside the group budget, usually $20 to $40, and pick a joke the whole room understands.'],
-        links: [{ href: '/funny-christmas-shirts/', text: 'Shop all funny Christmas shirts' }, { href: '/group-shirts/', text: 'Buying for the whole office? Save 15% on 10+' }] },
-      { h2: 'When to order', body: ['Each shirt is printed to order and then shipped, so order about two weeks before the party.'] },
-    ],
-    faqs: [
-      { q: 'What is a good white elephant gift under $30?', a: 'A funny Christmas tee at $24.99, like "It Looked Smaller at the Farm" or "Some Assembly Regretted." It gets a laugh and gets worn, which is why it gets stolen.' },
-      { q: 'What white elephant gifts get stolen the most?', a: 'Gifts that are funny and useful at the same time. A Christmas shirt or crewneck with a joke everyone recognizes usually beats a gag gift nobody wants to take home.' },
-      { q: 'Is a funny shirt a good white elephant gift for coworkers?', a: 'Yes, as long as the joke is clean. Every design here works at an office party: tree fails, holiday assembly and attending under protest.' },
-      { q: 'Can I buy white elephant gifts in bulk for a group?', a: 'Yes. Order 10 or more items in one cart, any designs and sizes, and 15% comes off automatically at checkout.' },
-    ],
-  },
-  {
     // Writer lane W rewrite (2026-10-21) of the live 'white-elephant-gifts' guide, same slug. Rewrite queue item 3 of 6.
-    // DRAFT: the director deletes the older entry above and sets draft: false on approval.
+    // Approved by the director 2026-10-21 09:40 UTC (older entry removed).
     // Keyword: white elephant gifts 33,100 / KD 44 (RankHero 2026-10-19, carried from the live entry; not re-measured in this unattended run). "funny white elephant gifts" 22,200 / KD 9 used once.
     // Facts (slogans, prices, policies) from pipeline files #275 #276 #471 #541 #560 #569 #598 #599, site.ts and the christmas collection copy. Picks are A-grade designs in fresh-designs.json.
     // Dropped from the live version: Some Assembly Regretted (not in fresh-designs.json).
@@ -160,7 +120,6 @@ export const allGuides: Guide[] = [
     h1: 'White Elephant Gifts People Actually Fight Over',
     date: '2026-10-21',
     cluster: 'christmas',
-    draft: true,
     answer: 'The white elephant gifts that get stolen are funny and wearable. A Christmas shirt with a joke the whole room knows gets a laugh when it is opened and gets worn after. Graphic Tees Co. has four that do it, printed to order: It Looked Smaller at the Farm, Attending Under Protest, Allegedly. and I Stole It. I\'m Keeping It. Tees are $24.99, crewnecks $34.99 and the Attending Under Protest hoodie is $39.99.',
     picks: [
       {
@@ -184,7 +143,7 @@ export const allGuides: Guide[] = [
       { h2: 'Is a shirt a safe white elephant gift for coworkers?', body: ['Yes, when the joke is clean. Graphic Tees Co. Christmas designs are family-clean, so a stolen shirt will not start an HR conversation.', 'If you are not sure about sizes, pick a crewneck or a tee: most people can wear either, and a size exchange is free if it is wrong (see below).'],
         links: [{ href: '/christmas-shirts/', text: 'Christmas shirts' }, { href: '/group-shirts/', text: 'Buying for the whole office? 15% off 10+ items' }] },
       { h2: 'When should I order a white elephant gift?', body: ['Order about two weeks before the party. Each shirt is printed after you order it, which takes about 2 to 5 business days, then arrives in about 3 to 8 business days in the US. US shipping is free on orders of $45 or more.', 'For the Christmas week exchange, order by early December. Delivery estimates show at checkout.'],
-        links: [{ href: '/christmas-hoodies/', text: 'Christmas hoodies' }] },
+        links: [{ href: '/hoodies/christmas-hoodies/', text: 'Christmas hoodies' }] },
       { h2: 'What if the person who steals it needs a different size?', body: ['Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and the first one does not have to be mailed back. That makes a wearable gift low-risk compared with a gag item.'] },
     ],
     faqs: [

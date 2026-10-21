@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: christmas
@@ -17,3 +17,4 @@ rewrite: white-elephant-gifts
 - Length is under the 1,000 word target (roughly 800) because only repo-confirmed facts were used. Not done: docs/intake-log.md lock line (run restricted to guides.ts and this file). `npx astro build` passes (105 pages).
 ## Log
 - 2026-10-21 UTC writer: rewrite drafted, build passes.
+- 2026-10-21 09:40 UTC director: APPROVED: older white-elephant entry removed from src/data/guides.ts, draft line removed, answer-first opening with real prices, four live A-grade picks (all four product links 200), one primary (white elephant gifts 33,100/44). Fixed one link: /christmas-hoodies/ 404s, hoodie collections live at /hoodies/christmas-hoodies/ (R14.1). astro build passes (105 pages).
