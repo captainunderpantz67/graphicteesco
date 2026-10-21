@@ -7,4 +7,4 @@ git add -A docs src public scripts; git commit -qm "[E] review $1 $2"
 if ! git pull -q --rebase origin main 2>/dev/null; then
   for x in $(git diff --name-only --diff-filter=U); do sed -i '/^<<<<<<< /d;/^=======$/d;/^>>>>>>> /d' $x; git add $x; done; GIT_EDITOR=true git rebase --continue >/dev/null 2>&1
 fi
-git push -q origin HEAD:main 2>&1 | tail -1; git status -sb | head -1
+for t in 1 2 3; do git push -q origin HEAD:main 2>/dev/null && break; git pull -q --rebase origin main 2>/dev/null || { for x in $(git diff --name-only --diff-filter=U); do sed -i '/^<<<<<<< /d;/^=======$/d;/^>>>>>>> /d' $x; git add $x; done; GIT_EDITOR=true git rebase --continue >/dev/null 2>&1; }; done; git status -sb | head -1
