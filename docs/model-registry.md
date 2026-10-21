@@ -848,3 +848,18 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1053 | white man, mid 40s, dark beard with grey streaks, beanie, broad build | CLAIMED 2026-10-21 — #900 camo cover (brief) |
 | 1054 | Native American woman, early 30s, long straight black hair in a braid, medium build | CLAIMED 2026-10-21 — #901 camo cover (brief) |
 | 1055 | Black man, early 30s, short locs, trimmed beard, lean build | CLAIMED 2026-10-21 — #902 camo cover (brief) |
+| 1056 | Filipina woman, late 20s, shoulder-length wavy black hair, petite build | CLAIMED 2026-10-21 — #904 zip cover (brief) |
+| 1057 | white woman, early 30s, strawberry-blonde low bun, freckles, slim build | CLAIMED 2026-10-21 — #905 zip cover (brief) |
+| 1058 | Black man, late 40s, close-cropped grey hair, stocky build | CLAIMED 2026-10-21 — #906 zip cover (brief) |
+| 1059 | Korean woman, mid 40s, chin-length bob, medium build | CLAIMED 2026-10-21 — #906 zip cover (brief) |
+| 1060 | white man, early 60s, white hair, tan, tall lean build | CLAIMED 2026-10-21 — #907 zip cover (brief) |
+| 1061 | Mexican-American woman, late 50s, silver-streaked shoulder hair, medium build | CLAIMED 2026-10-21 — #907 zip cover (brief) |
+| 1062 | South Asian man, early 30s, short black hair, trimmed beard, medium build | CLAIMED 2026-10-21 — #908 zip cover (brief) |
+| 1063 | white woman, early 30s, curly auburn hair tied back, medium build | CLAIMED 2026-10-21 — #908 zip cover (brief) |
+| 1064 | Black woman, late 30s, short natural curls, round glasses, curvy build | CLAIMED 2026-10-21 — #909 zip cover (brief) |
+| 1065 | Vietnamese woman, mid 20s, long straight black hair in a low ponytail, slim build | CLAIMED 2026-10-21 — #910 zip cover (brief) |
+| 1066 | white woman, mid 40s, blonde shoulder-length hair tucked behind the ears, medium build | CLAIMED 2026-10-21 — #911 zip cover (brief) |
+| 1067 | Middle Eastern woman, early 30s, long dark wavy hair tied back, medium build | CLAIMED 2026-10-21 — #912 zip cover (brief) |
+| 1068 | Indigenous Canadian man, late 30s, shoulder-length black hair tied back, broad build | CLAIMED 2026-10-21 — #913 zip cover (brief) |
+| 1069 | Brazilian woman, late 20s, dark curly hair in a high bun, athletic build | CLAIMED 2026-10-21 — #914 zip cover (brief) |
+| 1070 | white woman, early 20s, platinum pixie cut, slim build | CLAIMED 2026-10-21 — #915 zip cover (brief) |
