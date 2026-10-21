@@ -12070,6 +12070,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-pickleball-my-partner-says-it-was-out-embroidered-zip-hoodie": {
+   "claimed": [
+    "pickleball zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pickleball zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
