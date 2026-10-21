@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: new
 id: 590
@@ -27,3 +27,4 @@ kd: 36
 ---
 ## Log
 - 2026-10-18 05:32 UTC director: brief written, READY (lane B capybara (catalog wave 1, R11.10); KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month; proof seller named under the gate).
+- 2026-10-21 06:36 UTC [B]: built NEW as DRAFT (product 15371577458992, Bella+Canvas 6400 #360, White/Natural/Heather Stone/Athletic Heather/Pink/Heather Mauve x S-3XL = 36/36 synced on file 1090949236 (b-verify.py: default 1090949236 on 36, back logo 1080398177 on 36), sync 483601193). Art: 1 Recraft v4 call ($0.04, logged), picture only, try 1 kept: calm capybara, eyes half closed, three yellow ducklings, a songbird, a tortoise and a sleepy tabby kitten on its back and head (anatomy ok, animals sit on it); prep-seal threshold 200. Lettering (designs/tee1.py): I'M THE (Alfa Slab One, dark brown, cream keyline) above, CALM FRIEND. (Alfa Slab One, rust-orange, cream keyline, larger) below; one dark-ink file for the six light colors (no cream fills, R5.3.8). 7h: headline I'M THE 1186 px / punch CALM FRIEND. 2097 px (177%); punch is the loudest line. 7k type 435 of 2133 px = 20%; 7l subject 1700 of 2097 px = 81%. FW 1500 TOP 75 per the brief (print 2097 x 2133, aspect 1.02, 1530 px tall + 75 inside the 1500 x 1800 area). Phone-size read of all six mockups OK (the rust CALM FRIEND. is lighter on Heather Stone and Heather Mauve but reads). Keyword capybara shirt 2900/KD 36 in map under products (capybara gifts is #587's, not used). Price 24.99 no compare-at, category tees, tags per brief, SEO title 53/meta 147, FAQ 5 x 44-55 words plus the standard fit line (order-by Dec 8). Flat cover, front first, neck-logo back last. Audit PASS (1 warn: no lifestyle cover). Sheet docs/review/590.jpg. fal $0.04.

@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-21 05:43 UTC
+# Cohesion audit — 2026-10-21 06:25 UTC
 
-685 live products checked · **0 errors** · 113 warnings · 106 products with findings
+688 live products checked · **0 errors** · 115 warnings · 108 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -111,6 +111,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Men's Fishing – Fishing Is My Love Language Socks `mens-fishing-love-language-socks`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 
+### Unisex Dachshund – Short Legs, Long Opinions Socks `unisex-dachshund-short-legs-long-opinions-socks`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
 ### Unisex Nurse – Calm Face, Loud Brain Socks `unisex-nurse-calm-face-loud-brain-socks`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 
@@ -138,6 +141,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 
 ### Hockey – Cold Rink, Hot Takes Ornament `hockey-cold-rink-hot-takes-ornament`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
+### Fishing – You Catching 'Em? No. Keep Walking Ornament `fishing-you-catching-em-no-keep-walking-ornament`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 
 ### Dachshund – Short Legs, Long Opinions Ornament `dachshund-short-legs-long-opinions-ornament`
@@ -189,6 +195,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 
 ### Strawberry – Please Don't Pick Me Mug `strawberry-please-dont-pick-me-mug`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
+### Christmas Tree – It Looked Smaller at the Farm Mug `christmas-tree-it-looked-smaller-at-the-farm-mug`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 
 ### Women's Outdoorsy – Outdoorsy in Theory Cropped Hoodie `womens-outdoorsy-in-theory-cropped-hoodie`
@@ -282,9 +291,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Women's Mom – Motherhood Didn't Change Me. It Exposed Me. Hoodie `womens-mom-motherhood-exposed-me-hoodie`
-- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
-
-### Women's Baseball Mom – His Batting Average Is My Personality Zip Hoodie `womens-baseball-mom-his-batting-average-is-my-personality-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Unisex Poker – I Fold. It's Self-Care. Hoodie `unisex-poker-i-fold-its-self-care-hoodie`

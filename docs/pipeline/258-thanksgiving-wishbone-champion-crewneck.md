@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
 id: 258
@@ -32,3 +32,4 @@ handle: mens-thanksgiving-wishbone-champion-crewneck-sweatshirt
 - 2026-10-20 12:45 UTC director: REDO from docs/review/258.jpg. Same as #257 (trophy at 36% of the lockup width, card 7l): port #257's fixed print. Also the sheet's COVER and first MOCKUP panels show the tee; a crewneck sheet shows crewneck shots.
 - 2026-10-20 15:23 UTC builder [A]: REDO 3 done (director 2026-10-20 12:45, card 7l: trophy at 36% of the lockup width; make the wishbone read as a wishbone). Lines kept as approved (I ALWAYS GET / THE BIGGER HALF., Bevan, maroon + dark brown). Stray specks cleaned off the art (they had widened its box), then the trophy is scaled up: "subject 1489 of 3170 px" = 47% of the lockup width (was 1178 of 3237 px = 36%). The wishbone is the clear forked Y-bone with a knob at the foot and two knuckled tips; at the new size it reads as a wishbone on every mockup. Layout (scripts/_a_lockup2.py): "headline 3168 px / punch 3170 px" (punch at least as wide), "type 994 of 3529 px". Lockup 3170x3529 (taller than the ~3200 px guide because the trophy is a tall subject: at 47% of the width it needs 2355 px of height; at FW 1500 that is about 11.1 in on the 16 in print area). One dark-ink file for every light color and both twins: 1090401480 (tee FW 1500 TOP 75, crewneck FW 1650 TOP 75). Relinked verified below (tee sync 482345896, crewneck sync 482346982). 10 fronts replaced in place (6 tee, 4 crewneck); the #258 review sheet shows crewneck fronts. Copy unchanged (art sentence already names the trophy and wishbone). Plain product shots kept. fal $0. audit PASS; build ok.
 - 2026-10-20 15:58 UTC director: APPROVED, held for the LIVE cap (6 used this run). Same lockup as #257 on Gildan 18000 light colors; reads at phone size. Director fixed the FAQ's stale 'Wishbone Champion tee' name.
+- 2026-10-21 06:40 UTC director: LIVE (approved 2026-10-20 15:58 and held; Thanksgiving is close, so it goes ahead of the niche hoodies). Re-read beside 493 Calm Face: unchanged. Already ACTIVE on Online Store, Headless, Google & YouTube; audit --handle PASS (0 warn).

@@ -30,7 +30,26 @@ const themed = products.length >= 10
      { name: 'Everyday humor', items: products.filter((p) => !THEMES.some(([, rx]) => rx.test(nicheOf(p.title)))) }]
     .filter((g) => g.items.length > 0)
   : null;
-const rows = themed && themed.length > 1 ? themed : null;
+// When one theme holds most of the page (e.g. every product on /christmas-shirts/ is "Holidays"), group by product type instead.
+const TYPES: [string, RegExp][] = [
+  ['Tees', /(tee|t-shirt|shirt)$/i],
+  ['Sweatshirts', /(crewneck sweatshirt|sweatshirt|sweater)$/i],
+  ['Hoodies & zips', /(hoodie|half-zip|half zip pullover|pullover)$/i],
+  ['Gifts & add-ons', /(ornament|mug|socks|sweatpants|bandana)$/i],
+  ['Kids & family', /(bodysuit|youth long sleeve tee|youth tee)$/i],
+];
+const typeOf = (t: string) => TYPES.find(([, rx]) => rx.test(t.trim()))?.[0] ?? 'More';
+const byType = products.length >= 10
+  ? [...TYPES.map(([name]) => name), 'More'].map((name) => ({ name, items: products.filter((p) => typeOf(p.title) === name) })).filter((g) => g.items.length > 0)
+  : null;
+const themeTooBroad = !!themed && themed.length > 0 && Math.max(...themed.map((g) => g.items.length)) / products.length > 0.7;
+const audOf = (t: string) => /^women's/i.test(t) ? "For her" : /^men's/i.test(t) ? 'For him' : /^(baby|kids|youth)/i.test(t) ? 'Kids & family' : 'For everyone';
+const byAudience = products.length >= 10
+  ? ['For her', 'For him', 'For everyone', 'Kids & family'].map((name) => ({ name, items: products.filter((p) => audOf(p.title) === name) })).filter((g) => g.items.length > 0)
+  : null;
+const rows = themed && themed.length > 1 && !themeTooBroad ? themed
+  : byType && byType.length > 1 ? byType
+  : byAudience && byAudience.length > 1 ? byAudience : null;
 const twinC = c.twin ? bySlug(c.twin) : undefined;
 const twin = twinC && live.has(twinC.slug) ? twinC : undefined;
 const faqs = resolveFaqs(c.faqs);

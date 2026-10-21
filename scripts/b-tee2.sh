@@ -8,13 +8,15 @@ read DW DH < <(python3 -c "from PIL import Image;print(*Image.open('$D').size)")
 UD=$(python3 scripts/fal-host.py "$D" "k${ID}d.png"); UL=$(python3 scripts/fal-host.py "$L" "k${ID}l.png")
 FD=$(python3 scripts/pf-sync.py upload "$UD" "k${ID}d.png" | tail -1); FL=$(python3 scripts/pf-sync.py upload "$UL" "k${ID}l.png" | tail -1); echo $FD > $S/fid${ID}d; echo $FL > $S/fid${ID}l
 sleep 8; PID=$(python3 scripts/pf-find.py $SID | head -1 | cut -d' ' -f1); echo $PID > $S/pid$ID
-cat > $S/sync$ID.sh <<SYNC
-#!/bin/bash
-cd /home/user/graphicteesco; export PATH=/usr/bin:\$PATH
-exec 9>/tmp/pfsync.lock; flock 9
-IFS=,; for c in $DC; do FORCE=1 ONLY="/ \$c /" FW=$FW TOP=$TOP python3 scripts/pf-sync.py setfile $PID $FD 1080398177; done
-for c in $LC; do FORCE=1 ONLY="/ \$c /" FW=$FW TOP=$TOP python3 scripts/pf-sync.py setfile $PID $FL 1080398177; done
-SYNC
+python3 - "$S/sync$ID.sh" "$PID" "$FD" "$FL" "$FW" "$TOP" "$DC" "$LC" <<'PY'
+import sys
+out, pid, fd, fl, fw, top, dc, lc = sys.argv[1:9]
+L = ['#!/bin/bash', 'cd /home/user/graphicteesco; export PATH=/usr/bin:$PATH']
+for cols, fid in ((dc, fd), (lc, fl)):
+    for c in cols.split(','):
+        L.append(f'FORCE=1 ONLY="/ {c} /" FW={fw} TOP={top} python3 scripts/pf-sync.py setfile {pid} {fid} 1080398177')
+open(out, 'w').write('\n'.join(L) + '\n')
+PY
 chmod +x $S/sync$ID.sh
 BU=$(curl -s -H "Authorization: Bearer $PRINTFUL_TOKEN" https://api.printful.com/files/1080398177 | python3 -c "import json,sys;print(json.load(sys.stdin)['result']['preview_url'])")
 FW=$FW TOP=$TOP python3 scripts/pf-mockup.py $CAT "$UD" $DW $DH "$BU" $DV $S/mk${ID}d.json > /dev/null &

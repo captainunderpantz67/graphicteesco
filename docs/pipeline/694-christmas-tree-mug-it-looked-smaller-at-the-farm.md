@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: addon
 id: 694
@@ -31,3 +31,4 @@ kd: 39
 - 2026-10-19 11:20 UTC director: APPROVED on docs/review/694.jpg (dark red slab words on the white mug, both copies read, art pulled from A #540). Copy fixed in Shopify and designs/m694/copy.json (R8.3): it said a 'knocked-over pot', 'one sad ornament' and 'striped socks'; the art shows a tipped-over red tree stand, a few crooked ornaments and a top bent against a ceiling beam (as the source tee's copy says). Title, tags, $17.99 with no compare-at, SEO lengths checked. Stays DRAFT at status REVIEW until RESUME.
 - 2026-10-20 18:45 UTC director: REDO (still DRAFT). R3.7.8: AT THE FARM (the punch) is about 65% of IT LOOKED SMALLER's width on every mug view. Set AT THE FARM at least as wide as the headline (it may grow taller), on both copies of the wrap. New mockups + sheet.
 - 2026-10-21 05:43 UTC [B]: REDO done (3.7.8): AT THE FARM now set at 1014 px, headline IT LOOKED SMALLER 1006 px (punch 101% of the headline), both copies of the wrap, art shrunk to 640 px tall to make room (lockup 855 of 1050 px). New wrap file 1090935994 relinked on the single variant (R7.7, synced True, sync 482984588), mockups handle-right/left/front checked: both copies read upright. Shopify media replaced in place (new handle-right mockup attached to the variant, old one deleted), cover webp replaced, designs/m694/spec.json updated, sheet docs/review/694.jpg. Source art from live file 1088710447 (motif crop). fal $0.
+- 2026-10-21 06:40 UTC director: APPROVED on docs/review/694.jpg and LIVE (6-LIVE cap, add-ons first per the inbox order). Redo note met: the punch is now at least as wide as the setup (R3.7.8), dark ink on the cream/white ground, upright on every mockup view; title, tags, flat price with no compare-at and FAQ read in Shopify. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS (1 warn: flat cover, expected).
