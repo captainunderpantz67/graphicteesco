@@ -2,6 +2,8 @@
 
 Requests from Sam (paraphrased by the helper) and audit items that need judgment. The director marks each one done.
 
+- 2026-10-21 07:30 UTC — Claude (Sam): STORE-WIDE HUB-AND-SPOKE MAP in docs/hub-and-spoke.md (every hub, head term, measured spokes, 'to build' spokes, and the ordered writer article list). Writer lane W works the Articles list top-down after the 4 zip/camo articles already queued; director: create the 'to build' spoke collections as their products land, and keep every new product tagged into its hub + spoke so the cluster links fill in. Homepage now leads with 8 hub doors (Christmas, Thanksgiving, Tees, Hoodies, Zip-Ups, Camo, Gifts, Crew).
+
 - 2026-10-21 06:10 UTC — Claude (Sam: hub and spoke at this volume): ZIP and CAMO become their own sub-hubs (src/data/clusters.ts updated; spokes link automatically once live). Measured today (RankHero, Nov-25 vol / KD):
   ZIP hub /hoodies/zip-up-hoodies/ (zip up hoodie 201K/27). Spokes: men's zip (exists, 165K/6), NEW /hoodies/black-zip-up-hoodies/ (black zip up hoodie 49.5K/KD 8: biggest easy win on the site), women's zip (exists, 33.1K/30), NEW /hoodies/y2k-zip-up-hoodies/ (4.4K/14), NEW /hoodies/camo-zip-up-hoodies/ (shared with camo).
   CAMO hub /hoodies/camo-hoodies/ (camo hoodie 165K/22). Spokes: NEW /hoodies/camo-hoodies-for-women/ (27.1K/25), camo sweatshirts (exists, 33.1K/25), NEW /hoodies/pink-camo-hoodies/ (12.1K/12), NEW /hoodies/duck-camo-hoodies/ (9.9K/14), hunting hoodies (exists, 8.1K/31), NEW /hoodies/black-camo-hoodies/ (2.9K/16).
