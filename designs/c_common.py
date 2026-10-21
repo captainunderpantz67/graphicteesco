@@ -17,12 +17,12 @@ def load_art(path, edge=True, bottom_fade=False):
 def halo(a, px):
     al = np.array(a.getchannel('A')); k = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * px + 1, 2 * px + 1)); d = cv2.dilate(al, k)
     h = Image.new('RGBA', a.size, CREAM); h.putalpha(Image.fromarray(d)); h.alpha_composite(a); return h
-def build(n, art_path, head, punch, font, sand, AW=1800, W=3400, hfrac=0.9, pfrac=1.0, pfont=None, psame=False, hsame=False, npunch=MU, kw=3):
+def build(n, art_path, head, punch, font, sand, AW=1800, W=3400, hfrac=0.9, pfrac=1.0, pfont=None, psame=False, hsame=False, npunch=MU, kw=3, g=40):
     """head/punch: list of text lines. sand=(headline ink, punch ink). Writes docs/print-files/<n>-{navy,sand}.png and prints the 7h/7k/7l numbers."""
     art = load_art(art_path); art = art.resize((AW, round(art.height * AW / art.width)), Image.LANCZOS)
     for mode, (hc, pc, aa, bg) in {'navy': (CR, npunch, halo(art, 16), (31, 42, 77, 255)), 'sand': (sand[0], sand[1], art, (226, 214, 188, 255))}.items():
         hs = line_same(head, font, hfrac, W, hc, hc, kw=kw) if hsame else [line(t, font, hfrac, W, hc, hc, kw=kw) for t in head]; ps = line_same(punch, pfont or font, pfrac, W, pc, pc, kw=kw) if psame else [line(t, pfont or font, pfrac, W, pc, pc, kw=kw) for t in punch]
-        out = lockup(aa, W, hs, ps, f'{n}-{mode}', {mode: bg}, g=40); out = out.crop(out.getchannel('A').point(lambda v: 255 if v > 10 else 0).getbbox())
+        out = lockup(aa, W, hs, ps, f'{n}-{mode}', {mode: bg}, g=g); out = out.crop(out.getchannel('A').point(lambda v: 255 if v > 10 else 0).getbbox())
         out.save(f'docs/print-files/{n}-{mode}.png', dpi=(300, 300)); th = sum(l.height for l in hs + ps)
         print(mode, out.size, 'headline', max(l.width for l in hs), 'punch', max(l.width for l in ps), 'type', th, 'of', out.height, round(th / out.height, 2), 'subject', art.width, 'of', out.width, round(art.width / out.width, 2))
 

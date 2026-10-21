@@ -10941,6 +10941,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "unisex-rabbit-chewed-the-charger-feel-great-hoodie": {
+   "claimed": [
+    "rabbit hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "rabbit hoodie",
+     "volume": 720,
+     "kd": 35
+    }
+   ],
+   "measured": "2026-10-21"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
