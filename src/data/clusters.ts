@@ -53,6 +53,26 @@ export const clusters: Cluster[] = [
     spokes: ['fishing-t-shirts', 'fishing-hoodies', 'western-hoodies',
       'western-graphic-tees', 'national-park-hoodies'],
   },
+  {
+    id: 'thanksgiving', name: 'Thanksgiving shirts',
+    hub: { label: 'All Thanksgiving shirts', path: '/thanksgiving-shirts/', slug: 'thanksgiving-shirts' },
+    spokes: ['funny-thanksgiving-shirts', 'thanksgiving-sweatshirts'],
+  },
+  {
+    id: 'tees', name: 'graphic tees',
+    hub: { label: 'All graphic tees', path: '/funny-graphic-tees/', slug: 'funny-graphic-tees' },
+    spokes: ['graphic-tees-for-men', 'football-shirts', 'graphic-tees-for-women', 'oversized-graphic-tees', 'vintage-graphic-tees', 'retro-graphic-tees', 'anime-shirts', 'christian-shirts', 'nurse-shirts', 'welder-shirts', 'hockey-shirts', 'pickleball-shirts', 'y2k-graphic-tees', 'drummer-shirts', 'country-graphic-tees', 'graphic-tees-for-women-over-40'],
+  },
+  {
+    id: 'sweatshirts', name: 'sweatshirts',
+    hub: { label: 'All graphic sweatshirts', path: '/graphic-sweatshirts/', slug: 'graphic-sweatshirts' },
+    spokes: ['oversized-sweatshirts', 'embroidered-sweatshirts', 'christian-sweatshirts', 'mama-sweatshirts', 'nurse-sweatshirts', 'grandpa-sweatshirts', 'heavyweight-sweatshirts', 'bookish-sweatshirts'],
+  },
+  {
+    id: 'sports-moms', name: 'sports mom shirts',
+    hub: { label: 'All graphic tees', path: '/funny-graphic-tees/' },
+    spokes: ['football-mom-shirts', 'baseball-mom-shirts', 'soccer-mom-shirts'],
+  },
 ];
 
 // A page that is a hub (e.g. zip-up-hoodies) shows its own sub-cluster first; otherwise the cluster it is a spoke of.

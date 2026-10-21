@@ -69,10 +69,44 @@ const featured = featuredHoliday();
 const dropSeason = holidayTees.find((c) => c.seasonal !== featured)?.seasonal ?? featured;
 const drop = tees.find((c) => c.seasonal === dropSeason && !c.audience) ?? tees.find((c) => c.seasonal === dropSeason)!;
 const holidayCards = holidayTees.map((c) => ({ c, ph: coverFor(c) }));
+// MAJOR SPOKES (Sam 2026-10-21, CRO: "6-8 major spokes here instead of all these niches, niches in a carousel under").
+// Broad doors first (tees, hoodies, zips, camo, gifts…), then every niche in one swipe row. Titles keep the house tone.
+const usedMajor = new Set<string>();
+const photoIn = (handle: string, prefer?: RegExp) => {
+  const pool = allProducts.filter((x) => x.collections?.includes(handle) && !usedMajor.has(x.handle));
+  const pick = pool.find((x) => liveCover(x.handle) && (!prefer || prefer.test(x.handle)) && fresh.has(x.handle))
+    ?? pool.find((x) => liveCover(x.handle) && (!prefer || prefer.test(x.handle))) ?? pool.find((x) => liveCover(x.handle));
+  if (pick) { usedMajor.add(pick.handle); const cv = liveCover(pick.handle)!; return { src: cv.src, alt: cv.alt }; }
+  const any = pool[0]; if (!any) return null; usedMajor.add(any.handle);
+  return { src: img(any.images[0].url, 600), alt: any.images[0].altText || any.title };
+};
+const xmasDays = daysUntil('christmas');
+const tgDays = daysUntil('thanksgiving');
+const MAJOR = [
+  { slug: 'christmas-shirts', href: '/christmas-shirts/', title: 'Christmas', line: 'Festive. Mildly sarcastic.', badge: xmasDays > 0 ? `${xmasDays} days` : null, prefer: /christmas/ },
+  { slug: 'thanksgiving-shirts', href: '/thanksgiving-shirts/', title: 'Thanksgiving', line: 'Here for the pie. Leaving with leftovers.', badge: tgDays > 0 ? `${tgDays} days` : null, prefer: /thanksgiving/ },
+  { slug: 'funny-graphic-tees', href: '/funny-graphic-tees/', title: 'Graphic Tees', line: 'One good joke per shirt.', prefer: /graphic-tee$/ },
+  { slug: null, href: '/hoodies/', title: 'Hoodies', line: 'Same jokes. Warmer.', handle: 'graphic-hoodies-for-men', prefer: /hoodie$/ },
+  { slug: 'zip-up-hoodies', href: '/hoodies/zip-up-hoodies/', title: 'Zip-Ups', line: "The joke's on the back.", prefer: /zip-hoodie$/ },
+  { slug: 'camo-hoodies', href: '/hoodies/camo-hoodies/', title: 'Camo', line: 'Blend in. Stand out anyway.', prefer: /camo/ },
+  { slug: null, href: '/gifts/', title: 'Gifts & Sets', line: 'Stocking stuffers that get used.', gifts: true },
+  { slug: 'group-shirts', href: '/group-shirts/', title: 'Matching Crew', line: 'Whole crew, one joke. 15% off 10+.' },
+].filter((m) => !m.slug || live.has(m.slug)).filter((m) => m.href !== '/hoodies/' || showHoodies);
+const majorCards = MAJOR.map((m) => ({ ...m, ph: m.gifts ? null : photoIn(m.handle ?? bySlug(m.slug!)!.shopifyHandle, m.prefer) }));
+// Gifts card: a 3-up collage of real add-on product shots (ornament, socks, mug).
+const giftShots = [/ornament$/i, /socks$/i, /mug$/i].map((rx) => allProducts.find((x) => rx.test(x.title.trim()))).filter(Boolean).map((x) => ({ src: img(x!.images[0].url, 300), alt: x!.title }));
+// NICHES: every other live collection, holidays first, then by search volume.
+const majorSlugs = new Set(MAJOR.map((m) => m.slug).filter(Boolean));
+const niches = [...homepageOrder([...tees, ...hoodies].filter((c) => c.seasonal && live.has(c.slug) && !majorSlugs.has(c.slug))),
+  ...[...tees, ...hoodies].filter((c) => !c.seasonal && live.has(c.slug) && !majorSlugs.has(c.slug)).sort((a, b) => b.volume - a.volume)]
+  .map((c) => ({ c, ph: photoIn(c.shopifyHandle), n: productCount(c) })).filter((x) => x.ph);
 // One hero: holiday version while a holiday collection is still deliverable (homepageOrder handles lead time).
 const inSeason = holidayTees.length > 0;
-const heroPhoto = inSeason
-  ? { src: '/hero/holiday-tailgate-1040.webp', srcSmall: '/hero/holiday-tailgate-640.webp', alt: 'Three friends laughing on an old pickup tailgate on a frosty farm at dusk, pumpkins and a small Christmas tree in the truck bed, wearing Graphic Tees Co. vintage holiday crewnecks and tees' }
+// Hero (Sam 2026-10-21): evergreen and in the store's voice, no holiday art or green; holidays live in the Start-here cards.
+const heroHoliday = false;
+const heroCover = liveCover('mens-gym-sisyphus-had-bad-programming-graphic-tee');
+const heroPhoto = heroCover
+  ? { src: heroCover.src, srcSmall: heroCover.src.replace('/covers/', '/covers/sm/'), alt: heroCover.alt }
   : site.heroImage ?? undefined;
 const dropCover = dropSeason === 'halloween' ? null : coverFor(drop);
 const dropTwin = drop.twin ? bySlug(drop.twin) : undefined;
@@ -152,22 +186,23 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
 
   <!-- HERO — one cohesive hero (Sam, 2026-10-13). In holiday season: green background, cream text,
        holiday buttons where Men's/Women's were, and the holiday truck photo. Off-season: the evergreen version. -->
-  <section class={`relative overflow-hidden border-b-2 border-[var(--color-ink)] ${inSeason ? 'bg-[var(--color-moss)] text-[var(--color-cream)]' : ''}`}>
-    <div class={`absolute -left-24 -bottom-24 w-[420px] h-[420px] rounded-full halftone ${inSeason ? 'opacity-20' : 'opacity-70'}`} aria-hidden="true"></div>
+  <section class={`relative overflow-hidden border-b-2 border-[var(--color-ink)] ${heroHoliday ? 'bg-[var(--color-moss)] text-[var(--color-cream)]' : ''}`}>
+    <div class={`absolute -left-24 -bottom-24 w-[420px] h-[420px] rounded-full halftone ${heroHoliday ? 'opacity-20' : 'opacity-70'}`} aria-hidden="true"></div>
     <div class="container-x relative py-12 md:py-20 grid lg:grid-cols-[1.15fr_1fr] gap-10 lg:gap-6 items-center">
       <div>
-        <p class={`eyebrow rise ${inSeason ? '!text-[var(--color-mustard)]' : ''}`} style="animation-delay:.05s">{inSeason ? `The holiday shop is open · ${daysUntil('christmas')} days to Christmas` : 'Original art · Printed to order · New drop every month'}</p>
+        <p class={`eyebrow rise ${heroHoliday ? '!text-[var(--color-mustard)]' : ''}`} style="animation-delay:.05s">{heroHoliday ? `The holiday shop is open · ${daysUntil('christmas')} days to Christmas` : 'Original art · One dry line per shirt · Printed to order'}</p>
         <h1 class="mt-4 rise" style="animation-delay:.15s">
-          <span class={`display block text-[clamp(4.2rem,13vw,10.5rem)] ${inSeason ? 'misprint-light' : 'misprint'}`}>Graphic Tees</span>{" "}
-          <span class={`script block text-[clamp(2.4rem,6vw,4.4rem)] -mt-2 md:-mt-4 ml-1 -rotate-3 origin-left ${inSeason ? 'text-[var(--color-mustard)]' : 'text-[var(--color-rust)]'}`}>{inSeason ? 'for the holidays.' : 'for what you do.'}</span>
+          <span class={`display block text-[clamp(4.2rem,13vw,10.5rem)] ${heroHoliday ? 'misprint-light' : 'misprint'}`}>Graphic Tees</span>{" "}
+          <span class={`script block text-[clamp(2.4rem,6vw,4.4rem)] -mt-2 md:-mt-4 ml-1 -rotate-3 origin-left ${heroHoliday ? 'text-[var(--color-mustard)]' : 'text-[var(--color-rust)]'}`}>{heroHoliday ? 'with one good joke.' : 'with one good joke.'}</span>
         </h1>
         <!-- Phones: hero picture sits right under the headline, before the intro copy -->
         <div class="lg:hidden mt-6 -mx-2"><HeroArt image={heroPhoto} /></div>
-        <p class={`mt-6 text-lg max-w-xl rise ${inSeason ? 'opacity-90' : 'text-[var(--color-ink-2)]'}`} style="animation-delay:.3s">{inSeason ? 'Vintage Christmas and Thanksgiving tees and crewneck sweatshirts — original art that looks like a print you’ve loved for years, printed when you order it.' : site.entity}</p>
-        {inSeason ? (<>
+        <p class={`mt-6 text-lg max-w-xl rise ${heroHoliday ? 'opacity-90' : 'text-[var(--color-ink-2)]'}`} style="animation-delay:.3s">{heroHoliday ? 'Original designs with one dry line each: the dad asleep by 3, the cat who ruined the tree, the golfer still looking for his ball. Tees, hoodies and zip-ups for the people who are hard to shop for, printed when you order.' : 'Original designs with one dry line each: the dad asleep by 3, the cat who ruined the tree, the golfer still looking for his ball. Tees, hoodies and zip-ups for the people who are hard to shop for, printed when you order.'}</p>
+        {heroHoliday ? (<>
           {/* Hero buttons (Sam 2026-10-20: "way too many buttons"): the two nearest holidays + one drawer for everything else. */}
           <div class="mt-8 flex flex-wrap items-start gap-3 rise" style="animation-delay:.42s">
-            {heroPrimary.map((c, i) => <a href={pathFor(c)} class={i === 0 ? 'btn' : 'btn btn-ghost !text-[var(--color-cream)] !border-[var(--color-cream)]'}>{c.h1}</a>)}
+            {heroPrimary.slice(0, 1).map((c) => <a href={pathFor(c)} class="btn">Shop {c.h1}</a>)}
+            <a href="/gifts/" class="btn btn-ghost !text-[var(--color-cream)] !border-[var(--color-cream)]">Gifts &amp; sets</a>
           </div>
           <details class="hero-drawer group mt-3 rise" style="animation-delay:.5s">
             <summary class="inline-flex items-center gap-2 list-none cursor-pointer select-none text-sm font-bold uppercase tracking-[.12em] text-[var(--color-cream)] underline underline-offset-4 decoration-[var(--color-mustard)] hover:text-[var(--color-mustard)] [&::-webkit-details-marker]:hidden">
@@ -183,42 +218,66 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
           </details>
         </>) : (
           <div class="mt-8 flex flex-wrap gap-3 rise" style="animation-delay:.42s">
-            <a href="/graphic-tees-for-men/" class="btn">Men's graphic tees</a>
-            <a href="/graphic-tees-for-women/" class="btn">Women's graphic tees</a>
-            {showHoodies && <a href="/hoodies/" class="btn btn-rust">Graphic hoodies</a>}
+            <a href="/funny-graphic-tees/" class="btn">Shop graphic tees</a>
+            {showHoodies && <a href="/hoodies/" class="btn btn-rust">Hoodies</a>}
+            <a href="/gifts/" class="btn btn-ghost">Gifts &amp; sets</a>
           </div>
         )}
-        <ul class={`mt-8 flex flex-wrap gap-x-6 gap-y-2 text-xs font-bold uppercase tracking-[.14em] rise ${inSeason ? 'opacity-90' : 'text-[var(--color-ink-2)]'}`} style="animation-delay:.55s">
-          <li class="flex items-center gap-2"><Icon name="star" class={`w-4 h-4 ${inSeason ? 'text-[var(--color-mustard)]' : 'text-[var(--color-rust)]'}`} />Original designs</li>
-          <li class="flex items-center gap-2"><Icon name="tee" class={`w-4 h-4 ${inSeason ? 'text-[var(--color-mustard)]' : 'text-[var(--color-rust)]'}`} />{inSeason ? 'Tees + crewnecks' : showHoodies ? 'Tees + hoodies' : 'Printed to order'}</li>
-          <li class="flex items-center gap-2"><Icon name="sun" class={`w-4 h-4 ${inSeason ? 'text-[var(--color-mustard)]' : 'text-[var(--color-rust)]'}`} />{inSeason ? 'Order 2 weeks ahead' : 'New drop monthly'}</li>
+        <ul class={`mt-8 flex flex-wrap gap-x-6 gap-y-2 text-xs font-bold uppercase tracking-[.14em] rise ${heroHoliday ? 'opacity-90' : 'text-[var(--color-ink-2)]'}`} style="animation-delay:.55s">
+          <li class="flex items-center gap-2"><Icon name="star" class={`w-4 h-4 ${heroHoliday ? 'text-[var(--color-mustard)]' : 'text-[var(--color-rust)]'}`} />Original designs</li>
+          <li class="flex items-center gap-2"><Icon name="tee" class={`w-4 h-4 ${heroHoliday ? 'text-[var(--color-mustard)]' : 'text-[var(--color-rust)]'}`} />{heroHoliday ? 'Free US shipping $45+' : 'Free US shipping $45+'}</li>
+          <li class="flex items-center gap-2"><Icon name="sun" class={`w-4 h-4 ${heroHoliday ? 'text-[var(--color-mustard)]' : 'text-[var(--color-rust)]'}`} />{'Buy 2+, save up to 25% from Nov 8'}</li>
         </ul>
       </div>
       <div class="hidden lg:block"><HeroArt image={heroPhoto} /></div>
     </div>
   </section>
 
-  <!-- HOLIDAY SHELF: holiday collections are the season's search volume, so they sit right under the hero -->
-  {holidayTees.length > 0 && <section class="container-x mt-14" aria-labelledby="holidays-h">
+  <!-- MAJOR SPOKES: 8 broad doors (CRO), then every niche in one swipe row -->
+  <section class="container-x mt-14" aria-labelledby="shop-h">
     <div class="flex items-end justify-between gap-4">
-      <h2 id="holidays-h" class="display text-5xl md:text-6xl">Holiday shirts</h2>
+      <h2 id="shop-h" class="display text-5xl md:text-6xl">Start <span class="text-[var(--color-rust)]">here</span></h2>
       <p class="hidden md:block text-sm font-bold uppercase tracking-[.12em] text-[var(--color-rust)]">Printed to order · order 2 weeks ahead</p>
     </div>
     <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
-      {holidayCards.map(({ c, ph }) => {
-        const d = daysUntil(c.seasonal!);
-        return (
-          <a href={pathFor(c)} class="group relative overflow-hidden rounded-[18px] border-2 border-[var(--color-ink)] aspect-[4/5] flex shadow-[4px_4px_0_var(--color-ink)] hover:-translate-y-1 hover:shadow-[6px_8px_0_var(--color-ink)] transition-all bg-[var(--color-rust)]">
-            {ph && <img src={ph.src} srcset={ph.src.startsWith('/covers/') ? `${ph.src.replace('/covers/', '/covers/sm/')} 400w, ${ph.src} 600w` : undefined} sizes="(min-width: 768px) 25vw, 50vw" alt={ph.alt} loading="lazy" width="600" height="750" class="absolute inset-0 w-full h-full object-cover object-[50%_20%] group-hover:scale-[1.04] transition-transform duration-500" />}
-            <span class="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-black/85 via-black/45 to-transparent" aria-hidden="true"></span>
-            <span class="absolute top-3 left-3 rounded-full bg-[var(--color-mustard)] text-[var(--color-ink)] text-[11px] font-bold uppercase tracking-[.1em] px-3 py-1 border-2 border-[var(--color-ink)]">{d === 0 ? 'Today' : `${d} days`}</span>
-            <span class="absolute inset-x-4 bottom-4 text-[var(--color-cream)]">
-              <span class="display block text-[clamp(1.6rem,3.2vw,2.4rem)] leading-[.88]">{c.h1}</span>
-              <span class="mt-2 block text-xs font-bold uppercase tracking-[.14em] text-[var(--color-mustard)]">{productCount(c)} designs · Shop →</span>
+      {majorCards.map((m) => (
+        <a href={m.href} class="group relative overflow-hidden rounded-[18px] border-2 border-[var(--color-ink)] aspect-[4/5] flex shadow-[4px_4px_0_var(--color-ink)] hover:-translate-y-1 hover:shadow-[6px_8px_0_var(--color-ink)] transition-all bg-[var(--color-navy)]">
+          {m.gifts ? (
+            <span class="absolute inset-0 grid grid-cols-2 grid-rows-2 gap-1 bg-white p-1" aria-hidden="true">
+              {giftShots.map((g, i) => <img src={g.src} alt="" loading="lazy" width="300" height="300" class={`w-full h-full object-contain bg-white ${i === 0 ? 'row-span-2' : ''}`} />)}
+            </span>
+          ) : m.ph && <img src={m.ph.src} srcset={m.ph.src.startsWith('/covers/') ? `${m.ph.src.replace('/covers/', '/covers/sm/')} 400w, ${m.ph.src} 600w` : undefined} sizes="(min-width: 768px) 25vw, 50vw" alt={m.ph.alt} loading="lazy" width="600" height="750" class="absolute inset-0 w-full h-full object-cover object-[50%_20%] group-hover:scale-[1.04] transition-transform duration-500" />}
+          <span class="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-black/85 via-black/45 to-transparent" aria-hidden="true"></span>
+          {m.badge && <span class="absolute top-3 left-3 rounded-full bg-[var(--color-mustard)] text-[var(--color-ink)] text-[11px] font-bold uppercase tracking-[.1em] px-3 py-1 border-2 border-[var(--color-ink)]">{m.badge}</span>}
+          <span class="absolute inset-x-4 bottom-4 text-[var(--color-cream)]">
+            <span class="display block text-[clamp(1.8rem,3.4vw,2.6rem)] leading-[.88]">{m.title}</span>
+            <span class="mt-1.5 block text-[13px] leading-snug opacity-90">{m.line}</span>
+            <span class="mt-2 block text-xs font-bold uppercase tracking-[.14em] text-[var(--color-mustard)]">Shop →</span>
+          </span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  {niches.length > 0 && <section class="mt-14" aria-labelledby="niches-h">
+    <div class="container-x flex items-end justify-between gap-4">
+      <h2 id="niches-h" class="display text-4xl md:text-5xl">Find your <span class="text-[var(--color-rust)]">people</span></h2>
+      <p class="text-xs font-bold uppercase tracking-[.12em] text-[var(--color-ink-2)]">{niches.length} niches · swipe →</p>
+    </div>
+    <div class="container-x">
+      <div class="mt-5 -mx-4 px-4 scroll-px-4 flex gap-3 overflow-x-auto snap-x snap-mandatory pb-3 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        {niches.map(({ c, ph, n }) => (
+          <a href={pathFor(c)} class="group snap-start shrink-0 w-[38%] sm:w-[26%] md:w-[17%] rounded-[14px] overflow-hidden border-2 border-[var(--color-ink)] bg-[var(--color-cream)] shadow-[3px_3px_0_var(--color-ink)]">
+            <span class="block aspect-square bg-white overflow-hidden">
+              {ph && <img src={ph.src} alt={ph.alt} loading="lazy" width="300" height="300" class="w-full h-full object-cover object-[50%_25%] group-hover:scale-[1.04] transition-transform" />}
+            </span>
+            <span class="block px-2.5 py-2">
+              <span class="block font-extrabold text-[13px] leading-tight">{c.h1}</span>
+              <span class="block mt-0.5 text-[11px] text-[var(--color-rust)] font-bold uppercase tracking-[.08em]">{n} designs</span>
             </span>
           </a>
-        );
-      })}
+        ))}
+      </div>
     </div>
   </section>}
 
