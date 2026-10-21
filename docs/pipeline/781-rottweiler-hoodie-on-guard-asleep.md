@@ -1,4 +1,5 @@
-status: READY
+status: REVIEW
+shopify: gid://shopify/Product/15371514741040
 lane: C
 type: new
 id: 781
@@ -24,3 +25,4 @@ kd: 32
 ---
 ## Log
 - 2026-10-21 00:55 UTC director: brief written, READY (lane C hoodies cluster; primary measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).
+- 2026-10-21 02:40 UTC lane C: built new. Recraft v4 1 call ($0.04, logged): big rottweiler with black-and-tan markings asleep on its back on a doormat, paws in the air, tongue out, red front door behind, plain delivery box (no text) untouched on the step. scripts/prep-seal.py, art edges ragged-faded. Lockup (designs/c781/build.py): Alfa Slab One, ON GUARD. above, (ASLEEP.) below (gap 30 px); navy cream + mustard with a cream edge on the art, sand dark brown #462818 + deep rust #9e401c. 7h: headline 2947 px / punch 3257 px (111%). 7k: type 1095 px of 2687 px print height (41%). 7l: subject 1500 px of 3257 px lockup width = 46%. Light file: Sand on 1090847143 (brown + rust ink, no cream), Navy on 1090847178 (cream headline, mustard punch, cream edge). FW 1500 TOP 0. Verified 12/12 (6 Sand, 6 Navy) via GET /sync/products, back logo 1080398177. Shopify DRAFT: title Unisex Rottweiler – On Guard. (Asleep.) Hoodie, category hoodies, $39.99 no compare-at, tags graphic-hoodies-for-men graphic-hoodies-for-women hoodie rottweiler ai-art intake-done, SEO title 39 / meta 108, FAQ 5 x 48-55 words, order-by Dec 8, keyword rottweiler hoodie 390/KD 32 in map (under products), 'rottweiler hoodie' 2x in body. Line one: print's words + who + when, no superlative. Copy checked vs art (rottweiler asleep on its back on a doormat, paws up, tongue out, red door, untouched box). Inks from mockups. Phone-size read of both fronts OK. R6.12/R6.13: front print only, Navy front image 1, neck-logo back last. Cover: flat product shot (retired-covers.json). Etsy and R5.2 proof unverifiable from the builder, director eyeball. Audit only 'not visible'. fal $0.04.

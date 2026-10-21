@@ -15,5 +15,5 @@ from collections import Counter
 c = Counter((v['name'].split('/')[-2].strip(), {x['type']: x['id'] for x in v['files']}.get('default'), v['synced']) for v in d['sync_variants']); print(c)
 print(sh('node', 'scripts/cohesion-audit.mjs', '--handle', handle).strip()[-300:])
 f = glob.glob(f'docs/pipeline/{n}-*.md')[0]; s = open(f).read()
-s = re.sub(r'^status: .*$', f'status: REVIEW\nshopify: gid://shopify/Product/{sid}', s, count=1, flags=re.M); s += open(logf).read().strip() + '\n'; open(f, 'w').write(s)
+s = re.sub(r'^status: .*$', 'status: REVIEW' + ('' if 'shopify:' in s else f'\nshopify: gid://shopify/Product/{sid}'), s, count=1, flags=re.M); s += open(logf).read().strip() + '\n'; open(f, 'w').write(s)
 l = open('docs/intake-log.md').read().split('\n'); l.insert(1, summary); open('docs/intake-log.md', 'w').write('\n'.join(l))

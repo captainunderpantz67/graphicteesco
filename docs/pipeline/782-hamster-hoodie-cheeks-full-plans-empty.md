@@ -1,4 +1,5 @@
-status: READY
+status: REVIEW
+shopify: gid://shopify/Product/15371519394096
 lane: C
 type: new
 id: 782
@@ -24,3 +25,4 @@ kd: 32
 ---
 ## Log
 - 2026-10-21 00:55 UTC director: brief written, READY (lane C hoodies cluster; primary measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).
+- 2026-10-21 02:40 UTC lane C: built new. Recraft v4 1 call ($0.04, logged): golden hamster sitting upright with cheeks stuffed comically wide with sunflower seeds, seeds spilling at its feet, an empty exercise wheel behind it (scruffy edge specks dropped by the large-component filter, no frame). scripts/prep-seal.py, art edges ragged-faded. Lockup (designs/c782/build.py): Bevan, CHEEKS FULL. above, PLANS / EMPTY. on two lines below (gap 30 px); navy cream + mustard with a cream edge on the art, sand dark brown #462818 + deep rust #9e401c. 7h: headline 2793 px / punch 3272 px (117%). 7k: type 1406 px of 2913 px print height (48%). 7l: subject 1470 px of 3272 px lockup width = 45%. Light file: Sand on 1090854452 (brown + rust ink, no cream), Navy on 1090854460 (cream headline, mustard punch, cream edge). FW 1500 TOP 0. Verified 12/12 (6 Sand, 6 Navy) via GET /sync/products, back logo 1080398177. Shopify DRAFT: title Unisex Hamster – Cheeks Full. Plans Empty. Hoodie, category hoodies, $39.99 no compare-at, tags graphic-hoodies-for-men graphic-hoodies-for-women hoodie hamster ai-art intake-done, SEO title 42 / meta 112, FAQ 5 x 49-55 words, order-by Dec 8, keyword hamster hoodie 210/KD 32 in map (under products), 'hamster hoodie' 2x in body. Line one: print's words + who + when, no superlative. Copy checked vs art (hamster upright, seed-stuffed cheeks, spilled seeds, empty wheel). Inks from mockups. Phone-size read of both fronts OK. R6.12/R6.13: front print only, Navy front image 1, neck-logo back last. Cover: flat product shot (retired-covers.json). Etsy and R5.2 proof unverifiable from the builder, director eyeball. Audit only 'not visible'. fal $0.04.

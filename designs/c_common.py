@@ -3,11 +3,11 @@ import sys, json, os; sys.path.insert(0, '.')
 from designs.lib import *
 import numpy as np, cv2
 CR = (246, 236, 214, 255); MU = (226, 169, 53, 255)
-def load_art(path, edge=True, bottom_fade=False):
+def load_art(path, edge=True, bottom_fade=False, minarea=15000):
     art = Image.open(path).convert('RGBA'); al = np.array(art.getchannel('A'))
     n, lab, st, _ = cv2.connectedComponentsWithStats((al > 40).astype(np.uint8), connectivity=8); keep = np.zeros_like(al, bool)
     for i in range(1, n):
-        if st[i, cv2.CC_STAT_AREA] > 15000: keep |= (lab == i)
+        if st[i, cv2.CC_STAT_AREA] > minarea: keep |= (lab == i)
     al[~keep] = 0; H0, W0 = al.shape
     if edge:
         rng = np.random.default_rng(7); nz = cv2.GaussianBlur(rng.random((H0, W0)).astype(np.float32), (0, 0), 6); nz = (nz - nz.min()) / (nz.max() - nz.min())

@@ -10997,6 +10997,45 @@
     }
    ],
    "measured": "2026-10-20"
+  },
+  "unisex-therapist-not-analyzing-you-i-am-hoodie": {
+   "claimed": [
+    "therapist hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "therapist hoodie",
+     "volume": 320,
+     "kd": 31
+    }
+   ],
+   "measured": "2026-10-21"
+  },
+  "unisex-rottweiler-on-guard-asleep-hoodie": {
+   "claimed": [
+    "rottweiler hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "rottweiler hoodie",
+     "volume": 390,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-21"
+  },
+  "unisex-hamster-cheeks-full-plans-empty-hoodie": {
+   "claimed": [
+    "hamster hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "hamster hoodie",
+     "volume": 210,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-21"
   }
  }
 }
