@@ -11837,6 +11837,19 @@
    ],
    "measured": "2026-10-16"
   },
+  "unisex-essentials-sandshell-zip-hoodie": {
+   "claimed": [
+    "sand hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "sand hoodie",
+     "volume": 590,
+     "kd": 27
+    }
+   ],
+   "measured": "2026-10-16"
+  },
   "mens-wolf-lone-wolf-early-bedtime-camo-hoodie": {
    "claimed": [
     "wolf camo hoodie"
