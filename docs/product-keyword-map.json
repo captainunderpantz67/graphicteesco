@@ -11348,6 +11348,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-papa-has-a-spot-wont-say-where-camo-hoodie": {
+   "claimed": [
+    "papa hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "papa hoodie",
+     "volume": 590,
+     "kd": 44
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }

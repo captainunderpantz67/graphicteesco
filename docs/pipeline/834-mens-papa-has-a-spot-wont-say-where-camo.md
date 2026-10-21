@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-21 05:28
+status: REVIEW
 lane: B
 type: new
 id: 834
@@ -23,3 +23,4 @@ push: camo
 ---
 ## Log
 - 2026-10-21 05:00 UTC director: brief written, READY (camo push; primary measured today, unowned).
+- 2026-10-21 05:38 UTC [B]: built NEW as DRAFT (product 15371567563056, IND4000 #1543, Forest Camo + Duck Camo + Deadwood Tree Camo x S-3XL = 18/18 synced on file 1090933259, back logo 1080398177, sync 483592103). Art: 1 Recraft v4 call ($0.04, logged), picture only, try 1 kept: sly old man in flannel, flat cap and vest, one finger to his lips, fishing rod over the shoulder, dotted-line map with an X in the vest pocket, pines; anatomy ok (hand on lips, other hand in the vest pocket), no border or words; prep-seal.py threshold 200. Lettering by designs/c_common.py (Anton, dark brown PAPA HAS A SPOT. above, rust WON'T SAY WHERE. below, spelled exactly), then camo-halo.py cream underlay (close 30, halo 22, padded 30 px). 7h: headline 3034 px / punch 3378 px (111%). 7k: type 845 of 3234 px = 26% FLAGGED: a taller lockup (two-line punch, 48%) came out 1.3x taller than wide, about 13 in at FW 1500, which runs past the pouch seam, so I kept the one-line version at 9.6 in. 7l: subject 1600 of 3378 px = 47%. FW 1500 TOP 0 (print 3438 x 3294). Light file n/a (camo only; dark ink on cream halo). R5.2 proof gate: no Etsy access from the builder, unverified, director eyeball. Phone-size read of all three fronts OK. Keyword papa hoodie 590/KD 44 in map under products. Price 49.99 no compare-at, category hoodies, tags per brief, SEO title 40/meta 139, FAQ 5 x 40-56 words (order-by Dec 8). Flat cover, front first, neck-logo back last. Copy checked vs art. Audit PASS (1 warn: no lifestyle cover). Sheet docs/review/834.jpg. fal $0.04.
