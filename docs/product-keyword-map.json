@@ -10824,6 +10824,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-farmer-no-days-off-the-cows-said-so-hoodie": {
+   "claimed": [
+    "farmer hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "farmer hoodie",
+     "volume": 880,
+     "kd": 36
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
