@@ -2,6 +2,7 @@
 
 Requests from Sam (paraphrased by the helper) and audit items that need judgment. The director marks each one done.
 
+<<<<<<< 54dfcf415cee1e96f525829982bce6c20c9d1cba
 <<<<<<< 1bd0d9c54baaecb7eced4e727b86a93440c57426
 <<<<<<< 08af938210e87d9e707672889f34573376be6850
 <<<<<<< 6c36bced60332fe3a7d1807c002d013f54c2f64b
@@ -14,14 +15,23 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 - 2026-10-21 02:15 UTC — Claude (Sam decided): DEPTH 40 for zip-up hoodies AND camo hoodies (overrides the 24 cap). 24 zip-ups by Nov 8, 40 zip + 40 camo by Nov 26. Lane C = zip-ups, lane B = camo, ahead of other new briefs. Measured long-tail sweep first; one product per search, distinct angles after. Details: docs/backlog/zip-up-upgrade.md item 14.
 
 >>>>>>> c418cd159f7126980c2d1e7eb942ee03720f4aad
+=======
+- 2026-10-21 02:25 UTC — Claude (Sam: "we can build 40 products in 2 days!"): DEADLINES PULLED IN. Zip-ups to 40 and camo to 40 by Fri Oct 23 end of day (not Nov 26). Lanes B + C build zip/camo only until done; director prioritizes reviewing them (6-LIVE cap still applies, so review zip/camo first every run). Embroidery test draft first thing.
+
+- 2026-10-21 02:15 UTC — Claude (Sam decided): DEPTH 40 for zip-up hoodies AND camo hoodies (overrides the 24 cap). 24 zip-ups by Nov 8, 40 zip + 40 camo by Nov 26. Lane C = zip-ups, lane B = camo, ahead of other new briefs. Measured long-tail sweep first; one product per search, distinct angles after. Details: docs/backlog/zip-up-upgrade.md item 14.
+
+>>>>>>> 3c035c6392b93a589bc1edd126fd41fba58b3472
 - 2026-10-21 02:05 UTC — Claude (Sam): ZIP-UP STANDARD = embroidered left-chest mark (tight, ~3.5 in) + printed back + optional embroidered wrist. Printful #692 supports embroidery_chest_left / embroidery_wrist_*. Test one DRAFT first to confirm embroidery + DTG mix on one product (docs/backlog/zip-up-upgrade.md items 10-13), then roll out starting with the 6 named designs.
 
 - 2026-10-21 01:45 UTC — Claude (Sam, URGENT, raises the 01:20 zip-up item): the zip-up collection is our biggest search win and needs a full beef-up, not just covers. Items 6-9 added to docs/backlog/zip-up-upgrade.md: retire old Opening Day zip art/cover, A/B/C audit of every zip-up with B/C redone in place, 10 new zip designs from a measured zip long-tail sweep, 24 A-grade zip-ups with lifestyle covers by Nov 8. Director: brief it as lane C's next 10 items, ahead of #773-784.
 
+<<<<<<< 54dfcf415cee1e96f525829982bce6c20c9d1cba
 <<<<<<< 1bd0d9c54baaecb7eced4e727b86a93440c57426
 >>>>>>> d3dbd097d17c63b75abdf493059e0d0ec40d0fc9
 =======
 >>>>>>> c418cd159f7126980c2d1e7eb942ee03720f4aad
+=======
+>>>>>>> 3c035c6392b93a589bc1edd126fd41fba58b3472
 - 2026-10-21 01:20 UTC — Claude (Sam, TOP PRIORITY for lane C, ahead of new hoodie briefs #773-784): ZIP-UP UPGRADE, spec in docs/backlog/zip-up-upgrade.md. Zip-ups are the biggest search on the site and currently look cheap (tiny chest print on Ash, no lifestyle covers). Redo all 28 in place: chest mark + big back print, Navy/Black lead, lifestyle covers with the back first; then camo all-over-print zips; then embroidered versions. Hard limits on the national-park angle (no Jen Hamilton, no NPS arrowhead, no park wordmarks).
 - 2026-10-21 01:20 UTC — Claude (Sam): CONTENT MONSTER REWRITE of the 6 guides written before lane W (funny-golf-gifts, white-elephant-gifts, how-to-wash-graphic-tees, how-to-style-graphic-tees, are-graphic-tees-in-style, best-funny-thanksgiving-shirts). Writer lane W: one per run after the current hoodie articles, same slug and URL, rewritten to Content Monster voice + a cluster tag; director approves each before it replaces the old one. Thanksgiving first (season is now).
 
