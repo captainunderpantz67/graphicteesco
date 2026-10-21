@@ -17,6 +17,14 @@ PY
     done
     git commit -qm "[C] merge origin/main" || { echo "merge failed"; git merge --abort; exit 1; }
   fi
+  /usr/bin/python3 - <<'PY'
+import re,json
+p='src/data/retired-covers.json'; t=open(p).read()
+try: json.loads(t)
+except Exception:
+    items=list(dict.fromkeys(re.findall(r'"([^"\n]+)"',t))); json.dump(items,open(p,'w'),indent=0,ensure_ascii=False); open(p,'a').write('\n')
+PY
+  git add src/data/retired-covers.json; git diff --cached --quiet || git commit -qm "[C] repair retired-covers.json"
   /usr/bin/python3 -c "import json;json.load(open('docs/product-keyword-map.json'));json.load(open('src/data/retired-covers.json'));d=json.load(open('docs/product-keyword-map.json'));assert [k for k in d if k not in('_note','products')]==[]" || { echo "JSON BROKEN, not pushing"; exit 1; }
   grep -ln "^<<<<<<<\|^>>>>>>>" docs/product-keyword-map.json src/data/covers.ts docs/model-registry.md docs/intake-log.md && { echo "MARKERS, not pushing"; exit 1; }
   git push -q origin main 2>/dev/null && { echo pushed; exit 0; }
