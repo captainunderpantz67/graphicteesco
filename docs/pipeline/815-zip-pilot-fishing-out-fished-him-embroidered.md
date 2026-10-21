@@ -1,4 +1,5 @@
-status: BUILDING [C] 2026-10-21 04:57 UTC
+status: REVIEW
+shopify: gid://shopify/Product/15364909367600
 lane: C
 type: redo
 id: 815
@@ -22,3 +23,4 @@ push: zip
 ---
 ## Log
 - 2026-10-21 05:00 UTC director: brief written, READY (zip-up push pilot, Sam 2026-10-21; registry row 1005 claimed).
+- 2026-10-21 05:08 UTC lane C: PILOT built. **Printful ACCEPTS the mix (embroidery_chest_left + embroidery_wrist_left + DTG back on Gildan 18600 #692, both colors, flat stitch).** Verified via GET /sync/products: 12/12 variants synced, Ash chest 1090922433 / wrist 1090922469 / back 1090687566; Navy chest 1090922421 / wrist 1090922449 / back 1090687805. v2 mockups render all placements. **Real cost (POST /orders/estimate-costs, Ash S):** baseline printed front + back $30.87; chest embroidery + back $40.87 (+$10.00, plus a one-time $6.50 digitization); chest + wrist + back $43.82 (+$12.95 over baseline, wrist +$2.95). The brief's +$5 chest / +$3 wrist is below the cost increase. I kept $44.99 (title has no 'Embroidered', so the audit would reject +5/+8): director's call, either retitle with 'Embroidered' and price $52.99-$54.99, or keep $44.99 (margin about $12 before the one-time $6.50). Chest mark: new Recraft leaping-bass icon (2 calls $0.08; try 1 was a hanging fish with a stiff hook) through scripts/emb-prep.py: 3.50 x 3.69 in, thinnest stroke 1.6 mm, one thread color (white on Navy, Printful navy #333366 on Ash; Printful only accepts its fixed palette). Wrist: TROPHY in Anton, 0.33 in cap height, 1.05 in wide, same thread colors. Back: same art files, re-placed at the full 12 in width at the top; Ash dark ink, Navy light-ink file. Shopify (ACTIVE kept, no unpublish): old 4 photos deleted, 4 new (Navy back first, Ash back, Navy chest front, Ash chest front), variants linked per color; Story, details bullet and an embroidery-care FAQ added (5 FAQs, 49-55 words). **Cover: AI try 1 FAILED** (fal seedream $0.06: the back print came out garbled 'OUT-FISHED / OUT-I HIM.' and a ghost copy of the art floated in the sky); I stopped rather than spend the second try. The old look-back cover is retired (retired-covers.json), so the product shows the Printful back mockup as image 1 (the zip-spec fallback); registry row 1005 stays unused. No wrist close-up photo yet. Review sheet remade. fal $0.14.
