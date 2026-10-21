@@ -923,3 +923,18 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1128 | White woman, late 20s, blonde hair in a low braid, athletic build | CLAIMED 2026-10-21 — #967 camo cover (brief) |
 | 1129 | Choctaw man, early 40s, short dark hair, broad build | CLAIMED 2026-10-21 — #968 camo cover (brief) |
 | 1130 | Black woman, early 50s, short natural gray hair, medium build | CLAIMED 2026-10-21 — #969 camo cover (brief) |
+| 1131 | Samoan man, late 30s, short black hair, full beard, big build | CLAIMED 2026-10-21 — #976 hoodie cover (brief) |
+| 1132 | Vietnamese-American woman, early 30s, long black hair tied back, slim build | CLAIMED 2026-10-21 — #977 hoodie cover (brief) |
+| 1133 | Puerto Rican man, mid 50s, salt-and-pepper short hair, clean-shaven, medium build | CLAIMED 2026-10-21 — #978 hoodie cover (brief) |
+| 1134 | Black man, early 30s, short twists, lean build | CLAIMED 2026-10-21 — #979 hoodie cover (brief) |
+| 1135 | White woman, early 30s, red hair tied back, freckles, medium build | CLAIMED 2026-10-21 — #979 hoodie cover (brief) |
+| 1136 | Indian-American woman, late 20s, long dark hair in a high ponytail, athletic build | CLAIMED 2026-10-21 — #980 hoodie cover (brief) |
+| 1137 | Mexican-American woman, mid 20s, wavy brown hair tied back, medium build | CLAIMED 2026-10-21 — #981 hoodie cover (brief) |
+| 1138 | Japanese-American man, early 20s, messy black hair, slim build | CLAIMED 2026-10-21 — #982 hoodie cover (brief) |
+| 1139 | Black woman, early 20s, curly hair in a puff, slim build | CLAIMED 2026-10-21 — #982 hoodie cover (brief) |
+| 1140 | Filipino man, late 20s, undercut hair, slim build | CLAIMED 2026-10-21 — #983 hoodie cover (brief) |
+| 1141 | Korean-American woman, mid 20s, straight black bob, slim build | CLAIMED 2026-10-21 — #983 hoodie cover (brief) |
+| 1142 | White man, early 60s, white hair, trimmed white beard, medium build | CLAIMED 2026-10-21 — #984 hoodie cover (brief) |
+| 1143 | Black woman, early 40s, shoulder-length locs tied back, medium build | CLAIMED 2026-10-21 — #985 hoodie cover (brief) |
+| 1144 | Chinese-American woman, late 20s, long black hair tied back, slim build | CLAIMED 2026-10-21 — #986 hoodie cover (brief) |
+| 1145 | Brazilian woman, early 30s, curly dark hair tied back, medium build | CLAIMED 2026-10-21 — #987 hoodie cover (brief) |
