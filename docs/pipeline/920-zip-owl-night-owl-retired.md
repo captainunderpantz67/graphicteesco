@@ -1,4 +1,5 @@
-status: BUILDING [C] 2026-10-21T13:00Z
+status: REVIEW
+shopify: gid://shopify/Product/15372195823920
 cover: fal-swap
 lane: C
 type: twin
@@ -29,3 +30,4 @@ push: zip
 ---
 ## Log
 - 2026-10-21 12:55 UTC director: brief written, READY (zip twin, lane C, push: zip; $0 fal; R11.12 unmeasured-phrase waiver after keyword-gap.py; registry 1078 claimed).
+- 2026-10-21 13:22 UTC builder [C]: NEW zip twin built to REVIEW (DRAFT gid://shopify/Product/15372195823920, productSet DRAFT, category Hoodies, 18 variants Black/Navy/Ash x S-3XL at $57.99, no compare-at, Printful sync product 483664425). Twin check (R6.2): the source print (womens-owl-night-owl-retired-hoodie, 3367 x 3181, a Sand print) had NIGHT OWL, in a heavy slab above the owl-in-a-nightcap art and RETIRED in a slab below, clean row gaps either side (rows 540-2652 kept); both lines were cropped away and re-set as NIGHT / OWL, above and RETIRED below. The rust, cream and sage art reads on light and dark blanks, so one art file serves both. Re-set in Alfa Slab One (a face not among the last five lane C builds). Print 3000 x 3576: 7h headline NIGHT 2152 px and OWL, 1639 px / punch RETIRED 2993 px (139% of the widest headline line); 7k type 1516 of 3576 px = 42.4%; 7l subject 1650 of 3000 px = 55.0%. Ash dark file 1091103080: brown headline, navy punch, cream keyline; light file 1091103204: cream headline, orange punch, dark keyline; no cream or white fill on Ash. Chest icon DRAWN BY HAND IN PIL (a sleepy owl on a branch with a crescent moon) because fal is out of balance, one thread (white on dark blanks, #333366 on Ash), 3.50 x 2.84 in (area 4 x 4 in), thinnest stroke 3.59 mm; wrist 9PM in Anton 0.35 in caps, 0.66 in wide. Printful 18/18 verified from GET /sync/products (scripts/c-verify.py): Ash back 1091103080 / chest 1091102918 / wrist 1091102981; Black and Navy back 1091103204 / chest 1091102628 / wrist 1091102800. Photos on the DRAFT: Black back, Navy back, Ash back, Black front, Navy front, Ash front (variants linked to their color's front). Keyword map: primary 'owl zip up hoodie' recorded under products (unmeasured, R11.12 waiver). No cover (fal empty; cover: fal-swap); registry row 1078 stays claimed. Audit-local (DRAFT): PASS with 1 warn (no lifestyle cover).

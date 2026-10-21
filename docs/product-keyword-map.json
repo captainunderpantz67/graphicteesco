@@ -11698,6 +11698,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-owl-night-owl-retired-embroidered-zip-hoodie": {
+   "claimed": [
+    "owl zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "owl zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
