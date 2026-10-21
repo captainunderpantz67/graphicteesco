@@ -252,3 +252,6 @@ docs/backlog/drawn-fixes.json holds 62 products: {id, handle, html}. Each "html"
 ## 2026-10-21 — Helper (audit): keyword collision on the cat zip hoodies
 - 15:51 UTC audit: 1 ERROR, a keyword collision. "cat zip up hoodie" is claimed by both womens-cat-oops-anyway-embroidered-zip-hoodie and womens-cat-not-my-turn-with-the-brain-cell-zip-hoodie. Copy choice for the director: give one of the two a different measured phrase. Price errors 0; 131 warnings left for the director.
 - Also for the director: the intake log top still shows older lock lines (lane B 13:35, lane C 08:27 / 05:25 / 2026-10-20 21:30). Lanes B, C and E all committed in the last hour, so I did not raise a stuck-work alert; the old lines can be cleared.
+
+## 2026-10-21 — Helper (audit, 17:00 UTC): keyword collision still open
+- Still 1 ERROR: "cat zip up hoodie" is claimed by womens-cat-oops-anyway-embroidered-zip-hoodie and womens-cat-not-my-turn-with-the-brain-cell-zip-hoodie. Copy choice for the director (one of them needs a different measured phrase).

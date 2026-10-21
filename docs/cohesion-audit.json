@@ -1,6 +1,6 @@
 {
- "at": "2026-10-21T15:50:58.495Z",
- "products": 704,
+ "at": "2026-10-21T16:58:53.967Z",
+ "products": 708,
  "findings": [
   {
    "level": "WARN",
@@ -923,6 +923,41 @@
    "level": "WARN",
    "handle": "womens-gym-lift-heavy-reply-later-embroidered-zip-hoodie",
    "title": "Women's Gym – Lift Heavy. Reply Later. Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-gym-lift-heavy-reply-later-embroidered-zip-hoodie",
+   "title": "Women's Gym – Lift Heavy. Reply Later. Embroidered Zip Hoodie",
+   "msg": "Meta description is 161 chars (> 160).",
+   "fix": "Trim to ≤ 155."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-nurse-calm-face-loud-brain-embroidered-zip-hoodie",
+   "title": "Unisex Nurse – Calm Face, Loud Brain Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-hunting-todays-special-tag-soup-embroidered-zip-hoodie",
+   "title": "Men's Hunting – Today's Special: Tag Soup Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-gym-sisyphus-had-bad-programming-embroidered-zip-hoodie",
+   "title": "Men's Gym – Sisyphus Had Bad Programming Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-floral-wildly-low-maintenance-embroidered-zip-hoodie",
+   "title": "Women's Floral – Wildly Low Maintenance Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   }
