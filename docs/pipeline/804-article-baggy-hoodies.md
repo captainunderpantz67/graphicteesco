@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: hoodies
@@ -17,3 +17,4 @@ slug: baggy-hoodies
 - Director: confirm picks' colors against live listings and flip draft to false on approval.
 ## Log
 - 2026-10-21 UTC writer: draft written, `draft: true` grep confirmed, astro build passes.
+- 2026-10-21 03:16 UTC director: APPROVED, draft line removed. Answer-first, one measured primary (baggy hoodies 14,800 / KD 28) owned by nothing else; all 6 picks ACTIVE at $54.99 in Dust + Navy, S–3XL (checked in Shopify). Fixed per R12.1: these picks were created after 2026-10-15 and carry no compare-at, so every 'holiday sale' / 'on sale' label became the plain price and the Dec 1 move-up; rewrote the shrink FAQ from a non-answer into care facts plus the free size exchange. astro build passes.
