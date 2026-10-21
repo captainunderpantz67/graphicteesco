@@ -807,3 +807,4 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1012 | a couple: Korean-American woman, early 50s, chin-length black bob; and Black man, early 50s, shaved head, grey beard; both medium builds | CLAIMED 2026-10-21 — #827 AOP zip back-print cover (brief) |
 | 1013 | Persian-American woman, late 30s, long dark curly hair in a low braid, slim athletic build | CLAIMED 2026-10-21 — #828 AOP zip back-print cover (brief) |
 | 1014 | a couple: Puerto Rican woman, late 20s, long dark wavy hair tied back; and white man, late 20s, ginger buzz cut; both slim | CLAIMED 2026-10-21 — #829 AOP zip back-print cover (brief) |
+| 1015 | Native American man, early 40s, long black hair tied back in a low ponytail, stocky build | CLAIMED 2026-10-21 — #836 AOP zip back-print cover (brief) |

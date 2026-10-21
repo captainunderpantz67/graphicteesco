@@ -154,8 +154,9 @@ for (const p of products) {
   if (neverAtRegular && onSale && wantCmp) wantCmp = null;
   const prices = [...new Set(p.variants.nodes.map((v) => Number(v.price.amount).toFixed(2) + '/' + (v.compareAtPrice ? Number(v.compareAtPrice.amount).toFixed(2) : '-')))];
   // Embroidered (R12.1): +$5 chest, +$3 per cuff detail, so +5, +8 or +11 on both price and compare-at.
+  // Zip-ups (#692) on the R11.12 standard: Printful charges $10 for the left-chest stitch, so +$10 chest, +$13 with a wrist word (director 2026-10-21, #815 pilot).
   const bump = (x, d) => (x === null ? null : (Number(x) + d).toFixed(2));
-  const okKeys = /embroider/i.test(p.title) ? [5, 8, 11, 3, 6].map((d) => bump(want, d) + '/' + (bump(wantCmp, d) ?? '-')) : [want + '/' + (wantCmp ?? '-')];
+  const okKeys = /embroider/i.test(p.title) ? [5, 8, 11, 3, 6, ...(/-zip-hoodie$/.test(p.handle) ? [10, 13] : [])].map((d) => bump(want, d) + '/' + (bump(wantCmp, d) ?? '-')) : [want + '/' + (wantCmp ?? '-')];
   const wantKey = okKeys[0];
   if (prices.some((x) => !okKeys.includes(x))) add('ERROR', p, `Price ${prices.join(', ')} (price/compare-at) — should be ${wantKey} on every variant.`, `Set every variant to price ${want}${wantCmp ? `, compare-at ${wantCmp}` : ', no compare-at'}.`);
 

@@ -2,27 +2,28 @@ status: READY
 lane: C
 type: new
 id: 827
-handle: unisex-golf-par-was-more-of-a-goal-aop-zip-hoodie
+handle: unisex-golf-im-not-lost-my-ball-is-aop-zip-hoodie
 kd: 32
 push: zip
 ---
-## Unisex Golf – Par Was More of a Goal. All-Over Print Zip Hoodie
+## Unisex Golf – I'm Not Lost. My Ball Is. All-Over Print Zip Hoodie
 - **Why now:** Sam's zip push, all-over-print zips (docs/backlog/zip-up-upgrade.md items 15-18, inbox 2026-10-21 02:40 UTC): counts toward the zip-up 40. Lane C, push: zip.
 - **Blank:** Printful #717 All-Over Print Recycled Unisex Zip Hoodie (cut-sew sublimation, 95% recycled polyester fleece, drop shoulder; copy facts only from the Printful spec, R7.1). Panels: front left/right, back, sleeves, hood, pocket. Handle ends -aop-zip-hoodie (the audit prices it, director 2026-10-21).
-- **Pattern:** original scattered pattern of wooden tees, golf balls and tiny flags on fairway green (no brand marks). Seamless tile at print resolution; align across the zipper and side seams; hood lining plain (item 17). Pattern art: one Recraft v4 call if no matching tile exists in assets/patterns, else $0.
-- **Front:** small chest art on the left chest panel: a golf ball on a tee, 2 thread colors (printed, not stitched; AOP is sublimation). **Back:** the joke large across the back panel over the pattern, on a solid backing shape cut to the words' outline only (no box, no badge, R4.1), sized at 80%+ of the back width; every word readable on the back mockup at phone size.
-- **Text (spelled exactly):** PAR WAS MORE / OF A GOAL. (punch line at least as wide as the setup, the loudest line, R3.7.8). Set with scripts/compose-print.py, heavy face, solid ink, no pattern fill in letters (R5.3.10); log 7h widths.
+- **Pattern (Sam's pilot 16a, 'Where My Balls Went', docs/backlog/zip-up-upgrade.md):** an original illustrated golf-course map running over every panel (fairways, a pond, trees, the clubhouse, a cart path), with tiny golf balls hidden in the funny places: in the pond, up a tree, through a clubhouse window, on a cart roof, in a goose's nest. Each carries a tiny deadpan label set in code: "provisional", "still looking", "the goose has it", "out of bounds (emotionally)". Labels at least 0.25 in cap height so they read on the mockup. No real course, no brand marks. Map art: Recraft v4, no words in the image (R3.7.8); labels added in compose-print. Align across the zipper and side seams; hood lining plain (item 17).
+- **Front:** small chest art on the left chest panel: a golf ball on a tee, 2 thread colors (printed, not stitched; AOP is sublimation). **Back:** I'M NOT LOST. / MY BALL IS. large across the back panel over the pattern, on a solid backing shape cut to the words' outline only (no box, no badge, R4.1), sized at 80%+ of the back width; every word readable on the back mockup at phone size.
+- **Text (spelled exactly):** I'M NOT LOST. / MY BALL IS. (punch line at least as wide as the setup, the loudest line, R3.7.8), plus the map labels above. Set with scripts/compose-print.py, heavy face, solid ink, no pattern fill in letters (R5.3.10); log 7h widths.
 - **Five lines considered (R3.13 side by side with "Wildly Low Maintenance", "Politely, No.", "I Only Golf for the Outfits"):** Par Was More of a Goal. · Bogey Is Still a Number. · Here for the Cart. · My Handicap Is Golf. · Lost Count Around Hole Two.. Kept the first. Self-aware weekend golfer; matches the R3.13 bar (I Only Golf for the Outfits).
 - **Primary keyword:** golf zip up hoodie. RankHero shows no volume for it (sweep 2026-10-21 04:45 UTC); Sam's depth-40 decision (inbox 02:15 UTC) says fill with distinct angles once measured searches run out, so R2.9's no-measurement rule is waived for the zip-up and camo pages only. Unowned in docs/product-keyword-map.json; record it with this handle. Never claim the page head terms (zip up hoodie, camo hoodie).
-- **Title / handle:** "Unisex Golf – Par Was More of a Goal. All-Over Print Zip Hoodie" / `unisex-golf-par-was-more-of-a-goal-aop-zip-hoodie`.
+- **Title / handle:** "Unisex Golf – I'm Not Lost. My Ball Is. All-Over Print Zip Hoodie" / `unisex-golf-im-not-lost-my-ball-is-aop-zip-hoodie`.
 - **Tags:** graphic-hoodies-for-women, graphic-hoodies-for-men, hoodie, zip-up-hoodies, ai-art, intake-done.
 - **Price:** $79.99 flat, NO compare-at (Printful base about $58.25, about $15 profit; Sam 2026-10-21).
 - **Copy:** line one = the joke + who wears it + when (R9.11); answer-first FAQ includes "Is the all-over print hoodie cotton?" → No, recycled polyester fleece, sublimation printed edge to edge, so it will not crack or fade (item 18). Care, sizing (drop shoulder runs roomy), Christmas order-by about Dec 8, free size exchange. SEO title ≤ 60, meta ≤ 155.
 - **R5.2 proof:** Sam's direct order (inbox 2026-10-21 02:40 UTC) stands in for the favorites gate; still log one same-theme listing with 500+ favorites if you find one.
 **Cover (zip-up spec item 4 + 9, Sam 2026-10-21; overrides R6.11's flat-only fallback for zip-ups):** one AI lifestyle photo with the BACK print readable, person per the registry row below (claimed, never used). Setup: a man and a woman riding off in a golf cart, shot from behind on the cart path. No over-the-shoulder look-back. Zip-ups zip at the FRONT; the back is plain fleece with our print, no seam or zip down the back or hood (R6.8). Hands, hair and props off every letter; read every word at 200%. One image per call (--n 1), at most 2 tries inside the $16/day fal cap; if both fail, use the Printful back mockup and log it. Then a front mockup (zip half-open over a tee) as image 2. **Photo order (R6.13 + zip spec):** back print first, then the front, then sleeve/hood detail, then one flat (AOP has one colorway).
 - **Registry:** row 1012 (claimed): a couple: Korean-American woman, early 50s, chin-length black bob; and Black man, early 50s, shaved head, grey beard; both medium builds.
-- **Before REVIEW:** check every panel and seam on the Printful mockup (item 17); R7.7 file log; review sheet; `node scripts/cohesion-audit.mjs --handle unisex-golf-par-was-more-of-a-goal-aop-zip-hoodie` passes except "not active".
+- **Before REVIEW:** check every panel and seam on the Printful mockup (item 17); R7.7 file log; review sheet; `node scripts/cohesion-audit.mjs --handle unisex-golf-im-not-lost-my-ball-is-aop-zip-hoodie` passes except "not active".
 
 ---
 ## Log
 - 2026-10-21 05:00 UTC director: brief written, READY (AOP zip push; primary unmeasured under Sam's depth-40 waiver; registry row 1012 claimed).
+- 2026-10-21 05:25 UTC director: rewritten to Sam's AOP pilot 16a (course map with hidden balls, back line I'M NOT LOST. MY BALL IS.; Sam 03:40 UTC named it as one of the 3 AOP pilots). Keyword, price, cover setup and registry row 1012 unchanged. Not yet built, so the handle change breaks nothing.
