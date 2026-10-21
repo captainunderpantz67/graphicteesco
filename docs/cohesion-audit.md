@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-20 23:47 UTC
+# Cohesion audit — 2026-10-21 00:43 UTC
 
-653 live products checked · **0 errors** · 81 warnings · 74 products with findings
+658 live products checked · **0 errors** · 86 warnings · 79 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -121,6 +121,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 - **WARN** christmas design isn't in any christmas collection. → Tag it so it appears in the christmas shirts page.
 
+### Pit Bull – Professional Lap Dog (72 LBS) Ornament `pit-bull-professional-lap-dog-72-lbs-ornament`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
 ### Pickleball – My Partner Says It Was Out Ornament `pickleball-my-partner-says-it-was-out-ornament`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 
@@ -176,10 +179,16 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Dachshund – Short Legs, Long Opinions Mug `dachshund-short-legs-long-opinions-mug`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 
+### Alien – Visiting. Not Impressed. Mug `alien-visiting-not-impressed-mug`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
 ### Pirate – Pillaging Is a Young Man's Game Mug `pirate-pillaging-is-a-young-mans-game-mug`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 
 ### Horse – Horse Girl, Broke on Purpose Mug `horse-horse-girl-broke-on-purpose-mug`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+
+### Strawberry – Please Don't Pick Me Mug `strawberry-please-dont-pick-me-mug`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 
 ### Women's Outdoorsy – Outdoorsy in Theory Cropped Hoodie `womens-outdoorsy-in-theory-cropped-hoodie`
@@ -234,4 +243,10 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Unisex National Park – The View Better Be Worth It. Sweatpants `unisex-national-park-the-view-better-be-worth-it-sweatpants`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Running – Run Club. For the Coffee. Hoodie `unisex-running-run-club-mostly-a-coffee-club-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Christian – Still Under Construction Heavyweight Hoodie `mens-christian-rebuilt-by-a-carpenter-heavyweight-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.

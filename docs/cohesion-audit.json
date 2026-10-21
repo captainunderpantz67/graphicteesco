@@ -1,6 +1,6 @@
 {
- "at": "2026-10-20T23:47:38.736Z",
- "products": 653,
+ "at": "2026-10-21T00:43:45.773Z",
+ "products": 658,
  "findings": [
   {
    "level": "WARN",
@@ -284,6 +284,13 @@
   },
   {
    "level": "WARN",
+   "handle": "pit-bull-professional-lap-dog-72-lbs-ornament",
+   "title": "Pit Bull – Professional Lap Dog (72 LBS) Ornament",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
    "handle": "pickleball-my-partner-says-it-was-out-ornament",
    "title": "Pickleball – My Partner Says It Was Out Ornament",
    "msg": "Cover alt text doesn't say who is in the photo.",
@@ -417,6 +424,13 @@
   },
   {
    "level": "WARN",
+   "handle": "alien-visiting-not-impressed-mug",
+   "title": "Alien – Visiting. Not Impressed. Mug",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
    "handle": "pirate-pillaging-is-a-young-mans-game-mug",
    "title": "Pirate – Pillaging Is a Young Man's Game Mug",
    "msg": "Cover alt text doesn't say who is in the photo.",
@@ -426,6 +440,13 @@
    "level": "WARN",
    "handle": "horse-horse-girl-broke-on-purpose-mug",
    "title": "Horse – Horse Girl, Broke on Purpose Mug",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "strawberry-please-dont-pick-me-mug",
+   "title": "Strawberry – Please Don't Pick Me Mug",
    "msg": "Cover alt text doesn't say who is in the photo.",
    "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
   },
@@ -566,6 +587,20 @@
    "level": "WARN",
    "handle": "unisex-national-park-the-view-better-be-worth-it-sweatpants",
    "title": "Unisex National Park – The View Better Be Worth It. Sweatpants",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-running-run-club-mostly-a-coffee-club-hoodie",
+   "title": "Unisex Running – Run Club. For the Coffee. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-christian-rebuilt-by-a-carpenter-heavyweight-hoodie",
+   "title": "Men's Christian – Still Under Construction Heavyweight Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   }
