@@ -11506,6 +11506,19 @@
    ],
    "gaps_measured": [],
    "measured": "unmeasured (RankHero returned no data 2026-10-21; R11.12 zip waiver: distinct design angle, never a head term). Phrases tried: hunting zip up hoodie, tag soup hunting, hunter zip hoodie."
+  },
+  "mens-gym-sisyphus-had-bad-programming-embroidered-zip-hoodie": {
+   "claimed": [
+    "gym zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "gym zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
