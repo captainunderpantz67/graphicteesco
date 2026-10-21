@@ -11966,6 +11966,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-crochet-no-i-wont-make-you-one-embroidered-zip-hoodie": {
+   "claimed": [
+    "crochet zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "crochet zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
