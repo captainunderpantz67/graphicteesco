@@ -1,9 +1,11 @@
-status: BUILDING [B] 2026-10-21 16:33
+status: REVIEW
 lane: B
 type: twin
 id: 955
 handle: unisex-national-park-running-late-bison-traffic-camo-hoodie
 kd: unmeasured
+shopify: gid://shopify/Product/15372839977264
+cover: fal-swap
 push: camo
 ---
 ## Camo twin: Unisex National Park – Running Late. Bison Traffic. Camo Hoodie
@@ -24,3 +26,4 @@ push: camo
 ---
 ## Log
 - 2026-10-21 14:55 UTC director: brief written, READY (camo twin, lane B, push: camo; R11.12 waiver after keyword-gap.py; registry rows claimed).
+- 2026-10-21 16:51 UTC [B]: BUILT NEW as DRAFT (product 15372839977264, IND4000 #1543, Forest Camo + Black Camo x XS-3XL = 14/14 synced on file 1091233302, back logo 1080398177 on 14/14, Printful sync 483725062). Art: one Recraft flat call ($0.04), try 1 kept: huge bison on a two-lane road with a sedan and roof luggage stopped in front, pines and mountains; 3 solid inks (black, blaze orange, white-to-bone), no grey/brown. ONE bone patch with ~0.2 in black outline (b-camo-lockup.py --top, PHR 0.74). 7r: lettering face Bevan (slab); recent lane B faces were Alfa Slab, Bowlby, Oswald, Big Shoulders, Inter Display, so a new one. 7h: 3365 / 3365 px = 100%. 7l: subject 2771 of 3400 px = 81%; type 663 of 3319 px. Canvas 3400x3319, FW 1500 TOP 0. Light file n/a (camo only). Phone-size read of Forest and Black Camo mockups OK. Keyword national park camo hoodie (R11.12 waiver, not measured) under products in the keyword map (top-level check prints []). Price $49.99, no compare-at, category hoodies, tags per brief, SEO title 54 / meta 151, FAQ 5 x 46-54 words (order by Dec 8, free size exchange). Mockup per color attached to its variants, back last. Copy checked vs art (sedan, not wagon). Flat cover (cover: fal-swap; registry rows 1114/1115 stay claimed; the AI cover must show a man and a woman, 7u). Audit PASS (1 warn: no lifestyle cover). design-crops.py not run (draft not on the public feed, it hung). Sheet docs/review/955.jpg. fal $0.04.

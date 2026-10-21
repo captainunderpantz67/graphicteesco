@@ -12109,6 +12109,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-national-park-running-late-bison-traffic-camo-hoodie": {
+   "claimed": [
+    "national park camo hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "national park camo hoodie",
+     "volume": 0,
+     "kd": 22
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
