@@ -11685,6 +11685,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-car-not-stopping-hold-it-embroidered-zip-hoodie": {
+   "claimed": [
+    "car guy zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "car guy zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
