@@ -799,6 +799,72 @@ export const allGuides: Guide[] = [
       { q: 'How early should I order a gym gift for Christmas?', a: 'About two weeks ahead. Graphic Tees Co. prints each piece to order in 2 to 5 business days, then ships it in about 3 to 8 business days in the US.' },
     ],
   },
+  {
+    // Writer lane W (2026-10-21): new hoodies-cluster article, the duck-camo spoke.
+    // Keyword: gifts for duck hunters 1,000 / KD 42 (RankHero 2026-10-21). KD is above the 35 band: accepted because the phrase is unowned, niche, and nothing easier measured in this niche. "duck camo hoodie" (9,900/14) stays with /hoodies/duck-camo-hoodies/, "duck hunting hoodie" and "duck hoodie" stay with their products.
+    // Facts (art, blank, prices, colors, policies) from the live Shopify products on 2026-10-21 (#224 #289 #292 #299), collections.ts camo copy and site.ts.
+    // Planned siblings (not live yet): pink-camo-hoodie-guide, camo-hoodies-for-women-guide, duck-camo-vs-woodland-camo.
+    slug: 'gifts-for-duck-hunters',
+    keyword: 'gifts for duck hunters',
+    title: 'Gifts for Duck Hunters: 4 Duck Camo Hoodies With the Right Joke',
+    description: 'Gifts for duck hunters: four Duck Camo hoodies, Quack of Dawn, Fake Friends, Fluent in Honk and Ducks in a Row. 10 oz fleece, XS–3XL, $49.99.',
+    h1: 'Gifts for Duck Hunters: 4 Duck Camo Hoodies With a Joke He Already Tells in the Blind',
+    date: '2026-10-21',
+    cluster: 'hoodies',
+    draft: true,
+    answer: 'A good gift for a duck hunter is something he will wear to the blind, and a heavyweight Duck Camo hoodie with a duck joke on the chest is exactly that. Graphic Tees Co. has four, each $49.99: Quack of Dawn, Fake Friends, Fluent in Honk and Ducks in a Row. They are 10 oz fleece in sizes XS–3XL, printed after you order, and a wrong size gets one free exchange within 30 days.',
+    picks: [
+      {
+        h2: 'Which duck camo hoodies make a good gift for a duck hunter?',
+        body: ['Here are four live Duck Camo hoodies, all on the same heavyweight blank and all $49.99. Every design is original art made for Graphic Tees Co., drawn in light ink so it reads on the camo.'],
+        items: [
+          { slogan: 'Quack of Dawn', tee: 'mens-hunting-quack-of-dawn-camo-hoodie',
+            text: 'Three mallards climb out of the cattails in front of one big blaze-orange sunrise, with QUACK OF DAWN in heavy bone capitals underneath. It is for the guy who sets the alarm for exactly that morning. It comes in Duck Camo or plain Sandstone, $49.99.' },
+          { slogan: 'Fake Friends', tee: 'mens-hunting-fake-friends-duck-camo-hoodie',
+            text: 'A live mallard floats among the wooden decoys and gives them a suspicious side-eye, with FAKE FRIENDS lettered above. Anyone who has set a spread in the dark gets it in two seconds. It is $49.99 in Duck Camo.' },
+          { slogan: 'Fluent in Honk', tee: 'mens-hunting-fluent-in-honk-camo-hoodie',
+            text: 'A Canada goose stares at a goose call lying on the stubble, deeply offended, with FLUENT IN HONK underneath. It is for the guy who practices his call in the truck. It is $49.99 in Duck Camo.' },
+          { slogan: 'Got My Ducks in a Row (Mostly)', tee: 'womens-hunting-ducks-in-a-row-camo-hoodie',
+            text: 'A mother mallard leads four ducklings in a neat line while the fifth wanders off after a butterfly, with GOT MY DUCKS IN A ROW and a small script (mostly). It is the one for her. $49.99 in Duck Camo.' },
+        ],
+        links: [{ href: '/hoodies/duck-camo-hoodies/', text: 'All duck camo hoodies' }, { href: '/hoodies/camo-hoodies/', text: 'All camo hoodies' }, { href: '/hoodies/hunting-hoodies/', text: 'Hunting hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'What is duck camo?',
+        body: ['Duck camo is the old-school waterfowl pattern of brown, tan and dark green blotches, first worn by duck hunters hiding in marsh grass and cattails. It is the pattern most people picture when they hear "duck hunter".',
+          'Graphic Tees Co. uses real Duck Camo fleece, not a licensed hunting-brand pattern, and prints the art in light ink on a cream backing that follows its outline so every line reads on the blotches.'],
+        links: [{ href: '/hoodies/duck-camo-hoodies/', text: 'Duck camo hoodies' }] },
+      { h2: 'What is the hoodie made of?',
+        body: ['The camo hoodies are a heavyweight cotton and polyester fleece, 10 oz/yd², with a soft fleece-lined hood, ribbed cuffs and waistband and double-stitched seams. The cut is relaxed and unisex, roomy enough for a thermal underneath.',
+          'It is a warm layer, not hunting gear. It is not waterproof or scent-control, so on a wet or bitter morning he should wear a shell over it.'],
+        links: [{ href: '/hoodies/heavyweight-hoodies/', text: 'Heavyweight hoodies' }] },
+      { h2: 'What size should you order for a duck hunter?',
+        body: ['Order his usual size for a standard relaxed fit, or one size up if he wants room for a thermal and a vest. The camo hoodies run XS–3XL, and every product page has its exact size chart.',
+          'If you guess wrong, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and he does not have to mail the first one back.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'Can he wear it somewhere besides the blind?',
+        body: ['Yes. The hoodies are meant for the blind, the boat ramp and the diner after, and they look just as at home with jeans and boots in town.',
+          'For more ways to wear one, see our camo hoodies page, and the cozy hoodies guide covers how the 10 oz fleece compares with the lighter pullover.'],
+        links: [{ href: '/guides/cozy-hoodies/', text: 'Cozy hoodies: how to pick the right weight and fit' }, { href: '/hoodies/camo-hoodies/', text: 'Camo hoodies' }] },
+      { h2: 'What if he already has a camo hoodie?',
+        body: ['Then give him the joke. A plain camo hoodie is a layer; Fake Friends and Fluent in Honk are a duck-blind joke printed on it.',
+          'For the other hobbies in the family, see the funny hoodies guide, and the gym gifts and golf gifts guides for the lifter and the golfer.'],
+        links: [{ href: '/guides/funny-hoodies/', text: 'Funny hoodies' }, { href: '/guides/gym-gifts-for-men/', text: 'Gym gifts for men' }, { href: '/guides/funny-golf-gifts/', text: 'Funny golf gifts' }] },
+      { h2: 'How do you wash a camo hoodie so the print lasts?',
+        body: ['Turn it inside out, wash it cold with similar colors, tumble dry low or hang it, and skip bleach and fabric softener. Never iron over the print.',
+          'The full routine is in our care guide. US shipping is free on orders of $45 or more, so any one of these clears it.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees so the print lasts' }] },
+    ],
+    faqs: [
+      { q: 'What is a good gift for a duck hunter?', a: 'Something he will actually wear in the blind. Graphic Tees Co. makes four Duck Camo hoodies with original duck and goose jokes, Quack of Dawn, Fake Friends, Fluent in Honk and Ducks in a Row, each $49.99 in a 10 oz fleece, sizes XS–3XL.' },
+      { q: 'Can you hunt in a camo hoodie?', a: 'Yes, as a layer. Graphic Tees Co. camo hoodies are 10 oz/yd² cotton-poly fleece with a fleece-lined hood, warm in the blind. They are not waterproof or scent-control hunting gear, so wear a shell jacket over one on wet or bitter mornings.' },
+      { q: 'What does duck camo look like?', a: 'Duck camo is the old-school waterfowl pattern of brown, tan and dark green blotches. Graphic Tees Co. prints its duck and goose art in light ink on a cream backing so the lines and words read clearly on the pattern.' },
+      { q: 'How much do duck camo hoodies cost?', a: 'At Graphic Tees Co., the Duck Camo hoodies are $49.99 each. US shipping is free on orders of $45 or more, so a single hoodie qualifies. Each one is printed after you order it.' },
+      { q: 'What if the hoodie is the wrong size?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back. The camo hoodies run XS–3XL and each product page has a size chart.' },
+      { q: 'How early should I order a duck hunter a Christmas gift?', a: 'Graphic Tees Co. prints each hoodie after you order it, so allow time for printing and shipping. Exact estimates show at checkout. For a December gift, order by December 4 to be safe.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
