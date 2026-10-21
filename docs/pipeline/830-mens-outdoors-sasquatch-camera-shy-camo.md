@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-21 05:06
+status: REVIEW
 lane: B
 type: twin
 id: 830
@@ -22,3 +22,4 @@ push: camo
 ---
 ## Log
 - 2026-10-21 05:00 UTC director: brief written, READY (camo push twin of an A-grade design; primary measured today).
+- 2026-10-21 05:09 UTC [B]: built twin of #407 as DRAFT (product 15371557732656, IND4000 #1543, Forest Camo + Duck Camo + Deadwood Tree Camo x S-3XL = 18/18 synced on file 1090924007, back logo 1080398177, sync 483589083). R6.2 lettering check: only CAMERA SHY in Alfa Slab One cream with dark green outline, spelled right, no typeset ring/arch/disc/box, art ragged-edged scene. Print = #407 art + camo-halo.py cream underlay (close 30, halo 22). FW 1600 TOP 0 (print 3307 x 2919 = 9.4 in tall, clear of the pouch). 7h n/a (single headline). 7l: subject (sasquatch + pines) is the full lockup width. Phone-size read of all three camo fronts OK; Deadwood Tree is a pale grey so the cream halo is lighter there but the ink still reads. Light file n/a (camo only). Keyword bigfoot hoodie 260/KD 38 in map under products. Price 49.99 no compare-at, category hoodies, tags camo-hoodies graphic-hoodies-for-men hoodie ai-art intake-done, SEO title 49/meta 140, FAQ 5 x 44-50 words (order-by Dec 8). Flat cover (retired-covers.json), front first, neck-logo back last (R6.12/13). Copy checked vs art. Audit PASS (1 warn: no lifestyle cover). Sheet docs/review/830.jpg. fal $0.

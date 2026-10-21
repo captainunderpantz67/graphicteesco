@@ -11296,6 +11296,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "mens-outdoors-sasquatch-camera-shy-camo-hoodie": {
+   "claimed": [
+    "bigfoot hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bigfoot hoodie",
+     "volume": 260,
+     "kd": 38
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
