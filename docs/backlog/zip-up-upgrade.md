@@ -1,5 +1,6 @@
 # Zip-up hoodie upgrade (Sam 2026-10-20, PRIORITY: "this is our biggest winner … the search deserves the best products")
 
+<<<<<<< 54dfcf415cee1e96f525829982bce6c20c9d1cba
 <<<<<<< 1bd0d9c54baaecb7eced4e727b86a93440c57426
 <<<<<<< 08af938210e87d9e707672889f34573376be6850
 <<<<<<< 6c36bced60332fe3a7d1807c002d013f54c2f64b
@@ -20,6 +21,10 @@ UPDATE 2026-10-21 (Sam): the zip-ups already have good snarky BACK prints; the s
 UPDATE 2026-10-21 (Sam): the zip-ups already have good snarky BACK prints; the site was showing the plain front first. Fixed in code (cards + gallery lead with the back). Item 1 below is now only: Navy/Black lead color and richer colors; keep the existing back prints.
 
 >>>>>>> c418cd159f7126980c2d1e7eb942ee03720f4aad
+=======
+UPDATE 2026-10-21 (Sam): the zip-ups already have good snarky BACK prints; the site was showing the plain front first. Fixed in code (cards + gallery lead with the back). Item 1 below is now only: Navy/Black lead color and richer colors; keep the existing back prints.
+
+>>>>>>> 3c035c6392b93a589bc1edd126fd41fba58b3472
 Why: /hoodies/zip-up-hoodies/ targets the biggest measured hoodie terms (zip up hoodie 135,000/KD 28, mens zip up hoodie 74,000/KD 6, womens 14,800/KD 32). Today the zip-ups are a tiny left-chest print on Ash with plain mockups and no lifestyle covers. They read cheap. Rebuild them in place (never unpublish; same handles).
 
 1. Boutique print layout on every zip-up (Gildan 18600 #692 or a better blank if Printful has one):
@@ -27,6 +32,7 @@ Why: /hoodies/zip-up-hoodies/ targets the biggest measured hoodie terms (zip up 
    - Lead color Navy or Black; Ash second. Add 1-2 richer colors the blank offers (Forest, Maroon, Dark Heather) where the art reads.
 2. Embroidery option: check Printful placements for zip hoodies (embroidery_chest_left, sleeve/wrist placements). Where a zip blank supports it, make an embroidered-chest or embroidered-wrist version of the 6 best designs (rulebook R4.8 embroidery rules; thread palette, no gradients).
 3. All-over print + camo: Printful all-over-print zip hoodie with the camo patterns already in assets/patterns (pink camo, woodland) + a small front design. Brief 4: pink camo women's, woodland men's, hunting, fishing. Also cross-list in /hoodies/camo-hoodies/.
+<<<<<<< 54dfcf415cee1e96f525829982bce6c20c9d1cba
 <<<<<<< 1bd0d9c54baaecb7eced4e727b86a93440c57426
 <<<<<<< 08af938210e87d9e707672889f34573376be6850
 <<<<<<< 6c36bced60332fe3a7d1807c002d013f54c2f64b
@@ -39,6 +45,8 @@ Why: /hoodies/zip-up-hoodies/ targets the biggest measured hoodie terms (zip up 
 >>>>>>> d3dbd097d17c63b75abdf493059e0d0ec40d0fc9
 =======
 >>>>>>> c418cd159f7126980c2d1e7eb942ee03720f4aad
+=======
+>>>>>>> 3c035c6392b93a589bc1edd126fd41fba58b3472
 4. Lifestyle covers (fal, R6) for EVERY zip-up, back print readable. NO over-the-shoulder look-backs (Sam: they all look the same). Vary the shot so the back reads naturally, matched to the design's world; never repeat a setup within a collection:
    - walking away: down a trail, across a parking lot to the truck, toward the lake at dawn, down a Christmas-tree-farm row carrying the tree
    - doing the thing, back to camera: casting off a dock, lining up a putt, flipping burgers at the grill, hanging lights on a ladder, loading a tailgate, watching from the bleachers (shot from the row behind), stirring chili at a cook-off
@@ -46,6 +54,7 @@ Why: /hoodies/zip-up-hoodies/ targets the biggest measured hoodie terms (zip up 
    - two-shots: a couple or friends walking away side by side, one wearing the hoodie; family on a hayride or at a bonfire
    - no person: hoodie hung on a cabin door hook, laid back-up across a tailgate or camp chair, folded with the back showing on a porch swing
    Then one front shot (zip half-open over a tee) as image 2. Photo order rule: first image shows the printed side.
+<<<<<<< 54dfcf415cee1e96f525829982bce6c20c9d1cba
 <<<<<<< 1bd0d9c54baaecb7eced4e727b86a93440c57426
 <<<<<<< 08af938210e87d9e707672889f34573376be6850
 <<<<<<< 6c36bced60332fe3a7d1807c002d013f54c2f64b
@@ -58,6 +67,8 @@ Order: 1+4 on the existing 28 zip-ups first (lane C, highest-volume designs firs
 >>>>>>> d3dbd097d17c63b75abdf493059e0d0ec40d0fc9
 =======
 >>>>>>> c418cd159f7126980c2d1e7eb942ee03720f4aad
+=======
+>>>>>>> 3c035c6392b93a589bc1edd126fd41fba58b3472
 5. National-park angle (Sam: "a nod to National Park Tok"): trailhead / overlook / switchback / ranger-campfire humor. HARD LIMITS: never Jen Hamilton's name or likeness, no NPS arrowhead, no "Yellowstone" or other park wordmarks/logos, no real park names as the design's brand. Generic "national park" scenes and jokes only; USPTO-check every line.
 
 Order: 1+4 on the existing 28 zip-ups first (lane C, highest-volume designs first), then 3, then 2. Director reviews side by side against today's version; nothing goes live that looks worse.
@@ -67,12 +78,15 @@ UPDATE 2026-10-21 (Sam, on the Opening Day hunting zip cover: "AI slop! I don't 
 7. Retire the old Opening Day art on zip-ups: redesign it in the current house style (whimsy-first, one dry joke, original art) or replace the product in place with a stronger hunting zip design.
 8. BEEF UP the zip-up collection: audit all zip-ups against the current quality bar (A/B/C grade, docs/backlog/quality-reset.md). Redo every B/C in place. Then brief 10 NEW zip-up designs from measured zip long-tails (sweep RankHero first: "zip up hoodie men", "graphic zip up hoodie", "vintage zip up hoodie", "y2k zip up hoodie", "funny zip up hoodie", "camo zip up hoodie", "oversized zip up hoodie"...), one search per product. Target: /hoodies/zip-up-hoodies/ at 24 A-grade products with lifestyle covers before Nov 8 (Black Friday start).
 9. Every new zip cover goes through the director side by side; any cover with a back zip, a seam down the hood, warped text or a hand on the print is sent back.
+<<<<<<< 54dfcf415cee1e96f525829982bce6c20c9d1cba
 <<<<<<< 1bd0d9c54baaecb7eced4e727b86a93440c57426
 <<<<<<< 08af938210e87d9e707672889f34573376be6850
 >>>>>>> 6ab8202ec18ab2ee33a27542f0eac8eabd21e5d6
 =======
 =======
 >>>>>>> c418cd159f7126980c2d1e7eb942ee03720f4aad
+=======
+>>>>>>> 3c035c6392b93a589bc1edd126fd41fba58b3472
 
 UPDATE 2026-10-21 (Sam: "the backs aren't bad but the front needs to be tighter, and I'm thinking embroidery somehow"). NEW ZIP-UP STANDARD:
 10. Printful #692 (Gildan 18600 zip) offers embroidery_chest_left, embroidery_wrist_left, embroidery_wrist_right (embroidery) plus back (DTG). Build every zip-up as:
@@ -83,13 +97,21 @@ UPDATE 2026-10-21 (Sam: "the backs aren't bad but the front needs to be tighter,
 12. Price: add the embroidery cost on top of today's zip price, keep ~$14-16 profit, end in .99 (rulebook R12.1). Expect about $49.99-54.99; Claude has pricing authority to approve.
 13. Mockups: Printful shows embroidery on the mockup; the gallery order is back print first, then a close-up of the embroidered chest, then the wrist.
 Start with the 6 best-selling-angle designs (golf retired/bad at golf, women's fishing out-fished him, baseball mom batting average, capybara lights, national park, golf swing), then roll to all zip-ups.
+<<<<<<< 54dfcf415cee1e96f525829982bce6c20c9d1cba
 <<<<<<< 1bd0d9c54baaecb7eced4e727b86a93440c57426
 >>>>>>> d3dbd097d17c63b75abdf493059e0d0ec40d0fc9
 =======
+=======
+>>>>>>> 3c035c6392b93a589bc1edd126fd41fba58b3472
 
 UPDATE 2026-10-21 (Sam: "40 on zip up and camo!"). DEPTH TARGET RAISED (overrides R11.5's 24 cap for these two pages):
 14. /hoodies/zip-up-hoodies/ -> 40 A-grade zip-ups. /hoodies/camo-hoodies/ -> 40 A-grade camo hoodies (zip and pullover, including all-over-print camo: pink, woodland, realtree-style generic patterns, no brand camo names).
    - Still one product = one real search (R2.7): sweep RankHero for every zip and camo long-tail first ("camo zip up hoodie", "pink camo hoodie", "realtree hoodie" (generic pattern only, no brand mark), "camo hoodie women", "duck hunting hoodie", "deer camp hoodie", "camo hoodie for men", "orange camo"...). When measured searches run out, fill the rest with distinct design angles (hobby x joke), never near-copies.
    - Milestones: 24 zip-ups by Nov 8 (Black Friday start), 40 zip + 40 camo by Nov 26 (Thanksgiving week, peak hoodie gifting).
    - Lane C takes zip-ups, lane B takes camo, both ahead of every other new brief except Christmas items already in REVIEW.
+<<<<<<< 54dfcf415cee1e96f525829982bce6c20c9d1cba
 >>>>>>> c418cd159f7126980c2d1e7eb942ee03720f4aad
+=======
+
+UPDATE 2026-10-21 (Sam): deadline pulled in to Fri Oct 23 for 40 zip + 40 camo. The Nov dates above are void.
+>>>>>>> 3c035c6392b93a589bc1edd126fd41fba58b3472
