@@ -10915,6 +10915,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "womens-sewing-i-have-enough-fabric-i-dont-hoodie": {
+   "claimed": [
+    "sewing hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "sewing hoodie",
+     "volume": 480,
+     "kd": 28
+    }
+   ],
+   "measured": "2026-10-21"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

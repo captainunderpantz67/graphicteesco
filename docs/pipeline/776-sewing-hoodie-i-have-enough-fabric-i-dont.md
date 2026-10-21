@@ -1,4 +1,5 @@
-status: BUILDING [C] 2026-10-21 01:52 UTC
+status: REVIEW
+shopify: gid://shopify/Product/15371508842800
 lane: C
 type: new
 id: 776
@@ -24,3 +25,4 @@ kd: 28
 ---
 ## Log
 - 2026-10-21 00:55 UTC director: brief written, READY (lane C hoodies cluster; primary measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).
+- 2026-10-21 01:58 UTC lane C: built new. Recraft v4 1 call ($0.04, logged): 1950s woman threading a needle at a vintage sewing machine between two wobbly towers of folded fabric, pincushion and scissors. New helper scripts/prep-seal.py (print-prep's flood leaked through the outline and made her face transparent, so the background is flooded only after the line work is sealed; face, shirt and table stay opaque). Art edges ragged-faded in designs/c_common.py. Lockup (designs/c776/build.py): Bevan, I HAVE ENOUGH / FABRIC. on two lines above, (I DON'T.) below; navy cream + coral with a cream edge on the art, sand deep teal #145c60 + brick red #a83428. 7h: headline 2622 px / punch 3205 px (122%). 7k: type 1024 px of 2295 px print height (45%). 7l: subject 1450 px of 3205 px lockup width = 45%. Light file: Sand on 1090832878 (teal + brick ink, no cream), Navy on 1090832915 (cream headline, coral punch, cream edge). FW 1500 TOP 0. Verified 12/12 (6 Sand, 6 Navy) via GET /sync/products, back logo 1080398177. Shopify DRAFT: title Women's Sewing – I Have Enough Fabric. (I Don't.) Hoodie, category hoodies, $39.99 no compare-at, tags graphic-hoodies-for-women hoodie sewing ai-art intake-done, SEO title 48 / meta 124, FAQ 5 x 50-55 words, order-by Dec 8, keyword sewing hoodie 480/KD 28 in map, 'sewing hoodie' 2x in body. Line one: print's words + who + when, no superlative. Copy checked vs art (woman at machine, two fabric towers, pincushion, scissors). Inks from mockups. Phone-size read of both fronts OK. R6.12/R6.13: front print only, Navy front image 1, neck-logo back last. Cover: flat product shot (retired-covers.json). Etsy and R5.2 proof unverifiable from the builder, director eyeball. Audit only 'not visible'. fal $0.04.
