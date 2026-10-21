@@ -9,6 +9,7 @@ RUNNING director since 2026-10-21 07:15 UTC
 2026-10-21 06:44 UTC — [B] Builder run: #595 Women's Otter Floating Through the Week Tee built to REVIEW (DRAFT 15371583848752, 6 colors 36/36 on 1090951098, FW 1500, new art 1 call, flat cover, audit PASS). fal $0.04.
 2026-10-21 06:36 UTC — [B] Builder run: #590 Women's Capybara I'm the Calm Friend Tee built to REVIEW (DRAFT 15371577458992, 6 colors 36/36 on 1090949236, FW 1500, new art 1 call, flat cover, audit PASS). fal $0.04.
 RUNNING lane E since 2026-10-21 06:21 UTC
+2026-10-21 07:31 UTC — [E] REVIEW #746 Christmas French Bulldog I'm Helping. You're Welcome. mug built to REVIEW (DRAFT 15371668291888, sync 483616261 1/1 on file 1090977392, punch 974 px vs headline 959 px). fal $0.
 2026-10-21 07:26 UTC — [E] REVIEW #750 Men's Archery Aim Small. Miss Anyway. heavyweight hoodie built to REVIEW (DRAFT 15371658166576, Sandstone + Storm Blue 12/12 on 1090975446 and 1090975476, FW 1500, headline 2959 / punch 3016 px, new art 1 call). fal $0.04. fal wallet now exhausted (403).
 2026-10-21 07:16 UTC — [E] REVIEW #722 Women's French Bulldog I Came. I Sat. I Refused. cropped hoodie built to REVIEW (DRAFT 15371646271792, Storm only 5/5 on 1090972894, FW 1500, headline 3274 / punch 3361 px, new art 1 call). fal $0.04.
 2026-10-21 07:11 UTC — [E] PARKED #851 Essentials Oatmeal zip: Printful refuses embroidery + back DTG on #943 (chest-only); costs logged, director picks A/B/C. fal $0.
