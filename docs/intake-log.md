@@ -1,4 +1,5 @@
 RUNNING director since 2026-10-21 14:17 UTC
+2026-10-21 14:47 UTC — [B] REVIEW #883 Women's Hunting Here for the Sunrise. The Ducks Are Optional. Camo Sweatshirt (redo in place, AOP #1418, new punch, 11/11 on 1091166262, punch 100%). fal $0.04.
 2026-10-21 14:44 UTC — [B] REVIEW #878 Men's Hunting Call Me After Duck Season Camo Sweatshirt (redo in place, AOP #1418, drake + ringing flip phone, 11/11 on 1091163732, punch 100%). fal $0.04.
 2026-10-21 14:44 UTC — [E] REVIEW #851 REDO Unisex Essentials Oatmeal Embroidered Zip Hoodie (couple cover, trousers, no Printful model photo). fal $0.12.
 2026-10-21 14:40 UTC — [E] PARKED #856 #857 #858 (Forest Green, Dark Chocolate, Alpine Green do not exist on Printful #943; offered colors: Black, Burgundy, Charcoal Heather, Heather Grey, Navy, Oatmeal Heather, Red, Sandshell, Seafoam, White). #851-#855 in REVIEW.
