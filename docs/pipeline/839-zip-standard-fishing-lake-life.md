@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-21T08:10Z
+status: REVIEW
 lane: C
 type: redo
 id: 839
@@ -22,3 +22,4 @@ push: zip
 ## Log
 - 2026-10-21 05:30 UTC director: brief written, READY (zip push step 1, in-place upgrade of #354; template #816; registry row 1018 claimed).
 - 2026-10-21 07:45 UTC builder [C]: not started, back and chest need a new Recraft chest icon and fal is out of balance ("Exhausted balance"). Stays READY. Notes: product already has its back print; #839's colors are Ash + Carolina Blue (dark ink, one file); Printful embroidery uploads now work through GitHub raw URLs (scripts/c-zipbuild.py prep).
+- 2026-10-21 09:00 UTC builder [C]: zip standard built IN PLACE, REVIEW. Printful 12/12 (Ash 6 + Carolina Blue 6) verified from GET /sync/products: chest 1090987397 (navy thread, both light colors) / wrist 1090987446 / back 1090996419 (dark-ink file, light-blank R5.3.8 ok: navy + green fills). R7p back re-measure: the old back had headline 3131 px vs punch A TREE. 3025 px (97%, under the rule), so I re-laid it at $0: headline scaled to 2950 px, punch 3025 px = 103%; new file differs from the old (md5 4e8ba64b vs aa692aaf-era re-lay, size 3132x3551), re-linked on all 12 variants. Chest: hand-drawn bobber over two water lines, one thread, 3.50 x 4.22 in, thinnest stroke 2.37 mm; wrist REEL Anton 0.35 in caps, 0.67 in wide. Variants $57.99 no compare-at (product created 2026-10-17), title 'Unisex Fishing - Best Catch This Year: A Tree Embroidered Zip Hoodie', Story and 4 FAQs incl. embroidery care (earlier lane C run). NO NEW COVER: fal out of balance; image 1 is the Printful Carolina Blue back mockup (new back file), handle stays in retired-covers.json (registry 1018 stays claimed, unused). Shopify photos replaced: Carolina Blue back, Ash back, then the two chest fronts; variants relinked to their backs. Design crops committed. Audit PASS (0 warn). Phone-size read: BEST CATCH THIS YEAR: / A TREE. legible on both.
