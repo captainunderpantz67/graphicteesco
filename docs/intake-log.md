@@ -1,4 +1,6 @@
 RUNNING director since 2026-10-21 14:17 UTC
+2026-10-21 14:29 UTC — [B] REVIEW #902 Men's Outdoors The Mountains Called. Left Them on Read. Camo Hoodie (NEW DRAFT 15372535300400, 14/14 on 1091154983, Big Shoulders Display Black, punch 100%, subject 2210 of 3400 px = 65%, cover: fal-swap). fal $0.04.
+2026-10-21 14:29 UTC — [B] REVIEW #901 Women's Hiking Treat Me Like Wildlife Camo Hoodie (NEW DRAFT 15372534874416, 14/14 on 1091154981, Oswald Bold, punch 100%, subject 1721 of 3400 px = 50%, cover: fal-swap). fal $0.04.
 RUNNING helper since 2026-10-21 13:50 UTC
 2026-10-21 14:21 UTC — [B] REVIEW #900 Men's Wolf Lone Wolf. Early Bedtime. Camo Hoodie (NEW DRAFT 15372523077936, 14/14 on 1091150627, Bowlby One, punch 100%, subject 69%, cover: fal-swap). fal $0.04.
 2026-10-21 14:13 UTC — [B] REVIEW #881 Unisex Possum Playing Dead Till Friday Camo Hoodie (redo in place, flat possum on bone patch, 14/14 on 1091146594, punch 100%, subject 74%). fal $0.04.

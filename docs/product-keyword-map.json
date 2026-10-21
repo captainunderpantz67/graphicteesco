@@ -11862,6 +11862,32 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-hiking-treat-me-like-wildlife-camo-hoodie": {
+   "claimed": [
+    "hiking camo hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "hiking camo hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-outdoors-mountains-called-left-on-read-camo-hoodie": {
+   "claimed": [
+    "outdoorsman camo hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "outdoorsman camo hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
