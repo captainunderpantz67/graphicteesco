@@ -31,55 +31,18 @@ export interface PickGroup { h2: string; body: string[]; items: Pick[]; links?: 
 
 export const allGuides: Guide[] = [
   {
-    // Gift guide (Claude 2026-10-19). RankHero: gifts for golfers 49,500/42 · golf gifts for men 22,200/40 · funny golf gifts 2,900/34.
-    // Picks are A-grade designs only (quality reset); add golf socks, mugs and ornaments when they go live.
-    slug: 'funny-golf-gifts',
-    keyword: 'funny golf gifts',
-    title: 'Funny Golf Gifts: Shirts & Hoodies Golfers Actually Laugh At',
-    description: 'Funny golf gifts for the golfer who slices, improves his lie and swears the fairway is a rumor. Hoodies, crewnecks and half zips, printed to order.',
-    h1: 'Funny Golf Gifts for Golfers Who Laugh at Their Own Game',
-    date: '2026-10-19',
-    answer: 'The best funny golf gifts poke fun at the golfer\'s own game: the slice that broke a windshield, the "improved" lie, the fairway he never finds. Graphic Tees Co. makes original golf hoodies, crewnecks and half zips with those jokes printed big on the front, starting at $34.99, with one free size exchange.',
-    picks: [
-      {
-        h2: 'Funny golf hoodies and sweatshirts',
-        body: ['Golf season runs into fall and winter, so a warm hoodie or crewneck gets worn on the course, at the range and at the 19th hole.'],
-        items: [
-          { slogan: 'Sorry About Your Windshield.', tee: 'unisex-golf-sorry-about-your-windshield-hoodie', crewneck: 'unisex-golf-sorry-about-your-windshield-crewneck-sweatshirt',
-            text: 'For the golfer whose slice has hit a parked car (or should have). The apology is printed big across the chest, so everyone in the foursome gets it before the first tee.' },
-          { slogan: 'Not Cheating. Improving My Lie.', tee: 'unisex-golf-not-cheating-improving-my-lie-hoodie',
-            text: 'A raccoon nudging a golf ball into a better spot, for the friend who rolls it over in the rough when nobody is looking. The double meaning of "lie" does the rest.' },
-          { slogan: 'Fairways Are a Rumor.', tee: 'mens-golf-fairways-are-a-rumor-half-zip',
-            text: 'For the golfer who plays most of his round from the trees. It comes on a half zip, the classic golf layer.' },
-        ],
-      },
-    ],
-    sections: [
-      { h2: 'What makes a golf gift funny instead of corny?', body: ['The joke has to be about the golfer\'s actual game. Lines about slices, lies and missed fairways land because every golfer has been there; generic "golf is life" slogans do not.', 'Pick the joke that matches his worst habit and he will wear it to prove he can take it.'],
-        links: [{ href: '/hoodies/golf-hoodies/', text: 'Shop all golf hoodies' }] },
-      { h2: 'When to order golf gifts for Christmas', body: ['Every piece is printed after you order it, then shipped. Order by early December to have it under the tree, and earlier is safer during the holiday rush.'] },
-    ],
-    faqs: [
-      { q: 'What is a good funny gift for a golfer?', a: 'A golf hoodie or crewneck with a joke about his own game, like "Sorry About Your Windshield" or "Not Cheating. Improving My Lie." It gets worn on the course and makes the foursome laugh.' },
-      { q: 'What do you get a golfer who has everything?', a: 'Something he would not buy himself: a funny golf hoodie or half zip with an original joke. Equipment is personal; a laugh is not.' },
-      { q: 'Are these golf gifts good for women golfers too?', a: 'Yes. The hoodies and crewnecks come in unisex sizes, and the jokes work for any golfer who has sliced one into the parking lot.' },
-      { q: 'Can I exchange the size if it does not fit?', a: 'Yes. Graphic Tees Co. offers one free size exchange within 30 days of delivery.' },
-    ],
-  },
-  {
     // Writer lane W rewrite (2026-10-21) of the live 'funny-golf-gifts' guide, same slug. Rewrite queue item 2 of 6.
-    // The live entry above stays until the director approves; then swap this one in (drop the older entry, set draft false).
+    // Approved by the director 2026-10-21; replaced the 2026-10-19 entry.
     // Keyword: funny golf gifts 2,900 / KD 34 (RankHero 2026-10-19, carried from the live entry; not re-measured in this unattended run). Owned by this guide; "golf hoodie" stays with /hoodies/golf-hoodies/.
     // Facts (slogans, prices, policies) come from the pipeline files #504 #505 #511 #517 #542 #660 and site.ts. Picks are live A-grade designs listed in fresh-designs.json.
     // Planned siblings (not live yet): golf-gifts-for-him, golf-gifts-for-women, golf-retirement-gifts.
     slug: 'funny-golf-gifts',
     keyword: 'funny golf gifts',
-    title: 'Funny Golf Gifts: 5 Shirts & Hoodies Golfers Laugh At',
+    title: 'Funny Golf Gifts: 5 Hoodies & Sweatshirts Golfers Laugh At',
     description: 'Funny golf gifts that roast the golfer\'s own game: Sorry About Your Windshield, Improving My Lie, Fairways Are a Rumor. Crewnecks from $34.99, hoodies $39.99.',
     h1: 'Funny Golf Gifts for the Golfer Who Laughs at His Own Game',
     date: '2026-10-21',
     cluster: 'hoodies',
-    draft: true,
     answer: 'The best funny golf gifts poke fun at the golfer\'s own game: the slice, the "improved" lie, the fairway he never finds. Graphic Tees Co. has five that do it, printed to order: Sorry About Your Windshield (crewneck $34.99, hoodie $39.99), Not Cheating. Improving My Lie. ($39.99), I Only Golf for the Outfits (cropped hoodie $44.99) and Fairways Are a Rumor (half zip $54.99).',
     picks: [
       {
@@ -270,7 +233,7 @@ export const allGuides: Guide[] = [
   },
   {
     // Writer lane W rewrite (2026-10-21) of the live 'best-funny-thanksgiving-shirts' guide, same slug. Rewrite queue item 1 of 6.
-    // The live entry above stays until the director approves; then swap this one in (drop the older entry, set draft false).
+    // Approved by the director 2026-10-21; replaced the 2026-10-19 entry.
     // Keyword: best funny thanksgiving shirts. The owner of "funny thanksgiving shirt" 4,400/48 is the /funny-thanksgiving-shirts/ collection, so this article targets the "best" variant and links to it.
     // Facts (slogans, art, sizes, prices, dates, policies) carried over from the live entry, which took them from the product copy and /shipping-returns/. Planned siblings (not live yet): best-thanksgiving-shirts-for-family, thanksgiving-turkey-trot-shirts.
     slug: 'best-funny-thanksgiving-shirts',
