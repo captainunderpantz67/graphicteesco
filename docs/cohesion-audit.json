@@ -1,7 +1,6 @@
 {
- "at": "2026-10-21T06:48:52.521Z",
- "at": "2026-10-21T06:48:26.651Z",
- "products": 688,
+ "at": "2026-10-21T07:45:25.078Z",
+ "products": 694,
  "findings": [
   {
    "level": "WARN",
@@ -796,6 +795,13 @@
   },
   {
    "level": "WARN",
+   "handle": "unisex-sloth-replies-in-3-5-business-days-hoodie",
+   "title": "Unisex Sloth – Replies in 3–5 Business Days Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "unisex-cat-knocked-it-off-felt-nothing-hoodie",
    "title": "Unisex Cat – Knocked It Off. Felt Nothing. Hoodie",
    "msg": "No lifestyle cover photo.",
@@ -805,6 +811,41 @@
    "level": "WARN",
    "handle": "unisex-gamer-five-more-minutes-its-3-am-hoodie",
    "title": "Unisex Gamer – Five More Minutes. (It's 3 A.M.) Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-dirt-bike-full-send-mostly-mud-hoodie",
+   "title": "Men's Dirt Bike – Full Send. Mostly Mud. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-police-off-duty-still-judging-your-parking-hoodie",
+   "title": "Unisex Police – Off Duty. Still Judging Your Parking. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-doodle-groomer-appointment-overdue-hoodie",
+   "title": "Unisex Doodle – Groomer Appointment: Overdue. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-running-here-for-the-free-banana-graphic-tee",
+   "title": "Women's Running – Here for the Free Banana Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-french-bulldog-personal-space-never-heard-of-her-crewneck-sweatshirt",
+   "title": "Women's French Bulldog – Personal Space? Never Heard of Her. Crewneck Sweatshirt",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   }
