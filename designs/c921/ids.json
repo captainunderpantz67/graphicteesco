@@ -1,0 +1,38 @@
+{
+ "chest_white": {
+  "id": 1091103084,
+  "url": "https://v3b.fal.media/files/b/0aaf4552/2M3kX5AfvWIMwEvAgancq_t21ac921_chest_white.png",
+  "w": 1200,
+  "h": 1142
+ },
+ "wrist_white": {
+  "id": 1091103145,
+  "url": "https://v3b.fal.media/files/b/0aaf4552/XiqzycZZJ5w-_GE1KGJHS_t21ac921_wrist_white.png",
+  "w": 600,
+  "h": 144
+ },
+ "chest_navy": {
+  "id": 1091103246,
+  "url": "https://v3b.fal.media/files/b/0aaf4553/mW62vhkve6WV06zF2KANv_t21ac921_chest_navy.png",
+  "w": 1200,
+  "h": 1142
+ },
+ "wrist_navy": {
+  "id": 1091103391,
+  "url": "https://v3b.fal.media/files/b/0aaf4554/Wpm5sVR_gmxGVSMMsg0eO_t21ac921_wrist_navy.png",
+  "w": 600,
+  "h": 144
+ },
+ "back_ash": {
+  "id": 1091103520,
+  "url": "https://v3b.fal.media/files/b/0aaf4555/0ZjP2eO9xRqcsiKJcW4Vp_t21aprint-files_921-strawberry-ash.png",
+  "w": 3000,
+  "h": 3403
+ },
+ "back_navy": {
+  "id": 1091103650,
+  "url": "https://v3b.fal.media/files/b/0aaf4556/FJNl2siTVvx7Kndbs2lJo_t21aprint-files_921-strawberry-light.png",
+  "w": 3000,
+  "h": 3403
+ }
+}
