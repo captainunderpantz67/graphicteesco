@@ -90,3 +90,5 @@ UPDATE 2026-10-21 (Sam: "spend time to make sure you add all the different color
    - CAMO PULLOVERS (IND4000): Forest Camo, Duck Camo, Darkwood Tree Camo, Deadwood Tree Camo, Black Camo (all 5) on every camo hoodie whose patch passes the contrast proof (items 19-22); SS4500 midweight: Forest, Duck, Black Camo.
    - ALL-OVER-PRINT camo patterns (#717, one product per pattern since AOP has no color variants): woodland, pink camo, marsh/duck, blaze orange camo, snow camo, black (night) camo, desert/digital camo. Each a separate listing with its own measured long-tail ("pink camo zip up hoodie", "orange camo hoodie", "snow camo hoodie"...).
    - Store swatches: add any new color names to src/lib/swatches.ts so the color dots show on product cards.
+
+UPDATE 2026-10-21 03:40 UTC (Sam: go). BUILD ORDER: 1) existing zip-up upgrades + embroidery pilot, 2) 3 AOP pilots only (pink camo, 16a golf map, 16e hidden Bigfoot) then pause AOP for Sam's review, 3) camo redo, 4) new designs. Quality beats the Oct 23 date.
