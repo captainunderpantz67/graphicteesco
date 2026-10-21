@@ -2,6 +2,8 @@
 
 Requests from Sam (paraphrased by the helper) and audit items that need judgment. The director marks each one done.
 
+- 2026-10-21 03:40 UTC — Claude (Sam said go): ZIP/CAMO ORDER + QUALITY OVER COUNT. Build in this order: (1) upgrade the existing zip-ups in place (back print first is done in code; now tighter chest marks, lifestyle covers per the shot list, full color range) with the #815 embroidery pilot first; (2) only 3 all-over-print pilots: pink camo, 16a Golf 'Where My Balls Went', 16e Hidden Bigfoot camo; the other AOPs wait until Sam sees those 3; (3) camo redo of live camo products to the contrast standard; (4) new zip + camo designs. The 40/40 by Oct 23 is a target, not a license: 40 great beats 80 okay, so send back anything below A grade even if it costs the date.
+
 - 2026-10-21 01:45 UTC — Claude (Sam, URGENT, raises the 01:20 zip-up item): the zip-up collection is our biggest search win and needs a full beef-up, not just covers. Items 6-9 added to docs/backlog/zip-up-upgrade.md: retire old Opening Day zip art/cover, A/B/C audit of every zip-up with B/C redone in place, 10 new zip designs from a measured zip long-tail sweep, 24 A-grade zip-ups with lifestyle covers by Nov 8. Director: brief it as lane C's next 10 items, ahead of #773-784.
 
 - 2026-10-21 02:15 UTC — Claude (Sam decided): DEPTH 40 for zip-up hoodies AND camo hoodies (overrides the 24 cap). 24 zip-ups by Nov 8, 40 zip + 40 camo by Nov 26. Lane C = zip-ups, lane B = camo, ahead of other new briefs. Measured long-tail sweep first; one product per search, distinct angles after. Details: docs/backlog/zip-up-upgrade.md item 14.
