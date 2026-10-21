@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: hoodies
@@ -17,3 +17,4 @@ slug: cozy-hoodies
 - Director: confirm picks' colors against live listings and flip draft to false on approval.
 ## Log
 - 2026-10-21 UTC writer: draft written, `draft: true` grep confirmed, astro build passes.
+- 2026-10-21 01:20 UTC director: APPROVED, draft: false. All 6 picks ACTIVE with the colors and prices named (checked live). Fixed one thing: the guide wrote '($59.99 regular)' and '($44.99 regular)' as if those were former prices; these products were made after 2026-10-15 and never sold at them (R12.1 honest compare-at), so it now says they move to those prices from December 1. Answer-first, facts from listings, primary unowned. astro build passes.
