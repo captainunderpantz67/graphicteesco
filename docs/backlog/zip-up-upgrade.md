@@ -51,3 +51,15 @@ UPDATE 2026-10-21 (Sam: "what about an all over print zip up"). ALL-OVER-PRINT Z
    - lake life (scattered lures and bobbers), golf course (tees and balls), trailhead topo-map lines (generic contour map, no park names), Christmas (ugly-sweater knit pattern for the Christmas cluster)
 17. Pattern seams: align across zipper and side seams, hood lining plain; check every panel on the Printful mockup before review. Lifestyle covers per item 4 (no over-the-shoulder).
 18. Note on the page and product copy: polyester, sublimation-printed edge to edge, so the whole hoodie is the design (answer-first FAQ: "Is the all-over print hoodie cotton?" -> No, recycled polyester fleece).
+<<<<<<< 7b62112f8f7395ecce58f9773394af01474ecf78
+=======
+
+UPDATE 2026-10-21 (Sam: "the camo designs suck. We need them sharp and high contrast, especially on camo"). CAMO DESIGN STANDARD (applies to every camo product, new and existing):
+19. Patch construction: the art sits inside ONE solid shape (circle, shield, badge or rectangle patch) filled cream/bone or blaze orange, with a thick dark outline (about 0.2 in at print size). Nothing floats directly on the camo except the patch and the lettering.
+20. Ink: 2-3 solid inks max per design (e.g. black + blaze orange + bone). No vintage distress, grain, halftone fade, gradients or muted earth tones (olive, tan, brown vanish into camo). Lines bold enough to read at phone size.
+21. Lettering: heavy condensed or slab, solid bone/white or blaze orange, with a solid dark keyline/stroke; never pattern-filled (R3 #10). The joke must read in one glance from 6 feet.
+22. Proof on the busiest colors: Duck Camo and Deadwood Tree mockups at phone size before review; the director sends back anything that blends.
+23. Colors to use: IND4000 heavyweight (Forest, Duck, Darkwood Tree, Deadwood Tree, Black Camo; $49.99/$54.99 per R12.1), SS4500 midweight (Forest, Duck, Black Camo; price to ~$15 profit) for a lighter option, Independent EXP54LWZ zip windbreaker (Forest, Black, White/snow camo) as a camo zip, and the #717 all-over-print zip for pink / blaze orange / snow camo. Each product: 2-3 camo colors that suit the design (Black Camo for night/duck jokes, Forest for deer camp, Deadwood for late season).
+24. Embroidered patch option: camo + an embroidered chest patch reads premium and always contrasts; do it on the best 6 (IND4000 supports embroidery? verify placements first).
+25. Redo every live camo product that fails 19-22 in place (same handle), worst first; director grades before rebuilding.
+>>>>>>> 0aea01f84c7f37cf33b7271a88d3d2900d4a9b34
