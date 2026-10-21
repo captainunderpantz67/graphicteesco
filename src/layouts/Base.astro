@@ -79,6 +79,8 @@ const ld = [organization(live), website(), ...schema];
       <div class="container-x flex items-center justify-between h-16 gap-4">
         <a href="/" class="display misprint text-3xl tracking-tight">{site.name}</a>
         <nav aria-label="Main" class="hidden md:flex items-center gap-6 text-sm font-semibold uppercase tracking-wide">
+          <a href="/black-friday/" class="rounded-full bg-[var(--color-ink)] text-[var(--color-mustard)] px-3 py-1 hover:bg-[var(--color-rust)] hover:text-[var(--color-cream)]">Black Friday</a>
+          <a href="/gifts/" class="text-[var(--color-rust)] hover:text-[var(--color-ink)]">Gifts</a>
           <a href="/graphic-tees-for-men/" class="hover:text-[var(--color-rust)]">Men</a>
           <a href="/graphic-tees-for-women/" class="hover:text-[var(--color-rust)]">Women</a>
           {seasonal.length > 0 && <details class="relative group">
@@ -107,7 +109,11 @@ const ld = [organization(live), website(), ...schema];
           </button>
           <details class="md:hidden">
             <summary class="list-none cursor-pointer font-semibold uppercase text-sm" aria-label="Menu">Menu</summary>
-            <div class="absolute left-0 right-0 top-16 bg-[var(--color-paper)] border-b border-[var(--color-line)] p-4 grid gap-2 z-40">
+            <div class="absolute left-0 right-0 top-16 bg-[var(--color-paper)] border-b border-[var(--color-line)] p-4 grid gap-2 z-40 max-h-[80vh] overflow-y-auto">
+              <div class="grid grid-cols-2 gap-2 mb-2">
+                <a href="/black-friday/" class="rounded-[12px] bg-[var(--color-ink)] text-[var(--color-mustard)] border-2 border-[var(--color-ink)] px-3 py-3 text-center font-extrabold uppercase tracking-[.08em] text-sm">Black Friday</a>
+                <a href="/gifts/" class="rounded-[12px] bg-[var(--color-rust)] text-[var(--color-cream)] border-2 border-[var(--color-ink)] px-3 py-3 text-center font-extrabold uppercase tracking-[.08em] text-sm">Gifts &amp; stockings</a>
+              </div>
               {seasonal.length > 0 && <p class="text-xs font-bold uppercase tracking-[.14em] text-[var(--color-rust)]">Holidays</p>}
               {seasonal.map((c) => <a href={pathFor(c)} class="font-semibold text-[var(--color-rust)]">{c.h1}</a>)}
               {seasonal.length > 0 && <p class="mt-2 text-xs font-bold uppercase tracking-[.14em] text-[var(--color-ink-2)]">Shop</p>}

@@ -1,50 +1,185 @@
 ---
+// Hoodies hub (cluster "hoodies", docs/clusters.md). Redesign 2026-10-20 (Sam: "absolutely terrible to navigate…
+// keep the text for SEO but make it way more user-friendly"): photo tiles grouped by style / fit / interest,
+// featured hoodies, the copy restyled into answer cards (never deleted), FAQ kept.
 import Base from '../../layouts/Base.astro';
-import { hoodies, pathFor } from '../../data/collections';
-import { breadcrumbs, faqPage } from '../../lib/schema';
+import Faq from '../../components/Faq.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import { hoodies, pathFor, type Collection } from '../../data/collections';
+import { breadcrumbs, faqPage, itemListOfCollections } from '../../lib/schema';
 import { site } from '../../data/site';
 import { linkableSlugs } from '../../lib/linkable';
-import { clusters } from '../../data/clusters';
 import { guides } from '../../data/guides';
+import { getAllProducts } from '../../lib/shopify';
+import { coverFor } from '../../data/covers';
 
-// Only collections that are live and indexable get a card (no links to thin or held pages).
+// Only collections that are live and indexable get a tile (no links to thin or held pages).
 const live = await linkableSlugs();
-// Hub of the hoodies cluster: its spokes first (search-volume order), then every other live hoodie collection.
-const k = clusters.find((x) => x.id === 'hoodies')!;
-const ordered = [...k.spokes.map((s) => hoodies.find((c) => c.slug === s)!).filter(Boolean), ...hoodies.filter((c) => !k.spokes.includes(c.slug))];
-const reads = guides.filter((g) => g.cluster === 'hoodies');
+const products = (await getAllProducts()).filter((p) => !p.sample && p.images.length > 0);
+const isHoodie = (p: (typeof products)[number]) => /hood|zip|half-zip|pullover/i.test(`${p.productType} ${p.title}`);
+const hoodieProducts = products.filter(isHoodie);
 
+const groups: { title: string; blurb: string; slugs: string[] }[] = [
+  { title: 'By style', blurb: 'Zip-up, oversized, heavyweight and more.', slugs: ['zip-up-hoodies', 'oversized-hoodies', 'heavyweight-hoodies', 'half-zip-pullovers', 'cropped-hoodies', 'embroidered-hoodies'] },
+  { title: 'For him & her', blurb: "Men's and women's fits.", slugs: ['graphic-hoodies-for-men', 'zip-up-hoodies-for-men', 'oversized-hoodies-for-men', 'gym-hoodies-for-men', 'graphic-hoodies-for-women', 'zip-up-hoodies-for-women'] },
+  { title: 'By what you love', blurb: 'Hobbies, pets and the outdoors.', slugs: ['camo-hoodies', 'hunting-hoodies', 'fishing-hoodies', 'western-hoodies', 'golf-hoodies', 'gym-hoodies', 'running-hoodies', 'national-park-hoodies', 'christian-hoodies', 'anime-hoodies', 'y2k-hoodies', 'cat-hoodies', 'pit-bull-hoodies', 'capybara-hoodies', 'dachshund-hoodies'] },
+  { title: 'Seasonal', blurb: 'Holiday hoodies while they last.', slugs: ['christmas-hoodies', 'halloween-hoodies'] },
+];
+// Any hoodie collection not placed above still gets a tile.
+const placed = new Set(groups.flatMap((g) => g.slugs));
+groups[2].slugs.push(...hoodies.filter((c) => !placed.has(c.slug)).map((c) => c.slug));
+
+// Each tile gets its own photo: a lifestyle cover not already used by another tile, else a product shot.
+const usedPhotos = new Set<string>();
+const photoFor = (c: Collection) => {
+  const inC = hoodieProducts.filter((p) => p.collections?.includes(c.shopifyHandle));
+  const design = (t: string) => t.replace(/^.*?–\s*/, '').replace(/\s+(zip hoodie|oversized hoodie|hoodie|half-zip.*)$/i, '').toLowerCase();
+  const fresh = inC.filter((p) => !usedPhotos.has(design(p.title)));
+  const pick = fresh.find((p) => coverFor(p.handle)) ?? fresh[0] ?? inC[0];
+  if (!pick) return null;
+  usedPhotos.add(design(pick.title));
+  const cov = coverFor(pick.handle);
+  if (cov) return { src: cov.src, alt: cov.alt, local: true };
+  const img = pick.images[0];
+  return { src: `${img.url}&width=500`, alt: img.altText || c.h1, local: false };
+};
+const tiles = groups
+  .map((g) => ({ ...g, items: g.slugs.map((s) => hoodies.find((c) => c.slug === s)).filter((c): c is Collection => !!c && live.has(c.slug)).map((c) => ({ c, photo: photoFor(c) })) }))
+  .filter((g) => g.items.length > 0);
+const liveCollections = tiles.flatMap((g) => g.items.map((i) => i.c));
+
+// Featured: hoodies that have a lifestyle cover first, one per design family, newest first.
+const seen = new Set<string>();
+const featured = [...hoodieProducts.filter((p) => coverFor(p.handle)), ...hoodieProducts]
+  .filter((p) => { const k = p.title.replace(/\s+(hoodie|zip hoodie|oversized hoodie).*$/i, '').toLowerCase(); if (seen.has(k)) return false; seen.add(k); return true; })
+  .slice(0, 8);
+
+const reads = guides.filter((g) => g.cluster === 'hoodies');
+const facts = ['Hoodies from $39.99', 'Free US shipping on $45+', '1 free size exchange'];
+
+// The page copy, kept for search and restyled as answer cards (first sentence answers the question).
+const answers = [
+  { q: 'What are graphic hoodies?', a: 'Graphic hoodies are hooded sweatshirts with a printed design on the front. Ours carry the same fishing, hunting, western and gym designs as our tees, on pullover, zip-up, heavyweight and oversized hoodies.', link: { href: '/hoodies/zip-up-hoodies/', text: 'Zip-up hoodies' } },
+  { q: 'Zip-up or pullover?', a: 'Pick a zip-up if you layer and run warm, and a pullover if you want the design front and center with no zipper through it. Most designs come in both.', link: { href: '/hoodies/zip-up-hoodies-for-men/', text: "Men's zip-ups" } },
+  { q: 'What is a heavyweight hoodie?', a: 'A heavyweight hoodie uses thicker fleece, so it feels warmer and holds its shape wash after wash. It is the one to grab for deer camp, football Fridays and cold mornings.', link: { href: '/hoodies/heavyweight-hoodies/', text: 'Heavyweight hoodies' } },
+  { q: 'How do oversized hoodies fit?', a: 'Oversized hoodies are cut roomier through the body and sleeves for a relaxed, dropped-shoulder look. Order your usual size for the oversized fit, or one size down for a closer fit.', link: { href: '/hoodies/oversized-hoodies/', text: 'Oversized hoodies' } },
+  { q: 'Are the designs original?', a: 'Yes. Every design is made for this shop, with no licensed characters or resold stock art, and each hoodie is printed after you order it.' },
+  { q: 'How much do the hoodies cost and how fast do they ship?', a: `Hoodies start at $39.99, US shipping is free on orders over $45, and one free size exchange within 30 days covers a size guess. Each one is printed to order, then shipped with tracking.` },
+];
+const tones = [
+  ['var(--color-rust)', 'var(--color-cream)', 'var(--color-mustard)'],
+  ['var(--color-navy)', 'var(--color-cream)', 'var(--color-mustard)'],
+  ['var(--color-mustard)', 'var(--color-ink)', 'var(--color-rust)'],
+  ['var(--color-moss)', 'var(--color-cream)', 'var(--color-mustard)'],
+];
 const faqs = [
   { q: 'Are these the same designs as your graphic tees?', a: 'Yes. Most tee designs are also printed on hoodies, so you can wear the same art all year.' },
   { q: 'What hoodie styles do you carry?', a: 'Pullover, zip-up, heavyweight and oversized styles, depending on the design.' },
   { q: 'Are the designs original?', a: 'Yes. Every design is made for this shop — no licensed characters or resold stock art.' },
 ];
+const img = (u: string, w: number) => (u.startsWith('/') ? u : `${u}${u.includes('?') ? '&' : '?'}width=${w}`);
 ---
 <Base title={`Graphic Hoodies — Original Designs | ${site.name}`} noindex={!site.facts.hoodiesLive}
   description="Original graphic hoodies: fishing, hunting, western, gym and seasonal designs on pullover, zip-up, heavyweight and oversized hoodies."
-  schema={[breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Hoodies', path: '/hoodies/' }]), faqPage(faqs)]}>
-  <section class="container-x pt-10 pb-8">
-    <p class="eyebrow">Same designs, warmer</p>
-    <h1 class="display text-5xl md:text-7xl mt-2">Graphic Hoodies</h1>
-    <p class="mt-4 max-w-2xl text-lg text-[var(--color-ink-2)]">Original graphic hoodies — the same fishing, hunting, western and gym designs as our tees, on pullover, zip-up, heavyweight and oversized hoodies.</p>
+  schema={[breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Hoodies', path: '/hoodies/' }]), faqPage([...answers, ...faqs]), itemListOfCollections(liveCollections, 'Graphic hoodie collections')]}>
+
+  <!-- HERO -->
+  <section class="bg-[var(--color-navy)] text-[var(--color-cream)] border-b-2 border-[var(--color-ink)]">
+    <div class="container-x pt-8 pb-10 md:pt-14 md:pb-14">
+      <nav aria-label="Breadcrumb" class="text-xs opacity-75"><a href="/" class="hover:underline">Home</a> / <span>Hoodies</span></nav>
+      <p class="eyebrow mt-6" style="color:var(--color-mustard)">Same designs, warmer</p>
+      <h1 class="display text-[clamp(3rem,13vw,6.5rem)] leading-[.88] mt-2">Graphic <span class="text-[var(--color-mustard)]">Hoodies</span></h1>
+      <p class="mt-4 max-w-2xl text-lg opacity-90">Original graphic hoodies — the same fishing, hunting, western and gym designs as our tees, on pullover, zip-up, heavyweight and oversized hoodies.</p>
+      <ul class="mt-6 flex flex-wrap gap-2">
+        {facts.map((f) => <li class="rounded-full border border-[var(--color-cream)]/40 px-3.5 py-1.5 text-sm font-semibold">{f}</li>)}
+      </ul>
+      <!-- Jump links: one tap to each group -->
+      <div class="mt-8 flex gap-2 overflow-x-auto -mx-4 px-4 pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        {tiles.map((g, i) => (
+          <a href={`#g${i}`} class="shrink-0 rounded-full bg-[var(--color-cream)] text-[var(--color-ink)] border-2 border-[var(--color-ink)] px-4 py-2 text-sm font-extrabold uppercase tracking-[.08em] shadow-[3px_3px_0_var(--color-ink)] hover:bg-[var(--color-mustard)]">{g.title}</a>
+        ))}
+      </div>
+    </div>
   </section>
-  <section class="container-x grid grid-cols-2 md:grid-cols-3 gap-4">
-    {ordered.filter((c) => live.has(c.slug)).map((c) => (
-      <a href={pathFor(c)} class="group border border-[var(--color-line)] p-6 hover:border-[var(--color-ink)]">
-        <p class="eyebrow">{c.seasonal ? 'Seasonal' : 'Collection'}</p>
-        <p class="display text-3xl mt-2 group-hover:text-[var(--color-rust)]">{c.h1}</p>
-        <p class="mt-2 text-sm text-[var(--color-ink-2)] line-clamp-2">{c.intro}</p>
-      </a>
-    ))}
-  </section>
-  {reads.length > 0 && (
-    <section class="container-x mt-16 max-w-3xl">
-      <p class="eyebrow mb-3">Hoodie guides</p>
-      <ul class="grid gap-2">{reads.map((g) => <li><a href={`/guides/${g.slug}/`} class="font-semibold underline decoration-[var(--color-rust)] underline-offset-4 hover:text-[var(--color-rust)]">{g.h1}</a></li>)}</ul>
+
+  <!-- SHOP BY: photo tiles per group -->
+  {tiles.map((g, gi) => (
+    <section id={`g${gi}`} class="container-x pt-12 scroll-mt-24">
+      <div class="flex items-end justify-between gap-4">
+        <div>
+          <h2 class="display text-[clamp(2.2rem,8vw,3.4rem)] leading-[.9]">{g.title}</h2>
+          <p class="mt-1 text-[var(--color-ink-2)]">{g.blurb}</p>
+        </div>
+      </div>
+      <div class="mt-5 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
+        {g.items.map(({ c, photo }, i) => {
+          const [bg, fg] = tones[(gi + i) % tones.length];
+          return (
+            <a href={pathFor(c)} class="group relative overflow-hidden rounded-[16px] border-2 border-[var(--color-ink)] shadow-[3px_3px_0_var(--color-ink)] hover:-translate-y-0.5 hover:shadow-[5px_6px_0_var(--color-ink)] transition-all bg-white aspect-[4/5] flex flex-col">
+              <div class="relative flex-1 min-h-0 bg-white">
+                {photo
+                  ? <img src={img(photo.src, 500)} alt={photo.alt} loading={gi === 0 && i < 4 ? 'eager' : 'lazy'} width="400" height="400" class={`absolute inset-0 w-full h-full ${photo.local ? 'object-cover object-[50%_25%]' : 'object-contain p-2'} group-hover:scale-[1.03] transition-transform`} />
+                  : <div class="absolute inset-0 grain"></div>}
+              </div>
+              <div class="px-3 py-2.5 border-t-2 border-[var(--color-ink)] flex items-center justify-between gap-2" style={`background:${bg};color:${fg}`}>
+                <span class="font-extrabold leading-tight text-[15px] md:text-base">{c.h1.replace(/^Graphic Hoodies For /i, '').replace(/ Hoodies?$/i, '').replace(/^Men's /, "Men's ").trim() || c.h1}</span>
+                <span aria-hidden="true" class="font-bold">→</span>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+  ))}
+
+  <!-- FEATURED HOODIES -->
+  {featured.length > 0 && (
+    <section class="mt-16 bg-[var(--color-paper-2)] border-y-2 border-[var(--color-ink)] py-12">
+      <div class="container-x">
+        <h2 class="display text-[clamp(2.2rem,8vw,3.4rem)] leading-[.9]">Fan <span class="text-[var(--color-rust)]">favorites</span></h2>
+        <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-8">
+          {featured.map((p) => <ProductCard product={p} />)}
+        </div>
+      </div>
     </section>
   )}
-  <section class="container-x mt-16 max-w-3xl prose-copy">
-    <h2>FAQ</h2>
-    <dl class="grid gap-4 mt-4">{faqs.map((f) => <div><dt class="font-semibold">{f.q}</dt><dd class="mt-1 text-[var(--color-ink-2)]">{f.a}</dd></div>)}</dl>
+
+  <!-- ANSWERS: the page copy as swipeable cards (all text stays in the HTML for search) -->
+  <section class="container-x mt-16">
+    <div class="flex items-end justify-between gap-4">
+      <p class="display text-[clamp(2.2rem,8vw,3.4rem)] leading-[.9]">Hoodies, <span class="text-[var(--color-rust)]">answered</span></p>
+      <div class="hidden sm:flex gap-2 shrink-0" data-answers-nav>
+        <button type="button" aria-label="Previous answer" data-dir="-1" class="w-11 h-11 rounded-full border-2 border-[var(--color-ink)] bg-[var(--color-cream)] shadow-[2px_2px_0_var(--color-ink)] font-bold hover:bg-[var(--color-rust)] hover:text-[var(--color-cream)]">←</button>
+        <button type="button" aria-label="Next answer" data-dir="1" class="w-11 h-11 rounded-full border-2 border-[var(--color-ink)] bg-[var(--color-cream)] shadow-[2px_2px_0_var(--color-ink)] font-bold hover:bg-[var(--color-rust)] hover:text-[var(--color-cream)]">→</button>
+      </div>
+    </div>
+    <div data-answers class="mt-6 -mx-4 px-4 flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+      {answers.map((x, i) => {
+        const [bg, fg, ac] = tones[i % tones.length];
+        return (
+          <article class="snap-start shrink-0 w-[84%] sm:w-[60%] md:w-[40%] rounded-[18px] border-2 border-[var(--color-ink)] shadow-[4px_4px_0_var(--color-ink)] p-6 flex flex-col" style={`background:${bg};color:${fg}`}>
+            <span class="display text-5xl leading-none" style={`color:${ac}`}>{String(i + 1).padStart(2, '0')}</span>
+            <h2 class="display mt-3 text-[1.9rem] leading-[.95]" style={`color:${fg}`}>{x.q}</h2>
+            <p class="mt-3 text-[15px] leading-relaxed" style={`color:${fg};opacity:.92`}>{x.a}</p>
+            {x.link && live.has(x.link.href.split('/').filter(Boolean).pop()!) && <a href={x.link.href} class="mt-auto pt-4 font-bold uppercase tracking-[.12em] text-xs" style={`color:${ac}`}>{x.link.text} →</a>}
+          </article>
+        );
+      })}
+    </div>
+    <script>
+      const track = document.querySelector<HTMLElement>('[data-answers]');
+      document.querySelectorAll<HTMLButtonElement>('[data-answers-nav] button').forEach((b) =>
+        b.addEventListener('click', () => track?.scrollBy({ left: Number(b.dataset.dir) * track.clientWidth * 0.8, behavior: 'smooth' })));
+    </script>
+  </section>
+
+  <section class="container-x mt-14 grid lg:grid-cols-[2fr_1fr] gap-10">
+    <div class="min-w-0"><Faq faqs={faqs} heading="Hoodie FAQ" /></div>
+    {reads.length > 0 && (
+      <aside class="self-start rounded-[18px] border-2 border-[var(--color-ink)] bg-[var(--color-cream)] p-6 shadow-[4px_4px_0_var(--color-ink)]">
+        <p class="eyebrow">Hoodie guides</p>
+        <ul class="mt-3 grid gap-2">{reads.map((g) => <li><a href={`/guides/${g.slug}/`} class="font-bold hover:text-[var(--color-rust)]">{g.h1} →</a></li>)}</ul>
+      </aside>
+    )}
   </section>
 </Base>

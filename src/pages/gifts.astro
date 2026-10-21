@@ -1,0 +1,47 @@
+---
+// Gifts & stocking stuffers (Sam 2026-10-20: "I can't find the ornaments or socks"). A shopping page for the
+// gift add-ons (docs/backlog/gift-addons.md) that have no collection page yet. noindex until a measured keyword
+// is chosen for it (rulebook buy-the-bottom gate); the stocking-stuffer guide is the search page.
+import Base from '../layouts/Base.astro';
+import ProductCard from '../components/ProductCard.astro';
+import { getAllProducts } from '../lib/shopify';
+import { site } from '../data/site';
+import { blackFriday } from '../data/deals';
+
+const products = (await getAllProducts()).filter((p) => !p.sample && p.images.length > 0);
+const kinds: { id: string; title: string; blurb: string; test: RegExp }[] = [
+  { id: 'ornaments', title: 'Ornaments', blurb: 'Ceramic ornaments with our funniest designs. Easy tree-swap and white elephant gifts.', test: /ornament/i },
+  { id: 'socks', title: 'Socks', blurb: 'The stocking stuffer that actually gets worn.', test: /\bsocks?\b/i },
+  { id: 'mugs', title: 'Mugs', blurb: 'Coffee, cocoa, or the desk pencil cup.', test: /\bmug\b/i },
+  { id: 'cozy', title: 'Sweatpants', blurb: 'Pair them with a matching hoodie for the full couch set.', test: /sweatpants|joggers/i },
+  { id: 'family', title: 'Matching family', blurb: 'One design for the whole crew, from grown-ups down to the baby.', test: /bodysuit|youth|matching family/i },
+];
+const sections = kinds.map((k) => ({ ...k, items: products.filter((p) => k.test.test(`${p.productType} ${p.title}`)) })).filter((s) => s.items.length > 0);
+const bfStart = new Date(blackFriday.start).toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'America/Chicago' });
+---
+<Base title={`Gifts & Stocking Stuffers | ${site.name}`} noindex={true}
+  description="Funny gifts and stocking stuffers from Graphic Tees Co.: ornaments, socks, mugs, sweatpants and matching family sets with original designs.">
+  <section class="bg-[var(--color-rust)] text-[var(--color-cream)] border-b-2 border-[var(--color-ink)]">
+    <div class="container-x pt-8 pb-10 md:pt-14 md:pb-14">
+      <nav aria-label="Breadcrumb" class="text-xs opacity-80"><a href="/" class="hover:underline">Home</a> / <span>Gifts</span></nav>
+      <p class="eyebrow mt-6" style="color:var(--color-mustard)">Under the tree, in the stocking</p>
+      <h1 class="display text-[clamp(3rem,13vw,6.5rem)] leading-[.88] mt-2">Gifts &amp; <span class="text-[var(--color-ink)]">stocking stuffers</span></h1>
+      <p class="mt-4 max-w-2xl text-lg opacity-95">Ornaments, socks, mugs and cozy sets with the same original designs as our tees. Mix them into an order: Black Friday tiers start {bfStart} (buy 2 save 15%, buy 4+ save 25%) and US shipping is free on $45+.</p>
+      <div class="mt-8 flex gap-2 overflow-x-auto -mx-4 px-4 pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        {sections.map((s) => <a href={`#${s.id}`} class="shrink-0 rounded-full bg-[var(--color-cream)] text-[var(--color-ink)] border-2 border-[var(--color-ink)] px-4 py-2 text-sm font-extrabold uppercase tracking-[.08em] shadow-[3px_3px_0_var(--color-ink)] hover:bg-[var(--color-mustard)]">{s.title} ({s.items.length})</a>)}
+        <a href="/black-friday/" class="shrink-0 rounded-full bg-[var(--color-ink)] text-[var(--color-mustard)] border-2 border-[var(--color-ink)] px-4 py-2 text-sm font-extrabold uppercase tracking-[.08em]">Black Friday deals →</a>
+      </div>
+    </div>
+  </section>
+
+  {sections.map((s) => (
+    <section id={s.id} class="container-x pt-12 scroll-mt-24">
+      <h2 class="display text-[clamp(2.2rem,8vw,3.4rem)] leading-[.9]">{s.title}</h2>
+      <p class="mt-1 text-[var(--color-ink-2)]">{s.blurb}</p>
+      <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-8">
+        {s.items.map((p, i) => <ProductCard product={p} eager={i < 2 && s === sections[0]} />)}
+      </div>
+    </section>
+  ))}
+  {sections.length === 0 && <p class="container-x py-16 text-center text-[var(--color-ink-2)]">New gifts are landing here soon.</p>}
+</Base>
