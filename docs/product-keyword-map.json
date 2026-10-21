@@ -11901,6 +11901,45 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-essentials-burgundy-zip-hoodie": {
+   "claimed": [
+    "maroon hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "maroon hoodie",
+     "volume": 8100,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "mens-gym-twelve-labors-zero-cardio-embroidered-zip-hoodie": {
+   "claimed": [
+    "greek gym zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "greek gym zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "unisex-national-park-running-late-bison-traffic-embroidered-zip-hoodie": {
+   "claimed": [
+    "national park zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "national park zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
