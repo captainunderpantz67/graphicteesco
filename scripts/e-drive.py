@@ -15,7 +15,13 @@ def get(p):
 files = {}
 for c, png, vid in items:
     if png not in files:
-        url = subprocess.check_output([sys.executable, 'scripts/fal-host.py', png], text=True).strip()
+        try: url = subprocess.check_output([sys.executable, 'scripts/fal-host.py', png], text=True, stderr=subprocess.DEVNULL).strip()
+        except Exception:  # fal wallet empty (403): the repo is public, so a pushed docs/print-files/ file is a public URL
+            sha = subprocess.check_output(['git', 'ls-remote', 'origin', 'refs/heads/main'], text=True).split()[0]  # a sha URL dodges raw.githubusercontent's cached 404s
+            url = f'https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/{sha}/' + png
+            for _ in range(12):
+                if subprocess.run(['curl', '-sfI', url], capture_output=True).returncode == 0: break
+                time.sleep(10)
         fid = subprocess.check_output([sys.executable, 'scripts/pf-sync.py', 'upload', url, os.path.basename(png)], text=True).strip()
         for _ in range(30):
             f = get(f'/files/{fid}')

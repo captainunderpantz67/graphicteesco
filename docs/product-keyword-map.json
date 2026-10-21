@@ -10560,7 +10560,15 @@
   "mens-hunting-archery-aim-small-miss-anyway-heavyweight-hoodie": {
    "claimed": [
     "archery hoodie"
-   ]
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "archery hoodie",
+     "volume": 170,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
   },
   "mens-fishing-ice-fishing-staring-at-a-hole-graphic-tee": {
    "claimed": [
