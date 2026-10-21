@@ -147,6 +147,55 @@ export const allGuides: Guide[] = [
     ],
   },
   {
+    // Writer lane W rewrite (2026-10-21) of the live 'white-elephant-gifts' guide, same slug. Rewrite queue item 3 of 6.
+    // DRAFT: the director deletes the older entry above and sets draft: false on approval.
+    // Keyword: white elephant gifts 33,100 / KD 44 (RankHero 2026-10-19, carried from the live entry; not re-measured in this unattended run). "funny white elephant gifts" 22,200 / KD 9 used once.
+    // Facts (slogans, prices, policies) from pipeline files #275 #276 #471 #541 #560 #569 #598 #599, site.ts and the christmas collection copy. Picks are A-grade designs in fresh-designs.json.
+    // Dropped from the live version: Some Assembly Regretted (not in fresh-designs.json).
+    // Planned siblings (not live yet): funny-christmas-gifts-for-coworkers, christmas-gifts-for-dad-who-has-everything.
+    slug: 'white-elephant-gifts',
+    keyword: 'white elephant gifts',
+    title: 'White Elephant Gifts People Fight Over: 4 Christmas Shirts',
+    description: 'White elephant gifts under $40 that get stolen: It Looked Smaller at the Farm, Attending Under Protest, Allegedly. and more. Tees $24.99, crewnecks $34.99.',
+    h1: 'White Elephant Gifts People Actually Fight Over',
+    date: '2026-10-21',
+    cluster: 'christmas',
+    draft: true,
+    answer: 'The white elephant gifts that get stolen are funny and wearable. A Christmas shirt with a joke the whole room knows gets a laugh when it is opened and gets worn after. Graphic Tees Co. has four that do it, printed to order: It Looked Smaller at the Farm, Attending Under Protest, Allegedly. and I Stole It. I\'m Keeping It. Tees are $24.99, crewnecks $34.99 and the Attending Under Protest hoodie is $39.99.',
+    picks: [
+      {
+        h2: 'What is a funny white elephant gift people will steal?',
+        body: ['A shirt whose joke the whole circle gets in one second. These four are printed to order in Graphic Tees Co. designs, so the person who ends up with one is not wearing something from the same rack as everyone else.'],
+        items: [
+          { slogan: 'It Looked Smaller at the Farm', tee: 'mens-christmas-it-looked-smaller-at-the-farm-graphic-tee', crewneck: 'mens-christmas-it-looked-smaller-at-the-farm-crewneck-sweatshirt',
+            text: 'IT LOOKED SMALLER / AT THE FARM is the line every tree buyer has lived. It works on anyone who has ever fought a tree through a doorway. The tee is $24.99 and the crewneck is $34.99.' },
+          { slogan: 'Attending Under Protest', tee: 'mens-christmas-attending-under-protest-hoodie',
+            text: 'A grumpy reindeer with crossed arms, for the coworker who did not want to come to the party and came anyway. The hoodie is $39.99.' },
+          { slogan: 'Allegedly.', tee: 'womens-christmas-cat-allegedly-graphic-tee', crewneck: 'womens-christmas-cat-allegedly-crewneck-sweatshirt',
+            text: 'A guilty-looking cat beside a knocked-over ornament. One word, and every cat owner in the room wants it. The tee is $24.99 and the crewneck is $34.99.' },
+          { slogan: "I Stole It. I'm Keeping It.", tee: 'mens-christmas-white-elephant-champion-graphic-tee', crewneck: 'mens-christmas-white-elephant-champion-crewneck-sweatshirt',
+            text: 'A proud man on a podium hugging the gift he just stole. It says out loud what every white elephant winner is thinking. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good white elephant gift?', body: ['A good white elephant gift is funny when it is opened and still useful afterward. Gag gifts that go straight to the trash rarely get stolen; a Christmas shirt someone can wear to the next party does.', 'Keep it inside the group budget, usually $20 to $40, and pick a joke the whole room understands. Every design above is clean, with no profanity, so it is safe with coworkers and the boss.'],
+        links: [{ href: '/funny-christmas-shirts/', text: 'Shop all funny Christmas shirts' }, { href: '/christmas-sweatshirts/', text: 'Christmas sweatshirts' }] },
+      { h2: 'Is a shirt a safe white elephant gift for coworkers?', body: ['Yes, when the joke is clean. Graphic Tees Co. Christmas designs are family-clean, so a stolen shirt will not start an HR conversation.', 'If you are not sure about sizes, pick a crewneck or a tee: most people can wear either, and a size exchange is free if it is wrong (see below).'],
+        links: [{ href: '/christmas-shirts/', text: 'Christmas shirts' }, { href: '/group-shirts/', text: 'Buying for the whole office? 15% off 10+ items' }] },
+      { h2: 'When should I order a white elephant gift?', body: ['Order about two weeks before the party. Each shirt is printed after you order it, which takes about 2 to 5 business days, then arrives in about 3 to 8 business days in the US. US shipping is free on orders of $45 or more.', 'For the Christmas week exchange, order by early December. Delivery estimates show at checkout.'],
+        links: [{ href: '/christmas-hoodies/', text: 'Christmas hoodies' }] },
+      { h2: 'What if the person who steals it needs a different size?', body: ['Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and the first one does not have to be mailed back. That makes a wearable gift low-risk compared with a gag item.'] },
+    ],
+    faqs: [
+      { q: 'What is a good white elephant gift under $30?', a: 'A funny Christmas tee at $24.99 from Graphic Tees Co., like It Looked Smaller at the Farm or Allegedly. It gets a laugh when it is opened and gets worn afterward, which is why it gets stolen.' },
+      { q: 'What white elephant gifts get stolen the most?', a: 'Gifts that are funny and useful at once. A Christmas shirt with a joke everyone recognizes, like Graphic Tees Co. I Stole It. I\'m Keeping It., usually beats a gag gift nobody wants to take home.' },
+      { q: 'What are funny white elephant gifts for coworkers?', a: 'A clean Christmas shirt: Attending Under Protest, It Looked Smaller at the Farm or Allegedly. from Graphic Tees Co. None have profanity, so they are safe for an office exchange. Tees are $24.99 and the Attending Under Protest hoodie is $39.99.' },
+      { q: 'Can I buy white elephant gifts in bulk for a group?', a: 'Yes. At Graphic Tees Co., order 10 or more items in one cart, any designs and sizes, and 15% comes off automatically at checkout.' },
+      { q: 'How early should I order for a white elephant party?', a: 'About two weeks ahead. Graphic Tees Co. prints each shirt to order in about 2 to 5 business days, then ships it in about 3 to 8 business days in the US.' },
+    ],
+  },
+  {
     slug: 'how-to-wash-graphic-tees',
     keyword: 'how to wash graphic tees',
     title: 'How to Wash Graphic Tees Without Cracking or Fading',
