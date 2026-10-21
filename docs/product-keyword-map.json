@@ -11992,6 +11992,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-fishing-you-catching-em-no-keep-walking-embroidered-zip-hoodie": {
+   "claimed": [
+    "fisherman zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fisherman zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
