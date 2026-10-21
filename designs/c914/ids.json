@@ -1,37 +1,37 @@
 {
  "chest_white": {
-  "id": 1091094355,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/v2c914_chest_white.png",
+  "id": 1091144278,
+  "url": "https://v3b.fal.media/files/b/0aaf470d/fU9wh83aXuWeFSsEWXBz5_p914wac914_chest_white.png",
   "w": 1200,
-  "h": 890
+  "h": 306
  },
  "wrist_white": {
-  "id": 1091094412,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/v2c914_wrist_white.png",
+  "id": 1091144357,
+  "url": "https://v3b.fal.media/files/b/0aaf470d/M2AarnFcRvkCNwAw9gWoa_p914wac914_wrist_white.png",
   "w": 600,
   "h": 144
  },
  "chest_navy": {
-  "id": 1091094454,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/v2c914_chest_navy.png",
+  "id": 1091144416,
+  "url": "https://v3b.fal.media/files/b/0aaf470e/xPTK-2P_KvgTcMsDPrtJF_p914wac914_chest_navy.png",
   "w": 1200,
-  "h": 890
+  "h": 306
  },
  "wrist_navy": {
-  "id": 1091094516,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/v2c914_wrist_navy.png",
+  "id": 1091144462,
+  "url": "https://v3b.fal.media/files/b/0aaf470f/4hTKPLU7aeAVqQGc7WwQE_p914wac914_wrist_navy.png",
   "w": 600,
   "h": 144
  },
  "back_ash": {
-  "id": 1091094625,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/v2print-files_914-pilates-core-ash.png",
+  "id": 1091144578,
+  "url": "https://v3b.fal.media/files/b/0aaf4710/Qeh1FPHeofqhRdwFx2kW2_p914waprint-files_914-pilates-core-ash.png",
   "w": 3000,
   "h": 2696
  },
  "back_navy": {
-  "id": 1091094742,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/v2print-files_914-pilates-core-light.png",
+  "id": 1091144632,
+  "url": "https://v3b.fal.media/files/b/0aaf4710/LF470Z6HY80yuOW8mAXU0_p914waprint-files_914-pilates-core-light.png",
   "w": 3000,
   "h": 2696
  }

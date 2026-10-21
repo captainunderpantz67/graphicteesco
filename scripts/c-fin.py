@@ -7,21 +7,21 @@ import json, re, sys, os, glob, subprocess, datetime
 i, d, lj = sys.argv[1:4]; m1 = sys.argv[4] if len(sys.argv) > 4 else f'{d}/mB_back.jpg'; m2 = sys.argv[5] if len(sys.argv) > 5 else f'{d}/mB_front.jpg'
 L = json.load(open(lj)); _b = open(glob.glob(f'docs/pipeline/{i}-*.md')[0]).read(); L['registry'] = (re.search(r'row (\d+) \(claimed\)', _b) or [0, L.get('registry', '?')])[1]; ids = json.load(open(f'{d}/ids.json')); pid = open(f'{d}/pid').read().strip(); pl = open(f'{d}/prep.log').read()
 sc = re.findall(r'p10 stroke width [\d.]+px = ([\d.]+) mm; size \d+x\d+px = ([\d.]+) x ([\d.]+) in', pl); wr = re.findall(r'wrist word (.+?): cap 105 px = 0.35 in, width ([\d.]+) in', pl)
-g = lambda k: ids[k]['id']
+g = lambda k: ids[k]['id'] if k in ids else 'none (no wrist word)'
 import urllib.request
 _r = json.load(urllib.request.urlopen(urllib.request.Request(f'https://api.printful.com/sync/products/{pid}', headers={'Authorization': 'Bearer ' + os.environ['PRINTFUL_TOKEN'], 'User-Agent': 'gtc'}), timeout=60))['result']['sync_variants']
-_have = {f['id'] for v in _r for f in v['files']}; _need = {ids[k]['id'] for k in ('chest_white', 'wrist_white', 'chest_navy', 'wrist_navy', 'back_ash', 'back_navy')}
+_have = {f['id'] for v in _r for f in v['files']}; _need = {ids[k]['id'] for k in ('chest_white', 'wrist_white', 'chest_navy', 'wrist_navy', 'back_ash', 'back_navy') if k in ids}
 if not _need <= _have: sys.exit(f'STALE SYNC: ids.json files not on Printful variants: {sorted(_need - _have)}')
 now = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M')
 lead = L.get('lead', 'Black'); cols = L.get('colors', 'Black/Navy/Ash')
 PL = (f"{now} UTC builder [C]: NEW zip twin built to REVIEW (DRAFT {L['gid']}, productSet DRAFT, category Hoodies, 18 variants {cols} x S-3XL at $57.99, no compare-at, Printful sync product {pid}). "
       f"Twin check (R6.2): {L['twin']} Re-set in {L['face']} ({L.get('lastfive', 'a face not among the last five lane C builds')}). Print {L['print']}: 7h {L['h7']}; 7k {L['k7']}; 7l {L['l7']}. "
       f"Ash dark file {g('back_ash')}: {L['inks_ash']}; light file {g('back_navy')}: {L['inks_light']}; no cream or white fill on Ash. "
-      f"Chest icon DRAWN BY HAND IN PIL ({L['chest']}) because fal is out of balance, one thread (white on dark blanks, #333366 on Ash), {sc[0][1]} x {sc[0][2]} in (area 4 x 4 in), thinnest stroke {sc[0][0]} mm; wrist {L['wrist']} in Anton 0.35 in caps, {wr[0][1]} in wide. "
+      f"Chest icon DRAWN BY HAND IN PIL ({L['chest']}) because fal is out of balance, one thread (white on dark blanks, #333366 on Ash), {sc[0][1]} x {sc[0][2]} in (area 4 x 4 in), thinnest stroke {sc[0][0]} mm; {('wrist ' + L['wrist'] + ' in Anton 0.35 in caps, ' + wr[0][1] + ' in wide. ') if wr else 'no wrist word (brief). '}"
       f"Printful 18/18 verified from GET /sync/products (scripts/c-verify.py): Ash back {g('back_ash')} / chest {g('chest_navy')} / wrist {g('wrist_navy')}; Black and Navy back {g('back_navy')} / chest {g('chest_white')} / wrist {g('wrist_white')}. "
       f"Photos on the DRAFT: {L.get('photos', 'Black back, Navy back, Ash back, Black front, Navy front, Ash front')} (variants linked to their color's front). Keyword map: primary '{L['kw']}' recorded under products ({L.get('kwnote', 'unmeasured, R11.12 waiver')}). "
       f"No cover (fal empty; cover: fal-swap); registry row {L['registry']} stays claimed. Audit-local (DRAFT): PASS with 1 warn (no lifestyle cover).")
-IL = f"{now} UTC — [C] Builder run: #{i} {L['short']} zip twin (new DRAFT, {cols.replace('/', '/')}, $57.99, {L['face']} lettering, hand-drawn {L['chest_short']} chest + {L['wrist']} cuff), 18/18, REVIEW. fal $0."
+IL = f"{now} UTC — [C] Builder run: #{i} {L['short']} zip twin (new DRAFT, {cols.replace('/', '/')}, $57.99, {L['face']} lettering, hand-drawn {L['chest_short']} chest{(' + ' + L['wrist'] + ' cuff') if L['wrist'] != '-' else ', no cuff word'}), 18/18, REVIEW. fal $0."
 if L.get('redo'):
     PL = (f"{now} UTC builder [C]: REDO done, REVIEW. {L['redo']} Printful 18/18 verified from GET /sync/products (scripts/c-verify.py): Ash back {g('back_ash')} / chest {g('chest_navy')} / wrist {g('wrist_navy')}; Black and Navy back {g('back_navy')} / chest {g('chest_white')} / wrist {g('wrist_white')}; chest {sc[0][1]} x {sc[0][2]} in (area 4 x 4 in), thinnest stroke {sc[0][0]} mm. Photos on the DRAFT swapped in place with the new mockups. $0 fal.")
     IL = f"{now} UTC — [C] Builder run: #{i} {L['short']} zip twin REDO done ({L['redo_short']}), 18/18 re-synced, REVIEW. fal $0."
