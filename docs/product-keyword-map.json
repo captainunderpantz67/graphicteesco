@@ -11179,6 +11179,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "unisex-tattoo-it-means-nothing-i-love-it-hoodie": {
+   "claimed": [
+    "tattoo hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "tattoo hoodie",
+     "volume": 1000,
+     "kd": 22
+    }
+   ],
+   "measured": "2026-10-21"
   }
  }
 }

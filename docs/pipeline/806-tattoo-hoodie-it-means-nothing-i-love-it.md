@@ -1,4 +1,5 @@
-status: READY
+status: REVIEW
+shopify: gid://shopify/Product/15371534008624
 lane: C
 type: new
 id: 806
@@ -24,3 +25,4 @@ kd: 22
 ---
 ## Log
 - 2026-10-21 03:40 UTC director: brief written, READY (lane C hoodies cluster; primary measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries, collections.ts and guides).
+- 2026-10-21 03:52 UTC lane C: built new. Recraft v4 1 call(s) ($0.04, logged): smiling cartoon man in a red cap and striped sweater with rolled sleeves shrugging with both palms up, simple flash tattoos on both forearms (rose, swallow, small ship, hearts; no words or letters in any tattoo, no skulls or daggers); knock-white run. scripts/prep-seal.py, art edges ragged-faded. Lockup (designs/c806/build.py): Bevan, IT MEANS / NOTHING. on two lines above (70% of the width), I LOVE IT. below (gap 28 px); navy cream + faded red with a cream edge on the art, sand deep brown #4a2c1c + faded red #a83428. 7h: headline 2296 px (153% of the 1500 px art) / punch 3276 px (143%). 7k: type 1092 px of 2611 px print height (42%). 7l: subject 1500 px of 3276 px lockup width = 46%. Light file: Sand on 1090892018 (dark ink, no cream), Navy on 1090892032 (cream headline, colored punch, cream edge). FW 1500 TOP 0. Verified 12/12 (6 Sand, 6 Navy) via GET /sync/products, back logo 1080398177. Shopify DRAFT: title Unisex Tattoo – It Means Nothing. I Love It. Hoodie, category hoodies, $39.99 no compare-at, tags graphic-hoodies-for-men graphic-hoodies-for-women hoodie tattoo ai-art intake-done, SEO title 44 / meta 117, FAQ 5 x 49-55 words, order-by Dec 8, keyword tattoo hoodie 1000/KD 22 in map (under products), 'tattoo hoodie' 2x in body. Line one: print's words + who + when, no superlative. Copy checked vs art (man in red cap, striped sweater, rolled sleeves, palms up shrug, forearm tattoos of a rose, swallow, ship and hearts). Inks from mockups. Phone-size read of both fronts OK. R6.12/R6.13: front print only, Navy front image 1, neck-logo back last. Cover: flat product shot (retired-covers.json). Etsy and R5.2 proof unverifiable from the builder, director eyeball. Audit only 'not visible'. fal $0.04.
