@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-21T10:12Z
+status: REVIEW
 lane: C
 type: redo
 id: 863
@@ -23,3 +23,4 @@ push: zip
 ---
 ## Log
 - 2026-10-21 07:40 UTC director: brief written, READY (zip upgrade, lane C, push: zip; registry row 1035 claimed).
+- 2026-10-21 11:15 UTC builder [C]: zip standard built IN PLACE, REVIEW. Printful 14/14 (Ash 6 + Navy 8) verified from GET /sync/products: Ash back 1091039079 / chest 1091038994 / wrist 1091039024; Navy back 1091039156 / chest 1091038893 / wrist 1091038929. Back = the existing CASTING DOUBT art (3600 x 3880, lettering inside the art in orange; separate light file for Ash, dark file for Navy already existed and are kept), width 1800 of 1800 px (full 12 in; the 2360 px height cap allows up to 2189, so nothing is reduced). 7p: the line is part of the illustration (one small arched CASTING DOUBT), so there is no headline/punch pair to measure. Chest: icon DRAWN BY HAND IN PIL (a dry fly: striped body, upright wings, hackle collar, forked tail, bent hook), because fal is out of balance; one thread (white on Navy, #333366 on Ash), 3.50 x 3.51 in, thinnest stroke 3.21 mm; wrist DOUBT in Anton 0.35 in caps, 0.91 in wide. All 14 variants $57.99 no compare-at (made 10-16); title 'Men's Fishing – Casting Doubt Embroidered Zip Hoodie'; Story, bullet and 5 FAQs (embroidery care, order-by Dec 8) rewritten; added the missing Ash back photo (the old product had one shared back photo). No new cover (fal empty); the existing AI cover stays, registry row stays claimed. Photos: Navy back, Ash back, Navy chest front, Ash chest front. Audit PASS (0 warn).

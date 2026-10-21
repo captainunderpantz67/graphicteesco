@@ -15,7 +15,7 @@ def call(m, p, b=None):
             raise Exception(f'{e.code} {e.read()[:500]}')
 def host(png):
     # scripts/fal-host.py falls back to docs/hosted/<name> in the repo when fal is out of balance; the name must be unique per item
-    return subprocess.check_output([sys.executable, 'scripts/fal-host.py', png, os.path.basename(os.path.dirname(png)) + '_' + os.path.basename(png)], text=True).strip()
+    return subprocess.check_output([sys.executable, 'scripts/fal-host.py', png, os.environ.get('HOSTTAG', '') + os.path.basename(os.path.dirname(png)) + '_' + os.path.basename(png)], text=True).strip()
 def upload(png):
     url = host(png)
     fid = subprocess.check_output([sys.executable, 'scripts/pf-sync.py', 'upload', url, os.path.basename(png)], text=True).strip()
