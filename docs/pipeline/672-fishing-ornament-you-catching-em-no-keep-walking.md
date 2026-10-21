@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: addon
 id: 672
@@ -33,3 +33,4 @@ kd: 32
 - 2026-10-19 09:50 UTC [B]: REDO done. headline widened to 598 px of a 624 px chord and now the loudest line, second line reduced; solid dark ink, no keyline (R5.3.8). New print file 1089454639 relinked on the single variant (R7.7, synced), new #881 mockup and cover, Shopify media replaced in place, review sheet remade, read at phone size. fal 0.
 - 2026-10-19 10:30 UTC director: REDO fixed, APPROVED on the new docs/review/672.jpg (YOU CATCHING 'EM? now a heavy dark slab, louder than the orange-red script line, which is fine on a pale disc; every word reads at phone size on the Printful mockup, R5.3.8). Copy names no letter colors that changed; checked. Stays DRAFT at status REVIEW until the quality reset says RESUME; the director publishes it then with the audit.
 - 2026-10-20 19:40 UTC director: REDO (still DRAFT). R3.7.8 / quality-reset bar, same call as #677 and #694 today: the punch line No. Keep Walking. is a mid-weight script about 40% of YOU CATCHING 'EM?'s width and the smallest words on the disc. Set NO. KEEP WALKING. at least as wide as the headline, in a heavy slab or heavy script in the red-orange from the art (it may take two lines: NO. / KEEP WALKING.); shrink the art, not the words. Keep solid ink, no keyline (R5.3.8). New file, re-link 1/1 (R7.7), new mockup + sheet.
+- 2026-10-21 05:45 UTC [B]: REDO done (3.7.8): NO. KEEP WALKING. is now a heavy Alfa Slab One line in the art's red-orange (#d9552b), 656 px wide vs headline YOU CATCHING 'EM? 621 px (punch 106% of the headline), both on single lines inside the safe circle; art 330 px tall; solid ink, no keyline. New file 1090938761 relinked on the single variant (R7.7, sync 482959778), new #881 mockup checked at phone size (both lines read), Shopify media replaced in place and re-attached to the variant, cover webp and sheet docs/review/672.jpg remade; Story sentence fixed ('orange-red script' -> 'bold orange-red slab letters'). Source art from live file 1088727623. fal $0.

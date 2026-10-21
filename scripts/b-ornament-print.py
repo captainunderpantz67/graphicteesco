@@ -30,7 +30,7 @@ def chord(y0, y1):  # width of the safe circle at the vertical edge of [y0,y1] f
 lines = [('T', l) for l in s.get('top', [])] + [('A', None)] + [('B', l) for l in s.get('bottom', [])]
 GAP = s.get('gap', 14); ah = s.get('art_h', 380)
 def fit(l, y0, y1):
-    wmax = chord(y0, y1) * s.get('fill_w', 0.97); size = 400
+    wmax = chord(y0, y1) * s.get('fill_w', 0.97) * l.get('wfrac', 1); size = 400
     while True:
         f = fnt(l, size); b = d.textbbox((0, 0), l['text'], font=f, stroke_width=l.get('stroke', 0))
         if b[2] - b[0] <= wmax and b[3] - b[1] <= l.get('max', 90): return f, b
