@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-21 10:15 UTC
 2026-10-21 10:50 UTC — [C] REVIEW #850 Women's Y2K Hot Mess Express Embroidered Zip Hoodie (in place, Black added, 22/22 on back 1091031151, headline 3200 px / punch 3346 px after $0 re-lay, hand-drawn train chest, existing cover kept: fal empty). fal $0.
 2026-10-21 10:25 UTC — [C] REVIEW #849 Men's Skull Former Life of the Party Embroidered Zip Hoodie (in place, Black added, 18/18 on 1090126828/1090126850, punch 201% of the lead-in line, hand-drawn party-hat skull chest, no new cover: fal empty). fal $0.
 2026-10-21 10:05 UTC — [E] REVIEW #822 pink camo AOP zip REDO (back lockup moved up and sized to the body, chest doe enlarged and moved above the pocket, 11/11 re-synced, media replaced). Other lane E items still wait on a fal top-up. Lock released.
