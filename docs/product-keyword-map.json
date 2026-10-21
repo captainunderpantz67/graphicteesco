@@ -11075,6 +11075,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "womens-swimming-lap-47-i-think-hoodie": {
+   "claimed": [
+    "swimming hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "swimming hoodie",
+     "volume": 1300,
+     "kd": 20
+    }
+   ],
+   "measured": "2026-10-21"
   }
  }
 }
