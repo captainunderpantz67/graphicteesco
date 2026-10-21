@@ -1,4 +1,5 @@
 RUNNING helper since 2026-10-21 13:50 UTC
+2026-10-21 15:35 UTC — [B] REVIEW #880 Men's Hunting Not Lost. Scouting. Camo Hoodie (REDO 2: Sandstone light-ink file, 7 on 1091025440 + 7 on 1091137067, punch 125%). fal $0.
 RUNNING lane E since 2026-10-21 13:48 UTC
 RUNNING lane B since 2026-10-21 13:35 UTC
 2026-10-21 14:50 UTC — [B] REVIEW #877 Women's Hunting Ducks in a Row Camo Hoodie (REDO 2: thick orange ducklings, one walking off, no butterfly; 14/14 on 1091133747; punch 100%; subject 75%). fal $0.04.
