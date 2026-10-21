@@ -505,10 +505,10 @@
  },
  "mens-fishing-catch-and-release-zip-hoodie": {
   "h": 806,
-  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-zip-hoodie-ash-front-6ad37f7ddfb69.jpg",
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-zip-hoodie-ash-back-6ad37f7ddfdc4.jpg",
   "w": 645,
   "x": 174,
-  "y": 101
+  "y": 5
  },
  "mens-fishing-cheaper-than-therapy-graphic-tee": {
   "h": 806,
@@ -4193,11 +4193,11 @@
   "y": 0
  },
  "womens-nurse-iv-league-crewneck-sweatshirt": {
-  "h": 624,
+  "h": 578,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-crew-neck-sweatshirt-sand-front-6ad3c0882df69.jpg",
-  "w": 499,
-  "x": 302,
-  "y": 0
+  "w": 463,
+  "x": 335,
+  "y": 67
  },
  "womens-nurse-iv-league-graphic-tee": {
   "h": 689,
@@ -4341,17 +4341,17 @@
  },
  "womens-sunflower-sunshine-with-boundaries-zip-hoodie": {
   "h": 806,
-  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-zip-hoodie-ash-front-6ad3e2e2ded77.jpg",
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/c888_m_black_back.jpg",
   "w": 645,
   "x": 174,
-  "y": 101
+  "y": 19
  },
  "womens-teacher-indoor-recess-survivor-crewneck-sweatshirt": {
-  "h": 510,
+  "h": 489,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-crew-neck-sweatshirt-navy-front-6ad3d382ecf88.jpg",
-  "w": 408,
-  "x": 300,
-  "y": 61
+  "w": 391,
+  "x": 304,
+  "y": 64
  },
  "womens-teacher-indoor-recess-survivor-zip-hoodie": {
   "h": 806,
@@ -4553,7 +4553,7 @@
   "h": 754,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-sand-front-6ad3db65dcde9.jpg",
   "w": 603,
-  "x": 286,
+  "x": 278,
   "y": 125
  },
  "womens-volleyball-mom-seven-am-check-in-graphic-tee": {

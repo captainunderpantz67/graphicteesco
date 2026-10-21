@@ -1,0 +1,29 @@
+scale x0.71, thickened 0px each side, p10 stroke width 63.5px = 5.38 mm; size 1050x782px = 3.50 x 2.61 in
+scale x0.81, thickened 0px each side, p10 stroke width 22.0px = 1.86 mm; size 201x104px = 0.67 x 0.35 in wrist word REEL: cap 105 px = 0.35 in, width 0.67 in
+scale x0.71, thickened 0px each side, p10 stroke width 63.5px = 5.38 mm; size 1050x782px = 3.50 x 2.61 in
+scale x0.81, thickened 0px each side, p10 stroke width 22.0px = 1.86 mm; size 201x104px = 0.67 x 0.35 in wrist word REEL: cap 105 px = 0.35 in, width 0.67 in
+error: RPC failed; HTTP 403 curl 22 The requested URL returned error: 403
+To https://github.com/captainunderpantz67/graphicteesco
+ ! [rejected]          HEAD -> main (fetch first)
+error: failed to push some refs to 'https://github.com/captainunderpantz67/graphicteesco'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+To https://github.com/captainunderpantz67/graphicteesco
+ ! [remote rejected]   HEAD -> main (cannot lock ref 'refs/heads/main': is at e1ff7a17f68e07b15684a528e918d9a3e651f8c2 but expected a6b6daa0df519f6455b4325bd708a69d54572026)
+error: failed to push some refs to 'https://github.com/captainunderpantz67/graphicteesco'
+error: RPC failed; HTTP 403 curl 22 The requested URL returned error: 403
+To https://github.com/captainunderpantz67/graphicteesco
+ ! [rejected]          HEAD -> main (fetch first)
+error: failed to push some refs to 'https://github.com/captainunderpantz67/graphicteesco'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+To https://github.com/captainunderpantz67/graphicteesco
+ ! [remote rejected]   HEAD -> main (cannot lock ref 'refs/heads/main': is at 2c18c2949ed6e6f6ff23d03b983929486e09d0c5 but expected ae7f7b29235499e8f1202f67e9083309c82fbfc5)
+error: failed to push some refs to 'https://github.com/captainunderpantz67/graphicteesco'
+{"chest_white": 1091043818, "wrist_white": 1091043893, "chest_navy": 1091043985, "wrist_navy": 1091044025, "back_ash": 1091044070, "back_navy": 1091044112}
