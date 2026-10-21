@@ -11231,6 +11231,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "unisex-parrot-says-what-you-said-louder-hoodie": {
+   "claimed": [
+    "parrot hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "parrot hoodie",
+     "volume": 260,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-21"
   }
  }
 }

@@ -1,4 +1,5 @@
-status: BUILDING [C] 2026-10-21 04:07 UTC
+status: REVIEW
+shopify: gid://shopify/Product/15371538956592
 lane: C
 type: new
 id: 810
@@ -24,3 +25,4 @@ kd: 32
 ---
 ## Log
 - 2026-10-21 03:40 UTC director: brief written, READY (lane C hoodies cluster; primary measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries, collections.ts and guides).
+- 2026-10-21 04:11 UTC lane C: built new. Recraft v4 1 call(s) ($0.04, logged): African grey parrot with a red tail clinging to a wooden perch, beak open mid-squawk (the beak reads only slightly open), one wide eye sideways, loose feathers and sound lines; knock-white run. Two-line headline was tried first and made the print 3789 px tall (too close to the pouch), so the headline is one line. scripts/prep-seal.py, art edges ragged-faded. Lockup (designs/c810/build.py): Anton, SAYS WHAT YOU SAID. above (one line), LOUDER. below (gap 26 px); navy cream + red with a cream edge on the art, sand charcoal #32323a + red #a82828. 7h: headline 3016 px / punch 3233 px (107%). 7k: type 1316 px of 3034 px print height (43%). 7l: subject 1480 px of 3233 px lockup width = 46%. Light file: Sand on 1090900426 (dark ink, no cream), Navy on 1090900440 (cream headline, colored punch, cream edge). FW 1500 TOP 0. Verified 12/12 (6 Sand, 6 Navy) via GET /sync/products, back logo 1080398177. Shopify DRAFT: title Unisex Parrot – Says What You Said. Louder. Hoodie, category hoodies, $39.99 no compare-at, tags graphic-hoodies-for-men graphic-hoodies-for-women hoodie parrot ai-art intake-done, SEO title 43 / meta 112, FAQ 5 x 49-55 words, order-by Dec 8, keyword parrot hoodie 260/KD 32 in map (under products), 'parrot hoodie' 2x in body. Line one: print's words + who + when, no superlative. Copy checked vs art (African grey, red tail, wooden perch, open beak, wide sideways eye, loose feathers, sound lines). Inks from mockups. Phone-size read of both fronts OK. R6.12/R6.13: front print only, Navy front image 1, neck-logo back last. Cover: flat product shot (retired-covers.json). Etsy and R5.2 proof unverifiable from the builder, director eyeball. Audit only 'not visible'. fal $0.04.
