@@ -5,7 +5,7 @@ def repo_host(p):
     """fal wallet exhausted (403): host through the public repo's raw URL (print files only, never secrets)."""
     import shutil, subprocess
     d = 'docs/hosted'; os.makedirs(d, exist_ok=True); dst = d + '/' + name; shutil.copy(p, dst)
-    subprocess.run(['git', 'add', dst], check=True); subprocess.run(['git', 'commit', '-qm', '[B] host ' + name, '--', dst], stdout=subprocess.DEVNULL)
+    subprocess.run(['git', 'add', dst], check=True); subprocess.run(['git', 'commit', '-qm', '[' + os.environ.get('LANE', 'B') + '] host ' + name, '--', dst], stdout=subprocess.DEVNULL)
     for i in range(4):
         if subprocess.run(['git', 'push', '-q', 'origin', 'HEAD:main'], stdout=subprocess.DEVNULL).returncode == 0: break
         subprocess.run(['git', 'pull', '-q', '--rebase', 'origin', 'main'], stdout=subprocess.DEVNULL)
