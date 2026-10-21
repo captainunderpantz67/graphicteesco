@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-21T07:20Z
+status: REVIEW
 lane: C
 type: redo
 id: 837
@@ -21,3 +21,4 @@ push: zip
 ---
 ## Log
 - 2026-10-21 05:30 UTC director: brief written, READY (zip push step 1, in-place upgrade of #446; template #816; registry row 1016 claimed).
+- 2026-10-21 07:55 UTC builder [C]: zip standard built IN PLACE, REVIEW. Printful 12/12 (Ash 6 + Navy 6) verified from GET /sync/products: Ash back 1090974625 / chest 1090974562 / wrist 1090974598; Navy back 1090974656 / chest 1090974511 / wrist 1090974526. Back = the existing SMALL. COLD. FURIOUS. art (2213 x 3170; tall, so width is set to 1647 of 1800 px to stay inside the 2360 px area height, no stretch) with its own Navy light file (cream SMALL. COLD., coral FURIOUS.) and the dark-fill Ash file (dark brown SMALL. COLD., red FURIOUS.). Chest: new Recraft chihuahua face in a chunky scarf (1 call, fal $0.04), one thread (white on Navy, #333366 on Ash), 3.50 x 4.18 in, thinnest stroke 1.79 mm; wrist BRRR in Anton 0.35 in caps, 0.75 in wide. Existing Navy variants kept; all 12 variants $57.99 no compare-at; title '... Embroidered Zip Hoodie'; Story, bullet and 5 FAQs incl. embroidery care and order-by Dec 8. NO NEW COVER: fal ran out of balance before the cover step; image 1 is the Printful back mockup and the handle stays in retired-covers.json (registry 1016 stays claimed, unused). Photos: Navy back, Ash back, Navy chest front, Ash chest front. Audit PASS (0 warn).

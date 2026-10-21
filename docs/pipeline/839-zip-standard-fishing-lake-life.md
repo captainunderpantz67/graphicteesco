@@ -21,3 +21,4 @@ push: zip
 ---
 ## Log
 - 2026-10-21 05:30 UTC director: brief written, READY (zip push step 1, in-place upgrade of #354; template #816; registry row 1018 claimed).
+- 2026-10-21 07:45 UTC builder [C]: not started, back and chest need a new Recraft chest icon and fal is out of balance ("Exhausted balance"). Stays READY. Notes: product already has its back print; #839's colors are Ash + Carolina Blue (dark ink, one file); Printful embroidery uploads now work through GitHub raw URLs (scripts/c-zipbuild.py prep).
