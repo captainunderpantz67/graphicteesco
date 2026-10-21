@@ -1,7 +1,5 @@
-status: REVIEW
-shopify: gid://shopify/Product/15372542411056
-cover: fal-swap
-status: REVIEW
+---
+status: REDO
 lane: W
 type: article
 cluster: hoodies
@@ -20,4 +18,4 @@ slug: gifts-for-duck-hunters
 - `npx astro build` passes (106 pages). docs/intake-log.md lock line not written (run restricted to guides.ts and this file).
 ## Log
 - 2026-10-21 UTC writer: draft written, build passes.
-- 2026-10-21 15:26 UTC builder [C]: NEW zip twin built to REVIEW (DRAFT gid://shopify/Product/15372542411056, productSet DRAFT, category Hoodies, 18 variants Black/Navy/Ash x S-3XL at $57.99, no compare-at, Printful sync product 483694028). Twin check (R6.2): the source print (mens-christmas-it-looked-smaller-at-the-farm-oversized-hoodie, 3348 x 3641, a Dust print) had IT LOOKED SMALLER above and AT THE FARM below the man-and-tree art, with clean row gaps either side (rows 293-3244 kept, nothing touching); both lines were cropped away and re-set. The art reads on light and dark blanks, so one art file serves both. Re-set in Anton (a face not among the last five lane C builds). Print 3000 x 4279: 7h headline IT LOOKED 2518 px and SMALLER 2374 px / punch AT THE FARM 2977 px (118% of the widest headline line); 7k type 1823 of 4279 px = 42.6%; 7l subject 1860 of 3000 px = 62.0%. Ash dark file 1091157697: brick red headline, navy punch, cream keyline; light file 1091157773: coral headline, cream punch, dark keyline; no cream or white fill on Ash. Chest icon DRAWN BY HAND IN PIL (a hand-drawn Christmas tree (three tiers, trunk, star)) because fal is out of balance, one thread (white on dark blanks, #333366 on Ash), 3.50 x 3.83 in (area 4 x 4 in), thinnest stroke 11.68 mm; wrist OOPS in Anton 0.35 in caps, 0.74 in wide. Printful 18/18 verified from GET /sync/products (scripts/c-verify.py): Ash back 1091157697 / chest 1091157548 / wrist 1091157626; Black and Navy back 1091157773 / chest 1091157388 / wrist 1091157473. Photos on the DRAFT: Black back, Navy back, Ash back, Black front, Navy front, Ash front (variants linked to their color's front). Keyword map: primary 'christmas tree zip up hoodie' recorded under products (unmeasured, R11.12 waiver). No cover (fal empty; cover: fal-swap); registry row ? stays claimed. Audit-local (DRAFT): PASS with 1 warn (no lifestyle cover).
+- 2026-10-21 15:45 UTC director: REDO (topic, keyword and structure are good; facts first). 1. R8.3 / R8.6: two picks are mid-redo to the camo patch standard (#840 Quack of Dawn, #877 Ducks in a Row are approved with new art on one bone patch with a thick dark outline, no script). Re-read each pick's current docs/review/<id>.jpg sheet and describe only what is printed now: the '(mostly)' small script and 'cream backing that follows its outline' (pick list, 'What is duck camo?' and the FAQ) no longer match; say 'a bone patch with a dark outline' where the art has one. 2. Colors: check each pick's offered colors in Shopify and name them (Quack of Dawn says Sandstone too; confirm). 3. Id clash: 940 is also the zip twin docs/pipeline/940-zip-christmas-it-looked-smaller-at-the-farm.md; rename this file to the next free id when you resubmit.
