@@ -724,13 +724,12 @@ export const allGuides: Guide[] = [
     // Planned siblings (not live yet): funny-gym-shirts, gym-hoodies-for-men-guide, gifts-for-lifters-under-50.
     slug: 'gym-gifts-for-men',
     keyword: 'gym gifts for men',
-    title: 'Gym Gifts for Men: 5 Funny Gym Hoodies & Tees Lifters Wear',
+    title: 'Gym Gifts for Men: 4 Funny Gym Hoodies & Tees Lifters Wear',
     description: 'Gym gifts for men who lift: Sisyphus Had Bad Programming, Twelve Labors. Zero Cardio., Rack Your Weights. Respectfully. Tees $24.99, hoodies from $39.99.',
     h1: 'Gym Gifts for Men Who Lift (and Have Opinions About Your Form)',
     date: '2026-10-21',
     cluster: 'gym',
-    draft: true,
-    answer: 'A good gym gift for a man who lifts is a shirt that jokes about the gym itself, because he already owns the gear. Graphic Tees Co. has five: Sisyphus Had Bad Programming (tee $24.99, crewneck $34.99, hoodie $39.99), Twelve Labors. Zero Cardio. (tee $24.99, hoodie $39.99), Rack Your Weights. Respectfully. (tee $24.99, oversized hoodie $54.99) and Lift Heavy. Reply Later. (women\'s cropped hoodie $44.99). Each one is printed to order.',
+    answer: 'A good gym gift for a man who lifts is a shirt that jokes about the gym itself, because he already owns the gear. Graphic Tees Co. has four: Sisyphus Had Bad Programming (tee $24.99, crewneck $34.99, hoodie $39.99), Twelve Labors. Zero Cardio. (tee $24.99, hoodie $39.99), Rack Your Weights. Respectfully. (tee $24.99, oversized hoodie $54.99) and Lift Heavy. Reply Later. (women\'s cropped hoodie $44.99). Each one is printed to order.',
     picks: [
       {
         h2: 'What is a funny gym gift for a guy who is always programming?',

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: gym
@@ -17,3 +17,4 @@ slug: gym-gifts-for-men
 - `npx astro build` passes (105 pages; drafts are not built). Not done: docs/intake-log.md lock line (run restricted to guides.ts and this file).
 ## Log
 - 2026-10-21 UTC writer: drafted, build passes.
+- 2026-10-21 13:29 UTC director: approved and LIVE (draft line removed). Fixed the count: title and answer said five designs but listed four. Every product and internal link curls 200; crew offer (15% off 10+) and fabric facts match site.ts and R7.1; astro build passes.
