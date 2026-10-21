@@ -35,3 +35,19 @@ UPDATE 2026-10-21 (Sam: "the backs aren't bad but the front needs to be tighter,
 12. Price: add the embroidery cost on top of today's zip price, keep ~$14-16 profit, end in .99 (rulebook R12.1). Expect about $49.99-54.99; Claude has pricing authority to approve.
 13. Mockups: Printful shows embroidery on the mockup; the gallery order is back print first, then a close-up of the embroidered chest, then the wrist.
 Start with the 6 best-selling-angle designs (golf retired/bad at golf, women's fishing out-fished him, baseball mom batting average, capybara lights, national park, golf swing), then roll to all zip-ups.
+
+UPDATE 2026-10-21 (Sam: "40 on zip up and camo!"). DEPTH TARGET RAISED (overrides R11.5's 24 cap for these two pages):
+14. /hoodies/zip-up-hoodies/ -> 40 A-grade zip-ups. /hoodies/camo-hoodies/ -> 40 A-grade camo hoodies (zip and pullover, including all-over-print camo: pink, woodland, realtree-style generic patterns, no brand camo names).
+   - Still one product = one real search (R2.7): sweep RankHero for every zip and camo long-tail first ("camo zip up hoodie", "pink camo hoodie", "realtree hoodie" (generic pattern only, no brand mark), "camo hoodie women", "duck hunting hoodie", "deer camp hoodie", "camo hoodie for men", "orange camo"...). When measured searches run out, fill the rest with distinct design angles (hobby x joke), never near-copies.
+   - Milestones: 24 zip-ups by Nov 8 (Black Friday start), 40 zip + 40 camo by Nov 26 (Thanksgiving week, peak hoodie gifting).
+   - Lane C takes zip-ups, lane B takes camo, both ahead of every other new brief except Christmas items already in REVIEW.
+
+UPDATE 2026-10-21 (Sam): deadline pulled in to Fri Oct 23 for 40 zip + 40 camo. The Nov dates above are void.
+
+UPDATE 2026-10-21 (Sam: "what about an all over print zip up"). ALL-OVER-PRINT ZIP:
+15. Blank: Printful #717 "All-Over Print Recycled Unisex Zip Hoodie" (cut-sew sublimation, 95% recycled poly, drop shoulder). Print panels: front (2), back, sleeves, hood, pocket. Printful base about $58.25 -> retail $79.99 (about $15 profit after fees), flat, no compare-at; the premium piece of the zip page.
+16. Designs (8 to start, each counts toward BOTH the zip-up 40 and, where camo, the camo 40):
+   - pink camo (women's), woodland camo, marsh/duck camo, blaze orange camo: generic patterns from assets/patterns (no Realtree/Mossy Oak marks), with the design's small art on the left chest panel and the joke large across the back panel over the pattern
+   - lake life (scattered lures and bobbers), golf course (tees and balls), trailhead topo-map lines (generic contour map, no park names), Christmas (ugly-sweater knit pattern for the Christmas cluster)
+17. Pattern seams: align across zipper and side seams, hood lining plain; check every panel on the Printful mockup before review. Lifestyle covers per item 4 (no over-the-shoulder).
+18. Note on the page and product copy: polyester, sublimation-printed edge to edge, so the whole hoodie is the design (answer-first FAQ: "Is the all-over print hoodie cotton?" -> No, recycled polyester fleece).

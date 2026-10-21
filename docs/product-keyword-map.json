@@ -11244,6 +11244,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "unisex-ferret-borrowed-your-sock-forever-hoodie": {
+   "claimed": [
+    "ferret hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "ferret hoodie",
+     "volume": 210,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-21"
   }
  }
 }

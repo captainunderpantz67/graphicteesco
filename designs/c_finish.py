@@ -4,7 +4,7 @@ import sys, os, json, glob, re, subprocess, urllib.request
 n, handle, sid, kw, summary, logf = sys.argv[1:7]; D = f'designs/c{n}'; P = '/usr/bin/python3'
 def sh(*a): r = subprocess.run(list(a), capture_output=True, text=True); return r.stdout + r.stderr
 sh(P, 'scripts/kwmap-add.py', handle, kw); m = json.load(open('docs/product-keyword-map.json')); m['products'][handle]['measured'] = '2026-10-21'; json.dump(m, open('docs/product-keyword-map.json', 'w'), indent=1, ensure_ascii=False); open('docs/product-keyword-map.json', 'a').write('\n')
-p = 'src/data/retired-covers.json'; r = json.load(open(p))
+p = 'src/data/retired-covers.json'; r = list(dict.fromkeys(re.findall(r'"([^"\n]+)"', open(p).read())))
 if handle not in r: r.append(handle)
 json.dump(r, open(p, 'w'), indent=0, ensure_ascii=False); open(p, 'a').write('\n')
 sh(P, 'scripts/review-sheet.py', n, f'{D}/art_pp.png', f'{D}/m_navy.jpg', f'{D}/m_navy.jpg', f'{D}/m_sand.jpg'); sh(P, 'scripts/design-crops.py')

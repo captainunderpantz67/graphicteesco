@@ -363,6 +363,20 @@
   "x": 330,
   "y": 161
  },
+ "mens-construction-not-leaning-supervising-hoodie": {
+  "h": 416,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-navy-front-6ad7fa7537199.jpg",
+  "w": 333,
+  "x": 322,
+  "y": 134
+ },
+ "mens-disc-golf-parked-it-in-a-tree-hoodie": {
+  "h": 411,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-navy-front-6ad7ff3b5014c.jpg",
+  "w": 329,
+  "x": 322,
+  "y": 165
+ },
  "mens-dog-dad-unpaid-doorman-graphic-tee": {
   "h": 806,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-staple-t-shirt-black-front-6ad442138b9de.jpg",
@@ -404,6 +418,13 @@
   "w": 607,
   "x": 294,
   "y": 124
+ },
+ "mens-electrician-its-probably-the-breaker-hoodie": {
+  "h": 478,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-navy-front-6ad7fdc50f19a.jpg",
+  "w": 383,
+  "x": 299,
+  "y": 157
  },
  "mens-embroidered-eau-de-campfire-hoodie": {
   "h": 806,
@@ -1147,6 +1168,13 @@
   "x": 280,
   "y": 125
  },
+ "mens-plumber-not-looking-at-your-sink-hoodie": {
+  "h": 437,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-navy-front-6ad7fe61d4447.jpg",
+  "w": 349,
+  "x": 319,
+  "y": 162
+ },
  "mens-running-i-only-run-downhill-hoodie": {
   "h": 442,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-navy-front-6ad7fb54ba3b3.jpg",
@@ -1462,6 +1490,13 @@
   "x": 144,
   "y": 19
  },
+ "unisex-chef-cooks-for-200-cereal-at-home-hoodie": {
+  "h": 403,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-navy-front-6ad8001333719.jpg",
+  "w": 322,
+  "x": 327,
+  "y": 132
+ },
  "unisex-christian-amazing-grace-heavyweight-hoodie": {
   "h": 786,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavyweight-hooded-sweatshirt-storm-blue-front-6ad25a4a4c71e.jpg",
@@ -1727,6 +1762,13 @@
   "w": 553,
   "x": 281,
   "y": 100
+ },
+ "unisex-climbing-afraid-of-heights-climbs-anyway-hoodie": {
+  "h": 416,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-navy-front-6ad7fc35ec172.jpg",
+  "w": 333,
+  "x": 322,
+  "y": 148
  },
  "unisex-crow-shiny-object-syndrome-hoodie": {
   "h": 754,
@@ -2376,7 +2418,7 @@
   "h": 754,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-sand-front-6ad3d3c10d8b9.jpg",
   "w": 603,
-  "x": 254,
+  "x": 270,
   "y": 125
  },
  "womens-baseball-mom-bases-loaded-crewneck-sweatshirt": {
@@ -3707,7 +3749,7 @@
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/womens-relaxed-t-shirt-black-front-6ad3bb2ec18a9.jpg",
   "w": 645,
   "x": 174,
-  "y": 13
+  "y": 31
  },
  "womens-frog-not-toad-ay-zip-hoodie": {
   "h": 806,
@@ -3958,7 +4000,7 @@
   "h": 759,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-oversized-heavyweight-hoodie-dust-front-6ad41afd919bb.jpg",
   "w": 607,
-  "x": 276,
+  "x": 248,
   "y": 124
  },
  "womens-national-park-swipe-right-on-public-land-zip-hoodie": {
