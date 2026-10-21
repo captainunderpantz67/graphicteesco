@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-21 05:54
+status: REVIEW
 lane: B
 type: new
 id: 592
@@ -27,3 +27,4 @@ kd: 32
 ---
 ## Log
 - 2026-10-18 05:32 UTC director: brief written, READY (lane B wrestling (catalog wave 1); KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month; proof seller named under the gate).
+- 2026-10-21 06:31 UTC [B]: built NEW as DRAFT (product 15371573887280, Bella+Canvas 3001 #71, Black/Navy/Dark Grey Heather/Maroon/Heather Forest (cream-lettered file 1090944524, 35 variants) + Natural/Ash/Athletic Heather (navy-lettered file 1090944530, 21 variants) x S-4XL = 56/56 synced (b-verify.py: default 1090944524 on 35, 1090944530 on 21, back logo 1080398177 on 56), sync 483599601). Art: 1 Recraft v4 call ($0.04, logged), picture only, try 1 kept: exhausted wrestler in a singlet and ear guards flat on his back, sweat flying, round match clock above (hands not at zero: they read 12 and 3, the joke is the gassed wrestler; flag for the director); prep-seal threshold 200. Lettering via designs/tee2.py (Alfa Slab One): SIX MINUTES. above, FEELS LIKE SIXTY. below (red, cream keyline on the dark file); dark file adds a 16 px cream halo to the art so the navy singlet holds on Navy/Black; light file navy headline + faded red punch, no cream fills. Light file logged: Natural, Ash, Athletic Heather on 1090944530, headline fill navy. 7h: headline 2701 px / punch 3387 px (125%). 7k type 559 of 2623 px = 21% (print is 3387 x 2623: aspect 0.77, FW 1650 gives 1278 px tall). 7l: subject 1900 of 3387 px = 56%. FW 1650 TOP 75. Phone-size read of all eight mockups OK. Keyword wrestling shirts 4400/KD 32 in map under products ('wrestling shirt' supporting once, not claimed). Price 24.99 no compare-at, category tees, tags per brief, SEO title 52/meta 147, FAQ 5 x 43-54 words plus the standard fit line (order-by Dec 8). Colors: 8 offered (brief listed Heather Forest/Maroon as dark and the 3 light ones; Heather Forest taken, Maroon taken). Flat cover, front first, neck-logo back last. Audit PASS (1 warn: no lifestyle cover). Sheet docs/review/592.jpg. fal $0.04.
