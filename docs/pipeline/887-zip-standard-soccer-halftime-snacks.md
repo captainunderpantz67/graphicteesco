@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-21T09:55Z
+status: REVIEW
 lane: C
 type: redo
 id: 887
@@ -24,3 +24,4 @@ push: zip
 ---
 ## Log
 - 2026-10-21 09:50 UTC director: brief written, READY (zip upgrade, lane C, push: zip; registry row 1040 claimed).
+- 2026-10-21 10:25 UTC builder [C]: zip standard built IN PLACE, REVIEW. Printful 12/12 (Ash 6 + Navy 6) verified from GET /sync/products: Ash back 1091024296 / chest 1091024107 / wrist 1091024213; Navy back 1091024332 / chest 1091023922 / wrist 1091024019. 7p back measure (both files, same geometry): headline HALFTIME SNACKS: 3264 px / punch MY ONLY JOB. 3302 px = 101.2% of the headline (no re-lay needed); the Navy file already has the cream headline and orange punch, the Ash file the navy headline and dark orange punch with cream keyline. Full 12 in width at the top of the back area. Chest: icon DRAWN BY HAND IN PIL (soccer ball with an orange slice against it) because fal is out of balance, one thread (white on Navy, #333366 on Ash), 3.50 x 3.38 in, thinnest stroke 2.57 mm; wrist SNACKS in Anton 0.35 in caps, 1.13 in wide. Existing Navy variants kept (no Black: the brief makes it optional); all 12 variants $57.99 no compare-at (made 10-17); title 'Women's Soccer – Halftime Snacks: My Only Job Embroidered Zip Hoodie'; Story, bullet and 5 FAQs (embroidery care added, order-by Dec 8), meta 150 chars. Photos: Navy back, Ash back, Navy chest front, Ash chest front. COVER: not remade (fal empty); the handle stays in retired-covers.json (flat shot until a cover passes), registry 1040 stays claimed. The local audit reads a cached 166-char meta; the live meta is now 150. Audit PASS (meta warn from the stale cache).
