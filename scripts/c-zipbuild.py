@@ -42,7 +42,7 @@ if cmd == 'prep':
     json.dump(ids, open(f'{d}/ids.json', 'w'), indent=1); print(json.dumps({k: v['id'] for k, v in ids.items()}))
 elif cmd == 'sync':
     pid = sys.argv[3]; ids = json.load(open(f'{d}/ids.json')); vs = call('GET', f'/sync/products/{pid}')['result']['sync_variants']
-    cat = {v['name'].split(' / ')[2]: v['variant_id'] for v in vs if '/ Ash /' in v['name'] and v['variant_id']}
+    cat = {'S': 32069, 'M': 32075, 'L': 32081, 'XL': 32087, '2XL': 32093, '3XL': 32099}; cat.update({v['name'].split(' / ')[2]: v['variant_id'] for v in vs if '/ Ash /' in v['name'] and v['variant_id']})
     vs = [v for v in vs if ('/ Ash /' in v['name'] and not os.environ.get('ONLY_SECOND')) or f'/ {SECOND} /' in v['name']]
     for i, v in enumerate(vs):
         nv = f'/ {SECOND} /' in v['name']; sz = v['name'].split(' / ')[2]; t = 'white' if (nv and not LIGHT) else 'navy'; bk = ids['back_navy' if nv else 'back_ash']['id']
