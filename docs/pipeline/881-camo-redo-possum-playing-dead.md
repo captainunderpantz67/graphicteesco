@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: redo
 id: 881
@@ -22,3 +22,4 @@ push: camo
 ## Log
 - 2026-10-21 09:45 UTC director: brief written, READY (camo redo, lane B, push: camo; graded from docs/review/304.jpg).
 - 2026-10-21 10:45 UTC [B]: NOT BUILT, blocked: the arched PLAYING DEAD lettering ends on the possum's head and paws, so cropping it cuts the subject; needs the Recraft flat redraw and the fal wallet is exhausted. Stays READY for the first run after a top-up.
+- 2026-10-21 14:13 UTC [B]: BUILT IN PLACE (one Recraft flat call, $0.04, first try; the old arched lettering overlapped the possum so it was redrawn). Art: possum flat on its back, paws stiff, tongue out, X eyes, blaze-orange tail and leaves, 3 inks, on ONE bone patch with ~0.2 in black outline (b-camo-lockup.py --top, PHR 0.74). Lettering PLAYING DEAD above, TILL FRIDAY. below, Alfa Slab bone with dark keyline; widths (7h) 3372 / 3372 px = 100%. Subject 2524 of 3400 px = 74% (7l); canvas 3400x3473. FW 1500 TOP 0. R7.7: 14/14 on 1091146594, back logo 1080398177 on 14/14 (Forest Camo + Darkwood Tree Camo x XS-3XL). Mockups remade and replaced in place, phone-size read OK (the words and the X-eyed possum read on Darkwood). Copy rewritten (no cream backing, no chocolate-brown or acorn lines), SEO meta updated, Dec 8 gift line; title unchanged (same line). Handle added to retired-covers.json. Cohesion audit --handle PASS (0 warn). docs/review/881.jpg shows Forest, Darkwood, back.

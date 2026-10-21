@@ -1,4 +1,5 @@
 RUNNING helper since 2026-10-21 13:50 UTC
+2026-10-21 14:13 UTC — [B] REVIEW #881 Unisex Possum Playing Dead Till Friday Camo Hoodie (redo in place, flat possum on bone patch, 14/14 on 1091146594, punch 100%, subject 74%). fal $0.04.
 2026-10-21 14:08 UTC — [B] REVIEW #876 Women's Western Kick Up Dust. Settle Nothing. Camo Hoodie (redo in place, boots + dust cloud on bone patch, 14/14 on 1091144055, punch 100%, subject 74%). fal $0.04.
 2026-10-21 14:03 UTC — [B] REVIEW #880 Men's Hunting Not Lost. Scouting. Camo Hoodie (REDO 2: Sandstone light-ink file, 7 on 1091025440 + 7 on 1091137067, punch 125%). fal $0.
 RUNNING lane E since 2026-10-21 13:48 UTC
