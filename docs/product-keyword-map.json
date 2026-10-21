@@ -11901,6 +11901,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-essentials-burgundy-zip-hoodie": {
+   "claimed": [
+    "maroon hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "maroon hoodie",
+     "volume": 8100,
+     "kd": 30
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
