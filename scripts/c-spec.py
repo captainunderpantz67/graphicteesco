@@ -9,7 +9,7 @@ h = c['handle']; kw = c['kw']; sh = c['short']; ccol = ' and '.join([', '.join(c
 dark = [x for x in cols if x != 'Ash']; dk = ' and '.join(dark)
 html = f'''<h3>The Story</h3>
 <p>This {kw} is for {c['who']}</p>
-<p>{c['art']} {c.get('layout_story') or (c['headline'] + ' runs above it and ' + c['punch'] + ' below in ' + c['face'] + ', the second line a touch wider than the first')}: {c['inks']}. The full print is on the back. On the front, {c['chest']} is embroidered on the left chest, and the word {c['wrist']} is stitched on the left cuff, in white thread on {dk} and navy thread on Ash. Original art, made for Graphic Tees Co. and printed and stitched the day you order it.</p>
+<p>{c['art']} {c.get('layout_story') or (c['headline'] + ' runs above it and ' + c['punch'] + ' below in ' + c['face'] + ', the second line a touch wider than the first')}: {c['inks']}. The full print is on the back. On the front, {c['chest']} is embroidered on the left chest, and the {'words' if ' ' in c['wrist'] else 'word'} {c['wrist']} {'are' if ' ' in c['wrist'] else 'is'} stitched on the left cuff, in white thread on {dk} and navy thread on Ash. Original art, made for Graphic Tees Co. and printed and stitched the day you order it.</p>
 <h3>Details &amp; Fit</h3>
 <ul>
 <li>Regular fit zip-up hoodie with a metal zipper</li>
@@ -33,7 +33,7 @@ faq = [
 ]
 for q, a in faq: assert 36 <= len(a.split()) <= 66, (q, len(a.split()))
 html += '\n'.join(f'<p><strong>{q}</strong><br>{a}</p>' for q, a in faq)
-tags = ['zip-up-hoodies'] + (['zip-up-hoodies-for-men'] if c.get('men') else []) + (['zip-up-hoodies-for-women'] if c.get('women') else []) + (['graphic-hoodies-for-men'] if c.get('men') else []) + (['graphic-hoodies-for-women'] if c.get('women') else []) + ['black-zip-up-hoodies', 'hoodie', 'ai-art', 'intake-done']
+tags = ['zip-up-hoodies'] + (['zip-up-hoodies-for-men'] if c.get('men') else []) + (['zip-up-hoodies-for-women'] if c.get('women') else []) + (['graphic-hoodies-for-men'] if c.get('men') else []) + (['graphic-hoodies-for-women'] if c.get('women') else []) + c.get('extra_tags', []) + ['black-zip-up-hoodies', 'hoodie', 'ai-art', 'intake-done']
 seo = {'title': f"{c['kwtitle']} – {sh}", 'description': c['seo_desc']}
 s = {'title': c['title'], 'handle': h, 'slug': h, 'catalog': 692, 'colors': cols, 'sizes': ['S', 'M', 'L', 'XL', '2XL', '3XL'], 'price': '57.99', 'productType': 'Hoodie', 'tags': tags, 'seo': seo, 'descriptionHtml': html}
 print(len(seo['title']), len(seo['description']), [len(a.split()) for q, a in faq])

@@ -8,6 +8,10 @@ i, d, lj = sys.argv[1:4]; m1 = sys.argv[4] if len(sys.argv) > 4 else f'{d}/mB_ba
 L = json.load(open(lj)); _b = open(glob.glob(f'docs/pipeline/{i}-*.md')[0]).read(); L['registry'] = (re.search(r'row (\d+) \(claimed\)', _b) or [0, L.get('registry', '?')])[1]; ids = json.load(open(f'{d}/ids.json')); pid = open(f'{d}/pid').read().strip(); pl = open(f'{d}/prep.log').read()
 sc = re.findall(r'p10 stroke width [\d.]+px = ([\d.]+) mm; size \d+x\d+px = ([\d.]+) x ([\d.]+) in', pl); wr = re.findall(r'wrist word (.+?): cap 105 px = 0.35 in, width ([\d.]+) in', pl)
 g = lambda k: ids[k]['id']
+import urllib.request
+_r = json.load(urllib.request.urlopen(urllib.request.Request(f'https://api.printful.com/sync/products/{pid}', headers={'Authorization': 'Bearer ' + os.environ['PRINTFUL_TOKEN'], 'User-Agent': 'gtc'}), timeout=60))['result']['sync_variants']
+_have = {f['id'] for v in _r for f in v['files']}; _need = {ids[k]['id'] for k in ('chest_white', 'wrist_white', 'chest_navy', 'wrist_navy', 'back_ash', 'back_navy')}
+if not _need <= _have: sys.exit(f'STALE SYNC: ids.json files not on Printful variants: {sorted(_need - _have)}')
 now = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M')
 lead = L.get('lead', 'Black'); cols = L.get('colors', 'Black/Navy/Ash')
 PL = (f"{now} UTC builder [C]: NEW zip twin built to REVIEW (DRAFT {L['gid']}, productSet DRAFT, category Hoodies, 18 variants {cols} x S-3XL at $57.99, no compare-at, Printful sync product {pid}). "

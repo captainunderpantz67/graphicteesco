@@ -1,37 +1,37 @@
 {
  "chest_white": {
-  "id": 1091075886,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/t05c905_chest_white.png",
+  "id": 1091094035,
+  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/r05ac905_chest_white.png",
   "w": 1200,
   "h": 1204
  },
  "wrist_white": {
-  "id": 1091075957,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/t05c905_wrist_white.png",
+  "id": 1091094629,
+  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/r05ac905_wrist_white.png",
   "w": 600,
   "h": 144
  },
  "chest_navy": {
-  "id": 1091076011,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/t05c905_chest_navy.png",
+  "id": 1091094844,
+  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/r05ac905_chest_navy.png",
   "w": 1200,
   "h": 1204
  },
  "wrist_navy": {
-  "id": 1091076047,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/t05c905_wrist_navy.png",
+  "id": 1091094972,
+  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/r05ac905_wrist_navy.png",
   "w": 600,
   "h": 144
  },
  "back_ash": {
-  "id": 1091076076,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/t05print-files_905-golf-outfits-ash.png",
+  "id": 1091095057,
+  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/r05aprint-files_905-golf-outfits-ash.png",
   "w": 2952,
   "h": 2700
  },
  "back_navy": {
-  "id": 1091076121,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/t05print-files_905-golf-outfits-light.png",
+  "id": 1091095142,
+  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/r05aprint-files_905-golf-outfits-light.png",
   "w": 2952,
   "h": 2700
  }

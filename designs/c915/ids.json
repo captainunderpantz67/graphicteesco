@@ -1,37 +1,37 @@
 {
  "chest_white": {
-  "id": 1091087495,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/t15c915_chest_white.png",
+  "id": 1091095166,
+  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/r15ac915_chest_white.png",
   "w": 1200,
-  "h": 1225
+  "h": 1041
  },
  "wrist_white": {
-  "id": 1091087588,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/t15c915_wrist_white.png",
+  "id": 1091095305,
+  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/r15ac915_wrist_white.png",
   "w": 600,
   "h": 144
  },
  "chest_navy": {
-  "id": 1091087659,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/t15c915_chest_navy.png",
+  "id": 1091095370,
+  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/r15ac915_chest_navy.png",
   "w": 1200,
-  "h": 1225
+  "h": 1041
  },
  "wrist_navy": {
-  "id": 1091087686,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/t15c915_wrist_navy.png",
+  "id": 1091095463,
+  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/r15ac915_wrist_navy.png",
   "w": 600,
   "h": 144
  },
  "back_ash": {
-  "id": 1091087732,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/t15print-files_915-goose-ash.png",
+  "id": 1091095550,
+  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/r15aprint-files_915-goose-ash.png",
   "w": 3000,
   "h": 2739
  },
  "back_navy": {
-  "id": 1091087777,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/t15print-files_915-goose-light.png",
+  "id": 1091095618,
+  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/r15aprint-files_915-goose-light.png",
   "w": 3000,
   "h": 2739
  }
