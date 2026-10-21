@@ -1,4 +1,5 @@
-status: BUILDING [C] 2026-10-21 14:08 UTC
+status: REVIEW
+shopify: gid://shopify/Product/15372510986544
 cover: fal-swap
 lane: C
 type: twin
@@ -29,3 +30,4 @@ push: zip
 ---
 ## Log
 - 2026-10-21 13:32 UTC director: brief written, READY (zip twin, lane C, push: zip; $0 fal; R11.12 unmeasured-phrase waiver after keyword-gap.py; registry 1087, 1088 claimed).
+- 2026-10-21 14:38 UTC builder [C]: NEW zip twin built to REVIEW (DRAFT gid://shopify/Product/15372510986544, productSet DRAFT, category Hoodies, 18 variants Black/Navy/Ash x S-3XL at $57.99, no compare-at, Printful sync product 483690460). Twin check (R6.2): the source print (unisex-national-park-running-late-bison-traffic-heavyweight-hoodie, 3122 x 3087, a Sandstone print) had RUNNING LATE. above and BISON TRAFFIC. below the bison-and-car splatter scene, with clean row gaps either side (rows 347-2741 kept, nothing touching); both lines were cropped away and re-set. The scene reads on light and dark blanks, so one art file serves both. Re-set in Bevan (a face not among the last five lane C builds). Print 3000 x 2752: 7h headline RUNNING 2966 px and LATE. 1803 px / punch BISON TRAFFIC. 2994 px (101% of the widest headline line); 7k type 1120 of 2752 px = 40.7%; 7l subject 1500 of 3000 px = 50.0%. Ash dark file 1091148087: brick red headline, navy punch, cream keyline; light file 1091148160: rust headline, cream punch, dark keyline; no cream or white fill on Ash. Chest icon DRAWN BY HAND IN PIL (stitched words BISON over TRAFFIC. in Bevan (builder 7t default, no pictogram)) because fal is out of balance, one thread (white on dark blanks, #333366 on Ash), 3.50 x 1.20 in (area 4 x 4 in), thinnest stroke 2.54 mm; wrist LATE in Anton 0.35 in caps, 0.66 in wide. Printful 18/18 verified from GET /sync/products (scripts/c-verify.py): Ash back 1091148087 / chest 1091147937 / wrist 1091148024; Black and Navy back 1091148160 / chest 1091147798 / wrist 1091147836. Photos on the DRAFT: Black back, Navy back, Ash back, Black front, Navy front, Ash front (variants linked to their color's front). Keyword map: primary 'national park zip up hoodie' recorded under products (unmeasured, R11.12 waiver). No cover (fal empty; cover: fal-swap); registry row 1087 stays claimed. Audit-local (DRAFT): PASS with 1 warn (no lifestyle cover).
