@@ -1,4 +1,5 @@
-status: BUILDING [C] 2026-10-21T13:10Z
+status: REVIEW
+shopify: gid://shopify/Product/15372245664048
 cover: fal-swap
 lane: C
 type: twin
@@ -29,3 +30,4 @@ push: zip
 ---
 ## Log
 - 2026-10-21 12:55 UTC director: brief written, READY (zip twin, lane C, push: zip; $0 fal; R11.12 unmeasured-phrase waiver after keyword-gap.py; registry 1083 claimed).
+- 2026-10-21 13:38 UTC builder [C]: NEW zip twin built to REVIEW (DRAFT gid://shopify/Product/15372245664048, productSet DRAFT, category Hoodies, 18 variants Black/Navy/Ash x S-3XL at $57.99, no compare-at, Printful sync product 483669138). Twin check (R6.2): the source print (womens-equestrian-horse-girl-broke-on-purpose-hoodie, 3324 x 3609, a Sand print) had HORSE GIRL and BROKE ON PURPOSE in dark brown slab (low contrast on dark) above and below the horse-at-a-barn-door art (rows 389-3376 kept; the art has its own worn, ragged lower edge, no straight cut); both lines were cropped away and re-set as HORSE / GIRL above and BROKE / ON PURPOSE below. The rust, cream and blush art reads on light and dark blanks, so one art file serves both. Re-set in Rye (a face not among the last five lane C builds). Print 3000 x 3499: 7h headline HORSE 2375 px and GIRL 1671 px / punch BROKE 1629 px and ON PURPOSE 2994 px (126% of the widest headline line); 7k type 1796 of 3499 px = 51.3%; 7l subject 1500 of 3000 px = 50.0%. Ash dark file 1091110674: brown headline, navy punch, cream keyline; light file 1091110761: cream headline, peach punch, dark keyline; no cream or white fill on Ash. Chest icon DRAWN BY HAND IN PIL (a horseshoe with nail holes and a small heart inside) because fal is out of balance, one thread (white on dark blanks, #333366 on Ash), 3.50 x 2.78 in (area 4 x 4 in), thinnest stroke 9.64 mm; wrist BROKE in Anton 0.35 in caps, 0.91 in wide. Printful 18/18 verified from GET /sync/products (scripts/c-verify.py): Ash back 1091110674 / chest 1091110504 / wrist 1091110600; Black and Navy back 1091110761 / chest 1091110326 / wrist 1091110411. Photos on the DRAFT: Black back, Navy back, Ash back, Black front, Navy front, Ash front (variants linked to their color's front). Keyword map: primary 'horse girl zip up hoodie' recorded under products (unmeasured, R11.12 waiver). No cover (fal empty; cover: fal-swap); registry row 1083 stays claimed. Audit-local (DRAFT): PASS with 1 warn (no lifestyle cover).
