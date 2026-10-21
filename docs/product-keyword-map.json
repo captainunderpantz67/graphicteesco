@@ -11376,6 +11376,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-french-bulldog-i-came-i-sat-i-refused-cropped-hoodie": {
+   "claimed": [
+    "french bulldog hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "french bulldog hoodie",
+     "volume": 590,
+     "kd": 33
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }

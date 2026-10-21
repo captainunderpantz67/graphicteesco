@@ -1,4 +1,6 @@
-status: BUILDING [E] 2026-10-21 06:40
+status: PARKED
+PARKED [E]: Printful rejects embroidery + DTG back on #943 (see log). Director decides the format.
+shopify: gid://shopify/Product/15371614159152
 lane: E
 type: new
 id: 851
@@ -25,3 +27,4 @@ push: zip
 ---
 ## Log
 - 2026-10-21 07:10 UTC director: brief written, READY (Essentials line, lane E, push: zip; registry row 1024 claimed).
+- 2026-10-21 07:11 UTC builder [E]: PILOT RESULT, PARKED. Shopify DRAFT created (gid 15371614159152, Oatmeal Heather S-3XL, 6 variants, $49.99 placeholder, sync product 483607391, 0/6 synced; never delete, R1.4). **Printful REJECTS the mix on #943**: PUT /sync/variant with embroidery_chest_left + back (DTG) and the v2 mockup task both return 400 'One or more provided placements are not allowed for product technique "T-SHIRT" 943 available placements are embroidery_chest_left'. So on Lane Seven LS14003 embroidery is chest-only: no back-top print (different from #692, where #815 proved the mix works). **Real cost (POST /orders/estimate-costs, Oatmeal M):** embroidery chest only $29.53 + $6.50 one-time digitization (base $27.49, so embroidery adds only about $2); DTG small left-chest print (front placement) + DTG back-top $33.44. Chest mark prepped: 'Graphic Tees' script cropped from back-logo-company.png, 3.00 x 1.80 in, thinnest stroke 2.57 mm, lowercase x-height about 0.42 in, caps over 0.6 in, one thread Printful 1987 Orange #E25C27 (nearest to rust; the thread palette has no rust), file 1090961074. Options for the director: (A) embroidered chest only, no back mark, $44.99-$49.99 (about $13-17 margin); (B) all-DTG chest + back marks (title without 'Embroidered', no embroidered-hoodies tag), $49.99; (C) switch the Essentials line to #692/#584 where the mix is allowed (cost +$10 chest at Gildan). Items #852-#858 and #836 stay gated on this call. fal $0.

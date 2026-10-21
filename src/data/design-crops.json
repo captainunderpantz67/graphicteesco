@@ -638,10 +638,10 @@
  },
  "mens-golf-retired-working-on-my-short-game-zip-hoodie": {
   "h": 806,
-  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-zip-hoodie-ash-front-6ad41973d8ad1.jpg",
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-zip-hoodie-navy-back-6ad41973d875b.jpg",
   "w": 645,
   "x": 174,
-  "y": 101
+  "y": 3
  },
  "mens-grandpa-ask-your-grandmother-graphic-tee": {
   "h": 806,
@@ -1064,11 +1064,11 @@
   "y": 136
  },
  "mens-hunting-opening-day-zip-hoodie": {
-  "h": 448,
-  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-zip-hoodie-ash-front-6ad25564b172f.jpg",
-  "w": 359,
-  "x": 403,
-  "y": 146
+  "h": 806,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-zip-hoodie-sport-grey-back-6ad25564b1664.jpg",
+  "w": 645,
+  "x": 174,
+  "y": 0
  },
  "mens-hunting-professional-tree-sitter-camo-hoodie": {
   "h": 760,
@@ -2233,11 +2233,11 @@
   "y": 96
  },
  "unisex-thanksgiving-laying-low-till-friday-turkey-hoodie": {
-  "h": 754,
+  "h": 759,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-sand-front-6ad3d8ded79a6.jpg",
-  "w": 603,
-  "x": 274,
-  "y": 125
+  "w": 607,
+  "x": 260,
+  "y": 124
  },
  "unisex-thanksgiving-leftovers-club-crewneck-sweatshirt": {
   "h": 507,
@@ -2394,11 +2394,11 @@
   "y": 144
  },
  "unisex-y2k-side-quests-only-hoodie": {
-  "h": 754,
+  "h": 707,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-sand-front-6ad3cf7b4cd27.jpg",
-  "w": 603,
-  "x": 274,
-  "y": 125
+  "w": 566,
+  "x": 279,
+  "y": 166
  },
  "welder-i-basically-hot-glue-metal-ornament": {
   "h": 879,
@@ -2888,7 +2888,7 @@
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/womens-relaxed-t-shirt-white-front-6ad44bd32be4b.jpg",
   "w": 551,
   "x": 256,
-  "y": 6
+  "y": 14
  },
  "womens-christmas-christmas-teacher-graphic-tee": {
   "h": 670,
@@ -3608,7 +3608,7 @@
   "h": 754,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-sand-front-6ad42ee4c96ea.jpg",
   "w": 603,
-  "x": 256,
+  "x": 254,
   "y": 125
  },
  "womens-dance-mom-bun-tight-wallet-empty-graphic-tee": {
@@ -4047,10 +4047,10 @@
  },
  "womens-national-park-swipe-right-on-public-land-zip-hoodie": {
   "h": 806,
-  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-zip-hoodie-ash-front-6ad41e62e2710.jpg",
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-zip-hoodie-navy-back-6ad41e62e2418.jpg",
   "w": 645,
   "x": 174,
-  "y": 101
+  "y": 0
  },
  "womens-national-park-two-queens-roaming-hoodie": {
   "h": 759,
