@@ -24,7 +24,7 @@ def build(n, art_path, head, punch, font, sand, AW=1800, W=3400, hfrac=0.9, pfra
         hs = line_same(head, font, hfrac, W, hc, hc, kw=kw) if hsame else [line(t, font, hfrac, W, hc, hc, kw=kw) for t in head]; ps = line_same(punch, pfont or font, pfrac, W, pc, pc, kw=kw) if psame else [line(t, pfont or font, pfrac, W, pc, pc, kw=kw) for t in punch]
         out = lockup(aa, W, hs, ps, f'{n}-{mode}', {mode: bg}, g=g); out = out.crop(out.getchannel('A').point(lambda v: 255 if v > 10 else 0).getbbox())
         out.save(f'docs/print-files/{n}-{mode}.png', dpi=(300, 300)); th = sum(l.height for l in hs + ps)
-        print(mode, out.size, 'headline', max(l.width for l in hs), 'punch', max(l.width for l in ps), 'type', th, 'of', out.height, round(th / out.height, 2), 'subject', art.width, 'of', out.width, round(art.width / out.width, 2))
+        print(mode, out.size, 'headline', max([l.width for l in hs] or [0]), 'punch', max(l.width for l in ps), 'type', th, 'of', out.height, round(th / out.height, 2), 'subject', art.width, 'of', out.width, round(art.width / out.width, 2))
 
 def spec(n, title, handle, slug, tags, seo, story, qa, cols=("Sand", "Navy"), inks=None):
     """Writes designs/c<n>/spec.json + vars.json (productSet input, DRAFT, no compare-at, hoodies category); prints FAQ word counts and checks."""
