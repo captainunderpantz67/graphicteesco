@@ -8,7 +8,7 @@ def repo_host(p):
     subprocess.run(['git', 'add', dst], check=True); subprocess.run(['git', 'commit', '-qm', '[' + os.environ.get('LANE', 'B') + '] host ' + name, '--', dst], stdout=subprocess.DEVNULL)
     for i in range(4):
         if subprocess.run(['git', 'push', '-q', 'origin', 'HEAD:main'], stdout=subprocess.DEVNULL).returncode == 0: break
-        subprocess.run(['git', 'pull', '-q', '--rebase', 'origin', 'main'], stdout=subprocess.DEVNULL)
+        subprocess.run(['git', 'pull', '-q', '--rebase', '--autostash', 'origin', 'main'], stdout=subprocess.DEVNULL)
     url = 'https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/' + dst
     import time
     for i in range(20):
