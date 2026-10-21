@@ -12031,6 +12031,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-christmas-attending-under-protest-embroidered-zip-hoodie": {
+   "claimed": [
+    "christmas zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
