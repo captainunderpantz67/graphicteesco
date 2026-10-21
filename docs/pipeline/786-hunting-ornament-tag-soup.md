@@ -1,4 +1,5 @@
 status: BUILDING [E] 2026-10-21 07:36
+shopify: gid://shopify/Product/15371673698608
 lane: E
 type: addon
 id: 786

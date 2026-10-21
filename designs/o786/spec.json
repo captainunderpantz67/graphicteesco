@@ -1,0 +1,1 @@
+{"art": "designs/o786/art.png", "crop": [0, 0, 3000, 4500], "bg": "#424b2c", "font": "AlfaSlabOne-Regular.ttf", "safe": 372, "rows": [{"t": "TODAY'S SPECIAL", "c": "#f3a05a", "h": 70, "font": "Lobster-Regular.ttf"}, {"art": true, "h": 400}, {"t": "TAG SOUP", "c": "#f3e7cf", "h": 120}], "gap": 12, "top": 185}
