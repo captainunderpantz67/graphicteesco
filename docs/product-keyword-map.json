@@ -10850,6 +10850,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-cat-knocked-it-off-felt-nothing-hoodie": {
+   "claimed": [
+    "cat hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cat hoodie",
+     "volume": 14800,
+     "kd": 42
+    }
+   ],
+   "measured": "2026-10-16"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

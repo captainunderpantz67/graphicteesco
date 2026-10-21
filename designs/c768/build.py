@@ -15,7 +15,7 @@ def halo(a,px):
     h=Image.new('RGBA',a.size,CREAM); h.putalpha(Image.fromarray(d)); h.alpha_composite(a); return h
 CR=(246,236,214,255); MU=(244,140,52,255); GK=(58,34,20,255); RD=(160,64,28,255)
 for mode,(hc,pc,aa,bg) in {'navy':(CR,MU,halo(art,16),(31,42,77,255)),'sand':(GK,RD,art,(226,214,188,255))}.items():
-    h=line("KNOCKED IT OFF.",'cinzel',0.92,W,hc,hc,kw=3); p=line("FELT NOTHING.",'cinzel',1.0,W,pc,pc,kw=3)
+    h=line("KNOCKED IT OFF.",'alfa',0.92,W,hc,hc,kw=3); p=line("FELT NOTHING.",'alfa',1.0,W,pc,pc,kw=3)
     out=lockup(aa,W,[h],[p],f'768-{mode}',{mode:bg},g=40)
     out=out.crop(out.getchannel('A').point(lambda v:255 if v>10 else 0).getbbox()); out.save(f'docs/print-files/768-{mode}.png',dpi=(300,300))
     th=h.height+p.height
