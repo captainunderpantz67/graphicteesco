@@ -1,7 +1,6 @@
 status: REVIEW
 shopify: gid://shopify/Product/15372542411056
 cover: fal-swap
-cover: fal-swap
 lane: C
 type: twin
 id: 940
