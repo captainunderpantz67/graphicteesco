@@ -818,7 +818,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1023 | Puerto Rican woman, early 20s, long dark curly hair tied back in a claw clip, slim build | CLAIMED 2026-10-21 — #850 zip back-print cover (brief) |
 | 1024 | white woman, late 20s, long straight blonde hair in a low braid, tall slim build | USED 2026-10-21 — #851 Essentials oatmeal zip cover |
 | 1025 | Lebanese-American man, early 30s, short dark wavy hair, light stubble, athletic build | USED 2026-10-21 — #852 Essentials sandshell zip cover |
-| 1026 | Japanese-American woman, mid 20s, chin-length black bob, slim build | CLAIMED 2026-10-21 — #853 Essentials zip cover (brief) |
+| 1026 | Japanese-American woman, mid 20s, chin-length black bob, slim build | USED 2026-10-21 — #853 Essentials seafoam zip cover |
 | 1027 | Black man, early 20s, short fade haircut, slim build | CLAIMED 2026-10-21 — #854 Essentials zip cover (brief) |
 | 1028 | South Asian woman, early 30s, long dark hair tied back in a low ponytail, average build | CLAIMED 2026-10-21 — #855 Essentials zip cover (brief) |
 | 1029 | white man, late 30s, short brown hair and full brown beard, stocky build | CLAIMED 2026-10-21 — #856 Essentials zip cover (brief) |
