@@ -6,8 +6,8 @@
   "h": 1013
  },
  "wrist_white": {
-  "id": 1091025395,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/c886_wrist_white.png",
+  "id": 1091071989,
+  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/t86c886_wrist_white.png",
   "w": 600,
   "h": 144
  },
@@ -18,21 +18,21 @@
   "h": 1013
  },
  "wrist_navy": {
-  "id": 1091025453,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/c886_wrist_navy.png",
+  "id": 1091072077,
+  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/t86c886_wrist_navy.png",
   "w": 600,
   "h": 144
  },
  "back_ash": {
-  "id": 1091025572,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/c886_back.png",
-  "w": 3600,
-  "h": 3295
+  "id": 1091072157,
+  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/t86print-files_886-not-today-ash.png",
+  "w": 3000,
+  "h": 2096
  },
  "back_navy": {
-  "id": 1091025634,
-  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/c886_back_navy.png",
-  "w": 3600,
-  "h": 3295
+  "id": 1091072205,
+  "url": "https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/t86print-files_886-not-today-light.png",
+  "w": 3000,
+  "h": 2096
  }
 }
