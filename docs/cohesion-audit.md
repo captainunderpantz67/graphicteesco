@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-21 08:45 UTC
+# Cohesion audit — 2026-10-21 09:45 UTC
 
-696 live products checked · **0 errors** · 123 warnings · 116 products with findings
+699 live products checked · **0 errors** · 126 warnings · 119 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -348,6 +348,15 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Unisex Doodle – Groomer Appointment: Overdue. Hoodie `unisex-doodle-groomer-appointment-overdue-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Outdoors – Camera Shy Sasquatch Camo Hoodie `mens-outdoors-sasquatch-camera-shy-camo-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Eagle – Bald by Choice. Majestic by Nature. Camo Hoodie `mens-eagle-bald-by-choice-camo-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Farmer – No Days Off. The Cows Said So. Camo Hoodie `mens-farmer-no-days-off-the-cows-said-so-camo-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Men's Catfish – Caught Something Ugly. Kept It Anyway. Camo Hoodie `mens-catfish-caught-something-ugly-kept-it-anyway-camo-hoodie`

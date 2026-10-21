@@ -1,6 +1,6 @@
 {
- "at": "2026-10-21T08:45:29.922Z",
- "products": 696,
+ "at": "2026-10-21T09:45:57.544Z",
+ "products": 699,
  "findings": [
   {
    "level": "WARN",
@@ -832,6 +832,27 @@
    "level": "WARN",
    "handle": "unisex-doodle-groomer-appointment-overdue-hoodie",
    "title": "Unisex Doodle – Groomer Appointment: Overdue. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-outdoors-sasquatch-camera-shy-camo-hoodie",
+   "title": "Men's Outdoors – Camera Shy Sasquatch Camo Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-eagle-bald-by-choice-camo-hoodie",
+   "title": "Men's Eagle – Bald by Choice. Majestic by Nature. Camo Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-farmer-no-days-off-the-cows-said-so-camo-hoodie",
+   "title": "Men's Farmer – No Days Off. The Cows Said So. Camo Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
