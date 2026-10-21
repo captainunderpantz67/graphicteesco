@@ -1,6 +1,6 @@
 {
- "at": "2026-10-21T02:44:28.546Z",
- "products": 670,
+ "at": "2026-10-21T03:44:28.960Z",
+ "products": 676,
  "findings": [
   {
    "level": "WARN",
@@ -669,6 +669,13 @@
   },
   {
    "level": "WARN",
+   "handle": "womens-cycling-here-for-the-downhill-cropped-hoodie",
+   "title": "Women's Cycling – Here for the Downhill. Cropped Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "womens-mom-motherhood-exposed-me-hoodie",
    "title": "Women's Mom – Motherhood Didn't Change Me. It Exposed Me. Hoodie",
    "msg": "No lifestyle cover photo.",
@@ -685,6 +692,41 @@
    "level": "WARN",
    "handle": "unisex-poker-i-fold-its-self-care-hoodie",
    "title": "Unisex Poker – I Fold. It's Self-Care. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-birding-hold-on-theres-a-bird-hoodie",
+   "title": "Unisex Birding – Hold On. There's a Bird. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-pug-wrinkled-not-worried-hoodie",
+   "title": "Unisex Pug – Wrinkled. Not Worried. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-husky-not-yelling-just-husky-hoodie",
+   "title": "Unisex Husky – Not Yelling. Just Husky. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-running-i-only-run-downhill-hoodie",
+   "title": "Men's Running – I Only Run Downhill Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-lineman-bad-weather-is-my-overtime-hoodie",
+   "title": "Men's Lineman – Bad Weather Is My Overtime Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   }

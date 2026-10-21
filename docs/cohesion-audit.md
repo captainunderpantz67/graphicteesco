@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-21 02:44 UTC
+# Cohesion audit — 2026-10-21 03:44 UTC
 
-670 live products checked · **0 errors** · 98 warnings · 91 products with findings
+676 live products checked · **0 errors** · 104 warnings · 97 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -278,6 +278,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Women's Nana – Mom Said No? That's Cute. Hoodie `womens-nana-mom-said-no-thats-cute-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Women's Cycling – Here for the Downhill. Cropped Hoodie `womens-cycling-here-for-the-downhill-cropped-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Women's Mom – Motherhood Didn't Change Me. It Exposed Me. Hoodie `womens-mom-motherhood-exposed-me-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
@@ -285,4 +288,19 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Unisex Poker – I Fold. It's Self-Care. Hoodie `unisex-poker-i-fold-its-self-care-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Birding – Hold On. There's a Bird. Hoodie `unisex-birding-hold-on-theres-a-bird-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Pug – Wrinkled. Not Worried. Hoodie `unisex-pug-wrinkled-not-worried-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Husky – Not Yelling. Just Husky. Hoodie `unisex-husky-not-yelling-just-husky-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Running – I Only Run Downhill Hoodie `mens-running-i-only-run-downhill-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Lineman – Bad Weather Is My Overtime Hoodie `mens-lineman-bad-weather-is-my-overtime-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
