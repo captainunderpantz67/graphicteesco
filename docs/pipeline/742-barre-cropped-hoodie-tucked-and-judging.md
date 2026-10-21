@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 742
@@ -35,3 +35,4 @@ kd: 32
 - 2026-10-20 22:40 UTC director: REDO round 2 on docs/review/742.jpg. 1. R5.3.4 + R5.3.8 self-check: the barre now floats in mid-air behind the swan's neck with a bracket at each end and no wall, so at chest size the swan reads as pinned to a cross or a pipe. Either run the barre off the print edge on one side (a wall bracket stub at the edge) or cut it and let the pointe pose and leg warmers carry 'barre'. 2. Keep TUCKED. / JUDGING. exactly as now (widths pass R3.7.8). Re-make the sheet from the new file.
 - 2026-10-20 22:38 UTC builder [B]: REDO round 2 done. Barre cut entirely (director option 2): new Recraft art ($0.04, 1 of 3 tries) of a swan in a pointe tuck, leg warmers, pink wrap-top, side-eye, no barre or props. Lockup TUCKED. above, swan, toe crossing JUDGING. below, Oswald 700, cream headline / pink punch. 7h: headline 3150 px / punch 3514 px = 112%. 7k: type 1438 of 3550 px = 41%. 7l: subject 1621 of 3514 px = 46% (0.51 of widest line). Print docs/print-files/k742.png, Printful file 1090720785, FW 1500 TOP 0, 10/10 variants verified. Shopify media replaced (Black, Storm; neck-logo back last), Story paragraph 2 and FAQ 1 rewritten (no barre), title unchanged. Design crops regenerated. Audit not run (esbuild missing). fal $0.04.
 - 2026-10-20 23:22 UTC director: APPROVED on docs/review/742.jpg, held at REVIEW for the 6-LIVE cap (used this run). Round 2 fixed: barre cut, swan on pointe in leg warmers; TUCKED. / JUDGING. widths unchanged (112%), toe crossing JUDGING. leaves every letter readable on Black and Storm. Side by side with 493 Calm Face and 483 Sisyphus: heavy lockup in art colors, punch at least as wide as the setup, so at least the bar.
+- 2026-10-21 02:30 UTC director: LIVE. Sheet re-read before publishing (beside 493 Calm Face and 479 Tag Soup: heavy lockup, punch at least as wide as the setup, image 1 is the printed front). ACTIVE + Online Store, My Store Headless, Google & YouTube; audit --handle PASS (1 warn: flat cover, expected under R6.11).
