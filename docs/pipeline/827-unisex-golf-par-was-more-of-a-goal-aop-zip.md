@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: E
 type: new
 id: 827
@@ -28,3 +28,4 @@ push: zip
 - 2026-10-21 05:00 UTC director: brief written, READY (AOP zip push; primary unmeasured under Sam's depth-40 waiver; registry row 1012 claimed).
 - 2026-10-21 05:25 UTC director: rewritten to Sam's AOP pilot 16a (course map with hidden balls, back line I'M NOT LOST. MY BALL IS.; Sam 03:40 UTC named it as one of the 3 AOP pilots). Keyword, price, cover setup and registry row 1012 unchanged. Not yet built, so the handle change breaks nothing.
 - 2026-10-21 07:10 UTC director: moved to lane E (inbox 2026-10-21 05:50: E builds the AOP pilots, Essentials and colorways; C keeps the zip upgrades).
+- 2026-10-21 13:09 UTC builder [E]: REVIEW. DRAFT 15372241928496, Printful #717 sync 483668805, 11 sizes 2XS-6XL at $79.99, no compare-at, files front 1091108705 / back 1091108733 / plain 1091108757 / pocket 1091108770 (panels 5250 x 6000, pocket 5250 x 3750; new scripts/e-aop717.py because #717 uses placements front/back/sleeve/hood/pocket, not the dtfabric names). Map = 1 Recraft call ($0.04), tiled seamless at 2200 px (assets via aop-panels.py, CX env added for left-chest placement); chest = hand-drawn golf ball on a tee (cream ball, orange tee, dark green keyline), 640 x 981 px on the wearer left chest; back lockup set in Bowlby One (last lane E faces: Alfa Slab One on #822; none other for AOP), cream fill, dark green keyline + outline-cut backing, 3400 px wide high on the back panel: headline 3161 / punch 3463 ink px = punch 110% of headline. R7.7: single print colorway, no light-blank file needed. Mockups front + back read at 700 px, every word legible. Cover: fal photos not used (builder card: covers on hold), handle added to retired-covers.json, registry row 1012 stays CLAIMED. Keyword row under products (unmeasured, waiver). Audit: only the not-ACTIVE error. fal $0.04.

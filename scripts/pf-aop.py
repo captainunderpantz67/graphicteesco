@@ -16,7 +16,7 @@ def call(m, p, b=None):
             raise Exception(f'{e.code} {e.read()[:400]}')
     raise Exception('429 loop')
 SWEAT = os.environ.get('SWEAT') == '1'   # SWEAT=1: sweatshirt #1418 (5037 x 6600 panels, no pocket/hood panels)
-PW, PH = (5037, 6600) if SWEAT else (6000, 6000)
+PW, PH = (5037, 6600) if SWEAT else (int(os.environ.get('PW', 6000)), int(os.environ.get('PH', 6000)))
 POS = {'area_width': PW, 'area_height': PH, 'width': PW, 'height': PH, 'top': 0, 'left': 0}
 PLAIN = ['sleeve_left_dtfabric', 'sleeve_right_dtfabric'] + ([] if SWEAT else ['pocket_dtfabric', 'hood_dtfabric'])
 cmd = sys.argv[1]

@@ -16,8 +16,8 @@ tile = Image.fromarray(t); P = Image.new('RGB', (PW, PH))
 for xx in range(0, PW, rep):
     for yy in range(0, PH, rep): P.paste(tile, (xx, yy))
 P.save(pre + '_plain.jpg', quality=90)
-def comp(png, w, top, out):
+def comp(png, w, top, out, cx=None):
     g = Image.open(png).convert('RGBA'); g = g.resize((w, round(g.height * w / g.width)), Image.LANCZOS)
-    Q = P.convert('RGBA'); Q.alpha_composite(g, ((PW - w) // 2, top)); Q.convert('RGB').save(out, quality=92); print(out, g.size)
-if len(sys.argv) > 6: comp(sys.argv[4], int(sys.argv[5]), int(sys.argv[6]), pre + '_front.jpg')
+    Q = P.convert('RGBA'); Q.alpha_composite(g, ((cx if cx is not None else PW // 2) - w // 2, top)); Q.convert('RGB').save(out, quality=92); print(out, g.size)
+if len(sys.argv) > 6: comp(sys.argv[4], int(sys.argv[5]), int(sys.argv[6]), pre + '_front.jpg', int(os.environ['CX']) if os.environ.get('CX') else None)
 if len(sys.argv) > 9: comp(sys.argv[7], int(sys.argv[8]), int(sys.argv[9]), pre + '_back.jpg')
