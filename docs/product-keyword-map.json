@@ -10528,7 +10528,15 @@
   "womens-french-bulldog-personal-space-never-heard-of-her-crewneck-sweatshirt": {
    "claimed": [
     "frenchie sweater"
-   ]
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "frenchie sweater",
+     "volume": 1900,
+     "kd": 20
+    }
+   ],
+   "measured": "2026-10-16"
   },
   "womens-embroidered-french-bulldog-loaf-mode-crewneck-sweatshirt": {
    "claimed": [
