@@ -50,6 +50,23 @@ const ld = [organization(live), website(), ...schema];
     <meta name="theme-color" content="#1c1b19" />
     <link rel="preload" href="/fonts/big-shoulders-display-latin-900-normal.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/fonts/archivo-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+    {/* GA4 (Sam created 2026-10-20). ai_source tags visits from AI assistants (ChatGPT, Perplexity, Gemini, Copilot, Claude) for the Black Friday "boomers shop via ChatGPT" test. */}
+    {!import.meta.env.PUBLIC_PREVIEW && <>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-0KY0KGZ6PQ"></script>
+      <script is:inline>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        (function () {
+          var src = (new URLSearchParams(location.search).get('utm_source') || '') + ' ' + document.referrer;
+          var m = src.match(/chatgpt|openai|perplexity|gemini|bard|copilot|claude|anthropic/i);
+          if (m) { try { sessionStorage.setItem('ai_source', m[0].toLowerCase()); } catch (e) {} }
+          var ai; try { ai = sessionStorage.getItem('ai_source'); } catch (e) {}
+          gtag('config', 'G-0KY0KGZ6PQ', ai ? { ai_source: ai } : {});
+          if (ai) gtag('set', 'user_properties', { ai_source: ai });
+        })();
+      </script>
+    </>}
     {ld.map((s) => <script type="application/ld+json" set:html={JSON.stringify(s)} />)}
   </head>
   <body>

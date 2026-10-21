@@ -103,8 +103,13 @@
     const btn = form.querySelector<HTMLButtonElement>('button[type=submit]');
     if (!variant || !cartEnabled) return;
     if (btn) btn.disabled = true;
-    try { render(await addLine(variant)); open(); } finally { if (btn) btn.disabled = false; }
+    try {
+      render(await addLine(variant)); open();
+      (window as any).gtag?.('event', 'add_to_cart', { currency: 'USD', items: [{ item_id: variant, item_name: document.querySelector('h1')?.textContent?.trim() }] });
+    } finally { if (btn) btn.disabled = false; }
   });
+
+  checkoutEl.addEventListener('click', () => (window as any).gtag?.('event', 'begin_checkout', { currency: 'USD' }));
 
   getCart().then(render).catch(() => render(null));
 </script>
