@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: new
 id: 602
@@ -31,3 +31,4 @@ kd: 35
 - 2026-10-21 07:35 UTC director: REDO (type). LOVE MEANS / NOTHING TO ME. is a good tennis double meaning. Send back:
   1. Quality reset type bar ('never a thin script on a dark or mid garment'): LOVE MEANS is a thin monoline script and is unreadable in red on Heather Mauve. Re-set it in a heavy face (it may stay a heavy brush script) at least 45% of the punch's height, in navy on the light colors.
   2. R5.3.8: check every color's mockup at phone size; if red on Mauve still fails after the change, drop Mauve or use a navy setup line there.
+- 2026-10-21 08:21 UTC [B]: REDO in place on the DRAFT. 1. LOVE MEANS re-set in Bowlby One (heavy), navy with a cream keyline, no script: 1152 px wide and 0.99 of the punch's height (brief: at least 45%); NOTHING TO ME. stays Alfa Slab One navy at 1590 px (punch 138% of the setup, 109% of the art width, 7h). The red setup is gone, so no red on Heather Mauve. 2. R5.3.8 phone-size check of all six mockups: navy on White, Natural, Heather Stone, Athletic Heather, Pink and Heather Mauve all read, Mauve kept. File 1590 x 2106, aspect 1.32, FW 1300 TOP 75 (still the 6400 area limit, 1719 px tall + 75 inside 1800). R7.7: 36/36 synced on default file 1090985809, back logo 1080398177 on 36/36. Media replaced and attached; copy line fixed (both lines heavy navy, no red script); sheet docs/review/602.jpg. Audit: only 'not visible on the storefront' (still DRAFT). No new art, no fal spend.

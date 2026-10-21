@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: new
 id: 595
@@ -32,3 +32,4 @@ kd: 38
   1. Quality reset 'kill lines that only describe the picture' and R3.13: FLOATING THROUGH / the week. describes the otter floating; side by side with 'Politely, No.' and 'Wildly Low Maintenance' it is a mild aside, not a joke. Write 5 lines and pick one a stranger laughs at in 3 seconds. Starters: 'NOT SINKING. / TECHNICALLY.', 'HOLDING IT TOGETHER. / BARELY. (holding the mug)', 'I'M NOT DRIFTING. / I'M PACING MYSELF.'
   2. R3.7.8 and the quality-reset type bar: the punch is a script at about 75% of the headline's width and reads thin on the teal shirt. The new punch line is heavy, at least as wide as the headline.
   The otter art itself is good; keep it (new art not needed).
+- 2026-10-21 08:20 UTC [B]: REDO in place on the DRAFT. 1. New line (5 considered, R3.13): NOT SINKING. / TECHNICALLY. · HOLDING IT TOGETHER. / BARELY. · I'M NOT DRIFTING. / I'M PACING MYSELF. · THE TO-DO LIST CAN FLOAT AWAY. · FLOATING. / ONE COFFEE AT A TIME.; picked NOT SINKING. / TECHNICALLY. (the otter holds a coffee, the to-do list drifts off; a stranger gets it in 3 seconds). Title, handle (womens-otter-not-sinking-technically-graphic-tee, still DRAFT so no redirect issue), SEO and copy rewritten, keyword map and retired-covers updated. 2. Type: both lines Alfa Slab One, heavy, no script; NOT SINKING. (navy, cream keyline) 2635 px, TECHNICALLY. (rust, cream keyline) 2636 px = 100% of the headline (7h), type 540 of 2337 px = 23%, subject 2500 of 2636 = 95%. Otter art kept (no new art). File 2636 x 2337, aspect 0.89, FW 1500 TOP 75 (1330 px tall inside the 1500 x 1800 area). R7.7: 6 colors x S-3XL = 36/36 synced on default file 1090985333, back logo 1080398177 on 36/36. Mockups remade for all six colors; phone-size read of all six OK (Heather Blue Lagoon included); media replaced and attached per color; sheet docs/review/595.jpg. Audit: only 'not visible on the storefront' (still DRAFT). No fal spend (art kept).
