@@ -12,6 +12,8 @@ tmp = tempfile.mktemp(suffix='.png'); subprocess.run(['python3', R + 'scripts/pr
 a = Image.open(tmp).convert('RGBA'); bb = a.getbbox(); a = a.crop(bb)
 inner = W - 2 * OUT - 160; s = min(inner / a.width, (PH - 2 * OUT - 160) / a.height); a = a.resize((int(a.width * s), int(a.height * s)), Image.LANCZOS)
 ph = max(PH, a.height + 2 * OUT + 160)
+import numpy as np  # enclosed white inside the art becomes the patch's bone (no white-on-cream seams)
+_n = np.array(a); _w = (_n[..., :3].min(axis=2) >= 244) & (_n[..., 3] > 0); _n[_w, :3] = BONE[:3]; a = Image.fromarray(_n)
 patch = Image.new('RGBA', (W, ph), (0, 0, 0, 0)); d = ImageDraw.Draw(patch)
 d.rounded_rectangle((0, 0, W - 1, ph - 1), 150, fill=DARK); d.rounded_rectangle((OUT, OUT, W - 1 - OUT, ph - 1 - OUT), 110, fill=BONE)
 patch.alpha_composite(a, ((W - a.width) // 2, (ph - a.height) // 2))
