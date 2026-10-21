@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-21 05:50
+status: REVIEW
 lane: B
 type: twin
 id: 831
@@ -22,3 +22,4 @@ push: camo
 ---
 ## Log
 - 2026-10-21 05:00 UTC director: brief written, READY (camo push twin of an A-grade design; primary measured today).
+- 2026-10-21 05:15 UTC [B]: built twin of #444 as DRAFT (product 15371560059184, IND4000 #1543, Forest Camo + Duck Camo + Black Camo x S-3XL = 18/18 synced on file 1090926460, back logo 1080398177, sync 483589800). R6.2 lettering check: BALD BY CHOICE. (cream) / MAJESTIC BY NATURE. (gold) in Alfa Slab One with dark outline, spelled right, no ring/arch/disc/box, ragged-edge art. Print = #444 art + camo-halo.py cream underlay (close 30, halo 22). FW 1600 TOP 0 (3360 x 2748 = 9.2 in tall, clear of the pouch). 7h: both lines are full lockup width (headline and punch equal at the lockup width, 100%). 7l: subject (eagle head) 2300 of 3360 px = 68%. Phone-size read of all three fronts OK; the gold second line is smaller but has the cream halo and dark outline. Light file n/a (camo only). Keyword bald eagle hoodie 320/KD 31 in map under products. Price 49.99 no compare-at, category hoodies, tags camo-hoodies graphic-hoodies-for-men hoodie ai-art intake-done, SEO title 45/meta 141, FAQ 5 x 45-51 words (order-by Dec 8). Flat cover, front first, neck-logo back last. Copy checked vs art. Audit PASS (1 warn: no lifestyle cover). Sheet docs/review/831.jpg. fal $0.

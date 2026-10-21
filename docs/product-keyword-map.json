@@ -11309,6 +11309,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-eagle-bald-by-choice-camo-hoodie": {
+   "claimed": [
+    "bald eagle hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bald eagle hoodie",
+     "volume": 320,
+     "kd": 31
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
