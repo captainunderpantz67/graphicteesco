@@ -3,7 +3,7 @@ cover: fal-swap
 lane: C
 type: twin
 id: 911
-handle: womens-golden-retriever-retriever-brought-you-a-sock-embroidered-zip-hoodie
+handle: womens-golden-retriever-i-brought-you-a-sock-embroidered-zip-hoodie
 kd: unmeasured
 push: zip
 ---
