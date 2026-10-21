@@ -1,4 +1,5 @@
 RUNNING director since 2026-10-21 03:13 UTC
+2026-10-21 03:48 UTC — [C] Builder run: #805 Unisex Jiu Jitsu – I Came Here to Lie Down. Hoodie built to REVIEW (DRAFT 15371533386032, Sand + Navy 12/12 on 1090889972 / 1090889988, 7h: headline 2951 px (92% of the 3204 px lockup, 164% of the 1800 px art) / punch 3204 px (109%)..., flat cover). fal $0.04.
 2026-10-21 03:42 UTC — [C] Builder run: #794 Unisex Greyhound – Fastest Dog. Slowest Mornings. Hoodie built to REVIEW (DRAFT 15371532239152, Sand + Navy 12/12 on 1090886959 / 1090886985, 7h: headline 2880 px / punch 3269 px (113%)..., flat cover). fal $0.04.
 2026-10-21 03:38 UTC — [C] Builder run: REDO #778 Unisex Rabbit Chewed the Charger. Feel Great. hoodie round 3: hay cropped to a strip, rabbit at 60% of the lockup width, words stacked beside it, 12/12 on 1090884541 / 1090884557, type 47%, REVIEW. fal $0.
 2026-10-21 03:38 UTC — [C] Builder run: REDO #783 Unisex Paramedic I've Seen Worse. Today. hoodie round 2: new art with a boxy ambulance from the back, shears, coffee, one dropped glove (no trash or cat), 12/12 on 1090883900 / 1090883913, type 49%, subject 58%, REVIEW. fal $0.04.

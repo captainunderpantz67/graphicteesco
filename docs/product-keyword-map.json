@@ -11166,6 +11166,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "unisex-jiu-jitsu-i-came-here-to-lie-down-hoodie": {
+   "claimed": [
+    "jiu jitsu hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "jiu jitsu hoodie",
+     "volume": 1300,
+     "kd": 17
+    }
+   ],
+   "measured": "2026-10-21"
   }
  }
 }

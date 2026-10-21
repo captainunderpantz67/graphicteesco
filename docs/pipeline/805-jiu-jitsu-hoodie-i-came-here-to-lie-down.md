@@ -1,4 +1,5 @@
-status: READY
+status: REVIEW
+shopify: gid://shopify/Product/15371533386032
 lane: C
 type: new
 id: 805
@@ -24,3 +25,4 @@ kd: 17
 ---
 ## Log
 - 2026-10-21 03:40 UTC director: brief written, READY (lane C hoodies cluster; primary measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries, collections.ts and guides).
+- 2026-10-21 03:48 UTC lane C: built new. Recraft v4 1 call(s) ($0.04, logged): cartoon grappler in a rumpled white gi and a frayed dark belt flat on his back on a blue gym mat, hands behind his head, half-shut content eyes, squeeze water bottle (no brand), sweat drops; scripts/ragged-edge.py (depth 55) on the straight mat edges. scripts/prep-seal.py, art edges ragged-faded. Lockup (designs/c805/build.py): Bowlby One, I CAME HERE above, TO LIE / DOWN. on two lines below (gap 30 px); navy cream + faded red with a cream edge on the art, sand navy #1f2a4d + faded red #a83428. 7h: headline 2951 px (92% of the 3204 px lockup, 164% of the 1800 px art) / punch 3204 px (109%). 7k: type 1674 px of 2980 px print height (56%). 7l: subject 1800 px of 3204 px lockup width = 56%. Light file: Sand on 1090889972 (dark ink, no cream), Navy on 1090889988 (cream headline, colored punch, cream edge). FW 1500 TOP 0. Verified 12/12 (6 Sand, 6 Navy) via GET /sync/products, back logo 1080398177. Shopify DRAFT: title Unisex Jiu Jitsu – I Came Here to Lie Down. Hoodie, category hoodies, $39.99 no compare-at, tags graphic-hoodies-for-men graphic-hoodies-for-women hoodie jiu-jitsu ai-art intake-done, SEO title 43 / meta 108, FAQ 5 x 50-55 words, order-by Dec 8, keyword jiu jitsu hoodie 1300/KD 17 in map (under products), 'jiu jitsu hoodie' 2x in body. Line one: print's words + who + when, no superlative. Copy checked vs art (grappler on his back, rumpled white gi, frayed dark belt, blue mat, hands behind head, half-shut eyes, water bottle, sweat drops). Inks from mockups. Phone-size read of both fronts OK. R6.12/R6.13: front print only, Navy front image 1, neck-logo back last. Cover: flat product shot (retired-covers.json). Etsy and R5.2 proof unverifiable from the builder, director eyeball. Audit only 'not visible'. fal $0.04.
