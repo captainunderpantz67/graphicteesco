@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-21T06:20Z
+status: REVIEW
 lane: C
 type: redo
 id: 818
@@ -23,3 +23,4 @@ push: zip
 ## Log
 - 2026-10-21 05:00 UTC director: brief written, READY (zip-up push; registry row 1002 claimed; gated on #815).
 - 2026-10-21 05:25 UTC director: gate cleared. #815 is LIVE: Printful takes left-chest embroidery + wrist embroidery + DTG back on #692. Price per the new R12.1 zip line: $44.99 + $10 chest (+$3 wrist) = $54.99 / $57.99, no compare-at, and the title says Embroidered (the audit only accepts the bump then). This replaces the brief's $52.99 line.
+- 2026-10-21 07:45 UTC builder [C]: zip standard built IN PLACE, REVIEW. Printful 12/12 (Ash 6 + Navy 6): Ash back 1090953717 / chest 1090953588 / wrist 1090953661; Navy back 1090953765 / chest 1090953483 / wrist 1090953534. Back = existing I'M NOT STUCK. / I'M DECORATED. art (red and green capitals with cream keylines, no cream/white fill) at full 12 in width, same file on both colors. Chest: new Recraft sitting-capybara-with-light-string icon (try 1, a front-facing head, read as a giraffe at chest size and was dropped; fal $0.08), one thread (white on Navy, #333366 on Ash), 3.50 x 3.02 in, thinnest stroke 1.52 mm; wrist MERRY in Anton 0.35 in caps, 1.02 in wide. Navy variants added, White removed, all $57.99 no compare-at, title now '... Embroidered Zip Hoodie', Story/bullet/5 FAQs (incl. embroidery care, order-by Dec 8) rewritten; the old copy and title said I'M NOT STUCK, the handle says tangled-unbothered (unchanged). AI cover (registry 1002, fal $0.12): try 1 rejected (zipper down the back); try 2 kept: woman from behind on a lit porch, bun clear of the print, hood up as a plain bunched hood, both lines and the capybara read at full size. Flag for the director: two short slanted pocket-slit-like lines low on each side of the back (not a back zip); say if that sends it back. Old holiday-market cover removed from covers.ts (duplicate key), handle out of retired-covers.json, registry 1002 USED. Photos: Navy back, Ash back, Navy chest front, Ash chest front. Audit PASS (0 warn).

@@ -34,6 +34,13 @@
   "x": 144,
   "y": 19
  },
+ "christmas-tree-it-looked-smaller-at-the-farm-mug": {
+  "h": 754,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/white-glossy-mug-white-11-oz-handle-on-right-6ad85101565d1.jpg",
+  "w": 603,
+  "x": 190,
+  "y": 129
+ },
  "dachshund-short-legs-long-opinions-mug": {
   "h": 760,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/white-glossy-mug-white-11-oz-handle-on-right-6ad5dd7c6eb5c.jpg",
@@ -54,6 +61,13 @@
   "w": 608,
   "x": 178,
   "y": 126
+ },
+ "fishing-you-catching-em-no-keep-walking-ornament": {
+  "h": 879,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/ceramic-ornament-circle-front-6ad8515a8468f.jpg",
+  "w": 703,
+  "x": 144,
+  "y": 19
  },
  "french-bulldog-im-helping-youre-welcome-ornament": {
   "h": 879,
@@ -521,7 +535,7 @@
   "h": 759,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavyweight-hooded-sweatshirt-sandstone-front-6ad3ebed8d169.jpg",
   "w": 607,
-  "x": 290,
+  "x": 284,
   "y": 124
  },
  "mens-fishing-reel-talk-graphic-tee": {
@@ -1812,6 +1826,13 @@
   "x": 262,
   "y": 125
  },
+ "unisex-dachshund-short-legs-long-opinions-socks": {
+  "h": 879,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/sublimation-socks-m-left-sock-6ad852208bd93.jpg",
+  "w": 703,
+  "x": 144,
+  "y": 19
+ },
  "unisex-embroidered-overthinkers-club-crewneck-sweatshirt": {
   "h": 806,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-crew-neck-sweatshirt-sand-front-6ad45559eed5e.jpg",
@@ -2373,11 +2394,11 @@
   "y": 144
  },
  "unisex-y2k-side-quests-only-hoodie": {
-  "h": 707,
+  "h": 754,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-sand-front-6ad3cf7b4cd27.jpg",
-  "w": 566,
-  "x": 279,
-  "y": 166
+  "w": 603,
+  "x": 274,
+  "y": 125
  },
  "welder-i-basically-hot-glue-metal-ornament": {
   "h": 879,
@@ -2587,7 +2608,7 @@
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-crew-neck-sweatshirt-sand-front-6ad3dfaf62a35.jpg",
   "w": 499,
   "x": 302,
-  "y": 74
+  "y": 34
  },
  "womens-cat-oops-anyway-cropped-hoodie": {
   "h": 759,
@@ -2738,10 +2759,10 @@
  },
  "womens-christmas-capybara-tangled-unbothered-zip-hoodie": {
   "h": 806,
-  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-zip-hoodie-ash-front-6ad4801a4ef55.jpg",
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-zip-hoodie-white-back-6ad480276c666.jpg",
   "w": 645,
   "x": 174,
-  "y": 101
+  "y": 23
  },
  "womens-christmas-cardinal-christmas-crewneck-sweatshirt": {
   "h": 541,
@@ -2867,7 +2888,7 @@
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/womens-relaxed-t-shirt-white-front-6ad44bd32be4b.jpg",
   "w": 551,
   "x": 256,
-  "y": 14
+  "y": 6
  },
  "womens-christmas-christmas-teacher-graphic-tee": {
   "h": 670,
