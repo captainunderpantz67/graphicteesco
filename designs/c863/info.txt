@@ -1,0 +1,2 @@
+https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/docs/hosted/bc863_back_ash.png 3600 3880
+['Ash', 'Navy']
