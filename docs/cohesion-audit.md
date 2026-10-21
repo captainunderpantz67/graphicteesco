@@ -1,4 +1,4 @@
-# Cohesion audit — 2026-10-21 10:52 UTC
+# Cohesion audit — 2026-10-21 11:49 UTC
 
 699 live products checked · **0 errors** · 126 warnings · 119 products with findings
 
@@ -36,6 +36,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Unisex Thanksgiving – Not a Turkey, Just a Pilgrim Hoodie `unisex-thanksgiving-totally-a-pilgrim-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
+
+### Women's Frog – Not Today, I'm Moisturizing Embroidered Zip Hoodie `womens-frog-not-toad-ay-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Women's Thanksgiving – Friendsgiving Hoodie `womens-thanksgiving-friendsgiving-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
@@ -95,9 +98,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Men's Chess – Sorry About Your Pawn Hoodie `mens-chess-calculated-mostly-hoodie`
 - **WARN** Meta description is 164 chars (> 160). → Trim to ≤ 155.
-
-### Unisex Running – On My Way, Eventually Zip Hoodie `unisex-running-pace-leisurely-zip-hoodie`
-- **WARN** Meta description is 162 chars (> 160). → Trim to ≤ 155.
 
 ### Men's Grandpa – I'm Fixing It, Eyes Closed Hoodie `mens-grandpa-i-fix-things-after-naps-hoodie`
 - **WARN** No meta description. → Write one ≤ 155 chars.

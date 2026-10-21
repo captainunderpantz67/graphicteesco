@@ -1,5 +1,5 @@
 {
- "at": "2026-10-21T10:52:39.362Z",
+ "at": "2026-10-21T11:49:37.209Z",
  "products": 699,
  "findings": [
   {
@@ -71,6 +71,13 @@
    "title": "Unisex Thanksgiving – Not a Turkey, Just a Pilgrim Hoodie",
    "msg": "thanksgiving design isn't in any thanksgiving collection.",
    "fix": "Tag it so it appears in the thanksgiving shirts page."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-frog-not-toad-ay-zip-hoodie",
+   "title": "Women's Frog – Not Today, I'm Moisturizing Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
    "level": "WARN",
@@ -217,13 +224,6 @@
    "handle": "mens-chess-calculated-mostly-hoodie",
    "title": "Men's Chess – Sorry About Your Pawn Hoodie",
    "msg": "Meta description is 164 chars (> 160).",
-   "fix": "Trim to ≤ 155."
-  },
-  {
-   "level": "WARN",
-   "handle": "unisex-running-pace-leisurely-zip-hoodie",
-   "title": "Unisex Running – On My Way, Eventually Zip Hoodie",
-   "msg": "Meta description is 162 chars (> 160).",
    "fix": "Trim to ≤ 155."
   },
   {
