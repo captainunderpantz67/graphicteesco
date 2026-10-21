@@ -17,7 +17,11 @@ _n = np.array(a); _w = (_n[..., :3].min(axis=2) >= 244) & (_n[..., 3] > 0); _n[_
 patch = Image.new('RGBA', (W, ph), (0, 0, 0, 0)); d = ImageDraw.Draw(patch)
 d.rounded_rectangle((0, 0, W - 1, ph - 1), 150, fill=DARK); d.rounded_rectangle((OUT, OUT, W - 1 - OUT, ph - 1 - OUT), 110, fill=BONE)
 patch.alpha_composite(a, ((W - a.width) // 2, (ph - a.height) // 2))
-font = lambda sz: ImageFont.truetype(R + 'designs/fonts/AlfaSlabOne-Regular.ttf', sz)
+def font(sz):  # FONT=<file in designs/fonts> rotates the face (card 7r); variable faces are set to their heaviest weight
+    f = ImageFont.truetype(R + 'designs/fonts/' + os.environ.get('FONT', 'AlfaSlabOne-Regular.ttf'), sz)
+    try: f.set_variation_by_axes([float(os.environ.get('WGHT', 900))])
+    except Exception: pass
+    return f
 def line(t):
     sz = 700
     while font(sz).getbbox(t)[2] > W - 70 and sz > 100: sz -= 1

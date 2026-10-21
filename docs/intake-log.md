@@ -1,4 +1,5 @@
 RUNNING helper since 2026-10-21 13:50 UTC
+2026-10-21 14:21 UTC — [B] REVIEW #900 Men's Wolf Lone Wolf. Early Bedtime. Camo Hoodie (NEW DRAFT 15372523077936, 14/14 on 1091150627, Bowlby One, punch 100%, subject 69%, cover: fal-swap). fal $0.04.
 2026-10-21 14:13 UTC — [B] REVIEW #881 Unisex Possum Playing Dead Till Friday Camo Hoodie (redo in place, flat possum on bone patch, 14/14 on 1091146594, punch 100%, subject 74%). fal $0.04.
 2026-10-21 14:08 UTC — [B] REVIEW #876 Women's Western Kick Up Dust. Settle Nothing. Camo Hoodie (redo in place, boots + dust cloud on bone patch, 14/14 on 1091144055, punch 100%, subject 74%). fal $0.04.
 2026-10-21 14:12 UTC — [E] REVIEW #851 Unisex Essentials Oatmeal Embroidered Zip Hoodie (pilot, option A: chest embroidery only, 6/6 on file 1090961074, $49.99, audit only not-ACTIVE, AI cover registry 1024). fal $0.06.

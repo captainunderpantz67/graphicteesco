@@ -11836,6 +11836,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-wolf-lone-wolf-early-bedtime-camo-hoodie": {
+   "claimed": [
+    "wolf camo hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "wolf camo hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
