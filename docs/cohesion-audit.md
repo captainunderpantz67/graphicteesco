@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-21 03:44 UTC
+# Cohesion audit — 2026-10-21 04:46 UTC
 
-676 live products checked · **0 errors** · 104 warnings · 97 products with findings
+682 live products checked · **0 errors** · 110 warnings · 103 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -299,8 +299,26 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Unisex Husky – Not Yelling. Just Husky. Hoodie `unisex-husky-not-yelling-just-husky-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Men's Construction – I'm Not Leaning. I'm Supervising. Hoodie `mens-construction-not-leaning-supervising-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Men's Running – I Only Run Downhill Hoodie `mens-running-i-only-run-downhill-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Unisex Climbing – Afraid of Heights. Climbs Anyway. Hoodie `unisex-climbing-afraid-of-heights-climbs-anyway-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Men's Lineman – Bad Weather Is My Overtime Hoodie `mens-lineman-bad-weather-is-my-overtime-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Electrician – It's Probably the Breaker Hoodie `mens-electrician-its-probably-the-breaker-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Plumber – Off Duty. Not Looking at Your Sink. Hoodie `mens-plumber-not-looking-at-your-sink-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Disc Golf – Parked It. In a Tree. Hoodie `mens-disc-golf-parked-it-in-a-tree-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Chef – Cooks for 200. Cereal at Home. Hoodie `unisex-chef-cooks-for-200-cereal-at-home-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
