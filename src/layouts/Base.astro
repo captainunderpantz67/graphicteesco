@@ -126,6 +126,15 @@ const ld = [organization(live), website(), ...schema];
         </div>
       </div>
     </header>
+    <!-- Shop bar (Sam 2026-10-21: Black Friday and gifts must be one tap away on every page, no menu needed). -->
+    <nav aria-label="Shop" class="border-b-2 border-[var(--color-ink)] bg-[var(--color-cream)]">
+      <div class="container-x flex gap-2 overflow-x-auto py-2.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        <a href="/black-friday/" class="shrink-0 rounded-full bg-[var(--color-ink)] text-[var(--color-mustard)] border-2 border-[var(--color-ink)] px-4 py-2 text-sm font-extrabold uppercase tracking-[.08em]">Black Friday deals</a>
+        <a href="/gifts/" class="shrink-0 rounded-full bg-[var(--color-rust)] text-[var(--color-cream)] border-2 border-[var(--color-ink)] px-4 py-2 text-sm font-extrabold uppercase tracking-[.08em]">Gifts &amp; sets</a>
+        {seasonal.slice(0, 1).map((c) => <a href={pathFor(c)} class="shrink-0 rounded-full bg-[var(--color-paper)] border-2 border-[var(--color-ink)] px-4 py-2 text-sm font-extrabold uppercase tracking-[.08em]">{c.h1}</a>)}
+        {showHoodies && <a href="/hoodies/" class="shrink-0 rounded-full bg-[var(--color-paper)] border-2 border-[var(--color-ink)] px-4 py-2 text-sm font-extrabold uppercase tracking-[.08em]">Hoodies</a>}
+      </div>
+    </nav>
 
     <main id="main"><slot /></main>
 

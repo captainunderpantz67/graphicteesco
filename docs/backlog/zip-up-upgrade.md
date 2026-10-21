@@ -51,17 +51,6 @@ UPDATE 2026-10-21 (Sam: "what about an all over print zip up"). ALL-OVER-PRINT Z
    - lake life (scattered lures and bobbers), golf course (tees and balls), trailhead topo-map lines (generic contour map, no park names), Christmas (ugly-sweater knit pattern for the Christmas cluster)
 17. Pattern seams: align across zipper and side seams, hood lining plain; check every panel on the Printful mockup before review. Lifestyle covers per item 4 (no over-the-shoulder).
 18. Note on the page and product copy: polyester, sublimation-printed edge to edge, so the whole hoodie is the design (answer-first FAQ: "Is the all-over print hoodie cotton?" -> No, recycled polyester fleece).
-<<<<<<< d945833c2d00e70a2d2e264c8aedbe78b4b9ac6a
-<<<<<<< 06cc861842daf685c8e8835c437f6773978ae217
-<<<<<<< 5db3f845ac7aeb6f31b990328c6fa076b00551ef
-<<<<<<< 7b62112f8f7395ecce58f9773394af01474ecf78
-=======
-=======
->>>>>>> 4c7a4fdd884922f20beacb33ff9cea7b72939f51
-=======
->>>>>>> 855ee44b1e86b55a2c5a5406b7f3ce8cd9f1c8e9
-=======
->>>>>>> 9c2d3c75db5ef5e619ea17ff15f5b54f5d358e56
 
 UPDATE 2026-10-21 (Sam: "the camo designs suck. We need them sharp and high contrast, especially on camo"). CAMO DESIGN STANDARD (applies to every camo product, new and existing):
 19. Patch construction: the art sits inside ONE solid shape (circle, shield, badge or rectangle patch) filled cream/bone or blaze orange, with a thick dark outline (about 0.2 in at print size). Nothing floats directly on the camo except the patch and the lettering.
@@ -71,15 +60,6 @@ UPDATE 2026-10-21 (Sam: "the camo designs suck. We need them sharp and high cont
 23. Colors to use: IND4000 heavyweight (Forest, Duck, Darkwood Tree, Deadwood Tree, Black Camo; $49.99/$54.99 per R12.1), SS4500 midweight (Forest, Duck, Black Camo; price to ~$15 profit) for a lighter option, Independent EXP54LWZ zip windbreaker (Forest, Black, White/snow camo) as a camo zip, and the #717 all-over-print zip for pink / blaze orange / snow camo. Each product: 2-3 camo colors that suit the design (Black Camo for night/duck jokes, Forest for deer camp, Deadwood for late season).
 24. Embroidered patch option: camo + an embroidered chest patch reads premium and always contrasts; do it on the best 6 (IND4000 supports embroidery? verify placements first).
 25. Redo every live camo product that fails 19-22 in place (same handle), worst first; director grades before rebuilding.
-<<<<<<< d945833c2d00e70a2d2e264c8aedbe78b4b9ac6a
-<<<<<<< 06cc861842daf685c8e8835c437f6773978ae217
-<<<<<<< 5db3f845ac7aeb6f31b990328c6fa076b00551ef
->>>>>>> 0aea01f84c7f37cf33b7271a88d3d2900d4a9b34
-=======
-=======
->>>>>>> 855ee44b1e86b55a2c5a5406b7f3ce8cd9f1c8e9
-=======
->>>>>>> 9c2d3c75db5ef5e619ea17ff15f5b54f5d358e56
 
 UPDATE 2026-10-21 (Sam: the lake / golf / topo / ugly-sweater patterns "are lame, make them our brand"). REPLACES the non-camo half of item 16. The PATTERN is the joke (whimsy-first, cheeky not cheesy, original art, house style), with a dry one-liner big on the back:
 16a. GOLF, "Where My Balls Went": an illustrated course map all over the hoodie, with tiny golf balls in the pond, in a tree, through a clubhouse window, on a cart roof, in a goose's nest, each with a tiny deadpan label ("provisional", "still looking", "the goose has it"). Back line: "I'M NOT LOST. MY BALL IS."
@@ -88,12 +68,6 @@ UPDATE 2026-10-21 (Sam: the lake / golf / topo / ugly-sweater patterns "are lame
 16d. CHRISTMAS, "Ugly Sweater, Honest Edition": a knit-pixel ugly-sweater pattern whose motifs are real holiday chaos: a cat on the tree, a dad tangled in lights, a burnt cookie tray, a re-gifted fruitcake, a knit band reading "HERE FOR THE HAM". Back line: "MOST LIKELY TO NAP BY 3PM."
 16e. CAMO with a wink, "Hide & Seek Champion": woodland camo where a small Bigfoot is hidden somewhere in every panel (our Bigfoot character, same house style), back line "UNDEFEATED". Counts toward camo 40.
 Each needs the house-style check (fonts, palette, joke reads at phone size) and a USPTO check of the back line before review.
-<<<<<<< d945833c2d00e70a2d2e264c8aedbe78b4b9ac6a
-<<<<<<< 06cc861842daf685c8e8835c437f6773978ae217
->>>>>>> 4c7a4fdd884922f20beacb33ff9cea7b72939f51
-=======
-=======
->>>>>>> 9c2d3c75db5ef5e619ea17ff15f5b54f5d358e56
 
 UPDATE 2026-10-21 (Sam: "stretch our legs … as many cool zip-up options from Printful, even blanks in colors that would do well, with maybe an embroidery logo on the back top"). ZIP RANGE + ESSENTIALS LINE:
 26. Zip blanks to use (Printful, base cost, colors):
@@ -105,8 +79,14 @@ UPDATE 2026-10-21 (Sam: "stretch our legs … as many cool zip-up options from P
 27. ESSENTIALS line (new, counts toward the zip 40): solid zip hoodies with no graphic, just the brand. Printful has NO back embroidery on zips, so: small embroidered Graphic Tees Co. mark on the left chest (or wrist) + a small printed brand mark at the back top just below the hood (DTG "back" placement, about 3 in wide; asset designs/brand/back-logo-company.png). 8 colorways: LS14003 Oatmeal, Sandshell, Seafoam, Burgundy, Charcoal; 18600 Forest Green, Dark Chocolate; SS4500Z Alpine Green. Price ~$39.99 (LS14003) / $44.99 (others) at ~$14-16 profit.
    - SEO: these target the plain intent ("zip up hoodie", "mens zip up hoodie", "womens zip up hoodie", "sage/oatmeal zip up hoodie" color long-tails: sweep RankHero for color + zip terms first and name each by its measured color search).
    - Copy: honest and short (fabric, fit, what the mark is); covers are clean lifestyle shots of the color, not jokes.
-<<<<<<< d945833c2d00e70a2d2e264c8aedbe78b4b9ac6a
->>>>>>> 855ee44b1e86b55a2c5a5406b7f3ce8cd9f1c8e9
-=======
 28. Brand mark asset: designs/brand/back-logo-company.png (rust circle badge: 'Graphic Tees' script + COMPANY, ring text ORIGINAL ART / PRINTED TO ORDER). For the back-top print use the full badge about 3 in wide. For EMBROIDERY at chest/wrist size, drop the ring text (too fine to stitch): use only the 'Graphic Tees' script (+ COMPANY if it holds at 3 in), one thread color: rust on light blanks, bone on dark ones.
->>>>>>> 9c2d3c75db5ef5e619ea17ff15f5b54f5d358e56
+
+UPDATE 2026-10-21 (Sam: "spend time to make sure you add all the different colors and pattern options for the camo zip-ups and colored zip-ups"):
+29. FULL COLOR RANGE per product (each product's color options = every blank color the art reads on; check every color's mockup at phone size, drop only the ones where the art fails):
+   - Lane Seven LS14003 zips: Black, Burgundy, Charcoal Heather, Heather Grey, Navy, Oatmeal Heather, Red, Sandshell, Seafoam, White (10).
+   - Gildan 18600 zips: Ash, Black, Cardinal Red, Carolina Blue, Dark Chocolate, Dark Heather, Forest Green, Irish Green, Navy, Purple, Red, Royal, Sport Grey, White (14). Lead with Navy/Black/Forest/Dark Chocolate; skip loud colors (Purple, Irish Green, Carolina Blue) unless the design suits them.
+   - Independent SS4500Z fleece zips: Alpine Green, Black, Charcoal Heather, Classic Navy (all 4).
+   - CAMO ZIP (Independent EXP54LWZ windbreaker): Forest Camo, Black Camo, White Camo, plus the solids Black, Classic Navy, Graphite, Maroon, Red, Blush/White Zipper, Aqua/White Zipper as color options on the same product.
+   - CAMO PULLOVERS (IND4000): Forest Camo, Duck Camo, Darkwood Tree Camo, Deadwood Tree Camo, Black Camo (all 5) on every camo hoodie whose patch passes the contrast proof (items 19-22); SS4500 midweight: Forest, Duck, Black Camo.
+   - ALL-OVER-PRINT camo patterns (#717, one product per pattern since AOP has no color variants): woodland, pink camo, marsh/duck, blaze orange camo, snow camo, black (night) camo, desert/digital camo. Each a separate listing with its own measured long-tail ("pink camo zip up hoodie", "orange camo hoodie", "snow camo hoodie"...).
+   - Store swatches: add any new color names to src/lib/swatches.ts so the color dots show on product cards.
