@@ -11218,6 +11218,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "unisex-donkey-stubborn-is-a-strong-word-hoodie": {
+   "claimed": [
+    "donkey hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "donkey hoodie",
+     "volume": 720,
+     "kd": 25
+    }
+   ],
+   "measured": "2026-10-21"
   }
  }
 }

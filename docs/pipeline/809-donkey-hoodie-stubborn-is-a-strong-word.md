@@ -1,4 +1,5 @@
-status: READY
+status: REVIEW
+shopify: gid://shopify/Product/15371537285424
 lane: C
 type: new
 id: 809
@@ -24,3 +25,4 @@ kd: 25
 ---
 ## Log
 - 2026-10-21 03:40 UTC director: brief written, READY (lane C hoodies cluster; primary measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries, collections.ts and guides).
+- 2026-10-21 04:07 UTC lane C: built new. Recraft v4 1 call(s) ($0.04, logged): storybook donkey sitting squarely on a dirt road, front legs planted, ears up, unbothered face, slack lead rope on the dirt, dust puffs, weathered fence post; knock-white run, scripts/ragged-edge.py (depth 130, rows 700+) on the straight sides of the road patch (the left and right grass ends are still slightly straight: director may want one more ragged pass). scripts/prep-seal.py, art edges ragged-faded. Lockup (designs/c809/build.py): Alfa Slab One (Rye tried first and dropped as too western), STUBBORN IS above, A STRONG / WORD. on two lines below (gap 26 px); navy cream + mustard with a cream edge on the art, sand deep brown #4a2c1c + rust #a8401c. 7h: headline 2972 px / punch 3295 px (111%). 7k: type 1241 px of 2855 px print height (43%). 7l: subject 1500 px of 3295 px lockup width = 46%. Light file: Sand on 1090898363 (dark ink, no cream), Navy on 1090898377 (cream headline, colored punch, cream edge). FW 1500 TOP 0. Verified 12/12 (6 Sand, 6 Navy) via GET /sync/products, back logo 1080398177. Shopify DRAFT: title Unisex Donkey – Stubborn Is a Strong Word. Hoodie, category hoodies, $39.99 no compare-at, tags graphic-hoodies-for-men graphic-hoodies-for-women hoodie donkey ai-art intake-done, SEO title 42 / meta 109, FAQ 5 x 50-56 words, order-by Dec 8, keyword donkey hoodie 720/KD 25 in map (under products), 'donkey hoodie' 2x in body. Line one: print's words + who + when, no superlative. Copy checked vs art (donkey sitting on a dirt road, planted front legs, ears up, halter and slack lead rope, dust puffs, fence post). Inks from mockups. Phone-size read of both fronts OK. R6.12/R6.13: front print only, Navy front image 1, neck-logo back last. Cover: flat product shot (retired-covers.json). Etsy and R5.2 proof unverifiable from the builder, director eyeball. Audit only 'not visible'. fal $0.04.
