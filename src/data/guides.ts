@@ -268,6 +268,97 @@ export const allGuides: Guide[] = [
     ],
   },
   {
+    // Writer lane W rewrite (2026-10-21) of the live 'best-funny-thanksgiving-shirts' guide, same slug. Rewrite queue item 1 of 6.
+    // The live entry above stays until the director approves; then swap this one in (drop the older entry, set draft false).
+    // Keyword: best funny thanksgiving shirts. The owner of "funny thanksgiving shirt" 4,400/48 is the /funny-thanksgiving-shirts/ collection, so this article targets the "best" variant and links to it.
+    // Facts (slogans, art, sizes, prices, dates, policies) carried over from the live entry, which took them from the product copy and /shipping-returns/. Planned siblings (not live yet): best-thanksgiving-shirts-for-family, thanksgiving-turkey-trot-shirts.
+    slug: 'best-funny-thanksgiving-shirts',
+    keyword: 'best funny thanksgiving shirts',
+    title: 'Best Funny Thanksgiving Shirts: 8 Jokes by Occasion',
+    description: 'The best funny Thanksgiving shirts by occasion: Mash Hour, Pie Oh My, Nap Queen, Turkey Trot and more. Tees $24.99, crewnecks $34.99 through Nov 30.',
+    h1: 'Best Funny Thanksgiving Shirts: 8 Jokes for Dinner, Friendsgiving and the Turkey Trot',
+    date: '2026-10-21',
+    cluster: 'thanksgiving',
+    draft: true,
+    answer: 'The best funny Thanksgiving shirt is the one whose joke fits where you are wearing it. Graphic Tees Co. has eight: Mash Hour, Totally a Pilgrim and Here for the Scraps for dinner, Pie Oh My and Leftovers Club for Friendsgiving, Turkey Trot for the morning run, Turkey Day Crew for the family photo and Nap Queen for after the pie. Tees are $24.99 and crewnecks $34.99 in the holiday sale through November 30, 2026.',
+    picks: [
+      {
+        h2: 'What is the best funny shirt for Thanksgiving dinner?',
+        body: ['Pick one of these three. They are jokes about the table itself, and none of them needs explaining to Grandma.'],
+        items: [
+          { slogan: 'Mash Hour', tee: 'unisex-thanksgiving-mash-hour-graphic-tee', crewneck: 'unisex-thanksgiving-mash-hour-crewneck-sweatshirt',
+            text: 'MASH HOUR is printed in diner block letters over a heaped bowl of mashed potatoes with a melting butter pat and a gravy boat. It is for whoever gets to the potato bowl first. The tee is a unisex cut in XS–4XL and 12 light colors.' },
+          { slogan: 'Totally a Pilgrim', tee: 'unisex-thanksgiving-totally-a-pilgrim-graphic-tee', crewneck: 'unisex-thanksgiving-totally-a-pilgrim-crewneck-sweatshirt',
+            text: 'TOTALLY A PILGRIM sits over an engraved turkey in a black pilgrim hat with a gold buckle and a white collar, glancing sideways. It is a dry joke for dads, teachers and kids’-table veterans. The tee is a unisex cut in XS–4XL and 8 light colors.' },
+          { slogan: 'Here for the Scraps', tee: 'womens-thanksgiving-here-for-the-scraps-graphic-tee', crewneck: 'womens-thanksgiving-here-for-the-scraps-crewneck-sweatshirt',
+            text: 'HERE FOR THE SCRAPS is lettered above a beagle with both paws on a gingham tablecloth, eyes on the roast turkey and the pumpkin pie. It is for the dog mom who slips a little turkey under the table. The tee is a relaxed women’s cut in S–3XL and 9 colors.' },
+        ],
+      },
+      {
+        h2: 'What should you wear to Friendsgiving?',
+        body: ['Friendsgiving is usually a potluck, so the jokes here are about pie and leftovers.'],
+        items: [
+          { slogan: 'Pie Oh My', tee: 'womens-thanksgiving-pie-oh-my-graphic-tee', crewneck: 'womens-thanksgiving-pie-oh-my-crewneck-sweatshirt',
+            text: 'PIE OH MY is printed over a cherry lattice pie stacked on a pumpkin pie and a pecan pie. It is for the guest who brings three pies, just in case. The tee is a relaxed women’s cut in S–3XL and 8 light colors.' },
+          { slogan: 'Leftovers Club', tee: 'unisex-thanksgiving-leftovers-club-graphic-tee', crewneck: 'unisex-thanksgiving-leftovers-club-crewneck-sweatshirt',
+            text: 'Leftovers Club runs across a 1950s diner sign in retro script, with OPEN ALL WEEKEND underneath and a turkey sandwich stacked about a foot tall. It works at a potluck, a cousins’ game night or the fridge raid the day after. The tee is a unisex cut in XS–4XL.' },
+        ],
+        links: [{ href: '/products/womens-thanksgiving-friendsgiving-graphic-tee/', text: 'Women’s Friendsgiving tee (the word, no joke)' }],
+      },
+      {
+        h2: 'Is there a funny turkey trot shirt?',
+        body: ['Yes, and it is built for the Thanksgiving-morning 5K, the fun run or the family walk after dinner.'],
+        items: [
+          { slogan: 'Turkey Trot', tee: 'unisex-thanksgiving-turkey-trot-graphic-tee', crewneck: 'unisex-thanksgiving-turkey-trot-crewneck-sweatshirt',
+            text: 'TURKEY TROT arches over a turkey in a striped headband and orange running shoes, a 5K bib on its chest, with THANKSGIVING MORNING 5K underneath. The tee is soft cotton, not moisture-wicking race gear, so it suits the walk-and-jog crowd better than a serious time trial. The crewneck is for the cold start line. The tee is a unisex cut in XS–4XL.' },
+        ],
+      },
+      {
+        h2: 'What is a good matching shirt for the family photo?',
+        body: ['One unisex design in a wide size range lets everyone in the photo match.'],
+        items: [
+          { slogan: 'Turkey Day Crew', tee: 'unisex-thanksgiving-turkey-day-crew-graphic-tee', crewneck: 'unisex-thanksgiving-turkey-day-crew-crewneck-sweatshirt',
+            text: 'TURKEY DAY CREW is set in arched collegiate letters over a roast turkey on a platter, with EST. AT GRANDMA’S underneath. The tee is a unisex cut in XS–4XL and 12 light colors, and the crewneck runs S–5XL, so the whole table can wear the same art.' },
+        ],
+      },
+      {
+        h2: 'What do you wear for the nap after dinner?',
+        body: ['This one is for the person who skips the dishes.'],
+        items: [
+          { slogan: 'Nap Queen', tee: 'womens-thanksgiving-nap-queen-graphic-tee', crewneck: 'womens-thanksgiving-nap-queen-crewneck-sweatshirt',
+            text: 'NAP QUEEN sits above a wingback armchair with a knitted throw, a tabby cat asleep on the cushion and a slice of pie on the side table. It is for the one who claims the good chair by 3 p.m. The tee is a relaxed women’s cut in S–3XL and 11 light colors.' },
+        ],
+        links: [{ href: '/funny-thanksgiving-shirts/', text: 'Shop funny Thanksgiving shirts' }, { href: '/thanksgiving-shirts/', text: 'All Thanksgiving shirts' }, { href: '/thanksgiving-sweatshirts/', text: 'Thanksgiving sweatshirts' }],
+      },
+    ],
+    sections: [
+      { h2: 'Are these Thanksgiving jokes safe for the whole family?',
+        body: ['Yes. All eight jokes at Graphic Tees Co. are about food, naps, pilgrims, dogs and the turkey trot. There is no swearing, no innuendo and nothing about politics or religion, so a funny Thanksgiving shirt from this page works with Grandma at the table and the kids in the photo.'] },
+      { h2: 'How much do funny Thanksgiving shirts cost?',
+        body: ['Tees are $24.99 (regularly $29.99) and crewneck sweatshirts are $34.99 (regularly $39.99) in the holiday sale, which runs through November 30, 2026. Every design comes as both.',
+          'US shipping is free on orders of $45 or more, which is two tees, or a crewneck and a tee. Under $45, US shipping is a flat $4.95 for tees and $8.79 for crewneck sweatshirts.'] },
+      { h2: 'When should you order a Thanksgiving shirt so it arrives in time?',
+        body: ['Order by Friday, November 6, 2026. Each shirt is printed after you order it, in 2–5 business days, and then arrives in about 3–8 business days. That is up to 13 business days in total, and Thanksgiving is Thursday, November 26.',
+          'Exact estimates show at checkout. If you are past November 6, the Friendsgiving and after-dinner designs still work for the weekend after.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'How do the tees and crewnecks fit?',
+        body: ['The unisex tees are a classic fit (Bella+Canvas 3001) in XS–4XL. The women’s tees are a relaxed women’s cut (Bella+Canvas 6400) in S–3XL. Both are 100% combed, ring-spun cotton at 4.2 oz/yd², pre-shrunk, and the heather colors contain polyester. Lighter colors on the unisex tee are slightly sheer.',
+          'The crewneck sweatshirts are a classic unisex fit (Gildan 18000) in 8 oz fleece, 50% cotton and 50% polyester, with a ribbed collar, cuffs and hem. They run S–5XL, depending on the color. Order your usual size, or one size up for a looser fit.',
+          'If the size is wrong, we send one replacement in a new size free within 30 days of delivery, and you don’t have to mail the first one back.'] },
+      { h2: 'Looking for more than a Thanksgiving shirt?',
+        body: ['Our guides cover the rest of the season. If you are buying for a group gift swap, see the white elephant gifts guide. To keep the print looking good after the holiday, read how to wash graphic tees, and for the outfit around it, how to style graphic tees.'],
+        links: [{ href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }, { href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }, { href: '/guides/how-to-style-graphic-tees/', text: 'How to style graphic tees' }] },
+    ],
+    faqs: [
+      { q: 'What are some funny sayings for Thanksgiving shirts?', a: 'The eight sayings at Graphic Tees Co. are Mash Hour, Pie Oh My, Totally a Pilgrim, Here for the Scraps, Leftovers Club (Open All Weekend), Nap Queen, Turkey Trot (Thanksgiving Morning 5K) and Turkey Day Crew (Est. at Grandma’s).' },
+      { q: 'What are some good Thanksgiving family shirts?', a: 'Turkey Day Crew is made for matching: one unisex design in tee sizes XS–4XL and crewneck sizes S–5XL. Mash Hour comes in the same unisex sizes, so a family can mix the two at Graphic Tees Co.' },
+      { q: 'Are these Thanksgiving jokes family-friendly?', a: 'Yes. All eight Graphic Tees Co. jokes are about food, naps, pilgrims, dogs and the turkey trot, with no swearing or innuendo.' },
+      { q: 'How much do funny Thanksgiving shirts cost?', a: 'At Graphic Tees Co., tees are $24.99 and crewneck sweatshirts are $34.99 in the holiday sale through November 30, 2026. US shipping is free on orders of $45 or more.' },
+      { q: 'When should I order a Thanksgiving shirt?', a: 'Order by Friday, November 6, 2026. Printing takes 2–5 business days and delivery about 3–8 business days, and Thanksgiving is Thursday, November 26.' },
+      { q: 'Does each design come as a sweatshirt?', a: 'Yes. All eight Graphic Tees Co. designs are printed on a crewneck sweatshirt as well as a tee.' },
+    ],
+  },
+  {
     // Writer lane W (2026-10-20), hoodies cluster. Keyword: hoodies for teens, 27,100/18 (RankHero via docs/clusters.md, 2026-10-20). Draft until the director approves.
     // Planned siblings (not live yet): best-funny-hoodies-for-men, camo-hoodies-guide, how-to-pick-a-zip-up-hoodie. Picks are live A-grade hoodies only.
     slug: 'hoodies-for-teens',
