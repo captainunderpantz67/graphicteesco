@@ -878,3 +878,18 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1083 | white woman, late 50s, silver bob, medium build | CLAIMED 2026-10-21 — #925 zip cover (brief) |
 | 1084 | Black man, early 40s, shaved head, trimmed beard, broad build | CLAIMED 2026-10-21 — #926 zip cover (brief) |
 | 1085 | Colombian woman, early 30s, long dark hair in a braid, curvy build | CLAIMED 2026-10-21 — #927 zip cover (brief) |
+| 1086 | white man, early 30s, curly dark hair, full beard, muscular build | CLAIMED 2026-10-21 — #931 zip cover (brief) |
+| 1087 | Japanese American woman, late 20s, short black bob, slim build | CLAIMED 2026-10-21 — #932 zip cover (brief) |
+| 1088 | Black man, late 30s, close-cropped hair, goatee, tall build | CLAIMED 2026-10-21 — #932 zip cover (brief) |
+| 1089 | white woman, early 40s, strawberry-blonde ponytail, medium build | CLAIMED 2026-10-21 — #933 zip cover (brief) |
+| 1090 | South Asian woman, mid 30s, long dark wavy hair tied back, medium build | CLAIMED 2026-10-21 — #934 zip cover (brief) |
+| 1091 | Mexican American man, late 30s, short black hair, mustache, stocky build | CLAIMED 2026-10-21 — #935 zip cover (brief) |
+| 1092 | white man, early 60s, grey crew cut, weathered skin, lean build | CLAIMED 2026-10-21 — #936 zip cover (brief) |
+| 1093 | Filipino man, mid 20s, undercut black hair, slim build | CLAIMED 2026-10-21 — #937 zip cover (brief) |
+| 1094 | white woman, late 20s, auburn hair in a high bun, athletic build | CLAIMED 2026-10-21 — #938 zip cover (brief) |
+| 1095 | Korean American man, early 30s, short black hair, lean build | CLAIMED 2026-10-21 — #938 zip cover (brief) |
+| 1096 | Black man, mid 50s, salt-and-pepper beard, glasses pushed up, heavy build | CLAIMED 2026-10-21 — #939 zip cover (brief) |
+| 1097 | white man, early 40s, sandy hair, short beard, tall build | CLAIMED 2026-10-21 — #940 zip cover (brief) |
+| 1098 | Middle Eastern woman, early 30s, long dark hair tied back, slim build | CLAIMED 2026-10-21 — #941 zip cover (brief) |
+| 1099 | white man, late 60s, white hair, trim build | CLAIMED 2026-10-21 — #942 zip cover (brief) |
+| 1100 | Black woman, early 60s, short natural grey hair, medium build | CLAIMED 2026-10-21 — #942 zip cover (brief) |
