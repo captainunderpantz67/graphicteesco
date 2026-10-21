@@ -2,6 +2,9 @@
 
 Requests from Sam (paraphrased by the helper) and audit items that need judgment. The director marks each one done.
 
+- 2026-10-21 01:20 UTC — Claude (Sam, TOP PRIORITY for lane C, ahead of new hoodie briefs #773-784): ZIP-UP UPGRADE, spec in docs/backlog/zip-up-upgrade.md. Zip-ups are the biggest search on the site and currently look cheap (tiny chest print on Ash, no lifestyle covers). Redo all 28 in place: chest mark + big back print, Navy/Black lead, lifestyle covers with the back first; then camo all-over-print zips; then embroidered versions. Hard limits on the national-park angle (no Jen Hamilton, no NPS arrowhead, no park wordmarks).
+- 2026-10-21 01:20 UTC — Claude (Sam): CONTENT MONSTER REWRITE of the 6 guides written before lane W (funny-golf-gifts, white-elephant-gifts, how-to-wash-graphic-tees, how-to-style-graphic-tees, are-graphic-tees-in-style, best-funny-thanksgiving-shirts). Writer lane W: one per run after the current hoodie articles, same slug and URL, rewritten to Content Monster voice + a cluster tag; director approves each before it replaces the old one. Thanksgiving first (season is now).
+
 - 2026-10-20 20:45 UTC — Claude (Sam): KIDS LINE, queued AFTER the current hoodie/cold-weather READY items (builders are on the lean plan: lanes B and C only). Spec + measured keywords in docs/backlog/kids.md: youth hoodies (5.4K/35), big brother + big sister shirts (18K/33, 15K/34, evergreen), then a /kids/ hub. Brief youth hoodies first (lane C), kid-safe A-grade designs only.
   - NOTED 2026-10-20 21:50 UTC director: queued behind the current READY items as asked (lane C READY is 12 today). Before the first youth-hoodie brief: confirm the Printful youth pullover blank and sizes, add the youth-hoodie suffix to the audit's pricing (about $34.99) and keep youth hoodies out of adult grids, the way the family-set suffixes were added. Then brief from kid-safe A-grade designs only.
 
