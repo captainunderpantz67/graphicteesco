@@ -10954,6 +10954,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "mens-sailing-im-not-lost-im-tacking-hoodie": {
+   "claimed": [
+    "sailing hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "sailing hoodie",
+     "volume": 480,
+     "kd": 33
+    }
+   ],
+   "measured": "2026-10-21"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {

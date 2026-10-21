@@ -1,4 +1,5 @@
-status: READY
+status: REVIEW
+shopify: gid://shopify/Product/15371513266480
 lane: C
 type: new
 id: 779
@@ -24,3 +25,4 @@ kd: 33
 ---
 ## Log
 - 2026-10-21 00:55 UTC director: brief written, READY (lane C hoodies cluster; primary measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).
+- 2026-10-21 02:16 UTC lane C: built new. Recraft v4 1 call ($0.04, logged): small sailboat heeled over in choppy water, sailor in a cable-knit sweater and captain's cap leaning out, seagull flying the other way, striped lighthouse far behind. scripts/prep-seal.py, then scripts/ragged-edge.py (depth 90, rows 1450-2769) on the straight ends of the sea slab, art edges ragged-faded. Lockup (designs/c779/build.py): Oswald, I'M NOT LOST. above, I'M TACKING. below (gap 26 px); navy cream + faded red with a cream edge on the art, sand navy #1f2a4d + faded red #a83430. 7h: headline 3188 px / punch 3238 px (102%). 7k: type 1022 px of 2578 px print height (40%). 7l: subject 1460 px of 3238 px lockup width = 45%. Light file: Sand on 1090842451 (navy + red ink, no cream), Navy on 1090842461 (cream headline, red punch, cream edge). FW 1500 TOP 0. Verified 12/12 (6 Sand, 6 Navy) via GET /sync/products, back logo 1080398177. Shopify DRAFT: title Men's Sailing – I'm Not Lost. I'm Tacking. Hoodie, category hoodies, $39.99 no compare-at, tags graphic-hoodies-for-men hoodie sailing ai-art intake-done, SEO title 43 / meta 106, FAQ 5 x 49-55 words, order-by Dec 8, keyword sailing hoodie 480/KD 33 in map, 'sailing hoodie' 2x in body. Line one: print's words + who + when, no superlative. Copy checked vs art (boat heeled in choppy water, sweater and cap sailor leaning out, seagull, striped lighthouse). Inks from mockups. Phone-size read of both fronts OK. R6.12/R6.13: front print only, Navy front image 1, neck-logo back last. Cover: flat product shot (retired-covers.json). Etsy and R5.2 proof unverifiable from the builder, director eyeball. Audit only 'not visible'. fal $0.04.
