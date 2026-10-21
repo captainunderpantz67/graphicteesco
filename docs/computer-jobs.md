@@ -3,6 +3,13 @@
 2. A/B test: lifestyle photo vs plain product shot. Sam creates a Google Analytics 4 property (Claude can't create accounts); Claude adds Cloudflare Web Analytics + GA4 events (card click, product view, add to cart), a 50/50 sticky split on collection grids and product pages (Google sees one version), and the test group saved as a Shopify cart attribute. First metric: card click-through, ~2,000 views per group.
 3. Sam's 6 clicks below (Merchant Center cleanup, Bing, review app, policies, Shopify Catalog).
 
+
+## Status 2026-10-20 evening (verified by Claude)
+- GA4: DONE. Property created by Sam, tag G-0KY0KGZ6PQ live in Base.astro with ai_source tagging + add_to_cart/begin_checkout.
+- Bing Webmaster Tools: DONE. Site was already verified; sitemap submitted 2026-10-20. (IndexNow key file still to add, Claude can do it.)
+- Shopify Agentic Storefronts: ON already ("Allow Shopify to manage for me" toggled, ChatGPT/Copilot/Meta/Shop listed). Shopify Catalog shows INELIGIBLE: needs a history of real, well-managed orders. Nothing to click; recheck after the first Black Friday orders.
+- Do not re-list any of these as clicks.
+
 # Computer jobs
 
 Things that need Sam's laptop and Chrome. Sam opens the computer about once a day and greets Tuesday ("Good morning Tuesday, it's time to save the world" or similar). That is the go signal: Claude works this list top to bottom, then clears what's done.
