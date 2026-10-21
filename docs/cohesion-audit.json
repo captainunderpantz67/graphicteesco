@@ -1,6 +1,6 @@
 {
- "at": "2026-10-21T01:43:22.308Z",
- "products": 664,
+ "at": "2026-10-21T02:44:28.546Z",
+ "products": 670,
  "findings": [
   {
    "level": "WARN",
@@ -592,6 +592,20 @@
   },
   {
    "level": "WARN",
+   "handle": "womens-barre-tucked-and-judging-cropped-hoodie",
+   "title": "Women's Barre – Tucked. Judging. Cropped Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-boxing-hands-up-expectations-low-hoodie",
+   "title": "Men's Boxing – Hands Up. Expectations Low. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "unisex-running-run-club-mostly-a-coffee-club-hoodie",
    "title": "Unisex Running – Run Club. For the Coffee. Hoodie",
    "msg": "No lifestyle cover photo.",
@@ -601,6 +615,13 @@
    "level": "WARN",
    "handle": "mens-welder-stacks-dimes-wants-more-dimes-crewneck-sweatshirt",
    "title": "Men's Welder – Welds Like a Stack of Dimes. Paid Like One. Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-turtle-shell-of-a-person-hoodie",
+   "title": "Unisex Turtle – Shell of a Person. Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
@@ -627,8 +648,22 @@
   },
   {
    "level": "WARN",
+   "handle": "mens-camping-slept-outside-have-notes-hoodie",
+   "title": "Men's Camping – Slept Outside. Have Notes. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "mens-christian-rebuilt-by-a-carpenter-heavyweight-hoodie",
    "title": "Men's Christian – Still Under Construction Heavyweight Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-nana-mom-said-no-thats-cute-hoodie",
+   "title": "Women's Nana – Mom Said No? That's Cute. Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
@@ -643,6 +678,13 @@
    "level": "WARN",
    "handle": "womens-baseball-mom-his-batting-average-is-my-personality-zip-hoodie",
    "title": "Women's Baseball Mom – His Batting Average Is My Personality Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-poker-i-fold-its-self-care-hoodie",
+   "title": "Unisex Poker – I Fold. It's Self-Care. Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   }
