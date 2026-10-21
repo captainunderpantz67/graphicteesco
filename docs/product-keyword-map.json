@@ -11192,6 +11192,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "mens-mma-undefeated-never-fought-hoodie": {
+   "claimed": [
+    "mma hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "mma hoodie",
+     "volume": 1000,
+     "kd": 22
+    }
+   ],
+   "measured": "2026-10-21"
   }
  }
 }
