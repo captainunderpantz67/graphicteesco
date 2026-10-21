@@ -1,5 +1,8 @@
+RUNNING director since 2026-10-21 15:24 UTC
 RUNNING lane E since 2026-10-21 14:48 UTC
 2026-10-21 15:26 UTC — [B] REVIEW #885 Women's Hunting Deer Stand Princess. The Throne Is 20 Ft Up. Pink Camo Hoodie (redo in place, AOP #1419, maroon throne + stacked type, 11/11 on 1091190167, punch 100%, subject 45%). fal $0.04.
+2026-10-21 15:22 UTC — [E] REVIEW #960 zip colorway backfill on LIVE #888 sunflower (+Forest Green, Dark Chocolate, Dark Heather, Royal, 46/46) and #889 chess (same, 42/42); $0 fal; sheets 960a/960b.
+2026-10-21 15:05 UTC — [E] REVIEW #959 zip colorway backfill on LIVE #872 (+Black, Dark Heather, Royal, 30/30) and #887 (+Black, Forest Green, Dark Chocolate, Dark Heather, 36/36); $0 fal; sheets 959a/959b.
 2026-10-21 14:46 UTC — [H] Helper run: Telegram inbox empty (getUpdates returned 0 updates; nothing to consume). Audit 700 live products: 0 errors, 127 warnings left alone; committed docs/cohesion-audit.md and .json (npm ci first, esbuild was missing). Price errors 0; announcement bar already on the holiday line (src/layouts/Base.astro:77). Category check: 0 products without a Shopify category (query empty, no mutation). Site check: mens-hunting-deer-diary-zip-hoodie, womens-soccer-orange-slice-manager-zip-hoodie, womens-sunflower-sunshine-with-boundaries-zip-hoodie and homepage all 200. Stuck work: none (all BUILDING items claimed within the last hour; lane C committed 14:38). Daily summary not due (sent at the 12:48 run). Lock released.
 2026-10-21 14:44 UTC — [E] Builder run end: #827 redo, #851 redo and #852 #853 #854 #855 in REVIEW; #856 #857 #858 PARKED (colors not on Printful #943); #959-#961 colorway backfills (live zip products, many colors x chest/wrist/back files) not started, left READY for the next run. Lock released. fal $0.50 total.
 2026-10-21 14:59 UTC — [B] REVIEW #884 Men's Hunting Deer Camp No Signal Camo Sweatshirt (redo in place, AOP #1418, sleeping hunter + no-signal phone, 11/11 on 1091170681, punch 100%). fal $0.08.
@@ -71,6 +74,10 @@ RUNNING lane B since 2026-10-21 13:35 UTC
 2026-10-21 08:47 UTC — [H] Helper run: Telegram inbox empty (0 updates, nothing to log). Audit: 0 scripted ERRORs, 123 WARN (polish, left as is); cohesion-audit.md committed. Fixed a missing esbuild by running npm ci (the audit could not run without it). Category check: 0 products without a Shopify category. Freshness: womens-chihuahua-cold-since-birth-zip-hoodie, mens-papa-has-a-spot-wont-say-where-camo-hoodie, mens-catfish-caught-something-ugly-kept-it-anyway-camo-hoodie all 200. Stuck work: none (lane B lock 07:28, newest BUILDING #839 at 08:03). Daily summary not due (before 12:00 UTC). Lock released.
 2026-10-21 08:35 UTC — [E] Builder run end: #822 AOP pink camo zip built to REVIEW. fal wallet exhausted again (storage 403), so every other lane E item (all new art: #723 #745 #748 #749 #751 #752 #827 #836; #851 PARKED, #852-#858 gated on it) waits for a top-up. Lock released.
 RUNNING lane C since 2026-10-21 08:27 UTC
+2026-10-21 15:20 UTC — [C] Builder run: #939 Christmas Attending Under Protest zip twin (new DRAFT, Black/Navy/Ash, $57.99, Graduate lettering, hand-drawn UNDER-PROTEST-words chest, no cuff word), 18/18, REVIEW. fal $0.
+2026-10-21 15:12 UTC — [C] Builder run: #938 Running Mile One Was a Mistake. zip twin (new DRAFT, Black/Navy/Ash, $57.99, Bevan lettering, hand-drawn MISTAKE-word chest + MILE 1 cuff), 18/18, REVIEW. fal $0.
+2026-10-21 15:07 UTC — [C] Builder run: #937 Drummer The Neighbors Love Me. zip twin (new DRAFT, Black/Navy/Ash, $57.99, Bowlby One lettering, hand-drawn LOVE-ME-words chest + LOUD cuff), 18/18, REVIEW. fal $0.
+2026-10-21 14:58 UTC — [C] Builder run: #936 Fishing You Catching 'Em? No. Keep Walking. zip twin (new DRAFT, Black/Navy/Ash, $57.99, Oswald Bold lettering, hand-drawn fish chest + NO. cuff), 18/18, REVIEW. fal $0.
 2026-10-21 14:54 UTC — [C] Builder run: #935 Welder If You Can Step Over It, I Can Fill It. zip twin (new DRAFT, Black/Navy/Ash, $57.99, Alfa Slab One lettering, hand-drawn I-CAN-FILL-IT-words chest + WELD cuff), 18/18, REVIEW. fal $0.
 2026-10-21 14:47 UTC — [C] Builder run: #934 Crochet No, I Won't Make You One. zip twin (new DRAFT, Black/Navy/Ash, $57.99, Playfair Display Black lettering, hand-drawn NO-word chest + WON'T cuff), 18/18, REVIEW. fal $0.
 2026-10-21 14:44 UTC — [C] Builder run: #933 Hockey Cold Rink, Hot Takes. zip twin (new DRAFT, Black/Navy/Ash, $57.99, Anton lettering, hand-drawn HOT-TAKES-words chest + COLD cuff), 18/18, REVIEW. fal $0.
@@ -235,11 +242,8 @@ RUNNING lane C since 2026-10-21 05:25 UTC
 2026-10-20 21:33 UTC — [C] Builder run: #677 pit bull ornament (72 LBS) widened above LAP DOG, REVIEW.
 2026-10-20 21:31 UTC — [C] Builder run: #693 strawberry mug punch widened to 100% of headline, REVIEW.
 2026-10-20 21:30 UTC — [C] Builder run: #692 alien mug photos re-attached (3 mockups), REVIEW.
-<<<<<<< HEAD
 [C] Builder run: #771 unisex gamer hoodie FIVE MORE MINUTES. (IT'S 3 A.M.) built to REVIEW (DRAFT 15371428069680).
-=======
 RUNNING lane C since 2026-10-20 21:30 UTC
->>>>>>> 546195ee ([C] review 768 cat hoodie)
 [C] Builder run: #768 unisex cat hoodie KNOCKED IT OFF. FELT NOTHING. built to REVIEW (DRAFT 15371411980592).
 [C] Builder run: #772 unisex sloth hoodie REPLIES IN 3–5 BUSINESS DAYS. built to REVIEW (DRAFT 15371400380720).
 [C] Builder run: #769 men's farmer hoodie NO DAYS OFF. THE COWS SAID SO. built to REVIEW (DRAFT 15371391893808).
