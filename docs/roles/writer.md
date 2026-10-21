@@ -12,6 +12,7 @@ You write the article layer for the clusters in docs/clusters.md: one finished a
 - Every sentence earns its place for the reader (helps them choose or answers a question), for search (names the thing and the fact plainly), or for the site (a link to the right page). Cut anything that does none of the three.
 
 ## Pick the topic
+- **Rewrite queue first (Sam 2026-10-21):** before any new topic, rewrite the 6 guides written before lane W, one per run, same slug and URL, in Content Monster voice with a `cluster:` tag: best-funny-thanksgiving-shirts (first, it's in season), funny-golf-gifts, white-elephant-gifts, how-to-wash-graphic-tees, how-to-style-graphic-tees, are-graphic-tees-in-style. Keep the live version until the director approves: put the rewrite in place with `draft: true` on a copy entry, add a type: article pipeline item at REVIEW with `rewrite: <slug>`, and the director swaps it in.
 - Work the cluster with the fewest approved articles first, hoodies first.
 - One primary keyword per article, MEASURED (RankHero via scripts/keyword-gap.py, KD ≤ 35 first). Never a phrase a collection or product already owns: the article targets the "best / funny / for <who> / how to" variant and links to the owner.
 - Our modifier is "funny" / "original" the way Taiga's was "American-made": e.g. "Best Funny Hoodies for Men Who Hate Shopping", "Hoodies for Teens: Funny Designs They'll Actually Wear".
