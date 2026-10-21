@@ -1,7 +1,9 @@
-status: BUILDING [C] 2026-10-21T12:00Z
+status: REVIEW
 lane: C
 type: twin
 id: 893
+shopify: gid://shopify/Product/15371855626544
+cover: fal-swap
 handle: mens-hunting-todays-special-tag-soup-embroidered-zip-hoodie
 kd: unmeasured
 push: zip
@@ -29,3 +31,4 @@ push: zip
 ---
 ## Log
 - 2026-10-21 10:55 UTC director: brief written, READY (zip twin, lane C, push: zip; $0 fal; registry row 1046 claimed).
+- 2026-10-21 14:55 UTC builder [C]: built to REVIEW as a NEW DRAFT (gid 15371855626544, Printful sync product 483654211). Printful 18/18 (Navy 6, Black 6, Ash 6) verified from GET /sync/products: Navy and Black back 1091063757 (light file) + chest 1091063363 (white thread) + wrist 1091063414; Ash back 1091063654 (dark-ink file) + chest 1091063493 (navy thread) + wrist 1091063558. R6.2 twin check: the source print (designs/first5/tagsoup-print.png, approved art, 3409 x 4596) has an orange SCRIPT headline ("Today's Special"), so per the brief the script line was re-set at $0 in Bevan (designs/lib.py line(), orange 239/108/30 with a dark keyline) as TODAY'S SPECIAL: 3014 px wide; the TAG SOUP line and the SERVED FRESH EVERY SEASON caption are real-font lines and were kept; the deer chef art is unchanged (2232 px wide = 65% of the lockup). R7h/7p widths: headline 3014 px / punch TAG SOUP 3409 px = 113%; caption 2794 px. Light-blank file (7e): TAG SOUP and the caption are cream on the dark file and recolored deep navy (#1E2D4D) for Ash; viewed on Ash. New back files 3409 x 4399 (md5 differ from the source print): print width = min(1800, 2360 x 3409/4399 = 1829) = 1800 px = FW >= 1500, no shrink. Chest: hand-drawn steaming soup bowl with a hunting tag in it, one thread, 3.00 x 3.12 in, thinnest stroke 2.37 mm; wrist SOUP Anton 0.35 in caps, 0.74 in wide. 18 variants S-3XL $57.99 no compare-at (new product), category hoodies, vendor Graphic Tees Co., tags zip-up-hoodies, zip-up-hoodies-for-men, graphic-hoodies-for-men, hunting-hoodies, black-zip-up-hoodies, hoodie, ai-art, intake-done. Copy: line one is the joke + who + when, 'hunting zip up hoodie' once in sentence one, the SEO title and the meta; 5 FAQs 51-55 words each incl. what tag soup means, embroidery care and order-by Dec 8; nothing in the copy that is not in the art. Keyword map: row added under products (unmeasured: keyword-gap returned no RankHero data for hunting zip up hoodie, tag soup hunting, hunter zip hoodie; R11.12 waiver). cover: fal-swap: no AI cover (fal out of balance), image 1 is the Printful Navy back mockup and the handle is in retired-covers.json; registry 1046 stays claimed, unused. Photos: Navy back, Black back, Ash back, then the three chest fronts; every variant linked to its color's back. audit-local PASS (1 warn: no lifestyle cover, expected). Design crops committed. Phone-size read: TODAY'S SPECIAL: / TAG SOUP / the caption legible on Navy, Black and Ash. Product stays DRAFT for the director.

@@ -1,3 +1,4 @@
+2026-10-21 14:55 UTC — [C] REVIEW #893 Men's Hunting Today's Special: Tag Soup Embroidered Zip Hoodie (NEW DRAFT 15371855626544, 18/18 on 1091063757/1091063654, script headline re-set in Bevan, punch 113% of headline, hand-drawn soup-bowl chest, cover: fal-swap). fal $0.
 RUNNING director since 2026-10-21 11:22 UTC
 2026-10-21 14:20 UTC — [C] REVIEW #892 Women's Softball Mom Travel Ball: Pay to Sunburn Embroidered Zip Hoodie (in place, Black added, 18/18 on 1090285645/1090285675, punch 100.1-100.4% of headline, hand-drawn softball-and-sun chest, no new cover: fal empty). fal $0.
 2026-10-21 13:50 UTC — [C] REVIEW #891 Women's Teacher It's Raining, Send Coffee Embroidered Zip Hoodie (in place, Black added, 18/18 on 1090283743/1090283769, punch 102% of headline, hand-drawn apple-and-pencil chest, no new cover: fal empty). fal $0.
