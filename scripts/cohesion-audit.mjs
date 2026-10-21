@@ -136,7 +136,7 @@ for (const p of products) {
   const pump = /pump[- ]cover/i.test(p.title + ' ' + p.tags.join(' ')) || p.variants.nodes.every((v) => v.price.amount.startsWith('39') && !v.compareAtPrice) && kind !== 'sweatshirt';
   const onSale = Date.now() < Date.parse('2026-12-01T06:00:00Z');
   // Hoodie prices by blank (rulebook R12.1): handle suffix names the blank.
-  const HOODIE = [[/-cropped-hoodie$/, '44.99', '49.99'], [/-oversized-hoodie$/, '54.99', '59.99'], [/-heavyweight-hoodie$/, '49.99', '54.99'], [/-zip-hoodie$/, '44.99', '49.99'], [/-pink-camo-hoodie$/, '64.99', '69.99'] /* all-over-print hoodie #1419, pink camo pattern (director 2026-10-17) */, [/-camo-hoodie$/, '49.99', '54.99'] /* IND4000 camo */, [/-half-zip$/, '54.99', '59.99'] /* Bella+Canvas 4740 */, [/-hoodie$/, '39.99', '44.99']];
+  const HOODIE = [[/-cropped-hoodie$/, '44.99', '49.99'], [/-oversized-hoodie$/, '54.99', '59.99'], [/-heavyweight-hoodie$/, '49.99', '54.99'], [/-aop-zip-hoodie$/, '79.99', '79.99'] /* all-over-print zip #717, $79.99 flat, no compare-at on new products (Sam 2026-10-21) */, [/-zip-hoodie$/, '44.99', '49.99'], [/-pink-camo-hoodie$/, '64.99', '69.99'] /* all-over-print hoodie #1419, pink camo pattern (director 2026-10-17) */, [/-camo-hoodie$/, '49.99', '54.99'] /* IND4000 camo */, [/-half-zip$/, '54.99', '59.99'] /* Bella+Canvas 4740 */, [/-hoodie$/, '39.99', '44.99']];
   const hp = kind === 'hoodie' ? HOODIE.find(([re]) => re.test(p.handle)) : null;
   // Oversized sweatshirt, Bella+Canvas 4711 (Printful #897), handle ending -oversized-sweatshirt: $49.99 / $54.99 (R12.1, director 2026-10-16).
   const osw = kind === 'sweatshirt' && /-oversized-sweatshirt$/.test(p.handle);

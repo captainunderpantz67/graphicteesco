@@ -792,3 +792,18 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 997 | a couple: Black woman, early 30s, shoulder-length twists tied back, and white man, early 30s, short brown beard; both medium builds | CLAIMED 2026-10-18 — #657 Cornhole Counts as Cardio Tee cover (brief) |
 | 998 | Puerto Rican man, mid 40s, short black hair, trimmed salt-and-pepper beard, stocky build | CLAIMED 2026-10-18 — #658 Did You Change the Filter? Tee cover (brief) |
 | 999 | white Texan man, early 50s, short grey hair, sun-weathered face, full grey beard, broad build | CLAIMED 2026-10-18 — #659 Low and Slow, Like My Texts Tee cover (brief) |
+| 1005 | Black woman, early 40s, shoulder-length box braids tied back, medium build | CLAIMED 2026-10-21 — #815 fishing zip back-print cover (brief) |
+| 1000 | Black man, late 40s, close-cropped grey hair, trimmed grey goatee, tall lean build | CLAIMED 2026-10-21 — #816 golf zip back-print cover (brief) |
+| 1001 | Filipino-American woman, late 30s, long dark hair in a low claw-clip twist, medium build | CLAIMED 2026-10-21 — #817 baseball mom zip back-print cover (brief) |
+| 1002 | white woman, early 30s, auburn hair in a messy bun, freckled, petite build | CLAIMED 2026-10-21 — #818 capybara christmas zip back-print cover (brief) |
+| 1003 | white man, late 60s, thin white hair under a bucket hat, slim build, wire glasses | CLAIMED 2026-10-21 — #819 golf retired zip back-print cover (brief) |
+| 1004 | Japanese-American woman, late 20s, shoulder-length black hair with a center part, athletic build | CLAIMED 2026-10-21 — #820 national park zip back-print cover (brief) |
+| 1006 | Cherokee man, mid 50s, long grey-black hair in a low ponytail, stocky build | CLAIMED 2026-10-21 — #821 Opening Day zip redesign cover (brief) |
+| 1007 | Mexican-American woman, early 20s, long dark hair in a high ponytail with a pink scrunchie, slim build | CLAIMED 2026-10-21 — #822 AOP zip back-print cover (brief) |
+| 1008 | white man, early 30s, red-brown full beard, knit beanie, broad build | CLAIMED 2026-10-21 — #823 AOP zip back-print cover (brief) |
+| 1009 | Cajun man, late 40s, dark hair under a cap, sun-lined face, short salt-and-pepper beard, wiry build | CLAIMED 2026-10-21 — #824 AOP zip back-print cover (brief) |
+| 1010 | white man, early 60s, white crew cut, ruddy cheeks, big barrel-chested build | CLAIMED 2026-10-21 — #825 AOP zip back-print cover (brief) |
+| 1011 | a couple: South Asian man, mid 30s, short black hair, trimmed beard; and white woman, mid 30s, blonde bob; both medium builds | CLAIMED 2026-10-21 — #826 AOP zip back-print cover (brief) |
+| 1012 | a couple: Korean-American woman, early 50s, chin-length black bob; and Black man, early 50s, shaved head, grey beard; both medium builds | CLAIMED 2026-10-21 — #827 AOP zip back-print cover (brief) |
+| 1013 | Persian-American woman, late 30s, long dark curly hair in a low braid, slim athletic build | CLAIMED 2026-10-21 — #828 AOP zip back-print cover (brief) |
+| 1014 | a couple: Puerto Rican woman, late 20s, long dark wavy hair tied back; and white man, late 20s, ginger buzz cut; both slim | CLAIMED 2026-10-21 — #829 AOP zip back-print cover (brief) |
