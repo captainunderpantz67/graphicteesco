@@ -11355,6 +11355,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-gym-this-is-my-warm-up-it-is-not-lifting-graphic-tee": {
+   "claimed": [
+    "lifting shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "lifting shirt",
+     "volume": 1900,
+     "kd": 40
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
