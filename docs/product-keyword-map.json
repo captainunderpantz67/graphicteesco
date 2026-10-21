@@ -11612,6 +11612,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-cat-clocked-it-said-nothing-embroidered-zip-hoodie": {
+   "claimed": [
+    "cat lady zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "cat lady zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
