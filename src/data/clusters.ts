@@ -55,7 +55,8 @@ export const clusters: Cluster[] = [
   },
 ];
 
-export const clusterOf = (slug: string) => clusters.find((k) => k.hub.slug === slug || k.spokes.includes(slug));
+// A page that is a hub (e.g. zip-up-hoodies) shows its own sub-cluster first; otherwise the cluster it is a spoke of.
+export const clusterOf = (slug: string) => clusters.find((k) => k.hub.slug === slug) ?? clusters.find((k) => k.spokes.includes(slug));
 export const clusterById = (id?: string) => clusters.find((k) => k.id === id);
 
 // Cluster for a product, from its Shopify collection handles: the cluster with the most matching collections.

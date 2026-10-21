@@ -357,11 +357,11 @@
   "y": 150
  },
  "mens-christmas-white-elephant-champion-hoodie": {
-  "h": 416,
+  "h": 410,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-navy-front-6ad4353359574.jpg",
-  "w": 333,
-  "x": 322,
-  "y": 158
+  "w": 328,
+  "x": 330,
+  "y": 161
  },
  "mens-construction-not-leaning-supervising-hoodie": {
   "h": 416,
@@ -440,6 +440,13 @@
   "x": 174,
   "y": 0
  },
+ "mens-farmer-no-days-off-the-cows-said-so-hoodie": {
+  "h": 403,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-navy-front-6ad800ea00932.jpg",
+  "w": 322,
+  "x": 331,
+  "y": 136
+ },
  "mens-fishing-casting-doubt-zip-hoodie": {
   "h": 448,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-zip-hoodie-ash-front-6ad279632e08e.jpg",
@@ -514,7 +521,7 @@
   "h": 759,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavyweight-hooded-sweatshirt-sandstone-front-6ad3ebed8d169.jpg",
   "w": 607,
-  "x": 284,
+  "x": 290,
   "y": 124
  },
  "mens-fishing-reel-talk-graphic-tee": {
@@ -591,7 +598,7 @@
   "h": 759,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavyweight-hooded-sweatshirt-sandstone-front-6ad416164aa22.jpg",
   "w": 607,
-  "x": 290,
+  "x": 300,
   "y": 124
  },
  "mens-golf-fairways-are-a-rumor-half-zip": {
@@ -1471,7 +1478,7 @@
  },
  "unisex-bookish-do-not-sell-my-books-at-my-funeral-socks": {
   "h": 879,
-  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/sublimation-socks-m-left-sock-6ad7930ed8717.jpg",
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/sublimation-socks-m-left-sock-6ad851ba23a3f.jpg",
   "w": 703,
   "x": 144,
   "y": 19
@@ -1489,6 +1496,13 @@
   "w": 703,
   "x": 144,
   "y": 19
+ },
+ "unisex-cat-knocked-it-off-felt-nothing-hoodie": {
+  "h": 416,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-navy-front-6ad8028089daf.jpg",
+  "w": 333,
+  "x": 326,
+  "y": 142
  },
  "unisex-chef-cooks-for-200-cereal-at-home-hoodie": {
   "h": 403,
@@ -1638,11 +1652,11 @@
   "y": 83
  },
  "unisex-christmas-garden-variety-grump-graphic-tee": {
-  "h": 624,
+  "h": 566,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-staple-t-shirt-white-front-6ad425a327675.jpg",
-  "w": 499,
-  "x": 302,
-  "y": 16
+  "w": 452,
+  "x": 344,
+  "y": 39
  },
  "unisex-christmas-light-show-manager-crewneck-sweatshirt": {
   "h": 806,
@@ -1853,6 +1867,13 @@
   "w": 645,
   "x": 174,
   "y": 101
+ },
+ "unisex-gamer-five-more-minutes-its-3-am-hoodie": {
+  "h": 436,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-navy-front-6ad803b4939fb.jpg",
+  "w": 348,
+  "x": 320,
+  "y": 134
  },
  "unisex-goat-i-climb-things-when-stressed-hoodie": {
   "h": 754,
@@ -3556,10 +3577,10 @@
   "y": 124
  },
  "womens-dachshund-currently-burrowed-crewneck-sweatshirt": {
-  "h": 618,
+  "h": 630,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-crew-neck-sweatshirt-sand-front-6ad40eb47181e.jpg",
-  "w": 494,
-  "x": 307,
+  "w": 504,
+  "x": 298,
   "y": 0
  },
  "womens-dachshund-currently-burrowed-hoodie": {
@@ -3927,11 +3948,11 @@
   "y": 19
  },
  "womens-knitting-one-more-row-crewneck-sweatshirt": {
-  "h": 585,
+  "h": 578,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-crew-neck-sweatshirt-sand-front-6ad4209263f1f.jpg",
-  "w": 468,
-  "x": 330,
-  "y": 8
+  "w": 463,
+  "x": 335,
+  "y": 19
  },
  "womens-knitting-one-more-row-hoodie": {
   "h": 759,
