@@ -1,0 +1,38 @@
+{
+ "chest_white": {
+  "id": 1091158793,
+  "url": "https://v3b.fal.media/files/b/0aaf47a8/ch59QTtaVXm_dunKrWQN__p942ac942_chest_white.png",
+  "w": 1200,
+  "h": 819
+ },
+ "wrist_white": {
+  "id": 1091158914,
+  "url": "https://v3b.fal.media/files/b/0aaf47aa/2rk8mVBlVOwPPbrLPJcV0_p942ac942_wrist_white.png",
+  "w": 600,
+  "h": 144
+ },
+ "chest_navy": {
+  "id": 1091158961,
+  "url": "https://v3b.fal.media/files/b/0aaf47ab/WziHkNLuV70SX_mf01mZy_p942ac942_chest_navy.png",
+  "w": 1200,
+  "h": 819
+ },
+ "wrist_navy": {
+  "id": 1091159038,
+  "url": "https://v3b.fal.media/files/b/0aaf47ab/OIpu4dTmoS4cEePJt42ES_p942ac942_wrist_navy.png",
+  "w": 600,
+  "h": 144
+ },
+ "back_ash": {
+  "id": 1091159088,
+  "url": "https://v3b.fal.media/files/b/0aaf47ac/2TOMdNeltEuNHerULU563_p942aprint-files_942-pickle-ash.png",
+  "w": 3000,
+  "h": 3174
+ },
+ "back_navy": {
+  "id": 1091159150,
+  "url": "https://v3b.fal.media/files/b/0aaf47ad/kpaiFwwKRELMWKUep5Pcv_p942aprint-files_942-pickle-light.png",
+  "w": 3000,
+  "h": 3174
+ }
+}

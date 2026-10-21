@@ -35,7 +35,7 @@ for q, a in faq: assert 36 <= len(a.split()) <= 66, (q, len(a.split()))
 html += '\n'.join(f'<p><strong>{q}</strong><br>{a}</p>' for q, a in faq)
 tags = ['zip-up-hoodies'] + (['zip-up-hoodies-for-men'] if c.get('men') else []) + (['zip-up-hoodies-for-women'] if c.get('women') else []) + (['graphic-hoodies-for-men'] if c.get('men') else []) + (['graphic-hoodies-for-women'] if c.get('women') else []) + c.get('extra_tags', []) + ['black-zip-up-hoodies', 'hoodie', 'ai-art', 'intake-done']
 html = html.replace('The The ', 'The ').replace('the The ', 'The ')
-seo = {'title': f"{c['kwtitle']} – {sh}", 'description': c['seo_desc']}
+seo = {'title': c.get('seo_title') or f"{c['kwtitle']} – {sh}", 'description': c['seo_desc']}
 s = {'title': c['title'], 'handle': h, 'slug': h, 'catalog': 692, 'colors': cols, 'sizes': ['S', 'M', 'L', 'XL', '2XL', '3XL'], 'price': '57.99', 'productType': 'Hoodie', 'tags': tags, 'seo': seo, 'descriptionHtml': html}
 print(len(seo['title']), len(seo['description']), [len(a.split()) for q, a in faq])
 json.dump(s, open(f'{d}/spec.json', 'w'), ensure_ascii=False)
