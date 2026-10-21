@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-21 12:47 UTC
+# Cohesion audit — 2026-10-21 13:50 UTC
 
-700 live products checked · **0 errors** · 127 warnings · 120 products with findings
+700 live products checked · **0 errors** · 128 warnings · 121 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -39,6 +39,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Women's Frog – Not Today, I'm Moisturizing Embroidered Zip Hoodie `womens-frog-not-toad-ay-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Hunting – Ducks in a Row Camo Hoodie `womens-hunting-ducks-in-a-row-camo-hoodie`
+- **WARN** Meta description is 164 chars (> 160). → Trim to ≤ 155.
 
 ### Women's Thanksgiving – Friendsgiving Hoodie `womens-thanksgiving-friendsgiving-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.

@@ -1,37 +1,37 @@
 {
  "chest_white": {
-  "id": 1091110660,
-  "url": "https://v3b.fal.media/files/b/0aaf459a/9PmrPyjzSw8_yoSvHhORe_t26ac926_chest_white.png",
+  "id": 1091132193,
+  "url": "https://v3b.fal.media/files/b/0aaf468b/6NCublHt9edl4O0L2ixaQ_p926rac926_chest_white.png",
   "w": 1200,
-  "h": 1196
+  "h": 1030
  },
  "wrist_white": {
-  "id": 1091110776,
-  "url": "https://v3b.fal.media/files/b/0aaf459b/jn-lzHzu_AjUOIUIkd_cy_t26ac926_wrist_white.png",
+  "id": 1091132295,
+  "url": "https://v3b.fal.media/files/b/0aaf468c/hpw6xtsewLhHaKTuXEvV6_p926rac926_wrist_white.png",
   "w": 600,
   "h": 144
  },
  "chest_navy": {
-  "id": 1091110863,
-  "url": "https://v3b.fal.media/files/b/0aaf459b/-I01EtutbzkdO2hx2lECr_t26ac926_chest_navy.png",
+  "id": 1091132409,
+  "url": "https://v3b.fal.media/files/b/0aaf468d/gedR9VMFXbTvIChR5kNvR_p926rac926_chest_navy.png",
   "w": 1200,
-  "h": 1196
+  "h": 1030
  },
  "wrist_navy": {
-  "id": 1091110935,
-  "url": "https://v3b.fal.media/files/b/0aaf459c/5gVBUybSiHeT-878tAWpK_t26ac926_wrist_navy.png",
+  "id": 1091132466,
+  "url": "https://v3b.fal.media/files/b/0aaf468d/qWClPhMpR1jyjus1Rtva-_p926rac926_wrist_navy.png",
   "w": 600,
   "h": 144
  },
  "back_ash": {
-  "id": 1091111155,
-  "url": "https://v3b.fal.media/files/b/0aaf459d/p_4yjH4DRLsYi273G5j2i_t26aprint-files_926-fishing-ash.png",
+  "id": 1091132511,
+  "url": "https://v3b.fal.media/files/b/0aaf468e/wAbA5arDTgIMBYUhv_KYZ_p926raprint-files_926-fishing-ash.png",
   "w": 3000,
   "h": 3262
  },
  "back_navy": {
-  "id": 1091111225,
-  "url": "https://v3b.fal.media/files/b/0aaf459d/1brjONIHUNdURIQk6D1k3_t26aprint-files_926-fishing-light.png",
+  "id": 1091132564,
+  "url": "https://v3b.fal.media/files/b/0aaf468f/d-zx26bDT13JMBsLW8iTh_p926raprint-files_926-fishing-light.png",
   "w": 3000,
   "h": 3262
  }

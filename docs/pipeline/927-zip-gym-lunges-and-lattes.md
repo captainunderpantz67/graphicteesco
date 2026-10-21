@@ -1,4 +1,5 @@
-status: BUILDING [C] 2026-10-21T13:10Z
+status: REVIEW
+shopify: gid://shopify/Product/15372248416560
 cover: fal-swap
 lane: C
 type: twin
@@ -29,3 +30,4 @@ push: zip
 ---
 ## Log
 - 2026-10-21 12:55 UTC director: brief written, READY (zip twin, lane C, push: zip; $0 fal; R11.12 unmeasured-phrase waiver after keyword-gap.py; registry 1085 claimed).
+- 2026-10-21 14:02 UTC builder [C]: NEW zip twin built to REVIEW (DRAFT gid://shopify/Product/15372248416560, productSet DRAFT, category Hoodies, 18 variants Black/Navy/Ash x S-3XL at $57.99, no compare-at, Printful sync product 483669531). Twin check (R6.2): the source print (womens-gym-lunges-and-lattes-cropped-hoodie, 3600 x 3981, a Sand print) had LUNGES & LATTES as one line of brown bubble lettering above the lunging-bunny art (rows 428-3981 kept, clean row gap); the line was cropped away and re-set beside the art as LUNGES / & / LATTES, since one long line could not reach 40% of the print. The bunny's black fur is part of the ink: on dark blanks the fur merges with the blank and the cream and pink linework carries the drawing. Re-set in Inter Display Black (a face not among the last five lane C builds). Print 2952 x 1753: 7h headline LUNGES 1341 px and & 237 px / punch LATTES 1485 px (111% of the headline); 7k type 822 of 1753 px = 46.9%; 7l subject 1400 of 2952 px = 47.4%. Ash dark file 1091134318: brown headline, navy punch, cream keyline; light file 1091134342: pink headline, cream punch, dark keyline; no cream or white fill on Ash. Chest icon DRAWN BY HAND IN PIL (an iced coffee cup with a dome lid and straw above a barbell) because fal is out of balance, one thread (white on dark blanks, #333366 on Ash), 3.50 x 4.11 in (area 4 x 4 in), thinnest stroke 4.13 mm; wrist LATTES in Anton 0.35 in caps, 0.99 in wide. Printful 18/18 verified from GET /sync/products (scripts/c-verify.py): Ash back 1091134318 / chest 1091134254 / wrist 1091134287; Black and Navy back 1091134342 / chest 1091134177 / wrist 1091134204. Photos on the DRAFT: Black back, Navy back, Ash back, Black front, Navy front, Ash front (variants linked to their color's front). Keyword map: primary 'coffee gym zip up hoodie' recorded under products (unmeasured, R11.12 waiver). No cover (fal empty; cover: fal-swap); registry row 1085 stays claimed. Audit-local (DRAFT): PASS with 1 warn (no lifestyle cover).
