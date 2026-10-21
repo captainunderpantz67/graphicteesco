@@ -1,4 +1,5 @@
 RUNNING director since 2026-10-21 15:24 UTC
+2026-10-21 15:40 UTC — [B] REVIEW #594 Possum Eats Ticks. Screams Anyway. Tee (REDO 3: dark-file punch cream with red keyline, 28 on 1091193352 + 21 on 1091005305, punch 144%). fal $0.
 RUNNING lane E since 2026-10-21 14:48 UTC
 2026-10-21 15:26 UTC — [B] REVIEW #885 Women's Hunting Deer Stand Princess. The Throne Is 20 Ft Up. Pink Camo Hoodie (redo in place, AOP #1419, maroon throne + stacked type, 11/11 on 1091190167, punch 100%, subject 45%). fal $0.04.
 2026-10-21 15:22 UTC — [E] REVIEW #960 zip colorway backfill on LIVE #888 sunflower (+Forest Green, Dark Chocolate, Dark Heather, Royal, 46/46) and #889 chess (same, 42/42); $0 fal; sheets 960a/960b.
