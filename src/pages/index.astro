@@ -431,9 +431,9 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
           <a href={pathFor(c)} class="group relative overflow-hidden rounded-[18px] border-2 border-[var(--color-ink)] aspect-[4/5] p-[7px] flex shadow-[4px_4px_0_var(--color-ink)] hover:-translate-y-1 hover:shadow-[6px_8px_0_var(--color-ink)] transition-all" style={`background:${bg};color:${fg}`}>
             <span class="relative flex-1 overflow-hidden rounded-[12px]">
               <img src={(ph as any).local ? ph.url : img(ph.url, 600)} srcset={(ph as any).local && ph.url.startsWith('/covers/') ? `${ph.url.replace('/covers/', '/covers/sm/')} 400w, ${ph.url} 600w` : !(ph as any).local ? `${img(ph.url, 320)} 320w, ${img(ph.url, 600)} 600w` : undefined} sizes="(min-width: 768px) 25vw, 50vw" alt={ph.altText ?? c.h1} loading="lazy" width="600" height="750" class="absolute inset-0 w-full h-full object-cover object-[50%_20%] group-hover:scale-[1.04] transition-transform duration-500" />
-              {!m.gifts && <span class="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-black/85 via-black/45 to-transparent" aria-hidden="true"></span>}
+              <span class="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-black/85 via-black/45 to-transparent" aria-hidden="true"></span>
               <span class="absolute top-3 left-3 w-11 h-11 rounded-full grid place-items-center border-2 bg-black/30 backdrop-blur-[2px]" style={`border-color:${bg};color:${bg}`}><Icon name={icons[c.slug]} class="w-6 h-6" /></span>
-              <span class={`absolute inset-x-4 bottom-4 ${m.gifts ? 'text-[var(--color-ink)]' : 'text-[var(--color-cream)]'}`}>
+              <span class="absolute inset-x-4 bottom-4 text-[var(--color-cream)]">
                 <span class="display block text-[clamp(1.6rem,3.2vw,2.4rem)] leading-[.88]">{c.h1}</span>
                 <span class="mt-2 block text-xs font-bold uppercase tracking-[.14em]" style={`color:${bg === 'var(--color-navy)' || bg === 'var(--color-moss)' ? 'var(--color-mustard)' : bg}`}>Shop →</span>
               </span>
