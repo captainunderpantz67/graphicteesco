@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-21 06:00
+status: REVIEW
 lane: B
 type: new
 id: 601
@@ -27,3 +27,4 @@ kd: 34
 ---
 ## Log
 - 2026-10-18 06:26 UTC director: brief written, READY (lane B; kd 34; KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month or with a measured December surge; proof named under the gate).
+- 2026-10-21 07:07 UTC [B]: built NEW as DRAFT (product 15371575656752, Bella+Canvas 3001 #71, Black/Navy/Dark Grey Heather/Maroon/Heather Forest (cream-lettered file 1090946551, 35 variants) + Natural/Ash/Athletic Heather (navy-lettered file 1090946557, 21 variants) x S-4XL = 56/56 synced (b-verify.py: default 1090946551 on 35, 1090946557 on 21, back logo 1080398177 on 56), sync 483600479). Art: 1 Recraft v4 call ($0.04, logged), picture only, try 1 kept: dazed marathoner in a singlet, short shorts and striped tall socks pressed against a crumbling red brick wall, arms spread, stars circling his head, a plain wooden post beside him; the preview showed no enclosed white patch so knock-white.py was not needed; the small stars kept (designs/tee2.py MINAREA 1500). Lettering via designs/tee2.py (Alfa Slab One): HIT THE WALL. above, THE WALL WON. below (faded red, cream keyline on the dark file); dark file adds a 16 px cream halo to the art; light file navy headline + faded red punch, no cream fills. Light file logged: Natural, Ash, Athletic Heather on 1090946557, headline fill navy. 7h: headline 2698 px / punch 3385 px (125%). 7k type 554 of 2552 px = 22% (print 3385 x 2552, aspect 0.75). 7l: subject 2000 of 3385 px = 59%. FW 1650 TOP 75. Phone-size read of all eight mockups OK. Keyword marathon shirt 1600/KD 34 in map under products. Price 24.99 no compare-at, category tees, tags per brief, SEO title 53/meta 145, FAQ 5 x 43-60 words plus the standard fit line (order-by Dec 8). Flat cover, front first, neck-logo back last. Audit PASS (1 warn: no lifestyle cover). Sheet docs/review/601.jpg. fal $0.04.
