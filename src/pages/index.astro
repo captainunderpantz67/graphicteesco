@@ -2,7 +2,6 @@
 import Base from '../layouts/Base.astro';
 import Faq from '../components/Faq.astro';
 import Icon from '../components/Icon.astro';
-import HeroArt from '../components/HeroArt.astro';
 import { site, resolveFaqs } from '../data/site';
 import { tees, hoodies, pathFor, bySlug } from '../data/collections';
 import { faqPage, itemListOfCollections } from '../lib/schema';
@@ -104,10 +103,6 @@ const niches = [...homepageOrder([...tees, ...hoodies].filter((c) => c.seasonal 
 const inSeason = holidayTees.length > 0;
 // Hero (Sam 2026-10-21): evergreen and in the store's voice, no holiday art or green; holidays live in the Start-here cards.
 const heroHoliday = false;
-const heroCover = liveCover('mens-gym-sisyphus-had-bad-programming-graphic-tee');
-const heroPhoto = heroCover
-  ? { src: heroCover.src, srcSmall: heroCover.src.replace('/covers/', '/covers/sm/'), alt: heroCover.alt }
-  : site.heroImage ?? undefined;
 const dropCover = dropSeason === 'halloween' ? null : coverFor(drop);
 const dropTwin = drop.twin ? bySlug(drop.twin) : undefined;
 
@@ -184,53 +179,46 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
   description="Original graphic tees for men and women: fishing, hunting, western, country and gym designs, printed to order. New collection every month."
   schema={[faqPage([...answers, ...faqs]), itemListOfCollections([...tees, ...hoodies].filter((c) => live.has(c.slug)), showHoodies ? 'Graphic tee and hoodie collections' : 'Graphic tee collections')]}>
 
-  <!-- HERO — one cohesive hero (Sam, 2026-10-13). In holiday season: green background, cream text,
-       holiday buttons where Men's/Women's were, and the holiday truck photo. Off-season: the evergreen version. -->
-  <section class={`relative overflow-hidden border-b-2 border-[var(--color-ink)] ${heroHoliday ? 'bg-[var(--color-moss)] text-[var(--color-cream)]' : ''}`}>
-    <div class={`absolute -left-24 -bottom-24 w-[420px] h-[420px] rounded-full halftone ${heroHoliday ? 'opacity-20' : 'opacity-70'}`} aria-hidden="true"></div>
-    <div class="container-x relative py-12 md:py-20 grid lg:grid-cols-[1.15fr_1fr] gap-10 lg:gap-6 items-center">
-      <div>
-        <p class={`eyebrow rise ${heroHoliday ? '!text-[var(--color-mustard)]' : ''}`} style="animation-delay:.05s">{heroHoliday ? `The holiday shop is open · ${daysUntil('christmas')} days to Christmas` : 'Original art · One dry line per shirt · Printed to order'}</p>
-        <h1 class="mt-4 rise" style="animation-delay:.15s">
-          <span class={`display block text-[clamp(4.2rem,13vw,10.5rem)] ${heroHoliday ? 'misprint-light' : 'misprint'}`}>Graphic Tees</span>{" "}
-          <span class={`script block text-[clamp(2.4rem,6vw,4.4rem)] -mt-2 md:-mt-4 ml-1 -rotate-3 origin-left ${heroHoliday ? 'text-[var(--color-mustard)]' : 'text-[var(--color-rust)]'}`}>{heroHoliday ? 'with one good joke.' : 'with one good joke.'}</span>
+  <!-- HERO (Sam 2026-10-21, 4th pass: "use fal to create something special. High contrast. Use all of our colors").
+       Market check: Bad Birdie (black ground, huge slanted headline, photo panels), Tipsy Elves (people having fun, loud buttons),
+       Middle Class Fancy (deal in the hero). Ours: an original fal campaign shot (three friends cracking up in the sloth, cat and
+       chihuahua designs on a rust/mustard/moss/kraft set), real cat + cartoon table from the cat design, ink panel, cream + mustard headline, rust and cream buttons, navy deal strip. -->
+  <section class="hype relative bg-[#141311] text-[#f8f3e8] overflow-hidden">
+    <div class="lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.45fr)] lg:min-h-[620px]">
+      <picture class="block lg:order-2 relative">
+        <source media="(min-width: 1024px)" srcset="/hero/laugh-900.webp 900w, /hero/laugh-1600.webp 1600w" sizes="60vw" />
+        <img src="/hero/laugh-m-700.webp" srcset="/hero/laugh-m-700.webp 700w, /hero/laugh-m-1100.webp 1100w" sizes="100vw"
+          alt="Three friends cracking up in Graphic Tees Co. shirts (Replies in 3–5 Business Days, Knocked It Off. Felt Nothing., Small. Cold. Furious.) while a real cat sits on a cartoon table next to a spilled cartoon mug"
+          width="1100" height="851" fetchpriority="high" class="w-full aspect-[1100/851] lg:aspect-auto lg:absolute lg:inset-0 lg:h-full object-cover object-[60%_40%] lg:object-[20%_40%]" />
+        <span class="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-[#141311] to-transparent lg:hidden"></span>
+      </picture>
+
+      <div class="relative z-10 container-x pt-6 pb-9 lg:py-14 lg:pr-6 lg:!max-w-none lg:!pl-[max(1.5rem,calc((100vw-1240px)/2+1.5rem))] flex flex-col justify-center">
+        <p class="flex items-center gap-2 text-[11px] md:text-xs font-extrabold uppercase tracking-[.2em] text-[#d9a23b]"><span class="h-2 w-2 rounded-full bg-[#7d9459]"></span>Original art · New jokes every month</p>
+        <h1 class="mt-3 display leading-[.8]">
+          <span class="block text-[clamp(4.6rem,19vw,8.8rem)] text-[#f8f3e8]">Graphic</span>
+          <span class="block text-[clamp(4.6rem,19vw,8.8rem)] text-[#f8f3e8]">Tees<span class="text-[#e2552a]">.</span></span>
+          <span class="block mt-2 text-[clamp(2.2rem,8.4vw,4.2rem)] text-[#d9a23b] -skew-x-[10deg] origin-left">Life's short. Wear the laugh.</span>
         </h1>
-        <!-- Phones: hero picture sits right under the headline, before the intro copy -->
-        <div class="lg:hidden mt-6 -mx-2"><HeroArt image={heroPhoto} /></div>
-        <p class={`mt-6 text-lg max-w-xl rise ${heroHoliday ? 'opacity-90' : 'text-[var(--color-ink-2)]'}`} style="animation-delay:.3s">{heroHoliday ? 'Original designs with one dry line each: the dad asleep by 3, the cat who ruined the tree, the golfer still looking for his ball. Tees, hoodies and zip-ups for the people who are hard to shop for, printed when you order.' : 'Original designs with one dry line each: the dad asleep by 3, the cat who ruined the tree, the golfer still looking for his ball. Tees, hoodies and zip-ups for the people who are hard to shop for, printed when you order.'}</p>
-        {heroHoliday ? (<>
-          {/* Hero buttons (Sam 2026-10-20: "way too many buttons"): the two nearest holidays + one drawer for everything else. */}
-          <div class="mt-8 flex flex-wrap items-start gap-3 rise" style="animation-delay:.42s">
-            {heroPrimary.slice(0, 1).map((c) => <a href={pathFor(c)} class="btn">Shop {c.h1}</a>)}
-            <a href="/gifts/" class="btn btn-ghost !text-[var(--color-cream)] !border-[var(--color-cream)]">Gifts &amp; sets</a>
-          </div>
-          <details class="hero-drawer group mt-3 rise" style="animation-delay:.5s">
-            <summary class="inline-flex items-center gap-2 list-none cursor-pointer select-none text-sm font-bold uppercase tracking-[.12em] text-[var(--color-cream)] underline underline-offset-4 decoration-[var(--color-mustard)] hover:text-[var(--color-mustard)] [&::-webkit-details-marker]:hidden">
-              Shop all collections <span aria-hidden="true" class="transition-transform group-open:rotate-180">▾</span>
-            </summary>
-            <div class="mt-4 flex flex-wrap gap-2">
-              {heroRest.map((c) => <a href={pathFor(c)} class="rounded-full border border-[var(--color-cream)]/60 px-3.5 py-1.5 text-sm font-semibold text-[var(--color-cream)] hover:bg-[var(--color-cream)] hover:text-[var(--color-ink)] transition-colors">{c.h1.replace(/^Graphic /, '')}</a>)}
-              <a href="/graphic-tees-for-men/" class="rounded-full border border-[var(--color-cream)]/60 px-3.5 py-1.5 text-sm font-semibold text-[var(--color-cream)] hover:bg-[var(--color-cream)] hover:text-[var(--color-ink)] transition-colors">Men's tees</a>
-              <a href="/graphic-tees-for-women/" class="rounded-full border border-[var(--color-cream)]/60 px-3.5 py-1.5 text-sm font-semibold text-[var(--color-cream)] hover:bg-[var(--color-cream)] hover:text-[var(--color-ink)] transition-colors">Women's tees</a>
-              {showHoodies && <a href="/hoodies/" class="rounded-full border border-[var(--color-cream)]/60 px-3.5 py-1.5 text-sm font-semibold text-[var(--color-cream)] hover:bg-[var(--color-cream)] hover:text-[var(--color-ink)] transition-colors">Hoodies</a>}
-              {site.facts.crewOffer && <a href={site.facts.crewOffer.href} class="rounded-full border border-[var(--color-cream)]/60 px-3.5 py-1.5 text-sm font-semibold text-[var(--color-cream)] hover:bg-[var(--color-cream)] hover:text-[var(--color-ink)] transition-colors">Group &amp; family</a>}
-            </div>
-          </details>
-        </>) : (
-          <div class="mt-8 flex flex-wrap gap-3 rise" style="animation-delay:.42s">
-            <a href="/funny-graphic-tees/" class="btn">Shop graphic tees</a>
-            {showHoodies && <a href="/hoodies/" class="btn btn-rust">Hoodies</a>}
-            <a href="/gifts/" class="btn btn-ghost">Gifts &amp; sets</a>
-          </div>
-        )}
-        <ul class={`mt-8 flex flex-wrap gap-x-6 gap-y-2 text-xs font-bold uppercase tracking-[.14em] rise ${heroHoliday ? 'opacity-90' : 'text-[var(--color-ink-2)]'}`} style="animation-delay:.55s">
-          <li class="flex items-center gap-2"><Icon name="star" class={`w-4 h-4 ${heroHoliday ? 'text-[var(--color-mustard)]' : 'text-[var(--color-rust)]'}`} />Original designs</li>
-          <li class="flex items-center gap-2"><Icon name="tee" class={`w-4 h-4 ${heroHoliday ? 'text-[var(--color-mustard)]' : 'text-[var(--color-rust)]'}`} />{heroHoliday ? 'Free US shipping $45+' : 'Free US shipping $45+'}</li>
-          <li class="flex items-center gap-2"><Icon name="sun" class={`w-4 h-4 ${heroHoliday ? 'text-[var(--color-mustard)]' : 'text-[var(--color-rust)]'}`} />{'Buy 2+, save up to 25% from Nov 8'}</li>
-        </ul>
+        <p class="mt-5 max-w-sm text-[#f8f3e8]/85 text-base md:text-lg">Life's too short for boring shirts. Ours are drawn here, printed when you order, and made to get a laugh out of everybody who reads them.</p>
+        <div class="mt-6 grid grid-cols-2 gap-3 max-w-md">
+          <a href="/funny-graphic-tees/" class="hype-btn bg-[#c2461f] text-[#f8f3e8] [box-shadow:4px_4px_0_#d9a23b]">Shop tees</a>
+          {showHoodies ? <a href="/hoodies/" class="hype-btn bg-[#f8f3e8] text-[#141311] [box-shadow:4px_4px_0_#22344a]">Shop hoodies</a> : <a href="/gifts/" class="hype-btn bg-[#f8f3e8] text-[#141311]">Gifts &amp; sets</a>}
+        </div>
+        <a href="/gifts/" class="mt-5 inline-block self-start text-sm font-extrabold uppercase tracking-[.14em] underline decoration-[#d9a23b] decoration-2 underline-offset-[6px]">Gifts &amp; stocking stuffers →</a>
       </div>
-      <div class="hidden lg:block"><HeroArt image={heroPhoto} /></div>
     </div>
+
+    <!-- Deal strip (moving) -->
+    <a href="/black-friday/" class="block bg-[#22344a] text-[#f8f3e8] border-y-2 border-[#141311] overflow-hidden" aria-label="Black Friday deals start November 8">
+      <div class="deal-track flex w-max gap-8 py-2.5 text-sm md:text-base font-black uppercase tracking-[.12em] whitespace-nowrap">
+        {[0, 1].map((k) => (
+          <span class="flex gap-8" aria-hidden={k ? 'true' : undefined}>
+            <span>Black Friday starts Nov 8</span><span class="text-[#d9a23b]">★</span><span>Buy 2, save 15%</span><span class="text-[#e2552a]">★</span><span>Buy 4+, save 25%</span><span class="text-[#d9a23b]">★</span><span>Free US shipping $45+</span><span class="text-[#e2552a]">★</span><span>Original designs only</span><span class="text-[#d9a23b]">★</span>
+          </span>
+        ))}
+      </div>
+    </a>
   </section>
 
   <!-- MAJOR SPOKES: 8 broad doors (CRO), then every niche in one swipe row -->
@@ -250,7 +238,7 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
           <span class="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-black/85 via-black/45 to-transparent" aria-hidden="true"></span>
           {m.badge && <span class="absolute top-3 left-3 rounded-full bg-[var(--color-mustard)] text-[var(--color-ink)] text-[11px] font-bold uppercase tracking-[.1em] px-3 py-1 border-2 border-[var(--color-ink)]">{m.badge}</span>}
           <span class="absolute inset-x-4 bottom-4 text-[var(--color-cream)]">
-            <span class="display block text-[clamp(1.8rem,3.4vw,2.6rem)] leading-[.88]">{m.title}</span>
+            <span class="display block text-[clamp(1.3rem,5.6vw,2.6rem)] md:text-[clamp(1.8rem,3.4vw,2.6rem)] leading-[.88]">{m.title}</span>
             <span class="mt-1.5 block text-[13px] leading-snug opacity-90">{m.line}</span>
             <span class="mt-2 block text-xs font-bold uppercase tracking-[.14em] text-[var(--color-mustard)]">Shop →</span>
           </span>
@@ -262,11 +250,11 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
   {niches.length > 0 && <section class="mt-14" aria-labelledby="niches-h">
     <div class="container-x flex items-end justify-between gap-4">
       <h2 id="niches-h" class="display text-4xl md:text-5xl">Find your <span class="text-[var(--color-rust)]">people</span></h2>
-      <p class="text-xs font-bold uppercase tracking-[.12em] text-[var(--color-ink-2)]">{niches.length} niches · swipe →</p>
+      <a href="/niches/" class="text-xs font-bold uppercase tracking-[.12em] text-[var(--color-rust)] underline underline-offset-4">All {niches.length} niches →</a>
     </div>
     <div class="container-x">
       <div class="mt-5 -mx-4 px-4 scroll-px-4 flex gap-3 overflow-x-auto snap-x snap-mandatory pb-3 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-        {niches.map(({ c, ph, n }) => (
+        {niches.slice(0, 3).map(({ c, ph, n }) => (
           <a href={pathFor(c)} class="group snap-start shrink-0 w-[38%] sm:w-[26%] md:w-[17%] rounded-[14px] overflow-hidden border-2 border-[var(--color-ink)] bg-[var(--color-cream)] shadow-[3px_3px_0_var(--color-ink)]">
             <span class="block aspect-square bg-white overflow-hidden">
               {ph && <img src={ph.src} alt={ph.alt} loading="lazy" width="300" height="300" class="w-full h-full object-cover object-[50%_25%] group-hover:scale-[1.04] transition-transform" />}
@@ -277,6 +265,13 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
             </span>
           </a>
         ))}
+        <a href="/niches/" class="snap-start shrink-0 w-[38%] sm:w-[26%] md:w-[17%] rounded-[14px] border-2 border-[var(--color-ink)] bg-[var(--color-navy)] text-[var(--color-cream)] shadow-[3px_3px_0_var(--color-rust)] p-3 flex flex-col justify-between hover:bg-[var(--color-rust)] transition-colors">
+          <span class="flex -space-x-3">{niches.slice(3, 6).map(({ ph }) => <img src={ph!.src} alt="" loading="lazy" width="48" height="48" class="w-11 h-11 rounded-full object-cover object-top border-2 border-[var(--color-cream)]" />)}</span>
+          <span>
+            <span class="block display text-[1.7rem] leading-[.9]">View all<br/>{niches.length} niches</span>
+            <span class="block mt-2 text-[11px] font-bold uppercase tracking-[.1em] text-[var(--color-mustard)]">Find yours →</span>
+          </span>
+        </a>
       </div>
     </div>
   </section>}
@@ -353,6 +348,71 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
     </a>
   </section>
 
+  <!-- Sam 2026-10-21: hoodie cards + shop by style moved up, women's photo cards moved down -->
+  <!-- HOODIES (hidden until the first hoodie ships) -->
+  {showHoodies && <section class="mt-16 bg-[var(--color-ink)] text-[var(--color-cream)]">
+    <div class="container-x py-16">
+      <div class="flex items-end justify-between gap-4">
+        <h2 class="display text-5xl md:text-6xl">Same designs. <span class="text-[var(--color-mustard)]">On graphic hoodies.</span></h2>
+        <a href="/hoodies/" class="hidden md:inline font-bold uppercase tracking-[.12em] text-sm underline underline-offset-4">All hoodies →</a>
+      </div>
+      <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+        {hoodies.filter((c) => !c.seasonal && live.has(c.slug)).slice(0, 8).map((c) => (
+          <a href={pathFor(c)} class="group relative overflow-hidden rounded-[16px] border-2 border-[var(--color-cream)]/25 p-5 min-h-[140px] flex flex-col justify-between hover:bg-[var(--color-rust)] hover:border-[var(--color-rust)] transition-colors">
+            <Icon name="hoodie" class="w-8 h-8 text-[var(--color-mustard)] group-hover:text-[var(--color-cream)]" />
+            <span class="display text-3xl leading-none">{c.h1}</span>
+          </a>
+        ))}
+        <a href="/niches/" class="snap-start shrink-0 w-[38%] sm:w-[26%] md:w-[17%] rounded-[14px] border-2 border-[var(--color-ink)] bg-[var(--color-navy)] text-[var(--color-cream)] shadow-[3px_3px_0_var(--color-rust)] p-3 flex flex-col justify-between hover:bg-[var(--color-rust)] transition-colors">
+          <span class="flex -space-x-3">{niches.slice(3, 6).map(({ ph }) => <img src={ph!.src} alt="" loading="lazy" width="48" height="48" class="w-11 h-11 rounded-full object-cover object-top border-2 border-[var(--color-cream)]" />)}</span>
+          <span>
+            <span class="block display text-[1.7rem] leading-[.9]">View all<br/>{niches.length} niches</span>
+            <span class="block mt-2 text-[11px] font-bold uppercase tracking-[.1em] text-[var(--color-mustard)]">Find yours →</span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>}
+
+  <!-- SHOP BY STYLE -->
+  <section class="container-x mt-16">
+    <h2 class="display text-5xl md:text-6xl">Shop by style</h2>
+    <div class="mt-6 flex flex-wrap gap-3">
+      {styles.map((c) => (
+        <a href={pathFor(c)} class="inline-flex items-center gap-3 rounded-full border-2 border-[var(--color-ink)] bg-[var(--color-cream)] pl-3 pr-5 py-2 font-extrabold uppercase tracking-[.08em] text-sm shadow-[3px_3px_0_var(--color-ink)] hover:bg-[var(--color-mustard)] transition-colors">
+          <Icon name={icons[c.slug]} class="w-6 h-6 text-[var(--color-rust)]" />{c.h1}
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- THIS MONTH'S DROP -->
+  <section class="mt-20 bg-[var(--color-rust)] text-[var(--color-cream)] border-y-2 border-[var(--color-ink)] relative overflow-hidden">
+    <div class="absolute inset-0 halftone opacity-30" aria-hidden="true"></div>
+    <div class="container-x relative py-12 md:py-16 grid lg:grid-cols-[1fr_1.1fr] gap-10 items-center">
+      <figure class="relative lg:order-2">
+        <div class="relative rotate-[-1.5deg] rounded-[22px] overflow-hidden border-[5px] border-[var(--color-mustard)] shadow-[8px_10px_0_var(--color-ink)]">
+          {dropCover ? <img src={dropCover.src} alt={dropCover.alt} width="1400" height="1750" loading="lazy" class="w-full h-auto block max-h-[620px] object-cover object-[50%_20%]" /> :
+          <img src="/hero/halloween-porch-1400.webp" srcset="/hero/halloween-porch-800.webp 800w, /hero/halloween-porch-1400.webp 1400w"
+            sizes="(min-width: 1024px) 600px, 92vw" width="1400" height="781" loading="lazy"
+            alt="Three friends laughing on a front porch with glowing jack-o'-lanterns, wearing Graphic Tees Co. Halloween shirts and a hoodie"
+            class="w-full h-auto block" />}
+          <span class="absolute inset-0 bg-gradient-to-t from-black/35 to-transparent" aria-hidden="true"></span>
+        </div>
+        <Icon name={dropSeason === 'halloween' ? 'star' : 'star'} class="absolute -bottom-6 -left-4 w-20 h-20 text-[var(--color-mustard)] drop-shadow-[3px_3px_0_var(--color-ink)]" />
+      </figure>
+      <div class="lg:order-1">
+        <p class="eyebrow !text-[var(--color-mustard)]">This month's drop</p>
+        <h2 class="display text-6xl md:text-8xl mt-2" style="text-shadow:.05em .05em 0 var(--color-ink)">{drop.h1}</h2>
+        <p class="mt-3 max-w-xl text-lg opacity-90">{drop.intro}</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href={pathFor(drop)} class="btn">Shop the drop</a>
+          {dropTwin && live.has(dropTwin.slug) && <a href={pathFor(dropTwin)} class="btn btn-ghost !text-[var(--color-cream)] !border-[var(--color-cream)]">{dropTwin.h1}</a>}
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- WOMEN'S POSTER CARDS -->
   <section class="container-x mt-16">
     <div class="flex items-end justify-between gap-4">
@@ -391,63 +451,6 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
         <span class="display block text-[clamp(1.8rem,3.4vw,2.6rem)] leading-[.88]">All Women's<br />Graphic Tees</span>
         <span class="mt-2 block text-xs font-bold uppercase tracking-[.14em] text-[var(--color-rust)]">Shop all →</span>
       </a>
-    </div>
-  </section>
-
-  <!-- THIS MONTH'S DROP -->
-  <section class="mt-20 bg-[var(--color-rust)] text-[var(--color-cream)] border-y-2 border-[var(--color-ink)] relative overflow-hidden">
-    <div class="absolute inset-0 halftone opacity-30" aria-hidden="true"></div>
-    <div class="container-x relative py-12 md:py-16 grid lg:grid-cols-[1fr_1.1fr] gap-10 items-center">
-      <figure class="relative lg:order-2">
-        <div class="relative rotate-[-1.5deg] rounded-[22px] overflow-hidden border-[5px] border-[var(--color-mustard)] shadow-[8px_10px_0_var(--color-ink)]">
-          {dropCover ? <img src={dropCover.src} alt={dropCover.alt} width="1400" height="1750" loading="lazy" class="w-full h-auto block max-h-[620px] object-cover object-[50%_20%]" /> :
-          <img src="/hero/halloween-porch-1400.webp" srcset="/hero/halloween-porch-800.webp 800w, /hero/halloween-porch-1400.webp 1400w"
-            sizes="(min-width: 1024px) 600px, 92vw" width="1400" height="781" loading="lazy"
-            alt="Three friends laughing on a front porch with glowing jack-o'-lanterns, wearing Graphic Tees Co. Halloween shirts and a hoodie"
-            class="w-full h-auto block" />}
-          <span class="absolute inset-0 bg-gradient-to-t from-black/35 to-transparent" aria-hidden="true"></span>
-        </div>
-        <Icon name={dropSeason === 'halloween' ? 'star' : 'star'} class="absolute -bottom-6 -left-4 w-20 h-20 text-[var(--color-mustard)] drop-shadow-[3px_3px_0_var(--color-ink)]" />
-      </figure>
-      <div class="lg:order-1">
-        <p class="eyebrow !text-[var(--color-mustard)]">This month's drop</p>
-        <h2 class="display text-6xl md:text-8xl mt-2" style="text-shadow:.05em .05em 0 var(--color-ink)">{drop.h1}</h2>
-        <p class="mt-3 max-w-xl text-lg opacity-90">{drop.intro}</p>
-        <div class="mt-6 flex flex-wrap gap-3">
-          <a href={pathFor(drop)} class="btn">Shop the drop</a>
-          {dropTwin && live.has(dropTwin.slug) && <a href={pathFor(dropTwin)} class="btn btn-ghost !text-[var(--color-cream)] !border-[var(--color-cream)]">{dropTwin.h1}</a>}
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- HOODIES (hidden until the first hoodie ships) -->
-  {showHoodies && <section class="bg-[var(--color-ink)] text-[var(--color-cream)]">
-    <div class="container-x py-16">
-      <div class="flex items-end justify-between gap-4">
-        <h2 class="display text-5xl md:text-6xl">Same designs. <span class="text-[var(--color-mustard)]">On graphic hoodies.</span></h2>
-        <a href="/hoodies/" class="hidden md:inline font-bold uppercase tracking-[.12em] text-sm underline underline-offset-4">All hoodies →</a>
-      </div>
-      <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
-        {hoodies.filter((c) => !c.seasonal && live.has(c.slug)).slice(0, 8).map((c) => (
-          <a href={pathFor(c)} class="group relative overflow-hidden rounded-[16px] border-2 border-[var(--color-cream)]/25 p-5 min-h-[140px] flex flex-col justify-between hover:bg-[var(--color-rust)] hover:border-[var(--color-rust)] transition-colors">
-            <Icon name="hoodie" class="w-8 h-8 text-[var(--color-mustard)] group-hover:text-[var(--color-cream)]" />
-            <span class="display text-3xl leading-none">{c.h1}</span>
-          </a>
-        ))}
-      </div>
-    </div>
-  </section>}
-
-  <!-- SHOP BY STYLE -->
-  <section class="container-x mt-16">
-    <h2 class="display text-5xl md:text-6xl">Shop by style</h2>
-    <div class="mt-6 flex flex-wrap gap-3">
-      {styles.map((c) => (
-        <a href={pathFor(c)} class="inline-flex items-center gap-3 rounded-full border-2 border-[var(--color-ink)] bg-[var(--color-cream)] pl-3 pr-5 py-2 font-extrabold uppercase tracking-[.08em] text-sm shadow-[3px_3px_0_var(--color-ink)] hover:bg-[var(--color-mustard)] transition-colors">
-          <Icon name={icons[c.slug]} class="w-6 h-6 text-[var(--color-rust)]" />{c.h1}
-        </a>
-      ))}
     </div>
   </section>
 

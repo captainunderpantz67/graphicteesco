@@ -1,0 +1,101 @@
+---
+// All niches (Sam 2026-10-21: the homepage niche row shows ~3 cards, then "View all niches" lands here, laid out like the
+// zip-up page: a titled row of 3, swipe for more, "See all" opens the row into a grid). noindex: no measured keyword for
+// this page (buy-the-bottom gate); the collection pages it links to are the search pages.
+import Base from '../layouts/Base.astro';
+import { tees, hoodies, pathFor } from '../data/collections';
+import { getAllProducts } from '../lib/shopify';
+import { linkableSlugs } from '../lib/linkable';
+import { homepageOrder } from '../lib/holidays';
+import { coverFor as liveCover } from '../data/covers';
+import freshList from '../data/fresh-designs.json';
+
+const allProducts = (await getAllProducts()).filter((p) => !p.sample && p.images.length);
+const fresh = new Set<string>(freshList as string[]);
+const live = await linkableSlugs();
+const img = (u: string, w: number) => `${u}${u.includes('?') ? '&' : '?'}width=${w}`;
+const used = new Set<string>();
+const photoIn = (handle: string) => {
+  const pool = allProducts.filter((x) => x.collections?.includes(handle) && !used.has(x.handle));
+  const pick = pool.find((x) => liveCover(x.handle) && fresh.has(x.handle)) ?? pool.find((x) => liveCover(x.handle));
+  if (pick) { used.add(pick.handle); const cv = liveCover(pick.handle)!; return { src: cv.src, alt: cv.alt }; }
+  const any = pool[0]; if (!any) return null; used.add(any.handle);
+  return { src: img(any.images[0].url, 500), alt: any.images[0].altText || any.title };
+};
+const count = (h: string) => allProducts.filter((x) => x.collections?.includes(h)).length;
+
+const all = [...homepageOrder([...tees, ...hoodies].filter((c) => c.seasonal && live.has(c.slug))),
+  ...[...tees, ...hoodies].filter((c) => !c.seasonal && live.has(c.slug)).sort((a, b) => b.volume - a.volume)]
+  .map((c) => ({ c, ph: photoIn(c.shopifyHandle), n: count(c.shopifyHandle) })).filter((x) => x.ph && x.n > 0);
+
+// Rows, first match wins. Titles in the house voice.
+const GROUPS: { name: string; test: (s: string, seasonal: boolean) => boolean }[] = [
+  { name: 'Holidays', test: (s, seasonal) => seasonal },
+  { name: 'Game day & the gym', test: (s) => /football|baseball|soccer|softball|volleyball|hockey|pickleball|golf|gym|running|wrestling|basketball|tennis|bowling|dance|cheer/.test(s) },
+  { name: 'Outdoors', test: (s) => /hunting|fishing|camo|western|country|national-park|camping|outdoor|hiking|lake/.test(s) },
+  { name: 'Work & faith', test: (s) => /nurse|welder|christian|teacher|mechanic|lineman|electrician|plumber|firefighter|trucker|farmer|chef|lawyer|police/.test(s) },
+  { name: 'Pets & animals', test: (s) => /cat|dog|capybara|frog|horse|dachshund|frenchie|french-bulldog|pit-?bull|sloth|raccoon|animal|bear|duck/.test(s) },
+  { name: 'Style', test: (s) => /vintage|retro|y2k|anime|oversized|cropped|embroidered|heavyweight|zip|half-zip|bookish|aesthetic/.test(s) },
+  { name: 'For him & her', test: (s) => /for-men|for-women|mens|womens|mama|mom|dad|grandpa|nana|papa/.test(s) },
+  { name: 'Everything else', test: () => true },
+];
+const rows = GROUPS.map((g) => ({ name: g.name, items: [] as typeof all })).map((r) => r);
+for (const x of all) rows[GROUPS.findIndex((g) => g.test(x.c.slug, !!x.c.seasonal))].items.push(x);
+const shown = rows.filter((r) => r.items.length);
+---
+<Base title="Shop All Niches | Graphic Tees Co." noindex={true}
+  description="Every Graphic Tees Co. collection in one place: holidays, game day, outdoors, work, pets and style, each with original designs.">
+  <section class="bg-[var(--color-cream)] text-[var(--color-navy)] border-b-2 border-[var(--color-ink)]">
+    <div class="container-x pt-8 pb-10 md:pt-14 md:pb-12">
+      <nav aria-label="Breadcrumb" class="text-xs text-[var(--color-ink-2)]"><a href="/" class="hover:underline">Home</a> / <span>All niches</span></nav>
+      <p class="eyebrow mt-6" style="color:var(--color-rust)">{all.length} niches · one of them is yours</p>
+      <h1 class="display text-[clamp(3rem,13vw,6.5rem)] leading-[.88] mt-2">Find your <span class="text-[var(--color-rust)]">people</span></h1>
+      <p class="mt-4 max-w-2xl text-lg text-[var(--color-ink-2)]">Every collection we make, grouped by what you're into. Swipe a row, or hit See all to open it up.</p>
+      <div class="mt-7 flex gap-2 overflow-x-auto -mx-4 px-4 pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        {shown.map((r, i) => <a href={`#row-${i}`} class="shrink-0 rounded-full bg-[var(--color-navy)] text-[var(--color-cream)] border-2 border-[var(--color-navy)] px-4 py-2 text-sm font-extrabold uppercase tracking-[.08em] shadow-[3px_3px_0_var(--color-rust)] hover:bg-[var(--color-rust)]">{r.name}</a>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="container-x pt-12 grid gap-12" aria-label="Niches">
+    {shown.map((g, gi) => (
+      <section data-row id={`row-${gi}`} aria-label={g.name} class="min-w-0 scroll-mt-24">
+        <div class="flex items-end justify-between gap-3 border-b-2 border-[var(--color-rust)] pb-2">
+          <h2 class="display text-[clamp(1.8rem,7vw,2.6rem)] leading-[.9] text-[var(--color-navy)]">{g.name} <span class="text-[var(--color-rust)] text-[.55em] align-middle">({g.items.length})</span></h2>
+          {g.items.length > 3 && <button type="button" data-row-toggle class="shrink-0 rounded-full border-2 border-[var(--color-navy)] bg-[var(--color-cream)] text-[var(--color-navy)] px-4 py-1.5 text-xs font-extrabold uppercase tracking-[.1em] shadow-[2px_2px_0_var(--color-rust)] hover:bg-[var(--color-rust)] hover:text-[var(--color-cream)]">See all</button>}
+        </div>
+        <div data-row-track class="mt-5 -mx-4 px-4 scroll-px-4 flex gap-4 overflow-x-auto snap-x snap-mandatory pb-3 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+          {g.items.map(({ c, ph, n }, i) => (
+            <div class="snap-start shrink-0 w-[42%] sm:w-[30%] md:w-[23%]">
+              <a href={pathFor(c)} class="group block rounded-[14px] overflow-hidden border-2 border-[var(--color-ink)] bg-[var(--color-cream)] shadow-[3px_3px_0_var(--color-ink)]">
+                <span class="block aspect-[4/5] bg-white overflow-hidden">
+                  <img src={ph!.src} alt={ph!.alt} loading={gi === 0 && i < 3 ? 'eager' : 'lazy'} width="400" height="500" class="w-full h-full object-cover object-[50%_25%] group-hover:scale-[1.04] transition-transform" />
+                </span>
+                <span class="block px-3 py-2.5">
+                  <span class="block font-extrabold text-sm leading-tight">{c.h1}</span>
+                  <span class="block mt-1 text-[11px] text-[var(--color-rust)] font-bold uppercase tracking-[.08em]">{n} designs →</span>
+                </span>
+              </a>
+            </div>
+          ))}
+        </div>
+      </section>
+    ))}
+  </section>
+  <script>
+    // "See all" turns a row's swipe track into a full grid (and back). Same behavior as the collection pages.
+    document.querySelectorAll<HTMLElement>('[data-row]').forEach((row) => {
+      const btn = row.querySelector<HTMLButtonElement>('[data-row-toggle]');
+      const track = row.querySelector<HTMLElement>('[data-row-track]');
+      if (!btn || !track) return;
+      const grid = 'mt-5 grid grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-8';
+      const swipe = track.className;
+      btn.addEventListener('click', () => {
+        const open = btn.textContent === 'See all';
+        track.className = open ? grid : swipe;
+        track.querySelectorAll<HTMLElement>(':scope > div').forEach((d) => { d.dataset.cls ??= d.className; d.className = open ? '' : d.dataset.cls; });
+        btn.textContent = open ? 'Show less' : 'See all';
+      });
+    });
+  </script>
+</Base>
