@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-21 05:16
+status: REVIEW
 lane: B
 type: twin
 id: 832
@@ -22,3 +22,4 @@ push: camo
 ---
 ## Log
 - 2026-10-21 05:00 UTC director: brief written, READY (camo push twin of an A-grade design; primary measured today).
+- 2026-10-21 05:21 UTC [B]: built twin of #769 as DRAFT (product 15371563106608, IND4000 #1543, Forest Camo + Duck Camo + Deadwood Tree Camo x S-3XL = 18/18 synced on file 1090928521, back logo 1080398177, sync 483590281). R6.2 lettering check: NO DAYS OFF. and THE COWS SAID SO. are Alfa Slab type in the source files, spelled right, no ring/arch/disc/box, ragged-edge scene. Light/dark file: used #769's Sand (dark ink: maroon headline, navy punch) file and laid the camo-halo.py cream underlay under it (close 30, halo 22, canvas padded 30 px so the halo is not clipped); the Navy file's cream lettering is NOT used (cream on a cream halo vanishes). Print 3434 x 3151, FW 1600 TOP 0 (9.2 in tall wide-lockup, clear of the pouch). 7h: headline 'NO DAYS OFF.' and punch 'THE COWS SAID SO.' both set to about the full lockup width (punch 100%, headline the same width). 7l: subject (barn and farmer) 2900 of 3374 px = 86%. Phone-size read of all three fronts OK. Keyword farm hoodie 880/KD 40 in map under products. Price 49.99 no compare-at, category hoodies, tags camo-hoodies graphic-hoodies-for-men hoodie ai-art intake-done, SEO title 48/meta 144, FAQ 5 x 45-54 words (order-by Dec 8). Flat cover, front first, neck-logo back last. Copy checked vs art (farmer, milk pail, thermos, cow in barn door, rain, boots). Audit PASS (1 warn: no lifestyle cover). Sheet docs/review/832.jpg. fal $0.

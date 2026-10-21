@@ -11322,6 +11322,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-farmer-no-days-off-the-cows-said-so-camo-hoodie": {
+   "claimed": [
+    "farm hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "farm hoodie",
+     "volume": 880,
+     "kd": 40
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
