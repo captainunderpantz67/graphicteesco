@@ -1,0 +1,30 @@
+import json
+H='mens-gym-sisyphus-had-bad-programming-embroidered-zip-hoodie'
+h='''<h3>The Story</h3>
+<p>This gym zip up hoodie is for the lifter who has pushed the same boulder up the same hill for years and now blames the program, zipped on for the warm-up and the walk to the car.</p>
+<p>A bearded, curly-haired man in a short tunic leans into a huge round stone on a steep hillside above a Greek key border, drawn in terracotta orange and black line like a vase painting with a worn print texture. SISYPHUS HAD runs above it and BAD PROGRAMMING below in heavy classical capitals, the second block wider than the first: orange and cream on Black and Navy, rust and navy on Ash. The full print is on the back. On the front, a small figure pushing a boulder up a slope is embroidered on the left chest, and the word DELOAD is stitched on the left cuff, in white thread on Black and Navy and navy thread on Ash. Original art, made for Graphic Tees Co. and printed and stitched the day you order it.</p>
+<h3>Details &amp; Fit</h3>
+<ul>
+<li>Regular fit zip-up hoodie with a metal zipper</li>
+<li>50% cotton, 50% polyester fleece, soft inside and outside</li>
+<li>Fabric weight: 8 oz/yd²</li>
+<li>Embroidered left-chest figure and boulder and left-cuff DELOAD, printed back</li>
+<li>Front pouch pockets and an unlined hood with color-matched drawcord</li>
+<li>Double-needle stitching at shoulders, armholes, neck, waistband and cuffs</li>
+<li>Sizes S–3XL</li>
+<li>3 colors: Black, Navy and Ash</li>
+<li>Blank product sourced from Honduras and El Salvador</li>
+</ul>
+<h3>Questions</h3>
+'''
+faq=[
+("How does the Sisyphus Had Bad Programming zip hoodie fit?","The Sisyphus Had Bad Programming gym zip up hoodie from Graphic Tees Co. is a regular unisex fit in sizes S through 3XL. Order your usual size for an easy layer over a tee or tank, or go up one for a roomier fit over a heavy warm-up. The first size exchange within 30 days is free."),
+("Is this gym hoodie warm enough for a cold garage gym?","It is a mid-weight layer. The Graphic Tees Co. zip hoodie is a Gildan 18600 in 8 oz fleece, 50% cotton and 50% polyester, soft inside and outside, with a metal zipper, front pouch pockets and an unlined hood. It handles cold garages, early parking lots and the cooldown well, and the zip opens fast when you warm up."),
+("Where are the print and the embroidery on this zip hoodie?","The full design, SISYPHUS HAD above the man, the boulder and the Greek key border, and BAD PROGRAMMING below, is printed across the back so the zipper never splits it. On the front, a small embroidered figure pushing a boulder up a slope sits on the left chest with no words, and DELOAD is stitched on the left cuff."),
+("How do I care for the embroidery on this hoodie?","Zip the Graphic Tees Co. hoodie, turn it inside out and wash cold with similar colors, then tumble dry on low or hang dry. Skip bleach and do not iron over the stitching. The figure on the chest and the DELOAD cuff are stitched thread, which keeps its shape wash after wash with gentle care."),
+("Is it a good gift for a lifter, and when should I order for Christmas?","Yes, for the gym friend who blames the program and never the plan. Graphic Tees Co. makes each embroidered hoodie to order, so for Christmas order by about December 8. Orders over $45 ship free in the US, and one free size exchange within 30 days covers a wrong guess on size."),
+]
+h+='\n'.join(f'<p><strong>{q}</strong><br>{a}</p>' for q,a in faq)
+s={"title":"Men's Gym – Sisyphus Had Bad Programming Embroidered Zip Hoodie","handle":H,"slug":H,"catalog":692,"colors":["Black","Navy","Ash"],"sizes":["S","M","L","XL","2XL","3XL"],"price":"57.99","productType":"Hoodie","tags":["zip-up-hoodies","zip-up-hoodies-for-men","graphic-hoodies-for-men","black-zip-up-hoodies","hoodie","ai-art","intake-done"],"seo":{"title":"Gym Zip Up Hoodie – Sisyphus Had Bad Programming","description":"A gym zip up hoodie: SISYPHUS HAD BAD PROGRAMMING on the back over a man and his boulder, plus an embroidered figure pushing a boulder on the chest."},"descriptionHtml":h}
+print(len(s['seo']['title']),len(s['seo']['description']))
+json.dump(s,open('designs/c894/spec.json','w'),ensure_ascii=False)

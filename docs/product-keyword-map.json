@@ -11486,6 +11486,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-nurse-calm-face-loud-brain-embroidered-zip-hoodie": {
+   "claimed": [
+    "nurse zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "nurse zip up hoodie",
+     "volume": 70,
+     "kd": 42
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
