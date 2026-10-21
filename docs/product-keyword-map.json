@@ -11979,6 +11979,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-welder-if-you-can-step-over-it-embroidered-zip-hoodie": {
+   "claimed": [
+    "welder zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "welder zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
