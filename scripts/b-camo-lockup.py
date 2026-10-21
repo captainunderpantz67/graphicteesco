@@ -29,9 +29,10 @@ def line(t):
     im = Image.new('RGBA', (b[2] - b[0] + 4, b[3] - b[1] + 4), (0, 0, 0, 0)); dd = ImageDraw.Draw(im)
     dd.text((-b[0] + 2, -b[1] + 2), t, font=f, fill=BONE, stroke_width=st, stroke_fill=DARK)
     return im.crop(im.getbbox())
+# LINEW=0.7 sets every line to 70% of the lockup width
 L = [line(t) for t in lines]; gap = 70
-mw = max(b.width for b in L); L = [b if b.width == mw else b.resize((mw, round(b.height * mw / b.width)), Image.LANCZOS) for b in L]
-blocks = ([L[0], patch] + L[1:]) if top else ([patch] + L)
+mw = int(W * float(os.environ['LINEW'])) if os.environ.get('LINEW') else max(b.width for b in L); L = [b if b.width == mw else b.resize((mw, round(b.height * mw / b.width)), Image.LANCZOS) for b in L]
+tn = int(os.environ.get('TOPN', 1)); blocks = (L[:tn] + [patch] + L[tn:]) if top else ([patch] + L)
 H = sum(b.height for b in blocks) + gap * (len(blocks) - 1)
 c = Image.new('RGBA', (W, H), (0, 0, 0, 0)); y = 0
 for b in blocks: c.alpha_composite(b, ((W - b.width) // 2, y)); y += b.height + gap

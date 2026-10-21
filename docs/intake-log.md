@@ -1,4 +1,5 @@
 2026-10-21 14:44 UTC — [E] Builder run end: #827 redo, #851 redo and #852 #853 #854 #855 in REVIEW; #856 #857 #858 PARKED (colors not on Printful #943); #959-#961 colorway backfills (live zip products, many colors x chest/wrist/back files) not started, left READY for the next run. Lock released. fal $0.50 total.
+2026-10-21 14:59 UTC — [B] REVIEW #884 Men's Hunting Deer Camp No Signal Camo Sweatshirt (redo in place, AOP #1418, sleeping hunter + no-signal phone, 11/11 on 1091170681, punch 100%). fal $0.08.
 RUNNING director since 2026-10-21 14:17 UTC
 2026-10-21 14:47 UTC — [B] REVIEW #883 Women's Hunting Here for the Sunrise. The Ducks Are Optional. Camo Sweatshirt (redo in place, AOP #1418, new punch, 11/11 on 1091166262, punch 100%). fal $0.04.
 2026-10-21 14:44 UTC — [B] REVIEW #878 Men's Hunting Call Me After Duck Season Camo Sweatshirt (redo in place, AOP #1418, drake + ringing flip phone, 11/11 on 1091163732, punch 100%). fal $0.04.
