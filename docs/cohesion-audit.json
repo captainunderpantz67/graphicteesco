@@ -1,6 +1,6 @@
 {
- "at": "2026-10-21T05:43:45.934Z",
- "products": 685,
+ "at": "2026-10-21T06:25:48.580Z",
+ "products": 688,
  "findings": [
   {
    "level": "WARN",
@@ -256,6 +256,13 @@
   },
   {
    "level": "WARN",
+   "handle": "unisex-dachshund-short-legs-long-opinions-socks",
+   "title": "Unisex Dachshund – Short Legs, Long Opinions Socks",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
    "handle": "unisex-nurse-calm-face-loud-brain-socks",
    "title": "Unisex Nurse – Calm Face, Loud Brain Socks",
    "msg": "Cover alt text doesn't say who is in the photo.",
@@ -328,6 +335,13 @@
    "level": "WARN",
    "handle": "hockey-cold-rink-hot-takes-ornament",
    "title": "Hockey – Cold Rink, Hot Takes Ornament",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "fishing-you-catching-em-no-keep-walking-ornament",
+   "title": "Fishing – You Catching 'Em? No. Keep Walking Ornament",
    "msg": "Cover alt text doesn't say who is in the photo.",
    "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
   },
@@ -447,6 +461,13 @@
    "level": "WARN",
    "handle": "strawberry-please-dont-pick-me-mug",
    "title": "Strawberry – Please Don't Pick Me Mug",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "christmas-tree-it-looked-smaller-at-the-farm-mug",
+   "title": "Christmas Tree – It Looked Smaller at the Farm Mug",
    "msg": "Cover alt text doesn't say who is in the photo.",
    "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
   },
@@ -678,13 +699,6 @@
    "level": "WARN",
    "handle": "womens-mom-motherhood-exposed-me-hoodie",
    "title": "Women's Mom – Motherhood Didn't Change Me. It Exposed Me. Hoodie",
-   "msg": "No lifestyle cover photo.",
-   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-baseball-mom-his-batting-average-is-my-personality-zip-hoodie",
-   "title": "Women's Baseball Mom – His Batting Average Is My Personality Zip Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
