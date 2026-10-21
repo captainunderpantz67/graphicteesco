@@ -1,3 +1,6 @@
+RUNNING director since 2026-10-21 15:24 UTC
+2026-10-21 16:21 UTC — [B] REVIEW #883 Women's Hunting Here for the Sunrise. The Ducks Are Optional. Camo Sweatshirt (REDO 2: lines stacked on two, lockup 1800 px, 11/11 on 1091220267, punch 100%). fal $0.
+2026-10-21 16:21 UTC — [B] REVIEW #875 Men's Hunting Up Before the Ducks. The Ducks Slept In. Camo Sweatshirt (REDO 2: lines stacked on two, lockup 1800 px, 11/11 on 1091218029, punch 100%). fal $0.
 RUNNING director since 2026-10-21 16:14 UTC
 2026-10-21 16:10 UTC — [B] REVIEW #601 Men's Marathon Hit the Wall. The Wall Won. Tee (REDO 2: slumped runner with race bib, cream punch on dark, 35 on 1091200292 + 21 on 1091200297, punch 126%). fal $0.04.
 2026-10-21 15:40 UTC — [B] REVIEW #594 Possum Eats Ticks. Screams Anyway. Tee (REDO 3: dark-file punch cream with red keyline, 28 on 1091193352 + 21 on 1091005305, punch 144%). fal $0.
