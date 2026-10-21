@@ -796,9 +796,9 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1000 | Black man, late 40s, close-cropped grey hair, trimmed grey goatee, tall lean build | CLAIMED 2026-10-21 — #816 golf zip back-print cover (brief) |
 | 1001 | Filipino-American woman, late 30s, long dark hair in a low claw-clip twist, medium build | USED 2026-10-21 — #817 baseball mom zip back-print cover (claw-clip bun, bleachers at dusk) |
 | 1002 | white woman, early 30s, auburn hair in a messy bun, freckled, petite build | USED 2026-10-21 — #818 capybara christmas zip back-print cover (porch railing, bun) |
-| 1003 | white man, late 60s, thin white hair under a bucket hat, slim build, wire glasses | CLAIMED 2026-10-21 — #819 golf retired zip back-print cover (brief) |
+| 1003 | white man, late 60s, thin white hair under a bucket hat, slim build, wire glasses | USED 2026-10-21 — #819 golf retired zip back-print cover (bucket hat, golf course) |
 | 1004 | Japanese-American woman, late 20s, shoulder-length black hair with a center part, athletic build | CLAIMED 2026-10-21 — #820 national park zip back-print cover (brief) |
-| 1006 | Cherokee man, mid 50s, long grey-black hair in a low ponytail, stocky build | CLAIMED 2026-10-21 — #821 Opening Day zip redesign cover (brief) |
+| 1006 | Cherokee man, mid 50s, long grey-black hair in a low ponytail, stocky build | USED 2026-10-21 — #821 hunting zip back-print cover (frosty field, beanie) |
 | 1007 | Mexican-American woman, early 20s, long dark hair in a high ponytail with a pink scrunchie, slim build | CLAIMED 2026-10-21 — #822 AOP zip back-print cover (brief) |
 | 1008 | white man, early 30s, red-brown full beard, knit beanie, broad build | CLAIMED 2026-10-21 — #823 AOP zip back-print cover (brief) |
 | 1009 | Cajun man, late 40s, dark hair under a cap, sun-lined face, short salt-and-pepper beard, wiry build | CLAIMED 2026-10-21 — #824 AOP zip back-print cover (brief) |
