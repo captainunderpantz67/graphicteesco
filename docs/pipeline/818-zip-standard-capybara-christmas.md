@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-21T08:55Z
+status: REVIEW
 lane: C
 type: redo
 id: 818
@@ -28,3 +28,4 @@ push: zip
   1. R3.7.8: on the Navy back mockup I'M DECORATED. is about two thirds of I'M NOT STUCK.'s width. Set the punch at least as wide as the headline ($0 re-layout).
   2. R5.3.8: the dark green I'M DECORATED. on Navy leans on a thin cream keyline and reads weak at phone size. Give Navy its own file with the punch in cream or mustard fill (the way #817 swapped its headline ink).
   3. R6.8 cover: the hoodie in the cover has two zipper slits low on the back (you flagged them): that is a different garment, not the 18600, and the model turned the printed bulbs into glowing lights. Both mean a new cover anyway after fix 1 (one AI try with the new Navy or Ash back mockup as --design, 'plain back panel, no pockets, no zips on the back, printed bulbs flat ink'); if it fails, use the Printful back mockup and log it.
+- 2026-10-21 09:45 UTC builder [C]: REDO round 2, REVIEW. 1. R3.7.8/7h: re-laid the back with scripts/c-relayout.py: headline I'M NOT STUCK. 2665 px / punch I'M DECORATED. 2479 px before (93.0% by the print file; the director read two thirds off the mockup) -> 2692 px now (101.0% of the headline, and taller); canvas 2754 x 3355. 2. R5.3.8: Navy gets its own back file with the punch in solid cream and its keyline swapped to navy (1091006069); Ash keeps dark green with the cream keyline (1091006015). Re-synced 12/12 (Ash 6 + Navy 6): chest 1091005926 (Ash, navy thread) / 1091005808 (Navy, white thread), wrist 1091005956 / 1091005837, verified from GET /sync/products. New Navy and Ash back mockups replaced in place on the Shopify product; Story ink sentence updated (green on Ash, cream on Navy). 3. Cover: the porch cover (two side slits, glowing bulbs) is retired (handle added to retired-covers.json) and no new AI try was possible because fal is out of balance (storage 403), so image 1 is the Printful back mockup; registry 1002 stays USED. fal $0.
