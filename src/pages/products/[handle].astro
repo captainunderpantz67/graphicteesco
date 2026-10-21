@@ -69,7 +69,9 @@ const primary = parents.find((c) => !/graphic-tees-for-(men|women)/.test(c.slug)
 const firstCmp = p.variants.find((v) => v.compareAtPrice && Number(v.compareAtPrice.amount) > Number(v.price.amount))?.compareAtPrice;
 const wasPrice = firstCmp ? formatPrice(firstCmp) : null;
 const variantData = p.variants.map((v) => ({ id: v.id, ok: v.availableForSale, price: formatPrice(v.price), was: v.compareAtPrice && Number(v.compareAtPrice.amount) > Number(v.price.amount) ? formatPrice(v.compareAtPrice) : null, img: v.image?.url ?? null, opts: Object.fromEntries(v.selectedOptions.map((o) => [o.name, o.value])) }));
-const images = p.images.length ? p.images : [];
+// Zip-ups: back print (the joke) first in the gallery, chest mark second.
+const zipBackFirst = /zip/i.test(p.title) && /hood/i.test(`${p.productType} ${p.title}`);
+const images = !p.images.length ? [] : zipBackFirst ? [...p.images.filter((i) => /-back[-.]/i.test(i.url)), ...p.images.filter((i) => !/-back[-.]/i.test(i.url))] : p.images;
 // Slide 1 = the product's fal lifestyle cover (the only human on the page, store-rules image standard v2).
 const cover = coverFor(p.handle);
 // Design close-up (Sam, 2026-10-17: "I can't really see the designs"): a crop around the print on the first

@@ -20,6 +20,9 @@ const isNew = !!p.createdAt && Date.now() - Date.parse(p.createdAt) < 14 * 864e5
 const sibling = p.handle.endsWith('-graphic-tee') ? p.handle.replace(/-graphic-tee$/, '-crewneck-sweatshirt')
   : p.handle.endsWith('-crewneck-sweatshirt') ? p.handle.replace(/-crewneck-sweatshirt$/, '-graphic-tee') : null;
 const matchingSet = !!sibling && !!coverFor(sibling);
+// Zip-ups carry the joke on the back (small chest mark in front): show the back print first (Sam 2026-10-20: "I couldn't see the snarky backs").
+const isZip = /zip/i.test(p.title) && /hood/i.test(`${p.productType} ${p.title}`);
+const hero = (isZip && p.images.find((i) => /-back[-.]/i.test(i.url))) || p.featuredImage;
 const cmp = p.variants.find((v) => v.compareAtPrice && Number(v.compareAtPrice.amount) > Number(v.price.amount))?.compareAtPrice;
 const was = cmp ? formatPrice(cmp) : null;
 ---
@@ -35,12 +38,12 @@ const was = cmp ? formatPrice(cmp) : null;
       <img src={cover.src} srcset={`${cover.src.replace('/covers/', '/covers/sm/')} 400w, ${cover.src} 600w`}
         sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw" alt={cover.alt} width="600" height="750" loading={eager ? 'eager' : 'lazy'} fetchpriority={eager ? 'high' : undefined} decoding="async"
         class="w-full h-full object-cover object-[50%_25%] group-hover:scale-[1.03] transition-transform duration-300" />
-    ) : p.featuredImage ? (
+    ) : hero ? (
       <img
-        src={`${p.featuredImage.url}&width=600`}
-        srcset={`${p.featuredImage.url}&width=320 320w, ${p.featuredImage.url}&width=600 600w`}
+        src={`${hero.url}&width=600`}
+        srcset={`${hero.url}&width=320 320w, ${hero.url}&width=600 600w`}
         sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"
-        alt={p.featuredImage.altText && !/^product mockup$/i.test(p.featuredImage.altText.trim()) ? p.featuredImage.altText : `${p.title.replace(/^.*?–\s*/, '')} graphic tee, ${p.title.split('–')[0].trim()}`}
+        alt={hero.altText && !/^product mockup$/i.test(hero.altText.trim()) ? hero.altText : `${p.title.replace(/^.*?–\s*/, '')} graphic tee, ${p.title.split('–')[0].trim()}`}
         width="600" height="750" loading={eager ? 'eager' : 'lazy'} decoding="async"
         class="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-300"
       />
