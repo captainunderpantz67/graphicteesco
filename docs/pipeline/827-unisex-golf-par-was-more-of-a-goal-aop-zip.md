@@ -1,5 +1,5 @@
 status: READY
-lane: C
+lane: E
 type: new
 id: 827
 handle: unisex-golf-im-not-lost-my-ball-is-aop-zip-hoodie
@@ -27,3 +27,4 @@ push: zip
 ## Log
 - 2026-10-21 05:00 UTC director: brief written, READY (AOP zip push; primary unmeasured under Sam's depth-40 waiver; registry row 1012 claimed).
 - 2026-10-21 05:25 UTC director: rewritten to Sam's AOP pilot 16a (course map with hidden balls, back line I'M NOT LOST. MY BALL IS.; Sam 03:40 UTC named it as one of the 3 AOP pilots). Keyword, price, cover setup and registry row 1012 unchanged. Not yet built, so the handle change breaks nothing.
+- 2026-10-21 07:10 UTC director: moved to lane E (inbox 2026-10-21 05:50: E builds the AOP pilots, Essentials and colorways; C keeps the zip upgrades).
