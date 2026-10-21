@@ -717,6 +717,89 @@ export const allGuides: Guide[] = [
       { q: 'How long does a baggy hoodie take to arrive?', a: 'Graphic Tees Co. prints each hoodie after you order it, so allow time for printing and shipping. Exact estimates show at checkout. For a December gift, order by December 4 to be safe.' },
     ],
   },
+  {
+    // Writer lane W (2026-10-21): new gym-cluster article. Cluster 3 (gym) had 0 articles.
+    // Keyword: gym gifts for men 5,400 / KD 13 (RankHero 2026-10-21). Supporting: gym gifts for him 590 / KD 27 (RankHero 2026-10-21). Not owned by any collection or product (the retarget on #564 on 2026-10-18 moved it off the product). Hub keywords "mens gym shirts" and "gym hoodie" stay with the collections.
+    // Facts (art, blanks, prices, policies) from pipeline files #483 #494 #544 #564 #605 #625, the live Storefront prices on 2026-10-21, collections.ts gym copy and site.ts. Picks are A-grade designs listed in fresh-designs.json.
+    // Planned siblings (not live yet): funny-gym-shirts, gym-hoodies-for-men-guide, gifts-for-lifters-under-50.
+    slug: 'gym-gifts-for-men',
+    keyword: 'gym gifts for men',
+    title: 'Gym Gifts for Men: 5 Funny Gym Hoodies & Tees Lifters Wear',
+    description: 'Gym gifts for men who lift: Sisyphus Had Bad Programming, Twelve Labors. Zero Cardio., Rack Your Weights. Respectfully. Tees $24.99, hoodies from $39.99.',
+    h1: 'Gym Gifts for Men Who Lift (and Have Opinions About Your Form)',
+    date: '2026-10-21',
+    cluster: 'gym',
+    draft: true,
+    answer: 'A good gym gift for a man who lifts is a shirt that jokes about the gym itself, because he already owns the gear. Graphic Tees Co. has five: Sisyphus Had Bad Programming (tee $24.99, crewneck $34.99, hoodie $39.99), Twelve Labors. Zero Cardio. (tee $24.99, hoodie $39.99), Rack Your Weights. Respectfully. (tee $24.99, oversized hoodie $54.99) and Lift Heavy. Reply Later. (women\'s cropped hoodie $44.99). Each one is printed to order.',
+    picks: [
+      {
+        h2: 'What is a funny gym gift for a guy who is always programming?',
+        body: ['Sisyphus Had Bad Programming. It is for the lifter with a training spreadsheet and a strong opinion about your split.'],
+        items: [
+          { slogan: 'Sisyphus Had Bad Programming', tee: 'mens-gym-sisyphus-had-bad-programming-graphic-tee', crewneck: 'mens-gym-sisyphus-had-bad-programming-crewneck-sweatshirt',
+            text: 'SISYPHUS HAD / BAD PROGRAMMING is set in classical capitals around a Greek-vase hero pushing a giant weight plate uphill, in black and terracotta ink. The tee is $24.99, the crewneck is $34.99 and the pullover hoodie is $39.99.' },
+        ],
+        links: [{ href: '/products/mens-gym-sisyphus-had-bad-programming-hoodie/', text: 'Sisyphus Had Bad Programming hoodie' }],
+      },
+      {
+        h2: 'What do you get a lifter who hates cardio?',
+        body: ['Twelve Labors. Zero Cardio. The strongest man in myth still skips the treadmill, and every lifter who hates it will get the joke.'],
+        items: [
+          { slogan: 'Twelve Labors. Zero Cardio.', tee: 'mens-gym-twelve-labors-zero-cardio-graphic-tee',
+            text: 'TWELVE LABORS. sits above and ZERO CARDIO. below a lion-skin-cloaked hero in Greek vase style, trudging on a modern treadmill. The tee is $24.99 and the hoodie is $39.99.' },
+        ],
+        links: [{ href: '/products/mens-gym-twelve-labors-zero-cardio-hoodie/', text: 'Twelve Labors. Zero Cardio. hoodie' }],
+      },
+      {
+        h2: 'What is a good gift for the guy who never re-racks his weights?',
+        body: ['Rack Your Weights. Respectfully. It is the gym-etiquette gripe every lifter has, said in the politest possible voice.'],
+        items: [
+          { slogan: 'Rack Your Weights. Respectfully.', tee: 'mens-gym-rack-your-weights-respectfully-graphic-tee',
+            text: 'A Victorian butler in a top hat, tails and white gloves carries an iron plate on a silver tray toward an empty weight rack, with RACK YOUR WEIGHTS. above and Respectfully. below. The tee is $24.99. It also comes as an oversized heavyweight hoodie for $54.99.' },
+        ],
+        links: [{ href: '/products/mens-gym-rack-your-weights-respectfully-oversized-hoodie/', text: 'Rack Your Weights. Respectfully. oversized hoodie' }],
+      },
+      {
+        h2: 'What is a gym gift for a woman who lifts?',
+        body: ['Lift Heavy. Reply Later. It works for the friend who answers texts after her last set and not before.'],
+        items: [
+          { slogan: 'Lift Heavy. Reply Later.', tee: 'womens-gym-lift-heavy-reply-later-cropped-hoodie',
+            text: 'LIFT HEAVY. is lettered above a 1960s lifter mid-deadlift who is ignoring a ringing rotary phone, with Reply Later. below. It is a women\'s cropped hoodie for $44.99.' },
+        ],
+        links: [{ href: '/hoodies/gym-hoodies/', text: 'All gym hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a gym gift good instead of generic?',
+        body: ['It jokes about something only a lifter knows. A line about programming, cardio or re-racking plates lands because he has said the same thing out loud. "No pain, no gain" does not.',
+          'Graphic Tees Co. gym designs are original art with the joke set in big type, so it reads from across the weight room. Nothing on them uses a supplement brand, gym chain or federation logo.'] },
+      { h2: 'Are these performance shirts or graphic tees?',
+        body: ['They are graphic tees, not moisture-wicking performance shirts. They are built for lifting days and rest days, and for the walk in and out.',
+          'The tees are a lightweight 4.2 oz unisex cut in cotton. The hoodies and crewnecks are fleece, 8 oz and 50% cotton, 50% polyester, and the oversized hoodie is a heavyweight cut.'],
+        links: [{ href: '/mens-gym-shirts/', text: 'Men\'s gym shirts' }] },
+      { h2: 'Should you pick a tee or a hoodie for a gym gift?',
+        body: ['A tee is the safe pick at $24.99. A hoodie at $39.99 is the better gift for a cold morning session or the drive home, and the oversized hoodie at $54.99 gives a looser, heavier fit.',
+          'Not sure of his size? Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and he does not have to mail the first one back.'],
+        links: [{ href: '/hoodies/gym-hoodies-for-men/', text: 'Men\'s gym hoodies' }, { href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'What are good gym gifts for men under $50?',
+        body: ['Every tee here is $24.99, the Sisyphus crewneck is $34.99 and the Sisyphus and Twelve Labors hoodies are $39.99. US shipping is free on orders of $45 or more.',
+          'Buying for a lifting group or a team? Order 10 or more items in one cart and 15% comes off at checkout.'],
+        links: [{ href: '/group-shirts/', text: 'Group orders' }] },
+      { h2: 'When should you order a gym gift for Christmas?',
+        body: ['Order by about December 8. Each piece is printed after you order it, in 2–5 business days, then ships in about 3–8 business days in the US, so allow up to 13 business days. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find gifts for the guys on your list?',
+        body: ['If the lifter also golfs, see our funny golf gifts. For a group swap, our white elephant guide has $24.99 picks.'],
+        links: [{ href: '/guides/funny-golf-gifts/', text: 'Funny golf gifts' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }, { href: '/guides/funny-hoodies/', text: 'Funny hoodies' }] },
+    ],
+    faqs: [
+      { q: 'What are good gym gifts for men?', a: 'A shirt with a joke about lifting, like Sisyphus Had Bad Programming or Twelve Labors. Zero Cardio. from Graphic Tees Co. Tees are $24.99 and hoodies start at $39.99, printed to order.' },
+      { q: 'What do you get a gym guy who has everything?', a: 'Something he would not buy himself: a funny gym hoodie with an original joke. Graphic Tees Co. prints each one to order. The Rack Your Weights. Respectfully. oversized hoodie is $54.99.' },
+      { q: 'What are funny gym gifts for him under $30?', a: 'Any Graphic Tees Co. gym tee: Sisyphus Had Bad Programming, Twelve Labors. Zero Cardio. or Rack Your Weights. Respectfully. Each is $24.99.' },
+      { q: 'Are these gym gifts moisture-wicking?', a: 'No. They are graphic tees and fleece, not performance fabric. Graphic Tees Co. tees are a lightweight 4.2 oz cotton cut, and the hoodies are 8 oz fleece.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+      { q: 'How early should I order a gym gift for Christmas?', a: 'About two weeks ahead. Graphic Tees Co. prints each piece to order in 2 to 5 business days, then ships it in about 3 to 8 business days in the US.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
