@@ -1,0 +1,38 @@
+{
+ "chest_white": {
+  "id": 1091102411,
+  "url": "https://v3b.fal.media/files/b/0aaf454c/0utWKdVgwF3V_T7GDyHLH_t19ac919_chest_white.png",
+  "w": 1200,
+  "h": 740
+ },
+ "wrist_white": {
+  "id": 1091102508,
+  "url": "https://v3b.fal.media/files/b/0aaf454d/hDGcOZUYIVtmzK4kgaFYe_t19ac919_wrist_white.png",
+  "w": 600,
+  "h": 144
+ },
+ "chest_navy": {
+  "id": 1091102637,
+  "url": "https://v3b.fal.media/files/b/0aaf454e/BFVjclbxok5zuw2yq_mhj_t19ac919_chest_navy.png",
+  "w": 1200,
+  "h": 740
+ },
+ "wrist_navy": {
+  "id": 1091102810,
+  "url": "https://v3b.fal.media/files/b/0aaf454f/bQdMWUP3HGWnFqKKMrJDP_t19ac919_wrist_navy.png",
+  "w": 600,
+  "h": 144
+ },
+ "back_ash": {
+  "id": 1091102931,
+  "url": "https://v3b.fal.media/files/b/0aaf4550/ZWORGSTZ1dCGrnQxEGK5J_t19aprint-files_919-car-ash.png",
+  "w": 3000,
+  "h": 2620
+ },
+ "back_navy": {
+  "id": 1091103001,
+  "url": "https://v3b.fal.media/files/b/0aaf4551/OJN9Gac3QGldWq1cyzIi8_t19aprint-files_919-car-light.png",
+  "w": 3000,
+  "h": 2620
+ }
+}

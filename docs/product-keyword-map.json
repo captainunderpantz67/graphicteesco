@@ -11625,6 +11625,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-golden-retriever-i-brought-you-a-sock-embroidered-zip-hoodie": {
+   "claimed": [
+    "golden retriever zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "golden retriever zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
