@@ -657,6 +657,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'horse-horse-girl-broke-on-purpose-ornament': { src: '/covers/horse-horse-girl-broke-on-purpose-ornament.webp', alt: 'Round ceramic Horse Girl, Broke on Purpose ornament with a horse chewing hay over a stall door on a cream disc and a gold string' },
   'hockey-cold-rink-hot-takes-ornament': { src: '/covers/hockey-cold-rink-hot-takes-ornament.webp', alt: 'Round ceramic Cold Rink, Hot Takes hockey ornament with a thermos, plaid blanket and skates on a rink bench on a navy disc and a gold string' },
   'owl-night-owl-retired-ornament': { src: '/covers/owl-night-owl-retired-ornament.webp', alt: 'Round ceramic Night Owl, Retired ornament with a sleepy owl in a nightcap and scarf on a midnight-blue disc and a gold string' },
+  'womens-baseball-mom-his-batting-average-is-my-personality-zip-hoodie': { src: '/covers/womens-baseball-mom-his-batting-average-is-my-personality-zip-hoodie.webp', alt: 'Woman from behind in the bleachers at dusk wearing an ash zip hoodie printed on the back with His Batting Average Is My Personality, a camp chair, blanket, thermos and baseball glove' },
 };
 
 // Pasted-print covers retired by R6.10 (Sam 2026-10-18): these fall back to the clean Printful mockup until a
