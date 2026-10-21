@@ -4,7 +4,7 @@ import sys; sys.path.insert(0, '.')
 from designs.lib import *
 import numpy as np, cv2
 BONE = (240, 230, 205, 255); BLACK = (22, 20, 18, 255); ORANGE = (255, 106, 0, 255)
-def posterize(path, w, crop=None, dark=105, sat=0.42, edge=34, keepmin=2500, blur=5, adapt=None):
+def posterize(path, w, crop=None, dark=105, sat=0.42, edge=34, fillL=0, keepmin=2500, blur=5, adapt=None):
     a = Image.open(path).convert('RGBA')
     if crop: W0, H0 = a.size; a = a.crop((int(crop[0] * W0), int(crop[1] * H0), int(crop[2] * W0), int(crop[3] * H0)))
     a = a.crop(a.getchannel('A').point(lambda v: 255 if v > 60 else 0).getbbox()); a = a.resize((w, round(a.height * w / a.width)), Image.LANCZOS)
@@ -15,6 +15,7 @@ def posterize(path, w, crop=None, dark=105, sat=0.42, edge=34, keepmin=2500, blu
     ink = np.zeros(L.shape, np.uint8)  # 0 bone, 1 black, 2 orange
     ink[al & (S > sat) & (V > 0.38) & ((hue < 62) | (hue > 345)) & (L > 55)] = 2
     ink[al & ((L < dark) | ((gm > edge) & (L < 215)))] = 1
+    if fillL: ink[al & (L < fillL) & (ink != 2)] = 1
     if adapt: ad = cv2.adaptiveThreshold(cv2.GaussianBlur(L, (0, 0), 1.5).astype(np.uint8), 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, adapt[0] | 1, adapt[1]); ink[al & (ad > 0) & (ink != 2)] = 1
     # cut the grey outline fringe the alpha leaves around the subject
     for v in (1, 2):

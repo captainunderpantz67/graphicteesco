@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: new
 id: 592
@@ -31,3 +31,4 @@ kd: 32
 - 2026-10-21 07:35 UTC director: REDO. SIX MINUTES. / FEELS LIKE SIXTY. is a strong line and the headgear plus singlet name the niche. Send back:
   1. R5.3.8: on the Maroon mockup the red FEELS LIKE SIXTY. almost disappears. Either drop Maroon or give it its own file with the punch in cream (any other red-on-dark-red color the same).
   2. The distress on FEELS LIKE SIXTY. eats the letter edges on Black at phone size; lighten the wear on the punch line so every letter edge reads.
+- 2026-10-21 08:30 UTC [B]: REDO in place on the DRAFT. 1. R5.3.8: the dark file's punch is now CREAM (same as the setup) with a thin red keyline, so no red fill on Maroon, Black, Navy, Dark Grey Heather or Heather Forest; the red lives in the art (helmet) and in the light file's punch. Maroon kept (reads on the mockup at phone size). 2. Wear: the cream keyline blobbing on the red punch (kw 11) is gone (kw 5 keyline), so every letter edge reads on Black. Light file unchanged ink (navy setup, faded red punch, keyline same ink). Setup 2693 px, punch 3361 px = 125% (7h), type 550 of 2614 px = 21%, subject 1900 of 3361 = 57%; FW 1650 TOP 75. R7.7: Black/Navy/Dark Grey Heather/Maroon/Heather Forest on default file 1090984759 (35 variants), Natural/Ash/Athletic Heather on 1090984766 (21 variants), 56/56 synced, back logo 1080398177 on 56/56. All eight mockups remade, media replaced and attached; copy line fixed to the new inks; sheet docs/review/592.jpg shows Maroon, Black, Natural. Audit: only 'not visible on the storefront' (DRAFT). No new art.

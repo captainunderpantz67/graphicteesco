@@ -31,3 +31,4 @@ kd: 34
 - 2026-10-21 07:35 UTC director: REDO. HIT THE WALL. / THE WALL WON. is a strong runner line. Send back:
   1. R5.3.4 'would someone in the niche wince': arms flung straight out against a wall read as a crucifixion pose at phone size. Redraw him slumped against or sliding down the broken wall (one art call), with a race bib pinned on the singlet so the marathon reads without the words (niche cue test).
   2. R5.3.8: red THE WALL WON. nearly vanishes on Maroon; drop Maroon or give it a cream punch file.
+- 2026-10-21 08:32 UTC [B]: REDO NOT DONE, blocked: the pose fix needs one new Recraft art call (slumped runner with a race bib) and the fal wallet is exhausted (403 'Exhausted balance', alerted on Telegram/push). The Maroon part alone (a cream-punch file) is held so the whole redo ships once the wallet is topped up. Status stays REDO.
