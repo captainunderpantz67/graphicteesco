@@ -14,9 +14,22 @@ export const clusters: Cluster[] = [
   {
     id: 'hoodies', name: 'graphic hoodies',
     hub: { label: 'All graphic hoodies', path: '/hoodies/' },
-    spokes: ['zip-up-hoodies', 'oversized-hoodies', 'zip-up-hoodies-for-men', 'camo-hoodies', 'graphic-hoodies-for-men',
-      'oversized-hoodies-for-men', 'heavyweight-hoodies', 'zip-up-hoodies-for-women', 'embroidered-hoodies',
-      'graphic-hoodies-for-women', 'half-zip-pullovers'],
+    spokes: ['zip-up-hoodies', 'camo-hoodies', 'oversized-hoodies', 'graphic-hoodies-for-men',
+      'oversized-hoodies-for-men', 'heavyweight-hoodies', 'embroidered-hoodies', 'graphic-hoodies-for-women', 'half-zip-pullovers'],
+  },
+  // Sub-hubs (Sam 2026-10-21: "hub and spoke with this much search volume"). RankHero Nov-25 volume / KD.
+  // Spokes not built yet are listed ahead of time; spokeLinks() only links live ones.
+  {
+    id: 'zip', name: 'zip-up hoodies',
+    hub: { label: 'All zip-up hoodies', path: '/hoodies/zip-up-hoodies/', slug: 'zip-up-hoodies' }, // zip up hoodie 201K / 27
+    spokes: ['zip-up-hoodies-for-men', 'black-zip-up-hoodies', 'zip-up-hoodies-for-women', 'y2k-zip-up-hoodies', 'camo-zip-up-hoodies'],
+    // mens zip up hoodie 165K/6 · black zip up hoodie 49.5K/8 · womens zip up hoodie 33.1K/30 · y2k zip up hoodie 4.4K/14
+  },
+  {
+    id: 'camo', name: 'camo hoodies',
+    hub: { label: 'All camo hoodies', path: '/hoodies/camo-hoodies/', slug: 'camo-hoodies' }, // camo hoodie 165K / 22
+    spokes: ['camo-hoodies-for-women', 'camo-sweatshirts', 'pink-camo-hoodies', 'duck-camo-hoodies', 'hunting-hoodies', 'black-camo-hoodies', 'camo-zip-up-hoodies'],
+    // camo hoodie women 27.1K/25 · camo sweatshirt 33.1K/25 · pink camo hoodie 12.1K/12 · duck camo hoodie 9.9K/14 · hunting hoodie 8.1K/31 · black camo hoodie 2.9K/16
   },
   {
     id: 'christmas', name: 'Christmas shirts',
@@ -37,7 +50,7 @@ export const clusters: Cluster[] = [
   {
     id: 'outdoors', name: 'outdoor shirts',
     hub: { label: 'All hunting shirts', path: '/hunting-t-shirts/', slug: 'hunting-t-shirts' },
-    spokes: ['camo-sweatshirts', 'fishing-t-shirts', 'fishing-hoodies', 'hunting-hoodies', 'western-hoodies',
+    spokes: ['fishing-t-shirts', 'fishing-hoodies', 'western-hoodies',
       'western-graphic-tees', 'national-park-hoodies'],
   },
 ];
