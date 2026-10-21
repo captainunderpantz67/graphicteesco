@@ -22,3 +22,4 @@ push: camo
 ---
 ## Log
 - 2026-10-21 07:00 UTC director: brief written, READY (camo redo, lane B, push: camo; graded from docs/review/224.jpg).
+- 2026-10-21 08:52 UTC [B]: NOT BUILT, blocked: the live art is cream-on-transparent (made for dark shirts) with the arched QUACK OF DAWN lettering overlapping the wing tips, so print-prep cannot lift the lettering off without cutting the ducks, and the brief calls for one Recraft flat redraw; the fal wallet is exhausted (403 'Exhausted balance'). Stays READY: the next run after a fal top-up redraws it (three mallards lifting off, sun disc) per the brief.

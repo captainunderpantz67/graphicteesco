@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: redo
 id: 843
@@ -22,3 +22,4 @@ push: camo
 ---
 ## Log
 - 2026-10-21 07:00 UTC director: brief written, READY (camo redo, lane B, push: camo; graded from docs/review/300.jpg).
+- 2026-10-21 08:50 UTC [B]: REDO to the R11.13 patch standard, IN PLACE on the live product (same handle, URL and collections, stays ACTIVE). Print = the old live art re-inked by designs/camo_patch.py (print-prep only; no Recraft call, the fal wallet is exhausted, 403 'Exhausted balance'): sleeping doe in the oak leaves (leaves as black mass, doe bone) reduced to 3 solid inks (black, bone, blaze orange; no halftone, distress or earth tones) on ONE solid bone patch with a ~0.2 in black outline; lettering DOE NOT (bone) / DISTURB (blaze orange) in Anton with a solid dark keyline, widths (7h) 3107 / 3098 px (punch 99.7%, both 92% of the file width), patch narrower than the lettering. FW 1500 TOP 0, clear of the pouch. The hot-pink mask accent is not kept: the pink reads as bone/black in 3 solid inks, so the brief's pink mask is a plain mask in the art. R7.7: Darkwood Tree Camo + Forest Camo x XS-3XL = 14/14 synced on default file 1090995939, back logo 1080398177 on 14/14. Mockups remade for both colors, phone-size read OK; media replaced in place and attached per color; copy rewritten against the new art (no cream backing line), docs/review/843.jpg shows Forest + Darkwood. Duck Camo is not added where the product did not already sell it (adding variants was not part of this redo). Cohesion audit --handle PASS (0 warn).
