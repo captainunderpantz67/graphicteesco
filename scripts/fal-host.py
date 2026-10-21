@@ -5,10 +5,10 @@ def repo_host(p):
     """fal wallet exhausted (403): host through the public repo's raw URL (print files only, never secrets)."""
     import shutil, subprocess
     d = 'docs/hosted'; os.makedirs(d, exist_ok=True); dst = d + '/' + name; shutil.copy(p, dst)
-    subprocess.run(['git', 'add', dst], check=True); subprocess.run(['git', 'commit', '-qm', '[B] host ' + name, '--', dst], check=True)
+    subprocess.run(['git', 'add', dst], check=True); subprocess.run(['git', 'commit', '-qm', '[B] host ' + name, '--', dst], stdout=subprocess.DEVNULL)
     for i in range(4):
-        if subprocess.run(['git', 'push', '-q', 'origin', 'HEAD:main']).returncode == 0: break
-        subprocess.run(['git', 'pull', '-q', '--rebase', 'origin', 'main'])
+        if subprocess.run(['git', 'push', '-q', 'origin', 'HEAD:main'], stdout=subprocess.DEVNULL).returncode == 0: break
+        subprocess.run(['git', 'pull', '-q', '--rebase', 'origin', 'main'], stdout=subprocess.DEVNULL)
     url = 'https://raw.githubusercontent.com/captainunderpantz67/graphicteesco/main/' + dst; print(url)
 K = os.environ['FAL_KEY']; p = sys.argv[1]; name = sys.argv[2] if len(sys.argv) > 2 else os.path.basename(p)
 ct = mimetypes.guess_type(name)[0] or 'application/octet-stream'
