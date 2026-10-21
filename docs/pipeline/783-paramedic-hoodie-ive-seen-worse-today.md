@@ -1,4 +1,5 @@
-status: READY
+status: REVIEW
+shopify: gid://shopify/Product/15371519787312
 lane: C
 type: new
 id: 783
@@ -24,3 +25,4 @@ kd: 33
 ---
 ## Log
 - 2026-10-21 00:55 UTC director: brief written, READY (lane C hoodies cluster; primary measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).
+- 2026-10-21 02:44 UTC lane C: built new. Recraft v4 1 call ($0.04, logged): calm paramedic in a plain navy uniform shirt (no patch, no text) on the back step of a white ambulance (no cross or emblem) with a paper coffee cup, a tipped trash can spilling trash at the doors, a cat on the roof. scripts/prep-seal.py, art edges ragged-faded. Lockup (designs/c783/build.py): Anton, I'VE SEEN WORSE. above, TODAY. below (gap 30 px); navy cream + safety red with a cream edge on the art, sand navy #1f2a4d + deep red #a82828. 7h: headline 2943 px / punch 3256 px (111%). 7k: type 1557 px of 2929 px print height (53%). 7l: subject 1900 px of 3256 px lockup width = 58%. Light file: Sand on 1090856578 (navy + deep red ink, no cream), Navy on 1090856590 (cream headline, red punch, cream edge). FW 1500 TOP 0. Verified 12/12 (6 Sand, 6 Navy) via GET /sync/products, back logo 1080398177. Shopify DRAFT: title Unisex Paramedic – I've Seen Worse. Today. Hoodie, category hoodies, $39.99 no compare-at, tags graphic-hoodies-for-men graphic-hoodies-for-women hoodie paramedic ai-art intake-done, SEO title 42 / meta 107, FAQ 5 x 48-55 words, order-by Dec 8, keyword paramedic hoodie 170/KD 33 in map (under products), 'paramedic hoodie' 2x in body. Line one: print's words + who + when, no superlative. Copy checked vs art (paramedic in navy shirt, back step of a white ambulance, coffee cup, spilled trash can, cat on the roof). Inks from mockups. Phone-size read of both fronts OK. R6.12/R6.13: front print only, Navy front image 1, neck-logo back last. Cover: flat product shot (retired-covers.json). Etsy and R5.2 proof unverifiable from the builder, director eyeball. Audit only 'not visible'. fal $0.04.

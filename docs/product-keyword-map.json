@@ -11036,6 +11036,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "unisex-paramedic-ive-seen-worse-today-hoodie": {
+   "claimed": [
+    "paramedic hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "paramedic hoodie",
+     "volume": 170,
+     "kd": 33
+    }
+   ],
+   "measured": "2026-10-21"
   }
  }
 }
