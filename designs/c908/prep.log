@@ -1,0 +1,14 @@
+scale x1.13, thickened 0px each side, p10 stroke width 84.0px = 7.11 mm; size 1000x525px = 3.33 x 1.75 in
+scale x0.80, thickened 0px each side, p10 stroke width 20.0px = 1.69 mm; size 216x104px = 0.72 x 0.35 in wrist word LONG: cap 105 px = 0.35 in, width 0.72 in
+scale x1.13, thickened 0px each side, p10 stroke width 84.0px = 7.11 mm; size 1000x525px = 3.33 x 1.75 in
+scale x0.80, thickened 0px each side, p10 stroke width 20.0px = 1.69 mm; size 216x104px = 0.72 x 0.35 in wrist word LONG: cap 105 px = 0.35 in, width 0.72 in
+error: RPC failed; HTTP 403 curl 22 The requested URL returned error: 403
+To https://github.com/captainunderpantz67/graphicteesco
+ ! [rejected]          HEAD -> main (fetch first)
+error: failed to push some refs to 'https://github.com/captainunderpantz67/graphicteesco'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+{"chest_white": 1091080655, "wrist_white": 1091080709, "chest_navy": 1091080774, "wrist_navy": 1091080820, "back_ash": 1091080874, "back_navy": 1091080972}
