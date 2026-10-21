@@ -1,4 +1,5 @@
 RUNNING lane C since 2026-10-21 01:30 UTC
+2026-10-21 03:11 UTC — [C] Builder run: #775 Unisex Bat Sleeps All Day. Judges All Night. hoodie built to REVIEW (DRAFT 15371507269936, Sand + Navy 12/12 on 1090828224 / 1090828236, headline 2678 / punch 2979 px, subject 45%, type 23% = 7k exception flagged for the director, flat cover). fal $0.04.
 2026-10-21 02:26 UTC — [C] Builder run: #774 Unisex Police Off Duty. Still Judging Your Parking. hoodie built to REVIEW (DRAFT 15371505762608, Sand + Navy 12/12 on 1090822240 / 1090822273, headline 3011 / punch 3380 px, type 55%, subject 53%, flat cover). fal $0.12.
 2026-10-21 01:56 UTC — [C] Builder run: #773 Men's Dirt Bike Full Send. Mostly Mud. hoodie built to REVIEW (DRAFT 15371504714032, Sand + Navy 12/12 on 1090819074 / 1090819082, headline 2999 / punch 3349 px, type 40%, subject 54%, flat cover). fal $0.04.
 

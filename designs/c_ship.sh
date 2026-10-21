@@ -3,8 +3,8 @@
 cd "$(dirname "$0")/.."; P=/usr/bin/python3; n=$1; SID=$2; D=designs/c$n; BU=https://files.cdn.printful.com/files/51f/51f0c46f739b8b79665a0cb5158e8e73_preview.png
 for k in sand navy; do cp docs/print-files/$n-$k.png $D/$k.png; u=$($P scripts/fal-host.py $D/$k.png); echo $u > $D/url_$k; $P scripts/pf-sync.py upload "$u" "c$n-$k.png" > $D/fid_$k; done
 for i in 1 2 3 4 5 6; do PID=$($P scripts/pf-find.py $SID | head -1 | cut -d' ' -f1); [ -n "$PID" ] && break; sleep 10; done; echo $PID > $D/pid
-nohup bash -c "FW=1500 TOP=0 ONLY=Sand $P scripts/pf-sync.py setfile $PID \$(cat $D/fid_sand) 1080398177 > $D/sync_Sand.log 2>&1; FW=1500 TOP=0 ONLY=Navy $P scripts/pf-sync.py setfile $PID \$(cat $D/fid_navy) 1080398177 > $D/sync_Navy.log 2>&1" >/dev/null 2>&1 &
-for pair in $3:sand $4:navy; do v=${pair%%:*}; k=${pair##*:}; u=$(cat $D/url_$k); read w h < <($P -c "from PIL import Image;print(*Image.open('$D/$k.png').size)"); FW=1500 TOP=0 $P scripts/pf-mockup.py 146 "$u" $w $h "$BU" $v $D/mock_$k.json >/dev/null 2>&1 & done; wait %2 %3 2>/dev/null; wait
+MP=""; nohup setsid bash -c "sleep 30; FW=1500 TOP=0 ONLY=Sand $P scripts/pf-sync.py setfile $PID \$(cat $D/fid_sand) 1080398177 > $D/sync_Sand.log 2>&1; FW=1500 TOP=0 ONLY=Navy $P scripts/pf-sync.py setfile $PID \$(cat $D/fid_navy) 1080398177 > $D/sync_Navy.log 2>&1" >/dev/null 2>&1 &
+for pair in $3:sand $4:navy; do v=${pair%%:*}; k=${pair##*:}; u=$(cat $D/url_$k); read w h < <($P -c "from PIL import Image;print(*Image.open('$D/$k.png').size)"); FW=1500 TOP=0 $P scripts/pf-mockup.py 146 "$u" $w $h "$BU" $v $D/mock_$k.json >/dev/null 2>&1 & MP="$MP $!"; done; wait $MP
 $P - <<PY
 import json,urllib.request
 for k in('navy','sand'):

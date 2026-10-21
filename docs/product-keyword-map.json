@@ -10902,6 +10902,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "unisex-bat-sleeps-all-day-judges-all-night-hoodie": {
+   "claimed": [
+    "bat hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bat hoodie",
+     "volume": 1300,
+     "kd": 28
+    }
+   ],
+   "measured": "2026-10-21"
   }
  },
  "mens-christmas-define-naughty-graphic-tee": {
