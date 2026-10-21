@@ -11810,6 +11810,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-gym-lunges-and-lattes-embroidered-zip-hoodie": {
+   "claimed": [
+    "coffee gym zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "coffee gym zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
