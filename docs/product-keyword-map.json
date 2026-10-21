@@ -10553,7 +10553,15 @@
   "french-bulldog-santas-cookies-what-cookies-mug": {
    "claimed": [
     "french bulldog mug"
-   ]
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "french bulldog mug",
+     "volume": 880,
+     "kd": 40
+    }
+   ],
+   "measured": "2026-10-16"
   },
   "mens-hunting-labrador-retriever-of-snacks-hoodie": {
    "claimed": [

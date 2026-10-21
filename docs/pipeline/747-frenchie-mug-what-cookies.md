@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-21 07:31
+status: REVIEW
 shopify: gid://shopify/Product/15371671011632
 lane: E
 type: addon
@@ -25,3 +25,5 @@ kd: 40
 ---
 ## Log
 - 2026-10-20 20:45 UTC director: brief written, READY (lane E; french bulldog mug addon of #724; measured, ownership checked in docs/product-keyword-map.json, pipeline primaries and collections.ts).
+- 2026-10-21 07:36 UTC builder [E]: built, REVIEW. Shopify DRAFT gid 15371671011632, Printful #19 11 oz mug (1320) sync 483616541, 1/1 synced on file 1090978374 (2700x1050 transparent wrap, two lockup copies, scripts/mug-print.py, designs/m747/spec.json). Art pulled from designs/a724/art.png (no regeneration, no halo); words re-set in Bevan (the source tee's font) in dark ink on the white mug: SANTA'S COOKIES? deep red #8f2a22, WHAT / COOKIES. pine green #2f5a3f at one size (no cream, no keyline; light file). Ink widths on the wrap: headline 961 px / punch COOKIES. 982 px (102%, R3.7.8), WHAT 669 px at the same size; art 650 x 640 px. Handle-right, handle-left and front mockups read; both copies upright. Cost $6.07, $17.99, no compare-at. Category hg-11-10-5-5. Keyword french bulldog mug 880/40 recorded under products (appears twice in the description). FAQs 6 at 52-57 words incl. order by Dec 8, links the live #724 tee. Media: 3 mockups attached, first linked to the variant, alts per R7.8. Cover: Printful #19 handle-right mockup as public/covers webp + covers.ts, no person. Etsy duplicate check not possible offline: director eyeball. fal $0. audit --handle only 'not visible'; astro build OK. Sheet docs/review/747.jpg.
+- 2026-10-21 07:36 UTC builder [E]: sync 1/1 confirmed. REVIEW.
