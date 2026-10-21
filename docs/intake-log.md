@@ -1,6 +1,9 @@
 RUNNING director since 2026-10-21 14:17 UTC
 2026-10-21 14:44 UTC — [B] REVIEW #878 Men's Hunting Call Me After Duck Season Camo Sweatshirt (redo in place, AOP #1418, drake + ringing flip phone, 11/11 on 1091163732, punch 100%). fal $0.04.
+2026-10-21 14:44 UTC — [E] REVIEW #851 REDO Unisex Essentials Oatmeal Embroidered Zip Hoodie (couple cover, trousers, no Printful model photo). fal $0.12.
+2026-10-21 14:40 UTC — [E] PARKED #856 #857 #858 (Forest Green, Dark Chocolate, Alpine Green do not exist on Printful #943; offered colors: Black, Burgundy, Charcoal Heather, Heather Grey, Navy, Oatmeal Heather, Red, Sandshell, Seafoam, White). #851-#855 in REVIEW.
 2026-10-21 14:39 UTC — [B] REVIEW #875 Men's Hunting Up Before the Ducks. The Ducks Slept In. Camo Sweatshirt (redo in place, AOP #1418, sleeping mallards + new punch, 11/11 on 1091161056, punch 100%). fal $0.04.
+2026-10-21 14:40 UTC — [E] REVIEW #855 Unisex Essentials Charcoal Embroidered Zip Hoodie (chest embroidery only, 6/6 on 1090961074, $49.99, AI cover registry 1028). fal $0.06.
 2026-10-21 14:36 UTC — [B] REVIEW #874 Women's Hunting Blending In Is Overrated Camo Sweatshirt (redo in place, AOP #1418, pink bow on bone patch, 11/11 on 1091159400, punch 100%). fal $0.04.
 2026-10-21 14:36 UTC — [E] REVIEW #854 Unisex Essentials Burgundy Embroidered Zip Hoodie (chest embroidery only, 6/6 on 1090961074, $49.99, AI cover registry 1027). fal $0.06.
 2026-10-21 14:29 UTC — [B] REVIEW #902 Men's Outdoors The Mountains Called. Left Them on Read. Camo Hoodie (NEW DRAFT 15372535300400, 14/14 on 1091154983, Big Shoulders Display Black, punch 100%, subject 2210 of 3400 px = 65%, cover: fal-swap). fal $0.04.

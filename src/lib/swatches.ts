@@ -1,5 +1,6 @@
 // Printful color name -> hex, shared by product page and product cards.
 export const SWATCH: Record<string, string> = {
+  'Charcoal Heather': '#4a4b4d',
   'Burgundy': '#6e1f2f',
   'Seafoam': '#a8d5c0',
   // Printful color_code for every color on our blanks (3001, 6400, Gildan 18000, AOP 1482); hand-tuned values kept.

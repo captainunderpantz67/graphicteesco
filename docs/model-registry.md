@@ -820,7 +820,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1025 | Lebanese-American man, early 30s, short dark wavy hair, light stubble, athletic build | USED 2026-10-21 — #852 Essentials sandshell zip cover |
 | 1026 | Japanese-American woman, mid 20s, chin-length black bob, slim build | USED 2026-10-21 — #853 Essentials seafoam zip cover |
 | 1027 | Black man, early 20s, short fade haircut, slim build | USED 2026-10-21 — #854 Essentials burgundy zip cover |
-| 1028 | South Asian woman, early 30s, long dark hair tied back in a low ponytail, average build | CLAIMED 2026-10-21 — #855 Essentials zip cover (brief) |
+| 1028 | South Asian woman, early 30s, long dark hair tied back in a low ponytail, average build | USED 2026-10-21 — #855 Essentials charcoal zip cover |
 | 1029 | white man, late 30s, short brown hair and full brown beard, stocky build | CLAIMED 2026-10-21 — #856 Essentials zip cover (brief) |
 | 1030 | Afro-Latina woman, late 20s, voluminous natural curls pulled up, slim build | CLAIMED 2026-10-21 — #857 Essentials zip cover (brief) |
 | 1031 | Chinese-American man, mid 40s, short black hair greying at the temples, average build | CLAIMED 2026-10-21 — #858 Essentials zip cover (brief) |
@@ -912,3 +912,5 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1117 | white woman, early 30s, blonde hair in a low ponytail, medium build | CLAIMED 2026-10-21 — #956 camo cover (brief) |
 | 1118 | white man, late 50s, grey hair, weathered face, stocky build | CLAIMED 2026-10-21 — #957 camo cover (brief) |
 | 1119 | Native Hawaiian woman, early 40s, long dark wavy hair tied back, medium build | CLAIMED 2026-10-21 — #958 camo cover (brief) |
+| 1120 | Latina woman, early 30s, shoulder-length wavy brown hair, medium build | USED 2026-10-21 — #851 Essentials oatmeal zip couple cover |
+| 1121 | Nigerian-American man, early 30s, short natural hair and trimmed beard, tall slim build | USED 2026-10-21 — #851 Essentials oatmeal zip couple cover |
