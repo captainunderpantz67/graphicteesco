@@ -1,4 +1,5 @@
-status: READY
+status: REVIEW
+shopify: gid://shopify/Product/15371536728368
 lane: C
 type: new
 id: 808
@@ -24,3 +25,4 @@ kd: 22
 ---
 ## Log
 - 2026-10-21 03:40 UTC director: brief written, READY (lane C hoodies cluster; primary measured today via scripts/keyword-gap.py's rankhero(), ownership checked in docs/product-keyword-map.json, pipeline primaries, collections.ts and guides).
+- 2026-10-21 04:02 UTC lane C: built new. Recraft v4 3 call(s) ($0.12, logged): (3 calls: try 1 had red balls that did not read as peas, try 2 a dark navy bench block that would print as a dark patch on Navy; try 3 kept) tired fighter in plain navy boxing shorts and loose red hand wraps on a cream gym bench, flat thousand-yard stare, bag of green peas in his hands, bruised shin shown, barefoot (no lettering on shorts or bag; knock-white run on the enclosed white pocket under the bench). scripts/prep-seal.py, art edges ragged-faded. Lockup (designs/c808/build.py): Alfa Slab One, MY SHINS above (80% of the width), HAVE SEEN / THINGS. on two lines below (gap 22 px); navy cream + faded red with a cream edge on the art, sand navy #1f2a4d + faded red #a83428. 7h: headline 2630 px (176% of the 1490 px art) / punch 3283 px (125%). 7k: type 1209 px of 2987 px print height (40%). 7l: subject 1490 px of 3283 px lockup width = 45%. Light file: Sand on 1090896466 (dark ink, no cream), Navy on 1090896469 (cream headline, colored punch, cream edge). FW 1500 TOP 0. Verified 12/12 (6 Sand, 6 Navy) via GET /sync/products, back logo 1080398177. Shopify DRAFT: title Unisex Muay Thai – My Shins Have Seen Things. Hoodie, category hoodies, $39.99 no compare-at, tags graphic-hoodies-for-men graphic-hoodies-for-women hoodie muay-thai ai-art intake-done, SEO title 45 / meta 109, FAQ 5 x 50-55 words, order-by Dec 8, keyword muay thai hoodie 1000/KD 22 in map (under products), 'muay thai hoodie' 2x in body. Line one: print's words + who + when, no superlative. Copy checked vs art (fighter on a bench, navy shorts, loose red wraps, thousand-yard stare, bag of peas, bruised shin). Inks from mockups. Phone-size read of both fronts OK. R6.12/R6.13: front print only, Navy front image 1, neck-logo back last. Cover: flat product shot (retired-covers.json). Etsy and R5.2 proof unverifiable from the builder, director eyeball. Audit only 'not visible'. fal $0.12.

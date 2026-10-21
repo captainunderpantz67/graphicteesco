@@ -11205,6 +11205,19 @@
     }
    ],
    "measured": "2026-10-21"
+  },
+  "unisex-muay-thai-my-shins-have-seen-things-hoodie": {
+   "claimed": [
+    "muay thai hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "muay thai hoodie",
+     "volume": 1000,
+     "kd": 22
+    }
+   ],
+   "measured": "2026-10-21"
   }
  }
 }
