@@ -1,0 +1,38 @@
+{
+ "chest_white": {
+  "id": 1091098202,
+  "url": "https://v3b.fal.media/files/b/0aaf4521/PiLjTTc4FDsi3p3sXBsSv_t17ac917_chest_white.png",
+  "w": 1200,
+  "h": 888
+ },
+ "wrist_white": {
+  "id": 1091098285,
+  "url": "https://v3b.fal.media/files/b/0aaf4522/pkmWjGxd8ClntCaMtUXaL_t17ac917_wrist_white.png",
+  "w": 600,
+  "h": 144
+ },
+ "chest_navy": {
+  "id": 1091098366,
+  "url": "https://v3b.fal.media/files/b/0aaf4523/3WihmMWTcMd5tEXZa4Oje_t17ac917_chest_navy.png",
+  "w": 1200,
+  "h": 888
+ },
+ "wrist_navy": {
+  "id": 1091098459,
+  "url": "https://v3b.fal.media/files/b/0aaf4524/xJaQlAIeFnGCGsUQkrkZ__t17ac917_wrist_navy.png",
+  "w": 600,
+  "h": 144
+ },
+ "back_ash": {
+  "id": 1091098548,
+  "url": "https://v3b.fal.media/files/b/0aaf4525/wLbMtPuY_Tuk9MMjg0IQ9_t17aprint-files_917-alien-ash.png",
+  "w": 3000,
+  "h": 3269
+ },
+ "back_navy": {
+  "id": 1091098610,
+  "url": "https://v3b.fal.media/files/b/0aaf4525/ZtNanXp91bungfXScBiOq_t17aprint-files_917-alien-light.png",
+  "w": 3000,
+  "h": 3269
+ }
+}
