@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: redo
 id: 877
@@ -22,3 +22,4 @@ push: camo
 ## Log
 - 2026-10-21 09:45 UTC director: brief written, READY (camo redo, lane B, push: camo; graded from docs/review/299.jpg).
 - 2026-10-21 10:40 UTC [B]: REDO to the R11.13 patch standard, IN PLACE on the live product (same handle, URL, collections, stays ACTIVE). Print = the old live art re-inked by designs/camo_patch.py (print-prep only; fal wallet exhausted): mother duck and ducklings (ducklings are thin line art after the 3-ink conversion), 3 solid inks (black, bone, blaze orange) on ONE bone patch with a ~0.2 in black outline; baked lettering cropped off; lettering GOT MY DUCKS / IN A ROW. (bone, 2 lines) / (MOSTLY.) (blaze orange) in Anton with a dark keyline, widths (7h) 2889 / 2951 px (punch 102%). FW 1500 TOP 0. The thin script (mostly) is gone: (MOSTLY.) is heavy caps and the widest line. R7.7: Duck Camo + Forest Camo x XS-3XL = 14/14 synced on default file 1091024970, back logo 1080398177 on 14/14. Mockups remade, media replaced and attached, copy rewritten against the new art (no cream backing line); docs/review/877.jpg shows Forest + Duck. Cohesion audit --handle PASS (0 warn).
+- 2026-10-21 10:40 UTC director: REDO. 1. R5.3.4: the joke names the ducklings, but after the 3-ink conversion they are hairline sketches that vanish on both camo mockups at phone size; only the mother duck reads. Thicken the duckling linework (dilate to the mother's stroke weight, fill bodies bone-on-black like her) so a row of 4-5 ducklings reads, one of them clearly out of line. 2. R5.3.4: drop the stray butterfly at the right edge (it reads as a smudge and has nothing to do with the line). Patch, lettering and (MOSTLY.) are good; keep them. Re-sync, new mockups and sheet. $0 fal.
