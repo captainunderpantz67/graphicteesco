@@ -1,4 +1,4 @@
-status: BUILDING [E] 2026-10-21 07:36
+status: REVIEW
 shopify: gid://shopify/Product/15371673698608
 lane: E
 type: addon
@@ -24,3 +24,5 @@ kd: 42
 ---
 ## Log
 - 2026-10-21 01:30 UTC director: brief written, READY (lane E; ornament of #479's art; hunting ornament 720 / KD 42, Nov surge).
+- 2026-10-21 07:42 UTC builder [E]: built, REVIEW. Shopify DRAFT gid 15371673698608, Printful #881 Circle (22782) sync 483617243, 1/1 synced on file 1090980070 (954x954, scripts/ornament-print.py, designs/o786/spec.json). Art pulled from designs/first5/tagsoup-a.png (the source picture, no regeneration), background removed with print-prep. Ground: military green #424b2c disc (the hoodie's garment color); TODAY'S SPECIAL light orange #f3a05a and TAG SOUP cream #f3e7cf, both Alfa Slab One (the Lobster script of the source tee is not supported by the disc script; the slab reads better at 2.76 in); SERVED FRESH EVERY SEASON dropped (too small to read at ornament size, the joke lands without it). Ink widths on the disc: TODAY'S SPECIAL 445 px / TAG SOUP 551 px (124%, R3.7.8: the source's punch stays the loudest line); deer and bowl 267 x 400 px (48% of TAG SOUP's width). All type and art inside the 372 px safe circle and below the string hole. Cost $6.34, $14.99, no compare-at. Category hg-3-58-7. Keyword hunting ornament 720/42 under products ('hunting ornament' twice in the description, once in the SEO title and meta). FAQ 6 at 46-57 words incl. order by Dec 8; links the #479 hoodie and #712 sweatpants once each. Cover: Printful #881 circle mockup (public/covers webp + covers.ts), no person. Etsy duplicate check not possible offline. fal $0. audit --handle only 'not visible'; astro build OK. Sheet docs/review/786.jpg.
+- 2026-10-21 07:42 UTC builder [E]: sync 1/1 confirmed. REVIEW.

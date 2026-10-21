@@ -11413,6 +11413,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "hunting-todays-special-tag-soup-ornament": {
+   "claimed": [
+    "hunting ornament"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "hunting ornament",
+     "volume": 720,
+     "kd": 42
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
