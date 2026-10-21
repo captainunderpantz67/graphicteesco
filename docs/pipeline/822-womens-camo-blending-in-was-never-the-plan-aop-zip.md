@@ -26,3 +26,4 @@ push: zip
 ---
 ## Log
 - 2026-10-21 05:00 UTC director: brief written, READY (AOP zip push; primary unmeasured under Sam's depth-40 waiver; registry row 1007 claimed).
+- 2026-10-21 05:25 UTC director: one of Sam's 3 AOP pilots (pink camo). Build it next in lane C after the zip upgrades.

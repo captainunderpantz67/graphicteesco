@@ -1,4 +1,4 @@
-status: READY
+status: PARKED
 lane: C
 type: new
 id: 826
@@ -26,3 +26,4 @@ push: zip
 ---
 ## Log
 - 2026-10-21 05:00 UTC director: brief written, READY (AOP zip push; primary unmeasured under Sam's depth-40 waiver; registry row 1011 claimed).
+- 2026-10-21 05:25 UTC director: PARKED: Sam 2026-10-21 03:40 UTC allowed only 3 all-over-print pilots (pink camo #822, golf map #827, hidden Bigfoot camo #836); the other AOPs wait until he has seen those 3. Unpark on his yes.

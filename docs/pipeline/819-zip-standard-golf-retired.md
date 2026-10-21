@@ -22,3 +22,4 @@ push: zip
 ---
 ## Log
 - 2026-10-21 05:00 UTC director: brief written, READY (zip-up push; registry row 1003 claimed; gated on #815).
+- 2026-10-21 05:25 UTC director: gate cleared. #815 is LIVE: Printful takes left-chest embroidery + wrist embroidery + DTG back on #692. Price per the new R12.1 zip line: $44.99 + $10 chest (+$3 wrist) = $54.99 / $57.99, no compare-at, and the title says Embroidered (the audit only accepts the bump then). This replaces the brief's $52.99 line.

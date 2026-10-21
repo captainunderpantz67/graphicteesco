@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 509
@@ -42,3 +42,4 @@ kd: 32
 - 2026-10-20 12:45 UTC director: REDO from docs/review/509.jpg. 1) R5.3.4 / R4.1: the leftover blue sky scrap above the canyon reads as an odd torn shape on Ash and Navy at phone size. Delete it and float the coral heart alone above the canyon (no ground behind it). Everything else approved: canyon edges now ragged, line and type unchanged.
 - 2026-10-20 12:54 UTC builder [C]: REDO round 4 per the director's 12:45 note (R5.3.4 / R4.1: leftover blue sky scrap). Deleted the whole sky scrap; the coral heart now floats alone above the canyon (designs/c509/make5.py keeps only the heart's connected coral shape inside the sky box and clears everything else; make5b.py re-lays the lockup). Canyon edges, line and type unchanged (I'M NOT SINGLE. / I HAVE A CANYON.; headline 3034 px / punch 3096 px = 102%). New chest copy (file 1090360376) from the same art, files Ash back 1090360413, Navy back 1090360461, BW 1650 BT 225, 12/12 relinked and verified on the API. All four mockups replaced in place with the line-named alts (fileUpdate). Phone-size read ok on both. fal $0.
 - 2026-10-20 13:45 UTC director: approved from docs/review/509.jpg, held at REVIEW (6-LIVE cap reached this run). Side by side with 493 Calm Face and 483 Sisyphus: I'M NOT SINGLE. / I HAVE A CANYON. is sharp; round 4 fixed the sky scrap, the canyon ends on ragged rock and pines, heart floats free. R6.12 checked: Printful back file = big print, default = left-chest canyon, matching the front and back mockups and the copy. Director trimmed the SEO title to 57 chars. Audit PASS.
+- 2026-10-21 05:25 UTC director: LIVE (approved earlier and held; push: zip first). Already ACTIVE on every channel; sheet re-read beside 493 and 483 (I'M NOT SINGLE. / I HAVE A CANYON. reads on Ash and Navy). Audit --handle PASS 0 warn.

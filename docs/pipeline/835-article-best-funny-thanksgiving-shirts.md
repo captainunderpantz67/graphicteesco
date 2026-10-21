@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: thanksgiving
@@ -17,3 +17,4 @@ rewrite: best-funny-thanksgiving-shirts
 - Not done: docs/intake-log.md lock line (run restricted to guides.ts and this file). `npx astro build` passes (98 pages).
 ## Log
 - 2026-10-21 UTC writer: rewrite drafted, build passes.
+- 2026-10-21 05:25 UTC director: APPROVED. Same 8 live picks and facts as the old entry, literal-question H2s, answer-first opening, Graphic Tees Co. named in every FAQ answer; 'regularly $29.99/$39.99' is honest here (these Thanksgiving products sold at regular before 2026-10-15). Old entry deleted, draft: false set, astro build passes. Cluster tag 'thanksgiving' kept.
