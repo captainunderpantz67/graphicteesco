@@ -133,6 +133,7 @@ Sections are numbered so role cards and review notes can point at them ("fails R
         - **The pouch is never a reason to go under FW 1500 (director, 2026-10-17 midday; Bah Humbug hoodie at FW 1320, 5th width hit):** if the art is too tall to sit above the pouch seam at FW 1500, change the art's shape in print-prep (crop the bottom with a worn edge, move a side object up beside the subject, widen the lettering), never shrink the print. An item under FW 1500 comes straight back.
    3. No badge look.
    4. Every element reads instantly, with correct anatomy.
+      - **The picture names the niche on its own (director, 2026-10-21; 3rd hit in two runs: #774 police with no police cue, #783 paramedic in a plain camper van surrounded by trash, #791 'Turn Left' runner sprinting right):** before REVIEW, cover the words and ask whether a stranger could name the niche from the art alone at phone size. If not, add one clear, unbranded cue (an ambulance's open rear doors and stretcher, a radio and ticket pad) or redraw; and the art never argues with the line. Briefs carry this as the 'niche cue test'.
    5. Lettering spelled exactly right and readable at phone size.
    6. Vintage finish.
    7. Brand-safe and original.
