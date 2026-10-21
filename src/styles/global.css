@@ -83,3 +83,17 @@ body {
   .drop { transform: rotate(-3deg); }
   .spin-slow, .marquee-track { animation: none; }
 }
+
+/* Dark collection theme (Sam 2026-10-21, trial on /hoodies/zip-up-hoodies/ only): navy ground, the logo's kraft
+   cream for every light element, rust accent. Scoped: only descendants of .theme-dark change. */
+.theme-dark {
+  --color-paper: #1f3045;
+  --color-paper-2: #182637;
+  --color-cream: #2a3f58;
+  --color-ink: #efe6d2;
+  --color-ink-2: #c9bfad;
+  --color-navy: #efe6d2;
+  --color-line: #3a5370;
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+}

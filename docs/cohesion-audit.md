@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-21 04:46 UTC
+# Cohesion audit — 2026-10-21 05:43 UTC
 
-682 live products checked · **0 errors** · 110 warnings · 103 products with findings
+685 live products checked · **0 errors** · 113 warnings · 106 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -321,4 +321,13 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Unisex Chef – Cooks for 200. Cereal at Home. Hoodie `unisex-chef-cooks-for-200-cereal-at-home-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Farmer – No Days Off. The Cows Said So. Hoodie `mens-farmer-no-days-off-the-cows-said-so-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Cat – Knocked It Off. Felt Nothing. Hoodie `unisex-cat-knocked-it-off-felt-nothing-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Gamer – Five More Minutes. (It's 3 A.M.) Hoodie `unisex-gamer-five-more-minutes-its-3-am-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.

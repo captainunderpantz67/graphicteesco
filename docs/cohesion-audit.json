@@ -1,6 +1,6 @@
 {
- "at": "2026-10-21T04:46:07.492Z",
- "products": 682,
+ "at": "2026-10-21T05:43:45.934Z",
+ "products": 685,
  "findings": [
   {
    "level": "WARN",
@@ -769,6 +769,27 @@
    "level": "WARN",
    "handle": "unisex-chef-cooks-for-200-cereal-at-home-hoodie",
    "title": "Unisex Chef – Cooks for 200. Cereal at Home. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-farmer-no-days-off-the-cows-said-so-hoodie",
+   "title": "Men's Farmer – No Days Off. The Cows Said So. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-cat-knocked-it-off-felt-nothing-hoodie",
+   "title": "Unisex Cat – Knocked It Off. Felt Nothing. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-gamer-five-more-minutes-its-3-am-hoodie",
+   "title": "Unisex Gamer – Five More Minutes. (It's 3 A.M.) Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   }

@@ -66,11 +66,10 @@ const answers = [
   { q: 'Are the designs original?', a: 'Yes. Every design is made for this shop, with no licensed characters or resold stock art, and each hoodie is printed after you order it.' },
   { q: 'How much do the hoodies cost and how fast do they ship?', a: `Hoodies start at $39.99, US shipping is free on orders over $45, and one free size exchange within 30 days covers a size guess. Each one is printed to order, then shipped with tracking.` },
 ];
+// Light cards, navy text, rust accent (Sam 2026-10-21: pages too dark, flip cream and navy, consistent orange pop).
 const tones = [
-  ['var(--color-rust)', 'var(--color-cream)', 'var(--color-mustard)'],
-  ['var(--color-navy)', 'var(--color-cream)', 'var(--color-mustard)'],
-  ['var(--color-mustard)', 'var(--color-ink)', 'var(--color-rust)'],
-  ['var(--color-moss)', 'var(--color-cream)', 'var(--color-mustard)'],
+  ['var(--color-cream)', 'var(--color-navy)', 'var(--color-rust)'],
+  ['var(--color-paper-2)', 'var(--color-navy)', 'var(--color-rust)'],
 ];
 const faqs = [
   { q: 'Are these the same designs as your graphic tees?', a: 'Yes. Most tee designs are also printed on hoodies, so you can wear the same art all year.' },
@@ -84,19 +83,19 @@ const img = (u: string, w: number) => (u.startsWith('/') ? u : `${u}${u.includes
   schema={[breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Hoodies', path: '/hoodies/' }]), faqPage([...answers, ...faqs]), itemListOfCollections(liveCollections, 'Graphic hoodie collections')]}>
 
   <!-- HERO -->
-  <section class="bg-[var(--color-navy)] text-[var(--color-cream)] border-b-2 border-[var(--color-ink)]">
+  <section class="bg-[var(--color-cream)] text-[var(--color-navy)] border-b-2 border-[var(--color-ink)]">
     <div class="container-x pt-8 pb-10 md:pt-14 md:pb-14">
-      <nav aria-label="Breadcrumb" class="text-xs opacity-75"><a href="/" class="hover:underline">Home</a> / <span>Hoodies</span></nav>
-      <p class="eyebrow mt-6" style="color:var(--color-mustard)">Same designs, warmer</p>
-      <h1 class="display text-[clamp(3rem,13vw,6.5rem)] leading-[.88] mt-2">Graphic <span class="text-[var(--color-mustard)]">Hoodies</span></h1>
-      <p class="mt-4 max-w-2xl text-lg opacity-90">Original graphic hoodies — the same fishing, hunting, western and gym designs as our tees, on pullover, zip-up, heavyweight and oversized hoodies.</p>
+      <nav aria-label="Breadcrumb" class="text-xs text-[var(--color-ink-2)]"><a href="/" class="hover:underline">Home</a> / <span>Hoodies</span></nav>
+      <p class="eyebrow mt-6" style="color:var(--color-rust)">Same designs, warmer</p>
+      <h1 class="display text-[clamp(3rem,13vw,6.5rem)] leading-[.88] mt-2">Graphic <span class="text-[var(--color-rust)]">Hoodies</span></h1>
+      <p class="mt-4 max-w-2xl text-lg text-[var(--color-ink-2)]">Original graphic hoodies — the same fishing, hunting, western and gym designs as our tees, on pullover, zip-up, heavyweight and oversized hoodies.</p>
       <ul class="mt-6 flex flex-wrap gap-2">
-        {facts.map((f) => <li class="rounded-full border border-[var(--color-cream)]/40 px-3.5 py-1.5 text-sm font-semibold">{f}</li>)}
+        {facts.map((f) => <li class="rounded-full border-2 border-[var(--color-navy)] px-3.5 py-1.5 text-sm font-semibold"><span class="text-[var(--color-rust)]">✓</span> {f}</li>)}
       </ul>
       <!-- Jump links: one tap to each group -->
       <div class="mt-8 flex gap-2 overflow-x-auto -mx-4 px-4 pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
         {tiles.map((g, i) => (
-          <a href={`#g${i}`} class="shrink-0 rounded-full bg-[var(--color-cream)] text-[var(--color-ink)] border-2 border-[var(--color-ink)] px-4 py-2 text-sm font-extrabold uppercase tracking-[.08em] shadow-[3px_3px_0_var(--color-ink)] hover:bg-[var(--color-mustard)]">{g.title}</a>
+          <a href={`#g${i}`} class="shrink-0 rounded-full bg-[var(--color-navy)] text-[var(--color-cream)] border-2 border-[var(--color-navy)] px-4 py-2 text-sm font-extrabold uppercase tracking-[.08em] shadow-[3px_3px_0_var(--color-rust)] hover:bg-[var(--color-rust)]">{g.title}</a>
         ))}
       </div>
     </div>
@@ -107,23 +106,22 @@ const img = (u: string, w: number) => (u.startsWith('/') ? u : `${u}${u.includes
     <section id={`g${gi}`} class="container-x pt-12 scroll-mt-24">
       <div class="flex items-end justify-between gap-4">
         <div>
-          <h2 class="display text-[clamp(2.2rem,8vw,3.4rem)] leading-[.9]">{g.title}</h2>
+          <h2 class="display text-[clamp(2.2rem,8vw,3.4rem)] leading-[.9] text-[var(--color-navy)]">{g.title}<span class="block mt-2 h-1 w-14 rounded-full bg-[var(--color-rust)]"></span></h2>
           <p class="mt-1 text-[var(--color-ink-2)]">{g.blurb}</p>
         </div>
       </div>
       <div class="mt-5 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
         {g.items.map(({ c, photo }, i) => {
-          const [bg, fg] = tones[(gi + i) % tones.length];
-          return (
+                    return (
             <a href={pathFor(c)} class="group relative overflow-hidden rounded-[16px] border-2 border-[var(--color-ink)] shadow-[3px_3px_0_var(--color-ink)] hover:-translate-y-0.5 hover:shadow-[5px_6px_0_var(--color-ink)] transition-all bg-white aspect-[4/5] flex flex-col">
               <div class="relative flex-1 min-h-0 bg-white">
                 {photo
                   ? <img src={img(photo.src, 500)} alt={photo.alt} loading={gi === 0 && i < 4 ? 'eager' : 'lazy'} width="400" height="400" class={`absolute inset-0 w-full h-full ${photo.local ? 'object-cover object-[50%_25%]' : 'object-contain p-2'} group-hover:scale-[1.03] transition-transform`} />
                   : <div class="absolute inset-0 grain"></div>}
               </div>
-              <div class="px-3 py-2.5 border-t-2 border-[var(--color-ink)] flex items-center justify-between gap-2" style={`background:${bg};color:${fg}`}>
+              <div class="px-3 py-2.5 border-t-2 border-[var(--color-ink)] flex items-center justify-between gap-2 bg-[var(--color-cream)] text-[var(--color-navy)]">
                 <span class="font-extrabold leading-tight text-[15px] md:text-base">{c.h1.replace(/^Graphic Hoodies For /i, '').replace(/ Hoodies?$/i, '').replace(/^Men's /, "Men's ").trim() || c.h1}</span>
-                <span aria-hidden="true" class="font-bold">→</span>
+                <span aria-hidden="true" class="font-bold text-[var(--color-rust)]">→</span>
               </div>
             </a>
           );
