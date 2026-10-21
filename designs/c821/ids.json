@@ -1,0 +1,38 @@
+{
+ "chest_white": {
+  "id": 1090971848,
+  "url": "https://v3b.fal.media/files/b/0aaf3d54/qa0MH2RSfrW4mKL6SCtyq_chest_white.png",
+  "w": 1200,
+  "h": 1058
+ },
+ "wrist_white": {
+  "id": 1090971865,
+  "url": "https://v3b.fal.media/files/b/0aaf3d55/kwmSKc3x8uCR3PvI-bHws_wrist_white.png",
+  "w": 600,
+  "h": 144
+ },
+ "chest_navy": {
+  "id": 1090971935,
+  "url": "https://v3b.fal.media/files/b/0aaf3d56/YNXvcCevrosnzGMSzZH7a_chest_navy.png",
+  "w": 1200,
+  "h": 1058
+ },
+ "wrist_navy": {
+  "id": 1090971982,
+  "url": "https://v3b.fal.media/files/b/0aaf3d56/iQp6G6IZ1xYO6AJrNVklU_wrist_navy.png",
+  "w": 600,
+  "h": 144
+ },
+ "back_ash": {
+  "id": 1090972050,
+  "url": "https://v3b.fal.media/files/b/0aaf3d57/3KzGlGv73OGTgdWih71EO_821-took-the-day-off-ash.png",
+  "w": 3000,
+  "h": 2776
+ },
+ "back_navy": {
+  "id": 1090972092,
+  "url": "https://v3b.fal.media/files/b/0aaf3d58/kmmAohQyCwDcUGZ_jRKpX_821-took-the-day-off-navy.png",
+  "w": 3000,
+  "h": 2776
+ }
+}

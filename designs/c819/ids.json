@@ -1,0 +1,38 @@
+{
+ "chest_white": {
+  "id": 1090959373,
+  "url": "https://v3b.fal.media/files/b/0aaf3c8f/w3dMPF6iGEPoRQC2FMxca_chest_white.png",
+  "w": 1200,
+  "h": 1356
+ },
+ "wrist_white": {
+  "id": 1090959406,
+  "url": "https://v3b.fal.media/files/b/0aaf3c8f/L5XVJc7sKLa21MYqFamCL_wrist_white.png",
+  "w": 600,
+  "h": 144
+ },
+ "chest_navy": {
+  "id": 1090959459,
+  "url": "https://v3b.fal.media/files/b/0aaf3c90/vPgJtE20P16gS-Q0vAy8Q_chest_navy.png",
+  "w": 1200,
+  "h": 1356
+ },
+ "wrist_navy": {
+  "id": 1090959503,
+  "url": "https://v3b.fal.media/files/b/0aaf3c91/0If3H28_UDqZ_V9vuYWSE_wrist_navy.png",
+  "w": 600,
+  "h": 144
+ },
+ "back_ash": {
+  "id": 1090959549,
+  "url": "https://v3b.fal.media/files/b/0aaf3c91/Vo6j15nD4ocj3DDjVDg46_back.png",
+  "w": 3263,
+  "h": 3498
+ },
+ "back_navy": {
+  "id": 1090959599,
+  "url": "https://v3b.fal.media/files/b/0aaf3c92/klJAZvgzfApXgUCyypbiv_back_navy.png",
+  "w": 3263,
+  "h": 3498
+ }
+}
