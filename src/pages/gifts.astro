@@ -10,14 +10,14 @@ import { blackFriday } from '../data/deals';
 
 const products = (await getAllProducts()).filter((p) => !p.sample && p.images.length > 0);
 const kinds: { id: string; title: string; blurb: string; test: RegExp }[] = [
-  { id: 'ornaments', title: 'Ornaments', blurb: 'Ceramic ornaments with our funniest designs. Easy tree-swap and white elephant gifts.', test: /ornament/i },
-  { id: 'socks', title: 'Socks', blurb: 'The stocking stuffer that actually gets worn.', test: /\bsocks?\b/i },
-  { id: 'mugs', title: 'Mugs', blurb: 'Coffee, cocoa, or the desk pencil cup.', test: /\bmug\b/i },
-  { id: 'cozy', title: 'Sweatpants', blurb: 'Pair them with a matching hoodie for the full couch set.', test: /sweatpants|joggers/i },
-  { id: 'pets', title: 'For the dog', blurb: 'Matching bandanas and pet gear for the dog who runs the house.', test: /bandana|pet |collar|leash/i },
-  { id: 'family', title: 'Matching family', blurb: 'One design for the whole crew, from grown-ups down to the baby.', test: /bodysuit|youth|matching family/i },
+  { id: 'ornaments', title: 'Ornaments', blurb: 'Ceramic ornaments with our funniest designs. Easy tree-swap and white elephant gifts.', test: /ornament$/i },
+  { id: 'socks', title: 'Socks', blurb: 'The stocking stuffer that actually gets worn.', test: /\bsocks$/i },
+  { id: 'mugs', title: 'Mugs', blurb: 'Coffee, cocoa, or the desk pencil cup.', test: /\bmug$/i },
+  { id: 'cozy', title: 'Sweatpants', blurb: 'Pair them with a matching hoodie for the full couch set.', test: /(sweatpants|joggers)$/i },
+  { id: 'pets', title: 'For the dog', blurb: 'Matching bandanas and pet gear for the dog who runs the house.', test: /(bandana|collar|leash)$/i },
+  { id: 'family', title: 'Matching family', blurb: 'One design for the whole crew, from grown-ups down to the baby.', test: /(bodysuit|youth long sleeve tee|youth tee)$/i },
 ];
-const sections = kinds.map((k) => ({ ...k, items: products.filter((p) => k.test.test(`${p.productType} ${p.title}`)) })).filter((s) => s.items.length > 0);
+const sections = kinds.map((k) => ({ ...k, items: products.filter((p) => k.test.test(p.title.trim())) })).filter((s) => s.items.length > 0);
 const bfStart = new Date(blackFriday.start).toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'America/Chicago' });
 ---
 <Base title={`Gifts & Sets: Ornaments, Socks, Mugs | ${site.name}`} noindex={true}
