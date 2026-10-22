@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-22 23:15 UTC
 2026-10-22 21:36 UTC — [B] REVIEW #955 Unisex National Park – Running Late. Bison Traffic. Camo Hoodie (repaired: one print file 1091235513 on 14/14, mockups re-made, duplicate images removed, punch 100%). Builder run end: 1 item (cleanup of the 16:52 duplicate-session mix-up); #956-958/962-969 drafts from that session left untouched for the director. fal $0.
 2026-10-21 16:52 UTC — [B] Builder run end: DUPLICATE lane B session detected (drafts 956-958/962-969 and #955 re-sync by an unclaimed session); stood down, #955 back to BUILDING with a mixed print (see its log). fal $0.04.
 2026-10-21 16:51 UTC — [B] REVIEW #955 Unisex National Park – Running Late. Bison Traffic. Camo Hoodie (new, IND4000 Forest+Black Camo 14/14 on 1091233302, punch 100%, subject 81%, Bevan). fal $0.04.
