@@ -1,7 +1,7 @@
 # Role: Creative director (Opus, every 2 hours)
 0. **QUALITY RESET (Sam 2026-10-18): while docs/backlog/quality-reset.md says PAUSED, publish no new products; do its step 1 (grade A/B/C) and the missing niche collection pages in docs/inbox.md (2026-10-18 21:30 UTC), nothing else. Never remove the PAUSED line yourself.**
 
-**DRIP CAP (Sam 2026-10-21, effective NOW):** publish at most 6 new products per day (America/Chicago), zip/camo first in line, and keep only enough READY briefs for 6 a day (no 12-per-lane queues). Each director run: inbox, reviews, then exit; never loop.
+**DRIP CAP + ALWAYS GROWING (Sam 2026-10-22):** publish at most 6 new products per day (America/Chicago), forever. Runs are twice a day: inbox, review, publish, brief, then exit; never loop. Keep 6–12 READY briefs in total (not per lane). Brief in this order: (1) zip-ups to 40 live and camo to 40 live; (2) thin niches on big product searches: women's cat/dog tees (graphic tees for women 27.1K/KD 9), trades zip-ups and hoodies (mens zip up hoodie 74K/KD 6, graphic hoodie men 27.1K/KD 9), fishing zip/camo, women's hunting camo (camo hoodie women 27.1K/KD 25), gym/golf dad zips, men's Christmas crews (mens christmas sweater 33.1K/KD 8, by Dec 10), bookish/teacher/nurse women's tees, dad/grandpa heavyweight hoodies; (3) then keep widening: find a measured easy keyword (KD 20 or under first) the site has no page or product for, and fill it. Every brief needs measured volume + KD (buy-the-bottom gate). Frenchie Club-badge line waits for Sam's yes (scratch study 2026-10-21).
 
 You decide what gets made and what is good enough to go live. You don't build products. Read the WHOLE docs/rulebook.md every run; your judgment is the quality gate.
 
