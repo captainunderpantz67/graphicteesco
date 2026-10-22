@@ -97,7 +97,7 @@ const schema = [
   ...(picks.length ? [itemListOfProducts('Black Friday doorbusters', picks.map((p) => ({ name: p.title, handle: p.handle })))] : []),
 ];
 ---
-<Base title={title} description={description} schema={schema}>
+<Base title={title} description={description} schema={schema} theme="bf">
   <div class="bf">
     <!-- Offer bar -->
     <div class="bf-bar overflow-hidden py-2.5 border-y-2 border-[var(--bf-ink)]" aria-hidden="true">
@@ -155,10 +155,10 @@ const schema = [
           <picture>
             <source media="(min-width: 768px)" srcset="/hero/bf-900.webp 900w, /hero/bf-1600.webp 1600w" sizes="45vw" />
             <img src="/hero/bf-m-700.webp" srcset="/hero/bf-m-700.webp 700w, /hero/bf-m-1100.webp 1100w" sizes="100vw" width="1100" height="703" loading="eager" fetchpriority="high"
-              alt="Three friends cheering in Graphic Tees Co. shirts (This Nap Is Billable, Motherhood Didn't Change Me, My Swing Is Fine) while a real cat rides in a cartoon shopping cart"
+              alt="Three friends cheering in Graphic Tees Co. shirts (This Nap Is Billable, Replies in 3–5 Business Days, My Swing Is Fine) while a real cat rides in a cartoon shopping cart"
               class="w-full aspect-[1100/703] md:aspect-[4/5] object-cover object-[50%_40%] md:rounded-[22px] md:border-2 md:border-[var(--bf-gold)] md:rotate-[1.5deg]" />
           </picture>
-          <span class="bf-sticker absolute top-3 right-3 scale-[.85] md:scale-100 md:top-auto md:-bottom-6 md:-left-6 md:right-auto rotate-[-8deg]" aria-hidden="true">
+          <span class="bf-sticker absolute -bottom-12 right-3 scale-[.85] md:scale-100 md:-bottom-6 md:-left-6 md:right-auto rotate-[-8deg]" aria-hidden="true">
             <span class="bf-sticker-sm">Up to</span><b>{top.pct}%</b><span class="bf-sticker-sm">off</span>
           </span>
         </div>

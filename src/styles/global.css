@@ -114,3 +114,15 @@ body {
 .deal-track { animation: belt 26s linear infinite; }
 @keyframes belt { to { transform: translateX(-50%); } }
 @media (prefers-reduced-motion: reduce) { .deal-track { animation: none; } }
+
+/* Black Friday page: the whole frame goes volt + black (Sam 2026-10-21: "so the whole page is congruent"). Only the bars,
+   header surface, logo, top-level links and shop bar; dropdown panels keep their light styles. */
+.page-bf .site-header { background: #0d0e0c; border-color: #2c3a10; color: #f8f3e8; }
+.page-bf .site-header .misprint { color: #f8f3e8; text-shadow: .045em .045em 0 #d4ff3a; }
+.page-bf .site-header nav[aria-label="Main"] > a, .page-bf .site-header summary, .page-bf .site-header [data-cart-open] { color: #f8f3e8; }
+.page-bf .site-header nav[aria-label="Main"] > a[href="/black-friday/"] { background: #d4ff3a; color: #0d0e0c; }
+.page-bf .shop-bar { background: #0d0e0c; border-color: #2c3a10; }
+.page-bf .shop-bar a { background: transparent; color: #f8f3e8; border-color: #f8f3e8; }
+.page-bf .shop-bar a[href="/black-friday/"] { background: #d4ff3a; color: #0d0e0c; border-color: #d4ff3a; }
+.page-bf .top-bar a { color: #d4ff3a; }
+.page-bf .site-header details > div { color: var(--color-ink); }

@@ -13,8 +13,9 @@ interface Props {
   schema?: object[];
   image?: string;
   noindex?: boolean;
+  theme?: 'bf';
 }
-const { title, description, schema = [], image, noindex = false } = Astro.props;
+const { title, description, schema = [], image, noindex = false, theme } = Astro.props;
 const ogImage = image ?? `${site.url}/og-default.png`;
 const canonical = new URL(Astro.url.pathname, site.url).href;
 // Nav and footer only link to collections that have products and are indexable.
@@ -69,13 +70,13 @@ const ld = [organization(live), website(), ...schema];
     </>}
     {ld.map((s) => <script type="application/ld+json" set:html={JSON.stringify(s)} />)}
   </head>
-  <body>
+  <body class={theme === 'bf' ? 'page-bf' : undefined}>
     <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:p-2 focus:bg-[var(--color-ink)] focus:text-white">Skip to content</a>
     <div class="bg-[var(--color-ink)] text-[var(--color-cream)] text-center text-[11px] font-bold uppercase py-2 tracking-[.16em]">
       New designs drop every month · {site.facts.hoodiesLive ? 'Every design also comes on a hoodie' : 'Original art, printed to order'}
     </div>
-    <div class="bg-[var(--color-ink)] text-[var(--color-paper)] text-center text-xs font-bold tracking-wider uppercase py-1.5 px-4">Holiday sale: tees $24.99 · Free US shipping on $45+ · <a href="/black-friday/" class="underline underline-offset-2 hover:text-[var(--color-mustard)]">Black Friday Deals</a></div>
-    <header class="border-b-2 border-[var(--color-ink)] bg-[var(--color-paper)]/95 backdrop-blur sticky top-0 z-30">
+    <div class="top-bar bg-[var(--color-ink)] text-[var(--color-paper)] text-center text-xs font-bold tracking-wider uppercase py-1.5 px-4">Holiday sale: tees $24.99 · Free US shipping on $45+ · <a href="/black-friday/" class="underline underline-offset-2 hover:text-[var(--color-mustard)]">Black Friday Deals</a></div>
+    <header class="site-header border-b-2 border-[var(--color-ink)] bg-[var(--color-paper)]/95 backdrop-blur sticky top-0 z-30">
       <div class="container-x flex items-center justify-between h-16 gap-4">
         <a href="/" class="display misprint text-3xl tracking-tight">{site.name}</a>
         <nav aria-label="Main" class="hidden md:flex items-center gap-6 text-sm font-semibold uppercase tracking-wide">
@@ -127,10 +128,10 @@ const ld = [organization(live), website(), ...schema];
       </div>
     </header>
     <!-- Shop bar (Sam 2026-10-21: Black Friday and gifts must be one tap away on every page, no menu needed). -->
-    <nav aria-label="Shop" class="border-b-2 border-[var(--color-ink)] bg-[var(--color-cream)]">
+    <nav aria-label="Shop" class="shop-bar border-b-2 border-[var(--color-ink)] bg-[var(--color-cream)]">
       <div class="container-x flex gap-2 overflow-x-auto py-2.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
         <a href="/black-friday/" class="shrink-0 rounded-full bg-[var(--color-ink)] text-[var(--color-mustard)] border-2 border-[var(--color-ink)] px-4 py-2 text-sm font-extrabold uppercase tracking-[.08em]">Black Friday deals</a>
-        <a href="/gifts/" class="shrink-0 rounded-full bg-[var(--color-rust)] text-[var(--color-cream)] border-2 border-[var(--color-ink)] px-4 py-2 text-sm font-extrabold uppercase tracking-[.08em]">Gifts &amp; sets</a>
+        <a href="/gifts/" class="shrink-0 rounded-full bg-[var(--color-rust)] text-[var(--color-cream)] border-2 border-[var(--color-ink)] px-4 py-2 text-sm font-extrabold uppercase tracking-[.08em]">Gifts</a>
         {seasonal.slice(0, 1).map((c) => <a href={pathFor(c)} class="shrink-0 rounded-full bg-[var(--color-paper)] border-2 border-[var(--color-ink)] px-4 py-2 text-sm font-extrabold uppercase tracking-[.08em]">{c.h1}</a>)}
         {showHoodies && <a href="/hoodies/" class="shrink-0 rounded-full bg-[var(--color-paper)] border-2 border-[var(--color-ink)] px-4 py-2 text-sm font-extrabold uppercase tracking-[.08em]">Hoodies</a>}
       </div>

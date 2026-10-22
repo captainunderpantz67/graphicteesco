@@ -88,12 +88,12 @@ const MAJOR = [
   { slug: null, href: '/hoodies/', title: 'Hoodies', line: 'Same jokes. Warmer.', handle: 'graphic-hoodies-for-men', prefer: /hoodie$/ },
   { slug: 'zip-up-hoodies', href: '/hoodies/zip-up-hoodies/', title: 'Zip-Ups', line: "The joke's on the back.", prefer: /zip-hoodie$/ },
   { slug: 'camo-hoodies', href: '/hoodies/camo-hoodies/', title: 'Camo', line: 'Blend in. Stand out anyway.', prefer: /camo/ },
-  { slug: null, href: '/gifts/', title: 'Gifts & Sets', line: 'Stocking stuffers that get used.', gifts: true },
+  { slug: null, href: '/gifts/', title: 'Gifts', line: 'Socks, mugs, ornaments, sweats.', gifts: true },
   { slug: 'group-shirts', href: '/group-shirts/', title: 'Matching Crew', line: 'Whole crew, one joke. 15% off 10+.' },
 ].filter((m) => !m.slug || live.has(m.slug)).filter((m) => m.href !== '/hoodies/' || showHoodies);
 const majorCards = MAJOR.map((m) => ({ ...m, ph: m.gifts ? null : photoIn(m.handle ?? bySlug(m.slug!)!.shopifyHandle, m.prefer) }));
 // Gifts card: a 3-up collage of real add-on product shots (ornament, socks, mug).
-const giftShots = [/ornament$/i, /socks$/i, /mug$/i].map((rx) => allProducts.find((x) => rx.test(x.title.trim()))).filter(Boolean).map((x) => ({ src: img(x!.images[0].url, 300), alt: x!.title }));
+const giftShots = [/ornament$/i, /socks$/i, /mug$/i, /(sweatpants|joggers)$/i].map((rx) => allProducts.find((x) => rx.test(x.title.trim()))).filter(Boolean).map((x) => ({ src: img(x!.images[0].url, 300), alt: x!.title }));
 // NICHES: every other live collection, holidays first, then by search volume.
 const majorSlugs = new Set(MAJOR.map((m) => m.slug).filter(Boolean));
 const niches = [...homepageOrder([...tees, ...hoodies].filter((c) => c.seasonal && live.has(c.slug) && !majorSlugs.has(c.slug))),
@@ -234,8 +234,10 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
       {majorCards.map((m) => (
         <a href={m.href} class="group relative overflow-hidden rounded-[18px] border-2 border-[var(--color-ink)] aspect-[4/5] flex shadow-[4px_4px_0_var(--color-ink)] hover:-translate-y-1 hover:shadow-[6px_8px_0_var(--color-ink)] transition-all bg-[var(--color-navy)]">
           {m.gifts ? (
-            <span class="absolute inset-0 bg-[var(--color-mustard)] grid place-items-center pb-[38%]" aria-hidden="true">
-              {giftShots[0] && <span class="w-[62%] aspect-square rounded-full bg-[var(--color-cream)] border-2 border-[var(--color-ink)] overflow-hidden -rotate-6 shadow-[4px_4px_0_var(--color-rust)] group-hover:rotate-0 transition-transform"><img src={giftShots[0].src} alt="" loading="lazy" width="300" height="300" class="w-full h-full object-contain scale-110" /></span>}
+            <span class="absolute inset-0 bg-[var(--color-mustard)]" aria-hidden="true">
+              <span class="absolute inset-x-3 top-3 bottom-[49%] grid grid-cols-2 grid-rows-2 gap-2">
+                {giftShots.slice(0, 4).map((g, i) => <span class={`rounded-[12px] bg-[var(--color-cream)] border-2 border-[var(--color-ink)] overflow-hidden ${i % 2 ? 'rotate-2' : '-rotate-2'} group-hover:rotate-0 transition-transform`}><img src={g.src} alt="" loading="lazy" width="300" height="300" class="w-full h-full object-contain scale-[1.35]" /></span>)}
+              </span>
             </span>
           ) : m.ph && <img src={m.ph.src} srcset={m.ph.src.startsWith('/covers/') ? `${m.ph.src.replace('/covers/', '/covers/sm/')} 400w, ${m.ph.src} 600w` : undefined} sizes="(min-width: 768px) 25vw, 50vw" alt={m.ph.alt} loading="lazy" width="600" height="750" class="absolute inset-0 w-full h-full object-cover object-[50%_20%] group-hover:scale-[1.04] transition-transform duration-500" />}
           {!m.gifts && <span class="absolute inset-x-0 bottom-0 h-3/5 bg-gradient-to-t from-black/85 via-black/45 to-transparent" aria-hidden="true"></span>}
