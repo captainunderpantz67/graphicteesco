@@ -807,7 +807,6 @@ export const allGuides: Guide[] = [
     // Planned siblings (not live yet): camo-hoodies-for-women-guide, zip-up-vs-pullover-hoodie, heavyweight-hoodie-sizing.
     slug: 'thick-hoodies',
     keyword: 'thick hoodie',
-    draft: true,
     title: 'Thick Hoodies: How Thick Is 10 oz, and Who Needs It?',
     description: 'Thick hoodies explained in ounces: our 10 oz heavyweight fleece vs the 8 oz pullover, how it fits, and six designs. Heavyweight hoodies from $49.99.',
     h1: 'Thick Hoodies: What 10 oz Fleece Feels Like and Who Should Buy One',
@@ -838,7 +837,7 @@ export const allGuides: Guide[] = [
     sections: [
       { h2: 'How thick is a thick hoodie?',
         body: ['Thick starts around 10 oz. Fabric weight is listed in ounces per square yard (oz/yd²), and more ounces means heavier fleece. At Graphic Tees Co., the heavyweight hoodie is 10 oz and the classic pullover is 8 oz.',
-          'The heavyweight is a cotton and polyester fleece with a soft fleece-lined hood, ribbed cuffs and waistband and double-stitched seams. It runs XS to 3XL in a relaxed fit.'],
+          'The heavyweight is a cotton and polyester fleece with a soft fleece-lined hood, ribbed cuffs and waistband and double-stitched seams. It runs up to 3XL in a relaxed fit (most designs start at XS, a few at S).'],
         links: [{ href: '/hoodies/heavyweight-hoodies/', text: 'Heavyweight hoodies' }] },
       { h2: 'Is a thick hoodie warmer than a regular one?',
         body: ['Yes, a little, and it holds its shape better. A 10 oz fleece traps more air than an 8 oz one, and the relaxed cut leaves room for a tee or thermal underneath.',
@@ -861,7 +860,7 @@ export const allGuides: Guide[] = [
     ],
     faqs: [
       { q: 'How thick is a thick hoodie?', a: 'Around 10 oz or more. The Graphic Tees Co. heavyweight hoodie is a 10 oz/yd² cotton and polyester fleece with a fleece-lined hood and ribbed cuffs, $49.99 through November 30, 2026. The classic pullover is a lighter 8 oz.' },
-      { q: 'What is the thickest hoodie Graphic Tees Co. makes?', a: 'The 10 oz heavyweight hoodie and the 10 oz oversized hoodie are the thickest. The heavyweight is a relaxed fit in XS to 3XL at $49.99; the oversized is cut roomier at $54.99, both in the holiday sale.' },
+      { q: 'What is the thickest hoodie Graphic Tees Co. makes?', a: 'The 10 oz heavyweight hoodie and the 10 oz oversized hoodie are the thickest. The heavyweight is a relaxed fit up to 3XL at $49.99; the oversized is cut roomier at $54.99, both in the holiday sale.' },
       { q: 'Are thick hoodies warm enough for winter?', a: 'They are a thick layer, not a coat. The Graphic Tees Co. heavyweight hoodie is made for layering, with room for a tee or thermal underneath. On wet or very cold days, wear a shell jacket over it.' },
       { q: 'How much do thick hoodies cost?', a: 'At Graphic Tees Co., heavyweight hoodies are $49.99 through November 30, 2026 and $54.99 from December 1. The 8 oz pullover is $39.99, moving to $44.99. US shipping is free on orders of $45 or more.' },
       { q: 'Do thick hoodies run big?', a: 'The Graphic Tees Co. heavyweight hoodie is a relaxed fit, so keep your usual size for a loose layer or size down one for a closer fit. If the size is wrong, one replacement in a new size is free within 30 days of delivery.' },

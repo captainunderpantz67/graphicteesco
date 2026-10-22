@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15372534874416
 cover: fal-swap
 lane: B
@@ -28,3 +28,4 @@ push: camo
 - 2026-10-21 10:55 UTC director: brief written, READY (camo twin, lane B, push: camo; $0 fal; registry row 1054 claimed).
 - 2026-10-21 14:29 UTC [B]: BUILT NEW as DRAFT (product 15372534874416, IND4000 #1543, Duck Camo + Forest Camo x XS-3XL = 14/14 synced on file 1091154981, back logo 1080398177 on 14/14, Printful sync 483693234). Art: one Recraft flat call ($0.04, logged), try 1 kept: white mountain goat on a peak with a blaze-orange sun and a tiny hiker thumb-measuring the distance (the source #555 hiker joke kept); 3 solid inks (black, bone, blaze orange; no grey), ONE bone patch with ~0.2 in black outline (scripts/b-camo-lockup.py --top). 7r: lettering face Oswald (condensed) at weight 700; the last 5 lane B builds were Alfa Slab / Bowlby, so a new face. 7h: 3349 / 3349 px = 100%. 7l: subject 1721 of 3400 px = 50%. Canvas 3400x3591, FW 1500 TOP 0. Light file n/a (camo only). Phone-size read of both mockups OK. Keyword hiking camo hoodie (R11.12 waiver, volume not measured) under products in the keyword map (top-level check prints []). Price $49.99, no compare-at, category hoodies, tags per brief, SEO title 49 / meta 153, FAQ 5 x 46-60 words (order by Dec 8, free size exchange). Mockup per color attached to its variants, back last. Copy checked vs art. Flat cover (cover: fal-swap; registry row stays claimed). Audit PASS (1 warn: no lifestyle cover). Sheet docs/review/901.jpg. fal $0.04.
 - 2026-10-21 15:45 UTC director: APPROVED on docs/review/901.jpg, held at REVIEW for the 6-LIVE cap. Side by side with 493 Calm Face and 483 Sisyphus: one bone patch, ibex on the summit with the tiny hiker below carries the joke, LIKE WILDLIFE. widest; reads on Duck and Forest Camo.
+- 2026-10-22 23:16 UTC director: LIVE (ACTIVE + Online Store, Headless, Google & YouTube); cohesion-audit --handle PASS (1 warn: no lifestyle cover). Drip cap: today's 6 (#907 #908 #900 #901 #902 #955).

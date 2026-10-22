@@ -82,10 +82,10 @@ Requests from Sam (paraphrased by the helper) and audit items that need judgment
 
 ## 2026-10-22 — Sam: builders back on, drip forever
 - 6 products + 2 articles a day, indefinitely. Google should see the site growing every day; keep grabbing easy keywords we have no page for. Order and thin-niche list in docs/roles/director.md (DRIP CAP + ALWAYS GROWING). docs/PAUSED removed.
-- Schedules: 1 builder (3 runs/day, 2 items each, any lane), director 2/day, writer 2/day, helper 2/day (order check + Telegram if an order lands or sits on hold in Printful).
+- Schedules: 1 builder (3 runs/day, 2 items each, any lane), director 2/day, writer 2/day, helper 2/day (order check + Telegram if an order lands or sits on hold in Printful). — DONE 2026-10-22 director: written into the rulebook as R11.15 (with the 2026-10-21 evening cap below).
 
 ## 2026-10-21 evening — Sam: the 6-a-day cap starts NOW
-- Not after zip/camo hit 40. From today: at most 6 new products a day store-wide (zip/camo first in line) and 2 articles a day. Max 2 items per builder run. Updated in docs/roles/builder.md and director.md.
+- Not after zip/camo hit 40. From today: at most 6 new products a day store-wide (zip/camo first in line) and 2 articles a day. Max 2 items per builder run. Updated in docs/roles/builder.md and director.md. — DONE 2026-10-22 director: rulebook R11.15.
 
 ## 2026-10-21 17:15 UTC — DRIP CAP (Sam): 6 products + 2 articles a day, forever
 - Sam: credits go to the UI first. Builders build at most 2 items per run and never loop until cut off. After zip and camo each hit 40 live: 6 new products a day store-wide, 2 articles a day. Written into docs/roles/builder.md, director.md, writer.md.

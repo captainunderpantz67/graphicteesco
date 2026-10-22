@@ -1,4 +1,5 @@
-status: REVIEW
+status: PARKED
+duplicate: rewrite queue #1 was already done as #835 (LIVE 2026-10-21); this second rewrite is not swapped in.
 lane: W
 type: article
 cluster: christmas
@@ -14,3 +15,4 @@ rewrite: best-funny-thanksgiving-shirts
 - Keyword: "funny thanksgiving shirt" 4,400/48 per rulebook R2 table; /funny-thanksgiving-shirts/ owns the collection phrase, this guide targets the "best ... by occasion" variant and links to it.
 - Not verified this run: pick colors/counts versus current Shopify listings (carried from 2026-10-16 copy). Director: check them before approval.
 - Planned siblings (comment only): matching-family-thanksgiving-shirts, thanksgiving-hoodies-guide, turkey-trot-shirts-guide.
+- 2026-10-22 23:18 UTC director: PARKED as a duplicate. #835 already replaced the live guide on 2026-10-21 with the same structure (8 jokes by occasion, same picks and facts); this copy also carries cluster: christmas instead of thanksgiving and an old date. The draft entry stays draft: true; writer card now says to check for a LIVE rewrite first. Does not count toward today's 2 articles.
