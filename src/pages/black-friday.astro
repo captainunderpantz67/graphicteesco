@@ -153,12 +153,12 @@ const schema = [
         <!-- Campaign photo (Sam 2026-10-21: "terrible way to open... mockup looks bad"); the sticker is a real centered badge. -->
         <div class="relative order-first md:order-last -mx-4 md:mx-0">
           <picture>
-            <source media="(min-width: 768px)" srcset="/hero/laugh-900.webp 900w, /hero/laugh-1600.webp 1600w" sizes="45vw" />
-            <img src="/hero/laugh-m-700.webp" srcset="/hero/laugh-m-700.webp 700w, /hero/laugh-m-1100.webp 1100w" sizes="100vw" width="1100" height="851" loading="eager" fetchpriority="high"
-              alt="Three friends cracking up in Graphic Tees Co. shirts while a real cat sits on a cartoon table next to a spilled cartoon mug"
-              class="w-full aspect-[1100/851] md:aspect-[4/5] object-cover object-[40%_40%] md:rounded-[22px] md:border-2 md:border-[var(--bf-gold)] md:rotate-[1.5deg]" />
+            <source media="(min-width: 768px)" srcset="/hero/bf-900.webp 900w, /hero/bf-1600.webp 1600w" sizes="45vw" />
+            <img src="/hero/bf-m-700.webp" srcset="/hero/bf-m-700.webp 700w, /hero/bf-m-1100.webp 1100w" sizes="100vw" width="1100" height="703" loading="eager" fetchpriority="high"
+              alt="Three friends cheering in Graphic Tees Co. shirts (This Nap Is Billable, Motherhood Didn't Change Me, My Swing Is Fine) while a real cat rides in a cartoon shopping cart"
+              class="w-full aspect-[1100/703] md:aspect-[4/5] object-cover object-[50%_40%] md:rounded-[22px] md:border-2 md:border-[var(--bf-gold)] md:rotate-[1.5deg]" />
           </picture>
-          <span class="bf-sticker absolute -bottom-7 right-5 md:-bottom-6 md:-left-6 md:right-auto rotate-[-8deg]" aria-hidden="true">
+          <span class="bf-sticker absolute top-3 right-3 scale-[.85] md:scale-100 md:top-auto md:-bottom-6 md:-left-6 md:right-auto rotate-[-8deg]" aria-hidden="true">
             <span class="bf-sticker-sm">Up to</span><b>{top.pct}%</b><span class="bf-sticker-sm">off</span>
           </span>
         </div>
@@ -272,9 +272,9 @@ const schema = [
   .bf {
     --bf-ink: #0d0e0c;
     --bf-ink-2: #23251f;
-    --bf-volt: #d9a23b;
-    --bf-gold: #d9a23b;
-    --bf-rust: #c2461f;
+    --bf-volt: #d4ff3a;
+    --bf-gold: #d4ff3a;
+    --bf-rust: #0d0e0c;
     --bf-cream: #f8f3e8;
   }
   .bf-display { font-family: var(--font-display); font-weight: 900; text-transform: uppercase; letter-spacing: -.005em; }
@@ -284,21 +284,22 @@ const schema = [
   @media (prefers-reduced-motion: reduce) { .bf-marquee { animation: none; } }
   .bf-hero, .bf-dark { background: var(--bf-ink); color: var(--bf-cream); }
   .bf-hero::before { content: ''; position: absolute; inset: 0; pointer-events: none;
-    background: radial-gradient(60% 50% at 85% 20%, rgba(194,70,31,.18), transparent 70%); }
+    background: radial-gradient(60% 50% at 85% 20%, rgba(212,255,58,.14), transparent 70%); }
   
   .bf-cream-bg { background: var(--color-paper); color: var(--color-ink); }
   .bf-tier { border-color: var(--bf-cream); color: var(--bf-cream); background: var(--bf-ink-2); }
-  .bf-tier-top { background: var(--bf-gold); border-color: var(--bf-ink); color: var(--bf-ink); box-shadow: 4px 4px 0 var(--bf-rust); transform: rotate(-2deg); }
+  .bf-tier-top { background: var(--bf-gold); border-color: var(--bf-gold); color: var(--bf-ink); box-shadow: 4px 4px 0 var(--bf-cream); transform: rotate(-2deg); }
   .bf-clock { background: var(--bf-ink-2); border: 2px solid var(--bf-cream); color: var(--bf-cream); }
   .bf-btn { display: inline-flex; align-items: center; min-height: 54px; padding: 0 1.4rem; border-radius: 12px; font-family: "Bowlby One", "Arial Black", sans-serif; font-size: 1.05rem;
-    background: var(--bf-rust); color: var(--bf-cream); border: 3px solid var(--bf-ink); box-shadow: 4px 4px 0 var(--bf-gold); transition: transform .15s; }
+    background: var(--bf-gold); color: var(--bf-ink); border: 3px solid var(--bf-ink); box-shadow: 4px 4px 0 var(--bf-cream); transition: transform .15s; }
   .bf-btn:hover { transform: translate(-2px, -2px) rotate(-1deg); }
-  .bf-btn-ghost { background: var(--bf-cream); color: var(--bf-ink); box-shadow: 4px 4px 0 #4f5d3a; }
+  .bf-btn-ghost { background: var(--bf-cream); color: var(--bf-ink); box-shadow: 4px 4px 0 var(--bf-gold); }
   
   .bf-sticker { display: flex; flex-direction: column; align-items: center; justify-content: center; width: 7rem; height: 7rem; border-radius: 999px;
-    background: var(--bf-gold); color: var(--bf-ink); border: 3px solid var(--bf-ink); box-shadow: 4px 4px 0 var(--bf-rust); text-align: center; z-index: 2; }
+    background: var(--bf-gold); color: var(--bf-ink); border: 3px solid var(--bf-ink); box-shadow: 4px 4px 0 var(--bf-cream); text-align: center; z-index: 2; }
   .bf-sticker b { font-family: "Ultra", serif; font-weight: 400; font-size: 2rem; line-height: 1; margin: .1rem 0; }
   .bf-sticker-sm { font-family: "Shrikhand", serif; font-size: .95rem; line-height: 1; }
+  .bf .poster { text-shadow: .06em .06em 0 var(--bf-volt); }
   .bf-tag { background: var(--bf-ink); color: var(--bf-volt); font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; padding: .2rem .5rem; border-radius: 4px; }
   .bf-nav { width: 2.75rem; height: 2.75rem; border-radius: 999px; border: 2px solid var(--bf-volt); color: var(--bf-volt); font-weight: 700; }
   .bf-nav:hover { background: var(--bf-volt); color: var(--bf-ink); }
