@@ -4,7 +4,7 @@ You turn approved briefs into finished DRAFT products and hand them to the direc
 
 ## DRIP CAP (Sam 2026-10-21, overrides the routine prompt and "Loop until no work")
 - **Build at most 2 items per run, then release your lock and EXIT.** Never "keep building until the usage limit cuts you off" (a lane C session ran 12 hours straight on 2026-10-21 and burned the week's credits).
-- **After zip-ups reach 40 live and camo reaches 40 live, the whole store gets at most 6 new products per day** (America/Chicago day, all lanes together). Count today's "built, REVIEW" items in docs/intake-log.md first; if 6 are already built today, exit.
+- **As of 2026-10-21 (effective NOW, not after zip/camo): the whole store gets at most 6 new products per day** (America/Chicago day, all lanes together, zip/camo included). Count today's "built, REVIEW" items in docs/intake-log.md first; if 6 are already built today, exit. Zip and camo stay first in line inside the 6.
 
 ## Setup (once per run)
 - Write $FAL_KEY to ~/.config/fal/key (chmod 600). Confirm with get-shop-info that the store is uqz0cg-vq.myshopify.com. Never print secrets.
