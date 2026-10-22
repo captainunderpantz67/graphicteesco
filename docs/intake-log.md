@@ -1911,3 +1911,5 @@ for the record, but treat this one as current for these 3 products.
 2026-10-19 21:29 UTC — [C] Builder run: redid #501 Women's Do Not Sell My Books hoodie (type only, port of #481: Fraunces Black one-line headline 97% width + bold AT MY FUNERAL., same art, FW 1700 TOP 0, file 1089909739, 12/12 relinked, 2 fronts replaced in place, copy updated, plain product shot). REVIEW. fal $0. Lock released.
 2026-10-19 21:41 UTC — [B] Builder run: redid #414 Unisex Goat hoodie (C grade, new line: CLIMBED IT / FOR NO REASON., Rye + Anton, same art, FW 1500 TOP 0, file 1089917045, 12/12 resynced, 2 fronts replaced in place, title/SEO/copy updated, plain product shot). REVIEW. fal $0. Lock released.
 2026-10-20 16:32 UTC — [B] Builder run: #728 bookish Do Not Sell My Books at My Funeral socks built, DRAFT, REVIEW (gift add-on, fal $0). No cold-weather items READY for lane B; remaining READY lane B items #590–#603 are pre-reset tees needing the Etsy check, not started. Lock released.
+2026-10-22 20:43 UTC — [W] RUNNING lane W since 20:43 UTC
+2026-10-22 20:45 UTC — [W] REVIEW #801 rewrite best-funny-thanksgiving-shirts (draft). Lock released.
