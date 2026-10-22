@@ -1,6 +1,6 @@
 {
- "at": "2026-10-21T16:58:53.967Z",
- "products": 708,
+ "at": "2026-10-22T23:46:51.651Z",
+ "products": 714,
  "findings": [
   {
    "level": "WARN",
@@ -43,6 +43,41 @@
    "title": "Men's Gym – Iron Sharpens Iron Tee",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-vintage-santa-crewneck-sweatshirt",
+   "title": "Unisex Christmas – Vintage Santa Crewneck Sweatshirt",
+   "msg": "Unisex product in a Men's Christmas Sweaters page, but the cover shows only a woman.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-deer-camp-christmas-graphic-tee",
+   "title": "Unisex Christmas – Deer Camp Christmas Tee",
+   "msg": "Unisex product in a Women's Graphic Tees, Women's Christmas Shirts page, but the cover shows only a man.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-christmas-tree-farm-crewneck-sweatshirt",
+   "title": "Unisex Christmas – Christmas Tree Farm Crewneck Sweatshirt",
+   "msg": "Unisex product in a Men's Christmas Sweaters page, but the cover shows only a woman.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-christmas-on-the-lake-graphic-tee",
+   "title": "Unisex Christmas – Christmas on the Lake Tee",
+   "msg": "Unisex product in a Women's Graphic Tees, Women's Christmas Shirts page, but the cover shows only a man.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-upland-christmas-pheasant-graphic-tee",
+   "title": "Unisex Christmas – Upland Christmas Pheasant Tee",
+   "msg": "Unisex product in a Women's Graphic Tees, Women's Christmas Shirts page, but the cover shows only a man.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
   },
   {
    "level": "WARN",
@@ -99,6 +134,13 @@
    "title": "Unisex Thanksgiving – No Turkey Here, Just a Guy in a Hoodie",
    "msg": "\"turkey hoodie\" appears 6× in the copy (keyword stuffing).",
    "fix": "Use it once or twice, naturally."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-christmas-card-photo-survivor-graphic-tee",
+   "title": "Unisex Christmas – Card Photo Survivor Tee",
+   "msg": "Unisex product in a Women's Graphic Tees, Women's Christmas Shirts page, but the cover shows only a man.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
   },
   {
    "level": "WARN",
@@ -227,6 +269,13 @@
    "fix": "Trim to ≤ 155."
   },
   {
+   "level": "ERROR",
+   "handle": "mens-christian-short-grace-hot-food-graphic-tee",
+   "title": "Men's Christian – Short Grace. Hot Food. Tee",
+   "msg": "Men's product listed in \"Christian Shirts\".",
+   "fix": "Remove the tag that puts it in christian-shirts."
+  },
+  {
    "level": "WARN",
    "handle": "mens-grandpa-i-fix-things-after-naps-hoodie",
    "title": "Men's Grandpa – I'm Fixing It, Eyes Closed Hoodie",
@@ -239,6 +288,20 @@
    "title": "Unisex Pitbull – The Belly Is Open Hoodie",
    "msg": "No meta description.",
    "fix": "Write one ≤ 155 chars."
+  },
+  {
+   "level": "ERROR",
+   "handle": "mens-christian-rebuilt-by-a-carpenter-graphic-tee",
+   "title": "Men's Christian – Still Under Construction Tee",
+   "msg": "Men's product listed in \"Christian Shirts\".",
+   "fix": "Remove the tag that puts it in christian-shirts."
+  },
+  {
+   "level": "ERROR",
+   "handle": "unisex-national-park-switchbacks-build-character-heavyweight-hoodie",
+   "title": "Unisex National Park – The View Better Be Worth It Heavyweight Hoodie",
+   "msg": "Unisex product in a Women's Graphic Hoodies page, but the cover shows only a man.",
+   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
   },
   {
    "level": "WARN",
@@ -928,13 +991,6 @@
   },
   {
    "level": "WARN",
-   "handle": "womens-gym-lift-heavy-reply-later-embroidered-zip-hoodie",
-   "title": "Women's Gym – Lift Heavy. Reply Later. Embroidered Zip Hoodie",
-   "msg": "Meta description is 161 chars (> 160).",
-   "fix": "Trim to ≤ 155."
-  },
-  {
-   "level": "WARN",
    "handle": "unisex-nurse-calm-face-loud-brain-embroidered-zip-hoodie",
    "title": "Unisex Nurse – Calm Face, Loud Brain Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
@@ -958,6 +1014,48 @@
    "level": "WARN",
    "handle": "womens-floral-wildly-low-maintenance-embroidered-zip-hoodie",
    "title": "Women's Floral – Wildly Low Maintenance Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-golf-not-cheating-improving-my-lie-embroidered-zip-hoodie",
+   "title": "Unisex Golf – Not Cheating. Improving My Lie. Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-dachshund-short-legs-long-opinions-embroidered-zip-hoodie",
+   "title": "Unisex Dachshund – Short Legs, Long Opinions Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-wolf-lone-wolf-early-bedtime-camo-hoodie",
+   "title": "Men's Wolf – Lone Wolf. Early Bedtime. Camo Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-hiking-treat-me-like-wildlife-camo-hoodie",
+   "title": "Women's Hiking – Treat Me Like Wildlife Camo Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-outdoors-mountains-called-left-on-read-camo-hoodie",
+   "title": "Men's Outdoors – The Mountains Called. Left Them on Read. Camo Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-national-park-running-late-bison-traffic-camo-hoodie",
+   "title": "Unisex National Park – Running Late. Bison Traffic. Camo Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   }

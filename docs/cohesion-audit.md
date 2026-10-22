@@ -1,13 +1,44 @@
-# Cohesion audit — 2026-10-21 16:58 UTC
+# Cohesion audit — 2026-10-22 23:46 UTC
 
-708 live products checked · **1 errors** · 136 warnings · 128 products with findings
+714 live products checked · **10 errors** · 141 warnings · 143 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
+- 4 × Unisex product in a Women's Graphic Tees, Women's Christmas Shirts pag
+- 2 × Unisex product in a Men's Christmas Sweaters page, but the cover shows
+- 2 × Men's product listed in .
+- 1 × Unisex product in a Women's Graphic Hoodies page, but the cover shows 
 - 1 × Claims , already claimed by womens-cat-not-my-turn-with-the-brain-cell
 
 ## By product (errors first)
+### Unisex Christmas – Vintage Santa Crewneck Sweatshirt `unisex-christmas-vintage-santa-crewneck-sweatshirt`
+- **ERROR** Unisex product in a Men's Christmas Sweaters page, but the cover shows only a woman. → Regenerate the cover with a man AND a woman (unisex rule).
+
+### Unisex Christmas – Deer Camp Christmas Tee `unisex-christmas-deer-camp-christmas-graphic-tee`
+- **ERROR** Unisex product in a Women's Graphic Tees, Women's Christmas Shirts page, but the cover shows only a man. → Regenerate the cover with a man AND a woman (unisex rule).
+
+### Unisex Christmas – Christmas Tree Farm Crewneck Sweatshirt `unisex-christmas-christmas-tree-farm-crewneck-sweatshirt`
+- **ERROR** Unisex product in a Men's Christmas Sweaters page, but the cover shows only a woman. → Regenerate the cover with a man AND a woman (unisex rule).
+
+### Unisex Christmas – Christmas on the Lake Tee `unisex-christmas-christmas-on-the-lake-graphic-tee`
+- **ERROR** Unisex product in a Women's Graphic Tees, Women's Christmas Shirts page, but the cover shows only a man. → Regenerate the cover with a man AND a woman (unisex rule).
+
+### Unisex Christmas – Upland Christmas Pheasant Tee `unisex-christmas-upland-christmas-pheasant-graphic-tee`
+- **ERROR** Unisex product in a Women's Graphic Tees, Women's Christmas Shirts page, but the cover shows only a man. → Regenerate the cover with a man AND a woman (unisex rule).
+
+### Unisex Christmas – Card Photo Survivor Tee `unisex-christmas-card-photo-survivor-graphic-tee`
+- **ERROR** Unisex product in a Women's Graphic Tees, Women's Christmas Shirts page, but the cover shows only a man. → Regenerate the cover with a man AND a woman (unisex rule).
+
+### Men's Christian – Short Grace. Hot Food. Tee `mens-christian-short-grace-hot-food-graphic-tee`
+- **ERROR** Men's product listed in "Christian Shirts". → Remove the tag that puts it in christian-shirts.
+
+### Men's Christian – Still Under Construction Tee `mens-christian-rebuilt-by-a-carpenter-graphic-tee`
+- **ERROR** Men's product listed in "Christian Shirts". → Remove the tag that puts it in christian-shirts.
+
+### Unisex National Park – The View Better Be Worth It Heavyweight Hoodie `unisex-national-park-switchbacks-build-character-heavyweight-hoodie`
+- **ERROR** Unisex product in a Women's Graphic Hoodies page, but the cover shows only a man. → Regenerate the cover with a man AND a woman (unisex rule).
+
 ### Women's Cat – Oops. Anyway. Embroidered Zip Hoodie `womens-cat-oops-anyway-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 - **ERROR** Claims "cat zip up hoodie", already claimed by womens-cat-not-my-turn-with-the-brain-cell-zip-hoodie (two pages fighting for one keyword). → Give one of them a different measured phrase.
@@ -387,7 +418,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Women's Gym – Lift Heavy. Reply Later. Embroidered Zip Hoodie `womens-gym-lift-heavy-reply-later-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
-- **WARN** Meta description is 161 chars (> 160). → Trim to ≤ 155.
 
 ### Unisex Nurse – Calm Face, Loud Brain Embroidered Zip Hoodie `unisex-nurse-calm-face-loud-brain-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
@@ -399,4 +429,22 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Women's Floral – Wildly Low Maintenance Embroidered Zip Hoodie `womens-floral-wildly-low-maintenance-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Golf – Not Cheating. Improving My Lie. Embroidered Zip Hoodie `unisex-golf-not-cheating-improving-my-lie-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Dachshund – Short Legs, Long Opinions Embroidered Zip Hoodie `unisex-dachshund-short-legs-long-opinions-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Wolf – Lone Wolf. Early Bedtime. Camo Hoodie `mens-wolf-lone-wolf-early-bedtime-camo-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Hiking – Treat Me Like Wildlife Camo Hoodie `womens-hiking-treat-me-like-wildlife-camo-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Outdoors – The Mountains Called. Left Them on Read. Camo Hoodie `mens-outdoors-mountains-called-left-on-read-camo-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex National Park – Running Late. Bison Traffic. Camo Hoodie `unisex-national-park-running-late-bison-traffic-camo-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.

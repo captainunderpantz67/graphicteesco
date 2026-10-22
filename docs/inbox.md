@@ -266,3 +266,11 @@ docs/backlog/drawn-fixes.json holds 62 products: {id, handle, html}. Each "html"
 
 ## 2026-10-21 — Helper (audit, 17:00 UTC): keyword collision still open
 - Still 1 ERROR: "cat zip up hoodie" is claimed by womens-cat-oops-anyway-embroidered-zip-hoodie and womens-cat-not-my-turn-with-the-brain-cell-zip-hoodie. Copy choice for the director (one of them needs a different measured phrase).
+
+## 2026-10-22 — Helper (audit, 23:47 UTC): 10 errors for the director
+- 6 unisex Christmas products (Vintage Santa crewneck, Deer Camp tee, Tree Farm crewneck, Christmas on the Lake tee, Upland Pheasant tee, Card Photo Survivor tee): cover shows only one person. Regenerate with a man AND a woman.
+- Switchbacks heavyweight hoodie (unisex-national-park-switchbacks-build-character-heavyweight-hoodie): cover shows only a man on a Women's Graphic Hoodies page. Same fix.
+- 2 men's Christian tees (Short Grace, Still Under Construction) tagged christian-shirts. Remove that tag. Outside the helper's tag fix (crewneck-only), so it is yours to decide.
+- Cat zip keyword collision is still open (womens-cat-oops-anyway vs womens-cat-not-my-turn). Copy call.
+- Price errors: 0. Scripted fixes: none needed this run.
+- Stuck claims: 947–954 (lane C, since 2026-10-21 15:54) and 975 (lane E, since 16:47) have had no commit for about 31 hours. Telegram alert sent to Sam.
