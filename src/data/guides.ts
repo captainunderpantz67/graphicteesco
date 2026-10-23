@@ -1015,6 +1015,78 @@ export const allGuides: Guide[] = [
       { q: 'How early should I order a duck hunter a Christmas gift?', a: 'Graphic Tees Co. prints each hoodie after you order it, so allow time for printing and shipping. Exact estimates show at checkout. For a December gift, order by December 4 to be safe.' },
     ],
   },
+  {
+    // Writer lane W (2026-10-23), outdoors cluster. Keyword: best funny fishing shirts. Head phrase "funny fishing shirts" measured 3,600 / KD 37 (RankHero, carried from docs/product-keyword-map.json, 2026-10-18); the "best" variant itself returns no RankHero data. The Reel Talk tee owns "funny fishing shirt(s)" and /fishing-t-shirts/ owns "fishing t shirts", so this article targets the "best" variant and links to both.
+    // Facts (slogans, art, prices, blanks, policies) come from pipeline files #155 #156 #425 #497 #532 #543 #550 #566 #573, fresh-designs.json, site.ts and the Reel Talk twins' briefs. No UPF/performance claims (collections.ts says these are not sun-protection shirts).
+    // Planned siblings (not live yet): gifts-for-duck-hunters (draft), best-fishing-gifts-for-dad, funny-hunting-shirts.
+    slug: 'best-funny-fishing-shirts',
+    keyword: 'best funny fishing shirts',
+    title: 'Best Funny Fishing Shirts: 7 Tees & Hoodies for Anglers',
+    description: 'Best funny fishing shirts: seven original designs, from Technically Still Fishing to Out-Fished Him. Again. Tees $24.99, hoodies from $39.99, printed to order.',
+    h1: 'Best Funny Fishing Shirts: 7 Designs Every Angler Will Recognize',
+    date: '2026-10-23',
+    cluster: 'outdoors',
+    draft: true,
+    answer: 'The best funny fishing shirt is the one with a line the angler has already said at the dock. Graphic Tees Co. has seven: Technically Still Fishing, Casting Doubt, You Catching \'Em? No. Keep Walking., Should\'ve Been Here Yesterday, Fishing Is My Love Language. Talking Isn\'t., Reel Talk and Out-Fished Him. Again. Tees are $24.99, hoodies start at $39.99, and every one is printed after you order it.',
+    picks: [
+      {
+        h2: 'What are the best funny fishing shirts for men?',
+        body: ['Six men\'s designs, all original art made for Graphic Tees Co. and all printed in a vintage outdoor-magazine style. Each joke is a thing anglers actually say, so it lands with anyone who has stood on a bank at sunrise.'],
+        items: [
+          { slogan: 'Technically Still Fishing', tee: 'mens-fishing-sunrise-strike-graphic-tee',
+            text: 'A big bass leaps out of the lake at sunrise right past a man asleep in a lawn chair on the dock, with TECHNICALLY STILL FISHING in vintage capitals. It is for the guy who calls a nap at the lake fishing. The tee is $24.99 and the pullover hoodie is $39.99.' },
+          { slogan: 'Casting Doubt', tee: 'mens-fishing-high-country-trout-graphic-tee',
+            text: 'A fly fisherman stands in a mountain river with his line looped into a giant question mark while a trout watches, unimpressed, with CASTING DOUBT underneath. Every fly guy who has tangled a cast gets it. The tee is $24.99.' },
+          { slogan: 'You Catching \'Em? No. Keep Walking.', tee: 'mens-fishing-you-catching-em-graphic-tee',
+            text: 'A grumpy bank angler sits in a lawn chair beside his rod in a holder and an empty bucket, not turning his head as a cheerful walker waves from the path. YOU CATCHING \'EM? is in heavy slab capitals and No. Keep Walking. is in script. The tee is $24.99 and the heavyweight hoodie is $49.99.' },
+          { slogan: 'Should\'ve Been Here Yesterday', tee: 'mens-fishing-shouldve-been-here-yesterday-graphic-tee',
+            text: 'A weathered old-timer holds his hands wide apart on a dock, empty stringer hanging, while a giant walleye leaps out of the water behind his back. SHOULD\'VE BEEN HERE YESTERDAY. is set in two lines of slab capitals. The tee is $24.99.' },
+          { slogan: 'Fishing Is My Love Language. Talking Isn\'t.', tee: 'mens-fishing-love-language-hoodie', crewneck: 'mens-fishing-love-language-crewneck-sweatshirt',
+            text: 'A bass kicks back on a lounge chair in sunglasses, with FISHING IS MY LOVE LANGUAGE. in bold capitals and TALKING ISN\'T. smaller beneath. It is for the quiet guy who would rather fish than chat. The pullover hoodie is $39.99 and the crewneck is $34.99.' },
+          { slogan: 'Reel Talk', tee: 'mens-fishing-reel-talk-graphic-tee',
+            text: 'REEL TALK is set in chipped, uneven slab lettering in sage and rust over a largemouth bass leaping from lily pads past a rod and reel. It is the funny fishing shirt for the guy who keeps his puns short. The tee is $24.99.' },
+        ],
+        links: [{ href: '/fishing-t-shirts/', text: 'All fishing t-shirts' }, { href: '/graphic-tees-for-men/', text: 'Graphic tees for men' }],
+      },
+      {
+        h2: 'Is there a funny fishing shirt for women?',
+        body: ['Yes, and it is a brag, not a pun. The women\'s design is printed on a relaxed-fit women\'s tee.'],
+        items: [
+          { slogan: 'Out-Fished Him. Again.', tee: 'womens-fishing-out-fished-him-again-graphic-tee',
+            text: 'A woman in a bucket hat holds up a huge largemouth bass by the lip with a calm, smug smile while the man beside her looks at the tiny sunfish on his own line, with OUT-FISHED HIM. above and Again. in script below. It is $24.99.' },
+        ],
+        links: [{ href: '/graphic-tees-for-women/', text: 'Graphic tees for women' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a fishing shirt funny instead of cheesy?',
+        body: ['A line the angler has already said out loud. "Should\'ve been here yesterday" and "You catching \'em?" are things people say at the dock and on the bank, so the shirt reads as an inside joke, not a pun.',
+          'Graphic Tees Co. keeps each design to one short line and one picture, so the joke is clear in about two seconds even to someone who has never held a rod.'] },
+      { h2: 'What are these fishing shirts made of?',
+        body: ['The tees are Bella+Canvas 3001, a lightweight 4.2 oz tee in 100% combed ring-spun cotton (heather colors contain some polyester). The women\'s tee is a relaxed-fit Bella+Canvas 6400. The pullover hoodies and crewneck are an 8 oz cotton-polyester fleece, and the heavyweight hoodie is $49.99.',
+          'These are graphic shirts, not performance gear. They are not rated for sun protection, so wear them on the boat ramp, at the bait shop and everywhere after, not as a UPF layer.'],
+        links: [{ href: '/fishing-hoodies/', text: 'Fishing hoodies' }] },
+      { h2: 'Which funny fishing shirt makes the best gift?',
+        body: ['For the quiet one, Fishing Is My Love Language. Talking Isn\'t. For the one who naps on the dock, Technically Still Fishing. For the fly fisherman, Casting Doubt.',
+          'Orders of $45 or more ship free in the US, so a tee and a hoodie together clear it. For a Christmas gift, order by Friday, December 4, 2026.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'How do you wash a fishing graphic tee so the print lasts?',
+        body: ['Turn it inside out, wash it cold with similar colors, then hang it dry or tumble dry on low. Skip bleach and fabric softener and keep the iron off the print.',
+          'The full routine is in our care guide. A shirt that lives in a boat gets washed a lot, so the cold, inside-out routine matters.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'What if you want a funny gift for a different hobby?',
+        body: ['The same one-line-joke approach runs through the rest of the shop. The funny hoodies guide covers the gym, the garage, the nurse station and the welding bay, and the gym gifts guide covers the lifter.'],
+        links: [{ href: '/guides/funny-hoodies/', text: 'Funny hoodies' }, { href: '/guides/gym-gifts-for-men/', text: 'Gym gifts for men' }, { href: '/guides/funny-golf-gifts/', text: 'Funny golf gifts' }] },
+    ],
+    faqs: [
+      { q: 'What is the best funny fishing shirt?', a: 'The one with a line the angler already says. Graphic Tees Co. has seven original designs, including Technically Still Fishing, Casting Doubt and Should\'ve Been Here Yesterday. Tees are $24.99 and hoodies start at $39.99.' },
+      { q: 'How much do funny fishing shirts cost?', a: 'At Graphic Tees Co., the fishing tees are $24.99, the crewneck is $34.99, the pullover hoodies are $39.99 and the heavyweight hoodie is $49.99. US shipping is free on orders of $45 or more.' },
+      { q: 'Are these fishing shirts UPF or sun-protection shirts?', a: 'No. Graphic Tees Co. fishing shirts are cotton graphic tees and fleece hoodies with original fishing art. They are made for the boat ramp, the bait shop and everywhere after, and are not rated for sun protection.' },
+      { q: 'Is there a funny fishing shirt for women?', a: 'Yes. Graphic Tees Co. Out-Fished Him. Again. is a women\'s relaxed-fit tee for $24.99. It shows a woman holding up a huge bass while the man beside her looks at his tiny sunfish.' },
+      { q: 'What if the shirt is the wrong size?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back. Misprinted or damaged orders are reprinted free or refunded when you send a photo.' },
+      { q: 'How early should I order a fishing shirt as a Christmas gift?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each shirt after you order it in 2 to 5 business days, then delivery takes about 3 to 8 business days in the US.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
