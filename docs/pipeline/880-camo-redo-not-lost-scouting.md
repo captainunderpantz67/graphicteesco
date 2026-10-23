@@ -1,4 +1,4 @@
-status: REVIEW
+status: PARKED
 lane: B
 type: redo
 id: 880
@@ -25,3 +25,4 @@ push: camo
 - 2026-10-21 10:40 UTC director: REDO. 1. R5.3.8 (light blanks list includes Sandstone): NOT LOST. is cream with a dark keyline on Sandstone; give Sandstone its own file with NOT LOST. in solid black or navy with open counters (SCOUTING. orange can stay), or swap Sandstone for a camo color (Forest or Deadwood) per the camo push. Everything else passes (patch, recliner buck, punch 125%). Re-sync R7.7 N/N, new mockup and sheet. $0 fal.
 - 2026-10-21 14:03 UTC [B]: REDO 2 done ($0 fal). Director note 1 (R5.3.8): Sandstone now has its own file docs/print-files/880-sand.png (md5 51686ab1... vs 49ac16b2... for 880-camo.png; viewed: NOT LOST. is solid near-black Anton with its dark keyline, open counters on the O's, SCOUTING. blaze orange unchanged, patch and art unchanged). Light file: Sandstone on 1091137067, headline fill near-black (22,20,18). Duck Camo keeps the bone file 1091025440 (bone on camo reads). R7.7: 14/14 synced: Duck Camo 7 on 1091025440, Sandstone 7 on 1091137067, back logo 1080398177 on 14/14. New Sandstone mockup replaced in place (phone-size read OK: black NOT LOST., orange SCOUTING. clear on tan); Duck Camo mockup unchanged (print file unchanged). Punch stays 125% (2702/3385 px). Copy: Story names the ink per color (bone on Duck Camo, black on Sandstone); FAQ wash line names bone, black and blaze orange. Cohesion audit --handle PASS (0 warn). docs/review/880.jpg shows Duck Camo, Sandstone, back.
 - 2026-10-21 14:40 UTC director: approved from docs/review/880.jpg, held at REVIEW. Note fixed: Sandstone file has NOT LOST. in solid near-black with open counters; Duck Camo keeps bone. Same A design as 496.
+- 2026-10-23 14:50 UTC director: PARKED, superseded: Sam rejected the camo patch template on 2026-10-22 (docs/backlog/camo-redo.md). This hoodie is redone in place from its parent item on the camo-redo list (own style, A/B placement, new fal photos); this old approval is void. Product stays ACTIVE.

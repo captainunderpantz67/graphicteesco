@@ -1,4 +1,4 @@
-status: REVIEW
+status: PARKED
 lane: B
 type: redo
 id: 881
@@ -24,3 +24,4 @@ push: camo
 - 2026-10-21 10:45 UTC [B]: NOT BUILT, blocked: the arched PLAYING DEAD lettering ends on the possum's head and paws, so cropping it cuts the subject; needs the Recraft flat redraw and the fal wallet is exhausted. Stays READY for the first run after a top-up.
 - 2026-10-21 14:13 UTC [B]: BUILT IN PLACE (one Recraft flat call, $0.04, first try; the old arched lettering overlapped the possum so it was redrawn). Art: possum flat on its back, paws stiff, tongue out, X eyes, blaze-orange tail and leaves, 3 inks, on ONE bone patch with ~0.2 in black outline (b-camo-lockup.py --top, PHR 0.74). Lettering PLAYING DEAD above, TILL FRIDAY. below, Alfa Slab bone with dark keyline; widths (7h) 3372 / 3372 px = 100%. Subject 2524 of 3400 px = 74% (7l); canvas 3400x3473. FW 1500 TOP 0. R7.7: 14/14 on 1091146594, back logo 1080398177 on 14/14 (Forest Camo + Darkwood Tree Camo x XS-3XL). Mockups remade and replaced in place, phone-size read OK (the words and the X-eyed possum read on Darkwood). Copy rewritten (no cream backing, no chocolate-brown or acorn lines), SEO meta updated, Dec 8 gift line; title unchanged (same line). Handle added to retired-covers.json. Cohesion audit --handle PASS (0 warn). docs/review/881.jpg shows Forest, Darkwood, back.
 - 2026-10-21 14:40 UTC director: approved from docs/review/881.jpg, held at REVIEW. X-eyed possum on its back with the long tail reads as playing dead at phone size; PLAYING DEAD / TILL FRIDAY. both full width; reads on Forest and Darkwood. Joke lands in 3 s like 493 Calm Face Loud Brain.
+- 2026-10-23 14:50 UTC director: PARKED, superseded: Sam rejected the camo patch template on 2026-10-22 (docs/backlog/camo-redo.md). This hoodie is redone in place from its parent item on the camo-redo list (own style, A/B placement, new fal photos); this old approval is void. Product stays ACTIVE.

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 417
@@ -34,3 +34,4 @@ kd: 32
 - 2026-10-20 09:20 UTC director: REDO from docs/review/417.jpg. 1) R3.7.8 / reset bar: WAKE ME UP AND / FIND OUT. is stacked under the tiger at about 20% of the print height; on the mockups the tiger is the whole shirt and the words are a caption. Keep the line. Put WAKE ME UP AND above the tiger, FIND OUT. below and at least as wide, and shrink the branch scene until the type is at least 40% of the print height (builder card 7k).
 - 2026-10-20 10:55 UTC builder [A]: REDO 2 (director 2026-10-20 09:20: type was a caption strip) done. Line kept: WAKE ME UP AND / FIND OUT. New layout (cards 7h, 7k, scripts/_a_lockup2.py): WAKE ME / UP AND stacked above the tiger (Bevan, same size), FIND OUT. below it full width, tiger branch scaled to 1590 px wide: "headline 3206 px / punch 3217 px" (punch wider), "type 1295 of 3158 px" = 41% of the print height; lockup 3217x3158, FW 1500 TOP 0. Files: Dust 1090308450 (teal headline, orange punch), Navy 1090308469 (cream headline, orange punch). Relinked 12/12 verified; 2 fronts replaced in place; title now "Men's Tiger – Wake Me Up and Find Out Oversized Hoodie" (card 7i), art sentence rewritten. Plain product shot kept. fal $0. audit PASS; build ok.
 - 2026-10-20 11:35 UTC director: approved from docs/review/417.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: WAKE ME UP AND / FIND OUT. now a full-width lockup with the tiger at 49%, punch as wide as the headline, reads on Dust and Navy at phone size; title, SEO and copy name the line. Audit already PASS.
+- 2026-10-23 14:50 UTC director: LIVE (bookkeeping): already ACTIVE on Shopify (redo in place, confirmed by Admin API today), approved earlier from its sheet. Not a new product, so outside the 6/day drip cap (R11.15).

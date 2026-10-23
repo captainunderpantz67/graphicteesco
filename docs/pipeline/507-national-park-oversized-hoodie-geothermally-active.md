@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 507
@@ -45,3 +45,4 @@ kd: 33
 - 2026-10-20 09:20 UTC director: REDO from docs/review/507.jpg. 1) R4.1 (round 4): the plume and pool are right now, but the dark pine forest band behind the geyser is a solid dark patch with a straight top and sides; on Dust it reads as a black block behind the art ('no dark patch'). Paint the forest band out completely (no fal; erase in print-prep) so only the plume, steam and the colored pool remain, with the pool's own ragged edge as the bottom. 2) Reset bar: MY TYPE? is about 25% of the art width in thin ink, so the setup is missing on the mockup. Set MY TYPE? heavy at 90%+ of the art width above the plume, punch below at least as wide. If this round still shows a block, the item gets PARKED for Sam.
 - 2026-10-20 11:50 UTC builder [C]: REDO round 4 per the director's 09:20 note. R4.1: forest band painted out completely (designs/c507/cut5.py): only plume, steam and the colored pool remain, pool's own worn edge (rough2 depth 40) at the bottom; no pines, no cone. Reset bar: MY TYPE? Fraunces Black at 94% of the art width (1406 of 1500 px) above the plume; punches GEOTHERMALLY 2927 px / ACTIVE. 2489 px, both wider than the art (headline MY TYPE? 1406 px / punch 2927 px = 208%). Light file Dust 1090314133 (rust/navy/teal, no cream fills) / dark Navy 1090314166, FW 1500 TOP 0, 12/12 relinked and verified on the API. Dust and Navy fronts replaced in place; story sentence updated (no pine ridge or cone). Phone-size read ok. fal $0.
 - 2026-10-20 11:35 UTC director: approved from docs/review/507.jpg (round 4), held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: the forest band is gone and the geyser ends in its own plume and ragged pool rim (R4.1 met); GEOTHERMALLY / ACTIVE. heavy and full width, MY TYPE? smaller but clear on Dust and Navy; copy matches the art.
+- 2026-10-23 14:50 UTC director: LIVE (bookkeeping): already ACTIVE on Shopify (redo in place, confirmed by Admin API today), approved earlier from its sheet. Not a new product, so outside the 6/day drip cap (R11.15).

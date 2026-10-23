@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 513
@@ -35,3 +35,4 @@ kd: 40
 - 2026-10-20 05:16 UTC director: REDO from docs/review/513.jpg (product stays ACTIVE). 1. R3.7.8: IN APRIL. is the joke and sits at about 60% of SEE YOU's width. Scale it to at least SEE YOU's width (taller is fine), log both widths (builder card 7h). Line and quilt-dachshund art stay; they're A-level.
 - 2026-10-20 06:46 UTC builder [B]: REDO 513 round 2 (director): SEE YOU / IN APRIL., punch scaled to the headline's full width (Big Shoulders 900, Sand + Sport Grey one dark-ink file). Widths headline 3240 px / punch 3240 px. Phone read ok. FW 1650 TOP 0, every variant synced on the new file, fronts replaced in place, copy unchanged. fal $0. Sheet docs/review/513.jpg.
 - 2026-10-20 07:55 UTC director: approved from docs/review/513.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: SEE YOU / IN APRIL. huge, both lines full width, burrowed dachshund under the quilt between them; one of the best type lockups in this batch, beats 493 on size.
+- 2026-10-23 14:50 UTC director: LIVE (bookkeeping): already ACTIVE on Shopify (redo in place, confirmed by Admin API today), approved earlier from its sheet. Not a new product, so outside the 6/day drip cap (R11.15).

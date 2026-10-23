@@ -1,4 +1,4 @@
-status: BUILDING [C] 2026-10-21 15:54 UTC
+status: READY
 cover: fal-swap
 lane: C
 type: twin
@@ -29,3 +29,4 @@ push: zip
 ---
 ## Log
 - 2026-10-21 14:55 UTC director: brief written, READY (zip twin, lane C, push: zip; $0 fal; R11.12 unmeasured-phrase waiver after keyword-gap.py; registry rows claimed).
+- 2026-10-23 15:00 UTC director: stale claim released (BUILDING since 2026-10-21, no lane commit for ~46 h). A Shopify draft for this handle already exists from that session (zip twins 946-954); finish it in place, never a second product. Check it against builder 7m before REVIEW.

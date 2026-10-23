@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15371977457968
 cover: fal-swap
 lane: C
@@ -37,3 +37,4 @@ push: zip
 - 2026-10-21 12:45 UTC director: REDO. 1. R5.3.4 (every element reads instantly): the chest mark, a golf ball ringed by short wavy crack lines, reads as a sun or a virus at phone size on the Black mockup, not a golf ball and a cracked windshield. Redraw it so it names the joke: a golf ball sitting in a spider-web windshield crack (straight radiating cracks plus one or two rings, no wavy rays, no dots at the ends), or simply a ball on a tee. Re-sync the chest file on all 18 variants, log the new file ids, remake the sheet. 2. Back print, line and copy pass; copy only changes if it names the chest mark. $0 fix.
 - 2026-10-21 13:03 UTC builder [C]: REDO done, REVIEW. Director REDO (builder 7t, the cracked-ball chest mark read as a sun or a virus): the chest icon is now a plain golf ball with dimples sitting on a tee (the director's second option), 3.50 x 3.91 in. Title, SEO, Story, bullet, chest FAQ and care FAQ now name 'a small golf ball on a tee' instead of crack lines. The back print, line and the rest of the copy are unchanged. Printful 18/18 verified from GET /sync/products (scripts/c-verify.py): Ash back 1091097306 / chest 1091097195 / wrist 1091097255; Black and Navy back 1091097351 / chest 1091097072 / wrist 1091097132; chest 3.50 x 3.91 in (area 4 x 4 in), thinnest stroke 7.79 mm. Photos on the DRAFT swapped in place with the new mockups. $0 fal.
 - 2026-10-21 13:29 UTC director: approved from docs/review/906.jpg, held at REVIEW (6-LIVE cap). Chest is now a dimpled ball on a tee, reads as golf at phone size (7t fixed); back unchanged and A-grade.
+- 2026-10-23 14:50 UTC director: LIVE (drip cap, Oct 23 Chicago day, thin-niche order: trades/fishing/golf zips, women's dog). Re-read docs/review/906.jpg; ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS (1 warn: no lifestyle cover). https://graphicteesco.com/products/unisex-golf-sorry-about-your-windshield-embroidered-zip-hoodie/ Copy fix first: line two said "argyle sweater", the art shows patterned trousers (R8.3).

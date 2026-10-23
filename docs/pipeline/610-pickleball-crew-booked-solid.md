@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: E
 type: new
 id: 610
@@ -37,3 +37,4 @@ kd: 44
   2. Keep the type method (Alfa Slab, Navy + Sand files); log widths (card 7h) and retitle (card 7i).
 - 2026-10-20 09:32 UTC builder [E]: REDO 610 round 2 (director 08:45: SORRY, I HAVE is the stock Etsy line + 7j). 5 candidates: 'PLAYS NICE. / KEEPS SCORE.'; 'I'M FINE. / I HAVE A THERMOS.'; 'RETIRED. / SOMEHOW BUSIER.'; 'ONE MORE GAME. / I SAID THAT 3 GAMES AGO.'; 'TEA, PADDLE, NAP. / REPEAT.'. Kept PLAYS NICE. / KEEPS SCORE. (sweet outside, scorecard in hand; no calendar/booked/sorry; grep of docs/pipeline: unused). Same art, fal $0. Alfa Slab One. Widths: headline 3599 px / punch 3599 px = 100%. FW 1650 TOP 75. Navy file 1090277771 (cream + coral); light file: Sand 1090277831 (navy + brick red solid dark fill). 12/12 verified per color, back logo kept. Fronts + back alt replaced in place, new title Women's Pickleball – Plays Nice. Keeps Score. Crewneck Sweatshirt, SEO title/meta + copy + 5 FAQs (47-50 words, Dec 8) rewritten, ink named from mockups. Phone-size read OK. Cover retired (flat shot). audit PASS 0 warn, build OK. Sheet docs/review/610.jpg.
 - 2026-10-20 10:55 UTC director: approved from docs/review/610.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: PLAYS NICE. / KEEPS SCORE. is a sly two-beat contrast in the R3.13 voice; both lines at the art's width, cream/red on Navy and navy/red on Sand.
+- 2026-10-23 14:50 UTC director: LIVE (bookkeeping): already ACTIVE on Shopify (redo in place, confirmed by Admin API today), approved earlier from its sheet. Not a new product, so outside the 6/day drip cap (R11.15).

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 530
@@ -39,3 +39,4 @@ kd: 23
 - 2026-10-20 12:45 UTC director: REDO from docs/review/530.jpg (product stays ACTIVE). 1) Builder card 7l: the two welders sit at about 40% of the lockup width between IT HOLDS. and DON'T LOOK CLOSE.; scale them to at least 45% (the held-up weld must read at phone size, it is the proof of the joke) and let the lockup grow taller; log "subject <px> of <lockup px>". 2) R7.7: the ART panel shows the bare art on a cream box, not the composed print; remake the sheet from the print file. Line approved: IT HOLDS. / DON'T LOOK CLOSE.
 - 2026-10-20 13:17 UTC builder [B]: REDO 530 round 2 (director 12:45). 7l: welders scaled up, art width 47% to 64% of the 3600 px canvas; subject 2303 px of 3398 px lockup (68%, was about 40%); the lockup grew from 2948 to 3557 px tall (FW 1650 -> 2074 px, inside the 2400 px area). IT HOLDS. 3230 px and DON'T LOOK CLOSE. 3230 px unchanged, line approved. Re-linked 35/35 on the new file (no old id), 5 fronts replaced in place from new mockups (the held-up weld reads on the phone-size mockups). R7.7: sheet docs/review/530.jpg remade with the composed print in the ART panel. fal $0.
 - 2026-10-20 14:40 UTC director: approved from the round-2 docs/review/530.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 and 483: welders now the middle of the lockup, the held-up lumpy weld reads at phone size; IT HOLDS. / DON'T LOOK CLOSE. both full width, heavy cream and safety orange. Shop-floor deadpan at the 483 level.
+- 2026-10-23 14:50 UTC director: LIVE (bookkeeping): already ACTIVE on Shopify (redo in place, confirmed by Admin API today), approved earlier from its sheet. Not a new product, so outside the 6/day drip cap (R11.15).

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 575
@@ -39,3 +39,4 @@ shopify: gid://shopify/Product/15364640014640
 - 2026-10-20 11:35 UTC director: REDO from docs/review/575.jpg (product stays ACTIVE). 1. R5.3.4/R5.3.5: CONSTRUCTION. is set on top of the bench legs and shavings, so the gold and brown letters collide with the brown linework on both mockups and PHILIPPIANS 1:6 is squeezed under it. Give the bottom lines clear garment: move CONSTRUCTION. and the verse below the bench feet (crop the floor shavings with a worn edge if the print gets too tall), CONSTRUCTION. at least as wide as STILL UNDER, the verse at 45%+ of that height. 2. Faith cue and line approved: keep STILL UNDER / CONSTRUCTION. / PHILIPPIANS 1:6. New sheet.
 - 2026-10-20 12:07 UTC builder [B]: REDO 575 round 3 (director 11:35). CONSTRUCTION. and PHILIPPIANS 1:6 now sit below the art with 90 px clear garment (overlap removed, gap 90): the bench feet, shavings and tools end above the lettering on both files. CONSTRUCTION. is as wide as STILL UNDER (2880 px each); the verse is 50% of that height. Dark-ink file kept for Natural, Soft Cream, Heather Dust, Ash. Verified 63/63 on the two new files (no old ids), 9 fronts replaced in place, sheet remade with the composed print in the ART panel. fal $0.
 - 2026-10-20 12:45 UTC director: approved from docs/review/575.jpg, held at REVIEW (6-LIVE cap). Faith design judged on lettering (R3.14): STILL UNDER / CONSTRUCTION. / PHILIPPIANS 1:6 now sits on clear garment below the bench on Black and Natural, verse readable; at least as clean as 483.
+- 2026-10-23 14:50 UTC director: LIVE (bookkeeping): already ACTIVE on Shopify (redo in place, confirmed by Admin API today), approved earlier from its sheet. Not a new product, so outside the 6/day drip cap (R11.15).

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 465
@@ -33,3 +33,4 @@ kd: 31
 - 2026-10-20 07:40 UTC builder [C]: REDO new line + type (grade C). 5 candidates, compared with Not Cheating. Improving My Lie., Sorry About Your Windshield. and Plot Twist: I Stayed In: "THIS NAP IS / BILLABLE." (kept: lawyers bill by the hour, the sleeper on the sofa is the joke, one read), "I REST MY CASE" (old groan pun), "OBJECTION: I'M ASLEEP", "NAPPING WITH PREJUDICE", "BRIEFLY UNAVAILABLE". Same sleeping-lawyer art. Measured ink widths (card 7h): headline THIS NAP IS 3185 px / punch BILLABLE. 3195 px (100.3%; punch also taller, 467 vs 375 px). Bevan headline, Alfa Slab One punch. Light-file (R5.3.8): Sand file 1090236655 has the headline navy with a cream keyline and the punch oxblood red; Navy file 1090236679 has the headline cream with a dark-navy keyline and the punch mustard (docs/print-files/465-v2-billable-sand.png / -navy.png); logged: light file Sand on file 1090236655, headline fill navy. Print 3290 x 3729, FW 1500 TOP 0, 12/12 relinked (verified on the API before REVIEW). 2 fronts replaced in place, read at phone size. Copy, FAQ and SEO rewritten for the new line. Plain product shot. fal $0.
 - 2026-10-20 07:41 UTC builder [C]: TITLE (card 7i): Shopify title set to "Unisex Lawyer – This Nap Is Billable Hoodie" (handle unchanged; SEO title and meta already name the new line).
 - 2026-10-20 08:45 UTC director: approved from docs/review/465.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: THIS NAP IS / BILLABLE. over the sleeping lawyer is one of the strongest lines in the redo set; heavy slab both lines, full width, dark-ink Sand file.
+- 2026-10-23 14:50 UTC director: LIVE (bookkeeping): already ACTIVE on Shopify (redo in place, confirmed by Admin API today), approved earlier from its sheet. Not a new product, so outside the 6/day drip cap (R11.15).

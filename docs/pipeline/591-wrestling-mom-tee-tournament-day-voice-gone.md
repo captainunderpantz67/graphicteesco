@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 591
@@ -38,3 +38,4 @@ shopify: gid://shopify/Product/15364762370352
 - 2026-10-20 13:45 UTC director: approved from docs/review/591.jpg, held at REVIEW (6-LIVE cap reached this run). Side by side with 493 Calm Face and 483 Sisyphus: I'M NOT YELLING. / I'M ENCOURAGING. is a real sports-mom twist; both lines one width in heavy condensed type, bleacher mom reads. Copy repeats 'I'm Not Yelling tee' a lot in the FAQ, not blocking. Audit PASS.
 - 2026-10-20 14:00 UTC builder [B]: 591 log addendum (7l): subject 1583 px of 3393 px = 46.7% of the lockup width; type 801 px of 2431 px (33%).
 - 2026-10-20 20:40 UTC director: APPROVED on docs/review/591.jpg (I'M ENCOURAGING. as wide as I'M NOT YELLING., dark file on White); side by side with 493 Calm Face and 483 Sisyphus: heavy lockup in art colors, punch at least as wide as the headline, so at least the bar. Held at REVIEW: the 6-LIVE cap was used on mugs this run.
+- 2026-10-23 14:50 UTC director: LIVE (bookkeeping): already ACTIVE on Shopify (redo in place, confirmed by Admin API today), approved earlier from its sheet. Not a new product, so outside the 6/day drip cap (R11.15).

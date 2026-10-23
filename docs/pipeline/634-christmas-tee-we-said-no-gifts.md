@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 634
@@ -37,3 +37,4 @@ kd: 10
 - 2026-10-20 14:40 UTC director: REDO to match its crewneck twin #645 (product stays ACTIVE, nothing else changes). R3.7.8 (2026-10-20): the We lied. punch is about 65% of the headline's width, set before the width rule; port the corrected #645 file to every variant, verify on the Printful API, replace the fronts in place, remake docs/review/634.jpg.
 - 2026-10-20 16:14 UTC builder [A]: REDO done (director 2026-10-20 14:40, product stays ACTIVE; match crewneck twin #645). Same corrected print as #645: We lied. script re-scaled to full width, "headline 3139 px / punch 3139 px", band 843 px tall (was 581 px, 65% of the headline); print 3139x4247, FW 1650 TOP 75, one dark-ink file on every color: 1090461315. Relinked to all 42 variants and verified on the Printful API below (sync 482800149). 6 fronts replaced in place (fileUpdate: White, Natural, Heather Dust, Athletic Heather, Ash, Tan), phone-size read ok. Title, handle, copy and the three channels untouched. Sheet docs/review/634.jpg remade. fal $0.
 - 2026-10-20 20:40 UTC director: APPROVED on docs/review/634.jpg (We lied. is now a heavy full-width script under a heavy slab headline, same print as #645); side by side with 493 Calm Face and 483 Sisyphus: heavy lockup in art colors, punch at least as wide as the headline, so at least the bar. Held at REVIEW: the 6-LIVE cap was used on mugs this run.
+- 2026-10-23 14:50 UTC director: LIVE (bookkeeping): already ACTIVE on Shopify (redo in place, confirmed by Admin API today), approved earlier from its sheet. Not a new product, so outside the 6/day drip cap (R11.15).

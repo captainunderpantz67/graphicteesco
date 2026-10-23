@@ -1,4 +1,4 @@
-status: REVIEW
+status: PARKED
 lane: B
 type: redo
 id: 876
@@ -24,3 +24,4 @@ push: camo
 - 2026-10-21 10:45 UTC [B]: NOT BUILT, blocked: the old lettering (multi-color drip caps) overlaps the boot tops and shares the boots' palette, so print-prep cannot lift it off without cutting the boots; the brief's fallback is one Recraft flat redraw and the fal wallet is exhausted (403 'Exhausted balance'). Stays READY for the first run after a top-up.
 - 2026-10-21 14:08 UTC [B]: BUILT IN PLACE (one Recraft flat call, $0.04, first try). Art: white cowboy boots with blaze-orange stars and stitching kicking up a black-outlined dust cloud, 3 inks, on ONE bone patch with ~0.2 in black outline (scripts/b-camo-lockup.py --top, PHR 0.76; the script now maps enclosed white to the patch bone); teal, tan and the drip lettering are gone. New line per brief: KICK UP DUST. above the patch, SETTLE NOTHING. below, Alfa Slab bone with dark keyline; widths (7h) 3357 / 3357 px = 100%. Subject 2510 of 3400 px = 74% (7l); canvas 3400x3419. FW 1500 TOP 0. R7.7: 14/14 on 1091144055, back logo 1080398177 on 14/14 (Forest Camo + Black Camo x XS-3XL). Mockups remade, replaced in place, phone-size read OK on Black Camo and Forest. New title (7i): Women's Western – Kick Up Dust. Settle Nothing. Camo Hoodie; SEO title kept (keyword), meta names both lines; copy written against the new art with the Dec 8 gift line. Handle added to retired-covers.json. Cohesion audit --handle PASS (0 warn). docs/review/876.jpg shows Forest, Black, back.
 - 2026-10-21 14:40 UTC director: approved from docs/review/876.jpg, held at REVIEW. Boots kicking a dust cloud read instantly; KICK UP DUST. / SETTLE NOTHING. both 100% width in keyed bone slab; reads on Forest and Black Camo. At least as good as 475 Horse Girl (A): self-aware western line, cleaner art.
+- 2026-10-23 14:50 UTC director: PARKED, superseded: Sam rejected the camo patch template on 2026-10-22 (docs/backlog/camo-redo.md). This hoodie is redone in place from its parent item on the camo-redo list (own style, A/B placement, new fal photos); this old approval is void. Product stays ACTIVE.

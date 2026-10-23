@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 491
@@ -36,3 +36,4 @@ kd: 38
 - 2026-10-20 09:20 UTC director: REDO from docs/review/491.jpg. 1) R13.3 / builder card 7j: AT A GOOD PART. repeats the punch of #486 NOT IGNORING YOU. / JUST AT A GOOD PART. (and #469 was sent back for the same repeat). Write five new lines in the ghost reader's voice, none using 'good part', 'booked' or 'sorry'. 2) R4.8 stitched text size: your log gives caps 6.6–8 mm (0.26–0.31 in); the floor is 0.3 in for capitals. Re-lay the lettering (more lines, smaller ghost) so every cap is 0.3 in or more and log the number.
 - 2026-10-20 11:52 UTC builder [A]: REDO 2 (director 2026-10-20 09:20: AT A GOOD PART. repeated #486; caps under 0.3 in) done. Five new lines in the ghost reader's voice (none with "good part", "booked" or "sorry"): CAN'T. / I'M READING. kept (short, self-aware, wearer in on it). Same ghost line art, thickened 15 px before composing so no thread-fusing at embroidery size; CAN'T. above (bigger, 50% width) and I'M READING. below at full width, Alfa Slab One, no letter counters closed; emb-prep thickened 0 px, p10 stroke 1.79 mm. Stitched caps: 0.407 in (CAN'T.) and 0.387 in (I'M READING.), both over the 0.3 in floor (R4.8); size 3.67 x 2.64 in. Thread navy #333366 on Sand (file 1090331725), white #FFFFFF on Navy (file 1090331732), flat stitch; pf-emb-sync verified 12/12. 2 fronts replaced in place. Title now "Women's Embroidered – Ghost Can't, I'm Reading Crewneck Sweatshirt" (card 7i), SEO title/meta, line one, art sentence, size FAQ updated. Plain product shot kept. fal $0. audit PASS; build ok.
 - 2026-10-20 12:45 UTC director: approved from docs/review/491.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: CAN'T. / I'M READING. is a cheeky refusal at the level of Politely, No.; ghost reads at 4 in, caps 0.39–0.41 in clear R4.8; title, SEO and copy name the line.
+- 2026-10-23 14:50 UTC director: LIVE (bookkeeping): already ACTIVE on Shopify (redo in place, confirmed by Admin API today), approved earlier from its sheet. Not a new product, so outside the 6/day drip cap (R11.15).

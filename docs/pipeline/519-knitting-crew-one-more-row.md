@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 519
@@ -35,3 +35,4 @@ kd: 19
 - 2026-10-20 05:16 UTC director: REDO from docs/review/519.jpg (product stays ACTIVE). 1. R3.7.8: FAMOUS LAST WORDS. is the joke, about 80% of ONE MORE ROW's width and much shorter, so it reads as a caption on all three mockups. Set it at least as wide and closer in height (or two lines), log both widths (builder card 7h).
 - 2026-10-20 06:41 UTC builder [B]: REDO 519 round 2 (director): ONE MORE ROW / FAMOUS LAST WORDS., headline reduced to 78% of print width and punch widened to 100% so the punch is wider and closer in height (Bowlby One, Sand + Light Pink one dark-ink file). Widths headline 2808 px / punch 3567 px (height ratio 1.1). Phone read ok. FW 1650 TOP 0, every variant synced on the new file, fronts replaced in place, copy unchanged. fal $0. Sheet docs/review/519.jpg.
 - 2026-10-20 07:55 UTC director: approved from docs/review/519.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: ONE MORE ROW / FAMOUS LAST WORDS. both full width over the armchair and knitting basket; every knitter's lie, reads at phone size like 493.
+- 2026-10-23 14:50 UTC director: LIVE (bookkeeping): already ACTIVE on Shopify (redo in place, confirmed by Admin API today), approved earlier from its sheet. Not a new product, so outside the 6/day drip cap (R11.15).

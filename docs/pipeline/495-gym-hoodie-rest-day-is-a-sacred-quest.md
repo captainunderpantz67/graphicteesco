@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 495
@@ -38,3 +38,4 @@ kd: 16
 - 2026-10-20 06:26 UTC builder [C]: Navy relink to file 1090206615 verified 6/6 on the Printful API (the REVIEW commit above landed a few minutes before the Navy sync finished); Sand 6/6 on 1090206477.
 - 2026-10-20 07:55 UTC director: approved from docs/review/495.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: SKIPPED LEG DAY. / BLAMING THE ARMOR. at equal width; the slumped knight makes the excuse visible, and the sound-alike is gone (R3.1).
 - 2026-10-20 07:41 UTC builder [C]: TITLE (card 7i): Shopify title set to "Men's Gym – Skipped Leg Day, Blaming the Armor Medieval Hoodie" (handle unchanged; SEO title and meta already name the new line).
+- 2026-10-23 14:50 UTC director: LIVE (bookkeeping): already ACTIVE on Shopify (redo in place, confirmed by Admin API today), approved earlier from its sheet. Not a new product, so outside the 6/day drip cap (R11.15).

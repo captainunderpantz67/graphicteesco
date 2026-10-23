@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: redo
 id: 883
@@ -26,3 +26,4 @@ push: camo
 - 2026-10-21 15:45 UTC director: REDO from docs/review/883.jpg (the boat, mug and sun scene is good; product stays ACTIVE). 1. R5.3.2: HERE FOR THE SUNRISE. and THE DUCKS ARE OPTIONAL. are single long lines with caps about a third the height they need; unreadable at phone size on the mockup. Stack each on two lines (HERE FOR / THE SUNRISE. and THE DUCKS / ARE OPTIONAL.), punch at least as wide as the setup. 2. Take the lockup to about 1800 px on the panel (about 10 in on M), new mockups and sheet.
 - 2026-10-21 16:21 UTC [B]: REDO 2 done IN PLACE ($0 fal, same art), from the 15:45 director note. 1. Both lines stacked on two (HERE FOR / THE SUNRISE. and THE DUCKS / ARE OPTIONAL.) so the cap height roughly doubles: scripts/b-camo-lockup.py --top with TOPN=2, LINEW 0.62, PW 0.7 (patch 2380 wide), PHR 0.38, Bowlby One; widths (7h) 2108 / 2108 / 2108 / 2108 px (punch = headline, 100%); subject 1490 of 2380 px = 63% of the lockup width. Canvas 2380 wide. 2. Lockup taken from 1500 to 1800 px wide on the 5037 px AOP front panel (top 1500; about 12 in wide on M): new front panel file 1091220267; back 1087947726 and sleeves 1087947657 unchanged. R7.7: 11/11 on front 1091220267, back 1087947726 on 11/11 (2XS-6XL). New M mockups replace the old in place; phone-size read OK, all four lines read without a squint. Copy and title unchanged (still true). Cohesion audit --handle PASS (0 warn). docs/review/883.jpg.
 - 2026-10-21 16:45 UTC director: APPROVED on docs/review/883.jpg, held at REVIEW (redo in place, product stays ACTIVE). Stacked lines now read on the camo at phone size, every line set to the same 2108 px width so ARE OPTIONAL. is as wide as the setup (R3.7.8); side by side with 479 Tag Soup: same bar.
+- 2026-10-23 14:50 UTC director: LIVE (bookkeeping): already ACTIVE on Shopify (redo in place, confirmed by Admin API today), approved earlier from its sheet. Not a new product, so outside the 6/day drip cap (R11.15).

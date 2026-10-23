@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: redo
 id: 874
@@ -24,3 +24,4 @@ push: camo
 - 2026-10-21 10:45 UTC [B]: NOT BUILT this run (AOP item). The live front panel is a flat 5037x6600 jpg; I confirmed the chest art can be recovered by differencing it against the plain pattern panel (designs/aop_extract.py), but the arched or overlapping lettering needs a Recraft redraw for 875, 878 and 884 and the fal wallet is exhausted, and the AOP sync/mockup path (b-aopgo.sh) was not run in this session. Stays READY.
 - 2026-10-21 14:36 UTC [B]: BUILT IN PLACE (AOP sweatshirt #1418, one Recraft flat call $0.04, first try). Art: one glossy hot-pink coquette bow with notched tails, black outlines, white highlights (inks: hot pink, black, white; the brief allows the hot pink as the single accent), on ONE bone patch with ~0.2 in black outline (scripts/b-camo-lockup.py --top, PHR 0.72); lettering BLENDING IN above, IS OVERRATED. below, Bevan bone with dark keyline, widths (7h) 3358 / 3358 px = 100%. Subject 1740 of 3400 px = 51% (7l). Front panel = the plain woodland pattern panel (file 1087947657) with the 3400x3327 lockup pasted at 1500 px wide, top 1700 (the old print's box; new scripts/b-aopredo.sh), uploaded as file 1091159400; back 1087947726 and sleeves 1087947657 unchanged. R7.7: 11/11 on front 1091159400, back 1087947726 on 11/11 (2XS-6XL). New M mockups replaced in place (front + back), phone-size read OK (bow and both lines read on the camo). Copy rewritten (no cream backing, no hand-drawn pink lettering), SEO updated, Dec 8 gift line; title unchanged (same line). Cohesion audit --handle PASS (0 warn). docs/review/874.jpg.
 - 2026-10-21 15:45 UTC director: APPROVED on docs/review/874.jpg, held at REVIEW for the cap (product stays ACTIVE). Side by side with 493 Calm Face and 483 Sisyphus: hot-pink bow on one bone patch, IS OVERRATED. at 100% of BLENDING IN, both read on the woodland AOP.
+- 2026-10-23 14:50 UTC director: LIVE (bookkeeping): already ACTIVE on Shopify (redo in place, confirmed by Admin API today), approved earlier from its sheet. Not a new product, so outside the 6/day drip cap (R11.15).

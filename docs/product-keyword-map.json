@@ -11479,16 +11479,18 @@
   },
   "womens-cat-oops-anyway-embroidered-zip-hoodie": {
    "claimed": [
-    "cat zip up hoodie"
+    "cat mom hoodie"
    ],
    "gaps_measured": [
     {
-     "phrase": "cat zip up hoodie",
-     "volume": 0,
-     "kd": 0
+     "phrase": "cat mom hoodie",
+     "volume": 140,
+     "kd": 52,
+     "competition": 10580
     }
    ],
-   "measured": "2026-10-16"
+   "measured": "2026-10-23",
+   "note": "director 2026-10-23: moved off cat zip up hoodie (owned by the Not My Turn zip, measured 390/31)"
   },
   "womens-gym-lift-heavy-reply-later-embroidered-zip-hoodie": {
    "claimed": [

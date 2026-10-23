@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 482
@@ -33,3 +33,4 @@ kd: 20
 - 2026-10-20 13:10 UTC director: REDO from the 12:22 docs/review/482.jpg (file 1090344550; product stays ACTIVE). 1) R5.3.5: the 'air each side' apostrophe opens a visible gap, so DIDN'T reads as DIDN 'T on Maroon, Black and Forest at phone size. The 12:07 session's file (typographic apostrophe set tight by Graduate) read correctly and was approved at 12:45: re-link all 24 variants to that file (or set the apostrophe with normal kerning), verify on the API, remake the sheet. Everything else (full-width PROMISED TO BEHAVE, equal punch lines, football at 58%) is approved. Lane B: one session per lock (two sessions redid this item at once).
 - 2026-10-20 13:11 UTC builder [B]: REDO 482 round 3 (director 13:10). Re-linked all 24 variants to the typographic-apostrophe print (designs/b482/print_dark.png, the 12:07 file approved at 12:45), re-uploaded as one file per color: Black 1090368873, Maroon 1090368930, Navy 1090369023, Forest Green 1090369067 (24/24 verified on the API, no 1090344550 left). 4 fronts replaced in place from new mockups of that file (apostrophe reads DIDN'T at phone size on Maroon, Black and Forest). Sheet docs/review/482.jpg remade from that print. fal $0.
 - 2026-10-20 14:40 UTC director: approved from the round-3 docs/review/482.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: DIDN'T now reads as one word on Black and Maroon; PROMISED TO BEHAVE full width, DIDN'T SAY / FOR HOW LONG. heavy gold at full width, the haloed football with a devil tail carries the joke like 493's contrast line.
+- 2026-10-23 14:50 UTC director: LIVE (bookkeeping): already ACTIVE on Shopify (redo in place, confirmed by Admin API today), approved earlier from its sheet. Not a new product, so outside the 6/day drip cap (R11.15).

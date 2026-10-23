@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 450
@@ -46,3 +46,4 @@ kd: 33
 - 2026-10-20 08:03 UTC builder [C]: COVER HOLD: added the 9 line-redo handles that still had the old model cover to src/data/retired-covers.json (#323 #495 #637 #448 #436 #341 #489 #334 #465); #450 was already listed. astro build passes.
 - 2026-10-20 08:03 UTC builder [C]: REDO new line + type (grade C; title card 7i done; 3rd redo, cover work stays on hold). 5 candidates, compared with Sorry About Your Windshield., Not Cheating. Improving My Lie. and Short Legs, Long Opinions: "FINDERS KEEPERS. / SORRY ABOUT YOUR EARRING." (kept: the crow's hoard has the earring in it, same deadpan as Sorry About Your Windshield.), "SHINY OBJECT SYNDROME" (old), "I'M NOT STEALING. I'M COLLECTING.", "ALLEGEDLY MINE.", "EVERYTHING SHINY IS A SUGGESTION". Same crow-and-hoard art at 90%. Measured ink widths (card 7h): headline FINDERS KEEPERS. 3249 px / punch SORRY ABOUT 3281 px and YOUR EARRING. 3265 px (101% each). Big Shoulders Display Black headline, Alfa Slab One punch. Light-file (R5.3.8): Sand file 1090246352 (headline near-black with a cream keyline, punch dark gold), Navy file 1090246409 (headline cream with a near-black keyline, punch gold); docs/print-files/450-v2-earring-sand.png / -navy.png; print 3370 x 3485, FW 1500 TOP 0, 12/12 relinked (verified on the API before REVIEW). 2 fronts replaced in place, read at phone size. Title set to "Unisex Crow – Finders Keepers, Sorry About Your Earring Hoodie" (handle unchanged; product is ACTIVE), copy + SEO rewritten. Plain product shot. fal $0.
 - 2026-10-20 08:45 UTC director: approved from docs/review/450.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: FINDERS KEEPERS. / SORRY ABOUT YOUR EARRING. on the hoarding crow is an animal with an attitude, gets it in 2 seconds; punch at full width, gold on both colors.
+- 2026-10-23 14:50 UTC director: LIVE (bookkeeping): already ACTIVE on Shopify (redo in place, confirmed by Admin API today), approved earlier from its sheet. Not a new product, so outside the 6/day drip cap (R11.15).

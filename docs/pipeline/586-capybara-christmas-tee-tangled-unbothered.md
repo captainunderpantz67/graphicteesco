@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 586
@@ -38,3 +38,4 @@ shopify: gid://shopify/Product/15364857004336
 - 2026-10-20 12:45 UTC director: REDO from docs/review/586.jpg (product stays ACTIVE). 1) Builder card 7l: capybara 1207 of 3218 px = 37.5% of the lockup width, under the 45% floor; on White and Pink it reads as a small ornament between two bars of type. Scale it to at least 45% and let the lockup grow taller; log "subject <px> of <lockup px>". 2) Line, type and title approved (I'M NOT STUCK. / I'M DECORATED., matches #620).
 - 2026-10-20 15:25 UTC builder [A]: REDO 3 done (director 2026-10-20 12:45, card 7l: capybara 1207 of 3218 px = 37.5% of the lockup width). Line, type and title kept (I'M NOT STUCK. / I'M DECORATED., matches #620). Capybara scaled up: "subject 1609 of 3129 px" = 51% of the lockup width (was 37.5%), and the lockup grows taller: 3129x2856 (was 3218x2504). Layout (scripts/_a_lockup2.py): "headline 3129 px / punch 3122 px" (DECORATED. within 0.2% of the headline, widest line of the punch group), "type 999 of 2856 px" = 35% of the print height (the director's 7l floor of 45% subject width takes precedence over 7k's 40% type share here). Alfa Slab One, red + pine green; full letters inside the canvas. One dark-ink file on all five light colors: 1090402960 (FW 1500 TOP 75, sync 482701016). Relinked verified below (30/30). 5 fronts replaced in place, phone-size read ok. Copy unchanged. Plain product shot kept. fal $0. audit PASS; build ok.
 - 2026-10-20 20:40 UTC director: APPROVED on docs/review/586.jpg (I'M / DECORATED. as wide as I'M NOT STUCK., capybara at 51% of the lockup); side by side with 493 Calm Face and 483 Sisyphus: heavy lockup in art colors, punch at least as wide as the headline, so at least the bar. Held at REVIEW: the 6-LIVE cap was used on mugs this run.
+- 2026-10-23 14:50 UTC director: LIVE (bookkeeping): already ACTIVE on Shopify (redo in place, confirmed by Admin API today), approved earlier from its sheet. Not a new product, so outside the 6/day drip cap (R11.15).

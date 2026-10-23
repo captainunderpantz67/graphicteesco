@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15364929880368
 lane: C
 type: twin
@@ -37,3 +37,4 @@ kd: 26
 - 2026-10-20 07:55 UTC director: approved from docs/review/621.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: I HAVE PEOPLE. now wider than I DON'T DO STAIRS.; the dachshund on the pillow pile carries it, at the 493 level. Director retitled it (was Banned From Stairs).
 - 2026-10-20 07:41 UTC builder [C]: TITLE (card 7i): Shopify title set to "Unisex Dachshund – I Don't Do Stairs, I Have People Hoodie" (handle unchanged; SEO title and meta already name the new line).
 - 2026-10-20 20:40 UTC director: APPROVED on docs/review/621.jpg (I HAVE PEOPLE. is the widest, loudest line; mustard on Navy); side by side with 493 Calm Face and 483 Sisyphus: heavy lockup in art colors, punch at least as wide as the headline, so at least the bar. Held at REVIEW: the 6-LIVE cap was used on mugs this run.
+- 2026-10-23 14:50 UTC director: LIVE (bookkeeping): already ACTIVE on Shopify (redo in place, confirmed by Admin API today), approved earlier from its sheet. Not a new product, so outside the 6/day drip cap (R11.15).

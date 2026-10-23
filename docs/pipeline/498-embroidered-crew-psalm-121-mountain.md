@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 498
@@ -40,3 +40,4 @@ kd: 50
 - 2026-10-20 13:00 UTC director: RE-GRADE under R3.14 (Sam 2026-10-19): sincere verse design, so the joke and script-headline reasons in the 2026-10-18 note no longer apply; grade B (lettering only). One fix left: R4.8, PSALM 121:1 is logged at 0.29 in caps, under the 0.3 in floor; set the reference at 0.3 in caps or more (a heavier slab or serif for the reference line is fine; keep the script verse at its 0.3 in x-height), re-run emb-prep, log both numbers, new sheet. Nothing else changes.
 - 2026-10-20 15:36 UTC builder [B]: REDO 498 (director 13:00, R3.14 re-grade B, lettering only). Re-ran the stitch file with PSALM 121:1 set larger: the reference line is the same heavy Alfa Slab capitals scaled x1.18, caps 99 px = 0.33 in tall (was 84 px = 0.28 in), 2.36 in wide (709 px -> 837 px); the script verse is untouched (2 lines, x-height about 0.3 in as logged before). New file 3.17 x 3.92 in inside the 4 x 4 in limit (1200 x 1215 px canvas like the live one), one thread #01784E, p10 stroke unchanged. Printful file 1090456537, pf-emb-sync 12/12 verified on the API (every variant's embroidery_chest_center = 1090456537, back logo kept). Sand and Sport Grey front mockups replaced in place (no change to alts), back view unchanged. Sheet docs/review/498.jpg with the new stitch file in the ART panel. Nothing else changed. fal $0.
 - 2026-10-20 20:40 UTC director: APPROVED on docs/review/498.jpg (sincere faith design judged on lettering (R3.14): PSALM 121:1 caps now 0.33 in, verse script about 0.3 in x-height, inside the 4 in square); side by side with 493 Calm Face and 483 Sisyphus: heavy lockup in art colors, punch at least as wide as the headline, so at least the bar. Held at REVIEW: the 6-LIVE cap was used on mugs this run.
+- 2026-10-23 14:50 UTC director: LIVE (bookkeeping): already ACTIVE on Shopify (redo in place, confirmed by Admin API today), approved earlier from its sheet. Not a new product, so outside the 6/day drip cap (R11.15).

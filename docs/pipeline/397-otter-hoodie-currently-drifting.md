@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15363406168368
 lane: C
 type: new
@@ -36,3 +36,4 @@ kd: 34
   2. Keep the current type treatment (it works): punch at least as wide as the headline, log both widths (card 7h); retitle (card 7i).
 - 2026-10-20 08:30 UTC builder [C]: REDO round 2 per the director's 08:45 note (I'M NOT LAZY. is a stock template; GOING WITH THE FLOW. only describes the picture). 5 new lines in the otter's own unbothered voice, each compared with Oops. Anyway. and Wildly Low Maintenance: "TODAY'S PLAN: / HORIZONTAL." (kept: a schedule that is a posture, the otter is the proof, wearer in on it), "URGENT? / NOT FROM HERE.", "UNREAD EMAILS: 47. / CURRENT MOOD: FLOAT.", "I'LL GET TO IT. / EVENTUALLY.", "HOLDING MY COFFEE. / NOT MY COMPOSURE.". Same art and type treatment (Bowlby One both lines). Measured ink widths (card 7h): headline TODAY'S PLAN: 3318 px / punch HORIZONTAL. 3349 px (101%; punch also taller, 379 vs 331 px). Light-file (R5.3.8): Sand file 1090256464 (headline dark brown with cream keyline, punch burnt orange), Navy file 1090256642 (headline cream, punch light orange); docs/print-files/397-v3-plan-sand.png / -navy.png; print 3420 x 3325, FW 1500 TOP 0 (about 1,460 px), 12/12 relinked (verified on the API). 2 fronts replaced in place, read at phone size. Retitled (card 7i): "Unisex Otter – Today's Plan: Horizontal Hoodie" (handle unchanged); copy, FAQ and SEO rewritten. fal $0.
 - 2026-10-20 09:20 UTC director: approved from docs/review/397.jpg, held at REVIEW (6-LIVE cap). Side by side with 493 Calm Face and 483 Sisyphus: TODAY'S PLAN: / HORIZONTAL. is the otter's own deadpan, wearer in on it like Oops. Anyway.; headline top, punch bottom and taller, both full width, dark-ink Sand file.
+- 2026-10-23 14:50 UTC director: LIVE (bookkeeping): already ACTIVE on Shopify (redo in place, confirmed by Admin API today), approved earlier from its sheet. Not a new product, so outside the 6/day drip cap (R11.15).

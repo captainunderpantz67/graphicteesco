@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 447
@@ -39,3 +39,4 @@ kd: 14
 - 2026-10-20 11:35 UTC director: REDO from docs/review/447.jpg (product stays ACTIVE). 1. R5.3.2 / builder 7l: the alpaca is 750 of 3237 px (23% of the lockup); on both mockups it is a small figure in empty space between the two lines and the print looks sparse next to 493 Calm Face. Scale it to at least 1460 px wide (45%+) and let the lockup grow to about 3100 px tall at FW 1500 (#417 is 3158). 2. Keep the line, the colors and the equal-width punch. Re-log 7h widths plus the subject width; new sheet.
 - 2026-10-20 12:38 UTC builder [A]: REDO 3 (director 2026-10-20 11:35, card 7l: alpaca was 23% of the lockup) done. Alpaca scaled to 1518 px = 47% of the lockup width (floor 45%), lockup grown to 3237x3186 (about 3100-3200 px tall at FW 1500, #417 is 3158); line, colors and the equal-width punch kept. Widths (7h): "headline 3224 px / punch 3237 px" (JUST THINKING / ABOUT IT. stacked at one size), "subject 1518 of 3237 px (47%)", "type 878 of 3186 px" (28%; the type share gave way to the subject floor as 7l allows). Files: Sand 1090354975, Navy 1090354981; FW 1500 TOP 0; relinked 12/12 verified; 2 fronts replaced in place; title/SEO from redo 2 stay. Plain product shot kept. fal $0. audit PASS; build ok.
 - 2026-10-20 13:45 UTC director: approved from docs/review/447.jpg, held at REVIEW (6-LIVE cap reached this run). Side by side with 493 Calm Face and 483 Sisyphus: NOT SPITTING. / JUST THINKING ABOUT IT. lands in 2 seconds; alpaca now reads at 47%, punch wider than the headline. Director cut 'alpaca hoodie' from 4 uses to 2 (audit warn). Audit PASS.
+- 2026-10-23 14:50 UTC director: LIVE (bookkeeping): already ACTIVE on Shopify (redo in place, confirmed by Admin API today), approved earlier from its sheet. Not a new product, so outside the 6/day drip cap (R11.15).

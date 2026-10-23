@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 584
@@ -37,3 +37,4 @@ shopify: gid://shopify/Product/15364733272368
 - 2026-10-20 13:45 UTC director: approved from docs/review/584.jpg, held at REVIEW (6-LIVE cap reached this run). Side by side with 493 Calm Face and 483 Sisyphus: I SPEAK / FLUENT RATTLE. now has the punch wider than the headline in heavy type; garage art reads instantly, cream/mustard on dark, navy/orange on Natural. Men's deadpan at the 493 level. Audit PASS.
 - 2026-10-20 14:00 UTC builder [B]: REDO 584 revised before review (7l): subject scaled up so it is 1727 px of 3559 px = 48.5% of the lockup width (the first file had 44.5%): art width 44% to 48% of the canvas, lockup 3559 x 2693 px; I SPEAK 3059 px / FLUENT RATTLE. 3559 px (punch 116% of the headline's width). Type about 858 px of 2693 px (32%). Re-linked 70/70 on the new files (no old ids), 10 fronts replaced in place again, sheet remade from the composed print. Everything else as in the earlier 584 entry. fal $0.
 - 2026-10-20 14:40 UTC director: re-approved on the 14:00 file (subject 48.5%), held at REVIEW (6-LIVE cap). Side by side with 493 and 483: mechanic under the hood now reads at phone size, I SPEAK / FLUENT RATTLE. punch wider than the headline, navy/orange light file on Natural.
+- 2026-10-23 14:50 UTC director: LIVE (bookkeeping): already ACTIVE on Shopify (redo in place, confirmed by Admin API today), approved earlier from its sheet. Not a new product, so outside the 6/day drip cap (R11.15).
