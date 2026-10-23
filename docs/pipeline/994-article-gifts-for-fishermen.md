@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: outdoors
@@ -17,3 +17,4 @@ slug: gifts-for-fishermen
 - `npx astro build` passes (108 pages). Not done: intake-log lock line (run restricted to guides.ts and this file).
 ## Log
 - 2026-10-23 UTC writer: drafted, build passes.
+- 2026-10-23 23:20 UTC director: approved, draft line removed (Oct 23 Chicago article 1 of 2). gifts for fishermen 9,900 / KD 30, unowned since #566's retarget; facts checked against R12.1 prices and site policy; every product link 200. Director fix: /fishing-hoodies/ 404 -> /hoodies/fishing-hoodies/ (R14.1), same fix in #993.

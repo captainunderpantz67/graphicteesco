@@ -1065,7 +1065,7 @@ export const allGuides: Guide[] = [
       { h2: 'What are these fishing shirts made of?',
         body: ['The tees are Bella+Canvas 3001, a lightweight 4.2 oz tee in 100% combed ring-spun cotton (heather colors contain some polyester). The women\'s tee is a relaxed-fit Bella+Canvas 6400. The pullover hoodies and crewneck are an 8 oz cotton-polyester fleece, and the heavyweight hoodie is $49.99.',
           'These are graphic shirts, not performance gear. They are not rated for sun protection, so wear them on the boat ramp, at the bait shop and everywhere after, not as a UPF layer.'],
-        links: [{ href: '/fishing-hoodies/', text: 'Fishing hoodies' }] },
+        links: [{ href: '/hoodies/fishing-hoodies/', text: 'Fishing hoodies' }] },
       { h2: 'Which funny fishing shirt makes the best gift?',
         body: ['For the quiet one, Fishing Is My Love Language. Talking Isn\'t. For the one who naps on the dock, Technically Still Fishing. For the fly fisherman, Casting Doubt.',
           'Orders of $45 or more ship free in the US, so a tee and a hoodie together clear it. For a Christmas gift, order by Friday, December 4, 2026.'],
@@ -1098,7 +1098,6 @@ export const allGuides: Guide[] = [
     h1: 'Gifts for Fishermen Who Already Own Every Lure',
     date: '2026-10-23',
     cluster: 'outdoors',
-    draft: true,
     answer: 'A good gift for a fisherman who already has the gear is a shirt that jokes about fishing itself. Graphic Tees Co. has five, each matched to a kind of angler: Technically Still Fishing for the dock napper, Casting Doubt for the fly guy, Fishing Is My Love Language. Talking Isn\'t. for the quiet one, You Catching \'Em? No. Keep Walking. for the bank angler, and Should\'ve Been Here Yesterday for the storyteller. Tees are $24.99, hoodies start at $39.99, and each is printed after you order it.',
     picks: [
       {
@@ -1140,7 +1139,7 @@ export const allGuides: Guide[] = [
           { slogan: 'Should\'ve Been Here Yesterday', tee: 'mens-fishing-shouldve-been-here-yesterday-graphic-tee',
             text: 'A weathered old-timer holds his hands wide apart on a dock, empty stringer hanging, while a giant walleye leaps out of the water behind his back. The tee is $24.99.' },
         ],
-        links: [{ href: '/fishing-t-shirts/', text: 'All fishing t-shirts' }, { href: '/fishing-hoodies/', text: 'Fishing hoodies' }],
+        links: [{ href: '/fishing-t-shirts/', text: 'All fishing t-shirts' }, { href: '/hoodies/fishing-hoodies/', text: 'Fishing hoodies' }],
       },
     ],
     sections: [

@@ -1,4 +1,4 @@
-status: REVIEW
+status: PARKED
 lane: W
 type: article
 cluster: outdoors
@@ -16,3 +16,4 @@ slug: best-funny-fishing-shirts
 - `npx astro build` passes (108 pages; draft not built). Not done: docs/intake-log.md lock line (run restricted to guides.ts and this file).
 ## Log
 - 2026-10-23 UTC writer: drafted, build passes.
+- 2026-10-23 23:20 UTC director: PARKED as a near-duplicate of #994 (same 6 men's picks, same sections) and R2.1/R2.8: 'best funny fishing shirts' has no measurement and the head phrase 'funny fishing shirt(s)' is the Reel Talk tee's primary. Revisit when the /funny-fishing-shirts/ collection (R11.3, 3,600 / KD 37) is built: that page takes the head term, and an article would need its own measured angle.
