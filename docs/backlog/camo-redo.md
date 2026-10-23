@@ -10,6 +10,15 @@ Sam looked at every camo hoodie: 27 of 29 are the same template (cream box badge
 5. Redo in place on the existing product (builder step 2, type redo): new art, new Printful file and position, re-sync, new mockups, new cover, never a new product. Twins (#830-834, #900-902, #955) get their own camo art; the parent product stays as is.
 6. Review sheet shows the front mockup at phone size. The director sends back anything that looks like a sibling of another item in this list.
 
+## Lifestyle photos (Sam 2026-10-22: "Even the lifestyles of the camo are too high... worth getting right and using fal credit... one of our biggest gaps")
+The old camo covers copied the collar-high print. Every redo gets **two new AI lifestyle photos** (fal, scripts/fal-photo.py, seedream), image 1 (cover) and image 2. Old covers are replaced, never kept.
+1. **Only after the new print is synced.** Pass the NEW Printful front mockup (placement above) as `--design`. Never the old mockup or the old cover.
+2. **Prompt the placement:** "the print is centered on the chest, its top about three inches below the collar seam, about ten inches wide, hood visible behind the neck". For S8: "small print on the left chest near the side, about four inches wide".
+3. **Scenes that sell the joke, shot like a campaign:** real places at real light (deer stand at first light, duck blind in fog, tailgate at dusk, campfire at night, barn door, a fishing dock). Each of the 27 gets its own scene. One person or a couple from docs/model-registry.md never used before (R6.11), the audience the title names (Men's = man, Women's = woman, Unisex = man and woman). The garment's camo must be the blank's own pattern and color (Forest, Darkwood, Black, Duck), with the hood visible.
+4. **Reject and retry (up to 3 calls per photo)** if the top of the print is within about 2 in of the collar, if the print is clearly bigger or smaller than the mockup, if any letter is wrong at 200%, if a hand or hair touches the print, or if the camo is the wrong pattern. After 3 failed calls use the clean Printful flat shot for that slot and log it. Never a composite (R6.10).
+5. **Spend:** about $0.40 per hoodie (2 photos x up to 3 calls x $0.065), about $11 for all 27 plus art. Log every call; fal_budget.py stops you at the wallet limit.
+6. **Image order (R6.13):** cover, second lifestyle, front mockup per color, logo back last.
+
 ## Styles
 - **S1 Cinematic:** painted film-still scene, dramatic light (dawn fog, golden hour, flash at night), title in a poster serif.
 - **S2 Field guide:** vintage engraving or naturalist plate, serif or typewriter caption like a specimen label.
