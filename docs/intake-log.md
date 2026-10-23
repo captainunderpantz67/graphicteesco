@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-23 23:16 UTC
 2026-10-23 22:00 UTC — [B] Builder run end: 2 items, camo redo #1 #830 and #2 #303 re-done per Sam's 18:40 notes (wide A+ print, one-line B3 print, 4 lifestyle photos; both ACTIVE, director to confirm). fal $0.36. Lock released.
 2026-10-23 17:57 UTC — [B] REVIEW #303 Unisex Camping – Camp Security Camo Hoodie (camo-redo 2 of 27, S4, B3 FW625 TOP300, 14/14 on 1092975405, punch 104%, subject 82%, Playfair; photos fell back to flat shots). fal $0.38.
 2026-10-23 17:48 UTC — [B] REVIEW #830 Men's Outdoors – Camera Shy Sasquatch Camo Hoodie (camo-redo 1 of 27, S1, A+ FW1500 TOP400, 18/18 on 1092968285, punch 100%, subject 80%, Fraunces). fal $0.28.
