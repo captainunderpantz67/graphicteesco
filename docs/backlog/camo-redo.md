@@ -26,6 +26,13 @@ Half the redos print **A+** (center chest, FW 1500 = 10 in, TOP 400) and half pr
 - Lifestyle prompts follow the arm (A: centered, 10 in; B: small left chest near the side).
 - S8 (left chest minimal) items follow the arm too; on an A item, S8 becomes a bold one-icon center print.
 
+## Size and read checks (Sam 2026-10-23, after redos #1 and #2; required before REVIEW on every remaining item)
+- **A+ (center 10 in):** the print must read as 10 in wide. Ink bounding box at least 85% of FW at its widest row, main art at least 75%. No tall narrow scene blocks: recompose landscape or square. Punch line cap height at least 0.6 in (90 px at 150 dpi), solid, heavy.
+- **B3 (left chest):** the icon plus ONE short line, at most 3 words, cap height at least 0.35 in (53 px). Longer setup lines go in the title and copy, not on the chest. Art at least 70% of print height.
+- **Every item:** 2 fal lifestyle photos before REVIEW (an item with none is not done). Cans, cups and bottles must read as soda, water or coffee, never beer.
+- **Sheet:** a phone-size crop of the chest; every printed word must be readable in it.
+- **Director:** reject at REVIEW if any check above fails.
+
 ## Styles
 - **S1 Cinematic:** painted film-still scene, dramatic light (dawn fog, golden hour, flash at night), title in a poster serif.
 - **S2 Field guide:** vintage engraving or naturalist plate, serif or typewriter caption like a specimen label.
