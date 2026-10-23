@@ -278,3 +278,5 @@ docs/backlog/drawn-fixes.json holds 62 products: {id, handle, html}. Each "html"
 - 2026-10-22 22:10 UTC Claude (from Sam): the 27 camo pullover hoodies are REDO (docs/backlog/camo-redo.md). They all look templated and print too high. Each one gets its own art style, center chest 10 in at TOP 400 (or small left chest at the side seam for S8). Redos come first in the builder's 2-per-run slots, so new products pause until these are done (~5 days). Builder rule 7m covers every hoodie from now on.
 
 - 2026-10-22 22:40 UTC Claude (from Sam): camo redo is now a placement A/B test. Odd rows in docs/backlog/camo-redo.md print A+ (center 10 in), even rows B3 (left chest at the seam), tagged placement-a / placement-b. The winner on sales becomes the standard.
+
+- 2026-10-23 Claude (from Sam): back pocket, not urgent. Anime is the top early search signal ("hoodies anime", "anime graphic tees", "anime hoodie" lead the last 24h of Search Console). After the camo redo and the thin-niche list, the director considers an anime widening lane: measure volume and KD first (buy-the-bottom), original art only, no show characters, logos or names.
