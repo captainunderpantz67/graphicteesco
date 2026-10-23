@@ -25,7 +25,7 @@ def front_pos(variant_id, w, h):
     pf = call('GET', f'/mockup-generator/printfiles/{pid}')
     vp = next(x for x in pf['variant_printfiles'] if x['variant_id'] == variant_id)['placements']['front']
     a = next(x for x in pf['printfiles'] if x['printfile_id'] == vp); fw = min(a['width'], int(os.environ.get('FW', 1500)))
-    return {'area_width': a['width'], 'area_height': a['height'], 'width': fw, 'height': round(fw * h / w), 'top': int(os.environ.get('TOP', 75)), 'left': (a['width'] - fw) // 2}
+    return {'area_width': a['width'], 'area_height': a['height'], 'width': fw, 'height': round(fw * h / w), 'top': int(os.environ.get('TOP', 75)), 'left': int(os.environ['LEFT']) if os.environ.get('LEFT') else (a['width'] - fw) // 2}
 cmd = sys.argv[1]
 if cmd == 'upload':
     print(call('POST', '/files', {'url': sys.argv[2], 'filename': sys.argv[3], 'visible': True})['id'])

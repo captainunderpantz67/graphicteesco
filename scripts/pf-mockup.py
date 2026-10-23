@@ -17,7 +17,7 @@ pf = call('GET', f'/mockup-generator/printfiles/{cat}')
 vp = pf['variant_printfiles'][0]['placements']; P = {p['printfile_id']: p for p in pf['printfiles']}
 fa = P[vp['front']]; aw, ah = fa['width'], fa['height']
 fw = min(aw, int(os.environ.get('FW', 1500))); nh = round(fw * h / w)  # 10 in wide at 150 dpi, 0.5 in below the top of the print area
-files = [{'placement': 'front', 'image_url': fu, 'position': {'area_width': aw, 'area_height': ah, 'width': fw, 'height': nh, 'top': int(os.environ.get('TOP', 75)), 'left': (aw - fw) // 2}}]
+files = [{'placement': 'front', 'image_url': fu, 'position': {'area_width': aw, 'area_height': ah, 'width': fw, 'height': nh, 'top': int(os.environ.get('TOP', 75)), 'left': int(os.environ['LEFT']) if os.environ.get('LEFT') else (aw - fw) // 2}}]
 if bu != '-':
     ba = P[vp['back']]; bw = round(ba['width'] * 0.3)
     files.append({'placement': 'back', 'image_url': bu, 'position': {'area_width': ba['width'], 'area_height': ba['height'], 'width': bw, 'height': bw, 'top': 0, 'left': round((ba['width'] - bw) / 2)}})
