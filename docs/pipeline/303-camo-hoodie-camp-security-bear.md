@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: new
 id: 303
@@ -26,3 +26,4 @@ handle: unisex-camping-camp-security-bear-camo-hoodie
 - 2026-10-17 02:15 UTC director: approved from docs/review/303.jpg; ACTIVE + Online Store + Headless + Google; cohesion-audit --handle PASS (0 warn). LIVE.
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #2 of 27, style S4. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is B3 (left chest at the seam, tag placement-b).
+- 2026-10-23 17:57 UTC [B]: camo-redo #2 (S4 70s retro, placement B3, tag placement-b), in place on product 15362837479728. New art: 1 Recraft call (deadpan black bear, flashlight on head, open cooler, marshmallow, retro mustard/orange stripes), no box; cream contour halo only; face Playfair Display Black Italic (not in last 5 lane B builds). CAMP SECURITY (3312 px) / ON BREAK. in mustard (3439 px = 104% of headline); subject 82% of width; type about 40% of the 3268 px print height. Print 3439 x 3268, FW 625 TOP 300 LEFT 1475 (small left chest, wearer's left; scripts/pf-sync.py and pf-mockup.py now take a LEFT env). R7.7: Forest + Black Camo 14/14 on file 1092975405, back logo 1080398177. Mockups replaced in place, front first, back last. Copy, SEO, FAQ (5 x 40-60 words) rewritten to the new art; title unchanged (same line). Lifestyle photos: 6 seedream calls ($0.36) with the man+woman pair (registry 484/488), garbled CAMP SECURITY headline at 4 in on every try and one woman's print hidden: per camo-redo rule 4 fell back to the clean Printful flat shots; old collar-high cover removed (retired-covers), no AI cover for now. Audit PASS (warn: no lifestyle cover). Sheet docs/review/303.jpg. Product was already ACTIVE: director to confirm the redo; a larger print or a stitched/closer photo may fix the cover.
