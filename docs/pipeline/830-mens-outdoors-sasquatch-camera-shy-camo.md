@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: twin
 id: 830
@@ -30,3 +30,4 @@ push: camo
 - 2026-10-21 09:40 UTC director: LIVE: ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS (1 warn: no lifestyle cover, fal empty). Spoke tags added: duck-camo-hoodies. Side by side with 493 Calm Face and 483 Sisyphus: Bigfoot hiding its face on one bone patch, CAMERA SHY keylined bone caps, reads on Duck and Deadwood; at least as good as 493 on contrast and read.
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #1 of 27, style S1. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is A+ (center 10 in, tag placement-a).
+- 2026-10-23 17:48 UTC [B]: camo-redo #1 (S1 cinematic, placement A+, tag placement-a), in place on product 15371557732656. New art: 1 Recraft call (painted shy Bigfoot behind a pine, hiker with camera in fog, teal/black/amber), no box; lockup via compose-print.py with cream contour halo only; faces: Fraunces Black (last 5 lane B builds checked: Bevan, Alfa Slab, Anton family; no Fraunces). Headline CAMERA SHY. / punch STILL NO CLEAR PHOTO. both 3320-3326 px of 3326 = 100%; subject 80% of width; type about 24% of a 3705 px lockup (single scene, type above and below). Print 3326 x 3705, FW 1500 TOP 400 (1671 high, TOP+h 2071 <= 2100). R7.7: 18/18 variants synced on file 1092968285, back logo 1080398177. Mockups per color replaced in place (Forest, Duck, Deadwood), phone-size read OK. Title unchanged (line one CAMERA SHY. kept, punch new), SEO title/meta and copy rewritten to the new art, tags + placement-a. Two seedream lifestyle photos (registry 1146 Lumbee man): cover misty pine trail, image 2 truck and campfire at dusk; 4 calls ($0.24), text checked at 200% on the kept two; cover webp and covers.ts updated, retired-cover entry removed; photos first in Shopify media. Audit PASS. Sheet docs/review/830.jpg. Product was already ACTIVE: director to confirm the redo.
