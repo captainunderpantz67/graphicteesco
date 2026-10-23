@@ -1,6 +1,6 @@
 {
- "at": "2026-10-22T23:46:51.651Z",
- "products": 714,
+ "at": "2026-10-23T14:47:59.067Z",
+ "products": 720,
  "findings": [
   {
    "level": "WARN",
@@ -269,13 +269,6 @@
    "fix": "Trim to ≤ 155."
   },
   {
-   "level": "ERROR",
-   "handle": "mens-christian-short-grace-hot-food-graphic-tee",
-   "title": "Men's Christian – Short Grace. Hot Food. Tee",
-   "msg": "Men's product listed in \"Christian Shirts\".",
-   "fix": "Remove the tag that puts it in christian-shirts."
-  },
-  {
    "level": "WARN",
    "handle": "mens-grandpa-i-fix-things-after-naps-hoodie",
    "title": "Men's Grandpa – I'm Fixing It, Eyes Closed Hoodie",
@@ -288,13 +281,6 @@
    "title": "Unisex Pitbull – The Belly Is Open Hoodie",
    "msg": "No meta description.",
    "fix": "Write one ≤ 155 chars."
-  },
-  {
-   "level": "ERROR",
-   "handle": "mens-christian-rebuilt-by-a-carpenter-graphic-tee",
-   "title": "Men's Christian – Still Under Construction Tee",
-   "msg": "Men's product listed in \"Christian Shirts\".",
-   "fix": "Remove the tag that puts it in christian-shirts."
   },
   {
    "level": "ERROR",
@@ -949,6 +935,13 @@
   },
   {
    "level": "WARN",
+   "handle": "womens-corgi-built-like-a-dinner-roll-graphic-tee",
+   "title": "Women's Corgi – Built Like a Dinner Roll Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "womens-camo-blending-in-was-never-the-plan-aop-zip-hoodie",
    "title": "Women's Camo – Blending In Was Never the Plan. All-Over Print Zip Hoodie",
    "msg": "No lifestyle cover photo.",
@@ -974,13 +967,6 @@
    "title": "Women's Cat – Oops. Anyway. Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
-  },
-  {
-   "level": "ERROR",
-   "handle": "womens-cat-oops-anyway-embroidered-zip-hoodie",
-   "title": "Women's Cat – Oops. Anyway. Embroidered Zip Hoodie",
-   "msg": "Claims \"cat zip up hoodie\", already claimed by womens-cat-not-my-turn-with-the-brain-cell-zip-hoodie (two pages fighting for one keyword).",
-   "fix": "Give one of them a different measured phrase."
   },
   {
    "level": "WARN",
@@ -1019,6 +1005,13 @@
   },
   {
    "level": "WARN",
+   "handle": "unisex-golf-sorry-about-your-windshield-embroidered-zip-hoodie",
+   "title": "Unisex Golf – Sorry About Your Windshield Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "unisex-golf-not-cheating-improving-my-lie-embroidered-zip-hoodie",
    "title": "Unisex Golf – Not Cheating. Improving My Lie. Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
@@ -1033,8 +1026,36 @@
   },
   {
    "level": "WARN",
+   "handle": "womens-golden-retriever-i-brought-you-a-sock-embroidered-zip-hoodie",
+   "title": "Women's Golden Retriever – I Brought You a Sock Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-fishing-is-my-love-language-embroidered-zip-hoodie",
+   "title": "Men's Fishing – Fishing Is My Love Language Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-welder-if-you-can-step-over-it-embroidered-zip-hoodie",
+   "title": "Men's Welder – If You Can Step Over It, I Can Fill It. Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "mens-wolf-lone-wolf-early-bedtime-camo-hoodie",
    "title": "Men's Wolf – Lone Wolf. Early Bedtime. Camo Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-fishing-you-catching-em-no-keep-walking-embroidered-zip-hoodie",
+   "title": "Men's Fishing – You Catching 'Em? No. Keep Walking. Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
