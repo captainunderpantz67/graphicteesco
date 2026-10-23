@@ -938,3 +938,4 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1143 | Black woman, early 40s, shoulder-length locs tied back, medium build | CLAIMED 2026-10-21 — #985 hoodie cover (brief) |
 | 1144 | Chinese-American woman, late 20s, long black hair tied back, slim build | CLAIMED 2026-10-21 — #986 hoodie cover (brief) |
 | 1145 | Brazilian woman, early 30s, curly dark hair tied back, medium build | CLAIMED 2026-10-21 — #987 hoodie cover (brief) |
+| 1146 | Lumbee man, mid 30s, short dark hair, trimmed beard, broad build | USED 2026-10-23 — #830 camo redo cover + second photo |
