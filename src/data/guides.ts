@@ -1087,6 +1087,90 @@ export const allGuides: Guide[] = [
       { q: 'How early should I order a fishing shirt as a Christmas gift?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each shirt after you order it in 2 to 5 business days, then delivery takes about 3 to 8 business days in the US.' },
     ],
   },
+  {
+    // Writer lane W (2026-10-23), outdoors cluster. Keyword: gifts for fishermen 9,900 / KD 30 (RankHero 2026-10-23, re-measured; also 9,900/30 on 2026-10-18). Not owned: #566 was retargeted off it on 2026-10-18 (gift-guide phrase, R2.10/R2.11), so the article takes it and the product keeps its garment phrase.
+    // Facts (slogans, art, prices, blanks, policies) from pipeline files #155 #156 #425 #497 #532 #543 #550 #566 #573, site.ts and the sibling draft best-funny-fishing-shirts. Not sun-protection shirts (collections.ts).
+    // Planned siblings (not live yet): best-fishing-gifts-for-dad, funny-hunting-shirts. Sibling draft: best-funny-fishing-shirts, gifts-for-duck-hunters.
+    slug: 'gifts-for-fishermen',
+    keyword: 'gifts for fishermen',
+    title: 'Gifts for Fishermen: 5 Funny Shirts & Hoodies Anglers Wear',
+    description: 'Gifts for fishermen who have all the gear: five funny fishing shirts and hoodies, from Technically Still Fishing to Casting Doubt. Tees $24.99, hoodies from $39.99.',
+    h1: 'Gifts for Fishermen Who Already Own Every Lure',
+    date: '2026-10-23',
+    cluster: 'outdoors',
+    draft: true,
+    answer: 'A good gift for a fisherman who already has the gear is a shirt that jokes about fishing itself. Graphic Tees Co. has five, each matched to a kind of angler: Technically Still Fishing for the dock napper, Casting Doubt for the fly guy, Fishing Is My Love Language. Talking Isn\'t. for the quiet one, You Catching \'Em? No. Keep Walking. for the bank angler, and Should\'ve Been Here Yesterday for the storyteller. Tees are $24.99, hoodies start at $39.99, and each is printed after you order it.',
+    picks: [
+      {
+        h2: 'What do you get a fisherman who naps on the dock?',
+        body: ['Technically Still Fishing. It is for the guy who calls a lawn chair and a closed-eye cast fishing.'],
+        items: [
+          { slogan: 'Technically Still Fishing', tee: 'mens-fishing-sunrise-strike-graphic-tee',
+            text: 'A big bass leaps out of the lake at sunrise right past a man asleep in a lawn chair on the dock, with TECHNICALLY STILL FISHING in vintage capitals. The tee is $24.99 and the pullover hoodie is $39.99.' },
+        ],
+      },
+      {
+        h2: 'What is a good gift for a fly fisherman?',
+        body: ['Casting Doubt. Anyone who has looped a fly line into a knot will get it.'],
+        items: [
+          { slogan: 'Casting Doubt', tee: 'mens-fishing-high-country-trout-graphic-tee',
+            text: 'A fly fisherman stands in a mountain river with his line looped into a giant question mark while a trout watches, unimpressed, with CASTING DOUBT underneath. The tee is $24.99.' },
+        ],
+      },
+      {
+        h2: 'What do you get a fisherman who does not talk much?',
+        body: ['Fishing Is My Love Language. Talking Isn\'t. It says what he would never say out loud.'],
+        items: [
+          { slogan: 'Fishing Is My Love Language. Talking Isn\'t.', tee: 'mens-fishing-love-language-hoodie', crewneck: 'mens-fishing-love-language-crewneck-sweatshirt',
+            text: 'A bass kicks back on a lounge chair in sunglasses, with FISHING IS MY LOVE LANGUAGE. in bold capitals and TALKING ISN\'T. smaller beneath. The pullover hoodie is $39.99 and the crewneck is $34.99.' },
+        ],
+      },
+      {
+        h2: 'What is a funny gift for a bank fisherman?',
+        body: ['You Catching \'Em? No. Keep Walking. It is for the angler who is done answering the question from the path.'],
+        items: [
+          { slogan: 'You Catching \'Em? No. Keep Walking.', tee: 'mens-fishing-you-catching-em-graphic-tee',
+            text: 'A grumpy bank angler sits in a lawn chair beside his rod in a holder and an empty bucket, not turning his head as a cheerful walker waves from the path. The tee is $24.99 and the heavyweight hoodie is $49.99.' },
+        ],
+      },
+      {
+        h2: 'What is a gift for the fisherman with the big stories?',
+        body: ['Should\'ve Been Here Yesterday. Every fishing trip ends with this line, and now it comes with a shirt.'],
+        items: [
+          { slogan: 'Should\'ve Been Here Yesterday', tee: 'mens-fishing-shouldve-been-here-yesterday-graphic-tee',
+            text: 'A weathered old-timer holds his hands wide apart on a dock, empty stringer hanging, while a giant walleye leaps out of the water behind his back. The tee is $24.99.' },
+        ],
+        links: [{ href: '/fishing-t-shirts/', text: 'All fishing t-shirts' }, { href: '/fishing-hoodies/', text: 'Fishing hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good gift for a fisherman who has everything?',
+        body: ['Something he would not buy for himself: a shirt with a joke only an angler gets. He already owns the rods, the lures and the tackle box. A line he has said at the dock is a gift that shows you pay attention.',
+          'Graphic Tees Co. fishing designs are original art with one short line each, so the joke reads in about two seconds.'] },
+      { h2: 'Are these fishing shirts sun-protection or performance shirts?',
+        body: ['No. They are graphic shirts, not UPF gear. The tees are a lightweight 4.2 oz cut in cotton, and the pullover hoodies and crewneck are an 8 oz cotton-polyester fleece.',
+          'They are made for the boat ramp, the bait shop and the drive home.'],
+        links: [{ href: '/graphic-tees-for-men/', text: 'Graphic tees for men' }] },
+      { h2: 'What fishing gifts cost under $50?',
+        body: ['Every fishing tee here is $24.99, the crewneck is $34.99 and the pullover hoodies are $39.99. The heavyweight hoodie is $49.99. US shipping is free on orders of $45 or more.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'What if you do not know his size?',
+        body: ['Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and he does not have to mail the first one back.'] },
+      { h2: 'When should you order a fishing gift for Christmas?',
+        body: ['Order by Friday, December 4, 2026. Each piece is printed after you order it, in 2–5 business days, then ships in about 3–8 business days in the US.'] },
+      { h2: 'Where else can you find funny gifts for the guys on your list?',
+        body: ['If he also lifts or golfs, the gym and golf guides cover those. For a group swap, see the white elephant guide.'],
+        links: [{ href: '/guides/gym-gifts-for-men/', text: 'Gym gifts for men' }, { href: '/guides/funny-golf-gifts/', text: 'Funny golf gifts' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }, { href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+    ],
+    faqs: [
+      { q: 'What are good gifts for fishermen?', a: 'A funny fishing shirt he will actually wear, like Technically Still Fishing or Casting Doubt from Graphic Tees Co. Tees are $24.99 and hoodies start at $39.99, printed to order.' },
+      { q: 'What do you get a fisherman who has everything?', a: 'A shirt with a joke only an angler would get. Graphic Tees Co. fishing designs are original art, printed after you order, and the heavyweight You Catching \'Em? hoodie is $49.99.' },
+      { q: 'What are funny fishing gifts under $30?', a: 'Any Graphic Tees Co. fishing tee: Technically Still Fishing, Casting Doubt, You Catching \'Em? No. Keep Walking. or Should\'ve Been Here Yesterday. Each is $24.99.' },
+      { q: 'Are these fishing shirts UPF or sun-protection shirts?', a: 'No. Graphic Tees Co. fishing shirts are cotton graphic tees and fleece hoodies with original art. They are not rated for sun protection.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+      { q: 'How early should I order a fishing gift for Christmas?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2 to 5 business days, then delivery takes about 3 to 8 business days in the US.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
