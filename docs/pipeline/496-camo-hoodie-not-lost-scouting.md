@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: C
 type: new
 id: 496
@@ -32,3 +32,4 @@ shopify: gid://shopify/Product/15364210622768
 - 2026-10-17 22:26 UTC builder [C]: art 1 Recraft call (buck in plaid recliner, no lettering) kept; NOT LOST. (cream) / SCOUTING. (blaze orange) in Big Shoulders via compose-print.py with camo-halo cream underlay (R5.3.8), net gaps knocked out; Shopify DRAFT gid://shopify/Product/15364210622768 (Duck Camo + Sandstone x XS-3XL = 14, $49.99 no compare-at, category hoodies, tags per brief, keyword deer hunter hoodie 260/KD37, FAQ 5). Sync/mockups/cover next.
 - 2026-10-17 22:33 UTC builder [C]: REVIEW. FW 1600 TOP 0 (print 2373 x 3178 px, 10.7 in tall at that width: clear of the IND4000 pouch, checked on the mockup); Printful file 1088536634, sync 482624344 14/14; Duck Camo + Sandstone mockups + back attached, phone-size read: NOT LOST. and SCOUTING. legible on both (cream and orange on a cream halo with dark keyline). fal cover 1 attempt (registry #822): long-sleeve camo pullover, hood visible, hands in pocket, thermos far at the side; the T of SCOUTING glitched, so the exact print file was composited over the chest (old print inpainted) per 9b. Copy matches art (unfolded orange map, not 'upside down'). FAQ 5 x 40-60. fal $0.10.
 - 2026-10-17 22:43 UTC director: APPROVED, LIVE. ACTIVE + Online Store, Headless and Google & YouTube; audit --admin-json PASS (0 warn) after a director copy polish (SEO title ≤60; R8 keyword count; no hand-lettered claim).
+- 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #9 of 27, style S7. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.

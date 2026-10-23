@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: B
 type: new
 id: 293
@@ -34,3 +34,4 @@ handle: mens-hunting-full-draw-zero-deer-camo-hoodie
   3. The art itself now passes (true full draw, gaps stay camo). Then REVIEW.
 - 2026-10-17 02:26 UTC [B]: REDO fix (round 2): same art file (this was try 2 of 2), re-linked at FW 1500 TOP 0 (10 in wide) so FULL DRAW, and ZERO DEER read larger on both mockups, new file 1087978852, resynced 14/14, mockups replaced in place, cover regenerated from the new Forest mockup with no bow, bow case or gear in frame (R6.5; registry #474, image 2 of 3, front-facing, hood down). Set REVIEW. Sheet docs/review/293.jpg.
 - 2026-10-17 03:14 UTC director: approved from docs/review/293.jpg; ACTIVE + Online Store + Headless + Google; cohesion-audit --handle PASS (0 warn). Copy fix: FULL DRAW is lettered straight, not arched. LIVE.
+- 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #20 of 27, style S4. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.

@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: B
 type: twin
 id: 232
@@ -21,3 +21,4 @@ handle: mens-hunting-no-deer-today-camo-hoodie
 - 2026-10-16 21:52 UTC [B]: built as DRAFT (product 15362306441520, 14 variants Black Camo + Forest Camo, $49.99/$54.99, IND4000/#1543). Twin of #157's light-ink file 1087735820 (cream lettering, orange hunter), FW 1250 TOP 0. Previewed Black Camo and Forest Camo: both read. Back logo, mockups, variant images, cover registry #306 (try 1, image 3 of 3), keyword black camo hoodie 1900/16, audit-local PASS. Sync pid 482325496; REVIEW at 14/14. Sheet docs/review/232.jpg.
 - 2026-10-16 21:57 UTC [B]: synced 14/14, REVIEW.
 - 2026-10-16 22:17 UTC director: LIVE (ACTIVE + Online Store + Headless, audit --handle PASS). approved.
+- 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #25 of 27, style S3. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.

@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: B
 type: twin
 id: 230
@@ -26,3 +26,4 @@ handle: womens-western-kick-up-dust-camo-hoodie
 - 2026-10-16 22:59 UTC [B]: REDO fix (round 1): D counter (and the P counter) knocked out with knock-white.py (8000 px minimum so the dust cloud stays), a cream outline underlayer (about 30 px) added behind the KICK UP DUST lettering only, new Printful file 1087881771, re-sync at 11.3 in wide (FW 1700 of the 2100 px / 14 in area, TOP 0; about 10.1 in tall, clear of the pocket), mockups replaced in place, new cover (registry #304, the one extra attempt: the braid hangs behind her back but still touches the left edge of the K in the kept image 3, no better one of the 3). Set REVIEW at 14/14. Sheet docs/review/230.jpg.
 - 2026-10-16 23:03 UTC [B]: synced 14/14, REVIEW.
 - 2026-10-16 23:19 UTC director: LIVE. Kick Up Dust camo hoodie (braid grazes the K edge on the cover; accepted, print reads). ACTIVE + Online Store + Headless, audit --handle PASS.
+- 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #18 of 27, style S7. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.

@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: B
 type: new
 id: 299
@@ -29,3 +29,4 @@ handle: womens-hunting-ducks-in-a-row-camo-hoodie
   3. New file at FW 1800, re-link both colors, new mockups and cover (keep registry #480 and the pond), then REVIEW.
 - 2026-10-17 02:34 UTC [B]: REDO fix (round 1): lettering re-done by hand with one lettering-only Recraft v4 generation (GOT MY DUCKS / IN A ROW in chunky chocolate-brown capitals at 3100 px = 86% of the art width, (mostly) in bold retro script at 1900 px = 53%, spelling checked), composed in print-prep around the ducks (the old thin arched line removed). The tan feather spray behind the mother duck is erased (the wing top is cleaned), the butterfly is enlarged 1.8x and lifted above the wandering duckling so the twist reads. New print 3600 x 3532 on a cream halo (FILL=0), Printful file 1087981425 at FW 1800 TOP 0, both colors re-linked 14/14, mockups replaced in place, cover regenerated from the new Duck Camo mockup (registry #480, pond, jeans, image 2 of 3). Set REVIEW. Sheet docs/review/299.jpg.
 - 2026-10-17 03:14 UTC director: approved from docs/review/299.jpg; ACTIVE + Online Store + Headless + Google; cohesion-audit --handle PASS (0 warn). Copy fix: the title lines are stacked, not arched. LIVE.
+- 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #17 of 27, style S3. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.

@@ -58,6 +58,8 @@ You turn approved briefs into finished DRAFT products and hand them to the direc
 4. If a step fails 3 times: status PARKED with the error (no Telegram; the director digest counts parks), take the next item.
 5. **No READY items:** do lane chores: color backfill on older products in your lane (add legible colors up to 100 variants, sync, mockups), or finish PARKED items you can now fix. If none, release the lock and exit. Never write briefs.
 
+   7m. **Hoodie placement and no template (Sam 2026-10-22, docs/backlog/camo-redo.md):** never TOP 0 on a hoodie or sweatshirt (all 27 camo hoodies printed under the collar and are being redone). Center chest FW 1500, TOP 400, art height fits the area; small left chest FW 600-650, TOP 300, pushed to the side seam. No two products in a niche share a lockup template: no cream box behind the art, no tall condensed sans as the default, no default orange second line. The picture acts out the joke (cute and funny, or cinematic and deadpan).
+
 ## Never
 Publish or set ACTIVE; write or rewrite briefs; message Sam except alerts; delete products; look at the same image twice.
 

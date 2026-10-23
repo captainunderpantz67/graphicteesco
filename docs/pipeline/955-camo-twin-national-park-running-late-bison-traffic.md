@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: B
 type: twin
 id: 955
@@ -30,3 +30,4 @@ push: camo
 - 2026-10-21 16:52 UTC [B]: STAND-DOWN: a second lane B session (no claim commits, started ~16:35) created the 956-958/962-969 drafts and re-synced 13/14 of #955's variants to its own file 1091235513 and attached its own mockups (media 4-6) while my file 1091233302 (review sheet docs/review/955.jpg) stayed on 3XL Black. The product now mixes two prints; the status is back to BUILDING for whichever session finishes it (one print file on all 14, one set of mockups, delete the other 3 images, re-make the sheet). I stopped to avoid more overwrites.
 - 2026-10-22 21:35 UTC [B]: FINISHED after the duplicate-session mix-up: all 14/14 variants on one print file 1091235513 (k955, Bevan, headline/punch 100%), mockups re-made on that file (FW 1500 TOP 0, Forest + Black front, original back with neck logo kept), the other session's 3 duplicate images deleted, sheet docs/review/955.jpg remade. Printful mockup call with back logo failed 3x (Internal Server Error), front-only worked. cohesion-audit --handle could not run (no browser in the cloud run); director to check. fal $0.
 - 2026-10-22 23:16 UTC director: LIVE (ACTIVE + Online Store, Headless, Google & YouTube); cohesion-audit --handle PASS (1 warn: no lifestyle cover). Drip cap: today's 6 (#907 #908 #900 #901 #902 #955).
+- 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #26 of 27, style S7. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.

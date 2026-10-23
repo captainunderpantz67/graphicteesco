@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: B
 type: twin
 id: 231
@@ -21,3 +21,4 @@ handle: mens-hunting-opening-day-camo-hoodie
 - 2026-10-16 21:48 UTC [B]: built as DRAFT (product 15362300346672, 14 variants Darkwood Tree Camo + Forest Camo, $49.99/$54.99, IND4000/#1543). Print = the tee's file 1085707777 with the OPENING DAY lettering lifted from rust to cream (the buck sits on its own light scene so it reads), new Printful file 1087845537, FW 1250 TOP 0. Previewed Deadwood too: light grey pattern swallows the cream lettering, dropped; Duck/Black not tried. Back logo, mockups, variant images, cover registry #305 (try 1), keyword camouflage hoodie 74000/6, audit-local PASS. Sync pid 482324673; REVIEW at 14/14. Sheet docs/review/231.jpg.
 - 2026-10-16 21:52 UTC [B]: synced 14/14, REVIEW.
 - 2026-10-16 22:17 UTC director: LIVE (ACTIVE + Online Store + Headless, audit --handle PASS). approved.
+- 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #19 of 27, style S1. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.

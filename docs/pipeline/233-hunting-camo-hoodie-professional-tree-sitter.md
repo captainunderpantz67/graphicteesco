@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: B
 type: twin
 id: 233
@@ -21,3 +21,4 @@ handle: mens-hunting-professional-tree-sitter-camo-hoodie
 - 2026-10-16 21:57 UTC [B]: built as DRAFT (product 15362317353264, 14 variants Darkwood Tree Camo + Forest Camo, $49.99/$54.99, IND4000/#1543). Print = tee file 1087674825 with the PROFESSIONAL TREE SITTER lettering recolored to cream (olive/brown letters sank on camo; tree and buck untouched), new Printful file 1087849677, FW 1250 TOP 0. Black Camo not tried. Back logo, mockups, variant images, cover registry #307 (try 1, image 3 of 3), keyword camo hunting hoodie 1600/17, audit-local PASS. Sync pid 482327713; REVIEW at 14/14. Sheet docs/review/233.jpg.
 - 2026-10-16 22:02 UTC [B]: synced, REVIEW.
 - 2026-10-16 22:17 UTC director: LIVE (ACTIVE + Online Store + Headless, audit --handle PASS). approved: no floating objects; bow is in his hands.
+- 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #6 of 27, style S6. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.

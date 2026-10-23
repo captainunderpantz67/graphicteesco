@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: B
 type: new
 id: 834
@@ -29,3 +29,4 @@ push: camo
 - 2026-10-21 07:55 UTC [B]: REDO to the R11.13 patch standard (builder 7o), in place on the existing DRAFT. Print = the old art re-inked by designs/camo_patch.py (print-prep only, no new art: the fal wallet is exhausted, 403 'Exhausted balance'): Papa with rod and map reduced to 3 solid inks (black, bone, blaze orange; median blur + adaptive threshold, no halftone or earth tones), on ONE solid bone patch with a ~0.2 in black outline; lettering PAPA HAS A SPOT. (bone) / WON'T SAY WHERE. (blaze orange) in Anton with a solid dark keyline, both lines wider than the patch (punch at least as wide as the setup, 7h), nothing else on the camo. File 3400 x 3831, aspect 1.13, FW 1500 TOP 0, clear of the pouch. R7.7: Forest/Duck/Deadwood x S-3XL = 18/18 synced on default file 1090981476, back logo 1080398177 on 18/18. Mockups remade; sheet docs/review/834.jpg shows Duck + Deadwood at phone size, readable. Media replaced in place (front per color + back, attached to variants); copy checked against the new art. Cohesion audit: only 'not visible on the storefront' (still DRAFT).
 - 2026-10-21 08:40 UTC director: LIVE: ACTIVE + 3 publications; audit PASS (1 warn: flat cover). Side by side with 493 Calm Face and 483 Sisyphus: patch standard met, WON'T SAY WHERE. the widest line, shush pose lands the secret-spot joke. Copy fixed (R8.3): the Story and meta named two pines and a treasure map the art does not show; now describes the flannel, vest, cap, rod and finger to the lips. Added the duck-camo-hoodies spoke tag.
 - 2026-10-21 09:40 UTC director: status line de-duplicated (a merge left 'status: REVIEW' above 'status: LIVE'); stays LIVE as approved 08:40. The 08:50 [B] log and the 07:55 log name the same Printful file, so the approved print is the one on sale.
+- 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #21 of 27, style S8. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.

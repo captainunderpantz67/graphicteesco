@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: B
 type: twin
 id: 831
@@ -28,3 +28,4 @@ push: camo
 - 2026-10-21 07:55 UTC [B]: REDO to the R11.13 patch standard (builder 7o), in place on the existing DRAFT. Print = the old art re-inked by designs/camo_patch.py (print-prep only, no new art: the fal wallet is exhausted, 403 'Exhausted balance'): eagle head reduced to 3 solid inks (black, bone, blaze orange; median blur + adaptive threshold, no halftone or earth tones), on ONE solid bone patch with a ~0.2 in black outline; lettering BALD BY CHOICE. (bone) / MAJESTIC BY NATURE. (blaze orange) in Anton with a solid dark keyline, both lines wider than the patch (punch at least as wide as the setup, 7h), nothing else on the camo. File 3400 x 3599, aspect 1.06, FW 1500 TOP 0, clear of the pouch. R7.7: Forest/Duck/Black x S-3XL = 18/18 synced on default file 1090981472, back logo 1080398177 on 18/18. Mockups remade; sheet docs/review/831.jpg shows Duck + Black at phone size, readable. Media replaced in place (front per color + back, attached to variants); copy checked against the new art (line one fixed: punch is blaze orange). Cohesion audit: only 'not visible on the storefront' (still DRAFT).
 - 2026-10-21 08:40 UTC director: APPROVED on docs/review/831.jpg, held at REVIEW for the 6-LIVE cap. Side by side with 493 Calm Face and 483 Sisyphus: bone patch eagle, MAJESTIC BY NATURE. in blaze orange is the widest line; reads on Duck and Black Camo. Patch standard met.
 - 2026-10-21 09:40 UTC director: LIVE: ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS (1 warn: no lifestyle cover, fal empty). Spoke tags added: duck-camo-hoodies + black-camo-hoodies. Side by side with 493 Calm Face and 483 Sisyphus: bald eagle on one bone patch, MAJESTIC BY NATURE. the widest line in blaze, reads on Duck and Black Camo; the 444 line it twins was already A.
+- 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #15 of 27, style S6. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.

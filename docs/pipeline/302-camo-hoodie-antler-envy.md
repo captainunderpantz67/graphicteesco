@@ -1,4 +1,4 @@
-status: LIVE
+status: REDO
 lane: B
 type: new
 id: 302
@@ -29,3 +29,4 @@ handle: mens-hunting-antler-envy-buck-camo-hoodie
   3. New file, mockups, cover from the new mockup (keep registry #483 and the truck), then REVIEW.
 - 2026-10-17 02:39 UTC [B]: REDO fix (round 1): the orange patches on the buck are recolored to warm tan and brown in print-prep (141,554 px, hue-selected, no new generation); ANTLER ENVY re-lettered by hand with one lettering-only Recraft v4 generation (chunky chocolate-brown capitals, 3300 px = 92% of the art width, spelling checked) on the cream halo (FILL=0); new print 3600 x 4622, Printful file 1087983441, FW 1600 TOP 0. Deadwood Tree Camo still blurred into the pale antler silhouette at phone size (light grey pattern), so it was swapped for Forest Camo: Shopify variants replaced (Darkwood + Forest, new SKUs antlerenvy-camo-hoodie-48750..48828), the old Deadwood variants are gone, both colors re-linked, mockups replaced in place, Forest variants linked to the Forest image, copy and FAQ updated. Cover regenerated from the new Darkwood mockup (registry #483, truck, image 1 of 3). Set REVIEW. Sheet docs/review/302.jpg.
 - 2026-10-17 03:14 UTC director: approved from docs/review/302.jpg; ACTIVE + Online Store + Headless + Google; cohesion-audit --handle PASS (0 warn). Copy fix: the buck lies bedded under the rack (not gazing up); "biggest rack" gift line reworded (R3.7.3). LIVE.
+- 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #13 of 27, style S2. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
