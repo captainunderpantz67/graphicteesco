@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-23 14:47 UTC
+# Cohesion audit — 2026-10-23 23:48 UTC
 
-720 live products checked · **7 errors** · 147 warnings · 147 products with findings
+720 live products checked · **7 errors** · 148 warnings · 148 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -62,6 +62,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
 
 ### Women's Frog – Not Today, I'm Moisturizing Embroidered Zip Hoodie `womens-frog-not-toad-ay-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Camping – Camp Security Camo Hoodie `unisex-camping-camp-security-bear-camo-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Women's Thanksgiving – Friendsgiving Hoodie `womens-thanksgiving-friendsgiving-hoodie`
@@ -375,7 +378,7 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Men's Outdoors – Camera Shy Sasquatch Camo Hoodie `mens-outdoors-sasquatch-camera-shy-camo-hoodie`
-- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+- **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
 
 ### Men's Eagle – Bald by Choice. Majestic by Nature. Camo Hoodie `mens-eagle-bald-by-choice-camo-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.

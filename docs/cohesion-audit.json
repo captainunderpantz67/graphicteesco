@@ -1,5 +1,5 @@
 {
- "at": "2026-10-23T14:47:59.067Z",
+ "at": "2026-10-23T23:48:03.832Z",
  "products": 720,
  "findings": [
   {
@@ -111,6 +111,13 @@
    "level": "WARN",
    "handle": "womens-frog-not-toad-ay-zip-hoodie",
    "title": "Women's Frog – Not Today, I'm Moisturizing Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-camping-camp-security-bear-camo-hoodie",
+   "title": "Unisex Camping – Camp Security Camo Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
@@ -888,8 +895,8 @@
    "level": "WARN",
    "handle": "mens-outdoors-sasquatch-camera-shy-camo-hoodie",
    "title": "Men's Outdoors – Camera Shy Sasquatch Camo Hoodie",
-   "msg": "No lifestyle cover photo.",
-   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+   "msg": "No SEO title.",
+   "fix": "Write one ≤ 60 chars with the primary keyword."
   },
   {
    "level": "WARN",

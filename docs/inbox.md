@@ -284,3 +284,7 @@ docs/backlog/drawn-fixes.json holds 62 products: {id, handle, html}. Each "html"
 - NOTED 2026-10-23 director (camo redo + A/B test): written into the rulebook under R11.13 (patch standard superseded); builder 7o marked superseded. #836 AOP Bigfoot zip sent back (still the rejected box template), camo twins #956-#969 re-briefed to the camo-redo rules (styles and A/B arms assigned, after the 27 redo rows), and 6 stale REVIEW approvals of patch-template camo hoodie redos (#840 #866 #876 #877 #880 #881) PARKED as superseded by the camo-redo rows.
 - NOTED 2026-10-23 director (anime back pocket): queued behind the camo redo and the thin-niche list in the card's order; measure volume and KD before any brief.
 - 2026-10-23 14:49 UTC [H] Audit 720 live: 7 ERRORs, all visual (wrong person on the cover of unisex Christmas tees, sweaters and crewnecks, and the Switchbacks hoodie). Left for the director. No scripted errors to fix.
+
+## 2026-10-23 — Helper (Telegram, 23:47 UTC): Sam asked about lane E
+- Sam asked the director what lane E covers; he is not sure. Director to answer him (lane E = colorway backfills on LIVE zips, per the 10-21 log).
+- Sam also sent a Facebook video link with no note. Nothing to do unless he says what he wants.
