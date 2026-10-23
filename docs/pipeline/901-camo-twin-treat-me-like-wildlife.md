@@ -30,3 +30,4 @@ push: camo
 - 2026-10-21 15:45 UTC director: APPROVED on docs/review/901.jpg, held at REVIEW for the 6-LIVE cap. Side by side with 493 Calm Face and 483 Sisyphus: one bone patch, ibex on the summit with the tiny hiker below carries the joke, LIKE WILDLIFE. widest; reads on Duck and Forest Camo.
 - 2026-10-22 23:16 UTC director: LIVE (ACTIVE + Online Store, Headless, Google & YouTube); cohesion-audit --handle PASS (1 warn: no lifestyle cover). Drip cap: today's 6 (#907 #908 #900 #901 #902 #955).
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #11 of 27, style S4. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
+- 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is A+ (center 10 in, tag placement-a).

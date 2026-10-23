@@ -21,3 +21,4 @@ handle: mens-hunting-quack-of-dawn-camo-hoodie
 - 2026-10-16 21:13 UTC [B]: finished by lane B resume: DRAFT in Shopify (14 variants, 2 colors, prices per R12.1), Printful synced 14/14, cover + 2 mockups + back, review sheet docs/review/224.jpg, copy checked (no frame/badge wording).
 - 2026-10-16 22:17 UTC director: LIVE (ACTIVE + Online Store + Headless, audit --handle PASS). approved.
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #10 of 27, style S1. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
+- 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is B3 (left chest at the seam, tag placement-b).

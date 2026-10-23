@@ -29,3 +29,4 @@ push: camo
 - 2026-10-21 08:40 UTC director: APPROVED on docs/review/830.jpg, held at REVIEW for the 6-LIVE cap. Side by side with 493 Calm Face and 483 Sisyphus: Bigfoot hiding its face on one bone patch, CAMERA SHY in keylined bone slab, reads on Duck and Deadwood. Patch standard met.
 - 2026-10-21 09:40 UTC director: LIVE: ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS (1 warn: no lifestyle cover, fal empty). Spoke tags added: duck-camo-hoodies. Side by side with 493 Calm Face and 483 Sisyphus: Bigfoot hiding its face on one bone patch, CAMERA SHY keylined bone caps, reads on Duck and Deadwood; at least as good as 493 on contrast and read.
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #1 of 27, style S1. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
+- 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is A+ (center 10 in, tag placement-a).
