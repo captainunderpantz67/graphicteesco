@@ -1255,6 +1255,96 @@ export const allGuides: Guide[] = [
       { q: 'Does free shipping apply to a single tee?', a: 'Not by itself. US shipping at Graphic Tees Co. is free on orders of $45 or more, so two $24.99 tees qualify.' },
     ],
   },
+  {
+    // Writer lane W (2026-10-24 run): new christmas-cluster article. Cluster 2 (christmas) had no lane W article.
+    // Keyword: christmas gifts for dad 60,500 / KD 6 (RankHero 2026-10-24, scripts/keyword-gap.py rankhero()). Freed by the 2026-10-18 retarget of mens-christmas-some-assembly-regretted-crewneck-sweatshirt (docs/product-keyword-map.json: "a future dad gift guide may take this head term"); no collection or product claims it. Head terms "christmas shirts" and "christmas hoodie" stay with their collections.
+    // Facts (art, blanks, prices, policies) from pipeline files #239 #240 #282 #540 #541 #560 #569, the thick-hoodies and gym-gifts-for-men guides and site.ts. Picks are listed in fresh-designs.json. FAQ questions are not from PAA or GSC (not available unattended).
+    // Planned siblings (not live yet): christmas-gifts-for-mom, funny-christmas-gifts-for-coworkers, stocking-stuffers-for-men.
+    slug: 'christmas-gifts-for-dad',
+    keyword: 'christmas gifts for dad',
+    title: 'Christmas Gifts for Dad: 5 Funny Shirts and Hoodies He Will Wear',
+    description: 'Christmas gifts for dad that he will actually wear: Resting My Eyes, Attending Under Protest, It Looked Smaller at the Farm. Tees $24.99, hoodies $39.99.',
+    h1: 'Christmas Gifts for Dad: Funny Shirts and Hoodies for the Man Who Says He Wants Nothing',
+    date: '2026-10-24',
+    cluster: 'christmas',
+    draft: true,
+    answer: 'A good Christmas gift for dad is a shirt that teases something only he does at Christmas. Graphic Tees Co. has five: Resting My Eyes (tee $24.99, crewneck $34.99), It Looked Smaller at the Farm (tee $24.99, crewneck $34.99), Bulking Season (tee $24.99), Attending Under Protest (hoodie $39.99) and White Elephant Champion (hoodie $39.99). Each is original art, printed after you order. Order by December 4, 2026.',
+    picks: [
+      {
+        h2: 'What is a funny Christmas gift for a dad who naps in the recliner?',
+        body: ['Resting My Eyes. Every family has a dad who is asleep by 3 p.m. on Christmas Day and swears he is awake.'],
+        items: [
+          { slogan: 'Resting My Eyes', tee: 'mens-christmas-resting-my-eyes-graphic-tee', crewneck: 'mens-christmas-resting-my-eyes-crewneck-sweatshirt',
+            text: 'A dad in a plaid armchair has his head tipped back, a Santa hat sliding off, reading glasses pushed up and a half-unwrapped present in his lap, while a cat curls on the armrest. RESTING MY EYES is lettered underneath. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+      },
+      {
+        h2: 'What do you get a dad who picks the biggest tree on the lot?',
+        body: ['It Looked Smaller at the Farm. It is for the man who has measured a tree with his eyes and been wrong every year.'],
+        items: [
+          { slogan: 'It Looked Smaller at the Farm', tee: 'mens-christmas-it-looked-smaller-at-the-farm-graphic-tee', crewneck: 'mens-christmas-it-looked-smaller-at-the-farm-crewneck-sweatshirt',
+            text: 'A deadpan dad in a plaid flannel shirt and knit cap stands beside an enormous fir crammed into the living-room corner, its top bent against the ceiling, with a limp tape measure in his hand. IT LOOKED SMALLER sits above the art and AT THE FARM below. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/products/mens-christmas-it-looked-smaller-at-the-farm-oversized-hoodie/', text: 'It Looked Smaller at the Farm oversized hoodie' }],
+      },
+      {
+        h2: 'What is a good Christmas gift for a dad who lifts?',
+        body: ['Bulking Season. It is for the dad who explains his macros at the family dinner.'],
+        items: [
+          { slogan: 'Bulking Season', tee: 'mens-christmas-bulking-season-graphic-tee',
+            text: 'A muscular storybook Santa in a white tank top curls a candy-cane barbell loaded with gingerbread-man plates, with BULKING SEASON arched above him. The tee is $24.99.' },
+        ],
+        links: [{ href: '/mens-gym-shirts/', text: 'Men\'s gym shirts' }],
+      },
+      {
+        h2: 'What do you give a dad who is dragged to every family party?',
+        body: ['Attending Under Protest. It is a hoodie for the man who was told Christmas is not optional.'],
+        items: [
+          { slogan: 'Attending Under Protest', tee: 'mens-christmas-attending-under-protest-hoodie',
+            text: 'A knit-pattern reindeer in a Santa hat stands with crossed arms and a flat, unimpressed stare, with ATTENDING above and UNDER PROTEST below. The pullover hoodie is $39.99 through November 30, 2026 ($44.99 from December 1).' },
+        ],
+        links: [{ href: '/hoodies/christmas-hoodies/', text: 'Christmas hoodies' }],
+      },
+      {
+        h2: 'What is a gift for the dad who wins every gift swap?',
+        body: ['White Elephant Champion. UNDEFEATED. It is for the guy who treats the office swap like a title fight.'],
+        items: [
+          { slogan: 'White Elephant Champion. Undefeated.', tee: 'mens-christmas-white-elephant-champion-hoodie',
+            text: 'A boxing-program-style champion stands on a podium hugging a wrapped gift like a title belt, under WHITE ELEPHANT CHAMPION and UNDEFEATED. The pullover hoodie is $39.99 through November 30, 2026 ($44.99 from December 1).' },
+        ],
+        links: [{ href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good Christmas gift for dad?',
+        body: ['Something that jokes about what he actually does at Christmas. A dad who already owns every sweater will still wear a shirt that is about him napping, buying the tree or avoiding the party.',
+          'Graphic Tees Co. designs are original art with the joke set in big type. They use no team, brand or character logos, so there is nothing to explain.'],
+        links: [{ href: '/christmas-shirts-for-men/', text: 'Men\'s Christmas shirts' }] },
+      { h2: 'Should you buy dad a tee, a crewneck or a hoodie?',
+        body: ['A tee is the easy pick at $24.99 and is a lightweight 4.2 oz cotton cut. A crewneck is $34.99, and the pullover hoodie is an 8 oz fleece at $39.99 through November 30, 2026.',
+          'For a dad who runs cold, the hoodie or crewneck is the better gift. For a dad who wears a flannel over everything, a tee layers under it.'],
+        links: [{ href: '/christmas-sweatshirts/', text: 'Christmas sweatshirts' }, { href: '/guides/thick-hoodies/', text: 'Thick hoodies: how thick is 10 oz' }] },
+      { h2: 'What if you do not know his size?',
+        body: ['Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and he does not have to mail the first one back. Check the size chart on the product page against a shirt he already wears.',
+          'If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'What are good Christmas gifts for dad under $50?',
+        body: ['Every item here is under $50. Tees are $24.99, crewnecks are $34.99 and the two hoodies are $39.99 through November 30, 2026. US shipping is free on orders of $45 or more, so a crewneck plus a tee clears it.'] },
+      { h2: 'When should you order a Christmas gift for dad?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, which is up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find gifts for the men on your list?',
+        body: ['If he golfs or lifts, our golf and gym gift guides have more. For a group swap, see white elephant gifts.'],
+        links: [{ href: '/guides/funny-golf-gifts/', text: 'Funny golf gifts' }, { href: '/guides/gym-gifts-for-men/', text: 'Gym gifts for men' }, { href: '/guides/funny-hoodies/', text: 'Funny hoodies' }, { href: '/christmas-shirts/', text: 'All Christmas shirts' }] },
+    ],
+    faqs: [
+      { q: 'What are good Christmas gifts for dad?', a: 'A shirt with a joke about what he does at Christmas, like Resting My Eyes or It Looked Smaller at the Farm from Graphic Tees Co. Tees are $24.99, crewnecks are $34.99 and hoodies are $39.99, all printed to order.' },
+      { q: 'What do you get a dad who says he wants nothing?', a: 'Something small he would not buy himself, like a funny Christmas tee. Graphic Tees Co. Resting My Eyes and Bulking Season tees are $24.99 each, and US shipping is free on orders of $45 or more.' },
+      { q: 'What are funny Christmas gifts for dad under $30?', a: 'Any Graphic Tees Co. Christmas tee for men: Resting My Eyes, It Looked Smaller at the Farm or Bulking Season. Each is $24.99 and printed after you order.' },
+      { q: 'Is a Christmas hoodie a good gift for dad?', a: 'Yes, if he runs cold. The Graphic Tees Co. Attending Under Protest hoodie is an 8 oz fleece pullover at $39.99 through November 30, 2026, then $44.99 from December 1.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+      { q: 'When should I order a Christmas gift for dad?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
