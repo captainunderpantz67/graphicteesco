@@ -56,7 +56,7 @@ export const renderFeed = (products: Awaited<ReturnType<typeof feedProducts>>, c
     const link = `${site.url}/products/${p.handle}/`;
     // Kept short: the description repeats on every variant row, and Cloudflare Pages caps a file at 25 MiB
     // (the full-length feed hit 29.6 MiB on 2026-10-16 and blocked every deploy). Google needs no more than this.
-    const desc = text(p.descriptionHtml || p.description).slice(0, 900).replace(/\s+\S*$/, '');
+    const desc = text(p.descriptionHtml || p.description).slice(0, 600).replace(/\s+\S*$/, '');
     const details = detailsOf(text(p.descriptionHtml || p.description));
     const highlightXml = `      <g:pattern>graphic print</g:pattern>\n${highlightsOf(details).map((h) => `      <g:product_highlight>${esc(h)}</g:product_highlight>\n`).join('')}`;
     const col = all.find((c) => p.collections?.includes(c.shopifyHandle) && c.slug !== 'graphic-tees-for-men' && c.slug !== 'graphic-tees-for-women');
@@ -64,7 +64,8 @@ export const renderFeed = (products: Awaited<ReturnType<typeof feedProducts>>, c
     const cover = coverFor(p.handle) ? abs(coverFor(p.handle)!.src) : null;
     const heavy = /hood|sweatshirt|crewneck/i.test(p.title + ' ' + p.productType);
     const groupTitle = p.title;
-    let qaBudget = 9000;
+    // 4000, not 9000: Q&A repeats on every variant row and the pages reached 18-21 MiB of the 25 MiB cap (2026-10-24).
+    let qaBudget = 4000;
     const qaXml = productFaqs(p).filter((f) => !OFFER_WORDS.test(f.q + ' ' + f.a)).slice(0, 30).map((f) => {
       const x = `      <g:question_and_answer><g:question>${esc(f.q.slice(0, 1000))}</g:question><g:answer>${esc(f.a.slice(0, 1000))}</g:answer></g:question_and_answer>\n`;
       qaBudget -= f.q.length + f.a.length;
