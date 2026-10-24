@@ -1,6 +1,6 @@
 {
- "at": "2026-10-23T23:48:03.832Z",
- "products": 720,
+ "at": "2026-10-24T14:49:32.994Z",
+ "products": 726,
  "findings": [
   {
    "level": "WARN",
@@ -111,6 +111,13 @@
    "level": "WARN",
    "handle": "womens-frog-not-toad-ay-zip-hoodie",
    "title": "Women's Frog – Not Today, I'm Moisturizing Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-hunting-fake-friends-duck-camo-hoodie",
+   "title": "Men's Hunting – Fake Friends Duck Camo Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
@@ -1040,8 +1047,43 @@
   },
   {
    "level": "WARN",
+   "handle": "womens-cat-clocked-it-said-nothing-embroidered-zip-hoodie",
+   "title": "Women's Cat – Clocked It. Said Nothing. Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-pit-bull-professional-lap-dog-embroidered-zip-hoodie",
+   "title": "Unisex Pit Bull – Professional Lap Dog Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-pit-bull-professional-lap-dog-embroidered-zip-hoodie",
+   "title": "Unisex Pit Bull – Professional Lap Dog Embroidered Zip Hoodie",
+   "msg": "No SEO title.",
+   "fix": "Write one ≤ 60 chars with the primary keyword."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-gym-squire-spot-me-embroidered-zip-hoodie",
+   "title": "Men's Gym – Squire, Spot Me Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "mens-fishing-is-my-love-language-embroidered-zip-hoodie",
    "title": "Men's Fishing – Fishing Is My Love Language Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-gym-twelve-labors-zero-cardio-embroidered-zip-hoodie",
+   "title": "Men's Gym – Twelve Labors. Zero Cardio. Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
@@ -1077,6 +1119,20 @@
    "level": "WARN",
    "handle": "mens-outdoors-mountains-called-left-on-read-camo-hoodie",
    "title": "Men's Outdoors – The Mountains Called. Left Them on Read. Camo Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-christmas-attending-under-protest-embroidered-zip-hoodie",
+   "title": "Men's Christmas – Attending Under Protest Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-christmas-it-looked-smaller-at-the-farm-embroidered-zip-hoodie",
+   "title": "Men's Christmas – It Looked Smaller at the Farm Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
