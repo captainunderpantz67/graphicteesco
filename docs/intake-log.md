@@ -1,3 +1,4 @@
+2026-10-24 14:17 UTC — RUNNING director since 2026-10-24 14:17 UTC
 2026-10-24 13:48 UTC — [B] Builder run end: 2 items, camo redo #3 #292 (A+ goose icon, lifestyle photos) and #4 #289 (B3 decoy engraving, photos garbled so flats kept; both ACTIVE, director to confirm). fal ~$0.34. Lock released.
 2026-10-24 13:48 UTC — [B] REVIEW #289 Men's Hunting – Fake Friends Duck Camo Hoodie (camo-redo 4 of 27, S2 on B3, FW625 TOP300 LEFT1475, 14/14 on 1093665816, line 100%, art 83% of height, Cinzel; no AI photo, flats kept). fal ~$0.22.
 2026-10-24 13:43 UTC — [B] REVIEW #292 Men's Hunting – Fluent in Honk Camo Hoodie (camo-redo 3 of 27, S8 on A+, FW1500 TOP400, 14/14 on 1093660903, headline 100%, icon 78%, Bowlby). fal ~$0.16.
