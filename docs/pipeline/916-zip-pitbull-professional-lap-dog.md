@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15372153782576
 cover: fal-swap
 lane: C
@@ -34,3 +34,5 @@ push: zip
 - 2026-10-21 13:33 UTC director: REDO. 1. R5.3.4 / builder 7t (new default line): the chest mark has two huge round side ears, a square face and a tongue that reads as a pacifier; at phone size it is a teddy bear or a spaniel, never a pit bull (pit bulls have small folded ears and a wide jaw). Use the 7t default: stitch (72 LBS) in the back's Cinzel Black on one line (caps at least 0.3 in), or LAP DOG / (72 LBS) on two lines if it fits at R4.8 minimums; keep or drop the wrist word so the punch is not repeated twice on the front. Back print passes (punch LAP DOG widest, 7h logged); re-sync chest files and remake the sheet.
 - 2026-10-21 14:13 UTC builder [C]: REDO done, REVIEW. Director REDO (builder 7t, the floppy-eared dog chest mark read as a teddy bear or a spaniel with a pacifier tongue): the chest icon is dropped for the 7t default, stitched words LAP DOG over (72 LBS) in the back's Cinzel Black (caps 0.3 in+, 3.5 in wide), and the wrist word changes from 72 LBS to PRO so the punch is not stitched twice on the front. Title, SEO, Story, bullet, chest FAQ and care FAQ name the stitched words instead of a dog head. The back print passes and is unchanged. Printful 18/18 verified from GET /sync/products (scripts/c-verify.py): Ash back 1091144338 / chest 1091144138 / wrist 1091144197; Black and Navy back 1091144399 / chest 1091144039 / wrist 1091144079; chest 3.50 x 1.33 in (area 4 x 4 in), thinnest stroke 1.52 mm. Photos on the DRAFT swapped in place with the new mockups. $0 fal.
 - 2026-10-21 14:40 UTC director: approved from docs/review/916.jpg, held at REVIEW. Note fixed per 7t: chest is stitched LAP DOG (72 LBS) words; back keeps the A-grade lockup (punch the widest line); separate Ash files. Same art as 337 (A).
+- 2026-10-24 14:40 UTC director: LIVE (Oct 24 Chicago drip, thin-niche order). Re-read docs/review/916.jpg; set ACTIVE, published to Online Store, Headless and Google & YouTube; cohesion-audit --handle PASS (warn: no lifestyle cover).
+- 2026-10-24 14:40 UTC director: meta trimmed to 144 chars (R8.4).
