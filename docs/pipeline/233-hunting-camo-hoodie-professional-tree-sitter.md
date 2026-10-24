@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: twin
 id: 233
@@ -23,3 +23,4 @@ handle: mens-hunting-professional-tree-sitter-camo-hoodie
 - 2026-10-16 22:17 UTC director: LIVE (ACTIVE + Online Store + Headless, audit --handle PASS). approved: no floating objects; bow is in his hands.
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #6 of 27, style S6. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is B3 (left chest at the seam, tag placement-b).
+- 2026-10-24 22:05 UTC [B]: camo-redo #6 (S6 varsity on B3, tag placement-b), in place on product 15362317353264. New art: 1 Recraft call (3-color varsity mascot lounging in a ladder stand over a buck, no lettering), thin cream halo, no box; line PRO TREE SITTER (shortened from PROFESSIONAL TREE SITTER to meet the 3-word B3 cap; title kept, copy and SEO say Pro) in Graduate (collegiate slab; faces of last 5 lane B builds: Caveat Brush, Cinzel, Bowlby, Fraunces, Playfair; Graduate not among them). Single line, 7h n/a (line 100% of width); art 89% of print height (B3 needs >= 70%). Print 3250 x 3237, FW 625 TOP 300 LEFT 1475; cap height ~53 px at FW 625 (floor 53, borderline). R7.7: Darkwood Tree Camo + Forest Camo 14/14 on file 1094011628, back logo 1080398177. Front mockups replaced in place (phone-size: small left-chest print, line readable only at full size, as B3 by design), old back kept. Copy, SEO, FAQ (4 x 40-60 words) rewritten; tag placement-b added. Lifestyle: registry 1150 reserved; 3 seedream calls, all rejected (caption garbled each time, stray side lettering), so per card flats kept as images 1-2, handle in retired-covers (cover: fal-swap). Audit PASS 0 warn. Sheet docs/review/233.jpg. Product is ACTIVE: director to confirm. fal ~$0.22.
