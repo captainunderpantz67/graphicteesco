@@ -288,3 +288,4 @@ docs/backlog/drawn-fixes.json holds 62 products: {id, handle, html}. Each "html"
 ## 2026-10-23 — Helper (Telegram, 23:47 UTC): Sam asked about lane E
 - Sam asked the director what lane E covers; he is not sure. Director to answer him (lane E = colorway backfills on LIVE zips, per the 10-21 log).
 - Sam also sent a Facebook video link with no note. Nothing to do unless he says what he wants.
+- DONE 2026-10-24 14:25 UTC director (lane E question): answered Sam on Telegram. Lane E was the third zip/camo build lane Sam added 2026-10-21 05:50 (the all-over-print pilots, the Essentials zips and colorway backfills on live zips; cluster outdoors + frenchie). Since the drip cap (R11.15) one builder runs 3 times a day, so lane E no longer runs on its own; its 10-21 lock and three old lane C locks were cleared from the intake log so the helper stops alerting on them. Facebook link: nothing to do without a note.
