@@ -39,6 +39,16 @@ export const GET: APIRoute = async () => { const all = await feedProducts(); ret
 // until we have real sales to rank by (Google: it must reflect actual sales).
 const OFFER_WORDS = /\$|\b(free shipping|ship|deliver|arrive|order by|sale|price|days?)\b/i;
 const designKey = (t: string) => t.replace(/\s+(tee|t-shirt|shirt|hoodie|crewneck sweatshirt|sweatshirt|crewneck)$/i, '').replace(/^.*?–\s*/, '').trim().toLowerCase();
+// Merchant Center "add missing details" (2026-10-24: 16,125 items flagged): material, pattern and up to 4
+// product_highlight lines, all read from the product's own "Details & Fit" copy so nothing is invented.
+const detailsOf = (full: string) => (full.split(/Details\s*&\s*Fit\.?/i)[1] ?? '').split(/\b(?:Care|Sizing|Shipping|FAQ)\b/i)[0];
+// Per variant: a "100% cotton" blank whose poly mention is only for heather colors is cotton unless the color is a heather.
+const materialOf = (d: string, color = '') => {
+  const cotton = /cotton/i.test(d), poly = /poly/i.test(d);
+  if (/100%[^.;]*cotton/i.test(d) && !/heather/i.test(color)) return 'cotton';
+  return cotton && poly ? 'cotton/polyester' : cotton ? 'cotton' : poly ? 'polyester' : null;
+};
+const highlightsOf = (d: string) => d.replace(/\bCo\.\s/g, 'Co ').split(/(?<=\.)\s+(?=[A-Z0-9])/).map((x) => x.trim().replace(/\.$/, '')).filter((x) => x.length >= 8 && x.length <= 150).slice(0, 4);
 
 export const renderFeed = (products: Awaited<ReturnType<typeof feedProducts>>, catalog: Awaited<ReturnType<typeof feedProducts>> = products) => {
   const items: string[] = [];
@@ -47,6 +57,8 @@ export const renderFeed = (products: Awaited<ReturnType<typeof feedProducts>>, c
     // Kept short: the description repeats on every variant row, and Cloudflare Pages caps a file at 25 MiB
     // (the full-length feed hit 29.6 MiB on 2026-10-16 and blocked every deploy). Google needs no more than this.
     const desc = text(p.descriptionHtml || p.description).slice(0, 900).replace(/\s+\S*$/, '');
+    const details = detailsOf(text(p.descriptionHtml || p.description));
+    const highlightXml = `      <g:pattern>graphic print</g:pattern>\n${highlightsOf(details).map((h) => `      <g:product_highlight>${esc(h)}</g:product_highlight>\n`).join('')}`;
     const col = all.find((c) => p.collections?.includes(c.shopifyHandle) && c.slug !== 'graphic-tees-for-men' && c.slug !== 'graphic-tees-for-women');
     const isSweat = /sweatshirt|crewneck|hood/i.test(p.title + ' ' + p.productType);
     const cover = coverFor(p.handle) ? abs(coverFor(p.handle)!.src) : null;
@@ -86,7 +98,7 @@ ${cover ? `      <g:lifestyle_image_link>${esc(cover)}</g:lifestyle_image_link>\
       <g:product_type>${esc(['Apparel', isSweat ? 'Sweatshirts' : 'Graphic Tees', col?.name].filter(Boolean).join(' > '))}</g:product_type>
       <g:gender>${gender(p.handle)}</g:gender>
       <g:age_group>adult</g:age_group>
-${qaXml}${relXml}${o.color ? `      <g:variant_option><g:name>color</g:name><g:value>${esc(o.color)}</g:value></g:variant_option>\n` : ''}${o.size ? `      <g:variant_option><g:name>size</g:name><g:value>${esc(o.size)}</g:value></g:variant_option>\n` : ''}${o.color ? `      <g:color>${esc(o.color)}</g:color>\n` : ''}${o.size ? `      <g:size>${esc(o.size)}</g:size>\n      <g:size_system>US</g:size_system>\n` : ''}    </item>`);
+${((m) => (m ? `      <g:material>${m}</g:material>\n` : ''))(materialOf(details, o.color))}${highlightXml}${qaXml}${relXml}${o.color ? `      <g:variant_option><g:name>color</g:name><g:value>${esc(o.color)}</g:value></g:variant_option>\n` : ''}${o.size ? `      <g:variant_option><g:name>size</g:name><g:value>${esc(o.size)}</g:value></g:variant_option>\n` : ''}${o.color ? `      <g:color>${esc(o.color)}</g:color>\n` : ''}${o.size ? `      <g:size>${esc(o.size)}</g:size>\n      <g:size_system>US</g:size_system>\n` : ''}    </item>`);
     }
   }
   const body = `<?xml version="1.0" encoding="UTF-8"?>
