@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: new
 id: 289
@@ -26,3 +26,4 @@ handle: mens-hunting-fake-friends-duck-camo-hoodie
 - 2026-10-17 01:15 UTC director: LIVE. Reviewed docs/review/289.jpg + Shopify copy; set ACTIVE, published to Online Store, Headless and Google & YouTube; cohesion-audit --handle PASS.
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #4 of 27, style S2. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is B3 (left chest at the seam, tag placement-b).
+- 2026-10-24 13:58 UTC [B]: camo-redo #4 (S2 field guide, placement B3, tag placement-b), in place on product 15362670199088. New art: 1 Recraft call (vintage engraving of one wooden duck decoy, smug painted eye), silhouette filled cream with the engraving's own ink lines on top and a dark keyline, no box; ripples/reflection cropped off. Line: FAKE FRIENDS. (2 words) in Cinzel Black blaze orange with dark keyline (last 5 lane B faces: Bowlby, Fraunces, Playfair, Bevan, Alfa Slab; Cinzel not among them). Print 3300 x 2109, FW 625 TOP 300 LEFT 1475 (wearer's left chest at the seam); decoy 1743 of 2109 px = 83% of print height; line 3301 of 3300 = 100% of width, cap height ~330 px at 3300 = ~63 px at FW 625 (>= 53). R7.7: Duck + Forest Camo 14/14 on file 1093665816, back logo 1080398177. Front mockups replaced in place, old back kept. Title unchanged; copy, SEO (meta trimmed), FAQ (4 x 40-60 words) rewritten to the one-line chest; tag placement-b added. Lifestyle: 3 seedream calls (registry 1148, $0.18): try 1 big center print on a non-camo short-sleeve, tries 2 and 3 camo and size right but the caption garbled (FAKE FFAEWUR) at 200%; per camo-redo rule 4 kept the clean Printful flat shots, old collar-high cover removed (covers.ts) and handle added to retired-covers.json; director may try a closer photo. Audit PASS (warn: no lifestyle cover). Sheet docs/review/289.jpg. Product is ACTIVE: director to confirm.
