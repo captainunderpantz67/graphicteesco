@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24T14:49:32.994Z",
+ "at": "2026-10-24T23:45:05.157Z",
  "products": 726,
  "findings": [
   {
@@ -111,13 +111,6 @@
    "level": "WARN",
    "handle": "womens-frog-not-toad-ay-zip-hoodie",
    "title": "Women's Frog – Not Today, I'm Moisturizing Embroidered Zip Hoodie",
-   "msg": "No lifestyle cover photo.",
-   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
-  },
-  {
-   "level": "WARN",
-   "handle": "mens-hunting-fake-friends-duck-camo-hoodie",
-   "title": "Men's Hunting – Fake Friends Duck Camo Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },

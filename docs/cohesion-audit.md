@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-24 14:49 UTC
+# Cohesion audit — 2026-10-24 23:45 UTC
 
-726 live products checked · **7 errors** · 156 warnings · 155 products with findings
+726 live products checked · **7 errors** · 155 warnings · 154 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -62,9 +62,6 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
 
 ### Women's Frog – Not Today, I'm Moisturizing Embroidered Zip Hoodie `womens-frog-not-toad-ay-zip-hoodie`
-- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
-
-### Men's Hunting – Fake Friends Duck Camo Hoodie `mens-hunting-fake-friends-duck-camo-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Unisex Camping – Camp Security Camo Hoodie `unisex-camping-camp-security-bear-camo-hoodie`
