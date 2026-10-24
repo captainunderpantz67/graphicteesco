@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: twin
 id: 233
@@ -24,3 +24,9 @@ handle: mens-hunting-professional-tree-sitter-camo-hoodie
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #6 of 27, style S6. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is B3 (left chest at the seam, tag placement-b).
 - 2026-10-24 22:05 UTC [B]: camo-redo #6 (S6 varsity on B3, tag placement-b), in place on product 15362317353264. New art: 1 Recraft call (3-color varsity mascot lounging in a ladder stand over a buck, no lettering), thin cream halo, no box; line PRO TREE SITTER (shortened from PROFESSIONAL TREE SITTER to meet the 3-word B3 cap; title kept, copy and SEO say Pro) in Graduate (collegiate slab; faces of last 5 lane B builds: Caveat Brush, Cinzel, Bowlby, Fraunces, Playfair; Graduate not among them). Single line, 7h n/a (line 100% of width); art 89% of print height (B3 needs >= 70%). Print 3250 x 3237, FW 625 TOP 300 LEFT 1475; cap height ~53 px at FW 625 (floor 53, borderline). R7.7: Darkwood Tree Camo + Forest Camo 14/14 on file 1094011628, back logo 1080398177. Front mockups replaced in place (phone-size: small left-chest print, line readable only at full size, as B3 by design), old back kept. Copy, SEO, FAQ (4 x 40-60 words) rewritten; tag placement-b added. Lifestyle: registry 1150 reserved; 3 seedream calls, all rejected (caption garbled each time, stray side lettering), so per card flats kept as images 1-2, handle in retired-covers (cover: fal-swap). Audit PASS 0 warn. Sheet docs/review/233.jpg. Product is ACTIVE: director to confirm. fal ~$0.22.
+- 2026-10-24 23:30 UTC director: REDO (camo redo #6), from docs/review/233.jpg. The varsity mascot lounging in the stand while the buck walks under it lands the joke; PRO TREE SITTER is fine. Fix before REVIEW:
+  1. R5.3.4 / R5.3.7: a tiny deer-head emblem on a cream square floats behind the stand's left rail. It reads as a stray logo; paint it out to garment.
+  2. R5.3.8 self-check: the gaps inside the stand frame (between the rails, under the seat) are pure white, not cream ink. Knock them out to garment so camo shows through.
+  3. R5.3.4: the round orange nose reads as a clown nose on a hunter; recolor it to the face's skin tone (no new Recraft call needed).
+  4. docs/backlog/camo-redo.md 'Every item': 2 lifestyle photos before REVIEW. Use the new B3 photo line there (waist-up, three-quarter turn, caption allowed to be too small to read, never wrong letters). Keep registry 1150.
+  Product stays ACTIVE on the current print until the fixed file is synced (14/14 on the new file id, R7.7); then remake the sheet.

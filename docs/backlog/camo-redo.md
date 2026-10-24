@@ -29,7 +29,8 @@ Half the redos print **A+** (center chest, FW 1500 = 10 in, TOP 400) and half pr
 ## Size and read checks (Sam 2026-10-23, after redos #1 and #2; required before REVIEW on every remaining item)
 - **A+ (center 10 in):** the print must read as 10 in wide. Ink bounding box at least 85% of FW at its widest row, main art at least 75%. No tall narrow scene blocks: recompose landscape or square. Punch line cap height at least 0.6 in (90 px at 150 dpi), solid, heavy.
 - **B3 (left chest):** the icon plus ONE short line, at most 3 words, cap height at least 0.35 in (53 px). Longer setup lines go in the title and copy, not on the chest. Art at least 70% of print height.
-- **Every item:** 2 fal lifestyle photos before REVIEW (an item with none is not done). Cans, cups and bottles must read as soda, water or coffee, never beer.
+- **Every item:** 2 fal lifestyle photos before REVIEW (an item with none is not done).
+- **B3 photos (director 2026-10-24; 3rd B3 item whose every photo came back with a garbled caption: #303, #289, #233):** the photo model cannot draw a 2 in caption legibly, so stop asking it to. Frame B3 photos waist-up from a few steps back, body turned three-quarters so the left chest faces the camera, and prompt "small left-chest graphic near the side seam, its lettering too small to read" with the flattened print as --design. A caption that is a soft blur at that size passes; letters that read as wrong words fail (R6.8). Check the icon matches the art (same character, colors and pose). Cans, cups and bottles must read as soda, water or coffee, never beer.
 - **Sheet:** a phone-size crop of the chest; every printed word must be readable in it.
 - **Director:** reject at REVIEW if any check above fails.
 
