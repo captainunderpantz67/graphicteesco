@@ -1170,6 +1170,91 @@ export const allGuides: Guide[] = [
       { q: 'How early should I order a fishing gift for Christmas?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2 to 5 business days, then delivery takes about 3 to 8 business days in the US.' },
     ],
   },
+  {
+    // Writer lane W (2026-10-24), gym cluster. Keyword: workout shirts funny 1,300 / KD 17 (RankHero 2026-10-24). "funny workout shirt" (singular) is claimed by the Gym Rat tee (#422 family) and "funny gym shirts" by the Plate Club tee, so the article uses the plural word-order variant and links to the gym collection; director: check for overlap before approval.
+    // Facts (slogans, art, prices, policies) from pipeline files #153 #154 #163 #494 #544 #502, the sibling gym-gifts-for-men guide, collections.ts gym copy and site.ts. Picks are A-grade designs listed in fresh-designs.json (Old School Strength is excluded: REDO).
+    // Planned siblings (not live yet): funny-gym-shirts, gym-hoodies-for-men-guide, gifts-for-lifters-under-50.
+    slug: 'funny-workout-shirts',
+    keyword: 'workout shirts funny',
+    title: 'Workout Shirts Funny Enough to Lift In: 5 Gym Tees Worth Wearing',
+    description: 'Funny workout shirts for lifters: Retired From Cardio, Sore Since 1987, Beach Body Pending, Sisyphus Had Bad Programming. Cotton graphic tees, $24.99.',
+    h1: 'Funny Workout Shirts for Guys Who Lift and Laugh',
+    date: '2026-10-24',
+    cluster: 'gym',
+    draft: true,
+    answer: 'The funniest workout shirts joke about the gym itself, not about "no pain, no gain." Graphic Tees Co. has five: Retired From Cardio, Sore Since 1987, Beach Body Pending, Sisyphus Had Bad Programming and Rack Your Weights. Respectfully. Each is an original-art cotton graphic tee for $24.99, printed after you order it. They are not moisture-wicking performance shirts.',
+    picks: [
+      {
+        h2: 'What is a funny workout shirt for someone who hates cardio?',
+        body: ['Retired From Cardio. It is for the lifter who treats the treadmill as someone else\'s hobby.'],
+        items: [
+          { slogan: 'Retired From Cardio', tee: 'mens-gym-barbell-club-graphic-tee',
+            text: 'A mustached 1960s strongman in a striped singlet sleeps in a rocking chair with a barbell across his lap, with RETIRED FROM CARDIO in big retro capitals and Barbell Club in small script below. The tee is $24.99.' },
+        ],
+      },
+      {
+        h2: 'What is a funny gym shirt for a lifter who is always sore?',
+        body: ['Sore Since 1987. Anyone who has taken the stairs after leg day will recognize the walk.'],
+        items: [
+          { slogan: 'Sore Since 1987', tee: 'mens-gym-iron-sweat-graphic-tee',
+            text: 'An 80s lifter in a terry sweatband limps down the gym stairs gripping the handrail, with SORE SINCE 1987 in retro athletic capitals and Iron & Sweat Dept. in small type below. The tee is $24.99.' },
+        ],
+      },
+      {
+        h2: 'What is a funny workout shirt for someone in the middle of a cut?',
+        body: ['Beach Body Pending. It says what everyone on a diet is thinking, with a loading icon.'],
+        items: [
+          { slogan: 'Beach Body Pending', tee: 'mens-gym-golden-era-pose-graphic-tee',
+            text: 'A tanned 1970s bodybuilder hits a double-biceps pose on the sand between two palm trees, an hourglass icon floating by his shoulder, with BEACH BODY PENDING in groovy 70s capitals. The tee is $24.99.' },
+        ],
+      },
+      {
+        h2: 'What is a funny workout shirt for a lifter who obsesses over programming?',
+        body: ['Sisyphus Had Bad Programming. It is for the guy with a training spreadsheet and opinions about your split.'],
+        items: [
+          { slogan: 'Sisyphus Had Bad Programming', tee: 'mens-gym-sisyphus-had-bad-programming-graphic-tee', crewneck: 'mens-gym-sisyphus-had-bad-programming-crewneck-sweatshirt',
+            text: 'SISYPHUS HAD / BAD PROGRAMMING is set in classical capitals around a Greek-vase hero pushing a giant weight plate uphill, in black and terracotta ink. The tee is $24.99, the crewneck is $34.99 and the pullover hoodie is $39.99.' },
+        ],
+        links: [{ href: '/products/mens-gym-sisyphus-had-bad-programming-hoodie/', text: 'Sisyphus Had Bad Programming hoodie' }],
+      },
+      {
+        h2: 'What is a funny workout shirt about gym etiquette?',
+        body: ['Rack Your Weights. Respectfully. It is the gym gripe every lifter has, said in the politest possible voice.'],
+        items: [
+          { slogan: 'Rack Your Weights. Respectfully.', tee: 'mens-gym-rack-your-weights-respectfully-graphic-tee',
+            text: 'A Victorian butler in a top hat, tails and white gloves carries an iron plate on a silver tray toward an empty weight rack, with RACK YOUR WEIGHTS. above and Respectfully. below. The tee is $24.99. It also comes as an oversized heavyweight hoodie for $54.99.' },
+        ],
+        links: [{ href: '/products/mens-gym-rack-your-weights-respectfully-oversized-hoodie/', text: 'Rack Your Weights. Respectfully. oversized hoodie' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a workout shirt funny instead of cheesy?',
+        body: ['It jokes about something only a lifter knows. A line about cardio, soreness, programming or re-racking plates lands because the wearer has said the same thing out loud. A slogan like "beast mode" does not.',
+          'Graphic Tees Co. gym designs are original art with the joke set in big type, so it reads across the weight room. Nothing on them uses a supplement brand, gym chain or federation logo.'] },
+      { h2: 'Are these workout shirts moisture-wicking?',
+        body: ['No. Graphic Tees Co. gym shirts are cotton graphic tees, not performance fabric. They are built for lifting days, rest days and the walk in and out.',
+          'The tees are a lightweight 4.2 oz unisex cut in cotton. Sisyphus Had Bad Programming also comes as a crewneck and a hoodie in 8 oz fleece, 50% cotton and 50% polyester.'],
+        links: [{ href: '/mens-gym-shirts/', text: 'Men\'s gym shirts' }] },
+      { h2: 'What size should you order?',
+        body: ['Order your usual size for a regular fit. If you want a looser pump-cover fit, size up. Rack Your Weights. Respectfully. also comes as an oversized hoodie for $54.99.',
+          'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.'],
+        links: [{ href: '/hoodies/gym-hoodies-for-men/', text: 'Men\'s gym hoodies' }, { href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'How much do funny workout shirts cost, and how fast do they ship?',
+        body: ['Every tee here is $24.99. US shipping is free on orders of $45 or more, so two tees ship free.',
+          'Each piece is printed after you order it, in 2–5 business days, then ships in about 3–8 business days in the US. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find gym gear and gift ideas?',
+        body: ['If you are buying for a lifter rather than yourself, see our gym gifts for men guide. For a group swap, our white elephant guide has $24.99 picks. Lifters who golf will like the golf gifts.'],
+        links: [{ href: '/guides/gym-gifts-for-men/', text: 'Gym gifts for men' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }, { href: '/guides/funny-golf-gifts/', text: 'Funny golf gifts' }, { href: '/hoodies/gym-hoodies/', text: 'All gym hoodies' }] },
+    ],
+    faqs: [
+      { q: 'What are funny workout shirts?', a: 'Shirts that joke about lifting, not generic gym slogans. Graphic Tees Co. makes five, including Retired From Cardio and Sore Since 1987. Each is an original-art cotton graphic tee for $24.99, printed to order.' },
+      { q: 'Are funny workout shirts good to actually work out in?', a: 'They are cotton graphic tees, not performance fabric. Graphic Tees Co. gym tees are a lightweight 4.2 oz cut that suits lifting days, but they are not moisture-wicking.' },
+      { q: 'What is a funny gym shirt for guys over 35?', a: 'Sore Since 1987 from Graphic Tees Co. shows an 80s lifter limping down the gym stairs. The tee is $24.99 and is printed after you order it.' },
+      { q: 'Do you have funny workout shirts in hoodie form?', a: 'Yes, for some designs. Sisyphus Had Bad Programming is a $39.99 hoodie, and Rack Your Weights. Respectfully. is a $54.99 oversized hoodie at Graphic Tees Co.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+      { q: 'Does free shipping apply to a single tee?', a: 'Not by itself. US shipping at Graphic Tees Co. is free on orders of $45 or more, so two $24.99 tees qualify.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
