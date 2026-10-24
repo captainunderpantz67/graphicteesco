@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-24 23:12 UTC
 2026-10-24 22:07 UTC — [B] Builder run end: 2 items, camo redo #5 #300 (sleeping doe, A+, 2 lifestyle photos) and #6 #233 (varsity tree-sitter mascot, B3, photos garbled so flats kept; both ACTIVE, director to confirm). New products today: 0 of 6. fal ~$0.52. Lock released.
 2026-10-24 22:06 UTC — [B] REVIEW #233 Men's Hunting – Professional Tree Sitter Camo Hoodie (camo-redo 6 of 27, S6 on B3, FW625 TOP300 LEFT1475, 14/14 on 1094011628, line 100%, art 89% of height, Graduate; 3 photo calls garbled, flats kept). fal ~$0.22.
 2026-10-24 21:41 UTC — [B] REVIEW #300 Women's Hunting – Doe Not Disturb Camo Hoodie (camo-redo 5 of 27, S5 on A+, FW1500 TOP400, 14/14 on 1094004969, line 100%, art 94%, Caveat Brush; 2 lifestyle photos). fal ~$0.30.
