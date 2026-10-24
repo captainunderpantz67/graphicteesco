@@ -940,4 +940,4 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1145 | Brazilian woman, early 30s, curly dark hair tied back, medium build | CLAIMED 2026-10-21 — #987 hoodie cover (brief) |
 | 1146 | Lumbee man, mid 30s, short dark hair, trimmed beard, broad build | USED 2026-10-23 — #830 camo redo cover + second photo |
 | 1147 | Hispanic man, early 40s, short salt-and-pepper hair, clean-shaven, stocky build | USED 2026-10-24 — #292 camo redo cover + second photo |
-| 1148 | Black man, early 30s, short fade, light beard, athletic build | UNUSED 2026-10-24 — #289 photos garbled the caption, flats kept
+| 1148 | Black man, early 30s, short fade, light beard, athletic build | USED 2026-10-24 — #289 camo redo cover (seedream call 1 of the photos-only REDO)

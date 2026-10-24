@@ -1,4 +1,5 @@
-status: REDO
+status: REVIEW
+cover: fal-swap
 lane: B
 type: new
 id: 303
@@ -34,3 +35,4 @@ handle: unisex-camping-camp-security-bear-camo-hoodie
   2. Fix: at most 2 more seedream calls (R6.9 redo extra attempt), the Forest Camo Printful mockup as --design, closer half-body framing so the 4 in print is bigger in frame, man and woman both in frame (R6.3 unisex), print on the wearer's left, hands at the sides. Read ON BREAK. letter by letter on both people.
   3. If both tries still garble it, keep the flats first, log it and mark `cover: fal-swap`; the director decides.
   4. Director already moved the Forest and Black Camo flats to images 1-2, removed the covers.ts entry and added the handle to retired-covers.json so the site shows the clean flat for now. Restore the covers.ts entry, take the handle out of retired-covers.json and put the new photos first when they pass.
+- 2026-10-24 17:34 UTC [B]: photos-only REDO per director 23:20: 2 seedream calls (registry 484 man + 488 woman, Forest Camo mockup cropped to the chest as --design, closer framing). Try 1: woman's braid over her print. Try 2: man's caption reads ON BREAJ, woman's braid again touches the print. Both rejected; flats stay first, covers.ts and retired-covers.json left as the director set them, `cover: fal-swap`. Print and copy untouched. Director decides.
