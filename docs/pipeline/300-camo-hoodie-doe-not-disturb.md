@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: new
 id: 300
@@ -26,3 +26,4 @@ handle: womens-hunting-doe-not-disturb-camo-hoodie
 - 2026-10-17 02:14 UTC director: approved from docs/review/300.jpg; ACTIVE + Online Store + Headless + Google; cohesion-audit --handle PASS (0 warn). LIVE.
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #5 of 27, style S5. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is A+ (center 10 in, tag placement-a).
+- 2026-10-24 21:40 UTC [B]: camo-redo #5 (S5 sketchbook on A+, tag placement-a), in place on product 15362824372528. New art: 1 Recraft call (loose ink-and-watercolor sleeping doe, sleep mask, leaves, no lettering), thin cream halo, no box; line DOE NOT DISTURB. set in Caveat Brush (cream fill, dark keyline; faces of last 5 lane B builds: Cinzel, Bowlby, Fraunces, Playfair, Bevan; Caveat not among them). Single line, 7h n/a (line 100% of print width); art 94% of width. Print 3178 x 2629, FW 1500 TOP 400 (height 1241, TOP+h 1641 <= 2100); cap height ~158 px at FW1500 (>= 90). R7.7: Darkwood Tree Camo + Forest Camo 14/14 on file 1094004969, back logo 1080398177. Front mockups replaced in place (phone-size read OK), old back kept. Title unchanged (same line); copy, SEO, FAQ (4 x 40-60 words) rewritten; tag placement-a added. Lifestyle: registry 1149; 4 seedream calls: tailgate cover kept (call 1), porch photo took 3 calls (garbled DISTIUR8, then short sleeves, third clean), text legible at 200%, images 1-2; covers.ts alt updated. Audit PASS 0 warn. Sheet docs/review/300.jpg. Product is ACTIVE: director to confirm. fal ~$0.30.
