@@ -64,8 +64,8 @@ export const renderFeed = (products: Awaited<ReturnType<typeof feedProducts>>, c
     const cover = coverFor(p.handle) ? abs(coverFor(p.handle)!.src) : null;
     const heavy = /hood|sweatshirt|crewneck/i.test(p.title + ' ' + p.productType);
     const groupTitle = p.title;
-    // 2000, not 9000: Q&A repeats on every variant row; at 4000 the pages still sat at ~19 MiB of the 25 MiB cap (2026-10-24).
-    // Next step when they creep back up: a 5th feed page, which needs a new Merchant Center source (Sam).
+    // Cap on Q&A text per product (it repeats on every variant row). Rarely binds: most products carry ~1 KB of Q&A.
+    // Pages sit at ~19-20 MB of the 25 MiB cap (2026-10-24) and grow ~110 KB/day; next step is a 5th feed page (new MC source, Sam).
     let qaBudget = 2000;
     const qaXml = productFaqs(p).filter((f) => !OFFER_WORDS.test(f.q + ' ' + f.a)).slice(0, 30).map((f) => {
       const x = `      <g:question_and_answer><g:question>${esc(f.q.slice(0, 1000))}</g:question><g:answer>${esc(f.a.slice(0, 1000))}</g:answer></g:question_and_answer>\n`;
