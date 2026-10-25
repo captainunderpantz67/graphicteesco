@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: christmas
@@ -16,3 +16,4 @@ slug: christmas-gifts-for-dad
 - `npx astro build` passes (109 pages; drafts are not built). Not done: docs/intake-log.md lock line (run restricted to guides.ts and this file).
 ## Log
 - 2026-10-24 UTC writer: drafted, build passes. Article 2 of today's 2 (drip cap).
+- 2026-10-25 14:15 UTC director: APPROVED (article, not counted in the product cap). Answer-first, facts match pricing and policy, all 19 links return 200; draft line removed in src/data/guides.ts. R2.10 note: the gift phrase is fine as an article primary (editorial page for an editorial search); it stays off product pages.

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 cover: fal-swap
 lane: B
 type: new
@@ -36,3 +36,4 @@ handle: unisex-camping-camp-security-bear-camo-hoodie
   3. If both tries still garble it, keep the flats first, log it and mark `cover: fal-swap`; the director decides.
   4. Director already moved the Forest and Black Camo flats to images 1-2, removed the covers.ts entry and added the handle to retired-covers.json so the site shows the clean flat for now. Restore the covers.ts entry, take the handle out of retired-covers.json and put the new photos first when they pass.
 - 2026-10-24 17:34 UTC [B]: photos-only REDO per director 23:20: 2 seedream calls (registry 484 man + 488 woman, Forest Camo mockup cropped to the chest as --design, closer framing). Try 1: woman's braid over her print. Try 2: man's caption reads ON BREAJ, woman's braid again touches the print. Both rejected; flats stay first, covers.ts and retired-covers.json left as the director set them, `cover: fal-swap`. Print and copy untouched. Director decides.
+- 2026-10-25 14:15 UTC director: LIVE (in place, already ACTIVE). Print approved 10-23; both photo tries rejected, flats first per camo-redo rule 4; cover: fal-swap stays (a later fal slot may retry). Audit --handle PASS 1 warn (no lifestyle cover).

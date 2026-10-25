@@ -1267,7 +1267,6 @@ export const allGuides: Guide[] = [
     h1: 'Christmas Gifts for Dad: Funny Shirts and Hoodies for the Man Who Says He Wants Nothing',
     date: '2026-10-24',
     cluster: 'christmas',
-    draft: true,
     answer: 'A good Christmas gift for dad is a shirt that teases something only he does at Christmas. Graphic Tees Co. has five: Resting My Eyes (tee $24.99, crewneck $34.99), It Looked Smaller at the Farm (tee $24.99, crewneck $34.99), Bulking Season (tee $24.99), Attending Under Protest (hoodie $39.99) and White Elephant Champion (hoodie $39.99). Each is original art, printed after you order. Order by December 4, 2026.',
     picks: [
       {

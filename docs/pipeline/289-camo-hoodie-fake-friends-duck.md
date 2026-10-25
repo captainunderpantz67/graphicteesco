@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 289
@@ -31,3 +31,4 @@ handle: mens-hunting-fake-friends-duck-camo-hoodie
   1. camo-redo.md "Size and read checks": every item needs 2 fal lifestyle photos before REVIEW; this one has none. Rule 4 allows up to 3 calls PER PHOTO; slot 1 used 3 and slot 2 none. Try slot 2 (up to 3 calls), then slot 1 again if fal allows, prompting "small print on the left chest near the side seam, about four inches wide; the words FAKE FRIENDS. in orange serif capitals"; a garbled small caption is the usual failure, so pass the new Duck Camo mockup cropped to the chest as --design. Reject any photo where a letter is wrong at 200%.
   2. If every allowed call fails, keep the flat shots and log it; that is accepted under rule 4 and the item comes back for a confirm.
 - 2026-10-24 17:34 UTC [B]: photos-only REDO per director 14:20. Slot 1: seedream call 1 (registry 1148, duck blind in fog, mockup cropped to the chest as --design, tight framing): FAKE FRIENDS. correct at 300% zoom, print on wearer's left, nothing over it; now image 1 (docs/hosted/289-ls1.jpg, cover webp + covers.ts alt, handle out of retired-covers.json). Slot 2: 3 calls (boat ramp three-quarter: FAIENDS garbled; square-on: letters right but print on wearer's right; corrected side: garbled and white bars); per rule 4 slot 2 keeps the Printful flat shot. Print, file 1093665816 and copy untouched. fal ~$0.36 total with #303. Product is ACTIVE: director to confirm.
+- 2026-10-25 14:15 UTC director: LIVE (in place, already ACTIVE). Print approved 10-24; 1 lifestyle photo passed, slot 2 failed 3 calls, flat kept per camo-redo rule 4. Audit --handle PASS 0 warn.

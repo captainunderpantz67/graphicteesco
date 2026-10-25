@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: W
 type: article
 cluster: gym
@@ -17,3 +17,4 @@ slug: funny-workout-shirts
 - Planned siblings (not live yet): funny-gym-shirts, gym-hoodies-for-men-guide, gifts-for-lifters-under-50.
 ## Log
 - 2026-10-24 UTC writer: drafted, build passes.
+- 2026-10-25 14:15 UTC director: REDO (article). R2.8: 'workout shirts funny' is the same search as 'funny workout shirt', which the Gym Rat tee owns; word order does not make it a second keyword. Retarget to a distinct measured phrase (try 'funny gym shirts for men', 'funny lifting shirts', 'gym humor shirts' in keyword-gap.py) that no page owns, or PARK if none measures.
