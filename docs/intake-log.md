@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-25 14:12 UTC
 2026-10-25 13:42 UTC — [B] Builder run end: 2 items, camo redo #7 #290 (woodcut turkey, A+) and #8 #288 (cartoon tree stand, B3); both ACTIVE, director to confirm. New products today: 0 of 6. Lock released.
 2026-10-25 13:42 UTC — [B] REVIEW #288 Men's Hunting – Sit Wait Snack Camo Hoodie (camo-redo 8 of 27, S3 on B3, FW625 TOP300 LEFT1475, 14/14 on 1094534966, line 100%, art 88% of height, Lobster; 2 lifestyle photos). fal ~$0.50.
 2026-10-25 13:35 UTC — [B] REVIEW #290 Men's Hunting – Long Beard Short Temper Camo Hoodie (camo-redo 7 of 27, S9 on A+, FW1500 TOP400, 14/14 on 1094531100, headline 2985 / punch 3006 px = 100%, subject 80%, Rye; 2 lifestyle photos). fal ~$0.26.
