@@ -1,3 +1,4 @@
+RUNNING lane B since 2026-10-25 21:27 UTC
 2026-10-25 18:02 UTC — [B] Builder run end: 2 items, camo redo #9 #496 (sign-painter buck, A+) and #10 #224 (mallard Quack of Dawn, B3); both ACTIVE, director to confirm. New products today: 0 of 6. fal ~$1.8. Lock released.
 2026-10-25 18:01 UTC — [B] REVIEW #224 Men's Hunting – Quack of Dawn Camo Hoodie (camo-redo 10 of 27, S1 on B3, FW625 TOP300 LEFT1475, 14/14 on 1094696415 + 1094696454 (Sandstone light file), art 75% of height, Playfair Display; 2 lifestyle photos, soft-blur caption). fal ~$0.80.
 2026-10-25 17:56 UTC — [B] REVIEW #496 Men's Hunting – Not Lost. Scouting. Camo Hoodie (camo-redo 9 of 27, S7 on A+, FW1500 TOP400, 14/14 on 1094690930 + 1094691032 (Sandstone light file), headline 2860 / punch 2858 px = 100%, subject 65%, type 843 of 3250 px, Bevan; 2 lifestyle photos). Product ACTIVE, director to confirm. fal ~$1.02.
