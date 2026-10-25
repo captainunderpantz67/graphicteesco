@@ -943,3 +943,4 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1148 | Black man, early 30s, short fade, light beard, athletic build | USED 2026-10-24 — #289 camo redo cover (seedream call 1 of the photos-only REDO)
 | 1149 | Chinese-American woman, mid 30s, shoulder-length wavy black hair with a few grey strands, no hat, medium build | USED 2026-10-24 — #300 camo redo cover + second photo |
 | 1150 | Vietnamese-American man, late 30s, short black hair with a light goatee, lean build | USED 2026-10-24 — #233 camo redo cover + second photo |
+| 1151 | White man, late 40s, short sandy hair, thick ginger beard going grey, broad build, no hat | USED 2026-10-25 — #290 camo redo cover + second photo |
