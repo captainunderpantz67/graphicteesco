@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: twin
 id: 224
@@ -22,3 +22,4 @@ handle: mens-hunting-quack-of-dawn-camo-hoodie
 - 2026-10-16 22:17 UTC director: LIVE (ACTIVE + Online Store + Headless, audit --handle PASS). approved.
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #10 of 27, style S1. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is B3 (left chest at the seam, tag placement-b).
+- 2026-10-25 18:00 UTC [B]: camo-redo #10 (S1 cinematic on B3, tag placement-b), in place on product 15361983545648. New art: 1 Recraft call (mallard drake bursting from cattails, flat bone/orange/black, no lettering), cream halo; QUACK / OF DAWN in Playfair Display 900 (lane B last 5 faces: Rye, Bevan, Lobster, Caveat Brush, Graduate; Playfair not among them), two lines at one size (7h n/a for a 2-word split of one phrase). Art 75% of print height, cap height ~380 px at file width 2400 (FW625 scale: ~95 px >= 53). Print 2400 x 3495, FW625 TOP300 LEFT1475. Light file: Sandstone on 1094696454, near-black fill no keyline; Duck Camo on 1094696415. R7.7: 14/14 (7 + 7). Front mockups replaced in place (first one-line version read too thin at phone size, relaid as two lines before photos). Copy, SEO, FAQ (4 x 40-60) rewritten, placement-b tag added; title unchanged. Lifestyle: registry 1154, 4 seedream calls: 2 rejected (white letterbox bars, garbled caption and a stray cuff tag), cover kept (levee road, caption soft blur, icon reads), image 2 kept after cropping white bars (duck blind dock, caption soft blur). Handle removed from retired-covers.json, covers.ts alt updated. Audit PASS 0 warn. Sheet docs/review/224.jpg. Product is ACTIVE: director to confirm. fal ~$0.80 incl. art.

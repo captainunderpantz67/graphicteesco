@@ -946,3 +946,4 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1151 | White man, late 40s, short sandy hair, thick ginger beard going grey, broad build, no hat | USED 2026-10-25 — #290 camo redo cover + second photo |
 | 1152 | Black man, early 40s, shaved head, trimmed goatee, stocky build, no hat | USED 2026-10-25 — #288 camo redo cover + second photo |
 | 1153 | Samoan-American man, mid 30s, short curly black hair, full short beard, broad build, no hat | USED 2026-10-25 — #496 camo redo cover + second photo |
+| 1154 | Filipino-American man, early 40s, short black hair graying at the temples, clean-shaven, lean build, no hat | USED 2026-10-25 — #224 camo redo cover + second photo |
