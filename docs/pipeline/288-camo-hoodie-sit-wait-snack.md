@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: new
 id: 288
@@ -26,3 +26,4 @@ handle: mens-hunting-sit-wait-snack-camo-hoodie
 - 2026-10-17 01:15 UTC director: LIVE. Reviewed docs/review/288.jpg + Shopify copy; set ACTIVE, published to Online Store, Headless and Google & YouTube; cohesion-audit --handle PASS.
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #8 of 27, style S3. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is B3 (left chest at the seam, tag placement-b).
+- 2026-10-25 13:42 UTC [B]: camo-redo #8 (S3 cute cartoon on B3, tag placement-b), in place on product 15362661417264. New art: 1 Recraft call (chunky cartoon ladder tree stand, orange thermos, sandwich, binoculars, leaf; no lettering), thin cream halo; line SIT. WAIT. SNACK. (3 words) set in Lobster (cream, dark keyline; faces of last 5 lane B builds: Rye, Caveat Brush, Cinzel, Bowlby, Fraunces; Lobster not among them). Single line, 7h n/a (line 100% of print width). Art 88% of print height, cap height ~75 px at FW625 (>= 53). Print 2500 x 2847, FW625 TOP300 LEFT1475. R7.7: Darkwood Tree Camo + Forest Camo 14/14 on file 1094534966, back logo 1080398177. Front mockups replaced in place (first sync attempt hit an unprocessed file and was rerun). Copy, SEO, FAQ (4 x 40-60 words) rewritten, tag placement-b added; title unchanged. Lifestyle: registry 1152; 3 seedream calls: call 1 rejected (second stray graphic at the hem, deer on roof), call 2 kept as cover (frosty field with thermos; caption a soft blur, icon reads as the tree stand with orange thermos), call 3 kept as image 2 (tailgate sandwich). Audit PASS 0 warn after trimming meta. Sheet docs/review/288.jpg. Product is ACTIVE: director to confirm. fal ~$0.78 incl. art.
