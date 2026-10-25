@@ -1,6 +1,6 @@
 {
- "at": "2026-10-24T23:45:05.157Z",
- "products": 726,
+ "at": "2026-10-25T14:44:02.525Z",
+ "products": 732,
  "findings": [
   {
    "level": "WARN",
@@ -543,6 +543,48 @@
   },
   {
    "level": "WARN",
+   "handle": "womens-christmas-santa-gets-all-the-credit-crewneck-sweatshirt",
+   "title": "Women's Christmas – Santa Gets All the Credit Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-hvac-did-you-change-the-filter-graphic-tee",
+   "title": "Men's HVAC – It's Always the Filter Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-christmas-we-said-no-gifts-crewneck-sweatshirt",
+   "title": "Unisex Christmas – We Said No Gifts Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-christmas-raccoon-santas-late-i-started-without-him-crewneck-sweatshirt",
+   "title": "Unisex Christmas Raccoon – Santa's Late, I Started Without Him Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-christmas-raccoon-santas-late-i-started-without-him-crewneck-sweatshirt",
+   "title": "Unisex Christmas Raccoon – Santa's Late, I Started Without Him Crewneck Sweatshirt",
+   "msg": "Non-holiday design (christmas raccoon) listed in \"Christmas Sweatshirts\".",
+   "fix": "Only keep it there if the art is genuinely for that holiday."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-christmas-raccoon-santas-late-i-started-without-him-crewneck-sweatshirt",
+   "title": "Unisex Christmas Raccoon – Santa's Late, I Started Without Him Crewneck Sweatshirt",
+   "msg": "Non-holiday design (christmas raccoon) listed in \"Men's Christmas Sweaters\".",
+   "fix": "Only keep it there if the art is genuinely for that holiday."
+  },
+  {
+   "level": "WARN",
    "handle": "mens-hunting-todays-special-tag-soup-sweatpants",
    "title": "Men's Hunting – Today's Special: Tag Soup Sweatpants",
    "msg": "No lifestyle cover photo.",
@@ -949,6 +991,13 @@
   },
   {
    "level": "WARN",
+   "handle": "mens-hunting-archery-aim-small-miss-anyway-heavyweight-hoodie",
+   "title": "Men's Hunting – Archery: Aim Small. Miss Anyway. Heavyweight Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "womens-camo-blending-in-was-never-the-plan-aop-zip-hoodie",
    "title": "Women's Camo – Blending In Was Never the Plan. All-Over Print Zip Hoodie",
    "msg": "No lifestyle cover photo.",
@@ -1128,6 +1177,20 @@
    "title": "Men's Christmas – It Looked Smaller at the Farm Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-thanksgiving-technically-a-vegetable-embroidered-zip-hoodie",
+   "title": "Men's Thanksgiving – Technically a Vegetable Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-thanksgiving-technically-a-vegetable-embroidered-zip-hoodie",
+   "title": "Men's Thanksgiving – Technically a Vegetable Embroidered Zip Hoodie",
+   "msg": "thanksgiving design isn't in any thanksgiving collection.",
+   "fix": "Tag it so it appears in the thanksgiving shirts page."
   },
   {
    "level": "WARN",

@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-24 23:45 UTC
+# Cohesion audit — 2026-10-25 14:44 UTC
 
-726 live products checked · **7 errors** · 155 warnings · 154 products with findings
+732 live products checked · **7 errors** · 164 warnings · 160 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -233,6 +233,20 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Men's Gym – Rack Your Weights. Respectfully. Sweatpants `mens-gym-rack-your-weights-respectfully-sweatpants`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Women's Christmas – Santa Gets All the Credit Crewneck Sweatshirt `womens-christmas-santa-gets-all-the-credit-crewneck-sweatshirt`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's HVAC – It's Always the Filter Tee `mens-hvac-did-you-change-the-filter-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Christmas – We Said No Gifts Crewneck Sweatshirt `unisex-christmas-we-said-no-gifts-crewneck-sweatshirt`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Christmas Raccoon – Santa's Late, I Started Without Him Crewneck Sweatshirt `unisex-christmas-raccoon-santas-late-i-started-without-him-crewneck-sweatshirt`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+- **WARN** Non-holiday design (christmas raccoon) listed in "Christmas Sweatshirts". → Only keep it there if the art is genuinely for that holiday.
+- **WARN** Non-holiday design (christmas raccoon) listed in "Men's Christmas Sweaters". → Only keep it there if the art is genuinely for that holiday.
+
 ### Men's Hunting – Today's Special: Tag Soup Sweatpants `mens-hunting-todays-special-tag-soup-sweatpants`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
@@ -401,6 +415,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Women's Corgi – Built Like a Dinner Roll Tee `womens-corgi-built-like-a-dinner-roll-graphic-tee`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Men's Hunting – Archery: Aim Small. Miss Anyway. Heavyweight Hoodie `mens-hunting-archery-aim-small-miss-anyway-heavyweight-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Women's Camo – Blending In Was Never the Plan. All-Over Print Zip Hoodie `womens-camo-blending-in-was-never-the-plan-aop-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
@@ -476,6 +493,10 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Men's Christmas – It Looked Smaller at the Farm Embroidered Zip Hoodie `mens-christmas-it-looked-smaller-at-the-farm-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Thanksgiving – Technically a Vegetable Embroidered Zip Hoodie `mens-thanksgiving-technically-a-vegetable-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+- **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
 
 ### Unisex National Park – Running Late. Bison Traffic. Camo Hoodie `unisex-national-park-running-late-bison-traffic-camo-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.

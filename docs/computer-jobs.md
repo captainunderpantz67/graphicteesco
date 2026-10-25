@@ -15,7 +15,7 @@
 Things that need Sam's laptop and Chrome. Sam opens the computer about once a day and greets Tuesday ("Good morning Tuesday, it's time to save the world" or similar). That is the go signal: Claude works this list top to bottom, then clears what's done.
 
 ## TikToks to review
-(none yet; Sam sends links to Tuesday on Telegram)
+- 2026-10-25 (Telegram 03:03 UTC): TikTok link from Sam with no note (https://www.tiktok.com/t/ZTf9qn9Fp/). Not reviewed yet; nothing asked of us beyond saving it.
 
 ## Sam's clicks, in order (Claude 2026-10-18)
 1. Merchant Center → Data sources → "Shopify App API" (9,347 stale duplicates from the old sync) → ⋮ → delete. Keep PRODUCTS SOURCE 1/3/4/5 (our 4 feed pages).
