@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 301
@@ -27,3 +27,4 @@ handle: mens-hunting-i-saw-you-move-squirrel-camo-hoodie
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #12 of 27, style S8. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is B3 (left chest at the seam, tag placement-b).
 - 2026-10-25 21:49 UTC [B]: camo-redo #12 (S8 left chest minimal on B3, tag placement-b), in place on product 15362829287728. New art: 1 Recraft call (suspicious acorn-cheeked squirrel on a branch, flat black/orange/cream, no lettering), cream halo; line shortened to SAW YOU MOVE. (3 words, same idea; 7i: title now "Men's Hunting – Saw You Move Squirrel Camo Hoodie", SEO title and meta updated) in Alfa Slab One (lane B last 5 faces: Bowlby, Playfair, Bevan, Lobster, Rye; Alfa not among them), cream with dark keyline. Art 87% of print height, cap ~222 px at file width 2352 (FW625 scale ~59 px >= 53). Print 2352 x 2110, FW625 TOP300 LEFT1475. Light file n/a (Darkwood and Forest only). R7.7: 14/14 on file 1094879628, back logo 1080398177. Front mockups replaced in place. Copy, SEO, FAQ (5), placement-b tag rewritten. Lifestyle: registry 1156, 5 seedream calls: 2 rejected (wrong print "SAWWOOD" and oversized lettering; stray vertical text on the pocket), kept barn hay-bale cover (caption soft blur, icon reads) and forest first-light image 2. covers.ts alt updated. Audit PASS 0 warn. Sheet docs/review/301.jpg. Product is ACTIVE: director to confirm. fal ~$0.46.
+- 2026-10-25 23:14 UTC director: LIVE (in place, already ACTIVE, not a new product). S8 squirrel icon on B3 at the seam, SAW YOU MOVE. caps ~59 px (over the 53 px B3 floor); bold silhouette reads on Darkwood and Forest. Cover caption is a soft blur, as the B3 photo rule allows, with the icon's colors matching; coffee cup held at the side. Copy matches the art. Audit --handle PASS 0 warn, page 200.
