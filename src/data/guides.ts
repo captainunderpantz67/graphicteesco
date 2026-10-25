@@ -1344,6 +1344,84 @@ export const allGuides: Guide[] = [
       { q: 'When should I order a Christmas gift for dad?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
     ],
   },
+  {
+    // Writer lane W (2026-10-25). Keyword: christmas gifts for sister 14,800 / KD 10 (RankHero keyword page via scripts/keyword-gap.py, 2026-10-25). Unowned by any collection, product or guide.
+    // Facts (slogans, prices, policies) come from pipeline files #598 #599 #618 #619 #273 #274 #634 #645, site.ts and the christmas-gifts-for-dad guide. Picks are listed in fresh-designs.json.
+    // Planned siblings (not live yet): christmas-gifts-for-mom, christmas-gifts-for-wife.
+    slug: 'christmas-gifts-for-sister',
+    keyword: 'christmas gifts for sister',
+    title: 'Christmas Gifts for Sister: 4 Funny Shirts and Sweatshirts She Will Wear',
+    description: 'Christmas gifts for sister that she will actually wear: Cat Allegedly, Santa Gets All the Credit, Card Photo Survivor. Tees $24.99, crewnecks $34.99.',
+    h1: 'Christmas Gifts for Sister: Funny Shirts and Sweatshirts That Sound Like Her',
+    date: '2026-10-25',
+    cluster: 'christmas',
+    draft: true,
+    answer: 'A good Christmas gift for your sister is a shirt that jokes about her real December. Graphic Tees Co. has four: Cat Allegedly (tee $24.99, crewneck $34.99), Santa Gets All the Credit (tee $24.99, crewneck $34.99), Christmas Card Photo Survivor (tee $24.99, crewneck $34.99) and We Said No Gifts (tee $24.99, crewneck $34.99). Each is original art, printed after you order. Order by December 4, 2026.',
+    picks: [
+      {
+        h2: 'What is a funny Christmas gift for a sister with a cat?',
+        body: ['Cat Allegedly. Every cat owner knows the ornament was fine until it was not.'],
+        items: [
+          { slogan: 'Allegedly.', tee: 'womens-christmas-cat-allegedly-graphic-tee', crewneck: 'womens-christmas-cat-allegedly-crewneck-sweatshirt',
+            text: 'A smug tuxedo cat sits on the rug licking one paw, eyes half-closed, beside a single shattered red glass ornament, while the tree behind it has one empty hook. ALLEGEDLY. is lettered underneath. The women\'s tee is $24.99 and the crewneck is $34.99.' },
+        ],
+      },
+      {
+        h2: 'What do you get a sister who does all the shopping and wrapping?',
+        body: ['Santa Gets All the Credit. It is for the sister who bought, wrapped and hid everything while someone else got thanked.'],
+        items: [
+          { slogan: 'Santa gets ALL THE CREDIT', tee: 'womens-christmas-santa-gets-all-the-credit-graphic-tee', crewneck: 'womens-christmas-santa-gets-all-the-credit-crewneck-sweatshirt',
+            text: 'A perfectly wrapped gift with a big pink coquette bow sits beside a tape dispenser down to its last inch of tape and a pair of scissors. Santa gets is lettered above and ALL THE CREDIT below. The women\'s tee is $24.99 and the crewneck is $34.99.' },
+        ],
+      },
+      {
+        h2: 'What is a good Christmas gift for a sister who runs the family photo?',
+        body: ['Christmas Card Photo Survivor. It is for whoever makes everyone stand still for the card.'],
+        items: [
+          { slogan: 'Christmas Card Photo Survivor', tee: 'unisex-christmas-card-photo-survivor-graphic-tee', crewneck: 'unisex-christmas-card-photo-survivor-crewneck-sweatshirt',
+            text: 'A 1960s-style family of four in matching red knit sweaters is squeezed in front of a decorated tree while dad half-runs back from a camera on a tripod with a blinking self-timer light. CHRISTMAS CARD PHOTO is lettered above and SURVIVOR below. The unisex tee is $24.99 and the crewneck is $34.99.' },
+        ],
+      },
+      {
+        h2: 'What is a gift for a sister who swore she would not buy presents?',
+        body: ['We Said No Gifts. We lied. It fits the sister who agreed to keep it simple this year and did not.'],
+        items: [
+          { slogan: 'WE SAID NO GIFTS. We lied.', tee: 'unisex-christmas-we-said-no-gifts-graphic-tee', crewneck: 'unisex-christmas-we-said-no-gifts-crewneck-sweatshirt',
+            text: 'A 1960s husband and wife stand back to back in front of a decorated tree, both smiling straight ahead, each hiding a big wrapped present behind their back. WE SAID NO GIFTS. is lettered above and We lied. below. The unisex tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good Christmas gift for a sister?',
+        body: ['Something that jokes about what she actually does at Christmas. A sister who already owns the sweaters will still wear a shirt about her cat, her gift wrapping or the family photo.',
+          'Graphic Tees Co. designs are original art with the joke set in big type. They use no team, brand or character logos, so there is nothing to explain.'],
+        links: [{ href: '/christmas-shirts-for-women/', text: 'Women\'s Christmas shirts' }] },
+      { h2: 'Should you buy your sister a tee or a crewneck?',
+        body: ['A tee is $24.99 and is a lightweight 4.2 oz cotton cut. A crewneck is $34.99.',
+          'For a sister who runs cold, the crewneck is the better gift. For one who layers over a long-sleeve, a tee works under anything.'],
+        links: [{ href: '/christmas-sweatshirts/', text: 'Christmas sweatshirts' }] },
+      { h2: 'What if you do not know her size?',
+        body: ['Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and she does not have to mail the first one back. Check the size chart on the product page against a shirt she already wears.',
+          'If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'What are good Christmas gifts for a sister under $50?',
+        body: ['Every item here is under $50. Tees are $24.99 and crewnecks are $34.99. US shipping is free on orders of $45 or more, so a crewneck plus a tee clears it.'] },
+      { h2: 'When should you order a Christmas gift for your sister?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, which is up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find gifts for the family?',
+        body: ['If you are shopping for dad too, see our dad guide. For a group swap, see white elephant gifts.'],
+        links: [{ href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }, { href: '/christmas-shirts/', text: 'All Christmas shirts' }] },
+    ],
+    faqs: [
+      { q: 'What are good Christmas gifts for a sister?', a: 'A shirt with a joke about her December, like Cat Allegedly or Santa Gets All the Credit from Graphic Tees Co. Tees are $24.99 and crewnecks are $34.99, all printed to order.' },
+      { q: 'What are funny Christmas gifts for a sister under $30?', a: 'Any Graphic Tees Co. Christmas tee here: Cat Allegedly, Santa Gets All the Credit, Christmas Card Photo Survivor or We Said No Gifts. Each is $24.99 and printed after you order.' },
+      { q: 'What is a good Christmas gift for a sister who has a cat?', a: 'The Graphic Tees Co. Cat Allegedly tee at $24.99 or crewneck at $34.99. It shows a smug tuxedo cat beside a shattered ornament, with ALLEGEDLY. lettered underneath.' },
+      { q: 'Is a Christmas crewneck a good gift for a sister?', a: 'Yes, if she runs cold. Graphic Tees Co. crewnecks are $34.99, and US shipping is free on orders of $45 or more.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+      { q: 'When should I order a Christmas gift for my sister?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
