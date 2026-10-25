@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 shopify: gid://shopify/Product/15372534874416
 cover: fal-swap
 lane: B
@@ -31,3 +31,4 @@ push: camo
 - 2026-10-22 23:16 UTC director: LIVE (ACTIVE + Online Store, Headless, Google & YouTube); cohesion-audit --handle PASS (1 warn: no lifestyle cover). Drip cap: today's 6 (#907 #908 #900 #901 #902 #955).
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #11 of 27, style S4. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is A+ (center 10 in, tag placement-a).
+- 2026-10-25 21:40 UTC [B]: camo-redo #11 (S4 70s retro on A+, tag placement-a), in place on product 15372534874416. New art: 1 Recraft call (goat on a peak in front of a concentric retro sun, tiny hiker thumb-measuring, flat cream/orange/black, no lettering), cream halo; TREAT ME above and LIKE WILDLIFE. below in Bowlby One (lane B last 5 faces: Playfair, Bevan, Rye, Lobster, Caveat Brush; Bowlby not among them), cream and blaze orange with dark keyline, no box. 7h: headline 2864 px / punch 2978 px (104%). Subject 3000 of 3000 px = 100%, type 701 of 3035 px. Print 3000 x 3035, FW1500 TOP400 (h 1518, TOP+h 1918 <= 2100). Light file n/a (Duck and Forest Camo only, cream with dark keyline). R7.7: 14/14 on file 1094870105, back logo 1080398177. Front mockups replaced in place (phone-size read OK). Copy, tags (placement-a) and FAQ rewritten from the art (5 x 40-60); title unchanged (same line). Lifestyle: registry 1155, 2 seedream calls kept (trailhead at first light cover, lakeside campfire at dusk; lettering legible, no hand over print), images 1-2, handle removed from retired-covers.json, covers.ts alt added. Audit PASS 0 warn. Sheet docs/review/901.jpg. Product is ACTIVE: director to confirm. fal ~$0.24 incl. 1 hung call.
