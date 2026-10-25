@@ -1422,6 +1422,95 @@ export const allGuides: Guide[] = [
       { q: 'When should I order a Christmas gift for my sister?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
     ],
   },
+  {
+    // Writer lane W (2026-10-25). Keyword: christmas gifts for coworkers 9,900 / KD 12 (RankHero keyword page via scripts/keyword-gap.py, 2026-10-25). Unowned by any collection, product or guide; "white elephant" and "secret santa" phrases stay with their owners.
+    // Facts (slogans, prices, policies) come from pipeline files #616 #161 #162 #275 #276 #169 #170 #471 #569, site.ts and the christmas-gifts-for-dad guide. Picks are listed in LIVE pipeline files. FAQ questions are not from PAA or GSC (not available unattended).
+    // Planned siblings (not live yet): funny-christmas-gifts-for-coworkers, christmas-gifts-for-mom, christmas-gifts-for-wife.
+    slug: 'christmas-gifts-for-coworkers',
+    keyword: 'christmas gifts for coworkers',
+    title: 'Christmas Gifts for Coworkers: 5 Funny, Office-Clean Shirts and Sweatshirts',
+    description: 'Christmas gifts for coworkers that are funny and clean: Drew Your Name. Panicked., Technically a Sweater, White Elephant Champion. Tees $24.99.',
+    h1: 'Christmas Gifts for Coworkers: Funny Shirts and Sweatshirts That Stay Office-Clean',
+    date: '2026-10-25',
+    cluster: 'christmas',
+    draft: true,
+    answer: 'A good Christmas gift for a coworker is a shirt that jokes about the office party itself. Graphic Tees Co. has five, all tees at $24.99: Drew Your Name. Panicked., Technically a Sweater, White Elephant Champion, Bah Humbug (Respectfully) and Attending Under Protest (crewneck $34.99, hoodie $39.99). Each is original art, printed after you order. Order by December 4, 2026.',
+    picks: [
+      {
+        h2: 'What is a funny gift for the coworker you drew in Secret Santa?',
+        body: ['Drew Your Name. Panicked. It is the honest version of every office Secret Santa, and it works for the person who drew you too.'],
+        items: [
+          { slogan: 'DREW YOUR NAME. Panicked.', tee: 'mens-christmas-drew-your-name-panicked-graphic-tee',
+            text: 'A 1950s office man in a short-sleeve shirt and tie stares wide-eyed at a blank paper slip, sweat drops flying, next to an upturned red Santa hat full of folded name slips. DREW YOUR NAME. is lettered above and Panicked. below. The tee is $24.99.' },
+        ],
+        links: [{ href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }],
+      },
+      {
+        h2: 'What do you get a coworker who dodges the ugly sweater party?',
+        body: ['Technically a Sweater. It is a knit-look print on a soft tee, so the dress code is met and nobody has to wear itchy wool.'],
+        items: [
+          { slogan: 'TECHNICALLY A SWEATER', tee: 'mens-christmas-technically-a-sweater-graphic-tee', crewneck: 'unisex-christmas-technically-a-sweater-crewneck-sweatshirt',
+            text: 'A patchwork of hand-knit-look snowflakes, a small reindeer and pine trees, with loose yarn ends trailing off the edges, sits above TECHNICALLY A SWEATER in hand-drawn capitals. It is a printed design, not real knit. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/christmas-sweatshirts/', text: 'Christmas sweatshirts' }],
+      },
+      {
+        h2: 'What is a good gift for the coworker who wins every gift swap?',
+        body: ['White Elephant Champion. UNDEFEATED. It is for the one who treats the office swap like a title fight.'],
+        items: [
+          { slogan: 'WHITE ELEPHANT CHAMPION. UNDEFEATED.', tee: 'mens-christmas-white-elephant-champion-graphic-tee', crewneck: 'mens-christmas-white-elephant-champion-crewneck-sweatshirt',
+            text: 'A mustached man in a striped Christmas sweater and bobble hat stands on a podium hugging a wrapped gift like a championship belt, with a small gold trophy and crumpled wrapping paper at his feet. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+      },
+      {
+        h2: 'What do you give a coworker who complains about the holiday music?',
+        body: ['Bah Humbug (Respectfully). The grump is polite about it, which is the whole joke.'],
+        items: [
+          { slogan: 'BAH HUMBUG (RESPECTFULLY)', tee: 'mens-christmas-bah-humbug-graphic-tee', crewneck: 'unisex-christmas-bah-humbug-crewneck-sweatshirt',
+            text: 'A grumpy old gentleman in a striped nightcap and plaid dressing gown stands with arms crossed, frowning over his spectacles, a single candle at his feet. BAH HUMBUG is lettered above and (RESPECTFULLY) in smaller letters below. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+      },
+      {
+        h2: 'What is a gift for the coworker who was told the party is not optional?',
+        body: ['Attending Under Protest. A reindeer with crossed arms and a flat stare says what the wearer is too polite to.'],
+        items: [
+          { slogan: 'ATTENDING UNDER PROTEST', tee: 'mens-christmas-attending-under-protest-hoodie', crewneck: 'mens-christmas-attending-under-protest-crewneck-sweatshirt',
+            text: 'A knit-look reindeer in a Santa hat stands with crossed arms and a flat, unimpressed stare, with ATTENDING above and UNDER PROTEST below. The pullover hoodie is $39.99 through November 30, 2026 ($44.99 from December 1), and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/hoodies/christmas-hoodies/', text: 'Christmas hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good Christmas gift for a coworker?',
+        body: ['Something funny that is safe to hand over at work. A coworker gift should joke about the shared situation (the swap, the party, the sweater rule) and mock nobody in particular.',
+          'Graphic Tees Co. designs are original art with the joke set in big type. They use no team, brand or character logos, and none of these five targets a person, so there is nothing to explain to HR.'],
+        links: [{ href: '/christmas-shirts/', text: 'Christmas shirts' }] },
+      { h2: 'How much should you spend on a coworker gift?',
+        body: ['Most office swaps set a limit, so check yours first. Tees here are $24.99, crewnecks are $34.99 and the hoodie is $39.99 through November 30, 2026, so each sits under $50.',
+          'For a swap with a lower cap, a $24.99 tee is the easiest fit. If you buy for two coworkers, a tee plus a crewneck clears free US shipping at $45.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'Should you gift a tee, a crewneck or a hoodie?',
+        body: ['A tee is a lightweight 4.2 oz cotton cut and layers under a cardigan or blazer. A crewneck is $34.99 and the pullover hoodie is an 8 oz fleece, both warmer for a cold office.',
+          'If you do not know their style, pick the tee. It is the lowest-risk size and cost.'],
+        links: [{ href: '/guides/thick-hoodies/', text: 'Thick hoodies: how thick is 10 oz' }] },
+      { h2: 'What if the size is wrong?',
+        body: ['Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and they do not have to mail the first one back. Tell the recipient to check the size chart on the product page against a shirt they already wear.',
+          'If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'] },
+      { h2: 'When should you order Christmas gifts for coworkers?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, which is up to 13 business days in total, and Christmas is Friday, December 25. If your office party is earlier, count back from that date. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find gifts for the people on your list?',
+        body: ['For family, see our dad and sister guides. For a group swap, see white elephant gifts.'],
+        links: [{ href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }, { href: '/guides/christmas-gifts-for-sister/', text: 'Christmas gifts for sister' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }, { href: '/christmas-shirts/', text: 'All Christmas shirts' }] },
+    ],
+    faqs: [
+      { q: 'What are good Christmas gifts for coworkers?', a: 'A funny, clean shirt about the office party, like Drew Your Name. Panicked. or Technically a Sweater from Graphic Tees Co. Tees are $24.99, crewnecks are $34.99, all printed to order.' },
+      { q: 'What are funny Christmas gifts for coworkers under $30?', a: 'Any Graphic Tees Co. Christmas tee here: Drew Your Name. Panicked., Technically a Sweater, White Elephant Champion or Bah Humbug (Respectfully). Each is $24.99 and printed after you order.' },
+      { q: 'Are these shirts safe to give a coworker?', a: 'Yes. The Graphic Tees Co. designs here joke about the office party, not about a person, and use no brand or character logos. Each is original art with the joke lettered in big type.' },
+      { q: 'What is a good Christmas gift for a coworker for the ugly sweater party?', a: 'The Graphic Tees Co. Technically a Sweater tee at $24.99 or crewneck at $34.99. It prints a knit-look snowflake and reindeer patchwork; it is a printed design, not real knit.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+      { q: 'When should I order a Christmas gift for a coworker?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
