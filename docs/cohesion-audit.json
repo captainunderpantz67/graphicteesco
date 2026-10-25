@@ -1,5 +1,5 @@
 {
- "at": "2026-10-25T14:44:02.525Z",
+ "at": "2026-10-25T23:43:31.492Z",
  "products": 732,
  "findings": [
   {
@@ -1147,13 +1147,6 @@
    "level": "WARN",
    "handle": "mens-fishing-you-catching-em-no-keep-walking-embroidered-zip-hoodie",
    "title": "Men's Fishing – You Catching 'Em? No. Keep Walking. Embroidered Zip Hoodie",
-   "msg": "No lifestyle cover photo.",
-   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
-  },
-  {
-   "level": "WARN",
-   "handle": "womens-hiking-treat-me-like-wildlife-camo-hoodie",
-   "title": "Women's Hiking – Treat Me Like Wildlife Camo Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
