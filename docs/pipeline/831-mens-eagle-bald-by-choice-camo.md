@@ -1,4 +1,4 @@
-status: BUILDING B 2026-10-26 17:34
+status: REVIEW
 lane: B
 type: twin
 id: 831
@@ -30,3 +30,4 @@ push: camo
 - 2026-10-21 09:40 UTC director: LIVE: ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS (1 warn: no lifestyle cover, fal empty). Spoke tags added: duck-camo-hoodies + black-camo-hoodies. Side by side with 493 Calm Face and 483 Sisyphus: bald eagle on one bone patch, MAJESTIC BY NATURE. the widest line in blaze, reads on Duck and Black Camo; the 444 line it twins was already A.
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #15 of 27, style S6. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is A+ (center 10 in, tag placement-a).
+- 2026-10-26 17:42 UTC [B]: camo-redo #15 (S6 varsity on A+, tag placement-a), in place on product 15371560059184. New art: 1 Recraft call (3-ink varsity eagle mascot, no lettering), cream halo, no box; BALD BY CHOICE. above and MAJESTIC BY NATURE. below in Graduate (lane B last 5 faces: Damion, Cinzel, Bowlby, Alfa, Playfair), cream with dark keyline. headline 2243 / punch 2993 px (punch 133% of headline), subject 2400 of 2993 px = 80%, cap 230 px at file width 2993 (FW1500 = 115 px). Print 2993 x 2141, FW1500 TOP400 (h 1073, TOP+h 1473 <= 2100). R7.7: Forest, Duck, Black x S-3XL = 18/18 on file 1095612999, back logo 1080398177. Front mockups replaced in place (old fronts deleted, variants relinked per color), copy, SEO, FAQ (5 x 45-56 words), placement-a tag rewritten; title unchanged. Lifestyle: registry 1160 + 1161 (new rows), 1 seedream call each kept (tailgate cover on Forest, lake dock on Duck; lettering legible, nothing over print), covers.ts entry added, handle removed from retired-covers. Audit PASS 0 warn. Sheet docs/review/831.jpg. Product is ACTIVE: director to confirm. fal ~$0.2.
