@@ -1,5 +1,5 @@
 {
- "at": "2026-10-26T14:45:32.180Z",
+ "at": "2026-10-26T23:49:47.552Z",
  "products": 738,
  "findings": [
   {
@@ -956,15 +956,8 @@
   },
   {
    "level": "WARN",
-   "handle": "mens-eagle-bald-by-choice-camo-hoodie",
-   "title": "Men's Eagle – Bald by Choice. Majestic by Nature. Camo Hoodie",
-   "msg": "No lifestyle cover photo.",
-   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
-  },
-  {
-   "level": "WARN",
    "handle": "mens-farmer-no-days-off-the-cows-said-so-camo-hoodie",
-   "title": "Men's Farmer – No Days Off. The Cows Said So. Camo Hoodie",
+   "title": "Men's Farmer – No Days Off Cow Camo Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
