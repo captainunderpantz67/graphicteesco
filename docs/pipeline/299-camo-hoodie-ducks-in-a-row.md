@@ -1,4 +1,4 @@
-status: BUILDING B 2026-10-26 22:03
+status: REVIEW
 lane: B
 type: new
 id: 299
@@ -31,3 +31,4 @@ handle: womens-hunting-ducks-in-a-row-camo-hoodie
 - 2026-10-17 03:14 UTC director: approved from docs/review/299.jpg; ACTIVE + Online Store + Headless + Google; cohesion-audit --handle PASS (0 warn). Copy fix: the title lines are stacked, not arched. LIVE.
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #17 of 27, style S3. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is A+ (center 10 in, tag placement-a).
+- 2026-10-26 22:25 UTC [B]: camo-redo #17 (S3 cute cartoon on A+, tag placement-a), in place on product 15362778104112. New art: 1 Recraft call (chunky cartoon mama mallard in teal and orange leading fuzzy ducklings, the last one chasing a butterfly, no lettering), thin cream halo, no box; GOT MY DUCKS IN A ROW above and (MOSTLY) below in Fraunces soft black (lane B last 5 faces: Rye, Alfa, Damion, Bevan, Caveat Brush; Fraunces not among them). headline 3010 / punch 3025 px (100%), subject 2700 of 3000 px = 90%, punch cap 521 px at file width 3000 (260 px at FW1500, floor 90), headline cap 185 px. Print 3000 x 2553, FW1500 TOP400 (h 1276, TOP+h 1676 <= 2100). Light file n/a (Duck and Forest only, cream fill). R7.7: 14/14 on file 1095809649, back logo 1080398177, verified from Printful. Front mockups replaced in place (fileUpdate), copy, SEO, FAQ (4 x 40-60 words), placement-a tag added; title unchanged. Lifestyle: registry 1164/1165 reserved, 2 seedream calls both rejected (grey body with camo sleeves; a zip jacket over a tee), per card flats kept as images 1-2, handle stays in retired-covers (cover: fal-swap). Audit PASS 0 warn. Sheet docs/review/299.jpg. Product is ACTIVE: director to confirm. fal ~$0.20 incl. art.

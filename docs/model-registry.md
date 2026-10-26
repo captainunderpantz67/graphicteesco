@@ -956,3 +956,5 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1161 | Black man, early 50s, shaved bald head, trimmed grey goatee, sturdy build, no hat | USED 2026-10-26 — #831 camo redo second photo |
 | 1162 | Latino man, late 30s, short black hair, trimmed dark beard, stocky build, no hat | RESERVED 2026-10-26 — #832 photos rejected (3 calls), unused |
 | 1163 | white man, late 50s, grey crew cut, weathered face, lean build, no hat | RESERVED 2026-10-26 — #832 photos rejected (3 calls), unused |
+| 1164 | white woman, early 30s, honey-blonde hair in a messy bun, light freckles, medium build | RESERVED 2026-10-26 — #299 photos rejected (2 calls), unused |
+| 1165 | Black woman, late 30s, natural curls to the shoulder, warm smile, medium build | RESERVED 2026-10-26 — #299 photos rejected (2 calls), unused |
