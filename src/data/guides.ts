@@ -1425,6 +1425,86 @@ export const allGuides: Guide[] = [
       { q: 'When should I order a Christmas gift for a coworker?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
     ],
   },
+  {
+    // Writer lane W (2026-10-26). Keyword: christmas gifts for grandma 12,100 / KD 10 (RankHero keyword page via scripts/keyword-gap.py, 2026-10-26). Unowned by any collection, product or guide; "nana hoodie" and "grandma hoodie" stay with their products.
+    // Facts (slogans, art, prices, policies) come from pipeline files #244 #245 #336 #521 #522 #563, site.ts and collections.ts. Picks are listed in LIVE pipeline files. FAQ questions are not from PAA or GSC (not available unattended).
+    // Planned siblings (not live yet): christmas-gifts-for-mom, christmas-gifts-for-wife, christmas-gifts-for-husband.
+    slug: 'christmas-gifts-for-grandma',
+    keyword: 'christmas gifts for grandma',
+    title: 'Christmas Gifts for Grandma: 4 Funny Nana, Mimi and Gigi Sweatshirts',
+    description: 'Christmas gifts for grandma she will actually wear: Nana’s Cookies, Professional Spoiler, Mimi Says Yes and Gigi. Tees $24.99, crewnecks $34.99.',
+    h1: 'Christmas Gifts for Grandma: Funny Sweatshirts for Nana, Mimi and Gigi',
+    date: '2026-10-26',
+    cluster: 'christmas',
+    draft: true,
+    answer: 'A good Christmas gift for grandma is a shirt that jokes about her own role in the family. Graphic Tees Co. has four: Nana’s Cookies (RECIPE NOT AVAILABLE, tee $24.99 or crewneck $34.99), Nana Professional Spoiler (hoodie $39.99), Mimi Says Yes (crewneck $34.99) and Gigi Because Grandma Sounded Old (crewneck $34.99 or hoodie $39.99). Each is original vintage-style art, printed after you order. Order by December 4, 2026.',
+    picks: [
+      {
+        h2: 'What is a funny Christmas gift for the grandma who bakes?',
+        body: ['Nana’s Cookies. Every family has a grandma who bakes the best cookies and keeps the recipe to herself, and this shirt says so in print.'],
+        items: [
+          { slogan: 'NANA’S COOKIES / RECIPE NOT AVAILABLE', tee: 'womens-christmas-nanas-cookies-graphic-tee', crewneck: 'womens-christmas-nanas-cookies-crewneck-sweatshirt',
+            text: 'A tray of Christmas cookies (gingerbread men, frosted stars and sprinkled trees) sits beside a sprig of holly and a rolling pin in faded red, cream and sage, in the style of a 1950s bakery sign. NANA’S COOKIES is lettered above and RECIPE NOT AVAILABLE below. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/christmas-sweatshirts/', text: 'Christmas sweatshirts' }],
+      },
+      {
+        h2: 'What do you give the grandma who spoils everybody?',
+        body: ['Nana, Professional Spoiler. It is for the grandma who hides the presents and the cookie jar in the same spot and is proud of both.'],
+        items: [
+          { slogan: 'NANA PROFESSIONAL SPOILER', tee: 'womens-nana-professional-spoiler-hoodie',
+            text: 'A smiling grandmother with silver curls and glasses sits in a wooden rocking chair with a cookie jar on her knee, a stack of wrapped presents with bows beside her and a ball of yarn on the floor, in dusty rose, sage and mustard. Nana is in script above and PROFESSIONAL SPOILER in worn capitals below. The pullover hoodie is $39.99.' },
+        ],
+        links: [{ href: '/hoodies/christmas-hoodies/', text: 'Christmas hoodies' }],
+      },
+      {
+        h2: 'What is a good gift for a grandma called Mimi?',
+        body: ['Mimi Says Yes. The parents say no, and Mimi’s house runs on yes.'],
+        items: [
+          { slogan: 'MIMI SAYS YES.', tee: 'womens-mimi-says-yes-crewneck-sweatshirt',
+            text: 'A round cookie jar with its lid off leans beside a tall stack of chocolate chip cookies and an ice cream sundae with three cherries, in faded red, cream, mint and navy. MIMI is lettered above and SAYS YES. below. The crewneck is $34.99.' },
+        ],
+      },
+      {
+        h2: 'What do you give a grandma who picked her own name on purpose?',
+        body: ['Gigi, Because Grandma Sounded Old. The shirt is for the grandma who chose the name and has no plans to act the part.'],
+        items: [
+          { slogan: 'GIGI because grandma sounded old.', tee: 'womens-gigi-because-grandma-sounded-old-hoodie', crewneck: 'womens-gigi-because-grandma-sounded-old-crewneck-sweatshirt',
+            text: 'A small quilted handbag tipped open spills cat-eye sunglasses, a lipstick and a strand of pearls beside a tiny pair of baby shoes, in hot pink, faded red, cream and navy. GIGI is lettered above and because grandma sounded old. below. The hoodie is $39.99 and the crewneck is $34.99.' },
+        ],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good Christmas gift for grandma?',
+        body: ['Something she can wear to the family dinner that makes the whole table laugh. A grandma gift lands best when the joke is about her role (the baking, the spoiling, the name she picked) and the art looks like something from her own decade.',
+          'Graphic Tees Co. designs are original vintage-style art with the line set in big, readable type. They use no team, brand or character logos, and each one teases her warmly rather than her age.'],
+        links: [{ href: '/christmas-shirts/', text: 'Christmas shirts' }] },
+      { h2: 'Tee, crewneck or hoodie for grandma?',
+        body: ['A crewneck is the easy pick for most grandmas. Graphic Tees Co. crewnecks are 8 oz, 50% cotton and 50% polyester fleece, and cost $34.99; the pullover hoodie is $39.99 and a tee is $24.99.',
+          'If you do not know her style, choose the crewneck. It has no hood, it layers under a cardigan, and the print sits front and center.'],
+        links: [{ href: '/guides/thick-hoodies/', text: 'Thick hoodies: how thick is 10 oz' }] },
+      { h2: 'What size should you order for grandma?',
+        body: ['Check the size chart on the product page against a sweatshirt she already likes, and size up if she layers. The chart lists chest measurements for each size.',
+          'If it is wrong, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and she does not have to mail the first one back.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'How much should you spend on a Christmas gift for grandma?',
+        body: ['Every piece here is under $40. Tees are $24.99, crewnecks are $34.99 and hoodies are $39.99.',
+          'Free US shipping starts at $45, so a crewneck plus a tee for a second grandma, or a hoodie plus a tee, clears it.'] },
+      { h2: 'When should you order Christmas gifts for grandma?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, which is up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find gifts for the people on your list?',
+        body: ['For family, see our dad, sister and coworker guides. For a group swap, see white elephant gifts.'],
+        links: [{ href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }, { href: '/guides/christmas-gifts-for-sister/', text: 'Christmas gifts for sister' }, { href: '/guides/christmas-gifts-for-coworkers/', text: 'Christmas gifts for coworkers' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }, { href: '/christmas-shirts/', text: 'All Christmas shirts' }] },
+    ],
+    faqs: [
+      { q: 'What are good Christmas gifts for grandma?', a: 'A funny shirt about her role, like Nana’s Cookies, Mimi Says Yes or Gigi Because Grandma Sounded Old from Graphic Tees Co. Tees are $24.99, crewnecks are $34.99, hoodies are $39.99, all printed to order.' },
+      { q: 'What is a funny Christmas gift for a grandma who loves to bake?', a: 'The Nana’s Cookies shirt from Graphic Tees Co. It prints a tray of Christmas cookies with the line RECIPE NOT AVAILABLE. The tee is $24.99 and the crewneck is $34.99.' },
+      { q: 'What is a good gift for a grandma called Mimi or Gigi?', a: 'Mimi Says Yes (crewneck $34.99) or Gigi Because Grandma Sounded Old (crewneck $34.99, hoodie $39.99). Both are original Graphic Tees Co. designs in vintage screen-print style.' },
+      { q: 'Is a sweatshirt a good Christmas gift for grandma?', a: 'Yes. A Graphic Tees Co. crewneck is an 8 oz cotton-polyester fleece at $34.99, warm for a winter dinner and easy to wear under a cardigan.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+      { q: 'When should I order a Christmas gift for grandma?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. Exact estimates show at checkout.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
