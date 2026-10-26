@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: new
 id: 302
@@ -31,3 +31,4 @@ handle: mens-hunting-antler-envy-buck-camo-hoodie
 - 2026-10-17 03:14 UTC director: approved from docs/review/302.jpg; ACTIVE + Online Store + Headless + Google; cohesion-audit --handle PASS (0 warn). Copy fix: the buck lies bedded under the rack (not gazing up); "biggest rack" gift line reworded (R3.7.3). LIVE.
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #13 of 27, style S2. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is A+ (center 10 in, tag placement-a).
+- 2026-10-26 14:25 UTC [B]: camo-redo #13 (S2 field guide on A+, tag placement-a), in place on product 15362832826672. New art: 3 Recraft calls kept the 3rd (spike buck staring up at a giant trophy-rack ghost, cream and black engraving, no orange so nothing reads as a wound), specks removed, white gaps knocked, cream halo; ANTLER ENVY below in Cinzel (lane B last 5 faces: Bowlby, Playfair, Bevan, Lobster, Rye, Alfa; Cinzel not among them), cream with dark keyline. Subject 3000 of 3000 px = 100%, line 2955 px, cap 304 of 2521 px. Print 3000 x 2521, FW1500 TOP400 (h 1260, TOP+h 1660 <= 2100). Light file n/a (Darkwood and Forest only). R7.7: 14/14 on file 1095448715, back logo unchanged. Front mockups replaced in place. Copy, SEO, FAQ (5), tags rewritten; title unchanged. Lifestyle: registry 1157, 2 seedream calls kept (trailhead two-track cover, deer camp porch image 2; lettering legible, no hand over print), covers.ts alt updated. Audit PASS 0 warn. Sheet docs/review/302.jpg. Product is ACTIVE: director to confirm. fal ~$0.25.

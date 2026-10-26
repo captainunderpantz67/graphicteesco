@@ -949,3 +949,4 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1154 | Filipino-American man, early 40s, short black hair graying at the temples, clean-shaven, lean build, no hat | USED 2026-10-25 — #224 camo redo cover + second photo |
 | 1155 | Korean-American woman, early 30s, shoulder-length black hair with bangs, trail-running build, no hat | USED 2026-10-25 — #901 camo redo cover + second photo |
 | 1156 | Black man, late 30s, short twists, light stubble, athletic build, no hat | USED 2026-10-25 — #301 camo redo cover + second photo |
+| 1157 | white man, mid 40s, short sandy-brown hair, trimmed red-brown beard, no hat, medium build | USED 2026-10-26 — #302 camo redo cover + second photo |
