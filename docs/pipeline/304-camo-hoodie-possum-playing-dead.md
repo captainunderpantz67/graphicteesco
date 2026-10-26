@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: new
 id: 304
@@ -26,3 +26,4 @@ handle: unisex-possum-playing-dead-camo-hoodie
 - 2026-10-17 02:15 UTC director: approved from docs/review/304.jpg; ACTIVE + Online Store + Headless + Google; cohesion-audit --handle PASS (0 warn). LIVE.
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #14 of 27, style S5. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is B3 (left chest at the seam, tag placement-b).
+- 2026-10-26 14:5 UTC [B]: camo-redo #14 (S5 sketchbook on B3, tag placement-b), in place on product 15362843345200. New art: 1 Recraft call (ink-and-watercolor possum on its back, tongue out, one eye open, leaves), specks removed, cream halo; line shortened to DEAD TILL FRIDAY. (3 words, same idea; title unchanged) in Damion (lane B last 5 faces: Bevan, Lobster, Rye, Alfa, Cinzel; Damion not among them), cream with dark keyline. Art 89% of print height, cap 209 px at file width 2352 (FW625 scale 56 px >= 53). Print 2352 x 2336, FW625 TOP300 LEFT1475. R7.7: 14/14 on file 1095453182. Front mockups replaced in place. Copy, SEO, FAQ (5), placement-b tag rewritten. Lifestyle: registry 1158 + 1159 (couples, unisex), 1 seedream call each kept (park bench cover, farm fence image 2; captions soft blur, icon reads, no hand over print), covers.ts alt updated. Audit PASS. Sheet docs/review/304.jpg. Product is ACTIVE: director to confirm. fal ~$0.2.

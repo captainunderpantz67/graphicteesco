@@ -4,7 +4,7 @@ FD = 'designs/fonts/'
 CREAM = (246, 236, 214, 255)
 F = dict(alfa='AlfaSlabOne-Regular.ttf', anton='Anton-Regular.ttf', bevan='Bevan-Regular.ttf', big='BigShouldersDisplay[wght].ttf', bowlby='BowlbyOne-Regular.ttf',
          cinzel='Cinzel[wght].ttf', fraunces='Fraunces[SOFT,WONK,opsz,wght].ttf', oswald='Oswald[wght].ttf', playfair='PlayfairDisplay[wght].ttf',
-         playfairi='PlayfairDisplay-Italic[wght].ttf', rye='Rye-Regular.ttf', graduate='Graduate-Regular.ttf', yellowtail='Yellowtail-Regular.ttf', interblack='InterDisplay-Black.otf')
+         playfairi='PlayfairDisplay-Italic[wght].ttf', rye='Rye-Regular.ttf', graduate='Graduate-Regular.ttf', yellowtail='Yellowtail-Regular.ttf', interblack='InterDisplay-Black.otf', damion='Damion-Regular.ttf')
 VAR = dict(big=[900], cinzel=[900], fraunces=[9, 900, 60, 1], oswald=[700], playfair=[900], playfairi=[900])
 def line(text, font, wfrac, W, fill, key, kw=27, track=0):
     ff = F[font]; var = VAR.get(font)
