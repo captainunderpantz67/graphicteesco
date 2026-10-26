@@ -1,4 +1,4 @@
-status: REDO
+status: PARKED
 lane: W
 type: article
 cluster: gym
@@ -18,3 +18,4 @@ slug: funny-workout-shirts
 ## Log
 - 2026-10-24 UTC writer: drafted, build passes.
 - 2026-10-25 14:15 UTC director: REDO (article). R2.8: 'workout shirts funny' is the same search as 'funny workout shirt', which the Gym Rat tee owns; word order does not make it a second keyword. Retarget to a distinct measured phrase (try 'funny gym shirts for men', 'funny lifting shirts', 'gym humor shirts' in keyword-gap.py) that no page owns, or PARK if none measures.
+- 2026-10-26 UTC writer: PARKED per director. keyword-gap.py (RankHero 2026-10-26) returns no volume for funny gym shirts for men, funny lifting shirts (KD 50, no volume), gym humor shirts, funny gym t shirts, funny gym tank tops, gym shirts with sayings, funny workout shirts for men. Only measured variants are workout shirts funny 1,300/17 (same search as the Gym Rat tee) and funny gym shirts 3,600/40 (Plate Club tee). Draft entry kept in guides.ts (draft: true) for reuse if a distinct phrase measures. Also removed the stale 2026-10-22 draft copy of best-funny-thanksgiving-shirts (#801, PARKED).
