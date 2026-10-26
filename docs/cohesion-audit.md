@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-25 23:43 UTC
+# Cohesion audit — 2026-10-26 14:45 UTC
 
-732 live products checked · **7 errors** · 163 warnings · 159 products with findings
+738 live products checked · **7 errors** · 169 warnings · 165 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -304,6 +304,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Unisex Running – Run Club. For the Coffee. Hoodie `unisex-running-run-club-mostly-a-coffee-club-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Men's Marathon – Finisher. Soul Still at Mile 20. Heavyweight Hoodie `mens-marathon-finisher-still-at-mile-20-heavyweight-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Men's Welder – Welds Like a Stack of Dimes. Paid Like One. Crewneck Sweatshirt `mens-welder-stacks-dimes-wants-more-dimes-crewneck-sweatshirt`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
@@ -391,6 +394,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Unisex Doodle – Groomer Appointment: Overdue. Hoodie `unisex-doodle-groomer-appointment-overdue-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Women's Cavalier – Technically Royalty. Hoodie `womens-cavalier-technically-royalty-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Men's Outdoors – Camera Shy Sasquatch Camo Hoodie `mens-outdoors-sasquatch-camera-shy-camo-hoodie`
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
 
@@ -460,9 +466,15 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Women's Cat – Clocked It. Said Nothing. Embroidered Zip Hoodie `womens-cat-clocked-it-said-nothing-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Men's Wolf – Lone Wolf. Early Bedtime. Embroidered Zip Hoodie `mens-wolf-lone-wolf-early-bedtime-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Unisex Pit Bull – Professional Lap Dog Embroidered Zip Hoodie `unisex-pit-bull-professional-lap-dog-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
+
+### Men's Car – Not Stopping. Hold It. Embroidered Zip Hoodie `mens-car-not-stopping-hold-it-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Men's Gym – Squire, Spot Me Embroidered Zip Hoodie `mens-gym-squire-spot-me-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
@@ -482,6 +494,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Men's Fishing – You Catching 'Em? No. Keep Walking. Embroidered Zip Hoodie `mens-fishing-you-catching-em-no-keep-walking-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Men's Drummer – The Neighbors Love Me. Embroidered Zip Hoodie `mens-drummer-the-neighbors-love-me-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Men's Outdoors – The Mountains Called. Left Them on Read. Camo Hoodie `mens-outdoors-mountains-called-left-on-read-camo-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
@@ -494,6 +509,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Men's Thanksgiving – Technically a Vegetable Embroidered Zip Hoodie `mens-thanksgiving-technically-a-vegetable-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
+
+### Men's Sasquatch – Camera Shy Embroidered Zip Hoodie `mens-sasquatch-camera-shy-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Unisex National Park – Running Late. Bison Traffic. Camo Hoodie `unisex-national-park-running-late-bison-traffic-camo-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.

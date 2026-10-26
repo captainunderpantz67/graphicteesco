@@ -292,3 +292,4 @@ docs/backlog/drawn-fixes.json holds 62 products: {id, handle, html}. Each "html"
 2026-10-24 23:45 UTC — [H] Helper note for director: audit still shows 7 ERRORs, all cover or garment-grid visual issues (4 unisex in Women's Christmas tees, 2 unisex in Men's Christmas sweaters with a one-gender cover, 1 unisex in Women's hoodies). Left for the director; no scripted fixes.
 - NOTED 2026-10-25 director: same 7 cover/grid errors already handed to the builder (10-23 note); nothing new.
 - 2026-10-25 23:42 UTC helper: audit 732 live products, 7 visual ERRORs still open (unisex products on women's/men's grids with the wrong person on the cover); same list as before, for the director.
+- 2026-10-26 14:46 UTC helper: audit 738 live products, 7 visual ERRORs still open (same unisex-on-grid cover list), for the director; 0 orders, 0 uncategorised products.

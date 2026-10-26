@@ -1,6 +1,6 @@
 {
- "at": "2026-10-25T23:43:31.492Z",
- "products": 732,
+ "at": "2026-10-26T14:45:32.180Z",
+ "products": 738,
  "findings": [
   {
    "level": "WARN",
@@ -732,6 +732,13 @@
   },
   {
    "level": "WARN",
+   "handle": "mens-marathon-finisher-still-at-mile-20-heavyweight-hoodie",
+   "title": "Men's Marathon – Finisher. Soul Still at Mile 20. Heavyweight Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "mens-welder-stacks-dimes-wants-more-dimes-crewneck-sweatshirt",
    "title": "Men's Welder – Welds Like a Stack of Dimes. Paid Like One. Crewneck Sweatshirt",
    "msg": "No lifestyle cover photo.",
@@ -935,6 +942,13 @@
   },
   {
    "level": "WARN",
+   "handle": "womens-cavalier-technically-royalty-hoodie",
+   "title": "Women's Cavalier – Technically Royalty. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "mens-outdoors-sasquatch-camera-shy-camo-hoodie",
    "title": "Men's Outdoors – Camera Shy Sasquatch Camo Hoodie",
    "msg": "No SEO title.",
@@ -1096,6 +1110,13 @@
   },
   {
    "level": "WARN",
+   "handle": "mens-wolf-lone-wolf-early-bedtime-embroidered-zip-hoodie",
+   "title": "Men's Wolf – Lone Wolf. Early Bedtime. Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "unisex-pit-bull-professional-lap-dog-embroidered-zip-hoodie",
    "title": "Unisex Pit Bull – Professional Lap Dog Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
@@ -1107,6 +1128,13 @@
    "title": "Unisex Pit Bull – Professional Lap Dog Embroidered Zip Hoodie",
    "msg": "No SEO title.",
    "fix": "Write one ≤ 60 chars with the primary keyword."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-car-not-stopping-hold-it-embroidered-zip-hoodie",
+   "title": "Men's Car – Not Stopping. Hold It. Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
    "level": "WARN",
@@ -1152,6 +1180,13 @@
   },
   {
    "level": "WARN",
+   "handle": "mens-drummer-the-neighbors-love-me-embroidered-zip-hoodie",
+   "title": "Men's Drummer – The Neighbors Love Me. Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "mens-outdoors-mountains-called-left-on-read-camo-hoodie",
    "title": "Men's Outdoors – The Mountains Called. Left Them on Read. Camo Hoodie",
    "msg": "No lifestyle cover photo.",
@@ -1184,6 +1219,13 @@
    "title": "Men's Thanksgiving – Technically a Vegetable Embroidered Zip Hoodie",
    "msg": "thanksgiving design isn't in any thanksgiving collection.",
    "fix": "Tag it so it appears in the thanksgiving shirts page."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-sasquatch-camera-shy-embroidered-zip-hoodie",
+   "title": "Men's Sasquatch – Camera Shy Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
    "level": "WARN",
