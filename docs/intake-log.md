@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-26 14:25 UTC
 2026-10-26 14:05 UTC — [B] Builder run end: 2 items, camo redo #13 #302 (field-guide buck, A+) and #14 #304 (sketchbook possum, B3); both ACTIVE, director to confirm. New products today: 0 of 6. fal ~$0.6. Lock released.
 2026-10-26 14:05 UTC — [B] REVIEW #304 Unisex Possum – Playing Dead Till Friday Camo Hoodie (camo-redo 14 of 27, S5 on B3, FW625 TOP300 LEFT1475, 14/14 on 1095453182, cap 56 px at FW625, art 89% of height, Damion; 2 lifestyle photos). Product ACTIVE, director to confirm.
 2026-10-26 14:25 UTC — [B] REVIEW #302 Men's Hunting – Antler Envy Camo Hoodie (camo-redo 13 of 27, S2 on A+, FW1500 TOP400, 14/14 on 1095448715, line 2955 px, subject 100%, cap 304 of 2521 px, Cinzel; 2 lifestyle photos). Product ACTIVE, director to confirm. fal ~$0.25.
