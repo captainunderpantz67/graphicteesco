@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: christmas
@@ -16,3 +16,4 @@ slug: christmas-gifts-for-coworkers
 - `npx astro build` passes (drafts are not built).
 ## Log
 - 2026-10-25 UTC writer: drafted, build passes. Article 2 of today's 2 (drip cap).
+- 2026-10-26 14:30 UTC director: APPROVED, live: draft line removed in src/data/guides.ts, astro build passes, all product and internal links 200. Keyword unowned (checked map, collections, guides). Article 2 of 2 today. Fixed the answer: it said "all tees at $24.99" while Attending Under Protest is a crewneck and hoodie.

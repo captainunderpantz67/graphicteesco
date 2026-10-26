@@ -1355,7 +1355,6 @@ export const allGuides: Guide[] = [
     h1: 'Christmas Gifts for Sister: Funny Shirts and Sweatshirts That Sound Like Her',
     date: '2026-10-25',
     cluster: 'christmas',
-    draft: true,
     answer: 'A good Christmas gift for your sister is a shirt that jokes about her real December. Graphic Tees Co. has four: Cat Allegedly (tee $24.99, crewneck $34.99), Santa Gets All the Credit (tee $24.99, crewneck $34.99), Christmas Card Photo Survivor (tee $24.99, crewneck $34.99) and We Said No Gifts (tee $24.99, crewneck $34.99). Each is original art, printed after you order. Order by December 4, 2026.',
     picks: [
       {
@@ -1433,8 +1432,7 @@ export const allGuides: Guide[] = [
     h1: 'Christmas Gifts for Coworkers: Funny Shirts and Sweatshirts That Stay Office-Clean',
     date: '2026-10-25',
     cluster: 'christmas',
-    draft: true,
-    answer: 'A good Christmas gift for a coworker is a shirt that jokes about the office party itself. Graphic Tees Co. has five, all tees at $24.99: Drew Your Name. Panicked., Technically a Sweater, White Elephant Champion, Bah Humbug (Respectfully) and Attending Under Protest (crewneck $34.99, hoodie $39.99). Each is original art, printed after you order. Order by December 4, 2026.',
+    answer: 'A good Christmas gift for a coworker is a shirt that jokes about the office party itself. Graphic Tees Co. has five: four tees at $24.99 (Drew Your Name. Panicked., Technically a Sweater, White Elephant Champion and Bah Humbug (Respectfully)) and Attending Under Protest (crewneck $34.99, hoodie $39.99). Each is original art, printed after you order. Order by December 4, 2026.',
     picks: [
       {
         h2: 'What is a funny gift for the coworker you drew in Secret Santa?',

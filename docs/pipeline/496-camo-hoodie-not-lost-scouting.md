@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 496
@@ -35,3 +35,4 @@ shopify: gid://shopify/Product/15364210622768
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #9 of 27, style S7. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is A+ (center 10 in, tag placement-a).
 - 2026-10-25 17:55 UTC [B]: camo-redo #9 (S7 sign painter on A+, tag placement-a), in place on product 15364210622768. New art: 1 Recraft call (smug buck in a recliner, flat cream/black/blaze inks, no lettering), thin cream halo; NOT LOST. above / SCOUTING. below set in Bevan (cream, dark keyline, blaze-orange drop shadow; lane B last 5 faces: Rye, Lobster, Caveat Brush, Graduate, Fraunces; Bevan not among them). 7h: headline 2860 px / punch 2858 px (100%). Subject 1876 of 2894 px = 65% of lockup width, type 843 of 3250 px. Print 2894 x 3250, FW1500 TOP400 (h 1684, TOP+h 2084 <= 2100). Light file: Sandstone on file 1094691032, headline fill near-black (no keyline); Duck Camo on 1094690930 (first try at 3400 px overran the print area, redone at 3250). R7.7: 14/14 (7 on each file), back logo 1080398177. Front mockups replaced in place (phone-size read OK on both). Copy line one and story rewritten from the art, SEO unchanged, FAQ 5, placement-a tag added; title unchanged (same line). Lifestyle: registry 1153, 2 seedream calls both kept (hay field at first light cover, tailgate at dusk; lettering legible, no hand over print), images 1-2, handle removed from retired-covers.json, covers.ts alt updated. Audit PASS 0 warn. Sheet docs/review/496.jpg. Product is ACTIVE: director to confirm. fal ~$1.02 today for this item.
+- 2026-10-26 14:30 UTC director: LIVE in place (already ACTIVE, not a new product). S7 sign-painter buck in a recliner on A+: NOT LOST. / SCOUTING. equal width in Bevan, reads on Duck Camo and the Sandstone dark-ink file; cover man in a frosty field, print right. Copy fix: Story named a 'crumpled paper map under one hoof' that is not in the art (R8.3), removed. Audit --handle PASS 0 warn.
