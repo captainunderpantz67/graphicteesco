@@ -954,3 +954,5 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1159 | man AND woman together: white man, late 20s, short brown hair, light stubble, lean build; Mexican-American woman, late 20s, long dark hair tied back, medium build | USED 2026-10-26 — #304 camo redo second photo |
 | 1160 | white man, mid 40s, completely bald, short salt-and-pepper beard, medium build, no hat | USED 2026-10-26 — #831 camo redo cover |
 | 1161 | Black man, early 50s, shaved bald head, trimmed grey goatee, sturdy build, no hat | USED 2026-10-26 — #831 camo redo second photo |
+| 1162 | Latino man, late 30s, short black hair, trimmed dark beard, stocky build, no hat | RESERVED 2026-10-26 — #832 photos rejected (3 calls), unused |
+| 1163 | white man, late 50s, grey crew cut, weathered face, lean build, no hat | RESERVED 2026-10-26 — #832 photos rejected (3 calls), unused |

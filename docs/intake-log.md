@@ -1,4 +1,4 @@
-RUNNING lane B since 2026-10-26 21:40 UTC
+2026-10-26 22:01 UTC — [B] REVIEW #832 Men's Farmer – No Days Off Cow Camo Hoodie (camo-redo 16 of 27, S9 woodcut on B3, tag placement-b, FW625 TOP300 LEFT1475, 18/18 on 1095801222 + Deadwood light file 1095802550, line NO DAYS OFF. in Rye, art 89% of print height, cap 74 px; lifestyle photos failed 4 calls so flats kept, cover: fal-swap). Product ACTIVE, director to confirm. fal ~$0.30.
 2026-10-26 17:43 UTC — [B] Builder run end: 2 items, #304 cover-only REDO (no-cup park-bench cover) and camo redo #15 #831 (varsity eagle, A+); both ACTIVE, director to confirm. New products today: 0 of 6. fal ~$0.9. Lock released.
 2026-10-26 17:43 UTC — [B] REVIEW #831 Men's Eagle – Bald by Choice. Majestic by Nature. Camo Hoodie (camo-redo 15 of 27, S6 on A+, FW1500 TOP400, 18/18 on 1095612999, headline 2243 / punch 2993 px, subject 80%, cap 230 px, Graduate; 2 lifestyle photos). Product ACTIVE, director to confirm.
 2026-10-26 17:33 UTC — [B] REVIEW #304 cover-only REDO: no-cup park-bench cover (2 calls), Shopify image 1 replaced; print unchanged. Product ACTIVE, director to confirm.
