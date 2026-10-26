@@ -666,6 +666,7 @@ export const covers: Record<string, { src: string; alt: string }> = {
   'unisex-essentials-charcoal-zip-hoodie': { src: '/covers/unisex-essentials-charcoal-zip-hoodie.webp', alt: 'Woman in her early 30s with a long low ponytail walking into a rainy city park with a closed umbrella at her side, wearing a charcoal heather zip hoodie with a small orange Graphic Tees script stitched on the left chest' },
   'mens-hunting-opening-day-zip-hoodie': { src: '/covers/mens-hunting-opening-day-zip-hoodie.webp', alt: 'Man in his mid 50s with long grey hair under a beanie seen from behind walking across a frosty field at dawn with a thermos, wearing an ash zip hoodie printed on the back with Took the Day Off. The Deer Did Too. and a buck in a camp chair' },
   'mens-outdoors-sasquatch-camera-shy-camo-hoodie': { src: '/covers/mens-outdoors-sasquatch-camera-shy-camo-hoodie.webp', alt: 'Man in a Forest Camo Camera Shy Sasquatch hoodie on a misty pine trail at first light, painted Bigfoot print centered on the chest' },
+  'mens-eagle-bald-by-choice-camo-hoodie': { src: '/covers/mens-eagle-bald-by-choice-camo-hoodie.webp', alt: 'Bald man with a grey goatee smiling at the open tailgate of a pickup at a pine-woods deer camp at golden hour in a Forest Camo Bald by Choice eagle hoodie with the eagle print centered on the chest' },
 };
 
 // Pasted-print covers retired by R6.10 (Sam 2026-10-18): these fall back to the clean Printful mockup until a
