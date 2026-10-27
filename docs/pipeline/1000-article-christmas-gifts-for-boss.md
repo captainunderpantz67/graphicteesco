@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: christmas
@@ -16,3 +16,4 @@ slug: christmas-gifts-for-boss
 - Link paths for director to confirm 200 (R14.1): /christmas-shirts/, /christmas-sweatshirts/, /hoodies/christmas-hoodies/, /shipping-returns/, /guides/thick-hoodies/, sibling guides (coworkers, dad, white-elephant-gifts).
 ## Log
 - 2026-10-27 UTC writer: drafted, `npx astro build` passes (113 pages; draft not built).
+- 2026-10-27 23:22 UTC director: approved, draft: line removed (2nd article of the Oct 27 Chicago day, after #999). All 8 pick handles ACTIVE at $24.99 / $34.99; every link path 200; answer-first, facts match site.ts, primary christmas gifts for boss 4,400 / KD 14 unowned. LIVE.

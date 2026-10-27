@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 293
@@ -37,3 +37,4 @@ handle: mens-hunting-full-draw-zero-deer-camo-hoodie
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #20 of 27, style S4. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is B3 (left chest at the seam, tag placement-b).
 - 2026-10-27 17:58 UTC [B]: camo-redo #20 (S4 70s retro bow at full draw aimed at a squirrel on a stump, B3, tag placement-b), in place on product 15362709094704. New art: 2 Recraft calls (first had the arrow aimed away from the squirrel; second aims at it), black/cream/blaze orange stripes, thin cream halo, no box; line ZERO DEER. (2 words; FULL DRAW dropped to fit the 3-word B3 limit) in Bowlby One cream with dark keyline (lane B last faces: Playfair, Yellowtail, Fraunces, Graduate, Rye; Bowlby not among them). Print 2352 x 2010, FW625 TOP300 LEFT1475 (TOP+h 834 <= 2100), art 83% of height, cap 289 px = 77 px at FW625 (floor 53). File 1096516360, 14/14 verified from the Printful sync, back logo 1080398177. Front mockups replaced in place (fileUpdate). New title "Men's Hunting – Zero Deer Camo Hoodie" (7i), copy, FAQ (4 x 46-51 words), SEO and placement-b tag rewritten. Photos: registry 1166 (1 call) and 1167 (2 calls; first printed big and centered), B3 waist-up three-quarter framing, images 1-2, back logo last. Handle added to retired-covers. Audit PASS (1 warn: no lifestyle cover, same as other retired covers). Sheet docs/review/293.jpg. Product is ACTIVE: director to confirm. fal ~$0.35 incl. art.
+- 2026-10-27 23:22 UTC director: LIVE in place (camo-redo 20, B3). Retro bow at full draw aimed at a squirrel on a stump carries ZERO DEER. on its own; cap 77 px at FW625, reads on Forest and Darkwood. Copy fix (R8.3): the Story said 'retro striped sunset', the art has stripes and no sun; now 'bold retro stripes'. Already ACTIVE on 3 publications; audit --handle PASS (1 warn: retired cover). Not a new product.

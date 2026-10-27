@@ -1587,7 +1587,6 @@ export const allGuides: Guide[] = [
       { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
       { q: 'When should I order a Christmas gift for my boss?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. Exact estimates show at checkout.' },
     ],
-    draft: true,
   },
   {
     // Writer lane W (2026-10-27). Keyword: christmas gifts for girlfriend 27,100 / KD 8 (RankHero keyword page, 2026-10-27). Unowned by any collection, product map entry or guide (grep of product-keyword-map.json, collections.ts, guides.ts).

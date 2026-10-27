@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 834
@@ -32,3 +32,4 @@ push: camo
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #21 of 27, style S8. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is A+ (center 10 in, tag placement-a).
 - 2026-10-27 21:46 UTC [B]: camo-redo #21 (S8 on A+: one bold shushing-grandpa icon, tag placement-a), in place on product 15371567563056, product ACTIVE. New art: 1 Recraft call (black/bone/blaze orange, no box, no words); thin cream halo; PAPA HAS A SPOT. cream above, WON'T SAY WHERE. blaze orange below, Bevan, dark keyline (no condensed sans; Bevan not among lane B's last faces Bowlby, Playfair, Yellowtail, Fraunces, Graduate). Print 3000 x 3184, FW1500 TOP400 (TOP+h 1992 <= 2100), headline 2770 / punch 3018 px = 109%, subject 2300 of 3000 = 77%, punch cap 113 px at FW1500 (floor 90). 18/18 on file 1096679783 (verified from Printful sync), back logo 1080398177 on 18/18. Front mockups replaced in place (fileUpdate), copy, alts, SEO meta, placement-a tag. Title unchanged (line kept, 7i n/a). Phone-size read of Forest, Duck, Deadwood OK (cream headline weakest on Deadwood, keyline holds). Photos: registry 1168 (3 calls: sleeve covered first P, then garbled lettering; third kept, drawstring crosses print edge) and 1169 (1 call), images 1-2, back logo last. Handle added to retired-covers. Audit PASS (1 warn: no lifestyle cover, same as other retired covers). Sheet docs/review/834.jpg. fal ~$0.35 incl. art.
+- 2026-10-27 23:22 UTC director: LIVE in place (camo-redo 21, A+). Shushing-grandpa icon with the X map acts out the joke; WON'T SAY WHERE. is the widest line (109%) and reads on Forest and Duck; cover is an older man on a dock with the rod at his side, print clear. Copy matches the art. Already ACTIVE on 3 publications; audit --handle PASS (1 warn: retired cover). Copied to reference/best. Not a new product.
