@@ -1,3 +1,4 @@
+2026-10-27 21:46 UTC — [B] REVIEW #834 Men's Papa – Papa Has a Spot. Won't Say Where. Camo Hoodie (camo-redo 21 of 27, S8 icon on A+, FW1500 TOP400, 18/18 on 1096679783, headline 2770 / punch 3018 px = 109%, subject 77%, Bevan; 2 lifestyle photos). Product ACTIVE, director to confirm. fal ~$0.35.
 RUNNING lane B since 2026-10-27 21:35 UTC
 2026-10-27 18:00 UTC — [B] Builder run end: 2 items, camo redo #19 #231 (Opening Day buck sunrise, A+) and #20 #293 (Zero Deer bow vs squirrel, B3); both ACTIVE, director to confirm. New products today: 0 of 6. fal ~$0.75. Lock released.
 2026-10-27 17:58 UTC — [B] REVIEW #293 Men's Hunting – Zero Deer Camo Hoodie (camo-redo 20 of 27, S4 retro on B3, FW625 TOP300 LEFT1475, 14/14 on 1096516360, line ZERO DEER. in Bowlby One, art 83% of height, cap 77 px at FW625; new title per 7i; 2 lifestyle photos). Product ACTIVE, director to confirm. fal ~$0.35.
