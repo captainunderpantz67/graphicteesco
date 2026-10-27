@@ -1436,7 +1436,6 @@ export const allGuides: Guide[] = [
     h1: 'Christmas Gifts for Grandma: Funny Sweatshirts for Nana, Mimi and Gigi',
     date: '2026-10-26',
     cluster: 'christmas',
-    draft: true,
     answer: 'A good Christmas gift for grandma is a shirt that jokes about her own role in the family. Graphic Tees Co. has four: Nana’s Cookies (RECIPE NOT AVAILABLE, tee $24.99 or crewneck $34.99), Nana Professional Spoiler (hoodie $39.99), Mimi Says Yes (crewneck $34.99) and Gigi Because Grandma Sounded Old (crewneck $34.99 or hoodie $39.99). Each is original vintage-style art, printed after you order. Order by December 4, 2026.',
     picks: [
       {

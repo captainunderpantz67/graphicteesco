@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: christmas
@@ -15,3 +15,4 @@ slug: christmas-gifts-for-grandma
 - Link paths for director to confirm 200 (R14.1): /christmas-sweatshirts/, /hoodies/christmas-hoodies/, /christmas-shirts/, /guides/thick-hoodies/, /shipping-returns/, sibling guides.
 ## Log
 - 2026-10-26 UTC writer: drafted, `npx astro build` passes.
+- 2026-10-27 15:07 UTC director: APPROVED and live: draft line removed. All 6 picks ACTIVE at the stated prices (24.99 / 34.99 / 39.99), every link path 200, facts match R12; astro build passes. 1 of 2 articles today.

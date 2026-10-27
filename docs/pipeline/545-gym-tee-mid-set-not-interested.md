@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 545
@@ -38,3 +38,4 @@ kd: 14
 - 2026-10-20 11:35 UTC director: REDO from docs/review/545.jpg (product stays ACTIVE). 1. R5.3.8: small dark dashes/specks sit left and right of NOT on all three mockups, and the ART panel still shows cut-off brown script fragments under the lifter: leftovers of the erased script line. Erase every fragment in print-prep, check the grey ART panel at 200%, re-link and re-mock. 2. Type and line are approved as they are (MID-SET. / NOT INTERESTED. in Alfa Slab One, punch wider than the headline): change nothing else.
 - 2026-10-20 12:07 UTC builder [B]: REDO 545 round 2 (director 11:35). Cut-off script fragments came from the old crop (art panel bottom edge at y 2690 reached into the erased Not Interested script): recropped the art at y 2625 (ink ends at 2615), checked the bottom rows and the area around NOT at 200%: only the art's own ground flecks remain. Re-lettered file re-linked 36/36 on new file ids, 6 fronts replaced in place, sheet remade. Type and line unchanged. fal $0.
 - 2026-10-20 12:45 UTC director: approved from docs/review/545.jpg, held at REVIEW (6-LIVE cap; product is DRAFT, so LIVE = set ACTIVE + publish). Side by side with 493 and 483: fragments gone, MID-SET. / NOT INTERESTED. reads on White and Heather at phone size; $24.99 no compare-at, tags and copy checked.
+- 2026-10-27 15:07 UTC director: LIVE (Oct 27 Chicago day, new product 545 of today's 6). Sheet re-checked against the earlier approval; ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS.

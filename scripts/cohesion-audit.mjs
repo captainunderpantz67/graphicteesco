@@ -37,6 +37,8 @@ const colBySlug = Object.fromEntries(collections.map((c) => [c.shopifyHandle, c]
 // Cover photos (alt text says who is in the shot).
 const coversSrc = readFileSync(join(root, 'src/data/covers.ts'), 'utf8');
 const covers = Object.fromEntries([...coversSrc.matchAll(/'([a-z0-9-]+)':\s*\{\s*src:\s*'([^']+)',\s*alt:\s*'((?:[^'\\]|\\.)*)'/g)].map((m) => [m[1], { src: m[2], alt: m[3] }]));
+// Retired covers fall back to the flat product shot on the site (covers.ts), so the audit skips them too (director 2026-10-27).
+for (const h of JSON.parse(readFileSync(join(root, 'src/data/retired-covers.json'), 'utf8'))) delete covers[h];
 const kwMap = existsSync(join(root, 'docs/product-keyword-map.json')) ? JSON.parse(readFileSync(join(root, 'docs/product-keyword-map.json'), 'utf8')).products ?? {} : {};
 
 async function sf(query, variables = {}) {

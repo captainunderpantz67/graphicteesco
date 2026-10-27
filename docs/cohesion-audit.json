@@ -1,6 +1,6 @@
 {
- "at": "2026-10-27T14:52:35.760Z",
- "products": 738,
+ "at": "2026-10-27T15:07:29.466Z",
+ "products": 744,
  "findings": [
   {
    "level": "WARN",
@@ -45,39 +45,39 @@
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
-   "level": "ERROR",
+   "level": "WARN",
    "handle": "unisex-christmas-vintage-santa-crewneck-sweatshirt",
    "title": "Unisex Christmas – Vintage Santa Crewneck Sweatshirt",
-   "msg": "Unisex product in a Men's Christmas Sweaters page, but the cover shows only a woman.",
-   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
-   "level": "ERROR",
+   "level": "WARN",
    "handle": "unisex-christmas-deer-camp-christmas-graphic-tee",
    "title": "Unisex Christmas – Deer Camp Christmas Tee",
-   "msg": "Unisex product in a Women's Graphic Tees, Women's Christmas Shirts page, but the cover shows only a man.",
-   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
-   "level": "ERROR",
+   "level": "WARN",
    "handle": "unisex-christmas-christmas-tree-farm-crewneck-sweatshirt",
    "title": "Unisex Christmas – Christmas Tree Farm Crewneck Sweatshirt",
-   "msg": "Unisex product in a Men's Christmas Sweaters page, but the cover shows only a woman.",
-   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
-   "level": "ERROR",
+   "level": "WARN",
    "handle": "unisex-christmas-christmas-on-the-lake-graphic-tee",
    "title": "Unisex Christmas – Christmas on the Lake Tee",
-   "msg": "Unisex product in a Women's Graphic Tees, Women's Christmas Shirts page, but the cover shows only a man.",
-   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
-   "level": "ERROR",
+   "level": "WARN",
    "handle": "unisex-christmas-upland-christmas-pheasant-graphic-tee",
    "title": "Unisex Christmas – Upland Christmas Pheasant Tee",
-   "msg": "Unisex product in a Women's Graphic Tees, Women's Christmas Shirts page, but the cover shows only a man.",
-   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
    "level": "WARN",
@@ -88,10 +88,66 @@
   },
   {
    "level": "WARN",
+   "handle": "mens-hunting-deer-diary-zip-hoodie",
+   "title": "Men's Hunting – Sat 11 Hours. Saw a Squirrel. Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-jolly-ish-crewneck-sweatshirt",
+   "title": "Women's Christmas – Jolly-ish Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-christmas-north-woods-moose-hoodie",
+   "title": "Unisex Christmas – I Didn't Ask for the Wreath Moose Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "unisex-christmas-mountain-christmas-bear-hoodie",
    "title": "Unisex Christmas – Mountain Christmas Bear Hoodie",
    "msg": "No meta description.",
    "fix": "Write one ≤ 155 chars."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-fishing-casting-doubt-zip-hoodie",
+   "title": "Men's Fishing – Fly Fishing. Mostly Untangling. Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-hello-winter-snowflakes-hoodie",
+   "title": "Women's Christmas – Unique, Like Every Other Snowflake Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-ho-ho-howdy-hoodie",
+   "title": "Women's Christmas – The Reindeer Quit, Santa Got a Horse Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-o-holy-night-crewneck-sweatshirt",
+   "title": "Women's Christmas – O Holy Night Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-christmas-nurse-crewneck-sweatshirt",
+   "title": "Women's Christmas Nurse – Checking It Twice, Charting It Three Times Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
    "level": "WARN",
@@ -102,10 +158,73 @@
   },
   {
    "level": "WARN",
+   "handle": "womens-christmas-candy-cane-club-crewneck-sweatshirt",
+   "title": "Women's Christmas – Sucker for Christmas Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "womens-western-kick-up-dust-camo-hoodie",
    "title": "Women's Western – Kick Up Dust Camo Hoodie",
-   "msg": "Meta description is 182 chars (> 160).",
-   "fix": "Trim to ≤ 155."
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-western-kick-up-dust-camo-hoodie",
+   "title": "Women's Western – Kick Up Dust Camo Hoodie",
+   "msg": "No SEO title.",
+   "fix": "Write one ≤ 60 chars with the primary keyword."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-christmas-resting-my-eyes-graphic-tee",
+   "title": "Men's Christmas – Resting My Eyes Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-christmas-resting-my-eyes-crewneck-sweatshirt",
+   "title": "Men's Christmas – Resting My Eyes Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-hunting-no-deer-today-camo-hoodie",
+   "title": "Men's Hunting – No Deer Today Camo Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-hunting-professional-tree-sitter-camo-hoodie",
+   "title": "Men's Hunting – Professional Tree Sitter Camo Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-nanas-cookies-crewneck-sweatshirt",
+   "title": "Women's Christmas – Nana's Cookies Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-nanas-cookies-graphic-tee",
+   "title": "Women's Christmas – Nana's Cookies Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-thanksgiving-totally-a-pilgrim-hoodie",
+   "title": "Unisex Thanksgiving – Not a Turkey, Just a Pilgrim Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
    "level": "WARN",
@@ -116,10 +235,143 @@
   },
   {
    "level": "WARN",
+   "handle": "womens-christmas-snow-problem-graphic-tee",
+   "title": "Women's Christmas – Snow Problem Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-snow-problem-crewneck-sweatshirt",
+   "title": "Women's Christmas – Snow Problem Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-thanksgiving-spill-the-gravy-graphic-tee",
+   "title": "Women's Thanksgiving – Spill the Gravy Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-thanksgiving-spill-the-gravy-crewneck-sweatshirt",
+   "title": "Women's Thanksgiving – Spill the Gravy Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-thanksgiving-the-turkey-is-fine-graphic-tee",
+   "title": "Women's Thanksgiving – It's Not Burnt, It's Caramelized Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-thanksgiving-the-turkey-is-fine-crewneck-sweatshirt",
+   "title": "Women's Thanksgiving – It's Not Burnt, It's Caramelized Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-thanksgiving-cute-but-corny-graphic-tee",
+   "title": "Women's Thanksgiving – Cute But Corny Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-thanksgiving-cute-but-corny-crewneck-sweatshirt",
+   "title": "Women's Thanksgiving – Cute But Corny Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-thanksgiving-technically-a-vegetable-graphic-tee",
+   "title": "Men's Thanksgiving – Technically a Vegetable Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-thanksgiving-technically-a-vegetable-crewneck-sweatshirt",
+   "title": "Men's Thanksgiving – Technically a Vegetable Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-thanksgiving-wishbone-champion-graphic-tee",
+   "title": "Men's Thanksgiving – I Always Get the Bigger Half Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-thanksgiving-wishbone-champion-crewneck-sweatshirt",
+   "title": "Men's Thanksgiving – I Always Get the Bigger Half Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "womens-frog-not-toad-ay-zip-hoodie",
    "title": "Women's Frog – Not Today, I'm Moisturizing Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christian-light-of-the-world-jesus-crewneck-sweatshirt",
+   "title": "Women's Christian – Light of the World Jesus Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-hunting-deer-stand-princess-pink-camo-hoodie",
+   "title": "Women's Hunting – Deer Stand Princess. The Throne Is 20 Ft Up. Pink Camo Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-hunting-deer-camp-no-signal-camo-sweatshirt",
+   "title": "Men's Hunting – Deer Camp No Signal Camo Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-hunting-blending-in-is-overrated-camo-sweatshirt",
+   "title": "Women's Hunting – Blending In Is Overrated Camo Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-hunting-up-before-the-ducks-camo-sweatshirt",
+   "title": "Men's Hunting – Up Before the Ducks. The Ducks Slept In. Camo Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-hunting-ducks-in-a-row-camo-hoodie",
+   "title": "Women's Hunting – Ducks in a Row Camo Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-hunting-ducks-in-a-row-camo-hoodie",
+   "title": "Women's Hunting – Ducks in a Row Camo Hoodie",
+   "msg": "No SEO title.",
+   "fix": "Write one ≤ 60 chars with the primary keyword."
   },
   {
    "level": "WARN",
@@ -130,10 +382,45 @@
   },
   {
    "level": "WARN",
+   "handle": "mens-hunting-call-me-after-duck-season-camo-sweatshirt",
+   "title": "Men's Hunting – Call Me After Duck Season Camo Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-hunting-here-for-the-sunrise-camo-sweatshirt",
+   "title": "Women's Hunting – Here for the Sunrise. The Ducks Are Optional. Camo Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-christian-fishers-of-men-hoodie",
+   "title": "Men's Christian – Fishers of Men Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "womens-thanksgiving-friendsgiving-hoodie",
    "title": "Women's Thanksgiving – Friendsgiving Hoodie",
    "msg": "thanksgiving design isn't in any thanksgiving collection.",
    "fix": "Tag it so it appears in the thanksgiving shirts page."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-new-years-eve-resolutions-pending-graphic-tee",
+   "title": "Women's New Year's Eve – New Year, New Me. Starting Jan 2 Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-thanksgiving-laying-low-till-friday-turkey-hoodie",
+   "title": "Unisex Thanksgiving – No Turkey Here, Just a Guy in a Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
    "level": "WARN",
@@ -150,11 +437,32 @@
    "fix": "Use it once or twice, naturally."
   },
   {
-   "level": "ERROR",
+   "level": "WARN",
+   "handle": "mens-new-years-new-year-same-guy-graphic-tee",
+   "title": "Men's New Year's – Resolutions: None, Still Handsome Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-christmas-white-elephant-champion-graphic-tee",
+   "title": "Men's Christmas – White Elephant Champion Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "unisex-christmas-card-photo-survivor-graphic-tee",
    "title": "Unisex Christmas – Card Photo Survivor Tee",
-   "msg": "Unisex product in a Women's Graphic Tees, Women's Christmas Shirts page, but the cover shows only a man.",
-   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-black-friday-in-it-for-the-doorbusters-graphic-tee",
+   "title": "Women's Black Friday – I'm Not Shopping. I'm Competing. Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
    "level": "WARN",
@@ -172,10 +480,87 @@
   },
   {
    "level": "WARN",
+   "handle": "mens-christmas-bulking-season-graphic-tee",
+   "title": "Men's Christmas – Bulking Season Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-christmas-plans-the-barn-western-graphic-tee",
+   "title": "Women's Christmas – No One Asked the Horse Western Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-tied-up-for-the-holidays-crewneck-sweatshirt",
+   "title": "Women's Christmas – Do Not Open Until Dec. 26 Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-capybara-out-of-office-soaking-oversized-hoodie",
+   "title": "Women's Capybara – Per My Last Email, I'm Soaking Oversized Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "womens-capybara-out-of-office-soaking-oversized-hoodie",
    "title": "Women's Capybara – Per My Last Email, I'm Soaking Oversized Hoodie",
    "msg": "No meta description.",
    "fix": "Write one ≤ 155 chars."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-bee-buzz-off-kindly-hoodie",
+   "title": "Women's Bee – Not Today, Honey Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-dachshund-short-legs-long-opinions-hoodie",
+   "title": "Unisex Dachshund – Short Legs, Long Opinions Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-wolf-lone-wolf-early-bedtime-hoodie",
+   "title": "Men's Wolf – Lone Wolf, Early Bedtime Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-nana-professional-spoiler-hoodie",
+   "title": "Women's Nana – Won't Tell Mom Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-axolotl-smiling-through-it-oversized-hoodie",
+   "title": "Women's Axolotl – I'm Fine, Just a Little Rain Oversized Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-gym-sore-since-1987-crewneck-sweatshirt",
+   "title": "Men's Gym – Sore Since 1987 Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-fishing-lake-life-zip-hoodie",
+   "title": "Unisex Fishing – Best Catch This Year: A Tree Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
    "level": "WARN",
@@ -193,10 +578,108 @@
   },
   {
    "level": "WARN",
+   "handle": "womens-floral-wildly-low-maintenance-cropped-hoodie",
+   "title": "Women's Floral – Wildly Low Maintenance Cropped Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-volleyball-i-only-dive-for-snacks-hoodie",
+   "title": "Women's Volleyball – I Got It. I Did Not Get It. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-baseball-here-for-the-sunflower-seeds-hoodie",
+   "title": "Women's Baseball – Missed the Play, Seeds Were Good Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-western-saturday-night-rodeo-hoodie",
+   "title": "Women's Western – Eight Seconds of Bad Decisions Rodeo Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-soccer-orange-slice-manager-zip-hoodie",
+   "title": "Women's Soccer – Halftime Snacks: My Only Job Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-skull-dead-serious-zip-hoodie",
+   "title": "Men's Skull – Former Life of the Party Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-beach-low-tide-low-effort-oversized-hoodie",
+   "title": "Women's Beach – Not Crabby Just Off The Clock Oversized Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-grandpa-i-fix-things-after-naps-crewneck-sweatshirt",
+   "title": "Men's Grandpa – On the List Since 2009, After My Nap Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christian-casserole-ministry-hoodie",
+   "title": "Women's Christian – Casserole Ministry Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-thanksgiving-pie-season-pumpkin-hoodie",
+   "title": "Women's Thanksgiving – Turkey Was the Warm-Up Pumpkin Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "womens-thanksgiving-pie-season-pumpkin-hoodie",
    "title": "Women's Thanksgiving – Turkey Was the Warm-Up Pumpkin Hoodie",
    "msg": "thanksgiving design isn't in any thanksgiving collection.",
    "fix": "Tag it so it appears in the thanksgiving shirts page."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-outdoors-mountains-called-left-on-read-hoodie",
+   "title": "Men's Outdoors – Mountains Called Left on Read Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-sunflower-sunshine-with-boundaries-zip-hoodie",
+   "title": "Women's Sunflower – Sunshine, Do Not Touch the Petals Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-western-lucky-horseshoe-ranch-heavyweight-hoodie",
+   "title": "Unisex Western – All Luck, No Horse Sense Heavyweight Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-y2k-hot-mess-express-oversized-sweatshirt",
+   "title": "Women's Y2K – Running Late, Coffee on Board Oversized Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
    "level": "WARN",
@@ -228,10 +711,66 @@
   },
   {
    "level": "WARN",
+   "handle": "unisex-christmas-garden-variety-grump-graphic-tee",
+   "title": "Unisex Christmas – Ask Me Again After Pie Graphic Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-seasonally-overbooked-crewneck-sweatshirt",
+   "title": "Women's Christmas – Sorry, I'm Booked Till January Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-official-tree-topper-graphic-tee",
+   "title": "Women's Christmas – The Star Had a Good Run Graphic Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-otter-currently-drifting-hoodie",
+   "title": "Unisex Otter – Today's Plan: Horizontal Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "unisex-otter-currently-drifting-hoodie",
    "title": "Unisex Otter – Today's Plan: Horizontal Hoodie",
    "msg": "Meta description is 161 chars (> 160).",
    "fix": "Trim to ≤ 155."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-raccoon-fine-dumpster-dining-hoodie",
+   "title": "Unisex Raccoon – Table for One, It's a Dumpster Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-cat-oops-anyway-crewneck-sweatshirt",
+   "title": "Women's Cat – Oops Anyway Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-teacher-indoor-recess-survivor-crewneck-sweatshirt",
+   "title": "Women's Teacher – No, We Can't Go Outside Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-western-yeehaw-but-quietly-crewneck-sweatshirt",
+   "title": "Women's Western – Pinkies Up, Spurs On Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
    "level": "WARN",
@@ -242,6 +781,20 @@
   },
   {
    "level": "WARN",
+   "handle": "unisex-y2k-side-quests-only-hoodie",
+   "title": "Unisex Y2K – Main Quest Postponed Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-anime-snack-hoard-dragon-hoodie",
+   "title": "Unisex Anime – Gold Is Overrated, I Prefer Dumplings Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "unisex-anime-snack-hoard-dragon-hoodie",
    "title": "Unisex Anime – Gold Is Overrated, I Prefer Dumplings Hoodie",
    "msg": "Meta description is 165 chars (> 160).",
@@ -249,10 +802,150 @@
   },
   {
    "level": "WARN",
+   "handle": "mens-trucker-truck-stop-connoisseur-heavyweight-hoodie",
+   "title": "Men's Trucker – My ETA Is After Pie Heavyweight Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-shark-friendly-ish-oversized-hoodie",
+   "title": "Unisex Shark – I'm Not Aggressive, Just Enthusiastic Oversized Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-bunny-cute-not-approachable-cropped-hoodie",
+   "title": "Women's Bunny – Politely, No. Cropped Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-goat-i-climb-things-when-stressed-hoodie",
+   "title": "Unisex Goat – Climbed It For No Reason Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-cherry-sweet-until-further-notice-hoodie",
+   "title": "Women's Cherry – Sweet Outside, Tough Pit Inside Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-tiger-apex-napper-oversized-hoodie",
+   "title": "Men's Tiger – Wake Me Up and Find Out Oversized Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "womens-anime-slurp-responsibly-half-zip",
    "title": "Women's Anime – Slurp Responsibly Half Zip",
    "msg": "Cover alt text doesn't say who is in the photo.",
    "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-fishing-reel-talk-zip-hoodie",
+   "title": "Men's Fishing – I Don't Exaggerate. It Was This Big. Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-nurse-charting-is-my-cardio-hoodie",
+   "title": "Women's Nurse – Charting Is My Cardio Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-anime-sharing-is-not-my-love-language-oversized-hoodie",
+   "title": "Unisex Anime – Sharing Is Not My Love Language Oversized Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-anime-soft-petals-sharp-opinions-cropped-hoodie",
+   "title": "Women's Anime – Main Character, Background Energy Cropped Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-anime-ignoring-you-professionally-heavyweight-hoodie",
+   "title": "Unisex Anime – That's Not a Wave, It's a No Heavyweight Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-panda-endangered-patience-zip-hoodie",
+   "title": "Women's Panda – Endangered Morning Person Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-tennis-my-backhand-has-opinions-cropped-hoodie",
+   "title": "Women's Tennis – My Backhand Has Opinions Cropped Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-pig-wallowing-respectfully-oversized-hoodie",
+   "title": "Men's Pig – Out of Office, In the Mud Oversized Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-octopus-eight-arms-zero-hugs-oversized-hoodie",
+   "title": "Women's Octopus – Eight Arms, Zero Hugs Oversized Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-chess-calculated-mostly-zip-hoodie",
+   "title": "Men's Chess – Sorry About Your Pawn Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-mothman-light-sleeper-hoodie",
+   "title": "Unisex Mothman – Sightings By Appointment Only Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-fishing-catch-and-release-zip-hoodie",
+   "title": "Men's Fishing – Catch and Release Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-alpaca-judging-you-softly-hoodie",
+   "title": "Women's Alpaca – Not Spitting, Just Thinking About It Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-grill-wizard-zip-hoodie",
+   "title": "Men's Wizard – Medium Rare Is a Dark Art Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
    "level": "WARN",
@@ -265,8 +958,246 @@
    "level": "WARN",
    "handle": "unisex-crow-shiny-object-syndrome-hoodie",
    "title": "Unisex Crow – Finders Keepers, Sorry About Your Earring Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-crow-shiny-object-syndrome-hoodie",
+   "title": "Unisex Crow – Finders Keepers, Sorry About Your Earring Hoodie",
    "msg": "SEO title is 61 chars (> 60).",
    "fix": "Trim to ≤ 60."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-unicorn-magical-mostly-tired-zip-hoodie",
+   "title": "Women's Unicorn – Sleep Is A Myth, So Am I Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-fishing-professionally-chilling-heavyweight-hoodie",
+   "title": "Men's Fishing – Six Hours Staring at a Hole Heavyweight Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-introvert-i-have-plans-hoodie",
+   "title": "Unisex Introvert – I Have Plans Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-chihuahua-cold-since-birth-zip-hoodie",
+   "title": "Women's Chihuahua – Small. Cold. Furious. Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-mountain-bike-pedal-pusher-heavyweight-hoodie",
+   "title": "Men's Mountain Bike – 40 Minutes Up, 40 Seconds Down Heavyweight Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-apres-ski-expert-in-apres-hoodie",
+   "title": "Women's Après Ski – Expert in Après Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-pilates-core-issues-crewneck-sweatshirt",
+   "title": "Women's Pilates – Core Issues Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-lawyer-i-rest-my-case-hoodie",
+   "title": "Unisex Lawyer – This Nap Is Billable Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-hanukkah-spin-responsibly-crewneck-sweatshirt",
+   "title": "Unisex Hanukkah – Lost My Gelt to a Top Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-hanukkah-fried-food-is-tradition-crewneck-sweatshirt",
+   "title": "Women's Hanukkah – Eight Nights. Zero Salad. Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-embroidered-overthinkers-club-hoodie",
+   "title": "Unisex Embroidered – Replaying What I Said In 2014 Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-embroidered-thriving-technically-frog-hoodie",
+   "title": "Women's Embroidered – Not on Fire, That's a Win Frog Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-embroidered-excused-from-small-talk-crewneck-sweatshirt",
+   "title": "Women's Christmas – Embroidered Booked Through January Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-western-feed-store-fashion-week-hoodie",
+   "title": "Women's Western – Feed Store Fashion Week Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-embroidered-per-my-last-email-crewneck-sweatshirt",
+   "title": "Unisex Embroidered – Circle Back, Never Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-equestrian-horse-girl-broke-on-purpose-crewneck-sweatshirt",
+   "title": "Women's Equestrian – Horse Girl, Broke on Purpose Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-clocked-it-said-nothing-embroidered-crewneck-sweatshirt",
+   "title": "Women's Clocked It – Said Nothing Embroidered Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-clocked-it-said-nothing-graphic-tee",
+   "title": "Women's Clocked It – Said Nothing Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-bookish-do-not-sell-my-books-crewneck-sweatshirt",
+   "title": "Women's Bookish – Do Not Sell My Books Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-football-mom-promised-to-behave-graphic-tee",
+   "title": "Women's Football Mom – Promised to Behave Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-baseball-mom-bases-loaded-crewneck-sweatshirt",
+   "title": "Women's Baseball Mom – His Batting Average Is My Personality Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-nurse-iv-league-crewneck-sweatshirt",
+   "title": "Women's Nurse – I'm Fine, The IV Is Coffee Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-embroidered-raccoon-trail-mix-is-a-personality-hoodie",
+   "title": "Unisex Embroidered – Raccoon Mile One, Snacks Gone Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-pilates-core-issues-cropped-hoodie",
+   "title": "Women's Pilates – Core Issues Cropped Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-gym-rest-day-is-a-sacred-quest-medieval-hoodie",
+   "title": "Men's Gym – Skipped Leg Day, Blaming the Armor Medieval Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-funny-already-over-it-kindly-hoodie",
+   "title": "Women's Funny – I'm Not Mad, I'm Steeping Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-homebody-university-of-staying-in-crewneck-sweatshirt",
+   "title": "Unisex Homebody – University of Staying In Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-gym-sisyphus-had-bad-programming-hoodie",
+   "title": "Men's Gym – Sisyphus Had Bad Programming Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-apres-ski-expert-in-apres-crewneck-sweatshirt",
+   "title": "Women's Après Ski – Expert in Après Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-golf-sorry-about-your-windshield-crewneck-sweatshirt",
+   "title": "Unisex Golf – Sorry About Your Windshield Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-golden-retriever-i-brought-you-a-sock-crewneck-sweatshirt",
+   "title": "Women's Golden Retriever – I Brought You a Sock Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-dachshund-currently-burrowed-crewneck-sweatshirt",
+   "title": "Women's Dachshund – See You in April Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-nurse-embroidered-night-shift-silly-goose-crewneck-sweatshirt",
+   "title": "Women's Nurse – Embroidered Awake. Regrettably. Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
    "level": "WARN",
@@ -277,10 +1208,311 @@
   },
   {
    "level": "WARN",
+   "handle": "womens-christian-embroidered-psalm-121-mountain-crewneck-sweatshirt",
+   "title": "Women's Christian – Embroidered Psalm 121 Mountain Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-pitbull-velvet-hippo-social-club-crewneck-sweatshirt",
+   "title": "Unisex Pitbull – Dangerous Only to Your Snacks Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-funny-i-said-it-nicely-in-my-head-graphic-tee",
+   "title": "Women's Funny – I Said It Nicely in My Head Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-golf-breakfast-ball-enthusiast-heavyweight-hoodie",
+   "title": "Men's Golf – My Swing Is Fine, the Trees Moved Heavyweight Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-golf-not-cheating-improving-my-lie-hoodie",
+   "title": "Unisex Golf – Not Cheating Improving My Lie Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-golf-i-only-golf-for-the-outfits-cropped-hoodie",
+   "title": "Women's Golf – I Only Golf for the Outfits Cropped Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-gym-twelve-labors-zero-cardio-graphic-tee",
+   "title": "Men's Gym – Twelve Labors. Zero Cardio. Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-hanukkah-fried-food-is-tradition-graphic-tee",
+   "title": "Women's Hanukkah – Eight Nights. Zero Salad. Graphic Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-football-mom-down-set-snacks-crewneck-sweatshirt",
+   "title": "Women's Football Mom – Rules Unknown, Snacks Packed Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-national-park-my-type-geothermally-active-oversized-hoodie",
+   "title": "Women's National Park – My Type Geothermally Active Oversized Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-national-park-two-queens-roaming-hoodie",
+   "title": "Women's National Park – No Itinerary, Just Grazing Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-christmas-white-elephant-champion-crewneck-sweatshirt",
+   "title": "Men's Christmas – White Elephant Champion Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-national-park-swipe-right-on-public-land-zip-hoodie",
+   "title": "Women's National Park – I'm Not Single, I Have a Canyon Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-hanukkah-spin-responsibly-graphic-tee",
+   "title": "Unisex Hanukkah – Spin Responsibly Graphic Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-homebody-plans-canceled-mood-improved-hoodie",
+   "title": "Unisex Homebody – Plans Canceled. Mood Improved. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-national-park-running-late-bison-traffic-heavyweight-hoodie",
+   "title": "Unisex National Park – Running Late Bison Traffic Heavyweight Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-knitting-one-more-row-crewneck-sweatshirt",
+   "title": "Women's Knitting – One More Row, Famous Last Words Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-christian-holy-spirit-mildly-spooky-graphic-tee",
+   "title": "Unisex Christian – Holy Ghost, Friendly Edition Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-bookish-do-not-sell-my-books-hoodie",
+   "title": "Women's Bookish – Do Not Sell My Books Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-hockey-cold-rink-hot-takes-crewneck-sweatshirt",
+   "title": "Women's Hockey – Cold Rink, Hot Takes Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-crochet-no-i-wont-make-you-one-crewneck-sweatshirt",
+   "title": "Women's Crochet – No, I Won't Make You One Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-mimi-says-yes-crewneck-sweatshirt",
+   "title": "Women's Mimi – Mimi Says Yes Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-embroidered-goose-plot-twist-pending-crewneck-sweatshirt",
+   "title": "Women's Embroidered – Goose Not Ignoring You Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-tied-up-for-the-holidays-graphic-tee",
+   "title": "Women's Christmas – I'm the Gift, No Returns Bow Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-gigi-because-grandma-sounded-old-crewneck-sweatshirt",
+   "title": "Women's Gigi – Because Grandma Sounded Old Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-welder-grinder-and-paint-department-graphic-tee",
+   "title": "Men's Welder – It Holds, Don't Look Close Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-welder-if-you-can-step-over-it-graphic-tee",
+   "title": "Men's Welder – If You Can Step Over It, I Can Fill It Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-fishing-you-catching-em-graphic-tee",
+   "title": "Men's Fishing – You Catching 'Em? Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-golf-sorry-about-your-windshield-hoodie",
+   "title": "Unisex Golf – Sorry About Your Windshield Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-homebody-university-of-staying-in-oversized-hoodie",
+   "title": "Unisex Homebody – University of Staying In Oversized Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-dachshund-currently-burrowed-hoodie",
+   "title": "Women's Dachshund – Out of Office, Back in Spring Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-funny-i-said-it-nicely-in-my-head-hoodie",
+   "title": "Women's Funny – I Said It Nicely in My Head Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-chess-calculated-mostly-hoodie",
+   "title": "Men's Chess – Sorry About Your Pawn Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "mens-chess-calculated-mostly-hoodie",
    "title": "Men's Chess – Sorry About Your Pawn Hoodie",
    "msg": "Meta description is 164 chars (> 160).",
    "fix": "Trim to ≤ 155."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-nurse-calm-face-loud-brain-hoodie",
+   "title": "Unisex Nurse – Calm Face, Loud Brain Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-running-pace-leisurely-zip-hoodie",
+   "title": "Unisex Running – On My Way, Eventually Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-golden-retriever-i-brought-you-a-sock-heavyweight-hoodie",
+   "title": "Women's Golden Retriever – I Brought You a Sock Heavyweight Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-clocked-it-said-nothing-hoodie",
+   "title": "Women's Clocked It – Said Nothing Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-western-hold-your-horses-im-overstimulated-graphic-tee",
+   "title": "Women's Western – Please Stop Talking, I Love You Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-christian-short-grace-hot-food-graphic-tee",
+   "title": "Men's Christian – Short Grace. Hot Food. Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-gym-mid-set-not-interested-graphic-tee",
+   "title": "Women's Gym – Mid-Set. Not Interested. Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-christmas-white-elephant-champion-hoodie",
+   "title": "Men's Christmas – White Elephant Champion Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-dance-mom-bun-tight-wallet-empty-graphic-tee",
+   "title": "Women's Dance Mom – Bun Tight, Wallet Empty Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-grandpa-i-fix-things-after-naps-hoodie",
+   "title": "Men's Grandpa – I'm Fixing It, Eyes Closed Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
    "level": "WARN",
@@ -291,17 +1523,612 @@
   },
   {
    "level": "WARN",
+   "handle": "mens-gym-rack-your-weights-respectfully-graphic-tee",
+   "title": "Men's Gym – Rack Your Weights. Respectfully. Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-knitting-one-more-row-hoodie",
+   "title": "Women's Knitting – Don't Talk to Me, I'm Counting Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-softball-mom-travel-ball-took-my-saturdays-graphic-tee",
+   "title": "Women's Softball Mom – Travel Ball: Pay to Sunburn Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-pitbull-velvet-hippo-social-club-hoodie",
+   "title": "Unisex Pitbull – The Belly Is Open Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "unisex-pitbull-velvet-hippo-social-club-hoodie",
    "title": "Unisex Pitbull – The Belly Is Open Hoodie",
    "msg": "No meta description.",
    "fix": "Write one ≤ 155 chars."
   },
   {
-   "level": "ERROR",
+   "level": "WARN",
+   "handle": "mens-gym-twelve-labors-zero-cardio-hoodie",
+   "title": "Men's Gym – Twelve Labors. Zero Cardio. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-christmas-card-photo-survivor-crewneck-sweatshirt",
+   "title": "Unisex Christmas – Card Photo Survivor Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-golf-fairways-are-a-rumor-half-zip",
+   "title": "Men's Golf – Fairways Are a Rumor Half Zip",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-dog-dad-unpaid-doorman-graphic-tee",
+   "title": "Men's Dog Dad – He Wanted Out, Now He Wants In Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-christmas-plans-the-barn-western-crewneck-sweatshirt",
+   "title": "Women's Christmas – No One Asked the Horse Western Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-christian-rebuilt-by-a-carpenter-graphic-tee",
+   "title": "Men's Christian – Still Under Construction Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-fishing-out-fished-him-again-graphic-tee",
+   "title": "Women's Fishing – Out-Fished Him. Again. Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-fishing-shouldve-been-here-yesterday-graphic-tee",
+   "title": "Men's Fishing – No Photos, Trust Me Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-cropped-lift-heavy-reply-later-graphic-tee",
+   "title": "Women's Cropped – Can't Talk, Deadlifting Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-cropped-book-buying-ban-graphic-tee",
+   "title": "Women's Cropped – Book Buying Ban Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-volleyball-mom-seven-am-check-in-graphic-tee",
+   "title": "Women's Volleyball Mom – I Don't Play, I Just Suffer Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-gym-deload-week-emotionally-pump-cover",
+   "title": "Men's Gym – I'm Not Lazy, I'm Deloading Pump Cover",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-national-park-switchbacks-build-character-crewneck-sweatshirt",
+   "title": "Unisex National Park – The View Better Be Worth It Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-seasonally-overbooked-graphic-tee",
+   "title": "Women's Christmas – Sorry, I'm Booked Until January Graphic Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-embroidered-overthinkers-club-crewneck-sweatshirt",
+   "title": "Unisex Embroidered – Replaying What I Said in 2014 Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-embroidered-per-my-last-email-hoodie",
+   "title": "Unisex Embroidered – Circle Back, Never Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-excused-from-small-talk-graphic-tee",
+   "title": "Women's Christmas – I Have Plans, They're Fictional Graphic Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-car-guy-i-speak-fluent-rattle-graphic-tee",
+   "title": "Men's Car Guy – I Speak Fluent Rattle Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-christmas-it-looked-smaller-at-the-farm-graphic-tee",
+   "title": "Men's Christmas – It Looked Smaller at the Farm Graphic Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-christmas-it-looked-smaller-at-the-farm-crewneck-sweatshirt",
+   "title": "Men's Christmas – It Looked Smaller at the Farm Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-hiking-treat-me-like-wildlife-graphic-tee",
+   "title": "Women's Hiking – Treat Me Like Wildlife Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-embroidered-merry-ish-crewneck-sweatshirt",
+   "title": "Women's Christmas – Leaning Into December Embroidered Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-golf-i-play-army-golf-graphic-tee",
+   "title": "Men's Golf – I Play Army Golf Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-embroidered-ghost-one-more-chapter-club-crewneck-sweatshirt",
+   "title": "Women's Embroidered – Ghost Can't, I'm Reading Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-wrestling-mom-tournament-day-voice-gone-graphic-tee",
+   "title": "Women's Wrestling Mom – I'm Not Yelling, I'm Encouraging Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-bear-if-its-brown-lie-down-crewneck-sweatshirt",
+   "title": "Women's Bear – Bear With Me, I'm Resting Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-dachshund-banned-from-stairs-graphic-tee",
+   "title": "Unisex Dachshund – Not A Hot Dog, Don't Test Me Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-mimi-says-yes-hoodie",
+   "title": "Women's Mimi – Mimi Says Yes Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-pitbull-scary-dog-afraid-of-the-vacuum-graphic-tee",
+   "title": "Unisex Pitbull – Scary Dog, Afraid of the Vacuum Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-gigi-because-grandma-sounded-old-hoodie",
+   "title": "Women's Gigi – Because Grandma Sounded Old Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-welder-stacks-dimes-wants-more-dimes-graphic-tee",
+   "title": "Men's Welder – Welds Like a Stack of Dimes, Paid Like One Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-welder-if-you-can-step-over-it-hoodie",
+   "title": "Men's Welder – If You Can Step Over It, I Can Fill It Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-cat-not-my-turn-with-the-brain-cell-zip-hoodie",
+   "title": "Women's Cat – Not My Turn With the Brain Cell Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-fishing-you-catching-em-heavyweight-hoodie",
+   "title": "Men's Fishing – You Catching 'Em? Heavyweight Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-christmas-bulking-season-oversized-hoodie",
+   "title": "Men's Christmas – Bulking Season Oversized Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-cat-making-biscuits-hoodie",
+   "title": "Women's Cat – Making Biscuits Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-crochet-no-i-wont-make-you-one-hoodie",
+   "title": "Women's Crochet – No, I Won't Make You One Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-christmas-attending-under-protest-hoodie",
+   "title": "Men's Christmas – Attending Under Protest Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-cat-dad-cant-cats-on-me-graphic-tee",
+   "title": "Men's Cat Dad – Can't, Cat's on Me Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-cat-oops-anyway-cropped-hoodie",
+   "title": "Women's Cat – Oops. Anyway. Cropped Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-grandpa-ask-your-grandmother-graphic-tee",
+   "title": "Men's Grandpa – Ask Your Grandmother Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-teacher-indoor-recess-survivor-zip-hoodie",
+   "title": "Women's Teacher – It's Raining, Send Coffee Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-mom-motherhood-exposed-me-graphic-tee",
+   "title": "Women's Mom – Motherhood Didn't Change Me. It Exposed Me. Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-fishing-love-language-hoodie",
+   "title": "Men's Fishing – Fishing Is My Love Language Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-christian-holy-spirit-mildly-spooky-hoodie",
+   "title": "Unisex Christian – Holy Ghost, Friendly Edition Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-hockey-cold-rink-hot-takes-hoodie",
+   "title": "Women's Hockey – Cold Rink, Hot Takes Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-gym-lifts-heavy-has-whimsy-pump-cover",
+   "title": "Women's Gym – Delicate Flower, 315 LB Deadlift Pump Cover",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-nurse-embroidered-night-shift-silly-goose-hoodie",
+   "title": "Women's Nurse – Embroidered Awake. Regrettably. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-capybara-tangled-unbothered-graphic-tee",
+   "title": "Women's Christmas – Capybara I'm Not Stuck, I'm Decorated Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-drummer-professionally-loud-graphic-tee",
+   "title": "Men's Drummer – It's Not Me, It's the Drums Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-mechanic-no-i-cant-just-take-a-quick-look-graphic-tee",
+   "title": "Men's Mechanic – No, I Can't Just Take a Quick Look Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-official-tree-topper-crewneck-sweatshirt",
+   "title": "Women's Christmas – The Star Fell, I'm the Star Now Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-christmas-garden-variety-grump-crewneck-sweatshirt",
+   "title": "Unisex Christmas – Ask Me Again After Pie Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-christmas-raccoon-here-for-the-wrapping-paper-graphic-tee",
+   "title": "Unisex Christmas – Santa's Late, I Started Without Him Raccoon Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-fishing-shouldve-been-here-yesterday-hoodie",
+   "title": "Men's Fishing – No Photos, Trust Me Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-gym-lift-heavy-reply-later-cropped-hoodie",
+   "title": "Women's Gym – Lift Heavy. Reply Later. Cropped Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-running-mile-one-was-a-mistake-hoodie",
+   "title": "Unisex Running – Mile One Was a Mistake Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-pickleball-kitchen-gossip-club-hoodie",
+   "title": "Women's Pickleball – Stay Out of the Kitchen, We're Talking Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-fishing-out-fished-him-again-zip-hoodie",
+   "title": "Women's Fishing – Out-Fished Him. Again. Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-christmas-it-looked-smaller-at-the-farm-oversized-hoodie",
+   "title": "Men's Christmas – It Looked Smaller at the Farm Oversized Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-gym-rack-your-weights-respectfully-oversized-hoodie",
+   "title": "Men's Gym – Rack Your Weights. Respectfully. Oversized Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-golf-i-play-army-golf-zip-hoodie",
+   "title": "Men's Golf – I Play Army Golf Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "unisex-national-park-switchbacks-build-character-heavyweight-hoodie",
    "title": "Unisex National Park – The View Better Be Worth It Heavyweight Hoodie",
-   "msg": "Unisex product in a Women's Graphic Hoodies page, but the cover shows only a man.",
-   "fix": "Regenerate the cover with a man AND a woman (unisex rule)."
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-capybara-tangled-unbothered-zip-hoodie",
+   "title": "Women's Christmas – Capybara I'm Not Stuck, I'm Decorated Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-dachshund-banned-from-stairs-hoodie",
+   "title": "Unisex Dachshund – I Don't Do Stairs, I Have People Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-softball-mom-travel-ball-took-my-saturdays-zip-hoodie",
+   "title": "Women's Softball Mom – Travel Ball: Pay to Sunburn Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-dog-dad-unpaid-doorman-half-zip",
+   "title": "Men's Dog Dad – He Wanted Out, Now He Wants In Half Zip",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-pickleball-polite-until-the-third-shot-graphic-tee",
+   "title": "Women's Pickleball – Polite Smile, Personal Vendetta Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-pickleball-booked-solid-crewneck-sweatshirt",
+   "title": "Women's Pickleball – Plays Nice. Keeps Score. Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-tennis-club-mostly-social-crewneck-sweatshirt",
+   "title": "Women's Tennis – Game. Set. Lemonade. Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-bowling-league-night-is-not-optional-graphic-tee",
+   "title": "Men's Bowling – The Pins Started It Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-bear-mama-bear-hibernation-denied-hoodie",
+   "title": "Women's Bear – I'll Sleep In March Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-grandpa-papa-where-dad-got-his-jokes-crewneck-sweatshirt",
+   "title": "Men's Grandpa – I'm The Reason Dad Is Like This Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-hockey-not-weird-just-the-goalie-graphic-tee",
+   "title": "Men's Hockey – Not Weird, Just the Goalie Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-plumber-not-looking-at-your-sink-graphic-tee",
+   "title": "Men's Plumber – Not Looking at Your Sink Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-welder-grinder-and-paint-department-hoodie",
+   "title": "Men's Welder – Weld. Grind. Paint. Nobody Will Know Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-fishing-fisher-of-men-half-zip",
+   "title": "Men's Fishing – Fisher of Men, Mostly Bass Half Zip",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-santa-gets-all-the-credit-graphic-tee",
+   "title": "Women's Christmas – Santa Gets All the Credit Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-electrician-its-probably-the-breaker-graphic-tee",
+   "title": "Men's Electrician – It's Probably the Breaker Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-christmas-drew-your-name-panicked-graphic-tee",
+   "title": "Men's Christmas – Drew Your Name. Panicked. Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-christmas-we-said-no-gifts-graphic-tee",
+   "title": "Unisex Christmas – We Said No Gifts Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-christmas-moms-favorite-graphic-tee",
+   "title": "Men's Christmas – Mom's Favorite Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
   {
    "level": "WARN",
@@ -816,6 +2643,13 @@
   },
   {
    "level": "WARN",
+   "handle": "womens-baseball-mom-his-batting-average-is-my-personality-zip-hoodie",
+   "title": "Women's Baseball Mom – His Batting Average Is My Personality Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "unisex-poker-i-fold-its-self-care-hoodie",
    "title": "Unisex Poker – I Fold. It's Self-Care. Hoodie",
    "msg": "No lifestyle cover photo.",
@@ -949,6 +2783,27 @@
   },
   {
    "level": "WARN",
+   "handle": "unisex-sauna-hot-and-not-talking-hoodie",
+   "title": "Unisex Sauna – Hot and Not Talking. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-swimming-lap-47-i-think-hoodie",
+   "title": "Women's Swimming – Lap 47. I Think. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-jiu-jitsu-i-came-here-to-lie-down-hoodie",
+   "title": "Unisex Jiu Jitsu – I Came Here to Lie Down. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "womens-cavalier-technically-royalty-hoodie",
    "title": "Women's Cavalier – Technically Royalty. Hoodie",
    "msg": "No lifestyle cover photo.",
@@ -979,6 +2834,13 @@
    "level": "WARN",
    "handle": "mens-papa-has-a-spot-wont-say-where-camo-hoodie",
    "title": "Men's Papa – Papa Has a Spot. Won't Say Where. Camo Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-funny-feral-before-9-am-graphic-tee",
+   "title": "Women's Funny – Feral Before 9 A.M. Tee",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
@@ -1070,6 +2932,13 @@
    "level": "WARN",
    "handle": "womens-floral-wildly-low-maintenance-embroidered-zip-hoodie",
    "title": "Women's Floral – Wildly Low Maintenance Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-golf-only-golf-for-the-outfits-embroidered-zip-hoodie",
+   "title": "Women's Golf – I Only Golf for the Outfits Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
