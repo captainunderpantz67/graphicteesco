@@ -1,3 +1,4 @@
+RUNNING helper since 2026-10-27 14:52 UTC
 2026-10-27 14:23 UTC — [B] Builder run end: 2 items, #299 REDO fix (duckling out of the row) and camo redo #18 #230; both ACTIVE, director to confirm. New products today: 0 of 6. fal ~$0.3. Lock released.
 2026-10-27 14:22 UTC — [B] REVIEW #230 Women's Western – Kick Up Dust Camo Hoodie (camo-redo 18 of 27, S7 on B3, FW625 TOP300 LEFT1475, 14/14 on 1096349632, KICK UP DUST in Yellowtail, art 90% of height, cap 70 px at FW625; 2 photo calls rejected, flats kept). Product ACTIVE, director to confirm. fal ~$0.17.
 2026-10-27 13:57 UTC — [B] REVIEW #299 Women's Hunting – Ducks in a Row Camo Hoodie (REDO fix: last duckling moved off the row with a gap, butterfly beside it; A+ FW1500 TOP400, 14/14 on 1096347783, headline 3010 / punch 3025 px, subject 90%, Fraunces; 2 more photo calls rejected, flats kept). Product ACTIVE, director to confirm. fal ~$0.14.
