@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-27T17:45Z
+status: REVIEW
 lane: B
 type: twin
 id: 231
@@ -23,3 +23,4 @@ handle: mens-hunting-opening-day-camo-hoodie
 - 2026-10-16 22:17 UTC director: LIVE (ACTIVE + Online Store + Headless, audit --handle PASS). approved.
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #19 of 27, style S1. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is A+ (center 10 in, tag placement-a).
+- 2026-10-27 17:50 UTC [B]: camo-redo #19 (S1 cinematic frosty-sunrise buck on A+, tag placement-a), in place on product 15362300346672. New art: 1 Recraft call (black/bone/blaze-orange buck, no lettering), thin cream halo, no box; OPENING DAY. above in cream and UP AT 4. SAW NOTHING. below in blaze orange, Playfair Display, dark keyline (lane B last faces: Yellowtail, Fraunces, Graduate, Rye, Damion; Playfair not among them). headline 2692 / punch 3001 px (111%), subject 2600 of 3000 px = 87%, punch cap 240 px at file width 3000 (120 px at FW1500, floor 90). Print 3000 x 3056, FW1500 TOP400 (h 1528, TOP+h 1928 <= 2100). R7.7: 14/14 on file 1096509552, back logo 1080398177, verified from Printful sync. Light file n/a (Darkwood and Forest only, orange and cream with dark keyline). Front mockups replaced in place (fileUpdate), copy, SEO, FAQ (4 x 45-50 words), placement-a tag added; title unchanged. Lifestyle: registry 1162 and 1163, 2 seedream calls each (first pair rejected: zip jacket over a tee, short-sleeve garment; second pair pullover hoodies, print clear), images 1-2, back logo last. Handle added to retired-covers. Audit PASS (1 warn: no lifestyle cover, same as other retired covers). Sheet docs/review/231.jpg. Product is ACTIVE: director to confirm. fal ~$0.36 incl. art.
