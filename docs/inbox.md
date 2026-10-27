@@ -294,3 +294,4 @@ docs/backlog/drawn-fixes.json holds 62 products: {id, handle, html}. Each "html"
 - 2026-10-25 23:42 UTC helper: audit 732 live products, 7 visual ERRORs still open (unisex products on women's/men's grids with the wrong person on the cover); same list as before, for the director.
 - 2026-10-26 14:46 UTC helper: audit 738 live products, 7 visual ERRORs still open (same unisex-on-grid cover list), for the director; 0 orders, 0 uncategorised products.
 - 2026-10-26 23:50 UTC helper: audit 738 live products, same 7 visual ERRORs (unisex products on women's/men's grids, wrong person on cover), still open for the director; 0 orders, 0 uncategorised products.
+- 2026-10-27 14:53 helper: audit 738 live, 7 visual ERRORs still open (unisex products on women's/men's grids, wrong person on cover), for the director; 0 orders, 0 uncategorised products.

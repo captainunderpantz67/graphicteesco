@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-26 23:49 UTC
+# Cohesion audit — 2026-10-27 14:52 UTC
 
-738 live products checked · **7 errors** · 168 warnings · 164 products with findings
+738 live products checked · **7 errors** · 169 warnings · 165 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -57,6 +57,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Women's Christmas Nurse – Checking It Twice, Charting It Three Times Crewneck Sweatshirt `womens-christmas-christmas-nurse-crewneck-sweatshirt`
 - **WARN** Non-holiday design (christmas nurse) listed in "Christmas Sweatshirts". → Only keep it there if the art is genuinely for that holiday.
+
+### Women's Western – Kick Up Dust Camo Hoodie `womens-western-kick-up-dust-camo-hoodie`
+- **WARN** Meta description is 182 chars (> 160). → Trim to ≤ 155.
 
 ### Unisex Thanksgiving – Not a Turkey, Just a Pilgrim Hoodie `unisex-thanksgiving-totally-a-pilgrim-hoodie`
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.

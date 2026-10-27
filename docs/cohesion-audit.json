@@ -1,5 +1,5 @@
 {
- "at": "2026-10-26T23:49:47.552Z",
+ "at": "2026-10-27T14:52:35.760Z",
  "products": 738,
  "findings": [
   {
@@ -99,6 +99,13 @@
    "title": "Women's Christmas Nurse – Checking It Twice, Charting It Three Times Crewneck Sweatshirt",
    "msg": "Non-holiday design (christmas nurse) listed in \"Christmas Sweatshirts\".",
    "fix": "Only keep it there if the art is genuinely for that holiday."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-western-kick-up-dust-camo-hoodie",
+   "title": "Women's Western – Kick Up Dust Camo Hoodie",
+   "msg": "Meta description is 182 chars (> 160).",
+   "fix": "Trim to ≤ 155."
   },
   {
    "level": "WARN",
