@@ -1504,6 +1504,91 @@ export const allGuides: Guide[] = [
       { q: 'When should I order a Christmas gift for grandma?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. Exact estimates show at checkout.' },
     ],
   },
+  {
+    // Writer lane W (2026-10-27). Keyword: christmas gifts for boss 4,400 / KD 14 (RankHero keyword page, 2026-10-27). Unowned by any collection, product or guide.
+    // Cropped-hoodie variants (outfit, style, funny, gifts) returned no RankHero volume today, so this run took the next rule: a measured low-KD keyword. Also measured today: gifts for hunters 8,100 / KD 46, gym gifts for her 590 / KD 48.
+    // Facts (slogans, art, prices, policies) come from pipeline files #150 #151 #275, the coworker guide and site.ts. Picks are listed in LIVE pipeline files. FAQ questions are not from PAA or GSC (not available unattended).
+    // Planned siblings (not live yet): christmas-gifts-for-teachers, christmas-gifts-for-brother.
+    slug: 'christmas-gifts-for-boss',
+    keyword: 'christmas gifts for boss',
+    title: 'Christmas Gifts for Boss: 4 Funny, Safe-to-Give Shirts and Sweatshirts',
+    description: 'Christmas gifts for your boss that are funny and safe: Light Show Manager, White Elephant Champion, Technically a Sweater, Bah Humbug. Tees $24.99.',
+    h1: 'Christmas Gifts for Your Boss: Funny Shirts That Are Safe to Hand Over',
+    date: '2026-10-27',
+    cluster: 'christmas',
+    answer: 'A good Christmas gift for a boss is one that jokes about the season, not about the job or the person. Graphic Tees Co. has four: Light Show Manager (UNPAID), White Elephant Champion, Technically a Sweater and Bah Humbug (Respectfully), each a tee at $24.99 or a crewneck at $34.99. Each is original art, printed after you order. Order by December 4, 2026.',
+    picks: [
+      {
+        h2: 'What is a funny gift for a boss who goes all out on the holiday lights?',
+        body: ['Light Show Manager (UNPAID). It is a job title joke about the ladder and the tangled bulbs, not about work, so it stays on the right side of the office line.'],
+        items: [
+          { slogan: 'LIGHT SHOW MANAGER (UNPAID)', tee: 'mens-christmas-light-show-manager-graphic-tee', crewneck: 'unisex-christmas-light-show-manager-crewneck-sweatshirt',
+            text: 'A bearded man in a knit cap stands on a wooden ladder against a snowy roofline, comically tangled in a long strand of big colored bulbs, in faded red, mustard, sage, cream and navy vintage screen-print style. LIGHT SHOW MANAGER is lettered in an arc above and (UNPAID) in small capitals below. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/christmas-shirts/', text: 'Christmas shirts' }],
+      },
+      {
+        h2: 'What do you give a boss who runs the office gift swap?',
+        body: ['White Elephant Champion. UNDEFEATED. It is for the boss who treats the swap like a title fight, and the joke is on the swap, not on anyone in the room.'],
+        items: [
+          { slogan: 'WHITE ELEPHANT CHAMPION. UNDEFEATED.', tee: 'mens-christmas-white-elephant-champion-graphic-tee', crewneck: 'mens-christmas-white-elephant-champion-crewneck-sweatshirt',
+            text: 'A mustached man in a striped Christmas sweater and bobble hat stands on a podium hugging a wrapped gift like a championship belt, with a small gold trophy and crumpled wrapping paper at his feet. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }],
+      },
+      {
+        h2: 'What is a good gift for a boss who hates the ugly sweater party?',
+        body: ['Technically a Sweater. It is a knit-look print on a soft tee, so the dress code is met and nobody has to wear itchy wool.'],
+        items: [
+          { slogan: 'TECHNICALLY A SWEATER', tee: 'mens-christmas-technically-a-sweater-graphic-tee', crewneck: 'unisex-christmas-technically-a-sweater-crewneck-sweatshirt',
+            text: 'A patchwork of hand-knit-look snowflakes, a small reindeer and pine trees, with loose yarn ends trailing off the edges, sits above TECHNICALLY A SWEATER in hand-drawn capitals. It is a printed design, not real knit. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/christmas-sweatshirts/', text: 'Christmas sweatshirts' }],
+      },
+      {
+        h2: 'What do you give a boss who is a little bit of a grump?',
+        body: ['Bah Humbug (Respectfully). The grump is polite about it, which is the whole joke, and it reads as friendly rather than pointed.'],
+        items: [
+          { slogan: 'BAH HUMBUG (RESPECTFULLY)', tee: 'mens-christmas-bah-humbug-graphic-tee', crewneck: 'unisex-christmas-bah-humbug-crewneck-sweatshirt',
+            text: 'A grumpy old gentleman in a striped nightcap and plaid dressing gown stands with arms crossed, frowning over his spectacles, a single candle at his feet. BAH HUMBUG is lettered above and (RESPECTFULLY) in smaller letters below. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good Christmas gift for a boss?',
+        body: ['Something funny that cannot be read as a comment on the boss. The safe lane is a joke about the season (the lights, the swap, the sweater rule, the grump) and never about the job, the pay or the person.',
+          'Graphic Tees Co. designs are original art with the joke set in big type. They use no team, brand or character logos, and none of these four targets a person, so there is nothing to explain.'],
+        links: [{ href: '/guides/christmas-gifts-for-coworkers/', text: 'Christmas gifts for coworkers' }] },
+      { h2: 'Is it a good idea to give your boss a funny shirt?',
+        body: ['It depends on your boss, and you know them better than a shop does. If they laugh at the office party and wear a sweater to it, a funny shirt is a good fit; if they are formal, a card is the safer choice.',
+          'If you are unsure, pick the tee. It is the cheapest piece at $24.99 and the lowest-stakes gift to hand over.'] },
+      { h2: 'How much should you spend on a Christmas gift for your boss?',
+        body: ['Keep it modest and check whether your office has a limit. Tees here are $24.99 and crewnecks are $34.99, so every piece is under $35.',
+          'Free US shipping starts at $45, so a crewneck plus a tee, or two coworkers splitting a pair of crewnecks, clears it.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'Should you give the boss a tee or a crewneck?',
+        body: ['A tee is a lightweight cut that layers under a blazer or cardigan. A Graphic Tees Co. crewneck is $34.99 and is warmer for a cold office.',
+          'If you do not know their style, choose the tee. If they run cold or you want something that lasts the winter, choose the crewneck.'],
+        links: [{ href: '/guides/thick-hoodies/', text: 'Thick hoodies: how thick is 10 oz' }] },
+      { h2: 'What if the size is wrong?',
+        body: ['Check the size chart on the product page against a shirt your boss already wears. If it is wrong, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and they do not have to mail the first one back.',
+          'If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'] },
+      { h2: 'When should you order a Christmas gift for your boss?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, which is up to 13 business days in total, and Christmas is Friday, December 25. If your office party is earlier, count back from that date. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find gifts for the people on your list?',
+        body: ['For the rest of the office, see our coworker guide. For family, see our dad guide. For a group swap, see white elephant gifts.'],
+        links: [{ href: '/guides/christmas-gifts-for-coworkers/', text: 'Christmas gifts for coworkers' }, { href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }, { href: '/christmas-shirts/', text: 'All Christmas shirts' }, { href: '/hoodies/christmas-hoodies/', text: 'Christmas hoodies' }] },
+    ],
+    faqs: [
+      { q: 'What are good Christmas gifts for a boss?', a: 'A funny, clean shirt about the season, like Light Show Manager (UNPAID) or White Elephant Champion from Graphic Tees Co. Tees are $24.99, crewnecks are $34.99, all printed to order.' },
+      { q: 'What is a funny Christmas gift for a boss under $30?', a: 'Any Graphic Tees Co. Christmas tee here: Light Show Manager (UNPAID), White Elephant Champion, Technically a Sweater or Bah Humbug (Respectfully). Each is $24.99 and printed after you order.' },
+      { q: 'Is it appropriate to give your boss a funny shirt?', a: 'It is if your boss has a sense of humor and the joke is about the season, not the job or the person. The Graphic Tees Co. designs here joke about lights, swaps and sweaters, with no brand or character logos.' },
+      { q: 'What is a good gift for a boss who hates ugly sweaters?', a: 'The Graphic Tees Co. Technically a Sweater tee at $24.99 or crewneck at $34.99. It prints a knit-look snowflake and reindeer patchwork; it is a printed design, not real knit.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+      { q: 'When should I order a Christmas gift for my boss?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. Exact estimates show at checkout.' },
+    ],
+    draft: true,
+  },
 ];
 
 // Only approved guides are built and linked.
