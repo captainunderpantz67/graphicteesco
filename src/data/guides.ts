@@ -1589,6 +1589,91 @@ export const allGuides: Guide[] = [
     ],
     draft: true,
   },
+  {
+    // Writer lane W (2026-10-27). Keyword: christmas gifts for girlfriend 27,100 / KD 8 (RankHero keyword page, 2026-10-27). Unowned by any collection, product map entry or guide (grep of product-keyword-map.json, collections.ts, guides.ts).
+    // Also measured today: christmas gifts for brother 9,900 / KD 12 and for husband 22,200 / KD 9 (both claimed by products in the map, so skipped), son 1,300 / KD 17, nurses 1,300 / KD 17, dad from daughter 2,400 / KD 16.
+    // Facts (slogans, art, prices, policies) come from pipeline files #148 #149 #171 #172 #213 #214 #247, the boss guide and site.ts. Picks are listed in LIVE pipeline files. FAQ questions are not from PAA or GSC (not available unattended).
+    // Planned siblings (not live yet): christmas-gifts-for-wife, christmas-gifts-for-mom, christmas-gifts-for-teachers.
+    slug: 'christmas-gifts-for-girlfriend',
+    keyword: 'christmas gifts for girlfriend',
+    title: 'Christmas Gifts for Girlfriend: 4 Funny Shirts and Sweatshirts She Will Wear',
+    description: 'Christmas gifts for your girlfriend that are cute and funny: Sleighping In, Jolly-ish, Dough Ho Ho and Snow Problem. Tees $24.99, crewnecks $34.99.',
+    h1: 'Christmas Gifts for Your Girlfriend: Cute, Funny Shirts She Will Actually Wear',
+    date: '2026-10-27',
+    cluster: 'christmas',
+    answer: 'A good Christmas gift for a girlfriend is something she can wear this week that shows you know her sense of humor. Graphic Tees Co. has four women’s Christmas designs: Sleighping In, Jolly-ish, Dough Ho Ho and Snow Problem, each a tee at $24.99, and three also a crewneck at $34.99. Each is original art, printed after you order. Order by December 4, 2026.',
+    picks: [
+      {
+        h2: 'What is a cute Christmas gift for a girlfriend who loves to sleep in?',
+        body: ['Sleighping In. A sleepy reindeer naps in a sleigh full of quilts, which is exactly how she plans to spend Christmas morning.'],
+        items: [
+          { slogan: 'SLEIGHPING IN', tee: 'womens-christmas-sleighping-in-graphic-tee', crewneck: 'womens-christmas-sleighping-in-crewneck-sweatshirt',
+            text: 'A sleepy reindeer in a little striped nightcap curls up asleep inside an old red wooden sleigh piled with patchwork quilts and pillows, with three small z’s floating up and a few snowflakes around, in faded red, cream, sage green and soft pink in a 1950s storybook style. SLEIGHPING IN is lettered in an arc above. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/christmas-sweatshirts/', text: 'Christmas sweatshirts' }],
+      },
+      {
+        h2: 'What is a good gift for a girlfriend who likes a bow on everything?',
+        body: ['Jolly-ish. It is a one-word joke in big, chunky letters, for the girlfriend who is mostly in the spirit.'],
+        items: [
+          { slogan: 'JOLLY-ISH', tee: 'womens-christmas-jolly-ish-graphic-tee', crewneck: 'womens-christmas-jolly-ish-crewneck-sweatshirt',
+            text: 'The single word JOLLY-ISH in big chunky rounded letters filled with red and green buffalo plaid, with a small pink satin bow tied on top of the J and a candy cane, a glass ornament and a holly sprig scattered beside it, in red, deep green, pink and cream. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/christmas-shirts-for-women/', text: 'Women’s Christmas shirts' }],
+      },
+      {
+        h2: 'What do you give a girlfriend who bakes all December?',
+        body: ['Dough Ho Ho. It has a mixing bowl, a wooden spoon and a tray of iced cookies, so it suits the one who runs the kitchen.'],
+        items: [
+          { slogan: 'DOUGH HO HO', tee: 'womens-christmas-dough-ho-ho-graphic-tee', crewneck: 'womens-christmas-dough-ho-ho-crewneck-sweatshirt',
+            text: 'A cream ceramic mixing bowl of cookie dough with a wooden spoon standing in it sits beside a baking tray of iced sugar cookies (a star, a little tree and a gingerbread man with one bite missing) with a red-and-white striped ribbon, in faded red, cream, sage green and warm tan in a 1950s cookbook style. DOUGH HO HO is lettered above in bakery-sign capitals. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/hoodies/christmas-hoodies/', text: 'Christmas hoodies' }],
+      },
+      {
+        h2: 'What is a funny gift for a girlfriend who loves winter puns?',
+        body: ['Snow Problem. It is a two-line pun in plaid letters with a small bow, a good pick when you want something light and a little bit cute.'],
+        items: [
+          { slogan: 'SNOW PROBLEM', tee: 'womens-christmas-snow-problem-graphic-tee',
+            text: 'The words SNOW PROBLEM are stacked on two lines in big chunky rounded letters filled with a soft red-and-cream buffalo plaid and outlined in sage green, with a small pink satin bow on the first S and three small snowflakes beside PROBLEM. The tee is $24.99.' },
+        ],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good Christmas gift for a girlfriend?',
+        body: ['Something that fits her humor and that she will wear soon, not something that sits in a drawer. A shirt with a joke she would say herself works better than a generic gift because it shows you pay attention.',
+          'Graphic Tees Co. designs are original art with the joke set in big type. They use no team, brand or character logos, and each piece is printed after you order.'],
+        links: [{ href: '/christmas-shirts-for-women/', text: 'Women’s Christmas shirts' }] },
+      { h2: 'Is a funny shirt a good gift for a girlfriend?',
+        body: ['It is if she likes funny and wears casual clothes. These four jokes are about sleeping in, being only a bit jolly, baking and snow puns, so none of them comment on her.',
+          'If you are early in the relationship, pick the tee. It is the cheapest piece at $24.99 and the easiest to give.'] },
+      { h2: 'How much should you spend on a Christmas gift for your girlfriend?',
+        body: ['That is up to you and where the relationship is. Tees here are $24.99 and crewnecks are $34.99, so every piece is under $35.',
+          'Free US shipping starts at $45, so a crewneck plus a tee clears it. One idea is a matching pair: the Sleighping In tee for her and the crewneck for you.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'Should you give her a tee or a crewneck?',
+        body: ['A tee is lightweight and layers under a cardigan or a jacket. A Graphic Tees Co. crewneck is $34.99 and is warmer for staying in.',
+          'If you do not know her style, choose the tee. If she is always cold, choose the crewneck.'],
+        links: [{ href: '/guides/thick-hoodies/', text: 'Thick hoodies: how thick is 10 oz' }] },
+      { h2: 'What if the size is wrong?',
+        body: ['Check the size chart on the product page against a shirt she already wears. If it is wrong, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and she does not have to mail the first one back.',
+          'If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'] },
+      { h2: 'When should you order a Christmas gift for your girlfriend?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, which is up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find gifts for the people on your list?',
+        body: ['For family, see our sister and grandma guides. For the office, see our boss guide. For a group swap, see white elephant gifts.'],
+        links: [{ href: '/guides/christmas-gifts-for-sister/', text: 'Christmas gifts for sister' }, { href: '/guides/christmas-gifts-for-grandma/', text: 'Christmas gifts for grandma' }, { href: '/guides/christmas-gifts-for-boss/', text: 'Christmas gifts for boss' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }, { href: '/christmas-shirts/', text: 'All Christmas shirts' }] },
+    ],
+    faqs: [
+      { q: 'What are good Christmas gifts for a girlfriend?', a: 'A funny, cute shirt she will wear, like Sleighping In or Jolly-ish from Graphic Tees Co. Tees are $24.99, crewnecks are $34.99, all printed to order.' },
+      { q: 'What is a cheap Christmas gift for a girlfriend?', a: 'Any Graphic Tees Co. women’s Christmas tee here: Sleighping In, Jolly-ish, Dough Ho Ho or Snow Problem. Each is $24.99 and printed after you order.' },
+      { q: 'Is a funny shirt a good Christmas gift for a girlfriend?', a: 'It is if she likes funny and casual clothes. The Graphic Tees Co. designs here joke about sleeping in, baking and snow puns, with no brand or character logos.' },
+      { q: 'What is a good matching gift for a couple?', a: 'Pair the Sleighping In tee at $24.99 for her with a crewneck at $34.99 for you. Together they come to $59.98 and clear free US shipping at $45.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+      { q: 'When should I order a Christmas gift for my girlfriend?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. Exact estimates show at checkout.' },
+    ],
+    draft: true,
+  },
 ];
 
 // Only approved guides are built and linked.
