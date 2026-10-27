@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-27 23:19 UTC
 2026-10-27 21:58 UTC — [B] Builder run end: 2 items, camo redo #21 #834 (Papa shushing icon, A+) and #22 #833 (Catfish field-guide, B3); both ACTIVE, director to confirm. New products today: 0 of 6. fal ~$0.8. Lock released.
 2026-10-27 21:58 UTC — [B] REVIEW #833 Men's Catfish – Caught Something Ugly. Kept It Anyway. Camo Hoodie (camo-redo 22 of 27, S2 on B3, FW625 TOP300 LEFT1475, 18/18 on 1096686708, line KEPT IT ANYWAY. in Cinzel, art 85% of height, cap 53 px at FW625; 2 lifestyle photos). Product ACTIVE, director to confirm. fal ~$0.45.
 2026-10-27 21:46 UTC — [B] REVIEW #834 Men's Papa – Papa Has a Spot. Won't Say Where. Camo Hoodie (camo-redo 21 of 27, S8 icon on A+, FW1500 TOP400, 18/18 on 1096679783, headline 2770 / punch 3018 px = 109%, subject 77%, Bevan; 2 lifestyle photos). Product ACTIVE, director to confirm. fal ~$0.35.
