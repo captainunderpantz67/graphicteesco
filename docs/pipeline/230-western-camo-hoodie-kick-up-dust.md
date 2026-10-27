@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-27T14:00Z
+status: REVIEW
 lane: B
 type: twin
 id: 230
@@ -28,3 +28,4 @@ handle: womens-western-kick-up-dust-camo-hoodie
 - 2026-10-16 23:19 UTC director: LIVE. Kick Up Dust camo hoodie (braid grazes the K edge on the cover; accepted, print reads). ACTIVE + Online Store + Headless, audit --handle PASS.
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #18 of 27, style S7. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is B3 (left chest at the seam, tag placement-b).
+- 2026-10-27 14:20 UTC [B]: camo-redo #18 (S7 sign-painter boot in a dust cloud on B3, tag placement-b), in place on product 15362290090288. New art: 1 Recraft call (rust/cream/black boot, no lettering), camo-halo, KICK UP DUST in Yellowtail cream with dark keyline (lane B last faces: Fraunces, Graduate, Rye, Damion, Bevan; Yellowtail not among them). Print 2352 x 3306, FW625 TOP300 LEFT1475 (TOP+h 1178 <= 2100), art 90% of height, 3 words, cap 264 px = 70 px at FW625 (floor 53). File 1096349632, 14/14. Front mockups replaced in place (fileUpdate). New title "Women's Western – Kick Up Dust Camo Hoodie" (7i), copy/FAQ (4 x 40-60 words)/SEO rewritten, placement-b tag added. Photos: registry 1165, 2 seedream calls rejected (zip jacket over tee; print hidden, garbled sleeve text); flats kept. Product ACTIVE, director to confirm. fal ~$0.17.
