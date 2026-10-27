@@ -1,4 +1,4 @@
-status: BUILDING B 2026-10-27T21:47Z
+status: REVIEW
 lane: B
 type: new
 id: 833
@@ -31,3 +31,4 @@ push: camo
 - 2026-10-21 09:40 UTC director: status line de-duplicated (a merge left 'status: REVIEW' above 'status: LIVE'); stays LIVE as approved 08:40. The 08:50 [B] log and the 07:55 log name the same Printful file, so the approved print is the one on sale.
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #22 of 27, style S2. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is B3 (left chest at the seam, tag placement-b).
+- 2026-10-27 21:58 UTC [B]: camo-redo #22 (S2 field-guide catfish on B3, tag placement-b), in place on product 15371565891888, product ACTIVE. New art: 1 Recraft call (black engraving, blaze orange fins and lips, no words), thin cream halo, no box; one line KEPT IT ANYWAY. (3 words; CAUGHT SOMETHING UGLY. moves to title and copy per the 3-word B3 limit) in Cinzel cream with dark keyline (lane B last faces: Bevan, Bowlby, Playfair, Yellowtail, Fraunces; Cinzel not among them). Print 2352 x 1677, FW625 TOP300 LEFT1475 (TOP+h 746 <= 2100), art 85% of print height, cap 201 px = 53 px at FW625 (floor 53). 18/18 on file 1096686708 (verified from Printful sync), back logo 1080398177 on 18/18. Front mockups replaced in place (fileUpdate), copy, alts, SEO meta, placement-b tag. Title unchanged (line kept). Phone-size read: icon and caption legible on Forest and Black, Deadwood weakest (cream on light grey, keyline holds). Photos: registry 1170 (1 call) and 1171 (3 calls: white bars, garbled hem tag), waist-up three-quarter, images 1-2, back logo last. Handle added to retired-covers. Audit PASS (1 warn: no lifestyle cover, same as other retired covers). Sheet docs/review/833.jpg. fal ~$0.45 incl. art.

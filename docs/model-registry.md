@@ -962,3 +962,5 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1167 | Black man, mid 30s, short fade, trimmed beard, broad build, no hat | USED 2026-10-27 — #293 Zero Deer camo hoodie photo 2 (seedream, 2 calls) |
 | 1168 | Asian American man, early 60s, grey close-cropped hair, laugh lines, sturdy build, no hat | USED 2026-10-27 — #834 Papa Has a Spot camo hoodie photo 1 (seedream, 3 calls) |
 | 1169 | Hispanic man, late 40s, short wavy dark hair with grey temples, salt-and-pepper stubble, medium build, no hat | USED 2026-10-27 — #834 Papa Has a Spot camo hoodie photo 2 (seedream, 1 call) |
+| 1170 | Black man, early 50s, short grey-flecked beard, shaved head, broad friendly build, no hat | USED 2026-10-27 — #833 Catfish camo hoodie photo 1 (seedream, 1 call) |
+| 1171 | white man, late 30s, sandy hair, light stubble, lean build, no hat | USED 2026-10-27 — #833 Catfish camo hoodie photo 2 (seedream, 3 calls) |
