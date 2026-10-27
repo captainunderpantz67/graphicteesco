@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-27 15:07 UTC
+# Cohesion audit — 2026-10-27 23:50 UTC
 
-744 live products checked · **0 errors** · 443 warnings · 417 products with findings
+744 live products checked · **0 errors** · 445 warnings · 419 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -84,6 +84,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Men's Christmas – Resting My Eyes Crewneck Sweatshirt `mens-christmas-resting-my-eyes-crewneck-sweatshirt`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Men's Hunting – Opening Day Camo Hoodie `mens-hunting-opening-day-camo-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Men's Hunting – No Deer Today Camo Hoodie `mens-hunting-no-deer-today-camo-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
@@ -140,6 +143,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Women's Christian – Light of the World Jesus Crewneck Sweatshirt `womens-christian-light-of-the-world-jesus-crewneck-sweatshirt`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Hunting – Zero Deer Camo Hoodie `mens-hunting-full-draw-zero-deer-camo-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Women's Hunting – Deer Stand Princess. The Throne Is 20 Ft Up. Pink Camo Hoodie `womens-hunting-deer-stand-princess-pink-camo-hoodie`

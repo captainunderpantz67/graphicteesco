@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T15:07:29.466Z",
+ "at": "2026-10-27T23:50:30.835Z",
  "products": 744,
  "findings": [
   {
@@ -193,6 +193,13 @@
   },
   {
    "level": "WARN",
+   "handle": "mens-hunting-opening-day-camo-hoodie",
+   "title": "Men's Hunting – Opening Day Camo Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "mens-hunting-no-deer-today-camo-hoodie",
    "title": "Men's Hunting – No Deer Today Camo Hoodie",
    "msg": "No lifestyle cover photo.",
@@ -328,6 +335,13 @@
    "level": "WARN",
    "handle": "womens-christian-light-of-the-world-jesus-crewneck-sweatshirt",
    "title": "Women's Christian – Light of the World Jesus Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-hunting-full-draw-zero-deer-camo-hoodie",
+   "title": "Men's Hunting – Zero Deer Camo Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
