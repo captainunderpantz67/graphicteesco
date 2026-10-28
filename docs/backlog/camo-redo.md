@@ -1,5 +1,7 @@
 # Camo hoodie redo (Sam 2026-10-22)
 
+**Status (director, 2026-10-28 23:30 UTC): all 27 redos LIVE. Camo twins #956-#969 are next in the brief queue.**
+
 Sam looked at every camo hoodie: 27 of 29 are the same template (cream box badge, tall condensed sans, orange second line) and all print at TOP 0, jammed under the collar. Verdict: "we can't have them that high and we can't have all look the same." Each one must be its own design, still on brand: the snarky joke stays, with a picture that makes the joke land (cute and funny, or cinematic and deadpan).
 
 ## Rules for every item below (and every new camo or hoodie build from now on)

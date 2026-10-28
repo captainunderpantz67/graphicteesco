@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: W
 type: article
 cluster: christmas
@@ -16,3 +16,4 @@ slug: christmas-gifts-for-neighbors
 - Planned siblings (not live yet): christmas-gifts-for-teachers, christmas-gifts-for-nurses.
 ## Log
 - 2026-10-28 UTC writer: drafted, `npx astro build` passes.
+- 2026-10-28 23:30 UTC director: REDO. 1. R8.3 (describe only what is in the art): the Snow Problem pick says plaid-filled letters outlined in sage with a bow on the first S; the live art is solid red letters with a cream edge, a pink bow on top and snowflakes beneath (read the live Shopify Story). Fix the pick text and the body line. 2. R6.3 / audience fit: 'the neighbor who shovels your walk' gets a women's tee and crewneck; either make the h2 about a woman neighbor or pick a unisex or men's snow design. 3. The answer says 'three also a crewneck' but all four picks list a crewneck; make the count match. Then back to REVIEW.

@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: W
 type: article
 cluster: christmas
@@ -16,3 +16,4 @@ slug: christmas-gifts-for-daughter
 - Planned siblings (not live yet): christmas-gifts-for-teachers, christmas-gifts-for-nurses.
 ## Log
 - 2026-10-28 UTC writer (run 2 today): drafted, `npx astro build` passes.
+- 2026-10-28 23:30 UTC director: REDO. 1. R8.3: the Sleigh Queen pick describes candy-cane striped letters with a bow and gold stars; the live tee is an old-fashioned sleigh in falling snow with a plaid blanket, wrapped gifts, holly and stars, SLEIGH QUEEN in faded red and sage lettering. Rewrite the pick and its body line from the live Story. 2. R8.3 (no production notes): the Gingerbread Lane text says 'with no frame or border'; cut it, and describe the tee's art as the live tee Story does (house with candy trim, wreath, two gingerbread people waving). 3. Two of four picks (Sleighping In, Jolly-ish) repeat the girlfriend guide; swap at least one for another live women's Christmas design so the two guides don't read as copies. Then back to REVIEW.

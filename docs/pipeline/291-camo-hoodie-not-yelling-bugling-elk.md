@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 291
@@ -27,3 +27,4 @@ handle: mens-hunting-im-not-yelling-im-bugling-camo-hoodie
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #27 of 27, style S1. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is A+ (center 10 in, tag placement-a).
 - 2026-10-28 21:48 UTC [B]: camo-redo #27 (S1 cinematic on A+, tag placement-a), in place on product 15362692645168, product ACTIVE. New art: 3 Recraft calls (try 1 steam ran off the canvas edge into a hard-edged cream panel, try 2 brown elk, try 3 kept: black, cream, blaze orange, no words), thin cream halo, no box; I'M NOT YELLING cream above, I'M BUGLING. blaze orange below, Fraunces (lane B last faces: Alfa Slab, Lobster, Caveat Brush, Rye, Bevan, Cinzel, Bowlby; not among them). Print 2875 x 2799, FW1500 TOP400 (TOP+h 1866 <= 2100), headline 2352 / punch 2875 px = 122%, subject ~2470 of 2875 = 86%, punch cap ~210 px at FW1500 (floor 90). 14/14 on file 1097483996 (verified from Printful sync), back logo 1080398177 on 14/14. Front mockups replaced in place (fileUpdate), copy, alts, SEO, placement-a tag, FAQ 5 x 48-53 words. Title unchanged (line kept, 7i n/a). Phone-size read: Forest OK; Deadwood headline is the weakest read (cream with dark keyline on light grey), legible. Photos: registry 1177 and 1178 (1 call each, lettering correct), images 1-2, back last. Handle in retired-covers. Sheet docs/review/291.jpg. fal ~$0.16.
+- 2026-10-28 23:30 UTC director: LIVE in place (camo redo 27 of 27, the last one). docs/review/291.jpg: bugling elk with steaming breath, I'M BUGLING. the loudest line (122%), Fraunces; reads on Forest, Deadwood weakest but legible; cover man in Forest Camo in an aspen meadow. Beats the floor: copied to docs/reference/best/. audit --handle PASS (1 warn: retired cover).

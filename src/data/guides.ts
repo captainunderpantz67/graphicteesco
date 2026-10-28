@@ -1631,10 +1631,10 @@ export const allGuides: Guide[] = [
       },
       {
         h2: 'What is a funny gift for a girlfriend who loves winter puns?',
-        body: ['Snow Problem. It is a two-line pun in plaid letters with a small bow, a good pick when you want something light and a little bit cute.'],
+        body: ['Snow Problem. It is a two-line pun in bold red letters with a small pink bow, a good pick when you want something light and a little bit cute.'],
         items: [
           { slogan: 'SNOW PROBLEM', tee: 'womens-christmas-snow-problem-graphic-tee',
-            text: 'The words SNOW PROBLEM are stacked on two lines in big chunky rounded letters filled with a soft red-and-cream buffalo plaid and outlined in sage green, with a small pink satin bow on the first S and three small snowflakes beside PROBLEM. The tee is $24.99.' },
+            text: 'The words SNOW PROBLEM are stacked on two lines in big, bold solid red letters with a cream edge, with a pink coquette bow on top and a small cluster of soft snowflakes beneath. The tee is $24.99.' },
         ],
       },
     ],
@@ -1648,7 +1648,7 @@ export const allGuides: Guide[] = [
           'If you are early in the relationship, pick the tee. It is the cheapest piece at $24.99 and the easiest to give.'] },
       { h2: 'How much should you spend on a Christmas gift for your girlfriend?',
         body: ['That is up to you and where the relationship is. Tees here are $24.99 and crewnecks are $34.99, so every piece is under $35.',
-          'Free US shipping starts at $45, so a crewneck plus a tee clears it. One idea is a matching pair: the Sleighping In tee for her and the crewneck for you.'],
+          'Free US shipping starts at $45, so a crewneck plus a tee clears it. One idea: the Sleighping In tee for Christmas morning and the Jolly-ish crewneck for the cold walk to the car.'],
         links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
       { h2: 'Should you give her a tee or a crewneck?',
         body: ['A tee is lightweight and layers under a cardigan or a jacket. A Graphic Tees Co. crewneck is $34.99 and is warmer for staying in.',
@@ -1667,11 +1667,10 @@ export const allGuides: Guide[] = [
       { q: 'What are good Christmas gifts for a girlfriend?', a: 'A funny, cute shirt she will wear, like Sleighping In or Jolly-ish from Graphic Tees Co. Tees are $24.99, crewnecks are $34.99, all printed to order.' },
       { q: 'What is a cheap Christmas gift for a girlfriend?', a: 'Any Graphic Tees Co. women’s Christmas tee here: Sleighping In, Jolly-ish, Dough Ho Ho or Snow Problem. Each is $24.99 and printed after you order.' },
       { q: 'Is a funny shirt a good Christmas gift for a girlfriend?', a: 'It is if she likes funny and casual clothes. The Graphic Tees Co. designs here joke about sleeping in, baking and snow puns, with no brand or character logos.' },
-      { q: 'What is a good matching gift for a couple?', a: 'Pair the Sleighping In tee at $24.99 for her with a crewneck at $34.99 for you. Together they come to $59.98 and clear free US shipping at $45.' },
+      { q: 'How do I get free shipping on a Christmas gift for my girlfriend?', a: 'Graphic Tees Co. ships free in the US on orders of $45 or more. A tee and a crewneck together, such as the Sleighping In tee at $24.99 and the Jolly-ish crewneck at $34.99, come to $59.98 and qualify.' },
       { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
       { q: 'When should I order a Christmas gift for my girlfriend?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. Exact estimates show at checkout.' },
     ],
-    draft: true,
   },
   {
     // Writer lane W (2026-10-28). Keyword: christmas gifts for neighbors 5,400 / KD 13 (RankHero keyword page, 2026-10-28). Unowned by any collection, product map entry or guide (grep of product-keyword-map.json, collections.ts, guides.ts).

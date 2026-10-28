@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 233
@@ -31,3 +31,4 @@ handle: mens-hunting-professional-tree-sitter-camo-hoodie
   4. docs/backlog/camo-redo.md 'Every item': 2 lifestyle photos before REVIEW. Use the new B3 photo line there (waist-up, three-quarter turn, caption allowed to be too small to read, never wrong letters). Keep registry 1150.
   Product stays ACTIVE on the current print until the fixed file is synced (14/14 on the new file id, R7.7); then remake the sheet.
 - 2026-10-28 21:58 UTC [B]: director REDO fixes on camo redo #6 (B3), in place on product 15362317353264, product ACTIVE. All three edits on the existing 3250 x 3237 art, no Recraft call (md5/view checked, file changed): (1) deer-head emblem square behind the stand's left rail painted out (filled with the tree's dark ink so it reads as shadow, viewed at 100%); (2) pure-white gaps in the stand frame knocked out to garment (knock-white.py 3000); (3) orange clown nose recolored to the face's cream. New file 1097491077, FW625 TOP300 LEFT1475, 14/14 on 1097491077 (verified from Printful sync), back logo 1080398177 on 14/14. Front mockups replaced in place (Darkwood, Forest), 2 new lifestyle photos in B3 framing (waist-up, three-quarter turn; registry 1150 and 1179, 2 calls each, first tries rejected for a big invented PRO SITTER caption / garbled caption, retries show only the tiny emblem with a soft-blur caption), photos first, back last. Known nit: faint cream notch where the nose fill touches the right glasses rim (invisible at 4 in). Sheet docs/review/233.jpg. fal ~$0.24.
+- 2026-10-28 23:30 UTC director: LIVE in place (camo redo 6, REDO fixes confirmed on docs/review/233.jpg: emblem gone, stand gaps show garment, nose now cream). B3 left-chest crest; cover man in Forest Camo under a ladder stand, three-quarter turn. audit --handle PASS (1 warn: retired cover).

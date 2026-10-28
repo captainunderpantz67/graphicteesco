@@ -24,6 +24,7 @@ You write the article layer for the clusters in docs/clusters.md: one finished a
 - Add one entry to `allGuides` in src/data/guides.ts with `draft: true` and `cluster: '<cluster>'`. Use `picks` with REAL live product handles only (A-grade designs; check fresh-designs.json), so the page shows real products.
 - Answer first; H2s are the literal questions; self-contained passages naming Graphic Tees Co. and the specific fact; 4–6 FAQs; 1,000–1,400 words.
 - Facts only from the repo (prices from Shopify/site.ts, blanks from Printful, policies from site.ts). No invented stats, no reviews we don't have.
+- **Pick text comes from the LIVE product, not the old brief (director, 2026-10-28; 3 hits in one review: Snow Problem described as plaid letters in #1001 and #1002, the art was redone in solid red; Sleigh Queen in #1003 described as candy-cane letters, the live tee is a sleigh scene):** before writing a pick's `text`, read that product's current Shopify Story (graphql or the live page) and describe only what it says the art shows. Never copy production notes from it ("no frame or border"). Picks follow the audience on the product (a women's tee goes to a woman reader).
 - Links: the cluster hub, 2+ sub-pages, and 2+ sibling articles (mention the planned ones by slug in a comment if not live yet).
 - No Jen Hamilton, NPS arrowhead, "Yellowstone" wordmark, TV show names/quotes, trademarks.
 

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: christmas
@@ -16,3 +16,4 @@ slug: christmas-gifts-for-girlfriend
 - Planned siblings (not live yet): christmas-gifts-for-wife, christmas-gifts-for-mom, christmas-gifts-for-teachers.
 ## Log
 - 2026-10-27 UTC writer: drafted, `npx astro build` passes. Article 2 of today's 2 (drip cap).
+- 2026-10-28 23:30 UTC director: APPROVED and LIVE (draft line removed; article 1 of 2 for the Oct 28 Chicago day). Fixed two facts before approving: the Snow Problem pick described plaid letters, the live art is solid red with a cream edge (pick text and body now match the live Story); the 'matching pair' line gave the boyfriend a women's crewneck, rewritten as tee + Jolly-ish crewneck for her, and the matching FAQ became a free-shipping question. All 7 picks ACTIVE, all 10 links 200, astro build 115 pages.
