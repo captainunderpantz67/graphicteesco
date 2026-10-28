@@ -1,5 +1,5 @@
 {
- "at": "2026-10-28T14:52:04.367Z",
+ "at": "2026-10-28T23:51:01.876Z",
  "products": 750,
  "findings": [
   {
@@ -335,6 +335,13 @@
    "level": "WARN",
    "handle": "womens-christian-light-of-the-world-jesus-crewneck-sweatshirt",
    "title": "Women's Christian – Light of the World Jesus Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-hunting-im-not-yelling-im-bugling-camo-hoodie",
+   "title": "Men's Hunting – I'm Not Yelling I'm Bugling Camo Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },

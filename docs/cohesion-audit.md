@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-28 14:52 UTC
+# Cohesion audit — 2026-10-28 23:51 UTC
 
-750 live products checked · **0 errors** · 450 warnings · 424 products with findings
+750 live products checked · **0 errors** · 451 warnings · 425 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -143,6 +143,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Women's Christian – Light of the World Jesus Crewneck Sweatshirt `womens-christian-light-of-the-world-jesus-crewneck-sweatshirt`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Hunting – I'm Not Yelling I'm Bugling Camo Hoodie `mens-hunting-im-not-yelling-im-bugling-camo-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Men's Hunting – Zero Deer Camo Hoodie `mens-hunting-full-draw-zero-deer-camo-hoodie`
