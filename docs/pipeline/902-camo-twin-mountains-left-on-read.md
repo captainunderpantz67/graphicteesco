@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15372535300400
 cover: fal-swap
 lane: B
@@ -32,3 +32,4 @@ push: camo
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #24 of 27, style S9. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is B3 (left chest at the seam, tag placement-b).
 - 2026-10-28 14:10 UTC [B]: camo-redo #24 (S9 woodcut mountain and buzzing phone on B3, tag placement-b), in place on product 15372535300400, product ACTIVE. New art: 1 Recraft call (black and blaze orange woodcut, no words), thin cream halo, no box; one line LEFT ON READ. (3 words; THE MOUNTAINS CALLED. stays in title and copy per the B3 limit) in Rye cream with dark keyline (lane B last faces: Caveat Brush, Bevan, Cinzel, Bowlby, Playfair; Rye not among them). Print 2344 x 2599, FW625 TOP300 LEFT1475, art 88% of print height, cap 248 px = 66 px at FW625 (floor 53). 14/14 on file 1097165437 (verified from Printful sync), back logo 1080398177 on 14/14. Front mockups replaced in place, copy, alts, SEO, placement-b tag. Title unchanged. Phone-size read: Forest legible, Deadwood weakest (thin line). Photos: registry 1174 and 1055 (1 call each, caption soft blur, icon matches), images 1-2, back last. Handle in retired-covers. Sheet docs/review/902.jpg. fal ~$0.17.
+- 2026-10-28 14:40 UTC director: LIVE in place (already ACTIVE, not a new product). Sheet docs/review/902.jpg: woodcut peak with the phone buzzing on the rocks carries 'left the mountains on read' without the setup line (title and Story give it); B3 left chest at the seam, Rye LEFT ON READ. legible on Forest, thinnest on Deadwood but within the B3 floor. Cover: man checking his phone at an overlook, which is the joke. Copy nouns match. audit --handle PASS (1 warn: retired cover).

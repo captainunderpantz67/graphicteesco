@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15369479225648
 lane: E
 type: new
@@ -30,3 +30,4 @@ kd: 30
 - 2026-10-18 16:21 UTC director: brief written, READY (lane E; kd 30; KD ≤ 20 band has no unclaimed phrase with a competition count in this run's sweep of 70+ trade, hobby and dad phrases (darts shirt 14,800/10 has no competition count, R2.10), so KD 21–35 first; proof named under the gate).
 - 2026-10-20 UTC builder [E]: built and set REVIEW. Art: 2 Recraft calls (first read worried, second smug; $0.08), solid-fill prep so the forehead stays. Shopify DRAFT gid 15369479225648, Printful sync 483356693, 56/56 synced: 35 on file 1090311837 (Black, Navy, Dark Grey Heather, Heather Forest, Maroon; cream I BLUNDER with navy keyline, mustard WITH CONFIDENCE.) + 21 on file 1090311897 (Natural, Ash, Athletic Heather; light file: headline fill navy #1c2a4a, punch red, no keyline), back logo on all 56. FW 1650 TOP 75. Widths: headline 3435 px / punch 3537 px on dark (103%), 3452 / 3599 on light (104%). Type is about a quarter of the print height (headline above, punch below). Phone-size read on all 8 mockups: both lines legible. Keywords: chess shirt 1,900/30 primary, chess t shirt 1,300/29, funny chess shirt 140/39 (map updated). 5 FAQs at 44-50 words plus fit 48. Cover: none (R6.11 hold), handle in retired-covers.json. Proof gate: brief's 683-favorite same-format listing accepted. Etsy exact-line check (R3.7.2) not possible from here; line is a plain statement.
 - 2026-10-20 12:45 UTC director: approved from docs/review/656.jpg, held at REVIEW (6-LIVE cap; DRAFT, LIVE = ACTIVE + publish). Side by side with 493 and 483: I BLUNDER / WITH CONFIDENCE. full width, the smug player and the king tipping off the board land in 3 seconds; copy nouns match the art, $24.99 no compare-at, tags right. Flat product shots (R6.11).
+- 2026-10-28 14:40 UTC director: LIVE (ACTIVE + Online Store, Headless, Google & YouTube), Oct 28 Chicago drip slot; sheet docs/review/656.jpg re-read beside 493 and 483 before publishing, still passes; cohesion-audit --handle PASS.

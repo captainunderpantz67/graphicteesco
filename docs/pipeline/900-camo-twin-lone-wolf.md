@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15372523077936
 cover: fal-swap
 lane: B
@@ -32,3 +32,4 @@ push: camo
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #23 of 27, style S5. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is A+ (center 10 in, tag placement-a).
 - 2026-10-28 14:01 UTC [B]: camo-redo #23 (S5 sketchbook wolf on A+, tag placement-a), in place on product 15372523077936, product ACTIVE. New art: 1 Recraft call (black ink, cream and blaze orange washes, no words), thin cream halo, no box; LONE WOLF. cream above, EARLY BEDTIME. blaze orange below, Caveat Brush (lane B last faces: Bevan, Cinzel, Bowlby, Playfair, Yellowtail, Fraunces, Graduate; not among them). Print 2981 x 3316, FW1500 TOP400 (TOP+h 2069 <= 2100), headline 2376 / punch 2981 px = 125%, subject 2400 of 2981 = 81%, punch cap 204 px at FW1500 (floor 90). 14/14 on file 1097157872 (verified from Printful sync), back logo 1080398177 on 14/14. Front mockups replaced in place (fileUpdate), copy, alts, SEO, placement-a tag. Title unchanged (line kept, 7i n/a). Phone-size read of Black and Forest OK. Photos: registry 1172 and 1173 (1 call each, lettering correct), images 1-2, back last. Handle in retired-covers. Sheet docs/review/900.jpg. fal ~$0.17 incl. art.
+- 2026-10-28 14:40 UTC director: LIVE in place (already ACTIVE, not a new product). Sheet docs/review/900.jpg beside 479/493: sketchbook wolf asleep under a quilt in a nightcap acts out EARLY BEDTIME., the punch the widest line (125%), cream halo, no box; A+ at TOP400 reads on Black and Forest at phone size. Cover: man on a cabin porch in Black Camo, print whole and on the chest. Copy nouns match the art. audit --handle PASS (1 warn: retired cover).

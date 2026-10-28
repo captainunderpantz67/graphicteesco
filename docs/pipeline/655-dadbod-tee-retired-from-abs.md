@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15369705259312
 lane: E
 type: new
@@ -30,3 +30,4 @@ kd: 32
 - 2026-10-18 16:21 UTC director: brief written, READY (lane E; kd 32; KD ≤ 20 band has no unclaimed phrase with a competition count in this run's sweep of 70+ trade, hobby and dad phrases (darts shirt 14,800/10 has no competition count, R2.10), so KD 21–35 first; proof named under the gate).
 - 2026-10-20 UTC builder [E]: built and set REVIEW. Art: 1 Recraft call ($0.04), solid-fill prep. Shopify DRAFT gid 15369705259312, Printful sync 483377472, 56/56 synced: 35 on file 1090355349 (Black, Navy, Dark Grey Heather, Heather Forest, Maroon; cream RETIRED with navy keyline, mustard FROM ABS.) + 21 on file 1090355442 (Natural, Ash, Athletic Heather; light file: headline fill navy, punch red, no keyline), back logo on all 56. FW 1650 TOP 75. Widths: headline 3448 px / punch 3507 px on dark (102%), 3456 / 3536 on light (102%). The words DAD BOD are not on the print (USPTO note); 'dad bod shirt' is a page keyword only. Phone-size read on all 8 mockups: both lines legible. Keywords: dad bod shirt 1,600/32 primary, dad bod t shirt 1,300/27. FAQs 5 at 44-53 words plus fit. Cover: none (R6.11 hold), handle in retired-covers.json. Proof: brief's 835-favorite same-format listing accepted. Etsy exact-line check not possible from here.
 - 2026-10-20 13:45 UTC director: approved from docs/review/655.jpg, held at REVIEW (6-LIVE cap reached this run). Side by side with 493 Calm Face and 483 Sisyphus: RETIRED / FROM ABS. punch as wide as the headline, dad-bod strongman with a hot dog carries the joke in 2 seconds; light file is navy/red on Natural. Copy matches the art. Still DRAFT: publish on all channels when LIVE, audit then.
+- 2026-10-28 14:40 UTC director: LIVE (ACTIVE + Online Store, Headless, Google & YouTube), Oct 28 Chicago drip slot; sheet docs/review/655.jpg re-read beside 493 and 483 before publishing, still passes; cohesion-audit --handle PASS.
