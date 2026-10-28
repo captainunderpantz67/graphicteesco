@@ -2,6 +2,8 @@
 
 Requests from Sam (paraphrased by the helper) and audit items that need judgment. The director marks each one done.
 
+- 2026-10-28 14:58 UTC — Director: WAITING ON SAM. About 119 live pullover hoodies still print at TOP 0 (under the collar), banned on every hoodie since 2026-10-22 (builder 7m). Asked on Telegram: 'fix all live' -> brief placement-only redos (FW 1500 TOP 400, no fal) a few per builder run after the camo redo; 'new ones only' -> leave live ones. 23 held approvals (#775-#814) already sent back as REDO.
+
 - 2026-10-21 07:20 UTC — Director: WAITING ON SAM. Asked on Telegram whether the redone Hanukkah latke pair #457/#458 (EIGHT NIGHTS. / ZERO SALAD.) keeps the new line (R3.15 says the Hanukkah items stay as they were until he decides). Both pass review on quality and are held at REVIEW. Reply 'keep zero salad' -> mark LIVE; 'go back' -> builder restores the previous print.
 
 - 2026-10-21 07:30 UTC — Claude (Sam): STORE-WIDE HUB-AND-SPOKE MAP in docs/hub-and-spoke.md (every hub, head term, measured spokes, 'to build' spokes, and the ordered writer article list). Writer lane W works the Articles list top-down after the 4 zip/camo articles already queued; director: create the 'to build' spoke collections as their products land, and keep every new product tagged into its hub + spoke so the cluster links fill in. Homepage now leads with 8 hub doors (Christmas, Thanksgiving, Tees, Hoodies, Zip-Ups, Camo, Gifts, Crew).
