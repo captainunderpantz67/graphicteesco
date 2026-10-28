@@ -1,4 +1,4 @@
-status: REDO
+status: BUILDING [B] 2026-10-28T17:43Z
 lane: B
 type: twin
 id: 232
