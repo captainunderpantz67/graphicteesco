@@ -1673,6 +1673,88 @@ export const allGuides: Guide[] = [
     ],
     draft: true,
   },
+  {
+    // Writer lane W (2026-10-28). Keyword: christmas gifts for neighbors 5,400 / KD 13 (RankHero keyword page, 2026-10-28). Unowned by any collection, product map entry or guide (grep of product-keyword-map.json, collections.ts, guides.ts).
+    // Also measured today: wife 40,500 / KD 8 and mom 74,000 / KD 56 (claimed by products in the map, skipped), daughter 2,900 / KD 14, nurses 1,300 / KD 17, son 1,300 / KD 17; best friend, in-law, aunt, uncle and teen girls return no data.
+    // Facts (slogans, art, prices, policies) come from pipeline files #150 #151 #213 #214 #247 #248 #273 #274, the girlfriend and boss guides and site.ts. Picks are listed in LIVE pipeline files. FAQ questions are not from PAA or GSC (not available unattended).
+    // Planned siblings (not live yet): christmas-gifts-for-teachers, christmas-gifts-for-nurses.
+    slug: 'christmas-gifts-for-neighbors',
+    keyword: 'christmas gifts for neighbors',
+    title: 'Christmas Gifts for Neighbors: 4 Funny, Friendly Shirts and Sweatshirts',
+    description: 'Christmas gifts for neighbors that are friendly and funny: Light Show Manager, Card Photo Survivor, Dough Ho Ho and Snow Problem. Tees $24.99.',
+    h1: 'Christmas Gifts for Neighbors: Funny Shirts and Sweatshirts That Say Thanks Without Weirdness',
+    date: '2026-10-28',
+    cluster: 'christmas',
+    answer: 'A good Christmas gift for a neighbor is one that jokes about something you both see from the driveway. Graphic Tees Co. has four: Light Show Manager (UNPAID), Christmas Card Photo Survivor, Dough Ho Ho and Snow Problem, each a tee at $24.99, and three also a crewneck at $34.99. Each is original art, printed after you order. Order by December 4, 2026.',
+    picks: [
+      {
+        h2: 'What is a funny gift for the neighbor with the biggest light display?',
+        body: ['Light Show Manager (UNPAID). It is a job title joke about the ladder and the tangled bulbs, and it thanks them for the lights you get to enjoy for free.'],
+        items: [
+          { slogan: 'LIGHT SHOW MANAGER (UNPAID)', tee: 'mens-christmas-light-show-manager-graphic-tee', crewneck: 'unisex-christmas-light-show-manager-crewneck-sweatshirt',
+            text: 'A bearded man in a knit cap stands on a wooden ladder against a snowy roofline, comically tangled in a long strand of big colored bulbs, in faded red, mustard, sage, cream and navy vintage screen-print style. LIGHT SHOW MANAGER is lettered in an arc above and (UNPAID) in small capitals below. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/christmas-shirts/', text: 'Christmas shirts' }],
+      },
+      {
+        h2: 'What do you give the neighbors with a big family and a yearly card?',
+        body: ['Christmas Card Photo Survivor. It is for anyone who has taken forty tries on a self-timer to get one picture, which is most families.'],
+        items: [
+          { slogan: 'CHRISTMAS CARD PHOTO SURVIVOR', tee: 'unisex-christmas-card-photo-survivor-graphic-tee', crewneck: 'unisex-christmas-card-photo-survivor-crewneck-sweatshirt',
+            text: 'A family of four in matching red knit sweaters squeezes together in front of a decorated tree, with dad half-running back into the frame from a camera on a tripod with a blinking self-timer light, in faded red, cream, sage green and navy in a 1960s Christmas-card style. CHRISTMAS CARD PHOTO is lettered in an arch above and SURVIVOR in larger capitals below. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/christmas-sweatshirts/', text: 'Christmas sweatshirts' }],
+      },
+      {
+        h2: 'What is a good gift for the neighbor who drops off cookies every year?',
+        body: ['Dough Ho Ho. It has a mixing bowl, a wooden spoon and a tray of iced cookies, so it thanks the baker in the language they already speak.'],
+        items: [
+          { slogan: 'DOUGH HO HO', tee: 'womens-christmas-dough-ho-ho-graphic-tee', crewneck: 'womens-christmas-dough-ho-ho-crewneck-sweatshirt',
+            text: 'A cream ceramic mixing bowl of cookie dough with a wooden spoon standing in it sits beside a baking tray of iced sugar cookies (a star, a little tree and a gingerbread man with one bite missing) with a red-and-white striped ribbon, in faded red, cream, sage green and warm tan in a 1950s cookbook style. DOUGH HO HO is lettered above in bakery-sign capitals. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/christmas-shirts-for-women/', text: 'Women’s Christmas shirts' }],
+      },
+      {
+        h2: 'What do you give the neighbor who shovels your walk?',
+        body: ['Snow Problem. It is a two-line pun in plaid letters with a small bow, light enough to hand over with a thank-you note.'],
+        items: [
+          { slogan: 'SNOW PROBLEM', tee: 'womens-christmas-snow-problem-graphic-tee', crewneck: 'womens-christmas-snow-problem-crewneck-sweatshirt',
+            text: 'The words SNOW PROBLEM are stacked on two lines in big chunky rounded letters filled with a soft red-and-cream buffalo plaid and outlined in sage green, with a small pink satin bow on the first S and three small snowflakes beside PROBLEM. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good Christmas gift for a neighbor?',
+        body: ['Something friendly and low-pressure that does not make them feel they owe you one back. A shirt with a light joke about shared things (the lights, the cookies, the snow) says thanks without turning into a big gesture.',
+          'Graphic Tees Co. designs are original art with the joke set in big type. They use no team, brand or character logos, and none of these four targets a person.'],
+        links: [{ href: '/christmas-shirts/', text: 'Christmas shirts' }] },
+      { h2: 'How much should you spend on a Christmas gift for a neighbor?',
+        body: ['Keep it small enough that nobody feels obliged. Tees here are $24.99 and crewnecks are $34.99, so every piece is under $35.',
+          'Free US shipping starts at $45. If you are buying for two households, two tees come to $49.98 and clear it.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'Should you give a neighbor a tee or a crewneck?',
+        body: ['A tee is the safer pick when you do not know their style, and at $24.99 it is the cheapest piece. A Graphic Tees Co. crewneck is $34.99 and is warmer for shoveling season.',
+          'If you do not know their size, check the size chart on the product page against a shirt you know fits them, and see the exchange policy below.'],
+        links: [{ href: '/guides/thick-hoodies/', text: 'Thick hoodies: how thick is 10 oz' }] },
+      { h2: 'What if the size is wrong?',
+        body: ['Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and your neighbor does not have to mail the first one back.',
+          'If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'] },
+      { h2: 'When should you order Christmas gifts for neighbors?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, which is up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find gifts for the people on your list?',
+        body: ['For family, see our sister and grandma guides. For the office, see our coworkers guide. For a group swap, see white elephant gifts.'],
+        links: [{ href: '/guides/christmas-gifts-for-sister/', text: 'Christmas gifts for sister' }, { href: '/guides/christmas-gifts-for-grandma/', text: 'Christmas gifts for grandma' }, { href: '/guides/christmas-gifts-for-coworkers/', text: 'Christmas gifts for coworkers' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }, { href: '/christmas-shirts/', text: 'All Christmas shirts' }] },
+    ],
+    faqs: [
+      { q: 'What are good Christmas gifts for neighbors?', a: 'A funny, friendly shirt about something you both see from the driveway, like Light Show Manager (UNPAID) or Dough Ho Ho from Graphic Tees Co. Tees are $24.99, crewnecks are $34.99, all printed to order.' },
+      { q: 'What is a cheap Christmas gift for neighbors?', a: 'Any Graphic Tees Co. Christmas tee here: Light Show Manager (UNPAID), Christmas Card Photo Survivor, Dough Ho Ho or Snow Problem. Each is $24.99 and printed after you order.' },
+      { q: 'Is a funny shirt a good gift for a neighbor?', a: 'It is if the joke is about something shared, like lights, cookies or snow. The Graphic Tees Co. designs here do not target a person and use no brand or character logos.' },
+      { q: 'What is a good Christmas gift for a neighbor with a big family?', a: 'The Graphic Tees Co. Christmas Card Photo Survivor tee at $24.99 or crewneck at $34.99. It shows a family squeezing into a card photo with a self-timer camera.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+      { q: 'When should I order Christmas gifts for neighbors?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. Exact estimates show at checkout.' },
+    ],
+    draft: true,
+  },
 ];
 
 // Only approved guides are built and linked.
