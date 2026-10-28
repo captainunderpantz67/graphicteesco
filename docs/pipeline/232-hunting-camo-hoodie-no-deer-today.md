@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-28T17:43Z
+status: REVIEW
 lane: B
 type: twin
 id: 232
@@ -23,3 +23,4 @@ handle: mens-hunting-no-deer-today-camo-hoodie
 - 2026-10-16 22:17 UTC director: LIVE (ACTIVE + Online Store + Headless, audit --handle PASS). approved.
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #25 of 27, style S3. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is A+ (center 10 in, tag placement-a).
+- 2026-10-28 17:53 UTC [B]: camo-redo #25 (S3 cute cartoon on A+, tag placement-a), in place on product 15362306441520, product ACTIVE. New art: 1 landscape Recraft call kept (first tall try discarded, 2 calls total, cream/black/blaze orange, no words), thin cream halo, no box; NO DEER TODAY. cream above, GREAT NAP THOUGH. blaze orange below, Lobster (lane B last faces: Caveat Brush, Bevan, Cinzel, Bowlby, Playfair; not among them). Print 2989 x 2463, FW1500 TOP400 (TOP+h 1636 <= 2100), headline 2539 / punch 2989 px = 118%, subject 2700 of 2989 = 90%, punch cap 170 px at FW1500 (floor 90). 14/14 on file 1097313671 (verified from Printful sync), back logo 1080398177 on 14/14. Front mockups replaced in place (fileUpdate), copy, alts, SEO, placement-a tag, FAQ 5 x 40-60 words. Title unchanged (line kept, 7i n/a). Phone-size read of Black and Forest OK. Photos: registry 1175 and 1176 (1 call each, lettering correct), images 1-2, back last. Handle in retired-covers. Sheet docs/review/232.jpg. fal ~$0.17.
