@@ -847,7 +847,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1052 | Black woman, early 40s, short tapered natural hair, gold hoop earrings, medium build | CLAIMED 2026-10-21 — #899 zip cover (brief) |
 | 1053 | white man, mid 40s, dark beard with grey streaks, beanie, broad build | CLAIMED 2026-10-21 — #900 camo cover (brief) |
 | 1054 | Native American woman, early 30s, long straight black hair in a braid, medium build | CLAIMED 2026-10-21 — #901 camo cover (brief) |
-| 1055 | Black man, early 30s, short locs, trimmed beard, lean build | CLAIMED 2026-10-21 — #902 camo cover (brief) |
+| 1055 | Black man, early 30s, short locs, trimmed beard, lean build | USED 2026-10-28 — #902 Mountains Left on Read camo hoodie photo 2 (seedream, 1 call) |
 | 1056 | Filipina woman, late 20s, shoulder-length wavy black hair, petite build | CLAIMED 2026-10-21 — #904 zip cover (brief) |
 | 1057 | white woman, early 30s, strawberry-blonde low bun, freckles, slim build | CLAIMED 2026-10-21 — #905 zip cover (brief) |
 | 1058 | Black man, late 40s, close-cropped grey hair, stocky build | CLAIMED 2026-10-21 — #906 zip cover (brief) |
@@ -966,3 +966,4 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1171 | white man, late 30s, sandy hair, light stubble, lean build, no hat | USED 2026-10-27 — #833 Catfish camo hoodie photo 2 (seedream, 3 calls) |
 | 1172 | white man, early 40s, dark brown hair, short beard, glasses, medium build, no hat | USED 2026-10-28 — #900 Lone Wolf camo hoodie photo 1 (seedream, 1 call) |
 | 1173 | Hispanic man, mid 30s, black wavy hair, clean-shaven, lean build, no hat | USED 2026-10-28 — #900 Lone Wolf camo hoodie photo 2 (seedream, 1 call) |
+| 1174 | Asian American man, late 20s, short black hair, light stubble, athletic build, no hat | USED 2026-10-28 — #902 Mountains Left on Read camo hoodie photo 1 (seedream, 1 call) |
