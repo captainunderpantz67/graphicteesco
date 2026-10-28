@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-28T17:55Z
+status: REVIEW
 lane: B
 type: twin
 id: 955
@@ -32,3 +32,4 @@ push: camo
 - 2026-10-22 23:16 UTC director: LIVE (ACTIVE + Online Store, Headless, Google & YouTube); cohesion-audit --handle PASS (1 warn: no lifestyle cover). Drip cap: today's 6 (#907 #908 #900 #901 #902 #955).
 - 2026-10-22 22:00 UTC Claude (Sam): REDO, camo redo #26 of 27, style S7. New art in its own style, no box, no condensed sans, placement per docs/backlog/camo-redo.md (never TOP 0). Redo in place.
 - 2026-10-22 22:40 UTC Claude (Sam): placement A/B test, this item is B3 (left chest at the seam, tag placement-b).
+- 2026-10-28 18:01 UTC [B]: camo-redo #26 (S7 sign-painter bison on B3, tag placement-b), in place on product 15372839977264, product ACTIVE. New art: 1 Recraft call (black, cream, blaze orange, no words; bison facing a tiny car), thin cream halo, no box; one line BISON TRAFFIC. (2 words; RUNNING LATE stays in title and copy per the B3 limit) in Alfa Slab cream with dark keyline (lane B last faces: Lobster, Caveat Brush, Bevan, Cinzel, Bowlby; Alfa not among them). Print 2348 x 2282, FW625 TOP300 LEFT1475, art 88% of print height, cap 227 px = 60 px at FW625 (floor 53). 14/14 on file 1097319641 (verified from Printful sync), back logo 1080398177 on 14/14. Front mockups replaced in place, copy, alts, SEO, placement-b tag. Title unchanged. Phone-size read: Forest and Black legible. Photos: registry 1114+1115 as a man and woman (photo 1) and 1115 (photo 2), 1 good call each (one earlier call wasted on a bad argument, deleted), caption soft blur, icon matches, images 1-2, back last. Handle in retired-covers. Sheet docs/review/955.jpg. fal ~$0.24.

@@ -906,8 +906,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1111 | Mexican American man, early 30s, short black hair, goatee, broad build | CLAIMED 2026-10-21 — #952 zip cover (brief) |
 | 1112 | white woman, late 60s, silver bob, medium build | CLAIMED 2026-10-21 — #953 zip cover (brief) |
 | 1113 | Black man, early 60s, short white hair, trim beard, medium build | CLAIMED 2026-10-21 — #954 zip cover (brief) |
-| 1114 | white man, early 30s, brown hair, short beard, lean build | CLAIMED 2026-10-21 — #955 camo cover (brief) |
-| 1115 | Black woman, late 20s, long braids tied back, athletic build | CLAIMED 2026-10-21 — #955 camo cover (brief) |
+| 1114 | white man, early 30s, brown hair, short beard, lean build | USED 2026-10-28 — #955 Bison Traffic camo hoodie photo 1 (couple, seedream) |
+| 1115 | Black woman, late 20s, long braids tied back, athletic build | USED 2026-10-28 — #955 Bison Traffic camo hoodie photos 1-2 (seedream) |
 | 1116 | Vietnamese American man, late 20s, short black hair, slim build | CLAIMED 2026-10-21 — #956 camo cover (brief) |
 | 1117 | white woman, early 30s, blonde hair in a low ponytail, medium build | CLAIMED 2026-10-21 — #956 camo cover (brief) |
 | 1118 | white man, late 50s, grey hair, weathered face, stocky build | CLAIMED 2026-10-21 — #957 camo cover (brief) |
