@@ -1,4 +1,4 @@
-status: REDO
+status: BUILDING [B]
 shopify: gid://shopify/Product/15372535300400
 cover: fal-swap
 lane: B
