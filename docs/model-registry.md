@@ -969,3 +969,5 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1174 | Asian American man, late 20s, short black hair, light stubble, athletic build, no hat | USED 2026-10-28 — #902 Mountains Left on Read camo hoodie photo 1 (seedream, 1 call) |
 | 1175 | Black man, early 50s, short grey-flecked beard, stocky build, no hat | USED 2026-10-28 — #232 No Deer Today camo hoodie photo 1 (seedream) |
 | 1176 | white man, early 30s, ginger beard, broad build, no hat | USED 2026-10-28 — #232 No Deer Today camo hoodie photo 2 (seedream) |
+| 1177 | white man, late 40s, silver crew cut, weathered face, tall lean build, no hat | USED 2026-10-28 — #291 Bugling camo hoodie photo 1 (seedream, 1 call) |
+| 1178 | Middle Eastern man, late 30s, short dark hair, full trimmed beard, medium build, no hat | USED 2026-10-28 — #291 Bugling camo hoodie photo 2 (seedream, 1 call) |
