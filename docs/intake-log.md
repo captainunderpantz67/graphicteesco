@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-28 23:19 UTC
 2026-10-28 21:58 UTC — [B] Builder run end: 2 items, camo redo #27 #291 (elk bugling, A+) and #233 REDO fixes (B3); both ACTIVE, director to confirm. New products today: 0 of 6. fal ~$0.4. Lock released.
 2026-10-28 21:58 UTC — [B] REVIEW #233 Men's Hunting – Professional Tree Sitter Camo Hoodie (director REDO fixes: emblem painted out, white gaps knocked out, nose recolored; B3, FW625 TOP300 LEFT1475, 14/14 on 1097491077; 2 lifestyle photos). Product ACTIVE, director to confirm. fal ~$0.24
 2026-10-28 21:48 UTC — [B] REVIEW #291 Men's Hunting – I'm Not Yelling I'm Bugling Camo Hoodie (camo-redo 27 of 27, S1 on A+, FW1500 TOP400, 14/14 on 1097483996, headline 2352 / punch 2875 px = 122%, subject 86%, Fraunces; 2 lifestyle photos). Product ACTIVE, director to confirm. fal ~$0.16
