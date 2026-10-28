@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-27 23:50 UTC
+# Cohesion audit — 2026-10-28 14:52 UTC
 
-744 live products checked · **0 errors** · 445 warnings · 419 products with findings
+750 live products checked · **0 errors** · 450 warnings · 424 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -989,6 +989,15 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Women's Outdoorsy – Outdoorsy in Theory Cropped Hoodie `womens-outdoorsy-in-theory-cropped-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Men's Chess – I Blunder With Confidence Tee `mens-chess-i-blunder-with-confidence-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Cornhole – I Don't Run. I Throw Bags. Tee `unisex-cornhole-counts-as-cardio-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Dad Bod – Retired From Abs Tee `mens-dad-bod-retired-from-abs-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Men's Gym – Rack Your Weights. Respectfully. Sweatpants `mens-gym-rack-your-weights-respectfully-sweatpants`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
@@ -1181,6 +1190,12 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Women's Funny – Feral Before 9 A.M. Tee `womens-funny-feral-before-9-am-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Wrestling – Six Minutes. Feels Like Sixty. Tee `mens-wrestling-six-minutes-feels-like-sixty-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Marathon – Hit the Wall. The Wall Won. Tee `mens-marathon-hit-the-wall-the-wall-won-graphic-tee`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Women's Running – Here for the Free Banana Tee `womens-running-here-for-the-free-banana-graphic-tee`

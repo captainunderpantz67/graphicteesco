@@ -1,6 +1,6 @@
 {
- "at": "2026-10-27T23:50:30.835Z",
- "products": 744,
+ "at": "2026-10-28T14:52:04.367Z",
+ "products": 750,
  "findings": [
   {
    "level": "WARN",
@@ -2384,6 +2384,27 @@
   },
   {
    "level": "WARN",
+   "handle": "mens-chess-i-blunder-with-confidence-graphic-tee",
+   "title": "Men's Chess – I Blunder With Confidence Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-cornhole-counts-as-cardio-graphic-tee",
+   "title": "Unisex Cornhole – I Don't Run. I Throw Bags. Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-dad-bod-retired-from-abs-graphic-tee",
+   "title": "Men's Dad Bod – Retired From Abs Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "mens-gym-rack-your-weights-respectfully-sweatpants",
    "title": "Men's Gym – Rack Your Weights. Respectfully. Sweatpants",
    "msg": "No lifestyle cover photo.",
@@ -2855,6 +2876,20 @@
    "level": "WARN",
    "handle": "womens-funny-feral-before-9-am-graphic-tee",
    "title": "Women's Funny – Feral Before 9 A.M. Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-wrestling-six-minutes-feels-like-sixty-graphic-tee",
+   "title": "Men's Wrestling – Six Minutes. Feels Like Sixty. Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-marathon-hit-the-wall-the-wall-won-graphic-tee",
+   "title": "Men's Marathon – Hit the Wall. The Wall Won. Tee",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
