@@ -964,3 +964,5 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1169 | Hispanic man, late 40s, short wavy dark hair with grey temples, salt-and-pepper stubble, medium build, no hat | USED 2026-10-27 — #834 Papa Has a Spot camo hoodie photo 2 (seedream, 1 call) |
 | 1170 | Black man, early 50s, short grey-flecked beard, shaved head, broad friendly build, no hat | USED 2026-10-27 — #833 Catfish camo hoodie photo 1 (seedream, 1 call) |
 | 1171 | white man, late 30s, sandy hair, light stubble, lean build, no hat | USED 2026-10-27 — #833 Catfish camo hoodie photo 2 (seedream, 3 calls) |
+| 1172 | white man, early 40s, dark brown hair, short beard, glasses, medium build, no hat | USED 2026-10-28 — #900 Lone Wolf camo hoodie photo 1 (seedream, 1 call) |
+| 1173 | Hispanic man, mid 30s, black wavy hair, clean-shaven, lean build, no hat | USED 2026-10-28 — #900 Lone Wolf camo hoodie photo 2 (seedream, 1 call) |
