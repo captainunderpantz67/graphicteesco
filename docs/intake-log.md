@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-29 14:22 UTC
 2026-10-29 14:31 UTC — [B] Builder run end: 2 items, camo twins #956 (S2 homebody, B3) and #957 (S3 grumpy angler, A+), both rebuilt in place, still DRAFT for director. New products today: 0 of 6 (in-place rebuilds of existing drafts). fal ~$0.66. Lock released.
 2026-10-29 14:30 UTC — [B] REVIEW #957 Men's Fishing – You Catching 'Em? No. Keep Walking. Camo Hoodie (camo twin rebuilt, S3 on A+, FW1500 TOP400, 14/14 on 1097936236, headline 2569 / punch 2990 px = 116%, subject 72%, Bowlby One; 2 lifestyle photos). Product still DRAFT. fal ~$0.20
 2026-10-29 14:01 UTC — [B] REVIEW #956 Unisex Outdoors – Went Outside. It Was Fine. Camo Hoodie (camo twin rebuilt, S2 on B3, FW625 TOP300 LEFT1475, 14/14 on 1097929953, line IT WAS FINE. in Playfair, art 87% of height, cap 74 px at FW625; 2 lifestyle photos). Product still DRAFT, director to publish. fal ~$0.46
