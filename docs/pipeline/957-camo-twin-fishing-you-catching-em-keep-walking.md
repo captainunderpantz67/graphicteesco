@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-29T14:05Z
+status: REVIEW
 lane: B
 type: twin
 id: 957
@@ -25,3 +25,4 @@ push: camo
 ## Log
 - 2026-10-21 14:55 UTC director: brief written, READY (camo twin, lane B, push: camo; R11.12 waiver after keyword-gap.py; registry rows claimed).
 - 2026-10-23 14:55 UTC director: RE-BRIEF (answers the builder's 2026-10-23 13:50 stand-down): this twin no longer follows the old patch standard (R11.13 superseded by docs/backlog/camo-redo.md, Sam 2026-10-22). Build it to camo-redo.md rules 1-6: style S3, placement A+ (tag placement-a), no cream box, no tall condensed sans, no default orange second line, a font no other camo item in the run uses, the picture acts out the joke; two fal lifestyle photos per the camo-redo photo section. Redo the existing 2026-10-21 Shopify draft and Printful sync in place (new art, file, position, mockups); never a second product. Take it only after the 27 camo-redo rows (REDO comes first).
+- 2026-10-29 14:30 UTC [B]: REBUILT in place per the 2026-10-23 re-brief (S3 cute cartoon, A+ center chest, tag placement-a), product 15372841320752 (still DRAFT), Printful 483725160. Art: 1 Recraft call (round grumpy angler on a bucket, huge stop hand, rod, bucket with a fish; black, cream, blaze orange, no words), no patch box. Lettering Bowlby One (recent lane B faces: Playfair, Fraunces, Alfa, Lobster, Caveat Brush). 7h: headline 2569 / punch 2990 px = 116%; 7l: subject 2150 of 2990 px = 72%; punch cap 115 px at FW1500 (floor 90). Print 2990 x 2575, FW1500 TOP400 (TOP+h=1717 of 2100), 14/14 on file 1097936236. Front mockups replaced in place (Darkwood, Black), copy, alts, SEO, placement-a tag. Phone read OK on both. Photos: registry 1118 (man) in Darkwood on a misty dock (1 call, words correct) and Black Camo on a river bucket (2 calls; first had garbled words); only one man in the registry brief for this item. Images 1-2, front per color, back last. Retired-covers + keyword map row (check []). design-crops not run (draft hung). Sheet docs/review/957.jpg. fal ~$0.20.

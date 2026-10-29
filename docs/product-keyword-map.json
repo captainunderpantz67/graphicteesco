@@ -12163,6 +12163,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-fishing-you-catching-em-keep-walking-camo-hoodie": {
+   "claimed": [
+    "fishing camo hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fishing camo hoodie",
+     "volume": 0,
+     "kd": 22
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
