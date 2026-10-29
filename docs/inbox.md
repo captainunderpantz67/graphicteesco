@@ -300,3 +300,4 @@ docs/backlog/drawn-fixes.json holds 62 products: {id, handle, html}. Each "html"
 2026-10-28 14:53 helper: audit 750 live, 0 errors (450 warnings left alone); 0 orders, 0 uncategorised products; site checks 200.
 
 - 2026-10-28 23:51 UTC helper: audit 750 live, 0 errors (451 warnings left alone); 0 orders, 0 uncategorised products; site checks 200.
+2026-10-29 15:00 UTC — [H] Telegram: Sam sent a one-word yes at 2026-10-29 12:11 UTC. Unclear what it answers (maybe the question about re-placing the ~119 live pullover hoodies at TOP 0). Acknowledged; passed to the director.

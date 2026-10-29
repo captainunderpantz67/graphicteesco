@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-28 23:51 UTC
+# Cohesion audit — 2026-10-29 15:01 UTC
 
-750 live products checked · **0 errors** · 451 warnings · 425 products with findings
+756 live products checked · **0 errors** · 457 warnings · 431 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -1265,16 +1265,25 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
 
+### Unisex Alien – Visiting. Not Impressed. Embroidered Zip Hoodie `unisex-alien-visiting-not-impressed-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Men's Car – Not Stopping. Hold It. Embroidered Zip Hoodie `mens-car-not-stopping-hold-it-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Men's Gym – Squire, Spot Me Embroidered Zip Hoodie `mens-gym-squire-spot-me-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Men's Pirate – Pillaging Is a Young Man's Game Embroidered Zip Hoodie `mens-pirate-pillaging-is-a-young-mans-game-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Men's Fishing – Fishing Is My Love Language Embroidered Zip Hoodie `mens-fishing-is-my-love-language-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Men's Gym – Twelve Labors. Zero Cardio. Embroidered Zip Hoodie `mens-gym-twelve-labors-zero-cardio-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex National Park – Running Late. Bison Traffic. Embroidered Zip Hoodie `unisex-national-park-running-late-bison-traffic-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Men's Welder – If You Can Step Over It, I Can Fill It. Embroidered Zip Hoodie `mens-welder-if-you-can-step-over-it-embroidered-zip-hoodie`
@@ -1287,6 +1296,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Men's Drummer – The Neighbors Love Me. Embroidered Zip Hoodie `mens-drummer-the-neighbors-love-me-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Running – Mile One Was a Mistake. Embroidered Zip Hoodie `unisex-running-mile-one-was-a-mistake-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Men's Outdoors – The Mountains Called. Left Them on Read. Camo Hoodie `mens-outdoors-mountains-called-left-on-read-camo-hoodie`
@@ -1302,8 +1314,14 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 - **WARN** thanksgiving design isn't in any thanksgiving collection. → Tag it so it appears in the thanksgiving shirts page.
 
+### Unisex New Year's Eve – Midnight Is a Suggestion Embroidered Zip Hoodie `unisex-new-years-eve-midnight-is-a-suggestion-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Men's Sasquatch – Camera Shy Embroidered Zip Hoodie `mens-sasquatch-camera-shy-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Unisex National Park – Running Late. Bison Traffic. Camo Hoodie `unisex-national-park-running-late-bison-traffic-camo-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Fishing – You Catching 'Em? No. Keep Walking. Camo Hoodie `mens-fishing-you-catching-em-keep-walking-camo-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.

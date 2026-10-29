@@ -1,6 +1,6 @@
 {
- "at": "2026-10-28T23:51:01.876Z",
- "products": 750,
+ "at": "2026-10-29T15:01:17.725Z",
+ "products": 756,
  "findings": [
   {
    "level": "WARN",
@@ -3056,6 +3056,13 @@
   },
   {
    "level": "WARN",
+   "handle": "unisex-alien-visiting-not-impressed-embroidered-zip-hoodie",
+   "title": "Unisex Alien – Visiting. Not Impressed. Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "mens-car-not-stopping-hold-it-embroidered-zip-hoodie",
    "title": "Men's Car – Not Stopping. Hold It. Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
@@ -3070,6 +3077,13 @@
   },
   {
    "level": "WARN",
+   "handle": "mens-pirate-pillaging-is-a-young-mans-game-embroidered-zip-hoodie",
+   "title": "Men's Pirate – Pillaging Is a Young Man's Game Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "mens-fishing-is-my-love-language-embroidered-zip-hoodie",
    "title": "Men's Fishing – Fishing Is My Love Language Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
@@ -3079,6 +3093,13 @@
    "level": "WARN",
    "handle": "mens-gym-twelve-labors-zero-cardio-embroidered-zip-hoodie",
    "title": "Men's Gym – Twelve Labors. Zero Cardio. Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-national-park-running-late-bison-traffic-embroidered-zip-hoodie",
+   "title": "Unisex National Park – Running Late. Bison Traffic. Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
@@ -3107,6 +3128,13 @@
    "level": "WARN",
    "handle": "mens-drummer-the-neighbors-love-me-embroidered-zip-hoodie",
    "title": "Men's Drummer – The Neighbors Love Me. Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-running-mile-one-was-a-mistake-embroidered-zip-hoodie",
+   "title": "Unisex Running – Mile One Was a Mistake. Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
@@ -3147,6 +3175,13 @@
   },
   {
    "level": "WARN",
+   "handle": "unisex-new-years-eve-midnight-is-a-suggestion-embroidered-zip-hoodie",
+   "title": "Unisex New Year's Eve – Midnight Is a Suggestion Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "mens-sasquatch-camera-shy-embroidered-zip-hoodie",
    "title": "Men's Sasquatch – Camera Shy Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
@@ -3156,6 +3191,13 @@
    "level": "WARN",
    "handle": "unisex-national-park-running-late-bison-traffic-camo-hoodie",
    "title": "Unisex National Park – Running Late. Bison Traffic. Camo Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-fishing-you-catching-em-keep-walking-camo-hoodie",
+   "title": "Men's Fishing – You Catching 'Em? No. Keep Walking. Camo Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   }
