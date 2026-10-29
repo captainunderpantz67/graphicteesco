@@ -12150,6 +12150,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-outdoors-went-outside-it-was-fine-camo-hoodie": {
+   "claimed": [
+    "outdoorsy camo hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "outdoorsy camo hoodie",
+     "volume": 0,
+     "kd": 22
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }

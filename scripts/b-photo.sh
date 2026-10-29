@@ -8,9 +8,9 @@ N=$1; D=$2; R=$3; SC=$4; SH=$5; CROP=${6:-1}
 if [ "$CROP" = 1 ]; then python3 -c "
 from PIL import Image
 im=Image.open('$D');w,h=im.size;im.crop((int(w*.1),0,int(w*.9),int(h*.8))).save('$S/d_$N.jpg')"; D=$S/d_$N.jpg; fi
-P=$(grep "^| $R " docs/model-registry.md | cut -d'|' -f3 | sed 's/^ *//;s/ *$//')
+P="${PERSON:-$(grep "^| $R " docs/model-registry.md | cut -d'|' -f3 | sed 's/^ *//;s/ *$//')}"
 rm -f designs/fal/$N/seedream-*.png
-for t in 1 2 3; do python3 scripts/fal-photo.py --design "$D" --name $N --model seedream --n 1 --person "$P" --scene "$SC" --shirt "$SH" 2>&1 | tail -1
+for t in 1 2 3; do python3 scripts/fal-photo.py --design "$D" --name $N --model seedream --n 1 --person "$P" --scene "$SC" --shirt "$SH" ${FIT:+--fit "$FIT"} 2>&1 | tail -1
   [ -f designs/fal/$N/seedream-1.png ] && break; sleep $((t*5)); done
 python3 -c "
 from PIL import Image

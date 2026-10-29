@@ -34,7 +34,7 @@ MODELS = {
 }
 
 RULES = (
-    "The t-shirt shows the exact graphic from the reference image, printed large on the chest, completely unchanged: "
+    os.environ.get("RULES_LEAD") or "The t-shirt shows the exact graphic from the reference image, printed large on the chest, completely unchanged: "
     "same colors, same text, same shapes, same background frame. Nothing covers the print (no hands, hair, lanyards, cups, straps). "
     "The print looks like real screen-printed ink on cotton, following the folds of the fabric, slightly matte, not a sticker. "
     "Documentary-style candid photo, looks like an unposed real photo; natural skin texture, no glamour retouching. "

@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: twin
 id: 956
@@ -25,3 +25,4 @@ push: camo
 ## Log
 - 2026-10-21 14:55 UTC director: brief written, READY (camo twin, lane B, push: camo; R11.12 waiver after keyword-gap.py; registry rows claimed).
 - 2026-10-23 14:55 UTC director: RE-BRIEF (answers the builder's 2026-10-23 13:50 stand-down): this twin no longer follows the old patch standard (R11.13 superseded by docs/backlog/camo-redo.md, Sam 2026-10-22). Build it to camo-redo.md rules 1-6: style S2, placement B3 (tag placement-b), no cream box, no tall condensed sans, no default orange second line, a font no other camo item in the run uses, the picture acts out the joke; two fal lifestyle photos per the camo-redo photo section. Redo the existing 2026-10-21 Shopify draft and Printful sync in place (new art, file, position, mockups); never a second product. Take it only after the 27 camo-redo rows (REDO comes first).
+- 2026-10-29 14:00 UTC [B]: REBUILT in place per the 2026-10-23 re-brief (S2 field guide, B3 left chest, tag placement-b), product 15372840665392 (still DRAFT), Printful 483725138. Art: 1 Recraft call (bathrobe homebody with mug and thumbs up in a doorway, big pine and a bird; black, cream, blaze orange, no words), no patch box; one line IT WAS FINE. (3 words) in Playfair Display (recent lane B faces: Fraunces, Alfa, Lobster, Caveat Brush, Bevan, Cinzel; Playfair not among them). Print 2334 x 2576, FW625 TOP300 LEFT1475, art 87% of height, cap 278 px = 74 px at FW625. 14/14 on file 1097929953 (verified from Printful), back logo kept. Front mockups replaced in place (Duck, Forest), copy, alts, SEO, placement-b tag. Phone read OK on both. Photos: registry 1116+1117 (man and woman, Forest, cabin porch) and 1117 (Duck, lakeside tailgate); photo 1 took 5 calls (first 3 came back as t-shirts, then a stray IT WAS FINE on a hem), photo 2 took 2 (print on the hood first); final caption a soft blur, icon matches. Images 1-2, front per color, back last. Handle in retired-covers, keyword map row added (top-level check []). design-crops.py hung on the draft (not run). Sheet docs/review/956.jpg. fal ~$0.46.
