@@ -1756,17 +1756,17 @@ export const allGuides: Guide[] = [
   },
   {
     // Writer lane W (2026-10-28, run 2). Keyword: christmas gifts for daughter 2,900 / KD 14 (RankHero, measured 2026-10-28 by the earlier lane W run today; not re-pulled). Unowned: no hit in product-keyword-map.json, collections.ts or guides.
-    // Facts (slogans, art, prices, policies) come from pipeline files #142 #144 #148 #149 #159 #171 #172, the girlfriend and neighbors guides and site.ts. FAQ questions are not from PAA or GSC (not available unattended).
-    // Sleigh Queen art is described from its design brief (#159); its crewneck twin was dropped, so only the tee is listed. Build drops any pick that is not live.
+    // Facts (prices, policies) come from site.ts and the sibling guides; art descriptions come from each product's live Shopify Story (read 2026-10-29 after the director's REDO), not the old briefs. Jolly-ish was swapped for Dough Ho Ho so this guide does not repeat the girlfriend guide. FAQ questions are not from PAA or GSC (not available unattended).
+    // Sleigh Queen is tee only (crewneck twin dropped). Build drops any pick that is not live.
     // Planned siblings (not live yet): christmas-gifts-for-teachers, christmas-gifts-for-nurses.
     slug: 'christmas-gifts-for-daughter',
     keyword: 'christmas gifts for daughter',
     title: 'Christmas Gifts for Daughter: 4 Funny Shirts and Sweatshirts She Will Wear',
-    description: 'Christmas gifts for daughter she will actually wear: Sleighping In, Jolly-ish, Gingerbread Lane and Sleigh Queen. Tees $24.99, crewnecks $34.99.',
+    description: 'Christmas gifts for daughter she will actually wear: Sleighping In, Dough Ho Ho, Gingerbread Lane and Sleigh Queen. Tees $24.99, crewnecks $34.99.',
     h1: 'Christmas Gifts for Daughter: Funny Shirts and Sweatshirts She Will Actually Wear',
     date: '2026-10-28',
     cluster: 'christmas',
-    answer: 'A good Christmas gift for a daughter is something she picks out of the drawer on her own, which usually means a joke she gets right away. Graphic Tees Co. has four women’s Christmas designs: Sleighping In, Jolly-ish, Gingerbread Lane and Sleigh Queen, each a tee at $24.99, and three also a crewneck at $34.99. Each is original art, printed after you order. Order by December 4, 2026.',
+    answer: 'A good Christmas gift for a daughter is something she picks out of the drawer on her own, which usually means a joke she gets right away. Graphic Tees Co. has four women’s Christmas designs: Sleighping In, Dough Ho Ho, Gingerbread Lane and Sleigh Queen, each a tee at $24.99, and three also a crewneck at $34.99. Each is original art, printed after you order. Order by December 4, 2026.',
     picks: [
       {
         h2: 'What is a funny Christmas gift for a daughter who sleeps in?',
@@ -1778,36 +1778,36 @@ export const allGuides: Guide[] = [
         links: [{ href: '/christmas-shirts-for-women/', text: 'Women’s Christmas shirts' }],
       },
       {
-        h2: 'What do you give a daughter who is only mostly in the Christmas spirit?',
-        body: ['Jolly-ish. It is a one-word joke in big, chunky letters, for the daughter who is festive, mostly.'],
+        h2: 'What is a good gift for a daughter who bakes every December?',
+        body: ['Dough Ho Ho. It is a cookie-baking joke, for the daughter who has been elbow-deep in flour since December 1 and whose plate is always the first one empty.'],
         items: [
-          { slogan: 'JOLLY-ISH', tee: 'womens-christmas-jolly-ish-graphic-tee', crewneck: 'womens-christmas-jolly-ish-crewneck-sweatshirt',
-            text: 'The single word JOLLY-ISH in big chunky rounded letters filled with red and green buffalo plaid, with a small pink satin bow tied on top of the J and a candy cane, a glass ornament and a holly sprig scattered beside it, in red, deep green, pink and cream. The tee is $24.99 and the crewneck is $34.99.' },
+          { slogan: 'DOUGH HO HO', tee: 'womens-christmas-dough-ho-ho-graphic-tee', crewneck: 'womens-christmas-dough-ho-ho-crewneck-sweatshirt',
+            text: 'A vintage cookbook illustration of a cream mixing bowl of cookie dough with a wooden spoon standing in it, a baking tray of iced sugar cookies beside it (a star, a little tree and a gingerbread man with a bite missing), a dusting of flour and a red-and-white striped ribbon, with DOUGH HO HO arched over the top in hand-lettered bakery-sign capitals and edges that break up like a worn screen print. The tee is $24.99 and the crewneck is $34.99.' },
         ],
         links: [{ href: '/christmas-sweatshirts/', text: 'Christmas sweatshirts' }],
       },
       {
-        h2: 'What is a good gift for a daughter who bakes every December?',
-        body: ['Gingerbread Lane. It is a gingerbread house with two gingerbread men, which suits the kid who takes over the kitchen the first week of the month.'],
+        h2: 'What do you give a daughter who likes cute over loud?',
+        body: ['Gingerbread Lane. It is a small storybook scene with no wording on it, for the daughter who wants cozy this year instead of a big joke.'],
         items: [
           { slogan: 'GINGERBREAD LANE', tee: 'womens-christmas-gingerbread-lane-graphic-tee', crewneck: 'womens-christmas-gingerbread-lane-crewneck-sweatshirt',
-            text: 'A gingerbread house and two gingerbread men stand with two pines and peppermints on a snow drift that fades out into the shirt, in a vintage Christmas style with no frame or border. The tee is $24.99 and the crewneck is $34.99.' },
+            text: 'A gingerbread house with candy trim, icing snow and a wreath on the door, with two little gingerbread people waving out front and candy canes and peppermints scattered around, framed in an arch with a red ribbon on top, in red, green, cream and gingerbread brown. There is no text on the shirt. The tee is $24.99 and the crewneck is $34.99.' },
         ],
         links: [{ href: '/christmas-shirts-for-women/', text: 'Women’s Christmas shirts' }],
       },
       {
         h2: 'What do you give a daughter who runs the gift exchange and the group chat?',
-        body: ['Sleigh Queen. It is a two-word pun in candy-cane striped letters with a pink bow, for the one who is in charge of everything festive.'],
+        body: ['Sleigh Queen. It is a two-word pun over an old-fashioned sleigh, for the one who is in charge of everything festive.'],
         items: [
           { slogan: 'SLEIGH QUEEN', tee: 'womens-christmas-sleigh-queen-graphic-tee',
-            text: 'The words SLEIGH QUEEN are stacked on two lines in chunky rounded capitals, each letter filled with red and green candy-cane stripes, with a pink satin bow tied on the S and a few small gold stars around. The tee is $24.99.' },
+            text: 'An old-fashioned sleigh with curled runners sits in falling snow, a plaid blanket over the seat and a stack of wrapped gifts in the back, with a sprig of holly and a scatter of stars above and SLEIGH QUEEN across the top in faded red and sage lettering. The tee is $24.99.' },
         ],
         links: [{ href: '/christmas-shirts/', text: 'Christmas shirts' }],
       },
     ],
     sections: [
       { h2: 'What makes a good Christmas gift for a daughter?',
-        body: ['Something she would pick for herself, with a joke that works without an explanation. A shirt with a one-line pun (Sleighping In, Jolly-ish, Sleigh Queen) does that.',
+        body: ['Something she would pick for herself, with a joke that works without an explanation. A shirt with a one-line pun (Sleighping In, Dough Ho Ho, Sleigh Queen) does that.',
           'Graphic Tees Co. designs are original art with the joke set in big type. They use no team, brand or character logos.'],
         links: [{ href: '/christmas-shirts/', text: 'Christmas shirts' }] },
       { h2: 'How much should you spend on a Christmas gift for a daughter?',
@@ -1816,7 +1816,7 @@ export const allGuides: Guide[] = [
         links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
       { h2: 'Should you give a daughter a tee or a crewneck?',
         body: ['A tee at $24.99 is the cheaper pick and layers under a cardigan. A Graphic Tees Co. crewneck at $34.99 is warmer for the walk between parties.',
-          'Sleigh Queen is a tee only. Sleighping In, Jolly-ish and Gingerbread Lane come in both.'],
+          'Sleigh Queen is a tee only. Sleighping In, Dough Ho Ho and Gingerbread Lane come in both.'],
         links: [{ href: '/christmas-sweatshirts/', text: 'Christmas sweatshirts' }, { href: '/guides/thick-hoodies/', text: 'Thick hoodies: how thick is 10 oz' }] },
       { h2: 'What if the size is wrong?',
         body: ['Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and she does not have to mail the first one back.',
@@ -1828,10 +1828,10 @@ export const allGuides: Guide[] = [
         links: [{ href: '/guides/christmas-gifts-for-sister/', text: 'Christmas gifts for sister' }, { href: '/guides/christmas-gifts-for-grandma/', text: 'Christmas gifts for grandma' }, { href: '/guides/christmas-gifts-for-girlfriend/', text: 'Christmas gifts for girlfriend' }, { href: '/guides/christmas-gifts-for-neighbors/', text: 'Christmas gifts for neighbors' }, { href: '/christmas-shirts/', text: 'All Christmas shirts' }] },
     ],
     faqs: [
-      { q: 'What are good Christmas gifts for a daughter?', a: 'A funny shirt she will wear, like Sleighping In or Jolly-ish from Graphic Tees Co. Tees are $24.99, crewnecks are $34.99, all printed to order.' },
-      { q: 'What is a cheap Christmas gift for a daughter?', a: 'Any Graphic Tees Co. women’s Christmas tee here: Sleighping In, Jolly-ish, Gingerbread Lane or Sleigh Queen. Each is $24.99 and printed after you order.' },
-      { q: 'What is a good gift for a daughter who loves to bake?', a: 'The Graphic Tees Co. Gingerbread Lane tee at $24.99 or crewneck at $34.99. It shows a gingerbread house and two gingerbread men on a snow drift.' },
-      { q: 'What is a good matching gift for a mom and daughter?', a: 'Pair a Graphic Tees Co. tee at $24.99 with a crewneck at $34.99 in the same design, such as Sleighping In or Jolly-ish. Together they come to $59.98 and clear free US shipping at $45.' },
+      { q: 'What are good Christmas gifts for a daughter?', a: 'A funny shirt she will wear, like Sleighping In or Dough Ho Ho from Graphic Tees Co. Tees are $24.99, crewnecks are $34.99, all printed to order.' },
+      { q: 'What is a cheap Christmas gift for a daughter?', a: 'Any Graphic Tees Co. women’s Christmas tee here: Sleighping In, Dough Ho Ho, Gingerbread Lane or Sleigh Queen. Each is $24.99 and printed after you order.' },
+      { q: 'What is a good gift for a daughter who loves to bake?', a: 'The Graphic Tees Co. Dough Ho Ho tee at $24.99 or crewneck at $34.99. It shows a mixing bowl of cookie dough and a tray of iced sugar cookies.' },
+      { q: 'What is a good matching gift for a mom and daughter?', a: 'Pair a Graphic Tees Co. tee at $24.99 with a crewneck at $34.99 in the same design, such as Sleighping In or Dough Ho Ho. Together they come to $59.98 and clear free US shipping at $45.' },
       { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
       { q: 'When should I order Christmas gifts for my daughter?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. Exact estimates show at checkout.' },
     ],
