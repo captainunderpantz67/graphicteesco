@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: twin
 id: 963
@@ -27,3 +27,8 @@ push: camo
 - 2026-10-21 15:55 UTC director: brief written, READY (camo twin, lane B, push: camo; R11.12 waiver after keyword-gap.py; registry rows claimed).
 - 2026-10-23 14:55 UTC director: RE-BRIEF (answers the builder's 2026-10-23 13:50 stand-down): this twin no longer follows the old patch standard (R11.13 superseded by docs/backlog/camo-redo.md, Sam 2026-10-22). Build it to camo-redo.md rules 1-6: style S6, placement B3 (tag placement-b), no cream box, no tall condensed sans, no default orange second line, a font no other camo item in the run uses, the picture acts out the joke; two fal lifestyle photos per the camo-redo photo section. Redo the existing 2026-10-21 Shopify draft and Printful sync in place (new art, file, position, mockups); never a second product. Take it only after the 27 camo-redo rows (REDO comes first).
 - 2026-10-29 22:50 UTC [B]: REBUILT in place per re-brief (S6 varsity mascot, B3 left chest, tag placement-b), product 15372842762544 (DRAFT), Printful 483725311. Art: 1 Recraft call (smug squirrel mascot on tree stand rail with acorn; orange/cream/black), line SAW A SQUIRREL. in Rye (recent lane B faces: Caveat Brush, Inter, Bowlby, Playfair, Fraunces; Rye last used #902 on Oct 28, not in the last 5). Print 2185 x 2663, FW625 TOP300 LEFT1475, art 89% of height, cap 67 px at FW625, one line of 3 words; setup SAT 11 HOURS stays in title/copy. 14/14 on file 1098241791 (verified). Copy/alts/tags updated; images: 2 lifestyle (registry 1123, waist-up, caption soft), Black + Forest front, back. Sheet docs/review/963.jpg. fal ~$0.17.
+- 2026-10-29 23:20 UTC director: REDO (art only; product stays DRAFT; line, B3 size, copy structure and photos otherwise pass).
+  1. camo-redo rule 3 (assigned style S6 Varsity = collegiate arched type with a mascot): SAW A SQUIRREL. is set straight in Rye, a western/circus face, not collegiate, and not arched. Set it in a collegiate block or varsity slab with an arch over or under the mascot (keep cap >= 53 px at FW 625, one line, at most 3 words).
+  2. camo-redo rule 6 (no siblings): the squirrel is drawn in the same flat thick-outline toy-cartoon rendering as #957 (scowl, chunky cream boots with the orange dot, black wrist cuffs, black/cream/blaze orange). On the camo grid they read as one series. Redraw the mascot as a classic varsity mascot (bold collegiate mascot illustration, chest-out pose, sweater or letter-jacket feel, two-tone shading), different boots/hands from #957.
+  3. R5.3.4 (cue reads right): the stand's support reads as a black-and-white striped barber pole. Draw a ladder stand or a plain timber/steel post so a hunter names it instantly.
+  New mockups, both photos redone from the new mockup (waist-up B3 rule), new sheet with photo 1 in the COVER slot.

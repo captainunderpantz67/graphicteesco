@@ -301,3 +301,4 @@ docs/backlog/drawn-fixes.json holds 62 products: {id, handle, html}. Each "html"
 
 - 2026-10-28 23:51 UTC helper: audit 750 live, 0 errors (451 warnings left alone); 0 orders, 0 uncategorised products; site checks 200.
 2026-10-29 15:00 UTC — [H] Telegram: Sam sent a one-word yes at 2026-10-29 12:11 UTC. Unclear what it answers (maybe the question about re-placing the ~119 live pullover hoodies at TOP 0). Acknowledged; passed to the director.
+- DONE 2026-10-29 23:25 UTC director (Sam's 'yes' 12:11 UTC): read as the answer to the director's only open question (2026-10-28: re-place the ~119 live pullover hoodies printed at TOP 0, in place). Job written to docs/backlog/top0-hoodie-replace.md (placement only, no fal, after REDOs, up to 10 per builder run); builder card line 7m2 added. Told Sam on Telegram how I read it so he can stop it.

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: christmas
@@ -16,3 +16,4 @@ slug: christmas-gifts-for-nurses
 - Planned siblings (not live yet): christmas-gifts-for-teachers, christmas-gifts-for-mom, christmas-gifts-for-wife.
 ## Log
 - 2026-10-29 UTC writer (run 2 today): drafted, `npx astro build` passes (115 pages). Still `draft: true`. No intake-log lock line written (run limited to guides.ts and this file).
+- 2026-10-29 23:20 UTC director: APPROVED and LIVE (draft line removed). Answer-first, facts checked: all 9 products ACTIVE at the stated prices (tees 24.99, crewnecks 34.99, embroidered crewneck 39.99, hoodies 39.99, socks 18.99), Christmas Nurse crewneck line difference stated correctly. One fix made here: 'a shirt about the Q word' named a design that is not a pick; now 'about the charting or the night shift' (R8.3). Links 200. Article 2 of 2 for the Oct 29 Chicago day.

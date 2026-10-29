@@ -1824,8 +1824,8 @@ export const allGuides: Guide[] = [
       { h2: 'When should you order Christmas gifts for a daughter?',
         body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, which is up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
       { h2: 'Where else can you find gifts for the people on your list?',
-        body: ['For other women in the family, see our sister and grandma guides. For a partner, see our girlfriend guide. For the neighbors, see our neighbors guide.'],
-        links: [{ href: '/guides/christmas-gifts-for-sister/', text: 'Christmas gifts for sister' }, { href: '/guides/christmas-gifts-for-grandma/', text: 'Christmas gifts for grandma' }, { href: '/guides/christmas-gifts-for-girlfriend/', text: 'Christmas gifts for girlfriend' }, { href: '/guides/christmas-gifts-for-neighbors/', text: 'Christmas gifts for neighbors' }, { href: '/christmas-shirts/', text: 'All Christmas shirts' }] },
+        body: ['For other women in the family, see our sister and grandma guides. For a partner, see our girlfriend guide.'],
+        links: [{ href: '/guides/christmas-gifts-for-sister/', text: 'Christmas gifts for sister' }, { href: '/guides/christmas-gifts-for-grandma/', text: 'Christmas gifts for grandma' }, { href: '/guides/christmas-gifts-for-girlfriend/', text: 'Christmas gifts for girlfriend' }, { href: '/christmas-shirts/', text: 'All Christmas shirts' }] },
     ],
     faqs: [
       { q: 'What are good Christmas gifts for a daughter?', a: 'A funny shirt she will wear, like Sleighping In or Dough Ho Ho from Graphic Tees Co. Tees are $24.99, crewnecks are $34.99, all printed to order.' },
@@ -1835,7 +1835,6 @@ export const allGuides: Guide[] = [
       { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
       { q: 'When should I order Christmas gifts for my daughter?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. Exact estimates show at checkout.' },
     ],
-    draft: true,
   },
   {
     // Writer lane W (2026-10-29). Keyword: christmas gifts for nurses 1,300 / KD 17 (RankHero via scripts/keyword-gap.py, measured 2026-10-29). Unowned: no hit in product-keyword-map.json, collections.ts or guides. ("christmas gifts for teachers" 27,100 / KD 52 is too hard; husband, wife, mom and brother are claimed by products in the map.) Hub keywords "nurse shirts" and "nurse sweatshirt" stay with their collections.
@@ -1890,7 +1889,7 @@ export const allGuides: Guide[] = [
     ],
     sections: [
       { h2: 'What makes a good Christmas gift for a nurse?',
-        body: ['Something she can wear on her day off that jokes about the work she does. Nurses already own the scrubs and the compression socks; a shirt about the Q word or the charting reads as a gift from someone who gets it.',
+        body: ['Something she can wear on her day off that jokes about the work she does. Nurses already own the scrubs and the compression socks; a shirt about the charting or the night shift reads as a gift from someone who gets it.',
           'Graphic Tees Co. designs are original art with the joke set in big type. They use no hospital, school or scrub-brand logos.'],
         links: [{ href: '/nurse-shirts/', text: 'Nurse shirts' }] },
       { h2: 'Should you give a nurse a tee, a crewneck or a hoodie?',
@@ -1920,7 +1919,6 @@ export const allGuides: Guide[] = [
       { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
       { q: 'When should I order a Christmas gift for a nurse?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. Exact estimates show at checkout.' },
     ],
-    draft: true,
   },
 ];
 
