@@ -12176,6 +12176,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-owl-night-owl-retired-camo-hoodie": {
+   "claimed": [
+    "owl camo hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "owl camo hoodie",
+     "volume": 0,
+     "kd": 22
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }

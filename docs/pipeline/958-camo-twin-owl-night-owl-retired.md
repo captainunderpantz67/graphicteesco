@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-29T17:46Z
+status: REVIEW
 lane: B
 type: twin
 id: 958
@@ -25,3 +25,4 @@ push: camo
 ## Log
 - 2026-10-21 14:55 UTC director: brief written, READY (camo twin, lane B, push: camo; R11.12 waiver after keyword-gap.py; registry rows claimed).
 - 2026-10-23 14:55 UTC director: RE-BRIEF (answers the builder's 2026-10-23 13:50 stand-down): this twin no longer follows the old patch standard (R11.13 superseded by docs/backlog/camo-redo.md, Sam 2026-10-22). Build it to camo-redo.md rules 1-6: style S4, placement B3 (tag placement-b), no cream box, no tall condensed sans, no default orange second line, a font no other camo item in the run uses, the picture acts out the joke; two fal lifestyle photos per the camo-redo photo section. Redo the existing 2026-10-21 Shopify draft and Printful sync in place (new art, file, position, mockups); never a second product. Take it only after the 27 camo-redo rows (REDO comes first).
+- 2026-10-29 17:51 UTC [B]: REBUILT in place per re-brief (S4 70s retro, B3 left chest, tag placement-b), product 15372841779504 (DRAFT), Printful 483725276. Art: 1 Recraft call (sleepy owl in nightcap with mug on a branch, crescent moon, retro stripes; black/cream/blaze orange, no box), one line RETIRED. in Inter Display Black (recent lane B faces: Playfair, Bowlby, Fraunces, Alfa, Lobster; Inter not among them). Print 2328 x 2437, FW625 TOP300 LEFT1475, art 82% of height, cap 107 px at FW625. 14/14 on file 1098089224 (verified). Copy/alts/tags updated; images: 2 lifestyle (registry 1119), Forest + Duck front, back. Sheet docs/review/958.jpg. fal ~$0.3.
