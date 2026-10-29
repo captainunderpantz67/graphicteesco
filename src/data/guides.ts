@@ -1837,6 +1837,91 @@ export const allGuides: Guide[] = [
     ],
     draft: true,
   },
+  {
+    // Writer lane W (2026-10-29). Keyword: christmas gifts for nurses 1,300 / KD 17 (RankHero via scripts/keyword-gap.py, measured 2026-10-29). Unowned: no hit in product-keyword-map.json, collections.ts or guides. ("christmas gifts for teachers" 27,100 / KD 52 is too hard; husband, wife, mom and brother are claimed by products in the map.) Hub keywords "nurse shirts" and "nurse sweatshirt" stay with their collections.
+    // Facts (prices, colors, policies) come from site.ts, the sibling guides and each product's live Shopify Story (read 2026-10-29): art descriptions describe only what the live Story says. FAQ questions are not from PAA or GSC (not available unattended).
+    // Christmas Nurse tee is NICE LIST NURSE; its crewneck is a different line (CHECKING IT TWICE. CHARTING IT THREE TIMES.), so the pick says so. Build drops any pick that is not live.
+    // Planned siblings (not live yet): christmas-gifts-for-teachers, christmas-gifts-for-mom, christmas-gifts-for-wife.
+    slug: 'christmas-gifts-for-nurses',
+    keyword: 'christmas gifts for nurses',
+    title: 'Christmas Gifts for Nurses: 4 Funny Shirts and Sweatshirts They Will Wear',
+    description: 'Christmas gifts for nurses that are not scrubs: Nice List Nurse, Charting Is My Cardio, Calm Face, Loud Brain and Awake. Regrettably. Tees $24.99, crewnecks $34.99.',
+    h1: 'Christmas Gifts for Nurses: Funny Shirts and Sweatshirts for the Ones Working the Holidays',
+    date: '2026-10-29',
+    cluster: 'christmas',
+    answer: 'A good Christmas gift for a nurse is something to wear off the clock that jokes about the job she actually does. Graphic Tees Co. has four: Christmas Nurse (tee $24.99, crewneck $34.99), Charting Is My Cardio (tee $24.99, crewneck $34.99), Calm Face, Loud Brain (crewneck $34.99) and an embroidered Awake. Regrettably. crewneck ($39.99). Each is original art, printed after you order. Order by December 4, 2026.',
+    picks: [
+      {
+        h2: 'What is a Christmas gift for a nurse who is working Christmas Eve?',
+        body: ['Christmas Nurse. It is for the nurse handing out warm blankets and cookies between call lights, and it looks festive without looking like a uniform.'],
+        items: [
+          { slogan: 'NICE LIST NURSE', tee: 'womens-christmas-christmas-nurse-graphic-tee', crewneck: 'womens-christmas-christmas-nurse-crewneck-sweatshirt',
+            text: 'A clean retro illustration of an old-fashioned nurse cap with a red band and a sprig of holly, sitting above a stethoscope curved into a wreath with pine branches and little red Christmas bulbs, with candy canes, holly and small stars floating around it. The tee has NICE LIST NURSE in bold navy capitals underneath. The crewneck carries the same cap and stethoscope with CHECKING IT TWICE. in navy capitals and CHARTING IT THREE TIMES. in red. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/nurse-shirts/', text: 'Nurse shirts' }],
+      },
+      {
+        h2: 'What do you give a nurse who finishes the notes after the shift?',
+        body: ['Charting Is My Cardio. Every nurse who has typed up a chart at the end of twelve hours knows exactly how true it is.'],
+        items: [
+          { slogan: 'CHARTING IS MY CARDIO', tee: 'womens-nurse-charting-is-my-cardio-graphic-tee', crewneck: 'womens-nurse-charting-is-my-cardio-crewneck-sweatshirt',
+            text: 'A vintage clipboard holds a patient chart whose heart-rate line runs off the page and turns into a jogging track, with a stethoscope draped over the board and a pair of retro sneakers at the bottom. CHARTING IS MY CARDIO is lettered above in chunky teal and coral. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/nurse-sweatshirts/', text: 'Nurse sweatshirts' }, { href: '/products/womens-nurse-charting-is-my-cardio-hoodie/', text: 'Charting Is My Cardio hoodie' }],
+      },
+      {
+        h2: 'What is a good gift for a nurse who stays calm and screams inside?',
+        body: ['Calm Face, Loud Brain. It is steady at the bedside, running six alarms in her head, and the coworkers laugh because it is their face too.'],
+        items: [
+          { slogan: 'CALM FACE. LOUD BRAIN.', tee: 'unisex-nurse-calm-face-loud-brain-crewneck-sweatshirt',
+            text: 'CALM FACE. sits in cream condensed capitals above a heart-rate monitor line that runs steady, tangles into a scribbled knot in the middle and settles again, with LOUD BRAIN. in coral capitals below, in red and cream line work. The unisex crewneck is $34.99 in Sand and Navy.' },
+        ],
+        links: [{ href: '/products/unisex-nurse-calm-face-loud-brain-hoodie/', text: 'Calm Face, Loud Brain hoodie' }, { href: '/products/unisex-nurse-calm-face-loud-brain-socks/', text: 'Calm Face, Loud Brain socks' }],
+      },
+      {
+        h2: 'What do you give a night-shift nurse?',
+        body: ['Awake. Regrettably. It is the 3 a.m. status report of every night-shift nurse, stitched small on the chest.'],
+        items: [
+          { slogan: 'AWAKE. REGRETTABLY.', tee: 'womens-nurse-embroidered-night-shift-silly-goose-crewneck-sweatshirt',
+            text: 'A tired goose in scrubs and a small nurse cap, with a stethoscope around its neck and a to-go coffee cup in one wing, stands under a crescent moon and two small stars, stitched at the center of the chest in navy thread. AWAKE. in huge bold capitals and REGRETTABLY. sit underneath. It is an 8 oz fleece crewneck in Sand or Sport Grey, $39.99.' },
+        ],
+        links: [{ href: '/embroidered-sweatshirts/', text: 'Embroidered sweatshirts' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good Christmas gift for a nurse?',
+        body: ['Something she can wear on her day off that jokes about the work she does. Nurses already own the scrubs and the compression socks; a shirt about the Q word or the charting reads as a gift from someone who gets it.',
+          'Graphic Tees Co. designs are original art with the joke set in big type. They use no hospital, school or scrub-brand logos.'],
+        links: [{ href: '/nurse-shirts/', text: 'Nurse shirts' }] },
+      { h2: 'Should you give a nurse a tee, a crewneck or a hoodie?',
+        body: ['A tee is $24.99 and layers under a scrub jacket on casual days if her unit allows it. A crewneck is $34.99 in an 8 oz cotton-poly fleece, warm for the walk to the parking garage after a shift.',
+          'The Calm Face, Loud Brain and Charting Is My Cardio hoodies are $39.99 through November 30, 2026 ($44.99 from December 1).'],
+        links: [{ href: '/christmas-sweatshirts/', text: 'Christmas sweatshirts' }, { href: '/guides/thick-hoodies/', text: 'Thick hoodies: how thick is 10 oz' }] },
+      { h2: 'What is a good Christmas gift for a nurse under $30?',
+        body: ['A tee at $24.99: Christmas Nurse or Charting Is My Cardio. For a stocking stuffer, the Calm Face, Loud Brain socks are $18.99 and match the crewneck, so a pair plus the crewneck makes a set.'],
+        links: [{ href: '/products/unisex-nurse-calm-face-loud-brain-socks/', text: 'Calm Face, Loud Brain socks' }] },
+      { h2: 'Can she wear it to work?',
+        body: ['These are graphic tees and sweatshirts, not scrubs. Many nurses wear them on days off, at unit holiday parties and for the drive home; check your workplace dress code before wearing one on shift.'] },
+      { h2: 'What if the size is wrong?',
+        body: ['Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and she does not have to mail the first one back.',
+          'If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'When should you order Christmas gifts for a nurse?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, which is up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find gifts for the people on your list?',
+        body: ['For a coworker swap, see our coworkers guide. For the women in the family, see our sister and daughter guides.'],
+        links: [{ href: '/guides/christmas-gifts-for-coworkers/', text: 'Christmas gifts for coworkers' }, { href: '/guides/christmas-gifts-for-sister/', text: 'Christmas gifts for sister' }, { href: '/guides/christmas-gifts-for-daughter/', text: 'Christmas gifts for daughter' }, { href: '/christmas-shirts/', text: 'All Christmas shirts' }] },
+    ],
+    faqs: [
+      { q: 'What are good Christmas gifts for nurses?', a: 'A shirt that jokes about the job, like Charting Is My Cardio or Christmas Nurse from Graphic Tees Co. Tees are $24.99, crewnecks are $34.99, all printed to order.' },
+      { q: 'What is a good Christmas gift for a nurse under $30?', a: 'The Graphic Tees Co. Christmas Nurse or Charting Is My Cardio tee at $24.99, or Calm Face, Loud Brain socks at $18.99.' },
+      { q: 'What is a good gift for a night-shift nurse?', a: 'The embroidered Awake. Regrettably. crewneck from Graphic Tees Co., $39.99 in Sand or Sport Grey. A tired goose in scrubs holds a coffee, stitched in navy thread on the chest.' },
+      { q: 'Can nurses wear graphic tees to work?', a: 'It depends on the unit. Graphic Tees Co. nurse shirts are made for days off and holiday parties, not as scrubs, so check your workplace dress code.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+      { q: 'When should I order a Christmas gift for a nurse?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. Exact estimates show at checkout.' },
+    ],
+    draft: true,
+  },
 ];
 
 // Only approved guides are built and linked.
