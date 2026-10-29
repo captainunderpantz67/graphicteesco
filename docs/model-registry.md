@@ -915,7 +915,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1120 | Latina woman, early 30s, shoulder-length wavy brown hair, medium build | USED 2026-10-21 — #851 Essentials oatmeal zip couple cover |
 | 1121 | Nigerian-American man, early 30s, short natural hair and trimmed beard, tall slim build | USED 2026-10-21 — #851 Essentials oatmeal zip couple cover |
 | 1122 | White man, late 40s, salt-and-pepper beard, broad build | USED 2026-10-29 — #962 camo twin |
-| 1123 | Mexican-American man, mid 30s, short black hair, stocky build | CLAIMED 2026-10-21 — #963 camo cover (brief) |
+| 1123 | Mexican-American man, mid 30s, short black hair, stocky build | USED 2026-10-29 — #963 camo twin |
 | 1124 | Black man, early 40s, shaved head, short beard, athletic build | CLAIMED 2026-10-21 — #964 camo cover (brief) |
 | 1125 | White man, mid 20s, curly red hair, slim build | CLAIMED 2026-10-21 — #965 camo cover (brief) |
 | 1126 | Filipina woman, mid 30s, long black hair tied back, medium build | CLAIMED 2026-10-21 — #966 camo cover (brief) |

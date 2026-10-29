@@ -1,4 +1,5 @@
-RUNNING lane B since 2026-10-29 21:40 UTC
+2026-10-29 22:50 UTC — [B] Builder run end: 2 items, camo twins #962 (S5 sketchbook, A+) and #963 (S6 varsity squirrel, B3), both rebuilt in place, DRAFT for director. New products today: 0 of 6 (in-place rebuilds). fal ~$0.35. Lock released.
+2026-10-29 22:50 UTC — [B] REVIEW #963 Men's Hunting – Sat 11 Hours. Saw a Squirrel. Camo Hoodie (camo twin rebuilt, S6 on B3, FW625 TOP300 LEFT1475, 14/14 on 1098241791, Rye cap 67 px, art 89% of height; 2 lifestyle photos). Product still DRAFT.
 2026-10-29 22:10 UTC — [B] REVIEW #962 Men's Hunting – Today's Special: Tag Soup Camo Hoodie (camo twin rebuilt, S5 sketchbook on A+, FW1500 TOP400, 14/14 on 1098238312, headline 2544 / punch 2972 px = 117%, subject 63%, Caveat Brush; 2 lifestyle photos). Product still DRAFT. fal ~$0.17
 2026-10-29 17:51 UTC — [B] Builder run end: 2 items, #956 REDO (S2 field-guide plate) and #958 camo twin (S4 retro owl, B3), both DRAFT for director. New products today: 0 of 6. fal ~$1.0. Lock released.
 2026-10-29 17:51 UTC — [B] REVIEW #958 Women's Owl – Night Owl, Retired Camo Hoodie (camo twin rebuilt, S4 on B3, FW625 TOP300 LEFT1475, 14/14 on 1098089224, RETIRED. Inter Black cap 107 px, art 82% of height; 2 lifestyle photos). Product still DRAFT.
