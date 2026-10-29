@@ -12202,6 +12202,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-hunting-sat-11-hours-saw-a-squirrel-camo-hoodie": {
+   "claimed": [
+    "tree stand camo hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "tree stand camo hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
