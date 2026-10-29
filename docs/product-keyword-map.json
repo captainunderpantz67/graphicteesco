@@ -12189,6 +12189,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-hunting-todays-special-tag-soup-camo-hoodie": {
+   "claimed": [
+    "deer hunting camo hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "deer hunting camo hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }

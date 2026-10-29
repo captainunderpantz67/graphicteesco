@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-29T21:40Z
+status: REVIEW
 lane: B
 type: twin
 id: 962
@@ -26,3 +26,4 @@ push: camo
 ## Log
 - 2026-10-21 15:55 UTC director: brief written, READY (camo twin, lane B, push: camo; R11.12 waiver after keyword-gap.py; registry rows claimed).
 - 2026-10-23 14:55 UTC director: RE-BRIEF (answers the builder's 2026-10-23 13:50 stand-down): this twin no longer follows the old patch standard (R11.13 superseded by docs/backlog/camo-redo.md, Sam 2026-10-22). Build it to camo-redo.md rules 1-6: style S5, placement A+ (tag placement-a), no cream box, no tall condensed sans, no default orange second line, a font no other camo item in the run uses, the picture acts out the joke; two fal lifestyle photos per the camo-redo photo section. Redo the existing 2026-10-21 Shopify draft and Printful sync in place (new art, file, position, mockups); never a second product. Take it only after the 27 camo-redo rows (REDO comes first).
+- 2026-10-29 22:10 UTC [B]: REBUILT in place per re-brief (S5 sketchbook, A+ center chest, tag placement-a), product 15372842434864 (DRAFT), Printful 483725287. Art: 1 Recraft call (ink-and-watercolor camp pot, antlers in the soup, ladle with deer tag; black/cream/blaze), lettering Caveat Brush (recent lane B faces: Inter, Bowlby, Playfair, Fraunces, Alfa; not among them). Print 2972 x 3326, FW1500 TOP400 (h 1679, fits 2100). headline 2544 / punch 2972 px = 117%, subject 63% of lockup, punch cap 320 px at FW1500. 14/14 on file 1098238312 (verified). Copy/alts/tags updated; images: 2 lifestyle (registry 1122), Deadwood + Forest front, back. Sheet docs/review/962.jpg. fal ~$0.17.

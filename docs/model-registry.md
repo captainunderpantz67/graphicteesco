@@ -914,7 +914,7 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1119 | Native Hawaiian woman, early 40s, long dark wavy hair tied back, medium build | USED 2026-10-29 — #958 camo photos 1+2 |
 | 1120 | Latina woman, early 30s, shoulder-length wavy brown hair, medium build | USED 2026-10-21 — #851 Essentials oatmeal zip couple cover |
 | 1121 | Nigerian-American man, early 30s, short natural hair and trimmed beard, tall slim build | USED 2026-10-21 — #851 Essentials oatmeal zip couple cover |
-| 1122 | White man, late 40s, salt-and-pepper beard, broad build | CLAIMED 2026-10-21 — #962 camo cover (brief) |
+| 1122 | White man, late 40s, salt-and-pepper beard, broad build | USED 2026-10-29 — #962 camo twin |
 | 1123 | Mexican-American man, mid 30s, short black hair, stocky build | CLAIMED 2026-10-21 — #963 camo cover (brief) |
 | 1124 | Black man, early 40s, shaved head, short beard, athletic build | CLAIMED 2026-10-21 — #964 camo cover (brief) |
 | 1125 | White man, mid 20s, curly red hair, slim build | CLAIMED 2026-10-21 — #965 camo cover (brief) |
