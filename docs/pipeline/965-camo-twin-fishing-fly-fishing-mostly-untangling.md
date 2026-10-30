@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-30T14:12Z
+status: REVIEW
 lane: B
 type: twin
 id: 965
@@ -26,3 +26,4 @@ push: camo
 ## Log
 - 2026-10-21 15:55 UTC director: brief written, READY (camo twin, lane B, push: camo; R11.12 waiver after keyword-gap.py; registry rows claimed).
 - 2026-10-23 14:55 UTC director: RE-BRIEF (answers the builder's 2026-10-23 13:50 stand-down): this twin no longer follows the old patch standard (R11.13 superseded by docs/backlog/camo-redo.md, Sam 2026-10-22). Build it to camo-redo.md rules 1-6: style S9, placement B3 (tag placement-b), no cream box, no tall condensed sans, no default orange second line, a font no other camo item in the run uses, the picture acts out the joke; two fal lifestyle photos per the camo-redo photo section. Redo the existing 2026-10-21 Shopify draft and Printful sync in place (new art, file, position, mockups); never a second product. Take it only after the 27 camo-redo rows (REDO comes first).
+- 2026-10-30 14:55 UTC [B]: REBUILT in place per re-brief (S9 woodcut, B3 small left chest, tag placement-b), product 15372843811120 (DRAFT), Printful 483725387. Art: 1 Recraft call (tangled fly line on rod and reel, grumpy trout, black ink), lettering Graduate (recent lane B faces: Damion, Bevan, Rye, Caveat Brush, Inter; not among them), line MOSTLY UNTANGLING. (2 words+, setup moved to title/copy). Print 1978 x 2023, FW625 TOP300 LEFT1475 (h 639), art 74% of height, cap 233 px = 74 px at FW625. 14/14 on file 1098676484 (verified, back logo 1080398177). New title 'Men's Fishing – Mostly Untangling Fly Fishing Camo Hoodie' (7i), SEO, copy, alts, tags updated. Images: 2 lifestyle (registry 1125; stream at first light on Forest, tailgate dusk on Duck; caption soft blur, icon matches), Forest + Duck front, back. Sheet docs/review/965.jpg. Local audit not run (draft, no spec). fal ~$0.19.

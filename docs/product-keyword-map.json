@@ -12228,6 +12228,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-fishing-fly-fishing-mostly-untangling-camo-hoodie": {
+   "claimed": [
+    "fly fishing camo hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "fly fishing camo hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
