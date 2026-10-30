@@ -2002,6 +2002,88 @@ export const allGuides: Guide[] = [
     ],
     draft: true,
   },
+  {
+    // Writer lane W (2026-10-30). Keyword: christmas gifts for sister in law 3,600 / KD 14 (RankHero via scripts/keyword-gap.py, measured 2026-10-30). Unowned: no hit in product-keyword-map.json, collections.ts or guides. ("sister" is its own guide; this targets the in-law variant.)
+    // Facts (prices, policies) come from site.ts and the sibling guides; art descriptions come from each product's live Shopify Story (read 2026-10-30). FAQ questions are not from PAA or GSC (not available unattended).
+    // Picks: Santa Gets All the Credit, Cat Allegedly., Take 41. Still Smiling. (Card Photo Survivor), We Said No Gifts. Build drops any pick that is not live.
+    // Planned siblings (not live yet): christmas-gifts-for-son, christmas-gifts-for-mom, christmas-gifts-for-wife.
+    slug: 'christmas-gifts-for-sister-in-law',
+    keyword: 'christmas gifts for sister in law',
+    title: 'Christmas Gifts for Sister in Law: 4 Funny Shirts She Will Actually Wear',
+    description: 'Christmas gifts for sister in law: Santa Gets All the Credit, Cat Allegedly, Take 41 and We Said No Gifts. Tees $24.99, crewnecks $34.99.',
+    h1: 'Christmas Gifts for Sister in Law: Funny, Low-Risk Shirts She Will Actually Wear',
+    date: '2026-10-30',
+    cluster: 'christmas',
+    answer: 'A good Christmas gift for a sister in law is a funny shirt that is friendly, not too personal, and easy to size. Graphic Tees Co. has four: Santa Gets All the Credit (tee $24.99, crewneck $34.99), Cat Allegedly. (tee $24.99, crewneck $34.99), Take 41. Still Smiling. (tee $24.99, crewneck $34.99) and We Said No Gifts (tee $24.99, crewneck $34.99). Each is original art, printed after you order. Order by December 4, 2026.',
+    picks: [
+      {
+        h2: 'What do you give a sister in law who handles all the wrapping?',
+        body: ['Santa Gets All the Credit. It is for the sister in law whose family Christmas only happens because she did the shopping, the wrapping and the hiding.'],
+        items: [
+          { slogan: 'SANTA GETS ALL THE CREDIT', tee: 'womens-christmas-santa-gets-all-the-credit-graphic-tee', crewneck: 'womens-christmas-santa-gets-all-the-credit-crewneck-sweatshirt',
+            text: 'A small cluster of art in cherry red, soft pink and pine green: a square red gift tied with a big pink satin bow, a vintage tape dispenser nearly out of tape and a pair of open pink-handled scissors, with holly sprigs and a curl of ribbon between them. SANTA GETS sits above in cherry-red capitals and ALL THE CREDIT sits below in pine green. The women\'s relaxed tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/christmas-shirts-for-women/', text: 'Women\'s Christmas shirts' }],
+      },
+      {
+        h2: 'What is a funny gift for a sister in law with a cat?',
+        body: ['Cat Allegedly. It is for the cat-owning sister in law who has seen the ornament on the floor and heard nothing.'],
+        items: [
+          { slogan: 'ALLEGEDLY.', tee: 'womens-christmas-cat-allegedly-graphic-tee', crewneck: 'womens-christmas-cat-allegedly-crewneck-sweatshirt',
+            text: 'A storybook-style tuxedo cat sits upright on a braided red and cream rug, eyes half-closed, licking one raised paw, with a shattered red glass ornament in pieces beside it and the lower branches of a tree behind. ALLEGEDLY. runs underneath in faded red with a cream edge. The women\'s tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/christmas-sweatshirts/', text: 'Christmas sweatshirts' }],
+      },
+      {
+        h2: 'What do you give a sister in law who keeps the family photo tradition going?',
+        body: ['Take 41. Still Smiling. It is for the sister in law who organizes the Christmas card photo and never gets a clean take.'],
+        items: [
+          { slogan: 'TAKE 41. STILL SMILING.', tee: 'unisex-christmas-card-photo-survivor-graphic-tee', crewneck: 'unisex-christmas-card-photo-survivor-crewneck-sweatshirt',
+            text: 'A family of four in matching red knit sweaters squeezes together in front of a decorated tree in a vintage 1960s Christmas card scene: dad runs back into the frame from a camera on a tripod, mom smiles through her teeth, a kid blinks and the dog looks the wrong way. TAKE 41. sits under the scene in red serif capitals and STILL SMILING. below it in navy. It is a unisex cut. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/christmas-shirts/', text: 'Christmas shirts' }],
+      },
+      {
+        h2: 'What is a good gift for a sister in law and her husband, your brother?',
+        body: ['We Said No Gifts. It is for the couple who swears every year it is a no-gift Christmas. Each tee is sold singly, so a pair means two in the cart.'],
+        items: [
+          { slogan: 'WE SAID NO GIFTS. We lied.', tee: 'unisex-christmas-we-said-no-gifts-graphic-tee', crewneck: 'unisex-christmas-we-said-no-gifts-crewneck-sweatshirt',
+            text: 'A 1960s storybook scene in faded red, mustard, pine green and cream: a smiling husband in a cardigan and a wife in a sweater and pleated skirt stand back to back in front of a small decorated tree, each holding a wrapped present with a bow on the side the other cannot see. WE SAID NO GIFTS. runs across the top in red slab capitals and We lied. sits below in black script. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/guides/christmas-gifts-for-friends/', text: 'Christmas gifts for friends' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good Christmas gift for a sister in law?',
+        body: ['Something friendly that costs about what you would spend on a nice lunch. You may not know her taste as well as a sister\'s, so a joke about wrapping, the cat or the family photo is safer than anything personal.',
+          'Graphic Tees Co. designs are original art with the joke set in big type. They use no team, brand or character logos, so there is nothing to explain.'],
+        links: [{ href: '/christmas-shirts/', text: 'Christmas shirts' }] },
+      { h2: 'What are good Christmas gifts for a sister in law under $30?',
+        body: ['Every tee here is $24.99: Santa Gets All the Credit, Cat Allegedly., Take 41. Still Smiling. and We Said No Gifts. For a sister in law you want to treat a little more, the matching crewnecks are $34.99. US shipping is free on orders of $45 or more, so a tee plus a crewneck for two people clears it.'] },
+      { h2: 'Should you pick a tee or a crewneck?',
+        body: ['A tee is $24.99 in a lightweight 4.2 oz cotton cut. A crewneck is $34.99 in an 8 oz cotton-poly fleece.',
+          'For a sister in law who runs cold, choose the crewneck. If you are not sure, the tee is the easier gift.'],
+        links: [{ href: '/christmas-sweatshirts/', text: 'Christmas sweatshirts' }, { href: '/guides/thick-hoodies/', text: 'Thick hoodies: how thick is 10 oz' }] },
+      { h2: 'What if you do not know her size?',
+        body: ['Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and she does not have to mail the first one back. Check the size chart on the product page against a shirt she already wears. Cat Allegedly. and Santa Gets All the Credit are women\'s relaxed cuts. Take 41. and We Said No Gifts are unisex.',
+          'If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'When should you order a Christmas gift for a sister in law?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, which is up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find gifts for the people on your list?',
+        body: ['For your own sister, see our sister guide. For the whole family swap, see our white elephant guide.'],
+        links: [{ href: '/guides/christmas-gifts-for-sister/', text: 'Christmas gifts for sister' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }, { href: '/guides/christmas-gifts-for-grandma/', text: 'Christmas gifts for grandma' }, { href: '/christmas-shirts/', text: 'All Christmas shirts' }] },
+    ],
+    faqs: [
+      { q: 'What are good Christmas gifts for a sister in law?', a: 'A funny shirt that is friendly and easy to size, like Santa Gets All the Credit or Cat Allegedly. from Graphic Tees Co. Tees are $24.99, crewnecks are $34.99, all printed to order.' },
+      { q: 'What is a good Christmas gift for a sister in law under $30?', a: 'Any Graphic Tees Co. Christmas tee here: Santa Gets All the Credit, Cat Allegedly., Take 41. Still Smiling. or We Said No Gifts. Each is $24.99 and printed after you order.' },
+      { q: 'What is a funny Christmas gift for a sister in law?', a: 'Take 41. Still Smiling. from Graphic Tees Co.: a vintage-style family card photo gone wrong, with the self-timer, the dog and the pained blink. The tee is $24.99 and the crewneck is $34.99.' },
+      { q: 'Is a Christmas crewneck a good gift for a sister in law?', a: 'Yes, if she runs cold. Graphic Tees Co. crewnecks are $34.99 in an 8 oz cotton-poly fleece, and US shipping is free on orders of $45 or more.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and she does not have to mail the first one back.' },
+      { q: 'When should I order a Christmas gift for my sister in law?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. Exact estimates show at checkout.' },
+    ],
+    draft: true,
+  },
 ];
 
 // Only approved guides are built and linked.
