@@ -12241,6 +12241,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-fishing-out-fished-him-again-camo-hoodie": {
+   "claimed": [
+    "womens fishing camo hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "womens fishing camo hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
