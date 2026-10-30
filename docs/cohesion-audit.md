@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-29 23:44 UTC
+# Cohesion audit — 2026-10-30 15:26 UTC
 
-756 live products checked · **0 errors** · 457 warnings · 431 products with findings
+762 live products checked · **0 errors** · 466 warnings · 437 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -1261,6 +1261,13 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Men's Wolf – Lone Wolf. Early Bedtime. Embroidered Zip Hoodie `mens-wolf-lone-wolf-early-bedtime-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Women's Retro – Loose Goose Embroidered Zip Hoodie `womens-retro-loose-goose-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Pilates – I Have Core Issues Embroidered Zip Hoodie `womens-pilates-core-issues-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+- **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
+
 ### Unisex Pit Bull – Professional Lap Dog Embroidered Zip Hoodie `unisex-pit-bull-professional-lap-dog-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
@@ -1284,6 +1291,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Unisex National Park – Running Late. Bison Traffic. Embroidered Zip Hoodie `unisex-national-park-running-late-bison-traffic-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Hockey – Cold Rink, Hot Takes. Embroidered Zip Hoodie `womens-hockey-cold-rink-hot-takes-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Men's Welder – If You Can Step Over It, I Can Fill It. Embroidered Zip Hoodie `mens-welder-if-you-can-step-over-it-embroidered-zip-hoodie`
@@ -1323,5 +1333,16 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Unisex National Park – Running Late. Bison Traffic. Camo Hoodie `unisex-national-park-running-late-bison-traffic-camo-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Unisex Outdoors – Went Outside. It Was Fine. Camo Hoodie `unisex-outdoors-went-outside-it-was-fine-camo-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+- **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
+
 ### Men's Fishing – You Catching 'Em? No. Keep Walking. Camo Hoodie `mens-fishing-you-catching-em-keep-walking-camo-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Owl – Night Owl, Retired Camo Hoodie `womens-owl-night-owl-retired-camo-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+- **WARN** No meta description. → Write one ≤ 155 chars.
+
+### Men's Hunting – Today's Special: Tag Soup Camo Hoodie `mens-hunting-todays-special-tag-soup-camo-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.

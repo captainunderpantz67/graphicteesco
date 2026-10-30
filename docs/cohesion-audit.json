@@ -1,6 +1,6 @@
 {
- "at": "2026-10-29T23:44:20.067Z",
- "products": 756,
+ "at": "2026-10-30T15:26:57.120Z",
+ "products": 762,
  "findings": [
   {
    "level": "WARN",
@@ -3042,6 +3042,27 @@
   },
   {
    "level": "WARN",
+   "handle": "womens-retro-loose-goose-embroidered-zip-hoodie",
+   "title": "Women's Retro – Loose Goose Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-pilates-core-issues-embroidered-zip-hoodie",
+   "title": "Women's Pilates – I Have Core Issues Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-pilates-core-issues-embroidered-zip-hoodie",
+   "title": "Women's Pilates – I Have Core Issues Embroidered Zip Hoodie",
+   "msg": "No SEO title.",
+   "fix": "Write one ≤ 60 chars with the primary keyword."
+  },
+  {
+   "level": "WARN",
    "handle": "unisex-pit-bull-professional-lap-dog-embroidered-zip-hoodie",
    "title": "Unisex Pit Bull – Professional Lap Dog Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
@@ -3100,6 +3121,13 @@
    "level": "WARN",
    "handle": "unisex-national-park-running-late-bison-traffic-embroidered-zip-hoodie",
    "title": "Unisex National Park – Running Late. Bison Traffic. Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-hockey-cold-rink-hot-takes-embroidered-zip-hoodie",
+   "title": "Women's Hockey – Cold Rink, Hot Takes. Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
@@ -3196,8 +3224,43 @@
   },
   {
    "level": "WARN",
+   "handle": "unisex-outdoors-went-outside-it-was-fine-camo-hoodie",
+   "title": "Unisex Outdoors – Went Outside. It Was Fine. Camo Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-outdoors-went-outside-it-was-fine-camo-hoodie",
+   "title": "Unisex Outdoors – Went Outside. It Was Fine. Camo Hoodie",
+   "msg": "No SEO title.",
+   "fix": "Write one ≤ 60 chars with the primary keyword."
+  },
+  {
+   "level": "WARN",
    "handle": "mens-fishing-you-catching-em-keep-walking-camo-hoodie",
    "title": "Men's Fishing – You Catching 'Em? No. Keep Walking. Camo Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-owl-night-owl-retired-camo-hoodie",
+   "title": "Women's Owl – Night Owl, Retired Camo Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-owl-night-owl-retired-camo-hoodie",
+   "title": "Women's Owl – Night Owl, Retired Camo Hoodie",
+   "msg": "No meta description.",
+   "fix": "Write one ≤ 155 chars."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-hunting-todays-special-tag-soup-camo-hoodie",
+   "title": "Men's Hunting – Today's Special: Tag Soup Camo Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   }
