@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [B] 2026-10-30T14:12Z
 lane: B
 type: twin
 id: 965
