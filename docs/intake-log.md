@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-30 14:43 UTC
 2026-10-30 14:56 UTC — [B] Builder run end: 2 items, camo twins #964 (S7 sign painter, A+) and #965 (S9 woodcut, B3), both rebuilt in place, DRAFT for director. New products today: 0 of 6 (in-place rebuilds). fal ~$0.45. Lock released.
 2026-10-30 14:55 UTC — [B] REVIEW #965 Men's Fishing – Mostly Untangling Fly Fishing Camo Hoodie (camo twin rebuilt, S9 on B3, FW625 TOP300 LEFT1475, 14/14 on 1098676484, art 74% of height, cap 74 px at FW625, Graduate; 2 lifestyle photos). Product still DRAFT. fal ~$0.19
 2026-10-30 14:10 UTC — [B] REVIEW #964 Men's Fishing – Catch and Release (Mostly Release) Camo Hoodie (camo twin rebuilt, S7 on A+, FW1500 TOP400, 14/14 on 1098670011, headline 1955 / punch 2181 px = 112%, subject 52%, Damion + Bevan; photo 1 dock, photo 2 flat after 3 garbled-script tries). Product still DRAFT. fal ~$0.26
