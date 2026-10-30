@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-30T21:28Z
+status: REVIEW
 lane: B
 type: twin
 id: 963
@@ -32,3 +32,4 @@ push: camo
   2. camo-redo rule 6 (no siblings): the squirrel is drawn in the same flat thick-outline toy-cartoon rendering as #957 (scowl, chunky cream boots with the orange dot, black wrist cuffs, black/cream/blaze orange). On the camo grid they read as one series. Redraw the mascot as a classic varsity mascot (bold collegiate mascot illustration, chest-out pose, sweater or letter-jacket feel, two-tone shading), different boots/hands from #957.
   3. R5.3.4 (cue reads right): the stand's support reads as a black-and-white striped barber pole. Draw a ladder stand or a plain timber/steel post so a hunter names it instantly.
   New mockups, both photos redone from the new mockup (waist-up B3 rule), new sheet with photo 1 in the COVER slot.
+- 2026-10-30 21:37 UTC [B]: REBUILT again after REDO: new Recraft art (chest-out varsity mascot squirrel in a black letter jacket, fists on hips, on the platform of a plain steel ladder tree stand, no stripes), S6, line SAW A SQUIRREL. arched over the mascot in Graduate (collegiate; last lane B faces Cinzel, Graduate, Damion, Bevan, Rye; Graduate is the S6 face and the director named it for varsity), print 2107 x 2132, FW625 TOP300 LEFT1475, art 75% of height (1023 px of 2107 wide = 49% of the line), cap about 56 px at FW625. White gaps knocked out, cream halo. File changed (md5 differs from old print). 14/14 on file 1098993645 (verified). 2 new lifestyle photos from the new mockups (registry 1123; Black Camo at dusk with game bag, Forest Camo by a ladder stand at sunset; photo 1 retried once for a tee, photo 2 twice for zip seam and stray text; chest caption soft). Copy updated (mascot, stand, arch). Sheet docs/review/963.jpg. fal ~$0.34.
