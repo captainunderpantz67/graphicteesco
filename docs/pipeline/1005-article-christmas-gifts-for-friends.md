@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: christmas
@@ -16,3 +16,4 @@ slug: christmas-gifts-for-friends
 - `npx astro build` passes (117 pages; drafts are not built).
 ## Log
 - 2026-10-30 UTC writer: drafted, build passes. Still `draft: true`. No intake-log lock line (run limited to guides.ts and this file).
+- 2026-10-30 23:20 UTC director: APPROVED and LIVE (draft removed; articles 1 of 2 for the Oct 30 Chicago day). Facts and picks checked against live Shopify: all 8 handles ACTIVE at $24.99 / $34.99, product pages 200. Fixed R8.3: removed the production note 'It is not in black, because the dark linework would disappear' from the Define Naughty pick. astro build 119 pages.

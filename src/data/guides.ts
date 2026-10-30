@@ -1948,7 +1948,7 @@ export const allGuides: Guide[] = [
         body: ['Define Naughty. It is for the friend with an argument ready every time Santa checks the list.'],
         items: [
           { slogan: 'DEFINE NAUGHTY', tee: 'mens-christmas-define-naughty-graphic-tee', crewneck: 'unisex-christmas-define-naughty-crewneck-sweatshirt',
-            text: 'A storybook Santa in a 1950s picture-book style, with a red coat, cream fur, small round spectacles and a long scroll of names, and DEFINE NAUGHTY lettered underneath in uneven hand-drawn capitals. The edges break up into a worn screen-print texture. It is not in black, because the dark linework would disappear. The tee is $24.99 and the crewneck is $34.99.' },
+            text: 'A storybook Santa in a 1950s picture-book style, with a red coat, cream fur, small round spectacles and a long scroll of names, and DEFINE NAUGHTY lettered underneath in uneven hand-drawn capitals. The edges break up into a worn screen-print texture. The tee is $24.99 and the crewneck is $34.99.' },
         ],
         links: [{ href: '/christmas-shirts-for-men/', text: 'Men\'s Christmas shirts' }],
       },
@@ -2000,7 +2000,6 @@ export const allGuides: Guide[] = [
       { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
       { q: 'When should I order Christmas gifts for friends?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. Exact estimates show at checkout.' },
     ],
-    draft: true,
   },
   {
     // Writer lane W (2026-10-30). Keyword: christmas gifts for sister in law 3,600 / KD 14 (RankHero via scripts/keyword-gap.py, measured 2026-10-30). Unowned: no hit in product-keyword-map.json, collections.ts or guides. ("sister" is its own guide; this targets the in-law variant.)
@@ -2082,7 +2081,6 @@ export const allGuides: Guide[] = [
       { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and she does not have to mail the first one back.' },
       { q: 'When should I order a Christmas gift for my sister in law?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. Exact estimates show at checkout.' },
     ],
-    draft: true,
   },
 ];
 
