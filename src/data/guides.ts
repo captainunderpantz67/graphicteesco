@@ -1920,6 +1920,88 @@ export const allGuides: Guide[] = [
       { q: 'When should I order a Christmas gift for a nurse?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. Exact estimates show at checkout.' },
     ],
   },
+  {
+    // Writer lane W (2026-10-30). Keyword: christmas gifts for friends 12,100 / KD 10 (RankHero via scripts/keyword-gap.py, measured 2026-10-30). Unowned: no hit in product-keyword-map.json, collections.ts or guides. ("christmas gifts for best friend", "for teen girls" and "for mother in law" return no volume; men, women, him and her are KD 55+.)
+    // Facts (prices, policies) come from site.ts and the sibling guides; art descriptions come from each product's live Shopify Story (read 2026-10-30). FAQ questions are not from PAA or GSC (not available unattended).
+    // Picks: Jolly-ish, Define Naughty (unisex cut), Sleighping In, Light Show Manager. Build drops any pick that is not live.
+    // Planned siblings (not live yet): christmas-gifts-for-teachers, christmas-gifts-for-mom, christmas-gifts-for-wife.
+    slug: 'christmas-gifts-for-friends',
+    keyword: 'christmas gifts for friends',
+    title: 'Christmas Gifts for Friends: 4 Funny Shirts and Sweatshirts They Will Wear',
+    description: 'Christmas gifts for friends who have everything: Jolly-ish, Define Naughty, Sleighping In and Light Show Manager. Tees $24.99, crewnecks $34.99.',
+    h1: 'Christmas Gifts for Friends: Funny Shirts and Sweatshirts That Get a Real Laugh',
+    date: '2026-10-30',
+    cluster: 'christmas',
+    answer: 'A good Christmas gift for a friend is a shirt with a joke they will get in three seconds. Graphic Tees Co. has four: Jolly-ish (tee $24.99, crewneck $34.99), Define Naughty (tee $24.99, crewneck $34.99), Sleighping In (tee $24.99, crewneck $34.99) and Light Show Manager (tee $24.99, crewneck $34.99). Each is original art, printed after you order. Order by December 4, 2026.',
+    picks: [
+      {
+        h2: 'What is a funny Christmas gift for a friend who loves the holidays but not the last cookie?',
+        body: ['Jolly-ish. It is for the friend who is fully in the spirit right up until the gingerbread runs out.'],
+        items: [
+          { slogan: 'JOLLY-ISH', tee: 'womens-christmas-jolly-ish-graphic-tee', crewneck: 'womens-christmas-jolly-ish-crewneck-sweatshirt',
+            text: 'One big word, JOLLY-ISH, in chunky rounded letters. On the tee the letters are filled with red and green buffalo plaid, and on the crewneck JOLLY is solid red and ISH solid green, each with a cream edge. A pink satin bow sits on the lettering, with a small candy cane, a glass ornament and a sprig of holly beside it. The women\'s tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/christmas-shirts-for-women/', text: 'Women\'s Christmas shirts' }],
+      },
+      {
+        h2: 'What do you give a friend who always ends up on the naughty list?',
+        body: ['Define Naughty. It is for the friend with an argument ready every time Santa checks the list.'],
+        items: [
+          { slogan: 'DEFINE NAUGHTY', tee: 'mens-christmas-define-naughty-graphic-tee', crewneck: 'unisex-christmas-define-naughty-crewneck-sweatshirt',
+            text: 'A storybook Santa in a 1950s picture-book style, with a red coat, cream fur, small round spectacles and a long scroll of names, and DEFINE NAUGHTY lettered underneath in uneven hand-drawn capitals. The edges break up into a worn screen-print texture. It is not in black, because the dark linework would disappear. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/christmas-shirts-for-men/', text: 'Men\'s Christmas shirts' }],
+      },
+      {
+        h2: 'What is a good gift for a friend who is not getting up before nine on Christmas morning?',
+        body: ['Sleighping In. It is for the friend who finished the wrapping and would like everyone to respect the sleep-in.'],
+        items: [
+          { slogan: 'SLEIGHPING IN', tee: 'womens-christmas-sleighping-in-graphic-tee', crewneck: 'womens-christmas-sleighping-in-crewneck-sweatshirt',
+            text: 'A sleepy reindeer in a little striped nightcap curls up asleep in an old red wooden sleigh piled with patchwork quilts and pillows, with three small z\'s rising and a few snowflakes drifting by. SLEIGHPING IN arches above it in soft hand-lettered capitals. The print is worn at the edges. The women\'s tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/christmas-sweatshirts/', text: 'Christmas sweatshirts' }],
+      },
+      {
+        h2: 'What do you get the friend who does the lights every year?',
+        body: ['Light Show Manager. Every December one friend is promoted to it, with no raise and no say in the extension cords.'],
+        items: [
+          { slogan: 'LIGHT SHOW MANAGER (UNPAID)', tee: 'mens-christmas-light-show-manager-graphic-tee', crewneck: 'unisex-christmas-light-show-manager-crewneck-sweatshirt',
+            text: 'A vintage Christmas-card scene: a bearded guy in a knit cap on a wooden ladder at the roofline, tangled in a strand of oversized red, orange, sage and cream bulbs with the calmest face you have ever seen. LIGHT SHOW MANAGER arches above him in hand-drawn capitals, with (UNPAID) in small capitals beneath. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good Christmas gift for a friend?',
+        body: ['Something that fits the friend you actually have, and costs about what you would spend on a nice lunch. A shirt with a joke about the cookies, the lights or the sleep-in tells them you pay attention.',
+          'Graphic Tees Co. designs are original art with the joke set in big type. They use no team, brand or character logos, so there is nothing to explain.'],
+        links: [{ href: '/christmas-shirts/', text: 'Christmas shirts' }] },
+      { h2: 'What are good Christmas gifts for friends under $30?',
+        body: ['Every tee here is $24.99: Jolly-ish, Define Naughty, Sleighping In and Light Show Manager. For a friend you want to treat a little more, the matching crewnecks are $34.99. US shipping is free on orders of $45 or more, so a tee and a crewneck for two friends clears it.'] },
+      { h2: 'Should you pick a tee or a crewneck?',
+        body: ['A tee is $24.99 in a lightweight 4.2 oz cotton cut. A crewneck is $34.99 in an 8 oz cotton-poly fleece.',
+          'For a friend who runs cold, choose the crewneck. For one in a warm climate or who layers, the tee is the easier gift.'],
+        links: [{ href: '/christmas-sweatshirts/', text: 'Christmas sweatshirts' }, { href: '/guides/thick-hoodies/', text: 'Thick hoodies: how thick is 10 oz' }] },
+      { h2: 'What if you do not know their size?',
+        body: ['Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and they do not have to mail the first one back. Check the size chart on the product page against a shirt your friend already wears.',
+          'If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'When should you order Christmas gifts for friends?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, which is up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find gifts for the people on your list?',
+        body: ['For a group swap, see our white elephant guide. For family, see our sister and coworkers guides.'],
+        links: [{ href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }, { href: '/guides/christmas-gifts-for-sister/', text: 'Christmas gifts for sister' }, { href: '/guides/christmas-gifts-for-coworkers/', text: 'Christmas gifts for coworkers' }, { href: '/christmas-shirts/', text: 'All Christmas shirts' }] },
+    ],
+    faqs: [
+      { q: 'What are good Christmas gifts for friends?', a: 'A shirt with a joke they will get in three seconds, like Jolly-ish or Light Show Manager from Graphic Tees Co. Tees are $24.99, crewnecks are $34.99, all printed to order.' },
+      { q: 'What is a good Christmas gift for a friend under $30?', a: 'Any Graphic Tees Co. Christmas tee here: Jolly-ish, Define Naughty, Sleighping In or Light Show Manager. Each is $24.99 and printed after you order.' },
+      { q: 'What is a funny Christmas gift for a friend?', a: 'Define Naughty from Graphic Tees Co.: a storybook Santa with a long scroll of names and DEFINE NAUGHTY lettered underneath. The tee is $24.99 and the crewneck is $34.99.' },
+      { q: 'Is a Christmas crewneck a good gift for a friend?', a: 'Yes, if they run cold. Graphic Tees Co. crewnecks are $34.99 in an 8 oz cotton-poly fleece, and US shipping is free on orders of $45 or more.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+      { q: 'When should I order Christmas gifts for friends?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. Exact estimates show at checkout.' },
+    ],
+    draft: true,
+  },
 ];
 
 // Only approved guides are built and linked.
