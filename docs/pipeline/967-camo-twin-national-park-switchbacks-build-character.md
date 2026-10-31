@@ -1,4 +1,4 @@
-status: REDO
+status: REVIEW
 lane: B
 type: twin
 id: 967
@@ -31,3 +31,4 @@ push: camo
   1. R6.9 (hair over a letter): photo 1, the woman's braid lies over the end of SWITCHBACKS (the K and S). Regenerate with "hair tied back or behind the shoulders" and check the top line letter by letter.
   2. R6.8 (garbled text): photo 2, the man's print reads BUILD CHARACTHE. Regenerate from the Deadwood mockup as --design and read both people's prints at 200% before saving (R6.9: max one more try each, then keep the better one and the flat front leads).
   3. Remake docs/review/967.jpg with both photos shown.
+- 2026-10-31 17:39 UTC [B]: REDO photos done. Photo 1 woman (ponytail, no hair over print) on Forest, photo 2 man on Deadwood from its mockup; both read SWITCHBACKS / BUILD CHARACTER. cleanly at full size. 3 seedream calls beyond the first pair: couple shots (2) garbled CHARACTER (R6.8), so singles kept; Unisex cover is one person each, man and woman across photos 1-2 (7u: director may prefer title or a couple retry). Media replaced in place via fileUpdate, sheet docs/review/967.jpg remade. fal ~$0.26.
