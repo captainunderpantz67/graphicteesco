@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 963
@@ -34,3 +34,4 @@ push: camo
   New mockups, both photos redone from the new mockup (waist-up B3 rule), new sheet with photo 1 in the COVER slot.
 - 2026-10-30 21:37 UTC [B]: REBUILT again after REDO: new Recraft art (chest-out varsity mascot squirrel in a black letter jacket, fists on hips, on the platform of a plain steel ladder tree stand, no stripes), S6, line SAW A SQUIRREL. arched over the mascot in Graduate (collegiate; last lane B faces Cinzel, Graduate, Damion, Bevan, Rye; Graduate is the S6 face and the director named it for varsity), print 2107 x 2132, FW625 TOP300 LEFT1475, art 75% of height (1023 px of 2107 wide = 49% of the line), cap about 56 px at FW625. White gaps knocked out, cream halo. File changed (md5 differs from old print). 14/14 on file 1098993645 (verified). 2 new lifestyle photos from the new mockups (registry 1123; Black Camo at dusk with game bag, Forest Camo by a ladder stand at sunset; photo 1 retried once for a tee, photo 2 twice for zip seam and stray text; chest caption soft). Copy updated (mascot, stand, arch). Sheet docs/review/963.jpg. fal ~$0.34.
 - 2026-10-30 23:20 UTC director: APPROVED on docs/review/963.jpg, held at REVIEW for the cap (Oct 30 Chicago day: 6 of 6 LIVE). REDO fixes confirmed: true varsity mascot (letter jacket, chest-out, two-tone), SAW A SQUIRREL. arched in Graduate collegiate caps, plain steel ladder stand; no longer a sibling of #957 (side by side: different rendering, pose and type). B3 cap ~56 px passes. Fixed R8.3 in the SEO meta (it named an acorn the art does not show). Publish on the next Chicago day after the R11.15 held-approval re-check.
+- 2026-10-31 14:22 UTC director: LIVE (Oct 31 Chicago day, camo push). R11.15 re-check against rules dated after the approval: passes (placement logged, no TOP 0, camo-redo style and A/B arm as approved). ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS (1 warn: no lifestyle cover in covers.ts).

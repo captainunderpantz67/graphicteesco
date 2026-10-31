@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 966
@@ -31,3 +31,4 @@ push: camo
   1. R5.3.8 (camo: open shapes stay garment, not a cream plate): the halo fills the whole wedge between the fishing rod, her raised arm and the bass with solid cream, so a tall cream spike rises above the fish to the rod tip. On the Duck Camo mockup and the cover it reads as a white sail behind her. Re-run camo-halo.py with a smaller close value (or mask that wedge) so the garment shows between rod, arm and fish; keep the thin halo on the rod line itself. No new Recraft call needed.
   2. R6.8 'after an art redo': the print file changes, so redo both lifestyle photos from the new mockups (the spike is visible on photo 1), re-link 14/14 and remake the sheet.
 - 2026-10-31 14:10 UTC [B]: REDO fix done: camo-halo.py re-run (FILL=0, close 24) so the wedge between rod, arm and bass shows garment, no cream spike; new print file 1099438431, FW1500 TOP400, 14/14 verified; new Duck + Forest front mockups and 2 new lifestyle photos (registry 1126; dock golden hour, boat sunrise) replaced in place; sheet remade. Headline 2053 / punch 2341 px = 114%, art 82%. fal ~$0.12. Product still DRAFT.
+- 2026-10-31 14:22 UTC director: APPROVED on the remade docs/review/966.jpg and LIVE. REDO fixes confirmed: the wedge between rod, raised arm and bass now shows garment, no cream spike on either mockup or photo 1; both photos new from the new file, every word reads, rod held at the side below the print. Copy line one checked against the art (sun hat, enormous bass, sulking man, tiny fish, orange sun). ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS (1 warn: no lifestyle cover in covers.ts).
