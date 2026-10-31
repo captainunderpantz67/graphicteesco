@@ -2094,7 +2094,6 @@ export const allGuides: Guide[] = [
     h1: 'Christmas Gifts for Parents: Funny Shirts for Mom, Dad or the Pair of Them',
     date: '2026-10-31',
     cluster: 'christmas',
-    draft: true,
     answer: 'A good Christmas gift for parents is a funny shirt that sounds like them and fits without fuss. Graphic Tees Co. has four: Resting My Eyes for dad (tee $24.99, crewneck $34.99), Santa Gets All the Credit for mom (tee $24.99, crewneck $34.99), We Said No Gifts for the pair (tee $24.99, crewneck $34.99) and Take 41. Still Smiling. for the parents who run the card photo (tee $24.99, crewneck $34.99). Each is original art, printed after you order. Order by December 4, 2026.',
     picks: [
       {
@@ -2146,7 +2145,7 @@ export const allGuides: Guide[] = [
           'For parents who run cold, choose the crewneck. If you are not sure, the tee is the easier gift.'],
         links: [{ href: '/christmas-sweatshirts/', text: 'Christmas sweatshirts' }, { href: '/guides/thick-hoodies/', text: 'Thick hoodies: how thick is 10 oz' }] },
       { h2: 'What if you do not know their sizes?',
-        body: ['Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and they do not have to mail the first one back. Check the size chart on the product page against a shirt each parent already wears. Santa Gets All the Credit is a women\'s relaxed cut. Resting My Eyes, We Said No Gifts and Take 41. are unisex or men\'s classic cuts.',
+        body: ['Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and they do not have to mail the first one back. Check the size chart on the product page against a shirt each parent already wears. Santa Gets All the Credit is a women\'s relaxed cut. Resting My Eyes, We Said No Gifts and Take 41. Still Smiling. are unisex or men\'s classic cuts.',
           'If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
         links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
       { h2: 'When should you order Christmas gifts for parents?',
@@ -2171,13 +2170,12 @@ export const allGuides: Guide[] = [
     // Planned siblings (not live yet): gym-hoodies-for-men-guide, gifts-for-lifters-under-50, workout-shirts-for-women.
     slug: 'gifts-for-gym-lovers',
     keyword: 'gifts for gym lovers',
-    title: 'Gifts for Gym Lovers: 5 Funny Shirts & Hoodies They Will Wear',
-    description: 'Gifts for gym lovers: Lunges & Lattes, Mid-Set. Not Interested., Gym Rat, Twelve Labors. Zero Cardio. Tees $24.99, hoodies from $39.99, printed to order.',
+    title: 'Gifts for Gym Lovers: 4 Funny Shirts & Hoodies They Will Wear',
+    description: 'Gifts for gym lovers: Lunges & Lattes, Mid-Set. Not Interested., Twelve Labors. Zero Cardio. and Lift Heavy. Reply Later. Tees $24.99, hoodies from $39.99.',
     h1: 'Gifts for Gym Lovers Who Already Own Every Water Bottle',
     date: '2026-10-31',
     cluster: 'gym',
-    draft: true,
-    answer: 'The best gifts for gym lovers are shirts and hoodies that joke about the gym itself, because they already own the gear. Graphic Tees Co. has five: Lunges & Lattes (hoodie $39.99), Mid-Set. Not Interested. (tee $24.99), Gym Rat (hoodie $39.99), Twelve Labors. Zero Cardio. (tee $24.99, hoodie $39.99) and Lift Heavy. Reply Later. (cropped hoodie $44.99). Each is original art, printed after you order it. Order by December 4, 2026 for Christmas.',
+    answer: 'Good gifts for gym lovers are shirts and hoodies that joke about the gym itself, because they already own the gear. Graphic Tees Co. has four: Lunges & Lattes (hoodie $39.99), Mid-Set. Not Interested. (tee $24.99), Twelve Labors. Zero Cardio. (tee $24.99, hoodie $39.99) and Lift Heavy. Reply Later. (cropped hoodie $44.99). Each is original art, printed after you order it. Order by December 4, 2026 for Christmas.',
     picks: [
       {
         h2: 'What is a gift for someone who goes to the 6 a.m. class for the coffee after?',
@@ -2194,14 +2192,6 @@ export const allGuides: Guide[] = [
         items: [
           { slogan: 'MID-SET. Not Interested.', tee: 'womens-gym-mid-set-not-interested-graphic-tee',
             text: 'A 1950s circus-poster strongwoman in a leopard leotard and big over-ear headphones holds a pink barbell across her shoulders and side-eyes a small mustached man in a tank top who leans in pointing a finger. MID-SET. sits above in hot pink and NOT INTERESTED. below in dark brown. It is a relaxed women\'s tee in six colors for $24.99.' },
-        ],
-      },
-      {
-        h2: 'What is a gift for the gym rat who is there before the lights come on?',
-        body: ['Gym Rat. It is for the early-morning regular who has opinions about the squat rack.'],
-        items: [
-          { slogan: 'GYM RAT', tee: 'mens-gym-gym-rat-hoodie',
-            text: 'A tired cartoon rat in a red-and-white striped tank and a mustard sweatband curls a dumbbell under GYM RAT, arched in cream, mustard and red letters. It is a unisex pullover hoodie in Sand or Navy for $39.99.' },
         ],
       },
       {
@@ -2229,7 +2219,7 @@ export const allGuides: Guide[] = [
           'Graphic Tees Co. gym designs are original art with the joke set in big type, so it reads across the weight room. Nothing on them uses a supplement brand, gym chain or federation logo.'] },
       { h2: 'Are these gifts good to work out in?',
         body: ['They are cotton graphic tees and fleece hoodies, not moisture-wicking performance gear. They suit the walk in, the warm-up, rest days and the drive home.',
-          'The tees are a lightweight 4.2 oz cotton cut. The Lunges & Lattes and Gym Rat hoodies are 8 oz fleece, 50% cotton and 50% polyester, with a front pouch pocket and a double-lined hood.'],
+          'The tees are a lightweight 4.2 oz cotton cut. The Lunges & Lattes and Twelve Labors hoodies are 8 oz fleece, 50% cotton and 50% polyester, with a front pouch pocket and a double-lined hood.'],
         links: [{ href: '/mens-gym-shirts/', text: 'Men\'s gym shirts' }] },
       { h2: 'How do you pick a size for a gift?',
         body: ['Order their usual size for a regular fit, or go up one for a roomier layer. The Mid-Set. Not Interested. tee runs S to 3XL, and Lunges & Lattes goes up to 5XL in Light Pink.',
@@ -2242,11 +2232,11 @@ export const allGuides: Guide[] = [
       { h2: 'When should you order a gym gift for Christmas?',
         body: ['Order by Friday, December 4, 2026. Each piece is printed after you order it, in 2–5 business days, then ships in about 3–8 business days in the US. Exact estimates show at checkout.'] },
       { h2: 'Where else can you find gym gift ideas?',
-        body: ['If you are shopping for a guy who lifts, see our gym gifts for men. For funny gym tees you can wear yourself, see our funny workout shirts. For a group swap, our white elephant guide has $24.99 picks.'],
-        links: [{ href: '/guides/gym-gifts-for-men/', text: 'Gym gifts for men' }, { href: '/guides/funny-workout-shirts/', text: 'Funny workout shirts' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }, { href: '/hoodies/gym-hoodies-for-men/', text: 'Men\'s gym hoodies' }] },
+        body: ['If you are shopping for a guy who lifts, see our gym gifts for men. For a group swap, our white elephant guide has $24.99 picks.'],
+        links: [{ href: '/guides/gym-gifts-for-men/', text: 'Gym gifts for men' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }, { href: '/hoodies/gym-hoodies-for-men/', text: 'Men\'s gym hoodies' }] },
     ],
     faqs: [
-      { q: 'What are good gifts for gym lovers?', a: 'A shirt or hoodie with a joke about the gym, like Lunges & Lattes or Gym Rat from Graphic Tees Co. Tees are $24.99, hoodies start at $39.99, and each is printed to order.' },
+      { q: 'What are good gifts for gym lovers?', a: 'A shirt or hoodie with a joke about the gym, like Lunges & Lattes or Twelve Labors. Zero Cardio. from Graphic Tees Co. Tees are $24.99, hoodies start at $39.99, and each is printed to order.' },
       { q: 'What do you get a gym lover who has everything?', a: 'Something they would not buy themselves: an original-art gym tee with a joke only they get. Graphic Tees Co. makes Mid-Set. Not Interested. for women who lift, a $24.99 tee printed after you order.' },
       { q: 'What are funny gym gifts under $30?', a: 'Any Graphic Tees Co. gym tee, including Mid-Set. Not Interested. and Twelve Labors. Zero Cardio. Each is $24.99.' },
       { q: 'Are these gym gifts moisture-wicking?', a: 'No. They are graphic tees and fleece, not performance fabric. Graphic Tees Co. tees are a lightweight 4.2 oz cotton cut, and the hoodies are 8 oz fleece.' },

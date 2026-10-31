@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: gym
@@ -16,3 +16,4 @@ slug: gifts-for-gym-lovers
 - `npx astro build` passes (drafts are not built).
 ## Log
 - 2026-10-31 UTC writer: drafted, build passes. Article 2 of today's 2 (drip cap).
+- 2026-10-31 23:20 UTC director: APPROVED and LIVE (draft removed) after 3 fixes: (1) R8.3 opener 'The best gifts for gym lovers are' became 'Good gifts for gym lovers are'; (2) the /guides/funny-workout-shirts/ link 404s (#995 is PARKED), so the link and its sentence came out; (3) Gym Rat pick dropped (R3.1: the niche name on a picture, not a joke; under the R3.13 bar), so it is 4 picks; title, description, answer, fleece line and FAQ 1 updated. Lunges & Lattes (Sam-approved cropped line), Mid-Set. Not Interested., Twelve Labors and Lift Heavy pass as A-grade. astro build 121 pages.

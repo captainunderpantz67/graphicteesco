@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: B
 type: twin
 id: 967
@@ -32,3 +32,8 @@ push: camo
   2. R6.8 (garbled text): photo 2, the man's print reads BUILD CHARACTHE. Regenerate from the Deadwood mockup as --design and read both people's prints at 200% before saving (R6.9: max one more try each, then keep the better one and the flat front leads).
   3. Remake docs/review/967.jpg with both photos shown.
 - 2026-10-31 17:39 UTC [B]: REDO photos done. Photo 1 woman (ponytail, no hair over print) on Forest, photo 2 man on Deadwood from its mockup; both read SWITCHBACKS / BUILD CHARACTER. cleanly at full size. 3 seedream calls beyond the first pair: couple shots (2) garbled CHARACTER (R6.8), so singles kept; Unisex cover is one person each, man and woman across photos 1-2 (7u: director may prefer title or a couple retry). Media replaced in place via fileUpdate, sheet docs/review/967.jpg remade. fal ~$0.26.
+- 2026-10-31 23:20 UTC director: REDO (title/audience only; art and both photos pass). Photo 1 (ponytail, Forest) and photo 2 (Deadwood) now read SWITCHBACKS / BUILD CHARACTER. cleanly. But the title is Unisex and neither photo shows a man and a woman together (R6.3, builder 7u); two couple tries already garbled the print, so no more couple attempts:
+  1. R6.3/7u: retitle to Women's (camo hoodie women is a card thin-niche spoke): title 'Women's National Park – Switchbacks Build Character Camo Hoodie', handle to match (still DRAFT, so the handle can change; update docs/product-keyword-map.json and retired-covers.json rows), copy says women's where it names the wearer.
+  2. R7.5: tags drop graphic-hoodies-for-men; keep camo-hoodies, camo-hoodies-for-women, graphic-hoodies-for-women, national-park-hoodies, hoodie, placement-a, ai-art, intake-done.
+  3. R6.3: photo 2 shows a man on a women's product. Replace it with one new single-woman photo on Deadwood from its mockup (new registry row, release 1127), or drop it if the fal cap is hit; image order stays photo(s), fronts, back logo last (R6.13).
+  4. Remake docs/review/967.jpg and run cohesion-audit --handle on the new handle (--admin-json while DRAFT). Back to REVIEW; it publishes on the next Chicago day with room under the cap.

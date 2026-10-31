@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: christmas
@@ -17,3 +17,4 @@ slug: christmas-gifts-for-parents
 - `npx astro build` passes (119 pages; draft not built).
 ## Log
 - 2026-10-31 UTC writer: drafted, build passes. Article 1 of today's 2 (drip cap).
+- 2026-10-31 23:20 UTC director: APPROVED and LIVE (draft removed). All 8 pick pages and every linked path 200. One fix: the sizing line now names Take 41. Still Smiling. in full. astro build 121 pages.
