@@ -1,6 +1,6 @@
 {
- "at": "2026-10-30T23:44:12.266Z",
- "products": 762,
+ "at": "2026-10-31T14:51:08.391Z",
+ "products": 768,
  "findings": [
   {
    "level": "WARN",
@@ -3084,6 +3084,13 @@
   },
   {
    "level": "WARN",
+   "handle": "unisex-outdoors-went-outside-it-was-fine-embroidered-zip-hoodie",
+   "title": "Unisex Outdoors – Went Outside. It Was Fine. Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "mens-car-not-stopping-hold-it-embroidered-zip-hoodie",
    "title": "Men's Car – Not Stopping. Hold It. Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
@@ -3107,6 +3114,13 @@
    "level": "WARN",
    "handle": "mens-fishing-is-my-love-language-embroidered-zip-hoodie",
    "title": "Men's Fishing – Fishing Is My Love Language Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-gym-lunges-and-lattes-embroidered-zip-hoodie",
+   "title": "Women's Gym – Lunges & Lattes Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
@@ -3261,6 +3275,34 @@
    "level": "WARN",
    "handle": "mens-hunting-todays-special-tag-soup-camo-hoodie",
    "title": "Men's Hunting – Today's Special: Tag Soup Camo Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-hunting-sat-11-hours-saw-a-squirrel-camo-hoodie",
+   "title": "Men's Hunting – Sat 11 Hours. Saw a Squirrel. Camo Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-fishing-catch-and-release-camo-hoodie",
+   "title": "Men's Fishing – Catch and Release (Mostly Release) Camo Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-fishing-fly-fishing-mostly-untangling-camo-hoodie",
+   "title": "Men's Fishing – Mostly Untangling Fly Fishing Camo Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-fishing-out-fished-him-again-camo-hoodie",
+   "title": "Women's Fishing – Out-Fished Him Again Camo Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   }

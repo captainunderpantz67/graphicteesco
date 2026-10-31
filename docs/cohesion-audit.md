@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-30 23:44 UTC
+# Cohesion audit — 2026-10-31 14:51 UTC
 
-762 live products checked · **0 errors** · 466 warnings · 437 products with findings
+768 live products checked · **0 errors** · 472 warnings · 443 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -1275,6 +1275,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Unisex Alien – Visiting. Not Impressed. Embroidered Zip Hoodie `unisex-alien-visiting-not-impressed-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Unisex Outdoors – Went Outside. It Was Fine. Embroidered Zip Hoodie `unisex-outdoors-went-outside-it-was-fine-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Men's Car – Not Stopping. Hold It. Embroidered Zip Hoodie `mens-car-not-stopping-hold-it-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
@@ -1285,6 +1288,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Men's Fishing – Fishing Is My Love Language Embroidered Zip Hoodie `mens-fishing-is-my-love-language-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Gym – Lunges & Lattes Embroidered Zip Hoodie `womens-gym-lunges-and-lattes-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Men's Gym – Twelve Labors. Zero Cardio. Embroidered Zip Hoodie `mens-gym-twelve-labors-zero-cardio-embroidered-zip-hoodie`
@@ -1345,4 +1351,16 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No meta description. → Write one ≤ 155 chars.
 
 ### Men's Hunting – Today's Special: Tag Soup Camo Hoodie `mens-hunting-todays-special-tag-soup-camo-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Hunting – Sat 11 Hours. Saw a Squirrel. Camo Hoodie `mens-hunting-sat-11-hours-saw-a-squirrel-camo-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Fishing – Catch and Release (Mostly Release) Camo Hoodie `mens-fishing-catch-and-release-camo-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Fishing – Mostly Untangling Fly Fishing Camo Hoodie `mens-fishing-fly-fishing-mostly-untangling-camo-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Fishing – Out-Fished Him Again Camo Hoodie `womens-fishing-out-fished-him-again-camo-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
