@@ -919,8 +919,8 @@ Rows 11–43 were re-pointed on 2026-10-08 when the briefs were rewritten from d
 | 1124 | Black man, early 40s, shaved head, short beard, athletic build | USED 2026-10-30 — #964 camo cover |
 | 1125 | White man, mid 20s, curly red hair, slim build | USED 2026-10-30 — #965 camo cover |
 | 1126 | Filipina woman, mid 30s, long black hair tied back, medium build | CLAIMED 2026-10-21 — #966 camo cover (brief) |
-| 1127 | Korean-American man, early 30s, short black hair, lean build | CLAIMED 2026-10-21 — #967 camo cover (brief) |
-| 1128 | White woman, late 20s, blonde hair in a low braid, athletic build | CLAIMED 2026-10-21 — #967 camo cover (brief) |
+| 1127 | Korean-American man, early 30s, short black hair, lean build | USED #967 camo cover |
+| 1128 | White woman, late 20s, blonde hair in a low braid, athletic build | USED #967 camo cover |
 | 1129 | Choctaw man, early 40s, short dark hair, broad build | CLAIMED 2026-10-21 — #968 camo cover (brief) |
 | 1130 | Black woman, early 50s, short natural gray hair, medium build | CLAIMED 2026-10-21 — #969 camo cover (brief) |
 | 1131 | Samoan man, late 30s, short black hair, full beard, big build | CLAIMED 2026-10-21 — #976 hoodie cover (brief) |

@@ -12254,6 +12254,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-national-park-switchbacks-build-character-camo-hoodie": {
+   "claimed": [
+    "camo hiking hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "camo hiking hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }

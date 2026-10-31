@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-10-31 14:15 UTC
+status: REVIEW
 lane: B
 type: twin
 id: 967
@@ -26,3 +26,4 @@ push: camo
 ## Log
 - 2026-10-21 15:55 UTC director: brief written, READY (camo twin, lane B, push: camo; R11.12 waiver after keyword-gap.py; registry rows claimed).
 - 2026-10-23 14:55 UTC director: RE-BRIEF (answers the builder's 2026-10-23 13:50 stand-down): this twin no longer follows the old patch standard (R11.13 superseded by docs/backlog/camo-redo.md, Sam 2026-10-22). Build it to camo-redo.md rules 1-6: style S2, placement B3 (tag placement-b), no cream box, no tall condensed sans, no default orange second line, a font no other camo item in the run uses, the picture acts out the joke; two fal lifestyle photos per the camo-redo photo section. Redo the existing 2026-10-21 Shopify draft and Printful sync in place (new art, file, position, mockups); never a second product. Take it only after the 27 camo-redo rows (REDO comes first).
+- 2026-10-31 14:45 UTC [B]: REBUILT in place per re-brief: S5 sketchbook on A+ (tag placement-a), product 15372844892464 (DRAFT), Printful 483725505. 1 Recraft call (tired hiker bent over on a switchback, smug marmot with a backpack at the next turn); SWITCHBACKS above, BUILD CHARACTER. below in Fraunces, cream with dark keyline (recent lane B faces Playfair, Graduate, Damion, Bevan, Rye). Print 2392 x 2408, FW1500 TOP400 (height 1510), headline 1919 / punch 2392 px = 125%, art 86% of FW, punch cap 110 px at FW1500. Halo FILL=0 close 30. 14/14 on file 1099440521 (verified). 2 lifestyle photos (registry 1127+1128 man and woman; trail switchback, overlook; words soft but not wrong). Copy rewritten (no patch text), tags +placement-a, media order set. Sheet docs/review/967.jpg. Keyword row added. fal ~$0.29.
