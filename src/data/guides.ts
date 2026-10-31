@@ -2082,6 +2082,88 @@ export const allGuides: Guide[] = [
       { q: 'When should I order a Christmas gift for my sister in law?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. Exact estimates show at checkout.' },
     ],
   },
+  {
+    // Writer lane W (2026-10-31). Keyword: christmas gifts for parents 14,800 / KD 10 (RankHero via scripts/keyword-gap.py, measured 2026-10-31). Unowned: no hit in product-keyword-map.json, collections.ts or guides. ("dad", "mom" and "grandma" are separate; this targets the both-parents variant.)
+    // Facts (prices, policies) come from site.ts and the sibling guides; art descriptions come from each product's live Shopify Story (read 2026-10-31). FAQ questions are not from PAA or GSC (not available unattended).
+    // Picks: Resting My Eyes, Santa Gets All the Credit, We Said No Gifts, Take 41. Still Smiling. Build drops any pick that is not live.
+    // Planned siblings (not live yet): christmas-gifts-for-mom, christmas-gifts-for-son, christmas-gifts-for-husband.
+    slug: 'christmas-gifts-for-parents',
+    keyword: 'christmas gifts for parents',
+    title: 'Christmas Gifts for Parents: 4 Funny Shirts for Mom, Dad or Both',
+    description: 'Christmas gifts for parents: Resting My Eyes, Santa Gets All the Credit, We Said No Gifts and Take 41. Tees $24.99, crewnecks $34.99.',
+    h1: 'Christmas Gifts for Parents: Funny Shirts for Mom, Dad or the Pair of Them',
+    date: '2026-10-31',
+    cluster: 'christmas',
+    draft: true,
+    answer: 'A good Christmas gift for parents is a funny shirt that sounds like them and fits without fuss. Graphic Tees Co. has four: Resting My Eyes for dad (tee $24.99, crewneck $34.99), Santa Gets All the Credit for mom (tee $24.99, crewneck $34.99), We Said No Gifts for the pair (tee $24.99, crewneck $34.99) and Take 41. Still Smiling. for the parents who run the card photo (tee $24.99, crewneck $34.99). Each is original art, printed after you order. Order by December 4, 2026.',
+    picks: [
+      {
+        h2: 'What do you give a dad who naps through Christmas afternoon?',
+        body: ['Resting My Eyes. It is for the dad who is asleep in the recliner by three o\'clock and swears he is only resting his eyes.'],
+        items: [
+          { slogan: 'RESTING MY EYES', tee: 'mens-christmas-resting-my-eyes-graphic-tee', crewneck: 'mens-christmas-resting-my-eyes-crewneck-sweatshirt',
+            text: 'A 1950s storybook scene of a dad tipped back in a plaid recliner with his mouth open, a Santa hat sliding off, reading glasses pushed up and a half-unwrapped polka-dot present on his lap, with a small lit tree beside the chair and a sleepy cat on his shoulder. RESTING runs in pine-green capitals and MY EYES in Santa-hat red underneath. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/christmas-shirts-for-men/', text: 'Men\'s Christmas shirts' }],
+      },
+      {
+        h2: 'What do you give a mom who does all the wrapping?',
+        body: ['Santa Gets All the Credit. It is for the mom who did the shopping, the wrapping and the hiding, and knows it.'],
+        items: [
+          { slogan: 'SANTA GETS ALL THE CREDIT', tee: 'womens-christmas-santa-gets-all-the-credit-graphic-tee', crewneck: 'womens-christmas-santa-gets-all-the-credit-crewneck-sweatshirt',
+            text: 'A small cluster of art in cherry red, soft pink and pine green: a square red gift tied with a big pink satin bow, a vintage tape dispenser nearly out of tape and open pink-handled scissors, with holly sprigs and a curl of ribbon between them. SANTA GETS sits above in cherry-red capitals and ALL THE CREDIT below in pine green. It is a women\'s relaxed cut. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/christmas-shirts-for-women/', text: 'Women\'s Christmas shirts' }],
+      },
+      {
+        h2: 'What is a good gift for parents who swear they want nothing?',
+        body: ['We Said No Gifts. It is for the couple who agrees every year that this is a no-gift Christmas. Each tee is sold singly, so a pair means two in the cart.'],
+        items: [
+          { slogan: 'WE SAID NO GIFTS. We lied.', tee: 'unisex-christmas-we-said-no-gifts-graphic-tee', crewneck: 'unisex-christmas-we-said-no-gifts-crewneck-sweatshirt',
+            text: 'A 1960s storybook scene in faded red, mustard, pine green and cream: a smiling husband in a cardigan and a wife in a sweater and pleated skirt stand back to back in front of a small decorated tree, each holding a wrapped present with a bow on the side the other cannot see. WE SAID NO GIFTS. runs across the top in red slab capitals and We lied. sits below in black script. It is a unisex cut. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/christmas-shirts/', text: 'Christmas shirts' }],
+      },
+      {
+        h2: 'What do you give parents who organize the family Christmas card?',
+        body: ['Take 41. Still Smiling. It is for the parents who set up the tripod, run back into the frame and still do not get a clean take.'],
+        items: [
+          { slogan: 'TAKE 41. STILL SMILING.', tee: 'unisex-christmas-card-photo-survivor-graphic-tee', crewneck: 'unisex-christmas-card-photo-survivor-crewneck-sweatshirt',
+            text: 'A family of four in matching red knit sweaters squeezes together in front of a decorated tree in a vintage 1960s Christmas card scene: dad runs back into the frame from a camera on a tripod, mom smiles through her teeth, a kid blinks and the dog looks the wrong way. TAKE 41. sits under the scene in red serif capitals and STILL SMILING. below it in navy. It is a unisex cut. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/christmas-sweatshirts/', text: 'Christmas sweatshirts' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good Christmas gift for parents?',
+        body: ['Something that sounds like them and costs about what you would spend on dinner. Parents who say they want nothing usually still like a gift that makes them laugh, so a joke about the recliner, the wrapping or the card photo works better than another candle.',
+          'Graphic Tees Co. designs are original art with the joke set in big type. They use no team, brand or character logos, so there is nothing to explain.'],
+        links: [{ href: '/christmas-shirts/', text: 'Christmas shirts' }] },
+      { h2: 'What are good Christmas gifts for parents under $30?',
+        body: ['Every tee here is $24.99: Resting My Eyes, Santa Gets All the Credit, We Said No Gifts and Take 41. Still Smiling. To buy for both parents, put two tees in the cart. That comes to $49.98, which clears the $45 free US shipping line.'] },
+      { h2: 'Should you pick a tee or a crewneck for your parents?',
+        body: ['A tee is $24.99 in a lightweight 4.2 oz cotton cut. A crewneck is $34.99 in an 8 oz cotton-poly fleece.',
+          'For parents who run cold, choose the crewneck. If you are not sure, the tee is the easier gift.'],
+        links: [{ href: '/christmas-sweatshirts/', text: 'Christmas sweatshirts' }, { href: '/guides/thick-hoodies/', text: 'Thick hoodies: how thick is 10 oz' }] },
+      { h2: 'What if you do not know their sizes?',
+        body: ['Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and they do not have to mail the first one back. Check the size chart on the product page against a shirt each parent already wears. Santa Gets All the Credit is a women\'s relaxed cut. Resting My Eyes, We Said No Gifts and Take 41. are unisex or men\'s classic cuts.',
+          'If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'When should you order Christmas gifts for parents?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, which is up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find gifts for the people on your list?',
+        body: ['For dad on his own, see our dad guide. For the grandparents and the group swap, see our grandma and white elephant guides.'],
+        links: [{ href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }, { href: '/guides/christmas-gifts-for-grandma/', text: 'Christmas gifts for grandma' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }, { href: '/christmas-shirts/', text: 'All Christmas shirts' }] },
+    ],
+    faqs: [
+      { q: 'What are good Christmas gifts for parents?', a: 'A funny shirt that sounds like them, like Resting My Eyes for dad or Santa Gets All the Credit for mom from Graphic Tees Co. Tees are $24.99, crewnecks are $34.99, all printed to order.' },
+      { q: 'What is a good Christmas gift for parents under $30?', a: 'Any Graphic Tees Co. Christmas tee here: Resting My Eyes, Santa Gets All the Credit, We Said No Gifts or Take 41. Still Smiling. Each is $24.99 and printed after you order.' },
+      { q: 'What is a funny Christmas gift for parents?', a: 'We Said No Gifts from Graphic Tees Co.: a 1960s couple back to back, each hiding a present, with the line We lied. The tee is $24.99 and the crewneck is $34.99.' },
+      { q: 'Is a Christmas crewneck a good gift for parents?', a: 'Yes, if they run cold. Graphic Tees Co. crewnecks are $34.99 in an 8 oz cotton-poly fleece, and US shipping is free on orders of $45 or more.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and they do not have to mail the first one back.' },
+      { q: 'When should I order Christmas gifts for my parents?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. Exact estimates show at checkout.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
