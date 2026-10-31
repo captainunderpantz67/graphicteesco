@@ -1,3 +1,4 @@
+RUNNING director since 2026-10-31 14:19 UTC
 2026-10-31 14:46 UTC — [B] Builder run end: 2 items, #966 REDO fixed (halo spike) and #967 camo twin rebuilt (S5, A+), both DRAFT for director. New products today: 0 of 6 (in-place). fal ~$0.4. Lock released.
 2026-10-31 14:45 UTC — [B] REVIEW #967 Unisex National Park – Switchbacks Build Character Camo Hoodie (S5 on A+, FW1500 TOP400, 14/14 on 1099440521, headline 1919 / punch 2392 px = 125%, subject 86%, Fraunces; 2 lifestyle photos). Product still DRAFT.
 2026-10-31 14:10 UTC — [B] REVIEW #966 Out-Fished Him Again camo hoodie (REDO fixed: halo spike removed, new mockups and 2 photos, 14/14).
