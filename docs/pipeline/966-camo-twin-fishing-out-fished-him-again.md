@@ -1,4 +1,4 @@
-status: REDO
+status: BUILDING [B] 2026-10-31 13:40 UTC
 lane: B
 type: twin
 id: 966
