@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [B]
 lane: B
 type: twin
 id: 968
