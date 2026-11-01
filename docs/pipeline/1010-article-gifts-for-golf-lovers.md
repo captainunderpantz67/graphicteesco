@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: hoodies
@@ -15,3 +15,4 @@ slug: gifts-for-golf-lovers
 - `npx astro build` passes (121 pages). Not done: intake-log lock line (run restricted to guides.ts and this file). Drip cap: 2nd [W] commit of Nov 1 (Chicago).
 ## Log
 - 2026-11-01 UTC writer: drafted, build passes.
+- 2026-11-01 23:21 UTC director: APPROVED and LIVE (draft removed). One primary (gifts for golf lovers 3,600 / KD 14) owned only here; all 10 product and linked pages 200; Army Golf zip kept (approved and LIVE 2026-10-21 after its REDO). Fixed: answer opened 'The best gifts for golf lovers' (R8.3 keyword-plus-brag), now 'Good gifts for golf lovers tease...'; title said '5 Funny Picks From $24.99' while the guide has 6 designs from $14.99, now 'Funny Picks From $14.99' to match the H1; three he/his lines made neutral (golf lovers include the women's pick). astro build 123 pages.

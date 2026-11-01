@@ -2304,7 +2304,7 @@ export const allGuides: Guide[] = [
       { h2: 'Should you pick a tee or a crewneck for a teen?',
         body: ['A tee is $24.99 in a lightweight 4.2 oz cotton cut. A crewneck is $34.99 in an 8 oz cotton-poly fleece.',
           'For a teen who lives in layers, choose the crewneck. If you are not sure, the tee is the easier gift.'],
-        links: [{ href: '/christmas-sweatshirts/', text: 'Christmas sweatshirts' }, { href: '/guides/thick-hoodies/', text: 'Thick hoodies: how thick is 10 oz' }] },
+        links: [{ href: '/christmas-sweatshirts/', text: 'Christmas sweatshirts' }] },
       { h2: 'What size should you order for a teen?',
         body: ['Graphic Tees Co. sells these in adult sizes, so check the size chart on the product page against a shirt the teen already wears. If you are between sizes, go up one. Teens grow, and a looser fit is how most of them wear a crewneck anyway.',
           'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and they do not have to mail the first one back. If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
@@ -2323,7 +2323,6 @@ export const allGuides: Guide[] = [
       { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
       { q: 'When should I order Christmas gifts for a teen?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. Exact estimates show at checkout.' },
     ],
-    draft: true,
   },
   {
     // Writer lane W (2026-11-01), hoodies cluster (golf). Keyword: gifts for golf lovers, 3,600 / KD 14 (RankHero via scripts/keyword-gap.py, measured 2026-11-01). Unowned: no hit in product-keyword-map.json, collections.ts or guides. "funny golf gifts" stays with the funny-golf-gifts guide and "golf hoodie" with /hoodies/golf-hoodies/. Draft until the director approves.
@@ -2331,12 +2330,12 @@ export const allGuides: Guide[] = [
     // Planned siblings (not live yet): golf-gifts-for-him, golf-gifts-for-women, golf-retirement-gifts.
     slug: 'gifts-for-golf-lovers',
     keyword: 'gifts for golf lovers',
-    title: 'Gifts for Golf Lovers: 5 Funny Picks From $24.99',
+    title: 'Gifts for Golf Lovers: Funny Picks From $14.99',
     description: 'Gifts for golf lovers by budget: an Army Golf tee at $24.99, a Windshield crewneck at $34.99, hoodies, a half zip and add-ons from $14.99. Printed to order.',
     h1: 'Gifts for Golf Lovers: Funny Picks for Every Budget, From $14.99',
     date: '2026-11-01',
     cluster: 'hoodies',
-    answer: 'The best gifts for golf lovers are the ones that tease the golfer’s own game, and Graphic Tees Co. has them from $14.99 to $57.99, all printed after you order. The I Play Army Golf tee is $24.99, the Sorry About Your Windshield crewneck is $34.99, the Not Cheating. Improving My Lie. hoodie is $39.99 and the Army Golf embroidered zip hoodie is $57.99.',
+    answer: 'Good gifts for golf lovers tease the golfer’s own game, and Graphic Tees Co. has them from $14.99 to $57.99, all printed after you order. The I Play Army Golf tee is $24.99, the Sorry About Your Windshield crewneck is $34.99, the Not Cheating. Improving My Lie. hoodie is $39.99 and the Army Golf embroidered zip hoodie is $57.99.',
     picks: [
       {
         h2: 'What is a good golf gift under $30?',
@@ -2358,7 +2357,7 @@ export const allGuides: Guide[] = [
       },
       {
         h2: 'What should you give a golf lover who has every club?',
-        body: ['Something to wear after the round, not another thing to carry. A half zip or an embroidered zip hoodie is the layer he reaches for between the range and the drive home.'],
+        body: ['Something to wear after the round, not another thing to carry. A half zip or an embroidered zip hoodie is the layer a golfer reaches for between the range and the drive home.'],
         items: [
           { slogan: 'I Play Army Golf', tee: 'mens-golf-i-play-army-golf-zip-hoodie',
             text: 'The zip hoodie carries the full LEFT. RIGHT. LEFT. and I PLAY ARMY GOLF. print on the back, with a golfer in a follow-through embroidered on the left chest and the word LEFT stitched on the left cuff. It is a regular-fit zip-up in 8 oz cotton-poly fleece with a metal zipper, in Ash or Navy, sizes S to 3XL. It is $57.99.' },
@@ -2379,7 +2378,7 @@ export const allGuides: Guide[] = [
     sections: [
       { h2: 'What makes a good gift for a golf lover?',
         body: ['A joke about the golfer’s own game. Lines about the slice, the “improved” lie and the zigzag drive land because every golfer has lived them. A generic “golf is life” slogan does not.',
-          'Every Graphic Tees Co. golf design is original art in a 1950s to 1970s country-club style, with the joke set in big type so it reads across the parking lot. Match the joke to the golfer’s worst habit and he will wear it to prove he can take it.'] },
+          'Every Graphic Tees Co. golf design is original art in a 1950s to 1970s country-club style, with the joke set in big type so it reads across the parking lot. Match the joke to the golfer’s worst habit and they will wear it to prove they can take it.'] },
       { h2: 'What small golf gifts cost under $20?',
         body: ['Three add-ons sit in the stocking-gift range. The Sorry About Your Windshield crew socks are $18.99 in sizes S to L, the Windshield mug is $17.99 in 11 oz glossy white ceramic and dishwasher safe, and the Not Cheating. Improving My Lie. ornament is $14.99, a glossy 2.76 in ceramic with gold string.',
           'Each is printed to order, and a mug plus a tee clears the $45 free-shipping line.'],
@@ -2397,14 +2396,13 @@ export const allGuides: Guide[] = [
         links: [{ href: '/guides/funny-golf-gifts/', text: 'Funny golf gifts' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }, { href: '/guides/gym-gifts-for-men/', text: 'Gym gifts for men' }] },
     ],
     faqs: [
-      { q: 'What are good gifts for golf lovers?', a: 'A shirt or hoodie with a joke about his own game, like I Play Army Golf or Sorry About Your Windshield from Graphic Tees Co. The tee is $24.99, the crewneck is $34.99 and the hoodies run $39.99 to $57.99, all printed after you order.' },
+      { q: 'What are good gifts for golf lovers?', a: 'A shirt or hoodie with a joke about their own game, like I Play Army Golf or Sorry About Your Windshield from Graphic Tees Co. The tee is $24.99, the crewneck is $34.99 and the hoodies run $39.99 to $57.99, all printed after you order.' },
       { q: 'What is a good golf gift under $30?', a: 'The I Play Army Golf tee at $24.99 in the holiday sale through November 30, 2026. Add-ons are cheaper: the Not Cheating. Improving My Lie. ornament is $14.99, the Windshield mug is $17.99 and the Windshield socks are $18.99.' },
-      { q: 'What do you get a golfer who has everything?', a: 'Something he would not buy himself: a funny golf layer with an original joke. Graphic Tees Co. prints the Army Golf embroidered zip hoodie ($57.99) and the Fairways Are a Rumor half zip ($54.99) to order. Equipment is personal; a laugh is not.' },
+      { q: 'What do you get a golfer who has everything?', a: 'Something they would not buy themselves: a funny golf layer with an original joke. Graphic Tees Co. prints the Army Golf embroidered zip hoodie ($57.99) and the Fairways Are a Rumor half zip ($54.99) to order. Equipment is personal; a laugh is not.' },
       { q: 'Is a golf hoodie a good gift?', a: 'Yes. A golf hoodie from Graphic Tees Co. works as a birthday, Father’s Day or Christmas gift because the joke is one every golfer recognizes. Pullovers are $39.99 in the holiday sale through November 30, 2026, and $44.99 after.' },
       { q: 'Are there golf gifts for women?', a: 'Yes. Graphic Tees Co. makes the I Only Golf for the Outfits women’s cropped hoodie for $44.99. The Windshield and Not Cheating hoodies are unisex too.' },
       { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
     ],
-    draft: true,
   },
 ];
 

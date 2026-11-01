@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: christmas
@@ -13,3 +13,5 @@ slug: christmas-gifts-for-teens
 - Keyword: christmas gifts for teens 18,100 / KD 10 (RankHero via scripts/keyword-gap.py, measured 2026-10-31 by the previous lane W run; not re-pulled this run). Ownership checked 2026-11-01: no hit in product-keyword-map.json, collections.ts (one unrelated "teenager" sentence) or guides.ts. Next candidate: christmas gifts for son 1,300 / KD 17.
 - Picks (all four ACTIVE in Shopify, confirmed 2026-11-01; art text reuses the Story text taken from the live Stories 2026-10-30 in the approved sibling guides, not re-read in full because the search tool truncates descriptions): Sleighping In (tee + crewneck), Jolly-ish (tee + crewneck, art text differs by garment), Define Naughty (men's tee + unisex crewneck), Bah Humbug (Respectfully) (men's tee + unisex crewneck). Build drops any pick that is not live; director: please confirm all four crewnecks render. Teen-sized items are not claimed (adult sizes only).
 - Facts only from the repo: tee $24.99, crewneck $34.99, 4.2 oz tee / 8 oz fleece, Dec 4 order-by, 2-5 / 3-8 business days, 30-day size exchange and misprint policy, free US shipping $45+. No tests, stats or reviews. FAQ questions are not from PAA/GSC (not available unattended). About 1,000 words, 6 FAQs.
+## Log
+- 2026-11-01 23:21 UTC director: APPROVED and LIVE (draft removed). Answer-first, one primary (christmas gifts for teens 18,100 / KD 10) owned only here; all 8 pick pages and every linked page 200; prices and policies match site facts. Fixed: dropped the 'Thick hoodies: how thick is 10 oz' link from the tee-vs-crewneck section (off-topic: no hoodies in this guide). astro build 123 pages.
