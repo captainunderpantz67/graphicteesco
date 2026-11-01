@@ -10,6 +10,8 @@
 **Pace:** after REDO items, up to 10 products per builder run (no fal, so slots are cheap). Oldest first.
 
 ## List
-(builder fills in on the first run)
+Printful sync API does not expose file position, so the list is: every pullover hoodie whose Printful name ends in Hoodie (not camo/zip/embroidered/oversized/cropped/heavyweight), 188 products, oldest sync id first (spreadsheet in builder scratch only). Pipeline logs mentioning TOP 0 confirm the candidates (#189, #239, #376, #757, #806...). Re-placing is idempotent: same file, FW 1500 TOP 400, run `FW=1500 TOP=400 FORCE=1 python3 scripts/pf-sync.py setfile <sync id> <default file id>`, mockups with `FW=1500 TOP=400 scripts/pf-mockup.py 146 ...`, then fileUpdate originalSource on the existing front MediaImages.
 
 ## Done
+
+- DONE unisex-christmas-vintage-santa-hoodie (sync 482242707) FW1500/TOP400 12/12; Sand and Navy front images replaced in place, alts unchanged. 2026-11-01 17:38 UTC [B]
