@@ -1,6 +1,6 @@
 {
- "at": "2026-10-31T23:49:01.216Z",
- "products": 768,
+ "at": "2026-11-01T14:53:03.433Z",
+ "products": 774,
  "findings": [
   {
    "level": "WARN",
@@ -2440,6 +2440,13 @@
   },
   {
    "level": "WARN",
+   "handle": "mens-bbq-low-and-slow-like-my-texts-graphic-tee",
+   "title": "Men's BBQ – Low and Slow, Like My Texts Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "unisex-christmas-raccoon-santas-late-i-started-without-him-crewneck-sweatshirt",
    "title": "Unisex Christmas Raccoon – Santa's Late, I Started Without Him Crewneck Sweatshirt",
    "msg": "No lifestyle cover photo.",
@@ -2923,10 +2930,59 @@
   },
   {
    "level": "WARN",
+   "handle": "mens-gym-this-is-my-warm-up-it-is-not-lifting-graphic-tee",
+   "title": "Men's Gym – This Is My Warm-Up. It Is Not. Lifting Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "mens-hunting-archery-aim-small-miss-anyway-heavyweight-hoodie",
    "title": "Men's Hunting – Archery: Aim Small. Miss Anyway. Heavyweight Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "french-bulldog-im-helping-youre-welcome-mug",
+   "title": "Christmas – French Bulldog I'm Helping. You're Welcome. Mug",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "french-bulldog-im-helping-youre-welcome-mug",
+   "title": "Christmas – French Bulldog I'm Helping. You're Welcome. Mug",
+   "msg": "christmas design isn't in any christmas collection.",
+   "fix": "Tag it so it appears in the christmas shirts page."
+  },
+  {
+   "level": "WARN",
+   "handle": "french-bulldog-santas-cookies-what-cookies-mug",
+   "title": "Christmas – French Bulldog Santa's Cookies? What Cookies. Mug",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "french-bulldog-santas-cookies-what-cookies-mug",
+   "title": "Christmas – French Bulldog Santa's Cookies? What Cookies. Mug",
+   "msg": "christmas design isn't in any christmas collection.",
+   "fix": "Tag it so it appears in the christmas shirts page."
+  },
+  {
+   "level": "WARN",
+   "handle": "hunting-todays-special-tag-soup-ornament",
+   "title": "Christmas – Hunting Today's Special: Tag Soup Ornament",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "hunting-todays-special-tag-soup-ornament",
+   "title": "Christmas – Hunting Today's Special: Tag Soup Ornament",
+   "msg": "christmas design isn't in any christmas collection.",
+   "fix": "Tag it so it appears in the christmas shirts page."
   },
   {
    "level": "WARN",
@@ -3305,6 +3361,20 @@
    "title": "Women's Fishing – Out-Fished Him Again Camo Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-national-park-switchbacks-build-character-camo-hoodie",
+   "title": "Women's National Park – Switchbacks Build Character Camo Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-national-park-switchbacks-build-character-camo-hoodie",
+   "title": "Women's National Park – Switchbacks Build Character Camo Hoodie",
+   "msg": "No SEO title.",
+   "fix": "Write one ≤ 60 chars with the primary keyword."
   }
  ]
 }

@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-10-31 23:49 UTC
+# Cohesion audit — 2026-11-01 14:53 UTC
 
-768 live products checked · **0 errors** · 472 warnings · 443 products with findings
+774 live products checked · **0 errors** · 482 warnings · 449 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -1013,6 +1013,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Unisex Christmas – We Said No Gifts Crewneck Sweatshirt `unisex-christmas-we-said-no-gifts-crewneck-sweatshirt`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Men's BBQ – Low and Slow, Like My Texts Tee `mens-bbq-low-and-slow-like-my-texts-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Unisex Christmas Raccoon – Santa's Late, I Started Without Him Crewneck Sweatshirt `unisex-christmas-raccoon-santas-late-i-started-without-him-crewneck-sweatshirt`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 - **WARN** Non-holiday design (christmas raccoon) listed in "Christmas Sweatshirts". → Only keep it there if the art is genuinely for that holiday.
@@ -1210,8 +1213,23 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Women's Corgi – Built Like a Dinner Roll Tee `womens-corgi-built-like-a-dinner-roll-graphic-tee`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Men's Gym – This Is My Warm-Up. It Is Not. Lifting Tee `mens-gym-this-is-my-warm-up-it-is-not-lifting-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Men's Hunting – Archery: Aim Small. Miss Anyway. Heavyweight Hoodie `mens-hunting-archery-aim-small-miss-anyway-heavyweight-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Christmas – French Bulldog I'm Helping. You're Welcome. Mug `french-bulldog-im-helping-youre-welcome-mug`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+- **WARN** christmas design isn't in any christmas collection. → Tag it so it appears in the christmas shirts page.
+
+### Christmas – French Bulldog Santa's Cookies? What Cookies. Mug `french-bulldog-santas-cookies-what-cookies-mug`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+- **WARN** christmas design isn't in any christmas collection. → Tag it so it appears in the christmas shirts page.
+
+### Christmas – Hunting Today's Special: Tag Soup Ornament `hunting-todays-special-tag-soup-ornament`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+- **WARN** christmas design isn't in any christmas collection. → Tag it so it appears in the christmas shirts page.
 
 ### Women's Camo – Blending In Was Never the Plan. All-Over Print Zip Hoodie `womens-camo-blending-in-was-never-the-plan-aop-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
@@ -1364,3 +1382,7 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Women's Fishing – Out-Fished Him Again Camo Hoodie `womens-fishing-out-fished-him-again-camo-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's National Park – Switchbacks Build Character Camo Hoodie `womens-national-park-switchbacks-build-character-camo-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+- **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
