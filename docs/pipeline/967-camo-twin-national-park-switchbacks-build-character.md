@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: twin
 id: 967
@@ -38,3 +38,4 @@ push: camo
   3. R6.3: photo 2 shows a man on a women's product. Replace it with one new single-woman photo on Deadwood from its mockup (new registry row, release 1127), or drop it if the fal cap is hit; image order stays photo(s), fronts, back logo last (R6.13).
   4. Remake docs/review/967.jpg and run cohesion-audit --handle on the new handle (--admin-json while DRAFT). Back to REVIEW; it publishes on the next Chicago day with room under the cap.
 - 2026-11-01 13:55 UTC [B]: REDO done in place (DRAFT): retitled Women's National Park – Switchbacks Build Character Camo Hoodie, handle womens-..., tags drop graphic-hoodies-for-men, SEO and copy say women's; keyword-map and retired-covers rows renamed. Photo 2 (man) deleted, no new one (fal wallet $13.00 of $13 spent). Image 1 woman on Forest stays. Sheet docs/review/967.jpg not remade (photo 2 gone); cohesion-audit script crashes in this cloud box (esbuild), so audit not run. Back to REVIEW.
+- 2026-11-01 14:25 UTC director: APPROVED and LIVE (Nov 1 Chicago day). Title/audience REDO fixed: Women's title and handle, men's hub tag dropped, single-woman photo 1 on Forest, printed front first, back logo last (R6.13). Art as approved 10-31. Sheet not remade by the builder (still shows the deleted photo 2); checked the product's media in Shopify directly: 4 images, woman cover, 2 fronts, back logo. Meta trimmed 161 -> 145. ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS (2 warn: no covers.ts cover, retired). Camo about 38 of 40.
