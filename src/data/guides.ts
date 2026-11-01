@@ -2325,6 +2325,87 @@ export const allGuides: Guide[] = [
     ],
     draft: true,
   },
+  {
+    // Writer lane W (2026-11-01), hoodies cluster (golf). Keyword: gifts for golf lovers, 3,600 / KD 14 (RankHero via scripts/keyword-gap.py, measured 2026-11-01). Unowned: no hit in product-keyword-map.json, collections.ts or guides. "funny golf gifts" stays with the funny-golf-gifts guide and "golf hoodie" with /hoodies/golf-hoodies/. Draft until the director approves.
+    // Facts: prices and Story text read from the live product pages on 2026-11-01 (Army Golf tee $24.99, Army Golf zip $57.99, socks $18.99, mug $17.99, ornament $14.99); other prices and picks reuse the approved funny-golf-gifts guide and site.ts policy.
+    // Planned siblings (not live yet): golf-gifts-for-him, golf-gifts-for-women, golf-retirement-gifts.
+    slug: 'gifts-for-golf-lovers',
+    keyword: 'gifts for golf lovers',
+    title: 'Gifts for Golf Lovers: 5 Funny Picks From $24.99',
+    description: 'Gifts for golf lovers by budget: an Army Golf tee at $24.99, a Windshield crewneck at $34.99, hoodies, a half zip and add-ons from $14.99. Printed to order.',
+    h1: 'Gifts for Golf Lovers: Funny Picks for Every Budget, From $14.99',
+    date: '2026-11-01',
+    cluster: 'hoodies',
+    answer: 'The best gifts for golf lovers are the ones that tease the golfer’s own game, and Graphic Tees Co. has them from $14.99 to $57.99, all printed after you order. The I Play Army Golf tee is $24.99, the Sorry About Your Windshield crewneck is $34.99, the Not Cheating. Improving My Lie. hoodie is $39.99 and the Army Golf embroidered zip hoodie is $57.99.',
+    picks: [
+      {
+        h2: 'What is a good golf gift under $30?',
+        body: ['The I Play Army Golf tee, at $24.99 in the holiday sale through November 30, 2026. It is the cheapest way to say “I know exactly how you play.”'],
+        items: [
+          { slogan: 'I Play Army Golf', tee: 'mens-golf-i-play-army-golf-graphic-tee',
+            text: 'LEFT. RIGHT. LEFT. runs across the top in heavy burnt-orange capitals, and I PLAY ARMY GOLF. sits below in dark green. Between them a mustached 1970s golfer in plaid flares and a visor holds a proud follow-through while his ball’s dotted path zigzags from the pines on one side to the pines on the other. Army golf is the slang for a ball that goes left, right, left. The tee is a classic unisex fit in 4.2 oz ring-spun cotton, sizes S to 4XL, in six colors.' },
+        ],
+      },
+      {
+        h2: 'What is a good golf gift under $50?',
+        body: ['Two hoodie-weight pieces fit under $50, and the crewneck is the cheapest of them. Both put the joke on the chest where the foursome can read it.'],
+        items: [
+          { slogan: 'Sorry About Your Windshield.', tee: 'unisex-golf-sorry-about-your-windshield-hoodie', crewneck: 'unisex-golf-sorry-about-your-windshield-crewneck-sweatshirt',
+            text: 'SORRY ABOUT YOUR WINDSHIELD. is printed big on the chest, above and below a golfer in front of a picket fence and a row of parked cars with a cracked star on the glass. It is for the golfer whose slice has found the parking lot. The crewneck is $34.99 and the pullover hoodie is $39.99.' },
+          { slogan: 'Not Cheating. Improving My Lie.', tee: 'unisex-golf-not-cheating-improving-my-lie-hoodie',
+            text: 'The art is a raccoon nudging a golf ball into a better spot, with NOT CHEATING. above it and IMPROVING MY LIE. below it. Improving your lie means moving the ball to a better position, which the rules do not allow. It is for the friend who rolls it over in the rough when nobody is looking. The hoodie is $39.99.' },
+        ],
+      },
+      {
+        h2: 'What should you give a golf lover who has every club?',
+        body: ['Something to wear after the round, not another thing to carry. A half zip or an embroidered zip hoodie is the layer he reaches for between the range and the drive home.'],
+        items: [
+          { slogan: 'I Play Army Golf', tee: 'mens-golf-i-play-army-golf-zip-hoodie',
+            text: 'The zip hoodie carries the full LEFT. RIGHT. LEFT. and I PLAY ARMY GOLF. print on the back, with a golfer in a follow-through embroidered on the left chest and the word LEFT stitched on the left cuff. It is a regular-fit zip-up in 8 oz cotton-poly fleece with a metal zipper, in Ash or Navy, sizes S to 3XL. It is $57.99.' },
+          { slogan: 'Fairways Are a Rumor.', tee: 'mens-golf-fairways-are-a-rumor-half-zip',
+            text: 'FAIRWAYS ARE A RUMOR. is printed large on the back of a men’s half zip pullover, with the art alone small on the left chest. It is the dressier pick, for the golfer who wants a layer that works at the club and at home. The half zip is $54.99.' },
+        ],
+      },
+      {
+        h2: 'What is a good gift for a woman who loves golf?',
+        body: ['I Only Golf for the Outfits. It teases the golf-outfit culture many newer golfers love, and it suits the friend who bought the skirt before the clubs.'],
+        items: [
+          { slogan: 'I Only Golf for the Outfits', tee: 'womens-golf-i-only-golf-for-the-outfits-cropped-hoodie',
+            text: 'I ONLY GOLF is set in pine green above the art, with for the outfits in hot pink script below. The women’s cropped hoodie ends at the waist, so it sits right with high-waisted pants or a golf skirt. It is $44.99.' },
+        ],
+        links: [{ href: '/hoodies/golf-hoodies/', text: 'Shop all golf hoodies' }, { href: '/hoodies/', text: 'All graphic hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good gift for a golf lover?',
+        body: ['A joke about the golfer’s own game. Lines about the slice, the “improved” lie and the zigzag drive land because every golfer has lived them. A generic “golf is life” slogan does not.',
+          'Every Graphic Tees Co. golf design is original art in a 1950s to 1970s country-club style, with the joke set in big type so it reads across the parking lot. Match the joke to the golfer’s worst habit and he will wear it to prove he can take it.'] },
+      { h2: 'What small golf gifts cost under $20?',
+        body: ['Three add-ons sit in the stocking-gift range. The Sorry About Your Windshield crew socks are $18.99 in sizes S to L, the Windshield mug is $17.99 in 11 oz glossy white ceramic and dishwasher safe, and the Not Cheating. Improving My Lie. ornament is $14.99, a glossy 2.76 in ceramic with gold string.',
+          'Each is printed to order, and a mug plus a tee clears the $45 free-shipping line.'],
+        links: [{ href: '/products/unisex-golf-sorry-about-your-windshield-socks/', text: 'Windshield socks' }, { href: '/products/golf-sorry-about-your-windshield-mug/', text: 'Windshield mug' }, { href: '/products/golf-not-cheating-improving-my-lie-ornament/', text: 'Not Cheating ornament' }] },
+      { h2: 'Can you wear these on the course?',
+        body: ['Often, yes. Many public courses and driving ranges allow hoodies, and plenty of golfers layer one over a polo for a cold early tee time and take it off by the turn. Private clubs often ask for a collar, so check the dress code first.',
+          'The Army Golf zip hoodie and the half zip are the easiest layers to shed mid-round, since they open down the front.'],
+        links: [{ href: '/guides/how-to-style-graphic-tees/', text: 'How to style graphic tees' }] },
+      { h2: 'When should you order a golf gift for Christmas?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.',
+          'Holiday sale prices run through November 30, 2026. US shipping is free on orders of $45 or more.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'Looking for more golf or gift ideas?',
+        body: ['For jokes that roast the slice and the lie in more depth, see our funny golf gifts guide. For a group swap with a budget, our white elephant guide has $24.99 picks.'],
+        links: [{ href: '/guides/funny-golf-gifts/', text: 'Funny golf gifts' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }, { href: '/guides/gym-gifts-for-men/', text: 'Gym gifts for men' }] },
+    ],
+    faqs: [
+      { q: 'What are good gifts for golf lovers?', a: 'A shirt or hoodie with a joke about his own game, like I Play Army Golf or Sorry About Your Windshield from Graphic Tees Co. The tee is $24.99, the crewneck is $34.99 and the hoodies run $39.99 to $57.99, all printed after you order.' },
+      { q: 'What is a good golf gift under $30?', a: 'The I Play Army Golf tee at $24.99 in the holiday sale through November 30, 2026. Add-ons are cheaper: the Not Cheating. Improving My Lie. ornament is $14.99, the Windshield mug is $17.99 and the Windshield socks are $18.99.' },
+      { q: 'What do you get a golfer who has everything?', a: 'Something he would not buy himself: a funny golf layer with an original joke. Graphic Tees Co. prints the Army Golf embroidered zip hoodie ($57.99) and the Fairways Are a Rumor half zip ($54.99) to order. Equipment is personal; a laugh is not.' },
+      { q: 'Is a golf hoodie a good gift?', a: 'Yes. A golf hoodie from Graphic Tees Co. works as a birthday, Father’s Day or Christmas gift because the joke is one every golfer recognizes. Pullovers are $39.99 in the holiday sale through November 30, 2026, and $44.99 after.' },
+      { q: 'Are there golf gifts for women?', a: 'Yes. Graphic Tees Co. makes the I Only Golf for the Outfits women’s cropped hoodie for $44.99. The Windshield and Not Cheating hoodies are unisex too.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+    ],
+    draft: true,
+  },
 ];
 
 // Only approved guides are built and linked.
