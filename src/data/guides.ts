@@ -2244,6 +2244,87 @@ export const allGuides: Guide[] = [
       { q: 'How early should I order a gym gift for Christmas?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2 to 5 business days, then delivery takes about 3 to 8 business days in the US.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-01). Keyword: christmas gifts for teens 18,100 / KD 10 (RankHero via scripts/keyword-gap.py, measured 2026-10-31 by the previous lane W run; not re-pulled this run). Unowned: checked 2026-11-01 against product-keyword-map.json, collections.ts and guides.ts (the only "teenager" hit is a sentence in the matching-family-shirts section of a collection).
+    // Facts (prices, policies) come from site.ts and the sibling guides; the four picks were confirmed ACTIVE in Shopify 2026-11-01 and their art text follows the Story text used in the approved sibling guides (read from the live Stories 2026-10-30). FAQ questions are not from PAA or GSC (not available unattended).
+    // Picks: Sleighping In, Jolly-ish, Define Naughty, Bah Humbug (Respectfully). Build drops any pick that is not live.
+    // Planned siblings (not live yet): christmas-gifts-for-son, christmas-gifts-for-mom, christmas-gifts-for-husband.
+    slug: 'christmas-gifts-for-teens',
+    keyword: 'christmas gifts for teens',
+    title: 'Christmas Gifts for Teens: 4 Funny Shirts They Will Actually Wear',
+    description: 'Christmas gifts for teens: Sleighping In, Jolly-ish, Define Naughty and Bah Humbug (Respectfully). Tees $24.99, crewnecks $34.99, printed to order.',
+    h1: 'Christmas Gifts for Teens Who Say They Want Nothing',
+    date: '2026-11-01',
+    cluster: 'christmas',
+    answer: 'A good Christmas gift for a teen is a funny shirt with one dry joke and no logo, because it works as a joke and as clothes. Graphic Tees Co. has four: Sleighping In for the one who sleeps till noon (tee $24.99, crewneck $34.99), Jolly-ish for the lukewarm holiday mood (tee $24.99, crewneck $34.99), Define Naughty for the one with a reputation (tee $24.99, crewneck $34.99) and Bah Humbug (Respectfully) for the grump with manners (tee $24.99, crewneck $34.99). Each is original art, printed after you order. Order by December 4, 2026.',
+    picks: [
+      {
+        h2: 'What is a good Christmas gift for a teen who sleeps in?',
+        body: ['Sleighping In. It is for the teen who will be asleep until the presents have been open for an hour.'],
+        items: [
+          { slogan: 'SLEIGHPING IN', tee: 'womens-christmas-sleighping-in-graphic-tee', crewneck: 'womens-christmas-sleighping-in-crewneck-sweatshirt',
+            text: 'A sleepy reindeer in a little striped nightcap curls up asleep inside an old red wooden sleigh piled with patchwork quilts and pillows, with three small z’s floating up and a few snowflakes around, in faded red, cream, sage green and soft pink in a 1950s storybook style. SLEIGHPING IN is lettered in an arc above. It is a women\'s relaxed cut. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/christmas-shirts-for-women/', text: 'Women\'s Christmas shirts' }],
+      },
+      {
+        h2: 'What do you give a teen who is only sort of into Christmas?',
+        body: ['Jolly-ish. It is for the teen who is in the spirit depending on how many cookies are left.'],
+        items: [
+          { slogan: 'JOLLY-ISH', tee: 'womens-christmas-jolly-ish-graphic-tee', crewneck: 'womens-christmas-jolly-ish-crewneck-sweatshirt',
+            text: 'One big word, JOLLY-ISH, in chunky rounded letters. On the tee the letters are filled with red and green buffalo plaid, and on the crewneck JOLLY is solid red and ISH solid green, each with a cream edge. A pink satin bow sits on the lettering, with a small candy cane, a glass ornament and a sprig of holly beside it. It is a women\'s relaxed cut. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+      },
+      {
+        h2: 'What is a funny gift for a teen who thinks they are on the nice list?',
+        body: ['Define Naughty. It is for the teen with a reputation who insists it is all a misunderstanding.'],
+        items: [
+          { slogan: 'DEFINE NAUGHTY', tee: 'mens-christmas-define-naughty-graphic-tee', crewneck: 'unisex-christmas-define-naughty-crewneck-sweatshirt',
+            text: 'A storybook Santa in a 1950s picture-book style, with a red coat, cream fur, small round spectacles and a long scroll of names, and DEFINE NAUGHTY lettered underneath in uneven hand-drawn capitals. The edges break up into a worn screen-print texture. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/christmas-shirts-for-men/', text: 'Men\'s Christmas shirts' }],
+      },
+      {
+        h2: 'What do you give a teen who complains about the holidays but shows up?',
+        body: ['Bah Humbug (Respectfully). It is for the grump who groans about the music and then helps with the dishes.'],
+        items: [
+          { slogan: 'BAH HUMBUG (RESPECTFULLY)', tee: 'mens-christmas-bah-humbug-graphic-tee', crewneck: 'unisex-christmas-bah-humbug-crewneck-sweatshirt',
+            text: 'A grumpy old gentleman in a striped nightcap and plaid dressing gown stands with arms crossed, frowning over his spectacles, a single candle at his feet. BAH HUMBUG is lettered above and (RESPECTFULLY) in smaller letters below. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+        links: [{ href: '/christmas-sweatshirts/', text: 'Christmas sweatshirts' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a Christmas gift for a teen good instead of cringe?',
+        body: ['A joke the teen would say out loud, in plain type, with nothing trying too hard. Sleeping in, being lukewarm about the holiday and grumbling politely are all things a teen already does, so the shirt does not need to explain itself.',
+          'Graphic Tees Co. designs are original art with the joke set in big type. They use no team, brand or character logos, so there is nothing to be wrong about.'],
+        links: [{ href: '/christmas-shirts/', text: 'Christmas shirts' }] },
+      { h2: 'What are good Christmas gifts for teens under $30?',
+        body: ['Every tee here is $24.99: Sleighping In, Jolly-ish, Define Naughty and Bah Humbug (Respectfully). Two tees come to $49.98, which clears the $45 free US shipping line, so you can cover two teens in one order.'] },
+      { h2: 'Should you pick a tee or a crewneck for a teen?',
+        body: ['A tee is $24.99 in a lightweight 4.2 oz cotton cut. A crewneck is $34.99 in an 8 oz cotton-poly fleece.',
+          'For a teen who lives in layers, choose the crewneck. If you are not sure, the tee is the easier gift.'],
+        links: [{ href: '/christmas-sweatshirts/', text: 'Christmas sweatshirts' }, { href: '/guides/thick-hoodies/', text: 'Thick hoodies: how thick is 10 oz' }] },
+      { h2: 'What size should you order for a teen?',
+        body: ['Graphic Tees Co. sells these in adult sizes, so check the size chart on the product page against a shirt the teen already wears. If you are between sizes, go up one. Teens grow, and a looser fit is how most of them wear a crewneck anyway.',
+          'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and they do not have to mail the first one back. If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'When should you order Christmas gifts for teens?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, which is up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find gifts for the people on your list?',
+        body: ['For the friends in the group chat, see our friends guide. For the parents and the grandparents, see our parents and grandma guides, and for a group swap, our white elephant guide.'],
+        links: [{ href: '/guides/christmas-gifts-for-friends/', text: 'Christmas gifts for friends' }, { href: '/guides/christmas-gifts-for-parents/', text: 'Christmas gifts for parents' }, { href: '/guides/christmas-gifts-for-daughter/', text: 'Christmas gifts for daughter' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }, { href: '/christmas-shirts/', text: 'All Christmas shirts' }] },
+    ],
+    faqs: [
+      { q: 'What are good Christmas gifts for teens?', a: 'A funny shirt with one dry joke, like Sleighping In or Define Naughty from Graphic Tees Co. Tees are $24.99, crewnecks are $34.99, all printed to order.' },
+      { q: 'What is a good Christmas gift for a teen under $30?', a: 'Any Graphic Tees Co. Christmas tee here: Sleighping In, Jolly-ish, Define Naughty or Bah Humbug (Respectfully). Each is $24.99 and printed after you order.' },
+      { q: 'What is a funny Christmas gift for a teenager?', a: 'Define Naughty from Graphic Tees Co.: a storybook Santa with round spectacles and a long scroll of names. The tee is $24.99 and the crewneck is $34.99.' },
+      { q: 'Is a Christmas crewneck a good gift for a teen?', a: 'Yes. Graphic Tees Co. crewnecks are $34.99 in an 8 oz cotton-poly fleece, and US shipping is free on orders of $45 or more.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+      { q: 'When should I order Christmas gifts for a teen?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. Exact estimates show at checkout.' },
+    ],
+    draft: true,
+  },
 ];
 
 // Only approved guides are built and linked.
