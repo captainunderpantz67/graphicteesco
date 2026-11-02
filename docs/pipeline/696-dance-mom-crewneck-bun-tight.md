@@ -1,4 +1,4 @@
-status: REDO
+status: BUILDING [B] 17:36
 lane: A
 type: twin
 id: 696
