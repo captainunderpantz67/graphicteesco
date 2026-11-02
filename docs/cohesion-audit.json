@@ -1,6 +1,6 @@
 {
- "at": "2026-11-02T03:23:37.394Z",
- "products": 774,
+ "at": "2026-11-02T15:31:20.666Z",
+ "products": 780,
  "findings": [
   {
    "level": "WARN",
@@ -3154,6 +3154,27 @@
   },
   {
    "level": "WARN",
+   "handle": "womens-owl-night-owl-retired-embroidered-zip-hoodie",
+   "title": "Women's Owl – Night Owl, Retired Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-strawberry-please-dont-pick-me-embroidered-zip-hoodie",
+   "title": "Women's Strawberry – Please Don't Pick Me Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-y2k-gold-star-for-leaving-the-house-embroidered-zip-hoodie",
+   "title": "Women's Y2K – Gold Star for Leaving the House Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "mens-gym-squire-spot-me-embroidered-zip-hoodie",
    "title": "Men's Gym – Squire, Spot Me Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
@@ -3163,6 +3184,13 @@
    "level": "WARN",
    "handle": "mens-pirate-pillaging-is-a-young-mans-game-embroidered-zip-hoodie",
    "title": "Men's Pirate – Pillaging Is a Young Man's Game Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-equestrian-horse-girl-broke-on-purpose-embroidered-zip-hoodie",
+   "title": "Women's Equestrian – Horse Girl, Broke on Purpose Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
@@ -3198,6 +3226,13 @@
    "level": "WARN",
    "handle": "womens-hockey-cold-rink-hot-takes-embroidered-zip-hoodie",
    "title": "Women's Hockey – Cold Rink, Hot Takes. Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-crochet-no-i-wont-make-you-one-embroidered-zip-hoodie",
+   "title": "Women's Crochet – No, I Won't Make You One. Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
@@ -3254,6 +3289,13 @@
    "level": "WARN",
    "handle": "mens-christmas-it-looked-smaller-at-the-farm-embroidered-zip-hoodie",
    "title": "Men's Christmas – It Looked Smaller at the Farm Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-apres-ski-expert-in-apres-embroidered-zip-hoodie",
+   "title": "Women's Apres Ski – Expert in Après (Beginner at Skiing) Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },

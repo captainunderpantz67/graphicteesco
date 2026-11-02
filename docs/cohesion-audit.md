@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-11-02 03:23 UTC
+# Cohesion audit — 2026-11-02 15:31 UTC
 
-774 live products checked · **0 errors** · 482 warnings · 449 products with findings
+780 live products checked · **0 errors** · 488 warnings · 455 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -1299,10 +1299,22 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Men's Car – Not Stopping. Hold It. Embroidered Zip Hoodie `mens-car-not-stopping-hold-it-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Women's Owl – Night Owl, Retired Embroidered Zip Hoodie `womens-owl-night-owl-retired-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Strawberry – Please Don't Pick Me Embroidered Zip Hoodie `womens-strawberry-please-dont-pick-me-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Y2K – Gold Star for Leaving the House Embroidered Zip Hoodie `womens-y2k-gold-star-for-leaving-the-house-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Men's Gym – Squire, Spot Me Embroidered Zip Hoodie `mens-gym-squire-spot-me-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Men's Pirate – Pillaging Is a Young Man's Game Embroidered Zip Hoodie `mens-pirate-pillaging-is-a-young-mans-game-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Equestrian – Horse Girl, Broke on Purpose Embroidered Zip Hoodie `womens-equestrian-horse-girl-broke-on-purpose-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Men's Fishing – Fishing Is My Love Language Embroidered Zip Hoodie `mens-fishing-is-my-love-language-embroidered-zip-hoodie`
@@ -1318,6 +1330,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Women's Hockey – Cold Rink, Hot Takes. Embroidered Zip Hoodie `womens-hockey-cold-rink-hot-takes-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Crochet – No, I Won't Make You One. Embroidered Zip Hoodie `womens-crochet-no-i-wont-make-you-one-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Men's Welder – If You Can Step Over It, I Can Fill It. Embroidered Zip Hoodie `mens-welder-if-you-can-step-over-it-embroidered-zip-hoodie`
@@ -1342,6 +1357,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Men's Christmas – It Looked Smaller at the Farm Embroidered Zip Hoodie `mens-christmas-it-looked-smaller-at-the-farm-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Apres Ski – Expert in Après (Beginner at Skiing) Embroidered Zip Hoodie `womens-apres-ski-expert-in-apres-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Men's Thanksgiving – Technically a Vegetable Embroidered Zip Hoodie `mens-thanksgiving-technically-a-vegetable-embroidered-zip-hoodie`
