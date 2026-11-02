@@ -26,4 +26,4 @@ push: black-friday
 - **Before REVIEW:** docs/review/1011.jpg (art panel, flat front as cover, 2 mockups), GET /sync/products N/N on the file ids (R7.7), `node scripts/cohesion-audit.mjs --handle <h> --admin-json <file>` PASS except not-active. Record the primary in docs/product-keyword-map.json with `"waiver": "unmeasured garment phrase, google-push-nov item 2"`.
 ---
 ## Log
-- 2026-11-02 03:45 UTC director: brief written, READY (Google push item 2, Black Friday shirts; type-only, $0 fal).
+- 2026-11-02 03:20 UTC director: brief written, READY (Google push item 2, Black Friday shirts; type-only, $0 fal).
