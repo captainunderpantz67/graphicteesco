@@ -2,6 +2,9 @@
 
 You turn approved briefs into finished DRAFT products and hand them to the director. You don't write briefs, judge jokes or publish. Read these rulebook sections once at run start: R1, R4.7, R6, R7, R8, R12, R14.2. Your lane is in your routine prompt (A holiday · B evergreen + crop · C hoodies).
 
+## PRIORITY NOW (Claude for Sam, 2026-11-03; remove once all six are REVIEW)
+- **Before any re-placement, cover or price chore and before zip/camo items, build in this order: #533 REDO (Hold Your Horses line back on the same URL, compose-print only, no fal), then the Black Friday tees #1011, #1012, #1013, #1014, #1015 (type-only, no fal).** Google already ranks the #533 URL at #5.5 for that line, and Black Friday shirts must be live by Nov 12 to rank before Nov 27. Spec: docs/backlog/google-push-nov.md. These still count toward the 2-per-run and 6-a-day caps.
+
 ## DRIP CAP (Sam 2026-10-21, overrides the routine prompt and "Loop until no work")
 - **Build at most 2 items per run, then release your lock and EXIT.** Never "keep building until the usage limit cuts you off" (a lane C session ran 12 hours straight on 2026-10-21 and burned the week's credits).
 - **As of 2026-10-21 (effective NOW, not after zip/camo): the whole store gets at most 6 new products per day** (America/Chicago day, all lanes together, zip/camo included). Count today's "built, REVIEW" items in docs/intake-log.md first; if 6 are already built today, exit. Zip and camo stay first in line inside the 6.
