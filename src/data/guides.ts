@@ -2406,6 +2406,77 @@ export const allGuides: Guide[] = [
       { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-02). Keyword: gym hoodie women 3,600 / KD 14 (keyword-bank.json gym-hoodies, RankHero 2026-10-16; not re-pulled this run, RankHero returned nothing for the article-style variants). Unowned: collections.ts has "gym hoodie" and "mens gym hoodie" but no women's gym page; checked against guides.ts too. "womens gym hoodie" 3,600/14 and "gym hoodie for women" 3,600/34 are secondary.
+    // Facts (fabrics, sizes, prices, colors, policies) come from the LIVE Shopify Stories read 2026-11-02 and site.ts. Picks follow the live art text, not the old briefs. FAQ questions are not from PAA or GSC (not available unattended).
+    // Picks: Lunges & Lattes hoodie (cropped linked), Lift Heavy. Reply Later. cropped hoodie (zip linked). Build drops any pick that is not live.
+    // Planned siblings (not live yet): gym-outfits-for-women, best-hoodies-for-lifting.
+    slug: 'gym-hoodies-for-women',
+    keyword: 'gym hoodie women',
+    title: 'Gym Hoodies for Women: Pullover, Cropped & Zip Picks',
+    description: 'Gym hoodies for women: Lunges & Lattes pullover, cropped and zip, and Lift Heavy. Reply Later. cropped and zip. Fleece weights, sizes and prices, printed to order.',
+    h1: 'Gym Hoodies for Women: Pullover, Cropped or Zip, and What Each One Is Good For',
+    date: '2026-11-02',
+    cluster: 'gym',
+    draft: true,
+    answer: 'A good gym hoodie for women is a soft fleece layer you can pull on over a tank before class and keep on for the coffee after. Graphic Tees Co. makes two original designs in three cuts: Lunges & Lattes (pullover $39.99, cropped $44.99, embroidered zip $57.99) and Lift Heavy. Reply Later. (cropped $44.99, embroidered zip $57.99). They are cotton-polyester fleece, not moisture-wicking performance gear, and every one is printed to order.',
+    picks: [
+      {
+        h2: 'What is a good gym hoodie for the early class and the coffee after?',
+        body: ['Lunges & Lattes. It is a full-length pullover, which makes it the roomiest and warmest of the three cuts, and the joke is the one everybody in the 6 a.m. class already knows.'],
+        items: [
+          { slogan: 'LUNGES & LATTES', tee: 'womens-gym-lunges-and-lattes-hoodie', crewneck: 'womens-gym-lunges-and-lattes-cropped-hoodie',
+            text: 'LUNGES & LATTES is lettered in chunky 1970s bubble letters over a calm white bunny in a pink terry sweatband, striped leg warmers and a leotard, mid-lunge with a tiny pink dumbbell in one paw and a tall foamy latte in the other. The pullover is $39.99 in Sand or Light Pink, sizes S to 5XL (Sand runs S to 3XL). The cropped version is $44.99 in Storm or Black.' },
+        ],
+        links: [{ href: '/products/womens-gym-lunges-and-lattes-embroidered-zip-hoodie/', text: 'Lunges & Lattes embroidered zip hoodie' }],
+      },
+      {
+        h2: 'What is a good cropped gym hoodie for high-waisted leggings?',
+        body: ['Lift Heavy. Reply Later. The cropped body ends at the waist, so it sits right over a sports bra and high-waisted leggings without bunching.'],
+        items: [
+          { slogan: 'Lift Heavy. Reply Later.', tee: 'womens-gym-lift-heavy-reply-later-cropped-hoodie', crewneck: 'womens-gym-lift-heavy-reply-later-embroidered-zip-hoodie',
+            text: 'LIFT HEAVY. runs across the top in bold block capitals and Reply Later. closes the print in a loose cream script, with a lifter in boots pulling a loaded barbell off the floor while a vintage telephone rings on the bench behind her. The cropped hoodie is $44.99 in Black or Storm, sizes S to 2XL, with a raw hem and a dropped shoulder. The embroidered zip is $57.99.' },
+        ],
+        links: [{ href: '/hoodies/cropped-hoodies/', text: 'All cropped hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'What should a gym hoodie for women actually do?',
+        body: ['It should layer easily, stay put through a warm-up and look fine at the coffee bar afterward. That is a fleece hoodie job, not a sweat-wicking one: nobody needs a hoodie to pull moisture off the skin at the rack, they need one to take off between sets.',
+          'Graphic Tees Co. gym hoodies are made for exactly that: warm-ups, cool gym mornings, rest days and the drive home.'],
+        links: [{ href: '/hoodies/gym-hoodies/', text: 'All gym hoodies' }] },
+      { h2: 'Pullover, cropped or zip: which gym hoodie cut is right?',
+        body: ['Pick the pullover for warmth and a roomy fit, the cropped hoodie for high-waisted leggings and a short layer, and the zip when you want to take it off mid-workout without pulling it over your head.',
+          'The Lunges & Lattes pullover is a classic-fit 8 oz fleece, 50% cotton and 50% polyester, with a front pouch pocket and a double-lined hood. The cropped hoodies are a lighter 6.5 oz fleece, 52% combed and ring-spun cotton and 48% polyester. The embroidered zips are 8 oz, 50% cotton and 50% polyester, with a metal zipper.'],
+        links: [{ href: '/hoodies/zip-up-hoodies-for-women/', text: 'Women\'s zip-up hoodies' }] },
+      { h2: 'Are these gym hoodies warm enough for early workouts?',
+        body: ['They are a light-to-mid layer, not a parka. The cropped hoodies suit warm-ups, cool gym mornings and the walk to the car. The 8 oz pullover and zips hold more warmth for cold parking lots.',
+          'None of them are performance fabric. They are cotton-polyester fleece, so treat them as the layer you wear before and after the sweat.'] },
+      { h2: 'How do you pick a size for a gym hoodie?',
+        body: ['Order your usual size. For the cropped hoodies that gives the short look, and one size up gives a roomier fit over a sports bra. The pullover runs S to 5XL and the cropped hoodies S to 2XL; the embroidered zips are a regular unisex fit in S to 3XL.',
+          'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'How do you wash a gym hoodie so the print lasts?',
+        body: ['Turn it inside out, wash cold with similar colors, then tumble dry low or hang it. Skip bleach and keep the iron off the print and the stitching.',
+          'The designs are printed straight onto the fabric, so gentle care keeps the lettering sharp through years of gym laundry.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'What do gym hoodies for women cost, and when do they arrive?',
+        body: ['The pullover is $39.99, cropped hoodies are $44.99 and embroidered zips are $57.99. US shipping is free on orders of $45 or more. Each piece is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US.',
+          'Buying for a crew? Order 10 or more items in one cart and 15% comes off at checkout.'],
+        links: [{ href: '/group-shirts/', text: 'Group orders' }] },
+      { h2: 'Where else can you find gym hoodie ideas?',
+        body: ['Shopping for someone else? Our gifts for gym lovers guide has the tees and hoodies as gift picks, and gym gifts for men covers the guys\' side. For a softer everyday layer, see cozy hoodies.'],
+        links: [{ href: '/guides/gifts-for-gym-lovers/', text: 'Gifts for gym lovers' }, { href: '/guides/gym-gifts-for-men/', text: 'Gym gifts for men' }, { href: '/guides/cozy-hoodies/', text: 'Cozy hoodies' }, { href: '/hoodies/graphic-hoodies-for-women/', text: 'Graphic hoodies for women' }] },
+    ],
+    faqs: [
+      { q: 'What is a good gym hoodie for women?', a: 'A soft fleece hoodie that layers over a sports bra or tee. Graphic Tees Co. makes Lunges & Lattes as a pullover ($39.99), cropped hoodie ($44.99) and embroidered zip ($57.99), all printed to order.' },
+      { q: 'Is a cropped gym hoodie good for working out?', a: 'It works for warm-ups and cool gym mornings. The Graphic Tees Co. cropped hoodies are a 6.5 oz fleece with a raw hem that sits at the waist, so they stay clear of high-waisted leggings.' },
+      { q: 'Are these gym hoodies moisture-wicking?', a: 'No. They are cotton-polyester fleece, not performance fabric. Graphic Tees Co. gym hoodies are meant for warm-ups, rest days and the walk to the car.' },
+      { q: 'What size gym hoodie should I order?', a: 'Your usual size. Go up one for a roomier fit over a sports bra. Graphic Tees Co. also sends one free replacement in a new size within 30 days of delivery.' },
+      { q: 'How do I wash a graphic gym hoodie?', a: 'Turn it inside out, wash cold with similar colors, then tumble dry low or hang it. Skip bleach and do not iron over the print or stitching on a Graphic Tees Co. hoodie.' },
+      { q: 'How long does a Graphic Tees Co. gym hoodie take to arrive?', a: 'Each one is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. US shipping is free on orders of $45 or more.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
