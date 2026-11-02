@@ -48,6 +48,22 @@ const materialOf = (d: string, color = '') => {
   if (/100%[^.;]*cotton/i.test(d) && !/heather/i.test(color)) return 'cotton';
   return cotton && poly ? 'cotton/polyester' : cotton ? 'cotton' : poly ? 'polyester' : null;
 };
+// Merchant Center (2026-11-01: 8,313 tees flagged) wants material and pattern IN the description, not only in g:material /
+// g:pattern. Feed only: one plain key-details sentence opens the description; the product page copy is unchanged.
+const garmentOf = (h: string) => /zip-hoodie$/.test(h) ? 'zip-up hoodie' : /hoodie$/.test(h) ? 'hoodie' : /sweatshirt$/.test(h) ? 'crewneck sweatshirt'
+  : /long-sleeve-tee$/.test(h) ? 'long sleeve tee' : /bodysuit$/.test(h) ? 'baby bodysuit' : /sweatpants$/.test(h) ? 'sweatpants'
+  : /socks$/.test(h) ? 'socks' : /mug$/.test(h) ? 'mug' : /ornament$/.test(h) ? 'ornament' : 'tee';
+const keyDetails = (handle: string, details: string) => {
+  const aud = /^womens-/.test(handle) ? "Women's " : /^mens-/.test(handle) ? "Men's " : /^unisex-/.test(handle) ? 'Unisex ' : '';
+  const g = garmentOf(handle);
+  const cotton = /cotton/i.test(details), poly = /poly/i.test(details);
+  const mat = g === 'mug' || g === 'ornament' ? 'ceramic'
+    : /100%[^.;]*cotton/i.test(details) && /heather/i.test(details) ? '100% cotton (heather colors are a cotton-polyester blend)'
+    : /100%[^.;]*cotton/i.test(details) ? '100% cotton' : cotton && poly ? 'a cotton-polyester blend' : cotton ? 'cotton' : poly ? 'polyester' : '';
+  const pat = /embroidered/.test(handle) && !/zip-hoodie$/.test(handle) ? 'an embroidered graphic design' : 'a graphic print';
+  const sentence = `${aud}${g} with ${pat}${mat ? `, made of ${mat}` : ''}.`;
+  return sentence[0].toUpperCase() + sentence.slice(1);
+};
 const highlightsOf = (d: string) => d.replace(/\bCo\.\s/g, 'Co ').split(/(?<=\.)\s+(?=[A-Z0-9])/).map((x) => x.trim().replace(/\.$/, '')).filter((x) => x.length >= 8 && x.length <= 150).slice(0, 4);
 
 export const renderFeed = (products: Awaited<ReturnType<typeof feedProducts>>, catalog: Awaited<ReturnType<typeof feedProducts>> = products) => {
@@ -56,8 +72,8 @@ export const renderFeed = (products: Awaited<ReturnType<typeof feedProducts>>, c
     const link = `${site.url}/products/${p.handle}/`;
     // Kept short: the description repeats on every variant row, and Cloudflare Pages caps a file at 25 MiB
     // (the full-length feed hit 29.6 MiB on 2026-10-16 and blocked every deploy). Google needs no more than this.
-    const desc = text(p.descriptionHtml || p.description).slice(0, 600).replace(/\s+\S*$/, '');
     const details = detailsOf(text(p.descriptionHtml || p.description));
+    const desc = `${keyDetails(p.handle, details)} ${text(p.descriptionHtml || p.description).slice(0, 600).replace(/\s+\S*$/, '')}`;
     const highlightXml = `      <g:pattern>graphic print</g:pattern>\n${highlightsOf(details).map((h) => `      <g:product_highlight>${esc(h)}</g:product_highlight>\n`).join('')}`;
     const col = all.find((c) => p.collections?.includes(c.shopifyHandle) && c.slug !== 'graphic-tees-for-men' && c.slug !== 'graphic-tees-for-women');
     const isSweat = /sweatshirt|crewneck|hood/i.test(p.title + ' ' + p.productType);

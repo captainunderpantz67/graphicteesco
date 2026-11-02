@@ -42,7 +42,7 @@ export const site = {
   } as { src: string; alt: string; srcSmall?: string } | null,
   facts: {
     printedOnDemand: true,
-    productionDays: null,
+    productionDays: '2–5 business days', // 2026-11-02 director: the figure /shipping-returns/ already states (Printful apparel production); unlocks the gated 'when to order' FAQs on every collection (google-push item 1)
     sizeRange: null,
     womensFit: null,
     kidsSizes: null,

@@ -129,7 +129,7 @@ const noindex = (shopifyConnected && products.length < MIN_INDEX) || HOLD.has(c.
 
   <section class="container-x mt-16 grid md:grid-cols-[2fr_1fr] gap-12">
     <div class="prose-copy">
-      {c.sections.map((s) => <><h2>{s.h2}</h2><p>{s.body}</p></>)}
+      {c.sections.map((s) => <><h2>{s.h2}</h2><p>{s.body}</p>{s.links?.length ? <ul>{s.links.map((l) => <li><a href={l.href}>{l.label}</a></li>)}</ul> : null}</>)}
       <h2>FAQ</h2>
       <dl class="grid gap-4 mt-4">
         {faqs.map((f) => (

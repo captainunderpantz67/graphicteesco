@@ -4,7 +4,7 @@
 // Answers are facts-only: anything depending on an unconfirmed fact uses `needs`
 // and stays hidden until that fact is set in site.ts.
 // Order within each section = easiest to rank first (build order).
-import type { Faq } from './site';
+import type { Faq, Facts } from './site';
 import { site } from './site';
 
 export type Section = 'tees' | 'hoodies';
@@ -22,7 +22,7 @@ export interface Collection {
   description: string;
   h1: string;
   intro: string;
-  sections: { h2: string; body: string }[];
+  sections: { h2: string; body: string; links?: { href: string; label: string }[] }[];
   faqs: Faq[];
   shopifyHandle: string;
   twin?: string;
@@ -348,7 +348,7 @@ function niche(
 function seasonal(
   season: 'halloween' | 'thanksgiving' | 'christmas',
   section: Section,
-  o: { slug: string; keyword: string; volume: number; kd: number; product: string; twin?: string; blurb: string; extra?: Faq[]; intro?: string; sections?: { h2: string; body: string }[]; title?: string; description?: string; name?: string },
+  o: { slug: string; keyword: string; volume: number; kd: number; product: string; twin?: string; blurb: string; extra?: Faq[]; intro?: string; sections?: { h2: string; body: string; links?: { href: string; label: string }[] }[]; title?: string; description?: string; name?: string },
 ): Collection {
   const label = titleCase(season);
   return {
@@ -365,7 +365,8 @@ function seasonal(
     intro: o.intro ?? `Our ${o.product} are original designs: ${o.blurb}`,
     sections: o.sections ?? [{ h2: `A new ${label} drop every year`, body: 'This collection gets new designs each season. Order early — printed-to-order items take time to make and ship.' }],
     faqs: [
-      { q: `When should I order ${o.product}?`, a: (f) => `Order at least two weeks before you need it. Printing takes ${f.productionDays} before shipping.`, needs: 'productionDays' },
+      // A page with its own dated 'When should I order…' answer in `extra` skips this generic one (no near-duplicate FAQs).
+      ...(o.extra?.some((f) => /^when should i order/i.test(f.q)) ? [] : [{ q: `When should I order ${o.product}?`, a: (f: Facts) => `Order at least two weeks before you need it. Printing takes ${f.productionDays} before shipping.`, needs: 'productionDays' as const }]),
       { q: `Are your ${o.product} licensed characters?`, a: 'No. Every design is original art made for this shop.' },
       ...(o.extra ?? []),
       ...audienceFaqs(o.product),
@@ -478,6 +479,33 @@ export const tees: Collection[] = [
       { q: 'Can you put our family name or a custom line on the shirts?', a: 'Not yet. Custom names are coming in 2027. For now the crew shop has ready-made designs that work for any family or group.' },
     ],
     shopifyHandle: 'group-shirts',
+  },
+  {
+    // Google push item 2 (Sam 2026-11-01, docs/backlog/google-push-nov.md). Google reads 'black friday t shirts' as shirts ABOUT Black Friday
+    // (squad / crew tees, shopping humor), not a sale page; /black-friday/ stays the deals page and the two link each other.
+    // RankHero 2026-11-02 (scripts/keyword-gap.py): black friday shirts 720 / KD 44 (competition 9,941); no Black Friday long-tail measures.
+    // Tees only (the audit keeps crewnecks out of tee grids). Noindexed until 3 products are live (linkable.ts).
+    slug: 'black-friday-shirts', section: 'tees', name: 'Black Friday Shirts',
+    keyword: 'black friday shirts', volume: 720, kd: 44,
+    title: 'Black Friday Shirts: Funny Shopping Squad Tees',
+    description: 'Funny Black Friday shirts for the 4 a.m. shopping trip: matching shopping squad tees for the group and one-line jokes. Printed to order, tees $24.99.',
+    h1: 'Black Friday Shirts',
+    intro: 'Funny Black Friday shirts for the people who set an alarm for the doorbusters: matching shopping squad tees for the whole group and one-line jokes about coupons, carts and leftovers. Tees are $24.99 and printed after you order, so order by about November 12 to wear one on November 27.',
+    sections: [
+      { h2: 'Matching shopping squad shirts', body: 'The squad shirts share one headline, BLACK FRIDAY SHOPPING SQUAD, and give each person a job: one has the list, one is just the driver. Mix them in one cart and the group matches without everyone wearing the same line.' },
+      { h2: 'Funny Black Friday shirts for the 4 a.m. crowd', body: 'For the shopper who treats the doorbuster rack like a sport, the one who got up at 4 a.m. for a toaster, and the one still full from Thursday and already shopping. Every line is short enough to read across a parking lot.' },
+      { h2: 'Looking for Black Friday deals instead?', body: 'This page is shirts about Black Friday. Our Black Friday sale on tees, hoodies and sweatshirts runs November 8 to November 30, with bigger savings the more you mix, and no code needed.',
+        links: [{ href: '/black-friday/', label: 'Black Friday deals on graphic tees and hoodies' }] },
+    ],
+    faqs: [
+      { q: 'When should I order a Black Friday shirt to have it in time?', a: 'Order by about November 12 to wear it on Black Friday, November 27. Each Black Friday shirt is printed in 2–5 business days after you order, then takes about 3–8 business days to arrive in the US.' },
+      { q: 'Do you have matching Black Friday shirts for a group?', a: 'Yes. The Black Friday Shopping Squad tees share one headline and give each person a role line, so a family or friend group can match. Ten or more items in one cart take 15% off automatically, with any mix of designs and sizes.' },
+      { q: 'What are the Black Friday shirts made of?', a: 'Unisex Black Friday shirts are Bella+Canvas 3001 tees, lightweight 4.2 oz combed ring-spun cotton. Women\'s are the Bella+Canvas 6400 relaxed tee in the same weight with a looser cut. Heather colors contain some polyester.' },
+      { q: 'How do the Black Friday tees fit?', a: 'The unisex tee has a classic fit that runs true to size for men and a little roomy for women. The women\'s relaxed tee has a softer, looser shape; take your usual size. Each product page has a size chart.' },
+      { q: 'Are Black Friday shirts on sale for Black Friday?', a: 'Yes. Our Black Friday deals run November 8 to November 30 and apply to these shirts too: mix several items and the discount comes off at checkout without a code. See the Black Friday deals page for the tiers.' },
+      { q: 'What if my Black Friday shirt is the wrong size?', a: 'Within 30 days of delivery we send one replacement in a new size free, and you don\'t have to mail the first shirt back. Misprints and damage are reprinted or refunded within 30 days.' },
+    ],
+    shopifyHandle: 'black-friday-shirts',
   },
   seasonal('halloween', 'tees', { slug: 'halloween-shirts', keyword: 'halloween shirts', volume: 22200, kd: 58, product: 'Halloween shirts', twin: 'halloween-hoodies', blurb: 'horror-movie-night, spooky-season and costume-optional designs.',
     extra: [{ q: 'Do you have horror movie shirts?', a: 'We make original horror-inspired designs. We don’t use movie names, characters or logos.' }],
@@ -1398,8 +1426,35 @@ export const hoodies: Collection[] = [
   },
   niche(N.anime, 'hoodies', { slug: 'anime-hoodies', keyword: 'anime hoodie', volume: 22200, kd: 38, product: 'anime-style hoodies', twin: 'anime-shirts' }),
   seasonal('halloween', 'hoodies', { slug: 'halloween-hoodies', keyword: 'halloween hoodie', volume: 5400, kd: 48, product: 'Halloween hoodies', twin: 'halloween-shirts', blurb: 'horror-movie-night and spooky-season designs for cold October nights.' }),
-  seasonal('christmas', 'hoodies', { slug: 'christmas-hoodies', keyword: 'christmas hoodie', volume: 9900, kd: 52, product: 'Christmas hoodies', twin: 'christmas-shirts', blurb: 'holiday designs warm enough for the tree lot and the family photo.',
-    extra: [{ q: 'Do you have matching Christmas hoodies for family?', a: 'Yes. Any design can be ordered in several sizes so the whole family matches.' }] }),
+  // Google push item 1 (Sam 2026-11-01, docs/backlog/google-push-nov.md): primary -> 'christmas hoodies' 9,900 / KD 58 (RankHero 2026-11-01;
+  // Search Console avg spot 25, 73 impressions in 28 days); 'christmas hoodie' 9,900 / KD 52 stays as the second phrase in the copy.
+  // Answer-first intro, sections with live product links, 8 FAQs (all reach the FAQPage schema: none gated on an unset fact).
+  seasonal('christmas', 'hoodies', { slug: 'christmas-hoodies', keyword: 'christmas hoodies', volume: 9900, kd: 58, product: 'Christmas hoodies', twin: 'christmas-shirts', blurb: 'holiday designs warm enough for the tree lot and the family photo.',
+    title: 'Christmas Hoodies: Funny Holiday Hoodies for Men & Women',
+    description: 'Christmas hoodies with original funny art, printed to order for men, women and families. Pullovers from $39.99, zip-ups too. Free US shipping on $45+.',
+    intro: 'Our Christmas hoodies are original holiday designs with a joke you can wear to the office party, the tree lot and the family photo. Pick a pullover from $39.99, an oversized fit or an embroidered zip-up; each one is printed after you order it and ships free in the US on orders over $45.',
+    sections: [
+      { h2: 'Funny Christmas hoodies', body: 'Most of these carry one dry line rather than a sweater pattern: a Santa who wants a definition of naughty, a guest attending under protest, a white elephant champion. They read from across the room and still look good in the family photo.',
+        links: [{ href: '/products/unisex-christmas-define-naughty-hoodie/', label: 'Define Naughty hoodie' }, { href: '/products/mens-christmas-attending-under-protest-hoodie/', label: 'Attending Under Protest hoodie' }, { href: '/products/unisex-christmas-technically-a-sweater-hoodie/', label: 'Technically a Sweater hoodie' }, { href: '/products/womens-christmas-jolly-ish-hoodie/', label: 'Jolly-ish hoodie' }] },
+      { h2: 'Christmas hoodies for women', body: 'The women\'s Christmas hoodies run from vintage storybook art (a highland cow in a wreath, a nutcracker with a bow, penguins on the pond) to cheeky lines like Sleigh Queen and Sleighping In. Each comes in a light and a dark color.',
+        links: [{ href: '/products/womens-christmas-highland-cow-christmas-hoodie/', label: 'Highland Cow Christmas hoodie' }, { href: '/products/womens-christmas-sleigh-queen-hoodie/', label: 'Sleigh Queen hoodie' }, { href: '/products/womens-christmas-nutcracker-bow-hoodie/', label: 'Nutcracker Bow hoodie' }, { href: '/products/womens-christmas-sleighping-in-hoodie/', label: 'Sleighping In hoodie' }] },
+      { h2: 'Christmas hoodies for men', body: 'The men\'s side keeps it deadpan: the light-show manager on the ladder, the tree that looked smaller at the farm, and a bulking-season hoodie for the guy who treats the holidays as a training block.',
+        links: [{ href: '/products/mens-christmas-light-show-manager-hoodie/', label: 'Light Show Manager hoodie' }, { href: '/products/mens-christmas-white-elephant-champion-hoodie/', label: 'White Elephant Champion hoodie' }, { href: '/products/mens-christmas-it-looked-smaller-at-the-farm-oversized-hoodie/', label: 'It Looked Smaller at the Farm oversized hoodie' }, { href: '/products/mens-christmas-bulking-season-oversized-hoodie/', label: 'Bulking Season oversized hoodie' }] },
+      { h2: 'Christmas zip-up hoodies', body: 'Prefer a zip? These Christmas zip-up hoodies carry the joke big on the back and a small embroidered mark on the left chest, so they work open over a tee at a party or zipped up outside.',
+        links: [{ href: '/products/mens-christmas-attending-under-protest-embroidered-zip-hoodie/', label: 'Attending Under Protest zip-up' }, { href: '/products/mens-christmas-it-looked-smaller-at-the-farm-embroidered-zip-hoodie/', label: 'It Looked Smaller at the Farm zip-up' }, { href: '/products/womens-christmas-capybara-tangled-unbothered-zip-hoodie/', label: 'Capybara I\'m Not Stuck, I\'m Decorated zip-up' }] },
+      { h2: 'Matching family Christmas hoodies', body: 'For a matching family look, pick one design and order it in everyone\'s size, or mix designs from the same holiday art. Ten or more items in one cart take 15% off automatically, and the family Christmas long sleeves give each person their own line.',
+        links: [{ href: '/group-shirts/', label: 'Group & family shirts' }, { href: '/products/womens-christmas-family-credits-i-did-christmas-again-long-sleeve-tee/', label: 'I Did Christmas. Again. long sleeve' }, { href: '/products/mens-christmas-family-credits-i-carried-the-tree-long-sleeve-tee/', label: 'I Carried the Tree long sleeve' }] },
+      { h2: 'Original Christmas hoodie designs', body: 'Our Christmas hoodies are original designs: holiday designs warm enough for the tree lot and the family photo. Every Christmas hoodie is printed to order, so nothing sits in a warehouse from last year.' },
+      { h2: 'A new Christmas drop every year', body: 'This collection gets new designs each season. Order early — printed-to-order items take time to make and ship.' },
+    ],
+    extra: [
+      { q: 'Do you have matching Christmas hoodies for family?', a: 'Yes. Any design can be ordered in several sizes so the whole family matches.' },
+      { q: 'When should I order a Christmas hoodie to have it by Christmas?', a: 'Order by about December 7 for US delivery before Christmas. Each Christmas hoodie is printed in 2–5 business days after you order, then spends about 3–8 business days in transit. Embroidered zip-ups can take a little longer, so order those first.' },
+      { q: 'Is a Christmas sweatshirt or a Christmas hoodie better?', a: 'A Christmas hoodie is warmer and more casual, with a hood and a front pouch pocket, so it suits the tree lot, the game and the drive to the in-laws. A crewneck sweatshirt sits flatter and dresses up a little for the office party. We make both, often with the same art.' },
+      { q: 'What are your Christmas hoodies made of?', a: 'Our pullover Christmas hoodies are Gildan 18500: 8 oz cotton-polyester fleece with a double-lined hood and a front pouch pocket. Zip-ups are Gildan 18600 with a full front zipper, and oversized hoodies are Bella+Canvas 4719 fleece with a roomier cut.' },
+      { q: 'How do Christmas hoodies fit?', a: 'Our pullover and zip-up Christmas hoodies are a classic unisex fit: true to size for most men, and a little relaxed for women. Size up one for a slouchy look. Oversized hoodies are cut roomy already, so take your usual size. Each product page has a size chart.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery we send one replacement in a new size free, and you don\'t have to mail the first hoodie back. Misprinted or damaged orders are reprinted or refunded within 30 days.' },
+    ] }),
 ];
 
 export const all = [...tees, ...hoodies];
