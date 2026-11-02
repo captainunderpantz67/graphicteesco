@@ -7644,16 +7644,22 @@
   },
   "womens-western-hold-your-horses-im-overstimulated-graphic-tee": {
    "claimed": [
-    "overstimulated shirt"
+    "overstimulated shirt",
+    "hold your horses shirt"
    ],
    "gaps_measured": [
     {
      "phrase": "overstimulated shirt",
      "volume": 880,
      "kd": 46
+    },
+    {
+     "phrase": "hold your horses shirt",
+     "volume": 390,
+     "kd": 32
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-11-02"
   },
   "womens-dance-mom-bun-tight-wallet-empty-graphic-tee": {
    "claimed": [
