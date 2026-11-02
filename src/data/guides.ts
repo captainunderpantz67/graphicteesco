@@ -2477,6 +2477,85 @@ export const allGuides: Guide[] = [
       { q: 'How long does a Graphic Tees Co. gym hoodie take to arrive?', a: 'Each one is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. US shipping is free on orders of $45 or more.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-02, second run of the day). Keyword: christmas gifts for son 1,300 / KD 17 (RankHero via scripts/keyword-gap.py, measured 2026-11-01 by the previous lane W run; not re-pulled this run). Unowned: checked 2026-11-02 against product-keyword-map.json, collections.ts and guides.ts (only comments in guides.ts name it as a planned sibling).
+    // Facts (prices, fabrics, policies) come from the LIVE Shopify Stories read 2026-11-02 and site.ts / the sibling guides. Picks follow the live art text. FAQ questions are not from PAA or GSC (not available unattended).
+    // Picks: Light Show Manager (Unpaid), Technically a Sweater, Drew Your Name. Panicked., Mom's Favorite. Build drops any pick that is not live.
+    // Planned siblings (not live yet): christmas-gifts-for-mom, christmas-gifts-for-husband.
+    slug: 'christmas-gifts-for-son',
+    keyword: 'christmas gifts for son',
+    title: 'Christmas Gifts for Son: 4 Funny Shirts From $24.99',
+    description: 'Christmas gifts for son: Light Show Manager, Technically a Sweater, Drew Your Name. Panicked. and Mom’s Favorite. Tees $24.99, crewnecks $34.99, printed to order.',
+    h1: 'Christmas Gifts for Your Son: Funny Shirts He Will Wear Without Being Asked',
+    date: '2026-11-02',
+    cluster: 'christmas',
+    draft: true,
+    answer: 'A good Christmas gift for a son is a funny shirt with one dry joke and no logo, so it reads as a joke and as clothes. Graphic Tees Co. has four original designs: Light Show Manager (Unpaid) (tee $24.99, crewneck $34.99), Technically a Sweater (tee $24.99, crewneck $34.99), Drew Your Name. Panicked. (tee $24.99) and Mom’s Favorite. Check the stockings. (tee $24.99). Each is printed after you order. Order by December 4, 2026.',
+    picks: [
+      {
+        h2: 'What is a funny Christmas gift for a son who gets stuck with the lights?',
+        body: ['Light Show Manager (Unpaid). Every house has one person who gets promoted to the extension cords with no raise, and a grown son who now does it for his own place will recognize himself.'],
+        items: [
+          { slogan: 'LIGHT SHOW MANAGER (UNPAID)', tee: 'mens-christmas-light-show-manager-graphic-tee', crewneck: 'unisex-christmas-light-show-manager-crewneck-sweatshirt',
+            text: 'A bearded guy in a knit cap stands on a wooden ladder at the roofline, tangled in a strand of oversized red, orange, sage and cream bulbs with a very calm face. LIGHT SHOW MANAGER arches above him with (UNPAID) in small capitals beneath. The tee is $24.99 in light and mid colors, sizes S to 4XL, and the crewneck is $34.99 in S to 3XL.' },
+        ],
+      },
+      {
+        h2: 'What do you give a son who is told to wear an ugly sweater?',
+        body: ['Technically a Sweater. It follows the dress code on a technicality, which is the joke, and it lets him skip the itchy wool.'],
+        items: [
+          { slogan: 'TECHNICALLY A SWEATER', tee: 'mens-christmas-technically-a-sweater-graphic-tee', crewneck: 'unisex-christmas-technically-a-sweater-crewneck-sweatshirt',
+            text: 'A cluster of hand-knit fair-isle snowflakes, a little reindeer and two pine trees in visible knit stitches sits above TECHNICALLY A SWEATER in uneven hand-drawn capitals. The knit pattern is printed, not knitted. The tee is $24.99 and the crewneck is $34.99.' },
+        ],
+      },
+      {
+        h2: 'What is a good Christmas gift for a son with an office gift swap?',
+        body: ['Drew Your Name. Panicked. It is two beats of every Secret Santa, and at $24.99 it fits under the usual office swap limit.'],
+        items: [
+          { slogan: 'DREW YOUR NAME. Panicked.', tee: 'mens-christmas-drew-your-name-panicked-graphic-tee',
+            text: 'A 1950s office worker in a short-sleeve shirt and narrow tie stares wide-eyed at a paper slip while sweat flies off his forehead, next to an upturned red Santa hat full of folded slips. DREW YOUR NAME. runs across the top in red slab capitals and PANICKED. fills the bottom in black. The tee is $24.99.' },
+        ],
+      },
+      {
+        h2: 'What is a gift for the son who thinks he is the favorite?',
+        body: ['Mom’s Favorite. Check the stockings. It is a sibling joke, so it fits a family with more than one kid, and the brother who claims the title is the one who will wear it.'],
+        items: [
+          { slogan: 'MOM’S FAVORITE.', tee: 'mens-christmas-moms-favorite-graphic-tee',
+            text: 'A brick fireplace with a pine garland holds two knit stockings: the left one overflows with wrapped presents, candy canes and a toy truck, and the right one is limp with a single candy cane. MOM’S FAVORITE. runs across the top in red slab capitals and CHECK THE STOCKINGS. across the bottom in pine green. The tee is $24.99 in six colors.' },
+        ],
+        links: [{ href: '/christmas-shirts-for-men/', text: 'Men’s Christmas shirts' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good Christmas gift for a son?',
+        body: ['A joke about something he actually does at Christmas: hanging the lights, dodging the sweater, drawing a name or being the favorite. A shirt like that gets worn because it is about him, not because someone gave it to him.',
+          'Graphic Tees Co. designs are original art with the joke set in big type. They use no team, brand or character logos, so there is nothing to explain.'],
+        links: [{ href: '/christmas-shirts/', text: 'All Christmas shirts' }] },
+      { h2: 'Should you buy your son a tee or a crewneck?',
+        body: ['The tee is the easy pick at $24.99 in a lightweight 4.2 oz cotton cut. The crewneck is $34.99 in an 8 oz cotton-polyester fleece, the better gift for a son who runs cold.',
+          'Light Show Manager and Technically a Sweater come as both. Drew Your Name. Panicked. and Mom’s Favorite. are tees.'],
+        links: [{ href: '/christmas-sweatshirts/', text: 'Christmas sweatshirts' }] },
+      { h2: 'What if you do not know his size?',
+        body: ['Check the size chart on the product page against a shirt he already wears. The tees run S to 4XL in a classic unisex cut, and the crewnecks S to 3XL.',
+          'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and he does not have to mail the first one back. If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'What are good Christmas gifts for a son under $50?',
+        body: ['Every pick here is under $50: tees are $24.99 and crewnecks are $34.99. US shipping is free on orders of $45 or more, so a crewneck plus a second tee for a brother clears it.'] },
+      { h2: 'When should you order a Christmas gift for your son?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find Christmas gift ideas for the family?',
+        body: ['If your son is a teen, see our teen guide. For his dad, sister or the whole gift swap, the guides below have more.'],
+        links: [{ href: '/guides/christmas-gifts-for-teens/', text: 'Christmas gifts for teens' }, { href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }, { href: '/guides/christmas-gifts-for-sister/', text: 'Christmas gifts for sister' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }] },
+    ],
+    faqs: [
+      { q: 'What are good Christmas gifts for a son?', a: 'A funny shirt with a joke about what he does at Christmas, like Light Show Manager (Unpaid) or Technically a Sweater from Graphic Tees Co. Tees are $24.99 and crewnecks are $34.99, all printed after you order.' },
+      { q: 'What is a funny Christmas gift for a son under $30?', a: 'Any Graphic Tees Co. Christmas tee: Light Show Manager, Technically a Sweater, Drew Your Name. Panicked. or Mom’s Favorite. Each is $24.99 and printed to order.' },
+      { q: 'Is a Christmas crewneck a good gift for a son?', a: 'Yes, if he runs cold. The Graphic Tees Co. Light Show Manager and Technically a Sweater crewnecks are 8 oz cotton-polyester fleece at $34.99, in sizes S to 3XL.' },
+      { q: 'Is Mom’s Favorite a good gift for a son?', a: 'Yes, for a family with more than one kid. The Graphic Tees Co. Mom’s Favorite tee shows one stocking stuffed and one nearly empty, and costs $24.99 in six colors. The free size exchange within 30 days makes it safe to give.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+      { q: 'When should I order a Christmas gift for my son?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
