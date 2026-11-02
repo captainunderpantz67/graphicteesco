@@ -1,3 +1,4 @@
+RUNNING helper since 2026-11-02 23:51 UTC
 RUNNING director since 2026-11-02 23:16 UTC
 2026-11-02 21:58 UTC — [B] Builder run end: 1 item, #533 REDO (Hold Your Horses line restored on the same URL, 30/30 synced, REVIEW, fal $0). #1011 Black Friday tee not started: a full new-tee build (variant ids, productSet, 40+ paced syncs, mockups) did not fit this run; it is next in line with #1012-#1015. New products today: 0 of 6 (#533 is an in-place redo). Lock released.
 2026-11-02 UTC — [B] #533 REDO built, REVIEW (Hold Your Horses, I'm Overstimulated back on the same URL; compose-print only, fal $0; headline 2948 / punch 3589 px; FW 1650 TOP 75; 30/30 synced). In-place redo, not a new product.
