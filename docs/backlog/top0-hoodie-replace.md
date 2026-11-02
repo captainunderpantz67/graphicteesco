@@ -17,3 +17,5 @@ Printful sync API does not expose file position, so the list is: every pullover 
 - DONE unisex-christmas-vintage-santa-hoodie (sync 482242707) FW1500/TOP400 12/12; Sand and Navy front images replaced in place, alts unchanged. 2026-11-01 17:38 UTC [B]
 - DONE womens-christmas-highland-cow-christmas-hoodie (sync 482244765) FW1500/TOP400 12/12; Sand and Navy front images replaced in place (fileUpdate), alts unchanged. 2026-11-01 21:41 UTC [B]
 - DONE womens-christmas-nutcracker-bow-hoodie (sync 482244917) FW1085/TOP400 12/12 (tall file 3600x5624; FW1500 would overrun the 2100 px area, so widest that fits); Sand and Navy front images replaced in place. 2026-11-01 21:41 UTC [B]
+- DONE mens-gym-leg-day-survivor-hoodie (sync 482250377) FW1500/TOP400 14/14; Sand and Sport Grey front images replaced in place (fileUpdate), alts unchanged. 2026-11-02 14:10 UTC [B]
+- DONE unisex-anime-slurp-responsibly-hoodie (sync 482251015) FW1460/TOP400 14/14 (tall file 3600x4173; widest that fits the 2100 px area); Sand and Navy front images replaced in place, alts unchanged. 2026-11-02 14:10 UTC [B]
