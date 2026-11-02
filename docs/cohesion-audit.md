@@ -1,4 +1,4 @@
-# Cohesion audit — 2026-11-02 15:31 UTC
+# Cohesion audit — 2026-11-02 23:52 UTC
 
 780 live products checked · **0 errors** · 488 warnings · 455 products with findings
 
@@ -616,7 +616,7 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Women's Clocked It – Said Nothing Hoodie `womens-clocked-it-said-nothing-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
-### Women's Western – Please Stop Talking, I Love You Tee `womens-western-hold-your-horses-im-overstimulated-graphic-tee`
+### Women's Western – Hold Your Horses, I'm Overstimulated Tee `womens-western-hold-your-horses-im-overstimulated-graphic-tee`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Men's Christian – Short Grace. Hot Food. Tee `mens-christian-short-grace-hot-food-graphic-tee`

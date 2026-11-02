@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02T15:31:20.666Z",
+ "at": "2026-11-02T23:52:37.616Z",
  "products": 780,
  "findings": [
   {
@@ -1496,7 +1496,7 @@
   {
    "level": "WARN",
    "handle": "womens-western-hold-your-horses-im-overstimulated-graphic-tee",
-   "title": "Women's Western – Please Stop Talking, I Love You Tee",
+   "title": "Women's Western – Hold Your Horses, I'm Overstimulated Tee",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
