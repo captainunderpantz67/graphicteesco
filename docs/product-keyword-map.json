@@ -12274,6 +12274,20 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-black-friday-shopping-squad-i-have-the-list-graphic-tee": {
+   "claimed": [
+    "black friday squad shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "black friday squad shirt",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-11-03",
+   "waiver": "unmeasured garment phrase, google-push-nov item 2"
   }
  }
 }
