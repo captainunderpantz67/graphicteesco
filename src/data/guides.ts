@@ -2638,6 +2638,88 @@ export const allGuides: Guide[] = [
       { q: 'When should I order a fishing gift for dad for Christmas?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days in the US.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-03), hoodies cluster. Keyword: hoodies for guys 1,900 / KD 16 (RankHero 2026-11-03, measured this run). Not owned by a collection or product; "graphic hoodies for men" stays with /hoodies/graphic-hoodies-for-men/.
+    // Facts (slogans, art, prices, blanks, colors, sizes, policies) from the live Shopify Stories read 2026-11-03 for the five picks, plus site.ts. Picks are ACTIVE; none is listed in fresh-designs.json, director to confirm grade.
+    // Planned siblings (not live yet): funny-hoodies-for-men, zip-up-hoodies-for-men.
+    slug: 'hoodies-for-guys',
+    keyword: 'hoodies for guys',
+    title: 'Hoodies for Guys: 5 Funny Graphic Hoodies From $39.99',
+    description: 'Hoodies for guys with a real joke on them: Lone Wolf, Cowboy Up. Later., No Deer Today, Deadlift Skeleton and Out of Office Deer. From $39.99, printed to order.',
+    h1: 'Hoodies for Guys Who Want a Joke, Not a Logo',
+    date: '2026-11-03',
+    cluster: 'hoodies',
+    draft: true,
+    answer: 'The best hoodie for a guy is one that fits like a hoodie and says something he would actually say. Graphic Tees Co. has five original designs: Lone Wolf, Early Bedtime ($39.99), Cowboy Up. Later. ($39.99), Out of Office Deer (embroidered, $44.99), No Deer Today camo heavyweight ($49.99) and Deadlift Skeleton oversized ($54.99). Each is made after you order it, and US shipping is free on orders of $45 or more.',
+    picks: [
+      {
+        h2: 'What is a funny hoodie for a guy who is in bed by nine?',
+        body: ['Lone Wolf, Early Bedtime. It is the outdoorsy joke with the honest ending.'],
+        items: [
+          { slogan: 'LONE WOLF. EARLY BEDTIME.', tee: 'mens-wolf-lone-wolf-early-bedtime-hoodie',
+            text: 'A grey wolf sleeps curled up on a flat rock under a patchwork quilt, in a striped nightcap, with a big moon behind it and pine trees at the sides. LONE WOLF. sits above in bold slab capitals and EARLY BEDTIME. below. It is an 8 oz cotton and polyester pullover in Sand and Sport Grey, $39.99, sizes S to 3XL.' },
+        ],
+      },
+      {
+        h2: 'What is a good hoodie for a guy who works the ranch or just likes the look?',
+        body: ['Cowboy Up. Later. The cowboy on it says later and goes back to sleep.'],
+        items: [
+          { slogan: 'COWBOY UP. LATER.', tee: 'mens-western-cowboy-up-later-hoodie',
+            text: 'COWBOY UP. is lettered in big worn western capitals over a hand-drawn LATER., above a lanky cowboy asleep against a hay bale with his hat over his eyes and a coffee cup beside him, his saddled horse waiting by a fence rail. It is an 8 oz classic-fit pullover with a pouch pocket in Sand and Sport Grey, $39.99, sizes S to 5XL (Sand runs S to 3XL).' },
+        ],
+      },
+      {
+        h2: 'What is a hoodie for a guy who wants something quieter than a big print?',
+        body: ['Out of Office Deer. The design is stitched, not printed, and small enough to wear to work.'],
+        items: [
+          { slogan: 'OUT OF OFFICE', tee: 'mens-embroidered-out-of-office-deer-hoodie',
+            text: 'A whitetail buck with an 8-point rack is stitched in rust orange thread on the left chest, about 3.5 inches wide, with OUT OF OFFICE stitched right under it. It is an 8 oz classic-fit pullover with a double-lined hood in Sand and Navy, $44.99, sizes S to 5XL (Sand runs S to 3XL).' },
+        ],
+      },
+      {
+        h2: 'What is a warm hoodie for a guy who sits in a deer stand?',
+        body: ['No Deer Today. It is the heavyweight camo option, built for layering under a jacket.'],
+        items: [
+          { slogan: 'NO DEER TODAY. GREAT NAP THOUGH.', tee: 'mens-hunting-no-deer-today-camo-hoodie',
+            text: 'A round cartoon hunter in a blaze-orange jacket and cap sleeps in a camp chair on his deer stand, boots on the rail, while a big buck stands next to the platform giving him a flat look. NO DEER TODAY. sits above in cream and GREAT NAP THOUGH. below in blaze orange. It is a 10 oz heavyweight fleece hoodie with a fleece-lined hood in Black Camo and Forest Camo, $49.99, sizes XS to 3XL.' },
+        ],
+      },
+      {
+        h2: 'What is an oversized hoodie for a guy who lifts?',
+        body: ['Deadlift Skeleton. It is cut roomy, so it covers the warm-up and the walk to the car.'],
+        items: [
+          { slogan: 'DEAD LIFT', tee: 'mens-gym-deadlift-skeleton-oversized-hoodie',
+            text: 'A bone-white skeleton in a striped sweatband squats to pull a barbell loaded with orange plates off the floor, sweat flying and chalk dust puffing, with DEAD LIFT underneath in chunky worn capitals. It is a roomy oversized 10 oz fleece hoodie with brushed interior fleece, a double-layered hood with no drawcord and a front pocket, in Dust and Navy, $54.99, sizes S to 3XL.' },
+        ],
+        links: [{ href: '/hoodies/graphic-hoodies-for-men/', text: 'Graphic hoodies for men' }, { href: '/hoodies/oversized-hoodies/', text: 'Oversized hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'How should a hoodie fit a guy?',
+        body: ['Most guys keep their usual size in the classic pullovers. Go up one if you want room to layer over a flannel. The Deadlift Skeleton is already cut roomy, so keep your size for the slouchy look or size down for a closer fit.',
+          'Check the size chart on the product page against a hoodie you already own. Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.'] },
+      { h2: 'What is the difference between an 8 oz and a 10 oz hoodie?',
+        body: ['The Lone Wolf, Cowboy Up. and Out of Office Deer hoodies are 8 oz cotton and polyester fleece pullovers, a good everyday weight. The No Deer Today camo and Deadlift Skeleton hoodies are 10 oz fleece, which feels heavier and warmer.',
+          'That is the weight listed on each product page, so you can compare before you buy.'],
+        links: [{ href: '/hoodies/heavyweight-hoodies/', text: 'Heavyweight hoodies' }, { href: '/guides/thick-hoodies/', text: 'Thick hoodies' }] },
+      { h2: 'What do hoodies for guys cost?',
+        body: ['The five picks run from $39.99 for the Lone Wolf and Cowboy Up. pullovers to $54.99 for the oversized Deadlift Skeleton. US shipping is free on orders of $45 or more, so one hoodie from $49.99 up ships free.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'Will it arrive in time for Christmas?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'Where can you find more hoodies and gifts for guys?',
+        body: ['For more hoodie ideas, see our funny hoodies guide and the browse page for every graphic hoodie. For gym and camo options, see the collections below.'],
+        links: [{ href: '/hoodies/', text: 'All graphic hoodies' }, { href: '/guides/funny-hoodies/', text: 'Funny hoodies' }, { href: '/guides/cozy-hoodies/', text: 'Cozy hoodies' }, { href: '/hoodies/camo-hoodies/', text: 'Camo hoodies' }, { href: '/hoodies/gym-hoodies-for-men/', text: 'Gym hoodies for men' }, { href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }] },
+    ],
+    faqs: [
+      { q: 'What are good hoodies for guys?', a: 'Graphic Tees Co. makes funny graphic hoodies for guys with original art and one short line each, like Lone Wolf, Early Bedtime and Cowboy Up. Later. Prices start at $39.99 and each is printed after you order it.' },
+      { q: 'What is a good hoodie for a guy under $50?', a: 'Lone Wolf, Early Bedtime and Cowboy Up. Later. are $39.99 each, and the embroidered Out of Office Deer is $44.99. All are 8 oz cotton and polyester pullovers from Graphic Tees Co.' },
+      { q: 'Which hoodie is the warmest?', a: 'The No Deer Today camo hoodie and the Deadlift Skeleton oversized hoodie are 10 oz fleece, the heaviest weight Graphic Tees Co. lists on these pages. The other three are 8 oz.' },
+      { q: 'Do these hoodies run big?', a: 'The pullovers are classic unisex fits, so most guys keep their usual size. The Deadlift Skeleton is cut roomy and oversized.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+      { q: 'When should I order a hoodie for Christmas?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days in the US.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
