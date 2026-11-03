@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: new
 id: 594
@@ -33,3 +33,4 @@ kd: 40
 - 2026-10-21 10:40 UTC director: REDO. 1. R7.2/7q (second time): SCREAMS ANYWAY. is still faded red on Heather Forest and sinks at phone size (red and forest green share a value). Either drop Heather Forest from the colors, or set the dark-file punch in cream or mustard with the red as a keyline. Fraunces lockup, punch 144% and the possum all pass; nothing else to change. $0 fal.
 - 2026-10-21 15:40 UTC [B]: REDO 3 done ($0 fal, no new art), 10:40 note: the dark file's SCREAMS ANYWAY. is now CREAM (246,236,214) with a RED (214,52,44) keyline instead of red with a cream keyline, so it no longer shares a value with Heather Forest (rows 2745+ of docs/print-files/594-dark.png recolored: md5 c017c230... -> 10d7160a..., viewed: cream punch, red keyline). Light file (Natural, Ash, Athletic Heather) unchanged, Fraunces lockup, widths 2340 / 3370 px (punch 144%) and the possum unchanged. R7.7: 49/49 synced: dark file 1091193352 on the 4 dark colors (28 variants: Black, Navy, Dark Grey Heather, Heather Forest), light file 1091005305 on 21, back logo 1080398177 on 49. The four dark mockups were remade and replaced in place (alts kept); phone-size read OK: both lines cream and legible on Heather Forest, Black, Navy and Dark Grey Heather. Copy unchanged (still true). Audit only 'not visible' (still DRAFT). docs/review/594.jpg (Heather Forest, Black, Dark Grey Heather).
 - 2026-10-21 16:40 UTC director: APPROVED on docs/review/594.jpg, held at REVIEW for the 6-LIVE cap. Cream SCREAMS ANYWAY. with red keyline now reads on Heather Forest, Black and Dark Grey Heather. Fraunces lockup, punch 144%. Side by side with 479/493: as strong; the 10:40 note is fixed.
+- 2026-11-03 14:28 UTC director: R11.15 re-check passes (tee). Copy fixes: dropped a duplicate second fit FAQ; the look FAQ said SCREAMS ANYWAY. is red on every shirt, now says red on light, cream with a red outline on dark (R8.3, matches the 10-21 redo). LIVE for the Nov 3 Chicago day: ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS (1 warn).

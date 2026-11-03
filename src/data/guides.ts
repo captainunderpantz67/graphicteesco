@@ -2418,7 +2418,6 @@ export const allGuides: Guide[] = [
     h1: 'Gym Hoodies for Women: Pullover, Cropped or Zip, and What Each One Is Good For',
     date: '2026-11-02',
     cluster: 'gym',
-    draft: true,
     answer: 'A good gym hoodie for women is a soft fleece layer you can pull on over a tank before class and keep on for the coffee after. Graphic Tees Co. makes two original designs in three cuts: Lunges & Lattes (pullover $39.99, cropped $44.99, embroidered zip $57.99) and Lift Heavy. Reply Later. (cropped $44.99, embroidered zip $57.99). They are cotton-polyester fleece, not moisture-wicking performance gear, and every one is printed to order.',
     picks: [
       {
@@ -2489,7 +2488,6 @@ export const allGuides: Guide[] = [
     h1: 'Christmas Gifts for Your Son: Funny Shirts He Will Wear Without Being Asked',
     date: '2026-11-02',
     cluster: 'christmas',
-    draft: true,
     answer: 'A good Christmas gift for a son is a funny shirt with one dry joke and no logo, so it reads as a joke and as clothes. Graphic Tees Co. has four original designs: Light Show Manager (Unpaid) (tee $24.99, crewneck $34.99), Technically a Sweater (tee $24.99, crewneck $34.99), Drew Your Name. Panicked. (tee $24.99) and Mom’s Favorite. Check the stockings. (tee $24.99). Each is printed after you order. Order by December 4, 2026.',
     picks: [
       {

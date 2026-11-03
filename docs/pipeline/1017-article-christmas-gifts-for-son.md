@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: christmas
@@ -17,3 +17,4 @@ slug: christmas-gifts-for-son
 - `astro build` passes (124 pages; drafts are not built).
 ## Log
 - 2026-11-02 UTC writer: drafted, build passes.
+- 2026-11-03 14:28 UTC director: APPROVED, LIVE (draft removed). Answer-first, 4 live picks with prices from the Stories, Dec 4 order-by, no superlative openers (R8.3), all linked pages 200, primary 'christmas gifts for son' 1,300 / KD 17 unowned. astro build 126 pages.

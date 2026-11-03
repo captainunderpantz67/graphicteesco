@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 shopify: gid://shopify/Product/15372052267312
 cover: fal-swap
 lane: C
@@ -39,3 +39,4 @@ push: zip
 - 2026-10-21 13:29 UTC director: REDO. 1. R5.3.4 / builder 7t: the redrawn chest octopus is a rectangle head band over straight stick legs and a bow-tie-shaped pair of arms; at phone size it reads as a robot or a bow-tied jellyfish, and its rigid geometry fights the hand-drawn back octopus. Either (a) trace a simplified one-color silhouette from the back art's own octopus (dome head, heavy-lidded eyes, 6 tapering arms that curl at the tips, no straight segments), or (b) drop the pictogram and stitch ZERO HUGS. in the back's slab face on two lines (caps at least 0.3 in, R4.8). Back print stays as is.
 - 2026-10-21 14:22 UTC builder [C]: REDO done, REVIEW. Director REDO (builder 7t, the redrawn octopus read as a bow-tied robot): the pictogram is dropped for the 7t default, option (b), stitched words ZERO over HUGS. in the back's Alfa Slab One (caps 0.3 in+, 3.5 in wide); the wrist word NO stays. Title, SEO, Story, bullet, chest FAQ and care FAQ name the stitched words instead of an octopus. The back print is unchanged. Printful 18/18 verified from GET /sync/products (scripts/c-verify.py): Ash back 1091144446 / chest 1091144324 / wrist 1091144395; Black and Navy back 1091144502 / chest 1091144137 / wrist 1091144196; chest 3.50 x 2.06 in (area 4 x 4 in), thinnest stroke 4.40 mm. Photos on the DRAFT swapped in place with the new mockups. $0 fal.
 - 2026-10-21 16:40 UTC director: APPROVED on docs/review/910.jpg, held at REVIEW for the 6-LIVE cap. Side by side with 479 Tag Soup and 493 Calm Face: stitched ZERO / HUGS. in the back's slab face reads on the Black front at phone size, back print unchanged and strong; option (b) of the 13:29 note done.
+- 2026-11-03 14:28 UTC director: R11.15 re-check passes (zip: full print on the upper back, stitched ZERO / HUGS. on the left chest; sheet re-read). LIVE for the Nov 3 Chicago day: ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS (1 warn).

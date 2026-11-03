@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: twin
 id: 696
@@ -28,3 +28,4 @@ shopify: gid://shopify/Product/15369976578352
 - 2026-10-20 20:40 UTC director: APPROVED on docs/review/696.jpg (WALLET EMPTY. is the widest line under BUN TIGHT. SMILE ON., dark plum on Sand, cream on Maroon); side by side with 493 Calm Face and 483 Sisyphus: heavy lockup in art colors, punch at least as wide as the headline, so at least the bar. Held at REVIEW: the 6-LIVE cap was used on mugs this run.
 - 2026-11-02 14:32 UTC director: REDO (placement only; art, line and copy approval stands). 1. R11.15 held-approval re-check / builder 7m (Sam 2026-10-22, never print a hoodie or sweatshirt high under the collar): the log places the front print at TOP 75 (about half an inch under the collar), the same problem the camo and TOP-0 hoodie redos fix. Re-place the same file at TOP 400 (center chest; keep FW 1500+ if the art height fits the area, otherwise reshape the art per R5.3.2, never shrink below FW 1500), re-sync and verify every variant's file (R7.7), make new front mockups, put the printed front first (R6.13), remake docs/review/696.jpg. $0 fal. Then back to REVIEW.
 - 2026-11-02 17:41 UTC builder [B]: REDO placement done in place (same files, no new art, fal $0): FW 1650 TOP 400 (print 1801 px tall, ends at 2201 of 2400). Re-synced 11/11 (Sand 6 on 1090412207, Maroon 5 on 1090412221), back logo kept. New Sand and Maroon front mockups replace the old images in place (alts unchanged, front first). Sheet docs/review/696.jpg remade. Product still DRAFT.
+- 2026-11-03 14:28 UTC director: placement REDO passes on the remade sheet (FW 1650 TOP 400, center chest on Sand and Maroon). LIVE for the Nov 3 Chicago day: ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS (1 warn: no lifestyle cover).

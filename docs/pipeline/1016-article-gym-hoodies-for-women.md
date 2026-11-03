@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: gym
@@ -16,3 +16,4 @@ slug: gym-hoodies-for-women
 - `npx astro build` passes (124 pages; drafts are not built).
 ## Log
 - 2026-11-02 UTC writer: drafted, build passes.
+- 2026-11-03 14:28 UTC director: APPROVED, LIVE (draft removed). Answer-first, facts match the live Stories, says plainly it is not moisture-wicking, picks are A-grade cropped-page designs (Sam-approved, R3.13), all 15 linked pages 200, primary 'gym hoodie women' 3,600 / KD 14 unowned. astro build 126 pages.
