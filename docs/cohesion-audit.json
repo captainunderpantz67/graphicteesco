@@ -1,6 +1,6 @@
 {
- "at": "2026-11-02T23:52:37.616Z",
- "products": 780,
+ "at": "2026-11-03T14:51:29.812Z",
+ "products": 786,
  "findings": [
   {
    "level": "WARN",
@@ -2440,6 +2440,13 @@
   },
   {
    "level": "WARN",
+   "handle": "unisex-new-years-eve-midnight-is-a-suggestion-crewneck-sweatshirt",
+   "title": "Unisex New Year's Eve – Midnight Is a Suggestion Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "mens-bbq-low-and-slow-like-my-texts-graphic-tee",
    "title": "Men's BBQ – Low and Slow, Like My Texts Tee",
    "msg": "No lifestyle cover photo.",
@@ -2470,6 +2477,13 @@
    "level": "WARN",
    "handle": "mens-hunting-todays-special-tag-soup-sweatpants",
    "title": "Men's Hunting – Today's Special: Tag Soup Sweatpants",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-dance-mom-bun-tight-wallet-empty-crewneck-sweatshirt",
+   "title": "Women's Dance Mom – Bun Tight, Wallet Empty Crewneck Sweatshirt",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
@@ -2909,6 +2923,13 @@
   },
   {
    "level": "WARN",
+   "handle": "womens-capybara-im-the-calm-friend-graphic-tee",
+   "title": "Women's Capybara – I'm the Calm Friend Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "womens-running-here-for-the-free-banana-graphic-tee",
    "title": "Women's Running – Here for the Free Banana Tee",
    "msg": "No lifestyle cover photo.",
@@ -2918,6 +2939,13 @@
    "level": "WARN",
    "handle": "womens-french-bulldog-personal-space-never-heard-of-her-crewneck-sweatshirt",
    "title": "Women's French Bulldog – Personal Space? Never Heard of Her. Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-possum-eats-ticks-screams-anyway-graphic-tee",
+   "title": "Unisex Possum – Eats Ticks. Screams Anyway. Tee",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
@@ -3077,6 +3105,13 @@
   },
   {
    "level": "WARN",
+   "handle": "womens-octopus-eight-arms-zero-hugs-embroidered-zip-hoodie",
+   "title": "Women's Octopus – Eight Arms, Zero Hugs Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "womens-golden-retriever-i-brought-you-a-sock-embroidered-zip-hoodie",
    "title": "Women's Golden Retriever – I Brought You a Sock Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
@@ -3184,6 +3219,13 @@
    "level": "WARN",
    "handle": "mens-pirate-pillaging-is-a-young-mans-game-embroidered-zip-hoodie",
    "title": "Men's Pirate – Pillaging Is a Young Man's Game Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-golf-im-not-lost-my-ball-is-aop-zip-hoodie",
+   "title": "Unisex Golf – I'm Not Lost. My Ball Is. All-Over Print Zip Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },

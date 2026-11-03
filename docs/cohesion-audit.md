@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-11-02 23:52 UTC
+# Cohesion audit — 2026-11-03 14:51 UTC
 
-780 live products checked · **0 errors** · 488 warnings · 455 products with findings
+786 live products checked · **0 errors** · 494 warnings · 461 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -1013,6 +1013,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Unisex Christmas – We Said No Gifts Crewneck Sweatshirt `unisex-christmas-we-said-no-gifts-crewneck-sweatshirt`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Unisex New Year's Eve – Midnight Is a Suggestion Crewneck Sweatshirt `unisex-new-years-eve-midnight-is-a-suggestion-crewneck-sweatshirt`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Men's BBQ – Low and Slow, Like My Texts Tee `mens-bbq-low-and-slow-like-my-texts-graphic-tee`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
@@ -1022,6 +1025,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** Non-holiday design (christmas raccoon) listed in "Men's Christmas Sweaters". → Only keep it there if the art is genuinely for that holiday.
 
 ### Men's Hunting – Today's Special: Tag Soup Sweatpants `mens-hunting-todays-special-tag-soup-sweatpants`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Dance Mom – Bun Tight, Wallet Empty Crewneck Sweatshirt `womens-dance-mom-bun-tight-wallet-empty-crewneck-sweatshirt`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Women's Christmas – French Bulldog Silent Night, Except the Snoring Tee `womens-christmas-french-bulldog-silent-night-except-the-snoring-graphic-tee`
@@ -1204,10 +1210,16 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Men's Marathon – Hit the Wall. The Wall Won. Tee `mens-marathon-hit-the-wall-the-wall-won-graphic-tee`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Women's Capybara – I'm the Calm Friend Tee `womens-capybara-im-the-calm-friend-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Women's Running – Here for the Free Banana Tee `womens-running-here-for-the-free-banana-graphic-tee`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Women's French Bulldog – Personal Space? Never Heard of Her. Crewneck Sweatshirt `womens-french-bulldog-personal-space-never-heard-of-her-crewneck-sweatshirt`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Possum – Eats Ticks. Screams Anyway. Tee `unisex-possum-eats-ticks-screams-anyway-graphic-tee`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Women's Corgi – Built Like a Dinner Roll Tee `womens-corgi-built-like-a-dinner-roll-graphic-tee`
@@ -1270,6 +1282,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Unisex Dachshund – Short Legs, Long Opinions Embroidered Zip Hoodie `unisex-dachshund-short-legs-long-opinions-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Women's Octopus – Eight Arms, Zero Hugs Embroidered Zip Hoodie `womens-octopus-eight-arms-zero-hugs-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Women's Golden Retriever – I Brought You a Sock Embroidered Zip Hoodie `womens-golden-retriever-i-brought-you-a-sock-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
@@ -1312,6 +1327,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Men's Pirate – Pillaging Is a Young Man's Game Embroidered Zip Hoodie `mens-pirate-pillaging-is-a-young-mans-game-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Golf – I'm Not Lost. My Ball Is. All-Over Print Zip Hoodie `unisex-golf-im-not-lost-my-ball-is-aop-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Women's Equestrian – Horse Girl, Broke on Purpose Embroidered Zip Hoodie `womens-equestrian-horse-girl-broke-on-purpose-embroidered-zip-hoodie`
