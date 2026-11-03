@@ -2554,6 +2554,90 @@ export const allGuides: Guide[] = [
       { q: 'When should I order a Christmas gift for my son?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-03), outdoors cluster. Keyword: fishing gifts for dad 1,000 / KD 21 (RankHero 2026-11-03, measured this run). Not owned by a collection or product; "gifts for fishermen" stays with that guide and "fishing hoodie" with /hoodies/fishing-hoodies/.
+    // Facts (slogans, art, prices, blanks, colors, policies) from the live Shopify Stories read 2026-11-03 for the five picks, plus site.ts. Picks are ACTIVE products; none is listed in fresh-designs.json, director to confirm grade. Different designs from gifts-for-fishermen, except pointers to it.
+    // Planned siblings (not live yet): funny-hunting-shirts, fishing-gifts-for-grandpa.
+    slug: 'fishing-gifts-for-dad',
+    keyword: 'fishing gifts for dad',
+    title: 'Fishing Gifts for Dad: 5 Funny Shirts and Hoodies From $24.99',
+    description: 'Fishing gifts for dad: Reel Talk, Fisher of Men (Mostly Bass), Cheaper Than Therapy, Catch and Release and Six Hours Staring at a Hole. Tees $24.99, hoodies from $39.99.',
+    h1: 'Fishing Gifts for Dad Who Already Owns Every Lure',
+    date: '2026-11-03',
+    cluster: 'outdoors',
+    draft: true,
+    answer: 'A good fishing gift for dad is a shirt that jokes about his own lake habits, because he already has the gear. Graphic Tees Co. has five original designs: Reel Talk (tee $24.99), Fisher of Men (Mostly Bass) (tee $24.99), Cheaper Than Therapy (Barely) (tee $24.99), Catch and Release (Mostly Release) (hoodie $39.99) and Six Hours. Staring at a Hole. (heavyweight hoodie $49.99). Each is printed after you order it. Order by December 4, 2026 for Christmas.',
+    picks: [
+      {
+        h2: 'What is a good fishing gift for a dad who talks about his reel all day?',
+        body: ['Reel Talk. It is for the dad who will listen to your problems as long as they are about the drag on a reel or where the bass went this week.'],
+        items: [
+          { slogan: 'REEL TALK', tee: 'mens-fishing-reel-talk-graphic-tee',
+            text: 'A largemouth bass jumps out of the water beside a vintage baitcasting rod and reel, with lily pads and cattails underneath and REEL TALK across the top in faded 70s letters. The inks are sage, rust and cream on seven light colors, and the tee is $24.99 in sizes S to 4XL.' },
+        ],
+      },
+      {
+        h2: 'What is a fishing gift for a dad who fishes after church?',
+        body: ['Fisher of Men (Mostly Bass). The line comes from the Gospels, where Jesus tells the fishermen he will make them fishers of men, and the bass is our addition. It is clean enough to wear to the lake or the pew.'],
+        items: [
+          { slogan: 'FISHER OF MEN (MOSTLY BASS)', tee: 'mens-fishing-fisher-of-men-graphic-tee',
+            text: 'A wooden rowboat sits on a calm lake with the rod bent hard over the side as a largemouth bass leaps at the line, pines along the far shore. FISHER OF MEN runs across the top in worn block letters with MOSTLY BASS underneath. The tee is $24.99 in twelve colors, sizes S to 4XL.' },
+        ],
+      },
+      {
+        h2: 'What do you give a dad whose tackle box keeps growing?',
+        body: ['Cheaper Than Therapy (Barely). The joke lands best on whoever pays the credit card bill, which is probably you.'],
+        items: [
+          { slogan: 'CHEAPER THAN THERAPY (BARELY)', tee: 'mens-fishing-cheaper-than-therapy-graphic-tee',
+            text: 'An open tackle box spills over with crankbaits, worms and spinners, two rods crossed behind it and a receipt so long it hangs off the edge, while a bass jumps out of the top. CHEAPER THAN THERAPY arches over it with a small BARELY underneath. The tee is $24.99 in twelve colors, S to 4XL.' },
+        ],
+      },
+      {
+        h2: 'What is a warm fishing gift for dad for the cold launch?',
+        body: ['Catch and Release (Mostly Release). Every angler says it, and the bass on this hoodie got away with the lure.'],
+        items: [
+          { slogan: 'CATCH AND RELEASE (MOSTLY RELEASE)', tee: 'mens-fishing-catch-and-release-mostly-release-hoodie',
+            text: 'A largemouth bass leaps clear of the lake with a lure still in its mouth and a snapped line trailing, with CATCH AND RELEASE in big worn capitals above and (MOSTLY RELEASE) below. It is an 8 oz cotton and polyester pullover in Sand and Sport Grey, $39.99, sizes S to 5XL.' },
+        ],
+      },
+      {
+        h2: 'What is a gift for a dad who ice fishes?',
+        body: ['Six Hours. Staring at a Hole. It is the winter job description for the man who sits perfectly still every ice-fishing weekend and calls it a hobby.'],
+        items: [
+          { slogan: 'SIX HOURS. STARING AT A HOLE.', tee: 'mens-fishing-professionally-chilling-heavyweight-hoodie',
+            text: 'A bundled-up angler in a plaid wool coat and trapper hat sits on an upturned bucket beside a round hole in the ice, jigging rod in hand and a tip-up flag beside him. SIX HOURS. sits above in heavy capitals and STARING AT A HOLE. below in red. It is a 10 oz heavyweight fleece hoodie with a fleece-lined hood, $49.99, sizes XS to 3XL.' },
+        ],
+        links: [{ href: '/hoodies/fishing-hoodies/', text: 'Fishing hoodies' }, { href: '/fishing-t-shirts/', text: 'All fishing t-shirts' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good fishing gift for dad?',
+        body: ['A joke he has already told at the dock. A dad with a full tackle box does not need another lure, but he will wear a shirt that says what he has been saying for years.',
+          'Graphic Tees Co. fishing designs are original art with one short line each, so the joke reads in about two seconds. They use no brand or team logos.'],
+        links: [{ href: '/graphic-tees-for-men/', text: 'Graphic tees for men' }] },
+      { h2: 'Should dad get a fishing tee or a hoodie?',
+        body: ['The tees are $24.99 in a lightweight 4.2 oz cotton cut, easy for warm days and layering. The Catch and Release pullover is $39.99 in an 8 oz cotton-polyester fleece, and the Six Hours heavyweight hoodie is $49.99 in 10 oz fleece for cold mornings.',
+          'These are graphic shirts, not UPF or sun-protection gear. They are made for the boat ramp, the bait shop and the drive home.'] },
+      { h2: 'What fishing gifts for dad cost under $50?',
+        body: ['All five picks are $49.99 or less: tees $24.99, the pullover hoodie $39.99 and the heavyweight hoodie $49.99. US shipping is free on orders of $45 or more, so a tee plus a second gift clears it.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'What if you do not know dad’s size?',
+        body: ['Check the size chart on the product page against a shirt he already wears. Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and he does not have to mail the first one back. If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'] },
+      { h2: 'When should you order a fishing gift for dad for Christmas?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find gifts for dad and the other anglers on your list?',
+        body: ['For more fishing designs, see our gifts for fishermen guide. For the rest of his Christmas list, the dad and gym guides have more.'],
+        links: [{ href: '/guides/gifts-for-fishermen/', text: 'Gifts for fishermen' }, { href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }, { href: '/guides/gifts-for-duck-hunters/', text: 'Gifts for duck hunters' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }] },
+    ],
+    faqs: [
+      { q: 'What are good fishing gifts for dad?', a: 'A funny fishing shirt he will actually wear, like Reel Talk or Cheaper Than Therapy (Barely) from Graphic Tees Co. Tees are $24.99 and hoodies start at $39.99, all printed after you order.' },
+      { q: 'What is a funny fishing gift for dad under $30?', a: 'Any Graphic Tees Co. fishing tee: Reel Talk, Fisher of Men (Mostly Bass) or Cheaper Than Therapy (Barely). Each is $24.99, sizes S to 4XL, printed to order.' },
+      { q: 'What is a good fishing gift for a dad who ice fishes?', a: 'The Graphic Tees Co. Six Hours. Staring at a Hole. heavyweight hoodie, $49.99. It is 10 oz fleece with a fleece-lined hood, in sizes XS to 3XL.' },
+      { q: 'Are these fishing shirts UPF or sun-protection shirts?', a: 'No. Graphic Tees Co. fishing shirts are cotton graphic tees and fleece hoodies with original art. They are not rated for sun protection.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+      { q: 'When should I order a fishing gift for dad for Christmas?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days in the US.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
