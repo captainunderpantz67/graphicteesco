@@ -2725,12 +2725,12 @@ export const allGuides: Guide[] = [
     draft: true,
     slug: 'gifts-for-cowgirls',
     keyword: 'gifts for cowgirls',
-    title: 'Gifts for Cowgirls: 6 Funny Western Tees and Hoodies From $24.99',
+    title: 'Gifts for Cowgirls: 6 Western Tees and Hoodies From $24.99',
     description: 'Gifts for cowgirls with a real joke on them: Desert Bloom, Hold Your Horses, Howdy, Eight Seconds of Bad Decisions, Horse Girl and Feed Store Fashion Week. From $24.99.',
     h1: 'Gifts for Cowgirls Who Already Own Every Pair of Boots',
     date: '2026-11-04',
     cluster: 'outdoors',
-    answer: 'A good gift for a cowgirl is a western shirt with a joke she would say herself, because she already has the boots. Graphic Tees Co. has six original designs: Desert Bloom (tee $24.99), Hold Your Horses, I’m Overstimulated (tee $24.99), Howdy (hoodie $39.99), Eight Seconds of Bad Decisions (hoodie $39.99), Horse Girl, Broke on Purpose (hoodie $39.99) and Feed Store Fashion Week (hoodie $39.99). Each is printed after you order it. Order by December 4, 2026 for Christmas.',
+    answer: 'A good gift for a cowgirl is a western shirt that sounds like her, because she already has the boots. Graphic Tees Co. has six original designs: Desert Bloom (tee $24.99), Hold Your Horses, I’m Overstimulated (tee $24.99), Howdy (hoodie $39.99), Eight Seconds of Bad Decisions (hoodie $39.99), Horse Girl, Broke on Purpose (hoodie $39.99) and Feed Store Fashion Week (hoodie $39.99). Each is printed after you order it. Order by December 4, 2026 for Christmas.',
     picks: [
       {
         h2: 'What is a gift for a cowgirl who has worn her boots in?',
@@ -2821,7 +2821,7 @@ export const allGuides: Guide[] = [
     h1: 'Gifts for Horse Lovers Who Spend Every Paycheck at the Barn',
     date: '2026-11-04',
     cluster: 'outdoors',
-    answer: 'A good gift for a horse lover is something that jokes about the barn life she already lives. Graphic Tees Co. has five original horse designs: Horse Girl, Broke on Purpose (hoodie $39.99, crewneck $34.99, mug $17.99, ornament $14.99), Christmas on the Farm (tee $24.99, hoodie $39.99), No One Asked the Horse (tee $24.99), Lucky Horseshoe (tee $24.99) and All Luck, No Horse Sense (heavyweight hoodie $49.99). Each is printed after you order it. Order by December 4, 2026 for Christmas.',
+    answer: 'A good gift for a horse lover is something that jokes about the barn life they already live. Graphic Tees Co. has five original horse designs: Horse Girl, Broke on Purpose (hoodie $39.99, crewneck $34.99, mug $17.99, ornament $14.99), Christmas on the Farm (tee $24.99, hoodie $39.99), No One Asked the Horse (tee $24.99), Lucky Horseshoe (tee $24.99) and All Luck, No Horse Sense (heavyweight hoodie $49.99). Each is printed after you order it. Order by December 4, 2026 for Christmas.',
     picks: [
       {
         h2: 'What is a funny gift for a horse girl whose paycheck goes to the barn?',
@@ -2861,7 +2861,7 @@ export const allGuides: Guide[] = [
     ],
     sections: [
       { h2: 'What makes a good gift for a horse lover?',
-        body: ['Something that sounds like her. A horse lover already owns the halters and the grooming kit, but she will wear a shirt that says what she has been saying about the hay bill for years.',
+        body: ['Something about the horse, not the tack. A horse lover already owns the halters and the grooming kit; a shirt that jokes about the hay bill or the stall door gets worn to the barn every weekend.',
           'Graphic Tees Co. horse designs are original art. They use no rodeo association, breed registry or tack brand marks.'] },
       { h2: 'Should a horse lover get a tee, a crewneck or a hoodie?',
         body: ['Tees are $24.99 in a lightweight 4.2 oz cotton, good for the show ring in summer. Crewnecks are $34.99 in an 8 oz cotton and polyester fleece with no hood. Hoodies are $39.99 in the same 8 oz fleece with a double-lined hood and a front pouch pocket, and the Lucky Horseshoe heavyweight is a 10 oz fleece at $49.99 for cold barn mornings.'] },

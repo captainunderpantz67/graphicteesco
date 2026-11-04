@@ -16,3 +16,4 @@ slug: gifts-for-cowgirls
 - `npx astro build` passes (128 pages; drafts are not built).
 ## Log
 - 2026-11-04 UTC writer: drafted, build passes.
+- 2026-11-04 23:14 UTC director: APPROVED, held as draft (2 articles already went live on the Nov 4 Chicago day). All 6 pick pages and 6 linked pages 200. Fixed: title dropped 'Funny' (Desert Bloom and Howdy carry no joke, R8.6) and the answer's 'with a joke she would say herself' to match. Next director run: remove draft:, astro build, LIVE.

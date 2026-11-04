@@ -16,3 +16,4 @@ slug: gifts-for-horse-lovers
 - `npx astro build` passes (drafts are not built).
 ## Log
 - 2026-11-04 UTC writer: drafted, build passes.
+- 2026-11-04 23:14 UTC director: APPROVED, held as draft (article limit for the Nov 4 Chicago day reached). All pick pages and linked pages 200 (the gifts-for-cowgirls link goes live with it; publish both the same run). Fixed: the 'What makes a good gift' opener was word-for-word the cowgirls guide's ('Something that sounds like her'), rewritten; answer made neutral ('they already live'; the FAQ covers men). Next director run: remove draft:, astro build, LIVE.
