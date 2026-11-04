@@ -1,6 +1,6 @@
 {
- "at": "2026-11-03T23:59:53.407Z",
- "products": 786,
+ "at": "2026-11-04T14:44:26.923Z",
+ "products": 792,
  "findings": [
   {
    "level": "WARN",
@@ -2923,8 +2923,22 @@
   },
   {
    "level": "WARN",
+   "handle": "womens-tennis-love-means-nothing-to-me-graphic-tee",
+   "title": "Women's Tennis – Love Means Nothing to Me Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "womens-capybara-im-the-calm-friend-graphic-tee",
    "title": "Women's Capybara – I'm the Calm Friend Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-otter-not-sinking-technically-graphic-tee",
+   "title": "Women's Otter – Not Sinking. Technically. Tee",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
@@ -2953,6 +2967,13 @@
    "level": "WARN",
    "handle": "womens-corgi-built-like-a-dinner-roll-graphic-tee",
    "title": "Women's Corgi – Built Like a Dinner Roll Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-hockey-i-play-for-the-post-game-nachos-graphic-tee",
+   "title": "Men's Hockey – I Play for the Post-Game Nachos Tee",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
@@ -3459,6 +3480,27 @@
    "title": "Women's National Park – Switchbacks Build Character Camo Hoodie",
    "msg": "No SEO title.",
    "fix": "Write one ≤ 60 chars with the primary keyword."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-black-friday-shopping-squad-i-have-the-list-graphic-tee",
+   "title": "Unisex Black Friday – Shopping Squad: I Have the List Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-black-friday-shopping-squad-im-just-the-driver-graphic-tee",
+   "title": "Unisex Black Friday – Shopping Squad: I'm Just the Driver Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-black-friday-out-of-my-way-i-have-a-coupon-graphic-tee",
+   "title": "Women's Black Friday – Out of My Way, I Have a Coupon Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   }
  ]
 }

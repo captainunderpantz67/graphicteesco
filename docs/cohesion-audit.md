@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-11-03 23:59 UTC
+# Cohesion audit — 2026-11-04 14:44 UTC
 
-786 live products checked · **0 errors** · 494 warnings · 461 products with findings
+792 live products checked · **0 errors** · 500 warnings · 467 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -1210,7 +1210,13 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Men's Marathon – Hit the Wall. The Wall Won. Tee `mens-marathon-hit-the-wall-the-wall-won-graphic-tee`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Women's Tennis – Love Means Nothing to Me Tee `womens-tennis-love-means-nothing-to-me-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Women's Capybara – I'm the Calm Friend Tee `womens-capybara-im-the-calm-friend-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Otter – Not Sinking. Technically. Tee `womens-otter-not-sinking-technically-graphic-tee`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Women's Running – Here for the Free Banana Tee `womens-running-here-for-the-free-banana-graphic-tee`
@@ -1223,6 +1229,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Women's Corgi – Built Like a Dinner Roll Tee `womens-corgi-built-like-a-dinner-roll-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Hockey – I Play for the Post-Game Nachos Tee `mens-hockey-i-play-for-the-post-game-nachos-graphic-tee`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Men's Gym – This Is My Warm-Up. It Is Not. Lifting Tee `mens-gym-this-is-my-warm-up-it-is-not-lifting-graphic-tee`
@@ -1422,3 +1431,12 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Women's National Park – Switchbacks Build Character Camo Hoodie `womens-national-park-switchbacks-build-character-camo-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 - **WARN** No SEO title. → Write one ≤ 60 chars with the primary keyword.
+
+### Unisex Black Friday – Shopping Squad: I Have the List Tee `unisex-black-friday-shopping-squad-i-have-the-list-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Black Friday – Shopping Squad: I'm Just the Driver Tee `unisex-black-friday-shopping-squad-im-just-the-driver-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Black Friday – Out of My Way, I Have a Coupon Tee `womens-black-friday-out-of-my-way-i-have-a-coupon-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
