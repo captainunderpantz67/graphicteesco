@@ -12302,6 +12302,20 @@
    ],
    "measured": "2026-11-03",
    "waiver": "unmeasured garment phrase, google-push-nov item 2"
+  },
+  "womens-black-friday-out-of-my-way-i-have-a-coupon-graphic-tee": {
+   "claimed": [
+    "funny black friday shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny black friday shirt",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-11-04",
+   "waiver": "unmeasured garment phrase, google-push-nov item 2"
   }
  }
 }
