@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: outdoors
@@ -16,3 +16,4 @@ slug: fishing-gifts-for-dad
 - `npx astro build` passes (126 pages; drafts are not built).
 ## Log
 - 2026-11-03 UTC writer: drafted, build passes.
+- 2026-11-04 14:25 UTC director: APPROVED, draft removed. Dropped the /guides/gifts-for-duck-hunters/ link (that guide is still a draft and 404s) and the 'gym guides' wording. All pick and link pages 200; astro build 128 pages.

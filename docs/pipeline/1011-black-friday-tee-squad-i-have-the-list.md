@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 1011
@@ -28,3 +28,4 @@ push: black-friday
 ## Log
 - 2026-11-02 03:20 UTC director: brief written, READY (Google push item 2, Black Friday shirts; type-only, $0 fal).
 - 2026-11-03 13:56 UTC B: built, REVIEW. Shopify DRAFT gid 15404894257456, 49 variants (7 colors x S-4XL), $24.99, no compare-at. Synced 49/49 (dark file 1101762393 on Black/Navy/Red, light file 1101762406 on White/Natural/Athletic Heather/Ash; verified via API). fal $0. Faces: Big Shoulders Display Black + Bevan (last 5 builds: Anton x8, Oswald, Playfair, Bowlby). Light file: White/Natural/Athletic Heather/Ash, headline fill red, punch fill ink 26,26,30; dark file: headline gold, punch cream, dark keyline. Headline 1534 px / punch 1792 px (punch wider; 2 lines I HAVE / THE LIST.). FW 1800 TOP 75. Read all words on Black, White, Red, Natural mockups at phone size: clear. Cover = Printful flat Black front (R6.11 fallback, handle added to retired-covers.json); audit PASS (1 warn: no lifestyle cover, by brief). Keyword map row added with waiver. Etsy favorites proof: not checkable from cloud, gate waived by Sam's order. design-crops: product is DRAFT so no crop row yet. Review sheet docs/review/1011.jpg (art, Black, White, back).
+- 2026-11-04 14:25 UTC director: APPROVED on docs/review/1011.jpg (stacked shop-sign lockup, punch widest, reads on Black and White; type-only by brief). ACTIVE + Online Store, Headless, Google & YouTube; audit --handle PASS (1 warn: no lifestyle cover). LIVE (Nov 4 Chicago day 1 of 6). Note for later type-only builds: no worn texture pass was applied though the brief asked for one; acceptable for shop-sign type, not a precedent for vintage niches.

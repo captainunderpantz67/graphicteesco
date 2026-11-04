@@ -2565,7 +2565,6 @@ export const allGuides: Guide[] = [
     h1: 'Fishing Gifts for Dad Who Already Owns Every Lure',
     date: '2026-11-03',
     cluster: 'outdoors',
-    draft: true,
     answer: 'A good fishing gift for dad is a shirt that jokes about his own lake habits, because he already has the gear. Graphic Tees Co. has five original designs: Reel Talk (tee $24.99), Fisher of Men (Mostly Bass) (tee $24.99), Cheaper Than Therapy (Barely) (tee $24.99), Catch and Release (Mostly Release) (hoodie $39.99) and Six Hours. Staring at a Hole. (heavyweight hoodie $49.99). Each is printed after you order it. Order by December 4, 2026 for Christmas.',
     picks: [
       {
@@ -2626,8 +2625,8 @@ export const allGuides: Guide[] = [
       { h2: 'When should you order a fishing gift for dad for Christmas?',
         body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
       { h2: 'Where else can you find gifts for dad and the other anglers on your list?',
-        body: ['For more fishing designs, see our gifts for fishermen guide. For the rest of his Christmas list, the dad and gym guides have more.'],
-        links: [{ href: '/guides/gifts-for-fishermen/', text: 'Gifts for fishermen' }, { href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }, { href: '/guides/gifts-for-duck-hunters/', text: 'Gifts for duck hunters' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }] },
+        body: ['For more fishing designs, see our gifts for fishermen guide. For the rest of his Christmas list, the dad and white elephant guides have more.'],
+        links: [{ href: '/guides/gifts-for-fishermen/', text: 'Gifts for fishermen' }, { href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }] },
     ],
     faqs: [
       { q: 'What are good fishing gifts for dad?', a: 'A funny fishing shirt he will actually wear, like Reel Talk or Cheaper Than Therapy (Barely) from Graphic Tees Co. Tees are $24.99 and hoodies start at $39.99, all printed after you order.' },
@@ -2649,8 +2648,7 @@ export const allGuides: Guide[] = [
     h1: 'Hoodies for Guys Who Want a Joke, Not a Logo',
     date: '2026-11-03',
     cluster: 'hoodies',
-    draft: true,
-    answer: 'The best hoodie for a guy is one that fits like a hoodie and says something he would actually say. Graphic Tees Co. has five original designs: Lone Wolf, Early Bedtime ($39.99), Cowboy Up. Later. ($39.99), Out of Office Deer (embroidered, $44.99), No Deer Today camo heavyweight ($49.99) and Deadlift Skeleton oversized ($54.99). Each is made after you order it, and US shipping is free on orders of $45 or more.',
+    answer: 'A good hoodie for a guy is one that fits like a hoodie and says something he would actually say. Graphic Tees Co. has five original designs: Lone Wolf, Early Bedtime ($39.99), Cowboy Up. Later. ($39.99), Out of Office Deer (embroidered, $44.99), No Deer Today camo heavyweight ($49.99) and Deadlift Skeleton oversized ($54.99). Each is made after you order it, and US shipping is free on orders of $45 or more.',
     picks: [
       {
         h2: 'What is a funny hoodie for a guy who is in bed by nine?',

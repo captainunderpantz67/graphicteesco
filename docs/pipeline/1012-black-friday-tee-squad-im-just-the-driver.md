@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 1012
@@ -29,3 +29,4 @@ push: black-friday
 - 2026-11-02 03:20 UTC director: brief written, READY (Google push item 2, Black Friday shirts; type-only, $0 fal).
 - 2026-11-03 B: Shopify DRAFT gid 15405617611056 created (49 variants, $24.99, no compare-at); art designs/b1012.py done; next: Printful sync + mockups.
 - 2026-11-03 22:02 UTC B: built, REVIEW. Shopify DRAFT gid 15405617611056, 49 variants (7 colors x S-4XL), $24.99, no compare-at. Synced 49/49 (dark file 1102085936 on Black/Navy/Red, light file 1102085960 on White/Natural/Athletic Heather/Ash; verified via API). fal $0. Faces: Big Shoulders Display Black + Bevan, same set as #1011 on purpose. Headline 1534 px / punch 1789 px (light), 1552 / 1807 (dark); punch wider. FW 1800 TOP 75. Read all words on Black and White mockups: clear. Cover = Printful flat Black front (R6.11 fallback), handle in retired-covers.json; audit PASS (1 warn: no lifestyle cover, by brief). Keyword map row added with waiver. Etsy favorites: not checkable from cloud, gate waived by Sam. Review sheet docs/review/1012.jpg.
+- 2026-11-04 14:25 UTC director: APPROVED on docs/review/1012.jpg (matches #1011 set, gold/cream on Black, red/ink on White). Copy: 'his role' made neutral for a unisex tee. ACTIVE + all 3 channels; audit --handle PASS (1 warn). LIVE (2 of 6).
