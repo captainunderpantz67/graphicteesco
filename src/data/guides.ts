@@ -2809,6 +2809,82 @@ export const allGuides: Guide[] = [
       { q: 'When should I order a gift for a cowgirl for Christmas?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days in the US.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-04), outdoors cluster (western / horse). Keyword: gifts for horse lovers 4,400 / KD 14 (RankHero via keyword-gap.py rankhero(), measured 2026-11-04). Unowned: no collection, product or guide claims it ("horse girl shirt" stays with the product).
+    // Facts (slogans, art, prices, blanks, sizes, colors) from the live Shopify Stories read 2026-11-04; policies and dates from site.ts and the sibling draft gifts-for-cowgirls.
+    // Planned siblings (not live yet): funny-western-shirts, horse-girl-gifts. Sibling drafts: gifts-for-cowgirls, gifts-for-fishermen.
+    draft: true,
+    slug: 'gifts-for-horse-lovers',
+    keyword: 'gifts for horse lovers',
+    title: 'Gifts for Horse Lovers: 5 Barn-Ready Shirts and Hoodies From $14.99',
+    description: 'Gifts for horse lovers who spend every paycheck at the barn: Horse Girl, Broke on Purpose, Christmas on the Farm, No One Asked the Horse and Lucky Horseshoe. From $14.99.',
+    h1: 'Gifts for Horse Lovers Who Spend Every Paycheck at the Barn',
+    date: '2026-11-04',
+    cluster: 'outdoors',
+    answer: 'A good gift for a horse lover is something that jokes about the barn life she already lives. Graphic Tees Co. has five original horse designs: Horse Girl, Broke on Purpose (hoodie $39.99, crewneck $34.99, mug $17.99, ornament $14.99), Christmas on the Farm (tee $24.99, hoodie $39.99), No One Asked the Horse (tee $24.99), Lucky Horseshoe (tee $24.99) and All Luck, No Horse Sense (heavyweight hoodie $49.99). Each is printed after you order it. Order by December 4, 2026 for Christmas.',
+    picks: [
+      {
+        h2: 'What is a funny gift for a horse girl whose paycheck goes to the barn?',
+        body: ['Horse Girl, Broke on Purpose. It is the board-hay-farrier-vet joke, and it comes on more things than any other horse design we have, so you can pick the price.'],
+        items: [
+          { slogan: 'HORSE GIRL, BROKE ON PURPOSE', tee: 'womens-equestrian-horse-girl-broke-on-purpose-hoodie', crewneck: 'womens-equestrian-horse-girl-broke-on-purpose-crewneck-sweatshirt',
+            text: 'A calm, unbothered horse leans over a wooden stall door with one stalk of hay in its mouth, with HORSE GIRL above in big dark slab capitals and BROKE ON PURPOSE below. The hoodie is $39.99 in Sand or Sport Grey, sizes S to 3XL, and the crewneck is $34.99 in Sand or Light Pink. There is also an embroidered zip hoodie at $57.99, an 11 oz mug at $17.99 and a 2.76-inch ceramic ornament at $14.99 for a stocking.' },
+        ],
+      },
+      {
+        h2: 'What is a Christmas gift for a horse lover who feeds before she opens presents?',
+        body: ['Christmas on the Farm. It is a quiet scene, not a joke, so it suits a rider, a barn mom or a grandmother of any age.'],
+        items: [
+          { slogan: 'CHRISTMAS ON THE FARM', tee: 'womens-christmas-christmas-on-the-farm-horse-graphic-tee', crewneck: 'womens-christmas-christmas-on-the-farm-horse-crewneck-sweatshirt',
+            text: 'A chestnut horse with a long flaxen mane stands in a snowy pasture beside a split-rail fence hung with a wreath and a red bow, with a red barn and snowy pines behind it and Christmas on the Farm lettered above. The tee is $24.99 in seven light colors, the crewneck is $34.99, and a hoodie in Sand or Sport Grey is $39.99.' },
+        ],
+      },
+      {
+        h2: 'What is a funny Christmas gift for a friend who lives at the stable?',
+        body: ['No One Asked the Horse. The horse in the Santa hat has opinions, and so does everyone at the barn party.'],
+        items: [
+          { slogan: 'NO ONE ASKED THE HORSE.', tee: 'womens-christmas-christmas-plans-the-barn-western-graphic-tee', crewneck: 'womens-christmas-christmas-plans-the-barn-western-crewneck-sweatshirt',
+            text: 'A friendly chestnut horse with a cream mane looks over a stall door in a little Santa hat, the door wrapped in pine garland and a big red bow, with a horseshoe and a sprig of holly beside it. NO ONE ASKED is in heavy red capitals above THE HORSE. in pine green. The tee is $24.99 in six colors and the crewneck is $34.99, both sizes S to 3XL.' },
+        ],
+      },
+      {
+        h2: 'What is a gift for a horse lover who hangs a horseshoe over the barn door?',
+        body: ['Lucky Horseshoe, or the heavyweight hoodie that goes with it for colder mornings. Both are unisex, so they work for a husband, a dad or a ranch hand.'],
+        items: [
+          { slogan: 'LUCKY HORSESHOE RANCH', tee: 'unisex-western-lucky-horseshoe-graphic-tee',
+            text: 'A worn iron horseshoe sits open end up with a coiled lariat around its base and two crossed branding irons behind it, under a ranch-gate arch lettered LUCKY HORSESHOE RANCH, a made-up ranch with no real brand behind it. The tee is $24.99 in a classic unisex fit, sizes XS to 4XL in Natural and Heather Dust.' },
+          { slogan: 'ALL LUCK. NO HORSE SENSE.', tee: 'unisex-western-lucky-horseshoe-ranch-heavyweight-hoodie',
+            text: 'The same kind of upward horseshoe, with crossed branding irons and a coiled lasso, sits between ALL LUCK. above and NO HORSE SENSE. below. It is a 10 oz heavyweight fleece hoodie for $49.99 in Sandstone or Storm Blue, sizes XS to 3XL.' },
+        ],
+        links: [{ href: '/hoodies/western-hoodies/', text: 'Western hoodies' }, { href: '/western-graphic-tees/', text: 'Western graphic tees' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good gift for a horse lover?',
+        body: ['Something that sounds like her. A horse lover already owns the halters and the grooming kit, but she will wear a shirt that says what she has been saying about the hay bill for years.',
+          'Graphic Tees Co. horse designs are original art. They use no rodeo association, breed registry or tack brand marks.'] },
+      { h2: 'Should a horse lover get a tee, a crewneck or a hoodie?',
+        body: ['Tees are $24.99 in a lightweight 4.2 oz cotton, good for the show ring in summer. Crewnecks are $34.99 in an 8 oz cotton and polyester fleece with no hood. Hoodies are $39.99 in the same 8 oz fleece with a double-lined hood and a front pouch pocket, and the Lucky Horseshoe heavyweight is a 10 oz fleece at $49.99 for cold barn mornings.'] },
+      { h2: 'What horse gifts cost under $20?',
+        body: ['The Horse Girl, Broke on Purpose mug is $17.99 and the matching ceramic ornament is $14.99. US shipping is free on orders of $45 or more, so a mug plus a tee clears it.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'What if you do not know her size?',
+        body: ['Check the size chart on the product page against a shirt she already wears. Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and she does not have to mail the first one back. If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'] },
+      { h2: 'When should you order a gift for a horse lover for Christmas?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find gifts for the riders and ranchers on your list?',
+        body: ['For the cowgirl who wants a western joke instead of a horse, see the cowgirl guide. The sister, daughter and white elephant guides cover the rest of the list, and the fishermen guide covers the lake crowd.'],
+        links: [{ href: '/guides/gifts-for-cowgirls/', text: 'Gifts for cowgirls' }, { href: '/guides/christmas-gifts-for-sister/', text: 'Christmas gifts for sister' }, { href: '/guides/christmas-gifts-for-daughter/', text: 'Christmas gifts for daughter' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }, { href: '/guides/gifts-for-fishermen/', text: 'Gifts for fishermen' }] },
+    ],
+    faqs: [
+      { q: 'What are good gifts for horse lovers?', a: 'A shirt that jokes about barn life, like Horse Girl, Broke on Purpose from Graphic Tees Co. The hoodie is $39.99, the crewneck $34.99, the mug $17.99 and the ornament $14.99, all printed after you order.' },
+      { q: 'What is a good horse gift under $20?', a: 'The Graphic Tees Co. Horse Girl, Broke on Purpose mug at $17.99, an 11 oz glossy ceramic mug printed on both sides, or the matching ceramic ornament at $14.99.' },
+      { q: 'What is a good Christmas gift for a horse girl?', a: 'The Christmas on the Farm tee at $24.99 or hoodie at $39.99 from Graphic Tees Co., a chestnut horse in a snowy pasture by a red barn. Or No One Asked the Horse, a horse in a Santa hat, tee $24.99.' },
+      { q: 'What is a good gift for a man who loves horses?', a: 'The Graphic Tees Co. Lucky Horseshoe tee at $24.99, or the All Luck, No Horse Sense heavyweight hoodie at $49.99. Both are unisex fits with a horseshoe and crossed branding irons.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+      { q: 'When should I order a gift for a horse lover for Christmas?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days in the US.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
