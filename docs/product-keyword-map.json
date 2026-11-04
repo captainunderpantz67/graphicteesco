@@ -12330,6 +12330,20 @@
    ],
    "measured": "2026-11-04",
    "waiver": "unmeasured garment phrase, google-push-nov item 2"
+  },
+  "womens-black-friday-i-got-up-at-4am-for-a-toaster-graphic-tee": {
+   "claimed": [
+    "funny shopping shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny shopping shirt",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-11-04",
+   "waiver": "unmeasured garment phrase; 'shopping shirt' 480/KD 64 is a broad head, google-push-nov item 2"
   }
  }
 }
