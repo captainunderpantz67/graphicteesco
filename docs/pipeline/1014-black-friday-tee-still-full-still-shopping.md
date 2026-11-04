@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: A
 type: new
 id: 1014
@@ -28,3 +28,4 @@ push: black-friday
 ## Log
 - 2026-11-02 03:20 UTC director: brief written, READY (Google push item 2, Black Friday shirts; type-only, $0 fal).
 - 2026-11-04 B: Shopify DRAFT gid 15406655013168 created (49 variants, $24.99, no compare-at); art designs/b1014.py (Fraunces + Anton); next: Printful sync + mockups.
+- 2026-11-04 17:50 UTC B: built, REVIEW. Shopify DRAFT gid 15406655013168, 49 variants (7 colors x S-4XL), $24.99, no compare-at. Synced 49/49 (dark file 1102654534 on Black/Navy/Maroon, light file 1102654538 on White/Natural/Athletic Heather/Pink; verified via API). fal $0. Faces: Fraunces + Anton (last 5 builds: big, bevan, alfa+bowlby, fraunces). Light file: headline ink, punch red; dark: gold + cream. Headline 1387 px / punch 1780 px (punch wider). FW 1800 TOP 75. Read words on Black and White mockups at phone size: clear. Cover = Printful flat Black front (R6.11), handle in retired-covers.json. Keyword map row with waiver. Etsy favorites: not checkable from cloud, waived. NOT done: cohesion-audit (DRAFT), design-crops (draft). Sheet docs/review/1014.jpg.

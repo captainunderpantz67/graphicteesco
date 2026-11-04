@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: A
 type: new
 id: 1015
@@ -28,3 +28,4 @@ push: black-friday
 ## Log
 - 2026-11-02 03:20 UTC director: brief written, READY (Google push item 2, Black Friday shirts; type-only, $0 fal).
 - 2026-11-04 B: Shopify DRAFT gid 15406656356656 created (42 variants, $24.99, no compare-at); art designs/b1015.py (Oswald + Inter Display Black); next: Printful sync + mockups.
+- 2026-11-04 17:50 UTC B: built, REVIEW. Shopify DRAFT gid 15406656356656, 42 variants (7 colors x S-3XL), $24.99, no compare-at. Synced 42/42 (dark file 1102658608 on Black/Navy, light file 1102658613 on White/Natural/Athletic Heather/Pink/Heather Stone; verified via API). fal $0. Faces: Oswald + Inter Display Black. Light file: headline ink, punch red; dark: gold + cream. Headline 1405 px / punch 1780 px (punch wider). FW 1500 TOP 75. Read words on Black and White mockups at phone size: clear. Cover = Printful flat Black front (R6.11), handle in retired-covers.json. Keyword map row with waiver. Etsy favorites: not checkable from cloud, waived. NOT done: cohesion-audit (DRAFT), design-crops (draft). Sheet docs/review/1015.jpg.
