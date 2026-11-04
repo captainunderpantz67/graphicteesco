@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: A
 type: new
 id: 1013
@@ -28,3 +28,4 @@ push: black-friday
 ## Log
 - 2026-11-02 03:20 UTC director: brief written, READY (Google push item 2, Black Friday shirts; type-only, $0 fal).
 - 2026-11-04 B: Shopify DRAFT gid 15406551400752 created (42 variants, $24.99, no compare-at); art designs/b1013.py (Alfa Slab One + Bowlby One, dashed coupon outline); next: Printful sync + mockups.
+- 2026-11-04 13:42 UTC B: built, REVIEW. Shopify DRAFT gid 15406551400752, 42 variants (7 colors x S-3XL), $24.99, no compare-at. Synced 42/42 (dark file 1102517164 on Black/Navy/Maroon, light file 1102517166 on White/Natural/Athletic Heather/Pink; verified via API). fal $0. Faces: Alfa Slab One + Bowlby One. Light file: headline red, punch ink; dark: gold + cream. Headline 1423 px / punch 1667 px (punch wider; box-less dashed coupon outline). FW 1500 TOP 75. Read all words on Black and White mockups at phone size: clear. Cover = Printful flat Black front (R6.11), handle in retired-covers.json. Keyword map row with waiver. Etsy favorites: not checkable from cloud, waived. NOT done: cohesion-audit (DRAFT needs --admin-json; script crashed without it), design-crops (draft). Sheet docs/review/1013.jpg.
