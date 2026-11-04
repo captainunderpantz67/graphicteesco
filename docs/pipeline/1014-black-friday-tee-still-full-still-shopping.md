@@ -27,3 +27,4 @@ push: black-friday
 ---
 ## Log
 - 2026-11-02 03:20 UTC director: brief written, READY (Google push item 2, Black Friday shirts; type-only, $0 fal).
+- 2026-11-04 B: Shopify DRAFT gid 15406655013168 created (49 variants, $24.99, no compare-at); art designs/b1014.py (Fraunces + Anton); next: Printful sync + mockups.
