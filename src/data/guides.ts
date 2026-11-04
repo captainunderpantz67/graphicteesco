@@ -2718,6 +2718,97 @@ export const allGuides: Guide[] = [
       { q: 'When should I order a hoodie for Christmas?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days in the US.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-04), outdoors cluster (western). Keyword: gifts for cowgirls 1,900 / KD 16 (RankHero rankhero() via scripts/keyword-gap.py, measured 2026-11-04). Not owned by a collection or product (checked collections.ts, product-keyword-map.json, guides.ts).
+    // Facts (slogans, art, prices, blanks, colors, sizes) from the live Shopify Stories read 2026-11-04 for the six picks (all ACTIVE), plus site.ts. None is listed in fresh-designs.json: director to confirm grade.
+    // Planned siblings (not live yet): funny-western-shirts, gifts-for-horse-lovers.
+    draft: true,
+    slug: 'gifts-for-cowgirls',
+    keyword: 'gifts for cowgirls',
+    title: 'Gifts for Cowgirls: 6 Funny Western Tees and Hoodies From $24.99',
+    description: 'Gifts for cowgirls with a real joke on them: Desert Bloom, Hold Your Horses, Howdy, Eight Seconds of Bad Decisions, Horse Girl and Feed Store Fashion Week. From $24.99.',
+    h1: 'Gifts for Cowgirls Who Already Own Every Pair of Boots',
+    date: '2026-11-04',
+    cluster: 'outdoors',
+    answer: 'A good gift for a cowgirl is a western shirt with a joke she would say herself, because she already has the boots. Graphic Tees Co. has six original designs: Desert Bloom (tee $24.99), Hold Your Horses, I’m Overstimulated (tee $24.99), Howdy (hoodie $39.99), Eight Seconds of Bad Decisions (hoodie $39.99), Horse Girl, Broke on Purpose (hoodie $39.99) and Feed Store Fashion Week (hoodie $39.99). Each is printed after you order it. Order by December 4, 2026 for Christmas.',
+    picks: [
+      {
+        h2: 'What is a gift for a cowgirl who has worn her boots in?',
+        body: ['Desert Bloom. It is the pretty one, and the boot on it looks like it has done some miles.'],
+        items: [
+          { slogan: 'DESERT BLOOM', tee: 'womens-western-desert-bloom-graphic-tee',
+            text: 'A scuffed cowgirl boot with turquoise stitching is full of blooming prickly pear, coral and hot-pink flowers opening between the spines, framed by a sunset arch, saguaros and red mesas. It is a relaxed women’s tee in lightweight 4.2 oz cotton, $24.99, in Black, Maroon, Military Green, Heather Stone, Natural and White, sizes S to 3XL.' },
+        ],
+      },
+      {
+        h2: 'What is a funny gift for a cowgirl who needs the noise to stop?',
+        body: ['Hold Your Horses, I’m Overstimulated. It is for the sister or mom friend who is done with school pickup and the grocery run.'],
+        items: [
+          { slogan: 'HOLD YOUR HORSES, I’M OVERSTIMULATED.', tee: 'womens-western-hold-your-horses-im-overstimulated-graphic-tee',
+            text: 'A small armadillo stands upright in a too-big dusty pink cowboy hat and tiny pink boots, both front paws pressed to her ears and her eyes squeezed shut, with a saguaro and a desert shrub behind her. HOLD YOUR HORSES, sits above in dark brown western capitals and I’M OVERSTIMULATED. below in hot pink. The tee is $24.99 in a relaxed fit, sizes S to 3XL.' },
+        ],
+      },
+      {
+        h2: 'What is a cowgirl hoodie for a girl who says howdy to everybody?',
+        body: ['Howdy. It says the friendly thing for her before she reaches the register.'],
+        items: [
+          { slogan: 'HOWDY', tee: 'womens-western-howdy-hoodie',
+            text: 'Puffy 1970s bubble letters spell HOWDY in dusty pink, mustard, tan and cream, outlined in dark brown, with a pink cowgirl hat tipped above them and a small steer skull wearing a pink daisy tucked under the D and Y. It is an 8 oz classic-fit pullover with a pouch pocket in Sand and Navy, $39.99, sizes S to 5XL (Sand runs S to 3XL).' },
+        ],
+      },
+      {
+        h2: 'What is a rodeo gift for a woman who would climb on anyway?',
+        body: ['Eight Seconds of Bad Decisions. Wear it to the arena, the county fair and the tailgate after the last ride.'],
+        items: [
+          { slogan: 'EIGHT SECONDS OF BAD DECISIONS', tee: 'womens-western-saturday-night-rodeo-hoodie',
+            text: 'A cowgirl on a bucking bronc rides with one arm in the air, braid flying and dust kicking off the hooves, between EIGHT SECONDS OF in western wood-type capitals and BAD DECISIONS in heavy slab capitals. It is an 8 oz pullover in Sand and Navy, $39.99, sizes S to 3XL.' },
+        ],
+      },
+      {
+        h2: 'What is a gift for a horse girl whose paycheck goes to the barn?',
+        body: ['Horse Girl, Broke on Purpose. It is the barn budget joke, worn with a straight face.'],
+        items: [
+          { slogan: 'HORSE GIRL, BROKE ON PURPOSE', tee: 'womens-equestrian-horse-girl-broke-on-purpose-hoodie',
+            text: 'A calm, unbothered horse looks over a wooden stall door with one stalk of hay in its mouth, with HORSE GIRL above in big dark slab capitals and BROKE ON PURPOSE below. It is an 8 oz pullover in Sand and Sport Grey, $39.99, sizes S to 3XL.' },
+        ],
+      },
+      {
+        h2: 'What is a gift for the cowgirl who treats the feed store like a runway?',
+        body: ['Feed Store Fashion Week. It is for the Saturday run for a 50-lb sack of layer pellets in muck boots.'],
+        items: [
+          { slogan: 'FEED STORE FASHION WEEK', tee: 'womens-western-feed-store-fashion-week-hoodie',
+            text: 'A vintage drawing of worn muck boots in faded rust and blue stands beside a stacked feed sack, with FEED STORE in a western slab-serif headline across the top, FASHION WEEK in heavy slab capitals below and a SATURDAY, 7 A.M. line at the bottom. It is an 8 oz pullover in Sand and Navy, $39.99, sizes S to 3XL.' },
+        ],
+        links: [{ href: '/hoodies/western-hoodies/', text: 'Western hoodies' }, { href: '/western-graphic-tees/', text: 'Western graphic tees' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good gift for a cowgirl?',
+        body: ['Something that sounds like her. A cowgirl who owns the hat and the boots does not need more costume, but she will wear a shirt that says what she has been saying at the barn for years.',
+          'Graphic Tees Co. western designs are original art with a short line or none at all. They use no rodeo association or western-wear brand marks.'],
+        links: [{ href: '/country-graphic-tees/', text: 'Country graphic tees' }] },
+      { h2: 'Should she get a western tee or a hoodie?',
+        body: ['The two tees are $24.99 in a lightweight 4.2 oz cotton cut, good for concerts and warm days. The four hoodies are $39.99 in an 8 oz cotton and polyester fleece with a double-lined hood and a front pouch pocket, good for the barn at sunset or a cool evening in the stands.'] },
+      { h2: 'What cowgirl gifts cost under $50?',
+        body: ['All six picks are $39.99 or less: tees $24.99 and hoodies $39.99. US shipping is free on orders of $45 or more, so a hoodie ships free and a tee plus a second gift clears it.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'What if you do not know her size?',
+        body: ['Check the size chart on the product page against a shirt she already wears. Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and she does not have to mail the first one back. If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'] },
+      { h2: 'When should you order a gift for a cowgirl for Christmas?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find gifts for the women on your list?',
+        body: ['For the rest of her Christmas list, the sister, daughter and white elephant guides have more. For a barn-and-lake crowd, see the gifts for fishermen guide.'],
+        links: [{ href: '/guides/christmas-gifts-for-sister/', text: 'Christmas gifts for sister' }, { href: '/guides/christmas-gifts-for-daughter/', text: 'Christmas gifts for daughter' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }, { href: '/guides/gifts-for-fishermen/', text: 'Gifts for fishermen' }] },
+    ],
+    faqs: [
+      { q: 'What are good gifts for cowgirls?', a: 'A funny western shirt she will actually wear, like Desert Bloom or Hold Your Horses, I’m Overstimulated from Graphic Tees Co. Tees are $24.99 and hoodies are $39.99, all printed after you order.' },
+      { q: 'What is a good cowgirl gift under $30?', a: 'The Desert Bloom tee or the Hold Your Horses, I’m Overstimulated tee from Graphic Tees Co. Each is $24.99 in a relaxed women’s fit, sizes S to 3XL.' },
+      { q: 'What is a good gift for a horse girl?', a: 'The Graphic Tees Co. Horse Girl, Broke on Purpose hoodie, $39.99. It is an 8 oz cotton and polyester pullover in Sand or Sport Grey, sizes S to 3XL.' },
+      { q: 'What is a good rodeo gift for a woman?', a: 'The Eight Seconds of Bad Decisions hoodie from Graphic Tees Co., $39.99. It is an 8 oz fleece pullover with a double-lined hood and a front pouch, in Sand or Navy.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+      { q: 'When should I order a gift for a cowgirl for Christmas?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days in the US.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
