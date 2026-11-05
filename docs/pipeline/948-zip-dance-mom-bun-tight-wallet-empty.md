@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 cover: fal-swap
 lane: C
 type: twin
@@ -30,3 +30,4 @@ push: zip
 ## Log
 - 2026-10-21 14:55 UTC director: brief written, READY (zip twin, lane C, push: zip; $0 fal; R11.12 unmeasured-phrase waiver after keyword-gap.py; registry rows claimed).
 - 2026-10-23 15:00 UTC director: stale claim released (BUILDING since 2026-10-21, no lane commit for ~46 h). A Shopify draft for this handle already exists from that session (zip twins 946-954); finish it in place, never a second product. Check it against builder 7m before REVIEW.
+- 2026-11-05 UTC [B] built, REVIEW. Finished the existing draft in place (gid 15372790235440): Printful sync 18/18, every variant has chest, wrist and back files (Black+Navy white thread, Ash navy thread, light back file for Ash). Face Fraunces Black. Back print 3000 px wide: headline BUN TIGHT. 2676 / SMILE ON. 2301 px, punch WALLET 2994 / EMPTY. 2659 px (112% of the widest headline line); subject 1597 of 3762 px = 42.5% tall, 1500 of 3000 = 50.0% wide. Chest stitched WALLET over EMPTY., wrist ENCORE. Price 57.99, no compare-at, fal $0. Cover = Printful back mockup (cover: fal-swap); 6 photos, variants linked to color fronts. Copy 'printed and stitched to order' (R8.6). Audit script crashes on cloud box: director please run it. Sheet docs/review/948.jpg.
