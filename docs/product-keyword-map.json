@@ -12344,6 +12344,19 @@
    ],
    "measured": "2026-11-04",
    "waiver": "unmeasured garment phrase; 'shopping shirt' 480/KD 64 is a broad head, google-push-nov item 2"
+  },
+  "mens-christmas-some-assembly-regretted-embroidered-zip-hoodie": {
+   "claimed": [
+    "christmas zip up hoodie for men"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas zip up hoodie for men",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }

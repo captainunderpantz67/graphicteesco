@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 cover: fal-swap
 lane: C
 type: twin
@@ -30,3 +30,4 @@ push: zip
 ## Log
 - 2026-10-21 14:55 UTC director: brief written, READY (zip twin, lane C, push: zip; $0 fal; R11.12 unmeasured-phrase waiver after keyword-gap.py; registry rows claimed).
 - 2026-10-23 15:00 UTC director: stale claim released (BUILDING since 2026-10-21, no lane commit for ~46 h). A Shopify draft for this handle already exists from that session (zip twins 946-954); finish it in place, never a second product. Check it against builder 7m before REVIEW.
+- 2026-11-05 UTC [B] built, REVIEW. Finished the existing draft in place (gid 15372789088560): Printful sync 18/18 (Black 2XL/3XL were missing, re-synced; every variant has chest, wrist and back files: Black+Navy back 1091221112 cream/coral, chest/wrist white; Ash back 1091221033 navy/red light file, navy thread). Face Inter Display Black. Back print 3000x2717: headline SOME 1414 / ASSEMBLY 2714 px, punch REGRETTED 2981 px (110%); subject 1136 of 2717 px = 41.8% tall, 1350 of 3000 = 45.0% wide. Chest = stitched REGRETTED wordmark (Allen key read as an L), wrist SCREWS. Price 57.99, no compare-at, fal $0. Cover = Printful back mockup (cover: fal-swap); 6 photos attached (back first, one front per color, Black/Navy/Ash backs), variants linked to their color front. Copy: 'printed and stitched to order' (R8.6). Keyword map row added. Audit script crashes in the cloud box (spawn error): director please run cohesion-audit with admin json. Design close-up not generated (draft). Sheet docs/review/947.jpg.
