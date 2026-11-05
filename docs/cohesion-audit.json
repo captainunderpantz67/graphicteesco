@@ -1,6 +1,6 @@
 {
- "at": "2026-11-04T23:43:23.072Z",
- "products": 792,
+ "at": "2026-11-05T14:44:09.923Z",
+ "products": 796,
  "findings": [
   {
    "level": "WARN",
@@ -2951,6 +2951,13 @@
   },
   {
    "level": "WARN",
+   "handle": "mens-pickleball-banned-from-the-kitchen-graphic-tee",
+   "title": "Men's Pickleball – Banned From the Kitchen Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "womens-french-bulldog-personal-space-never-heard-of-her-crewneck-sweatshirt",
    "title": "Women's French Bulldog – Personal Space? Never Heard of Her. Crewneck Sweatshirt",
    "msg": "No lifestyle cover photo.",
@@ -3392,6 +3399,13 @@
   },
   {
    "level": "WARN",
+   "handle": "mens-eagle-bald-by-choice-embroidered-zip-hoodie",
+   "title": "Men's Eagle – Bald by Choice. Majestic by Nature. Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "unisex-national-park-running-late-bison-traffic-camo-hoodie",
    "title": "Unisex National Park – Running Late. Bison Traffic. Camo Hoodie",
    "msg": "No lifestyle cover photo.",
@@ -3499,6 +3513,20 @@
    "level": "WARN",
    "handle": "womens-black-friday-out-of-my-way-i-have-a-coupon-graphic-tee",
    "title": "Women's Black Friday – Out of My Way, I Have a Coupon Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-black-friday-still-full-still-shopping-graphic-tee",
+   "title": "Unisex Black Friday – Still Full. Still Shopping. Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-black-friday-i-got-up-at-4am-for-a-toaster-graphic-tee",
+   "title": "Women's Black Friday – I Got Up at 4 AM for a Toaster Tee",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   }

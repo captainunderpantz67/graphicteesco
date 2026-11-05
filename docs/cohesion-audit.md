@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-11-04 23:43 UTC
+# Cohesion audit — 2026-11-05 14:44 UTC
 
-792 live products checked · **0 errors** · 500 warnings · 467 products with findings
+796 live products checked · **0 errors** · 504 warnings · 471 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -1222,6 +1222,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Women's Running – Here for the Free Banana Tee `womens-running-here-for-the-free-banana-graphic-tee`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Men's Pickleball – Banned From the Kitchen Tee `mens-pickleball-banned-from-the-kitchen-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Women's French Bulldog – Personal Space? Never Heard of Her. Crewneck Sweatshirt `womens-french-bulldog-personal-space-never-heard-of-her-crewneck-sweatshirt`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
@@ -1399,6 +1402,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Men's Sasquatch – Camera Shy Embroidered Zip Hoodie `mens-sasquatch-camera-shy-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Men's Eagle – Bald by Choice. Majestic by Nature. Embroidered Zip Hoodie `mens-eagle-bald-by-choice-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Unisex National Park – Running Late. Bison Traffic. Camo Hoodie `unisex-national-park-running-late-bison-traffic-camo-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
@@ -1439,4 +1445,10 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Women's Black Friday – Out of My Way, I Have a Coupon Tee `womens-black-friday-out-of-my-way-i-have-a-coupon-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Black Friday – Still Full. Still Shopping. Tee `unisex-black-friday-still-full-still-shopping-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Black Friday – I Got Up at 4 AM for a Toaster Tee `womens-black-friday-i-got-up-at-4am-for-a-toaster-graphic-tee`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
