@@ -2722,7 +2722,7 @@ export const allGuides: Guide[] = [
     // Writer lane W (2026-11-04), outdoors cluster (western). Keyword: gifts for cowgirls 1,900 / KD 16 (RankHero rankhero() via scripts/keyword-gap.py, measured 2026-11-04). Not owned by a collection or product (checked collections.ts, product-keyword-map.json, guides.ts).
     // Facts (slogans, art, prices, blanks, colors, sizes) from the live Shopify Stories read 2026-11-04 for the six picks (all ACTIVE), plus site.ts. None is listed in fresh-designs.json: director to confirm grade.
     // Planned siblings (not live yet): funny-western-shirts, gifts-for-horse-lovers.
-    draft: true,
+    draft: false,
     slug: 'gifts-for-cowgirls',
     keyword: 'gifts for cowgirls',
     title: 'Gifts for Cowgirls: 6 Western Tees and Hoodies From $24.99',
@@ -2813,7 +2813,7 @@ export const allGuides: Guide[] = [
     // Writer lane W (2026-11-04), outdoors cluster (western / horse). Keyword: gifts for horse lovers 4,400 / KD 14 (RankHero via keyword-gap.py rankhero(), measured 2026-11-04). Unowned: no collection, product or guide claims it ("horse girl shirt" stays with the product).
     // Facts (slogans, art, prices, blanks, sizes, colors) from the live Shopify Stories read 2026-11-04; policies and dates from site.ts and the sibling draft gifts-for-cowgirls.
     // Planned siblings (not live yet): funny-western-shirts, horse-girl-gifts. Sibling drafts: gifts-for-cowgirls, gifts-for-fishermen.
-    draft: true,
+    draft: false,
     slug: 'gifts-for-horse-lovers',
     keyword: 'gifts for horse lovers',
     title: 'Gifts for Horse Lovers: 5 Barn-Ready Shirts and Hoodies From $14.99',

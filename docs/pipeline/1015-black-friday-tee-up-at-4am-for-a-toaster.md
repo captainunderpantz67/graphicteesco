@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 1015
@@ -30,3 +30,4 @@ push: black-friday
 - 2026-11-04 B: Shopify DRAFT gid 15406656356656 created (42 variants, $24.99, no compare-at); art designs/b1015.py (Oswald + Inter Display Black); next: Printful sync + mockups.
 - 2026-11-04 17:50 UTC B: built, REVIEW. Shopify DRAFT gid 15406656356656, 42 variants (7 colors x S-3XL), $24.99, no compare-at. Synced 42/42 (dark file 1102658608 on Black/Navy, light file 1102658613 on White/Natural/Athletic Heather/Pink/Heather Stone; verified via API). fal $0. Faces: Oswald + Inter Display Black. Light file: headline ink, punch red; dark: gold + cream. Headline 1405 px / punch 1780 px (punch wider). FW 1500 TOP 75. Read words on Black and White mockups at phone size: clear. Cover = Printful flat Black front (R6.11), handle in retired-covers.json. Keyword map row with waiver. Etsy favorites: not checkable from cloud, waived. NOT done: cohesion-audit (DRAFT), design-crops (draft). Sheet docs/review/1015.jpg.
 - 2026-11-04 23:14 UTC director: APPROVED from docs/review/1015.jpg, held at REVIEW (Nov 4 Chicago cap used). I GOT UP AT 4 AM / FOR A TOASTER. is the cheekiest of the Black Friday set (concrete, self-aware, R3.13); punch widest (1780 vs 1405 px), reads on Black and White at phone size. Copy fixed in Shopify: duplicate 'How does it fit?' FAQ dropped, size-exchange answer now says 30 days and nothing to mail back (R12.2). Next director run: R11.15 re-check, ACTIVE + publications, audit --handle PASS, LIVE.
+- 2026-11-05 14:22 UTC director: R11.15 re-check passed (no rule dated after the approval fails it). LIVE for the Nov 5 Chicago day: ACTIVE + Online Store, Headless, Google & YouTube; cohesion-audit --handle PASS (1 warn: no lifestyle cover).

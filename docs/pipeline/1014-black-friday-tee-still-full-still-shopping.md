@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: new
 id: 1014
@@ -30,3 +30,4 @@ push: black-friday
 - 2026-11-04 B: Shopify DRAFT gid 15406655013168 created (49 variants, $24.99, no compare-at); art designs/b1014.py (Fraunces + Anton); next: Printful sync + mockups.
 - 2026-11-04 17:50 UTC B: built, REVIEW. Shopify DRAFT gid 15406655013168, 49 variants (7 colors x S-4XL), $24.99, no compare-at. Synced 49/49 (dark file 1102654534 on Black/Navy/Maroon, light file 1102654538 on White/Natural/Athletic Heather/Pink; verified via API). fal $0. Faces: Fraunces + Anton (last 5 builds: big, bevan, alfa+bowlby, fraunces). Light file: headline ink, punch red; dark: gold + cream. Headline 1387 px / punch 1780 px (punch wider). FW 1800 TOP 75. Read words on Black and White mockups at phone size: clear. Cover = Printful flat Black front (R6.11), handle in retired-covers.json. Keyword map row with waiver. Etsy favorites: not checkable from cloud, waived. NOT done: cohesion-audit (DRAFT), design-crops (draft). Sheet docs/review/1014.jpg.
 - 2026-11-04 23:14 UTC director: APPROVED from docs/review/1014.jpg, held at REVIEW (Nov 4 Chicago cap of 6 already used at 14:40). Side by side with #1011-#1013 (same type-only shop-sign set): STILL FULL. / STILL SHOPPING. reads in 2 seconds, punch the widest line (1780 vs 1387 px), gold/cream on Black and black/red on White both read at phone size. Copy fixed in Shopify: duplicate 'How does it fit?' FAQ dropped, 'gift-free self-buy' (brief wording) rewritten, size-exchange answer now says 30 days and nothing to mail back (R12.2), meta 'Black Friday' capitalized (R8.5). Next director run: R11.15 re-check, ACTIVE + publications, audit --handle PASS, LIVE.
+- 2026-11-05 14:22 UTC director: R11.15 re-check passed (no rule dated after the approval fails it). LIVE for the Nov 5 Chicago day: ACTIVE + Online Store, Headless, Google & YouTube; cohesion-audit --handle PASS (1 warn: no lifestyle cover).

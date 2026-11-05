@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 cover: fal-swap
 lane: C
 type: twin
@@ -31,3 +31,4 @@ push: zip
 - 2026-10-21 14:55 UTC director: brief written, READY (zip twin, lane C, push: zip; $0 fal; R11.12 unmeasured-phrase waiver after keyword-gap.py; registry rows claimed).
 - 2026-10-23 15:00 UTC director: stale claim released (BUILDING since 2026-10-21, no lane commit for ~46 h). A Shopify draft for this handle already exists from that session (zip twins 946-954); finish it in place, never a second product. Check it against builder 7m before REVIEW.
 - 2026-11-05 13:35 UTC [B] built, REVIEW. Finished the existing draft in place (gid 15372787843376): Printful sync 18/18 (Black 3XL was missing, re-synced; every variant has chest, wrist and back files), Black/Navy cream+gold back file 1091220793, Ash navy+bronze light file 1091220747 (R7.7, light file logged). Back print headline 2686/2673 px, punch 2984 px (111%); subject 1654 of 3205 px = 51.6%; face Cinzel Black. Chest = stitched BALD BY / CHOICE. words, wrist MAJESTIC. Price 57.99, no compare-at, fal $0. Cover = Printful back mockup (cover: fal-swap). Audit: only 'not active' remains. Design close-up not generated (draft not on storefront; director/next run after publish). Sheet docs/review/946.jpg.
+- 2026-11-05 14:22 UTC director: APPROVED on docs/review/946.jpg. Joke reads in 2 seconds (R3.13), engraved serif re-set, punch widest (111%), cream/gold reads on Black at phone size, stitched BALD BY / CHOICE. names it on the front, back mockup cover per the zip fal-swap rule. Copy fixed (R8.6): 'printed and stitched the day you order it' was untrue, now 'printed and stitched to order'. LIVE: ACTIVE + Online Store, Headless, Google & YouTube; cohesion-audit --handle PASS (1 warn: no lifestyle cover). Still cover: fal-swap (AI back-print cover when fal is topped up).

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: outdoors
@@ -17,3 +17,4 @@ slug: gifts-for-horse-lovers
 ## Log
 - 2026-11-04 UTC writer: drafted, build passes.
 - 2026-11-04 23:14 UTC director: APPROVED, held as draft (article limit for the Nov 4 Chicago day reached). All pick pages and linked pages 200 (the gifts-for-cowgirls link goes live with it; publish both the same run). Fixed: the 'What makes a good gift' opener was word-for-word the cowgirls guide's ('Something that sounds like her'), rewritten; answer made neutral ('they already live'; the FAQ covers men). Next director run: remove draft:, astro build, LIVE.
+- 2026-11-05 14:22 UTC director: LIVE (draft: false in src/data/guides.ts; every linked page 200; astro build 130 pages). 2 articles for the Nov 5 Chicago day.
