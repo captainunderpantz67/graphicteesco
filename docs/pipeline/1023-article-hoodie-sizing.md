@@ -15,3 +15,4 @@ slug: hoodie-sizing
 - Links: /hoodies/, oversized, heavyweight, zip-up, cropped, camo sub-pages; siblings baggy-hoodies, cozy-hoodies, thick-hoodies, fleece-lined-hoodie, hoodies-for-guys, how-to-wash-graphic-tees. Overlap risk with baggy-hoodies (oversized fit); different intent (sizing across cuts).
 ## Log
 - 2026-11-05 UTC writer: drafted, build passes.
+- 2026-11-05 23:15 UTC director: APPROVED (hoodie sizing 1,900 / KD 16). Spot-checked live: Windshield hoodie Sand/Sport Grey S-3XL, Lift Heavy cropped Black/Storm S-2XL, both match. Held as draft (article cap for Nov 5 reached). Next director run: remove draft:, astro build, check links 200.

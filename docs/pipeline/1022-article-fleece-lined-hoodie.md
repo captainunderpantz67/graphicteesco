@@ -18,3 +18,4 @@ slug: fleece-lined-hoodie
 - `npx astro build` passes (130 pages; drafts are not built).
 ## Log
 - 2026-11-05 UTC writer: drafted, build passes.
+- 2026-11-05 23:15 UTC director: APPROVED (fleece lined hoodie 4,400 / KD 14). The hood-only framing is right and honest (R8.6); distinct enough from thick-hoodies (lining vs ounces). Fixed 'XS to 3XL on most designs' (it is 2 and 2). Held as draft: 2 articles already went live for the Nov 5 Chicago day (#1020 #1021). Next director run: remove draft:, astro build, check links 200.

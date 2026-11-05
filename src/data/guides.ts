@@ -2927,7 +2927,7 @@ export const allGuides: Guide[] = [
         body: ['A little, mostly around the head and neck. The 10 oz fleece traps more air than our 8 oz classic pullover, and the relaxed cut leaves room for a tee or thermal underneath.',
           'It is a layer, not a coat. The hoodies are made for a cold trailhead, a deer stand or a dock before sunrise, and on wet or very cold days you wear a shell over them.'] },
       { h2: 'How does a fleece lined hoodie fit?',
-        body: ['The heavyweight is a relaxed fit made for layering, so order your usual size for a loose layer or size down one for a closer fit. Sizes run XS to 3XL on most designs, and S to 3XL on a few.',
+        body: ['The heavyweight is a relaxed fit made for layering, so order your usual size for a loose layer or size down one for a closer fit. Sizes run XS to 3XL on some designs and S to 3XL on others, so check the product page.',
           'If the size is wrong, one replacement in a new size is free within 30 days of delivery, and you do not mail the first one back.'],
         links: [{ href: '/guides/baggy-hoodies/', text: 'Baggy hoodies: how to get the slouchy fit' }] },
       { h2: 'Fleece lined hoodie or 8 oz pullover: which should you buy?',
