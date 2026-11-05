@@ -1,6 +1,6 @@
 {
- "at": "2026-11-05T14:44:09.923Z",
- "products": 796,
+ "at": "2026-11-05T23:43:22.978Z",
+ "products": 798,
  "findings": [
   {
    "level": "WARN",
@@ -3401,6 +3401,20 @@
    "level": "WARN",
    "handle": "mens-eagle-bald-by-choice-embroidered-zip-hoodie",
    "title": "Men's Eagle – Bald by Choice. Majestic by Nature. Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-christmas-some-assembly-regretted-embroidered-zip-hoodie",
+   "title": "Men's Christmas – Some Assembly Regretted Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-cat-allegedly-embroidered-zip-hoodie",
+   "title": "Women's Christmas – Cat Allegedly Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
