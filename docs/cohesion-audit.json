@@ -1,6 +1,6 @@
 {
- "at": "2026-11-05T23:43:22.978Z",
- "products": 798,
+ "at": "2026-11-06T14:43:57.687Z",
+ "products": 802,
  "findings": [
   {
    "level": "WARN",
@@ -3413,8 +3413,36 @@
   },
   {
    "level": "WARN",
+   "handle": "womens-dance-mom-bun-tight-wallet-empty-embroidered-zip-hoodie",
+   "title": "Women's Dance Mom – Bun Tight, Wallet Empty Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-mechanic-cant-just-take-a-quick-look-embroidered-zip-hoodie",
+   "title": "Men's Mechanic – No, I Can't Just Take a Quick Look Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "womens-christmas-cat-allegedly-embroidered-zip-hoodie",
    "title": "Women's Christmas – Cat Allegedly Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-running-i-only-run-downhill-embroidered-zip-hoodie",
+   "title": "Men's Running – I Only Run Downhill Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-welder-i-basically-hot-glue-metal-embroidered-zip-hoodie",
+   "title": "Men's Welder – I Basically Hot Glue Metal Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },

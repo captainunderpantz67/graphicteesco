@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-11-05 23:43 UTC
+# Cohesion audit — 2026-11-06 14:43 UTC
 
-798 live products checked · **0 errors** · 506 warnings · 473 products with findings
+802 live products checked · **0 errors** · 510 warnings · 477 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -1408,7 +1408,19 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Men's Christmas – Some Assembly Regretted Embroidered Zip Hoodie `mens-christmas-some-assembly-regretted-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Women's Dance Mom – Bun Tight, Wallet Empty Embroidered Zip Hoodie `womens-dance-mom-bun-tight-wallet-empty-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Mechanic – No, I Can't Just Take a Quick Look Embroidered Zip Hoodie `mens-mechanic-cant-just-take-a-quick-look-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Women's Christmas – Cat Allegedly Embroidered Zip Hoodie `womens-christmas-cat-allegedly-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Running – I Only Run Downhill Embroidered Zip Hoodie `mens-running-i-only-run-downhill-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Welder – I Basically Hot Glue Metal Embroidered Zip Hoodie `mens-welder-i-basically-hot-glue-metal-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Unisex National Park – Running Late. Bison Traffic. Camo Hoodie `unisex-national-park-running-late-bison-traffic-camo-hoodie`
