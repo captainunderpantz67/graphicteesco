@@ -12422,6 +12422,19 @@
     }
    ],
    "measured": "2026-11-06"
+  },
+  "womens-nana-mom-said-no-thats-cute-embroidered-zip-hoodie": {
+   "claimed": [
+    "nana zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "nana zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
