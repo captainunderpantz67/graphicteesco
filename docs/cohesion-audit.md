@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-11-06 14:43 UTC
+# Cohesion audit — 2026-11-06 23:44 UTC
 
-802 live products checked · **0 errors** · 510 warnings · 477 products with findings
+804 live products checked · **0 errors** · 512 warnings · 479 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -1421,6 +1421,12 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Men's Welder – I Basically Hot Glue Metal Embroidered Zip Hoodie `mens-welder-i-basically-hot-glue-metal-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Nana – Mom Said No? That's Cute. Embroidered Zip Hoodie `womens-nana-mom-said-no-thats-cute-embroidered-zip-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Christian – Short Grace. Hot Food. Embroidered Zip Hoodie `mens-christian-short-grace-hot-food-embroidered-zip-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Unisex National Park – Running Late. Bison Traffic. Camo Hoodie `unisex-national-park-running-late-bison-traffic-camo-hoodie`

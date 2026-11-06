@@ -1,6 +1,6 @@
 {
- "at": "2026-11-06T14:43:57.687Z",
- "products": 802,
+ "at": "2026-11-06T23:44:28.558Z",
+ "products": 804,
  "findings": [
   {
    "level": "WARN",
@@ -3443,6 +3443,20 @@
    "level": "WARN",
    "handle": "mens-welder-i-basically-hot-glue-metal-embroidered-zip-hoodie",
    "title": "Men's Welder – I Basically Hot Glue Metal Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-nana-mom-said-no-thats-cute-embroidered-zip-hoodie",
+   "title": "Women's Nana – Mom Said No? That's Cute. Embroidered Zip Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-christian-short-grace-hot-food-embroidered-zip-hoodie",
+   "title": "Men's Christian – Short Grace. Hot Food. Embroidered Zip Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   },
