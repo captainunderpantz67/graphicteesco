@@ -12409,6 +12409,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-welder-i-basically-hot-glue-metal-embroidered-zip-hoodie": {
+   "claimed": [
+    "welder zip up hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "welder zip up hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
