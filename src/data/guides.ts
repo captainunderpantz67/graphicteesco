@@ -3097,6 +3097,80 @@ export const allGuides: Guide[] = [
       { q: 'How long does a Graphic Tees Co. cropped hoodie take to arrive?', a: 'Each one is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. US shipping is free on orders of $45 or more.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-06). Keyword: gym cropped hoodie 480 / KD 28 (RankHero page pull, measured 2026-11-06 via curl). Unowned: not in collections.ts, product-keyword-map.json or guides.ts. Chosen because the white-cropped-hoodie sibling is not possible (no cropped hoodie comes in White, checked live 2026-11-06) and the higher-volume cropped phrases are owned by /hoodies/cropped-hoodies/, /hoodies/cropped-sweatshirts/ or a product. Low volume: director may park.
+    // Facts (fabric, sizes, prices, colors, policies) come from the LIVE Shopify Stories read 2026-11-06 and site.ts. Picks follow the live art text. FAQ questions are not from PAA or GSC (not available unattended).
+    // Picks: Lunges & Lattes, Lift Heavy. Reply Later., Core Issues, Tucked. Judging., Here for the Downhill. Build drops any pick that is not live.
+    // Planned/draft siblings (not live yet): black-cropped-hoodie, cropped-hoodie-outfits.
+    slug: 'gym-cropped-hoodie',
+    keyword: 'gym cropped hoodie',
+    title: 'Gym Cropped Hoodie: 5 Workout-Ready Graphic Picks & How They Fit',
+    description: 'A gym cropped hoodie with original art: lunges, lifting, pilates, barre and cycling designs. $44.99, 6.5 oz fleece, S to 2XL, printed to order.',
+    h1: 'Gym Cropped Hoodie: Graphic Picks for the Lobby, the Studio and the Drive Home',
+    date: '2026-11-06',
+    cluster: 'cropped',
+    draft: true,
+    answer: 'A gym cropped hoodie is a short, light fleece hoodie that stops at the waist, so it sits over high-waisted leggings and a sports bra without riding up. Graphic Tees Co. sells original-art gym cropped hoodies for $44.99: a 6.5 oz fleece, 52% cotton and 48% polyester, in sizes S to 2XL, printed after you order.',
+    picks: [
+      {
+        h2: 'Which gym cropped hoodie fits the weights floor?',
+        body: ['Two designs are built around the gym itself. Both are $44.99 and run S to 2XL.'],
+        items: [
+          { slogan: 'LUNGES & LATTES', tee: 'womens-gym-lunges-and-lattes-cropped-hoodie',
+            text: 'LUNGES & LATTES runs across the top in chunky brown bubble letters, above a bunny in a pink sweatband, pink tank and striped leg warmers, holding a pink dumbbell in one paw and an iced latte with whipped cream in the other. It comes in Storm and Black.' },
+          { slogan: 'LIFT HEAVY. Reply Later.', tee: 'womens-gym-lift-heavy-reply-later-cropped-hoodie',
+            text: 'LIFT HEAVY. runs across the top in bold block capitals and Reply Later. closes the print in a loose cream script, with a lifter in boots pulling a loaded barbell off the floor while a vintage telephone rings on the bench behind her. It comes in Black and Storm.' },
+        ],
+        links: [{ href: '/hoodies/gym-hoodies/', text: 'Gym hoodies' }],
+      },
+      {
+        h2: 'What is a good cropped hoodie for pilates, barre or cycling?',
+        body: ['Studio classes get their own jokes. Each of these is $44.99 and comes in Black and Storm.'],
+        items: [
+          { slogan: 'CORE ISSUES', tee: 'womens-pilates-core-issues-cropped-hoodie',
+            text: 'A 1960s cartoon woman in a striped leotard, leg warmers and a headband lies on a pilates reformer with both legs in the air and a trembling face, a donut on the floor beside the machine, under a pink script I have and big cream CORE ISSUES capitals.' },
+          { slogan: 'TUCKED. JUDGING.', tee: 'womens-barre-tucked-and-judging-cropped-hoodie',
+            text: 'A prim swan in a pink wrap-top and sage leg warmers stands on one pointed foot, one leg lifted in a tuck and one eye sliding sideways, with TUCKED. in cream above it and JUDGING. in pink below.' },
+          { slogan: 'HERE FOR THE DOWNHILL.', tee: 'womens-cycling-here-for-the-downhill-cropped-hoodie',
+            text: 'A smiling woman in a striped knit jersey and short shorts coasts downhill on a vintage steel road bike with her eyes closed and her ponytail streaming behind her, under HERE FOR THE in cream and DOWNHILL. in mustard.' },
+        ],
+      },
+    ],
+    sections: [
+      { h2: 'What is a gym cropped hoodie?',
+        body: ['It is a hooded fleece pullover cut short, with a raw hem at the waist and a dropped shoulder for a relaxed sleeve. At the gym it works as the layer you wear in, take off between sets and pull back on for the walk to the car.',
+          'Graphic Tees Co. cropped hoodies have a lined hood and dyed-to-match drawstrings, and the art is original, made for this shop.'],
+        links: [{ href: '/hoodies/cropped-hoodies/', text: 'All cropped hoodies' }, { href: '/hoodies/graphic-hoodies-for-women/', text: 'Graphic hoodies for women' }] },
+      { h2: 'How should a gym cropped hoodie fit?',
+        body: ['Order your usual size for the cropped look, or go up one for a roomier fit over a sports bra. The cut is boxy with a raw hem and dropped shoulders, and sizes run S to 2XL.',
+          'If the size is off, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and you do not have to mail the first one back.'],
+        links: [{ href: '/guides/hoodie-sizing/', text: 'Hoodie sizing guide' }, { href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'Is a cropped hoodie warm enough for the gym?',
+        body: ['The fabric is 52% Airlume combed and ring-spun cotton and 48% polyester fleece, at 6.5 oz per square yard. That is a light layer: good for a warm-up, the lobby and the walk out, not a winter coat.',
+          'For something heavier, the thick hoodies guide covers the 10 oz options.'],
+        links: [{ href: '/guides/thick-hoodies/', text: 'Thick hoodies' }, { href: '/guides/cozy-hoodies/', text: 'Cozy hoodies' }] },
+      { h2: 'What do you wear under and with a gym cropped hoodie?',
+        body: ['Wear it over a sports bra or a fitted tank with high-waisted leggings, so the hem meets the waistband and nothing rides up when you reach overhead. For the drive home, add joggers or jeans and keep the hood up.',
+          'The hem is meant to sit at the waist, so it works best with bottoms that start there.'],
+        links: [{ href: '/guides/gym-hoodies-for-women/', text: 'Gym hoodies for women' }] },
+      { h2: 'How do you wash a gym cropped hoodie so the print lasts?',
+        body: ['Turn it inside out, wash cold with like colors, then tumble dry low or hang it dry. Skip bleach and fabric softener, and keep the iron off the print.',
+          'The design is printed straight onto the fabric, so cold water and low heat keep the lettering sharp through a lot of sweaty weeks.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'What does a gym cropped hoodie cost, and when does it arrive?',
+        body: ['Every cropped hoodie in this guide is $44.99. US shipping is free on orders of $45 or more, so one hoodie is a dollar short; add any small item to ship free. Each one is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US.',
+          'Buying for a group, like a pilates class or a run club? Order 10 or more items in one cart and 15% comes off at checkout.'],
+        links: [{ href: '/group-shirts/', text: 'Group orders' }] },
+    ],
+    faqs: [
+      { q: 'What is a gym cropped hoodie?', a: 'A short hooded fleece pullover with the hem at the waist. The Graphic Tees Co. gym cropped hoodies are 6.5 oz fleece, 52% cotton and 48% polyester, in sizes S to 2XL, for $44.99.' },
+      { q: 'How should a gym cropped hoodie fit?', a: 'Order your usual size for the cropped look, or one size up for a roomier fit over a sports bra. Graphic Tees Co. also sends one free replacement in a new size within 30 days of delivery.' },
+      { q: 'Is a cropped hoodie warm enough for the gym?', a: 'It is a light layer. The Graphic Tees Co. cropped hoodie is a 6.5 oz fleece, so it suits warm-ups and the walk to the car, not deep winter on its own.' },
+      { q: 'What do you wear with a cropped hoodie to the gym?', a: 'A sports bra or fitted tank with high-waisted leggings, so the hem meets the waistband. The Graphic Tees Co. hoodie hem sits at the waist.' },
+      { q: 'How do I wash a graphic cropped hoodie?', a: 'Turn it inside out, wash cold with like colors, then tumble dry low or hang it. Skip bleach and fabric softener, and do not iron over the print on a Graphic Tees Co. hoodie.' },
+      { q: 'How long does a Graphic Tees Co. cropped hoodie take to arrive?', a: 'Each one is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. US shipping is free on orders of $45 or more.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
