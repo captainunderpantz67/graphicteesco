@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-11-06T13:38Z
+status: REVIEW
 cover: fal-swap
 lane: C
 type: twin
@@ -30,3 +30,4 @@ push: zip
 ## Log
 - 2026-10-21 14:55 UTC director: brief written, READY (zip twin, lane C, push: zip; $0 fal; R11.12 unmeasured-phrase waiver after keyword-gap.py; registry rows claimed).
 - 2026-10-23 15:00 UTC director: stale claim released (BUILDING since 2026-10-21, no lane commit for ~46 h). A Shopify draft for this handle already exists from that session (zip twins 946-954); finish it in place, never a second product. Check it against builder 7m before REVIEW.
+- builder [B] 2026-11-06 13:44 UTC: NEW zip twin built to REVIEW (existing DRAFT gid://shopify/Product/15372795347248 finished in place, 18 variants Black/Navy/Ash x S-3XL at $57.99, no compare-at, Printful sync 483719299, fal $0). Twin check (R6.2): source print (#629 tee, 3337 x 4195) had typeset I BASICALLY and HOT GLUE METAL. lines; art rows 639-3817 kept, both lines cropped and re-set in Bevan (not among the last five lane C faces Cinzel, Graduate, Big Shoulders, Bowlby One). Print 3000 x 2732: 7h headline I BASICALLY 2768 px / punch HOT GLUE over METAL. 2921 px = 105%; 7k type 1243 of 2732 px = 45.5%; 7l subject 1350 of 3000 px = 45% (46% of widest line). Dark file (Black, Navy): cream headline, orange punch; light file for Ash: navy headline, rust punch, cream keyline, no cream fill on Ash. Chest: stitched HOT GLUE wordmark in Bevan, 3.50 x 0.47 in (words, not a helmet, per 7t), white thread on dark, #333366 on Ash; wrist ARC Anton 0.35 in caps. Printful 18/18 verified (scripts/c-verify.py): Black+Navy back 1104200673 / chest 1104200402 / wrist 1104200423; Ash back 1104200616 / chest 1104200469 / wrist 1104200564. Copy corrected (HOT over GLUE to one line, 'to order'). Variants linked to colour front; keyword row under products; audit: only 'not visible on storefront'. Sheet docs/review/952.jpg. Cover: Printful back mockup (cover: fal-swap).
