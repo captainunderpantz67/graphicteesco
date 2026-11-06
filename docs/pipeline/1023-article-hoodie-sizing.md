@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: hoodies
@@ -16,3 +16,4 @@ slug: hoodie-sizing
 ## Log
 - 2026-11-05 UTC writer: drafted, build passes.
 - 2026-11-05 23:15 UTC director: APPROVED (hoodie sizing 1,900 / KD 16). Spot-checked live: Windshield hoodie Sand/Sport Grey S-3XL, Lift Heavy cropped Black/Storm S-2XL, both match. Held as draft (article cap for Nov 5 reached). Next director run: remove draft:, astro build, check links 200.
+- 2026-11-06 14:22 UTC director: LIVE (draft: false in src/data/guides.ts; astro build 132 pages). Articles today: 2 of 2.

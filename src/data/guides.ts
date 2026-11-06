@@ -2896,7 +2896,7 @@ export const allGuides: Guide[] = [
     h1: 'Fleece Lined Hoodie: What the Lining Is, What Ours Has and Who Should Buy One',
     date: '2026-11-05',
     cluster: 'hoodies',
-    draft: true,
+    draft: false,
     answer: 'A fleece lined hoodie has a soft fleece layer on the inside for warmth. The Graphic Tees Co. heavyweight hoodie is a 10 oz cotton and polyester fleece with a soft fleece-lined hood, ribbed cuffs and waistband, and it is $49.99 through November 30, 2026 ($54.99 from December 1). The lining is in the hood; we do not claim a lined body.',
     picks: [
       {
@@ -2963,7 +2963,7 @@ export const allGuides: Guide[] = [
     h1: 'Hoodie Sizing: How a Hoodie Should Fit and What Size to Order',
     date: '2026-11-05',
     cluster: 'hoodies',
-    draft: true,
+    draft: false,
     answer: 'Order your usual size in a hoodie if you want it to fit the way the cut is made: classic and zip-up hoodies fit regular, heavyweight is relaxed, oversized is roomy and cropped hoodies end at the waist. Graphic Tees Co. makes all five, and if the size is wrong, one replacement in a new size is free within 30 days of delivery, with no need to mail the first one back.',
     picks: [
       {
