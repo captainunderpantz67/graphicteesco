@@ -3020,6 +3020,83 @@ export const allGuides: Guide[] = [
       { q: 'What if my hoodie does not fit?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not mail the first one back. US shipping is free on orders of $45 or more.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-06). Keyword: black cropped hoodie 4,400 / KD 14 (RankHero page pull, measured 2026-11-06 via curl). Unowned: not in collections.ts, product-keyword-map.json or guides.ts. "cropped hoodie" stays with /hoodies/cropped-hoodies/; "cropped hoodie women" is mapped to a product, so it is avoided. First article in the cropped cluster.
+    // Facts (fabric, sizes, prices, colors, policies) come from the LIVE Shopify Stories read 2026-11-06 and site.ts. Picks follow the live art text. FAQ questions are not from PAA or GSC (not available unattended).
+    // Picks: Ghost Club, Plot Twist, Oops. Anyway., I Only Golf for the Outfits, Lift Heavy. Reply Later. Build drops any pick that is not live.
+    // Planned siblings (not live yet): cropped-hoodie-outfits, white-cropped-hoodie.
+    slug: 'black-cropped-hoodie',
+    keyword: 'black cropped hoodie',
+    title: 'Black Cropped Hoodie: 5 Graphic Picks, Fit & How to Wear One',
+    description: 'A black cropped hoodie with original art: Ghost Club, Plot Twist, Oops. Anyway., golf and gym designs. $44.99, 6.5 oz fleece, S to 2XL, printed to order.',
+    h1: 'Black Cropped Hoodie: Graphic Picks, How They Fit and How to Wear One',
+    date: '2026-11-06',
+    cluster: 'cropped',
+    draft: true,
+    answer: 'A black cropped hoodie is a short fleece hoodie whose hem sits at the waist, so it layers over high-waisted jeans or leggings. Graphic Tees Co. sells original-art black cropped hoodies for $44.99: a 6.5 oz fleece, 52% cotton and 48% polyester, in sizes S to 2XL, printed after you order.',
+    picks: [
+      {
+        h2: 'Which black cropped hoodie has the most fun art?',
+        body: ['Start with the ones that tell a joke. Both of these come in Black, are $44.99, and run S to 2XL.'],
+        items: [
+          { slogan: 'GHOST CLUB', tee: 'womens-cropped-ghost-club-cropped-hoodie',
+            text: 'GHOST CLUB arches over three groovy ghosts in sunglasses, one mustard with dots, one in orange swirls and one navy with stars, all waving. It comes in Black and Military Green, and the ghosts are friendly and retro, so it works well past October.' },
+          { slogan: 'PLOT TWIST', tee: 'womens-bookish-plot-twist-cropped-hoodie',
+            text: 'PLOT TWIST: arches over a striped armchair with a crocheted throw, a stack of hardbacks with a cocoa mug on top and a tabby asleep on the armrest, with I STAYED IN lettered underneath in 1970s bubble letters. It comes in Black and Storm.' },
+          { slogan: 'OOPS. ANYWAY.', tee: 'womens-cat-oops-anyway-cropped-hoodie',
+            text: 'A smug grey tabby sits on a wooden stool beside a patterned coffee mug mid-fall with a frozen splash, under OOPS. in orange script and ANYWAY. in cream script. It comes in Black and Storm.' },
+        ],
+      },
+      {
+        h2: 'What is a black cropped hoodie for the course or the gym?',
+        body: ['Two designs are built around a hobby. Both are $44.99 in Black or Storm.'],
+        items: [
+          { slogan: 'I ONLY GOLF for the outfits', tee: 'womens-golf-i-only-golf-for-the-outfits-cropped-hoodie',
+            text: 'A 1960s golfer in a wide-brim hat, cat-eye sunglasses and a pleated pinafore skirt stands with a club over her shoulder and a pink golf ball at her feet, with I ONLY GOLF in deep green capitals and for the outfits in hot pink script.' },
+          { slogan: 'LIFT HEAVY. Reply Later.', tee: 'womens-gym-lift-heavy-reply-later-cropped-hoodie',
+            text: 'LIFT HEAVY. runs across the top in bold block capitals and Reply Later. closes the print in a loose cream script, with a lifter in boots pulling a loaded barbell off the floor while a vintage telephone rings on the bench behind her.' },
+        ],
+        links: [{ href: '/hoodies/golf-hoodies/', text: 'Golf hoodies' }, { href: '/hoodies/gym-hoodies/', text: 'Gym hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'What is a black cropped hoodie?',
+        body: ['It is a hooded fleece pullover cut short, with a raw hem that ends around the waist and a dropped shoulder for a relaxed sleeve. Black is the easy color to start with because it goes with everything and makes light lettering stand out.',
+          'Graphic Tees Co. cropped hoodies have a lined hood and dyed-to-match drawstrings, and the art is original, made for this shop.'],
+        links: [{ href: '/hoodies/cropped-hoodies/', text: 'All cropped hoodies' }, { href: '/hoodies/graphic-hoodies-for-women/', text: 'Graphic hoodies for women' }] },
+      { h2: 'How does a black cropped hoodie fit?',
+        body: ['Order your usual size for the cropped look, or go up one for a roomier fit. The cut is cropped with a raw hem and a dropped shoulder, and sizes run S to 2XL.',
+          'If the size is off, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and you do not have to mail the first one back.'],
+        links: [{ href: '/guides/hoodie-sizing/', text: 'Hoodie sizing guide' }, { href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'What is a black cropped hoodie made of, and is it warm?',
+        body: ['The fabric is 52% Airlume combed and ring-spun cotton and 48% polyester fleece, at 6.5 oz per square yard. That makes it a light layer, not a parka: good over a tank or tee, or under a jacket.',
+          'For something heavier, the thick hoodies guide covers the 10 oz options, and the fleece-lined hoodie guide covers the warmest ones.'],
+        links: [{ href: '/guides/thick-hoodies/', text: 'Thick hoodies' }, { href: '/guides/fleece-lined-hoodie/', text: 'Fleece-lined hoodies' }] },
+      { h2: 'How do you wear a black cropped hoodie?',
+        body: ['Wear it with high-waisted jeans, leggings or a pleated skirt so the hem meets the waistband, and add a long tee or tank underneath if you want a layered look. Black ties in with sneakers, boots and denim without any effort.',
+          'The hem is meant to sit at the waist, so it works best with bottoms that start there.'],
+        links: [{ href: '/cropped-graphic-tees/', text: 'Cropped graphic tees' }] },
+      { h2: 'How do you wash a black cropped hoodie so the print lasts?',
+        body: ['Turn it inside out, wash cold with like colors, then tumble dry low or hang it dry. Skip bleach and fabric softener, and keep the iron off the print.',
+          'The design is printed straight onto the fabric, so gentle care keeps the lettering sharp.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'What does a black cropped hoodie cost, and when does it arrive?',
+        body: ['Every cropped hoodie in this guide is $44.99. US shipping is free on orders of $45 or more, so one hoodie qualifies. Each one is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US.',
+          'Buying for a group? Order 10 or more items in one cart and 15% comes off at checkout.'],
+        links: [{ href: '/group-shirts/', text: 'Group orders' }] },
+      { h2: 'Where can you find more hoodie ideas?',
+        body: ['For the gym side, see gym hoodies for women. For a softer everyday layer, see cozy hoodies. For the rest of the shop, browse every graphic hoodie.'],
+        links: [{ href: '/guides/gym-hoodies-for-women/', text: 'Gym hoodies for women' }, { href: '/guides/cozy-hoodies/', text: 'Cozy hoodies' }, { href: '/hoodies/', text: 'Graphic hoodies' }] },
+    ],
+    faqs: [
+      { q: 'What is a black cropped hoodie?', a: 'A hooded fleece pullover cut short, with the hem at the waist. The Graphic Tees Co. black cropped hoodies are 6.5 oz fleece, 52% cotton and 48% polyester, in sizes S to 2XL, for $44.99.' },
+      { q: 'How should a black cropped hoodie fit?', a: 'Order your usual size for the cropped look, or one size up for a roomier fit. Graphic Tees Co. also sends one free replacement in a new size within 30 days of delivery.' },
+      { q: 'Is a black cropped hoodie warm?', a: 'It is a light layer. The Graphic Tees Co. cropped hoodie is a 6.5 oz fleece, so it suits tanks, tees and cool mornings, not deep winter on its own.' },
+      { q: 'What do you wear with a black cropped hoodie?', a: 'High-waisted jeans, leggings or a pleated skirt, so the hem meets the waistband. A long tee or tank underneath adds a layer. The hoodie hem sits at the waist.' },
+      { q: 'How do I wash a graphic cropped hoodie?', a: 'Turn it inside out, wash cold with like colors, then tumble dry low or hang it. Skip bleach and fabric softener, and do not iron over the print on a Graphic Tees Co. hoodie.' },
+      { q: 'How long does a Graphic Tees Co. cropped hoodie take to arrive?', a: 'Each one is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. US shipping is free on orders of $45 or more.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
