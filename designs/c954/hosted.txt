@@ -1,0 +1,6 @@
+black_back https://v3b.fal.media/files/b/0ab1681e/krx43JzFXABaVlR47T_hM_c954_m_black_back.jpg
+navy_back https://v3b.fal.media/files/b/0ab1681e/cowMgfOwGtJ2T7NQWA75P_c954_m_navy_back.jpg
+ash_back https://v3b.fal.media/files/b/0ab1681e/xQybrLWKhCl96GwZkhFJS_c954_m_ash_back.jpg
+black_front https://v3b.fal.media/files/b/0ab1681e/UsTIj3MTnmBjt_J76Gagg_c954_m_black_front.jpg
+navy_front https://v3b.fal.media/files/b/0ab1681e/k22Z0WkdyTwB1cqQvbLH3_c954_m_navy_front.jpg
+ash_front https://v3b.fal.media/files/b/0ab1681e/zbM11_XgK4CK8qcUy6Jlc_c954_m_ash_front.jpg
