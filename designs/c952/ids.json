@@ -1,38 +1,38 @@
 {
  "chest_white": {
-  "id": 1091221742,
-  "url": "https://v3b.fal.media/files/b/0aaf4a27/p-US_Jz-u4gPm5driDB8R_p952ac952_chest_white.png",
+  "id": 1104200402,
+  "url": "https://v3b.fal.media/files/b/0ab16278/-Xv-Amu0s3aFsdIlG3iUA_c952_chest_white.png",
   "w": 1200,
-  "h": 741
+  "h": 182
  },
  "wrist_white": {
-  "id": 1091221828,
-  "url": "https://v3b.fal.media/files/b/0aaf4a28/lhDAL17bRmOm3MsxmBldF_p952ac952_wrist_white.png",
+  "id": 1104200423,
+  "url": "https://v3b.fal.media/files/b/0ab16279/baLu9barGFZLr5_QCiVuL_c952_wrist_white.png",
   "w": 600,
   "h": 144
  },
  "chest_navy": {
-  "id": 1091221927,
-  "url": "https://v3b.fal.media/files/b/0aaf4a29/LCBMcfBbqwlbn1wnegEl4_p952ac952_chest_navy.png",
+  "id": 1104200469,
+  "url": "https://v3b.fal.media/files/b/0ab16279/86Ra4hzWJJrPVV21f9XgF_c952_chest_navy.png",
   "w": 1200,
-  "h": 741
+  "h": 182
  },
  "wrist_navy": {
-  "id": 1091221995,
-  "url": "https://v3b.fal.media/files/b/0aaf4a2a/hbB-kmidJQTAAoLEx8Hyg_p952ac952_wrist_navy.png",
+  "id": 1104200564,
+  "url": "https://v3b.fal.media/files/b/0ab1627a/oAwjDbwS0MXdIw2etpGyZ_c952_wrist_navy.png",
   "w": 600,
   "h": 144
  },
  "back_ash": {
-  "id": 1091222064,
-  "url": "https://v3b.fal.media/files/b/0aaf4a2a/aLMB51Cwr1FmlJqcdPULS_p952aprint-files_952-hotglue-ash.png",
+  "id": 1104200616,
+  "url": "https://v3b.fal.media/files/b/0ab1627a/eAVyNnw_zyR4vrexeqPiX_c952_back_light.png",
   "w": 3000,
-  "h": 2975
+  "h": 2732
  },
  "back_navy": {
-  "id": 1091222174,
-  "url": "https://v3b.fal.media/files/b/0aaf4a2c/sVINK5-3VU8VSZa-jZ9RR_p952aprint-files_952-hotglue-light.png",
+  "id": 1104200673,
+  "url": "https://v3b.fal.media/files/b/0ab1627b/Te2IJjISLRIel940Omua-_c952_back_dark.png",
   "w": 3000,
-  "h": 2975
+  "h": 2732
  }
 }
