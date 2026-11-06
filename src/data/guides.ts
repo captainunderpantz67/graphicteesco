@@ -3037,7 +3037,7 @@ export const allGuides: Guide[] = [
     picks: [
       {
         h2: 'Which black cropped hoodie has the most fun art?',
-        body: ['Start with the ones that tell a joke. Both of these come in Black, are $44.99, and run S to 2XL.'],
+        body: ['Start with the ones that tell a joke. All three come in Black, are $44.99, and run S to 2XL.'],
         items: [
           { slogan: 'GHOST CLUB', tee: 'womens-cropped-ghost-club-cropped-hoodie',
             text: 'GHOST CLUB arches over three groovy ghosts in sunglasses, one mustard with dots, one in orange swirls and one navy with stars, all waving. It comes in Black and Military Green, and the ghosts are friendly and retro, so it works well past October.' },
@@ -3081,7 +3081,7 @@ export const allGuides: Guide[] = [
           'The design is printed straight onto the fabric, so gentle care keeps the lettering sharp.'],
         links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
       { h2: 'What does a black cropped hoodie cost, and when does it arrive?',
-        body: ['Every cropped hoodie in this guide is $44.99. US shipping is free on orders of $45 or more, so one hoodie qualifies. Each one is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US.',
+        body: ['Every cropped hoodie in this guide is $44.99. US shipping is free on orders of $45 or more, so one hoodie is a dollar short; add any small item to ship free. Each one is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US.',
           'Buying for a group? Order 10 or more items in one cart and 15% comes off at checkout.'],
         links: [{ href: '/group-shirts/', text: 'Group orders' }] },
       { h2: 'Where can you find more hoodie ideas?',
