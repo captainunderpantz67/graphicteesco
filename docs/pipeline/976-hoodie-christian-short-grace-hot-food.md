@@ -1,5 +1,6 @@
-status: BUILDING B 21:27
+status: REVIEW
 cover: fal-swap
+shopify: gid://shopify/Product/15412949680432
 lane: C
 type: twin
 id: 976
@@ -27,3 +28,4 @@ push: niche-fill
 ---
 ## Log
 - 2026-10-21 17:05 UTC director: brief written, READY (hoodie twin, lane C, niche fill; $0 fal; registry claimed).
+- 2026-11-07 UTC builder [B]: pullover twin built to REVIEW. DRAFT gid://shopify/Product/15412949680432, 12 variants Sand + Sport Grey x S-3XL at $39.99, no compare-at, category hoodies. Printful sync 490877620 12/12 (one file 1105370507/1105370529, same art as tee #546), fal $0. Colors changed from brief's Navy to Sport Grey: the art has black linework and dark-brown lettering that would sink on Navy (builder-tools lesson); read both mockups at phone size, every word legible. Twin check R6.2: source lines are heavy serif (Fraunces-style), no script, no panel, no typeset-thin line. Dark-brown fill on both lines, no cream fill, so no light file needed. Width: headline and punch both span the full print width (setup 100% / punch 100%); subject about 60% of lockup width; FW 1500 TOP 400. Cover: cover: fal-swap (clean Printful flat front Sand as image 1; handle in retired-covers.json; registry row 1131 unused). Alt text R7.8, variants linked to color photos. 5 FAQs 45-53 words, order-by Dec 8. Keyword funny christian hoodie for men (unmeasured) in map. Audit script crashes in this env (node spawn error), director please run it. Sheet docs/review/976.jpg.

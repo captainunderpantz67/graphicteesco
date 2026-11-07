@@ -12487,6 +12487,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-christian-short-grace-hot-food-hoodie": {
+   "claimed": [
+    "funny christian hoodie for men"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny christian hoodie for men",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
