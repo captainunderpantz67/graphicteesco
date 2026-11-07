@@ -12500,6 +12500,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-golf-fairways-are-a-rumor-hoodie": {
+   "claimed": [
+    "funny golf hoodie for men"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny golf hoodie for men",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
