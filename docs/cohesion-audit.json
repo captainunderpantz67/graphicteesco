@@ -1,6 +1,6 @@
 {
- "at": "2026-11-06T23:44:28.558Z",
- "products": 804,
+ "at": "2026-11-07T14:44:30.675Z",
+ "products": 806,
  "findings": [
   {
    "level": "WARN",
@@ -3585,6 +3585,41 @@
    "title": "Women's Black Friday – I Got Up at 4 AM for a Toaster Tee",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-cat-allegedly-hoodie",
+   "title": "Women's Christmas Cat – Allegedly. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-cat-allegedly-hoodie",
+   "title": "Women's Christmas Cat – Allegedly. Hoodie",
+   "msg": "Non-holiday design (christmas cat) listed in \"Christmas Hoodies\".",
+   "fix": "Only keep it there if the art is genuinely for that holiday."
+  },
+  {
+   "level": "ERROR",
+   "handle": "womens-christmas-cat-allegedly-hoodie",
+   "title": "Women's Christmas Cat – Allegedly. Hoodie",
+   "msg": "Claims \"christmas cat hoodie\", already claimed by womens-christmas-christmas-cats-hoodie (two pages fighting for one keyword).",
+   "fix": "Give one of them a different measured phrase."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-capybara-not-stuck-im-decorated-hoodie",
+   "title": "Women's Christmas Capybara – I'm Not Stuck, I'm Decorated Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-capybara-not-stuck-im-decorated-hoodie",
+   "title": "Women's Christmas Capybara – I'm Not Stuck, I'm Decorated Hoodie",
+   "msg": "Non-holiday design (christmas capybara) listed in \"Christmas Hoodies\".",
+   "fix": "Only keep it there if the art is genuinely for that holiday."
   }
  ]
 }

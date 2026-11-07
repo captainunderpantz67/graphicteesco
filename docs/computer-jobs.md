@@ -16,6 +16,7 @@ Things that need Sam's laptop and Chrome. Sam opens the computer about once a da
 
 ## TikToks to review
 - 2026-10-25 (Telegram 03:03 UTC): TikTok link from Sam with no note (https://www.tiktok.com/t/ZTf9qn9Fp/). Not reviewed yet; nothing asked of us beyond saving it.
+- 2026-11-07 (Telegram 02:47 UTC): TikTok link from Sam with no note (https://www.tiktok.com/t/ZTP884Aeq/). Not reviewed yet; nothing asked of us beyond saving it.
 
 ## Sam's clicks, in order (Claude 2026-10-18)
 1. Merchant Center → Data sources → "Shopify App API" (9,347 stale duplicates from the old sync) → ⋮ → delete. Keep PRODUCTS SOURCE 1/3/4/5 (our 4 feed pages).
