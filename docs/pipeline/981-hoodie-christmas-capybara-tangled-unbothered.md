@@ -3,7 +3,7 @@ cover: fal-swap
 lane: C
 type: twin
 id: 981
-handle: womens-christmas-capybara-tangled-unbothered-hoodie
+handle: womens-christmas-capybara-not-stuck-im-decorated-hoodie
 kd: unmeasured
 push: niche-fill
 ---
@@ -27,3 +27,4 @@ push: niche-fill
 ---
 ## Log
 - 2026-10-21 17:05 UTC director: brief written, READY (hoodie twin, lane C, niche fill; $0 fal; registry claimed).
+- 2026-11-07 [B]: live print is I'M NOT STUCK. I'M DECORATED. (not Tangled. Unbothered.), so title and handle follow the live print. DRAFT gid://shopify/Product/15412302905648 (12 variants, $39.99, no compare-at). Source: tee #586's file.
