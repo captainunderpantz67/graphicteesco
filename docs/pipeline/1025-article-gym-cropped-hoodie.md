@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: cropped
@@ -17,3 +17,4 @@ slug: gym-cropped-hoodie
 ## Log
 - 2026-11-06 UTC writer: drafted, build passes.
 - 2026-11-06 23:30 UTC director: APPROVED (gym cropped hoodie 480 / KD 28; low volume but unowned, band 2, and it completes the cropped cluster's gym angle). Facts and the $45 shipping line are right; picks are from the Sam-approved cropped set. Held as draft (Nov 6 article cap reached). Next director run: publish after #1024, or on the following day if 2 others go first.
+- 2026-11-07 14:17 UTC director: LIVE (draft: false; astro build 134 pages). Nov 7 article slots 2 of 2.

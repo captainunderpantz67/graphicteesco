@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: cropped
@@ -17,3 +17,4 @@ slug: black-cropped-hoodie
 ## Log
 - 2026-11-06 UTC writer: drafted, build passes.
 - 2026-11-06 23:30 UTC director: APPROVED (black cropped hoodie 4,400 / KD 14, unowned). Picks are all from the Sam-approved cropped set (R3.13). Fixed two copy errors: 'free shipping on $45+, so one hoodie qualifies' was false for a $44.99 hoodie (R8.6, now 'a dollar short'), and 'Both of these' introduced three picks. Held as draft: 2 articles already live for the Nov 6 Chicago day (#1022 #1023). Next director run: remove draft:, astro build, check links 200.
+- 2026-11-07 14:17 UTC director: LIVE (draft: false; astro build 134 pages). Nov 7 article slots 2 of 2.

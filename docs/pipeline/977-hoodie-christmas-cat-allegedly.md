@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 cover: fal-swap
 lane: C
 type: twin
@@ -29,3 +29,4 @@ push: niche-fill
 - 2026-10-21 17:05 UTC director: brief written, READY (hoodie twin, lane C, niche fill; $0 fal; registry claimed).
 - 2026-11-07 [B]: Shopify DRAFT created gid://shopify/Product/15412287537456 (12 variants Sand/Navy x S-3XL, $39.99 no compare-at). Next: Printful sync, mockups, cover, REVIEW.
 - 2026-11-07 UTC builder [B]: pullover twin built to REVIEW. DRAFT gid://shopify/Product/15412287537456, 12 variants Sand/Navy x S-3XL at $39.99, no compare-at, Printful sync 490725400 12/12 (front file ids Sand 1105034640, Navy 1105034661; both the live #598 print, unchanged, fal $0). Twin check R6.2: source art read, single heavy slab line ALLEGEDLY. in red with cream keyline, no typeset/script line, no panel; one-word punch so 7h n/a (line spans 100% of print width 3318 px); subject (cat+rug) 100% wide of lockup. FW 1500 TOP 400. Red fill, no cream fill, so no light-blank file needed (7e). Cover: cover: fal-swap (clean Printful flat front Sand, image 1; handle added to retired-covers.json; registry row 1132 not used). Alt text R7.8 set; variants linked to color photos. FAQ 5 questions, 43-50 words each. Audit PASS (2 warn: no lifestyle cover, Christmas list). Keyword christmas cat hoodie (unmeasured) in map. Review sheet docs/review/977.jpg.
+- 2026-11-07 14:17 UTC director: APPROVED and LIVE. Compared with #598 tee and #950 zip of the same art: same approved print, ALLEGEDLY. spans the full width and reads on Sand and Navy at phone size; flat front cover (fal-swap) is honest. Copy fix R8.6: 'printed the day you order it' -> 'printed to order'. ACTIVE + Online Store, Headless, Google & YouTube; cohesion-audit --handle PASS (2 warn: no lifestyle cover; 'non-holiday' flag is wrong, the art is a Christmas ornament scene).

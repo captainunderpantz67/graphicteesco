@@ -3032,7 +3032,7 @@ export const allGuides: Guide[] = [
     h1: 'Black Cropped Hoodie: Graphic Picks, How They Fit and How to Wear One',
     date: '2026-11-06',
     cluster: 'cropped',
-    draft: true,
+    draft: false,
     answer: 'A black cropped hoodie is a short fleece hoodie whose hem sits at the waist, so it layers over high-waisted jeans or leggings. Graphic Tees Co. sells original-art black cropped hoodies for $44.99: a 6.5 oz fleece, 52% cotton and 48% polyester, in sizes S to 2XL, printed after you order.',
     picks: [
       {
@@ -3101,7 +3101,7 @@ export const allGuides: Guide[] = [
     // Writer lane W (2026-11-06). Keyword: gym cropped hoodie 480 / KD 28 (RankHero page pull, measured 2026-11-06 via curl). Unowned: not in collections.ts, product-keyword-map.json or guides.ts. Chosen because the white-cropped-hoodie sibling is not possible (no cropped hoodie comes in White, checked live 2026-11-06) and the higher-volume cropped phrases are owned by /hoodies/cropped-hoodies/, /hoodies/cropped-sweatshirts/ or a product. Low volume: director may park.
     // Facts (fabric, sizes, prices, colors, policies) come from the LIVE Shopify Stories read 2026-11-06 and site.ts. Picks follow the live art text. FAQ questions are not from PAA or GSC (not available unattended).
     // Picks: Lunges & Lattes, Lift Heavy. Reply Later., Core Issues, Tucked. Judging., Here for the Downhill. Build drops any pick that is not live.
-    // Planned/draft siblings (not live yet): black-cropped-hoodie, cropped-hoodie-outfits.
+    // Planned/draft siblings (not live yet): cropped-hoodie-outfits.
     slug: 'gym-cropped-hoodie',
     keyword: 'gym cropped hoodie',
     title: 'Gym Cropped Hoodie: 5 Workout-Ready Graphic Picks & How They Fit',
@@ -3109,7 +3109,7 @@ export const allGuides: Guide[] = [
     h1: 'Gym Cropped Hoodie: Graphic Picks for the Lobby, the Studio and the Drive Home',
     date: '2026-11-06',
     cluster: 'cropped',
-    draft: true,
+    draft: false,
     answer: 'A gym cropped hoodie is a short, light fleece hoodie that stops at the waist, so it sits over high-waisted leggings and a sports bra without riding up. Graphic Tees Co. sells original-art gym cropped hoodies for $44.99: a 6.5 oz fleece, 52% cotton and 48% polyester, in sizes S to 2XL, printed after you order.',
     picks: [
       {
