@@ -6,6 +6,23 @@ Sections are numbered so role cards and review notes can point at them ("fails R
 
 ---
 
+## R0. Current focus: rank what we have (Sam, 2026-11-07, every role reads this first)
+Overrides any older priority order until Dec 25, 2026. Caps, quality rules and the keyword gate still apply.
+
+1. **Where we are (Search Console, data to 2026-11-04):** impressions grow about 50% a week (345 on Nov 4, from 160-240 a day the week before), average position 31.8 and improving, 7 clicks in 7 days, 0 orders, 2 abandoned checkouts. The hard part (Google showing us) is working.
+2. **Clicks only come in the top 10.** Pages on page 3-4 earn almost nothing, so the work that makes money before Christmas is moving pages that already get impressions up to page 1. That beats adding more products.
+3. **Checkout works; the problem is traffic.** Two real people reached checkout. Don't redesign checkout, cart or pricing to chase sales. Spend runs on rank.
+4. **Priority order (director queues in this order, builders take it before new catalog work):**
+   1. Christmas hoodies page rework (docs/backlog/google-push-nov.md item 1). Target: `christmas hoodies` into the top 10.
+   2. Black Friday shirts page + 4-6 products live by Nov 12 (item 2), and the deals-page links once Nov 8 arrives.
+   3. Internal links into /hoodies/christmas-hoodies/ from the 13 listed guides (item 3).
+   4. Hold Your Horses: put the searched line back (item 5).
+   5. Then any page sitting at position 11-30 with real impressions: answer-first copy, more FAQs (all in the FAQPage schema), internal links from related pages, a claimed measured long-tail per product. Pull the list from Search Console (queries + pages, last 7 days), biggest impressions first.
+5. **New products** only when they feed a page in the list above or a seasonal page that is live before its peak. Everything else waits behind item 4.
+6. **Measure weekly:** each run log that touches a target page notes its last known position. Done = top 10 for its main phrase. Report movement (position, impressions, clicks) in the nightly dashboard.
+
+---
+
 ## R1. Owner, authority and safety
 1. **Sam decides direction.** His Telegram messages outrank this file for the run that reads them; lasting instructions get written here in plain words, dated, never as quotes of his raw messages.
 2. **Delegated without asking:** pricing and compare-at (report what changed and why afterwards), copy, SEO, tags, collections, images, site code, shipping settings, simple operational toggles.
