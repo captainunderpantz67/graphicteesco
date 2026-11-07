@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING B 2026-11-07T14:05Z
 cover: fal-swap
 lane: C
 type: twin
