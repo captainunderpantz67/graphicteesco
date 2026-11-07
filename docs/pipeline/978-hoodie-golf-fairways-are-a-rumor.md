@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 cover: fal-swap
 shopify: gid://shopify/Product/15412953088304
 lane: C
@@ -29,3 +29,4 @@ push: niche-fill
 ## Log
 - 2026-10-21 17:05 UTC director: brief written, READY (hoodie twin, lane C, niche fill; $0 fal; registry claimed).
 - 2026-11-07 UTC builder [B]: pullover twin built to REVIEW. DRAFT gid://shopify/Product/15412953088304, 12 variants Sand + Sport Grey x S-3XL at $39.99, no compare-at, hoodies category. Printful sync 490880179 12/12, fal $0. Source: the live half-zip's back file (1088673173, 2963x4263, too tall for a pullover at FW 1500), re-laid out in the same art: headline FAIRWAYS (2963 px) and punch ARE A RUMOR. (2963 px) kept at full width (setup 100% / punch 100%), art scaled to 68% of the lockup width (2025 px, 7l ok), lockup 2963x3238, FW 1500 TOP 400 (about 10.9 in tall). Lettering is the source's heavy slab, unchanged (no new face). Colors changed from brief's Navy to Sport Grey: navy headline and dark linework would sink on Navy; read both mockups at phone size, every word legible. No cream fill, so no light file needed. Cover: cover: fal-swap (clean Printful flat front Sand as image 1; handle in retired-covers.json; registry row 1133 unused). Alt text R7.8, variants linked to color photos. 5 FAQs 46-52 words, order-by Dec 8. Keyword funny golf hoodie for men (unmeasured) in map. Audit script crashes in this env, director please run it. Sheet docs/review/978.jpg.
+- 2026-11-07 23:20 UTC director: APPROVED, LIVE (Nov 7 Chicago day). Same approved art as the live source; Sport Grey instead of Navy is the right call (dark linework); both words lines full width (R3.7.8), every word reads on Sand and Sport Grey at phone size; image 1 printed front (R6.13), flat cover fal-swap. Copy: cut the 'a choice from Graphic Tees Co.' filler in the colors FAQ (R8.3); closing line shortened to 'Printed to order.' (style only). ACTIVE + Online Store, Headless, Google & YouTube, Copilot, Meta; cohesion-audit --handle PASS (1 warn: no lifestyle cover).

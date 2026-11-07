@@ -252,36 +252,7 @@ export const allGuides: Guide[] = [
     ],
   },
   {
-    slug: 'how-to-style-graphic-tees',
-    keyword: 'how to style graphic tees',
-    title: 'How to Style Graphic Tees — Men, Women, Over 40 & Winter',
-    description: 'Let the graphic tee lead and keep the rest simple. Outfit ideas for men and women, for work, for over 40 and for winter layering.',
-    h1: 'How to Style Graphic Tees',
-    date: '2026-10-02',
-    answer: 'Make the graphic tee the focal point and keep everything around it simple: straight-leg jeans and sneakers for every day, a blazer or denim jacket to dress it up, and a front tuck to give it shape.',
-    sections: [
-      { h2: 'How to style graphic tees for women', body: ['Tuck the front into high-rise jeans or a denim skirt and finish with sneakers or boots. A knotted hem works with skirts and shorts.', 'For a cropped look, choose a cropped tee rather than tying a standard one.'],
-        links: [{ href: '/graphic-tees-for-women/', text: 'Graphic tees for women' }, { href: '/cropped-graphic-tees/', text: 'Cropped graphic tees' }] },
-      { h2: 'How to style graphic tees for men', body: ['Pick a tee that fits the shoulders, then wear it with straight or slim jeans or chinos and clean sneakers or boots.', 'An overshirt, flannel or denim jacket left open is the easiest upgrade.'],
-        links: [{ href: '/graphic-tees-for-men/', text: 'Graphic tees for men' }] },
-      { h2: 'How to wear a graphic tee over 40', body: ['Choose a classic fit that skims rather than clings, and a design about something you’re into. A blazer, cardigan or denim jacket makes it polished.', 'Smaller chest prints read dressier than full-front designs.'],
-        links: [{ href: '/graphic-tees-for-women-over-40/', text: 'Graphic tees for women over 40' }] },
-      { h2: 'How to style graphic tees for work', body: ['In casual workplaces, a graphic tee under a blazer with dark jeans or trousers works. Choose a simple design and a tee with no wear.', 'In business-casual offices, save it for casual Fridays unless the dress code says otherwise.'] },
-      { h2: 'How to style graphic tees in winter', body: ['Layer: graphic tee under an open flannel, shacket or zip-up hoodie, or over a thermal long sleeve. The design stays visible and you stay warm.'],
-        links: [{ href: '/hoodies/zip-up-hoodies/', text: 'Zip-up hoodies' }, { href: '/hoodies/', text: 'Graphic hoodies' }] },
-      { h2: 'How to wear an oversized graphic tee', body: ['Balance the volume: pair an oversized tee with bike shorts, leggings or slim jeans, and tuck one side of the front for shape.'],
-        links: [{ href: '/oversized-graphic-tees/', text: 'Oversized graphic tees' }] },
-    ],
-    faqs: [
-      { q: 'How do you style a graphic tee with a skirt?', a: 'Tuck the tee into the waistband or tie a knot at the hip. It works with denim, midi and pleated skirts.' },
-      { q: 'Can you wear a graphic tee with a blazer?', a: 'Yes. A fitted graphic tee under a structured blazer with dark jeans is a classic smart-casual outfit.' },
-      { q: 'How do you style a graphic tee if you’re plus size?', a: 'Choose a fit that skims the body, try a front tuck or a long open layer like a cardigan or kimono, and go with a design you love.' },
-      { q: 'What shoes go with graphic tees?', a: 'Clean sneakers are the default. Boots work with western and country tees; loafers work when you add a blazer.' },
-    ],
-  },
-  {
     // Writer lane W rewrite (2026-11-07) of the live 'how-to-style-graphic-tees' guide, same slug. Rewrite queue item 5 of 6.
-    // Live entry above stays until the director approves; then delete the older entry and set draft: false here.
     // Keyword: graphic tee outfit 590 / KD 27 (RankHero page pull via curl, measured 2026-11-07). "how to style graphic tees" returns no RankHero measurement (2026-11-07), so it stays the slug and supporting phrase only. Unowned: not in collections.ts, product-keyword-map.json or other guides (keyword-bank.json holds only long-tail variants).
     // No picks: a styling how-to, so it links to the audience and fit hubs instead. Styling advice is general, no product claims beyond site.ts policies and collection hubs. FAQ questions are carried from the live entry plus the section questions, not from PAA or GSC (not available unattended).
     // Planned siblings (not live yet): graphic-tee-outfits-for-men, graphic-tee-outfits-for-women.
@@ -292,7 +263,7 @@ export const allGuides: Guide[] = [
     h1: 'Graphic Tee Outfits: How to Style Graphic Tees',
     date: '2026-11-07',
     cluster: 'tees',
-    draft: true,
+    draft: false,
     answer: 'The easiest graphic tee outfit is the tee, straight-leg jeans and clean sneakers. Let the shirt be the loud part and keep everything else plain. Tuck the front in for shape, and throw a denim jacket, flannel or blazer over the top when you want it dressier or warmer.',
     sections: [
       { h2: 'What do you wear with a graphic tee?',

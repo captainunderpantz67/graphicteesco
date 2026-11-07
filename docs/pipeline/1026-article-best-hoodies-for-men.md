@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: APPROVED
 lane: W
 type: article
 cluster: hoodies
@@ -17,3 +17,4 @@ slug: best-hoodies-for-men
 - `npx astro build` passes (134 pages; drafts are not built).
 ## Log
 - 2026-11-07 UTC writer: drafted, build passes. Lock line in docs/intake-log.md skipped (run scope limited to guides.ts and this file).
+- 2026-11-07 23:20 UTC director: APPROVED, held as draft (2 articles already live for the Nov 7 Chicago day). All 5 picks ACTIVE, prices and colors match Shopify, every linked page 200. Next director run removes draft: (after 06:00 UTC Nov 8) and builds.

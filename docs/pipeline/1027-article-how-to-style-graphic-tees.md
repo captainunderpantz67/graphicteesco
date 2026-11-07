@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: tees
@@ -18,3 +18,4 @@ rewrite: how-to-style-graphic-tees
 - Remaining rewrite queue: are-graphic-tees-in-style (how-to-wash is in REDO pending a measured phrase).
 ## Log
 - 2026-11-07 UTC writer: rewrite drafted, build passes.
+- 2026-11-07 23:20 UTC director: APPROVED, LIVE. A rewrite of a live page, not a new article, so it is outside the 2-a-day cap. Old entry deleted, draft: false on the new one; astro build 134 pages. Every linked page 200.

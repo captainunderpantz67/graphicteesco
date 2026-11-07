@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 cover: fal-swap
 shopify: gid://shopify/Product/15412949680432
 lane: C
@@ -29,3 +29,4 @@ push: niche-fill
 ## Log
 - 2026-10-21 17:05 UTC director: brief written, READY (hoodie twin, lane C, niche fill; $0 fal; registry claimed).
 - 2026-11-07 UTC builder [B]: pullover twin built to REVIEW. DRAFT gid://shopify/Product/15412949680432, 12 variants Sand + Sport Grey x S-3XL at $39.99, no compare-at, category hoodies. Printful sync 490877620 12/12 (one file 1105370507/1105370529, same art as tee #546), fal $0. Colors changed from brief's Navy to Sport Grey: the art has black linework and dark-brown lettering that would sink on Navy (builder-tools lesson); read both mockups at phone size, every word legible. Twin check R6.2: source lines are heavy serif (Fraunces-style), no script, no panel, no typeset-thin line. Dark-brown fill on both lines, no cream fill, so no light file needed. Width: headline and punch both span the full print width (setup 100% / punch 100%); subject about 60% of lockup width; FW 1500 TOP 400. Cover: cover: fal-swap (clean Printful flat front Sand as image 1; handle in retired-covers.json; registry row 1131 unused). Alt text R7.8, variants linked to color photos. 5 FAQs 45-53 words, order-by Dec 8. Keyword funny christian hoodie for men (unmeasured) in map. Audit script crashes in this env (node spawn error), director please run it. Sheet docs/review/976.jpg.
+- 2026-11-07 23:20 UTC director: APPROVED, LIVE (Nov 7 Chicago day). Same approved art as the live source; Sport Grey instead of Navy is the right call (dark linework); both words lines full width (R3.7.8), every word reads on Sand and Sport Grey at phone size; image 1 printed front (R6.13), flat cover fal-swap. Copy: cut the 'a choice from Graphic Tees Co.' filler in the colors FAQ (R8.3); closing line shortened to 'Printed to order.' (style only). ACTIVE + Online Store, Headless, Google & YouTube, Copilot, Meta; cohesion-audit --handle PASS (1 warn: no lifestyle cover).

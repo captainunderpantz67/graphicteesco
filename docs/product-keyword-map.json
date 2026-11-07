@@ -8710,19 +8710,6 @@
     "why": "SEO audit 2026-10-18: primary had no clothing intent (topic or gift-guide search); its volume is excluded from forecasts"
    }
   },
-  "womens-christmas-capybara-tangled-unbothered-crewneck-sweatshirt": {
-   "claimed": [
-    "capybara gifts"
-   ],
-   "gaps_measured": [
-    {
-     "phrase": "capybara gifts",
-     "volume": 8100,
-     "kd": 35
-    }
-   ],
-   "measured": "2026-10-18"
-  },
   "unisex-christmas-raccoon-here-for-the-wrapping-paper-graphic-tee": {
    "claimed": [
     "trash panda shirt"
@@ -12451,7 +12438,7 @@
   },
   "womens-christmas-cat-allegedly-hoodie": {
    "claimed": [
-    "christmas cat hoodie"
+    "cat christmas hoodie"
    ],
    "gaps_measured": [
     {
@@ -12460,7 +12447,8 @@
      "kd": 0
     }
    ],
-   "measured": "2026-10-16"
+   "measured": "2026-10-16",
+   "note": "2026-11-07 director: moved off christmas cat hoodie (owned by womens-christmas-christmas-cats-hoodie); cat christmas hoodie 140 / KD 33 RankHero 2026-11-07"
   },
   "womens-christmas-capybara-not-stuck-im-decorated-hoodie": {
    "claimed": [
