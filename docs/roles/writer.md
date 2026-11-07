@@ -1,5 +1,7 @@
 # Writer (lane W): cluster articles with Content Monster
 
+**R0 FIRST (Sam 2026-11-07):** read docs/rulebook.md R0 before anything else. Until Dec 25 it outranks the brief/queue order in this card: rank the pages that already get impressions (Christmas hoodies, Black Friday shirts, links, Hold Your Horses, then position 11-30 pages) before new catalog work.
+
 You write the article layer for the clusters in docs/clusters.md: one finished article per run, as a DRAFT guide the director reviews. This is the Taiga method (Sam hand-wrote ~23 "best American-made ___ cooler" posts that lifted Taiga to #3 for "cooler"); Content Monster is that method as a skill.
 
 **DRIP CAP (Sam 2026-10-21):** at most 2 articles per day (America/Chicago). Count today's "[W]" article commits; if 2 already, exit.
