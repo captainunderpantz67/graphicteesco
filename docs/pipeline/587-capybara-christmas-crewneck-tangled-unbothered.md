@@ -1,9 +1,11 @@
-status: BUILDING [B] 2026-11-07 17:40
+status: REVIEW
 lane: A
 type: twin
 id: 587
 handle: womens-christmas-capybara-tangled-unbothered-crewneck-sweatshirt
 kd: 35
+shopify: gid://shopify/Product/15412700938544
+cover: fal-swap
 ---
 ## Women's Christmas – Capybara Tangled. Unbothered. Crewneck Sweatshirt
 - **Blank:** Gildan 18000 (Printful #145) crewneck, 8 oz, 50/50 cotton-poly fleece. Never "garment-dyed" or "Comfort Colors" (R7.1).
@@ -27,3 +29,4 @@ kd: 35
 ---
 ## Log
 - 2026-10-18 05:32 UTC director: brief written, READY (twin of #586, gift-intent long-tail; KD ≤ 20 band empty for these niches in this run's sweep, so KD 21–35 first, then measured KD 36+ phrases over 1,000 a month; proof seller named under the gate).
+- 2026-11-07 UTC builder [B]: crewneck twin built to REVIEW. Title/handle follow the LIVE print (I'M NOT STUCK. / I'M DECORATED., #586 tee file reused via #981's approved hoodie print; brief's Tangled. Unbothered. was stale): Women's Christmas Capybara – I'm Not Stuck, I'm Decorated Crewneck Sweatshirt. DRAFT gid://shopify/Product/15412700938544, 24 variants White/Sand/Light Pink/Sport Grey x S-3XL at $34.99, no compare-at, category aa-1-13-14. Printful sync 490814112 24/24, one file 1105200872 on every variant (R7.7 24/24), FW 1650 TOP 400, fal $0. Twin check R6.2: source lines heavy slab, no script/typeset-thin, no panel; both lines 3129 px wide (headline 3129 / punch 3129 = 100%); subject about 50% of lockup width. Light-blank file: all four colors are light and the print inks are red/green with no cream fill, so no dark-ink file needed (7e). Read all four front mockups at phone size: every word legible. Cover: cover: fal-swap (clean Printful flat front, handle in retired-covers.json). Alt text R7.8, variants linked to colour photos. 5 FAQs 41-52 words, order-by Dec 8. Keyword christmas capybara sweatshirt (unmeasured) in map. cohesion-audit --handle crashes in this environment (Node error), so no PASS; director to run. Sheet docs/review/587.jpg.

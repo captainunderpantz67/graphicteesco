@@ -1,0 +1,26 @@
+{
+ "5515": {
+  "front:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/f893ce9e849e53593a3f1e8e2e47d340/unisex-crew-neck-sweatshirt-sport-grey-front-6aef6038298bb.jpg",
+  "front:Left": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/25a77642920aed715da41d8cf9c4a44a/unisex-crew-neck-sweatshirt-sport-grey-left-6aef60382a989.jpg",
+  "front:Right": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/e8a00f2e3f44ba9ff09eefbabdcbcf9b/unisex-crew-neck-sweatshirt-sport-grey-right-6aef60382add3.jpg",
+  "back:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/50adc7a7aa3f57fcd7412c2d9e87478f/unisex-crew-neck-sweatshirt-sport-grey-back-6aef60382b125.jpg"
+ },
+ "16877": {
+  "front:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/e76e8e521fea60103892cb6e317e5a25/unisex-crew-neck-sweatshirt-sand-front-6aef60382b3f7.jpg",
+  "front:Left": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/d79e03a8d76b0d63c21cb35819e0d122/unisex-crew-neck-sweatshirt-sand-left-6aef60382ba24.jpg",
+  "front:Right": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/a8920053f786ccdc59c6e2988a6af293/unisex-crew-neck-sweatshirt-sand-right-6aef60382bfb5.jpg",
+  "back:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/d10eea5634b8f5e9e53b2228264573d7/unisex-crew-neck-sweatshirt-sand-back-6aef60382c414.jpg"
+ },
+ "7869": {
+  "front:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/62aa0a8068e34868e83b4bf577c823fd/unisex-crew-neck-sweatshirt-light-pink-front-6aef60382c77b.jpg",
+  "front:Left": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/6ff35b87c949052cbd7a19fc7d347768/unisex-crew-neck-sweatshirt-light-pink-left-6aef60382ce7e.jpg",
+  "front:Right": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/5c300f893072c161367ba5add8394c43/unisex-crew-neck-sweatshirt-light-pink-right-6aef60382d4eb.jpg",
+  "back:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/3472368b365779af798c554a7b50f586/unisex-crew-neck-sweatshirt-light-pink-back-6aef60382d9a6.jpg"
+ },
+ "5427": {
+  "front:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/b237a63bc88611148a09e7a811ab82d4/unisex-crew-neck-sweatshirt-white-front-6aef60382de09.jpg",
+  "front:Left": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/4129866c7c83b190df06f4c6400c1566/unisex-crew-neck-sweatshirt-white-left-6aef60382e4f2.jpg",
+  "front:Right": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/b61844a5b13959535164c1e83c66e8f9/unisex-crew-neck-sweatshirt-white-right-6aef60382ecbf.jpg",
+  "back:main": "https://printful-upload.s3-accelerate.amazonaws.com/tmp/6974135ad2f0c695f036f78384deec6a/unisex-crew-neck-sweatshirt-white-back-6aef60382f335.jpg"
+ }
+}
