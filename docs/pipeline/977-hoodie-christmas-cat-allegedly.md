@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING B 2026-11-07T13:45Z
 cover: fal-swap
 lane: C
 type: twin
@@ -27,3 +27,4 @@ push: niche-fill
 ---
 ## Log
 - 2026-10-21 17:05 UTC director: brief written, READY (hoodie twin, lane C, niche fill; $0 fal; registry claimed).
+- 2026-11-07 [B]: Shopify DRAFT created gid://shopify/Product/15412287537456 (12 variants Sand/Navy x S-3XL, $39.99 no compare-at). Next: Printful sync, mockups, cover, REVIEW.
