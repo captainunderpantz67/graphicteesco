@@ -12448,6 +12448,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-cat-allegedly-hoodie": {
+   "claimed": [
+    "christmas cat hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas cat hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
