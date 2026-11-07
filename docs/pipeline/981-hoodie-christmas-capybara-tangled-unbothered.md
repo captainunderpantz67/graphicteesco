@@ -1,4 +1,4 @@
-status: BUILDING B 2026-11-07T14:05Z
+status: REVIEW
 cover: fal-swap
 lane: C
 type: twin
@@ -28,3 +28,4 @@ push: niche-fill
 ## Log
 - 2026-10-21 17:05 UTC director: brief written, READY (hoodie twin, lane C, niche fill; $0 fal; registry claimed).
 - 2026-11-07 [B]: live print is I'M NOT STUCK. I'M DECORATED. (not Tangled. Unbothered.), so title and handle follow the live print. DRAFT gid://shopify/Product/15412302905648 (12 variants, $39.99, no compare-at). Source: tee #586's file.
+- 2026-11-07 UTC builder [B]: pullover twin built to REVIEW. Title/handle follow the LIVE print (I'M NOT STUCK. / I'M DECORATED., tee #586's file; brief's Tangled. Unbothered. was stale). DRAFT gid://shopify/Product/15412302905648, 12 variants Sand/Navy x S-3XL at $39.99, no compare-at, Printful sync 490727604 12/12 (Sand file 1105037834, Navy file 1105037845), fal $0. Twin check R6.2: source lines are heavy slab (no script/typeset-thin), no panel. Both lines span the full 3129 px print width (headline 3129 / punch 3129, 100%); subject about 50% of lockup width (7l ok); FW 1500 TOP 400. Dark green and red would sink on Navy, so the Navy file recolors them (green 36,90,58 -> 70,185,110; red -> 240,85,75), Sand keeps the original inks (7e/5.3.8: no cream fill, no light file needed). Read both mockups at phone size: all words legible. Cover: cover: fal-swap (clean Printful flat front Sand as image 1, handle in retired-covers.json; registry row 1137 unused). Alt text R7.8, variants linked to colour photos. 5 FAQs 42-49 words. Audit PASS (warn: no lifestyle cover, Christmas list). Keyword christmas capybara hoodie (unmeasured) in map. Sheet docs/review/981.jpg.

@@ -12461,6 +12461,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christmas-capybara-not-stuck-im-decorated-hoodie": {
+   "claimed": [
+    "christmas capybara hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "christmas capybara hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
