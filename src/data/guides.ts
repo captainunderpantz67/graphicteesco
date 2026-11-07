@@ -3171,6 +3171,89 @@ export const allGuides: Guide[] = [
       { q: 'How long does a Graphic Tees Co. cropped hoodie take to arrive?', a: 'Each one is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. US shipping is free on orders of $45 or more.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-07), hoodies cluster. Keyword: best hoodies for men 22,200 / KD 9 (RankHero page pull via curl, measured 2026-11-07). Unowned: not in collections.ts, product-keyword-map.json or guides.ts. "hoodies for guys" stays with the hoodies-for-guys guide; "graphic hoodie men" with /hoodies/graphic-hoodies-for-men/.
+    // Facts (slogans, art, prices, fabric, colors, sizes, policies) from the live Shopify Stories read 2026-11-07 for the five picks (all ACTIVE), plus site.ts. None of the five is in the hoodies-for-guys guide. None is listed in fresh-designs.json: director to confirm grade. FAQ questions are not from PAA or GSC (not available unattended).
+    // Picks: Reel Talk, Pillaging Is a Young Man's Game, Camera Shy (heavyweight), Wake Me Up and Find Out (oversized), Sorry About Your Pawn (embroidered zip). Build drops any pick that is not live.
+    // Planned siblings (not live yet): funny-hoodies-for-men, zip-up-hoodies-for-men.
+    slug: 'best-hoodies-for-men',
+    keyword: 'best hoodies for men',
+    title: 'Best Hoodies for Men: 5 Funny Graphic Picks by Weight and Fit',
+    description: 'The best hoodies for men with original art, sorted by weight and fit: Reel Talk, Camera Shy, Wake Me Up and Find Out and more. From $39.99, printed to order.',
+    h1: 'The Best Hoodies for Men, Sorted by Weight and Fit',
+    date: '2026-11-07',
+    cluster: 'hoodies',
+    draft: true,
+    answer: 'The best hoodie for a man is the one that fits the way he wears it and is the weight he needs. Graphic Tees Co. sorts five original-art picks that way: an 8 oz pullover from $39.99 (Reel Talk or Pillaging Is a Young Man\'s Game), a 10 oz heavyweight for $49.99 (Camera Shy), a roomy oversized for $54.99 (Wake Me Up and Find Out) and an embroidered zip-up for $57.99 (Sorry About Your Pawn). Each is printed after you order it, and US shipping is free on orders of $45 or more.',
+    picks: [
+      {
+        h2: 'What is the best everyday hoodie for a man?',
+        body: ['A classic 8 oz pullover with a pouch pocket does the most days. Both of these are $39.99 and run S to 3XL in Sand and Navy.'],
+        items: [
+          { slogan: 'REEL TALK', tee: 'mens-fishing-reel-talk-hoodie',
+            text: 'A largemouth bass leaps out of the water with its mouth wide open beside a rod and reel, with cattails and lily pads below and REEL TALK across the top in chipped sage and rust letters. It is a 50% cotton, 50% polyester pullover with a double-lined hood and drawcord.' },
+          { slogan: 'PILLAGING IS A YOUNG MAN\'S GAME', tee: 'mens-pirate-pillaging-is-a-young-mans-game-hoodie',
+            text: 'An old pirate captain with a grey beard, an eye patch, a peg leg and a cane leans on his gangplank in a patchwork striped coat while a bored green parrot sits on his shoulder, with PILLAGING IS A YOUNG MAN\'S GAME in bold cream and gold capitals underneath.' },
+        ],
+        links: [{ href: '/hoodies/graphic-hoodies-for-men/', text: 'Graphic hoodies for men' }],
+      },
+      {
+        h2: 'What is the best heavyweight hoodie for a man?',
+        body: ['Camera Shy is the pick for cold mornings. It is a 10 oz fleece pullover with a soft fleece-lined hood, a relaxed fit and ribbed cuffs, $49.99, sizes S to 3XL in Sandstone and Storm Blue.'],
+        items: [
+          { slogan: 'CAMERA SHY', tee: 'mens-outdoors-sasquatch-camera-shy-heavyweight-hoodie',
+            text: 'A sasquatch strides between tall pines and turns to hide his face behind one big hand like a celebrity dodging paparazzi, with CAMERA SHY lettered in vintage 1970s park-sign capitals.' },
+        ],
+        links: [{ href: '/hoodies/heavyweight-hoodies/', text: 'Heavyweight hoodies' }],
+      },
+      {
+        h2: 'What is the best oversized hoodie for a man?',
+        body: ['Wake Me Up and Find Out is cut roomy on purpose. It is a 10 oz fleece with a brushed interior, a double-layered hood with no drawcord and a front pocket, $54.99, sizes S to 3XL in Dust and Navy.'],
+        items: [
+          { slogan: 'WAKE ME UP AND FIND OUT.', tee: 'mens-tiger-apex-napper-oversized-hoodie',
+            text: 'A huge vintage tiger sprawls fast asleep along a jungle branch with one paw dangling, in burnt orange, cream, sage and deep teal, with WAKE ME UP AND stacked above it and FIND OUT. in big capitals below.' },
+        ],
+        links: [{ href: '/hoodies/oversized-hoodies-for-men/', text: 'Oversized hoodies for men' }],
+      },
+      {
+        h2: 'What is the best zip-up hoodie for a man?',
+        body: ['Sorry About Your Pawn is a regular-fit zip-up with a metal zipper, front pouch pockets and an unlined hood, $57.99, sizes S to 3XL. It comes in seven colors: Black, Navy, Forest Green, Dark Chocolate, Dark Heather, Royal and Ash.'],
+        items: [
+          { slogan: 'SORRY ABOUT YOUR PAWN.', tee: 'mens-chess-calculated-mostly-zip-hoodie',
+            text: 'The front is quiet: a knight is embroidered on the left chest and the word MOVE is stitched on the left cuff. On the back, a smug chess knight stands mid-move on a few checkerboard squares with one eyebrow raised and a toppled pawn beside it, under SORRY ABOUT and YOUR PAWN.' },
+        ],
+        links: [{ href: '/hoodies/zip-up-hoodies-for-men/', text: 'Zip-up hoodies for men' }],
+      },
+    ],
+    sections: [
+      { h2: 'How should a hoodie fit a man?',
+        body: ['Order your usual size in the classic pullovers and the zip-up. Go up one if you want room to layer over a flannel or a sweater. The Wake Me Up and Find Out hoodie is already oversized, so keep your size for the slouchy look or size down for a closer fit.',
+          'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.'],
+        links: [{ href: '/guides/hoodie-sizing/', text: 'Hoodie sizing guide' }, { href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'What is the difference between an 8 oz and a 10 oz hoodie?',
+        body: ['Fabric weight is how many ounces a square yard of the fleece weighs. Reel Talk, Pillaging Is a Young Man\'s Game and Sorry About Your Pawn are 8 oz, a midweight for everyday wear. Camera Shy and Wake Me Up and Find Out are 10 oz, which feels heavier and warmer.',
+          'The weight is listed on each product page, so you can compare before you buy.'],
+        links: [{ href: '/guides/thick-hoodies/', text: 'Thick hoodies' }, { href: '/guides/cozy-hoodies/', text: 'Cozy hoodies' }] },
+      { h2: 'What does a good men\'s hoodie cost?',
+        body: ['The five picks run from $39.99 for the Reel Talk and Pillaging pullovers to $57.99 for the embroidered zip-up. US shipping is free on orders of $45 or more, so a $39.99 hoodie needs a small add-on to ship free and every other pick ships free by itself.',
+          'Each is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US.'],
+        links: [{ href: '/hoodies/', text: 'All graphic hoodies' }] },
+      { h2: 'How do you wash a graphic hoodie so the print lasts?',
+        body: ['Turn it inside out, wash cold with similar colors, then tumble dry low or hang it dry. Skip bleach and fabric softener, and keep the iron off the print and the stitching.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'Will a hoodie arrive in time for Christmas?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2 to 5 business days and delivery about 3 to 8 business days, and Christmas is Friday, December 25. Exact estimates show at checkout.'],
+        links: [{ href: '/guides/hoodies-for-guys/', text: 'Hoodies for guys' }, { href: '/guides/funny-hoodies/', text: 'Funny hoodies' }] },
+    ],
+    faqs: [
+      { q: 'What are the best hoodies for men?', a: 'It depends on the weight and fit he wants. Graphic Tees Co. has original-art picks from $39.99: 8 oz pullovers, a 10 oz heavyweight, an oversized fit and an embroidered zip-up, all printed after you order.' },
+      { q: 'What is the warmest men\'s hoodie?', a: 'The Camera Shy heavyweight and the Wake Me Up and Find Out oversized hoodie from Graphic Tees Co. are 10 oz fleece, the heaviest weight in this guide. The other three are 8 oz.' },
+      { q: 'How should a men\'s hoodie fit?', a: 'Order your usual size for a regular fit, or go up one to layer over a shirt. The Graphic Tees Co. Wake Me Up and Find Out hoodie is cut oversized, so it runs roomy at your usual size.' },
+      { q: 'What is a good men\'s hoodie under $50?', a: 'Reel Talk and Pillaging Is a Young Man\'s Game are $39.99 each, and the Camera Shy heavyweight is $49.99. All three are from Graphic Tees Co., in sizes S to 3XL.' },
+      { q: 'What if the hoodie size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+      { q: 'When should I order a hoodie for Christmas?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each hoodie in 2 to 5 business days and delivery takes about 3 to 8 business days in the US.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
