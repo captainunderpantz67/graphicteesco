@@ -1,6 +1,6 @@
 {
- "at": "2026-11-07T14:44:30.675Z",
- "products": 806,
+ "at": "2026-11-07T23:43:52.286Z",
+ "products": 809,
  "findings": [
   {
    "level": "WARN",
@@ -3601,13 +3601,6 @@
    "fix": "Only keep it there if the art is genuinely for that holiday."
   },
   {
-   "level": "ERROR",
-   "handle": "womens-christmas-cat-allegedly-hoodie",
-   "title": "Women's Christmas Cat – Allegedly. Hoodie",
-   "msg": "Claims \"christmas cat hoodie\", already claimed by womens-christmas-christmas-cats-hoodie (two pages fighting for one keyword).",
-   "fix": "Give one of them a different measured phrase."
-  },
-  {
    "level": "WARN",
    "handle": "womens-christmas-capybara-not-stuck-im-decorated-hoodie",
    "title": "Women's Christmas Capybara – I'm Not Stuck, I'm Decorated Hoodie",
@@ -3620,6 +3613,34 @@
    "title": "Women's Christmas Capybara – I'm Not Stuck, I'm Decorated Hoodie",
    "msg": "Non-holiday design (christmas capybara) listed in \"Christmas Hoodies\".",
    "fix": "Only keep it there if the art is genuinely for that holiday."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-capybara-not-stuck-im-decorated-crewneck-sweatshirt",
+   "title": "Women's Christmas Capybara – I'm Not Stuck, I'm Decorated Crewneck Sweatshirt",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christmas-capybara-not-stuck-im-decorated-crewneck-sweatshirt",
+   "title": "Women's Christmas Capybara – I'm Not Stuck, I'm Decorated Crewneck Sweatshirt",
+   "msg": "Non-holiday design (christmas capybara) listed in \"Christmas Sweatshirts\".",
+   "fix": "Only keep it there if the art is genuinely for that holiday."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-christian-short-grace-hot-food-hoodie",
+   "title": "Men's Christian – Short Grace. Hot Food. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-golf-fairways-are-a-rumor-hoodie",
+   "title": "Men's Golf – Fairways Are a Rumor Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   }
  ]
 }

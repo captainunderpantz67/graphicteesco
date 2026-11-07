@@ -1,18 +1,12 @@
-# Cohesion audit — 2026-11-07 14:44 UTC
+# Cohesion audit — 2026-11-07 23:43 UTC
 
-806 live products checked · **1 errors** · 516 warnings · 481 products with findings
+809 live products checked · **0 errors** · 520 warnings · 484 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
 ## Errors by type
-- 1 × Claims , already claimed by womens-christmas-christmas-cats-hoodie .
 
 ## By product (errors first)
-### Women's Christmas Cat – Allegedly. Hoodie `womens-christmas-cat-allegedly-hoodie`
-- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
-- **WARN** Non-holiday design (christmas cat) listed in "Christmas Hoodies". → Only keep it there if the art is genuinely for that holiday.
-- **ERROR** Claims "christmas cat hoodie", already claimed by womens-christmas-christmas-cats-hoodie (two pages fighting for one keyword). → Give one of them a different measured phrase.
-
 ### Unisex Halloween – Midnight Feature Tee `unisex-halloween-midnight-feature-graphic-tee`
 - **WARN** No meta description. → Write one ≤ 155 chars.
 
@@ -1483,6 +1477,20 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Women's Black Friday – I Got Up at 4 AM for a Toaster Tee `womens-black-friday-i-got-up-at-4am-for-a-toaster-graphic-tee`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Women's Christmas Cat – Allegedly. Hoodie `womens-christmas-cat-allegedly-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+- **WARN** Non-holiday design (christmas cat) listed in "Christmas Hoodies". → Only keep it there if the art is genuinely for that holiday.
+
 ### Women's Christmas Capybara – I'm Not Stuck, I'm Decorated Hoodie `womens-christmas-capybara-not-stuck-im-decorated-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 - **WARN** Non-holiday design (christmas capybara) listed in "Christmas Hoodies". → Only keep it there if the art is genuinely for that holiday.
+
+### Women's Christmas Capybara – I'm Not Stuck, I'm Decorated Crewneck Sweatshirt `womens-christmas-capybara-not-stuck-im-decorated-crewneck-sweatshirt`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+- **WARN** Non-holiday design (christmas capybara) listed in "Christmas Sweatshirts". → Only keep it there if the art is genuinely for that holiday.
+
+### Men's Christian – Short Grace. Hot Food. Hoodie `mens-christian-short-grace-hot-food-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Golf – Fairways Are a Rumor Hoodie `mens-golf-fairways-are-a-rumor-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
