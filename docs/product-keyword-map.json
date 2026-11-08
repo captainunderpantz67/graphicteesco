@@ -12527,6 +12527,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-anime-sharing-is-not-my-love-language-hoodie": {
+   "claimed": [
+    "funny anime hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny anime hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
