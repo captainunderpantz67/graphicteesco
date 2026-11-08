@@ -34,6 +34,18 @@ export const site = {
   tagline: 'Original graphic tees for the things you actually do.',
   instagram: '', // TODO(Sam)
   email: 'samuel@pricklypearmarketingco.com', // same contact email as the Shopify policies (Sam, 2026-10-16)
+  // Public business phone + address (Merchant Center "Misrepresentation" fix, 2026-11-08). null = hidden.
+  // Must match Merchant Center business info and the Shopify contact-information policy exactly.
+  phone: null as string | null, // TODO(Sam): Google Voice number
+  address: null as { street: string; city: string; region: string; postal: string; country: string } | null, // TODO(Sam)
+  // Shopify-hosted legal policies (live on the checkout domain). Linked in the footer + contact page.
+  policies: [
+    { label: 'Privacy policy', href: 'https://checkout.graphicteesco.com/policies/privacy-policy' },
+    { label: 'Terms of service', href: 'https://checkout.graphicteesco.com/policies/terms-of-service' },
+    { label: 'Refund policy', href: 'https://checkout.graphicteesco.com/policies/refund-policy' },
+    { label: 'Shipping policy', href: 'https://checkout.graphicteesco.com/policies/shipping-policy' },
+    { label: 'Contact information', href: 'https://checkout.graphicteesco.com/policies/contact-information' },
+  ],
   founders: [] as { name: string; role: string }[], // TODO(Sam): your brother (designer) + you
   // Hero mockup (Printful PNG of a model in a tee). Drop the file in /public and set the path.
   heroImage: {

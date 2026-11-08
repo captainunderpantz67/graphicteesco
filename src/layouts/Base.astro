@@ -165,10 +165,11 @@ const ld = [organization(live), website(), ...schema];
             <li><a href="/black-friday/" class="hover:underline">Black Friday Deals</a></li>
             <li><a href="/shipping-returns/" class="hover:underline">Shipping &amp; returns</a></li>
             <li><a href="/contact/" class="hover:underline">Contact us</a></li>
+            {site.policies.map((p) => <li><a href={p.href} class="hover:underline">{p.label}</a></li>)}
           </ul>
         </div>
       </div>
-      <p class="container-x pb-8 text-xs opacity-60">© {new Date().getFullYear()} {site.name}</p>
+      <p class="container-x pb-8 text-xs opacity-60">© {new Date().getFullYear()} {site.name} · <a href={`mailto:${site.email}`} class="hover:underline">{site.email}</a>{site.phone && <> · <a href={`tel:${site.phone.replace(/[^+\d]/g, '')}`} class="hover:underline">{site.phone}</a></>}{site.address && <> · {site.address.street}, {site.address.city}, {site.address.region} {site.address.postal}</>}</p>
     </footer>
     <CartDrawer />
   </body>

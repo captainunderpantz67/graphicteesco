@@ -20,7 +20,9 @@ export const organization = (live: Set<string>) => ({
   slogan: site.tagline,
   knowsAbout: ['graphic tees', ...(site.facts.hoodiesLive ? ['graphic hoodies'] : []), ...all.filter((c) => !c.seasonal && live.has(c.slug)).map((c) => c.keyword)],
   ...(site.instagram ? { sameAs: [`https://instagram.com/${site.instagram}`] } : {}),
-  ...(site.email ? { contactPoint: { '@type': 'ContactPoint', contactType: 'customer support', email: site.email } } : {}),
+  ...(site.email ? { contactPoint: { '@type': 'ContactPoint', contactType: 'customer support', email: site.email, ...(site.phone ? { telephone: site.phone } : {}) } } : {}),
+  ...(site.phone ? { telephone: site.phone } : {}),
+  ...(site.address ? { address: { '@type': 'PostalAddress', streetAddress: site.address.street, addressLocality: site.address.city, addressRegion: site.address.region, postalCode: site.address.postal, addressCountry: site.address.country } } : {}),
   ...(site.founders.length ? { founder: site.founders.map((f) => ({ '@type': 'Person', name: f.name, jobTitle: f.role })) } : {}),
   // Store-wide policies (Google org-level markup, 2026-10-17): the $45 free-shipping threshold can only be
   // said here, not per offer. Must match /shipping-returns/ and Merchant Center.
