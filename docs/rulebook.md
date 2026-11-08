@@ -13,7 +13,7 @@ Overrides any older priority order until Dec 25, 2026. Caps, quality rules and t
 2. **Clicks only come in the top 10.** Pages on page 3-4 earn almost nothing, so the work that makes money before Christmas is moving pages that already get impressions up to page 1. That beats adding more products.
 3. **Checkout works; the problem is traffic.** Two real people reached checkout. Don't redesign checkout, cart or pricing to chase sales. Spend runs on rank.
 4. **Priority order (director queues in this order, builders take it before new catalog work):**
-   1. Christmas hoodies page rework (docs/backlog/google-push-nov.md item 1). Target: `christmas hoodies` into the top 10.
+   1. Christmas hoodies page rework (docs/backlog/google-push-nov.md item 1). Target: `christmas hoodies` into the top 10. Push 1 is live (position 25 to 20.5 by Nov 6). **Push 2 = docs/pipeline/1030, the first job on 2026-11-08 night (Sam).**
    2. Black Friday shirts page + 4-6 products live by Nov 12 (item 2), and the deals-page links once Nov 8 arrives.
    3. Internal links into /hoodies/christmas-hoodies/ from the 13 listed guides (item 3).
    4. Hold Your Horses: put the searched line back (item 5).
