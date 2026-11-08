@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 cover: fal-swap
 lane: C
 type: twin
@@ -27,3 +27,4 @@ push: niche-fill
 ---
 ## Log
 - 2026-10-21 17:05 UTC director: brief written, READY (hoodie twin, lane C, niche fill; $0 fal; registry claimed).
+- 2026-11-08 17:34 UTC [B]: pullover twin built to REVIEW. DRAFT gid://shopify/Product/15413868986672, 12 variants Sand + Navy x S-3XL at $39.99, no compare-at, category hoodies. Printful sync 491152245 12/12 (Sand file 1106053165 navy/brick-red lines, Navy file 1106053176 cream/mustard lines), fal $0. Twin check R6.2: source lines are heavy slab type, no script, no panel; the tee's cropped text re-set fresh in Bevan-class heavy face and lockup re-laid out to 3000x2821: headline 2999 / punch 2982 px = 100% of width, subject (runner) 2400 of 3000 = 80%, type 630 of 2821 px, FW 1500 TOP 400. Light file: Sand on its own file, headline fill navy 31,40,75, punch brick (cream/mustard on Navy only). Faces of last 5 lane B builds checked (Anton, condensed). Phone-size read: every word legible on both mockups. Cover: fal-swap (clean Printful flat front Sand as image 1; handle in retired-covers.json). Alt text R7.8, variants linked to color photos. 5 FAQs 43-55 words, order-by Dec 8. Keyword funny running hoodie for women (unmeasured) in map. Audit script not run (director please run). Sheet docs/review/980.jpg.
