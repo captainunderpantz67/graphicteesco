@@ -3336,6 +3336,92 @@ export const allGuides: Guide[] = [
       { q: 'When should I order a hoodie for Christmas?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each hoodie in 2 to 5 business days and delivery takes about 3 to 8 business days in the US.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-08), hoodies cluster. Keyword: graphic zip up hoodie 9,900 / KD 11 (RankHero page pull via curl, measured 2026-11-08; competition count not shown). Unowned: not in collections.ts, product-keyword-map.json or guides.ts. "mens zip up hoodie" stays with /hoodies/zip-up-hoodies-for-men/ and "zip up hoodie" with /hoodies/zip-up-hoodies/.
+    // Facts (slogans, art, embroidery, fabric, colors, sizes, prices, policies) from the live Shopify Stories read 2026-11-08 for the five picks (all ACTIVE), plus site.ts and sibling guides. None of the five is in fresh-designs.json: director to confirm grade. FAQ questions are not from PAA or GSC (not available unattended).
+    // Picks: Sisyphus Had Bad Programming, Lone Wolf. Early Bedtime., Medium Rare Is a Dark Art, Not Stopping. Hold It., Catch and Release. Build drops any pick that is not live. Sorry About Your Pawn is already in best-hoodies-for-men.
+    // Planned siblings (not live yet): best-hoodies-for-men is a draft; funny-hoodies-for-men, zip-up-hoodies-for-women.
+    slug: 'graphic-zip-up-hoodie',
+    keyword: 'graphic zip up hoodie',
+    title: 'Graphic Zip Up Hoodie: 5 Embroidered Picks With Big Back Prints',
+    description: 'A graphic zip up hoodie with the joke on the back and a small embroidered mark on the front. Five picks, all $57.99, 8 oz fleece, sizes S to 3XL.',
+    h1: 'Graphic Zip Up Hoodie: The Joke Goes on the Back, the Zipper Stays Clean',
+    date: '2026-11-08',
+    cluster: 'hoodies',
+    draft: true,
+    answer: 'A good graphic zip up hoodie keeps the print off the zipper. Graphic Tees Co. puts the full design across the back and a small embroidered mark on the left chest, with a word stitched on the left cuff. Every zip-up is $57.99, an 8 oz fleece that is 50% cotton and 50% polyester, in sizes S to 3XL, and each one is printed and stitched after you order it.',
+    picks: [
+      {
+        h2: 'What is a good graphic zip up hoodie for a lifter?',
+        body: ['Sisyphus Had Bad Programming. It is the gym joke for anyone who keeps pushing the same boulder and blaming the plan. It comes in Black, Navy and Ash.'],
+        items: [
+          { slogan: 'SISYPHUS HAD BAD PROGRAMMING', tee: 'mens-gym-sisyphus-had-bad-programming-embroidered-zip-hoodie',
+            text: 'A bearded man in a short tunic leans into a huge round stone on a steep hillside above a Greek key border, drawn in terracotta orange and black line like a vase painting, with SISYPHUS HAD above and BAD PROGRAMMING below on the back. On the front, a small figure pushing a boulder is embroidered on the left chest and DELOAD is stitched on the left cuff. It is $57.99.' },
+        ],
+        links: [{ href: '/hoodies/gym-hoodies/', text: 'Gym hoodies' }],
+      },
+      {
+        h2: 'What is a funny zip up hoodie for a guy who goes to bed early?',
+        body: ['Lone Wolf. Early Bedtime. It is for the man who howls at the moon until about 8 p.m. It comes in Black, Navy and Ash.'],
+        items: [
+          { slogan: 'LONE WOLF. EARLY BEDTIME.', tee: 'mens-wolf-lone-wolf-early-bedtime-embroidered-zip-hoodie',
+            text: 'On the back, a grey wolf curls up asleep on a flat rock under a patchwork quilt and a striped nightcap, with a big full moon behind it and LONE WOLF. above and EARLY BEDTIME. below. A wolf face is embroidered on the left chest and 8PM is stitched on the left cuff. It is $57.99.' },
+        ],
+      },
+      {
+        h2: 'What is a good graphic zip up hoodie for a dad who grills?',
+        body: ['Medium Rare Is a Dark Art. It is for the backyard host who guards the tongs. It comes in Black, Navy and Ash.'],
+        items: [
+          { slogan: 'MEDIUM RARE IS A DARK ART.', tee: 'mens-grill-wizard-zip-hoodie',
+            text: 'An old bearded wizard in a starry robe and pointed hat flips burgers on a kettle grill with a little magic steam over the patties, printed large on the back under MEDIUM RARE and IS A DARK ART. A wizard hat over crossed grill tongs is embroidered on the left chest and RARE is stitched on the left cuff. It is $57.99.' },
+        ],
+      },
+      {
+        h2: 'What is a funny zip up hoodie for a dad on a road trip?',
+        body: ['Not Stopping. Hold It. It is the long-drive joke, for the driver who decided the next rest stop is three hours away. It comes in Black, Navy and Ash.'],
+        items: [
+          { slogan: 'NOT STOPPING. HOLD IT.', tee: 'mens-car-not-stopping-hold-it-embroidered-zip-hoodie',
+            text: 'A mustached driver in sunglasses steers a vintage station wagon piled high with suitcases on the roof, in orange, teal and cream, with NOT STOPPING. above and HOLD IT. below on the back. A small station wagon with luggage is embroidered on the left chest and HOLD IT is stitched on the left cuff. It is $57.99.' },
+        ],
+      },
+      {
+        h2: 'What is a good graphic zip up hoodie for an angler?',
+        body: ['Catch and Release. The honest fishing record is "(Mostly Release)." It comes in seven colors: Black, Navy, Forest Green, Dark Chocolate, Dark Heather, Royal and Ash.'],
+        items: [
+          { slogan: 'CATCH AND RELEASE (MOSTLY RELEASE)', tee: 'mens-fishing-catch-and-release-zip-hoodie',
+            text: 'CATCH AND RELEASE runs on two lines above a largemouth bass leaping off the hook, a cattail marsh and a lone rowboat, with (MOSTLY RELEASE) at the bottom, all across the back. A small bass is embroidered on the left chest and REEL is stitched on the left cuff. It is $57.99.' },
+        ],
+        links: [{ href: '/hoodies/zip-up-hoodies-for-men/', text: 'Zip-up hoodies for men' }, { href: '/hoodies/zip-up-hoodies/', text: 'All zip-up hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'Where does the print go on a graphic zip up hoodie?',
+        body: ['On the back. A zipper splits anything printed across the front, so Graphic Tees Co. prints the full design on the back and keeps the front quiet: a small embroidered mark on the left chest and one word stitched on the left cuff.',
+          'That means the joke is the first thing people read when you walk away, and the front looks clean zipped up or open over a tee.'] },
+      { h2: 'What is a zip up hoodie made of, and how warm is it?',
+        body: ['These zip-ups are 8 oz fleece, 50% cotton and 50% polyester, soft inside and outside. They have a metal zipper, front pouch pockets and an unlined hood with a color-matched drawcord, with double-needle stitching at the shoulders, armholes, neck, waistband and cuffs.',
+          'It is a midweight layer: warm for a cool evening or a cold garage, and easy to unzip when you heat up. For something heavier, see our thick hoodies guide.'],
+        links: [{ href: '/guides/thick-hoodies/', text: 'Thick hoodies' }, { href: '/guides/fleece-lined-hoodie/', text: 'Fleece lined hoodies' }] },
+      { h2: 'How should a graphic zip up hoodie fit?',
+        body: ['The fit is regular and unisex, in sizes S to 3XL. Order your usual size, or go up one if you want room for a flannel underneath.',
+          'If it is wrong, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and you do not have to mail the first one back.'],
+        links: [{ href: '/guides/hoodie-sizing/', text: 'Hoodie sizing guide' }, { href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'How do you wash an embroidered zip up hoodie?',
+        body: ['Zip it, turn it inside out and wash cold with similar colors. Tumble dry low or hang it dry. Skip bleach and fabric softener, and keep the iron off the stitching and the print.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'Will a zip up hoodie arrive in time for Christmas?',
+        body: ['Order by about December 8. Each hoodie is printed and stitched after you order it, in 2 to 5 business days, then arrives in about 3 to 8 business days in the US. US shipping is free on orders of $45 or more, so every pick here ships free by itself. Exact estimates show at checkout.'],
+        links: [{ href: '/guides/hoodies-for-guys/', text: 'Hoodies for guys' }, { href: '/hoodies/', text: 'All graphic hoodies' }] },
+    ],
+    faqs: [
+      { q: 'What is a graphic zip up hoodie?', a: 'A zip-front hoodie with a design on it. At Graphic Tees Co. the full design is printed on the back so the zipper never splits it, with a small embroidered mark on the left chest and a word stitched on the left cuff. Each is $57.99.' },
+      { q: 'Is a graphic zip up hoodie warm?', a: 'It is a midweight layer. The Graphic Tees Co. zip-ups are 8 oz fleece, 50% cotton and 50% polyester, with front pouch pockets and a hood. Good for cool evenings and cold garages; for something heavier, choose a 10 oz heavyweight pullover.' },
+      { q: 'How does a zip up hoodie fit?', a: 'Regular and unisex, in sizes S to 3XL. Order your usual size, or go up one to layer over a flannel. Graphic Tees Co. sends one free replacement in a new size within 30 days of delivery.' },
+      { q: 'What colors do the zip up hoodies come in?', a: 'Most Graphic Tees Co. zip-up designs come in Black, Navy and Ash. Catch and Release has seven: Black, Navy, Forest Green, Dark Chocolate, Dark Heather, Royal and Ash. Check each product page for its colors.' },
+      { q: 'How do you wash an embroidered zip up hoodie?', a: 'Zip it, turn it inside out and wash cold with similar colors. Tumble dry low or hang dry. Skip bleach and do not iron over the stitching, which is thread and keeps its shape with gentle care.' },
+      { q: 'When should I order a zip up hoodie for Christmas?', a: 'Order by about December 8. Graphic Tees Co. prints and stitches each hoodie in 2 to 5 business days, then it ships in about 3 to 8 business days in the US. Orders of $45 or more ship free.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
