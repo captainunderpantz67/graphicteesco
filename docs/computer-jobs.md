@@ -48,3 +48,4 @@ Things that need Sam's laptop and Chrome. Sam opens the computer about once a da
 
 ## 2026-10-20 click: give the Claude GitHub app access to TonerChamp/claude-skills
 The writer lane (W) needs to read Content Monster from the private claude-skills repo. Creating the routine failed with "repo_access_denied". Fix: https://github.com/apps/claude → Configure → TonerChamp → Repository access → add `claude-skills` → Save. Then tell Claude to create the lane W routine (body is ready: hourly at :36, Sonnet, sources graphicteesco + TonerChamp/claude-skills).
+- Request indexing for https://graphicteesco.com/hoodies/christmas-hoodies/ after the push-2 deploy (item 1030).

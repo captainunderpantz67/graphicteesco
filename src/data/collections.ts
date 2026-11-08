@@ -22,6 +22,7 @@ export interface Collection {
   description: string;
   h1: string;
   intro: string;
+  orderBy?: string;
   sections: { h2: string; body: string; links?: { href: string; label: string }[] }[];
   faqs: Faq[];
   shopifyHandle: string;
@@ -342,13 +343,14 @@ function niche(
     ],
     shopifyHandle: o.slug,
     twin: o.twin,
+    orderBy: o.orderBy,
   };
 }
 
 function seasonal(
   season: 'halloween' | 'thanksgiving' | 'christmas',
   section: Section,
-  o: { slug: string; keyword: string; volume: number; kd: number; product: string; twin?: string; blurb: string; extra?: Faq[]; intro?: string; sections?: { h2: string; body: string; links?: { href: string; label: string }[] }[]; title?: string; description?: string; name?: string },
+  o: { slug: string; keyword: string; volume: number; kd: number; product: string; twin?: string; blurb: string; extra?: Faq[]; intro?: string; orderBy?: string; sections?: { h2: string; body: string; links?: { href: string; label: string }[] }[]; title?: string; description?: string; name?: string },
 ): Collection {
   const label = titleCase(season);
   return {
@@ -576,7 +578,7 @@ export const tees: Collection[] = [
       { h2: 'The jokes', body: 'Sleigh Queen is for the friend who runs the whole holiday. Define Naughty puts a storybook Santa next to a fair question. Jolly-ish is for anyone who is festive within limits. Snow Problem is the easygoing one, Sleighping In is for the late riser on Christmas morning, Dough Ho Ho is for the cookie baker, Ho Ho Howdy is the cowgirl Christmas, and Light Show Manager is for the dad on the ladder with the extension cords.' },
       { h2: 'Funny, but clean enough for the office party', body: 'Every line here gets a laugh from across the room without making anyone wince: no profanity, no innuendo, no movie or cartoon quotes. They work at the office party, the school concert and Grandma’s table.' },
       { h2: 'Price and fit', body: 'Tees are $24.99 during the holiday sale (regular $29.99), through November 30. Women’s designs come on a relaxed women’s cut in S–3XL; men’s and unisex designs are on a soft lightweight cotton tee up to 5XL. Each product page lists its sizes and colors.' },
-      { h2: 'Matching funny shirts for the family photo', body: 'Give everyone their own joke: Light Show Manager for Dad, Sleigh Queen for Mom, Jolly-ish for the teenager. They share one vintage look, so they still read as a set in the Christmas card photo.' },
+      { h2: 'Matching funny shirts for the family photo', body: 'Give everyone their own joke: Light Show Manager for Dad, Sleigh Queen for Mom, Jolly-ish for the teenager. They share one vintage look, so they still read as a set in the Christmas card photo. If you would rather stay warm, the same jokes come on funny Christmas hoodies, with a hood and a pouch pocket.', links: [{ href: '/hoodies/christmas-hoodies/', label: 'Funny Christmas hoodies' }] },
       { h2: 'When to order', body: 'Each shirt is printed after you order it, which takes 2–5 business days, then arrives in about 3–8 business days. Order by early December for Christmas; delivery estimates show at checkout.' },
     ],
     extra: [
@@ -599,7 +601,7 @@ export const tees: Collection[] = [
       { h2: 'Holiday art, not ugly-sweater gags', body: 'These are vintage-style illustrations — a laughing 1950s Santa, a gingerbread street, a red truck hauling a fresh-cut tree, a snowed-in cabin, "Merry & Bright" lettering — the kind of Christmas graphic tee you can wear all December, not just to one party. Soft cotton tees in relaxed women’s and unisex fits.' },
       { h2: 'Find your Christmas shirt', body: 'Retro Santa is a round-faced, mid-century Santa mid-laugh with a sack of pink-wrapped gifts under bubbly HO HO HO letters: a retro Santa shirt in red, pink and cream that looks lifted from an old greeting card. Gingerbread Lane is the gingerbread shirt, a candy-cane-trimmed house with two waving gingerbread people. Fresh Cut Christmas Trees is the Christmas tree shirt, a red pickup hauling a tree down a snowy road, and Cabin Christmas is a log cabin glowing under a crescent moon. Merry & Bright spells it out in 1970s bubble letters ringed with vintage ornaments, the most retro Christmas shirt of the five.' },
       { h2: 'Where to wear a Christmas shirt', body: 'Cookie swaps, the school holiday program, a Christmas-movie night, the tree farm, a white-elephant exchange or the family photo. Layer one under an open flannel or a cardigan with jeans; tuck the front of a relaxed fit into high-rise denim to dress it up.' },
-      { h2: 'Matching for the family photo', body: 'Every design comes in a full run of sizes, so you can order the same Christmas shirt for the whole family, a group of friends or your coworkers. The unisex designs fit men too.' },
+      { h2: 'Matching for the family photo', body: 'Every design comes in a full run of sizes, so you can order the same Christmas shirt for the whole family, a group of friends or your coworkers. The unisex designs fit men too. Want something warmer? Browse our Christmas hoodies for women and men in the same original holiday art.', links: [{ href: '/hoodies/christmas-hoodies/', label: 'Christmas hoodies for women and men' }] },
       { h2: 'When to order', body: 'Each shirt is printed after you order it, then shipped. Order early in December so it arrives before your plans — delivery estimates show at checkout.' },
     ],
     faqs: [
@@ -624,7 +626,7 @@ export const tees: Collection[] = [
       { h2: 'The funny ones', body: "Define Naughty puts a storybook Santa with a quill and one raised eyebrow over a fair question. Light Show Manager is for the man on the ladder with the extension cords, a job with no raise. Technically a Sweater is a printed fair-isle knit for the guy who found a loophole in the ugly-sweater dress code, and Bah Humbug is for the polite grump who still shows up on time with a casserole." },
       { h2: 'The outdoors ones', body: "Deer Camp Christmas is a snowed-in hunting cabin with a wreath on the door. Christmas on the Lake is an angler in a red plaid wool jacket in a wooden rowboat. Upland Christmas Pheasant is a rooster bursting out of a snowy cornfield, North Woods Moose stands by a frozen lake, Mountain Christmas Bear walks through deep snow, and Christmas Ski Lodge is a 1960s skier carving a turn. Fresh Cut Christmas Trees, Christmas Tree Farm, Cabin Christmas and Vintage Santa round it out." },
       { h2: 'Who buys them', body: "Mostly the people around him: a wife picking his shirt for the family photo, kids buying Dad the Light Show Manager tee, a hunting buddy grabbing Deer Camp Christmas for the cabin weekend. Every line is family-table clean, so it works at the office party and at his mother's house." },
-      { h2: 'Fit and fabric', body: "Every tee here is a soft, lightweight 4.2 oz cotton classic fit, cut for men and roomy enough to layer over a thermal. The unisex designs fit women too, so a couple can match. The same art also comes on crewneck sweatshirts in our men's Christmas sweaters page." },
+      { h2: 'Fit and fabric', body: "Every tee here is a soft, lightweight 4.2 oz cotton classic fit, cut for men and roomy enough to layer over a thermal. The unisex designs fit women too, so a couple can match. The same art also comes on crewneck sweatshirts in our men's Christmas sweaters page. For colder nights the men's Christmas hoodies carry the same deadpan lines on a fleece pullover or zip-up.", links: [{ href: '/hoodies/christmas-hoodies/', label: 'Christmas hoodies for men' }] },
       { h2: 'When to order', body: "Each shirt is printed after you order it, which takes 2–5 business days, then arrives in about 3–8 business days. Order by early December for Christmas; delivery estimates show at checkout, and US shipping is free over $45." },
     ],
     faqs: [
@@ -681,7 +683,7 @@ export const tees: Collection[] = [
       { h2: 'Unisex and women’s Christmas shirts', body: 'The tree-truck and cabin designs are printed on unisex classic tees in sizes up to 5XL, so they fit men and women. Retro Santa, Gingerbread Lane and Merry & Bright come on a relaxed women’s cut in S–3XL; all five also live on our Christmas shirts for women page.' },
       { h2: 'Where to wear them', body: 'A cabin weekend, a holiday open house, decorating the tree, a neighborhood lights walk, the office party or Christmas morning itself. On a tree-farm trip the red-truck design is the obvious pick; for a quiet night in, the cabin. Layer one under a flannel, or over a long-sleeve thermal when it’s cold out.' },
       { h2: 'Not an ugly sweater', body: 'These are soft cotton tees with illustrated art, not novelty knits or light-up gags. They’re meant to be worn all December and pulled out again next year. Lightweight cotton also means you won’t overheat in a crowded living room with the fire going.' },
-      { h2: 'Matching Christmas shirts', body: 'Pick one design in several sizes for the family photo, or let everyone choose their own scene and let the shared vintage style tie them together. The unisex designs make it easy for couples to match.' },
+      { h2: 'Matching Christmas shirts', body: 'Pick one design in several sizes for the family photo, or let everyone choose their own scene and let the shared vintage style tie them together. The unisex designs make it easy for couples to match. The same family look works in fleece too: see the funny Christmas hoodies.', links: [{ href: '/hoodies/christmas-hoodies/', label: 'Funny Christmas hoodies' }] },
       { h2: 'Order before December gets busy', body: 'Each shirt is printed after you order it and then shipped, so order early in the season. Delivery estimates show at checkout, and new holiday designs join the collection as they’re designed.' },
     ] }),
   // Holiday crewnecks (Sam, 2026-10-13; KD exception approved): Gildan 18000 crewneck sweatshirts, $39.99. RankHero 2026-10-13:
@@ -694,7 +696,7 @@ export const tees: Collection[] = [
       { h2: 'Two kinds of Christmas art', body: 'One side of the collection is vintage illustration: a 1950s-style Santa face with rosy cheeks and a cracked, worn finish over MERRY CHRISTMAS in faded red type. The other is quiet line art: a row of five thin evergreen trees under a star and a few snowflakes, with Merry & Bright in a small script line. Both sit straight on the fabric with no badge or box behind them.' },
       { h2: 'What the crewneck is like', body: 'Each one is printed on a classic-fit crewneck sweatshirt: 50% cotton, 50% polyester fleece with air-jet spun yarn, pre-shrunk, with a ribbed collar, cuffs and hem. It is a sweatshirt, not a hoodie, so it layers under a coat or over a collared shirt.' },
       { h2: 'Where to wear a Christmas crewneck', body: 'The tree farm, a cold walk to see the neighborhood lights, a cabin weekend, the school concert or Christmas morning on the couch. The light Santa design reads well in the family photo; the tree line art on forest green or maroon is the one to wear all winter.' },
-      { h2: 'Matching sweatshirts', body: 'Every design comes in a wide size run, so a family or a group of friends can order the same Christmas crewneck. The same art also comes on tees if someone at the table runs warm.' },
+      { h2: 'Matching sweatshirts', body: 'Every design comes in a wide size run, so a family or a group of friends can order the same Christmas crewneck. The same art also comes on tees if someone at the table runs warm. If you want a hood and a pouch pocket instead of a crewneck, browse the Christmas hoodies.', links: [{ href: '/hoodies/christmas-hoodies/', label: 'Christmas hoodies' }] },
       { h2: 'When to order', body: 'Each sweatshirt is printed after you order it, then shipped. Order early in December so it arrives before your plans; delivery estimates show at checkout.' },
     ],
     extra: [
@@ -1429,7 +1431,7 @@ export const hoodies: Collection[] = [
   // Google push item 1 (Sam 2026-11-01, docs/backlog/google-push-nov.md): primary -> 'christmas hoodies' 9,900 / KD 58 (RankHero 2026-11-01;
   // Search Console avg spot 25, 73 impressions in 28 days); 'christmas hoodie' 9,900 / KD 52 stays as the second phrase in the copy.
   // Answer-first intro, sections with live product links, 8 FAQs (all reach the FAQPage schema: none gated on an unset fact).
-  seasonal('christmas', 'hoodies', { slug: 'christmas-hoodies', keyword: 'christmas hoodies', volume: 9900, kd: 58, product: 'Christmas hoodies', twin: 'christmas-shirts', blurb: 'holiday designs warm enough for the tree lot and the family photo.',
+  seasonal('christmas', 'hoodies', { slug: 'christmas-hoodies', orderBy: 'Order your Christmas hoodie by Friday, December 4, 2026 to leave a margin for Christmas delivery in the US; December 8 is the last realistic day.', keyword: 'christmas hoodies', volume: 9900, kd: 58, product: 'Christmas hoodies', twin: 'christmas-shirts', blurb: 'holiday designs warm enough for the tree lot and the family photo.',
     title: 'Christmas Hoodies: Funny Holiday Hoodies for Men & Women',
     description: 'Christmas hoodies with original funny art, printed to order for men, women and families. Pullovers from $39.99, zip-ups too. Free US shipping on $45+.',
     intro: 'Our Christmas hoodies are original holiday designs with a joke you can wear to the office party, the tree lot and the family photo. Pick a pullover from $39.99, an oversized fit or an embroidered zip-up; each one is printed after you order it and ships free in the US on orders over $45.',
@@ -1449,7 +1451,7 @@ export const hoodies: Collection[] = [
     ],
     extra: [
       { q: 'Do you have matching Christmas hoodies for family?', a: 'Yes. Any design can be ordered in several sizes so the whole family matches.' },
-      { q: 'When should I order a Christmas hoodie to have it by Christmas?', a: 'Order by about December 7 for US delivery before Christmas. Each Christmas hoodie is printed in 2–5 business days after you order, then spends about 3–8 business days in transit. Embroidered zip-ups can take a little longer, so order those first.' },
+      { q: 'When should I order a Christmas hoodie to have it by Christmas?', a: 'Order by Friday, December 4, 2026 to leave a margin for US delivery before Christmas (December 8 is the last realistic day). Each Christmas hoodie is printed in 2–5 business days after you order, then spends about 3–8 business days in transit. Embroidered zip-ups can take a little longer, so order those first.' },
       { q: 'Is a Christmas sweatshirt or a Christmas hoodie better?', a: 'A Christmas hoodie is warmer and more casual, with a hood and a front pouch pocket, so it suits the tree lot, the game and the drive to the in-laws. A crewneck sweatshirt sits flatter and dresses up a little for the office party. We make both, often with the same art.' },
       { q: 'What are your Christmas hoodies made of?', a: 'Our pullover Christmas hoodies are Gildan 18500: 8 oz cotton-polyester fleece with a double-lined hood and a front pouch pocket. Zip-ups are Gildan 18600 with a full front zipper, and oversized hoodies are Bella+Canvas 4719 fleece with a roomier cut.' },
       { q: 'How do Christmas hoodies fit?', a: 'Our pullover and zip-up Christmas hoodies are a classic unisex fit: true to size for most men, and a little relaxed for women. Size up one for a slouchy look. Oversized hoodies are cut roomy already, so take your usual size. Each product page has a size chart.' },

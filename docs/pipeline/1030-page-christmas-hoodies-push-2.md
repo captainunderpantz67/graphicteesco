@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-11-08 21:35
+status: READY
 lane: A
 type: redo
 id: 1030
@@ -21,3 +21,4 @@ Done when: `astro build` passes, the audit has 0 errors, the log notes the new l
 ---
 ## Log
 - 2026-11-08 UTC Claude (Sam's session): queued as tonight's first job, at Sam's request.
+- 2026-11-08 21:40 UTC [B]: DONE steps 1 and 3 (order-by line above the grid, FAQ date aligned to Dec 4 margin / Dec 8 last day; body link to /hoodies/christmas-hoodies/ added in christmas-shirts, funny-christmas-shirts, -for-women, -for-men, christmas-sweatshirts). Build passes (verified in a scratch copy: repo node_modules is a symlink to a Mac path). NOT done: step 2 (44 product descriptions + first-image alt via Shopify), step 4 (needs Search Console access, none in this run), step 5 (title year test), step 6 (computer-jobs entry). Left READY for the next run.

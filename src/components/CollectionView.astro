@@ -98,6 +98,7 @@ const noindex = (shopifyConnected && products.length < MIN_INDEX) || HOLD.has(c.
     <p class="eyebrow text-[var(--color-rust)]">{c.seasonal ? 'Seasonal drop' : c.section === 'hoodies' ? 'Graphic hoodies' : 'Graphic tees'}</p>
     <h1 class="display text-5xl md:text-7xl mt-2 text-[var(--color-navy)]">{c.h1}<span class="block mt-3 h-1.5 w-20 rounded-full bg-[var(--color-rust)]"></span></h1>
     <p class="mt-4 max-w-2xl text-lg text-[var(--color-ink-2)]">{c.intro}</p>
+    {c.orderBy && <p class="mt-3 max-w-2xl font-semibold text-[var(--color-navy)]">{c.orderBy}</p>}
     {twin && <a href={pathFor(twin)} class="inline-block mt-4 font-semibold underline decoration-[var(--color-rust)] underline-offset-4">Also on a {twin.section === 'hoodies' ? 'hoodie' : 'tee'} → {twin.h1}</a>}
   </section>
 

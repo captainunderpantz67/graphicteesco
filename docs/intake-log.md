@@ -1,4 +1,4 @@
-RUNNING lane B since 2026-11-08 21:35 UTC
+2026-11-08 21:41 UTC — [B] Builder run end: 0 new products. #1030 partial (order-by line + sibling-page links to the Christmas hoodies page, build OK); product-description links, Search Console queries and title test remain. New products today: 3 of 6. Lock released.
 RUNNING director since 2026-11-08 14:13 UTC
 2026-11-08 UTC — [B] built, REVIEW #982 Unisex Anime – Sharing Is Not My Love Language Hoodie (pullover twin of #434 art, DRAFT synced 12/12 Sand+Navy, fal $0, FW 1500 TOP 400, headline 3010 / punch 2997 px = 100% of width, subject 73% of lockup, dark-ink Sand file, cover fal-swap flat front; audit script not run in this env, director please run). New products today (Chicago): 3 of 6.
 2026-11-08 UTC — [B] built, REVIEW #980 Women's Running – Here for the Free Banana. Hoodie (pullover twin of tee #600, DRAFT synced 12/12 Sand+Navy, fal $0, FW 1500 TOP 400, headline 2999 / punch 2982 px = 100% of width, subject 80% of lockup, dark-ink Sand file, cover fal-swap flat front; audit script not run in this env, director please run). New products today (Chicago): 2 of 6.
