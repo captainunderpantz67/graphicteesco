@@ -1,6 +1,6 @@
-status: READY
+status: REVIEW
 cover: fal-swap
-lane: C
+lane: B
 type: twin
 id: 979
 handle: unisex-pitbull-scary-dog-afraid-of-the-vacuum-hoodie
@@ -27,3 +27,4 @@ push: niche-fill
 ---
 ## Log
 - 2026-10-21 17:05 UTC director: brief written, READY (hoodie twin, lane C, niche fill; $0 fal; registry claimed).
+- 2026-11-08 UTC builder [B]: pullover twin built to REVIEW. DRAFT gid://shopify/Product/15413736669488, 12 variants Sand + Navy x S-3XL at $39.99, no compare-at, category hoodies. Printful sync 491032399 12/12 (Sand file 1105883482 dark-brown lines, Navy file 1105883495 cream/mustard lines), fal $0. Twin check R6.2: source lines are heavy sans, no script, no panel; lockup re-laid out from the tee art (2521x3608, too tall for the pouch) to 3000x3269: headline 3000 / punch 3000 px = 100% of width, subject (armchair) 2100 of 3000 = 70%, FW 1500 TOP 400, face Anton-style condensed from the tee. Light file: Sand on file 1105883482, headline fill dark brown 58,34,18 (cream on Navy only). Phone-size read: every word legible on both mockups. Cover: cover: fal-swap (clean Printful flat front Sand as image 1; handle in retired-covers.json). Alt text R7.8, variants linked to their color photos. 5 FAQs 46-53 words, order-by Dec 8. Keyword pit bull lover hoodie (unmeasured) in map. Audit script not run in this env (director please run cohesion-audit --handle). Sheet docs/review/979.jpg.

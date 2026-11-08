@@ -12501,6 +12501,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "unisex-pitbull-scary-dog-afraid-of-the-vacuum-hoodie": {
+   "claimed": [
+    "pit bull lover hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "pit bull lover hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
