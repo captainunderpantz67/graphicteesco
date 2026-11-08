@@ -330,6 +330,61 @@ export const allGuides: Guide[] = [
     ],
   },
   {
+    // Writer lane W rewrite (2026-11-08) of the live 'are-graphic-tees-in-style' guide, same slug. Rewrite queue item 6 of 6.
+    // Keyword: graphic tee style 170 / KD 32 (RankHero page pull via curl, measured 2026-11-08, global volume). Unowned: not in collections.ts, product-keyword-map.json or other guides. The question phrases ("are graphic tees in style", "are graphic tees business casual") return no RankHero measurement (2026-11-08), so they stay as the slug, H2s and FAQ wording only. "graphic tees" 301,000 / KD 52 (measured 2026-11-08, global) is carried from the live entry as context, not targeted.
+    // No picks: a trend explainer, so it links to the style hubs. Trend statements are general fashion description with no stats, tests or "peaked in July" claim (the live entry's trend-peak claim could not be re-checked unattended, so it is dropped). Policies from site.ts. FAQ questions are carried from the live entry plus the section questions, not from PAA or GSC (not available unattended).
+    // Planned siblings (not live yet): graphic-tee-outfits-for-men, graphic-tee-outfits-for-women.
+    slug: 'are-graphic-tees-in-style',
+    keyword: 'graphic tee style',
+    title: 'Graphic Tee Style: Are Graphic Tees Still In? What to Wear',
+    description: 'Are graphic tees still in style? Yes. Which graphic tee styles are current (vintage, oversized, cropped, western, Y2K), and whether they work for work or over 40.',
+    h1: 'Are Graphic Tees Still in Style? What’s In Right Now',
+    date: '2026-11-08',
+    cluster: 'tees',
+    draft: true,
+    answer: 'Yes, graphic tees are still in style. People search for “graphic tees” about 301,000 times a month worldwide, and the styles that look current are vintage-faded prints, oversized and cropped fits, western designs and Y2K lettering. Pick a fit you like and art about something you actually care about, and the tee never looks dated.',
+    sections: [
+      { h2: 'Are graphic tees still in style?',
+        body: ['Yes. A graphic tee is a staple more than a trend, which is why it keeps coming back. The shirt stays the same, and what changes from year to year is the fit and the kind of art on the front.',
+          'The version that looks dated is the one that fits badly or has a joke nobody gets. A tee that fits and says something you mean looks current in any year.'],
+        links: [{ href: '/graphic-tees-for-men/', text: 'Graphic tees for men' }, { href: '/graphic-tees-for-women/', text: 'Graphic tees for women' }] },
+      { h2: 'What graphic tee styles are in right now?',
+        body: ['Five looks are everywhere: vintage-faded prints with retro type, oversized fits, cropped fits for women, western and country designs, and Y2K bubble lettering. They are all easy to spot, and they all work with plain jeans.',
+          'Beyond the look, designs about real interests keep selling: fishing, hunting, faith, the gym, horses, dogs. A tee that says what you are into beats a tee that only looks trendy.'],
+        links: [{ href: '/vintage-graphic-tees/', text: 'Vintage graphic tees' }, { href: '/oversized-graphic-tees/', text: 'Oversized graphic tees' }, { href: '/cropped-graphic-tees/', text: 'Cropped graphic tees' }, { href: '/western-graphic-tees/', text: 'Western graphic tees' }] },
+      { h2: 'Are oversized graphic tees still in style?',
+        body: ['Yes. A loose, boxy tee with a dropped shoulder is the easiest way to wear one right now. It reads relaxed, not sloppy, when the hem stops around the hip and the sleeves are not too long.',
+          'Keep the bottom half slim, with straight jeans, leggings or bike shorts, so the outfit has a shape.'],
+        links: [{ href: '/oversized-graphic-tees/', text: 'Oversized graphic tees' }] },
+      { h2: 'Are cropped graphic tees still in style?',
+        body: ['Yes, for women especially. A cropped tee with high-rise jeans or a skirt is a fit built to be short, so it sits right where a regular tee tied up in a knot never quite does.'],
+        links: [{ href: '/cropped-graphic-tees/', text: 'Cropped graphic tees' }] },
+      { h2: 'Are graphic tees Y2K or 90s?',
+        body: ['Both eras leaned hard on the graphic tee, and both are back. Y2K brings bubble letters and fitted or cropped tees. The 90s bring oversized fits and faded, vintage-band-style prints.',
+          'You can wear either with the same plain jeans and sneakers, and let the shirt do the talking.'],
+        links: [{ href: '/y2k-graphic-tees/', text: 'Y2K graphic tees' }, { href: '/vintage-graphic-tees/', text: 'Vintage graphic tees' }] },
+      { h2: 'Are graphic tees business casual?',
+        body: ['Usually not on their own. Under a blazer with dark jeans or tailored trousers, a simple, crisp graphic tee can work in a relaxed office. In a business-casual office, save it for casual Friday unless the dress code says otherwise.',
+          'Check your own dress code first. A small chest design or a quiet print dresses up easier than a full-front joke.'] },
+      { h2: 'Are graphic tees childish?',
+        body: ['Not by themselves. Fit and design decide it: a tee that fits well, with art about something you genuinely like, reads grown-up at any age.',
+          'A jacket, flannel or blazer over the top does the rest. If you want fit and styling ideas for over 40, we have a hub for it.'],
+        links: [{ href: '/graphic-tees-for-women-over-40/', text: 'Graphic tees for women over 40' }] },
+      { h2: 'How do you make a graphic tee look current?',
+        body: ['Fit first, then keep everything else plain. Straight-leg jeans, clean sneakers or boots, and one color from the print repeated in a belt, cap or jacket. That is all it takes.',
+          'Graphic Tees Co. prints each tee after you order it, and if the size is wrong we send one free replacement in a new size within 30 days of delivery, with no need to mail the first one back.'],
+        links: [{ href: '/guides/how-to-style-graphic-tees/', text: 'How to style graphic tees' }, { href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }, { href: '/shipping-returns/', text: 'Shipping and returns' }] },
+    ],
+    faqs: [
+      { q: 'Are graphic tees out of style?', a: 'No. Graphic tees are a wardrobe staple, searched about 301,000 times a month worldwide. What goes out of style is a bad fit or a joke that is trying too hard, not the graphic tee itself.' },
+      { q: 'Are graphic tees still in style for women?', a: 'Yes. Cropped, oversized, western and vintage-inspired graphic tees are all current for women. Graphic Tees Co. has a collection for each of those styles.' },
+      { q: 'Are graphic tees in style for men?', a: 'Yes. Men are wearing vintage-faded prints, oversized fits and designs about fishing, hunting, the gym and humor. Graphic Tees Co. prints them to order, and plain jeans and boots or sneakers keep the outfit simple.' },
+      { q: 'Are graphic tees business casual?', a: 'Usually not alone. A simple, crisp graphic tee under a blazer with dark jeans or trousers works in a relaxed office. In a stricter dress code, save it for casual Friday.' },
+      { q: 'Are graphic tees immature?', a: 'Not when they fit well and the design reflects a real interest. Pairing the tee with a jacket, flannel or blazer makes it look more polished at any age.' },
+      { q: 'What if my Graphic Tees Co. tee does not fit?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+    ],
+  },
+  {
     // Writer lane W rewrite (2026-10-21) of the live 'best-funny-thanksgiving-shirts' guide, same slug. Rewrite queue item 1 of 6.
     // Approved by the director 2026-10-21; replaced the 2026-10-19 entry.
     // Keyword: best funny thanksgiving shirts. The owner of "funny thanksgiving shirt" 4,400/48 is the /funny-thanksgiving-shirts/ collection, so this article targets the "best" variant and links to it.
