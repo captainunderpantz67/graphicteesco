@@ -12514,6 +12514,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-running-here-for-the-free-banana-hoodie": {
+   "claimed": [
+    "funny running hoodie for women"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "funny running hoodie for women",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }

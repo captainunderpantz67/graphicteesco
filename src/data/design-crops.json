@@ -448,11 +448,11 @@
   "y": 150
  },
  "mens-christmas-white-elephant-champion-hoodie": {
-  "h": 410,
+  "h": 416,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-navy-front-6ad4353359574.jpg",
-  "w": 328,
-  "x": 330,
-  "y": 161
+  "w": 333,
+  "x": 322,
+  "y": 158
  },
  "mens-construction-not-leaning-supervising-hoodie": {
   "h": 416,
@@ -584,7 +584,7 @@
   "h": 759,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-sand-front-6ad2e96cdae01.jpg",
   "w": 607,
-  "x": 272,
+  "x": 270,
   "y": 124
  },
  "mens-fishing-catch-and-release-zip-hoodie": {
@@ -658,17 +658,17 @@
   "y": 124
  },
  "mens-fishing-reel-talk-graphic-tee": {
-  "h": 692,
+  "h": 733,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-staple-t-shirt-white-front-6ad149755eae5.jpg",
-  "w": 553,
-  "x": 275,
-  "y": 88
+  "w": 587,
+  "x": 259,
+  "y": 83
  },
  "mens-fishing-reel-talk-half-zip": {
   "h": 759,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavyweight-half-zip-pullover-dust-front-6ad29f76b2e76.jpg",
   "w": 607,
-  "x": 270,
+  "x": 268,
   "y": 124
  },
  "mens-fishing-reel-talk-hoodie": {
@@ -710,7 +710,7 @@
   "h": 759,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-sand-front-6ad36a68f1f59.jpg",
   "w": 607,
-  "x": 270,
+  "x": 268,
   "y": 124
  },
  "mens-fishing-you-catching-em-graphic-tee": {
@@ -738,7 +738,7 @@
   "h": 759,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavyweight-hooded-sweatshirt-sandstone-front-6ad416164aa22.jpg",
   "w": 607,
-  "x": 290,
+  "x": 304,
   "y": 124
  },
  "mens-golf-fairways-are-a-rumor-half-zip": {
@@ -966,11 +966,11 @@
   "y": 19
  },
  "mens-gym-rest-day-is-a-sacred-quest-medieval-hoodie": {
-  "h": 759,
+  "h": 744,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-sand-front-6ad3e6a9df51c.jpg",
-  "w": 607,
-  "x": 272,
-  "y": 124
+  "w": 595,
+  "x": 275,
+  "y": 134
  },
  "mens-gym-retired-from-cardio-crewneck-sweatshirt": {
   "h": 598,
@@ -1284,7 +1284,7 @@
   "h": 754,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-sand-front-6ad3d23762923.jpg",
   "w": 603,
-  "x": 266,
+  "x": 268,
   "y": 125
  },
  "mens-outdoors-sasquatch-camera-shy-heavyweight-hoodie": {
@@ -1501,7 +1501,7 @@
   "h": 754,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-sand-front-6ad3ce3cbb6bf.jpg",
   "w": 603,
-  "x": 262,
+  "x": 258,
   "y": 125
  },
  "mens-wrestling-six-minutes-feels-like-sixty-graphic-tee": {
@@ -1886,7 +1886,7 @@
   "h": 806,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-crew-neck-sweatshirt-white-front-6ad25a824f485.jpg",
   "w": 645,
-  "x": 246,
+  "x": 250,
   "y": 83
  },
  "unisex-christmas-mountain-christmas-bear-crewneck-sweatshirt": {
@@ -2033,7 +2033,7 @@
   "h": 754,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-sand-front-6ad3dba7c6771.jpg",
   "w": 603,
-  "x": 258,
+  "x": 286,
   "y": 125
  },
  "unisex-dachshund-banned-from-stairs-graphic-tee": {
@@ -2181,7 +2181,7 @@
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-crew-neck-sweatshirt-sand-front-6ad40ca4ab58b.jpg",
   "w": 499,
   "x": 302,
-  "y": 44
+  "y": 16
  },
  "unisex-golf-sorry-about-your-windshield-embroidered-zip-hoodie": {
   "h": 806,
@@ -2449,6 +2449,13 @@
   "x": 174,
   "y": 85
  },
+ "unisex-pitbull-scary-dog-afraid-of-the-vacuum-hoodie": {
+  "h": 754,
+  "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-sand-front-6af079c82eaa2.jpg",
+  "w": 603,
+  "x": 274,
+  "y": 125
+ },
  "unisex-pitbull-velvet-hippo-social-club-crewneck-sweatshirt": {
   "h": 630,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-crew-neck-sweatshirt-sand-front-6ad412e998964.jpg",
@@ -2457,11 +2464,11 @@
   "y": 0
  },
  "unisex-pitbull-velvet-hippo-social-club-hoodie": {
-  "h": 759,
+  "h": 754,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-sand-front-6ad4374814576.jpg",
-  "w": 607,
+  "w": 603,
   "x": 262,
-  "y": 124
+  "y": 125
  },
  "unisex-poker-i-fold-its-self-care-hoodie": {
   "h": 416,
@@ -2642,7 +2649,7 @@
   "h": 759,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-sand-front-6ad2a2cc47217.jpg",
   "w": 607,
-  "x": 282,
+  "x": 280,
   "y": 124
  },
  "unisex-thanksgiving-turkey-day-crew-crewneck-sweatshirt": {
@@ -2744,11 +2751,11 @@
   "y": 146
  },
  "unisex-y2k-side-quests-only-hoodie": {
-  "h": 754,
+  "h": 707,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-sand-front-6ad3cf7b4cd27.jpg",
-  "w": 603,
-  "x": 274,
-  "y": 125
+  "w": 566,
+  "x": 279,
+  "y": 166
  },
  "welder-i-basically-hot-glue-metal-ornament": {
   "h": 879,
@@ -2821,10 +2828,10 @@
   "y": 125
  },
  "womens-baseball-mom-bases-loaded-crewneck-sweatshirt": {
-  "h": 618,
+  "h": 630,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-crew-neck-sweatshirt-sand-front-6ad3bf68a8203.jpg",
-  "w": 494,
-  "x": 307,
+  "w": 504,
+  "x": 298,
   "y": 0
  },
  "womens-baseball-mom-bases-loaded-graphic-tee": {
@@ -3136,11 +3143,11 @@
   "y": 0
  },
  "womens-christian-light-of-the-world-jesus-crewneck-sweatshirt": {
-  "h": 520,
+  "h": 533,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-crew-neck-sweatshirt-sand-front-6ad2b6bb7a31e.jpg",
-  "w": 416,
-  "x": 376,
-  "y": 10
+  "w": 426,
+  "x": 367,
+  "y": 4
  },
  "womens-christmas-all-lit-up-hoodie": {
   "h": 377,
@@ -3209,7 +3216,7 @@
   "h": 759,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-heavy-blend-hoodie-sand-front-6ad2656252e27.jpg",
   "w": 607,
-  "x": 270,
+  "x": 268,
   "y": 124
  },
  "womens-christmas-cat-allegedly-crewneck-sweatshirt": {
@@ -3318,11 +3325,11 @@
   "y": 0
  },
  "womens-christmas-christmas-plans-the-barn-western-crewneck-sweatshirt": {
-  "h": 806,
+  "h": 811,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-crew-neck-sweatshirt-white-front-6ad44c1956eca.jpg",
-  "w": 645,
+  "w": 649,
   "x": 230,
-  "y": 83
+  "y": 78
  },
  "womens-christmas-christmas-plans-the-barn-western-graphic-tee": {
   "h": 689,
@@ -3458,11 +3465,11 @@
   "y": 124
  },
  "womens-christmas-golden-retriever-christmas-crewneck-sweatshirt": {
-  "h": 603,
+  "h": 598,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-crew-neck-sweatshirt-white-front-6aced243df436.jpg",
-  "w": 483,
-  "x": 261,
-  "y": 78
+  "w": 478,
+  "x": 263,
+  "y": 79
  },
  "womens-christmas-golden-retriever-christmas-graphic-tee": {
   "h": 663,
@@ -3861,7 +3868,7 @@
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/womens-relaxed-t-shirt-white-front-6ad426a215f1c.jpg",
   "w": 530,
   "x": 275,
-  "y": 18
+  "y": 20
  },
  "womens-christmas-vintage-santa-graphic-tee": {
   "h": 676,
@@ -4207,11 +4214,11 @@
   "y": 125
  },
  "womens-fishing-out-fished-him-again-graphic-tee": {
-  "h": 696,
+  "h": 650,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/womens-relaxed-t-shirt-white-front-6ad447f022d80.jpg",
-  "w": 556,
-  "x": 252,
-  "y": 6
+  "w": 520,
+  "x": 284,
+  "y": 25
  },
  "womens-fishing-out-fished-him-again-zip-hoodie": {
   "h": 806,
@@ -4288,7 +4295,7 @@
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-crew-neck-sweatshirt-sand-front-6ad85b8e6e067.jpg",
   "w": 504,
   "x": 298,
-  "y": 11
+  "y": 13
  },
  "womens-frog-not-toad-ay-zip-hoodie": {
   "h": 806,
@@ -4326,11 +4333,11 @@
   "y": 125
  },
  "womens-gigi-because-grandma-sounded-old-crewneck-sweatshirt": {
-  "h": 552,
+  "h": 624,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/unisex-crew-neck-sweatshirt-sand-front-6ad426a4662cd.jpg",
-  "w": 442,
-  "x": 353,
-  "y": 102
+  "w": 499,
+  "x": 302,
+  "y": 70
  },
  "womens-gigi-because-grandma-sounded-old-hoodie": {
   "h": 744,
@@ -4445,11 +4452,11 @@
   "y": 46
  },
  "womens-hanukkah-fried-food-is-tradition-graphic-tee": {
-  "h": 696,
+  "h": 676,
   "src": "https://cdn.shopify.com/s/files/1/1000/8428/5744/files/womens-relaxed-t-shirt-white-front-6ad44cd68cf63.jpg",
-  "w": 556,
-  "x": 252,
-  "y": 0
+  "w": 541,
+  "x": 266,
+  "y": 20
  },
  "womens-hiking-treat-me-like-wildlife-graphic-tee": {
   "h": 656,
