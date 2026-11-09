@@ -1,5 +1,5 @@
 ---
-status: APPROVED
+status: LIVE
 lane: W
 type: article
 cluster: hoodies
@@ -18,3 +18,4 @@ slug: best-hoodies-for-men
 ## Log
 - 2026-11-07 UTC writer: drafted, build passes. Lock line in docs/intake-log.md skipped (run scope limited to guides.ts and this file).
 - 2026-11-07 23:20 UTC director: APPROVED, held as draft (2 articles already live for the Nov 7 Chicago day). All 5 picks ACTIVE, prices and colors match Shopify, every linked page 200. Next director run removes draft: (after 06:00 UTC Nov 8) and builds.
+- 2026-11-09 14:50 UTC director: LIVE (draft: false; astro build 136 pages, 5 picks render, FAQPage present). Article 1 of 2 for Nov 9.

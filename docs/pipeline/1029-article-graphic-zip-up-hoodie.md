@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: hoodies
@@ -16,3 +16,4 @@ slug: graphic-zip-up-hoodie
 - `npx astro build` passes (drafts are not built).
 ## Log
 - 2026-11-08 UTC writer: drafted, build passes.
+- 2026-11-09 14:50 UTC director: APPROVED, LIVE (article 2 of 2 for Nov 9). graphic zip up hoodie 9,900 / KD 11, unowned. Answer-first, facts match the zip standard (back print, left-chest embroidery, cuff word, $57.99, 8 oz 50/50, S-3XL, Dec 8 order-by). All 5 picks are embroidered zips on the R11.12 standard and return 200; guide links resolve in the build. draft: false; astro build 136 pages.

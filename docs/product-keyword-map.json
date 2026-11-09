@@ -12543,16 +12543,22 @@
   },
   "unisex-anime-thats-not-a-wave-its-a-no-hoodie": {
    "claimed": [
-    "funny anime hoodie"
+    "anime cat hoodie"
    ],
    "gaps_measured": [
     {
-     "phrase": "funny anime hoodie",
-     "volume": 0,
-     "kd": 0
+     "phrase": "anime cat hoodie",
+     "volume": 90,
+     "kd": 42,
+     "competition": 1809
+    },
+    {
+     "phrase": "lucky cat hoodie",
+     "volume": 90,
+     "kd": 36
     }
    ],
-   "measured": "2026-10-16"
+   "measured": "2026-11-09"
   }
  }
 }

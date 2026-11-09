@@ -3265,7 +3265,7 @@ export const allGuides: Guide[] = [
     h1: 'The Best Hoodies for Men, Sorted by Weight and Fit',
     date: '2026-11-07',
     cluster: 'hoodies',
-    draft: true,
+    draft: false,
     answer: 'The best hoodie for a man is the one that fits the way he wears it and is the weight he needs. Graphic Tees Co. sorts five original-art picks that way: an 8 oz pullover from $39.99 (Reel Talk or Pillaging Is a Young Man\'s Game), a 10 oz heavyweight for $49.99 (Camera Shy), a roomy oversized for $54.99 (Wake Me Up and Find Out) and an embroidered zip-up for $57.99 (Sorry About Your Pawn). Each is printed after you order it, and US shipping is free on orders of $45 or more.',
     picks: [
       {
@@ -3348,7 +3348,7 @@ export const allGuides: Guide[] = [
     h1: 'Graphic Zip Up Hoodie: The Joke Goes on the Back, the Zipper Stays Clean',
     date: '2026-11-08',
     cluster: 'hoodies',
-    draft: true,
+    draft: false,
     answer: 'A good graphic zip up hoodie keeps the print off the zipper. Graphic Tees Co. puts the full design across the back and a small embroidered mark on the left chest, with a word stitched on the left cuff. Every zip-up is $57.99, an 8 oz fleece that is 50% cotton and 50% polyester, in sizes S to 3XL, and each one is printed and stitched after you order it.',
     picks: [
       {

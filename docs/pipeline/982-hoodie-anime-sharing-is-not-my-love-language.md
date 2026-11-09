@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 cover: fal-swap
 lane: C
 type: twin
@@ -28,3 +28,4 @@ push: niche-fill
 ## Log
 - 2026-10-21 17:05 UTC director: brief written, READY (hoodie twin, lane C, niche fill; $0 fal; registry claimed).
 - 2026-11-08 17:37 UTC [B]: pullover twin built to REVIEW. DRAFT gid://shopify/Product/15413874131248, 12 variants Sand + Navy x S-3XL at $39.99, no compare-at, category hoodies. Printful sync 491153334 12/12 (Sand file 1106056524 navy/brick lines, Navy file 1106056558 cream/coral lines), fal $0. Twin check R6.2: source art lines were heavy condensed sans in two inks, no script, no panel; re-set fresh in Bevan heavy slab (not among last 5 lane B faces) and lockup re-laid out to 3000x3038: headline 3010 / punch 2997 px = 100% of width, subject (cat) 2200 of 3000 = 73%, type 494 px, FW 1500 TOP 400. Light file: Sand on its own file, headline fill navy 31,40,75. Phone-size read: every word legible on both mockups. Cover: fal-swap (clean Printful flat front Sand as image 1; handle in retired-covers.json; single-person flat shot, no person so Unisex title is fine). Alt text R7.8, variants linked to color photos. 5 FAQs 45-56 words, order-by Dec 8. Keyword funny anime hoodie (unmeasured) in map. Audit script not run (director please run). Sheet docs/review/982.jpg.
+- 2026-11-09 14:40 UTC director: APPROVED, LIVE (Nov 9 Chicago day, 2 of 6). Samurai cat with chopsticks and the last dumpling; both lines 100% wide in Bevan, every word reads on Sand and Navy at phone size. Keeps 'funny anime hoodie' (unmeasured). ACTIVE + Online Store, Headless, Google & YouTube, Copilot, Meta; cohesion-audit PASS before and after (1 warn: no lifestyle cover).
