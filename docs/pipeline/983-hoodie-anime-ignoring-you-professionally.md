@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-11-09 13:40
+status: REVIEW
 cover: fal-swap
 lane: C
 type: twin
@@ -27,3 +27,4 @@ push: niche-fill
 ---
 ## Log
 - 2026-10-21 17:05 UTC director: brief written, READY (hoodie twin, lane C, niche fill; $0 fal; registry claimed).
+- 2026-11-09 UTC [B]: pullover twin built to REVIEW. NOTE: live source #436 now reads THAT'S NOT A WAVE. / IT'S A NO. (cat), not IGNORING YOU PROFESSIONALLY; brief says live print wins, so title/handle/copy use the new line: "Unisex Anime – That's Not a Wave. It's a No. Hoodie" / unisex-anime-thats-not-a-wave-its-a-no-hoodie. DRAFT gid://shopify/Product/15415141597488, 12 variants Sand + Navy x S-3XL at $39.99, no compare-at, category hoodies. Printful sync 491548236 12/12 verified by file id (Sand file 1106801524 navy/brick red lines, Navy file 1106801537 cream/coral lines), fal $0. Twin check R6.2: source lines were typeset in a heavy sans, no script, no panel; re-set fresh in Bowlby One (last 5 lane B faces: Bevan x2, others per log; not Bowlby), lockup 3000x2905: headline 3001 / punch 3005 px = 100% of width, subject (cat) 1650 of 3000 = 55%, type 676 px; FW 1500 TOP 400 (first try at 2200 subject ran under the pouch and was cut off, relaid smaller). Light file: Sand own file, headline fill navy 31,40,75. Phone-size read: every word legible on both mockups. Cover: fal-swap (clean Printful flat front Sand as image 1; handle in retired-covers.json; no person, so Unisex title fine). Alt text R7.8, variants linked to color photos. 5 FAQs 44-58 words, order-by Dec 8. Keyword funny anime hoodie (unmeasured) in map. Audit script not run (crashes in env; director please run). Sheet docs/review/983.jpg.
