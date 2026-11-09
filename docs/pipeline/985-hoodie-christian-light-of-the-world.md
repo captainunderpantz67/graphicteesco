@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [B] 17:35
 cover: fal-swap
 lane: C
 type: twin
