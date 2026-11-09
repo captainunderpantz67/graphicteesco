@@ -3422,6 +3422,90 @@ export const allGuides: Guide[] = [
       { q: 'When should I order a zip up hoodie for Christmas?', a: 'Order by about December 8. Graphic Tees Co. prints and stitches each hoodie in 2 to 5 business days, then it ships in about 3 to 8 business days in the US. Orders of $45 or more ship free.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-09), hoodies cluster. Keyword: half zip hoodie 6,600 / KD 12 (RankHero page pull via scripts/keyword-gap.py rankhero(), measured 2026-11-09; competition count not shown). Unowned: /hoodies/half-zip-pullovers/ owns "half zip pullover"; "half zip hoodie" is not in collections.ts, product-keyword-map.json or guides.ts.
+    // Honesty note: our half zips have NO hood. The article answers the search plainly (it is a pullover, not a hoodie) and sends the reader to the right blank.
+    // Facts (blank, 10 oz, 65/35, zipper, sizes, colors, print placement, prices) from live Shopify Stories read 2026-11-09 for five ACTIVE half zips, plus rulebook R12.1 price pattern and site.ts. None of the five is in fresh-designs.json except mens-golf-fairways-are-a-rumor-half-zip: director to confirm grade. FAQ questions are not from PAA or GSC (not available unattended).
+    // Planned siblings (not live yet): zip-up-hoodies-for-women, half-zip-outfits.
+    slug: 'half-zip-hoodie',
+    keyword: 'half zip hoodie',
+    title: 'Half Zip Hoodie? What It Is, and the 10 oz Half Zips We Make',
+    description: 'A half zip hoodie has a hood; a half zip pullover does not. Ours is a 10 oz fleece with a big back print, $54.99, sizes XS to 3XL. Five picks.',
+    h1: 'Half Zip Hoodie or Half Zip Pullover? What to Buy Instead of Guessing',
+    date: '2026-11-09',
+    cluster: 'hoodies',
+    draft: true,
+    answer: 'A half zip hoodie is a hooded sweatshirt with a short zipper at the neck. Graphic Tees Co. does not make one with a hood. Our half zip is a pullover with a stand-up collar: a 10 oz fleece, 65% cotton and 35% polyester, in sizes XS to 3XL, Dust or Navy, $54.99 through November 30, 2026 and $59.99 from December 1. The full print goes on the back, so the zipper never splits it.',
+    picks: [
+      {
+        h2: 'What is a half zip for someone who fishes?',
+        body: ['Two. Reel Talk is for the angler with a story about the one that got away. Fisher of Men, Mostly Bass is for the angler whose real aim is a largemouth. Both come in Dust and Navy, $54.99.'],
+        items: [
+          { slogan: 'REEL TALK', tee: 'mens-fishing-reel-talk-half-zip',
+            text: 'REEL TALK arches across the top in cracked sage and orange letters over a largemouth bass leaping out of the water, with a rod and reel at the left and cattails and lily pads below. The full scene is on the back and a smaller matching print is on the left chest. It is $54.99.' },
+          { slogan: 'FISHER OF MEN, MOSTLY BASS', tee: 'mens-fishing-fisher-of-men-half-zip',
+            text: 'A bass leaps behind a worn wooden rowboat on a still lake, with cattails, pine trees and lily pads, under FISHER OF MEN and over MOSTLY BASS. It prints large across the back with a small copy on the left chest. It is $54.99.' },
+        ],
+        links: [{ href: '/hoodies/fishing-hoodies/', text: 'Fishing hoodies' }],
+      },
+      {
+        h2: 'What is a half zip for a golfer?',
+        body: ['Fairways Are a Rumor. It is for the golfer whose round happens in the woods. It comes in Dust and Navy.'],
+        items: [
+          { slogan: 'FAIRWAYS ARE A RUMOR', tee: 'mens-golf-fairways-are-a-rumor-half-zip',
+            text: 'A mustached golfer in a flat cap, cable-knit sweater and checked plus-fours stands between tall pines, one hand shading his eyes toward a tiny flag far down a mowed fairway. The full print is about 12 inches wide on the back, with a small golfer on the left chest. It is $54.99.' },
+        ],
+      },
+      {
+        h2: 'What is a half zip for a dog dad?',
+        body: ['He Wanted Out. Now He Wants In. It is for the man who holds the back door on cold mornings while the dog changes his mind. It comes in Dust and Navy.'],
+        items: [
+          { slogan: 'HE WANTED OUT. NOW HE WANTS IN.', tee: 'mens-dog-dad-unpaid-doorman-half-zip',
+            text: 'A doorman in a peaked cap and long coat holds a back door wide open while a scruffy dog sits in the doorway, half in and half out, between the two lines on the back. The same door scene sits small on the left chest, with no words. It is $54.99.' },
+        ],
+      },
+      {
+        h2: 'What is a half zip for a ramen lover?',
+        body: ['Slurp Responsibly. It is for anyone who orders a second bowl anyway. It comes in Dust and Navy.'],
+        items: [
+          { slogan: 'SLURP RESPONSIBLY', tee: 'womens-anime-slurp-responsibly-half-zip',
+            text: 'A calico cat in a headband holds chopsticks over a steaming bowl of ramen while a long noodle disappears into its mouth, with a paper lantern and a little cloud around it and SLURP RESPONSIBLY arched above in chipped coral, mint and cream letters. The full scene is on the back and a small print is on the left chest. It is $54.99.' },
+        ],
+        links: [{ href: '/hoodies/half-zip-pullovers/', text: 'All half zip pullovers' }, { href: '/hoodies/', text: 'All graphic hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'Is a half zip a hoodie?',
+        body: ['Not unless it has a hood. A half zip hoodie is a hooded sweatshirt with a short zipper. A half zip pullover has a stand-up collar and no hood.',
+          'The Graphic Tees Co. half zip is the second kind. It is a heavyweight pullover with a brushed fleece inside, a silver metal zipper, ribbed cuffs and a ribbed waistband. If you want a hood, choose one of our pullover or zip-up hoodies below.'],
+        links: [{ href: '/guides/graphic-zip-up-hoodie/', text: 'Graphic zip up hoodie' }, { href: '/hoodies/zip-up-hoodies/', text: 'Zip-up hoodies' }] },
+      { h2: 'Where does the print go on a half zip?',
+        body: ['On the back. The zipper placket splits the upper chest, and this blank has no large front print area. So Graphic Tees Co. prints the full design across the back and a small matching print on the left chest.',
+          'The front stays clean around the zipper, and the joke is what people read when you walk away.'] },
+      { h2: 'How warm is a half zip, and what is it made of?',
+        body: ['It is a heavyweight layer. The fleece is 10 oz/yd², 65% combed and ring-spun cotton and 35% polyester, with a soft brushed inside. Our classic pullover hoodie is 8 oz.',
+          'Zip it to the collar when the wind picks up and open it indoors. It is a layer, not a coat, so wear a shell over it on wet or very cold days.'],
+        links: [{ href: '/guides/thick-hoodies/', text: 'Thick hoodies' }, { href: '/guides/fleece-lined-hoodie/', text: 'Fleece lined hoodies' }] },
+      { h2: 'How should a half zip fit?',
+        body: ['The fit is relaxed and unisex, in sizes XS to 3XL. Order your usual size for a roomy layer, or size down one for a closer fit.',
+          'If the size is wrong, one replacement in a new size is free within 30 days of delivery, and you do not mail the first one back.'],
+        links: [{ href: '/guides/hoodie-sizing/', text: 'Hoodie sizing guide' }, { href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'How do you wash a half zip so the print lasts?',
+        body: ['Zip it, turn it inside out and wash cold with similar colors. Tumble dry low or hang it dry. Skip bleach and fabric softener, and never iron over the print.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'Will a half zip arrive in time for Christmas?',
+        body: ['Order by about December 8. Each half zip is printed after you order it, then shipped, and exact estimates show at checkout. US shipping is free on orders of $45 or more, so any pick here ships free by itself.'],
+        links: [{ href: '/guides/best-hoodies-for-men/', text: 'Best hoodies for men' }, { href: '/guides/hoodies-for-guys/', text: 'Hoodies for guys' }] },
+    ],
+    faqs: [
+      { q: 'What is a half zip hoodie?', a: 'A hooded sweatshirt with a short zipper at the neck. Graphic Tees Co. makes a half zip pullover instead, with a stand-up collar and no hood: a 10 oz fleece, 65% cotton and 35% polyester, sizes XS to 3XL, $54.99 through November 30, 2026.' },
+      { q: 'Is a half zip warm?', a: 'Yes, as a layer. The Graphic Tees Co. half zip is a heavyweight 10 oz fleece with a soft brushed inside, ribbed cuffs and a ribbed waistband. Zip it to the collar for wind and wear a shell over it on wet or very cold days.' },
+      { q: 'Where is the print on a half zip?', a: 'On the back. The zipper splits the upper chest, so Graphic Tees Co. prints the full design across the back and a small matching print on the left chest. The front stays clean around the zipper.' },
+      { q: 'How does a half zip fit?', a: 'Relaxed and unisex, in sizes XS to 3XL. Order your usual size for a roomy layer or size down one for a closer fit. Graphic Tees Co. sends one free replacement in a new size within 30 days of delivery.' },
+      { q: 'What colors do the half zips come in?', a: 'Dust and Navy. The Graphic Tees Co. art is inked to read on both, so the same design is soft on light Dust and bright on dark Navy. Every pick on this page comes in both.' },
+      { q: 'How much does a half zip cost?', a: 'At Graphic Tees Co., a half zip is $54.99 through November 30, 2026, and $59.99 from December 1. US shipping is free on orders of $45 or more, so one half zip ships free.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
