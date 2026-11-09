@@ -1,4 +1,4 @@
-status: REVIEW
+status: APPROVED
 lane: W
 type: article
 cluster: hoodies
@@ -16,3 +16,4 @@ slug: half-zip-hoodie
 - `npx astro build` passes (drafts are not built).
 ## Log
 - 2026-11-09 UTC writer: drafted, build passes.
+- 2026-11-09 23:40 UTC director: APPROVED, held as draft for the 2-articles-a-day cap (Nov 10 slot 2, after #1028). Honest about no hood, facts match live half zips, answer-first, 6 FAQs. Remove draft: line on publish.

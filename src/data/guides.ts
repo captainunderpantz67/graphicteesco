@@ -3570,7 +3570,7 @@ export const allGuides: Guide[] = [
         links: [{ href: '/guides/hoodie-sizing/', text: 'Hoodie sizing guide' }, { href: '/shipping-returns/', text: 'Shipping and returns' }] },
       { h2: 'When do you need to order for Christmas?',
         body: ['Order by December 4, 2026 to be safe. Every piece is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US.',
-          'US shipping is free on orders of $45 or more, so any camo hoodie clears it on its own, and a tee plus the Tag Soup ornament ($14.99) clears it too.'] },
+          'US shipping is free on orders of $45 or more, so any camo hoodie clears it on its own, and so do two tees.'] },
       { h2: 'How do you wash a camo hoodie so the print lasts?',
         body: ['Turn it inside out, wash it cold with similar colors, tumble dry low or hang it, and skip bleach and fabric softener. Never iron over the print.',
           'The full routine is in our care guide.'],
