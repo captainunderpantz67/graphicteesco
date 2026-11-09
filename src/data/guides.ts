@@ -3506,6 +3506,88 @@ export const allGuides: Guide[] = [
       { q: 'How much does a half zip cost?', a: 'At Graphic Tees Co., a half zip is $54.99 through November 30, 2026, and $59.99 from December 1. US shipping is free on orders of $45 or more, so one half zip ships free.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-09, second run of the day), outdoors cluster. Keyword: christmas gifts for hunters 1,000 / KD 17 (RankHero via scripts/keyword-gap.py, measured 2026-11-09 unattended; no competition count). Unowned: checked 2026-11-09 against product-keyword-map.json, collections.ts and guides.ts. "gifts for hunters" (8,100 / KD 46) is the harder head term, left alone. "camo hoodie" stays with /hoodies/camo-hoodies/, "hunting hoodie" with /hoodies/hunting-hoodies/, "hunting shirts" with /hunting-t-shirts/.
+    // Facts (art, blank, weight, colors, sizes, prices, policies) from the LIVE Shopify Stories read 2026-11-09 and site.ts. FAQ questions are not from PAA or GSC (not available unattended).
+    // Picks: Opening Day, No Deer Today, Professional Tree Sitter, Long Beard Short Temper, Doe Not Disturb (all camo hoodies, $49.99), Tag Soup tee ($24.99), Deer Camp Christmas tee ($24.99). Build drops any pick that is not live.
+    // Planned siblings (not live yet): gifts-for-duck-hunters (draft), best-funny-fishing-shirts (draft), funny-hunting-shirts, gifts-for-turkey-hunters.
+    slug: 'christmas-gifts-for-hunters',
+    keyword: 'christmas gifts for hunters',
+    title: 'Christmas Gifts for Hunters: 7 Camo Hoodies & Tees From $24.99',
+    description: 'Christmas gifts for hunters: camo hoodies like Opening Day and No Deer Today, plus Tag Soup and Deer Camp Christmas tees. $24.99 to $49.99, printed to order.',
+    h1: 'Christmas Gifts for Hunters: Camo Hoodies and Tees With a Joke He Already Tells at Camp',
+    date: '2026-11-09',
+    cluster: 'outdoors',
+    draft: true,
+    answer: 'A good Christmas gift for a hunter is something he will actually wear to the stand, and a heavyweight camo hoodie with a hunting joke on the chest is exactly that. Graphic Tees Co. has camo hoodies at $49.99 (Opening Day, No Deer Today, Professional Tree Sitter, Long Beard Short Temper, Doe Not Disturb) and two tees at $24.99 (Today’s Special: Tag Soup and Deer Camp Christmas). Everything is printed after you order it, so order by December 4, 2026.',
+    picks: [
+      {
+        h2: 'What is a good Christmas gift for a hunter who lives in camo?',
+        body: ['Give him the camo hoodie with the joke already on it. These three are 10 oz/yd² heavyweight fleece with a fleece-lined hood, ribbed cuffs and a relaxed fit in sizes XS to 3XL, all $49.99.'],
+        items: [
+          { slogan: 'OPENING DAY. UP AT 4. SAW NOTHING.', tee: 'mens-hunting-opening-day-camo-hoodie',
+            text: 'A big-racked whitetail buck stands alert in a frosty meadow at first light, with a blaze-orange sunrise burning behind bare trees. OPENING DAY. sits above in cream and UP AT 4. SAW NOTHING. runs below in orange. It comes in Darkwood Tree Camo or Forest Camo, $49.99. It is for the guy who never sleeps the night before the opener.' },
+          { slogan: 'NO DEER TODAY. GREAT NAP THOUGH.', tee: 'mens-hunting-no-deer-today-camo-hoodie',
+            text: 'A round cartoon hunter in a blaze-orange jacket and cap sleeps in a camp chair on his deer stand, boots up on the rail, while a big buck stands next to the platform giving him a flat, unimpressed look. It comes in Black Camo or Forest Camo, $49.99. It is for everyone who has slept through the best hour of the morning.' },
+          { slogan: 'PRO TREE SITTER', tee: 'mens-hunting-professional-tree-sitter-camo-hoodie',
+            text: 'A small varsity-style crest shows a mascot lounging in a ladder stand with his arms behind his head while a buck strolls by below. It is a left-chest print about four inches wide, so the rest of the front stays clean camo. It comes in Darkwood Tree Camo or Forest Camo, $49.99. It is the quiet one, for the hunter who does not want a big graphic.' },
+        ],
+        links: [{ href: '/hoodies/camo-hoodies/', text: 'All camo hoodies' }, { href: '/hoodies/hunting-hoodies/', text: 'Hunting hoodies' }],
+      },
+      {
+        h2: 'What do you give a turkey hunter or a woman who hunts?',
+        body: ['Two more camo hoodies on the same $49.99 heavyweight blank, one for the spring gobbler crowd and one for the hunter, wife or girlfriend who likes the nap in the truck.'],
+        items: [
+          { slogan: 'LONG BEARD, SHORT TEMPER', tee: 'mens-hunting-long-beard-short-temper-camo-hoodie',
+            text: 'A wild tom turkey stands in full strut with his tail fan spread wide, drawn as a two-ink linocut in black and burnt orange, with LONG BEARD, above and SHORT TEMPER below. Turkey hunters call a mature gobbler a long beard, so the joke works twice. It comes in Darkwood Tree Camo or Forest Camo, $49.99.' },
+          { slogan: 'DOE NOT DISTURB.', tee: 'womens-hunting-doe-not-disturb-camo-hoodie',
+            text: 'A fawn-spotted doe curls up asleep on a pile of autumn leaves with a satin sleep mask pushed up on her forehead, drawn in loose sketchbook ink and watercolor, with the line in cream capitals below. It comes in Darkwood Tree Camo or Forest Camo, $49.99.' },
+        ],
+      },
+      {
+        h2: 'What is a cheaper Christmas gift for a hunter who already owns camo?',
+        body: ['A tee, at $24.99. Both are classic unisex crewnecks in 4.2 oz/yd² combed, ring-spun cotton, so they are light enough for early season and layer under a hoodie or flannel later.'],
+        items: [
+          { slogan: 'Today’s Special: Tag Soup', tee: 'mens-hunting-todays-special-tag-soup-graphic-tee',
+            text: 'A deer in a chef’s hat ladles a bowl of soup with an orange hunting tag floating in it, set out like a vintage diner menu with Today’s Special across the top and Served Fresh Every Season under the bowl. Tag soup is hunters’ slang for a season that ends with an unfilled tag. It comes in Military Green, Dark Grey Heather or Black, sizes S to 4XL, $24.99.' },
+          { slogan: 'DEER CAMP CHRISTMAS', tee: 'unisex-christmas-deer-camp-christmas-graphic-tee',
+            text: 'A snowed-in hunting cabin sits deep in the pines at dusk with a wreath on the door, antlers mounted above it, glowing windows and a whitetail buck standing in the snow by the porch, with DEER CAMP CHRISTMAS in faded red block letters. It comes in Natural, Heather Dust, Athletic Heather or Forest, sizes XS to 4XL, $24.99.' },
+        ],
+        links: [{ href: '/hunting-t-shirts/', text: 'All hunting shirts' }, { href: '/christmas-shirts/', text: 'Christmas shirts' }],
+      },
+    ],
+    sections: [
+      { h2: 'Can you actually hunt in a camo hoodie?',
+        body: ['Yes, as a layer. The Graphic Tees Co. camo hoodies are a heavyweight 10 oz/yd² cotton and polyester fleece with a fleece-lined hood, made for layering under a jacket on a frosty morning.',
+          'They are not waterproof and they are not scent-control gear, so on a wet or bitter day he should wear a shell over one. Treat it as the warm layer for the stand, the tailgate and the drive home.'],
+        links: [{ href: '/hoodies/heavyweight-hoodies/', text: 'Heavyweight hoodies' }] },
+      { h2: 'Will the print show up on camo?',
+        body: ['Yes. Each camo design is drawn in light ink, mostly cream, black and blaze orange, with a thin cream outline so the lines hold up on the pattern. The lettering carries a dark keyline as well.',
+          'The art is original, made for Graphic Tees Co., and it is not a licensed hunting-brand pattern or logo. The camo itself is Darkwood Tree Camo, Forest Camo or Black Camo depending on the hoodie.'] },
+      { h2: 'What size should you order a hunter?',
+        body: ['Order his usual size for the relaxed fit, or one size up if he wants room for a thermal and a vest underneath. The camo hoodies run XS to 3XL and every product page has its size chart.',
+          'If you guess wrong, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and he does not have to mail the first one back.'],
+        links: [{ href: '/guides/hoodie-sizing/', text: 'Hoodie sizing guide' }, { href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'When do you need to order for Christmas?',
+        body: ['Order by December 4, 2026 to be safe. Every piece is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US.',
+          'US shipping is free on orders of $45 or more, so any camo hoodie clears it on its own, and a tee plus the Tag Soup ornament ($14.99) clears it too.'] },
+      { h2: 'How do you wash a camo hoodie so the print lasts?',
+        body: ['Turn it inside out, wash it cold with similar colors, tumble dry low or hang it, and skip bleach and fabric softener. Never iron over the print.',
+          'The full routine is in our care guide.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees so the print lasts' }] },
+      { h2: 'Where else can you find gift ideas for the hunter in your life?',
+        body: ['If he fishes as well, our gifts for fishermen guide has the fishing side. For a dad who is hard to shop for, see Christmas gifts for dad, and for the layer that works around the house, see cozy hoodies.'],
+        links: [{ href: '/guides/gifts-for-fishermen/', text: 'Gifts for fishermen' }, { href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }, { href: '/guides/cozy-hoodies/', text: 'Cozy hoodies' }, { href: '/guides/best-hoodies-for-men/', text: 'Best hoodies for men' }] },
+    ],
+    faqs: [
+      { q: 'What is a good Christmas gift for a hunter?', a: 'Something he will wear to the stand. Graphic Tees Co. makes heavyweight camo hoodies with original hunting jokes, like Opening Day and No Deer Today, at $49.99 in a 10 oz fleece, sizes XS to 3XL, plus $24.99 hunting tees.' },
+      { q: 'Are camo hoodies warm enough for hunting?', a: 'They work as a layer. Graphic Tees Co. camo hoodies are 10 oz/yd² cotton-poly fleece with a fleece-lined hood. They are not waterproof or scent-control gear, so wear a shell jacket over one on wet or bitter mornings.' },
+      { q: 'What is tag soup?', a: 'Tag soup is hunters’ slang for a season that ends without filling your tag. The Graphic Tees Co. Today’s Special: Tag Soup tee ($24.99) shows a deer chef ladling a bowl with an orange hunting tag floating in it.' },
+      { q: 'What is the best Christmas gift for a woman who hunts?', a: 'A camo hoodie she will wear to the stand. Graphic Tees Co. makes Doe Not Disturb, a sleepy doe in a sleep mask on a heavyweight camo hoodie, $49.99 in Darkwood Tree Camo or Forest Camo, sizes XS to 3XL.' },
+      { q: 'What if the hoodie is the wrong size?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back. The camo hoodies run XS to 3XL and each product page has a size chart.' },
+      { q: 'When should I order a hunter a Christmas gift?', a: 'Graphic Tees Co. prints each piece after you order it, so allow time for printing and shipping. For a December gift, order by December 4, 2026 to be safe. Exact estimates show at checkout.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
