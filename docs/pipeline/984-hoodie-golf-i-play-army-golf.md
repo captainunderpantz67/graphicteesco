@@ -1,4 +1,5 @@
-status: BUILDING [B] 17:28
+status: REVIEW
+shopify: gid://shopify/Product/15415354163504
 cover: fal-swap
 lane: C
 type: twin
@@ -27,3 +28,4 @@ push: niche-fill
 ---
 ## Log
 - 2026-10-21 17:05 UTC director: brief written, READY (hoodie twin, lane C, niche fill; $0 fal; registry claimed).
+- 2026-11-09 UTC [B]: pullover twin built to REVIEW. DRAFT gid://shopify/Product/15415354163504, 12 variants Sand + Sport Grey x S-3XL at $39.99, no compare-at, hoodies category. Printful sync 491598246 12/12 verified by file id (one file 1106947977 Sand / 1106948025 Sport, same art). fal $0. Source: live zip back print docs/print-files/622-v2-army-golf.png. Twin check R6.2: LEFT. RIGHT. LEFT. is real Alfa Slab, no panel/ring/badge; old punch I PLAY ARMY GOLF. was only 2686 px vs headline 3286 (82%), so erased and re-set in Anton, dark green 40,72,42 with cream keyline: headline 3286 / punch 3282 px = 100% of width. Subject is the whole scene band at full width, no shrink. Lockup 3288x3470, FW 1500 TOP 400 (about 10.5 in tall, ends above 2100). Colors changed from brief's Navy to Sand + Sport Grey: knocked-out skin and brown linework sink on Navy (as #622 and #978). No cream fill, so no light file needed. Phone-size read: every word legible on both mockups. Cover: fal-swap (clean Printful flat front Sand as image 1; handle in retired-covers.json; registry row 1142 unused). Alt text R7.8, variants linked to color photos. 5 FAQs 44-52 words, order-by Dec 8. Keyword golf hoodie for dad (unmeasured) in map. Audit script not run (crashes in env; director please run). Sheet docs/review/984.jpg.

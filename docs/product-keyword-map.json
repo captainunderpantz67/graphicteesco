@@ -12559,6 +12559,19 @@
     }
    ],
    "measured": "2026-11-09"
+  },
+  "mens-golf-i-play-army-golf-hoodie": {
+   "claimed": [
+    "golf hoodie for dad"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "golf hoodie for dad",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
