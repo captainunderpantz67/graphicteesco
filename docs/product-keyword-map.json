@@ -12572,6 +12572,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-christian-light-of-the-world-hoodie": {
+   "claimed": [
+    "light of the world hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "light of the world hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }

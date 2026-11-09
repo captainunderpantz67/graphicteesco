@@ -1,4 +1,5 @@
-status: BUILDING [B] 17:35
+status: REVIEW
+shopify: gid://shopify/Product/15415363207472
 cover: fal-swap
 lane: C
 type: twin
@@ -27,3 +28,4 @@ push: niche-fill
 ---
 ## Log
 - 2026-10-21 17:05 UTC director: brief written, READY (hoodie twin, lane C, niche fill; $0 fal; registry claimed).
+- 2026-11-09 UTC [B]: pullover twin built to REVIEW. DRAFT gid://shopify/Product/15415363207472, 12 variants Sand + Sport Grey x S-3XL at $39.99, no compare-at, hoodies category. Printful sync 491600328 12/12 verified by file id (Sand 1106953287 / Sport 1106953303, same art). fal $0. Source: crewneck #268 print file 1087905478 (3600x4109). Twin check R6.2: source had thin condensed hand-lettered LIGHT OF THE WORLD, tiny JOHN 8:12 caption and a brush-script Jesus, all weak on a hoodie, so all words erased and re-set fresh in Fraunces Black (face not among recent lane B builds: Bevan, Bowlby, Anton): headline JESUS 2724 px / punch LIGHT OF THE WORLD 2988 px (punch 100% of width and wider than headline), John 8:12 caption dropped from the art (verse named in copy). Lantern art 2100 of 3000 px = 70% of lockup, type 807 of 2408 px. Lockup 3000x2408, FW 1500 TOP 400 (about 8 in tall). Colors changed from brief's Navy to Sand + Sport Grey: dark brown linework sinks on Navy. No cream fill, so no light file. Phone-size read: every word legible on both mockups. Cover: fal-swap (clean Printful flat front Sand as image 1; handle in retired-covers.json; registry row 1143 unused). Alt text R7.8, variants linked to color photos. 5 FAQs 44-53 words, order-by Dec 8. Keyword light of the world hoodie (unmeasured) in map. Audit script not run (crashes in env; director please run). Sheet docs/review/985.jpg.
