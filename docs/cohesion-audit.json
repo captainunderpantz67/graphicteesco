@@ -1,6 +1,6 @@
 {
- "at": "2026-11-07T23:43:52.286Z",
- "products": 809,
+ "at": "2026-11-09T23:45:35.520Z",
+ "products": 816,
  "findings": [
   {
    "level": "WARN",
@@ -3639,6 +3639,55 @@
    "level": "WARN",
    "handle": "mens-golf-fairways-are-a-rumor-hoodie",
    "title": "Men's Golf – Fairways Are a Rumor Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-pitbull-scary-dog-afraid-of-the-vacuum-hoodie",
+   "title": "Unisex Pit Bull – Scary Dog. Afraid of the Vacuum. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-running-here-for-the-free-banana-hoodie",
+   "title": "Women's Running – Here for the Free Banana. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-anime-sharing-is-not-my-love-language-hoodie",
+   "title": "Unisex Anime – Sharing Is Not My Love Language Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "unisex-anime-thats-not-a-wave-its-a-no-hoodie",
+   "title": "Unisex Anime – That's Not a Wave. It's a No. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-golf-i-play-army-golf-hoodie",
+   "title": "Men's Golf – I Play Army Golf Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-christian-light-of-the-world-hoodie",
+   "title": "Women's Christian – Jesus, Light of the World Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-cat-oops-anyway-hoodie",
+   "title": "Women's Cat – Oops. Anyway. Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   }

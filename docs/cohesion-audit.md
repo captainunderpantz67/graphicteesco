@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-11-07 23:43 UTC
+# Cohesion audit — 2026-11-09 23:45 UTC
 
-809 live products checked · **0 errors** · 520 warnings · 484 products with findings
+816 live products checked · **0 errors** · 527 warnings · 491 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -1493,4 +1493,25 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Men's Golf – Fairways Are a Rumor Hoodie `mens-golf-fairways-are-a-rumor-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Pit Bull – Scary Dog. Afraid of the Vacuum. Hoodie `unisex-pitbull-scary-dog-afraid-of-the-vacuum-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Running – Here for the Free Banana. Hoodie `womens-running-here-for-the-free-banana-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Anime – Sharing Is Not My Love Language Hoodie `unisex-anime-sharing-is-not-my-love-language-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Unisex Anime – That's Not a Wave. It's a No. Hoodie `unisex-anime-thats-not-a-wave-its-a-no-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Golf – I Play Army Golf Hoodie `mens-golf-i-play-army-golf-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Christian – Jesus, Light of the World Hoodie `womens-christian-light-of-the-world-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Cat – Oops. Anyway. Hoodie `womens-cat-oops-anyway-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
