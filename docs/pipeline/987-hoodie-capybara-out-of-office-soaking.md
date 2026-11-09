@@ -1,9 +1,10 @@
-status: READY
+status: REVIEW
 cover: fal-swap
 lane: C
+shopify: gid://shopify/Product/15415547461936
 type: twin
 id: 987
-handle: womens-capybara-out-of-office-soaking-hoodie
+handle: womens-capybara-per-my-last-email-im-soaking-hoodie
 kd: unmeasured
 push: niche-fill
 ---
@@ -27,3 +28,4 @@ push: niche-fill
 ---
 ## Log
 - 2026-10-21 17:05 UTC director: brief written, READY (hoodie twin, lane C, niche fill; $0 fal; registry claimed).
+- 2026-11-09 UTC [B]: pullover twin built to REVIEW. The live #323 print's line is now PER MY LAST EMAIL, / I'M SOAKING. so the twin carries it (live print wins per brief); title and handle changed to womens-capybara-per-my-last-email-im-soaking-hoodie (no existing product has this handle; #473 is an embroidered variant). DRAFT gid://shopify/Product/15415547461936, 12 variants Sand + Navy x S-3XL at $39.99, no compare-at, hoodies category. Printful sync 491692198 12/12 verified by file id (Sand 1107150848 dark-ink headline / Navy 1107150874 cream headline). fal $0. Source: #323 print file 1090724506 (3528x3547), no re-letter (heavy condensed, keylined). Light file: Sand on file 1107150848, headline fill dark brown ink (cream fill on Navy only). FW 1500 TOP 400 (about 10 in tall). Headline 2981 / punch 3403 px (punch 114%). Capybara scene about 52% of lockup width, type about 22% of print height (live print's layout, not re-stacked; director may ask for a taller type share). Phone-size read OK on both. Cover: fal-swap flat front Sand as image 1; handle in retired-covers.json; registry row 1145 unused. Alt text R7.8, variants linked. 5 FAQs 44-50 words, order-by Dec 8. Keyword capybara soaking hoodie (unmeasured) in map. Audit script not run (crashes in env; director please run). Sheet docs/review/987.jpg.

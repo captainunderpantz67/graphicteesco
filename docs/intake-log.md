@@ -1,4 +1,6 @@
-RUNNING lane B since 2026-11-09 21:35 UTC
+2026-11-09 UTC — [B] Builder run end: 2 new products (#986, #987). New products today: 5 of 6. Lock released.
+2026-11-09 UTC — [B] built, REVIEW #987 Women's Capybara – Per My Last Email, I'm Soaking Hoodie (pullover twin of #323's live print, handle changed to match the live line, DRAFT synced 12/12 Sand+Navy, fal $0, FW 1500 TOP 400, headline 2981 / punch 3403 px, capybara scene about 52% of lockup, dark-ink Sand headline file, cover fal-swap flat front). New products today: 5 of 6.
+2026-11-09 UTC — [B] built, REVIEW #986 Women's Cat – Oops. Anyway. Hoodie (pullover twin of #394 art re-laid out shorter, DRAFT synced 12/12 Sand+Navy, fal $0, FW 1500 TOP 400, headline 3087 / punch 3192 px, cat 50% of lockup, cover fal-swap flat front). New products today: 4 of 6.
 2026-11-09 UTC — [B] built, REVIEW #985 Women's Christian – Jesus, Light of the World Hoodie (pullover twin of #268, words re-set heavy in Fraunces, DRAFT synced 12/12 Sand+Sport Grey, fal $0, FW 1500 TOP 400, headline 2724 / punch 2988 px, lantern 70% of lockup, cover fal-swap flat front). New products today: 3 of 6.
 2026-11-09 UTC — [B] Builder run end: 2 new products (#984, #985). Lock released.
 2026-11-09 UTC — [B] built, REVIEW #984 Men's Golf – I Play Army Golf Hoodie (pullover twin of #622 art, punch re-set to 100% of headline width, DRAFT synced 12/12 Sand+Sport Grey, fal $0, FW 1500 TOP 400, headline 3286 / punch 3282 px, cover fal-swap flat front). New products today: 2 of 6.

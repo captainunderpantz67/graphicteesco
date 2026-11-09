@@ -12585,6 +12585,32 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "womens-cat-oops-anyway-hoodie": {
+   "claimed": [
+    "oops anyway cat hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "oops anyway cat hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
+  },
+  "womens-capybara-per-my-last-email-im-soaking-hoodie": {
+   "claimed": [
+    "capybara soaking hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "capybara soaking hoodie",
+     "volume": 0,
+     "kd": 0
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }

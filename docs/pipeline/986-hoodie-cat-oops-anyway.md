@@ -1,6 +1,7 @@
-status: BUILDING [B]
+status: REVIEW
 cover: fal-swap
 lane: C
+shopify: gid://shopify/Product/15415547265328
 type: twin
 id: 986
 handle: womens-cat-oops-anyway-hoodie
@@ -27,3 +28,4 @@ push: niche-fill
 ---
 ## Log
 - 2026-10-21 17:05 UTC director: brief written, READY (hoodie twin, lane C, niche fill; $0 fal; registry claimed).
+- 2026-11-09 UTC [B]: pullover twin built to REVIEW. DRAFT gid://shopify/Product/15415547265328, 12 variants Sand + Navy x S-3XL at $39.99, no compare-at, hoodies category. Printful sync 491690860 12/12 verified by file id (Sand 1107148299 / Navy 1107148345, same art). fal $0. Source: crewneck #394 print file 1089619314 (3192x4434). Twin check R6.2: source lettering is heavy hand-style OOPS./ANYWAY. with dark keylines (not thin or typeset-small), kept as is; no panel/ring/box in the art. Re-laid out to hoodie height: art scaled to 55%, lockup 3192x3023, FW 1500 TOP 400 (about 9.5 in tall). Headline 3087 / punch 3192 px (punch 103%), cat art 1584 of 3192 px = 50% of lockup, type 40% of print height. Inks orange/mustard with dark keyline, no cream or white fill, so no light file needed. Phone-size read: both lines legible on both mockups. Cover: fal-swap (clean Printful flat front Sand as image 1; handle in retired-covers.json; registry row 1144 unused). Alt text R7.8, variants linked to color photos. 5 FAQs 44-52 words, order-by Dec 8. Keyword oops anyway cat hoodie (unmeasured) in map. Audit script not run (crashes in env; director please run). Sheet docs/review/986.jpg.
