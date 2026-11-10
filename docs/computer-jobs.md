@@ -14,6 +14,9 @@
 
 Things that need Sam's laptop and Chrome. Sam opens the computer about once a day and greets Tuesday ("Good morning Tuesday, it's time to save the world" or similar). That is the go signal: Claude works this list top to bottom, then clears what's done.
 
+## Request indexing (Sam's Chrome)
+- 2026-11-10: Search Console URL Inspection > Request indexing for https://graphicteesco.com/hoodies/christmas-hoodies/ (push 2 copy is live; docs/pipeline/1030 step 6).
+
 ## TikToks to review
 - 2026-11-10 (Telegram 02:49 UTC): TikTok link from Sam with no note (https://www.tiktok.com/t/ZTP2BUrdD/). Not reviewed yet; nothing asked of us beyond saving it.
 - 2026-11-07 (Telegram 23:45 UTC): TikTok link from Sam with no note (https://www.tiktok.com/t/ZPLVY7ELr/). Not reviewed yet; nothing asked of us beyond saving it.
