@@ -3588,6 +3588,88 @@ export const allGuides: Guide[] = [
       { q: 'When should I order a hunter a Christmas gift?', a: 'Graphic Tees Co. prints each piece after you order it, so allow time for printing and shipping. For a December gift, order by December 4, 2026 to be safe. Exact estimates show at checkout.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-10). Keyword: best oversized hoodies 880 / KD 19 (RankHero page pull via scripts/keyword-gap.py logic, measured 2026-11-10 unattended; no competition count). "oversized hoodie" stays with /hoodies/oversized-hoodies/ and "oversized hoodie men" with /hoodies/oversized-hoodies-for-men/; this article targets the "best" variant and links to both.
+    // Facts (fabric, weight, fit, sizes, colors, prices, policies) from the LIVE Shopify Stories read 2026-11-10 and site.ts. FAQ questions are not from PAA or GSC (not available unattended).
+    // Picks: Wake Me Up and Find Out, Out of Office In the Mud, Per My Last Email I'm Soaking, Sore Since 1987, I'm Not Aggressive Just Enthusiastic. Build drops any pick that is not live. Director: confirm grades (none checked against fresh-designs.json).
+    // Planned siblings (not live yet): oversized-hoodie-outfits.
+    slug: 'best-oversized-hoodies',
+    keyword: 'best oversized hoodies',
+    title: 'Best Oversized Hoodies: What to Look For, and 5 Funny Ones',
+    description: 'A good oversized hoodie is 10 oz fleece, cut roomy on purpose, with a hood that sits flat. Ours is $54.99, sizes S to 3XL. Five funny picks.',
+    h1: 'Best Oversized Hoodies: What to Look For, and Five Funny Ones We Make',
+    date: '2026-11-10',
+    cluster: 'hoodies',
+    draft: true,
+    answer: 'The best oversized hoodie is a heavy fleece cut roomy on purpose, so it hangs instead of clinging. The Graphic Tees Co. oversized hoodie is a 10 oz fleece, 60% cotton and 40% polyester, with a brushed inside, a double-layered hood and a front pocket, in sizes S to 3XL, Dust or Navy. It is $54.99 through November 30, 2026 and $59.99 from December 1. Five picks below.',
+    picks: [
+      {
+        h2: 'Which funny oversized hoodie is for the napper?',
+        body: ['Wake Me Up and Find Out. It is for the person whose favorite sport is the nap. It comes in Dust and Navy, $54.99.'],
+        items: [
+          { slogan: 'WAKE ME UP AND FIND OUT.', tee: 'mens-tiger-apex-napper-oversized-hoodie',
+            text: 'A big striped tiger stretches along a thick jungle branch fast asleep, one paw hanging down, in burnt orange, cream, sage and deep teal with a worn screen-print finish. WAKE ME UP AND sits above it and FIND OUT. below. It is $54.99.' },
+        ],
+      },
+      {
+        h2: 'Which oversized hoodie is for someone who cancelled their plans?',
+        body: ['Two. Out of Office, In the Mud is for the person who would like to be left alone with a tub. Per My Last Email, I’m Soaking is for whoever closed the laptop at 5:01. Both come in Dust and Navy, $54.99.'],
+        items: [
+          { slogan: 'OUT OF OFFICE. IN THE MUD.', tee: 'mens-pig-wallowing-respectfully-oversized-hoodie',
+            text: 'A plump pink pig lounges in a wooden barrel of thick mud with a towel on its head and cucumber slices over its eyes, a scrub brush on the rim. OUT OF OFFICE. runs across the chest in heavy capitals with IN THE MUD. under it. It is $54.99.' },
+          { slogan: 'PER MY LAST EMAIL, I’M SOAKING.', tee: 'womens-capybara-out-of-office-soaking-oversized-hoodie',
+            text: 'A calm capybara sits up to its chin in a steaming round hot spring ringed with smooth stones, a small mandarin orange on its head, drawn in warm brown, terracotta, sage and cream. It is $54.99.' },
+        ],
+      },
+      {
+        h2: 'Which oversized hoodie is for the gym?',
+        body: ['Sore Since 1987. It is roomy enough to pull over a tank between sets and warm enough for the walk home. It comes in Dust and Navy.'],
+        items: [
+          { slogan: 'SORE SINCE 1987', tee: 'mens-gym-sore-since-1987-oversized-hoodie',
+            text: 'SORE SINCE 1987 arches over an 80s lifter in a headband and tank, gym bag over his shoulder, limping up a staircase with one hand on the rail, in faded teal, orange and cream. It is $54.99.' },
+        ],
+        links: [{ href: '/hoodies/gym-hoodies/', text: 'Gym hoodies' }],
+      },
+      {
+        h2: 'Which oversized hoodie is for the friend who bites back?',
+        body: ['I’m Not Aggressive, Just Enthusiastic. It comes in Dust and Navy.'],
+        items: [
+          { slogan: 'I’M NOT AGGRESSIVE. JUST ENTHUSIASTIC.', tee: 'unisex-shark-friendly-ish-oversized-hoodie',
+            text: 'A big vintage great white shark grins wide with every tooth showing as it bursts up through a splash of water, in slate blue and coral on Dust and cream and coral on Navy. It is $54.99.' },
+        ],
+        links: [{ href: '/hoodies/oversized-hoodies/', text: 'All oversized hoodies' }, { href: '/hoodies/oversized-hoodies-for-men/', text: 'Men’s oversized hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good oversized hoodie?',
+        body: ['Weight, cut and hood. A good one is a heavy fleece, so the roomy body hangs straight instead of clinging, and the hood sits flat on the shoulders.',
+          'The Graphic Tees Co. oversized hoodie checks all three: a 10 oz fleece, 60% combed ring-spun cotton and 40% polyester, a brushed inside, a double-layered hood with no drawcord and a front pocket.'],
+        links: [{ href: '/guides/thick-hoodies/', text: 'Thick hoodies: how thick is 10 oz' }] },
+      { h2: 'What size oversized hoodie should you order?',
+        body: ['Your usual size. The cut is roomy on purpose, so your normal size gives the slouchy look. Go down one for a closer fit.',
+          'Sizes run S to 3XL, and every product page has a size chart. If the size is wrong, one replacement in a new size is free within 30 days of delivery, and you do not mail the first one back.'],
+        links: [{ href: '/guides/hoodie-sizing/', text: 'Hoodie sizing guide' }, { href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'How do you wear an oversized hoodie without looking sloppy?',
+        body: ['Keep the rest plain. Leggings, joggers or straight jeans and clean sneakers let the loose top be the one big shape, and the print does the talking.',
+          'Our baggy hoodies guide goes through the slouchy fit in more detail.'],
+        links: [{ href: '/guides/baggy-hoodies/', text: 'Baggy hoodies: how to get the slouchy fit' }, { href: '/guides/cozy-hoodies/', text: 'Cozy hoodies' }] },
+      { h2: 'How do you wash an oversized hoodie so the print lasts?',
+        body: ['Turn it inside out and wash cold with similar colors. Tumble dry low or hang it dry. Skip bleach and fabric softener, and never iron over the print.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'What do oversized hoodies cost at Graphic Tees Co.?',
+        body: ['$54.99 through November 30, 2026, and $59.99 from December 1. Each one is printed after you order it, and US shipping is free on orders of $45 or more, so one hoodie ships free.',
+          'For a December gift, order by about December 8. Exact estimates show at checkout.'],
+        links: [{ href: '/guides/best-hoodies-for-men/', text: 'Best hoodies for men' }, { href: '/guides/hoodies-for-teens/', text: 'Hoodies for teens' }, { href: '/hoodies/', text: 'All graphic hoodies' }] },
+    ],
+    faqs: [
+      { q: 'What is the best oversized hoodie?', a: 'A heavy fleece cut roomy on purpose. The Graphic Tees Co. oversized hoodie is a 10 oz fleece, 60% cotton and 40% polyester, with a brushed inside, a double-layered hood and a front pocket, $54.99 through November 30, 2026.' },
+      { q: 'What size should I get in an oversized hoodie?', a: 'Your usual size. The Graphic Tees Co. oversized hoodie is already cut roomy, in sizes S to 3XL. Go down one size for a closer fit. One replacement in a new size is free within 30 days of delivery.' },
+      { q: 'How heavy is an oversized hoodie?', a: 'The Graphic Tees Co. oversized hoodie is a 10 oz/yd² fleece with a brushed interior. It is warm enough for a cool evening and soft indoors. Our classic pullover is a lighter 8 oz.' },
+      { q: 'What colors do the oversized hoodies come in?', a: 'Dust and Navy. Graphic Tees Co. adjusts the ink for each color, so the art stays readable on both. Every pick on this page comes in both, sizes S to 3XL.' },
+      { q: 'How do I wash an oversized hoodie?', a: 'Turn it inside out, wash cold with similar colors and tumble dry low or hang to dry. Skip bleach and fabric softener, and never iron over the Graphic Tees Co. print.' },
+      { q: 'How much is an oversized hoodie?', a: 'At Graphic Tees Co., $54.99 through November 30, 2026 and $59.99 from December 1. US shipping is free on orders of $45 or more, so a single oversized hoodie ships free.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
