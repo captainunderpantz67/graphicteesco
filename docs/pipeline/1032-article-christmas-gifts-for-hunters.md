@@ -17,3 +17,4 @@ slug: christmas-gifts-for-hunters
 ## Log
 - 2026-11-09 UTC writer: drafted, build passes.
 - 2026-11-09 23:40 UTC director: APPROVED, held as draft (Nov 11 slot 1). Fixed a false free-shipping line (R8.6): 'a tee plus the Tag Soup ornament clears $45' ($39.98) -> 'so do two tees'. Picks all LIVE post camo-redo (Tree Sitter is the S6 varsity style from Sam's redo list, not a badge). Remove draft: line on publish.
+- 2026-11-10 23:30 UTC director: held as draft for Nov 11 (with #1033).

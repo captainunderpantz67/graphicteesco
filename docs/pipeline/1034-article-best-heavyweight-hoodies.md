@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: REDO
 lane: W
 type: article
 cluster: hoodies
@@ -17,3 +17,9 @@ slug: best-heavyweight-hoodies
 - `npx astro build` passes (drafts are not built).
 ## Log
 - 2026-11-10 UTC writer: drafted, build passes.
+- 2026-11-10 23:30 UTC director: REDO.
+  1. R2.1 / R2.8: the primary "best heavyweight hoodies" has no measurement (keyword-gap.py today: no volume, no KD), and the front matter's 14,800 / KD 20 belongs to "heavyweight hoodie", which /hoodies/heavyweight-hoodies/ owns. Also tried today: "best heavyweight hoodie" and "heavyweight hoodies men" (none), "heavy hoodie" 4,400 / KD 40 (unowned; thick-hoodies owns "thick hoodie"). Re-target to "heavy hoodie" (title, H1, answer, meta, once each where a person would say it; 400+ words for the KD 36+ band, R2.2) and fix volume/kd in the front matter, or set PARKED if it can't read naturally.
+  2. R3.7.8 / R5.1: the Leg Day pick has "Barely" as a small script line under the headline (the punch is the smallest line). Picks are the store's best work: swap it for an A-grade heavyweight gym design, or drop it to 4 picks.
+  3. R8.6: "Most heavyweight hoodies run XS to 3XL" and "on most designs" are vague. State the exact sizes and colors each pick is sold in, read from Shopify (the Leg Day body says Grey Heather; the launch pair is Sandstone + Storm Blue, R7.1).
+  4. Price line: say "$49.99 through November 30, 2026, $54.99 from December 1" (R12.1), like #1033, instead of "as of November 10".
+  5. Link /guides/best-oversized-hoodies/ only once #1033 is live (Nov 11).

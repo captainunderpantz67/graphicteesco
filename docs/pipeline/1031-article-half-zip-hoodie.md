@@ -1,4 +1,4 @@
-status: APPROVED
+status: LIVE
 lane: W
 type: article
 cluster: hoodies
@@ -17,3 +17,4 @@ slug: half-zip-hoodie
 ## Log
 - 2026-11-09 UTC writer: drafted, build passes.
 - 2026-11-09 23:40 UTC director: APPROVED, held as draft for the 2-articles-a-day cap (Nov 10 slot 2, after #1028). Honest about no hood, facts match live half zips, answer-first, 6 FAQs. Remove draft: line on publish.
+- 2026-11-10 23:30 UTC director: LIVE (draft: false). Article 2 of 2 for the Nov 10 Chicago day.

@@ -1,5 +1,5 @@
 ---
-status: APPROVED
+status: LIVE
 lane: W
 type: article
 cluster: tees
@@ -20,3 +20,4 @@ rewrite: are-graphic-tees-in-style
 ## Log
 - 2026-11-08 UTC writer: rewrite drafted, build passes.
 - 2026-11-09 14:50 UTC director: APPROVED, held for the Nov 10 article slot (2 already live today). Next director run: delete the older are-graphic-tees-in-style entry in src/data/guides.ts and set draft: false on this one. Good call dropping the unverifiable July-peak claim; 301,000 figure is the measured graphic tees volume.
+- 2026-11-10 23:30 UTC director: LIVE (draft: false; the old 'are-graphic-tees-in-style' entry removed so the rewrite replaces it at the same URL). Article 1 of 2 for the Nov 10 Chicago day.

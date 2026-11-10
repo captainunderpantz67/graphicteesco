@@ -307,29 +307,6 @@ export const allGuides: Guide[] = [
     ],
   },
   {
-    slug: 'are-graphic-tees-in-style',
-    keyword: 'are graphic tees in style 2026',
-    title: 'Are Graphic Tees Still in Style in 2026? Yes — Here’s What’s In',
-    description: 'Graphic tees are still in style in 2026. Here’s what’s in — vintage prints, oversized and cropped fits, western designs — and whether they’re business casual.',
-    h1: 'Are Graphic Tees Still in Style in 2026?',
-    date: '2026-10-02',
-    answer: 'Yes. "Graphic tees" averages about 301,000 US Google searches a month, and interest peaked in July 2026. What’s in right now: vintage-inspired prints, oversized and cropped fits, and western designs.',
-    sections: [
-      { h2: 'What graphic tees are in style right now?', body: ['Vintage-inspired prints with faded colors and retro type, oversized fits, cropped fits for women, and western and country designs are all popular in 2026.', 'Designs about real interests — fishing, hunting, faith, the gym — have stayed steady because they aren’t tied to a trend.'],
-        links: [{ href: '/vintage-graphic-tees/', text: 'Vintage graphic tees' }, { href: '/western-graphic-tees/', text: 'Western graphic tees' }, { href: '/oversized-graphic-tees/', text: 'Oversized graphic tees' }] },
-      { h2: 'Are graphic tees business casual?', body: ['Usually not on their own. Under a blazer with tailored trousers, a simple graphic tee can work in a relaxed office — check your dress code.'] },
-      { h2: 'Are graphic tees childish?', body: ['Not inherently. Fit and design decide it: a tee that fits well, with art about something you genuinely like, reads grown-up at any age.'],
-        links: [{ href: '/graphic-tees-for-women-over-40/', text: 'Graphic tees for women over 40' }] },
-      { h2: 'Are graphic tees Y2K or 90s?', body: ['Both eras leaned on graphic tees, and both looks are back: Y2K brings bubble letters and fitted or cropped tees, while 90s style brings oversized fits and vintage-band-style prints.'],
-        links: [{ href: '/y2k-graphic-tees/', text: 'Y2K graphic tees' }] },
-    ],
-    faqs: [
-      { q: 'Are graphic tees out of style?', a: 'No. Search interest in graphic tees peaked in July 2026, and they remain a wardrobe staple.' },
-      { q: 'Are graphic tees still in style for women?', a: 'Yes. Cropped, oversized, western and vintage-inspired graphic tees are all current for women.' },
-      { q: 'Are graphic tees immature?', a: 'Not when they fit well and the design reflects a real interest. Styling with a jacket or blazer makes them look more polished.' },
-    ],
-  },
-  {
     // Writer lane W rewrite (2026-11-08) of the live 'are-graphic-tees-in-style' guide, same slug. Rewrite queue item 6 of 6.
     // Keyword: graphic tee style 170 / KD 32 (RankHero page pull via curl, measured 2026-11-08, global volume). Unowned: not in collections.ts, product-keyword-map.json or other guides. The question phrases ("are graphic tees in style", "are graphic tees business casual") return no RankHero measurement (2026-11-08), so they stay as the slug, H2s and FAQ wording only. "graphic tees" 301,000 / KD 52 (measured 2026-11-08, global) is carried from the live entry as context, not targeted.
     // No picks: a trend explainer, so it links to the style hubs. Trend statements are general fashion description with no stats, tests or "peaked in July" claim (the live entry's trend-peak claim could not be re-checked unattended, so it is dropped). Policies from site.ts. FAQ questions are carried from the live entry plus the section questions, not from PAA or GSC (not available unattended).
@@ -341,7 +318,7 @@ export const allGuides: Guide[] = [
     h1: 'Are Graphic Tees Still in Style? What’s In Right Now',
     date: '2026-11-08',
     cluster: 'tees',
-    draft: true,
+    draft: false,
     answer: 'Yes, graphic tees are still in style. People search for “graphic tees” about 301,000 times a month worldwide, and the styles that look current are vintage-faded prints, oversized and cropped fits, western designs and Y2K lettering. Pick a fit you like and art about something you actually care about, and the tee never looks dated.',
     sections: [
       { h2: 'Are graphic tees still in style?',
@@ -3434,7 +3411,7 @@ export const allGuides: Guide[] = [
     h1: 'Half Zip Hoodie or Half Zip Pullover? What to Buy Instead of Guessing',
     date: '2026-11-09',
     cluster: 'hoodies',
-    draft: true,
+    draft: false,
     answer: 'A half zip hoodie is a hooded sweatshirt with a short zipper at the neck. Graphic Tees Co. does not make one with a hood. Our half zip is a pullover with a stand-up collar: a 10 oz fleece, 65% cotton and 35% polyester, in sizes XS to 3XL, Dust or Navy, $54.99 through November 30, 2026 and $59.99 from December 1. The full print goes on the back, so the zipper never splits it.',
     picks: [
       {

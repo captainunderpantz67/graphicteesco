@@ -1,4 +1,4 @@
-status: REVIEW
+status: APPROVED
 lane: W
 type: article
 cluster: hoodies
@@ -16,3 +16,4 @@ slug: best-oversized-hoodies
 - `npx astro build` passes (drafts are not built).
 ## Log
 - 2026-11-10 UTC writer: drafted, build passes.
+- 2026-11-10 23:30 UTC director: APPROVED, held as draft for Nov 11 (2 articles already live Nov 10). Keyword re-measured today: best oversized hoodies 880 / KD 19, unowned. All 5 picks and 11 link targets return 200; picks' prices and blank facts match R12.1 ($54.99 to Nov 30, $59.99 Dec 1). Answer-first, no claims beyond the live Stories.
