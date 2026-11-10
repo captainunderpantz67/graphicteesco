@@ -1,6 +1,6 @@
 {
- "at": "2026-11-09T23:45:35.520Z",
- "products": 816,
+ "at": "2026-11-10T14:44:20.021Z",
+ "products": 817,
  "findings": [
   {
    "level": "WARN",
@@ -3688,6 +3688,13 @@
    "level": "WARN",
    "handle": "womens-cat-oops-anyway-hoodie",
    "title": "Women's Cat – Oops. Anyway. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "womens-capybara-per-my-last-email-im-soaking-hoodie",
+   "title": "Women's Capybara – Per My Last Email, I'm Soaking Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   }

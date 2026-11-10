@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-11-09 23:45 UTC
+# Cohesion audit — 2026-11-10 14:44 UTC
 
-816 live products checked · **0 errors** · 527 warnings · 491 products with findings
+817 live products checked · **0 errors** · 528 warnings · 492 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -1514,4 +1514,7 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
 ### Women's Cat – Oops. Anyway. Hoodie `womens-cat-oops-anyway-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Women's Capybara – Per My Last Email, I'm Soaking Hoodie `womens-capybara-per-my-last-email-im-soaking-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
