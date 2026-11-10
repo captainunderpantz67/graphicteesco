@@ -36,8 +36,8 @@ export const site = {
   email: 'samuel@pricklypearmarketingco.com', // same contact email as the Shopify policies (Sam, 2026-10-16)
   // Public business phone + address (Merchant Center "Misrepresentation" fix, 2026-11-08). null = hidden.
   // Must match Merchant Center business info and the Shopify contact-information policy exactly.
-  phone: null as string | null, // TODO(Sam): Google Voice number
-  address: null as { street: string; city: string; region: string; postal: string; country: string } | null, // TODO(Sam)
+  phone: '(903) 624-3035' as string | null, // Sam, 2026-11-10
+  address: { street: '1821 S Woodlawn Blvd', city: 'Denison', region: 'TX', postal: '75020', country: 'US' } as { street: string; city: string; region: string; postal: string; country: string } | null, // Sam, 2026-11-10
   // Shopify-hosted legal policies (live on the checkout domain). Linked in the footer + contact page.
   policies: [
     { label: 'Privacy policy', href: 'https://checkout.graphicteesco.com/policies/privacy-policy' },
