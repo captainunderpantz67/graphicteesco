@@ -3720,6 +3720,84 @@ export const allGuides: Guide[] = [
       { q: 'How much is a heavy hoodie?', a: 'At Graphic Tees Co., $49.99 through November 30, 2026 and $54.99 from December 1. US shipping is free on orders of $45 or more, so a single heavyweight hoodie ships free.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-11). Keyword: cute hoodies for women 8,100 / KD 12 (RankHero page pull, measured 2026-11-11 via curl). Unowned: not in collections.ts, product-keyword-map.json or guides.ts. Chosen because "cropped zip up hoodie" 9,900 / KD 11 is measured but we sell no cropped zip hoodie (checked live 2026-11-11), so an article on it would have nothing to show.
+    // Picks: Oops. Anyway., Plot Twist, Don't Talk to Me I'm Counting, Per My Last Email I'm Soaking, I'm Fine Just a Little Rain. Stories, colors, sizes and prices read from live Shopify 2026-11-11. Build drops any pick that is not live.
+    // Planned/sibling (draft, not live yet): best-oversized-hoodies, best-heavyweight-hoodies (link once live).
+    slug: 'cute-hoodies-for-women',
+    keyword: 'cute hoodies for women',
+    title: 'Cute Hoodies for Women: 5 Funny Graphic Picks & How They Fit',
+    description: 'Cute hoodies for women with original art: a cat, a book nook, a knitter, a capybara and an axolotl. $39.99 to $54.99, sizes S to 3XL, printed to order.',
+    h1: 'Cute Hoodies for Women: Five Graphic Picks and How They Fit',
+    date: '2026-11-11',
+    cluster: 'hoodies',
+    draft: true,
+    answer: 'A cute hoodie for women is a soft fleece pullover with a sweet or silly picture on it, in colors like Sand, Light Pink or Dust. Graphic Tees Co. makes five original ones: a coffee-spilling cat, a cozy reading nook, a knitter with a sleeping cat, a soaking capybara and a smiling axolotl. The classic pullovers are $39.99 and the oversized ones $54.99 through November 30, 2026, all in sizes S to 3XL and printed to order.',
+    picks: [
+      {
+        h2: 'Which cute hoodie is for a cat person?',
+        body: ['Oops. Anyway. It comes in Sand and Navy, sizes S to 3XL, $39.99.'],
+        items: [
+          { slogan: 'OOPS. ANYWAY.', tee: 'womens-cat-oops-anyway-hoodie',
+            text: 'A smug grey tabby rests a paw on a round wooden stool while a striped mug tips over mid-splash, coffee frozen in the air. OOPS. runs across the top in burnt orange and ANYWAY. across the bottom in mustard.' },
+        ],
+      },
+      {
+        h2: 'Which cute hoodie is for staying in with a book or a project?',
+        body: ['Two. Plot Twist is for the reader who cancelled plans. Don’t Talk to Me, I’m Counting is for the knitter. Both are $39.99, in sizes S to 3XL.'],
+        items: [
+          { slogan: 'PLOT TWIST: I STAYED IN', tee: 'womens-bookish-plot-twist-hoodie',
+            text: 'PLOT TWIST: I STAYED IN is lettered in chunky rust-orange 1970s bubble capitals around a striped armchair with a crocheted blanket, a stack of books topped with a steaming mug, a reading lamp and a sleeping cat. It comes in Sand and Navy, and the Navy goes up to 5XL.' },
+          { slogan: 'DON’T TALK TO ME. I’M COUNTING.', tee: 'womens-knitting-one-more-row-hoodie',
+            text: 'A floral armchair sits beside a table with a lamp and a mantel clock, a tabby asleep on a basket of yarn and a half-knit striped scarf on two needles on the floor, under DON’T TALK TO ME. in red capitals and I’M COUNTING. in heavy navy capitals. It comes in Sand and Light Pink.' },
+        ],
+        links: [{ href: '/guides/cozy-hoodies/', text: 'Cozy hoodies' }],
+      },
+      {
+        h2: 'Which cute oversized hoodie is the softest for a day off?',
+        body: ['Two oversized ones, both cut roomy on purpose. Per My Last Email, I’m Soaking and I’m Fine. Just a Little Rain. come in Dust and Navy, sizes S to 3XL, $54.99 through November 30, 2026.'],
+        items: [
+          { slogan: 'PER MY LAST EMAIL, I’M SOAKING.', tee: 'womens-capybara-out-of-office-soaking-oversized-hoodie',
+            text: 'A calm capybara sits up to its chin in a steaming round hot spring ringed with smooth stones, eyes half closed, a small mandarin orange on its head, drawn in warm brown, terracotta, sage and cream.' },
+          { slogan: 'I’M FINE. JUST A LITTLE RAIN.', tee: 'womens-axolotl-smiling-through-it-oversized-hoodie',
+            text: 'A pink axolotl with frilly gills grins in a striped teacup while a dark storm cloud pours four big raindrops on its head, with a few small daisies around the cup, in axolotl pink, sage, mustard and cream.' },
+        ],
+        links: [{ href: '/hoodies/oversized-hoodies/', text: 'All oversized hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a hoodie cute?',
+        body: ['There is no rule, but here it means a soft pullover, gentle colors and a picture that makes you smile before you read the line. Sand, Light Pink and Dust do the soft part, and the art does the rest.',
+          'Every Graphic Tees Co. design is original, made for this shop, and each one has a dry joke in the lettering so the cute does not tip into sweet.'],
+        links: [{ href: '/hoodies/graphic-hoodies-for-women/', text: 'Graphic hoodies for women' }] },
+      { h2: 'How do cute hoodies for women fit?',
+        body: ['The classic pullovers are a unisex fit, so order your usual size, or go up one for a roomier layer over a tee. The oversized ones are cut loose on purpose, so your usual size gives the slouchy look and one size down is closer.',
+          'Sizes run S to 3XL on all five picks. If the size is off, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and you do not mail the first one back.'],
+        links: [{ href: '/guides/hoodie-sizing/', text: 'Hoodie sizing guide' }, { href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'What are cute hoodies made of?',
+        body: ['The classic pullovers are 50% pre-shrunk cotton and 50% polyester fleece at 8 oz per square yard, with a double-lined hood, a matching drawcord, a front pouch pocket and ribbed cuffs and waistband.',
+          'The oversized ones are heavier: a 10 oz fleece, 60% combed ring-spun cotton and 40% polyester, with a brushed inside and a double-layered hood with no drawcord.'],
+        links: [{ href: '/guides/thick-hoodies/', text: 'Thick hoodies' }, { href: '/guides/baggy-hoodies/', text: 'Baggy hoodies' }] },
+      { h2: 'How do you wash a cute hoodie so the print lasts?',
+        body: ['Turn it inside out and wash cold with similar colors. Tumble dry low or hang it dry. Skip bleach and fabric softener, and keep the iron off the print.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'What do cute hoodies cost, and when do they arrive?',
+        body: ['The three classic pullovers are $39.99. The two oversized hoodies are $54.99 through November 30, 2026. US shipping is free on orders of $45 or more, so the oversized ones ship free and a classic pullover needs a small add-on.',
+          'Each one is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. For a Christmas gift, order by about December 8.'],
+        links: [{ href: '/hoodies/', text: 'All graphic hoodies' }] },
+      { h2: 'Where can you find more hoodie ideas?',
+        body: ['For something short and waist-length, see the black cropped hoodie guide. For the gym, see gym hoodies for women. For a guy on your list, see best hoodies for men.'],
+        links: [{ href: '/guides/black-cropped-hoodie/', text: 'Black cropped hoodie' }, { href: '/guides/gym-hoodies-for-women/', text: 'Gym hoodies for women' }, { href: '/guides/best-hoodies-for-men/', text: 'Best hoodies for men' }] },
+    ],
+    faqs: [
+      { q: 'What are the best cute hoodies for women?', a: 'Soft fleece pullovers with a sweet or silly picture. Graphic Tees Co. makes five: Oops. Anyway., Plot Twist, Don’t Talk to Me. I’m Counting., Per My Last Email, I’m Soaking and I’m Fine. Just a Little Rain., $39.99 to $54.99.' },
+      { q: 'What size should I get in a cute hoodie?', a: 'Your usual size. The Graphic Tees Co. classic pullovers are a unisex fit and the oversized ones are cut roomy, all in sizes S to 3XL. Go up one for a roomier layer. One replacement size is free within 30 days.' },
+      { q: 'What colors do cute hoodies come in?', a: 'At Graphic Tees Co., Oops. Anyway. and Plot Twist come in Sand and Navy, the knitter hoodie in Sand and Light Pink, and the two oversized hoodies in Dust and Navy. The ink is adjusted for each color.' },
+      { q: 'Are cute hoodies warm?', a: 'The Graphic Tees Co. classic pullover is an 8 oz fleece, warm for a cool day and good for layering. The oversized hoodies are a heavier 10 oz fleece with a brushed inside, for colder evenings.' },
+      { q: 'How do I wash a graphic hoodie?', a: 'Turn it inside out, wash cold with similar colors and tumble dry low or hang to dry. Skip bleach and fabric softener, and do not iron over the Graphic Tees Co. print.' },
+      { q: 'How much are cute hoodies at Graphic Tees Co.?', a: 'The classic pullovers are $39.99 and the oversized hoodies are $54.99 through November 30, 2026. US shipping is free on orders of $45 or more, and every hoodie is printed to order.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
