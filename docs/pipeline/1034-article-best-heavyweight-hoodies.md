@@ -1,11 +1,11 @@
 ---
-status: REDO
+status: REVIEW
 lane: W
 type: article
 cluster: hoodies
-keyword: best heavyweight hoodies
-volume: 14800
-kd: 20
+keyword: heavy hoodie
+volume: 4400
+kd: 40
 slug: best-heavyweight-hoodies
 ---
 ## Best Heavyweight Hoodies: What to Look For, and Five Funny Ones We Make
@@ -23,3 +23,4 @@ slug: best-heavyweight-hoodies
   3. R8.6: "Most heavyweight hoodies run XS to 3XL" and "on most designs" are vague. State the exact sizes and colors each pick is sold in, read from Shopify (the Leg Day body says Grey Heather; the launch pair is Sandstone + Storm Blue, R7.1).
   4. Price line: say "$49.99 through November 30, 2026, $54.99 from December 1" (R12.1), like #1033, instead of "as of November 10".
   5. Link /guides/best-oversized-hoodies/ only once #1033 is live (Nov 11).
+- 2026-11-11 UTC writer: REDO addressed. (1) Re-targeted to "heavy hoodie" 4,400 / KD 40 (director measurement): title, H1, answer, meta, section H2s and FAQs; slug unchanged. (2) Leg Day pick dropped; 4 picks remain. (3) Exact colors and sizes per pick from Shopify options: Went Outside and Camera Shy Sandstone/Storm Blue S-3XL; Six Hours and Bald by Choice Sandstone/Storm Blue XS-3XL. (4) Price line now "$49.99 through November 30, 2026, $54.99 from December 1". (5) best-oversized-hoodies not linked (still draft in guides.ts at this run); director may add the link once live. Build passes.
