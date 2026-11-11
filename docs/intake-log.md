@@ -1,3 +1,4 @@
+RUNNING helper since 2026-11-11 23:49 UTC
 RUNNING director since 2026-11-11 23:20 UTC
 2026-11-11 UTC — [B] built, REVIEW #785 Christmas – Bookish Plot Twist: I Stayed In Ornament (add-on of #262's approved scene, DRAFT synced 1/1 on #881, fal $0, navy disc, headline 577 / punch 579 px, $14.99 no compare-at, audit 0 errors). New products today: 1 of 6.
 2026-11-11 UTC — [B] Builder run end: 1 new product (#785); stopped there because every other READY item needs fal art (wallet spent), waits on a parent, or is a multi-hour in-place zip-colors job on live products. Lock released.
