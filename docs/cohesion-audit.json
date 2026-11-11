@@ -1,6 +1,6 @@
 {
- "at": "2026-11-11T14:51:00.962Z",
- "products": 817,
+ "at": "2026-11-11T23:50:13.952Z",
+ "products": 818,
  "findings": [
   {
    "level": "WARN",
@@ -3697,6 +3697,27 @@
    "title": "Women's Capybara – Per My Last Email, I'm Soaking Hoodie",
    "msg": "No lifestyle cover photo.",
    "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "bookish-plot-twist-i-stayed-in-ornament",
+   "title": "Christmas – Bookish Plot Twist: I Stayed In Ornament",
+   "msg": "Cover alt text doesn't say who is in the photo.",
+   "fix": "Start the alt with \"Woman…\", \"Man…\" or \"Man and woman…\"."
+  },
+  {
+   "level": "WARN",
+   "handle": "bookish-plot-twist-i-stayed-in-ornament",
+   "title": "Christmas – Bookish Plot Twist: I Stayed In Ornament",
+   "msg": "christmas design isn't in any christmas collection.",
+   "fix": "Tag it so it appears in the christmas shirts page."
+  },
+  {
+   "level": "WARN",
+   "handle": "bookish-plot-twist-i-stayed-in-ornament",
+   "title": "Christmas – Bookish Plot Twist: I Stayed In Ornament",
+   "msg": "SEO title is 61 chars (> 60).",
+   "fix": "Trim to ≤ 60."
   }
  ]
 }

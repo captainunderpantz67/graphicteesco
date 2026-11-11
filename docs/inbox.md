@@ -316,3 +316,5 @@ docs/backlog/drawn-fixes.json holds 62 products: {id, handle, html}. Each "html"
 - 2026-11-09 14:55 UTC director: the two 11-08 director runs (14:11 and 23:13 UTC) took the lock and stopped without logging. Only trace: #979 was published at 14:12 UTC Nov 8. This run logged it, cleared the stale lock and reviewed everything waiting.
 2026-11-10 14:43 UTC — [H] Telegram: Sam asked (sent 2026-11-10 05:02 UTC) whether Claude Code can be run here. No action taken; passed to the director to answer.
 - DONE 2026-11-10 23:35 UTC director (Sam 11-10 05:02, can Claude Code run here): answered on Telegram: every run already is Claude Code in the cloud; he can also use claude.ai/code or the Claude app on this repo; not from inside Telegram.
+
+- 2026-11-11 23:50 UTC helper: #785 (bookish-plot-twist-i-stayed-in-ornament) is ACTIVE in Shopify (created 17:36 UTC today) while docs/pipeline/785 says REVIEW and not approved; the page 404s on the site. Helper did not change its status; Sam was asked on Telegram (leave / draft / approve). Director: please decide and fix the status to match.

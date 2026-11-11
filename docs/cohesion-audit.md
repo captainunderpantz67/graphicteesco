@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-11-11 14:51 UTC
+# Cohesion audit — 2026-11-11 23:50 UTC
 
-817 live products checked · **0 errors** · 528 warnings · 492 products with findings
+818 live products checked · **0 errors** · 531 warnings · 493 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -1518,3 +1518,8 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 
 ### Women's Capybara – Per My Last Email, I'm Soaking Hoodie `womens-capybara-per-my-last-email-im-soaking-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Christmas – Bookish Plot Twist: I Stayed In Ornament `bookish-plot-twist-i-stayed-in-ornament`
+- **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
+- **WARN** christmas design isn't in any christmas collection. → Tag it so it appears in the christmas shirts page.
+- **WARN** SEO title is 61 chars (> 60). → Trim to ≤ 60.
