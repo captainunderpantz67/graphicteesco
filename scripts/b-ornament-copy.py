@@ -3,7 +3,7 @@
 spec: {name (e.g. 'Pickleball – My Partner Says It Was Out'), kw, handle, tags[], story[3 paras, kw in the first], joke_a (FAQ answer about the joke), source_name, source_url_handle,
        who (short phrase for FAQ), seo{title,description}}"""
 import json, re, sys
-s = json.load(open(sys.argv[1])); N = s['name'] + ' Ornament'
+s = json.load(open(sys.argv[1])); N = s['name'] + ' Ornament'; SH = s.get('short', 'ornament')
 faq = lambda q, a: f'<p><strong>{q}</strong><br>{a}</p>\n'
 src = f'<a href="/products/{s["source_handle"]}">{s["source_name"]}</a>'
 d = '<h3>The Story</h3>\n' + ''.join(f'<p>{p}</p>\n' for p in s['story']) + '''<h3>Details &amp; Fit</h3>
@@ -17,11 +17,11 @@ d = '<h3>The Story</h3>\n' + ''.join(f'<p>{p}</p>\n' for p in s['story']) + '''<
 </ul>
 <p>Each ornament is made to order. Ceramic is fragile: hang it on a sturdy branch and wrap it for storage.</p>
 <h3>Questions</h3>
-''' + faq(f'What is the joke on the {N}?', s['joke_a']) \
- + faq(f'What is the {N} made of and how big is it?', f'The {N} from Graphic Tees Co. is a 100% ceramic circle with a glossy finish and a white back. It measures 2.76 inches (7 cm) across and 0.125 inches thick, so it sits easily on a tree branch or tied to a gift.') \
- + faq(f'How do I hang the {N}?', f'The {N} comes with a gold-colored string already attached, so you can loop it over a branch, a wreath, a gift ribbon or a hook. It is a small, light ornament, so any sturdy branch holds it. Hang it where it will not swing into harder decorations.') \
- + faq(f'How do I care for the {N}?', f'Wipe the {N} clean with a soft, dry or slightly damp cloth and do not scrub the print. It is ceramic, so it can chip if dropped or knocked against other ornaments. After the holidays, wrap it in tissue and store it in a padded box.') \
- + faq(f'Will the {N} arrive in time for Christmas?', f'Graphic Tees Co. makes each {N} to order, and orders over $45 ship free in the US. For Christmas, order by about December 8 so it arrives with time to spare. It also works as a stocking stuffer and matches the {s["source_name"]}.')
+''' + faq('What is the joke on this ornament?', s['joke_a']) \
+ + faq('What is it made of and how big is it?', f'This {SH} from Graphic Tees Co. is a 100% ceramic circle with a glossy finish and a white back. It measures 2.76 inches (7 cm) across and 0.125 inches thick, so it sits easily on a tree branch or tied to a gift.') \
+ + faq('How do I hang it?', f'This {SH} comes with a gold-colored string already attached, so you can loop it over a branch, a wreath, a gift ribbon or a hook. It is small and light, so any sturdy branch holds it. Hang it where it will not swing into harder decorations.') \
+ + faq('How do I care for it?', f'Wipe this {SH} clean with a soft, dry or slightly damp cloth and do not scrub the print. It is ceramic, so it can chip if dropped or knocked against other ornaments. After the holidays, wrap it in tissue and store it in a padded box.') \
+ + faq('Will it arrive in time for Christmas?', f'Graphic Tees Co. makes each ornament to order, and orders over $45 ship free in the US. For Christmas, order by about December 8 so it arrives with time to spare. It also works as a stocking stuffer and matches the {s["source_name"]}.')
 inp = {'title': s['name'] + ' Ornament', 'handle': s['handle'], 'status': 'DRAFT', 'vendor': 'Graphic Tees Co.', 'productType': 'Ornaments', 'category': 'gid://shopify/TaxonomyCategory/hg-3-58-7',
        'tags': s['tags'], 'descriptionHtml': d, 'seo': s['seo'],
        'productOptions': [{'name': 'Shape', 'values': [{'name': 'Circle'}]}],

@@ -1,8 +1,9 @@
-status: READY
+status: REVIEW
 lane: A
 type: addon
 id: 785
 handle: bookish-plot-twist-i-stayed-in-ornament
+shopify: gid://shopify/Product/15419501117744
 kd: 32
 ---
 ## Christmas – Bookish Plot Twist: I Stayed In Ornament
@@ -23,3 +24,4 @@ kd: 32
 ---
 ## Log
 - 2026-10-21 01:30 UTC director: brief written, READY (lane A; ornament of #262/#309's art; bookish ornament 4,400 / KD 32, Nov–Dec surge).
+- 2026-11-11 17:38 UTC [B]: built, DRAFT gid 15419501117744, Printful #881 sync 492492538, 1/1 synced on file 1108754542 (954x954, scripts/b-ornament-print.py, spec designs/b785/spec.json). Art = #262's chair scene lifted from Printful file 1087888035 (words removed by connected components, knocked-out cat/mug interiors filled cream, nothing regenerated); lettering Bowlby One re-set for the disc, no line change. Navy #1c2a4a disc: PLOT TWIST: cream 577 px / I STAYED IN mustard 579 px (punch >= headline). Dark disc so no light-file issue; reads at phone size on the mockup. $14.99, no compare-at, category hg-3-58-7, tags ornament, christmas, christmas-ornament, gift-addon, bookish, intake-done. Copy 524 words, 5 FAQs 43-59 words (shopper-phrased, no full title), 'bookish ornament' in line one, SEO title and meta (3 uses), keyword map recorded (bookish ornament 4400/KD 32). Cover: Printful #881 flat circle mockup, no person, linked to the variant. Audit via --admin-json: 0 errors, 4 warnings. fal $0. Sheet docs/review/785.jpg.

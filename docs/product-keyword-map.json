@@ -12611,6 +12611,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "bookish-plot-twist-i-stayed-in-ornament": {
+   "claimed": [
+    "bookish ornament"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "bookish ornament",
+     "volume": 4400,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
