@@ -3875,6 +3875,83 @@ export const allGuides: Guide[] = [
       { q: 'How much are hoodies for dad at Graphic Tees Co.?', a: 'The pullovers are $39.99 and the heavyweight is $49.99 through November 30, 2026, then $44.99 and $54.99 from December 1. US shipping is free on orders of $45 or more, and every hoodie is printed to order.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-12), cropped cluster. Keyword: white cropped tee 1,900 / KD 15 (RankHero page pull, measured 2026-11-12 via curl). Unowned: not in collections.ts, product-keyword-map.json or guides.ts ("cropped graphic tee" stays with /cropped-graphic-tees/). Chosen because the cropped cluster has the fewest articles and the white-cropped-hoodie sibling is impossible (no cropped hoodie comes in White). Other phrases measured: black cropped tee 1,600 / KD 16 (next sibling), pink cropped tee 320 / KD 30, pink cropped hoodie 1,600 / KD 16 (no cropped hoodie in pink, not usable).
+    // Facts (art, colors, sizes, fabric, price) from the LIVE Shopify Stories and variants read 2026-11-12 for all five picks (ACTIVE, White in stock-policy DENY list, XS-XL). Picks follow the live art text. FAQ questions are not from PAA or GSC (not available unattended). Tee grades not checked in fresh-designs.json: director to confirm A-grade.
+    // Picks: Wildflower Club, Matcha Made in Heaven, Espresso Yourself, Can't Talk. Deadlifting., Book Buying Ban. Build drops any pick that is not live.
+    // Planned siblings (not live yet): black-cropped-tee, cropped-hoodie-outfits.
+    slug: 'white-cropped-tee',
+    keyword: 'white cropped tee',
+    title: 'White Cropped Tee: 5 Graphic Picks, Fit & How to Wear One',
+    description: 'A white cropped tee with original art: wildflowers, matcha, espresso, deadlifts and books. $24.99, 5.3 oz combed cotton, XS to XL, printed to order.',
+    h1: 'White Cropped Tee: Five Graphic Picks, How They Fit and How to Wear One',
+    date: '2026-11-12',
+    cluster: 'cropped',
+    draft: true,
+    answer: 'A white cropped tee is a short tee whose hem lands at the waistband, so it sits clean over high-rise jeans, skirts and leggings. Graphic Tees Co. sells five original-art cropped tees in White for $24.99 each: Wildflower Club, Matcha Made in Heaven, Espresso Yourself, Can’t Talk. Deadlifting. and Book Buying Ban. They are 5.3 oz combed cotton in sizes XS to XL, printed after you order.',
+    picks: [
+      {
+        h2: 'Which white cropped tee has the prettiest art?',
+        body: ['Two for the person who likes a drawing on her shirt more than a slogan. Both come in White, are $24.99, and run XS to XL.'],
+        items: [
+          { slogan: 'WILDFLOWER CLUB', tee: 'womens-vintage-cropped-wildflower-club-graphic-tee',
+            text: 'A bouquet of a mustard poppy, white daisies, a blush poppy, lavender and wheat is tied with a striped rust ribbon and set inside a scalloped navy patch with a cream border, lettered in arched varsity type. It comes in six colors, White among them.' },
+          { slogan: 'MATCHA MADE IN HEAVEN', tee: 'womens-cropped-matcha-made-in-heaven-graphic-tee',
+            text: 'A frothy matcha latte sits in a deep green cup on its saucer, a bamboo whisk leaning against it and a little pink cloud floating above, with MATCHA MADE IN HEAVEN in chunky retro letters on top. Matcha green, sage and soft pink, drawn like a vintage cafe menu.' },
+        ],
+        links: [{ href: '/cropped-graphic-tees/', text: 'All cropped graphic tees' }],
+      },
+      {
+        h2: 'Which white cropped tee is for coffee, books or the gym?',
+        body: ['Three with a joke you can read from across the room. Each is $24.99 in White and runs XS to XL.'],
+        items: [
+          { slogan: 'ESPRESSO YOURSELF', tee: 'womens-cropped-espresso-yourself-graphic-tee',
+            text: 'A little retro espresso machine pulls a shot into a tiny cup, steam rising in small hearts, with fat coffee beans scattered around its base and ESPRESSO YOURSELF in chunky brown retro letters on top, in coffee brown, cream and terracotta.' },
+          { slogan: 'BOOK BUYING BAN: DAY ONE (AGAIN)', tee: 'womens-cropped-book-buying-ban-graphic-tee',
+            text: 'A young woman with a high ponytail and round glasses steps out of a small bookstore under a striped awning, hugging a tall stack of hardcovers up to her chin while another stack waits on a little table by the door, in dark red, cream, mustard and teal inks.' },
+          { slogan: 'CAN’T TALK. DEADLIFTING.', tee: 'womens-cropped-lift-heavy-reply-later-graphic-tee',
+            text: 'A 1960s woman in a headband, leotard and lace-up sneakers pulls a loaded barbell off the floor while a rotary telephone rings on the wooden bench behind her, with CAN’T TALK. above and DEADLIFTING. below in tall condensed capitals.' },
+        ],
+        links: [{ href: '/mens-gym-shirts/', text: 'Gym shirts' }],
+      },
+    ],
+    sections: [
+      { h2: 'What is a white cropped tee?',
+        body: ['It is a short-sleeve crew-neck tee cut so the hem ends around the waistband, with a relaxed body and dropped shoulders. White is the clean, bright option, and it lets a printed scene stand out as the only color on you.',
+          'Graphic Tees Co. cropped tees have a ribbed crew neck, and the art is original, made for this shop.'],
+        links: [{ href: '/cropped-graphic-tees/', text: 'Cropped graphic tees' }, { href: '/guides/how-to-style-graphic-tees/', text: 'How to style graphic tees' }] },
+      { h2: 'How does a white cropped tee fit?',
+        body: ['Order your usual size for the intended crop, or go up one for a longer, looser drape. The cut is relaxed with dropped shoulders and a hem at the waistband, and sizes run XS to XL.',
+          'If the size is off, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and you do not have to mail the first one back.'],
+        links: [{ href: '/guides/hoodie-sizing/', text: 'Sizing guide' }, { href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'What is a white cropped tee made of?',
+        body: ['The Graphic Tees Co. cropped tee is 100% combed cotton at 5.3 oz per square yard, pre-shrunk, with side seams, shoulder-to-shoulder taping and double-needle hems.',
+          'That is a little heavier than the 4.2 oz tees elsewhere in the shop, a soft, steady weight that holds its shape.'] },
+      { h2: 'How do you wear a white cropped tee?',
+        body: ['Wear it with high-rise jeans, a skirt or high-waisted leggings so the hem meets the waistband. Add a denim jacket or an oversized flannel on top when it gets cool.',
+          'The hem is meant to sit at the waist, so it works best with bottoms that start there. For a cozier layer over it, the cropped hoodies use the same short cut.'],
+        links: [{ href: '/hoodies/cropped-hoodies/', text: 'Cropped hoodies' }, { href: '/guides/black-cropped-hoodie/', text: 'Black cropped hoodie' }] },
+      { h2: 'How do you wash a white cropped tee so the print lasts?',
+        body: ['Turn it inside out, wash cold with similar colors, then tumble dry low or hang it dry. Skip bleach and fabric softener, and never iron over the print.',
+          'The design is printed straight onto the fabric, so cold water and low heat keep the inks sharp longer.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'What does a white cropped tee cost, and when does it arrive?',
+        body: ['Each cropped tee in this guide is $24.99. US shipping is free on orders of $45 or more, so two tees ship free. Each one is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. For a Christmas gift, order by about December 8.',
+          'Buying for a group? Order 10 or more items in one cart and 15% comes off at checkout.'],
+        links: [{ href: '/group-shirts/', text: 'Group orders' }] },
+      { h2: 'Where can you find more cropped ideas?',
+        body: ['For the gym side, see the gym cropped hoodie guide. For a heavier layer over a tee, see the cropped hoodies page.'],
+        links: [{ href: '/guides/gym-cropped-hoodie/', text: 'Gym cropped hoodie' }, { href: '/hoodies/cropped-hoodies/', text: 'Cropped hoodies' }] },
+    ],
+    faqs: [
+      { q: 'What is a white cropped tee?', a: 'A short tee whose hem ends at the waistband. The Graphic Tees Co. white cropped tees are 100% combed cotton at 5.3 oz, in sizes XS to XL, for $24.99 each.' },
+      { q: 'How should a white cropped tee fit?', a: 'Order your usual size for the crop, or one size up for a longer, looser drape. Graphic Tees Co. also sends one free replacement in a new size within 30 days of delivery.' },
+      { q: 'What do you wear with a white cropped tee?', a: 'High-rise jeans, a skirt or high-waisted leggings, so the hem meets the waistband. The Graphic Tees Co. cropped tee hem sits at the waist, so low-rise bottoms leave a gap.' },
+      { q: 'What is a Graphic Tees Co. cropped tee made of?', a: 'It is 100% combed cotton at 5.3 oz per square yard, pre-shrunk, with side seams, shoulder-to-shoulder taping and double-needle hems.' },
+      { q: 'How do I wash a graphic cropped tee?', a: 'Turn it inside out, wash cold with similar colors and tumble dry low or hang to dry. Skip bleach and fabric softener, and do not iron over the Graphic Tees Co. print.' },
+      { q: 'How long does a Graphic Tees Co. cropped tee take to arrive?', a: 'Each one is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. US shipping is free on orders of $45 or more.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.

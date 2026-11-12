@@ -2106,3 +2106,4 @@ for the record, but treat this one as current for these 3 products.
 2026-11-04 15:50 UTC — [W] REVIEW #1020 article gifts-for-cowgirls (draft). Lock released.
 2026-11-09 16:10 UTC — [W] REVIEW #1031 article half-zip-hoodie (draft). Lock released.
 2026-11-10 15:49 UTC — [W] REVIEW #1033 article best-oversized-hoodies (draft). Lock released.
+2026-11-12 20:52 UTC — [W] REVIEW #1037 article white-cropped-tee (draft). Lock released.
