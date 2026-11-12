@@ -3495,7 +3495,6 @@ export const allGuides: Guide[] = [
     h1: 'Christmas Gifts for Hunters: Camo Hoodies and Tees With a Joke He Already Tells at Camp',
     date: '2026-11-09',
     cluster: 'outdoors',
-    draft: true,
     answer: 'A good Christmas gift for a hunter is something he will actually wear to the stand, and a heavyweight camo hoodie with a hunting joke on the chest is exactly that. Graphic Tees Co. has camo hoodies at $49.99 (Opening Day, No Deer Today, Professional Tree Sitter, Long Beard Short Temper, Doe Not Disturb) and two tees at $24.99 (Today’s Special: Tag Soup and Deer Camp Christmas). Everything is printed after you order it, so order by December 4, 2026.',
     picks: [
       {
@@ -3577,7 +3576,6 @@ export const allGuides: Guide[] = [
     h1: 'Best Oversized Hoodies: What to Look For, and Five Funny Ones We Make',
     date: '2026-11-10',
     cluster: 'hoodies',
-    draft: true,
     answer: 'The best oversized hoodie is a heavy fleece cut roomy on purpose, so it hangs instead of clinging. The Graphic Tees Co. oversized hoodie is a 10 oz fleece, 60% cotton and 40% polyester, with a brushed inside, a double-layered hood and a front pocket, in sizes S to 3XL, Dust or Navy. It is $54.99 through November 30, 2026 and $59.99 from December 1. Five picks below.',
     picks: [
       {
@@ -3670,7 +3668,7 @@ export const allGuides: Guide[] = [
           { slogan: 'CAMERA SHY', tee: 'mens-outdoors-sasquatch-camera-shy-heavyweight-hoodie',
             text: 'A sasquatch strides between tall pines and turns to hide his face behind one big hand like a celebrity dodging paparazzi, with CAMERA SHY in vintage 1970s park-sign letters. It is for the camper who hates picture day. It comes in Sandstone and Storm Blue, sizes S to 3XL, $49.99 through November 30.' },
         ],
-        links: [{ href: '/hoodies/gym-hoodies/', text: 'Gym hoodies' }],
+        links: [{ href: '/hoodies/', text: 'All graphic hoodies' }],
       },
       {
         h2: 'Which heavy hoodie is for the ice fisherman?',
@@ -3732,11 +3730,11 @@ export const allGuides: Guide[] = [
     date: '2026-11-11',
     cluster: 'hoodies',
     draft: true,
-    answer: 'A cute hoodie for women is a soft fleece pullover with a sweet or silly picture on it, in colors like Sand, Light Pink or Dust. Graphic Tees Co. makes five original ones: a coffee-spilling cat, a cozy reading nook, a knitter with a sleeping cat, a soaking capybara and a smiling axolotl. The classic pullovers are $39.99 and the oversized ones $54.99 through November 30, 2026, all in sizes S to 3XL and printed to order.',
+    answer: 'A cute hoodie for women is a soft fleece pullover with a sweet or silly picture on it, in colors like Sand, Light Pink or Dust. Graphic Tees Co. makes five original ones: a coffee-spilling cat, a cozy reading nook, a knitter with a sleeping cat, a soaking capybara and a smiling axolotl. The classic pullovers are $39.99 and the oversized ones $54.99 through November 30, 2026 ($44.99 and $59.99 from December 1), all in sizes S to 3XL and printed to order.',
     picks: [
       {
         h2: 'Which cute hoodie is for a cat person?',
-        body: ['Oops. Anyway. It comes in Sand and Navy, sizes S to 3XL, $39.99.'],
+        body: ['One: Oops. Anyway., in Sand and Navy, sizes S to 3XL, $39.99 through November 30, 2026 and $44.99 from December 1.'],
         items: [
           { slogan: 'OOPS. ANYWAY.', tee: 'womens-cat-oops-anyway-hoodie',
             text: 'A smug grey tabby rests a paw on a round wooden stool while a striped mug tips over mid-splash, coffee frozen in the air. OOPS. runs across the top in burnt orange and ANYWAY. across the bottom in mustard.' },
@@ -3744,7 +3742,7 @@ export const allGuides: Guide[] = [
       },
       {
         h2: 'Which cute hoodie is for staying in with a book or a project?',
-        body: ['Two. Plot Twist is for the reader who cancelled plans. Don’t Talk to Me, I’m Counting is for the knitter. Both are $39.99, in sizes S to 3XL.'],
+        body: ['Two. Plot Twist is for the reader who cancelled plans. Don’t Talk to Me, I’m Counting is for the knitter. Both are $39.99 through November 30, 2026 ($44.99 from December 1), in sizes S to 3XL.'],
         items: [
           { slogan: 'PLOT TWIST: I STAYED IN', tee: 'womens-bookish-plot-twist-hoodie',
             text: 'PLOT TWIST: I STAYED IN is lettered in chunky rust-orange 1970s bubble capitals around a striped armchair with a crocheted blanket, a stack of books topped with a steaming mug, a reading lamp and a sleeping cat. It comes in Sand and Navy, and the Navy goes up to 5XL.' },
@@ -3755,7 +3753,7 @@ export const allGuides: Guide[] = [
       },
       {
         h2: 'Which cute oversized hoodie is the softest for a day off?',
-        body: ['Two oversized ones, both cut roomy on purpose. Per My Last Email, I’m Soaking and I’m Fine. Just a Little Rain. come in Dust and Navy, sizes S to 3XL, $54.99 through November 30, 2026.'],
+        body: ['Two oversized ones, both cut roomy on purpose. Per My Last Email, I’m Soaking and I’m Fine. Just a Little Rain. come in Dust and Navy, sizes S to 3XL, $54.99 through November 30, 2026 and $59.99 from December 1.'],
         items: [
           { slogan: 'PER MY LAST EMAIL, I’M SOAKING.', tee: 'womens-capybara-out-of-office-soaking-oversized-hoodie',
             text: 'A calm capybara sits up to its chin in a steaming round hot spring ringed with smooth stones, eyes half closed, a small mandarin orange on its head, drawn in warm brown, terracotta, sage and cream.' },
@@ -3772,7 +3770,7 @@ export const allGuides: Guide[] = [
         links: [{ href: '/hoodies/graphic-hoodies-for-women/', text: 'Graphic hoodies for women' }] },
       { h2: 'How do cute hoodies for women fit?',
         body: ['The classic pullovers are a unisex fit, so order your usual size, or go up one for a roomier layer over a tee. The oversized ones are cut loose on purpose, so your usual size gives the slouchy look and one size down is closer.',
-          'Sizes run S to 3XL on all five picks. If the size is off, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and you do not mail the first one back.'],
+          'Sizes run S to 3XL on all five picks (Plot Twist in Navy goes up to 5XL). If the size is off, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and you do not mail the first one back.'],
         links: [{ href: '/guides/hoodie-sizing/', text: 'Hoodie sizing guide' }, { href: '/shipping-returns/', text: 'Shipping and returns' }] },
       { h2: 'What are cute hoodies made of?',
         body: ['The classic pullovers are 50% pre-shrunk cotton and 50% polyester fleece at 8 oz per square yard, with a double-lined hood, a matching drawcord, a front pouch pocket and ribbed cuffs and waistband.',
@@ -3782,7 +3780,7 @@ export const allGuides: Guide[] = [
         body: ['Turn it inside out and wash cold with similar colors. Tumble dry low or hang it dry. Skip bleach and fabric softener, and keep the iron off the print.'],
         links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
       { h2: 'What do cute hoodies cost, and when do they arrive?',
-        body: ['The three classic pullovers are $39.99. The two oversized hoodies are $54.99 through November 30, 2026. US shipping is free on orders of $45 or more, so the oversized ones ship free and a classic pullover needs a small add-on.',
+        body: ['Through November 30, 2026 the three classic pullovers are $39.99 and the two oversized hoodies $54.99; from December 1 they are $44.99 and $59.99. US shipping is free on orders of $45 or more, so the oversized ones ship free and a classic pullover needs a small add-on.',
           'Each one is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. For a Christmas gift, order by about December 8.'],
         links: [{ href: '/hoodies/', text: 'All graphic hoodies' }] },
       { h2: 'Where can you find more hoodie ideas?',
@@ -3795,7 +3793,7 @@ export const allGuides: Guide[] = [
       { q: 'What colors do cute hoodies come in?', a: 'At Graphic Tees Co., Oops. Anyway. and Plot Twist come in Sand and Navy, the knitter hoodie in Sand and Light Pink, and the two oversized hoodies in Dust and Navy. The ink is adjusted for each color.' },
       { q: 'Are cute hoodies warm?', a: 'The Graphic Tees Co. classic pullover is an 8 oz fleece, warm for a cool day and good for layering. The oversized hoodies are a heavier 10 oz fleece with a brushed inside, for colder evenings.' },
       { q: 'How do I wash a graphic hoodie?', a: 'Turn it inside out, wash cold with similar colors and tumble dry low or hang to dry. Skip bleach and fabric softener, and do not iron over the Graphic Tees Co. print.' },
-      { q: 'How much are cute hoodies at Graphic Tees Co.?', a: 'The classic pullovers are $39.99 and the oversized hoodies are $54.99 through November 30, 2026. US shipping is free on orders of $45 or more, and every hoodie is printed to order.' },
+      { q: 'How much are cute hoodies at Graphic Tees Co.?', a: 'The classic pullovers are $39.99 and the oversized hoodies are $54.99 through November 30, 2026, then $44.99 and $59.99 from December 1. US shipping is free on orders of $45 or more, and every hoodie is printed to order.' },
     ],
   },
 ];

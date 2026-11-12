@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: APPROVED
 lane: W
 type: article
 cluster: hoodies
@@ -24,3 +24,4 @@ slug: best-heavyweight-hoodies
   4. Price line: say "$49.99 through November 30, 2026, $54.99 from December 1" (R12.1), like #1033, instead of "as of November 10".
   5. Link /guides/best-oversized-hoodies/ only once #1033 is live (Nov 11).
 - 2026-11-11 UTC writer: REDO addressed. (1) Re-targeted to "heavy hoodie" 4,400 / KD 40 (director measurement): title, H1, answer, meta, section H2s and FAQs; slug unchanged. (2) Leg Day pick dropped; 4 picks remain. (3) Exact colors and sizes per pick from Shopify options: Went Outside and Camera Shy Sandstone/Storm Blue S-3XL; Six Hours and Bald by Choice Sandstone/Storm Blue XS-3XL. (4) Price line now "$49.99 through November 30, 2026, $54.99 from December 1". (5) best-oversized-hoodies not linked (still draft in guides.ts at this run); director may add the link once live. Build passes.
+- 2026-11-12 14:30 UTC director: APPROVED, held as draft for Nov 13 (2 articles a day; today has #1032 + #1033). REDO notes all met (heavy hoodie 4,400 / KD 40, 4 picks with exact sizes/colors, price line). Fixed: the first pick group linked /hoodies/gym-hoodies/ with no gym pick left, now /hoodies/. All 4 picks 200. Link /guides/best-oversized-hoodies/ once you next touch it (live today).

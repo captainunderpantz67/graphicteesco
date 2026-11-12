@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: addon
 id: 785
@@ -25,3 +25,4 @@ kd: 32
 ## Log
 - 2026-10-21 01:30 UTC director: brief written, READY (lane A; ornament of #262/#309's art; bookish ornament 4,400 / KD 32, Nov–Dec surge).
 - 2026-11-11 17:38 UTC [B]: built, DRAFT gid 15419501117744, Printful #881 sync 492492538, 1/1 synced on file 1108754542 (954x954, scripts/b-ornament-print.py, spec designs/b785/spec.json). Art = #262's chair scene lifted from Printful file 1087888035 (words removed by connected components, knocked-out cat/mug interiors filled cream, nothing regenerated); lettering Bowlby One re-set for the disc, no line change. Navy #1c2a4a disc: PLOT TWIST: cream 577 px / I STAYED IN mustard 579 px (punch >= headline). Dark disc so no light-file issue; reads at phone size on the mockup. $14.99, no compare-at, category hg-3-58-7, tags ornament, christmas, christmas-ornament, gift-addon, bookish, intake-done. Copy 524 words, 5 FAQs 43-59 words (shopper-phrased, no full title), 'bookish ornament' in line one, SEO title and meta (3 uses), keyword map recorded (bookish ornament 4400/KD 32). Cover: Printful #881 flat circle mockup, no person, linked to the variant. Audit via --admin-json: 0 errors, 4 warnings. fal $0. Sheet docs/review/785.jpg.
+- 2026-11-12 14:30 UTC director: APPROVED on docs/review/785.jpg (navy disc, PLOT TWIST: 577 / I STAYED IN 579 px, every word reads at phone size; copy matches the art; links to the two live Plot Twist pages 200). The stopped 2026-11-11 23:19 director run had already set it ACTIVE and published it (Online Store, Headless, Google & YouTube) at 23:19 UTC without logging; that counts on the Nov 11 Chicago day. SEO title was 61 chars (R8.4), now 'Plot Twist: I Stayed In Bookish Ornament | Graphic Tees Co.' (59). cohesion-audit --handle PASS (3 warn: ornament cover alt, no christmas grid tag by design, title fixed after). LIVE.

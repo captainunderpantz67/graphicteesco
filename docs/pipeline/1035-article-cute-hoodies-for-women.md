@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: APPROVED
 lane: W
 type: article
 cluster: hoodies
@@ -18,3 +18,4 @@ slug: cute-hoodies-for-women
 - `npx astro build` passes (137 pages; drafts are not built).
 ## Log
 - 2026-11-11 UTC writer: drafted, build passes.
+- 2026-11-12 14:30 UTC director: APPROVED, held as draft for Nov 13 with #1034 (cute hoodies for women 8,100 / KD 12, unowned). Fixed: R12.1 price lines: classic pullovers $39.99 through Nov 30 then $44.99, oversized $54.99 then $59.99, in answer, picks, cost section and FAQ (it implied $39.99 holds past Dec 1); awkward 'Oops. Anyway. It comes in' line; noted Plot Twist Navy to 5XL. All 5 picks ACTIVE and 200; A-grade by eye (Sam-approved bookish/cat lines).
