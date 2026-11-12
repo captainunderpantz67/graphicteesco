@@ -1,6 +1,6 @@
 {
- "at": "2026-11-11T23:50:13.952Z",
- "products": 818,
+ "at": "2026-11-12T14:53:31.803Z",
+ "products": 819,
  "findings": [
   {
    "level": "WARN",
@@ -2839,6 +2839,13 @@
   },
   {
    "level": "WARN",
+   "handle": "unisex-bat-sleeps-all-day-judges-all-night-hoodie",
+   "title": "Unisex Bat – Sleeps All Day. Judges All Night. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
    "handle": "unisex-doodle-groomer-appointment-overdue-hoodie",
    "title": "Unisex Doodle – Groomer Appointment: Overdue. Hoodie",
    "msg": "No lifestyle cover photo.",
@@ -3716,8 +3723,8 @@
    "level": "WARN",
    "handle": "bookish-plot-twist-i-stayed-in-ornament",
    "title": "Christmas – Bookish Plot Twist: I Stayed In Ornament",
-   "msg": "SEO title is 61 chars (> 60).",
-   "fix": "Trim to ≤ 60."
+   "msg": "No meta description.",
+   "fix": "Write one ≤ 155 chars."
   }
  ]
 }

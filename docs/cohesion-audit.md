@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-11-11 23:50 UTC
+# Cohesion audit — 2026-11-12 14:53 UTC
 
-818 live products checked · **0 errors** · 531 warnings · 493 products with findings
+819 live products checked · **0 errors** · 532 warnings · 494 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -1174,6 +1174,9 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Unisex Police – Off Duty. Still Judging Your Parking. Hoodie `unisex-police-off-duty-still-judging-your-parking-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
+### Unisex Bat – Sleeps All Day. Judges All Night. Hoodie `unisex-bat-sleeps-all-day-judges-all-night-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
 ### Unisex Doodle – Groomer Appointment: Overdue. Hoodie `unisex-doodle-groomer-appointment-overdue-hoodie`
 - **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
 
@@ -1522,4 +1525,4 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 ### Christmas – Bookish Plot Twist: I Stayed In Ornament `bookish-plot-twist-i-stayed-in-ornament`
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 - **WARN** christmas design isn't in any christmas collection. → Tag it so it appears in the christmas shirts page.
-- **WARN** SEO title is 61 chars (> 60). → Trim to ≤ 60.
+- **WARN** No meta description. → Write one ≤ 155 chars.
