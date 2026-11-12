@@ -3796,6 +3796,85 @@ export const allGuides: Guide[] = [
       { q: 'How much are cute hoodies at Graphic Tees Co.?', a: 'The classic pullovers are $39.99 and the oversized hoodies are $54.99 through November 30, 2026, then $44.99 and $59.99 from December 1. US shipping is free on orders of $45 or more, and every hoodie is printed to order.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-12). Keyword: hoodies for dad 1,900 / KD 15 (RankHero page pull, measured 2026-11-12 via curl). Unowned: not in collections.ts, guides.ts or a product's claimed phrase in product-keyword-map.json ("dad hoodie" is a different phrase). Rejected: pink camo hoodie 6,600 / KD 12 and camo hoodie men/women (owned by collection pages), mens zip up hoodie (owned).
+    // Picks: Fairways Are a Rumor, Sorry About Your Windshield, Technically Still Fishing, Reel Talk, You Catching 'Em? heavyweight. Stories, colors, sizes read from live Shopify 2026-11-12. Build drops any pick that is not live.
+    // Planned/sibling (draft, not live yet): best-heavyweight-hoodies, cute-hoodies-for-women (link once live).
+    slug: 'hoodies-for-dad',
+    keyword: 'hoodies for dad',
+    title: 'Hoodies for Dad: Funny Golf and Fishing Picks He’ll Wear',
+    description: 'Hoodies for dad with original golf and fishing art and a dry joke. $39.99 pullovers, a $49.99 heavyweight, sizes S to 3XL, printed to order.',
+    h1: 'Hoodies for Dad: Five Funny Golf and Fishing Picks He Will Actually Wear',
+    date: '2026-11-12',
+    cluster: 'hoodies',
+    draft: true,
+    answer: 'The best hoodie for dad is a soft pullover with a joke about what he already does on weekends, in a color he will not argue with. Graphic Tees Co. makes five for the golfer and the angler: Fairways Are a Rumor, Sorry About Your Windshield, Technically Still Fishing, Reel Talk and a heavyweight You Catching ’Em? The pullovers are $39.99 and the heavyweight $49.99 through November 30, 2026 ($44.99 and $54.99 from December 1), sizes S to 3XL, printed to order.',
+    picks: [
+      {
+        h2: 'Which hoodie is for the dad who golfs?',
+        body: ['Two. Fairways Are a Rumor is for the weekend golfer who lives in the trees. Sorry About Your Windshield is for the slicer in every foursome. Both come in Sand and Sport Grey, sizes S to 3XL, $39.99 through November 30, 2026 and $44.99 from December 1.'],
+        items: [
+          { slogan: 'FAIRWAYS ARE A RUMOR.', tee: 'mens-golf-fairways-are-a-rumor-hoodie',
+            text: 'A golfer in a cable-knit sweater, cap and red plaid plus fours shades his eyes in a thicket of tall pines, with a far-off flag the only sign of a fairway. FAIRWAYS is in heavy navy slab letters and ARE A RUMOR. in rust red.' },
+          { slogan: 'SORRY ABOUT YOUR WINDSHIELD.', tee: 'unisex-golf-sorry-about-your-windshield-hoodie',
+            text: 'A 1950s golfer in a flat cap and navy sweater finishes his swing as the ball arcs over a white picket fence toward a row of parked cars, one windshield already marked with a star, under SORRY ABOUT in navy serif capitals and YOUR WINDSHIELD. below.' },
+        ],
+        links: [{ href: '/hoodies/golf-hoodies/', text: 'All golf hoodies' }],
+      },
+      {
+        h2: 'Which hoodie is for the dad who fishes?',
+        body: ['Two pullovers. Technically Still Fishing is for the angler who calls a nap at the lake fishing. Reel Talk is for the dad who says the pun out loud at the boat ramp. Both come in Sand and Navy, sizes S to 3XL, $39.99 through November 30, 2026 and $44.99 from December 1.'],
+        items: [
+          { slogan: 'TECHNICALLY STILL FISHING', tee: 'mens-fishing-technically-still-fishing-hoodie',
+            text: 'A largemouth bass leaps right past the line of a man dozing in a folding chair on a dock at sunrise, his rod propped up beside him, with the words arched across the top in hand-drawn capitals.' },
+          { slogan: 'REEL TALK', tee: 'mens-fishing-reel-talk-hoodie',
+            text: 'A largemouth bass erupts from the water with its mouth wide open beside a rod and reel, with cattails, lily pads and a splash below and REEL TALK across the top in chipped sage and rust letters.' },
+        ],
+        links: [{ href: '/hoodies/fishing-hoodies/', text: 'All fishing hoodies' }],
+      },
+      {
+        h2: 'Which hoodie is for the dad who wants something heavier?',
+        body: ['You Catching ’Em? It is the 10 oz heavyweight, for the dad who pulls a hoodie on over a flannel before first light. It comes in Black and Army, sizes S to 3XL, $49.99 through November 30, 2026 and $54.99 from December 1.'],
+        items: [
+          { slogan: 'YOU CATCHING ’EM? NO. KEEP WALKING.', tee: 'mens-fishing-you-catching-em-heavyweight-hoodie',
+            text: 'A grumpy older angler in a bucket hat and red plaid flannel sits in a folding lawn chair at the pond’s edge with a rod in its holder and an empty bucket beside him while a jogger waves behind him, under YOU CATCHING ’EM? in cream and No. Keep Walking. in red script.' },
+        ],
+        links: [{ href: '/hoodies/heavyweight-hoodies/', text: 'All heavyweight hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good hoodie for dad?',
+        body: ['A joke he already lives, a color he will wear, and a size that does not need a conversation. Most dads do not want a loud hoodie. They want a plain-looking one that makes the guy at the hardware store laugh.',
+          'Every Graphic Tees Co. design is original, made for this shop, with the joke in the lettering and a vintage-style picture under it. None of the five picks carries a brand logo.'],
+        links: [{ href: '/hoodies/graphic-hoodies-for-men/', text: 'Graphic hoodies for men' }, { href: '/guides/best-hoodies-for-men/', text: 'Best hoodies for men' }] },
+      { h2: 'What size hoodie should you buy for dad?',
+        body: ['His usual size. The pullovers are a classic unisex fit, so go up one if he layers over a flannel or a thermal, and stay put if he likes it closer. The heavyweight is a relaxed cut made for layering.',
+          'All five come in S to 3XL. If the size is off, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and nothing has to be mailed back.'],
+        links: [{ href: '/guides/hoodie-sizing/', text: 'Hoodie sizing guide' }, { href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'How warm is a hoodie for dad?',
+        body: ['The three pullovers are 50% pre-shrunk cotton and 50% polyester fleece at 8 oz per square yard, with a double-lined hood, a front pouch pocket and ribbed cuffs and waistband. That is a medium layer for a cool tee time or a dawn launch.',
+          'The You Catching ’Em? hoodie is a 10 oz cotton and polyester fleece with a soft fleece-lined hood, thicker and built for a damp dock or the deer stand.'],
+        links: [{ href: '/guides/thick-hoodies/', text: 'Thick hoodies' }] },
+      { h2: 'How do you wash a hoodie for dad so the print lasts?',
+        body: ['Turn it inside out and wash cold with similar colors. Tumble dry low, skip bleach and fabric softener, and keep the iron off the print.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'What do hoodies for dad cost, and when do they arrive?',
+        body: ['Through November 30, 2026 the pullovers are $39.99 and the heavyweight is $49.99; from December 1 they are $44.99 and $54.99. US shipping is free on orders of $45 or more, so the heavyweight ships free and a pullover needs a small add-on.',
+          'Each one is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. For a Christmas gift, order by about December 8.'],
+        links: [{ href: '/hoodies/', text: 'All graphic hoodies' }] },
+      { h2: 'What else can you give dad besides a hoodie?',
+        body: ['If he is a golfer or an angler, the gift guides cover tees, hats-off jokes and more. For a general list, see Christmas gifts for dad.'],
+        links: [{ href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }, { href: '/guides/gifts-for-golf-lovers/', text: 'Gifts for golf lovers' }, { href: '/guides/gifts-for-fishermen/', text: 'Gifts for fishermen' }] },
+    ],
+    faqs: [
+      { q: 'What is the best hoodie for dad?', a: 'A soft pullover with a joke about what he already does. Graphic Tees Co. makes five for golfers and anglers: Fairways Are a Rumor, Sorry About Your Windshield, Technically Still Fishing, Reel Talk and You Catching ’Em?, $39.99 to $49.99 through November 30, 2026.' },
+      { q: 'What size hoodie should I buy for my dad?', a: 'His usual size. The Graphic Tees Co. pullovers are a classic unisex fit and the heavyweight is relaxed, all in S to 3XL. Go up one if he layers. One replacement size is free within 30 days of delivery.' },
+      { q: 'What colors do these hoodies for dad come in?', a: 'At Graphic Tees Co., the golf hoodies come in Sand and Sport Grey, the two fishing pullovers in Sand and Navy, and the You Catching ’Em? heavyweight in Black and Army. The ink is chosen to read on each color.' },
+      { q: 'Are hoodies a good Christmas gift for dad?', a: 'Yes, if the joke fits him. Graphic Tees Co. prints each hoodie to order, so for Christmas order by about December 8. US shipping is free on orders of $45 or more, and one size exchange is free.' },
+      { q: 'How do I wash a graphic hoodie?', a: 'Turn it inside out, wash cold with similar colors and tumble dry low or hang to dry. Skip bleach and fabric softener, and do not iron over the Graphic Tees Co. print.' },
+      { q: 'How much are hoodies for dad at Graphic Tees Co.?', a: 'The pullovers are $39.99 and the heavyweight is $49.99 through November 30, 2026, then $44.99 and $54.99 from December 1. US shipping is free on orders of $45 or more, and every hoodie is printed to order.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
