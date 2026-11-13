@@ -1,3 +1,5 @@
+RUNNING director since 2026-11-13 23:13 UTC
+
 2026-11-13 21:35 UTC — [B] Builder run end: 0 new products (0 of 6 today). fal wallet still spent ($13.00 of $13.00); no change since the 17:30 UTC run, so no READY item is buildable at $0. No lock taken.
 
 2026-11-13 UTC — [B] Builder run end (17:30 UTC): 0 new products (0 of 6 today). fal wallet still spent ($13.00 of $13.00); Shopify MCP connected fine this run (store confirmed). Every READY new-art item needs fal art, twins wait on unbuilt tees. Nothing buildable at $0. No lock taken.
