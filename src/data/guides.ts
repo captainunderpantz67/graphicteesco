@@ -3656,7 +3656,6 @@ export const allGuides: Guide[] = [
     h1: 'Heavy Hoodie: What to Look For, and Four Funny Heavyweight Ones We Make',
     date: '2026-11-10',
     cluster: 'hoodies',
-    draft: true,
     answer: 'A good heavy hoodie is a thick fleece that keeps its shape and stays warm without feeling stiff. The Graphic Tees Co. heavyweight hoodie is a 10 oz/yd² cotton and polyester fleece with a fleece-lined hood, ribbed cuffs and waistband and double-stitched seams. It is $49.99 through November 30, 2026 and $54.99 from December 1, and printed after you order it. Four funny picks below.',
     picks: [
       {
@@ -3729,7 +3728,6 @@ export const allGuides: Guide[] = [
     h1: 'Cute Hoodies for Women: Five Graphic Picks and How They Fit',
     date: '2026-11-11',
     cluster: 'hoodies',
-    draft: true,
     answer: 'A cute hoodie for women is a soft fleece pullover with a sweet or silly picture on it, in colors like Sand, Light Pink or Dust. Graphic Tees Co. makes five original ones: a coffee-spilling cat, a cozy reading nook, a knitter with a sleeping cat, a soaking capybara and a smiling axolotl. The classic pullovers are $39.99 and the oversized ones $54.99 through November 30, 2026 ($44.99 and $59.99 from December 1), all in sizes S to 3XL and printed to order.',
     picks: [
       {
