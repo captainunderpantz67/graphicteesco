@@ -4030,6 +4030,78 @@ export const allGuides: Guide[] = [
       { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not mail the first one back.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-13). Keyword: gifts for welders 1,900 / KD 15 (RankHero page pull, measured 2026-11-13 via curl). Unowned: "welder shirt" 9,900 / KD 24 stays with /welder-shirts/, "welder hoodie" with its product. Gift phrase used once as the article target (R2.10); picks are real welder tees and a hoodie.
+    // Picks (all three handles are in fresh-designs.json, grade checked by the writer): If You Can Step Over It tee and hoodie, I Basically Hot Glue Metal tee. Art, colors, sizes, fabric and prices read from the live Shopify Stories and variants 2026-11-13. No sale step claimed. FAQ questions are not from PAA or GSC (not available unattended).
+    // Planned siblings (not live yet): gifts-for-mechanics (1,800+ search family, measured 3,600 / KD 22), funny-welder-shirts. Linked live drafts by slug: gifts-for-fishermen, gifts-for-duck-hunters.
+    slug: 'gifts-for-welders',
+    keyword: 'gifts for welders',
+    title: 'Gifts for Welders: 3 Funny Tees & a Hoodie They Will Wear',
+    description: 'Gifts for welders who have heard every joke but this one: If You Can Step Over It, I Can Fill It and I Basically Hot Glue Metal. Tees $24.99, hoodie $39.99.',
+    h1: 'Gifts for Welders: Shop-Joke Tees and a Hoodie',
+    date: '2026-11-13',
+    cluster: 'tees',
+    draft: true,
+    answer: 'The best gift for a welder is something that tells a shop joke they already know, because they will wear it to the shop and the cookout. Graphic Tees Co. has two original welder designs: If You Can Step Over It, I Can Fill It (tee $24.99, hoodie $39.99) and I Basically Hot Glue Metal (tee $24.99). Every piece is printed to order in sizes S to 4XL on the tees and S to 3XL on the hoodie.',
+    picks: [
+      {
+        h2: 'What is a good gift for a welder who gets handed every gap?',
+        body: ['If You Can Step Over It, I Can Fill It. It is the fitter-versus-welder joke every shop knows. The tee is $24.99 in Navy, Black, Dark Grey Heather, Military Green or Heather Forest, sizes S to 4XL. The hoodie is $39.99 in Navy or Dark Heather, sizes S to 3XL.'],
+        items: [
+          { slogan: 'IF YOU CAN STEP OVER IT, I CAN FILL IT.', tee: 'mens-welder-if-you-can-step-over-it-graphic-tee',
+            text: 'A welder in a leather apron and orange gloves, hood tipped up on his head and arms crossed, stands beside two steel I-beams with a thick glowing weld bead splashed across the gap, in cream, orange and steel-blue inks with a worn finish, drawn like a 1950s trade poster.' },
+          { slogan: 'IF YOU CAN STEP OVER IT, I CAN FILL IT. (hoodie)', tee: 'mens-welder-if-you-can-step-over-it-hoodie',
+            text: 'The same deadpan welder beside two blue steel I-beams with a glowing orange bead filling the gap and a welding cart behind him, with IF YOU CAN STEP OVER IT, in cream capitals above and I CAN FILL IT. in orange below, on an 8 oz cotton and polyester fleece pullover.' },
+        ],
+        links: [{ href: '/welder-shirts/', text: 'All welder shirts' }],
+      },
+      {
+        h2: 'What is a good gift for a welder who explains the job the short way?',
+        body: ['I Basically Hot Glue Metal. It is the answer a welder gives at a party when someone asks what he does. The tee is $24.99, sizes S to 4XL, in eight colors: Black, Navy, Dark Grey Heather, Heather Forest, Maroon, Natural, Ash and Athletic Heather.'],
+        items: [
+          { slogan: 'I BASICALLY HOT GLUE METAL.', tee: 'mens-welder-i-basically-hot-glue-metal-graphic-tee',
+            text: 'A welder in a blue jacket, orange hood and leather gloves kneels on a steel I-beam with sparks fanning out from the weld, while a small glue gun hangs off the handle of his steel toolbox, under I BASICALLY in tall condensed capitals and HOT GLUE METAL. in orange slab letters.' },
+        ],
+        links: [{ href: '/graphic-tees-for-men/', text: 'Graphic tees for men' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good gift for a welder?',
+        body: ['Something that talks like the shop does. A welder has the gear already, and does not need more of it from you. A tee with a joke only the trade fully gets is a gift that says you listened.',
+          'Every Graphic Tees Co. design is original, made for this shop, drawn in the style of a 1950s safety poster or company newsletter. None of these carries a brand logo.'],
+        links: [{ href: '/welder-shirts/', text: 'Welder shirts' }, { href: '/graphic-tees-for-men/', text: 'Graphic tees for men' }] },
+      { h2: 'Tee or hoodie for a welder?',
+        body: ['A tee is the easier gift at $24.99, and it is lightweight at 4.2 oz, so it wears under a work jacket or on its own. The If You Can Step Over It hoodie at $39.99 is the cold-morning pick, an 8 oz fleece with a double-lined hood and a front pouch pocket.',
+          'Both are unisex cuts, so one design works whether the welder is a he or a she.'],
+        links: [{ href: '/guides/best-hoodies-for-men/', text: 'Best hoodies for men' }] },
+      { h2: 'Are these welder shirts flame resistant?',
+        body: ['No. The Graphic Tees Co. welder tees are 100% combed, ring-spun cotton, with some polyester in the heather colors, and the hoodie is 50% cotton and 50% polyester fleece. They are casual wear for the shop floor, the truck and the weekend, not protective gear.',
+          'Keep proper flame-resistant clothing between the welder and the arc. Wear the gift when the hood is up on the bench, not down on the job.'],
+        links: [{ href: '/welder-shirts/', text: 'Welder shirts' }] },
+      { h2: 'What size should you buy a welder?',
+        body: ['Their usual size. The tees are a classic unisex cut in sizes S to 4XL, and the hoodie runs S to 3XL. Go up one for a looser fit over a work shirt.',
+          'If the size is wrong, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and nothing is mailed back. That covers a sizing guess on a gift.'],
+        links: [{ href: '/guides/hoodie-sizing/', text: 'Hoodie sizing guide' }, { href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'How do you wash a welder tee so the print lasts?',
+        body: ['Turn it inside out and wash cold with similar colors. Tumble dry low or hang it dry. Skip bleach and fabric softener, and keep the iron off the print.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'When should you order a welder gift for Christmas?',
+        body: ['Each piece is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. For a Christmas gift, order by about December 8. US shipping is free on orders of $45 or more, so a tee and the hoodie together ship free, and so do two tees.',
+          'Buying for a whole crew? Order 10 or more items in one cart and 15% comes off at checkout.'],
+        links: [{ href: '/group-shirts/', text: 'Group orders' }] },
+      { h2: 'Where can you find more gift ideas?',
+        body: ['For the outdoors side of the family, see gifts for fishermen and gifts for duck hunters. For a gift for dad, see Christmas gifts for dad.'],
+        links: [{ href: '/guides/gifts-for-fishermen/', text: 'Gifts for fishermen' }, { href: '/guides/gifts-for-duck-hunters/', text: 'Gifts for duck hunters' }, { href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }] },
+    ],
+    faqs: [
+      { q: 'What are good gifts for welders?', a: 'A tee or hoodie with a shop joke. Graphic Tees Co. makes two original welder designs, If You Can Step Over It, I Can Fill It and I Basically Hot Glue Metal, from $24.99, printed to order.' },
+      { q: 'What do you get a welder who has everything?', a: 'A joke he did not have yet. A Graphic Tees Co. welder tee like I Basically Hot Glue Metal is original art made for this shop, not a catalog print.' },
+      { q: 'Are the welder shirts flame resistant?', a: 'No. Graphic Tees Co. welder tees are 4.2 oz cotton and the hoodie is cotton and polyester fleece. They are casual wear, not protective gear, so keep flame-resistant clothing on for the weld.' },
+      { q: 'What colors do the welder tees come in?', a: 'At Graphic Tees Co., the If You Can Step Over It tee comes in Navy, Black, Dark Grey Heather, Military Green and Heather Forest. I Basically Hot Glue Metal comes in eight colors, including Maroon, Natural and Ash.' },
+      { q: 'How early should I order a welder gift for Christmas?', a: 'About two weeks ahead. Graphic Tees Co. prints each piece to order in 2 to 5 business days, then ships it in about 3 to 8 business days in the US. Order by about December 8.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not mail the first one back.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
