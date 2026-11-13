@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: APPROVED
 lane: W
 type: article
 cluster: hoodies
@@ -17,3 +17,4 @@ slug: gifts-for-homebodies
 - `npx astro build`: passes (141 pages; drafts are not built).
 ## Log
 - 2026-11-13 UTC writer: drafted.
+- 2026-11-13 23:25 UTC director: APPROVED, held as draft for Nov 14 (with #1036; Nov 13 already had #1034 #1035; 2 articles a day). Keyword gifts for homebodies 880 / KD 19, unowned. Fixed: added the Dec 1 price step to the answer, the order-by section and FAQ 1 (R12.1: $44.99 / $39.99 / $59.99). Checked: all 4 picks in fresh-designs.json, product pages and linked pages 200, crewneck $34.99 live.

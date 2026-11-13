@@ -3962,7 +3962,7 @@ export const allGuides: Guide[] = [
     date: '2026-11-13',
     cluster: 'hoodies',
     draft: true,
-    answer: 'The best gift for a homebody is something soft that jokes about staying in, because the couch is already covered. Graphic Tees Co. has three original designs: Plans Canceled. Mood Improved. ($39.99 hoodie), University of Staying In ($34.99 crewneck, $54.99 oversized hoodie) and I Have Plans ($39.99 hoodie). Every piece is printed to order in sizes S to 3XL.',
+    answer: 'The best gift for a homebody is something soft that jokes about staying in, because the couch is already covered. Graphic Tees Co. has three original designs: Plans Canceled. Mood Improved. ($39.99 hoodie), University of Staying In ($34.99 crewneck, $54.99 oversized hoodie) and I Have Plans ($39.99 hoodie). Those are holiday sale prices through November 30, 2026; from December 1 they are $44.99, $39.99 and $59.99. Every piece is printed to order in sizes S to 3XL.',
     picks: [
       {
         h2: 'What is a good gift for a homebody who loves a canceled plan?',
@@ -4015,14 +4015,14 @@ export const allGuides: Guide[] = [
         body: ['Turn it inside out and wash cold with similar colors. Tumble dry low or hang it dry. Skip bleach and fabric softener, and keep the iron off the print.'],
         links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
       { h2: 'When should you order a gift for a homebody?',
-        body: ['Each piece is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. For a Christmas gift, order by about December 8. US shipping is free on orders of $45 or more, so the oversized hoodie ships free and the others need a small add-on.'],
+        body: ['Each piece is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. For a Christmas gift, order by about December 8. US shipping is free on orders of $45 or more, so the oversized hoodie ships free and the others need a small add-on. Prices go up $5 on December 1, when the holiday sale ends.'],
         links: [{ href: '/hoodies/', text: 'All graphic hoodies' }] },
       { h2: 'Where can you find more gift ideas?',
         body: ['For a friend on your list, see Christmas gifts for friends. For another cozy pick, see funny hoodies.'],
         links: [{ href: '/guides/christmas-gifts-for-friends/', text: 'Christmas gifts for friends' }, { href: '/guides/funny-hoodies/', text: 'Funny hoodies' }] },
     ],
     faqs: [
-      { q: 'What are good gifts for homebodies?', a: 'Something soft with a joke about staying in. Graphic Tees Co. makes three original designs: Plans Canceled. Mood Improved., University of Staying In and I Have Plans, from $34.99 to $54.99, printed to order.' },
+      { q: 'What are good gifts for homebodies?', a: 'Something soft with a joke about staying in. Graphic Tees Co. makes three original designs: Plans Canceled. Mood Improved., University of Staying In and I Have Plans, from $34.99 to $54.99 in the holiday sale through November 30, 2026 ($39.99 to $59.99 from December 1), printed to order.' },
       { q: 'What do you get a homebody who has everything?', a: 'A layer that says what they already think. A Graphic Tees Co. hoodie like University of Staying In or Plans Canceled. Mood Improved. is original art they cannot buy elsewhere.' },
       { q: 'What colors do these homebody hoodies come in?', a: 'At Graphic Tees Co., Plans Canceled., I Have Plans and the University of Staying In crewneck come in Sand and Navy. The oversized University of Staying In hoodie comes in Navy and Asphalt.' },
       { q: 'Are these hoodies warm?', a: 'The Graphic Tees Co. pullovers are an 8 oz fleece, warm for a cool evening. The oversized hoodie is a heavier 10 oz fleece with a brushed inside.' },
@@ -4042,7 +4042,7 @@ export const allGuides: Guide[] = [
     date: '2026-11-13',
     cluster: 'tees',
     draft: true,
-    answer: 'The best gift for a welder is something that tells a shop joke they already know, because they will wear it to the shop and the cookout. Graphic Tees Co. has two original welder designs: If You Can Step Over It, I Can Fill It (tee $24.99, hoodie $39.99) and I Basically Hot Glue Metal (tee $24.99). Every piece is printed to order in sizes S to 4XL on the tees and S to 3XL on the hoodie.',
+    answer: 'The best gift for a welder is something that tells a shop joke they already know, because they will wear it to the shop and the cookout. Graphic Tees Co. has two original welder designs: If You Can Step Over It, I Can Fill It (tee $24.99, hoodie $39.99) and I Basically Hot Glue Metal (tee $24.99). Those are holiday sale prices through November 30, 2026; from December 1 tees are $29.99 and the hoodie $44.99. Every piece is printed to order in sizes S to 4XL on the tees and S to 3XL on the hoodie.',
     picks: [
       {
         h2: 'What is a good gift for a welder who gets handed every gap?',
@@ -4090,12 +4090,12 @@ export const allGuides: Guide[] = [
           'Buying for a whole crew? Order 10 or more items in one cart and 15% comes off at checkout.'],
         links: [{ href: '/group-shirts/', text: 'Group orders' }] },
       { h2: 'Where can you find more gift ideas?',
-        body: ['For the outdoors side of the family, see gifts for fishermen and gifts for duck hunters. For a gift for dad, see Christmas gifts for dad.'],
-        links: [{ href: '/guides/gifts-for-fishermen/', text: 'Gifts for fishermen' }, { href: '/guides/gifts-for-duck-hunters/', text: 'Gifts for duck hunters' }, { href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }] },
+        body: ['For the outdoors side of the family, see gifts for fishermen and Christmas gifts for hunters. For a gift for dad, see Christmas gifts for dad.'],
+        links: [{ href: '/guides/gifts-for-fishermen/', text: 'Gifts for fishermen' }, { href: '/guides/christmas-gifts-for-hunters/', text: 'Christmas gifts for hunters' }, { href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }] },
     ],
     faqs: [
-      { q: 'What are good gifts for welders?', a: 'A tee or hoodie with a shop joke. Graphic Tees Co. makes two original welder designs, If You Can Step Over It, I Can Fill It and I Basically Hot Glue Metal, from $24.99, printed to order.' },
-      { q: 'What do you get a welder who has everything?', a: 'A joke he did not have yet. A Graphic Tees Co. welder tee like I Basically Hot Glue Metal is original art made for this shop, not a catalog print.' },
+      { q: 'What are good gifts for welders?', a: 'A tee or hoodie with a shop joke. Graphic Tees Co. makes two original welder designs, If You Can Step Over It, I Can Fill It and I Basically Hot Glue Metal, from $24.99 in the holiday sale through November 30, 2026 ($29.99 from December 1), printed to order.' },
+      { q: 'What do you get a welder who has everything?', a: 'A joke they did not have yet. A Graphic Tees Co. welder tee like I Basically Hot Glue Metal is original art made for this shop, not a catalog print.' },
       { q: 'Are the welder shirts flame resistant?', a: 'No. Graphic Tees Co. welder tees are 4.2 oz cotton and the hoodie is cotton and polyester fleece. They are casual wear, not protective gear, so keep flame-resistant clothing on for the weld.' },
       { q: 'What colors do the welder tees come in?', a: 'At Graphic Tees Co., the If You Can Step Over It tee comes in Navy, Black, Dark Grey Heather, Military Green and Heather Forest. I Basically Hot Glue Metal comes in eight colors, including Maroon, Natural and Ash.' },
       { q: 'How early should I order a welder gift for Christmas?', a: 'About two weeks ahead. Graphic Tees Co. prints each piece to order in 2 to 5 business days, then ships it in about 3 to 8 business days in the US. Order by about December 8.' },
