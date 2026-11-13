@@ -3950,6 +3950,86 @@ export const allGuides: Guide[] = [
       { q: 'How long does a Graphic Tees Co. cropped tee take to arrive?', a: 'Each one is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. US shipping is free on orders of $45 or more.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-13). Keyword: gifts for homebodies 880 / KD 19 (RankHero page pull, measured 2026-11-13 via curl). Unowned: not in collections.ts, guides.ts or product-keyword-map.json ("homebody gifts" 880 / KD 38 and "introvert hoodie" 1,000 / KD 34 stay with products/collections). Chosen because the white-cropped-tee topic is parked (no cropped tee is in fresh-designs.json) and every cropped phrase measured was owned or had no A-grade picks.
+    // Picks (all four handles are in fresh-designs.json): Plans Canceled. Mood Improved. hoodie, University of Staying In crewneck and oversized hoodie, I Have Plans hoodie. Art, colors, sizes, fabric and prices read from the live Shopify Stories and variants 2026-11-13. Prices stated as live, no sale step claimed. FAQ questions are not from PAA or GSC (not available unattended).
+    // Planned/sibling: cozy-hoodies and cute-hoodies-for-women (live drafts linked by slug).
+    slug: 'gifts-for-homebodies',
+    keyword: 'gifts for homebodies',
+    title: 'Gifts for Homebodies: 3 Cozy Hoodies & a Sweatshirt',
+    description: 'Gifts for homebodies who love staying in: a canceled-plans hoodie, a University of Staying In sweatshirt and an I Have Plans hoodie, $34.99 to $54.99.',
+    h1: 'Gifts for Homebodies: Cozy Hoodies for People Who Love Staying In',
+    date: '2026-11-13',
+    cluster: 'hoodies',
+    draft: true,
+    answer: 'The best gift for a homebody is something soft that jokes about staying in, because the couch is already covered. Graphic Tees Co. has three original designs: Plans Canceled. Mood Improved. ($39.99 hoodie), University of Staying In ($34.99 crewneck, $54.99 oversized hoodie) and I Have Plans ($39.99 hoodie). Every piece is printed to order in sizes S to 3XL.',
+    picks: [
+      {
+        h2: 'What is a good gift for a homebody who loves a canceled plan?',
+        body: ['Plans Canceled. Mood Improved. It is for the friend who is secretly thrilled when you text "rain check?" It comes in Sand and Navy, sizes S to 3XL, $39.99.'],
+        items: [
+          { slogan: 'PLANS CANCELED. MOOD IMPROVED.', tee: 'unisex-homebody-plans-canceled-mood-improved-hoodie',
+            text: 'An orange tabby is melted into a knitted blanket on a round armchair with its eyes closed and one paw out, a phone face-down on the cushion beside it, under PLANS CANCELED. in heavy orange slab capitals and MOOD IMPROVED. below.' },
+        ],
+        links: [{ href: '/hoodies/', text: 'All graphic hoodies' }],
+      },
+      {
+        h2: 'What is a good gift for someone who treats staying in like a degree?',
+        body: ['University of Staying In. It looks like campus merch from across the room until you read it. Get the crewneck at $34.99 in Sand or Navy, or the roomy oversized hoodie at $54.99 in Navy or Asphalt. Both run S to 3XL.'],
+        items: [
+          { slogan: 'UNIVERSITY OF STAYING IN. EST. WHENEVER.', tee: 'unisex-homebody-university-of-staying-in-crewneck-sweatshirt',
+            text: 'UNIVERSITY OF and a big STAYING IN are set in heavy serif capitals above a cozy armchair with a knitted blanket, fuzzy slippers and a steaming mug on a side table, with EST. WHENEVER. underneath.' },
+          { slogan: 'UNIVERSITY OF STAYING IN (oversized hoodie)', tee: 'unisex-homebody-university-of-staying-in-oversized-hoodie',
+            text: 'The same armchair, patterned knit blanket, steaming mug and fuzzy slippers, with UNIVERSITY OF in cream and STAYING IN in orange, on a roomy oversized cut with a double-layered hood.' },
+        ],
+        links: [{ href: '/guides/cozy-hoodies/', text: 'Cozy hoodies' }],
+      },
+      {
+        h2: 'What is a good gift for an introvert who has plans?',
+        body: ['I Have Plans. The plans are a blanket, a book and a hot mug. It comes in Sand and Navy, sizes S to 3XL, $39.99.'],
+        items: [
+          { slogan: 'I HAVE PLANS', tee: 'unisex-introvert-i-have-plans-hoodie',
+            text: 'A small hermit crab is tucked deep inside a spiral seashell lined with a tiny knitted blanket, only its eyes and one claw showing, with a tiny open book and a steaming mug on the sand beside it. I HAVE PLANS runs across the top in heavy coral capitals.' },
+        ],
+        links: [{ href: '/guides/cute-hoodies-for-women/', text: 'Cute hoodies for women' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good gift for a homebody?',
+        body: ['Something comfortable enough to live in and funny enough to make them grin. A homebody does not need more gear. They need a layer for the couch that says what they already think.',
+          'Every Graphic Tees Co. design is original, made for this shop, with the joke in the lettering and a quiet picture under it. None of these carries a brand logo.'],
+        links: [{ href: '/hoodies/graphic-hoodies-for-men/', text: 'Graphic hoodies for men' }, { href: '/hoodies/graphic-hoodies-for-women/', text: 'Graphic hoodies for women' }] },
+      { h2: 'Hoodie or crewneck for someone who stays in?',
+        body: ['A hoodie is the softer, hoodier pick for a cold night in, and the University of Staying In crewneck is the lighter one at $34.99 with no hood. The oversized hoodie at $54.99 is the roomiest.',
+          'All three styles are unisex, so one design works whether you are buying for him or for her.'],
+        links: [{ href: '/hoodies/oversized-hoodies/', text: 'Oversized hoodies' }] },
+      { h2: 'How warm are these homebody hoodies?',
+        body: ['The Plans Canceled. and I Have Plans hoodies are 50% pre-shrunk cotton and 50% polyester fleece at 8 oz per square yard, with a double-lined hood and a front pouch pocket. The crewneck is the same 8 oz fleece with a ribbed collar and no hood.',
+          'The oversized hoodie is heavier: a 10 oz fleece, 60% cotton and 40% polyester, with a brushed inside and a double-layered hood with no drawcord.'],
+        links: [{ href: '/guides/thick-hoodies/', text: 'Thick hoodies' }] },
+      { h2: 'What size should you buy a homebody?',
+        body: ['Their usual size. The hoodies and crewneck are a classic unisex cut, so go up one for a roomier fit. The oversized hoodie is cut roomy on purpose, so the usual size gives the slouchy look.',
+          'Sizes run S to 3XL on every piece. If the size is wrong, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and nothing is mailed back.'],
+        links: [{ href: '/guides/hoodie-sizing/', text: 'Hoodie sizing guide' }, { href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'How do you wash a homebody hoodie so the print lasts?',
+        body: ['Turn it inside out and wash cold with similar colors. Tumble dry low or hang it dry. Skip bleach and fabric softener, and keep the iron off the print.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'When should you order a gift for a homebody?',
+        body: ['Each piece is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. For a Christmas gift, order by about December 8. US shipping is free on orders of $45 or more, so the oversized hoodie ships free and the others need a small add-on.'],
+        links: [{ href: '/hoodies/', text: 'All graphic hoodies' }] },
+      { h2: 'Where can you find more gift ideas?',
+        body: ['For a friend on your list, see Christmas gifts for friends. For another cozy pick, see funny hoodies.'],
+        links: [{ href: '/guides/christmas-gifts-for-friends/', text: 'Christmas gifts for friends' }, { href: '/guides/funny-hoodies/', text: 'Funny hoodies' }] },
+    ],
+    faqs: [
+      { q: 'What are good gifts for homebodies?', a: 'Something soft with a joke about staying in. Graphic Tees Co. makes three original designs: Plans Canceled. Mood Improved., University of Staying In and I Have Plans, from $34.99 to $54.99, printed to order.' },
+      { q: 'What do you get a homebody who has everything?', a: 'A layer that says what they already think. A Graphic Tees Co. hoodie like University of Staying In or Plans Canceled. Mood Improved. is original art they cannot buy elsewhere.' },
+      { q: 'What colors do these homebody hoodies come in?', a: 'At Graphic Tees Co., Plans Canceled., I Have Plans and the University of Staying In crewneck come in Sand and Navy. The oversized University of Staying In hoodie comes in Navy and Asphalt.' },
+      { q: 'Are these hoodies warm?', a: 'The Graphic Tees Co. pullovers are an 8 oz fleece, warm for a cool evening. The oversized hoodie is a heavier 10 oz fleece with a brushed inside.' },
+      { q: 'How early should I order a homebody gift for Christmas?', a: 'About two weeks ahead. Graphic Tees Co. prints each piece to order in 2 to 5 business days, then ships it in about 3 to 8 business days in the US. Order by about December 8.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not mail the first one back.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
