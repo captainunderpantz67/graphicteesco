@@ -4100,6 +4100,73 @@ export const allGuides: Guide[] = [
       { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not mail the first one back.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-14). Keyword: pilates gifts 3,600 / KD 32 (RankHero page pull, measured 2026-11-14 via curl). Unowned: not in guides.ts, collections.ts or product-keyword-map.json; "pilates shirt" / "pilates sweatshirt" / "pilates hoodie" stay with their products. Chosen because the gym cluster has the fewest articles and three A-grade pilates designs exist.
+    // Picks (all three handles are in fresh-designs.json, grade checked by the writer): Just Two More (She Lied) tee, Core Issues crewneck, Core Issues cropped hoodie. The embroidered Core Issues zip hoodie is live but not in fresh-designs.json, so it is left out. Art, colors, sizes, fabric read from the live Shopify Stories 2026-11-14. Prices per R12.1 (holiday sale through Nov 30, 2026).
+    // FAQ questions are not from PAA or GSC (not available unattended). Planned siblings (not live yet): gifts-for-barre-lovers, pilates-outfits.
+    slug: 'pilates-gifts',
+    keyword: 'pilates gifts',
+    title: 'Pilates Gifts: A Funny Tee, Crewneck & Cropped Hoodie',
+    description: 'Pilates gifts for the reformer regular: Just Two More (She Lied) tee $24.99, Core Issues crewneck $34.99 and cropped hoodie $44.99. Printed to order.',
+    h1: 'Pilates Gifts: Funny Picks for Someone Who Lives on the Reformer',
+    date: '2026-11-14',
+    cluster: 'gym',
+    draft: true,
+    answer: 'The best pilates gift is something that jokes about the class she already loves: the shaking legs, the "just two more," the donut after. Graphic Tees Co. has two original pilates designs: Just Two More (She Lied) on a tee ($24.99) and Core Issues on a crewneck ($34.99) and a cropped hoodie ($44.99). Those are holiday sale prices through November 30, 2026; from December 1 they are $29.99, $39.99 and $49.99. Each piece is printed to order.',
+    picks: [
+      {
+        h2: 'What is a good pilates gift for the friend who is always promised two more?',
+        body: ['Just Two More (She Lied). It is for the class regular and the instructor\'s favorite victim. The tee is $24.99, sizes S to 3XL, in White, Natural, Heather Stone, Athletic Heather and Pink.'],
+        items: [
+          { slogan: 'JUST TWO MORE. (she lied)', tee: 'womens-pilates-just-two-more-she-lied-graphic-tee',
+            text: 'A woman with wavy blond hair, a navy headband, a rose leotard and navy tights lies back on a rose and mint reformer with legs straight up and trembling, drawn like a 1960s exercise-record sleeve, with JUST TWO MORE. in navy slab capitals above and (she lied) in rose script below.' },
+        ],
+        links: [{ href: '/graphic-tees-for-women/', text: 'Graphic tees for women' }],
+      },
+      {
+        h2: 'What is a good pilates gift for someone who has survived the hundred?',
+        body: ['Core Issues. The same cartoon reformer scene comes on a crewneck and on a cropped hoodie, so you can pick the cut she will actually wear.'],
+        items: [
+          { slogan: 'I HAVE CORE ISSUES (crewneck)', tee: 'womens-pilates-core-issues-crewneck-sweatshirt',
+            text: 'A 1960s cartoon woman in a striped leotard, leg warmers and a headband lies on a pilates reformer with both legs in the air and a trembling face, a donut on the floor beside the machine, under heavy rose I HAVE capitals and huge charcoal CORE ISSUES capitals. The crewneck is $34.99 in Sand or Light Pink, sizes S to 3XL.' },
+          { slogan: 'I have CORE ISSUES (cropped hoodie)', tee: 'womens-pilates-core-issues-cropped-hoodie',
+            text: 'The same reformer scene and donut, under a pink script I have and big cream CORE ISSUES capitals. The cropped hoodie is $44.99 in Storm or Black, sizes S to 2XL, with a raw hem that sits at the waist.' },
+        ],
+        links: [{ href: '/hoodies/cropped-hoodies/', text: 'All cropped hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good gift for someone who loves pilates?',
+        body: ['Something she can wear to class and to brunch after, with a joke only a pilates person gets. She likely has the grip socks and the water bottle already. A shirt that says what the class feels like is the part nobody else thought of.',
+          'Every Graphic Tees Co. design is original, made for this shop, and none carries a brand logo or a studio name.'],
+        links: [{ href: '/hoodies/graphic-hoodies-for-women/', text: 'Graphic hoodies for women' }] },
+      { h2: 'Tee, crewneck or cropped hoodie for a pilates gift?',
+        body: ['The tee is the lightest and the cheapest: a 4.2 oz relaxed cotton tee at $24.99, easy to wear in a warm studio. The crewneck is a classic cut in 8 oz fleece, no hood, for the walk out of a cool class. The cropped hoodie is a 6.5 oz fleece with a raw hem that meets high-rise leggings.',
+          'If you are unsure, the tee is the safest guess and the free size exchange covers a miss.'],
+        links: [{ href: '/guides/gym-cropped-hoodie/', text: 'Gym cropped hoodies' }, { href: '/guides/gym-hoodies-for-women/', text: 'Gym hoodies for women' }] },
+      { h2: 'What size should you buy for a pilates gift?',
+        body: ['Her usual size. The tee is a relaxed women\'s cut, so her usual size gives an easy fit and one up is looser. The crewneck is a classic unisex cut, so go up one for roomy. The cropped hoodie is cropped with a dropped shoulder; go up one for a longer body.',
+          'If the size is wrong, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and nothing is mailed back.'],
+        links: [{ href: '/guides/hoodie-sizing/', text: 'Hoodie sizing guide' }, { href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'How do you wash a pilates shirt so the print lasts?',
+        body: ['Turn it inside out and wash cold with similar colors. Tumble dry low or hang it dry. Skip bleach and fabric softener, and keep the iron off the print.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'When should you order a pilates gift for Christmas?',
+        body: ['Each piece is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. For a Christmas gift, order by about December 8. US shipping is free on orders of $45 or more, so add a tee to the crewneck or hoodie and the whole order ships free. Prices go up on December 1, when the holiday sale ends.'],
+        links: [{ href: '/group-shirts/', text: 'Group orders' }] },
+      { h2: 'Where can you find more gift ideas for active friends?',
+        body: ['For the gym lover on your list, see gifts for gym lovers. For another gift for a friend, see Christmas gifts for friends.'],
+        links: [{ href: '/guides/gifts-for-gym-lovers/', text: 'Gifts for gym lovers' }, { href: '/guides/christmas-gifts-for-friends/', text: 'Christmas gifts for friends' }] },
+    ],
+    faqs: [
+      { q: 'What are good pilates gifts?', a: 'Something that jokes about the class. Graphic Tees Co. makes original pilates designs: the Just Two More (She Lied) tee at $24.99, and Core Issues on a $34.99 crewneck and a $44.99 cropped hoodie through November 30, 2026, then $29.99, $39.99 and $49.99 from December 1.' },
+      { q: 'What do you get a pilates lover for Christmas?', a: 'A shirt she can wear to class and brunch. The Graphic Tees Co. Core Issues crewneck, with a reformer cartoon and a donut on the floor, is $34.99 in Sand or Light Pink and is printed to order.' },
+      { q: 'What colors do the pilates pieces come in?', a: 'At Graphic Tees Co., the Just Two More tee comes in White, Natural, Heather Stone, Athletic Heather and Pink. The Core Issues crewneck comes in Sand and Light Pink, and the cropped hoodie in Storm and Black.' },
+      { q: 'Is the pilates cropped hoodie warm?', a: 'It is a light layer. The Graphic Tees Co. Core Issues cropped hoodie is a 6.5 oz fleece, enough to pull on over a leotard before class. For more warmth, the crewneck is an 8 oz fleece.' },
+      { q: 'How early should I order a pilates gift for Christmas?', a: 'About two weeks ahead. Graphic Tees Co. prints each piece to order in 2 to 5 business days, then ships it in about 3 to 8 business days in the US. Order by about December 8.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not mail the first one back.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
