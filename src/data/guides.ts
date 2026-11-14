@@ -4179,7 +4179,7 @@ export const allGuides: Guide[] = [
     date: '2026-11-14',
     cluster: 'hoodies',
     draft: true,
-    answer: 'The best gift for a cat mom is something that jokes about the thing her cat did this morning: kneading the blanket, knocking the mug off the table, breaking the ornament and looking innocent. Graphic Tees Co. has three original cat designs: Do Not Disturb. Biscuits in Progress. (hoodie $39.99), Oops. Anyway. (crewneck $34.99, cropped hoodie $44.99) and Cat Allegedly. (tee $24.99, crewneck $34.99). Those are holiday sale prices through November 30, 2026; from December 1 they are $44.99 for the hoodie, $39.99 for the crewnecks, $49.99 for the cropped hoodie and $29.99 for the tee. Each piece is printed to order.',
+    answer: 'The best gift for a cat mom is something that jokes about the thing her cat did this morning: kneading the blanket, knocking the mug off the table, breaking the ornament and looking innocent. Three original Graphic Tees Co. cat designs fit her best: Do Not Disturb. Biscuits in Progress. (hoodie $39.99), Oops. Anyway. (crewneck $34.99, cropped hoodie $44.99) and Cat Allegedly. (tee $24.99, crewneck $34.99). Those are holiday sale prices through November 30, 2026; from December 1 they are $44.99 for the hoodie, $39.99 for the crewnecks, $49.99 for the cropped hoodie and $29.99 for the tee. Each piece is printed to order.',
     picks: [
       {
         h2: 'What is a good gift for a cat mom whose cat is always kneading?',
@@ -4230,7 +4230,7 @@ export const allGuides: Guide[] = [
         body: ['Turn it inside out and wash cold with similar colors. Tumble dry low or hang it dry. Skip bleach and fabric softener, and keep the iron off the print.'],
         links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
       { h2: 'When should you order a cat mom gift for Christmas?',
-        body: ['Each piece is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. For a Christmas gift, order by about December 8. US shipping is free on orders of $45 or more, so a hoodie ships free, and so does a tee with a crewneck. Prices go up on December 1, when the holiday sale ends.'],
+        body: ['Each piece is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. For a Christmas gift, order by about December 8. US shipping is free on orders of $45 or more, so a hoodie or a cropped hoodie with a tee ships free, and so does a tee with a crewneck. Prices go up on December 1, when the holiday sale ends.'],
         links: [{ href: '/group-shirts/', text: 'Group orders' }] },
       { h2: 'Where can you find more gift ideas?',
         body: ['For a gift for a friend, see Christmas gifts for friends. For the homebody on your list, see gifts for homebodies.'],
@@ -4240,7 +4240,7 @@ export const allGuides: Guide[] = [
       { q: 'What are good gifts for cat moms?', a: 'Something that jokes about her cat. Graphic Tees Co. makes original cat designs: the Biscuits in Progress hoodie at $39.99, the Oops. Anyway. crewneck at $34.99 and the Cat Allegedly. tee at $24.99 through November 30, 2026, then $44.99, $39.99 and $29.99 from December 1.' },
       { q: 'What do you get a cat mom for Christmas?', a: 'A shirt about the ornament her cat broke. The Graphic Tees Co. Cat Allegedly. crewneck has a tuxedo cat beside a smashed red ornament. It is $34.99 in Sand or Navy and printed to order.' },
       { q: 'What colors do the cat designs come in?', a: 'At Graphic Tees Co., the Biscuits hoodie and the Oops. Anyway. and Cat Allegedly. crewnecks come in Sand and Navy. The Oops. Anyway. cropped hoodie comes in Black and Storm. The Cat Allegedly. tee comes in White, Natural, Heather Stone, Athletic Heather and Pink.' },
-      { q: 'Is the cat mom hoodie warm?', a: 'Yes. The Graphic Tees Co. Do Not Disturb. Biscuits in Progress. hoodie is an 8 oz cotton and polyester fleece with a double-lined hood and a front pouch pocket, warm enough for a cold morning on the couch.' },
+      { q: 'Is the Biscuits in Progress hoodie warm?', a: 'Yes. The Graphic Tees Co. Do Not Disturb. Biscuits in Progress. hoodie is an 8 oz cotton and polyester fleece with a double-lined hood and a front pouch pocket, warm enough for a cold morning on the couch.' },
       { q: 'How early should I order a cat mom gift for Christmas?', a: 'About two weeks ahead. Graphic Tees Co. prints each piece to order in 2 to 5 business days, then ships it in about 3 to 8 business days in the US. Order by about December 8.' },
       { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not mail the first one back.' },
     ],
