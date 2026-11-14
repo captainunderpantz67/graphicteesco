@@ -3805,7 +3805,6 @@ export const allGuides: Guide[] = [
     h1: 'Hoodies for Dad: Five Funny Golf and Fishing Picks He Will Actually Wear',
     date: '2026-11-12',
     cluster: 'hoodies',
-    draft: true,
     answer: 'The best hoodie for dad is a soft pullover with a joke about what he already does on weekends, in a color he will not argue with. Graphic Tees Co. makes five for the golfer and the angler: Fairways Are a Rumor, Sorry About Your Windshield, Technically Still Fishing, Fishing Is My Love Language and a heavyweight You Catching ’Em? The pullovers are $39.99 and the heavyweight $49.99 through November 30, 2026 ($44.99 and $54.99 from December 1), sizes S to 3XL, printed to order.',
     picks: [
       {
@@ -3961,7 +3960,6 @@ export const allGuides: Guide[] = [
     h1: 'Gifts for Homebodies: Cozy Hoodies for People Who Love Staying In',
     date: '2026-11-13',
     cluster: 'hoodies',
-    draft: true,
     answer: 'The best gift for a homebody is something soft that jokes about staying in, because the couch is already covered. Graphic Tees Co. has three original designs: Plans Canceled. Mood Improved. ($39.99 hoodie), University of Staying In ($34.99 crewneck, $54.99 oversized hoodie) and I Have Plans ($39.99 hoodie). Those are holiday sale prices through November 30, 2026; from December 1 they are $44.99, $39.99 and $59.99. Every piece is printed to order in sizes S to 3XL.',
     picks: [
       {
