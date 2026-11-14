@@ -4167,6 +4167,84 @@ export const allGuides: Guide[] = [
       { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not mail the first one back.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-14). Keyword: gifts for cat moms 390 / KD 28 (RankHero page pull, measured 2026-11-14 via keyword-gap.py rankhero()). Unowned: not in guides.ts, collections.ts or product-keyword-map.json; "cat hoodie" stays with /hoodies/cat-hoodies/, "cat mom hoodie" and "cat dad gift" stay with their products. Gift phrase is the article target only (R2.10). Chosen because "cat" is the deepest A-grade niche not yet covered by an article.
+    // Picks (all five handles are in fresh-designs.json, grade checked by the writer): Making Biscuits hoodie, Oops. Anyway. crewneck and cropped hoodie, Cat Allegedly. tee and crewneck. Art, colors, sizes, fabric read from the live Shopify Stories 2026-11-14. Prices per R12.1: tees $24.99, crewnecks $34.99, hoodie $39.99 and cropped hoodie $44.99 through Nov 30, 2026; Dec 1 step $29.99 / $39.99 / $44.99 / $49.99.
+    // FAQ questions are not from PAA or GSC (not available unattended). Planned siblings (not live yet): gifts-for-cat-dads, funny-cat-shirts.
+    slug: 'gifts-for-cat-moms',
+    keyword: 'gifts for cat moms',
+    title: 'Gifts for Cat Moms: Funny Cat Hoodies, Crewnecks & Tees',
+    description: 'Gifts for cat moms whose cat runs the house: Making Biscuits hoodie $39.99, Oops. Anyway. crewneck $34.99, Cat Allegedly. tee $24.99. Printed to order.',
+    h1: 'Gifts for Cat Moms: Funny Picks for the Person Her Cat Owns',
+    date: '2026-11-14',
+    cluster: 'hoodies',
+    draft: true,
+    answer: 'The best gift for a cat mom is something that jokes about the thing her cat did this morning: kneading the blanket, knocking the mug off the table, breaking the ornament and looking innocent. Graphic Tees Co. has three original cat designs: Do Not Disturb. Biscuits in Progress. (hoodie $39.99), Oops. Anyway. (crewneck $34.99, cropped hoodie $44.99) and Cat Allegedly. (tee $24.99, crewneck $34.99). Those are holiday sale prices through November 30, 2026; from December 1 they are $44.99 for the hoodie, $39.99 for the crewnecks, $49.99 for the cropped hoodie and $29.99 for the tee. Each piece is printed to order.',
+    picks: [
+      {
+        h2: 'What is a good gift for a cat mom whose cat is always kneading?',
+        body: ['Do Not Disturb. Biscuits in Progress. It is the kneading trance written as an out-of-office sign. The hoodie is $39.99, sizes S to 3XL, in Sand or Navy.'],
+        items: [
+          { slogan: 'DO NOT DISTURB. BISCUITS IN PROGRESS. (hoodie)', tee: 'womens-cat-making-biscuits-hoodie',
+            text: 'A round, fluffy calico cat with her eyes squeezed shut in bliss is tucked into a chunky knit blanket with both front paws pressed into it, a ball of pink yarn beside her, in dusty pink, mustard, cream, slate blue and dark brown with a worn vintage storybook look. DO NOT DISTURB. runs above and BISCUITS IN PROGRESS. below. It is an 8 oz cotton and polyester fleece pullover with a double-lined hood and a front pouch pocket.' },
+        ],
+        links: [{ href: '/hoodies/cat-hoodies/', text: 'All cat hoodies' }],
+      },
+      {
+        h2: 'What is a good gift for a cat mom whose cat pushes things off tables?',
+        body: ['Oops. Anyway. It is the cat\'s apology, said with eyes closed while the mug is still in the air. The same smug tabby comes on a crewneck ($34.99, Sand or Navy, sizes S to 3XL) and a cropped hoodie ($44.99, Black or Storm, sizes S to 2XL).'],
+        items: [
+          { slogan: 'OOPS. ANYWAY. (crewneck)', tee: 'womens-cat-oops-anyway-crewneck-sweatshirt',
+            text: 'A smug grey tabby sits on a small wooden stool with one paw out, a coffee mug mid-fall with the splash frozen in the air, under heavy burnt-orange OOPS. and mustard ANYWAY. capitals, in mustard, burnt orange, teal and cream with a worn screen-print texture. It is an 8 oz cotton and polyester fleece crewneck with no hood and no pockets.' },
+          { slogan: 'OOPS. ANYWAY. (cropped hoodie)', tee: 'womens-cat-oops-anyway-cropped-hoodie',
+            text: 'The same tabby, stool and falling mug, under OOPS. in orange script and ANYWAY. in cream script. It is a cropped pullover hoodie with a dropped shoulder and a raw hem that sits at the waist.' },
+        ],
+        links: [{ href: '/hoodies/cropped-hoodies/', text: 'All cropped hoodies' }],
+      },
+      {
+        h2: 'What is a good Christmas gift for a cat mom whose cat denies everything?',
+        body: ['Cat Allegedly. A tuxedo cat licks a paw beside a smashed ornament and pleads the fifth. The tee is $24.99 in White, Natural, Heather Stone, Athletic Heather or Pink, sizes S to 3XL. The crewneck is $34.99 in Sand or Navy, sizes S to 3XL.'],
+        items: [
+          { slogan: 'ALLEGEDLY. (tee)', tee: 'womens-christmas-cat-allegedly-graphic-tee',
+            text: 'A smug black-and-white tuxedo cat sits upright on a braided red and cream rug, eyes half-closed, licking one raised paw, with a shattered red glass ornament beside it and the lower pine branches of the tree behind, in a vintage 1960s storybook style. ALLEGEDLY. runs underneath in faded red with a cream edge.' },
+          { slogan: 'ALLEGEDLY. (crewneck)', tee: 'womens-christmas-cat-allegedly-crewneck-sweatshirt',
+            text: 'The same tuxedo cat beside the smashed red ornament on a braided red, cream and mustard rug, with a pine sprig and red berries behind it and ALLEGEDLY. in red slab capitals underneath. It is an 8 oz cotton and polyester fleece crewneck.' },
+        ],
+        links: [{ href: '/guides/christmas-gifts-for-sister/', text: 'Christmas gifts for sister' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good gift for a cat mom?',
+        body: ['Something that jokes about her cat, not a generic paw print. A cat mom has the toys and the treats already. A shirt that says what her cat actually does is the part nobody else thought of.',
+          'Every Graphic Tees Co. design is original, made for this shop, and none carries a brand logo or a licensed character.'],
+        links: [{ href: '/hoodies/cat-hoodies/', text: 'Cat hoodies' }] },
+      { h2: 'Hoodie, crewneck, cropped hoodie or tee for a cat mom?',
+        body: ['The tee is the lightest and the cheapest: a 4.2 oz relaxed cotton tee at $24.99. The crewneck is an 8 oz fleece with no hood, at $34.99. The Biscuits hoodie is the cozy one, an 8 oz fleece with a double-lined hood and a pouch pocket at $39.99. The cropped hoodie is a lighter 6.5 oz fleece with a raw hem that meets high-rise jeans, at $44.99.',
+          'If you are unsure, the Oops. Anyway. crewneck is the safe guess, and the free size exchange covers a miss.'],
+        links: [{ href: '/graphic-tees-for-women/', text: 'Graphic tees for women' }] },
+      { h2: 'What size should you buy a cat mom?',
+        body: ['Her usual size. The hoodie and crewnecks are a classic unisex cut, so her usual size gives a regular fit and one up is roomier. The Cat Allegedly. tee is a relaxed women\'s cut. The cropped hoodie has a dropped shoulder; go up one for a longer body.',
+          'If the size is wrong, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and nothing is mailed back.'],
+        links: [{ href: '/guides/hoodie-sizing/', text: 'Hoodie sizing guide' }, { href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'How do you wash a cat sweatshirt so the print lasts?',
+        body: ['Turn it inside out and wash cold with similar colors. Tumble dry low or hang it dry. Skip bleach and fabric softener, and keep the iron off the print.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'When should you order a cat mom gift for Christmas?',
+        body: ['Each piece is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. For a Christmas gift, order by about December 8. US shipping is free on orders of $45 or more, so a hoodie ships free, and so does a tee with a crewneck. Prices go up on December 1, when the holiday sale ends.'],
+        links: [{ href: '/group-shirts/', text: 'Group orders' }] },
+      { h2: 'Where can you find more gift ideas?',
+        body: ['For a gift for a friend, see Christmas gifts for friends. For the homebody on your list, see gifts for homebodies.'],
+        links: [{ href: '/guides/christmas-gifts-for-friends/', text: 'Christmas gifts for friends' }, { href: '/guides/gifts-for-homebodies/', text: 'Gifts for homebodies' }] },
+    ],
+    faqs: [
+      { q: 'What are good gifts for cat moms?', a: 'Something that jokes about her cat. Graphic Tees Co. makes original cat designs: the Biscuits in Progress hoodie at $39.99, the Oops. Anyway. crewneck at $34.99 and the Cat Allegedly. tee at $24.99 through November 30, 2026, then $44.99, $39.99 and $29.99 from December 1.' },
+      { q: 'What do you get a cat mom for Christmas?', a: 'A shirt about the ornament her cat broke. The Graphic Tees Co. Cat Allegedly. crewneck has a tuxedo cat beside a smashed red ornament. It is $34.99 in Sand or Navy and printed to order.' },
+      { q: 'What colors do the cat designs come in?', a: 'At Graphic Tees Co., the Biscuits hoodie and the Oops. Anyway. and Cat Allegedly. crewnecks come in Sand and Navy. The Oops. Anyway. cropped hoodie comes in Black and Storm. The Cat Allegedly. tee comes in White, Natural, Heather Stone, Athletic Heather and Pink.' },
+      { q: 'Is the cat mom hoodie warm?', a: 'Yes. The Graphic Tees Co. Do Not Disturb. Biscuits in Progress. hoodie is an 8 oz cotton and polyester fleece with a double-lined hood and a front pouch pocket, warm enough for a cold morning on the couch.' },
+      { q: 'How early should I order a cat mom gift for Christmas?', a: 'About two weeks ahead. Graphic Tees Co. prints each piece to order in 2 to 5 business days, then ships it in about 3 to 8 business days in the US. Order by about December 8.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not mail the first one back.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
