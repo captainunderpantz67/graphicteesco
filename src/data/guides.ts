@@ -4331,6 +4331,84 @@ export const allGuides: Guide[] = [
       { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not mail the first one back.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-15), tees cluster. Keyword: funny gifts for dad 4,400 / KD 13 (RankHero page pull, measured 2026-11-15 via scripts/keyword-gap.py rankhero()). Unowned in guides.ts, collections.ts and product-keyword-map.json ("christmas gifts for dad", "hoodies for dad", "fishing gifts for dad" stay with their guides). Gift phrase used once as the article target (R2.10); picks are real tees.
+    // Facts (art, colors, sizes, fabric, price) from the LIVE Shopify Stories read 2026-11-15 for all four picks (ACTIVE). All four handles are in src/data/fresh-designs.json (grade checked by the writer).
+    // Planned siblings (not live yet): funny-gifts-for-grandpa, funny-gifts-for-brother.
+    slug: 'funny-gifts-for-dad',
+    keyword: 'funny gifts for dad',
+    title: 'Funny Gifts for Dad: 4 Tees for Dads With a Trade or a Nap Habit',
+    description: 'Funny gifts for dad who has heard every joke: Resting My Eyes, No I Can’t Just Take a Quick Look, If You Can Step Over It and The Neighbors Love Me tees, $24.99.',
+    h1: 'Funny Gifts for Dad: Four Tees That Say What He Already Thinks',
+    date: '2026-11-15',
+    cluster: 'tees',
+    draft: true,
+    answer: 'A funny gift for dad is a shirt that says the thing he says out loud every week. Graphic Tees Co. has four original dad tees: Resting My Eyes for the recliner napper, No, I Can’t Just Take a Quick Look for the mechanic, If You Can Step Over It, I Can Fill It for the welder and The Neighbors Love Me for the garage drummer. They are $24.99 each through November 30, 2026, and $29.99 from December 1. Each one is printed to order.',
+    picks: [
+      {
+        h2: 'What is a funny gift for a dad who naps in the recliner?',
+        body: ['Resting My Eyes. Every family has a dad who is asleep in the recliner by three o’clock on Christmas Day and swears he is only resting his eyes. The tee is $24.99 in White, Natural, Ash, Athletic Heather, Heather Dust or Tan, sizes S to 4XL. There are no dark colors, because the pine-green lettering reads best on light fabric.'],
+        items: [
+          { slogan: 'RESTING MY EYES', tee: 'mens-christmas-resting-my-eyes-graphic-tee',
+            text: 'A dad tipped back in a plaid recliner with his mouth open, a Santa hat sliding off, reading glasses pushed up and a half-unwrapped polka-dot present on his lap, a small lit tree beside the chair and a sleepy cat curled on his shoulder, drawn like a 1950s storybook. RESTING runs in big pine-green capitals and MY EYES in Santa-hat red.' },
+        ],
+        links: [{ href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }],
+      },
+      {
+        h2: 'What is a funny gift for a dad who is a mechanic?',
+        body: ['No, I Can’t Just Take a Quick Look. It is for the dad who gets handed car keys at every cookout. The tee is $24.99 in White, Natural, Ash, Athletic Heather, Dark Grey Heather, Black, Military Green or Brown, sizes S to 4XL.'],
+        items: [
+          { slogan: 'NO, I CAN’T JUST TAKE A QUICK LOOK.', tee: 'mens-mechanic-no-i-cant-just-take-a-quick-look-graphic-tee',
+            text: 'A tired mechanic in blue coveralls and a cap sits on an upturned oil drum eating a sandwich from a metal lunch pail while three hopeful people hold out their car keys behind him, in a 1950s service-station style. NO, I CAN’T JUST runs across the top in cream and TAKE A QUICK LOOK. across the bottom in faded red.' },
+        ],
+      },
+      {
+        h2: 'What is a funny gift for a dad who welds?',
+        body: ['If You Can Step Over It, I Can Fill It. It is the fitter-versus-welder joke every shop knows. The tee is $24.99 in Navy, Black, Dark Grey Heather, Military Green or Heather Forest, sizes S to 4XL.'],
+        items: [
+          { slogan: 'IF YOU CAN STEP OVER IT, I CAN FILL IT.', tee: 'mens-welder-if-you-can-step-over-it-graphic-tee',
+            text: 'A burly welder in a leather apron and orange gloves, hood tipped up on his head, stands with his arms crossed beside two steel I-beams with a glowing weld bead across the gap, in a vintage trade-poster print. IF YOU CAN STEP OVER IT, sits above in cream capitals and I CAN FILL IT. below in orange.' },
+        ],
+        links: [{ href: '/welder-shirts/', text: 'All welder shirts' }, { href: '/guides/gifts-for-welders/', text: 'Gifts for welders' }],
+      },
+      {
+        h2: 'What is a funny gift for a dad who drums?',
+        body: ['The Neighbors Love Me. It is for the dad who practices with the garage door open. The tee is $24.99 in ten colors, from Black and Navy to Maroon and Soft Cream, sizes S to 4XL.'],
+        items: [
+          { slogan: 'THE NEIGHBORS LOVE ME.', tee: 'mens-drummer-the-neighbors-love-me-graphic-tee',
+            text: 'Three small houses in a row: in the middle one a young drummer plays a kit in an open garage, on the left a man in a bathrobe presses a pillow over his ears, and on the right a woman leans from a window holding her ears while a cat lies flattened on the steps. THE NEIGHBORS sits above the scene and LOVE ME. below in bold slab capitals.' },
+        ],
+        links: [{ href: '/drummer-shirts/', text: 'All drummer shirts' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a gift for dad actually funny?',
+        body: ['It names something he already does. A dad does not need a mug that says World’s Okayest Dad. He needs the shirt that says he is only resting his eyes, because he is.',
+          'Every Graphic Tees Co. design is original, made for this shop, with the joke in the lettering and a vintage-style picture under it. None of the four carries a team, brand or character logo.'],
+        links: [{ href: '/graphic-tees-for-men/', text: 'Graphic tees for men' }] },
+      { h2: 'What size tee should you buy for dad?',
+        body: ['His usual size. The four tees are a classic unisex cut in sizes S to 4XL, so his usual size gives a regular fit and one up is roomier. They are 4.2 oz combed ring-spun cotton (heather colors contain polyester), a lightweight tee that is easy to wear under a work jacket.',
+          'If the size is wrong, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and nothing is mailed back.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'How do you wash a graphic tee so the print lasts?',
+        body: ['Turn it inside out and wash cold with similar colors. Tumble dry low, skip bleach and fabric softener, and keep the iron off the print.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'When should you order a funny gift for dad for Christmas?',
+        body: ['Each tee is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. For a Christmas gift, order by about December 8. US shipping is free on orders of $45 or more, so two tees ship free. Prices go up on December 1, when the holiday sale ends.'],
+        links: [{ href: '/guides/hoodies-for-dad/', text: 'Hoodies for dad' }] },
+      { h2: 'What if dad golfs or fishes instead?',
+        body: ['Those have their own lists. For golfers and anglers, see hoodies for dad and fishing gifts for dad. For a general list, see Christmas gifts for dad.'],
+        links: [{ href: '/guides/hoodies-for-dad/', text: 'Hoodies for dad' }, { href: '/guides/fishing-gifts-for-dad/', text: 'Fishing gifts for dad' }, { href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }] },
+    ],
+    faqs: [
+      { q: 'What are funny gifts for dad?', a: 'A shirt that says what he already says. Graphic Tees Co. has four original dad tees: Resting My Eyes, No, I Can’t Just Take a Quick Look, If You Can Step Over It, I Can Fill It and The Neighbors Love Me, $24.99 each through November 30, 2026, then $29.99.' },
+      { q: 'What is a funny gift for a dad who naps?', a: 'The Resting My Eyes tee. Graphic Tees Co. prints a dad asleep in a plaid recliner with a Santa hat sliding off. It is $24.99 in White, Natural, Ash, Athletic Heather, Heather Dust or Tan, sizes S to 4XL.' },
+      { q: 'What size tee should I buy for my dad?', a: 'His usual size. The Graphic Tees Co. tees are a classic unisex cut in S to 4XL. Go up one for a looser fit. One replacement size is free within 30 days of delivery.' },
+      { q: 'Are these tees heavy or light?', a: 'Light. The Graphic Tees Co. dad tees are 4.2 oz combed ring-spun cotton, with some polyester in the heather colors. They are soft, easy to wear under a jacket and not a heavyweight tee.' },
+      { q: 'How early should I order a funny gift for dad for Christmas?', a: 'About two weeks ahead. Graphic Tees Co. prints each tee to order in 2 to 5 business days, then ships it in about 3 to 8 business days in the US. Order by about December 8.' },
+      { q: 'How much do the dad tees cost?', a: 'Each is $24.99 through November 30, 2026, then $29.99 from December 1. US shipping is free on orders of $45 or more, and every tee is printed to order.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
