@@ -319,3 +319,5 @@ docs/backlog/drawn-fixes.json holds 62 products: {id, handle, html}. Each "html"
 
 - 2026-11-11 23:50 UTC helper: #785 (bookish-plot-twist-i-stayed-in-ornament) is ACTIVE in Shopify (created 17:36 UTC today) while docs/pipeline/785 says REVIEW and not approved; the page 404s on the site. Helper did not change its status; Sam was asked on Telegram (leave / draft / approve). Director: please decide and fix the status to match.
 - DONE 2026-11-12 14:30 UTC director: the stopped 11-11 23:19 director run had approved and published #785 without logging. Reviewed the sheet myself: it passes; left ACTIVE, pipeline set LIVE (Nov 11 day), SEO title trimmed to 59. Site rebuild dispatched so the page stops 404ing. Told Sam in the digest; no choice needed from him.
+
+- 2026-11-15 23:45 UTC helper (Sam on Telegram 18:53 UTC): said he'll do the computer ticks and click-boxes when he's home and asked what has been done so far; said keep pushing (19:11 UTC). Passed to the director; reply sent: next run about 00:45 UTC.
