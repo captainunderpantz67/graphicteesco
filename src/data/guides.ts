@@ -4245,6 +4245,92 @@ export const allGuides: Guide[] = [
       { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not mail the first one back.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-15). Keyword: gifts for gym rats 720 / KD 22 (RankHero keyword page via scripts/keyword-gap.py rankhero(), measured 2026-11-15). Unowned in collections.ts, guides.ts and product-keyword-map.json ("gym rat shirt" and "gym rat hoodie" stay with their products). Also measured: gifts for skiers 6,600 / KD 30 (only 2 A-grade designs fit, skipped), gifts for drummers 3,600 / KD 31 (claimed by a product and 1 design), gifts for gigi / mimi (retargeted off those products, but the grandma guide already covers them).
+    // Facts (art, colors, sizes, blanks, prices, policies) from the live Shopify stories read 2026-11-15 (Barbell Club, Iron & Sweat, Old School Strength tees; Twelve Labors hoodie; Rack Your Weights oversized hoodie), R12.1 and site.ts. All five handles are in src/data/fresh-designs.json (grade checked by the writer). FAQ questions are not from PAA or GSC (not available unattended).
+    // Picks avoid the men's lifter designs the sibling gym guides lead with (Sisyphus, Lunges & Lattes, Lift Heavy) where possible.
+    // Planned siblings (not live yet): gifts-for-lifters-under-50, gym-hoodies-for-men-guide.
+    slug: 'gifts-for-gym-rats',
+    keyword: 'gifts for gym rats',
+    title: 'Gifts for Gym Rats: 5 Funny Lifter Tees & Hoodies (From $24.99)',
+    description: 'Gifts for gym rats who own every shaker bottle: Retired From Cardio, Sore Since 1987, Peaked in 1898 tees $24.99, Twelve Labors hoodie $39.99. Printed to order.',
+    h1: 'Gifts for Gym Rats Who Already Own Every Shaker Bottle',
+    date: '2026-11-15',
+    cluster: 'gym',
+    draft: true,
+    answer: 'The best gift for a gym rat is a shirt that jokes about the gym, because the gear is already in the bag. Graphic Tees Co. has five original designs for lifters: Retired From Cardio (tee $24.99), Sore Since 1987 (tee $24.99), Peaked in 1898 (tee $24.99), Twelve Labors. Zero Cardio. (hoodie $39.99) and Rack Your Weights. Respectfully. (oversized hoodie $54.99). Those are holiday sale prices through November 30, 2026; from December 1 the tees are $29.99, the pullover hoodie is $44.99 and the oversized hoodie is $59.99. Each piece is printed to order.',
+    picks: [
+      {
+        h2: 'What is a funny gift for a gym rat who hates cardio?',
+        body: ['Retired From Cardio. An old-time strongman naps in a rocking chair beside a loaded barbell, and the line says what every lifter thinks around the third treadmill warm-up. The tee is $24.99 in Black, Navy, Dark Grey Heather, Army, Soft Cream or White, sizes XS to 5XL in the most common colors.',
+          'Twelve Labors. Zero Cardio. says the same thing in Greek vase style. The hoodie is $39.99 in Sand or Sport Grey, sizes S to 3XL.'],
+        items: [
+          { slogan: 'RETIRED FROM CARDIO (Barbell Club)', tee: 'mens-gym-barbell-club-graphic-tee',
+            text: 'A mustached strongman in a striped singlet sleeps in a rocking chair beside a loaded barbell, a little z drifting over his head, drawn like a 1960s magazine illustration. RETIRED FROM CARDIO runs across the top in big retro capitals with Barbell Club in small script beneath it. It is a 4.2 oz cotton tee, not a technical shirt.' },
+          { slogan: 'TWELVE LABORS. ZERO CARDIO. (hoodie)', tee: 'mens-gym-twelve-labors-zero-cardio-hoodie',
+            text: 'A hero in a lion-skin cloak and sandals trudges on a modern treadmill, drawn in Greek black-figure vase style in terracotta and black, under TWELVE LABORS. in near-black serif capitals above and ZERO CARDIO. below. It is an 8 oz cotton and polyester fleece pullover with a double-lined hood and a front pouch pocket.' },
+        ],
+        links: [{ href: '/hoodies/gym-hoodies/', text: 'All gym hoodies' }],
+      },
+      {
+        h2: 'What is a good gift for a gym rat who is always sore?',
+        body: ['Sore Since 1987. It is the walk every lifter over 35 knows: one hand on the rail, one foot at a time. The tee is $24.99 in seven colors, from Black and Navy to Maroon and Military Green, sizes XS to 5XL in the most common ones.'],
+        items: [
+          { slogan: 'SORE SINCE 1987 (Iron & Sweat Dept.)', tee: 'mens-gym-iron-sweat-graphic-tee',
+            text: 'An 80s lifter in a sweatband and tank top winces his way down the gym stairs with a bag on his shoulder, in faded sunset-stripe colors. SORE SINCE 1987 arches over him with Iron & Sweat Dept. in small type beneath. Cream ink prints on the dark colors and dark ink on Soft Cream and White.' },
+        ],
+        links: [{ href: '/mens-gym-shirts/', text: 'Men’s gym shirts' }],
+      },
+      {
+        h2: 'What do you give the gym rat who still talks about his best day?',
+        body: ['Peaked in 1898. Every gym has one lifter who brings up his personal best at every opportunity, and this tee says it for him. It is $24.99 in four light colors (Vintage White, White, Athletic Heather and Heather Dust), sizes XS to 4XL.'],
+        items: [
+          { slogan: 'PEAKED IN 1898', tee: 'mens-gym-old-school-strength-graphic-tee',
+            text: 'A mustached strongman in a leopard-print singlet and red tights stands on a small wooden platform with a barbell pressed overhead, a round globe on each end, drawn like a circus-poster engraving. PEAKED IN 1898 runs underneath in worn hand-lettered capitals.' },
+        ],
+      },
+      {
+        h2: 'What is a good gift for a gym rat who gets mad about plates left on the floor?',
+        body: ['Rack Your Weights. Respectfully. A Victorian butler carries one iron plate on a silver tray toward an empty rack, and the gripe comes out in the politest voice there is. It is the oversized hoodie at $54.99 in Dust or Athletic Heather, sizes S to 3XL.'],
+        items: [
+          { slogan: 'RACK YOUR WEIGHTS. Respectfully. (oversized hoodie)', tee: 'mens-gym-rack-your-weights-respectfully-oversized-hoodie',
+            text: 'A Victorian butler in a top hat, tails and white gloves carries one iron plate on a silver tray toward an empty weight rack, a trail of loose plates behind him. RACK YOUR WEIGHTS. stacks across the top in heavy black slab capitals and Respectfully. closes the print in a gold italic. It is a 10 oz oversized hoodie with a brushed interior, a double-layered hood with no drawcord and a front pocket.' },
+        ],
+        links: [{ href: '/hoodies/oversized-hoodies-for-men/', text: 'Men’s oversized hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good gift for a gym rat?',
+        body: ['Something that jokes about the gym, not another bottle or strap. A gym rat already owns the gear and has opinions about it. A shirt that names the sore legs, the skipped cardio or the plates on the floor is the part nobody else thought of.',
+          'Every Graphic Tees Co. design is original, made for this shop, and none carries a team, brand or character logo.'],
+        links: [{ href: '/guides/gifts-for-gym-lovers/', text: 'Gifts for gym lovers' }] },
+      { h2: 'Tee or hoodie for a gym rat?',
+        body: ['The tee is the lightest and cheapest: a 4.2 oz cotton tee at $24.99. It is a casual gym tee, not a moisture-wicking performance shirt, so it works for a lift and for the rest of the day. The Twelve Labors hoodie is an 8 oz fleece pullover at $39.99. The Rack Your Weights hoodie is a roomy 10 oz oversized cut at $54.99.',
+          'If you are unsure, the tee is the safe pick, and a hoodie is the better gift for a cold garage gym.'],
+        links: [{ href: '/guides/gym-gifts-for-men/', text: 'Gym gifts for men' }] },
+      { h2: 'What size should you buy a gym rat?',
+        body: ['His usual size. The tees are a classic unisex cut, so his usual size gives a regular fit and one up is roomier across the shoulders. The oversized hoodie goes big on comfort: order his usual size for the relaxed look or one down for a closer fit.',
+          'If the size is wrong, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and nothing is mailed back.'],
+        links: [{ href: '/guides/hoodie-sizing/', text: 'Hoodie sizing guide' }, { href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'How do you wash a gym tee so the print lasts?',
+        body: ['Turn it inside out and wash cold with similar colors. Tumble dry low, skip bleach and do not iron over the print.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'When should you order a gym rat gift for Christmas?',
+        body: ['Each piece is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. For a Christmas gift, order by about December 8. US shipping is free on orders of $45 or more, so two tees ship free, and so does a hoodie with a tee. Prices go up on December 1, when the holiday sale ends.'],
+        links: [{ href: '/hoodies/gym-hoodies/', text: 'Gym hoodies' }] },
+      { h2: 'Where can you find more gym gift ideas?',
+        body: ['For funny shirts a lifter will wear to the gym, see funny workout shirts. For the whole family of gym gifts, see gym gifts for men and gifts for gym lovers.'],
+        links: [{ href: '/guides/funny-workout-shirts/', text: 'Funny workout shirts' }, { href: '/guides/gym-gifts-for-men/', text: 'Gym gifts for men' }, { href: '/guides/gifts-for-gym-lovers/', text: 'Gifts for gym lovers' }] },
+    ],
+    faqs: [
+      { q: 'What are good gifts for gym rats?', a: 'Something that jokes about the gym. Graphic Tees Co. makes original lifter designs: the Retired From Cardio, Sore Since 1987 and Peaked in 1898 tees at $24.99 and the Twelve Labors. Zero Cardio. hoodie at $39.99 through November 30, 2026, then $29.99 and $44.99 from December 1.' },
+      { q: 'What do you get a gym rat who has everything?', a: 'A shirt that says what he thinks in the gym. The Graphic Tees Co. Rack Your Weights. Respectfully. oversized hoodie has a butler carrying one plate back to the rack. It is $54.99 in Dust or Athletic Heather, sizes S to 3XL, printed to order.' },
+      { q: 'What colors do the gym tees come in?', a: 'At Graphic Tees Co., Retired From Cardio comes in Black, Navy, Dark Grey Heather, Army, Soft Cream and White. Sore Since 1987 adds Maroon and Military Green. Peaked in 1898 comes in Vintage White, White, Athletic Heather and Heather Dust.' },
+      { q: 'Are these performance shirts?', a: 'No. The Graphic Tees Co. gym tees are lightweight 4.2 oz cotton graphic tees, soft and casual, not moisture-wicking. They are made to wear to the gym and then keep wearing the rest of the day.' },
+      { q: 'How early should I order a gym rat gift for Christmas?', a: 'About two weeks ahead. Graphic Tees Co. prints each piece to order in 2 to 5 business days, then ships it in about 3 to 8 business days in the US. Order by about December 8.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not mail the first one back.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
