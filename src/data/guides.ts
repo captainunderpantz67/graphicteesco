@@ -4039,7 +4039,7 @@ export const allGuides: Guide[] = [
     h1: 'Gifts for Welders: Shop-Joke Tees and a Hoodie',
     date: '2026-11-13',
     cluster: 'tees',
-    draft: true,
+    draft: false,
     answer: 'The best gift for a welder is something that tells a shop joke they already know, because they will wear it to the shop and the cookout. Graphic Tees Co. has two original welder designs: If You Can Step Over It, I Can Fill It (tee $24.99, hoodie $39.99) and I Basically Hot Glue Metal (tee $24.99). Those are holiday sale prices through November 30, 2026; from December 1 tees are $29.99 and the hoodie $44.99. Every piece is printed to order in sizes S to 4XL on the tees and S to 3XL on the hoodie.',
     picks: [
       {
@@ -4111,7 +4111,7 @@ export const allGuides: Guide[] = [
     h1: 'Pilates Gifts: Funny Picks for Someone Who Lives on the Reformer',
     date: '2026-11-14',
     cluster: 'gym',
-    draft: true,
+    draft: false,
     answer: 'The best pilates gift is something that jokes about the class she already loves: the shaking legs, the "just two more," the donut after. Graphic Tees Co. has two original pilates designs: Just Two More (She Lied) on a tee ($24.99) and Core Issues on a crewneck ($34.99) and a cropped hoodie ($44.99). Those are holiday sale prices through November 30, 2026; from December 1 they are $29.99, $39.99 and $49.99. Each piece is printed to order.',
     picks: [
       {
@@ -4252,8 +4252,8 @@ export const allGuides: Guide[] = [
     // Planned siblings (not live yet): gifts-for-lifters-under-50, gym-hoodies-for-men-guide.
     slug: 'gifts-for-gym-rats',
     keyword: 'gifts for gym rats',
-    title: 'Gifts for Gym Rats: 5 Funny Lifter Tees & Hoodies (From $24.99)',
-    description: 'Gifts for gym rats who own every shaker bottle: Retired From Cardio, Sore Since 1987, Peaked in 1898 tees $24.99, Twelve Labors hoodie $39.99. Printed to order.',
+    title: 'Gifts for Gym Rats: 5 Funny Lifter Tees & Hoodies',
+    description: 'Gifts for gym rats who own every shaker bottle: Retired From Cardio, Sore Since 1987 and Peaked in 1898 tees at $24.99, plus two hoodies.',
     h1: 'Gifts for Gym Rats Who Already Own Every Shaker Bottle',
     date: '2026-11-15',
     cluster: 'gym',
@@ -4309,7 +4309,7 @@ export const allGuides: Guide[] = [
           'If you are unsure, the tee is the safe pick, and a hoodie is the better gift for a cold garage gym.'],
         links: [{ href: '/guides/gym-gifts-for-men/', text: 'Gym gifts for men' }] },
       { h2: 'What size should you buy a gym rat?',
-        body: ['His usual size. The tees are a classic unisex cut, so his usual size gives a regular fit and one up is roomier across the shoulders. The oversized hoodie goes big on comfort: order his usual size for the relaxed look or one down for a closer fit.',
+        body: ['Their usual size. The tees are a classic unisex cut, so the usual size gives a regular fit and one up is roomier across the shoulders. The oversized hoodie goes big on comfort: order the usual size for the relaxed look or one down for a closer fit.',
           'If the size is wrong, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and nothing is mailed back.'],
         links: [{ href: '/guides/hoodie-sizing/', text: 'Hoodie sizing guide' }, { href: '/shipping-returns/', text: 'Shipping and returns' }] },
       { h2: 'How do you wash a gym tee so the print lasts?',
@@ -4325,7 +4325,7 @@ export const allGuides: Guide[] = [
     faqs: [
       { q: 'What are good gifts for gym rats?', a: 'Something that jokes about the gym. Graphic Tees Co. makes original lifter designs: the Retired From Cardio, Sore Since 1987 and Peaked in 1898 tees at $24.99 and the Twelve Labors. Zero Cardio. hoodie at $39.99 through November 30, 2026, then $29.99 and $44.99 from December 1.' },
       { q: 'What do you get a gym rat who has everything?', a: 'A shirt that says what he thinks in the gym. The Graphic Tees Co. Rack Your Weights. Respectfully. oversized hoodie has a butler carrying one plate back to the rack. It is $54.99 in Dust or Athletic Heather, sizes S to 3XL, printed to order.' },
-      { q: 'What colors do the gym tees come in?', a: 'At Graphic Tees Co., Retired From Cardio comes in Black, Navy, Dark Grey Heather, Army, Soft Cream and White. Sore Since 1987 adds Maroon and Military Green. Peaked in 1898 comes in Vintage White, White, Athletic Heather and Heather Dust.' },
+      { q: 'What colors do the gym tees come in?', a: 'At Graphic Tees Co., Retired From Cardio comes in Black, Navy, Dark Grey Heather, Army, Soft Cream and White. Sore Since 1987 comes in Black, Navy, Maroon, Dark Grey Heather, Military Green, Soft Cream and White. Peaked in 1898 comes in Vintage White, White, Athletic Heather and Heather Dust.' },
       { q: 'Are these performance shirts?', a: 'No. The Graphic Tees Co. gym tees are lightweight 4.2 oz cotton graphic tees, soft and casual, not moisture-wicking. They are made to wear to the gym and then keep wearing the rest of the day.' },
       { q: 'How early should I order a gym rat gift for Christmas?', a: 'About two weeks ahead. Graphic Tees Co. prints each piece to order in 2 to 5 business days, then ships it in about 3 to 8 business days in the US. Order by about December 8.' },
       { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not mail the first one back.' },
@@ -4337,8 +4337,8 @@ export const allGuides: Guide[] = [
     // Planned siblings (not live yet): funny-gifts-for-grandpa, funny-gifts-for-brother.
     slug: 'funny-gifts-for-dad',
     keyword: 'funny gifts for dad',
-    title: 'Funny Gifts for Dad: 4 Tees for Dads With a Trade or a Nap Habit',
-    description: 'Funny gifts for dad who has heard every joke: Resting My Eyes, No I Can’t Just Take a Quick Look, If You Can Step Over It and The Neighbors Love Me tees, $24.99.',
+    title: 'Funny Gifts for Dad: 4 Tees for Nappers and Tradesmen',
+    description: 'Funny gifts for dad who has heard every joke: Resting My Eyes, No I Can’t Just Take a Quick Look, Step Over It and The Neighbors Love Me tees, $24.99.',
     h1: 'Funny Gifts for Dad: Four Tees That Say What He Already Thinks',
     date: '2026-11-15',
     cluster: 'tees',
@@ -4373,7 +4373,7 @@ export const allGuides: Guide[] = [
       },
       {
         h2: 'What is a funny gift for a dad who drums?',
-        body: ['The Neighbors Love Me. It is for the dad who practices with the garage door open. The tee is $24.99 in ten colors, from Black and Navy to Maroon and Soft Cream, sizes S to 4XL.'],
+        body: ['The Neighbors Love Me. It is for the dad who still drums with the garage door open: the picture shows a drummer going full tilt in an open garage while the neighbors on both sides cover their ears. The tee is $24.99 in ten colors, from Black and Navy to Maroon and Soft Cream, sizes S to 4XL.'],
         items: [
           { slogan: 'THE NEIGHBORS LOVE ME.', tee: 'mens-drummer-the-neighbors-love-me-graphic-tee',
             text: 'Three small houses in a row: in the middle one a young drummer plays a kit in an open garage, on the left a man in a bathrobe presses a pillow over his ears, and on the right a woman leans from a window holding her ears while a cat lies flattened on the steps. THE NEIGHBORS sits above the scene and LOVE ME. below in bold slab capitals.' },

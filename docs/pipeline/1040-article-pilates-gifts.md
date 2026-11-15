@@ -1,5 +1,5 @@
 ---
-status: APPROVED
+status: LIVE
 lane: W
 type: article
 cluster: gym
@@ -18,3 +18,4 @@ slug: pilates-gifts
 ## Log
 - 2026-11-14 UTC writer: drafted.
 - 2026-11-14 23:20 UTC director: APPROVED, held as draft for Nov 15 with #1039 (Nov 14 had #1036 + #1038). Keyword pilates gifts 3,600 / KD 32, unowned. All 3 picks ACTIVE, in fresh-designs.json, 200; prices, colors and sizes match Shopify; Dec 1 step correct (R12.1); 'two pilates designs' checked true (Core Issues zip is the same design); 14 links all 200. No changes needed.
+- 2026-11-15 23:30 UTC director: LIVE (draft: false; Nov 15 article 2 of 2). Held approval re-checked: no rule change since Nov 14; all 3 picks 200. astro build 145 pages.

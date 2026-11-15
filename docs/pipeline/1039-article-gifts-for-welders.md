@@ -1,5 +1,5 @@
 ---
-status: APPROVED
+status: LIVE
 lane: W
 type: article
 cluster: tees
@@ -17,3 +17,4 @@ slug: gifts-for-welders
 ## Log
 - 2026-11-13 UTC writer: drafted.
 - 2026-11-13 23:25 UTC director: APPROVED, held as draft for Nov 15 (Nov 14 has #1036 + #1038). Keyword gifts for welders 1,900 / KD 15, unowned (welder shirt stays with /welder-shirts/). Fixed: linked gifts-for-duck-hunters is still a draft, swapped for the live christmas-gifts-for-hunters (link + text); added the Dec 1 price step ($29.99 tees / $44.99 hoodie, R12.1) to the answer and FAQ 1; 'a joke he did not have' -> 'they' (the article says the tees fit any welder). Checked: all 3 picks in fresh-designs.json, live prices $24.99 / $39.99, every link 200.
+- 2026-11-15 23:30 UTC director: LIVE (draft: false; Nov 15 article 1 of 2). Held approval re-checked: no rule change since Nov 13; all 3 picks 200. astro build 145 pages.
