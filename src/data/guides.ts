@@ -4407,6 +4407,88 @@ export const allGuides: Guide[] = [
       { q: 'How much do the dad tees cost?', a: 'Each is $24.99 through November 30, 2026, then $29.99 from December 1. US shipping is free on orders of $45 or more, and every tee is printed to order.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-16). Keyword: funny mens christmas shirts 1,900 / KD 16 (RankHero page pull via scripts/keyword-gap.py rankhero(), measured 2026-11-16). Unowned: not in collections.ts, guides.ts or product-keyword-map.json. "christmas shirt men" stays with /christmas-shirts-for-men/ and "funny christmas shirt" with /funny-christmas-shirts/. Chosen because the christmas cluster has no tee-focused men's article and nothing easier measured for hoodies/cropped with A-grade picks.
+    // Picks (all five handles are in fresh-designs.json): Bulking Season, It Looked Smaller at the Farm, Mom's Favorite, Resting My Eyes, White Elephant Champion tees. Art, colors, sizes, fabric and price read from the live Shopify Stories 2026-11-16. Price stated as the live $24.99, no sale step claimed. FAQ questions are not from PAA or GSC (not available unattended).
+    // Siblings: funny-gifts-for-dad, christmas-gifts-for-dad, christmas-gifts-for-son, white-elephant-gifts, gym-gifts-for-men.
+    slug: 'funny-mens-christmas-shirts',
+    keyword: 'funny mens christmas shirts',
+    title: 'Funny Men’s Christmas Shirts: 5 Tees That Get the Laugh',
+    description: 'Funny men’s Christmas shirts with original art: Bulking Season, Resting My Eyes, Mom’s Favorite, I Stole It and It Looked Smaller at the Farm. $24.99, S to 4XL.',
+    h1: 'Funny Men’s Christmas Shirts: Five Tees for the Guy Who Hates Ugly Sweaters',
+    date: '2026-11-16',
+    cluster: 'christmas',
+    draft: true,
+    answer: 'The funniest men’s Christmas shirt names something he really does at Christmas: naps in the recliner, buys a tree too big for the room, steals the best white elephant gift. Graphic Tees Co. has five original ones, all $24.99 and printed to order in sizes S to 4XL: Resting My Eyes, It Looked Smaller at the Farm, White Elephant Champion, Mom’s Favorite and Bulking Season.',
+    picks: [
+      {
+        h2: 'Which funny Christmas shirt is for a man who naps or picks the tree?',
+        body: ['Two for the family-dinner crowd. Both are $24.99, classic unisex tees in sizes S to 4XL.'],
+        items: [
+          { slogan: 'RESTING MY EYES', tee: 'mens-christmas-resting-my-eyes-graphic-tee',
+            text: 'A dad tipped back in a plaid recliner with his mouth open, a Santa hat sliding off, reading glasses pushed up and a half-unwrapped polka-dot present on his lap, a small lit tree beside the chair and a sleepy cat curled on his shoulder, drawn like a 1950s storybook. RESTING runs in big pine-green capitals and MY EYES in Santa-hat red. It comes in White, Natural, Ash, Athletic Heather, Heather Dust and Tan.' },
+          { slogan: 'IT LOOKED SMALLER AT THE FARM', tee: 'mens-christmas-it-looked-smaller-at-the-farm-graphic-tee',
+            text: 'A deadpan man in a red plaid flannel and a knit cap stands beside a fir far too big for the room: the top is bent against a ceiling beam, the star lies on the floor, the tree stand has tipped over and a limp tape measure dangles from his hand. Chunky faded-red slab capitals run across the top and bottom. It comes in Natural, Soft Cream, Ash, Athletic Heather, Navy, Heather Navy and Dark Grey Heather.' },
+        ],
+        links: [{ href: '/christmas-shirts-for-men/', text: 'All men’s Christmas shirts' }],
+      },
+      {
+        h2: 'Which funny Christmas shirt works for a gift swap or the favorite-child bit?',
+        body: ['Two more that get a read from across the table. Both are $24.99 in six or seven colors, sizes S to 4XL.'],
+        items: [
+          { slogan: 'I STOLE IT. I’M KEEPING IT.', tee: 'mens-christmas-white-elephant-champion-graphic-tee',
+            text: 'A proud mustached man in a striped Christmas sweater and a bobble hat stands on a small podium hugging a wrapped gift with a big bow like a championship belt, a tiny gold trophy at his feet and crumpled wrapping paper around the podium. I STOLE IT. runs in heavy dark red capitals and I’M KEEPING IT. in navy. It comes in White, Natural, Heather Dust, Athletic Heather, Ash, Tan and Sage.' },
+          { slogan: 'MOM’S FAVORITE. CHECK THE STOCKINGS.', tee: 'mens-christmas-moms-favorite-graphic-tee',
+            text: 'A brick mantel with a pine garland and two knit stockings: the left one overflows with wrapped presents, candy canes, ornaments and a toy truck, the right one hangs limp with a single candy cane. MOM’S FAVORITE. runs across the top in red slab capitals and CHECK THE STOCKINGS. across the bottom in pine green. It comes in White, Natural, Heather Dust, Athletic Heather, Ash and Tan.' },
+        ],
+        links: [{ href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }],
+      },
+      {
+        h2: 'Which funny Christmas shirt is for the guy who lifts?',
+        body: ['Bulking Season. December is the bulk, and this tee is for the guy who explains his macros at the family dinner. It is $24.99, sizes S to 4XL.'],
+        items: [
+          { slogan: 'BULKING SEASON', tee: 'mens-christmas-bulking-season-graphic-tee',
+            text: 'A muscular storybook Santa in red trousers, a white tank top and a striped sweatband carries a candy-cane barbell loaded with big gingerbread-man cookies as weight plates, a plate of cookies on a bench beside him. BULKING SEASON stacks above him in huge red and green gym-poster capitals. It comes in White, Natural, Ash, Athletic Heather, Heather Dust and Tan.' },
+        ],
+        links: [{ href: '/guides/gym-gifts-for-men/', text: 'Gym gifts for men' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a men’s Christmas shirt funny instead of cheesy?',
+        body: ['It says one dry thing he would say himself, with a straight face. A pun that explains itself or a cartoon reindeer with a slogan is a costume. A dad asleep in a recliner who insists he is only resting his eyes is just true.',
+          'Every Graphic Tees Co. design is original, made for this shop, with the joke in big lettering over a vintage storybook picture. None of the five uses a character, team or brand logo.'],
+        links: [{ href: '/funny-christmas-shirts/', text: 'Funny Christmas shirts' }, { href: '/christmas-shirts-for-men/', text: 'Men’s Christmas shirts' }] },
+      { h2: 'What size should you buy in a men’s Christmas tee?',
+        body: ['His usual size. These are a classic unisex Bella+Canvas 3001 cut in sizes S to 4XL, so his usual size gives a regular fit and one size up gives a looser one.',
+          'If the size is wrong, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and nothing has to be mailed back.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'What is a funny Christmas tee made of?',
+        body: ['Each of the five is 100% combed, ring-spun cotton at 4.2 oz per square yard, pre-shrunk, with side seams and shoulder-to-shoulder taping. The heather colors contain some polyester.',
+          'It is a lightweight tee, soft and easy to wear under a flannel or open over a thermal.'] },
+      { h2: 'What do men wear to a Christmas party instead of an ugly sweater?',
+        body: ['A graphic tee under an open flannel, with dark jeans, is festive without being a costume. The shirt does the joking, so he does not have to.',
+          'For a warmer layer, the same kind of art also comes on crewneck sweatshirts.'],
+        links: [{ href: '/christmas-sweatshirts-for-men/', text: 'Men’s Christmas sweatshirts' }, { href: '/guides/how-to-style-graphic-tees/', text: 'How to style graphic tees' }] },
+      { h2: 'How do you wash a funny Christmas shirt so the print lasts?',
+        body: ['Turn it inside out and wash cold with similar colors. Tumble dry low or hang it dry, skip bleach and fabric softener, and keep the iron off the print.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'When should you order a funny Christmas shirt?',
+        body: ['Each tee is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. For Christmas Day, order by about December 8. US shipping is free on orders of $45 or more, so two $24.99 tees ship free.',
+          'Buying for a group? Order 10 or more items in one cart and 15% comes off at checkout.'],
+        links: [{ href: '/group-shirts/', text: 'Group orders' }] },
+      { h2: 'Where can you find more funny Christmas gifts for him?',
+        body: ['For one specific man, see the lists for dad and for a son. For the swap table, see white elephant gifts.'],
+        links: [{ href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }, { href: '/guides/christmas-gifts-for-son/', text: 'Christmas gifts for son' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }] },
+    ],
+    faqs: [
+      { q: 'What are funny men’s Christmas shirts?', a: 'Tees with one dry joke about something he really does at Christmas. Graphic Tees Co. has five original ones at $24.99 each: Resting My Eyes, It Looked Smaller at the Farm, White Elephant Champion, Mom’s Favorite and Bulking Season.' },
+      { q: 'What size funny Christmas shirt should I buy for a man?', a: 'His usual size. The Graphic Tees Co. tees are a classic unisex cut in S to 4XL, and one size up gives a looser fit. One replacement size is free within 30 days of delivery.' },
+      { q: 'Are the funny Christmas tees heavy or light?', a: 'Light. They are 4.2 oz combed ring-spun cotton, with some polyester in the heather colors, so they layer easily under a flannel. The Graphic Tees Co. tees are pre-shrunk with side seams.' },
+      { q: 'What is a funny Christmas shirt for a gift swap?', a: 'White Elephant Champion. The Graphic Tees Co. tee shows a man on a podium hugging a gift like a championship belt, lettered I STOLE IT. I’M KEEPING IT. It is $24.99 in seven colors, sizes S to 4XL.' },
+      { q: 'How early should I order a funny Christmas shirt?', a: 'About two weeks ahead. Graphic Tees Co. prints each tee to order in 2 to 5 business days, then ships it in about 3 to 8 business days in the US. Order by about December 8.' },
+      { q: 'How much do the funny Christmas shirts cost?', a: 'Each of the five is $24.99. US shipping at Graphic Tees Co. is free on orders of $45 or more, and every tee is printed to order.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
