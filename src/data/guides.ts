@@ -4178,7 +4178,6 @@ export const allGuides: Guide[] = [
     h1: 'Gifts for Cat Moms: Funny Picks for the Person Her Cat Owns',
     date: '2026-11-14',
     cluster: 'hoodies',
-    draft: true,
     answer: 'The best gift for a cat mom is something that jokes about the thing her cat did this morning: kneading the blanket, knocking the mug off the table, breaking the ornament and looking innocent. Three original Graphic Tees Co. cat designs fit her best: Do Not Disturb. Biscuits in Progress. (hoodie $39.99), Oops. Anyway. (crewneck $34.99, cropped hoodie $44.99) and Cat Allegedly. (tee $24.99, crewneck $34.99). Those are holiday sale prices through November 30, 2026; from December 1 they are $44.99 for the hoodie, $39.99 for the crewnecks, $49.99 for the cropped hoodie and $29.99 for the tee. Each piece is printed to order.',
     picks: [
       {
@@ -4257,7 +4256,6 @@ export const allGuides: Guide[] = [
     h1: 'Gifts for Gym Rats Who Already Own Every Shaker Bottle',
     date: '2026-11-15',
     cluster: 'gym',
-    draft: true,
     answer: 'The best gift for a gym rat is a shirt that jokes about the gym, because the gear is already in the bag. Graphic Tees Co. has five original designs for lifters: Retired From Cardio (tee $24.99), Sore Since 1987 (tee $24.99), Peaked in 1898 (tee $24.99), Twelve Labors. Zero Cardio. (hoodie $39.99) and Rack Your Weights. Respectfully. (oversized hoodie $54.99). Those are holiday sale prices through November 30, 2026; from December 1 the tees are $29.99, the pullover hoodie is $44.99 and the oversized hoodie is $59.99. Each piece is printed to order.',
     picks: [
       {
@@ -4319,8 +4317,8 @@ export const allGuides: Guide[] = [
         body: ['Each piece is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. For a Christmas gift, order by about December 8. US shipping is free on orders of $45 or more, so two tees ship free, and so does a hoodie with a tee. Prices go up on December 1, when the holiday sale ends.'],
         links: [{ href: '/hoodies/gym-hoodies/', text: 'Gym hoodies' }] },
       { h2: 'Where can you find more gym gift ideas?',
-        body: ['For funny shirts a lifter will wear to the gym, see funny workout shirts. For the whole family of gym gifts, see gym gifts for men and gifts for gym lovers.'],
-        links: [{ href: '/guides/funny-workout-shirts/', text: 'Funny workout shirts' }, { href: '/guides/gym-gifts-for-men/', text: 'Gym gifts for men' }, { href: '/guides/gifts-for-gym-lovers/', text: 'Gifts for gym lovers' }] },
+        body: ['For funny shirts a lifter will wear to the gym, see the men’s gym shirts. For the whole family of gym gifts, see gym gifts for men and gifts for gym lovers.'],
+        links: [{ href: '/mens-gym-shirts/', text: 'Men’s gym shirts' }, { href: '/guides/gym-gifts-for-men/', text: 'Gym gifts for men' }, { href: '/guides/gifts-for-gym-lovers/', text: 'Gifts for gym lovers' }] },
     ],
     faqs: [
       { q: 'What are good gifts for gym rats?', a: 'Something that jokes about the gym. Graphic Tees Co. makes original lifter designs: the Retired From Cardio, Sore Since 1987 and Peaked in 1898 tees at $24.99 and the Twelve Labors. Zero Cardio. hoodie at $39.99 through November 30, 2026, then $29.99 and $44.99 from December 1.' },

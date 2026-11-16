@@ -1,5 +1,5 @@
 ---
-status: APPROVED
+status: LIVE
 lane: W
 type: article
 cluster: hoodies
@@ -18,3 +18,4 @@ slug: gifts-for-cat-moms
 ## Log
 - 2026-11-14 UTC writer: drafted.
 - 2026-11-14 23:20 UTC director: APPROVED, held as draft for Nov 16 (Nov 15 has #1039 + #1040). Keyword gifts for cat moms 390 / KD 28, unowned. All 5 picks ACTIVE, in fresh-designs.json, 200; prices, colors, sizes match Shopify. Fixed: (1) 'a hoodie ships free' was false, the hoodie is $39.99 under the $45 line (R8.6), now 'a hoodie or a cropped hoodie with a tee'; (2) FAQ 'Is the cat mom hoodie warm?' used the Oops. Anyway. zip's claimed phrase (R2.8, R8.7), now 'Is the Biscuits in Progress hoodie warm?'; (3) answer said the shop 'has three cat designs' (it has 10+), now 'three ... fit her best'.
+- 2026-11-16 14:15 UTC director: LIVE (draft: false; Nov 16 article 1 of 2). Held approval re-checked: no rule change since Nov 14; all 5 picks and 6 links 200. astro build 147 pages.

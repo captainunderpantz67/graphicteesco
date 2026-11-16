@@ -1,5 +1,5 @@
 ---
-status: APPROVED
+status: LIVE
 lane: W
 type: article
 cluster: gym
@@ -18,3 +18,4 @@ slug: gifts-for-gym-rats
 ## Log
 - 2026-11-15 UTC writer: drafted.
 - 2026-11-15 23:30 UTC director: APPROVED, held as draft for Nov 16 with #1041. Keyword gifts for gym rats 720 / KD 22, unowned. All 5 picks ACTIVE, in fresh-designs.json, 200; prices, colors and sizes match Shopify. Fixed: SEO title 63 -> 49 chars and meta 160 -> 137 (R8.4); color FAQ said Sore Since 1987 "adds" Maroon and Military Green to the Barbell Club list, but it has no Army, so the list is now spelled out; sizing section "his usual size" -> "their usual size" (the keyword is not men-only).
+- 2026-11-16 14:15 UTC director: LIVE (draft: false; Nov 16 article 2 of 2). Held approval re-checked: no rule change since Nov 15; all 5 picks 200. Fixed one link to the still-draft /guides/funny-workout-shirts/ (404) by pointing it at /mens-gym-shirts/ instead. astro build 147 pages.
