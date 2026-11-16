@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: APPROVED
 lane: W
 type: article
 cluster: christmas
@@ -16,3 +16,4 @@ slug: funny-mens-christmas-shirts
 - `npx astro build` result: passes (147 pages; drafts are not built).
 ## Log
 - 2026-11-16 UTC writer: drafted.
+- 2026-11-16 23:20 UTC director: APPROVED, held as draft for Nov 17 (with #1043; Nov 16 already has 2 of 2). All 5 picks ACTIVE, 200, in fresh-designs.json; colors, sizes and $24.99 match Shopify; 10 links 200; 15% group discount matches /group-shirts/. Fixes: meta 160 -> 155 chars (R8.4); Dec 1 price step ($29.99) added to the order section and the price FAQ (R12.1).

@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: APPROVED
 lane: W
 type: article
 cluster: christmas
@@ -16,3 +16,4 @@ slug: funny-womens-christmas-shirts
 - `npx astro build`: passes (147 pages; drafts are not built). No intake-log lock line written (run limited to guides.ts and this file).
 ## Log
 - 2026-11-16 UTC writer: drafted.
+- 2026-11-16 23:20 UTC director: APPROVED, held as draft for Nov 18 (after #1044, which it links). All 5 picks ACTIVE, 200, in fresh-designs.json; colors, sizes (women's S-3XL, unisex S-4XL) and $24.99 match Shopify; links 200. Fixes: meta 156 -> 143 chars (R8.4); Dec 1 price step ($29.99) added to the order section and the price FAQ (R12.1).
