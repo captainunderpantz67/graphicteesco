@@ -4489,6 +4489,84 @@ export const allGuides: Guide[] = [
       { q: 'How much do the funny Christmas shirts cost?', a: 'Each of the five is $24.99. US shipping at Graphic Tees Co. is free on orders of $45 or more, and every tee is printed to order.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-16), draft. Keyword: womens funny christmas shirts 1,300 / KD 17 (RankHero page pull, measured 2026-11-16; one run, not repeated). Unowned in collections.ts, guides.ts and the keyword map; "christmas shirts for women" stays with /christmas-shirts-for-women/.
+    // Picks are live, ACTIVE, A-grade (in fresh-designs.json); art, colors and sizes read from the live Shopify Stories 2026-11-16.
+    // FAQ questions are not from PAA/GSC (unavailable unattended). Planned siblings (not live yet): funny-womens-christmas-sweatshirts.
+    slug: 'funny-womens-christmas-shirts',
+    keyword: 'womens funny christmas shirts',
+    title: 'Women’s Funny Christmas Shirts: 5 Tees With a Straight Face',
+    description: 'Women’s funny Christmas shirts with original art: Allegedly., The Recipe Dies With Me, Santa Gets All the Credit, Take 41 and We Said No Gifts. $24.99 each.',
+    h1: 'Women’s Funny Christmas Shirts: Five Tees That Say What She’s Thinking',
+    date: '2026-11-16',
+    cluster: 'christmas',
+    draft: true,
+    answer: 'The funniest women’s Christmas shirt says one dry thing she already thinks at the holidays: the cat did not break the ornament, the recipe stays with her, and Santa is not the one who wrapped everything. Graphic Tees Co. has five original ones, all $24.99 and printed to order: Allegedly., The Recipe Dies With Me, Santa Gets All the Credit, Take 41. Still Smiling. and We Said No Gifts. We lied.',
+    picks: [
+      {
+        h2: 'Which funny Christmas shirt is for a cat mom or a baker?',
+        body: ['Two for the woman who runs a house at Christmas. Both are $24.99 in a relaxed women’s cut, sizes S to 3XL.'],
+        items: [
+          { slogan: 'ALLEGEDLY.', tee: 'womens-christmas-cat-allegedly-graphic-tee',
+            text: 'A smug black-and-white tuxedo cat sits upright on a braided red and cream rug, eyes half-closed, licking one raised paw, with a shattered red glass ornament in pieces beside it and the lower branches of the tree behind. ALLEGEDLY. runs underneath in faded red with a cream edge. It comes in White, Natural, Heather Stone, Athletic Heather and Pink.' },
+          { slogan: 'THE RECIPE DIES WITH ME.', tee: 'womens-christmas-nanas-cookies-graphic-tee',
+            text: 'A vintage bakery tray of gingerbread men, frosted sprinkle stars and a sugar-cookie tree, with a holly sprig and a wooden rolling pin. THE RECIPE in dark brown and DIES WITH ME. in red run across the full width. It comes in White, Natural, Heather Stone, Athletic Heather, Pink and Light Violet.' },
+        ],
+        links: [{ href: '/christmas-shirts-for-women/', text: 'All women’s Christmas shirts' }],
+      },
+      {
+        h2: 'Which funny Christmas shirt is for the woman who wraps everything?',
+        body: ['Santa Gets All the Credit. It is a relaxed women’s tee, $24.99, sizes S to 3XL, for the mom who did the shopping, the wrapping and the hiding.'],
+        items: [
+          { slogan: 'SANTA GETS ALL THE CREDIT', tee: 'womens-christmas-santa-gets-all-the-credit-graphic-tee',
+            text: 'A square red gift tied with a large pink satin bow, a vintage tape dispenser nearly out of tape and open pink-handled scissors, with holly sprigs and a curl of ribbon between them. SANTA GETS sits above in cherry-red capitals and ALL THE CREDIT below in pine green. It comes in White, Natural, Heather Stone, Athletic Heather, Pink and Heather Blue Lagoon.' },
+        ],
+        links: [{ href: '/funny-christmas-shirts/', text: 'Funny Christmas shirts' }],
+      },
+      {
+        h2: 'Which funny Christmas shirt works for the family photo or a couple?',
+        body: ['Two unisex tees that she can wear true to size or one size down. Both are $24.99, sizes S to 4XL, in the same six colors.'],
+        items: [
+          { slogan: 'TAKE 41. STILL SMILING.', tee: 'unisex-christmas-card-photo-survivor-graphic-tee',
+            text: 'A family of four in matching red knit sweaters squeezes in front of a decorated tree: dad runs back into the frame from a tripod camera, mom smiles through her teeth, a kid blinks and the dog looks the wrong way. TAKE 41. runs in red serif capitals and STILL SMILING. below it in navy. It comes in White, Natural, Heather Dust, Athletic Heather, Ash and Tan.' },
+          { slogan: 'WE SAID NO GIFTS. We lied.', tee: 'unisex-christmas-we-said-no-gifts-graphic-tee',
+            text: 'A husband in a cardigan and a wife in a sweater and pleated skirt stand back to back in front of a small tree, each hiding a big wrapped present from the other. WE SAID NO GIFTS. runs in red slab capitals and We lied. below in black script. It comes in White, Natural, Heather Dust, Athletic Heather, Ash and Tan.' },
+        ],
+        links: [{ href: '/group-shirts/', text: 'Group and family shirts' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a women’s Christmas shirt funny instead of cheesy?',
+        body: ['It says one dry thing she would say out loud, with a straight face. A cat that insists it did nothing is just true. A pun that explains itself is a greeting card.',
+          'Every Graphic Tees Co. design is original and made for this shop, with the joke in big lettering over a vintage storybook picture. None of the five uses a character, team or brand logo.'],
+        links: [{ href: '/christmas-shirts-for-women/', text: 'Women’s Christmas shirts' }] },
+      { h2: 'What size should you buy in a women’s Christmas tee?',
+        body: ['Her usual size for an easy fit, or one size up for an oversized look. The first three tees are a relaxed women’s cut in S to 3XL; the last two are a classic unisex cut in S to 4XL.',
+          'If the size is wrong, Graphic Tees Co. does one free size exchange within 30 days of delivery.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'What is a funny Christmas tee made of?',
+        body: ['Each of the five is 100% combed, ring-spun cotton at 4.2 oz per square yard, pre-shrunk and side-seamed. The heather colors contain some polyester.',
+          'It is a lightweight tee, easy to wear under a cardigan or an apron on baking day.'] },
+      { h2: 'How do you wash a funny Christmas shirt so the print lasts?',
+        body: ['Turn it inside out and wash cold with similar colors. Tumble dry low or hang it dry, skip bleach and fabric softener, and keep the iron off the print.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }, { href: '/guides/how-to-style-graphic-tees/', text: 'How to style graphic tees' }] },
+      { h2: 'When should you order a funny Christmas shirt?',
+        body: ['Each tee is printed to order, then shipped in the US. For Christmas Day, order by about December 8. US shipping is free on orders of $45 or more, so two $24.99 tees ship free.',
+          'Buying for a group? Order 10 or more items in one cart and 15% comes off at checkout.'],
+        links: [{ href: '/group-shirts/', text: 'Group orders' }] },
+      { h2: 'Where can you find more funny Christmas gifts for her?',
+        body: ['For a specific woman, see the lists for a sister-in-law and for friends.'],
+        links: [{ href: '/guides/christmas-gifts-for-sister-in-law/', text: 'Christmas gifts for sister-in-law' }, { href: '/guides/christmas-gifts-for-friends/', text: 'Christmas gifts for friends' }, { href: '/guides/funny-mens-christmas-shirts/', text: 'Funny men’s Christmas shirts' }] },
+    ],
+    faqs: [
+      { q: 'What are funny women’s Christmas shirts?', a: 'Tees with one dry joke about something she really does at Christmas. Graphic Tees Co. has five original ones at $24.99 each: Allegedly., The Recipe Dies With Me, Santa Gets All the Credit, Take 41. Still Smiling. and We Said No Gifts.' },
+      { q: 'What size funny Christmas shirt should I buy for a woman?', a: 'Her usual size. The Graphic Tees Co. women’s tees are a relaxed cut in S to 3XL, and one size up gives an oversized look. One free size exchange is covered within 30 days.' },
+      { q: 'Are the funny Christmas tees heavy or light?', a: 'Light. They are 4.2 oz combed ring-spun cotton, with some polyester in the heather colors, so they layer easily under a cardigan. The Graphic Tees Co. tees are pre-shrunk with side seams.' },
+      { q: 'What is a funny Christmas shirt for a cat mom?', a: 'Allegedly. The Graphic Tees Co. tee shows a smug tuxedo cat beside a shattered red ornament, lettered ALLEGEDLY. It is $24.99 in five colors, sizes S to 3XL.' },
+      { q: 'How early should I order a funny Christmas shirt?', a: 'By about December 8 for Christmas Day. Graphic Tees Co. prints each tee to order, and US shipping is free on orders of $45 or more.' },
+      { q: 'How much do the funny Christmas shirts cost?', a: 'Each of the five is $24.99. US shipping at Graphic Tees Co. is free on orders of $45 or more, so two tees ship free.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
