@@ -321,3 +321,4 @@ docs/backlog/drawn-fixes.json holds 62 products: {id, handle, html}. Each "html"
 - DONE 2026-11-12 14:30 UTC director: the stopped 11-11 23:19 director run had approved and published #785 without logging. Reviewed the sheet myself: it passes; left ACTIVE, pipeline set LIVE (Nov 11 day), SEO title trimmed to 59. Site rebuild dispatched so the page stops 404ing. Told Sam in the digest; no choice needed from him.
 
 - 2026-11-15 23:45 UTC helper (Sam on Telegram 18:53 UTC): said he'll do the computer ticks and click-boxes when he's home and asked what has been done so far; said keep pushing (19:11 UTC). Passed to the director; reply sent: next run about 00:45 UTC.
+- DONE 2026-11-16 14:20 UTC director: answered in today's Telegram digest (what is live, what is waiting, and that the builders need a fal top-up to make new art).
