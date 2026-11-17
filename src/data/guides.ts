@@ -4641,6 +4641,86 @@ export const allGuides: Guide[] = [
       { q: 'How early should I order a workout hoodie for Christmas?', a: 'By about December 8. Graphic Tees Co. prints each hoodie to order, and US shipping is free on orders of $45 or more.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-17), hoodies cluster (golf). Keyword: funny golf shirts 8,100 / KD 32 (RankHero page pull via keyword-gap.py helper, measured 2026-11-17, one pull). Unowned: no hit in product-keyword-map.json, collections.ts or guides.ts; "golf hoodie" stays with /hoodies/golf-hoodies/, "funny golf gifts" with funny-golf-gifts and "gifts for golf lovers" with that guide. Other phrases measured 2026-11-17: golf pullover 3,600 / KD 31 and golf sweatshirt 2,900 / KD 34 (both claimed by products), golf gifts for men 22,200 / KD 42 (gift list, KD above 35).
+    // Picks (all five handles are in fresh-designs.json, checked by the writer 2026-11-17): I Play Army Golf tee, Sorry About Your Windshield crewneck, Not Cheating. Improving My Lie. hoodie, Fairways Are a Rumor half zip, I Only Golf for the Outfits cropped hoodie. Art, sizes, fabric and prices match the live Shopify Stories and variants (Shopify read 2026-11-17; none of the five products changed since the 2026-11-01 gifts-for-golf-lovers read). Prices stated as live, no sale step claimed. FAQ questions are not from PAA or GSC (not available unattended).
+    // Siblings: gifts-for-golf-lovers, funny-golf-gifts, hoodies-for-guys (live or draft by slug). Planned, not live: golf-gifts-for-women.
+    slug: 'funny-golf-shirts',
+    keyword: 'funny golf shirts',
+    title: 'Funny Golf Shirts: 5 Original Picks for Golfers Who Laugh at Their Slice',
+    description: 'Funny golf shirts with original art: Army Golf tee $24.99, Windshield crewneck $34.99, hoodies and a half zip to $54.99. Printed to order, S to 4XL.',
+    h1: 'Funny Golf Shirts: Five Picks for the Golfer Who Can Take a Joke',
+    date: '2026-11-17',
+    cluster: 'hoodies',
+    draft: true,
+    answer: 'The best funny golf shirts joke about the golfer’s own game, not golf in general. Graphic Tees Co. prints five original ones to order: the I Play Army Golf tee at $24.99, the Sorry About Your Windshield crewneck at $34.99, the Not Cheating. Improving My Lie. hoodie at $39.99, the I Only Golf for the Outfits cropped hoodie at $44.99 and the Fairways Are a Rumor half zip at $54.99.',
+    picks: [
+      {
+        h2: 'What is the funniest golf shirt for a golfer who slices?',
+        body: ['Sorry About Your Windshield. It is the one for the golfer whose ball finds the parking lot. It comes as a crewneck at $34.99 and as a pullover hoodie at $39.99.'],
+        items: [
+          { slogan: 'Sorry About Your Windshield.', tee: 'unisex-golf-sorry-about-your-windshield-crewneck-sweatshirt',
+            text: 'SORRY ABOUT YOUR WINDSHIELD. is printed big on the chest above and below a polite 1950s golfer who has just finished his swing while his ball arcs toward a row of parked cars with a cracked star on the glass. It is the golf sweater for the golfer with the famous slice. The crewneck is $34.99 in sizes S to 2XL and the hoodie version is $39.99.' },
+        ],
+        links: [{ href: '/hoodies/golf-hoodies/', text: 'All golf hoodies' }],
+      },
+      {
+        h2: 'Which funny golf shirt is cheapest?',
+        body: ['The I Play Army Golf tee, at $24.99. It is the only tee in the set, and the joke is one most weekend golfers get at once.'],
+        items: [
+          { slogan: 'I Play Army Golf', tee: 'mens-golf-i-play-army-golf-graphic-tee',
+            text: 'LEFT. RIGHT. LEFT. runs across the top in heavy burnt-orange capitals, and I PLAY ARMY GOLF. sits below in dark green. Between them a mustached 1970s golfer in plaid flares and a visor holds a proud follow-through while his ball’s dotted path zigzags from the pines on one side to the pines on the other. Army golf is the marching-cadence slang for a drive that goes left, right, left. The tee is a classic unisex fit in 4.2 oz ring-spun cotton, in sizes S to 4XL.' },
+        ],
+      },
+      {
+        h2: 'What is a funny golf shirt with a hood?',
+        body: ['Two hoodies. One teases the player who bends the rules, the other the player who only came for the outfit.'],
+        items: [
+          { slogan: 'Not Cheating. Improving My Lie.', tee: 'unisex-golf-not-cheating-improving-my-lie-hoodie',
+            text: 'A raccoon nudges a golf ball into a better spot, with NOT CHEATING. above it and IMPROVING MY LIE. below it. Improving your lie means moving the ball somewhere better, which the rules do not allow, and the hoodie is for the golfer with a straight face ready for the whole foursome. It is a pullover at $39.99, sizes S to 2XL.' },
+          { slogan: 'I Only Golf for the Outfits', tee: 'womens-golf-i-only-golf-for-the-outfits-cropped-hoodie',
+            text: 'I ONLY GOLF is set in pine green above the art, with for the outfits in hot pink script below. It is the women’s cropped hoodie in Black, $44.99, cut to end at the waist so it sits right with high-waisted pants or a golf skirt.' },
+        ],
+      },
+      {
+        h2: 'What is a funny golf shirt for a dressier look?',
+        body: ['The Fairways Are a Rumor half zip, at $54.99. It is a half zip pullover instead of a hoodie, so it reads a little more clubhouse.'],
+        items: [
+          { slogan: 'Fairways Are a Rumor.', tee: 'mens-golf-fairways-are-a-rumor-half-zip',
+            text: 'FAIRWAYS ARE A RUMOR. is printed large on the back, with a 1950s golfer in a flat cap shading his eyes and squinting down the course, and the art alone small on the left chest. It is for the weekend golfer whose round happens in the woods. The half zip is $54.99, sizes XS to XL.' },
+        ],
+        links: [{ href: '/hoodies/', text: 'All graphic hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a golf shirt funny?',
+        body: ['A joke about the golfer’s own game. The slice, the lie and the drive that finds the trees land because every golfer has lived them. A generic “golf is my therapy” slogan does not.',
+          'Every Graphic Tees Co. golf design is original art in a 1950s to 1970s country-club style, with the joke set in big type so it reads across the parking lot. Pick the joke that matches your worst habit, or the friend’s.'] },
+      { h2: 'Can you wear a funny golf shirt on the course?',
+        body: ['Often, yes, for the layers. Many public courses and driving ranges allow hoodies, and plenty of golfers wear one over a polo for a cold early tee time. Private clubs often ask for a collar, so check the dress code first.',
+          'The half zip is the easiest of the five to shed mid-round, and the tee is a casual after-round shirt, not a collared one.'],
+        links: [{ href: '/guides/how-to-style-graphic-tees/', text: 'How to style graphic tees' }] },
+      { h2: 'What are Graphic Tees Co. golf shirts made of?',
+        body: ['The Army Golf tee is 4.2 oz ring-spun cotton in a classic unisex fit. The crewneck and hoodies are cotton-polyester fleece, and the designs are printed straight onto the fabric after you order.',
+          'Wash inside out in cold water and hang or tumble dry low to keep the print sharp.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'How long does a funny golf shirt take to arrive?',
+        body: ['Each one is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. For a Christmas gift, order by Friday, December 4, 2026 to leave a margin. Exact estimates show at checkout.',
+          'US shipping is free on orders of $45 or more, so a tee plus a hoodie ships free. Buying for a whole foursome? Order 10 or more items in one cart and 15% comes off at checkout.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }, { href: '/group-shirts/', text: 'Group orders' }] },
+      { h2: 'Looking for golf gifts instead of a shirt for yourself?',
+        body: ['For a gift list with add-ons from $14.99, see the golf gifts guide. For more jokes about the slice and the lie, see funny golf gifts.'],
+        links: [{ href: '/guides/gifts-for-golf-lovers/', text: 'Gifts for golf lovers' }, { href: '/guides/funny-golf-gifts/', text: 'Funny golf gifts' }, { href: '/guides/hoodies-for-guys/', text: 'Hoodies for guys' }] },
+    ],
+    faqs: [
+      { q: 'What are the best funny golf shirts?', a: 'Shirts that tease the golfer’s own game. Graphic Tees Co. has five original ones: the I Play Army Golf tee ($24.99), the Windshield crewneck ($34.99), the Not Cheating. Improving My Lie. hoodie ($39.99), the Outfits cropped hoodie ($44.99) and the Fairways Are a Rumor half zip ($54.99).' },
+      { q: 'What is a funny golf shirt under $30?', a: 'The I Play Army Golf tee from Graphic Tees Co., at $24.99 in sizes S to 4XL. It is 4.2 oz ring-spun cotton, printed after you order.' },
+      { q: 'What does army golf mean?', a: 'Army golf is slang for a drive that goes left, right, left, like a marching cadence, instead of straight down the fairway. The Graphic Tees Co. I Play Army Golf tee puts the joke on the shirt.' },
+      { q: 'Are there funny golf shirts for women?', a: 'Yes. Graphic Tees Co. makes the I Only Golf for the Outfits cropped hoodie for $44.99. The Windshield crewneck and the Not Cheating. Improving My Lie. hoodie are unisex, so they fit women too.' },
+      { q: 'Can I wear a golf hoodie on the course?', a: 'Often, yes. Many public courses and ranges allow hoodies, but private clubs often require a collar, so check the dress code. A Graphic Tees Co. half zip or hoodie is an easy layer for a cold morning round.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
