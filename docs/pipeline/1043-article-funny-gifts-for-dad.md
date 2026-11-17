@@ -1,5 +1,5 @@
 ---
-status: APPROVED
+status: LIVE
 lane: W
 type: article
 cluster: tees
@@ -18,3 +18,4 @@ slug: funny-gifts-for-dad
 ## Log
 - 2026-11-15 UTC writer: drafted.
 - 2026-11-15 23:30 UTC director: APPROVED, held as draft for Nov 17. Keyword funny gifts for dad 4,400 / KD 13, unowned (gift phrase used as an article target only, R2.10). All 4 picks ACTIVE, in fresh-designs.json, 200; prices, colors and sizes match Shopify. Fixed: SEO title 64 -> 53 chars and meta 163 -> 150 (R8.4); the drummer pick called it a tee "for the dad who practices with the garage door open" while the art shows a young drummer, so the body now describes the picture as drawn (R8.3 noun-by-noun).
+- 2026-11-17 14:15 UTC director: LIVE (draft line removed; Nov 17 article 1 of 2/2 of 2). Held approval re-checked: no rule dated after it applies; all picks ACTIVE, 200, in fresh-designs.json; all links 200.

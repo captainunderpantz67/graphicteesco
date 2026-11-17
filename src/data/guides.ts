@@ -4340,7 +4340,6 @@ export const allGuides: Guide[] = [
     h1: 'Funny Gifts for Dad: Four Tees That Say What He Already Thinks',
     date: '2026-11-15',
     cluster: 'tees',
-    draft: true,
     answer: 'A funny gift for dad is a shirt that says the thing he says out loud every week. Graphic Tees Co. has four original dad tees: Resting My Eyes for the recliner napper, No, I Can’t Just Take a Quick Look for the mechanic, If You Can Step Over It, I Can Fill It for the welder and The Neighbors Love Me for the garage drummer. They are $24.99 each through November 30, 2026, and $29.99 from December 1. Each one is printed to order.',
     picks: [
       {
@@ -4418,7 +4417,6 @@ export const allGuides: Guide[] = [
     h1: 'Funny Men’s Christmas Shirts: Five Tees for the Guy Who Hates Ugly Sweaters',
     date: '2026-11-16',
     cluster: 'christmas',
-    draft: true,
     answer: 'The funniest men’s Christmas shirt names something he really does at Christmas: naps in the recliner, buys a tree too big for the room, steals the best white elephant gift. Graphic Tees Co. has five original ones, all $24.99 and printed to order in sizes S to 4XL: Resting My Eyes, It Looked Smaller at the Farm, White Elephant Champion, Mom’s Favorite and Bulking Season.',
     picks: [
       {
