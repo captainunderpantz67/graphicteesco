@@ -4565,6 +4565,82 @@ export const allGuides: Guide[] = [
       { q: 'How much do the funny Christmas shirts cost?', a: 'Each of the five is $24.99 through November 30, 2026, then $29.99 from December 1. US shipping at Graphic Tees Co. is free on orders of $45 or more, so two tees ship free.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-17), draft. Keyword: workout hoodies 2,900 / KD 32 (RankHero page pull, measured 2026-11-17; one pull, not repeated). "gym hoodie" stays with /hoodies/gym-hoodies/ and "workout hoodie" (singular) is claimed by a product in product-keyword-map.json; this guide targets the plural "best / funny" angle and links to the owners.
+    // Picks are live, ACTIVE, A-grade (all in fresh-designs.json); art, colors, sizes, weights and prices read from the live Shopify Stories 2026-11-17.
+    // FAQ questions are not from PAA/GSC (unavailable unattended). Planned siblings (not live yet): funny-gym-hoodies-for-men.
+    slug: 'workout-hoodies',
+    keyword: 'workout hoodies',
+    title: 'Workout Hoodies: 4 Funny Fleece Picks for Before and After',
+    description: 'Workout hoodies for the gym: Sisyphus Had Bad Programming, Twelve Labors. Zero Cardio., Rack Your Weights and Lift Heavy. Reply Later. 8 to 10 oz fleece, from $39.99.',
+    h1: 'Workout Hoodies That Make the Gym Crowd Laugh: Four Fleece Picks',
+    date: '2026-11-17',
+    cluster: 'gym',
+    draft: true,
+    answer: 'A good workout hoodie is a soft fleece layer for the warm-up, the cold parking lot and the drive home, not a sweat-wicking top. Graphic Tees Co. has four original ones: Sisyphus Had Bad Programming ($39.99), Twelve Labors. Zero Cardio. ($39.99), Rack Your Weights. Respectfully. (oversized, $54.99) and Lift Heavy. Reply Later. (cropped, $44.99). They are cotton-polyester fleece, printed to order.',
+    picks: [
+      {
+        h2: 'Which workout hoodie has a Greek-myth gym joke?',
+        body: ['Two do, and both are an 8 oz classic-fit pullover with a double-lined hood and a front pouch pocket, $39.99, sizes S to 3XL.'],
+        items: [
+          { slogan: 'SISYPHUS HAD BAD PROGRAMMING', tee: 'mens-gym-sisyphus-had-bad-programming-hoodie', crewneck: 'mens-gym-sisyphus-had-bad-programming-crewneck-sweatshirt',
+            text: 'A muscular Greek hero in a draped tunic leans into an enormous terracotta weight plate and shoves it up a steep hatched hill, drawn in black and terracotta ink in the style of a Greek vase. SISYPHUS HAD runs above in bold serif capitals, with a Greek key band and BAD PROGRAMMING below. The hoodie comes in Sand or Ash; the crewneck version is $34.99.' },
+          { slogan: 'TWELVE LABORS. ZERO CARDIO.', tee: 'mens-gym-twelve-labors-zero-cardio-hoodie',
+            text: 'A hero in a lion-skin cloak and sandals trudges on a modern treadmill, drawn in Greek black-figure vase style in terracotta and black. TWELVE LABORS. sits above in near-black serif capitals and ZERO CARDIO. below. It comes in Sand or Sport Grey.' },
+        ],
+        links: [{ href: '/hoodies/gym-hoodies/', text: 'All gym hoodies' }],
+      },
+      {
+        h2: 'Which workout hoodie is the roomiest?',
+        body: ['Rack Your Weights. Respectfully. It is an oversized unisex hoodie in a 10 oz fleece, $54.99, sizes S to 3XL, in Dust or Athletic Heather.'],
+        items: [
+          { slogan: 'RACK YOUR WEIGHTS. Respectfully.', tee: 'mens-gym-rack-your-weights-respectfully-oversized-hoodie',
+            text: 'RACK YOUR WEIGHTS. stacks across the top in heavy black slab capitals and Respectfully. closes the print in gold italic. Between them, a Victorian butler in a top hat, tails and white gloves carries one iron plate on a silver tray toward an empty rack, a trail of loose plates behind him.' },
+        ],
+        links: [{ href: '/hoodies/oversized-hoodies/', text: 'Oversized hoodies' }],
+      },
+      {
+        h2: 'Which workout hoodie is cropped?',
+        body: ['Lift Heavy. Reply Later. The cropped body ends at the waist, so it sits over a sports bra and high-waisted leggings. $44.99, sizes S to 2XL, in Black or Storm.'],
+        items: [
+          { slogan: 'Lift Heavy. Reply Later.', tee: 'womens-gym-lift-heavy-reply-later-cropped-hoodie',
+            text: 'LIFT HEAVY. runs across the top in bold block capitals and Reply Later. closes the print in a loose cream script, with a lifter in boots pulling a loaded barbell off the floor while a vintage telephone rings on the bench behind her.' },
+        ],
+        links: [{ href: '/hoodies/cropped-hoodies/', text: 'All cropped hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'What should a workout hoodie actually do?',
+        body: ['It should layer easily, come off between sets and still look fine at the coffee bar afterward. That is a fleece hoodie job. Nobody needs a hoodie to wick sweat at the rack; they need one for the warm-up and the walk to the car.',
+          'Graphic Tees Co. hoodies are cotton-polyester fleece, not performance fabric. Treat them as the layer you wear before and after the sweat.'],
+        links: [{ href: '/hoodies/gym-hoodies/', text: 'Gym hoodies' }] },
+      { h2: 'How heavy are these workout hoodies?',
+        body: ['The two Greek-myth hoodies are 8 oz fleece, 50% cotton and 50% polyester, pre-shrunk. Rack Your Weights is a heavier 10 oz fleece, 60% combed and ring-spun cotton and 40% polyester, with a brushed interior. Lift Heavy is the lighter cropped cut.',
+          'Pick the 8 oz for a cold garage gym between sets, and the 10 oz for the roomiest, warmest layer.'] },
+      { h2: 'What size workout hoodie should you order?',
+        body: ['Your usual size for a classic fit; one size up for a roomier look over a lifting build. Rack Your Weights is already cut oversized, so size down one for a closer fit.',
+          'If the size is wrong, Graphic Tees Co. does one free size exchange within 30 days of delivery.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'How do you wash a workout hoodie so the print lasts?',
+        body: ['Turn it inside out and wash cold with similar colors. Tumble dry low or hang it dry, skip bleach and fabric softener, and keep the iron off the print.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'When should you order a workout hoodie for Christmas?',
+        body: ['Each hoodie is printed to order, then shipped in the US. For Christmas Day, order by about December 8. US shipping is free on orders of $45 or more, so any one of these ships free.',
+          'Buying for a crew? Order 10 or more items in one cart and 15% comes off at checkout.'],
+        links: [{ href: '/group-shirts/', text: 'Group orders' }] },
+      { h2: 'Where can you find more gym gear and gift ideas?',
+        body: ['For tees and gift picks, see the gym lists. For women’s cuts, the women’s gym hoodie guide covers pullover, cropped and zip.'],
+        links: [{ href: '/guides/gym-hoodies-for-women/', text: 'Gym hoodies for women' }, { href: '/guides/gym-gifts-for-men/', text: 'Gym gifts for men' }, { href: '/guides/gifts-for-gym-lovers/', text: 'Gifts for gym lovers' }, { href: '/guides/best-oversized-hoodies/', text: 'Best oversized hoodies' }] },
+    ],
+    faqs: [
+      { q: 'What is a good workout hoodie?', a: 'A soft fleece hoodie that layers over a tee for the warm-up and the drive home. Graphic Tees Co. has four original ones from $39.99, all cotton-polyester fleece printed to order.' },
+      { q: 'Are these workout hoodies moisture-wicking?', a: 'No. They are cotton-polyester fleece, not performance fabric. Graphic Tees Co. workout hoodies are for warm-ups, rest days and the walk to the car.' },
+      { q: 'What is the warmest workout hoodie?', a: 'Rack Your Weights. Respectfully. It is a 10 oz oversized fleece with a brushed interior and a double-layered hood, $54.99 at Graphic Tees Co. The 8 oz Sisyphus and Twelve Labors hoodies are $39.99.' },
+      { q: 'What size workout hoodie should I buy?', a: 'Your usual size, or one up for a roomier fit. Graphic Tees Co. sizes run S to 3XL, and one free size exchange is covered within 30 days of delivery.' },
+      { q: 'Is there a cropped workout hoodie?', a: 'Yes. Lift Heavy. Reply Later. from Graphic Tees Co. is a cropped hoodie that ends at the waist, $44.99, sizes S to 2XL, in Black or Storm.' },
+      { q: 'How early should I order a workout hoodie for Christmas?', a: 'By about December 8. Graphic Tees Co. prints each hoodie to order, and US shipping is free on orders of $45 or more.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
