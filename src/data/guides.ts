@@ -1497,14 +1497,14 @@ export const allGuides: Guide[] = [
     h1: 'Christmas Gifts for Grandma: Funny Sweatshirts for Nana, Mimi and Gigi',
     date: '2026-10-26',
     cluster: 'christmas',
-    answer: 'A good Christmas gift for grandma is a shirt that jokes about her own role in the family. Graphic Tees Co. has four: Nana’s Cookies (RECIPE NOT AVAILABLE, tee $24.99 or crewneck $34.99), Nana Professional Spoiler (hoodie $39.99), Mimi Says Yes (crewneck $34.99) and Gigi Because Grandma Sounded Old (crewneck $34.99 or hoodie $39.99). Each is original vintage-style art, printed after you order. Order by December 4, 2026.',
+    answer: 'A good Christmas gift for grandma is a shirt that jokes about her own role in the family. Graphic Tees Co. has four: Nana’s Cookies (THE RECIPE DIES WITH ME., tee $24.99 or crewneck $34.99), Nana Professional Spoiler (hoodie $39.99), Mimi Says Yes (crewneck $34.99) and Gigi Because Grandma Sounded Old (crewneck $34.99 or hoodie $39.99). Each is original vintage-style art, printed after you order. Order by December 4, 2026.',
     picks: [
       {
         h2: 'What is a funny Christmas gift for the grandma who bakes?',
         body: ['Nana’s Cookies. Every family has a grandma who bakes the best cookies and keeps the recipe to herself, and this shirt says so in print.'],
         items: [
-          { slogan: 'NANA’S COOKIES / RECIPE NOT AVAILABLE', tee: 'womens-christmas-nanas-cookies-graphic-tee', crewneck: 'womens-christmas-nanas-cookies-crewneck-sweatshirt',
-            text: 'A tray of Christmas cookies (gingerbread men, frosted stars and sprinkled trees) sits beside a sprig of holly and a rolling pin in faded red, cream and sage, in the style of a 1950s bakery sign. NANA’S COOKIES is lettered above and RECIPE NOT AVAILABLE below. The tee is $24.99 and the crewneck is $34.99.' },
+          { slogan: 'THE RECIPE DIES WITH ME.', tee: 'womens-christmas-nanas-cookies-graphic-tee', crewneck: 'womens-christmas-nanas-cookies-crewneck-sweatshirt',
+            text: 'A tray of Christmas cookies (gingerbread men, frosted stars and sprinkled trees) sits beside a sprig of holly and a rolling pin in faded red, cream and sage, in the style of a 1950s bakery sign. THE RECIPE is lettered in heavy dark brown and DIES WITH ME. in red underneath. The tee is $24.99 and the crewneck is $34.99.' },
         ],
         links: [{ href: '/christmas-sweatshirts/', text: 'Christmas sweatshirts' }],
       },
@@ -1558,7 +1558,7 @@ export const allGuides: Guide[] = [
     ],
     faqs: [
       { q: 'What are good Christmas gifts for grandma?', a: 'A funny shirt about her role, like Nana’s Cookies, Mimi Says Yes or Gigi Because Grandma Sounded Old from Graphic Tees Co. Tees are $24.99, crewnecks are $34.99, hoodies are $39.99, all printed to order.' },
-      { q: 'What is a funny Christmas gift for a grandma who loves to bake?', a: 'The Nana’s Cookies shirt from Graphic Tees Co. It prints a tray of Christmas cookies with the line RECIPE NOT AVAILABLE. The tee is $24.99 and the crewneck is $34.99.' },
+      { q: 'What is a funny Christmas gift for a grandma who loves to bake?', a: 'The Nana’s Cookies shirt from Graphic Tees Co. It prints a tray of Christmas cookies with the line THE RECIPE DIES WITH ME. The tee is $24.99 and the crewneck is $34.99.' },
       { q: 'What is a good gift for a grandma called Mimi or Gigi?', a: 'Mimi Says Yes (crewneck $34.99) or Gigi Because Grandma Sounded Old (crewneck $34.99, hoodie $39.99). Both are original Graphic Tees Co. designs in vintage screen-print style.' },
       { q: 'Is a sweatshirt a good Christmas gift for grandma?', a: 'Yes. A Graphic Tees Co. crewneck is an 8 oz cotton-polyester fleece at $34.99, warm for a winter dinner and easy to wear under a cardigan.' },
       { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
@@ -4728,7 +4728,7 @@ export const allGuides: Guide[] = [
     // Planned siblings (not live yet): gifts-for-nana, mothers-day-gifts-for-grandma.
     slug: 'gifts-for-mimi',
     keyword: 'gifts for mimi',
-    title: 'Gifts for Mimi: 4 Funny Mimi, Gigi and Nana Shirts and Sweatshirts',
+    title: 'Gifts for Mimi: Funny Mimi, Gigi & Nana Sweatshirts and Tees',
     description: 'Gifts for Mimi she will wear: Mimi Says Yes, Gigi, Mom Said No and Nana’s Cookies. Tee $24.99, crewnecks $34.99, hoodie $39.99, printed to order.',
     h1: 'Gifts for Mimi (and Gigi and Nana): Funny Shirts for the Grandma With a Name',
     date: '2026-11-18',

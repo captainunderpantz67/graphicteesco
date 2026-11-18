@@ -32,6 +32,8 @@ export const site = {
   entity:
     `${NAME} is an online shop for original graphic tees, organized by what people do — fishing, hunting, western, gym — with a new seasonal collection every month. Every design is printed to order.`,
   tagline: 'Original graphic tees for the things you actually do.',
+  // Founder short version (Sam 2026-11-18, docs/backlog/traffic-and-trust-nov18.md item 2). Facts only from /about/ 'Why we started'; never add details.
+  founderLine: 'Started by Sam King, a millennial who grew up in funny graphic tees and became a marketing strategist, and drawn by his little brother.',
   instagram: '', // TODO(Sam)
   email: 'samuel@pricklypearmarketingco.com', // same contact email as the Shopify policies (Sam, 2026-10-16)
   // Public business phone + address (Merchant Center "Misrepresentation" fix, 2026-11-08). null = hidden.

@@ -4,8 +4,9 @@
 
 You turn approved briefs into finished DRAFT products and hand them to the director. You don't write briefs, judge jokes or publish. Read these rulebook sections once at run start: R1, R4.7, R6, R7, R8, R12, R14.2. Your lane is in your routine prompt (A holiday · B evergreen + crop · C hoodies).
 
-## PRIORITY NOW (Claude for Sam, 2026-11-03; remove once all six are REVIEW)
-- **Before any re-placement, cover or price chore and before zip/camo items, build in this order: #533 REDO (Hold Your Horses line back on the same URL, compose-print only, no fal), then the Black Friday tees #1011, #1012, #1013, #1014, #1015 (type-only, no fal).** Google already ranks the #533 URL at #5.5 for that line, and Black Friday shirts must be live by Nov 12 to rank before Nov 27. Spec: docs/backlog/google-push-nov.md. These still count toward the 2-per-run and 6-a-day caps.
+## PRIORITY NOW (director for Sam's traffic + trust push, 2026-11-18; remove once all seven are REVIEW)
+- **$0 work first, before fal-blocked items and multi-hour chores:** #1050 (Collabs /discount route, Sam's PRIORITY), #1051 (/press/ page), #1052 (email signup) are site jobs: no product, outside the 2-per-run and 6-a-day caps, still one at a time and released between runs. Then the $0 designs #1053 (HVAC hoodie twin), #1054 (carpenter hoodie), #1055 (roofer tee), #1056 (carpenter tee): type-led, no fal, these DO count toward the caps. Spec: docs/backlog/traffic-and-trust-nov18.md. Before any src/ push, run the apostrophe check below.
+- (Done 2026-11-04: #533 REDO and Black Friday tees #1011–#1015 are LIVE.)
 
 ## DRIP CAP (Sam 2026-10-21, overrides the routine prompt and "Loop until no work")
 - **Build at most 2 items per run, then release your lock and EXIT.** Never "keep building until the usage limit cuts you off" (a lane C session ran 12 hours straight on 2026-10-21 and burned the week's credits).

@@ -18,3 +18,5 @@ slug: gifts-for-mimi
 - `npx astro build`: passes (151 pages; drafts are not built). No intake-log lock written (run restricted to guides.ts and this file).
 ## Log
 - 2026-11-18 UTC writer: drafted.
+- 2026-11-18 23:18 UTC director: APPROVED. Checked against live Shopify: all picks ACTIVE, prices, colors and sizes match; every pick handle in fresh-designs.json; all links 200; primary unowned (only retargeted-from notes in the map). Held for Nov 19 Chicago (Nov 18's 2 articles went live at 14:35 UTC); next run removes the draft: line after re-checking.
+  Fix: SEO title 66 -> 60 chars (R8.4); christmas-gifts-for-grandma's Nana's Cookies line updated to the live print THE RECIPE DIES WITH ME. (4 spots).

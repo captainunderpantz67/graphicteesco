@@ -17,3 +17,5 @@ slug: gifts-for-mechanics
 - `npx astro build`: passes (151 pages; drafts are not built). No intake-log lock written (run restricted to guides.ts and this file).
 ## Log
 - 2026-11-18 UTC writer: drafted.
+- 2026-11-18 23:18 UTC director: APPROVED. Checked against live Shopify: all picks ACTIVE, prices, colors and sizes match; every pick handle in fresh-designs.json; all links 200; primary unowned (only retargeted-from notes in the map). Held for Nov 19 Chicago (Nov 18's 2 articles went live at 14:35 UTC); next run removes the draft: line after re-checking.
+  Note: only 2 mechanic products exist; welder and lineman picks are labeled honestly as the rest of the shop.

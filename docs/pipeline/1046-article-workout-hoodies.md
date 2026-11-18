@@ -1,5 +1,6 @@
 ---
-status: REDO
+status: PARKED
+reason: no distinct measured workout-hoodie phrase is free (writer sweep 2026-11-18); revisit if a gift angle like "gifts for gym rats" sibling measures
 lane: W
 type: article
 cluster: gym
@@ -19,3 +20,4 @@ slug: workout-hoodies
 - 2026-11-18 14:24 UTC director: REDO.
   1. R2.8: 'workout hoodies' (2,900 / KD 32) and 'workout hoodie' (2,900 / KD 34, claimed by mens-gym-retired-from-cardio-hoodie since 2026-10-16) are the same search: same volume, Google treats singular and plural as one query. A guide and a product would split it. Pick a distinct measured phrase with a competition count (try 'funny workout hoodies', 'gym hoodie men', 'lifting hoodie', 'weightlifting hoodie' through scripts/keyword-gap.py and check docs/product-keyword-map.json), retitle, rewrite the answer line and first FAQ around it, and keep 'workout hoodie' at most once in body copy linking the Retired From Cardio hoodie.
   2. The art, prices and links read fine otherwise; keep the picks.
+- 2026-11-18 23:18 UTC director: PARKED. The writer's 2026-11-18 sweep shows every measured workout/gym/lifting hoodie phrase is a collection head or product-claimed (R2.8); a guide on any of them would split a search. The guide stays draft; picks are fine if a free phrase measures later.

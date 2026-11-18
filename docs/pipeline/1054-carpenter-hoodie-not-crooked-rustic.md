@@ -1,0 +1,26 @@
+status: READY
+lane: C
+type: new
+id: 1054
+handle: mens-carpenter-its-not-crooked-its-rustic-hoodie
+kd: 32
+push: traffic-nov18
+---
+## Men's Carpenter – It's Not Crooked. It's Rustic. Hoodie (type-led, $0 fal)
+- **Why now:** director card order (2) trades hoodies; traffic push item 1 (Sam 2026-11-18: type-only designs so no lane idles). "carpenter hoodie" 260 / KD 32 (RankHero via scripts/keyword-gap.py rankhero(), director 2026-11-18 23:18 UTC): unowned (map, collections.ts, guides.ts). KD 21–35 band. The only live carpenter products are the Christian "Rebuilt by a Carpenter" pair (#575/#627), a different buyer.
+- **Text on shirt (real fonts, compose-print.py, spelled exactly):** IT'S NOT CROOKED. (headline) / IT'S RUSTIC. (punch, the widest line, R3.7.8). Faces from designs/fonts that no more than 1 in 6 of the last 30 builds used (check the last builds' logs; Anton is overused): e.g. Alfa Slab One or Bowlby One for the headline, Rye or Bevan for the punch.
+- **Lines considered (R3.1, R3.13):** IT'S NOT CROOKED. IT'S RUSTIC. / I CAN FIX IT. I WON'T. / MEASURE ONCE. CONFIDENTLY. Picked the first: self-aware, a twist in 5 words, the wearer in on it; compared with "Sorry About Your Windshield." and "Not Cheating. Improving My Lie.": same shape (deadpan excuse). Etsy check (builder 7m): log a quoted search; if the exact line is on 50+ listings, twist it (fallback: IT'S NOT CROOKED. IT'S HANDMADE.).
+- **Hook:** every carpenter and weekend woodworker who has defended a shelf at a family dinner. Men's, dry (R3.4). Gift: Christmas for the dad with a garage shop.
+- **Art: type-led, NO AI.** The picture acts out the joke (builder 7m): ONE flat element drawn in code under or through the lockup: a wooden plank shelf visibly tilted about 4 degrees with a spirit level sitting on it, its bubble pushed hard to one end. 2–3 solid inks (cream, sawdust tan, dark walnut or navy keyline), no pattern fills (R5.3.10). The lockup itself sits a few degrees off level to match the shelf (the joke), every word still easy to read. Worn print texture via print-prep. Niche cue test (R5.3.4): level + plank say carpentry without the words.
+- **Blank:** Pullover Gildan 18500 (Printful #146), Sand + Navy (R7.1/R7.2), handle ends -hoodie. Center chest FW 1500, TOP 400 (builder 7m). Navy takes the cream-ink file; Sand takes a dark-ink file (solid dark letters, open counters, no dark keyline, R5.3.8).
+- **Primary keyword:** carpenter hoodie (260 / KD 32). Never "carpenter shirt" (#1056 claims it).
+- **Title / handle:** "Men's Carpenter – It's Not Crooked. It's Rustic. Hoodie" / `mens-carpenter-its-not-crooked-its-rustic-hoodie`.
+- **Tags:** graphic-hoodies-for-men, hoodie, carpenter, intake-done (no ai-art tag: no AI art).
+- **Price:** $39.99 (R12.1 pullover), NO compare-at.
+- **Copy (R8, R9.11):** line one = the joke + who wears it + when, said plainly; no superlative opener, no "one of the <keyword>" (R8.3), no production words (R8.3), name the ink colors the mockups show and read line one noun by noun against the art. Primary in the SEO title (≤ 60), H1, first sentence and once in the meta (≤ 155), at most 3 times in all. SOP three sections; 4–6 answer-first FAQs at 40–60 words (fit and weight from the Printful spec only, sizing, care, Christmas order-by Dec 4, one free size exchange within 30 days). One gift line (Christmas gift for the tradesman in the family) per traffic push item 1. Record the primary in docs/product-keyword-map.json with this handle.
+- **Cover:** none (R6.11, fal empty): the clean Printful flat front is image 1, neck-logo back view LAST (R6.13); handle into src/data/retired-covers.json; no Printful model photo, no registry row.
+- **Proof gate (R5.2):** log one same-format trade-humor listing with 500+ favorites, or note that Etsy blocked the read from cloud (no fal at risk on a type-only build; same as #1011).
+- **Before REVIEW:** both lines' ink widths logged (7h), Printful files verified N/N (R7.7), FW and TOP logged, every word read on Sand and Navy at phone size, review sheet, audit --handle passes except "not active".
+---
+## Log
+- 2026-11-18 23:18 UTC director: brief written, READY (traffic push $0 type-led item).
