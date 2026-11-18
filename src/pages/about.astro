@@ -34,7 +34,10 @@ const evergreen = [...tees, ...hoodies].filter((c) => !c.seasonal);
       <h2>Two brothers, one shop</h2>
       <p>{site.name} is run by two brothers. Every shirt starts as a joke one of us would actually wear. We build the art with AI image tools, then keep only the ones that land, and we label AI-made images the way Google asks.</p>
       {site.founders.length > 0 && <p>{site.founders.map((f) => `${f.name} (${f.role})`).join(' and ')}.</p>}
-      <!-- TODO(Sam): 2–3 sentences of real story — where you're from, why your brother started drawing, the first design. Real details are what earn trust with Google and AI answer engines. -->
+      <h2>Why we started</h2>
+      <p>Sam grew up as a millennial kid who lived in funny graphic tees. A shirt with a good joke on it got people laughing with him, and he never stopped wearing them.</p>
+      <p>About ten years ago he tried to start his own shirt shop. He was a kid who didn't know what he was doing yet, and it stalled. But it lit a fire: he went on to learn digital marketing and became a marketing strategist.</p>
+      <p>Now he's back to finish what he started, this time with his little brother drawing the designs. {site.name} is the shop he always wanted: one home for funny shirts about the things people actually do.</p>
 
       <h2>How our graphic tees are made</h2>
       <p>Every {site.facts.hoodiesLive ? 'tee and hoodie' : 'tee'} is printed after you order it, then shipped straight to you. Nothing sits in a warehouse, which is how we can release a new collection every month.</p>

@@ -46,7 +46,7 @@ export const site = {
     { label: 'Shipping policy', href: 'https://checkout.graphicteesco.com/policies/shipping-policy' },
     { label: 'Contact information', href: 'https://checkout.graphicteesco.com/policies/contact-information' },
   ],
-  founders: [] as { name: string; role: string }[], // TODO(Sam): your brother (designer) + you
+  founders: [{ name: 'Sam King', role: 'founder' }] as { name: string; role: string }[], // TODO(Sam): add your brother's name (designer)
   // Hero mockup (Printful PNG of a model in a tee). Drop the file in /public and set the path.
   heroImage: {
     src: '/hero/friends-tailgate-1040.webp?v=2', srcSmall: '/hero/friends-tailgate-640.webp?v=2',
