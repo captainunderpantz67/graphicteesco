@@ -4498,7 +4498,7 @@ export const allGuides: Guide[] = [
     h1: 'Women’s Funny Christmas Shirts: Five Tees That Say What She’s Thinking',
     date: '2026-11-16',
     cluster: 'christmas',
-    draft: true,
+    draft: false,
     answer: 'The funniest women’s Christmas shirt says one dry thing she already thinks at the holidays: the cat did not break the ornament, the recipe stays with her, and Santa is not the one who wrapped everything. Graphic Tees Co. has five original ones, all $24.99 and printed to order: Allegedly., The Recipe Dies With Me, Santa Gets All the Credit, Take 41. Still Smiling. and We Said No Gifts. We lied.',
     picks: [
       {
@@ -4647,20 +4647,20 @@ export const allGuides: Guide[] = [
     // Siblings: gifts-for-golf-lovers, funny-golf-gifts, hoodies-for-guys (live or draft by slug). Planned, not live: golf-gifts-for-women.
     slug: 'funny-golf-shirts',
     keyword: 'funny golf shirts',
-    title: 'Funny Golf Shirts: 5 Original Picks for Golfers Who Laugh at Their Slice',
+    title: 'Funny Golf Shirts: 5 Picks for Golfers With a Slice',
     description: 'Funny golf shirts with original art: Army Golf tee $24.99, Windshield crewneck $34.99, hoodies and a half zip to $54.99. Printed to order, S to 4XL.',
     h1: 'Funny Golf Shirts: Five Picks for the Golfer Who Can Take a Joke',
     date: '2026-11-17',
     cluster: 'hoodies',
-    draft: true,
-    answer: 'The best funny golf shirts joke about the golfer’s own game, not golf in general. Graphic Tees Co. prints five original ones to order: the I Play Army Golf tee at $24.99, the Sorry About Your Windshield crewneck at $34.99, the Not Cheating. Improving My Lie. hoodie at $39.99, the I Only Golf for the Outfits cropped hoodie at $44.99 and the Fairways Are a Rumor half zip at $54.99.',
+    draft: false,
+    answer: 'Funny golf shirts land when they joke about the golfer’s own game, not golf in general. Graphic Tees Co. prints five original ones to order: the I Play Army Golf tee at $24.99, the Sorry About Your Windshield crewneck at $34.99, the Not Cheating. Improving My Lie. hoodie at $39.99, the I Only Golf for the Outfits cropped hoodie at $44.99 and the Fairways Are a Rumor half zip at $54.99.',
     picks: [
       {
         h2: 'What is the funniest golf shirt for a golfer who slices?',
         body: ['Sorry About Your Windshield. It is the one for the golfer whose ball finds the parking lot. It comes as a crewneck at $34.99 and as a pullover hoodie at $39.99.'],
         items: [
           { slogan: 'Sorry About Your Windshield.', tee: 'unisex-golf-sorry-about-your-windshield-crewneck-sweatshirt',
-            text: 'SORRY ABOUT YOUR WINDSHIELD. is printed big on the chest above and below a polite 1950s golfer who has just finished his swing while his ball arcs toward a row of parked cars with a cracked star on the glass. It is the golf sweater for the golfer with the famous slice. The crewneck is $34.99 in sizes S to 2XL and the hoodie version is $39.99.' },
+            text: 'SORRY ABOUT YOUR WINDSHIELD. is printed big on the chest above and below a polite 1950s golfer who has just finished his swing while his ball arcs toward a row of parked cars with a cracked star on the glass. It is the golf sweater for the golfer with the famous slice. The crewneck is $34.99 in sizes S to 3XL, in Sand or Sport Grey, and the hoodie version is $39.99.' },
         ],
         links: [{ href: '/hoodies/golf-hoodies/', text: 'All golf hoodies' }],
       },
@@ -4677,7 +4677,7 @@ export const allGuides: Guide[] = [
         body: ['Two hoodies. One teases the player who bends the rules, the other the player who only came for the outfit.'],
         items: [
           { slogan: 'Not Cheating. Improving My Lie.', tee: 'unisex-golf-not-cheating-improving-my-lie-hoodie',
-            text: 'A raccoon nudges a golf ball into a better spot, with NOT CHEATING. above it and IMPROVING MY LIE. below it. Improving your lie means moving the ball somewhere better, which the rules do not allow, and the hoodie is for the golfer with a straight face ready for the whole foursome. It is a pullover at $39.99, sizes S to 2XL.' },
+            text: 'A raccoon nudges a golf ball into a better spot, with NOT CHEATING. above it and IMPROVING MY LIE. below it. Improving your lie means moving the ball somewhere better, which the rules do not allow, and the hoodie is for the golfer with a straight face ready for the whole foursome. It is a pullover at $39.99, sizes S to 3XL, in Sand or Navy.' },
           { slogan: 'I Only Golf for the Outfits', tee: 'womens-golf-i-only-golf-for-the-outfits-cropped-hoodie',
             text: 'I ONLY GOLF is set in pine green above the art, with for the outfits in hot pink script below. It is the women’s cropped hoodie in Black, $44.99, cut to end at the waist so it sits right with high-waisted pants or a golf skirt.' },
         ],
@@ -4687,7 +4687,7 @@ export const allGuides: Guide[] = [
         body: ['The Fairways Are a Rumor half zip, at $54.99. It is a half zip pullover instead of a hoodie, so it reads a little more clubhouse.'],
         items: [
           { slogan: 'Fairways Are a Rumor.', tee: 'mens-golf-fairways-are-a-rumor-half-zip',
-            text: 'FAIRWAYS ARE A RUMOR. is printed large on the back, with a 1950s golfer in a flat cap shading his eyes and squinting down the course, and the art alone small on the left chest. It is for the weekend golfer whose round happens in the woods. The half zip is $54.99, sizes XS to XL.' },
+            text: 'FAIRWAYS ARE A RUMOR. is printed large on the back, with a 1950s golfer in a flat cap shading his eyes and squinting down the course, and the art alone small on the left chest. It is for the weekend golfer whose round happens in the woods. The half zip is $54.99, sizes XS to 3XL, in Dust or Navy.' },
         ],
         links: [{ href: '/hoodies/', text: 'All graphic hoodies' }],
       },

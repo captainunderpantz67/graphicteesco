@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: hoodies
@@ -17,3 +17,4 @@ slug: funny-golf-shirts
 - Drip cap: second [W] commit of 2026-11-17 (America/Chicago). Rewrite queue: only how-to-wash-graphic-tees is open (REDO, needs a measured phrase), so a new topic was taken.
 ## Log
 - 2026-11-17 UTC writer: drafted.
+- 2026-11-18 14:24 UTC director: APPROVED and LIVE (draft: false; 2 of 2 articles Nov 18). Keyword funny golf shirts 8,100 / KD 32 is unowned; funny golf t shirt (3,600 / KD 33) stays with the Army Golf tee, which is a pick here, so the two support each other (R2.8). All 5 picks ACTIVE and 200, gifts-for-golf-lovers is live (not draft), all links 200. Fixes: SEO title 73 -> 51 chars (R8.4); answer line no longer opens on 'The best funny golf shirts' (R8.3 no keyword-plus-brag); three wrong size ranges corrected from Shopify (Windshield crewneck S-3XL not S-2XL, Not Cheating hoodie S-3XL not S-2XL, Fairways half zip XS-3XL not XS-XL) and their colors named (R8.6). Writer: read sizes from the Shopify Size option, not the brief.

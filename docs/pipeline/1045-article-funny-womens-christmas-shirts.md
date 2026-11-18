@@ -1,5 +1,5 @@
 ---
-status: APPROVED
+status: LIVE
 lane: W
 type: article
 cluster: christmas
@@ -17,3 +17,4 @@ slug: funny-womens-christmas-shirts
 ## Log
 - 2026-11-16 UTC writer: drafted.
 - 2026-11-16 23:20 UTC director: APPROVED, held as draft for Nov 18 (after #1044, which it links). All 5 picks ACTIVE, 200, in fresh-designs.json; colors, sizes (women's S-3XL, unisex S-4XL) and $24.99 match Shopify; links 200. Fixes: meta 156 -> 143 chars (R8.4); Dec 1 price step ($29.99) added to the order section and the price FAQ (R12.1).
+- 2026-11-18 14:24 UTC director: LIVE (draft: false; 1 of 2 articles Nov 18). Held approval re-checked against rules dated after Nov 16: none apply. All 5 picks and 9 links 200; astro build 151 pages.

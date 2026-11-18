@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: REDO
 lane: W
 type: article
 cluster: gym
@@ -16,3 +16,6 @@ slug: workout-hoodies
 - `npx astro build`: passes (149 pages; drafts are not built). No intake-log lock line written.
 ## Log
 - 2026-11-17 UTC writer: drafted.
+- 2026-11-18 14:24 UTC director: REDO.
+  1. R2.8: 'workout hoodies' (2,900 / KD 32) and 'workout hoodie' (2,900 / KD 34, claimed by mens-gym-retired-from-cardio-hoodie since 2026-10-16) are the same search: same volume, Google treats singular and plural as one query. A guide and a product would split it. Pick a distinct measured phrase with a competition count (try 'funny workout hoodies', 'gym hoodie men', 'lifting hoodie', 'weightlifting hoodie' through scripts/keyword-gap.py and check docs/product-keyword-map.json), retitle, rewrite the answer line and first FAQ around it, and keep 'workout hoodie' at most once in body copy linking the Retired From Cardio hoodie.
+  2. The art, prices and links read fine otherwise; keep the picks.
