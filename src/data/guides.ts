@@ -4804,6 +4804,84 @@ export const allGuides: Guide[] = [
       { q: 'When should I order a gift for Mimi for Christmas?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. US shipping is free on orders of $45 or more.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-18), draft. Keyword: gifts for mechanics 3,600 / KD 24 (RankHero keyword page, measured 2026-11-18, one pull; the 2026-10-18 audit retargeted the mechanic tee away from this gift-guide phrase, so no product claims it). "mechanic hoodie" and "funny mechanic shirt" stay with their products.
+    // Facts (art, fabric, colors, prices, policies) come from the live Shopify Stories read 2026-11-18 and site.ts. Every pick handle is in src/data/fresh-designs.json. FAQ questions are not from PAA or GSC (not available unattended).
+    // Planned siblings (not live yet): gifts-for-car-guys, gifts-for-linemen. Live sibling drafts linked by slug: gifts-for-welders, funny-gifts-for-dad.
+    slug: 'gifts-for-mechanics',
+    keyword: 'gifts for mechanics',
+    title: 'Gifts for Mechanics: Funny Shop Tees & a Hoodie They’ll Wear',
+    description: 'Gifts for mechanics who are tired of "just a quick look": the Quick Look tee $24.99 and hoodie $39.99, plus welder and lineman tees. Printed to order.',
+    h1: 'Gifts for Mechanics: Funny Shop Shirts for the One Everyone Hands Their Keys To',
+    date: '2026-11-18',
+    cluster: 'tees',
+    draft: true,
+    answer: 'A good gift for a mechanic is a shirt that says what he cannot say at the cookout. Graphic Tees Co. makes the No, I Can’t Just Take a Quick Look tee ($24.99) and hoodie ($39.99) for the mechanic, plus a welder tee and a lineman tee for the rest of the shop. Those are holiday sale prices through November 30, 2026; from December 1 tees are $29.99 and the hoodie $44.99. Every piece is original art, printed to order.',
+    picks: [
+      {
+        h2: 'What is a funny gift for a mechanic who gets handed car keys at every cookout?',
+        body: ['No, I Can’t Just Take a Quick Look. It is the one for the mechanic who is only trying to eat lunch. The tee is $24.99 in White, Natural, Ash, Athletic Heather, Dark Grey Heather, Black, Military Green or Brown, sizes S to 4XL. The hoodie is $39.99 in Sand or Navy, sizes S to 3XL.'],
+        items: [
+          { slogan: 'NO, I CAN’T JUST TAKE A QUICK LOOK.', tee: 'mens-mechanic-no-i-cant-just-take-a-quick-look-graphic-tee',
+            text: 'A tired mechanic in blue coveralls and a cap sits on an upturned oil drum eating a sandwich from a metal lunch pail while three hopeful people hold out their car keys behind him, in a 1950s service-station style. NO, I CAN’T JUST runs across the top in cream and TAKE A QUICK LOOK. across the bottom in faded red.' },
+          { slogan: 'NO, I CAN’T JUST TAKE A QUICK LOOK. (hoodie)', tee: 'mens-mechanic-no-i-cant-just-take-a-quick-look-hoodie',
+            text: 'The same mechanic on his oil drum with a lunch pail and a big sandwich while a man, a woman and a young man in a ball cap wait behind him, with a blue tool chest and a wrench on the floor, on an 8 oz cotton and polyester fleece pullover with a double-lined hood.' },
+        ],
+        links: [{ href: '/graphic-tees-for-men/', text: 'Graphic tees for men' }],
+      },
+      {
+        h2: 'What is a good gift for a mechanic who also welds or works the shop?',
+        body: ['I Basically Hot Glue Metal. It is the answer a welder gives when someone at a party asks what he does. The tee is $24.99, sizes S to 4XL, in Black, Navy, Dark Grey Heather, Heather Forest, Maroon, Natural, Ash or Athletic Heather.'],
+        items: [
+          { slogan: 'I BASICALLY HOT GLUE METAL.', tee: 'mens-welder-i-basically-hot-glue-metal-graphic-tee',
+            text: 'A welder in a blue jacket, orange hood and leather gloves kneels on a steel I-beam with sparks fanning out from the weld, while a small glue gun hangs off the handle of his steel toolbox, under I BASICALLY in tall condensed capitals and HOT GLUE METAL. in orange slab letters.' },
+        ],
+        links: [{ href: '/welder-shirts/', text: 'All welder shirts' }, { href: '/guides/gifts-for-welders/', text: 'Gifts for welders' }],
+      },
+      {
+        h2: 'What is a good gift for a tradesman who works the storms?',
+        body: ['Bad Weather Is My Overtime. It is for the lineman, or any crew member who gets the call when the wind picks up. The tee is $24.99, sizes S to 4XL, in Black, Navy, Dark Grey Heather, Heather Forest, Asphalt, Natural, Ash or Athletic Heather.'],
+        items: [
+          { slogan: 'BAD WEATHER IS MY OVERTIME.', tee: 'mens-lineman-bad-weather-is-my-overtime-graphic-tee',
+            text: 'A smiling lineman in a yellow hard hat, navy coveralls, red boots and yellow gloves crouches on a wooden pole crossarm with wires and insulators, rain streaking diagonally past him and a yellow lightning bolt in the corner, with BAD WEATHER above in slab capitals and IS MY OVERTIME. below.' },
+        ],
+        links: [{ href: '/graphic-tees-for-men/', text: 'Graphic tees for men' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good gift for a mechanic?',
+        body: ['Something that talks like the shop does. A mechanic already owns the tools, and a gift card for more of them is a gift you could have skipped. A tee with the line he says out loud every week is a gift that says you were listening.',
+          'Every Graphic Tees Co. design is original, drawn for this shop in the style of a 1950s service-station poster. None of them carries a brand logo.'],
+        links: [{ href: '/graphic-tees-for-men/', text: 'Graphic tees for men' }] },
+      { h2: 'Tee or hoodie for a mechanic?',
+        body: ['The tee is the easy gift at $24.99, and at 4.2 oz it is light enough for a hot bay or under a work jacket. The Quick Look hoodie at $39.99 is the cold-garage pick: an 8 oz fleece, 50% cotton and 50% polyester, with a double-lined hood and a front pouch pocket.',
+          'Both are unisex cuts, so the same gift works for a woman who turns wrenches too.'],
+        links: [{ href: '/guides/best-hoodies-for-men/', text: 'Best hoodies for men' }] },
+      { h2: 'Will the print hold up in a shop?',
+        body: ['The design is printed directly on the fabric, so it does not crack or peel like an iron-on. Wash the shirt inside out in cold water and tumble dry low. Skip bleach and keep the iron off the print.',
+          'These are casual shirts, not work gear. They are not flame resistant, so keep proper protective clothing on for the job and wear the gift after the shift.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'What size should you buy a mechanic?',
+        body: ['His usual size. The tees are a classic unisex cut in sizes S to 4XL and the hoodie runs S to 3XL. Go up one for a looser fit over a work shirt.',
+          'If it is wrong, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and nothing is mailed back. That covers a sizing guess on a gift.'],
+        links: [{ href: '/guides/hoodie-sizing/', text: 'Hoodie sizing guide' }, { href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'When should you order a mechanic gift for Christmas?',
+        body: ['Order by Friday, December 4, 2026. Each piece is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. Exact estimates show at checkout.',
+          'US shipping is free on orders of $45 or more, so a tee and the hoodie together ship free. Buying for a whole shop crew? Order 10 or more items in one cart and 15% comes off at checkout.'],
+        links: [{ href: '/group-shirts/', text: 'Group orders' }] },
+      { h2: 'Where can you find more gift ideas?',
+        body: ['For the welder in the family, see gifts for welders. For a gift for dad that covers the garage drummer, the recliner napper and the mechanic, see funny gifts for dad and Christmas gifts for dad.'],
+        links: [{ href: '/guides/gifts-for-welders/', text: 'Gifts for welders' }, { href: '/guides/funny-gifts-for-dad/', text: 'Funny gifts for dad' }, { href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }] },
+    ],
+    faqs: [
+      { q: 'What are good gifts for mechanics?', a: 'A tee or hoodie with a shop joke. Graphic Tees Co. makes the No, I Can’t Just Take a Quick Look tee at $24.99 and hoodie at $39.99 in the holiday sale through November 30, 2026 ($29.99 and $44.99 from December 1), printed to order.' },
+      { q: 'What do you get a mechanic who has everything?', a: 'A joke he did not have yet. A Graphic Tees Co. mechanic tee is original art made for this shop, not a catalog print, and it says what he is tired of saying out loud.' },
+      { q: 'What is a funny mechanic shirt?', a: 'No, I Can’t Just Take a Quick Look from Graphic Tees Co. It shows a mechanic eating lunch on an oil drum while three people hold out their car keys behind him. The tee is 4.2 oz cotton, sizes S to 4XL.' },
+      { q: 'Is the mechanic hoodie warm enough for a cold garage?', a: 'Yes for most shops. The Graphic Tees Co. Quick Look hoodie is an 8 oz fleece, 50% cotton and 50% polyester, with a double-lined hood and a front pouch pocket, in Sand or Navy, sizes S to 3XL.' },
+      { q: 'Are these shirts flame resistant?', a: 'No. Graphic Tees Co. tees are casual 100% combed cotton (some polyester in the heather colors) and the hoodie is cotton and polyester fleece. They are not protective gear.' },
+      { q: 'When should I order a mechanic gift for Christmas?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2 to 5 business days and delivery takes about 3 to 8 business days. US shipping is free on orders of $45 or more.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
