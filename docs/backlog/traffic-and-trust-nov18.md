@@ -32,3 +32,11 @@ Service account with read access to the domain property so the director/builders
 
 ## On Sam (not agents)
 Merchant Center ID verification (fixes the free-listings flag), Pinterest account, press-site signups, review app (Judge.me), a few friends-and-family orders + honest reviews, photo of Sam + brother, brother's name, OK on the heavier-kid angle, OK on a first-order discount.
+
+## 7. Affiliate links via Shopify Collabs (Sam said yes 2026-11-18, PRIORITY: gift-guide editors expect affiliate links)
+Sam installs Collabs in admin (Claude's Chrome can't read admin.shopify.com). Collabs settings: Affiliates → add custom storefront domain graphicteesco.com, turn on personalized links. Commission rate = Sam's call.
+Builder (site, $0): our headless site has NO `/discount/<CODE>` route, so Collabs links would 404 and lose the creator's credit. Build it:
+- `public/_redirects`: `/discount/*  /apply-discount/?code=:splat  302` (keep the query string; Collabs passes `redirect=` and ref params).
+- `/apply-discount/` page (noindex): reads `code` + `redirect`, saves the code in localStorage (try/catch), then sends the visitor to `redirect` if it is a same-site path, else `/`.
+- `src/lib/cart.ts`: whenever a cart exists or is created and a saved code is pending, call `cartDiscountCodesUpdate` with it; keep it applied on later carts; show "Code CODE applied" in the cart drawer; drop it if Shopify says not applicable. Also pass through `ref`/UTM params unchanged.
+- Test with a real 100%-off test code Claude creates only after Sam's OK (or an existing code), never by placing a paid order. Write READY FOR TEST in docs/inbox.md when deployed.
