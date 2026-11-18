@@ -1,3 +1,13 @@
+## SAM'S CLICKS: awareness push (added 2026-11-18, top priority)
+1. HARO: sign up as a source at helpareporter.com (free, ~5 min). Tell Claude when done; Claude drafts replies, Sam approves each send.
+2. Source of Sources: sign up at sosrcs.com (free, ~5 min).
+3. Shopify Collabs: install, then Affiliates settings → add custom storefront graphicteesco.com, turn on personalized links, pick the commission (Claude's guess 15-20%). OR allow admin.shopify.com in the Claude Chrome extension and Claude does it.
+4. Pinterest business account for Graphic Tees Co. (Claude then sets up autopin).
+5. Merchant Center ID verification (turns free Shopping listings back on).
+6. Send a photo of Sam + brother and the brother's name (press page + About).
+7. Install Judge.me (free) and get a few friends-and-family orders + honest reviews.
+8. Decisions: OK a first-order discount for the email signup (Claude's guess 10%)? OK the heavier-kid story for press? OK Claude building press page + affiliate route + email signup in-session instead of waiting on builders?
+
 ## TOMORROW (flagged 2026-10-19 by Sam)
 1. Design decisions: covers for the 161 hidden + redesigned products (fal top-up ~$30–40 vs spread out), the 5 samples, resume the builders.
 2. A/B test: lifestyle photo vs plain product shot. Sam creates a Google Analytics 4 property (Claude can't create accounts); Claude adds Cloudflare Web Analytics + GA4 events (card click, product view, add to cart), a 50/50 sticky split on collection grids and product pages (Google sees one version), and the test group saved as a Shopify cart attribute. First metric: card click-through, ~2,000 views per group.
