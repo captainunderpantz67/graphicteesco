@@ -4882,6 +4882,85 @@ export const allGuides: Guide[] = [
       { q: 'When should I order a mechanic gift for Christmas?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2 to 5 business days and delivery takes about 3 to 8 business days. US shipping is free on orders of $45 or more.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-19). Keyword: christmas gifts for brother 9,900 / KD 12 (RankHero, measured 2026-10 in docs/pipeline research and carried in this repo's keyword notes; not re-pulled this unattended run, no RankHero key). Unowned: checked 2026-11-19 against collections.ts, product-keyword-map.json and guides.ts (only comments name it as a planned sibling).
+    // Facts (art, prices, fabrics, colors, sizes, policies) from the LIVE Shopify Stories read 2026-11-19 and site.ts / sibling guides. FAQ questions are not from PAA or GSC (not available unattended).
+    // Picks: Mom's Favorite, Bulking Season, White Elephant Champion, Attending Under Protest (hoodie). All four handles are in src/data/fresh-designs.json.
+    // Planned siblings (not live yet): christmas-gifts-for-husband, christmas-gifts-for-boyfriend.
+    slug: 'christmas-gifts-for-brother',
+    keyword: 'christmas gifts for brother',
+    title: 'Christmas Gifts for Brother: 4 Funny Picks From $24.99',
+    description: 'Christmas gifts for brother: Mom’s Favorite, Bulking Season, White Elephant Champion and Attending Under Protest. Tees $24.99 through Nov 30, hoodie $39.99, printed to order.',
+    h1: 'Christmas Gifts for Your Brother: Funny Shirts He Will Actually Wear',
+    date: '2026-11-19',
+    cluster: 'christmas',
+    draft: true,
+    answer: 'A good Christmas gift for a brother is a funny shirt that sounds like him, because brothers trade jokes, not sentiment. Graphic Tees Co. has four original designs: Mom’s Favorite (tee $24.99), Bulking Season (tee $24.99), White Elephant Champion (tee $24.99) and Attending Under Protest (hoodie $39.99). Those are sale prices through November 30, 2026; from December 1 tees are $29.99 and the hoodie $44.99. Each is printed after you order. Order by December 4, 2026.',
+    picks: [
+      {
+        h2: 'What is a funny Christmas gift for a brother who claims he is the favorite?',
+        body: ['Mom’s Favorite. Check the stockings. It is a sibling joke, and the brother who has always said it at dinner is the one who will wear it.'],
+        items: [
+          { slogan: 'MOM’S FAVORITE.', tee: 'mens-christmas-moms-favorite-graphic-tee',
+            text: 'A brick fireplace with a pine garland holds two knit stockings: the left one overflows with wrapped presents, candy canes, ornaments and a toy truck, and the right one is limp with a single candy cane. MOM’S FAVORITE. runs across the top in red slab capitals and CHECK THE STOCKINGS. across the bottom in heavy pine-green capitals. The tee is $24.99 in White, Natural, Heather Dust, Athletic Heather, Ash and Tan, sizes S to 4XL.' },
+        ],
+      },
+      {
+        h2: 'What is a good Christmas gift for a brother who lifts?',
+        body: ['Bulking Season. December is the bulk, and every family has the one guy who explains his macros over dinner.'],
+        items: [
+          { slogan: 'BULKING SEASON', tee: 'mens-christmas-bulking-season-graphic-tee',
+            text: 'A muscular storybook Santa in red trousers, a white tank top and a striped sweatband carries a candy-cane barbell loaded with gingerbread-man cookies as weight plates, with a plate of cookies on a bench beside him. BULKING SEASON stacks above him in big red and green gym-poster capitals. The tee is $24.99 in six colors, sizes S to 4XL.' },
+        ],
+      },
+      {
+        h2: 'What is a gift for a brother who wins the white elephant exchange?',
+        body: ['White Elephant Champion. It is for the brother who steals the good gift at the office party and refuses to give it back.'],
+        items: [
+          { slogan: 'I STOLE IT. I’M KEEPING IT.', tee: 'mens-christmas-white-elephant-champion-graphic-tee',
+            text: 'A proud mustached man in a striped Christmas sweater and a bobble hat stands on a small podium hugging a wrapped gift with a big bow like a championship belt, with a tiny gold trophy at his feet. I STOLE IT. runs in dark red capitals and I’M KEEPING IT. in navy. The tee is $24.99 in seven colors, sizes S to 4XL.' },
+        ],
+      },
+      {
+        h2: 'What do you give a brother who does not want to be at the party?',
+        body: ['Attending Under Protest. It is the hoodie for the brother who came anyway, and the family who made him come will be the ones laughing.'],
+        items: [
+          { slogan: 'ATTENDING UNDER PROTEST', tee: 'mens-christmas-attending-under-protest-hoodie',
+            text: 'A stitched-look reindeer in a Santa hat stands with crossed arms and a flat, unimpressed stare, in red, sage and cream with black antlers. ATTENDING sits in red and UNDER PROTEST in cream capitals with a dark outline. The hoodie is an 8 oz, 50% cotton and 50% polyester pullover with a double-lined hood, $39.99 in Sand and Navy, sizes S to 3XL.' },
+        ],
+        links: [{ href: '/christmas-shirts-for-men/', text: 'Men’s Christmas shirts' }, { href: '/hoodies/christmas-hoodies/', text: 'Christmas hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good Christmas gift for a brother?',
+        body: ['A joke he would make himself. Brothers rarely say what a gift means, so a shirt that teases him about the lights, the gym or the favorite-child bit lands better than anything sentimental.',
+          'Graphic Tees Co. designs are original art with the joke set in big type. They carry no team, brand or character logos, so there is nothing to explain.'],
+        links: [{ href: '/christmas-shirts/', text: 'All Christmas shirts' }] },
+      { h2: 'Should you buy your brother a tee or a hoodie?',
+        body: ['The tee is the easy pick: $24.99 through November 30 in a lightweight 4.2 oz cotton cut. The hoodie is $39.99 in 8 oz fleece, the better gift for a brother who runs cold or lives somewhere with real winter.',
+          'Mom’s Favorite, Bulking Season and White Elephant Champion are tees. Attending Under Protest is the hoodie.'],
+        links: [{ href: '/hoodies/christmas-hoodies/', text: 'Christmas hoodies' }] },
+      { h2: 'What if you do not know his size?',
+        body: ['Check the size chart on the product page against a shirt he already owns. The tees run S to 4XL in a classic unisex cut, and the hoodie S to 3XL.',
+          'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and he does not have to mail the first one back. If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'What are good Christmas gifts for a brother under $50?',
+        body: ['Every pick here is under $50: tees are $24.99 and the hoodie is $39.99 through November 30, then $29.99 and $44.99 from December 1. US shipping is free on orders of $45 or more, so two tees ship free.'] },
+      { h2: 'When should you order a Christmas gift for your brother?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find Christmas gift ideas for the family?',
+        body: ['If your brother is also the dad, the guides below cover him, his siblings and the whole gift swap.'],
+        links: [{ href: '/guides/christmas-gifts-for-son/', text: 'Christmas gifts for son' }, { href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }, { href: '/guides/christmas-gifts-for-sister/', text: 'Christmas gifts for sister' }, { href: '/guides/christmas-gifts-for-friends/', text: 'Christmas gifts for friends' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }] },
+    ],
+    faqs: [
+      { q: 'What are good Christmas gifts for a brother?', a: 'A funny shirt with a joke he would make himself, like Mom’s Favorite or Bulking Season from Graphic Tees Co. Tees are $24.99 through November 30, 2026 and $29.99 from December 1, all printed after you order.' },
+      { q: 'What is a funny Christmas gift for a brother under $30?', a: 'Any Graphic Tees Co. Christmas tee: Mom’s Favorite, Bulking Season or White Elephant Champion. Each is $24.99 through November 30, 2026, then $29.99, and printed to order.' },
+      { q: 'Is Mom’s Favorite a good gift for a brother?', a: 'Yes. The Graphic Tees Co. Mom’s Favorite tee shows one stocking stuffed and one nearly empty, and costs $24.99 in six colors. Anyone in the family can order it for the brother who claims the title, and the free size exchange makes it safe to give.' },
+      { q: 'Is a Christmas hoodie a good gift for a brother?', a: 'Yes, if he runs cold. The Graphic Tees Co. Attending Under Protest hoodie is an 8 oz cotton-polyester pullover at $39.99 through November 30, 2026 ($44.99 from December 1), in Sand and Navy, sizes S to 3XL.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+      { q: 'When should I order a Christmas gift for my brother?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
