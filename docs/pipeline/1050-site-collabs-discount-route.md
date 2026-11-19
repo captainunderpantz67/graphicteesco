@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [B] 2026-11-19 13:30
 lane: A
 type: site
 id: 1050
