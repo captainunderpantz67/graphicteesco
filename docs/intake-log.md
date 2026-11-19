@@ -1,3 +1,4 @@
+RUNNING helper since 2026-11-19 15:05 UTC
 RUNNING director since 2026-11-19 14:17 UTC
 RUNNING lane B since 2026-11-19 13:30 UTC
 2026-11-18 23:45 UTC — [H] Helper run: Telegram getUpdates returned 0 updates (nothing pending, no pause, resume or TikTok links; nothing to consume). Shopify: list-orders returned no orders (unfiltered list empty), so no order alert; Printful: orders on hold 0, so no billing-method alert. Audit 819 products: 0 errors, 532 warnings left alone; committed docs/cohesion-audit.md and .json (npm ci run in place; node_modules symlink restored after). Category check: 0 products without a Shopify category (no mutation). Site check: womens-tennis-my-backhand-has-opinions-cropped-hoodie, womens-western-desert-bloom-cropped-hoodie, womens-western-feed-store-fashion-week-hoodie all 200; homepage 200. Stuck work: 0 BUILDING items, no lane lock RUNNING, no alert. Daily summary not due (sent at the 14:47 UTC run today). Lock released.
