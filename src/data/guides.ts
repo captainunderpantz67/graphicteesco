@@ -4961,6 +4961,84 @@ export const allGuides: Guide[] = [
       { q: 'When should I order a Christmas gift for my brother?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-19), tees cluster, second article of the day. Keyword: funny gifts for brother. Sibling of funny-gifts-for-dad (planned there as funny-gifts-for-brother). NOT MEASURED this run: RankHero returned 403 to the unattended session, so volume and KD are unknown; director please measure before approving. Unowned by checked grep 2026-11-19 in collections.ts, guides.ts and product-keyword-map.json ("christmas gifts for brother" is a separate phrase, used by christmas-gifts-for-brother).
+    // Picks (all four handles are in fresh-designs.json, ACTIVE): Sisyphus Had Bad Programming, I Only Run Downhill, I Play Army Golf, Can't, Cat's on Me tees. Art, colors, sizes, fabric and price read from the live Shopify Stories 2026-11-19. Price stated as the live $24.99, no sale step claimed. FAQ questions are not from PAA or GSC (not available unattended).
+    // Siblings linked by slug: funny-gifts-for-dad, christmas-gifts-for-brother, gifts-for-gym-rats, funny-golf-shirts, hoodies-for-guys. Planned, not live: funny-gifts-for-grandpa.
+    slug: 'funny-gifts-for-brother',
+    keyword: 'funny gifts for brother',
+    title: 'Funny Gifts for Brother: 4 Tees for Lifters, Runners and Cat Guys',
+    description: 'Funny gifts for brother with original art: Sisyphus Had Bad Programming, I Only Run Downhill, I Play Army Golf and Can’t, Cat’s on Me tees, $24.99.',
+    h1: 'Funny Gifts for Brother: Four Tees for the Guy Who Already Has Everything Else',
+    date: '2026-11-19',
+    cluster: 'tees',
+    draft: true,
+    answer: 'A funny gift for a brother is a shirt that jokes about the thing he will not shut up about: the gym, running, golf or his cat. Graphic Tees Co. has four original tees for that: Sisyphus Had Bad Programming, I Only Run Downhill, I Play Army Golf and Can’t, Cat’s on Me. Each is $24.99 in a classic unisex cut, sizes S to 4XL, and printed after you order it.',
+    picks: [
+      {
+        h2: 'What is a funny gift for a brother who lifts?',
+        body: ['Sisyphus Had Bad Programming. It is for the brother who has run the same program for three years and calls it consistency. The tee is $24.99 in Natural, Heather Dust, White, Ash or Athletic Heather, sizes S to 4XL.'],
+        items: [
+          { slogan: 'SISYPHUS HAD BAD PROGRAMMING', tee: 'mens-gym-sisyphus-had-bad-programming-graphic-tee',
+            text: 'A hero drawn like a Greek vase painting, in terracotta and black ink, shoves a giant weight plate up a steep hill, with SISYPHUS HAD in bold classical capitals above, a Greek key band and BAD PROGRAMMING below.' },
+        ],
+        links: [{ href: '/mens-gym-shirts/', text: 'Men’s gym shirts' }, { href: '/guides/gifts-for-gym-rats/', text: 'Gifts for gym rats' }],
+      },
+      {
+        h2: 'What is a funny gift for a brother who runs?',
+        body: ['I Only Run Downhill. It is for the brother who signs up for a race because the course drops. The tee is $24.99 in eight colors, from Black and Navy to Maroon and Athletic Heather, sizes S to 4XL.'],
+        items: [
+          { slogan: 'I ONLY RUN DOWNHILL.', tee: 'mens-running-i-only-run-downhill-graphic-tee',
+            text: 'A laughing runner in a red headband and singlet bounds down a grassy slope with his arms spread, a steep road rising behind him, in faded red, navy, mustard and cream. I ONLY RUN sits above in slab capitals and DOWNHILL. below in larger letters.' },
+        ],
+      },
+      {
+        h2: 'What is a funny gift for a brother who golfs?',
+        body: ['I Play Army Golf. Left, right, left is how every weekend golfer describes his own round. The tee is $24.99 in Natural, Soft Cream, Heather Dust, Vintage White, Ash or Athletic Heather, sizes S to 4XL.'],
+        items: [
+          { slogan: 'LEFT. RIGHT. LEFT. I PLAY ARMY GOLF.', tee: 'mens-golf-i-play-army-golf-graphic-tee',
+            text: 'A cheerful mustached 1970s golfer in plaid flared trousers, a polo and a visor holds a high follow-through while the dotted flight path of his ball zigzags from the pines on the left to the pines on the right, the flag on the green untouched. LEFT. RIGHT. LEFT. runs above in burnt orange and I PLAY ARMY GOLF. below in dark green.' },
+        ],
+        links: [{ href: '/guides/funny-golf-shirts/', text: 'Funny golf shirts' }],
+      },
+      {
+        h2: 'What is a funny gift for a brother with a cat?',
+        body: ['Can’t, Cat’s on Me. It is the oldest excuse in cat ownership, and every cat brother has used it to skip something. The tee is $24.99 in Black, Navy, Dark Grey Heather or Heather Forest, sizes S to 4XL.'],
+        items: [
+          { slogan: 'CAN’T. CAT’S ON ME.', tee: 'mens-cat-dad-cant-cats-on-me-graphic-tee',
+            text: 'A huge fluffy grey tabby sleeps in a loaf shape on a red plaid blanket over a man’s lap in a striped recliner, only his corduroy knees and slippered feet showing, while the remote and a coffee mug sit just out of reach. CAN’T. sits above and CAT’S ON ME. below.' },
+        ],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a funny gift for a brother work?',
+        body: ['It teases him about something he really does. Brothers rarely say what a gift means, so a joke he would make about himself lands better than anything sentimental.',
+          'Every Graphic Tees Co. design is original art made for this shop, with the joke in the lettering. None of the four carries a team, brand or character logo.'],
+        links: [{ href: '/graphic-tees-for-men/', text: 'Graphic tees for men' }] },
+      { h2: 'What size tee should you buy for your brother?',
+        body: ['His usual size. These four tees are a classic unisex cut in sizes S to 4XL, so his usual size gives a regular fit and one size up is roomier. Check the size chart against a tee he already owns.',
+          'If the size is wrong, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and nothing is mailed back. A misprinted or damaged item is reprinted or refunded.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'What are these tees made of?',
+        body: ['Each is 100% combed, ring-spun cotton at 4.2 oz per square yard, with some polyester in the heather colors. They are pre-shrunk, with side seams and shoulder-to-shoulder taping, a lightweight tee that layers under a hoodie.'] },
+      { h2: 'How do you wash a graphic tee so the print lasts?',
+        body: ['Turn it inside out and wash cold with similar colors. Tumble dry low or hang it up, skip bleach and fabric softener, and keep the iron off the print.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'When should you order a funny gift for your brother for Christmas?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Each tee is printed after you order it in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. US shipping is free on orders of $45 or more, so two tees ship free.'] },
+      { h2: 'Where else can you find gift ideas for the men in your family?',
+        body: ['If your brother is also a dad, or you want a Christmas-themed pick, the guides below cover him.'],
+        links: [{ href: '/guides/funny-gifts-for-dad/', text: 'Funny gifts for dad' }, { href: '/guides/christmas-gifts-for-brother/', text: 'Christmas gifts for brother' }, { href: '/guides/hoodies-for-guys/', text: 'Hoodies for guys' }] },
+    ],
+    faqs: [
+      { q: 'What are funny gifts for a brother?', a: 'A shirt that jokes about his hobby. Graphic Tees Co. has four original tees: Sisyphus Had Bad Programming, I Only Run Downhill, I Play Army Golf and Can’t, Cat’s on Me. Each is $24.99 in sizes S to 4XL and printed to order.' },
+      { q: 'What is a funny gift for a brother who goes to the gym?', a: 'The Sisyphus Had Bad Programming tee. Graphic Tees Co. prints a Greek-vase hero pushing a weight plate up a hill. It is $24.99 in Natural, Heather Dust, White, Ash or Athletic Heather, sizes S to 4XL.' },
+      { q: 'What is a funny gift for a brother who runs?', a: 'The I Only Run Downhill tee. Graphic Tees Co. prints a laughing runner bounding down a hill with a steep climb behind him. It is $24.99 in eight colors, sizes S to 4XL, and the free size exchange covers a wrong guess.' },
+      { q: 'What size tee should I buy my brother?', a: 'His usual size. The Graphic Tees Co. tees are a classic unisex cut in S to 4XL, and one size up gives a looser fit. One replacement size is free within 30 days of delivery.' },
+      { q: 'Are these tees heavy or light?', a: 'Light. The Graphic Tees Co. tees are 4.2 oz combed ring-spun cotton, with some polyester in the heather colors. They are soft and easy to layer under a hoodie.' },
+      { q: 'When should I order a funny gift for my brother for Christmas?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each tee in 2 to 5 business days and delivery takes about 3 to 8 business days in the US. Shipping is free on orders of $45 or more.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
