@@ -4733,7 +4733,6 @@ export const allGuides: Guide[] = [
     h1: 'Gifts for Mimi (and Gigi and Nana): Funny Shirts for the Grandma With a Name',
     date: '2026-11-18',
     cluster: 'tees',
-    draft: true,
     answer: 'A good gift for Mimi is a shirt that jokes about her own name and her own rules. Graphic Tees Co. has four original designs: Mimi Says Yes (crewneck $34.99, hoodie $39.99), Gigi Because Grandma Sounded Old (crewneck $34.99), Mom Said No? That’s Cute. for Nana (crewneck $34.99) and Nana’s Cookies, THE RECIPE DIES WITH ME. (tee $24.99). Each is printed to order, with one free size exchange within 30 days.',
     picks: [
       {
@@ -4815,7 +4814,6 @@ export const allGuides: Guide[] = [
     h1: 'Gifts for Mechanics: Funny Shop Shirts for the One Everyone Hands Their Keys To',
     date: '2026-11-18',
     cluster: 'tees',
-    draft: true,
     answer: 'A good gift for a mechanic is a shirt that says what he cannot say at the cookout. Graphic Tees Co. makes the No, I Can’t Just Take a Quick Look tee ($24.99) and hoodie ($39.99) for the mechanic, plus a welder tee and a lineman tee for the rest of the shop. Those are holiday sale prices through November 30, 2026; from December 1 tees are $29.99 and the hoodie $44.99. Every piece is original art, printed to order.',
     picks: [
       {
@@ -4890,7 +4888,7 @@ export const allGuides: Guide[] = [
     slug: 'christmas-gifts-for-brother',
     keyword: 'christmas gifts for brother',
     title: 'Christmas Gifts for Brother: 4 Funny Picks From $24.99',
-    description: 'Christmas gifts for brother: Mom’s Favorite, Bulking Season, White Elephant Champion and Attending Under Protest. Tees $24.99 through Nov 30, hoodie $39.99, printed to order.',
+    description: 'Christmas gifts for brother: Mom’s Favorite, Bulking Season, White Elephant Champion and a hoodie. Tees $24.99 through Nov 30, printed to order.',
     h1: 'Christmas Gifts for Your Brother: Funny Shirts He Will Actually Wear',
     date: '2026-11-19',
     cluster: 'christmas',
@@ -4949,7 +4947,7 @@ export const allGuides: Guide[] = [
       { h2: 'When should you order a Christmas gift for your brother?',
         body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
       { h2: 'Where else can you find Christmas gift ideas for the family?',
-        body: ['If your brother is also the dad, the guides below cover him, his siblings and the whole gift swap.'],
+        body: ['The guides below cover the rest of the family and the office gift swap.'],
         links: [{ href: '/guides/christmas-gifts-for-son/', text: 'Christmas gifts for son' }, { href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }, { href: '/guides/christmas-gifts-for-sister/', text: 'Christmas gifts for sister' }, { href: '/guides/christmas-gifts-for-friends/', text: 'Christmas gifts for friends' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }] },
     ],
     faqs: [
@@ -4957,7 +4955,7 @@ export const allGuides: Guide[] = [
       { q: 'What is a funny Christmas gift for a brother under $30?', a: 'Any Graphic Tees Co. Christmas tee: Mom’s Favorite, Bulking Season or White Elephant Champion. Each is $24.99 through November 30, 2026, then $29.99, and printed to order.' },
       { q: 'Is Mom’s Favorite a good gift for a brother?', a: 'Yes. The Graphic Tees Co. Mom’s Favorite tee shows one stocking stuffed and one nearly empty, and costs $24.99 in six colors. Anyone in the family can order it for the brother who claims the title, and the free size exchange makes it safe to give.' },
       { q: 'Is a Christmas hoodie a good gift for a brother?', a: 'Yes, if he runs cold. The Graphic Tees Co. Attending Under Protest hoodie is an 8 oz cotton-polyester pullover at $39.99 through November 30, 2026 ($44.99 from December 1), in Sand and Navy, sizes S to 3XL.' },
-      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back. The tees run S to 4XL and the hoodie S to 3XL, so compare the size chart with a shirt he already owns.' },
       { q: 'When should I order a Christmas gift for my brother?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
     ],
   },

@@ -9265,8 +9265,7 @@
   },
   "mens-christmas-moms-favorite-graphic-tee": {
    "claimed": [
-    "moms favorite shirt",
-    "christmas gifts for brother"
+    "moms favorite shirt"
    ],
    "gaps_measured": [
     {
@@ -9280,7 +9279,8 @@
      "kd": 12
     }
    ],
-   "measured": "2026-10-16"
+   "measured": "2026-10-16",
+   "note": "2026-11-19 director: christmas gifts for brother (9,900 / KD 12) moved to the guide /guides/christmas-gifts-for-brother/ (gift searches are editorial, R2.10); the tee keeps moms favorite shirt and may mention the gift phrase once in copy."
   },
   "mens-christmas-moms-favorite-crewneck-sweatshirt": {
    "claimed": [

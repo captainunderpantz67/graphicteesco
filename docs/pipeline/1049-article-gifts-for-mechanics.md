@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: tees
@@ -19,3 +19,4 @@ slug: gifts-for-mechanics
 - 2026-11-18 UTC writer: drafted.
 - 2026-11-18 23:18 UTC director: APPROVED. Checked against live Shopify: all picks ACTIVE, prices, colors and sizes match; every pick handle in fresh-designs.json; all links 200; primary unowned (only retargeted-from notes in the map). Held for Nov 19 Chicago (Nov 18's 2 articles went live at 14:35 UTC); next run removes the draft: line after re-checking.
   Note: only 2 mechanic products exist; welder and lineman picks are labeled honestly as the rest of the shop.
+- 2026-11-19 23:20 UTC director: LIVE (draft line removed; 2 of 2 articles for Nov 19 Chicago). Held approval re-checked: no newer rule applies; all 4 pick pages 200.

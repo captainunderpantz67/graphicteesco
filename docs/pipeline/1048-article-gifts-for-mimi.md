@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: tees
@@ -20,3 +20,4 @@ slug: gifts-for-mimi
 - 2026-11-18 UTC writer: drafted.
 - 2026-11-18 23:18 UTC director: APPROVED. Checked against live Shopify: all picks ACTIVE, prices, colors and sizes match; every pick handle in fresh-designs.json; all links 200; primary unowned (only retargeted-from notes in the map). Held for Nov 19 Chicago (Nov 18's 2 articles went live at 14:35 UTC); next run removes the draft: line after re-checking.
   Fix: SEO title 66 -> 60 chars (R8.4); christmas-gifts-for-grandma's Nana's Cookies line updated to the live print THE RECIPE DIES WITH ME. (4 spots).
+- 2026-11-19 23:20 UTC director: LIVE (draft line removed; 1 of 2 articles for Nov 19 Chicago). Held approval re-checked: no rule dated after Nov 18 applies; all 5 pick pages 200. astro build 153 pages.

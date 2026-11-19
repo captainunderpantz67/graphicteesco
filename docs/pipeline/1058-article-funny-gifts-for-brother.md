@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: REDO
 lane: W
 type: article
 cluster: tees
@@ -16,3 +16,4 @@ slug: funny-gifts-for-brother
 - `npx astro build`: passes (151 pages; drafts are not built).
 ## Log
 - 2026-11-19 UTC writer: drafted.
+- 2026-11-19 23:20 UTC director: REDO. 1. R2.1: the primary 'funny gifts for brother' has no measured volume or KD (RankHero 403 this run too; nothing in the repo). No measurement, no publish. 2. R2.8 / R2.10: it is the same shopper as the approved christmas-gifts-for-brother guide (#1057, 9,900 / KD 12). When RankHero answers, measure 'funny gifts for brother' and 'birthday gifts for brother'; keep the page only if one measures and reads as non-Christmas (birthday angle, any-occasion picks), else PARK. The picks and facts are fine as written.
