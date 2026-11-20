@@ -5036,6 +5036,85 @@ export const allGuides: Guide[] = [
       { q: 'When should I order a funny gift for my brother for Christmas?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each tee in 2 to 5 business days and delivery takes about 3 to 8 business days in the US. Shipping is free on orders of $45 or more.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-20). Keyword: christmas gifts for husband 22,200 / KD 9 (RankHero, measured 2026-10-27 per the girlfriend guide's note, under 90 days old; not re-pulled this unattended run, no RankHero key). The phrase was a secondary claim on the It Looked Smaller at the Farm tee in docs/product-keyword-map.json; the brother guide moved its claim the same way, so director please move this one to the guide too (R2.8, R2.10).
+    // Facts (art, prices, fabrics, colors, sizes) from the LIVE Shopify Stories read 2026-11-20; policies and dates from site.ts and the sibling brother guide. FAQ questions are not from PAA or GSC (not available unattended).
+    // Picks: It Looked Smaller at the Farm (tee + crewneck), Resting My Eyes (tee + crewneck), White Elephant Champion (tee), Attending Under Protest (hoodie). All handles are in src/data/fresh-designs.json.
+    // Planned sibling (not live yet): christmas-gifts-for-boyfriend.
+    slug: 'christmas-gifts-for-husband',
+    keyword: 'christmas gifts for husband',
+    title: 'Christmas Gifts for Husband: 4 Funny Picks From $24.99',
+    description: 'Christmas gifts for husband: It Looked Smaller at the Farm, Resting My Eyes, White Elephant Champion and a hoodie. Tees $24.99 through Nov 30, printed to order.',
+    h1: 'Christmas Gifts for Your Husband: Funny Shirts That Sound Like Him',
+    date: '2026-11-20',
+    cluster: 'christmas',
+    answer: 'A good Christmas gift for a husband is a funny shirt that teases him about something he really does, like the tree that is too tall or the nap he insists is not a nap. Graphic Tees Co. has four original designs: It Looked Smaller at the Farm (tee $24.99), Resting My Eyes (tee $24.99), White Elephant Champion (tee $24.99) and Attending Under Protest (hoodie $39.99). Those are sale prices through November 30, 2026; from December 1 tees are $29.99 and the hoodie $44.99. Each is printed after you order. Order by December 4, 2026.',
+    picks: [
+      {
+        h2: 'What is a funny Christmas gift for a husband who always picks the biggest tree?',
+        body: ['It Looked Smaller at the Farm. Every house has one husband who judged the tree with his eyes and not a tape measure, and this shirt says so for him.'],
+        items: [
+          { slogan: 'IT LOOKED SMALLER AT THE FARM', tee: 'mens-christmas-it-looked-smaller-at-the-farm-graphic-tee', crewneck: 'mens-christmas-it-looked-smaller-at-the-farm-crewneck-sweatshirt',
+            text: 'A deadpan storybook man in a red plaid flannel and a knit cap stands beside an enormous fir that is far too big for the room: the top is bent sideways against a wooden ceiling beam, the star lies on the floor, pine needles cover the rug and a limp yellow tape measure dangles from his hand. IT LOOKED SMALLER runs across the top and AT THE FARM across the bottom in chunky faded-red slab capitals. The tee is $24.99 in seven colors, sizes S to 4XL. The crewneck is $34.99 in Sand or Navy, sizes S to 3XL.' },
+        ],
+      },
+      {
+        h2: 'What do you give a husband who naps in the recliner?',
+        body: ['Resting My Eyes. He is asleep by three o’clock on Christmas Day and swears he is not, and the family who watched him do it will be the ones who wrap this.'],
+        items: [
+          { slogan: 'RESTING MY EYES', tee: 'mens-christmas-resting-my-eyes-graphic-tee', crewneck: 'mens-christmas-resting-my-eyes-crewneck-sweatshirt',
+            text: 'A dad tipped back in a plaid recliner with his mouth open, a Santa hat sliding off, reading glasses pushed up, a half-unwrapped present on his lap, a small lit tree beside the chair and a sleepy cat on his shoulder. RESTING runs in pine-green capitals and MY EYES in Santa-hat red underneath. The tee is $24.99 in six colors, sizes S to 4XL. The crewneck is an 8 oz fleece at $34.99 in five light and mid colors, sizes S to 3XL.' },
+        ],
+      },
+      {
+        h2: 'What is a good gift for a husband who wins every gift swap?',
+        body: ['White Elephant Champion. It is for the husband who steals the good gift at the office party and refuses to give it back.'],
+        items: [
+          { slogan: 'I STOLE IT. I’M KEEPING IT.', tee: 'mens-christmas-white-elephant-champion-graphic-tee',
+            text: 'A proud mustached man in a striped Christmas sweater and a bobble hat stands on a small podium hugging a wrapped gift with a big bow like a championship belt, with a tiny gold trophy at his feet. I STOLE IT. runs in dark red capitals and I’M KEEPING IT. in navy. The tee is $24.99 in seven colors, sizes S to 4XL.' },
+        ],
+      },
+      {
+        h2: 'What do you give a husband who does not want to go to the party?',
+        body: ['Attending Under Protest. It is the hoodie for the husband who came anyway, and you will both know why he is wearing it.'],
+        items: [
+          { slogan: 'ATTENDING UNDER PROTEST', tee: 'mens-christmas-attending-under-protest-hoodie',
+            text: 'A stitched-look reindeer in a Santa hat stands with crossed arms and a flat, unimpressed stare, in red, sage and cream with black antlers. ATTENDING sits in red and UNDER PROTEST in cream capitals with a dark outline. The hoodie is an 8 oz, 50% cotton and 50% polyester pullover with a double-lined hood, $39.99 in Sand and Navy, sizes S to 3XL.' },
+        ],
+        links: [{ href: '/christmas-shirts-for-men/', text: 'Men’s Christmas shirts' }, { href: '/hoodies/christmas-hoodies/', text: 'Christmas hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good Christmas gift for a husband?',
+        body: ['Something he will wear without being asked. A shirt that jokes about his own habits, the tree, the nap or the gift swap, tends to get worn all season because he is in on the joke.',
+          'Graphic Tees Co. designs are original art with the joke set in big type. They carry no team, brand or character logos, so there is nothing to explain.'],
+        links: [{ href: '/christmas-shirts/', text: 'All Christmas shirts' }] },
+      { h2: 'Should you buy your husband a tee, a crewneck or a hoodie?',
+        body: ['The tee is the easy pick: $24.99 through November 30 in a lightweight 4.2 oz cotton cut. The crewneck is $34.99 in 8 oz fleece, and the hoodie is $39.99, the better gift if he runs cold.',
+          'It Looked Smaller at the Farm and Resting My Eyes come as a tee or a crewneck. White Elephant Champion is a tee, and Attending Under Protest is the hoodie.'],
+        links: [{ href: '/christmas-sweatshirts-for-men/', text: 'Men’s Christmas sweatshirts' }] },
+      { h2: 'What if you do not know his size?',
+        body: ['Check the size chart on the product page against a shirt he already owns. The tees run S to 4XL in a classic unisex cut, and the crewnecks and hoodie run S to 3XL.',
+          'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and he does not have to mail the first one back. If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'What are good Christmas gifts for a husband under $50?',
+        body: ['Every pick here is under $50: tees are $24.99, crewnecks $34.99 and the hoodie $39.99. The tee and hoodie prices step to $29.99 and $44.99 on December 1. US shipping is free on orders of $45 or more, so two tees ship free.'] },
+      { h2: 'When should you order a Christmas gift for your husband?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find Christmas gift ideas for the family?',
+        body: ['The guides below cover the rest of the family and the office gift swap.'],
+        links: [{ href: '/guides/christmas-gifts-for-brother/', text: 'Christmas gifts for brother' }, { href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }, { href: '/guides/christmas-gifts-for-son/', text: 'Christmas gifts for son' }, { href: '/guides/christmas-gifts-for-girlfriend/', text: 'Christmas gifts for girlfriend' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }] },
+    ],
+    faqs: [
+      { q: 'What are good Christmas gifts for a husband?', a: 'A funny shirt that teases him about something he really does, like It Looked Smaller at the Farm or Resting My Eyes from Graphic Tees Co. Tees are $24.99 through November 30, 2026 and $29.99 from December 1, all printed after you order.' },
+      { q: 'What is a funny Christmas gift for a husband under $30?', a: 'Any Graphic Tees Co. Christmas tee: It Looked Smaller at the Farm, Resting My Eyes or White Elephant Champion. Each is $24.99 through November 30, 2026, then $29.99, and printed to order.' },
+      { q: 'Is Resting My Eyes a good gift for a husband?', a: 'Yes. The Graphic Tees Co. Resting My Eyes tee shows a man asleep in a plaid recliner with a Santa hat sliding off, and costs $24.99 in six colors. It also comes as an 8 oz crewneck at $34.99.' },
+      { q: 'Is a Christmas hoodie a good gift for a husband?', a: 'Yes, if he runs cold. The Graphic Tees Co. Attending Under Protest hoodie is an 8 oz cotton-polyester pullover at $39.99 through November 30, 2026 ($44.99 from December 1), in Sand and Navy, sizes S to 3XL.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back. The tees run S to 4XL and the crewnecks and hoodie S to 3XL, so compare the size chart with a shirt he already owns.' },
+      { q: 'When should I order a Christmas gift for my husband?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
+    ],
+    draft: true,
+  },
 ];
 
 // Only approved guides are built and linked.
