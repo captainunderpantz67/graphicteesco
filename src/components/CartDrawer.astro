@@ -83,6 +83,10 @@
         </div>
       </div>`).join('');
     subtotalEl.textContent = cart.subtotal;
+    let codeEl = drawer.querySelector<HTMLElement>('[data-cart-code]');
+    if (!codeEl) { codeEl = document.createElement('p'); codeEl.setAttribute('data-cart-code', ''); codeEl.className = 'text-xs font-semibold'; subtotalEl.parentElement!.after(codeEl); }
+    codeEl.hidden = !cart.discountCode;
+    codeEl.textContent = cart.discountCode ? `Code ${cart.discountCode} applied` : '';
     checkoutEl.href = cart.checkoutUrl;
     checkoutEl.removeAttribute('aria-disabled');
   }

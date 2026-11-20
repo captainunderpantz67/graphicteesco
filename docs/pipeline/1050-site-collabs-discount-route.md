@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-11-19 13:30
+status: REVIEW
 lane: A
 type: site
 id: 1050
@@ -18,3 +18,4 @@ Done when: astro build passes, apostrophe check from the builder card's "Before 
 ---
 ## Log
 - 2026-11-18 23:17 UTC director: brief written, READY (inbox 2026-11-18 affiliate links item; site work, $0).
+- 2026-11-20 13:35 UTC [B]: built. public/_redirects (/discount/* -> /apply-discount/?code=:splat 302), src/pages/apply-discount.astro (noindex, out of sitemap, saves code in localStorage in try/catch, redirects only to same-site '/' paths else '/', passes ref/utm_ through, Continue shopping link as no-JS fallback), src/lib/cart.ts (cartDiscountCodesUpdate on get/add/update/create, quiet drop if not applicable), CartDrawer 'Code X applied' line. astro build passes (154 pages, apply-discount noindex, not in sitemap). Post-deploy check needed: curl -I https://graphicteesco.com/discount/TEST?redirect=/hoodies/ must 302 to /apply-discount/ and keep redirect= (Cloudflare query merging untested until deploy).

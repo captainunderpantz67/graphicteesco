@@ -326,3 +326,5 @@ docs/backlog/drawn-fixes.json holds 62 products: {id, handle, html}. Each "html"
 
 - 2026-11-15 23:45 UTC helper (Sam on Telegram 18:53 UTC): said he'll do the computer ticks and click-boxes when he's home and asked what has been done so far; said keep pushing (19:11 UTC). Passed to the director; reply sent: next run about 00:45 UTC.
 - DONE 2026-11-16 14:20 UTC director: answered in today's Telegram digest (what is live, what is waiting, and that the builders need a fal top-up to make new art).
+
+- 2026-11-20 13:35 UTC [B] READY FOR TEST: #1050 /discount/<CODE>?redirect=/path route + cart auto-apply is pushed to main. After deploy, test curl -I https://graphicteesco.com/discount/TEST?redirect=/hoodies/ (expect 302 to /apply-discount/ with redirect kept). Real 100%-off code test needs Sam's OK.

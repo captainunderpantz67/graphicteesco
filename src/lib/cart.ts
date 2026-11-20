@@ -7,11 +7,12 @@ const KEY = 'gtc-cart-id';
 export const cartEnabled = Boolean(DOMAIN && TOKEN);
 
 export interface CartLine { id: string; quantity: number; title: string; variant: string; price: string; image?: string }
-export interface Cart { id: string; checkoutUrl: string; totalQuantity: number; subtotal: string; lines: CartLine[] }
+export interface Cart { id: string; checkoutUrl: string; totalQuantity: number; subtotal: string; lines: CartLine[]; discountCode?: string }
 
 const CART_FIELDS = `
   id checkoutUrl totalQuantity
   cost { subtotalAmount { amount currencyCode } }
+  discountCodes { code applicable }
   lines(first: 100) { nodes { id quantity merchandise { ... on ProductVariant {
     title price { amount currencyCode } image { url } product { title } } } } }
 `;
@@ -36,6 +37,7 @@ function shape(raw: any): Cart {
     checkoutUrl: raw.checkoutUrl,
     totalQuantity: raw.totalQuantity,
     subtotal: money(raw.cost.subtotalAmount),
+    discountCode: (raw.discountCodes ?? []).find((d: any) => d.applicable)?.code,
     lines: raw.lines.nodes.map((l: any) => ({
       id: l.id,
       quantity: l.quantity,
@@ -47,6 +49,24 @@ function shape(raw: any): Cart {
   };
 }
 
+const CODE_KEY = 'gtc-discount-code';
+const getCode = () => { try { return localStorage.getItem(CODE_KEY); } catch { return null; } };
+const clearCode = () => { try { localStorage.removeItem(CODE_KEY); } catch {} };
+
+// Apply a saved Collabs/affiliate code to the cart. A code Shopify rejects is dropped quietly.
+async function withCode(raw: any): Promise<any> {
+  const code = getCode();
+  if (!code || !raw) return raw;
+  if ((raw.discountCodes ?? []).some((d: any) => d.applicable && d.code.toLowerCase() === code.toLowerCase())) return raw;
+  try {
+    const d = await call(`mutation($id: ID!, $codes: [String!]) { cartDiscountCodesUpdate(cartId: $id, discountCodes: $codes) { cart { ${CART_FIELDS} } } }`,
+      { id: raw.id, codes: [code] });
+    const next = d.cartDiscountCodesUpdate?.cart;
+    if (next && !next.discountCodes.some((x: any) => x.applicable)) clearCode();
+    return next ?? raw;
+  } catch { clearCode(); return raw; }
+}
+
 const getId = () => { try { return localStorage.getItem(KEY); } catch { return null; } };
 const setId = (id: string | null) => { try { id ? localStorage.setItem(KEY, id) : localStorage.removeItem(KEY); } catch {} };
 
@@ -56,7 +76,7 @@ export async function getCart(): Promise<Cart | null> {
   if (!id) return null;
   const d = await call(`query($id: ID!) { cart(id: $id) { ${CART_FIELDS} } }`, { id });
   if (!d.cart) { setId(null); return null; }
-  return shape(d.cart);
+  return shape(await withCode(d.cart));
 }
 
 export async function addLine(merchandiseId: string, quantity = 1): Promise<Cart> {
@@ -64,12 +84,12 @@ export async function addLine(merchandiseId: string, quantity = 1): Promise<Cart
   if (id) {
     const d = await call(`mutation($id: ID!, $lines: [CartLineInput!]!) { cartLinesAdd(cartId: $id, lines: $lines) { cart { ${CART_FIELDS} } } }`,
       { id, lines: [{ merchandiseId, quantity }] });
-    if (d.cartLinesAdd.cart) return shape(d.cartLinesAdd.cart);
+    if (d.cartLinesAdd.cart) return shape(await withCode(d.cartLinesAdd.cart));
   }
   const d = await call(`mutation($lines: [CartLineInput!]!) { cartCreate(input: { lines: $lines }) { cart { ${CART_FIELDS} } } }`,
     { lines: [{ merchandiseId, quantity }] });
   setId(d.cartCreate.cart.id);
-  return shape(d.cartCreate.cart);
+  return shape(await withCode(d.cartCreate.cart));
 }
 
 export async function updateLine(lineId: string, quantity: number): Promise<Cart> {
@@ -79,5 +99,5 @@ export async function updateLine(lineId: string, quantity: number): Promise<Cart
         { id, lines: [{ id: lineId, quantity }] })
     : await call(`mutation($id: ID!, $ids: [ID!]!) { cartLinesRemove(cartId: $id, lineIds: $ids) { cart { ${CART_FIELDS} } } }`,
         { id, ids: [lineId] });
-  return shape((d.cartLinesUpdate ?? d.cartLinesRemove).cart);
+  return shape(await withCode((d.cartLinesUpdate ?? d.cartLinesRemove).cart));
 }

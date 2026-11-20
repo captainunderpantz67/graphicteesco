@@ -1,0 +1,26 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Applying your code | Graphic Tees Co." description="Your discount code is saved and will be applied at checkout." noindex>
+  <section class="container-x pt-10 max-w-3xl prose-copy">
+    <h1 class="display text-6xl">Welcome in</h1>
+    <p>Your code is saved and applies when you add something to your cart.</p>
+    <p><a class="btn btn-rust" data-continue href="/">Continue shopping</a></p>
+  </section>
+</Base>
+<script is:inline>
+  (function () {
+    var q = new URLSearchParams(location.search);
+    var code = (q.get('code') || '').replace(/[^A-Za-z0-9_-]/g, '').slice(0, 40);
+    try { if (code) localStorage.setItem('gtc-discount-code', code); } catch (e) {}
+    var r = q.get('redirect') || '/';
+    var ok = r.charAt(0) === '/' && r.charAt(1) !== '/' && r.charAt(1) !== '\\' && r.indexOf('://') < 0;
+    var dest = ok ? r : '/';
+    var extra = new URLSearchParams();
+    q.forEach(function (v, k) { if (k === 'ref' || k.indexOf('utm_') === 0) extra.set(k, v); });
+    var qs = extra.toString();
+    if (qs && dest.indexOf('?') < 0 && dest.indexOf('#') < 0) dest += '?' + qs;
+    var a = document.querySelector('[data-continue]'); if (a) a.setAttribute('href', dest);
+    location.replace(dest);
+  })();
+</script>

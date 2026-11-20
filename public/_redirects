@@ -1,2 +1,5 @@
 # Old product URLs → new (301)
 /products/womens-football-mom-game-day-football-mom-graphic-tee/  /products/womens-football-mom-game-day-graphic-tee/  301
+
+# Shopify Collabs / affiliate links: /discount/CODE?redirect=/path -> save the code, then continue (302)
+/discount/*  /apply-discount/?code=:splat  302
