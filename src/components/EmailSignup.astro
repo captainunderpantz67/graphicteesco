@@ -1,0 +1,106 @@
+---
+// Footer signup form + one polite prompt per visitor. No third-party code.
+// Creates a Shopify customer with email marketing consent via the Storefront API.
+---
+<div id="gtc-signup-footer" data-signup-wrap hidden>
+  <p class="eyebrow !text-[var(--color-mustard)] mb-2">Get new drops</p>
+  <p class="opacity-80 mb-3">New drops and holiday deals, about twice a month.</p>
+  <form data-signup-form class="flex gap-2 max-w-md" novalidate>
+    <label class="sr-only" for="gtc-signup-email-f">Email address</label>
+    <input id="gtc-signup-email-f" name="email" type="email" required autocomplete="email" placeholder="you@example.com" class="min-w-0 flex-1 rounded px-3 py-2 text-[var(--color-ink)] bg-white" />
+    <button type="submit" class="rounded px-4 py-2 font-semibold bg-[var(--color-mustard)] text-[var(--color-ink)]">Sign up</button>
+  </form>
+  <p data-signup-msg role="status" aria-live="polite" class="mt-2 text-xs min-h-[1rem]"></p>
+</div>
+
+<div id="gtc-signup-prompt" role="dialog" aria-labelledby="gtc-signup-title" hidden class="fixed z-40 bottom-4 left-4 right-4 sm:left-auto sm:right-4 sm:w-80 rounded-lg shadow-xl p-4 bg-[var(--color-paper)] text-[var(--color-ink)] border border-black/10">
+  <button type="button" data-signup-close aria-label="Close" class="absolute top-1 right-1 w-9 h-9 text-xl leading-none">&times;</button>
+  <p id="gtc-signup-title" class="display text-lg pr-8">New drops, no spam</p>
+  <p class="text-sm mt-1">New drops and holiday deals, about twice a month.</p>
+  <form data-signup-form class="mt-3 flex gap-2" novalidate>
+    <label class="sr-only" for="gtc-signup-email-p">Email address</label>
+    <input id="gtc-signup-email-p" name="email" type="email" required autocomplete="email" placeholder="you@example.com" class="min-w-0 flex-1 rounded px-3 py-2 border border-black/30 bg-white" />
+    <button type="submit" class="rounded px-4 py-2 font-semibold bg-[var(--color-ink)] text-[var(--color-paper)]">Sign up</button>
+  </form>
+  <p data-signup-msg role="status" aria-live="polite" class="mt-2 text-xs min-h-[1rem]"></p>
+</div>
+
+<script>
+  const DOMAIN = import.meta.env.PUBLIC_SHOPIFY_STORE_DOMAIN as string | undefined;
+  const TOKEN = import.meta.env.PUBLIC_SHOPIFY_STOREFRONT_TOKEN as string | undefined;
+  const SEEN = 'gtc-signup-seen';
+  const get = (k: string) => { try { return localStorage.getItem(k); } catch { return null; } };
+  const set = (k: string, v: string) => { try { localStorage.setItem(k, v); } catch { /* ignore */ } };
+
+  const footer = document.getElementById('gtc-signup-footer') as HTMLElement | null;
+  const prompt = document.getElementById('gtc-signup-prompt') as HTMLElement | null;
+  if (DOMAIN && TOKEN && footer && prompt) {
+    footer.hidden = false;
+
+    const randomPassword = () => {
+      const a = new Uint8Array(16);
+      crypto.getRandomValues(a);
+      return 'Aa1!' + Array.from(a, (b) => b.toString(16).padStart(2, '0')).join('');
+    };
+
+    async function subscribe(email: string): Promise<'ok' | 'error'> {
+      try {
+        const res = await fetch(`https://${DOMAIN}/api/2026-01/graphql.json`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'X-Shopify-Storefront-Access-Token': TOKEN! },
+          body: JSON.stringify({
+            query: 'mutation($i:CustomerCreateInput!){customerCreate(input:$i){customer{id} customerUserErrors{code}}}',
+            variables: { i: { email, password: randomPassword(), acceptsMarketing: true } },
+          }),
+        });
+        const json = await res.json();
+        if (json.errors) return 'error';
+        const errs = json.data?.customerCreate?.customerUserErrors ?? [];
+        if (!errs.length || errs.every((e: any) => e.code === 'TAKEN')) return 'ok';
+        return 'error';
+      } catch { return 'error'; }
+    }
+
+    function wire(root: HTMLElement, onOk?: () => void) {
+      const form = root.querySelector('form') as HTMLFormElement;
+      const msg = root.querySelector('[data-signup-msg]') as HTMLElement;
+      const input = form.querySelector('input') as HTMLInputElement;
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const email = input.value.trim();
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { msg.textContent = 'Please enter a valid email address.'; input.focus(); return; }
+        const btn = form.querySelector('button') as HTMLButtonElement;
+        btn.disabled = true; msg.textContent = 'Signing you up…';
+        const r = await subscribe(email);
+        btn.disabled = false;
+        if (r === 'ok') { msg.textContent = "You're on the list. Thanks!"; input.value = ''; set(SEEN, '1'); onOk?.(); }
+        else msg.textContent = "Sorry, that didn't go through. Please try again in a moment.";
+      });
+    }
+
+    const path = location.pathname;
+    const blocked = /^\/(cart|checkout|apply-discount)/.test(path);
+    wire(footer);
+
+    const close = () => { prompt.hidden = true; set(SEEN, '1'); };
+    wire(prompt, () => setTimeout(close, 2500));
+    prompt.querySelector('[data-signup-close]')!.addEventListener('click', close);
+    prompt.addEventListener('keydown', (e) => { if ((e as KeyboardEvent).key === 'Escape') close(); });
+
+    if (!blocked && !get(SEEN)) {
+      let shown = false;
+      const show = () => {
+        if (shown || get(SEEN)) return;
+        shown = true; prompt.hidden = false; set(SEEN, '1');
+        removeEventListener('scroll', onScroll); document.removeEventListener('mouseleave', onLeave);
+      };
+      const onScroll = () => {
+        const h = document.documentElement.scrollHeight - innerHeight;
+        if (h > 0 && scrollY / h >= 0.5) show();
+      };
+      const onLeave = (e: MouseEvent) => { if (e.clientY <= 0 && matchMedia('(hover: hover)').matches) show(); };
+      addEventListener('scroll', onScroll, { passive: true });
+      document.addEventListener('mouseleave', onLeave);
+    }
+  }
+</script>
