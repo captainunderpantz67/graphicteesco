@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: christmas
@@ -16,3 +16,4 @@ slug: christmas-gifts-for-husband
 - `npx astro build`: passes (155 pages; drafts are not built).
 ## Log
 - 2026-11-20 UTC writer: drafted.
+- 2026-11-20 23:16 UTC director: APPROVED and LIVE (2 of 2 articles Nov 20 Chicago). 4 picks ACTIVE; prices, colors, sizes and slogans match Shopify; 10 links 200. Fixes: SEO title 'From $24.99' (stale Dec 1) -> 'Funny Shirts He'll Wear' (54), meta 160 -> 145 (R8.4); keyword claim moved off the Farm tee in the keyword map (R2.10, same as #1057). Also fixed 3 live guides (dad, coworkers, boss) that quoted the White Elephant print's old line WHITE ELEPHANT CHAMPION. UNDEFEATED.; the art reads I STOLE IT. I'M KEEPING IT. Draft line removed; astro build 157 pages.

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: site
 id: 1052
@@ -18,3 +18,4 @@ Done when: astro build passes, a test signup with a +test address on a domain we
 ## Log
 - 2026-11-18 23:17 UTC director: brief written, READY (inbox 2026-11-18 traffic push item 4).
 - 2026-11-20 18:10 UTC builder B: built. src/components/EmailSignup.astro in the Base footer (under the founder line) plus one prompt (50% scroll or desktop exit intent, once per visitor via localStorage in try/catch, close button + Escape, bottom corner not full-screen, skipped on /cart, /checkout, /apply-discount). Storefront customerCreate with acceptsMarketing:true and random 36-char password works with the public token (password over 40 chars returns TOO_LONG). Already-subscribed (TAKEN) counts as success. Copy: "New drops and holiday deals, about twice a month." No discount. Tested with playwright against a live-data astro build (975 pages): signup-test+b2@graphicteesco.com showed success, repeat showed success, prompt shown at 60% scroll on a 390px screen, not shown again after close. Test customers signup-test+b1/b2/b3@graphicteesco.com now exist in Shopify (delete from admin). No third-party code. Lighthouse not re-run.
+- 2026-11-20 23:16 UTC director: LIVE. Footer form and prompt live on product pages; browser test at 390px: prompt appears bottom-corner after 60% scroll, copy matches the spec, no discount, no console errors. Test customers signup-test+b1/b2/b3@graphicteesco.com left for Sam's computer list (delete in admin). Lighthouse re-run left for the next check.

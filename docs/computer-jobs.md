@@ -7,6 +7,7 @@
 6. Send a photo of Sam + brother and the brother's name (press page + About).
 7. Install Judge.me (free) and get a few friends-and-family orders + honest reviews.
 8. Decisions: OK a first-order discount for the email signup (Claude's guess 10%)? OK the heavier-kid story for press? OK Claude building press page + affiliate route + email signup in-session instead of waiting on builders?
+9. Shopify admin → Customers: delete the 3 test sign-ups signup-test+b1, +b2 and +b3@graphicteesco.com (made while testing the new footer email form, 2026-11-20). Also: /discount/ links now work, so a Collabs test code can be made once you OK it.
 
 ## TOMORROW (flagged 2026-10-19 by Sam)
 1. Design decisions: covers for the 161 hidden + redesigned products (fal top-up ~$30–40 vs spread out), the 5 samples, resume the builders.

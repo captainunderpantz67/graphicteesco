@@ -65,7 +65,7 @@ const photoSlot = false; // flip to true when Sam sends a photo of himself and h
 
   {products.length > 0 && (
     <section class="container-x mt-14 mb-16">
-      <h2 class="display text-4xl">Best sellers and favorites</h2>
+      <h2 class="display text-4xl">A few of our favorites</h2>
       <div class="mt-6 grid grid-cols-2 md:grid-cols-3 gap-4">
         {products.map((p, i) => <ProductCard product={p} eager={i < 2} />)}
       </div>

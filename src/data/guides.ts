@@ -1283,10 +1283,10 @@ export const allGuides: Guide[] = [
       },
       {
         h2: 'What is a gift for the dad who wins every gift swap?',
-        body: ['White Elephant Champion. UNDEFEATED. It is for the guy who treats the office swap like a title fight.'],
+        body: ['White Elephant Champion: I STOLE IT. I’M KEEPING IT. It is for the dad who steals the good gift at the swap and treats it like a title fight.'],
         items: [
-          { slogan: 'White Elephant Champion. Undefeated.', tee: 'mens-christmas-white-elephant-champion-hoodie',
-            text: 'A boxing-program-style champion stands on a podium hugging a wrapped gift like a title belt, under WHITE ELEPHANT CHAMPION and UNDEFEATED. The pullover hoodie is $39.99 through November 30, 2026 ($44.99 from December 1).' },
+          { slogan: 'I STOLE IT. I’M KEEPING IT.', tee: 'mens-christmas-white-elephant-champion-hoodie',
+            text: 'A mustached man in a striped Christmas sweater and a bobble hat stands on a podium hugging a wrapped gift like a championship belt, over I STOLE IT. in heavy capitals and I’M KEEPING IT. beneath. The pullover hoodie is $39.99 through November 30, 2026 ($44.99 from December 1).' },
         ],
         links: [{ href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }],
       },
@@ -1431,9 +1431,9 @@ export const allGuides: Guide[] = [
       },
       {
         h2: 'What is a good gift for the coworker who wins every gift swap?',
-        body: ['White Elephant Champion. UNDEFEATED. It is for the one who treats the office swap like a title fight.'],
+        body: ['White Elephant Champion: I STOLE IT. I’M KEEPING IT. It is for the one who steals the good gift at the office swap and refuses to give it back.'],
         items: [
-          { slogan: 'WHITE ELEPHANT CHAMPION. UNDEFEATED.', tee: 'mens-christmas-white-elephant-champion-graphic-tee', crewneck: 'mens-christmas-white-elephant-champion-crewneck-sweatshirt',
+          { slogan: 'I STOLE IT. I’M KEEPING IT.', tee: 'mens-christmas-white-elephant-champion-graphic-tee', crewneck: 'mens-christmas-white-elephant-champion-crewneck-sweatshirt',
             text: 'A mustached man in a striped Christmas sweater and bobble hat stands on a podium hugging a wrapped gift like a championship belt, with a small gold trophy and crumpled wrapping paper at his feet. The tee is $24.99 and the crewneck is $34.99.' },
         ],
       },
@@ -1590,9 +1590,9 @@ export const allGuides: Guide[] = [
       },
       {
         h2: 'What do you give a boss who runs the office gift swap?',
-        body: ['White Elephant Champion. UNDEFEATED. It is for the boss who treats the swap like a title fight, and the joke is on the swap, not on anyone in the room.'],
+        body: ['White Elephant Champion: I STOLE IT. I’M KEEPING IT. It is for the boss who treats the swap like a title fight, and the joke is on the swap, not on anyone in the room.'],
         items: [
-          { slogan: 'WHITE ELEPHANT CHAMPION. UNDEFEATED.', tee: 'mens-christmas-white-elephant-champion-graphic-tee', crewneck: 'mens-christmas-white-elephant-champion-crewneck-sweatshirt',
+          { slogan: 'I STOLE IT. I’M KEEPING IT.', tee: 'mens-christmas-white-elephant-champion-graphic-tee', crewneck: 'mens-christmas-white-elephant-champion-crewneck-sweatshirt',
             text: 'A mustached man in a striped Christmas sweater and bobble hat stands on a podium hugging a wrapped gift like a championship belt, with a small gold trophy and crumpled wrapping paper at his feet. The tee is $24.99 and the crewneck is $34.99.' },
         ],
         links: [{ href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }],
@@ -5043,8 +5043,8 @@ export const allGuides: Guide[] = [
     // Planned sibling (not live yet): christmas-gifts-for-boyfriend.
     slug: 'christmas-gifts-for-husband',
     keyword: 'christmas gifts for husband',
-    title: 'Christmas Gifts for Husband: 4 Funny Picks From $24.99',
-    description: 'Christmas gifts for husband: It Looked Smaller at the Farm, Resting My Eyes, White Elephant Champion and a hoodie. Tees $24.99 through Nov 30, printed to order.',
+    title: 'Christmas Gifts for Husband: 4 Funny Shirts He’ll Wear',
+    description: 'Christmas gifts for husband: It Looked Smaller at the Farm, Resting My Eyes, White Elephant Champion and a hoodie. Tees $24.99, printed to order.',
     h1: 'Christmas Gifts for Your Husband: Funny Shirts That Sound Like Him',
     date: '2026-11-20',
     cluster: 'christmas',
@@ -5113,7 +5113,6 @@ export const allGuides: Guide[] = [
       { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back. The tees run S to 4XL and the crewnecks and hoodie S to 3XL, so compare the size chart with a shirt he already owns.' },
       { q: 'When should I order a Christmas gift for my husband?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
     ],
-    draft: true,
   },
 ];
 

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: site
 id: 1050
@@ -24,3 +24,4 @@ Done when: astro build passes, apostrophe check from the builder card's "Before 
   2. After deploy, curl -I must show Location carrying both the code and redirect=/hoodies/ (plus ref/utm_ if passed); log the exact Location line.
   3. Everything else passes review: same-site-only redirect check, try/catch storage, quiet drop in cart.ts, noindex and out of the sitemap.
 - 2026-11-20 17:40 UTC [B]: REDO fixed. Replaced the _redirects rule with a Cloudflare Pages Function functions/discount/[[path]].js that builds Location from the code plus the whole incoming query. Local test of the function: /discount/TEST?redirect=/hoodies/&ref=abc&utm_source=x -> 302 Location https://graphicteesco.com/apply-discount/?code=TEST&redirect=%2Fhoodies%2F&ref=abc&utm_source=x ; /discount/ -> /apply-discount/. apply-discount page unchanged. astro build passes. Post-deploy check for the director: curl -I the live URL and confirm Location carries code and redirect=.
+- 2026-11-20 23:16 UTC director: LIVE. Live curl -I /discount/TEST?redirect=/hoodies/&ref=abc -> 302 Location https://graphicteesco.com/apply-discount/?code=TEST&redirect=%2Fhoodies%2F&ref=abc. Browser test: landed on /hoodies/ with localStorage gtc-discount-code=TEST, no console errors. Real 100%-off code test still waits on Sam's OK.
