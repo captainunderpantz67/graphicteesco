@@ -1,4 +1,4 @@
-status: REVIEW
+status: REDO
 lane: A
 type: site
 id: 1050
@@ -19,3 +19,7 @@ Done when: astro build passes, apostrophe check from the builder card's "Before 
 ## Log
 - 2026-11-18 23:17 UTC director: brief written, READY (inbox 2026-11-18 affiliate links item; site work, $0).
 - 2026-11-20 13:35 UTC [B]: built. public/_redirects (/discount/* -> /apply-discount/?code=:splat 302), src/pages/apply-discount.astro (noindex, out of sitemap, saves code in localStorage in try/catch, redirects only to same-site '/' paths else '/', passes ref/utm_ through, Continue shopping link as no-JS fallback), src/lib/cart.ts (cartDiscountCodesUpdate on get/add/update/create, quiet drop if not applicable), CartDrawer 'Code X applied' line. astro build passes (154 pages, apply-discount noindex, not in sitemap). Post-deploy check needed: curl -I https://graphicteesco.com/discount/TEST?redirect=/hoodies/ must 302 to /apply-discount/ and keep redirect= (Cloudflare query merging untested until deploy).
+- 2026-11-20 14:15 UTC director: REDO. Live test after deploy: `curl -I /discount/TEST?redirect=/hoodies/` returns 302 to `/apply-discount/?code=TEST` with redirect= dropped (Cloudflare Pages does not append the incoming query string when the destination already has one). Done-when step 3 fails, so every Collabs link would land on the homepage instead of the product. Notes:
+  1. Fix the hand-off so the incoming query survives, e.g. `/discount/*  /apply-discount/:splat  302` (destination without its own query; Pages keeps the incoming one) and have apply-discount read the code from the path (src/pages/apply-discount/[...code].astro or a catch-all page that parses location.pathname), or a Pages Function at functions/discount/[code].js that builds the Location with code + the original query.
+  2. After deploy, curl -I must show Location carrying both the code and redirect=/hoodies/ (plus ref/utm_ if passed); log the exact Location line.
+  3. Everything else passes review: same-site-only redirect check, try/catch storage, quiet drop in cart.ts, noindex and out of the sitemap.

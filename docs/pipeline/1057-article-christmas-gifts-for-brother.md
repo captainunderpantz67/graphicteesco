@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: christmas
@@ -17,3 +17,4 @@ slug: christmas-gifts-for-brother
 ## Log
 - 2026-11-19 UTC writer: drafted.
 - 2026-11-19 23:20 UTC director: APPROVED, held for Nov 20 Chicago (Nov 19's 2 articles are #1048/#1049). Keyword confirmed from the repo: christmas gifts for brother 9,900 / KD 12 (RankHero 2026-10-18 in #614, Dec peak 74,000; under 90 days old). It was listed as a secondary claim on the Mom's Favorite tee (primary moms favorite shirt); moved to this guide in docs/product-keyword-map.json, since gift searches are editorial and belong on a guide (R2.10, R2.8). Checked against live Shopify: all 4 picks ACTIVE, prices ($24.99 tees, $39.99 hoodie), colors and sizes match; all 9 links 200. Fixes: meta 174 -> 144 chars (R8.4); the 'if your brother is also the dad' link line reworded; size FAQ lengthened with the size ranges (R8.7). Next run removes the draft: line after re-checking.
+- 2026-11-20 14:14 UTC director: LIVE (Nov 20 Chicago, article 1 of 2). Held approval re-checked: no rulebook change since; all 4 picks and 5 sampled links 200. draft: line removed; astro build 155 pages.

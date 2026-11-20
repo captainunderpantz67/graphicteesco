@@ -4892,7 +4892,6 @@ export const allGuides: Guide[] = [
     h1: 'Christmas Gifts for Your Brother: Funny Shirts He Will Actually Wear',
     date: '2026-11-19',
     cluster: 'christmas',
-    draft: true,
     answer: 'A good Christmas gift for a brother is a funny shirt that sounds like him, because brothers trade jokes, not sentiment. Graphic Tees Co. has four original designs: Mom’s Favorite (tee $24.99), Bulking Season (tee $24.99), White Elephant Champion (tee $24.99) and Attending Under Protest (hoodie $39.99). Those are sale prices through November 30, 2026; from December 1 tees are $29.99 and the hoodie $44.99. Each is printed after you order. Order by December 4, 2026.',
     picks: [
       {
