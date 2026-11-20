@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: A
 type: site
 id: 1051
@@ -17,3 +17,4 @@ Done when: astro build passes, /press/ returns 200 after deploy, every product l
 ---
 ## Log
 - 2026-11-18 23:17 UTC director: brief written, READY (inbox 2026-11-18 traffic push item 3).
+- 2026-11-20 17:50 UTC [B]: built src/pages/press.astro (story from About, Sam King founder and marketing strategist, 'his little brother' (no name yet), fast facts from site.ts: US print partner, free shipping on $45+, one free size exchange 30 days, original art only; mailto site.email; 6 ProductCards: sisyphus tee, pilates women's tee, tag-soup hoodie, cat-oops cropped hoodie, golf windshield hoodie, cat-dad tee, all in fresh-designs.json and confirmed live via the Storefront API; photo slot hidden behind photoSlot=false). Indexable, in sitemap, BreadcrumbList only. Linked from footer Help list (Base.astro) and once from /about/. Full astro build (with the public Storefront env) = 975 pages, 6 product links render. Post-deploy: /press/ 200 and product links 200 for the director.
