@@ -12624,6 +12624,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-roofer-technically-above-everyone-graphic-tee": {
+   "claimed": [
+    "roofer shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "roofer shirt",
+     "volume": 260,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
