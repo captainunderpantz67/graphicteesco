@@ -1,4 +1,5 @@
-status: READY
+status: BUILDING B 2026-11-21T17:50Z
+shopify: gid://shopify/Product/15441124458800
 lane: C
 type: twin
 id: 1053
@@ -23,3 +24,4 @@ push: traffic-nov18
 ---
 ## Log
 - 2026-11-18 23:18 UTC director: brief written, READY (traffic push $0 item; twin of approved live art).
+- 2026-11-21 B: DRAFT gid 15441124458800 created (12 variants Sand+Navy, $39.99, hoodies category). Reusing #658 files dark 1090456009 (Navy) / light 1090456085 (Sand). Next: sync + mockups.
