@@ -12637,6 +12637,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-carpenter-measured-twice-still-short-graphic-tee": {
+   "claimed": [
+    "carpenter shirt"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "carpenter shirt",
+     "volume": 1000,
+     "kd": 39
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
