@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [B] 2026-11-21 13:39 UTC
 lane: B
 type: new
 id: 1056
@@ -24,3 +24,4 @@ push: traffic-nov18
 ---
 ## Log
 - 2026-11-18 23:18 UTC director: brief written, READY (traffic push $0 type-led item).
+- 2026-11-21 B: Shopify DRAFT gid 15441020846384 created (56 variants, $24.99, no compare-at, tees category); art designs/b1056.py (Bowlby One + Bevan, tape + plank); headline 1562/punch 1793 px (light), 1580/1811 (dark). Next: sync + mockups.
