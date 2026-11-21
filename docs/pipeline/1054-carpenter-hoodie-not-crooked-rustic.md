@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING B 2026-11-21T18:00Z
 lane: C
 type: new
 id: 1054
