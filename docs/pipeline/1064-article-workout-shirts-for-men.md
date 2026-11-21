@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: gym
@@ -16,3 +16,4 @@ slug: workout-shirts-for-men
 - `npx astro build`: passes (157 pages; drafts are not built).
 ## Log
 - 2026-11-21 UTC writer: drafted.
+- 2026-11-21 23:20 UTC director: APPROVED, LIVE (article 2 of 2, Nov 21 Chicago). All 6 picks ACTIVE, prices/colors/sizes match Shopify. Removed the /guides/workout-hoodies/ link (404: #1046 is PARKED). Keyword claim noted in the map. Draft line removed; astro build 159 pages.

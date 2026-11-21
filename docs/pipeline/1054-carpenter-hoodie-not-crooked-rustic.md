@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: new
 id: 1054
@@ -25,3 +25,4 @@ push: traffic-nov18
 ## Log
 - 2026-11-18 23:18 UTC director: brief written, READY (traffic push $0 type-led item).
 - 2026-11-21 17:38 UTC [B]: built, REVIEW. Shopify DRAFT gid 15441127342384, 12 variants (Sand + Navy x S-3XL), $39.99, no compare-at, hoodies category, tags graphic-hoodies-for-men/hoodie/carpenter/intake-done (no ai-art, no AI). Art designs/b1054.py in code: tilted plank + spirit level, bubble pushed to one end, lockup rotated 2.5 degrees; faces Alfa Slab One (headline) + Rye (punch), neither in the last builds' list (Bowlby, Bevan, Graduate, Fraunces). Etsy quoted search not possible from cloud; line is the brief's pick, fallback unused. Printful sync 497195069 verified 12/12 (Navy dark file 1118664055 on 6, Sand light file 1118664035 on 6, back logo on 12; R7.7). Light file: Sand on 1118664035, headline navy ink, punch red (cream fill on Navy only). fal $0. FW 1500 TOP 400. Headline 1679 / punch 1777 px light, 1697 / 1795 dark (punch wider, 106%); type 40% (light) / 43% (dark) of print height; level+plank art 1374 px wide. Phone-size read of Sand and Navy mockups: every word clear. Cover = Printful flat front (Sand) as image 1, neck-logo back last, handle in retired-covers.json. Alt text R7.8, variants linked per color. FAQ 5 answers 46-53 words, order-by Dec 4. Keyword carpenter hoodie 260/KD32 under products. Audit-local PASS (1 warn: no lifestyle cover, by brief). Sheet docs/review/1054.jpg.
+- 2026-11-21 23:20 UTC director: APPROVED, LIVE (2 of 6, Nov 21 Chicago). Level bubble pushed to the high end on a tilted plank acts out the joke; punch (Rye) wider than the headline; reads on Sand and Navy. Same two copy fixes as #1053 (R12.2 size exchange, R8.6). ACTIVE, published to all 3 channels; audit --handle PASS (1 warn: no lifestyle cover, by brief).

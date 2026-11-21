@@ -5184,7 +5184,6 @@ export const allGuides: Guide[] = [
       { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back. Compare the size chart with a shirt she already owns.' },
       { q: 'When should I order a Christmas gift for my wife?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
     ],
-    draft: true,
   },
   {
     // Writer lane W (2026-11-21), gym cluster. Keyword: workout shirt men 1,300 / KD 20 (RankHero, measured 2026-10-18 per docs/product-keyword-map.json; NOT re-pulled this run, RankHero returned 403 unattended). Unclaimed: appears only as a measured gap row, no product, collection or guide claims it. "mens gym shirts" stays with /mens-gym-shirts/, "workout shirts funny" with funny-workout-shirts, "gym gifts for men" with that guide.
@@ -5197,7 +5196,6 @@ export const allGuides: Guide[] = [
     h1: 'Workout Shirts for Men That Say Something Before the First Set',
     date: '2026-11-21',
     cluster: 'gym',
-    draft: true,
     answer: 'A good workout shirt for men is a soft cotton tee that fits your usual size and has a joke the gym regulars will notice. Graphic Tees Co. has six original-art gym tees for $24.99: Sisyphus Had Bad Programming, Twelve Labors. Zero Cardio., Rack Your Weights. Respectfully., Sore Since 1987, Retired From Cardio and Beach Body Pending. They are lightweight cotton, not moisture-wicking, and each is printed after you order it.',
     picks: [
       {
@@ -5252,7 +5250,7 @@ export const allGuides: Guide[] = [
         links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
       { h2: 'Where can you find more gym shirts and hoodies?',
         body: ['For something warmer, see gym hoodies. To buy for someone else, the gym gift guides cover shirts, hoodies and the rest.'],
-        links: [{ href: '/hoodies/gym-hoodies/', text: 'Gym hoodies' }, { href: '/guides/workout-hoodies/', text: 'Workout hoodies' }, { href: '/guides/gym-gifts-for-men/', text: 'Gym gifts for men' }, { href: '/guides/gifts-for-gym-rats/', text: 'Gifts for gym rats' }] },
+        links: [{ href: '/hoodies/gym-hoodies/', text: 'Gym hoodies' }, { href: '/guides/gym-gifts-for-men/', text: 'Gym gifts for men' }, { href: '/guides/gifts-for-gym-rats/', text: 'Gifts for gym rats' }] },
     ],
     faqs: [
       { q: 'What is a good workout shirt for men?', a: 'A soft cotton tee in your usual size with art you like. The Graphic Tees Co. gym tees are 4.2 oz combed, ring-spun cotton, $24.99 at the November sale price, in sizes up to 4XL.' },

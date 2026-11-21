@@ -1,6 +1,6 @@
 {
- "at": "2026-11-21T14:46:05.101Z",
- "products": 819,
+ "at": "2026-11-21T23:18:27.451Z",
+ "products": 823,
  "findings": [
   {
    "level": "WARN",
@@ -3725,6 +3725,34 @@
    "title": "Christmas – Bookish Plot Twist: I Stayed In Ornament",
    "msg": "No meta description.",
    "fix": "Write one ≤ 155 chars."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-roofer-technically-above-everyone-graphic-tee",
+   "title": "Men's Roofer – Technically Above Everyone Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-carpenter-measured-twice-still-short-graphic-tee",
+   "title": "Men's Carpenter – Measured Twice. Still Short. Tee",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-hvac-its-always-the-filter-hoodie",
+   "title": "Men's HVAC – It's Always the Filter Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
+  },
+  {
+   "level": "WARN",
+   "handle": "mens-carpenter-its-not-crooked-its-rustic-hoodie",
+   "title": "Men's Carpenter – It's Not Crooked. It's Rustic. Hoodie",
+   "msg": "No lifestyle cover photo.",
+   "fix": "Generate one (fal) in the product's world and add it to covers.ts."
   }
  ]
 }

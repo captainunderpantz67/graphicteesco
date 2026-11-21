@@ -1,6 +1,6 @@
-# Cohesion audit — 2026-11-21 14:46 UTC
+# Cohesion audit — 2026-11-21 23:18 UTC
 
-819 live products checked · **0 errors** · 532 warnings · 494 products with findings
+823 live products checked · **0 errors** · 536 warnings · 498 products with findings
 
 ERROR = a shopper or Google would see something wrong (wrong person, wrong garment, wrong grid, wrong price, missing photos, keyword collision). Fix before anything new ships. WARN = polish.
 
@@ -1526,3 +1526,15 @@ ERROR = a shopper or Google would see something wrong (wrong person, wrong garme
 - **WARN** Cover alt text doesn't say who is in the photo. → Start the alt with "Woman…", "Man…" or "Man and woman…".
 - **WARN** christmas design isn't in any christmas collection. → Tag it so it appears in the christmas shirts page.
 - **WARN** No meta description. → Write one ≤ 155 chars.
+
+### Men's Roofer – Technically Above Everyone Tee `mens-roofer-technically-above-everyone-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Carpenter – Measured Twice. Still Short. Tee `mens-carpenter-measured-twice-still-short-graphic-tee`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's HVAC – It's Always the Filter Hoodie `mens-hvac-its-always-the-filter-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.
+
+### Men's Carpenter – It's Not Crooked. It's Rustic. Hoodie `mens-carpenter-its-not-crooked-its-rustic-hoodie`
+- **WARN** No lifestyle cover photo. → Generate one (fal) in the product's world and add it to covers.ts.

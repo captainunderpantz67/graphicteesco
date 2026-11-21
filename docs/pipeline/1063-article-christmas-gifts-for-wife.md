@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: christmas
@@ -16,3 +16,4 @@ slug: christmas-gifts-for-wife
 - `npx astro build`: passes (157 pages; drafts are not built).
 ## Log
 - 2026-11-21 UTC writer: drafted.
+- 2026-11-21 23:20 UTC director: APPROVED, LIVE (article 1 of 2, Nov 21 Chicago). All 5 picks ACTIVE, prices/colors/sizes match Shopify; 9 links 200. Framing the Santa tee as the wife who does the wrapping is fine. Keyword claim moved off the Santa crewneck to this guide in the keyword map (R2.10). Draft line removed; astro build 159 pages.
