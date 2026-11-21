@@ -5114,6 +5114,78 @@ export const allGuides: Guide[] = [
       { q: 'When should I order a Christmas gift for my husband?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-21). Keyword: christmas gifts for wife 40,500 / KD 8 (docs/product-keyword-map.json gaps_measured 2026-10-16, RankHero; older than the 2026-10-27 husband pull but under 90 days; not re-pulled this unattended run, no RankHero key). The phrase is a secondary claim on the Santa Gets All the Credit crewneck in the keyword map; same fix as the husband and brother guides, so director please move the claim to this guide (R2.8, R2.10).
+    // Facts (art, prices, fabrics, colors, sizes) from the LIVE Shopify Stories read 2026-11-21; policies and dates from the sibling husband guide and site.ts. FAQ questions are not from PAA or GSC (not available unattended).
+    // Picks: Santa Gets All the Credit (tee), Cat Allegedly (tee + crewneck), Clocked It Said Nothing (tee + hoodie). Every handle is in src/data/fresh-designs.json.
+    // Planned sibling (not live yet): christmas-gifts-for-mom.
+    slug: 'christmas-gifts-for-wife',
+    keyword: 'christmas gifts for wife',
+    title: 'Christmas Gifts for Wife: Funny Shirts She’ll Actually Wear',
+    description: 'Christmas gifts for wife: Santa Gets All the Credit, Cat Allegedly, Clocked It Said Nothing. Tees $24.99, printed to order, free size exchange.',
+    h1: 'Christmas Gifts for Your Wife: Funny Shirts That Sound Like Her',
+    date: '2026-11-21',
+    cluster: 'christmas',
+    answer: 'A good Christmas gift for a wife is a funny shirt that says what she is already thinking, like who really did the wrapping or who knows what the cat did. Graphic Tees Co. has three original designs: Santa Gets All the Credit (tee $24.99), Cat Allegedly (tee $24.99, crewneck $34.99) and Clocked It, Said Nothing (tee $24.99, hoodie $39.99). Those are sale prices through November 30, 2026; from December 1 tees are $29.99 and the hoodie $44.99. Each is printed after you order. Order by December 4, 2026.',
+    picks: [
+      {
+        h2: 'What is a funny Christmas gift for a wife who does all the wrapping?',
+        body: ['Santa Gets All the Credit. Somebody bought it, hid it, wrapped it and ran out of tape, and it was not Santa. This shirt says so for her.'],
+        items: [
+          { slogan: 'SANTA GETS ALL THE CREDIT', tee: 'womens-christmas-santa-gets-all-the-credit-graphic-tee',
+            text: 'A small cluster in cherry red, soft pink and pine green: a square red gift tied with a large pink satin bow, a vintage tape dispenser nearly out of tape, and open pink-handled scissors, with a few holly sprigs and a curl of ribbon between them. SANTA GETS sits above in cherry-red capitals and ALL THE CREDIT below in pine green slab capitals with a thin pink edge. It is a relaxed women’s cut in 4.2 oz cotton, $24.99 in six colors, sizes S to 3XL.' },
+        ],
+      },
+      {
+        h2: 'What do you give a wife whose cat knocks the ornaments off the tree?',
+        body: ['Cat Allegedly. The evidence is on the rug, and the suspect has an alibi.'],
+        items: [
+          { slogan: 'ALLEGEDLY.', tee: 'womens-christmas-cat-allegedly-graphic-tee', crewneck: 'womens-christmas-cat-allegedly-crewneck-sweatshirt',
+            text: 'A smug black-and-white tuxedo cat sits upright on a braided red and cream rug, eyes half-closed, licking one raised paw, with a shattered red glass ornament in pieces beside it and the lower branches of the tree behind. ALLEGEDLY. runs underneath in faded red capitals. The tee is $24.99 in five colors (White, Natural, Heather Stone, Athletic Heather, Pink), sizes S to 3XL. The crewneck is an 8 oz cotton-polyester fleece at $34.99 in Sand or Navy, sizes S to 3XL.' },
+        ],
+      },
+      {
+        h2: 'What is a good gift for a wife who notices everything and says nothing?',
+        body: ['Clocked It, Said Nothing. It is for the wife who saw the whole family dinner and kept a perfect poker face. Pick the tee for $24.99 or the hoodie for $39.99.'],
+        items: [
+          { slogan: 'CLOCKED IT. SAID NOTHING.', tee: 'womens-clocked-it-said-nothing-graphic-tee',
+            text: 'A single-line cat face with narrowed, sideways-glancing eyes and a flat mouth is printed large across the chest in cream ink, with CLOCKED IT. in heavy cream capitals underneath and SAID NOTHING. in bold condensed capitals as the last line. The tee is a relaxed women’s cut in 4.2 oz cotton, $24.99 in six colors (Black, Maroon, Navy, Forest Green, Dark Grey Heather, Military Green), sizes S to 3XL.' },
+          { slogan: 'CLOCKED IT. SAID NOTHING.', tee: 'womens-clocked-it-said-nothing-hoodie',
+            text: 'The same cream side-eye cat and lettering on an 8 oz, 50% cotton and 50% polyester pullover with a double-lined hood and a front pouch pocket. It is $39.99 in Black or Maroon, sizes S to 3XL, a good pick if she runs cold.' },
+        ],
+        links: [{ href: '/christmas-shirts-for-women/', text: 'Women’s Christmas shirts' }, { href: '/hoodies/graphic-hoodies-for-women/', text: 'Graphic hoodies for women' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good Christmas gift for a wife?',
+        body: ['Something she will wear without being asked. A shirt that jokes about something she really does, the wrapping, the cat or the poker face, tends to get worn all season because she is in on the joke.',
+          'Graphic Tees Co. designs are original art with the joke set in big type. They carry no team, brand or character logos, so there is nothing to explain.'],
+        links: [{ href: '/christmas-shirts/', text: 'All Christmas shirts' }] },
+      { h2: 'Should you buy your wife a tee, a crewneck or a hoodie?',
+        body: ['The tee is the easy pick: $24.99 through November 30 in a lightweight 4.2 oz cotton cut with a relaxed women’s fit. The crewneck is $34.99 in 8 oz fleece, and the hoodie is $39.99, the better gift if she runs cold.',
+          'Cat Allegedly comes as a tee or a crewneck. Clocked It, Said Nothing comes as a tee or a hoodie. Santa Gets All the Credit is a tee.'] },
+      { h2: 'What if you do not know her size?',
+        body: ['Check the size chart on the product page against a shirt she already owns. The women’s tees run S to 3XL in a relaxed cut, and the crewneck and hoodie are a classic unisex cut in S to 3XL, so size up for a roomier fit.',
+          'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and she does not have to mail the first one back. If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'What are good Christmas gifts for a wife under $50?',
+        body: ['Every pick here is under $50: tees are $24.99, the crewneck $34.99 and the hoodie $39.99. The tee and hoodie prices step to $29.99 and $44.99 on December 1. US shipping is free on orders of $45 or more, so two tees ship free.'] },
+      { h2: 'When should you order a Christmas gift for your wife?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find Christmas gift ideas for the family?',
+        body: ['The guides below cover the rest of the family and the office gift swap.'],
+        links: [{ href: '/guides/christmas-gifts-for-husband/', text: 'Christmas gifts for husband' }, { href: '/guides/christmas-gifts-for-sister/', text: 'Christmas gifts for sister' }, { href: '/guides/christmas-gifts-for-daughter/', text: 'Christmas gifts for daughter' }, { href: '/guides/christmas-gifts-for-girlfriend/', text: 'Christmas gifts for girlfriend' }, { href: '/guides/christmas-gifts-for-parents/', text: 'Christmas gifts for parents' }] },
+    ],
+    faqs: [
+      { q: 'What are good Christmas gifts for a wife?', a: 'A funny shirt that says what she is already thinking, like Santa Gets All the Credit or Cat Allegedly from Graphic Tees Co. Tees are $24.99 through November 30, 2026 and $29.99 from December 1, all printed after you order.' },
+      { q: 'What is a funny Christmas gift for a wife under $30?', a: 'Any Graphic Tees Co. women’s tee in this guide: Santa Gets All the Credit, Cat Allegedly or Clocked It, Said Nothing. Each is $24.99 through November 30, 2026, then $29.99, and printed to order.' },
+      { q: 'Is Cat Allegedly a good gift for a wife with a cat?', a: 'Yes. The Graphic Tees Co. Cat Allegedly tee shows a smug tuxedo cat beside a shattered red ornament, and costs $24.99 in five colors. It also comes as an 8 oz crewneck at $34.99 in Sand or Navy.' },
+      { q: 'Is a hoodie a good Christmas gift for a wife?', a: 'Yes, if she runs cold. The Graphic Tees Co. Clocked It, Said Nothing hoodie is an 8 oz cotton-polyester pullover at $39.99 through November 30, 2026 ($44.99 from December 1), in Black and Maroon, sizes S to 3XL.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back. Compare the size chart with a shirt she already owns.' },
+      { q: 'When should I order a Christmas gift for my wife?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
+    ],
+    draft: true,
+  },
 ];
 
 // Only approved guides are built and linked.
