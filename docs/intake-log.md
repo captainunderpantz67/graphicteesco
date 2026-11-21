@@ -1,3 +1,4 @@
+RUNNING director since 2026-11-21T23:15Z
 2026-11-21 UTC — [B] built, REVIEW #1060 Black Friday shirts page push and #1061 graphic hoodies for men page push (copy/links only, 6 product back-links via Shopify, astro build passes, fal $0, outside caps). Builder run end: 2 of 2 items. Next: #1062 women hoodies page, #1030 step 2 needs Admin token. Lock released.
 2026-11-21 UTC — [B] built, REVIEW #1054 Men's Carpenter – It's Not Crooked. It's Rustic. Hoodie (type-led, code-drawn level and plank, DRAFT synced 12/12, fal $0, FW 1500 TOP 400, headline 1679 / punch 1777 px, Alfa Slab One + Rye, audit PASS). Builder run end: 2 of 2 items (#1053, #1054); 4 new products today (4 of 6). Next: remaining READY (camo/zip need fal). Lock released.
 2026-11-21 UTC — [B] built, REVIEW #1053 Men's HVAC – It's Always the Filter Hoodie (twin of #658 files, DRAFT synced 12/12, fal $0, FW 1500 TOP 400, headline 3193 / punch 3516 px, audit PASS). 3 of 6 products today.
