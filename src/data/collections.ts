@@ -448,6 +448,7 @@ export const tees: Collection[] = [
     sections: [
       { h2: 'Shop by what you do', body: 'Pick the collection that fits your weekends: the lake, the deer stand, the gym or the ranch.' },
       { h2: 'Graphic tees for men over 40', body: 'Original designs about real interests — fishing, hunting, ranch life — wear better than trend slogans at any age. Go with a classic fit and a tee that fits your shoulders.' },
+      { h2: 'Graphic hoodies for men', body: 'Many of these designs also come as hoodies. Our graphic hoodies for men cover pullover, zip-up, heavyweight and oversized blanks from $39.99.', links: [{ href: '/hoodies/graphic-hoodies-for-men/', label: 'Graphic hoodies for men' }] },
       { h2: 'Printed when you order', body: 'Each tee is printed after you order it, so the catalog keeps growing without leftovers.' },
     ],
     faqs: [
@@ -630,6 +631,7 @@ export const tees: Collection[] = [
       { h2: 'The outdoors ones', body: "Deer Camp Christmas is a snowed-in hunting cabin with a wreath on the door. Christmas on the Lake is an angler in a red plaid wool jacket in a wooden rowboat. Upland Christmas Pheasant is a rooster bursting out of a snowy cornfield, North Woods Moose stands by a frozen lake, Mountain Christmas Bear walks through deep snow, and Christmas Ski Lodge is a 1960s skier carving a turn. Fresh Cut Christmas Trees, Christmas Tree Farm, Cabin Christmas and Vintage Santa round it out." },
       { h2: 'Who buys them', body: "Mostly the people around him: a wife picking his shirt for the family photo, kids buying Dad the Light Show Manager tee, a hunting buddy grabbing Deer Camp Christmas for the cabin weekend. Every line is family-table clean, so it works at the office party and at his mother's house." },
       { h2: 'Fit and fabric', body: "Every tee here is a soft, lightweight 4.2 oz cotton classic fit, cut for men and roomy enough to layer over a thermal. The unisex designs fit women too, so a couple can match. The same art also comes on crewneck sweatshirts in our men's Christmas sweaters page. For colder nights the men's Christmas hoodies carry the same deadpan lines on a fleece pullover or zip-up.", links: [{ href: '/hoodies/christmas-hoodies/', label: 'Christmas hoodies for men' }] },
+      { h2: 'Want it warmer?', body: 'Most of the men\'s Christmas designs are also printed on hoodies. See our graphic hoodies for men, from $39.99, for the pullover, zip-up, heavyweight and oversized versions.', links: [{ href: '/hoodies/graphic-hoodies-for-men/', label: 'Graphic hoodies for men' }] },
       { h2: 'When to order', body: "Each shirt is printed after you order it, which takes 2–5 business days, then arrives in about 3–8 business days. Order by early December for Christmas; delivery estimates show at checkout, and US shipping is free over $45." },
     ],
     faqs: [
@@ -1142,7 +1144,27 @@ export const hoodies: Collection[] = [
   niche(N.gym, 'hoodies', { slug: 'gym-hoodies-for-men', keyword: 'mens gym hoodie', volume: 9900, kd: 31, product: "men's gym hoodies", audience: 'men', name: "Men's Gym Hoodies" }) /* RankHero 2026-10-16 */,
   niche(N.halfzip, 'hoodies', { slug: 'half-zip-pullovers', keyword: 'half zip pullover', volume: 5400, kd: 14, product: 'half zip pullovers', name: 'Half Zip Pullovers' }) /* RankHero 2026-10-16; Bella+Canvas 4740 */,
   niche(N.womenshoodies, 'hoodies', { slug: 'graphic-hoodies-for-women', keyword: 'graphic hoodies for women', volume: 8100, kd: 12, product: 'graphic hoodies for women', audience: 'women', name: "Women's Graphic Hoodies" }) /* R11.5 sweep 2026-10-16 */,
-  niche(N.menshoodies, 'hoodies', { slug: 'graphic-hoodies-for-men', keyword: 'graphic hoodie men', volume: 27100, kd: 9, product: 'graphic hoodies for men', audience: 'men', name: "Men's Graphic Hoodies" }) /* RankHero 2026-10-17, director low-KD sweep */,
+  (() => {
+    // Google push #1061 (R0 item 5, 2026-11-21): answer-first intro, blank/niche sections, 9 FAQs. Prices from R12.1 (pullover $39.99, zip-up $44.99, heavyweight $49.99, oversized $54.99).
+    const c = niche(N.menshoodies, 'hoodies', { slug: 'graphic-hoodies-for-men', keyword: 'graphic hoodie men', volume: 27100, kd: 9, product: 'graphic hoodies for men', audience: 'men', name: "Men's Graphic Hoodies" });
+    c.title = 'Graphic Hoodies for Men: Funny Hoodies From $39.99';
+    c.description = 'Graphic hoodies for men: 50+ original designs on pullover, zip-up, heavyweight and oversized hoodies. Printed to order, from $39.99, free size exchange.';
+    c.intro = 'We sell 50+ original graphic hoodies for men on four blanks: the pullover at $39.99, the zip-up at $44.99, the heavyweight at $49.99 and the oversized at $54.99. Every hoodie is printed to order, ships free in the US on $45 or more, and comes with one free size exchange within 30 days of delivery.';
+    c.sections = [
+      ...c.sections,
+      { h2: 'Zip-up, heavyweight and oversized graphic hoodies for men', body: 'Pick the blank by how you wear it. The pullover ($39.99) is the everyday hoodie with a pouch pocket. Zip-ups ($44.99) layer over a tee and come off in a warm truck. Heavyweight hoodies ($49.99) use thicker fleece and hold their shape, and oversized hoodies ($54.99) cut roomy through the body for a drop-shoulder look.',
+        links: [{ href: '/hoodies/zip-up-hoodies-for-men/', label: 'Zip-up hoodies for men' }, { href: '/hoodies/heavyweight-hoodies/', label: 'Heavyweight hoodies' }, { href: '/hoodies/oversized-hoodies-for-men/', label: 'Oversized hoodies for men' }] },
+      { h2: 'Graphic hoodies by what you do', body: 'The biggest groups on the grid are hunting and camo, fishing, gym and Christmas. Camo designs are printed on real camo heavyweight hoodies, and the Christmas designs are funny holiday lines for the family photo and the office party.',
+        links: [{ href: '/hoodies/camo-hoodies/', label: 'Camo hoodies' }, { href: '/hoodies/fishing-hoodies/', label: 'Fishing hoodies' }, { href: '/hoodies/gym-hoodies-for-men/', label: "Men's gym hoodies" }, { href: '/hoodies/christmas-hoodies/', label: 'Christmas hoodies' }] },
+    ];
+    c.faqs = [
+      ...c.faqs,
+      { q: 'How warm are the graphic hoodies for men?', a: 'Graphic Tees Co. pullover hoodies are a midweight cotton-poly fleece, good for fall and mild winter days. For real cold, pick a heavyweight hoodie, which uses thicker fleece, or layer a zip-up over a tee. Camo heavyweight hoodies are 10 oz/yd² with a fleece-lined hood.' },
+      { q: 'Will the print hold up in the wash?', a: 'Yes, if you wash it right. Turn the hoodie inside out, wash cold with like colors, and tumble dry low or hang dry. Skip bleach and never iron over the print. Graphic Tees Co. prints direct to garment, and the ink holds up to regular washing with that care.' },
+      { q: 'When should I order a graphic hoodie as a Christmas gift?', a: 'Order by Friday, December 4, 2026 to leave a margin for Christmas delivery in the US; December 8 is the last day we recommend. Every hoodie is printed to order in 2–5 business days, then ships in about 3–8 business days, and checkout shows a delivery estimate.' },
+    ];
+    return c;
+  })() /* RankHero 2026-10-17, director low-KD sweep */,
   {
     // RankHero 2026-10-21 (Claude, Nov-25 volume): black zip up hoodie 49,500 / KD 8. Spoke of the zip cluster (src/data/clusters.ts). Thin until 3 black zips are live (linkable.ts noindexes it).
     slug: 'black-zip-up-hoodies', section: 'hoodies', name: 'Black Zip-Up Hoodies',
