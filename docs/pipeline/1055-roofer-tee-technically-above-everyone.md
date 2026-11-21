@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-11-21 13:33 UTC
+status: REVIEW
 lane: B
 type: new
 id: 1055
@@ -25,3 +25,4 @@ push: traffic-nov18
 ## Log
 - 2026-11-18 23:18 UTC director: brief written, READY (traffic push $0 type-led item).
 - 2026-11-21 B: Shopify DRAFT gid 15441019142448 created (56 variants, 8 colors x S-4XL, $24.99, no compare-at, tees category); art designs/b1055.py (Graduate arched headline + Fraunces Black punch, shingled roof + chimney, 2 solid-ish inks); headline 1433/punch 1785 px (light), 1451/1803 (dark). Next: Printful sync + mockups.
+- 2026-11-21 14:30 UTC B: built, REVIEW. Shopify DRAFT gid 15441019142448, 56 variants (8 colors x S-4XL), $24.99, no compare-at, tees category. Synced 56/56 verified via API (dark file 1118501166 on 35 variants Black/Navy/Heather Forest/Dark Grey Heather/Brown; light file 1118501168 on 21 variants Natural/Ash/Athletic Heather; back logo 1080398177 on 56). fal $0. Faces: Graduate (arched headline) + Fraunces Black punch (last builds in lane: Big Shoulders+Bevan, Alfa+Bowlby). Light file: headline brick red, punch ink 26,26,30; dark file: headline gold, punch cream. Headline 1433 px / punch 1785 px light, 1451/1803 dark (punch wider); type 36% of print height. FW 1800 TOP 75. Read all words on Black, Brown, Navy, Natural, Ash mockups at phone size: clear. Cover = Printful flat Black front (R6.11), handle in retired-covers.json. Keyword row roofer shirt 260/KD32 under products. Etsy proof: not checkable from cloud, waived as on #1011. Audit --admin-json PASS (1 warn: no lifestyle cover, by brief). design-crops: DRAFT, none yet. Sheet docs/review/1055.jpg.
