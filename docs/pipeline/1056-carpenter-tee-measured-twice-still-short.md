@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-11-21 13:39 UTC
+status: REVIEW
 lane: B
 type: new
 id: 1056
@@ -25,3 +25,4 @@ push: traffic-nov18
 ## Log
 - 2026-11-18 23:18 UTC director: brief written, READY (traffic push $0 type-led item).
 - 2026-11-21 B: Shopify DRAFT gid 15441020846384 created (56 variants, $24.99, no compare-at, tees category); art designs/b1056.py (Bowlby One + Bevan, tape + plank); headline 1562/punch 1793 px (light), 1580/1811 (dark). Next: sync + mockups.
+- 2026-11-21 15:20 UTC B: built, REVIEW. Shopify DRAFT gid 15441020846384, 56 variants (8 colors x S-4XL), $24.99, no compare-at, tees category. Synced 56/56 verified via API (dark file 1118503364 on 35 variants Black/Navy/Heather Forest/Dark Grey Heather/Brown; light file 1118503373 on 21 variants Natural/Ash/Athletic Heather; back logo on 56). fal $0. Faces: Bowlby One headline + Bevan punch. Light file: headline brick red, punch ink; dark file: headline yellow, punch cream, yellow tape on both. Headline 1562 px / punch 1793 px light, 1580/1811 dark (punch wider); type 43-46% of print height. FW 1800 TOP 75. Read all words on Black and Natural mockups at phone size: clear. Cover = Printful flat Black front (R6.11), handle in retired-covers.json. Keyword row carpenter shirt 1000/KD39 under products. Etsy proof not checkable from cloud, waived as #1011. Audit --admin-json PASS (1 warn: no lifestyle cover, by brief). Sheet docs/review/1056.jpg.
