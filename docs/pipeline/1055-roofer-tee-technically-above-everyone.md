@@ -24,3 +24,4 @@ push: traffic-nov18
 ---
 ## Log
 - 2026-11-18 23:18 UTC director: brief written, READY (traffic push $0 type-led item).
+- 2026-11-21 B: Shopify DRAFT gid 15441019142448 created (56 variants, 8 colors x S-4XL, $24.99, no compare-at, tees category); art designs/b1055.py (Graduate arched headline + Fraunces Black punch, shingled roof + chimney, 2 solid-ish inks); headline 1433/punch 1785 px (light), 1451/1803 (dark). Next: Printful sync + mockups.
