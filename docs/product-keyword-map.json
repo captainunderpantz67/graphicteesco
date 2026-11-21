@@ -12650,6 +12650,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-hvac-its-always-the-filter-hoodie": {
+   "claimed": [
+    "hvac hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "hvac hoodie",
+     "volume": 140,
+     "kd": 34
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }

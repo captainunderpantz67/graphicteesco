@@ -1,4 +1,4 @@
-status: BUILDING B 2026-11-21T17:50Z
+status: REVIEW
 shopify: gid://shopify/Product/15441124458800
 lane: C
 type: twin
@@ -25,3 +25,4 @@ push: traffic-nov18
 ## Log
 - 2026-11-18 23:18 UTC director: brief written, READY (traffic push $0 item; twin of approved live art).
 - 2026-11-21 B: DRAFT gid 15441124458800 created (12 variants Sand+Navy, $39.99, hoodies category). Reusing #658 files dark 1090456009 (Navy) / light 1090456085 (Sand). Next: sync + mockups.
+- 2026-11-21 17:35 UTC [B]: built, REVIEW. Shopify DRAFT gid 15441124458800, 12 variants (Sand + Navy x S-3XL), $39.99, no compare-at, hoodies category, tags graphic-hoodies-for-men/hoodie/hvac/ai-art/intake-done. Twin of #658: its live print files reused (R6.2 check: every line real type, scene ends on its own shapes, counters open). Printful sync 497193068 verified 12/12 (Navy dark file 1090456009 on 6, Sand light file 1090456085 on 6, back logo on 12; R7.7). Light file: Sand on 1090456085, headline fill navy ink (cream fill on Navy only). fal $0. FW 1500 TOP 400. Headline 3193 / punch 3516 px (punch 110%); type-led twin, no new subject. Phone-size read of both Sand and Navy mockups: every word clear. Cover = Printful flat front (Sand) as image 1, neck-logo back last (R6.13), handle in retired-covers.json. Alt text R7.8, variants linked per color. FAQ 5 answers 48-54 words, order-by Dec 4. Keyword hvac hoodie 140/KD34 under products. Etsy proof not checkable from cloud, waived as #1011. Audit-local PASS (1 warn: no lifestyle cover, by brief). Sheet docs/review/1053.jpg.
