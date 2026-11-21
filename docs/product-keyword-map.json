@@ -12663,6 +12663,19 @@
     }
    ],
    "measured": "2026-10-16"
+  },
+  "mens-carpenter-its-not-crooked-its-rustic-hoodie": {
+   "claimed": [
+    "carpenter hoodie"
+   ],
+   "gaps_measured": [
+    {
+     "phrase": "carpenter hoodie",
+     "volume": 260,
+     "kd": 32
+    }
+   ],
+   "measured": "2026-10-16"
   }
  }
 }
