@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: A
 type: redo
 id: 1060
@@ -18,3 +18,4 @@ Done when: astro build passes, audit 0 errors, curl 200 on the page and every ch
 ---
 ## Log
 - 2026-11-20 23:19 UTC director: brief written, READY (R0 item 2; $0 queue at 5 after #1050-#1052 went LIVE; RankHero still 403 so no new measured product briefs).
+- 2026-11-21 UTC [B]: built, REVIEW. Done: (1) order-by line rewritten honestly (Nov 12 passed; an order now most likely lands after Nov 27; points to Cyber Monday week/season/next year); (2) inbound links: /black-friday/ already links the page (chip, black-friday.astro:52); added body sections with links on /funny-graphic-tees/ and /group-shirts/; no guide mentions Black Friday shopping so no guide link; (3) back-link sentence appended to all 6 live products (womens-black-friday-i-got-up-at-4am-for-a-toaster, unisex-black-friday-still-full-still-shopping, womens-black-friday-out-of-my-way-i-have-a-coupon, unisex-black-friday-shopping-squad-im-just-the-driver, unisex-black-friday-shopping-squad-i-have-the-list, womens-black-friday-in-it-for-the-doorbusters); (4) title now 'Black Friday Shirts: Funny Shopping Squad Tees $24.99' (53 chars), meta unchanged; (5) 2 FAQs added (group cart, unisex 3001 vs women's 6400 fit), and the order-by FAQ reworded. astro build passes. NOT done: product FAQs still say 'order by about Nov 12/16' (stale; director may reword), audit/curl not run (no Admin token), last known position 11-30 (Nov 9-15 pull).

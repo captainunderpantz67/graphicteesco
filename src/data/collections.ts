@@ -437,7 +437,7 @@ export const tees: Collection[] = [
   niche(N.y2k, 'tees', { slug: 'y2k-graphic-tees', keyword: 'y2k graphic tees', volume: 4400, kd: 52, product: 'Y2K graphic tees', twin: 'y2k-hoodies' }),
   niche(N.vintage, 'tees', { slug: 'vintage-graphic-tees', keyword: 'vintage graphic tees', volume: 22200, kd: 57, product: 'vintage graphic tees' }),
   niche(N.retro, 'tees', { slug: 'retro-graphic-tees', keyword: 'retro graphic tees', volume: 22200, kd: 54, product: 'retro graphic tees' }) /* RankHero 2026-10-16; R11.6 style collection, hub fed by the retro-graphic-tees tag */,
-  niche(N.funny, 'tees', { slug: 'funny-graphic-tees', keyword: 'funny graphic tees', volume: 5400, kd: 58, product: 'funny graphic tees' }) /* RankHero 2026-10-16; R11.6 style collection, hub fed by the funny-graphic-tees tag */,
+  (() => { const c = niche(N.funny, 'tees', { slug: 'funny-graphic-tees', keyword: 'funny graphic tees', volume: 5400, kd: 58, product: 'funny graphic tees' }); c.sections = [...c.sections, { h2: 'Funny Black Friday shirts', body: 'Shopping humor is its own corner of the funny tees: coupons, 4 a.m. lines and leftovers. Our funny Black Friday shirts put one clean joke on a $24.99 tee.', links: [{ href: '/black-friday-shirts/', label: 'Black Friday shirts' }] }]; return c; })() /* RankHero 2026-10-16; R11.6 style collection, hub fed by the funny-graphic-tees tag */,
   {
     slug: 'graphic-tees-for-men', section: 'tees', audience: 'men', name: "Men's Graphic Tees",
     keyword: 'graphic tees for men', volume: 90500, kd: 64,
@@ -472,6 +472,7 @@ export const tees: Collection[] = [
       { h2: 'Cousin crew shirts', body: 'Kids Table Alumni is for the cousins who graduated from the folding table and never really left. It comes on a tee and a crewneck, so the whole crew can match without everyone wearing the same thing.' },
       { h2: 'Family Thanksgiving and turkey trot shirts', body: 'Running the turkey trot as a team, or just showing up for the pie? Mix the Turkey Trot hoodie with the Thanksgiving tees and everyone gets a joke that fits.' },
       { h2: 'Ugly sweater party and Christmas crew shirts', body: 'For the office party, the friends exchange or the family photo: Technically a Sweater, Attending Under Protest and White Elephant Champion are built for a room full of people who all get the joke.' },
+      { h2: 'Shopping squad shirts for Black Friday', body: 'Going on the 4 a.m. run together? The Black Friday Shopping Squad tees give each person a job, one has the list and one is the driver, and they count toward the 15% crew discount.', links: [{ href: '/black-friday-shirts/', label: 'Black Friday shirts' }] },
       { h2: 'How crew orders work', body: 'Add 10 or more items to your cart, any designs, sizes and colors, and the 15% discount applies on its own. Each item is printed to order, so plan about two weeks for production and shipping before your event.' },
     ],
     faqs: [
@@ -489,10 +490,10 @@ export const tees: Collection[] = [
     // Tees only (the audit keeps crewnecks out of tee grids). Noindexed until 3 products are live (linkable.ts).
     slug: 'black-friday-shirts', section: 'tees', name: 'Black Friday Shirts',
     keyword: 'black friday shirts', volume: 720, kd: 44,
-    title: 'Black Friday Shirts: Funny Shopping Squad Tees',
+    title: 'Black Friday Shirts: Funny Shopping Squad Tees $24.99',
     description: 'Funny Black Friday shirts for the 4 a.m. shopping trip: matching shopping squad tees for the group and one-line jokes. Printed to order, tees $24.99.',
     h1: 'Black Friday Shirts',
-    intro: 'Funny Black Friday shirts for the people who set an alarm for the doorbusters: matching shopping squad tees for the whole group and one-line jokes about coupons, carts and leftovers. Tees are $24.99 and printed after you order, so order by about November 12 to wear one on November 27.',
+    intro: 'Funny Black Friday shirts for the people who set an alarm for the doorbusters: matching shopping squad tees for the whole group and one-line jokes about coupons, carts and leftovers. Tees are $24.99 and printed after you order. Printing takes 2–5 business days and delivery 3–8 more, so an order placed now will most likely land after November 27: buy it for the Black Friday deals through Cyber Monday, the rest of the shopping season, or next year\'s 4 a.m. run.',
     sections: [
       { h2: 'Matching shopping squad shirts', body: 'The squad shirts share one headline, BLACK FRIDAY SHOPPING SQUAD, and give each person a job: one has the list, one is just the driver. Mix them in one cart and the group matches without everyone wearing the same line.' },
       { h2: 'Funny Black Friday shirts for the 4 a.m. crowd', body: 'For the shopper who treats the doorbuster rack like a sport, the one who got up at 4 a.m. for a toaster, and the one still full from Thursday and already shopping. Every line is short enough to read across a parking lot.' },
@@ -500,11 +501,13 @@ export const tees: Collection[] = [
         links: [{ href: '/black-friday/', label: 'Black Friday deals on graphic tees and hoodies' }] },
     ],
     faqs: [
-      { q: 'When should I order a Black Friday shirt to have it in time?', a: 'Order by about November 12 to wear it on Black Friday, November 27. Each Black Friday shirt is printed in 2–5 business days after you order, then takes about 3–8 business days to arrive in the US.' },
+      { q: 'When should I order a Black Friday shirt to have it in time?', a: 'The safe date to wear it on Black Friday, November 27, was about November 12. Each Black Friday shirt is printed in 2–5 business days after you order, then takes about 3–8 business days to arrive in the US, so an order now will most likely arrive after the day. It still works for Cyber Monday week, the holiday season and next year.' },
       { q: 'Do you have matching Black Friday shirts for a group?', a: 'Yes. The Black Friday Shopping Squad tees share one headline and give each person a role line, so a family or friend group can match. Ten or more items in one cart take 15% off automatically, with any mix of designs and sizes.' },
       { q: 'What are the Black Friday shirts made of?', a: 'Unisex Black Friday shirts are Bella+Canvas 3001 tees, lightweight 4.2 oz combed ring-spun cotton. Women\'s are the Bella+Canvas 6400 relaxed tee in the same weight with a looser cut. Heather colors contain some polyester.' },
       { q: 'How do the Black Friday tees fit?', a: 'The unisex tee has a classic fit that runs true to size for men and a little roomy for women. The women\'s relaxed tee has a softer, looser shape; take your usual size. Each product page has a size chart.' },
       { q: 'Are Black Friday shirts on sale for Black Friday?', a: 'Yes. Our Black Friday deals run November 8 to November 30 and apply to these shirts too: mix several items and the discount comes off at checkout without a code. See the Black Friday deals page for the tiers.' },
+      { q: 'Can I order a matching group of Black Friday shirts in one cart?', a: 'Yes. Mix the Shopping Squad tees (I Have the List, I\'m Just the Driver) with the other Black Friday designs in one cart. Ten or more items take 15% off automatically, any mix of designs and sizes, and the group page lists the rest of the crew shirts.' },
+      { q: 'Which Black Friday shirt fits better, the unisex or the women\'s tee?', a: 'The unisex Bella+Canvas 3001 has a classic fit in S–4XL and runs true to size for men. The women\'s Bella+Canvas 6400 is a relaxed cut in S–3XL, looser through the body. Order your usual size in either; one free size exchange within 30 days covers a wrong guess.' },
       { q: 'What if my Black Friday shirt is the wrong size?', a: 'Within 30 days of delivery we send one replacement in a new size free, and you don\'t have to mail the first shirt back. Misprints and damage are reprinted or refunded within 30 days.' },
     ],
     shopifyHandle: 'black-friday-shirts',
