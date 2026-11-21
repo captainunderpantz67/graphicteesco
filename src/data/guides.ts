@@ -5186,6 +5186,83 @@ export const allGuides: Guide[] = [
     ],
     draft: true,
   },
+  {
+    // Writer lane W (2026-11-21), gym cluster. Keyword: workout shirt men 1,300 / KD 20 (RankHero, measured 2026-10-18 per docs/product-keyword-map.json; NOT re-pulled this run, RankHero returned 403 unattended). Unclaimed: appears only as a measured gap row, no product, collection or guide claims it. "mens gym shirts" stays with /mens-gym-shirts/, "workout shirts funny" with funny-workout-shirts, "gym gifts for men" with that guide.
+    // Facts (slogans, art, fabric, sizes, colors, prices, policies) from the LIVE Shopify Stories read 2026-11-21 and site.ts. All six picks are ACTIVE and listed in src/data/fresh-designs.json (checked by the writer).
+    // Planned siblings (not live yet): weightlifting-shirts, funny-gym-shirts-for-men.
+    slug: 'workout-shirts-for-men',
+    keyword: 'workout shirt men',
+    title: 'Workout Shirts for Men: 6 Gym Tees With a Joke, $24.99',
+    description: 'Workout shirts for men with original art: Sisyphus Had Bad Programming, Twelve Labors. Zero Cardio., Sore Since 1987. Cotton tees, $24.99, sizes up to 4XL.',
+    h1: 'Workout Shirts for Men That Say Something Before the First Set',
+    date: '2026-11-21',
+    cluster: 'gym',
+    draft: true,
+    answer: 'A good workout shirt for men is a soft cotton tee that fits your usual size and has a joke the gym regulars will notice. Graphic Tees Co. has six original-art gym tees for $24.99: Sisyphus Had Bad Programming, Twelve Labors. Zero Cardio., Rack Your Weights. Respectfully., Sore Since 1987, Retired From Cardio and Beach Body Pending. They are lightweight cotton, not moisture-wicking, and each is printed after you order it.',
+    picks: [
+      {
+        h2: 'Which workout shirts for men joke about the program?',
+        body: ['These two borrow from Greek myth, and both come in Natural, Heather Dust, White, Ash and Athletic Heather. Each is $24.99 in sizes S to 4XL.'],
+        items: [
+          { slogan: 'SISYPHUS HAD BAD PROGRAMMING', tee: 'mens-gym-sisyphus-had-bad-programming-graphic-tee',
+            text: 'A hero drawn like a Greek vase painting, in terracotta and black ink, shoves a giant weight plate up a steep hill. SISYPHUS HAD arches above in bold classical capitals, with a Greek key band and BAD PROGRAMMING below. It is for the lifter who keeps pushing the same weight up the same hill.' },
+          { slogan: 'TWELVE LABORS. ZERO CARDIO.', tee: 'mens-gym-twelve-labors-zero-cardio-graphic-tee',
+            text: 'A bearded hero in a lion-skin cloak walks a treadmill with slumped shoulders, drawn like a Greek black-figure vase in terracotta and black. TWELVE LABORS. runs above him and ZERO CARDIO. below. It is for the man who survived all twelve and still skips the treadmill.' },
+        ],
+      },
+      {
+        h2: 'What is a workout shirt for the lifter who cares about gym etiquette?',
+        body: ['Rack Your Weights. Respectfully. is for the one who puts back everyone else’s plates. It is $24.99 in Natural, Soft Cream, Heather Dust, Ash and Athletic Heather, sizes S to 4XL.'],
+        items: [
+          { slogan: 'RACK YOUR WEIGHTS. Respectfully.', tee: 'mens-gym-rack-your-weights-respectfully-graphic-tee',
+            text: 'A Victorian butler in a top hat, tailcoat and white gloves carries a weight plate on a silver tray toward an empty rack, with a trail of loose plates on the floor behind him. RACK YOUR WEIGHTS. sits above in heavy black slab capitals and Respectfully. below in gold italic.' },
+        ],
+        links: [{ href: '/mens-gym-shirts/', text: 'Men’s gym shirts' }],
+      },
+      {
+        h2: 'Which retro gym tees are built for lifters who have been at it a while?',
+        body: ['Three vintage-illustration designs, each $24.99. They are original art drawn to look old, not real vintage finds.'],
+        items: [
+          { slogan: 'SORE SINCE 1987', tee: 'mens-gym-iron-sweat-graphic-tee',
+            text: 'An 80s lifter in a sweatband and tank top winces his way down the gym stairs with a bag on his shoulder, under SORE SINCE 1987 and a small Iron & Sweat Dept. line. It comes in Black, Navy, Maroon, Dark Grey Heather, Military Green, Soft Cream and White, sizes XS to 5XL.' },
+          { slogan: 'RETIRED FROM CARDIO', tee: 'mens-gym-barbell-club-graphic-tee',
+            text: 'A mustached strongman in a striped singlet naps in a rocking chair beside a loaded barbell, with RETIRED FROM CARDIO in retro capitals and Barbell Club in small script below. It comes in Black, Navy, Dark Grey Heather, Army, Soft Cream and White, sizes XS to 5XL.' },
+          { slogan: 'BEACH BODY PENDING', tee: 'mens-gym-golden-era-pose-graphic-tee',
+            text: 'A tanned bodybuilder in retro trunks and a headband hits a double-biceps pose between two palm trees, with BEACH BODY above and PENDING below in chunky 1970s lettering. It comes in White, Natural, Soft Cream and Athletic Heather, sizes XS to 4XL.' },
+        ],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good workout shirt for men?',
+        body: ['A shirt that fits, feels soft and holds up to washing. For lifting and casual training, a lightweight cotton tee does the job, and the design is what makes it yours.',
+          'Graphic Tees Co. workout shirts are original art with the joke set in big type. They carry no team, brand or athlete logos.'],
+        links: [{ href: '/mens-gym-shirts/', text: 'All men’s gym shirts' }] },
+      { h2: 'Are these moisture-wicking performance shirts?',
+        body: ['No. They are 100% combed, ring-spun cotton at a lightweight 4.2 oz per square yard, and the heather colors include polyester. They are soft and breathable, but they are not moisture-wicking.',
+          'If you want a tee for lifting days, easy errands and the rest of the week, that is what they are for. For a true sweat-wicking run, pick a technical shirt.'] },
+      { h2: 'How should a workout shirt for men fit?',
+        body: ['These tees are a classic unisex fit with side seams and a crew neck. Order your usual tee size, or go up one for a looser fit for warm-ups.',
+          'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not mail the first one back. A misprinted or damaged order is reprinted or refunded.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'What does a workout shirt cost, and when does it arrive?',
+        body: ['Every tee in this guide is $24.99 at the November sale price, which runs through November 30, 2026; from December 1 the tees are $29.99. US shipping is free on orders of $45 or more, so two tees ship free.',
+          'Each shirt is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US.'] },
+      { h2: 'How do you wash a graphic workout shirt so the print lasts?',
+        body: ['Turn it inside out and wash it cold with similar colors, then tumble dry low or hang it. Skip bleach and fabric softener, and never iron over the print.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'Where can you find more gym shirts and hoodies?',
+        body: ['For something warmer, see gym hoodies. To buy for someone else, the gym gift guides cover shirts, hoodies and the rest.'],
+        links: [{ href: '/hoodies/gym-hoodies/', text: 'Gym hoodies' }, { href: '/guides/workout-hoodies/', text: 'Workout hoodies' }, { href: '/guides/gym-gifts-for-men/', text: 'Gym gifts for men' }, { href: '/guides/gifts-for-gym-rats/', text: 'Gifts for gym rats' }] },
+    ],
+    faqs: [
+      { q: 'What is a good workout shirt for men?', a: 'A soft cotton tee in your usual size with art you like. The Graphic Tees Co. gym tees are 4.2 oz combed, ring-spun cotton, $24.99 at the November sale price, in sizes up to 4XL.' },
+      { q: 'Are Graphic Tees Co. workout shirts moisture-wicking?', a: 'No. They are lightweight cotton, 4.2 oz per square yard, with polyester only in the heather colors. They are soft and breathable but not performance fabric.' },
+      { q: 'What size workout shirt should I order?', a: 'Order your usual tee size for a classic unisex fit, or one size up for a looser fit. Graphic Tees Co. also sends one free replacement in a new size within 30 days of delivery.' },
+      { q: 'What is the funniest workout shirt for men?', a: 'That depends on the lifter, but Sisyphus Had Bad Programming and Twelve Labors. Zero Cardio. are the Graphic Tees Co. picks for dry gym humor. Each tee is $24.99 in sizes S to 4XL.' },
+      { q: 'How do I wash a graphic workout shirt?', a: 'Turn it inside out, wash cold with similar colors, then tumble dry low or hang it. Skip bleach and fabric softener, and do not iron over the print on a Graphic Tees Co. tee.' },
+      { q: 'How long does a Graphic Tees Co. workout shirt take to arrive?', a: 'Each shirt is printed after you order it in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. US shipping is free on orders of $45 or more.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
