@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: redo
 id: 1068
@@ -19,3 +19,4 @@ Done when: astro build passes, audit 0 errors, page 200, log lists every changed
 ## Log
 - 2026-11-21 23:30 UTC director: brief written, READY (card order (2) men's Christmas by Dec 10; $0).
 - 2026-11-22 UTC [B]: built, REVIEW (src/data/collections.ts only). (1) SEO title "Christmas Shirts for Men: Funny Holiday Tees, $24.99" (52 chars), meta hand-written (152). (2) Answer-first intro: 26 shirts, Bella+Canvas 3001 4.2 oz, $24.99 through Nov 30 then $29.99 from Dec 1, printed to order, order by Fri Dec 4 2026, one free size exchange. (3) Link to /christmas-sweatshirts-for-men/ added in Fit and fabric; /hoodies/christmas-hoodies/ and graphic hoodies links already there. (4) FAQs 5 -> 8 (office party, family photo, care; none deleted). (5) Inbound links from /graphic-tees-for-men/, /funny-christmas-shirts/, /guides/funny-mens-christmas-shirts/ already present in built html. astro build passes (scratch copy), fal $0, outside caps. Position: unknown (not in Nov 9-15 list).
+- 2026-11-22 23:25 UTC director: LIVE. Page 200, title 52, meta 152, 8 FAQs. Fixed the FAQ 'matching Christmas shirt for my wife or kids?' to '...for my wife?' (the answer offers no kids' item; R8.6) and the mail-back wording. Technically a Sweater tee ACTIVE as named. Position unknown.

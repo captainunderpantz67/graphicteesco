@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: outdoors
@@ -17,3 +17,4 @@ slug: fishing-shirts-for-men
 - `npx astro build`: passes (drafts are not built).
 ## Log
 - 2026-11-22 UTC writer: drafted.
+- 2026-11-22 23:25 UTC director: APPROVED and LIVE (article 2 of 2 Nov 22 Chicago). Keyword fishing shirt men 12,100 / KD 12 (2026-10-09, within 90 days; competition 0, so it is an editorial search per R2.10: fine for a guide, never a product primary; noted in the keyword map). Fixed: SEO title 'Fishing Shirt Men Actually Wear...' was word-salad (R8.3), now 'Fishing Shirts for Men: 2 Tees and 3 Layers for the Dock' (56); order-by Dec 4 / Dec 8. Honest UPF answer kept. Overlap with gifts-for-fishermen accepted (wear angle, not gifts). Picks ACTIVE, links 200.

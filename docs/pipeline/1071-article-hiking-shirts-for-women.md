@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: outdoors
@@ -16,3 +16,4 @@ slug: hiking-shirts-for-women
 - `npx astro build`: passes (159 pages; drafts are not built).
 ## Log
 - 2026-11-22 UTC writer: drafted.
+- 2026-11-22 23:25 UTC director: APPROVED and LIVE (article 1 of 2 Nov 22 Chicago). Keyword hiking shirt women 4,400 / KD 14 (2026-10-18, within 90 days); R2.8 collision resolved: the Treat Me Like Wildlife tee moves to funny hiking shirt (390 / 54): its SEO title is now 'Treat Me Like Wildlife – Funny Hiking Shirt for Her', meta and line one updated, 'printed the day you order it' changed to 'printed to order' (R8.6); audit --handle PASS (1 warn, no cover). Picks ACTIVE, sizes checked on Shopify (Bison XS-3XL, Switchbacks S-3XL), 23 links 200. Fixed: order-by now Fri Dec 4 to be safe, Dec 8 latest (site.ts). Draft line removed, astro build 161 pages. Inbound links briefed as #1075.

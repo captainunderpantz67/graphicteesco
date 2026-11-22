@@ -5272,7 +5272,6 @@ export const allGuides: Guide[] = [
     h1: 'Hiking Shirts for Women: A Funny Tee and Three Warm Layers for the Trail',
     date: '2026-11-22',
     cluster: 'outdoors',
-    draft: true,
     answer: 'A good hiking shirt for a woman who likes a joke is a cotton graphic tee for the warm miles and a fleece layer for the cold trailhead. Graphic Tees Co. has four: the Treat Me Like Wildlife tee at $24.99, The View Better Be Worth It crewneck at $34.99, and two heavyweight hoodies at $49.99. These are cotton graphic pieces, not sweat-wicking gear, and they are printed to order.',
     picks: [
       {
@@ -5318,7 +5317,7 @@ export const allGuides: Guide[] = [
         body: ['Turn it inside out and wash cold with similar colors. Tumble dry low or hang it dry, skip bleach and fabric softener, and keep the iron off the print.'],
         links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
       { h2: 'Can you give a hiking shirt as a Christmas gift?',
-        body: ['Yes, for the friend or sister who always picks the uphill trail. Each piece is printed to order, so for Christmas Day, order by about December 8. US shipping is free on orders of $45 or more, so the crewneck with a tee clears it, and either heavyweight hoodie ships free on its own.',
+        body: ['Yes, for the friend or sister who always picks the uphill trail. Each piece is printed to order, so for Christmas Day, order by Friday, December 4 to be safe (December 8 at the latest). US shipping is free on orders of $45 or more, so the crewneck with a tee clears it, and either heavyweight hoodie ships free on its own.',
           'Buying for a hiking group? Order 10 or more items in one cart and 15% comes off at checkout.'],
         links: [{ href: '/group-shirts/', text: 'Group orders' }] },
       { h2: 'Where can you find more outdoor and cozy picks?',
@@ -5331,7 +5330,7 @@ export const allGuides: Guide[] = [
       { q: 'Does the Treat Me Like Wildlife tee run true to size?', a: 'It is a women\'s relaxed cut in sizes S to 3XL, $24.99. Order your usual size, or one up for a looser, longer look. Graphic Tees Co. covers one free size exchange within 30 days.' },
       { q: 'What is the warmest hiking hoodie from Graphic Tees Co.?', a: 'The two heavyweight hoodies, The View Better Be Worth It and Running Late. Bison Traffic., at $49.99 each. Both are 10 oz cotton-polyester fleece with a fleece-lined hood, in Sandstone or Storm Blue.' },
       { q: 'Do you have a hiking sweatshirt without a hood?', a: 'Yes. The View Better Be Worth It crewneck from Graphic Tees Co. is an 8 oz fleece, 50% cotton and 50% polyester, $34.99, sizes S to 3XL, in Sand or Navy.' },
-      { q: 'How early should I order a hiking shirt for Christmas?', a: 'By about December 8. Graphic Tees Co. prints each piece to order, and US shipping is free on orders of $45 or more.' },
+      { q: 'How early should I order a hiking shirt for Christmas?', a: 'Order by Friday, December 4 to be safe; December 8 is the last realistic day. Graphic Tees Co. prints each piece to order in 2 to 5 business days, and US shipping is free on orders of $45 or more.' },
     ],
   },
   {
@@ -5340,12 +5339,11 @@ export const allGuides: Guide[] = [
     // Planned siblings (not live yet): funny-hunting-shirts. Parked sibling draft: best-funny-fishing-shirts.
     slug: 'fishing-shirts-for-men',
     keyword: 'fishing shirt men',
-    title: 'Fishing Shirt Men Actually Wear: 2 Tees & 3 Layers for the Dock',
+    title: 'Fishing Shirts for Men: 2 Tees and 3 Layers for the Dock',
     description: 'A fishing shirt for men with original art: Technically Still Fishing and Casting Doubt tees at $24.99, plus fleece layers from $34.99. Cotton, printed to order.',
     h1: 'Fishing Shirts for Men: Two Tees and Three Layers for the Dock',
     date: '2026-11-22',
     cluster: 'outdoors',
-    draft: true,
     answer: 'A good fishing shirt for men depends on the day: a light cotton tee for a warm dock, a fleece layer for a cold ramp at dawn. Graphic Tees Co. has two original-art fishing tees at $24.99 and three fleece layers from $34.99, all printed to order. They are cotton graphic wear, not UPF sun shirts.',
     picks: [
       {
@@ -5387,7 +5385,7 @@ export const allGuides: Guide[] = [
         body: ['Turn it inside out and wash cold with similar colors. Tumble dry low or hang it dry, skip bleach and fabric softener, and keep the iron off the print.'],
         links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
       { h2: 'Can you give a fishing shirt as a gift?',
-        body: ['Yes. For Christmas, order by about December 8, since each piece is printed to order. US shipping is free on orders of $45 or more, so the heavyweight hoodie ships free on its own and a tee plus the crewneck clears it.',
+        body: ['Yes. For Christmas, order by Friday, December 4 to be safe (December 8 at the latest), since each piece is printed to order. US shipping is free on orders of $45 or more, so the heavyweight hoodie ships free on its own and a tee plus the crewneck clears it.',
           'For gift ideas by type of angler, see the fishermen and dad guides.'],
         links: [{ href: '/guides/gifts-for-fishermen/', text: 'Gifts for fishermen' }, { href: '/guides/fishing-gifts-for-dad/', text: 'Fishing gifts for dad' }, { href: '/guides/cozy-hoodies/', text: 'Cozy hoodies' }] },
     ],
@@ -5397,7 +5395,7 @@ export const allGuides: Guide[] = [
       { q: 'What is the warmest fishing hoodie from Graphic Tees Co.?', a: 'The You Catching \'Em? No. Keep Walking. heavyweight hoodie at $49.99. It is 10 oz fleece with a fleece-lined hood, in Black or Army, sizes S to 3XL.' },
       { q: 'What sizes do the fishing tees come in?', a: 'Technically Still Fishing and Casting Doubt are $24.99 in sizes XS to 5XL. Black, Navy and Dark Grey Heather carry the full range, and some colors stop at 3XL or 4XL.' },
       { q: 'Is there a fishing sweatshirt without a hood?', a: 'Yes. The Fishing Is My Love Language. Talking Isn\'t. crewneck from Graphic Tees Co. is an 8 oz fleece, 50% cotton and 50% polyester, $34.99, sizes S to 3XL, in Sand or Navy.' },
-      { q: 'How early should I order a fishing shirt for Christmas?', a: 'By about December 8. Graphic Tees Co. prints each piece to order, and US shipping is free on orders of $45 or more.' },
+      { q: 'How early should I order a fishing shirt for Christmas?', a: 'Order by Friday, December 4 to be safe; December 8 is the last realistic day. Graphic Tees Co. prints each piece to order in 2 to 5 business days, and US shipping is free on orders of $45 or more.' },
     ],
   },
 ];

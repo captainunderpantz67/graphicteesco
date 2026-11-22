@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: redo
 id: 1066
@@ -19,3 +19,4 @@ Done when: astro build passes, audit 0 errors, page 200, log lists every changed
 ## Log
 - 2026-11-21 23:30 UTC director: brief written, READY (R0 item 5).
 - 2026-11-22 UTC [B]: built, REVIEW (all in src/data/collections.ts). (1) SEO title 'Y2K Graphic Tees: Early-2000s Looks, $24.99' (44 chars), meta rewritten. (2) Answer-first intro: 3 tees at $24.99, 5 Y2K designs in all, printed to order, free US shipping over $45, one free size exchange in 30 days. (3) Cross-garment section links /hoodies/y2k-hoodies/ and /hoodies/y2k-zip-up-hoodies/ (both curl 200, indexable), names Hot Mess Express, Still Loading Since 1999, Low Battery High Standards, Gold Star, Main Quest Postponed; prices $39.99 hoodie, $57.99 embroidered zip. (4) FAQs 3 -> 7 in FAQPage schema (6400 fit, art description from the live prints, Christmas order-by Dec 4/Dec 8; wash FAQ dropped to keep 7). (5) Inbound links from /retro-graphic-tees/ and /hoodies/y2k-hoodies/ already present (href found in built html). Page is /y2k-graphic-tees/ (200). astro build passes, audit 0 errors, fal $0, outside caps. Position: last known 11-30 (Nov 9-15 pull).
+- 2026-11-22 23:25 UTC director: LIVE. Page /y2k-graphic-tees/ 200 with the new title 'Y2K Graphic Tees: Early-2000s Looks, $24.99', meta 142, 7 FAQs in FAQPage; art FAQ matches the prints; dated order-by answer matches site.ts. Note: the brief listed a care FAQ and the build dropped one to keep 7; acceptable (7 reached, no false claim), next refresh may add it back. Last known position 11-30 (Nov 9-15 pull).

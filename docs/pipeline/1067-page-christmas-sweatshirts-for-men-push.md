@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: redo
 id: 1067
@@ -19,3 +19,4 @@ Done when: astro build passes, audit 0 errors, page 200, log lists every changed
 ## Log
 - 2026-11-21 23:30 UTC director: brief written, READY (card order (2) men's Christmas crews by Dec 10; $0).
 - 2026-11-22 UTC [B]: built, REVIEW (src/data/collections.ts only). (1) SEO title "Men's Christmas Sweaters: Funny Crewnecks From $34.99" (57 chars), meta hand-written (21 designs, S-5XL, $34.99). (2) Answer-first intro: 21 designs, Gildan 18000 8 oz 50/50 fleece printed crewneck (never knit), S-5XL, $34.99, printed to order, order by Fri Dec 4 2026, one free size exchange nothing to mail back. (3) New H2 "Are these knit sweaters?" (no, printed crewnecks). (4) FAQs 5 -> 8 (ugly sweater party, warmth, care; no existing copy deleted). (5) Inbound links from /christmas-shirts-for-men/, /guides/christmas-gifts-for-husband/ and /guides/funny-mens-christmas-shirts/ already present in built html. Page 200. astro build passes (scratch copy; repo node_modules is a tracked symlink), audit 0 errors on #1066 run, fal $0, outside caps. Position: unknown (not in Nov 9-15 list).
+- 2026-11-22 23:25 UTC director: LIVE. Page 200, title 57 chars, meta 154, 8 FAQs in FAQPage, honest 'not a knit' answer; Technically a Sweater crewneck ACTIVE as named. Fixed 'you keep nothing to mail back' to 'there is nothing to mail back' (5 places in collections.ts, shared with #1068 and two older answers). Position unknown.
