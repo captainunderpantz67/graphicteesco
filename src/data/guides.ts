@@ -5261,6 +5261,79 @@ export const allGuides: Guide[] = [
       { q: 'How long does a Graphic Tees Co. workout shirt take to arrive?', a: 'Each shirt is printed after you order it in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. US shipping is free on orders of $45 or more.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-22), outdoors cluster. Keyword: hiking shirts for women. Head phrase "hiking shirt women" measured 4,400 / KD 14 (RankHero, docs/product-keyword-map.json, 2026-10-18; NOT re-pulled this run, RankHero returned no data unattended: director please confirm). The Treat Me Like Wildlife tee currently claims "hiking shirt women" in the map, so this guide takes the plural gift/shopping variant "hiking shirts for women"; director to move the product claim to "wildlife shirt" or leave it, per R2.8.
+    // Picks (all four handles are in fresh-designs.json, checked by the writer 2026-11-22): Treat Me Like Wildlife tee, The View Better Be Worth It crewneck and heavyweight hoodie, Running Late Bison Traffic heavyweight hoodie. Art, colors, sizes, fabric and prices from the live Shopify Stories and variants (read 2026-11-22, all ACTIVE). Prices stated as live, no sale step claimed. FAQ questions are not from PAA or GSC (not available unattended).
+    // Siblings: hoodie-sizing, cozy-hoodies, how-to-wash-graphic-tees (live), best-funny-fishing-shirts and gifts-for-fishermen (drafts). Planned, not live: funny-hunting-shirts.
+    slug: 'hiking-shirts-for-women',
+    keyword: 'hiking shirts for women',
+    title: 'Hiking Shirts for Women: A Funny Tee and 3 Trail Layers',
+    description: 'Hiking shirts for women with original trail art: the Treat Me Like Wildlife tee $24.99, a $34.99 crewneck and $49.99 heavyweight hoodies. Printed to order.',
+    h1: 'Hiking Shirts for Women: A Funny Tee and Three Warm Layers for the Trail',
+    date: '2026-11-22',
+    cluster: 'outdoors',
+    draft: true,
+    answer: 'A good hiking shirt for a woman who likes a joke is a cotton graphic tee for the warm miles and a fleece layer for the cold trailhead. Graphic Tees Co. has four: the Treat Me Like Wildlife tee at $24.99, The View Better Be Worth It crewneck at $34.99, and two heavyweight hoodies at $49.99. These are cotton graphic pieces, not sweat-wicking gear, and they are printed to order.',
+    picks: [
+      {
+        h2: 'What is a funny hiking shirt for women?',
+        body: ['The Treat Me Like Wildlife tee. It is cut as a women\'s relaxed tee, $24.99, in sizes S to 3XL.'],
+        items: [
+          { slogan: 'Treat Me Like Wildlife.', tee: 'womens-hiking-treat-me-like-wildlife-graphic-tee',
+            text: 'A white mountain goat stands on a rocky ledge with her chin up, completely unbothered, while a tiny hiker far down the trail holds a thumb out at arm\'s length to check the distance. TREAT ME LIKE sits in rust capitals and WILDLIFE. in big navy capitals above the art, with ADMIRE FROM 25 YARDS. in green capitals below. The joke is the park rule to stay 25 yards from wildlife, turned into a boundary. It comes in White, Natural, Heather Stone, Athletic Heather, Pink and Light Violet.' },
+        ],
+        links: [{ href: '/graphic-tees-for-women/', text: 'Graphic tees for women' }],
+      },
+      {
+        h2: 'Which hiking sweatshirt has a trail joke?',
+        body: ['The View Better Be Worth It, the line every hiker mutters on a switchback. It comes as an 8 oz crewneck at $34.99 and as a 10 oz heavyweight hoodie at $49.99, both unisex, sizes S to 3XL.'],
+        items: [
+          { slogan: 'The View Better Be Worth It', tee: 'unisex-national-park-switchbacks-build-character-heavyweight-hoodie', crewneck: 'unisex-national-park-switchbacks-build-character-crewneck-sweatshirt',
+            text: 'A tall rocky mountain has a trail zigzagging up its face in tight switchbacks, with pines at the base, a few birds overhead and a sweaty, grumpy marmot in a tiny backpack leaning on a trekking pole partway up. THE VIEW BETTER runs across the top and BE WORTH IT. across the bottom. The crewneck is Sand or Navy; the heavyweight hoodie is Sandstone or Storm Blue.' },
+        ],
+        links: [{ href: '/hoodies/national-park-hoodies/', text: 'National park hoodies' }],
+      },
+      {
+        h2: 'Which hiking hoodie is the warmest?',
+        body: ['Running Late. Bison Traffic. It is a heavyweight 10 oz fleece hoodie with a relaxed fit, $49.99, sizes XS to 3XL, in Sandstone or Storm Blue.'],
+        items: [
+          { slogan: 'Running Late. Bison Traffic.', tee: 'unisex-national-park-running-late-bison-traffic-heavyweight-hoodie',
+            text: 'A vintage sedan with luggage on its roof rack sits stopped on a two-lane road through a grassy valley while one huge, shaggy bison towers behind it, unbothered, in a worn 1960s screen-print look. RUNNING LATE. sits above and BISON TRAFFIC. below in cream capitals. It is the one for the friend who plans every trip around the animals and the drive to the park.' },
+        ],
+        links: [{ href: '/hoodies/', text: 'All graphic hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'What should a hiking shirt for women be made of?',
+        body: ['It depends on the weather. For warm days, a lightweight cotton tee stays airy. For a cold trailhead, a fleece layer you can take off and tie around your waist is easier than a stiff jacket.',
+          'The Treat Me Like Wildlife tee is a Bella+Canvas 6400 in 4.2 oz 100% combed ring-spun cotton (the heather colors contain some polyester). These are graphic pieces, not performance fabric or sun-protection layers, so they are for the trailhead, the overlook and the diner afterward.'] },
+      { h2: 'How warm are these hiking sweatshirts?',
+        body: ['The crewneck is an 8 oz fleece, 50% cotton and 50% polyester, pre-shrunk, with no hood. The two heavyweight hoodies are 10 oz cotton-polyester fleece with a fleece-lined hood, ribbed cuffs and waistband and double-stitched seams.',
+          'Pick the crewneck for a cool morning and the heavyweight hoodie for a cold campground.'] },
+      { h2: 'What size hiking shirt should a woman order?',
+        body: ['The tee is a women\'s relaxed cut, so order your usual size, or one up for a longer, looser look. The crewneck and hoodies are unisex, so order your usual size for a classic fit, or one up for a roomy layer over a flannel.',
+          'If the size is wrong, Graphic Tees Co. does one free size exchange within 30 days of delivery, and you do not have to mail the first one back.'],
+        links: [{ href: '/guides/hoodie-sizing/', text: 'Hoodie sizing guide' }, { href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'How do you wash a hiking shirt so the print lasts?',
+        body: ['Turn it inside out and wash cold with similar colors. Tumble dry low or hang it dry, skip bleach and fabric softener, and keep the iron off the print.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'Can you give a hiking shirt as a Christmas gift?',
+        body: ['Yes, for the friend or sister who always picks the uphill trail. Each piece is printed to order, so for Christmas Day, order by about December 8. US shipping is free on orders of $45 or more, so the crewneck with a tee clears it, and either heavyweight hoodie ships free on its own.',
+          'Buying for a hiking group? Order 10 or more items in one cart and 15% comes off at checkout.'],
+        links: [{ href: '/group-shirts/', text: 'Group orders' }] },
+      { h2: 'Where can you find more outdoor and cozy picks?',
+        body: ['For warm layers beyond the trail, the cozy hoodies guide covers the softest fleece in the shop, and the hoodie sizing guide helps with the fit.'],
+        links: [{ href: '/guides/cozy-hoodies/', text: 'Cozy hoodies' }, { href: '/guides/hoodie-sizing/', text: 'Hoodie sizing' }, { href: '/guides/fleece-lined-hoodie/', text: 'Fleece-lined hoodies' }] },
+    ],
+    faqs: [
+      { q: 'What is a good hiking shirt for women?', a: 'A soft cotton tee for warm miles plus a fleece layer for cold ones. Graphic Tees Co. has the Treat Me Like Wildlife women\'s tee at $24.99 and three fleece layers from $34.99, all printed to order.' },
+      { q: 'Are these hiking shirts moisture-wicking or UPF?', a: 'No. Graphic Tees Co. hiking pieces are cotton and cotton-polyester graphic wear, not performance fabric and not rated for sun protection. They are for the trailhead, the overlook and the drive home.' },
+      { q: 'Does the Treat Me Like Wildlife tee run true to size?', a: 'It is a women\'s relaxed cut in sizes S to 3XL, $24.99. Order your usual size, or one up for a looser, longer look. Graphic Tees Co. covers one free size exchange within 30 days.' },
+      { q: 'What is the warmest hiking hoodie from Graphic Tees Co.?', a: 'The two heavyweight hoodies, The View Better Be Worth It and Running Late. Bison Traffic., at $49.99 each. Both are 10 oz cotton-polyester fleece with a fleece-lined hood, in Sandstone or Storm Blue.' },
+      { q: 'Do you have a hiking sweatshirt without a hood?', a: 'Yes. The View Better Be Worth It crewneck from Graphic Tees Co. is an 8 oz fleece, 50% cotton and 50% polyester, $34.99, sizes S to 3XL, in Sand or Navy.' },
+      { q: 'How early should I order a hiking shirt for Christmas?', a: 'By about December 8. Graphic Tees Co. prints each piece to order, and US shipping is free on orders of $45 or more.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
