@@ -5334,6 +5334,72 @@ export const allGuides: Guide[] = [
       { q: 'How early should I order a hiking shirt for Christmas?', a: 'By about December 8. Graphic Tees Co. prints each piece to order, and US shipping is free on orders of $45 or more.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-22), outdoors cluster. Keyword: fishing shirt men 12,100 / KD 12 (product-keyword-map.json gaps_measured, RankHero, measured 2026-10-09; NOT re-pulled this run: RankHero returned 403 unattended, director please confirm). Unowned: not in collections.ts, guides.ts or claimed by any product ("mens fishing shirt" 12,100 / KD 44 is the You Catching 'Em tee's, "fishing t shirts" is /fishing-t-shirts/, "fishing hoodie" is /hoodies/fishing-hoodies/). The guide takes the "fishing shirt men" wording.
+    // Facts (art, colors, sizes, fabric, prices) from live Shopify Stories read 2026-11-22; every pick handle is in src/data/fresh-designs.json. Gift angles are covered by gifts-for-fishermen and fishing-gifts-for-dad, so this guide stays on what to wear. Not sun-protection shirts.
+    // Planned siblings (not live yet): funny-hunting-shirts. Parked sibling draft: best-funny-fishing-shirts.
+    slug: 'fishing-shirts-for-men',
+    keyword: 'fishing shirt men',
+    title: 'Fishing Shirt Men Actually Wear: 2 Tees & 3 Layers for the Dock',
+    description: 'A fishing shirt for men with original art: Technically Still Fishing and Casting Doubt tees at $24.99, plus fleece layers from $34.99. Cotton, printed to order.',
+    h1: 'Fishing Shirts for Men: Two Tees and Three Layers for the Dock',
+    date: '2026-11-22',
+    cluster: 'outdoors',
+    draft: true,
+    answer: 'A good fishing shirt for men depends on the day: a light cotton tee for a warm dock, a fleece layer for a cold ramp at dawn. Graphic Tees Co. has two original-art fishing tees at $24.99 and three fleece layers from $34.99, all printed to order. They are cotton graphic wear, not UPF sun shirts.',
+    picks: [
+      {
+        h2: 'Which fishing shirt is best for a warm day on the water?',
+        body: ['A light cotton tee. Both of these are 4.2 oz Bella+Canvas tees at $24.99, in sizes XS to 5XL and seven colors, from Black and Navy to Soft Cream and White.'],
+        items: [
+          { slogan: 'Technically Still Fishing', tee: 'mens-fishing-sunrise-strike-graphic-tee',
+            text: 'A largemouth bass leaps out of the lake at sunrise while an angler sleeps through it in a folding chair on the dock, rod propped beside him, with TECHNICALLY STILL FISHING across the top in a worn bait-shop screen-print look. It is the one for the guy who naps at the lake and calls it fishing.' },
+          { slogan: 'Casting Doubt', tee: 'mens-fishing-high-country-trout-graphic-tee',
+            text: 'A fly fisherman in waders stands in a mountain river with pines and peaks behind him, his line looped overhead into a big question mark while a rainbow trout looks on, unimpressed, under CASTING DOUBT in vintage capitals. It is the one for anyone who has second-guessed a cast.' },
+        ],
+      },
+      {
+        h2: 'What should a man wear fishing when it is cold?',
+        body: ['A fleece layer that goes over a flannel. Here are three, from the lightest to the heaviest.'],
+        items: [
+          { slogan: 'Fishing Is My Love Language. Talking Isn\'t.', tee: 'mens-fishing-love-language-hoodie', crewneck: 'mens-fishing-love-language-crewneck-sweatshirt',
+            text: 'A largemouth bass in small sunglasses kicks back on a striped lawn chair with a rod leaning beside it, under FISHING IS MY LOVE LANGUAGE. in cream capitals and TALKING ISN\'T. in mustard below. The pullover hoodie is $39.99 and the crewneck is $34.99, both 8 oz in Sand or Navy.' },
+          { slogan: 'Technically Still Fishing', tee: 'mens-fishing-technically-still-fishing-hoodie',
+            text: 'The same sleeping angler and leaping bass as the tee, on an 8 oz pullover hoodie with a double-lined hood and a front pouch pocket. It is $39.99, in Sand or Navy.' },
+          { slogan: 'You Catching \'Em? No. Keep Walking.', tee: 'mens-fishing-you-catching-em-heavyweight-hoodie',
+            text: 'A grumpy older angler in a bucket hat and red plaid flannel sits in a lawn chair at the pond\'s edge with his rod in a holder and an empty bucket beside him, while a jogger waves from behind. It is a 10 oz heavyweight hoodie at $49.99, in Black or Army.' },
+        ],
+        links: [{ href: '/fishing-t-shirts/', text: 'All fishing t-shirts' }, { href: '/hoodies/fishing-hoodies/', text: 'Fishing hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'Are these fishing shirts UPF or sun-protection shirts?',
+        body: ['No. Graphic Tees Co. fishing shirts are soft cotton tees and cotton-polyester fleece, not vented performance gear and not rated for sun protection.',
+          'They are made for the boat ramp, the bait shop and the drive home. If you need UPF on open water, wear a sun shirt underneath or over them.'] },
+      { h2: 'What is a fishing shirt made of at Graphic Tees Co.?',
+        body: ['The two tees are Bella+Canvas 3001 in 100% combed ring-spun cotton (the heather colors contain some polyester), pre-shrunk, in a lightweight 4.2 oz fabric.',
+          'The hoodies and crewneck are 8 oz fleece in 50% cotton and 50% polyester. The heavyweight hoodie is 10 oz with a fleece-lined hood, ribbed cuffs and double-stitched seams.'] },
+      { h2: 'What size fishing shirt should a man order?',
+        body: ['The tees are a unisex classic fit, so most men order their usual size. For the fleece, order your usual size, or one up for a roomier layer over a flannel.',
+          'If the size is wrong, Graphic Tees Co. does one free size exchange within 30 days of delivery, and you do not have to mail the first one back.'],
+        links: [{ href: '/guides/hoodie-sizing/', text: 'Hoodie sizing guide' }, { href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'How do you wash a fishing shirt so the print lasts?',
+        body: ['Turn it inside out and wash cold with similar colors. Tumble dry low or hang it dry, skip bleach and fabric softener, and keep the iron off the print.'],
+        links: [{ href: '/guides/how-to-wash-graphic-tees/', text: 'How to wash graphic tees' }] },
+      { h2: 'Can you give a fishing shirt as a gift?',
+        body: ['Yes. For Christmas, order by about December 8, since each piece is printed to order. US shipping is free on orders of $45 or more, so the heavyweight hoodie ships free on its own and a tee plus the crewneck clears it.',
+          'For gift ideas by type of angler, see the fishermen and dad guides.'],
+        links: [{ href: '/guides/gifts-for-fishermen/', text: 'Gifts for fishermen' }, { href: '/guides/fishing-gifts-for-dad/', text: 'Fishing gifts for dad' }, { href: '/guides/cozy-hoodies/', text: 'Cozy hoodies' }] },
+    ],
+    faqs: [
+      { q: 'What is a good fishing shirt for men?', a: 'A soft cotton tee for warm days and a fleece layer for cold ones. Graphic Tees Co. has two original-art fishing tees at $24.99 and three fleece layers from $34.99, all printed to order.' },
+      { q: 'Are Graphic Tees Co. fishing shirts UPF rated?', a: 'No. They are cotton graphic tees and cotton-polyester fleece, not performance fabric and not rated for sun protection. They are for the dock, the ramp and the drive home.' },
+      { q: 'What is the warmest fishing hoodie from Graphic Tees Co.?', a: 'The You Catching \'Em? No. Keep Walking. heavyweight hoodie at $49.99. It is 10 oz fleece with a fleece-lined hood, in Black or Army, sizes S to 3XL.' },
+      { q: 'What sizes do the fishing tees come in?', a: 'Technically Still Fishing and Casting Doubt are $24.99 in sizes XS to 5XL. Black, Navy and Dark Grey Heather carry the full range, and some colors stop at 3XL or 4XL.' },
+      { q: 'Is there a fishing sweatshirt without a hood?', a: 'Yes. The Fishing Is My Love Language. Talking Isn\'t. crewneck from Graphic Tees Co. is an 8 oz fleece, 50% cotton and 50% polyester, $34.99, sizes S to 3XL, in Sand or Navy.' },
+      { q: 'How early should I order a fishing shirt for Christmas?', a: 'By about December 8. Graphic Tees Co. prints each piece to order, and US shipping is free on orders of $45 or more.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
