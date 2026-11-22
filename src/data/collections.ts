@@ -390,6 +390,7 @@ export const tees: Collection[] = [
       { h2: 'Shop by what you love', body: 'Country, western, fishing, nurse, faith and seasonal drops — every collection is original art, not stock graphics.' },
       { h2: 'Graphic tees for every age', body: 'Graphic tees aren’t an age thing. Pick a design about something you love and a fit you’re comfortable in.' },
       { h2: 'Printed when you order', body: 'Each tee is printed after you order it, so the catalog keeps growing without leftovers.' },
+      { h2: 'Want it warmer?', body: 'Many of these designs also come as hoodies. Our graphic hoodies for women cover pullover, cropped, zip-up and oversized blanks from $39.99.', links: [{ href: '/hoodies/graphic-hoodies-for-women/', label: 'Graphic hoodies for women' }] },
     ],
     faqs: [
       { q: 'Are these graphic tees original designs?', a: 'Yes. Every design is made for this shop — no licensed characters or resold stock art.' },
@@ -606,6 +607,7 @@ export const tees: Collection[] = [
       { h2: 'Find your Christmas shirt', body: 'Retro Santa is a round-faced, mid-century Santa mid-laugh with a sack of pink-wrapped gifts under bubbly HO HO HO letters: a retro Santa shirt in red, pink and cream that looks lifted from an old greeting card. Gingerbread Lane is the gingerbread shirt, a candy-cane-trimmed house with two waving gingerbread people. Fresh Cut Christmas Trees is the Christmas tree shirt, a red pickup hauling a tree down a snowy road, and Cabin Christmas is a log cabin glowing under a crescent moon. Merry & Bright spells it out in 1970s bubble letters ringed with vintage ornaments, the most retro Christmas shirt of the five.' },
       { h2: 'Where to wear a Christmas shirt', body: 'Cookie swaps, the school holiday program, a Christmas-movie night, the tree farm, a white-elephant exchange or the family photo. Layer one under an open flannel or a cardigan with jeans; tuck the front of a relaxed fit into high-rise denim to dress it up.' },
       { h2: 'Matching for the family photo', body: 'Every design comes in a full run of sizes, so you can order the same Christmas shirt for the whole family, a group of friends or your coworkers. The unisex designs fit men too. Want something warmer? Browse our Christmas hoodies for women and men in the same original holiday art.', links: [{ href: '/hoodies/christmas-hoodies/', label: 'Christmas hoodies for women and men' }] },
+      { h2: 'Want it warmer?', body: 'Many of these Christmas designs are also printed on hoodies. See our graphic hoodies for women, from $39.99, for the pullover, cropped, zip-up and oversized versions.', links: [{ href: '/hoodies/graphic-hoodies-for-women/', label: 'Graphic hoodies for women' }] },
       { h2: 'When to order', body: 'Each shirt is printed after you order it, then shipped. Order early in December so it arrives before your plans — delivery estimates show at checkout.' },
     ],
     faqs: [
@@ -1143,7 +1145,30 @@ export const hoodies: Collection[] = [
   niche(N.oversized, 'hoodies', { slug: 'oversized-hoodies-for-men', keyword: 'oversized hoodie men', volume: 18100, kd: 10, product: "men's oversized hoodies", audience: 'men', name: "Men's Oversized Hoodies" }) /* RankHero 2026-10-16 */,
   niche(N.gym, 'hoodies', { slug: 'gym-hoodies-for-men', keyword: 'mens gym hoodie', volume: 9900, kd: 31, product: "men's gym hoodies", audience: 'men', name: "Men's Gym Hoodies" }) /* RankHero 2026-10-16 */,
   niche(N.halfzip, 'hoodies', { slug: 'half-zip-pullovers', keyword: 'half zip pullover', volume: 5400, kd: 14, product: 'half zip pullovers', name: 'Half Zip Pullovers' }) /* RankHero 2026-10-16; Bella+Canvas 4740 */,
-  niche(N.womenshoodies, 'hoodies', { slug: 'graphic-hoodies-for-women', keyword: 'graphic hoodies for women', volume: 8100, kd: 12, product: 'graphic hoodies for women', audience: 'women', name: "Women's Graphic Hoodies" }) /* R11.5 sweep 2026-10-16 */,
+  (() => {
+    // Google push #1062 (R0 item 5, 2026-11-22): answer-first intro, blank/niche sections, 7 FAQs. Prices from R12.1 (pullover $39.99, cropped $44.99, zip-up $44.99, heavyweight $49.99, oversized $54.99).
+    const c = niche(N.womenshoodies, 'hoodies', { slug: 'graphic-hoodies-for-women', keyword: 'graphic hoodies for women', volume: 8100, kd: 12, product: 'graphic hoodies for women', audience: 'women', name: "Women's Graphic Hoodies" });
+    c.title = 'Graphic Hoodies for Women: Funny, Cozy, From $39.99';
+    c.description = 'Graphic hoodies for women: 200+ original designs on pullover, cropped, zip-up and oversized hoodies. Printed to order, from $39.99, free size exchange.';
+    c.intro = 'We sell 200+ original graphic hoodies for women on four blanks: the pullover at $39.99, the cropped hoodie and the zip-up at $44.99, and the oversized at $54.99. Every hoodie is printed to order, ships free in the US on $45 or more, and comes with one free size exchange within 30 days of delivery.';
+    c.sections = [
+      ...c.sections,
+      { h2: 'Cropped graphic hoodies for women', body: 'Our cropped hoodies ($44.99) are a women\'s cut fleece with a hem at the natural waist, made to meet high-rise jeans and skirts. The same art as the pullover, in a shorter, boxier shape.',
+        links: [{ href: '/hoodies/cropped-hoodies/', label: 'Cropped hoodies' }] },
+      { h2: 'Christmas graphic hoodies for women', body: 'The holiday designs are funny lines for the family photo, the office party and the cookie swap, from $39.99 on the pullover. Order by Friday, December 4, 2026 for Christmas delivery in the US.',
+        links: [{ href: '/hoodies/christmas-hoodies/', label: 'Christmas hoodies' }] },
+      { h2: 'Cat and gym graphic hoodies', body: 'Two big groups outside Christmas are cat and gym designs: cat hoodies for the one who ignores you, and gym hoodies for the lifter in your life, on the same pullover and zip-up blanks.',
+        links: [{ href: '/hoodies/cat-hoodies/', label: 'Cat hoodies' }, { href: '/hoodies/gym-hoodies/', label: 'Gym hoodies' }] },
+    ];
+    c.faqs = [
+      ...c.faqs,
+      { q: 'How do cropped hoodies fit compared with a pullover?', a: 'Graphic Tees Co. cropped hoodies are a women\'s cut with the hem at the natural waist, so they sit shorter and boxier than the classic pullover. Take your usual size for the cropped look; the classic pullover is a unisex fit with a longer body.' },
+      { q: 'Should I size up for an oversized hoodie look?', a: 'For a relaxed look in the pullover or zip-up, size up one from your usual size. The oversized hoodie ($54.99) is already cut roomy with dropped shoulders, so keep your usual size. If the fit is off, you get one free size exchange within 30 days.' },
+      { q: 'How do I wash a graphic hoodie so the print lasts?', a: 'Turn the hoodie inside out, wash cold with like colors, and tumble dry low or hang dry. Skip bleach and never iron over the print. Graphic Tees Co. prints direct to garment, and the ink holds up to regular washing with that care.' },
+      { q: 'When should I order a graphic hoodie as a Christmas gift?', a: 'Order by Friday, December 4, 2026 to leave a margin for Christmas delivery in the US; December 8 is the last day we recommend. Every hoodie is printed to order in 2–5 business days, then ships in about 3–8 business days, and checkout shows a delivery estimate.' },
+    ];
+    return c;
+  })() /* R11.5 sweep 2026-10-16 */,
   (() => {
     // Google push #1061 (R0 item 5, 2026-11-21): answer-first intro, blank/niche sections, 9 FAQs. Prices from R12.1 (pullover $39.99, zip-up $44.99, heavyweight $49.99, oversized $54.99).
     const c = niche(N.menshoodies, 'hoodies', { slug: 'graphic-hoodies-for-men', keyword: 'graphic hoodie men', volume: 27100, kd: 9, product: 'graphic hoodies for men', audience: 'men', name: "Men's Graphic Hoodies" });

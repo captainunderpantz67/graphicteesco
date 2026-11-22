@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: C
 type: redo
 id: 1062
@@ -18,3 +18,4 @@ Done when: astro build passes, audit 0 errors, page 200, log lists changes and t
 ---
 ## Log
 - 2026-11-20 23:19 UTC director: brief written, READY (R0 item 5).
+- 2026-11-22 UTC [B]: built, REVIEW (all in src/data/collections.ts). (1) SEO title 'Graphic Hoodies for Women: Funny, Cozy, From $39.99' (52 chars), meta rewritten (primary once). (2) Answer-first intro: 200+ hoodies on the live grid (250 in the Storefront collection), four blanks with prices (pullover $39.99, cropped and zip-up $44.99, oversized $54.99), printed to order, free US shipping over $45, one free size exchange within 30 days. (3) Sections added: cropped (links /hoodies/cropped-hoodies/), Christmas (/hoodies/christmas-hoodies/, order by Dec 4), cat and gym (/hoodies/cat-hoodies/, /hoodies/gym-hoodies/); all four pages built. No existing copy deleted. (4) FAQs 3 -> 7 (cropped vs pullover fit, sizing up, wash care, Christmas order-by), 40-60 words each. (5) Inbound: one 'Want it warmer?' section with link added to /graphic-tees-for-women/ and /christmas-shirts-for-women/. astro build passes, 7 Question entries in the built page. NOT run: audit/curl on live (no Admin token, pages go live on deploy). Last known position 11-30 (Nov 9-15 pull). fal $0.
