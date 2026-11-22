@@ -435,7 +435,25 @@ export const tees: Collection[] = [
   niche(N.oversized, 'tees', { slug: 'oversized-graphic-tees', keyword: 'oversized graphic tee', volume: 27100, kd: 48, product: 'oversized graphic tees', twin: 'oversized-hoodies' }),
   niche(N.football, 'tees', { slug: 'football-shirts', keyword: 'football shirts', volume: 74000, kd: 51, product: 'football shirts' }),
   niche(N.anime, 'tees', { slug: 'anime-shirts', keyword: 'anime shirts', volume: 18100, kd: 51, product: 'anime-style shirts', twin: 'anime-hoodies' }),
-  niche(N.y2k, 'tees', { slug: 'y2k-graphic-tees', keyword: 'y2k graphic tees', volume: 4400, kd: 52, product: 'Y2K graphic tees', twin: 'y2k-hoodies' }),
+  (() => {
+    // Google push #1066 (R0 item 5, 2026-11-22): answer-first intro, cross-garment section, 7 FAQs. Prices from the live store (tee $24.99, hoodie $39.99, embroidered zip $57.99).
+    const c = niche(N.y2k, 'tees', { slug: 'y2k-graphic-tees', keyword: 'y2k graphic tees', volume: 4400, kd: 52, product: 'Y2K graphic tees', twin: 'y2k-hoodies' });
+    c.title = 'Y2K Graphic Tees: Early-2000s Looks, $24.99';
+    c.description = 'Y2K graphic tees with flip phones, chrome bubble letters and pink glitter art. Original designs, printed to order, $24.99, free size exchange.';
+    c.intro = 'We sell 3 original Y2K graphic tees at $24.99 each, plus 5 Y2K designs in all once you count the hoodies and zip-ups. Every tee is printed to order, ships free in the US on $45 or more, and comes with one free size exchange within 30 days of delivery.';
+    c.sections = [
+      ...c.sections,
+      { h2: 'Y2K hoodies and zip-ups with the same art', body: 'Prefer a layer? Hot Mess Express, Still Loading Since 1999 and Low Battery, High Standards are also printed on pullover hoodies at $39.99 and on embroidered zip hoodies at $57.99. Gold Star for Leaving the House and Main Quest Postponed live on the hoodie page too.',
+        links: [{ href: '/hoodies/y2k-hoodies/', label: 'Y2K hoodies' }, { href: '/hoodies/y2k-zip-up-hoodies/', label: 'Y2K zip-up hoodies' }] },
+    ];
+    c.faqs = [
+      ...c.faqs,
+      { q: 'How do the Y2K tees fit?', a: 'The Y2K tees on this page are the Bella+Canvas 6400 women\'s relaxed tee in sizes S to 3XL, with a looser cut through the body. For a boxier, oversized look size up one; for a closer fit take your usual size. One free size exchange within 30 days covers a wrong guess.' },
+      { q: 'What art is on the Y2K graphic tees?', a: 'Each Graphic Tees Co. Y2K tee pairs an early-2000s object with chrome bubble letters: a glittery pink toy train, a teal desktop computer with a progress bar, and a pink flip phone with a blinking battery. Butterflies and sparkles fill the space around each one.' },
+      { q: 'When should I order a Y2K tee for Christmas?', a: 'Order by Friday, December 4, 2026 to leave a margin for Christmas delivery in the US; December 8 is the last realistic day. Each Y2K tee is printed to order in 2 to 5 business days, then ships in about 3 to 8 business days, and checkout shows a delivery estimate.' },
+    ];
+    return c;
+  })(),
   niche(N.vintage, 'tees', { slug: 'vintage-graphic-tees', keyword: 'vintage graphic tees', volume: 22200, kd: 57, product: 'vintage graphic tees' }),
   niche(N.retro, 'tees', { slug: 'retro-graphic-tees', keyword: 'retro graphic tees', volume: 22200, kd: 54, product: 'retro graphic tees' }) /* RankHero 2026-10-16; R11.6 style collection, hub fed by the retro-graphic-tees tag */,
   (() => { const c = niche(N.funny, 'tees', { slug: 'funny-graphic-tees', keyword: 'funny graphic tees', volume: 5400, kd: 58, product: 'funny graphic tees' }); c.sections = [...c.sections, { h2: 'Funny Black Friday shirts', body: 'Shopping humor is its own corner of the funny tees: coupons, 4 a.m. lines and leftovers. Our funny Black Friday shirts put one clean joke on a $24.99 tee.', links: [{ href: '/black-friday-shirts/', label: 'Black Friday shirts' }] }]; return c; })() /* RankHero 2026-10-16; R11.6 style collection, hub fed by the funny-graphic-tees tag */,
