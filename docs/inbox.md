@@ -1,3 +1,4 @@
+2026-11-22 23:44 UTC — [H] Helper note for director: pipeline 955 (camo twin national park running late, bison traffic) has status LIVE in its file but its 2026-10-21 note says BUILDING/stand-down with mixed prints (1091233302 vs 1091235513). Check which print is on the live product before next publish. Not a Telegram alert.
 # Director inbox
 
 Requests from Sam (paraphrased by the helper) and audit items that need judgment. The director marks each one done.
