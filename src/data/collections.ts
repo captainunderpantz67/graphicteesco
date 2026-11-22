@@ -1134,7 +1134,30 @@ export const hoodies: Collection[] = [
   niche(N.heavyweight, 'hoodies', { slug: 'heavyweight-hoodies', keyword: 'heavyweight hoodie', volume: 14800, kd: 20, product: 'heavyweight hoodies' }),
   niche(N.zipup, 'hoodies', { slug: 'zip-up-hoodies', keyword: 'zip-up hoodie', volume: 135000, kd: 28, product: 'zip-up hoodies' }),
   niche(N.fishing, 'hoodies', { slug: 'fishing-hoodies', keyword: 'fishing hoodie', volume: 6600, kd: 30, product: 'fishing hoodies', twin: 'fishing-t-shirts' }),
-  niche(N.gym, 'hoodies', { slug: 'gym-hoodies', keyword: 'gym hoodie', volume: 18100, kd: 30, product: 'gym hoodies', twin: 'mens-gym-shirts' }),
+  (() => {
+    // Google push #1065 (R0 item 5, 2026-11-22): answer-first intro, men/women/vs-tee sections, 8 FAQs. Prices from the live grid (26 designs): pullover $39.99, cropped $44.99, heavyweight $49.99, oversized $54.99, embroidered zip $57.99.
+    const c = niche(N.gym, 'hoodies', { slug: 'gym-hoodies', keyword: 'gym hoodie', volume: 18100, kd: 30, product: 'gym hoodies', twin: 'mens-gym-shirts' });
+    c.title = 'Gym Hoodies: Funny Lifting Hoodies From $39.99';
+    c.description = 'Gym hoodies with a joke: 26 original designs on pullover, cropped, heavyweight, oversized and embroidered zip hoodies. Printed to order, from $39.99.';
+    c.intro = 'We sell 26 original gym hoodies on five blanks: the pullover at $39.99, the women\'s cropped hoodie at $44.99, the heavyweight at $49.99, the oversized at $54.99 and the embroidered zip-up at $57.99. Every hoodie is printed to order, ships free in the US on $45 or more, and comes with one free size exchange within 30 days of delivery.';
+    c.sections = [
+      ...c.sections,
+      { h2: "Men's gym hoodies", body: "Most of the grid is for men: Sisyphus Had Bad Programming, Twelve Labors. Zero Cardio., Sore Since 1987 and Retired From Cardio, on pullover, heavyweight and oversized hoodies. Pick the heavyweight for cold garage gyms and the oversized for a roomy drop-shoulder fit.",
+        links: [{ href: '/hoodies/gym-hoodies-for-men/', label: "Men's gym hoodies" }] },
+      { h2: "Women's gym hoodies", body: "Lunges & Lattes and Lift Heavy. Reply Later. come as a pullover, a cropped hoodie that sits at the waist ($44.99) and an embroidered zip-up ($57.99), cut for women who train in leggings and a sports bra.",
+        links: [{ href: '/hoodies/cropped-hoodies/', label: 'Cropped hoodies' }] },
+      { h2: 'Gym hoodie vs workout tee', body: 'A hoodie is for the walk in, the warm-up and the drive home, while a tee is for the set itself. The same designs come on both, so pick the tee for lifting and the hoodie for the layers either side.',
+        links: [{ href: '/mens-gym-shirts/', label: "Men's gym shirts" }] },
+    ];
+    c.faqs = [
+      ...c.faqs,
+      { q: 'How warm are the gym hoodies?', a: 'Graphic Tees Co. pullover gym hoodies are a midweight cotton-poly fleece for everyday wear. The heavyweight hoodie ($49.99) uses thicker fleece for cold mornings, and the oversized hoodie ($54.99) is heavyweight cotton with a roomy cut. Pick by how cold your gym or garage gets.' },
+      { q: 'Are these hoodies for lifting in or for after?', a: 'They are cotton fleece hoodies, not moisture-wicking performance gear. Most lifters wear them for the warm-up, the walk in and the drive home, then take them off once they are moving. Graphic Tees Co. also sells the same designs as tees for the set.' },
+      { q: 'How do I wash a gym hoodie so the print lasts?', a: 'Turn the hoodie inside out, wash cold with like colors, and tumble dry low or hang dry. Skip bleach and never iron over the print. Graphic Tees Co. prints direct to garment, and the ink holds up to regular washing with that care.' },
+      { q: 'When should I order a gym hoodie as a Christmas gift?', a: 'Order by Friday, December 4, 2026 to leave a margin for Christmas delivery in the US; December 8 is the last day we recommend. Every hoodie is printed to order in 2–5 business days, then ships in about 3–8 business days, and checkout shows a delivery estimate.' },
+    ];
+    return c;
+  })(),
   niche(N.hunting, 'hoodies', { slug: 'hunting-hoodies', keyword: 'hunting hoodie', volume: 3600, kd: 32, product: 'hunting hoodies', twin: 'hunting-t-shirts' }),
   niche(N.y2k, 'hoodies', { slug: 'y2k-hoodies', keyword: 'y2k hoodie', volume: 14800, kd: 35, product: 'Y2K hoodies', twin: 'y2k-graphic-tees' }),
   niche(N.western, 'hoodies', { slug: 'western-hoodies', keyword: 'western hoodie', volume: 3600, kd: 36, product: 'western hoodies', twin: 'western-graphic-tees' }),

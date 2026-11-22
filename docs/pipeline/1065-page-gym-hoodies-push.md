@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: C
 type: redo
 id: 1065
@@ -18,3 +18,4 @@ Done when: astro build passes, audit 0 errors, page 200, log lists every changed
 ---
 ## Log
 - 2026-11-21 23:30 UTC director: brief written, READY (R0 item 5; $0 queue at 2 after today's 8 approvals; RankHero still returns no data, so no new measured product briefs).
+- 2026-11-22 UTC [B]: built, REVIEW (src/data/collections.ts only). (1) SEO title 'Gym Hoodies: Funny Lifting Hoodies From $39.99' (46 chars), meta hand-written. (2) Answer-first intro: 26 designs on the live grid, five blanks with live prices (pullover $39.99, women's cropped $44.99, heavyweight $49.99, oversized $54.99, embroidered zip $57.99), printed to order, free US shipping over $45, one free size exchange within 30 days. (3) Sections: men's gym hoodies (links /hoodies/gym-hoodies-for-men/), women's (no women's gym page exists, so it links /hoodies/cropped-hoodies/), gym hoodie vs workout tee (links /mens-gym-shirts/). (4) FAQs 4 -> 8 (warmth by blank, lifting in vs after, wash care, Christmas order-by Dec 4), 40-60 words. (5) Inbound: /mens-gym-shirts/, /guides/gym-gifts-for-men/ and /guides/workout-shirts-for-men/ already link /hoodies/gym-hoodies/ in the built output, nothing added. astro build passes, 8 Question entries on the built page. NOT run: audit/curl on live (no Admin token). Last known position 11-30 (Nov 9-15 pull). fal $0.
