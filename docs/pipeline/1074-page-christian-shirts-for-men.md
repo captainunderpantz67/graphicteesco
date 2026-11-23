@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: redo
 id: 1074
@@ -18,3 +18,4 @@ Done when: astro build passes, `node scripts/cohesion-audit.mjs` 0 errors (keywo
 ---
 ## Log
 - 2026-11-22 23:25 UTC director: brief written, READY (card order (3); christian shirts men 12,100 / KD 12, no page yet; $0).
+- 2026-11-23 UTC [B]: built, REVIEW. Shopify: smart collection christian-shirts-for-men (gid 516059889968, rule tag equals) created; tag christian-shirts-for-men added to Short Grace, Still Under Construction and Holy Ghost Friendly Edition tees (Holy Ghost cover alt shows man and woman, so it qualifies, 3 tees, page indexable). Code: collections.ts entry (title 54 chars, meta 150, answer-first intro, 3 sections, FAQs 4 to 10, answers 44-52 words), inbound sentences on /graphic-tees-for-men/ and /christian-shirts/, keyword map: head phrase left the Short Grace tee (claimed now 'short grace shirt', unmeasured). Files: src/data/collections.ts, docs/product-keyword-map.json. astro build passes; audit not run; page not live until deploy (curl 200 for director). fal $0.

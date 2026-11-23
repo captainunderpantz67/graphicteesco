@@ -8132,7 +8132,7 @@
   },
   "mens-christian-short-grace-hot-food-graphic-tee": {
    "claimed": [
-    "christian shirts men"
+    "short grace shirt"
    ],
    "gaps_measured": [
     {
@@ -8148,7 +8148,8 @@
      "source": "RankHero via scripts/keyword-gap.py"
     }
    ],
-   "measured": "2026-10-18"
+   "measured": "2026-10-18",
+   "unmeasured_note": "short grace shirt unmeasured (RankHero blocked 2026-11-23); head phrase christian shirts men moved to /christian-shirts-for-men/ (#1074)"
   },
   "womens-cropped-book-buying-ban-graphic-tee": {
    "claimed": [

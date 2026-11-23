@@ -427,7 +427,36 @@ export const tees: Collection[] = [
   niche(N.footballmom, 'tees', { slug: 'football-mom-shirts', keyword: 'football mom shirts', volume: 3600, kd: 50, product: 'football mom shirts', audience: 'women', name: 'Football Mom Shirts' }),
   niche(N.baseballmom, 'tees', { slug: 'baseball-mom-shirts', keyword: 'baseball mom shirts', volume: 3600, kd: 50, product: 'baseball mom shirts', audience: 'women', name: 'Baseball Mom Shirts' }),
   niche(N.nurse, 'tees', { slug: 'nurse-shirts', keyword: 'nurse shirts', volume: 9900, kd: 55, product: 'nurse shirts', audience: 'women', name: 'Nurse Shirts' }),
-  niche(N.christian, 'tees', { slug: 'christian-shirts', keyword: 'christian shirts', volume: 12100, kd: 58, product: 'Christian shirts', audience: 'women', name: 'Christian Shirts' }),
+  (() => {
+    const c = niche(N.christian, 'tees', { slug: 'christian-shirts', keyword: 'christian shirts', volume: 12100, kd: 58, product: 'Christian shirts', audience: 'women', name: 'Christian Shirts' });
+    // #1074 inbound link: one natural sentence to the men's page.
+    c.sections = [...c.sections, { h2: 'Christian shirts for him', body: 'Shopping for a husband, dad or men\'s group? Our Christian shirts for men page has the three tees made for him, from Short Grace. Hot Food. to Still Under Construction.', links: [{ href: '/christian-shirts-for-men/', label: 'Christian shirts for men' }] }];
+    return c;
+  })(),
+  (() => {
+    // #1074 (2026-11-23): men's Christian tee page. christian shirts men 12,100 / KD 11-12 (RankHero 2026-10-17, valid to 2027-01-15). Three tees tagged christian-shirts-for-men; Holy Ghost cover shows a man and a woman (covers.ts), so it qualifies (R7.5). Tees only; hoodies stay on /hoodies/christian-hoodies/.
+    const c = niche(N.christian, 'tees', { slug: 'christian-shirts-for-men', keyword: 'christian shirts men', volume: 12100, kd: 12, product: "men's Christian shirts", audience: 'men', name: "Men's Christian Shirts" }) /* RankHero 2026-10-17 */;
+    c.title = "Christian Shirts for Men: Funny & Sincere Tees, $24.99";
+    c.description = "Christian shirts men will wear: Short Grace. Hot Food., Still Under Construction and Holy Ghost, Friendly Edition. 4.2 oz tees, $24.99 through Nov 30.";
+    c.intro = "We sell 3 Christian shirts for men, each a Bella+Canvas 3001 tee (100% combed ring-spun cotton, 4.2 oz) in sizes S to 4XL: $24.99 through November 30, then $29.99 from December 1. Every shirt is printed to order; order by Friday, December 4, 2026 for Christmas delivery in the US, and you get one free size exchange with nothing to mail back.";
+    c.sections = [
+      ...c.sections,
+      { h2: 'The three Christian tees', body: "Short Grace. Hot Food. is the joke the church already makes: a 1950s dinner table, a dad with his head bowed and a pot roast going cold, for the man who keeps the blessing short. Still Under Construction. is sincere: Jesus the carpenter at a workbench mending a chair, with Philippians 1:6 underneath, for the men's Bible study. Holy Ghost, Friendly Edition. is a church-kid joke, a small sheet ghost with a halo hugging a worn book." },
+      { h2: 'Where to wear them', body: "Sunday service, the men's group, small group, a church fall festival or Sunday dinner. They are lightweight unisex tees, so a man and a woman can both wear the Holy Ghost, Friendly Edition design." },
+      { h2: 'Want it warmer?', body: "The same designs also come as hoodies, including Short Grace and Still Under Construction. See our Christian hoodies, or our Christian shirts for her.",
+        links: [{ href: '/hoodies/christian-hoodies/', label: 'Christian hoodies' }, { href: '/christian-shirts/', label: 'Christian shirts for her' }] },
+    ];
+    c.faqs = [
+      ...c.faqs,
+      { q: 'How do the Christian shirts for men fit?', a: 'They are a classic unisex crew neck in sizes S through 4XL. Order your usual size for a regular fit, or size up one for a looser, roomier fit. Compare the size chart with a tee you already own; Graphic Tees Co. offers one free size exchange within 30 days of delivery.' },
+      { q: 'What are the Christian tees made of?', a: 'Each one is a Bella+Canvas 3001, 100% combed, ring-spun cotton at a lightweight 4.2 oz per square yard, pre-shrunk with side seams. Heather colors contain some polyester. It is soft and breathable enough for a Sunday service, small group or a church fall festival.' },
+      { q: 'What does Still Under Construction mean?', a: 'The Still Under Construction tee shows Jesus the carpenter at a workbench mending a worn chair, with Philippians 1:6 below: God who began a good work in you will carry it on to completion. It is a sincere design for men who know they are works in progress.' },
+      { q: 'How do I wash a printed Christian tee?', a: 'Turn the tee inside out and wash in cold water with similar colors, then tumble dry low or hang to dry. Skip bleach and fabric softener, and never iron over the print. Cold washing keeps the inks looking sharp longer through plenty of Sunday mornings.' },
+      { q: 'When should I order for Christmas?', a: 'Order by Friday, December 4, 2026 to leave a safe margin for Christmas delivery in the US. Each tee is printed to order in 2–5 business days, then ships in about 3–8 business days. Orders over $45 ship free, and checkout shows a delivery estimate.' },
+      { q: 'Are these good gifts for a pastor, dad or church group?', a: 'Yes. Short Grace. Hot Food. suits any dad who says the family blessing, and Still Under Construction suits a husband or a men\'s group friend. Every design is family-clean original art, and the free size exchange within 30 days covers a sizing guess for the recipient.' },
+    ];
+    return c;
+  })(),
   niche(N.gym, 'tees', { slug: 'mens-gym-shirts', keyword: 'mens gym shirts', volume: 18100, kd: 10, product: "men's gym shirts", twin: 'gym-hoodies', audience: 'men', name: "Men's Gym Shirts" }),
   niche(N.western, 'tees', { slug: 'western-graphic-tees', keyword: 'western graphic tees', volume: 2400, kd: 16, product: 'western graphic tees', twin: 'western-hoodies' }),
   niche(N.fishing, 'tees', { slug: 'fishing-t-shirts', keyword: 'fishing t shirts', volume: 6600, kd: 46, product: 'fishing t-shirts', twin: 'fishing-hoodies', guideSection: { h2: 'What to wear fishing', body: 'Not sure what to wear on a cold dock versus a warm one? Our guide to fishing shirts for men sorts the light tees from the fleece layers.', links: [{ href: '/guides/fishing-shirts-for-men/', label: 'Fishing shirts for men' }] } }),
@@ -469,7 +498,7 @@ export const tees: Collection[] = [
       { h2: 'Shop by what you do', body: 'Pick the collection that fits your weekends: the lake, the deer stand, the gym or the ranch.' },
       { h2: 'Graphic tees for men over 40', body: 'Original designs about real interests — fishing, hunting, ranch life — wear better than trend slogans at any age. Go with a classic fit and a tee that fits your shoulders.' },
       { h2: 'Graphic hoodies for men', body: 'Many of these designs also come as hoodies. Our graphic hoodies for men cover pullover, zip-up, heavyweight and oversized blanks from $39.99, and the full-zip ones have their own page of men\'s zip-up hoodies.', links: [{ href: '/hoodies/graphic-hoodies-for-men/', label: 'Graphic hoodies for men' }, { href: '/hoodies/zip-up-hoodies-for-men/', label: "Men's zip-up hoodies" }] },
-      { h2: 'Printed when you order', body: 'Each tee is printed after you order it, so the catalog keeps growing without leftovers.' },
+      { h2: 'Printed when you order', body: 'Each tee is printed after you order it, so the catalog keeps growing without leftovers. For faith designs, see our Christian shirts for men.', links: [{ href: '/christian-shirts-for-men/', label: 'Christian shirts for men' }] },
     ],
     faqs: [
       { q: 'Are these graphic tees original designs?', a: 'Yes. Every design is made for this shop — no licensed characters or resold stock art.' },
