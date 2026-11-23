@@ -457,7 +457,28 @@ export const tees: Collection[] = [
     ];
     return c;
   })(),
-  niche(N.gym, 'tees', { slug: 'mens-gym-shirts', keyword: 'mens gym shirts', volume: 18100, kd: 10, product: "men's gym shirts", twin: 'gym-hoodies', audience: 'men', name: "Men's Gym Shirts" }),
+  (() => {
+    // Google push #1077 (R0 item 5, 2026-11-23): answer-first intro, hoodie-for-cold-walks section, guide links, 8 FAQs. Facts from the live grid (20 designs, $24.99 sale tee, Bella+Canvas 3001 4.2 oz). Last position unknown.
+    const c = niche(N.gym, 'tees', { slug: 'mens-gym-shirts', keyword: 'mens gym shirts', volume: 18100, kd: 10, product: "men's gym shirts", twin: 'gym-hoodies', audience: 'men', name: "Men's Gym Shirts" });
+    c.title = "Men's Gym Shirts: Funny Lifting Tees, $24.99";
+    c.description = "Men's gym shirts: Twelve Labors. Zero Cardio., Sisyphus Had Bad Programming, Rack Your Weights Respectfully. 20 original tees, $24.99, printed to order.";
+    c.intro = "We sell 20 original gym shirts for men, each a Bella+Canvas 3001 tee (100% combed ring-spun cotton, 4.2 oz) in sizes S to 4XL: $24.99 through November 30, then $29.99 from December 1. Every shirt is printed to order; order by Friday, December 4, 2026 for Christmas delivery in the US, and you get one free size exchange with nothing to mail back.";
+    c.sections = [
+      ...c.sections,
+      { h2: 'Gym hoodies for cold walks to the gym', body: "The same lifting jokes come on hoodies for the walk in and the drive home. Pick the tee for the set and the hoodie for the layers either side.",
+        links: [{ href: '/hoodies/gym-hoodies/', label: 'Gym hoodies' }] },
+      { h2: 'Guides for lifters', body: "Not sure which design to pick? Our guide to workout shirts for men sorts the fits and fabrics, and our gifts for gym rats guide covers the lifter who has everything.",
+        links: [{ href: '/guides/workout-shirts-for-men/', label: 'Workout shirts for men' }, { href: '/guides/gifts-for-gym-rats/', label: 'Gifts for gym rats' }] },
+    ];
+    c.faqs = [
+      ...c.faqs,
+      { q: 'Can you lift in a cotton gym tee?', a: 'Yes, though it is cotton, not moisture-wicking performance fabric. Graphic Tees Co. gym shirts are Bella+Canvas 3001 tees in 100% combed ring-spun cotton at a light 4.2 oz, so they breathe well for a lift but will not wick sweat like polyester.' },
+      { q: 'How do the men\'s gym shirts fit?', a: 'They are a classic unisex fit with a crew neck, in sizes S through 4XL. Order your usual size for a regular fit or go up one for a looser lifting fit. Compare the size chart with a tee you already own, and the first size exchange is free.' },
+      { q: 'How do I wash a gym shirt so the print lasts?', a: 'Turn the shirt inside out, wash it cold with similar colors, then tumble dry low or hang it to dry. Skip bleach and fabric softener, and never iron directly over the print. Graphic Tees Co. prints each shirt to order, and that care keeps the ink bright.' },
+      { q: 'Is a gym shirt a good gift for a lifter?', a: 'Yes. Graphic Tees Co. gym shirts suit the gym buddy, the brother who never skips leg day and the dad with a garage gym. Pick a line he will recognize, like Twelve Labors. Zero Cardio., and add a size exchange in case the fit is off.' },
+    ];
+    return c;
+  })(),
   niche(N.western, 'tees', { slug: 'western-graphic-tees', keyword: 'western graphic tees', volume: 2400, kd: 16, product: 'western graphic tees', twin: 'western-hoodies' }),
   niche(N.fishing, 'tees', { slug: 'fishing-t-shirts', keyword: 'fishing t shirts', volume: 6600, kd: 46, product: 'fishing t-shirts', twin: 'fishing-hoodies', guideSection: { h2: 'What to wear fishing', body: 'Not sure what to wear on a cold dock versus a warm one? Our guide to fishing shirts for men sorts the light tees from the fleece layers.', links: [{ href: '/guides/fishing-shirts-for-men/', label: 'Fishing shirts for men' }] } }),
   niche(N.hunting, 'tees', { slug: 'hunting-t-shirts', keyword: 'hunting shirts', volume: 14800, kd: 44, product: 'hunting shirts', twin: 'hunting-hoodies' }) /* RankHero 2026-10-06: "hunting shirts" 14,800 / KD 44; "hunting t shirts" unmeasured */,
@@ -495,7 +516,7 @@ export const tees: Collection[] = [
     h1: 'Graphic Tees for Men',
     intro: 'Original graphic tees for men — fishing, hunting, western, gym and seasonal designs. New collections drop every month.',
     sections: [
-      { h2: 'Shop by what you do', body: 'Pick the collection that fits your weekends: the lake, the deer stand, the gym or the ranch.' },
+      { h2: 'Shop by what you do', body: 'Pick the collection that fits your weekends: the lake, the deer stand, the gym or the ranch. For the lifters, our men\'s gym shirts page has 20 funny lifting tees from $24.99.', links: [{ href: '/mens-gym-shirts/', label: "Men's gym shirts" }] },
       { h2: 'Graphic tees for men over 40', body: 'Original designs about real interests — fishing, hunting, ranch life — wear better than trend slogans at any age. Go with a classic fit and a tee that fits your shoulders.' },
       { h2: 'Graphic hoodies for men', body: 'Many of these designs also come as hoodies. Our graphic hoodies for men cover pullover, zip-up, heavyweight and oversized blanks from $39.99, and the full-zip ones have their own page of men\'s zip-up hoodies.', links: [{ href: '/hoodies/graphic-hoodies-for-men/', label: 'Graphic hoodies for men' }, { href: '/hoodies/zip-up-hoodies-for-men/', label: "Men's zip-up hoodies" }] },
       { h2: 'Printed when you order', body: 'Each tee is printed after you order it, so the catalog keeps growing without leftovers. For faith designs, see our Christian shirts for men.', links: [{ href: '/christian-shirts-for-men/', label: 'Christian shirts for men' }] },
