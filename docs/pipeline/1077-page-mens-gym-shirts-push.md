@@ -1,4 +1,4 @@
-status: READY
+status: BUILDING [B]
 lane: B
 type: redo
 id: 1077
