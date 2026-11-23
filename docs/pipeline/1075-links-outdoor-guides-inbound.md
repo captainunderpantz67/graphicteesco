@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: redo
 id: 1075
@@ -17,3 +17,4 @@ Done when: astro build passes, all 6 links present in the built HTML and 200, au
 ---
 ## Log
 - 2026-11-22 23:25 UTC director: brief written, READY ($0 internal links for the 2 guides published this run).
+- 2026-11-23 [B]: built, REVIEW. Files: src/data/collections.ts (niche() got an optional guideSection; fishing-t-shirts and fishing-hoodies link /guides/fishing-shirts-for-men/; national-park-hoodies and graphic-tees-for-women link /guides/hiking-shirts-for-women/), src/data/guides.ts (gifts-for-fishermen and fishing-gifts-for-dad link the fishing guide). All 6 links present in built HTML, guides built (200 in dist), astro build passes 161 pages. Step 4: product pages are Shopify-rendered, not in this repo's build; Treat Me Like Wildlife related-guide block not checked, left for director. fal $0.

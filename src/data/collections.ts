@@ -311,7 +311,7 @@ function metaTrim(text: string, max = 155): string {
 function niche(
   n: Niche,
   section: Section,
-  o: { slug: string; keyword: string; volume: number; kd: number; product: string; twin?: string; audience?: 'women' | 'men'; name?: string },
+  o: { slug: string; keyword: string; volume: number; kd: number; product: string; twin?: string; audience?: 'women' | 'men'; name?: string; guideSection?: { h2: string; body: string; links: { href: string; label: string }[] } },
 ): Collection {
   const P = o.product;
   const item = section === 'hoodies' ? 'hoodie' : 'tee';
@@ -333,7 +333,8 @@ function niche(
         ? { h2: `Same designs as our ${n.label.toLowerCase()} tees`, body: 'Every design here started as a tee. Grab the tee for warm days and the hoodie when it turns cold.' }
         : site.facts.hoodiesLive ? { h2: 'Want it warmer? Look for the hoodie', body: 'A growing number of our designs are also printed on hoodies with the same art, so it still works when the weather turns. Hoodie versions live in our hoodie collections.' } : null,
       ...(n.style ? [{ h2: `How to wear ${P}`, body: n.style }] : []),
-    ].filter(Boolean) as { h2: string; body: string }[],
+      ...(o.guideSection ? [o.guideSection] : []),
+    ].filter(Boolean) as { h2: string; body: string; links?: { href: string; label: string }[] }[],
     faqs: [
       ...(n.faqs?.(P, section) ?? []),
       ...(n.original ? [{ q: 'Are these original designs?', a: n.original }] : []),
@@ -388,7 +389,7 @@ export const tees: Collection[] = [
     intro: 'Original graphic tees for women — country and western, fishing, faith, football-mom and seasonal designs, with a new collection every month.',
     sections: [
       { h2: 'Shop by what you love', body: 'Country, western, fishing, nurse, faith and seasonal drops — every collection is original art, not stock graphics.' },
-      { h2: 'Graphic tees for every age', body: 'Graphic tees aren’t an age thing. Pick a design about something you love and a fit you’re comfortable in.' },
+      { h2: 'Graphic tees for every age', body: 'Graphic tees aren’t an age thing. Pick a design about something you love and a fit you’re comfortable in. Trail days too: see our guide to hiking shirts for women.', links: [{ href: '/guides/hiking-shirts-for-women/', label: 'Hiking shirts for women' }] },
       { h2: 'Printed when you order', body: 'Each tee is printed after you order it, so the catalog keeps growing without leftovers. For the holidays, see our Christmas shirts for women.', links: [{ href: '/christmas-shirts-for-women/', label: 'Christmas shirts for women' }] },
       { h2: 'Want it warmer?', body: 'Many of these designs also come as hoodies. Our graphic hoodies for women cover pullover, cropped, zip-up and oversized blanks from $39.99.', links: [{ href: '/hoodies/graphic-hoodies-for-women/', label: 'Graphic hoodies for women' }] },
     ],
@@ -429,7 +430,7 @@ export const tees: Collection[] = [
   niche(N.christian, 'tees', { slug: 'christian-shirts', keyword: 'christian shirts', volume: 12100, kd: 58, product: 'Christian shirts', audience: 'women', name: 'Christian Shirts' }),
   niche(N.gym, 'tees', { slug: 'mens-gym-shirts', keyword: 'mens gym shirts', volume: 18100, kd: 10, product: "men's gym shirts", twin: 'gym-hoodies', audience: 'men', name: "Men's Gym Shirts" }),
   niche(N.western, 'tees', { slug: 'western-graphic-tees', keyword: 'western graphic tees', volume: 2400, kd: 16, product: 'western graphic tees', twin: 'western-hoodies' }),
-  niche(N.fishing, 'tees', { slug: 'fishing-t-shirts', keyword: 'fishing t shirts', volume: 6600, kd: 46, product: 'fishing t-shirts', twin: 'fishing-hoodies' }),
+  niche(N.fishing, 'tees', { slug: 'fishing-t-shirts', keyword: 'fishing t shirts', volume: 6600, kd: 46, product: 'fishing t-shirts', twin: 'fishing-hoodies', guideSection: { h2: 'What to wear fishing', body: 'Not sure what to wear on a cold dock versus a warm one? Our guide to fishing shirts for men sorts the light tees from the fleece layers.', links: [{ href: '/guides/fishing-shirts-for-men/', label: 'Fishing shirts for men' }] } }),
   niche(N.hunting, 'tees', { slug: 'hunting-t-shirts', keyword: 'hunting shirts', volume: 14800, kd: 44, product: 'hunting shirts', twin: 'hunting-hoodies' }) /* RankHero 2026-10-06: "hunting shirts" 14,800 / KD 44; "hunting t shirts" unmeasured */,
   niche(N.soccermom, 'tees', { slug: 'soccer-mom-shirts', keyword: 'soccer mom shirts', volume: 2900, kd: 42, product: 'soccer mom shirts', audience: 'women', name: 'Soccer Mom Shirts' }),
   niche(N.oversized, 'tees', { slug: 'oversized-graphic-tees', keyword: 'oversized graphic tee', volume: 27100, kd: 48, product: 'oversized graphic tees', twin: 'oversized-hoodies' }),
@@ -1164,7 +1165,7 @@ export const hoodies: Collection[] = [
   },
   niche(N.heavyweight, 'hoodies', { slug: 'heavyweight-hoodies', keyword: 'heavyweight hoodie', volume: 14800, kd: 20, product: 'heavyweight hoodies' }),
   niche(N.zipup, 'hoodies', { slug: 'zip-up-hoodies', keyword: 'zip-up hoodie', volume: 135000, kd: 28, product: 'zip-up hoodies' }),
-  niche(N.fishing, 'hoodies', { slug: 'fishing-hoodies', keyword: 'fishing hoodie', volume: 6600, kd: 30, product: 'fishing hoodies', twin: 'fishing-t-shirts' }),
+  niche(N.fishing, 'hoodies', { slug: 'fishing-hoodies', keyword: 'fishing hoodie', volume: 6600, kd: 30, product: 'fishing hoodies', twin: 'fishing-t-shirts', guideSection: { h2: 'What to wear fishing', body: 'Not sure what to wear on a cold dock versus a warm one? Our guide to fishing shirts for men sorts the light tees from the fleece layers.', links: [{ href: '/guides/fishing-shirts-for-men/', label: 'Fishing shirts for men' }] } }),
   (() => {
     // Google push #1065 (R0 item 5, 2026-11-22): answer-first intro, men/women/vs-tee sections, 8 FAQs. Prices from the live grid (26 designs): pullover $39.99, cropped $44.99, heavyweight $49.99, oversized $54.99, embroidered zip $57.99.
     const c = niche(N.gym, 'hoodies', { slug: 'gym-hoodies', keyword: 'gym hoodie', volume: 18100, kd: 30, product: 'gym hoodies', twin: 'mens-gym-shirts' });
@@ -1475,7 +1476,7 @@ export const hoodies: Collection[] = [
     sections: [
       { h2: 'Travel-poster art with a punchline', body: 'Each design is a 1930s-style travel poster of a park feeling, not a logo: bison crossing the road, a red-rock canyon, two friends roaming a wildflower valley. The joke sits in big type above and below the scene so it reads from across the trailhead.' },
       { h2: 'Pick your hoodie', body: 'Choose an 8 oz pullover with a front pouch, a full-zip hoodie with the art on the back, or a heavyweight hoodie in thicker fleece for cold mornings at the overlook. Every one is unisex or women\'s fit as named on the product.' },
-      { h2: 'Made for the road trip', body: 'Wear it on the drive, at the visitor center and around the campfire. Wash inside out on cold so the print stays bright for the next trip.' },
+      { h2: 'Made for the road trip', body: 'Wear it on the drive, at the visitor center and around the campfire. Wash inside out on cold so the print stays bright for the next trip. Heading out on foot? Our guide to hiking shirts for women covers what to layer on the trail.', links: [{ href: '/guides/hiking-shirts-for-women/', label: 'Hiking shirts for women' }] },
     ],
     faqs: [
       { q: 'Are these official National Park Service hoodies?', a: 'No. Graphic Tees Co. national park hoodies are original art made for this shop, drawn in a vintage travel-poster style. They do not use the National Park Service arrowhead or any official logo, and no park name is printed as a brand.' },
