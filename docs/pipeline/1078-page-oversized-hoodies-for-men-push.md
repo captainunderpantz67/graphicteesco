@@ -1,4 +1,4 @@
-status: BUILDING [B]
+status: REVIEW
 lane: C
 type: redo
 id: 1078
@@ -18,3 +18,4 @@ Done when: astro build passes, audit 0 errors, page 200, log lists every changed
 ---
 ## Log
 - 2026-11-23 14:40 UTC director: brief written, READY ($0; easy head term).
+- 2026-11-23 UTC [B] built: collections.ts override for oversized-hoodies-for-men. Title "Men's Oversized Hoodies: Funny Fleece, $54.99" (45 chars); meta 154 chars naming 3 printed lines; answer-first intro from the live product page (18 designs, oversized $54.99 and heavyweight $49.99, 60/40 cotton-poly brushed fleece 10 oz, front pocket, no drawcord, S-3XL; the brief's Bella+Canvas 4719 is not what the page shows, so no blank brand named); sizing section linking /hoodies/oversized-hoodies/ and /guides/best-oversized-hoodies/ (200); FAQs 5 to 9. No inch measurements quoted (no size chart data in repo). Inbound links already present on graphic-hoodies-for-men and the best-oversized guide. astro build passes. Position unknown. Audit not run (no admin-json). fal $0.

@@ -1276,7 +1276,26 @@ export const hoodies: Collection[] = [
     ];
     return c;
   })(),
-  niche(N.oversized, 'hoodies', { slug: 'oversized-hoodies-for-men', keyword: 'oversized hoodie men', volume: 18100, kd: 10, product: "men's oversized hoodies", audience: 'men', name: "Men's Oversized Hoodies" }) /* RankHero 2026-10-16 */,
+  (() => {
+    // Google push #1078 (R0 item 5, 2026-11-23): answer-first intro, sizing section, links, 8 FAQs. Facts read from live product pages 2026-11-23 (Sore Since 1987 oversized): 60% cotton / 40% polyester brushed fleece, 10 oz/yd2, double-layered hood with no drawcord, front pocket, S-3XL, Dust and Navy. Grid: 18 designs, oversized $54.99, heavyweight $49.99. No inch measurements quoted (read the size chart on each product). Last position unknown.
+    const c = niche(N.oversized, 'hoodies', { slug: 'oversized-hoodies-for-men', keyword: 'oversized hoodie men', volume: 18100, kd: 10, product: "men's oversized hoodies", audience: 'men', name: "Men's Oversized Hoodies" }) /* RankHero 2026-10-16 */;
+    c.title = "Men's Oversized Hoodies: Funny Fleece, $54.99";
+    c.description = "Men's oversized hoodies with a joke: Sore Since 1987, Rack Your Weights Respectfully, Bulking Season. 10 oz brushed fleece, from $49.99. Printed to order.";
+    c.intro = "We sell 18 original hoodies for men here, mostly on our oversized blank at $54.99 (60% cotton, 40% polyester brushed fleece, 10 oz, front pocket, sizes S to 3XL) plus a few heavyweight hoodies at $49.99. The cut is roomy with a dropped, slouchy feel. Every hoodie is printed to order; order by Friday, December 4, 2026 for Christmas delivery in the US, and you get one free size exchange with nothing to mail back.";
+    c.sections = [
+      ...c.sections,
+      { h2: 'Oversized or regular? How to size', body: "The oversized hoodie is cut roomy on purpose, so most people keep their usual size for the slouchy look and size down only for a closer fit. Check the size chart on each product and compare it with a hoodie you already own. If the size is a guess, the first exchange is free.",
+        links: [{ href: '/hoodies/oversized-hoodies/', label: 'All oversized hoodies' }, { href: '/guides/best-oversized-hoodies/', label: 'Best oversized hoodies' }] },
+    ];
+    c.faqs = [
+      ...c.faqs,
+      { q: 'Should I size down in an oversized hoodie?', a: 'Only if you want a closer fit. The Graphic Tees Co. oversized hoodie is cut roomy on purpose, so your usual size gives the slouchy look. Compare the size chart with a hoodie you own, and use the free size exchange if it is off.' },
+      { q: 'How warm is the oversized hoodie?', a: 'It is a 10 oz brushed fleece in 60% cotton and 40% polyester, soft inside and warm enough for a cool evening or an indoor layer. For colder days, Graphic Tees Co. also sells heavyweight hoodies at $49.99 in this collection.' },
+      { q: 'Does the hoodie have a pocket and drawstrings?', a: 'The oversized hoodie has a front pocket and a double-layered hood with no drawcord. That keeps the look clean and the print uninterrupted. Graphic Tees Co. prints each hoodie to order in sizes S through 3XL.' },
+      { q: 'Will an oversized hoodie shrink in the wash?', a: 'Any cotton-blend fleece can shrink a little, so wash it inside out in cold water and hang it dry or tumble on low. Skip bleach and fabric softener, and never iron over the print. Graphic Tees Co. prints each hoodie to order.' },
+    ];
+    return c;
+  })(),
   niche(N.gym, 'hoodies', { slug: 'gym-hoodies-for-men', keyword: 'mens gym hoodie', volume: 9900, kd: 31, product: "men's gym hoodies", audience: 'men', name: "Men's Gym Hoodies" }) /* RankHero 2026-10-16 */,
   niche(N.halfzip, 'hoodies', { slug: 'half-zip-pullovers', keyword: 'half zip pullover', volume: 5400, kd: 14, product: 'half zip pullovers', name: 'Half Zip Pullovers' }) /* RankHero 2026-10-16; Bella+Canvas 4740 */,
   (() => {
