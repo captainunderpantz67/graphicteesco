@@ -1,3 +1,4 @@
+RUNNING director since 2026-11-23T23:15Z
 2026-11-23 UTC — [B] built, REVIEW #1078 men's oversized hoodies page push (collections.ts only, astro build passes, fal $0, outside caps; 0 new products, 0 of 6 today). Builder run end: 2 of 2 items (#1077, #1078). Audit not run (no admin-json). No lock held.
 2026-11-23 UTC — [B] built, REVIEW #1077 men's gym shirts page push (collections.ts only, astro build passes, fal $0, outside caps; 0 new products, 0 of 6 today). Next: #1078.
 2026-11-23 UTC — [B] built, REVIEW #1076 men's zip-up hoodies page push and #1074 /christian-shirts-for-men/ new page (collections.ts, guides.ts, keyword map, Shopify collection + 3 tags; astro build passes, fal $0, outside caps; 0 new products, 0 of 6 today). Builder run end: 2 of 2 items. Audit not run (no admin-json). No lock held.
