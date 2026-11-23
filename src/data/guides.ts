@@ -5398,6 +5398,90 @@ export const allGuides: Guide[] = [
       { q: 'How early should I order a fishing shirt for Christmas?', a: 'Order by Friday, December 4 to be safe; December 8 is the last realistic day. Graphic Tees Co. prints each piece to order in 2 to 5 business days, and US shipping is free on orders of $45 or more.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-23). Keyword: cheap christmas gifts 60,500 Dec / KD 12 (docs/inbox.md 2026-10-19 RankHero seasonal sweep, quoted, unverified this run: no RankHero key unattended; director please confirm). No competition count, so editorial (R2.10): a guide target, never a product primary. Not owned by any collection or guide in this repo.
+    // Facts (art, prices, fabrics, colors, sizes) from the LIVE Shopify Stories read 2026-11-23; policies and dates from site.ts and the sibling christmas guides. FAQ questions are not from PAA or GSC (not available unattended).
+    // Picks (all ACTIVE, $24.99, every handle in src/data/fresh-designs.json): Resting My Eyes, It Looked Smaller at the Farm, White Elephant Champion, Nana's Cookies, Card Photo Survivor, We Said No Gifts.
+    // Sibling guides (live or planned): christmas-gifts-for-coworkers, christmas-gifts-for-friends, white-elephant-gifts, funny-mens-christmas-shirts. Planned: stocking-stuffers-under-20 (socks are not in fresh-designs.json, so they are left out of picks).
+    slug: 'cheap-christmas-gifts',
+    keyword: 'cheap christmas gifts',
+    title: 'Cheap Christmas Gifts: 6 Funny Tees at $24.99 or Less',
+    description: 'Cheap Christmas gifts that are not junk: six original funny Christmas tees at $24.99, printed to order, free size exchange. Order by December 4, 2026.',
+    h1: 'Cheap Christmas Gifts That Do Not Look Cheap: Funny Tees at $24.99',
+    date: '2026-11-23',
+    cluster: 'christmas',
+    answer: 'A cheap Christmas gift that still gets worn is a funny Christmas tee. Graphic Tees Co. sells six original designs at $24.99 each through November 30, 2026 (then $29.99): Resting My Eyes, It Looked Smaller at the Farm, I Stole It. I’m Keeping It., The Recipe Dies With Me, Take 41. Still Smiling. and We Said No Gifts. Each is printed after you order. Two tees come to $49.98 and ship free in the US, because shipping is free at $45. Order by December 4, 2026.',
+    picks: [
+      {
+        h2: 'What is a cheap Christmas gift for the dad who naps in the recliner?',
+        body: ['Resting My Eyes, $24.99. Every family has someone asleep by three o’clock on Christmas Day who insists he is only resting his eyes. The family buys this one for him.'],
+        items: [
+          { slogan: 'RESTING MY EYES', tee: 'mens-christmas-resting-my-eyes-graphic-tee', crewneck: 'mens-christmas-resting-my-eyes-crewneck-sweatshirt',
+            text: 'A 1950s storybook scene: a dad tipped back in a plaid recliner with his mouth open, a Santa hat sliding off, reading glasses pushed up, a half-unwrapped polka-dot present on his lap, a small lit tree beside the chair and a sleepy cat on his shoulder. RESTING in pine-green capitals and MY EYES in Santa-hat red run underneath. The tee is a classic unisex fit in 4.2 oz cotton, $24.99 in White, Natural, Ash, Athletic Heather, Heather Dust and Tan, sizes S to 4XL.' },
+        ],
+      },
+      {
+        h2: 'What is a cheap Christmas gift for a husband, brother or dad who picks the biggest tree?',
+        body: ['It Looked Smaller at the Farm, $24.99. It is for the guy who chose the tree with his eyes instead of a tape measure.'],
+        items: [
+          { slogan: 'IT LOOKED SMALLER AT THE FARM', tee: 'mens-christmas-it-looked-smaller-at-the-farm-graphic-tee', crewneck: 'mens-christmas-it-looked-smaller-at-the-farm-crewneck-sweatshirt',
+            text: 'A deadpan storybook man in a red plaid flannel and a knit cap stands beside a fir far too big for the room: the top bends against a ceiling beam, the star is on the floor, ornaments hang crooked and a limp yellow tape measure dangles from his hand. IT LOOKED SMALLER runs across the top and AT THE FARM across the bottom in chunky faded-red slab capitals. The tee is a classic unisex fit in 4.2 oz cotton, $24.99 in Natural, Soft Cream, Ash, Athletic Heather, Navy, Heather Navy and Dark Grey Heather, sizes S to 4XL.' },
+        ],
+      },
+      {
+        h2: 'What is a cheap gift for a white elephant or office exchange?',
+        body: ['I Stole It. I’m Keeping It., $24.99. It suits the person who swipes the best gift and will not give it back, and it fits a gift-swap price cap.'],
+        items: [
+          { slogan: 'I STOLE IT. I’M KEEPING IT.', tee: 'mens-christmas-white-elephant-champion-graphic-tee', crewneck: 'mens-christmas-white-elephant-champion-crewneck-sweatshirt',
+            text: 'A proud mustached man in a striped Christmas sweater and a bobble hat stands on a small podium hugging a wrapped gift with a big bow like a championship belt, a tiny gold trophy at his feet. I STOLE IT. runs in dark red capitals and I’M KEEPING IT. in navy. The tee is a classic unisex fit in 4.2 oz cotton, $24.99 in White, Natural, Heather Dust, Athletic Heather, Ash, Tan and Sage, sizes S to 4XL.' },
+        ],
+        links: [{ href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }],
+      },
+      {
+        h2: 'What is a cheap Christmas gift for a grandma who will not share the recipe?',
+        body: ['The Recipe Dies With Me, $24.99. She bakes a hundred cookies and takes the recipe to the grave.'],
+        items: [
+          { slogan: 'THE RECIPE DIES WITH ME.', tee: 'womens-christmas-nanas-cookies-graphic-tee', crewneck: 'womens-christmas-nanas-cookies-crewneck-sweatshirt',
+            text: 'A vintage bakery tray of gingerbread men, frosted sprinkle stars and a sugar-cookie tree, with a holly sprig and a wooden rolling pin. THE RECIPE in dark brown and DIES WITH ME. in red fill the width of the print in heavy capitals. The tee is a relaxed women’s cut in 4.2 oz cotton, $24.99 in White, Natural, Heather Stone, Athletic Heather, Pink and Light Violet, sizes S to 3XL.' },
+        ],
+      },
+      {
+        h2: 'What is a cheap Christmas gift for a family, or for a couple?',
+        body: ['Take 41. Still Smiling. and We Said No Gifts. are both unisex tees at $24.99, and two tees ship free because they pass $45.'],
+        items: [
+          { slogan: 'TAKE 41. STILL SMILING.', tee: 'unisex-christmas-card-photo-survivor-graphic-tee', crewneck: 'unisex-christmas-card-photo-survivor-crewneck-sweatshirt',
+            text: 'A family of four in matching red knit sweaters squeezes together in front of a tree in a vintage 1960s Christmas card scene: dad runs back from a camera on a tripod, mom smiles through her teeth and the dog looks the wrong way. TAKE 41. in red serif capitals and STILL SMILING. in navy sit underneath. The tee is a classic unisex fit in 4.2 oz cotton, $24.99 in White, Natural, Heather Dust, Athletic Heather, Ash and Tan, sizes S to 4XL.' },
+          { slogan: 'WE SAID NO GIFTS. We lied.', tee: 'unisex-christmas-we-said-no-gifts-graphic-tee',
+            text: 'A 1960s storybook husband in a cardigan and wife in a sweater and pleated skirt stand back to back in front of a small tree, each holding a big wrapped present on the side the other cannot see. WE SAID NO GIFTS. runs across the top in red slab capitals and We lied. sits below in black script. The tee is a classic unisex fit in 4.2 oz cotton, $24.99 in White, Natural, Heather Dust, Athletic Heather, Ash and Tan, sizes S to 4XL. Each tee is sold singly, so a matching pair is two in the cart.' },
+        ],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a cheap Christmas gift worth giving?',
+        body: ['It gets used. A shirt that jokes about something the person really does, napping, tree picking or guarding a recipe, tends to be worn all season because they are in on the joke.',
+          'Graphic Tees Co. designs are original art with the joke set in big type, and they carry no team, brand or character logos.'],
+        links: [{ href: '/christmas-shirts/', text: 'All Christmas shirts' }] },
+      { h2: 'How cheap is cheap here?',
+        body: ['Every tee in this guide is $24.99 through November 30, 2026, and $29.99 from December 1. The crewneck versions are $34.99. US shipping is free on orders of $45 or more, so two $24.99 tees ship free at $49.98.'] },
+      { h2: 'What if the size is wrong?',
+        body: ['Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and the recipient does not have to mail the first one back. If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'When should you order cheap Christmas gifts?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find Christmas gift ideas?',
+        body: ['Browse the guides by person: coworkers, friends, a husband or a wife. The white elephant guide covers gift swaps with a price cap.'],
+        links: [{ href: '/guides/christmas-gifts-for-coworkers/', text: 'Christmas gifts for coworkers' }, { href: '/guides/christmas-gifts-for-friends/', text: 'Christmas gifts for friends' }, { href: '/guides/funny-mens-christmas-shirts/', text: 'Funny men’s Christmas shirts' }] },
+    ],
+    faqs: [
+      { q: 'What is a good cheap Christmas gift?', a: 'A funny Christmas tee from Graphic Tees Co. Resting My Eyes, It Looked Smaller at the Farm and I Stole It. I’m Keeping It. are each $24.99 through November 30, 2026, then $29.99, and printed to order in sizes S to 4XL.' },
+      { q: 'How much is a Graphic Tees Co. Christmas tee?', a: 'The Christmas tees in this guide are $24.99 through November 30, 2026 and $29.99 from December 1. The matching crewneck sweatshirts, where offered, are $34.99.' },
+      { q: 'Is there a cheap Christmas gift for a white elephant exchange?', a: 'Yes. I Stole It. I’m Keeping It. is a $24.99 Graphic Tees Co. tee in seven colors, sizes S to 4XL, made for the gift swap. The free size exchange covers a wrong guess.' },
+      { q: 'Do two cheap Christmas gifts ship free?', a: 'Yes, in the US. Graphic Tees Co. ships free on orders of $45 or more, and two $24.99 tees come to $49.98.' },
+      { q: 'What if the shirt does not fit?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back. Tees run S to 4XL, and the women’s tee S to 3XL.' },
+      { q: 'When should I order so it arrives for Christmas?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
+    ],
+    draft: true,
+  },
 ];
 
 // Only approved guides are built and linked.
