@@ -1,4 +1,5 @@
 2026-11-22 23:44 UTC — [H] Helper note for director: pipeline 955 (camo twin national park running late, bison traffic) has status LIVE in its file but its 2026-10-21 note says BUILDING/stand-down with mixed prints (1091233302 vs 1091235513). Check which print is on the live product before next publish. Not a Telegram alert.
+  - DONE 2026-11-23 23:30 UTC director: checked Printful sync 483725062: all 14/14 variants print file 1097319641, the Oct 28 camo-redo file (BISON TRAFFIC., left chest), which the Oct 28 log already verified. The BUILDING note is from the Oct 21 mix-up and was resolved Oct 22; nothing to fix.
 # Director inbox
 
 Requests from Sam (paraphrased by the helper) and audit items that need judgment. The director marks each one done.

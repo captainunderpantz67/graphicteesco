@@ -5098,7 +5098,7 @@ export const allGuides: Guide[] = [
           'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and he does not have to mail the first one back. If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
         links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
       { h2: 'What are good Christmas gifts for a husband under $50?',
-        body: ['Every pick here is under $50: tees are $24.99, crewnecks $34.99 and the hoodie $39.99. The tee and hoodie prices step to $29.99 and $44.99 on December 1. US shipping is free on orders of $45 or more, so two tees ship free.'] },
+        body: ['Every pick here is under $50: tees are $24.99, crewnecks $34.99 and the hoodie $39.99. On December 1 the tees step to $29.99, the crewneck to $39.99 and the hoodie to $44.99, still under $50. US shipping is free on orders of $45 or more, so two tees ship free.'] },
       { h2: 'When should you order a Christmas gift for your husband?',
         body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
       { h2: 'Where else can you find Christmas gift ideas for the family?',
@@ -5169,7 +5169,7 @@ export const allGuides: Guide[] = [
           'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and she does not have to mail the first one back. If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
         links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
       { h2: 'What are good Christmas gifts for a wife under $50?',
-        body: ['Every pick here is under $50: tees are $24.99, the crewneck $34.99 and the hoodie $39.99. The tee and hoodie prices step to $29.99 and $44.99 on December 1. US shipping is free on orders of $45 or more, so two tees ship free.'] },
+        body: ['Every pick here is under $50: tees are $24.99, the crewneck $34.99 and the hoodie $39.99. On December 1 the tees step to $29.99, the crewneck to $39.99 and the hoodie to $44.99, still under $50. US shipping is free on orders of $45 or more, so two tees ship free.'] },
       { h2: 'When should you order a Christmas gift for your wife?',
         body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
       { h2: 'Where else can you find Christmas gift ideas for the family?',
@@ -5405,9 +5405,9 @@ export const allGuides: Guide[] = [
     // Sibling guides (live or planned): christmas-gifts-for-coworkers, christmas-gifts-for-friends, white-elephant-gifts, funny-mens-christmas-shirts. Planned: stocking-stuffers-under-20 (socks are not in fresh-designs.json, so they are left out of picks).
     slug: 'cheap-christmas-gifts',
     keyword: 'cheap christmas gifts',
-    title: 'Cheap Christmas Gifts: 6 Funny Tees at $24.99 or Less',
-    description: 'Cheap Christmas gifts that are not junk: six original funny Christmas tees at $24.99, printed to order, free size exchange. Order by December 4, 2026.',
-    h1: 'Cheap Christmas Gifts That Do Not Look Cheap: Funny Tees at $24.99',
+    title: 'Cheap Christmas Gifts: 6 Funny Tees Under $30',
+    description: 'Cheap Christmas gifts that are not junk: six original funny Christmas tees under $30, printed to order, free size exchange. Order by December 4, 2026.',
+    h1: 'Cheap Christmas Gifts That Do Not Look Cheap: Funny Tees Under $30',
     date: '2026-11-23',
     cluster: 'christmas',
     answer: 'A cheap Christmas gift that still gets worn is a funny Christmas tee. Graphic Tees Co. sells six original designs at $24.99 each through November 30, 2026 (then $29.99): Resting My Eyes, It Looked Smaller at the Farm, I Stole It. I’m Keeping It., The Recipe Dies With Me, Take 41. Still Smiling. and We Said No Gifts. Each is printed after you order. Two tees come to $49.98 and ship free in the US, because shipping is free at $45. Order by December 4, 2026.',
@@ -5462,7 +5462,7 @@ export const allGuides: Guide[] = [
           'Graphic Tees Co. designs are original art with the joke set in big type, and they carry no team, brand or character logos.'],
         links: [{ href: '/christmas-shirts/', text: 'All Christmas shirts' }] },
       { h2: 'How cheap is cheap here?',
-        body: ['Every tee in this guide is $24.99 through November 30, 2026, and $29.99 from December 1. The crewneck versions are $34.99. US shipping is free on orders of $45 or more, so two $24.99 tees ship free at $49.98.'] },
+        body: ['Every tee in this guide is $24.99 through November 30, 2026, and $29.99 from December 1. The crewneck versions are $34.99 through November 30 and $39.99 from December 1. US shipping is free on orders of $45 or more, so two $24.99 tees ship free at $49.98.'] },
       { h2: 'What if the size is wrong?',
         body: ['Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and the recipient does not have to mail the first one back. If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
         links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
@@ -5474,13 +5474,12 @@ export const allGuides: Guide[] = [
     ],
     faqs: [
       { q: 'What is a good cheap Christmas gift?', a: 'A funny Christmas tee from Graphic Tees Co. Resting My Eyes, It Looked Smaller at the Farm and I Stole It. I’m Keeping It. are each $24.99 through November 30, 2026, then $29.99, and printed to order in sizes S to 4XL.' },
-      { q: 'How much is a Graphic Tees Co. Christmas tee?', a: 'The Christmas tees in this guide are $24.99 through November 30, 2026 and $29.99 from December 1. The matching crewneck sweatshirts, where offered, are $34.99.' },
+      { q: 'How much is a Graphic Tees Co. Christmas tee?', a: 'The Christmas tees in this guide are $24.99 through November 30, 2026 and $29.99 from December 1. The matching crewneck sweatshirts, where offered, are $34.99 through November 30 and $39.99 from December 1.' },
       { q: 'Is there a cheap Christmas gift for a white elephant exchange?', a: 'Yes. I Stole It. I’m Keeping It. is a $24.99 Graphic Tees Co. tee in seven colors, sizes S to 4XL, made for the gift swap. The free size exchange covers a wrong guess.' },
       { q: 'Do two cheap Christmas gifts ship free?', a: 'Yes, in the US. Graphic Tees Co. ships free on orders of $45 or more, and two $24.99 tees come to $49.98.' },
       { q: 'What if the shirt does not fit?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back. Tees run S to 4XL, and the women’s tee S to 3XL.' },
       { q: 'When should I order so it arrives for Christmas?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
     ],
-    draft: true,
   },
   {
     // Writer lane W (2026-11-23), christmas cluster. Keyword: christmas gifts for mom 74,000 / KD 6 (rulebook R2.10 quote of RankHero, measured 2026-10-18; NOT re-pulled this run, no RankHero key unattended; director please confirm). No competition count, so editorial (R2.10): a guide target only, never a product primary. Not owned by any collection or guide in this repo.
@@ -5494,7 +5493,7 @@ export const allGuides: Guide[] = [
     h1: 'Christmas Gifts for Mom: Funny Shirts That Sound Like Her',
     date: '2026-11-23',
     cluster: 'christmas',
-    answer: 'A good Christmas gift for mom is a funny shirt that says what she is already thinking, like who really did the wrapping or what motherhood did to her. Graphic Tees Co. has four original designs: Santa Gets All the Credit (tee $24.99), Motherhood Didn’t Change Me. It Exposed Me. (tee $24.99), Cat Allegedly (tee $24.99, crewneck $34.99) and Clocked It. Said Nothing. (tee $24.99, hoodie $39.99). Those are sale prices through November 30, 2026; from December 1 tees are $29.99 and the hoodie $44.99. Each is printed after you order. Order by December 4, 2026.',
+    answer: 'A good Christmas gift for mom is a funny shirt that says what she is already thinking, like who really did the wrapping or what motherhood did to her. Graphic Tees Co. has four original designs: Santa Gets All the Credit (tee $24.99), Motherhood Didn’t Change Me. It Exposed Me. (tee $24.99), Cat Allegedly (tee $24.99, crewneck $34.99) and Clocked It. Said Nothing. (tee $24.99, hoodie $39.99). Those are sale prices through November 30, 2026; from December 1 tees are $29.99, the crewneck $39.99 and the hoodie $44.99. Each is printed after you order. Order by December 4, 2026.',
     picks: [
       {
         h2: 'What is a funny Christmas gift for a mom who does all the wrapping?',
@@ -5545,7 +5544,7 @@ export const allGuides: Guide[] = [
           'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and she does not have to mail the first one back. If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
         links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
       { h2: 'What are good Christmas gifts for mom under $50?',
-        body: ['Every pick here is under $50: tees are $24.99, the crewneck $34.99 and the hoodie $39.99. The tee and hoodie prices step to $29.99 and $44.99 on December 1. US shipping is free on orders of $45 or more, so two tees ship free at $49.98.'],
+        body: ['Every pick here is under $50: tees are $24.99, the crewneck $34.99 and the hoodie $39.99. On December 1 the tees step to $29.99, the crewneck to $39.99 and the hoodie to $44.99, still under $50. US shipping is free on orders of $45 or more, so two tees ship free at $49.98.'],
         links: [{ href: '/guides/cheap-christmas-gifts/', text: 'Cheap Christmas gifts' }] },
       { h2: 'When should you order a Christmas gift for mom?',
         body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
@@ -5561,7 +5560,6 @@ export const allGuides: Guide[] = [
       { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back. Compare the size chart with a shirt she already owns.' },
       { q: 'When should I order a Christmas gift for mom?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
     ],
-    draft: true,
   },
 ];
 

@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: christmas
@@ -17,3 +17,4 @@ slug: cheap-christmas-gifts
 - `npx astro build`: passes (drafts are not built).
 ## Log
 - 2026-11-23 UTC writer: drafted.
+- 2026-11-23 23:30 UTC director: LIVE (article 1 of 2, Nov 23 Chicago). Keyword accepted as a guide target (editorial, R2.10). 17 pick and link URLs 200, prices match Shopify. Date-proofed: title, H1 and meta said '$24.99' and go false on Dec 1, now 'Under $30' (R8.6); crewneck price after Dec 1 ($39.99) added. draft line removed, astro build 164 pages.

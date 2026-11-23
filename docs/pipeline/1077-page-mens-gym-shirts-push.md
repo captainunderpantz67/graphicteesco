@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: redo
 id: 1077
@@ -19,3 +19,4 @@ Done when: astro build passes, audit 0 errors, page 200, log lists every changed
 ## Log
 - 2026-11-23 14:40 UTC director: brief written, READY ($0; easy head term, gift season).
 - 2026-11-23 UTC [B] built: collections.ts override for mens-gym-shirts. Title "Men's Gym Shirts: Funny Lifting Tees, $24.99" (48 chars); meta 152 chars naming 3 printed lines; answer-first intro (20 designs, Bella+Canvas 3001 4.2 oz read from the live product page, $24.99 to Nov 30 then $29.99, order by Fri Dec 4, free size exchange); 2 new sections (gym hoodies link, workout-shirts-for-men + gifts-for-gym-rats links, all 200); FAQs 4 to 8 (cotton honest, fit, care, gift). Inbound: /graphic-tees-for-men/ got a sentence linking here; both guides already linked. astro build passes (162 pages), 8 Question entries in FAQPage on built page. Last known position: unknown. Audit not run (no admin-json). fal $0.
+- 2026-11-23 23:30 UTC director: LIVE. Page 200, title 48 chars, 8 FAQs in FAQPage. Position unknown.

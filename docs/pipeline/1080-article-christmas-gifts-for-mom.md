@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: christmas
@@ -17,3 +17,4 @@ slug: christmas-gifts-for-mom
 - `npx astro build`: passes (162 pages; drafts are not built).
 ## Log
 - 2026-11-23 UTC writer: drafted.
+- 2026-11-23 23:30 UTC director: LIVE (article 2 of 2, Nov 23 Chicago). Keyword accepted as a guide target (R2.10). Picks 200, prices match Shopify; added the crewneck's Dec 1 price ($39.99) to the answer and the under-$50 section (same fix applied to the husband and wife guides' matching sentence). draft line removed.
