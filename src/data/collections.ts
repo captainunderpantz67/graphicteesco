@@ -468,7 +468,7 @@ export const tees: Collection[] = [
     sections: [
       { h2: 'Shop by what you do', body: 'Pick the collection that fits your weekends: the lake, the deer stand, the gym or the ranch.' },
       { h2: 'Graphic tees for men over 40', body: 'Original designs about real interests — fishing, hunting, ranch life — wear better than trend slogans at any age. Go with a classic fit and a tee that fits your shoulders.' },
-      { h2: 'Graphic hoodies for men', body: 'Many of these designs also come as hoodies. Our graphic hoodies for men cover pullover, zip-up, heavyweight and oversized blanks from $39.99.', links: [{ href: '/hoodies/graphic-hoodies-for-men/', label: 'Graphic hoodies for men' }] },
+      { h2: 'Graphic hoodies for men', body: 'Many of these designs also come as hoodies. Our graphic hoodies for men cover pullover, zip-up, heavyweight and oversized blanks from $39.99, and the full-zip ones have their own page of men\'s zip-up hoodies.', links: [{ href: '/hoodies/graphic-hoodies-for-men/', label: 'Graphic hoodies for men' }, { href: '/hoodies/zip-up-hoodies-for-men/', label: "Men's zip-up hoodies" }] },
       { h2: 'Printed when you order', body: 'Each tee is printed after you order it, so the catalog keeps growing without leftovers.' },
     ],
     faqs: [
@@ -1164,7 +1164,12 @@ export const hoodies: Collection[] = [
     twin: 'cropped-sweatshirts',
   },
   niche(N.heavyweight, 'hoodies', { slug: 'heavyweight-hoodies', keyword: 'heavyweight hoodie', volume: 14800, kd: 20, product: 'heavyweight hoodies' }),
-  niche(N.zipup, 'hoodies', { slug: 'zip-up-hoodies', keyword: 'zip-up hoodie', volume: 135000, kd: 28, product: 'zip-up hoodies' }),
+  (() => {
+    const c = niche(N.zipup, 'hoodies', { slug: 'zip-up-hoodies', keyword: 'zip-up hoodie', volume: 135000, kd: 28, product: 'zip-up hoodies' });
+    // #1076 inbound link: one natural sentence to the men's page.
+    c.sections = [...c.sections, { h2: "Zip-up hoodies for men", body: "Shopping for him? Our men's zip-up hoodies page collects the full-zip fleece designs with the joke on the back.", links: [{ href: '/hoodies/zip-up-hoodies-for-men/', label: "Men's zip-up hoodies" }] }];
+    return c;
+  })(),
   niche(N.fishing, 'hoodies', { slug: 'fishing-hoodies', keyword: 'fishing hoodie', volume: 6600, kd: 30, product: 'fishing hoodies', twin: 'fishing-t-shirts', guideSection: { h2: 'What to wear fishing', body: 'Not sure what to wear on a cold dock versus a warm one? Our guide to fishing shirts for men sorts the light tees from the fleece layers.', links: [{ href: '/guides/fishing-shirts-for-men/', label: 'Fishing shirts for men' }] } }),
   (() => {
     // Google push #1065 (R0 item 5, 2026-11-22): answer-first intro, men/women/vs-tee sections, 8 FAQs. Prices from the live grid (26 designs): pullover $39.99, cropped $44.99, heavyweight $49.99, oversized $54.99, embroidered zip $57.99.
@@ -1196,7 +1201,31 @@ export const hoodies: Collection[] = [
   niche(N.oversized, 'hoodies', { slug: 'oversized-hoodies', keyword: 'oversized hoodie', volume: 165000, kd: 38, product: 'oversized hoodies', twin: 'oversized-graphic-tees' }),
   niche(N.christian, 'hoodies', { slug: 'christian-hoodies', keyword: 'christian hoodie', volume: 18100, kd: 44, product: 'Christian hoodies', twin: 'christian-shirts' }) /* RankHero 2026-10-16 */,
   niche(N.camo, 'hoodies', { slug: 'camo-hoodies', keyword: 'camo hoodie', volume: 74000, kd: 23, product: 'camo hoodies' }) /* RankHero 2026-10-16; R11.5 sweep */,
-  niche(N.zipup, 'hoodies', { slug: 'zip-up-hoodies-for-men', keyword: 'mens zip up hoodie', volume: 74000, kd: 6, product: "men's zip-up hoodies", audience: 'men', name: "Men's Zip-Up Hoodies" }) /* RankHero 2026-10-16 */,
+  (() => {
+    // Google push #1076 (R0 item 5, 2026-11-23): answer-first intro, zip-or-pullover section, 8 FAQs. Facts from live product pages (Catch and Release zip): 8 oz/yd2 50/50 cotton-poly fleece, metal zipper, S-3XL. Grid prices read 2026-11-23: zip-ups $49.99 to $57.99 (embroidered $57.99). Last position unknown.
+    const c = niche(N.zipup, 'hoodies', { slug: 'zip-up-hoodies-for-men', keyword: 'mens zip up hoodie', volume: 74000, kd: 6, product: "men's zip-up hoodies", audience: 'men', name: "Men's Zip-Up Hoodies" }) /* RankHero 2026-10-16 */;
+    c.title = "Men's Zip-Up Hoodies: Funny Back-Print Designs, $49.99+";
+    c.description = "Men's zip-up hoodies with a joke on the back: Catch and Release, Twelve Labors. Zero Cardio. and Sisyphus Had Bad Programming. Full zip, 8 oz, from $49.99.";
+    c.intro = "We sell 50 men's zip-up hoodies, each a full-zip fleece hoodie (50% cotton, 50% polyester, 8 oz, metal zipper) in sizes S to 3XL, from $49.99, with the embroidered ones at $57.99. The big print runs across the back, so nothing prints over the zipper, and many also carry a small stitched mark on the left chest. Every hoodie is printed to order; order by Friday, December 4, 2026 for Christmas delivery in the US, and you get one free size exchange with nothing to mail back.";
+    c.sections = [
+      ...c.sections,
+      { h2: 'Zip-up or pullover?', body: "Pick the zip-up if you layer, run warm or want to open it over a tee; the print sits on the back so it shows either way. Pick a pullover if you want the design on the front with no zipper through it.",
+        links: [{ href: '/hoodies/graphic-hoodies-for-men/', label: "Men's graphic hoodies" }] },
+      { h2: 'Back print, stitched chest', body: "Catch and Release puts a leaping bass across the back with a small bass embroidered on the left chest. Twelve Labors. Zero Cardio. and Sisyphus Had Bad Programming. are for the gym, and Reel Talk and Casting Doubt are for the dock. The same back-print idea runs through the hunting, golf and trade designs." },
+      { h2: 'Want it darker?', body: "Prefer a single dark color? Our black zip-up hoodies keep the same back-print designs on black fleece. For a full guide to picking one, read our graphic zip-up hoodie guide.",
+        links: [{ href: '/hoodies/black-zip-up-hoodies/', label: 'Black zip-up hoodies' }, { href: '/guides/graphic-zip-up-hoodie/', label: 'Graphic zip-up hoodie guide' }] },
+    ];
+    c.faqs = [
+      ...c.faqs,
+      { q: 'How do the men\'s zip-up hoodies fit?', a: 'They are a regular unisex fit in sizes S through 3XL, so most men order their usual size. Go up one size if you want room for a flannel underneath. Graphic Tees Co. offers one free size exchange within 30 days of delivery, and there is nothing to mail back.' },
+      { q: 'What are the zip-up hoodies made of, and how warm are they?', a: 'Each one is a 50% cotton, 50% polyester fleece zip-up at 8 oz per square yard, with a metal zipper, front pouch pockets and a color-matched drawcord hood. That is a midweight layer for fall mornings, the garage or the truck, not an arctic parka.' },
+      { q: 'Where does the print sit on a zip-up hoodie?', a: 'The big design is printed across the back, so nothing prints over the zipper and it shows whether you wear the hoodie open or closed. Many also have a small embroidered mark on the left chest, like the bass on Catch and Release.' },
+      { q: 'How do I wash a zip-up hoodie so the print lasts?', a: 'Zip it up, turn it inside out and wash cold with like colors, then tumble dry low or hang dry. Skip bleach and never iron over the print or the stitching. The printed back and the embroidered chest mark hold up to regular washing with that care.' },
+      { q: 'When should I order a zip-up hoodie for Christmas?', a: 'Order by Friday, December 4, 2026 to leave a margin for Christmas delivery in the US. Each hoodie is printed to order in 2–5 business days, then ships in about 3–8 business days, and checkout shows a delivery estimate. Shipping is free on $45 or more.' },
+      { q: 'What does a men\'s zip-up hoodie cost?', a: 'Zip-up hoodies here run from $49.99 for the printed designs to $57.99 for the embroidered ones, and shipping is free in the US on orders of $45 or more. Prices are on every product page, and they include the print, with no setup fees or extras.' },
+    ];
+    return c;
+  })(),
   niche(N.oversized, 'hoodies', { slug: 'oversized-hoodies-for-men', keyword: 'oversized hoodie men', volume: 18100, kd: 10, product: "men's oversized hoodies", audience: 'men', name: "Men's Oversized Hoodies" }) /* RankHero 2026-10-16 */,
   niche(N.gym, 'hoodies', { slug: 'gym-hoodies-for-men', keyword: 'mens gym hoodie', volume: 9900, kd: 31, product: "men's gym hoodies", audience: 'men', name: "Men's Gym Hoodies" }) /* RankHero 2026-10-16 */,
   niche(N.halfzip, 'hoodies', { slug: 'half-zip-pullovers', keyword: 'half zip pullover', volume: 5400, kd: 14, product: 'half zip pullovers', name: 'Half Zip Pullovers' }) /* RankHero 2026-10-16; Bella+Canvas 4740 */,

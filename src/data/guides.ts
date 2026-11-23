@@ -3842,8 +3842,8 @@ export const allGuides: Guide[] = [
     sections: [
       { h2: 'What makes a good hoodie for dad?',
         body: ['A joke he already lives, a color he will wear, and a size that does not need a conversation. Most dads do not want a loud hoodie. They want a plain-looking one that makes the guy at the hardware store laugh.',
-          'Every Graphic Tees Co. design is original, made for this shop, with the joke in the lettering and a vintage-style picture under it. None of the five picks carries a brand logo.'],
-        links: [{ href: '/hoodies/graphic-hoodies-for-men/', text: 'Graphic hoodies for men' }, { href: '/guides/best-hoodies-for-men/', text: 'Best hoodies for men' }] },
+          'Every Graphic Tees Co. design is original, made for this shop, with the joke in the lettering and a vintage-style picture under it. None of the five picks carries a brand logo. If he would rather layer than pull over, see our men\'s zip-up hoodies.'],
+        links: [{ href: '/hoodies/graphic-hoodies-for-men/', text: 'Graphic hoodies for men' }, { href: '/guides/best-hoodies-for-men/', text: 'Best hoodies for men' }, { href: '/hoodies/zip-up-hoodies-for-men/', text: "Men's zip-up hoodies" }] },
       { h2: 'What size hoodie should you buy for dad?',
         body: ['His usual size. The pullovers are a classic unisex fit, so go up one if he layers over a flannel or a thermal, and stay put if he likes it closer. The heavyweight is a relaxed cut made for layering.',
           'All five come in S to 3XL. If the size is off, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and nothing has to be mailed back.'],

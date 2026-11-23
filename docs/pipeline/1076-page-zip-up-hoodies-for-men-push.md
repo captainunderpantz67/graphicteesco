@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: C
 type: redo
 id: 1076
@@ -18,3 +18,4 @@ Done when: astro build passes, audit 0 errors, page 200, log lists every changed
 ---
 ## Log
 - 2026-11-23 14:40 UTC director: brief written, READY (biggest easy head term; $0).
+- 2026-11-23 UTC [B]: built, REVIEW (src/data/collections.ts, src/data/guides.ts). (1) SEO title "Men's Zip-Up Hoodies: Funny Back-Print Designs, $49.99+" (55 chars), meta 155. (2) Answer-first intro: 50 designs, 50/50 cotton-poly 8 oz fleece, metal zipper, S-3XL, $49.99 printed to $57.99 embroidered (read from live product pages), order by Fri Dec 4 2026, one free size exchange. (3) Sections: Zip-up or pullover (links graphic-hoodies-for-men), Back print/stitched chest, Want it darker (links black-zip-up-hoodies, guides/graphic-zip-up-hoodie; both 200). (4) FAQs 4 to 10, 43-50 words each. (5) Inbound: /hoodies/zip-up-hoodies/, /graphic-tees-for-men/ and guides/hoodies-for-dad each one link. Last position unknown. astro build passes; audit not run (collections copy only). fal $0.
