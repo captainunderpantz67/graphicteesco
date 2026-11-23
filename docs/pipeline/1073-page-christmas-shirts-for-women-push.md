@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: redo
 id: 1073
@@ -19,3 +19,4 @@ Done when: astro build passes, audit 0 errors, page 200, log lists every changed
 ## Log
 - 2026-11-22 23:25 UTC director: brief written, READY (R0 item 5; women's Christmas before the Dec peak; $0).
 - 2026-11-23 [B]: built, REVIEW. Changed only src/data/collections.ts: christmas-shirts-for-women (new title 56 chars, meta 144, answer-first intro with 65 live shirts / $24.99 to Nov 30 then $29.99 / order by Fri Dec 4 2026 / S-3XL relaxed fit, 2 new H2s linking /funny-christmas-shirts/ and /christmas-shirts-for-men/, FAQs 4 to 8, existing copy kept) and graphic-tees-for-women (one sentence linking here). No /christmas-sweatshirts-for-women/ page exists, so no link. Funny-christmas-shirts and the women's funny guide already link here. astro build passes (161 pages), built page has 8 FAQ entries. Last position unknown. fal $0.
+- 2026-11-23 14:40 UTC director: LIVE. Page 200, title 'Christmas Shirts for Women: Funny & Vintage Tees, $24.99', 8 FAQs in FAQPage; 65 products confirmed in Shopify, named lines (Jolly-ish, Sleigh Queen, Sleighping In, Dough Ho Ho, Nana's Cookies, Santa Gets All the Credit, Snow Problem, Christmas Tree Farm, Vintage Santa) all on the grid, women's tees S-3XL confirmed, order-by and shipping days match the other Dec guides. Position unknown.
