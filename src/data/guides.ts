@@ -5482,6 +5482,87 @@ export const allGuides: Guide[] = [
     ],
     draft: true,
   },
+  {
+    // Writer lane W (2026-11-23), christmas cluster. Keyword: christmas gifts for mom 74,000 / KD 6 (rulebook R2.10 quote of RankHero, measured 2026-10-18; NOT re-pulled this run, no RankHero key unattended; director please confirm). No competition count, so editorial (R2.10): a guide target only, never a product primary. Not owned by any collection or guide in this repo.
+    // Facts (art, prices, fabrics, colors, sizes) from the LIVE Shopify Stories and variants read 2026-11-23; policies and dates from the sibling christmas guides and site.ts. FAQ questions are not from PAA or GSC (not available unattended).
+    // Picks (all ACTIVE, every handle in src/data/fresh-designs.json): Santa Gets All the Credit, Motherhood Didn't Change Me. It Exposed Me., Cat Allegedly (tee + crewneck), Clocked It. Said Nothing. (tee + hoodie).
+    // Siblings linked by slug: christmas-gifts-for-wife, christmas-gifts-for-parents, christmas-gifts-for-sister, christmas-gifts-for-daughter, christmas-gifts-for-dad, cheap-christmas-gifts. Planned, not live: christmas-gifts-for-teachers.
+    slug: 'christmas-gifts-for-mom',
+    keyword: 'christmas gifts for mom',
+    title: 'Christmas Gifts for Mom: Funny Shirts She’ll Actually Wear',
+    description: 'Christmas gifts for mom: four funny tees, a crewneck and a hoodie from $24.99, printed to order, with a free size exchange. Order by December 4, 2026.',
+    h1: 'Christmas Gifts for Mom: Funny Shirts That Sound Like Her',
+    date: '2026-11-23',
+    cluster: 'christmas',
+    answer: 'A good Christmas gift for mom is a funny shirt that says what she is already thinking, like who really did the wrapping or what motherhood did to her. Graphic Tees Co. has four original designs: Santa Gets All the Credit (tee $24.99), Motherhood Didn’t Change Me. It Exposed Me. (tee $24.99), Cat Allegedly (tee $24.99, crewneck $34.99) and Clocked It. Said Nothing. (tee $24.99, hoodie $39.99). Those are sale prices through November 30, 2026; from December 1 tees are $29.99 and the hoodie $44.99. Each is printed after you order. Order by December 4, 2026.',
+    picks: [
+      {
+        h2: 'What is a funny Christmas gift for a mom who does all the wrapping?',
+        body: ['Santa Gets All the Credit, $24.99. Somebody bought it, hid it, wrapped it and ran out of tape, and it was not Santa. This shirt says so for her.'],
+        items: [
+          { slogan: 'SANTA GETS ALL THE CREDIT', tee: 'womens-christmas-santa-gets-all-the-credit-graphic-tee',
+            text: 'A small cluster in cherry red, soft pink and pine green: a square red gift tied with a large pink satin bow, a vintage tape dispenser nearly out of tape, and open pink-handled scissors, with a few holly sprigs and a curl of ribbon between them. SANTA GETS sits above in cherry-red capitals and ALL THE CREDIT below in pine green slab capitals with a thin pink edge. It is a relaxed women’s cut in 4.2 oz cotton, $24.99 in White, Natural, Heather Stone, Athletic Heather, Pink and Heather Blue Lagoon, sizes S to 3XL.' },
+        ],
+      },
+      {
+        h2: 'What do you give a mom who jokes that motherhood broke her?',
+        body: ['Motherhood Didn’t Change Me. It Exposed Me., $24.99. It is the line moms already say about themselves, and a sister, a best friend or a grown kid can give it with a straight face.'],
+        items: [
+          { slogan: 'MOTHERHOOD DIDN’T CHANGE ME. IT EXPOSED ME.', tee: 'womens-mom-motherhood-exposed-me-graphic-tee',
+            text: 'A prim 1950s housewife in pearls and a patterned dress sits upright on a mid-century sofa, sipping coffee with one eyebrow raised, while a toddler climbs a bookshelf, crayon scribbles fly up behind the sofa, papers and crayons float through the air and a scruffy dog sits in an overflowing laundry basket. MOTHERHOOD DIDN’T CHANGE ME. runs in big rust slab letters above and IT EXPOSED ME. in green below. It is not a Christmas print, so it is an all-year tee. It is a relaxed women’s cut in 4.2 oz cotton, $24.99 in White, Natural, Heather Stone, Pink and Leaf, sizes S to 3XL.' },
+        ],
+      },
+      {
+        h2: 'What is a good Christmas gift for a mom with a cat?',
+        body: ['Cat Allegedly, $24.99 as a tee or $34.99 as a crewneck. The evidence is on the rug, and the suspect has an alibi.'],
+        items: [
+          { slogan: 'ALLEGEDLY.', tee: 'womens-christmas-cat-allegedly-graphic-tee', crewneck: 'womens-christmas-cat-allegedly-crewneck-sweatshirt',
+            text: 'A smug black-and-white tuxedo cat sits upright on a braided red and cream rug, eyes half-closed, licking one raised paw, with a shattered red glass ornament in pieces beside it and the lower branches of the tree behind. ALLEGEDLY. runs underneath in faded red capitals. The tee is $24.99 in White, Natural, Heather Stone, Athletic Heather and Pink, sizes S to 3XL. The crewneck is an 8 oz cotton-polyester fleece at $34.99 in Sand or Navy, sizes S to 3XL.' },
+        ],
+      },
+      {
+        h2: 'What is a good gift for a mom who notices everything and says nothing?',
+        body: ['Clocked It. Said Nothing., a tee at $24.99 or a hoodie at $39.99. It is for the mom who saw the whole family dinner and kept a perfect poker face. Pick the hoodie if she runs cold.'],
+        items: [
+          { slogan: 'CLOCKED IT. SAID NOTHING.', tee: 'womens-clocked-it-said-nothing-graphic-tee',
+            text: 'A single-line cat face with narrowed, sideways-glancing eyes and a flat mouth is printed large across the chest in cream ink, with CLOCKED IT. in heavy cream capitals underneath and SAID NOTHING. in bold condensed capitals as the last line. The tee is a relaxed women’s cut in 4.2 oz cotton, $24.99 in Black, Maroon, Navy, Forest Green, Dark Grey Heather and Military Green, sizes S to 3XL.' },
+          { slogan: 'CLOCKED IT. SAID NOTHING.', tee: 'womens-clocked-it-said-nothing-hoodie',
+            text: 'The same cream side-eye cat and lettering on an 8 oz, 50% cotton and 50% polyester pullover with a double-lined hood and a front pouch pocket. It is $39.99 in Black or Maroon, sizes S to 3XL, a good pick if she runs cold.' },
+        ],
+        links: [{ href: '/christmas-shirts-for-women/', text: 'Women’s Christmas shirts' }, { href: '/hoodies/graphic-hoodies-for-women/', text: 'Graphic hoodies for women' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good Christmas gift for mom?',
+        body: ['Something she will wear without being asked. A shirt that jokes about something she really does, the wrapping, the cat or the poker face, tends to get worn all season because she is in on the joke.',
+          'Graphic Tees Co. designs are original art with the joke set in big type. They carry no team, brand or character logos, so there is nothing to explain.'],
+        links: [{ href: '/christmas-shirts/', text: 'All Christmas shirts' }] },
+      { h2: 'Should you buy mom a tee, a crewneck or a hoodie?',
+        body: ['The tee is the easy pick: $24.99 through November 30 in a lightweight 4.2 oz cotton cut with a relaxed women’s fit. The crewneck is $34.99 in 8 oz fleece, and the hoodie is $39.99, the better gift if she runs cold.',
+          'Cat Allegedly comes as a tee or a crewneck. Clocked It. Said Nothing. comes as a tee or a hoodie. Santa Gets All the Credit and Motherhood Didn’t Change Me. It Exposed Me. are tees.'] },
+      { h2: 'What if you do not know her size?',
+        body: ['Check the size chart on the product page against a shirt she already owns. The women’s tees run S to 3XL in a relaxed cut, and the crewneck and hoodie are a classic unisex cut in S to 3XL, so size up for a roomier fit.',
+          'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and she does not have to mail the first one back. If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'What are good Christmas gifts for mom under $50?',
+        body: ['Every pick here is under $50: tees are $24.99, the crewneck $34.99 and the hoodie $39.99. The tee and hoodie prices step to $29.99 and $44.99 on December 1. US shipping is free on orders of $45 or more, so two tees ship free at $49.98.'],
+        links: [{ href: '/guides/cheap-christmas-gifts/', text: 'Cheap Christmas gifts' }] },
+      { h2: 'When should you order a Christmas gift for mom?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find Christmas gift ideas for the family?',
+        body: ['The guides below cover the rest of the family.'],
+        links: [{ href: '/guides/christmas-gifts-for-wife/', text: 'Christmas gifts for wife' }, { href: '/guides/christmas-gifts-for-parents/', text: 'Christmas gifts for parents' }, { href: '/guides/christmas-gifts-for-sister/', text: 'Christmas gifts for sister' }, { href: '/guides/christmas-gifts-for-daughter/', text: 'Christmas gifts for daughter' }, { href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }] },
+    ],
+    faqs: [
+      { q: 'What are good Christmas gifts for mom?', a: 'A funny shirt that says what she is already thinking, like Santa Gets All the Credit or Cat Allegedly from Graphic Tees Co. Tees are $24.99 through November 30, 2026 and $29.99 from December 1, all printed after you order.' },
+      { q: 'What is a funny Christmas gift for mom under $30?', a: 'Any Graphic Tees Co. women’s tee in this guide: Santa Gets All the Credit, Motherhood Didn’t Change Me. It Exposed Me., Cat Allegedly or Clocked It. Said Nothing. Each is $24.99 through November 30, 2026, then $29.99.' },
+      { q: 'Is Santa Gets All the Credit a good gift for mom?', a: 'Yes. The Graphic Tees Co. Santa Gets All the Credit tee shows a wrapped gift with a pink bow, a tape dispenser nearly out of tape and open scissors. It is $24.99 in six colors, sizes S to 3XL, made for the mom who does the wrapping.' },
+      { q: 'Is a hoodie a good Christmas gift for mom?', a: 'Yes, if she runs cold. The Graphic Tees Co. Clocked It. Said Nothing. hoodie is an 8 oz cotton-polyester pullover at $39.99 through November 30, 2026 ($44.99 from December 1), in Black and Maroon, sizes S to 3XL.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back. Compare the size chart with a shirt she already owns.' },
+      { q: 'When should I order a Christmas gift for mom?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
+    ],
+    draft: true,
+  },
 ];
 
 // Only approved guides are built and linked.
