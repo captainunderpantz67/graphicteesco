@@ -389,7 +389,7 @@ export const tees: Collection[] = [
     sections: [
       { h2: 'Shop by what you love', body: 'Country, western, fishing, nurse, faith and seasonal drops — every collection is original art, not stock graphics.' },
       { h2: 'Graphic tees for every age', body: 'Graphic tees aren’t an age thing. Pick a design about something you love and a fit you’re comfortable in.' },
-      { h2: 'Printed when you order', body: 'Each tee is printed after you order it, so the catalog keeps growing without leftovers.' },
+      { h2: 'Printed when you order', body: 'Each tee is printed after you order it, so the catalog keeps growing without leftovers. For the holidays, see our Christmas shirts for women.', links: [{ href: '/christmas-shirts-for-women/', label: 'Christmas shirts for women' }] },
       { h2: 'Want it warmer?', body: 'Many of these designs also come as hoodies. Our graphic hoodies for women cover pullover, cropped, zip-up and oversized blanks from $39.99.', links: [{ href: '/hoodies/graphic-hoodies-for-women/', label: 'Graphic hoodies for women' }] },
     ],
     faqs: [
@@ -614,23 +614,29 @@ export const tees: Collection[] = [
   {
     slug: 'christmas-shirts-for-women', section: 'tees', audience: 'women', name: "Women's Christmas Shirts", seasonal: 'christmas',
     keyword: 'christmas shirts for women', volume: 5400, kd: 14,
-    title: 'Christmas Shirts for Women — Original Holiday Graphic Tees',
-    description: 'Original Christmas shirts for women: vintage holiday art and clean jokes for the party, the cookie swap and the photo. Tees $24.99 through Nov 30.',
+    title: 'Christmas Shirts for Women: Funny & Vintage Tees, $24.99',
+    description: 'Christmas shirts for women: Jolly-ish, Sleigh Queen, Santa Gets All the Credit and vintage Santa art. $24.99 through Nov 30. Free size exchange.',
     h1: 'Christmas Shirts for Women',
     // Also claimed (RankHero/Etsy, 2026-10-09): christmas tree shirt 27,100/46 · gingerbread shirt 1,900/46 · retro santa shirt 390/60 ·
     // vintage santa shirt 390/60 · retro christmas shirt 260/75.
-    intro: 'Christmas shirts for women that look like the season you actually live: gingerbread-house afternoons, tree-lot trips, a retro Santa on the mantel and lights on the porch. Every design is original holiday art, printed when you order it.',
+    intro: 'We sell 65 Christmas shirts for women and unisex tees, most on a relaxed women\'s fit in sizes S to 3XL: $24.99 through November 30, then $29.99 from December 1. Every shirt is printed to order; order by Friday, December 4, 2026 for Christmas delivery in the US, and you get one free size exchange with nothing to mail back. Christmas shirts for women that look like the season you actually live: gingerbread-house afternoons, tree-lot trips, a retro Santa on the mantel and lights on the porch. Every design is original holiday art, printed when you order it.',
     sections: [
       { h2: 'Holiday art, not ugly-sweater gags', body: 'These are vintage-style illustrations — a laughing 1950s Santa, a gingerbread street, a red truck hauling a fresh-cut tree, a snowed-in cabin, "Merry & Bright" lettering — the kind of Christmas graphic tee you can wear all December, not just to one party. Soft cotton tees in relaxed women’s and unisex fits.' },
       { h2: 'Find your Christmas shirt', body: 'Retro Santa is a round-faced, mid-century Santa mid-laugh with a sack of pink-wrapped gifts under bubbly HO HO HO letters: a retro Santa shirt in red, pink and cream that looks lifted from an old greeting card. Gingerbread Lane is the gingerbread shirt, a candy-cane-trimmed house with two waving gingerbread people. Fresh Cut Christmas Trees is the Christmas tree shirt, a red pickup hauling a tree down a snowy road, and Cabin Christmas is a log cabin glowing under a crescent moon. Merry & Bright spells it out in 1970s bubble letters ringed with vintage ornaments, the most retro Christmas shirt of the five.' },
       { h2: 'Where to wear a Christmas shirt', body: 'Cookie swaps, the school holiday program, a Christmas-movie night, the tree farm, a white-elephant exchange or the family photo. Layer one under an open flannel or a cardigan with jeans; tuck the front of a relaxed fit into high-rise denim to dress it up.' },
       { h2: 'Matching for the family photo', body: 'Every design comes in a full run of sizes, so you can order the same Christmas shirt for the whole family, a group of friends or your coworkers. The unisex designs fit men too. Want something warmer? Browse our Christmas hoodies for women and men in the same original holiday art.', links: [{ href: '/hoodies/christmas-hoodies/', label: 'Christmas hoodies for women and men' }] },
+      { h2: 'The funny ones', body: 'Jolly-ish is red and green plaid lettering with a pink bow for the woman who is in the spirit until the last gingerbread is gone. Sleigh Queen, Sleighping In, Dough Ho Ho and Nana\'s Cookies are the baking-and-napping lines, and Santa Gets All the Credit is for whoever actually did the shopping. For more one-liners, see our funny Christmas shirts.', links: [{ href: '/funny-christmas-shirts/', label: 'Funny Christmas shirts' }] },
+      { h2: 'Matching with him', body: 'The unisex designs, like Christmas Tree Farm, Vintage Santa and Fresh Cut Christmas Trees, fit men and women, so a couple can match. Shopping for him? See our Christmas shirts for men.', links: [{ href: '/christmas-shirts-for-men/', label: 'Christmas shirts for men' }] },
       { h2: 'Want it warmer?', body: 'Many of these Christmas designs are also printed on hoodies. See our graphic hoodies for women, from $39.99, for the pullover, cropped, zip-up and oversized versions.', links: [{ href: '/hoodies/graphic-hoodies-for-women/', label: 'Graphic hoodies for women' }] },
       { h2: 'When to order', body: 'Each shirt is printed after you order it, then shipped. Order early in December so it arrives before your plans — delivery estimates show at checkout.' },
     ],
     faqs: [
       { q: 'What do you wear to a Christmas party if you don’t want an ugly sweater?', a: 'A Christmas graphic tee under an open flannel or cardigan with jeans is festive without being a costume.' },
       { q: 'Do you have matching Christmas shirts for family?', a: 'Yes. Any design can be ordered in several sizes, and the unisex designs fit men and women.' },
+      { q: 'What is a good funny Christmas shirt for an office party?', a: 'Pick a clean one-liner like Jolly-ish, Snow Problem or Santa Gets All the Credit. Every Graphic Tees Co. design is family-clean, with no profanity or innuendo, so it works for coworkers and the boss, and each tee is $24.99 through November 30.' },
+      { q: 'How do the women\'s Christmas tees fit?', a: 'The women\'s tees are a relaxed crew neck in lightweight 4.2 oz cotton, in sizes S to 3XL. Each product page has a size chart with chest and length measurements; size up for an oversized look or down to keep it closer to the body.' },
+      { q: 'When should I order for Christmas delivery?', a: 'Order by Friday, December 4, 2026 to leave a safe margin in the US. Each shirt is printed to order in 2–5 business days and arrives in about 3–8 business days; delivery estimates show at checkout, and shipping is free over $45.' },
+      { q: 'How should I wash a printed Christmas tee?', a: 'Turn the tee inside out, wash cold with like colors, and tumble dry low or hang dry. Skip bleach and never iron over the print. The ink holds up to regular washing with that care.' },
       { q: 'Are these licensed Christmas characters?', a: 'No. Every design is original holiday art made for this shop.' },
       { q: 'Can I return a Christmas shirt if the size is wrong?', a: 'Yes, in a way. Every Graphic Tees Co. shirt is printed to order, so instead of a return you get one free size exchange within 30 days of delivery: we print the new size and there is nothing to mail back. Misprints or damage are reprinted or refunded within 30 days.' },
       ...audienceFaqs('Christmas shirts'),
