@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: C
 type: redo
 id: 1085
@@ -18,3 +18,4 @@ Done when: astro build passes, audit 0 errors, page 200, log lists every changed
 ---
 ## Log
 - 2026-11-24 14:30 UTC director: brief written, READY (camo hub, 74,000 / KD 23; $0).
+- 2026-11-24 [B]: built. collections.ts camo-hoodies override: title 49 chars, meta 146, answer-first intro (38 hoodies, heavyweight 10 oz, $49.99 through Nov 30, 5 camo colors, print ~10 in center chest, order by Dec 4, free exchange), spoke section linking women's, black, duck, hunting (pink camo and camo zip-up are noindex, not linked), 6 new FAQs (45-53 words). /hoodies/ and graphic-hoodies-for-men already link here. Astro build passes, last position unknown, audit not run (no admin-json), fal $0.

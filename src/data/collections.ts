@@ -1293,7 +1293,28 @@ const rawHoodies: Collection[] = [
   niche(N.western, 'hoodies', { slug: 'western-hoodies', keyword: 'western hoodie', volume: 3600, kd: 36, product: 'western hoodies', twin: 'western-graphic-tees' }),
   niche(N.oversized, 'hoodies', { slug: 'oversized-hoodies', keyword: 'oversized hoodie', volume: 165000, kd: 38, product: 'oversized hoodies', twin: 'oversized-graphic-tees' }),
   niche(N.christian, 'hoodies', { slug: 'christian-hoodies', keyword: 'christian hoodie', volume: 18100, kd: 44, product: 'Christian hoodies', twin: 'christian-shirts' }) /* RankHero 2026-10-16 */,
-  niche(N.camo, 'hoodies', { slug: 'camo-hoodies', keyword: 'camo hoodie', volume: 74000, kd: 23, product: 'camo hoodies' }) /* RankHero 2026-10-16; R11.5 sweep */,
+  (() => {
+    // Google push #1085 (R0 item 5, 2026-11-24): answer-first intro, spoke links, 8 FAQs. Facts from the live collection read 2026-11-24 (38 camo hoodies, 36 at $49.99; Independent Trading heavyweight, 10 oz cotton-polyester fleece; Forest, Deadwood Tree, Duck, Black and Darkwood Tree camo; print about 10 in wide on the center chest). Pink camo and camo zip-up spokes are noindex, so not linked. Last known position: unknown. camo hoodie 74,000 / KD 23 (RankHero 2026-10-16).
+    const c = niche(N.camo, 'hoodies', { slug: 'camo-hoodies', keyword: 'camo hoodie', volume: 74000, kd: 23, product: 'camo hoodies' }) /* RankHero 2026-10-16; R11.5 sweep */;
+    c.title = 'Camo Hoodies: Funny Hunting & Fishing Designs';
+    c.description = 'Camo hoodies with a joke: Sat 11 Hours. Saw a Squirrel., Fluent in Honk, Lone Wolf. Early Bedtime. 38 heavyweight 10 oz hoodies, printed to order.';
+    c.intro = "We sell 38 original camo hoodies, each a heavyweight 10 oz cotton and polyester fleece hoodie from $49.99 (through November 30; the price changes on December 1) in Forest, Deadwood Tree, Duck, Black or Darkwood Tree camo, sizes XS to 3XL. The design prints about 10 inches wide on the center chest, with a fleece-lined hood and ribbed cuffs. Every hoodie is printed to order; order by Friday, December 4, 2026 for Christmas delivery in the US, and you get one free size exchange with nothing to mail back.";
+    c.sections = [
+      ...c.sections,
+      { h2: 'Camo hoodies by who wears them', body: "Shopping for her? Our women's camo hoodies have the deer-stand, trail and fishing jokes. Prefer a single dark color or waterfowl colors? See our black camo hoodies and duck camo hoodies. For the full set of jokes about the blind and the tree stand, browse our hunting hoodies.",
+        links: [{ href: '/hoodies/camo-hoodies-for-women/', label: "Women's camo hoodies" }, { href: '/hoodies/black-camo-hoodies/', label: 'Black camo hoodies' }, { href: '/hoodies/duck-camo-hoodies/', label: 'Duck camo hoodies' }, { href: '/hoodies/hunting-hoodies/', label: 'Hunting hoodies' }] },
+    ];
+    c.faqs = [
+      ...c.faqs,
+      { q: 'Are these real hunting camo hoodies?', a: 'They are camo-pattern fleece hoodies with a funny design printed on the chest, made for the truck, the blind and the couch, not blaze-orange safety gear. Graphic Tees Co. uses its own camo colors and no licensed pattern names. Check your state rules before wearing any hoodie in the field.' },
+      { q: 'How warm are the camo hoodies?', a: 'Each one is a heavyweight cotton and polyester fleece hoodie at 10 oz per square yard, with a fleece-lined hood, ribbed cuffs and a waistband. That is warm enough for a chilly morning at the blind or the lake and made for layering under a jacket.' },
+      { q: 'What camo colors do you offer?', a: 'Graphic Tees Co. camo hoodies come in Forest Camo, Deadwood Tree Camo, Duck Camo, Black Camo and Darkwood Tree Camo. Each design is offered only in the colors where the art and every letter read clearly, so not every hoodie comes in every pattern. The colors are listed on each product page.' },
+      { q: 'Where does the print sit?', a: 'The design is printed on the front of the hoodie, about 10 inches wide on the center chest, or as a small left-chest mark on some designs. The hood and the pouch stay clear of the print, and each design has a thin outline so it stays readable on the busy camo pattern.' },
+      { q: 'How do I wash a printed camo hoodie?', a: 'Turn the hoodie inside out and wash it in cold water with similar colors, then tumble dry low or hang to dry. Skip bleach and fabric softener, and never iron over the print. Cold washing keeps the ink sharp and the camo colors dark through a full hunting season.' },
+      { q: 'When should I order a camo hoodie for Christmas?', a: 'Order by Friday, December 4, 2026 to leave a safe margin for Christmas delivery in the US. Each hoodie is printed to order in 2–5 business days, then ships in about 3–8 business days. Orders over $45 ship free, and checkout shows a delivery estimate.' },
+    ];
+    return c;
+  })(),
   (() => {
     // Google push #1076 (R0 item 5, 2026-11-23): answer-first intro, zip-or-pullover section, 8 FAQs. Facts from live product pages (Catch and Release zip): 8 oz/yd2 50/50 cotton-poly fleece, metal zipper, S-3XL. Grid prices read 2026-11-23: zip-ups $49.99 to $57.99 (embroidered $57.99). Last position unknown.
     const c = niche(N.zipup, 'hoodies', { slug: 'zip-up-hoodies-for-men', keyword: 'mens zip up hoodie', volume: 74000, kd: 6, product: "men's zip-up hoodies", audience: 'men', name: "Men's Zip-Up Hoodies" }) /* RankHero 2026-10-16 */;
