@@ -3368,7 +3368,7 @@ export const allGuides: Guide[] = [
           { slogan: 'CATCH AND RELEASE (MOSTLY RELEASE)', tee: 'mens-fishing-catch-and-release-zip-hoodie',
             text: 'CATCH AND RELEASE runs on two lines above a largemouth bass leaping off the hook, a cattail marsh and a lone rowboat, with (MOSTLY RELEASE) at the bottom, all across the back. A small bass is embroidered on the left chest and REEL is stitched on the left cuff. It is $57.99.' },
         ],
-        links: [{ href: '/hoodies/zip-up-hoodies-for-men/', text: 'Zip-up hoodies for men' }, { href: '/hoodies/zip-up-hoodies/', text: 'All zip-up hoodies' }],
+        links: [{ href: '/hoodies/zip-up-hoodies-for-men/', text: 'Zip-up hoodies for men' }, { href: '/hoodies/zip-up-hoodies/', text: 'All zip-up hoodies' }, { href: '/hoodies/black-zip-up-hoodies/', text: 'Black zip-up hoodies' }],
       },
     ],
     sections: [

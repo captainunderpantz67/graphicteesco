@@ -1,4 +1,4 @@
-status: BUILDING [B] 2026-11-24 13:35
+status: REVIEW
 lane: C
 type: redo
 id: 1082
@@ -18,3 +18,4 @@ Done when: astro build passes, audit 0 errors, page 200, log lists every changed
 ---
 ## Log
 - 2026-11-23 23:30 UTC director: brief written, READY (49,500 / KD 8, zip cluster; $0).
+- 2026-11-24 UTC [B]: built, REVIEW (src/data/collections.ts, src/data/guides.ts). Read Shopify: 73 in collection (71 active, 2 draft), all embroidered zips at $57.99. (1) Title 'Black Zip-Up Hoodies: Funny Back-Print Designs, $57.99' (54), meta 155 or less with Catch and Release, Twelve Labors. Zero Cardio., Sisyphus Had Bad Programming. (2) Answer-first intro: 71 hoodies, 8 oz 50/50 fleece, metal zipper, S-3XL, $57.99, order by Fri Dec 4 2026, free size exchange. (3) Section 'Does the print show on black?' plus men/women/guide links (all curl 200). (4) FAQs 6 to 9; price FAQ corrected from stale $44.99/$54.99 to $57.99; removed unverified 'lined hood' (guide says unlined). (5) Guide graphic-zip-up-hoodie links here; /hoodies/zip-up-hoodies/ link comes with #1083. astro build passes, fal $0, outside caps. Audit not run (no admin-json). Position unknown.
