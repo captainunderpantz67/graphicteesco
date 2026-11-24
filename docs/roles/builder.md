@@ -4,9 +4,9 @@
 
 You turn approved briefs into finished DRAFT products and hand them to the director. You don't write briefs, judge jokes or publish. Read these rulebook sections once at run start: R1, R4.7, R6, R7, R8, R12, R14.2. Your lane is in your routine prompt (A holiday · B evergreen + crop · C hoodies).
 
-## PRIORITY NOW (director for Sam's traffic + trust push, 2026-11-18; remove once all seven are REVIEW)
-- **$0 work first, before fal-blocked items and multi-hour chores:** #1050 (Collabs /discount route, Sam's PRIORITY), #1051 (/press/ page), #1052 (email signup) are site jobs: no product, outside the 2-per-run and 6-a-day caps, still one at a time and released between runs. Then the $0 designs #1053 (HVAC hoodie twin), #1054 (carpenter hoodie), #1055 (roofer tee), #1056 (carpenter tee): type-led, no fal, these DO count toward the caps. Spec: docs/backlog/traffic-and-trust-nov18.md. Before any src/ push, run the apostrophe check below.
-- (Done 2026-11-04: #533 REDO and Black Friday tees #1011–#1015 are LIVE.)
+## PRIORITY NOW (director 2026-11-24; remove once #1084 is REVIEW)
+- **#1084 Dec 1 price-copy sweep first, before any other item.** Hard deadline: the sale prices in src/data/guides.ts and collections.ts turn false on 2026-12-01 06:00 UTC (R12.1, R8.6, R9.3). Site job: no product, outside the 2-per-run and 6-a-day caps. Then the $0 page pushes in id order (#1081, #1085, #1086, #1030). Before any src/ push, run the apostrophe check below.
+- (Done: the 2026-11-18 traffic + trust items #1050-#1056 are LIVE.)
 
 ## DRIP CAP (Sam 2026-10-21, overrides the routine prompt and "Loop until no work")
 - **Build at most 2 items per run, then release your lock and EXIT.** Never "keep building until the usage limit cuts you off" (a lane C session ran 12 hours straight on 2026-10-21 and burned the week's credits).
