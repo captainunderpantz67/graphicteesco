@@ -1218,6 +1218,26 @@ export const hoodies: Collection[] = [
     const c = niche(N.zipup, 'hoodies', { slug: 'zip-up-hoodies', keyword: 'zip-up hoodie', volume: 135000, kd: 28, product: 'zip-up hoodies' });
     // #1076 inbound link: one natural sentence to the men's page.
     c.sections = [...c.sections, { h2: "Zip-up hoodies for men", body: "Shopping for him? Our men's zip-up hoodies page collects the full-zip fleece designs with the joke on the back.", links: [{ href: '/hoodies/zip-up-hoodies-for-men/', label: "Men's zip-up hoodies" }] }];
+    // Google push #1083 (R0 item 5, 2026-11-24): answer-first intro, spoke sections, 8 FAQs. Facts read 2026-11-24: 95 in the Shopify collection (about 85 active); live prices $49.99 printed zip, $57.99 embroidered zip (nearly all), $79.99 all-over-print. Position unknown. Camo zip-up spoke is noindexed, so it is not linked.
+    c.title = 'Zip-Up Hoodies: Funny Back-Print Designs, $49.99+';
+    c.description = 'Zip-up hoodies with the joke on the back: Catch and Release, Sisyphus Had Bad Programming and Calm Face, Loud Brain. Full-zip 8 oz fleece, from $49.99.';
+    c.intro = 'We sell more than 80 original zip-up hoodies, each a full-zip fleece hoodie (50% cotton, 50% polyester, 8 oz, metal zipper) in sizes S to 3XL. Most are $57.99 with the joke printed across the back and a small mark embroidered on the left chest, a few printed ones start at $49.99, and the all-over-print zips are $79.99. Every hoodie is printed to order; order by Friday, December 4, 2026 for Christmas delivery in the US, and you get one free size exchange with nothing to mail back.';
+    c.sections = [
+      ...c.sections,
+      { h2: 'Find your zip-up', body: "Shopping for him? Start with our men's zip-up hoodies. Shopping for her? See the women's zip-up hoodies. Want one color that goes with everything? Our black zip-up hoodies keep the same back-print jokes on black fleece. Our Y2K zip-up hoodies carry the early-2000s look.",
+        links: [{ href: '/hoodies/zip-up-hoodies-for-men/', label: "Men's zip-up hoodies" }, { href: '/hoodies/zip-up-hoodies-for-women/', label: "Women's zip-up hoodies" }, { href: '/hoodies/black-zip-up-hoodies/', label: 'Black zip-up hoodies' }, { href: '/hoodies/y2k-zip-up-hoodies/', label: 'Y2K zip-up hoodies' }] },
+      { h2: 'Zip-up or pullover?', body: 'A zip-up goes on and off over a tee, vents when you warm up and keeps the print on the back where the zipper cannot split it. A pullover puts the design on the front. If you are still choosing, our graphic zip-up hoodie guide walks through five picks.',
+        links: [{ href: '/guides/graphic-zip-up-hoodie/', label: 'Graphic zip-up hoodie guide' }] },
+    ];
+    c.faqs = [
+      ...c.faqs,
+      { q: 'What is the difference between a zip-up hoodie and a pullover?', a: 'A zip-up opens down the front with a metal zipper, so you can layer it over a tee and take it off without messing up your hair. A pullover goes over the head. At Graphic Tees Co. the zip-up carries its big print on the back.' },
+      { q: 'How do the zip-up hoodies fit?', a: 'They are a regular unisex fit in sizes S through 3XL, so most people order their usual size. Go up one size for room to layer a flannel underneath. Graphic Tees Co. offers one free size exchange within 30 days of delivery, with nothing to mail back.' },
+      { q: 'How warm is a zip-up hoodie?', a: 'Each one is a 50% cotton, 50% polyester fleece at 8 oz per square yard, with a metal zipper and front pouch pockets. That is a midweight layer for fall mornings, the garage or the truck, not a heavy winter coat. Layer a tee under it.' },
+      { q: 'Where does the print sit on a zip-up hoodie?', a: 'The big design is printed across the back, so nothing prints over the zipper and it shows whether the hoodie is open or closed. Most designs also have a small embroidered mark on the left chest, which is why they are $57.99.' },
+      { q: 'How do I wash a zip-up hoodie so the print lasts?', a: 'Zip it up, turn it inside out and wash cold with like colors, then tumble dry low or hang dry. Skip bleach and never iron over the print or the stitching. The printed back and the embroidered chest mark hold up to regular washing with that care.' },
+      { q: 'When should I order a zip-up hoodie for Christmas?', a: 'Order by Friday, December 4, 2026 to leave a margin for Christmas delivery in the US. Each hoodie is printed to order in 2–5 business days, then ships in about 3–8 business days, and checkout shows a delivery estimate. Shipping is free on $45 or more.' },
+    ];
     return c;
   })(),
   niche(N.fishing, 'hoodies', { slug: 'fishing-hoodies', keyword: 'fishing hoodie', volume: 6600, kd: 30, product: 'fishing hoodies', twin: 'fishing-t-shirts', guideSection: { h2: 'What to wear fishing', body: 'Not sure what to wear on a cold dock versus a warm one? Our guide to fishing shirts for men sorts the light tees from the fleece layers.', links: [{ href: '/guides/fishing-shirts-for-men/', label: 'Fishing shirts for men' }] } }),

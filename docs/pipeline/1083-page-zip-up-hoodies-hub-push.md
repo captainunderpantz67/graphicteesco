@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: C
 type: redo
 id: 1083
@@ -18,3 +18,4 @@ Done when: astro build passes, audit 0 errors, page 200, log lists every changed
 ---
 ## Log
 - 2026-11-23 23:30 UTC director: brief written, READY (zip hub, 135,000 / KD 28; $0).
+- 2026-11-24 UTC [B]: built, REVIEW (src/data/collections.ts only). Read Shopify: 95 in collection (about 85 active); prices $49.99 printed, $57.99 embroidered (nearly all), $79.99 all-over-print. (1) Title 'Zip-Up Hoodies: Funny Back-Print Designs, $49.99+' (50), meta 151. (2) Answer-first intro with blank, S-3XL, price tiers, order by Fri Dec 4 2026, free exchange. (3) Spoke section links men's, women's, black, y2k (all curl 200, not noindexed) plus the guide; camo-zip-up skipped (noindexed). Zip-up or pullover section. (4) FAQs 4 to 10. (5) /hoodies/ and /hoodies/graphic-hoodies-for-men/ already link here on the live site. astro build passes, fal $0, outside caps. Audit not run (no admin-json). Position unknown.
