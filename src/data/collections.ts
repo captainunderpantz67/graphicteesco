@@ -381,7 +381,9 @@ function seasonal(
 }
 
 const rawTees: Collection[] = [
-  {
+  (() => {
+    // Google push #1081 (R0 item 5, 2026-11-24): answer-first intro, cat and dog section, 8 FAQs, inbound guide links. Facts from the live collection (170 products, 168 at $24.99, Bella+Canvas 6400 relaxed and 3001, 4.2 oz) read 2026-11-24. Last known position: unknown. Keyword graphic tees for women 27,100 / KD 9 (RankHero, re-check before 2027).
+    const c: Collection = {
     slug: 'graphic-tees-for-women', section: 'tees', audience: 'women', name: "Women's Graphic Tees",
     keyword: 'graphic tees for women', volume: 27100, kd: 9,
     title: 'Graphic Tees for Women — Original Designs, New Every Month',
@@ -402,7 +404,27 @@ const rawTees: Collection[] = [
       { q: 'Do the designs come on hoodies too?', a: 'Some do, and more are added every week. Hoodie versions use the same art and are listed in our hoodie collections.', needs: 'hoodiesLive' },
     ],
     shopifyHandle: 'graphic-tees-for-women',
-  },
+    };
+    c.title = 'Graphic Tees for Women: Funny, Vintage & Cute, $24.99';
+    c.description = "Women's graphic tees: Cat Allegedly., Built Like a Dinner Roll, Scary Dog Afraid of the Vacuum. 170 original designs, $24.99, printed to order.";
+    c.intro = "We sell 170 original graphic tees for women, mostly a Bella+Canvas relaxed women's tee or the classic 3001 (100% combed ring-spun cotton, 4.2 oz): $24.99 through November 30, then $29.99 from December 1. Every tee is printed to order; order by Friday, December 4, 2026 for Christmas delivery in the US, and you get one free size exchange with nothing to mail back.";
+    c.sections = [
+      ...c.sections,
+      { h2: 'Cat and dog tees', body: "For the cat mom: Cat Allegedly. is a tuxedo cat beside a smashed ornament, and Christmas Cats is the full holiday crowd. For the dog mom: Built Like a Dinner Roll is a corgi, Scary Dog, Afraid of the Vacuum is a pitbull, and there are three French bulldog Christmas tees. Want it as a hoodie? See our cat hoodies, or our gift guide for cat moms.",
+        links: [{ href: '/hoodies/cat-hoodies/', label: 'Cat hoodies' }, { href: '/guides/gifts-for-cat-moms/', label: 'Gifts for cat moms' }] },
+    ];
+    c.faqs = [
+      { q: 'How do the graphic tees for women fit?', a: 'Most are a relaxed women\'s cut in sizes S to 3XL; the classic unisex ones run S to 4XL. Order your usual size for an easy fit or one size up for a roomier look. Graphic Tees Co. offers one free size exchange within 30 days of delivery.' },
+      { q: 'What are the tees made of?', a: 'Each tee is 100% combed, ring-spun cotton at a lightweight 4.2 oz per square yard, pre-shrunk with side seams. Heather colors contain some polyester. It is soft, breathable and light enough to wear under a cardigan or a denim jacket all year.' },
+      { q: 'How do I wash a printed graphic tee?', a: 'Turn the tee inside out and wash in cold water with similar colors, then tumble dry low or hang to dry. Skip bleach and fabric softener, and never iron over the print. Cold washing keeps the ink sharp through many washes.' },
+      { q: 'What kinds of designs do you have?', a: 'Graphic Tees Co. has 170 original women\'s tees: funny and vintage storybook art, cat and dog designs, Christian, country and western, nurse, football mom and Christmas. Every design is made for this shop, with no licensed characters or stock art.' },
+      { q: 'When should I order for Christmas?', a: 'Order by Friday, December 4, 2026 to leave a safe margin for Christmas delivery in the US. Each tee is printed to order in 2–5 business days, then ships in about 3–8 business days. Orders over $45 ship free, and checkout shows a delivery estimate.' },
+      { q: 'What is the size exchange?', a: 'If a tee does not fit, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and you do not mail the first one back. Compare the size chart with a tee you already own before ordering.' },
+      { q: 'Are the tees $24.99 all year?', a: (f) => `The tees are $24.99 through November 30, 2026 and $29.99 from December 1. Every one is printed after you order, in sizes ${f.sizeRange}. The price you see at checkout is the price you pay.`, needs: 'sizeRange' },
+      ...c.faqs.filter(x => !/plus size/i.test(x.q)),
+    ];
+    return c;
+  })(),
   niche(N.country, 'tees', { slug: 'country-graphic-tees', keyword: 'country graphic tees', volume: 1000, kd: 24, product: 'country graphic tees', audience: 'women', name: 'Country Graphic Tees' }),
   niche(N.cropped, 'tees', { slug: 'cropped-graphic-tees', keyword: 'cropped graphic tee', volume: 6600, kd: 38, product: 'cropped graphic tees', audience: 'women', name: 'Cropped Graphic Tees' }),
   {

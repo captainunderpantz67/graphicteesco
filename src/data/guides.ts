@@ -4538,7 +4538,7 @@ const rawGuides: Guide[] = [
       { h2: 'What makes a women’s Christmas shirt funny instead of cheesy?',
         body: ['It says one dry thing she would say out loud, with a straight face. A cat that insists it did nothing is just true. A pun that explains itself is a greeting card.',
           'Every Graphic Tees Co. design is original and made for this shop, with the joke in big lettering over a vintage storybook picture. None of the five uses a character, team or brand logo.'],
-        links: [{ href: '/christmas-shirts-for-women/', text: 'Women’s Christmas shirts' }] },
+        links: [{ href: '/christmas-shirts-for-women/', text: 'Women’s Christmas shirts' }, { href: '/graphic-tees-for-women/', text: 'Graphic tees for women' }] },
       { h2: 'What size should you buy in a women’s Christmas tee?',
         body: ['Her usual size for an easy fit, or one size up for an oversized look. The first three tees are a relaxed women’s cut in S to 3XL; the last two are a classic unisex cut in S to 4XL.',
           'If the size is wrong, Graphic Tees Co. does one free size exchange within 30 days of delivery.'],

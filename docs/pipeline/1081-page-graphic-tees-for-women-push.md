@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: redo
 id: 1081
@@ -18,3 +18,4 @@ Done when: astro build passes, audit 0 errors, page 200, log lists every changed
 ---
 ## Log
 - 2026-11-23 23:30 UTC director: brief written, READY (easy head term on the card's thin-niche list; $0).
+- 2026-11-24 [B]: built. collections.ts graphic-tees-for-women: title 57 chars, meta 143, answer-first intro (170 tees, 4.2 oz, $24.99 then $29.99 Dec 1, order by Dec 4, free exchange), cat and dog section with /hoodies/cat-hoodies/ + /guides/gifts-for-cat-moms/, 6 new FAQs (40-48 words; old 4 kept). guides.ts funny-womens-christmas-shirts gets an inbound link (cat-moms guide already linked). Astro build passes, links 200, last position unknown, audit not run (no admin-json), fal $0.
