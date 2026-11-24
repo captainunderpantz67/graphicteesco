@@ -79,7 +79,12 @@ export type FaqA = string | ((f: Facts) => string);
 export interface Faq { q: string; a: FaqA; needs?: keyof Facts }
 
 // Resolve FAQs against facts: drop ones whose required fact is null/false.
-export const resolveFaqs = (faqs: Faq[]) =>
+// `prepriced`: the strings already went through repriceDeep (collections.ts), so only function answers get repriced;
+// repricing twice bumps a bare sale price two steps after Dec 1 ($49.99 -> $59.99). Director fix 2026-11-24.
+export const resolveFaqs = (faqs: Faq[], prepriced = false) =>
   faqs
     .filter((f) => !f.needs || Boolean(site.facts[f.needs]))
-    .map((f) => ({ q: reprice(f.q), a: reprice(typeof f.a === 'function' ? f.a(site.facts) : f.a) }));
+    .map((f) => ({
+      q: prepriced ? f.q : reprice(f.q),
+      a: typeof f.a === 'function' ? reprice(f.a(site.facts)) : prepriced ? f.a : reprice(f.a),
+    }));

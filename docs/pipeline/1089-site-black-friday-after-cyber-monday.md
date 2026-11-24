@@ -1,0 +1,19 @@
+status: READY
+lane: C
+type: redo
+id: 1089
+slug: black-friday-after-cyber-monday
+kd: n/a
+push: R0
+---
+## Black Friday pages after Cyber Monday (site job, $0, outside the 6-a-day cap; must land before 2026-12-01 06:00 UTC)
+Why: #1084 made every price flip on Dec 1, but /black-friday/ and /black-friday-shirts/ still say the deals "run November 8 to November 30" and describe tier discounts in the present tense (found in the PRICE_DATE=2026-12-02 build, 2026-11-24). After Dec 1 that is a false claim (R8.6) on two R0 pages that already get impressions. Keep both pages live and indexable: they carry this year's ranking into Black Friday 2027 (R0.2).
+Do (src/pages/black-friday.astro, the black-friday-shirts entry in src/data/collections.ts, src/lib/price.ts only):
+1. Use onSale() from src/lib/price.ts (or the `[[sale||after]]` syntax) so the build decides. Before 2026-12-01 06:00 UTC nothing changes (the normal build must stay byte-identical, `diff -rq` against a build from main).
+2. After the date: H1/intro say plainly that Black Friday 2026 (Nov 8 to Cyber Monday Nov 30) has ended and our Black Friday deals come back in November 2027; the doorbuster grid stays as "Black Friday favorites" at today's prices; remove the tier-discount and "deals go live" FAQs and sentences; keep the Christmas order-by date (Fri Dec 4, from site.ts) and the free size exchange. No "sale", "% off" or "deal" claim that is not running.
+3. /black-friday-shirts/: the grid and the shirt copy stay; any FAQ or sentence about the Nov 8-30 deal window says it ended and points to /christmas-shirts/ for Christmas gifts. Title and meta keep "Black Friday Shirts" first, with no price or deal claim.
+4. Test: normal build unchanged; PRICE_DATE=2026-12-02 build: grep both pages for "November 8", "run through", "save", "% off", "deals go live": 0 hits except the one past-tense sentence. Log the counts.
+Done when: astro build passes both ways, audit 0 errors, log lists every changed file.
+---
+## Log
+- 2026-11-24 23:20 UTC director: brief written, READY (open item 2 from #1084; Dec 1 deadline, second in PRIORITY NOW after nothing else is due).

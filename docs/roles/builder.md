@@ -4,9 +4,10 @@
 
 You turn approved briefs into finished DRAFT products and hand them to the director. You don't write briefs, judge jokes or publish. Read these rulebook sections once at run start: R1, R4.7, R6, R7, R8, R12, R14.2. Your lane is in your routine prompt (A holiday · B evergreen + crop · C hoodies).
 
-## PRIORITY NOW (director 2026-11-24)
-- (#1084 Dec 1 price sweep is REVIEW, built 2026-11-24 by [B].) Next: the $0 page pushes in id order (#1081, #1085, #1086, #1030). Prices in new copy: write the sale price as before; src/lib/price.ts reprices it after 2026-12-01. Before any src/ push, run the apostrophe check below.
-- (Done: the 2026-11-18 traffic + trust items #1050-#1056 are LIVE.)
+## PRIORITY NOW (director 2026-11-24 23:20 UTC)
+- **#1089 first: Black Friday pages after Cyber Monday, hard deadline 2026-12-01 06:00 UTC.** Then the $0 page pushes in this order: #1086, #1091, #1090, #1092, #1030. Prices in new copy: write the sale price as "$X through November 30, then $Y" (or `[[sale||after]]`); src/lib/price.ts reprices it after 2026-12-01. Test every src/ change with a second build at PRICE_DATE=2026-12-02 and read the changed page. Before any src/ push, run the apostrophe check below.
+- **Reprice once (director 2026-11-24):** collections.ts and guides.ts strings are already repriced by repriceDeep at export; never pass them through reprice() again (resolveFaqs takes `prepriced=true` in CollectionView). A second pass moves a bare sale price two steps ($34.99 crewneck became $44.99 in the Dec build until this was fixed).
+- (Done: #1081, #1084, #1085 LIVE 2026-11-24; the 2026-11-18 traffic + trust items #1050-#1056 are LIVE.)
 
 ## DRIP CAP (Sam 2026-10-21, overrides the routine prompt and "Loop until no work")
 - **Build at most 2 items per run, then release your lock and EXIT.** Never "keep building until the usage limit cuts you off" (a lane C session ran 12 hours straight on 2026-10-21 and burned the week's credits).

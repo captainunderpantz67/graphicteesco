@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: christmas
@@ -17,3 +17,4 @@ slug: christmas-gifts-for-boyfriend
 - `npx astro build`: passes (164 pages; drafts are not built).
 ## Log
 - 2026-11-24 UTC writer: drafted.
+- 2026-11-24 23:20 UTC director: LIVE (article 1 of 2, Nov 24 Chicago). All 6 picks ACTIVE in Shopify with the prices, colors and sizes the text states. Keyword 22,200 / KD 10 (RankHero 2026-10-18, under 90 days; RankHero still 403, not re-pulled); claim moved off the It Looked Smaller at the Farm crewneck in the keyword map (it keeps xmas tree sweater). Fixed "two tees ship free at $49.98" to a date-proof form; Dec build reads $29.99 / $39.99 / $44.99 throughout. draft: line removed. FAQs not from PAA/GSC (noted).

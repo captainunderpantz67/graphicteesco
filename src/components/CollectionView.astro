@@ -68,7 +68,7 @@ const rows = baseRows?.map((g) => {
 }) ?? null;
 const twinC = c.twin ? bySlug(c.twin) : undefined;
 const twin = twinC && live.has(twinC.slug) ? twinC : undefined;
-const faqs = resolveFaqs(c.faqs);
+const faqs = resolveFaqs(c.faqs, true);
 const crumbs = [
   { name: 'Home', path: '/' },
   ...(c.section === 'hoodies' ? [{ name: 'Hoodies', path: '/hoodies/' }] : []),

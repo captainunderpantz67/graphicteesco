@@ -5573,7 +5573,6 @@ const rawGuides: Guide[] = [
     description: 'Christmas gifts for boyfriend: Bulking Season, White Elephant Champion, It Looked Smaller at the Farm. Tees $24.99, printed to order, free size exchange.',
     h1: 'Christmas Gifts for Your Boyfriend: Funny Shirts He’ll Actually Wear',
     date: '2026-11-24',
-    draft: true,
     cluster: 'christmas',
     answer: 'A good Christmas gift for a boyfriend is a funny shirt that teases him about something he really does, like the macros he explains at dinner or the gift he steals at the swap. Graphic Tees Co. has four original designs: Bulking Season (tee $24.99), White Elephant Champion (tee $24.99, hoodie $39.99), It Looked Smaller at the Farm (tee $24.99, crewneck $34.99) and Mom’s Favorite (tee $24.99). Those are sale prices through November 30, 2026; from December 1 tees are $29.99, the crewneck $39.99 and the hoodie $44.99. Each is printed after you order. Order by December 4, 2026.',
     picks: [
@@ -5627,7 +5626,7 @@ const rawGuides: Guide[] = [
           'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and he does not have to mail the first one back. If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
         links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
       { h2: 'What are good Christmas gifts for a boyfriend under $50?',
-        body: ['Every pick here is under $50: tees are $24.99, the crewneck $34.99 and the hoodie $39.99. On December 1 the tees step to $29.99, the crewneck to $39.99 and the hoodie to $44.99, still under $50. US shipping is free on orders of $45 or more, so two tees ship free at $49.98.'],
+        body: ['Every pick here is under $50: tees are $24.99, the crewneck $34.99 and the hoodie $39.99. On December 1 the tees step to $29.99, the crewneck to $39.99 and the hoodie to $44.99, still under $50. US shipping is free on orders of $45 or more, so [[two tees ship free at $49.98||two tees ($59.98) ship free]].'],
         links: [{ href: '/guides/cheap-christmas-gifts/', text: 'Cheap Christmas gifts' }] },
       { h2: 'When should you order a Christmas gift for your boyfriend?',
         body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
@@ -5653,13 +5652,12 @@ const rawGuides: Guide[] = [
     description: 'Christmas gifts for couples: We Said No Gifts, Resting My Eyes, Cat Allegedly and Card Photo Survivor. Tees $24.99, crewnecks $34.99, free size exchange.',
     h1: 'Christmas Gifts for Couples: Funny Shirts They’ll Both Wear',
     date: '2026-11-24',
-    draft: true,
     cluster: 'christmas',
     answer: 'A good Christmas gift for a couple is a funny shirt that jokes about the thing they do together every December, like swearing off gifts and buying them anyway. Graphic Tees Co. has original designs for that: We Said No Gifts (unisex tee $24.99), Card Photo Survivor (tee $24.99, crewneck $34.99), Resting My Eyes (tee $24.99), Cat Allegedly (women’s tee $24.99) and Light Show Manager (crewneck $34.99). Those are sale prices through November 30, 2026; from December 1 tees are $29.99 and crewnecks $39.99. Each is printed after you order, and two tees ship free. Order by December 4, 2026.',
     picks: [
       {
         h2: 'What is a funny Christmas gift for a couple who said no gifts?',
-        body: ['We Said No Gifts. We Lied. It is for the pair who made the deal and broke it. Each tee is sold singly, so put two in the cart, one for each of them, and the $24.99 pair ships free.'],
+        body: ['We Said No Gifts. We Lied. It is for the pair who made the deal and broke it. Each tee is sold singly, so put two in the cart, one for each of them, and [[the $24.99 pair ships free||the pair ships free]].'],
         items: [
           { slogan: 'WE SAID NO GIFTS. We lied.', tee: 'unisex-christmas-we-said-no-gifts-graphic-tee',
             text: 'A 1960s storybook couple, a smiling husband in a cardigan and a wife in a sweater and pleated skirt, stand back to back in front of a small decorated tree, each hiding a big wrapped present with a ribbon bow on the side the other cannot see. WE SAID NO GIFTS. runs across the top in red slab capitals and We lied. sits below in black script. The tee is a classic unisex cut in 4.2 oz cotton, $24.99 in White, Natural, Heather Dust, Athletic Heather, Ash and Tan, sizes S to 4XL.' },
@@ -5716,7 +5714,7 @@ const rawGuides: Guide[] = [
           'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and they do not have to mail the first one back. If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
         links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
       { h2: 'What are good Christmas gifts for couples under $50?',
-        body: ['A pair of tees is $49.98 through November 30, and US shipping is free on orders of $45 or more, so two tees ship free. On December 1 tees step to $29.99 and crewnecks to $39.99, so a single piece is still under $50.'],
+        body: ['A pair of tees is [[$49.98 through November 30||$59.98]], and US shipping is free on orders of $45 or more, so two tees ship free. [[On December 1 tees step to $29.99 and crewnecks to $39.99, so a single piece is still under $50.||A single tee ($29.99) or crewneck ($39.99) is under $50 on its own.]]'],
         links: [{ href: '/guides/cheap-christmas-gifts/', text: 'Cheap Christmas gifts' }] },
       { h2: 'When should you order Christmas gifts for a couple?',
         body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
@@ -5727,7 +5725,7 @@ const rawGuides: Guide[] = [
     faqs: [
       { q: 'What are good Christmas gifts for couples?', a: 'A funny shirt about something the two of them do together, like We Said No Gifts or Card Photo Survivor from Graphic Tees Co. Tees are $24.99 through November 30, 2026 and $29.99 from December 1, all printed after you order.' },
       { q: 'Can couples wear matching Christmas shirts?', a: 'Yes. Graphic Tees Co. sells each tee singly, so a matching pair is two in the cart, one in each size. We Said No Gifts is a unisex tee at $24.99 in sizes S to 4XL, and two tees ship free in the US.' },
-      { q: 'What is a funny Christmas gift for a couple under $50?', a: 'The We Said No Gifts tee, twice. Graphic Tees Co. prints it for $24.99 each through November 30, 2026, so a pair is $49.98 with free US shipping at $45 or more. From December 1 the tee is $29.99.' },
+      { q: 'What is a funny Christmas gift for a couple under $50?', a: 'The We Said No Gifts tee. Graphic Tees Co. prints it for $24.99 through November 30, 2026 and $29.99 from December 1, so one tee is well under $50, and [[a pair is $49.98 with free US shipping at $45 or more||two tees ($59.98) ship free in the US at $45 or more]].' },
       { q: 'Is a Christmas crewneck a good gift for a couple?', a: 'Yes, for a cold climate. The Graphic Tees Co. Card Photo Survivor crewneck is an 8 oz cotton-polyester fleece at $34.99 through November 30, 2026 ($39.99 from December 1), in White, Sand, Sport Grey and Navy, sizes S to 3XL.' },
       { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back. Compare the size chart with a shirt they already own.' },
       { q: 'When should I order Christmas gifts for a couple?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },

@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: christmas
@@ -17,3 +17,4 @@ slug: christmas-gifts-for-couples
 - `npx astro build`: passes (164 pages; drafts are not built).
 ## Log
 - 2026-11-24 UTC writer: drafted.
+- 2026-11-24 23:20 UTC director: LIVE (article 2 of 2, Nov 24 Chicago). All 7 picks ACTIVE (Cat Allegedly crewneck confirmed live) with matching prices, colors and sizes. Keyword 22,200 / KD 10 (RankHero 2026-10-16, under 90 days); claim moved off We Said No Gifts tee in the keyword map (it keeps couples christmas shirt). Date-proofed 4 lines the Dec build got wrong: "$24.99 pair ships free" (became "$29.99 pair"), "$49.98 through November 30" (stayed $49.98), the under-$50 FAQ (a pair is $59.98 after Dec 1, so it now says one tee is under $50), and "crewnecks to $39.99" (became $44.99). draft: line removed.
