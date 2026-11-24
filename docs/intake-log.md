@@ -1,3 +1,5 @@
+RUNNING director since 2026-11-24 23:14 UTC
+
 RUNNING helper since 2026-11-24 14:43 UTC
 
 2026-11-24 UTC — [B] built, REVIEW #1085 camo hoodies hub page push (collections.ts only; astro build passes, fal $0, outside caps; 0 new products, 0 of 6 today). Builder run end: 2 of 2 items (#1081, #1085). No lock held.
