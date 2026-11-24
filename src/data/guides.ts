@@ -5561,6 +5561,88 @@ export const allGuides: Guide[] = [
       { q: 'When should I order a Christmas gift for mom?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-24), christmas cluster. Keyword: christmas gifts for boyfriend 22,200 / KD 10 (docs/product-keyword-map.json gaps_measured 2026-10-18, RankHero; under 90 days; NOT re-pulled this run, no RankHero key unattended). It is a secondary claim on the It Looked Smaller at the Farm crewneck in the keyword map; same fix as the husband and wife guides, so director please move the claim to this guide (R2.8, R2.10).
+    // Facts (art, prices, fabrics, colors, sizes) from the LIVE Shopify Stories read 2026-11-24 and the sibling husband guide; policies and dates from site.ts and the sibling christmas guides. FAQ questions are not from PAA or GSC (not available unattended).
+    // Picks (all ACTIVE, every handle in src/data/fresh-designs.json): Bulking Season (tee), White Elephant Champion (tee + hoodie), It Looked Smaller at the Farm (tee + crewneck), Mom's Favorite (tee). The Bulking Season oversized hoodie ($54.99) is left out because it is over $50.
+    // Siblings linked by slug: christmas-gifts-for-husband, christmas-gifts-for-girlfriend, christmas-gifts-for-brother, christmas-gifts-for-son, white-elephant-gifts, cheap-christmas-gifts (confirm each is live before approving).
+    slug: 'christmas-gifts-for-boyfriend',
+    keyword: 'christmas gifts for boyfriend',
+    title: 'Christmas Gifts for Boyfriend: Funny Shirts He’ll Wear',
+    description: 'Christmas gifts for boyfriend: Bulking Season, White Elephant Champion, It Looked Smaller at the Farm. Tees $24.99, printed to order, free size exchange.',
+    h1: 'Christmas Gifts for Your Boyfriend: Funny Shirts He’ll Actually Wear',
+    date: '2026-11-24',
+    draft: true,
+    cluster: 'christmas',
+    answer: 'A good Christmas gift for a boyfriend is a funny shirt that teases him about something he really does, like the macros he explains at dinner or the gift he steals at the swap. Graphic Tees Co. has four original designs: Bulking Season (tee $24.99), White Elephant Champion (tee $24.99, hoodie $39.99), It Looked Smaller at the Farm (tee $24.99, crewneck $34.99) and Mom’s Favorite (tee $24.99). Those are sale prices through November 30, 2026; from December 1 tees are $29.99, the crewneck $39.99 and the hoodie $44.99. Each is printed after you order. Order by December 4, 2026.',
+    picks: [
+      {
+        h2: 'What is a funny Christmas gift for a boyfriend who lives at the gym?',
+        body: ['Bulking Season, $24.99. December is the bulk, and he will say so over dinner with a straight face.'],
+        items: [
+          { slogan: 'BULKING SEASON', tee: 'mens-christmas-bulking-season-graphic-tee',
+            text: 'A muscular storybook Santa in red trousers, a white tank top and a striped sweatband carries a candy-cane barbell loaded with big gingerbread-man cookies as weight plates, with a plate of cookies on a bench beside him. BULKING SEASON stacks above him in huge red and green gym-poster capitals. The tee is a classic unisex cut in 4.2 oz cotton, $24.99 in White, Natural, Ash, Athletic Heather, Heather Dust and Tan, sizes S to 4XL.' },
+        ],
+      },
+      {
+        h2: 'What do you give a boyfriend who wins every gift swap?',
+        body: ['White Elephant Champion. It is for the guy who steals the good gift at the party and refuses to give it back. Get the tee for $24.99, or the hoodie at $39.99 if he runs cold.'],
+        items: [
+          { slogan: 'I STOLE IT. I’M KEEPING IT.', tee: 'mens-christmas-white-elephant-champion-graphic-tee',
+            text: 'A proud mustached man in a striped Christmas sweater and a bobble hat stands on a small podium hugging a wrapped gift with a big bow like a championship belt, with a tiny gold trophy at his feet. I STOLE IT. runs in heavy dark red capitals and I’M KEEPING IT. in navy. The tee is $24.99 in White, Natural, Heather Dust, Athletic Heather, Ash, Tan and Sage, sizes S to 4XL.' },
+          { slogan: 'I STOLE IT. I’M KEEPING IT.', tee: 'mens-christmas-white-elephant-champion-hoodie',
+            text: 'The same podium champion on an 8 oz, 50% cotton and 50% polyester pullover with a double-lined hood and a front pouch pocket. It is $39.99 in Sand or Navy, sizes S to 3XL. On Navy the lettering flips to coral and cream so every word reads.' },
+        ],
+      },
+      {
+        h2: 'What is a good gift for a boyfriend who always picks the biggest tree?',
+        body: ['It Looked Smaller at the Farm. If you have stood in a living room with a tree bent against the ceiling, this one is already yours to wrap.'],
+        items: [
+          { slogan: 'IT LOOKED SMALLER AT THE FARM', tee: 'mens-christmas-it-looked-smaller-at-the-farm-graphic-tee', crewneck: 'mens-christmas-it-looked-smaller-at-the-farm-crewneck-sweatshirt',
+            text: 'A deadpan storybook man in a red plaid flannel and a knit cap stands beside an enormous fir that is far too big for the room: the top is bent sideways against a wooden ceiling beam, the star lies on the floor, pine needles cover the rug and a limp yellow tape measure dangles from his hand. IT LOOKED SMALLER runs across the top and AT THE FARM across the bottom in chunky faded-red slab capitals. The tee is $24.99 in seven colors, sizes S to 4XL. The crewneck is $34.99 in Sand or Navy, sizes S to 3XL.' },
+        ],
+      },
+      {
+        h2: 'What is a funny Christmas gift for a boyfriend who is mom’s favorite?',
+        body: ['Mom’s Favorite. Check the Stockings. It is a joke about who got the better stocking, and it works best for a boyfriend who can take a tease at the family table.'],
+        items: [
+          { slogan: 'MOM’S FAVORITE. CHECK THE STOCKINGS.', tee: 'mens-christmas-moms-favorite-graphic-tee',
+            text: 'A 1960s storybook mantel in faded red, pine green, mustard and cream: a brick fireplace with a pine garland and two knit stockings, the left one overflowing with wrapped presents, candy canes, ornaments and a toy truck, the right one limp with one candy cane poking out. MOM’S FAVORITE. runs across the top in red slab capitals and CHECK THE STOCKINGS. across the bottom in heavy pine-green capitals. The tee is $24.99 in White, Natural, Heather Dust, Athletic Heather, Ash and Tan, sizes S to 4XL.' },
+        ],
+        links: [{ href: '/christmas-shirts-for-men/', text: 'Men’s Christmas shirts' }, { href: '/hoodies/christmas-hoodies/', text: 'Christmas hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good Christmas gift for a boyfriend?',
+        body: ['Something he will wear without being asked. A shirt that jokes about something he really does, the lifting, the tree or the gift swap, gets worn because he is in on the joke.',
+          'Graphic Tees Co. designs are original art with the joke set in big type. They carry no team, brand or character logos, so there is nothing to explain.'],
+        links: [{ href: '/christmas-shirts/', text: 'All Christmas shirts' }] },
+      { h2: 'Should you buy your boyfriend a tee, a crewneck or a hoodie?',
+        body: ['The tee is the easy pick: $24.99 through November 30 in a lightweight 4.2 oz cotton cut. The crewneck is $34.99 in 8 oz fleece, and the hoodie is $39.99, the better gift if he runs cold.',
+          'Bulking Season and Mom’s Favorite are tees. White Elephant Champion comes as a tee or a hoodie, and It Looked Smaller at the Farm as a tee or a crewneck.'],
+        links: [{ href: '/christmas-sweatshirts-for-men/', text: 'Men’s Christmas sweatshirts' }] },
+      { h2: 'What if you do not know his size?',
+        body: ['Check the size chart on the product page against a shirt he already owns. The tees run S to 4XL in a classic unisex cut, and the crewneck and hoodie run S to 3XL.',
+          'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and he does not have to mail the first one back. If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'What are good Christmas gifts for a boyfriend under $50?',
+        body: ['Every pick here is under $50: tees are $24.99, the crewneck $34.99 and the hoodie $39.99. On December 1 the tees step to $29.99, the crewneck to $39.99 and the hoodie to $44.99, still under $50. US shipping is free on orders of $45 or more, so two tees ship free at $49.98.'],
+        links: [{ href: '/guides/cheap-christmas-gifts/', text: 'Cheap Christmas gifts' }] },
+      { h2: 'When should you order a Christmas gift for your boyfriend?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find Christmas gift ideas?',
+        body: ['The guides below cover the rest of the list.'],
+        links: [{ href: '/guides/christmas-gifts-for-husband/', text: 'Christmas gifts for husband' }, { href: '/guides/christmas-gifts-for-girlfriend/', text: 'Christmas gifts for girlfriend' }, { href: '/guides/christmas-gifts-for-brother/', text: 'Christmas gifts for brother' }, { href: '/guides/christmas-gifts-for-son/', text: 'Christmas gifts for son' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }] },
+    ],
+    faqs: [
+      { q: 'What are good Christmas gifts for a boyfriend?', a: 'A funny shirt that teases him about something he really does, like Bulking Season or White Elephant Champion from Graphic Tees Co. Tees are $24.99 through November 30, 2026 and $29.99 from December 1, all printed after you order.' },
+      { q: 'What is a funny Christmas gift for a boyfriend under $30?', a: 'Any Graphic Tees Co. Christmas tee in this guide: Bulking Season, White Elephant Champion, It Looked Smaller at the Farm or Mom’s Favorite. Each is $24.99 through November 30, 2026, then $29.99.' },
+      { q: 'What is a good Christmas gift for a gym boyfriend?', a: 'The Bulking Season tee. Graphic Tees Co. prints a muscular Santa carrying a candy-cane barbell loaded with gingerbread-man plates. It is $24.99 in six colors, sizes S to 4XL, with a free size exchange.' },
+      { q: 'Is a Christmas hoodie a good gift for a boyfriend?', a: 'Yes, if he runs cold. The Graphic Tees Co. White Elephant Champion hoodie is an 8 oz cotton-polyester pullover at $39.99 through November 30, 2026 ($44.99 from December 1), in Sand and Navy, sizes S to 3XL.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back. Compare the size chart with a shirt he already owns.' },
+      { q: 'When should I order a Christmas gift for my boyfriend?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
