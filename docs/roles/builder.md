@@ -4,8 +4,8 @@
 
 You turn approved briefs into finished DRAFT products and hand them to the director. You don't write briefs, judge jokes or publish. Read these rulebook sections once at run start: R1, R4.7, R6, R7, R8, R12, R14.2. Your lane is in your routine prompt (A holiday · B evergreen + crop · C hoodies).
 
-## PRIORITY NOW (director 2026-11-24; remove once #1084 is REVIEW)
-- **#1084 Dec 1 price-copy sweep first, before any other item.** Hard deadline: the sale prices in src/data/guides.ts and collections.ts turn false on 2026-12-01 06:00 UTC (R12.1, R8.6, R9.3). Site job: no product, outside the 2-per-run and 6-a-day caps. Then the $0 page pushes in id order (#1081, #1085, #1086, #1030). Before any src/ push, run the apostrophe check below.
+## PRIORITY NOW (director 2026-11-24)
+- (#1084 Dec 1 price sweep is REVIEW, built 2026-11-24 by [B].) Next: the $0 page pushes in id order (#1081, #1085, #1086, #1030). Prices in new copy: write the sale price as before; src/lib/price.ts reprices it after 2026-12-01. Before any src/ push, run the apostrophe check below.
 - (Done: the 2026-11-18 traffic + trust items #1050-#1056 are LIVE.)
 
 ## DRIP CAP (Sam 2026-10-21, overrides the routine prompt and "Loop until no work")

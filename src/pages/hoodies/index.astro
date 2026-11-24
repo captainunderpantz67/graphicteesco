@@ -10,6 +10,7 @@ import { breadcrumbs, faqPage, itemListOfCollections } from '../../lib/schema';
 import { site } from '../../data/site';
 import { linkableSlugs } from '../../lib/linkable';
 import { guides } from '../../data/guides';
+import { reprice, repriceDeep } from '../../lib/price';
 import { getAllProducts } from '../../lib/shopify';
 import { coverFor } from '../../data/covers';
 
@@ -55,17 +56,17 @@ const featured = [...hoodieProducts.filter((p) => coverFor(p.handle)), ...hoodie
   .slice(0, 8);
 
 const reads = guides.filter((g) => g.cluster === 'hoodies');
-const facts = ['Hoodies from $39.99', 'Free US shipping on $45+', '1 free size exchange'];
+const facts = [reprice('Hoodies from $39.99'), 'Free US shipping on $45+', '1 free size exchange'];
 
 // The page copy, kept for search and restyled as answer cards (first sentence answers the question).
-const answers = [
+const answers = repriceDeep([
   { q: 'What are graphic hoodies?', a: 'Graphic hoodies are hooded sweatshirts with a printed design on the front. Ours carry the same fishing, hunting, western and gym designs as our tees, on pullover, zip-up, heavyweight and oversized hoodies.', link: { href: '/hoodies/zip-up-hoodies/', text: 'Zip-up hoodies' } },
   { q: 'Zip-up or pullover?', a: 'Pick a zip-up if you layer and run warm, and a pullover if you want the design front and center with no zipper through it. Most designs come in both.', link: { href: '/hoodies/zip-up-hoodies-for-men/', text: "Men's zip-ups" } },
   { q: 'What is a heavyweight hoodie?', a: 'A heavyweight hoodie uses thicker fleece, so it feels warmer and holds its shape wash after wash. It is the one to grab for deer camp, football Fridays and cold mornings.', link: { href: '/hoodies/heavyweight-hoodies/', text: 'Heavyweight hoodies' } },
   { q: 'How do oversized hoodies fit?', a: 'Oversized hoodies are cut roomier through the body and sleeves for a relaxed, dropped-shoulder look. Order your usual size for the oversized fit, or one size down for a closer fit.', link: { href: '/hoodies/oversized-hoodies/', text: 'Oversized hoodies' } },
   { q: 'Are the designs original?', a: 'Yes. Every design is made for this shop, with no licensed characters or resold stock art, and each hoodie is printed after you order it.' },
   { q: 'How much do the hoodies cost and how fast do they ship?', a: `Hoodies start at $39.99, US shipping is free on orders over $45, and one free size exchange within 30 days covers a size guess. Each one is printed to order, then shipped with tracking.` },
-];
+]);
 // Light cards, navy text, rust accent (Sam 2026-10-21: pages too dark, flip cream and navy, consistent orange pop).
 const tones = [
   ['var(--color-cream)', 'var(--color-navy)', 'var(--color-rust)'],

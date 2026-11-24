@@ -6,6 +6,7 @@
 // Order within each section = easiest to rank first (build order).
 import type { Faq, Facts } from './site';
 import { site } from './site';
+import { repriceDeep } from '../lib/price';
 
 export type Section = 'tees' | 'hoodies';
 
@@ -379,7 +380,7 @@ function seasonal(
   };
 }
 
-export const tees: Collection[] = [
+const rawTees: Collection[] = [
   {
     slug: 'graphic-tees-for-women', section: 'tees', audience: 'women', name: "Women's Graphic Tees",
     keyword: 'graphic tees for women', volume: 27100, kd: 9,
@@ -1134,7 +1135,7 @@ export const tees: Collection[] = [
   },
 ];
 
-export const hoodies: Collection[] = [
+const rawHoodies: Collection[] = [
   {
     // RankHero 2026-10-18: cat hoodie 14,800/42 (47K listings). Product purrsonal-space hoodie moved to "embroidered cat hoodie". Added 2026-10-19 by Claude (SEO audit: niche had 3+ live products, no page).
     slug: 'cat-hoodies', section: 'hoodies', name: 'Cat Hoodies',
@@ -1688,6 +1689,8 @@ export const hoodies: Collection[] = [
     ] }),
 ];
 
+export const tees: Collection[] = repriceDeep(rawTees);
+export const hoodies: Collection[] = repriceDeep(rawHoodies);
 export const all = [...tees, ...hoodies];
 export const pathFor = (c: Collection) => (c.section === 'hoodies' ? `/hoodies/${c.slug}/` : `/${c.slug}/`);
 export const bySlug = (slug: string) => all.find((c) => c.slug === slug);

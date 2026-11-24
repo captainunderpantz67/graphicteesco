@@ -1,5 +1,7 @@
 // Brand-level facts. Anything null is unconfirmed: copy, FAQs and schema that depend on
 // it are hidden automatically until it's filled in. Never fill a fact by guessing.
+import { reprice } from '../lib/price';
+
 export interface Facts {
   printedOnDemand: boolean;
   productionDays: string | null; // e.g. '2–5 business days' — from Printful
@@ -80,4 +82,4 @@ export interface Faq { q: string; a: FaqA; needs?: keyof Facts }
 export const resolveFaqs = (faqs: Faq[]) =>
   faqs
     .filter((f) => !f.needs || Boolean(site.facts[f.needs]))
-    .map((f) => ({ q: f.q, a: typeof f.a === 'function' ? f.a(site.facts) : f.a }));
+    .map((f) => ({ q: reprice(f.q), a: reprice(typeof f.a === 'function' ? f.a(site.facts) : f.a) }));

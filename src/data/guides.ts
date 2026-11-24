@@ -2,6 +2,7 @@
 // H2s that open with the answer, FAQ from real autocomplete phrasing, 2026-10-02).
 // No invented stats: the only number used is the keyword volume from our research.
 
+import { repriceDeep } from '../lib/price';
 export interface Guide {
   slug: string;
   keyword: string;
@@ -29,7 +30,7 @@ export interface Pick {
 }
 export interface PickGroup { h2: string; body: string[]; items: Pick[]; links?: { href: string; text: string }[] }
 
-export const allGuides: Guide[] = [
+const rawGuides: Guide[] = [
   {
     // Writer lane W rewrite (2026-10-21) of the live 'funny-golf-gifts' guide, same slug. Rewrite queue item 2 of 6.
     // Approved by the director 2026-10-21; replaced the 2026-10-19 entry.
@@ -5646,4 +5647,5 @@ export const allGuides: Guide[] = [
 ];
 
 // Only approved guides are built and linked.
+export const allGuides: Guide[] = repriceDeep(rawGuides);
 export const guides: Guide[] = allGuides.filter((g) => !g.draft);
