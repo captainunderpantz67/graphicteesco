@@ -5644,6 +5644,95 @@ const rawGuides: Guide[] = [
       { q: 'When should I order a Christmas gift for my boyfriend?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
     ],
   },
+  {
+    // Lane W 2026-11-24. Keyword: christmas gifts for couples 22,200 / KD 10 (docs/product-keyword-map.json gaps_measured 2026-10-16, RankHero; not re-pulled this unattended run). Editorial gift phrase, guide target only (R2.10).
+    // Planned siblings: matching-christmas-shirts-for-couples, secret-santa-gifts.
+    slug: 'christmas-gifts-for-couples',
+    keyword: 'christmas gifts for couples',
+    title: 'Christmas Gifts for Couples: Funny Shirts for Two',
+    description: 'Christmas gifts for couples: We Said No Gifts, Resting My Eyes, Cat Allegedly and Card Photo Survivor. Tees $24.99, crewnecks $34.99, free size exchange.',
+    h1: 'Christmas Gifts for Couples: Funny Shirts They’ll Both Wear',
+    date: '2026-11-24',
+    draft: true,
+    cluster: 'christmas',
+    answer: 'A good Christmas gift for a couple is a funny shirt that jokes about the thing they do together every December, like swearing off gifts and buying them anyway. Graphic Tees Co. has original designs for that: We Said No Gifts (unisex tee $24.99), Card Photo Survivor (tee $24.99, crewneck $34.99), Resting My Eyes (tee $24.99), Cat Allegedly (women’s tee $24.99) and Light Show Manager (crewneck $34.99). Those are sale prices through November 30, 2026; from December 1 tees are $29.99 and crewnecks $39.99. Each is printed after you order, and two tees ship free. Order by December 4, 2026.',
+    picks: [
+      {
+        h2: 'What is a funny Christmas gift for a couple who said no gifts?',
+        body: ['We Said No Gifts. We Lied. It is for the pair who made the deal and broke it. Each tee is sold singly, so put two in the cart, one for each of them, and the $24.99 pair ships free.'],
+        items: [
+          { slogan: 'WE SAID NO GIFTS. We lied.', tee: 'unisex-christmas-we-said-no-gifts-graphic-tee',
+            text: 'A 1960s storybook couple, a smiling husband in a cardigan and a wife in a sweater and pleated skirt, stand back to back in front of a small decorated tree, each hiding a big wrapped present with a ribbon bow on the side the other cannot see. WE SAID NO GIFTS. runs across the top in red slab capitals and We lied. sits below in black script. The tee is a classic unisex cut in 4.2 oz cotton, $24.99 in White, Natural, Heather Dust, Athletic Heather, Ash and Tan, sizes S to 4XL.' },
+        ],
+      },
+      {
+        h2: 'What do you give a couple who does the Christmas card every year?',
+        body: ['Card Photo Survivor. If your household has taken 41 tries on the self-timer, this one says it for you. It is a unisex cut, so partners can share the design in their own sizes. The tee is $24.99 and the crewneck $34.99.'],
+        items: [
+          { slogan: 'TAKE 41. STILL SMILING.', tee: 'unisex-christmas-card-photo-survivor-graphic-tee', crewneck: 'unisex-christmas-card-photo-survivor-crewneck-sweatshirt',
+            text: 'A vintage 1960s Christmas card scene: a family of four in matching red knit sweaters squeezes together in front of a decorated tree while dad runs back into the frame from a camera on a tripod, mom smiles through her teeth, a kid hugs a sibling with a pained blink and the dog looks the wrong way. TAKE 41. runs under the scene in heavy red serif capitals and STILL SMILING. below it in navy. The tee is $24.99 in six light colors, sizes S to 4XL. The crewneck is an 8 oz cotton-polyester fleece, $34.99 in White, Sand, Sport Grey and Navy, sizes S to 3XL.' },
+        ],
+      },
+      {
+        h2: 'What is a good Christmas gift for the partner who is asleep by three?',
+        body: ['Resting My Eyes. It is for the one who is asleep in the recliner by three o’clock on Christmas Day and says it was only a blink. The other half will be the one buying it.'],
+        items: [
+          { slogan: 'RESTING MY EYES', tee: 'mens-christmas-resting-my-eyes-graphic-tee',
+            text: 'A 1950s storybook scene of a man tipped back in a plaid recliner with his mouth open, a Santa hat sliding off, reading glasses pushed up, a half-unwrapped polka-dot present on his lap, a small lit tree beside the chair and a sleepy cat curled on his shoulder. RESTING runs in big pine-green capitals and MY EYES in Santa-hat red underneath. The tee is a classic unisex cut, $24.99 in White, Natural, Ash, Athletic Heather, Heather Dust and Tan, sizes S to 4XL.' },
+        ],
+      },
+      {
+        h2: 'What do you give a couple with a cat?',
+        body: ['Cat Allegedly. If the tree is one ornament short and the cat looks perfectly innocent, this tee is already yours. It is a relaxed women’s cut, so pair it with a unisex tee for the other half.'],
+        items: [
+          { slogan: 'ALLEGEDLY.', tee: 'womens-christmas-cat-allegedly-graphic-tee', crewneck: 'womens-christmas-cat-allegedly-crewneck-sweatshirt',
+            text: 'A smug black-and-white tuxedo cat sits upright on a braided red and cream rug with its eyes half closed, licking one raised paw, with a shattered red glass ornament in pieces beside it and the low pine branches of the tree behind with a bare ornament hook. ALLEGEDLY. runs underneath in solid faded red with a cream edge. The tee is a relaxed women’s cut, $24.99 in White, Natural, Heather Stone, Athletic Heather and Pink, sizes S to 3XL.' },
+        ],
+      },
+      {
+        h2: 'What is a good Christmas gift for the one who handles the lights?',
+        body: ['Light Show Manager (Unpaid). Every house has one person who is handed the extension cord, and the crewneck is the cold-weather edition of that job.'],
+        items: [
+          { slogan: 'LIGHT SHOW MANAGER (UNPAID)', tee: 'unisex-christmas-light-show-manager-crewneck-sweatshirt',
+            text: 'A vintage Christmas-card scene: a bearded man in a knit cap on a wooden ladder at the roofline, tangled in a strand of oversized red, orange, sage and cream bulbs with the calmest face you have ever seen. LIGHT SHOW MANAGER arches above him in hand-drawn capitals, with (UNPAID) beneath. The crewneck is an 8 oz cotton-polyester fleece in a classic unisex fit, $34.99 in White, Sand, Ash, Sport Grey and Light Blue, sizes S to 3XL.' },
+        ],
+        links: [{ href: '/christmas-shirts/', text: 'All Christmas shirts' }, { href: '/hoodies/christmas-hoodies/', text: 'Christmas hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good Christmas gift for a couple?',
+        body: ['Something that jokes about the two of them rather than one of them. A shirt about the no-gifts deal or the self-timer photo is funny to both people, and it gets worn because they are both in on it.',
+          'Graphic Tees Co. designs are original art with the joke set in big type. They carry no team, brand or character logos, so there is nothing to explain.'],
+        links: [{ href: '/christmas-shirts/', text: 'All Christmas shirts' }] },
+      { h2: 'Can you buy matching Christmas shirts for a couple?',
+        body: ['Yes. Each tee is sold singly, so a matching pair is two in the cart, one in each size, in the same color or two different ones. We Said No Gifts and Card Photo Survivor are unisex cuts that work for both partners.',
+          'Or skip matching and give each partner their own joke from the same vintage look, such as Resting My Eyes for one and Cat Allegedly for the other. They read as a set in the photo.'] },
+      { h2: 'Should you pick a tee or a crewneck?',
+        body: ['Tees are $24.99 through November 30 in a lightweight 4.2 oz cotton cut. Crewnecks are $34.99 in 8 oz fleece, the better gift for a cold porch or a long evening by the tree.',
+          'Card Photo Survivor comes as a tee or a crewneck. Light Show Manager is a crewneck. We Said No Gifts and Resting My Eyes are tees.'],
+        links: [{ href: '/christmas-shirts-for-men/', text: 'Men’s Christmas shirts' }] },
+      { h2: 'What if you do not know their sizes?',
+        body: ['Check the size chart on each product page against a shirt they already own. Tees run S to 4XL in a classic unisex cut, and the crewnecks S to 3XL.',
+          'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and they do not have to mail the first one back. If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'What are good Christmas gifts for couples under $50?',
+        body: ['A pair of tees is $49.98 through November 30, and US shipping is free on orders of $45 or more, so two tees ship free. On December 1 tees step to $29.99 and crewnecks to $39.99, so a single piece is still under $50.'],
+        links: [{ href: '/guides/cheap-christmas-gifts/', text: 'Cheap Christmas gifts' }] },
+      { h2: 'When should you order Christmas gifts for a couple?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find Christmas gift ideas?',
+        body: ['The guides below cover the rest of the list.'],
+        links: [{ href: '/guides/christmas-gifts-for-husband/', text: 'Christmas gifts for husband' }, { href: '/guides/christmas-gifts-for-wife/', text: 'Christmas gifts for wife' }, { href: '/guides/christmas-gifts-for-boyfriend/', text: 'Christmas gifts for boyfriend' }, { href: '/guides/christmas-gifts-for-girlfriend/', text: 'Christmas gifts for girlfriend' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }] },
+    ],
+    faqs: [
+      { q: 'What are good Christmas gifts for couples?', a: 'A funny shirt about something the two of them do together, like We Said No Gifts or Card Photo Survivor from Graphic Tees Co. Tees are $24.99 through November 30, 2026 and $29.99 from December 1, all printed after you order.' },
+      { q: 'Can couples wear matching Christmas shirts?', a: 'Yes. Graphic Tees Co. sells each tee singly, so a matching pair is two in the cart, one in each size. We Said No Gifts is a unisex tee at $24.99 in sizes S to 4XL, and two tees ship free in the US.' },
+      { q: 'What is a funny Christmas gift for a couple under $50?', a: 'The We Said No Gifts tee, twice. Graphic Tees Co. prints it for $24.99 each through November 30, 2026, so a pair is $49.98 with free US shipping at $45 or more. From December 1 the tee is $29.99.' },
+      { q: 'Is a Christmas crewneck a good gift for a couple?', a: 'Yes, for a cold climate. The Graphic Tees Co. Card Photo Survivor crewneck is an 8 oz cotton-polyester fleece at $34.99 through November 30, 2026 ($39.99 from December 1), in White, Sand, Sport Grey and Navy, sizes S to 3XL.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back. Compare the size chart with a shirt they already own.' },
+      { q: 'When should I order Christmas gifts for a couple?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
