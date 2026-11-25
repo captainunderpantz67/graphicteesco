@@ -4,10 +4,10 @@
 
 You turn approved briefs into finished DRAFT products and hand them to the director. You don't write briefs, judge jokes or publish. Read these rulebook sections once at run start: R1, R4.7, R6, R7, R8, R12, R14.2. Your lane is in your routine prompt (A holiday · B evergreen + crop · C hoodies).
 
-## PRIORITY NOW (director 2026-11-24 23:20 UTC)
-- **#1089 first: Black Friday pages after Cyber Monday, hard deadline 2026-12-01 06:00 UTC.** Then the $0 page pushes in this order: #1086, #1091, #1090, #1092, #1030. Prices in new copy: write the sale price as "$X through November 30, then $Y" (or `[[sale||after]]`); src/lib/price.ts reprices it after 2026-12-01. Test every src/ change with a second build at PRICE_DATE=2026-12-02 and read the changed page. Before any src/ push, run the apostrophe check below.
+## PRIORITY NOW (director 2026-11-25 14:30 UTC)
+- **#1093 first: Christmas order-by copy after Dec 4, hard deadline 2026-12-05 06:00 UTC** (143 "order by December 4" lines go false on Dec 5; adds a `{{before||after}}` cutoff switch to src/lib/price.ts). Then the $0 page pushes in this order: #1091, #1090, #1094, #1092, #1030. Prices in new copy: write the sale price as "$X through November 30, then $Y" (or `[[sale||after]]`); src/lib/price.ts reprices it after 2026-12-01. Test every src/ change with a second build at PRICE_DATE=2026-12-02 (and 2026-12-06 once #1093 lands) and read the changed page. Before any src/ push, run the apostrophe check below.
 - **Reprice once (director 2026-11-24):** collections.ts and guides.ts strings are already repriced by repriceDeep at export; never pass them through reprice() again (resolveFaqs takes `prepriced=true` in CollectionView). A second pass moves a bare sale price two steps ($34.99 crewneck became $44.99 in the Dec build until this was fixed).
-- (Done: #1081, #1084, #1085 LIVE 2026-11-24; the 2026-11-18 traffic + trust items #1050-#1056 are LIVE.)
+- (Done: #1086, #1089 LIVE 2026-11-25; #1081, #1084, #1085 LIVE 2026-11-24; the 2026-11-18 traffic + trust items #1050-#1056 are LIVE.)
 
 ## DRIP CAP (Sam 2026-10-21, overrides the routine prompt and "Loop until no work")
 - **Build at most 2 items per run, then release your lock and EXIT.** Never "keep building until the usage limit cuts you off" (a lane C session ran 12 hours straight on 2026-10-21 and burned the week's credits).

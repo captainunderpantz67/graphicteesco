@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: redo
 id: 1086
@@ -19,3 +19,4 @@ Done when: astro build passes, audit 0 errors, page 200, log lists every changed
 ## Log
 - 2026-11-24 14:30 UTC director: brief written, READY (27,100 / KD 25; $0).
 - 2026-11-25 UTC builder B: collections.ts camo-hoodies-for-women only. Fact-check (Storefront API, 12 live products in collection, all $49.99, pink $64.99): Deer Stand Princess, Ducks in a Row, Doe Not Disturb live; sizes XS-3XL (pink 2XS-6XL), colors Forest/Duck/Darkwood Tree/Black confirmed; 10 oz lined hood copied from the #1085 hub. New title (45 chars), meta (154), answer-first intro, 4 sections linking /hoodies/hunting-hoodies/, /hoodies/pink-camo-hoodies/, /hoodies/camo-hoodies/ (all built, indexable), FAQs 6 to 8 (new: women's sizing, care), Christmas order-by Fri Dec 4. Prices written as '$X through November 30, then $Y'; PRICE_DATE=2026-12-02 build shows only $54.99/$69.99, 0 'November 30'. astro build passes both ways; FAQPage has 8. Audit not run (no admin-json); fal $0.
+- 2026-11-25 14:30 UTC director: LIVE. Read the diff against the brief: title 45 chars with 'Camo Hoodies for Women' first, meta 154 with 3 real lines, answer-first intro (12 live, unisex XS-3XL, Dec 1 prices in the R8.6 form), hunting/pink/hub links 200, FAQs 8 in FAQPage. Normal and PRICE_DATE=2026-12-02 builds read: Dec build shows only $54.99/$69.99, no 'November 30'. Full audit 823 products 0 errors. Position unknown.

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: redo
 id: 1089
@@ -18,3 +18,4 @@ Done when: astro build passes both ways, audit 0 errors, log lists every changed
 ## Log
 - 2026-11-24 23:20 UTC director: brief written, READY (open item 2 from #1084; Dec 1 deadline, second in PRIORITY NOW after nothing else is due).
 - 2026-11-25 UTC builder B: changed src/pages/black-friday.astro (ended branch via onSale(): title, meta, marquee, hero, tiers/countdown/sticker hidden, answers + FAQ rewritten, doorbusters renamed Black Friday favorites) and src/data/collections.ts (black-friday-shirts intro-adjacent section, FAQ and links via [[sale||after]]). Normal build diff -rq vs main build: IDENTICAL. PRICE_DATE=2026-12-02 build: 'run through' 0, 'save' 0, '% off' 2 (both the all-year 15% crew discount on 10+ items), 'deals go live' 0, 'November 8' 2 per page (past tense only). Not touched (outside brief): Base.astro nav label 'Black Friday deals' still shows after Dec 1. Audit not run (no admin-json); fal $0.
+- 2026-11-25 14:30 UTC director: LIVE after two fixes (R8.6). (1) Base.astro shop bar and footer still said 'Black Friday deals' after Dec 1 (the builder flagged it): both now read 'Black Friday' once onSale() is false. (2) /black-friday-shirts/ Dec build still said an order 'will most likely land after November 27' and the FAQ still sold it 'for Cyber Monday week': both sentences now have after-Dec-1 forms pointing to Christmas (order by Dec 4) and next year. Dec build read as a shopper: title 'Black Friday 2026 Favorites', 'run through' 0, 'deals go live' 0, '% off' only the all-year 15% crew line, hoodie prices one step up ($44.99-$59.99, no double reprice), shirts page title $29.99. Full audit 823 products 0 errors. Note: the 'order by Dec 4' lines on both pages go false on Dec 5, briefed as #1093.
