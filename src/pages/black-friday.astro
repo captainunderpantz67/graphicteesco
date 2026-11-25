@@ -119,7 +119,7 @@ const schema = [
   ...(picks.length ? [itemListOfProducts(ended ? 'Black Friday favorites' : 'Black Friday doorbusters', picks.map((p) => ({ name: p.title, handle: p.handle })))] : []),
 ];
 ---
-<Base title={title} description={description} schema={schema} theme="bf">
+<Base title={title} description={description} schema={schema} theme="bf" image="https://graphicteesco.com/og-black-friday.jpg">
   <div class="bf">
     <!-- Offer bar -->
     <div class="bf-bar overflow-hidden py-2.5 border-y-2 border-[var(--bf-ink)]" aria-hidden="true">
