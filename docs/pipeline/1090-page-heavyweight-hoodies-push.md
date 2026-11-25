@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: C
 type: redo
 id: 1090
@@ -18,3 +18,4 @@ Done when: astro build passes in both modes (normal and PRICE_DATE=2026-12-02, n
 ---
 ## Log
 - 2026-11-24 23:20 UTC director: brief written, READY (14,800 / KD 20; $0).
+- 2026-11-25 UTC [B]: built. collections.ts override only (title, meta, answer-first intro, 2 sections with 3 links all 200, 8 FAQs, /hoodies/ already links here). Facts from live collection (24 active of 30, all $49.99, 10 oz fleece, XS-3XL). astro build passes normal, 12-02 (no sale price) and 12-06 (no order-by claims). Position unknown. fal $0.

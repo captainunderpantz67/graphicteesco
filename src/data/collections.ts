@@ -1236,7 +1236,29 @@ const rawHoodies: Collection[] = [
     shopifyHandle: 'cropped-hoodies',
     twin: 'cropped-sweatshirts',
   },
-  niche(N.heavyweight, 'hoodies', { slug: 'heavyweight-hoodies', keyword: 'heavyweight hoodie', volume: 14800, kd: 20, product: 'heavyweight hoodies' }),
+  (() => {
+    // Google push #1090 (R0 item 5, 2026-11-25): answer-first intro, heavyweight-vs-regular section, 8 FAQs. Facts from the live collection and a live product page read 2026-11-25 (24 active of 30; every one $49.99; 10 oz/yd2 cotton-poly fleece, fleece-lined hood, ribbed cuffs and waistband, XS or S to 3XL; colors Sandstone, Storm Blue, Grey Heather, Black, Army plus Duck, Black, Forest and Darkwood Tree camo; standard pullover is 8 oz). Last known position: unknown. heavyweight hoodie 14,800 / KD 20 (RankHero 2026-10-16).
+    const c = niche(N.heavyweight, 'hoodies', { slug: 'heavyweight-hoodies', keyword: 'heavyweight hoodie', volume: 14800, kd: 20, product: 'heavyweight hoodies' });
+    c.title = 'Heavyweight Hoodies: 10 oz Funny Graphic Designs';
+    c.description = 'Heavyweight 10 oz hoodies with a joke on the chest: Aim Small. Miss Anyway., Leg Day Survivor, Camera Shy. $49.99 through Nov 30, printed to order.';
+    c.intro = 'We sell 24 heavyweight hoodies, each a 10 oz cotton and polyester fleece pullover with a fleece-lined hood, ribbed cuffs and waistband, in sizes XS to 3XL: $49.99 through November 30, then $54.99. That is a thicker fleece than our 8 oz everyday pullover, so it holds its shape and stays warm on cold mornings. The design prints on the center chest. Every hoodie is printed to order; order by Friday, December 4, 2026 for Christmas delivery in the US, and you get one free size exchange with nothing to mail back.';
+    c.sections = [
+      ...c.sections,
+      { h2: 'Heavyweight vs regular hoodie', body: 'Our heavyweight hoodies are 10 oz per square yard fleece. Our standard pullover hoodies are 8 oz, so the heavyweight is about a quarter heavier. The extra weight means more warmth, a hood that stands up and a body that keeps its shape wash after wash. The regular pullover is lighter for indoors and mild days; the heavyweight is the one for the truck, the stand and the walk to the mailbox.' },
+      { h2: 'Where to go next', body: 'Want the same fleece in a pattern? See our camo hoodies. Want a roomier cut? Browse the men\'s oversized hoodies. For the full range of designs on pullovers, see the men\'s graphic hoodies.',
+        links: [{ href: '/hoodies/camo-hoodies/', label: 'Camo hoodies' }, { href: '/hoodies/oversized-hoodies-for-men/', label: "Men's oversized hoodies" }, { href: '/hoodies/graphic-hoodies-for-men/', label: "Men's graphic hoodies" }] },
+    ];
+    c.faqs = [
+      ...c.faqs,
+      { q: 'How warm are your heavyweight hoodies?', a: 'Each heavyweight hoodie is 10 oz per square yard cotton and polyester fleece with a fleece-lined hood, ribbed cuffs and a ribbed waistband. That is warm enough for a cold morning outdoors and works as a layer under a jacket. They are not waterproof, so wear a shell in rain.' },
+      { q: 'How do Graphic Tees Co. heavyweight hoodies fit?', a: 'They are a relaxed fit with room for a shirt underneath, in sizes XS to 3XL on most designs. Order your usual size for a standard fit or one size up for a looser, layered fit. Each product page has a size chart in inches, and your first size exchange is free.' },
+      { q: 'What colors do the heavyweight hoodies come in?', a: 'Most come in Sandstone and Storm Blue, with some in Grey Heather, Black or Army. The hunting designs also come in Duck, Black, Forest and Darkwood Tree camo. Each design is offered only in colors where the art reads clearly, so the colors are listed on each product page.' },
+      { q: 'Will a heavyweight hoodie shrink?', a: 'Turn it inside out and wash cold with similar colors, then tumble dry low or hang dry to keep shrinking minimal. Cold water also protects the printed design on the chest. Avoid bleach and never iron directly over the print. The fleece stays thick and soft after repeated washes.' },
+      { q: 'When should I order a heavyweight hoodie for Christmas?', a: 'Order by Friday, December 4, 2026 to leave a safe margin for Christmas delivery in the US. Each hoodie is printed to order in 2–5 business days, then ships in about 3–8 business days. Orders of $45 or more ship free, and checkout shows a delivery estimate.' },
+      { q: 'What if the size is wrong?', a: 'Graphic Tees Co. offers one free size exchange within 30 days, with nothing to mail back. If your heavyweight hoodie arrives misprinted or damaged, we replace it. Check the size chart first, since heavyweight fleece fits roomier than a thin pullover.' },
+    ];
+    return c;
+  })(),
   (() => {
     const c = niche(N.zipup, 'hoodies', { slug: 'zip-up-hoodies', keyword: 'zip-up hoodie', volume: 135000, kd: 28, product: 'zip-up hoodies' });
     // #1076 inbound link: one natural sentence to the men's page.
