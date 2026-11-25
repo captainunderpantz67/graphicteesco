@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: C
 type: redo
 id: 1094
@@ -18,3 +18,4 @@ Done when: astro build passes in both modes (normal and PRICE_DATE=2026-12-02, n
 ---
 ## Log
 - 2026-11-25 14:30 UTC director: brief written, READY (2,900 / KD 16; $0).
+- 2026-11-25 UTC [B]: built. collections.ts only: fact-checked against live collection (12 active of 13: Camp Security, Fluent in Honk, No Deer Today, Lone Wolf. Early Bedtime. all live; sizes XS-3XL 'on most designs' since 2 are S-3XL), new title/meta/intro, black-vs-other-camo H2 with 3 links (200), 9 FAQs. astro build passes normal, 12-02 (no $49.99 left) and 12-06 (no order-by). Position unknown. fal $0.
