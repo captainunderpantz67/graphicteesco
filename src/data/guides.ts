@@ -5813,6 +5813,70 @@ const rawGuides: Guide[] = [
       { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not mail the first one back.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-25). Keyword: gifts for nana 12,100 / KD 51 (RankHero, measured 2026-10-19 per docs/inbox.md; NOT re-pulled this run, RankHero returned no data unattended). KD is high; chosen because no measured keyword at KD 35 or lower with 3+ A-grade designs is left without a guide. Unowned in collections.ts and product-keyword-map.json (products own "nana shirt", "nana sweatshirt", "nana hoodie"). Planned sibling named in gifts-for-mimi.
+    // Facts (art, colors, sizes, blanks, prices, policies) from the live Shopify stories read 2026-11-25 and site.ts. Pick handles are in src/data/fresh-designs.json (grade checked by the writer). The Nana's Cookies tee and crewneck both read THE RECIPE DIES WITH ME. FAQ questions are not from PAA or GSC (not available unattended). Overlap: gifts-for-mimi uses the same Nana's Cookies and Mom Said No picks; this guide is for a nana, leads with the cookies and links to the Mimi guide for the other grandma names.
+    slug: 'gifts-for-nana',
+    keyword: 'gifts for nana',
+    title: 'Gifts for Nana: Funny Nana Sweatshirts and Tees She Will Wear',
+    description: 'Gifts for Nana who spoils the grandkids: Nana’s Cookies tee $24.99 and crewneck $34.99, Mom Said No? That’s Cute. crewneck $34.99. Printed to order.',
+    h1: 'Gifts for Nana: Funny Shirts for the Grandma Who Says Yes',
+    date: '2026-11-25',
+    cluster: 'tees',
+    draft: true,
+    answer: 'A good gift for Nana is a shirt that teases her habits, not her age. Graphic Tees Co. has two original nana designs: Nana’s Cookies, THE RECIPE DIES WITH ME. (tee $24.99, crewneck $34.99) and Mom Said No? That’s Cute. (crewneck $34.99), plus the Won’t Tell Mom hoodie ($39.99). Those are sale prices through November 30, 2026; from December 1 the tee is $29.99, the crewnecks $39.99 and the hoodie $44.99. Every piece is printed to order, with one free size exchange within 30 days.',
+    picks: [
+      {
+        h2: 'What is a good gift for a nana who bakes?',
+        body: ['Nana’s Cookies. She bakes a hundred of them every December and the recipe stays in her head.'],
+        items: [
+          { slogan: 'THE RECIPE DIES WITH ME.', tee: 'womens-christmas-nanas-cookies-graphic-tee', crewneck: 'womens-christmas-nanas-cookies-crewneck-sweatshirt',
+            text: 'A vintage bakery tray of gingerbread men, frosted sprinkle stars and a sugar-cookie tree, with a holly sprig and a wooden rolling pin. THE RECIPE is lettered in dark brown and DIES WITH ME. in red, in heavy capitals across the full width of the chest. The tee is 4.2 oz combed ring-spun cotton in a relaxed fit, in White, Natural, Heather Stone, Athletic Heather, Pink or Light Violet, $24.99. The crewneck is 8 oz cotton-polyester fleece in White, Sand, Light Pink, Ash or Sport Grey, $34.99.' },
+        ],
+        links: [{ href: '/christmas-shirts/', text: 'Christmas shirts' }],
+      },
+      {
+        h2: 'What is a funny sweatshirt for a nana who spoils the grandkids?',
+        body: ['Mom Said No? That’s Cute. It is for the nana who overrules the rules at Sunday dinner and sleepovers.'],
+        items: [
+          { slogan: 'MOM SAID NO? THAT’S CUTE.', tee: 'womens-nana-mom-said-no-thats-cute-crewneck-sweatshirt',
+            text: 'A 1950s nana with curled silver hair, a pink cardigan, pearls and cat-eye glasses holds up a plate of chocolate chip cookies stacked higher than her head, with a striped cookie jar, lid off, at her feet. MOM SAID NO? is in serif capitals above and THAT’S CUTE. in big coral script below. The crewneck is 8 oz fleece in Sand or Navy, $34.99.' },
+        ],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good gift for Nana?',
+        body: ['Something she can wear to the places she already goes: the kitchen, Sunday dinner, the school recital. A shirt that jokes about her cookies or her rule-breaking lands better than a generic “best nana” slogan because it describes her.',
+          'Graphic Tees Co. designs are original art with the joke set in big, readable type. They use no team, brand or character logos, and none of them mention her age.'],
+        links: [{ href: '/guides/christmas-gifts-for-grandma/', text: 'Christmas gifts for grandma' }] },
+      { h2: 'Tee, crewneck or hoodie for Nana?',
+        body: ['A crewneck is the easy pick. Graphic Tees Co. crewnecks are 8 oz, 50% cotton and 50% polyester fleece, with a ribbed collar, cuffs and waistband, no hood and no pockets, at $34.99. They layer over a blouse without bulk.',
+          'The Nana’s Cookies tee is the lightest, 4.2 oz cotton at $24.99, and suits a warm kitchen on baking day. For a hoodie, the Won’t Tell Mom pullover has a double-lined hood and a front pouch pocket in Sand or Navy, $39.99.'],
+        links: [{ href: '/guides/hoodie-sizing/', text: 'Hoodie sizing guide' }] },
+      { h2: 'What size should you order for Nana?',
+        body: ['Her usual size, or one up for a roomier layer. Sizes run S to 3XL, and the size chart on each product page lists chest measurements you can compare with a sweatshirt she already owns.',
+          'If it is wrong, Graphic Tees Co. does one free size exchange within 30 days of delivery, so a guess is safe to give.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'When should you give a gift for Nana?',
+        body: ['Any day she is handing out the cookies. The shirts suit a birthday, Mother’s Day, Grandparents Day or the Christmas tree, and a nana who gets one for no reason wears it more.',
+          'For Christmas, order by Friday, December 4, 2026. Printing takes 2–5 business days and delivery about 3–8 business days. Exact estimates show at checkout.'] },
+      { h2: 'How much does a gift for Nana cost?',
+        body: ['Every piece here is $39.99 or less through November 30: the tee is $24.99, the crewnecks are $34.99 and the hoodie is $39.99. From December 1 they are $29.99, $39.99 and $44.99. Free US shipping starts at $45, so a crewneck plus a tee for a second grandma clears it.',
+          'Buying matching shirts for the whole family? Order 10 or more items in one cart and 15% comes off at checkout.'],
+        links: [{ href: '/group-shirts/', text: 'Group orders' }] },
+      { h2: 'What if she goes by Mimi or Gigi instead of Nana?',
+        body: ['Graphic Tees Co. also has Mimi Says Yes and Gigi, Because Grandma Sounded Old. The Mimi guide covers both, and the hoodie and white elephant guides have more ideas for the rest of the family.'],
+        links: [{ href: '/guides/gifts-for-mimi/', text: 'Gifts for Mimi' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }, { href: '/hoodies/', text: 'All graphic hoodies' }] },
+    ],
+    faqs: [
+      { q: 'What are good gifts for Nana?', a: 'A funny shirt about her cookies or her rules, like Nana’s Cookies from Graphic Tees Co. The tee is $24.99 and the crewneck is $34.99, in sizes S to 3XL, printed to order.' },
+      { q: 'What is a funny sweatshirt for a nana?', a: 'Mom Said No? That’s Cute. from Graphic Tees Co. It is an 8 oz cotton-polyester fleece crewneck with a 1950s nana holding a tower of cookies. It costs $34.99 in Sand or Navy.' },
+      { q: 'What is a good gift for a nana who bakes?', a: 'The Nana’s Cookies tee or crewneck from Graphic Tees Co. It prints a tray of gingerbread men and sugar cookies above THE RECIPE DIES WITH ME. The tee is $24.99, the crewneck $34.99.' },
+      { q: 'Is a nana sweatshirt a good Mother’s Day or birthday gift?', a: 'Yes. The Graphic Tees Co. nana crewnecks work for a birthday, Mother’s Day, Grandparents Day or Christmas. They are $34.99, and the free size exchange within 30 days covers a sizing guess.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. does one free size exchange. We print the new size and you do not mail the first one back. A misprinted or damaged item is reprinted or refunded.' },
+      { q: 'When should I order a gift for Nana for Christmas?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. US shipping is free on orders of $45 or more.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
