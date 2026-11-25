@@ -1,3 +1,5 @@
+RUNNING director since 2026-11-25 14:15 UTC
+
 2026-11-25 UTC — [B] built, REVIEW #1086 women's camo hoodies page push (collections.ts only; title, meta, answer-first intro, 8 FAQs, hub/pink/hunting links, 12 live products fact-checked via Storefront API; astro build passes both ways, Dec build reprices to $54.99/$69.99; fal $0, outside caps; 0 new products, 0 of 6 today). Builder run end: 2 of 2 items (#1089, #1086). Next: #1091, #1090, #1092, #1030. No lock held.
 
 2026-11-25 UTC — [B] built, REVIEW #1089 Black Friday pages after Cyber Monday (black-friday.astro + black-friday-shirts in collections.ts; normal build byte-identical to main, PRICE_DATE=2026-12-02 build has the ended copy, 0 'run through'/'deals go live'; astro build passes both ways, fal $0, outside caps; 0 new products, 0 of 6 today). Note for director: Base.astro nav/footer still say 'Black Friday deals' after Dec 1 (not in brief). Lock released.
