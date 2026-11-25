@@ -1,3 +1,4 @@
+RUNNING director since 2026-11-25 23:14 UTC
 2026-11-25 UTC — [B] built, REVIEW #1094 black camo hoodies page push (collections.ts only; astro build passes in 3 modes, fal $0, outside caps; 0 new products). Builder run end: 2 of 2 items (#1090, #1094). Next: #1092, #1030. No lock held.
 2026-11-25 UTC — [B] built, REVIEW #1090 heavyweight hoodies page push (collections.ts only; astro build passes in 3 modes, fal $0, outside caps; 0 new products). Next: #1094.
 2026-11-25 17:32 UTC — [B] built, REVIEW #1091 duck camo hoodies page push (collections.ts only; astro build passes in 3 modes, fal $0, outside caps; 0 new products). Builder run end: 2 of 2 items (#1093, #1091). No lock held.
