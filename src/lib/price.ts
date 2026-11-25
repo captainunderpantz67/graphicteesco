@@ -12,6 +12,43 @@ const nowMs = () => {
 };
 export const onSale = () => nowMs() < SALE_END;
 
+// Christmas order-by cutoff (#1093, R8.6): the copy promises "order by December 4" (or "about December 8") for Christmas.
+// At 2026-12-05 06:00 UTC (Dec 5 00:00 Central) that stops being true, so after it every such sentence becomes CUTOFF_AFTER.
+// Source text may also use `{{before text||after text}}`, resolved by the same date switch.
+export const CUTOFF = Date.parse('2026-12-05T06:00:00Z');
+export const beforeCutoff = () => nowMs() < CUTOFF;
+export const CUTOFF_AFTER = 'Standard delivery after December 4 may not arrive by Christmas: printing takes 2–5 business days and US delivery about 3–8 more. One free size exchange within 30 days still covers a wrong guess.';
+const CUTOFF_SHORT = 'Ordering after December 4 may miss Christmas delivery.';
+// A sentence body: no period except cents ($24.99) and "Co.".
+const SB = String.raw`(?:[^.]|\.\d|Co\.)*?`;
+const OB = String.raw`(?:[Oo]rder(?:ing)?(?: your [A-Za-z ]+?)? by|By about)`;
+const DATE = String.raw`(?:(?:Friday, )?December [48](?:, 2026)?|about December 8|Fri Dec 4)`;
+const FOLLOW = String.raw`(?:Printing takes 2–5 business days and delivery about 3–8 business days${SB}\.\s?|Graphic Tees Co\. prints each (?:piece|hoodie|shirt) in 2–5 business days and delivery takes about 3–8 business days${SB}\.\s?|Exact estimates show at checkout\.\s?)*`;
+const AFTER_RULES: [RegExp, string][] = [
+  // clause after a semicolon: "Every hoodie is printed to order; order by Friday, December 4, 2026 for Christmas delivery in the US, and you get one free size exchange with nothing to mail back."
+  [new RegExp(String.raw`; order by ${DATE} for Christmas delivery in the US, and you get one free size exchange with nothing to mail back\.`, 'g'), '. ' + CUTOFF_AFTER],
+  [new RegExp(String.raw`, so (?:for Christmas Day, )?(?:for Christmas )?order(?:ing)? by ${DATE}${SB}\.`, 'g'), '. ' + CUTOFF_AFTER],
+  [new RegExp(String.raw`, so ordering by ${DATE} leaves a safe margin for Christmas delivery in the US\.`, 'g'), '. ' + CUTOFF_AFTER],
+  [new RegExp(String.raw`, so order by ${DATE}\.`, 'g'), '. ' + CUTOFF_AFTER],
+  [new RegExp(String.raw`; order by about December 8 for Christmas\.`, 'g'), '. ' + CUTOFF_AFTER],
+  // parenthetical: "(order by Friday, December 4, 2026)"
+  [new RegExp(String.raw` \(order by ${DATE}\)`, 'g'), ' (ordering after December 4 may miss Christmas delivery)'],
+  // whole sentences, optionally with a leading "For Christmas, " style opener, plus the delivery-time sentences that follow
+  [new RegExp(String.raw`(?:For (?:a |the )?[A-Za-z ]*?,? )?(?:${OB})${SB}${DATE}${SB}\.\s?${FOLLOW}`, 'g'), CUTOFF_AFTER + ' '],
+  [new RegExp(String.raw`For (?:a |the )?[A-Za-z ]*?,? order by ${SB}${DATE}${SB}\.\s?${FOLLOW}`, 'g'), CUTOFF_AFTER + ' '],
+  [new RegExp(String.raw`Yes\. For Christmas, order by ${DATE}${SB}\.\s?`, 'g'), 'Not guaranteed. ' + CUTOFF_AFTER + ' '],
+  // "Order by early December ..." (same promise, no date)
+  [/Order by early December(?: to be safe| for Christmas)?; ([a-zA-Z])/g, (_m: string, c: string) => CUTOFF_AFTER + ' ' + c.toUpperCase()] as unknown as [RegExp, string],
+  [/Order by early December(?: to be safe| for Christmas)?\./g, CUTOFF_AFTER],
+  [/(exchange, )order by early December\./g, '$1' + CUTOFF_AFTER.replace(/^S/, 's')],
+];
+function cutoffRewrite(s: string): string {
+  if (beforeCutoff()) return s;
+  for (const [re, to] of AFTER_RULES) s = s.replace(re, to as string);
+  s = s.replace(/^Yes\. (?=Standard delivery after)/, 'Not guaranteed. ');
+  return s.replace(/Fri Dec 4/g, 'ships after Dec 4').replace(/(Standard delivery[^.]*\.[^.]*\.[^.]*\.) \1/g, '$1').replace(/ +$/, '');
+}
+
 const TABLE: Record<string, [string, string]> = {
   tee: ['24.99', '29.99'],
   crewneck: ['34.99', '39.99'],
@@ -95,6 +132,8 @@ function positional(s: string): string {
 
 export function reprice(input: string): string {
   let s = input.replace(/\[\[(.*?)\|\|(.*?)\]\]/gs, (_, a, b) => (onSale() ? a : b));
+  s = s.replace(/\{\{(.*?)\|\|(.*?)\}\}/gs, (_, a, b) => (beforeCutoff() ? a : b));
+  s = cutoffRewrite(s);
   if (onSale() || !/\$\d|sale|Nov(ember)? 30|Black Friday/i.test(s)) return s;
   for (const re of dropSentences) s = s.replace(re, '');
   // "Through November 30, 2026 the three pullovers are $A and the two oversized $B; from December 1 they are $C and $D."

@@ -11,7 +11,7 @@ import { faqPage, breadcrumbs, itemListOfProducts } from '../lib/schema';
 import { getAllProducts, shopifyConnected } from '../lib/shopify';
 import { linkableSlugs, hoodiesHubLive } from '../lib/linkable';
 import { bySlug, pathFor } from '../data/collections';
-import { reprice, repriceDeep, onSale } from '../lib/price';
+import { reprice, repriceDeep, onSale, beforeCutoff } from '../lib/price';
 import { coverFor } from '../data/covers';
 import { blackFriday as bf } from '../data/deals';
 
@@ -109,7 +109,7 @@ const faqsLive = [
 ];
 const faqsEnded = [
   { q: 'Is the Graphic Tees Co. Black Friday sale over?', a: `Yes. The Graphic Tees Co. Black Friday sale ran November 8 to Cyber Monday, November 30, ${bf.year}, and it has ended. Our Black Friday deals return in November ${bf.year + 1}. The designs on this page stay in the shop at today's prices.` },
-  { q: 'Can I still get a gift by Christmas?', a: 'Yes. Graphic Tees Co. prints every piece after you order it, then ships by tracked US mail. For Christmas, order by Friday, December 4, 2026: printing takes 2–5 business days and delivery about 3–8 more. Orders over $45 ship free in the US.' },
+  { q: 'Can I still get a gift by Christmas?', a: '{{Yes. Graphic Tees Co. prints every piece after you order it, then ships by tracked US mail. For Christmas, order by Friday, December 4, 2026: printing takes 2–5 business days and delivery about 3–8 more.||Maybe. Graphic Tees Co. prints every piece after you order it, then ships by tracked US mail. Standard delivery after December 4 may not arrive by Christmas: printing takes 2–5 business days and US delivery about 3–8 more.}} Orders over $45 ship free in the US.' },
   { q: 'Can I exchange a gift if the size is wrong?', a: 'Yes. Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size for free, and you do not have to mail the first one back. Misprinted or damaged orders are reprinted or refunded within 30 days.' },
 ];
 const faqs = repriceDeep(ended ? faqsEnded : faqsLive);
@@ -128,7 +128,7 @@ const schema = [
           <span class="flex gap-8 shrink-0">
             {ended ? (<>
               <span>Black Friday {bf.year} has ended</span>
-              <span>★ Christmas order-by: Fri Dec 4</span>
+              <span>{beforeCutoff() ? '★ Christmas order-by: Fri Dec 4' : '★ Ordering after Dec 4 may miss Christmas'}</span>
               <span>★ Free US shipping $45+</span>
               <span>★ One free size exchange</span>
             </>) : (<>
