@@ -5731,6 +5731,88 @@ const rawGuides: Guide[] = [
       { q: 'When should I order Christmas gifts for a couple?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-25). Keyword: gifts for cat lovers 14,800 / KD 51 (RankHero, measured 2026-10-18 per docs/inbox.md; NOT re-pulled this run, RankHero returned 403 unattended). KD is high; chosen because every measured keyword with KD 35 or lower in the repo already has a guide or fewer than 3 A-grade designs (drummers, linemen and skiers have 1 to 2). Unowned in collections.ts and product-keyword-map.json ("cat lover hoodie" stays with its product). Broader than the gifts-for-cat-moms guide: leads with the cat dad tee and is for anyone with a cat.
+    // Facts (art, colors, sizes, blanks, prices, policies) from the live Shopify stories read 2026-11-25, R12.1 and site.ts. All handles are in src/data/fresh-designs.json (grade checked by the writer). FAQ questions are not from PAA or GSC (not available unattended). Sale prices end Nov 30; the text states the December 1 prices as the sibling cat guide does.
+    slug: 'gifts-for-cat-lovers',
+    keyword: 'gifts for cat lovers',
+    title: 'Gifts for Cat Lovers: Funny Cat Shirts, Hoodies & Sweatshirts',
+    description: 'Gifts for cat lovers who know their cat runs the house: Can’t, Cat’s on Me tee $24.99, Biscuits hoodie $39.99, Oops. Anyway. crewneck $34.99. Printed to order.',
+    h1: 'Gifts for Cat Lovers: Funny Shirts for People Who Answer to a Cat',
+    date: '2026-11-25',
+    cluster: 'hoodies',
+    draft: true,
+    answer: 'The best gift for a cat lover is a shirt that tells the truth about their cat: sleeping on their lap, kneading the blanket, pushing a mug off the table. Graphic Tees Co. makes four original cat designs: Can’t. Cat’s on Me. (tee $24.99), Do Not Disturb. Biscuits in Progress. (hoodie $39.99), Oops. Anyway. (crewneck $34.99, cropped hoodie $44.99) and Cat Allegedly. (tee $24.99, crewneck $34.99). Those are sale prices through November 30, 2026; from December 1 the tees are $29.99, the crewnecks $39.99, the hoodie $44.99 and the cropped hoodie $49.99. Every piece is printed to order.',
+    picks: [
+      {
+        h2: 'What is a good gift for a cat lover who never gets off the couch?',
+        body: ['Can’t. Cat’s on Me. It is the oldest excuse in cat ownership, and the tee is made for the cat dad or the cat mom who has been pinned for an hour.'],
+        items: [
+          { slogan: 'CAN’T. CAT’S ON ME.', tee: 'mens-cat-dad-cant-cats-on-me-graphic-tee',
+            text: 'A huge fluffy grey tabby sleeps in a loaf shape on a red plaid blanket over a man’s lap in a striped recliner, with only corduroy knees and slippered feet showing and the remote and a coffee mug just out of reach, in warm grey, mustard, rust, cream and dark brown. CAN’T. runs above and CAT’S ON ME. below. It is a classic unisex tee in 100% combed ring-spun cotton (heather colors contain polyester), 4.2 oz, in Black, Navy, Dark Grey Heather and Heather Forest, sizes S to 4XL, $24.99.' },
+        ],
+        links: [{ href: '/hoodies/cat-hoodies/', text: 'All cat hoodies' }],
+      },
+      {
+        h2: 'What is a good gift for a cat lover whose cat kneads everything?',
+        body: ['Do Not Disturb. Biscuits in Progress. The kneading trance, written as an out-of-office sign. The hoodie is $39.99.'],
+        items: [
+          { slogan: 'DO NOT DISTURB. BISCUITS IN PROGRESS.', tee: 'womens-cat-making-biscuits-hoodie',
+            text: 'A round, fluffy calico cat with her eyes squeezed shut is tucked into a chunky knit blanket with both front paws pressed into it and a ball of pink yarn beside her, in dusty pink, mustard, cream, slate blue and dark brown. DO NOT DISTURB. runs above and BISCUITS IN PROGRESS. below. It is an 8 oz cotton and polyester fleece pullover with a double-lined hood and a front pouch pocket, in Sand or Navy, sizes S to 3XL.' },
+        ],
+      },
+      {
+        h2: 'What is a good gift for a cat lover whose cat pushes mugs off tables?',
+        body: ['Oops. Anyway. The same smug tabby comes on a crewneck ($34.99, Sand or Navy, sizes S to 3XL) and a cropped hoodie ($44.99, Black or Storm, sizes S to 2XL).'],
+        items: [
+          { slogan: 'OOPS. ANYWAY. (crewneck)', tee: 'womens-cat-oops-anyway-crewneck-sweatshirt',
+            text: 'A smug grey tabby sits on a small wooden stool with one paw out and a coffee mug mid-fall with the splash frozen in the air, under heavy burnt-orange OOPS. and mustard ANYWAY. capitals. It is an 8 oz cotton and polyester fleece crewneck with a ribbed collar, no hood and no pockets.' },
+          { slogan: 'OOPS. ANYWAY. (cropped hoodie)', tee: 'womens-cat-oops-anyway-cropped-hoodie',
+            text: 'The same tabby, stool and falling mug, under OOPS. in orange script and ANYWAY. in cream script. It is a cropped pullover hoodie with a dropped shoulder and a raw hem that sits at the waist.' },
+        ],
+        links: [{ href: '/hoodies/cropped-hoodies/', text: 'All cropped hoodies' }],
+      },
+      {
+        h2: 'What is a good Christmas gift for a cat lover whose cat broke the ornament?',
+        body: ['Cat Allegedly. A tuxedo cat licks a paw beside a smashed ornament and denies everything. The tee is $24.99 in White, Natural, Heather Stone, Athletic Heather or Pink; the crewneck is $34.99 in Sand or Navy.'],
+        items: [
+          { slogan: 'ALLEGEDLY. (tee)', tee: 'womens-christmas-cat-allegedly-graphic-tee',
+            text: 'A smug black-and-white tuxedo cat sits upright on a braided red and cream rug, eyes half-closed, licking one raised paw, with a shattered red glass ornament beside it and the lower pine branches of the tree behind, in a vintage 1960s storybook style. ALLEGEDLY. runs underneath in faded red with a cream edge. It is a relaxed-fit 4.2 oz cotton tee, sizes S to 3XL.' },
+          { slogan: 'ALLEGEDLY. (crewneck)', tee: 'womens-christmas-cat-allegedly-crewneck-sweatshirt',
+            text: 'The same tuxedo cat beside the smashed red ornament on a braided red, cream and mustard rug, with a pine sprig and red berries behind it and ALLEGEDLY. in red slab capitals underneath. It is an 8 oz cotton and polyester fleece crewneck, sizes S to 3XL.' },
+        ],
+        links: [{ href: '/christmas-shirts/', text: 'All Christmas shirts' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good gift for a cat lover?',
+        body: ['Something that jokes about what their cat actually does. Cat lovers already own the toys, the trees and the treats. A shirt that says “can’t, cat’s on me” is the part nobody else thought to give them.',
+          'Every Graphic Tees Co. design is original art made for this shop. None carries a brand logo or a licensed character.'],
+        links: [{ href: '/guides/gifts-for-cat-moms/', text: 'Gifts for cat moms' }] },
+      { h2: 'Tee, crewneck, hoodie or cropped hoodie for a cat lover?',
+        body: ['The tee is the lightest and cheapest: 4.2 oz cotton at $24.99. The crewneck is an 8 oz fleece with no hood at $34.99. The Biscuits hoodie is the cozy one, with a double-lined hood and a pouch pocket at $39.99. The cropped hoodie is a lighter 6.5 oz fleece with a raw hem at $44.99.',
+          'If you are unsure, the Can’t. Cat’s on Me. tee is the safe guess for anyone, and the Oops. Anyway. crewneck is the safe guess for a sweatshirt.'],
+        links: [{ href: '/guides/hoodie-sizing/', text: 'Hoodie sizing guide' }] },
+      { h2: 'What size should you buy a cat lover?',
+        body: ['Their usual size. The tee and the hoodie and crewnecks are a classic unisex cut, so the usual size fits regularly and one up is roomier. The cropped hoodie has a dropped shoulder; go up one for a longer body.',
+          'If it is wrong, Graphic Tees Co. sends one replacement in a new size free within 30 days of delivery, and nothing is mailed back.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'When should you order a gift for a cat lover for Christmas?',
+        body: ['Each piece is printed after you order it, in about 2 to 5 business days, then ships in about 3 to 8 business days in the US. For Christmas, order by about December 8. US shipping is free on orders of $45 or more, so a hoodie with a tee, or a crewneck with a tee, ships free.',
+          'The sale prices end November 30. From December 1 the tees are $29.99, the crewnecks $39.99, the hoodie $44.99 and the cropped hoodie $49.99.'] },
+      { h2: 'Where can you find more gift ideas?',
+        body: ['For a gift for a friend, see Christmas gifts for friends. For a person who would rather stay in, see gifts for homebodies. For a swap with a spending limit, see white elephant gifts.'],
+        links: [{ href: '/guides/christmas-gifts-for-friends/', text: 'Christmas gifts for friends' }, { href: '/guides/gifts-for-homebodies/', text: 'Gifts for homebodies' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }] },
+    ],
+    faqs: [
+      { q: 'What are good gifts for cat lovers?', a: 'A shirt that jokes about their cat. Graphic Tees Co. makes original cat designs: the Can’t. Cat’s on Me. tee at $24.99, the Oops. Anyway. crewneck at $34.99 and the Biscuits in Progress hoodie at $39.99, all printed to order.' },
+      { q: 'What is a good gift for a cat dad?', a: 'The Can’t. Cat’s on Me. tee from Graphic Tees Co. It shows a huge grey tabby asleep on a man’s lap in a recliner. It is a $24.99 cotton tee in Black, Navy, Dark Grey Heather or Heather Forest, sizes S to 4XL.' },
+      { q: 'What do you get a cat lover for Christmas?', a: 'A shirt about the ornament their cat broke. The Graphic Tees Co. Cat Allegedly. crewneck has a tuxedo cat beside a smashed red ornament. It is $34.99 in Sand or Navy and printed to order.' },
+      { q: 'Are the cat shirts good for both men and women?', a: 'Yes. At Graphic Tees Co. the Can’t. Cat’s on Me. tee, the Biscuits hoodie and the Oops. Anyway. and Cat Allegedly. crewnecks are a classic unisex cut. The Cat Allegedly. tee is a relaxed women’s cut.' },
+      { q: 'How early should I order a cat lover gift for Christmas?', a: 'About two weeks ahead. Graphic Tees Co. prints each piece to order in 2 to 5 business days, then ships it in about 3 to 8 business days in the US. Order by about December 8.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not mail the first one back.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.

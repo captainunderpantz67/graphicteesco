@@ -2201,3 +2201,5 @@ for the record, but treat this one as current for these 3 products.
 2026-11-16 15:43 UTC — [W] REVIEW #1044 article funny-mens-christmas-shirts (draft). Lock released.
 2026-11-20 15:40 UTC — [W] RUNNING lane W since 15:40 UTC
 2026-11-20 15:45 UTC — [W] REVIEW #1059 article christmas-gifts-for-husband (draft). Lock released.
+2026-11-25 15:40 UTC — [W] RUNNING lane W since 15:40 UTC
+2026-11-25 15:44 UTC — [W] REVIEW #1095 article gifts-for-cat-lovers (draft). Lock released.
