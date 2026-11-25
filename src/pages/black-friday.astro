@@ -11,7 +11,7 @@ import { faqPage, breadcrumbs, itemListOfProducts } from '../lib/schema';
 import { getAllProducts, shopifyConnected } from '../lib/shopify';
 import { linkableSlugs, hoodiesHubLive } from '../lib/linkable';
 import { bySlug, pathFor } from '../data/collections';
-import { reprice, repriceDeep } from '../lib/price';
+import { reprice, repriceDeep, onSale } from '../lib/price';
 import { coverFor } from '../data/covers';
 import { blackFriday as bf } from '../data/deals';
 
@@ -64,14 +64,18 @@ const tiles = [
 
 const top = bf.tiers[bf.tiers.length - 1];
 const dates = 'Nov 8–30';
+// After the sale (2026-12-01 06:00 UTC) the page keeps its URL but stops claiming any deal (#1089, R8.6).
+const ended = !onSale();
 
 const path = '/black-friday/';
-const title = `Black Friday Graphic Tee & Hoodie Deals ${bf.year}`;
-const description = reprice(`Black Friday graphic tee deals at Graphic Tees Co., ${dates}, ${bf.year}: buy 2 save ${bf.tiers[0].pct}%, buy ${top.qty} or more save ${top.pct}%. Funny tees from $24.99, hoodies from $39.99, free US shipping on $45+.`);
+const title = ended ? `Black Friday ${bf.year} Favorites: Graphic Tees & Hoodies` : `Black Friday Graphic Tee & Hoodie Deals ${bf.year}`;
+const description = ended
+  ? reprice(`Black Friday ${bf.year} has ended. Our Black Friday graphic tee and hoodie favorites stay open at Graphic Tees Co.: funny tees from $24.99, hoodies from $39.99, free US shipping on $45+. Deals return November ${bf.year + 1}.`)
+  : reprice(`Black Friday graphic tee deals at Graphic Tees Co., ${dates}, ${bf.year}: buy 2 save ${bf.tiers[0].pct}%, buy ${top.qty} or more save ${top.pct}%. Funny tees from $24.99, hoodies from $39.99, free US shipping on $45+.`);
 const tierLine = bf.tiers.map((t) => `${t.qty}${t === top ? ' or more' : ''} items save ${t.pct}%`).join(', ');
 
 // Answer cards: the page's long-form copy, one question per card (h2 + paragraph, all in the HTML for search).
-const answers = repriceDeep([
+const answersLive = [
   { q: 'When are the Black Friday deals?', a: `Our Black Friday graphic tee deals go live Sunday, November 8, and run through Cyber Monday, November 30, ${bf.year}, so you get three weeks of Black Friday prices instead of one weekend. Every design is original, printed to order and funny on purpose. For Christmas gifts, order Black Friday weekend or early December; the exact cutoff goes up here by December 1.` },
   { q: 'How does the Black Friday deal work?', a: `The more you grab, the more you save: ${tierLine}. The discount applies automatically at checkout, no code needed, and you can mix tees, crewnecks and hoodies. Four tees come to about $100 before the discount, which is where the biggest savings kicks in.` },
   { q: 'Black Friday hoodie deals', a: 'Hoodies come on five blanks, each priced for what it is: pullover $39.99, zip-up $44.99, cropped $44.99, heavyweight $49.99 and oversized $54.99. Most designs come as a tee, a crewneck and a hoodie, so you can pick the weight that fits who you are buying for.', link: hoodiesHubLive() ? { href: '/hoodies/', text: 'Shop all graphic hoodies' } : undefined },
@@ -79,24 +83,40 @@ const answers = repriceDeep([
   { q: 'Crew orders: 15% off 10 or more', a: 'Family photo, friend group or office party? Any order of 10 or more items takes 15% off automatically at checkout, all year.', link: live.has('group-shirts') ? { href: '/group-shirts/', text: 'Shop group and family shirts' } : undefined },
   { q: 'Free US shipping on $45+', a: 'Orders of $45 or more ship free in the US, which is two tees, or a tee and a crewneck. Every piece is printed after you order it, so allow time for printing plus delivery.' },
   { q: 'Wrong size? One free exchange', a: 'Within 30 days of delivery we send one replacement in a new size for free, and you keep the first one. That makes a shirt a safe gift even when you are guessing the size.' },
-]);
+];
+const answersEnded = [
+  { q: 'Is Black Friday over?', a: `Yes. Black Friday ${bf.year} ran November 8 to Cyber Monday, November 30, and it has ended. Our Black Friday deals come back in November ${bf.year + 1}. The doorbuster designs below stay in the shop at today's prices, and they still make funny gifts.` },
+  { q: 'Can I still order for Christmas?', a: 'Yes. For Christmas, order by Friday, December 4, 2026. Printing takes 2–5 business days and delivery about 3–8 business days, so allow up to 13 business days in total. Every design is original, printed to order and funny on purpose.', link: live.has('christmas-shirts') ? { href: '/christmas-shirts/', text: 'Shop Christmas shirts' } : undefined },
+  { q: 'Black Friday hoodie favorites', a: 'Hoodies come on five blanks, each priced for what it is: pullover $39.99, zip-up $44.99, cropped $44.99, heavyweight $49.99 and oversized $54.99. Most designs come as a tee, a crewneck and a hoodie, so you can pick the weight that fits who you are buying for.', link: hoodiesHubLive() ? { href: '/hoodies/', text: 'Shop all graphic hoodies' } : undefined },
+  { q: 'Gift ideas that still get a laugh', a: 'Shopping for someone else? Our gift guides pick the designs that get a laugh when the box is opened and get worn after: funny golf gifts for the golfer who has everything and white elephant gifts that actually get stolen.', link: { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' } },
+  { q: 'Crew orders: 15% off 10 or more', a: 'Family photo, friend group or office party? Any order of 10 or more items takes 15% off automatically at checkout, all year.', link: live.has('group-shirts') ? { href: '/group-shirts/', text: 'Shop group and family shirts' } : undefined },
+  { q: 'Free US shipping on $45+', a: 'Orders of $45 or more ship free in the US, which is two tees, or a tee and a crewneck. Every piece is printed after you order it, so allow time for printing plus delivery.' },
+  { q: 'Wrong size? One free exchange', a: 'Within 30 days of delivery we send one replacement in a new size for free, and you keep the first one. That makes a shirt a safe gift even when you are guessing the size.' },
+];
+const answers = repriceDeep(ended ? answersEnded : answersLive);
 const tones: [string, string, string][] = [
   ['var(--bf-ink)', 'var(--bf-cream)', 'var(--bf-volt)'],
   ['var(--bf-volt)', 'var(--bf-ink)', 'var(--bf-ink)'],
   ['var(--bf-cream)', 'var(--bf-ink)', 'var(--color-rust)'],
 ];
 
-const faqs = repriceDeep([
+const faqsLive = [
   { q: 'When do the Graphic Tees Co. Black Friday deals start?', a: `The Graphic Tees Co. Black Friday deals go live on Sunday, November 8, ${bf.year}, at 12:00am Central and run through Cyber Monday, November 30, at 11:59pm Central. Today's prices (tees $24.99, crewnecks $34.99, hoodies from $39.99) apply right now, so you do not have to wait to order.` },
   { q: 'What is on sale for Black Friday?', a: `Every original graphic tee, crewneck sweatshirt and hoodie in the Graphic Tees Co. shop. During the sale, ${tierLine}, applied automatically at checkout.` },
   { q: 'Does the 15% crew order discount work during Black Friday?', a: `Yes, but discounts do not stack: at checkout you get whichever saves more. For 4 or more items during Black Friday that is the ${top.pct}% deal; the 15% crew discount on 10+ items runs all year.` },
   { q: 'How long does shipping take on Black Friday orders?', a: 'Every Graphic Tees Co. piece is printed after you order it, then shipped by tracked US mail, so allow time for printing plus delivery. Orders over $45 ship free in the US. For Christmas gifts, order Black Friday weekend or early December; we post the exact cutoff here by December 1.' },
   { q: 'Can I exchange a Black Friday gift if the size is wrong?', a: 'Yes. Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size for free, and you do not have to mail the first one back. Misprinted or damaged orders are reprinted or refunded within 30 days, Black Friday orders included.' },
-]);
+];
+const faqsEnded = [
+  { q: 'Is the Graphic Tees Co. Black Friday sale over?', a: `Yes. The Graphic Tees Co. Black Friday sale ran November 8 to Cyber Monday, November 30, ${bf.year}, and it has ended. Our Black Friday deals return in November ${bf.year + 1}. The designs on this page stay in the shop at today's prices.` },
+  { q: 'Can I still get a gift by Christmas?', a: 'Yes. Graphic Tees Co. prints every piece after you order it, then ships by tracked US mail. For Christmas, order by Friday, December 4, 2026: printing takes 2–5 business days and delivery about 3–8 more. Orders over $45 ship free in the US.' },
+  { q: 'Can I exchange a gift if the size is wrong?', a: 'Yes. Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size for free, and you do not have to mail the first one back. Misprinted or damaged orders are reprinted or refunded within 30 days.' },
+];
+const faqs = repriceDeep(ended ? faqsEnded : faqsLive);
 const schema = [
   faqPage([...answers, ...faqs]),
-  breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Black Friday Deals', path }]),
-  ...(picks.length ? [itemListOfProducts('Black Friday doorbusters', picks.map((p) => ({ name: p.title, handle: p.handle })))] : []),
+  breadcrumbs([{ name: 'Home', path: '/' }, { name: ended ? 'Black Friday Favorites' : 'Black Friday Deals', path }]),
+  ...(picks.length ? [itemListOfProducts(ended ? 'Black Friday favorites' : 'Black Friday doorbusters', picks.map((p) => ({ name: p.title, handle: p.handle })))] : []),
 ];
 ---
 <Base title={title} description={description} schema={schema} theme="bf">
@@ -106,10 +126,17 @@ const schema = [
       <div class="bf-marquee flex gap-8 whitespace-nowrap font-extrabold uppercase tracking-[.16em] text-xs">
         {[0, 1].map(() => (
           <span class="flex gap-8 shrink-0">
-            <span>Black Friday {dates}</span>
-            {bf.tiers.map((t) => <span>★ Buy {t.qty}{t === top ? '+' : ''} save {t.pct}%</span>)}
-            <span>★ Free US shipping $45+</span>
-            <span>★ No code needed</span>
+            {ended ? (<>
+              <span>Black Friday {bf.year} has ended</span>
+              <span>★ Christmas order-by: Fri Dec 4</span>
+              <span>★ Free US shipping $45+</span>
+              <span>★ One free size exchange</span>
+            </>) : (<>
+              <span>Black Friday {dates}</span>
+              {bf.tiers.map((t) => <span>★ Buy {t.qty}{t === top ? '+' : ''} save {t.pct}%</span>)}
+              <span>★ Free US shipping $45+</span>
+              <span>★ No code needed</span>
+            </>)}
           </span>
         ))}
       </div>
@@ -121,11 +148,13 @@ const schema = [
         <div class="min-w-0">
                     <h1 class="mt-3">
             <span class="poster block text-[clamp(3.8rem,16vw,7.5rem)]">Black<br/>Friday.</span>
-            <span class="sr-only"> graphic tee and hoodie deals</span>
+            <span class="sr-only">{ended ? ' favorites: graphic tees and hoodies' : ' graphic tee and hoodie deals'}</span>
           </h1>
-          <p class="mt-4 text-lg md:text-xl font-semibold text-[var(--bf-cream)] max-w-[30ch]"><span class="woodtype text-[var(--bf-gold)]">Grab more, save more.</span><br/>Up to {top.pct}% off funny graphic tees and hoodies. No code needed.</p>
+          {ended
+            ? <p class="mt-4 text-lg md:text-xl font-semibold text-[var(--bf-cream)] max-w-[30ch]"><span class="woodtype text-[var(--bf-gold)]">Black Friday {bf.year} has ended.</span><br/>Our Black Friday deals come back in November {bf.year + 1}. The favorites stay open.</p>
+            : <p class="mt-4 text-lg md:text-xl font-semibold text-[var(--bf-cream)] max-w-[30ch]"><span class="woodtype text-[var(--bf-gold)]">Grab more, save more.</span><br/>Up to {top.pct}% off funny graphic tees and hoodies. No code needed.</p>}
 
-          <ol class="mt-6 grid grid-cols-3 gap-2 sm:gap-3 max-w-md" aria-label="Black Friday savings tiers">
+          {!ended && (<ol class="mt-6 grid grid-cols-3 gap-2 sm:gap-3 max-w-md" aria-label="Black Friday savings tiers">
             {bf.tiers.map((t, i) => (
               <li class={`bf-tier rounded-[14px] border-2 p-3 text-center ${i === bf.tiers.length - 1 ? 'bf-tier-top' : ''}`}>
                 <span class="block text-sm font-bold">Buy {t.qty}{t === top ? '+' : ''}</span>
@@ -133,9 +162,9 @@ const schema = [
                 <span class="block text-sm font-semibold">off</span>
               </li>
             ))}
-          </ol>
+          </ol>)}
 
-          <div class="mt-6" data-countdown data-start={bf.start} data-end={bf.end}>
+          {!ended && (<div class="mt-6" data-countdown data-start={bf.start} data-end={bf.end}>
             <p class="scrawl text-lg text-[var(--bf-cream)]/85" data-cd-label>Deals start Sunday, Nov 8, in</p>
             <div class="mt-2 flex gap-2 tabular-nums" data-cd-clock>
               {['Days', 'Hrs', 'Min', 'Sec'].map((u) => (
@@ -145,10 +174,10 @@ const schema = [
                 </span>
               ))}
             </div>
-          </div>
+          </div>)}
 
           <div class="mt-7 flex flex-wrap gap-3">
-            <a href="#deals" class="bf-btn">Shop the deals</a>
+            <a href="#deals" class="bf-btn">{ended ? 'Shop the favorites' : 'Shop the deals'}</a>
             <a href="#shop-by" class="bf-btn bf-btn-ghost">Shop by category</a>
           </div>
         </div>
@@ -160,9 +189,9 @@ const schema = [
               alt="Three friends cheering in Graphic Tees Co. shirts (This Nap Is Billable, Replies in 3–5 Business Days, My Swing Is Fine) while a real cat rides in a cartoon shopping cart"
               class="w-full aspect-[1100/703] md:aspect-[4/5] object-cover object-[50%_40%] md:rounded-[22px] md:border-2 md:border-[var(--bf-gold)] md:rotate-[1.5deg]" />
           </picture>
-          <span class="bf-sticker absolute -bottom-12 right-3 scale-[.85] md:scale-100 md:-bottom-6 md:-left-6 md:right-auto rotate-[-8deg]" aria-hidden="true">
+          {!ended && (<span class="bf-sticker absolute -bottom-12 right-3 scale-[.85] md:scale-100 md:-bottom-6 md:-left-6 md:right-auto rotate-[-8deg]" aria-hidden="true">
             <span class="bf-sticker-sm">Up to</span><b>{top.pct}%</b><span class="bf-sticker-sm">off</span>
-          </span>
+          </span>)}
         </div>
       </div>
     </section>
@@ -193,13 +222,13 @@ const schema = [
       <section id="deals" class="bf-cream-bg scroll-mt-24">
         <div class="container-x py-12">
           <div class="flex flex-wrap items-end justify-between gap-3">
-            <h2 class="bf-display text-[clamp(2.4rem,9vw,3.75rem)] leading-[.9]">Doorbusters</h2>
-            <p class="text-sm font-semibold text-[var(--color-ink-2)] max-w-[34ch]">The shirts people stop you about. Mix any {top.qty} and save {top.pct}%.</p>
+            <h2 class="bf-display text-[clamp(2.4rem,9vw,3.75rem)] leading-[.9]">{ended ? 'Black Friday favorites' : 'Doorbusters'}</h2>
+            <p class="text-sm font-semibold text-[var(--color-ink-2)] max-w-[34ch]">{ended ? 'The shirts people stop you about, at today\'s prices.' : `The shirts people stop you about. Mix any ${top.qty} and save ${top.pct}%.`}</p>
           </div>
           <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
             {picks.map((p, i) => (
               <div class="relative">
-                <span class="bf-tag absolute top-2 right-2 z-20">Up to {top.pct}% off</span>
+                {!ended && <span class="bf-tag absolute top-2 right-2 z-20">Up to {top.pct}% off</span>}
                 <ProductCard product={p} eager={i < 2} />
               </div>
             ))}
@@ -213,7 +242,7 @@ const schema = [
     <section class="bf-dark">
       <div class="container-x py-14">
         <div class="flex items-end justify-between gap-4">
-          <p class="bf-display text-[clamp(2.4rem,9vw,3.75rem)] leading-[.9] text-[var(--bf-cream)]">Black Friday, <span class="text-[var(--bf-volt)]">answered</span></p>
+          <p class="bf-display text-[clamp(2.4rem,9vw,3.75rem)] leading-[.9] text-[var(--bf-cream)]">Black Friday, <span class="text-[var(--bf-volt)]">{ended ? 'after the sale' : 'answered'}</span></p>
           <div class="hidden sm:flex gap-2 shrink-0" data-answers-nav>
             <button type="button" aria-label="Previous answer" data-dir="-1" class="bf-nav">←</button>
             <button type="button" aria-label="Next answer" data-dir="1" class="bf-nav">→</button>
@@ -238,8 +267,8 @@ const schema = [
     <!-- FAQ -->
     <section class="bf-cream-bg">
       <div class="container-x py-12 max-w-3xl">
-        <Faq faqs={faqs} heading="Black Friday FAQ" />
-        <p class="mt-10 flex flex-wrap gap-3"><a href="#deals" class="btn">Back to the deals</a></p>
+        <Faq faqs={faqs} heading={ended ? 'Black Friday FAQ (sale ended)' : 'Black Friday FAQ'} />
+        <p class="mt-10 flex flex-wrap gap-3"><a href="#deals" class="btn">{ended ? 'Back to the favorites' : 'Back to the deals'}</a></p>
       </div>
     </section>
   </div>

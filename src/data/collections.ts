@@ -6,7 +6,7 @@
 // Order within each section = easiest to rank first (build order).
 import type { Faq, Facts } from './site';
 import { site } from './site';
-import { repriceDeep } from '../lib/price';
+import { repriceDeep, onSale } from '../lib/price';
 
 export type Section = 'tees' | 'hoodies';
 
@@ -587,19 +587,19 @@ const rawTees: Collection[] = [
     title: 'Black Friday Shirts: Funny Shopping Squad Tees $24.99',
     description: 'Funny Black Friday shirts for the 4 a.m. shopping trip: matching shopping squad tees for the group and one-line jokes. Printed to order, tees $24.99.',
     h1: 'Black Friday Shirts',
-    intro: 'Funny Black Friday shirts for the people who set an alarm for the doorbusters: matching shopping squad tees for the whole group and one-line jokes about coupons, carts and leftovers. Tees are $24.99 and printed after you order. Printing takes 2–5 business days and delivery 3–8 more, so an order placed now will most likely land after November 27: buy it for the Black Friday deals through Cyber Monday, the rest of the shopping season, or next year\'s 4 a.m. run.',
+    intro: 'Funny Black Friday shirts for the people who set an alarm for the doorbusters: matching shopping squad tees for the whole group and one-line jokes about coupons, carts and leftovers. Tees are $24.99 and printed after you order. Printing takes 2–5 business days and delivery 3–8 more, so an order placed now will most likely land after November 27: buy it for [[the Black Friday deals through Cyber Monday, the rest of the shopping season, or next year\'s 4 a.m. run.||the rest of the shopping season or next year\'s 4 a.m. run. Black Friday 2026 has ended; for Christmas gifts, see the Christmas shirts page.]]',
     sections: [
       { h2: 'Matching shopping squad shirts', body: 'The squad shirts share one headline, BLACK FRIDAY SHOPPING SQUAD, and give each person a job: one has the list, one is just the driver. Mix them in one cart and the group matches without everyone wearing the same line.' },
       { h2: 'Funny Black Friday shirts for the 4 a.m. crowd', body: 'For the shopper who treats the doorbuster rack like a sport, the one who got up at 4 a.m. for a toaster, and the one still full from Thursday and already shopping. Every line is short enough to read across a parking lot.' },
-      { h2: 'Looking for Black Friday deals instead?', body: 'This page is shirts about Black Friday. Our Black Friday sale on tees, hoodies and sweatshirts runs November 8 to November 30, with bigger savings the more you mix, and no code needed.',
-        links: [{ href: '/black-friday/', label: 'Black Friday deals on graphic tees and hoodies' }] },
+      { h2: '[[Looking for Black Friday deals instead?||Looking for Black Friday favorites?]]', body: 'This page is shirts about Black Friday. [[Our Black Friday sale on tees, hoodies and sweatshirts runs November 8 to November 30, with bigger savings the more you mix, and no code needed.||Our Black Friday 2026 sale ran November 8 to November 30 and has ended; the deals return in November 2027. For Christmas gifts, see the Christmas shirts page.]]',
+        links: [{ href: '/black-friday/', label: '[[Black Friday deals on graphic tees and hoodies||Black Friday 2026 favorites]]' }, ...(onSale() ? [] : [{ href: '/christmas-shirts/', label: 'Christmas shirts' }])] },
     ],
     faqs: [
       { q: 'When should I order a Black Friday shirt to have it in time?', a: 'The safe date to wear it on Black Friday, November 27, was about November 12. Each Black Friday shirt is printed in 2–5 business days after you order, then takes about 3–8 business days to arrive in the US, so an order now will most likely arrive after the day. It still works for Cyber Monday week, the holiday season and next year.' },
       { q: 'Do you have matching Black Friday shirts for a group?', a: 'Yes. The Black Friday Shopping Squad tees share one headline and give each person a role line, so a family or friend group can match. Ten or more items in one cart take 15% off automatically, with any mix of designs and sizes.' },
       { q: 'What are the Black Friday shirts made of?', a: 'Unisex Black Friday shirts are Bella+Canvas 3001 tees, lightweight 4.2 oz combed ring-spun cotton. Women\'s are the Bella+Canvas 6400 relaxed tee in the same weight with a looser cut. Heather colors contain some polyester.' },
       { q: 'How do the Black Friday tees fit?', a: 'The unisex tee has a classic fit that runs true to size for men and a little roomy for women. The women\'s relaxed tee has a softer, looser shape; take your usual size. Each product page has a size chart.' },
-      { q: 'Are Black Friday shirts on sale for Black Friday?', a: 'Yes. Our Black Friday deals run November 8 to November 30 and apply to these shirts too: mix several items and the discount comes off at checkout without a code. See the Black Friday deals page for the tiers.' },
+      { q: 'Are Black Friday shirts on sale for Black Friday?', a: '[[Yes. Our Black Friday deals run November 8 to November 30 and apply to these shirts too: mix several items and the discount comes off at checkout without a code. See the Black Friday deals page for the tiers.||The Black Friday 2026 deals ran November 8 to November 30 and have ended; they return in November 2027. These shirts stay in the shop at today\'s prices. For Christmas gifts, order by Friday, December 4, 2026 and see the Christmas shirts page.]]' },
       { q: 'Can I order a matching group of Black Friday shirts in one cart?', a: 'Yes. Mix the Shopping Squad tees (I Have the List, I\'m Just the Driver) with the other Black Friday designs in one cart. Ten or more items take 15% off automatically, any mix of designs and sizes, and the group page lists the rest of the crew shirts.' },
       { q: 'Which Black Friday shirt fits better, the unisex or the women\'s tee?', a: 'The unisex Bella+Canvas 3001 has a classic fit in S–4XL and runs true to size for men. The women\'s Bella+Canvas 6400 is a relaxed cut in S–3XL, looser through the body. Order your usual size in either; one free size exchange within 30 days covers a wrong guess.' },
       { q: 'What if my Black Friday shirt is the wrong size?', a: 'Within 30 days of delivery we send one replacement in a new size free, and you don\'t have to mail the first shirt back. Misprints and damage are reprinted or refunded within 30 days.' },
