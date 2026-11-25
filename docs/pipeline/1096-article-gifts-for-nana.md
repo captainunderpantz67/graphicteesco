@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: REDO
 lane: W
 type: article
 cluster: tees
@@ -17,3 +17,7 @@ slug: gifts-for-nana
 - `npx astro build`: passes (166 pages; drafts are not built).
 ## Log
 - 2026-11-25 UTC writer: drafted.
+- 2026-11-25 23:20 UTC director: REDO (not approved).
+  1. R2.2: "gifts for nana" is KD 51; KD over 50 is hub pages only, and the measure is 5 weeks old and unverified (R2.4). Retarget to a measured phrase at KD 35 or under once RankHero answers, or PARK it.
+  2. R11.11 depth: 2 pick groups and 3 products, all already picked in /guides/gifts-for-mimi/. A guide needs at least 4 distinct picks that the mimi guide does not already carry; if the catalog has fewer than that, this waits until more nana designs are LIVE.
+  3. Christmas order-by lines must use a form the #1093 switch reads (R8.6).

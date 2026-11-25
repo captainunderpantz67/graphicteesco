@@ -1,0 +1,20 @@
+status: READY
+lane: C
+type: redo
+id: 1097
+slug: black-friday-front-door
+kd: n/a
+push: R0
+---
+## Black Friday front door (Sam 2026-11-25, PRIORITY: must be deployed before Fri 2026-11-27 12:00 UTC = 6 AM Central; site job, $0, outside the 6-a-day cap)
+Why: Sam chose to keep the deals already set up in Shopify (no new discount): automatic "buy 2 save 15%, buy 3 save 20%, buy 4+ save 25%" through Mon Nov 30, plus the HOLIDAY10 code and free US shipping on $45+. Shoppers landing Friday must see that at once, and our best impressions page (Christmas hoodies, R0 item 1) must be the first thing on the homepage. Search Console 7 days to Nov 24: 5,390 impressions, 24 clicks, position 20.5, 0 orders ever.
+Do (src/lib/price.ts, src/layouts/Base.astro, src/pages/index.astro, src/pages/black-friday.astro; never delete SEO text, restyle or reorder only):
+0. **Fact-check first (R8.6):** read the live automatic discounts and HOLIDAY10 in Shopify (Admin GraphQL `discountNodes`): tier minimums, percentages, which products they apply to, start and end dates/times, whether they combine with HOLIDAY10 and free shipping. Write only what Shopify says; if a tier or the end time differs from this brief, Shopify wins, log it. If the tiers do not exist at all, stop and put a line in docs/inbox.md for the director (do not invent a discount).
+1. **Sitewide top bar (Base.astro line ~80):** one line, "Black Friday: buy 2 save 15%, buy 3 save 20%, buy 4+ save 25%. Ends Mon 11/30." linking /black-friday/. Shown while a new `bfTiersLive()` switch in src/lib/price.ts is true (build time before 2026-12-01 06:00 UTC, same PRICE_DATE override); after it, the current non-sale bar. Mobile: one line at 375 px (use a shorter form under the sm breakpoint, e.g. "Buy 2 save 15% · 3 save 20% · 4+ save 25%"), same height as today's bar so nothing shifts. The nightly rebuild (09:00 UTC) flips it on Dec 1.
+2. **Homepage hero from Friday:** a `fromBlackFriday()` switch (build time on or after 2026-11-27 06:00 UTC = Fri 00:00 Central). After it, the hero leads with Christmas hoodies (/hoodies/christmas-hoodies/, headline + one-line tier offer + button), and the Thanksgiving / turkey trot shelves move below the Christmas shelves. Before it, the homepage stays exactly as now. The 09:00 UTC nightly rebuild Friday makes it live before 6 AM Central; check the workflow ran on Friday if you can (or note that the director should dispatch nightly-rebuild Friday morning).
+3. **/black-friday/:** a clear tier block at the top (the three tiers, the end date, "applies automatically in the cart", HOLIDAY10 and free shipping exactly as Shopify sets them, including whether they stack), then the best Christmas hoodies grid first, then the existing sections. Keep every existing H2, FAQ and the FAQPage schema; update any FAQ that now contradicts the tiers. Dec 1 build (PRICE_DATE=2026-12-02) must read as ended (the #1089 wording) with no tier claims.
+4. **Test, log it:** astro build in three modes: normal today, PRICE_DATE=2026-11-27T12:00:00Z (bar + Christmas-hoodie hero + tiers), PRICE_DATE=2026-12-02 (no tier claim anywhere: grep dist for "save 15%" = 0). Screenshot the homepage and /black-friday/ at 375 px and 1280 px in the Nov 27 build (Playwright, deviceScaleFactor 1) and look at them: one-line bar, no overlap, no layout shift. Audit 0 errors.
+Done when: deployed to main, the three builds pass, and you write "READY FOR INDEXING: /black-friday/ and homepage (#1097)" in docs/inbox.md under Sam's 2026-11-25 Black Friday item.
+---
+## Log
+- 2026-11-25 23:25 UTC director: brief written from Sam's inbox item (2026-11-25), READY. First in PRIORITY NOW, ahead of everything (deadline Fri Nov 27 12:00 UTC).

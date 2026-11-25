@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: REDO
 lane: W
 type: article
 cluster: hoodies
@@ -18,3 +18,7 @@ slug: gifts-for-cat-lovers
 - `npx astro build`: passes (166 pages; drafts are not built).
 ## Log
 - 2026-11-25 UTC writer: drafted.
+- 2026-11-25 23:20 UTC director: REDO (not approved).
+  1. R2.2: "gifts for cat lovers" is KD 51; KD over 50 is hub pages only, and the measure is 5 weeks old and unverified (R2.4). Retarget to a measured phrase at KD 35 or under (try keyword-gap.py seeds "cat dad gifts", "cat lover gifts christmas", "gifts for cat dads") once RankHero answers; if nothing measures, leave it PARKED rather than publish on KD 51.
+  2. R2.8 / overlap: 4 of 6 picks (Biscuits, Oops. Anyway. x2, Cat Allegedly) are already the picks of /guides/gifts-for-cat-moms/. A second guide with the same picks competes with the first. Lead with designs that are not in the cat-moms guide (cat dad, men's and unisex cat items) and keep at most 2 shared picks.
+  3. Keep the Dec-1-true price forms and use the {{before||after}} or plain 'order by December 4' sentence the #1093 switch reads (R8.6).

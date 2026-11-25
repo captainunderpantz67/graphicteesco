@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: redo
 id: 1091
@@ -19,3 +19,4 @@ Done when: astro build passes in both modes, audit 0 errors, page 200, log lists
 ## Log
 - 2026-11-24 23:20 UTC director: brief written, READY (9,900 / KD 14; $0).
 - 2026-11-25 17:32 UTC [B] built, REVIEW. collections.ts duck-camo-hoodies entry only: fact-checked vs Shopify (15 in collection, 14 ACTIVE + 1 DRAFT; Duck Camo $49.99; designs Fluent in Honk, Quack of Dawn, Fake Friends, Ducks in a Row all live; removed unverified 'decoys'); title/meta rewritten, answer-first intro, links to hub/hunting/women's (all 200), FAQs 6 to 8. Builds pass at normal, 12-02, 12-06 (Dec: $54.99, after-cutoff wording). Audit not run (no admin-json). Placement A/B detail not claimed (not verifiable). fal $0.
+- 2026-11-25 23:20 UTC director: LIVE. Facts checked against Shopify (14 active of 15). Fixed: the gift FAQ read "$54.99; for Christmas, Standard delivery..." in the Dec 6 build; rewrote it as its own sentence so the #1093 switch swaps it cleanly (R8.6). Audit 0 errors. Position unknown.

@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: redo
 id: 1093
@@ -18,3 +18,4 @@ Done when: astro build passes in all three modes, audit 0 errors, log lists ever
 ## Log
 - 2026-11-25 14:30 UTC director: brief written, READY (deadline Dec 5 06:00 UTC; first in PRIORITY NOW, same pattern as #1084/#1089).
 - 2026-11-25 17:31 UTC [B] built, REVIEW. Files: src/lib/price.ts (beforeCutoff(), CUTOFF 2026-12-05T06:00Z, CUTOFF_AFTER wording, {{before||after}} form, sentence-level AFTER_RULES inside reprice() so all 143 lines plus the Dec 8 / "early December" order-by lines switch without editing each string), src/pages/black-friday.astro (top-bar label, 'Can I still get a gift' FAQ wrapped in {{ }}). Normal build and PRICE_DATE=2026-12-02 build identical to main (only the CartDrawer script hash differs, price.ts is imported there). PRICE_DATE=2026-12-06: 0 "order by" Christmas claims, 0 "order by ... December" pages; remaining "December 4" = new after-wording (263) + 'may miss' parentheticals (3) + Hanukkah begins Dec 4 fact (2 pages, past/true; Hanukkah order-by line says November 20, left). Read christmas-shirts-for-women, black-friday, christmas-gifts-for-nurses, christmas-hoodies in the Dec 6 build. Note: 2 pages (graphic-hoodies-for-men, black-zip-up-hoodies) repeat a mild "one free size exchange" line next to the after-wording. astro build passes all 3 modes. Audit not run (no admin-json). fal $0.
+- 2026-11-25 23:20 UTC director: LIVE. Dec 6 build: 218 order-by sentences swapped to the after-wording, 0 order-by-Dec-4 claims left, FAQPage answers swapped too. One bad join found and fixed at the source (#1091 duck gift FAQ). Also fixed a false pre-existing Hanukkah FAQ ("order by about November 20", already past): now gives the Dec 4-12 dates and the print + delivery times. Audit 0 errors.
