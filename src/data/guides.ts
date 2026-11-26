@@ -5974,6 +5974,88 @@ const rawGuides: Guide[] = [
       { q: 'When should I order xmas gifts for him?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-26), draft. Keyword: gifts for gigi 1,600 / KD 17 (RankHero, measured 2026-10-18 per docs/pipeline/563; NOT re-pulled this run, RankHero returned no data unattended). Retargeted off the Gigi hoodie on 2026-10-18, so no collection, product or guide claims it. The gifts-for-mimi draft mentions Gigi as part of the name family; this guide leads with Gigi (the new-grandma angle) and does not repeat that guide's Mimi lead. "gigi hoodie" and "gigi sweatshirt" stay with their products. Director: confirm the keyword and the overlap with gifts-for-mimi.
+    // Facts (art, fabric, colors, sizes, prices) come from the LIVE Shopify Stories read 2026-11-26; policies and dates from the sibling grandma guides and site.ts. Picks: Gigi crewneck, Mimi Says Yes (hoodie and crewneck), Mom Said No? That's Cute. crewneck, Nana's Cookies tee. The Gigi hoodie is not in src/data/fresh-designs.json, so it is not a pick. FAQ questions are not from PAA or GSC (not available unattended).
+    // Siblings linked by slug: gifts-for-mimi, gifts-for-nana, christmas-gifts-for-grandma, christmas-gifts-for-mom.
+    slug: 'gifts-for-gigi',
+    keyword: 'gifts for gigi',
+    title: 'Gifts for Gigi: Funny Sweatshirts for the Grandma Who Picked the Name',
+    description: 'Gifts for Gigi she will wear: the Gigi crewneck $34.99 plus Mimi and Nana picks. Printed to order, free size exchange, order by December 4 for Christmas.',
+    h1: 'Gifts for Gigi: Funny Shirts for the Grandma Who Chose the Name',
+    date: '2026-11-26',
+    cluster: 'tees',
+    draft: true,
+    answer: 'A good gift for Gigi is a shirt that jokes about the name she picked on purpose. Graphic Tees Co. has the Gigi Because Grandma Sounded Old crewneck ($34.99, Sand or Sport Grey), plus Mimi Says Yes (crewneck $34.99, hoodie $39.99), Mom Said No? That’s Cute. for Nana (crewneck $34.99) and Nana’s Cookies (tee $24.99) for the other grandmas in the family. Each is printed after you order, with one free size exchange within 30 days. Order by December 4, 2026 for Christmas.',
+    picks: [
+      {
+        h2: 'What is a good gift for a grandma who goes by Gigi?',
+        body: ['Gigi, Because Grandma Sounded Old. She chose the name on purpose, and the sweatshirt says why.'],
+        items: [
+          { slogan: 'GIGI because grandma sounded old.', tee: 'womens-gigi-because-grandma-sounded-old-crewneck-sweatshirt',
+            text: 'A quilted pink handbag tipped open, with cat-eye sunglasses, a lipstick and a strand of pearls spilling out beside a tiny pair of baby shoes, in hot pink, faded red and cream. GIGI is lettered above in hot-pink capitals and BECAUSE GRANDMA SOUNDED OLD. below in navy. The crewneck is an 8 oz cotton-polyester fleece in Sand or Sport Grey, sizes S to 3XL, $34.99.' },
+        ],
+        links: [{ href: '/guides/gifts-for-mimi/', text: 'Gifts for Mimi' }],
+      },
+      {
+        h2: 'What do you give a new Gigi for her first Christmas in the role?',
+        body: ['The Gigi crewneck again, with the baby shoes in the picture. It fits the day the grandbaby news lands, a first Christmas as Gigi or a birthday. If another grandma in the family goes by Mimi, give her Mimi Says Yes.'],
+        items: [
+          { slogan: 'MIMI SAYS YES.', tee: 'womens-mimi-says-yes-hoodie', crewneck: 'womens-mimi-says-yes-crewneck-sweatshirt',
+            text: 'A striped ceramic cookie jar with its lid leaning beside it, a tall wobbly stack of chocolate chip cookies and an ice cream sundae with three cherries, in faded red, cream, mint and navy. MIMI is lettered above in heavy red capitals and SAYS YES. below in bold navy. Sand and Light Pink, sizes S to 3XL. The crewneck is $34.99 and the pullover hoodie is $39.99.' },
+        ],
+      },
+      {
+        h2: 'What is a funny sweatshirt for a grandma who spoils the grandkids?',
+        body: ['Mom Said No? That’s Cute. It is for the grandmother who overrules the rules at Sunday dinner and sleepovers.'],
+        items: [
+          { slogan: 'MOM SAID NO? THAT’S CUTE.', tee: 'womens-nana-mom-said-no-thats-cute-crewneck-sweatshirt',
+            text: 'A 1950s nana with curled silver hair, a pink buttoned cardigan and a pearl necklace holds up a plate of chocolate chip cookies stacked higher than her head, with a striped cookie jar, lid off, at her feet. MOM SAID NO? is in serif capitals above and THAT’S CUTE. in big coral script below. The crewneck is 8 oz fleece in Sand or Navy, $34.99.' },
+        ],
+        links: [{ href: '/guides/gifts-for-nana/', text: 'Gifts for Nana' }],
+      },
+      {
+        h2: 'What is a good gift for a grandma who bakes?',
+        body: ['Nana’s Cookies. She bakes a hundred of them and keeps the recipe to herself.'],
+        items: [
+          { slogan: 'THE RECIPE DIES WITH ME.', tee: 'womens-christmas-nanas-cookies-graphic-tee',
+            text: 'A vintage bakery tray of gingerbread men, frosted sprinkle stars and a sugar-cookie tree, with a holly sprig and a wooden rolling pin. THE RECIPE is lettered in dark brown and DIES WITH ME. in red, in heavy capitals. The tee is 4.2 oz ring-spun cotton in a relaxed fit, in White, Natural, Heather Stone, Athletic Heather, Pink or Light Violet, sizes S to 3XL, $24.99.' },
+        ],
+        links: [{ href: '/christmas-shirts/', text: 'Christmas shirts' }],
+      },
+    ],
+    sections: [
+      { h2: 'Why give Gigi a shirt about her name?',
+        body: ['Because she picked it. A grandma who chose Gigi over Grandma wants the name to sound like her, and a shirt that plays with it feels personal in a way a generic “world’s best grandma” item does not.',
+          'Graphic Tees Co. designs are original art with the joke set in big, readable type. They use no team, brand or character logos, and they tease her habits and her rules, not her age.'],
+        links: [{ href: '/guides/christmas-gifts-for-grandma/', text: 'Christmas gifts for grandma' }] },
+      { h2: 'Is a crewneck or a hoodie better for Gigi?',
+        body: ['The crewneck is the easy pick. Graphic Tees Co. crewnecks are 8 oz, 50% cotton and 50% polyester fleece with a ribbed collar, no hood and no pockets, at $34.99. The Gigi design is a crewneck.',
+          'The Mimi Says Yes hoodie is a pullover with a double-lined hood and a front pouch pocket at $39.99 (it goes to $44.99 on December 1). The Nana’s Cookies tee is the lightest at $24.99.'],
+        links: [{ href: '/guides/hoodie-sizing/', text: 'Hoodie sizing guide' }] },
+      { h2: 'What size should you order for Gigi?',
+        body: ['Her usual size, or one up for a roomier layer over a sweater. Sizes run S to 3XL, and the size chart on each product page lists chest measurements to compare with a sweatshirt she already owns.',
+          'If it is wrong, Graphic Tees Co. sends one free size exchange within 30 days of delivery, and she does not mail the first one back. A misprinted or damaged item is reprinted or refunded.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'When should you order a gift for Gigi?',
+        body: ['Any day works: a birthday, Mother’s Day, Grandparents Day or the Christmas tree. For Christmas, order by Friday, December 4, 2026. Printing takes 2–5 business days and delivery about 3–8 business days, up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'How much does a gift for Gigi cost?',
+        body: ['Every piece here is $39.99 or less: the tee is $24.99, the crewnecks are $34.99 and the Mimi hoodie is $39.99. US shipping is free on orders of $45 or more, so a crewneck plus a tee clears it.',
+          'Buying matching shirts for the whole family? Order 10 or more items in one cart and 15% comes off at checkout.'],
+        links: [{ href: '/group-shirts/', text: 'Group orders' }] },
+      { h2: 'Where else can you find gifts for the women in your family?',
+        body: ['For the mother or the sister, see those guides. For a group swap, see white elephant gifts.'],
+        links: [{ href: '/guides/christmas-gifts-for-mom/', text: 'Christmas gifts for mom' }, { href: '/guides/christmas-gifts-for-sister/', text: 'Christmas gifts for sister' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }, { href: '/christmas-shirts/', text: 'All Christmas shirts' }] },
+    ],
+    faqs: [
+      { q: 'What are good gifts for Gigi?', a: 'A funny shirt about her name, like the Gigi Because Grandma Sounded Old crewneck from Graphic Tees Co. It is $34.99 in Sand or Sport Grey, sizes S to 3XL, printed after you order.' },
+      { q: 'What does the Gigi sweatshirt look like?', a: 'It prints a quilted pink handbag spilling cat-eye sunglasses, a lipstick and pearls beside tiny baby shoes. GIGI is in hot-pink capitals above and BECAUSE GRANDMA SOUNDED OLD. in navy below.' },
+      { q: 'What is a good first Christmas gift for a new Gigi?', a: 'The Gigi crewneck from Graphic Tees Co., $34.99, because the baby shoes in the print match the news. It is an 8 oz cotton-polyester fleece, and the free size exchange within 30 days covers a sizing guess.' },
+      { q: 'Is a Gigi sweatshirt a good Mother’s Day or birthday gift?', a: 'Yes. The Gigi crewneck from Graphic Tees Co. works for a birthday, Mother’s Day, Grandparents Day or Christmas. It is $34.99 in Sand or Sport Grey.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. does one free size exchange. We print the new size and you do not mail the first one back. A misprinted or damaged item is reprinted or refunded.' },
+      { q: 'When should I order a gift for Gigi for Christmas?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. US shipping is free on orders of $45 or more.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
