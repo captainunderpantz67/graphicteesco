@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: redo
 id: 1098
@@ -19,3 +19,4 @@ Done when: astro build passes in normal, PRICE_DATE=2026-12-02 and 2026-12-06 mo
 ---
 ## Log
 - 2026-11-25 23:28 UTC director: brief written, READY (2,400 / KD 16; $0). Women's zip-ups (14,800 / KD 32) were considered and skipped: R9.11 lists that head term as brand-owned (no extra page effort). Half zip pullovers (5,400 / KD 14) skipped: 5 live, under the depth floor.
+- 2026-11-26 21:35 UTC [B]: built. Depth 15 active (all $24.99). collections.ts override only: title, meta, answer-first intro (Dec-1-true price, {{order-by}} switch), wear section linking /hoodies/western-hoodies/ (200), FAQs 2 to 8. astro build passes normal, 2026-12-02, 2026-12-06 (Dec 6: 0 order-by claims, no $24.99). Audit not rerun (copy only). Position unknown; RankHero not re-measured.

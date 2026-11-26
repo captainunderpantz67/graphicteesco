@@ -502,7 +502,27 @@ const rawTees: Collection[] = [
     ];
     return c;
   })(),
-  niche(N.western, 'tees', { slug: 'western-graphic-tees', keyword: 'western graphic tees', volume: 2400, kd: 16, product: 'western graphic tees', twin: 'western-hoodies' }),
+  (() => {
+    // Google push #1098 (R0 item 5, 2026-11-26): answer-first intro, wear section, 8 FAQs. Facts from the live Shopify collection read 2026-11-26 (15 products, all active, all $24.99; unisex tees XS to 4XL, women's S to 3XL; colors White, Vintage White, Natural, Heather Stone, Athletic Heather, Heather Mauve, Heather Clay, Heather Dust, Light Violet, Black, Military Green, Navy, Army, Soft Cream, Maroon, Ash). Last known position: unknown. western graphic tees 2,400 / KD 16 (RankHero, per brief; not re-measured, RankHero 403 unattended).
+    const c = niche(N.western, 'tees', { slug: 'western-graphic-tees', keyword: 'western graphic tees', volume: 2400, kd: 16, product: 'western graphic tees', twin: 'western-hoodies' });
+    c.title = 'Western Graphic Tees: Hold Your Horses, Run Free';
+    c.description = 'Western graphic tees: Hold Your Horses, Kick Up Dust, Saturday Night Rodeo, Howdy. $24.99 through Nov 30, printed to order. Free US shipping $45+.';
+    c.intro = 'We sell 15 original western graphic tees, from Hold Your Horses, I\'m Overstimulated and Run Free to Kick Up Dust, Saturday Night Rodeo and a Desert Rattler, in sizes XS to 4XL on the unisex ones and S to 3XL on the women\'s. They are $24.99 through November 30, then $29.99, on a Bella+Canvas 3001 tee (4.2 oz lightweight cotton) or the relaxed women\'s Bella+Canvas 6400. Every tee is printed to order; {{order by Friday, December 4, 2026 for Christmas delivery in the US||Christmas delivery in the US is no longer guaranteed}}, and you get one free size exchange with nothing to mail back.';
+    c.sections = [
+      ...c.sections,
+      { h2: 'How to wear a western graphic tee', body: 'For the rodeo or a county fair, tuck the front of the tee into jeans, add a belt and boots, and pick a color like Natural or Vintage White that looks right in the dust. For a night out, knot the hem of a women\'s tee over a denim skirt. On a ranch or an ordinary Saturday, wear it loose with a trucker cap. Cold evening? Pull a western hoodie over it.', links: [{ href: '/hoodies/western-hoodies/', label: 'Western hoodies' }] },
+    ];
+    c.faqs = [
+      ...c.faqs,
+      { q: 'How do the western graphic tees fit?', a: 'The unisex tees are a classic fit in sizes XS to 4XL, and the women\'s tees are a relaxed cut in sizes S to 3XL. Order your usual size for an easy fit or one size up for a roomier look. Each product page has a size chart in inches, and Graphic Tees Co. gives you one free size exchange.' },
+      { q: 'What are the western tees made of?', a: 'Graphic Tees Co. western tees are Bella+Canvas 3001, a soft 4.2 oz lightweight tee of combed ring-spun cotton, or the relaxed Bella+Canvas 6400 for women\'s cuts. Heather colors blend in some polyester. The design is printed on the front when you order, so it feels soft rather than stiff.' },
+      { q: 'How do I wash a western graphic tee?', a: 'Turn it inside out, wash cold with similar colors, and tumble dry low or hang dry. Skip bleach and fabric softener, and never iron directly over the print. Cold water keeps the cowboy, horse or desert art sharp wash after wash, and the cotton stays soft.' },
+      { q: 'What colors do the western tees come in?', a: 'Colors vary by design and include White, Vintage White, Natural, Heather Stone, Athletic Heather, Heather Mauve, Black, Navy, Army and Military Green. We offer a color only where the art reads clearly, so each product page lists its colors with a photo of every one.' },
+      { q: 'When should I order a western tee for Christmas?', a: '{{Order by Friday, December 4, 2026 for Christmas delivery in the US. Each western tee is printed in 2–5 business days, then ships in about 3–8 business days. Orders of $45 or more ship free, and checkout shows a delivery estimate.||Christmas delivery in the US is no longer guaranteed. Each western tee is printed in 2–5 business days, then ships in about 3–8 business days, so it may arrive after December 25. Orders of $45 or more ship free, and checkout shows a delivery estimate.}}' },
+      { q: 'What if the size is wrong?', a: 'Graphic Tees Co. offers one free size exchange within 30 days of delivery, with nothing to mail back. If your western tee arrives misprinted or damaged, we replace it. Check the size chart first, since the women\'s cut is relaxed and the unisex tee is a classic fit.' },
+    ];
+    return c;
+  })(),
   niche(N.fishing, 'tees', { slug: 'fishing-t-shirts', keyword: 'fishing t shirts', volume: 6600, kd: 46, product: 'fishing t-shirts', twin: 'fishing-hoodies', guideSection: { h2: 'What to wear fishing', body: 'Not sure what to wear on a cold dock versus a warm one? Our guide to fishing shirts for men sorts the light tees from the fleece layers.', links: [{ href: '/guides/fishing-shirts-for-men/', label: 'Fishing shirts for men' }] } }),
   niche(N.hunting, 'tees', { slug: 'hunting-t-shirts', keyword: 'hunting shirts', volume: 14800, kd: 44, product: 'hunting shirts', twin: 'hunting-hoodies' }) /* RankHero 2026-10-06: "hunting shirts" 14,800 / KD 44; "hunting t shirts" unmeasured */,
   niche(N.soccermom, 'tees', { slug: 'soccer-mom-shirts', keyword: 'soccer mom shirts', volume: 2900, kd: 42, product: 'soccer mom shirts', audience: 'women', name: 'Soccer Mom Shirts' }),
