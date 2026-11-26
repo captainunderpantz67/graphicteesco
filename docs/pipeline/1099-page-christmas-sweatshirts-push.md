@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: A
 type: redo
 id: 1099
@@ -18,3 +18,4 @@ Done when: astro build passes in normal, PRICE_DATE=2026-12-02 and PRICE_DATE=20
 ---
 ## Log
 - 2026-11-26 14:19 UTC director: brief written, READY ($0). Picked over pink camo (1 live), capybara hoodies (5) and welder shirts (4), all under the 6-product depth floor; this is the biggest never-pushed Christmas page with depth.
+- 2026-11-26 17:35 UTC [B]: built, REVIEW. File: src/data/collections.ts only (christmas-sweatshirts entry). Fact-check via Shopify collection (58 products, 56 active, 2 DRAFT not linked; every linked product ACTIVE; $34.99 tier; colors and sizes as read). New title (52 chars) and meta (149), answer-first intro with {{before||after}} order-by, 6 new H2s with 3-4 live product links each plus men's, group-shirts and christmas-hoodies links (curl 200), existing sections kept, FAQs now 9 in schema (head phrase kept low). astro build passes normal, PRICE_DATE=2026-12-02 (no sale price) and 2026-12-06 (no Dec 4 claim). fal $0. Cohesion audit not run (page copy only, node_modules symlink).
