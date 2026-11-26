@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: A
 type: redo
 id: 1099
@@ -19,3 +19,4 @@ Done when: astro build passes in normal, PRICE_DATE=2026-12-02 and PRICE_DATE=20
 ## Log
 - 2026-11-26 14:19 UTC director: brief written, READY ($0). Picked over pink camo (1 live), capybara hoodies (5) and welder shirts (4), all under the 6-product depth floor; this is the biggest never-pushed Christmas page with depth.
 - 2026-11-26 17:35 UTC [B]: built, REVIEW. File: src/data/collections.ts only (christmas-sweatshirts entry). Fact-check via Shopify collection (58 products, 56 active, 2 DRAFT not linked; every linked product ACTIVE; $34.99 tier; colors and sizes as read). New title (52 chars) and meta (149), answer-first intro with {{before||after}} order-by, 6 new H2s with 3-4 live product links each plus men's, group-shirts and christmas-hoodies links (curl 200), existing sections kept, FAQs now 9 in schema (head phrase kept low). astro build passes normal, PRICE_DATE=2026-12-02 (no sale price) and 2026-12-06 (no Dec 4 claim). fal $0. Cohesion audit not run (page copy only, node_modules symlink).
+- 2026-11-26 23:50 UTC director: LIVE. Fixed before LIVE (R8.6, R8.3): the after-Dec-4 intro told shoppers to 'choose a gift card' (we sell none), now 'so it makes a good New Year's gift'; the old 'Two kinds of Christmas art' section said the collection was only a Santa and a tree design (56 live now) and carried a production note ('no badge or box'), rewritten as 'Vintage Christmas sweatshirts' with 3 live links; 'each sweatshirt uses the same art as one of our tees' softened to 'many' (not every crew has a tee twin); title now 'Christmas Sweatshirts: Funny Crewnecks Like Snow Problem' (55). Every linked product ACTIVE (56 of 58; the 2 DRAFTs unlinked). Builds normal, Dec 2, Dec 6 read; full audit 0 errors. Position unknown.

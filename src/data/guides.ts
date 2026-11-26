@@ -5888,7 +5888,6 @@ const rawGuides: Guide[] = [
     h1: 'Xmas Gifts for Him: Funny Shirts for the Guy With a Hobby',
     date: '2026-11-26',
     cluster: 'tees',
-    draft: true,
     answer: 'A good xmas gift for him is a funny shirt about the hobby he already talks about. Graphic Tees Co. has original designs for the lifter (Sisyphus Had Bad Programming, tee $24.99, hoodie $39.99), the fisherman (Fishing Is My Love Language, hoodie $39.99), the golfer (Sorry About Your Windshield, hoodie $39.99), the mechanic (No, I Can’t Just Take a Quick Look, tee $24.99, hoodie $39.99) and the welder (If You Can Step Over It, I Can Fill It, tee $24.99, hoodie $39.99). Those are sale prices through November 30, 2026; from December 1 tees are $29.99 and hoodies $44.99. Each is printed after you order. Order by December 4, 2026.',
     picks: [
       {

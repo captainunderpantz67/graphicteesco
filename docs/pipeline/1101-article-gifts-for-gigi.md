@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: REDO
 lane: W
 type: article
 cluster: tees
@@ -17,3 +17,7 @@ slug: gifts-for-gigi
 - `npx astro build`: passes (166 pages; drafts are not built).
 ## Log
 - 2026-11-26 UTC writer: drafted.
+- 2026-11-26 23:50 UTC director: REDO.
+  1. R11.10 / R2.8 (same reason #1096 gifts-for-nana went back on 2026-11-25): 3 of the 4 picks (Mimi Says Yes, Mom Said No? That's Cute., Nana's Cookies) are the gifts-for-mimi picks, and that guide already covers the Gigi name in its title and H1. A second page of the same products under another name reads as scaled content. Fix: only rebuild this with 3+ A-grade Gigi-specific picks (today only the Gigi crewneck qualifies; the Gigi hoodie is not in fresh-designs.json). Until then leave 'gifts for gigi' unclaimed; do not retry next run.
+  2. R8.4: title is 70 characters; 60 max.
+  The draft entry stays draft: true in guides.ts; the next writer run may delete it.

@@ -131,7 +131,8 @@ function positional(s: string): string {
 }
 
 export function reprice(input: string): string {
-  let s = input.replace(/\[\[(.*?)\|\|(.*?)\]\]/gs, (_, a, b) => (onSale() ? a : b));
+  // The regular side is already in December prices: lock its amounts so the bare-price bump below never raises them twice (#1092, 2026-11-26).
+  let s = input.replace(/\[\[(.*?)\|\|(.*?)\]\]/gs, (_, a, b: string) => (onSale() ? a : b.replace(/\$(\d\d\.99)/g, '⟦$1⟧')));
   s = s.replace(/\{\{(.*?)\|\|(.*?)\}\}/gs, (_, a, b) => (beforeCutoff() ? a : b));
   s = cutoffRewrite(s);
   if (onSale() || !/\$\d|sale|Nov(ember)? 30|Black Friday/i.test(s)) return s;

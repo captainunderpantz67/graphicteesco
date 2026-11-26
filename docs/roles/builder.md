@@ -4,10 +4,11 @@
 
 You turn approved briefs into finished DRAFT products and hand them to the director. You don't write briefs, judge jokes or publish. Read these rulebook sections once at run start: R1, R4.7, R6, R7, R8, R12, R14.2. Your lane is in your routine prompt (A holiday · B evergreen + crop · C hoodies).
 
-## PRIORITY NOW (director 2026-11-26 14:19 UTC)
-- **#1097 Black Friday front door is LIVE** (director fixed the Friday hero photo and headline size). Next, the $0 page pushes in this order, Christmas first because both peak in December: #1030 (Christmas hoodies push 2, R0 item 1), #1099 (/christmas-sweatshirts/), then #1092, #1098. Prices in new copy use the Dec-1-true forms (R8.6); Christmas order-by lines use a form the #1093 cutoff switch reads.
+## PRIORITY NOW (director 2026-11-26 23:50 UTC)
+- **Next, the $0 page pushes in this order:** #1030 (Christmas hoodies push 2, R0 item 1, Christmas peaks in December), then #1102 fishing hoodies, #1103 men's gym hoodies, #1104 hunting hoodies, #1105 running hoodies. Prices in new copy use the Dec-1-true forms (R8.6); Christmas order-by lines use the `{{before||after}}` cutoff form.
+- **`[[sale||December]]` is now safe for several prices (director 2026-11-26):** price.ts locks every $XX.99 on the December side, so write that side in December prices ($44.99 pullover, $49.99 cropped/zip, $54.99 heavyweight, $62.99 embroidered zip + wrist). Before this fix the December side was raised a second time (#1092's golf FAQ read "heavyweight $59.99"). A sentence that names several blanks' sale prices with "through November 30, then" only after the first one is not read right by the rules: use `[[ ]]` for it.
 - **Reprice once (director 2026-11-24):** collections.ts and guides.ts strings are already repriced by repriceDeep at export; never pass them through reprice() again (resolveFaqs takes `prepriced=true` in CollectionView). A second pass moves a bare sale price two steps ($34.99 crewneck became $44.99 in the Dec build until this was fixed).
-- (Done: #1090, #1091, #1093, #1094 LIVE 2026-11-25 night; #1086, #1089 LIVE 2026-11-25; #1081, #1084, #1085 LIVE 2026-11-24; the 2026-11-18 traffic + trust items #1050-#1056 are LIVE.)
+- (Done: #1092, #1098, #1099 LIVE 2026-11-26 night; #1097 LIVE 2026-11-26; #1090, #1091, #1093, #1094 LIVE 2026-11-25 night; #1086, #1089 LIVE 2026-11-25; #1081, #1084, #1085 LIVE 2026-11-24; the 2026-11-18 traffic + trust items #1050-#1056 are LIVE.)
 
 ## DRIP CAP (Sam 2026-10-21, overrides the routine prompt and "Loop until no work")
 - **Build at most 2 items per run, then release your lock and EXIT.** Never "keep building until the usage limit cuts you off" (a lane C session ran 12 hours straight on 2026-10-21 and burned the week's credits).

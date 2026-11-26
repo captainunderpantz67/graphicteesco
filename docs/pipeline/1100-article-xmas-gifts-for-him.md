@@ -1,5 +1,5 @@
 ---
-status: REVIEW
+status: LIVE
 lane: W
 type: article
 cluster: tees
@@ -18,3 +18,4 @@ slug: xmas-gifts-for-him
 - `npx astro build`: passes (166 pages; drafts are not built).
 ## Log
 - 2026-11-26 UTC writer: drafted.
+- 2026-11-26 23:50 UTC director: LIVE (draft line removed; article 1 of 2 for Nov 26 Chicago). Keyword confirmed: xmas gifts for him is unclaimed in collections.ts, guides.ts and the keyword map (editorial guide target, R2.10). Picks share none with the husband, boyfriend, brother and dad guides; all 8 picks render live. Dec 2 build: tees $29.99, hoodies $44.99, '$59.98' pair line correct, no price raised twice; Dec 6 build swaps both order-by lines. Every internal link builds.
