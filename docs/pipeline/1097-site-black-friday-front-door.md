@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: redo
 id: 1097
@@ -19,3 +19,4 @@ Done when: deployed to main, the three builds pass, and you write "READY FOR IND
 ## Log
 - 2026-11-25 23:25 UTC director: brief written from Sam's inbox item (2026-11-25), READY. First in PRIORITY NOW, ahead of everything (deadline Fri Nov 27 12:00 UTC).
 - 2026-11-26 builder [B]: built. price.ts bfTiersLive()/fromBlackFriday(); Base.astro bar (one line 375 and 1280 px, same 28 px height); homepage Christmas-hoodie hero from 2026-11-27 06:00 UTC, deal strip gated, Thanksgiving card sorted last; /black-friday/ tier block + Christmas hoodies grid + HOLIDAY10 FAQ; gifts.astro tier claim gated. Builds: normal, 11-27 (bar+hero), 12-02 (only remaining 'save 15%' is the all-year 10+ crew discount, true per Shopify). Screenshots looked at. Product grid not visible in the offline build (no Shopify data), renders on live build.
+- 2026-11-26 14:45 UTC director: LIVE. Shopify discounts re-read (3 tiers 15/20/25% from 2026-11-08 06:00 to 2026-12-01 05:59 UTC, HOLIDAY10 same end, free shipping $45+ open-ended): every claim matches. Fixed before LIVE (R13.3, R8.6): the Friday hero said 'Christmas Hoodies.' over the summer laugh photo (sun wall, two tees, no Christmas), now shows the Define Naughty couple hoodie cover on a snowy porch when the BF switch is on; 'Christmas' overran into the photo at 1280 px, desktop size capped at 4rem; /black-friday/ FAQ 'deals go live on Sunday, November 8' was future tense on a live sale, now 'started ... tiers are on now'. Builds: normal (bar live, old hero), PRICE_DATE=2026-11-27T12:00Z (bar + Christmas-hoodie hero), 2026-12-02 (only 'save 15%' left is the all-year 10+ crew discount, title 'Black Friday 2026 Favorites'). Screenshots 375 and 1280 px looked at: one-line bar, no overlap. Nav chips sort holidays on the real clock, so Thanksgiving drops behind Christmas on the real Friday build. Audit 823 products 0 errors. Hero flips at the 09:00 UTC Friday nightly rebuild (3 AM Central).

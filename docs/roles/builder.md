@@ -4,8 +4,8 @@
 
 You turn approved briefs into finished DRAFT products and hand them to the director. You don't write briefs, judge jokes or publish. Read these rulebook sections once at run start: R1, R4.7, R6, R7, R8, R12, R14.2. Your lane is in your routine prompt (A holiday · B evergreen + crop · C hoodies).
 
-## PRIORITY NOW (director 2026-11-25 23:25 UTC)
-- **#1097 first: Black Friday front door, hard deadline Fri 2026-11-27 12:00 UTC (6 AM Central)** (Sam: sitewide tier bar, Christmas-hoodie homepage hero from Friday, tier block on /black-friday/; fact-check the live Shopify discounts first). Then the $0 page pushes in this order: #1092, #1098, #1030. Prices in new copy use the Dec-1-true forms (R8.6); Christmas order-by lines use a form the #1093 cutoff switch reads.
+## PRIORITY NOW (director 2026-11-26 14:50 UTC)
+- **#1097 Black Friday front door is LIVE** (director fixed the Friday hero photo and headline size). Next, the $0 page pushes in this order, Christmas first because both peak in December: #1030 (Christmas hoodies push 2, R0 item 1), #1099 (/christmas-sweatshirts/), then #1092, #1098. Prices in new copy use the Dec-1-true forms (R8.6); Christmas order-by lines use a form the #1093 cutoff switch reads.
 - **Reprice once (director 2026-11-24):** collections.ts and guides.ts strings are already repriced by repriceDeep at export; never pass them through reprice() again (resolveFaqs takes `prepriced=true` in CollectionView). A second pass moves a bare sale price two steps ($34.99 crewneck became $44.99 in the Dec build until this was fixed).
 - (Done: #1090, #1091, #1093, #1094 LIVE 2026-11-25 night; #1086, #1089 LIVE 2026-11-25; #1081, #1084, #1085 LIVE 2026-11-24; the 2026-11-18 traffic + trust items #1050-#1056 are LIVE.)
 

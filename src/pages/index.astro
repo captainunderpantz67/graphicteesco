@@ -188,6 +188,14 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
        chihuahua designs on a rust/mustard/moss/kraft set), real cat + cartoon table from the cat design, ink panel, cream + mustard headline, rust and cream buttons, navy deal strip. -->
   <section class="hype relative bg-[#141311] text-[#f8f3e8] overflow-hidden">
     <div class="lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.45fr)] lg:min-h-[620px]">
+      {bfXmas ? (
+      <picture class="block lg:order-2 relative">
+        <img src="/covers/unisex-christmas-define-naughty-hoodie.webp"
+          alt="Man and woman in matching navy Define Naughty Christmas hoodies on a snowy front porch at night with a lit wreath and garland"
+          width="600" height="800" fetchpriority="high" class="w-full aspect-[1100/851] lg:aspect-auto lg:absolute lg:inset-0 lg:h-full object-cover object-[50%_42%]" />
+        <span class="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-[#141311] to-transparent lg:hidden"></span>
+      </picture>
+      ) : (
       <picture class="block lg:order-2 relative">
         <source media="(min-width: 1024px)" srcset="/hero/laugh-900.webp 900w, /hero/laugh-1600.webp 1600w" sizes="60vw" />
         <img src="/hero/laugh-m-700.webp" srcset="/hero/laugh-m-700.webp 700w, /hero/laugh-m-1100.webp 1100w" sizes="100vw"
@@ -195,13 +203,14 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
           width="1100" height="851" fetchpriority="high" class="w-full aspect-[1100/851] lg:aspect-auto lg:absolute lg:inset-0 lg:h-full object-cover object-[60%_40%] lg:object-[20%_40%]" />
         <span class="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-[#141311] to-transparent lg:hidden"></span>
       </picture>
+      )}
 
       <div class="relative z-10 container-x pt-6 pb-9 lg:py-14 lg:pr-6 lg:!max-w-none lg:!pl-[max(1.5rem,calc((100vw-1240px)/2+1.5rem))] flex flex-col justify-center">
         <!-- Hand-set type (Sam 2026-10-21: "fool even the best vibe coders"): poster headline with a misprinted rust
              ink layer, wood-type tagline, sentence-case buttons, a hand-drawn arrow. No eyebrow, no tracked caps. -->
         {bfXmas ? (<>
         <h1>
-          <span class="poster block text-[clamp(3rem,13vw,5rem)]">Christmas<br />Hoodies.</span>
+          <span class="poster block text-[clamp(3rem,13vw,5rem)] lg:text-[clamp(3rem,5vw,4rem)]">Christmas<br />Hoodies.</span>
           <span class="woodtype block mt-5 text-[clamp(1.3rem,5.4vw,2.1rem)] text-[#d9a23b]">Buy 2 save 15%,<br />3 save 20%, 4+ save 25%.</span>
         </h1>
         <p class="mt-5 max-w-sm text-[#f8f3e8]/85 text-base md:text-lg">Funny Christmas hoodies, drawn here and printed when you order. The tier discount applies automatically in the cart through Mon 11/30, and US shipping is free on $45+.</p>
