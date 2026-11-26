@@ -5877,6 +5877,103 @@ const rawGuides: Guide[] = [
       { q: 'When should I order a gift for Nana for Christmas?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. US shipping is free on orders of $45 or more.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-26), draft. Keyword: xmas gifts for him 14,800 / KD 10 (RankHero keyword page, measured 2026-10-18 per docs/pipeline/623; Nov 74,000 / Dec 90,500 surge; no competition count, so an editorial gift phrase, guide target only, R2.10). NOT re-pulled this run (RankHero returned no data unattended). The phrase was retargeted off the It Looked Smaller at the Farm oversized hoodie on 2026-10-18 and no page claims it now. Director: confirm the keyword.
+    // Facts (art, colors, sizes, fabrics, prices) from the LIVE Shopify Stories read 2026-11-26; policies and dates from the sibling husband and boyfriend guides and site.ts. FAQ questions are not from PAA or GSC (not available unattended).
+    // Angle: the husband, boyfriend, brother and dad guides cover the Christmas-themed men's shirts; this one covers his hobby (gym, fishing, golf, cars, welding) so it shares no pick with them. Picks: Sisyphus Had Bad Programming (tee + hoodie), Fishing Is My Love Language (hoodie), Sorry About Your Windshield (hoodie), No, I Can't Just Take a Quick Look (tee + hoodie), If You Can Step Over It, I Can Fill It (tee + hoodie). Every handle is in src/data/fresh-designs.json.
+    slug: 'xmas-gifts-for-him',
+    keyword: 'xmas gifts for him',
+    title: 'Xmas Gifts for Him: Funny Hobby Shirts He’ll Wear',
+    description: 'Xmas gifts for him that match his hobby: gym, fishing, golf, cars, welding. Funny tees $24.99, hoodies $39.99, printed to order with a free size exchange.',
+    h1: 'Xmas Gifts for Him: Funny Shirts for the Guy With a Hobby',
+    date: '2026-11-26',
+    cluster: 'tees',
+    draft: true,
+    answer: 'A good xmas gift for him is a funny shirt about the hobby he already talks about. Graphic Tees Co. has original designs for the lifter (Sisyphus Had Bad Programming, tee $24.99, hoodie $39.99), the fisherman (Fishing Is My Love Language, hoodie $39.99), the golfer (Sorry About Your Windshield, hoodie $39.99), the mechanic (No, I Can’t Just Take a Quick Look, tee $24.99, hoodie $39.99) and the welder (If You Can Step Over It, I Can Fill It, tee $24.99, hoodie $39.99). Those are sale prices through November 30, 2026; from December 1 tees are $29.99 and hoodies $44.99. Each is printed after you order. Order by December 4, 2026.',
+    picks: [
+      {
+        h2: 'What is a funny Christmas gift for a guy who lifts?',
+        body: ['Sisyphus Had Bad Programming. It is for the lifter who pushes the same weight up the same hill and has opinions about everyone else’s split.'],
+        items: [
+          { slogan: 'SISYPHUS HAD BAD PROGRAMMING', tee: 'mens-gym-sisyphus-had-bad-programming-graphic-tee',
+            text: 'A hero drawn like a Greek vase painting, in terracotta and black ink, shoves a giant weight plate up a steep hill. SISYPHUS HAD runs above in bold classical capitals, with a Greek key band and BAD PROGRAMMING below. The tee is $24.99, a lightweight 4.2 oz cotton cut in Natural, Heather Dust, White, Ash and Athletic Heather, sizes S to 4XL.' },
+          { slogan: 'SISYPHUS HAD BAD PROGRAMMING', tee: 'mens-gym-sisyphus-had-bad-programming-hoodie',
+            text: 'The same Greek-vase hero and weight plate on an 8 oz, 50% cotton and 50% polyester pullover with a double-lined hood and a front pouch pocket. The hoodie is $39.99 in Sand and Ash, sizes S to 3XL.' },
+        ],
+        links: [{ href: '/mens-gym-shirts/', text: 'Men’s gym shirts' }, { href: '/guides/gym-gifts-for-men/', text: 'Gym gifts for men' }],
+      },
+      {
+        h2: 'What do you give a guy who would rather be fishing?',
+        body: ['Fishing Is My Love Language. It is for the quiet one who says it with a rod, not with words.'],
+        items: [
+          { slogan: 'FISHING IS MY LOVE LANGUAGE. TALKING ISN’T.', tee: 'mens-fishing-love-language-hoodie',
+            text: 'A largemouth bass in small sunglasses lounges on a striped lawn chair with a fishing rod leaning beside it. FISHING IS MY LOVE LANGUAGE. sits above in cream capitals with a dark-green outline and TALKING ISN’T. closes the joke below in mustard. The hoodie is an 8 oz cotton-polyester pullover, $39.99 in Sand and Navy, sizes S to 3XL.' },
+        ],
+        links: [{ href: '/hoodies/fishing-hoodies/', text: 'Fishing hoodies' }, { href: '/guides/fishing-gifts-for-dad/', text: 'Fishing gifts for dad' }],
+      },
+      {
+        h2: 'What is a good gift for a golfer who slices?',
+        body: ['Sorry About Your Windshield. Every Saturday foursome has one golfer whose ball heads for the parking lot.'],
+        items: [
+          { slogan: 'SORRY ABOUT YOUR WINDSHIELD.', tee: 'unisex-golf-sorry-about-your-windshield-hoodie',
+            text: 'A 1950s golfer in a flat cap and navy sweater finishes his swing as the ball arcs over a white picket fence toward a row of parked cars, one windshield already marked with a star. SORRY ABOUT sits above in navy serif capitals and YOUR WINDSHIELD. below. The hoodie is an 8 oz cotton-polyester pullover in Sand and Sport Grey, $39.99, sizes S to 3XL.' },
+        ],
+        links: [{ href: '/hoodies/golf-hoodies/', text: 'Golf hoodies' }, { href: '/guides/funny-golf-gifts/', text: 'Funny golf gifts' }],
+      },
+      {
+        h2: 'What do you give a mechanic who gets asked for a quick look?',
+        body: ['No, I Can’t Just Take a Quick Look. It is for the one who is only trying to eat lunch at the cookout.'],
+        items: [
+          { slogan: 'NO, I CAN’T JUST TAKE A QUICK LOOK.', tee: 'mens-mechanic-no-i-cant-just-take-a-quick-look-graphic-tee',
+            text: 'A tired mechanic in blue coveralls and a cap sits on an upturned oil drum eating a sandwich from a metal lunch pail while three people hold out their car keys behind him. NO, I CAN’T JUST runs across the top in cream and TAKE A QUICK LOOK. across the bottom in faded red. The tee is $24.99 in eight colors, sizes S to 4XL.' },
+          { slogan: 'NO, I CAN’T JUST TAKE A QUICK LOOK.', tee: 'mens-mechanic-no-i-cant-just-take-a-quick-look-hoodie',
+            text: 'The same lunch-break scene on an 8 oz cotton-polyester pullover, $39.99 in Sand and Navy, sizes S to 3XL.' },
+        ],
+        links: [{ href: '/guides/gifts-for-mechanics/', text: 'Gifts for mechanics' }],
+      },
+      {
+        h2: 'What is a good gift for a welder?',
+        body: ['If You Can Step Over It, I Can Fill It. It is the fitter-versus-welder joke every shop knows.'],
+        items: [
+          { slogan: 'IF YOU CAN STEP OVER IT, I CAN FILL IT.', tee: 'mens-welder-if-you-can-step-over-it-graphic-tee',
+            text: 'A welder in a leather apron and orange gloves, hood tipped up and arms crossed, stands beside two steel I-beams with a glowing weld bead filling the gap. IF YOU CAN STEP OVER IT, runs above in cream and I CAN FILL IT. below in orange. The tee is $24.99 in Navy, Black, Dark Grey Heather, Military Green and Heather Forest, sizes S to 4XL.' },
+          { slogan: 'IF YOU CAN STEP OVER IT, I CAN FILL IT.', tee: 'mens-welder-if-you-can-step-over-it-hoodie',
+            text: 'The same welder and weld bead on an 8 oz cotton-polyester pullover, $39.99 in Navy and Dark Heather, sizes S to 3XL. It is casual wear, not welding protection.' },
+        ],
+        links: [{ href: '/welder-shirts/', text: 'Welder shirts' }, { href: '/guides/gifts-for-welders/', text: 'Gifts for welders' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good xmas gift for him?',
+        body: ['Something that proves you listen. A guy who talks about his lifts, his boat or his truck will wear a shirt about them, because he is in on the joke. Generic gifts get put in a drawer.',
+          'Graphic Tees Co. designs are original art with the joke set in big type. They carry no team, brand or character logos, so there is nothing to explain.'],
+        links: [{ href: '/christmas-shirts-for-men/', text: 'Men’s Christmas shirts' }] },
+      { h2: 'Should you buy him a tee or a hoodie?',
+        body: ['The tee is the easy pick: $24.99 through November 30 in a lightweight 4.2 oz cotton cut. The hoodie is $39.99 in 8 oz fleece, the better gift for a guy who runs cold or works in a cold garage or shop.',
+          'Sisyphus Had Bad Programming, the Quick Look mechanic design and the welder design come as both. Fishing Is My Love Language and Sorry About Your Windshield are hoodies.'],
+        links: [{ href: '/hoodies/', text: 'All graphic hoodies' }] },
+      { h2: 'What if you do not know his size?',
+        body: ['Check the size chart on the product page against a shirt he already owns. The tees run S to 4XL in a classic unisex cut, and the hoodies run S to 3XL.',
+          'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and he does not have to mail the first one back. If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'What are good xmas gifts for him under $50?',
+        body: ['Every pick here is under $50: tees are $24.99 and hoodies $39.99. On December 1 the tees step to $29.99 and the hoodies to $44.99, still under $50. US shipping is free on orders of $45 or more, so [[two tees ship free at $49.98||two tees ($59.98) ship free]].'],
+        links: [{ href: '/guides/cheap-christmas-gifts/', text: 'Cheap Christmas gifts' }] },
+      { h2: 'When should you order xmas gifts for him?',
+        body: ['Order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find Christmas gift ideas for him?',
+        body: ['If his hobby is the holidays themselves, the guides below cover the Christmas-themed shirts for the men in your family.'],
+        links: [{ href: '/guides/christmas-gifts-for-husband/', text: 'Christmas gifts for husband' }, { href: '/guides/christmas-gifts-for-boyfriend/', text: 'Christmas gifts for boyfriend' }, { href: '/guides/christmas-gifts-for-brother/', text: 'Christmas gifts for brother' }, { href: '/guides/christmas-gifts-for-dad/', text: 'Christmas gifts for dad' }, { href: '/guides/white-elephant-gifts/', text: 'White elephant gifts' }] },
+    ],
+    faqs: [
+      { q: 'What are good xmas gifts for him?', a: 'A funny shirt about his hobby, like Sisyphus Had Bad Programming for a lifter or If You Can Step Over It, I Can Fill It for a welder, from Graphic Tees Co. Tees are $24.99 through November 30, 2026 and $29.99 from December 1, all printed after you order.' },
+      { q: 'What is a funny xmas gift for him under $30?', a: 'Any Graphic Tees Co. tee in this guide: Sisyphus Had Bad Programming, No, I Can’t Just Take a Quick Look or If You Can Step Over It, I Can Fill It. Each is $24.99 through November 30, 2026, then $29.99.' },
+      { q: 'What is a good Christmas gift for a guy who fishes?', a: 'The Fishing Is My Love Language hoodie from Graphic Tees Co. It prints a largemouth bass in sunglasses on a lawn chair, and costs $39.99 through November 30, 2026 in Sand or Navy, sizes S to 3XL.' },
+      { q: 'Is a hoodie a good gift for him?', a: 'Yes, if he runs cold. The Graphic Tees Co. hoodies in this guide are 8 oz cotton-polyester pullovers with a double-lined hood and a front pouch pocket, $39.99 through November 30, 2026 and $44.99 from December 1.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back. The tees run S to 4XL and the hoodies S to 3XL, so compare the size chart with a shirt he already owns.' },
+      { q: 'When should I order xmas gifts for him?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
