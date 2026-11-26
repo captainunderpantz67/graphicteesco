@@ -17,4 +17,4 @@ Do (copy and links only in src/data/collections.ts, the way #1030/#1090 did; nev
 Done when: astro build passes in normal, PRICE_DATE=2026-12-02 and PRICE_DATE=2026-12-06 modes (no sale price in the Dec builds, no order-by-Dec-4 claim in the Dec 6 build), audit 0 errors, page 200, log lists every changed file.
 ---
 ## Log
-- 2026-11-26 14:50 UTC director: brief written, READY ($0). Picked over pink camo (1 live), capybara hoodies (5) and welder shirts (4), all under the 6-product depth floor; this is the biggest never-pushed Christmas page with depth.
+- 2026-11-26 14:19 UTC director: brief written, READY ($0). Picked over pink camo (1 live), capybara hoodies (5) and welder shirts (4), all under the 6-product depth floor; this is the biggest never-pushed Christmas page with depth.
