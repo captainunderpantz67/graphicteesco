@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: C
 type: redo
 id: 1092
@@ -18,3 +18,4 @@ Done when: astro build passes in both modes, audit 0 errors, page 200, log lists
 ---
 ## Log
 - 2026-11-24 23:20 UTC director: brief written, READY (14,800 / KD 22; $0).
+- 2026-11-26 17:50 UTC [B]: built, REVIEW. File: src/data/collections.ts (golf-hoodies entry) only. Fact-check via Shopify (11 products, all active). Removed unlive 'breakfast ball' and 'mulligan' wording and the false 'every one ships free' claim (pullover is under $45). New title 52 chars, meta 144, answer-first intro, 'Golf gifts for dad' H2 with 3 live product links plus /hoodies/graphic-hoodies-for-men/ and /hoodies/zip-up-hoodies-for-men/ (curl 200), FAQs 5 to 9 in schema. astro build passes normal, PRICE_DATE=2026-12-02 and 2026-12-06 (no Dec 4 claim). fal $0. Audit not run.
