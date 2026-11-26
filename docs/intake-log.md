@@ -1,3 +1,4 @@
+RUNNING director since 2026-11-26 23:12 UTC
 2026-11-26 21:36 UTC — [B] built, REVIEW #1098 western graphic tees page push (collections.ts only; astro build passes in 3 modes, fal $0, outside caps; 0 new products). Builder run end: 1 of 2 items; #1030 left READY (remaining steps need Admin writes for 42 descriptions and Search Console, not available to builder). No lock held.
 2026-11-26 17:51 UTC — [B] built, REVIEW #1092 golf hoodies page push (collections.ts only; astro build passes in 3 modes, fal $0, outside caps; 0 new products). Builder run end: 2 of 2 items (#1099, #1092). Next: #1098, #1030 (steps 2/4/5 need Admin writes and Search Console). No lock held.
 2026-11-26 17:36 UTC — [B] built, REVIEW #1099 Christmas sweatshirts page push (collections.ts only; astro build passes in 3 modes, fal $0, outside caps; 0 new products). 1 of 2 items.
