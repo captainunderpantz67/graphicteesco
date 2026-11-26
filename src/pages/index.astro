@@ -9,6 +9,7 @@ import { getAllProducts } from '../lib/shopify';
 import { linkableSlugs, hoodiesHubLive } from '../lib/linkable';
 import { daysUntil, featuredHoliday, homepageOrder, sellable } from '../lib/holidays';
 import { coverFor as liveCover } from '../data/covers';
+import { bfTiersLive, fromBlackFriday } from '../lib/price';
 
 // Real product photos for cards: the main (model/lifestyle) mockup of the newest product in each collection.
 const allProducts = (await getAllProducts()).filter((p) => !p.sample && p.images.length);
@@ -79,6 +80,7 @@ const photoIn = (handle: string, prefer?: RegExp) => {
   const any = pool[0]; if (!any) return null; usedMajor.add(any.handle);
   return { src: img(any.images[0].url, 600), alt: any.images[0].altText || any.title };
 };
+const bfXmas = fromBlackFriday() && bfTiersLive();
 const xmasDays = daysUntil('christmas');
 const tgDays = daysUntil('thanksgiving');
 const MAJOR = [
@@ -90,7 +92,8 @@ const MAJOR = [
   { slug: 'camo-hoodies', href: '/hoodies/camo-hoodies/', title: 'Camo', line: 'Blend in. Stand out anyway.', prefer: /camo/ },
   { slug: null, href: '/gifts/', title: 'Gifts', line: 'Socks, mugs, ornaments, sweats.', gifts: true },
   { slug: 'group-shirts', href: '/group-shirts/', title: 'Matching Crew', line: 'Whole crew, one joke. 15% off 10+.' },
-].filter((m) => !m.slug || live.has(m.slug)).filter((m) => m.href !== '/hoodies/' || showHoodies);
+].filter((m) => !m.slug || live.has(m.slug)).filter((m) => m.href !== '/hoodies/' || showHoodies)
+  .sort((a, b) => Number(fromBlackFriday() && a.slug === 'thanksgiving-shirts') - Number(fromBlackFriday() && b.slug === 'thanksgiving-shirts'));
 const majorCards = MAJOR.map((m) => ({ ...m, ph: m.gifts ? null : photoIn(m.handle ?? bySlug(m.slug!)!.shopifyHandle, m.prefer) }));
 // Gifts card: a 3-up collage of real add-on product shots (ornament, socks, mug).
 const giftShots = [/ornament$/i, /socks$/i, /mug$/i, /(sweatpants|joggers)$/i].map((rx) => allProducts.find((x) => rx.test(x.title.trim()))).filter(Boolean).map((x) => ({ src: img(x!.images[0].url, 300), alt: x!.title }));
@@ -196,6 +199,17 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
       <div class="relative z-10 container-x pt-6 pb-9 lg:py-14 lg:pr-6 lg:!max-w-none lg:!pl-[max(1.5rem,calc((100vw-1240px)/2+1.5rem))] flex flex-col justify-center">
         <!-- Hand-set type (Sam 2026-10-21: "fool even the best vibe coders"): poster headline with a misprinted rust
              ink layer, wood-type tagline, sentence-case buttons, a hand-drawn arrow. No eyebrow, no tracked caps. -->
+        {bfXmas ? (<>
+        <h1>
+          <span class="poster block text-[clamp(3rem,13vw,5rem)]">Christmas<br />Hoodies.</span>
+          <span class="woodtype block mt-5 text-[clamp(1.3rem,5.4vw,2.1rem)] text-[#d9a23b]">Buy 2 save 15%,<br />3 save 20%, 4+ save 25%.</span>
+        </h1>
+        <p class="mt-5 max-w-sm text-[#f8f3e8]/85 text-base md:text-lg">Funny Christmas hoodies, drawn here and printed when you order. The tier discount applies automatically in the cart through Mon 11/30, and US shipping is free on $45+.</p>
+        <div class="mt-7 grid grid-cols-2 gap-3 max-w-md">
+          <a href="/hoodies/christmas-hoodies/" class="hand-btn bg-[#c2461f] text-[#f8f3e8] [box-shadow:4px_4px_0_#d9a23b]">Shop hoodies</a>
+          <a href="/black-friday/" class="hand-btn bg-[#f8f3e8] text-[#141311] [box-shadow:4px_4px_0_#4f5d3a]">See the deals</a>
+        </div>
+        </>) : (<>
         <h1>
           <span class="poster block text-[clamp(4rem,17vw,7.6rem)]">Graphic<br />Tees.</span>
           <span class="woodtype block mt-5 text-[clamp(1.6rem,6.6vw,2.9rem)] text-[#d9a23b]">Life's short.<br />Wear the laugh.</span>
@@ -205,6 +219,7 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
           <a href="/funny-graphic-tees/" class="hand-btn bg-[#c2461f] text-[#f8f3e8] [box-shadow:4px_4px_0_#d9a23b]">Shop tees</a>
           {showHoodies ? <a href="/hoodies/" class="hand-btn bg-[#f8f3e8] text-[#141311] [box-shadow:4px_4px_0_#4f5d3a]">Shop hoodies</a> : <a href="/gifts/" class="hand-btn bg-[#f8f3e8] text-[#141311] [box-shadow:4px_4px_0_#4f5d3a]">Gifts &amp; sets</a>}
         </div>
+        </>)}
         <a href="/gifts/" class="scrawl mt-5 inline-flex items-center gap-2 self-start text-[1.35rem] text-[#f8f3e8] hover:text-[#d9a23b]">
           <svg width="36" height="22" viewBox="0 0 34 22" aria-hidden="true"><path d="M2 6 C 10 16, 20 18, 30 12 M24 8 L31 12 L26 18" fill="none" stroke="#d9a23b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
           or grab a stocking stuffer
@@ -213,15 +228,15 @@ const ticker = ['Fishing', 'Hunting', 'Western', 'Country', 'Gym', 'Football Mom
     </div>
 
     <!-- Deal strip (moving) -->
-    <a href="/black-friday/" class="block bg-[#22344a] text-[#f8f3e8] border-y-2 border-[#141311] overflow-hidden" aria-label="Black Friday deals start November 8">
+    {bfTiersLive() && <a href="/black-friday/" class="block bg-[#22344a] text-[#f8f3e8] border-y-2 border-[#141311] overflow-hidden" aria-label="Black Friday deals through Monday, November 30">
       <div class="deal-track flex w-max gap-8 py-2.5 text-sm md:text-base font-black uppercase tracking-[.12em] whitespace-nowrap">
         {[0, 1].map((k) => (
           <span class="flex gap-8" aria-hidden={k ? 'true' : undefined}>
-            <span>Black Friday starts Nov 8</span><span class="text-[#d9a23b]">★</span><span>Buy 2, save 15%</span><span class="text-[#e2552a]">★</span><span>Buy 4+, save 25%</span><span class="text-[#d9a23b]">★</span><span>Free US shipping $45+</span><span class="text-[#e2552a]">★</span><span>Original designs only</span><span class="text-[#d9a23b]">★</span>
+            <span>Black Friday through Mon 11/30</span><span class="text-[#d9a23b]">★</span><span>Buy 2, save 15%</span><span class="text-[#e2552a]">★</span><span>Buy 4+, save 25%</span><span class="text-[#d9a23b]">★</span><span>Free US shipping $45+</span><span class="text-[#e2552a]">★</span><span>Original designs only</span><span class="text-[#d9a23b]">★</span>
           </span>
         ))}
       </div>
-    </a>
+    </a>}
   </section>
 
   <!-- Founder line (Sam 2026-11-18, traffic + trust push item 2) -->

@@ -34,6 +34,12 @@ const all = shopifyConnected ? (await getAllProducts()).filter((p) => !p.sample)
 const byHandle = new Map(all.map((p) => [p.handle, p]));
 const picks = doorbusters.map((h) => byHandle.get(h)).filter((p) => p !== undefined);
 const live = await linkableSlugs();
+// Christmas hoodies first (R0 item 1: our best-impression page). Newest designs with a cover, never repeating a doorbuster.
+const xmasCol = bySlug('christmas-hoodies');
+const xmasHoodies = xmasCol && live.has('christmas-hoodies')
+  ? all.filter((p) => p.collections?.includes(xmasCol.shopifyHandle) && coverFor(p.handle) && !picks.some((d) => d.handle === p.handle))
+      .sort((a, b) => Number(b.id.split('/').pop()) - Number(a.id.split('/').pop())).slice(0, 8)
+  : [];
 
 // Hero photo: the first hand-picked, natural-looking cover that's still in use (retired covers return null).
 const heroPick = ['womens-black-friday-in-it-for-the-doorbusters-graphic-tee', 'womens-christmas-vintage-santa-graphic-tee', 'womens-christmas-nutcracker-bow-graphic-tee', 'unisex-christmas-deer-camp-christmas-graphic-tee']
@@ -104,6 +110,7 @@ const faqsLive = [
   { q: 'When do the Graphic Tees Co. Black Friday deals start?', a: `The Graphic Tees Co. Black Friday deals go live on Sunday, November 8, ${bf.year}, at 12:00am Central and run through Cyber Monday, November 30, at 11:59pm Central. Today's prices (tees $24.99, crewnecks $34.99, hoodies from $39.99) apply right now, so you do not have to wait to order.` },
   { q: 'What is on sale for Black Friday?', a: `Every original graphic tee, crewneck sweatshirt and hoodie in the Graphic Tees Co. shop. During the sale, ${tierLine}, applied automatically at checkout.` },
   { q: 'Does the 15% crew order discount work during Black Friday?', a: `Yes, but discounts do not stack: at checkout you get whichever saves more. For 4 or more items during Black Friday that is the ${top.pct}% deal; the 15% crew discount on 10+ items runs all year.` },
+  { q: 'Can I use the HOLIDAY10 code with the Black Friday tiers?', a: 'No. HOLIDAY10 takes 10% off orders of $45 or more through November 30, but Shopify does not stack it with the buy 2, 3 and 4+ tier discounts. Use whichever saves more: the tiers apply automatically, and the code only wins on a $45+ order of one item.' },
   { q: 'How long does shipping take on Black Friday orders?', a: 'Every Graphic Tees Co. piece is printed after you order it, then shipped by tracked US mail, so allow time for printing plus delivery. Orders over $45 ship free in the US. For Christmas gifts, order Black Friday weekend or early December; we post the exact cutoff here by December 1.' },
   { q: 'Can I exchange a Black Friday gift if the size is wrong?', a: 'Yes. Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size for free, and you do not have to mail the first one back. Misprinted or damaged orders are reprinted or refunded within 30 days, Black Friday orders included.' },
 ];
@@ -195,6 +202,38 @@ const schema = [
         </div>
       </div>
     </section>
+
+    <!-- Tier block (#1097): facts exactly as Shopify sets them (checked 2026-11-26) -->
+    {!ended && (
+      <section class="bf-cream-bg border-b-2 border-[var(--bf-ink)]" aria-labelledby="bf-tiers-h">
+        <div class="container-x py-8 md:py-10">
+          <h2 id="bf-tiers-h" class="bf-display text-[clamp(1.8rem,7vw,3rem)] leading-[.95]">Buy more, save more, through Mon 11/30</h2>
+          <ul class="mt-4 grid sm:grid-cols-3 gap-3">
+            {bf.tiers.map((t) => <li class="rounded-[14px] border-2 border-[var(--bf-ink)] bg-white p-4"><b class="bf-display text-3xl">{t.pct}% off</b><span class="block text-sm font-semibold mt-1">when you buy {t.qty}{t === top ? ' or more' : ''} items</span></li>)}
+          </ul>
+          <ul class="mt-4 grid gap-1 text-[15px] font-semibold list-disc pl-5">
+            <li>Applies automatically in the cart, no code needed. Mix tees, crewnecks and hoodies.</li>
+            <li>Ends Monday, November 30 at 11:59pm Central.</li>
+            <li>Free US shipping on $45+ comes on top of the tier discount.</li>
+            <li>The code HOLIDAY10 (10% off $45+) does not stack with the tiers: use whichever saves more.</li>
+          </ul>
+        </div>
+      </section>
+    )}
+
+    {xmasHoodies.length > 0 && (
+      <section id="christmas-hoodies" class="bf-cream-bg scroll-mt-24 border-b-2 border-[var(--bf-ink)]">
+        <div class="container-x py-12">
+          <div class="flex flex-wrap items-end justify-between gap-3">
+            <h2 class="bf-display text-[clamp(2.4rem,9vw,3.75rem)] leading-[.9]">Christmas hoodies</h2>
+            <a href="/hoodies/christmas-hoodies/" class="font-bold uppercase tracking-[.12em] text-xs underline underline-offset-4">Shop all Christmas hoodies →</a>
+          </div>
+          <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
+            {xmasHoodies.map((p, i) => <ProductCard product={p} eager={i < 2} />)}
+          </div>
+        </div>
+      </section>
+    )}
 
     <!-- Shop by -->
     {tiles.length > 0 && (

@@ -173,3 +173,10 @@ export function repriceDeep<T>(o: T): T {
   }
   return o;
 }
+
+// Black Friday front door (#1097). The automatic tiers in Shopify (buy 2/3/4+ save 15/20/25%) end 2026-12-01 05:59 UTC.
+// bfTiersLive(): the sitewide bar and tier claims show until the sale ends (same clock as onSale, 06:00 UTC).
+// fromBlackFriday(): from Fri 2026-11-27 00:00 Central the homepage leads with Christmas hoodies.
+export const BF_START = Date.parse('2026-11-27T06:00:00Z');
+export const bfTiersLive = () => onSale();
+export const fromBlackFriday = () => nowMs() >= BF_START;

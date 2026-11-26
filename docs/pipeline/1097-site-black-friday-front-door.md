@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: C
 type: redo
 id: 1097
@@ -18,3 +18,4 @@ Done when: deployed to main, the three builds pass, and you write "READY FOR IND
 ---
 ## Log
 - 2026-11-25 23:25 UTC director: brief written from Sam's inbox item (2026-11-25), READY. First in PRIORITY NOW, ahead of everything (deadline Fri Nov 27 12:00 UTC).
+- 2026-11-26 builder [B]: built. price.ts bfTiersLive()/fromBlackFriday(); Base.astro bar (one line 375 and 1280 px, same 28 px height); homepage Christmas-hoodie hero from 2026-11-27 06:00 UTC, deal strip gated, Thanksgiving card sorted last; /black-friday/ tier block + Christmas hoodies grid + HOLIDAY10 FAQ; gifts.astro tier claim gated. Builds: normal, 11-27 (bar+hero), 12-02 (only remaining 'save 15%' is the all-year 10+ crew discount, true per Shopify). Screenshots looked at. Product grid not visible in the offline build (no Shopify data), renders on live build.

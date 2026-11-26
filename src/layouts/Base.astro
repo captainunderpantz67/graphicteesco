@@ -7,7 +7,7 @@ import CartDrawer from '../components/CartDrawer.astro';
 import EmailSignup from '../components/EmailSignup.astro';
 import { linkableSlugs, hoodiesHubLive } from '../lib/linkable';
 import { byUpcoming } from '../lib/holidays';
-import { onSale } from '../lib/price';
+import { onSale, bfTiersLive } from '../lib/price';
 
 interface Props {
   title: string;
@@ -77,7 +77,7 @@ const ld = [organization(live), website(), ...schema];
     <div class="bg-[var(--color-ink)] text-[var(--color-cream)] text-center text-[11px] font-bold uppercase py-2 tracking-[.16em]">
       New designs drop every month · {site.facts.hoodiesLive ? 'Every design also comes on a hoodie' : 'Original art, printed to order'}
     </div>
-    <div class="top-bar bg-[var(--color-ink)] text-[var(--color-paper)] text-center text-xs font-bold tracking-wider uppercase py-1.5 px-4">{onSale() ? <>Holiday sale: tees $24.99 · Free US shipping on $45+ · <a href="/black-friday/" class="underline underline-offset-2 hover:text-[var(--color-mustard)]">Black Friday Deals</a></> : 'Free US shipping on $45+ · 1 free size exchange'}</div>
+    <div class="top-bar bg-[var(--color-ink)] text-[var(--color-paper)] text-center text-xs font-bold tracking-wider uppercase py-1.5 px-4 whitespace-nowrap overflow-hidden text-ellipsis">{bfTiersLive() ? <a href="/black-friday/" class="hover:text-[var(--color-mustard)]"><span class="hidden sm:inline">Black Friday: buy 2 save 15%, buy 3 save 20%, buy 4+ save 25%. Ends Mon 11/30.</span><span class="sm:hidden">Buy 2 save 15% · 3 save 20% · 4+ save 25%</span></a> : 'Free US shipping on $45+ · 1 free size exchange'}</div>
     <header class="site-header border-b-2 border-[var(--color-ink)] bg-[var(--color-paper)]/95 backdrop-blur sticky top-0 z-30">
       <div class="container-x flex items-center justify-between h-16 gap-4">
         <a href="/" class="display misprint text-3xl tracking-tight">{site.name}</a>
