@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: C
 type: redo
 id: 1107
@@ -18,3 +18,4 @@ Done when: astro build passes in normal, PRICE_DATE=2026-12-02 and PRICE_DATE=20
 ---
 ## Log
 - 2026-11-27 14:40 UTC director: brief written, READY ($0). Never-pushed page with 6+ live products; KD-20-or-under pages left (capybara hoodies 5, y2k zip-ups 4, pink camo 1, half-zip pullovers 5) are under the depth floor.
+- 2026-11-27 21:50 UTC [B] built, REVIEW: collections.ts only (override around niche(N.y2k hoodies)): title, meta, answer-first intro, 2 new H2s (styling; zip-ups + Y2K tees), FAQs added incl. order-by cutoff; 8 ACTIVE products (5 pullovers $39.99, 3 zips $57.99) fact-checked via Admin API; zips described as back print plus small stitched left-chest mark; links 200 and indexable; astro build normal / PRICE_DATE=2026-12-02 (no sale prices, nothing raised twice) / 2026-12-06 (no order-by claim) pass; audit 823 products 0 errors. Keyword source RankHero per brief (not re-measured).
