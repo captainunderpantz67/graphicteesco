@@ -1,4 +1,6 @@
-2026-11-27 21:30 UTC — [B] RUNNING lane B since 2026-11-27 21:30 UTC (claim #1106, then #1107)
+2026-11-27 21:41 UTC — [B] built, REVIEW #1106 country graphic tees page push (collections.ts only; 15 live products fact-checked via Admin API; astro build passes in 3 modes, audit 0 errors, fal $0, outside caps; 0 new products). 1 of 2 items; next #1107.
+
+2026-11-27 21:30 UTC — [B] RUNNING lane B since 2026-11-27 21:30 UTC (#1107 next)
 
 2026-11-27 18:10 UTC — [B] built, REVIEW #1105 running hoodies page push (collections.ts only; 7 live products fact-checked via Admin API; astro build passes in 3 modes, fal $0, outside caps; 0 new products). Builder run end: 2 of 2 items (#1104, #1105). Next: #1106, #1107; #1030 still needs Admin writes + Search Console. No lock held.
 2026-11-27 17:50 UTC — [B] built, REVIEW #1104 hunting hoodies page push (collections.ts only; 24 live products fact-checked via Admin API; astro build passes in 3 modes, fal $0, outside caps; 0 new products). 1 of 2 items; next #1105.

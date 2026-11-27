@@ -425,7 +425,28 @@ const rawTees: Collection[] = [
     ];
     return c;
   })(),
-  niche(N.country, 'tees', { slug: 'country-graphic-tees', keyword: 'country graphic tees', volume: 1000, kd: 24, product: 'country graphic tees', audience: 'women', name: 'Country Graphic Tees' }),
+  (() => {
+    // Google push #1106 (R0 item 5, 2026-11-27): answer-first intro, concert and gift sections, 8 FAQs. Facts from the live Shopify collection read 2026-11-27 (15 products, all active, all $24.99; unisex tees XS to 4XL, women's S to 3XL; colors White, Vintage White, Natural, Athletic Heather, Heather Dust, Heather Clay, Heather Stone, Heather Mauve, Black, Navy, Heather Navy, Maroon, Military Green, Pink, Ash). country graphic tees 1,000 / KD 24 (RankHero, per brief; not re-measured, RankHero answers nothing unattended). Last known position: unknown.
+    const c = niche(N.country, 'tees', { slug: 'country-graphic-tees', keyword: 'country graphic tees', volume: 1000, kd: 24, product: 'country graphic tees', audience: 'women', name: 'Country Graphic Tees' });
+    c.title = 'Country Graphic Tees: Dirt Road Radio, Sweet Tea & Sunsets';
+    c.description = 'Country graphic tees: Dirt Road Radio, Sweet Tea & Sunsets, Saturday Night Rodeo. $24.99 through Nov 30, printed to order. Free US shipping $45+.';
+    c.intro = 'We sell 15 original country graphic tees, from Dirt Road Radio and Sweet Tea & Sunsets to Saturday Night Rodeo, Howdy and Hold On Eight, in sizes XS to 4XL on the unisex ones and S to 3XL on the women\'s. They are $24.99 through November 30, then $29.99, on a Bella+Canvas 3001 tee (4.2 oz lightweight cotton) or the relaxed women\'s Bella+Canvas 6400. Every tee is printed to order; {{order by Friday, December 4, 2026 for Christmas delivery in the US||Christmas delivery in the US is no longer guaranteed}}, and you get one free size exchange with nothing to mail back.';
+    c.sections = [
+      ...c.sections,
+      { h2: 'What to wear to a country concert, rodeo or barn dance', body: 'For a country concert, pair Dirt Road Radio with jeans and boots. For the rodeo or a barn dance, Saturday Night Rodeo and Howdy look right tucked into denim, and Natural or Vintage White hides the dust. Cold evening? Add a flannel or a denim jacket over the tee, or pull a hoodie on top.', links: [{ href: '/products/womens-country-dirt-road-radio-graphic-tee/', label: 'Dirt Road Radio' }, { href: '/products/womens-western-saturday-night-rodeo-graphic-tee/', label: 'Saturday Night Rodeo' }, { href: '/products/womens-western-howdy-graphic-tee/', label: 'Howdy' }] },
+      { h2: 'Country gifts for her', body: 'For the friend who lives for Saturday night, Sweet Tea & Sunsets and Run Free are easy gifts, and Hold On Eight suits the rodeo fan on any list. Every tee is printed to order and includes one free size exchange. For more cowgirl and cowboy art, see our western graphic tees and western hoodies.', links: [{ href: '/products/womens-country-sweet-tea-sunsets-graphic-tee/', label: 'Sweet Tea & Sunsets' }, { href: '/products/womens-western-run-free-graphic-tee/', label: 'Run Free' }, { href: '/products/unisex-western-hold-on-eight-graphic-tee/', label: 'Hold On Eight' }, { href: '/western-graphic-tees/', label: 'Western graphic tees' }, { href: '/hoodies/western-hoodies/', label: 'Western hoodies' }] },
+    ];
+    c.faqs = [
+      ...c.faqs,
+      { q: 'How do the country graphic tees fit?', a: 'The unisex tees are a classic fit in sizes XS to 4XL, and the women\'s tees are a relaxed cut in sizes S to 3XL. Order your usual size for an easy fit or one size up for a roomier look. Each product page has a size chart in inches, and Graphic Tees Co. gives you one free size exchange.' },
+      { q: 'What are the country tees made of?', a: 'Graphic Tees Co. country tees are Bella+Canvas 3001, a soft 4.2 oz lightweight tee of combed ring-spun cotton, or the relaxed Bella+Canvas 6400 for women\'s cuts. Heather colors blend in some polyester. The design is printed on the front when you order, so it feels soft rather than stiff.' },
+      { q: 'How do I wash a country graphic tee?', a: 'Turn it inside out, wash cold with similar colors, and tumble dry low or hang dry. Skip bleach and fabric softener, and never iron directly over the print. Cold water keeps the country art sharp wash after wash, and the cotton stays soft after a long night of dancing.' },
+      { q: 'What colors do the country tees come in?', a: 'Colors vary by design and include White, Vintage White, Natural, Black, Navy, Maroon, Military Green, Pink, Heather Stone, Heather Navy and Athletic Heather. We offer a color only where the art reads clearly, so each product page lists its colors with a photo of every one.' },
+      { q: 'How much are the country graphic tees?', a: 'Country graphic tees at Graphic Tees Co. [[are $24.99 through November 30, then $29.99.||are $29.99.]] Each tee is printed to order with original art, sizes run XS to 4XL on the unisex tees and S to 3XL on the women\'s, and orders of $45 or more ship free in the US.' },
+      { q: 'When should I order a country tee for Christmas?', a: '{{Order by Friday, December 4, 2026 for Christmas delivery in the US. Each tee is printed in 2–5 business days, then ships in about 3–8 business days. Orders of $45 or more ship free, and checkout shows a delivery estimate.||Christmas delivery in the US is no longer guaranteed. Each tee is printed in 2–5 business days, then ships in about 3–8 business days, so it may arrive after December 25. Orders of $45 or more ship free, and checkout shows a delivery estimate.}}' },
+    ];
+    return c;
+  })(),
   niche(N.cropped, 'tees', { slug: 'cropped-graphic-tees', keyword: 'cropped graphic tee', volume: 6600, kd: 38, product: 'cropped graphic tees', audience: 'women', name: 'Cropped Graphic Tees' }),
   {
     slug: 'graphic-tees-for-women-over-40', section: 'tees', audience: 'women', name: 'Women Over 40',
