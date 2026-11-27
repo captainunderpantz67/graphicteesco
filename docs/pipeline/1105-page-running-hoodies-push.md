@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: B
 type: redo
 id: 1105
@@ -18,3 +18,4 @@ Done when: astro build passes in normal, PRICE_DATE=2026-12-02 and PRICE_DATE=20
 ---
 ## Log
 - 2026-11-26 23:50 UTC director: brief written, READY ($0). Picked among never-pushed pages with 6+ live products; every KD-20-or-under page left (capybara hoodies 5, y2k zip-ups 4, pink camo 1) is under the depth floor.
+- 2026-11-27 18:10 UTC [B]: built, REVIEW. src/data/collections.ts only (hand-written running-hoodies entry edited in place; nothing true deleted). Fact-check via Admin GraphQL: 7 in collection, 7 ACTIVE (5 pullovers $39.99, 2 zips $57.99; Sand/Navy/Light Blue pullovers, zips Black/Navy/Ash + Pace adds White, Forest Green, Dark Chocolate, Dark Heather, Royal). Title 'Running Hoodies: Mile One Was a Mistake, Pace: Leisurely' (56); meta names 4 real lines; intro with count, {{ }} order-by, size exchange; new H2 'Wearing a hoodie to run' (links 4 designs + /hoodies/gym-hoodies/; no running tee page or guide exists); FAQs now 9 in schema. Fixed old wrong copy: FAQ said zip-up $44.99 and 'every hoodie over $45 ships free' (pullover is $39.99): replaced with [[ ]] price form. astro build passes normal, PRICE_DATE=2026-12-02 (only $44.99/62.99) and 2026-12-06 (no order-by claim); seo-audit no running-hoodies issue. Position source: RankHero 2026-10-18, not re-measured. fal $0.
