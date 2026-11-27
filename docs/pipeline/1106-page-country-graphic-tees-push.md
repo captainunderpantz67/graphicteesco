@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: B
 type: redo
 id: 1106
@@ -19,3 +19,4 @@ Done when: astro build passes in normal, PRICE_DATE=2026-12-02 and PRICE_DATE=20
 ## Log
 - 2026-11-27 14:40 UTC director: brief written, READY ($0). Never-pushed page with 6+ live products; KD-20-or-under pages left (capybara hoodies 5, y2k zip-ups 4, pink camo 1, half-zip pullovers 5) are under the depth floor.
 - 2026-11-27 21:40 UTC [B] built, REVIEW: collections.ts only (override around niche(N.country)): title 58, meta 145, answer-first intro, 2 new H2s (concert/rodeo, gifts for her), 8 FAQs; 15 ACTIVE products, all $24.99, fact-checked via Admin API; links 200 (western tees, western hoodies, 6 product pages); astro build normal / PRICE_DATE=2026-12-02 (no sale price) / 2026-12-06 (no order-by claim) pass; audit 823 products 0 errors. Keyword source RankHero per brief (not re-measured).
+- 2026-11-27 23:40 UTC director: LIVE as built. Builds normal / Dec 2 (sale prices gone, nothing raised twice) / Dec 6 (cutoff line swapped) read; links 200 and indexable; position unknown.
