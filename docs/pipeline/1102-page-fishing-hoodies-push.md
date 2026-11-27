@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: E
 type: redo
 id: 1102
@@ -18,3 +18,4 @@ Done when: astro build passes in normal, PRICE_DATE=2026-12-02 and PRICE_DATE=20
 ---
 ## Log
 - 2026-11-26 23:50 UTC director: brief written, READY ($0). Picked among never-pushed pages with 6+ live products; every KD-20-or-under page left (capybara hoodies 5, y2k zip-ups 4, pink camo 1) is under the depth floor.
+- 2026-11-27 13:40 UTC [B] builder: built, REVIEW. collections.ts only (IIFE override of the fishing-hoodies niche() call). Fact-check: 21 ACTIVE products in the collection (Admin GraphQL 2026-11-27; 7 pullover $39.99, 2 heavyweight $49.99, 5 camo $49.99, 7 embroidered zip $57.99); every line, color and price named is on a live product. Title 'Fishing Hoodies: Reel Talk, Catch and Release' (45), meta under 155, answer-first intro, 2 new H2s (cold boat or dock morning; Fishing gifts for dad, links to the guide and /fishing-t-shirts/, all 200), FAQs 7 added to the template ones (12 in FAQPage). astro build passes in normal, PRICE_DATE=2026-12-02 (no sale prices, 44.99/54.99/62.99) and 2026-12-06 (no order-by-Dec-4 claim). Keyword 6,600 / KD 30 from the brief, not re-measured. Last known position: unknown. fal $0, 0 new products.
