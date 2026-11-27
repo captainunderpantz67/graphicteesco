@@ -36,6 +36,8 @@ Things that need Sam's laptop and Chrome. Sam opens the computer about once a da
 - 2026-11-19 (Telegram 00:57 UTC): TikTok link from Sam with no note (https://www.tiktok.com/t/ZTPmsfQVy/). Not reviewed yet; nothing asked of us beyond saving it.
 - 2026-11-21 (Telegram 07:45 UTC): TikTok link from Sam with no note (https://www.tiktok.com/t/ZPN2e7cyN/). Not reviewed yet; nothing asked of us beyond saving it.
 - 2026-11-25 (Telegram 07:10 UTC): TikTok link from Sam with no note (https://www.tiktok.com/t/ZTPpbhWss/). Not reviewed yet; nothing asked of us beyond saving it.
+- 2026-11-27 (Telegram 07:31 UTC): TikTok link from Sam with no note (https://www.tiktok.com/t/ZPNyTbFdg/). Not reviewed yet; nothing asked of us beyond saving it.
+- 2026-11-27 (Telegram 07:33 UTC): TikTok link from Sam with no note (https://www.tiktok.com/t/ZPNyTCShR/). Not reviewed yet; nothing asked of us beyond saving it.
 
 ## Sam's clicks, in order (Claude 2026-10-18)
 1. Merchant Center → Data sources → "Shopify App API" (9,347 stale duplicates from the old sync) → ⋮ → delete. Keep PRODUCTS SOURCE 1/3/4/5 (our 4 feed pages).
