@@ -1,4 +1,4 @@
-status: READY
+status: REVIEW
 lane: C
 type: redo
 id: 1108
@@ -18,3 +18,4 @@ Done when: astro build passes in normal, PRICE_DATE=2026-12-02 and PRICE_DATE=20
 ---
 ## Log
 - 2026-11-27 23:40 UTC director: brief written, READY ($0). Never-pushed page with 6+ live (Admin count 2026-11-27: 22 live, 2 DRAFT not counted); every never-pushed KD-35-or-under page left is under 6 live (cropped graphic tees 5, half-zip pullovers 5, capybara hoodies 5).
+- 2026-11-28 13:50 UTC [B]: built, REVIEW. collections.ts only: oversized-hoodies override (title, meta, intro, 2 sections with 8 live-product links, FAQs to 8). 22 ACTIVE fact-checked via Admin (all $54.99, Dust/Navy/Athletic Heather/Asphalt/Black, S-3XL). Links curl 200. astro build passes normal, PRICE_DATE=2026-12-02 (no sale price) and 2026-12-06 (no Dec-4 claim); page about 1,850 words. fal $0.
