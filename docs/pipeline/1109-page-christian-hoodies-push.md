@@ -1,4 +1,4 @@
-status: REVIEW
+status: LIVE
 lane: C
 type: redo
 id: 1109
@@ -19,3 +19,4 @@ Done when: astro build passes in normal, PRICE_DATE=2026-12-02 and PRICE_DATE=20
 ## Log
 - 2026-11-27 23:40 UTC director: brief written, READY ($0). Never-pushed page with 6+ live (Admin count 2026-11-27: 11 live); every never-pushed KD-35-or-under page left is under 6 live (cropped graphic tees 5, half-zip pullovers 5, capybara hoodies 5).
 - 2026-11-28 14:10 UTC [B]: built, REVIEW. collections.ts only: christian-hoodies override (title, meta, intro, 2 sections, FAQs to 8). 11 ACTIVE fact-checked via Admin. No Bible verse or reference quoted (art not re-read), titles only. /christian-shirts/ and /christian-shirts-for-men/ curl 200, no noindex. astro build passes normal, 2026-12-02, 2026-12-06; page ~1,550 words. fal $0.
+- 2026-11-28 14:45 UTC director: LIVE. Read as a shopper in 3 builds; Still Under Construction title and Amazing Grace copy re-read in Shopify. Fixed (R8.6): 'women's Christian shirts carry the same art on lighter tees' was unverified, now 'have more faith designs on tees'. Meta Dec-true (From $44.99 on Dec 2). Position unknown.
