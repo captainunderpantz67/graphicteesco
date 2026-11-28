@@ -6055,6 +6055,97 @@ const rawGuides: Guide[] = [
       { q: 'When should I order a gift for Gigi for Christmas?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days. US shipping is free on orders of $45 or more.' },
     ],
   },
+  {
+    // Writer lane W (2026-11-28), draft. Keyword: guy gifts 9,900 / KD 29 (RankHero via scripts/keyword-gap.py, measured 2026-10-18 per docs/pipeline/584, competition 8,691; NOT re-pulled this run, RankHero returned no data unattended). Editorial gift phrase, guide target only (R2.10). Unowned: only "car guy gifts" is claimed (product #584); "guy gifts" is in no collection, product or guide. Director: confirm the keyword.
+    // Facts (art, colors, sizes, fabrics, prices) from the LIVE Shopify Stories read 2026-11-28; policies and dates from the sibling xmas-gifts-for-him guide and site.ts. FAQ questions are not from PAA or GSC (not available unattended).
+    // Angle: the odd-job and odd-hobby guy (drummer, lineman, runner, firefighter, the overlook hiker). None of these picks leads another guide; the gym, fishing, golf, mechanic and welder picks stay with xmas-gifts-for-him and its siblings. Every handle is in src/data/fresh-designs.json.
+    // Siblings linked by slug: xmas-gifts-for-him, gifts-for-mechanics, gifts-for-welders, funny-gifts-for-dad, christmas-gifts-for-brother, gym-gifts-for-men.
+    slug: 'guy-gifts',
+    keyword: 'guy gifts',
+    title: 'Guy Gifts: Funny Shirts for the Guy With an Odd Hobby',
+    description: 'Guy gifts for the drummer, lineman, runner, firefighter and overlook hiker. Funny tees $24.99, hoodies $39.99, printed to order with a free size exchange.',
+    h1: 'Guy Gifts: Funny Shirts for the Guy Whose Hobby Nobody Else Buys For',
+    date: '2026-11-28',
+    cluster: 'tees',
+    draft: true,
+    answer: 'A good gift for a guy is a funny shirt about the thing he already does. Graphic Tees Co. has original designs for the drummer (The Neighbors Love Me, tee $24.99, hoodie $39.99), the lineman (Bad Weather Is My Overtime, tee $24.99), the runner (I Only Run Downhill, tee $24.99), the firefighter (Yes, One Cat. Once., hoodie $39.99) and the guy who skips the hike (The Mountains Called. Left Them on Read., hoodie $39.99). Those are sale prices through November 30, 2026; from December 1 tees are $29.99 and hoodies $44.99. Each is printed after you order. Order by December 4, 2026 for Christmas.',
+    picks: [
+      {
+        h2: 'What is a funny gift for a guy who plays drums?',
+        body: ['The Neighbors Love Me. It is for the drummer who practices with the garage door open and says it with a straight face.'],
+        items: [
+          { slogan: 'THE NEIGHBORS LOVE ME.', tee: 'mens-drummer-the-neighbors-love-me-graphic-tee',
+            text: 'A vintage suburban screen-print scene of three small houses in a row. In the middle one a young drummer plays a kit in an open garage, on the left a man in a bathrobe presses a pillow over his ears on the porch, and on the right a woman leans out of a window holding her ears while a cat lies flattened on the steps, in cream, faded red, sage and navy. THE NEIGHBORS sits above and LOVE ME. below in bold slab capitals. The tee is $24.99, a lightweight 4.2 oz cotton cut in ten colors, sizes S to 4XL.' },
+          { slogan: 'THE NEIGHBORS LOVE ME.', tee: 'mens-drummer-the-neighbors-love-me-hoodie',
+            text: 'The same garage scene on an 8 oz cotton-polyester pullover with a double-lined hood and a front pouch pocket. The hoodie is $39.99 in Sand and Navy, sizes S to 3XL.' },
+        ],
+      },
+      {
+        h2: 'What do you give a lineman who lives for storm season?',
+        body: ['Bad Weather Is My Overtime. It is for the lineman whose phone rings first when the wind picks up.'],
+        items: [
+          { slogan: 'BAD WEATHER IS MY OVERTIME.', tee: 'mens-lineman-bad-weather-is-my-overtime-graphic-tee',
+            text: 'A grinning lineman in a yellow hard hat, navy coveralls and red boots crouches on a wooden pole crossarm, wires and insulators around him, rain streaking past and a yellow lightning bolt in the corner. BAD WEATHER sits above in slab capitals and IS MY OVERTIME. below. The tee is $24.99 in eight colors, sizes S to 4XL. It is a casual tee, not flame-resistant or protective clothing.' },
+        ],
+        links: [{ href: '/graphic-tees-for-men/', text: 'Men’s graphic tees' }],
+      },
+      {
+        h2: 'What is a funny gift for a guy who only runs downhill?',
+        body: ['I Only Run Downhill. It is for the weekend jogger who loves the drop and refuses to discuss the climb.'],
+        items: [
+          { slogan: 'I ONLY RUN DOWNHILL.', tee: 'mens-running-i-only-run-downhill-graphic-tee',
+            text: 'A laughing jogger in a red headband and singlet bounds down a grassy slope with his arms spread wide, a steep road rising behind him, in faded red, navy, mustard and cream. I ONLY RUN sits above in slab capitals and DOWNHILL. below in larger letters. The tee is $24.99 in eight colors, sizes S to 4XL.' },
+        ],
+      },
+      {
+        h2: 'What do you give a firefighter who is tired of the cat question?',
+        body: ['Yes, One Cat. Once. It answers the question every firefighter gets at every cookout.'],
+        items: [
+          { slogan: 'YES, ONE CAT. ONCE.', tee: 'mens-firefighter-yes-one-cat-once-hoodie',
+            text: 'A firefighter in a red helmet and turnout coat balances on a wooden ladder against a bare tree and holds a big, unimpressed striped cat at arm’s length, a few leaves drifting past. YES, ONE CAT. runs across the top in slab capitals and ONCE. below in larger red letters. The hoodie is an 8 oz cotton-polyester pullover, $39.99 in Sand and Navy, sizes S to 3XL. It is casual wear, not turnout gear.' },
+        ],
+      },
+      {
+        h2: 'What is a good gift for a guy who says he will hike next weekend?',
+        body: ['The Mountains Called. Left Them on Read. It is for the guy who loves the view from the overlook pull-off and not the 9-mile trail.'],
+        items: [
+          { slogan: 'THE MOUNTAINS CALLED. LEFT THEM ON READ.', tee: 'mens-outdoors-mountains-called-left-on-read-hoodie',
+            text: 'A sweeping mountain range at sunset with layered peaks, pine trees and a winding river, in faded orange, mustard, teal and cream. THE MOUNTAINS CALLED. stacks above and LEFT THEM ON READ. below in heavy slab capitals. The hoodie is an 8 oz cotton-polyester pullover with a double-lined hood and a front pouch pocket, $39.99 in Sand and Navy, sizes S to 3XL.' },
+        ],
+        links: [{ href: '/hoodies/', text: 'All graphic hoodies' }],
+      },
+    ],
+    sections: [
+      { h2: 'What makes a good gift for a guy?',
+        body: ['Something that proves you noticed what he does. A guy with a drum kit in the garage or a pager on the nightstand will wear a shirt about it, because he is in on the joke. Generic gifts get put in a drawer.',
+          'Graphic Tees Co. designs are original art with the joke set in big type. They carry no team, brand or character logos, so there is nothing to explain.'],
+        links: [{ href: '/christmas-shirts-for-men/', text: 'Men’s Christmas shirts' }] },
+      { h2: 'Should you buy him a tee or a hoodie?',
+        body: ['The tee is the easy pick: $24.99 through November 30 in a lightweight 4.2 oz cotton cut. The hoodie is $39.99 in 8 oz fleece, the better gift for a guy who practices in a cold garage or works outside.',
+          'The drummer design comes as both. The lineman and runner designs are tees here, and the firefighter and mountain designs are hoodies.'],
+        links: [{ href: '/hoodies/', text: 'Graphic hoodies' }] },
+      { h2: 'What if you do not know his size?',
+        body: ['Check the size chart on the product page against a shirt he already owns. The tees run S to 4XL in a classic unisex cut, and the hoodies run S to 3XL.',
+          'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and he does not have to mail the first one back. If an order arrives misprinted, damaged or defective, send a photo within 30 days and it is reprinted free or refunded.'],
+        links: [{ href: '/shipping-returns/', text: 'Shipping and returns' }] },
+      { h2: 'What are good guy gifts under $50?',
+        body: ['Every pick here is under $50: tees are $24.99 and hoodies $39.99. On December 1 the tees step to $29.99 and the hoodies to $44.99, still under $50. US shipping is free on orders of $45 or more, so [[two tees ship free at $49.98||two tees ($59.98) ship free]].'],
+        links: [{ href: '/guides/cheap-christmas-gifts/', text: 'Cheap Christmas gifts' }] },
+      { h2: 'When should you order a gift for a guy?',
+        body: ['For Christmas, order by Friday, December 4, 2026 to leave a margin. Printing takes 2–5 business days and delivery about 3–8 business days, up to 13 business days in total, and Christmas is Friday, December 25. Exact estimates show at checkout.'] },
+      { h2: 'Where else can you find gifts for the guys in your life?',
+        body: ['If his hobby is the gym, fishing, golf, cars or welding, the guides below have those shirts. For a dad or a brother, see their guides.'],
+        links: [{ href: '/guides/xmas-gifts-for-him/', text: 'Xmas gifts for him' }, { href: '/guides/gifts-for-mechanics/', text: 'Gifts for mechanics' }, { href: '/guides/gifts-for-welders/', text: 'Gifts for welders' }, { href: '/guides/gym-gifts-for-men/', text: 'Gym gifts for men' }, { href: '/guides/funny-gifts-for-dad/', text: 'Funny gifts for dad' }, { href: '/guides/christmas-gifts-for-brother/', text: 'Christmas gifts for brother' }] },
+    ],
+    faqs: [
+      { q: 'What are good gifts for a guy?', a: 'A funny shirt about his hobby, like The Neighbors Love Me for a drummer or Bad Weather Is My Overtime for a lineman, from Graphic Tees Co. Tees are $24.99 through November 30, 2026 and $29.99 from December 1, all printed after you order.' },
+      { q: 'What is a funny gift for a guy under $30?', a: 'Any Graphic Tees Co. tee in this guide: The Neighbors Love Me, Bad Weather Is My Overtime or I Only Run Downhill. Each is $24.99 through November 30, 2026, then $29.99.' },
+      { q: 'What is a good gift for a firefighter?', a: 'The Yes, One Cat. Once. hoodie from Graphic Tees Co. It prints a deadpan firefighter on a ladder holding an unimpressed cat, and costs $39.99 through November 30, 2026 in Sand or Navy, sizes S to 3XL. It is casual wear, not turnout gear.' },
+      { q: 'What is a good gift for a drummer?', a: 'The Neighbors Love Me tee ($24.99) or hoodie ($39.99) from Graphic Tees Co., through November 30, 2026. The art shows a drummer in an open garage while the neighbors cover their ears.' },
+      { q: 'What if the size is wrong?', a: 'Within 30 days of delivery, Graphic Tees Co. sends one replacement in a new size free, and you do not have to mail the first one back. The tees run S to 4XL and the hoodies S to 3XL, so compare the size chart with a shirt he already owns.' },
+      { q: 'When should I order a gift for a guy for Christmas?', a: 'Order by Friday, December 4, 2026. Graphic Tees Co. prints each piece in 2–5 business days and delivery takes about 3–8 business days, up to 13 business days in total.' },
+    ],
+  },
 ];
 
 // Only approved guides are built and linked.
